@@ -121,7 +121,7 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL &lt;= DISPAT
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
@@ -129,7 +129,7 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL &lt;= DISPAT
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 
 

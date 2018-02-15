@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9bf6c47-b7ce-413d-8871-4d9d68e27715
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, kmdf.wdf_usb_continuous_reader_config_init, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml, wdf.wdf_usb_continuous_reader_config_init
+ms.keywords: wdf.wdf_usb_continuous_reader_config_init, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT, DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, kmdf.wdf_usb_continuous_reader_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

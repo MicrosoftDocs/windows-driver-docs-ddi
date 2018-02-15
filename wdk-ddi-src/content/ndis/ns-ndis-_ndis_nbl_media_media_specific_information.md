@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 01c0d9bb-5935-4b61-a04d-f9fcc5457152
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure [Network Drivers Starting with Windows Vista], ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis_netbuf_structures_ref_d272f589-0af5-458e-8238-5ba58858ccc0.xml, netvista.ndis_nbl_media_specific_information
+ms.keywords: netvista.ndis_nbl_media_specific_information, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure [Network Drivers Starting with Windows Vista], ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, *PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_d272f589-0af5-458e-8238-5ba58858ccc0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,18 +118,12 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg159261.aspx">
-   NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566503">
-   NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566520">
    NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -137,7 +131,13 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg159261.aspx">
+   NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566503">
+   NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E8E05F9B-2F83-4537-979E-024E8412D733
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIntToShort, ntintsafe/RtlIntToShort, kernel.rtlinttoshort, RtlIntToShort function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlIntToShort, kernel.rtlinttoshort, RtlIntToShort function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

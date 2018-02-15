@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 45E51355-9570-4548-B056-D1655BED5462
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.write_register_buffer_ushort, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT function, umdf.write_register_buffer_ushort
+ms.keywords: WRITE_REGISTER_BUFFER_USHORT function, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT, wdf.write_register_buffer_ushort, umdf.write_register_buffer_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

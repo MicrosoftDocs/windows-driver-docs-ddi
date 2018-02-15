@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SetTechnology method [Audio Devices], IMusicTechnology interface, SetTechnology method [Audio Devices], IMusicTechnology::SetTechnology, portcls/IMusicTechnology::SetTechnology, SetTechnology, IMusicTechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, audio.imusictechnology_settechnology, IMusicTechnology interface [Audio Devices], SetTechnology method
+ms.keywords: IMusicTechnology::SetTechnology, audio.imusictechnology_settechnology, SetTechnology method [Audio Devices], IMusicTechnology interface, SetTechnology method [Audio Devices], IMusicTechnology interface [Audio Devices], SetTechnology method, portcls/IMusicTechnology::SetTechnology, IMusicTechnology, SetTechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

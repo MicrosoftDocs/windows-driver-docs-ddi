@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c2d775b1-364a-4c50-bd5e-dab9d9e07b83
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/NtRollforwardTransactionManager, wdm/ZwRollforwardTransactionManager, kernel.zwrollforwardtransactionmanager, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], NtRollforwardTransactionManager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, ZwRollforwardTransactionManager
+ms.keywords: kernel.zwrollforwardtransactionmanager, NtRollforwardTransactionManager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, wdm/NtRollforwardTransactionManager, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], wdm/ZwRollforwardTransactionManager, ZwRollforwardTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -175,7 +175,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-tmrecovertransactionmanager.md">TmRecoverTransactionManager</a>
 
 
 
@@ -183,7 +183,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-tmrecovertransactionmanager.md">TmRecoverTransactionManager</a>
+<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
 
 
 
@@ -191,7 +191,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

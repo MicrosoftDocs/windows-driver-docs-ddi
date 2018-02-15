@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: cbbe0d76-7fd1-4653-ad79-d5e6d692dec0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices], Init method, Init method [Imaging Devices], CWiauPropertyList, CWiauPropertyList::Init, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, image.cwiaupropertylist_init, wiautil/CWiauPropertyList::Init, Init method [Imaging Devices], CWiauPropertyList interface, Init
+ms.keywords: CWiauPropertyList, Init method [Imaging Devices], CWiauPropertyList interface, wiautil/CWiauPropertyList::Init, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, CWiauPropertyList interface [Imaging Devices], Init method, CWiauPropertyList::Init, Init method [Imaging Devices], Init, image.cwiaupropertylist_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,11 +88,11 @@ On success, the <b>CWiauPropertyList::Init</b> method returns S_OK. If the metho
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
-
-
-
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
 
 
 

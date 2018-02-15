@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0b5f791a-9814-4058-8ee0-8f113ca3ade2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUTF8ToUnicodeN, kernel.rtlutf8tounicoden, RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture], k109_67399c4f-a942-4493-b141-6824b6de570c.xml, wdm/RtlUTF8ToUnicodeN
+ms.keywords: RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture], wdm/RtlUTF8ToUnicodeN, RtlUTF8ToUnicodeN, kernel.rtlutf8tounicoden, k109_67399c4f-a942-4493-b141-6824b6de570c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

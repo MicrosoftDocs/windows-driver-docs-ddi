@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 20d61d23-4151-4a23-8963-6e38a08f391e
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxPrefixTableLookupName function [Installable File System Drivers], ifsk.rxprefixtablelookupname, RxPrefixTableLookupName, prefix/RxPrefixTableLookupName, rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml
+ms.keywords: RxPrefixTableLookupName, prefix/RxPrefixTableLookupName, RxPrefixTableLookupName function [Installable File System Drivers], ifsk.rxprefixtablelookupname, rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -136,7 +136,7 @@ On checked builds, <b>RxPrefixTableLookupName</b> causes the system to ASSERT if
 
 ## -see-also
 
-<a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
 
 
 
@@ -144,7 +144,7 @@ On checked builds, <b>RxPrefixTableLookupName</b> causes the system to ASSERT if
 
 
 
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
+<a href="..\prefix\nf-prefix-rxpreleaseprefixtablelock.md">RxpReleasePrefixTableLock</a>
 
 
 

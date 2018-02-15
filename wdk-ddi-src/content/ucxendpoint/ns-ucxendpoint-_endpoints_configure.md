@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ENDPOINTS_CONFIGURE structure [Buses], ucxendpoint/_ENDPOINTS_CONFIGURE, _ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE, ucxendpoint/P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], buses._endpoints_configure, ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE
+ms.keywords: ucxendpoint/_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE, buses._endpoints_configure, *PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, _ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], ucxendpoint/P_ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

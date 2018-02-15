@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 042378f0-aa0f-49be-b881-86558ad33baf
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IUnregisterSubdevice::UnregisterSubdevice, audio.iunregistersubdevice_unregistersubdevice, UnregisterSubdevice, IUnregisterSubdevice interface [Audio Devices], UnregisterSubdevice method, portcls/IUnregisterSubdevice::UnregisterSubdevice, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml, IUnregisterSubdevice, UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice interface, UnregisterSubdevice method [Audio Devices]
+ms.keywords: IUnregisterSubdevice::UnregisterSubdevice, audio.iunregistersubdevice_unregistersubdevice, UnregisterSubdevice method [Audio Devices], UnregisterSubdevice method [Audio Devices], IUnregisterSubdevice interface, IUnregisterSubdevice, portcls/IUnregisterSubdevice::UnregisterSubdevice, UnregisterSubdevice, IUnregisterSubdevice interface [Audio Devices], UnregisterSubdevice method, audmp-routines_8fb24a5e-af25-42e0-a96e-2f4728f17cde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,7 +98,7 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -106,11 +106,11 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\portcls\nn-portcls-iunregistersubdevice.md">IUnregisterSubdevice</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
 
 

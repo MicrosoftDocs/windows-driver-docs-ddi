@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a655bcde-c627-4c90-8579-348ab0174c27
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/CcDeferWrite, ifsk.ccdeferwrite, CcDeferWrite routine [Installable File System Drivers], ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, CcDeferWrite
+ms.keywords: ccref_06158fb8-cf33-42fa-bf7c-94b3a5e1fcfd.xml, CcDeferWrite routine [Installable File System Drivers], ifsk.ccdeferwrite, ntifs/CcDeferWrite, CcDeferWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,7 +142,7 @@ The context parameters passed to <i>PostRoutine</i> are typically the I/O reques
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
+<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
 
 
 
@@ -150,7 +150,7 @@ The context parameters passed to <i>PostRoutine</i> are typically the I/O reques
 
 
 
-<a href="..\ntifs\nf-ntifs-cccaniwrite.md">CcCanIWrite</a>
+<a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
 
 
 

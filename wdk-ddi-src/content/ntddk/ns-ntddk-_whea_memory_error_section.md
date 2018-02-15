@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: WHEA_MEMORY_ERROR, ntddk/WHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, _WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], whea.whea_memory_error_section, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, WHEA_MEMORY_ERROR_SECTION
+ms.keywords: whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, WHEA_MEMORY_ERROR, whea.whea_memory_error_section, ntddk/WHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, _WHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_MEMORY_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -283,11 +283,7 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
@@ -295,7 +291,11 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 

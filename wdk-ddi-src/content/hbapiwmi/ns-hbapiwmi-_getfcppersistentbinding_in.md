@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b08354c8-ef4e-4330-8a3b-dcfe3a722a5d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetFcpPersistentBinding_IN structure pointer [Storage Devices], PGetFcpPersistentBinding_IN, storage.getfcppersistentbinding_in, *PGetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN, hbapiwmi/PGetFcpPersistentBinding_IN, structs-Fibre_34b0e554-331b-4f99-ae8e-5c2e9855b641.xml, _GetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN structure [Storage Devices], hbapiwmi/GetFcpPersistentBinding_IN
+ms.keywords: storage.getfcppersistentbinding_in, PGetFcpPersistentBinding_IN, PGetFcpPersistentBinding_IN structure pointer [Storage Devices], hbapiwmi/GetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN structure [Storage Devices], _GetFcpPersistentBinding_IN, *PGetFcpPersistentBinding_IN, structs-Fibre_34b0e554-331b-4f99-ae8e-5c2e9855b641.xml, hbapiwmi/PGetFcpPersistentBinding_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

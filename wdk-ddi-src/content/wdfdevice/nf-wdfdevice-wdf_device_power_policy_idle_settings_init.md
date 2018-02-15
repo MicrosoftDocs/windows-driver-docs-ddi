@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e5a80021-1d9d-42f4-9344-9dd8d9524d0b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_device_power_policy_idle_settings_init, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, wdf.wdf_device_power_policy_idle_settings_init, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, DFDeviceObjectGeneralRef_1aaae0d7-3b13-43f6-b7e4-7c105b2e41b2.xml, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function
+ms.keywords: kmdf.wdf_device_power_policy_idle_settings_init, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, DFDeviceObjectGeneralRef_1aaae0d7-3b13-43f6-b7e4-7c105b2e41b2.xml, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, wdf.wdf_device_power_policy_idle_settings_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

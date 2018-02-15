@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4fa3d51a-d2f5-4b5f-abc0-515bf7211b87
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/ReadControlSpace64, WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, debugger.readcontrolspace64, ReadControlSpace64 function [Windows Debugging], ReadControlSpace64
+ms.keywords: wdbgexts/ReadControlSpace64, WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, ReadControlSpace64 function [Windows Debugging], debugger.readcontrolspace64, ReadControlSpace64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

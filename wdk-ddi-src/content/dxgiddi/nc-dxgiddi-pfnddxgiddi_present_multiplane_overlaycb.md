@@ -73,8 +73,9 @@ HRESULT __stdcall* pfnPresentMultiPlaneOverlayCb(
 ### -param hDevice
 
 
-
 ### -param *
+
+
 
 
 
@@ -89,14 +90,18 @@ A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneove
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -remarks
 
 
+
 When the user-mode display driver successfully completes its processing of a call to this function, it presents the source surface to the display by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a> function.
+
 
 
 
@@ -104,7 +109,11 @@ When the user-mode display driver successfully completes its processing of a cal
 
 <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
+
+
 
  
 

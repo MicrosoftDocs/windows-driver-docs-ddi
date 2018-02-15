@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 70efd8d7-c275-440e-a4df-f41b799a63f0
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_6fc017ff-369c-47c3-8a5c-45f808d1d86c.xml, RxIndicateChangeOfBufferingStateForSrvOpen function [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstateforsrvopen, RxIndicateChangeOfBufferingStateForSrvOpen, rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen
+ms.keywords: rxref_6fc017ff-369c-47c3-8a5c-45f808d1d86c.xml, rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen, RxIndicateChangeOfBufferingStateForSrvOpen, ifsk.rxindicatechangeofbufferingstateforsrvopen, RxIndicateChangeOfBufferingStateForSrvOpen function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,15 +128,15 @@ If a buffering state request can be processed immediately instead of being queue
 
 ## -see-also
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxchangebufferingstate.md">RxChangeBufferingState</a>
 
 
 
 <a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
+
+
+
+<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
 
 

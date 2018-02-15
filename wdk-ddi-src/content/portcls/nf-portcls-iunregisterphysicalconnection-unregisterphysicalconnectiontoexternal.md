@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 250bf99c-d5fa-459b-bd94-d438368379f1
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audmp-routines_9c455ca4-88c6-46a3-9ec6-a5f176802947.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, audio.iunregisterphysicalconnection_unregisterphysicalconnectiontoexternal, UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal method [Audio Devices], IUnregisterPhysicalConnection interface, IUnregisterPhysicalConnection, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal method [Audio Devices], IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionToExternal method
+ms.keywords: UnregisterPhysicalConnectionToExternal, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionToExternal method, audmp-routines_9c455ca4-88c6-46a3-9ec6-a5f176802947.xml, UnregisterPhysicalConnectionToExternal method [Audio Devices], portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal method [Audio Devices], IUnregisterPhysicalConnection interface, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, IUnregisterPhysicalConnection, audio.iunregisterphysicalconnection_unregisterphysicalconnectiontoexternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,15 +116,15 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
+
+
+
 <a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
 
 
 

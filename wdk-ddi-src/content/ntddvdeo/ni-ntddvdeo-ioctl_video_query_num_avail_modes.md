@@ -118,11 +118,11 @@ If the miniport driver successfully returns the mode count, it sets the <b>Infor
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_num_modes.md">VIDEO_NUM_MODES</a>
-
-
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_query_avail_modes.md">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
+
+
+
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_num_modes.md">VIDEO_NUM_MODES</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b70d4a57-c687-40b8-bbf2-4a0a2fbf4863
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsCreateClock2, KsCreateClock2 function [Streaming Media Devices], stream.kscreateclock2, KsCreateClock2
+ms.keywords: stream.kscreateclock2, KsCreateClock2, KsCreateClock2 function [Streaming Media Devices], ks/KsCreateClock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,11 @@ This is a new version of the <a href="..\ks\nf-ks-kscreateclock.md">KsCreateCloc
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
-
-
-
 <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
+
+
+
+<a href="..\ks\nf-ks-kscreateclock.md">KsCreateClock</a>
 
 
 

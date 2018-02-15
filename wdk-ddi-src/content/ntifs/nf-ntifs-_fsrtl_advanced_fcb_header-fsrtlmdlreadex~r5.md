@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E1F16454-C8E6-4291-83BB-F4CF18F6DF10
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlMdlReadEx, ntifs/FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex
+ms.keywords: FsRtlMdlReadEx, ifsk.fsrtlmdlreadex, FsRtlMdlReadEx routine [Installable File System Drivers], ntifs/FsRtlMdlReadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,7 +145,7 @@ Similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+<a href="..\ntifs\nf-ntifs-ccmdlreadcomplete.md">CcMdlReadComplete</a>
 
 
 
@@ -153,7 +153,7 @@ Similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmdlreadcomplete.md">CcMdlReadComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
 
 
 

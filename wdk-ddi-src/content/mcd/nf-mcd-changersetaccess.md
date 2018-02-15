@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 586820c5-5662-4f2d-9413-d06b9794173a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerSetAccess, storage.changersetaccess, ChangerSetAccess function [Storage Devices], mcd/ChangerSetAccess, chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml
+ms.keywords: ChangerSetAccess, mcd/ChangerSetAccess, ChangerSetAccess function [Storage Devices], chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml, storage.changersetaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ Finally, <b>ChangerSetAccess</b> builds an SRB with a CDB for the given operatio
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 

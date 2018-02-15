@@ -77,6 +77,7 @@ The engine calls the <b>DebugExtensionNotify</b> callback function to inform the
 ### -param Notify [in]
 
 Can be any of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -122,7 +123,8 @@ The debugging session has started running and is now inaccessible.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Argument [in]
@@ -133,11 +135,14 @@ Set to zero. (Reserved for future use.)
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This function is optional.  A DbgEng extension DLL only needs to export <b>DebugExtensionNotify</b> if it wants to be notified when the session state changes.  The engine looks for this function by name in the extension DLL.
@@ -148,9 +153,12 @@ After the extension DLL is initialized, the engine will use this function to not
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+
 
  
 

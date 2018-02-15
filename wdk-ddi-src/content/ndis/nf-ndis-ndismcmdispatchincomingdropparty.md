@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmdispatchincomingdropparty, NdisMCmDispatchIncomingDropParty, ndis/NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml
+ms.keywords: netvista.ndismcmdispatchincomingdropparty, NdisMCmDispatchIncomingDropParty, condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, ndis/NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -95,6 +95,13 @@ TBD
 
 
 
+#### - Buffer [in, optional]
+
+Pointer to a caller-allocated resident buffer containing additional protocol-specific data
+     received from the remote party, if any. Depending on the underlying medium, this pointer can be
+     <b>NULL</b>.
+
+
 #### - DropStatus [in]
 
 Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
@@ -107,13 +114,6 @@ Specifies the handle that identifies the party to be dropped from the multipoint
      have other parties that are still connected. The MCM driver originally obtained this handle as an input
      parameter to its 
      <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
-
-
-#### - Buffer [in, optional]
-
-Pointer to a caller-allocated resident buffer containing additional protocol-specific data
-     received from the remote party, if any. Depending on the underlying medium, this pointer can be
-     <b>NULL</b>.
 
 
 #### - Size [in]
@@ -159,6 +159,10 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 
@@ -174,10 +178,6 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
    NdisCmDispatchIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 
 

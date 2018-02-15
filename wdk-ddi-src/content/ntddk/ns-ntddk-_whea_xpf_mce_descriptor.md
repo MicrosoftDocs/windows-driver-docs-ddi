@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: cdf52fe7-40ac-4baf-aaa0-c23b40574376
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: whea.whea_xpf_mce_descriptor, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml, WHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], *PWHEA_XPF_MCE_DESCRIPTOR, ntddk/WHEA_XPF_MCE_DESCRIPTOR, ntddk/PWHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], _WHEA_XPF_MCE_DESCRIPTOR
+ms.keywords: ntddk/PWHEA_XPF_MCE_DESCRIPTOR, whea.whea_xpf_mce_descriptor, PWHEA_XPF_MCE_DESCRIPTOR, whearef_77725c63-dffe-45f9-9a52-cef3fb8d124e.xml, _WHEA_XPF_MCE_DESCRIPTOR, WHEA_XPF_MCE_DESCRIPTOR, PWHEA_XPF_MCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_MCE_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/WHEA_XPF_MCE_DESCRIPTOR, *PWHEA_XPF_MCE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -162,11 +162,11 @@ A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_xpf_mc_bank_descriptor.md">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
 
 
 

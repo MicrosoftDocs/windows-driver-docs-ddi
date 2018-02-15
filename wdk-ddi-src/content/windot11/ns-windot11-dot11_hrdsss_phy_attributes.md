@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 435e74b4-1a29-4031-bf21-92eae71e99a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_HRDSSS_PHY_ATTRIBUTES, netvista.dot11_hrdsss_phy_attributes, *PDOT11_HRDSSS_PHY_ATTRIBUTES, PDOT11_HRDSSS_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_HRDSSS_PHY_ATTRIBUTES, Native_802.11_data_types_5223e673-249b-42b9-9939-6d4d9aad5e0b.xml, windot11/DOT11_HRDSSS_PHY_ATTRIBUTES, DOT11_HRDSSS_PHY_ATTRIBUTES, DOT11_HRDSSS_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_hrdsss_phy_attributes, windot11/PDOT11_HRDSSS_PHY_ATTRIBUTES, DOT11_HRDSSS_PHY_ATTRIBUTES, Native_802.11_data_types_5223e673-249b-42b9-9939-6d4d9aad5e0b.xml, PDOT11_HRDSSS_PHY_ATTRIBUTES, PDOT11_HRDSSS_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_HRDSSS_PHY_ATTRIBUTES, windot11/DOT11_HRDSSS_PHY_ATTRIBUTES, DOT11_HRDSSS_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

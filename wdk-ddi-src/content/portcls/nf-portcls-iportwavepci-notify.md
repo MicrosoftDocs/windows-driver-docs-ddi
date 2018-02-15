@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fa65b3c3-196c-4cf4-8c9e-c0c9a33b2881
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: Notify method [Audio Devices], IPortWavePci interface [Audio Devices], Notify method, IPortWavePci, Notify, audio.iportwavepci_notify, Notify method [Audio Devices], IPortWavePci interface, portcls/IPortWavePci::Notify, audmp-routines_5b988b85-05d1-4a66-b04d-fdd21dcf0310.xml, IPortWavePci::Notify
+ms.keywords: audio.iportwavepci_notify, portcls/IPortWavePci::Notify, audmp-routines_5b988b85-05d1-4a66-b04d-fdd21dcf0310.xml, Notify method [Audio Devices], IPortWavePci interface, IPortWavePci, IPortWavePci interface [Audio Devices], Notify method, IPortWavePci::Notify, Notify method [Audio Devices], Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

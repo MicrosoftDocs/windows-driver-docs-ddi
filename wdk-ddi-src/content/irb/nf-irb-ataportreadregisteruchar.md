@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1baa8d01-b889-4f2b-ad9e-f35078f7b3d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_63ee26b2-b436-4dc6-a3aa-5a13691e85dd.xml, storage.ataportreadregisteruchar, AtaPortReadRegisterUchar, AtaPortReadRegisterUchar routine [Storage Devices], irb/AtaPortReadRegisterUchar
+ms.keywords: irb/AtaPortReadRegisterUchar, AtaPortReadRegisterUchar routine [Storage Devices], AtaPortReadRegisterUchar, storage.ataportreadregisteruchar, atartns_63ee26b2-b436-4dc6-a3aa-5a13691e85dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,11 +86,11 @@ A pointer to the register to read. The address value that is assigned to this pa
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadregisterulong.md">AtaPortReadRegisterUlong</a>
-
-
-
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+
+
+<a href="..\irb\nf-irb-ataportreadregisterulong.md">AtaPortReadRegisterUlong</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e9c11c07-bd4a-4d49-a820-4617be691c80
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutSimpleValue method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], OutSimpleValue method, debugger.extremotetyped_outsimplevalue, EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml, OutSimpleValue method [Windows Debugging], ExtRemoteTyped interface, OutSimpleValue, ExtRemoteTyped, ExtRemoteTyped::OutSimpleValue
+ms.keywords: ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], OutSimpleValue method, ExtRemoteTyped::OutSimpleValue, OutSimpleValue method [Windows Debugging], debugger.extremotetyped_outsimplevalue, OutSimpleValue, OutSimpleValue method [Windows Debugging], ExtRemoteTyped interface, EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -89,11 +89,11 @@ The value is sent to the debugger engine's output callbacks.
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544362">ExtRemoteTyped::OutFullValue</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 
 

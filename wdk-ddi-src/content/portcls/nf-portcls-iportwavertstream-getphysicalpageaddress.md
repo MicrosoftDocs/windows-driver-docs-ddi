@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 24c22102-f91d-4ea1-81fb-98052b8d0153
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: GetPhysicalPageAddress method [Audio Devices], IPortWaveRTStream interface, GetPhysicalPageAddress, portcls/IPortWaveRTStream::GetPhysicalPageAddress, IPortWaveRTStream interface [Audio Devices], GetPhysicalPageAddress method, audmp-routines_44b6b9ed-368b-4bf1-9a21-e0e0b2b90728.xml, audio.iportwavertstream_getphysicalpageaddress, IPortWaveRTStream, GetPhysicalPageAddress method [Audio Devices], IPortWaveRTStream::GetPhysicalPageAddress
+ms.keywords: GetPhysicalPageAddress method [Audio Devices], IPortWaveRTStream interface, IPortWaveRTStream::GetPhysicalPageAddress, GetPhysicalPageAddress, audio.iportwavertstream_getphysicalpageaddress, IPortWaveRTStream, audmp-routines_44b6b9ed-368b-4bf1-9a21-e0e0b2b90728.xml, portcls/IPortWaveRTStream::GetPhysicalPageAddress, IPortWaveRTStream interface [Audio Devices], GetPhysicalPageAddress method, GetPhysicalPageAddress method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,7 +104,7 @@ The miniport typically calls this for each page in the MDL in order to program t
 
 
 
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
 
 
@@ -112,7 +112,7 @@ The miniport typically calls this for each page in the MDL in order to program t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
 
 

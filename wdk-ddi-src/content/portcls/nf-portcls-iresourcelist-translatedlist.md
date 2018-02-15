@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6bc4f939-dbc8-4d9a-95f9-b5ec97a47a8a
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: TranslatedList method [Audio Devices], IResourceList interface, IResourceList::TranslatedList, portcls/IResourceList::TranslatedList, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, IResourceList, TranslatedList method [Audio Devices], IResourceList interface [Audio Devices], TranslatedList method, audio.iresourcelist_translatedlist, TranslatedList
+ms.keywords: audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, TranslatedList method [Audio Devices], IResourceList interface, audio.iresourcelist_translatedlist, portcls/IResourceList::TranslatedList, TranslatedList method [Audio Devices], IResourceList, TranslatedList, IResourceList::TranslatedList, IResourceList interface [Audio Devices], TranslatedList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,11 +83,11 @@ PCM_RESOURCE_LIST TranslatedList(
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 

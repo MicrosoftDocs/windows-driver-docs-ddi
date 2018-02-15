@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3ca223a1-75d2-48b6-b4c2-f20e6fc57111
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: task_offload_IPsecv2_ref_1a564583-cac3-48d5-96f9-c6fecb5fadce.xml, ndis/NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, _NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v2_tunnel_net_buffer_list_info
+ms.keywords: NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, _NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], *PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, task_offload_IPsecv2_ref_1a564583-cac3-48d5-96f9-c6fecb5fadce.xml, ndis/PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v2_tunnel_net_buffer_list_info, PNDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,17 +118,17 @@ To set and get the IPsec tunnel information, use the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
    OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">
+   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
 
 
 
@@ -136,8 +136,8 @@ To set and get the IPsec tunnel information, use the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">
-   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ddb7052d-b9f3-40f6-b00a-6bf52f010cdc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetScatterGatherList, storport/StorPortGetScatterGatherList, storage.storportgetscattergatherlist, StorPortGetScatterGatherList routine [Storage Devices], storprt_1736d395-ccc8-42ec-8d84-a9d3b7656996.xml
+ms.keywords: StorPortGetScatterGatherList, StorPortGetScatterGatherList routine [Storage Devices], storprt_1736d395-ccc8-42ec-8d84-a9d3b7656996.xml, storage.storportgetscattergatherlist, storport/StorPortGetScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,12 +101,16 @@ The miniport driver does not have to free the memory for the scatter/gather list
 
 The miniport driver must not modify the scatter/gather list.
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 
 
 
 ## -see-also
+
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
 <a href="..\storport\ns-storport-_stor_scatter_gather_element.md">STOR_SCATTER_GATHER_ELEMENT</a>
 
@@ -117,10 +121,6 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..
 
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

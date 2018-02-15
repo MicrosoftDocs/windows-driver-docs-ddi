@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 37084f3a-f57e-45bb-a364-157b3d155394
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/PHIDP_VALUE_CAPS, PHIDP_VALUE_CAPS, _HIDP_VALUE_CAPS, *PHIDP_VALUE_CAPS, hidpi/HIDP_VALUE_CAPS, HIDP_VALUE_CAPS, hidstrct_cbe30aff-5a6a-40d4-9621-b8d93ebb1948.xml, PHIDP_VALUE_CAPS structure pointer [Human Input Devices], HIDP_VALUE_CAPS structure [Human Input Devices], hid.hidp_value_caps
+ms.keywords: HIDP_VALUE_CAPS, PHIDP_VALUE_CAPS structure pointer [Human Input Devices], hidstrct_cbe30aff-5a6a-40d4-9621-b8d93ebb1948.xml, *PHIDP_VALUE_CAPS, hidpi/HIDP_VALUE_CAPS, PHIDP_VALUE_CAPS, hidpi/PHIDP_VALUE_CAPS, HIDP_VALUE_CAPS structure [Human Input Devices], _HIDP_VALUE_CAPS, hid.hidp_value_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -325,15 +325,19 @@ For information about the capabilities of HID control values, see <a href="https
 
 ## -see-also
 
+<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
+
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
 
 
 
@@ -345,15 +349,11 @@ For information about the capabilities of HID control values, see <a href="https
 
 
 
+<a href="..\hidpi\nf-hidpi-hidp_getusagevaluearray.md">HidP_GetUsageValueArray</a>
+
+
+
 <a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getusagevalue.md">HidP_GetUsageValue</a>
 
 
 

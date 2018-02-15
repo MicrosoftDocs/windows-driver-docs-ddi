@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c369a79d-2f54-4a00-9442-0d96c714d726
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLINFO_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v4_2, *LPRILCALLINFO_V4, RILCALLINFO_V4, rilapitypes/RILCALLINFO_V4
+ms.keywords: RILCALLINFO_V4 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLINFO_V4, RILCALLINFO_V4, netvista.rilcallinfo_v4_2, *LPRILCALLINFO_V4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

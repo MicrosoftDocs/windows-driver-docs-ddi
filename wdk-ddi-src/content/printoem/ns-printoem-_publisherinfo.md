@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6749b2e8-a9db-48a3-96e1-8592bcfa580d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PUBLISHERINFO structure [Print Devices], PPUBLISHERINFO, PUBLISHERINFO, printoem/PPUBLISHERINFO, print_unidrv-pscript_rendering_dbd3e74a-00bd-4c21-80e5-80b788f83bb2.xml, print.publisherinfo, printoem/PUBLISHERINFO, PPUBLISHERINFO structure pointer [Print Devices], _PUBLISHERINFO, *PPUBLISHERINFO
+ms.keywords: PUBLISHERINFO structure [Print Devices], PUBLISHERINFO, printoem/PUBLISHERINFO, print_unidrv-pscript_rendering_dbd3e74a-00bd-4c21-80e5-80b788f83bb2.xml, *PPUBLISHERINFO, PPUBLISHERINFO, print.publisherinfo, _PUBLISHERINFO, PPUBLISHERINFO structure pointer [Print Devices], printoem/PPUBLISHERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

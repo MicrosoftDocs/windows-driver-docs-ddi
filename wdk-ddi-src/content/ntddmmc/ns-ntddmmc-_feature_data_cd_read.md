@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 55d63dcc-7728-4982-ad1c-e1ca40cc941e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_CD_READ, PFEATURE_DATA_CD_READ, structs-CD-ROM_8b31a56d-f370-4b85-8f37-a88041276a20.xml, FEATURE_DATA_CD_READ structure [Storage Devices], FEATURE_DATA_CD_READ, PFEATURE_DATA_CD_READ structure pointer [Storage Devices], _FEATURE_DATA_CD_READ, storage.feature_data_cd_read, *PFEATURE_DATA_CD_READ, ntddmmc/FEATURE_DATA_CD_READ
+ms.keywords: FEATURE_DATA_CD_READ structure [Storage Devices], *PFEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ, storage.feature_data_cd_read, PFEATURE_DATA_CD_READ structure pointer [Storage Devices], structs-CD-ROM_8b31a56d-f370-4b85-8f37-a88041276a20.xml, PFEATURE_DATA_CD_READ, ntddmmc/PFEATURE_DATA_CD_READ, _FEATURE_DATA_CD_READ, ntddmmc/FEATURE_DATA_CD_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

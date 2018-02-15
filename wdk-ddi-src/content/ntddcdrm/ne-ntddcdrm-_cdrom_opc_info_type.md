@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 447D225C-4B73-4567-81E3-950EBC802F84
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PCDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, storage.cdrom_opc_info_type, ntddcdrm/PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], SimpleOpcInfo, CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], _CDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, PCDROM_OPC_INFO_TYPE"
+ms.keywords: "_CDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], CDROM_OPC_INFO_TYPE, storage.cdrom_opc_info_type, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], *PCDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE, SimpleOpcInfo, PCDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_WORK, pepfx/PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], *PPEP_WORK, PPEP_WORK, _PEP_WORK, PEP_WORK, kernel.pep_work
+ms.keywords: "_PEP_WORK, *PPEP_WORK, pepfx/PEP_WORK, PPEP_WORK, kernel.pep_work, PEP_WORK structure [Kernel-Mode Driver Architecture], pepfx/PPEP_WORK, PEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

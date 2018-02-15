@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4b3d3c5d-c34c-4ed8-bf62-1d885442ee1e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGetPresharedKeyForId_IN, iscsiop/PGetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices], _GetPresharedKeyForId_IN, GetPresharedKeyForId_IN, GetPresharedKeyForId_IN structure [Storage Devices], *PGetPresharedKeyForId_IN, storage.getpresharedkeyforid_in, iscsiop/GetPresharedKeyForId_IN, structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml
+ms.keywords: storage.getpresharedkeyforid_in, GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN, *PGetPresharedKeyForId_IN, _GetPresharedKeyForId_IN, GetPresharedKeyForId_IN structure [Storage Devices], iscsiop/PGetPresharedKeyForId_IN, iscsiop/GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices], structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,7 +149,7 @@ You must implement this method if the initiator supports IKE.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
 
 
 
@@ -157,7 +157,7 @@ You must implement this method if the initiator supports IKE.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
 
 
 

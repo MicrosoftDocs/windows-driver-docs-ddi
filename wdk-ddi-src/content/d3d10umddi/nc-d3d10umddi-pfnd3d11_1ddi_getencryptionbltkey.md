@@ -40,7 +40,7 @@ apiname:
 -	pfnGetEncryptionBltKey
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETENCRYPTIONBLTKEY callback
@@ -98,14 +98,18 @@ A pointer to a buffer that contains the encryption key.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 When the <b>GetEncryptionBltKey</b> function is called, the display miniport driver should generate a new encryption key.  If the cryptographic session is using  the <b>D3DCRYPTOTYPE_AES128_CTR</b> cryptographic type, the driver or graphics adapter should encrypt the data that is referenced by the   <i>pReadbackKey</i> parameter by using the session key with the AES-ECB algorithm.
+
 
 
 
@@ -113,7 +117,11 @@ When the <b>GetEncryptionBltKey</b> function is called, the display miniport dri
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt.md">EncryptionBlt(D3D11_1)</a>
+
+
 
  
 

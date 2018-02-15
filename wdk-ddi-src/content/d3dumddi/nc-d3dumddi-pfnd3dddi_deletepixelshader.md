@@ -110,11 +110,11 @@ The <b>DeletePixelShader</b> function notifies the driver about the deletion of 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

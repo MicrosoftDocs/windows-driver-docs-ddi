@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice2_registerremoteinterfacenotification, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, umdf.iwdfdevice2_registerremoteinterfacenotification, RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, IWDFDevice2, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification, IWDFDevice2::RegisterRemoteInterfaceNotification
+ms.keywords: IWDFDevice2::RegisterRemoteInterfaceNotification, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, RegisterRemoteInterfaceNotification, umdf.iwdfdevice2_registerremoteinterfacenotification, wdf.iwdfdevice2_registerremoteinterfacenotification, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -151,11 +151,11 @@ CMyDriver::OnDeviceAdd(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
 
 

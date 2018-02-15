@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 22074e51-9032-4ef9-94b9-217daefcab03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMQueueDpcEx, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpcEx, ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, netvista.ndismqueuedpcex
+ms.keywords: ndis_processor_group_ref_4a9c7d7e-69dd-4452-8e38-5234afb95f01.xml, NdisMQueueDpcEx, netvista.ndismqueuedpcex, ndis/NdisMQueueDpcEx, NdisMQueueDpcEx function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,7 +160,7 @@ NDIS 6.20 and later miniport drivers call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
 
 
 
@@ -168,7 +168,11 @@ NDIS 6.20 and later miniport drivers call
 
 
 
-<a href="..\ndis\nf-ndis-ndismqueuedpc.md">NdisMQueueDpc</a>
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 
 
@@ -177,10 +181,6 @@ NDIS 6.20 and later miniport drivers call
 
 
 <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 
 

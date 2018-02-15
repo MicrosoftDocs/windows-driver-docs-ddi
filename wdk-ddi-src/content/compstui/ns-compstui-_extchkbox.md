@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b3b82474-d4e5-467c-93dc-30edac189c66
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: compstui/PEXTCHKBOX, EXTCHKBOX, PEXTCHKBOX, PEXTCHKBOX structure pointer [Print Devices], compstui/EXTCHKBOX, _EXTCHKBOX, print.extchkbox, EXTCHKBOX structure [Print Devices], *PEXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml
+ms.keywords: PEXTCHKBOX structure pointer [Print Devices], _EXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, PEXTCHKBOX, print.extchkbox, EXTCHKBOX structure [Print Devices], EXTCHKBOX, *PEXTCHKBOX, compstui/EXTCHKBOX, compstui/PEXTCHKBOX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

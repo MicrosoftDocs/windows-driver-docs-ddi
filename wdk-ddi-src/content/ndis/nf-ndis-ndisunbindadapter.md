@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 47aacc23-f7d1-4c14-9541-3207debef327
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisUnbindAdapter function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_99324c18-23da-4ed1-9ccc-ab73ac342c50.xml, NdisUnbindAdapter, netvista.ndisunbindadapter, ndis/NdisUnbindAdapter
+ms.keywords: ndis/NdisUnbindAdapter, protocol_ndis_functions_ref_99324c18-23da-4ed1-9ccc-ab73ac342c50.xml, netvista.ndisunbindadapter, NdisUnbindAdapter function [Network Drivers Starting with Windows Vista], NdisUnbindAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,7 +141,7 @@ Before the call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 
@@ -149,7 +149,7 @@ Before the call to
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 

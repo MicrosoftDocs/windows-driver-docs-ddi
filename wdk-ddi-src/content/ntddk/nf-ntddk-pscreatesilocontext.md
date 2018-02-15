@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54FD0308-7E40-40C7-BA3A-FF1EFFBE0DB6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsCreateSiloContext, kernel.pscreatesilocontext, ntddk/PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pscreatesilocontext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], ntddk/PsCreateSiloContext, PsCreateSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

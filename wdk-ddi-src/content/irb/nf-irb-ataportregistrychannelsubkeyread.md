@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 50fc7a8c-64ee-4a0c-9106-a071a7cefc34
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportregistrychannelsubkeyread, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyRead, atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, AtaPortRegistryChannelSubkeyRead
+ms.keywords: storage.ataportregistrychannelsubkeyread, AtaPortRegistryChannelSubkeyRead, atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, irb/AtaPortRegistryChannelSubkeyRead, AtaPortRegistryChannelSubkeyRead routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,11 +169,11 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyRead</b> either dur
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
-
-
-
-<a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
 
 
 
@@ -181,7 +181,7 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyRead</b> either dur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
 
 
 

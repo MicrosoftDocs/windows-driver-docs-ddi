@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c1e466d7-892f-4049-a6c2-60ab8f960acb
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlUpcaseUnicodeStringToCountedOemString, RtlUpcaseUnicodeStringToCountedOemString routine [Installable File System Drivers], ifsk.rtlupcaseunicodestringtocountedoemstring, rtlref_54925045-9df1-41ef-9878-030f30e2a0f1.xml, ntifs/RtlUpcaseUnicodeStringToCountedOemString
+ms.keywords: ntifs/RtlUpcaseUnicodeStringToCountedOemString, ifsk.rtlupcaseunicodestringtocountedoemstring, rtlref_54925045-9df1-41ef-9878-030f30e2a0f1.xml, RtlUpcaseUnicodeStringToCountedOemString routine [Installable File System Drivers], RtlUpcaseUnicodeStringToCountedOemString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,27 +128,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlfreeoemstring.md">RtlFreeOemString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlupcaseunicodestringtooemstring.md">RtlUpcaseUnicodeStringToOemString</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -157,6 +137,26 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 <a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlfreeoemstring.md">RtlFreeOemString</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 534F736D-906C-48B5-9CEE-0E37459DA03F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_RESOURCE, *PPEP_ACPI_RESOURCE, _PEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE union pointer [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_RESOURCE, pepfx/PPEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE, kernel.pep_acpi_resource
+ms.keywords: "*PPEP_ACPI_RESOURCE, _PEP_ACPI_RESOURCE, pepfx/PPEP_ACPI_RESOURCE, PPEP_ACPI_RESOURCE union pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_resource, PPEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE union [Kernel-Mode Driver Architecture], PEP_ACPI_RESOURCE, pepfx/PEP_ACPI_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,23 +116,7 @@ If <b>Type</b> is <b>PepAcpiExtendedMemory</b> or <b>PepAcpiExtendedIo</b>, this
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_spi_resource.md">PEP_ACPI_SPB_SPI_RESOURCE</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>
 
 
 
@@ -140,11 +124,27 @@ If <b>Type</b> is <b>PepAcpiExtendedMemory</b> or <b>PepAcpiExtendedIo</b>, this
 
 
 
+<a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_acpi_io_memory_resource.md">PEP_ACPI_IO_MEMORY_RESOURCE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_spi_resource.md">PEP_ACPI_SPB_SPI_RESOURCE</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_i2c_resource.md">PEP_ACPI_SPB_I2C_RESOURCE</a>
 
 
 
-<a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
+<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
 
 
 

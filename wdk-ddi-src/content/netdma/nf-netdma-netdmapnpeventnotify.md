@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a0f0fdbc-089c-4bfb-ba5f-eaff6042621c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netdma/NetDmaPnPEventNotify, netvista.netdmapnpeventnotify, NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista]
+ms.keywords: netdma/NetDmaPnPEventNotify, netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], NetDmaPnPEventNotify, netvista.netdmapnpeventnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ A NetDMA provider driver calls
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a>
-
-
-
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a>
 
 
 

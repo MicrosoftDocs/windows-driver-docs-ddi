@@ -86,6 +86,8 @@ The protected session.
 
 
 
+
+
 #### - D3D12DDICB_CREATE_PROTECTED_RESOURCE_SESSION [in]
 
 Used to create a protected resource session
@@ -94,6 +96,8 @@ Used to create a protected resource session
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

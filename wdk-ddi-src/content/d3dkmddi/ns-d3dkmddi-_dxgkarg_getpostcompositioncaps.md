@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], _DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps, *IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS
+ms.keywords: "*IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], DXGKARG_GETPOSTCOMPOSITIONCAPS, _DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

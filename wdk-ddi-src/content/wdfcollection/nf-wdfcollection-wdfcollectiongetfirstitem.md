@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4884de4d-6e5f-4c9f-bd49-2fc58481e9c6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcollection/WdfCollectionGetFirstItem, wdf.wdfcollectiongetfirstitem, WdfCollectionGetFirstItem method, DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, kmdf.wdfcollectiongetfirstitem, WdfCollectionGetFirstItem, PFN_WDFCOLLECTIONGETFIRSTITEM
+ms.keywords: WdfCollectionGetFirstItem method, wdf.wdfcollectiongetfirstitem, PFN_WDFCOLLECTIONGETFIRSTITEM, DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, WdfCollectionGetFirstItem, kmdf.wdfcollectiongetfirstitem, wdfcollection/WdfCollectionGetFirstItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,11 +121,11 @@ The following code example removes each item from a collection and deletes each 
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
-
-
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetitem.md">WdfCollectionGetItem</a>
+
+
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
 
 
 

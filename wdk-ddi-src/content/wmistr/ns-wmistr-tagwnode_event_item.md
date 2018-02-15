@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1805d174-ac10-4e76-9e3f-e9e156b769ec
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PWNODE_EVENT_ITEM structure pointer [Kernel-Mode Driver Architecture], kstruct_d_f4a86459-f5b4-4c9f-a266-d73c9bcba0ac.xml, tagWNODE_EVENT_ITEM, WNODE_EVENT_ITEM, wmistr/PWNODE_EVENT_ITEM, WNODE_EVENT_ITEM structure [Kernel-Mode Driver Architecture], wmistr/WNODE_EVENT_ITEM, kernel.wnode_event_item, PWNODE_EVENT_ITEM, *PWNODE_EVENT_ITEM
+ms.keywords: kernel.wnode_event_item, kstruct_d_f4a86459-f5b4-4c9f-a266-d73c9bcba0ac.xml, WNODE_EVENT_ITEM, PWNODE_EVENT_ITEM, *PWNODE_EVENT_ITEM, wmistr/PWNODE_EVENT_ITEM, wmistr/WNODE_EVENT_ITEM, PWNODE_EVENT_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_EVENT_ITEM structure [Kernel-Mode Driver Architecture], tagWNODE_EVENT_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,7 +97,11 @@ For best performance, events should be small in size. However, if the amount of 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
+<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
 
 
 
@@ -109,11 +113,7 @@ For best performance, events should be small in size. However, if the amount of 
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
 
 
 
@@ -121,11 +121,11 @@ For best performance, events should be small in size. However, if the amount of 
 
 
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
 
 

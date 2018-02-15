@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4edb8b74-d5e5-49ee-85a7-9eb095f5a575
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSRELATIVEEVENT, KSRELATIVEEVENT structure [Streaming Media Devices], stream.ksrelativeevent, ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml, KSRELATIVEEVENT
+ms.keywords: ks/KSRELATIVEEVENT, ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml, stream.ksrelativeevent, KSRELATIVEEVENT structure [Streaming Media Devices], KSRELATIVEEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

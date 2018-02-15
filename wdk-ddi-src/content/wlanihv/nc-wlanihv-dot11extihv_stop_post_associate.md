@@ -156,8 +156,7 @@ For more information about the post-association operation, see
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
-   Dot11ExtIhvPerformPostAssociate</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 
@@ -166,19 +165,20 @@ For more information about the post-association operation, see
 
 
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+
+
+
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
 
 
 

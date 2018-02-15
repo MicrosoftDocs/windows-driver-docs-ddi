@@ -83,6 +83,8 @@ Identifies the adapter containing the overlay hardware.
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</a> structure that describes the surfaces and display options to present.
@@ -91,13 +93,17 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswi
 ## -returns
 
 
+
 If this routine succeeds, it returns <b>NTSTATUS_SUCCESS</b>. The driver should always return a success code.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</a>
+
+
 
  
 

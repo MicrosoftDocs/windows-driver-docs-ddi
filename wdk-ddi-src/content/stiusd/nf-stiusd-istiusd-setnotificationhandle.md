@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 096e9b7a-fc50-46a2-b67a-7128dba13321
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, SetNotificationHandle method [Imaging Devices], SetNotificationHandle, IStiUSD interface [Imaging Devices], SetNotificationHandle method, image.istiusd_setnotificationhandle, IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD, stiusd/IStiUSD::SetNotificationHandle
+ms.keywords: IStiUSD::SetNotificationHandle, stiusd/IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], SetNotificationHandle method [Imaging Devices], IStiUSD interface, image.istiusd_setnotificationhandle, IStiUSD interface [Imaging Devices], SetNotificationHandle method, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, IStiUSD, SetNotificationHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

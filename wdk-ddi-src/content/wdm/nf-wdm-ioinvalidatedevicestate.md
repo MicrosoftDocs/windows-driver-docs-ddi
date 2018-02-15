@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca27e8d3-80ee-467c-9c88-19770cd86d94
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.ioinvalidatedevicestate, IoInvalidateDeviceState, k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, wdm/IoInvalidateDeviceState, IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, kernel.ioinvalidatedevicestate, IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture], IoInvalidateDeviceState, wdm/IoInvalidateDeviceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,11 +109,11 @@ In response to this routine, the PnP manager sends an <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551698">IRP_MN_QUERY_PNP_DEVICE_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
 
 
 

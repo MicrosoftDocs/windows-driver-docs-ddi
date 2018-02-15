@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f941bc28-f906-4399-be54-09e2bc12e443
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetPresharedKeyForId_IN structure [Storage Devices], SetPresharedKeyForId_IN, storage.setpresharedkeyforid_in, PSetPresharedKeyForId_IN structure pointer [Storage Devices], *PSetPresharedKeyForId_IN, iscsiop/SetPresharedKeyForId_IN, iscsiop/PSetPresharedKeyForId_IN, _SetPresharedKeyForId_IN, PSetPresharedKeyForId_IN, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml
+ms.keywords: iscsiop/PSetPresharedKeyForId_IN, _SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN, iscsiop/SetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], storage.setpresharedkeyforid_in, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml, SetPresharedKeyForId_IN, PSetPresharedKeyForId_IN, SetPresharedKeyForId_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -161,7 +161,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 
 
 
@@ -169,7 +169,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
 
 
 

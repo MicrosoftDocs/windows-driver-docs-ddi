@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 840e7f50-644c-49b9-a40b-d504e19b0db2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExReleaseResourceForThreadLite, kernel.exreleaseresourceforthreadlite, ExReleaseResourceForThreadLite routine [Kernel-Mode Driver Architecture], k102_799a8ff7-3996-470d-97b2-e1c18bbcb486.xml, wdm/ExReleaseResourceForThreadLite
+ms.keywords: k102_799a8ff7-3996-470d-97b2-e1c18bbcb486.xml, kernel.exreleaseresourceforthreadlite, ExReleaseResourceForThreadLite routine [Kernel-Mode Driver Architecture], ExReleaseResourceForThreadLite, wdm/ExReleaseResourceForThreadLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,15 +108,7 @@ This requirement does not apply to calls made to <b>ExReleaseResourceForThreadLi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
-
-
-
 <a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
-
-
-
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
 
 
 
@@ -124,15 +116,23 @@ This requirement does not apply to calls made to <b>ExReleaseResourceForThreadLi
 
 
 
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
+
+
 <a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544614">ExGetCurrentResourceThread</a>
+<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544614">ExGetCurrentResourceThread</a>
 
 
 

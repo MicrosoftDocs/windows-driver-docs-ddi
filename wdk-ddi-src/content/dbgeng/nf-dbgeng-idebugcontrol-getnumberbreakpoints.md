@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9faffb72-3559-4db7-a02e-3d93dc751ac3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, GetNumberBreakpoints method [Windows Debugging], IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, debugger.getnumberbreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, dbgeng/IDebugControl::GetNumberBreakpoints, IDebugControl3::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl::GetNumberBreakpoints, IDebugControl, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberBreakpoints, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method
+ms.keywords: GetNumberBreakpoints method [Windows Debugging], IDebugControl3::GetNumberBreakpoints, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, dbgeng/IDebugControl2::GetNumberBreakpoints, IDebugControl2::GetNumberBreakpoints, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method, debugger.getnumberbreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, GetNumberBreakpoints, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetNumberBreakpoints, IDebugControl, dbgeng/IDebugControl::GetNumberBreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,7 +112,7 @@ The method was successful.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -120,7 +120,7 @@ The method was successful.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

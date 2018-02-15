@@ -40,7 +40,7 @@ apiname:
 -	HwStorTracingEnabled
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,6 @@ VOID HwStorTracingEnabled(
 ### -param HwDeviceExtension
 
 
-
 ### -param Enabled [in]
 
 True to enable tracing in the miniport. Otherwise, false.
@@ -89,14 +88,18 @@ A pointer to the miniport driver's per-HBA storage area.
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 The name <i>HwStorTracingEnabled</i> is placeholder text for the actual routine name. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -114,9 +117,12 @@ HW_TRACING_ENABLED (
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
 
  
 

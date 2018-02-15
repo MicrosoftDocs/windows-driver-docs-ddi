@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0BCF4141-BE4E-42C0-8986-BE039B27F5D5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetRemoveLockOptions, WdfDeviceInitSetRemoveLockOptions method, kmdf.wdfdeviceinitsetremovelockoptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions, wdf.wdfdeviceinitsetremovelockoptions, PFN_WDFDEVICEINITSETREMOVELOCKOPTIONS
+ms.keywords: wdfdevice/WdfDeviceInitSetRemoveLockOptions, wdf.wdfdeviceinitsetremovelockoptions, WdfDeviceInitSetRemoveLockOptions, PFN_WDFDEVICEINITSETREMOVELOCKOPTIONS, kmdf.wdfdeviceinitsetremovelockoptions, WdfDeviceInitSetRemoveLockOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

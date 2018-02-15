@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2fab4993-0b34-44ce-a905-5094e6e3ce47
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], dxva/DXVA_VideoSample, LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], _DXVA_VideoSample, display.dxva_videosample, *LPDXVA_VideoSample, dxva/LPDXVA_VideoSample
+ms.keywords: DXVA_VideoSample structure [Display Devices], DXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, *LPDXVA_VideoSample, _DXVA_VideoSample, LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml, display.dxva_videosample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,15 +92,15 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_deinterlaceblt.md">DXVA_DeinterlaceBlt</a>
+
+
+
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_deinterlaceblt.md">DXVA_DeinterlaceBlt</a>
 
 
 

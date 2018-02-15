@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RealTimeWorkQueue, wdm/MaximumWorkQueue, BackgroundWorkQueue, SuperCriticalWorkQueue, wdm/DelayedWorkQueue, wdm/BackgroundWorkQueue, wdm/SuperCriticalWorkQueue, wdm/CriticalWorkQueue, HyperCriticalWorkQueue, CustomPriorityWorkQueue, wdm/CustomPriorityWorkQueue, RealTimeWorkQueue, wdm/WORK_QUEUE_TYPE, kernel.work_queue_type, MaximumWorkQueue, wdm/NormalWorkQueue, WORK_QUEUE_TYPE, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], _WORK_QUEUE_TYPE, NormalWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, CriticalWorkQueue, DelayedWorkQueue, wdm/HyperCriticalWorkQueue
+ms.keywords: WORK_QUEUE_TYPE, wdm/RealTimeWorkQueue, sysenum_5bc5bb84-a8c7-46af-982e-37b8ec51723f.xml, CriticalWorkQueue, HyperCriticalWorkQueue, WORK_QUEUE_TYPE enumeration [Kernel-Mode Driver Architecture], RealTimeWorkQueue, SuperCriticalWorkQueue, wdm/NormalWorkQueue, _WORK_QUEUE_TYPE, wdm/BackgroundWorkQueue, MaximumWorkQueue, kernel.work_queue_type, wdm/HyperCriticalWorkQueue, wdm/DelayedWorkQueue, wdm/MaximumWorkQueue, CustomPriorityWorkQueue, wdm/CriticalWorkQueue, wdm/CustomPriorityWorkQueue, wdm/WORK_QUEUE_TYPE, NormalWorkQueue, DelayedWorkQueue, BackgroundWorkQueue, wdm/SuperCriticalWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -139,15 +139,15 @@ For more information about system worker threads, see <a href="https://msdn.micr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn683917">IoTryQueueWorkItem</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn683917">IoTryQueueWorkItem</a>
 
 
 

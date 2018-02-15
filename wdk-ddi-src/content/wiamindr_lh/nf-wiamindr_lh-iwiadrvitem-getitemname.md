@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1e731975-13f8-4b5d-93de-714f62e9591f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetItemName method [Imaging Devices], IWiaDrvItem interface, wiamindr_lh/IWiaDrvItem::GetItemName, IWiaDrvItem::GetItemName, DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, IWiaDrvItem, GetItemName method [Imaging Devices], GetItemName, IWiaDrvItem interface [Imaging Devices], GetItemName method, image.iwiadrvitem_getitemname
+ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, wiamindr_lh/IWiaDrvItem::GetItemName, GetItemName method [Imaging Devices], IWiaDrvItem interface, image.iwiadrvitem_getitemname, IWiaDrvItem, IWiaDrvItem::GetItemName, IWiaDrvItem interface [Imaging Devices], GetItemName method, GetItemName method [Imaging Devices], GetItemName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,11 @@ If there is enough memory available, the method allocates a string containing th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
-
-
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
 
 
 

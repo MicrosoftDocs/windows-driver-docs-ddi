@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 47B51B6F-555A-4A1E-AA25-7E94DC0060CC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsAllocator, IKsAllocator::KsGetAllocatorMode, stream.iksallocator_ksgetallocatormode, KsGetAllocatorMode method [Streaming Media Devices], IKsAllocator interface, KsGetAllocatorMode, ksproxy/IKsAllocator::KsGetAllocatorMode, KsGetAllocatorMode method [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices], KsGetAllocatorMode method
+ms.keywords: KsGetAllocatorMode method [Streaming Media Devices], IKsAllocator interface, IKsAllocator, KsGetAllocatorMode, IKsAllocator::KsGetAllocatorMode, stream.iksallocator_ksgetallocatormode, KsGetAllocatorMode method [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices], KsGetAllocatorMode method, ksproxy/IKsAllocator::KsGetAllocatorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

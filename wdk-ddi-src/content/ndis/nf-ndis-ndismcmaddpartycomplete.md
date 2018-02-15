@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5bbcd552-00c2-4085-8222-c514eb92e654
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmaddpartycomplete, ndis/NdisMCmAddPartyComplete, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, NdisMCmAddPartyComplete
+ms.keywords: netvista.ndismcmaddpartycomplete, ndis/NdisMCmAddPartyComplete, NdisMCmAddPartyComplete, condis_mcm_ref_929fb1d1-4d15-4d2d-be4b-a6845674f7e6.xml, NdisMCmAddPartyComplete macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -95,19 +95,6 @@ TBD
 
 
 
-#### - Status [in]
-
-Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
-     any NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
-
-
-#### - NdisPartyHandle [in]
-
-Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
-     to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
-
-
 #### - CallMgrPartyContext [in, optional]
 
 Specifies the handle to a caller-allocated resident context area in which the MCM driver will
@@ -121,6 +108,19 @@ Specifies the handle to a caller-allocated resident context area in which the MC
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that contains the call
      parameters, originally supplied by the client, for the party to be added.
+
+
+#### - NdisPartyHandle [in]
+
+Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
+     to its 
+     <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
+
+
+#### - Status [in]
+
+Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
+     any NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -183,19 +183,8 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
 
 
@@ -203,12 +192,23 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 
 

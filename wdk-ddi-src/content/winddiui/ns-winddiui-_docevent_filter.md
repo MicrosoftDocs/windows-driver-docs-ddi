@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winddiui/PDOCEVENT_FILTER, *PDOCEVENT_FILTER, DOCEVENT_FILTER, print.docevent_filter, PDOCEVENT_FILTER structure pointer [Print Devices], DOCEVENT_FILTER structure [Print Devices], print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, _DOCEVENT_FILTER, winddiui/DOCEVENT_FILTER, PDOCEVENT_FILTER
+ms.keywords: PDOCEVENT_FILTER, _DOCEVENT_FILTER, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, print.docevent_filter, DOCEVENT_FILTER structure [Print Devices], *PDOCEVENT_FILTER, winddiui/DOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], DOCEVENT_FILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

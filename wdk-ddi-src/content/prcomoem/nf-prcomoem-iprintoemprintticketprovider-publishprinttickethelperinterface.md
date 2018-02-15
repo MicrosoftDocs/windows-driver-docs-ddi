@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d7512da3-eb47-4e22-9df8-b152b39cbcad
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml, IPrintOemPrintTicketProvider, PublishPrintTicketHelperInterface method [Print Devices], print.iprintoemprintticketprovider_publishprinttickethelperinterface, IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface
+ms.keywords: prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml, PublishPrintTicketHelperInterface method [Print Devices], print.iprintoemprintticketprovider_publishprinttickethelperinterface, PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface, PublishPrintTicketHelperInterface, IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7cadf78-c908-4034-889d-b5c7d0ffdaad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml, _DXGK_CREATECONTEXTFLAGS, display.dxgk_createcontextflags, d3dkmddi/DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS structure [Display Devices]
+ms.keywords: DXGK_CREATECONTEXTFLAGS structure [Display Devices], display.dxgk_createcontextflags, DXGK_CREATECONTEXTFLAGS, d3dkmddi/DXGK_CREATECONTEXTFLAGS, _DXGK_CREATECONTEXTFLAGS, DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: AC8EBE07-92D6-4985-A575-8AD3321D29FB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_CRYPTO_CAPABILITY structure pointer [Storage Devices], _STOR_CRYPTO_CAPABILITY, *PSTOR_CRYPTO_CAPABILITY, storport/PSTOR_CRYPTO_CAPABILITY, storport/STOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY, storage.stor_crypto_capability, PSTOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY structure [Storage Devices]
+ms.keywords: "_STOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY, storport/STOR_CRYPTO_CAPABILITY, storport/PSTOR_CRYPTO_CAPABILITY, storage.stor_crypto_capability, STOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY structure [Storage Devices], *PSTOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

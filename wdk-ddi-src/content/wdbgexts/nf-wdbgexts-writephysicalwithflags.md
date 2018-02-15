@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WritePhysicalWithFlags function [Windows Debugging], WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, debugger.writephysicalwithflags, WritePhysicalWithFlags, wdbgexts/WritePhysicalWithFlags
+ms.keywords: WritePhysicalWithFlags function [Windows Debugging], WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, WritePhysicalWithFlags, wdbgexts/WritePhysicalWithFlags, debugger.writephysicalwithflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,11 +165,11 @@ For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wd
 
 ## -see-also
 
+<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
+
+
+
 <a href="..\wdbgexts\nf-wdbgexts-readphysicalwithflags.md">ReadPhysicalWithFlags</a>
-
-
-
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writephysical.md">WritePhysical</a>
 
 
 

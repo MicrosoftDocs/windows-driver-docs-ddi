@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 91eb36b3-ea05-4a5e-8bba-47c262a4fa4a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemDriverPS, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml, DrvWriteSpoolBuf method [Print Devices], print.iprintoemdriverps_drvwritespoolbuf, DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS interface, IPrintOemDriverPS::DrvWriteSpoolBuf, IPrintOemDriverPS interface [Print Devices], DrvWriteSpoolBuf method
+ms.keywords: IPrintOemDriverPS, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS interface, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, IPrintOemDriverPS interface [Print Devices], DrvWriteSpoolBuf method, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml, IPrintOemDriverPS::DrvWriteSpoolBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

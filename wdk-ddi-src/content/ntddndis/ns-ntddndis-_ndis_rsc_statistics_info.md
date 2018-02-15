@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14911610-f2d6-4ad4-884f-3137eab143be
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_RSC_STATISTICS_INFO, ntddndis/NDIS_RSC_STATISTICS_INFO, ntddndis/PNDIS_RSC_STATISTICS_INFO
+ms.keywords: PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, NDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO, _NDIS_RSC_STATISTICS_INFO, ntddndis/NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ The total number of RSC abort events. That is, the number of exceptions other th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451929">OID_TCP_RSC_STATISTICS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451929">OID_TCP_RSC_STATISTICS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5CD8E422-8CEE-43E8-9703-520FDBE6BF5E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: NvCacheStatusUnknown, storage.hybrid_information, NvCacheTypeWriteBack, ntddscsi/HYBRID_INFORMATION, _HYBRID_INFORMATION, NvCacheTypeWriteThrough, *PHYBRID_INFORMATION, PHYBRID_INFORMATION structure pointer [Storage Devices], NvCacheStatusDisabling, ntddscsi/PHYBRID_INFORMATION, HYBRID_INFORMATION, NvCacheStatusEnabled, NvCacheTypeUnknown, NvCacheNone, NvCacheStatusDisabled, HYBRID_INFORMATION structure [Storage Devices], PHYBRID_INFORMATION
+ms.keywords: NvCacheStatusDisabling, ntddscsi/HYBRID_INFORMATION, ntddscsi/PHYBRID_INFORMATION, NvCacheNone, NvCacheTypeUnknown, NvCacheTypeWriteThrough, storage.hybrid_information, HYBRID_INFORMATION, HYBRID_INFORMATION structure [Storage Devices], NvCacheStatusDisabled, NvCacheStatusUnknown, NvCacheTypeWriteBack, NvCacheStatusEnabled, *PHYBRID_INFORMATION, _HYBRID_INFORMATION, PHYBRID_INFORMATION structure pointer [Storage Devices], PHYBRID_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

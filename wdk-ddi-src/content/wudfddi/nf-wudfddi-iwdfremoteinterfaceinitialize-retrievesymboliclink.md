@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3203542-177c-440a-8d41-4d70d77f804d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize, RetrieveSymbolicLink, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink
+ms.keywords: RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, RetrieveSymbolicLink method, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize, RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -177,11 +177,11 @@ Error:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560238">IWDFRemoteInterfaceInitialize::GetInterfaceGuid</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560238">IWDFRemoteInterfaceInitialize::GetInterfaceGuid</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2c108eda-ab46-48ed-b43a-7a3da390c64b
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ExAdjustLookasideDepth function [Installable File System Drivers], ifsk.exadjustlookasidedepth, ntifs/ExAdjustLookasideDepth, exref_c7837105-d91f-42c1-ba97-a292550b4eb5.xml, ExAdjustLookasideDepth
+ms.keywords: exref_c7837105-d91f-42c1-ba97-a292550b4eb5.xml, ifsk.exadjustlookasidedepth, ExAdjustLookasideDepth function [Installable File System Drivers], ExAdjustLookasideDepth, ntifs/ExAdjustLookasideDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

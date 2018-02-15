@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 7e564512-ff57-4bce-93c1-76e6034ec061
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: pmi/PPMI_CAPABILITIES, PPMI_CAPABILITIES, pmi/PMI_CAPABILITIES, PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], _PMI_CAPABILITIES, PMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], *PPMI_CAPABILITIES, powermeter.pmi_capabilities
+ms.keywords: pmi/PMI_CAPABILITIES, powermeter.pmi_capabilities, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], pmi/PPMI_CAPABILITIES, PMI_CAPABILITIES, _PMI_CAPABILITIES, *PPMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PPMI_CAPABILITIES, PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -142,6 +142,10 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 ## -see-also
 
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
+
+
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
@@ -151,10 +155,6 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 
 <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
-
-
-
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 

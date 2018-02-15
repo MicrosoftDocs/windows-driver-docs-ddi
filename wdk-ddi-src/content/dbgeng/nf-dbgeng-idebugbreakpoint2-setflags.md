@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 126741ba-b373-466e-986d-44e33c841eee
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugBreakpoint::SetFlags, ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, IDebugBreakpoint interface [Windows Debugging], SetFlags method, IDebugBreakpoint::SetFlags, SetFlags method [Windows Debugging], IDebugBreakpoint interface, SetFlags method [Windows Debugging], debugger.setflags, SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, SetFlags, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, IDebugBreakpoint2, IDebugBreakpoint, dbgeng/IDebugBreakpoint2::SetFlags, IDebugBreakpoint2::SetFlags
+ms.keywords: SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetFlags, dbgeng/IDebugBreakpoint::SetFlags, IDebugBreakpoint interface [Windows Debugging], SetFlags method, IDebugBreakpoint2::SetFlags, IDebugBreakpoint, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, SetFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::SetFlags, SetFlags, IDebugBreakpoint2, debugger.setflags, ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, SetFlags method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

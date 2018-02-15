@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice2 interface, AssignSxWakeSettings method, AssignSxWakeSettings, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, IWDFDevice2::AssignSxWakeSettings, IWDFDevice2, wdf.iwdfdevice2_assignsxwakesettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, AssignSxWakeSettings method, AssignSxWakeSettings method, IWDFDevice2 interface, umdf.iwdfdevice2_assignsxwakesettings
+ms.keywords: UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, umdf.iwdfdevice2_assignsxwakesettings, wdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2::AssignSxWakeSettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, IWDFDevice2, IWDFDevice2 interface, AssignSxWakeSettings method, AssignSxWakeSettings, AssignSxWakeSettings method, IWDFDevice2 interface, AssignSxWakeSettings method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

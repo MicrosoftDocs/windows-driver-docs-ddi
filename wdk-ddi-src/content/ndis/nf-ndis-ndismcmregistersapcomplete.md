@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53f94e25-ca6c-4230-8447-d36774322dc7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, netvista.ndismcmregistersapcomplete, ndis/NdisMCmRegisterSapComplete, NdisMCmRegisterSapComplete
+ms.keywords: NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista], NdisMCmRegisterSapComplete, condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, netvista.ndismcmregistersapcomplete, ndis/NdisMCmRegisterSapComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -91,10 +91,12 @@ TBD
 
 
 
-#### - Status [in]
+#### - CallMgrSapContext [in]
 
-Specifies the final status for the client's original request to register the SAP, either
-     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
+Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
+     state for this SAP if the registration is successful. If so, NDIS passes this handle back to the to the
+     MCM driver in all subsequent calls concerning this SAP. If 
+     <i>Status</i> is set to something other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
 
 
 #### - NdisSapHandle [in]
@@ -104,12 +106,10 @@ Specifies the NDIS-supplied handle to the SAP if the registration is successful.
      <i>ProtocolCmRegisterSap</i> function.
 
 
-#### - CallMgrSapContext [in]
+#### - Status [in]
 
-Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
-     state for this SAP if the registration is successful. If so, NDIS passes this handle back to the to the
-     MCM driver in all subsequent calls concerning this SAP. If 
-     <i>Status</i> is set to something other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
+Specifies the final status for the client's original request to register the SAP, either
+     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -142,6 +142,11 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
 
@@ -150,17 +155,12 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
-   ProtocolClRegisterSapComplete</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+   ProtocolClRegisterSapComplete</a>
 
 
 

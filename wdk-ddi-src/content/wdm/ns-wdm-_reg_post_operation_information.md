@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2266e816-2060-4071-bf9f-319daefbfc50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_post_operation_information, wdm/REG_POST_OPERATION_INFORMATION, *PREG_POST_OPERATION_INFORMATION, _REG_POST_OPERATION_INFORMATION, wdm/PREG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION, kstruct_d_70ca0f06-65d5-4b1b-ab66-cc44361d4e5a.xml
+ms.keywords: "*PREG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION, kstruct_d_70ca0f06-65d5-4b1b-ab66-cc44361d4e5a.xml, wdm/PREG_POST_OPERATION_INFORMATION, wdm/REG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_post_operation_information, REG_POST_OPERATION_INFORMATION, _REG_POST_OPERATION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,11 +122,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_reg_query_value_key_information.md">REG_QUERY_VALUE_KEY_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="..\wdm\ns-wdm-_reg_query_value_key_information.md">REG_QUERY_VALUE_KEY_INFORMATION</a>
 
 
 

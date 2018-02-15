@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36ea4547-e9a0-49c9-8b45-903a2de60923
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_FLIPOVERLAY, D3DDDIARG_FLIPOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, display.d3dddiarg_flipoverlay, D3DDDIARG_FLIPOVERLAY, d3dumddi/D3DDDIARG_FLIPOVERLAY"
+ms.keywords: D3DDDIARG_FLIPOVERLAY structure [Display Devices], d3dumddi/D3DDDIARG_FLIPOVERLAY, _D3DDDIARG_FLIPOVERLAY, UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, display.d3dddiarg_flipoverlay, D3DDDIARG_FLIPOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ typedef struct _D3DDDIARG_FLIPOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_flipoverlayflags.md">D3DDDI_FLIPOVERLAYFLAGS</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flipoverlay.md">FlipOverlay</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_flipoverlayflags.md">D3DDDI_FLIPOVERLAYFLAGS</a>
 
 
 

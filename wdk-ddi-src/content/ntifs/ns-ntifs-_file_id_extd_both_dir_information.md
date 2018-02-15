@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3673C27D-61D9-4127-ABC1-655DE83AD64E
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: "*PFILE_ID_EXTD_BOTH_DIR_INFORMATION, ifsk.file_id_extd_both_dir_information, ntifs/FILE_ID_EXTD_BOTH_DIR_INFORMATION, FILE_ID_EXTD_BOTH_DIR_INFORMATION structure [Installable File System Drivers], _FILE_ID_EXTD_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_EXTD_BOTH_DIR_INFORMATION, PFILE_ID_EXTD_BOTH_DIR_INFORMATION, FILE_ID_EXTD_BOTH_DIR_INFORMATION, PFILE_ID_EXTD_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers]"
+ms.keywords: FILE_ID_EXTD_BOTH_DIR_INFORMATION, ntifs/FILE_ID_EXTD_BOTH_DIR_INFORMATION, _FILE_ID_EXTD_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_EXTD_BOTH_DIR_INFORMATION, ifsk.file_id_extd_both_dir_information, PFILE_ID_EXTD_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], FILE_ID_EXTD_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_EXTD_BOTH_DIR_INFORMATION, *PFILE_ID_EXTD_BOTH_DIR_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -204,15 +204,15 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
 
 

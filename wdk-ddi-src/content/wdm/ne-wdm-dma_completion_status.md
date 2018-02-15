@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 12F6E1F5-15F9-42BE-8C47-C9A561513717
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/DmaCancelled, DmaComplete, DmaError, kernel.dma_completion_status, DMA_COMPLETION_STATUS, DmaAborted, DmaCancelled, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/DMA_COMPLETION_STATUS, wdm/DmaComplete, wdm/DmaAborted, wdm/DmaError
+ms.keywords: DmaAborted, DmaError, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], wdm/DMA_COMPLETION_STATUS, wdm/DmaCancelled, wdm/DmaAborted, wdm/DmaComplete, kernel.dma_completion_status, DMA_COMPLETION_STATUS, DmaComplete, wdm/DmaError, DmaCancelled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

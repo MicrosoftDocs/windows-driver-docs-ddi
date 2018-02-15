@@ -102,11 +102,14 @@ Symbol frames stack filled value.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 This function returns stack frames and symbolic data.
@@ -116,5 +119,6 @@ New in-line frames may be provided.
 Stack dump provider must be enabled.
 
 <i>ReconstructStack</i> is called <b>PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK</b>  in the Dbgeng.h header file.
+
 
 

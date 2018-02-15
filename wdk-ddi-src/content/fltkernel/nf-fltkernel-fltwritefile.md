@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 994b4a75-4581-423b-8b8f-17a64600fb74
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltApiRef_p_to_z_8d4d2b16-fa86-4084-8dad-879d4908f2fe.xml, fltkernel/FltWriteFile, FltWriteFile, ifsk.fltwritefile, FltWriteFile function [Installable File System Drivers]
+ms.keywords: FltWriteFile, fltkernel/FltWriteFile, FltApiRef_p_to_z_8d4d2b16-fa86-4084-8dad-879d4908f2fe.xml, FltWriteFile function [Installable File System Drivers], ifsk.fltwritefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -238,7 +238,11 @@ If multiple threads call <b>FltWriteFile</b> for the same file object, and the f
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -246,7 +250,7 @@ If multiple threads call <b>FltWriteFile</b> for the same file object, and the f
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
 
 
 
@@ -254,7 +258,7 @@ If multiple threads call <b>FltWriteFile</b> for the same file object, and the f
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
 
 
 
@@ -262,11 +266,7 @@ If multiple threads call <b>FltWriteFile</b> for the same file object, and the f
 
 
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E93A944E-81D5-4059-ADA6-2760A091C30B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters method, wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters
+ms.keywords: WdfUsbTargetDeviceCreateWithParameters method, wdfusb/WdfUsbTargetDeviceCreateWithParameters, kmdf.wdfusbtargetdevicecreatewithparameters, kmdf.wdfusbtargetdevicecreatewithconfig, WdfUsbTargetDeviceCreateWithParameters, wdf.wdfusbtargetdevicecreatewithparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -240,19 +240,19 @@ MyEvtDevicePrepareHardware(
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_create_config_init.md">WDF_USB_DEVICE_CREATE_CONFIG_INIT</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_create_config.md">WDF_USB_DEVICE_CREATE_CONFIG</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreate.md">WdfUsbTargetDeviceCreate</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_create_config_init.md">WDF_USB_DEVICE_CREATE_CONFIG_INIT</a>
 
 
 

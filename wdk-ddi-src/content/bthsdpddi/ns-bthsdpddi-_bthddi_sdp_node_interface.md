@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c9aeaaed-f017-4b23-b867-d704c4f8afb6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PBTHDDI_SDP_NODE_INTERFACE structure pointer [Bluetooth Devices], BTHDDI_SDP_NODE_INTERFACE structure [Bluetooth Devices], _BTHDDI_SDP_NODE_INTERFACE, bthsdpddi/PBTHDDI_SDP_NODE_INTERFACE, *PBTHDDI_SDP_NODE_INTERFACE, BTHDDI_SDP_NODE_INTERFACE, PBTHDDI_SDP_NODE_INTERFACE, bthsdpddi/BTHDDI_SDP_NODE_INTERFACE, bltooth.bthddi_sdp_node_interface, bth_structs_54f8f76d-9f12-491d-b189-c4e2fdd9b364.xml
+ms.keywords: PBTHDDI_SDP_NODE_INTERFACE, bthsdpddi/BTHDDI_SDP_NODE_INTERFACE, PBTHDDI_SDP_NODE_INTERFACE structure pointer [Bluetooth Devices], BTHDDI_SDP_NODE_INTERFACE, BTHDDI_SDP_NODE_INTERFACE structure [Bluetooth Devices], bltooth.bthddi_sdp_node_interface, bth_structs_54f8f76d-9f12-491d-b189-c4e2fdd9b364.xml, _BTHDDI_SDP_NODE_INTERFACE, *PBTHDDI_SDP_NODE_INTERFACE, bthsdpddi/PBTHDDI_SDP_NODE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -258,35 +258,7 @@ All the members of this structure, other than the
 
 ## -see-also
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint64.md">SdpCreateNodeInt64</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeboolean.md">SdpCreateNodeBoolean</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint16.md">SdpCreateNodeInt16</a>
-
-
-
 <a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodestring.md">SdpCreateNodeString</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodesequence.md">SdpCreateNodeSequence</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint128.md">SdpCreateNodeUInt128</a>
 
 
 
@@ -294,27 +266,7 @@ All the members of this structure, other than the
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeurl.md">SdpCreateNodeUrl</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid16.md">SdpCreateNodeUUID16</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodealternative.md">SdpCreateNodeAlternative</a>
-
-
-
 <b>SdpCreateNodeInt8</b>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint64.md">SdpCreateNodeUInt64</a>
 
 
 
@@ -322,7 +274,47 @@ All the members of this structure, other than the
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint8.md">SdpCreateNodeUInt8</a>
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeboolean.md">SdpCreateNodeBoolean</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodesequence.md">SdpCreateNodeSequence</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint16.md">SdpCreateNodeUInt16</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid128.md">SdpCreateNodeUUID128</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint32.md">SdpCreateNodeUInt32</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodealternative.md">SdpCreateNodeAlternative</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint128.md">SdpCreateNodeUInt128</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeurl.md">SdpCreateNodeUrl</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeint32.md">SdpCreateNodeInt32</a>
 
 
 
@@ -334,11 +326,23 @@ All the members of this structure, other than the
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid128.md">SdpCreateNodeUUID128</a>
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint8.md">SdpCreateNodeUInt8</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint32.md">SdpCreateNodeInt32</a>
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint64.md">SdpCreateNodeUInt64</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeint16.md">SdpCreateNodeInt16</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid16.md">SdpCreateNodeUUID16</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodestring.md">SdpCreateNodeString</a>
 
 
 
@@ -346,11 +350,7 @@ All the members of this structure, other than the
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint16.md">SdpCreateNodeUInt16</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint32.md">SdpCreateNodeUInt32</a>
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeint64.md">SdpCreateNodeInt64</a>
 
 
 

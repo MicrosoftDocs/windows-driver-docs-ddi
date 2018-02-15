@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f88a31c4-f42c-487d-b6d8-f8f609f2faff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpmCalloutAdd0 function [Network Drivers Starting with Windows Vista], FwpmCalloutAdd0, fwpmk/FwpmCalloutAdd0, netvista.fwpmcalloutadd0, wfp_ref_2_funct_2_fwpm_b1548682-4f29-467f-916d-fa434260b0ae.xml
+ms.keywords: FwpmCalloutAdd0, wfp_ref_2_funct_2_fwpm_b1548682-4f29-467f-916d-fa434260b0ae.xml, netvista.fwpmcalloutadd0, FwpmCalloutAdd0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -182,11 +182,11 @@ A callout and filters that specify the callout for the filter's action can be ad
 
 
 
-<a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
-
-
-
 <a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebykey0.md">FwpmCalloutDeleteByKey0</a>
+
+
+
+<a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 068875e3-4229-4f15-9533-f740239ac873
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_VOLUME_PHYSICAL_OFFSET, PVOLUME_PHYSICAL_OFFSET structure pointer [Storage Devices], VOLUME_PHYSICAL_OFFSET, ntddvol/VOLUME_PHYSICAL_OFFSET, structs-volumemgr_e42e629d-ed2f-49f3-a669-d2547d46eaa6.xml, *PVOLUME_PHYSICAL_OFFSET, VOLUME_PHYSICAL_OFFSET structure [Storage Devices], PVOLUME_PHYSICAL_OFFSET, ntddvol/PVOLUME_PHYSICAL_OFFSET, storage.volume_physical_offset"
+ms.keywords: PVOLUME_PHYSICAL_OFFSET structure pointer [Storage Devices], PVOLUME_PHYSICAL_OFFSET, VOLUME_PHYSICAL_OFFSET, ntddvol/PVOLUME_PHYSICAL_OFFSET, *PVOLUME_PHYSICAL_OFFSET, VOLUME_PHYSICAL_OFFSET structure [Storage Devices], _VOLUME_PHYSICAL_OFFSET, storage.volume_physical_offset, structs-volumemgr_e42e629d-ed2f-49f3-a669-d2547d46eaa6.xml, ntddvol/VOLUME_PHYSICAL_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

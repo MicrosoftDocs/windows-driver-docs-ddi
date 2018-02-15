@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fe3c6010-532b-4f3d-b3d3-a1c27d4a05f1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_617db3d7-18d8-46eb-a555-59f99d9cae78.xml, RtlUpcaseUnicodeString, kernel.rtlupcaseunicodestring, RtlUpcaseUnicodeString routine [Kernel-Mode Driver Architecture], ntddk/RtlUpcaseUnicodeString
+ms.keywords: RtlUpcaseUnicodeString, k109_617db3d7-18d8-46eb-a555-59f99d9cae78.xml, RtlUpcaseUnicodeString routine [Kernel-Mode Driver Architecture], ntddk/RtlUpcaseUnicodeString, kernel.rtlupcaseunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,11 @@ If the operation succeeds, <b>RtlUpcaseUnicodeString</b> returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlupcaseunicodechar.md">RtlUpcaseUnicodeChar</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
 
 

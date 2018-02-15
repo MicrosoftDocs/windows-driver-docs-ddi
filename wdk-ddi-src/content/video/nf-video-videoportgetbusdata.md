@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebc5e74f-82ba-4c19-8dae-3ebe8c843fd2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetBusData function [Display Devices], VideoPortGetBusData, VideoPort_Functions_98b5cc14-84db-4611-a651-652eb434cae6.xml, video/VideoPortGetBusData, display.videoportgetbusdata
+ms.keywords: VideoPortGetBusData, video/VideoPortGetBusData, VideoPortGetBusData function [Display Devices], display.videoportgetbusdata, VideoPort_Functions_98b5cc14-84db-4611-a651-652eb434cae6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,35 +169,11 @@ The driver should call <a href="..\video\nf-video-videoportgetaccessranges.md">V
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-
-
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-
-
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_eisa_function_information.md">CM_EISA_FUNCTION_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
 
 
@@ -205,7 +181,31 @@ The driver should call <a href="..\video\nf-video-videoportgetaccessranges.md">V
 
 
 
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
 <a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+
+
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_eisa_function_information.md">CM_EISA_FUNCTION_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_eisa_slot_information.md">CM_EISA_SLOT_INFORMATION</a>
+
+
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
 

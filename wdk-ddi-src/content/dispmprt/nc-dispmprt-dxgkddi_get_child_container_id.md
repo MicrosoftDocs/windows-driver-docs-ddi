@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiGetChildContainerId
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_GET_CHILD_CONTAINER_ID callback
@@ -92,7 +92,9 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXG
 ## -returns
 
 
+
 Returns one of the following error codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,13 +124,16 @@ The driver has accepted the default container ID information provided in the str
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Otherwise the function returns one of the status codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 The operating system calls the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function to enumerate the child devices of the display adapter. The operating system then calls the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a> function for each child device to obtain the  Extended Display Information Data (EDID) for the device. For more information on this procedure, see <a href="https://msdn.microsoft.com/3bec2117-aef4-41fc-b88a-0081c7c9fe3d">Enumerating Child Devices of a Display Adapter</a>.
@@ -141,15 +146,24 @@ For more information about Container IDs, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_device_descriptor.md">DxgkDdiQueryDeviceDescriptor</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXGK_CHILD_CONTAINER_ID</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_container_id.md">DXGK_CHILD_CONTAINER_ID</a>
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

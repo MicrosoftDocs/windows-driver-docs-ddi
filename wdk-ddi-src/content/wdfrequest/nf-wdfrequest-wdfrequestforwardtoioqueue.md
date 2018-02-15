@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a98d7e74-8311-46bf-a0b9-a160f5675c3d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestForwardToIoQueue, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, kmdf.wdfrequestforwardtoioqueue, WdfRequestForwardToIoQueue method, PFN_WDFREQUESTFORWARDTOIOQUEUE, wdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue
+ms.keywords: wdfrequest/WdfRequestForwardToIoQueue, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, kmdf.wdfrequestforwardtoioqueue, WdfRequestForwardToIoQueue method, wdf.wdfrequestforwardtoioqueue, PFN_WDFREQUESTFORWARDTOIOQUEUE, WdfRequestForwardToIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -272,7 +272,7 @@ PciDrvEvtIoDeviceControl(
 
 
 
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
 
 
 
@@ -280,11 +280,11 @@ PciDrvEvtIoDeviceControl(
 
 
 
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
 
 
 

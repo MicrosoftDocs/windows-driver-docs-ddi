@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 79997d8c-4641-4953-a1a2-e5bde88cbc3f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::InputWide, dbgeng/IDebugControl4::InputWide, IDebugControl4 interface [Windows Debugging], InputWide method, InputWide method [Windows Debugging], InputWide, IDebugControl4, InputWide method [Windows Debugging], IDebugControl4 interface, debugger.inputwide
+ms.keywords: dbgeng/IDebugControl4::InputWide, InputWide, debugger.inputwide, IDebugControl4::InputWide, InputWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], InputWide method, IDebugControl4, InputWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

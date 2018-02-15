@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 86834d99-34bd-487a-bbd4-4c0143d849a0
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PWHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY, whea.whea_generic_error_data_entry, whearef_9e532654-fd5a-4936-8465-f9d6f9eafad2.xml, *PWHEA_GENERIC_ERROR_DATA_ENTRY, ntddk/PWHEA_GENERIC_ERROR_DATA_ENTRY, _WHEA_GENERIC_ERROR_DATA_ENTRY_V2, PWHEA_GENERIC_ERROR_DATA_ENTRY structure pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DATA_ENTRY_V2, *PWHEA_GENERIC_ERROR_DATA_ENTRY_V2, ntddk/WHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY structure [WHEA Drivers and Applications]
+ms.keywords: ntddk/PWHEA_GENERIC_ERROR_DATA_ENTRY, _WHEA_GENERIC_ERROR_DATA_ENTRY_V2, *PWHEA_GENERIC_ERROR_DATA_ENTRY, *PWHEA_GENERIC_ERROR_DATA_ENTRY_V2, WHEA_GENERIC_ERROR_DATA_ENTRY, PWHEA_GENERIC_ERROR_DATA_ENTRY, PWHEA_GENERIC_ERROR_DATA_ENTRY structure pointer [WHEA Drivers and Applications], ntddk/WHEA_GENERIC_ERROR_DATA_ENTRY, whearef_9e532654-fd5a-4936-8465-f9d6f9eafad2.xml, whea.whea_generic_error_data_entry, WHEA_GENERIC_ERROR_DATA_ENTRY structure [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DATA_ENTRY_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

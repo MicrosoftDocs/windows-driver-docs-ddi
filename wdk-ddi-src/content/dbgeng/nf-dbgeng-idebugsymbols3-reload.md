@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f739d5b8-80be-40e3-9139-93342c4fe458
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Reload method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::Reload, Reload method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], Reload method, debugger.reload, IDebugSymbols3::Reload, dbgeng/IDebugSymbols3::Reload, IDebugSymbols2 interface [Windows Debugging], Reload method, Reload method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, dbgeng/IDebugSymbols2::Reload, IDebugSymbols, IDebugSymbols2, Reload method [Windows Debugging], IDebugSymbols2 interface, Reload, dbgeng/IDebugSymbols::Reload, IDebugSymbols interface [Windows Debugging], Reload method, IDebugSymbols3, IDebugSymbols::Reload
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], Reload method, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, Reload method [Windows Debugging], dbgeng/IDebugSymbols3::Reload, debugger.reload, IDebugSymbols3::Reload, Reload method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::Reload, IDebugSymbols2, IDebugSymbols3, Reload, dbgeng/IDebugSymbols::Reload, IDebugSymbols interface [Windows Debugging], Reload method, Reload method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, IDebugSymbols2 interface [Windows Debugging], Reload method, IDebugSymbols2::Reload, IDebugSymbols::Reload, Reload method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,11 +115,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 

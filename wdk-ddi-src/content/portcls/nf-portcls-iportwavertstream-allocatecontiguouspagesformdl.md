@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 976f7e83-9b2a-4e1b-ab76-76d8e9711bff
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IPortWaveRTStream::AllocateContiguousPagesForMdl, AllocateContiguousPagesForMdl method [Audio Devices], IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices], AllocateContiguousPagesForMdl method, AllocateContiguousPagesForMdl, AllocateContiguousPagesForMdl method [Audio Devices], audio.iportwavertstream_allocatecontiguouspagesformdl, portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl, IPortWaveRTStream, audmp-routines_92ff395d-072b-4a11-b856-3afc1a024289.xml
+ms.keywords: portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl, IPortWaveRTStream interface [Audio Devices], AllocateContiguousPagesForMdl method, audmp-routines_92ff395d-072b-4a11-b856-3afc1a024289.xml, AllocateContiguousPagesForMdl method [Audio Devices], audio.iportwavertstream_allocatecontiguouspagesformdl, IPortWaveRTStream, AllocateContiguousPagesForMdl method [Audio Devices], IPortWaveRTStream interface, AllocateContiguousPagesForMdl, IPortWaveRTStream::AllocateContiguousPagesForMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -108,7 +108,7 @@ The <code>AllocateContiguousPagesforMdl</code> method allocates memory pages tha
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
 
 
@@ -116,7 +116,7 @@ The <code>AllocateContiguousPagesforMdl</code> method allocates memory pages tha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
 
 

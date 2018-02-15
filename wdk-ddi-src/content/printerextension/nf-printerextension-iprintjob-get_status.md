@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3C806C3B-78A1-44B6-A9AC-E7258D216637
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: Status property [Print Devices], IPrintJob interface, Status property [Print Devices], print.iprintjob_status, printerextension/IPrintJob::Status, printerextension/IPrintJob::get_Status, IPrintJob interface [Print Devices], Status property, IPrintJob::get_Status, IPrintJob, get_Status, IPrintJob.Status
+ms.keywords: print.iprintjob_status, IPrintJob, IPrintJob interface [Print Devices], Status property, printerextension/IPrintJob::Status, Status property [Print Devices], IPrintJob interface, IPrintJob::get_Status, printerextension/IPrintJob::get_Status, get_Status, Status property [Print Devices], IPrintJob.Status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

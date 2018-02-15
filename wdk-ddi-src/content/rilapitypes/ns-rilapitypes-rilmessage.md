@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 731ae115-2394-4651-9b79-6d640d07a328
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMESSAGE structure [Network Drivers Starting with Windows Vista], netvista.rilmessage_2, rilapitypes/RILMESSAGE, RILMESSAGE, *LPRILMESSAGE
+ms.keywords: rilapitypes/RILMESSAGE, RILMESSAGE, netvista.rilmessage_2, *LPRILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,50 +153,50 @@ typedef struct _RILMESSAGE {
 ### -field RILMSGUNION
 
 
-#### - switch_is
-
-
-#### - unMsgInDeliver
-
-
-#### - case
-
-
-#### - RIL_MSGTYPE_IN_DELIVER
-
-
-#### - unMsgInStatus
-
-
-#### - RIL_MSGTYPE_IN_STATUS
-
-
-#### - unMsgOutSubmit
-
-
-#### - RIL_MSGTYPE_OUT_SUBMIT
-
-
-#### - unMsgBcGeneral
-
-
 #### - RIL_MSGTYPE_BC_GENERAL
-
-
-#### - unMsgIS637InStatus
-
-
-#### - RIL_MSGTYPE_IN_IS637STATUS
-
-
-#### - unMsgCDMAInDeliver
 
 
 #### - RIL_MSGTYPE_IN_CDMADELIVER
 
 
-#### - unMsgCDMAOutSubmit
+#### - RIL_MSGTYPE_IN_DELIVER
+
+
+#### - RIL_MSGTYPE_IN_IS637STATUS
+
+
+#### - RIL_MSGTYPE_IN_STATUS
 
 
 #### - RIL_MSGTYPE_OUT_CDMASUBMIT
+
+
+#### - RIL_MSGTYPE_OUT_SUBMIT
+
+
+#### - case
+
+
+#### - switch_is
+
+
+#### - unMsgBcGeneral
+
+
+#### - unMsgCDMAInDeliver
+
+
+#### - unMsgCDMAOutSubmit
+
+
+#### - unMsgIS637InStatus
+
+
+#### - unMsgInDeliver
+
+
+#### - unMsgInStatus
+
+
+#### - unMsgOutSubmit
 

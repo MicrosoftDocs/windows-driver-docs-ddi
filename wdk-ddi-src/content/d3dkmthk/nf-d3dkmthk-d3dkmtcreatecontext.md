@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTCreateContext, D3DKMTCreateContext, OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, display.d3dkmtcreatecontext, D3DKMTCreateContext function [Display Devices], PFND3DKMT_CREATECONTEXT
+ms.keywords: D3DKMTCreateContext function [Display Devices], display.d3dkmtcreatecontext, OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, d3dkmthk/D3DKMTCreateContext, PFND3DKMT_CREATECONTEXT, D3DKMTCreateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d56cb216-a757-4ab8-ac7f-04dc22997835
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltSetFileContext, FltApiRef_p_to_z_ef77cece-4fd9-4453-9594-b027037d3ca9.xml, FltSetFileContext routine [Installable File System Drivers], FltSetFileContext, ifsk.fltsetfilecontext
+ms.keywords: ifsk.fltsetfilecontext, fltkernel/FltSetFileContext, FltSetFileContext, FltApiRef_p_to_z_ef77cece-4fd9-4453-9594-b027037d3ca9.xml, FltSetFileContext routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -221,18 +221,6 @@ For more information about context reference counting, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontexts.md">FltSupportsFileContexts</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontextsex.md">FltSupportsFileContextsEx</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
@@ -241,15 +229,27 @@ For more information about context reference counting, see <a href="https://msdn
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletefilecontext.md">FltDeleteFileContext</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontextsex.md">FltSupportsFileContextsEx</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsupportsfilecontexts.md">FltSupportsFileContexts</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletefilecontext.md">FltDeleteFileContext</a>
 
 
 

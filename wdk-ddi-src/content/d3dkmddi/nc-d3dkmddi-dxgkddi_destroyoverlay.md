@@ -78,14 +78,18 @@ NTSTATUS APIENTRY DxgkDdiDestroyOverlay(
 ## -returns
 
 
+
 <i>DxgkDdiDestroyOverlay</i> returns STATUS_SUCCESS, or an appropriate error result if overlay hardware is not successfully disabled.
+
 
 
 
 ## -remarks
 
 
+
 <i>DxgkDdiDestroyOverlay</i> should be made pageable.
+
 
 
 
@@ -93,7 +97,11 @@ NTSTATUS APIENTRY DxgkDdiDestroyOverlay(
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
+
 
  
 

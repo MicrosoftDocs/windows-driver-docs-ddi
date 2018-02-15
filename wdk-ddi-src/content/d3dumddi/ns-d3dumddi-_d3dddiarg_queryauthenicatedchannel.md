@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d816b4d7-cc99-4a83-9fd2-c7c0659d0318
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], display.d3dddiarg_queryauthenticatedchannel, _D3DDDIARG_QUERYAUTHENICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml
+ms.keywords: display.d3dddiarg_queryauthenticatedchannel, _D3DDDIARG_QUERYAUTHENICATEDCHANNEL, UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

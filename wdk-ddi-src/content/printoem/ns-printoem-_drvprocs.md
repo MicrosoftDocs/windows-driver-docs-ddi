@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.drvprocs, printoem/PDRVPROCS, PDRVPROCS, *PDRVPROCS, DRVPROCS, printoem/DRVPROCS, DRVPROCS structure [Print Devices], _DRVPROCS, PDRVPROCS structure pointer [Print Devices], print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml
+ms.keywords: DRVPROCS structure [Print Devices], printoem/DRVPROCS, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, *PDRVPROCS, _DRVPROCS, print.drvprocs, PDRVPROCS structure pointer [Print Devices], PDRVPROCS, DRVPROCS, printoem/PDRVPROCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

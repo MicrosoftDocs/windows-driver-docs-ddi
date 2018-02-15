@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 41E713D9-9499-40EB-8B21-DDB73362BAE3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.stor_list_entry, _STOR_LIST_ENTRY, *PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY, STOR_LIST_ENTRY, storport/STOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices], storport/PSTOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices]
+ms.keywords: storage.stor_list_entry, storport/STOR_LIST_ENTRY, *PSTOR_LIST_ENTRY, _STOR_LIST_ENTRY, STOR_LIST_ENTRY, storport/PSTOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], PSTOR_LIST_ENTRY structure pointer [Storage Devices], PSTOR_LIST_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,15 +108,7 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
-
-
-
-<a href="..\storport\nf-storport-storportinterlockedinsertheadlist.md">StorPortInterlockedInsertHeadList</a>
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
 
 
@@ -124,19 +116,15 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 
 
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
+<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
 
 
 
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
+<a href="..\storport\nf-storport-storportinterlockedinsertheadlist.md">StorPortInterlockedInsertHeadList</a>
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
 
 
@@ -144,7 +132,19 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 
 
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
 
 
 

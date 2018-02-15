@@ -109,11 +109,11 @@ The <i>StrMiniClock</i> routine must handle the functions specified in the <b>Cl
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
-
-
-
 <a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 
 

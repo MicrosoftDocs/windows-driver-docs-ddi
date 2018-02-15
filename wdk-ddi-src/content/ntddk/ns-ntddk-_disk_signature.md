@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3fdb436-53b6-4fb3-8746-1f852f7d928a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DISK_SIGNATURE structure [Storage Devices], ntddk/DISK_SIGNATURE, storage.disk_signature, structs-disk_6ea56db7-c886-43f2-b9ed-24b0f7e1cb6e.xml, _DISK_SIGNATURE, PDISK_SIGNATURE structure pointer [Storage Devices], PDISK_SIGNATURE, *PDISK_SIGNATURE, ntddk/PDISK_SIGNATURE, DISK_SIGNATURE
+ms.keywords: structs-disk_6ea56db7-c886-43f2-b9ed-24b0f7e1cb6e.xml, ntddk/DISK_SIGNATURE, PDISK_SIGNATURE structure pointer [Storage Devices], ntddk/PDISK_SIGNATURE, storage.disk_signature, _DISK_SIGNATURE, DISK_SIGNATURE structure [Storage Devices], DISK_SIGNATURE, PDISK_SIGNATURE, *PDISK_SIGNATURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

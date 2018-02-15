@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be8867e4-42be-4f11-bf4b-1b0fd29daa06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFCoinstallerRef_71021229-7902-4d6a-a5f3-c9763860c7bf.xml, _WDF_COINSTALLER_INSTALL_OPTIONS, wdfinstaller/PWDF_COINSTALLER_INSTALL_OPTIONS, kmdf.wdf_coinstaller_install_options, wdf.wdf_coinstaller_install_options, PWDF_COINSTALLER_INSTALL_OPTIONS structure pointer, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS structure, PWDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS
+ms.keywords: WDF_COINSTALLER_INSTALL_OPTIONS structure, *PWDF_COINSTALLER_INSTALL_OPTIONS, wdfinstaller/PWDF_COINSTALLER_INSTALL_OPTIONS, WDF_COINSTALLER_INSTALL_OPTIONS, wdf.wdf_coinstaller_install_options, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS, DFCoinstallerRef_71021229-7902-4d6a-a5f3-c9763860c7bf.xml, kmdf.wdf_coinstaller_install_options, _WDF_COINSTALLER_INSTALL_OPTIONS, PWDF_COINSTALLER_INSTALL_OPTIONS, PWDF_COINSTALLER_INSTALL_OPTIONS structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

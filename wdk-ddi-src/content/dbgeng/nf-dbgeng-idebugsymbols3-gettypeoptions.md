@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a21442e5-8237-4d00-8d8a-6fabd6cc0db2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeOptions method [Windows Debugging], IDebugSymbols2::GetTypeOptions, GetTypeOptions, IDebugSymbols3::GetTypeOptions, dbgeng/IDebugSymbols2::GetTypeOptions, IDebugSymbols2 interface [Windows Debugging], GetTypeOptions method, GetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2, GetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, debugger.gettypeoptions, IDebugSymbols3 interface [Windows Debugging], GetTypeOptions method, dbgeng/IDebugSymbols3::GetTypeOptions, IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, IDebugSymbols3
+ms.keywords: dbgeng/IDebugSymbols2::GetTypeOptions, GetTypeOptions method [Windows Debugging], IDebugSymbols2::GetTypeOptions, dbgeng/IDebugSymbols3::GetTypeOptions, GetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols2, IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, GetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetTypeOptions method, debugger.gettypeoptions, IDebugSymbols3::GetTypeOptions, GetTypeOptions, IDebugSymbols3 interface [Windows Debugging], GetTypeOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,7 +114,7 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
 
 
 
@@ -122,15 +122,15 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
 
 
 

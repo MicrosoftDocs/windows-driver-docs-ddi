@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B97FF6B1-BFCB-4293-B2F0-EE08E12CFCFF
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback, WdfDmaTransactionSetTransferCompleteCallback, kmdf.wdfdmatransactionsettransfercompletecallback, WdfDmaTransactionSetTransferCompleteCallback method, PFN_WDFDMATRANSACTIONSETTRANSFERCOMPLETECALLBACK, wdf.wdfdmatransactionsettransfercompletecallback
+ms.keywords: PFN_WDFDMATRANSACTIONSETTRANSFERCOMPLETECALLBACK, WdfDmaTransactionSetTransferCompleteCallback method, WdfDmaTransactionSetTransferCompleteCallback, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback, kmdf.wdfdmatransactionsettransfercompletecallback, wdf.wdfdmatransactionsettransfercompletecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete.md">EvtDmaTransactionDmaTransferComplete</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
+
+
+
+<a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete.md">EvtDmaTransactionDmaTransferComplete</a>
 
 
 

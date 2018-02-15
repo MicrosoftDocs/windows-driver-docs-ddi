@@ -87,9 +87,9 @@ VOID  APIENTRY DrawIndexedInstancedIndirect(
 
 
 
-#### - hDevice
+#### - AlignedByteOffsetForArgs
 
- A handle to the display device (graphics context).
+ The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
 
 
 #### - hBufferForArgs
@@ -115,9 +115,9 @@ VOID  APIENTRY DrawIndexedInstancedIndirect(
 For more information about these arguments, see the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_drawindexedinstanced.md">DrawIndexedInstanced</a> reference page. 
 
 
-#### - AlignedByteOffsetForArgs
+#### - hDevice
 
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4. 
+ A handle to the display device (graphics context).
 
 
 ## -returns
@@ -152,10 +152,6 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
 
@@ -165,6 +161,10 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_drawindexedinstanced.md">DrawIndexedInstanced</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

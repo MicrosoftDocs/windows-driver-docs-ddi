@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5B3E5B33-EFED-485A-A62A-7A54322408AC
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.mmgetmaximumfilesectionsize, MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ntifs/MmGetMaximumFileSectionSize
+ms.keywords: ntifs/MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ifsk.mmgetmaximumfilesectionsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

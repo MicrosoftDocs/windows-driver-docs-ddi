@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/_PORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml, storage.port_configuration_information__scsi_, _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION, srb/PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION
+ms.keywords: "_PORT_CONFIGURATION_INFORMATION, srb/PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, srb/_PORT_CONFIGURATION_INFORMATION, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], storage.port_configuration_information__scsi_, *PPORT_CONFIGURATION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -407,7 +407,15 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+
+
+
+<a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
 
 
@@ -419,23 +427,15 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 
 
+<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+
+
+
 <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
-
-
-
-<a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 

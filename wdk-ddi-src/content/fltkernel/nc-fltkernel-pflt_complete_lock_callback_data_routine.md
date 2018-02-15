@@ -111,11 +111,7 @@ When completing the an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
 
 
 
@@ -127,7 +123,11 @@ When completing the an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551951">PUNLOCK_ROUTINE</a>
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
 
 
 
@@ -139,7 +139,7 @@ When completing the an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
 
 
 
@@ -147,7 +147,7 @@ When completing the an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551951">PUNLOCK_ROUTINE</a>
 
 
 

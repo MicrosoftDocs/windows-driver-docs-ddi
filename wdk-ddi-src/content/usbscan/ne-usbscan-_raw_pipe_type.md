@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6af4161c-7caa-4d80-8938-303380ee3058
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.raw_pipe_type, usbscan/USBSCAN_PIPE_INTERRUPT, usbscan/USBSCAN_PIPE_ISOCHRONOUS, USBSCAN_PIPE_ISOCHRONOUS, stifnc_6f079c69-737d-4653-9e83-202418853f75.xml, usbscan/RAW_PIPE_TYPE, USBSCAN_PIPE_INTERRUPT, RAW_PIPE_TYPE, USBSCAN_PIPE_BULK, usbscan/USBSCAN_PIPE_CONTROL, RAW_PIPE_TYPE enumeration [Imaging Devices], _RAW_PIPE_TYPE, usbscan/USBSCAN_PIPE_BULK, USBSCAN_PIPE_CONTROL
+ms.keywords: USBSCAN_PIPE_INTERRUPT, usbscan/RAW_PIPE_TYPE, usbscan/USBSCAN_PIPE_CONTROL, USBSCAN_PIPE_CONTROL, USBSCAN_PIPE_ISOCHRONOUS, usbscan/USBSCAN_PIPE_ISOCHRONOUS, usbscan/USBSCAN_PIPE_INTERRUPT, RAW_PIPE_TYPE enumeration [Imaging Devices], usbscan/USBSCAN_PIPE_BULK, image.raw_pipe_type, _RAW_PIPE_TYPE, RAW_PIPE_TYPE, stifnc_6f079c69-737d-4653-9e83-202418853f75.xml, USBSCAN_PIPE_BULK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

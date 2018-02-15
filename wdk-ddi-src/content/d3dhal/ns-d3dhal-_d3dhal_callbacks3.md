@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09215332-4ee3-4f7b-be25-091b8d85fd6b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], display.d3dhal_callbacks3, d3dhal/LPD3DHAL_CALLBACKS3, d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, D3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], d3dhal/D3DHAL_CALLBACKS3, _D3DHAL_CALLBACKS3"
+ms.keywords: "*LPD3DHAL_CALLBACKS3, display.d3dhal_callbacks3, D3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], _D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, LPD3DHAL_CALLBACKS3, d3dhal/LPD3DHAL_CALLBACKS3, d3dhal/D3DHAL_CALLBACKS3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -161,11 +161,7 @@ The driver allocates this structure and sets appropriate values in all members. 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
+D3DDP2OP_CLEAR
 
 
 
@@ -173,11 +169,15 @@ The driver allocates this structure and sets appropriate values in all members. 
 
 
 
-D3DDP2OP_CLEAR
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
+
+
+
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
 
 

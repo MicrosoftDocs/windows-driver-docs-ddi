@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E3BFBF03-8130-4EFF-95F4-030107AF4D75
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PPO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeMaximum, PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeDiscrete, PoFxPerfStateTypeRange, wdm/PoFxPerfStateTypeRange, _PO_FX_PERF_STATE_TYPE, wdm/PO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeMaximum, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE, kernel.po_fx_perf_state_type"
+ms.keywords: PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateTypeDiscrete, kernel.po_fx_perf_state_type, wdm/PoFxPerfStateTypeMaximum, *PPO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeMaximum, PPO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeRange, PO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeRange, _PO_FX_PERF_STATE_TYPE, wdm/PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_PERF_STATE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

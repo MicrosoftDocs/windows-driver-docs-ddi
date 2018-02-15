@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 27F0C336-3C8C-49B5-A7DB-F0640526CAE8
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlEnumerateGenericTableWithoutSplayingAvl, ifsk.rtlenumerategenerictablewithoutsplayingavl, ntddk/RtlEnumerateGenericTableWithoutSplayingAvl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers]
+ms.keywords: RtlEnumerateGenericTableWithoutSplayingAvl, ntddk/RtlEnumerateGenericTableWithoutSplayingAvl, ifsk.rtlenumerategenerictablewithoutsplayingavl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,7 +127,7 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
 
 
 
@@ -135,11 +135,11 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> must be running at 
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
 
 
 

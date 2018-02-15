@@ -87,11 +87,14 @@ A pointer to the client module's context for the binding between the client modu
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The NMR calls a client module's 
@@ -118,17 +121,28 @@ The NMR calls a client module's
 
 
 
+
 ## -see-also
-
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
-
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
-
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
+
+
+<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+
+
+
 <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
+
+
 
  
 

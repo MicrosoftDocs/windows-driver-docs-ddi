@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7a5043b9-2517-454a-a8d3-1ea09143c81a
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, SeImpersonateClientEx, ntifs/SeImpersonateClientEx
+ms.keywords: seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml, ntifs/SeImpersonateClientEx, ifsk.seimpersonateclientex, SeImpersonateClientEx routine [Installable File System Drivers], SeImpersonateClientEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,11 +153,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
 
 
 

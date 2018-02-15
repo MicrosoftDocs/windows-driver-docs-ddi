@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e81441a2-0659-4d32-97f4-415abef6c87a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_ACCESS_RANGE structure pointer [Storage Devices], irb/IDE_ACCESS_RANGE, _IDE_ACCESS_RANGE, PIDE_ACCESS_RANGE, irb/PIDE_ACCESS_RANGE, *PIDE_ACCESS_RANGE, IDE_ACCESS_RANGE structure [Storage Devices], IDE_ACCESS_RANGE, structs-ATA_6c50e733-2896-4052-a867-ae2c9d119ff2.xml, storage.ide_access_range
+ms.keywords: PIDE_ACCESS_RANGE, *PIDE_ACCESS_RANGE, _IDE_ACCESS_RANGE, structs-ATA_6c50e733-2896-4052-a867-ae2c9d119ff2.xml, irb/PIDE_ACCESS_RANGE, PIDE_ACCESS_RANGE structure pointer [Storage Devices], storage.ide_access_range, irb/IDE_ACCESS_RANGE, IDE_ACCESS_RANGE, IDE_ACCESS_RANGE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

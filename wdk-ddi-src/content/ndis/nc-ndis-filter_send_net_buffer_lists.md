@@ -293,7 +293,27 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
@@ -302,19 +322,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -323,19 +335,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfsendnetbufferlists.md">NdisFSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

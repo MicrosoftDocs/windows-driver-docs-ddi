@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9411437c-60d8-424e-b54c-7750f1c4dd9e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDeviceDepot2::get_Item, wdtf/IWDTFDeviceDepot2::Item, IWDTFActions2, Item property [Windows Device Testing Framework], IWDTFDeviceDepot2, wdtf/IWDTFDeviceDepot2::get_Item, Item property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2.Item, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Item property, Microsoft::WDTF::IWDTFDeviceDepot2::Item, IWDTFActions2::get_Item, get_Item, Microsoft.WDTF.IWDTFDeviceDepot2.Item, dtf.iwdtfdevicedepot2_item
+ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Item property, IWDTFDeviceDepot2::get_Item, dtf.iwdtfdevicedepot2_item, wdtf/IWDTFDeviceDepot2::get_Item, IWDTFDeviceDepot2, Item property [Windows Device Testing Framework], wdtf/IWDTFDeviceDepot2::Item, IWDTFActions2::get_Item, Microsoft.WDTF.IWDTFDeviceDepot2.Item, Microsoft::WDTF::IWDTFDeviceDepot2::Item, IWDTFDeviceDepot2.Item, IWDTFActions2, Item property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

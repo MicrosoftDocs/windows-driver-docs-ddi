@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 985dcde1-5643-4c35-9096-44b076a1dd51
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicegetcharacteristics, PFN_WDFDEVICEGETCHARACTERISTICS, WdfDeviceGetCharacteristics method, DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, WdfDeviceGetCharacteristics, wdf.wdfdevicegetcharacteristics, wdfdevice/WdfDeviceGetCharacteristics
+ms.keywords: wdf.wdfdevicegetcharacteristics, DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, WdfDeviceGetCharacteristics method, WdfDeviceGetCharacteristics, kmdf.wdfdevicegetcharacteristics, PFN_WDFDEVICEGETCHARACTERISTICS, wdfdevice/WdfDeviceGetCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

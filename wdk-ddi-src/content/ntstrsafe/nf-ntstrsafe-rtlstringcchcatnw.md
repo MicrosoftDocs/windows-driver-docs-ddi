@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2cd45c9e-b9dd-47fb-a480-63258b2fccd4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchcatn, RtlStringCchCatNW, ntstrsafe/RtlStringCchCatNW, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], RtlStringCchCatN, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNA
+ms.keywords: RtlStringCchCatNA, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml, ntstrsafe/RtlStringCchCatNW, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcatn, RtlStringCchCatNW, ntstrsafe/RtlStringCchCatNA, RtlStringCchCatN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -227,15 +227,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatw.md">RtlStringCchCat</a>
+
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnw.md">RtlStringCbCatN</a>
 
 
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
-
-
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatw.md">RtlStringCchCat</a>
 
 
 

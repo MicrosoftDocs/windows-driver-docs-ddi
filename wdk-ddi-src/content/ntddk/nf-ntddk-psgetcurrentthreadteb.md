@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 822B75D4-A825-4BB1-8265-A1389F4982C7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetCurrentThreadTeb, PsGetCurrentThreadTeb routine [Kernel-Mode Driver Architecture], ntddk/PsGetCurrentThreadTeb, kernel.psgetcurrentthreadteb
+ms.keywords: kernel.psgetcurrentthreadteb, PsGetCurrentThreadTeb, ntddk/PsGetCurrentThreadTeb, PsGetCurrentThreadTeb routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

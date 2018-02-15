@@ -328,12 +328,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">MiniportCancelOidRequest</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
-   NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
 
 
@@ -341,7 +340,13 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+   MiniportDevicePnPEventNotify</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+   NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
 
 
@@ -353,11 +358,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 
@@ -365,16 +370,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
-   MiniportDevicePnPEventNotify</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">MiniportCancelOidRequest</a>
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 

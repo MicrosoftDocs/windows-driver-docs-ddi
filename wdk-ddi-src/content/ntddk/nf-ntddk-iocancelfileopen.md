@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 249a77b4-c0da-4445-a669-1c4e2ced5b57
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoCancelFileOpen routine [Installable File System Drivers], IoCancelFileOpen, ifsk.iocancelfileopen, ntddk/IoCancelFileOpen, ioref_e63977d2-a70b-4743-85e2-557458ca89ae.xml
+ms.keywords: ntddk/IoCancelFileOpen, IoCancelFileOpen, IoCancelFileOpen routine [Installable File System Drivers], ifsk.iocancelfileopen, ioref_e63977d2-a70b-4743-85e2-557458ca89ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,11 +132,15 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">FltCancelFileOpen</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 
@@ -148,10 +152,6 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
@@ -160,11 +160,11 @@ Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">FltCancelFileOpen</a>
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ab49643b-ab77-49ea-9a3b-e3a184cd29d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvAcquireItemData, drvAcquireItemData method [Imaging Devices], image.iwiaminidrv_drvacquireitemdata, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method, drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, drvAcquireItemData, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData, IWiaMiniDrv
+ms.keywords: IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData, drvAcquireItemData method [Imaging Devices], MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method, image.iwiaminidrv_drvacquireitemdata, drvAcquireItemData, IWiaMiniDrv::drvAcquireItemData, drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,24 +93,24 @@ HRESULT drvAcquireItemData(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is currently unused. 
 
 
-#### - pmdtc [in, out]
+#### - pWiasContext [in]
 
-Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+
+
+#### - pmdtc [in, out]
+
+Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
 
 
 ## -returns
@@ -211,19 +211,19 @@ Other error code
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
+
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
 
 

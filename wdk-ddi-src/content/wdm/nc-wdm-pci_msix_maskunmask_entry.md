@@ -40,7 +40,7 @@ apiname:
 -	MaskTableEntry
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -85,7 +85,9 @@ The index of the table entry in the MSI-X hardware interrupt table.
 ## -returns
 
 
+
 The <i>MaskTableEntry</i> routine might return one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +115,14 @@ The <i>TableEntry</i> parameter is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If a table entry is masked, the device does not generate any interrupts that correspond to that table entry.
@@ -126,11 +131,16 @@ You can unmask the table entry by calling <a href="..\wdm\nc-wdm-pci_msix_maskun
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a>
 
+
+
 <a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c8d76d5b-f388-4e22-ba57-d299ab3dee80
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetType method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe, umdf.iwdfusbtargetpipe_gettype, wdf.iwdfusbtargetpipe_gettype, wudfusb/IWDFUsbTargetPipe::GetType, IWDFUsbTargetPipe::GetType, GetType method, GetType, IWDFUsbTargetPipe interface, GetType method, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml
+ms.keywords: UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, wdf.iwdfusbtargetpipe_gettype, IWDFUsbTargetPipe interface, GetType method, GetType method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::GetType, umdf.iwdfusbtargetpipe_gettype, IWDFUsbTargetPipe::GetType, GetType method, IWDFUsbTargetPipe, GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 48308dcd-e423-4c25-9fec-3a423043e988
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: mrxfcb/RxReleaseFcbResourceInMRx, RxReleaseFcbResourceInMRx, rxref_b433f8ba-7bdd-4fd2-baba-346e886a23dc.xml, ifsk.rxreleasefcbresourceinmrx, RxReleaseFcbResourceInMRx function [Installable File System Drivers]
+ms.keywords: RxReleaseFcbResourceInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceinmrx, RxReleaseFcbResourceInMRx, rxref_b433f8ba-7bdd-4fd2-baba-346e886a23dc.xml, mrxfcb/RxReleaseFcbResourceInMRx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,7 +105,7 @@ The <b>RxReleaseFcbResourceInMRx</b> routine will release an FCB resource previo
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md">RxAcquireSharedFcbResourceInMRxEx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 
 
 
@@ -113,7 +113,7 @@ The <b>RxReleaseFcbResourceInMRx</b> routine will release an FCB resource previo
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md">RxAcquireSharedFcbResourceInMRxEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1c69b8b0-fe73-4e13-be09-70b99e0e3f32
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_a02f38fd-ea37-42cb-9c3d-387ffb097893.xml, hbapiwmi/SM_AddLink_OUT, storage.sm_addlink_out, hbapiwmi/PSM_AddLink_OUT, SM_AddLink_OUT, SM_AddLink_OUT structure [Storage Devices], *PSM_AddLink_OUT, _SM_AddLink_OUT, PSM_AddLink_OUT, PSM_AddLink_OUT structure pointer [Storage Devices]
+ms.keywords: hbapiwmi/SM_AddLink_OUT, structs-Fibre_a02f38fd-ea37-42cb-9c3d-387ffb097893.xml, SM_AddLink_OUT structure [Storage Devices], hbapiwmi/PSM_AddLink_OUT, SM_AddLink_OUT, _SM_AddLink_OUT, *PSM_AddLink_OUT, PSM_AddLink_OUT structure pointer [Storage Devices], storage.sm_addlink_out, PSM_AddLink_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

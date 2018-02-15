@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb6c5b25-ea21-44cb-8b67-c5266c8bc1e4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint, IsOutEndPoint method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_isoutendpoint, IsOutEndPoint method, IWDFUsbTargetPipe interface, IsOutEndPoint method, umdf.iwdfusbtargetpipe_isoutendpoint, IWDFUsbTargetPipe::IsOutEndPoint, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml
+ms.keywords: IsOutEndPoint, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint method, IsOutEndPoint method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_isoutendpoint, umdf.iwdfusbtargetpipe_isoutendpoint, IWDFUsbTargetPipe::IsOutEndPoint, IWDFUsbTargetPipe, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml, IWDFUsbTargetPipe interface, IsOutEndPoint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,11 +98,11 @@ For a code example of how to use the <b>IsOutEndPoint</b> method, see <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
 
 
 

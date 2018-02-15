@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 88471e00-4913-44fd-b9f4-960ec46fb75a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEXW, OSVERSIONINFOEX, kernel.rtl_osversioninfoexw, wdm/RTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], _OSVERSIONINFOEXW, *POSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, *LPOSVERSIONINFOEXW
+ms.keywords: kernel.rtl_osversioninfoexw, *LPOSVERSIONINFOEXW, *PRTL_OSVERSIONINFOEXW, OSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW structure [Kernel-Mode Driver Architecture], PRTL_OSVERSIONINFOEXW, PRTL_OSVERSIONINFOEXW structure pointer [Kernel-Mode Driver Architecture], OSVERSIONINFOEX, _OSVERSIONINFOEXW, kstruct_d_a7e48147-5619-4ab4-b83a-18139aa0a2c5.xml, wdm/PRTL_OSVERSIONINFOEXW, wdm/RTL_OSVERSIONINFOEXW, *POSVERSIONINFOEXW, RTL_OSVERSIONINFOEXW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -611,11 +611,11 @@ Not applicable
 
 
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-
-
-
 <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
 
 

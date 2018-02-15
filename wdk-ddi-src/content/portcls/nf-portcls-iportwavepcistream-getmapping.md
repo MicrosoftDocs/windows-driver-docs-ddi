@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f0d4f266-6a43-4523-bf1d-3dda1fc9a5b8
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, IPortWavePciStream interface [Audio Devices], GetMapping method, portcls/IPortWavePciStream::GetMapping, GetMapping, audio.iportwavepcistream_getmapping, IPortWavePciStream, GetMapping method [Audio Devices], IPortWavePciStream interface, GetMapping method [Audio Devices], IPortWavePciStream::GetMapping
+ms.keywords: portcls/IPortWavePciStream::GetMapping, audmp-routines_e0c71b6a-ec20-47ab-85bc-7a3495e5247e.xml, audio.iportwavepcistream_getmapping, GetMapping, GetMapping method [Audio Devices], IPortWavePciStream interface, IPortWavePciStream, IPortWavePciStream interface [Audio Devices], GetMapping method, GetMapping method [Audio Devices], IPortWavePciStream::GetMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -177,6 +177,10 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
+
+
+
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
@@ -185,11 +189,7 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536726">IMiniportWavePciStream::GetAllocatorFraming</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536728">IMiniportWavePciStream::MappingAvailable</a>
 
 
 
@@ -197,7 +197,7 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536728">IMiniportWavePciStream::MappingAvailable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 2C7071A4-B978-408C-9C98-67BC63F2BBCA
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: "*PNFC_CX_CE_MODE_CONFIG, NFC_CX_CE_NFC_F, NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_DEFAULT, NFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_CE_MODE_CONFIG, nfpdrivers.nfc_cx_ce_mode_config, NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], _NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_NFC_B, NFC_CX_CE_NFC_A, NFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_NFC_B, NFC_CX_CE_DEFAULT, nfccx/NFC_CX_CE_NFC_A, nfccx/NFC_CX_CE_NFC_F"
+ms.keywords: nfccx/NFC_CX_CE_DEFAULT, NFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_NFC_F, NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], nfpdrivers.nfc_cx_ce_mode_config, _NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_DEFAULT, NFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_CE_NFC_A, nfccx/NFC_CX_CE_NFC_B, *PNFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_NFC_A, nfccx/NFC_CX_CE_NFC_F, NFC_CX_CE_NFC_B, NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

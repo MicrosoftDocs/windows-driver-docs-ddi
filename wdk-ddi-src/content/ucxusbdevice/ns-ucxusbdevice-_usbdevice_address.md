@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2CD37F1E-B96A-4D18-A756-2B9E3CB8613B
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucxusbdevice/P_USBDEVICE_ADDRESS, USBDEVICE_ADDRESS, _USBDEVICE_ADDRESS, *PUSBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS structure pointer [Buses], buses._usbdevice_address, USBDEVICE_ADDRESS structure [Buses], ucxusbdevice/_USBDEVICE_ADDRESS
+ms.keywords: buses._usbdevice_address, P_USBDEVICE_ADDRESS, USBDEVICE_ADDRESS structure [Buses], P_USBDEVICE_ADDRESS structure pointer [Buses], ucxusbdevice/P_USBDEVICE_ADDRESS, USBDEVICE_ADDRESS, _USBDEVICE_ADDRESS, *PUSBDEVICE_ADDRESS, ucxusbdevice/_USBDEVICE_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

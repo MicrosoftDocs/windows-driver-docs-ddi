@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D24D8C90-8F65-42BC-8FBC-308ECC4A73C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanAuthAka, wwan/WWAN_AUTH_METHOD, WwanAuthMethodMax, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WWAN_AUTH_METHOD, *PWWAN_AUTH_METHOD, wwan/WwanAuthAkaPrime, netvista.wwan_auth_method, WwanAuthAkaPrime, WwanAuthSim, wwan/WwanAuthMethodMax, wwan/WwanAuthSim, _WWAN_AUTH_METHOD, wwan/WwanAuthAka
+ms.keywords: wwan/WwanAuthSim, _WWAN_AUTH_METHOD, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthMethodMax, WWAN_AUTH_METHOD, WwanAuthSim, WwanAuthMethodMax, *PWWAN_AUTH_METHOD, WwanAuthAka, wwan/WwanAuthAka, wwan/WwanAuthAkaPrime, netvista.wwan_auth_method, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthAkaPrime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

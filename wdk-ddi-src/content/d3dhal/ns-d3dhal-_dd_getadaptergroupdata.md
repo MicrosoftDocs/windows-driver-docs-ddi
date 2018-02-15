@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8c427880-f809-4b58-8f69-d81a273d705c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dd_getadaptergroupdata, DD_GETADAPTERGROUPDATA structure [Display Devices], _DD_GETADAPTERGROUPDATA, d3dhal/DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml
+ms.keywords: DD_GETADAPTERGROUPDATA structure [Display Devices], d3dhal/DD_GETADAPTERGROUPDATA, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, display.dd_getadaptergroupdata, _DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

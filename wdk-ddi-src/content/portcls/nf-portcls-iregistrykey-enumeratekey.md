@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2438c994-a283-49fe-a39b-99de678df2e2
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IRegistryKey interface [Audio Devices], EnumerateKey method, EnumerateKey method [Audio Devices], IRegistryKey interface, audio.iregistrykey_enumeratekey, EnumerateKey, portcls/IRegistryKey::EnumerateKey, audmp-routines_ef31b848-c963-4327-ba86-bca98383ad90.xml, IRegistryKey::EnumerateKey, IRegistryKey, EnumerateKey method [Audio Devices]
+ms.keywords: IRegistryKey interface [Audio Devices], EnumerateKey method, EnumerateKey, audmp-routines_ef31b848-c963-4327-ba86-bca98383ad90.xml, portcls/IRegistryKey::EnumerateKey, EnumerateKey method [Audio Devices], EnumerateKey method [Audio Devices], IRegistryKey interface, IRegistryKey::EnumerateKey, audio.iregistrykey_enumeratekey, IRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -151,15 +151,15 @@ Indicates that no more subkeys are available (subkey index is larger than or equ
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
+
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 
 <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 
 

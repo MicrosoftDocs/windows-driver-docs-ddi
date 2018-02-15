@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e11a823d-0b08-42fd-b093-4c464c152afe
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IQueueCallbackRead, OnRead method, IQueueCallbackRead interface, OnRead method, umdf.iqueuecallbackread_onread, IQueueCallbackRead interface, OnRead method, wdf.iqueuecallbackread_onread, wudfddi/IQueueCallbackRead::OnRead, IQueueCallbackRead::OnRead, UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml, OnRead
+ms.keywords: UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml, IQueueCallbackRead, IQueueCallbackRead::OnRead, wudfddi/IQueueCallbackRead::OnRead, OnRead, OnRead method, IQueueCallbackRead interface, wdf.iqueuecallbackread_onread, OnRead method, IQueueCallbackRead interface, OnRead method, umdf.iqueuecallbackread_onread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,7 +117,7 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 
@@ -125,7 +125,7 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 
 

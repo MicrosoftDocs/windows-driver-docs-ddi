@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 513cdedc-2ecd-4b02-a85b-5abd9c0c7fcd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_ae252017-7aa2-4d15-a387-26ec34cc964c.xml, HBA_FreeLibrary, storage.hba_freelibrary, HBA_FreeLibrary routine [Storage Devices], hbaapi/HBA_FreeLibrary
+ms.keywords: fibreHBA_rtns_ae252017-7aa2-4d15-a387-26ec34cc964c.xml, storage.hba_freelibrary, hbaapi/HBA_FreeLibrary, HBA_FreeLibrary, HBA_FreeLibrary routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

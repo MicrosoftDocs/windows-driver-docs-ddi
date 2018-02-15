@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6ebb1955-1ffc-4869-84c8-69d672ac782e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWorkItemGetParentObject, PFN_WDFWORKITEMGETPARENTOBJECT, wdfworkitem/WdfWorkItemGetParentObject, kmdf.wdfworkitemgetparentobject, DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, wdf.wdfworkitemgetparentobject, WdfWorkItemGetParentObject method
+ms.keywords: WdfWorkItemGetParentObject method, wdfworkitem/WdfWorkItemGetParentObject, wdf.wdfworkitemgetparentobject, DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, WdfWorkItemGetParentObject, PFN_WDFWORKITEMGETPARENTOBJECT, kmdf.wdfworkitemgetparentobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 656a0c58-dd12-4417-a781-464d1670592c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoInitSetDefaultChildListConfig method, DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, wdf.wdffdoinitsetdefaultchildlistconfig, kmdf.wdffdoinitsetdefaultchildlistconfig, PFN_WDFFDOINITSETDEFAULTCHILDLISTCONFIG, WdfFdoInitSetDefaultChildListConfig, wdffdo/WdfFdoInitSetDefaultChildListConfig
+ms.keywords: PFN_WDFFDOINITSETDEFAULTCHILDLISTCONFIG, kmdf.wdffdoinitsetdefaultchildlistconfig, DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, WdfFdoInitSetDefaultChildListConfig method, wdffdo/WdfFdoInitSetDefaultChildListConfig, wdf.wdffdoinitsetdefaultchildlistconfig, WdfFdoInitSetDefaultChildListConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,11 +140,11 @@ WdfFdoInitSetDefaultChildListConfig(
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
-
-
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
 
 
 

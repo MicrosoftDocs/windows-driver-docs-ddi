@@ -253,6 +253,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclnotifycloseaddressfamilycomplete.md">
    NdisClNotifyCloseAddressFamilyComplete</a>
 
@@ -263,10 +267,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
 
 
 

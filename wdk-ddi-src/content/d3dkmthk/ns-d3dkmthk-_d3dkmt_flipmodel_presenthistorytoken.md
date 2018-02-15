@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dcf844e3-3346-485e-8965-c8cb824e2c78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_flipmodel_presenthistorytoken, OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml
+ms.keywords: d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_flipmodel_presenthistorytoken, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

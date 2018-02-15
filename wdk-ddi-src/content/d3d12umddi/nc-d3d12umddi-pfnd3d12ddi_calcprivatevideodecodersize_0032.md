@@ -81,6 +81,8 @@ The arguments used to create a video decoder.
 ## -returns
 
 
+
 Returns the size of the video decoder in bytes.
+
 
 

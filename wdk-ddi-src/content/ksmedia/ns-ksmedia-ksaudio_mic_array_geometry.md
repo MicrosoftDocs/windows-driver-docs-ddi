@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 49b8f602-8f82-4445-98f2-a63563689561
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: KSAUDIO_MIC_ARRAY_GEOMETRY structure [Audio Devices], aud-prop_b25763af-a8d5-4335-ae71-f3bc59218201.xml, ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY, PKSAUDIO_MIC_ARRAY_GEOMETRY, *PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY, ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY, audio.ksaudio_mic_array_geometry, PKSAUDIO_MIC_ARRAY_GEOMETRY structure pointer [Audio Devices]
+ms.keywords: aud-prop_b25763af-a8d5-4335-ae71-f3bc59218201.xml, ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY, PKSAUDIO_MIC_ARRAY_GEOMETRY structure pointer [Audio Devices], KSAUDIO_MIC_ARRAY_GEOMETRY, ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY structure [Audio Devices], audio.ksaudio_mic_array_geometry, PKSAUDIO_MIC_ARRAY_GEOMETRY, *PKSAUDIO_MIC_ARRAY_GEOMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

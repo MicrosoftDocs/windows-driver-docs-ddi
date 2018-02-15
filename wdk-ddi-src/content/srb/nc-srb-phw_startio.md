@@ -103,11 +103,11 @@ For more information about the miniport driver's start I/O routine that is used 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>
-
-
-
 <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fcc2679c-9a73-4bd0-ad2d-e7b48df9c7f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_PORT_I2C_INTERFACE structure [Display Devices], VIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], video/VIDEO_PORT_I2C_INTERFACE, Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, PVIDEO_PORT_I2C_INTERFACE, _VIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/PVIDEO_PORT_I2C_INTERFACE
+ms.keywords: video/VIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE, _VIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE structure [Display Devices], PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE, Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,11 +132,11 @@ PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-
-
-
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 
 

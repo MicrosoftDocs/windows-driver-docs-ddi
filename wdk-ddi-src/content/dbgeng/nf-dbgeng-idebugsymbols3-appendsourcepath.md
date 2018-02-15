@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b82c2206-b81d-4ebf-a8fd-c08d7f57ffc9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AppendSourcePath, IDebugSymbols interface [Windows Debugging], AppendSourcePath method, IDebugSymbols2::AppendSourcePath, dbgeng/IDebugSymbols3::AppendSourcePath, debugger.appendsourcepath, AppendSourcePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::AppendSourcePath, dbgeng/IDebugSymbols::AppendSourcePath, IDebugSymbols3::AppendSourcePath, IDebugSymbols3, AppendSourcePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], AppendSourcePath method, AppendSourcePath method [Windows Debugging], IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, dbgeng/IDebugSymbols2::AppendSourcePath, IDebugSymbols, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], AppendSourcePath method, AppendSourcePath method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: dbgeng/IDebugSymbols2::AppendSourcePath, IDebugSymbols2 interface [Windows Debugging], AppendSourcePath method, dbgeng/IDebugSymbols3::AppendSourcePath, IDebugSymbols3::AppendSourcePath, AppendSourcePath method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::AppendSourcePath, IDebugSymbols_8e47c1ea-e190-4f34-a952-1dcf4ef9e971.xml, AppendSourcePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], AppendSourcePath method, IDebugSymbols3, IDebugSymbols2, AppendSourcePath method [Windows Debugging], AppendSourcePath, IDebugSymbols2::AppendSourcePath, IDebugSymbols, AppendSourcePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::AppendSourcePath, IDebugSymbols3 interface [Windows Debugging], AppendSourcePath method, debugger.appendsourcepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,19 +115,7 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
 
 
@@ -135,7 +123,19 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
 
 

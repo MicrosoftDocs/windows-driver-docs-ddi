@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4da2f2b0-f2ad-465d-b63e-f11406d4c210
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetNumInterfaces method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice::GetNumInterfaces, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces, IWDFUsbTargetDevice interface, GetNumInterfaces method, wdf.iwdfusbtargetdevice_getnuminterfaces, GetNumInterfaces, GetNumInterfaces method, umdf.iwdfusbtargetdevice_getnuminterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, IWDFUsbTargetDevice
+ms.keywords: IWDFUsbTargetDevice, wdf.iwdfusbtargetdevice_getnuminterfaces, IWDFUsbTargetDevice interface, GetNumInterfaces method, GetNumInterfaces method, GetNumInterfaces, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, IWDFUsbTargetDevice::GetNumInterfaces, umdf.iwdfusbtargetdevice_getnuminterfaces, GetNumInterfaces method, IWDFUsbTargetDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,11 +105,11 @@ The following code example retrieves the number of USB interfaces for the USB de
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
 
 

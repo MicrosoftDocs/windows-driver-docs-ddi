@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bbd3fbc0-6dbe-4200-8fe8-e7ca9e4c9478
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], IDebugControl4::SetTextReplacementWide, IDebugControl4, SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::SetTextReplacementWide, debugger.settextreplacementwide
+ms.keywords: IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, debugger.settextreplacementwide, dbgeng/IDebugControl4::SetTextReplacementWide, SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], IDebugControl4::SetTextReplacementWide, IDebugControl4, SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,6 +123,14 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 
 
@@ -132,14 +140,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 <a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 
 

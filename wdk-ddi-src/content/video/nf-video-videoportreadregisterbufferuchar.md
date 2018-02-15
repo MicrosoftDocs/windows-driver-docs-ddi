@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2058374a-b74d-49e2-9c42-5972b11af677
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadRegisterBufferUchar, video/VideoPortReadRegisterBufferUchar, VideoPortReadRegisterBufferUchar function [Display Devices], VideoPort_Functions_9b0878ff-64ba-4d19-81aa-c5932ffa1953.xml, display.videoportreadregisterbufferuchar
+ms.keywords: VideoPortReadRegisterBufferUchar function [Display Devices], VideoPort_Functions_9b0878ff-64ba-4d19-81aa-c5932ffa1953.xml, VideoPortReadRegisterBufferUchar, display.videoportreadregisterbufferuchar, video/VideoPortReadRegisterBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,15 +109,15 @@ Callers of <b>VideoPortReadRegisterBufferUchar</b> can be running at any IRQL, p
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 

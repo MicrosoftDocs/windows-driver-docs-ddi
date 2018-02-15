@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: CA0268F3-44F0-4F64-A88D-9A2BBDE768EA
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT structure pointer [Buses], *PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT, buses.ufx_hardware_failure_context, ufxbase/PUFX_HARDWARE_FAILURE_CONTEXT, ufxbase/UFX_HARDWARE_FAILURE_CONTEXT, _UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT structure [Buses]
+ms.keywords: UFX_HARDWARE_FAILURE_CONTEXT structure [Buses], *PUFX_HARDWARE_FAILURE_CONTEXT, ufxbase/PUFX_HARDWARE_FAILURE_CONTEXT, ufxbase/UFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT structure pointer [Buses], _UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT, buses.ufx_hardware_failure_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

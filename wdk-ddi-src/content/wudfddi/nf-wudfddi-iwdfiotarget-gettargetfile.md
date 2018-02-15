@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d38ede60-9bcf-4c90-8c41-8f1edf1a1d23
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetTargetFile method, IWDFIoTarget interface, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, GetTargetFile method, IWDFIoTarget::GetTargetFile, umdf.iwdfiotarget_gettargetfile, wdf.iwdfiotarget_gettargetfile, GetTargetFile, wudfddi/IWDFIoTarget::GetTargetFile, IWDFIoTarget interface, GetTargetFile method, IWDFIoTarget
+ms.keywords: GetTargetFile method, IWDFIoTarget interface, IWDFIoTarget, IWDFIoTarget::GetTargetFile, wudfddi/IWDFIoTarget::GetTargetFile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, wdf.iwdfiotarget_gettargetfile, GetTargetFile, IWDFIoTarget interface, GetTargetFile method, umdf.iwdfiotarget_gettargetfile, GetTargetFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,11 +114,11 @@ For a code example of how to use the <b>GetTargetFile</b> method, see <a href="h
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 

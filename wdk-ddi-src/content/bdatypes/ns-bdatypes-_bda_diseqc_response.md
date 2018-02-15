@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 724FD17B-D12B-423D-AA0E-93D9D31DC93E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_BDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE structure pointer [Streaming Media Devices], bdatypes/PBDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE structure [Streaming Media Devices], BDA_DISEQC_RESPONSE, stream.bda_diseqc_response, *PBDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE, bdatypes/BDA_DISEQC_RESPONSE"
+ms.keywords: bdatypes/BDA_DISEQC_RESPONSE, bdatypes/PBDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE structure pointer [Streaming Media Devices], BDA_DISEQC_RESPONSE structure [Streaming Media Devices], stream.bda_diseqc_response, _BDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE, *PBDA_DISEQC_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

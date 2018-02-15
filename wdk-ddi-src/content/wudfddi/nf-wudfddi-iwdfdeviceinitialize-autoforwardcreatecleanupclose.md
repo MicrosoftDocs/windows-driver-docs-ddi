@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b9c8e54e-7cd5-48a9-b948-5327900c8a99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDeviceInitialize::AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize interface, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose method, AutoForwardCreateCleanupClose, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, IWDFDeviceInitialize, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method
+ms.keywords: UMDFDeviceObjectRef_6f68d9cd-cfb9-49ae-94b8-a230e4dc0762.xml, wdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, umdf.iwdfdeviceinitialize_autoforwardcreatecleanupclose, AutoForwardCreateCleanupClose, IWDFDeviceInitialize interface, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize, wudfddi/IWDFDeviceInitialize::AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose method, IWDFDeviceInitialize interface, IWDFDeviceInitialize::AutoForwardCreateCleanupClose, AutoForwardCreateCleanupClose method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -151,15 +151,15 @@ For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClo
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
 
 

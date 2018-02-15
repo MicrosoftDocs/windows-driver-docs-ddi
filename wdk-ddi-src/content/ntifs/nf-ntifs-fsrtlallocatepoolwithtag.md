@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a9ea59d1-1d51-4332-b497-7d2b7f39e686
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlAllocatePoolWithTag routine [Installable File System Drivers], fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml, FsRtlAllocatePoolWithTag, ifsk.fsrtlallocatepoolwithtag, ntifs/FsRtlAllocatePoolWithTag
+ms.keywords: fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml, FsRtlAllocatePoolWithTag, ifsk.fsrtlallocatepoolwithtag, FsRtlAllocatePoolWithTag routine [Installable File System Drivers], ntifs/FsRtlAllocatePoolWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

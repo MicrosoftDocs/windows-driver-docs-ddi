@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb85aa34-5983-405b-85d3-7ebc4be49c51
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject, FltGetDiskDeviceObject routine [Installable File System Drivers], FltGetDiskDeviceObject, FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml
+ms.keywords: ifsk.fltgetdiskdeviceobject, FltGetDiskDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDiskDeviceObject, FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, FltGetDiskDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f99fc76e-a569-4a7e-9f8d-3f604ccfa6a3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILUICCSLOTINFOPARAMMASK, RIL_PARAM_SLOTINFO_ALL, ntddrilapitypes/RIL_PARAM_SLOTINFO_ALL, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SLOTINFO_SLOTSTATE, ntddrilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE, RILUICCSLOTINFOPARAMMASK, netvista.riluiccslotinfoparammask
+ms.keywords: RILUICCSLOTINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_SLOTINFO_ALL, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE, RIL_PARAM_SLOTINFO_ALL, RIL_PARAM_SLOTINFO_SLOTSTATE, netvista.riluiccslotinfoparammask, ntddrilapitypes/RILUICCSLOTINFOPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5e2880c6-0f5a-4098-a97e-809ad75ddfd0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SendXpsUnknown method [Print Devices], filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml, IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendXpsUnknown method, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown method [Print Devices], IXpsDocumentConsumer interface, SendXpsUnknown, print.ixpsdocumentconsumer_sendxpsunknown
+ms.keywords: SendXpsUnknown, print.ixpsdocumentconsumer_sendxpsunknown, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, IXpsDocumentConsumer, SendXpsUnknown method [Print Devices], filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml, IXpsDocumentConsumer interface [Print Devices], SendXpsUnknown method, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown method [Print Devices], IXpsDocumentConsumer interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

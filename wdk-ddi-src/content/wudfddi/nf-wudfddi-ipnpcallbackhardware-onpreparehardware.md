@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c821231a-446d-45dd-9c12-9ab05aeb1108
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.ipnpcallbackhardware_onpreparehardware, OnPrepareHardware method, IPnpCallbackHardware interface, OnPrepareHardware method, OnPrepareHardware, OnPrepareHardware method, IPnpCallbackHardware interface, umdf.ipnpcallbackhardware_onpreparehardware, wudfddi/IPnpCallbackHardware::OnPrepareHardware, IPnpCallbackHardware, IPnpCallbackHardware::OnPrepareHardware, UMDFDeviceObjectRef_3b9db069-02f0-4d3e-855d-835bb1bb6d2d.xml
+ms.keywords: IPnpCallbackHardware interface, OnPrepareHardware method, UMDFDeviceObjectRef_3b9db069-02f0-4d3e-855d-835bb1bb6d2d.xml, OnPrepareHardware method, IPnpCallbackHardware interface, IPnpCallbackHardware, umdf.ipnpcallbackhardware_onpreparehardware, IPnpCallbackHardware::OnPrepareHardware, OnPrepareHardware, OnPrepareHardware method, wdf.ipnpcallbackhardware_onpreparehardware, wudfddi/IPnpCallbackHardware::OnPrepareHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,15 +105,7 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
@@ -121,11 +113,19 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a>
 
 
 

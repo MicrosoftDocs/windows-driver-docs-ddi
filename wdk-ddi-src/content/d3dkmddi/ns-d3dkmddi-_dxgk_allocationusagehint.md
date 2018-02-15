@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04cceb5e-d185-4f43-a627-71a61a45b8aa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], display.dxgk_allocationusagehint, d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, _DXGK_ALLOCATIONUSAGEHINT, DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml, DXGK_ALLOCATIONUSAGEHINT
+ms.keywords: d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml, DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], display.dxgk_allocationusagehint, DXGK_ALLOCATIONUSAGEHINT, _DXGK_ALLOCATIONUSAGEHINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,11 +88,11 @@ typedef struct _DXGK_ALLOCATIONUSAGEHINT {
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 
 

@@ -119,15 +119,15 @@ If <i>Succeeded</i> is TRUE, the driver should perform whatever work is necessar
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
 
 
 
 <a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
 
 

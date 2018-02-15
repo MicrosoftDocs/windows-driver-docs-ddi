@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0ecfed3e-477a-4014-8491-1a8997ac5b90
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PISCSI_PortalInfo, iscsimgt/PISCSI_PortalInfo, PISCSI_PortalInfo, ISCSI_PortalInfo, storage.iscsi_portalinfo, _ISCSI_PortalInfo, iscsimgt/ISCSI_PortalInfo, PISCSI_PortalInfo structure pointer [Storage Devices], structs-iSCSI_40fc24e8-364d-4698-911c-4128f471cdcd.xml, ISCSI_PortalInfo structure [Storage Devices]"
+ms.keywords: PISCSI_PortalInfo structure pointer [Storage Devices], structs-iSCSI_40fc24e8-364d-4698-911c-4128f471cdcd.xml, ISCSI_PortalInfo, storage.iscsi_portalinfo, PISCSI_PortalInfo, iscsimgt/ISCSI_PortalInfo, ISCSI_PortalInfo structure [Storage Devices], _ISCSI_PortalInfo, iscsimgt/PISCSI_PortalInfo, *PISCSI_PortalInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

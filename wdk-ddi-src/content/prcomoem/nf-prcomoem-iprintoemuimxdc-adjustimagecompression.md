@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d9606c9b-4a47-4e83-ad8a-ef82e2c70de3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface, AdjustImageCompression method [Print Devices], print.iprintoemuimxdc_adjustimagecompression, IPrintOemUIMXDC::AdjustImageCompression, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, AdjustImageCompression
+ms.keywords: AdjustImageCompression method [Print Devices], print.iprintoemuimxdc_adjustimagecompression, AdjustImageCompression, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, IPrintOemUIMXDC, IPrintOemUIMXDC::AdjustImageCompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

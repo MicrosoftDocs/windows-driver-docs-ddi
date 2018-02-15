@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b83736b6-17c5-43b8-9204-d165fe07853b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS, DXGKARG_SETVIDPNSOURCEADDRESS structure [Display Devices], DXGKARG_SETVIDPNSOURCEADDRESS, display.dxgkarg_setvidpnsourceaddress, DmStructs_f179199a-3747-4086-8e77-5434a3e287a1.xml, _DXGKARG_SETVIDPNSOURCEADDRESS
+ms.keywords: DXGKARG_SETVIDPNSOURCEADDRESS, _DXGKARG_SETVIDPNSOURCEADDRESS, display.dxgkarg_setvidpnsourceaddress, d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS, DmStructs_f179199a-3747-4086-8e77-5434a3e287a1.xml, DXGKARG_SETVIDPNSOURCEADDRESS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

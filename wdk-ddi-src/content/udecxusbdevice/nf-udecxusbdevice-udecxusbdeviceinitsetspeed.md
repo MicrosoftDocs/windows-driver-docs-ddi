@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D7EF9B82-5156-4F27-AA52-94C113C81D3A
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UdecxUsbDeviceInitSetSpeed function [Buses], UdecxUsbDeviceInitSetSpeed, udecxusbdevice/UdecxUsbDeviceInitSetSpeed, buses.udecxusbdeviceinitsetspeed
+ms.keywords: udecxusbdevice/UdecxUsbDeviceInitSetSpeed, UdecxUsbDeviceInitSetSpeed function [Buses], buses.udecxusbdeviceinitsetspeed, UdecxUsbDeviceInitSetSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ After the client driver sets the USB speed of the device, it only operates in th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

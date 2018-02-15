@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AB9C7D32-D536-4B2B-9C85-DF5A0031798C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxNotifySurprisePowerOn, PoFxNotifySurprisePowerOn routine [Kernel-Mode Driver Architecture], wdm/PoFxNotifySurprisePowerOn, kernel.pofxnotifysurprisepoweron
+ms.keywords: PoFxNotifySurprisePowerOn, kernel.pofxnotifysurprisepoweron, PoFxNotifySurprisePowerOn routine [Kernel-Mode Driver Architecture], wdm/PoFxNotifySurprisePowerOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,19 +105,19 @@ Call <b>PoFxNotifySurprisePowerOn</b> only if the device was turned on incidenta
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
 <a href="..\wdm\nf-wdm-pofxreportdevicepoweredon.md">PoFxReportDevicePoweredOn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a7631732-fac5-458a-b644-eaffd5e53c31
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExUnregisterCallback, ExUnregisterCallback, kernel.exunregistercallback, ExUnregisterCallback routine [Kernel-Mode Driver Architecture], k102_981ea9e7-42fc-4c63-9cc9-5d7aa3d35b72.xml
+ms.keywords: wdm/ExUnregisterCallback, k102_981ea9e7-42fc-4c63-9cc9-5d7aa3d35b72.xml, kernel.exunregistercallback, ExUnregisterCallback routine [Kernel-Mode Driver Architecture], ExUnregisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

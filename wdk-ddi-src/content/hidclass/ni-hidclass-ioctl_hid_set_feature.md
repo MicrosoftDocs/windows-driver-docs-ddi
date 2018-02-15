@@ -71,6 +71,11 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 
 
+#### -ReportID
+
+Specifies the report ID for a top-level collection .
+
+
 #### -reportBuffer
 
 Pointer to a requester-allocated input buffer that contains a feature report.
@@ -79,11 +84,6 @@ Pointer to a requester-allocated input buffer that contains a feature report.
 #### -reportBufferLen
 
 Specifies the size, in bytes, of the input buffer.
-
-
-#### -ReportID
-
-Specifies the report ID for a top-level collection .
 
 
 ### -input-buffer-length
@@ -140,27 +140,7 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 ## -see-also
 
-<a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
-
-
-
-<a href="..\hidport\ni-hidport-ioctl_hid_read_report.md">IOCTL_HID_READ_REPORT</a>
-
-
-
 <a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
 
 
@@ -168,15 +148,35 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 
 
+<a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
+
+
+
+<a href="..\hidport\ni-hidport-ioctl_hid_read_report.md">IOCTL_HID_READ_REPORT</a>
+
+
+
 <a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
-
-
-
 <a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
 
 
 

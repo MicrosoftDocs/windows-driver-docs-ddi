@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, NtQueryInformationFile, ZwQueryInformationFile, k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml
+ms.keywords: kernel.zwqueryinformationfile, wdm/ZwQueryInformationFile, NtQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, ZwQueryInformationFile, wdm/NtQueryInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -304,27 +304,27 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_all_information.md">FILE_ALL_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
 
 
 
@@ -336,11 +336,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
 
 
 
@@ -348,11 +344,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\ntifs\ns-ntifs-_file_all_information.md">FILE_ALL_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
+
+
+
 <a href="..\wdm\ns-wdm-_file_is_remote_device_information.md">FILE_IS_REMOTE_DEVICE_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
 
 
 
@@ -360,15 +364,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 

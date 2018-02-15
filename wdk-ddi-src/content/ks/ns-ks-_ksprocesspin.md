@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a1625eb2-a38b-4517-b873-f33b5ced8705
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSPROCESSPIN, PKSPROCESSPIN structure pointer [Streaming Media Devices], _KSPROCESSPIN, *PKSPROCESSPIN, ks/PKSPROCESSPIN, PKSPROCESSPIN, KSPROCESSPIN structure [Streaming Media Devices], avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, KSPROCESSPIN, stream.ksprocesspin
+ms.keywords: PKSPROCESSPIN, ks/PKSPROCESSPIN, stream.ksprocesspin, KSPROCESSPIN, avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, _KSPROCESSPIN, *PKSPROCESSPIN, PKSPROCESSPIN structure pointer [Streaming Media Devices], ks/KSPROCESSPIN, KSPROCESSPIN structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,7 +141,7 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
@@ -149,11 +149,11 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
+
+
+
+<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
 
 

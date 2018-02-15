@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9894863c-89e9-491e-b958-874ac8ee8c30
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringCatEx, kernel.rtlunicodestringcatex, safestrings_6b13f3af-ca18-4b2a-b5f0-04f0f2330701.xml, RtlUnicodeStringCatEx function [Kernel-Mode Driver Architecture], ntstrsafe/RtlUnicodeStringCatEx
+ms.keywords: RtlUnicodeStringCatEx, ntstrsafe/RtlUnicodeStringCatEx, safestrings_6b13f3af-ca18-4b2a-b5f0-04f0f2330701.xml, RtlUnicodeStringCatEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6fe12f3b-b241-42e4-b35d-c8a485a5cfa8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced2::GetThreadContext, dbgeng/IDebugAdvanced2::GetThreadContext, IDebugAdvanced, GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced::GetThreadContext, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, dbgeng/IDebugAdvanced3::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, GetThreadContext method [Windows Debugging], IDebugAdvanced interface, GetThreadContext method [Windows Debugging], dbgeng/IDebugAdvanced::GetThreadContext, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced2, debugger.getthreadcontext, IDebugAdvanced3::GetThreadContext, GetThreadContext, IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method
+ms.keywords: GetThreadContext method [Windows Debugging], dbgeng/IDebugAdvanced2::GetThreadContext, dbgeng/IDebugAdvanced3::GetThreadContext, IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method, GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, GetThreadContext, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced2::GetThreadContext, IDebugAdvanced, IDebugAdvanced::GetThreadContext, IDebugAdvanced3::GetThreadContext, GetThreadContext method [Windows Debugging], IDebugAdvanced interface, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, IDebugAdvanced2, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, debugger.getthreadcontext, dbgeng/IDebugAdvanced::GetThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -129,7 +129,7 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
 
 
 
@@ -137,7 +137,7 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
 
 

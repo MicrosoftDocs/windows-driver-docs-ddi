@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 01897D97-1507-4E48-A81E-2598B7C42357
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION function [Serial Ports], SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION, serports.sercx2_system_dma_receive_config_init_new_data_notification
+ms.keywords: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION function [Serial Ports], SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION, 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION, serports.sercx2_system_dma_receive_config_init_new_data_notification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,7 +131,7 @@ Your serial controller driver must use either this function or the <a href="..\s
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx2_system_dma_receive_config.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>
+<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 
 
@@ -139,7 +139,7 @@ Your serial controller driver must use either this function or the <a href="..\s
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+<a href="..\sercx\ns-sercx-_sercx2_system_dma_receive_config.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>
 
 
 

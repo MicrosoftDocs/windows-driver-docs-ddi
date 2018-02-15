@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3fb9abdd-f2c0-41b4-8df9-2f7f5065f90c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetFieldName method, debugger.getfieldname, IDebugSymbols2 interface [Windows Debugging], GetFieldName method, GetFieldName, dbgeng/IDebugSymbols2::GetFieldName, GetFieldName method [Windows Debugging], IDebugSymbols3 interface, GetFieldName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetFieldName, dbgeng/IDebugSymbols3::GetFieldName, IDebugSymbols2::GetFieldName, IDebugSymbols2, GetFieldName method [Windows Debugging], IDebugSymbols_9956ec9a-7914-46e4-9cec-49a22a0d184f.xml
+ms.keywords: IDebugSymbols3::GetFieldName, dbgeng/IDebugSymbols3::GetFieldName, GetFieldName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_9956ec9a-7914-46e4-9cec-49a22a0d184f.xml, dbgeng/IDebugSymbols2::GetFieldName, GetFieldName method [Windows Debugging], GetFieldName, GetFieldName method [Windows Debugging], IDebugSymbols2 interface, debugger.getfieldname, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetFieldName method, IDebugSymbols2::GetFieldName, IDebugSymbols3 interface [Windows Debugging], GetFieldName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

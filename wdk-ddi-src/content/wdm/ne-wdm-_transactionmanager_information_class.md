@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 71d6db29-0a93-4793-92f4-3e85615e1b61
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TRANSACTIONMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/TransactionManagerRecoveryInformation, ktm_ref_55fd8dd4-e88d-40df-9091-1aecc4de38a7.xml, TransactionManagerRecoveryInformation, TRANSACTIONMANAGER_INFORMATION_CLASS, kernel.transactionmanager_information_class, wdm/TransactionManagerBasicInformation, TransactionManagerLogPathInformation, wdm/TransactionManagerLogPathInformation, _TRANSACTIONMANAGER_INFORMATION_CLASS, TransactionManagerBasicInformation, wdm/TransactionManagerLogInformation, TransactionManagerLogInformation, wdm/TRANSACTIONMANAGER_INFORMATION_CLASS
+ms.keywords: wdm/TRANSACTIONMANAGER_INFORMATION_CLASS, TransactionManagerLogPathInformation, wdm/TransactionManagerLogInformation, TRANSACTIONMANAGER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/TransactionManagerLogPathInformation, TransactionManagerLogInformation, TransactionManagerBasicInformation, _TRANSACTIONMANAGER_INFORMATION_CLASS, kernel.transactionmanager_information_class, wdm/TransactionManagerRecoveryInformation, ktm_ref_55fd8dd4-e88d-40df-9091-1aecc4de38a7.xml, wdm/TransactionManagerBasicInformation, TRANSACTIONMANAGER_INFORMATION_CLASS, TransactionManagerRecoveryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

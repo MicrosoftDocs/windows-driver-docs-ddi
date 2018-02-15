@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml, storport/StorPortWritePortBufferUlong
+ms.keywords: StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong, StorPortWritePortBufferUlong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml, storport/StorPortWritePortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
@@ -114,6 +104,16 @@ Pointer to the buffer containing the data to be written.
 #### - Count [in]
 
 Contains the number of data items of size <b>sizeof</b>(ULONG) to be written. 
+
+
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Port [in]
+
+Contains the address of the port to be written to. 
 
 
 ## -remarks
@@ -127,11 +127,11 @@ For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
-
-
-
 <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
 
 
 

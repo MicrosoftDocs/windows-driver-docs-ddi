@@ -40,7 +40,7 @@ apiname:
 -	pfnDestroyVideoProcessorEnum
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback
@@ -75,8 +75,9 @@ VOID APIENTRY* pfnDestroyVideoProcessorEnum(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSORENUM
+
+
 
 
 
@@ -98,13 +99,17 @@ A handle to the driver's private data for the video processor enumeration object
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
+
+
 
  
 

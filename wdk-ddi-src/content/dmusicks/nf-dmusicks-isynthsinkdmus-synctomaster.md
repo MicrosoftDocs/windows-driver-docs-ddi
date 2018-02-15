@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.isynthsinkdmus_synctomaster, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, SyncToMaster, ISynthSinkDMus::SyncToMaster, SyncToMaster method [Audio Devices], ISynthSinkDMus, SyncToMaster method [Audio Devices], ISynthSinkDMus interface, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, dmusicks/ISynthSinkDMus::SyncToMaster
+ms.keywords: ISynthSinkDMus interface [Audio Devices], SyncToMaster method, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, SyncToMaster method [Audio Devices], ISynthSinkDMus interface, SyncToMaster method [Audio Devices], dmusicks/ISynthSinkDMus::SyncToMaster, ISynthSinkDMus::SyncToMaster, SyncToMaster, ISynthSinkDMus, audio.isynthsinkdmus_synctomaster
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,11 +105,11 @@ Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMast
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
 <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
 

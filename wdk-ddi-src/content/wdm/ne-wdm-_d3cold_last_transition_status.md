@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21E89D92-9902-4785-B022-8D17268FE75F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3hot, LastDStateTransitionD3cold, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], LastDStateTransitionStatusUnknown, *PD3COLD_LAST_TRANSITION_STATUS, LastDStateTransitionD3hot, _D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3cold, kernel.d3cold_last_transition_status, D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionStatusUnknown
+ms.keywords: wdm/LastDStateTransitionD3hot, wdm/LastDStateTransitionStatusUnknown, wdm/D3COLD_LAST_TRANSITION_STATUS, LastDStateTransitionD3cold, _D3COLD_LAST_TRANSITION_STATUS, *PD3COLD_LAST_TRANSITION_STATUS, LastDStateTransitionStatusUnknown, D3COLD_LAST_TRANSITION_STATUS, LastDStateTransitionD3hot, kernel.d3cold_last_transition_status, wdm/LastDStateTransitionD3cold, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

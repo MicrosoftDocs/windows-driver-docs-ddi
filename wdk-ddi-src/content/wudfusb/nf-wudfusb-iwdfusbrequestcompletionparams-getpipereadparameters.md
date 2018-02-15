@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfusbrequestcompletionparams_getpipereadparameters, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams::GetPipeReadParameters, GetPipeReadParameters, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, wdf.iwdfusbrequestcompletionparams_getpipereadparameters
+ms.keywords: wdf.iwdfusbrequestcompletionparams_getpipereadparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, IWDFUsbRequestCompletionParams::GetPipeReadParameters, GetPipeReadParameters, IWDFUsbRequestCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,11 +98,11 @@ None
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d8a2fa19-8f44-4088-b515-69c9f2119714
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlinsertunicodeprefix, RtlInsertUnicodePrefix, RtlInsertUnicodePrefix routine [Installable File System Drivers], ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml
+ms.keywords: ifsk.rtlinsertunicodeprefix, RtlInsertUnicodePrefix, ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml, RtlInsertUnicodePrefix routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,15 +112,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
 
 
 
@@ -128,7 +124,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
 
 
 

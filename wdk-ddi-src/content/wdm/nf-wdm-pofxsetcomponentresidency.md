@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B4216BA1-FC5C-4A3B-BB74-E071BD2048F8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxsetcomponentresidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], PoFxSetComponentResidency, wdm/PoFxSetComponentResidency
+ms.keywords: PoFxSetComponentResidency, kernel.pofxsetcomponentresidency, wdm/PoFxSetComponentResidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 576193fc-756f-40fb-abdd-65c088687cb5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetOffsetByNameWide, GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3::GetOffsetByNameWide, GetOffsetByNameWide, IDebugSymbols3 interface [Windows Debugging], GetOffsetByNameWide method, IDebugSymbols3, debugger.getoffsetbynamewide
+ms.keywords: GetOffsetByNameWide, IDebugSymbols3, IDebugSymbols3::GetOffsetByNameWide, IDebugSymbols3 interface [Windows Debugging], GetOffsetByNameWide method, dbgeng/IDebugSymbols3::GetOffsetByNameWide, debugger.getoffsetbynamewide, GetOffsetByNameWide method [Windows Debugging], GetOffsetByNameWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -145,11 +145,11 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

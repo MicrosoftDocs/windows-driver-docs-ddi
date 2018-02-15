@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 592553cb-21db-4c8d-b855-d9bc6a2d9579
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_RENDER structure [Display Devices], d3dkmddi/DXGKARG_RENDER, *INOUT_PDXGKARG_RENDER, _DXGKARG_RENDER, DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml, DXGKARG_RENDER, display.dxgkarg_render
+ms.keywords: d3dkmddi/DXGKARG_RENDER, DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml, *INOUT_PDXGKARG_RENDER, display.dxgkarg_render, DXGKARG_RENDER, DXGKARG_RENDER structure [Display Devices], _DXGKARG_RENDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -172,14 +172,6 @@ typedef struct _DXGKARG_RENDER {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
 
@@ -189,6 +181,14 @@ typedef struct _DXGKARG_RENDER {
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 
 

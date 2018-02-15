@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2ff69f59-5fbd-43fd-afe5-9717d7928d2a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, stream.iksinterfacehandler_kscompleteio, KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler, KsCompleteIo, IKsInterfaceHandler::KsCompleteIo, ksproxy/IKsInterfaceHandler::KsCompleteIo, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml
+ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, ksproxy/IKsInterfaceHandler::KsCompleteIo, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, KsCompleteIo, IKsInterfaceHandler::KsCompleteIo, KsCompleteIo method [Streaming Media Devices], KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, stream.iksinterfacehandler_kscompleteio, IKsInterfaceHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -110,11 +110,11 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560710">IKsPin::KsDeliver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
 
 
 

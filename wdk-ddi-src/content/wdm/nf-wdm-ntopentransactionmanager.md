@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b3eb40ad-cda9-4a2f-a794-670bd2ee9102
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenTransactionManager, wdm/ZwOpenTransactionManager, wdm/NtOpenTransactionManager, NtOpenTransactionManager, ktm_ref_26c2e5a4-0a1b-4d75-994a-88f45e213fe3.xml, ZwOpenTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwopentransactionmanager
+ms.keywords: wdm/NtOpenTransactionManager, ZwOpenTransactionManager, ZwOpenTransactionManager routine [Kernel-Mode Driver Architecture], ktm_ref_26c2e5a4-0a1b-4d75-994a-88f45e213fe3.xml, kernel.zwopentransactionmanager, wdm/ZwOpenTransactionManager, NtOpenTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -215,19 +215,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
 
 
 
@@ -235,11 +223,23 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

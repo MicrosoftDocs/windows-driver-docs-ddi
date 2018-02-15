@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4f508af6-942b-4d48-8874-4b6d9918f01f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, PISOCH_DESCRIPTOR structure pointer [Buses], 1394/PISOCH_DESCRIPTOR, IEEE.isoch_descriptor, PISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR, _ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses]
+ms.keywords: ISOCH_DESCRIPTOR structure [Buses], PISOCH_DESCRIPTOR structure pointer [Buses], *PISOCH_DESCRIPTOR, IEEE.isoch_descriptor, PISOCH_DESCRIPTOR, 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, 1394/PISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, _ISOCH_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -317,6 +317,14 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a>
 
 
@@ -325,19 +333,11 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537147">GET_LOCAL_HOST_INFO2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
 
 
 

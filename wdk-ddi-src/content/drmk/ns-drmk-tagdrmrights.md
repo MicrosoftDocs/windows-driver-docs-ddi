@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 890f996c-9216-4148-b198-538963101c2a
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, *PDRMRIGHTS, audio.drmrights, PDRMRIGHTS structure pointer [Audio Devices], PDRMRIGHTS, drmk/PDRMRIGHTS, DRMRIGHTS structure [Audio Devices], DRMRIGHTS, drmk/DRMRIGHTS, tagDRMRIGHTS
+ms.keywords: DRMRIGHTS, drmk/DRMRIGHTS, aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, PDRMRIGHTS, DRMRIGHTS structure [Audio Devices], audio.drmrights, PDRMRIGHTS structure pointer [Audio Devices], drmk/PDRMRIGHTS, *PDRMRIGHTS, tagDRMRIGHTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -266,7 +266,7 @@ This macro does not return a value.
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 
 
@@ -274,11 +274,11 @@ This macro does not return a value.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
 
 
 
@@ -286,7 +286,7 @@ This macro does not return a value.
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

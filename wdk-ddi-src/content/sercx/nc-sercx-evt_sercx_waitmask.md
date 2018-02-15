@@ -155,7 +155,7 @@ For more information about SDV requirements for function declarations, see <a hr
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\sercx\nf-sercx-sercxgetwaitmask.md">SerCxGetWaitMask</a>
 
 
 
@@ -167,7 +167,7 @@ For more information about SDV requirements for function declarations, see <a hr
 
 
 
-<a href="..\sercx\nf-sercx-sercxgetwaitmask.md">SerCxGetWaitMask</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

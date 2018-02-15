@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml, print.iprintoemps_enabledriver, prcomoem/IPrintOemPS::EnableDriver, IPrintOemPS interface [Print Devices], EnableDriver method, EnableDriver method [Print Devices], IPrintOemPS interface, EnableDriver method [Print Devices], IPrintOemPS::EnableDriver, EnableDriver, IPrintOemPS
+ms.keywords: IPrintOemPS, EnableDriver method [Print Devices], IPrintOemPS interface, prcomoem/IPrintOemPS::EnableDriver, IPrintOemPS interface [Print Devices], EnableDriver method, EnableDriver method [Print Devices], print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml, IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, EnableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

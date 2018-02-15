@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0352b418-26ee-4f35-a171-1b456a115014
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_8d971b27-ff9f-4097-a96a-68dabf08b200.xml, RemoveAssemblyOptions, RemoveAssemblyOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], RemoveAssemblyOptions method, debugger.removeassemblyoptions, IDebugControl3, IDebugControl3::RemoveAssemblyOptions, RemoveAssemblyOptions method [Windows Debugging], dbgeng/IDebugControl3::RemoveAssemblyOptions
+ms.keywords: dbgeng/IDebugControl3::RemoveAssemblyOptions, IDebugControl3, IDebugControl3::RemoveAssemblyOptions, RemoveAssemblyOptions method [Windows Debugging], debugger.removeassemblyoptions, RemoveAssemblyOptions, RemoveAssemblyOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], RemoveAssemblyOptions method, IDebugControl_8d971b27-ff9f-4097-a96a-68dabf08b200.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,19 +123,23 @@ For more information about using assembly with the debugger engine API, see <a h
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>
 
 
 
@@ -147,11 +151,7 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 
 

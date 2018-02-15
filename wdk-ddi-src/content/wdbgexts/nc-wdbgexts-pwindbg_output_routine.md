@@ -86,6 +86,11 @@ VOID dprintf(
 
 
 
+#### - [arguments] [in]
+
+Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552280">Numerical Expression Syntax</a>. 
+
+
 #### - format [in]
 
 Specifies the format string, as in <b>printf</b>.  In general, conversion characters work exactly as in C. For the floating-point conversion characters the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
@@ -263,11 +268,6 @@ String containing the name of the specified symbol (and displacement, if any), a
 </tr>
 </table>
  
-
-
-#### - [arguments] [in]
-
-Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552280">Numerical Expression Syntax</a>. 
 
 
 ## -returns

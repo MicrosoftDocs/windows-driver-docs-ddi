@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6B262D38-8BD6-43B5-96AB-6D311B8EBA88
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: BLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR, PBLOCK_DEVICE_RANGE_DESCRIPTOR, PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, storage.block_device_range_descriptor
+ms.keywords: BLOCK_DEVICE_RANGE_DESCRIPTOR, storage.block_device_range_descriptor, BLOCK_DEVICE_RANGE_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_RANGE_DESCRIPTOR structure pointer [Storage Devices], *PBLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/BLOCK_DEVICE_RANGE_DESCRIPTOR, scsi/PBLOCK_DEVICE_RANGE_DESCRIPTOR, PBLOCK_DEVICE_RANGE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,11 +98,11 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-write_using_token_header.md">WRITE_USING_TOKEN_HEADER</a>
-
-
-
 <a href="..\scsi\ns-scsi-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
+
+
+
+<a href="..\scsi\ns-scsi-write_using_token_header.md">WRITE_USING_TOKEN_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8CF2CAF2-29F2-4B8B-B23F-B423392B2DAF
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, audio.telephony_calltype, TELEPHONY_CALLTYPE enumeration [Audio Devices], ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, TELEPHONY_CALLTYPE_CIRCUITSWITCHED, TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, ksmedia/TELEPHONY_CALLTYPE, ksmedia/TELEPHONY_CALLTYPE_CIRCUITSWITCHED, TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, TELEPHONY_CALLTYPE
+ms.keywords: ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, TELEPHONY_CALLTYPE, ksmedia/TELEPHONY_CALLTYPE_CIRCUITSWITCHED, audio.telephony_calltype, TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, ksmedia/TELEPHONY_CALLTYPE, TELEPHONY_CALLTYPE_CIRCUITSWITCHED, TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, TELEPHONY_CALLTYPE enumeration [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -86,7 +86,7 @@ Specifies a packet-switched wireless LAN (WLAN) phone call.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callinfo.md">KSTELEPHONY_CALLINFO</a>
+<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callcontrol.md">KSTELEPHONY_CALLCONTROL</a>
 
 
 
@@ -94,7 +94,7 @@ Specifies a packet-switched wireless LAN (WLAN) phone call.
 
 
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callcontrol.md">KSTELEPHONY_CALLCONTROL</a>
+<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callinfo.md">KSTELEPHONY_CALLINFO</a>
 
 
 

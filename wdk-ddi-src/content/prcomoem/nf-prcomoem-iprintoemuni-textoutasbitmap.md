@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2c144eb7-6279-490a-813c-6c0ae995c6ad
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: TextOutAsBitmap method [Print Devices], IPrintOemUni, TextOutAsBitmap method [Print Devices], IPrintOemUni interface, IPrintOemUni::TextOutAsBitmap, print.iprintoemuni_textoutasbitmap, prcomoem/IPrintOemUni::TextOutAsBitmap, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml, IPrintOemUni interface [Print Devices], TextOutAsBitmap method, TextOutAsBitmap
+ms.keywords: IPrintOemUni interface [Print Devices], TextOutAsBitmap method, TextOutAsBitmap, print.iprintoemuni_textoutasbitmap, TextOutAsBitmap method [Print Devices], IPrintOemUni, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml, prcomoem/IPrintOemUni::TextOutAsBitmap, IPrintOemUni::TextOutAsBitmap, TextOutAsBitmap method [Print Devices], IPrintOemUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 616a0edd-d769-411d-bc94-57ba18a00c4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, IWiaMiniDrv::drvDeleteItem, drvDeleteItem method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvDeleteItem, image.iwiaminidrv_drvdeleteitem, IWiaMiniDrv, drvDeleteItem, drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface
+ms.keywords: wiamindr_lh/IWiaMiniDrv::drvDeleteItem, IWiaMiniDrv, drvDeleteItem, IWiaMiniDrv::drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, image.iwiaminidrv_drvdeleteitem, drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,14 +87,14 @@ HRESULT drvDeleteItem(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is currently unused. 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]
@@ -140,11 +140,11 @@ Since the WIA service verifies these conditions, it is not necessary for the min
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+
+
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: edb6df63-7354-4da3-b641-2ce7f28ca7e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MONITOR_INTERFACE structure [Display Devices], d3dkmddi/DXGK_MONITOR_INTERFACE, DmStructs_23906e50-4f65-4483-a54c-915f9fd3c433.xml, DXGK_MONITOR_INTERFACE, display.dxgk_monitor_interface, _DXGK_MONITOR_INTERFACE
+ms.keywords: d3dkmddi/DXGK_MONITOR_INTERFACE, DXGK_MONITOR_INTERFACE structure [Display Devices], _DXGK_MONITOR_INTERFACE, DmStructs_23906e50-4f65-4483-a54c-915f9fd3c433.xml, display.dxgk_monitor_interface, DXGK_MONITOR_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15df601c-6daf-4db1-8c80-678d6c43ac55
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeFormatRequestForUrb method, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORURB, wdfusb/WdfUsbTargetPipeFormatRequestForUrb, kmdf.wdfusbtargetpipeformatrequestforurb, DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, wdf.wdfusbtargetpipeformatrequestforurb, WdfUsbTargetPipeFormatRequestForUrb
+ms.keywords: WdfUsbTargetPipeFormatRequestForUrb method, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORURB, wdf.wdfusbtargetpipeformatrequestforurb, wdfusb/WdfUsbTargetPipeFormatRequestForUrb, kmdf.wdfusbtargetpipeformatrequestforurb, DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, WdfUsbTargetPipeFormatRequestForUrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -274,7 +274,11 @@ return;</pre>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 
 
@@ -286,11 +290,7 @@ return;</pre>
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
-
-
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

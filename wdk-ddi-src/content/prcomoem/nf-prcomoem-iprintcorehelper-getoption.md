@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 515eed09-d386-4908-9d76-4e64930af5ab
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreHelper::GetOption, print.iprintcorehelper_getoption, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], GetOption method, GetOption method [Print Devices], IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::GetOption, GetOption, print_unidrv-pscript_allplugins_38a01e42-9d70-47d1-9d3d-2b488af4c3f3.xml, GetOption method [Print Devices]
+ms.keywords: prcomoem/IPrintCoreHelper::GetOption, GetOption, print_unidrv-pscript_allplugins_38a01e42-9d70-47d1-9d3d-2b488af4c3f3.xml, GetOption method [Print Devices], IPrintCoreHelper::GetOption, IPrintCoreHelper interface [Print Devices], GetOption method, IPrintCoreHelper, print.iprintcorehelper_getoption, GetOption method [Print Devices], IPrintCoreHelper interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

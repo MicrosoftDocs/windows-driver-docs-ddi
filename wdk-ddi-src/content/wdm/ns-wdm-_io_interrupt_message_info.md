@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d740d55e-6549-494d-9b2a-39d5c2e670d3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PIO_INTERRUPT_MESSAGE_INFO, IO_INTERRUPT_MESSAGE_INFO structure [Kernel-Mode Driver Architecture], IO_INTERRUPT_MESSAGE_INFO, PIO_INTERRUPT_MESSAGE_INFO, kernel.io_interrupt_message_info, kstruct_b_e1d88b03-cc13-433c-b821-43315d776deb.xml, _IO_INTERRUPT_MESSAGE_INFO, wdm/IO_INTERRUPT_MESSAGE_INFO, wdm/PIO_INTERRUPT_MESSAGE_INFO, PIO_INTERRUPT_MESSAGE_INFO structure pointer [Kernel-Mode Driver Architecture]"
+ms.keywords: PIO_INTERRUPT_MESSAGE_INFO structure pointer [Kernel-Mode Driver Architecture], IO_INTERRUPT_MESSAGE_INFO, IO_INTERRUPT_MESSAGE_INFO structure [Kernel-Mode Driver Architecture], kstruct_b_e1d88b03-cc13-433c-b821-43315d776deb.xml, wdm/PIO_INTERRUPT_MESSAGE_INFO, PIO_INTERRUPT_MESSAGE_INFO, wdm/IO_INTERRUPT_MESSAGE_INFO, kernel.io_interrupt_message_info, _IO_INTERRUPT_MESSAGE_INFO, *PIO_INTERRUPT_MESSAGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,11 +100,11 @@ When a driver calls <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInt
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 488EC668-15B9-4B6F-B8AA-3142DB87D19B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_PEP_PPM_QUERY_PLATFORM_STATES, *PPEP_PPM_QUERY_PLATFORM_STATES, PPEP_PPM_QUERY_PLATFORM_STATES structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PLATFORM_STATES, pepfx/PPEP_PPM_QUERY_PLATFORM_STATES, pepfx/PEP_PPM_QUERY_PLATFORM_STATES, PEP_PPM_QUERY_PLATFORM_STATES structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_platform_states, PEP_PPM_QUERY_PLATFORM_STATES"
+ms.keywords: PPEP_PPM_QUERY_PLATFORM_STATES, PEP_PPM_QUERY_PLATFORM_STATES, _PEP_PPM_QUERY_PLATFORM_STATES, pepfx/PPEP_PPM_QUERY_PLATFORM_STATES, PEP_PPM_QUERY_PLATFORM_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PLATFORM_STATES structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_platform_states, *PPEP_PPM_QUERY_PLATFORM_STATES, pepfx/PEP_PPM_QUERY_PLATFORM_STATES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

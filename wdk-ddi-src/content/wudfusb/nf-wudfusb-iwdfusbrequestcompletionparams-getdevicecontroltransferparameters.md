@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c3fd576-48de-454b-8015-51767b21f17e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
+ms.keywords: wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, GetDeviceControlTransferParameters, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,11 +104,11 @@ None
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
 
 

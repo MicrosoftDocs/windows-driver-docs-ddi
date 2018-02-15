@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfab32ea-05fd-44c7-b264-221e4e3a7830
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture], k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml, ntddk/IoDeleteController, kernel.iodeletecontroller
+ms.keywords: k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml, ntddk/IoDeleteController, kernel.iodeletecontroller, IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,11 @@ A driver must release certain resources for which the driver supplied storage in
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
 
 
 

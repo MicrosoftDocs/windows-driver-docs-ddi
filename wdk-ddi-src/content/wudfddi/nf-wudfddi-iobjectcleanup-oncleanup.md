@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6b66c496-d1cc-4b7a-ae50-f18fffa7275a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iobjectcleanup_oncleanup, OnCleanup, UMDFBaseObjectRef_1798eedf-b083-487c-b137-24d9caf1e7a7.xml, OnCleanup method, umdf.iobjectcleanup_oncleanup, IObjectCleanup, IObjectCleanup interface, OnCleanup method, IObjectCleanup::OnCleanup, OnCleanup method, IObjectCleanup interface, wudfddi/IObjectCleanup::OnCleanup
+ms.keywords: UMDFBaseObjectRef_1798eedf-b083-487c-b137-24d9caf1e7a7.xml, IObjectCleanup::OnCleanup, wdf.iobjectcleanup_oncleanup, OnCleanup, OnCleanup method, wudfddi/IObjectCleanup::OnCleanup, IObjectCleanup, umdf.iobjectcleanup_oncleanup, IObjectCleanup interface, OnCleanup method, OnCleanup method, IObjectCleanup interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,27 +141,11 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558906">IWDFDriver::CreateWdfObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557021">IWDFDevice::CreateRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 
@@ -173,7 +157,23 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557021">IWDFDevice::CreateRequest</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 
 

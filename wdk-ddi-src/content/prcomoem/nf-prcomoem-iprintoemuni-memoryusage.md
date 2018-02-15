@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUni, MemoryUsage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, MemoryUsage method [Print Devices], IPrintOemUni::MemoryUsage, MemoryUsage method [Print Devices], IPrintOemUni interface, print.iprintoemuni_memoryusage, prcomoem/IPrintOemUni::MemoryUsage, IPrintOemUni interface [Print Devices], MemoryUsage method
+ms.keywords: IPrintOemUni interface [Print Devices], MemoryUsage method, MemoryUsage, print.iprintoemuni_memoryusage, IPrintOemUni::MemoryUsage, IPrintOemUni, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml, prcomoem/IPrintOemUni::MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices], IPrintOemUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

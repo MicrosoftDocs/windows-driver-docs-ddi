@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, video/VideoPortGetDeviceBase, VideoPortGetDeviceBase, display.videoportgetdevicebase, VideoPortGetDeviceBase function [Display Devices]
+ms.keywords: VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, video/VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPortGetDeviceBase, display.videoportgetdevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -189,39 +189,11 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-
-
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
-
-
-
 <a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
-
-
-
-<a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
-
-
-
-<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
-
-
-
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
-
-
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
 
 
@@ -233,7 +205,35 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 
+<a href="..\video\nf-video-videoportcomparememory.md">VideoPortCompareMemory</a>
+
+
+
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
+
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
+
+
+
 <a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
+
+
+<a href="..\video\nf-video-videoportfreedevicebase.md">VideoPortFreeDeviceBase</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, PFN_WDFDEVICERETRIEVEDEVICENAME, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, kmdf.wdfdeviceretrievedevicename, WdfDeviceRetrieveDeviceName
+ms.keywords: PFN_WDFDEVICERETRIEVEDEVICENAME, kmdf.wdfdeviceretrievedevicename, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, wdfdevice/WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, wdf.wdfdeviceretrievedevicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,11 +162,11 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
+
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetImportanceDpc, k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], kernel.kesetimportancedpc, wdm/KeSetImportanceDpc
+ms.keywords: KeSetImportanceDpc, kernel.kesetimportancedpc, wdm/KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,11 +142,15 @@ For more information about how the system processes the DPC queue, see <a href="
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 
 <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
@@ -155,10 +159,6 @@ For more information about how the system processes the DPC queue, see <a href="
 
 
 <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
 
 

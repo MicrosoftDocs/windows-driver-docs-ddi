@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9f092940-b8be-4d28-b82c-d169abefe5d9
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: "*PBOOT_AREA_INFO, _BOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], ntifs/BOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Installable File System Drivers], ifsk.boot_area_info, BOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO, PBOOT_AREA_INFO"
+ms.keywords: BOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], PBOOT_AREA_INFO structure pointer [Installable File System Drivers], *PBOOT_AREA_INFO, ntifs/BOOT_AREA_INFO, PBOOT_AREA_INFO, _BOOT_AREA_INFO, ifsk.boot_area_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

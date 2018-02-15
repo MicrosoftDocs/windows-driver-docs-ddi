@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f8f8ac2a-705e-426c-8c4a-00581b8d1dfe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasWritePageBufToStream, wiamdef/wiasWritePageBufToStream, wiasWritePageBufToStream function [Imaging Devices], image.wiaswritepagebuftostream, wiasFncs_1173cf4b-d42c-4c6b-959e-68f456b78ec4.xml
+ms.keywords: wiasWritePageBufToStream, wiasWritePageBufToStream function [Imaging Devices], wiasFncs_1173cf4b-d42c-4c6b-959e-68f456b78ec4.xml, wiamdef/wiasWritePageBufToStream, image.wiaswritepagebuftostream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ This function is similar to <a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md">wiasWriteBufToFile</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritebuftofile.md">wiasWriteBufToFile</a>
 
 
 

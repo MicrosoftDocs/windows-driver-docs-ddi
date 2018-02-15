@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d9924a9-23b6-4bec-95f0-cebc3e99fda4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters, WdfRequestGetParameters, wdf.wdfrequestgetparameters, PFN_WDFREQUESTGETPARAMETERS, DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, WdfRequestGetParameters method
+ms.keywords: kmdf.wdfrequestgetparameters, DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, WdfRequestGetParameters method, WdfRequestGetParameters, wdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters, PFN_WDFREQUESTGETPARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

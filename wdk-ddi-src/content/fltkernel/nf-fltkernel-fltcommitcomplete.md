@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 26c553d1-5a71-4e96-a5ef-56e8e364faca
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltCommitComplete, FltApiRef_a_to_d_fc4b72a5-52df-47f9-b119-68ccb02b14bc.xml, FltCommitComplete, ifsk.fltcommitcomplete, FltCommitComplete routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltCommitComplete, ifsk.fltcommitcomplete, FltCommitComplete routine [Installable File System Drivers], FltApiRef_a_to_d_fc4b72a5-52df-47f9-b119-68ccb02b14bc.xml, FltCommitComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -148,19 +148,11 @@ To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettran
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -172,11 +164,11 @@ To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettran
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltrollbackenlistment.md">FltRollbackEnlistment</a>
+<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenlistintransaction.md">FltEnlistInTransaction</a>
+<a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
 
 
 
@@ -184,11 +176,7 @@ To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettran
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 
 
@@ -196,11 +184,23 @@ To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettran
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltenlistintransaction.md">FltEnlistInTransaction</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltrollbackenlistment.md">FltRollbackEnlistment</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
 
 
 

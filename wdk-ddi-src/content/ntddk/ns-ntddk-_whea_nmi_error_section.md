@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 960186a4-09ca-4636-b704-166137da6113
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ntddk/WHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION, ntddk/PWHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications], _WHEA_NMI_ERROR_SECTION, whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml, whea.whea_nmi_error_section
+ms.keywords: ntddk/WHEA_NMI_ERROR_SECTION, ntddk/PWHEA_NMI_ERROR_SECTION, whea.whea_nmi_error_section, PWHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml, WHEA_NMI_ERROR_SECTION, *PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications], _WHEA_NMI_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

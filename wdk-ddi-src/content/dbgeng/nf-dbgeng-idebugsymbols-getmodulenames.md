@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dd33f88a-91f6-4ea4-bb6b-6fb505676684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, GetModuleNames method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols3::GetModuleNames, debugger.getmodulenames, IDebugSymbols interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, IDebugSymbols, IDebugSymbols2::GetModuleNames, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetModuleNames
+ms.keywords: IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, GetModuleNames method [Windows Debugging], GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::GetModuleNames, IDebugSymbols3::GetModuleNames, IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, GetModuleNames, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, dbgeng/IDebugSymbols::GetModuleNames, GetModuleNames method [Windows Debugging], IDebugSymbols interface, debugger.getmodulenames, IDebugSymbols, IDebugSymbols::GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, IDebugSymbols2::GetModuleNames, IDebugSymbols interface [Windows Debugging], GetModuleNames method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -195,15 +195,15 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 

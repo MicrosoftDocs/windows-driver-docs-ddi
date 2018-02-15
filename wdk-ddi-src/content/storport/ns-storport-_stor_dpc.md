@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bb73217c-b159-4fd8-8cb3-334326a651ba
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/STOR_DPC, *PSTOR_DPC, STOR_DPC, STOR_DPC structure [Storage Devices], structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml, _STOR_DPC, storage.stor_dpc
+ms.keywords: STOR_DPC, _STOR_DPC, storport/STOR_DPC, structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml, storage.stor_dpc, STOR_DPC structure [Storage Devices], *PSTOR_DPC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

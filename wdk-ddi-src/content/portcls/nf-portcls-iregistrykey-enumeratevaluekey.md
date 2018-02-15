@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4f90b553-f652-413f-9723-a5a578de9f8d
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IRegistryKey interface [Audio Devices], EnumerateValueKey method, EnumerateValueKey method [Audio Devices], EnumerateValueKey method [Audio Devices], IRegistryKey interface, portcls/IRegistryKey::EnumerateValueKey, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml, audio.iregistrykey_enumeratevaluekey, EnumerateValueKey, IRegistryKey::EnumerateValueKey, IRegistryKey
+ms.keywords: IRegistryKey interface [Audio Devices], EnumerateValueKey method, portcls/IRegistryKey::EnumerateValueKey, audio.iregistrykey_enumeratevaluekey, EnumerateValueKey method [Audio Devices], IRegistryKey interface, IRegistryKey, EnumerateValueKey, EnumerateValueKey method [Audio Devices], IRegistryKey::EnumerateValueKey, audmp-routines_8b4fc752-24a3-4331-b90b-85642dc2121a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -162,11 +162,11 @@ Indicates that no more value keys are available (the <i>Index</i> parameter is g
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+
+
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
@@ -174,11 +174,11 @@ Indicates that no more value keys are available (the <i>Index</i> parameter is g
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
-
-
-
 <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07317157-1222-4b34-89f4-d546818e9851
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: ForwardToIoQueue method, IWDFIoRequest interface, IWDFIoRequest interface, ForwardToIoQueue method, ForwardToIoQueue, IWDFIoRequest::ForwardToIoQueue, umdf.iwdfiorequest_forwardtoioqueue, wdf.iwdfiorequest_forwardtoioqueue, ForwardToIoQueue method, wudfddi/IWDFIoRequest::ForwardToIoQueue, IWDFIoRequest, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml
+ms.keywords: wudfddi/IWDFIoRequest::ForwardToIoQueue, ForwardToIoQueue, IWDFIoRequest::ForwardToIoQueue, ForwardToIoQueue method, IWDFIoRequest interface, ForwardToIoQueue method, ForwardToIoQueue method, IWDFIoRequest interface, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, umdf.iwdfiorequest_forwardtoioqueue, IWDFIoRequest, wdf.iwdfiorequest_forwardtoioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -133,7 +133,11 @@ The following code example shows how to forward a request to another queue if th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
 
 
@@ -141,11 +145,7 @@ The following code example shows how to forward a request to another queue if th
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
 
 

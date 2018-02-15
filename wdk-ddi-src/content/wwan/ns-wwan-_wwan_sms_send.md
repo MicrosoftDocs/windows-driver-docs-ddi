@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2d2e5d13-56ca-452c-86fd-4a48b11d53ab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SMS_SEND, netvista.wwan_sms_send, PWWAN_SMS_SEND, WwanRef_5212cb88-8eeb-4aef-8ecd-8a0634db962c.xml, *PWWAN_SMS_SEND, PWWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_SEND, wwan/WWAN_SMS_SEND, _WWAN_SMS_SEND
+ms.keywords: wwan/PWWAN_SMS_SEND, PWWAN_SMS_SEND, netvista.wwan_sms_send, WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], WwanRef_5212cb88-8eeb-4aef-8ecd-8a0634db962c.xml, _WWAN_SMS_SEND, wwan/WWAN_SMS_SEND, WWAN_SMS_SEND, PWWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SMS_SEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,11 +154,11 @@ Cdma
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_send.md">NDIS_WWAN_SMS_SEND</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_sms_send_pdu.md">WWAN_SMS_SEND_PDU</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_send.md">NDIS_WWAN_SMS_SEND</a>
 
 
 

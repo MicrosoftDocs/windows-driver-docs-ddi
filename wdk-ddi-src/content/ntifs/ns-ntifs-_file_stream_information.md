@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 03472920-cb22-42e1-b0e5-488c0319fc03
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION structure [Installable File System Drivers], fileinformationstructures_da535f6c-5769-4564-a2e7-e5a7ff952119.xml, ifsk.file_stream_information, ntifs/FILE_STREAM_INFORMATION, _FILE_STREAM_INFORMATION, PFILE_STREAM_INFORMATION structure pointer [Installable File System Drivers], *PFILE_STREAM_INFORMATION, ntifs/PFILE_STREAM_INFORMATION, PFILE_STREAM_INFORMATION
+ms.keywords: PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION structure [Installable File System Drivers], _FILE_STREAM_INFORMATION, ifsk.file_stream_information, PFILE_STREAM_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_da535f6c-5769-4564-a2e7-e5a7ff952119.xml, ntifs/PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION, *PFILE_STREAM_INFORMATION, ntifs/FILE_STREAM_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,15 +145,7 @@ The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) bou
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
 
 
 
@@ -161,7 +153,11 @@ The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) bou
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
 
 
@@ -169,7 +165,11 @@ The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) bou
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
 
 
 

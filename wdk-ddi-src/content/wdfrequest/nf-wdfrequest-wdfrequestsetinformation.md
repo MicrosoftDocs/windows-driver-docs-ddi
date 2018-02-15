@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2a5cccb3-24aa-404a-b887-2ccbe98a0673
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTSETINFORMATION, kmdf.wdfrequestsetinformation, wdfrequest/WdfRequestSetInformation, WdfRequestSetInformation method, WdfRequestSetInformation, DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, wdf.wdfrequestsetinformation
+ms.keywords: DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, WdfRequestSetInformation method, kmdf.wdfrequestsetinformation, wdf.wdfrequestsetinformation, wdfrequest/WdfRequestSetInformation, WdfRequestSetInformation, PFN_WDFREQUESTSETINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -164,11 +164,11 @@ MyEvtIoDeviceControl(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetinformation.md">WdfRequestGetInformation</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetinformation.md">WdfRequestGetInformation</a>
 
 
 

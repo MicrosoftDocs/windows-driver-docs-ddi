@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8134E635-5FC3-4990-A7CC-E43ECEB1FBB6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_DEVICE_SERVICE_SESSION_WRITE, netvista.wwan_device_service_session_write, WWAN_DEVICE_SERVICE_SESSION_WRITE structure [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_WRITE, *PWWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE, _WWAN_DEVICE_SERVICE_SESSION_WRITE
+ms.keywords: "_WWAN_DEVICE_SERVICE_SESSION_WRITE, netvista.wwan_device_service_session_write, *PWWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/PWWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SERVICE_SESSION_WRITE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,11 @@ The size, in bytes, of the device service data that follows the structure instan
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
-
-
-
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_service_session_write.md">NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
 
 

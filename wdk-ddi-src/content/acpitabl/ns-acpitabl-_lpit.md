@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: PLPIT, acpitabl/LPIT, LPIT, LPIT structure [ACPI Devices], acpitabl/PLPIT, PLPIT structure pointer [ACPI Devices], acpi.lpit, _LPIT, *PLPIT
+ms.keywords: LPIT, PLPIT, LPIT structure [ACPI Devices], _LPIT, acpitabl/LPIT, acpi.lpit, *PLPIT, PLPIT structure pointer [ACPI Devices], acpitabl/PLPIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -74,7 +74,6 @@ UINT64 APIENTRY* pfnGetPageableSize(
 ### -param hDrvDevice
 
 
-
 ### -param *pArgs
 
 
@@ -82,12 +81,14 @@ UINT64 APIENTRY* pfnGetPageableSize(
 
 
 
-#### - hDevice
-
-The handle of a device.
 
 
 #### - GetPageableSize [in]
 
 Information used to get pageable size.
+
+
+#### - hDevice
+
+The handle of a device.
 

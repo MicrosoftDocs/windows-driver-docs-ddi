@@ -8,7 +8,7 @@ old-project: Benchmark
 ms.assetid: a0493418-2ce2-4917-bf9f-e4dc726a3847
 ms.author: windowsdriverdev
 ms.date: 1/12/2018
-ms.keywords: MmGetMdlByteCount macro [Tools], k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, kernel.mmgetmdlbytecount, wdm/MmGetMdlByteCount, MmGetMdlByteCount
+ms.keywords: kernel.mmgetmdlbytecount, MmGetMdlByteCount, wdm/MmGetMdlByteCount, k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, MmGetMdlByteCount macro [Tools]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

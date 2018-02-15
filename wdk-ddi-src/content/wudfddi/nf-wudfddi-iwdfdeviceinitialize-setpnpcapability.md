@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82892740-12f6-469b-a65c-6905d32c0b0d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDeviceInitialize::SetPnpCapability, SetPnpCapability method, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface, SetPnpCapability method, SetPnpCapability, umdf.iwdfdeviceinitialize_setpnpcapability, SetPnpCapability method, UMDFDeviceObjectRef_516aeba5-c0c2-40a0-a9e6-d1a983835a94.xml, IWDFDeviceInitialize, wdf.iwdfdeviceinitialize_setpnpcapability, wudfddi/IWDFDeviceInitialize::SetPnpCapability
+ms.keywords: UMDFDeviceObjectRef_516aeba5-c0c2-40a0-a9e6-d1a983835a94.xml, umdf.iwdfdeviceinitialize_setpnpcapability, IWDFDeviceInitialize, wdf.iwdfdeviceinitialize_setpnpcapability, IWDFDeviceInitialize::SetPnpCapability, SetPnpCapability method, SetPnpCapability method, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface, SetPnpCapability method, SetPnpCapability, wudfddi/IWDFDeviceInitialize::SetPnpCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

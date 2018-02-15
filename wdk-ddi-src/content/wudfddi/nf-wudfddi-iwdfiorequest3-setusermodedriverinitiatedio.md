@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F494ED4C-DA2F-4630-B0CA-8B3BE7D26A80
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, IWDFIoRequest3, IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo method, wdf.iwdfiorequest3_setusermodedriverinitiatedio, IWDFIoRequest3::SetUserModeDriverInitiatedIo, umdf.iwdfiorequest3_setusermodedriverinitiatedio, SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method
+ms.keywords: umdf.iwdfiorequest3_setusermodedriverinitiatedio, SetUserModeDriverInitiatedIo, IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo method, SetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo method, wdf.iwdfiorequest3_setusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo, IWDFIoRequest3::SetUserModeDriverInitiatedIo, IWDFIoRequest3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -107,11 +107,11 @@ The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdf
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451341">GetUserModeDriverInitiatedIo</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451341">GetUserModeDriverInitiatedIo</a>
 
 
 

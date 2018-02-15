@@ -162,7 +162,7 @@ The Direct3D runtime verifies that the source surface specified by the <b>SrcSub
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
 
 
 
@@ -170,7 +170,7 @@ The Direct3D runtime verifies that the source surface specified by the <b>SrcSub
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 

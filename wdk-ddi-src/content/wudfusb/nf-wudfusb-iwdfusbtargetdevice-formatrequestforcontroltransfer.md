@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f75fbaa-06e8-4c4d-b1ee-c89a55889295
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: FormatRequestForControlTransfer method, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, FormatRequestForControlTransfer, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, IWDFUsbTargetDevice::FormatRequestForControlTransfer, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice
+ms.keywords: FormatRequestForControlTransfer, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice::FormatRequestForControlTransfer, IWDFUsbTargetDevice, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -240,19 +240,19 @@ CMyDevice::SendControlTransferSynchronously(
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

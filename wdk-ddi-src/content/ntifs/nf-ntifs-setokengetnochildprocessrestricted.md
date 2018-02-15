@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6C42E6C4-91EB-44A3-84E1-CAFDBD5CD724
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: SeTokenGetNoChildProcessRestricted function [Installable File System Drivers], SeTokenGetNoChildProcessRestricted, ifsk.setokengetnochildprocessrestricted, ntifs/SeTokenGetNoChildProcessRestricted
+ms.keywords: SeTokenGetNoChildProcessRestricted, ntifs/SeTokenGetNoChildProcessRestricted, ifsk.setokengetnochildprocessrestricted, SeTokenGetNoChildProcessRestricted function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

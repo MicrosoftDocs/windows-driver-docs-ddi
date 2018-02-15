@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BC43A7DF-51B4-4571-86C5-12B332B13084
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NIC_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_parameters, _NDIS_NIC_SWITCH_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_PARAMETERS
+ms.keywords: NDIS_NIC_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_parameters, PNDIS_NIC_SWITCH_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_PARAMETERS, _NDIS_NIC_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -177,19 +177,19 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451823">OID_NIC_SWITCH_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451823">OID_NIC_SWITCH_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
 
 
 

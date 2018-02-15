@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: baa1b837-6f9b-41f4-acf8-e640f8e9f8da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeCustom, NdisSwitchPropertyTypeUndefined, ntddndis/NdisSwitchPropertyTypeUndefined, ntddndis/NDIS_SWITCH_PROPERTY_TYPE, netvista.ndis_switch_property_type, NdisSwitchPropertyTypeCustom, ntddndis/NdisSwitchPropertyTypeMaximum, PNDIS_SWITCH_PROPERTY_TYPE, PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeMaximum, _NDIS_SWITCH_PROPERTY_TYPE
+ms.keywords: PNDIS_SWITCH_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeMaximum, ntddndis/NdisSwitchPropertyTypeCustom, NDIS_SWITCH_PROPERTY_TYPE, ntddndis/NdisSwitchPropertyTypeUndefined, *PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeUndefined, NdisSwitchPropertyTypeMaximum, _NDIS_SWITCH_PROPERTY_TYPE, netvista.ndis_switch_property_type, PNDIS_SWITCH_PROPERTY_TYPE, NdisSwitchPropertyTypeCustom, ntddndis/NDIS_SWITCH_PROPERTY_TYPE, NDIS_SWITCH_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -127,11 +127,11 @@ For more information about extensible switch  policies, see <a href="https://msd
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_delete_parameters.md">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_property_enum_parameters.md">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
 
 
 

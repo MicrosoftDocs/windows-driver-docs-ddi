@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: af697ccd-a748-45f8-97bb-fe595d81b693
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml, fcb/RxpTrackReference, RxpTrackReference, ifsk.rxptrackreference, RxpTrackReference function [Installable File System Drivers]
+ms.keywords: rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml, RxpTrackReference function [Installable File System Drivers], fcb/RxpTrackReference, RxpTrackReference, ifsk.rxptrackreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,7 +171,7 @@ For retail builds, this function does nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
 
 
 
@@ -179,7 +179,7 @@ For retail builds, this function does nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554385">RxDbgBreakPoint</a>
 
 
 

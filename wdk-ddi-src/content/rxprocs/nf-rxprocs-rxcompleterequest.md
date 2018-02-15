@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f5e9219b-0697-427e-b92e-7cd647a0e0b6
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxCompleteRequest, ifsk.rxcompleterequest, rxprocs/RxCompleteRequest, rxref_12eec336-4619-430c-a36c-ddbe855b8865.xml, RxCompleteRequest function [Installable File System Drivers]
+ms.keywords: RxCompleteRequest function [Installable File System Drivers], ifsk.rxcompleterequest, rxref_12eec336-4619-430c-a36c-ddbe855b8865.xml, rxprocs/RxCompleteRequest, RxCompleteRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,23 +106,15 @@ The <b>RxCompleteRequest</b> routine is not normally called by network mini-redi
 
 ## -see-also
 
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 
@@ -138,7 +130,15 @@ The <b>RxCompleteRequest</b> routine is not normally called by network mini-redi
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 

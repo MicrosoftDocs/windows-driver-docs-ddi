@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C39262BA-D1CE-4634-974A-ACCE8D321830
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddicb_allocate_0022, D3D12DDICB_ALLOCATE_0022, d3d12umddi/D3D12DDICB_ALLOCATE_0022, D3D12DDICB_ALLOCATE_0022 structure [Display Devices]
+ms.keywords: d3d12umddi/D3D12DDICB_ALLOCATE_0022, display.d3d12ddicb_allocate_0022, D3D12DDICB_ALLOCATE_0022 structure [Display Devices], D3D12DDICB_ALLOCATE_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

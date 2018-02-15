@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1f089f2c-73e2-4c77-a398-0d369aafdf3a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmRollbackEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_adca7b83-77e1-4c1d-9ed8-aac2c713d43c.xml, wdm/TmRollbackEnlistment, kernel.tmrollbackenlistment, TmRollbackEnlistment
+ms.keywords: wdm/TmRollbackEnlistment, TmRollbackEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrollbackenlistment, TmRollbackEnlistment, ktm_ref_adca7b83-77e1-4c1d-9ed8-aac2c713d43c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,19 +124,7 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwrollbackenlistment.md">ZwRollbackEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 
 
@@ -145,6 +133,18 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype, PosDeviceBasicsType, PosDeviceBasicsType structure"
+ms.keywords: PosDeviceBasicsType structure, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype, PosDeviceBasicsType, _PosDeviceBasicsType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

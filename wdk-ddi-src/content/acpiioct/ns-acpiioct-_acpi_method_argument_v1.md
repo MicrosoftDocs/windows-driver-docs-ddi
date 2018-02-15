@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 4038d5a5-9ce7-44cb-a6f0-3033617cfe6a
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi.acpi_method_argument, *PACPI_METHOD_ARGUMENT, acpiioct/ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices], acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, *PACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT, _ACPI_METHOD_ARGUMENT_V1
+ms.keywords: acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, acpi.acpi_method_argument, ACPI_METHOD_ARGUMENT, *PACPI_METHOD_ARGUMENT, *PACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices], ACPI_METHOD_ARGUMENT_V1, _ACPI_METHOD_ARGUMENT_V1, acpiioct/ACPI_METHOD_ARGUMENT_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,15 +154,15 @@ For more information about how to use ACPI_METHOD_ARGUMENT structures to supply 
 
 ## -see-also
 
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
+
+
+
 <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
-
-
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
 
 
 

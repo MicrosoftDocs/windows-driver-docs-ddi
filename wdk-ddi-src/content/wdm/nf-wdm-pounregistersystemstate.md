@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5d82342e-c800-44ac-8618-468355d14dd0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, wdm/PoUnregisterSystemState, kernel.pounregistersystemstate, PoUnregisterSystemState
+ms.keywords: PoUnregisterSystemState, PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], wdm/PoUnregisterSystemState, portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, kernel.pounregistersystemstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a827df55-ff88-439a-8d56-fba8212105a6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, VideoPortDoDma, video/VideoPortDoDma, VideoPortDoDma function [Display Devices], display.videoportdodma
+ms.keywords: VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, VideoPortDoDma function [Display Devices], video/VideoPortDoDma, VideoPortDoDma, display.videoportdodma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,11 +135,11 @@ See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bu
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>
-
-
-
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
+
+
+<a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>
 
 
 

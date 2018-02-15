@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 302f271c-801e-409c-a0fc-53f01e5e2055
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WcsSetDefaultColorProfile function [Print Devices], WcsSetDefaultColorProfile, colorfnc_31c96c7b-5616-4bdb-8df8-23e2361a9554.xml, icm/WcsSetDefaultColorProfile, print.wcssetdefaultcolorprofile
+ms.keywords: WcsSetDefaultColorProfile function [Print Devices], print.wcssetdefaultcolorprofile, WcsSetDefaultColorProfile, colorfnc_31c96c7b-5616-4bdb-8df8-23e2361a9554.xml, icm/WcsSetDefaultColorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,15 +121,15 @@ This function is executable in Least-Privileged User Account (LUA) context if <i
 
 ## -see-also
 
+<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
+
+
+
 <a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
 
 
 
 <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
-
-
-
-<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
 
 
 

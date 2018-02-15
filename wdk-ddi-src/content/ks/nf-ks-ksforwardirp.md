@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6db0c232-d90b-4187-94c0-a840f87cf999
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsForwardIrp, KsForwardIrp function [Streaming Media Devices], stream.ksforwardirp, KsForwardIrp, ksfunc_cc7908b4-a6f2-40b1-990f-22c7b5e2bda2.xml
+ms.keywords: ksfunc_cc7908b4-a6f2-40b1-990f-22c7b5e2bda2.xml, stream.ksforwardirp, KsForwardIrp, ks/KsForwardIrp, KsForwardIrp function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 52733647-d577-4507-a5ad-5f56f3a9f8a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DEVICE_IO_TYPE enumeration pointer, wudfddi_types/WdfDeviceIoNeither, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, wudfddi_types/PWDF_DEVICE_IO_TYPE, WdfDeviceIoDirect, *PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoMaximum, WdfDeviceIoNeither, WdfDeviceIoMaximum, umdf.wdf_device_io_type__umdf_, WdfDeviceIoUndefined, WDF_DEVICE_IO_TYPE enumeration, wudfddi_types/WdfDeviceIoUndefined, wudfddi_types/WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoBufferedOrDirect, _WDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, wdf.wdf_device_io_type__umdf_, PWDF_DEVICE_IO_TYPE, wudfddi_types/WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBuffered, WdfDeviceIoBufferedOrDirect
+ms.keywords: WdfDeviceIoUndefined, WdfDeviceIoNeither, WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoBufferedOrDirect, wudfddi_types/WdfDeviceIoDirect, PWDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBuffered, wudfddi_types/WdfDeviceIoNeither, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, wdf.wdf_device_io_type__umdf_, WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoMaximum, WdfDeviceIoBuffered, WdfDeviceIoMaximum, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoBufferedOrDirect, umdf.wdf_device_io_type__umdf_, WDF_DEVICE_IO_TYPE enumeration, wudfddi_types/WDF_DEVICE_IO_TYPE, _WDF_DEVICE_IO_TYPE, wudfddi_types/PWDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE enumeration pointer, wudfddi_types/WdfDeviceIoUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

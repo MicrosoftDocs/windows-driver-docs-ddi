@@ -74,7 +74,6 @@ SIZE_T APIENTRY* pfnCalcPrivateVideoDecoderSize(
 ### -param hDrvDevice
 
 
-
 ### -param *pArgs
 
 
@@ -82,9 +81,6 @@ SIZE_T APIENTRY* pfnCalcPrivateVideoDecoderSize(
 
 
 
-#### - hDevice
-
-The handle of a device. 
 
 
 #### - CreateVideoDecoder [in]
@@ -92,9 +88,16 @@ The handle of a device.
 The arguments used to create a video decoder.
 
 
+#### - hDevice
+
+The handle of a device. 
+
+
 ## -remarks
 
 
+
 The runtime allocates memory for storing the driver CPU object that represents the video decoder.  This method is used to calculate the driver object size.
+
 
 

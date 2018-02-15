@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a79f6f98-1ebb-498e-9e20-cfdd22a0da7a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryOpenKey method, DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, kmdf.wdfregistryopenkey, WdfRegistryOpenKey, wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey, PFN_WDFREGISTRYOPENKEY
+ms.keywords: wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey, WdfRegistryOpenKey, WdfRegistryOpenKey method, PFN_WDFREGISTRYOPENKEY, kmdf.wdfregistryopenkey, DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -258,27 +258,7 @@ if (NT_SUCCESS(status)){
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistrycreatekey.md">WdfRegistryCreateKey</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -286,11 +266,31 @@ if (NT_SUCCESS(status)){
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistrycreatekey.md">WdfRegistryCreateKey</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
 
 
 

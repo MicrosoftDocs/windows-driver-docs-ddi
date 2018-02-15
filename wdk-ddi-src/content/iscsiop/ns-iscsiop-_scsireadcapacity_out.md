@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3330379f-e484-4fd7-b914-fc969398b56b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PScsiReadCapacity_OUT, iscsiop/PScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], PScsiReadCapacity_OUT, storage.scsireadcapacity_out, iscsiop/ScsiReadCapacity_OUT, ScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml"
+ms.keywords: storage.scsireadcapacity_out, ScsiReadCapacity_OUT structure [Storage Devices], ScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], *PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml, iscsiop/PScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, iscsiop/ScsiReadCapacity_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,15 +107,15 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
 
 

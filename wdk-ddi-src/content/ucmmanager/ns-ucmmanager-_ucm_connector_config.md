@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 8FE8B7E2-1CC0-4540-86D5-A09BA249D62A
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucmmanager/UCM_CONNECTOR_CONFIG, *PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG, _UCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG structure [Buses], buses.ucm_connector_config, ucmmanager/PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses]
+ms.keywords: PUCM_CONNECTOR_CONFIG structure pointer [Buses], _UCM_CONNECTOR_CONFIG, ucmmanager/PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG structure [Buses], PUCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG, *PUCM_CONNECTOR_CONFIG, ucmmanager/UCM_CONNECTOR_CONFIG, buses.ucm_connector_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

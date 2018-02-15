@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DCB0E541-51AB-4624-A007-46D109F31E5B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure [Kernel-Mode Driver Architecture], kernel.pep_reset_soc_subsystem_accounting, pepfx/PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, *PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+ms.keywords: PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure [Kernel-Mode Driver Architecture], PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, pepfx/PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, kernel.pep_reset_soc_subsystem_accounting, *PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

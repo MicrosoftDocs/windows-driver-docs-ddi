@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 888f88db-2149-4da2-acdb-4bf88a5362dd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml, PCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI.pci_express_device_control_register, ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER, *PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], _PCI_EXPRESS_DEVICE_CONTROL_REGISTER
+ms.keywords: PCI.pci_express_device_control_register, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_CONTROL_REGISTER, *PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -167,24 +167,14 @@ Reserved.
 A USHORT representation of the contents of the <b>PCI_EXPRESS_DEVICE_CONTROL_REGISTER</b> structure.
 
 
-##### - MaxPayloadSize.MaxPayload128Bytes
-
-128 byte maximum payload size
-
-
-##### - MaxPayloadSize.MaxPayload256Bytes
-
-256 byte maximum payload size
-
-
-##### - MaxPayloadSize.MaxPayload512Bytes
-
-512 byte maximum payload size
-
-
 ##### - MaxPayloadSize.MaxPayload1024Bytes
 
 1024 byte maximum payload size
+
+
+##### - MaxPayloadSize.MaxPayload128Bytes
+
+128 byte maximum payload size
 
 
 ##### - MaxPayloadSize.MaxPayload2048Bytes
@@ -192,24 +182,19 @@ A USHORT representation of the contents of the <b>PCI_EXPRESS_DEVICE_CONTROL_REG
 2048 byte maximum payload size
 
 
+##### - MaxPayloadSize.MaxPayload256Bytes
+
+256 byte maximum payload size
+
+
 ##### - MaxPayloadSize.MaxPayload4096Bytes
 
 4096 byte maximum payload size
 
 
-##### - MaxReadRequestSize.MaxPayload128Bytes
+##### - MaxPayloadSize.MaxPayload512Bytes
 
-128 byte maximum read request size
-
-
-##### - MaxReadRequestSize.MaxPayload256Bytes
-
-256 byte maximum read request size
-
-
-##### - MaxReadRequestSize.MaxPayload512Bytes
-
-512 byte maximum read request size
+512 byte maximum payload size
 
 
 ##### - MaxReadRequestSize.MaxPayload1024Bytes
@@ -217,14 +202,29 @@ A USHORT representation of the contents of the <b>PCI_EXPRESS_DEVICE_CONTROL_REG
 1024 byte maximum read request size
 
 
+##### - MaxReadRequestSize.MaxPayload128Bytes
+
+128 byte maximum read request size
+
+
 ##### - MaxReadRequestSize.MaxPayload2048Bytes
 
 2048 byte maximum read request size
 
 
+##### - MaxReadRequestSize.MaxPayload256Bytes
+
+256 byte maximum read request size
+
+
 ##### - MaxReadRequestSize.MaxPayload4096Bytes
 
 4096 byte maximum read request size
+
+
+##### - MaxReadRequestSize.MaxPayload512Bytes
+
+512 byte maximum read request size
 
 
 ## -remarks

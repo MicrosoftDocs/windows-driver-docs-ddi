@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1f633261-82b2-4346-b1c2-cd36228af5f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1_DDI_BLEND_DESC, display.d3d11_1_ddi_blend_desc, D3D11_1_DDI_BLEND_DESC structure [Display Devices], d3d10umddi/D3D11_1_DDI_BLEND_DESC
+ms.keywords: d3d10umddi/D3D11_1_DDI_BLEND_DESC, D3D11_1_DDI_BLEND_DESC structure [Display Devices], D3D11_1_DDI_BLEND_DESC, display.d3d11_1_ddi_blend_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

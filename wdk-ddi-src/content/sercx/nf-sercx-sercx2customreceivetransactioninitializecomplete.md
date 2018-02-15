@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C2D7C955-B63E-4D99-BC20-F7684C8D61F8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2CustomReceiveTransactionInitializeComplete method [Serial Ports], serports.sercx2customreceivetransactioninitializecomplete, 2/SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete
+ms.keywords: SerCx2CustomReceiveTransactionInitializeComplete method [Serial Ports], SerCx2CustomReceiveTransactionInitializeComplete, serports.sercx2customreceivetransactioninitializecomplete, 2/SerCx2CustomReceiveTransactionInitializeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,15 +103,15 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_initialize.md">EvtSerCx2CustomReceiveTransactionInitialize</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_initialize.md">EvtSerCx2CustomReceiveTransactionInitialize</a>
 
 
 

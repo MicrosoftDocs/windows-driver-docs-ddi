@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ab6ea03-cfe6-4679-91ff-e52aae7a5200
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista], netvista.rilcapslockingpwdlength_2, RILCAPSLOCKINGPWDLENGTH, rilapitypes/RILCAPSLOCKINGPWDLENGTH"
+ms.keywords: rilapitypes/RILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH, netvista.rilcapslockingpwdlength_2, *LPRILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

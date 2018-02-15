@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3a1603ec-639f-4899-8889-3c7ed2cfe375
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_PATH_OFFLOAD_STATE_DELEGATED, PPATH_OFFLOAD_STATE_DELEGATED, *PPATH_OFFLOAD_STATE_DELEGATED, ndischimney/PATH_OFFLOAD_STATE_DELEGATED, PATH_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_63dab32f-c9a5-428f-94e1-7b534d83fd50.xml, ndischimney/PPATH_OFFLOAD_STATE_DELEGATED, netvista.path_offload_state_delegated, PATH_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista]"
+ms.keywords: ndischimney/PATH_OFFLOAD_STATE_DELEGATED, netvista.path_offload_state_delegated, PPATH_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_DELEGATED, PATH_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_63dab32f-c9a5-428f-94e1-7b534d83fd50.xml, *PPATH_OFFLOAD_STATE_DELEGATED, _PATH_OFFLOAD_STATE_DELEGATED, ndischimney/PPATH_OFFLOAD_STATE_DELEGATED, PATH_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,15 +92,15 @@ Currently there are no delegated path variables.
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 
 
 <a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
 
 
 

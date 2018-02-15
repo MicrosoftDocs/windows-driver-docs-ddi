@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5e471ede-3607-4d4d-a3f0-5396cc62c6c5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDeviceDepot2::QuerySingle, QuerySingle method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2, QuerySingle, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], QuerySingle method, QuerySingle method [Windows Device Testing Framework], wdtf/IWDTFDeviceDepot2::QuerySingle, Microsoft.WDTF.IWDTFDeviceDepot2.QuerySingle, Microsoft::WDTF::IWDTFDeviceDepot2::QuerySingle, dtf.iwdtfdevicedepot2_querysingle
+ms.keywords: Microsoft::WDTF::IWDTFDeviceDepot2::QuerySingle, IWDTFDeviceDepot2::QuerySingle, QuerySingle, QuerySingle method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface [Windows Device Testing Framework], QuerySingle method, Microsoft.WDTF.IWDTFDeviceDepot2.QuerySingle, IWDTFDeviceDepot2, QuerySingle method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_querysingle, wdtf/IWDTFDeviceDepot2::QuerySingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

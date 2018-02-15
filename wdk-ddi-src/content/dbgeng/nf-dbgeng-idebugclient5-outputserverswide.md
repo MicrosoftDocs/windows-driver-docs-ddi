@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ce4b52af-17c6-41ed-95cb-09418137f049
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], OutputServersWide method, debugger.outputserverswide, IDebugClient5::OutputServersWide, IDebugClient5, OutputServersWide method [Windows Debugging], OutputServersWide, dbgeng/IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: OutputServersWide method [Windows Debugging], OutputServersWide, dbgeng/IDebugClient5::OutputServersWide, debugger.outputserverswide, IDebugClient5::OutputServersWide, IDebugClient5, OutputServersWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], OutputServersWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -153,6 +153,10 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
 <a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
 
@@ -166,10 +170,6 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
 

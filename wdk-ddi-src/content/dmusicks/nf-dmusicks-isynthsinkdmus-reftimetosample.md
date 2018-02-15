@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 20906bcd-3059-4d10-92cb-8efdef929ccd
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: dmusicks/ISynthSinkDMus::RefTimeToSample, RefTimeToSample method [Audio Devices], RefTimeToSample, ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method, audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, audio.isynthsinkdmus_reftimetosample, RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, ISynthSinkDMus::RefTimeToSample
+ms.keywords: dmusicks/ISynthSinkDMus::RefTimeToSample, RefTimeToSample method [Audio Devices], audmp-routines_8c8379c0-db14-4275-adfc-2dd595879feb.xml, ISynthSinkDMus::RefTimeToSample, ISynthSinkDMus interface [Audio Devices], RefTimeToSample method, RefTimeToSample method [Audio Devices], ISynthSinkDMus interface, audio.isynthsinkdmus_reftimetosample, ISynthSinkDMus, RefTimeToSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

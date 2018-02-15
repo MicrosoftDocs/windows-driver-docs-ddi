@@ -104,11 +104,14 @@ The IRP issued by <i>Device</i>.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <table>
@@ -175,7 +178,9 @@ This routine is optional.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -183,7 +188,11 @@ This routine is optional.
 
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
 
  
 

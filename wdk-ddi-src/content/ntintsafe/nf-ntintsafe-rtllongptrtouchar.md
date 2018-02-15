@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86E72C5E-9DB1-4EDD-A6B0-272D4622A500
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongPtrToUChar, kernel.rtllongptrtouchar, RtlLongPtrToUChar
+ms.keywords: kernel.rtllongptrtouchar, ntintsafe/RtlLongPtrToUChar, RtlLongPtrToUChar function [Kernel-Mode Driver Architecture], RtlLongPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

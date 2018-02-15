@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7dc42f9a-2e55-4ae5-a951-7d1d3b14564b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_2cee63fa-a7a5-4a15-be83-e536a504bcb7.xml, *LPSTINOTIFY, image.stinotify, STINOTIFY, LPSTINOTIFY, sti/STINOTIFY, sti/LPSTINOTIFY, _STINOTIFY, LPSTINOTIFY structure pointer [Imaging Devices], STINOTIFY structure [Imaging Devices]
+ms.keywords: "_STINOTIFY, *LPSTINOTIFY, LPSTINOTIFY structure pointer [Imaging Devices], LPSTINOTIFY, image.stinotify, stifnc_2cee63fa-a7a5-4a15-be83-e536a504bcb7.xml, sti/LPSTINOTIFY, STINOTIFY structure [Imaging Devices], STINOTIFY, sti/STINOTIFY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

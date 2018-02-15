@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 088036f5-13cb-47ba-953c-a71c923f028e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, dbgeng/IDebugControl3::AddEngineOptions, IDebugControl interface [Windows Debugging], AddEngineOptions method, IDebugControl3::AddEngineOptions, dbgeng/IDebugControl2::AddEngineOptions, IDebugControl_6042b0b9-8175-4790-be19-43f8659716dc.xml, dbgeng/IDebugControl::AddEngineOptions, AddEngineOptions method [Windows Debugging], IDebugControl, AddEngineOptions method [Windows Debugging], IDebugControl3 interface, AddEngineOptions method [Windows Debugging], IDebugControl2 interface, AddEngineOptions, IDebugControl3 interface [Windows Debugging], AddEngineOptions method, IDebugControl::AddEngineOptions, IDebugControl2 interface [Windows Debugging], AddEngineOptions method, debugger.addengineoptions, IDebugControl2::AddEngineOptions, AddEngineOptions method [Windows Debugging], IDebugControl interface
+ms.keywords: IDebugControl2::AddEngineOptions, AddEngineOptions method [Windows Debugging], IDebugControl3::AddEngineOptions, AddEngineOptions, IDebugControl interface [Windows Debugging], AddEngineOptions method, IDebugControl_6042b0b9-8175-4790-be19-43f8659716dc.xml, AddEngineOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl2, IDebugControl::AddEngineOptions, dbgeng/IDebugControl::AddEngineOptions, AddEngineOptions method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::AddEngineOptions, IDebugControl, IDebugControl2 interface [Windows Debugging], AddEngineOptions method, debugger.addengineoptions, AddEngineOptions method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], AddEngineOptions method, dbgeng/IDebugControl3::AddEngineOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,19 +113,11 @@ After the engine options have been changed, the engine sends out notification to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556670">SetEngineOptions</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -133,7 +125,15 @@ After the engine options have been changed, the engine sends out notification to
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556670">SetEngineOptions</a>
 
 
 

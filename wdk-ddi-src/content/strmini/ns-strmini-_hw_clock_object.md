@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d6afe946-90cb-4b17-94ed-2e7c508985a3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/HW_CLOCK_OBJECT, PHW_CLOCK_OBJECT, HW_CLOCK_OBJECT, strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml, HW_CLOCK_OBJECT structure [Streaming Media Devices], _HW_CLOCK_OBJECT, stream.hw_clock_object, PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], *PHW_CLOCK_OBJECT, strmini/PHW_CLOCK_OBJECT
+ms.keywords: HW_CLOCK_OBJECT structure [Streaming Media Devices], PHW_CLOCK_OBJECT, HW_CLOCK_OBJECT, strmini/PHW_CLOCK_OBJECT, strmini/HW_CLOCK_OBJECT, PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], stream.hw_clock_object, *PHW_CLOCK_OBJECT, _HW_CLOCK_OBJECT, strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ Reserved for system use. Do not use.
 
 
 
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 
 

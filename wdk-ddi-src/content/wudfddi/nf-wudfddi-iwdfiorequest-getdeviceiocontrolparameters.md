@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 96de6f7a-da1d-44a6-b1f7-44859312a662
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest interface, GetDeviceIoControlParameters method, IWDFIoRequest::GetDeviceIoControlParameters, umdf.iwdfiorequest_getdeviceiocontrolparameters, GetDeviceIoControlParameters method, IWDFIoRequest interface, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, wdf.iwdfiorequest_getdeviceiocontrolparameters, GetDeviceIoControlParameters method, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters, GetDeviceIoControlParameters, IWDFIoRequest
+ms.keywords: IWDFIoRequest interface, GetDeviceIoControlParameters method, GetDeviceIoControlParameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters, GetDeviceIoControlParameters method, IWDFIoRequest interface, umdf.iwdfiorequest_getdeviceiocontrolparameters, IWDFIoRequest::GetDeviceIoControlParameters, IWDFIoRequest, wdf.iwdfiorequest_getdeviceiocontrolparameters, GetDeviceIoControlParameters method, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,11 +115,11 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pContr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8f29aca1-9d38-4c28-976f-64549767b303
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlcustomcptounicoden, RtlCustomCPToUnicodeN, RtlCustomCPToUnicodeN function [Installable File System Drivers], ntifs/RtlCustomCPToUnicodeN, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml
+ms.keywords: RtlCustomCPToUnicodeN, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml, ifsk.rtlcustomcptounicoden, ntifs/RtlCustomCPToUnicodeN, RtlCustomCPToUnicodeN function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

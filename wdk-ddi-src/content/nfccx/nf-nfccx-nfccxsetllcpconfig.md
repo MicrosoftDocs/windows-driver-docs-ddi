@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8208F61E-DFD9-4AA8-B225-BEB35F80F621
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers._nfccxsetllcpconfig, nfccx/NfcCxSetLlcpConfig, NfcCxSetLlcpConfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers]
+ms.keywords: nfccx/NfcCxSetLlcpConfig, nfpdrivers._nfccxsetllcpconfig, NfcCxSetLlcpConfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

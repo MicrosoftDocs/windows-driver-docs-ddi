@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PMONITORINIT structure pointer [Print Devices], print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, MONITORINIT structure [Print Devices], MONITORINIT, winsplp/PMONITORINIT, winsplp/MONITORINIT, *PMONITORINIT, _MONITORINIT, PMONITORINIT
+ms.keywords: MONITORINIT structure [Print Devices], print.monitorinit, PMONITORINIT structure pointer [Print Devices], spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, _MONITORINIT, winsplp/MONITORINIT, PMONITORINIT, *PMONITORINIT, MONITORINIT, winsplp/PMONITORINIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

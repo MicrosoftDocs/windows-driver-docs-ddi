@@ -171,6 +171,10 @@ The user-mode display driver returns a pointer to the memory for the locked surf
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
 
 
@@ -180,10 +184,6 @@ The user-mode display driver returns a pointer to the memory for the locked surf
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

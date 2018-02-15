@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c652268f-4a31-4ec1-a668-8700cb7f4e1b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.iscsi_sessionstaticinfo, PISCSI_SessionStaticInfo, iscsimgt/ISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo, iscsimgt/PISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo structure [Storage Devices], PISCSI_SessionStaticInfo structure pointer [Storage Devices], structs-iSCSI_94ec0954-b409-4acf-8935-7c8dc6b0d095.xml, _ISCSI_SessionStaticInfo
+ms.keywords: iscsimgt/PISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo structure pointer [Storage Devices], ISCSI_SessionStaticInfo structure [Storage Devices], *PISCSI_SessionStaticInfo, _ISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo, structs-iSCSI_94ec0954-b409-4acf-8935-7c8dc6b0d095.xml, iscsimgt/ISCSI_SessionStaticInfo, storage.iscsi_sessionstaticinfo, PISCSI_SessionStaticInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -220,6 +220,10 @@ A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionsta
 
 ## -see-also
 
+<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
@@ -229,10 +233,6 @@ A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionsta
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_connectionstaticinfo.md">ISCSI_ConnectionStaticInfo</a>
 
 
 

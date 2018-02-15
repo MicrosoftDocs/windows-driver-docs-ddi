@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b9b76796-bf08-4d10-82a4-7894b3285fff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICESENDURBSYNCHRONOUSLY, DFUsbRef_33a88dd1-6d59-4e1f-bd4f-6d778c5aa6d8.xml, WdfUsbTargetDeviceSendUrbSynchronously method, kmdf.wdfusbtargetdevicesendurbsynchronously, wdf.wdfusbtargetdevicesendurbsynchronously, wdfusb/WdfUsbTargetDeviceSendUrbSynchronously, WdfUsbTargetDeviceSendUrbSynchronously
+ms.keywords: wdfusb/WdfUsbTargetDeviceSendUrbSynchronously, wdf.wdfusbtargetdevicesendurbsynchronously, kmdf.wdfusbtargetdevicesendurbsynchronously, WdfUsbTargetDeviceSendUrbSynchronously, PFN_WDFUSBTARGETDEVICESENDURBSYNCHRONOUSLY, DFUsbRef_33a88dd1-6d59-4e1f-bd4f-6d778c5aa6d8.xml, WdfUsbTargetDeviceSendUrbSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -228,11 +228,23 @@ status = WdfUsbTargetDeviceSendUrbSynchronously(
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+
+
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforurb.md">WdfUsbTargetDeviceFormatRequestForUrb</a>
 
 
 
@@ -241,18 +253,6 @@ status = WdfUsbTargetDeviceSendUrbSynchronously(
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-
-
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforurb.md">WdfUsbTargetDeviceFormatRequestForUrb</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
 
 

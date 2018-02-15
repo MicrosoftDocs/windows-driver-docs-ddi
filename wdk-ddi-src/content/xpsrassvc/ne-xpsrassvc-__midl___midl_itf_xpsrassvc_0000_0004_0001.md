@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0B4C1BAC-173E-42E9-8805-028FE165D49D
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: XPSRAS_BACKGROUND_COLOR_OPAQUE, xpsrassvc/XPSRAS_BACKGROUND_COLOR_OPAQUE, XPSRAS_BACKGROUND_COLOR, XPSRAS_BACKGROUND_COLOR enumeration [Print Devices], xpsrassvc/XPSRAS_BACKGROUND_COLOR_TRANSPARENT, __MIDL___MIDL_itf_xpsrassvc_0000_0004_0001, XPSRAS_BACKGROUND_COLOR_TRANSPARENT, print.xpsras_background_color, xpsrassvc/XPSRAS_BACKGROUND_COLOR
+ms.keywords: "__MIDL___MIDL_itf_xpsrassvc_0000_0004_0001, XPSRAS_BACKGROUND_COLOR_TRANSPARENT, xpsrassvc/XPSRAS_BACKGROUND_COLOR_OPAQUE, XPSRAS_BACKGROUND_COLOR enumeration [Print Devices], xpsrassvc/XPSRAS_BACKGROUND_COLOR_TRANSPARENT, XPSRAS_BACKGROUND_COLOR_OPAQUE, print.xpsras_background_color, XPSRAS_BACKGROUND_COLOR, xpsrassvc/XPSRAS_BACKGROUND_COLOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

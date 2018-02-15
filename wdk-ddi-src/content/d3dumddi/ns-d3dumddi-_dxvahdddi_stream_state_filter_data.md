@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7da30e14-7df4-41e2-b2e3-081c55d68db6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_STREAM_STATE_FILTER_DATA, DXVA2_Structs_e20d3d19-75a9-4539-888f-4c3c73cc02c8.xml, _DXVAHDDDI_STREAM_STATE_FILTER_DATA, display.dxvahdddi_stream_state_filter_data, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_DATA, DXVAHDDDI_STREAM_STATE_FILTER_DATA structure [Display Devices]
+ms.keywords: display.dxvahdddi_stream_state_filter_data, DXVAHDDDI_STREAM_STATE_FILTER_DATA structure [Display Devices], DXVAHDDDI_STREAM_STATE_FILTER_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_DATA, _DXVAHDDDI_STREAM_STATE_FILTER_DATA, DXVA2_Structs_e20d3d19-75a9-4539-888f-4c3c73cc02c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

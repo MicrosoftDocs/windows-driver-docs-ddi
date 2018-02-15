@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E0358D5E-4C5A-408F-9548-98A006939F22
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: READ_REGISTER_BUFFER_UCHAR, READ_REGISTER_BUFFER_UCHAR function, wudfddi_hwaccess/READ_REGISTER_BUFFER_UCHAR, wdf.read_register_buffer_uchar, umdf.read_register_buffer_uchar
+ms.keywords: wudfddi_hwaccess/READ_REGISTER_BUFFER_UCHAR, umdf.read_register_buffer_uchar, wdf.read_register_buffer_uchar, READ_REGISTER_BUFFER_UCHAR function, READ_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50ef03af-3890-40dd-b0ed-7cf048f8530d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILMSGDCS, RILMSGDCS, *LPRILMSGDCS, netvista.rilmsgdcs_2, RILMSGDCS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RILMSGDCS, *LPRILMSGDCS, netvista.rilmsgdcs_2, RILMSGDCS structure [Network Drivers Starting with Windows Vista], RILMSGDCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

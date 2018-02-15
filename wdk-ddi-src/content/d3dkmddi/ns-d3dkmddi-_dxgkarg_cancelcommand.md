@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c0066718-50d0-4bd2-a1bf-678c3f6b9253
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_cancelcommand, DXGKARG_CANCELCOMMAND structure [Display Devices], DXGKARG_CANCELCOMMAND, d3dkmddi/DXGKARG_CANCELCOMMAND, _DXGKARG_CANCELCOMMAND
+ms.keywords: "_DXGKARG_CANCELCOMMAND, display.dxgkarg_cancelcommand, d3dkmddi/DXGKARG_CANCELCOMMAND, DXGKARG_CANCELCOMMAND, DXGKARG_CANCELCOMMAND structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -184,7 +184,7 @@ Note that <b>PatchLocationListSize</b> represents the total size of the patch-lo
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
 
 
@@ -192,7 +192,7 @@ Note that <b>PatchLocationListSize</b> represents the total size of the patch-lo
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
 
 

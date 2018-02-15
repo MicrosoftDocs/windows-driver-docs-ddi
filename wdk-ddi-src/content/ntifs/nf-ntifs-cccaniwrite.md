@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 04b1521f-906f-493d-9ca6-6d97c6a80bdb
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: CcCanIWrite routine [Installable File System Drivers], CcCanIWrite, ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, ntifs/CcCanIWrite, ifsk.cccaniwrite
+ms.keywords: CcCanIWrite routine [Installable File System Drivers], ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, ntifs/CcCanIWrite, ifsk.cccaniwrite, CcCanIWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,19 +140,19 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="..\ntifs\nf-ntifs-ccfastcopywrite.md">CcFastCopyWrite</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="..\ntifs\nf-ntifs-ccfastcopywrite.md">CcFastCopyWrite</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 

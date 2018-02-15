@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc0718b6-4c71-41a8-bab6-a52991b284d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterInterruptEx, netvista.ndismderegisterinterruptex, NdisMDeregisterInterruptEx
+ms.keywords: netvista.ndismderegisterinterruptex, NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], NdisMDeregisterInterruptEx, ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, ndis/NdisMDeregisterInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,7 +119,7 @@ The miniport driver should disable its NIC from generating interrupts before it 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -127,15 +127,15 @@ The miniport driver should disable its NIC from generating interrupts before it 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 
 

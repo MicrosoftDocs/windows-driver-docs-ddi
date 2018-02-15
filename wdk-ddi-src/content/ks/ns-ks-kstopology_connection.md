@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 604be66a-bec7-48db-b038-aaaf78043965
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION, stream.kstopology_connection, KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], *PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, ks/PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices]
+ms.keywords: KSTOPOLOGY_CONNECTION, ks/KSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], *PKSTOPOLOGY_CONNECTION, ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, stream.kstopology_connection, PKSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCON
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565802">KSPROPERTY_TOPOLOGY_CONNECTIONS</a>
 
 
 
@@ -125,7 +125,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCON
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565802">KSPROPERTY_TOPOLOGY_CONNECTIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
 
 
 

@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorGetOutputExtension
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION callback
@@ -77,9 +77,7 @@ HRESULT APIENTRY* pfnVideoProcessorGetOutputExtension(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param *
@@ -89,8 +87,14 @@ HRESULT APIENTRY* pfnVideoProcessorGetOutputExtension(
 
 
 
+
+
 ### -param UINT
 
+
+#### - DataSize [in]
+
+The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
 
 
 #### - hDevice [in]
@@ -107,18 +111,6 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - pGuid [in]
-
-A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
-
-
-
-
-#### - DataSize [in]
-
-The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
-
-
 #### - pData [in, out]
 
 A pointer to a buffer that receives the private state data. 
@@ -126,10 +118,19 @@ A pointer to a buffer that receives the private state data.
 
 
 
+#### - pGuid [in]
+
+A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
+
+
+
+
 ## -returns
 
 
+
 <b>VideoProcessorGetOutputExtension</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -182,20 +183,26 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The Microsoft Direct3D runtime does not validate any parameter data before it calls the  <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputextension.md">VideoProcessorSetOutputExtension</a> function.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
 
  
 

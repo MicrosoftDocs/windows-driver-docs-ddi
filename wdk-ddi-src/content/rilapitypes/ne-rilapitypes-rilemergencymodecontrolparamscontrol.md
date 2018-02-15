@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b169e3a3-141b-4bca-9eaa-ce55f7194e4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilemergencymodecontrolparamscontrol_2, rilapitypes/RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE, RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, rilapitypes/RIL_EMC_MAX, RILEMERGENCYMODECONTROLPARAMSCONTROL enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, rilapitypes/RILEMERGENCYMODECONTROLPARAMSCONTROL, RIL_EMC_MAX, RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE, RILEMERGENCYMODECONTROLPARAMSCONTROL
+ms.keywords: rilapitypes/RILEMERGENCYMODECONTROLPARAMSCONTROL, RIL_EMC_MAX, rilapitypes/RIL_EMC_MAX, RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE, rilapitypes/RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, rilapitypes/RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE, RILEMERGENCYMODECONTROLPARAMSCONTROL, netvista.rilemergencymodecontrolparamscontrol_2, RILEMERGENCYMODECONTROLPARAMSCONTROL enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

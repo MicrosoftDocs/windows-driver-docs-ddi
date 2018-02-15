@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 58352577-9ed9-4fc6-9cc7-dabcf4f77ad9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, dbgeng/IDebugControl::GetExecutionStatus, GetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetExecutionStatus method, GetExecutionStatus method [Windows Debugging], IDebugControl interface [Windows Debugging], GetExecutionStatus method, GetExecutionStatus method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetExecutionStatus, IDebugControl, dbgeng/IDebugControl3::GetExecutionStatus, GetExecutionStatus, IDebugControl3::GetExecutionStatus, IDebugControl_0e47a42b-f980-4c4b-b8b3-8d795498e5d5.xml, IDebugControl3, debugger.getexecutionstatus, IDebugControl::GetExecutionStatus, GetExecutionStatus method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetExecutionStatus, IDebugControl2 interface [Windows Debugging], GetExecutionStatus method
+ms.keywords: dbgeng/IDebugControl2::GetExecutionStatus, dbgeng/IDebugControl::GetExecutionStatus, IDebugControl2::GetExecutionStatus, IDebugControl3 interface [Windows Debugging], GetExecutionStatus method, GetExecutionStatus method [Windows Debugging], IDebugControl interface, GetExecutionStatus method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetExecutionStatus, GetExecutionStatus, IDebugControl3, GetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], GetExecutionStatus method, dbgeng/IDebugControl3::GetExecutionStatus, GetExecutionStatus method [Windows Debugging], IDebugControl interface [Windows Debugging], GetExecutionStatus method, IDebugControl2, IDebugControl, IDebugControl::GetExecutionStatus, IDebugControl_0e47a42b-f980-4c4b-b8b3-8d795498e5d5.xml, debugger.getexecutionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -181,19 +181,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556693">SetExecutionStatus</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556693">SetExecutionStatus</a>
 
 
 

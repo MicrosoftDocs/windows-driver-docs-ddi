@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b380597-09dc-414f-b2c6-f541d35540da
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportputscattergatherlist, storport/StorPortPutScatterGatherList, StorPortPutScatterGatherList routine [Storage Devices], storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml, StorPortPutScatterGatherList
+ms.keywords: storage.storportputscattergatherlist, StorPortPutScatterGatherList, StorPortPutScatterGatherList routine [Storage Devices], storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml, storport/StorPortPutScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

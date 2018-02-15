@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ca53536-e847-4c11-a28d-e046e8a392de
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.video_port_services, VIDEO_PORT_SERVICES, video/VideoPortServicesDebugReport, video/VideoPortServicesI2C, VideoPortServicesDebugReport, VIDEO_PORT_SERVICES enumeration [Display Devices], VideoPortServicesInt10, VideoPortServicesI2C, VideoPortServicesWCMemoryProtection, VideoPortServicesAGP, Video_Structs_f2ede654-971a-4700-a911-8063a2a03ffe.xml, VideoPortServicesHeadless, video/VideoPortServicesHeadless, video/VideoPortServicesInt10, video/VideoPortServicesAGP, video/VideoPortServicesWCMemoryProtection, video/VIDEO_PORT_SERVICES
+ms.keywords: VideoPortServicesAGP, VideoPortServicesI2C, video/VideoPortServicesHeadless, display.video_port_services, VideoPortServicesInt10, video/VIDEO_PORT_SERVICES, VideoPortServicesDebugReport, video/VideoPortServicesAGP, video/VideoPortServicesInt10, VideoPortServicesWCMemoryProtection, video/VideoPortServicesWCMemoryProtection, VIDEO_PORT_SERVICES enumeration [Display Devices], Video_Structs_f2ede654-971a-4700-a911-8063a2a03ffe.xml, VIDEO_PORT_SERVICES, video/VideoPortServicesI2C, video/VideoPortServicesDebugReport, VideoPortServicesHeadless
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -122,11 +122,15 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538227">AGP Functions Implemented by the Video Port Driver</a>
+
+
+
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 
 
@@ -135,10 +139,6 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567384">I2C Functions Implemented by the Video Port Driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538227">AGP Functions Implemented by the Video Port Driver</a>
 
 
 

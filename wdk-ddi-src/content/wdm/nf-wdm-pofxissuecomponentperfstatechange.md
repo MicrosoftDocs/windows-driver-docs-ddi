@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DBB4747B-F6CF-4842-988C-6FAA9C552EA9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoFxIssueComponentPerfStateChange, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange, PO_FX_FLAG_ASYNC_ONLY, kernel.pofxissuecomponentperfstatechange
+ms.keywords: PoFxIssueComponentPerfStateChange, PO_FX_FLAG_ASYNC_ONLY, kernel.pofxissuecomponentperfstatechange, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], wdm/PoFxIssueComponentPerfStateChange, PO_FX_FLAG_BLOCKING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,7 +163,11 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+
+
+
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 
 
@@ -171,11 +175,7 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
-
-
-
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+<a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
 
 
 

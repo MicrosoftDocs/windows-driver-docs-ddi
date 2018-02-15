@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamStereoFormat
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT callback
@@ -83,25 +83,19 @@ VOID APIENTRY* pfnVideoProcessorSetStreamStereoFormat(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param UINT
 
 
-
 ### -param BOOL
-
 
 
 ### -param D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
 
 
-
 ### -param D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
-
 
 
 ### -param int
@@ -109,6 +103,86 @@ VOID APIENTRY* pfnVideoProcessorSetStreamStereoFormat(
 
 
 
+
+
+
+
+#### - BaseViewFrame0 [in]
+
+If <b>TRUE</b>, frame 0 contains the base view. Otherwise, frame 1 contains the base view.
+
+
+This parameter is ignored for the following <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
+
+
+
+<ul>
+<li>
+<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO 
+</b>
+
+</li>
+<li>
+<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>
+
+</li>
+</ul>
+
+#### - Enable [in]
+
+If <b>TRUE</b>, stereo 3D is enabled for the input stream.
+
+
+
+If <b>FALSE</b>, stereo 3D is disabled for the input stream.
+
+ The driver must ignore the remaining parameters for this function.
+
+
+#### - FlipMode [in]
+
+A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> enumeration value that specifies whether one of the views is flipped.
+
+
+
+
+#### - LeftViewFrame0 [in]
+
+If <b>TRUE</b>, frame 0 contains the left view. Otherwise, frame 0 contains the right view.
+
+This parameter is ignored for the following <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
+
+
+
+<ul>
+<li>
+<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO 
+</b>
+
+</li>
+<li>
+<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>
+
+</li>
+</ul>
+
+#### - MonoOffset [in]
+
+If the <i>StereoFormat</i> parameter is set to <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, this parameter specifies how to generate the left and right views. For more information, see the Remarks section.
+
+<div class="alert"><b>Note</b>  If the <i>StereoFormat</i> parameter is not set to <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, this parameter must be set to zero and ignored by the driver.</div>
+<div> </div>
+
+#### - StereoFormat [in]
+
+Specifies the layout of the two stereo views in memory, as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
+
+
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
 
 
 #### - hDevice [in]
@@ -125,91 +199,21 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, stereo 3D is enabled for the input stream.
-
-
-
-If <b>FALSE</b>, stereo 3D is disabled for the input stream.
-
- The driver must ignore the remaining parameters for this function.
-
-
-#### - StereoFormat [in]
-
-Specifies the layout of the two stereo views in memory, as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
-
-
-
-
-#### - LeftViewFrame0 [in]
-
-If <b>TRUE</b>, frame 0 contains the left view. Otherwise, frame 0 contains the right view.
-
-This parameter is ignored for the following <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
-
-
-<ul>
-<li>
-<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO 
-</b>
-
-</li>
-<li>
-<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>
-
-</li>
-</ul>
-
-#### - BaseViewFrame0 [in]
-
-If <b>TRUE</b>, frame 0 contains the base view. Otherwise, frame 1 contains the base view.
-
-
-This parameter is ignored for the following <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
-
-
-<ul>
-<li>
-<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO 
-</b>
-
-</li>
-<li>
-<b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>
-
-</li>
-</ul>
-
-#### - FlipMode [in]
-
-A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> enumeration value that specifies whether one of the views is flipped.
-
-
-
-
-#### - MonoOffset [in]
-
-If the <i>StereoFormat</i> parameter is set to <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, this parameter specifies how to generate the left and right views. For more information, see the Remarks section.
-<div class="alert"><b>Note</b>  If the <i>StereoFormat</i> parameter is not set to <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, this parameter must be set to zero and ignored by the driver.</div><div> </div>
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 For stereo formats of  <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, the driver processes the <i>MonoOffset</i> parameter in the following way:
+
 <ul>
 <li>
 If the parameter is positive, the right view is shifted to the right by that many pixels, and the left view is shifted to the left by the same amount. 
@@ -221,7 +225,9 @@ If the parameter is negative, the right view is shifted to the left by that many
 
 
 </li>
-</ul>For stereo formats of <b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE</b>, the application can set the <i>BaseViewFrame0</i> parameter to convert stereo data to mono. The application does this in one of the following ways:
+</ul>
+For stereo formats of <b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE</b>, the application can set the <i>BaseViewFrame0</i> parameter to convert stereo data to mono. The application does this in one of the following ways:
+
 <ul>
 <li>
 
@@ -235,17 +241,28 @@ Specifies a single resource for the mono input data of the base view.
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_stream.md">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a>
 
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
+
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a>
 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
+
+
 
  
 

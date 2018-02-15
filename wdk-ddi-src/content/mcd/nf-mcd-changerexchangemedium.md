@@ -121,15 +121,15 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 
 
+<a href="..\ntddchgr\ns-ntddchgr-_changer_exchange_medium.md">CHANGER_EXCHANGE_MEDIUM</a>
+
+
+
 <a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
 
 
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_exchange_medium.md">CHANGER_EXCHANGE_MEDIUM</a>
 
 
 

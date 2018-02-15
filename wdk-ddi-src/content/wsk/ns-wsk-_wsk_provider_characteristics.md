@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25371620-23bb-4a98-9554-14057742b0ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wsk_provider_characteristics, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], wsk/PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS, _WSK_PROVIDER_CHARACTERISTICS, *PWSK_PROVIDER_CHARACTERISTICS, wsk/WSK_PROVIDER_CHARACTERISTICS
+ms.keywords: netvista.wsk_provider_characteristics, WSK_PROVIDER_CHARACTERISTICS, WSK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], wsk/WSK_PROVIDER_CHARACTERISTICS, wskref_f552c7d1-89a7-4cb6-aa7c-5f5ddb906deb.xml, PWSK_PROVIDER_CHARACTERISTICS, wsk/PWSK_PROVIDER_CHARACTERISTICS, PWSK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], *PWSK_PROVIDER_CHARACTERISTICS, _WSK_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,10 +146,6 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
 
@@ -158,12 +154,16 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskqueryprovidercharacteristics.md">
    WskQueryProviderCharacteristics</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 

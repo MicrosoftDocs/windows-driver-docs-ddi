@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bbe3da6-f069-4965-ae60-2d755d7557c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, kmdf.wdfusbtargetdeviceselectsettingtype, WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbTargetDeviceSelectSettingType, WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbInterfaceSelectSettingTypeSetting, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeDescriptor, _WdfUsbTargetDeviceSelectSettingType, wdf.wdfusbtargetdeviceselectsettingtype, DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, WdfUsbTargetDeviceSelectSettingType enumeration, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor
+ms.keywords: wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeUrb, _WdfUsbTargetDeviceSelectSettingType, DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbTargetDeviceSelectSettingType, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, kmdf.wdfusbtargetdeviceselectsettingtype, WdfUsbTargetDeviceSelectSettingType enumeration, wdf.wdfusbtargetdeviceselectsettingtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,7 +98,7 @@ The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration is used in the <a hre
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
@@ -106,7 +106,7 @@ The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration is used in the <a hre
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
 
 
 

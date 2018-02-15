@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace
+ms.keywords: wdm/MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], MmAllocateMdlForIoSpace, kernel.mmallocatemdlforiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -195,10 +195,6 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-
-
 <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
 
 
@@ -208,6 +204,10 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 

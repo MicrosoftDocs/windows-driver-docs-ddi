@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6fefc35f-fbbd-4c5e-bb8f-25ad3b6cdb67
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, wdf.wdf_fileobject_config, _WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, wdfdevice/PWDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG, kmdf.wdf_fileobject_config, wdfdevice/WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure
+ms.keywords: wdfdevice/PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, *PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG, wdfdevice/WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, kmdf.wdf_fileobject_config, PWDF_FILEOBJECT_CONFIG, wdf.wdf_fileobject_config, _WDF_FILEOBJECT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

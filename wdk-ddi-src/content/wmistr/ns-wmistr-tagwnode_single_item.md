@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 65b64678-09dc-4bc2-8362-d15eba5a828a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: tagWNODE_SINGLE_ITEM, wmistr/WNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM, kernel.wnode_single_item, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, wmistr/PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], *PWNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], PWNODE_SINGLE_ITEM
+ms.keywords: WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, PWNODE_SINGLE_ITEM, kernel.wnode_single_item, tagWNODE_SINGLE_ITEM, *PWNODE_SINGLE_ITEM, wmistr/PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], wmistr/WNODE_SINGLE_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

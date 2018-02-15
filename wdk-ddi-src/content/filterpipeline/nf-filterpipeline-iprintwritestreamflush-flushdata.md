@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintWriteStreamFlush::FlushData, FlushData, filterpipeline/IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush, print.iprintwritestreamflush_flushdata, IPrintWriteStreamFlush interface [Print Devices], FlushData method, FlushData method [Print Devices], FlushData method [Print Devices], IPrintWriteStreamFlush interface
+ms.keywords: print.iprintwritestreamflush_flushdata, IPrintWriteStreamFlush, FlushData, IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush interface [Print Devices], FlushData method, filterpipeline/IPrintWriteStreamFlush::FlushData, FlushData method [Print Devices], FlushData method [Print Devices], IPrintWriteStreamFlush interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,11 +123,11 @@ hr = pIFlush-&gt;FlushData();
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
-
-
-
 <a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
 
 
 

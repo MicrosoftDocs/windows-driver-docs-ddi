@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: CC199F5C-BF05-4F1F-BEE4-8693F9156D8A
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], buses.udecxwdfdevicetryhandleuserioctl
+ms.keywords: udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl, buses.udecxwdfdevicetryhandleuserioctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], UdecxWdfDeviceTryHandleUserIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ The UDE client driver presents itself to user-mode software as a host controller
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

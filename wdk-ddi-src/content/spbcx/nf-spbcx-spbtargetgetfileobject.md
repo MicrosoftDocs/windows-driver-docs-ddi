@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: A89635EC-F5B8-4427-9AFD-9F71339595DF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spbcx/SpbTargetGetFileObject, SpbTargetGetFileObject, SPB.spbtargetgetfileobject, SpbTargetGetFileObject method [Buses]
+ms.keywords: SpbTargetGetFileObject, SPB.spbtargetgetfileobject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,7 @@ After <b>SpbTargetGetFileObject</b> returns a WDFFILEOBJECT handle, there is no 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 
@@ -108,7 +108,7 @@ After <b>SpbTargetGetFileObject</b> returns a WDFFILEOBJECT handle, there is no 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
 
 
 

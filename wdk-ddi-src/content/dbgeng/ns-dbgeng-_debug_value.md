@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 568469ad-79c4-4437-aefe-a29e77e5143a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_VALUE, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, _DEBUG_VALUE, dbgeng/PDEBUG_VALUE, PDEBUG_VALUE, debugger.debug_value, DEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], DEBUG_VALUE structure [Windows Debugging], *PDEBUG_VALUE
+ms.keywords: debugger.debug_value, DEBUG_VALUE structure [Windows Debugging], *PDEBUG_VALUE, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, _DEBUG_VALUE, dbgeng/DEBUG_VALUE, dbgeng/PDEBUG_VALUE, PDEBUG_VALUE, DEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

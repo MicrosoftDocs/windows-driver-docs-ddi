@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2ff5091b-7cf8-4972-b87b-b18d25bb23e9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3::GetCurrentSystemId, dbgeng/IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemId method, IDebugSystemObjects3, IDebugSystemObjects4::GetCurrentSystemId, dbgeng/IDebugSystemObjects4::GetCurrentSystemId, debugger.getcurrentsystemid, GetCurrentSystemId method [Windows Debugging], GetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemId method
+ms.keywords: GetCurrentSystemId method [Windows Debugging], dbgeng/IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects3, GetCurrentSystemId, debugger.getcurrentsystemid, dbgeng/IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemId method, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemId method, IDebugSystemObjects3::GetCurrentSystemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,15 +103,15 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 

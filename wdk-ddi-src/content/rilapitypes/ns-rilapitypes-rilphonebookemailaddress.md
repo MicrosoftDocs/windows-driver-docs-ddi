@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 322939c8-c7c9-405b-9f78-08ae9c642b42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKEMAILADDRESS, netvista.rilphonebookemailaddress_2, rilapitypes/RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS
+ms.keywords: rilapitypes/RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], RILPHONEBOOKEMAILADDRESS, *LPRILPHONEBOOKEMAILADDRESS, netvista.rilphonebookemailaddress_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

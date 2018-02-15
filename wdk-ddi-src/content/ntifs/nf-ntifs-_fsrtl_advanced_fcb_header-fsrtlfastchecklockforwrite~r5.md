@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4b4295dd-0d4b-4d41-a2ca-f09fe2d8d8b2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlfastchecklockforwrite, FsRtlFastCheckLockForWrite routine [Installable File System Drivers], FsRtlFastCheckLockForWrite, ntifs/FsRtlFastCheckLockForWrite, fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml
+ms.keywords: ntifs/FsRtlFastCheckLockForWrite, fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml, FsRtlFastCheckLockForWrite, ifsk.fsrtlfastchecklockforwrite, FsRtlFastCheckLockForWrite routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ The <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforr
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a>
 
 
 

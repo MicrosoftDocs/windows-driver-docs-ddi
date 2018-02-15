@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 30b29bda-9cd9-4fc8-b168-e66f69b82358
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REG_SET_INFORMATION_KEY_INFORMATION, *PREG_SET_INFORMATION_KEY_INFORMATION, kstruct_d_f6265b80-6f92-4856-bb8e-49cc97a1c553.xml, _REG_SET_INFORMATION_KEY_INFORMATION, wdm/PREG_SET_INFORMATION_KEY_INFORMATION, REG_SET_INFORMATION_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_SET_INFORMATION_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PREG_SET_INFORMATION_KEY_INFORMATION, kernel.reg_set_information_key_information, wdm/REG_SET_INFORMATION_KEY_INFORMATION
+ms.keywords: "*PREG_SET_INFORMATION_KEY_INFORMATION, PREG_SET_INFORMATION_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_set_information_key_information, wdm/REG_SET_INFORMATION_KEY_INFORMATION, wdm/PREG_SET_INFORMATION_KEY_INFORMATION, PREG_SET_INFORMATION_KEY_INFORMATION, REG_SET_INFORMATION_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_SET_INFORMATION_KEY_INFORMATION, kstruct_d_f6265b80-6f92-4856-bb8e-49cc97a1c553.xml, _REG_SET_INFORMATION_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

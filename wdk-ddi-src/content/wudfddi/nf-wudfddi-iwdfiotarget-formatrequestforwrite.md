@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dd579620-4fe9-4cd0-8e21-f32b07338de1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoTarget::FormatRequestForWrite, FormatRequestForWrite, UMDFIoTargetObjectRef_5bd52747-0a43-477e-8240-0481d671a7bb.xml, IWDFIoTarget interface, FormatRequestForWrite method, FormatRequestForWrite method, IWDFIoTarget::FormatRequestForWrite, wdf.iwdfiotarget_formatrequestforwrite, umdf.iwdfiotarget_formatrequestforwrite, FormatRequestForWrite method, IWDFIoTarget interface, IWDFIoTarget
+ms.keywords: IWDFIoTarget interface, FormatRequestForWrite method, IWDFIoTarget, umdf.iwdfiotarget_formatrequestforwrite, wdf.iwdfiotarget_formatrequestforwrite, UMDFIoTargetObjectRef_5bd52747-0a43-477e-8240-0481d671a7bb.xml, IWDFIoTarget::FormatRequestForWrite, FormatRequestForWrite method, FormatRequestForWrite, FormatRequestForWrite method, IWDFIoTarget interface, wudfddi/IWDFIoTarget::FormatRequestForWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,7 +114,11 @@ A pointer to the device offset that is used for the write request. This paramete
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 
 
@@ -122,11 +126,7 @@ A pointer to the device offset that is used for the write request. This paramete
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 

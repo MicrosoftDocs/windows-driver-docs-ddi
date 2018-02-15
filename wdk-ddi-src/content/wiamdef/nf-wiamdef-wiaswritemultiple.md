@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7cd8ebb2-fc5a-49f5-8708-4b562d826278
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiamdef/wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices], image.wiaswritemultiple
+ms.keywords: wiasWriteMultiple function [Imaging Devices], wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, image.wiaswritemultiple, wiamdef/wiasWriteMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

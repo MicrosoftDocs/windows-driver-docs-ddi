@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bc2a00ea-214a-435a-86fa-d694188d0245
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUni, GetImplementedMethod method [Print Devices], IPrintOemUni interface [Print Devices], GetImplementedMethod method, prcomoem/IPrintOemUni::GetImplementedMethod, GetImplementedMethod, print.iprintoemuni_getimplementedmethod, IPrintOemUni::GetImplementedMethod, GetImplementedMethod method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml
+ms.keywords: prcomoem/IPrintOemUni::GetImplementedMethod, print.iprintoemuni_getimplementedmethod, GetImplementedMethod method [Print Devices], GetImplementedMethod, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml, IPrintOemUni::GetImplementedMethod, GetImplementedMethod method [Print Devices], IPrintOemUni interface, IPrintOemUni, IPrintOemUni interface [Print Devices], GetImplementedMethod method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

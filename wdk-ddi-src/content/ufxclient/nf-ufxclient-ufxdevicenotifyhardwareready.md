@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UfxDeviceNotifyHardwareReady, ufxclient/UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready
+ms.keywords: buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], UfxDeviceNotifyHardwareReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

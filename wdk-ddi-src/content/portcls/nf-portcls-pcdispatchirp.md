@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 01add66e-a007-4b1d-add6-c5be71dd0d61
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: portcls/PcDispatchIrp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, PcDispatchIrp, PcDispatchIrp function [Audio Devices], audio.pcdispatchirp
+ms.keywords: portcls/PcDispatchIrp, PcDispatchIrp function [Audio Devices], PcDispatchIrp, audio.pcdispatchirp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,11 +115,11 @@ For a code example, see the SB16 sample audio driver in the Microsoft Windows Dr
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcinitializeadapterdriver.md">PcInitializeAdapterDriver</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcinitializeadapterdriver.md">PcInitializeAdapterDriver</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6C58EFD4-B5F9-4E2B-AF76-E9614218E0DC
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompaction, SmrGcMethodCompression, SmrGcMethodCompaction, ntifs/REFS_SMR_VOLUME_GC_METHOD, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_METHOD, SmrGcMethodRotation, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], _REFS_SMR_VOLUME_GC_METHOD, ifsk.refs_smr_volume_gc_method, PREFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodRotation, *PREFS_SMR_VOLUME_GC_METHOD
+ms.keywords: "_REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD, SmrGcMethodCompression, SmrGcMethodRotation, ntifs/PREFS_SMR_VOLUME_GC_METHOD, ifsk.refs_smr_volume_gc_method, SmrGcMethodCompaction, PREFS_SMR_VOLUME_GC_METHOD, ntifs/REFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodRotation, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodCompaction, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], *PREFS_SMR_VOLUME_GC_METHOD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

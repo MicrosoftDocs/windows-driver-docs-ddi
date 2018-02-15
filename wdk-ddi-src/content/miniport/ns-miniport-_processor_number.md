@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6ceb8d0f-8c26-4487-a976-ac92e2aca5e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPROCESSOR_NUMBER structure pointer [Kernel-Mode Driver Architecture], miniport/PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, kernel.processor_number, PROCESSOR_NUMBER, miniport/PROCESSOR_NUMBER, *PPROCESSOR_NUMBER, kstruct_c_d3a9199a-f6d3-4d2d-877a-6e856e80ebb9.xml, _PROCESSOR_NUMBER, PROCESSOR_NUMBER structure [Kernel-Mode Driver Architecture]
+ms.keywords: "*PPROCESSOR_NUMBER, miniport/PPROCESSOR_NUMBER, kstruct_c_d3a9199a-f6d3-4d2d-877a-6e856e80ebb9.xml, PPROCESSOR_NUMBER structure pointer [Kernel-Mode Driver Architecture], PPROCESSOR_NUMBER, PROCESSOR_NUMBER, miniport/PROCESSOR_NUMBER, PROCESSOR_NUMBER structure [Kernel-Mode Driver Architecture], _PROCESSOR_NUMBER, kernel.processor_number"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,14 +99,6 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
-
-
-
 <a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
 
 
@@ -115,7 +107,15 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 
 
+<a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
+
+
+
 <a href="..\wdm\nf-wdm-kegetcurrentprocessornumberex.md">KeGetCurrentProcessorNumberEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
 
 
 

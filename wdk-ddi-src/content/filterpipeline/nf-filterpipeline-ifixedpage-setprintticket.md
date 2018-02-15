@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d899211a-e98d-45f6-9574-8b5f51658edf
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetPrintTicket, print.ifixedpage_setprintticket, SetPrintTicket method [Print Devices], IFixedPage interface, SetPrintTicket method [Print Devices], filterpipeline_9cc3fcaf-d066-4468-b181-6d509fce403c.xml, IFixedPage::SetPrintTicket, IFixedPage interface [Print Devices], SetPrintTicket method, filterpipeline/IFixedPage::SetPrintTicket, IFixedPage
+ms.keywords: SetPrintTicket, SetPrintTicket method [Print Devices], IFixedPage interface, IFixedPage interface [Print Devices], SetPrintTicket method, SetPrintTicket method [Print Devices], print.ifixedpage_setprintticket, IFixedPage, filterpipeline/IFixedPage::SetPrintTicket, filterpipeline_9cc3fcaf-d066-4468-b181-6d509fce403c.xml, IFixedPage::SetPrintTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

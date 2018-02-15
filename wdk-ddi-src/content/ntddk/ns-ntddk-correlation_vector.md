@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 35c1799f-2012-42b0-95e6-6902c818a094
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], ntddk/CORRELATION_VECTOR, kernel.correlation_vector, *PCORRELATION_VECTOR, CORRELATION_VECTOR
+ms.keywords: kernel.correlation_vector, CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], *PCORRELATION_VECTOR, ntddk/CORRELATION_VECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

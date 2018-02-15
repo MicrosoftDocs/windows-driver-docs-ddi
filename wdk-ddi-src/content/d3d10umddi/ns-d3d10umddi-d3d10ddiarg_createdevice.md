@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 64154d8a-1775-455b-bf31-9c3a0f1398ad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_CREATEDEVICE structure [Display Devices], d3d10umddi/D3D10DDIARG_CREATEDEVICE, display.d3d10ddiarg_createdevice, UMDisplayDriver_Dx10param_Structs_cf670d46-fffb-49ec-8d04-61f73e30e309.xml, D3D10DDIARG_CREATEDEVICE
+ms.keywords: D3D10DDIARG_CREATEDEVICE, UMDisplayDriver_Dx10param_Structs_cf670d46-fffb-49ec-8d04-61f73e30e309.xml, D3D10DDIARG_CREATEDEVICE structure [Display Devices], display.d3d10ddiarg_createdevice, d3d10umddi/D3D10DDIARG_CREATEDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -291,35 +291,11 @@ Other possible combinations of constants for different versions of the operating
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_devicefuncs.md">D3DWDDM1_3DDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_retrievesubobject.md">RetrieveSubObject(D3D11_1)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 
@@ -327,7 +303,11 @@ Other possible combinations of constants for different versions of the operating
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddi_devicefuncs.md">D3D10_1DDI_DEVICEFUNCS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
 
 
@@ -339,19 +319,39 @@ Other possible combinations of constants for different versions of the operating
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_corelayer_devicecallbacks.md">D3D10DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1ddi_devicefuncs.md">D3D10_1DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_retrievesubobject.md">RetrieveSubObject(D3D11_1)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_devicefuncs.md">D3DWDDM1_3DDI_DEVICEFUNCS</a>
 
 
 

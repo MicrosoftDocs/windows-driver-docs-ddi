@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f52557f-b65d-479d-aab4-1e4f7298c8f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMATRANSACTIONEXECUTE, kmdf.wdfdmatransactionexecute, wdfdmatransaction/WdfDmaTransactionExecute, WdfDmaTransactionExecute method, DFDmaObjectRef_012a66e9-0ed7-458f-9068-c7d2ce58d86a.xml, WdfDmaTransactionExecute, wdf.wdfdmatransactionexecute
+ms.keywords: kmdf.wdfdmatransactionexecute, WdfDmaTransactionExecute, PFN_WDFDMATRANSACTIONEXECUTE, WdfDmaTransactionExecute method, wdf.wdfdmatransactionexecute, DFDmaObjectRef_012a66e9-0ed7-458f-9068-c7d2ce58d86a.xml, wdfdmatransaction/WdfDmaTransactionExecute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -261,15 +261,7 @@ NICInitiateDmaTransfer(
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
-
-
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
 
 
 
@@ -277,7 +269,15 @@ NICInitiateDmaTransfer(
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
 
 
 
@@ -285,11 +285,11 @@ NICInitiateDmaTransfer(
 
 
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
+
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 

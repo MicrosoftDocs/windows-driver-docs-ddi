@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 706a5749-e288-4275-84fc-e500a848d541
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: aud-prop2_9f836831-bb65-45d1-8701-4aaa77999b81.xml, DrmGetContentRights function [Audio Devices], drmk/DrmGetContentRights, DrmGetContentRights, audio.drmgetcontentrights
+ms.keywords: aud-prop2_9f836831-bb65-45d1-8701-4aaa77999b81.xml, DrmGetContentRights function [Audio Devices], drmk/DrmGetContentRights, audio.drmgetcontentrights, DrmGetContentRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,6 +103,10 @@ A module that lies downstream from the KS filter that creates the content ID typ
 
 ## -see-also
 
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 
@@ -111,15 +115,7 @@ A module that lies downstream from the KS filter that creates the content ID typ
 
 
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcgetcontentrights.md">PcGetContentRights</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
 
 
 
@@ -127,15 +123,19 @@ A module that lies downstream from the KS filter that creates the content ID typ
 
 
 
+<a href="..\portcls\nf-portcls-pcgetcontentrights.md">PcGetContentRights</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+
+
+
 <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536570">IDrmAudioStream::SetContentId</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 
 

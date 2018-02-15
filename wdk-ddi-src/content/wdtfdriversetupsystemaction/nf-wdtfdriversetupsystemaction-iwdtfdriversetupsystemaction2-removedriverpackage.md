@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: de742d86-d38c-4d33-b808-678b5cb7419e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RemoveDriverPackage, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RemoveDriverPackage, IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2::RemoveDriverPackage, dtf.iwdtfdriversetupsystemaction2_removedriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RemoveDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RemoveDriverPackage, RemoveDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, RemoveDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], RemoveDriverPackage method
+ms.keywords: RemoveDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], RemoveDriverPackage method, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RemoveDriverPackage, RemoveDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2::RemoveDriverPackage, RemoveDriverPackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RemoveDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RemoveDriverPackage, IWDTFDriverSetupSystemAction2, dtf.iwdtfdriversetupsystemaction2_removedriverpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

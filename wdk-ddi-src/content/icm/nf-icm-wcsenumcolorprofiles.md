@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: icm/WcsEnumColorProfiles, WcsEnumColorProfiles, print.wcsenumcolorprofiles, colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, WcsEnumColorProfiles function [Print Devices]
+ms.keywords: icm/WcsEnumColorProfiles, print.wcsenumcolorprofiles, WcsEnumColorProfiles function [Print Devices], colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, WcsEnumColorProfiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

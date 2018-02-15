@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6a6726a-83bc-4102-a6b6-74115ca4b889
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_io_target_open_params_init_create_by_name, WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME, DFIOTargetRef_5ae50d6e-6e3b-484a-afe9-6198860180b7.xml, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME, WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function, wdf.wdf_io_target_open_params_init_create_by_name
+ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function, WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME, kmdf.wdf_io_target_open_params_init_create_by_name, DFIOTargetRef_5ae50d6e-6e3b-484a-afe9-6198860180b7.xml, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME, wdf.wdf_io_target_open_params_init_create_by_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,19 +166,19 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_existing_device.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE</a>
-
-
-
-<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_name.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_existing_device.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE</a>
+
+
+
+<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
 
 
 

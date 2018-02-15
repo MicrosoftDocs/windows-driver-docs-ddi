@@ -260,7 +260,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
 
 
 
@@ -272,20 +273,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
-   NdisMSendNetBufferListsComplete</a>
 
 
 

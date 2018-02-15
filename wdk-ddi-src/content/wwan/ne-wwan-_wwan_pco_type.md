@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanPcoTypeComplete, netvista.wwan_pco_type, _WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, WWAN_PCO_TYPE, wwan/WwanPcoTypePartial, WwanPcoTypePartial, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_PCO_TYPE, *PWWAN_PCO_TYPE
+ms.keywords: WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, wwan/WWAN_PCO_TYPE, netvista.wwan_pco_type, WwanPcoTypePartial, _WWAN_PCO_TYPE, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_PCO_TYPE, wwan/WwanPcoTypePartial, WwanPcoTypeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,11 +102,11 @@ The OS will not check if the PCO data is valid and leaves the validation to the 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
 
 
 

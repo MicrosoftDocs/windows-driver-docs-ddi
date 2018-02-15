@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: af81a053-8c09-411c-a437-21859ea867b2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_videodecoder_caps_s, PKSPROPERTY_VIDEODECODER_CAPS_S, KSPROPERTY_VIDEODECODER_CAPS_S structure [Streaming Media Devices], KSPROPERTY_VIDEODECODER_CAPS_S, PKSPROPERTY_VIDEODECODER_CAPS_S structure pointer [Streaming Media Devices], vidcapstruct_091e360d-7c9a-4ffc-a7b5-aa634847bbed.xml, ksmedia/PKSPROPERTY_VIDEODECODER_CAPS_S, ksmedia/KSPROPERTY_VIDEODECODER_CAPS_S, *PKSPROPERTY_VIDEODECODER_CAPS_S
+ms.keywords: ksmedia/KSPROPERTY_VIDEODECODER_CAPS_S, KSPROPERTY_VIDEODECODER_CAPS_S, KSPROPERTY_VIDEODECODER_CAPS_S structure [Streaming Media Devices], stream.ksproperty_videodecoder_caps_s, ksmedia/PKSPROPERTY_VIDEODECODER_CAPS_S, PKSPROPERTY_VIDEODECODER_CAPS_S, *PKSPROPERTY_VIDEODECODER_CAPS_S, PKSPROPERTY_VIDEODECODER_CAPS_S structure pointer [Streaming Media Devices], vidcapstruct_091e360d-7c9a-4ffc-a7b5-aa634847bbed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,7 +98,7 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_videodecoder_flags.md">KS_VIDEODECODER_FLAGS</a>
+<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
@@ -110,11 +110,11 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 
 
+<a href="..\ksmedia\ne-ksmedia-ks_videodecoder_flags.md">KS_VIDEODECODER_FLAGS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568121">PROPSETID_VIDCAP_VIDEODECODER</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 

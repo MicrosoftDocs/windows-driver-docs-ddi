@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 18c5ef8c-de72-4d2e-9bee-5b58bc5482c7
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/SeSetSessionIdToken, SeSetSessionIdToken function [Installable File System Drivers], seref_3af3660a-a2ba-4262-91bb-dff8533bcdcb.xml, SeSetSessionIdToken, ifsk.sesetsessionidtoken
+ms.keywords: ifsk.sesetsessionidtoken, SeSetSessionIdToken, SeSetSessionIdToken function [Installable File System Drivers], seref_3af3660a-a2ba-4262-91bb-dff8533bcdcb.xml, ntifs/SeSetSessionIdToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

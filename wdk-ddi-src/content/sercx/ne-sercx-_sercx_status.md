@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxStatusSuccess, SERCX_STATUS, 1/SerCxStatusTimeout, 1/SerCxStatusCancelled, _SERCX_STATUS, 1/SERCX_STATUS, *PSERCX_STATUS, 1/SerCxStatusSuccess, SerCxStatusTimeout, SerCxStatusCancelled, serports.sercx_status, SERCX_STATUS enumeration [Serial Ports]
+ms.keywords: "*PSERCX_STATUS, SerCxStatusCancelled, SerCxStatusTimeout, 1/SerCxStatusTimeout, _SERCX_STATUS, SERCX_STATUS, 1/SerCxStatusCancelled, SERCX_STATUS enumeration [Serial Ports], 1/SERCX_STATUS, 1/SerCxStatusSuccess, SerCxStatusSuccess, serports.sercx_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,11 +96,11 @@ The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
 
 
 

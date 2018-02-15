@@ -84,14 +84,18 @@ NTSTATUS APIENTRY DxgkDdiGetScanLine(
 ## -returns
 
 
+
 <i>DxgkDdiGetScanLine</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 <i>DxgkDdiGetScanLine</i> should be made pageable.
+
 
 
 
@@ -99,7 +103,11 @@ NTSTATUS APIENTRY DxgkDdiGetScanLine(
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getscanline.md">DXGKARG_GETSCANLINE</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bdf1505f-2a84-48a3-9534-df83237ab7bb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_NITZ_ALL, ntddrilapitypes/RILNITZINFOPARAMMASK, RILNITZINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RIL_PARAM_NITZ_TIMEZONEOFFSET, RIL_PARAM_NITZ_SYSTEMTIME, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, RIL_PARAM_NITZ_SYSTEMTYPE, ntddrilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET, RIL_PARAM_NITZ_ALL, netvista.rilnitzinfoparammask, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RIL_PARAM_NITZ_ALL, RILNITZINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_NITZ_SYSTEMTYPE, ntddrilapitypes/RILNITZINFOPARAMMASK, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, ntddrilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, RIL_PARAM_NITZ_TIMEZONEOFFSET, RIL_PARAM_NITZ_ALL, ntddrilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET, netvista.rilnitzinfoparammask, ntddrilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RIL_PARAM_NITZ_SYSTEMTIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

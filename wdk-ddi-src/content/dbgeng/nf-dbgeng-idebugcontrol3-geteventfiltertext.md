@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d311a030-e24c-427c-8a52-0c67d4fac653
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2::GetEventFilterText, IDebugControl interface [Windows Debugging], GetEventFilterText method, IDebugControl2, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, GetEventFilterText method [Windows Debugging], IDebugControl3::GetEventFilterText, GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, IDebugControl3, IDebugControl::GetEventFilterText, IDebugControl, GetEventFilterText method [Windows Debugging], IDebugControl interface, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetEventFilterText, dbgeng/IDebugControl2::GetEventFilterText, debugger.geteventfiltertext, dbgeng/IDebugControl3::GetEventFilterText
+ms.keywords: IDebugControl2::GetEventFilterText, dbgeng/IDebugControl3::GetEventFilterText, GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetEventFilterText method, debugger.geteventfiltertext, IDebugControl3, IDebugControl::GetEventFilterText, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetEventFilterText, IDebugControl2, IDebugControl, IDebugControl interface [Windows Debugging], GetEventFilterText method, dbgeng/IDebugControl2::GetEventFilterText, GetEventFilterText method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -142,7 +142,11 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -150,15 +154,11 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
 
 
 

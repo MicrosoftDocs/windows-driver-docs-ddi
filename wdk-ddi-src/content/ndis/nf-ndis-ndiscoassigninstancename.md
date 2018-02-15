@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 78a1808e-d244-4f23-bba1-c48a7b2e051b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscoassigninstancename, condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml, NdisCoAssignInstanceName, ndis/NdisCoAssignInstanceName, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisCoAssignInstanceName, NdisCoAssignInstanceName, condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista], netvista.ndiscoassigninstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -201,7 +201,7 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
 
 
@@ -209,7 +209,7 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 

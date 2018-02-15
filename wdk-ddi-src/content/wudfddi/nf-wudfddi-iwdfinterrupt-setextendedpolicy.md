@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt, wdf.iwdfinterrupt_setextendedpolicy, wudfddi/IWDFInterrupt::SetExtendedPolicy, IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy, SetExtendedPolicy method, IWDFInterrupt interface, SetExtendedPolicy method, SetExtendedPolicy method, IWDFInterrupt interface, umdf.iwdfinterrupt_setextendedpolicy
+ms.keywords: wdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt interface, SetExtendedPolicy method, IWDFInterrupt::SetExtendedPolicy, umdf.iwdfinterrupt_setextendedpolicy, SetExtendedPolicy, IWDFInterrupt, wudfddi/IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy method, SetExtendedPolicy method, IWDFInterrupt interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

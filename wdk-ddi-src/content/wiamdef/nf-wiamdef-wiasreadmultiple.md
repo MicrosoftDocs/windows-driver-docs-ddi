@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 814642f7-24df-4d64-bc2b-d76d84b2a6d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasReadMultiple, image.wiasreadmultiple, wiasReadMultiple function [Imaging Devices], wiasFncs_c6d42143-4cd8-4f9a-bbf4-aec0ce2c0615.xml, wiamdef/wiasReadMultiple
+ms.keywords: wiasReadMultiple function [Imaging Devices], wiasFncs_c6d42143-4cd8-4f9a-bbf4-aec0ce2c0615.xml, wiasReadMultiple, wiamdef/wiasReadMultiple, image.wiasreadmultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddser/PSERIAL_STATUS, PSERIAL_STATUS, ntddser/SERIAL_STATUS, _SERIAL_STATUS, SERIAL_STATUS, serports.serial_status, SERIAL_STATUS structure [Serial Ports], *PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports]
+ms.keywords: ntddser/PSERIAL_STATUS, PSERIAL_STATUS, SERIAL_STATUS, _SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], PSERIAL_STATUS structure pointer [Serial Ports], serports.serial_status, *PSERIAL_STATUS, ntddser/SERIAL_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

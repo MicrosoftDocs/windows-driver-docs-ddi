@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxce/RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml
+ms.keywords: ifsk.rxcebuildconnectionovermultipletransports, RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml, rxce/RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -230,7 +230,7 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
 
 
 
@@ -238,7 +238,7 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
+<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
 
 
 

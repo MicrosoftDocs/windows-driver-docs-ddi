@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2c0f2eb-cb35-4f23-beb6-7f0eaeda845a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PWMI_CHANGER_PROBLEM_DEVICE_ERROR structure pointer [Storage Devices], PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR structure [Storage Devices], *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, structs-changer_0d8bac8e-b24c-4ff8-948e-0dd55b5624f0.xml, wmidata/PWMI_CHANGER_PROBLEM_DEVICE_ERROR, wmidata/WMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR, storage.wmi_changer_problem_device_error, _WMI_CHANGER_PROBLEM_DEVICE_ERROR
+ms.keywords: wmidata/WMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR structure [Storage Devices], wmidata/PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR, storage.wmi_changer_problem_device_error, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR, structs-changer_0d8bac8e-b24c-4ff8-948e-0dd55b5624f0.xml, _WMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

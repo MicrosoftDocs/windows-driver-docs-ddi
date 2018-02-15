@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B2EADC0E-837A-4231-8794-43933DAA69E7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PEXT_DELETE_PARAMETERS, EXT_DELETE_PARAMETERS, wdm/PEXT_DELETE_PARAMETERS, PEXT_DELETE_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], wdm/EXT_DELETE_PARAMETERS, kernel.ext_delete_parameters, EXT_DELETE_PARAMETERS structure [Kernel-Mode Driver Architecture], _EXT_DELETE_PARAMETERS, PEXT_DELETE_PARAMETERS"
+ms.keywords: wdm/EXT_DELETE_PARAMETERS, wdm/PEXT_DELETE_PARAMETERS, PEXT_DELETE_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], *PEXT_DELETE_PARAMETERS, EXT_DELETE_PARAMETERS structure [Kernel-Mode Driver Architecture], PEXT_DELETE_PARAMETERS, kernel.ext_delete_parameters, EXT_DELETE_PARAMETERS, _EXT_DELETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,15 +108,15 @@ Your driver can use an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265192">ExTimerDeleteCallback</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinitializedeletetimerparameters.md">ExInitializeDeleteTimerParameters</a>
+
+
+
+<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
 
 
 

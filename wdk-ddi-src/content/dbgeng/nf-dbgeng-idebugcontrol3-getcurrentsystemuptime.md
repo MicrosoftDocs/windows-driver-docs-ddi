@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0009e11d-73d0-4ca2-afbc-5f2999e829ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, dbgeng/IDebugControl2::GetCurrentSystemUpTime, GetCurrentSystemUpTime, IDebugControl3, debugger.getcurrentsystemuptime, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, dbgeng/IDebugControl3::GetCurrentSystemUpTime, IDebugControl2::GetCurrentSystemUpTime, IDebugControl3::GetCurrentSystemUpTime, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, GetCurrentSystemUpTime method [Windows Debugging]
+ms.keywords: dbgeng/IDebugControl3::GetCurrentSystemUpTime, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, IDebugControl3, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2::GetCurrentSystemUpTime, dbgeng/IDebugControl2::GetCurrentSystemUpTime, debugger.getcurrentsystemuptime, IDebugControl3::GetCurrentSystemUpTime, IDebugControl2, GetCurrentSystemUpTime, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

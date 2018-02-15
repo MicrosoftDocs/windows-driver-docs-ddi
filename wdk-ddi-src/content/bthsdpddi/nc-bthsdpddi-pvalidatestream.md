@@ -90,6 +90,7 @@ A pointer to a variable that receives the address of the first byte in the SDP r
 ## -returns
 
 
+
 Possible return values include:
 
 
@@ -102,7 +103,9 @@ Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -118,9 +121,12 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

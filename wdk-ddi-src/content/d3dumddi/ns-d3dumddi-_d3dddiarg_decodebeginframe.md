@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8219beee-b27c-4f81-aef7-8d38363d4645
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DECODEBEGINFRAME, display.d3dddiarg_decodebeginframe, D3DDDIARG_DECODEBEGINFRAME structure [Display Devices], _D3DDDIARG_DECODEBEGINFRAME, d3dumddi/D3DDDIARG_DECODEBEGINFRAME, UMDisplayDriver_param_Structs_fdee5664-6d7b-4d54-ac34-69d216f05896.xml
+ms.keywords: display.d3dddiarg_decodebeginframe, D3DDDIARG_DECODEBEGINFRAME, UMDisplayDriver_param_Structs_fdee5664-6d7b-4d54-ac34-69d216f05896.xml, D3DDDIARG_DECODEBEGINFRAME structure [Display Devices], _D3DDDIARG_DECODEBEGINFRAME, d3dumddi/D3DDDIARG_DECODEBEGINFRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADD
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a>
 
 
 

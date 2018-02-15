@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 7f4ac419-a24e-4421-9891-9fea9479e781
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IResourceList::AddEntry, IResourceList, IResourceList interface [Audio Devices], AddEntry method, AddEntry method [Audio Devices], audio.iresourcelist_addentry, AddEntry, AddEntry method [Audio Devices], IResourceList interface, portcls/IResourceList::AddEntry, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml
+ms.keywords: portcls/IResourceList::AddEntry, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, audio.iresourcelist_addentry, IResourceList interface [Audio Devices], AddEntry method, AddEntry method [Audio Devices], IResourceList::AddEntry, AddEntry method [Audio Devices], IResourceList interface, IResourceList, AddEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

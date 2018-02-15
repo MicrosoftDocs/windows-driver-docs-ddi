@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 15ad337a-0b33-48ba-98cf-6aff2698e2ba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DEVICE_DESCRIPTOR, image.device_descriptor, DEVICE_DESCRIPTOR structure [Imaging Devices], usbscan/DEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR structure pointer [Imaging Devices], usbscan/PDEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR, stifnc_1b07d50b-5530-47d4-a212-54305a0fef7a.xml, _DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR
+ms.keywords: stifnc_1b07d50b-5530-47d4-a212-54305a0fef7a.xml, PDEVICE_DESCRIPTOR structure pointer [Imaging Devices], *PDEVICE_DESCRIPTOR, _DEVICE_DESCRIPTOR, usbscan/PDEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR, image.device_descriptor, DEVICE_DESCRIPTOR structure [Imaging Devices], usbscan/DEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

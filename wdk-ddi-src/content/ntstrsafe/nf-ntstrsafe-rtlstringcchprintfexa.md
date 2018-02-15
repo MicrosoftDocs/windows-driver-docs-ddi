@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b43acd5-9204-41ff-8c63-76769bfa5469
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchPrintfEx, kernel.rtlstringcchprintfex, RtlStringCchPrintfExW, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchPrintfExW, STRSAFE_IGNORE_NULLS, STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCchPrintfExA, RtlStringCchPrintfExA, safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml, STRSAFE_NO_TRUNCATION, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE
+ms.keywords: ntstrsafe/RtlStringCchPrintfExA, STRSAFE_IGNORE_NULLS, kernel.rtlstringcchprintfex, RtlStringCchPrintfExA, RtlStringCchPrintfEx, ntstrsafe/RtlStringCchPrintfExW, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION, RtlStringCchPrintfExW function [Kernel-Mode Driver Architecture], safestrings_910ac2be-9b28-42eb-9353-61db14fee430.xml, RtlStringCchPrintfExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -318,11 +318,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
 
 
 

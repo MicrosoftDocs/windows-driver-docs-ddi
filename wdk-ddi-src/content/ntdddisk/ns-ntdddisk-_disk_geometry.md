@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f92d1f63-4361-4775-88f8-be1c9bf781ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DISK_GEOMETRY structure [Storage Devices], PDISK_GEOMETRY, structs-disk_3ad908b7-8f42-4a06-914e-92b631cc1a56.xml, ntdddisk/PDISK_GEOMETRY, storage.disk_geometry, DISK_GEOMETRY, _DISK_GEOMETRY, ntdddisk/DISK_GEOMETRY, PDISK_GEOMETRY structure pointer [Storage Devices], *PDISK_GEOMETRY
+ms.keywords: storage.disk_geometry, ntdddisk/DISK_GEOMETRY, PDISK_GEOMETRY, ntdddisk/PDISK_GEOMETRY, DISK_GEOMETRY structure [Storage Devices], structs-disk_3ad908b7-8f42-4a06-914e-92b631cc1a56.xml, PDISK_GEOMETRY structure pointer [Storage Devices], *PDISK_GEOMETRY, DISK_GEOMETRY, _DISK_GEOMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ Indicates the number of bytes in a disk sector.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
-
-
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_media_types.md">IOCTL_DISK_GET_MEDIA_TYPES</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
 
 
 

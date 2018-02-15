@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6621a1ec-1d4e-4801-9418-d09a0073686a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_interrupt_polarity, _WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY, kmdf.wdf_interrupt_polarity, wdfinterrupt/WdfInterruptPolarityUnknown, wdfinterrupt/WdfInterruptActiveHigh, wdfinterrupt/PWDF_INTERRUPT_POLARITY, WdfInterruptPolarityUnknown, wdfinterrupt/WdfInterruptActiveLow, WdfInterruptActiveLow, PWDF_INTERRUPT_POLARITY, wdfinterrupt/WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY enumeration, DFInterruptObjectRef_979c7766-edd8-421b-8885-8000d60da78d.xml, WdfInterruptActiveHigh, PWDF_INTERRUPT_POLARITY enumeration pointer
+ms.keywords: wdfinterrupt/PWDF_INTERRUPT_POLARITY, _WDF_INTERRUPT_POLARITY, PWDF_INTERRUPT_POLARITY enumeration pointer, PWDF_INTERRUPT_POLARITY, wdfinterrupt/WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY enumeration, WdfInterruptPolarityUnknown, WdfInterruptActiveLow, wdfinterrupt/WdfInterruptActiveLow, *PWDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, WdfInterruptActiveHigh, wdf.wdf_interrupt_polarity, DFInterruptObjectRef_979c7766-edd8-421b-8885-8000d60da78d.xml, kmdf.wdf_interrupt_polarity, wdfinterrupt/WdfInterruptPolarityUnknown, wdfinterrupt/WdfInterruptActiveHigh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

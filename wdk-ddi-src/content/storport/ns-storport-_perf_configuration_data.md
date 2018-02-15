@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47db8f0f-9f3b-44d9-8110-dc0b79d0e26a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PERF_CONFIGURATION_DATA, _PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, storage.perf_configuration_data, *PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], PERF_CONFIGURATION_DATA structure [Storage Devices], storport/PPERF_CONFIGURATION_DATA, structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml
+ms.keywords: storport/PERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA structure [Storage Devices], *PPERF_CONFIGURATION_DATA, PPERF_CONFIGURATION_DATA, storport/PPERF_CONFIGURATION_DATA, PERF_CONFIGURATION_DATA, storage.perf_configuration_data, PPERF_CONFIGURATION_DATA structure pointer [Storage Devices], structs-storport_3ff35217-29b1-43ab-a6e4-72aeaf90e931.xml, _PERF_CONFIGURATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

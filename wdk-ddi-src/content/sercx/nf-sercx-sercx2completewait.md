@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7A3DC90E-628C-4FFC-807D-8F23BDC97742
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2CompleteWait, 2/SerCx2CompleteWait, SerCx2CompleteWait method [Serial Ports], serports.sercx2completewait
+ms.keywords: SerCx2CompleteWait, 2/SerCx2CompleteWait, serports.sercx2completewait, SerCx2CompleteWait method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,15 +105,15 @@ When an event in the new wait mask occurs, the driver calls <b>SerCx2CompleteWai
 
 
 
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
 
 
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
-
-
-
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 
 
 

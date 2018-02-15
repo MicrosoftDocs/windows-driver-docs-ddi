@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 954a4811-4515-4ed4-a4f1-df598d08fc77
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fcb/RxpDereferenceAndFinalizeNetFcb, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], RxpDereferenceAndFinalizeNetFcb, ifsk.rxpdereferenceandfinalizenetfcb, rxref_474f30d3-858e-4179-8236-3068a2325818.xml
+ms.keywords: RxpDereferenceAndFinalizeNetFcb, fcb/RxpDereferenceAndFinalizeNetFcb, ifsk.rxpdereferenceandfinalizenetfcb, rxref_474f30d3-858e-4179-8236-3068a2325818.xml, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -129,11 +129,11 @@ For more information, see [XREF-LINK:NTSTATUS Values].
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 

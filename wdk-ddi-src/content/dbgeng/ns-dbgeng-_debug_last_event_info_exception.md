@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FB4EBA71-5144-440A-AFD1-7460903C9189
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PDEBUG_LAST_EVENT_INFO_EXCEPTION structure pointer [Windows Debugging], PDEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION structure [Windows Debugging], dbgeng/PDEBUG_LAST_EVENT_INFO_EXCEPTION, _DEBUG_LAST_EVENT_INFO_EXCEPTION, dbgeng/DEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION, debugger.debug_last_event_info_exception, *PDEBUG_LAST_EVENT_INFO_EXCEPTION
+ms.keywords: "*PDEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION structure [Windows Debugging], dbgeng/PDEBUG_LAST_EVENT_INFO_EXCEPTION, _DEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION, debugger.debug_last_event_info_exception, dbgeng/DEBUG_LAST_EVENT_INFO_EXCEPTION, PDEBUG_LAST_EVENT_INFO_EXCEPTION, PDEBUG_LAST_EVENT_INFO_EXCEPTION structure pointer [Windows Debugging]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

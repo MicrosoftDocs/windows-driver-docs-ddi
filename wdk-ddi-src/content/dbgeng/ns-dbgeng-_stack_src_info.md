@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: F19D5A5C-D9CF-40CC-B344-8F2D862FBF04
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/PSTACK_SRC_INFO, STACK_SRC_INFO, _STACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging], dbgeng/STACK_SRC_INFO, *PSTACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], debugger.stack_src_info, PSTACK_SRC_INFO
+ms.keywords: debugger.stack_src_info, _STACK_SRC_INFO, dbgeng/STACK_SRC_INFO, dbgeng/PSTACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], STACK_SRC_INFO structure [Windows Debugging], *PSTACK_SRC_INFO, STACK_SRC_INFO, PSTACK_SRC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

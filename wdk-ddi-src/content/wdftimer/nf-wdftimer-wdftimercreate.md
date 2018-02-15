@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 577b7629-13ff-4a2d-9f9f-a140d8442bd3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdftimer/WdfTimerCreate, PFN_WDFTIMERCREATE, kmdf.wdftimercreate, WdfTimerCreate, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, wdf.wdftimercreate, WdfTimerCreate method
+ms.keywords: WdfTimerCreate, wdf.wdftimercreate, PFN_WDFTIMERCREATE, kmdf.wdftimercreate, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, wdftimer/WdfTimerCreate, WdfTimerCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -221,14 +221,6 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
 
 
@@ -238,6 +230,14 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
+<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 667429cb-0db8-4139-af5a-c3275b68a507
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION structure [Display Devices], display.d3d11_1ddi_authenticated_configure_crypto_session, D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION
+ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, display.d3d11_1ddi_authenticated_configure_crypto_session, D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION structure [Display Devices], D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

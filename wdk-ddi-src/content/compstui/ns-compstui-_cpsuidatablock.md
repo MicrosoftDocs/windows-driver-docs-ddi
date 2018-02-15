@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "_CPSUIDATABLOCK, compstui/CPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, PCPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, CPSUIDATABLOCK structure [Print Devices], CPSUIDATABLOCK, print.cpsuidatablock, PCPSUIDATABLOCK structure pointer [Print Devices], *PCPSUIDATABLOCK"
+ms.keywords: PCPSUIDATABLOCK structure pointer [Print Devices], PCPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, CPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices], _CPSUIDATABLOCK, *PCPSUIDATABLOCK, compstui/CPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, print.cpsuidatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

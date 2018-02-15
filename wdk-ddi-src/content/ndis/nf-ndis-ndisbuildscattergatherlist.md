@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 439d68ec-9d27-484b-b6a3-9bae732d142e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, ndis/NdisBuildScatterGatherList, NdisBuildScatterGatherList, netvista.ndisbuildscattergatherlist
+ms.keywords: ndis/NdisBuildScatterGatherList, ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], netvista.ndisbuildscattergatherlist, NdisBuildScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -175,15 +175,32 @@ The drivers must call the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+   NdisMRegisterScatterGatherDma</a>
 
 
 
@@ -192,24 +209,7 @@ The drivers must call the
 
 
 
-<a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
-   NdisMRegisterScatterGatherDma</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

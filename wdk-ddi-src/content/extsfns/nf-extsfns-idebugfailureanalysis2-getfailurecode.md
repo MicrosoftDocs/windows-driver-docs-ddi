@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E407482E-26DD-40C6-9405-DF5CA8996B91
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugfailureanalysis2_getfailurecode, IDebugFailureAnalysis2::GetFailureCode, extsfns/IDebugFailureAnalysis2::GetFailureCode, GetFailureCode, GetFailureCode method [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureCode method, IDebugFailureAnalysis2, GetFailureCode method [Windows Debugging], IDebugFailureAnalysis2 interface
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureCode method, debugger.idebugfailureanalysis2_getfailurecode, extsfns/IDebugFailureAnalysis2::GetFailureCode, GetFailureCode method [Windows Debugging], IDebugFailureAnalysis2, GetFailureCode, GetFailureCode method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::GetFailureCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,7 +87,11 @@ When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562112">
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983415">GetFailureClass</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983417">GetFailureType</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -95,11 +99,7 @@ When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562112">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983417">GetFailureType</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983415">GetFailureClass</a>
 
 
 

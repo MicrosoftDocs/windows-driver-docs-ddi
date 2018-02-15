@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 653B4FD5-4C07-420A-BE8A-CC8C46BC6F0F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoGetInitiatorProcess, IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], kernel.iogetinitiatorprocess
+ms.keywords: IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], ntddk/IoGetInitiatorProcess, kernel.iogetinitiatorprocess, IoGetInitiatorProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

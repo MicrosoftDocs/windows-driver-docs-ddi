@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dde2a45d-9257-4d94-928a-e25f112b2773
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iobuilddeviceiocontrolrequest, k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, wdm/IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], IoBuildDeviceIoControlRequest
+ms.keywords: IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], wdm/IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest, k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, kernel.iobuilddeviceiocontrolrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,11 +153,7 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -169,7 +165,11 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
 
 
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
@@ -177,15 +177,15 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
 
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PSERIAL_TIMEOUTS structure pointer [Serial Ports], serports.serial_timeouts, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], _SERIAL_TIMEOUTS
+ms.keywords: "*PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], PSERIAL_TIMEOUTS, serports.serial_timeouts, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, _SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,19 +159,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
-
-
-
-<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
 
 
 
 <a href="..\sercx\nf-sercx-sercxgetreadintervaltimeout.md">SerCxGetReadIntervalTimeout</a>
-
-
-
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
 
 
 
@@ -183,7 +175,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
 
 
 

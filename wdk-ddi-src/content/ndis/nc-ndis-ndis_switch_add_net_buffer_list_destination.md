@@ -136,6 +136,14 @@ After the extension modifies the destination port information in the <a href="..
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/9A740524-0FC1-4585-8059-F678D4777F66">UpdateNetBufferListDestinations</a>
 
 
@@ -145,14 +153,6 @@ After the extension modifies the destination port information in the <a href="..
 
 
 <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
-
-
-
-<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

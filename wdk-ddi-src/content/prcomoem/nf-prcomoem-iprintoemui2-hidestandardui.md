@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 144618d0-0d77-487c-a074-8bd9f6030de2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: HideStandardUI method [Print Devices], IPrintOemUI2, HideStandardUI method [Print Devices], IPrintOemUI2 interface, IPrintOemUI2 interface [Print Devices], HideStandardUI method, IPrintOemUI2::HideStandardUI, prcomoem/IPrintOemUI2::HideStandardUI, print_unidrv-pscript_ui_27b169d4-4e08-496c-b9d1-1b73dc27995b.xml, HideStandardUI, print.iprintoemui2_hidestandardui
+ms.keywords: print_unidrv-pscript_ui_27b169d4-4e08-496c-b9d1-1b73dc27995b.xml, IPrintOemUI2::HideStandardUI, IPrintOemUI2, print.iprintoemui2_hidestandardui, HideStandardUI, HideStandardUI method [Print Devices], IPrintOemUI2 interface, IPrintOemUI2 interface [Print Devices], HideStandardUI method, prcomoem/IPrintOemUI2::HideStandardUI, HideStandardUI method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

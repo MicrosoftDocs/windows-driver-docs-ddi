@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1035337F-2EDD-4538-AF39-3828B6DE424B
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrintJob::get_TotalPages, TotalPages property [Print Devices], IPrintJob interface, printerextension/IPrintJob::TotalPages, print.iprintjob_totalpages, IPrintJob::get_TotalPages, IPrintJob, get_TotalPages, IPrintJob interface [Print Devices], TotalPages property, TotalPages property [Print Devices], IPrintJob.TotalPages
+ms.keywords: IPrintJob::get_TotalPages, TotalPages property [Print Devices], printerextension/IPrintJob::TotalPages, IPrintJob, IPrintJob.TotalPages, IPrintJob interface [Print Devices], TotalPages property, get_TotalPages, printerextension/IPrintJob::get_TotalPages, print.iprintjob_totalpages, TotalPages property [Print Devices], IPrintJob interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

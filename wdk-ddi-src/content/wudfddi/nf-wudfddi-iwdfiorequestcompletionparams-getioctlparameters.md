@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 59e2cd27-ec10-46e9-aa0d-4a00e2684e76
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequestCompletionParams, GetIoctlParameters method, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, IWDFIoRequestCompletionParams interface, GetIoctlParameters method, wdf.iwdfiorequestcompletionparams_getioctlparameters, umdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters, GetIoctlParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams::GetIoctlParameters, GetIoctlParameters
+ms.keywords: wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters, GetIoctlParameters, IWDFIoRequestCompletionParams::GetIoctlParameters, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, GetIoctlParameters method, IWDFIoRequestCompletionParams interface, wdf.iwdfiorequestcompletionparams_getioctlparameters, GetIoctlParameters method, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetIoctlParameters method, umdf.iwdfiorequestcompletionparams_getioctlparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2a2320e6-b114-4ea7-9f2f-27fd47fef770
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: scavengr/RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml, ifsk.rxscavengefobxsfornetroot, RxScavengeFobxsForNetRoot
+ms.keywords: scavengr/RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot, ifsk.rxscavengefobxsfornetroot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,7 +124,7 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
 
 
 
@@ -132,7 +132,7 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
 
 
 

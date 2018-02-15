@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], stream.streamclassregisterfilterwithnokspins, StreamClassRegisterFilterWithNoKSPins, strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml
+ms.keywords: StreamClassRegisterFilterWithNoKSPins, strmini/StreamClassRegisterFilterWithNoKSPins, stream.streamclassregisterfilterwithnokspins, strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

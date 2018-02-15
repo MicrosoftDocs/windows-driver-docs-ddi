@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WriteToErrorLog, IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, WriteToErrorLog method [Imaging Devices], WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_writetoerrorlog, stiusd/IStiDeviceControl::WriteToErrorLog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, IStiDeviceControl, IStiDeviceControl::WriteToErrorLog
+ms.keywords: IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, IStiDeviceControl, IStiDeviceControl::WriteToErrorLog, WriteToErrorLog, WriteToErrorLog method [Imaging Devices], image.istidevicecontrol_writetoerrorlog, stiusd/IStiDeviceControl::WriteToErrorLog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

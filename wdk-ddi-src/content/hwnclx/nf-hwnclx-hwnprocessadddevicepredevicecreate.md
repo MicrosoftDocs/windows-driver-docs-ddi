@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: c7bbba08-e9d0-4f78-93d8-e451e4dc2573
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: HwNProcessAddDevicePreDeviceCreate function, HwNProcessAddDevicePreDeviceCreate, gpiobtn.hwnprocessadddevicepredevicecreate, hwnclx/HwNProcessAddDevicePreDeviceCreate
+ms.keywords: hwnclx/HwNProcessAddDevicePreDeviceCreate, gpiobtn.hwnprocessadddevicepredevicecreate, HwNProcessAddDevicePreDeviceCreate function, HwNProcessAddDevicePreDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

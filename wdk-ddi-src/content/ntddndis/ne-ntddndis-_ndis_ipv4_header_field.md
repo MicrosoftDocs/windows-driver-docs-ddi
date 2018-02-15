@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5B7C4107-1724-473C-8F36-C345A056F3DC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_IPV4_HEADER_FIELD, *PNDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldProtocol, ntddndis/PNDIS_IPV4_HEADER_FIELD, netvista.ndis_ipv4_header_field, PNDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldProtocol, _NDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldMaximum, ntddndis/NDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], NdisIPv4HeaderFieldUndefined, ntddndis/NdisIPv4HeaderFieldUndefined, NdisIPv4HeaderFieldMaximum, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisIPv4HeaderFieldMaximum, netvista.ndis_ipv4_header_field, _NDIS_IPV4_HEADER_FIELD, ntddndis/NDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldProtocol, NdisIPv4HeaderFieldProtocol, PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisIPv4HeaderFieldUndefined, ntddndis/NdisIPv4HeaderFieldMaximum, NdisIPv4HeaderFieldUndefined, *PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

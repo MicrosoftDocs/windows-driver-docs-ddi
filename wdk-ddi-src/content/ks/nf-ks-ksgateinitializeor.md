@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, KsGateInitializeOr, ks/KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices], stream.ksgateinitializeor
+ms.keywords: avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, stream.ksgateinitializeor, ks/KsGateInitializeOr, KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+
+
+
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 
@@ -116,7 +116,7 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 

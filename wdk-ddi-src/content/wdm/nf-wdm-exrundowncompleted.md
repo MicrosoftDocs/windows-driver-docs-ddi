@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExRundownCompleted, ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], kernel.exrundowncompleted
+ms.keywords: ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], kernel.exrundowncompleted, wdm/ExRundownCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

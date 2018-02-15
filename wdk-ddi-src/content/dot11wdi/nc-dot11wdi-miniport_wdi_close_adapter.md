@@ -122,11 +122,11 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">CloseAdapterComplete</a>
-
-
-
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">CloseAdapterComplete</a>
 
 
 

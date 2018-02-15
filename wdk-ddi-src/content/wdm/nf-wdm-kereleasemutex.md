@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d220f913-6111-435d-b617-257edf2a9c68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeReleaseMutex, kernel.kereleasemutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture], k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, wdm/KeReleaseMutex
+ms.keywords: wdm/KeReleaseMutex, KeReleaseMutex, k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, kernel.kereleasemutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,11 +119,7 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 
 
@@ -131,15 +127,19 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 
 

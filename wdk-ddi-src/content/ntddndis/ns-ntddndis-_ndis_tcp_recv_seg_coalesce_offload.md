@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F474ABFA-D811-4C03-868A-E7C23BAE2017
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, *PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, netvista.ndis_tcp_recv_seg_coalesce_offload, ntddndis/PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD
+ms.keywords: PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, ntddndis/PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure [Network Drivers Starting with Windows Vista], NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, *PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, netvista.ndis_tcp_recv_seg_coalesce_offload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,11 +103,11 @@ To determine if a miniport driver supports RSC, NDIS drivers and other applicati
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 

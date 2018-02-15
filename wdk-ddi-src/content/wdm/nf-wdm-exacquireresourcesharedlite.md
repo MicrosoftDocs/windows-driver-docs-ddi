@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5dfebc3f-77d2-4b35-83b2-b3729cc957f0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExAcquireResourceSharedLite, ExAcquireResourceSharedLite routine [Kernel-Mode Driver Architecture], k102_da765a3d-5d09-43da-98fe-48d4f7bccb9b.xml, ExAcquireResourceSharedLite, kernel.exacquireresourcesharedlite
+ms.keywords: ExAcquireResourceSharedLite routine [Kernel-Mode Driver Architecture], wdm/ExAcquireResourceSharedLite, kernel.exacquireresourcesharedlite, k102_da765a3d-5d09-43da-98fe-48d4f7bccb9b.xml, ExAcquireResourceSharedLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,14 +121,6 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exgetsharedwaitercount.md">ExGetSharedWaiterCount</a>
-
-
-
-<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
-
-
-
 <a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
 
 
@@ -137,15 +129,7 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 
 
-<a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
-
-
-
-<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
-
-
-
-<a href="..\wdm\nf-wdm-exconvertexclusivetosharedlite.md">ExConvertExclusiveToSharedLite</a>
+<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
 
 
 
@@ -153,11 +137,27 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 
 
-<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
+<a href="..\wdm\nf-wdm-exconvertexclusivetosharedlite.md">ExConvertExclusiveToSharedLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquiresharedwaitforexclusive.md">ExAcquireSharedWaitForExclusive</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
+
+
+
+<a href="..\wdm\nf-wdm-exgetsharedwaitercount.md">ExGetSharedWaiterCount</a>
 
 
 

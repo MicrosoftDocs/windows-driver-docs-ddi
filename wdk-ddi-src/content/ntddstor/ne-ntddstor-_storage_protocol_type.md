@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ProtocolTypeNvme, ntddstor/STORAGE_PROTOCOL_TYPE, ProtocolTypeMaxReserved, STORAGE_PROTOCOL_TYPE, ProtocolTypeUnknown, ProtocolTypeProprietary, ntddstor/ProtocolTypeAta, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeScsi, storage.storage_protocol_type, ntddstor/ProtocolTypeProprietary, ProtocolTypeUfs, *PSTORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeSd, ntddstor/ProtocolTypeUfs, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], ProtocolTypeSd, ntddstor/ProtocolTypeMaxReserved, _STORAGE_PROTOCOL_TYPE, ProtocolTypeAta, ProtocolTypeScsi
+ms.keywords: ProtocolTypeProprietary, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], ntddstor/ProtocolTypeMaxReserved, ProtocolTypeAta, ProtocolTypeSd, STORAGE_PROTOCOL_TYPE, ProtocolTypeNvme, ProtocolTypeScsi, ntddstor/STORAGE_PROTOCOL_TYPE, storage.storage_protocol_type, ntddstor/ProtocolTypeSd, ntddstor/ProtocolTypeProprietary, ProtocolTypeMaxReserved, *PSTORAGE_PROTOCOL_TYPE, ProtocolTypeUnknown, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeUnknown, _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeAta, ProtocolTypeUfs, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeUfs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 788714e3-c031-490f-a19f-709bd0392cba
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlinitializemcb, FsRtlInitializeMcb, ntifs/FsRtlInitializeMcb, FsRtlInitializeMcb function [Installable File System Drivers], fsrtlref_cce0e584-5fd6-4fc8-8a61-b6bef61207dd.xml
+ms.keywords: ntifs/FsRtlInitializeMcb, ifsk.fsrtlinitializemcb, FsRtlInitializeMcb function [Installable File System Drivers], fsrtlref_cce0e584-5fd6-4fc8-8a61-b6bef61207dd.xml, FsRtlInitializeMcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

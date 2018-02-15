@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6bd4f75b-a332-4e1f-8df7-0d6f51b0737b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgetobjectfromfileobject, ks/KsGetObjectFromFileObject, avfunc_800add7f-a220-4ad8-92bd-57e102739c8d.xml, KsGetObjectFromFileObject function [Streaming Media Devices], KsGetObjectFromFileObject
+ms.keywords: KsGetObjectFromFileObject function [Streaming Media Devices], KsGetObjectFromFileObject, stream.ksgetobjectfromfileobject, ks/KsGetObjectFromFileObject, avfunc_800add7f-a220-4ad8-92bd-57e102739c8d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -84,11 +84,11 @@ A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structu
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
-
-
-
 <a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
 
 
 
@@ -96,7 +96,7 @@ A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structu
 
 
 
-<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
+<a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D01F8C2D-4E17-4FB7-A3C6-4B7EEDF07E0D
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: USBDEVICE_UPDATE_FAILURE_FLAGS structure [Buses], USBDEVICE_UPDATE_FAILURE_FLAGS, buses._usbdevice_update_failure_flags, ucxusbdevice/_USBDEVICE_UPDATE_FAILURE_FLAGS, P_USBDEVICE_UPDATE_FAILURE_FLAGS, ucxusbdevice/P_USBDEVICE_UPDATE_FAILURE_FLAGS, _USBDEVICE_UPDATE_FAILURE_FLAGS, P_USBDEVICE_UPDATE_FAILURE_FLAGS structure pointer [Buses]
+ms.keywords: USBDEVICE_UPDATE_FAILURE_FLAGS structure [Buses], P_USBDEVICE_UPDATE_FAILURE_FLAGS, P_USBDEVICE_UPDATE_FAILURE_FLAGS structure pointer [Buses], ucxusbdevice/P_USBDEVICE_UPDATE_FAILURE_FLAGS, buses._usbdevice_update_failure_flags, ucxusbdevice/_USBDEVICE_UPDATE_FAILURE_FLAGS, _USBDEVICE_UPDATE_FAILURE_FLAGS, USBDEVICE_UPDATE_FAILURE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

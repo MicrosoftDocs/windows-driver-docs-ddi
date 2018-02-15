@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 6023ca71-47ce-4add-891f-e125252ace08
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iwdtfpnpaction2_restartdevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice, IWDTFPNPAction2, Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, RestartDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework], RestartDevice method, RestartDevice, RestartDevice method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFPNPAction2.RestartDevice, IWDTFPNPAction2::RestartDevice
+ms.keywords: IWDTFPNPAction2::RestartDevice, IWDTFPNPAction2 interface [Windows Device Testing Framework], RestartDevice method, RestartDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_restartdevice, wdtfpnpaction/IWDTFPNPAction2::RestartDevice, RestartDevice method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFPNPAction2::RestartDevice, RestartDevice, IWDTFPNPAction2, Microsoft.WDTF.IWDTFPNPAction2.RestartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 96293fbc-0c3c-4685-8708-dd84fcc2223e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exsetresourceownerpointerex, ExSetResourceOwnerPointerEx, k102_2bcc65e9-00e7-4fc5-a1d6-1f797b2c6038.xml, ExSetResourceOwnerPointerEx routine [Kernel-Mode Driver Architecture], wdm/ExSetResourceOwnerPointerEx
+ms.keywords: ExSetResourceOwnerPointerEx, wdm/ExSetResourceOwnerPointerEx, ExSetResourceOwnerPointerEx routine [Kernel-Mode Driver Architecture], k102_2bcc65e9-00e7-4fc5-a1d6-1f797b2c6038.xml, kernel.exsetresourceownerpointerex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,19 +139,7 @@ For more information about managing executive resources, see <a href="https://ms
 
 
 
-<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544614">ExGetCurrentResourceThread</a>
-
-
-
 <a href="https://msdn.microsoft.com/202b2ef1-bbe4-4ffd-a82b-21f19c145e8d">ERESOURCE</a>
-
-
-
-<a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
 
 
 
@@ -159,7 +147,19 @@ For more information about managing executive resources, see <a href="https://ms
 
 
 
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a>
+
+
+
+<a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544614">ExGetCurrentResourceThread</a>
 
 
 

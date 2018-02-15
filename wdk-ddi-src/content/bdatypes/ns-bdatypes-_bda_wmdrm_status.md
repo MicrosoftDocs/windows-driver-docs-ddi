@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FEE7B3B2-2433-4772-8E79-C325ECC343FF
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BDA_WMDRM_STATUS, *PBDA_WMDRM_STATUS, _BDA_WMDRM_STATUS, BDA_WMDRM_STATUS structure [Streaming Media Devices], bdatypes/PBDA_WMDRM_STATUS, stream.bda_wmdrm_status, PBDA_WMDRM_STATUS structure pointer [Streaming Media Devices], bdatypes/BDA_WMDRM_STATUS, PBDA_WMDRM_STATUS
+ms.keywords: PBDA_WMDRM_STATUS structure pointer [Streaming Media Devices], stream.bda_wmdrm_status, BDA_WMDRM_STATUS structure [Streaming Media Devices], *PBDA_WMDRM_STATUS, _BDA_WMDRM_STATUS, BDA_WMDRM_STATUS, bdatypes/PBDA_WMDRM_STATUS, bdatypes/BDA_WMDRM_STATUS, PBDA_WMDRM_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

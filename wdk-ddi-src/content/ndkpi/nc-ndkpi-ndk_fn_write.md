@@ -226,7 +226,7 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+<a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
 
 
 
@@ -234,11 +234,11 @@ An error occurred.
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-
-
-<a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9da5508a-7397-4260-b5d8-16b0d624b98b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcallaudiosource_2, RIL_CALLAUDIOSOURCE_PKT_MODEM, RIL_CALLAUDIOSOURCE_PKT_APP, rilapitypes/RIL_CALLAUDIOSOURCE_PKT_APP, RIL_CALLAUDIOSOURCE_MAX, RILCALLAUDIOSOURCE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLAUDIOSOURCE, rilapitypes/RIL_CALLAUDIOSOURCE_MAX, rilapitypes/RIL_CALLAUDIOSOURCE_PKT_MODEM, RILCALLAUDIOSOURCE
+ms.keywords: RIL_CALLAUDIOSOURCE_PKT_MODEM, RIL_CALLAUDIOSOURCE_MAX, rilapitypes/RIL_CALLAUDIOSOURCE_PKT_MODEM, RIL_CALLAUDIOSOURCE_PKT_APP, rilapitypes/RIL_CALLAUDIOSOURCE_PKT_APP, rilapitypes/RILCALLAUDIOSOURCE, rilapitypes/RIL_CALLAUDIOSOURCE_MAX, RILCALLAUDIOSOURCE, netvista.rilcallaudiosource_2, RILCALLAUDIOSOURCE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

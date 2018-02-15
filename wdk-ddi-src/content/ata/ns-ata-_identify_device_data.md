@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7f2edd6f-16bf-47a6-8546-7871435a56ac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ata/IDENTIFY_DEVICE_DATA, structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml, storage.identify_device_data, PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices], IDENTIFY_DEVICE_DATA, ata/PIDENTIFY_DEVICE_DATA, _IDENTIFY_DEVICE_DATA, *PIDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices]
+ms.keywords: PIDENTIFY_DEVICE_DATA, structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml, IDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices], *PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices], _IDENTIFY_DEVICE_DATA, ata/PIDENTIFY_DEVICE_DATA, ata/IDENTIFY_DEVICE_DATA, storage.identify_device_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -2017,22 +2017,31 @@ Indicates the disk signature.
 Indicates the checksum.
 
 
+#### - CfaPowerModel
+
+
+#### - ReservedForCfaWord170
+
+Words 170-175
+
+
+#### - ReservedWord105
+
+
+#### - ReservedWord1274
+
+
 #### - ReservedWord2
 
 Reserved.
 
 
+#### - ReservedWord206
+
+Word 206
+
+
 #### - ReservedWord48
-
-Reserved.
-
-
-#### - ReservedWords69
-
-Reserved.
-
-
-#### - ReservedWords76
 
 Reserved.
 
@@ -2047,21 +2056,12 @@ Reserved.
 Reserved.
 
 
-#### - ReservedWord105
+#### - ReservedWords69
+
+Reserved.
 
 
-#### - ReservedWord1274
+#### - ReservedWords76
 
-
-#### - CfaPowerModel
-
-
-#### - ReservedForCfaWord170
-
-Words 170-175
-
-
-#### - ReservedWord206
-
-Word 206
+Reserved.
 

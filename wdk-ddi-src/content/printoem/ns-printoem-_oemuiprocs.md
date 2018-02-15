@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMUIPROCS structure [Print Devices], printoem/OEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], printoem/POEMUIPROCS, _OEMUIPROCS, print.oemuiprocs, OEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, *POEMUIPROCS, POEMUIPROCS
+ms.keywords: POEMUIPROCS, printoem/OEMUIPROCS, print.oemuiprocs, printoem/POEMUIPROCS, _OEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], OEMUIPROCS structure [Print Devices], *POEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, OEMUIPROCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

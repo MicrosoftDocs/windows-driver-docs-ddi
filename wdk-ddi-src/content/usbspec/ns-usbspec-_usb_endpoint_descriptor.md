@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: fb4f25e4-cf72-4308-9685-edc62b1cc510
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml, *PUSB_ENDPOINT_DESCRIPTOR, usbspec/PUSB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, USB_ENDPOINT_DESCRIPTOR structure [Buses], USB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], PUSB_ENDPOINT_DESCRIPTOR, _USB_ENDPOINT_DESCRIPTOR, usbspec/USB_ENDPOINT_DESCRIPTOR
+ms.keywords: usbspec/PUSB_ENDPOINT_DESCRIPTOR, _USB_ENDPOINT_DESCRIPTOR, usbspec/USB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses], usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml, buses.usb_endpoint_descriptor, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], *PUSB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -258,11 +258,11 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
 
 
 

@@ -150,7 +150,7 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
@@ -162,7 +162,7 @@ The driver can pass E_OUTOFMEMORY (if the driver runs out of memory) or D3DDDIER
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyshader.md">DestroyShader</a>
 
 
 

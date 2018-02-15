@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0512a825-9cec-4ca0-9686-df5b3d2b216b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_DeinterlaceBlt, _DXVA_DeinterlaceBlt, dxva/DXVA_DeinterlaceBlt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml, display.dxva_deinterlaceblt, DXVA_DeinterlaceBlt structure [Display Devices]
+ms.keywords: display.dxva_deinterlaceblt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml, dxva/DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], _DXVA_DeinterlaceBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

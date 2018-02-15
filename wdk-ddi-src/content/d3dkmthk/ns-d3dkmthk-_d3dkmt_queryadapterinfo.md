@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2bc9afc3-2fcf-4f62-85d4-67f824733904
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_QUERYADAPTERINFO, _D3DKMT_QUERYADAPTERINFO, display.d3dkmt_queryadapterinfo, KMTQUERYADAPTERINFOTYPE, OpenGL_Structs_10a338e9-c5a8-44e0-9ad7-87d5a3ab742e.xml, D3DKMT_QUERYADAPTERINFO, D3DKMT_QUERYADAPTERINFO structure [Display Devices]
+ms.keywords: D3DKMT_QUERYADAPTERINFO structure [Display Devices], display.d3dkmt_queryadapterinfo, d3dkmthk/D3DKMT_QUERYADAPTERINFO, KMTQUERYADAPTERINFOTYPE, OpenGL_Structs_10a338e9-c5a8-44e0-9ad7-87d5a3ab742e.xml, _D3DKMT_QUERYADAPTERINFO, D3DKMT_QUERYADAPTERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -340,23 +340,7 @@ Supported starting with  Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapteraddress.md">D3DKMT_ADAPTERADDRESS</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipqueueinfo.md">D3DKMT_FLIPQUEUEINFO</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterregistryinfo.md">D3DKMT_ADAPTERREGISTRYINFO</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a>
 
 
 
@@ -364,19 +348,11 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umd_driver_version.md">D3DKMT_UMD_DRIVER_VERSION</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openglinfo.md">D3DKMT_OPENGLINFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406678">D3DKMT_WDDM_1_2_CAPS</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplcontextscount.md">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterregistryinfo.md">D3DKMT_ADAPTERREGISTRYINFO</a>
 
 
 
@@ -388,11 +364,7 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
-
-
-
-<a href="..\d3dkmthk\ne-d3dkmthk-_qai_driverversion.md">D3DKMT_DRIVERVERSION</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_umd_driver_version.md">D3DKMT_UMD_DRIVER_VERSION</a>
 
 
 
@@ -400,7 +372,35 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapteraddress.md">D3DKMT_ADAPTERADDRESS</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openglinfo.md">D3DKMT_OPENGLINFO</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_outputduplcontextscount.md">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a>
+
+
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_qai_driverversion.md">D3DKMT_DRIVERVERSION</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406678">D3DKMT_WDDM_1_2_CAPS</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_workingsetinfo.md">D3DKMT_WORKINGSETINFO</a>
 
 
 

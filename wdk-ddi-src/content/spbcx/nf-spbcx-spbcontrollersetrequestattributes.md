@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 9BE790DB-DB7A-44A3-8A89-673CBFCF4D65
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spbcontrollersetrequestattributes, SpbControllerSetRequestAttributes, spbcx/SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses]
+ms.keywords: SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses], SPB.spbcontrollersetrequestattributes, spbcx/SpbControllerSetRequestAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,7 +114,7 @@ The SPB controller driver must call <b>SpbControllerSetRequestAttributes</b> bef
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -122,7 +122,7 @@ The SPB controller driver must call <b>SpbControllerSetRequestAttributes</b> bef
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 17A78DC7-A89D-405A-983E-FC0DC469A4B0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_lte_serving_cell_info, WWAN_LTE_SERVING_CELL_INFO, PWWAN_LTE_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_LTE_SERVING_CELL_INFO, _WWAN_LTE_SERVING_CELL_INFO, wwan/WWAN_LTE_SERVING_CELL_INFO, PWWAN_LTE_SERVING_CELL_INFO, *PWWAN_LTE_SERVING_CELL_INFO, WWAN_LTE_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WWAN_LTE_SERVING_CELL_INFO, PWWAN_LTE_SERVING_CELL_INFO, wwan/PWWAN_LTE_SERVING_CELL_INFO, *PWWAN_LTE_SERVING_CELL_INFO, netvista.wwan_lte_serving_cell_info, WWAN_LTE_SERVING_CELL_INFO, WWAN_LTE_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_LTE_SERVING_CELL_INFO, PWWAN_LTE_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -136,11 +136,11 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
 
 
 
@@ -148,7 +148,7 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+<a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb26c8af-1564-4cf8-ab40-b50b4811466d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], ndis/PIPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Esp, _IPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Max, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], IPsecOffloadV2Ah, ndis/IPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Ah, ndis/IPsecOffloadV2Max, netvista.ipsec_offload_v2_operation, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml, *PIPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Esp, IPSEC_OFFLOAD_V2_OPERATION
+ms.keywords: IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Ah, PIPSEC_OFFLOAD_V2_OPERATION, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml, IPsecOffloadV2Esp, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], ndis/IPsecOffloadV2Max, netvista.ipsec_offload_v2_operation, ndis/IPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Ah, ndis/IPsecOffloadV2Esp, *PIPSEC_OFFLOAD_V2_OPERATION, _IPSEC_OFFLOAD_V2_OPERATION, IPsecOffloadV2Max, ndis/PIPSEC_OFFLOAD_V2_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

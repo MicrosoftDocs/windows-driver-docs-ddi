@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b93f756b-50b1-450f-8d70-5d1633b61fcf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5, dbgeng/IDebugClient5::GetOutputCallbacksWide, debugger.getoutputcallbackswide, IDebugClient5::GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method
+ms.keywords: GetOutputCallbacksWide, IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method, GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetOutputCallbacksWide, IDebugClient5, debugger.getoutputcallbackswide, dbgeng/IDebugClient5::GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,11 +121,11 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 

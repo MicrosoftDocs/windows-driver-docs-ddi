@@ -195,44 +195,20 @@ This function is essentially identical to the previous version,
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a>
-
-
-
-<a href="https://msdn.microsoft.com/dec76575-041b-4cbd-8042-184b15354f61">Packet Modification Examples</a>
-
-
-
-<a href="https://msdn.microsoft.com/464c74ae-5e37-41f1-b305-ef57039b28ba">Using a Callout for Deep Inspection</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439768">FWPS_FILTER2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a>
-
-
-
-<a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-a-callout-for-deep-inspection-of-stream-data">Using a Callout
     for Deep Inspection of Stream Data</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsreferencenetbufferlist0.md">FwpsReferenceNetBufferList0</a>
+
+
+
+<a href="https://msdn.microsoft.com/464c74ae-5e37-41f1-b305-ef57039b28ba">Using a Callout for Deep Inspection</a>
 
 
 
@@ -241,11 +217,7 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
 
 
@@ -253,7 +225,23 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreferencenetbufferlist0.md">FwpsReferenceNetBufferList0</a>
+<a href="https://msdn.microsoft.com/1e4f00e0-0fc6-459d-bbdd-02fbca5b9945">Data Logging</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439768">FWPS_FILTER2</a>
+
+
+
+<a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a>
 
 
 
@@ -261,7 +249,19 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="https://msdn.microsoft.com/1e4f00e0-0fc6-459d-bbdd-02fbca5b9945">Data Logging</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
+
+
+
+<a href="https://msdn.microsoft.com/dec76575-041b-4cbd-8042-184b15354f61">Packet Modification Examples</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e49f48fd-f2e8-4ccc-813f-f624e06ab365
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_updateoverlay, d3dumddi/D3DDDIARG_UPDATEOVERLAY, UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, D3DDDIARG_UPDATEOVERLAY, _D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY structure [Display Devices]
+ms.keywords: display.d3dddiarg_updateoverlay, D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, d3dumddi/D3DDDIARG_UPDATEOVERLAY, _D3DDDIARG_UPDATEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ typedef struct _D3DDDIARG_UPDATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
 
 
 

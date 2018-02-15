@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/SYSTEM_POWER_STATE, _SYSTEM_POWER_STATE, PowerSystemMaximum, wdm/PowerSystemShutdown, kernel.system_power_state, wdm/PowerSystemWorking, PowerSystemSleeping1, wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, PowerSystemSleeping3, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, PowerSystemSleeping2, PSYSTEM_POWER_STATE, PowerSystemShutdown, wdm/PowerSystemUnspecified, PowerSystemUnspecified, PowerSystemWorking, wdm/PowerSystemSleeping2, wdm/PowerSystemMaximum, wdm/PowerSystemSleeping3, wdm/PowerSystemSleeping1, *PSYSTEM_POWER_STATE, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE
+ms.keywords: "*PSYSTEM_POWER_STATE, PowerSystemSleeping1, wdm/SYSTEM_POWER_STATE, kernel.system_power_state, wdm/PowerSystemMaximum, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE, wdm/PowerSystemWorking, PowerSystemHibernate, PowerSystemSleeping3, wdm/PowerSystemShutdown, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemSleeping2, PowerSystemMaximum, wdm/PowerSystemUnspecified, PowerSystemSleeping2, PowerSystemShutdown, wdm/PowerSystemSleeping3, _SYSTEM_POWER_STATE, wdm/PowerSystemHibernate, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, PowerSystemUnspecified, wdm/PowerSystemSleeping1, PSYSTEM_POWER_STATE, PowerSystemWorking"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

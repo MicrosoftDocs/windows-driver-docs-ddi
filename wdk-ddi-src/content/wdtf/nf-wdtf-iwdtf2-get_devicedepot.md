@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9bff0ac6-149e-4a40-a6e0-a3156c3d6af5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: DeviceDepot property [Windows Device Testing Framework], IWDTF2.DeviceDepot, IWDTF2 interface [Windows Device Testing Framework], DeviceDepot property, Microsoft.WDTF.IWDTF2.DeviceDepot, dtf.iwdtf2_devicedepot, IWDTF2::get_DeviceDepot, wdtf/IWDTF2::DeviceDepot, DeviceDepot property [Windows Device Testing Framework], IWDTF2 interface, Microsoft::WDTF::IWDTF2::DeviceDepot, wdtf/IWDTF2::get_DeviceDepot, get_DeviceDepot, IWDTF2
+ms.keywords: IWDTF2 interface [Windows Device Testing Framework], DeviceDepot property, wdtf/IWDTF2::get_DeviceDepot, get_DeviceDepot, IWDTF2::get_DeviceDepot, IWDTF2, dtf.iwdtf2_devicedepot, IWDTF2.DeviceDepot, DeviceDepot property [Windows Device Testing Framework], IWDTF2 interface, Microsoft.WDTF.IWDTF2.DeviceDepot, Microsoft::WDTF::IWDTF2::DeviceDepot, DeviceDepot property [Windows Device Testing Framework], wdtf/IWDTF2::DeviceDepot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_DeviceDepot(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtf2.md">IWDTF2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtf2.md">IWDTF2</a>
 
 
 

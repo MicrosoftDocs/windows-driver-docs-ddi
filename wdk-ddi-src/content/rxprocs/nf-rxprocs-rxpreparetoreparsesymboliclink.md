@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6a05b25f-e529-469a-8bfc-e75c0f7a9a8a
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], RxPrepareToReparseSymbolicLink, rxprocs/RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, ifsk.rxpreparetoreparsesymboliclink
+ms.keywords: RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], rxprocs/RxPrepareToReparseSymbolicLink, ifsk.rxpreparetoreparsesymboliclink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml, RxPrepareToReparseSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

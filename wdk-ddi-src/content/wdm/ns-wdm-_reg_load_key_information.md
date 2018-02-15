@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4012667b-d287-4846-8860-0cca977f9792
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: REG_LOAD_KEY_INFORMATION, _REG_LOAD_KEY_INFORMATION, *PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_LOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.reg_load_key_information, wdm/REG_LOAD_KEY_INFORMATION, wdm/PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION, kstruct_d_31dae695-0a6f-4309-9c39-25c2df4a5b23.xml
+ms.keywords: PREG_LOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PREG_LOAD_KEY_INFORMATION, _REG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION, wdm/PREG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_31dae695-0a6f-4309-9c39-25c2df4a5b23.xml, wdm/REG_LOAD_KEY_INFORMATION, kernel.reg_load_key_information, *PREG_LOAD_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,7 +146,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="https://msdn.microsoft.com/536395aa-03ba-430d-a66d-fcabdc9dfe22">RegLoadKey</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -158,11 +162,7 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="https://msdn.microsoft.com/536395aa-03ba-430d-a66d-fcabdc9dfe22">RegLoadKey</a>
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 
 

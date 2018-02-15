@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5a77a8bc-b477-41b3-bc4e-07c6c14291a1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsReferenceClock, GetState method [Streaming Media Devices], IKsReferenceClock interface, stream.iksreferenceclock_getstate, GetState, ks/IKsReferenceClock::GetState, GetState method [Streaming Media Devices], IKsReferenceClock::GetState, IKsReferenceClock interface [Streaming Media Devices], GetState method, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml
+ms.keywords: GetState method [Streaming Media Devices], IKsReferenceClock interface, GetState method [Streaming Media Devices], stream.iksreferenceclock_getstate, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, IKsReferenceClock interface [Streaming Media Devices], GetState method, GetState, IKsReferenceClock, IKsReferenceClock::GetState, ks/IKsReferenceClock::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,11 +94,11 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 24de4374-fa73-4891-b212-6f5c7ed53407
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber, k105_3faba96b-e6d9-40d2-a543-6ea95ce67c73.xml, kernel.kegetcurrentprocessornumber, KeGetCurrentProcessorNumber routine [Kernel-Mode Driver Architecture]
+ms.keywords: k105_3faba96b-e6d9-40d2-a543-6ea95ce67c73.xml, kernel.kegetcurrentprocessornumber, ntddk/KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ If the call to <b>KeGetCurrentProcessorNumber</b> occurs at IRQL &lt;= APC_LEVEL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetcurrentprocessornumberex.md">KeGetCurrentProcessorNumberEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetcurrentprocessornumberex.md">KeGetCurrentProcessorNumberEx</a>
 
 
 

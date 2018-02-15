@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.ucmtcpciportcontrollerstop, UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerStop
+ms.keywords: UcmTcpciPortControllerStop, buses.ucmtcpciportcontrollerstop, UcmTcpciPortControllerStop method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

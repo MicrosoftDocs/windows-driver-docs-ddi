@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3433fb92-b7e1-48c4-bd0b-98b794b3f454
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT, display.d3d11_1ddi_authenticated_query_device_handle_output, D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT structure [Display Devices]
+ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT, display.d3d11_1ddi_authenticated_query_device_handle_output, D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_QUERY_DEVICE_HANDLE_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

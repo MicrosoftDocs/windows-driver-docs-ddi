@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b683518c-b4f4-4ae4-945d-8a2d064a5390
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, NdisMGetDmaAlignment, netvista.ndismgetdmaalignment, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], ndis/NdisMGetDmaAlignment
+ms.keywords: dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], NdisMGetDmaAlignment, ndis/NdisMGetDmaAlignment, netvista.ndismgetdmaalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,12 +105,12 @@ A miniport driver can call the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
    NdisMRegisterScatterGatherDma</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

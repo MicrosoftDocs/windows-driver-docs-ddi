@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25d6dc68-8cd3-4f8c-ad0d-361b4f6c4cf6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbCopyNExW, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml, kernel.rtlstringcbcopynex, STRSAFE_IGNORE_NULLS, STRSAFE_NULL_ON_FAILURE, RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExW, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_NO_TRUNCATION, RtlStringCbCopyNEx, STRSAFE_FILL_ON_FAILURE
+ms.keywords: RtlStringCbCopyNExA, RtlStringCbCopyNEx, STRSAFE_IGNORE_NULLS, RtlStringCbCopyNExW, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopynex, ntstrsafe/RtlStringCbCopyNExA, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCbCopyNExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -300,11 +300,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynw.md">RtlStringCbCopyN</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynw.md">RtlStringCbCopyN</a>
 
 
 

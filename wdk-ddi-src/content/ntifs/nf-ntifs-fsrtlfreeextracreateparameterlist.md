@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0d2f1204-0874-4ede-9931-be6f2dbc3c47
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/FsRtlFreeExtraCreateParameterList, FsRtlFreeExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_909d50be-4f8d-47dc-ad00-03d3f9eb4533.xml, FsRtlFreeExtraCreateParameterList, ifsk.fsrtlfreeextracreateparameterlist
+ms.keywords: fsrtlref_909d50be-4f8d-47dc-ad00-03d3f9eb4533.xml, FsRtlFreeExtraCreateParameterList, ntifs/FsRtlFreeExtraCreateParameterList, FsRtlFreeExtraCreateParameterList routine [Installable File System Drivers], ifsk.fsrtlfreeextracreateparameterlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,15 +92,7 @@ None
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 
@@ -108,15 +100,7 @@ None
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -124,11 +108,27 @@ None
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
 
 

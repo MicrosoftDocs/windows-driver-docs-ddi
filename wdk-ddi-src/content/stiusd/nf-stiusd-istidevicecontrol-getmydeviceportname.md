@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f400ab05-aea9-4154-a725-5b23a6dc06b6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDeviceControl::GetMyDevicePortName, image.istidevicecontrol_getmydeviceportname, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method, GetMyDevicePortName method [Imaging Devices], GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface, stiusd/IStiDeviceControl::GetMyDevicePortName, GetMyDevicePortName, IStiDeviceControl
+ms.keywords: IStiDeviceControl::GetMyDevicePortName, IStiDeviceControl, GetMyDevicePortName, stiusd/IStiDeviceControl::GetMyDevicePortName, GetMyDevicePortName method [Imaging Devices], stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method, GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface, image.istidevicecontrol_getmydeviceportname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

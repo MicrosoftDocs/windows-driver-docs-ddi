@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09aa3ba9-d5b6-4c08-93f1-f7beca9350a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, dbgeng/IDebugSymbols2::GetTypeName, GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetTypeName method, IDebugSymbols3::GetTypeName, GetTypeName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols, dbgeng/IDebugSymbols3::GetTypeName, IDebugSymbols interface [Windows Debugging], GetTypeName method, GetTypeName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, dbgeng/IDebugSymbols::GetTypeName, debugger.gettypename, IDebugSymbols2::GetTypeName
+ms.keywords: GetTypeName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetTypeName method, debugger.gettypename, dbgeng/IDebugSymbols::GetTypeName, IDebugSymbols interface [Windows Debugging], GetTypeName method, IDebugSymbols3::GetTypeName, IDebugSymbols_01f0496a-ce0e-442b-88c9-2a92c15a1237.xml, IDebugSymbols2::GetTypeName, IDebugSymbols::GetTypeName, IDebugSymbols3 interface [Windows Debugging], GetTypeName method, GetTypeName method [Windows Debugging], IDebugSymbols interface, GetTypeName method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetTypeName, IDebugSymbols, dbgeng/IDebugSymbols3::GetTypeName, GetTypeName, GetTypeName method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -159,19 +159,19 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

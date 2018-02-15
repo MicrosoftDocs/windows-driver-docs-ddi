@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 247d2694-f43f-4c30-9831-7110a1f29935
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlinitcodepagetable, RtlInitCodePageTable function [Installable File System Drivers], rtlref_e8e23ed7-9655-4aba-a5fa-3096995aafd9.xml, ntifs/RtlInitCodePageTable, RtlInitCodePageTable
+ms.keywords: ifsk.rtlinitcodepagetable, ntifs/RtlInitCodePageTable, RtlInitCodePageTable, RtlInitCodePageTable function [Installable File System Drivers], rtlref_e8e23ed7-9655-4aba-a5fa-3096995aafd9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

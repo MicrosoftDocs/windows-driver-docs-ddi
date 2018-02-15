@@ -84,13 +84,17 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_formathistorybuffer.md"
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_formathistorybuffer.md">DXGKARG_FORMATHISTORYBUFFER</a>
+
+
 
  
 

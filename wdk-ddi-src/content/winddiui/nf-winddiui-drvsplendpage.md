@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 09c3db82-7890-48c8-a91f-3d1f3f01ef84
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DrvSplEndPage, print.drvsplendpage, winddiui/DrvSplEndPage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, DrvSplEndPage function [Print Devices]
+ms.keywords: winddiui/DrvSplEndPage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, print.drvsplendpage, DrvSplEndPage function [Print Devices], DrvSplEndPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

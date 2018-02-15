@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E7DFBFFA-C65B-4757-8DB8-202760D6D3C6
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_CONTROLLER_TYPE enumeration [Buses], ControllerTypeSoftXhci, buses._controller_type, _CONTROLLER_TYPE, ucxroothub/ControllerTypeXhci, ControllerTypeXhci, ucxroothub/ControllerTypeSoftXhci, CONTROLLER_TYPE, ucxroothub/_CONTROLLER_TYPE"
+ms.keywords: ucxroothub/ControllerTypeXhci, ControllerTypeXhci, ucxroothub/ControllerTypeSoftXhci, CONTROLLER_TYPE, buses._controller_type, ucxroothub/_CONTROLLER_TYPE, ControllerTypeSoftXhci, _CONTROLLER_TYPE, _CONTROLLER_TYPE enumeration [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

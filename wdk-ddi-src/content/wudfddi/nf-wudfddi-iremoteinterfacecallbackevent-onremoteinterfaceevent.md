@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6cee6662-2eef-4caf-ab70-780748521ba9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnRemoteInterfaceEvent method, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent method, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, IRemoteInterfaceCallbackEvent, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent interface
+ms.keywords: IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent method, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent, IRemoteInterfaceCallbackEvent, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent interface, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, OnRemoteInterfaceEvent method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,7 +123,7 @@ For more information about a driver's <b>OnRemoteInterfaceEvent</b> event callba
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackevent.md">IRemoteInterfaceCallbackEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556893">IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval</a>
 
 
 
@@ -131,7 +131,7 @@ For more information about a driver's <b>OnRemoteInterfaceEvent</b> event callba
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556893">IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval</a>
+<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackevent.md">IRemoteInterfaceCallbackEvent</a>
 
 
 

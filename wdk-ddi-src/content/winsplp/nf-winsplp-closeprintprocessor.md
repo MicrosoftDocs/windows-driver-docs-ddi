@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3cf87a18-8b5a-40f2-9c0e-2b29167e283d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, ClosePrintProcessor function [Print Devices], print.closeprintprocessor, winsplp/ClosePrintProcessor, ClosePrintProcessor
+ms.keywords: spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, print.closeprintprocessor, ClosePrintProcessor, ClosePrintProcessor function [Print Devices], winsplp/ClosePrintProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ Print processors are required to export a <b>ClosePrintProcessor</b> function. T
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
 
 
 

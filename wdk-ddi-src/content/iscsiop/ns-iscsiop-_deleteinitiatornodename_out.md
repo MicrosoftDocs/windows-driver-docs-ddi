@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 105f6687-ea0f-45e9-be44-eafdd06156eb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PDeleteInitiatorNodeName_OUT, storage.deleteinitiatornodename_out, DeleteInitiatorNodeName_OUT structure [Storage Devices], _DeleteInitiatorNodeName_OUT, iscsiop/DeleteInitiatorNodeName_OUT, *PDeleteInitiatorNodeName_OUT, PDeleteInitiatorNodeName_OUT, structs-iSCSI_2a85602a-f8f8-45c5-948d-128e3f5621a0.xml, PDeleteInitiatorNodeName_OUT structure pointer [Storage Devices], DeleteInitiatorNodeName_OUT
+ms.keywords: "*PDeleteInitiatorNodeName_OUT, iscsiop/PDeleteInitiatorNodeName_OUT, structs-iSCSI_2a85602a-f8f8-45c5-948d-128e3f5621a0.xml, PDeleteInitiatorNodeName_OUT structure pointer [Storage Devices], iscsiop/DeleteInitiatorNodeName_OUT, _DeleteInitiatorNodeName_OUT, storage.deleteinitiatornodename_out, DeleteInitiatorNodeName_OUT, PDeleteInitiatorNodeName_OUT, DeleteInitiatorNodeName_OUT structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,15 +83,15 @@ It is optional that you implement this method.
 
 ## -see-also
 
+<a href="..\iscsiop\ns-iscsiop-_deleteinitiatornodename_in.md">DeleteInitiatorNodeName_IN</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552500">DeleteInitiatorNodeName</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_deleteinitiatornodename_in.md">DeleteInitiatorNodeName_IN</a>
 
 
 

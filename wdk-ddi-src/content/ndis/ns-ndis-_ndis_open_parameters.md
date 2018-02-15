@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb61026c-311b-41d1-9fcb-3ac44df2025e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OPEN_PARAMETERS, _NDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_open_parameters, *PNDIS_OPEN_PARAMETERS, protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml, ndis/NDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS
+ms.keywords: protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS, _NDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS, ndis/NDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters, ndis/PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,10 +159,6 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
 ## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
@@ -172,6 +168,10 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
 
 
 

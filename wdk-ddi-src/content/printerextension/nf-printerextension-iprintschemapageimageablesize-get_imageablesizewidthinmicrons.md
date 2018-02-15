@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 46556C6E-B231-400D-8F0A-86FC1CD5D4B6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: get_ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize, printerextension/IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons, print.iprintschemapageimageablesize_imageablesizewidthinmicrons, IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons, ImageableSizeWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, ImageableSizeWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices], ImageableSizeWidthInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeWidthInMicrons
+ms.keywords: IPrintSchemaPageImageableSize.ImageableSizeWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons, get_ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize interface [Print Devices], ImageableSizeWidthInMicrons property, print.iprintschemapageimageablesize_imageablesizewidthinmicrons, IPrintSchemaPageImageableSize, ImageableSizeWidthInMicrons property [Print Devices], ImageableSizeWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 669ef35f-0e59-4ec3-b6cc-5cb2156b51a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, netvista.ndis_wwan_service_activation_status, NDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
+ms.keywords: NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_service_activation_status, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -248,12 +248,12 @@ A formatted
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_service_activation_status.md">
    WWAN_SERVICE_ACTIVATION_STATUS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

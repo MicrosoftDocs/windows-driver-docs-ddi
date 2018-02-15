@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cbd1cd9b-c3bd-4827-88e6-4b80d6ba7320
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksdiscard, KsDiscard, avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, ks/KsDiscard, KsDiscard function [Streaming Media Devices]
+ms.keywords: avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, KsDiscard function [Streaming Media Devices], KsDiscard, ks/KsDiscard, stream.ksdiscard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,15 +96,15 @@ This function is implemented as a C-style preprocessing macro in the <i>Ks.h</i>
 
 
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
-
-
-
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
 
 
 

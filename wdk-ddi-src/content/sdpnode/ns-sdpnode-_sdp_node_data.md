@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: ce1f9f1b-2215-4b39-b5e6-a5076f02af64
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: sdpnode/PSDP_NODE_DATA, SDP_NODE_DATA union [Bluetooth Devices], PSDP_NODE_DATA, PSDP_NODE_DATA union pointer [Bluetooth Devices], sdpnode/SDP_NODE_DATA, SDP_NODE_DATA, bth_structs_c97da04d-31d0-4e0b-b909-9a1fae7d53dd.xml, *PSDP_NODE_DATA, bltooth.sdp_node_data, _SDP_NODE_DATA
+ms.keywords: PSDP_NODE_DATA union pointer [Bluetooth Devices], bth_structs_c97da04d-31d0-4e0b-b909-9a1fae7d53dd.xml, sdpnode/SDP_NODE_DATA, PSDP_NODE_DATA, _SDP_NODE_DATA, bltooth.sdp_node_data, SDP_NODE_DATA, *PSDP_NODE_DATA, SDP_NODE_DATA union [Bluetooth Devices], sdpnode/PSDP_NODE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

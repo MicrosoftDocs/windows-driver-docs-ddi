@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fba8bc7d-b776-44e8-a4bf-12de707f2e4f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicesetpnpcapabilities, DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, PFN_WDFDEVICESETPNPCAPABILITIES, WdfDeviceSetPnpCapabilities method, wdf.wdfdevicesetpnpcapabilities, WdfDeviceSetPnpCapabilities, wdfdevice/WdfDeviceSetPnpCapabilities
+ms.keywords: wdf.wdfdevicesetpnpcapabilities, DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, WdfDeviceSetPnpCapabilities method, wdfdevice/WdfDeviceSetPnpCapabilities, WdfDeviceSetPnpCapabilities, PFN_WDFDEVICESETPNPCAPABILITIES, kmdf.wdfdevicesetpnpcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,11 +162,11 @@ WdfDeviceSetPnpCapabilities(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_pnp_capabilities_init.md">WDF_DEVICE_PNP_CAPABILITIES_INIT</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_pnp_capabilities_init.md">WDF_DEVICE_PNP_CAPABILITIES_INIT</a>
 
 
 

@@ -83,6 +83,8 @@ A handle to the display adapter.
 
 
 
+
+
 #### - Map [in]
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
@@ -92,6 +94,8 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAP
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+
 
 

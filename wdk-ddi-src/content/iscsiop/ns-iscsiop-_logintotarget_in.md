@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f25b503b-0182-452d-8561-b3c82f595f81
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml, *PLoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], storage.logintotarget_in, LoginToTarget_IN, PLoginToTarget_IN, iscsiop/LoginToTarget_IN, _LoginToTarget_IN, LoginToTarget_IN structure [Storage Devices], iscsiop/PLoginToTarget_IN
+ms.keywords: "_LoginToTarget_IN, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml, iscsiop/PLoginToTarget_IN, PLoginToTarget_IN, LoginToTarget_IN, storage.logintotarget_in, PLoginToTarget_IN structure pointer [Storage Devices], iscsiop/LoginToTarget_IN, *PLoginToTarget_IN, LoginToTarget_IN structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -167,26 +167,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="..\iscsimgt\ns-iscsimgt-_iscsi_portalinfo.md">ISCSI_PortalInfo</a>
 
 
@@ -195,7 +175,27 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
+
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
+
+
+<a href="..\iscsiop\ne-iscsiop-ploginsessiontype.md">LOGINSESSIONTYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 

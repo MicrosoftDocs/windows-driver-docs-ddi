@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 235DA791-D4D1-486C-B136-3703E62E91E2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient7_setclientcontext, SetClientContext method [Windows Debugging], dbgeng/IDebugClient7::SetClientContext, IDebugClient7::SetClientContext, IDebugClient7 interface [Windows Debugging], SetClientContext method, IDebugClient7, SetClientContext, SetClientContext method [Windows Debugging], IDebugClient7 interface
+ms.keywords: debugger.idebugclient7_setclientcontext, dbgeng/IDebugClient7::SetClientContext, IDebugClient7, SetClientContext, SetClientContext method [Windows Debugging], IDebugClient7 interface, IDebugClient7 interface [Windows Debugging], SetClientContext method, SetClientContext method [Windows Debugging], IDebugClient7::SetClientContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

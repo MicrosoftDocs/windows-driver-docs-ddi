@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a594e436-3b37-4bba-ba9d-65159fdfb7ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup::GetSymbolName, GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup::GetSymbolName, IDebugSymbolGroup, IDebugSymbolGroup2::GetSymbolName, GetSymbolName method [Windows Debugging], ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, dbgeng/IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method, GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface, debugger.getsymbolname, GetSymbolName
+ms.keywords: GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup::GetSymbolName, GetSymbolName method [Windows Debugging], ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup, debugger.getsymbolname, GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup::GetSymbolName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,7 +141,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
@@ -149,7 +149,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 

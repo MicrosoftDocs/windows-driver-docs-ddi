@@ -136,11 +136,11 @@ The user-mode driver might need to call the kernel-mode driver to perform these 
 
 ## -see-also
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_check_direct_flip_flags.md">D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
 
 
 
@@ -148,7 +148,7 @@ The user-mode driver might need to call the kernel-mode driver to perform these 
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_check_direct_flip_flags.md">D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
 
 
 

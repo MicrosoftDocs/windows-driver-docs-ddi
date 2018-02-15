@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5207e880-67cb-4cd5-9884-a01e6dd20201
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], *LPRILOSGEOLOCATIONINFO, rilapitypes/RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, netvista.rilosgeolocationinfo_2
+ms.keywords: RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo_2, RILOSGEOLOCATIONINFO, *LPRILOSGEOLOCATIONINFO, rilapitypes/RILOSGEOLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -163,11 +163,11 @@ For each state object that it offloads, the offload target must also supply a PV
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 

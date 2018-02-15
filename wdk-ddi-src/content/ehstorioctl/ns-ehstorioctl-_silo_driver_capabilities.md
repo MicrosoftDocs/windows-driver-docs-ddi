@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES, CAP_ON_DEMAND_AUTHENTICATION, SILO_DRIVER_CAPABILITIES structure [Storage Devices], storage.silo_driver_capabilities, CAP_BANDING_SUPPORT
+ms.keywords: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], CAP_ON_DEMAND_AUTHENTICATION, SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], ehstorioctl/SILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, storage.silo_driver_capabilities, _SILO_DRIVER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

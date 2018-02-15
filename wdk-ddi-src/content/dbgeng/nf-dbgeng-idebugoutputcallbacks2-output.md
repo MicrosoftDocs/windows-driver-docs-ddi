@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3C1A9993-8E95-455C-BC1D-DD2526A156D9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging], Output method, dbgeng/IDebugOutputCallbacks2::Output, IDebugOutputCallbacks2::Output, IDebugOutputCallbacks2, Output, Output method [Windows Debugging], debugger.idebugoutputcallbacks2_output, Output method [Windows Debugging], IDebugOutputCallbacks2 interface
+ms.keywords: debugger.idebugoutputcallbacks2_output, Output method [Windows Debugging], Output, Output method [Windows Debugging], IDebugOutputCallbacks2 interface, dbgeng/IDebugOutputCallbacks2::Output, IDebugOutputCallbacks2 interface [Windows Debugging], Output method, IDebugOutputCallbacks2, IDebugOutputCallbacks2::Output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

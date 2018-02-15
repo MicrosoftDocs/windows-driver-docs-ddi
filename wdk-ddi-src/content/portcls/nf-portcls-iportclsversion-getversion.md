@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IPortClsVersion interface [Audio Devices], GetVersion method, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, GetVersion method [Audio Devices], IPortClsVersion interface, portcls/IPortClsVersion::GetVersion, IPortClsVersion::GetVersion, GetVersion method [Audio Devices], GetVersion, IPortClsVersion, audio.iportclsversion_getversion
+ms.keywords: portcls/IPortClsVersion::GetVersion, IPortClsVersion interface [Audio Devices], GetVersion method, audio.iportclsversion_getversion, GetVersion method [Audio Devices], GetVersion, IPortClsVersion::GetVersion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, GetVersion method [Audio Devices], IPortClsVersion interface, IPortClsVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

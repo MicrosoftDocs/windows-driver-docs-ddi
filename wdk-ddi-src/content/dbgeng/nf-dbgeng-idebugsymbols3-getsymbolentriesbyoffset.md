@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 93df59dc-adae-49b7-acf4-1cfdd142fd96
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method, dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols3, GetSymbolEntriesByOffset method [Windows Debugging], debugger.getsymbolentriesbyoffset, IDebugSymbols3::GetSymbolEntriesByOffset, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntriesByOffset
+ms.keywords: debugger.getsymbolentriesbyoffset, GetSymbolEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSymbolEntriesByOffset, GetSymbolEntriesByOffset, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByOffset method, IDebugSymbols_dba4bc10-a8a8-476d-b668-652c24743ea5.xml, IDebugSymbols3, GetSymbolEntriesByOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetSymbolEntriesByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,11 +141,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548458">GetSymbolEntriesByName</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

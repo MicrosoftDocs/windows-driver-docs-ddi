@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7288a7e5-8e64-4ac3-9779-edc27a3888bb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfobjectcontextgetobject, WdfObjectContextGetObject, WdfObjectContextGetObject method, PFN_WDFOBJECTCONTEXTGETOBJECT, DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, kmdf.wdfobjectcontextgetobject, wdfobject/WdfObjectContextGetObject
+ms.keywords: wdf.wdfobjectcontextgetobject, DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, PFN_WDFOBJECTCONTEXTGETOBJECT, wdfobject/WdfObjectContextGetObject, WdfObjectContextGetObject method, kmdf.wdfobjectcontextgetobject, WdfObjectContextGetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0fc80a67-de81-4cdf-8c38-bbf78c62d017
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_VIDEOCOMPRESSION_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_VIDEOCOMPRESSION_S, PKSPROPERTY_VIDEOCOMPRESSION_S, KSPROPERTY_VIDEOCOMPRESSION_S, *PKSPROPERTY_VIDEOCOMPRESSION_S, stream.ksproperty_videocompression_s, PKSPROPERTY_VIDEOCOMPRESSION_S structure pointer [Streaming Media Devices], vidcapstruct_c3680216-5804-48a0-beac-f1b8c24b9eb5.xml, ksmedia/KSPROPERTY_VIDEOCOMPRESSION_S
+ms.keywords: KSPROPERTY_VIDEOCOMPRESSION_S structure [Streaming Media Devices], KSPROPERTY_VIDEOCOMPRESSION_S, stream.ksproperty_videocompression_s, PKSPROPERTY_VIDEOCOMPRESSION_S structure pointer [Streaming Media Devices], *PKSPROPERTY_VIDEOCOMPRESSION_S, ksmedia/PKSPROPERTY_VIDEOCOMPRESSION_S, vidcapstruct_c3680216-5804-48a0-beac-f1b8c24b9eb5.xml, ksmedia/KSPROPERTY_VIDEOCOMPRESSION_S, PKSPROPERTY_VIDEOCOMPRESSION_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,15 +95,7 @@ All KSPROPERTY_VIDEOCOMPRESSION properties that use this structure are read/writ
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565986">KSPROPERTY_VIDEOCOMPRESSION_KEYFRAME_RATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566009">KSPROPERTY_VIDEOCOMPRESSION_PFRAMES_PER_KEYFRAME</a>
-
-
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567813">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
 
 
 
@@ -111,7 +103,7 @@ All KSPROPERTY_VIDEOCOMPRESSION properties that use this structure are read/writ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567813">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566019">KSPROPERTY_VIDEOCOMPRESSION_WINDOWSIZE</a>
 
 
 
@@ -119,11 +111,19 @@ All KSPROPERTY_VIDEOCOMPRESSION properties that use this structure are read/writ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566019">KSPROPERTY_VIDEOCOMPRESSION_WINDOWSIZE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566004">KSPROPERTY_VIDEOCOMPRESSION_OVERRIDE_KEYFRAME</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565986">KSPROPERTY_VIDEOCOMPRESSION_KEYFRAME_RATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566009">KSPROPERTY_VIDEOCOMPRESSION_PFRAMES_PER_KEYFRAME</a>
 
 
 

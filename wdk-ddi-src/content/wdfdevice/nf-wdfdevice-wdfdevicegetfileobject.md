@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2e56d444-4248-4f00-b712-cbb3a4869302
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicegetfileobject, DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml, wdfdevice/WdfDeviceGetFileObject, WdfDeviceGetFileObject, PFN_WDFDEVICEGETFILEOBJECT, WdfDeviceGetFileObject method, wdf.wdfdevicegetfileobject
+ms.keywords: WdfDeviceGetFileObject, wdfdevice/WdfDeviceGetFileObject, PFN_WDFDEVICEGETFILEOBJECT, kmdf.wdfdevicegetfileobject, DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml, wdf.wdfdevicegetfileobject, WdfDeviceGetFileObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

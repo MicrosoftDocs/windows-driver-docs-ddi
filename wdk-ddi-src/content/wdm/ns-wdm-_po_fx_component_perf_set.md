@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2305BE73-8363-4534-A64D-06C91F636E2F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_SET, *PPO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET, wdm/PPO_FX_COMPONENT_PERF_SET, wdm/PO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_PERF_SET, kernel.po_fx_component_perf_set
+ms.keywords: PO_FX_COMPONENT_PERF_SET, wdm/PO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET, *PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], kernel.po_fx_component_perf_set, _PO_FX_COMPONENT_PERF_SET, wdm/PPO_FX_COMPONENT_PERF_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07cabd0e-5b5c-42ff-9b2a-57bec527d690
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_GETMULTISAMPLEMETHODLIST, _D3DDDICB_GETMULTISAMPLEMETHODLIST, display.d3dddicb_getmultisamplemethodlist, D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices]
+ms.keywords: D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices], display.d3dddicb_getmultisamplemethodlist, D3DDDICB_GETMULTISAMPLEMETHODLIST, D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, _D3DDDICB_GETMULTISAMPLEMETHODLIST, d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,11 +117,11 @@ If the runtime returns a non-<b>NULL</b> value in the <b>pMethodList</b> member,
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
-
-
-
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
 
 
 

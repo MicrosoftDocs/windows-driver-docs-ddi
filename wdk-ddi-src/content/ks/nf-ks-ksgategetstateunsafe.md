@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f5976125-4ff4-48c2-a5c7-8e9fb2f8a0c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateGetStateUnsafe, ks/KsGateGetStateUnsafe, avfunc_1f18b601-daaf-4df2-98c2-a91646f84c0d.xml, stream.ksgategetstateunsafe, KsGateGetStateUnsafe function [Streaming Media Devices]
+ms.keywords: avfunc_1f18b601-daaf-4df2-98c2-a91646f84c0d.xml, stream.ksgategetstateunsafe, ks/KsGateGetStateUnsafe, KsGateGetStateUnsafe, KsGateGetStateUnsafe function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

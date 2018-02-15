@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8e56ef0a-c652-4fca-ad87-4a0495c8de2e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winspool/LPBIDI_RESPONSE_DATA, winspool/PBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA, spoolfnc_eb6aa91d-8fbc-4079-a8b8-57d5c3ff7abf.xml, print.bidi_response_data, LPBIDI_RESPONSE_DATA structure pointer [Print Devices], _BIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA, winspool/BIDI_RESPONSE_DATA, *LPBIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA structure [Print Devices], PBIDI_RESPONSE_DATA structure pointer [Print Devices], LPBIDI_RESPONSE_DATA
+ms.keywords: LPBIDI_RESPONSE_DATA structure pointer [Print Devices], spoolfnc_eb6aa91d-8fbc-4079-a8b8-57d5c3ff7abf.xml, *PBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA, winspool/LPBIDI_RESPONSE_DATA, winspool/PBIDI_RESPONSE_DATA, print.bidi_response_data, *LPBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA structure pointer [Print Devices], BIDI_RESPONSE_DATA structure [Print Devices], _BIDI_RESPONSE_DATA, LPBIDI_RESPONSE_DATA, winspool/BIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

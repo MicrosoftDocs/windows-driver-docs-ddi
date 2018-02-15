@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7ffb818d-7c58-4c84-997b-1703f480aaf0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCOMMONBUFFERGETLENGTH, WdfCommonBufferGetLength, wdfcommonbuffer/WdfCommonBufferGetLength, kmdf.wdfcommonbuffergetlength, DFCommonBufferObjectRef_cf0ad31e-c159-4cac-846c-52bb280b3d52.xml, WdfCommonBufferGetLength method, wdf.wdfcommonbuffergetlength
+ms.keywords: PFN_WDFCOMMONBUFFERGETLENGTH, DFCommonBufferObjectRef_cf0ad31e-c159-4cac-846c-52bb280b3d52.xml, WdfCommonBufferGetLength, kmdf.wdfcommonbuffergetlength, wdf.wdfcommonbuffergetlength, wdfcommonbuffer/WdfCommonBufferGetLength, WdfCommonBufferGetLength method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

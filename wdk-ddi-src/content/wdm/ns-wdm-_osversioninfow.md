@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04e50a2c-eb85-4fc8-9751-798397eddf95
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_OSVERSIONINFOW, *POSVERSIONINFOW, RTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, OSVERSIONINFO, *PRTL_OSVERSIONINFOW, kernel.rtl_osversioninfow, wdm/PRTL_OSVERSIONINFOW, wdm/RTL_OSVERSIONINFOW, OSVERSIONINFOW, *LPOSVERSIONINFOW, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], PRTL_OSVERSIONINFOW"
+ms.keywords: wdm/RTL_OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW, OSVERSIONINFOW, OSVERSIONINFO, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], *PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW, kernel.rtl_osversioninfow, PRTL_OSVERSIONINFOW, _OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], wdm/PRTL_OSVERSIONINFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,15 +114,15 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 
 
 <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
 
 

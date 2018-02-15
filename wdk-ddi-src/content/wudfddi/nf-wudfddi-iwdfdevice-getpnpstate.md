@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7214a0e9-5519-4daa-bd2f-cc3c697dd867
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice, GetPnpState method, wudfddi/IWDFDevice::GetPnpState, GetPnpState, wdf.iwdfdevice_getpnpstate, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, IWDFDevice::GetPnpState, GetPnpState method, IWDFDevice interface, IWDFDevice interface, GetPnpState method, umdf.iwdfdevice_getpnpstate
+ms.keywords: GetPnpState method, IWDFDevice interface, IWDFDevice::GetPnpState, IWDFDevice interface, GetPnpState method, wudfddi/IWDFDevice::GetPnpState, wdf.iwdfdevice_getpnpstate, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, GetPnpState, IWDFDevice, umdf.iwdfdevice_getpnpstate, GetPnpState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

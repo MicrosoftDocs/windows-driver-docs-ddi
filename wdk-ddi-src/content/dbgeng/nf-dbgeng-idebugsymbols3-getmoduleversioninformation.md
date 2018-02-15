@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: af655cd2-2e1f-4d78-aff3-3875106b50bc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, dbgeng/IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2, IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, GetModuleVersionInformation, IDebugSymbols3
+ms.keywords: IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, dbgeng/IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols2, GetModuleVersionInformation, dbgeng/IDebugSymbols2::GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols3, GetModuleVersionInformation method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -170,11 +170,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 

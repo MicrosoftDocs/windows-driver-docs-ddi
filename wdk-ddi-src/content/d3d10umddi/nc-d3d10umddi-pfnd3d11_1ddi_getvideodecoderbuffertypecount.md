@@ -40,7 +40,7 @@ apiname:
 -	pfnGetVideoDecoderBufferTypeCount
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT callback
@@ -75,8 +75,9 @@ VOID APIENTRY* pfnGetVideoDecoderBufferTypeCount(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -90,33 +91,39 @@ A handle to the display device (graphics context).
 
 
 
-#### - pDecodeDesc [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
-
-
 #### - pBufferTypeCount [out]
 
 A pointer to a UINT value that specifies the maximum number of buffer types that the driver supports for the specified video decoder operation.
 
 
+#### - pDecodeDesc [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The Microsoft Direct3D runtime verifies that the <i>pDecodeDesc</i>  parameter data is valid before it calls the <b>GetVideoDecoderBufferTypeCount</b> function.
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a>
+
+
 
  
 

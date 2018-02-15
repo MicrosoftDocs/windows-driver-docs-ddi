@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2da4b4ea-1cbb-43f7-9001-44b07a3e9ef7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPreDeviceInstall, DFCoinstallerRef_0d1aca8b-f318-42c4-a74d-bd69d272ceec.xml, kmdf.wdfpredeviceinstall, wdfinstaller/WdfPreDeviceInstall, WdfPreDeviceInstall function, wdf.wdfpredeviceinstall, PFN_WDFPREDEVICEINSTALL
+ms.keywords: WdfPreDeviceInstall, DFCoinstallerRef_0d1aca8b-f318-42c4-a74d-bd69d272ceec.xml, wdf.wdfpredeviceinstall, WdfPreDeviceInstall function, wdfinstaller/WdfPreDeviceInstall, PFN_WDFPREDEVICEINSTALL, kmdf.wdfpredeviceinstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

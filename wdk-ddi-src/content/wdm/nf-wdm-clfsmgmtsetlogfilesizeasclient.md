@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C049A6BE-6E2B-46F2-B7CF-316E4CDB35E4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, ClfsMgmtSetLogFileSizeAsClient, wdm/ClfsMgmtSetLogFileSizeAsClient
+ms.keywords: kernel.clfsmgmtsetlogfilesizeasclient_, ClfsMgmtSetLogFileSizeAsClient, wdm/ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

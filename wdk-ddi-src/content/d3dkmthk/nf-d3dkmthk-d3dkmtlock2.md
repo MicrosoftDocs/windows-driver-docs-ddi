@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 033FF321-2617-4AAF-8445-10800411F0B5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtlock2, D3DKMTLock2 function [Display Devices], d3dkmthk/D3DKMTLock2, D3DKMTLock2
+ms.keywords: d3dkmthk/D3DKMTLock2, D3DKMTLock2, display.d3dkmtlock2, D3DKMTLock2 function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

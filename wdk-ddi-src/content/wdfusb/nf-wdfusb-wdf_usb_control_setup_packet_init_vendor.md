@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 58774dcf-f48c-4d39-acbe-fe09b4c52d81
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_e29c876f-b916-47a4-af86-2597c8ba3e21.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR function, kmdf.wdf_usb_control_setup_packet_init_vendor, wdf.wdf_usb_control_setup_packet_init_vendor, WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR
+ms.keywords: wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR, WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR, kmdf.wdf_usb_control_setup_packet_init_vendor, WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR function, wdf.wdf_usb_control_setup_packet_init_vendor, DFUsbRef_e29c876f-b916-47a4-af86-2597c8ba3e21.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,7 +192,7 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
 
 
 
@@ -200,11 +200,7 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR(
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
-
-
-
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
 
 
 
@@ -212,11 +208,15 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR(
 
 
 
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
+
+
+
 <a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
 
 
 

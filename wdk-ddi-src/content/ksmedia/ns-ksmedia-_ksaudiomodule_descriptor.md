@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3A991D49-B873-4C03-8A5B-D91EB5E63192
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ksmedia/PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], KSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR, _KSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], ksmedia/KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
+ms.keywords: ksmedia/PKSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, *PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], ksmedia/KSAUDIOMODULE_DESCRIPTOR, _KSAUDIOMODULE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

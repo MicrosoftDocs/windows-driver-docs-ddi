@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e8f91713-ea1d-4262-bc0b-dd4e39d1c2c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputIdentityWide, IDebugClient5, OutputIdentityWide method [Windows Debugging], IDebugClient5 interface, debugger.outputidentitywide, OutputIdentityWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], OutputIdentityWide method, IDebugClient5::OutputIdentityWide, dbgeng/IDebugClient5::OutputIdentityWide
+ms.keywords: IDebugClient5 interface [Windows Debugging], OutputIdentityWide method, OutputIdentityWide, IDebugClient5::OutputIdentityWide, IDebugClient5, dbgeng/IDebugClient5::OutputIdentityWide, OutputIdentityWide method [Windows Debugging], debugger.outputidentitywide, OutputIdentityWide method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

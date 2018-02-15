@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39f541be-c514-4cd4-bf7d-03b7a318b663
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisoffloadtcpreceivereturn, NdisOffloadTcpReceiveReturn, tcp_chim_ndis_func_2fe6d15f-5e88-4aec-9c5b-281b0e002d8f.xml, NdisOffloadTcpReceiveReturn function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceiveReturn
+ms.keywords: NdisOffloadTcpReceiveReturn, netvista.ndisoffloadtcpreceivereturn, ndischimney/NdisOffloadTcpReceiveReturn, tcp_chim_ndis_func_2fe6d15f-5e88-4aec-9c5b-281b0e002d8f.xml, NdisOffloadTcpReceiveReturn function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,12 +137,12 @@ The same PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 ## -see-also
 
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
    MiniportTcpOffloadReceiveReturn</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
 
 
 

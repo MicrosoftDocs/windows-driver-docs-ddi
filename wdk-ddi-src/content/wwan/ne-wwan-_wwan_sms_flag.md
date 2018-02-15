@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6620d6c8-2b8a-440e-acf4-fb08570b13bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanSmsFlagOld, *PWWAN_SMS_FLAG, wwan/WwanSmsFlagOld, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_SMS_FLAG, PWWAN_SMS_FLAG, wwan/WwanSmsFlagDraft, wwan/WwanSmsFlagMax, WwanSmsFlagMax, WwanSmsFlagIndex, WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WwanSmsFlagIndex, wwan/WwanSmsFlagNew, WwanSmsFlagNew, wwan/PWWAN_SMS_FLAG, wwan/WwanSmsFlagSent, netvista.wwan_sms_flag, WwanSmsFlagAll, wwan/WWAN_SMS_FLAG, WWAN_SMS_FLAG, WwanSmsFlagSent, wwan/WwanSmsFlagAll, WwanSmsFlagDraft
+ms.keywords: wwan/PWWAN_SMS_FLAG, PWWAN_SMS_FLAG, wwan/WWAN_SMS_FLAG, WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WwanSmsFlagNew, *PWWAN_SMS_FLAG, WwanSmsFlagSent, WwanSmsFlagNew, netvista.wwan_sms_flag, WWAN_SMS_FLAG, _WWAN_SMS_FLAG, WwanSmsFlagIndex, wwan/WwanSmsFlagAll, WwanSmsFlagMax, wwan/WwanSmsFlagMax, wwan/WwanSmsFlagIndex, wwan/WwanSmsFlagDraft, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], WwanSmsFlagAll, wwan/WwanSmsFlagSent, WwanSmsFlagDraft, WwanSmsFlagOld, wwan/WwanSmsFlagOld
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

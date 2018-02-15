@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a339457-77df-480b-adb8-9406507ec8d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml, fwpsk/FwpsFlowAssociateContext0, FwpsFlowAssociateContext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista], netvista.fwpsflowassociatecontext0
+ms.keywords: fwpsk/FwpsFlowAssociateContext0, wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml, netvista.fwpsflowassociatecontext0, FwpsFlowAssociateContext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -203,11 +203,11 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>
 
 
 
@@ -215,7 +215,15 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 
 
@@ -224,14 +232,6 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 

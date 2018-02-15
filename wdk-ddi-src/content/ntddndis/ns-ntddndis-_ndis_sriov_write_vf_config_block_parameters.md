@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bcf20a21-46a8-41e6-ae6e-bef8d6735c82
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, netvista.ndis_sriov_write_vf_config_block_parameters
+ms.keywords: ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS, netvista.ndis_sriov_write_vf_config_block_parameters, NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,11 +146,11 @@ For more information about backchannel communication within the single root I/O 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451918">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451918">OID_SRIOV_WRITE_VF_CONFIG_BLOCK</a>
 
 
 

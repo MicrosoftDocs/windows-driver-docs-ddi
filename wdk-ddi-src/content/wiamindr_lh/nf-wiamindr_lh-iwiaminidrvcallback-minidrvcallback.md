@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 7d1c0d8a-65db-47fd-ad6a-a83c7ed3acd9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrvCallBack::MiniDrvCallback, CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, MiniDrvCallback, wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback, image.iwiaminidrvcallback_minidrvcallback, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack, IWiaMiniDrvCallBack interface [Imaging Devices], MiniDrvCallback method, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack interface
+ms.keywords: MiniDrvCallback method [Imaging Devices], wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback, CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, IWiaMiniDrvCallBack, IWiaMiniDrvCallBack::MiniDrvCallback, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack interface, image.iwiaminidrvcallback_minidrvcallback, MiniDrvCallback, IWiaMiniDrvCallBack interface [Imaging Devices], MiniDrvCallback method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -257,11 +257,11 @@ IT_MSG_FILE_PREVIEW_DATA_HEADER  is for out-of-band-data. This allows the applic
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
-
-
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvcallback.md">IWiaMiniDrvCallBack</a>
+
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
 
 

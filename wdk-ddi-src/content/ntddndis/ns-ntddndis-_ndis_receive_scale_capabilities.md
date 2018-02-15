@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dabd8f65-1aa5-4d45-9c0a-4539efd762c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6_EX, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6_EX, netvista.ndis_receive_scale_capabilities, NDIS_RECEIVE_SCALE_CAPABILITIES structure [Network Drivers Starting with Windows Vista], NdisHashFunctionReserved3, NDIS_RSS_CAPS_CLASSIFICATION_AT_DPC, NDIS_RSS_CAPS_SUPPORTS_MSI_X, *PNDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV4, receive_scaling_structures_ref_b9df619b-57b8-4fa3-b292-bba02175a23a.xml, ntddndis/NDIS_RECEIVE_SCALE_CAPABILITIES, NdisHashFunctionToeplitz, PNDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6, NdisHashFunctionReserved1, _NDIS_RECEIVE_SCALE_CAPABILITIES, ntddndis/PNDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RSS_CAPS_USING_MSI_X, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6, NdisHashFunctionReserved2, PNDIS_RECEIVE_SCALE_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_RSS_CAPS_CLASSIFICATION_AT_ISR, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV4, NDIS_RSS_CAPS_MESSAGE_SIGNALED_INTERRUPTS
+ms.keywords: ntddndis/NDIS_RECEIVE_SCALE_CAPABILITIES, NdisHashFunctionReserved2, ntddndis/PNDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6, _NDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6_EX, NDIS_RSS_CAPS_USING_MSI_X, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV4, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6_EX, NdisHashFunctionReserved3, NDIS_RSS_CAPS_SUPPORTS_MSI_X, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV4, PNDIS_RECEIVE_SCALE_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_SCALE_CAPABILITIES structure [Network Drivers Starting with Windows Vista], NDIS_RSS_CAPS_MESSAGE_SIGNALED_INTERRUPTS, netvista.ndis_receive_scale_capabilities, NDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RSS_CAPS_CLASSIFICATION_AT_DPC, *PNDIS_RECEIVE_SCALE_CAPABILITIES, NdisHashFunctionReserved1, receive_scaling_structures_ref_b9df619b-57b8-4fa3-b292-bba02175a23a.xml, NDIS_RSS_CAPS_CLASSIFICATION_AT_ISR, PNDIS_RECEIVE_SCALE_CAPABILITIES, NdisHashFunctionToeplitz, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -309,20 +309,15 @@ For some workloads, a subset of UDP packets could be fragmented due to route cha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
 
 
@@ -331,7 +326,12 @@ For some workloads, a subset of UDP packets could be fragmented due to route cha
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 

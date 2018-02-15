@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C2BA76C4-CCFB-4F0B-B5DC-3A35BD5A3884
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices], IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition interface [Print Devices], UserInputRequired property, get_UserInputRequired, IPrintSchemaParameterDefinition, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, IPrintSchemaParameterDefinition.UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired
+ms.keywords: UserInputRequired property [Print Devices], IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition, get_UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired, IPrintSchemaParameterDefinition.UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, IPrintSchemaParameterDefinition interface [Print Devices], UserInputRequired property, UserInputRequired property [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

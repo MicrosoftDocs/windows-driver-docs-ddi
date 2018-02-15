@@ -79,12 +79,16 @@ NTSTATUS APIENTRY DxgkDdiEscape(
 ### -param pEscape [in]
 
 [in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a> structure that contains information about the shared information.
-<div class="alert"><b>Note</b>  In order for the <b>DxgkDdiEscape</b> call to be made under the second level, the <b>HardwareAccess</b> flag must be set within the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a> structure that is a member of <i>DXGKARG_ESCAPE</i>. If this flag is not set, then the call will fail.</div><div> </div>
+
+<div class="alert"><b>Note</b>  In order for the <b>DxgkDdiEscape</b> call to be made under the second level, the <b>HardwareAccess</b> flag must be set within the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a> structure that is a member of <i>DXGKARG_ESCAPE</i>. If this flag is not set, then the call will fail.</div>
+<div> </div>
 
 ## -returns
 
 
+
 <i>DxgkDdiEscape</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,11 +160,14 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiEscape</i> function whenever the user-mode display driver must share information with the display miniport driver in a way that is not supported through other driver communications. 
@@ -169,13 +176,20 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 
 
-## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a>
+## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

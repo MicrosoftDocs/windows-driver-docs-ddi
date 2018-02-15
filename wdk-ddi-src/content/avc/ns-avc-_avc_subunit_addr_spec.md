@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.avc_subunit_addr_spec, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, *PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC
+ms.keywords: PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], stream.avc_subunit_addr_spec, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, *PAVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

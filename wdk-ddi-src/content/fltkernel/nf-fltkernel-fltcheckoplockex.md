@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2af1f496-48cf-4f99-a22b-cf7d1837617e
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltCheckOplockEx routine [Installable File System Drivers], ifsk.fltcheckoplockex, FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml, fltkernel/FltCheckOplockEx, FltCheckOplockEx
+ms.keywords: FltCheckOplockEx, fltkernel/FltCheckOplockEx, ifsk.fltcheckoplockex, FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml, FltCheckOplockEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -286,19 +286,7 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -306,11 +294,23 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>
 
 
 

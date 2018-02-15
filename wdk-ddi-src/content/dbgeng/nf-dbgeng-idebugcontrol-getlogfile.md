@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9d71a817-55b5-4042-8de8-15b23e51dffd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetLogFile method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetLogFile method, dbgeng/IDebugControl::GetLogFile, IDebugControl3 interface [Windows Debugging], GetLogFile method, IDebugControl2::GetLogFile, dbgeng/IDebugControl3::GetLogFile, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, IDebugControl3::GetLogFile, IDebugControl, GetLogFile method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetLogFile, IDebugControl::GetLogFile, GetLogFile method [Windows Debugging], GetLogFile, GetLogFile method [Windows Debugging], IDebugControl3 interface, debugger.getlogfile, IDebugControl2 interface [Windows Debugging], GetLogFile method
+ms.keywords: IDebugControl::GetLogFile, IDebugControl interface [Windows Debugging], GetLogFile method, IDebugControl2 interface [Windows Debugging], GetLogFile method, GetLogFile method [Windows Debugging], IDebugControl2 interface, GetLogFile method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetLogFile method, IDebugControl2::GetLogFile, GetLogFile, GetLogFile method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetLogFile, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, dbgeng/IDebugControl2::GetLogFile, GetLogFile method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetLogFile, IDebugControl3::GetLogFile, debugger.getlogfile, IDebugControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -155,6 +155,18 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
 
@@ -163,23 +175,11 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

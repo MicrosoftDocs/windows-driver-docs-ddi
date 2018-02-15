@@ -237,14 +237,6 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
@@ -258,6 +250,14 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
 
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
 
 

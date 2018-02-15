@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7e95a16e-e62d-49df-9889-fab0a85f9cbc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugAdvanced2::GetSystemObjectInformation, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3, IDebugAdvanced3::GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced2::GetSystemObjectInformation, dbgeng/IDebugAdvanced3::GetSystemObjectInformation, IDebugAdvanced2, debugger.getsystemobjectinformation, GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging], GetSystemObjectInformation method
+ms.keywords: IDebugAdvanced3::GetSystemObjectInformation, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2::GetSystemObjectInformation, GetSystemObjectInformation, debugger.getsystemobjectinformation, IDebugAdvanced3 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml, IDebugAdvanced2 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced2, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2 interface, dbgeng/IDebugAdvanced3::GetSystemObjectInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -157,14 +157,14 @@ Specifies the size, in bytes, of the buffer <i>Buffer</i>.
 Receives the size of the information that is returned.
 
 
-##### - Arg64.DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
-
-Not used.
-
-
 ##### - Arg32.DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
 
 The engine thread ID of the desired thread.
+
+
+##### - Arg64.DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
+
+Not used.
 
 
 ## -returns
@@ -208,11 +208,11 @@ The method was successful. However, the information would not fit in the buffer 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
 
 

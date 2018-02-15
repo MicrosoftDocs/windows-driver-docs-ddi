@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4f3f01f2-d5ef-4b41-8733-ac44952dc9a9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml, usbioctl/USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, _USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS union [Buses], usbioctl/PUSB_HUB_CAP_FLAGS"
+ms.keywords: "_USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], buses.usb_hub_cap_flags, usbioctl/PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml, *PUSB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS union [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,11 +125,11 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

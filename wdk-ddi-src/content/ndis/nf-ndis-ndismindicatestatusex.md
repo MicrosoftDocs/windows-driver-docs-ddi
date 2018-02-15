@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: df857349-4ae1-470b-b41a-ff014f40b79b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismindicatestatusex, NdisMIndicateStatusEx, NdisMIndicateStatusEx function [Network Drivers Starting with Windows Vista], ndis/NdisMIndicateStatusEx, ndis_status_ref_73b76336-b2c8-41f9-9d4f-12e5c5988a3d.xml
+ms.keywords: NdisMIndicateStatusEx function [Network Drivers Starting with Windows Vista], ndis/NdisMIndicateStatusEx, NdisMIndicateStatusEx, ndis_status_ref_73b76336-b2c8-41f9-9d4f-12e5c5988a3d.xml, netvista.ndismindicatestatusex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,7 +117,7 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 
 
@@ -125,11 +125,11 @@ A miniport driver can call
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 
 

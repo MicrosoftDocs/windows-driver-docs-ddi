@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetExcludeUnencrypted
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -89,13 +89,16 @@ A Boolean value that, if set to <b>TRUE</b>, configures the WLAN adapter to excl
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 If the WLAN adapter is enabled to exclude unencrypted packets, the station must exempt received
@@ -112,13 +115,20 @@ A call to the
 
 
 
+
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
+<a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
+
+
 
  
 

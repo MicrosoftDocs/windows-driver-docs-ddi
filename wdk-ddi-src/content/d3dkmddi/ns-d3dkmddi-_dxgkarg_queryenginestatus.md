@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7255c97-5c25-4ee2-988b-ff301878fe7c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_QUERYENGINESTATUS, d3dkmddi/DXGKARG_QUERYENGINESTATUS, *INOUT_PDXGKARG_QUERYENGINESTATUS, display.dxgkarg_queryenginestatus, DXGKARG_QUERYENGINESTATUS structure [Display Devices], DXGKARG_QUERYENGINESTATUS"
+ms.keywords: "*INOUT_PDXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS structure [Display Devices], d3dkmddi/DXGKARG_QUERYENGINESTATUS, _DXGKARG_QUERYENGINESTATUS, display.dxgkarg_queryenginestatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enginestatus.md">DXGK_ENGINESTATUS</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md">DxgkDdiQueryEngineStatus</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enginestatus.md">DXGK_ENGINESTATUS</a>
 
 
 

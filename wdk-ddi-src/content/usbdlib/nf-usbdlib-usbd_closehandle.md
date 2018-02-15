@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6876E96D-E249-4B7C-A496-27E3F4A7F7E2
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.usbd_unregister, usbdlib/USBD_CloseHandle, USBD_CloseHandle routine [Buses], USBD_CloseHandle
+ms.keywords: USBD_CloseHandle routine [Buses], usbdlib/USBD_CloseHandle, USBD_CloseHandle, buses.usbd_unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

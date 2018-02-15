@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 12b34b79-0154-4b25-83e7-b15642154b05
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdpc/WDF_DPC_CONFIG_INIT, kmdf.wdf_dpc_config_init, DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, wdf.wdf_dpc_config_init, WDF_DPC_CONFIG_INIT function, WDF_DPC_CONFIG_INIT
+ms.keywords: kmdf.wdf_dpc_config_init, wdf.wdf_dpc_config_init, DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, WDF_DPC_CONFIG_INIT, wdfdpc/WDF_DPC_CONFIG_INIT, WDF_DPC_CONFIG_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,11 +107,11 @@ For a code example that uses the <b>WDF_DPC_CONFIG_INIT</b> function, see <a hre
 
 ## -see-also
 
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
-
-
-
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
+
+
+
+<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
 
 
 

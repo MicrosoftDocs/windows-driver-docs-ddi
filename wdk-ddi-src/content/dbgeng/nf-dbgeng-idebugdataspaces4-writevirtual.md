@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 52813320-90a4-4dca-9b9c-44aa22fc49de
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.writevirtual, dbgeng/IDebugDataSpaces::WriteVirtual, IDebugDataSpaces::WriteVirtual, IDebugDataSpaces4, IDebugDataSpaces_2f8783ea-c7e4-438f-ad5b-898d0072a2f4.xml, WriteVirtual method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2::WriteVirtual, IDebugDataSpaces3::WriteVirtual, dbgeng/IDebugDataSpaces3::WriteVirtual, IDebugDataSpaces, IDebugDataSpaces4 interface [Windows Debugging], WriteVirtual method, WriteVirtual method [Windows Debugging], IDebugDataSpaces4 interface, WriteVirtual method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], WriteVirtual method, dbgeng/IDebugDataSpaces4::WriteVirtual, WriteVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces interface [Windows Debugging], WriteVirtual method, IDebugDataSpaces2 interface [Windows Debugging], WriteVirtual method, WriteVirtual, WriteVirtual method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces3, IDebugDataSpaces4::WriteVirtual, IDebugDataSpaces2, dbgeng/IDebugDataSpaces2::WriteVirtual
+ms.keywords: IDebugDataSpaces_2f8783ea-c7e4-438f-ad5b-898d0072a2f4.xml, IDebugDataSpaces4::WriteVirtual, WriteVirtual method [Windows Debugging], IDebugDataSpaces2 interface, debugger.writevirtual, dbgeng/IDebugDataSpaces::WriteVirtual, WriteVirtual, dbgeng/IDebugDataSpaces2::WriteVirtual, IDebugDataSpaces2, WriteVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3::WriteVirtual, IDebugDataSpaces interface [Windows Debugging], WriteVirtual method, dbgeng/IDebugDataSpaces4::WriteVirtual, IDebugDataSpaces3 interface [Windows Debugging], WriteVirtual method, IDebugDataSpaces3, WriteVirtual method [Windows Debugging], dbgeng/IDebugDataSpaces3::WriteVirtual, IDebugDataSpaces2 interface [Windows Debugging], WriteVirtual method, IDebugDataSpaces, IDebugDataSpaces::WriteVirtual, WriteVirtual method [Windows Debugging], IDebugDataSpaces interface, WriteVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], WriteVirtual method, IDebugDataSpaces2::WriteVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -134,7 +134,15 @@ This method may only write to a cache of memory data when storing data.  To avoi
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561473">WriteVirtualUncached</a>
 
 
 
@@ -147,14 +155,6 @@ This method may only write to a cache of memory data when storing data.  To avoi
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561473">WriteVirtualUncached</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
 
 
 

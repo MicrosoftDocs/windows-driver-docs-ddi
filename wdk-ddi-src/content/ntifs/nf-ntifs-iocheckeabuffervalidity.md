@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1f9a4fcb-0e70-4f13-bd38-e87bee909a26
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoCheckEaBufferValidity, ifsk.iocheckeabuffervalidity, ntifs/IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml
+ms.keywords: IoCheckEaBufferValidity function [Installable File System Drivers], ifsk.iocheckeabuffervalidity, ntifs/IoCheckEaBufferValidity, IoCheckEaBufferValidity, ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,11 +143,11 @@ To be valid, the EA buffer must meet all of these conditions.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
-
-
-
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
 
 
 

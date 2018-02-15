@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2bf90d1d-887f-4d0c-8d79-e102a14dfe71
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlDeleteAce, ifsk.rtldeleteace, ntifs/RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml
+ms.keywords: ntifs/RtlDeleteAce, ifsk.rtldeleteace, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml, RtlDeleteAce routine [Installable File System Drivers], RtlDeleteAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,11 +135,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+<a href="..\ntifs\nf-ntifs-rtladdace.md">RtlAddAce</a>
 
 
 
@@ -147,7 +143,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtladdace.md">RtlAddAce</a>
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 

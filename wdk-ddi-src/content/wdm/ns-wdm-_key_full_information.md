@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd099435-e3e3-4d78-a829-0f12f2db46d9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.key_full_information, PKEY_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], KEY_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_FULL_INFORMATION, wdm/KEY_FULL_INFORMATION, wdm/PKEY_FULL_INFORMATION, _KEY_FULL_INFORMATION, KEY_FULL_INFORMATION, PKEY_FULL_INFORMATION, kstruct_c_1b9700b5-eedf-4f0f-8b73-bf4b9cfa0ccd.xml
+ms.keywords: kstruct_c_1b9700b5-eedf-4f0f-8b73-bf4b9cfa0ccd.xml, PKEY_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.key_full_information, *PKEY_FULL_INFORMATION, wdm/KEY_FULL_INFORMATION, wdm/PKEY_FULL_INFORMATION, KEY_FULL_INFORMATION, _KEY_FULL_INFORMATION, PKEY_FULL_INFORMATION, KEY_FULL_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -144,7 +144,7 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
 
 
 
@@ -152,11 +152,15 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 
 
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
 
 
@@ -165,10 +169,6 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 
 <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
 
 
 

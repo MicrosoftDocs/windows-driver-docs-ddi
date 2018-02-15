@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 92DDF65E-4B5B-443A-9C90-3B1BB2DD3CAF
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT, buses.composite_driver_capabilities_init, COMPOSITE_DEVICE_CAPABILITIES_INIT
+ms.keywords: buses.composite_driver_capabilities_init, COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

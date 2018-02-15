@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7fc67320-6943-4e39-8474-28c24265eae2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFREQUESTCREATEFROMIRP, WdfRequestCreateFromIrp, wdfrequest/WdfRequestCreateFromIrp, WdfRequestCreateFromIrp method, wdf.wdfrequestcreatefromirp, DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml, kmdf.wdfrequestcreatefromirp
+ms.keywords: DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml, WdfRequestCreateFromIrp method, wdf.wdfrequestcreatefromirp, kmdf.wdfrequestcreatefromirp, PFN_WDFREQUESTCREATEFROMIRP, wdfrequest/WdfRequestCreateFromIrp, WdfRequestCreateFromIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -200,15 +200,7 @@ WdfObjectDelete(request);</pre>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 
 
 
@@ -216,11 +208,19 @@ WdfObjectDelete(request);</pre>
 
 
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
+
+
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 
 
 

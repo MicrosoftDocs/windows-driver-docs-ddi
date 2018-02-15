@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4c45be9f-3d07-4150-830a-3aa6d74531ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmoidrequestcomplete, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista], NdisMCmOidRequestComplete, ndis/NdisMCmOidRequestComplete, condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml
+ms.keywords: ndis/NdisMCmOidRequestComplete, NdisMCmOidRequestComplete, condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml, netvista.ndismcmoidrequestcomplete, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -111,6 +111,14 @@ An address family (AF) handle that NDIS passed to the MCM's
      ProtocolCoOidRequest</a> function.
 
 
+#### - NdisPartyHandle [in, optional]
+
+A party handle that NDIS passed to the MCM's 
+     <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
+     party-specific. This parameter is <b>NULL</b> if the caller of the 
+     <b>NdisCoOidRequest</b> function specified a <b>NULL</b> party handle.
+
+
 #### - NdisVcHandle [in, optional]
 
 A virtual connection (VC) handle that NDIS passed to the MCM's 
@@ -118,14 +126,6 @@ A virtual connection (VC) handle that NDIS passed to the MCM's
      VC-specific. This parameter is <b>NULL</b> if the caller of the 
      <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function specified a
      <b>NULL</b> VC handle.
-
-
-#### - NdisPartyHandle [in, optional]
-
-A party handle that NDIS passed to the MCM's 
-     <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
-     party-specific. This parameter is <b>NULL</b> if the caller of the 
-     <b>NdisCoOidRequest</b> function specified a <b>NULL</b> party handle.
 
 
 #### - OidRequest [in]
@@ -166,11 +166,11 @@ For more information about the OIDs defined to use with CONDIS drivers, see
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 

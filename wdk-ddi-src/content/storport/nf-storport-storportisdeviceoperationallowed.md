@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortIsDeviceOperationAllowed routine [Storage Devices], StorPortIsDeviceOperationAllowed, storport/StorPortIsDeviceOperationAllowed, storage.storportisdeviceoperationallowed, STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID
+ms.keywords: storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

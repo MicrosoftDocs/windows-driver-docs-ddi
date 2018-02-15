@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aecf5f5f-c0b7-487a-9db0-d01212aef094
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, fltkernel/FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], FltLoadFilter, ifsk.fltloadfilter
+ms.keywords: ifsk.fltloadfilter, FltLoadFilter routine [Installable File System Drivers], fltkernel/FltLoadFilter, FltLoadFilter, FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,11 +146,11 @@ To unload the supporting minifilter driver, call <a href="..\fltkernel\nf-fltker
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

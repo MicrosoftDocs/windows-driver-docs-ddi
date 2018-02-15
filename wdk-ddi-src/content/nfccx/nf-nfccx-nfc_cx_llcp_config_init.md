@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 03E15708-7983-41F5-BD66-F9E1117740A6
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NFC_CX_LLCP_CONFIG_INIT, nfpdrivers.nfc_cx_llcp_config_init, NFC_CX_LLCP_CONFIG_INIT, NFC_CX_LLCP_CONFIG_INIT function [Near-Field Proximity Drivers]
+ms.keywords: NFC_CX_LLCP_CONFIG_INIT, nfccx/NFC_CX_LLCP_CONFIG_INIT, nfpdrivers.nfc_cx_llcp_config_init, NFC_CX_LLCP_CONFIG_INIT function [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

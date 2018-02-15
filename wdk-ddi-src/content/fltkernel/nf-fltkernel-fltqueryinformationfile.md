@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f80750fb-4561-4617-bc54-1360b2e93a68
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltQueryInformationFile, FltQueryInformationFile function [Installable File System Drivers], ifsk.fltqueryinformationfile, FltApiRef_p_to_z_f6c70c3b-4b99-4ae9-ba01-789c4d3ab1c3.xml, FltQueryInformationFile
+ms.keywords: FltQueryInformationFile, ifsk.fltqueryinformationfile, fltkernel/FltQueryInformationFile, FltQueryInformationFile function [Installable File System Drivers], FltApiRef_p_to_z_f6c70c3b-4b99-4ae9-ba01-789c4d3ab1c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -285,23 +285,7 @@ Callers of <b>FltQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVE
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
 
 
 
@@ -309,15 +293,35 @@ Callers of <b>FltQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVE
 
 
 
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
 <a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformationfile.md">FltQueryVolumeInformationFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
 
 
 
@@ -329,11 +333,7 @@ Callers of <b>FltQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVE
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
 
 
 

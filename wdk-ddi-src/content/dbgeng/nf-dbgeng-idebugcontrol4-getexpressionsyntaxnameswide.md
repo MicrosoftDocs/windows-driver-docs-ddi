@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4d381718-366b-483b-804d-b12b31832b35
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide, IDebugControl4::GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide method [Windows Debugging], IDebugControl4 interface, GetExpressionSyntaxNamesWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExpressionSyntaxNamesWide method, GetExpressionSyntaxNamesWide method [Windows Debugging]
+ms.keywords: IDebugControl4, GetExpressionSyntaxNamesWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetExpressionSyntaxNamesWide method, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide, IDebugControl4::GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide method [Windows Debugging], IDebugControl4 interface, debugger.getexpressionsyntaxnameswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,7 +158,7 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 
@@ -166,11 +166,11 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 

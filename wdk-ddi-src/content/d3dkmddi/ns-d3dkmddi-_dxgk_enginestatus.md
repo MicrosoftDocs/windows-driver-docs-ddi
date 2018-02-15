@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e052e3bc-688e-4aa8-b987-88ed6963774a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_ENGINESTATUS structure [Display Devices], DXGK_ENGINESTATUS, display.dxgk_enginestatus, d3dkmddi/DXGK_ENGINESTATUS, _DXGK_ENGINESTATUS
+ms.keywords: display.dxgk_enginestatus, d3dkmddi/DXGK_ENGINESTATUS, _DXGK_ENGINESTATUS, DXGK_ENGINESTATUS, DXGK_ENGINESTATUS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6eb56c5b-d198-4542-a239-c54b49561196
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDpcCancel method, DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml, wdfdpc/WdfDpcCancel, kmdf.wdfdpccancel, wdf.wdfdpccancel, WdfDpcCancel
+ms.keywords: wdfdpc/WdfDpcCancel, wdf.wdfdpccancel, WdfDpcCancel, DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml, kmdf.wdfdpccancel, WdfDpcCancel method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

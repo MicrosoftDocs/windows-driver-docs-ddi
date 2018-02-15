@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ddff6e6e-d22f-4e22-af13-aca889eee0d4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtCreateDirectoryObject, ntifs/NtCreateDirectoryObject, ZwOpenDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], ntifs/ZwOpenDirectoryObject, k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, kernel.zwopendirectoryobject
+ms.keywords: ntifs/ZwOpenDirectoryObject, kernel.zwopendirectoryobject, NtCreateDirectoryObject, k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, ZwOpenDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], ntifs/NtCreateDirectoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -251,19 +251,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -272,6 +264,14 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

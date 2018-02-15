@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: efbe5526-274b-416b-8e5c-8b18fe754b43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryQueryUnicodeString method, kmdf.wdfregistryqueryunicodestring, wdf.wdfregistryqueryunicodestring, DFRegKeyObjectRef_3301cdb3-8fe5-4094-8fc2-717467802680.xml, PFN_WDFREGISTRYQUERYUNICODESTRING, wdfregistry/WdfRegistryQueryUnicodeString, WdfRegistryQueryUnicodeString
+ms.keywords: wdf.wdfregistryqueryunicodestring, DFRegKeyObjectRef_3301cdb3-8fe5-4094-8fc2-717467802680.xml, wdfregistry/WdfRegistryQueryUnicodeString, WdfRegistryQueryUnicodeString, kmdf.wdfregistryqueryunicodestring, PFN_WDFREGISTRYQUERYUNICODESTRING, WdfRegistryQueryUnicodeString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -273,15 +273,23 @@ SerialReadSymName(
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
-
-
-
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
 
 
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
 
 
 
@@ -293,15 +301,7 @@ SerialReadSymName(
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
 
 
 

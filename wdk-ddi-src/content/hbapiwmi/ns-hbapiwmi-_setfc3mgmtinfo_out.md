@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 00e6eb1a-3302-46ac-b859-9c22ad6cee22
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_86907ae9-a0a0-4836-a822-d07cd2adfdb0.xml, _SetFC3MgmtInfo_OUT, storage.setfc3mgmtinfo_out, PSetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT structure pointer [Storage Devices], hbapiwmi/SetFC3MgmtInfo_OUT, *PSetFC3MgmtInfo_OUT, hbapiwmi/PSetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT structure [Storage Devices]
+ms.keywords: storage.setfc3mgmtinfo_out, PSetFC3MgmtInfo_OUT structure pointer [Storage Devices], hbapiwmi/SetFC3MgmtInfo_OUT, structs-Fibre_86907ae9-a0a0-4836-a822-d07cd2adfdb0.xml, SetFC3MgmtInfo_OUT, *PSetFC3MgmtInfo_OUT, _SetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT structure [Storage Devices], hbapiwmi/PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

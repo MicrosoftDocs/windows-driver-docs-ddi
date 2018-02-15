@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1274EF11-6A0D-4464-992D-4E27C981971F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, *PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_translated_device_control_resources
+ms.keywords: "*PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_translated_device_control_resources"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,7 +112,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
@@ -120,7 +120,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
 
 
 

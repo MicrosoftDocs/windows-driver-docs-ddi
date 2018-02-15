@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: CcMdlWriteComplete, ifsk.ccmdlwritecomplete, CcMdlWriteComplete routine [Installable File System Drivers], ntifs/CcMdlWriteComplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml
+ms.keywords: CcMdlWriteComplete routine [Installable File System Drivers], ifsk.ccmdlwritecomplete, ntifs/CcMdlWriteComplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, CcMdlWriteComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,11 @@ Each call to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite<
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccmdlwriteabort.md">CcMdlWriteAbort</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
 
 
 

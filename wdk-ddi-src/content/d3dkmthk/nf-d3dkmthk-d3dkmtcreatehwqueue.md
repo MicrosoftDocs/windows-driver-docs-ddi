@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTCreateHwQueue, D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], display.d3dkmtcreatehwqueue
+ms.keywords: D3DKMTCreateHwQueue, display.d3dkmtcreatehwqueue, D3DKMTCreateHwQueue method [Display Devices], d3dkmthk/D3DKMTCreateHwQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

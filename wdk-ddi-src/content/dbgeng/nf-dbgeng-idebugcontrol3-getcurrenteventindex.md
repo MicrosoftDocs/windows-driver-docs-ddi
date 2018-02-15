@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 148cf294-0410-4704-93ce-338529a214ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface, GetCurrentEventIndex method [Windows Debugging], GetCurrentEventIndex, IDebugControl3, debugger.getcurrenteventindex, IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, dbgeng/IDebugControl3::GetCurrentEventIndex, IDebugControl3::GetCurrentEventIndex, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml
+ms.keywords: IDebugControl3, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, GetCurrentEventIndex method [Windows Debugging], IDebugControl3::GetCurrentEventIndex, debugger.getcurrenteventindex, dbgeng/IDebugControl3::GetCurrentEventIndex, IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, GetCurrentEventIndex, GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,11 +115,11 @@ Targets that do not have fixed sets of events will always return zero to <i>Inde
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE76DA51-400E-4F64-B8D9-8738D2F5031A
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOutputWidth method [Windows Debugging], GetOutputWidth, IDebugClient::GetOutputWidth, IDebugClient, debugger.idebugclient_getoutputwidth, dbgeng/IDebugClient::GetOutputWidth, GetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient interface [Windows Debugging], GetOutputWidth method
+ms.keywords: GetOutputWidth, GetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient::GetOutputWidth, dbgeng/IDebugClient::GetOutputWidth, IDebugClient interface [Windows Debugging], GetOutputWidth method, IDebugClient, GetOutputWidth method [Windows Debugging], debugger.idebugclient_getoutputwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: e6ec18a3-2da6-4b3a-afe3-17435463fd39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.pci_pmc, PCI_PMC structure [Buses], wdm/PPCI_PMC, _PCI_PMC, wdm/PCI_PMC, PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, *PPCI_PMC, PPCI_PMC structure pointer [Buses], PPCI_PMC
+ms.keywords: "*PPCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, PCI.pci_pmc, PPCI_PMC structure pointer [Buses], PCI_PMC structure [Buses], PCI_PMC, _PCI_PMC, wdm/PCI_PMC, PPCI_PMC, wdm/PPCI_PMC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9e75bb9a-e266-4321-8862-4bdfab300421
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS, _NDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_VF_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS, netvista.ndis_nic_switch_vf_parameters
+ms.keywords: ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS, netvista.ndis_nic_switch_vf_parameters, *PNDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -179,11 +179,11 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451824">OID_NIC_SWITCH_VF_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

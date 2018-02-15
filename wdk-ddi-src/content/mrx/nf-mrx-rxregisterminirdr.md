@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9c2fedd-b513-4ea9-b915-cdcc05b88d6f
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, ifsk.rxregisterminirdr, RxRegisterMinirdr function [Installable File System Drivers], RxRegisterMinirdr, mrx/RxRegisterMinirdr
+ms.keywords: ifsk.rxregisterminirdr, RxRegisterMinirdr, rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, RxRegisterMinirdr function [Installable File System Drivers], mrx/RxRegisterMinirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -299,7 +299,7 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
 
 
 
@@ -307,11 +307,7 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
 
 
@@ -319,11 +315,11 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 
 
-<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
-
-
-
 <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 
 
@@ -331,11 +327,15 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 
 
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
 
 
 
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
 
 
 

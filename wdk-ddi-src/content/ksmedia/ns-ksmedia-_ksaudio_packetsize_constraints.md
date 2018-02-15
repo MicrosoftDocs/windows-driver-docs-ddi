@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6BD3E98A-A2A5-4285-8F41-1445F90DD8EB
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: FILE_512_BYTE_ALIGNMENT, audio.ksaudio_packetsize_constraints, PKSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_LONG_ALIGNMENT, FILE_QUAD_ALIGNMENT, FILE_32_BYTE_ALIGNMENT, FILE_128_BYTE_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_BYTE_ALIGNMENT, FILE_64_BYTE_ALIGNMENT, FILE_WORD_ALIGNMENT, PKSAUDIO_PACKETSIZE_CONSTRAINTS structure pointer [Audio Devices], KSAUDIO_PACKETSIZE_CONSTRAINTS structure [Audio Devices], FILE_OCTA_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS, _KSAUDIO_PACKETSIZE_CONSTRAINTS
+ms.keywords: FILE_32_BYTE_ALIGNMENT, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_64_BYTE_ALIGNMENT, _KSAUDIO_PACKETSIZE_CONSTRAINTS, KSAUDIO_PACKETSIZE_CONSTRAINTS structure [Audio Devices], FILE_128_BYTE_ALIGNMENT, PKSAUDIO_PACKETSIZE_CONSTRAINTS structure pointer [Audio Devices], PKSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_QUAD_ALIGNMENT, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_512_BYTE_ALIGNMENT, FILE_BYTE_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS, FILE_256_BYTE_ALIGNMENT, FILE_OCTA_ALIGNMENT, FILE_LONG_ALIGNMENT, FILE_WORD_ALIGNMENT, audio.ksaudio_packetsize_constraints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -172,11 +172,11 @@ For WaveRT drivers, this data structure describes the constraints for a WaveRT p
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-_ksaudio_packetsize_signalprocessingmode_constraint.md">KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
 
 

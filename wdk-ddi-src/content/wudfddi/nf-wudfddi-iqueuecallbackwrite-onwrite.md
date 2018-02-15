@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a87a9976-f844-4e69-82d3-2d426e359763
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnWrite, OnWrite method, IQueueCallbackWrite interface, wdf.iqueuecallbackwrite_onwrite, IQueueCallbackWrite interface, OnWrite method, OnWrite method, umdf.iqueuecallbackwrite_onwrite, IQueueCallbackWrite, UMDFQueueObjectRef_77d33d9d-856e-4b3b-818d-37b0ad6889a7.xml, IQueueCallbackWrite::OnWrite, wudfddi/IQueueCallbackWrite::OnWrite
+ms.keywords: IQueueCallbackWrite::OnWrite, wdf.iqueuecallbackwrite_onwrite, OnWrite method, IQueueCallbackWrite, OnWrite method, IQueueCallbackWrite interface, IQueueCallbackWrite interface, OnWrite method, OnWrite, UMDFQueueObjectRef_77d33d9d-856e-4b3b-818d-37b0ad6889a7.xml, umdf.iqueuecallbackwrite_onwrite, wudfddi/IQueueCallbackWrite::OnWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,7 +117,7 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 
@@ -129,7 +129,7 @@ The driver can call the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 
 

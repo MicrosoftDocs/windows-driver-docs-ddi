@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28a802b3-f916-4455-a93a-868393a570cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTargetStateManagement interface, Remove method, Remove method, IWDFIoTargetStateManagement interface, umdf.iwdfiotargetstatemanagement_remove, wudfddi/IWDFIoTargetStateManagement::Remove, Remove, IWDFIoTargetStateManagement::Remove, Remove method, wdf.iwdfiotargetstatemanagement_remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, IWDFIoTargetStateManagement
+ms.keywords: UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, Remove method, IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface, Remove method, IWDFIoTargetStateManagement::Remove, wdf.iwdfiotargetstatemanagement_remove, wudfddi/IWDFIoTargetStateManagement::Remove, Remove, IWDFIoTargetStateManagement, Remove method, umdf.iwdfiotargetstatemanagement_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

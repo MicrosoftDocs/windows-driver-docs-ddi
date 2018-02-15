@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/ZwQueryVirtualMemory, kernel.zwqueryvirtualmemory, NtQueryVirtualMemory, ZwQueryVirtualMemory, ntifs/NtQueryVirtualMemory
+ms.keywords: ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], ZwQueryVirtualMemory, ntifs/NtQueryVirtualMemory, kernel.zwqueryvirtualmemory, ntifs/ZwQueryVirtualMemory, NtQueryVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

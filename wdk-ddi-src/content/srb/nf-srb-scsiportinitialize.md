@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6adca68-e016-4725-bd8e-691c71d1d471
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortInitialize, scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml, storage.scsiportinitialize, srb/ScsiPortInitialize, ScsiPortInitialize routine [Storage Devices]
+ms.keywords: storage.scsiportinitialize, ScsiPortInitialize routine [Storage Devices], srb/ScsiPortInitialize, ScsiPortInitialize, scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,15 +116,15 @@ A miniport driver that calls <b>ScsiPortInitialize</b> more than once should che
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 

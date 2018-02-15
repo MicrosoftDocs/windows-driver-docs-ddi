@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F4C385C8-00A2-44AB-A7E6-4C9AA19CFFB0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_device_funcs_video, d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO, D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_VIDEO_0021
+ms.keywords: display.d3d12ddi_device_funcs_video, D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_VIDEO_0021, d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -177,6 +177,8 @@ A function that trims processor allocations.
 ## -see-also
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_device_funcs_core_0010.md">D3D12DDI_DEVICE_FUNCS_CORE_0010</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7bb5c2ff-9bdb-4958-b290-9edb18d02668
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/VERIFY_INFORMATION, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml, storage.verify_information, *PVERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, PVERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], VERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], _VERIFY_INFORMATION
+ms.keywords: ntdddisk/PVERIFY_INFORMATION, VERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], *PVERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], ntdddisk/VERIFY_INFORMATION, PVERIFY_INFORMATION, _VERIFY_INFORMATION, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml, storage.verify_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

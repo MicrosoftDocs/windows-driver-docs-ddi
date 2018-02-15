@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fafad6f2-8092-4067-afad-208877309010
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_sriov_read_vf_config_block_parameters, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, _NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS
+ms.keywords: "_NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, netvista.ndis_sriov_read_vf_config_block_parameters, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,11 +146,11 @@ For more information about backchannel communication within the single root I/O 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451874">OID_SRIOV_READ_VF_CONFIG_BLOCK</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451874">OID_SRIOV_READ_VF_CONFIG_BLOCK</a>
 
 
 

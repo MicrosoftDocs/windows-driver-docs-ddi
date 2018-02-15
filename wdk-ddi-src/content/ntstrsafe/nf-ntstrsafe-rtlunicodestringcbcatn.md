@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 246c2abd-ad07-4910-968c-dbd5fefff5bc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml, ntstrsafe/RtlUnicodeStringCbCatN, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatn, RtlUnicodeStringCbCatN
+ms.keywords: RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], RtlUnicodeStringCbCatN, kernel.rtlunicodestringcbcatn, ntstrsafe/RtlUnicodeStringCbCatN, safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,15 +163,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatn.md">RtlUnicodeStringCchCatN</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatnex.md">RtlUnicodeStringCbCatNEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatn.md">RtlUnicodeStringCchCatN</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2aba049-b51f-49b9-b0bb-c98c318dea86
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PDXGK_CHILD_STATUS, PDXGK_CHILD_STATUS, display.dxgk_child_status, dispmprt/PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS, _DXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], PDXGK_CHILD_STATUS structure pointer [Display Devices], dispmprt/DXGK_CHILD_STATUS, DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml"
+ms.keywords: dispmprt/DXGK_CHILD_STATUS, display.dxgk_child_status, DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, DXGK_CHILD_STATUS structure [Display Devices], PDXGK_CHILD_STATUS, *PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], _DXGK_CHILD_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,6 +133,10 @@ For more info, see <a href="https://msdn.microsoft.com/1645E14A-EC4A-4EB8-9AFA-6
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
 <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
 
 
@@ -142,10 +146,6 @@ For more info, see <a href="https://msdn.microsoft.com/1645E14A-EC4A-4EB8-9AFA-6
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
 
 

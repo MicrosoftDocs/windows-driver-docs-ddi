@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2637f5e-15b0-44ae-8cd0-98712e735998
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_RANDOM_WRITABLE, storage.feature_data_random_writable, ntddmmc/PFEATURE_DATA_RANDOM_WRITABLE, structs-CD-ROM_fa825a20-a941-4af3-aabd-1b9f7e4e3ee6.xml, FEATURE_DATA_RANDOM_WRITABLE, PFEATURE_DATA_RANDOM_WRITABLE structure pointer [Storage Devices], *PFEATURE_DATA_RANDOM_WRITABLE, ntddmmc/FEATURE_DATA_RANDOM_WRITABLE, PFEATURE_DATA_RANDOM_WRITABLE, FEATURE_DATA_RANDOM_WRITABLE structure [Storage Devices]"
+ms.keywords: ntddmmc/FEATURE_DATA_RANDOM_WRITABLE, structs-CD-ROM_fa825a20-a941-4af3-aabd-1b9f7e4e3ee6.xml, FEATURE_DATA_RANDOM_WRITABLE structure [Storage Devices], PFEATURE_DATA_RANDOM_WRITABLE, *PFEATURE_DATA_RANDOM_WRITABLE, _FEATURE_DATA_RANDOM_WRITABLE, FEATURE_DATA_RANDOM_WRITABLE, ntddmmc/PFEATURE_DATA_RANDOM_WRITABLE, storage.feature_data_random_writable, PFEATURE_DATA_RANDOM_WRITABLE structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

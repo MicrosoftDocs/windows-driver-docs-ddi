@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxRetrieveTransmitMdl method [Serial Ports], 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl, serports.sercxretrievetransmitmdl
+ms.keywords: serports.sercxretrievetransmitmdl, SerCxRetrieveTransmitMdl, 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

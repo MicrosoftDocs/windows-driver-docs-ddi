@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A6FFC14B-0736-425F-A923-DFF54494887C
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method, portcls/IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode, SetDeviceFormat, IMiniportAudioEngineNode::SetDeviceFormat, audio.iminiportaudioenginenode_setdeviceformat
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], SetDeviceFormat method, portcls/IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode, SetDeviceFormat, SetDeviceFormat method [Audio Devices], IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdeviceformat, IMiniportAudioEngineNode::SetDeviceFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

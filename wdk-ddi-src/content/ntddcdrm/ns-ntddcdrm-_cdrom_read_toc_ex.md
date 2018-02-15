@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17dbc843-dc65-40d7-9cda-916127e4cfa4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml, CDROM_READ_TOC_EX structure [Storage Devices], storage.cdrom_read_toc_ex, _CDROM_READ_TOC_EX, PCDROM_READ_TOC_EX, CDROM_READ_TOC_EX, *PCDROM_READ_TOC_EX, ntddcdrm/PCDROM_READ_TOC_EX, ntddcdrm/CDROM_READ_TOC_EX, PCDROM_READ_TOC_EX structure pointer [Storage Devices]
+ms.keywords: structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml, _CDROM_READ_TOC_EX, PCDROM_READ_TOC_EX, CDROM_READ_TOC_EX structure [Storage Devices], storage.cdrom_read_toc_ex, ntddcdrm/CDROM_READ_TOC_EX, CDROM_READ_TOC_EX, ntddcdrm/PCDROM_READ_TOC_EX, PCDROM_READ_TOC_EX structure pointer [Storage Devices], *PCDROM_READ_TOC_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -165,7 +165,19 @@ For further information and definitions of terms used in this reference page and
 
 
 
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
+
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data.md">CDROM_TOC_FULL_TOC_DATA</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>
 
 
 
@@ -177,23 +189,11 @@ For further information and definitions of terms used in this reference page and
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data.md">CDROM_TOC_FULL_TOC_DATA</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data_block.md">CDROM_TOC_CD_TEXT_DATA_BLOCK</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_session_data.md">CDROM_TOC_SESSION_DATA</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a>
 
 
 

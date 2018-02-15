@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 767c18e3-4455-4d2b-a71a-23ca11f718c8
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure [Audio Devices], aud-prop_43dd73ce-1c4d-4138-a7c1-9f1f17da5643.xml, audio.ksrtaudio_buffer_property_with_notification, KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, *PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, ksmedia/KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure pointer [Audio Devices], ksmedia/PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
+ms.keywords: KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, audio.ksrtaudio_buffer_property_with_notification, ksmedia/PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure pointer [Audio Devices], aud-prop_43dd73ce-1c4d-4138-a7c1-9f1f17da5643.xml, *PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, ksmedia/KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,19 +105,19 @@ Using KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION facilitates event signaling as
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537387">KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537387">KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</a>
 
 
 

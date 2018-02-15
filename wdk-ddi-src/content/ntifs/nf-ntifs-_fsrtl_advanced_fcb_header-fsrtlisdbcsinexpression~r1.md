@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlisdbcsinexpression, FsRtlIsDbcsInExpression, ntifs/FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml
+ms.keywords: ntifs/FsRtlIsDbcsInExpression, fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, ifsk.fsrtlisdbcsinexpression, FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,11 +160,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
 
 
 

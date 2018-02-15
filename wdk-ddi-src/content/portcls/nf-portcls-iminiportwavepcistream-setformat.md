@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c8dfa58d-f38b-4ef1-9607-575191d8ddea
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IMiniportWavePciStream interface [Audio Devices], SetFormat method, IMiniportWavePciStream, IMiniportWavePciStream::SetFormat, portcls/IMiniportWavePciStream::SetFormat, SetFormat method [Audio Devices], audio.iminiportwavepcistream_setformat, SetFormat, SetFormat method [Audio Devices], IMiniportWavePciStream interface, audmp-routines_7b5ce806-912e-4c30-9f3e-4a2b31a12864.xml
+ms.keywords: audio.iminiportwavepcistream_setformat, SetFormat method [Audio Devices], IMiniportWavePciStream interface, audmp-routines_7b5ce806-912e-4c30-9f3e-4a2b31a12864.xml, SetFormat method [Audio Devices], portcls/IMiniportWavePciStream::SetFormat, IMiniportWavePciStream, SetFormat, IMiniportWavePciStream::SetFormat, IMiniportWavePciStream interface [Audio Devices], SetFormat method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

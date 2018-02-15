@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8ff4dd86-d828-4e1d-bde5-ab312187a8d7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmGetTransactionId, TmGetTransactionId routine [Kernel-Mode Driver Architecture], wdm/TmGetTransactionId, ktm_ref_cbb12580-5399-4d81-ab6c-9d0235208681.xml, kernel.tmgettransactionid
+ms.keywords: kernel.tmgettransactionid, TmGetTransactionId, ktm_ref_cbb12580-5399-4d81-ab6c-9d0235208681.xml, TmGetTransactionId routine [Kernel-Mode Driver Architecture], wdm/TmGetTransactionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

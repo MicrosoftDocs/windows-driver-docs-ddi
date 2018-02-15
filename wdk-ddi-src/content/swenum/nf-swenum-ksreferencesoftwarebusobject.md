@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 56c7ce80-36da-4991-a640-f87b712f683e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, swenum/KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject, stream.ksreferencesoftwarebusobject, KsReferenceSoftwareBusObject function [Streaming Media Devices]
+ms.keywords: ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, swenum/KsReferenceSoftwareBusObject, stream.ksreferencesoftwarebusobject, KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 42a8c14d-3b73-4d9a-a902-d4bf2b46ddf8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SETSTREAMSOURCEUM, d3dstrct_58dd4856-1fc8-4772-96db-77ff9b81afbf.xml, *LPD3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEUM, LPD3DHAL_DP2SETSTREAMSOURCEUM structure pointer [Display Devices], D3DHAL_DP2SETSTREAMSOURCEUM structure [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/D3DHAL_DP2SETSTREAMSOURCEUM, display.d3dhal_dp2setstreamsourceum, _D3DHAL_DP2SETSTREAMSOURCEUM
+ms.keywords: D3DHAL_DP2SETSTREAMSOURCEUM structure [Display Devices], d3dstrct_58dd4856-1fc8-4772-96db-77ff9b81afbf.xml, LPD3DHAL_DP2SETSTREAMSOURCEUM, *LPD3DHAL_DP2SETSTREAMSOURCEUM, _D3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/D3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM, display.d3dhal_dp2setstreamsourceum, LPD3DHAL_DP2SETSTREAMSOURCEUM structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,7 +97,7 @@ The actual user memory pointer to the vertex data should be extracted from the <
 
 ## -see-also
 
-D3DDP2OP_SETSTREAMSOURCEUM
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setstreamsource.md">D3DHAL_DP2SETSTREAMSOURCE</a>
 
 
 
@@ -109,7 +109,7 @@ D3DDP2OP_SETSTREAMSOURCEUM
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setstreamsource.md">D3DHAL_DP2SETSTREAMSOURCE</a>
+D3DDP2OP_SETSTREAMSOURCEUM
 
 
 

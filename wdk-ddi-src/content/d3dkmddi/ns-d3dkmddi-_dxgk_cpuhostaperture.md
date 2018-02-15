@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BBB9D8F6-0EF8-4B34-B79E-8742BB7575D4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE structure [Display Devices], _DXGK_CPUHOSTAPERTURE, display.dxgk_cpuhostaperture, DXGK_CPUHOSTAPERTURE
+ms.keywords: display.dxgk_cpuhostaperture, DXGK_CPUHOSTAPERTURE structure [Display Devices], d3dkmddi/DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE, _DXGK_CPUHOSTAPERTURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

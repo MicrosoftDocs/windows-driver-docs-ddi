@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b81dbad8-0e03-4183-a7b3-32c75a656575
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfChildListBeginIteration method, wdf.wdfchildlistbeginiteration, PFN_WDFCHILDLISTBEGINITERATION, WdfChildListBeginIteration, kmdf.wdfchildlistbeginiteration, wdfchildlist/WdfChildListBeginIteration, DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml
+ms.keywords: DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml, wdf.wdfchildlistbeginiteration, kmdf.wdfchildlistbeginiteration, WdfChildListBeginIteration, wdfchildlist/WdfChildListBeginIteration, PFN_WDFCHILDLISTBEGINITERATION, WdfChildListBeginIteration method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,7 +118,7 @@ For a code example that uses <b>WdfChildListBeginIteration</b>, see <a href="..\
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_iterator_init.md">WDF_CHILD_LIST_ITERATOR_INIT</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
 
 
 
@@ -126,7 +126,7 @@ For a code example that uses <b>WdfChildListBeginIteration</b>, see <a href="..\
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_iterator_init.md">WDF_CHILD_LIST_ITERATOR_INIT</a>
 
 
 
@@ -138,11 +138,11 @@ For a code example that uses <b>WdfChildListBeginIteration</b>, see <a href="..\
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
-
-
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md">WdfChildListRequestChildEject</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
 
 
 

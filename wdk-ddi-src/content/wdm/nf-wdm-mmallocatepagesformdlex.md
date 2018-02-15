@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860c230-01ca-4c7f-8b67-5d92a80ff906
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MM_DONT_ZERO_ALLOCATION, MmAllocatePagesForMdlEx, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, kernel.mmallocatepagesformdlex, MM_ALLOCATE_NO_WAIT, MM_ALLOCATE_FULLY_REQUIRED, MM_ALLOCATE_PREFER_CONTIGUOUS, wdm/MmAllocatePagesForMdlEx, k106_df4d4bea-4360-4755-841c-f39849228e9b.xml
+ms.keywords: MM_ALLOCATE_FULLY_REQUIRED, MmAllocatePagesForMdlEx, kernel.mmallocatepagesformdlex, MM_ALLOCATE_NO_WAIT, MM_DONT_ZERO_ALLOCATION, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, wdm/MmAllocatePagesForMdlEx, MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], MM_ALLOCATE_PREFER_CONTIGUOUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,7 +243,7 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
 
 
@@ -259,7 +259,7 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 
 
-<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
 
 

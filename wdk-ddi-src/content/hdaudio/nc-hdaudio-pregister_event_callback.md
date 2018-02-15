@@ -95,14 +95,14 @@ Specifies the context value from the <b>Context</b> member of the <a href="..\hd
 
 
 
-#### - routine [in]
-
-Function pointer to a callback routine. This parameter must be a valid, non-NULL function pointer of type PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK. For more information, see the following Remarks section.
-
-
 #### - callbackContext [in]
 
 Specifies a context value for the callback routine. The caller casts the context value to type PVOID. When a codec generates an unsolicited response that contains the specified tag, the HD Audio bus driver passes the context value to the callback routine as a call parameter.
+
+
+#### - routine [in]
+
+Function pointer to a callback routine. This parameter must be a valid, non-NULL function pointer of type PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK. For more information, see the following Remarks section.
 
 
 #### - tag [out]
@@ -171,15 +171,7 @@ The first call parameter is a structure of type <a href="..\hdaudio\ns-hdaudio-_
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 
@@ -187,7 +179,15 @@ The first call parameter is a structure of type <a href="..\hdaudio\ns-hdaudio-_
 
 
 
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
+
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_response.md">HDAUDIO_CODEC_RESPONSE</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 

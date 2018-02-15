@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4264f5e1-08f5-4878-9e10-b98859043515
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetModuleNameString, debugger.getmodulenamestring, GetModuleNameString method [Windows Debugging], IDebugSymbols2 interface, GetModuleNameString method [Windows Debugging], dbgeng/IDebugSymbols3::GetModuleNameString, GetModuleNameString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3::GetModuleNameString, IDebugSymbols3 interface [Windows Debugging], GetModuleNameString method, IDebugSymbols2 interface [Windows Debugging], GetModuleNameString method, dbgeng/IDebugSymbols2::GetModuleNameString, IDebugSymbols2, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, GetModuleNameString
+ms.keywords: GetModuleNameString method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleNameString, IDebugSymbols2::GetModuleNameString, IDebugSymbols2 interface [Windows Debugging], GetModuleNameString method, GetModuleNameString, debugger.getmodulenamestring, GetModuleNameString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetModuleNameString, GetModuleNameString method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleNameString method, IDebugSymbols_e00a93fb-08c4-4f37-9915-577a22d9c889.xml, dbgeng/IDebugSymbols3::GetModuleNameString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

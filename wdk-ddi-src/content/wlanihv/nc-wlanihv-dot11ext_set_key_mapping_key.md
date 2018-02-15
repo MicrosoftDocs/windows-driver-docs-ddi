@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetKeyMappingKey
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -90,13 +90,16 @@ A pointer to a
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 A key-mapping cipher key is deleted from the adapter's key tables if the 
@@ -112,17 +115,26 @@ A call to the
 
 
 
+
 ## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
 <a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+
+
 
 <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
    DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 
  
 

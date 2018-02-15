@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 34d954db-4220-4a3f-849c-f1164e6130f7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDISK_PERFORMANCE structure pointer [Storage Devices], *PDISK_PERFORMANCE, storage.disk_performance, ntdddisk/DISK_PERFORMANCE, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml, _DISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices], ntdddisk/PDISK_PERFORMANCE, DISK_PERFORMANCE, PDISK_PERFORMANCE
+ms.keywords: structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml, ntdddisk/DISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE, *PDISK_PERFORMANCE, _DISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices], PDISK_PERFORMANCE structure pointer [Storage Devices], storage.disk_performance, DISK_PERFORMANCE, PDISK_PERFORMANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,11 +149,11 @@ Counting halts whenever the performance counters are disabled, but the counters 
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance.md">IOCTL_DISK_PERFORMANCE</a>
-
-
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance_off.md">IOCTL_DISK_PERFORMANCE_OFF</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_performance.md">IOCTL_DISK_PERFORMANCE</a>
 
 
 

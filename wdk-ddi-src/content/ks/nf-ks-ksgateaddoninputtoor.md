@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: aaa6891b-f9f9-40d5-b0eb-e17f511e2611
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateAddOnInputToOr, avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, ks/KsGateAddOnInputToOr, stream.ksgateaddoninputtoor, KsGateAddOnInputToOr function [Streaming Media Devices]
+ms.keywords: KsGateAddOnInputToOr, stream.ksgateaddoninputtoor, KsGateAddOnInputToOr function [Streaming Media Devices], ks/KsGateAddOnInputToOr, avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,6 +94,10 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgateturninputon.m
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+
+
+
 <a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
 
 
@@ -102,15 +106,11 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgateturninputon.m
 
 
 
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
-
-
-
 <a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 

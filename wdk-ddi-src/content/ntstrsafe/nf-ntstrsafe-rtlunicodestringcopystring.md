@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7b33a311-7f00-4936-b4a9-727f66c12ef0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlunicodestringcopystring, safestrings_6c994257-53af-4692-88a9-41b38ffd6bcd.xml, ntstrsafe/RtlUnicodeStringCopyString, RtlUnicodeStringCopyString, RtlUnicodeStringCopyString function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlunicodestringcopystring, ntstrsafe/RtlUnicodeStringCopyString, safestrings_6c994257-53af-4692-88a9-41b38ffd6bcd.xml, RtlUnicodeStringCopyString, RtlUnicodeStringCopyString function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8e7713a5-534d-42b4-a719-7b7ce911245a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoUninitializeWorkItem routine [Kernel-Mode Driver Architecture], kernel.iouninitializeworkitem, k104_05634a73-eb65-4572-a776-4dcd6b116f52.xml, wdm/IoUninitializeWorkItem, IoUninitializeWorkItem
+ms.keywords: IoUninitializeWorkItem routine [Kernel-Mode Driver Architecture], IoUninitializeWorkItem, kernel.iouninitializeworkitem, k104_05634a73-eb65-4572-a776-4dcd6b116f52.xml, wdm/IoUninitializeWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

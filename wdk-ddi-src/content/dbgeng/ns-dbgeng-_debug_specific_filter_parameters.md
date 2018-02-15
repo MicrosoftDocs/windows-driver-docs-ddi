@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 06926380-aae5-4d9f-94e0-43098f8a0423
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_specific_filter_parameters, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging], PDEBUG_SPECIFIC_FILTER_PARAMETERS, Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, DEBUG_SPECIFIC_FILTER_PARAMETERS, _DEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS, *PDEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS
+ms.keywords: Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, _DEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], *PDEBUG_SPECIFIC_FILTER_PARAMETERS, debugger.debug_specific_filter_parameters, dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff9f959b-6901-43b8-b335-c0286136b747
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.feature_data_microcode_update, PFEATURE_DATA_MICROCODE_UPDATE structure pointer [Storage Devices], structs-CD-ROM_e2dbda29-d727-4736-93bd-0e115b9d7948.xml, *PFEATURE_DATA_MICROCODE_UPDATE, _FEATURE_DATA_MICROCODE_UPDATE, FEATURE_DATA_MICROCODE_UPDATE, PFEATURE_DATA_MICROCODE_UPDATE, ntddmmc/FEATURE_DATA_MICROCODE_UPDATE, ntddmmc/PFEATURE_DATA_MICROCODE_UPDATE, FEATURE_DATA_MICROCODE_UPDATE structure [Storage Devices]
+ms.keywords: FEATURE_DATA_MICROCODE_UPDATE, ntddmmc/FEATURE_DATA_MICROCODE_UPDATE, structs-CD-ROM_e2dbda29-d727-4736-93bd-0e115b9d7948.xml, ntddmmc/PFEATURE_DATA_MICROCODE_UPDATE, _FEATURE_DATA_MICROCODE_UPDATE, FEATURE_DATA_MICROCODE_UPDATE structure [Storage Devices], *PFEATURE_DATA_MICROCODE_UPDATE, PFEATURE_DATA_MICROCODE_UPDATE structure pointer [Storage Devices], storage.feature_data_microcode_update, PFEATURE_DATA_MICROCODE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

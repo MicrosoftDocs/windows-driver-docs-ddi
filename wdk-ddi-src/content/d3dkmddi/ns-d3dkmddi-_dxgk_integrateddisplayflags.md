@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4671B6C1-358A-4CC2-A6FC-0FBA0F26DB07
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_INTEGRATEDDISPLAYFLAGS, d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, display.dxgk_integrateddisplayflags, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], _DXGK_INTEGRATEDDISPLAYFLAGS, *PDXGK_INTEGRATEDDISPLAYFLAGS
+ms.keywords: d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], _DXGK_INTEGRATEDDISPLAYFLAGS, display.dxgk_integrateddisplayflags, *PDXGK_INTEGRATEDDISPLAYFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

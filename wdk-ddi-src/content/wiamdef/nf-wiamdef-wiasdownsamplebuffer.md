@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4581b852-f539-4cad-93fd-2638c885c2e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasDownSampleBuffer, wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml, wiamdef/wiasDownSampleBuffer, image.wiasdownsamplebuffer, wiasDownSampleBuffer function [Imaging Devices]
+ms.keywords: wiasDownSampleBuffer, wiamdef/wiasDownSampleBuffer, image.wiasdownsamplebuffer, wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml, wiasDownSampleBuffer function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aec1ace6-9945-4e7a-b0f6-81591670ecfe
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoGetAffinityInterrupt, IoGetAffinityInterrupt routine [Kernel-Mode Driver Architecture], IoGetAffinityInterrupt, wdm/WdmlibIoGetAffinityInterrupt, kernel.iogetaffinityinterrupt, k104_39247b69-50e1-4162-b26e-81b5358738de.xml, wdm/IoGetAffinityInterrupt
+ms.keywords: WdmlibIoGetAffinityInterrupt, IoGetAffinityInterrupt, k104_39247b69-50e1-4162-b26e-81b5358738de.xml, kernel.iogetaffinityinterrupt, IoGetAffinityInterrupt routine [Kernel-Mode Driver Architecture], wdm/WdmlibIoGetAffinityInterrupt, wdm/IoGetAffinityInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

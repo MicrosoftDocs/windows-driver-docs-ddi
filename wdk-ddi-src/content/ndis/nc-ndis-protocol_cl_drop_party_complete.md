@@ -184,12 +184,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
+<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
 
 
 
@@ -201,11 +208,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdroppartycomplete.md">NdisMCmDropPartyComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
 
 
@@ -213,11 +217,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 
 

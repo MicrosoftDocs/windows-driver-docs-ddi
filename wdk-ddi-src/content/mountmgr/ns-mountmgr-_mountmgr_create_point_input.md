@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b53d5163-612d-4bfb-89f4-21457629e365
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMOUNTMGR_CREATE_POINT_INPUT structure pointer [Storage Devices], mountmgr/PMOUNTMGR_CREATE_POINT_INPUT, PMOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT structure [Storage Devices], MOUNTMGR_CREATE_POINT_INPUT, structs-mntmgr_24dea6c0-cfff-4f87-a8d3-c019aa5b46c3.xml, storage.mountmgr_create_point_input, _MOUNTMGR_CREATE_POINT_INPUT, *PMOUNTMGR_CREATE_POINT_INPUT, mountmgr/MOUNTMGR_CREATE_POINT_INPUT
+ms.keywords: mountmgr/PMOUNTMGR_CREATE_POINT_INPUT, structs-mntmgr_24dea6c0-cfff-4f87-a8d3-c019aa5b46c3.xml, _MOUNTMGR_CREATE_POINT_INPUT, storage.mountmgr_create_point_input, MOUNTMGR_CREATE_POINT_INPUT, PMOUNTMGR_CREATE_POINT_INPUT structure pointer [Storage Devices], *PMOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT structure [Storage Devices], mountmgr/MOUNTMGR_CREATE_POINT_INPUT, PMOUNTMGR_CREATE_POINT_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 132b30fe-21ef-48dc-8c69-02ccac563b87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psgetcurrentthread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], wdm/PsGetCurrentThread, ExGetCurrentResourceThread, k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, PsGetCurrentThread
+ms.keywords: ExGetCurrentResourceThread, kernel.psgetcurrentthread, PsGetCurrentThread, wdm/PsGetCurrentThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,11 +88,15 @@ This macro
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
+
+
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
 
 
@@ -100,11 +104,7 @@ This macro
 
 
 
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
 
 

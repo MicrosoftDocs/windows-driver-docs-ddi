@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5efe0ede-b55f-499e-9f95-66652cd8a872
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSFC_FCAdapterHBAAttributes, storage.msfc_fcadapterhbaattributes, PMSFC_FCAdapterHBAAttributes structure pointer [Storage Devices], hbapiwmi/MSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes structure [Storage Devices], structs-Fibre_07d902b9-2da0-4bca-94ab-db837beff481.xml, _MSFC_FCAdapterHBAAttributes, hbapiwmi/PMSFC_FCAdapterHBAAttributes
+ms.keywords: hbapiwmi/PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes structure [Storage Devices], *PMSFC_FCAdapterHBAAttributes, PMSFC_FCAdapterHBAAttributes structure pointer [Storage Devices], storage.msfc_fcadapterhbaattributes, PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes, structs-Fibre_07d902b9-2da0-4bca-94ab-db837beff481.xml, hbapiwmi/MSFC_FCAdapterHBAAttributes, _MSFC_FCAdapterHBAAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

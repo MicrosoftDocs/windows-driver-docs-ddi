@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9c9cf520-3249-4c1e-9d0d-e07f7127117e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.val, wiamicro/PVAL, MicroDrv_397b66fc-2f8e-434e-88ac-24b5cdd415d5.xml, VAL, wiamicro/VAL, PVAL structure pointer [Imaging Devices], PVAL, *PVAL, VAL structure [Imaging Devices]
+ms.keywords: "*PVAL, PVAL, image.val, wiamicro/PVAL, VAL, wiamicro/VAL, PVAL structure pointer [Imaging Devices], MicroDrv_397b66fc-2f8e-434e-88ac-24b5cdd415d5.xml, VAL structure [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

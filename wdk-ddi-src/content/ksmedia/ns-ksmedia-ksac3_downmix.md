@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d35450ec-5ddc-4312-bd77-ab7e89690f82
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: KSAC3_DOWNMIX, KSAC3_DOWNMIX structure [Audio Devices], PKSAC3_DOWNMIX structure pointer [Audio Devices], ksmedia/KSAC3_DOWNMIX, ksmedia/PKSAC3_DOWNMIX, *PKSAC3_DOWNMIX, aud-prop_24e957af-1fba-467d-93f6-3b7ca211238e.xml, PKSAC3_DOWNMIX, audio.ksac3_downmix
+ms.keywords: audio.ksac3_downmix, KSAC3_DOWNMIX, ksmedia/PKSAC3_DOWNMIX, *PKSAC3_DOWNMIX, KSAC3_DOWNMIX structure [Audio Devices], PKSAC3_DOWNMIX structure pointer [Audio Devices], ksmedia/KSAC3_DOWNMIX, PKSAC3_DOWNMIX, aud-prop_24e957af-1fba-467d-93f6-3b7ca211238e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,11 +91,11 @@ For information about the mapping of output channels to speakers, see <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537218">KSPROPERTY_AC3_DOWNMIX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
 
 
 

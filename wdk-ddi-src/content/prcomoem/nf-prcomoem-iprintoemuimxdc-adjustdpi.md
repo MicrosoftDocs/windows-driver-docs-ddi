@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d725d917-08fb-4e11-824c-795e35782a06
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml, IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, IPrintOemUIMXDC::AdjustDPI, AdjustDPI, AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, AdjustDPI method [Print Devices], IPrintOemUIMXDC, print.iprintoemuimxdc_adjustdpi, prcomoem/IPrintOemUIMXDC::AdjustDPI
+ms.keywords: IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, AdjustDPI, print.iprintoemuimxdc_adjustdpi, IPrintOemUIMXDC, prcomoem/IPrintOemUIMXDC::AdjustDPI, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml, IPrintOemUIMXDC::AdjustDPI, AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, AdjustDPI method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e5cbf7-62c7-458d-a527-2508a8a5d066
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe interface, Flush method, IWDFUsbTargetPipe, Flush method, wdf.iwdfusbtargetpipe_flush, umdf.iwdfusbtargetpipe_flush, Flush, IWDFUsbTargetPipe::Flush, Flush method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml
+ms.keywords: UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, Flush method, Flush method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_flush, IWDFUsbTargetPipe, Flush, IWDFUsbTargetPipe::Flush, umdf.iwdfusbtargetpipe_flush, IWDFUsbTargetPipe interface, Flush method, wudfusb/IWDFUsbTargetPipe::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -135,11 +135,11 @@ For more information about how <b>Flush</b> works, see the <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540227">WinUsb_FlushPipe</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 

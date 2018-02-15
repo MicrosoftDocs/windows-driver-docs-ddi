@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9a8c47b1-e8b9-42b4-8625-7d916178611e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Count property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_count, IWDTFActions2, Count property [Windows Device Testing Framework], IWDTFDeviceDepot2.Count, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Count property, wdtf/IWDTFDeviceDepot2::get_Count, IWDTFDeviceDepot2::get_Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, wdtf/IWDTFDeviceDepot2::Count, get_Count, IWDTFActions2::get_Count, Microsoft.WDTF.IWDTFDeviceDepot2.Count
+ms.keywords: Count property [Windows Device Testing Framework], dtf.iwdtfdevicedepot2_count, Count property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, wdtf/IWDTFDeviceDepot2::Count, IWDTFDeviceDepot2::get_Count, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Count property, IWDTFDeviceDepot2.Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, IWDTFActions2, wdtf/IWDTFDeviceDepot2::get_Count, get_Count, Microsoft.WDTF.IWDTFDeviceDepot2.Count, IWDTFActions2::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -133,8 +133,7 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -142,16 +141,17 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisqueryoffloadstate.md">NdisQueryOffload</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
 <a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
    NdisMQueryOffloadStateComplete</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisqueryoffloadstate.md">NdisQueryOffload</a>
 
 
 

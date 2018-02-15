@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aef71769-cad5-4bb4-9068-74664c22dffe
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltDeleteStreamHandleContext, fltkernel/FltDeleteStreamHandleContext, FltApiRef_a_to_d_445c2977-ef26-4cc6-9fb3-1873fbb976f2.xml, FltDeleteStreamHandleContext function [Installable File System Drivers], ifsk.fltdeletestreamhandlecontext
+ms.keywords: FltDeleteStreamHandleContext function [Installable File System Drivers], fltkernel/FltDeleteStreamHandleContext, FltApiRef_a_to_d_445c2977-ef26-4cc6-9fb3-1873fbb976f2.xml, FltDeleteStreamHandleContext, ifsk.fltdeletestreamhandlecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,11 +153,15 @@ To set a stream handle context, call <a href="..\fltkernel\nf-fltkernel-fltsetst
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -165,11 +169,7 @@ To set a stream handle context, call <a href="..\fltkernel\nf-fltkernel-fltsetst
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 
 

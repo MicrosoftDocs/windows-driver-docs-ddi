@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c476c8a2-5d79-45cd-ae72-f8792137f9c2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortDebugPrint, display.videoportdebugprint, VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml
+ms.keywords: video/VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], display.videoportdebugprint, VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, VideoPortDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -40,7 +40,7 @@ apiname:
 -	MyInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ Pointer to the camera minidriver's device context.
 ## -returns
 
 
+
 <b>CamInitialize</b> returns STATUS_SUCCESS or an appropriate error code. 
 
 
 
+
 ## -remarks
+
 
 
 <b>About CamInitialize</b>
@@ -109,5 +112,6 @@ Whereas the stream class driver automatically resets values associated with the 
 <b>CamUnInitialize</b> is called by both versions 1.0 and 2.0 of USBCAMD.
 
 This function is required.
+
 
 

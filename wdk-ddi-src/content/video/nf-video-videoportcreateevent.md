@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb1ef5f0-ccf3-487b-99e6-9ec733c7cd63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, VideoPortCreateEvent, display.videoportcreateevent, video/VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices]
+ms.keywords: VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices], display.videoportcreateevent, VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, video/VideoPortCreateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

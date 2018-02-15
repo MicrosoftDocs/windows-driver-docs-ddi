@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61A889D5-122F-4091-90D6-EDD43D52A14A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFWorkItem::Enqueue, IWDFWorkItem, IWDFWorkItem::Enqueue, Enqueue, Enqueue method, IWDFWorkItem interface, Enqueue method, IWDFWorkItem interface, Enqueue method, umdf.iwdfworkitem_enqueue, wdf.iwdfworkitem_enqueue
+ms.keywords: Enqueue method, IWDFWorkItem interface, Enqueue method, IWDFWorkItem, Enqueue, IWDFWorkItem::Enqueue, umdf.iwdfworkitem_enqueue, Enqueue method, IWDFWorkItem interface, wudfddi/IWDFWorkItem::Enqueue, wdf.iwdfworkitem_enqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

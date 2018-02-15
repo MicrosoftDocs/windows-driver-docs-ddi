@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 66bc5e03-4cc2-4de3-b707-18ff7e0deb4b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasSetValidRangeFloat function [Imaging Devices], image.wiassetvalidrangefloat, wiamdef/wiasSetValidRangeFloat, wiasSetValidRangeFloat, wiasFncs_d8eb35e4-e295-43cf-a457-5e6fac3f537d.xml
+ms.keywords: wiamdef/wiasSetValidRangeFloat, wiasSetValidRangeFloat function [Imaging Devices], wiasSetValidRangeFloat, wiasFncs_d8eb35e4-e295-43cf-a457-5e6fac3f537d.xml, image.wiassetvalidrangefloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,11 +114,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistguid.md">wiasSetValidListGuid</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
 
 
 
@@ -126,7 +122,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
 
 
 
@@ -134,7 +130,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistguid.md">wiasSetValidListGuid</a>
 
 
 

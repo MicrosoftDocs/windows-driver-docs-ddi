@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376579c6-545d-4f5a-8ba4-0046c0b2b755
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueDrain, wdfio/WdfIoQueueDrain, kmdf.wdfioqueuedrain, DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, WdfIoQueueDrain method, wdf.wdfioqueuedrain, PFN_WDFIOQUEUEDRAIN
+ms.keywords: PFN_WDFIOQUEUEDRAIN, wdf.wdfioqueuedrain, DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, WdfIoQueueDrain method, wdfio/WdfIoQueueDrain, kmdf.wdfioqueuedrain, WdfIoQueueDrain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e68ed118-76c7-44ff-a10f-dc64f1ce2d0e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rildialedidsettings, *LPRILDIALEDIDSETTINGS, ntddrilapitypes/RILDIALEDIDSETTINGS
+ms.keywords: netvista.rildialedidsettings, ntddrilapitypes/RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], *LPRILDIALEDIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

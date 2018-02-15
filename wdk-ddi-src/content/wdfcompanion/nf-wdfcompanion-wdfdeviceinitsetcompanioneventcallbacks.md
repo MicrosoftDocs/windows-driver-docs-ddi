@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7320238d-0c7f-423c-8de7-2b22d02d77bd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks, wdf.wdfdeviceinitsetcompanioneventcallbacks, WdfDeviceInitSetCompanionEventCallbacks method, WdfDeviceInitSetCompanionEventCallbacks
+ms.keywords: WdfDeviceInitSetCompanionEventCallbacks, WdfDeviceInitSetCompanionEventCallbacks method, wdf.wdfdeviceinitsetcompanioneventcallbacks, wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

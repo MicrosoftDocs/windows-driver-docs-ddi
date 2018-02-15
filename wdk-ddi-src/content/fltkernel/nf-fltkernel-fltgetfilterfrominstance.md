@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2fe73705-4b44-4c75-8677-3325b6be9250
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltGetFilterFromInstance, FltGetFilterFromInstance, FltGetFilterFromInstance routine [Installable File System Drivers], ifsk.fltgetfilterfrominstance, FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml
+ms.keywords: FltGetFilterFromInstance routine [Installable File System Drivers], ifsk.fltgetfilterfrominstance, fltkernel/FltGetFilterFromInstance, FltApiRef_e_to_o_d03cf921-2e64-49de-9929-39650fd7d03d.xml, FltGetFilterFromInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

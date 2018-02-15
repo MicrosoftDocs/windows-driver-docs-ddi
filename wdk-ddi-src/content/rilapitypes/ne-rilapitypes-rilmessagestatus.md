@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 30ae1eff-447c-4f6f-8f6c-cd8bc657d32d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_MSGSTATUS_STOUNSENT, RIL_MSGSTATUS_STOSENT, rilapitypes/RILMESSAGESTATUS, rilapitypes/RIL_MSGSTATUS_STOSENT, rilapitypes/RIL_MSGSTATUS_MAX, netvista.rilmessagestatus_2, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGSTATUS_STOUNSENT, rilapitypes/RIL_MSGSTATUS_RECREAD, RIL_MSGSTATUS_MAX, RIL_MSGSTATUS_RECUNREAD, rilapitypes/RIL_MSGSTATUS_RECUNREAD, RIL_MSGSTATUS_RECREAD, RILMESSAGESTATUS
+ms.keywords: rilapitypes/RIL_MSGSTATUS_RECUNREAD, RIL_MSGSTATUS_MAX, RIL_MSGSTATUS_RECREAD, rilapitypes/RIL_MSGSTATUS_RECREAD, RIL_MSGSTATUS_STOSENT, RILMESSAGESTATUS, rilapitypes/RIL_MSGSTATUS_STOSENT, rilapitypes/RIL_MSGSTATUS_STOUNSENT, RIL_MSGSTATUS_RECUNREAD, rilapitypes/RIL_MSGSTATUS_MAX, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILMESSAGESTATUS, netvista.rilmessagestatus_2, RIL_MSGSTATUS_STOUNSENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

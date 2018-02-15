@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 278f4fff-6e71-4544-8838-90f659c5029e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortLogError, storage.scsiportlogerror, scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, ScsiPortLogError routine [Storage Devices], ScsiPortLogError
+ms.keywords: ScsiPortLogError, ScsiPortLogError routine [Storage Devices], srb/ScsiPortLogError, scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, storage.scsiportlogerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

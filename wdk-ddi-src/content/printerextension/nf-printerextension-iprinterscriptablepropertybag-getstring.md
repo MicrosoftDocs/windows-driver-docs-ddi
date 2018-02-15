@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: FA14B81D-0B51-4C07-96BC-38CAABED735A
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetString, GetString method [Print Devices], IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::GetString, printerextension/IPrinterScriptablePropertyBag::GetString, IPrinterScriptablePropertyBag interface [Print Devices], GetString method, GetString method [Print Devices], IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_getstring
+ms.keywords: GetString method [Print Devices], GetString, print.iprinterscriptablepropertybag_getstring, IPrinterScriptablePropertyBag::GetString, IPrinterScriptablePropertyBag interface [Print Devices], GetString method, GetString method [Print Devices], IPrinterScriptablePropertyBag interface, printerextension/IPrinterScriptablePropertyBag::GetString, IPrinterScriptablePropertyBag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

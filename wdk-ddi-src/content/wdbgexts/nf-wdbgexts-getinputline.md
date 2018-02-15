@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 18d4aae5-dd11-4c3a-8088-52121f46d208
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml, debugger.getinputline, GetInputLine, GetInputLine function [Windows Debugging], wdbgexts/GetInputLine
+ms.keywords: GetInputLine, GetInputLine function [Windows Debugging], debugger.getinputline, wdbgexts/GetInputLine, WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

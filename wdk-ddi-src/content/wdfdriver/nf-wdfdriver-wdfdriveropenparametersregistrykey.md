@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0f22096-3d82-4e1c-9398-d5e441fbb473
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDriverOpenParametersRegistryKey, DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, WdfDriverOpenParametersRegistryKey method, wdfdriver/WdfDriverOpenParametersRegistryKey, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey
+ms.keywords: DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, wdfdriver/WdfDriverOpenParametersRegistryKey, WdfDriverOpenParametersRegistryKey, WdfDriverOpenParametersRegistryKey method, wdf.wdfdriveropenparametersregistrykey, kmdf.wdfdriveropenparametersregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -184,15 +184,15 @@ status = WdfDriverOpenParametersRegistryKey(
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md">WdfDriverGetRegistryPath</a>
-
-
-
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
 
 
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md">WdfDriverGetRegistryPath</a>
 
 
 

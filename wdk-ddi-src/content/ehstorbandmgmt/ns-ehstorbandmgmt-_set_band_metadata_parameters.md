@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FCCFFE1-C341-4C8D-8EEC-E07C7ECFC317
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_SET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], SET_BAND_METADATA_PARAMETERS, storage.set_band_metadata_parameters, ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS"
+ms.keywords: "_SET_BAND_METADATA_PARAMETERS, storage.set_band_metadata_parameters, PSET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], SET_BAND_METADATA_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,11 +159,11 @@ The new metadata to set for the band is included in the system buffer for  the <
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
-
-
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
+
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
 
 

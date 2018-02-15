@@ -145,7 +145,7 @@ A network mini-redirector would normally maintain an internal variable indicatin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550833">MRxStop</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
 
 
 
@@ -153,7 +153,7 @@ A network mini-redirector would normally maintain an internal variable indicatin
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550833">MRxStop</a>
 
 
 

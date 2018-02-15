@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: E6510000-E390-4631-9D47-5A57AB845EF6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2::AddBuffer, extsfns/IDebugFailureAnalysis2::AddBuffer, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, AddBuffer method [Windows Debugging], AddBuffer, AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_addbuffer, IDebugFailureAnalysis2
+ms.keywords: AddBuffer, IDebugFailureAnalysis2 interface [Windows Debugging], AddBuffer method, debugger.idebugfailureanalysis2_addbuffer, IDebugFailureAnalysis2::AddBuffer, extsfns/IDebugFailureAnalysis2::AddBuffer, AddBuffer method [Windows Debugging], IDebugFailureAnalysis2, AddBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -110,11 +110,11 @@ This method creates a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 

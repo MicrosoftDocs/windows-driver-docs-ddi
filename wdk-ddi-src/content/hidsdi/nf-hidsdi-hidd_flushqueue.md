@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4ddc2d50-4828-4764-a690-27d4d5bd7c74
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, hidsdi/HidD_FlushQueue, HidD_FlushQueue routine [Human Input Devices], HidD_FlushQueue, hid.hidd_flushqueue
+ms.keywords: HidD_FlushQueue routine [Human Input Devices], hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, hidsdi/HidD_FlushQueue, HidD_FlushQueue, hid.hidd_flushqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

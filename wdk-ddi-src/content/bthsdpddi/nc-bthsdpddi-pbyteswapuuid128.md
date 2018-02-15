@@ -85,6 +85,8 @@ A pointer to the 128-bit GUID for which to reverse the byte order.
 
 
 
+
+
 #### - pUuidTo
 
 A pointer to the converted 128-bit GUID.
@@ -93,11 +95,14 @@ A pointer to the converted 128-bit GUID.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -111,9 +116,12 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

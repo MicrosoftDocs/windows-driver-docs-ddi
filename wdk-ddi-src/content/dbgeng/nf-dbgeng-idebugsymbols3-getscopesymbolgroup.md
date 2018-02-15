@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 002af3f1-4879-40e9-a5c6-bf62a3b26e02
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], dbgeng/IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols, IDebugSymbols2, debugger.getscopesymbolgroup, IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3
+ms.keywords: IDebugSymbols::GetScopeSymbolGroup, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols3, IDebugSymbols2, GetScopeSymbolGroup method [Windows Debugging], debugger.getscopesymbolgroup, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, GetScopeSymbolGroup, IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method, dbgeng/IDebugSymbols::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -156,7 +156,7 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -164,7 +164,7 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

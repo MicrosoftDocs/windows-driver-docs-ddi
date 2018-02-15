@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cc2ce023-ebb1-4a8e-a06a-e2f11a89d258
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSessionStateNotification, kernel.io_container_notification_class, IoSessionStateNotification, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, wdm/IO_CONTAINER_NOTIFICATION_CLASS, wdm/IoMaxContainerNotificationClass, IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], _IO_CONTAINER_NOTIFICATION_CLASS, IoMaxContainerNotificationClass
+ms.keywords: wdm/IoSessionStateNotification, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoMaxContainerNotificationClass, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, _IO_CONTAINER_NOTIFICATION_CLASS, wdm/IoMaxContainerNotificationClass, wdm/IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS, IoSessionStateNotification, kernel.io_container_notification_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

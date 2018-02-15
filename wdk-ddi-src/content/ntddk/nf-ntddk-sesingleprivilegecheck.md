@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bb83318c-b14f-421a-9cd4-69e270b825c7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, ntddk/SeSinglePrivilegeCheck, SeSinglePrivilegeCheck, kernel.sesingleprivilegecheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/SeSinglePrivilegeCheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture], SeSinglePrivilegeCheck, kernel.sesingleprivilegecheck, k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,15 +99,7 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
-
-
-
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
@@ -115,7 +107,15 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 
 
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
+
+
+
+<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
 
 
 

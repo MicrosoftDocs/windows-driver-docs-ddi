@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwWriteFile routine [Kernel-Mode Driver Architecture], wdm/ZwWriteFile, k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, ZwWriteFile, wdm/NtWriteFile, kernel.zwwritefile, NtWriteFile
+ms.keywords: NtWriteFile, wdm/ZwWriteFile, kernel.zwwritefile, ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], wdm/NtWriteFile, k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -204,15 +204,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 

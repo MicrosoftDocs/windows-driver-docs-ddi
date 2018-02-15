@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7d8ff1cc-e5d6-473b-bc16-e87468bb546c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getphonebookoptions, rilapi/RIL_GetPhonebookOptions, RIL_GetPhonebookOptions method [Network Drivers Starting with Windows Vista], RIL_GetPhonebookOptions
+ms.keywords: netvista.ril_getphonebookoptions, rilapi/RIL_GetPhonebookOptions, RIL_GetPhonebookOptions, RIL_GetPhonebookOptions method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

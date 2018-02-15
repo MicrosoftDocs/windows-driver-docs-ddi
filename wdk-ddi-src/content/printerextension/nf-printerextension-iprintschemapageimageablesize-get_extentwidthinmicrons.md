@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B30CD277-ADE2-45F7-BE73-CF738843D9B9
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, IPrintSchemaPageImageableSize, get_ExtentWidthInMicrons, ExtentWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize.ExtentWidthInMicrons, IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, print.iprintschemapageimageablesize_extentwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentWidthInMicrons, ExtentWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices], ExtentWidthInMicrons property
+ms.keywords: ExtentWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, print.iprintschemapageimageablesize_extentwidthinmicrons, IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, ExtentWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], ExtentWidthInMicrons property, printerextension/IPrintSchemaPageImageableSize::ExtentWidthInMicrons, get_ExtentWidthInMicrons, IPrintSchemaPageImageableSize.ExtentWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b5aee65-ccf6-42c6-9bb3-dff93cb53cf0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_RemovePersistentLogin_OUT, RemovePersistentLogin_OUT, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml, PRemovePersistentLogin_OUT structure pointer [Storage Devices], *PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, storage.removepersistentlogin_out, iscsiop/PRemovePersistentLogin_OUT"
+ms.keywords: storage.removepersistentlogin_out, *PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, RemovePersistentLogin_OUT, _RemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml, PRemovePersistentLogin_OUT structure pointer [Storage Devices], PRemovePersistentLogin_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

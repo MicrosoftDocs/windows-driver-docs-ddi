@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a573beb8-7019-4605-ab37-5871f67c585d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PDVD_BCA_DESCRIPTOR, ntddcdvd/PDVD_BCA_DESCRIPTOR, structs-DVD_4bbbd075-9b9f-40a6-b52d-e96b8ad7118b.xml, DVD_BCA_DESCRIPTOR, _DVD_BCA_DESCRIPTOR, PDVD_BCA_DESCRIPTOR structure pointer [Storage Devices], DVD_BCA_DESCRIPTOR structure [Storage Devices], PDVD_BCA_DESCRIPTOR, storage.dvd_bca_descriptor, ntddcdvd/DVD_BCA_DESCRIPTOR"
+ms.keywords: ntddcdvd/DVD_BCA_DESCRIPTOR, ntddcdvd/PDVD_BCA_DESCRIPTOR, PDVD_BCA_DESCRIPTOR, DVD_BCA_DESCRIPTOR structure [Storage Devices], storage.dvd_bca_descriptor, _DVD_BCA_DESCRIPTOR, *PDVD_BCA_DESCRIPTOR, PDVD_BCA_DESCRIPTOR structure pointer [Storage Devices], structs-DVD_4bbbd075-9b9f-40a6-b52d-e96b8ad7118b.xml, DVD_BCA_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

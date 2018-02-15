@@ -146,11 +146,11 @@ The PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK function type is defined in the Wdm.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
+
+
+
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 

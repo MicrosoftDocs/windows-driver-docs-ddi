@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], OutputVaList method, dbgeng/IDebugControl::OutputVaList, IDebugControl3::OutputVaList, IDebugControl2 interface [Windows Debugging], OutputVaList method, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl, dbgeng/IDebugControl3::OutputVaList, OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2 interface, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, IDebugControl3 interface [Windows Debugging], OutputVaList method, debugger.outputvalist, IDebugControl::OutputVaList
+ms.keywords: IDebugControl2 interface [Windows Debugging], OutputVaList method, IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, IDebugControl::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl interface, OutputVaList, OutputVaList method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::OutputVaList, IDebugControl3 interface [Windows Debugging], OutputVaList method, debugger.outputvalist, dbgeng/IDebugControl2::OutputVaList, IDebugControl3::OutputVaList, OutputVaList method [Windows Debugging], IDebugControl3 interface, IDebugControl, OutputVaList method [Windows Debugging], IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, IDebugControl interface [Windows Debugging], OutputVaList method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -299,19 +299,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
 
 
@@ -319,7 +307,19 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

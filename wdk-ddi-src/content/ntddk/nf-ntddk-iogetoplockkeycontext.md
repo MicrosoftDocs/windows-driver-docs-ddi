@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E93091A2-203B-418D-93E7-1219DED25C52
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoGetOplockKeyContextEx, IoGetOplockKeyContext, IoGetOplockKeyContextEx routine [Installable File System Drivers], ntddk/IoGetOplockKeyContextEx, ifsk.iogetoplockkeycontext
+ms.keywords: ntddk/IoGetOplockKeyContextEx, ifsk.iogetoplockkeycontext, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], IoGetOplockKeyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,7 @@ Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a hre
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
 
 
 
@@ -105,7 +101,11 @@ Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a hre
 
 
 
-<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
 
 
 

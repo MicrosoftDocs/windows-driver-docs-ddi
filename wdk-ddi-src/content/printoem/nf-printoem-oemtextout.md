@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cecce6ae-9b26-4b5f-aad3-69630ea340a4
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMTextOut, print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, printoem/OEMTextOut, print.oemtextout, OEMTextOut function [Print Devices]
+ms.keywords: OEMTextOut, OEMTextOut function [Print Devices], print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, printoem/OEMTextOut, print.oemtextout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

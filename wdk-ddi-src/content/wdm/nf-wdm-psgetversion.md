@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: db3d2e34-3d83-423d-b446-2800d53a8220
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, kernel.psgetversion, PsGetVersion, PsGetVersion function [Kernel-Mode Driver Architecture], wdm/PsGetVersion
+ms.keywords: PsGetVersion, wdm/PsGetVersion, kernel.psgetversion, k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, PsGetVersion function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

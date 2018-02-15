@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1183f584-8dfa-4eea-b494-3a2e23ec0294
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/USB_BUS_INTERFACE_USBDI_V3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3, _USB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3, buses.usb_bus_interface_usbdi_v3, USB_BUS_INTERFACE_USBDI_V3 structure [Buses]"
+ms.keywords: usbbusif/USB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], buses.usb_bus_interface_usbdi_v3, USB_BUS_INTERFACE_USBDI_V3 structure [Buses], *PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3, _USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

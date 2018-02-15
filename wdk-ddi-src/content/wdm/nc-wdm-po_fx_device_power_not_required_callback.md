@@ -140,15 +140,7 @@ The PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK function type is defined in the Wdm
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="..\wdm\nf-wdm-pofxcompletedevicepowernotrequired.md">PoFxCompleteDevicePowerNotRequired</a>
 
 
 
@@ -156,7 +148,15 @@ The PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK function type is defined in the Wdm
 
 
 
-<a href="..\wdm\nf-wdm-pofxcompletedevicepowernotrequired.md">PoFxCompleteDevicePowerNotRequired</a>
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
 
 

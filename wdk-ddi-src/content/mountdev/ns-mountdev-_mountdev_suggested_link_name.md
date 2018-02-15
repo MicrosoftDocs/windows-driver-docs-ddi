@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5c6e3337-8071-486a-826a-ade722eb8449
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME structure [Storage Devices], mountdev/MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/PMOUNTDEV_SUGGESTED_LINK_NAME, structs-mntmgr_fc4a3528-34b9-4112-9501-87db4e87f9f3.xml, MOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME structure pointer [Storage Devices], PMOUNTDEV_SUGGESTED_LINK_NAME, storage.mountdev_suggested_link_name"
+ms.keywords: MOUNTDEV_SUGGESTED_LINK_NAME structure [Storage Devices], mountdev/MOUNTDEV_SUGGESTED_LINK_NAME, _MOUNTDEV_SUGGESTED_LINK_NAME, structs-mntmgr_fc4a3528-34b9-4112-9501-87db4e87f9f3.xml, storage.mountdev_suggested_link_name, MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/PMOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

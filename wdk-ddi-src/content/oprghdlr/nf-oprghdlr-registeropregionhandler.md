@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 5795a1d1-0e13-4f9f-b2f2-37bbd71bde7a
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi.registeropregionhandler, oprghdlr/RegisterOpRegionHandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, RegisterOpRegionHandler routine [ACPI Devices], RegisterOpRegionHandler
+ms.keywords: opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, RegisterOpRegionHandler, RegisterOpRegionHandler routine [ACPI Devices], oprghdlr/RegisterOpRegionHandler, acpi.registeropregionhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

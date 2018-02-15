@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4470EBAB-6B1F-43D3-B036-F0DD07BC8321
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UsbfnPortDetectedNoCad, *PUSBFN_ATTACH_ACTION, UsbfnIgnoreAttach, usbfnattach/UsbfnDetectProprietaryCharger, USBFN_ATTACH_ACTION, _USBFN_ATTACH_ACTION, UsbfnPortDetected, usbfnattach/UsbfnIgnoreAttach, usbfnattach/UsbfnPortDetected, UsbfnDetectProprietaryCharger, USBFN_ATTACH_ACTION enumeration [Buses], UsbfnProceedWithAttach, usbfnattach/UsbfnPortDetectedNoCad, usbfnattach/UsbfnProceedWithAttach, usbfnattach/USBFN_ATTACH_ACTION, buses.usbfn_attach_action
+ms.keywords: usbfnattach/UsbfnDetectProprietaryCharger, *PUSBFN_ATTACH_ACTION, usbfnattach/UsbfnIgnoreAttach, UsbfnPortDetected, buses.usbfn_attach_action, usbfnattach/UsbfnProceedWithAttach, USBFN_ATTACH_ACTION enumeration [Buses], usbfnattach/USBFN_ATTACH_ACTION, UsbfnPortDetectedNoCad, usbfnattach/UsbfnPortDetectedNoCad, USBFN_ATTACH_ACTION, UsbfnProceedWithAttach, UsbfnIgnoreAttach, _USBFN_ATTACH_ACTION, usbfnattach/UsbfnPortDetected, UsbfnDetectProprietaryCharger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

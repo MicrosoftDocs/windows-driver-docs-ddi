@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ded54c88-3da0-42ec-88be-865d3cb87651
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeClearEvent, kernel.keclearevent, KeClearEvent routine [Kernel-Mode Driver Architecture], k105_1ea5c68a-0b59-48ec-911b-058b6a3e586b.xml, wdm/KeClearEvent
+ms.keywords: kernel.keclearevent, k105_1ea5c68a-0b59-48ec-911b-058b6a3e586b.xml, wdm/KeClearEvent, KeClearEvent, KeClearEvent routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,15 +97,15 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
 <a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
 
 
 

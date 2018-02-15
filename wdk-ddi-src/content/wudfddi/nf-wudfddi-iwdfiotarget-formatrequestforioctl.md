@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd0bbd6e-bb23-4d0c-9cac-9bb7657876a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTarget interface, FormatRequestForIoctl method, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, FormatRequestForIoctl, FormatRequestForIoctl method, wdf.iwdfiotarget_formatrequestforioctl, umdf.iwdfiotarget_formatrequestforioctl, FormatRequestForIoctl method, IWDFIoTarget interface, IWDFIoTarget::FormatRequestForIoctl, IWDFIoTarget, wudfddi/IWDFIoTarget::FormatRequestForIoctl
+ms.keywords: IWDFIoTarget, wudfddi/IWDFIoTarget::FormatRequestForIoctl, wdf.iwdfiotarget_formatrequestforioctl, FormatRequestForIoctl method, IWDFIoTarget interface, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, FormatRequestForIoctl method, umdf.iwdfiotarget_formatrequestforioctl, IWDFIoTarget interface, FormatRequestForIoctl method, FormatRequestForIoctl, IWDFIoTarget::FormatRequestForIoctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -126,7 +126,11 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 
 
@@ -134,11 +138,7 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 

@@ -172,10 +172,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscompleteunbindadapterex.md">NdisCompleteUnbindAdapterEx</a>
 
 
@@ -185,6 +181,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseadapterex.md">NdisCloseAdapterEx</a>
 
 
 

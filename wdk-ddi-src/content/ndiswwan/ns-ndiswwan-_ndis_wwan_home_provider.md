@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5f92a711-97fe-4420-be50-89302cc9486c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_WWAN_HOME_PROVIDER, ndiswwan/NDIS_WWAN_HOME_PROVIDER, netvista.ndis_wwan_home_provider, ndiswwan/PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER"
+ms.keywords: "_NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER, netvista.ndis_wwan_home_provider, PNDIS_WWAN_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_HOME_PROVIDER, WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, ndiswwan/NDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -208,11 +208,11 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
 
 
 

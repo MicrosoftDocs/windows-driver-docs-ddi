@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F8D7A87D-FFE6-4846-A902-2A686D78F0C1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_output_stream_parameters, D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020
+ms.keywords: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_output_stream_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,6 +92,7 @@ The zero-based index of an input stream. If the <b>AlphaFillMode</b> member has 
 ### -field BackgroundColor
 
 The background color, which the video processor uses to fill areas of the target rectangle that do not contain a video image. Areas outside the target rectangle are not affected.  The meaning of the values are specified by the <b>ColorSpace</b> member
+
 <table>
 <tr>
 <th></th>
@@ -118,7 +119,8 @@ The background color, which the video processor uses to fill areas of the target
 <td>A</td>
 <td>A</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field FrameRate
@@ -143,11 +145,17 @@ The target rectangle, which is the area within the destination surface where the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
+
+
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
+
+
 
 <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
 
-<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
+
 
  
 

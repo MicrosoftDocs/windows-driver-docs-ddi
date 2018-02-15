@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3c433fe5-1782-4a00-aa7b-1558b0f56080
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_device_layout_signature, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE, storduid/STORAGE_DEVICE_LAYOUT_SIGNATURE, _STORAGE_DEVICE_LAYOUT_SIGNATURE, structs-general_0392587a-aab6-4f49-bb7e-3ebf8acc87bb.xml, storduid/PSTORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE structure pointer [Storage Devices], STORAGE_DEVICE_LAYOUT_SIGNATURE structure [Storage Devices], PSTORAGE_DEVICE_LAYOUT_SIGNATURE
+ms.keywords: "_STORAGE_DEVICE_LAYOUT_SIGNATURE, PSTORAGE_DEVICE_LAYOUT_SIGNATURE structure pointer [Storage Devices], storage.storage_device_layout_signature, storduid/PSTORAGE_DEVICE_LAYOUT_SIGNATURE, structs-general_0392587a-aab6-4f49-bb7e-3ebf8acc87bb.xml, PSTORAGE_DEVICE_LAYOUT_SIGNATURE, *PSTORAGE_DEVICE_LAYOUT_SIGNATURE, storduid/STORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE, STORAGE_DEVICE_LAYOUT_SIGNATURE structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

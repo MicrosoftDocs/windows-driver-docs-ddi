@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8d0a91ef-9fb0-45a6-979a-614aed1703a5
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltSetInformationFile function [Installable File System Drivers], ifsk.fltsetinformationfile, fltkernel/FltSetInformationFile, FltApiRef_p_to_z_310caf59-cf9a-488a-8632-f0d8d5e14769.xml, FltSetInformationFile
+ms.keywords: FltSetInformationFile, FltApiRef_p_to_z_310caf59-cf9a-488a-8632-f0d8d5e14769.xml, ifsk.fltsetinformationfile, FltSetInformationFile function [Installable File System Drivers], fltkernel/FltSetInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -208,11 +208,11 @@ Minifilter drivers must use <b>FltSetInformationFile</b> , not <a href="..\wdm\n
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
@@ -224,23 +224,19 @@ Minifilter drivers must use <b>FltSetInformationFile</b> , not <a href="..\wdm\n
 
 
 
-<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformationfile.md">FltQueryVolumeInformationFile</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_allocation_information.md">FILE_ALLOCATION_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_file_disposition_information.md">FILE_DISPOSITION_INFORMATION</a>
 
 
 
@@ -248,7 +244,11 @@ Minifilter drivers must use <b>FltSetInformationFile</b> , not <a href="..\wdm\n
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_disposition_information.md">FILE_DISPOSITION_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_allocation_information.md">FILE_ALLOCATION_INFORMATION</a>
 
 
 

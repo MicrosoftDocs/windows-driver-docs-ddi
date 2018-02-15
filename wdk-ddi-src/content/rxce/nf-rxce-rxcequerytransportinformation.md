@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml, RxCeQueryTransportInformation function [Installable File System Drivers], rxce/RxCeQueryTransportInformation, ifsk.rxcequerytransportinformation, RxCeQueryTransportInformation
+ms.keywords: rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml, rxce/RxCeQueryTransportInformation, RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

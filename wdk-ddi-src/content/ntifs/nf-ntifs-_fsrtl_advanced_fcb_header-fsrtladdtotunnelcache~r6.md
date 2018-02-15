@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 71cac8fd-d544-4f66-a3ba-f0b267e46d1e
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlAddToTunnelCache routine [Installable File System Drivers], FsRtlAddToTunnelCache, ntifs/FsRtlAddToTunnelCache, ifsk.fsrtladdtotunnelcache, fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml
+ms.keywords: ifsk.fsrtladdtotunnelcache, fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml, ntifs/FsRtlAddToTunnelCache, FsRtlAddToTunnelCache, FsRtlAddToTunnelCache routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,11 +134,11 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
 
 
 
@@ -146,7 +146,7 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
 
 
 

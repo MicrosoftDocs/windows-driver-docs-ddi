@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe5e1f75-ebd0-4856-bb77-14efb52fbce0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN, storage.setgrouppresharedkey_in, structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml, PSetGroupPresharedKey_IN structure pointer [Storage Devices], iscsiop/SetGroupPresharedKey_IN, SetGroupPresharedKey_IN structure [Storage Devices], iscsiop/PSetGroupPresharedKey_IN, _SetGroupPresharedKey_IN, SetGroupPresharedKey_IN"
+ms.keywords: SetGroupPresharedKey_IN, _SetGroupPresharedKey_IN, storage.setgrouppresharedkey_in, iscsiop/SetGroupPresharedKey_IN, iscsiop/PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN structure pointer [Storage Devices], PSetGroupPresharedKey_IN, structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml, SetGroupPresharedKey_IN structure [Storage Devices], *PSetGroupPresharedKey_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_out.md">SetGroupPresharedKey_OUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_out.md">SetGroupPresharedKey_OUT</a>
 
 
 

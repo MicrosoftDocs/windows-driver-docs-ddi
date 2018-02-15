@@ -40,7 +40,7 @@ apiname:
 -	CamFreeBandwidth
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ Pointer to the camera minidriver's device context.
 ## -returns
 
 
+
 <b>CamFreeBandwidth</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
@@ -102,11 +105,16 @@ This function is required.
 
 
 
+
 ## -see-also
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md">CamFreeBandwidthEx</a>
+
+
 
 <a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md">CamFreeBandwidthEx</a>
+
 
  
 

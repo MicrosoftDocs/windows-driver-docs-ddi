@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2bc0cd81-db9b-4646-838b-0e66c0667202
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetScopeSymbolGroup2 method [Windows Debugging], debugger.getscopesymbolgroup2, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup2 method, dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, GetScopeSymbolGroup2, GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetScopeSymbolGroup2, IDebugSymbols3
+ms.keywords: dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, debugger.getscopesymbolgroup2, IDebugSymbols3::GetScopeSymbolGroup2, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup2 method, GetScopeSymbolGroup2 method [Windows Debugging], GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, GetScopeSymbolGroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,11 +158,11 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
 
 

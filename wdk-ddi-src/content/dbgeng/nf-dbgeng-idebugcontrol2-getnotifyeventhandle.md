@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a949a583-1ee1-4538-9117-4ad1482e8bc8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::GetNotifyEventHandle, IDebugControl2, IDebugControl3::GetNotifyEventHandle, IDebugControl2::GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], IDebugControl interface, GetNotifyEventHandle method [Windows Debugging], dbgeng/IDebugControl3::GetNotifyEventHandle, IDebugControl interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl::GetNotifyEventHandle, IDebugControl, IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, IDebugControl3 interface [Windows Debugging], GetNotifyEventHandle method, dbgeng/IDebugControl2::GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], GetNotifyEventHandle method, GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, debugger.getnotifyeventhandle
+ms.keywords: debugger.getnotifyeventhandle, IDebugControl2 interface [Windows Debugging], GetNotifyEventHandle method, dbgeng/IDebugControl::GetNotifyEventHandle, IDebugControl interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2::GetNotifyEventHandle, IDebugControl3::GetNotifyEventHandle, GetNotifyEventHandle method [Windows Debugging], IDebugControl interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, dbgeng/IDebugControl3::GetNotifyEventHandle, IDebugControl::GetNotifyEventHandle, GetNotifyEventHandle, IDebugControl2, IDebugControl, GetNotifyEventHandle method [Windows Debugging], dbgeng/IDebugControl2::GetNotifyEventHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,19 +115,19 @@ The event will only be signaled once.  After it has been signaled, this method w
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556739">SetNotifyEventHandle</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556739">SetNotifyEventHandle</a>
 
 
 

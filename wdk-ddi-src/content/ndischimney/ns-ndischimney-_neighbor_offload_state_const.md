@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c79a3d6-c365-4740-a2e0-94333b70d8cc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.neighbor_offload_state_const, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CONST, _NEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/NEIGHBOR_OFFLOAD_STATE_CONST, PNEIGHBOR_OFFLOAD_STATE_CONST, *PNEIGHBOR_OFFLOAD_STATE_CONST, PNEIGHBOR_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_3e21fef6-9a3c-4eba-b6fb-31af70a3eaaa.xml, NEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ndischimney/PNEIGHBOR_OFFLOAD_STATE_CONST, tcp_chim_struct_3e21fef6-9a3c-4eba-b6fb-31af70a3eaaa.xml, *PNEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], ndischimney/NEIGHBOR_OFFLOAD_STATE_CONST, PNEIGHBOR_OFFLOAD_STATE_CONST, netvista.neighbor_offload_state_const, _NEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -128,20 +128,20 @@ For a description of how an offload target uses the
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

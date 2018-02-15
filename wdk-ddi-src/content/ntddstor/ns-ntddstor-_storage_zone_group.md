@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71CEEE58-22CC-4FB4-83E1-5FCC6563D1D2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_zone_group, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], _STORAGE_ZONE_GROUP, ntddstor/PSTORAGE_ZONE_GROUP, ntddstor/ STORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP structure [Storage Devices], STORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
+ms.keywords: STORAGE_ZONE_GROUP, ntddstor/PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP structure [Storage Devices], storage.storage_zone_group, *PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], ntddstor/ STORAGE_ZONE_GROUP, _STORAGE_ZONE_GROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

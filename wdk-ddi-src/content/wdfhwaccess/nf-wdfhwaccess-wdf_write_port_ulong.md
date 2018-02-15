@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 553CA9E0-66C7-436B-AE34-5A6201479D6D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_write_port_ulong, WDF_WRITE_PORT_ULONG function, WDF_WRITE_PORT_ULONG, wdfhwaccess/WDF_WRITE_PORT_ULONG
+ms.keywords: wdf.wdf_write_port_ulong, WDF_WRITE_PORT_ULONG, WDF_WRITE_PORT_ULONG function, wdfhwaccess/WDF_WRITE_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IsInEndPoint method, IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::IsInEndPoint, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, IsInEndPoint method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_isinendpoint, IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, IWDFUsbTargetPipe interface, IsInEndPoint method, wdf.iwdfusbtargetpipe_isinendpoint
+ms.keywords: wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, IWDFUsbTargetPipe interface, IsInEndPoint method, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint method, IsInEndPoint, IsInEndPoint method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cced26ea-bbb8-4716-b22d-8355b81102c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Display Devices], display.dxvahdddi_stream_state_input_color_space_data, DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVA2_Structs_4e403294-5aa5-4170-a635-567f89a34e8e.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, _DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA
+ms.keywords: DXVA2_Structs_4e403294-5aa5-4170-a635-567f89a34e8e.xml, display.dxvahdddi_stream_state_input_color_space_data, DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Display Devices], DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, _DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,7 +145,11 @@ For more information about color space, see <a href="..\d3dumddi\ns-d3dumddi-_dx
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_nominal_range.md">DXVAHDDDI_NOMINAL_RANGE</a>
 
 
 
@@ -153,11 +157,7 @@ For more information about color space, see <a href="..\d3dumddi\ns-d3dumddi-_dx
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_nominal_range.md">DXVAHDDDI_NOMINAL_RANGE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 965565ee-ef4c-4a1d-a6f1-77b6d63c6ee8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCodeLevel, GetCodeLevel method [Windows Debugging], IDebugControl interface, GetCodeLevel method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetCodeLevel, GetCodeLevel method [Windows Debugging], dbgeng/IDebugControl2::GetCodeLevel, IDebugControl2 interface [Windows Debugging], GetCodeLevel method, dbgeng/IDebugControl3::GetCodeLevel, IDebugControl3 interface [Windows Debugging], GetCodeLevel method, IDebugControl, IDebugControl_8533dd3f-f004-4d89-9f02-b7835fc6169e.xml, GetCodeLevel method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetCodeLevel, IDebugControl3::GetCodeLevel, IDebugControl interface [Windows Debugging], GetCodeLevel method, debugger.getcodelevel, dbgeng/IDebugControl::GetCodeLevel
+ms.keywords: IDebugControl interface [Windows Debugging], GetCodeLevel method, IDebugControl3 interface [Windows Debugging], GetCodeLevel method, GetCodeLevel method [Windows Debugging], IDebugControl2 interface, GetCodeLevel method [Windows Debugging], IDebugControl interface, IDebugControl::GetCodeLevel, GetCodeLevel, IDebugControl_8533dd3f-f004-4d89-9f02-b7835fc6169e.xml, debugger.getcodelevel, IDebugControl3::GetCodeLevel, dbgeng/IDebugControl::GetCodeLevel, IDebugControl2 interface [Windows Debugging], GetCodeLevel method, dbgeng/IDebugControl3::GetCodeLevel, GetCodeLevel method [Windows Debugging], GetCodeLevel method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetCodeLevel, IDebugControl, IDebugControl2::GetCodeLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,7 +141,7 @@ For more information about the code level, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556629">SetCodeLevel</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -149,7 +149,7 @@ For more information about the code level, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556629">SetCodeLevel</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f9c4bcab-5584-4b26-b4ff-6067d7ef1890
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: PsLookupProcessByProcessId routine [Installable File System Drivers], ifsk.pslookupprocessbyprocessid, PsLookupProcessByProcessId, ntifs/PsLookupProcessByProcessId, psref_809b3ca8-eb8a-4ee0-9d74-b33b10664834.xml
+ms.keywords: PsLookupProcessByProcessId routine [Installable File System Drivers], psref_809b3ca8-eb8a-4ee0-9d74-b33b10664834.xml, ntifs/PsLookupProcessByProcessId, PsLookupProcessByProcessId, ifsk.pslookupprocessbyprocessid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,11 +129,31 @@ The <b>PsLookupProcessByProcessId</b> routine contains pageable code.
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-psremoveloadimagenotifyroutine.md">PsRemoveLoadImageNotifyRoutine</a>
 
 
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
 
 
 
@@ -142,26 +162,6 @@ The <b>PsLookupProcessByProcessId</b> routine contains pageable code.
 
 
 <a href="..\ntifs\nf-ntifs-pslookupthreadbythreadid.md">PsLookupThreadByThreadId</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-psremoveloadimagenotifyroutine.md">PsRemoveLoadImageNotifyRoutine</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
 
 

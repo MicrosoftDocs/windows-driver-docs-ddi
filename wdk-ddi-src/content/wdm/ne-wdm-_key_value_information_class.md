@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 99a34b06-3352-47a6-95bc-051a5dfdd82e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeyValueFullInformationAlign64, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyValueBasicInformation, wdm/KeyValuePartialInformationAlign64, wdm/KeyValuePartialInformation, KeyValueBasicInformation, wdm/KeyValueFullInformation, kernel.key_value_information_class, KeyValueFullInformation, _KEY_VALUE_INFORMATION_CLASS, wdm/MaxKeyValueInfoClass, wdm/KEY_VALUE_INFORMATION_CLASS, KeyValuePartialInformationAlign64, KEY_VALUE_INFORMATION_CLASS, KeyValuePartialInformation, MaxKeyValueInfoClass, wdm/KeyValueFullInformationAlign64
+ms.keywords: KeyValueFullInformation, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, wdm/KeyValuePartialInformationAlign64, wdm/MaxKeyValueInfoClass, wdm/KeyValueFullInformation, wdm/KeyValueBasicInformation, _KEY_VALUE_INFORMATION_CLASS, KeyValuePartialInformation, KeyValuePartialInformationAlign64, KEY_VALUE_INFORMATION_CLASS, KeyValueBasicInformation, KeyValueFullInformationAlign64, wdm/KeyValuePartialInformation, wdm/KEY_VALUE_INFORMATION_CLASS, kernel.key_value_information_class, MaxKeyValueInfoClass, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyValueFullInformationAlign64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -117,15 +117,11 @@ Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
 
 
 <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
 
 
@@ -134,6 +130,10 @@ Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to
 
 
 <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 

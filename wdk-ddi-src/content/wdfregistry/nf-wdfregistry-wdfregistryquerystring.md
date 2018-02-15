@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2c1242ea-5d77-464e-9203-ef2236ea4619
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryQueryString, wdfregistry/WdfRegistryQueryString, WdfRegistryQueryString method, DFRegKeyObjectRef_d3260d42-afdc-4858-a0b4-e2ae90327066.xml, wdf.wdfregistryquerystring, kmdf.wdfregistryquerystring
+ms.keywords: wdfregistry/WdfRegistryQueryString, wdf.wdfregistryquerystring, WdfRegistryQueryString, DFRegKeyObjectRef_d3260d42-afdc-4858-a0b4-e2ae90327066.xml, kmdf.wdfregistryquerystring, WdfRegistryQueryString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -249,7 +249,7 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -257,7 +257,7 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
 
 
 
@@ -269,11 +269,11 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
 
 
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
 
 
 

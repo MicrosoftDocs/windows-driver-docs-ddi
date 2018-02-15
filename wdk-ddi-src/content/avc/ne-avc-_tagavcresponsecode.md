@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 81a0ff7f-60a0-437e-8db2-ac364000d580
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/AVC_RESPONSE_ACCEPTED, AVC_RESPONSE_ACCEPTED, AVC_RESPONSE_IMPLEMENTED, AVC_RESPONSE_NOTIMPL, avc/AVC_RESPONSE_CHANGED, AVC_RESPONSE_IN_TRANSITION, AVC_RESPONSE_CHANGED, avc/AVC_RESPONSE_NOTIMPL, AVC_RESPONSE_INTERIM, avc/AvcResponseCode, avc/AVC_RESPONSE_INTERIM, avc/AVC_RESPONSE_REJECTED, avc/AVC_RESPONSE_IMPLEMENTED, stream.avcresponsecode, avcref_28d2a6d6-4b1f-4b5e-af90-294da5dd14e5.xml, avc/AVC_RESPONSE_IN_TRANSITION, AvcResponseCode, _tagAvcResponseCode, AVC_RESPONSE_STABLE, AVC_RESPONSE_REJECTED, AvcResponseCode enumeration [Streaming Media Devices], avc/AVC_RESPONSE_STABLE
+ms.keywords: avc/AVC_RESPONSE_REJECTED, avc/AVC_RESPONSE_NOTIMPL, AvcResponseCode enumeration [Streaming Media Devices], AvcResponseCode, AVC_RESPONSE_INTERIM, AVC_RESPONSE_ACCEPTED, avc/AVC_RESPONSE_IN_TRANSITION, AVC_RESPONSE_STABLE, avc/AVC_RESPONSE_CHANGED, AVC_RESPONSE_NOTIMPL, avc/AVC_RESPONSE_STABLE, avc/AVC_RESPONSE_IMPLEMENTED, AVC_RESPONSE_IMPLEMENTED, avc/AvcResponseCode, avc/AVC_RESPONSE_ACCEPTED, AVC_RESPONSE_REJECTED, avc/AVC_RESPONSE_INTERIM, _tagAvcResponseCode, avcref_28d2a6d6-4b1f-4b5e-af90-294da5dd14e5.xml, stream.avcresponsecode, AVC_RESPONSE_CHANGED, AVC_RESPONSE_IN_TRANSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -120,11 +120,11 @@ Indicates the subunit is unable to respond with either <b>AVC_RESPONSE_ACCEPTED<
 
 
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+
+
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 

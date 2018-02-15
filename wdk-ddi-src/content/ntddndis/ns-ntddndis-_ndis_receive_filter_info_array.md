@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32896b46-1143-4598-ad15-2eb4dbdea6e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, _NDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_FILTER_INFO_ARRAY
+ms.keywords: "_NDIS_RECEIVE_FILTER_INFO_ARRAY, virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml, *PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -206,11 +206,11 @@ The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a>
 
 
 
@@ -218,7 +218,7 @@ The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a>
 
 
 

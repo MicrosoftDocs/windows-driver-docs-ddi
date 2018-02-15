@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F5E7FB7C-A38F-4DBA-9C98-9554FA80CC07
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.printermessageboxw, PrinterMessageBoxW function [Print Devices], winspool/PrinterMessageBoxW, PrinterMessageBoxW
+ms.keywords: PrinterMessageBoxW function [Print Devices], print.printermessageboxw, winspool/PrinterMessageBoxW, PrinterMessageBoxW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

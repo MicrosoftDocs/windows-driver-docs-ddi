@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07BFCA6C-4E75-4BB5-9F6A-22E1FFAFFF6F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARGCB_UPDATECONTEXTALLOCATION, display.dxgkargcb_updatecontextallocation, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices], DXGKARGCB_UPDATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION"
+ms.keywords: display.dxgkargcb_updatecontextallocation, DXGKARGCB_UPDATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, _DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

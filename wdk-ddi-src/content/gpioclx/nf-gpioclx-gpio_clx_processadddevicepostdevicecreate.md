@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 4B88820F-32B9-4AA2-867A-316A3796BE86
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO.gpio_clx_processadddevicepostdevicecreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate method [Parallel Ports]
+ms.keywords: gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate method [Parallel Ports], GPIO.gpio_clx_processadddevicepostdevicecreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,7 +142,7 @@ For a code example that contains a call to <b>GPIO_CLX_ProcessAddDevicePostDevic
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439487">GPIO_CLX_ProcessAddDevicePreDeviceCreate</a>
 
 
 
@@ -150,7 +150,7 @@ For a code example that contains a call to <b>GPIO_CLX_ProcessAddDevicePostDevic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439487">GPIO_CLX_ProcessAddDevicePreDeviceCreate</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

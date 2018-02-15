@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: A3C1E53B-2E41-437A-8613-C43DCD4768B5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: BTHHFP_DESCRIPTOR structure [Audio Devices], PBTHHFP_DESCRIPTOR, _BTHHFP_DESCRIPTOR, audio.bthhfp_descriptor, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], BTHHFP_DESCRIPTOR, *PBTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR, bthhfpddi/BTHHFP_DESCRIPTOR
+ms.keywords: BTHHFP_DESCRIPTOR, _BTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR, *PBTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], audio.bthhfp_descriptor, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], bthhfpddi/BTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,7 +137,7 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues.md">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
 
 
 
@@ -145,7 +145,7 @@ For information about the IOCTLs that work with this structure, see <a href="htt
 
 
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues.md">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
 
 
 

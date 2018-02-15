@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 0CA3B49C-B2A7-497D-A97B-4AC845074BEC
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UdecxUsbDeviceWakeDisabled, udecxusbdevice/PUDECX_USB_DEVICE_WAKE_SETTING, _UDECX_USB_DEVICE_WAKE_SETTING, buses.udecx_usb_device_wake_setting, udecxusbdevice/UdecxUsbDeviceWakeEnabled, udecxusbdevice/UDECX_USB_DEVICE_WAKE_SETTING, UdecxUsbDeviceWakeNotApplicable, UdecxUsbDeviceWakeEnabled, *PUDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING enumeration pointer [Buses], udecxusbdevice/UdecxUsbDeviceWakeNotApplicable, UDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UdecxUsbDeviceWakeDisabled, UDECX_USB_DEVICE_WAKE_SETTING enumeration [Buses]
+ms.keywords: PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING, buses.udecx_usb_device_wake_setting, UdecxUsbDeviceWakeDisabled, UdecxUsbDeviceWakeEnabled, *PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING enumeration [Buses], udecxusbdevice/UdecxUsbDeviceWakeDisabled, UdecxUsbDeviceWakeNotApplicable, udecxusbdevice/UdecxUsbDeviceWakeEnabled, udecxusbdevice/UdecxUsbDeviceWakeNotApplicable, _UDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/PUDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING enumeration pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B2E4D369-CCCF-4654-875F-69E90FEA1FF9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndkpi/PNDK_CONNECTOR, PNDK_CONNECTOR, ndkpi/NDK_CONNECTOR, NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR, netvista.ndk_connector, NDK_CONNECTOR
+ms.keywords: PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_CONNECTOR, NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR, netvista.ndk_connector, ndkpi/NDK_CONNECTOR, PNDK_CONNECTOR, NDK_CONNECTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,6 +89,10 @@ An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="..\
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
 
 
@@ -97,15 +101,11 @@ An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="..\
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
 
@@ -113,7 +113,7 @@ An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="..\
 
 
 
-<a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
 
 

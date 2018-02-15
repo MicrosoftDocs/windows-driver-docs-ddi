@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 37F09500-1EDB-459D-8845-789734081B0C
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintJob.PrintedPages, IPrintJob interface [Print Devices], PrintedPages property, get_PrintedPages, IPrintJob, PrintedPages property [Print Devices], printerextension/IPrintJob::PrintedPages, IPrintJob::get_PrintedPages, printerextension/IPrintJob::get_PrintedPages, print.iprintjob_printedpages, PrintedPages property [Print Devices], IPrintJob interface
+ms.keywords: PrintedPages property [Print Devices], IPrintJob, print.iprintjob_printedpages, IPrintJob interface [Print Devices], PrintedPages property, PrintedPages property [Print Devices], IPrintJob interface, IPrintJob.PrintedPages, printerextension/IPrintJob::PrintedPages, get_PrintedPages, IPrintJob::get_PrintedPages, printerextension/IPrintJob::get_PrintedPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

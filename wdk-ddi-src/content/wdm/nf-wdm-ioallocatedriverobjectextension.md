@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e4e4e721-5b5c-48e8-99cb-d04c6b0eb807
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml, kernel.ioallocatedriverobjectextension
+ms.keywords: wdm/IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], kernel.ioallocatedriverobjectextension, k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 92e4e960-fd74-42e1-8448-a07676507427
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: USBD_PIPE_INFORMATION, usb/PUSBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml, PUSBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION, usb/USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], PUSBD_PIPE_INFORMATION structure pointer [Buses], _USBD_PIPE_INFORMATION, buses.usbd_pipe_information
+ms.keywords: usb/USBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], _USBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, usb/PUSBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION, buses.usbd_pipe_information, USBD_PIPE_INFORMATION structure [Buses], usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -290,11 +290,11 @@ The value received in <b>MaximumPacketSize</b> for an isochronous endpoint (high
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

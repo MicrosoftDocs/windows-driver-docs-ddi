@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 8c7f378c-b4e6-4074-8b6a-571068b5ab80
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: OnGetProperties, OnGetProperties method [Sensor Devices], ISensorDriver, sensors.isensordriver_ongetproperties, ISensorDriver::OnGetProperties
+ms.keywords: OnGetProperties method [Sensor Devices], sensors.isensordriver_ongetproperties, ISensorDriver::OnGetProperties, OnGetProperties, ISensorDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

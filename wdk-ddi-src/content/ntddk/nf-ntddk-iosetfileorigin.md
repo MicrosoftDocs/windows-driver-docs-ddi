@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 98d38c84-ed3a-4119-9a05-f8211f220467
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoSetFileOrigin, IoSetFileOrigin routine [Installable File System Drivers], ifsk.iosetfileorigin, ioref_782eeed5-9c44-4572-b929-4e1fb82d8e03.xml, ntddk/IoSetFileOrigin
+ms.keywords: ntddk/IoSetFileOrigin, ioref_782eeed5-9c44-4572-b929-4e1fb82d8e03.xml, IoSetFileOrigin, IoSetFileOrigin routine [Installable File System Drivers], ifsk.iosetfileorigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

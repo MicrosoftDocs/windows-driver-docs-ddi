@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: D77F5755-75B0-48E6-BC5C-565022F884E1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols4::GetNameByInlineContextWide, IDebugSymbols4 interface [Windows Debugging], GetNameByInlineContextWide method, IDebugSymbols4, GetNameByInlineContextWide, debugger.idebugsymbols4_getnamebyinlinecontextwide, GetNameByInlineContextWide method [Windows Debugging], GetNameByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4::GetNameByInlineContextWide
+ms.keywords: IDebugSymbols4, GetNameByInlineContextWide, debugger.idebugsymbols4_getnamebyinlinecontextwide, GetNameByInlineContextWide method [Windows Debugging], IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging], GetNameByInlineContextWide method, dbgeng/IDebugSymbols4::GetNameByInlineContextWide, GetNameByInlineContextWide method [Windows Debugging], IDebugSymbols4::GetNameByInlineContextWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

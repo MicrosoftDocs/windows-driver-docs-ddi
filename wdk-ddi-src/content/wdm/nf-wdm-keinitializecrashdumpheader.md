@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6fa0cf86-35f4-4e5d-bced-ebd2ec499b64
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], wdm/KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader, kernel.keinitializecrashdumpheader, k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml
+ms.keywords: k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, KeInitializeCrashDumpHeader, wdm/KeInitializeCrashDumpHeader, kernel.keinitializecrashdumpheader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

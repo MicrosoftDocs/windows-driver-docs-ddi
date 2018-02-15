@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9b543d5d-ed6d-4440-b5ad-aefca69dd489
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFObject::AssignContext, wdf.iwdfobject_assigncontext, IWDFObject::AssignContext, AssignContext method, IWDFObject interface, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, AssignContext method, IWDFObject, umdf.iwdfobject_assigncontext, AssignContext, IWDFObject interface, AssignContext method
+ms.keywords: AssignContext method, umdf.iwdfobject_assigncontext, IWDFObject interface, AssignContext method, IWDFObject, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, AssignContext method, IWDFObject interface, AssignContext, IWDFObject::AssignContext, wdf.iwdfobject_assigncontext, wudfddi/IWDFObject::AssignContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,7 +115,7 @@ For a code example of how to use the <b>AssignContext</b> method, see <a href="h
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560218">IWDFObject::RetrieveContext</a>
 
 
 
@@ -127,7 +127,7 @@ For a code example of how to use the <b>AssignContext</b> method, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560218">IWDFObject::RetrieveContext</a>
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 

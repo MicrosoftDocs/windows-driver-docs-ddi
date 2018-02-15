@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamAutoProcessingMode
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE callback
@@ -78,13 +78,10 @@ VOID APIENTRY* pfnVideoProcessorSetStreamAutoProcessingMode(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
 
 
-
 ### -param UINT
-
 
 
 ### -param BOOL
@@ -92,6 +89,20 @@ VOID APIENTRY* pfnVideoProcessorSetStreamAutoProcessingMode(
 
 
 
+
+
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, automatic processing features are enabled. If <b>FALSE</b>, the driver disables any additional video processing that it might be performing.
+
+
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
 
 
 #### - hDevice [in]
@@ -108,26 +119,17 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, automatic processing features are enabled. If <b>FALSE</b>, the driver disables any additional video processing that it might be performing.
-
-
-
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 By default, the driver might perform certain processing tasks automatically during the video processor bit-block transfer (bitblt). The <b>VideoProcessorSetStreamAutoProcessingMode</b> function enables the application to disable these additional video processing features that the driver may expose. 
@@ -138,9 +140,12 @@ For example, if the independent software vendor (ISV) provides its own pixel sha
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
 
  
 

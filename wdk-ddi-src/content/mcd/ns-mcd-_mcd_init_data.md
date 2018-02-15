@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4fc4c36f-a2ad-4b9f-a30b-e7ed600c38e9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.mcd_init_data, PMCD_INIT_DATA structure pointer [Storage Devices], PMCD_INIT_DATA, MCD_INIT_DATA, *PMCD_INIT_DATA, mcd/PMCD_INIT_DATA, mcd/MCD_INIT_DATA, MCD_INIT_DATA structure [Storage Devices], structs-changer_f8810f4b-8465-4751-a885-cc68a88e45fb.xml, _MCD_INIT_DATA
+ms.keywords: mcd/MCD_INIT_DATA, storage.mcd_init_data, MCD_INIT_DATA, PMCD_INIT_DATA structure pointer [Storage Devices], structs-changer_f8810f4b-8465-4751-a885-cc68a88e45fb.xml, *PMCD_INIT_DATA, mcd/PMCD_INIT_DATA, _MCD_INIT_DATA, PMCD_INIT_DATA, MCD_INIT_DATA structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -398,11 +398,11 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">IOCTL_CHANGER_MOVE_MEDIUM</a>
 
 
 
@@ -410,11 +410,31 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 
-<a href="..\mcd\nf-mcd-changeradditionalextensionsize.md">ChangerAdditionalExtensionSize</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerreinitializeunit.md">ChangerReinitializeUnit</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+
+
+
+<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
+
+
+
+<a href="..\mcd\nf-mcd-changererror.md">ChangerError</a>
+
+
+
+<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
 
 
 
@@ -422,11 +442,7 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 
-<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
-
-
-
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
+<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
 
 
 
@@ -438,27 +454,7 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
-
-
-
-<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
-
-
-
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">IOCTL_CHANGER_MOVE_MEDIUM</a>
-
-
-
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
-
-
-
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
-
-
-
-<a href="..\mcd\nf-mcd-changergetparameters.md">ChangerGetParameters</a>
+<a href="..\mcd\nf-mcd-changergetstatus.md">ChangerGetStatus</a>
 
 
 
@@ -466,15 +462,27 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
-
-
-
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>
 
 
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
+
+
+
+<a href="..\mcd\nf-mcd-changerreinitializeunit.md">ChangerReinitializeUnit</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
+
+
+
+<a href="..\mcd\nf-mcd-changeradditionalextensionsize.md">ChangerAdditionalExtensionSize</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetparameters.md">ChangerGetParameters</a>
 
 
 
@@ -483,14 +491,6 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
-
-
-
-<a href="..\mcd\nf-mcd-changergetstatus.md">ChangerGetStatus</a>
-
-
-
-<a href="..\mcd\nf-mcd-changererror.md">ChangerError</a>
 
 
 

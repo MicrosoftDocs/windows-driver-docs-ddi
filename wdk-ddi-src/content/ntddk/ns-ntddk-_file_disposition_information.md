@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a13b5411-a0dd-4a54-98a8-419e2f0e95b8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: FILE_DISPOSITION_INFORMATION, *PFILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION, _FILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_b_3796aa61-042a-435d-bfa9-c77c6a0dff98.xml, ntddk/PFILE_DISPOSITION_INFORMATION, ntddk/FILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.file_disposition_information
+ms.keywords: kernel.file_disposition_information, FILE_DISPOSITION_INFORMATION, *PFILE_DISPOSITION_INFORMATION, kstruct_b_3796aa61-042a-435d-bfa9-c77c6a0dff98.xml, ntddk/PFILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntddk/FILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,11 +85,11 @@ A file marked for deletion is not actually deleted until all open handles for th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c15f9be2-1f35-41cf-a1de-880e3662f2b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_PROFILE_LIST_EX, _FEATURE_DATA_PROFILE_LIST_EX, ntddmmc/FEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX, ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml, *PFEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices], FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], storage.feature_data_profile_list_ex
+ms.keywords: ntddmmc/FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX, storage.feature_data_profile_list_ex, FEATURE_DATA_PROFILE_LIST_EX, _FEATURE_DATA_PROFILE_LIST_EX, structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml, FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], PFEATURE_DATA_PROFILE_LIST_EX, ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1E13DF22-9C45-4475-8912-CC836EFC0A22
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterScriptableSequentialStream, printerextension/IPrinterScriptableSequentialStream::Read, Read, print.iprinterscriptablesequentialstream_read, IPrinterScriptableSequentialStream interface [Print Devices], Read method, IPrinterScriptableSequentialStream::Read, Read method [Print Devices], Read method [Print Devices], IPrinterScriptableSequentialStream interface
+ms.keywords: Read method [Print Devices], IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_read, Read method [Print Devices], printerextension/IPrinterScriptableSequentialStream::Read, IPrinterScriptableSequentialStream, Read, IPrinterScriptableSequentialStream interface [Print Devices], Read method, IPrinterScriptableSequentialStream::Read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

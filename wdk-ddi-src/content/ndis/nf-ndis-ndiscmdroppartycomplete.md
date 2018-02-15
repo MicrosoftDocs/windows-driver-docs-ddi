@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5f4743f6-42b7-4cc0-8dd8-16230b30bb8a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete, ndis/NdisCmDropPartyComplete, condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisCmDropPartyComplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,7 +127,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 
 
@@ -135,7 +135,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 
 
 

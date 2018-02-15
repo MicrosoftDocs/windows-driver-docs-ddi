@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c6f98202-b70e-4ef7-853a-b97bb5e6294e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, windot11/DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, netvista.dot11_phy_frequency_adopted_parameters, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, *PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, Native_802.11_data_types_7043b8b8-3b99-4350-bcb5-4ea194c7fd9d.xml"
+ms.keywords: Native_802.11_data_types_7043b8b8-3b99-4350-bcb5-4ea194c7fd9d.xml, windot11/PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, windot11/DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, netvista.dot11_phy_frequency_adopted_parameters, *PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,16 +152,16 @@ The Native 802.11 miniport driver includes a DOT11_PHY_FREQUENCY_ADOPTED_PARAMET
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-frequency-adopted">
    NDIS_STATUS_DOT11_PHY_FREQUENCY_ADOPTED</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

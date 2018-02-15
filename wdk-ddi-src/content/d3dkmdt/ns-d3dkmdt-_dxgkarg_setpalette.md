@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a76d9549-d182-437f-a570-7d24fd6a5488
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, DXGKARG_SETPALETTE structure [Display Devices], _DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, DXGKARG_SETPALETTE, display.dxgkarg_setpalette
+ms.keywords: "_DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], d3dkmdt/DXGKARG_SETPALETTE, DXGKARG_SETPALETTE, display.dxgkarg_setpalette, DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

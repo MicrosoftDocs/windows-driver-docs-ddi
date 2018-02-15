@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d941bee-2473-43f8-a157-002708b247aa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_DEVICEINFO, d3dkmddi/DXGK_DEVICEINFO, DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, DXGK_DEVICEINFO structure [Display Devices], display.dxgk_deviceinfo, _DXGK_DEVICEINFO
+ms.keywords: DXGK_DEVICEINFO, DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, d3dkmddi/DXGK_DEVICEINFO, display.dxgk_deviceinfo, _DXGK_DEVICEINFO, DXGK_DEVICEINFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,19 +139,7 @@ If the driver sets <b>DmaBufferSegmentSet</b> to 0, the video memory manager all
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfoflags.md">DXGK_DEVICEINFOFLAGS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
 
 
@@ -159,7 +147,11 @@ If the driver sets <b>DmaBufferSegmentSet</b> to 0, the video memory manager all
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
 
 
 
@@ -167,7 +159,15 @@ If the driver sets <b>DmaBufferSegmentSet</b> to 0, the video memory manager all
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfoflags.md">DXGK_DEVICEINFOFLAGS</a>
 
 
 

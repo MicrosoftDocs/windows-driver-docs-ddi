@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a565627a-4a70-4255-9a88-c39a3db11d25
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::GetEventFilterCommandWide, dbgeng/IDebugControl4::GetEventFilterCommandWide, IDebugControl4 interface [Windows Debugging], GetEventFilterCommandWide method, GetEventFilterCommandWide method [Windows Debugging], debugger.geteventfiltercommandwide, GetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, GetEventFilterCommandWide
+ms.keywords: debugger.geteventfiltercommandwide, IDebugControl4::GetEventFilterCommandWide, GetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetEventFilterCommandWide, GetEventFilterCommandWide method [Windows Debugging], GetEventFilterCommandWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventFilterCommandWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -129,7 +129,7 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
 
 
 
@@ -137,7 +137,7 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

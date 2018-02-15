@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E16657AE-9EEF-4E36-AAC5-5BF822006F1C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PPO_FX_PERF_STATE_UNIT, PoFxPerfStateUnitOther, PPO_FX_PERF_STATE_UNIT, kernel.po_fx_perf_state_unit, PoFxPerfStateUnitFrequency, wdm/PoFxPerfStateUnitFrequency, _PO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitOther, PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitBandwidth, PPO_FX_PERF_STATE_UNIT enumeration pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateUnitBandwidth, wdm/PoFxPerfStateUnitMaximum, PoFxPerfStateUnitMaximum
+ms.keywords: wdm/PPO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitFrequency, PoFxPerfStateUnitBandwidth, PPO_FX_PERF_STATE_UNIT enumeration pointer [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateUnitMaximum, wdm/PoFxPerfStateUnitOther, PPO_FX_PERF_STATE_UNIT, wdm/PO_FX_PERF_STATE_UNIT, kernel.po_fx_perf_state_unit, wdm/PoFxPerfStateUnitBandwidth, PoFxPerfStateUnitOther, wdm/PoFxPerfStateUnitMaximum, _PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT, PoFxPerfStateUnitFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

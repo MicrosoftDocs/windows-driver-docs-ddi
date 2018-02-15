@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortNotification routine [Storage Devices], storage.scsiportnotification, ScsiPortNotification, scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification
+ms.keywords: ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification, ScsiPortNotification, storage.scsiportnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -437,11 +437,7 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
+<a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
 
 
 
@@ -449,11 +445,15 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
 
 
 

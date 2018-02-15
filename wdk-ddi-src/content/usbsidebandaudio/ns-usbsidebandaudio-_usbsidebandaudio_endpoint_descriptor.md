@@ -7,8 +7,8 @@ old-location: audio\usbsidebandaudio_endpoint_descriptor.htm
 old-project: audio
 ms.assetid: 552986F7-AEE9-4CBF-A932-629885F99487
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: usbsidebandaudio/PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure [Audio Devices], audio.usbsidebandaudio_endpoint_descriptor, *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure pointer [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
+ms.date: 2/8/2018
+ms.keywords: "_USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, usbsidebandaudio/PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, audio.usbsidebandaudio_endpoint_descriptor, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, PUSBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure pointer [Audio Devices], USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure [Audio Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,6 +108,7 @@ typedef struct _USBSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR {
 ### -field SidetoneVolumePropertyValueSize
 
  
+
 
 
 

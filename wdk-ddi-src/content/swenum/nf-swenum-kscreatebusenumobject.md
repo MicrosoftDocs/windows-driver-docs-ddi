@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bb117f9d-a288-4db6-8f28-96ab5152289c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject, ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, KsCreateBusEnumObject function [Streaming Media Devices], KsCreateBusEnumObject
+ms.keywords: ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, KsCreateBusEnumObject, KsCreateBusEnumObject function [Streaming Media Devices], stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

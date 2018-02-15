@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 53312cb8-a974-4394-969b-2a39def64109
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth.sdpcreatenodenil, bth_funcs_5f7d1244-67e0-436e-8658-8adcc2aa3a65.xml, SdpCreateNodeNil, SdpCreateNodeNil function [Bluetooth Devices], sdplib/SdpCreateNodeNil
+ms.keywords: sdplib/SdpCreateNodeNil, SdpCreateNodeNil function [Bluetooth Devices], bth_funcs_5f7d1244-67e0-436e-8658-8adcc2aa3a65.xml, bltooth.sdpcreatenodenil, SdpCreateNodeNil
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpCreateNodeNil
 product: Windows
 targetos: Windows
-req.typenames: SD_TRANSFER_TYPE
+req.typenames: "*PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 

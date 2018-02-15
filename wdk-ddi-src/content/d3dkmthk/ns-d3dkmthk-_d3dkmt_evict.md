@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], d3dkmthk/D3DKMT_EVICT, D3DKMT_EVICT, display.d3dkmt_evict"
+ms.keywords: d3dkmthk/D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], display.d3dkmt_evict, _D3DKMT_EVICT, D3DKMT_EVICT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5F1606D8-1E6F-494F-AE70-07A1EC1FEA47
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, kernel.pep_acpi_initialize_spb_i2c_resource
+ms.keywords: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_i2c_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

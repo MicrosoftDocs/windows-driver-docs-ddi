@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 971bbd30-5bde-4cf6-9b94-7c21c29590d5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_BootInformation, structs-iSCSI_a33678de-f559-4c7a-8007-55ab0381b613.xml, MSiSCSI_BootInformation structure [Storage Devices], PMSiSCSI_BootInformation structure pointer [Storage Devices], iscsiop/PMSiSCSI_BootInformation, storage.msiscsi_bootinformation, *PMSiSCSI_BootInformation, MSiSCSI_BootInformation, iscsiop/MSiSCSI_BootInformation, _MSiSCSI_BootInformation
+ms.keywords: MSiSCSI_BootInformation structure [Storage Devices], structs-iSCSI_a33678de-f559-4c7a-8007-55ab0381b613.xml, _MSiSCSI_BootInformation, iscsiop/MSiSCSI_BootInformation, *PMSiSCSI_BootInformation, MSiSCSI_BootInformation, PMSiSCSI_BootInformation structure pointer [Storage Devices], storage.msiscsi_bootinformation, iscsiop/PMSiSCSI_BootInformation, PMSiSCSI_BootInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

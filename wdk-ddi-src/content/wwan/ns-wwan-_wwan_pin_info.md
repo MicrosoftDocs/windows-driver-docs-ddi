@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0711645f-791b-4643-95c3-604ecce2a5ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PWWAN_PIN_INFO, PWWAN_PIN_INFO, PWWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], _WWAN_PIN_INFO, WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_PIN_INFO, netvista.wwan_pin_info, WwanRef_aae7d248-25b1-465b-9314-66a16aca4993.xml, WWAN_PIN_INFO, wwan/WWAN_PIN_INFO"
+ms.keywords: WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_aae7d248-25b1-465b-9314-66a16aca4993.xml, WWAN_PIN_INFO, wwan/PWWAN_PIN_INFO, wwan/WWAN_PIN_INFO, *PWWAN_PIN_INFO, _WWAN_PIN_INFO, PWWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], PWWAN_PIN_INFO, netvista.wwan_pin_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,7 +92,7 @@ The number of attempts that remain for any pin-related operations such as enter,
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
+<a href="..\wwan\ne-wwan-_wwan_pin_state.md">WWAN_PIN_STATE</a>
 
 
 
@@ -100,7 +100,7 @@ The number of attempts that remain for any pin-related operations such as enter,
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_state.md">WWAN_PIN_STATE</a>
+<a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
 
 
 

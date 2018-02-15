@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 617450AB-6AC8-485A-BD88-377F903EEE15
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbTransferDirectionFromDevice, SpbTransferDirectionMax, spb/SpbTransferDirectionNone, spb/SpbTransferDirectionMax, SpbTransferDirectionNone, *PSPB_TRANSFER_DIRECTION, SpbTransferDirectionToDevice, spb/SPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION, spb/SpbTransferDirectionToDevice, spb/SpbTransferDirectionFromDevice, SPB.spb_transfer_direction, SPB_TRANSFER_DIRECTION enumeration [Buses]
+ms.keywords: spb/SpbTransferDirectionToDevice, spb/SPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION enumeration [Buses], SpbTransferDirectionFromDevice, spb/SpbTransferDirectionMax, SpbTransferDirectionMax, SPB.spb_transfer_direction, spb/SpbTransferDirectionFromDevice, *PSPB_TRANSFER_DIRECTION, SpbTransferDirectionNone, spb/SpbTransferDirectionNone, SPB_TRANSFER_DIRECTION, SpbTransferDirectionToDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -108,27 +108,7 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
 
 
 
@@ -136,7 +116,27 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
 
 
 

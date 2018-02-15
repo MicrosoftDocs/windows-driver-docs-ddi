@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0dd32160-93d4-4fb8-aed1-9267f38e9909
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.iddcxswapchainreportframestatistics, IddCxSwapChainReportFrameStatistics, iddcx/IddCxSwapChainReportFrameStatistics, IddCxSwapChainReportFrameStatistics method [Display Devices]
+ms.keywords: IddCxSwapChainReportFrameStatistics method [Display Devices], iddcx/IddCxSwapChainReportFrameStatistics, IddCxSwapChainReportFrameStatistics, display.iddcxswapchainreportframestatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DFDD92F8-95B7-40F7-950C-A105F035B2E9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_CREATE_BAND_PARAMETERS, *PCREATE_BAND_PARAMETERS, storage.create_band_parameters, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], CREATEBAND_AUTHKEY_CACHING_ENABLED, CREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices]"
+ms.keywords: ehstorbandmgmt/CREATE_BAND_PARAMETERS, *PCREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], ehstorbandmgmt/PCREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS, _CREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, storage.create_band_parameters, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,11 +159,11 @@ The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a hre
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
-
-
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
+
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
 
 
 

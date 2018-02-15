@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: f33f602e-0bce-4ac2-8bd8-8640b2376278
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.sriov_mitigated_ranges_output, SRIOV_MITIGATED_RANGES_OUTPUT structure [Buses], *PSRIOV_MITIGATED_RANGES_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT, _SRIOV_MITIGATED_RANGES_OUTPUT
+ms.keywords: SRIOV_MITIGATED_RANGES_OUTPUT structure [Buses], PCI.sriov_mitigated_ranges_output, _SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT, *PSRIOV_MITIGATED_RANGES_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

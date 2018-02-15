@@ -84,7 +84,9 @@ NTSTATUS APIENTRY DxgkDdiFlipOverlay(
 ## -returns
 
 
+
 <i>DxgkDdiFlipOverlay</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,24 +136,34 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>DxgkDdiFlipOverlay</i> should be made pageable.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_flipoverlay.md">DXGKARG_FLIPOVERLAY</a>
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+
+
 
  
 

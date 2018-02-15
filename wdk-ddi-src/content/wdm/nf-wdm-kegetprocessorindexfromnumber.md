@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7d8ca52-a1e1-4f5f-9ffe-d64cec47eac7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kegetprocessorindexfromnumber, KeGetProcessorIndexFromNumber, k105_57b362f6-81dc-4630-a940-0d91577bf886.xml, wdm/KeGetProcessorIndexFromNumber, KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeGetProcessorIndexFromNumber routine [Kernel-Mode Driver Architecture], wdm/KeGetProcessorIndexFromNumber, kernel.kegetprocessorindexfromnumber, KeGetProcessorIndexFromNumber, k105_57b362f6-81dc-4630-a940-0d91577bf886.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,7 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
+<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
 
 
 
@@ -107,7 +107,7 @@ The <a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumbe
 
 
 
-<a href="..\wdm\nf-wdm-kegetprocessornumberfromindex.md">KeGetProcessorNumberFromIndex</a>
+<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 

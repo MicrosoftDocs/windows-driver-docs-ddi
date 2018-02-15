@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdffilehandletargetfactory_createfilehandletarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, CreateFileHandleTarget method, CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, umdf.iwdffilehandletargetfactory_createfilehandletarget, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory
+ms.keywords: umdf.iwdffilehandletargetfactory_createfilehandletarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget, CreateFileHandleTarget, IWDFFileHandleTargetFactory interface, CreateFileHandleTarget method, wdf.iwdffilehandletargetfactory_createfilehandletarget, IWDFFileHandleTargetFactory, CreateFileHandleTarget method, CreateFileHandleTarget method, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory::CreateFileHandleTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -192,11 +192,11 @@ if (SUCCEEDED(hr)) {
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdffilehandletargetfactory.md">IWDFFileHandleTargetFactory</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 12970111-3d25-4004-9c6d-8582ef7afef3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetPagePart, IFixedPage interface [Print Devices], SetPagePart method, IFixedPage::SetPagePart, print.ifixedpage_setpagepart, SetPagePart method [Print Devices], filterpipeline/IFixedPage::SetPagePart, SetPagePart method [Print Devices], IFixedPage interface, IFixedPage, filterpipeline_03059a3d-9aac-4ff2-8506-7754327942f6.xml
+ms.keywords: SetPagePart method [Print Devices], filterpipeline/IFixedPage::SetPagePart, print.ifixedpage_setpagepart, IFixedPage interface [Print Devices], SetPagePart method, SetPagePart method [Print Devices], IFixedPage interface, IFixedPage, SetPagePart, filterpipeline_03059a3d-9aac-4ff2-8506-7754327942f6.xml, IFixedPage::SetPagePart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

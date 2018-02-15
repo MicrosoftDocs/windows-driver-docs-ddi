@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 44594383-9f07-4b6a-8ea3-eaf84c9fefda
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltIsOperationSynchronous, FltIsOperationSynchronous routine [Installable File System Drivers], ifsk.fltisoperationsynchronous, FltApiRef_e_to_o_f80a8dfd-53b1-42cf-9d7c-18fc4af6ff4e.xml, FltIsOperationSynchronous
+ms.keywords: ifsk.fltisoperationsynchronous, FltIsOperationSynchronous routine [Installable File System Drivers], FltApiRef_e_to_o_f80a8dfd-53b1-42cf-9d7c-18fc4af6ff4e.xml, fltkernel/FltIsOperationSynchronous, FltIsOperationSynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,14 +124,6 @@ If none of the above conditions is true, the operation is asynchronous.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioisoperationsynchronous.md">IoIsOperationSynchronous</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
@@ -140,7 +132,15 @@ If none of the above conditions is true, the operation is asynchronous.
 
 
 
+<a href="..\ntifs\nf-ntifs-ioisoperationsynchronous.md">IoIsOperationSynchronous</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 

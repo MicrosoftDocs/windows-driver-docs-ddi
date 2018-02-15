@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtllogccflusherror, ntifs/FsRtlLogCcFlushError, fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, FsRtlLogCcFlushError routine [Installable File System Drivers], FsRtlLogCcFlushError
+ms.keywords: FsRtlLogCcFlushError, fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ifsk.fsrtllogccflusherror, FsRtlLogCcFlushError routine [Installable File System Drivers], ntifs/FsRtlLogCcFlushError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,11 +154,11 @@ If the error is fatal, the routine increments the lost delayed write counter in 
 
 
 
-<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
 
 
 

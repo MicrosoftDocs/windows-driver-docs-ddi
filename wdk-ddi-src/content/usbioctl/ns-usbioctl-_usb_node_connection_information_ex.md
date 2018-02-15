@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d824e279-50a9-46a1-a93a-9ae17928f146
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_USB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], buses.usb_node_connection_information_ex, PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], usbioctl/USB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, *PUSB_NODE_CONNECTION_INFORMATION_EX, usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml, USB_NODE_CONNECTION_INFORMATION_EX"
+ms.keywords: "_USB_NODE_CONNECTION_INFORMATION_EX, usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml, USB_NODE_CONNECTION_INFORMATION_EX, buses.usb_node_connection_information_ex, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], PUSB_NODE_CONNECTION_INFORMATION_EX, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], *PUSB_NODE_CONNECTION_INFORMATION_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -140,11 +140,11 @@ The <b>Speed</b> member of the <b>USB_NODE_CONNECTION_INFORMATION_EX</b> structu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

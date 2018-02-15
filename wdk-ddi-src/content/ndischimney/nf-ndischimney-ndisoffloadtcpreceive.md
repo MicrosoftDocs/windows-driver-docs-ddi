@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 021f41c4-6ba9-418e-bc18-131ce6d90877
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/NdisOffloadTcpReceive, tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml, NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpreceive, NdisOffloadTcpReceive
+ms.keywords: NdisOffloadTcpReceive, NdisOffloadTcpReceive function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpreceive, ndischimney/NdisOffloadTcpReceive, tcp_chim_ndis_func_601c3cd9-00c3-425b-a42e-c8ea8563bde3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,14 +145,6 @@ When the underlying driver or offload target subsequently completes the receive 
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
    NdisTcpOffloadReceiveComplete</a>
 
@@ -162,12 +154,20 @@ When the underlying driver or offload target subsequently completes the receive 
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
 
 
 <a href="..\ndischimney\nc-ndischimney-tcp_offload_recv_complete_handler.md">
    ProtocolTcpOffloadReceiveComplete</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 
 

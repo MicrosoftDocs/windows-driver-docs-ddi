@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4138be92-1f54-4478-8fbb-951f1d06cb66
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_3356fcf9-99f2-4c07-89d5-fa73019f9a27.xml, WWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD, netvista.wwan_sms_cdma_record, WWAN_SMS_CDMA_RECORD structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_CDMA_RECORD structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_CDMA_RECORD, wwan/PWWAN_SMS_CDMA_RECORD, _WWAN_SMS_CDMA_RECORD, *PWWAN_SMS_CDMA_RECORD
+ms.keywords: WWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD, _WWAN_SMS_CDMA_RECORD, wwan/PWWAN_SMS_CDMA_RECORD, netvista.wwan_sms_cdma_record, WwanRef_3356fcf9-99f2-4c07-89d5-fa73019f9a27.xml, WWAN_SMS_CDMA_RECORD structure [Network Drivers Starting with Windows Vista], *PWWAN_SMS_CDMA_RECORD, wwan/WWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -200,7 +200,7 @@ The encoded content of the record that represents the SMS text message.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
+<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
 
 
 
@@ -208,7 +208,7 @@ The encoded content of the record that represents the SMS text message.
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
+<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
 
 
 

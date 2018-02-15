@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d246109-839d-46fd-9898-9e059b803790
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "_KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, KSEVENT_ENTRY, *PKSEVENT_ENTRY, KSEVENT_ENTRY structure [Streaming Media Devices], stream.ksevent_entry, ks/KSEVENT_ENTRY"
+ms.keywords: stream.ksevent_entry, KSEVENT_ENTRY, _KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, KSEVENT_ENTRY structure [Streaming Media Devices], *PKSEVENT_ENTRY, ks/KSEVENT_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f8ce3297-5a57-4ece-a74c-ae5e4e15ce3e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ImagePolicyEntryTypeUInt16, wdm/ImagePolicyEntryTypeUInt64, ImagePolicyEntryTypeBool, _IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeInt64, wdm/ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt8, kernel._image_policy_entry_type, ImagePolicyEntryTypeUInt16, IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeUnicodeString, wdm/ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeUInt32, ImagePolicyEntryTypeUInt8, wdm/ImagePolicyEntryTypeInt64, ImagePolicyEntryTypeUInt64, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeUnicodeString, ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeInt16, wdm/IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeInt16, ImagePolicyEntryTypeMaximum
+ms.keywords: ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt8, wdm/ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeUnicodeString, wdm/ImagePolicyEntryTypeInt16, _IMAGE_POLICY_ENTRY_TYPE, kernel._image_policy_entry_type, ImagePolicyEntryTypeUInt16, ImagePolicyEntryTypeInt64, ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeInt32, wdm/IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeUnicodeString, wdm/ImagePolicyEntryTypeUInt16, wdm/ImagePolicyEntryTypeInt64, IMAGE_POLICY_ENTRY_TYPE, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], ImagePolicyEntryTypeUInt32, ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeInt16, ImagePolicyEntryTypeUInt64, ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

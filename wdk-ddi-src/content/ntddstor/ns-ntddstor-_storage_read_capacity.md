@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 891F04C5-277B-4197-942E-68ED21019950
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_STORAGE_READ_CAPACITY, ntddstor/PSTORAGE_READ_CAPACITY, storage.storage_read_capacity, STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices], PSTORAGE_READ_CAPACITY, ntddstor/STORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY structure [Storage Devices]"
+ms.keywords: ntddstor/STORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY, storage.storage_read_capacity, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices], ntddstor/PSTORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY structure [Storage Devices], _STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

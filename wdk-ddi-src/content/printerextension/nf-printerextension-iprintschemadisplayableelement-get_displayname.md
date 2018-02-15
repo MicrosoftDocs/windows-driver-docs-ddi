@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8DF71F10-1043-47E8-98E0-BB100B2AAF26
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaDisplayableElement.DisplayName, DisplayName property [Print Devices], IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement::get_DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName, IPrintSchemaDisplayableElement interface [Print Devices], DisplayName property, printerextension/IPrintSchemaDisplayableElement::DisplayName, print.iprintschemadisplayableelement_displayname, get_DisplayName, DisplayName property [Print Devices], IPrintSchemaDisplayableElement
+ms.keywords: IPrintSchemaDisplayableElement::get_DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName, IPrintSchemaDisplayableElement interface [Print Devices], DisplayName property, printerextension/IPrintSchemaDisplayableElement::DisplayName, IPrintSchemaDisplayableElement, DisplayName property [Print Devices], IPrintSchemaDisplayableElement interface, print.iprintschemadisplayableelement_displayname, get_DisplayName, IPrintSchemaDisplayableElement.DisplayName, DisplayName property [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

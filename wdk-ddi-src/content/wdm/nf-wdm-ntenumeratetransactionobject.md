@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], NtEnumerateTransactionObject, wdm/NtEnumerateTransactionObject, ZwEnumerateTransactionObject, kernel.zwenumeratetransactionobject, wdm/ZwEnumerateTransactionObject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml
+ms.keywords: ZwEnumerateTransactionObject, wdm/NtEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, NtEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject, kernel.zwenumeratetransactionobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -316,11 +316,11 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 
 
 
-<a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
-
-
-
 <a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
 
 
 

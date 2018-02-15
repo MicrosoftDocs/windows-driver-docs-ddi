@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 11f5201b-ddd3-43ad-9746-a1a9885c99b1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_TAPE_INIT_DATA, structs-tape_53b2f7ff-8718-4ac7-9a02-9c2f066b6884.xml, minitape/TAPE_INIT_DATA, *PTAPE_INIT_DATA, TAPE_INIT_DATA, TAPE_INIT_DATA structure [Storage Devices], storage.tape_init_data"
+ms.keywords: storage.tape_init_data, TAPE_INIT_DATA, minitape/TAPE_INIT_DATA, _TAPE_INIT_DATA, structs-tape_53b2f7ff-8718-4ac7-9a02-9c2f066b6884.xml, TAPE_INIT_DATA structure [Storage Devices], *PTAPE_INIT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 357FB967-C9D8-468C-AA14-4EF071D55D7B
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: USBD_IsochUrbAllocate routine [Buses], usbdlib/USBD_IsochUrbAllocate, buses.usbd_isochurballocate, USBD_IsochUrbAllocate
+ms.keywords: buses.usbd_isochurballocate, USBD_IsochUrbAllocate routine [Buses], USBD_IsochUrbAllocate, usbdlib/USBD_IsochUrbAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,19 +105,19 @@ Possible values include, but are not limited to, STATUS_INVALID_PARAMETER, which
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
 
 

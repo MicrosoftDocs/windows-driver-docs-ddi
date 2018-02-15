@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: FFE8761B-5769-48E5-ACE9-50009C490714
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], SPB.spb_transfer_list_entry_init_mdl, spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB_TRANSFER_LIST_ENTRY_INIT_MDL
+ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], SPB.spb_transfer_list_entry_init_mdl, spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

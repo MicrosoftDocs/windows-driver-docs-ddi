@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1aeb2ca5-8c56-4a78-8cd5-a178efa9b014
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_call_manager_ref_e8f3c7fa-1a6a-4cf4-9c3c-78f036c2e912.xml, NdisCmCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmCloseAddressFamilyComplete, NdisCmCloseAddressFamilyComplete, netvista.ndiscmcloseaddressfamilycomplete
+ms.keywords: netvista.ndiscmcloseaddressfamilycomplete, ndis/NdisCmCloseAddressFamilyComplete, NdisCmCloseAddressFamilyComplete, condis_call_manager_ref_e8f3c7fa-1a6a-4cf4-9c3c-78f036c2e912.xml, NdisCmCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,16 +121,15 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmcloseaddressfamilycomplete.md">
-   NdisMCmCloseAddressFamilyComplete</a>
+<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 
 
@@ -138,7 +137,8 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
+<a href="..\ndis\nf-ndis-ndismcmcloseaddressfamilycomplete.md">
+   NdisMCmCloseAddressFamilyComplete</a>
 
 
 

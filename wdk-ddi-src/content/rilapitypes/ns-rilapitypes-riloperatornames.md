@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2813c28c-e964-44ee-9995-15aa563c43d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILOPERATORNAMES, rilapitypes/RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], RILOPERATORNAMES, netvista.riloperatornames"
+ms.keywords: rilapitypes/RILOPERATORNAMES, RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], *LPRILOPERATORNAMES, netvista.riloperatornames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

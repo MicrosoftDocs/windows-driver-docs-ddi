@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 919f30b1-025d-4526-a1f6-2d14c482e474
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortDeviceBusy, atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, storage.ataportdevicebusy, AtaPortDeviceBusy, AtaPortDeviceBusy routine [Storage Devices]
+ms.keywords: irb/AtaPortDeviceBusy, atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, AtaPortDeviceBusy routine [Storage Devices], AtaPortDeviceBusy, storage.ataportdevicebusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2ab1b2dd-4848-4eb0-9836-e3be987535a6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeSaveFloatingPointState, KeSaveFloatingPointState, kernel.kesavefloatingpointstate, k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeSaveFloatingPointState, k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], kernel.kesavefloatingpointstate, KeSaveFloatingPointState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,6 +129,14 @@ For performance reasons, drivers should avoid doing any floating-point operation
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
+
+
+
+<a href="..\wdm\nf-wdm-keenterguardedregion.md">KeEnterGuardedRegion</a>
+
+
+
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 
 
@@ -137,15 +145,7 @@ For performance reasons, drivers should avoid doing any floating-point operation
 
 
 
-<a href="..\wdm\nf-wdm-keenterguardedregion.md">KeEnterGuardedRegion</a>
-
-
-
 <a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
-
-
-
-<a href="..\wdm\nf-wdm-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
 
 
 

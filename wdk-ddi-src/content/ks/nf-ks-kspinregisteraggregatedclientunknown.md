@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 302d87be-a276-49ea-98f2-89e1f231c3c6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspinregisteraggregatedclientunknown, avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], ks/KsPinRegisterAggregatedClientUnknown, KsPinRegisterAggregatedClientUnknown
+ms.keywords: ks/KsPinRegisterAggregatedClientUnknown, KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], stream.kspinregisteraggregatedclientunknown, avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, KsPinRegisterAggregatedClientUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

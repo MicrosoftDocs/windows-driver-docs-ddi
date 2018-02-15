@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetId method, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, GetId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetId method, IDebugBreakpoint, GetId method [Windows Debugging], debugger.getid, IDebugBreakpoint2::GetId, GetId method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::GetId
+ms.keywords: IDebugBreakpoint::GetId, GetId method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], GetId method, debugger.getid, IDebugBreakpoint, IDebugBreakpoint2 interface [Windows Debugging], GetId method, dbgeng/IDebugBreakpoint2::GetId, IDebugBreakpoint2::GetId, GetId method [Windows Debugging], IDebugBreakpoint interface, GetId method [Windows Debugging], IDebugBreakpoint2 interface, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, dbgeng/IDebugBreakpoint::GetId, GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

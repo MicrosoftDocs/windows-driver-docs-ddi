@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4f7aff9b-32cf-42a0-ba3b-ddc87ecdb8c3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml, IPrintOemDriverUni, IPrintOemDriverUni::DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvWriteAbortBuf method, prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, print.iprintoemdriveruni_drvwriteabortbuf, DrvWriteAbortBuf
+ms.keywords: IPrintOemDriverUni, print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml, IPrintOemDriverUni::DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], print.iprintoemdriveruni_drvwriteabortbuf, prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, IPrintOemDriverUni interface [Print Devices], DrvWriteAbortBuf method, DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], IPrintOemDriverUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

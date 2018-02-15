@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4c6e5064-83b4-4d3c-ab08-041070128f3c
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_URB_GET_CURRENT_FRAME_NUMBER structure [Buses], buses._urb_get_current_frame_number, _URB_GET_CURRENT_FRAME_NUMBER, usb/_URB_GET_CURRENT_FRAME_NUMBER, usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml"
+ms.keywords: buses._urb_get_current_frame_number, usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses], usb/_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ Contains the current 32-bit frame number, on the USB bus, on return from the hos
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

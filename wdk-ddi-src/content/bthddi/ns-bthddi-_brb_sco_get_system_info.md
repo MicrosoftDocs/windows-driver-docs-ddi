@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_SCO_GET_SYSTEM_INFO, bltooth._brb_sco_get_system_info, bthddi/_BRB_SCO_GET_SYSTEM_INFO, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices]"
+ms.keywords: "_BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_system_info, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bthddi/_BRB_SCO_GET_SYSTEM_INFO, _BRB_SCO_GET_SYSTEM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -173,11 +173,11 @@ Higher-level profile drivers can build and send a <b>BRB_SCO_GET_SYSTEM_INFO</b>
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536625">BRB_SCO_GET_SYSTEM_INFO</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

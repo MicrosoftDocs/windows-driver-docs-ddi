@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c6dc14a5-59de-42dd-9e45-99f632bf6a57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILDMCONFIGINFOTYPE, RIL_DMCV_TYPE_MAX, RIL_DMCV_TYPE_BOOLEAN, RILDMCONFIGINFOTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_DMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_DMCV_TYPE_DWORD, netvista.rildmconfiginfotype, ntddrilapitypes/RIL_DMCV_TYPE_MAX, ntddrilapitypes/RILDMCONFIGINFOTYPE, RIL_DMCV_TYPE_DWORD, RIL_DMCV_TYPE_STRING, ntddrilapitypes/RIL_DMCV_TYPE_STRING
+ms.keywords: RIL_DMCV_TYPE_DWORD, ntddrilapitypes/RIL_DMCV_TYPE_STRING, RIL_DMCV_TYPE_STRING, RIL_DMCV_TYPE_MAX, ntddrilapitypes/RIL_DMCV_TYPE_MAX, RIL_DMCV_TYPE_BOOLEAN, ntddrilapitypes/RILDMCONFIGINFOTYPE, RILDMCONFIGINFOTYPE, RILDMCONFIGINFOTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_DMCV_TYPE_BOOLEAN, netvista.rildmconfiginfotype, ntddrilapitypes/RIL_DMCV_TYPE_DWORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5ddce998-2f64-4711-b820-5baa88096d99
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFPNPAction2::EDTCancelStopDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTCancelStopDevice, dtf.iwdtfpnpaction2_edtcancelstopdevice, IWDTFPNPAction2, EDTCancelStopDevice, EDTCancelStopDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTCancelStopDevice method, wdtfpnpaction/IWDTFPNPAction2::EDTCancelStopDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTCancelStopDevice, EDTCancelStopDevice method [Windows Device Testing Framework]
+ms.keywords: Microsoft::WDTF::IWDTFPNPAction2::EDTCancelStopDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTCancelStopDevice, EDTCancelStopDevice, EDTCancelStopDevice method [Windows Device Testing Framework], wdtfpnpaction/IWDTFPNPAction2::EDTCancelStopDevice, dtf.iwdtfpnpaction2_edtcancelstopdevice, EDTCancelStopDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTCancelStopDevice method, IWDTFPNPAction2::EDTCancelStopDevice, IWDTFPNPAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

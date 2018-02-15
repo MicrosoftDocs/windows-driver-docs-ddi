@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BC43B6AB-E34C-45A9-B666-1B323104FC48
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], buses.udecxusbdeviceinitadddescriptor
+ms.keywords: buses.udecxusbdeviceinitadddescriptor, UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], udecxusbdevice/UdecxUsbDeviceInitAddDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,11 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
 
 
@@ -109,7 +109,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 80498410-9617-414d-997c-0d55f891ba3c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltRetainSwappedBufferMdlAddress, FltApiRef_p_to_z_3832baaa-37bc-47cc-9df4-12c92fd0ddd8.xml, FltRetainSwappedBufferMdlAddress function [Installable File System Drivers], FltRetainSwappedBufferMdlAddress, ifsk.fltretainswappedbuffermdladdress
+ms.keywords: ifsk.fltretainswappedbuffermdladdress, fltkernel/FltRetainSwappedBufferMdlAddress, FltRetainSwappedBufferMdlAddress, FltApiRef_p_to_z_3832baaa-37bc-47cc-9df4-12c92fd0ddd8.xml, FltRetainSwappedBufferMdlAddress function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,11 @@ After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetswappedbuffermdladdress.md">FltGetSwappedBufferMdlAddress</a>
 
 
 
@@ -110,11 +110,11 @@ After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetswappedbuffermdladdress.md">FltGetSwappedBufferMdlAddress</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2f7112fc-7f3e-415d-9994-ffd93f456d97
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_QUERY_INTERFACE_CONFIG, DFDeviceObjectDriverDefIntRef_5b68f6e3-95f7-4339-91c2-2ea2d88d698b.xml, wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG structure pointer, _WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG structure, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG, wdf.wdf_query_interface_config, kmdf.wdf_query_interface_config, PWDF_QUERY_INTERFACE_CONFIG
+ms.keywords: WDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG structure pointer, kmdf.wdf_query_interface_config, PWDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG, DFDeviceObjectDriverDefIntRef_5b68f6e3-95f7-4339-91c2-2ea2d88d698b.xml, _WDF_QUERY_INTERFACE_CONFIG, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG structure, wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG, wdf.wdf_query_interface_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -156,14 +156,6 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
-
-
-
 <a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
 
 
@@ -172,15 +164,23 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 
 
-<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
-
-
-
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
+
+
+
+<a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a>
+
+
+
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
+
+
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
 
 
 

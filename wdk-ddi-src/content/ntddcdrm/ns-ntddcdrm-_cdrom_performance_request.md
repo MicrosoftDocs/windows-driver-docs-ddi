@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E43D2F2C-B5A1-4724-AEBC-F4B6A85EA846
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CDROM_PERFORMANCE_REQUEST structure [Storage Devices], *PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, ntddcdrm/CDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request, _CDROM_PERFORMANCE_REQUEST, ntddcdrm/PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices]
+ms.keywords: ntddcdrm/CDROM_PERFORMANCE_REQUEST, ntddcdrm/PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request, PCDROM_PERFORMANCE_REQUEST, _CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

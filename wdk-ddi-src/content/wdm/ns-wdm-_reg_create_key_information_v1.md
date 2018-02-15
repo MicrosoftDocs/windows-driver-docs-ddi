@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d81dd8db-9074-43ea-a7bd-e83bd205c564
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_d_79809cef-3593-4774-8407-c26c281735eb.xml, *PREG_OPEN_KEY_INFORMATION_V1, _REG_CREATE_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], wdm/PREG_OPEN_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], PREG_CREATE_KEY_INFORMATION_V1, wdm/REG_CREATE_KEY_INFORMATION_V1, wdm/REG_OPEN_KEY_INFORMATION_V1, wdm/PREG_CREATE_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1, *PREG_CREATE_KEY_INFORMATION_V1, kernel.reg_create_key_information_v1, REG_OPEN_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION_V1
+ms.keywords: kstruct_d_79809cef-3593-4774-8407-c26c281735eb.xml, kernel.reg_create_key_information_v1, REG_OPEN_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], PREG_CREATE_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1, wdm/REG_CREATE_KEY_INFORMATION_V1, wdm/PREG_OPEN_KEY_INFORMATION_V1, wdm/REG_OPEN_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1, _REG_CREATE_KEY_INFORMATION_V1, *PREG_CREATE_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION_V1, wdm/PREG_CREATE_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -268,39 +268,7 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structu
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_reg_create_key_information.md">REG_CREATE_KEY_INFORMATION</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
 
 
@@ -308,7 +276,39 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structu
 
 
 
+<a href="..\wdm\ns-wdm-_reg_create_key_information.md">REG_CREATE_KEY_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3f95caad-92e5-4d0f-bd9e-8873b05f2aaa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestRetrieveOutputWdmMdl, wdf.wdfrequestretrieveoutputwdmmdl, kmdf.wdfrequestretrieveoutputwdmmdl, WdfRequestRetrieveOutputWdmMdl method, DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, WdfRequestRetrieveOutputWdmMdl, PFN_WDFREQUESTRETRIEVEOUTPUTWDMMDL
+ms.keywords: wdf.wdfrequestretrieveoutputwdmmdl, WdfRequestRetrieveOutputWdmMdl method, kmdf.wdfrequestretrieveoutputwdmmdl, WdfRequestRetrieveOutputWdmMdl, PFN_WDFREQUESTRETRIEVEOUTPUTWDMMDL, wdfrequest/WdfRequestRetrieveOutputWdmMdl, DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

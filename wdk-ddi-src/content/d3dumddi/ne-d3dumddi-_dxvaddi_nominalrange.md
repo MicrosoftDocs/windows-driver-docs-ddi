@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f3f5fac9-013c-4739-a29e-c781b34e5289
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_NominalRange_0_255, DXVA2_Structs_fee8e221-64df-474a-a178-439365c683fd.xml, display.dxvaddi_nominalrange, d3dumddi/DXVADDI_NominalRange_Unknown, d3dumddi/DXVADDI_NominalRangeMask, d3dumddi/DXVADDI_NominalRange_Wide, d3dumddi/DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_0_255, _DXVADDI_NOMINALRANGE, DXVADDI_NominalRange_Normal, DXVADDI_NominalRange_Wide, d3dumddi/DXVADDI_NOMINALRANGE, DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_48_208, DXVADDI_NominalRangeMask, DXVADDI_NominalRange_Unknown, DXVADDI_NOMINALRANGE, DXVADDI_NOMINALRANGE enumeration [Display Devices], d3dumddi/DXVADDI_NominalRange_48_208, d3dumddi/DXVADDI_NominalRange_Normal
+ms.keywords: DXVADDI_NOMINALRANGE enumeration [Display Devices], DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NOMINALRANGE, DXVADDI_NominalRange_Normal, d3dumddi/DXVADDI_NominalRange_0_255, d3dumddi/DXVADDI_NominalRangeMask, _DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NominalRange_Normal, DXVA2_Structs_fee8e221-64df-474a-a178-439365c683fd.xml, d3dumddi/DXVADDI_NominalRange_16_235, d3dumddi/DXVADDI_NominalRange_48_208, DXVADDI_NominalRange_48_208, DXVADDI_NominalRangeMask, DXVADDI_NominalRange_Wide, d3dumddi/DXVADDI_NominalRange_Wide, DXVADDI_NominalRange_0_255, DXVADDI_NominalRange_Unknown, DXVADDI_NominalRange_16_235, display.dxvaddi_nominalrange, d3dumddi/DXVADDI_NominalRange_Unknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

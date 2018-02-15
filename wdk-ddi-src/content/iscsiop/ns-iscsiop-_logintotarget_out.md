@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 569816dc-3b92-45da-a1b8-ce4b504b6592
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/LoginToTarget_OUT, LoginToTarget_OUT, _LoginToTarget_OUT, PLoginToTarget_OUT, *PLoginToTarget_OUT, storage.logintotarget_out, iscsiop/PLoginToTarget_OUT, PLoginToTarget_OUT structure pointer [Storage Devices], LoginToTarget_OUT structure [Storage Devices], structs-iSCSI_8fefca89-dd27-4a01-90a1-76ed16e79568.xml
+ms.keywords: LoginToTarget_OUT, *PLoginToTarget_OUT, structs-iSCSI_8fefca89-dd27-4a01-90a1-76ed16e79568.xml, iscsiop/PLoginToTarget_OUT, PLoginToTarget_OUT, iscsiop/LoginToTarget_OUT, PLoginToTarget_OUT structure pointer [Storage Devices], _LoginToTarget_OUT, LoginToTarget_OUT structure [Storage Devices], storage.logintotarget_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 
@@ -103,7 +103,7 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_logintotarget_in.md">LoginToTarget_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
@@ -111,11 +111,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="..\iscsiop\ns-iscsiop-_logintotarget_in.md">LoginToTarget_IN</a>
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 

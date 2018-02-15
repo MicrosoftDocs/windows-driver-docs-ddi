@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 876b3932-780f-4d00-8afc-40960f8fcaaf
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxSetSrvCallDomainName function [Installable File System Drivers], rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml, rxprocs/RxSetSrvCallDomainName, ifsk.rxsetsrvcalldomainname, RxSetSrvCallDomainName
+ms.keywords: rxprocs/RxSetSrvCallDomainName, RxSetSrvCallDomainName, rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml, RxSetSrvCallDomainName function [Installable File System Drivers], ifsk.rxsetsrvcalldomainname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

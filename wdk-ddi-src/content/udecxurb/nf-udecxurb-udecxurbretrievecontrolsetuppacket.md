@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: udecxurb/UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket
+ms.keywords: buses.udecxurbretrievecontrolsetuppacket, UdecxUrbRetrieveControlSetupPacket function [Buses], UdecxUrbRetrieveControlSetupPacket, udecxurb/UdecxUrbRetrieveControlSetupPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ To complete the request, the driver must call <a href="..\udecxurb\nf-udecxurb-u
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

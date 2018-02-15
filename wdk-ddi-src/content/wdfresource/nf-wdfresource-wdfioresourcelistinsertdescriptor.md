@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 604182ea-3712-4670-bab8-edc3cb2fcd06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIORESOURCELISTINSERTDESCRIPTOR, WdfIoResourceListInsertDescriptor method, DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, wdfresource/WdfIoResourceListInsertDescriptor, kmdf.wdfioresourcelistinsertdescriptor, WdfIoResourceListInsertDescriptor, wdf.wdfioresourcelistinsertdescriptor
+ms.keywords: wdfresource/WdfIoResourceListInsertDescriptor, WdfIoResourceListInsertDescriptor method, PFN_WDFIORESOURCELISTINSERTDESCRIPTOR, DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, wdf.wdfioresourcelistinsertdescriptor, kmdf.wdfioresourcelistinsertdescriptor, WdfIoResourceListInsertDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

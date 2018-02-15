@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a101e0c8-7121-42b6-aa0e-299f37af8e47
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], ifsk.flt_tag_data_buffer, FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, fltkernel/PFLT_TAG_DATA_BUFFER, _FLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers]
+ms.keywords: "_FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], *PFLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer, PFLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], fltkernel/PFLT_TAG_DATA_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

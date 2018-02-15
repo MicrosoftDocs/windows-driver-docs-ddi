@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f3b5d06d-0557-49a8-9c0d-be964203108a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], BDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], bdatypes/PBDA_TEMPLATE_CONNECTION, bdatypes/BDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION, stream.bda_template_connection, _BDA_TEMPLATE_CONNECTION, *PBDA_TEMPLATE_CONNECTION, bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml
+ms.keywords: bdatypes/PBDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], bdatypes/BDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION, stream.bda_template_connection, *PBDA_TEMPLATE_CONNECTION, _BDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml, BDA_TEMPLATE_CONNECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,11 +96,11 @@ Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX a
 
 
 
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
+
+<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
 
 
 

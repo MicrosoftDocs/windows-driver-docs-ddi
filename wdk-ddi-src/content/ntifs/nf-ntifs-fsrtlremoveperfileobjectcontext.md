@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlRemovePerFileObjectContext function [Installable File System Drivers], ifsk.fsrtlremoveperfileobjectcontext, ntifs/FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext, fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml
+ms.keywords: FsRtlRemovePerFileObjectContext function [Installable File System Drivers], ntifs/FsRtlRemovePerFileObjectContext, fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, FsRtlRemovePerFileObjectContext, ifsk.fsrtlremoveperfileobjectcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,6 +118,10 @@ Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlinsertperfileobjectcontext.md">FsRtlInsertPerFileObjectContext</a>
 
 
@@ -127,10 +131,6 @@ Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_fileobject_context.md">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 
 
 

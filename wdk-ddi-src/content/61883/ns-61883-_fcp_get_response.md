@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1CE962A4-7F99-4F81-8B85-265A4225B88A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.fcp_get_response, FCP_GET_RESPONSE structure [Buses], FCP_RESPONSE, PFCP_GET_RESPONSE structure pointer [Buses], PFCP_GET_RESPONSE, 61883/PFCP_GET_RESPONSE, 61883/FCP_GET_RESPONSE, *PFCP_GET_RESPONSE, FCP_GET_RESPONSE, *PFCP_RESPONSE, _FCP_GET_RESPONSE
+ms.keywords: PFCP_GET_RESPONSE structure pointer [Buses], *PFCP_GET_RESPONSE, IEEE.fcp_get_response, FCP_GET_RESPONSE, 61883/FCP_GET_RESPONSE, FCP_RESPONSE, FCP_GET_RESPONSE structure [Buses], *PFCP_RESPONSE, 61883/PFCP_GET_RESPONSE, _FCP_GET_RESPONSE, PFCP_GET_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

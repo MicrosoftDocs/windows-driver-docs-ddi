@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0874EC25-3ABE-410B-B5AC-E98020378D7E
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IMiniportAudioEngineNode::GetEngineFormatSize, IMiniportAudioEngineNode, GetEngineFormatSize, audio.iminiportaudioenginenode_getengineformatsize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize, GetEngineFormatSize method [Audio Devices], GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method, audio.iminiportaudioenginenode_getengineformatsize, IMiniportAudioEngineNode::GetEngineFormatSize, IMiniportAudioEngineNode, GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetEngineFormatSize, GetEngineFormatSize, GetEngineFormatSize method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,11 +95,11 @@ The data buffer size for the format type.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
-
-
 <a href="..\portcls\ne-portcls-eengineformattype.md">eEngineFormatType</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba0e11d9-3bb1-412c-9b33-9362d774adee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCmDropPartyComplete, NdisMCmDropPartyComplete, condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], netvista.ndismcmdroppartycomplete
+ms.keywords: netvista.ndismcmdroppartycomplete, condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml, ndis/NdisMCmDropPartyComplete, NdisMCmDropPartyComplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -83,13 +83,6 @@ TBD
 
 
 
-#### - Status [in]
-
-Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
-     caller-determined NDIS_STATUS_
-     <i>XXX</i> except NDIS_STATUS_PENDING.
-
-
 #### - NdisPartyHandle [in]
 
 Specifies the handle to the party that the client requested be dropped. The MCM driver obtained
@@ -97,6 +90,13 @@ Specifies the handle to the party that the client requested be dropped. The MCM 
      <i>CallMgrPartyContext</i> that was passed as an input parameter to its 
      <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">
      ProtocolCmDropParty</a> function.
+
+
+#### - Status [in]
+
+Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
+     caller-determined NDIS_STATUS_
+     <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -131,7 +131,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
 
 
 
@@ -139,7 +139,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
 
 
 

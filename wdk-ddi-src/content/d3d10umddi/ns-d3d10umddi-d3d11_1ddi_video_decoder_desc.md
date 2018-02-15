@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 35fe914b-13e8-4658-9ea6-af1eb9068f6f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_DECODER_DESC, display.d3d11_1ddi_video_decoder_desc, d3d10umddi/D3D11_1DDI_VIDEO_DECODER_DESC, D3D11_1DDI_VIDEO_DECODER_DESC structure [Display Devices]
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_DECODER_DESC, D3D11_1DDI_VIDEO_DECODER_DESC structure [Display Devices], D3D11_1DDI_VIDEO_DECODER_DESC, display.d3d11_1ddi_video_decoder_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

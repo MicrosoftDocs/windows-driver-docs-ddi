@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24c1ae3a-31e7-4b85-8c64-f376c45cb4c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilchangeuicclockpasswordparams_2, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS, rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS
+ms.keywords: RILCHANGEUICCLOCKPASSWORDPARAMS, *LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS, netvista.rilchangeuicclockpasswordparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

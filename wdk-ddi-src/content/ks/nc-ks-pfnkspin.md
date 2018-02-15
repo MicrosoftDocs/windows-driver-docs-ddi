@@ -81,11 +81,14 @@ Pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> that has frame data ava
 ## -returns
 
 
+
 Return STATUS_SUCCESS to continue processing. Return STATUS_PENDING to stop processing until the next triggering event.
 
 
 
+
 ## -remarks
+
 
 
 <b>About AVStrMiniPinProcess</b>
@@ -114,17 +117,28 @@ Also see <a href="https://msdn.microsoft.com/04d0d17b-c326-417d-b2e8-58b33420455
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>
-
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
 
+
+
 <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">Pin-Centric Processing</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>
+
+
 
  
 

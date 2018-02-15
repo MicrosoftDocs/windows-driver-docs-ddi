@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c3ff7c9d-380e-4d66-88a4-aef7abe20c9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceClearRemovalRelationsDevices, wdf.wdfdeviceclearremovalrelationsdevices, WdfDeviceClearRemovalRelationsDevices method, DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, PFN_WDFDEVICECLEARREMOVALRELATIONSDEVICES, wdfdevice/WdfDeviceClearRemovalRelationsDevices, kmdf.wdfdeviceclearremovalrelationsdevices
+ms.keywords: wdfdevice/WdfDeviceClearRemovalRelationsDevices, WdfDeviceClearRemovalRelationsDevices method, wdf.wdfdeviceclearremovalrelationsdevices, DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, kmdf.wdfdeviceclearremovalrelationsdevices, WdfDeviceClearRemovalRelationsDevices, PFN_WDFDEVICECLEARREMOVALRELATIONSDEVICES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,11 +89,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceaddremovalrelationsphysicaldevice.md">WdfDeviceAddRemovalRelationsPhysicalDevice</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceremoveremovalrelationsphysicaldevice.md">WdfDeviceRemoveRemovalRelationsPhysicalDevice</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceaddremovalrelationsphysicaldevice.md">WdfDeviceAddRemovalRelationsPhysicalDevice</a>
 
 
 

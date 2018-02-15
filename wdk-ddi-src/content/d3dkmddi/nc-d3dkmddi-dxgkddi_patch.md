@@ -85,11 +85,14 @@ NTSTATUS APIENTRY DxgkDdiPatch(
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> upon successful completion. If the driver instead returns an error code, the operating system causes a system bugcheck to occur. For more information, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The <i>DxgkDdiPatch</i> function must assign physical addresses to the DMA buffer in place. Therefore, when the display miniport driver generates the DMA buffer, the driver must ensure that space is available in the DMA buffer to insert instructions that are required to handle physical addresses. Note that physical addresses might correspond to video memory, AGP/PCI Express memory, or system memory. 
@@ -99,12 +102,15 @@ The driver must examine the supplied patch-location list in the <b>pPatchLocatio
 The driver can patch the value that is supplied in the <b>SubmissionFenceId</b> member of DXGKARG_PATCH into the fence command at the end of the DMA buffer. For more information about this member, see <a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>.
 
 If the driver returns an error code, the Microsoft DirectX graphics kernel subsystem  causes a system bugcheck to occur. In a crash dump file, the error is noted by the message <b>BugCheck 0x119</b>, which has the following four parameters.
+
 <ol>
 <li>0x3</li>
 <li>A pointer to an internal scheduler data structure</li>
 <li>A pointer to an internal scheduler data structure</li>
 <li>A pointer to an internal scheduler data structure</li>
-</ol><i>DxgkDdiPatch</i> should be made pageable.
+</ol>
+<i>DxgkDdiPatch</i> should be made pageable.
+
 
 
 
@@ -112,7 +118,11 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23be14ce-2312-41e0-98c5-07de551ffce9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2SETSTREAMSOURCE, display.d3dhal_dp2setstreamsource, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE, _D3DHAL_DP2SETSTREAMSOURCE, d3dhal/D3DHAL_DP2SETSTREAMSOURCE, *LPD3DHAL_DP2SETSTREAMSOURCE, D3DHAL_DP2SETSTREAMSOURCE structure [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCE structure pointer [Display Devices], d3dstrct_4a6ddce7-b2fc-4fdd-bbed-cc905b1bc97d.xml
+ms.keywords: D3DHAL_DP2SETSTREAMSOURCE, LPD3DHAL_DP2SETSTREAMSOURCE structure pointer [Display Devices], D3DHAL_DP2SETSTREAMSOURCE structure [Display Devices], display.d3dhal_dp2setstreamsource, LPD3DHAL_DP2SETSTREAMSOURCE, _D3DHAL_DP2SETSTREAMSOURCE, *LPD3DHAL_DP2SETSTREAMSOURCE, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCE, d3dstrct_4a6ddce7-b2fc-4fdd-bbed-cc905b1bc97d.xml, d3dhal/D3DHAL_DP2SETSTREAMSOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,7 +105,7 @@ Only a single stream source is set by a <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -113,11 +113,11 @@ D3DDP2OP_SETSTREAMSOURCE
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setstreamsourceum.md">D3DHAL_DP2SETSTREAMSOURCEUM</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

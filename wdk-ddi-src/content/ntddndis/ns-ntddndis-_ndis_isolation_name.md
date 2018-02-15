@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4712F853-8819-476C-8AD9-426EA5A0802E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_ISOLATION_NAME, NDIS_ROUTING_DOMAIN_NAME, NDIS_ISOLATION_NAME structure [Network Drivers Starting with Windows Vista], NDIS_ISOLATION_ID_NAME, NDIS_ISOLATION_NAME, netvista.ndis_isolation_name, *PNDIS_ROUTING_DOMAIN_NAME, *PNDIS_ISOLATION_ID_NAME, _NDIS_ISOLATION_NAME
+ms.keywords: NDIS_ISOLATION_NAME structure [Network Drivers Starting with Windows Vista], *PNDIS_ROUTING_DOMAIN_NAME, ntddndis/NDIS_ISOLATION_NAME, _NDIS_ISOLATION_NAME, netvista.ndis_isolation_name, NDIS_ROUTING_DOMAIN_NAME, NDIS_ISOLATION_NAME, *PNDIS_ISOLATION_ID_NAME, NDIS_ISOLATION_ID_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,11 +114,11 @@ The <b>RoutingDomainName</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndi
 
 ## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
 
 
 

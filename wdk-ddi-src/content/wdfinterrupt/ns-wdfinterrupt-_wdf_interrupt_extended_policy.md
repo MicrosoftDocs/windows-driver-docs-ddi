@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28cc79e8-7078-4b29-ab2a-2eeca5c5b8b3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, kmdf.wdf_interrupt_extended_policy, *PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, WDF_INTERRUPT_EXTENDED_POLICY, DFInterruptObjectRef_db1feccc-0171-4163-b95f-6be057430176.xml, wdf.wdf_interrupt_extended_policy, WDF_INTERRUPT_EXTENDED_POLICY structure, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, _WDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY
+ms.keywords: kmdf.wdf_interrupt_extended_policy, DFInterruptObjectRef_db1feccc-0171-4163-b95f-6be057430176.xml, wdf.wdf_interrupt_extended_policy, WDF_INTERRUPT_EXTENDED_POLICY structure, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY, _WDF_INTERRUPT_EXTENDED_POLICY, wdfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

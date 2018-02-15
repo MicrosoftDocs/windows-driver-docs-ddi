@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb3d8e2a-20f6-41fc-a220-de93eb83f359
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.wnode_too_small, WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], tagWNODE_TOO_SMALL, *PWNODE_TOO_SMALL, WNODE_TOO_SMALL, wmistr/PWNODE_TOO_SMALL, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], PWNODE_TOO_SMALL, wmistr/WNODE_TOO_SMALL
+ms.keywords: tagWNODE_TOO_SMALL, WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], wmistr/WNODE_TOO_SMALL, *PWNODE_TOO_SMALL, WNODE_TOO_SMALL, kernel.wnode_too_small, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, wmistr/PWNODE_TOO_SMALL, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], PWNODE_TOO_SMALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

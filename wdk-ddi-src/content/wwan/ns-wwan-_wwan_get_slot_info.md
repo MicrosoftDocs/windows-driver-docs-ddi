@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 62955CA4-8631-4A85-8E78-5A91A9DA0069
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_GET_SLOT_INFO, *PWWAN_GET_SLOT_INFO, WWAN_GET_SLOT_INFO, WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], PWWAN_GET_SLOT_INFO, netvista.wwan_get_slot_info_status, _WWAN_GET_SLOT_INFO
+ms.keywords: wwan/PWWAN_GET_SLOT_INFO, *PWWAN_GET_SLOT_INFO, _WWAN_GET_SLOT_INFO, WWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO, WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], netvista.wwan_get_slot_info_status, wwan/WWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7C0E0903-F564-4F2B-95F9-FA8512FEF61B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_base_stations_info, ndiswwan/PNDIS_WWAN_BASE_STATIONS_INFO, PNDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO, PNDIS_WWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_BASE_STATIONS_INFO, *PNDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO
+ms.keywords: ndiswwan/PNDIS_WWAN_BASE_STATIONS_INFO, PNDIS_WWAN_BASE_STATIONS_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_base_stations_info, ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO, *PNDIS_WWAN_BASE_STATIONS_INFO, PNDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO, _NDIS_WWAN_BASE_STATIONS_INFO, NDIS_WWAN_BASE_STATIONS_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -186,7 +186,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STAT
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -198,7 +198,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STAT
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bc01b363-71e9-4c50-ad14-a101abbfe6ec
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.getinfo_glyphwidth, PGETINFO_GLYPHWIDTH, print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, GETINFO_GLYPHWIDTH structure [Print Devices], _GETINFO_GLYPHWIDTH, printoem/GETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH, printoem/PGETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH structure pointer [Print Devices]
+ms.keywords: print_unidrv-pscript_rendering_d4e07803-7342-4550-90fd-1ee8669934f0.xml, PGETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH structure [Print Devices], _GETINFO_GLYPHWIDTH, printoem/PGETINFO_GLYPHWIDTH, *PGETINFO_GLYPHWIDTH, GETINFO_GLYPHWIDTH, print.getinfo_glyphwidth, printoem/GETINFO_GLYPHWIDTH, PGETINFO_GLYPHWIDTH structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

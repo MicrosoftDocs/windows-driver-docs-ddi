@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 62340660-3419-4da6-8d58-c2f82b4231ba
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_bf12d7bb-6ebf-460b-a2c2-24632c89b083.xml, stream.ksfiltergenerateevents, KsFilterGenerateEvents, KsFilterGenerateEvents function [Streaming Media Devices], ks/KsFilterGenerateEvents
+ms.keywords: stream.ksfiltergenerateevents, ks/KsFilterGenerateEvents, KsFilterGenerateEvents function [Streaming Media Devices], KsFilterGenerateEvents, avfunc_bf12d7bb-6ebf-460b-a2c2-24632c89b083.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,11 +167,11 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
-
-
-
 <a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+
+
+
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 

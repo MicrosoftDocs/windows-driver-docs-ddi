@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58530a72-6e07-44f5-9d7d-04bc37ff1ec9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_item, KSPROPERTY_ITEM structure [Streaming Media Devices], PKSPROPERTY_ITEM, *PKSPROPERTY_ITEM, ks/PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], ks/KSPROPERTY_ITEM, KSPROPERTY_ITEM, ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml
+ms.keywords: ks/PKSPROPERTY_ITEM, stream.ksproperty_item, ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml, KSPROPERTY_ITEM structure [Streaming Media Devices], *PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], ks/KSPROPERTY_ITEM, PKSPROPERTY_ITEM, KSPROPERTY_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -231,11 +231,7 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568170">SRB_GET_DEVICE_PROPERTY</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>
 
 
 
@@ -243,15 +239,19 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568207">SRB_SET_STREAM_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568170">SRB_GET_DEVICE_PROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568204">SRB_SET_DEVICE_PROPERTY</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
 
 
 

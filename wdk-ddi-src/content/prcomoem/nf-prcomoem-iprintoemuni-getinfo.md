@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUni interface [Print Devices], GetInfo method, GetInfo method [Print Devices], IPrintOemUni interface, IPrintOemUni, IPrintOemUni::GetInfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml, prcomoem/IPrintOemUni::GetInfo, GetInfo method [Print Devices], print.iprintoemuni_getinfo, GetInfo
+ms.keywords: print.iprintoemuni_getinfo, prcomoem/IPrintOemUni::GetInfo, GetInfo method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], GetInfo method, IPrintOemUni::GetInfo, GetInfo method [Print Devices], print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml, IPrintOemUni, GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

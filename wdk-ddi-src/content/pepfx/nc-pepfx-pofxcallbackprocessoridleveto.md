@@ -40,7 +40,7 @@ apiname:
 -	ProcessorIdleVeto
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKPROCESSORIDLEVETO callback
@@ -99,11 +99,14 @@ Whether to increment or decrement the veto count. Set to TRUE to increment the v
 ## -returns
 
 
+
 This routine does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>ProcessorIdleVeto</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>ProcessorIdleVeto</b> routine.
@@ -112,9 +115,12 @@ This routine is implemented by the power management framework (PoFx) and is call
 
 
 
+
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
+
 
  
 

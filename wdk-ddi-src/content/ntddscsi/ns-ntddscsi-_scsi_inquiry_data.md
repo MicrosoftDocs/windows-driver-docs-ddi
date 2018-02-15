@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f62c35dd-791d-4c21-9836-308cc5fb102b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSCSI_INQUIRY_DATA, ntddscsi/PSCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA structure pointer [Storage Devices], SCSI_INQUIRY_DATA structure [Storage Devices], storage.scsi_inquiry_data, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml, _SCSI_INQUIRY_DATA, ntddscsi/SCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA"
+ms.keywords: storage.scsi_inquiry_data, SCSI_INQUIRY_DATA structure [Storage Devices], PSCSI_INQUIRY_DATA, *PSCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA, ntddscsi/PSCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA structure pointer [Storage Devices], structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml, ntddscsi/SCSI_INQUIRY_DATA, _SCSI_INQUIRY_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,11 +123,11 @@ The <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_adapter_bus_info.md">SCSI_ADAPTER_BUS_INFO</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
 
 
 

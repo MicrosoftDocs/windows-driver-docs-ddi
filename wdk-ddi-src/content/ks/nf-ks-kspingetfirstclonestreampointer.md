@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9b4880af-d748-4a4e-92ec-8081138d4e27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_2a3d17ef-c1b8-4b22-af1e-7f9bb01c1183.xml, KsPinGetFirstCloneStreamPointer, ks/KsPinGetFirstCloneStreamPointer, stream.kspingetfirstclonestreampointer, KsPinGetFirstCloneStreamPointer function [Streaming Media Devices]
+ms.keywords: KsPinGetFirstCloneStreamPointer, avfunc_2a3d17ef-c1b8-4b22-af1e-7f9bb01c1183.xml, ks/KsPinGetFirstCloneStreamPointer, KsPinGetFirstCloneStreamPointer function [Streaming Media Devices], stream.kspingetfirstclonestreampointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

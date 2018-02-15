@@ -40,7 +40,7 @@ apiname:
 -	GetScatterGatherList
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -80,7 +80,7 @@ NTSTATUS GetScatterGatherList(
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param DeviceObject [in]
@@ -121,7 +121,9 @@ Indicates the direction of the DMA transfer: <b>TRUE</b> for a transfer from the
 ## -returns
 
 
+
 This routine can return one of the following NTSTATUS values. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,7 +147,7 @@ The operation succeeded.
 </dl>
 </td>
 <td width="60%">
-The routine could not allocate sufficient memory or the number of map registers required for the transfer is larger than the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
+The routine could not allocate sufficient memory or the number of map registers required for the transfer is larger than the value returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>.
 
 </td>
 </tr>
@@ -160,11 +162,14 @@ The buffer is too small for the requested transfer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>GetScatterGatherList</b> routine dynamically allocates a buffer to hold the scatter/gather list. For possible NTSTATUS values if the buffer allocation fails, see the return value.
@@ -172,7 +177,7 @@ The <b>GetScatterGatherList</b> routine dynamically allocates a buffer to hold t
 <b>GetScatterGatherList</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
+           structure. Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>.
 
 As soon as the appropriate DMA channel and any necessary map registers are available, <b>GetScatterGatherList</b> creates a scatter/gather list, initializes the map registers, and then calls the driver-supplied <a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a> routine to carry out the I/O operation.
 
@@ -184,21 +189,36 @@ This routine can handle chained MDLs, provided that the total number of map regi
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
 
 <a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
 
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
 
 <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+
 
  
 

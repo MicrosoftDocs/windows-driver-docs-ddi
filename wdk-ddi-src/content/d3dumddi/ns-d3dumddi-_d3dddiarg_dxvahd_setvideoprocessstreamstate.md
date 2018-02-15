@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f1f99725-4110-49b4-9149-1f6d03faeb0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_dxvahd_setvideoprocessstreamstate, _D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, UMDisplayDriver_param_Structs_6b11ff68-267b-47f0-aa04-17d3eea71e20.xml, D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE structure [Display Devices], D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, d3dumddi/D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
+ms.keywords: "_D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, display.d3dddiarg_dxvahd_setvideoprocessstreamstate, D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE structure [Display Devices], UMDisplayDriver_param_Structs_6b11ff68-267b-47f0-aa04-17d3eea71e20.xml, d3dumddi/D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,7 +98,7 @@ typedef struct _D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_stream_state.md">DXVAHDDDI_STREAM_STATE</a>
 
 
 
@@ -106,7 +106,7 @@ typedef struct _D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE {
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_stream_state.md">DXVAHDDDI_STREAM_STATE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
 
 
 

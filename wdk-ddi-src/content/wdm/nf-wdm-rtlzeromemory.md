@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e9e20d9c-0f2f-4ab1-a249-3e09bb6a7a22
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlZeroMemory routine [Kernel-Mode Driver Architecture], wdm/RtlZeroMemory, k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, kernel.rtlzeromemory, RtlZeroMemory
+ms.keywords: kernel.rtlzeromemory, k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, RtlZeroMemory, wdm/RtlZeroMemory, RtlZeroMemory routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -92,11 +92,11 @@ Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination me
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
 
 

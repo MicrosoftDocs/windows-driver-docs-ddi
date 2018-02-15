@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7346733d-2ac7-4eee-9f9c-ea6e1ee2ce5d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_f0462fa8-da93-414b-b4b1-246a50572bb2.xml, SetRadix method [Windows Debugging], IDebugControl interface, IDebugControl::SetRadix, SetRadix method [Windows Debugging], IDebugControl2, IDebugControl2 interface [Windows Debugging], SetRadix method, IDebugControl3::SetRadix, dbgeng/IDebugControl3::SetRadix, dbgeng/IDebugControl::SetRadix, IDebugControl, SetRadix method [Windows Debugging], IDebugControl3 interface, debugger.setradix, IDebugControl2::SetRadix, SetRadix, SetRadix method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::SetRadix, IDebugControl interface [Windows Debugging], SetRadix method, IDebugControl3 interface [Windows Debugging], SetRadix method
+ms.keywords: IDebugControl3 interface [Windows Debugging], SetRadix method, SetRadix method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::SetRadix, SetRadix method [Windows Debugging], IDebugControl2 interface [Windows Debugging], SetRadix method, IDebugControl_f0462fa8-da93-414b-b4b1-246a50572bb2.xml, dbgeng/IDebugControl2::SetRadix, dbgeng/IDebugControl::SetRadix, debugger.setradix, IDebugControl interface [Windows Debugging], SetRadix method, IDebugControl::SetRadix, IDebugControl2, IDebugControl3::SetRadix, SetRadix, IDebugControl, IDebugControl2::SetRadix, SetRadix method [Windows Debugging], IDebugControl2 interface, SetRadix method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -153,15 +153,11 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548218">GetRadix</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -169,7 +165,11 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548218">GetRadix</a>
 
 
 

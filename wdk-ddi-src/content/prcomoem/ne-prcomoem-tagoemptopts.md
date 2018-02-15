@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A63C115D-7215-422A-B4F9-C88820FC8168
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/OEMPTOPTS, OEMPT_DEFAULT, prcomoem/OEMPT_DEFAULT, OEMPT_NOSHAPSHOT, tagOEMPTOPTS, prcomoem/POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], print.oemptopts, OEMPTOPTS enumeration [Print Devices], *POEMPTOPTS, OEMPTOPTS, prcomoem/OEMPT_NOSHAPSHOT, POEMPTOPTS
+ms.keywords: "*POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], prcomoem/POEMPTOPTS, OEMPTOPTS, OEMPTOPTS enumeration [Print Devices], POEMPTOPTS, tagOEMPTOPTS, print.oemptopts, OEMPT_DEFAULT, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPTOPTS, OEMPT_NOSHAPSHOT, prcomoem/OEMPT_NOSHAPSHOT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

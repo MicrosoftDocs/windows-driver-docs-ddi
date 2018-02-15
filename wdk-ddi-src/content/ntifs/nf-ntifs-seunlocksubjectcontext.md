@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5b0dda8f-52de-462b-8dab-8aed86e5dc0e
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: SeUnlockSubjectContext, seref_a07c19ad-03a8-403d-9844-9e85862377ab.xml, SeUnlockSubjectContext routine [Installable File System Drivers], ntifs/SeUnlockSubjectContext, ifsk.seunlocksubjectcontext
+ms.keywords: ntifs/SeUnlockSubjectContext, SeUnlockSubjectContext routine [Installable File System Drivers], seref_a07c19ad-03a8-403d-9844-9e85862377ab.xml, ifsk.seunlocksubjectcontext, SeUnlockSubjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,15 +100,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
 
 
 
@@ -116,11 +108,19 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-sequeryauthenticationidtoken.md">SeQueryAuthenticationIdToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
 
 
 

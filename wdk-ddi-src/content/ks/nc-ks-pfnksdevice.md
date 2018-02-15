@@ -78,11 +78,14 @@ Pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure describin
 ## -returns
 
 
+
 Should return STATUS_SUCCESS or the error code that was returned from the attempt to perform the operation. If this routine returns failure, any pending <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> requests between the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551755">IRP_MN_STOP_DEVICE</a> request will be failed. Do not return STATUS_PENDING.
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine's address in the <b>PostStart</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
@@ -91,9 +94,12 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+
 
  
 

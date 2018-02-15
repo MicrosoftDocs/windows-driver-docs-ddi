@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5e6de3-f1f4-4d7f-8c97-56a20a453ca3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml, NtTerminateProcess, ZwTerminateProcess, ntddk/ZwTerminateProcess, ntddk/NtTerminateProcess, kernel.zwterminateprocess
+ms.keywords: ntddk/ZwTerminateProcess, ZwTerminateProcess, kernel.zwterminateprocess, k111_72c76674-5372-4662-9097-53d850d49afe.xml, NtTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], ntddk/NtTerminateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,11 +159,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-zwopenprocess.md">ZwOpenProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

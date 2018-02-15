@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAllocatePool routine [Kernel-Mode Driver Architecture], wdm/ExAllocatePool, ExAllocatePool, kernel.exallocatepool, k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml
+ms.keywords: ExAllocatePool routine [Kernel-Mode Driver Architecture], ExAllocatePool, kernel.exallocatepool, wdm/ExAllocatePool, k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

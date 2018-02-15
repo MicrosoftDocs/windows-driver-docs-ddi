@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b93c6420-b981-4bfe-b841-921cbe76f643
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFMemoryObjectRef_2b1a76a0-3de8-4cfd-8a87-83a883a6fa95.xml, wdfcore/WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN function, kmdf.wdf_align_size_down, wdf.wdf_align_size_down
+ms.keywords: WDF_ALIGN_SIZE_DOWN, wdf.wdf_align_size_down, wdfcore/WDF_ALIGN_SIZE_DOWN, kmdf.wdf_align_size_down, DFMemoryObjectRef_2b1a76a0-3de8-4cfd-8a87-83a883a6fa95.xml, WDF_ALIGN_SIZE_DOWN function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

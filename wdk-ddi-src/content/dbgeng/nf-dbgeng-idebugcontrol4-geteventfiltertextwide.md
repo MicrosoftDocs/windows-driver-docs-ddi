@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, GetEventFilterTextWide, IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, dbgeng/IDebugControl4::GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], debugger.geteventfiltertextwide, IDebugControl4::GetEventFilterTextWide, IDebugControl4
+ms.keywords: IDebugControl4, GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide, GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetEventFilterTextWide method, IDebugControl4::GetEventFilterTextWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

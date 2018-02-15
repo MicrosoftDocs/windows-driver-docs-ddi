@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83a83af9-314a-49c1-b241-a0ef0716f83a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], *PDOT11_DIRECTION, DOT11_DIR_BOTH, DOT11_DIRECTION, windot11/DOT11_DIR_INBOUND, windot11/DOT11_DIR_OUTBOUND, windot11/DOT11_DIR_BOTH, windot11/PDOT11_DIRECTION, Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, windot11/DOT11_DIRECTION, DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], netvista.dot11_direction, DOT11_DIR_INBOUND, PDOT11_DIRECTION, DOT11_DIR_OUTBOUND
+ms.keywords: PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], DOT11_DIR_OUTBOUND, DOT11_DIR_INBOUND, PDOT11_DIRECTION, windot11/DOT11_DIR_INBOUND, *PDOT11_DIRECTION, Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, DOT11_DIR_BOTH, windot11/DOT11_DIRECTION, windot11/DOT11_DIR_BOTH, windot11/DOT11_DIR_OUTBOUND, windot11/PDOT11_DIRECTION, DOT11_DIRECTION, netvista.dot11_direction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -91,12 +91,12 @@ The 802.11 station uses the cipher key for packets received from or transmitted 
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">Dot11ExtSetDefaultKey</a>
+
+
+
 <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
    DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_default_key.md">Dot11ExtSetDefaultKey</a>
 
 
 

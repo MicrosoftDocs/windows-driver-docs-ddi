@@ -40,7 +40,7 @@ apiname:
 -	DpWmiFunctionControl
 product: Windows
 targetos: Windows
-req.typenames: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR"
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -103,11 +103,14 @@ Specifies <b>TRUE</b> to enable the event or data collection, or <b>FALSE</b> to
 ## -returns
 
 
+
 <i>DpWmiFunctionControl</i> returns STATUS_SUCCESS or an appropriate error status such as:
 
 
 
+
 ## -remarks
+
 
 
 WMI calls a driver's <i>DpWmiFunctionControl</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to one of the following requests:
@@ -131,6 +134,7 @@ WMI calls a driver's <i>DpWmiFunctionControl</i> routine after the driver calls 
 If a driver implements a <i>DpWmiFunctionControl</i> routine, the driver must place the routine's address in the <b>WmiFunctionControl</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. If a driver does not implement a <i>DpWmiFunctionControl</i> routine, it must set <b>WmiFunctionControl</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_SUCCESS to the caller.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
+
 <ul>
 <li>
 Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
@@ -140,7 +144,8 @@ Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on
 Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for an additional request to arrive before the removal occurs.
 
 </li>
-</ul>It is unnecessary for the driver to check whether events or data collection are already enabled for a block, because WMI sends a single enable request when the first data consumer enables the block, and it sends a single disable request when the last data consumer disables the block. WMI will not call <i>DpWmiFunctionControl</i> to enable a block without an intervening call to disable it.
+</ul>
+It is unnecessary for the driver to check whether events or data collection are already enabled for a block, because WMI sends a single enable request when the first data consumer enables the block, and it sends a single disable request when the last data consumer disables the block. WMI will not call <i>DpWmiFunctionControl</i> to enable a block without an intervening call to disable it.
 
 After enabling or disabling the event or data collection for the block, the driver calls <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a> to complete the request.
 
@@ -150,19 +155,32 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550848">IRP_MN_DISABLE_COLLECTION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550851">IRP_MN_DISABLE_EVENTS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a>
 
+
+
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550848">IRP_MN_DISABLE_COLLECTION</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9fbdfa42-7231-4281-ba19-a33e854cd801
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::GetOffsetExpression, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, debugger.getoffsetexpression, dbgeng/IDebugBreakpoint::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression, IDebugBreakpoint, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, GetOffsetExpression method [Windows Debugging]
+ms.keywords: IDebugBreakpoint::GetOffsetExpression, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::GetOffsetExpression, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, debugger.getoffsetexpression, IDebugBreakpoint, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetOffsetExpression, GetOffsetExpression, IDebugBreakpoint2::GetOffsetExpression, GetOffsetExpression method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

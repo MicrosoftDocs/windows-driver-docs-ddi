@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: AcquireLock method, IWDFObject interface, AcquireLock method, IWDFObject::AcquireLock, AcquireLock, wudfddi/IWDFObject::AcquireLock, umdf.iwdfobject_acquirelock, AcquireLock method, IWDFObject interface, IWDFObject, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, wdf.iwdfobject_acquirelock
+ms.keywords: wudfddi/IWDFObject::AcquireLock, AcquireLock method, IWDFObject interface, umdf.iwdfobject_acquirelock, AcquireLock method, IWDFObject::AcquireLock, wdf.iwdfobject_acquirelock, IWDFObject, AcquireLock, IWDFObject interface, AcquireLock method, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,11 @@ For a code example of how to use the <b>AcquireLock</b> method, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 

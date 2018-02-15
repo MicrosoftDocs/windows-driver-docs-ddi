@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29B16A23-A3C1-4994-8F72-403BE32ABBD2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PPEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL structure [Kernel-Mode Driver Architecture], PEP_PPM_IDLE_CANCEL, kernel.pep_ppm_idle_cancel, pep_x/PEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_IDLE_CANCEL, _PEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL
+ms.keywords: PEP_PPM_IDLE_CANCEL structure [Kernel-Mode Driver Architecture], pep_x/PPEP_PPM_IDLE_CANCEL, _PEP_PPM_IDLE_CANCEL, pep_x/PEP_PPM_IDLE_CANCEL, kernel.pep_ppm_idle_cancel, *PPEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

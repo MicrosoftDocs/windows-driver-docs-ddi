@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b9e3ea22-be24-4f36-abde-339495b9ed1c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestStopRequestCancelable, wudfddi_types/WdfRequestStopRequestCancelable, wudfddi_types/WdfRequestStopActionInvalid, WDF_REQUEST_STOP_ACTION_FLAGS, _WDF_REQUEST_STOP_ACTION_FLAGS, wudfddi_types/WdfRequestStopActionPurge, WdfRequestStopActionInvalid, umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, umdf.wdf_request_stop_action_flags, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wudfddi_types/WdfRequestStopActionSuspend, WdfRequestStopActionPurge, wdf.wdf_request_stop_action_flags_umdf, WdfRequestStopActionSuspend, wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS
+ms.keywords: umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, WdfRequestStopActionSuspend, _WDF_REQUEST_STOP_ACTION_FLAGS, wdf.wdf_request_stop_action_flags_umdf, wudfddi_types/WdfRequestStopActionSuspend, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wudfddi_types/WdfRequestStopActionPurge, wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS, umdf.wdf_request_stop_action_flags, WdfRequestStopActionInvalid, wudfddi_types/WdfRequestStopActionInvalid, WdfRequestStopActionPurge, wudfddi_types/WdfRequestStopRequestCancelable, WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopRequestCancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

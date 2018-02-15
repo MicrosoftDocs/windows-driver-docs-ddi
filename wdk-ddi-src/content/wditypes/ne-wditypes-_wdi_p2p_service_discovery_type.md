@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5CA8F330-7AFE-44C9-BCCA-CA93479B9754
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_P2P_SERVICE_DISCOVERY_TYPE, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_NAME_ONLY, _WDI_P2P_SERVICE_DISCOVERY_TYPE, WDI_P2P_SERVICE_DISCOVERY_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_INFORMATION, netvista.wdi_p2p_service_discovery_type, WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_NAME_ONLY, WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_INFORMATION, WDI_P2P_SERVICE_DISCOVERY_TYPE_NO_SERVICE_DISCOVERY, WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_NO_SERVICE_DISCOVERY
+ms.keywords: wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE, WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_NAME_ONLY, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_NAME_ONLY, WDI_P2P_SERVICE_DISCOVERY_TYPE enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_NO_SERVICE_DISCOVERY, WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY, WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION, _WDI_P2P_SERVICE_DISCOVERY_TYPE, WDI_P2P_SERVICE_DISCOVERY_TYPE, netvista.wdi_p2p_service_discovery_type, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION, WDI_P2P_SERVICE_DISCOVERY_TYPE_NO_SERVICE_DISCOVERY, wditypes/WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_INFORMATION, WDI_P2P_SERVICE_DISCOVERY_TYPE_SERVICE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -92,16 +92,16 @@ The adapter encodes the service hashes in the IEs, tracks the service names from
 
 
 
-#### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY
-
-Added in Windows 10, version 1607, WDI version 1.0.21.
-
-The adapter encodes ASP2 service hashes in the P2P IEs during probe requests and indicates probe responses. It does not perform any GAS queries for service information.
-
-
 #### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION
 
 Added in Windows 10, version 1607, WDI version 1.0.21.
 
 The adapter encodes ASP2 service hashes in the P2P IEs, tracks  service names (service type and instance name) from the probe responses, and does GAS queries to get service information for each responding device.  This is only applicable if the adapter supports the P2P ASP2 Service Information Discovery capability.
+
+
+#### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY
+
+Added in Windows 10, version 1607, WDI version 1.0.21.
+
+The adapter encodes ASP2 service hashes in the P2P IEs during probe requests and indicates probe responses. It does not perform any GAS queries for service information.
 

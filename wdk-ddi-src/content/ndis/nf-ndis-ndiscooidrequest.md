@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7d46f2c1-7b54-4510-968a-2e35e33cf849
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCoOidRequest, NdisCoOidRequest, netvista.ndiscooidrequest, condis_request_ref_4f9b0ee3-9096-4f13-9851-edd1f7b4af8b.xml, NdisCoOidRequest function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndiscooidrequest, condis_request_ref_4f9b0ee3-9096-4f13-9851-edd1f7b4af8b.xml, NdisCoOidRequest, ndis/NdisCoOidRequest, NdisCoOidRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -417,15 +417,19 @@ Only clients and stand-alone call managers, which are protocol drivers, can call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569642">OID_GEN_SUPPORTED_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
 
 
@@ -438,27 +442,15 @@ Only clients and stand-alone call managers, which are protocol drivers, can call
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">MiniportCancelOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569642">OID_GEN_SUPPORTED_LIST</a>
 
 
 
@@ -470,7 +462,19 @@ Only clients and stand-alone call managers, which are protocol drivers, can call
 
 
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">MiniportCancelOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
 
 
@@ -478,11 +482,7 @@ Only clients and stand-alone call managers, which are protocol drivers, can call
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 

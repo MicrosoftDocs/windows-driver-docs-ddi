@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B847EE03-65C0-4046-BD0A-0441C487056F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient5_setoutputlineprefixwide, IDebugClient5, IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], SetOutputLinePrefixWide, dbgeng/IDebugClient5::SetOutputLinePrefixWide, IDebugClient5 interface [Windows Debugging], SetOutputLinePrefixWide method, SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, debugger.idebugclient5_setoutputlineprefixwide, IDebugClient5 interface [Windows Debugging], SetOutputLinePrefixWide method, dbgeng/IDebugClient5::SetOutputLinePrefixWide, IDebugClient5::SetOutputLinePrefixWide, IDebugClient5, SetOutputLinePrefixWide method [Windows Debugging], SetOutputLinePrefixWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

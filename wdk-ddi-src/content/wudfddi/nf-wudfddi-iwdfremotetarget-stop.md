@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4aaef251-7387-4e42-a7ae-e08120fc95ff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfremotetarget_stop, Stop method, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, IWDFRemoteTarget interface, Stop method, Stop, wudfddi/IWDFRemoteTarget::Stop, wdf.iwdfremotetarget_stop, IWDFRemoteTarget, Stop method, IWDFRemoteTarget interface, IWDFRemoteTarget::Stop
+ms.keywords: wdf.iwdfremotetarget_stop, Stop method, IWDFRemoteTarget interface, Stop method, umdf.iwdfremotetarget_stop, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, IWDFRemoteTarget, IWDFRemoteTarget::Stop, Stop, IWDFRemoteTarget interface, Stop method, wudfddi/IWDFRemoteTarget::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

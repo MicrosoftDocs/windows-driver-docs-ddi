@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1fc6880-23d1-4154-9305-4a918efd4a1d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], kernel.keinsertqueuedpc, KeInsertQueueDpc, wdm/KeInsertQueueDpc, k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml
+ms.keywords: kernel.keinsertqueuedpc, wdm/KeInsertQueueDpc, k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml, KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], KeInsertQueueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,19 +107,19 @@ Note that a particular DPC object and the function that it represents can each b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-
-
 <a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 

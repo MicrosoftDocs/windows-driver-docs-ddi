@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 17a61847-78b7-45b8-b02b-3ba4cdba6bff
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommandwide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, IDebugControl4::GetExceptionFilterSecondCommandWide, IDebugControl4::GetExceptionFilterSecondCommand
+ms.keywords: IDebugControl4::GetExceptionFilterSecondCommand, IDebugControl4::GetExceptionFilterSecondCommandWide, dbgeng/IDebugControl4::GetExceptionFilterSecondCommandWide, IDebugControl4 interface [Windows Debugging], GetExceptionFilterSecondCommandWide method, debugger.getexceptionfiltersecondcommandwide, GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, GetExceptionFilterSecondCommandWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -131,7 +131,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 
 
 
@@ -143,7 +143,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
 
 
 

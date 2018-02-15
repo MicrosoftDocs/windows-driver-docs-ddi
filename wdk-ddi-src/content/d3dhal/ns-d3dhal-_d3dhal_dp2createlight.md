@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26dc353a-13e0-4408-b30f-4a9086cd7b9a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_8cbc2e0d-9728-407d-a860-b9460b33e837.xml, display.d3dhal_dp2createlight, d3dhal/D3DHAL_DP2CREATELIGHT, D3DHAL_DP2CREATELIGHT, d3dhal/LPD3DHAL_DP2CREATELIGHT, LPD3DHAL_DP2CREATELIGHT, *LPD3DHAL_DP2CREATELIGHT, _D3DHAL_DP2CREATELIGHT, LPD3DHAL_DP2CREATELIGHT structure pointer [Display Devices], D3DHAL_DP2CREATELIGHT structure [Display Devices]
+ms.keywords: D3DHAL_DP2CREATELIGHT, d3dhal/D3DHAL_DP2CREATELIGHT, d3dstrct_8cbc2e0d-9728-407d-a860-b9460b33e837.xml, display.d3dhal_dp2createlight, _D3DHAL_DP2CREATELIGHT, d3dhal/LPD3DHAL_DP2CREATELIGHT, LPD3DHAL_DP2CREATELIGHT structure pointer [Display Devices], LPD3DHAL_DP2CREATELIGHT, D3DHAL_DP2CREATELIGHT structure [Display Devices], *LPD3DHAL_DP2CREATELIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

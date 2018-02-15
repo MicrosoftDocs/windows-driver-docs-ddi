@@ -105,14 +105,6 @@ RDBSS ignores the return value from <i>MRxPreparseName</i>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549869">MRxCreateVNetRoot</a>
 
 
@@ -121,7 +113,15 @@ RDBSS ignores the return value from <i>MRxPreparseName</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
 
 
 
@@ -129,7 +129,7 @@ RDBSS ignores the return value from <i>MRxPreparseName</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
 
 
 

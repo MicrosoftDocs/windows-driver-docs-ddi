@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 65e57147-f8a1-4b9b-b856-51f89bcba149
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_request_send_options_init, wdfrequest/WDF_REQUEST_SEND_OPTIONS_INIT, DFRequestObjectRef_9a31e96a-4cb1-43ea-b429-591f820838d8.xml, WDF_REQUEST_SEND_OPTIONS_INIT function, kmdf.wdf_request_send_options_init, WDF_REQUEST_SEND_OPTIONS_INIT
+ms.keywords: WDF_REQUEST_SEND_OPTIONS_INIT, WDF_REQUEST_SEND_OPTIONS_INIT function, wdf.wdf_request_send_options_init, DFRequestObjectRef_9a31e96a-4cb1-43ea-b429-591f820838d8.xml, wdfrequest/WDF_REQUEST_SEND_OPTIONS_INIT, kmdf.wdf_request_send_options_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,7 +128,7 @@ ret = WdfRequestSend(
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 
 
 
@@ -136,7 +136,7 @@ ret = WdfRequestSend(
 
 
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
 
 
 

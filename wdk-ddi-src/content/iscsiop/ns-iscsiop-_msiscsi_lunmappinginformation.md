@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PMSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml, MSiSCSI_LUNMappingInformation structure [Storage Devices], _MSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], *PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation, iscsiop/MSiSCSI_LUNMappingInformation
+ms.keywords: "*PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], iscsiop/MSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], iscsiop/PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, _MSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ You must implement this class.
 
 
 
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
 
 
 
@@ -123,7 +123,7 @@ You must implement this class.
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
 
 
 

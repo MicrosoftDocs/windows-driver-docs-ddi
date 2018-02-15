@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0a476cd8-b0e6-4faa-bb97-3647a88ecded
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/FsRtlInitializeFileLock, ifsk.fsrtlinitializefilelock, FsRtlInitializeFileLock routine [Installable File System Drivers], FsRtlInitializeFileLock, fsrtlref_227dc998-43e4-427b-afe5-6d26ff5d1c36.xml
+ms.keywords: ifsk.fsrtlinitializefilelock, FsRtlInitializeFileLock, FsRtlInitializeFileLock routine [Installable File System Drivers], fsrtlref_227dc998-43e4-427b-afe5-6d26ff5d1c36.xml, ntifs/FsRtlInitializeFileLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,19 +112,7 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.m
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock.md">FsRtlUninitializeFileLock</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlaretherecurrentfilelocks.md">FsRtlAreThereCurrentFileLocks</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551951">PUNLOCK_ROUTINE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
 
 
 
@@ -132,15 +120,19 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.m
 
 
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock.md">FsRtlUninitializeFileLock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
 
@@ -148,7 +140,15 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.m
 
 
 
+<a href="..\ntifs\nf-ntifs-fsrtlaretherecurrentfilelocks.md">FsRtlAreThereCurrentFileLocks</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlfastlock.md">FsRtlFastLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551951">PUNLOCK_ROUTINE</a>
 
 
 

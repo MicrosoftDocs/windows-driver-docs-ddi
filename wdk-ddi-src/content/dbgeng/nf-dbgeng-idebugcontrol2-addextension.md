@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 67dbc01a-83ee-4c7c-921e-f0945fbcc2ef
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, AddExtension method [Windows Debugging], debugger.addextension, IDebugControl2 interface [Windows Debugging], AddExtension method, IDebugControl3::AddExtension, AddExtension method [Windows Debugging], IDebugControl3 interface, IDebugControl2::AddExtension, AddExtension method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], AddExtension method, dbgeng/IDebugControl3::AddExtension, dbgeng/IDebugControl2::AddExtension, IDebugControl, AddExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl::AddExtension, dbgeng/IDebugControl::AddExtension, AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, IDebugControl interface [Windows Debugging], AddExtension method
+ms.keywords: debugger.addextension, AddExtension method [Windows Debugging], IDebugControl3 interface, AddExtension method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging], AddExtension method, IDebugControl3::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, IDebugControl::AddExtension, AddExtension, IDebugControl2 interface [Windows Debugging], AddExtension method, dbgeng/IDebugControl::AddExtension, AddExtension method [Windows Debugging], AddExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], AddExtension method, dbgeng/IDebugControl3::AddExtension, IDebugControl2::AddExtension, IDebugControl2, IDebugControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -133,11 +133,11 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 
 
@@ -145,7 +145,7 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 
 

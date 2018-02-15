@@ -85,11 +85,14 @@ A pointer to a variable that receives the converted 128-bit integer.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -103,9 +106,12 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 208d9dc3-736b-4684-b8d3-802f6df78142
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml, sti/IStiDevice::LockDevice, IStiDevice, LockDevice method [Imaging Devices], IStiDevice interface, IStiDevice::LockDevice, LockDevice, LockDevice method [Imaging Devices], image.istidevice_lockdevice, IStiDevice interface [Imaging Devices], LockDevice method
+ms.keywords: IStiDevice::LockDevice, image.istidevice_lockdevice, LockDevice method [Imaging Devices], IStiDevice interface, sti/IStiDevice::LockDevice, IStiDevice interface [Imaging Devices], LockDevice method, LockDevice, LockDevice method [Imaging Devices], IStiDevice, stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

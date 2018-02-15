@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D7360F7B-394D-480A-B2AB-B4461B057E43
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.providorfindcloseprinterchangenotification, ProvidorFindClosePrinterChangeNotification function [Print Devices], ProvidorFindClosePrinterChangeNotification, winsplp/ProvidorFindClosePrinterChangeNotification
+ms.keywords: print.providorfindcloseprinterchangenotification, ProvidorFindClosePrinterChangeNotification function [Print Devices], winsplp/ProvidorFindClosePrinterChangeNotification, ProvidorFindClosePrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

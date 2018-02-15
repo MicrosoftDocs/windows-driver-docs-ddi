@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f80224c6-9046-4471-b6c6-eb14f02fc51f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATEQUERY structure [Display Devices], D3DDDIARG_CREATEQUERY, d3dumddi/D3DDDIARG_CREATEQUERY, display.d3dddiarg_createquery, _D3DDDIARG_CREATEQUERY, UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml
+ms.keywords: display.d3dddiarg_createquery, d3dumddi/D3DDDIARG_CREATEQUERY, UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml, D3DDDIARG_CREATEQUERY, _D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -249,7 +249,7 @@ The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 
 
 
@@ -261,7 +261,7 @@ The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
 
 
 

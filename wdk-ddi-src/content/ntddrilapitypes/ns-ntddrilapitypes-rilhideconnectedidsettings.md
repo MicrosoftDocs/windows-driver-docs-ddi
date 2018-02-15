@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a0445969-b4b5-43f3-a8dc-a8d61bf44d94
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS, ntddrilapitypes/RILHIDECONNECTEDIDSETTINGS, netvista.rilhideconnectedidsettings, RILHIDECONNECTEDIDSETTINGS structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: netvista.rilhideconnectedidsettings, RILHIDECONNECTEDIDSETTINGS, ntddrilapitypes/RILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], *LPRILHIDECONNECTEDIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

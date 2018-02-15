@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: CE5C2999-37D7-4702-B94D-E3131AE34E78
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprinterextensionrequest_cancel, printerextension/IPrinterExtensionRequest::Cancel, Cancel method [Print Devices], IPrinterExtensionRequest interface [Print Devices], Cancel method, IPrinterExtensionRequest, IPrinterExtensionRequest::Cancel, Cancel method [Print Devices], IPrinterExtensionRequest interface, Cancel
+ms.keywords: IPrinterExtensionRequest::Cancel, Cancel method [Print Devices], IPrinterExtensionRequest interface, printerextension/IPrinterExtensionRequest::Cancel, Cancel, print.iprinterextensionrequest_cancel, IPrinterExtensionRequest, Cancel method [Print Devices], IPrinterExtensionRequest interface [Print Devices], Cancel method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

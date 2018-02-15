@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b3f948e0-4066-487c-aaa9-de29c0023f10
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_SendECHO_OUT, _SM_SendECHO_OUT, PSM_SendECHO_OUT, structs-Fibre_54c4b9c6-e7c1-4125-9e76-0c3e271f5dea.xml, *PSM_SendECHO_OUT, storage.sm_sendecho_out, PSM_SendECHO_OUT structure pointer [Storage Devices], hbapiwmi/SM_SendECHO_OUT, SM_SendECHO_OUT structure [Storage Devices], hbapiwmi/PSM_SendECHO_OUT
+ms.keywords: PSM_SendECHO_OUT structure pointer [Storage Devices], storage.sm_sendecho_out, structs-Fibre_54c4b9c6-e7c1-4125-9e76-0c3e271f5dea.xml, hbapiwmi/PSM_SendECHO_OUT, PSM_SendECHO_OUT, _SM_SendECHO_OUT, SM_SendECHO_OUT, SM_SendECHO_OUT structure [Storage Devices], *PSM_SendECHO_OUT, hbapiwmi/SM_SendECHO_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

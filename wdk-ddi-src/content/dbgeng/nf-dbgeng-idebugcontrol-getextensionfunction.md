@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bad50869-472c-4eb7-9bc0-0fa2d27ee753
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::GetExtensionFunction, IDebugControl_9f227e3a-ee1e-44d0-9675-ec773e3391e5.xml, dbgeng/IDebugControl2::GetExtensionFunction, IDebugControl3::GetExtensionFunction, IDebugControl::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl interface, GetExtensionFunction, GetExtensionFunction method [Windows Debugging], debugger.getextensionfunction, IDebugControl2::GetExtensionFunction, IDebugControl interface [Windows Debugging], GetExtensionFunction method, IDebugControl, GetExtensionFunction method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetExtensionFunction method, IDebugControl2 interface [Windows Debugging], GetExtensionFunction method
+ms.keywords: IDebugControl::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], GetExtensionFunction method, IDebugControl2::GetExtensionFunction, GetExtensionFunction, GetExtensionFunction method [Windows Debugging], IDebugControl3 interface, GetExtensionFunction method [Windows Debugging], debugger.getextensionfunction, dbgeng/IDebugControl3::GetExtensionFunction, IDebugControl_9f227e3a-ee1e-44d0-9675-ec773e3391e5.xml, dbgeng/IDebugControl::GetExtensionFunction, IDebugControl3::GetExtensionFunction, IDebugControl, IDebugControl interface [Windows Debugging], GetExtensionFunction method, IDebugControl3 interface [Windows Debugging], GetExtensionFunction method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -129,15 +129,15 @@ For more information on using extension functions, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
 
 
@@ -145,11 +145,11 @@ For more information on using extension functions, see <a href="https://msdn.mic
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

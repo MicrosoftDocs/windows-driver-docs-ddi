@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, PFILE_MODE_INFORMATION, ntifs/PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MODE_INFORMATION, FILE_MODE_INFORMATION, ntifs/FILE_MODE_INFORMATION, kernel.file_mode_information
+ms.keywords: "_FILE_MODE_INFORMATION, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_MODE_INFORMATION, PFILE_MODE_INFORMATION, kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, kernel.file_mode_information, ntifs/FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION, ntifs/PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

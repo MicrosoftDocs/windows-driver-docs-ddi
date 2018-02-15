@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d8bd093d-ad95-488e-a057-b96fecf58bbb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_TAG, rilapitypes/RIL_PARAM_DISPLAY_TYPE, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DISPLAY_TYPE, rilapitypes/RILDISPLAYINFOPARAMMASK, rilapitypes/RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_MESSAGESIZE, rilapitypes/RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_MESSAGE, netvista.rildisplayinfoparammask_2, rilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, RILDISPLAYINFOPARAMMASK
+ms.keywords: RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_TAG, rilapitypes/RIL_PARAM_DISPLAY_TYPE, RILDISPLAYINFOPARAMMASK, netvista.rildisplayinfoparammask_2, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_ALL, rilapitypes/RILDISPLAYINFOPARAMMASK, rilapitypes/RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_TYPE, rilapitypes/RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_MESSAGESIZE, rilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

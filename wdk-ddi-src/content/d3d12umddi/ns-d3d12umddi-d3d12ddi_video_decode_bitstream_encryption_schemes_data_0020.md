@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A028463A-5914-4522-8683-F0A692CF09A3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020, display.d3d12ddi_video_decode_bitstream_encryption_schemes_data_0010, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020
+ms.keywords: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020, display.d3d12ddi_video_decode_bitstream_encryption_schemes_data_0010, d3d12umddi/D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,11 @@ A pointer to a list of supported encryption schemes.  The calling application al
 
 <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>
 
+
+
 <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_get_bitstream_encryption_scheme_count_0020.md">pfnGetBitstreamEncryptionSchemeCount</a>
+
+
 
  
 

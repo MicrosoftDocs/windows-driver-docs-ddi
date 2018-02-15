@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 39e5bfb8-83fe-4b68-814d-933a26d6d567
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFAction2.GetStatus, Microsoft::WDTF::IWDTFAction2::GetStatus, GetStatus, GetStatus method [Windows Device Testing Framework], IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], GetStatus method, GetStatus method [Windows Device Testing Framework], IWDTFAction2 interface, IWDTFAction2::GetStatus, wdtf/IWDTFAction2::GetStatus, dtf.iwdtfaction2_getstatus
+ms.keywords: GetStatus method [Windows Device Testing Framework], IWDTFAction2 interface, dtf.iwdtfaction2_getstatus, IWDTFAction2::GetStatus, GetStatus method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFAction2.GetStatus, Microsoft::WDTF::IWDTFAction2::GetStatus, wdtf/IWDTFAction2::GetStatus, IWDTFAction2, GetStatus, IWDTFAction2 interface [Windows Device Testing Framework], GetStatus method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

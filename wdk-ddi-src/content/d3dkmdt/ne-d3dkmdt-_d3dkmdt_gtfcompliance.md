@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f66bee69-206d-4e94-aca8-72f59569ab4a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_GTF_UNINITIALIZED, d3dkmdt/D3DKMDT_GTF_UNINITIALIZED, d3dkmdt/D3DKMDT_GTF_NOTCOMPLIANT, D3DKMDT_GTFCOMPLIANCE enumeration [Display Devices], D3DKMDT_GTF_COMPLIANT, d3dkmdt/D3DKMDT_GTFCOMPLIANCE, _D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTF_NOTCOMPLIANT, DmEnums_c8d6dc39-9079-444a-8441-49617eb1eede.xml, display.d3dkmdt_gtfcompliance, d3dkmdt/D3DKMDT_GTF_COMPLIANT, D3DKMDT_GTFCOMPLIANCE
+ms.keywords: d3dkmdt/D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTFCOMPLIANCE enumeration [Display Devices], display.d3dkmdt_gtfcompliance, DmEnums_c8d6dc39-9079-444a-8441-49617eb1eede.xml, D3DKMDT_GTF_UNINITIALIZED, d3dkmdt/D3DKMDT_GTF_UNINITIALIZED, d3dkmdt/D3DKMDT_GTF_NOTCOMPLIANT, D3DKMDT_GTF_COMPLIANT, d3dkmdt/D3DKMDT_GTF_COMPLIANT, D3DKMDT_GTF_NOTCOMPLIANT, _D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTFCOMPLIANCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

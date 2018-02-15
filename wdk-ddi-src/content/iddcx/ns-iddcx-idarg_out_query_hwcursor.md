@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 813d6aa6-0442-4f30-9fd6-b3aec2e0e11d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_QUERY_HWCURSOR, iddcx/IDARG_OUT_QUERY_HWCURSOR, display.idarg_out_query_hwcursor, IDARG_OUT_QUERY_HWCURSOR structure [Display Devices]
+ms.keywords: IDARG_OUT_QUERY_HWCURSOR, IDARG_OUT_QUERY_HWCURSOR structure [Display Devices], iddcx/IDARG_OUT_QUERY_HWCURSOR, display.idarg_out_query_hwcursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

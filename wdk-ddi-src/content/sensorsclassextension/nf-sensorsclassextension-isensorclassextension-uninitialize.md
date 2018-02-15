@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 204a6126-bb69-4a96-acbf-3ad5b8ae0f04
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: Uninitialize method [Sensor Devices], ISensorClassExtension, ISensorClassExtension::Uninitialize, Uninitialize, sensors.isensorclassextension_uninitialize
+ms.keywords: Uninitialize method [Sensor Devices], Uninitialize, sensors.isensorclassextension_uninitialize, ISensorClassExtension, ISensorClassExtension::Uninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

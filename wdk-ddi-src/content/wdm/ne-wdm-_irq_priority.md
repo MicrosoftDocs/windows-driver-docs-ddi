@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, wdm/IrqPriorityHigh, PIRQ_PRIORITY, IRQ_PRIORITY, wdm/IrqPriorityNormal, *PIRQ_PRIORITY, _IRQ_PRIORITY, IrqPriorityLow, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], kernel.irq_priority, wdm/IrqPriorityLow, IrqPriorityUndefined, IrqPriorityNormal, wdm/IrqPriorityUndefined, wdm/PIRQ_PRIORITY, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], IrqPriorityHigh, wdm/IRQ_PRIORITY
+ms.keywords: wdm/IRQ_PRIORITY, IrqPriorityNormal, _IRQ_PRIORITY, PIRQ_PRIORITY, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPriorityUndefined, kernel.irq_priority, IrqPriorityLow, wdm/IrqPriorityLow, IRQ_PRIORITY, wdm/IrqPriorityNormal, wdm/IrqPriorityHigh, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], wdm/PIRQ_PRIORITY, *PIRQ_PRIORITY, IrqPriorityUndefined, IrqPriorityHigh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

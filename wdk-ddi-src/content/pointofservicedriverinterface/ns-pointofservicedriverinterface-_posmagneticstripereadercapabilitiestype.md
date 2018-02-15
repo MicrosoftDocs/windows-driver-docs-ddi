@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 8f5ad241-a145-468d-bd69-7956985152b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posmagneticstripereadercapabilitiestype, PosMagneticStripeReaderCapabilitiesType structure, PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, _PosMagneticStripeReaderCapabilitiesType
+ms.keywords: PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype, _PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

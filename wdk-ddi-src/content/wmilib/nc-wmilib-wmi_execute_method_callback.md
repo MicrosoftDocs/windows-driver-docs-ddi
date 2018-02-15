@@ -40,7 +40,7 @@ apiname:
 -	DpWmiExecuteMethod
 product: Windows
 targetos: Windows
-req.typenames: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR"
+req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
 ---
 
@@ -121,11 +121,14 @@ Pointer to a buffer that holds input data, if any, and receives output data, if 
 ## -returns
 
 
+
 <i>DpWmiExecuteMethod</i> returns STATUS_SUCCESS or an appropriate error code such as the following:
 
 
 
+
 ## -remarks
+
 
 
 WMI calls a driver's <i>DpWmiExecuteMethod</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request.
@@ -133,6 +136,7 @@ WMI calls a driver's <i>DpWmiExecuteMethod</i> routine after the driver calls <a
 If a driver implements a <i>DpWmiExecuteMethod</i> routine, the driver must place the routine's address in the <b>ExecuteWmiMethod</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. If a driver does not implement a <i>DpWmiExecuteMethod</i> routine, it must set <b>ExecuteWmiMethod</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_INVALID_DEVICE_REQUEST to the caller in response to any <b>IRP_MN_EXECUTE_METHOD</b> request.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
+
 <ul>
 <li>
 Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
@@ -158,7 +162,8 @@ Verify that <i>Buffer</i> and <i>InBufferSize</i> describe a buffer that is larg
 Verify that <i>Buffer</i> and <i>OutBufferSize</i> describe a buffer that is large enough to receive the specified method's output data, including padding if necessary.
 
 </li>
-</ul>Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
+</ul>
+Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
 
 If the specified method performs an operation that causes data loss, such as fetching and resetting the contents of a set of counters, the driver should validate the output buffer size before performing the operation. That way, the driver can return STATUS_BUFFER_TOO_SMALL and allow the caller to resubmit the request with a larger buffer, without prematurely resetting the counters.
 
@@ -170,15 +175,24 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\wmilib\nf-wmilib-wmicompleterequest.md">WmiCompleteRequest</a>
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
 
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
+
+
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+
+
 
  
 

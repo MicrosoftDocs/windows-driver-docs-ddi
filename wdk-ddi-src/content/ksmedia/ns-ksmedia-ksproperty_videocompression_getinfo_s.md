@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a34f051e-9769-427e-b1a7-2718a023e9d1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, ksmedia/PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, stream.ksproperty_videocompression_getinfo_s, KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure [Streaming Media Devices], *PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, vidcapstruct_28f47a4f-d28e-40b4-acc5-42835ec89b40.xml, PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure pointer [Streaming Media Devices], PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S
+ms.keywords: ksmedia/PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, ksmedia/KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, *PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, vidcapstruct_28f47a4f-d28e-40b4-acc5-42835ec89b40.xml, stream.ksproperty_videocompression_getinfo_s, PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,7 +110,7 @@ Specifies the compression capabilities of the device. This member can be one or 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567813">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
 
 
 
@@ -118,7 +118,7 @@ Specifies the compression capabilities of the device. This member can be one or 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567813">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

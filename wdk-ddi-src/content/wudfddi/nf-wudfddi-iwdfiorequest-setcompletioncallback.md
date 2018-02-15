@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 316b8b75-91ca-4866-b66d-3f66f20126df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_setcompletioncallback, IWDFIoRequest interface, SetCompletionCallback method, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, SetCompletionCallback, SetCompletionCallback method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::SetCompletionCallback, umdf.iwdfiorequest_setcompletioncallback, IWDFIoRequest::SetCompletionCallback, SetCompletionCallback method, IWDFIoRequest
+ms.keywords: wudfddi/IWDFIoRequest::SetCompletionCallback, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, SetCompletionCallback method, IWDFIoRequest interface, IWDFIoRequest interface, SetCompletionCallback method, SetCompletionCallback, SetCompletionCallback method, IWDFIoRequest, wdf.iwdfiorequest_setcompletioncallback, umdf.iwdfiorequest_setcompletioncallback, IWDFIoRequest::SetCompletionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -107,7 +107,7 @@ For a code example of how to use the <b>SetCompletionCallback</b> method, see <a
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
 
 
 
@@ -119,7 +119,7 @@ For a code example of how to use the <b>SetCompletionCallback</b> method, see <a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

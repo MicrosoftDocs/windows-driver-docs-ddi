@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fad8a205-8427-48c5-b4b5-b125aa9fe85c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdf.wdf_usb_interface_select_setting_params, DFUsbRef_a32b6d83-abf8-4cc6-9ce3-3d03551164a4.xml, *PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure pointer, kmdf.wdf_usb_interface_select_setting_params
+ms.keywords: "_WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, DFUsbRef_a32b6d83-abf8-4cc6-9ce3-3d03551164a4.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure, kmdf.wdf_usb_interface_select_setting_params, *PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdfusb/PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS, wdf.wdf_usb_interface_select_setting_params, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS, PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure pointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -156,7 +156,7 @@ To initialize a <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</b> structure, your d
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
@@ -164,7 +164,7 @@ To initialize a <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</b> structure, your d
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>
 
 
 

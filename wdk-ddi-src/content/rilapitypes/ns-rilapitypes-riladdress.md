@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d329069d-5455-4c37-b190-02a7bd1e789a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILADDRESS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILADDRESS, RILADDRESS, netvista.riladdress, *LPRILADDRESS
+ms.keywords: RILADDRESS structure [Network Drivers Starting with Windows Vista], *LPRILADDRESS, RILADDRESS, rilapitypes/RILADDRESS, netvista.riladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

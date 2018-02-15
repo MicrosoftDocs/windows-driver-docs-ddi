@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8abd72f1-0537-4624-b3d4-2de51c4d4daa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], ExFreeToNPagedLookasideList, kernel.exfreetonpagedlookasidelist, wdm/ExFreeToNPagedLookasideList
+ms.keywords: kernel.exfreetonpagedlookasidelist, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, wdm/ExFreeToNPagedLookasideList, ExFreeToNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,15 +109,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
+
+
+
 <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
 
 
 

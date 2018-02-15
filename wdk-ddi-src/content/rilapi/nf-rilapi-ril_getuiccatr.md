@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7518f018-5ece-43e6-8aad-02038c0e94fc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetUiccATR, netvista.ril_getuiccatr, RIL_GetUiccATR method [Network Drivers Starting with Windows Vista], RIL_GetUiccATR
+ms.keywords: RIL_GetUiccATR, rilapi/RIL_GetUiccATR, RIL_GetUiccATR method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccatr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.srv_open_ecp_context, ntifs/SRV_OPEN_ECP_CONTEXT, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], SRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT, ntifs/PSRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _SRV_OPEN_ECP_CONTEXT
+ms.keywords: ntifs/SRV_OPEN_ECP_CONTEXT, ntifs/PSRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, ifsk.srv_open_ecp_context, _SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], *PSRV_OPEN_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,11 +123,11 @@ The oplock state values (<b>OplockBlockState</b>, <b>OplockAppState</b>, and <b>
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7e40ddf4-0098-4ea6-ab93-17515849b6cd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration [Display Devices], display.displayid_detailed_timing_type_i_stereo_mode, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, DIDDT1_Dependent, DIDDT1_Stereo, DmEnums_011fdd6c-ba90-40f7-ad26-d1fe075d21c3.xml, d3dkmdt/DIDDT1_Dependent, d3dkmdt/DIDDT1_Stereo, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, d3dkmdt/DIDDT1_Monoscopic, DIDDT1_Monoscopic"
+ms.keywords: d3dkmdt/DIDDT1_Dependent, DIDDT1_Stereo, DIDDT1_Monoscopic, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration [Display Devices], DmEnums_011fdd6c-ba90-40f7-ad26-d1fe075d21c3.xml, d3dkmdt/DIDDT1_Monoscopic, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, DIDDT1_Dependent, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, display.displayid_detailed_timing_type_i_stereo_mode, d3dkmdt/DIDDT1_Stereo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

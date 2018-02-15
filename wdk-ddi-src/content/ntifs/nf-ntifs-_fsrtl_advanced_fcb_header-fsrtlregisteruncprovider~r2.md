@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlRegisterUncProvider routine [Installable File System Drivers], ntifs/FsRtlRegisterUncProvider, FsRtlRegisterUncProvider, ifsk.fsrtlregisteruncprovider, fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml
+ms.keywords: ifsk.fsrtlregisteruncprovider, FsRtlRegisterUncProvider routine [Installable File System Drivers], ntifs/FsRtlRegisterUncProvider, fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, FsRtlRegisterUncProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -239,7 +239,7 @@ For more information, see the following sections in the Design Guide:
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
@@ -247,7 +247,7 @@ For more information, see the following sections in the Design Guide:
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7517d3fd-723d-4fd7-b5ce-3d08443b8f59
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_DWORD, rilapitypes/RIL_RMCV_TYPE_STRING, RILRMCVTYPE, netvista.rilrmcvtype_2, rilapitypes/RILRMCVTYPE, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_STRING, rilapitypes/RIL_RMCV_TYPE_DWORD
+ms.keywords: rilapitypes/RILRMCVTYPE, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RILRMCVTYPE, netvista.rilrmcvtype_2, rilapitypes/RIL_RMCV_TYPE_STRING, RIL_RMCV_TYPE_STRING, rilapitypes/RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_DWORD, rilapitypes/RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_BOOLEAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fcb06620-8a30-4980-8733-35d7aabcc872
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_SETPOINTERSHAPE, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml, d3dkmddi/DXGKARG_SETPOINTERSHAPE, display.dxgkarg_setpointershape, DXGKARG_SETPOINTERSHAPE structure [Display Devices], _DXGKARG_SETPOINTERSHAPE
+ms.keywords: DXGKARG_SETPOINTERSHAPE, DXGKARG_SETPOINTERSHAPE structure [Display Devices], _DXGKARG_SETPOINTERSHAPE, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml, display.dxgkarg_setpointershape, d3dkmddi/DXGKARG_SETPOINTERSHAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

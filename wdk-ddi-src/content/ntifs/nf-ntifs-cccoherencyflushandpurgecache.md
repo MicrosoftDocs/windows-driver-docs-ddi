@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 61dfdd09-1e2b-4771-a2c2-62454adc7832
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ccref_79641311-568b-472c-9950-2e46472affcf.xml, CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache
+ms.keywords: CcCoherencyFlushAndPurgeCache, ntifs/CcCoherencyFlushAndPurgeCache, ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,11 +140,11 @@ An <i>IoStatus</i>-&gt;<i>Status </i>value of STATUS_CACHE_PAGE_LOCKED indicates
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 

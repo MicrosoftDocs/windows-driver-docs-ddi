@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eaa1f56a-ade6-47d7-8114-8cdb8b015e75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_vendor_specific, _NDIS_WWAN_VENDOR_SPECIFIC, WwanRef_01a97be2-1ce1-484b-b844-654b4171330f.xml, ndiswwan/PNDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC, PNDIS_WWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_VENDOR_SPECIFIC, PNDIS_WWAN_VENDOR_SPECIFIC
+ms.keywords: PNDIS_WWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_VENDOR_SPECIFIC, *PNDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_VENDOR_SPECIFIC, netvista.ndis_wwan_vendor_specific, NDIS_WWAN_VENDOR_SPECIFIC, ndiswwan/PNDIS_WWAN_VENDOR_SPECIFIC, WwanRef_01a97be2-1ce1-484b-b844-654b4171330f.xml, PNDIS_WWAN_VENDOR_SPECIFIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

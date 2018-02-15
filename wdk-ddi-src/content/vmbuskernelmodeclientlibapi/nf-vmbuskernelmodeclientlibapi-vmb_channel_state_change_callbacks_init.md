@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2255C8A2-85FB-4B96-8AE9-66FAFD73EE73
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, netvista.vmb_channel_state_change_callbacks_init, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmb_channel_state_change_callbacks_init, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

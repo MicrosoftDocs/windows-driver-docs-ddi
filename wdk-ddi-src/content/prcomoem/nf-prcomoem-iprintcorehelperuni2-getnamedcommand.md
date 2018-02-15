@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintCoreHelperUni2::GetNamedCommand, IPrintCoreHelperUni2::GetNamedCommand, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface, GetNamedCommand, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, IPrintCoreHelperUni2, print.iprintcorehelperuni2_getnamedcommand
+ms.keywords: IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, IPrintCoreHelperUni2::GetNamedCommand, IPrintCoreHelperUni2, GetNamedCommand, GetNamedCommand method [Print Devices], print.iprintcorehelperuni2_getnamedcommand, GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface, prcomoem/IPrintCoreHelperUni2::GetNamedCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

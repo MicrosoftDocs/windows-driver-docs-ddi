@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1ce7ebaa-759e-418a-af07-e530b1102567
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemuni_downloadcharglyph, DownloadCharGlyph method [Print Devices], IPrintOemUni interface, IPrintOemUni, DownloadCharGlyph, DownloadCharGlyph method [Print Devices], prcomoem/IPrintOemUni::DownloadCharGlyph, print_unidrv-pscript_rendering_da86807b-5b3c-41af-8504-337da544dd93.xml, IPrintOemUni::DownloadCharGlyph, IPrintOemUni interface [Print Devices], DownloadCharGlyph method
+ms.keywords: print_unidrv-pscript_rendering_da86807b-5b3c-41af-8504-337da544dd93.xml, IPrintOemUni, print.iprintoemuni_downloadcharglyph, DownloadCharGlyph method [Print Devices], IPrintOemUni interface [Print Devices], DownloadCharGlyph method, IPrintOemUni::DownloadCharGlyph, prcomoem/IPrintOemUni::DownloadCharGlyph, DownloadCharGlyph method [Print Devices], IPrintOemUni interface, DownloadCharGlyph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

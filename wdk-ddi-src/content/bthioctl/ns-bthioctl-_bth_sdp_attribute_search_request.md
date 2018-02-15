@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 46198c94-df83-42bb-ad3e-181f252ccd99
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request
+ms.keywords: bthioctl/PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_attribute_search_request, *PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST, bth_structs_7856642e-a720-490e-9240-d61ac6f257b4.xml, _BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], bthioctl/BTH_SDP_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_ATTRIBUTE_SEARCH_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

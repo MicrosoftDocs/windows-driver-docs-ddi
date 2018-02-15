@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1ea607e2-76a2-4f78-87ca-bf3242f39433
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging], GetExceptionFilterSecondCommand method, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, IDebugControl interface [Windows Debugging], GetExceptionFilterSecondCommand method, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, IDebugControl3, IDebugControl2 interface [Windows Debugging], GetExceptionFilterSecondCommand method, IDebugControl, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand, IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface
+ms.keywords: GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, debugger.getexceptionfiltersecondcommand, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl3, GetExceptionFilterSecondCommand, IDebugControl interface [Windows Debugging], GetExceptionFilterSecondCommand method, IDebugControl3 interface [Windows Debugging], GetExceptionFilterSecondCommand method, IDebugControl::GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface, IDebugControl2, IDebugControl, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, IDebugControl2 interface [Windows Debugging], GetExceptionFilterSecondCommand method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -133,11 +133,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
-
-
-
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 
 
 
@@ -145,15 +141,19 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_reclaimresources, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES, _D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices]
+ms.keywords: "_D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

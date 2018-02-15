@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F5520F9F-159E-42D9-A7F4-426CB935D29D
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, buses.ucm_pd_power_data_object_init_ulong, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses]
+ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses], buses.ucm_pd_power_data_object_init_ulong, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

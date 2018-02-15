@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d05b366c-0b09-4a82-8727-e5c39b82bf7f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringToAnsiString routine [Kernel-Mode Driver Architecture], kernel.rtlunicodestringtoansistring, RtlUnicodeStringToAnsiString, wdm/RtlUnicodeStringToAnsiString, k109_50e549a0-61fa-4a0f-b43f-de2f4c6dba31.xml
+ms.keywords: RtlUnicodeStringToAnsiString routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToAnsiString, k109_50e549a0-61fa-4a0f-b43f-de2f4c6dba31.xml, RtlUnicodeStringToAnsiString, kernel.rtlunicodestringtoansistring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,15 +105,15 @@ The translation is done in accord with the current system-locale information.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlfreeansistring.md">RtlFreeAnsiString</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
 
 
 

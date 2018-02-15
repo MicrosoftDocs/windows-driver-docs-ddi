@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d24577e3-3124-4ce7-a6ea-bed75ff18a1e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeWdmGetPipeHandle, WdfUsbTargetPipeWdmGetPipeHandle method, wdf.wdfusbtargetpipewdmgetpipehandle, wdfusb/WdfUsbTargetPipeWdmGetPipeHandle, PFN_WDFUSBTARGETPIPEWDMGETPIPEHANDLE, DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, kmdf.wdfusbtargetpipewdmgetpipehandle
+ms.keywords: wdfusb/WdfUsbTargetPipeWdmGetPipeHandle, DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, WdfUsbTargetPipeWdmGetPipeHandle, wdf.wdfusbtargetpipewdmgetpipehandle, kmdf.wdfusbtargetpipewdmgetpipehandle, PFN_WDFUSBTARGETPIPEWDMGETPIPEHANDLE, WdfUsbTargetPipeWdmGetPipeHandle method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,15 +121,15 @@ usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);</pre>
 
 ## -see-also
 
+<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
-
-
-
-<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

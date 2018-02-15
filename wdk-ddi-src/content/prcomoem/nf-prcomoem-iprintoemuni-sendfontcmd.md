@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b90a94d1-c6f3-483c-b5fc-edfee27094ab
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SendFontCmd method [Print Devices], IPrintOemUni interface, IPrintOemUni, print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml, IPrintOemUni interface [Print Devices], SendFontCmd method, IPrintOemUni::SendFontCmd, SendFontCmd method [Print Devices], SendFontCmd, prcomoem/IPrintOemUni::SendFontCmd, print.iprintoemuni_sendfontcmd
+ms.keywords: prcomoem/IPrintOemUni::SendFontCmd, SendFontCmd method [Print Devices], SendFontCmd method [Print Devices], IPrintOemUni interface, IPrintOemUni::SendFontCmd, IPrintOemUni, IPrintOemUni interface [Print Devices], SendFontCmd method, print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml, SendFontCmd, print.iprintoemuni_sendfontcmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -166,19 +166,11 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
-
-
-
-<a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
-
-
-
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 
@@ -187,6 +179,14 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
+
+
+
+<a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
 
 
 

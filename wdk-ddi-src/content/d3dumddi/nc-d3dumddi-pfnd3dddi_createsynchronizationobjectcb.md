@@ -177,6 +177,10 @@ The <b>pfnCreateSynchronizationObjectCb</b> function returns a kernel-mode handl
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
 
 
@@ -186,10 +190,6 @@ The <b>pfnCreateSynchronizationObjectCb</b> function returns a kernel-mode handl
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT</a>
 
 
 

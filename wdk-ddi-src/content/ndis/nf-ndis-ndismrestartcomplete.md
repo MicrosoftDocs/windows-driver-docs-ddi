@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f43137ed-2ea3-4b7c-8d61-bda76bcb5f34
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMRestartComplete function [Network Drivers Starting with Windows Vista], netvista.ndismrestartcomplete, ndis/NdisMRestartComplete, miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, NdisMRestartComplete
+ms.keywords: miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, NdisMRestartComplete function [Network Drivers Starting with Windows Vista], NdisMRestartComplete, ndis/NdisMRestartComplete, netvista.ndismrestartcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,15 +143,15 @@ A miniport driver can resume indicating received packets immediately after NDIS 
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

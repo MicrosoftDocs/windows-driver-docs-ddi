@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19096AD2-5149-4AE1-94CD-9004ED8C24DC
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], STORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], _STORAGE_TEMPERATURE_THRESHOLD, storage.storage_temperature_threshold, ntddstor/STORAGE_TEMPERATURE_THRESHOLD"
+ms.keywords: PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], storage.storage_temperature_threshold, ntddstor/STORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD, _STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,15 +122,15 @@ Reserved for future use.
 
 ## -see-also
 
+<a href="..\ntddstor\ns-ntddstor-_storage_temperature_info.md">STORAGE_TEMPERATURE_INFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
 
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
-
-
-
-<a href="..\ntddstor\ns-ntddstor-_storage_temperature_info.md">STORAGE_TEMPERATURE_INFO</a>
 
 
 

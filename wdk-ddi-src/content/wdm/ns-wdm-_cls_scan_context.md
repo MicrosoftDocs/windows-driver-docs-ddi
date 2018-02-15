@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f10abc6-1c86-4401-9af7-26d6c30f6fe8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PCLFS_SCAN_CONTEXT, kstruct_a_286b1bd0-bd24-472c-be28-406269b7a687.xml, PPCLS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], CLS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PPCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], kernel.clfs_scan_context, CLS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PCLS_SCAN_CONTEXT, wdm/PPCLS_SCAN_CONTEXT, wdm/CLFS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, wdm/PCLFS_SCAN_CONTEXT, wdm/PPCLFS_SCAN_CONTEXT, *PCLFS_SCAN_CONTEXT, wdm/PCLS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], wdm/CLS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PPCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_SCAN_CONTEXT, wdm/PPCLFS_SCAN_CONTEXT, _CLS_SCAN_CONTEXT, wdm/PPCLS_SCAN_CONTEXT, wdm/PCLFS_SCAN_CONTEXT, PPCLFS_SCAN_CONTEXT, PCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], CLFS_SCAN_CONTEXT, kernel.clfs_scan_context, CLS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PCLFS_SCAN_CONTEXT, PCLFS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wdm/PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT structure pointer [Kernel-Mode Driver Architecture], *PCLS_SCAN_CONTEXT, wdm/CLS_SCAN_CONTEXT, CLFS_SCAN_CONTEXT structure [Kernel-Mode Driver Architecture], PPCLS_SCAN_CONTEXT, kstruct_a_286b1bd0-bd24-472c-be28-406269b7a687.xml, PCLS_SCAN_CONTEXT, *PCLFS_SCAN_CONTEXT, CLS_SCAN_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,6 +102,7 @@ The number of containers actually scanned in a call to <b>ClfsScanLogContainers<
 ### -field eScanMode
 
 This member can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -147,7 +148,8 @@ The scan is closed. No containers are scanned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field pinfoContainer

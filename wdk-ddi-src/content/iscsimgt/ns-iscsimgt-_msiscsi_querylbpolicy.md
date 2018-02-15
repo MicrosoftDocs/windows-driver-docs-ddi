@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, MSiSCSI_QueryLBPolicy structure [Storage Devices], iscsimgt/PMSiSCSI_QueryLBPolicy, storage.msiscsi_querylbpolicy, MSiSCSI_QueryLBPolicy, _MSiSCSI_QueryLBPolicy, *PMSiSCSI_QueryLBPolicy, iscsimgt/MSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], PMSiSCSI_QueryLBPolicy
+ms.keywords: structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml, PMSiSCSI_QueryLBPolicy, _MSiSCSI_QueryLBPolicy, iscsimgt/PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], *PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy, iscsimgt/MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy structure [Storage Devices], storage.msiscsi_querylbpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,7 +101,7 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
@@ -109,7 +109,7 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

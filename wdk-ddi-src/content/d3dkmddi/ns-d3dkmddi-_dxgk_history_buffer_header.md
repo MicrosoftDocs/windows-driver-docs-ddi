@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_HISTORY_BUFFER_HEADER, display.dxgk_history_buffer_header, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER"
+ms.keywords: display.dxgk_history_buffer_header, DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, _DXGK_HISTORY_BUFFER_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,15 +111,15 @@ Only the time stamp portion of the history buffer, along with  the number of tim
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
 
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a3841a14-0876-47f4-a4dc-6231b76086ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_NIC_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_STATUS_INDICATION, netvista.ndis_switch_nic_status_indication, ndis/PNDIS_SWITCH_NIC_STATUS_INDICATION, NDIS_SWITCH_NIC_STATUS_INDICATION, _NDIS_SWITCH_NIC_STATUS_INDICATION, ndis/NDIS_SWITCH_NIC_STATUS_INDICATION, *PNDIS_SWITCH_NIC_STATUS_INDICATION, NDIS_SWITCH_NIC_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_SWITCH_NIC_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_SWITCH_NIC_STATUS_INDICATION, NDIS_SWITCH_NIC_STATUS_INDICATION, _NDIS_SWITCH_NIC_STATUS_INDICATION, netvista.ndis_switch_nic_status_indication, *PNDIS_SWITCH_NIC_STATUS_INDICATION, ndis/PNDIS_SWITCH_NIC_STATUS_INDICATION, PNDIS_SWITCH_NIC_STATUS_INDICATION, NDIS_SWITCH_NIC_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -161,15 +161,15 @@ For guidelines on how to issue NDIS status indications from underlying physical 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_switch_nic_status_indication.md">NDIS_SWITCH_NIC_STATUS_INDICATION</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 
 

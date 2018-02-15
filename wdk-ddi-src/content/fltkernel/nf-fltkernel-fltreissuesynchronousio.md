@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5feba526-17f3-4969-9199-93cb2a36e937
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltReissueSynchronousIo, ifsk.fltreissuesynchronousio, FltReissueSynchronousIo function [Installable File System Drivers], FltReissueSynchronousIo, FltApiRef_p_to_z_c86041cf-780e-4754-b580-6665573bdb88.xml
+ms.keywords: FltReissueSynchronousIo, FltReissueSynchronousIo function [Installable File System Drivers], fltkernel/FltReissueSynchronousIo, ifsk.fltreissuesynchronousio, FltApiRef_p_to_z_c86041cf-780e-4754-b580-6665573bdb88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,15 +128,15 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 ## -see-also
 
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltisoperationsynchronous.md">FltIsOperationSynchronous</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
 
 
 
@@ -144,15 +144,15 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544660">FLT_IS_REISSUED_IO</a>
 
 
 
@@ -164,19 +164,7 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544660">FLT_IS_REISSUED_IO</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
 
 
@@ -184,7 +172,19 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 

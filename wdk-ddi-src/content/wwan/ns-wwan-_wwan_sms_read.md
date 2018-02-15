@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 920ca041-7fc8-4c6b-bc1a-7bf41dffcf7b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_sms_read, WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SMS_READ, WwanRef_8b221a53-0311-4ed7-a98b-e8677cb40051.xml, wwan/WWAN_SMS_READ, PWWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], PWWAN_SMS_READ, _WWAN_SMS_READ, *PWWAN_SMS_READ, WWAN_SMS_READ
+ms.keywords: WWAN_SMS_READ, wwan/WWAN_SMS_READ, wwan/PWWAN_SMS_READ, WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], netvista.wwan_sms_read, PWWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], PWWAN_SMS_READ, *PWWAN_SMS_READ, WwanRef_8b221a53-0311-4ed7-a98b-e8677cb40051.xml, _WWAN_SMS_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,15 +92,15 @@ Represents the filter upon which the miniport driver should retrieve the message
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_read.md">NDIS_WWAN_SMS_READ</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_sms_format.md">WWAN_SMS_FORMAT</a>
 
 
 
 <a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_read.md">NDIS_WWAN_SMS_READ</a>
 
 
 

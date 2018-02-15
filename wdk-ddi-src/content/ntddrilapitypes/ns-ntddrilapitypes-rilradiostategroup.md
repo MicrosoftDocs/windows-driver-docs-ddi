@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e3ad8454-0e23-48fd-a6ef-c9257dc4816d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroup, ntddrilapitypes/RILRADIOSTATEGROUP, *LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP
+ms.keywords: netvista.rilradiostategroup, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRADIOSTATEGROUP, *LPRILRADIOSTATEGROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

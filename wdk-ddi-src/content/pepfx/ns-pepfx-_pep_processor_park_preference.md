@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AADA3F1E-DEE8-42E3-B0B8-9EA276F46F86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_processor_park_preference, pepfx/PPEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], *PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture], PEP_PROCESSOR_PARK_PREFERENCE, pepfx/PEP_PROCESSOR_PARK_PREFERENCE, _PEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE
+ms.keywords: pepfx/PPEP_PROCESSOR_PARK_PREFERENCE, *PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_PARK_PREFERENCE, _PEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE, pepfx/PEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_processor_park_preference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

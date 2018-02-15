@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 652315db-0cdc-4c32-8fa0-3a538c917497
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], RILSMSACKOPT, ntddrilapitypes/RIL_SMSACKOPT_IMS, RIL_SMSACKOPT_IMS, ntddrilapitypes/RILSMSACKOPT, netvista.rilsmsackopt
+ms.keywords: RILSMSACKOPT, RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSACKOPT_IMS, ntddrilapitypes/RIL_SMSACKOPT_IMS, netvista.rilsmsackopt, ntddrilapitypes/RILSMSACKOPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4d802c1-66e9-4342-ba7d-d9e5a464362e
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlupcaseunicodetooemn, rtlref_b1fcf08b-c13f-4b60-a570-f4bffe730ba4.xml, RtlUpcaseUnicodeToOemN, RtlUpcaseUnicodeToOemN routine [Installable File System Drivers], ntifs/RtlUpcaseUnicodeToOemN
+ms.keywords: RtlUpcaseUnicodeToOemN routine [Installable File System Drivers], rtlref_b1fcf08b-c13f-4b60-a570-f4bffe730ba4.xml, ifsk.rtlupcaseunicodetooemn, RtlUpcaseUnicodeToOemN, ntifs/RtlUpcaseUnicodeToOemN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,7 +122,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
+<a href="..\ntifs\nf-ntifs-rtlunicodetooemn.md">RtlUnicodeToOemN</a>
 
 
 
@@ -134,7 +134,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodetooemn.md">RtlUnicodeToOemN</a>
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
 
 
 

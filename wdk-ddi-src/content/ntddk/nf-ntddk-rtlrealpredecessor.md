@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8cb981a4-7dea-4d42-bbde-35cf5494494b
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlrealpredecessor, RtlRealPredecessor, ntddk/RtlRealPredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml, RtlRealPredecessor routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlrealpredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml, RtlRealPredecessor routine [Installable File System Drivers], ntddk/RtlRealPredecessor, RtlRealPredecessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 73856669-ACE9-46B0-AC7A-282D9C8A0285
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_CONTROLLER_CONFIG structure [Buses], PSPB_CONTROLLER_CONFIG structure pointer [Buses], spbcx/SPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG, SPB.spb_controller_config, SPB_CONTROLLER_CONFIG, _SPB_CONTROLLER_CONFIG, spbcx/PSPB_CONTROLLER_CONFIG
+ms.keywords: "_SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG structure [Buses], PSPB_CONTROLLER_CONFIG structure pointer [Buses], SPB.spb_controller_config, spbcx/SPB_CONTROLLER_CONFIG, spbcx/PSPB_CONTROLLER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -142,11 +142,23 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+
+
+
+<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
 
 
 
@@ -154,7 +166,19 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
 
 
 
@@ -166,7 +190,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
 
 
 
@@ -174,35 +198,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
+<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
 
 
 
 <a href="https://msdn.microsoft.com/cbc5b959-0aae-4c86-b490-296965a7f158">IRP_MN_READ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
-
-
-
-<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
-
-
-
-<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
 
 
 

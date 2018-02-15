@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2ec9222b-d9e7-4386-ac66-30c5436f549d
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, FreeBufferWithNotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, audio.iminiportwavertstreamnotification_freebufferwithnotification, FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method
+ms.keywords: audio.iminiportwavertstreamnotification_freebufferwithnotification, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, FreeBufferWithNotification method [Audio Devices], audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, FreeBufferWithNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, IMiniportWaveRTStreamNotification, FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,11 +105,11 @@ The port driver calls this method to free an audio buffer that was allocated wit
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 

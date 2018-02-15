@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 85257190-2b39-487d-ada6-4c8cd0b1450f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExtensionByPathWide method [Windows Debugging], GetExtensionByPathWide, dbgeng/IDebugControl4::GetExtensionByPathWide, IDebugControl4::GetExtensionByPathWide, IDebugControl4, debugger.getextensionbypathwide, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: dbgeng/IDebugControl4::GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, IDebugControl4::GetExtensionByPathWide, GetExtensionByPathWide, debugger.getextensionbypathwide, IDebugControl4, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,11 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

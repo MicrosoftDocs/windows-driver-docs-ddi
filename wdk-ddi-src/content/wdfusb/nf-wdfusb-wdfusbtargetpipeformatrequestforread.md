@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead, kmdf.wdfusbtargetpipeformatrequestforread, WdfUsbTargetPipeFormatRequestForRead method, WdfUsbTargetPipeFormatRequestForRead, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORREAD, DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml
+ms.keywords: PFN_WDFUSBTARGETPIPEFORMATREQUESTFORREAD, DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, wdf.wdfusbtargetpipeformatrequestforread, WdfUsbTargetPipeFormatRequestForRead method, WdfUsbTargetPipeFormatRequestForRead, kmdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -331,6 +331,10 @@ Exit:
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetstatus.md">WdfRequestGetStatus</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
 
 
@@ -339,11 +343,7 @@ Exit:
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetstatus.md">WdfRequestGetStatus</a>
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 
 
@@ -351,7 +351,7 @@ Exit:
 
 
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

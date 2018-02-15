@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d901e763-5e1c-443d-ba9c-9d1e4413bd47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanEmergencyModeMax, WWAN_EMERGENCY_MODE, WwanEmergencyModeOn, wwan/WwanEmergencyModeMax, _WWAN_EMERGENCY_MODE, netvista.wwan_emergency_mode, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanEmergencyModeOn, PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_EMERGENCY_MODE, WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, wwan/PWWAN_EMERGENCY_MODE, WwanEmergencyModeOff, wwan/WwanEmergencyModeOff, *PWWAN_EMERGENCY_MODE, wwan/WWAN_EMERGENCY_MODE
+ms.keywords: PWWAN_EMERGENCY_MODE, _WWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeMax, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeOn, wwan/WwanEmergencyModeOff, WWAN_EMERGENCY_MODE, WwanEmergencyModeOn, PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_EMERGENCY_MODE, wwan/PWWAN_EMERGENCY_MODE, WwanEmergencyModeOff, WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, WwanEmergencyModeMax, netvista.wwan_emergency_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

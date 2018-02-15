@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 456712c9-720c-436c-b1db-a6d53c358e22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB, 1394/PIRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IRB structure [Buses], PIRB structure pointer [Buses], IEEE.irb, PIRB, _IRB, 1394/IRB, *PIRB
+ms.keywords: IRB structure [Buses], _IRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IRB, *PIRB, PIRB, PIRB structure pointer [Buses], 1394/IRB, IEEE.irb, 1394/PIRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

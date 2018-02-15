@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiadevd/LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], image.devicedialogdata2, DEVICEDIALOGDATA2, PDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
+ms.keywords: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], LPDEVICEDIALOGDATA2, UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], tagDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, image.devicedialogdata2, wiadevd/DEVICEDIALOGDATA2, DEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -138,18 +138,6 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
 
 
@@ -162,6 +150,18 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
 
 
@@ -170,15 +170,15 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
 
 
 

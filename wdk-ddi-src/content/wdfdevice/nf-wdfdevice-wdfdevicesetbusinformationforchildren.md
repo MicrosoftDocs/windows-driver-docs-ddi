@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ecfce692-7dac-4f55-8a8a-1f51c27cce41
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_76b69a67-0e1e-41d6-be98-3d5f76433d97.xml, WdfDeviceSetBusInformationForChildren, wdf.wdfdevicesetbusinformationforchildren, kmdf.wdfdevicesetbusinformationforchildren, WdfDeviceSetBusInformationForChildren method, PFN_WDFDEVICESETBUSINFORMATIONFORCHILDREN, wdfdevice/WdfDeviceSetBusInformationForChildren
+ms.keywords: kmdf.wdfdevicesetbusinformationforchildren, WdfDeviceSetBusInformationForChildren, WdfDeviceSetBusInformationForChildren method, DFDeviceObjectGeneralRef_76b69a67-0e1e-41d6-be98-3d5f76433d97.xml, wdf.wdfdevicesetbusinformationforchildren, PFN_WDFDEVICESETBUSINFORMATIONFORCHILDREN, wdfdevice/WdfDeviceSetBusInformationForChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

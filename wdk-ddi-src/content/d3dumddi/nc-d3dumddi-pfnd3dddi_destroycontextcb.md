@@ -163,11 +163,11 @@ The following code example shows how to destroy the default context for a displa
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroycontext.md">D3DDDICB_DESTROYCONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroycontext.md">D3DDDICB_DESTROYCONTEXT</a>
 
 
 

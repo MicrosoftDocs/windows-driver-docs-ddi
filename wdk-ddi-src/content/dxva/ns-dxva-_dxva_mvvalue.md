@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33b68e74-64ca-49e0-b469-96d430c2a5c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_mvvalue, DXVA_MVvalue structure [Display Devices], dxva/DXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], dxva/LPDXVA_MVvalue, DXVA_MVvalue, dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml, LPDXVA_MVvalue, *LPDXVA_MVvalue, _DXVA_MVvalue
+ms.keywords: display.dxva_mvvalue, LPDXVA_MVvalue, _DXVA_MVvalue, DXVA_MVvalue, dxva/DXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], *LPDXVA_MVvalue, dxva/LPDXVA_MVvalue, DXVA_MVvalue structure [Display Devices], dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ The DXVA_MVvalue structure is used in the <a href="..\dxva\ns-dxva-_dxva_mbctrl_
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 
 

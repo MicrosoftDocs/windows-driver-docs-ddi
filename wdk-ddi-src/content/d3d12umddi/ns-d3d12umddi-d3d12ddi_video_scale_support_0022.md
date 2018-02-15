@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70FFDE9E-2029-4C84-9DEE-C2E81FEE5590
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_video_scale_support, d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0022, D3D12DDI_VIDEO_SCALE_SUPPORT_0022, D3D12DDI_VIDEO_SCALE_SUPPORT_0022 structure [Display Devices]
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0022, D3D12DDI_VIDEO_SCALE_SUPPORT_0022 structure [Display Devices], display.d3d12ddi_video_scale_support, D3D12DDI_VIDEO_SCALE_SUPPORT_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,12 +97,14 @@ The smallest output height that can be scaled to.  The smallest allowed value is
 
 
 
+
 #### - ScaleSupportFlags
 
 Flags that indicated level of scale support. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_scale_support_flags_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS</a> enumeration. 
 
 
 ## -remarks
+
 
 
 By default, supported indicates that all possible output size combinations that exist between the maximum  size and minimum size for the extent, inclusive, are supported.  The values in the <i>ScaleSupportFlags</i> value may add additional restrictions.
@@ -113,9 +115,12 @@ When scaling is not supported, the maximum and maximum sizes should both be set 
 
 
 
+
 ## -see-also
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_scale_support_flags_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS</a>
+
+
 
  
 

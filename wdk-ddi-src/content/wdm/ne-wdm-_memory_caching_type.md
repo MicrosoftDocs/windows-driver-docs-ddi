@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmCached, wdm/MmNonCached, MmNonCached, wdm/MmUSWCCached, wdm/MmMaximumCacheType, wdm/MEMORY_CACHING_TYPE, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MmCached, MmHardwareCoherentCached, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/MmHardwareCoherentCached, MmUSWCCached, wdm/MmNonCachedUnordered, _MEMORY_CACHING_TYPE, MmWriteCombined, MmNonCachedUnordered, wdm/MmWriteCombined, MmMaximumCacheType, MEMORY_CACHING_TYPE, kernel.memory_caching_type
+ms.keywords: MmHardwareCoherentCached, wdm/MmNonCached, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, MmCached, wdm/MmNonCachedUnordered, wdm/MmUSWCCached, MmUSWCCached, MEMORY_CACHING_TYPE, MmWriteCombined, MmMaximumCacheType, _MEMORY_CACHING_TYPE, wdm/MmCached, kernel.memory_caching_type, wdm/MmWriteCombined, MmNonCached, MmNonCachedUnordered, wdm/MEMORY_CACHING_TYPE, wdm/MmHardwareCoherentCached, wdm/MmMaximumCacheType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -129,7 +129,7 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
 
 
@@ -137,11 +137,11 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
 
 
 

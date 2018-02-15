@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPropertySet::QuerySupported, stream.ikspropertyset_querysupported, ksproxy/IKsPropertySet::QuerySupported, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices], IKsPropertySet interface, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, IKsPropertySet, QuerySupported
+ms.keywords: IKsPropertySet, QuerySupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, QuerySupported method [Streaming Media Devices], IKsPropertySet interface, IKsPropertySet::QuerySupported, QuerySupported method [Streaming Media Devices], ksproxy/IKsPropertySet::QuerySupported, stream.ikspropertyset_querysupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -183,11 +183,11 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
 
 
 

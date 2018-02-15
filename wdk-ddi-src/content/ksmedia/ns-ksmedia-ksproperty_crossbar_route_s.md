@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0db68fcd-8661-41d2-ac95-e9b6033e6aa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_crossbar_route_s, ksmedia/PKSPROPERTY_CROSSBAR_ROUTE_S, vidcapstruct_a1d08316-6a91-4f40-93d2-b371c6e35eff.xml, PKSPROPERTY_CROSSBAR_ROUTE_S structure pointer [Streaming Media Devices], KSPROPERTY_CROSSBAR_ROUTE_S structure [Streaming Media Devices], *PKSPROPERTY_CROSSBAR_ROUTE_S, ksmedia/KSPROPERTY_CROSSBAR_ROUTE_S, PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S
+ms.keywords: PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S structure [Streaming Media Devices], vidcapstruct_a1d08316-6a91-4f40-93d2-b371c6e35eff.xml, *PKSPROPERTY_CROSSBAR_ROUTE_S, ksmedia/KSPROPERTY_CROSSBAR_ROUTE_S, stream.ksproperty_crossbar_route_s, PKSPROPERTY_CROSSBAR_ROUTE_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ If the value of <b>IndexInputPin</b> is (-1) on an audio output pin, then the au
 
 
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

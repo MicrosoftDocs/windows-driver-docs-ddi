@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae95a22d-7b5b-4854-b2f5-76b46cf268f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnQueryRemove, wudfddi/IPnpCallback::OnQueryRemove, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, wdf.ipnpcallback_onqueryremove, IPnpCallback interface, OnQueryRemove method, OnQueryRemove method, umdf.ipnpcallback_onqueryremove, OnQueryRemove method, IPnpCallback interface, IPnpCallback, IPnpCallback::OnQueryRemove
+ms.keywords: IPnpCallback, IPnpCallback::OnQueryRemove, OnQueryRemove method, umdf.ipnpcallback_onqueryremove, OnQueryRemove method, IPnpCallback interface, OnQueryRemove, UMDFDeviceObjectRef_27404593-38b6-46cc-8dcc-809d159822b6.xml, wudfddi/IPnpCallback::OnQueryRemove, IPnpCallback interface, OnQueryRemove method, wdf.ipnpcallback_onqueryremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,7 +101,7 @@ For more information about the <b>OnQueryRemove</b> callback method, see <a href
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
 
 
@@ -109,7 +109,7 @@ For more information about the <b>OnQueryRemove</b> callback method, see <a href
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

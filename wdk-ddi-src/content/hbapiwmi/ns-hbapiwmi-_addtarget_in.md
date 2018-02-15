@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7c6a7ca8-83aa-41fe-92f5-6598464d9803
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PAddTarget_IN, AddTarget_IN structure [Storage Devices], hbapiwmi/AddTarget_IN, storage.addtarget_in, PAddTarget_IN structure pointer [Storage Devices], _AddTarget_IN, *PAddTarget_IN, AddTarget_IN, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml, PAddTarget_IN
+ms.keywords: hbapiwmi/PAddTarget_IN, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml, PAddTarget_IN structure pointer [Storage Devices], AddTarget_IN, PAddTarget_IN, _AddTarget_IN, *PAddTarget_IN, AddTarget_IN structure [Storage Devices], hbapiwmi/AddTarget_IN, storage.addtarget_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

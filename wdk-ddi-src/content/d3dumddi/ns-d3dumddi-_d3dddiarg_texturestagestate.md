@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4810ec13-ec58-4ed6-ae4f-6690bd72cd8a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices], D3DDDIARG_TEXTURESTAGESTATE, display.d3dddiarg_texturestagestate, UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml, _D3DDDIARG_TEXTURESTAGESTATE, d3dumddi/D3DDDIARG_TEXTURESTAGESTATE
+ms.keywords: UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml, _D3DDDIARG_TEXTURESTAGESTATE, D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices], D3DDDIARG_TEXTURESTAGESTATE, d3dumddi/D3DDDIARG_TEXTURESTAGESTATE, display.d3dddiarg_texturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

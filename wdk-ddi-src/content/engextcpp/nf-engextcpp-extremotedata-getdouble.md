@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f8645e92-659f-42b8-a850-49a434ec2a67
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDouble method [Windows Debugging], ExtRemoteData class, ExtRemoteData, debugger.extremotedata_getdouble, GetDouble method [Windows Debugging], ExtRemoteData::GetDouble, GetDouble, ExtRemoteData class [Windows Debugging], GetDouble method, EngExtCpp_Ref_8776e6fd-9e13-4502-a445-da65a8fcfe41.xml
+ms.keywords: ExtRemoteData class [Windows Debugging], GetDouble method, EngExtCpp_Ref_8776e6fd-9e13-4502-a445-da65a8fcfe41.xml, GetDouble method [Windows Debugging], ExtRemoteData, GetDouble, debugger.extremotedata_getdouble, ExtRemoteData::GetDouble, GetDouble method [Windows Debugging], ExtRemoteData class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,15 +87,15 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544028">ExtRemoteData::GetFloat</a>
+
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544028">ExtRemoteData::GetFloat</a>
 
 
 

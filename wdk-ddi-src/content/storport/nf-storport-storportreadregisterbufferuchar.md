@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], StorPortReadRegisterBufferUchar, storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, storage.storportreadregisterbufferuchar
+ms.keywords: storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, StorPortReadRegisterBufferUchar, storport/StorPortReadRegisterBufferUchar, storage.storportreadregisterbufferuchar, StorPortReadRegisterBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
-
-Pointer to the register where the data is to be read. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
@@ -114,6 +104,16 @@ Pointer to the buffer that receives the data that is read.
 #### - Count [in]
 
 Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR). 
+
+
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Register [in]
+
+Pointer to the register where the data is to be read. 
 
 
 ## -remarks
@@ -127,11 +127,11 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferuchar
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
-
-
-
 <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
 
 
 

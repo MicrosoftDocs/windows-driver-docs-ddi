@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 16c62146-ed8d-4bf7-9d5e-0c5dbbf3c9c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismmapiospace, miniport_memory_mapped_ref_b346fbc3-62d5-447e-82af-329afbafdb73.xml, NdisMMapIoSpace, NdisMMapIoSpace function [Network Drivers Starting with Windows Vista], ndis/NdisMMapIoSpace
+ms.keywords: NdisMMapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b346fbc3-62d5-447e-82af-329afbafdb73.xml, NdisMMapIoSpace, netvista.ndismmapiospace, ndis/NdisMMapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,7 +194,11 @@ A miniport driver must call the reciprocal
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
+<a href="..\ndis\nf-ndis-ndismunmapiospace.md">NdisMUnmapIoSpace</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
 
 
 
@@ -206,11 +210,7 @@ A miniport driver must call the reciprocal
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
 
 
 
@@ -218,15 +218,7 @@ A miniport driver must call the reciprocal
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismunmapiospace.md">NdisMUnmapIoSpace</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+<a href="..\ndis\nf-ndis-ndiswriteregisterushort.md">NdisWriteRegisterUshort</a>
 
 
 
@@ -234,7 +226,15 @@ A miniport driver must call the reciprocal
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteregisterushort.md">NdisWriteRegisterUshort</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 
 

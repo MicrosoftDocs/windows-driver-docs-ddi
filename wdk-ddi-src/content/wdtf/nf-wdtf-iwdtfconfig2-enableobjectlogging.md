@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 7518aab0-8de5-4f45-b7d9-3cffdc07ea90
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFCONFIG2::EnableObjectLogging, EnableObjectLogging, wdtf/IWDTFCONFIG2::EnableObjectLogging, IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectLogging method, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectLogging, IWDTFCONFIG2, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectLogging, dtf.iwdtfconfig2_enableobjectlogging, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface
+ms.keywords: IWDTFCONFIG2::EnableObjectLogging, EnableObjectLogging, IWDTFCONFIG2, wdtf/IWDTFCONFIG2::EnableObjectLogging, EnableObjectLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, dtf.iwdtfconfig2_enableobjectlogging, EnableObjectLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface [Windows Device Testing Framework], EnableObjectLogging method, Microsoft.WDTF.IWDTFCONFIG2.EnableObjectLogging, Microsoft::WDTF::IWDTFCONFIG2::EnableObjectLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

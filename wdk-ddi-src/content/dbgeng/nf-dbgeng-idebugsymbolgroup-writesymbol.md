@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c0c23778-767a-4304-9ecf-c76337261e27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup2::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup::WriteSymbol, IDebugSymbolGroup, WriteSymbol, dbgeng/IDebugSymbolGroup::WriteSymbol, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, debugger.writesymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup2::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method
+ms.keywords: dbgeng/IDebugSymbolGroup::WriteSymbol, WriteSymbol, WriteSymbol method [Windows Debugging], WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, debugger.writesymbol, IDebugSymbolGroup::WriteSymbol, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup, IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, dbgeng/IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,11 +120,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
@@ -132,7 +128,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 

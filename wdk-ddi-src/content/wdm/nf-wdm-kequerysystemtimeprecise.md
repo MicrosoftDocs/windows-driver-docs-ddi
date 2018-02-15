@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise, KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeQuerySystemTimePrecise, kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,11 @@ Call the <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-
-
-
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 
@@ -118,7 +114,11 @@ Call the <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a
 
 
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
 
 
 

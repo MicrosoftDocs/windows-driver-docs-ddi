@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC7914B6-DCE1-45D1-84D3-5FF1449AD565
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "_DEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO, dbgeng/DEBUG_CACHED_SYMBOL_INFO, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info"
+ms.keywords: dbgeng/DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO, _DEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], *PDEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

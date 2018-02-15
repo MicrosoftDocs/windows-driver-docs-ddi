@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4e407266-4789-4de7-bcc8-7e9bb54804ed
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPartBase::SetPartCompression, SetPartCompression method [Print Devices], IPartBase interface, print.ipartbase_setpartcompression, IPartBase, filterpipeline/IPartBase::SetPartCompression, IPartBase interface [Print Devices], SetPartCompression method, SetPartCompression method [Print Devices], SetPartCompression, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml
+ms.keywords: IPartBase, IPartBase interface [Print Devices], SetPartCompression method, SetPartCompression method [Print Devices], IPartBase interface, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml, SetPartCompression method [Print Devices], filterpipeline/IPartBase::SetPartCompression, SetPartCompression, print.ipartbase_setpartcompression, IPartBase::SetPartCompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

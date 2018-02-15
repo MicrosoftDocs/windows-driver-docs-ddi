@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d8c4d1d7-3510-48c4-b1a6-062157f4632e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExIsProcessorFeaturePresent, k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml, ExIsProcessorFeaturePresent, kernel.exisprocessorfeaturepresent, ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture]
+ms.keywords: ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture], wdm/ExIsProcessorFeaturePresent, kernel.exisprocessorfeaturepresent, ExIsProcessorFeaturePresent, k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

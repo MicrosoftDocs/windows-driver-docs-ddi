@@ -137,7 +137,7 @@ If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operati
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
 
 
@@ -145,7 +145,7 @@ If the Miracast user-mode driver calls <b>MiracastIoControl</b> when the operati
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
 
 

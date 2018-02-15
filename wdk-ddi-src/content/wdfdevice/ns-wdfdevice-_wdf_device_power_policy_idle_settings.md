@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8d5acd3a-3ec3-4190-98d4-e7ce9ea8d3e8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, DFDeviceObjectGeneralRef_82f4a32c-ff51-4b0f-a67a-c45b4777ce23.xml, kmdf.wdf_device_power_policy_idle_settings, wdfdevice/PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, wdf.wdf_device_power_policy_idle_settings, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, _WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
+ms.keywords: WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, kmdf.wdf_device_power_policy_idle_settings, *PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wdf.wdf_device_power_policy_idle_settings, _WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, DFDeviceObjectGeneralRef_82f4a32c-ff51-4b0f-a67a-c45b4777ce23.xml, wdfdevice/PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

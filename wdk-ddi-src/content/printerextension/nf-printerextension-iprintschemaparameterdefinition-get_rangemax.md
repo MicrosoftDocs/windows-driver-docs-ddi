@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 516FADF0-3786-4C41-B38D-4A742AD68719
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaParameterDefinition::get_RangeMax, RangeMax property [Print Devices], printerextension/IPrintSchemaParameterDefinition::get_RangeMax, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition.RangeMax, printerextension/IPrintSchemaParameterDefinition::RangeMax, RangeMax property [Print Devices], IPrintSchemaParameterDefinition interface, print._iprintschemaparameterdefinition_rangemax, IPrintSchemaParameterDefinition interface [Print Devices], RangeMax property, get_RangeMax
+ms.keywords: get_RangeMax, printerextension/IPrintSchemaParameterDefinition::RangeMax, print._iprintschemaparameterdefinition_rangemax, RangeMax property [Print Devices], IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition::get_RangeMax, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], RangeMax property, IPrintSchemaParameterDefinition.RangeMax, printerextension/IPrintSchemaParameterDefinition::get_RangeMax, RangeMax property [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

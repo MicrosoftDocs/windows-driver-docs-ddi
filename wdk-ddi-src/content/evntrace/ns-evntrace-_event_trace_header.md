@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: faddcf82-1025-458f-ab33-c96cd5699ca5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], *PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER, PEVENT_TRACE_HEADER, _EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER, evntrace/EVENT_TRACE_HEADER, kernel.event_trace_header, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml
+ms.keywords: evntrace/PEVENT_TRACE_HEADER, _EVENT_TRACE_HEADER, kernel.event_trace_header, evntrace/EVENT_TRACE_HEADER, PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [Kernel-Mode Driver Architecture], kstruct_a_9a7cc863-6913-427c-8756-4c62c20f5b60.xml, *PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [Kernel-Mode Driver Architecture], EVENT_TRACE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -246,15 +246,15 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
 ## -see-also
 
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+
+
+
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
 
 <a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cbb027f2-be7d-4de4-abbe-a37b7430153f
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlinsertasleftchild, RtlInsertAsLeftChild, ntddk/RtlInsertAsLeftChild, RtlInsertAsLeftChild routine [Installable File System Drivers], rtlref_228b3b79-ee0c-4361-ac36-223991ed3615.xml
+ms.keywords: RtlInsertAsLeftChild, ifsk.rtlinsertasleftchild, ntddk/RtlInsertAsLeftChild, rtlref_228b3b79-ee0c-4361-ac36-223991ed3615.xml, RtlInsertAsLeftChild routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,7 @@ Callers of <b>RtlInsertAsLeftChild</b> must be running at IRQL &lt;= DISPATCH_LE
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
@@ -128,15 +124,19 @@ Callers of <b>RtlInsertAsLeftChild</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
 
 
 

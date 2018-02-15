@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30600e86-dd35-4498-91a8-14a722b2e868
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MPIO_CONTROLLER_INFO, *PMPIO_CONTROLLER_INFO, storage.mpio_controller_info, MPIO_CONTROLLER_INFO, PMPIO_CONTROLLER_INFO, structs-scsibus_6b7edecb-9938-49fb-8367-5d176f83c0a5.xml, mpiowmi/PMPIO_CONTROLLER_INFO, PMPIO_CONTROLLER_INFO structure pointer [Storage Devices], MPIO_CONTROLLER_INFO structure [Storage Devices], mpiowmi/MPIO_CONTROLLER_INFO"
+ms.keywords: "_MPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO structure [Storage Devices], *PMPIO_CONTROLLER_INFO, structs-scsibus_6b7edecb-9938-49fb-8367-5d176f83c0a5.xml, mpiowmi/MPIO_CONTROLLER_INFO, PMPIO_CONTROLLER_INFO, storage.mpio_controller_info, MPIO_CONTROLLER_INFO, mpiowmi/PMPIO_CONTROLLER_INFO, PMPIO_CONTROLLER_INFO structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

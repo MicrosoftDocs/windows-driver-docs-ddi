@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 248C5386-B835-4806-8DD8-39327EDADA0C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_device_service_session_read, _WWAN_DEVICE_SERVICE_SESSION_READ, wwan/PWWAN_DEVICE_SERVICE_SESSION_READ, PWWAN_DEVICE_SERVICE_SESSION_READ structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION_READ structure [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_READ, WWAN_DEVICE_SERVICE_SESSION_READ, *PWWAN_DEVICE_SERVICE_SESSION_READ, PWWAN_DEVICE_SERVICE_SESSION_READ
+ms.keywords: WWAN_DEVICE_SERVICE_SESSION_READ structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_DEVICE_SERVICE_SESSION_READ, PWWAN_DEVICE_SERVICE_SESSION_READ structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_SESSION_READ, netvista.wwan_device_service_session_read, WWAN_DEVICE_SERVICE_SESSION_READ, PWWAN_DEVICE_SERVICE_SESSION_READ, _WWAN_DEVICE_SERVICE_SESSION_READ, *PWWAN_DEVICE_SERVICE_SESSION_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

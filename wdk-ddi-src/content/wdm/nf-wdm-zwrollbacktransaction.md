@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 865349bd-400d-4acf-a2f7-33da128702be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwRollbackTransaction, wdm/NtRollbackTransaction, ZwRollbackTransaction routine [Kernel-Mode Driver Architecture], ktm_ref_c29e1cd7-ffe0-4dab-be7f-a50a1d430ae3.xml, kernel.zwrollbacktransaction, ZwRollbackTransaction, NtRollbackTransaction
+ms.keywords: ktm_ref_c29e1cd7-ffe0-4dab-be7f-a50a1d430ae3.xml, wdm/NtRollbackTransaction, ZwRollbackTransaction routine [Kernel-Mode Driver Architecture], NtRollbackTransaction, ZwRollbackTransaction, wdm/ZwRollbackTransaction, kernel.zwrollbacktransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,11 +180,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
 
 
 
@@ -196,7 +192,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

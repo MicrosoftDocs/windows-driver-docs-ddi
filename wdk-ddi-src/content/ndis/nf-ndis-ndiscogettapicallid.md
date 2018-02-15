@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3cb47545-177f-46ef-aff6-33ad8c9a6974
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], NdisCoGetTapiCallId, ndis/NdisCoGetTapiCallId, netvista.ndiscogettapicallid, condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml
+ms.keywords: NdisCoGetTapiCallId function [Network Drivers Starting with Windows Vista], NdisCoGetTapiCallId, ndis/NdisCoGetTapiCallId, condis_protocol_ref_97e82564-7f8b-42ba-9eda-75842f326c52.xml, netvista.ndiscogettapicallid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

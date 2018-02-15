@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 2c82db4c-70b1-4601-a0b0-23b1f53e3503
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: sddef/SD_COMMAND_CLASS, sddef/SDCC_STANDARD, sddef/SDCC_APP_CMD, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, SD.sd_command_class, SD_COMMAND_CLASS, SD_COMMAND_CLASS enumeration [Buses], SDCC_APP_CMD, SDCC_STANDARD
+ms.keywords: sddef/SDCC_APP_CMD, SDCC_APP_CMD, sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, sddef/SDCC_STANDARD, SD_COMMAND_CLASS enumeration [Buses], SDCC_STANDARD, sddef/SD_COMMAND_CLASS, SD_COMMAND_CLASS, SD.sd_command_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

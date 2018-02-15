@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 61cee8ef-1070-46d4-a541-94a9f09b593b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml, netvista.fwpsinjectionhandlecreate0, FwpsInjectionHandleCreate0, fwpsk/FwpsInjectionHandleCreate0
+ms.keywords: FwpsInjectionHandleCreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml, netvista.fwpsinjectionhandlecreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleCreate0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -239,8 +239,7 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
-   FwpsQueryPacketInjectionState0</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
 
 
 
@@ -248,7 +247,8 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
+   FwpsQueryPacketInjectionState0</a>
 
 
 

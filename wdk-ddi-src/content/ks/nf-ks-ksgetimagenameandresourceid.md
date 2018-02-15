@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e73c885c-94e2-42cf-ace6-1b7b62aa33f5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgetimagenameandresourceid, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices], ks/KsGetImageNameAndResourceId
+ms.keywords: stream.ksgetimagenameandresourceid, ks/KsGetImageNameAndResourceId, KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices], ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

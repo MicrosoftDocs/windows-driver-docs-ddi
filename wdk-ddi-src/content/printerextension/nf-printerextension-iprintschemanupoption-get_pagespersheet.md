@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 036F59B3-962D-446C-A736-CDA1D5199CF5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, IPrintSchemaNUpOption, PagesPerSheet property [Print Devices], IPrintSchemaNUpOption interface, get_PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet, print.iprintschemanupoption_pagespersheet, PagesPerSheet property [Print Devices], IPrintSchemaNUpOption interface [Print Devices], PagesPerSheet property
+ms.keywords: print.iprintschemanupoption_pagespersheet, IPrintSchemaNUpOption, PagesPerSheet property [Print Devices], IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, IPrintSchemaNUpOption interface [Print Devices], PagesPerSheet property, PagesPerSheet property [Print Devices], IPrintSchemaNUpOption interface, get_PagesPerSheet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

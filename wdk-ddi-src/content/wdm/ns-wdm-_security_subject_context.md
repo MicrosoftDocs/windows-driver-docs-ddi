@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c9879df5-38e9-4a9f-8196-8485e85b2933
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], SECURITY_SUBJECT_CONTEXT, ifsk.security_subject_context, wdm/SECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers], securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, *PSECURITY_SUBJECT_CONTEXT, _SECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, wdm/PSECURITY_SUBJECT_CONTEXT
+ms.keywords: "*PSECURITY_SUBJECT_CONTEXT, wdm/PSECURITY_SUBJECT_CONTEXT, _SECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, wdm/SECURITY_SUBJECT_CONTEXT, ifsk.security_subject_context, securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,19 +89,19 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
 
 
-<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
+<a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
 
 
 
@@ -109,7 +109,15 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 
 
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
+<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+
+
+
+<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+
+
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
@@ -121,31 +129,23 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 
 
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
-
-
-
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
 
 
 

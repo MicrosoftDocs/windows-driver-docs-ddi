@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7E990E9A-5BF5-4D6B-A5E2-4968FBD1CEBC
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses._usbdevice_update, _USBDEVICE_UPDATE, USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], ucxusbdevice/P_USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE, *PUSBDEVICE_UPDATE
+ms.keywords: buses._usbdevice_update, USBDEVICE_UPDATE structure [Buses], _USBDEVICE_UPDATE, P_USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], USBDEVICE_UPDATE, ucxusbdevice/P_USBDEVICE_UPDATE, *PUSBDEVICE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,11 +133,11 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_flags.md">USBDEVICE_UPDATE_FLAGS</a>
-
-
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
+
+
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_flags.md">USBDEVICE_UPDATE_FLAGS</a>
 
 
 

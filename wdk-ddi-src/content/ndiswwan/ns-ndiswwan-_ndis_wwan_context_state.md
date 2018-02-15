@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7918ee03-c1cb-4a38-8773-4a01832357d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_context_state, PNDIS_WWAN_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_CONTEXT_STATE, _NDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE, *PNDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_87098fc7-4dbd-4331-81a4-53d425cc0bb0.xml
+ms.keywords: ndiswwan/PNDIS_WWAN_CONTEXT_STATE, *PNDIS_WWAN_CONTEXT_STATE, netvista.ndis_wwan_context_state, PNDIS_WWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE, _NDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE, WwanRef_87098fc7-4dbd-4331-81a4-53d425cc0bb0.xml, NDIS_WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

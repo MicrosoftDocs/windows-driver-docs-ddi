@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 995a1d2f-8e2b-426e-a08c-283124ce905e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices], bdamedia/BDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO, tagBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO, stream.bda_transport_info, bdamedia/PBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO structure [Streaming Media Devices], bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, *PBDA_TRANSPORT_INFO
+ms.keywords: "*PBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO structure [Streaming Media Devices], stream.bda_transport_info, bdamedia/PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices], PBDA_TRANSPORT_INFO, tagBDA_TRANSPORT_INFO, bdamedia/BDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO, bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,7 +103,7 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+<a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
 
 
 
@@ -111,7 +111,7 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 
-<a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 

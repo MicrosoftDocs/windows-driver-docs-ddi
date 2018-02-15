@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtcreatedevice, D3DKMTCreateDevice function [Display Devices], d3dkmthk/D3DKMTCreateDevice, D3DKMTCreateDevice, OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, PFND3DKMT_CREATEDEVICE
+ms.keywords: PFND3DKMT_CREATEDEVICE, display.d3dkmtcreatedevice, d3dkmthk/D3DKMTCreateDevice, D3DKMTCreateDevice function [Display Devices], OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, D3DKMTCreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

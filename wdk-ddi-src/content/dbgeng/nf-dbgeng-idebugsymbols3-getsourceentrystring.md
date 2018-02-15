@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4742F6DD-F7D6-4EF4-877B-C02630018C8E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSourceEntryString, GetSourceEntryString, dbgeng/IDebugSymbols3::GetSourceEntryString, debugger.idebugsymbols3_getsourceentrystring, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSourceEntryString method, IDebugSymbols3
+ms.keywords: IDebugSymbols3::GetSourceEntryString, dbgeng/IDebugSymbols3::GetSourceEntryString, debugger.idebugsymbols3_getsourceentrystring, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSourceEntryString method, GetSourceEntryString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

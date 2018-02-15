@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 124302d7-0776-4025-b71f-ce6300f97f49
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisAcquireRWLockWrite, NdisAcquireRWLockWrite, NdisAcquireRWLockWrite function [Network Drivers Starting with Windows Vista], netvista.ndisacquirerwlockwrite, ndis_processor_group_ref_f957b48a-4c09-4348-897c-51813ede9b19.xml
+ms.keywords: NdisAcquireRWLockWrite, NdisAcquireRWLockWrite function [Network Drivers Starting with Windows Vista], netvista.ndisacquirerwlockwrite, ndis_processor_group_ref_f957b48a-4c09-4348-897c-51813ede9b19.xml, ndis/NdisAcquireRWLockWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,17 +158,20 @@ The driver cannot use a lock to protect resources from read or write access that
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
-   MiniportSynchronizeInterrupt</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
    NdisMSynchronizeWithInterruptEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
+<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
 
 
 
@@ -176,7 +179,7 @@ The driver cannot use a lock to protect resources from read or write access that
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
 
 
@@ -188,11 +191,8 @@ The driver cannot use a lock to protect resources from read or write access that
 
 
 
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
 
 
 

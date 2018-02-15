@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/InstallStateFailedInstall, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], wdm/InstallStateFinishInstall, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/DEVICE_INSTALL_STATE, InstallStateFinishInstall, *PDEVICE_INSTALL_STATE, kernel.device_install_state, InstallStateFailedInstall, DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, InstallStateNeedsReinstall, wdm/PDEVICE_INSTALL_STATE, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], InstallStateInstalled, wdm/InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, _DEVICE_INSTALL_STATE
+ms.keywords: kernel.device_install_state, InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, InstallStateFinishInstall, wdm/InstallStateNeedsReinstall, InstallStateFailedInstall, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], wdm/DEVICE_INSTALL_STATE, wdm/InstallStateFailedInstall, _DEVICE_INSTALL_STATE, wdm/InstallStateFinishInstall, DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, *PDEVICE_INSTALL_STATE, InstallStateInstalled, wdm/PDEVICE_INSTALL_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -102,11 +102,11 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
+
+
+<a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
 
 
 

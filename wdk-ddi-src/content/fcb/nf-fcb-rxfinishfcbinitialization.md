@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 290d0b06-ccf7-4792-b7bb-556092845e55
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RDBSS_NTC_STORAGE_TYPE_DIRECTORY, RDBSS_NTC_MAILSLOT, ifsk.rxfinishfcbinitialization, RDBSS_NTC_STORAGE_TYPE_FILE, RxFinishFcbInitialization, RxFinishFcbInitialization function [Installable File System Drivers], RDBSS_NTC_STORAGE_TYPE_UNKNOWN, fcb/RxFinishFcbInitialization, RDBSS_NTC_SPOOLFILE, rxref_436f96f7-35ed-484b-8963-4afa559d3cfb.xml
+ms.keywords: RxFinishFcbInitialization, RDBSS_NTC_SPOOLFILE, rxref_436f96f7-35ed-484b-8963-4afa559d3cfb.xml, fcb/RxFinishFcbInitialization, RDBSS_NTC_STORAGE_TYPE_UNKNOWN, RDBSS_NTC_STORAGE_TYPE_DIRECTORY, RDBSS_NTC_STORAGE_TYPE_FILE, RxFinishFcbInitialization function [Installable File System Drivers], ifsk.rxfinishfcbinitialization, RDBSS_NTC_MAILSLOT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,6 +86,11 @@ TBD
 
 
 
+#### - InitPacket [in, optional]
+
+Pointer to extra data that is required for initialization depending on the storage type of the FCB being initialized. This parameter may be a <b>NULL</b> pointer if no extra data is provided.
+
+
 #### - MrxFcb [in, out]
 
 A pointer to the MRX_FCB structure being initialized.
@@ -154,11 +159,6 @@ A file.
  
 
 
-#### - InitPacket [in, optional]
-
-Pointer to extra data that is required for initialization depending on the storage type of the FCB being initialized. This parameter may be a <b>NULL</b> pointer if no extra data is provided.
-
-
 ## -returns
 
 
@@ -183,7 +183,7 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxcreatesrvopen.md">RxCreateSrvOpen</a>
+<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFCB</a>
 
 
 
@@ -191,59 +191,7 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFCB</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
-
-
-
 <a href="..\fcb\nf-fcb-rxcreatenetfobx.md">RxCreateNetFobx</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
 
 
 
@@ -251,11 +199,63 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
 
 
 
 <a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFobx</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatesrvopen.md">RxCreateSrvOpen</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
 
 
 

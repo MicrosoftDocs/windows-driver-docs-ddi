@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/CcInitializeCacheMap, CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers], ifsk.ccinitializecachemap, ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml
+ms.keywords: CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers], ifsk.ccinitializecachemap, ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, ntifs/CcInitializeCacheMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

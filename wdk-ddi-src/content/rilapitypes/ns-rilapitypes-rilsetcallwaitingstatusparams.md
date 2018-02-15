@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d6b68e8c-aae1-4a50-8cb3-514379029982
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSETCALLWAITINGSTATUSPARAMS, *LPRILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallwaitingstatusparams_2, RILSETCALLWAITINGSTATUSPARAMS
+ms.keywords: "*LPRILSETCALLWAITINGSTATUSPARAMS, rilapitypes/RILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallwaitingstatusparams_2, RILSETCALLWAITINGSTATUSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

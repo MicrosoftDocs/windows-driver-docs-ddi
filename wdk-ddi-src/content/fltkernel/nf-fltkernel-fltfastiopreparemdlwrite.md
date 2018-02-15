@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], FltFastIoPrepareMdlWrite, fltkernel/FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev, ifsk.fltfastiopreparemdlwrite
+ms.keywords: FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, FltFastIoPrepareMdlWrite, ifsk.fltfastiopreparemdlwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -136,11 +136,11 @@ Even if the call to <b>FltFastIoPrepareMdlWrite</b> fails, one or more MDLs migh
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfastiomdlwritecomplete.md">FltFastIoMdlWriteComplete</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfastiomdlwritecomplete.md">FltFastIoMdlWriteComplete</a>
 
 
 

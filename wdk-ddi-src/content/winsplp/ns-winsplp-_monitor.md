@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: MONITOR structure [Print Devices], winsplp/MONITOR, winsplp/LPMONITOR, LPMONITOR, MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, LPMONITOR structure pointer [Print Devices], _MONITOR, *LPMONITOR
+ms.keywords: MONITOR structure [Print Devices], winsplp/MONITOR, MONITOR, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, LPMONITOR structure pointer [Print Devices], _MONITOR, *LPMONITOR, LPMONITOR, print.monitor, winsplp/LPMONITOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -232,11 +232,11 @@ Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvcloseport.md">X
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
 
 
 

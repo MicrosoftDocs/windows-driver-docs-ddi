@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4C7884AB-C763-4FAF-8799-E0113B3F3AE0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoSetActivityIdThread, kernel.iosetactivityidthread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], IoSetActivityIdThread
+ms.keywords: IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidthread, ntddk/IoSetActivityIdThread, IoSetActivityIdThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3857CA53-6992-410A-96D1-EEA9CC586EDF
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ursdevice/PURS_CONFIG, URS_CONFIG, URS_CONFIG structure [Buses], _URS_CONFIG, PURS_CONFIG structure pointer [Buses], buses.urs_config, *PURS_CONFIG, ursdevice/URS_CONFIG, PURS_CONFIG
+ms.keywords: buses.urs_config, PURS_CONFIG, URS_CONFIG structure [Buses], URS_CONFIG, ursdevice/URS_CONFIG, _URS_CONFIG, ursdevice/PURS_CONFIG, PURS_CONFIG structure pointer [Buses], *PURS_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

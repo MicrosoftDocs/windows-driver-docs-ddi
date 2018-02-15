@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 21eefb20-b5ad-43c7-a1aa-92731c856363
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: sensorsclassextension/LOCATION_DESIRED_ACCURACY_HIGH, LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsclassextension/LOCATION_DESIRED_ACCURACY, sensors.location_desired_accuracy, Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml, sensorsclassextension/LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY_HIGH, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices]
+ms.keywords: LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY_HIGH, sensors.location_desired_accuracy, sensorsclassextension/LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices], Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml, LOCATION_DESIRED_ACCURACY, sensorsclassextension/LOCATION_DESIRED_ACCURACY, sensorsclassextension/LOCATION_DESIRED_ACCURACY_HIGH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

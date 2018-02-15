@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d49d1deb-cb98-4dc0-9ec5-7015b765c9e4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI.pci_express_link_capabilities_register, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+ms.keywords: PCI.pci_express_link_capabilities_register, ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -167,44 +167,9 @@ The PCIe port number for the PCIe link.
 A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
 
 
-##### - MaximumLinkSpeed.1
+##### - ActiveStatePMSupport.L0sAndL1EntrySupport
 
-2.5 gigabits per second
-
-
-##### - MaximumLinkWidth.1
-
-x1 (1 lane)
-
-
-##### - MaximumLinkWidth.2
-
-x2 (2 lanes)
-
-
-##### - MaximumLinkWidth.4
-
-x4 (4 lanes)
-
-
-##### - MaximumLinkWidth.8
-
-x8 (8 lanes)
-
-
-##### - MaximumLinkWidth.12
-
-x12 (12 lanes)
-
-
-##### - MaximumLinkWidth.16
-
-x16 (16 lanes)
-
-
-##### - MaximumLinkWidth.32
-
-x32 (32 lanes)
+L0s and L1 are supported.
 
 
 ##### - ActiveStatePMSupport.L0sEntrySupport
@@ -212,34 +177,9 @@ x32 (32 lanes)
 L0s is supported.
 
 
-##### - ActiveStatePMSupport.L0sAndL1EntrySupport
-
-L0s and L1 are supported.
-
-
-##### - L0sExitLatency.L0s_Below64ns
-
-Less than 64 nanoseconds
-
-
-##### - L0sExitLatency.L0s_64ns_128ns
-
-64 nanoseconds to 128 nanoseconds
-
-
 ##### - L0sExitLatency.L0s_128ns_256ns
 
 128 nanoseconds to 256 nanoseconds
-
-
-##### - L0sExitLatency.L0s_256ns_512ns
-
-256 nanoseconds to 512 nanoseconds
-
-
-##### - L0sExitLatency.L0s_512ns_1us
-
-512 nanoseconds to 1 microsecond
 
 
 ##### - L0sExitLatency.L0s_1us_2us
@@ -247,9 +187,24 @@ Less than 64 nanoseconds
 1 microsecond to 2 microseconds
 
 
+##### - L0sExitLatency.L0s_256ns_512ns
+
+256 nanoseconds to 512 nanoseconds
+
+
 ##### - L0sExitLatency.L0s_2us_4us
 
 2 microseconds to 4 microseconds
+
+
+##### - L0sExitLatency.L0s_512ns_1us
+
+512 nanoseconds to 1 microsecond
+
+
+##### - L0sExitLatency.L0s_64ns_128ns
+
+64 nanoseconds to 128 nanoseconds
 
 
 ##### - L0sExitLatency.L0s_Above4us
@@ -257,9 +212,14 @@ Less than 64 nanoseconds
 More than 4 microseconds
 
 
-##### - L1ExitLatency.L1_Below1us
+##### - L0sExitLatency.L0s_Below64ns
 
-Less than 1 microsecond
+Less than 64 nanoseconds
+
+
+##### - L1ExitLatency.L1_16us_32us
+
+16 microseconds to 32 microseconds
 
 
 ##### - L1ExitLatency.L1_1us_2us
@@ -272,6 +232,11 @@ Less than 1 microsecond
 2 microseconds to 4 microseconds
 
 
+##### - L1ExitLatency.L1_32us_64us
+
+32 microseconds to 64 microseconds
+
+
 ##### - L1ExitLatency.L1_4us_8us
 
 4 microseconds to 8 microseconds
@@ -282,19 +247,54 @@ Less than 1 microsecond
 8 microseconds to 16 microseconds
 
 
-##### - L1ExitLatency.L1_16us_32us
-
-16 microseconds to 32 microseconds
-
-
-##### - L1ExitLatency.L1_32us_64us
-
-32 microseconds to 64 microseconds
-
-
 ##### - L1ExitLatency.L1_Above64us
 
 More than 64 microseconds
+
+
+##### - L1ExitLatency.L1_Below1us
+
+Less than 1 microsecond
+
+
+##### - MaximumLinkSpeed.1
+
+2.5 gigabits per second
+
+
+##### - MaximumLinkWidth.1
+
+x1 (1 lane)
+
+
+##### - MaximumLinkWidth.12
+
+x12 (12 lanes)
+
+
+##### - MaximumLinkWidth.16
+
+x16 (16 lanes)
+
+
+##### - MaximumLinkWidth.2
+
+x2 (2 lanes)
+
+
+##### - MaximumLinkWidth.32
+
+x32 (32 lanes)
+
+
+##### - MaximumLinkWidth.4
+
+x4 (4 lanes)
+
+
+##### - MaximumLinkWidth.8
+
+x8 (8 lanes)
 
 
 ## -remarks

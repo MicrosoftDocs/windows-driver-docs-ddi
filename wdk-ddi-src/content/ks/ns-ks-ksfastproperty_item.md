@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8a39b7cb-cd05-4fb8-9e50-7425e689a36f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSFASTPROPERTY_ITEM, ks/KSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM structure [Streaming Media Devices], PKSFASTPROPERTY_ITEM, ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, ks/PKSFASTPROPERTY_ITEM, stream.ksfastproperty_item, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], KSFASTPROPERTY_ITEM"
+ms.keywords: stream.ksfastproperty_item, ks/PKSFASTPROPERTY_ITEM, ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, ks/KSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], KSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM structure [Streaming Media Devices], PKSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

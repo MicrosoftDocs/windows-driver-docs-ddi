@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 21f6631c-dff1-459f-a83e-7aa1d5d2ab2b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GLYPHRUN structure [Print Devices], GLYPHRUN, print.glyphrun, PGLYPHRUN, *PGLYPHRUN, prntfont/PGLYPHRUN, print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml, _GLYPHRUN, prntfont/GLYPHRUN, PGLYPHRUN structure pointer [Print Devices]
+ms.keywords: "_GLYPHRUN, prntfont/GLYPHRUN, *PGLYPHRUN, prntfont/PGLYPHRUN, GLYPHRUN, GLYPHRUN structure [Print Devices], PGLYPHRUN structure pointer [Print Devices], print.glyphrun, PGLYPHRUN, print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,11 +96,11 @@ The GLYPHRUN structures must be defined in ascending order, based on the value o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570578">WCRUN</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_uni_glyphsetdata.md">UNI_GLYPHSETDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570578">WCRUN</a>
 
 
 

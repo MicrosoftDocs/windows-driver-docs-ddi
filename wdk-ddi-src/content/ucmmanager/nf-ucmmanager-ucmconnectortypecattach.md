@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D778E6B6-B245-41D5-B25B-1CF183146BA9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.ucmconnectortypecattach, ucmmanager/UcmConnectorTypeCAttach, UcmConnectorTypeCAttach, UcmConnectorTypeCAttach method [Buses]
+ms.keywords: ucmmanager/UcmConnectorTypeCAttach, buses.ucmconnectortypecattach, UcmConnectorTypeCAttach method [Buses], UcmConnectorTypeCAttach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,15 +135,15 @@ Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_attach_params_init.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>
-
-
-
 <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
 
 
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
+
+
+
+<a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_attach_params_init.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>
 
 
 

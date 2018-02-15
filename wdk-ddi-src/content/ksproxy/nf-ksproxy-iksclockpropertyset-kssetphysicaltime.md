@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2f8eb011-1fe1-40f6-b833-50d3e853bffd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_1cebc4eb-efb8-4ec6-97f4-e34fc978fb2f.xml, IKsClockPropertySet, KsSetPhysicalTime, ksproxy/IKsClockPropertySet::KsSetPhysicalTime, IKsClockPropertySet::KsSetPhysicalTime, stream.iksclockpropertyset_kssetphysicaltime, KsSetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet interface [Streaming Media Devices], KsSetPhysicalTime method, KsSetPhysicalTime method [Streaming Media Devices]
+ms.keywords: KsSetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsSetPhysicalTime, IKsClockPropertySet interface [Streaming Media Devices], KsSetPhysicalTime method, ksproxy_1cebc4eb-efb8-4ec6-97f4-e34fc978fb2f.xml, IKsClockPropertySet, KsSetPhysicalTime, KsSetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet::KsSetPhysicalTime, stream.iksclockpropertyset_kssetphysicaltime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

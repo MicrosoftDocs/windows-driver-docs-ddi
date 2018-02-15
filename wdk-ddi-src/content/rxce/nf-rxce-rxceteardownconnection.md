@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 71b48983-af12-4361-8cf9-adec1afffb65
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxCeTearDownConnection, ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml, RxCeTearDownConnection function [Installable File System Drivers]
+ms.keywords: RxCeTearDownConnection, rxce/RxCeTearDownConnection, ifsk.rxceteardownconnection, RxCeTearDownConnection function [Installable File System Drivers], rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

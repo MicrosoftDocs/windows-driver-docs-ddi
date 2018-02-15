@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], *PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE"
+ms.keywords: PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], _DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,11 +131,11 @@ If the slab allocation total returned in <b>SlabAllocationBitMapBitCount</b> is 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
+
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
@@ -143,7 +143,7 @@ If the slab allocation total returned in <b>SlabAllocationBitMapBitCount</b> is 
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

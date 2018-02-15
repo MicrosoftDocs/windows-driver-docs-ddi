@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 34F10EDD-C196-4022-8D03-45A005F17F5F
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/BDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO, *PBDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO structure [Streaming Media Devices], bdatypes/PBDA_TS_SELECTORINFO, _BDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO structure pointer [Streaming Media Devices], stream.bda_ts_selectorinfo
+ms.keywords: BDA_TS_SELECTORINFO structure [Streaming Media Devices], _BDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO structure pointer [Streaming Media Devices], *PBDA_TS_SELECTORINFO, bdatypes/PBDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO, bdatypes/BDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO, stream.bda_ts_selectorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

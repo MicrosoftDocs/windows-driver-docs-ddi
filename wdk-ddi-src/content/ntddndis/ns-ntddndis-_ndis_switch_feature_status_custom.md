@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f45c7056-3cb9-4aef-87a9-8d5d5175acc2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_SWITCH_FEATURE_STATUS_CUSTOM, *PNDIS_SWITCH_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_FEATURE_STATUS_CUSTOM, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_feature_status_custom, NDIS_SWITCH_FEATURE_STATUS_CUSTOM"
+ms.keywords: "*PNDIS_SWITCH_FEATURE_STATUS_CUSTOM, _NDIS_SWITCH_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_feature_status_custom, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_CUSTOM, ntddndis/NDIS_SWITCH_FEATURE_STATUS_CUSTOM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

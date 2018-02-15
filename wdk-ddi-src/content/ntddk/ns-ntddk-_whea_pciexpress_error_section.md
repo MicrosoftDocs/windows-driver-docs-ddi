@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 1d96a799-6e52-49e0-b440-a8643111176f
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR, WHEA_PCIEXPRESS_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION, ntddk/WHEA_PCIEXPRESS_ERROR_SECTION, ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], whearef_77796d60-3376-4d78-9b24-9ddb1e3d6132.xml, *PWHEA_PCIEXPRESS_ERROR, whea.whea_pciexpress_error_section"
+ms.keywords: WHEA_PCIEXPRESS_ERROR, ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION, whearef_77796d60-3376-4d78-9b24-9ddb1e3d6132.xml, WHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION structure [WHEA Drivers and Applications], PWHEA_PCIEXPRESS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], _WHEA_PCIEXPRESS_ERROR_SECTION, whea.whea_pciexpress_error_section, PWHEA_PCIEXPRESS_ERROR_SECTION, *PWHEA_PCIEXPRESS_ERROR, ntddk/WHEA_PCIEXPRESS_ERROR_SECTION, *PWHEA_PCIEXPRESS_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -413,6 +413,10 @@ The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is con
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
@@ -421,15 +425,11 @@ The WHEA_PCIEXPRESS_ERROR_SECTION structure describes the error data that is con
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 

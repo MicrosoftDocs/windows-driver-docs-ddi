@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsStreamInjectAsync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, netvista.fwpsstreaminjectasync0, FwpsStreamInjectAsync0
+ms.keywords: FwpsStreamInjectAsync0, fwpsk/FwpsStreamInjectAsync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], netvista.fwpsstreaminjectasync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -367,32 +367,6 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-   FwpsAllocateCloneNetBufferList0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
-   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
 
@@ -401,8 +375,8 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-   FwpsAllocateNetBufferAndNetBufferList0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+   FwpsAllocateCloneNetBufferList0</a>
 
 
 
@@ -411,6 +385,32 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
 
 
 

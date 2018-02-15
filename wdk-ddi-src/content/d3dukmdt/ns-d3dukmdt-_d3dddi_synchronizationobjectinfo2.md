@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc1c6a67-320c-41f8-91ad-cdbcde191a81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_synchronizationobjectinfo2, D3D_other_Structs_0efa3a96-3e04-4232-bf7a-53c3f038d6ec.xml, D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure [Display Devices], _D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2
+ms.keywords: "_D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure [Display Devices], display.d3dddi_synchronizationobjectinfo2, D3D_other_Structs_0efa3a96-3e04-4232-bf7a-53c3f038d6ec.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -264,11 +264,11 @@ An array of 64-bit values that are reserved for future use.
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
 
 
 

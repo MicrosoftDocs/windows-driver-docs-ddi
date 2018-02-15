@@ -109,11 +109,11 @@ The IRQL at which the PEP's <i>AcceptProcessorNotification</i> routine is called
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
-
-
-
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
 
 

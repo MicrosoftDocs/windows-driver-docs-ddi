@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fb952527-a8df-41e7-8194-b4a82b7f550f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_USB_REQUEST_TYPE enumeration pointer, wudfusb/WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceControlTransfer, _WDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeWrite, wudfusb/PWDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypeInvalid, PWDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypePipeWrite, umdf.wdf_usb_request_type, WDF_USB_REQUEST_TYPE enumeration, WdfUsbRequestTypeInvalid, wudfusb/WdfUsbRequestTypePipeRead, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, wdf.wdf_usb_request_type_umdf, WdfUsbRequestTypePipeRead, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeNoFormat, wudfusb/WdfUsbRequestTypeNoFormat
+ms.keywords: wudfusb/WdfUsbRequestTypePipeRead, wudfusb/WdfUsbRequestTypeInvalid, PWDF_USB_REQUEST_TYPE enumeration pointer, _WDF_USB_REQUEST_TYPE, wdf.wdf_usb_request_type_umdf, WdfUsbRequestTypePipeWrite, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, wudfusb/WdfUsbRequestTypePipeWrite, *PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypeInvalid, umdf.wdf_usb_request_type, WdfUsbRequestTypeDeviceControlTransfer, wudfusb/WdfUsbRequestTypeNoFormat, WdfUsbRequestTypeNoFormat, wudfusb/PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, wudfusb/WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE enumeration, WdfUsbRequestTypePipeRead, PWDF_USB_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

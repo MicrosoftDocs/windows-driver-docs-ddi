@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATUS, _WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], PWWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status, *PWWAN_MODEM_CONFIG_STATUS
+ms.keywords: WWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS, wwan/PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], netvista.wwan_modem_config_status, *PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -40,7 +40,7 @@ apiname:
 -	*IFP_QUERY_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # IF_QUERY_OBJECT callback
@@ -107,7 +107,9 @@ A pointer to an NDIS-supplied output buffer in which
 ## -returns
 
 
+
 <i>ProviderQueryObject</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -158,11 +160,14 @@ The call failed for some other reason. This function can propagate error codes f
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS calls a network interface provider's 
@@ -175,9 +180,12 @@ NDIS calls
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
+
 
  
 

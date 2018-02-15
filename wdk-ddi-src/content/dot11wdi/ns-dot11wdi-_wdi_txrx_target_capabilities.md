@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7a1d3ffd-6f5e-429d-8c2f-a141f98ccad8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/PWDI_TXRX_CAPABILITIES, _WDI_TXRX_TARGET_CAPABILITIES, WDI_TXRX_CAPABILITIES, *PWDI_TXRX_CAPABILITIES, WDI_TXRX_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PWDI_TXRX_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], netvista.wdi_txrx_capabilities, PWDI_TXRX_CAPABILITIES, dot11wdi/WDI_TXRX_TARGET_CAPABILITIES, netvista.wdi_txrx_target_capabilities, netvista.wifi_txrx_target_capabilities
+ms.keywords: PWDI_TXRX_CAPABILITIES, dot11wdi/WDI_TXRX_TARGET_CAPABILITIES, WDI_TXRX_CAPABILITIES structure [Network Drivers Starting with Windows Vista], netvista.wifi_txrx_target_capabilities, *PWDI_TXRX_CAPABILITIES, netvista.wdi_txrx_target_capabilities, dot11wdi/PWDI_TXRX_CAPABILITIES, WDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], netvista.wdi_txrx_capabilities, _WDI_TXRX_TARGET_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

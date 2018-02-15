@@ -115,19 +115,19 @@ For more information about cryptographically secure random numbers, see section 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 

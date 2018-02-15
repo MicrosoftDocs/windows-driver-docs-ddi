@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 271d77ae-dc2c-4dc0-8dd9-b09b2d341c60
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: RegisterServiceGroup method [Audio Devices], dmusicks/IPortDMus::RegisterServiceGroup, IPortDMus::RegisterServiceGroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, IPortDMus interface [Audio Devices], RegisterServiceGroup method, RegisterServiceGroup, audio.iportdmus_registerservicegroup, IPortDMus, RegisterServiceGroup method [Audio Devices], IPortDMus interface
+ms.keywords: IPortDMus::RegisterServiceGroup, IPortDMus interface [Audio Devices], RegisterServiceGroup method, RegisterServiceGroup method [Audio Devices], IPortDMus interface, RegisterServiceGroup method [Audio Devices], audio.iportdmus_registerservicegroup, IPortDMus, RegisterServiceGroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, dmusicks/IPortDMus::RegisterServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,7 +109,7 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
 
 
@@ -117,7 +117,7 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
 
 
 

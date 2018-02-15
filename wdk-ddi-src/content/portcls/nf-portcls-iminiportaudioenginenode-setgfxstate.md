@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B073D354-14FB-477E-BBD7-8BD282696EF4
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SetGfxState, IMiniportAudioEngineNode, SetGfxState method [Audio Devices], IMiniportAudioEngineNode::SetGfxState, IMiniportAudioEngineNode interface [Audio Devices], SetGfxState method, SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::SetGfxState, audio.iminiportaudioenginenode_setgfxstate
+ms.keywords: SetGfxState, SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, IMiniportAudioEngineNode::SetGfxState, IMiniportAudioEngineNode, portcls/IMiniportAudioEngineNode::SetGfxState, SetGfxState method [Audio Devices], audio.iminiportaudioenginenode_setgfxstate, IMiniportAudioEngineNode interface [Audio Devices], SetGfxState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

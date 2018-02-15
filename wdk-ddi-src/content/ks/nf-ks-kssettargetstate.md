@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 36f14936-8cc6-4488-aa0f-343e4fbb84e3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_7e05a5c0-2c82-4b20-a199-3955c61c6e40.xml, stream.kssettargetstate, ks/KsSetTargetState, KsSetTargetState function [Streaming Media Devices], KsSetTargetState
+ms.keywords: KsSetTargetState, ks/KsSetTargetState, stream.kssettargetstate, ksfunc_7e05a5c0-2c82-4b20-a199-3955c61c6e40.xml, KsSetTargetState function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

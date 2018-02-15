@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d4a2fe1a-9a16-45b8-b061-9d1b1398e801
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterAcquireProcessingMutex, stream.ksfilteracquireprocessingmutex, KsFilterAcquireProcessingMutex, avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, KsFilterAcquireProcessingMutex function [Streaming Media Devices]
+ms.keywords: KsFilterAcquireProcessingMutex function [Streaming Media Devices], stream.ksfilteracquireprocessingmutex, avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, ks/KsFilterAcquireProcessingMutex, KsFilterAcquireProcessingMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ A minidriver that must suspend processing for a long period of time should not u
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
 
 
 
@@ -107,11 +107,11 @@ A minidriver that must suspend processing for a long period of time should not u
 
 
 
-<a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
-
-
-
 <b>KsFilterReleaseProcessingMutex</b>
+
+
+
+<a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
 
 
 

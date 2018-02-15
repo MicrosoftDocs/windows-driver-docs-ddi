@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3D00B42C-7320-4044-BA7D-71A9BD05B30E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], _SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, ntddscsi/PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_EX
+ms.keywords: storage.scsi_pass_through_ex, ntddscsi/PSCSI_PASS_THROUGH_EX, _SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], SCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -185,11 +185,11 @@ The <b>SCSI_PASS_THROUGH_EX</b> structure is used with the  <a href="..\ntddscsi
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
-
-
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
 
 
 

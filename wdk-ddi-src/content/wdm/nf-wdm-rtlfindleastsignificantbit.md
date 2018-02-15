@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb260c9b-dece-49ef-9701-d5198b8a08fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFindLeastSignificantBit routine [Kernel-Mode Driver Architecture], k109_c7ab87ad-4b9e-40f5-87fb-25ced2ec0dd8.xml, wdm/RtlFindLeastSignificantBit, kernel.rtlfindleastsignificantbit, RtlFindLeastSignificantBit
+ms.keywords: wdm/RtlFindLeastSignificantBit, kernel.rtlfindleastsignificantbit, RtlFindLeastSignificantBit routine [Kernel-Mode Driver Architecture], k109_c7ab87ad-4b9e-40f5-87fb-25ced2ec0dd8.xml, RtlFindLeastSignificantBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

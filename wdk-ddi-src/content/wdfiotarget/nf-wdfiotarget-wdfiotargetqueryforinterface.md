@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 213d0ee8-96f1-4927-be87-1b504b3f3478
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetQueryForInterface, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, kmdf.wdfiotargetqueryforinterface, WdfIoTargetQueryForInterface method, wdf.wdfiotargetqueryforinterface, wdfiotarget/WdfIoTargetQueryForInterface, PFN_WDFIOTARGETQUERYFORINTERFACE
+ms.keywords: wdfiotarget/WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface method, kmdf.wdfiotargetqueryforinterface, wdf.wdfiotargetqueryforinterface, DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, WdfIoTargetQueryForInterface, PFN_WDFIOTARGETQUERYFORINTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,11 +192,11 @@ if (!NT_SUCCESS (status)){
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
 
 
 
@@ -204,7 +204,7 @@ if (!NT_SUCCESS (status)){
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
 
 
 

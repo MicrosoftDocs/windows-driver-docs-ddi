@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printoem/UNIFONTOBJ, UNIFONTOBJ, PUNIFONTOBJ structure pointer [Print Devices], PUNIFONTOBJ, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, UNIFONTOBJ structure [Print Devices], _UNIFONTOBJ, *PUNIFONTOBJ, print.unifontobj, printoem/PUNIFONTOBJ
+ms.keywords: printoem/UNIFONTOBJ, print.unifontobj, PUNIFONTOBJ, UNIFONTOBJ, UNIFONTOBJ structure [Print Devices], PUNIFONTOBJ structure pointer [Print Devices], printoem/PUNIFONTOBJ, _UNIFONTOBJ, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, *PUNIFONTOBJ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -175,11 +175,11 @@ Pointer to Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
 
 

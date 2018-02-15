@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8f3d743-acc1-4884-b0ec-a6cea5d8e437
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceListGetCount method, kmdf.wdfioresourcelistgetcount, wdfresource/WdfIoResourceListGetCount, wdf.wdfioresourcelistgetcount, WdfIoResourceListGetCount, PFN_WDFIORESOURCELISTGETCOUNT, DFResourceObjectRef_19542c4c-aed9-412b-83c7-38209836a679.xml
+ms.keywords: PFN_WDFIORESOURCELISTGETCOUNT, wdfresource/WdfIoResourceListGetCount, DFResourceObjectRef_19542c4c-aed9-412b-83c7-38209836a679.xml, WdfIoResourceListGetCount method, WdfIoResourceListGetCount, wdf.wdfioresourcelistgetcount, kmdf.wdfioresourcelistgetcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

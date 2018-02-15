@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c89c7df3-7ccb-46db-adcc-22c49cae5108
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilnotificationparams, RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS, ntddrilapitypes/RILNOTIFICATIONPARAMS
+ms.keywords: RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilnotificationparams, ntddrilapitypes/RILNOTIFICATIONPARAMS, *LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

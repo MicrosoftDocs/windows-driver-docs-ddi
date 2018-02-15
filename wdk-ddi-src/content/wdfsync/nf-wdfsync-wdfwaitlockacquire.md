@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6fe7465d-938a-400f-b141-76e8a5ffbe90
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfsync/WdfWaitLockAcquire, DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, wdf.wdfwaitlockacquire, WdfWaitLockAcquire, kmdf.wdfwaitlockacquire, WdfWaitLockAcquire method
+ms.keywords: DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, wdf.wdfwaitlockacquire, WdfWaitLockAcquire, WdfWaitLockAcquire method, kmdf.wdfwaitlockacquire, wdfsync/WdfWaitLockAcquire
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,11 +206,11 @@ WdfWaitLockRelease(FilterDeviceCollectionLock);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
-
-
-
 <a href="..\wdfsync\nf-wdfsync-wdfwaitlockcreate.md">WdfWaitLockCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
 
 
 

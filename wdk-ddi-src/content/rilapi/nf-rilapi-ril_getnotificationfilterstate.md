@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 143eca3c-fa20-4731-bdfe-c48b929febcb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetNotificationFilterState, rilapi/RIL_GetNotificationFilterState, RIL_GetNotificationFilterState method [Network Drivers Starting with Windows Vista], netvista.ril_getnotificationfilterstate
+ms.keywords: RIL_GetNotificationFilterState method [Network Drivers Starting with Windows Vista], netvista.ril_getnotificationfilterstate, RIL_GetNotificationFilterState, rilapi/RIL_GetNotificationFilterState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

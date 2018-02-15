@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: FFFF05EF-CCD3-4298-A6DC-8FE998C53DEA
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: get_SelectionType, printerextension/IPrintSchemaFeature::get_SelectionType, printerextension/IPrintSchemaFeature::SelectionType, SelectionType property [Print Devices], IPrintSchemaFeature, SelectionType property [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature interface [Print Devices], SelectionType property, IPrintSchemaFeature::get_SelectionType, print.iprintschemafeature_selectiontype, IPrintSchemaFeature.SelectionType
+ms.keywords: SelectionType property [Print Devices], IPrintSchemaFeature, IPrintSchemaFeature::get_SelectionType, SelectionType property [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature.SelectionType, printerextension/IPrintSchemaFeature::get_SelectionType, IPrintSchemaFeature interface [Print Devices], SelectionType property, printerextension/IPrintSchemaFeature::SelectionType, print.iprintschemafeature_selectiontype, get_SelectionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

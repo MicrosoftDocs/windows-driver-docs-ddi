@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0b140ddc-52b5-4aee-afeb-5b2be57fe7b7
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, portcls/IMiniportWavePciStream::GetAllocatorFraming, IMiniportWavePciStream, IMiniportWavePciStream::GetAllocatorFraming, GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface, audio.iminiportwavepcistream_getallocatorframing, GetAllocatorFraming method [Audio Devices], GetAllocatorFraming, IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method
+ms.keywords: GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface, audio.iminiportwavepcistream_getallocatorframing, GetAllocatorFraming method [Audio Devices], portcls/IMiniportWavePciStream::GetAllocatorFraming, GetAllocatorFraming, IMiniportWavePciStream, IMiniportWavePciStream::GetAllocatorFraming, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

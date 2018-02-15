@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 877C6641-30F9-44BC-9286-3B1D880482C9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "*PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG structure pointer, _WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG, umdf.wudf_workitem_config, wdf.wudf_workitem_config, wudfworkitem/WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, wudfworkitem/PWUDF_WORKITEM_CONFIG"
+ms.keywords: PWUDF_WORKITEM_CONFIG structure pointer, WUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, _WUDF_WORKITEM_CONFIG, *PWUDF_WORKITEM_CONFIG, umdf.wudf_workitem_config, wudfworkitem/PWUDF_WORKITEM_CONFIG, wdf.wudf_workitem_config, wudfworkitem/WUDF_WORKITEM_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

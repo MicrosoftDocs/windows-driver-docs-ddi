@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 101a74c8-a0c2-4820-b9a1-41e39ee4cf11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/POSInternal, Interactive, DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/Interactive, pointofservicecommontypes/External, pointofservicecommontypes/DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/UnknownHealthCheckLevel, pos.unifiedposhealthchecklevel, UnknownHealthCheckLevel, DriverUnifiedPosHealthCheckLevel enumeration, External, POSInternal
+ms.keywords: pointofservicecommontypes/POSInternal, DriverUnifiedPosHealthCheckLevel, Interactive, pointofservicecommontypes/Interactive, DriverUnifiedPosHealthCheckLevel enumeration, External, pointofservicecommontypes/UnknownHealthCheckLevel, POSInternal, pos.unifiedposhealthchecklevel, pointofservicecommontypes/DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/External, UnknownHealthCheckLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

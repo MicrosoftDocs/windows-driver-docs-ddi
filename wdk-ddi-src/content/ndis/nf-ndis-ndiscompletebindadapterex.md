@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e52c7aeb-bbd8-402e-94af-f74df6deb23c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], NdisCompleteBindAdapterEx, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, netvista.ndiscompletebindadapterex
+ms.keywords: netvista.ndiscompletebindadapterex, ndis/NdisCompleteBindAdapterEx, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], NdisCompleteBindAdapterEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

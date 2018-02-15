@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a9d6f43-88f7-490e-9446-e707b6497a38
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiReadCapacity_IN structure [Storage Devices], _ScsiReadCapacity_IN, PScsiReadCapacity_IN, iscsiop/PScsiReadCapacity_IN, structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml, *PScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], iscsiop/ScsiReadCapacity_IN, storage.scsireadcapacity_in, ScsiReadCapacity_IN
+ms.keywords: PScsiReadCapacity_IN, *PScsiReadCapacity_IN, ScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml, _ScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], iscsiop/PScsiReadCapacity_IN, iscsiop/ScsiReadCapacity_IN, storage.scsireadcapacity_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,15 +93,15 @@ You must implement this method.
 
 
 
+<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
 
 
 

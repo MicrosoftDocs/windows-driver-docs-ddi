@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a2c67eaf-d39e-43c9-8e06-18f668c0baa3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, windot11/DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml"
+ms.keywords: netvista.dot11_byte_array, *PDOT11_BYTE_ARRAY, windot11/DOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], DOT11_BYTE_ARRAY, Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, PDOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

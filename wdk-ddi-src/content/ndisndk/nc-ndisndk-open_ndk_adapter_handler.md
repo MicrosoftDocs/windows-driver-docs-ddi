@@ -181,7 +181,15 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
 ## -see-also
 
+<a href="..\ndisndk\ns-ndisndk-_ndis_open_ndk_adapter_parameters.md">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
+
+
+
 <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
 
 
@@ -189,19 +197,11 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="..\ndisndk\ns-ndisndk-_ndis_open_ndk_adapter_parameters.md">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
 
 

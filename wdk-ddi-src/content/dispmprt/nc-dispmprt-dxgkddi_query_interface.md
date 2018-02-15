@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiQueryInterface
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_QUERY_INTERFACE callback
@@ -84,16 +84,20 @@ A pointer to a <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</
 ## -returns
 
 
+
 <i>DxgkDdiQueryInterface </i>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>. If a display miniport driver does not support the requested interface, it must return STATUS_NOT_SUPPORTED. By returning STATUS_NOT_SUPPORTED, the display miniport driver informs the operating system to pass the query on to the next driver.
+
 
 
 
 ## -remarks
 
 
+
 <i>DxgkDdiQueryInterface</i> exposes a communication mechanism between the display miniport driver and the driver of a child device (for example, a video capture device). A display miniport driver that exposes such a mechanism should implement this function.
 
 <i>DxgkDdiQueryInterface</i> should fill in the members of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that <i>QueryInterface</i>-&gt;<b>Interface</b> points to as follows:
+
 <ul>
 <li>
 Set <b>Size</b> to the number of bytes in the INTERFACE structure. This value must not exceed the number of bytes specified by <i>QueryInterface</i>-&gt;<b>Size</b>.
@@ -115,17 +119,25 @@ Initialize <b>InterfaceReference</b> and <b>InterfaceDereference</b> to point to
 Initialize all additional interface-specific members to point to the appropriate routines of the interface being exposed.
 
 </li>
-</ul><i>DxgkDdiQueryInterface</i> runs at IRQL = PASSIVE_LEVEL and should be made pageable.
+</ul>
+<i>DxgkDdiQueryInterface</i> runs at IRQL = PASSIVE_LEVEL and should be made pageable.
+
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
-<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

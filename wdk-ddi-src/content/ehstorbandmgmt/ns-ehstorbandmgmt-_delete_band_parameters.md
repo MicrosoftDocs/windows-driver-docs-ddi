@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C96CF49-A7B2-4A99-8C7A-FC1C8C389C18
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DELBAND_ERASE_BEFORE_DELETE, DELETE_BAND_PARAMETERS structure [Storage Devices], ehstorbandmgmt/PDELETE_BAND_PARAMETERS, _DELETE_BAND_PARAMETERS, storage.delete_band_parameters, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], ehstorbandmgmt/DELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS
+ms.keywords: DELETE_BAND_PARAMETERS, *PDELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS structure pointer [Storage Devices], storage.delete_band_parameters, ehstorbandmgmt/PDELETE_BAND_PARAMETERS, _DELETE_BAND_PARAMETERS, ehstorbandmgmt/DELETE_BAND_PARAMETERS, PDELETE_BAND_PARAMETERS, DELETE_BAND_PARAMETERS structure [Storage Devices], DELBAND_ERASE_BEFORE_DELETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -165,7 +165,7 @@ If <b>DELBAND_ERASE_BEFORE_DELETE</b> is set in <b>Flags</b>, then an authentica
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
 
 
 
@@ -173,7 +173,7 @@ If <b>DELBAND_ERASE_BEFORE_DELETE</b> is set in <b>Flags</b>, then an authentica
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
 
 

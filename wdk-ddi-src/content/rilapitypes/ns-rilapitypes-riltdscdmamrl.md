@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26399c62-c17a-40ad-964e-144badc55614
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILTDSCDMAMRL, netvista.riltdscdmamrl, rilapitypes/RILTDSCDMAMRL, RILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: RILTDSCDMAMRL, rilapitypes/RILTDSCDMAMRL, netvista.riltdscdmamrl, *LPRILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

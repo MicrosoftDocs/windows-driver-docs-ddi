@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9878f614-89dc-4b23-8095-2a8c2b80c79d
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltInitializeOplock, FltApiRef_e_to_o_5d9b6a6a-6721-41b4-961c-49904596c916.xml, ifsk.fltinitializeoplock, fltkernel/FltInitializeOplock, FltInitializeOplock routine [Installable File System Drivers]
+ms.keywords: FltInitializeOplock routine [Installable File System Drivers], fltkernel/FltInitializeOplock, FltApiRef_e_to_o_5d9b6a6a-6721-41b4-961c-49904596c916.xml, FltInitializeOplock, ifsk.fltinitializeoplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,6 +96,18 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltcheckoplock.md">FltCheckOplock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltoplockisfastiopossible.md">FltOplockIsFastIoPossible</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock.md">FltCurrentBatchOplock</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
 
@@ -104,19 +116,7 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcheckoplock.md">FltCheckOplock</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock.md">FltCurrentBatchOplock</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltoplockisfastiopossible.md">FltOplockIsFastIoPossible</a>
 
 
 

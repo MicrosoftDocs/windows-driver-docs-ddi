@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee8c3585-4e27-4b53-99d8-0af0c5a0099d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.umdf_io_target_open_params, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, wdf.umdf_io_target_open_params, UMDF_IO_TARGET_OPEN_PARAMS structure, _UMDF_IO_TARGET_OPEN_PARAMS, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, *PUMDF_IO_TARGET_OPEN_PARAMS
+ms.keywords: "_UMDF_IO_TARGET_OPEN_PARAMS, umdf.umdf_io_target_open_params, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, *PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS structure, wdf.umdf_io_target_open_params, UMDF_IO_TARGET_OPEN_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,11 +98,11 @@ The <b>UMDF_IO_TARGET_OPEN_PARAMS</b> structure is used as input to <a href="htt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
 
 
 

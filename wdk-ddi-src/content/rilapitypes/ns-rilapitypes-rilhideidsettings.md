@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a633bc30-521f-4fdb-a4c0-4f72e619c28a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista], *LPRILHIDEIDSETTINGS, rilapitypes/RILHIDEIDSETTINGS, netvista.rilhideidsettings_2, RILHIDEIDSETTINGS
+ms.keywords: netvista.rilhideidsettings_2, *LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista], RILHIDEIDSETTINGS, rilapitypes/RILHIDEIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

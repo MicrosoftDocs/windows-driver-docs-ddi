@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1af15e59-8796-48e2-ab18-a450db3086d3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], print.iprintoemprintticketprovider_querydevicedefaultnamespace
+ms.keywords: QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml, QueryDeviceDefaultNamespace method [Print Devices], prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_querydevicedefaultnamespace, IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

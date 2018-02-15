@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e4a28382-25f9-427d-ba7a-3b35c01f50fd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CALLRTTACTION_ACCEPT, rilapitypes/RILCALLRTTACTION, rilapitypes/RIL_CALLRTTACTION_REJECT, RIL_CALLRTTACTION_REJECT, rilapitypes/RIL_CALLRTTACTION_MAX, rilapitypes/RIL_CALLRTTACTION_ACCEPT, RILCALLRTTACTION, rilapitypes/RIL_CALLRTTACTION_ASK, RIL_CALLRTTACTION_ASK, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallrttaction_2, RIL_CALLRTTACTION_MAX
+ms.keywords: RIL_CALLRTTACTION_ACCEPT, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], RILCALLRTTACTION, RIL_CALLRTTACTION_ASK, rilapitypes/RIL_CALLRTTACTION_ACCEPT, RIL_CALLRTTACTION_MAX, rilapitypes/RIL_CALLRTTACTION_ASK, rilapitypes/RILCALLRTTACTION, rilapitypes/RIL_CALLRTTACTION_MAX, netvista.rilcallrttaction_2, RIL_CALLRTTACTION_REJECT, rilapitypes/RIL_CALLRTTACTION_REJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -81,6 +81,8 @@ The arguments used to create a video decoder heap.
 ## -returns
 
 
+
 Returns the size of the heap in bytes.
+
 
 

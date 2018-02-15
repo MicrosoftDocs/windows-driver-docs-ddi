@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7d782f53-2409-416d-a3be-dad932c440a1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUI interface [Print Devices], DevicePropertySheets method, DevicePropertySheets, print_unidrv-pscript_ui_3e31410b-e0b6-490f-aea1-62f3d99ba96d.xml, DevicePropertySheets method [Print Devices], IPrintOemUI interface, IPrintOemUI::DevicePropertySheets, print.iprintoemui_devicepropertysheets, prcomoem/IPrintOemUI::DevicePropertySheets, DevicePropertySheets method [Print Devices], IPrintOemUI
+ms.keywords: DevicePropertySheets method [Print Devices], IPrintOemUI interface, prcomoem/IPrintOemUI::DevicePropertySheets, print_unidrv-pscript_ui_3e31410b-e0b6-490f-aea1-62f3d99ba96d.xml, print.iprintoemui_devicepropertysheets, IPrintOemUI::DevicePropertySheets, IPrintOemUI, DevicePropertySheets, DevicePropertySheets method [Print Devices], IPrintOemUI interface [Print Devices], DevicePropertySheets method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,7 +121,7 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
 
 
 
@@ -129,7 +129,7 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
-<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
+<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
 
 
 

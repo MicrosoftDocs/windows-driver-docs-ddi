@@ -71,8 +71,9 @@ VOID APIENTRY PFND3D12DDI_DESTROYVIDEODECODER_0021(
 ### -param hDrvDevice
 
 
-
 ### -param hDrvVideoDecoder
+
+
 
 
 
@@ -92,6 +93,8 @@ Holds the HVideoDecoder
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

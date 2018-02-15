@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiLinkDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_LINK_DEVICE callback
@@ -90,11 +90,14 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_linked_device.md">LINKED_DEVICE
 ## -returns
 
 
+
 <i>DxgkDdiLinkDevice</i> returns STATUS_SUCCESS, or an appropriate error code if information on the linked adapter configuration cannot be obtained.
 
 
 
+
 ## -remarks
+
 
 
 The <i>DxgkDdiLinkDevice</i> function should be implemented by drivers of display adapters that support linked display adapters.
@@ -109,11 +112,16 @@ Plug and Play or power events cause the leading linked adapter to power up or st
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\ns-dispmprt-_linked_device.md">LINKED_DEVICE</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

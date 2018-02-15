@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b2ced4fb-5104-4bf3-8c6c-bf129e3dff97
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml, midatlax/RxAssociateContextWithMid, ifsk.rxassociatecontextwithmid, RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers]
+ms.keywords: midatlax/RxAssociateContextWithMid, RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers], rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml, ifsk.rxassociatecontextwithmid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,14 +86,14 @@ TBD
 
 
 
-#### - pMidAtlas
-
-A pointer to the MID_ATLAS data structure.
-
-
 #### - pContext
 
 A pointer to the context.
+
+
+#### - pMidAtlas
+
+A pointer to the MID_ATLAS data structure.
 
 
 #### - pNewMid
@@ -153,15 +153,7 @@ The <i>pContext</i> parameter can be any opaque context but it is commonly an RX
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
-
-
-
 <a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-
-
-
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 
 
@@ -169,7 +161,15 @@ The <i>pContext</i> parameter can be any opaque context but it is commonly an RX
 
 
 
+<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
+
+
+
 <a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 
 

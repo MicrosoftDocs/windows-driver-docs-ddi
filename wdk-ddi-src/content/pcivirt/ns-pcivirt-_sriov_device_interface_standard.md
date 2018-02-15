@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c71add7d-9920-4b2f-a46a-4a09a94f3900
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD structure [Buses], SRIOV_DEVICE_INTERFACE_STANDARD, *PSRIOV_DEVICE_INTERFACE_STANDARD, _SRIOV_DEVICE_INTERFACE_STANDARD, PCI.sriov_device_interface_standard
+ms.keywords: SRIOV_DEVICE_INTERFACE_STANDARD, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD, PCI.sriov_device_interface_standard, *PSRIOV_DEVICE_INTERFACE_STANDARD, _SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

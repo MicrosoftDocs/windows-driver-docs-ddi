@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml, USBD_TRANSFER_DIRECTION_IN, buses._urb_control_vendor_or_class_request, USBD_SHORT_TRANSFER_OK, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST
+ms.keywords: "_URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, USBD_SHORT_TRANSFER_OK, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, USBD_TRANSFER_DIRECTION_IN, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml, buses._urb_control_vendor_or_class_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -213,11 +213,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

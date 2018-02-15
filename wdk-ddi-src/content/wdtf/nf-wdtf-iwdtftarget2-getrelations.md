@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 15622472-808b-4d9e-ac59-ca5c9efbff7c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFTarget2.GetRelations, IWDTFTarget2::GetRelations, IWDTFTarget2 interface [Windows Device Testing Framework], GetRelations method, Microsoft::WDTF::IWDTFTarget2::GetRelations, GetRelations method [Windows Device Testing Framework], IWDTFTarget2, dtf.iwdtftarget2_getrelations, wdtf/IWDTFTarget2::GetRelations, GetRelations, GetRelations method [Windows Device Testing Framework], IWDTFTarget2 interface
+ms.keywords: GetRelations method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFTarget2::GetRelations, GetRelations method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework], GetRelations method, wdtf/IWDTFTarget2::GetRelations, IWDTFTarget2, GetRelations, dtf.iwdtftarget2_getrelations, IWDTFTarget2::GetRelations, Microsoft.WDTF.IWDTFTarget2.GetRelations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

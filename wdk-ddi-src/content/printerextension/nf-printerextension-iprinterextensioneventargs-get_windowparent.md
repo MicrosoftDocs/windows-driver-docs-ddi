@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 23B8E247-C521-4CBD-ABB3-9A10ECAFAE84
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrinterExtensionEventArgs::WindowParent, IPrinterExtensionEventArgs interface [Print Devices], WindowParent property, WindowParent property [Print Devices], get_WindowParent, WindowParent property [Print Devices], IPrinterExtensionEventArgs interface, print.iprinterextensioneventargs_windowparent, IPrinterExtensionEventArgs, IPrinterExtensionEventArgs::get_WindowParent, printerextension/IPrinterExtensionEventArgs::get_WindowParent, IPrinterExtensionEventArgs.WindowParent
+ms.keywords: IPrinterExtensionEventArgs interface [Print Devices], WindowParent property, WindowParent property [Print Devices], IPrinterExtensionEventArgs interface, WindowParent property [Print Devices], printerextension/IPrinterExtensionEventArgs::WindowParent, printerextension/IPrinterExtensionEventArgs::get_WindowParent, IPrinterExtensionEventArgs, print.iprinterextensioneventargs_windowparent, IPrinterExtensionEventArgs.WindowParent, get_WindowParent, IPrinterExtensionEventArgs::get_WindowParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

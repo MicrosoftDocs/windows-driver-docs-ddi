@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39013276-C76A-4E31-80DD-26C17A020BD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS, _DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices], DXGK_PAGETABLEUPDATEADDRESS, display.dxgk_pagetableupdateaddress
+ms.keywords: "_DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices], display.dxgk_pagetableupdateaddress, d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

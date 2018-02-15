@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a686ea04-8a6b-4c4b-be06-73a75c4fc87d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetShareAccess, kernel.iosetshareaccess, k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, IoSetShareAccess routine [Kernel-Mode Driver Architecture], wdm/IoSetShareAccess
+ms.keywords: wdm/IoSetShareAccess, k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, IoSetShareAccess routine [Kernel-Mode Driver Architecture], kernel.iosetshareaccess, IoSetShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,11 +123,11 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
+<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -135,15 +135,11 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 
 
+<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
 
 
@@ -151,7 +147,11 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
 
 

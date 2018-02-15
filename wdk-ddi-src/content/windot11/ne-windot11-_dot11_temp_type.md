@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 73275e2e-b738-4adc-b89e-2cd152de6c75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/dot11_temp_type_1, dot11_temp_type_2, PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11_temp_type_unknown, windot11/dot11_temp_type_unknown, _DOT11_TEMP_TYPE, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_TEMP_TYPE, dot11_temp_type_1, windot11/DOT11_TEMP_TYPE, Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, *PDOT11_TEMP_TYPE, windot11/PDOT11_TEMP_TYPE, windot11/dot11_temp_type_2, netvista.dot11_temp_type
+ms.keywords: "*PDOT11_TEMP_TYPE, dot11_temp_type_unknown, windot11/DOT11_TEMP_TYPE, dot11_temp_type_2, windot11/dot11_temp_type_2, PDOT11_TEMP_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PDOT11_TEMP_TYPE, DOT11_TEMP_TYPE, Native_802.11_data_types_5b580f41-75a6-4d16-9ea5-cc3dc3622a84.xml, windot11/dot11_temp_type_1, DOT11_TEMP_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/dot11_temp_type_unknown, netvista.dot11_temp_type, windot11/PDOT11_TEMP_TYPE, _DOT11_TEMP_TYPE, dot11_temp_type_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49134501-165a-4296-b4c6-3f1e7ae9d485
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlresetlargemcb, FsRtlResetLargeMcb, FsRtlResetLargeMcb routine [Installable File System Drivers], ntifs/FsRtlResetLargeMcb, fsrtlref_947ccacb-eef2-44d8-9b73-1b8aa930cd03.xml
+ms.keywords: ntifs/FsRtlResetLargeMcb, FsRtlResetLargeMcb, FsRtlResetLargeMcb routine [Installable File System Drivers], ifsk.fsrtlresetlargemcb, fsrtlref_947ccacb-eef2-44d8-9b73-1b8aa930cd03.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,11 +104,7 @@ If the caller is already synchronized (the <i>SelfSynchronized</i> parameter is 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb~r2.md">FsRtlSplitLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
 
 
 
@@ -116,15 +112,7 @@ If the caller is already synchronized (the <i>SelfSynchronized</i> parameter is 
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb~r1.md">FsRtlTruncateLargeMcb</a>
 
 
 
@@ -132,11 +120,11 @@ If the caller is already synchronized (the <i>SelfSynchronized</i> parameter is 
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb~r1.md">FsRtlTruncateLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb~r2.md">FsRtlSplitLargeMcb</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
 
 
 
@@ -144,7 +132,19 @@ If the caller is already synchronized (the <i>SelfSynchronized</i> parameter is 
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
 
 
 

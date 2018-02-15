@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changerclassinitialize, ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices], chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, mcd/ChangerClassInitialize
+ms.keywords: chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, storage.changerclassinitialize, ChangerClassInitialize, mcd/ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ Changer miniclass drivers must allocate an <a href="..\mcd\ns-mcd-_mcd_init_data
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
 <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

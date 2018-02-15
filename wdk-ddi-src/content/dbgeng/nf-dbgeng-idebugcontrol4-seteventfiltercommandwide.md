@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e0e14c8b-0b11-482f-93e2-31c522235110
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::SetEventFilterCommandWide, IDebugControl4, SetEventFilterCommandWide, IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, debugger.seteventfiltercommandwide
+ms.keywords: IDebugControl4 interface [Windows Debugging], SetEventFilterCommandWide method, IDebugControl4, debugger.seteventfiltercommandwide, SetEventFilterCommandWide, dbgeng/IDebugControl4::SetEventFilterCommandWide, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4 interface, SetEventFilterCommandWide method [Windows Debugging], IDebugControl4::SetEventFilterCommandWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,7 +117,7 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 
 
 
@@ -129,7 +129,7 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
 
 
 

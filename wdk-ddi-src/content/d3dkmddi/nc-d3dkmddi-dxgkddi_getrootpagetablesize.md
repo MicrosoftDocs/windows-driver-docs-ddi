@@ -88,6 +88,8 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getrootpagetablesize.md">DXGKARG_G
 ## -returns
 
 
+
 The page table size in bytes. The size must be a multiple of the page size of the GPU memory segment where page table is located.
+
 
 

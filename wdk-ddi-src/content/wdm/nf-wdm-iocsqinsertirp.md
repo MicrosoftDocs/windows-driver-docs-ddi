@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ddfc0241-eab0-462b-8e1b-32bb9bcb3671
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoCsqInsertIrp, IoCsqInsertIrp routine [Kernel-Mode Driver Architecture], k104_cecd79a7-3c42-45a2-99f7-54ca2a3e0358.xml, kernel.iocsqinsertirp, IoCsqInsertIrp
+ms.keywords: kernel.iocsqinsertirp, IoCsqInsertIrp routine [Kernel-Mode Driver Architecture], IoCsqInsertIrp, wdm/IoCsqInsertIrp, k104_cecd79a7-3c42-45a2-99f7-54ca2a3e0358.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,11 +131,7 @@ Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL &lt;= DISPATCH_LEVEL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
+<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
 
 
 
@@ -143,11 +139,11 @@ Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL &lt;= DISPATCH_LEVEL
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
 
 
 
@@ -155,11 +151,7 @@ Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL &lt;= DISPATCH_LEVEL
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
+<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
 
 
 
@@ -171,19 +163,27 @@ Callers of <b>IoCsqInsertIrp</b> must be running at an IRQL &lt;= DISPATCH_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
+<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
+<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
+<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
+<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
 
 
 

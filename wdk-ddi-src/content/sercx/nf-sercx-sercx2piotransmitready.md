@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 58E663DC-8A2B-4017-A54F-4C127AE567CE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2PioTransmitReady, SerCx2PioTransmitReady, SerCx2PioTransmitReady method [Serial Ports], serports.sercx2piotransmitready
+ms.keywords: serports.sercx2piotransmitready, SerCx2PioTransmitReady method [Serial Ports], 2/SerCx2PioTransmitReady, SerCx2PioTransmitReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a>
 
 
 
@@ -111,7 +111,7 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E8A53836-95D1-4CE4-AF55-5AD732211A55
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: EmulationOnPowerIndependent, nfpdrivers.secure_element_set_card_emulation_mode, EmulationOff, nfcsedev/EmulationOnPowerDependent, nfcsedev/EmulationOnPowerIndependent, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], EmulationOnPowerDependent, _SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOff, *PSECURE_ELEMENT_CARD_EMULATION_MODE
+ms.keywords: nfcsedev/EmulationOnPowerDependent, _SECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE, EmulationOff, nfcsedev/SECURE_ELEMENT_CARD_EMULATION_MODE, nfcsedev/EmulationOff, nfpdrivers.secure_element_set_card_emulation_mode, *PSECURE_ELEMENT_CARD_EMULATION_MODE, SECURE_ELEMENT_CARD_EMULATION_MODE enumeration [Near-Field Proximity Drivers], EmulationOnPowerDependent, EmulationOnPowerIndependent, nfcsedev/EmulationOnPowerIndependent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

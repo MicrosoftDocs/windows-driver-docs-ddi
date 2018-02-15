@@ -7,8 +7,8 @@ old-location: audio\usbsidebandaudio_device_error.htm
 old-project: audio
 ms.assetid: EB5AFAF3-D75C-4B91-823C-E1C6784CB13B
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: usbsidebandaudio/USBSIDEBANDAUDIO_DEVICE_ERROR, USBSIDEBANDAUDIO_DEVICE_ERROR, _USBSIDEBANDAUDIO_DEVICE_ERROR, PUSBSIDEBANDAUDIO_DEVICE_ERROR, USBSIDEBANDAUDIO_DEVICE_ERROR structure [Audio Devices], usbsidebandaudio/PUSBSIDEBANDAUDIO_DEVICE_ERROR, PUSBSIDEBANDAUDIO_DEVICE_ERROR structure pointer [Audio Devices], *PUSBSIDEBANDAUDIO_DEVICE_ERROR, audio.usbsidebandaudio_device_error
+ms.date: 2/8/2018
+ms.keywords: usbsidebandaudio/PUSBSIDEBANDAUDIO_DEVICE_ERROR, USBSIDEBANDAUDIO_DEVICE_ERROR, PUSBSIDEBANDAUDIO_DEVICE_ERROR structure pointer [Audio Devices], *PUSBSIDEBANDAUDIO_DEVICE_ERROR, _USBSIDEBANDAUDIO_DEVICE_ERROR, audio.usbsidebandaudio_device_error, USBSIDEBANDAUDIO_DEVICE_ERROR structure [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_DEVICE_ERROR, PUSBSIDEBANDAUDIO_DEVICE_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,6 +84,7 @@ typedef struct _USBSIDEBANDAUDIO_DEVICE_ERROR {
 ### -field Status
 
  
+
 
 
 

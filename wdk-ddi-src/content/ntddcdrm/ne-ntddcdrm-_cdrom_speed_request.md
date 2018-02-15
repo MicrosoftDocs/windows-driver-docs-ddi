@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 147d2c1c-c12d-4c39-bec5-579ece083ee7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/CDROM_SPEED_REQUEST, ntddcdrm/PCDROM_SPEED_REQUEST, CDROM_SPEED_REQUEST enumeration [Storage Devices], CdromSetStreaming, CdromSetSpeed, PCDROM_SPEED_REQUEST enumeration pointer [Storage Devices], PCDROM_SPEED_REQUEST, *PCDROM_SPEED_REQUEST, ntddcdrm/CdromSetStreaming, CDROM_SPEED_REQUEST, _CDROM_SPEED_REQUEST, ntddcdrm/CdromSetSpeed, storage.cdrom_speed_request, structs-CD-ROM_6feeaa4e-8500-4ca8-9d0f-3e29a858eb94.xml
+ms.keywords: PCDROM_SPEED_REQUEST enumeration pointer [Storage Devices], ntddcdrm/CdromSetSpeed, CDROM_SPEED_REQUEST, CdromSetSpeed, CDROM_SPEED_REQUEST enumeration [Storage Devices], ntddcdrm/CdromSetStreaming, *PCDROM_SPEED_REQUEST, ntddcdrm/CDROM_SPEED_REQUEST, _CDROM_SPEED_REQUEST, ntddcdrm/PCDROM_SPEED_REQUEST, storage.cdrom_speed_request, CdromSetStreaming, PCDROM_SPEED_REQUEST, structs-CD-ROM_6feeaa4e-8500-4ca8-9d0f-3e29a858eb94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

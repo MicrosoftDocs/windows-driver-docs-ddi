@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5453CF25-D753-4FED-85E3-D990FAB46626
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE, PSTOR_POFX_DEVICE, *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, storport/STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE structure [Storage Devices], storage.stor_pofx_device, _STOR_POFX_DEVICE, storport/PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D0
+ms.keywords: storport/PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D0, PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_D3, PSTOR_POFX_DEVICE, STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, storage.stor_pofx_device, *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE structure [Storage Devices], _STOR_POFX_DEVICE, storport/STOR_POFX_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -177,7 +177,7 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
 
 
 
@@ -185,11 +185,11 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+
+
+
 <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
-
-
-
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
 
 
 

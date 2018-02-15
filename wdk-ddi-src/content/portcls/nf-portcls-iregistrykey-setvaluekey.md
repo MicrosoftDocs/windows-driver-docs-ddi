@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4f9dd025-b49f-44ab-88c4-38139e6cbee2
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IRegistryKey interface [Audio Devices], SetValueKey method, SetValueKey, IRegistryKey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, SetValueKey method [Audio Devices], IRegistryKey::SetValueKey, portcls/IRegistryKey::SetValueKey, audio.iregistrykey_setvaluekey, SetValueKey method [Audio Devices], IRegistryKey interface
+ms.keywords: portcls/IRegistryKey::SetValueKey, SetValueKey method [Audio Devices], IRegistryKey::SetValueKey, IRegistryKey interface [Audio Devices], SetValueKey method, audio.iregistrykey_setvaluekey, SetValueKey method [Audio Devices], IRegistryKey interface, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, IRegistryKey, SetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -166,11 +166,11 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 

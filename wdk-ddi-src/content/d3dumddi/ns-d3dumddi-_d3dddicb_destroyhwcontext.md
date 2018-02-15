@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9040AEAF-3F66-4F76-B9CD-36370BC2F5B6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT structure [Display Devices], _D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT, display.d3dddicb_destroyhwcontext
+ms.keywords: D3DDDICB_DESTROYHWCONTEXT structure [Display Devices], d3dumddi/D3DDDICB_DESTROYHWCONTEXT, display.d3dddicb_destroyhwcontext, _D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

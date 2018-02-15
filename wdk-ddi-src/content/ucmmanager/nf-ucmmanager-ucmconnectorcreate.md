@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UcmConnectorCreate, ucmmanager/UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate
+ms.keywords: ucmmanager/UcmConnectorCreate, buses.ucmconnectorcreate, UcmConnectorCreate, UcmConnectorCreate method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,11 +163,11 @@ This example code shows how to create a Type-C connector that is PD-capable.
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a>
-
-
-
 <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_config_init.md">UCM_CONNECTOR_CONFIG_INIT</a>
+
+
+
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a>
 
 
 

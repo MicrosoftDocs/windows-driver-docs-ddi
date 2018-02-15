@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BDD2E8A6-D233-4581-AC1D-B6E33919898E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDK_SRQ structure [Network Drivers Starting with Windows Vista], ndkpi/PNDK_SRQ, NDK_SRQ, _NDK_SRQ, PNDK_SRQ structure pointer [Network Drivers Starting with Windows Vista], netvista.ndk_srq, ndkpi/NDK_SRQ, PNDK_SRQ
+ms.keywords: ndkpi/NDK_SRQ, _NDK_SRQ, NDK_SRQ, PNDK_SRQ, PNDK_SRQ structure pointer [Network Drivers Starting with Windows Vista], netvista.ndk_srq, ndkpi/PNDK_SRQ, NDK_SRQ structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,23 +89,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
 <a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
 
 
 
@@ -113,11 +97,27 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 

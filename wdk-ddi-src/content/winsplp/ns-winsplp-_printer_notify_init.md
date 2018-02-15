@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 45DFA669-8520-4EA5-8B36-822BDC8C958D
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PPRINTER_NOTIFY_INIT structure pointer [Print Devices], LPPRINTER_NOTIFY_INIT, winsplp/PRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT, print.printer_notify_init, PPRINTER_NOTIFY_INIT, winsplp/LPPRINTER_NOTIFY_INIT, *LPPRINTER_NOTIFY_INIT, _PRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT structure [Print Devices], LPPRINTER_NOTIFY_INIT structure pointer [Print Devices], winsplp/PPRINTER_NOTIFY_INIT
+ms.keywords: PRINTER_NOTIFY_INIT structure [Print Devices], winsplp/LPPRINTER_NOTIFY_INIT, LPPRINTER_NOTIFY_INIT, winsplp/PRINTER_NOTIFY_INIT, LPPRINTER_NOTIFY_INIT structure pointer [Print Devices], _PRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT, PPRINTER_NOTIFY_INIT structure pointer [Print Devices], *LPPRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, winsplp/PPRINTER_NOTIFY_INIT, print.printer_notify_init, PPRINTER_NOTIFY_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

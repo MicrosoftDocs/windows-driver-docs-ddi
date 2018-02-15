@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13a816f9-c41a-49f1-ac79-98106f4630d4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_DVD_RECORDABLE_WRITE structure [Storage Devices], structs-CD-ROM_c7d92388-964e-4db2-803a-1a7c10c45cc0.xml, FEATURE_DATA_DVD_RECORDABLE_WRITE, storage.feature_data_dvd_recordable_write, PFEATURE_DATA_DVD_RECORDABLE_WRITE structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_DVD_RECORDABLE_WRITE, PFEATURE_DATA_DVD_RECORDABLE_WRITE, _FEATURE_DATA_DVD_RECORDABLE_WRITE, ntddmmc/FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_WRITE
+ms.keywords: storage.feature_data_dvd_recordable_write, ntddmmc/FEATURE_DATA_DVD_RECORDABLE_WRITE, PFEATURE_DATA_DVD_RECORDABLE_WRITE, FEATURE_DATA_DVD_RECORDABLE_WRITE, *PFEATURE_DATA_DVD_RECORDABLE_WRITE, ntddmmc/PFEATURE_DATA_DVD_RECORDABLE_WRITE, _FEATURE_DATA_DVD_RECORDABLE_WRITE, structs-CD-ROM_c7d92388-964e-4db2-803a-1a7c10c45cc0.xml, PFEATURE_DATA_DVD_RECORDABLE_WRITE structure pointer [Storage Devices], FEATURE_DATA_DVD_RECORDABLE_WRITE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

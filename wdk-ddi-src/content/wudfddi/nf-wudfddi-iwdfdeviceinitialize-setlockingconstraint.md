@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c0062ad4-6666-49db-9d53-70f2ed2353d1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetLockingConstraint method, SetLockingConstraint method, IWDFDeviceInitialize interface, SetLockingConstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, IWDFDeviceInitialize interface, SetLockingConstraint method, IWDFDeviceInitialize::SetLockingConstraint, IWDFDeviceInitialize, umdf.iwdfdeviceinitialize_setlockingconstraint, wudfddi/IWDFDeviceInitialize::SetLockingConstraint, wdf.iwdfdeviceinitialize_setlockingconstraint
+ms.keywords: IWDFDeviceInitialize interface, SetLockingConstraint method, IWDFDeviceInitialize, IWDFDeviceInitialize::SetLockingConstraint, SetLockingConstraint method, IWDFDeviceInitialize interface, SetLockingConstraint method, umdf.iwdfdeviceinitialize_setlockingconstraint, SetLockingConstraint, UMDFDeviceObjectRef_ec613925-df47-4231-8f53-3769df71f288.xml, wdf.iwdfdeviceinitialize_setlockingconstraint, wudfddi/IWDFDeviceInitialize::SetLockingConstraint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

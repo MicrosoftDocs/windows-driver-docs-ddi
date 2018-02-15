@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1a87da8a-a495-4451-a6f3-1261efda09f3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintCorePS2::GetFeatureAttribute, IPrintCorePS2::GetFeatureAttribute, print.iprintcoreps2_getfeatureattribute, IPrintCorePS2, GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml, GetFeatureAttribute method [Print Devices], GetFeatureAttribute
+ms.keywords: IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, print.iprintcoreps2_getfeatureattribute, IPrintCorePS2, IPrintCorePS2::GetFeatureAttribute, prcomoem/IPrintCorePS2::GetFeatureAttribute, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml, GetFeatureAttribute, GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, GetFeatureAttribute method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -203,15 +203,15 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
 
 
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
 
 
 

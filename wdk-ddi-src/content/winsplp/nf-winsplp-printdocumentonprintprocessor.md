@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PrintDocumentOnPrintProcessor function [Print Devices], print.printdocumentonprintprocessor, PrintDocumentOnPrintProcessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, winsplp/PrintDocumentOnPrintProcessor
+ms.keywords: PrintDocumentOnPrintProcessor, print.printdocumentonprintprocessor, PrintDocumentOnPrintProcessor function [Print Devices], winsplp/PrintDocumentOnPrintProcessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C9707F47-75DF-4CDE-B88B-24323FC8C94B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], display.d3dkmt_createcontextvirtual, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, _D3DKMT_CREATECONTEXTVIRTUAL
+ms.keywords: display.d3dkmt_createcontextvirtual, _D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

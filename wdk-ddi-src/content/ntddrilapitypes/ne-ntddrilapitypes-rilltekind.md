@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e7457252-0ca9-4cea-bc06-283573e49331
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_LTEKIND_RESERVED, RIL_LTEKIND_FDD_CA, RIL_LTEKIND_TDD, ntddrilapitypes/RIL_LTEKIND_TDD, RIL_LTEKIND_UNKNOWN_CA, RIL_LTEKIND_RESERVED, RIL_LTEKIND_TDD_CA, RILLTEKIND, ntddrilapitypes/RIL_LTEKIND_MAX, ntddrilapitypes/RIL_LTEKIND_TDD_CA, RIL_LTEKIND_FDD, ntddrilapitypes/RIL_LTEKIND_FDD_CA, ntddrilapitypes/RIL_LTEKIND_UNKNOWN_CA, RILLTEKIND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_LTEKIND_FDD, RIL_LTEKIND_MAX, ntddrilapitypes/RILLTEKIND, netvista.rilltekind
+ms.keywords: RIL_LTEKIND_MAX, RIL_LTEKIND_TDD_CA, ntddrilapitypes/RIL_LTEKIND_TDD_CA, RILLTEKIND enumeration [Network Drivers Starting with Windows Vista], RILLTEKIND, ntddrilapitypes/RIL_LTEKIND_FDD, RIL_LTEKIND_FDD, RIL_LTEKIND_TDD, ntddrilapitypes/RIL_LTEKIND_MAX, RIL_LTEKIND_FDD_CA, ntddrilapitypes/RIL_LTEKIND_RESERVED, ntddrilapitypes/RIL_LTEKIND_TDD, ntddrilapitypes/RIL_LTEKIND_UNKNOWN_CA, ntddrilapitypes/RIL_LTEKIND_FDD_CA, RIL_LTEKIND_UNKNOWN_CA, netvista.rilltekind, RIL_LTEKIND_RESERVED, ntddrilapitypes/RILLTEKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

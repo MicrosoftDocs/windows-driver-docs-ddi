@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 4266c775-a2e9-46f0-91ad-6f6cce06bea0
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, audio.pcunregisteriotimeout, PcUnregisterIoTimeout, portcls/PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices]
+ms.keywords: portcls/PcUnregisterIoTimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, audio.pcunregisteriotimeout, PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,11 +126,11 @@ This call succeeds only if a time-out callback with the same device object, time
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
 
 
 

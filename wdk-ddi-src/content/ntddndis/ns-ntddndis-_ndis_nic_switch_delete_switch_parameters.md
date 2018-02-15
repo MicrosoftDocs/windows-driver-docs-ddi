@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 859D6DA7-5945-44FA-8DDC-99EBD97883D2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, netvista.ndis_nic_switch_delete_switch_parameters, NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, ntddndis/NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
+ms.keywords: ntddndis/NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, netvista.ndis_nic_switch_delete_switch_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ The <b>NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS</b> structure is used in OID met
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451817">OID_NIC_SWITCH_DELETE_SWITCH</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451817">OID_NIC_SWITCH_DELETE_SWITCH</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ace53515-0e8a-487d-abf7-caaa09478ed5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetPnpPowerEventCallbacks, WdfDeviceInitSetPnpPowerEventCallbacks method, DFDeviceObjectGeneralRef_6a2f152e-b1ee-492e-a986-9c1ea925ff24.xml, kmdf.wdfdeviceinitsetpnppowereventcallbacks, wdfdevice/WdfDeviceInitSetPnpPowerEventCallbacks, wdf.wdfdeviceinitsetpnppowereventcallbacks, PFN_WDFDEVICEINITSETPNPPOWEREVENTCALLBACKS
+ms.keywords: wdfdevice/WdfDeviceInitSetPnpPowerEventCallbacks, WdfDeviceInitSetPnpPowerEventCallbacks method, PFN_WDFDEVICEINITSETPNPPOWEREVENTCALLBACKS, wdf.wdfdeviceinitsetpnppowereventcallbacks, DFDeviceObjectGeneralRef_6a2f152e-b1ee-492e-a986-9c1ea925ff24.xml, WdfDeviceInitSetPnpPowerEventCallbacks, kmdf.wdfdeviceinitsetpnppowereventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamMirror
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback
@@ -100,33 +100,43 @@ Indicates whether mirroring support is enabled or disabled.
 Indicates whether the input stream should be flipped horizontally.
 
 
-<div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.</div>
+<div> </div>
 
 ### -param FlipVertical [in]
 
 Indicates whether the input stream should be flipped vertically.
 
 
+
 <div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.
-</div><div> </div>
+</div>
+<div> </div>
 
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Operations are conceptually applied in the following order:
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+
 
  
 

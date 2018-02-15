@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8c34bf8-1f3a-4aa3-834b-5824402bd88c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: POFFLOAD_IPSEC_DELETE_SA, netvista.offload_ipsec_delete_sa, OFFLOAD_IPSEC_DELETE_SA structure [Network Drivers Starting with Windows Vista], ntddndis/OFFLOAD_IPSEC_DELETE_SA, OFFLOAD_IPSEC_DELETE_SA, POFFLOAD_IPSEC_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_DELETE_SA, 216offload_1e6bbc64-755a-4da3-a7d2-ce57c4b98ce6.xml, ntddndis/POFFLOAD_IPSEC_DELETE_SA, *POFFLOAD_IPSEC_DELETE_SA
+ms.keywords: netvista.offload_ipsec_delete_sa, OFFLOAD_IPSEC_DELETE_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_DELETE_SA, OFFLOAD_IPSEC_DELETE_SA, ntddndis/POFFLOAD_IPSEC_DELETE_SA, _OFFLOAD_IPSEC_DELETE_SA, POFFLOAD_IPSEC_DELETE_SA structure pointer [Network Drivers Starting with Windows Vista], *POFFLOAD_IPSEC_DELETE_SA, ntddndis/OFFLOAD_IPSEC_DELETE_SA, 216offload_1e6bbc64-755a-4da3-a7d2-ce57c4b98ce6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7969f683-3426-4863-8afe-d9cbe490a4b5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestretrieveunsafeuseroutputbuffer, DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml, WdfRequestRetrieveUnsafeUserOutputBuffer method, WdfRequestRetrieveUnsafeUserOutputBuffer, wdf.wdfrequestretrieveunsafeuseroutputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer, PFN_WDFREQUESTRETRIEVEUNSAFEUSEROUTPUTBUFFER
+ms.keywords: DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer, kmdf.wdfrequestretrieveunsafeuseroutputbuffer, wdf.wdfrequestretrieveunsafeuseroutputbuffer, WdfRequestRetrieveUnsafeUserOutputBuffer, PFN_WDFREQUESTRETRIEVEUNSAFEUSEROUTPUTBUFFER, WdfRequestRetrieveUnsafeUserOutputBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

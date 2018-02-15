@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1fb0d0f9-711a-4bd4-baf6-38ccbeae6e4a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ELEMENT_STATUS_NOT_BUS, ELEMENT_STATUS_SVALID, ELEMENT_STATUS_LUN_VALID, ntddchgr/CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_INVERT, ERROR_SLOT_NOT_PRESENT, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml, ELEMENT_STATUS_IMPEXP, ELEMENT_STATUS_PVOLTAG, ELEMENT_STATUS_EXENAB, ELEMENT_STATUS_EXCEPT, ERROR_UNHANDLED_ERROR, ERROR_TRAY_MALFUNCTION, ERROR_LABEL_QUESTIONABLE, ELEMENT_STATUS_ACCESS, storage.changer_element_status_ex, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_INENAB, PCHANGER_ELEMENT_STATUS_EX, ERROR_DRIVE_NOT_INSTALLED, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices], ELEMENT_STATUS_ID_VALID, ELEMENT_STATUS_PRODUCT_DATA, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], ERROR_LABEL_UNREADABLE, *PCHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_AVOLTAG, ELEMENT_STATUS_FULL, _CHANGER_ELEMENT_STATUS_EX
+ms.keywords: ELEMENT_STATUS_ID_VALID, ERROR_LABEL_QUESTIONABLE, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], ELEMENT_STATUS_FULL, ELEMENT_STATUS_NOT_BUS, ERROR_TRAY_MALFUNCTION, ntddchgr/CHANGER_ELEMENT_STATUS_EX, ERROR_UNHANDLED_ERROR, ELEMENT_STATUS_AVOLTAG, ELEMENT_STATUS_PRODUCT_DATA, ERROR_SLOT_NOT_PRESENT, *PCHANGER_ELEMENT_STATUS_EX, ERROR_DRIVE_NOT_INSTALLED, ELEMENT_STATUS_LUN_VALID, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml, ELEMENT_STATUS_INVERT, ELEMENT_STATUS_IMPEXP, ELEMENT_STATUS_PVOLTAG, ERROR_LABEL_UNREADABLE, ELEMENT_STATUS_EXCEPT, CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_SVALID, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_EXENAB, PCHANGER_ELEMENT_STATUS_EX, _CHANGER_ELEMENT_STATUS_EX, storage.changer_element_status_ex, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices], ELEMENT_STATUS_ACCESS, ELEMENT_STATUS_INENAB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -269,11 +269,11 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 
@@ -281,11 +281,11 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 

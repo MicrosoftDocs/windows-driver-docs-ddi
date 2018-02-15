@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 949D165B-1F42-40EA-B050-38847E14B968
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_ISOCH_FREE_CHANNEL, 1394/IRB_REQ_ISOCH_FREE_CHANNEL, IRB_REQ_ISOCH_FREE_CHANNEL structure [Buses], IEEE.irb_req_isoch_free_channel, IRB_REQ_ISOCH_FREE_CHANNEL"
+ms.keywords: IRB_REQ_ISOCH_FREE_CHANNEL, IEEE.irb_req_isoch_free_channel, 1394/IRB_REQ_ISOCH_FREE_CHANNEL, _IRB_REQ_ISOCH_FREE_CHANNEL, IRB_REQ_ISOCH_FREE_CHANNEL structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

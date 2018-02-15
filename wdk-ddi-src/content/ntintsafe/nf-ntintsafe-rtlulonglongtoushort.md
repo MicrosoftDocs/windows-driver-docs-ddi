@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 209EDB33-34DB-429F-BDEB-B84960E6F20F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlulonglongtoushort, RtlULongLongToUShort, ntintsafe/RtlULongLongToUShort, RtlULongLongToUShort function [Kernel-Mode Driver Architecture]
+ms.keywords: ntintsafe/RtlULongLongToUShort, RtlULongLongToUShort, RtlULongLongToUShort function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtoushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

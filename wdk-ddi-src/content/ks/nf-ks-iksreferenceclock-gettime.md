@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3e5ff621-47ec-4ab7-bf8e-26bff57588f8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, IKsReferenceClock interface [Streaming Media Devices], GetTime method, IKsReferenceClock, stream.iksreferenceclock_gettime, ks/IKsReferenceClock::GetTime, GetTime method [Streaming Media Devices], GetTime method [Streaming Media Devices], IKsReferenceClock interface, GetTime, IKsReferenceClock::GetTime
+ms.keywords: IKsReferenceClock, avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, IKsReferenceClock interface [Streaming Media Devices], GetTime method, GetTime, GetTime method [Streaming Media Devices], stream.iksreferenceclock_gettime, ks/IKsReferenceClock::GetTime, GetTime method [Streaming Media Devices], IKsReferenceClock interface, IKsReferenceClock::GetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

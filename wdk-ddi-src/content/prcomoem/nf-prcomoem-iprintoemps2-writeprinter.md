@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 76037a86-757a-4b6a-b5ba-a742a18938c2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WritePrinter, print_unidrv-pscript_rendering_ea50360f-7f20-443b-9b10-a64f44238666.xml, IPrintOemPS2::WritePrinter, IPrintOemPS2 interface [Print Devices], WritePrinter method, WritePrinter method [Print Devices], IPrintOemPS2 interface, print.iprintoemps2_writeprinter, WritePrinter method [Print Devices], IPrintOemPS2, prcomoem/IPrintOemPS2::WritePrinter
+ms.keywords: WritePrinter method [Print Devices], IPrintOemPS2 interface, prcomoem/IPrintOemPS2::WritePrinter, IPrintOemPS2 interface [Print Devices], WritePrinter method, WritePrinter method [Print Devices], print.iprintoemps2_writeprinter, print_unidrv-pscript_rendering_ea50360f-7f20-443b-9b10-a64f44238666.xml, IPrintOemPS2::WritePrinter, IPrintOemPS2, WritePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

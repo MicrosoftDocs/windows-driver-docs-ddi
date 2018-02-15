@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d6d8c83d-ca89-440a-b6a1-7d384030f7da
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fltcheckoplock, FltCheckOplock, fltkernel/FltCheckOplock, FltCheckOplock function [Installable File System Drivers], FltApiRef_a_to_d_a551884c-ffc1-4b00-9f22-4f0ab8af0aa1.xml
+ms.keywords: fltkernel/FltCheckOplock, FltApiRef_a_to_d_a551884c-ffc1-4b00-9f22-4f0ab8af0aa1.xml, ifsk.fltcheckoplock, FltCheckOplock function [Installable File System Drivers], FltCheckOplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -253,15 +253,11 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
 
 
 
@@ -269,15 +265,19 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">FltCheckOplockEx</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock.md">FltCurrentBatchOplock</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 
@@ -285,7 +285,31 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltoplockisfastiopossible.md">FltOplockIsFastIoPossible</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltuninitializeoplock.md">FltUninitializeOplock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">FltOplockFsctrl</a>
 
 
 
@@ -294,30 +318,6 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltuninitializeoplock.md">FltUninitializeOplock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltoplockisfastiopossible.md">FltOplockIsFastIoPossible</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">FltCheckOplockEx</a>
 
 
 

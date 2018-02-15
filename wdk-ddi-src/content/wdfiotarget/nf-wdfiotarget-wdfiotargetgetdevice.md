@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2e076f2f-59e3-43ca-b83e-3079bbf41df3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetGetDevice method, PFN_WDFIOTARGETGETDEVICE, WdfIoTargetGetDevice, wdf.wdfiotargetgetdevice, kmdf.wdfiotargetgetdevice, DFIOTargetRef_796e5254-23b4-4ed1-b02b-66c5c8560769.xml, wdfiotarget/WdfIoTargetGetDevice
+ms.keywords: wdf.wdfiotargetgetdevice, kmdf.wdfiotargetgetdevice, WdfIoTargetGetDevice method, DFIOTargetRef_796e5254-23b4-4ed1-b02b-66c5c8560769.xml, wdfiotarget/WdfIoTargetGetDevice, WdfIoTargetGetDevice, PFN_WDFIOTARGETGETDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,11 +128,11 @@ device = WdfIoTargetGetDevice(IoTarget);
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>
 
 
 

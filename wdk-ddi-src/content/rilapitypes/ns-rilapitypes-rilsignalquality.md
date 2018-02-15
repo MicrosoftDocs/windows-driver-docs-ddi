@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc5bf370-3996-46de-b27d-8a390a6f407e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsignalquality_2, *LPRILSIGNALQUALITY, RILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSIGNALQUALITY
+ms.keywords: "*LPRILSIGNALQUALITY, RILSIGNALQUALITY, rilapitypes/RILSIGNALQUALITY, netvista.rilsignalquality_2, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

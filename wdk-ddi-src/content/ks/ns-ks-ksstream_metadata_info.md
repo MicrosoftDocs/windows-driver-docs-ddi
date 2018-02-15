@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40C09BCD-407F-4F2D-8780-4DEC1C9246E8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSSTREAM_METADATA_INFO, PKSSTREAM_METADATA_INFO structure pointer [Streaming Media Devices], KSSTREAM_METADATA_INFO structure [Streaming Media Devices], ks/PKSSTREAM_METADATA_INFO, ks/KSSTREAM_METADATA_INFO, stream.ksstream_metadata_info, PKSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO"
+ms.keywords: PKSSTREAM_METADATA_INFO structure pointer [Streaming Media Devices], stream.ksstream_metadata_info, KSSTREAM_METADATA_INFO, PKSSTREAM_METADATA_INFO, ks/KSSTREAM_METADATA_INFO, ks/PKSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO structure [Streaming Media Devices], *PKSSTREAM_METADATA_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

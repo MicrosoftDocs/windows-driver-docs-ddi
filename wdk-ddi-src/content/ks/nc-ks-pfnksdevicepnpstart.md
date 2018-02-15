@@ -96,11 +96,14 @@ Pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> s
 ## -returns
 
 
+
 Should return STATUS_SUCCESS or the error code that was returned from the attempt to perform the operation. The start is guaranteed to succeed if the routine returns a successful status code. Do NOT return STATUS_PENDING.
 
 
 
+
 ## -remarks
+
 
 
 Specify this routine's address in the <b>Start</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
@@ -115,11 +118,16 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
+
+
 <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
 
  
 

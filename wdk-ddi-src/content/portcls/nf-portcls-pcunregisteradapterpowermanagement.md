@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a25ee83f-e267-4966-9be2-ddcbc44b5c15
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: portcls/PcUnregisterAdapterPowerManagement, audio.pcunregisteradapterpowermanagement, PcUnregisterAdapterPowerManagement, audpc-routines_c879c8bb-7466-4683-9a39-2a802f1e6529.xml, PcUnregisterAdapterPowerManagement function [Audio Devices]
+ms.keywords: audpc-routines_c879c8bb-7466-4683-9a39-2a802f1e6529.xml, portcls/PcUnregisterAdapterPowerManagement, audio.pcunregisteradapterpowermanagement, PcUnregisterAdapterPowerManagement, PcUnregisterAdapterPowerManagement function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

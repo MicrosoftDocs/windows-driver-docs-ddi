@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 726a4f12-3cee-4d95-89d3-39f2bb357967
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, display.d3dkmt-getprocessdevicelostsupport, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices], D3DKMT_GETPROCESSDEVICELOSTSUPPORT, _D3DKMT_GETPROCESSDEVICELOSTSUPPORT
+ms.keywords: D3DKMT_GETPROCESSDEVICELOSTSUPPORT, display.d3dkmt-getprocessdevicelostsupport, d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, _D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

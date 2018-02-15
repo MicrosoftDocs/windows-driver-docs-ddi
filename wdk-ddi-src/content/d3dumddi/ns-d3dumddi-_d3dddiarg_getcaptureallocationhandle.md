@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 588ebf7a-db83-4eb8-8403-04b215bed12b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_8fece49c-e3e6-4683-b4af-517da6f73cc7.xml, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, display.d3dddiarg_getcaptureallocationhandle, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, display.d3dddiarg_getcaptureallocationhandle, UMDisplayDriver_param_Structs_8fece49c-e3e6-4683-b4af-517da6f73cc7.xml, _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure [Display Devices], D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

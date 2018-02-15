@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 864891dd-7db5-4343-9014-c6a284f1fd7e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], wsk/PWSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH, netvista.wsk_provider_dispatch, PWSK_PROVIDER_DISPATCH, wskref_3e9340b7-e9e6-46bd-8f28-810354655c6c.xml, PWSK_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], *PWSK_PROVIDER_DISPATCH, _WSK_PROVIDER_DISPATCH
+ms.keywords: wsk/WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH, wskref_3e9340b7-e9e6-46bd-8f28-810354655c6c.xml, wsk/PWSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH, *PWSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_provider_dispatch, _WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -193,15 +193,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 
 
@@ -209,11 +205,15 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4834b37-7269-47e3-9af4-81d17fa79179
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_GetUiccRecordStatus, RIL_GetUiccRecordStatus, netvista.ril_getuiccrecordstatus, RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_GetUiccRecordStatus, rilapi/RIL_GetUiccRecordStatus, RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccrecordstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

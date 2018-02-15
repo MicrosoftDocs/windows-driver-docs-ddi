@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a6534917-5fe6-449b-8e85-398d26730f66
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IMiniportWavePciStream, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, audio.iminiportwavepcistream_revokemappings, RevokeMappings method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream interface [Audio Devices], RevokeMappings method, IMiniportWavePciStream::RevokeMappings, RevokeMappings, RevokeMappings method [Audio Devices], portcls/IMiniportWavePciStream::RevokeMappings
+ms.keywords: IMiniportWavePciStream::RevokeMappings, RevokeMappings method [Audio Devices], IMiniportWavePciStream interface, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, IMiniportWavePciStream interface [Audio Devices], RevokeMappings method, portcls/IMiniportWavePciStream::RevokeMappings, RevokeMappings, IMiniportWavePciStream, RevokeMappings method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -122,19 +122,19 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536911">IPortWavePciStream::ReleaseMapping</a>
 
 
 
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
 

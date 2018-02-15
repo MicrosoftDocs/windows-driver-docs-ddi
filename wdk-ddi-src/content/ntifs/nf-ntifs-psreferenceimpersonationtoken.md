@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c72f48a8-ba51-423f-9105-7d78521dcae2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/PsReferenceImpersonationToken, PsReferenceImpersonationToken, PsReferenceImpersonationToken routine [Installable File System Drivers], ifsk.psreferenceimpersonationtoken, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml
+ms.keywords: ifsk.psreferenceimpersonationtoken, PsReferenceImpersonationToken, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml, ntifs/PsReferenceImpersonationToken, PsReferenceImpersonationToken routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,11 +128,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
+
+
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b1ff6569-9568-40d8-b2a9-e63ce44720a2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsEvent method [Streaming Media Devices], IKsControl interface, IKsControl, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, KsEvent, stream.ikscontrol_ksevent, IKsControl interface [Streaming Media Devices], KsEvent method, IKsControl::KsEvent, ksproxy/IKsControl::KsEvent, KsEvent method [Streaming Media Devices]
+ms.keywords: KsEvent method [Streaming Media Devices], IKsControl::KsEvent, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, IKsControl interface [Streaming Media Devices], KsEvent method, KsEvent, IKsControl, ksproxy/IKsControl::KsEvent, KsEvent method [Streaming Media Devices], IKsControl interface, stream.ikscontrol_ksevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -118,7 +118,7 @@ The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle i
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 
 
 
@@ -130,7 +130,7 @@ The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle i
 
 
 
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 

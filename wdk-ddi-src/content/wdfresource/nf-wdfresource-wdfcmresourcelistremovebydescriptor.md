@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 532b56c9-6c24-4737-b1d6-e44802a898e3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfresource/WdfCmResourceListRemoveByDescriptor, WdfCmResourceListRemoveByDescriptor, wdf.wdfcmresourcelistremovebydescriptor, kmdf.wdfcmresourcelistremovebydescriptor, DFResourceObjectRef_14bc7eb5-5cf4-49ae-83da-144ba0c9adea.xml, PFN_WDFCMRESOURCELISTREMOVEBYDESCRIPTOR, WdfCmResourceListRemoveByDescriptor method
+ms.keywords: WdfCmResourceListRemoveByDescriptor method, WdfCmResourceListRemoveByDescriptor, PFN_WDFCMRESOURCELISTREMOVEBYDESCRIPTOR, wdf.wdfcmresourcelistremovebydescriptor, kmdf.wdfcmresourcelistremovebydescriptor, DFResourceObjectRef_14bc7eb5-5cf4-49ae-83da-144ba0c9adea.xml, wdfresource/WdfCmResourceListRemoveByDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

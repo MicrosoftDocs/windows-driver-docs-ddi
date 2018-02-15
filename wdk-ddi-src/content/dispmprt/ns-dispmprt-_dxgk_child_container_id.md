@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9573f6e9-80a6-4390-b2ab-4543e3b1f5f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID structure [Display Devices], display.dxgk_child_container_id, PDXGK_CHILD_CONTAINER_ID structure pointer [Display Devices], PDXGK_CHILD_CONTAINER_ID, dispmprt/DXGK_CHILD_CONTAINER_ID, *PDXGK_CHILD_CONTAINER_ID, _DXGK_CHILD_CONTAINER_ID
+ms.keywords: dispmprt/PDXGK_CHILD_CONTAINER_ID, _DXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID, dispmprt/DXGK_CHILD_CONTAINER_ID, PDXGK_CHILD_CONTAINER_ID structure pointer [Display Devices], display.dxgk_child_container_id, *PDXGK_CHILD_CONTAINER_ID, PDXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

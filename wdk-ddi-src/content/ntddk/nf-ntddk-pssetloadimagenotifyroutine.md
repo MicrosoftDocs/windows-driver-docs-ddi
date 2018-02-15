@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e90bc043-1b92-474c-b6c7-7e510271118b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsSetLoadImageNotifyRoutine, PsSetLoadImageNotifyRoutine, kernel.pssetloadimagenotifyroutine, PsSetLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_287b9d79-8b77-40b6-8fe7-21ac3551e437.xml
+ms.keywords: k108_287b9d79-8b77-40b6-8fe7-21ac3551e437.xml, kernel.pssetloadimagenotifyroutine, ntddk/PsSetLoadImageNotifyRoutine, PsSetLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], PsSetLoadImageNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,7 @@ A driver must remove any callbacks it registers before it unloads. You can remov
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
+<a href="..\ntddk\nf-ntddk-psremoveloadimagenotifyroutine.md">PsRemoveLoadImageNotifyRoutine</a>
 
 
 
@@ -114,11 +114,11 @@ A driver must remove any callbacks it registers before it unloads. You can remov
 
 
 
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-psremoveloadimagenotifyroutine.md">PsRemoveLoadImageNotifyRoutine</a>
 
 
 

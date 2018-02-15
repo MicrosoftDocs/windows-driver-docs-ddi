@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: C8A156F4-3150-4241-947E-B0A6927F2BFE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PGPIO_CONNECT_IO_PINS_PARAMETERS, _GPIO_CONNECT_IO_PINS_PARAMETERS, GPIO.gpio_connect_io_pins_parameters, gpioclx/GPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_CONNECT_IO_PINS_PARAMETERS, PGPIO_CONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], gpioclx/PGPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS"
+ms.keywords: GPIO.gpio_connect_io_pins_parameters, GPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_CONNECT_IO_PINS_PARAMETERS, PGPIO_CONNECT_IO_PINS_PARAMETERS, _GPIO_CONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_CONNECT_IO_PINS_PARAMETERS, GPIO_CONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_CONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], *PGPIO_CONNECT_IO_PINS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,15 +153,15 @@ The <i>ClientParameters</i> parameter to the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION_XXX</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439347">CLIENT_ConnectIoPins</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/B8091F53-C9B7-4A22-BDE3-4156370ABA83">GPIO_PIN_PULL_CONFIGURATION_XXX</a>
 
 
 

@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetOutputTargetRect
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT callback
@@ -78,13 +78,10 @@ VOID APIENTRY* pfnVideoProcessorSetOutputTargetRect(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
 
 
-
 ### -param BOOL
-
 
 
 ### -param *
@@ -92,6 +89,13 @@ VOID APIENTRY* pfnVideoProcessorSetOutputTargetRect(
 
 
 
+
+
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the target rectangle specified by the <i>pOutputRect</i> parameter should be used by the video processor.
 
 
 #### - hDevice [in]
@@ -108,26 +112,26 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the target rectangle specified by the <i>pOutputRect</i> parameter should be used by the video processor.
-
-
 #### - pOutputRect [in]
 
 A  pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the target rectangle. 
+
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The target rectangle is the area within the destination surface where the output will be drawn. The target rectangle is given in pixel coordinates, relative to the destination surface.
@@ -140,11 +144,16 @@ If this function is never called, or if the <i>Enable</i> parameter is FALSE, th
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
 
  
 

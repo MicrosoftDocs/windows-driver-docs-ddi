@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a571c054-380d-4d56-9094-d55868222b33
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_e9c68945-23e3-47f1-99b1-a0c62944669f.xml, WdfIoResourceListUpdateDescriptor method, wdfresource/WdfIoResourceListUpdateDescriptor, WdfIoResourceListUpdateDescriptor, wdf.wdfioresourcelistupdatedescriptor, PFN_WDFIORESOURCELISTUPDATEDESCRIPTOR, kmdf.wdfioresourcelistupdatedescriptor
+ms.keywords: WdfIoResourceListUpdateDescriptor method, kmdf.wdfioresourcelistupdatedescriptor, wdf.wdfioresourcelistupdatedescriptor, PFN_WDFIORESOURCELISTUPDATEDESCRIPTOR, WdfIoResourceListUpdateDescriptor, DFResourceObjectRef_e9c68945-23e3-47f1-99b1-a0c62944669f.xml, wdfresource/WdfIoResourceListUpdateDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

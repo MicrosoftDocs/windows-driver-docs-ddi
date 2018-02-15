@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a93d3a2-0274-4b14-9c4b-9ed31a48e600
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_discardcontentflags, DXGK_DISCARDCONTENTFLAGS, d3dkmddi/DXGK_DISCARDCONTENTFLAGS, _DXGK_DISCARDCONTENTFLAGS, DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, DXGK_DISCARDCONTENTFLAGS structure [Display Devices]
+ms.keywords: DXGK_DISCARDCONTENTFLAGS, _DXGK_DISCARDCONTENTFLAGS, DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, display.dxgk_discardcontentflags, d3dkmddi/DXGK_DISCARDCONTENTFLAGS, DXGK_DISCARDCONTENTFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
 
 

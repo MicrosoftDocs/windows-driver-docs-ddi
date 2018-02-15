@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ab240a95-6308-4953-95f6-9baa280ecf99
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_f2db3de1-bfa0-4ad9-a537-6cc46f972984.xml, BdaPropertyGetPinControl function [Streaming Media Devices], bdasup/BdaPropertyGetPinControl, BdaPropertyGetPinControl, stream.bdapropertygetpincontrol
+ms.keywords: bdasup/BdaPropertyGetPinControl, BdaPropertyGetPinControl, bdaref_f2db3de1-bfa0-4ad9-a537-6cc46f972984.xml, BdaPropertyGetPinControl function [Streaming Media Devices], stream.bdapropertygetpincontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,7 +110,7 @@ A BDA minidriver calls the <b>BdaPropertyGetPinControl</b> function to retrieve 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564350">KSPROPERTY_BDA_PIN_TYPE</a>
 
 
 
@@ -118,11 +118,11 @@ A BDA minidriver calls the <b>BdaPropertyGetPinControl</b> function to retrieve 
 
 
 
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564348">KSPROPERTY_BDA_PIN_ID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564350">KSPROPERTY_BDA_PIN_TYPE</a>
 
 
 

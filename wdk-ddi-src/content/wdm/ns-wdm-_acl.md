@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: wdm/PACL, wdm/ACL, *PACL, ifsk.acl, PACL structure pointer [Installable File System Drivers], ACL structure [Installable File System Drivers], securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, ACL, PACL, _ACL
+ms.keywords: ACL structure [Installable File System Drivers], ACL, PACL structure pointer [Installable File System Drivers], ifsk.acl, wdm/PACL, PACL, _ACL, *PACL, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, wdm/ACL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,23 +164,7 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
 
@@ -188,7 +172,15 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 
 
@@ -196,11 +188,19 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 

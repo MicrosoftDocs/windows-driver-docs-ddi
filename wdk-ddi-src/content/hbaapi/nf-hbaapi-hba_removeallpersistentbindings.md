@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f15823dd-a9c5-46a8-a376-41b831450b66
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_RemoveAllPersistentBindings, fibreHBA_rtns_1b72392e-f155-41aa-915a-a39da952afec.xml, storage.hba_removeallpersistentbindings, HBA_RemoveAllPersistentBindings routine [Storage Devices], HBA_RemoveAllPersistentBindings
+ms.keywords: fibreHBA_rtns_1b72392e-f155-41aa-915a-a39da952afec.xml, storage.hba_removeallpersistentbindings, HBA_RemoveAllPersistentBindings routine [Storage Devices], HBA_RemoveAllPersistentBindings, hbaapi/HBA_RemoveAllPersistentBindings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

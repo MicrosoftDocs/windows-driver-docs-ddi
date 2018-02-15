@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 897C74A3-041D-487E-8891-7161B76ABAA1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], POPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER, storage.populate_token_header, POPULATE_TOKEN_HEADER structure [Storage Devices], *PPOPULATE_TOKEN_HEADER, scsi/POPULATE_TOKEN_HEADER, scsi/PPOPULATE_TOKEN_HEADER
+ms.keywords: storage.populate_token_header, *PPOPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], scsi/PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], POPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER, scsi/POPULATE_TOKEN_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

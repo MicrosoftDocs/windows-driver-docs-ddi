@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e50199d2-948d-4572-8688-89d92961f85b
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlUnicodeToMultiByteN, rtlref_233ec1ac-8ecc-4261-8f17-11485d03ec50.xml, ntifs/RtlUnicodeToMultiByteN, ifsk.rtlunicodetomultibyten, RtlUnicodeToMultiByteN routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlunicodetomultibyten, ntifs/RtlUnicodeToMultiByteN, rtlref_233ec1ac-8ecc-4261-8f17-11485d03ec50.xml, RtlUnicodeToMultiByteN, RtlUnicodeToMultiByteN routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,7 +124,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
+<a href="..\ntifs\nf-ntifs-rtlupcaseunicodetomultibyten.md">RtlUpcaseUnicodeToMultiByteN</a>
 
 
 
@@ -132,7 +132,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlupcaseunicodetomultibyten.md">RtlUpcaseUnicodeToMultiByteN</a>
+<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
 
 
 

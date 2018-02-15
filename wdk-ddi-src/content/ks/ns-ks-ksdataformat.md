@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDATAFORMAT structure [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, *PKSDATARANGE, ks/PKSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], PKSDATAFORMAT structure pointer [Streaming Media Devices], ks/KSDATAFORMAT, ks/PKSDATAFORMAT, KSDATARANGE structure [Streaming Media Devices], KSDATARANGE, PKSDATAFORMAT, *PKSDATAFORMAT, ks/KSDATARANGE, stream.ksdataformat, PKSDATARANGE, KSDATAFORMAT
+ms.keywords: "*PKSDATARANGE, PKSDATAFORMAT, ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, ks/PKSDATARANGE, ks/KSDATARANGE, PKSDATAFORMAT structure pointer [Streaming Media Devices], PKSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], ks/KSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], KSDATAFORMAT, *PKSDATAFORMAT, stream.ksdataformat, KSDATARANGE structure [Streaming Media Devices], KSDATARANGE, ks/PKSDATAFORMAT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

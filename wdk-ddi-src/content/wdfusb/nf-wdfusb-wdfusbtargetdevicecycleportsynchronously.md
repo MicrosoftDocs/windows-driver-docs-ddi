@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8dee089c-1f1a-4090-8c43-8362bb684139
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceCyclePortSynchronously method, PFN_WDFUSBTARGETDEVICECYCLEPORTSYNCHRONOUSLY, DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, WdfUsbTargetDeviceCyclePortSynchronously, kmdf.wdfusbtargetdevicecycleportsynchronously, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously, wdf.wdfusbtargetdevicecycleportsynchronously
+ms.keywords: PFN_WDFUSBTARGETDEVICECYCLEPORTSYNCHRONOUSLY, wdf.wdfusbtargetdevicecycleportsynchronously, WdfUsbTargetDeviceCyclePortSynchronously, WdfUsbTargetDeviceCyclePortSynchronously method, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously, DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, kmdf.wdfusbtargetdevicecycleportsynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

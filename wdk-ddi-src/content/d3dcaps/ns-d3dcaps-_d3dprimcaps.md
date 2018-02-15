@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fa725534-ccc3-4e71-a83f-b25fd4c72c14
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DPRIMCAPS, d3dcaps/LPD3DPRIMCAPS, LPD3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], d3dcaps/D3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, *LPD3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], _D3DPrimCaps, display.d3dprimcaps
+ms.keywords: D3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], d3dcaps/LPD3DPRIMCAPS, display.d3dprimcaps, LPD3DPRIMCAPS, *LPD3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, D3DPRIMCAPS structure [Display Devices], _D3DPrimCaps, d3dcaps/D3DPRIMCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

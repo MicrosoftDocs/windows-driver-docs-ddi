@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50F5C1AD-BA51-4376-8093-E8596265FDAF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PowerMonitorDim, PowerMonitorOn, *PMONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], MONITOR_DISPLAY_STATE, kernel.monitor_display_state, wdm/PowerMonitorOff, wdm/MONITOR_DISPLAY_STATE, wdm/PowerMonitorOn, wdm/PowerMonitorDim, _MONITOR_DISPLAY_STATE, PowerMonitorOff
+ms.keywords: MONITOR_DISPLAY_STATE, PowerMonitorDim, kernel.monitor_display_state, *PMONITOR_DISPLAY_STATE, wdm/PowerMonitorOn, wdm/PowerMonitorOff, wdm/PowerMonitorDim, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], wdm/MONITOR_DISPLAY_STATE, PowerMonitorOn, PowerMonitorOff, _MONITOR_DISPLAY_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

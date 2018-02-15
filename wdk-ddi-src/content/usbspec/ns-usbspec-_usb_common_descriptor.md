@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1ea51976-c786-4ca3-aaa3-a44fa8697efa
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_USB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR, usbstrct_be74945b-60a4-44cc-9c7b-e1eb5cc25525.xml, usbspec/PUSB_COMMON_DESCRIPTOR, buses.usb_common_descriptor, *PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR structure pointer [Buses], USB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR structure [Buses], usbspec/USB_COMMON_DESCRIPTOR"
+ms.keywords: usbstrct_be74945b-60a4-44cc-9c7b-e1eb5cc25525.xml, PUSB_COMMON_DESCRIPTOR structure pointer [Buses], _USB_COMMON_DESCRIPTOR, buses.usb_common_descriptor, PUSB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR structure [Buses], *PUSB_COMMON_DESCRIPTOR, usbspec/USB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR, usbspec/PUSB_COMMON_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

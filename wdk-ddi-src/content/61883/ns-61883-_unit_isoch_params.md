@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1c661a35-8209-49c5-9987-b4b6e9e710b4
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PUNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], UNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS structure [Buses], _UNIT_ISOCH_PARAMS, 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, IEEE.unit_isoch_params
+ms.keywords: "*PUNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS, IEEE.unit_isoch_params, 61883/PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], UNIT_ISOCH_PARAMS structure [Buses], PUNIT_ISOCH_PARAMS, _UNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS, 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,11 +101,11 @@ The UNIT_ISOCH_PARAMS structure can be used with <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537002">Av61883_SetUnitInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537002">Av61883_SetUnitInfo</a>
 
 
 

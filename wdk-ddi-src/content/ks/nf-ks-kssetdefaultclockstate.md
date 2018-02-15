@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5893f4ff-0eb5-4cdc-8f58-f7654c1ce9fc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetDefaultClockState function [Streaming Media Devices], ks/KsSetDefaultClockState, KsSetDefaultClockState, stream.kssetdefaultclockstate, ksfunc_a57f26f0-cd4a-4d80-a090-788aef1ccf4b.xml
+ms.keywords: ksfunc_a57f26f0-cd4a-4d80-a090-788aef1ccf4b.xml, stream.kssetdefaultclockstate, ks/KsSetDefaultClockState, KsSetDefaultClockState, KsSetDefaultClockState function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

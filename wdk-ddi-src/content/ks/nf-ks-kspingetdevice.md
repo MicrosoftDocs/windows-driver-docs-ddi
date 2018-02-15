@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 965aa806-90cc-4c82-a126-42ae433cba3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspingetdevice, avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml, KsPinGetDevice function [Streaming Media Devices], ks/KsPinGetDevice, KsPinGetDevice
+ms.keywords: ks/KsPinGetDevice, avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml, KsPinGetDevice, KsPinGetDevice function [Streaming Media Devices], stream.kspingetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,7 +92,11 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsG
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
 
 
 
@@ -100,11 +104,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsG
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
-<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 

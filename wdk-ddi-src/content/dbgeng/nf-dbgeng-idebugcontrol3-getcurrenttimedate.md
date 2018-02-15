@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b3c5a9d-32a9-4c2a-9f99-694b652c5653
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::GetCurrentTimeDate, IDebugControl2, GetCurrentTimeDate method [Windows Debugging], GetCurrentTimeDate method [Windows Debugging], IDebugControl3 interface, debugger.getcurrenttimedate, GetCurrentTimeDate method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetCurrentTimeDate, GetCurrentTimeDate, IDebugControl3, dbgeng/IDebugControl3::GetCurrentTimeDate, IDebugControl2 interface [Windows Debugging], GetCurrentTimeDate method, IDebugControl3 interface [Windows Debugging], GetCurrentTimeDate method, IDebugControl_166ad959-02b4-4b42-8acd-1456d224f9e7.xml, IDebugControl2::GetCurrentTimeDate
+ms.keywords: IDebugControl_166ad959-02b4-4b42-8acd-1456d224f9e7.xml, dbgeng/IDebugControl3::GetCurrentTimeDate, GetCurrentTimeDate, IDebugControl3, IDebugControl3::GetCurrentTimeDate, GetCurrentTimeDate method [Windows Debugging], GetCurrentTimeDate method [Windows Debugging], IDebugControl2 interface, GetCurrentTimeDate method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetCurrentTimeDate, IDebugControl2::GetCurrentTimeDate, IDebugControl3 interface [Windows Debugging], GetCurrentTimeDate method, debugger.getcurrenttimedate, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetCurrentTimeDate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,11 +114,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545883">GetCurrentSystemUpTime</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545883">GetCurrentSystemUpTime</a>
 
 
 

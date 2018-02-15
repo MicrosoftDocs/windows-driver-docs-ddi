@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a7e1a7cf-60ea-4489-a1c2-eac5b218af8c
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], portcls/PcNewResourceSublist, audio.pcnewresourcesublist
+ms.keywords: portcls/PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], PcNewResourceSublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, audio.pcnewresourcesublist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,15 +121,15 @@ The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameter
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536981">IResourceList::AddEntryFromParent</a>
-
-
-
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 
 
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536981">IResourceList::AddEntryFromParent</a>
 
 
 

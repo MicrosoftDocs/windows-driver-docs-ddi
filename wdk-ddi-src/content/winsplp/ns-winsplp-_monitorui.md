@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c6701ca4-f3ce-40b9-8582-d70e8b2acde3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.monitorui, *PMONITORUI, PMONITORUI, winsplp/MONITORUI, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, MONITORUI structure [Print Devices], MONITORUI, PMONITORUI structure pointer [Print Devices], winsplp/PMONITORUI, _MONITORUI
+ms.keywords: MONITORUI structure [Print Devices], PMONITORUI structure pointer [Print Devices], *PMONITORUI, print.monitorui, MONITORUI, winsplp/MONITORUI, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, _MONITORUI, PMONITORUI, winsplp/PMONITORUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

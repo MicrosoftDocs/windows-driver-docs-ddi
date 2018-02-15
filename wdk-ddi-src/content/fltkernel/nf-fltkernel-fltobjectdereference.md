@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4add891-e90e-4fad-b862-c5cad91a277d
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltObjectDereference, FltObjectDereference, ifsk.fltobjectdereference, FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, FltObjectDereference routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltObjectDereference, FltObjectDereference, FltObjectDereference routine [Installable File System Drivers], ifsk.fltobjectdereference, FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dae4c499-86c7-4f2b-bd5a-df2a62cdb77f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_adapter, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ADAPTER, Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, _DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], wlclient/PDOT11_ADAPTER, PDOT11_ADAPTER, DOT11_ADAPTER, wlclient/DOT11_ADAPTER
+ms.keywords: DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, netvista.dot11_adapter, *PDOT11_ADAPTER, _DOT11_ADAPTER, wlclient/DOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], DOT11_ADAPTER, wlclient/PDOT11_ADAPTER, PDOT11_ADAPTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,11 +112,11 @@ The operating system calls the
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
 
 
 

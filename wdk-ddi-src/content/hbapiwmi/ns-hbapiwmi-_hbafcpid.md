@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4fa3093-a328-4d90-bc51-0e7a6db1ed58
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBAFCPID structure [Storage Devices], *PHBAFCPID, _HBAFCPID, hbapiwmi/PHBAFCPID, HBAFCPID, PHBAFCPID structure pointer [Storage Devices], structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml, hbapiwmi/HBAFCPID, storage.hbafcpid, PHBAFCPID
+ms.keywords: storage.hbafcpid, structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml, HBAFCPID, PHBAFCPID structure pointer [Storage Devices], HBAFCPID structure [Storage Devices], *PHBAFCPID, hbapiwmi/PHBAFCPID, _HBAFCPID, PHBAFCPID, hbapiwmi/HBAFCPID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

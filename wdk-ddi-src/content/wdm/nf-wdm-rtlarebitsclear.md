@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f4092f06-3ed7-4153-8498-0fdfac958a1e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlAreBitsClear, k109_bbef7cb1-d817-498e-b091-2d07acc0e552.xml, RtlAreBitsClear routine [Kernel-Mode Driver Architecture], kernel.rtlarebitsclear, wdm/RtlAreBitsClear
+ms.keywords: kernel.rtlarebitsclear, wdm/RtlAreBitsClear, RtlAreBitsClear, k109_bbef7cb1-d817-498e-b091-2d07acc0e552.xml, RtlAreBitsClear routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,23 +105,11 @@ Callers of <b>RtlAreBitsClear</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlcheckbit.md">RtlCheckBit</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
 
 
 
@@ -129,7 +117,15 @@ Callers of <b>RtlAreBitsClear</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 
 
-<a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
+<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
 
 
 
@@ -138,6 +134,10 @@ Callers of <b>RtlAreBitsClear</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 
 <a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
 
 
 

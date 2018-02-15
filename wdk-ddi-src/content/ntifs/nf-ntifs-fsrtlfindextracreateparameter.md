@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e72958d0-b7ff-45b6-bdd2-f894d5b44cf4
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlfindextracreateparameter, fsrtlref_3536c7a7-2d3c-4aa5-9a91-5579a8108655.xml, ntifs/FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter routine [Installable File System Drivers]
+ms.keywords: FsRtlFindExtraCreateParameter routine [Installable File System Drivers], ifsk.fsrtlfindextracreateparameter, fsrtlref_3536c7a7-2d3c-4aa5-9a91-5579a8108655.xml, ntifs/FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,15 +131,7 @@ Optional parameter that receives the size, in bytes, of the found ECP context st
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 
@@ -147,11 +139,7 @@ Optional parameter that receives the size, in bytes, of the found ECP context st
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
-
-
-
-<b>FltAllocateExtraCreateParameterFromLookasideList</b>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -159,11 +147,23 @@ Optional parameter that receives the size, in bytes, of the found ECP context st
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+
+
+<b>FltAllocateExtraCreateParameterFromLookasideList</b>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
 
 

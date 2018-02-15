@@ -103,11 +103,11 @@ The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called vari
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
-
-
-
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
 
 

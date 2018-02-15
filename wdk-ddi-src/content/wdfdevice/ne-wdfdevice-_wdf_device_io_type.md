@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ad08e4f-7a9b-4052-888e-ae01c9c105c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_device_io_type, PWDF_DEVICE_IO_TYPE enumeration pointer, wdfdevice/WdfDeviceIoNeither, WdfDeviceIoDirect, *PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBufferedOrDirect, WDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, kmdf.wdf_device_io_type, WdfDeviceIoUndefined, WDF_DEVICE_IO_TYPE enumeration, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, _WDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBuffered, WdfDeviceIoBuffered, wdfdevice/PWDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE, wdfdevice/WDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoUndefined, wdfdevice/WdfDeviceIoDirect, WdfDeviceIoBufferedOrDirect
+ms.keywords: WdfDeviceIoUndefined, wdf.wdf_device_io_type, WdfDeviceIoNeither, WdfDeviceIoDirect, kmdf.wdf_device_io_type, wdfdevice/WdfDeviceIoNeither, wdfdevice/WdfDeviceIoDirect, wdfdevice/WdfDeviceIoUndefined, PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBuffered, WDF_DEVICE_IO_TYPE, wdfdevice/PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoBufferedOrDirect, wdfdevice/WDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE enumeration, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, _WDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE enumeration pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

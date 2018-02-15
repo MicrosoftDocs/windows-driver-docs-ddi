@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 36883440-805F-4588-AA04-3A7BCBEB6D76
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses._ucxusbdevicecreate, UcxUsbDeviceCreate, UcxUsbDeviceCreate method [Buses], ucxusbdevice/UcxUsbDeviceCreate
+ms.keywords: UcxUsbDeviceCreate method [Buses], UcxUsbDeviceCreate, buses._ucxusbdevicecreate, ucxusbdevice/UcxUsbDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

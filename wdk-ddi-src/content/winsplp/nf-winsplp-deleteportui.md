@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a556ec29-9149-4185-b4b3-9aae803e62f7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: pfnDeletePortUI function [Print Devices], winsplp/pfnDeletePortUI, print.deleteportui, pfnDeletePortUI, DeletePortUI, spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml
+ms.keywords: pfnDeletePortUI, DeletePortUI, winsplp/pfnDeletePortUI, pfnDeletePortUI function [Print Devices], print.deleteportui, spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,11 +147,11 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 
 
-<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
 
 
 

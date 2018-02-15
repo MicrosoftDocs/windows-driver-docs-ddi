@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e54864de-9558-44b1-9c5a-0f2ecc6516b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrClientDetachProviderComplete, netvista.nmrclientdetachprovidercomplete, nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml, NmrClientDetachProviderComplete
+ms.keywords: nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml, netvista.nmrclientdetachprovidercomplete, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], NmrClientDetachProviderComplete, netioddk/NmrClientDetachProviderComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

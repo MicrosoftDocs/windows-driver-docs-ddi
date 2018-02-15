@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 337C9FFE-F97A-4F0F-9567-D1FF532FE165
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UdecxUsbHighSpeed, UdecxUsbLowSpeed, udecxusbdevice/UdecxUsbFullSpeed, udecxusbdevice/UdecxUsbHighSpeed, UDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED enumeration [Buses], UdecxUsbFullSpeed, buses.udecx_usb_device_speed, *PUDECX_USB_DEVICE_SPEED, _UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbLowSpeed, UdecxUsbSuperSpeed, udecxusbdevice/UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbSuperSpeed
+ms.keywords: "*PUDECX_USB_DEVICE_SPEED, udecxusbdevice/UDECX_USB_DEVICE_SPEED, UdecxUsbHighSpeed, _UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbHighSpeed, UdecxUsbSuperSpeed, UdecxUsbFullSpeed, UDECX_USB_DEVICE_SPEED, UdecxUsbLowSpeed, buses.udecx_usb_device_speed, udecxusbdevice/UdecxUsbLowSpeed, udecxusbdevice/UdecxUsbFullSpeed, udecxusbdevice/UdecxUsbSuperSpeed, UDECX_USB_DEVICE_SPEED enumeration [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

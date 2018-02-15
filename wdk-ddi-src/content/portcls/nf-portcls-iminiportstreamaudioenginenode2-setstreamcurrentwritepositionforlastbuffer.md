@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 93E3D03B-6FA1-49D5-AF38-6C2FEA3FC95D
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer, IMiniportStreamAudioEngineNode2, SetStreamCurrentWritePositionForLastBuffer, IMiniportStreamAudioEngineNode2 interface [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, portcls/IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2 interface
+ms.keywords: SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2 interface [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method, SetStreamCurrentWritePositionForLastBuffer, portcls/IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, IMiniportStreamAudioEngineNode2, audio.iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2 interface, IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

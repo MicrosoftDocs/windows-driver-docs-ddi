@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6279f9ed-f271-45e6-92ef-2a919f3584ed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfinterruptcreate, wdfinterrupt/WdfInterruptCreate, WdfInterruptCreate, kmdf.wdfinterruptcreate, DFInterruptObjectRef_44b197bb-82d6-45ff-a640-67fd1de506cc.xml, WdfInterruptCreate method
+ms.keywords: wdfinterrupt/WdfInterruptCreate, WdfInterruptCreate method, wdf.wdfinterruptcreate, DFInterruptObjectRef_44b197bb-82d6-45ff-a640-67fd1de506cc.xml, WdfInterruptCreate, kmdf.wdfinterruptcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -271,7 +271,11 @@ status = WdfInterruptCreate(
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
 
 
 
@@ -283,11 +287,7 @@ status = WdfInterruptCreate(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

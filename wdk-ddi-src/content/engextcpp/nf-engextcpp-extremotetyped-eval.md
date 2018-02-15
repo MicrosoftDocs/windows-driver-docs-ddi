@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f54c7dfd-1997-4056-b20a-94438552aeca
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Eval method [Windows Debugging], debugger.extremotetyped_eval, EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, Eval, Eval method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], Eval method, ExtRemoteTyped::Eval, ExtRemoteTyped
+ms.keywords: ExtRemoteTyped, ExtRemoteTyped::Eval, EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, ExtRemoteTyped interface [Windows Debugging], Eval method, Eval method [Windows Debugging], debugger.extremotetyped_eval, Eval method [Windows Debugging], ExtRemoteTyped interface, Eval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: eeec5e45-4db2-4a81-b773-0f9cbf86f593
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: Notify method [Audio Devices], IPortMidi interface [Audio Devices], Notify method, Notify, audio.iportmidi_notify, audmp-routines_33df6b8a-0ebf-4544-8ad4-17fb93edf0c9.xml, Notify method [Audio Devices], IPortMidi interface, IPortMidi, portcls/IPortMidi::Notify, IPortMidi::Notify
+ms.keywords: IPortMidi::Notify, Notify, portcls/IPortMidi::Notify, IPortMidi interface [Audio Devices], Notify method, audmp-routines_33df6b8a-0ebf-4544-8ad4-17fb93edf0c9.xml, Notify method [Audio Devices], IPortMidi interface, audio.iportmidi_notify, Notify method [Audio Devices], IPortMidi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

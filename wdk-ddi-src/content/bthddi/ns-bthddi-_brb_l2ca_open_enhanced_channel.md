@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 34CA2A3E-871F-46D4-962A-8EE8D7B8DA15
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth._brb_l2ca_open_enhanced_channel, BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth.brb_l2ca_open_enhanced_channel"
+ms.keywords: BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth.brb_l2ca_open_enhanced_channel, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth._brb_l2ca_open_enhanced_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

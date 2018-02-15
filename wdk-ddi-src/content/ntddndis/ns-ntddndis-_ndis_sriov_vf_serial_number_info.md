@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ff20b137-4b3c-4e7b-b464-81e15b536081
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, *PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, netvista.ndis_sriov_vf_serial_number_info, ntddndis/NDIS_SRIOV_VF_SERIAL_NUMBER_INFO
+ms.keywords: PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, ntddndis/NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, _NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, *PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, ntddndis/PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_vf_serial_number_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

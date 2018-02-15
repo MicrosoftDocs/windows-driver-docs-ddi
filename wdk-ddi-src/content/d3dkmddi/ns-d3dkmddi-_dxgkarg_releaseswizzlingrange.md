@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7d1af11-c360-4f7f-a47a-cf7a182b2b78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_RELEASESWIZZLINGRANGE, display.dxgkarg_releaseswizzlingrange, _DXGKARG_RELEASESWIZZLINGRANGE, DmStructs_7ed7a86e-7376-47a8-8198-9c991005fd0a.xml, DXGKARG_RELEASESWIZZLINGRANGE structure [Display Devices], d3dkmddi/DXGKARG_RELEASESWIZZLINGRANGE
+ms.keywords: display.dxgkarg_releaseswizzlingrange, DXGKARG_RELEASESWIZZLINGRANGE, DmStructs_7ed7a86e-7376-47a8-8198-9c991005fd0a.xml, d3dkmddi/DXGKARG_RELEASESWIZZLINGRANGE, _DXGKARG_RELEASESWIZZLINGRANGE, DXGKARG_RELEASESWIZZLINGRANGE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,11 +90,11 @@ typedef struct _DXGKARG_RELEASESWIZZLINGRANGE {
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a>
 
 
 

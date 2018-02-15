@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: EC31A704-A264-4A77-B979-BFA59B42BA94
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PBTHX_HCI_READ_WRITE_CONTEXT, bthxddi/PBTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT, bltooth.bthx_hci_read_write_context, _BTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT structure [Bluetooth Devices], bthxddi/BTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT structure pointer [Bluetooth Devices]
+ms.keywords: BTHX_HCI_READ_WRITE_CONTEXT structure [Bluetooth Devices], BTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT structure pointer [Bluetooth Devices], bthxddi/BTHX_HCI_READ_WRITE_CONTEXT, bltooth.bthx_hci_read_write_context, PBTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT, bthxddi/PBTHX_HCI_READ_WRITE_CONTEXT, _BTHX_HCI_READ_WRITE_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

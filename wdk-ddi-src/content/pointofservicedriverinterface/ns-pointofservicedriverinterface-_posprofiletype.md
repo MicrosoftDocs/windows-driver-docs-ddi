@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: b0ef1592-f3f3-4ca1-83f8-dc7cb76cda36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosProfileType, pointofservicedriverinterface/PosProfileType, PosProfileType structure, _PosProfileType, pos.posprofiletype
+ms.keywords: pos.posprofiletype, PosProfileType structure, _PosProfileType, pointofservicedriverinterface/PosProfileType, PosProfileType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,14 +80,14 @@ typedef struct _PosProfileType {
 
 
 
-#### - EntryCount
-
-Indicates the number of statistics that follow this header.
-
-
 #### - DataLength
 
 The size in bytes of the buffer that follows this <b>PosProfileType</b>, including the size of the <b>PosProfileType</b> structure.
+
+
+#### - EntryCount
+
+Indicates the number of statistics that follow this header.
 
 
 ## -remarks

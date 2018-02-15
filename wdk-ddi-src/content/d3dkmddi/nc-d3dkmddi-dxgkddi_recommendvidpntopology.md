@@ -83,6 +83,8 @@ A handle to a context block that is associated with a display adapter. The displ
 
 
 
+
+
 #### - pRecommendVidPnTopologyArg [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendvidpntopology.md">DXGKARG_RECOMMENDVIDPNTOPOLOGY</a> structure that contains function arguments.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendvidpntopology.
 ## -returns
 
 
+
 <i>DxgkDdiRecommendVidPnTopology </i>returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,13 +145,16 @@ The function failed because it was unable to allocate enough memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The miniport driver should pass through any error code that it gets from the operating system for which it does not have a fallback code path.
 
 
 
+
 ## -remarks
+
 
 
 <i>DxgkDdiRecommendVidPnTopology</i>
@@ -155,9 +162,12 @@ The miniport driver should pass through any error code that it gets from the ope
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPn Topology Interface</a>
+
+
 
  
 

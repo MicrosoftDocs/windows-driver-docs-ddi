@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6d974c56-5925-4ad5-a3c0-0c17e8488431
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFillMemory, netvista.ndisfillmemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisFillMemory, ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml
+ms.keywords: ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, netvista.ndisfillmemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisFillMemory, NdisFillMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

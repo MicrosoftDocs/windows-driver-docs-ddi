@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2c9842de-a256-46ed-84b4-b8a595c01a62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml, kernel.rtlcheckbit, wdm/RtlCheckBit, RtlCheckBit routine [Kernel-Mode Driver Architecture], RtlCheckBit
+ms.keywords: kernel.rtlcheckbit, wdm/RtlCheckBit, RtlCheckBit routine [Kernel-Mode Driver Architecture], RtlCheckBit, k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -112,7 +112,7 @@ Callers of <b>RtlCheckBit</b> must be running at IRQL &lt;= APC_LEVEL if the mem
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
@@ -120,7 +120,7 @@ Callers of <b>RtlCheckBit</b> must be running at IRQL &lt;= APC_LEVEL if the mem
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
 
 
 

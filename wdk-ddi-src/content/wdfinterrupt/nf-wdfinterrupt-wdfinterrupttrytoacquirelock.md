@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 272165BE-3DF2-410C-B60A-31B48A3F3231
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptTryToAcquireLock, wdf.wdfinterrupttrytoacquirelock, kmdf.wdfinterrupttrytoacquirelock, WdfInterruptTryToAcquireLock, PFN_WDFINTERRUPTTRYTOACQUIRELOCK, WdfInterruptTryToAcquireLock method
+ms.keywords: wdfinterrupt/WdfInterruptTryToAcquireLock, wdf.wdfinterrupttrytoacquirelock, WdfInterruptTryToAcquireLock method, PFN_WDFINTERRUPTTRYTOACQUIRELOCK, kmdf.wdfinterrupttrytoacquirelock, WdfInterruptTryToAcquireLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,11 +194,7 @@ EvtReadWorkItemCallback(
 
 
 
-<a href="..\wdfsync\nf-wdfsync-wdfwaitlockacquire.md">WdfWaitLockAcquire</a>
-
-
-
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
 
 
 
@@ -210,7 +206,11 @@ EvtReadWorkItemCallback(
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a>
+
+
+
+<a href="..\wdfsync\nf-wdfsync-wdfwaitlockacquire.md">WdfWaitLockAcquire</a>
 
 
 

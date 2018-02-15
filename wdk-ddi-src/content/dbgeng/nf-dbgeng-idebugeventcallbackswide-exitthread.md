@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77933fa9-ff30-45cf-894d-83a425802e25
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugeventcallbackswide_exitthread, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ExitThread method, ExitThread method [Windows Debugging], IDebugEventCallbacksWide::ExitThread, dbgeng/IDebugEventCallbacksWide::ExitThread, ExitThread, ExitThread method [Windows Debugging], IDebugEventCallbacksWide interface
+ms.keywords: dbgeng/IDebugEventCallbacksWide::ExitThread, IDebugEventCallbacksWide, ExitThread, IDebugEventCallbacksWide::ExitThread, ExitThread method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_exitthread, IDebugEventCallbacksWide interface [Windows Debugging], ExitThread method, ExitThread method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState, PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture]
+ms.keywords: portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, kernel.poregistersystemstate, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], wdm/PoRegisterSystemState, PoRegisterSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,26 +105,6 @@ A user is present.
 The settings are continuous and should remain in effect until explicitly changed.
 
 
-##### - Flags.ES_SYSTEM_REQUIRED
-
-The system is not idle, regardless of apparent load.
-
-
-##### - Flags.ES_DISPLAY_REQUIRED
-
-Use of the display is required.
-
-
-##### - Flags.ES_USER_PRESENT
-
-A user is present.
-
-
-##### - Flags.ES_CONTINUOUS
-
-The settings are continuous and should remain in effect until explicitly changed.
-
-
 ## -returns
 
 
@@ -153,11 +133,11 @@ To set the system power state, call <a href="..\wdm\nf-wdm-posetsystemstate.md">
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
-
-
-
 <a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
+
+
+
+<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 
 

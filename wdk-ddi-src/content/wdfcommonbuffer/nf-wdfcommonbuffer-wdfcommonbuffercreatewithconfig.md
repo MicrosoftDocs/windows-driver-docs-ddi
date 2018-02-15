@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3ed8b7df-9c7d-44de-a49d-10221acf71e3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcommonbuffercreatewithconfig, WdfCommonBufferCreateWithConfig, DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, wdfcommonbuffer/WdfCommonBufferCreateWithConfig, wdf.wdfcommonbuffercreatewithconfig, WdfCommonBufferCreateWithConfig method
+ms.keywords: wdfcommonbuffer/WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig, kmdf.wdfcommonbuffercreatewithconfig, wdf.wdfcommonbuffercreatewithconfig, WdfCommonBufferCreateWithConfig method, DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -211,14 +211,6 @@ if (!NT_SUCCESS (status)) {
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
-
-
-
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
 
 
@@ -231,6 +223,14 @@ if (!NT_SUCCESS (status)) {
 
 
 
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
+
+
+
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 
@@ -239,7 +239,7 @@ if (!NT_SUCCESS (status)) {
 
 
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
 
 
 

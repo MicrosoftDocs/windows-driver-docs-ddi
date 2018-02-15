@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3b0d68f9-e871-42fe-97b0-f70f1fa72bf0
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: PSID, ntifs/PSID, SID structure [Installable File System Drivers], PSID structure pointer [Installable File System Drivers], securitystructures_748be9da-f428-42cd-a1f8-eca090e2b3aa.xml, ifsk.sid, SID, *PISID, _SID, ntifs/SID
+ms.keywords: "*PISID, ntifs/PSID, SID, _SID, ifsk.sid, SID structure [Installable File System Drivers], PSID structure pointer [Installable File System Drivers], PSID, securitystructures_748be9da-f428-42cd-a1f8-eca090e2b3aa.xml, ntifs/SID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,6 +96,10 @@ typedef struct _SID {
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
 
 
@@ -108,19 +112,15 @@ typedef struct _SID {
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 
 
@@ -128,15 +128,15 @@ typedef struct _SID {
 
 
 
+<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: eed2ed36-c081-44c7-857b-d2a9f608a022
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcollection/WdfCollectionAdd, wdf.wdfcollectionadd, PFN_WDFCOLLECTIONADD, WdfCollectionAdd method, kmdf.wdfcollectionadd, WdfCollectionAdd, DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml
+ms.keywords: wdfcollection/WdfCollectionAdd, PFN_WDFCOLLECTIONADD, kmdf.wdfcollectionadd, wdf.wdfcollectionadd, WdfCollectionAdd, DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, WdfCollectionAdd method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -181,15 +181,15 @@ for (i = 0; i &lt; numSubRequests; i++) {
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
-
-
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremoveitem.md">WdfCollectionRemoveItem</a>
 
 
 
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectioncreate.md">WdfCollectionCreate</a>
+
+
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
 
 
 

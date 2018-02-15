@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CF75EBC8-D756-49B5-BC1F-1DBE8DC04137
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicaps_simple_instancing_support, d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
+ms.keywords: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, display.d3dddicaps_simple_instancing_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

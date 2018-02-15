@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0043DC3F-E8EE-448F-B381-C67C199CE7A7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_LISTENER, NDK_LISTENER, ndkpi/NDK_LISTENER, netvista.ndk_listener, _NDK_LISTENER, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDK_LISTENER, netvista.ndk_listener, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], PNDK_LISTENER, ndkpi/PNDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_LISTENER, _NDK_LISTENER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,6 +89,10 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
 
 
@@ -101,10 +105,6 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
 
@@ -113,7 +113,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="https://msdn.microsoft.com/956D3550-11C8-48D0-BCF4-9027515C7C0E">NDKPI Listeners, Connectors, and Endpoints</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
 
 
 

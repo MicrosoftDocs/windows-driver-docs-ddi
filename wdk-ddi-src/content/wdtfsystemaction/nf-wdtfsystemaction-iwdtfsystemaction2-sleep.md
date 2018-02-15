@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 4DC3E14E-6FC3-49C1-AB22-779D0E8CA68D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iwdtfsystemaction2_sleep, wdtfsystemaction/IWDTFSystemAction2::Sleep, IWDTFSystemAction2 interface [Windows Device Testing Framework], Sleep method, Sleep method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2::Sleep, Microsoft::WDTF::IWDTFSystemAction2::Sleep, Sleep, Sleep method [Windows Device Testing Framework], IWDTFSystemAction2, Microsoft.WDTF.IWDTFSystemAction2.Sleep
+ms.keywords: Sleep, IWDTFSystemAction2::Sleep, dtf.iwdtfsystemaction2_sleep, IWDTFSystemAction2, Sleep method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFSystemAction2::Sleep, IWDTFSystemAction2 interface [Windows Device Testing Framework], Sleep method, Sleep method [Windows Device Testing Framework], IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.Sleep, wdtfsystemaction/IWDTFSystemAction2::Sleep
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

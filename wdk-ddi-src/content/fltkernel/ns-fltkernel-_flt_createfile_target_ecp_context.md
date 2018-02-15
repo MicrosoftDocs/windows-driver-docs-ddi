@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 95BDB715-E476-48EF-9867-112CF665B66D
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], FLTTCFL_AUTO_REPARSE, FLT_CREATEFILE_TARGET_ECP_CONTEXT, _FLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context, *PFLT_CREATEFILE_TARGET_ECP_CONTEXT
+ms.keywords: FLTTCFL_AUTO_REPARSE, _FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], PFLT_CREATEFILE_TARGET_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

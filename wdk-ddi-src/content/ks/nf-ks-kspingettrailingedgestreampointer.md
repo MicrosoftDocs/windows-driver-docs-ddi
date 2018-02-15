@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 763f1f66-4d83-44aa-9db5-206cf6b6f9b1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetTrailingEdgeStreamPointer, ks/KsPinGetTrailingEdgeStreamPointer, avfunc_3fd3182e-6e4d-4654-9de7-e9cea1086e3e.xml, KsPinGetTrailingEdgeStreamPointer function [Streaming Media Devices], stream.kspingettrailingedgestreampointer
+ms.keywords: KsPinGetTrailingEdgeStreamPointer function [Streaming Media Devices], ks/KsPinGetTrailingEdgeStreamPointer, avfunc_3fd3182e-6e4d-4654-9de7-e9cea1086e3e.xml, stream.kspingettrailingedgestreampointer, KsPinGetTrailingEdgeStreamPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,6 +125,14 @@ Data frames that reside in the window between the leading edge stream pointer an
 
 
 
+<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+
+
+
 <a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
 
 
@@ -137,15 +145,7 @@ Data frames that reside in the window between the leading edge stream pointer an
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
-
-
-
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 1890052A-EE98-4749-ACF9-8321148F3828
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS_INIT, ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_endpoint_event_callbacks_init
+ms.keywords: buses._ucx_endpoint_event_callbacks_init, UCX_ENDPOINT_EVENT_CALLBACKS_INIT, ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

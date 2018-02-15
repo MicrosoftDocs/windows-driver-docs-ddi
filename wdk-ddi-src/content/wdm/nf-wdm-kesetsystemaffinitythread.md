@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb66ed06-356d-4550-8ccf-10854e4ca259
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetSystemAffinityThread routine [Kernel-Mode Driver Architecture], wdm/KeSetSystemAffinityThread, KeSetSystemAffinityThread, kernel.kesetsystemaffinitythread, k105_86ff0d26-a53d-4da4-b776-35ed30b950ad.xml
+ms.keywords: k105_86ff0d26-a53d-4da4-b776-35ed30b950ad.xml, KeSetSystemAffinityThread routine [Kernel-Mode Driver Architecture], KeSetSystemAffinityThread, kernel.kesetsystemaffinitythread, wdm/KeSetSystemAffinityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

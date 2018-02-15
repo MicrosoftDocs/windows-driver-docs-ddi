@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 83840bca-2e6e-4982-9ec1-e1e278908993
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: filterpipeline_22f13e92-765e-41b8-8404-26aae5a50d02.xml, print.ipartbase_getstream, IPartBase interface [Print Devices], GetStream method, filterpipeline/IPartBase::GetStream, GetStream method [Print Devices], IPartBase interface, IPartBase::GetStream, GetStream method [Print Devices], IPartBase, GetStream
+ms.keywords: IPartBase, IPartBase interface [Print Devices], GetStream method, filterpipeline/IPartBase::GetStream, print.ipartbase_getstream, IPartBase::GetStream, GetStream method [Print Devices], GetStream method [Print Devices], IPartBase interface, filterpipeline_22f13e92-765e-41b8-8404-26aae5a50d02.xml, GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a614b58-8230-4137-aae9-5c50e94bea5e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryAssignUnicodeString method, wdfregistry/WdfRegistryAssignUnicodeString, wdf.wdfregistryassignunicodestring, PFN_WDFREGISTRYASSIGNUNICODESTRING, kmdf.wdfregistryassignunicodestring, DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, WdfRegistryAssignUnicodeString
+ms.keywords: PFN_WDFREGISTRYASSIGNUNICODESTRING, DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, kmdf.wdfregistryassignunicodestring, WdfRegistryAssignUnicodeString method, wdfregistry/WdfRegistryAssignUnicodeString, wdf.wdfregistryassignunicodestring, WdfRegistryAssignUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,15 +206,7 @@ status = WdfRegistryAssignUnicodeString(
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
 
 
 
@@ -222,7 +214,15 @@ status = WdfRegistryAssignUnicodeString(
 
 
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
 
 
 
@@ -230,7 +230,7 @@ status = WdfRegistryAssignUnicodeString(
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
 
 
 

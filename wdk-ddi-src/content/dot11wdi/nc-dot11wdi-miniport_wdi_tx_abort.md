@@ -166,23 +166,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_delete_ind.md">NdisWdiPeerDeleteIndication</a>
-
-
-
-<a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">NdisWdiTxAbortConfirm</a>
 
 
 
@@ -190,7 +174,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
 
 
@@ -198,7 +186,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_peer_delete_ind.md">NdisWdiPeerDeleteIndication</a>
+
+
+
+<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_abort_confirm.md">NdisWdiTxAbortConfirm</a>
+
+
+
+<a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
 
 
 

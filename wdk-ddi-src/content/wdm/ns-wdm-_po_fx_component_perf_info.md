@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DA9C020F-18E7-4C6C-AEBB-81B099C80CD0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPO_FX_COMPONENT_PERF_INFO, wdm/PPO_FX_COMPONENT_PERF_INFO, *PPO_FX_COMPONENT_PERF_INFO, kernel.po_fx_component_perf_info, PO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_INFO
+ms.keywords: PO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], wdm/PO_FX_COMPONENT_PERF_INFO, *PPO_FX_COMPONENT_PERF_INFO, _PO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO, wdm/PPO_FX_COMPONENT_PERF_INFO, kernel.po_fx_component_perf_info, PPO_FX_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,15 +92,15 @@ Most drivers are expected to define a single set of performance states per compo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939352">Component-Level Performance State Management</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
 
 
 <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939352">Component-Level Performance State Management</a>
 
 
 

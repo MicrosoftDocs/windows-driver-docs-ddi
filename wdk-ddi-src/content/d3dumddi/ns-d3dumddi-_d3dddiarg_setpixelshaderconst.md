@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c8cbbdc-ac2e-462e-9d5c-484305a41302
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETPIXELSHADERCONSTI, _D3DDDIARG_SETPIXELSHADERCONST, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices], D3DDDIARG_SETPIXELSHADERCONSTB, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, display.d3dddiarg_setpixelshaderconst
+ms.keywords: "_D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONST, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, D3DDDIARG_SETPIXELSHADERCONSTI, display.d3dddiarg_setpixelshaderconst, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices], D3DDDIARG_SETPIXELSHADERCONSTB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,7 +116,7 @@ typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTB;</pre>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a>
 
 
 
@@ -124,7 +124,7 @@ typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTB;</pre>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a>
 
 
 

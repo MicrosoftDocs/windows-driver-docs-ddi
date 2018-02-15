@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3E85D9AE-F8D3-4763-B1A2-51F95D00422D
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], buses._default_endpoint_update, _DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE structure [Buses], P_DEFAULT_ENDPOINT_UPDATE, ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, ucxendpoint/_DEFAULT_ENDPOINT_UPDATE, *PDEFAULT_ENDPOINT_UPDATE
+ms.keywords: ucxendpoint/_DEFAULT_ENDPOINT_UPDATE, _DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, buses._default_endpoint_update, DEFAULT_ENDPOINT_UPDATE structure [Buses], *PDEFAULT_ENDPOINT_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

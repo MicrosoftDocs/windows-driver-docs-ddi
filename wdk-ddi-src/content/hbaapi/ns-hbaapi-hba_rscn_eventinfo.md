@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d726d974-a877-464d-9721-6caf8a8402bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_RSCN_EventInfo structure [Storage Devices], structs-Fibre_c0cb4c14-5ff5-44cb-abb4-08673227f193.xml, HBA_RSCN_EventInfo, PHBA_RSCN_EVENTINFO structure pointer [Storage Devices], storage.hba_rscn_eventinfo, HBA_RSCN_EVENTINFO structure [Storage Devices], PHBA_RSCN_EVENTINFO, hbaapi/HBA_RSCN_EventInfo, hbaapi/PHBA_RSCN_EVENTINFO, HBA_RSCN_EVENTINFO, *PHBA_RSCN_EVENTINFO
+ms.keywords: HBA_RSCN_EVENTINFO, HBA_RSCN_EVENTINFO structure [Storage Devices], hbaapi/HBA_RSCN_EventInfo, PHBA_RSCN_EVENTINFO structure pointer [Storage Devices], structs-Fibre_c0cb4c14-5ff5-44cb-abb4-08673227f193.xml, HBA_RSCN_EventInfo structure [Storage Devices], hbaapi/PHBA_RSCN_EVENTINFO, storage.hba_rscn_eventinfo, PHBA_RSCN_EVENTINFO, *PHBA_RSCN_EVENTINFO, HBA_RSCN_EventInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

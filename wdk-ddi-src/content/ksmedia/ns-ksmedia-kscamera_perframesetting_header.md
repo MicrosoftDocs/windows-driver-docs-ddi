@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2D8A9E54-5551-4DDF-A123-077BA73AE06D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscamera_perframesetting_header, PKSCAMERA_PERFRAMESETTING_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER structure [Streaming Media Devices], *PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_HEADER, PKSCAMERA_PERFRAMESETTING_HEADER
+ms.keywords: ksmedia/KSCAMERA_PERFRAMESETTING_HEADER, PKSCAMERA_PERFRAMESETTING_HEADER, *PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER structure [Streaming Media Devices], KSCAMERA_PERFRAMESETTING_HEADER, stream.kscamera_perframesetting_header, PKSCAMERA_PERFRAMESETTING_HEADER structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_PERFRAMESETTING_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

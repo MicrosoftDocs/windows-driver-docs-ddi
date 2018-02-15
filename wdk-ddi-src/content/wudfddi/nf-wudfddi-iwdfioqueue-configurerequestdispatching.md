@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 376b0cc3-8189-499e-ad7f-5844f8cb4221
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, umdf.iwdfioqueue_configurerequestdispatching, ConfigureRequestDispatching, IWDFIoQueue, wdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue::ConfigureRequestDispatching, IWDFIoQueue interface, ConfigureRequestDispatching method, wudfddi/IWDFIoQueue::ConfigureRequestDispatching, ConfigureRequestDispatching method, IWDFIoQueue interface, ConfigureRequestDispatching method
+ms.keywords: ConfigureRequestDispatching method, ConfigureRequestDispatching method, IWDFIoQueue interface, IWDFIoQueue interface, ConfigureRequestDispatching method, ConfigureRequestDispatching, IWDFIoQueue, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, umdf.iwdfioqueue_configurerequestdispatching, wudfddi/IWDFIoQueue::ConfigureRequestDispatching, wdf.iwdfioqueue_configurerequestdispatching, IWDFIoQueue::ConfigureRequestDispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

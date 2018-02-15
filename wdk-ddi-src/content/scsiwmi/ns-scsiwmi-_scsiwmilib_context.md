@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7886cee8-1142-42e6-8206-84667621ba77
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-scsibus_725dbb64-2d39-493d-b1bf-e056ca31244f.xml, scsiwmi/PSCSI_WMILIB_CONTEXT, SCSI_WMILIB_CONTEXT structure [Storage Devices], SCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT, scsiwmi/SCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT structure pointer [Storage Devices], _SCSIWMILIB_CONTEXT, storage.scsi_wmilib_context, *PSCSI_WMILIB_CONTEXT
+ms.keywords: scsiwmi/PSCSI_WMILIB_CONTEXT, SCSI_WMILIB_CONTEXT, SCSI_WMILIB_CONTEXT structure [Storage Devices], *PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT, scsiwmi/SCSI_WMILIB_CONTEXT, _SCSIWMILIB_CONTEXT, storage.scsi_wmilib_context, PSCSI_WMILIB_CONTEXT structure pointer [Storage Devices], structs-scsibus_725dbb64-2d39-493d-b1bf-e056ca31244f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,11 +130,7 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557332">HwScsiWmiExecuteMethod</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557357">HwScsiWmiSetDataItem</a>
 
 
 
@@ -142,11 +138,7 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557349">HwScsiWmiSetDataBlock</a>
-
-
-
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmiguidreginfo.md">SCSIWMIGUIDREGINFO</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 
@@ -154,11 +146,19 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557357">HwScsiWmiSetDataItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557349">HwScsiWmiSetDataBlock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557332">HwScsiWmiExecuteMethod</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557344">HwScsiWmiQueryReginfo</a>
+
+
+
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmiguidreginfo.md">SCSIWMIGUIDREGINFO</a>
 
 
 

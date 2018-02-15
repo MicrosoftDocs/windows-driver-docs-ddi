@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 246573DB-5FEB-4068-8DB8-950F5EDFD1A9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface, dbgeng/IDebugClient6::SetEventContextCallbacks, SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface [Windows Debugging], SetEventContextCallbacks method, debugger.idebugclient6_seteventcontextcallbacks, IDebugClient6, SetEventContextCallbacks, IDebugClient6::SetEventContextCallbacks
+ms.keywords: IDebugClient6, SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface, IDebugClient6::SetEventContextCallbacks, debugger.idebugclient6_seteventcontextcallbacks, IDebugClient6 interface [Windows Debugging], SetEventContextCallbacks method, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks, dbgeng/IDebugClient6::SetEventContextCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

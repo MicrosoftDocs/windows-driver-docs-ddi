@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/BranchOfficeJobData, *PBranchOfficeJobData, PBranchOfficeJobData, print.branchofficejobdata, winsplp/PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices], BranchOfficeJobData, BranchOfficeJobData structure [Print Devices]
+ms.keywords: print.branchofficejobdata, *PBranchOfficeJobData, BranchOfficeJobData structure [Print Devices], BranchOfficeJobData, winsplp/PBranchOfficeJobData, winsplp/BranchOfficeJobData, PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

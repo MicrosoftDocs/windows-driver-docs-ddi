@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d0466569-7c9d-40d2-8794-b1d877a52458
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_BTH_SDP_DISCONNECT, bthioctl/BTH_SDP_DISCONNECT, bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bthioctl/PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], bltooth.bth_sdp_disconnect, BTH_SDP_DISCONNECT structure [Bluetooth Devices]"
+ms.keywords: bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bltooth.bth_sdp_disconnect, BTH_SDP_DISCONNECT structure [Bluetooth Devices], bthioctl/BTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], _BTH_SDP_DISCONNECT, bthioctl/PBTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

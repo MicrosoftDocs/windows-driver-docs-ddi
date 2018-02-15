@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6a456b8c-aec6-443d-8db4-21e7715ab818
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EndEnumTagged, EndEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::EndEnumTagged, dbgeng/IDebugDataSpaces4::EndEnumTagged, IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml, IDebugDataSpaces4::EndEnumTagged, EndEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3 interface [Windows Debugging], EndEnumTagged method, EndEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces3::EndEnumTagged, IDebugDataSpaces3, debugger.endenumtagged
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], EndEnumTagged method, EndEnumTagged, IDebugDataSpaces3::EndEnumTagged, EndEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3, EndEnumTagged method [Windows Debugging], debugger.endenumtagged, IDebugDataSpaces3 interface [Windows Debugging], EndEnumTagged method, dbgeng/IDebugDataSpaces4::EndEnumTagged, dbgeng/IDebugDataSpaces3::EndEnumTagged, EndEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml, IDebugDataSpaces4::EndEnumTagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

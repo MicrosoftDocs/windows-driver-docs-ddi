@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6CE8112F-1DDA-4A8B-8D3D-40DC3737976A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtmapgpuvirtualaddress, D3DKMTMapGpuVirtualAddress, D3DKMTMapGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTMapGpuVirtualAddress
+ms.keywords: display.d3dkmtmapgpuvirtualaddress, D3DKMTMapGpuVirtualAddress function [Display Devices], D3DKMTMapGpuVirtualAddress, d3dkmthk/D3DKMTMapGpuVirtualAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

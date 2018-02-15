@@ -107,11 +107,7 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesignalwake.md">UdecxUsbDeviceSignalWake</a>
 
 
 
@@ -119,11 +115,15 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicesignalwake.md">UdecxUsbDeviceSignalWake</a>
-
-
-
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicelinkpowerexitcomplete.md">UdecxUsbDeviceLinkPowerExitComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 

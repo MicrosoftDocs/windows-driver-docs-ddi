@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8c598cb8-083a-459d-b94b-958b7d625c88
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetdevicegetiotarget, wdfusb/WdfUsbTargetDeviceGetIoTarget, DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml, PFN_WDFUSBTARGETDEVICEGETIOTARGET, wdf.wdfusbtargetdevicegetiotarget, WdfUsbTargetDeviceGetIoTarget method, WdfUsbTargetDeviceGetIoTarget
+ms.keywords: PFN_WDFUSBTARGETDEVICEGETIOTARGET, wdfusb/WdfUsbTargetDeviceGetIoTarget, WdfUsbTargetDeviceGetIoTarget method, DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml, wdf.wdfusbtargetdevicegetiotarget, WdfUsbTargetDeviceGetIoTarget, kmdf.wdfusbtargetdevicegetiotarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData::Set, ExtRemoteData, ExtRemoteData interface [Windows Debugging], Set method, debugger.extremotedata_set_offset_bytes, Set method [Windows Debugging], Set, engextcpp/ExtRemoteData::Set, Set method [Windows Debugging], ExtRemoteData interface
+ms.keywords: debugger.extremotedata_set_offset_bytes, ExtRemoteData, ExtRemoteData::Set, Set method [Windows Debugging], ExtRemoteData interface, ExtRemoteData interface [Windows Debugging], Set method, Set method [Windows Debugging], Set, engextcpp/ExtRemoteData::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,15 +98,15 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
+
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
 
 
 

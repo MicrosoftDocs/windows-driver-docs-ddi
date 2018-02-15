@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: BindDevice, BIDI_ACCESS_ADMINISTRATOR, IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, _win32_IBidiSpl_BindDevice, IBidiSpl, print.ibidispl_ibidispl__binddevice, BindDevice method [Print Devices], IBidiSpl interface, BindDevice method [Print Devices], BIDI_ACCESS_USER, IBidiSpl interface [Print Devices], BindDevice method, bidispl/IBidiSpl::BindDevice
+ms.keywords: BIDI_ACCESS_USER, BindDevice method [Print Devices], BIDI_ACCESS_ADMINISTRATOR, IBidiSpl, bidispl/IBidiSpl::BindDevice, IBidiSpl interface [Print Devices], BindDevice method, print.ibidispl_ibidispl__binddevice, _win32_IBidiSpl_BindDevice, IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, BindDevice method [Print Devices], IBidiSpl interface, BindDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,11 +158,11 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
-
-
-
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
+
+
+
+<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
 
 
 

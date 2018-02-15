@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26D07A41-C431-41F1-9F5E-880B48CC2F0B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMInvalidateConfigBlock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista], NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock
+ms.keywords: NdisMInvalidateConfigBlock, ndis/NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,7 +178,7 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
 
 
 
@@ -186,7 +186,7 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
 
 
 

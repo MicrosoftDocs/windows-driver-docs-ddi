@@ -128,11 +128,11 @@ For code examples that show how to use the <b>IOCTL_GPIO_READ_PINS</b> request t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
 
 
 

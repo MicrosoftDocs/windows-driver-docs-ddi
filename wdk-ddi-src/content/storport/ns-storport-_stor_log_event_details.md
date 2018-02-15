@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2370e730-6c35-45e6-a370-62adc10df53b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTOR_LOG_EVENT_DETAILS, storport/PSTOR_LOG_EVENT_DETAILS, storage.stor_log_event_details, _STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS structure pointer [Storage Devices], PSTOR_LOG_EVENT_DETAILS, storport/STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS structure [Storage Devices], structs-storport_ba65fe62-1b9a-4234-b9a4-b145bf549699.xml"
+ms.keywords: PSTOR_LOG_EVENT_DETAILS structure pointer [Storage Devices], storport/STOR_LOG_EVENT_DETAILS, _STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS structure [Storage Devices], structs-storport_ba65fe62-1b9a-4234-b9a4-b145bf549699.xml, *PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS, storage.stor_log_event_details, STOR_LOG_EVENT_DETAILS, storport/PSTOR_LOG_EVENT_DETAILS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -162,11 +162,11 @@ Although <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError<
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
-
-
-
 <a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
+
+
+
+<a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
 
 
 

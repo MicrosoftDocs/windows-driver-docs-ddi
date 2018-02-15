@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 893F249B-ACD9-4262-93B6-890987A9F591
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, umdf.wudf_device_power_policy_idle_settings_init, wdf.wudf_device_power_policy_idle_settings_init, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function
+ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, umdf.wudf_device_power_policy_idle_settings_init, wdf.wudf_device_power_policy_idle_settings_init, wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ For a code example that uses <b>WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</b>,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
-
-
-
 <a href="..\wudfddi_types\ns-wudfddi_types-_wudf_device_power_policy_idle_settings.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
 
 
 

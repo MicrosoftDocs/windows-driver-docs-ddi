@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCompareString, ntddk/RtlCompareString, kernel.rtlcomparestring, RtlCompareString routine [Kernel-Mode Driver Architecture], k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml
+ms.keywords: RtlCompareString, ntddk/RtlCompareString, k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, kernel.rtlcomparestring, RtlCompareString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,11 +137,11 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
 
 
 

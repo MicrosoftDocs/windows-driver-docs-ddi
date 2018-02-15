@@ -79,7 +79,6 @@ The handle of a device driver.
 ### -param *pArgs
 
 
-
 ### -param hDrvVideoProcessor
 
 The handle of a video processor.
@@ -88,6 +87,8 @@ The handle of a video processor.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

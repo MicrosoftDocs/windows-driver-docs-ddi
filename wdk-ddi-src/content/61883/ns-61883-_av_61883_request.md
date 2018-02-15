@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 697fbf86-5c99-4e35-bcb4-a6f5272cc987
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: AV_61883_REQUEST, 61883/PAV_61883_REQUEST, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, *PAV_61883_REQUEST, 61883/AV_61883_REQUEST, AV_61883_REQUEST structure [Buses], IEEE.av_61883_request, PAV_61883_REQUEST structure pointer [Buses], _AV_61883_REQUEST, PAV_61883_REQUEST
+ms.keywords: 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, AV_61883_REQUEST, 61883/PAV_61883_REQUEST, *PAV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], IEEE.av_61883_request, _AV_61883_REQUEST, AV_61883_REQUEST structure [Buses], 61883/AV_61883_REQUEST, PAV_61883_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -241,11 +241,11 @@ The <b>Parameters-&gt;</b><b>Others.Arguments1</b> member of an <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537219">INIT_61883_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537234">IOCTL_61883_CLASS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537219">INIT_61883_HEADER</a>
 
 
 

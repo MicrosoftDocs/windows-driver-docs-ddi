@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A89E9E65-937D-455F-A718-A6BC7611BB8F
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.ufxdevicenotifyresume, ufxclient/UfxDeviceNotifyResume, UfxDeviceNotifyResume, UfxDeviceNotifyResume method [Buses]
+ms.keywords: ufxclient/UfxDeviceNotifyResume, buses.ufxdevicenotifyresume, UfxDeviceNotifyResume, UfxDeviceNotifyResume method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

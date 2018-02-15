@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1ef69cb7-2437-4ab4-8727-b7718a3adbb1
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ksmedia/KSAC3_ERROR_CONCEALMENT, KSAC3_ERROR_CONCEALMENT structure [Audio Devices], PKSAC3_ERROR_CONCEALMENT, audio.ksac3_error_concealment, KSAC3_ERROR_CONCEALMENT, *PKSAC3_ERROR_CONCEALMENT, ksmedia/PKSAC3_ERROR_CONCEALMENT, aud-prop_c5ba7732-b759-4110-8d43-bc4d5b351c6e.xml, PKSAC3_ERROR_CONCEALMENT structure pointer [Audio Devices]
+ms.keywords: audio.ksac3_error_concealment, PKSAC3_ERROR_CONCEALMENT, ksmedia/PKSAC3_ERROR_CONCEALMENT, PKSAC3_ERROR_CONCEALMENT structure pointer [Audio Devices], KSAC3_ERROR_CONCEALMENT, KSAC3_ERROR_CONCEALMENT structure [Audio Devices], ksmedia/KSAC3_ERROR_CONCEALMENT, aud-prop_c5ba7732-b759-4110-8d43-bc4d5b351c6e.xml, *PKSAC3_ERROR_CONCEALMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

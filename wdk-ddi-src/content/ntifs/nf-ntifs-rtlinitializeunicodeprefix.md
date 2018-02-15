@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8891641a-392c-4c2b-aa5a-9464774d8610
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlinitializeunicodeprefix, ntifs/RtlInitializeUnicodePrefix, rtlref_cc6170fe-7f41-45ac-909c-75e341ad8d9c.xml, RtlInitializeUnicodePrefix routine [Installable File System Drivers], RtlInitializeUnicodePrefix
+ms.keywords: ifsk.rtlinitializeunicodeprefix, RtlInitializeUnicodePrefix routine [Installable File System Drivers], RtlInitializeUnicodePrefix, ntifs/RtlInitializeUnicodePrefix, rtlref_cc6170fe-7f41-45ac-909c-75e341ad8d9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,19 +96,19 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlnextunicodeprefix.md">RtlNextUnicodePrefix</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
 
 
 

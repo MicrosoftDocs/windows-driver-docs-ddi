@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 124184ef-7410-4e04-abb2-e07db4ae2cbf
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbspec/PUSB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses], usbspec/USB_DEVICE_DESCRIPTOR, buses.usb_device_descriptor, usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml, PUSB_DEVICE_DESCRIPTOR, _USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR structure [Buses]
+ms.keywords: usbspec/PUSB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR structure [Buses], usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml, buses.usb_device_descriptor, PUSB_DEVICE_DESCRIPTOR, usbspec/USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR, _USB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -168,11 +168,11 @@ The <b>iManufacturer</b>, <b>iProduct</b>, and <b>iSerialNumber</b> values, when
 
 
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 04e66f34-3771-4b09-b546-f814e4b41906
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasUpdateValidFormat, wiasUpdateValidFormat, image.wiasupdatevalidformat, wiasUpdateValidFormat function [Imaging Devices], wiasFncs_dfbd0aa5-1c7c-4b4f-a1da-82176b36e914.xml
+ms.keywords: wiasUpdateValidFormat, image.wiasupdatevalidformat, wiamdef/wiasUpdateValidFormat, wiasUpdateValidFormat function [Imaging Devices], wiasFncs_dfbd0aa5-1c7c-4b4f-a1da-82176b36e914.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

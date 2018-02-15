@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bd0dd4a-be27-4398-9bbd-129955ce310f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, TmPrepareEnlistment, kernel.tmprepareenlistment, wdm/TmPrepareEnlistment
+ms.keywords: TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, kernel.tmprepareenlistment, wdm/TmPrepareEnlistment, TmPrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,6 +159,18 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwprepareenlistment.md">ZwPrepareEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
+
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
@@ -168,18 +180,6 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwprepareenlistment.md">ZwPrepareEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
 

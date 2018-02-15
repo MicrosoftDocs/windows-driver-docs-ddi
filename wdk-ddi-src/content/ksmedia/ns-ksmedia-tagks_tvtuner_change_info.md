@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7bb04fbb-2894-4148-88c2-fbbebb000ec9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO structure [Streaming Media Devices], stream.ks_tvtuner_change_info, PKS_TVTUNER_CHANGE_INFO, vidcapstruct_225fdabf-bdaf-49df-a2e3-ace62a0a17e2.xml, ksmedia/PKS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO structure pointer [Streaming Media Devices], tagKS_TVTUNER_CHANGE_INFO, ksmedia/KS_TVTUNER_CHANGE_INFO"
+ms.keywords: stream.ks_tvtuner_change_info, vidcapstruct_225fdabf-bdaf-49df-a2e3-ace62a0a17e2.xml, *PKS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO structure pointer [Streaming Media Devices], KS_TVTUNER_CHANGE_INFO, ksmedia/PKS_TVTUNER_CHANGE_INFO, ksmedia/KS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO structure [Streaming Media Devices], tagKS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

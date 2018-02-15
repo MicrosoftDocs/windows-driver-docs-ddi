@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 347edff7-b209-4b60-aabc-5ee7963c8164
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_SURFACEINFO structure [Display Devices], d3dukmdt/D3DDDI_SURFACEINFO, display.d3dddi_surfaceinfo, _D3DDDI_SURFACEINFO, D3D_other_Structs_03e742b5-062c-46d3-bedf-25aee3582dfc.xml, D3DDDI_SURFACEINFO
+ms.keywords: d3dukmdt/D3DDDI_SURFACEINFO, D3DDDI_SURFACEINFO, _D3DDDI_SURFACEINFO, display.d3dddi_surfaceinfo, D3DDDI_SURFACEINFO structure [Display Devices], D3D_other_Structs_03e742b5-062c-46d3-bedf-25aee3582dfc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,11 +106,11 @@ Note that this member is valid only if the <b>Pool</b> member of the <a href="..
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 896343A8-0C72-47D4-8465-A029EDCD66A0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactioninitializeusingoffset, WdfDmaTransactionInitializeUsingOffset, wdfdmatransaction/WdfDmaTransactionInitializeUsingOffset, WdfDmaTransactionInitializeUsingOffset method, wdf.wdfdmatransactioninitializeusingoffset
+ms.keywords: WdfDmaTransactionInitializeUsingOffset method, wdf.wdfdmatransactioninitializeusingoffset, wdfdmatransaction/WdfDmaTransactionInitializeUsingOffset, WdfDmaTransactionInitializeUsingOffset, kmdf.wdfdmatransactioninitializeusingoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

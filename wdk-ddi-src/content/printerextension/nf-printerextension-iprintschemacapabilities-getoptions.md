@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaCapabilities interface [Print Devices], GetOptions method, GetOptions method [Print Devices], IPrintSchemaCapabilities interface, GetOptions, IPrintSchemaCapabilities, GetOptions method [Print Devices], printerextension/IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions
+ms.keywords: IPrintSchemaCapabilities, printerextension/IPrintSchemaCapabilities::GetOptions, IPrintSchemaCapabilities interface [Print Devices], GetOptions method, GetOptions, GetOptions method [Print Devices], IPrintSchemaCapabilities interface, IPrintSchemaCapabilities::GetOptions, GetOptions method [Print Devices], print.iprintschemacapabilities_getoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

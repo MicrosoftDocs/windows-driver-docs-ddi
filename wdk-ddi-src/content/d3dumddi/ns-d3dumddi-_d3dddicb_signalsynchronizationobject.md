@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 08fbcc15-f40f-46de-b3ff-603bc1476d97
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_param_Structs_347963a7-4c6b-478e-9a2f-e708a807cac6.xml, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, display.d3dddicb_signalsynchronizationobject
+ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3D_param_Structs_347963a7-4c6b-478e-9a2f-e708a807cac6.xml, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dddicb_signalsynchronizationobject, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ typedef struct _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
 
 
 

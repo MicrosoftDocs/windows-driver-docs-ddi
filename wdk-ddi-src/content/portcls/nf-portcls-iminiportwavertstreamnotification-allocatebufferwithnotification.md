@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: df1da549-1677-42ef-9644-3d9c5df66894
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: AllocateBufferWithNotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, IMiniportWaveRTStreamNotification interface [Audio Devices], AllocateBufferWithNotification method, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
+ms.keywords: AllocateBufferWithNotification method [Audio Devices], audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], AllocateBufferWithNotification method, AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, AllocateBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,10 +165,6 @@ After receiving a <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>
 
 
@@ -177,11 +173,15 @@ After receiving a <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
+
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554430(v=vs.85).aspx">MEMORY_CACHING_TYPE</a>
+
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff554414(v=vs.85).aspx">MDL</a>
 
 
 

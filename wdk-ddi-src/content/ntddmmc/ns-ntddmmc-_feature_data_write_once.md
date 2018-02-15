@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d8352a73-6b3e-4890-a4ae-000d453d1143
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_WRITE_ONCE structure [Storage Devices], FEATURE_DATA_WRITE_ONCE, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml, ntddmmc/PFEATURE_DATA_WRITE_ONCE, ntddmmc/FEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, *PFEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE, _FEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices]
+ms.keywords: FEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, ntddmmc/PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], PFEATURE_DATA_WRITE_ONCE, _FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_WRITE_ONCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

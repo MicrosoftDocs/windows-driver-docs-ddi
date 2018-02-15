@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 21cc6f5b-d7c4-405d-9c98-c17e2f669cda
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtloplockissharedrequest, fsrtlref_e79317ec-0086-4387-8f80-a7a1e44aba1c.xml, FsRtlOplockIsSharedRequest routine [Installable File System Drivers], FsRtlOplockIsSharedRequest, ntifs/FsRtlOplockIsSharedRequest
+ms.keywords: ntifs/FsRtlOplockIsSharedRequest, FsRtlOplockIsSharedRequest, fsrtlref_e79317ec-0086-4387-8f80-a7a1e44aba1c.xml, FsRtlOplockIsSharedRequest routine [Installable File System Drivers], ifsk.fsrtloplockissharedrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

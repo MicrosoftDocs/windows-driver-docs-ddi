@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 29c84529-11f6-429b-81c6-96d6a1773b3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_PixAspectRatio_NTSC4x3, ksmedia/KS_PixAspectRatio_PAL4x3, KS_PixAspectRatio_NTSC16x9, KS_PixAspectRatio_PAL4x3, KS_PixAspectRatio_PAL16x9, ksmedia/KS_PixAspectRatio_PAL16x9, vidcapstruct_d891dbda-a467-4e13-bad6-fef794146717.xml, KS_AMPixAspectRatio, KS_AMPixAspectRatio enumeration [Streaming Media Devices], ksmedia/KS_PixAspectRatio_NTSC16x9, ksmedia/KS_AMPixAspectRatio, stream.ks_ampixaspectratio, ksmedia/KS_PixAspectRatio_NTSC4x3
+ms.keywords: KS_PixAspectRatio_PAL4x3, ksmedia/KS_PixAspectRatio_PAL16x9, ksmedia/KS_PixAspectRatio_NTSC4x3, KS_PixAspectRatio_NTSC16x9, ksmedia/KS_PixAspectRatio_NTSC16x9, KS_AMPixAspectRatio enumeration [Streaming Media Devices], ksmedia/KS_AMPixAspectRatio, ksmedia/KS_PixAspectRatio_PAL4x3, vidcapstruct_d891dbda-a467-4e13-bad6-fef794146717.xml, KS_PixAspectRatio_NTSC4x3, KS_AMPixAspectRatio, KS_PixAspectRatio_PAL16x9, stream.ks_ampixaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

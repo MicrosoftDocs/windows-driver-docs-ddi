@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7345cd67-c10c-46f0-bd56-6f18929f4aa6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_DEVICEFUNCS, d3dumddi/D3DDDI_DEVICEFUNCS, D3DDDI_DEVICEFUNCS structure [Display Devices], _D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs, D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml
+ms.keywords: D3DDDI_DEVICEFUNCS structure [Display Devices], _D3DDDI_DEVICEFUNCS, d3dumddi/D3DDDI_DEVICEFUNCS, D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml, D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1276,11 +1276,11 @@ typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETMARKER)(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 

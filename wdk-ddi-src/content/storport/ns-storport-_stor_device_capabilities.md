@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.stor_device_capabilities, storport/STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], _STOR_DEVICE_CAPABILITIES, storport/PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES
+ms.keywords: storport/STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES, storport/PSTOR_DEVICE_CAPABILITIES, _STOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,16 +134,16 @@ Specifies whether the miniport driver for the device can handle the case where t
 Do not display the device in the user interface. If this bit is set, the device is never displayed in the user interface, even if the device is present but fails to start. Miniport drivers do not set this bit.
 
 
+#### - RawDeviceOK
+
+Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called raw mode.
+
+
 #### - Removeable
 
 Specifies whether the device can be dynamically removed from its immediate parent. If <b>Removable</b> is set to <b>TRUE</b>, the device does not belong to the same physical object as its parent. 
 
 If <b>Removable</b> is set to <b>TRUE</b>, the device is displayed in the Unplug or Eject Hardware program, unless <b>SurpriseRemovalOK</b> is also set to <b>TRUE</b>.
-
-
-#### - RawDeviceOK
-
-Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called raw mode.
 
 
 ## -remarks

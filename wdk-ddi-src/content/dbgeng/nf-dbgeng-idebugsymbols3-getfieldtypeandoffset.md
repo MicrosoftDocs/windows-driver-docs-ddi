@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a73a3bb5-f9f4-41d7-9df7-c7f36a01d157
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, GetFieldTypeAndOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, debugger.getfieldtypeandoffset, IDebugSymbols3::GetFieldTypeAndOffset, GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3
+ms.keywords: GetFieldTypeAndOffset method [Windows Debugging], dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, debugger.getfieldtypeandoffset, IDebugSymbols3::GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, GetFieldTypeAndOffset, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, IDebugSymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -148,11 +148,11 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546758">GetFieldOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
 
 
 

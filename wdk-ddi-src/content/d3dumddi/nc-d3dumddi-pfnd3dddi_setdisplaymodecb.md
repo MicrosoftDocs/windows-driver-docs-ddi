@@ -194,7 +194,7 @@ The following code example shows how to set the allocation for scanning out to t
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymode.md">SetDisplayMode</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplaymode.md">D3DDDICB_SETDISPLAYMODE</a>
 
 
 
@@ -206,7 +206,7 @@ The following code example shows how to set the allocation for scanning out to t
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplaymode.md">D3DDDICB_SETDISPLAYMODE</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymode.md">SetDisplayMode</a>
 
 
 

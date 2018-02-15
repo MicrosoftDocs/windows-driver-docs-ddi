@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ee2951e0-2632-44b0-870d-33d4d48ac8e8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_HBAInformation, _MSiSCSI_HBAInformation, storage.msiscsi_hbainformation, iscsimgt/PMSiSCSI_HBAInformation, PMSiSCSI_HBAInformation structure pointer [Storage Devices], PMSiSCSI_HBAInformation, MSiSCSI_HBAInformation structure [Storage Devices], structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml, iscsimgt/MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation
+ms.keywords: structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml, storage.msiscsi_hbainformation, iscsimgt/PMSiSCSI_HBAInformation, PMSiSCSI_HBAInformation structure pointer [Storage Devices], PMSiSCSI_HBAInformation, _MSiSCSI_HBAInformation, MSiSCSI_HBAInformation structure [Storage Devices], *PMSiSCSI_HBAInformation, iscsimgt/MSiSCSI_HBAInformation, MSiSCSI_HBAInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -319,15 +319,15 @@ You must implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 

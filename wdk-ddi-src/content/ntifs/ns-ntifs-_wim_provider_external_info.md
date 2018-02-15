@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: CD51FBD6-A589-4135-8BF0-8F0075654A05
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/WIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_INFO structure [Installable File System Drivers], WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, PWIM_PROVIDER_EXTERNAL_INFO structure pointer [Installable File System Drivers], ntifs/PWIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, *PWIM_PROVIDER_EXTERNAL_INFO, ifsk.wim_provider_external_info, _WIM_PROVIDER_EXTERNAL_INFO
+ms.keywords: PWIM_PROVIDER_EXTERNAL_INFO, *PWIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, ifsk.wim_provider_external_info, ntifs/WIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_EXTERNAL_INFO structure [Installable File System Drivers], _WIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO structure pointer [Installable File System Drivers], ntifs/PWIM_PROVIDER_EXTERNAL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

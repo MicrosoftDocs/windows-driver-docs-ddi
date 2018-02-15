@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1951a2e8-c2f0-42bc-9deb-8d2a049817c4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest::CancelSentRequest, CancelSentRequest method, IWDFIoRequest interface, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, IWDFIoRequest interface, CancelSentRequest method, wdf.iwdfiorequest_cancelsentrequest, CancelSentRequest method, CancelSentRequest, wudfddi/IWDFIoRequest::CancelSentRequest, umdf.iwdfiorequest_cancelsentrequest, IWDFIoRequest
+ms.keywords: CancelSentRequest method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::CancelSentRequest, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, wdf.iwdfiorequest_cancelsentrequest, IWDFIoRequest::CancelSentRequest, CancelSentRequest method, IWDFIoRequest interface, CancelSentRequest method, umdf.iwdfiorequest_cancelsentrequest, CancelSentRequest, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,15 +94,15 @@ If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestc
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
 
 
 
@@ -110,7 +110,7 @@ If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestc
 
 
 
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 35149395-4238-41fd-ae96-6491534e3cc1
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: whea.wheaisvaliderrorrecordsignature, ntddk/WheaIsValidErrorRecordSignature, whearef2_6ba74e00-cc1f-49e9-b6ee-b300571eb412.xml, WheaIsValidErrorRecordSignature function [WHEA Drivers and Applications], WheaIsValidErrorRecordSignature
+ms.keywords: ntddk/WheaIsValidErrorRecordSignature, WheaIsValidErrorRecordSignature function [WHEA Drivers and Applications], whea.wheaisvaliderrorrecordsignature, whearef2_6ba74e00-cc1f-49e9-b6ee-b300571eb412.xml, WheaIsValidErrorRecordSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

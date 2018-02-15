@@ -153,8 +153,7 @@ The implementation of this function for intermediate drivers is to be determined
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
 
 
 
@@ -162,12 +161,13 @@ The implementation of this function for intermediate drivers is to be determined
 
 
 
+<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
 
 
 

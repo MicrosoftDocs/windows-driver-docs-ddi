@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, debugger.getmodulenamestringwide, IDebugSymbols3
+ms.keywords: dbgeng/IDebugSymbols3::GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide, GetModuleNameStringWide, IDebugSymbols3, GetModuleNameStringWide method [Windows Debugging], GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

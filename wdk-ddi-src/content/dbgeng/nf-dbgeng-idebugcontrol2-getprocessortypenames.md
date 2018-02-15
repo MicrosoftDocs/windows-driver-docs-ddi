@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cee254a5-7b77-4cab-b02c-69b1f9e3fe02
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method, dbgeng/IDebugControl::GetProcessorTypeNames, IDebugControl2::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, dbgeng/IDebugControl2::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, IDebugControl, debugger.getprocessortypenames, IDebugControl::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3::GetProcessorTypeNames, GetProcessorTypeNames, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method
+ms.keywords: IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, GetProcessorTypeNames, debugger.getprocessortypenames, IDebugControl2::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method, dbgeng/IDebugControl3::GetProcessorTypeNames, IDebugControl::GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::GetProcessorTypeNames, IDebugControl3::GetProcessorTypeNames, IDebugControl2, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl, GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -160,15 +160,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

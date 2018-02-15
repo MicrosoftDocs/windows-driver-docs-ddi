@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2c38ab6a-c583-45a5-93a5-6a5882411b6c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltGetVolumeFromInstance routine [Installable File System Drivers], FltApiRef_e_to_o_4e727c23-1258-41cd-a8eb-befec90c7ea9.xml, ifsk.fltgetvolumefrominstance, FltGetVolumeFromInstance, fltkernel/FltGetVolumeFromInstance
+ms.keywords: ifsk.fltgetvolumefrominstance, FltApiRef_e_to_o_4e727c23-1258-41cd-a8eb-befec90c7ea9.xml, fltkernel/FltGetVolumeFromInstance, FltGetVolumeFromInstance, FltGetVolumeFromInstance routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,15 +127,15 @@ To get detailed information about the volume that a given instance is attached t
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
 
 
 

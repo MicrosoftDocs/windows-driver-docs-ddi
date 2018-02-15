@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2b77853d-2c34-4902-90e3-b9a58d56e88e
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ntddk/WHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_AER_ENDPOINT_DESCRIPTOR, *PWHEA_AER_ENDPOINT_DESCRIPTOR, PWHEA_AER_ENDPOINT_DESCRIPTOR, whearef_06cb1486-51b0-457d-a0d0-b902c6c43cfc.xml, ntddk/PWHEA_AER_ENDPOINT_DESCRIPTOR, whea.whea_aer_endpoint_descriptor, PWHEA_AER_ENDPOINT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_ENDPOINT_DESCRIPTOR
+ms.keywords: WHEA_AER_ENDPOINT_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_AER_ENDPOINT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], ntddk/WHEA_AER_ENDPOINT_DESCRIPTOR, whea.whea_aer_endpoint_descriptor, PWHEA_AER_ENDPOINT_DESCRIPTOR, whearef_06cb1486-51b0-457d-a0d0-b902c6c43cfc.xml, _WHEA_AER_ENDPOINT_DESCRIPTOR, *PWHEA_AER_ENDPOINT_DESCRIPTOR, ntddk/PWHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -200,11 +200,11 @@ A WHEA_AER_ENDPOINT_DESCRIPTOR structure is contained within the <a href="..\ntd
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 

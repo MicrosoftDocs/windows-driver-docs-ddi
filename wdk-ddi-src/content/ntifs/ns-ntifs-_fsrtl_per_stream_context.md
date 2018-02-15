@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 108c224c-ae42-414f-951d-cb225059d525
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/PFSRTL_PER_STREAM_CONTEXT, PFSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT structure [Installable File System Drivers], contextstructures_c3576880-65f8-4340-b1d2-82d66f8e4f30.xml, *PFSRTL_PER_STREAM_CONTEXT, ifsk.fsrtl_per_stream_context, PFSRTL_PER_STREAM_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT, ntifs/FSRTL_PER_STREAM_CONTEXT
+ms.keywords: "*PFSRTL_PER_STREAM_CONTEXT, PFSRTL_PER_STREAM_CONTEXT structure pointer [Installable File System Drivers], FSRTL_PER_STREAM_CONTEXT structure [Installable File System Drivers], ntifs/PFSRTL_PER_STREAM_CONTEXT, contextstructures_c3576880-65f8-4340-b1d2-82d66f8e4f30.xml, ifsk.fsrtl_per_stream_context, _FSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT, PFSRTL_PER_STREAM_CONTEXT, ntifs/FSRTL_PER_STREAM_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,27 +154,15 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_fsrtl_common_fcb_header.md">FSRTL_COMMON_FCB_HEADER</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
 
 
 
@@ -186,7 +174,19 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
 
 
 

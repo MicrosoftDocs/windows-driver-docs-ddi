@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 12a5ca64-7187-4a70-83ca-0ade6a8b1343
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: usbcmdpr_ad9c24d0-76a2-43a4-9634-a70e9260d907.xml, usbcamdi/USBCAMD_AdapterReceivePacket, USBCAMD_AdapterReceivePacket, USBCAMD_AdapterReceivePacket function [Streaming Media Devices], stream.usbcamd_adapterreceivepacket
+ms.keywords: usbcamdi/USBCAMD_AdapterReceivePacket, USBCAMD_AdapterReceivePacket, USBCAMD_AdapterReceivePacket function [Streaming Media Devices], usbcmdpr_ad9c24d0-76a2-43a4-9634-a70e9260d907.xml, stream.usbcamd_adapterreceivepacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

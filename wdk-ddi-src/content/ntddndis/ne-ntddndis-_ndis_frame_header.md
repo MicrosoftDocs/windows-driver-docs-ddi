@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8897ae0c-6068-4fea-8944-1340595dbff3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisFrameHeaderUndefined, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_FRAME_HEADER, NdisFrameHeaderUndefined, NdisFrameHeaderMac, *PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderArp, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderUdp, NdisFrameHeaderMaximum, netvista.ndis_frame_header, NdisFrameHeaderIPv6, NdisFrameHeaderArp, NdisFrameHeaderUdp, _NDIS_FRAME_HEADER, PNDIS_FRAME_HEADER, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml, NdisFrameHeaderIPv4, ntddndis/PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderMaximum, NDIS_FRAME_HEADER
+ms.keywords: "_NDIS_FRAME_HEADER, ntddndis/PNDIS_FRAME_HEADER, NdisFrameHeaderUdp, *PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderMaximum, NDIS_FRAME_HEADER, NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderUdp, NdisFrameHeaderArp, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderUndefined, ntddndis/NDIS_FRAME_HEADER, netvista.ndis_frame_header, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderArp, PNDIS_FRAME_HEADER, NdisFrameHeaderMaximum, NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderIPv4, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], NdisFrameHeaderMac, NdisFrameHeaderUndefined, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

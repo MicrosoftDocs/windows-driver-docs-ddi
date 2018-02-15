@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide, IDebugClient5, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, debugger.setkernelconnectionoptionswide, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::SetKernelConnectionOptionsWide
+ms.keywords: IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, SetKernelConnectionOptionsWide method [Windows Debugging], debugger.setkernelconnectionoptionswide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, IDebugClient5, IDebugClient5::SetKernelConnectionOptionsWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

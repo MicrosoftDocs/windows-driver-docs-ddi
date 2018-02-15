@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiNotifyAcpiEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_NOTIFY_ACPI_EVENT callback
@@ -87,6 +87,7 @@ A <a href="..\dispmprt\ne-dispmprt-_dxgk_event_type.md">DXGK_EVENT_TYPE</a> enum
 ### -param Event [in]
 
 The event number. The following table lists the possible event numbers for each of the event types.
+
 <table>
 <tr>
 <th>Event type</th>
@@ -135,12 +136,14 @@ Defined in <i>Dispmprt.h</i>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Argument [in]
 
 A pointer to an argument that depends on the event. For most events, this will be <b>NULL</b>. The following table shows the event arguments, which are ULONG values, for specified event numbers that are available.
+
 <table>
 <tr>
 <th>Event number</th>
@@ -170,12 +173,14 @@ PO_CB_LID_SWITCH_STATE
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param AcpiFlags [out]
 
 A pointer to a value that indicates the type of request that the display miniport driver should make to the operating system. The following table shows the values that can be specified.
+
 <table>
 <tr>
 <th>Value</th>
@@ -201,7 +206,8 @@ The display miniport driver makes a request to the operating system to poll the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This parameter is ignored if this function returns an error or if the display adapter loses power. 
 
@@ -209,11 +215,14 @@ This parameter is ignored if this function returns an error or if the display ad
 ## -returns
 
 
+
 <i>DxgkDdiNotifyAcpiEvent</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 <i>DxgkDdiNotifyAcpiEvent</i> is an optional display miniport driver function.
@@ -222,9 +231,12 @@ This parameter is ignored if this function returns an error or if the display ad
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_eval_acpi_method.md">DxgkCbEvalAcpiMethod</a>
+
+
 
  
 

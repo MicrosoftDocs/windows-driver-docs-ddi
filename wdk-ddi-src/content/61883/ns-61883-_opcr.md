@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: fbd6fa74-eb39-4240-947e-1edec1365a83
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_OPCR, 61883/POPCR, 61883/OPCR, *POPCR, OPCR, IEEE.opcr, POPCR, POPCR structure pointer [Buses], OPCR structure [Buses], 61883_structures_271facde-3b80-421f-a3d2-1f0e9b8e1782.xml"
+ms.keywords: POPCR, _OPCR, POPCR structure pointer [Buses], IEEE.opcr, 61883_structures_271facde-3b80-421f-a3d2-1f0e9b8e1782.xml, OPCR structure [Buses], 61883/POPCR, OPCR, 61883/OPCR, *POPCR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

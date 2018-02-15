@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5e481453-1e01-46b4-a04e-e9c575cd65b9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_66e61d2d-0a0d-41aa-a25d-a7fa3ef08b4c.xml, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d10_ddi_query_data_pipeline_statistics
+ms.keywords: D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d10_ddi_query_data_pipeline_statistics, UMDisplayDriver_Dx10param_Structs_66e61d2d-0a0d-41aa-a25d-a7fa3ef08b4c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,15 +125,15 @@ The driver associates a D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure with 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
 
 
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
 
 
 

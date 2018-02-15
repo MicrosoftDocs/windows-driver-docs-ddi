@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15984217-e789-457c-b20f-c3d51741f5d3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice::CreateSymbolicLink, CreateSymbolicLink method, wdf.iwdfdevice_createsymboliclink, wudfddi/IWDFDevice::CreateSymbolicLink, IWDFDevice, CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, umdf.iwdfdevice_createsymboliclink, CreateSymbolicLink method, IWDFDevice interface, IWDFDevice interface, CreateSymbolicLink method
+ms.keywords: CreateSymbolicLink, wudfddi/IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, CreateSymbolicLink method, IWDFDevice interface, wdf.iwdfdevice_createsymboliclink, IWDFDevice interface, CreateSymbolicLink method, CreateSymbolicLink method, umdf.iwdfdevice_createsymboliclink, IWDFDevice::CreateSymbolicLink, IWDFDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

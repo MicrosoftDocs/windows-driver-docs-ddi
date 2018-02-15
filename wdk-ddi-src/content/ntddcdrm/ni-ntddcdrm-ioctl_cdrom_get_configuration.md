@@ -116,11 +116,11 @@ The <b>Information</b> field is set to the number of bytes that are returned. Th
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ns-ntddmmc-_get_configuration_ioctl_input.md">GET_CONFIGURATION_IOCTL_INPUT</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
 
 
 

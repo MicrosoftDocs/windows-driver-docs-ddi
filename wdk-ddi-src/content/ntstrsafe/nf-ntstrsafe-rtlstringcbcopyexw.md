@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 92a22ad9-f450-4156-a5e9-c765f94c2dbf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml, RtlStringCbCopyExW, STRSAFE_IGNORE_NULLS, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCopyExA, STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, ntstrsafe/RtlStringCbCopyExW, RtlStringCbCopyExA, RtlStringCbCopyEx, kernel.rtlstringcbcopyex, STRSAFE_NO_TRUNCATION, STRSAFE_FILL_ON_FAILURE
+ms.keywords: RtlStringCbCopyEx, kernel.rtlstringcbcopyex, RtlStringCbCopyExW, STRSAFE_IGNORE_NULLS, safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml, ntstrsafe/RtlStringCbCopyExA, STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCbCopyExW, STRSAFE_FILL_ON_FAILURE, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], RtlStringCbCopyExA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

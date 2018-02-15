@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0a392f4-c7c3-4b61-960c-b94f9605f5a4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfchildlist/WDF_CHILD_LIST_CONFIG, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, *PWDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG, wdf.wdf_child_list_config, kmdf.wdf_child_list_config, wdfchildlist/PWDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG structure pointer, PWDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG structure, _WDF_CHILD_LIST_CONFIG
+ms.keywords: PWDF_CHILD_LIST_CONFIG structure pointer, _WDF_CHILD_LIST_CONFIG, *PWDF_CHILD_LIST_CONFIG, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, wdfchildlist/WDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG structure, kmdf.wdf_child_list_config, wdfchildlist/PWDF_CHILD_LIST_CONFIG, wdf.wdf_child_list_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -162,11 +162,7 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
 
 
@@ -174,7 +170,11 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 

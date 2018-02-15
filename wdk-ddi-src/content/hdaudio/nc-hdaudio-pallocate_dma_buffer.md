@@ -107,6 +107,21 @@ Specifies the context value from the <b>Context</b> members of the <a href="..\h
 
 
 
+#### - allocatedBufferSize [out]
+
+Retrieves the allocated buffer size in bytes. This parameter points to a caller-allocated SIZE_T variable into which the routine writes the size of the allocated buffer.
+
+
+#### - bufferMdl [out]
+
+Retrieves the physical memory pages that contains the allocated buffer. This parameter points to a caller-allocated PMDL variable into which the routine writes a pointer to a memory descriptor list (MDL) that describes the buffer.
+
+
+#### - fifoSize [out]
+
+Retrieves the DMA engine's FIFO size in bytes. This parameter points to a caller-allocated ULONG variable into which the routine writes the FIFO size.
+
+
 #### - handle [in]
 
 Handle identifying the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
@@ -117,24 +132,9 @@ Handle identifying the DMA engine. This handle value was obtained from a previou
 Specifies the requested buffer size in bytes.
 
 
-#### - bufferMdl [out]
-
-Retrieves the physical memory pages that contains the allocated buffer. This parameter points to a caller-allocated PMDL variable into which the routine writes a pointer to a memory descriptor list (MDL) that describes the buffer.
-
-
-#### - allocatedBufferSize [out]
-
-Retrieves the allocated buffer size in bytes. This parameter points to a caller-allocated SIZE_T variable into which the routine writes the size of the allocated buffer.
-
-
 #### - streamID [out]
 
 Retrieves the stream identifier. This parameter points to a caller-allocated UCHAR variable into which the routine writes the stream identifier that it assigns to the stream.
-
-
-#### - fifoSize [out]
-
-Retrieves the DMA engine's FIFO size in bytes. This parameter points to a caller-allocated ULONG variable into which the routine writes the FIFO size.
 
 
 ## -returns
@@ -257,6 +257,10 @@ In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio
 
 ## -see-also
 
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
 
 
@@ -269,19 +273,15 @@ In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
 
 
 
@@ -289,11 +289,11 @@ In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
+
+
+
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
 
 
 

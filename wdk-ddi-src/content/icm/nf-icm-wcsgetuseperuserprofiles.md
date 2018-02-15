@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6a970bec-c773-498e-b93a-2bd9f625e194
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WcsGetUsePerUserProfiles function [Print Devices], WcsGetUsePerUserProfiles, colorfnc_b80783e5-17c0-4069-90ba-71ea82a2d7d5.xml, print.wcsgetuseperuserprofiles, icm/WcsGetUsePerUserProfiles
+ms.keywords: WcsGetUsePerUserProfiles, icm/WcsGetUsePerUserProfiles, print.wcsgetuseperuserprofiles, colorfnc_b80783e5-17c0-4069-90ba-71ea82a2d7d5.xml, WcsGetUsePerUserProfiles function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

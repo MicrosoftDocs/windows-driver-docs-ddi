@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetOutputConstriction
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCONSTRICTION callback
@@ -78,18 +78,29 @@ VOID APIENTRY* pfnVideoProcessorSetOutputConstriction(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param BOOL
 
 
-
 ### -param SIZE
 
 
+
+
+
+
+
+
+#### - ConstrictonSize [in]
+
+The sampling size.
+
+
+#### - Enabled [in]
+
+If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <i>ConstrictonSize</i> member is ignored. 
 
 
 
@@ -108,26 +119,17 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - Enabled [in]
-
-If <b>TRUE</b>, downsampling is enabled. Otherwise, downsampling is disabled and the <i>ConstrictonSize</i> member is ignored. 
-
-
-
-
-#### - ConstrictonSize [in]
-
-The sampling size.
-
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Downsampling is sometimes used to reduce the quality of premium content when other forms of content protection are not available. 
@@ -143,12 +145,17 @@ The width and height of the <i>ConstrictonSize</i> parameter must be greater tha
 
 
 The driver reports its ability to support downsampling through the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a> function. If the driver supports the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION</b> capability, it supports the ability to downsample the composed image.
-<div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetOutputConstriction</b> function.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetOutputConstriction</b> function.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
 
  
 

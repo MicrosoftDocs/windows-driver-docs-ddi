@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: udecxusbdevice/UdecxEndpointTypeInvalid, *PUDECX_ENDPOINT_TYPE, buses.udecx_endpoint_type, _UDECX_ENDPOINT_TYPE, UdecxEndpointTypeDynamic, UdecxEndpointTypeSimple, udecxusbdevice/UdecxEndpointTypeSimple, UdecxEndpointTypeInvalid, udecxusbdevice/UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, UDECX_ENDPOINT_TYPE enumeration [Buses]
+ms.keywords: udecxusbdevice/UdecxEndpointTypeSimple, UDECX_ENDPOINT_TYPE enumeration [Buses], UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeInvalid, *PUDECX_ENDPOINT_TYPE, UdecxEndpointTypeInvalid, UdecxEndpointTypeSimple, _UDECX_ENDPOINT_TYPE, udecxusbdevice/UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, UdecxEndpointTypeDynamic, buses.udecx_endpoint_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,11 +87,11 @@ The endpoint is dynamically created in the client driver's implementation of the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/4DABCC96-F3F5-43D9-9BCF-A2663ED30137">USB endpoints</a>
-
-
-
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetendpointstype.md">UdecxUsbDeviceInitSetEndpointsType</a>
+
+
+
+<a href="https://msdn.microsoft.com/4DABCC96-F3F5-43D9-9BCF-A2663ED30137">USB endpoints</a>
 
 
 

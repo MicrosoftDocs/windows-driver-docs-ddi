@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, QuerySimulationSupport, prcomoem/IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2, QuerySimulationSupport method [Print Devices], IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, print.iprintcoreui2_querysimulationsupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface
+ms.keywords: IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, QuerySimulationSupport, QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, QuerySimulationSupport method [Print Devices], print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml, prcomoem/IPrintCoreUI2::QuerySimulationSupport, IPrintCoreUI2::QuerySimulationSupport, print.iprintcoreui2_querysimulationsupport, IPrintCoreUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

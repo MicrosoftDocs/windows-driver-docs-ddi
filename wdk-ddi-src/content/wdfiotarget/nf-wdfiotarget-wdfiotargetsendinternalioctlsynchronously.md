@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4028b259-a157-4e50-b1a2-25da3050cced
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFIOTargetRef_c318553e-1a21-444e-b8e0-de4a1f17b98f.xml, WdfIoTargetSendInternalIoctlSynchronously method, WdfIoTargetSendInternalIoctlSynchronously, PFN_WDFIOTARGETSENDINTERNALIOCTLSYNCHRONOUSLY, wdf.wdfiotargetsendinternalioctlsynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlSynchronously, kmdf.wdfiotargetsendinternalioctlsynchronously
+ms.keywords: PFN_WDFIOTARGETSENDINTERNALIOCTLSYNCHRONOUSLY, WdfIoTargetSendInternalIoctlSynchronously method, wdfiotarget/WdfIoTargetSendInternalIoctlSynchronously, kmdf.wdfiotargetsendinternalioctlsynchronously, DFIOTargetRef_c318553e-1a21-444e-b8e0-de4a1f17b98f.xml, WdfIoTargetSendInternalIoctlSynchronously, wdf.wdfiotargetsendinternalioctlsynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -361,19 +361,11 @@ status = WdfIoTargetSendInternalIoctlSynchronously(
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputwdmmdl.md">WdfRequestRetrieveOutputWdmMdl</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforinternalioctl.md">WdfIoTargetFormatRequestForInternalIoctl</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 
@@ -381,27 +373,7 @@ status = WdfIoTargetSendInternalIoctlSynchronously(
 
 
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
-
-
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputwdmmdl.md">WdfRequestRetrieveOutputWdmMdl</a>
 
 
 
@@ -409,15 +381,11 @@ status = WdfIoTargetSendInternalIoctlSynchronously(
 
 
 
-<a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 
@@ -425,11 +393,43 @@ status = WdfIoTargetSendInternalIoctlSynchronously(
 
 
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforinternalioctl.md">WdfIoTargetFormatRequestForInternalIoctl</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputwdmmdl.md">WdfRequestRetrieveInputWdmMdl</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+
+
+<a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 
 
 

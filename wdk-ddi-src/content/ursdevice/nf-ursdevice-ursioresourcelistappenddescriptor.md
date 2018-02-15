@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 80AE8211-EA8F-4967-A496-39053CD578D1
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ursdevice/UrsIoResourceListAppendDescriptor, buses.ursioresourcelistappenddescriptor, UrsIoResourceListAppendDescriptor, UrsIoResourceListAppendDescriptor function [Buses]
+ms.keywords: UrsIoResourceListAppendDescriptor, ursdevice/UrsIoResourceListAppendDescriptor, buses.ursioresourcelistappenddescriptor, UrsIoResourceListAppendDescriptor function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

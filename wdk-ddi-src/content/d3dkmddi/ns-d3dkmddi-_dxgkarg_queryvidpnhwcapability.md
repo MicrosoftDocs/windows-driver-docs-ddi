@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b5f8073c-9989-4413-842d-e3e295cc3470
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_QUERYVIDPNHWCAPABILITY, _DXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY structure [Display Devices], DXGKARG_QUERYVIDPNHWCAPABILITY, *INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY, DmStructs_64808a07-769c-4f57-b1c8-84a676f596a3.xml, DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY structure [Display Devices], display.dxgkarg_queryvidpnhwcapability, DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY
+ms.keywords: DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY structure [Display Devices], DmStructs_64808a07-769c-4f57-b1c8-84a676f596a3.xml, display.dxgkarg_queryvidpnhwcapability, DXGKARG_QUERYVIDPNHWCAPABILITY, _DXGKARG_QUERYVIDPNHWCAPABILITY, *INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY, d3dkmddi/DXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,11 +107,19 @@ For more information about video present sources and targets, see <a href="https
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryvidpnhwcapability.md">DxgkDdiQueryVidPnHWCapability</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_target.md">D3DKMDT_VIDEO_PRESENT_TARGET</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 
 
@@ -123,19 +131,11 @@ For more information about video present sources and targets, see <a href="https
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_source.md">D3DKMDT_VIDEO_PRESENT_SOURCE</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
-
-
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryvidpnhwcapability.md">DxgkDdiQueryVidPnHWCapability</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 684a60e5-f8c4-4ab4-bf55-e50469a67265
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlUninitializeLargeMcb routine [Installable File System Drivers], ifsk.fsrtluninitializelargemcb, fsrtlref_6bd92101-b025-4469-8e05-52afbb5cf75e.xml, ntifs/FsRtlUninitializeLargeMcb, FsRtlUninitializeLargeMcb
+ms.keywords: ifsk.fsrtluninitializelargemcb, FsRtlUninitializeLargeMcb routine [Installable File System Drivers], fsrtlref_6bd92101-b025-4469-8e05-52afbb5cf75e.xml, FsRtlUninitializeLargeMcb, ntifs/FsRtlUninitializeLargeMcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,7 +101,7 @@ Once uninitialized, the MCB can be initialized for reuse by calling <a href="..\
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb~r2.md">FsRtlSplitLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
 
 
 
@@ -109,15 +109,7 @@ Once uninitialized, the MCB can be initialized for reuse by calling <a href="..\
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb~r1.md">FsRtlTruncateLargeMcb</a>
 
 
 
@@ -125,11 +117,11 @@ Once uninitialized, the MCB can be initialized for reuse by calling <a href="..\
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb~r1.md">FsRtlTruncateLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb~r2.md">FsRtlSplitLargeMcb</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
 
 
 
@@ -137,7 +129,15 @@ Once uninitialized, the MCB can be initialized for reuse by calling <a href="..\
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
 
 
 

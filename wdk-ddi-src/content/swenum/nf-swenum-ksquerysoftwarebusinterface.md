@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices]
+ms.keywords: swenum/KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface, ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, KsQuerySoftwareBusInterface function [Streaming Media Devices], stream.ksquerysoftwarebusinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

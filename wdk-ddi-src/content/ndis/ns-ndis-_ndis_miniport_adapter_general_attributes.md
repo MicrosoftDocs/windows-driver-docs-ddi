@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5423d073-02a5-468b-b91e-713ac67a5253
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, miniport_structures_ref_42ce6caf-9d6f-47ee-ad20-749b0058c71e.xml, _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, netvista.ndis_miniport_adapter_general_attributes, PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES"
+ms.keywords: NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, netvista.ndis_miniport_adapter_general_attributes, NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES, miniport_structures_ref_42ce6caf-9d6f-47ee-ad20-749b0058c71e.xml, PNDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -564,44 +564,8 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
-   OID_GEN_SUPPORTED_PACKET_FILTERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">
+   NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
 
 
 
@@ -609,8 +573,27 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">
-   NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
 
 
 
@@ -618,35 +601,11 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-802-3-maximum-list-size">OID_802_3_MAXIMUM_LIST_SIZE</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -658,11 +617,52 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_capabilities.md">NDIS_PM_CAPABILITIES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-supported-packet-filters">
+   OID_GEN_SUPPORTED_PACKET_FILTERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
 
 
 

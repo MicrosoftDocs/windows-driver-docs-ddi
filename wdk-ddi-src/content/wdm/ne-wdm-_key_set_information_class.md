@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 95a8f683-642c-4f33-9536-08f497567f87
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeySetVirtualizationInformation, MaxKeySetInfoClass, KeyWriteTimeInformation, wdm/KEY_SET_INFORMATION_CLASS, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, KeyControlFlagsInformation, KEY_SET_INFORMATION_CLASS, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyControlFlagsInformation, wdm/KeyWriteTimeInformation, wdm/KeySetDebugInformation, KeyWow64FlagsInformation, KeySetDebugInformation, KeySetHandleTagsInformation, wdm/KeySetVirtualizationInformation, wdm/KeyWow64FlagsInformation, kernel.key_set_information_class, wdm/MaxKeySetInfoClass, _KEY_SET_INFORMATION_CLASS, wdm/KeySetHandleTagsInformation
+ms.keywords: wdm/KeySetHandleTagsInformation, wdm/KeySetVirtualizationInformation, KeySetHandleTagsInformation, wdm/KeySetDebugInformation, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], _KEY_SET_INFORMATION_CLASS, KeySetVirtualizationInformation, KeySetDebugInformation, KeyWow64FlagsInformation, wdm/KEY_SET_INFORMATION_CLASS, KEY_SET_INFORMATION_CLASS, kernel.key_set_information_class, wdm/KeyControlFlagsInformation, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, wdm/KeyWriteTimeInformation, KeyControlFlagsInformation, MaxKeySetInfoClass, wdm/MaxKeySetInfoClass, KeyWriteTimeInformation, wdm/KeyWow64FlagsInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -123,11 +123,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">Registr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
 <a href="..\wdm\ns-wdm-_key_write_time_information.md">KEY_WRITE_TIME_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 

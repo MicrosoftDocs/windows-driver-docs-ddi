@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2cb96d6b-37f1-47dd-8135-66d3ead2dd64
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_QmatrixData, _DXVA_QmatrixData, display.dxva_qmatrixdata, LPDXVA_QmatrixData structure pointer [Display Devices], dxva/LPDXVA_QmatrixData, DXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], *LPDXVA_QmatrixData, LPDXVA_QmatrixData, dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml
+ms.keywords: DXVA_QmatrixData structure [Display Devices], dxva/LPDXVA_QmatrixData, LPDXVA_QmatrixData structure pointer [Display Devices], display.dxva_qmatrixdata, _DXVA_QmatrixData, dxva/DXVA_QmatrixData, DXVA_QmatrixData, *LPDXVA_QmatrixData, LPDXVA_QmatrixData, dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

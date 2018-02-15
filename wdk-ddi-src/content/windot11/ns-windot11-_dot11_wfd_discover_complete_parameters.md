@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0CAB1436-357F-4F9F-98F8-F05B3D86B00A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/ DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, netvista._dot11_wfd_discover_complete_parameters, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, *PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS
+ms.keywords: windot11/PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, netvista._dot11_wfd_discover_complete_parameters, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, windot11/ DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

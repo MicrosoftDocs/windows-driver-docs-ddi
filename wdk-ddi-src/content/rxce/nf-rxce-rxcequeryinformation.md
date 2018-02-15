@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 58dd579c-3fb8-45c7-a7bc-ca0919166153
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml, rxce/RxCeQueryInformation, RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers], ifsk.rxcequeryinformation
+ms.keywords: RxCeQueryInformation function [Installable File System Drivers], rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml, ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, RxCeQueryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -202,11 +202,11 @@ For some values of <i>InformationClass</i>, <b>RxCeQueryInformation</b> calls <b
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
-
-
-
 <a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
+
+
+
+<a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
 
 
 

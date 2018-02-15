@@ -103,6 +103,7 @@ Specifies a 4-byte
 ## -returns
 
 
+
 Possible return values include:
 
 
@@ -117,7 +118,9 @@ Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -136,13 +139,20 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+## -see-also
 
 <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
 
+
+
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

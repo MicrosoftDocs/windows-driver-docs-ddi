@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e2ffab7f-b6bf-4707-9a3d-9619330b2af1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFINTERRUPTENABLE, DFInterruptObjectRef_4fa737c9-fae4-4d3c-9a27-165f5348c66c.xml, WdfInterruptEnable, kmdf.wdfinterruptenable, wdfinterrupt/WdfInterruptEnable, WdfInterruptEnable method, wdf.wdfinterruptenable
+ms.keywords: PFN_WDFINTERRUPTENABLE, DFInterruptObjectRef_4fa737c9-fae4-4d3c-9a27-165f5348c66c.xml, WdfInterruptEnable, kmdf.wdfinterruptenable, wdf.wdfinterruptenable, wdfinterrupt/WdfInterruptEnable, WdfInterruptEnable method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,11 +123,11 @@ The following code example enables the device interrupt that is associated with 
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
-
-
-
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptdisable.md">WdfInterruptDisable</a>
+
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
 
 
 

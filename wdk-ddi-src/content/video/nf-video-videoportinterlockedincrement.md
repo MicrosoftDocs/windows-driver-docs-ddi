@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d3507214-82bc-4d73-8562-2843d7876137
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortInterlockedIncrement function [Display Devices], VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, display.videoportinterlockedincrement, video/VideoPortInterlockedIncrement, VideoPortInterlockedIncrement
+ms.keywords: VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, VideoPortInterlockedIncrement, display.videoportinterlockedincrement, VideoPortInterlockedIncrement function [Display Devices], video/VideoPortInterlockedIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

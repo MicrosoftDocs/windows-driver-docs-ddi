@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 53e5e234-c256-4581-b109-307f2f17522f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportreleaserequestsenseirb, irb/AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, AtaPortReleaseRequestSenseIrb
+ms.keywords: AtaPortReleaseRequestSenseIrb, atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, storage.ataportreleaserequestsenseirb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], irb/AtaPortReleaseRequestSenseIrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

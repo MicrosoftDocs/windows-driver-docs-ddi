@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateVideoProcessorEnumSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORENUMSIZE callback
@@ -74,8 +74,9 @@ SIZE_T APIENTRY* CalcPrivateVideoProcessorEnumSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -97,22 +98,30 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideopro
 ## -returns
 
 
+
 The required number of bytes for the video processor enumeration state.
+
 
 
 
 ## -remarks
 
 
+
 This function is not expected to fail.
+
 
 
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum.md">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
+
 
  
 

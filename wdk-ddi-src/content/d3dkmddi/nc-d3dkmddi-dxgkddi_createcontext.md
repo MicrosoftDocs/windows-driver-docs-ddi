@@ -84,7 +84,9 @@ NTSTATUS APIENTRY DxgkDdiCreateContext(
 ## -returns
 
 
+
 <i>DxgkDdiCreateContext</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A driver uses a GPU context to hold a collection of rendering state. 
@@ -142,13 +147,20 @@ Typically, each context can reference any resource that was previously created f
 
 
 
-## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
 
  
 

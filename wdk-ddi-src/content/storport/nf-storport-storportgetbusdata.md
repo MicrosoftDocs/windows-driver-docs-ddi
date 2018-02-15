@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, StorPortGetBusData, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
+ms.keywords: StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,11 +158,11 @@ Configuration data returned by <b>StorPortGetBusData</b> is valid only until the
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 

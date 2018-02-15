@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f18b46c0-975b-49ba-b398-45f2a44d6d3b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_TASK_FILE, PIDE_TASK_FILE structure pointer [Storage Devices], storage.ide_task_file, _IDE_TASK_FILE, IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices], irb/IDE_TASK_FILE, *PIDE_TASK_FILE, irb/PIDE_TASK_FILE, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml
+ms.keywords: PIDE_TASK_FILE structure pointer [Storage Devices], *PIDE_TASK_FILE, PIDE_TASK_FILE, IDE_TASK_FILE, irb/IDE_TASK_FILE, _IDE_TASK_FILE, irb/PIDE_TASK_FILE, storage.ide_task_file, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml, IDE_TASK_FILE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

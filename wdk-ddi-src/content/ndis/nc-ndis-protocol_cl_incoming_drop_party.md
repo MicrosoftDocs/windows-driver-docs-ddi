@@ -204,17 +204,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
    NdisMCmDispatchIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
 
 
 
@@ -231,11 +226,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 
 

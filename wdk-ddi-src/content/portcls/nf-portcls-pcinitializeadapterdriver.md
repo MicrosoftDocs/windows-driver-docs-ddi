@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: c9d019da-a05b-4c60-99e9-06b8537fa78e
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.pcinitializeadapterdriver, PcInitializeAdapterDriver function [Audio Devices], portcls/PcInitializeAdapterDriver, PcInitializeAdapterDriver, audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml
+ms.keywords: portcls/PcInitializeAdapterDriver, PcInitializeAdapterDriver, PcInitializeAdapterDriver function [Audio Devices], audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml, audio.pcinitializeadapterdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,11 @@ An adapter driver that overwrites one or more of the pointers above with a point
 
 ## -see-also
 
+<a href="..\portcls\nf-portcls-pcaddadapterdevice.md">PcAddAdapterDevice</a>
+
+
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
 
 
 
@@ -183,11 +183,11 @@ An adapter driver that overwrites one or more of the pointers above with a point
 
 
 
+<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcaddadapterdevice.md">PcAddAdapterDevice</a>
 
 
 

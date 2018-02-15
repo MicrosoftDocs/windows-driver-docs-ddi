@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F7316327-C860-4138-A19B-3326CE9210C0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_hdr_metadata_hdr10, D3DDDI_HDR_METADATA_HDR10 structure [Display Devices], D3DDDI_HDR_METADATA_HDR10, _D3DDDI_HDR_METADATA_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_HDR10
+ms.keywords: d3dukmdt/D3DDDI_HDR_METADATA_HDR10, _D3DDDI_HDR_METADATA_HDR10, D3DDDI_HDR_METADATA_HDR10, display.d3dddi_hdr_metadata_hdr10, D3DDDI_HDR_METADATA_HDR10 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

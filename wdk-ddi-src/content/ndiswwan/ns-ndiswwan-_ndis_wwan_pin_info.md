@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 432e1d25-b7f4-4897-99dc-27ea14c851e2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_PIN_INFO, netvista.ndis_wwan_pin_info, WwanRef_9095fdd7-5593-439c-897a-1def216d3374.xml, ndiswwan/NDIS_WWAN_PIN_INFO, ndiswwan/PNDIS_WWAN_PIN_INFO, PNDIS_WWAN_PIN_INFO, _NDIS_WWAN_PIN_INFO
+ms.keywords: ndiswwan/NDIS_WWAN_PIN_INFO, PNDIS_WWAN_PIN_INFO, _NDIS_WWAN_PIN_INFO, NDIS_WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9095fdd7-5593-439c-897a-1def216d3374.xml, NDIS_WWAN_PIN_INFO, netvista.ndis_wwan_pin_info, *PNDIS_WWAN_PIN_INFO, ndiswwan/PNDIS_WWAN_PIN_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

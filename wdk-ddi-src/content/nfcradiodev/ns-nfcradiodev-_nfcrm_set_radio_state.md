@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 22FE29AC-790D-40D2-949F-9C132F67AEAB
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfcradiodev/NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], *PNFCRM_SET_RADIO_STATE, P_NFCRM_SET_RADIO_STATE, nfpdrivers._nfcrm_set_radio_state_, P_NFCRM_SET_RADIO_STATE structure pointer [Near-Field Proximity Drivers], NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], nfcradiodev/P_NFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE
+ms.keywords: NFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], P_NFCRM_SET_RADIO_STATE structure pointer [Near-Field Proximity Drivers], nfpdrivers._nfcrm_set_radio_state_, nfcradiodev/NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], *PNFCRM_SET_RADIO_STATE, P_NFCRM_SET_RADIO_STATE, nfcradiodev/P_NFCRM_SET_RADIO_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

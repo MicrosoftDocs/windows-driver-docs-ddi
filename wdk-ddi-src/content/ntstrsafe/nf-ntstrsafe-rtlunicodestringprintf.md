@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a646a63a-9a92-49ae-adfc-97d6b726caac
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlunicodestringprintf, RtlUnicodeStringPrintf, RtlUnicodeStringPrintf function [Kernel-Mode Driver Architecture], safestrings_9ad0c4dc-1e0a-41b3-a5d8-e5d80e876226.xml, ntstrsafe/RtlUnicodeStringPrintf
+ms.keywords: safestrings_9ad0c4dc-1e0a-41b3-a5d8-e5d80e876226.xml, ntstrsafe/RtlUnicodeStringPrintf, kernel.rtlunicodestringprintf, RtlUnicodeStringPrintf, RtlUnicodeStringPrintf function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,7 +169,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintfex.md">RtlUnicodeStringVPrintfEx</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintfex.md">RtlUnicodeStringPrintfEx</a>
 
 
 
@@ -177,11 +177,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintfex.md">RtlUnicodeStringVPrintfEx</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringprintfex.md">RtlUnicodeStringPrintfEx</a>
 
 
 

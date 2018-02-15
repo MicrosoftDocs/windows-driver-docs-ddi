@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 841c1e6f-4561-4c37-a509-d9c0e9054022
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN, D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_bltmodel_presenthistorytoken, d3dkmthk/D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_45310e71-a7c5-42c6-be41-e48e30203c42.xml
+ms.keywords: OpenGL_Structs_45310e71-a7c5-42c6-be41-e48e30203c42.xml, d3dkmthk/D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN, D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN, D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_bltmodel_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ typedef struct _D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
 
 
 

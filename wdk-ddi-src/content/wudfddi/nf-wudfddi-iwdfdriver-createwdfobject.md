@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dda353d-7c39-4c3c-b9e2-38946d6cc086
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriver interface, CreateWdfObject method, CreateWdfObject method, IWDFDriver interface, wdf.iwdfdriver_createwdfobject, wudfddi/IWDFDriver::CreateWdfObject, CreateWdfObject, IWDFDriver, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, umdf.iwdfdriver_createwdfobject, CreateWdfObject method, IWDFDriver::CreateWdfObject
+ms.keywords: umdf.iwdfdriver_createwdfobject, IWDFDriver, IWDFDriver interface, CreateWdfObject method, CreateWdfObject method, IWDFDriver interface, wudfddi/IWDFDriver::CreateWdfObject, wdf.iwdfdriver_createwdfobject, UMDFDriverObjectRef_8ab61a3d-78e3-4d92-8a9c-0eff2837f65f.xml, CreateWdfObject method, CreateWdfObject, IWDFDriver::CreateWdfObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,7 +113,7 @@ If the driver must clean up the child object before the parent object is deleted
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 
@@ -121,15 +121,15 @@ If the driver must clean up the child object before the parent object is deleted
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 
 
 

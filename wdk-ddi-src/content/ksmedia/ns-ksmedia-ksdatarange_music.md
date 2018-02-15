@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2ada5d1c-9c46-4f7b-99e5-72aa8f6fee9f
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PKSDATARANGE_MUSIC, ksmedia/KSDATARANGE_MUSIC, KSDATARANGE_MUSIC, PKSDATARANGE_MUSIC structure pointer [Audio Devices], KSDATARANGE_MUSIC structure [Audio Devices], audio.ksdatarange_music, PKSDATARANGE_MUSIC, ksmedia/PKSDATARANGE_MUSIC, aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml"
+ms.keywords: aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml, PKSDATARANGE_MUSIC structure pointer [Audio Devices], ksmedia/PKSDATARANGE_MUSIC, audio.ksdatarange_music, *PKSDATARANGE_MUSIC, PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC, ksmedia/KSDATARANGE_MUSIC, KSDATARANGE_MUSIC structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

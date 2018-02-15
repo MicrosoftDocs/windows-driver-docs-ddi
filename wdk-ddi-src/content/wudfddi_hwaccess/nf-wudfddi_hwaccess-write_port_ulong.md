@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 400823C4-5F71-4334-9160-FAC0690F209F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_PORT_ULONG, umdf.write_port_ulong, wdf.write_port_ulong, WRITE_PORT_ULONG function, wudfddi_hwaccess/WRITE_PORT_ULONG
+ms.keywords: WRITE_PORT_ULONG, WRITE_PORT_ULONG function, umdf.write_port_ulong, wdf.write_port_ulong, wudfddi_hwaccess/WRITE_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

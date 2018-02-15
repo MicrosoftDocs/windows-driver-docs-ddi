@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 414950c6-b082-4ea9-bba4-f3d12b4d2a9e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestWdmGetIrp, wdf.wdfrequestwdmgetirp, PFN_WDFREQUESTWDMGETIRP, kmdf.wdfrequestwdmgetirp, DFRequestObjectRef_2f8bba17-817e-4edb-98f2-bd56eb3e34ac.xml, WdfRequestWdmGetIrp method, wdfrequest/WdfRequestWdmGetIrp
+ms.keywords: WdfRequestWdmGetIrp method, WdfRequestWdmGetIrp, wdfrequest/WdfRequestWdmGetIrp, kmdf.wdfrequestwdmgetirp, DFRequestObjectRef_2f8bba17-817e-4edb-98f2-bd56eb3e34ac.xml, PFN_WDFREQUESTWDMGETIRP, wdf.wdfrequestwdmgetirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

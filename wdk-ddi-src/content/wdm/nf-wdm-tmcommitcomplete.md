@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5f55966-98d9-42ec-9af6-254d2cb9a5bd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: TmCommitComplete, TmCommitComplete routine [Kernel-Mode Driver Architecture], kernel.tmcommitcomplete, wdm/TmCommitComplete, ktm_ref_e6357c60-303b-4d42-a0a2-1ff3766acbb9.xml
+ms.keywords: TmCommitComplete, wdm/TmCommitComplete, kernel.tmcommitcomplete, TmCommitComplete routine [Kernel-Mode Driver Architecture], ktm_ref_e6357c60-303b-4d42-a0a2-1ff3766acbb9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,15 +124,11 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcommitcomplete.md">ZwCommitComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
 
@@ -140,11 +136,15 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: BIDI_BLOB, SetInputData method [Print Devices], bidispl/IBidiRequest::SetInputData, BIDI_INT, print.ibidirequest_ibidirequest__setinputdata, BIDI_TEXT, gdi.ibidirequest_ibidirequest__setinputdata, IBidiRequest, BIDI_STRING, BIDI_NULL, _win32_IBidiRequest_SetInputData, BIDI_BOOL, BIDI_FLOAT, SetInputData method [Print Devices], IBidiRequest interface, IBidiRequest::SetInputData, IBidiRequest interface [Print Devices], SetInputData method, SetInputData, BIDI_ENUM
+ms.keywords: BIDI_FLOAT, BIDI_ENUM, BIDI_STRING, _win32_IBidiRequest_SetInputData, IBidiRequest::SetInputData, BIDI_BOOL, BIDI_TEXT, SetInputData method [Print Devices], bidispl/IBidiRequest::SetInputData, BIDI_INT, gdi.ibidirequest_ibidirequest__setinputdata, SetInputData, BIDI_NULL, IBidiRequest interface [Print Devices], SetInputData method, IBidiRequest, SetInputData method [Print Devices], IBidiRequest interface, print.ibidirequest_ibidirequest__setinputdata, BIDI_BLOB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

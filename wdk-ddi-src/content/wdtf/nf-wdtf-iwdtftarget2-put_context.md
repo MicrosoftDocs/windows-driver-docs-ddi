@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: e7a19b73-3393-4ab4-a967-c00b46f81a9e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iwdtftarget2_context, IWDTFTarget2 interface [Windows Device Testing Framework], Context property, IWDTFTarget2.Context, get_Context, ntddk/IWDTFTarget2::get_Context, Microsoft.WDTF.IWDTFTarget2.Context, Microsoft::WDTF::IWDTFTarget2::Context, Context property [Windows Device Testing Framework], Context property [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2::get_Context, ntddk/IWDTFTarget2::Context, IWDTFTarget2, IWDTFTarget2::put_Context, put_Context, ntddk/IWDTFTarget2::put_Context
+ms.keywords: put_Context, dtf.iwdtftarget2_context, IWDTFTarget2 interface [Windows Device Testing Framework], Context property, ntddk/IWDTFTarget2::Context, Context property [Windows Device Testing Framework], IWDTFTarget2, Context property [Windows Device Testing Framework], IWDTFTarget2 interface, Microsoft::WDTF::IWDTFTarget2::Context, IWDTFTarget2::put_Context, ntddk/IWDTFTarget2::put_Context, IWDTFTarget2.Context, Microsoft.WDTF.IWDTFTarget2.Context, get_Context, ntddk/IWDTFTarget2::get_Context, IWDTFTarget2::get_Context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

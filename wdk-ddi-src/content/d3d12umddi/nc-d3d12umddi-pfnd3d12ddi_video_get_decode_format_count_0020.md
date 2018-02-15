@@ -75,13 +75,14 @@ UINT APIENTRY* pfnGetDecodeFormatCount(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param NodeIndex
 
 The physical adapter of the device to which this operation applies.
 
 
 ### -param *
+
+
 
 
 
@@ -101,13 +102,17 @@ The decode configuration for the list of formats.  For more information, see the
 ## -returns
 
 
+
 This function retrieves the number of formats supported for a decode configuration.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020.md">3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
+
+
 
  
 

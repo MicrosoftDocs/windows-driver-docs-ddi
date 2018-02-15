@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 362C6F7C-7B92-43A8-9BD0-F647FDD266E4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceWdmDispatchIrp method, WdfDeviceWdmDispatchIrp, kmdf.wdfdevicewdmdispatchirp, wdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp
+ms.keywords: WdfDeviceWdmDispatchIrp, WdfDeviceWdmDispatchIrp method, wdfdevice/WdfDeviceWdmDispatchIrp, wdf.wdfdevicewdmdispatchirp, kmdf.wdfdevicewdmdispatchirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

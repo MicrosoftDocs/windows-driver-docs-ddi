@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c854b3a7-963a-4386-b6fa-9c22b9d496a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, dbgeng/IDebugAdvanced3::GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2, GetSourceFileInformation, debugger.getsourcefileinformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced2::GetSourceFileInformation
+ms.keywords: IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, GetSourceFileInformation, debugger.getsourcefileinformation, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, dbgeng/IDebugAdvanced3::GetSourceFileInformation, dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced2, GetSourceFileInformation method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -173,15 +173,15 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7A849A10-2C47-42E2-8BEB-E1D979D3C893
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWUDF_INTERRUPT_CONFIG, wudfinterrupt/PWUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, *PWUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG, _WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG structure pointer, wdf.wudf_interrupt_config, WUDF_INTERRUPT_CONFIG structure
+ms.keywords: wdf.wudf_interrupt_config, umdf.wudf_interrupt_config, WUDF_INTERRUPT_CONFIG structure, PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG structure pointer, wudfinterrupt/WUDF_INTERRUPT_CONFIG, wudfinterrupt/PWUDF_INTERRUPT_CONFIG, _WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG, *PWUDF_INTERRUPT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -144,11 +144,11 @@ UMDF supports edge-triggered, line-based interrupts and message-signaled interru
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
-
-
-
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetEffectiveIoType method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2, wdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2 interface, GetEffectiveIoType method, IWDFIoRequest2::GetEffectiveIoType, wudfddi/IWDFIoRequest2::GetEffectiveIoType, GetEffectiveIoType method, GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml
+ms.keywords: wudfddi/IWDFIoRequest2::GetEffectiveIoType, IWDFIoRequest2, IWDFIoRequest2 interface, GetEffectiveIoType method, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, GetEffectiveIoType, GetEffectiveIoType method, wdf.iwdfiorequest2_geteffectiveiotype, GetEffectiveIoType method, IWDFIoRequest2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,11 +123,11 @@ STDMETHODCALLTYPE
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
 
 

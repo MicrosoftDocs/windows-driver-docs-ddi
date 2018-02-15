@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: E66C34E2-2540-4BBC-82E4-6B5267D0EA7F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SplDeleteSpoolerPortStart, winsplp/SplDeleteSpoolerPortStart, print.spldeletespoolerportstart, SplDeleteSpoolerPortStart function [Print Devices]
+ms.keywords: print.spldeletespoolerportstart, winsplp/SplDeleteSpoolerPortStart, SplDeleteSpoolerPortStart, SplDeleteSpoolerPortStart function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

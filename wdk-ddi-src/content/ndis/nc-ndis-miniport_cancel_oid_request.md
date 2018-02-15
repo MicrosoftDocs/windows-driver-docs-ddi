@@ -173,7 +173,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscanceloidrequest.md">NdisCancelOidRequest</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
 
 
 
@@ -181,15 +185,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndiscanceloidrequest.md">NdisCancelOidRequest</a>
 
 
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
 
 
 

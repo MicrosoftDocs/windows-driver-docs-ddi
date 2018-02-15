@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c411d9e-1064-4278-9870-0546891d4743
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PORT_AUTHENTICATION_PARAMETERS, ndis_ports_ref_f78165f6-8166-4889-98e8-6c9f99fe0a0e.xml, PNDIS_PORT_AUTHENTICATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS, netvista.ndis_port_authentication_parameters, NDIS_PORT_AUTHENTICATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS, _NDIS_PORT_AUTHENTICATION_PARAMETERS
+ms.keywords: ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS, _NDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS, PNDIS_PORT_AUTHENTICATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis_ports_ref_f78165f6-8166-4889-98e8-6c9f99fe0a0e.xml, NDIS_PORT_AUTHENTICATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_AUTHENTICATION_PARAMETERS, netvista.ndis_port_authentication_parameters, *PNDIS_PORT_AUTHENTICATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

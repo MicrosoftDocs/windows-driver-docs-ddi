@@ -120,30 +120,46 @@ Pointer to a value of type ULONG specifying the size of the data buffer.
 ## -returns
 
 
+
 If the callback finds a match, return STATUS_SUCCESS. Otherwise return STATUS_NO_MATCH.
+
 
 
 
 ## -remarks
 
 
+
 The minidriver specifies this routine's address in the <b>IntersectHandler</b> member of a <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structure.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
 
 <a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
 
+
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+
 <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
  
 

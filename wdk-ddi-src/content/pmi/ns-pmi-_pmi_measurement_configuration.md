@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: dbabdd69-a97b-4de6-b35b-f3d8d2351c72
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], *PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, PPMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration, _PMI_MEASUREMENT_CONFIGURATION, pmi/PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION
+ms.keywords: "*PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], powermeter.pmi_measurement_configuration, PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, pmi/PPMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], _PMI_MEASUREMENT_CONFIGURATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,11 +85,11 @@ The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement pa
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-
-
-
 <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
 
 

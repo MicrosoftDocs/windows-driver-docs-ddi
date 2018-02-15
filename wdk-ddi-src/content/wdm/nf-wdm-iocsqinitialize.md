@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5287db75-3096-45ab-b35b-1ee8b076157d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoCsqInitialize, k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml, IoCsqInitialize routine [Kernel-Mode Driver Architecture], IoCsqInitialize, kernel.iocsqinitialize
+ms.keywords: kernel.iocsqinitialize, IoCsqInitialize, IoCsqInitialize routine [Kernel-Mode Driver Architecture], wdm/IoCsqInitialize, k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,7 +131,15 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
+<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
 
 
 
@@ -139,7 +147,27 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
 
 
 
@@ -151,35 +179,7 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
-
-
-
 <a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
 
 
 

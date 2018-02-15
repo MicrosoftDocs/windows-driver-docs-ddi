@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d5b091fa-13bf-4761-a03d-1790e7045b69
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: mrx/RxStartMinirdr, rxref_0ecf01ed-771f-44e8-a107-6d3a0d2beb02.xml, ifsk.rxstartminirdr, RxStartMinirdr function [Installable File System Drivers], RxStartMinirdr
+ms.keywords: RxStartMinirdr function [Installable File System Drivers], RxStartMinirdr, rxref_0ecf01ed-771f-44e8-a107-6d3a0d2beb02.xml, mrx/RxStartMinirdr, ifsk.rxstartminirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -245,15 +245,11 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 ## -see-also
 
+<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550715">MRxLowIOSubmit[LOWIO_OP_IOCTL]</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">, RxpUnregisterMinirdr</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
 
 
 
@@ -261,11 +257,11 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 
 
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
 
 
@@ -273,7 +269,7 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a>
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
 
 
@@ -285,15 +281,19 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 
 
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
 
 
 
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">, RxpUnregisterMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
 
 
 

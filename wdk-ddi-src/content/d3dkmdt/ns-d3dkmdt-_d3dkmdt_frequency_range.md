@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f826f949-b37f-4c48-80d9-b6ef640e1f00
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_frequency_range, D3DKMDT_FREQUENCY_RANGE, DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, D3DKMDT_FREQUENCY_RANGE structure [Display Devices], d3dkmdt/D3DKMDT_FREQUENCY_RANGE, _D3DKMDT_FREQUENCY_RANGE
+ms.keywords: d3dkmdt/D3DKMDT_FREQUENCY_RANGE, DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, _D3DKMDT_FREQUENCY_RANGE, display.d3dkmdt_frequency_range, D3DKMDT_FREQUENCY_RANGE, D3DKMDT_FREQUENCY_RANGE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

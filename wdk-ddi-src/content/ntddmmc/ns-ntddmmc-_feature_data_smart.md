@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cf6578d1-e455-4bbe-a89f-bc0292e24a4a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_SMART, storage.feature_data_smart, structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml, FEATURE_DATA_SMART, *PFEATURE_DATA_SMART, PFEATURE_DATA_SMART, FEATURE_DATA_SMART structure [Storage Devices], ntddmmc/FEATURE_DATA_SMART, PFEATURE_DATA_SMART structure pointer [Storage Devices], _FEATURE_DATA_SMART
+ms.keywords: "_FEATURE_DATA_SMART, *PFEATURE_DATA_SMART, PFEATURE_DATA_SMART structure pointer [Storage Devices], FEATURE_DATA_SMART structure [Storage Devices], PFEATURE_DATA_SMART, structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml, ntddmmc/PFEATURE_DATA_SMART, storage.feature_data_smart, FEATURE_DATA_SMART, ntddmmc/FEATURE_DATA_SMART"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

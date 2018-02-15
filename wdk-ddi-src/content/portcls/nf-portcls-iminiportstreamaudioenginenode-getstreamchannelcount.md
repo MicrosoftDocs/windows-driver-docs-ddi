@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: D39376D8-CD1D-4E07-8017-0B552A4D2E59
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelCount method, GetStreamChannelCount method [Audio Devices], IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode::GetStreamChannelCount, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount, audio.iminiportstreamaudioenginenode_getstreamchannelcount, GetStreamChannelCount, GetStreamChannelCount method [Audio Devices], IMiniportStreamAudioEngineNode interface
+ms.keywords: GetStreamChannelCount, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount, GetStreamChannelCount method [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelCount method, IMiniportStreamAudioEngineNode, audio.iminiportstreamaudioenginenode_getstreamchannelcount, GetStreamChannelCount method [Audio Devices], IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode::GetStreamChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -91,11 +91,11 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
+
+
+
+<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
 
 
 

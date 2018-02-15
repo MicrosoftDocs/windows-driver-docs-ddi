@@ -106,19 +106,31 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFOBX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
 
 
 
@@ -126,7 +138,15 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFOBX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
 
 
 
@@ -138,19 +158,7 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
 
 
 
@@ -158,15 +166,7 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
 
 
 

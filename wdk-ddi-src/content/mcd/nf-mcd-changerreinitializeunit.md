@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 161156e3-0da0-458d-b623-67665b2a56c0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerReinitializeUnit function [Storage Devices], ChangerReinitializeUnit, chgrmini_9883d8fd-334e-49f5-93ad-408622aa339f.xml, mcd/ChangerReinitializeUnit, storage.changerreinitializeunit
+ms.keywords: ChangerReinitializeUnit, storage.changerreinitializeunit, chgrmini_9883d8fd-334e-49f5-93ad-408622aa339f.xml, mcd/ChangerReinitializeUnit, ChangerReinitializeUnit function [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_reinitialize_transport.md">, IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 

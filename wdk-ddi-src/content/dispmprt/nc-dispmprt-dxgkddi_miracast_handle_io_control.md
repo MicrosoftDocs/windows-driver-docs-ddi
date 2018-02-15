@@ -157,15 +157,15 @@ The threading and synchronization level for this function is set by how the user
 
 
 
+<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
-
-
-
-<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
 
 
 

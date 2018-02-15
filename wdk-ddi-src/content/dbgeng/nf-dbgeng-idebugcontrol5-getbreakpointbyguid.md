@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid, IDebugControl5, IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid, GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, dbgeng/IDebugControl5::GetBreakpointByGuid
+ms.keywords: IDebugControl5, IDebugControl5::GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], IDebugControl5 interface, debugger.idebugcontrol5_getbreakpointbyguid, dbgeng/IDebugControl5::GetBreakpointByGuid, GetBreakpointByGuid, IDebugControl5 interface [Windows Debugging], GetBreakpointByGuid method, GetBreakpointByGuid method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,11 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 

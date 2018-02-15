@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e56186-f801-4684-8919-236d2429310f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory, CopyFromBuffer method, IWDFMemory interface, umdf.iwdfmemory_copyfrombuffer, IWDFMemory::CopyFromBuffer, IWDFMemory interface, CopyFromBuffer method, CopyFromBuffer, CopyFromBuffer method, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, wdf.iwdfmemory_copyfrombuffer, wudfddi/IWDFMemory::CopyFromBuffer
+ms.keywords: CopyFromBuffer method, wdf.iwdfmemory_copyfrombuffer, IWDFMemory, IWDFMemory interface, CopyFromBuffer method, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, IWDFMemory::CopyFromBuffer, umdf.iwdfmemory_copyfrombuffer, CopyFromBuffer method, IWDFMemory interface, wudfddi/IWDFMemory::CopyFromBuffer, CopyFromBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,11 +103,11 @@ A pointer to the source buffer that data is copied from.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
 
 

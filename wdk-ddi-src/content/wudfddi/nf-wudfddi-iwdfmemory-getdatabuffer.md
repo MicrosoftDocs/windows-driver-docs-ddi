@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 136aa2af-e3bf-48b6-9511-348510eedfb5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory interface, GetDataBuffer method, wdf.iwdfmemory_getdatabuffer, IWDFMemory, GetDataBuffer method, wudfddi/IWDFMemory::GetDataBuffer, GetDataBuffer, umdf.iwdfmemory_getdatabuffer, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, GetDataBuffer method, IWDFMemory interface, IWDFMemory::GetDataBuffer
+ms.keywords: wdf.iwdfmemory_getdatabuffer, GetDataBuffer method, GetDataBuffer, IWDFMemory interface, GetDataBuffer method, IWDFMemory, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, GetDataBuffer method, IWDFMemory interface, umdf.iwdfmemory_getdatabuffer, IWDFMemory::GetDataBuffer, wudfddi/IWDFMemory::GetDataBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

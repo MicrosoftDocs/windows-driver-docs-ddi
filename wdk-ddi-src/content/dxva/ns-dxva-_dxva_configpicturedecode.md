@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b36c2901-33ca-4c76-98d0-8dbe6551226b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_ConfigPictureDecode structure [Display Devices], display.dxva_configpicturedecode, dxva/LPDXVA_ConfigPictureDecode, LPDXVA_ConfigPictureDecode, dxva/DXVA_ConfigPictureDecode, _DXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode, dxvaref_857a5bfe-282a-49c2-8db6-a0fde8e26a61.xml, LPDXVA_ConfigPictureDecode structure pointer [Display Devices], *LPDXVA_ConfigPictureDecode
+ms.keywords: "*LPDXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode structure [Display Devices], LPDXVA_ConfigPictureDecode, DXVA_ConfigPictureDecode, _DXVA_ConfigPictureDecode, display.dxva_configpicturedecode, dxvaref_857a5bfe-282a-49c2-8db6-a0fde8e26a61.xml, dxva/LPDXVA_ConfigPictureDecode, LPDXVA_ConfigPictureDecode structure pointer [Display Devices], dxva/DXVA_ConfigPictureDecode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -255,7 +255,7 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
 
 
 
@@ -267,7 +267,7 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 52EC01D5-43C7-4CE0-ABEC-1604A4198316
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprinterextensioncontext_driverproperties, IPrinterExtensionContext, printerextension/IPrinterExtensionContext::get_DriverProperties, IPrinterExtensionContext::get_DriverProperties, DriverProperties property [Print Devices], IPrinterExtensionContext interface, IPrinterExtensionContext.DriverProperties, printerextension/IPrinterExtensionContext::DriverProperties, DriverProperties property [Print Devices], IPrinterExtensionContext interface [Print Devices], DriverProperties property, get_DriverProperties
+ms.keywords: get_DriverProperties, IPrinterExtensionContext.DriverProperties, IPrinterExtensionContext interface [Print Devices], DriverProperties property, IPrinterExtensionContext::get_DriverProperties, printerextension/IPrinterExtensionContext::get_DriverProperties, IPrinterExtensionContext, printerextension/IPrinterExtensionContext::DriverProperties, DriverProperties property [Print Devices], DriverProperties property [Print Devices], IPrinterExtensionContext interface, print.iprinterextensioncontext_driverproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -82,11 +82,11 @@ The driver property bag uses the following GUID for its property store format ID
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 

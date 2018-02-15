@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 102C7CEC-B1DD-49F6-AB7F-0CE0A22EBE54
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MEDIAKEY_PROTECTEDBY_AUTHKEY, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES, CAPS_BANDCROSSING_SUPPORTED, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], 0, _BAND_MANAGEMENT_CAPABILITIES, CAPS_SID_SECURED, storage.band_management_capabilities, PBAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], MEDIAKEY_PROTECTEDBY_VENDORSCHEME, *PBAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES, CAPS_ACTIVATED
+ms.keywords: CAPS_BANDCROSSING_SUPPORTED, MEDIAKEY_PROTECTEDBY_VENDORSCHEME, CAPS_ACTIVATED, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES, 0, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], CAPS_SID_SECURED, MEDIAKEY_PROTECTEDBY_AUTHKEY, PBAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], _BAND_MANAGEMENT_CAPABILITIES, storage.band_management_capabilities, *PBAND_MANAGEMENT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -201,11 +201,11 @@ If <b>CAPS_ACTIVATED</b> is not set in <b>Capabilities</b>, security functionali
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
-
-
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
+
+
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
 
 

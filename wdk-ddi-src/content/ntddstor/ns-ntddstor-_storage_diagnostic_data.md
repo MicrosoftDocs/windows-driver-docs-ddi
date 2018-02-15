@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68BC990B-DD0C-49CD-95EC-672FD1459B39
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_STORAGE_DIAGNOSTIC_DATA, storage.storage_diagnostic_data, ntddstor/PSTORAGE_DIAGNOSTIC_DATA, *PSTORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA structure [Storage Devices], STORAGE_DIAGNOSTIC_DATA, ntddstor/STORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA structure pointer [Storage Devices], PSTORAGE_DIAGNOSTIC_DATA"
+ms.keywords: "*PSTORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA, ntddstor/STORAGE_DIAGNOSTIC_DATA, STORAGE_DIAGNOSTIC_DATA structure [Storage Devices], _STORAGE_DIAGNOSTIC_DATA, PSTORAGE_DIAGNOSTIC_DATA structure pointer [Storage Devices], PSTORAGE_DIAGNOSTIC_DATA, ntddstor/PSTORAGE_DIAGNOSTIC_DATA, storage.storage_diagnostic_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

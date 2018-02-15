@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 199c2fd6-ecff-4b72-b55d-086687989485
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetWdmGetTargetDeviceObject method, wdfiotarget/WdfIoTargetWdmGetTargetDeviceObject, DFIOTargetRef_82d5005b-ced0-4ae5-8a73-8714d2895ead.xml, WdfIoTargetWdmGetTargetDeviceObject, kmdf.wdfiotargetwdmgettargetdeviceobject, wdf.wdfiotargetwdmgettargetdeviceobject
+ms.keywords: WdfIoTargetWdmGetTargetDeviceObject method, kmdf.wdfiotargetwdmgettargetdeviceobject, wdfiotarget/WdfIoTargetWdmGetTargetDeviceObject, wdf.wdfiotargetwdmgettargetdeviceobject, DFIOTargetRef_82d5005b-ced0-4ae5-8a73-8714d2895ead.xml, WdfIoTargetWdmGetTargetDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,7 +127,7 @@ The following code example checks an I/O target's WDM DEVICE_OBJECT structure to
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -135,15 +135,15 @@ The following code example checks an I/O target's WDM DEVICE_OBJECT structure to
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle.md">WdfIoTargetWdmGetTargetFileHandle</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
 
 

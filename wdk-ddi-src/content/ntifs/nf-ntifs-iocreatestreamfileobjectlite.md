@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 79c6438c-ba8c-4fc5-8c3f-5865a51869b7
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/IoCreateStreamFileObjectLite, ifsk.iocreatestreamfileobjectlite, ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, IoCreateStreamFileObjectLite routine [Installable File System Drivers], IoCreateStreamFileObjectLite
+ms.keywords: IoCreateStreamFileObjectLite routine [Installable File System Drivers], ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, IoCreateStreamFileObjectLite, ntifs/IoCreateStreamFileObjectLite, ifsk.iocreatestreamfileobjectlite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,7 +108,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
 
 
 
@@ -116,19 +116,19 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectLite</b> raises 
 
 
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 

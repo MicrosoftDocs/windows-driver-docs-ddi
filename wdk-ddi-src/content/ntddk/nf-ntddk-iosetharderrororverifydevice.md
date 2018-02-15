@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67f41d3e-d306-400b-9970-88c62f0f7a7f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, ntddk/IoSetHardErrorOrVerifyDevice, kernel.iosetharderrororverifydevice, IoSetHardErrorOrVerifyDevice, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.iosetharderrororverifydevice, k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], ntddk/IoSetHardErrorOrVerifyDevice, IoSetHardErrorOrVerifyDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ The IRP passed to <b>IoSetHardErrorOrVerifyDevice</b> must be associated with a 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioiserroruserinduced.md">IoIsErrorUserInduced</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioiserroruserinduced.md">IoIsErrorUserInduced</a>
 
 
 

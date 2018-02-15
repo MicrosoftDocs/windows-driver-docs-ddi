@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.waveformatextensible, WAVEFORMATEXTENSIBLE, ksmedia/PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE structure [Audio Devices], aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, ksmedia/WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
+ms.keywords: ksmedia/PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE, audio.waveformatextensible, ksmedia/WAVEFORMATEXTENSIBLE, aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, WAVEFORMATEXTENSIBLE structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

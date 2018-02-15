@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 90BD61C8-322B-48D5-83E0-7204E3DC4423
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeWorker, storage.storportfreeworker, storport/StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices]
+ms.keywords: storport/StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices], storage.storportfreeworker, StorPortFreeWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,11 +169,11 @@ Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longe
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
+
+
+<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
 
 

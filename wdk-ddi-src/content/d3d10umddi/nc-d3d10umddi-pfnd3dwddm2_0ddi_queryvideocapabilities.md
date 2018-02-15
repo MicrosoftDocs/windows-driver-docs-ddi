@@ -40,7 +40,7 @@ apiname:
 -	pfnQueryVideoCapabilities
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES callback
@@ -114,19 +114,29 @@ Pointer to a structure containing data further identifying input parameters and 
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling.md">D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_video_decoder_caps.md">D3DWDDM2_0DDI_VIDEO_DECODER_CAPS</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_capability_decoder_downsampling.md">D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling.md">D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING</a>
+
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_video_capability_query.md">D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_video_decoder_caps.md">D3DWDDM2_0DDI_VIDEO_DECODER_CAPS</a>
+
 
  
 

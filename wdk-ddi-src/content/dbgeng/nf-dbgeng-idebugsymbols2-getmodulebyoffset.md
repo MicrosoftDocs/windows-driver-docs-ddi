@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ff51d0d1-47f1-4df6-b671-d74f791d778b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetModuleByOffset, dbgeng/IDebugSymbols3::GetModuleByOffset, GetModuleByOffset, debugger.getmodulebyoffset, IDebugSymbols2, IDebugSymbols::GetModuleByOffset, IDebugSymbols3::GetModuleByOffset, dbgeng/IDebugSymbols2::GetModuleByOffset, IDebugSymbols interface [Windows Debugging], GetModuleByOffset method, GetModuleByOffset method [Windows Debugging], GetModuleByOffset method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetModuleByOffset, IDebugSymbols2 interface [Windows Debugging], GetModuleByOffset method, GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, IDebugSymbols, GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetModuleByOffset, IDebugSymbols interface [Windows Debugging], GetModuleByOffset method, dbgeng/IDebugSymbols::GetModuleByOffset, IDebugSymbols2 interface [Windows Debugging], GetModuleByOffset method, GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface, GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols2, GetModuleByOffset, IDebugSymbols2::GetModuleByOffset, IDebugSymbols::GetModuleByOffset, IDebugSymbols, debugger.getmodulebyoffset, dbgeng/IDebugSymbols2::GetModuleByOffset, IDebugSymbols3::GetModuleByOffset, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, GetModuleByOffset method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -133,7 +133,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
 
 
@@ -141,11 +145,7 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

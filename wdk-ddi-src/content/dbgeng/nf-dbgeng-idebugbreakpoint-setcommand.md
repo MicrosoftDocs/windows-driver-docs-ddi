@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c9db77e-6e5d-45cd-a52c-dcc3acf5cba0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetCommand method [Windows Debugging], IDebugBreakpoint interface, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint2::SetCommand, SetCommand method [Windows Debugging], dbgeng/IDebugBreakpoint::SetCommand, IDebugBreakpoint interface [Windows Debugging], SetCommand method, IDebugBreakpoint, debugger.setcommand, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, dbgeng/IDebugBreakpoint2::SetCommand, SetCommand, IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: IDebugBreakpoint2::SetCommand, SetCommand, IDebugBreakpoint, dbgeng/IDebugBreakpoint2::SetCommand, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, IDebugBreakpoint::SetCommand, IDebugBreakpoint interface [Windows Debugging], SetCommand method, debugger.setcommand, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, SetCommand method [Windows Debugging], SetCommand method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, ACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, acpi.acpi_eval_output_buffer, _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], *PACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER_V1
+ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER_V1, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], *PACPI_EVAL_OUTPUT_BUFFER, acpi.acpi_eval_output_buffer, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, ACPI_EVAL_OUTPUT_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

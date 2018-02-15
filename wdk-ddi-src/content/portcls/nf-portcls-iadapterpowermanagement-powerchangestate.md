@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3e0fca7-d5ab-4d52-9702-dae83c540a71
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IAdapterPowerManagement::PowerChangeState, PowerChangeState method [Audio Devices], IAdapterPowerManagement interface, portcls/IAdapterPowerManagement::PowerChangeState, audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], PowerChangeState method, PowerChangeState method [Audio Devices], PowerChangeState, audio.iadapterpowermanagement_powerchangestate
+ms.keywords: PowerChangeState, IAdapterPowerManagement interface [Audio Devices], PowerChangeState method, portcls/IAdapterPowerManagement::PowerChangeState, IAdapterPowerManagement, PowerChangeState method [Audio Devices], audio.iadapterpowermanagement_powerchangestate, IAdapterPowerManagement::PowerChangeState, audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, PowerChangeState method [Audio Devices], IAdapterPowerManagement interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -150,15 +150,15 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
-
-
-
-<a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
 
 
 

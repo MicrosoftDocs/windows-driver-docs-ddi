@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c34b2be1-fe1c-4a99-ac9c-ddd40b97d8d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsInjectNetworkReceiveAsync0, FwpsInjectNetworkReceiveAsync0 function [Network Drivers Starting with Windows Vista], netvista.fwpsinjectnetworkreceiveasync0, wfp_ref_2_funct_3_fwps_I_fb65a452-e8f0-4160-8366-90a1925644da.xml, FwpsInjectNetworkReceiveAsync0
+ms.keywords: FwpsInjectNetworkReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectNetworkReceiveAsync0, netvista.fwpsinjectnetworkreceiveasync0, FwpsInjectNetworkReceiveAsync0, wfp_ref_2_funct_3_fwps_I_fb65a452-e8f0-4160-8366-90a1925644da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -274,16 +274,16 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
    FwpsAllocateCloneNetBufferList0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
 
 
@@ -299,26 +299,26 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
+   FwpsQueryPacketInjectionState0</a>
+
+
+
 <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
    FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
 
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
    FwpsAllocateNetBufferAndNetBufferList0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
-   FwpsQueryPacketInjectionState0</a>
 
 
 

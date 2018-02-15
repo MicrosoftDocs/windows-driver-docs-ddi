@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2a9398f7-4d01-42a6-9ac2-ca105db76bb8
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbstrct_f057519c-8b38-479c-9065-16c2106550aa.xml, USB_CONFIGURATION_DESCRIPTOR, buses.usb_configuration_descriptor, PUSB_CONFIGURATION_DESCRIPTOR structure pointer [Buses], PUSB_CONFIGURATION_DESCRIPTOR, _USB_CONFIGURATION_DESCRIPTOR, USB_CONFIGURATION_DESCRIPTOR structure [Buses], usbspec/PUSB_CONFIGURATION_DESCRIPTOR, usbspec/USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR
+ms.keywords: USB_CONFIGURATION_DESCRIPTOR, usbspec/PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR structure pointer [Buses], USB_CONFIGURATION_DESCRIPTOR structure [Buses], _USB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR, usbstrct_f057519c-8b38-479c-9065-16c2106550aa.xml, buses.usb_configuration_descriptor, usbspec/USB_CONFIGURATION_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -178,15 +178,15 @@ Other members that are part of this structure but not described here should be t
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequest.md">USBD_CreateConfigurationRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequest.md">USBD_CreateConfigurationRequest</a>
 
 
 

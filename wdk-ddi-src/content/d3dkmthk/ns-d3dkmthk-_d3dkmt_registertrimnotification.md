@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CA5BC76B-539E-4FFF-8E02-C475D18588F6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices], d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION, _D3DKMT_REGISTERTRIMNOTIFICATION, display.d3dkmt_registertrimnotification
+ms.keywords: display.d3dkmt_registertrimnotification, D3DKMT_REGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, _D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,11 +100,11 @@ typedef struct _D3DKMT_REGISTERTRIMNOTIFICATION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
 
 
 

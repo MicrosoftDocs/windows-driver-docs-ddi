@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b0477c52-d9e6-47cd-b94c-b9da2c4e07a6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSSTREAMALLOCATOR_STATUS_EX, PKSSTREAMALLOCATOR_STATUS_EX, stream.ksstreamallocator_status_ex, ks/KSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX, *PKSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX structure [Streaming Media Devices], PKSSTREAMALLOCATOR_STATUS_EX structure pointer [Streaming Media Devices], ks-struct_e62b6482-11b5-48be-9263-719809e9e79d.xml
+ms.keywords: ks/PKSSTREAMALLOCATOR_STATUS_EX, stream.ksstreamallocator_status_ex, ks-struct_e62b6482-11b5-48be-9263-719809e9e79d.xml, PKSSTREAMALLOCATOR_STATUS_EX, ks/KSSTREAMALLOCATOR_STATUS_EX, *PKSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX, PKSSTREAMALLOCATOR_STATUS_EX structure pointer [Streaming Media Devices], KSSTREAMALLOCATOR_STATUS_EX structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

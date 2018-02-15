@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 377845f7-772f-4361-8fcb-10c432fa7abf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [Display Devices], dxva/DXVA_COPPStatusDisplayData, display.dxva_coppstatusdisplaydata, _DXVA_COPPStatusDisplayData, dxvaref_93230a15-ba58-4da6-8577-eb1f2bf8528e.xml
+ms.keywords: dxva/DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData, _DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [Display Devices], dxvaref_93230a15-ba58-4da6-8577-eb1f2bf8528e.xml, display.dxva_coppstatusdisplaydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,7 +139,11 @@ The refresh rate of the current display mode is expressed as a numerator/denomin
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
+<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
 
 
 
@@ -147,15 +151,11 @@ The refresh rate of the current display mode is expressed as a numerator/denomin
 
 
 
+<a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
 
 
 

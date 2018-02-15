@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxIsDeviceOwner function, poscx/PosCxIsDeviceOwner, PosCxIsDeviceOwner, pos.poscxisdeviceowner
+ms.keywords: pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner, PosCxIsDeviceOwner function, PosCxIsDeviceOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

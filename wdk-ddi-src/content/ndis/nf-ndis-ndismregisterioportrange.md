@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e7fc02b-9562-44b9-8659-793a1d96d1e9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismregisterioportrange, ndis/NdisMRegisterIoPortRange, miniport_port_io_ref_fa0141f1-639d-485d-a074-8af029c04406.xml, NdisMRegisterIoPortRange, NdisMRegisterIoPortRange function [Network Drivers Starting with Windows Vista]
+ms.keywords: miniport_port_io_ref_fa0141f1-639d-485d-a074-8af029c04406.xml, NdisMRegisterIoPortRange function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterIoPortRange, netvista.ndismregisterioportrange, NdisMRegisterIoPortRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -204,23 +204,11 @@ Drivers of NICs with device registers in the host memory space call
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismderegisterioportrange.md">NdisMDeregisterIoPortRange</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
 
 
 
@@ -228,35 +216,7 @@ Drivers of NICs with device registers in the host memory space call
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteregisteruchar.md">NdisWriteRegisterUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteregisterushort.md">NdisWriteRegisterUshort</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
 
 
 
@@ -264,11 +224,55 @@ Drivers of NICs with device registers in the host memory space call
 
 
 
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteregisterushort.md">NdisWriteRegisterUshort</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
 
 
 
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteregisteruchar.md">NdisWriteRegisterUchar</a>
 
 
 
@@ -280,11 +284,7 @@ Drivers of NICs with device registers in the host memory space call
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferuchar.md">NdisRawWritePortBufferUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
 
 
 

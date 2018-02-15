@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c59c4fa-610e-4200-a94a-2c28754dfe43
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUNSOLICITEDSSINFO, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUNSOLICITEDSSINFO_V2, netvista.rilunsolicitedssinfo_v2_2, *LPRILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2
+ms.keywords: "*LPRILUNSOLICITEDSSINFO_V2, rilapitypes/RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], RILUNSOLICITEDSSINFO_V2, netvista.rilunsolicitedssinfo_v2_2, RILUNSOLICITEDSSINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

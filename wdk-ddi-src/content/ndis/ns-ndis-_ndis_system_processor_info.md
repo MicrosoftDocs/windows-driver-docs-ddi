@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f59b9394-7742-423d-9a6e-3a429ccb0740
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_system_processor_info, PNDIS_SYSTEM_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis_sysinfo_ref_79dba975-da34-4cc1-b26b-5c18867fa408.xml, PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO, *PNDIS_SYSTEM_PROCESSOR_INFO, _NDIS_SYSTEM_PROCESSOR_INFO, ndis/PNDIS_SYSTEM_PROCESSOR_INFO
+ms.keywords: netvista.ndis_system_processor_info, NDIS_SYSTEM_PROCESSOR_INFO, ndis/PNDIS_SYSTEM_PROCESSOR_INFO, ndis_sysinfo_ref_79dba975-da34-4cc1-b26b-5c18867fa408.xml, PNDIS_SYSTEM_PROCESSOR_INFO, PNDIS_SYSTEM_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_SYSTEM_PROCESSOR_INFO, ndis/NDIS_SYSTEM_PROCESSOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -174,6 +174,10 @@ NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO structure in calls to th
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_processor_vendor.md">NDIS_PROCESSOR_VENDOR</a>
 
 
@@ -182,7 +186,7 @@ NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO structure in calls to th
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetprocessorinformation.md">NdisGetProcessorInformation</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
 
 
@@ -191,11 +195,7 @@ NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO structure in calls to th
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformation.md">NdisGetProcessorInformation</a>
 
 
 

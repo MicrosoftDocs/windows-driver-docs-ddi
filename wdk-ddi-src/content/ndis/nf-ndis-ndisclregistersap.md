@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33ed0839-d1e3-4872-baa8-ead7e97f8c53
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_client_ref_ee22bc25-7935-458f-8016-6537d9803acb.xml, ndis/NdisClRegisterSap, NdisClRegisterSap, NdisClRegisterSap function [Network Drivers Starting with Windows Vista], netvista.ndisclregistersap
+ms.keywords: NdisClRegisterSap function [Network Drivers Starting with Windows Vista], NdisClRegisterSap, netvista.ndisclregistersap, condis_client_ref_ee22bc25-7935-458f-8016-6537d9803acb.xml, ndis/NdisClRegisterSap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -186,12 +186,11 @@ When the VC has been set up and activated, the call manager calls
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
-   ProtocolClRegisterSapComplete</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 
@@ -199,7 +198,8 @@ When the VC has been set up and activated, the call manager calls
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+   ProtocolClRegisterSapComplete</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2fcc4597-b169-43a8-b2bb-dd2dd66f29dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KINTERRUPT_POLARITY, InterruptActiveLow, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/InterruptPolarityUnknown, InterruptFallingEdge, wdm/InterruptActiveLow, InterruptRisingEdge, wdm/InterruptActiveBoth, InterruptActiveBothTriggerHigh, wdm/InterruptActiveBothTriggerLow, PKINTERRUPT_POLARITY, InterruptActiveBothTriggerLow, InterruptActiveHigh, wdm/InterruptActiveBothTriggerHigh, wdm/InterruptActiveHigh, InterruptPolarityUnknown, wdm/InterruptFallingEdge, PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], _KINTERRUPT_POLARITY, InterruptActiveBoth, wdm/InterruptRisingEdge, *PKINTERRUPT_POLARITY, kernel.kinterrupt_polarity, KINTERRUPT_POLARITY, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], wdm/PKINTERRUPT_POLARITY
+ms.keywords: InterruptActiveBothTriggerLow, PKINTERRUPT_POLARITY, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/InterruptRisingEdge, InterruptPolarityUnknown, wdm/InterruptActiveBothTriggerHigh, wdm/InterruptPolarityUnknown, wdm/InterruptActiveBoth, wdm/InterruptFallingEdge, wdm/InterruptActiveLow, kernel.kinterrupt_polarity, InterruptActiveBoth, InterruptActiveLow, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], _KINTERRUPT_POLARITY, wdm/InterruptActiveHigh, InterruptRisingEdge, InterruptActiveBothTriggerHigh, wdm/PKINTERRUPT_POLARITY, wdm/KINTERRUPT_POLARITY, InterruptActiveHigh, InterruptFallingEdge, KINTERRUPT_POLARITY, *PKINTERRUPT_POLARITY, wdm/InterruptActiveBothTriggerLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

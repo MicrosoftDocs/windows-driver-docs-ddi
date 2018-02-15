@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4ea5e428-783c-4a28-bec5-42106425ee1f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PSetGroupPresharedKey_OUT, structs-iSCSI_81186f6a-bf08-42eb-a3d8-ae195cdd8135.xml, storage.setgrouppresharedkey_out, *PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT structure pointer [Storage Devices], _SetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT structure [Storage Devices], PSetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT, iscsiop/SetGroupPresharedKey_OUT
+ms.keywords: iscsiop/PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT structure pointer [Storage Devices], _SetGroupPresharedKey_OUT, structs-iSCSI_81186f6a-bf08-42eb-a3d8-ae195cdd8135.xml, storage.setgrouppresharedkey_out, iscsiop/SetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT structure [Storage Devices], *PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_in.md">SetGroupPresharedKey_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
 
 
 
@@ -91,7 +91,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
+<a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_in.md">SetGroupPresharedKey_IN</a>
 
 
 

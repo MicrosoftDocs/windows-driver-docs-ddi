@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 136b7582-b974-44fb-8026-e9678ae6623c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, IWDFIoQueue, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, umdf.iwdfioqueue_retrievenextrequestbyfileobject, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, IWDFIoQueue::RetrieveNextRequestByFileObject
+ms.keywords: RetrieveNextRequestByFileObject method, IWDFIoQueue interface, wdf.iwdfioqueue_retrievenextrequestbyfileobject, umdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, IWDFIoQueue, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, IWDFIoQueue::RetrieveNextRequestByFileObject, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, RetrieveNextRequestByFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -168,15 +168,15 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 
 
@@ -184,7 +184,7 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
 
 

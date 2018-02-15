@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 73fe40ee-f1fe-419b-a866-6c40604f7716
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoGetRequestorProcessId routine [Installable File System Drivers], ifsk.iogetrequestorprocessid, ntifs/IoGetRequestorProcessId, ioref_a08b37d7-b999-4e40-a0aa-c62744fee6dd.xml, IoGetRequestorProcessId
+ms.keywords: ioref_a08b37d7-b999-4e40-a0aa-c62744fee6dd.xml, ntifs/IoGetRequestorProcessId, ifsk.iogetrequestorprocessid, IoGetRequestorProcessId, IoGetRequestorProcessId routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

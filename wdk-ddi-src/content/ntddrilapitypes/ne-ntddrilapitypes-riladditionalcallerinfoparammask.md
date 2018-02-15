@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b37246ed-37b8-4d5f-aace-41053ea839da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_ADDTLCI_ALL, netvista.riladditionalcallerinfoparammask, RIL_PARAM_ADDTLCI_CALLID, RILADDITIONALCALLERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILADDITIONALCALLERINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_ADDTLCI_ALL, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLERINFO, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLID, RIL_PARAM_ADDTLCI_CALLERINFO, RILADDITIONALCALLERINFOPARAMMASK, RIL_PARAM_ADDTLCI_CALLERINFOLENGTH
+ms.keywords: RIL_PARAM_ADDTLCI_CALLERINFO, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLID, RILADDITIONALCALLERINFOPARAMMASK, RIL_PARAM_ADDTLCI_ALL, RIL_PARAM_ADDTLCI_CALLID, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, ntddrilapitypes/RIL_PARAM_ADDTLCI_CALLERINFO, ntddrilapitypes/RIL_PARAM_ADDTLCI_ALL, ntddrilapitypes/RILADDITIONALCALLERINFOPARAMMASK, RIL_PARAM_ADDTLCI_CALLERINFOLENGTH, netvista.riladditionalcallerinfoparammask, RILADDITIONALCALLERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

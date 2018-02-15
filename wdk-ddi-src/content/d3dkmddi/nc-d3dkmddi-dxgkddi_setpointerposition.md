@@ -84,11 +84,14 @@ NTSTATUS APIENTRY DxgkDdiSetPointerPosition(
 ## -returns
 
 
+
 <i>DxgkDdiSetPointerPosition</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiSetPointerPosition</i> function to set the location of the mouse pointer. The <i>DxgkDdiSetPointerPosition</i> function is called independently of all of the other display miniport driver functions. Therefore, a <i>DxgkDdiSetPointerPosition</i> thread can run simultaneously with another display miniport driver thread. However, the system ensures that <i>DxgkDdiSetPointerPosition</i> and <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a> threads cannot run simultaneously. 
@@ -101,13 +104,20 @@ If you run a <i>DxgkDdiSetPointerPosition</i> thread simultaneously with another
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a>
+
 
  
 

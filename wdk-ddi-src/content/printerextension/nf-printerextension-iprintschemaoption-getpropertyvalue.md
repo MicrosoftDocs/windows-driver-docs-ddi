@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaOption, GetPropertyValue, IPrintSchemaOption interface [Print Devices], GetPropertyValue method, IPrintSchemaOption::GetPropertyValue, printerextension/IPrintSchemaOption::GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue method [Print Devices], IPrintSchemaOption interface, print.iprintschemaoption_getpropertyvalue
+ms.keywords: GetPropertyValue, printerextension/IPrintSchemaOption::GetPropertyValue, GetPropertyValue method [Print Devices], IPrintSchemaOption interface, IPrintSchemaOption interface [Print Devices], GetPropertyValue method, print.iprintschemaoption_getpropertyvalue, IPrintSchemaOption::GetPropertyValue, IPrintSchemaOption, GetPropertyValue method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -118,11 +118,11 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 

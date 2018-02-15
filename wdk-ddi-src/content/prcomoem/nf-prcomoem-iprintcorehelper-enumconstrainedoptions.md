@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 16a9417c-6d47-49fc-9ba9-e2b522255942
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml, IPrintCoreHelper, EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], print.iprintcorehelper_enumconstrainedoptions, EnumConstrainedOptions, IPrintCoreHelper::EnumConstrainedOptions
+ms.keywords: prcomoem/IPrintCoreHelper::EnumConstrainedOptions, EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml, IPrintCoreHelper::EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method, IPrintCoreHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

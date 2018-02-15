@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3d94d363-fc8b-4b12-b90d-43dfc5923bdf
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/RevertToPrinterSelf, RevertToPrinterSelf function [Print Devices], RevertToPrinterSelf, spoolfnc_4cf3c4c1-39bf-4ef6-b578-b9ff0955cbe5.xml, print.reverttoprinterself
+ms.keywords: spoolfnc_4cf3c4c1-39bf-4ef6-b578-b9ff0955cbe5.xml, RevertToPrinterSelf function [Print Devices], RevertToPrinterSelf, winsplp/RevertToPrinterSelf, print.reverttoprinterself
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

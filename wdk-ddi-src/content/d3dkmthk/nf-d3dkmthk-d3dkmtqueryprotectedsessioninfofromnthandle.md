@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04eff7e1-1ac3-4622-a837-1ea6aad97329
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTQueryProtectedSessionInfoFromNtHandle, D3DKMTQueryProtectedSessionInfoFromNtHandle method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle, display.d3dkmtqueryprotectedsessioninfofromnthandle
+ms.keywords: D3DKMTQueryProtectedSessionInfoFromNtHandle method [Display Devices], D3DKMTQueryProtectedSessionInfoFromNtHandle, display.d3dkmtqueryprotectedsessioninfofromnthandle, d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

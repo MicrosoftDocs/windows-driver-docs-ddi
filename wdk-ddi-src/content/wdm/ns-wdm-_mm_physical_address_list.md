@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D653607A-7C37-408D-AD19-B4A8988CDACE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST, wdm/PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST structure [Kernel-Mode Driver Architecture], _MM_PHYSICAL_ADDRESS_LIST, *PMM_PHYSICAL_ADDRESS_LIST, kernel.mm_physical_address_list, wdm/MM_PHYSICAL_ADDRESS_LIST, PMM_PHYSICAL_ADDRESS_LIST structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST, wdm/MM_PHYSICAL_ADDRESS_LIST, PMM_PHYSICAL_ADDRESS_LIST, *PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST structure [Kernel-Mode Driver Architecture], _MM_PHYSICAL_ADDRESS_LIST, kernel.mm_physical_address_list, PMM_PHYSICAL_ADDRESS_LIST structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

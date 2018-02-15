@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c6931cee-2b86-4bf8-9e9d-b04e2df9eb12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilversionparams, RILVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILVERSIONPARAMS, RILVERSIONPARAMS, *LPRILVERSIONPARAMS
+ms.keywords: ntddrilapitypes/RILVERSIONPARAMS, RILVERSIONPARAMS, *LPRILVERSIONPARAMS, RILVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilversionparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

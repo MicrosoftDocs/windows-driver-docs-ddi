@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueDispatchRequests, WdfIoQueueAcceptRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueDriverNoRequests, WDF_IO_QUEUE_STATE enumeration, WDF_IO_QUEUE_STATE, wdfio/WDF_IO_QUEUE_STATE, WdfIoQueueDriverNoRequests, wdfio/WdfIoQueueNoRequests, WdfIoQueueNoRequests, wdf.wdf_io_queue_state, wdfio/WdfIoQueuePnpHeld, kmdf.wdf_io_queue_state, wdfio/WdfIoQueueDispatchRequests, WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueAcceptRequests
+ms.keywords: WdfIoQueueDriverNoRequests, wdfio/WdfIoQueuePnpHeld, wdfio/WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE, WdfIoQueueAcceptRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, WdfIoQueueDispatchRequests, _WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDriverNoRequests, kmdf.wdf_io_queue_state, WDF_IO_QUEUE_STATE enumeration, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueueAcceptRequests, wdfio/WdfIoQueueNoRequests, wdf.wdf_io_queue_state, WdfIoQueuePnpHeld, WdfIoQueueNoRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

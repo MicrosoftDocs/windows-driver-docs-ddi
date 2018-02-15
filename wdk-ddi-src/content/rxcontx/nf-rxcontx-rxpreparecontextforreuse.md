@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 16b4bd82-0ffc-40c7-8cd2-f73a2a588ac8
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxcontx/RxPrepareContextForReuse, ifsk.rxpreparecontextforreuse, rxref_34eae0cd-faff-47e7-8313-aca1361edc68.xml, RxPrepareContextForReuse, RxPrepareContextForReuse function [Installable File System Drivers]
+ms.keywords: RxPrepareContextForReuse, ifsk.rxpreparecontextforreuse, RxPrepareContextForReuse function [Installable File System Drivers], rxcontx/RxPrepareContextForReuse, rxref_34eae0cd-faff-47e7-8313-aca1361edc68.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,19 +107,15 @@ The <b>RxPrepareContextForReuse </b>routine would normally only be used by netwo
 
 ## -see-also
 
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 
@@ -135,7 +131,11 @@ The <b>RxPrepareContextForReuse </b>routine would normally only be used by netwo
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 

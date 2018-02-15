@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 819ac05b-15c2-4a24-ae6b-8a47991a4e7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferListDataStart, NdisAdvanceNetBufferListDataStart, netvista.ndisadvancenetbufferlistdatastart
+ms.keywords: NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, netvista.ndisadvancenetbufferlistdatastart, NdisAdvanceNetBufferListDataStart, ndis/NdisAdvanceNetBufferListDataStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -156,8 +156,8 @@ When protocol drivers call
 
 
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
-   NdisRetreatNetBufferListDataStart</a>
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
 
 
 
@@ -165,12 +165,12 @@ When protocol drivers call
 
 
 
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
-
-
-
 <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+   NdisRetreatNetBufferListDataStart</a>
 
 
 

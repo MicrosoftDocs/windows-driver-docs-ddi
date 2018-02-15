@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 04ceffce-cd5f-4e62-98cb-450e8552a811
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], iscsiprf/PMSiSCSI_SessionStatistics, PMSiSCSI_SessionStatistics, structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml, _MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices], iscsiprf/MSiSCSI_SessionStatistics"
+ms.keywords: MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices], iscsiprf/MSiSCSI_SessionStatistics, iscsiprf/PMSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], *PMSiSCSI_SessionStatistics, structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml, PMSiSCSI_SessionStatistics, _MSiSCSI_SessionStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,11 +145,11 @@ It is optional that you implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563139">MSiSCSI_SessionStatistics WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

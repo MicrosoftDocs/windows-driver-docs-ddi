@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a84dffce-977e-412a-a12a-e0e156b943ac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortRegistryFreeBuffer routine [Storage Devices], atartns_70807844-dbef-4457-bd47-102aeffcc840.xml, irb/AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer, storage.ataportregistryfreebuffer
+ms.keywords: storage.ataportregistryfreebuffer, irb/AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer routine [Storage Devices], atartns_70807844-dbef-4457-bd47-102aeffcc840.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,15 +103,15 @@ The miniport driver must call <b>AtaPortRegistryFreeBuffer</b> either in its <a 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 
 
 <a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 

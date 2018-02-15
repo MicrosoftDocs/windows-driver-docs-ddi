@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CA84F931-5EB9-49D0-9EA5-288900A8DE46
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourceEntriesByOffset, GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByOffset method, debugger.idebugsymbols3_getsourceentriesbyoffset, IDebugSymbols3::GetSourceEntriesByOffset, dbgeng/IDebugSymbols3::GetSourceEntriesByOffset, IDebugSymbols3
+ms.keywords: IDebugSymbols3::GetSourceEntriesByOffset, debugger.idebugsymbols3_getsourceentriesbyoffset, dbgeng/IDebugSymbols3::GetSourceEntriesByOffset, GetSourceEntriesByOffset, IDebugSymbols3, GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByOffset method, GetSourceEntriesByOffset method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,11 +116,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

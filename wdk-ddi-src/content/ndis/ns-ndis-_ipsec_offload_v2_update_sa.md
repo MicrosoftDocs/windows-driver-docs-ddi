@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d9fe5fec-75e3-4ea6-a4ac-16756fa8dc38
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ipsec_offload_v2_update_sa, ndis/PIPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA, PIPSEC_OFFLOAD_V2_UPDATE_SA structure pointer [Network Drivers Starting with Windows Vista], task_offload_IPsecv2_ref_2a34fbb7-fa5d-49f3-844c-c5e8df229a54.xml, _IPSEC_OFFLOAD_V2_UPDATE_SA, ndis/IPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA structure [Network Drivers Starting with Windows Vista], *PIPSEC_OFFLOAD_V2_UPDATE_SA, PIPSEC_OFFLOAD_V2_UPDATE_SA
+ms.keywords: PIPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA structure [Network Drivers Starting with Windows Vista], netvista.ipsec_offload_v2_update_sa, ndis/IPSEC_OFFLOAD_V2_UPDATE_SA, _IPSEC_OFFLOAD_V2_UPDATE_SA, task_offload_IPsecv2_ref_2a34fbb7-fa5d-49f3-844c-c5e8df229a54.xml, PIPSEC_OFFLOAD_V2_UPDATE_SA structure pointer [Network Drivers Starting with Windows Vista], ndis/PIPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA, *PIPSEC_OFFLOAD_V2_UPDATE_SA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,8 +125,12 @@ The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -134,12 +138,8 @@ The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointe
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-update-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_UPDATE_SA</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 

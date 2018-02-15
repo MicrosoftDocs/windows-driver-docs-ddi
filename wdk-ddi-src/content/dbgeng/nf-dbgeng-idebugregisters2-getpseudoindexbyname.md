@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0973d8d8-53df-47aa-be65-71045c2e6006
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getpseudoindexbyname, GetPseudoIndexByName method [Windows Debugging], IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, IDebugRegisters2, GetPseudoIndexByName, dbgeng/IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters2 interface [Windows Debugging], GetPseudoIndexByName method, GetPseudoIndexByName method [Windows Debugging], IDebugRegisters2 interface
+ms.keywords: dbgeng/IDebugRegisters2::GetPseudoIndexByName, GetPseudoIndexByName, IDebugRegisters2, IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, IDebugRegisters2 interface [Windows Debugging], GetPseudoIndexByName method, IDebugRegisters2::GetPseudoIndexByName, GetPseudoIndexByName method [Windows Debugging], IDebugRegisters2 interface, GetPseudoIndexByName method [Windows Debugging], debugger.getpseudoindexbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

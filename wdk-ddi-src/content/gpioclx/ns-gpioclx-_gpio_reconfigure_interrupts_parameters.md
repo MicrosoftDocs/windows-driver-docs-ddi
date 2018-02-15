@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 98C9CFA6-76B3-4AF7-8280-BF84CC31CF70
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], gpioclx/PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure [Parallel Ports], _GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, gpioclx/GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO.gpio_reconfigure_interrupts_parameters
+ms.keywords: GPIO.gpio_reconfigure_interrupts_parameters, gpioclx/GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure [Parallel Ports], *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, _GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,15 +122,7 @@ The <i>ReconfigureParameters</i> parameter of the <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
@@ -138,7 +130,15 @@ The <i>ReconfigureParameters</i> parameter of the <a href="https://msdn.microsof
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 00c90dbf-bb44-4cba-97b3-170765a2eba7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, KsGetFilterFromIrp function [Streaming Media Devices], KsGetFilterFromIrp, stream.ksgetfilterfromirp, ks/KsGetFilterFromIrp
+ms.keywords: stream.ksgetfilterfromirp, KsGetFilterFromIrp, avfunc_223d8c62-c585-4749-a087-19cfa48824f3.xml, KsGetFilterFromIrp function [Streaming Media Devices], ks/KsGetFilterFromIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

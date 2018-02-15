@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: CED05E15-E141-4A6D-A657-CF0DF9FD1200
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ufxclient/UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, ufxclient/PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS, _UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], *PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses]
+ms.keywords: ufxclient/PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], *PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS, _UFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], buses.ufx_endpoint_callbacks, ufxclient/UFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

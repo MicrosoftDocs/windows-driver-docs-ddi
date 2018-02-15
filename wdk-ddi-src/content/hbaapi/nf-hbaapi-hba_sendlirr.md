@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e38d297-1e26-4605-a242-3f0180ac0360
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SendLIRR, HBA_SendLIRR routine [Storage Devices], hbaapi/HBA_SendLIRR, storage.hba_sendlirr, fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml
+ms.keywords: HBA_SendLIRR routine [Storage Devices], storage.hba_sendlirr, HBA_SendLIRR, hbaapi/HBA_SendLIRR, fibreHBA_rtns_c9e05691-f605-4946-bb8c-ab317464523a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

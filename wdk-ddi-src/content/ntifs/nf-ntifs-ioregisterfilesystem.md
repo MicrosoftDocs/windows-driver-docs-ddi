@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 19d53afd-b63c-4fd3-9b08-c51e2a1247af
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.ioregisterfilesystem, IoRegisterFileSystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml, IoRegisterFileSystem routine [Installable File System Drivers], ntifs/IoRegisterFileSystem
+ms.keywords: IoRegisterFileSystem routine [Installable File System Drivers], ifsk.ioregisterfilesystem, IoRegisterFileSystem, ntifs/IoRegisterFileSystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,19 +110,19 @@ If the DO_LOW_PRIORITY_FILESYSTEM flag is set on the file system's control devic
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
 
 
 

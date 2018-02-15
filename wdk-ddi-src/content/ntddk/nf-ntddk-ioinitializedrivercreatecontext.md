@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1d35ed3e-d14f-43ad-9c11-38aa37e76492
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntddk/IoInitializeDriverCreateContext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, IoInitializeDriverCreateContext routine [Installable File System Drivers], ifsk.ioinitializedrivercreatecontext, IoInitializeDriverCreateContext
+ms.keywords: IoInitializeDriverCreateContext, ifsk.ioinitializedrivercreatecontext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, ntddk/IoInitializeDriverCreateContext, IoInitializeDriverCreateContext routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,11 @@ Starting in Windows 10, version 1607, this routine sets the <b>SiloContext</b> 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 

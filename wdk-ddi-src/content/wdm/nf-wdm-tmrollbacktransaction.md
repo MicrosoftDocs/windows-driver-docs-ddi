@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5626a92e-bd26-41a3-8475-916efb2292ff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, TmRollbackTransaction routine [Kernel-Mode Driver Architecture], TmRollbackTransaction, kernel.tmrollbacktransaction, wdm/TmRollbackTransaction
+ms.keywords: TmRollbackTransaction routine [Kernel-Mode Driver Architecture], ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, kernel.tmrollbacktransaction, wdm/TmRollbackTransaction, TmRollbackTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

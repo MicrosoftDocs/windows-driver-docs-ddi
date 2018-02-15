@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8d6d1283-b64e-4c3b-8a45-376cfe76a19d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CDROM_TOC_FULL_TOC_DATA_BLOCK structure [Storage Devices], ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK, storage.cdrom_toc_full_toc_data_block, *PCDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK, ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_FULL_TOC_DATA_BLOCK, structs-CD-ROM_c55aee22-f6ca-4567-82c6-7bb960f4976a.xml
+ms.keywords: ntddcdrm/PCDROM_TOC_FULL_TOC_DATA_BLOCK, PCDROM_TOC_FULL_TOC_DATA_BLOCK structure pointer [Storage Devices], CDROM_TOC_FULL_TOC_DATA_BLOCK structure [Storage Devices], ntddcdrm/CDROM_TOC_FULL_TOC_DATA_BLOCK, CDROM_TOC_FULL_TOC_DATA_BLOCK, _CDROM_TOC_FULL_TOC_DATA_BLOCK, *PCDROM_TOC_FULL_TOC_DATA_BLOCK, structs-CD-ROM_c55aee22-f6ca-4567-82c6-7bb960f4976a.xml, PCDROM_TOC_FULL_TOC_DATA_BLOCK, storage.cdrom_toc_full_toc_data_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -186,11 +186,11 @@ Contains the minute, second, and frame. Msf[0] contains the minutes field. Msf[1
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_full_toc_data.md">CDROM_TOC_FULL_TOC_DATA</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
 
 
 

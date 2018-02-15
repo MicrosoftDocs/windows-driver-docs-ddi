@@ -177,8 +177,7 @@ The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HAN
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
 
 
@@ -186,7 +185,8 @@ The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HAN
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 

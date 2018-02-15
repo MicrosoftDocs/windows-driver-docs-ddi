@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 45D60409-EAE5-43A0-9E90-0B2F9FC31840
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_TYPE_CONFIG_INIT, WDF_IO_TYPE_CONFIG_INIT function, wdf.wdf_io_type_config_init, wdfdevice/WDF_IO_TYPE_CONFIG_INIT
+ms.keywords: wdf.wdf_io_type_config_init, WDF_IO_TYPE_CONFIG_INIT, wdfdevice/WDF_IO_TYPE_CONFIG_INIT, WDF_IO_TYPE_CONFIG_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

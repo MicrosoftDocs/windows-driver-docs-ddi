@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7c21da9a-7629-41f8-addf-ac03927511c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGKMDT_OPM_DPCP_FORCE_ULONG, _DXGKMDT_DPCP_PROTECTION_LEVEL enumeration [Display Devices], DXGKMDT_OPM_DPCP_OFF, DXGKMDT_OPM_DPCP_PROTECTION_LEVEL, DXGKMDT_OPM_DPCP_FORCE_ULONG, DXGKMDT_OPM_DPCP_PROTECTION_LEVEL enumeration [Display Devices], _DXGKMDT_DPCP_PROTECTION_LEVEL, d3dkmdt/_DXGKMDT_DPCP_PROTECTION_LEVEL, DXGKMDT_OPM_DPCP_ON, d3dkmdt/DXGKMDT_OPM_DPCP_ON, d3dkmdt/DXGKMDT_OPM_DPCP_OFF, display.dxgkmdt_opm_dpcp_protection_level, DmEnums_22bd45fa-ebe4-468e-8036-f3679619f51a.xml
+ms.keywords: DXGKMDT_OPM_DPCP_ON, DXGKMDT_OPM_DPCP_OFF, display.dxgkmdt_opm_dpcp_protection_level, DXGKMDT_OPM_DPCP_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_DPCP_OFF, DXGKMDT_OPM_DPCP_PROTECTION_LEVEL enumeration [Display Devices], _DXGKMDT_DPCP_PROTECTION_LEVEL enumeration [Display Devices], _DXGKMDT_DPCP_PROTECTION_LEVEL, d3dkmdt/DXGKMDT_OPM_DPCP_FORCE_ULONG, DXGKMDT_OPM_DPCP_PROTECTION_LEVEL, d3dkmdt/_DXGKMDT_DPCP_PROTECTION_LEVEL, DmEnums_22bd45fa-ebe4-468e-8036-f3679619f51a.xml, d3dkmdt/DXGKMDT_OPM_DPCP_ON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,11 +95,11 @@ DPCP protects digital video signals from DisplayPort output connectors. For more
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 
@@ -107,7 +107,7 @@ DPCP protects digital video signals from DisplayPort output connectors. For more
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 

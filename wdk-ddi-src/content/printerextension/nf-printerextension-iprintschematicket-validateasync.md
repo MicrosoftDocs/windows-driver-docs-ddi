@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B46AE68A-36E1-4367-95F5-0FFBAA42171C
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ValidateAsync method [Print Devices], IPrintSchemaTicket interface, ValidateAsync method [Print Devices], IPrintSchemaTicket interface [Print Devices], ValidateAsync method, IPrintSchemaTicket::ValidateAsync, print.iprintschematicket_validateasync, IPrintSchemaTicket, printerextension/IPrintSchemaTicket::ValidateAsync, ValidateAsync
+ms.keywords: print.iprintschematicket_validateasync, IPrintSchemaTicket::ValidateAsync, printerextension/IPrintSchemaTicket::ValidateAsync, ValidateAsync, IPrintSchemaTicket interface [Print Devices], ValidateAsync method, ValidateAsync method [Print Devices], IPrintSchemaTicket, ValidateAsync method [Print Devices], IPrintSchemaTicket interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -97,11 +97,11 @@ This method returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3">IPrintSchemaAsyncOperation::Start</a>
-
-
-
 <a href="https://msdn.microsoft.com/B1599F21-D6DD-497D-9CD8-6C637ABAA33A">IPrintSchemaAsyncOperationEvent::Completed</a>
+
+
+
+<a href="https://msdn.microsoft.com/8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3">IPrintSchemaAsyncOperation::Start</a>
 
 
 

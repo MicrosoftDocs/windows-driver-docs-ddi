@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: EB41B75C-57E0-4E09-8A7A-2D6BB377ACE7
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UdecxUsbDeviceLinkPowerExitComplete, buses.udecxusbdevicelinkpowerexitcomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerExitComplete, UdecxUsbDeviceLinkPowerExitComplete function [Buses]
+ms.keywords: UdecxUsbDeviceLinkPowerExitComplete, buses.udecxusbdevicelinkpowerexitcomplete, UdecxUsbDeviceLinkPowerExitComplete function [Buses], udecxusbdevice/UdecxUsbDeviceLinkPowerExitComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,7 @@ After the client driver has performed the necessary steps for sending the virtua
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -110,7 +110,7 @@ After the client driver has performed the necessary steps for sending the virtua
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

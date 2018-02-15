@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FFEBEBD0-1FF2-4F27-B028-051B117CA325
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketSetPointer function [Network Drivers Starting with Windows Vista], VmbPacketSetPointer, netvista.vmbpacketsetpointer, vmbuskernelmodeclientlibapi/VmbPacketSetPointer
+ms.keywords: VmbPacketSetPointer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketSetPointer, netvista.vmbpacketsetpointer, VmbPacketSetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ce0f5e42-3f4e-48e1-9e73-96bca96e8e23
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, dbgeng/IDebugControl2::RemoveBreakpoint, RemoveBreakpoint, dbgeng/IDebugControl3::RemoveBreakpoint, IDebugControl interface [Windows Debugging], RemoveBreakpoint method, IDebugControl3::RemoveBreakpoint, IDebugControl2 interface [Windows Debugging], RemoveBreakpoint method, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, IDebugControl, RemoveBreakpoint method [Windows Debugging], IDebugControl interface, RemoveBreakpoint method [Windows Debugging], debugger.removebreakpoint, IDebugControl::RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface, RemoveBreakpoint method [Windows Debugging], IDebugControl3 interface, IDebugControl2::RemoveBreakpoint, IDebugControl3 interface [Windows Debugging], RemoveBreakpoint method, dbgeng/IDebugControl::RemoveBreakpoint
+ms.keywords: debugger.removebreakpoint, dbgeng/IDebugControl3::RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl interface [Windows Debugging], RemoveBreakpoint method, IDebugControl3 interface [Windows Debugging], RemoveBreakpoint method, IDebugControl2 interface [Windows Debugging], RemoveBreakpoint method, RemoveBreakpoint method [Windows Debugging], IDebugControl3 interface, IDebugControl2, RemoveBreakpoint method [Windows Debugging], IDebugControl2 interface, IDebugControl2::RemoveBreakpoint, RemoveBreakpoint, RemoveBreakpoint method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::RemoveBreakpoint, IDebugControl, dbgeng/IDebugControl::RemoveBreakpoint, IDebugControl3::RemoveBreakpoint, IDebugControl_431f31ce-38fb-4350-851b-49b103047943.xml, IDebugControl::RemoveBreakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,19 +121,19 @@ For more details, see <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

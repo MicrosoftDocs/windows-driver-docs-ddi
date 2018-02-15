@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1039D4CB-11BA-4131-8CCE-7DCEE4B849D3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], CdromReadPerformance, ntddcdrm/CDROM_PERFORMANCE_TYPE, ntddcdrm/PCDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, *PCDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance, storage.cdrom_performance_type, CdromWritePerformance, PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices]"
+ms.keywords: ntddcdrm/PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], CdromReadPerformance, CdromWritePerformance, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], storage.cdrom_performance_type, ntddcdrm/CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE, _CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, CDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

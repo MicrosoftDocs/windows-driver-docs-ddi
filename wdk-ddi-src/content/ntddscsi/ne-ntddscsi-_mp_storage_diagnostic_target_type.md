@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1A48FC0F-7ED2-4F9F-8B61-A498B0D13FE8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypeHbaFirmware, PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypeHbaFirmware, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], StorageDiagnosticTargetTypeMax, ntddscsi/PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypePort, ntddscsi/StorageDiagnosticTargetTypeMiniport, ntddscsi/StorageDiagnosticTargetTypeUndefined, ntddscsi/MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypeMax, StorageDiagnosticTargetTypeUndefined, storage.mp_storage_diagnostic_target_type, StorageDiagnosticTargetTypePort
+ms.keywords: StorageDiagnosticTargetTypePort, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], ntddscsi/StorageDiagnosticTargetTypePort, PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypeHbaFirmware, ntddscsi/StorageDiagnosticTargetTypeMax, _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypeUndefined, PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], ntddscsi/MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeUndefined, ntddscsi/StorageDiagnosticTargetTypeMiniport, storage.mp_storage_diagnostic_target_type, StorageDiagnosticTargetTypeHbaFirmware, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMax, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -85,21 +85,6 @@ typedef enum _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE {
 
 
 
-#### - StorageDiagnosticTargetTypeUndefined
-
-Specifies the target type is undefined.
-
-
-#### - StorageDiagnosticTargetTypePort
-
-Specifies the target type is a port driver.
-
-
-#### - StorageDiagnosticTargetTypeMiniport
-
-Specifies the target type is a Miniport driver.
-
-
 #### - StorageDiagnosticTargetTypeHbaFirmware
 
 Specifies the target type is a Hba Firmware driver.
@@ -108,4 +93,19 @@ Specifies the target type is a Hba Firmware driver.
 #### - StorageDiagnosticTargetTypeMax
 
 Specifies the target type is a Max driver.
+
+
+#### - StorageDiagnosticTargetTypeMiniport
+
+Specifies the target type is a Miniport driver.
+
+
+#### - StorageDiagnosticTargetTypePort
+
+Specifies the target type is a port driver.
+
+
+#### - StorageDiagnosticTargetTypeUndefined
+
+Specifies the target type is undefined.
 

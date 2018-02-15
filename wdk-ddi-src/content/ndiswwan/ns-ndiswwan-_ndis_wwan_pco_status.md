@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C71187C5-74B6-450A-8461-BB9FDF60DB8D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_pco_status, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS, *PNDIS_WWAN_PCO_STATUS, ndiswwan/PNDIS_WWAN_PCO_STATUS, _NDIS_WWAN_PCO_STATUS
+ms.keywords: netvista.ndis_wwan_pco_status, PNDIS_WWAN_PCO_STATUS, ndiswwan/PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_PCO_STATUS, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_PCO_STATUS, ndiswwan/NDIS_WWAN_PCO_STATUS, _NDIS_WWAN_PCO_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -242,7 +242,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a> stru
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pco">OID_WWAN_PCO</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -250,11 +250,11 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a> stru
 
 
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pco">OID_WWAN_PCO</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7ca1bd9f-8fd4-4d9d-8571-4d6e4b721f3b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SM_RemovePort_OUT, SM_RemovePort_OUT, structs-Fibre_00eb7ab2-9a70-4e22-8b57-1468f52bfe02.xml, *PSM_RemovePort_OUT, PSM_RemovePort_OUT structure pointer [Storage Devices], _SM_RemovePort_OUT, hbapiwmi/PSM_RemovePort_OUT, PSM_RemovePort_OUT, storage.sm_removeport_out, SM_RemovePort_OUT structure [Storage Devices]
+ms.keywords: hbapiwmi/SM_RemovePort_OUT, SM_RemovePort_OUT structure [Storage Devices], SM_RemovePort_OUT, *PSM_RemovePort_OUT, PSM_RemovePort_OUT structure pointer [Storage Devices], storage.sm_removeport_out, _SM_RemovePort_OUT, PSM_RemovePort_OUT, hbapiwmi/PSM_RemovePort_OUT, structs-Fibre_00eb7ab2-9a70-4e22-8b57-1468f52bfe02.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

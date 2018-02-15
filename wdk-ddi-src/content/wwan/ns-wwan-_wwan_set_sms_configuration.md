@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3739a08-f4ea-4cc5-8f62-7d4a5cd3ed43
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_SET_SMS_CONFIGURATION, *PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION, WWAN_SET_SMS_CONFIGURATION, WwanRef_2a344216-b18f-41d6-8a11-dac6cb24de69.xml, netvista.wwan_set_sms_configuration, PWWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_SMS_CONFIGURATION, _WWAN_SET_SMS_CONFIGURATION
+ms.keywords: WWAN_SET_SMS_CONFIGURATION, *PWWAN_SET_SMS_CONFIGURATION, WwanRef_2a344216-b18f-41d6-8a11-dac6cb24de69.xml, wwan/PWWAN_SET_SMS_CONFIGURATION, _WWAN_SET_SMS_CONFIGURATION, WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], netvista.wwan_set_sms_configuration, PWWAN_SET_SMS_CONFIGURATION, wwan/WWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

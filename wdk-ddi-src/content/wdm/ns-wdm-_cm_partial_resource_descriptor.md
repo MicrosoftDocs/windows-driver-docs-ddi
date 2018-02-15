@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 96bf7bab-b8f5-439c-8717-ea6956ed0213
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_CM_PARTIAL_RESOURCE_DESCRIPTOR, kernel.cm_partial_resource_descriptor, CmResourceShareDriverExclusive, CM_RESOURCE_CONNECTION_CLASS_GPIO, *PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_PARTIAL_RESOURCE_DESCRIPTOR, wdm/CM_PARTIAL_RESOURCE_DESCRIPTOR, wdm/PCM_PARTIAL_RESOURCE_DESCRIPTOR, CmResourceShareShared, kstruct_a_2a821975-e3b8-4ce0-9dd5-8afe348001d8.xml, PCM_PARTIAL_RESOURCE_DESCRIPTOR, CmResourceShareDeviceExclusive, CM_PARTIAL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, PCM_PARTIAL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_CLASS_SERIAL"
+ms.keywords: wdm/PCM_PARTIAL_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_PARTIAL_RESOURCE_DESCRIPTOR, kernel.cm_partial_resource_descriptor, CM_PARTIAL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], PCM_PARTIAL_RESOURCE_DESCRIPTOR, CmResourceShareDriverExclusive, _CM_PARTIAL_RESOURCE_DESCRIPTOR, *PCM_PARTIAL_RESOURCE_DESCRIPTOR, CmResourceShareDeviceExclusive, wdm/CM_PARTIAL_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_CLASS_SERIAL, kstruct_a_2a821975-e3b8-4ce0-9dd5-8afe348001d8.xml, PCM_PARTIAL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, CmResourceShareShared
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1231,55 +1231,7 @@ A <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure can describe either a raw (bus
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-
-
 <a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
@@ -1291,7 +1243,55 @@ A <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure can describe either a raw (bus
 
 
 
+<a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
+
+
+
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_full_resource_descriptor.md">CM_FULL_RESOURCE_DESCRIPTOR</a>
 
 
 

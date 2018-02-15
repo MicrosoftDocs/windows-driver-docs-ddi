@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b19e6492-af8d-48dc-8d17-81c2d8c25a6a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfpdoretrieveaddressdescription, kmdf.wdfpdoretrieveaddressdescription, DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml, WdfPdoRetrieveAddressDescription method, PFN_WDFPDORETRIEVEADDRESSDESCRIPTION, WdfPdoRetrieveAddressDescription, wdfpdo/WdfPdoRetrieveAddressDescription
+ms.keywords: PFN_WDFPDORETRIEVEADDRESSDESCRIPTION, WdfPdoRetrieveAddressDescription, wdfpdo/WdfPdoRetrieveAddressDescription, DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml, kmdf.wdfpdoretrieveaddressdescription, wdf.wdfpdoretrieveaddressdescription, WdfPdoRetrieveAddressDescription method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

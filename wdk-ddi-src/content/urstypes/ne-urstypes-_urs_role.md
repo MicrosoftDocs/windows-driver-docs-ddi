@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: A1ED9DBD-67FF-4AE7-8E5E-016C2C89A79E
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.urs_role, URS_ROLE, *PURS_ROLE enumeration [Buses], _URS_ROLE, URS_ROLE, *PURS_ROLE, UrsRoleHost, URS_ROLE, *PURS_ROLE, urstypes/UrsRoleFunction, UrsRoleFunction, urstypes/UrsRoleNone, urstypes/UrsRoleHost, urstypes/URS_ROLE, UrsRoleNone, URS_ROLE enumeration [Buses]
+ms.keywords: "_URS_ROLE, *PURS_ROLE, URS_ROLE enumeration [Buses], buses.urs_role, URS_ROLE, *PURS_ROLE, UrsRoleFunction, UrsRoleHost, URS_ROLE, UrsRoleNone, urstypes/UrsRoleHost, urstypes/UrsRoleNone, urstypes/UrsRoleFunction, URS_ROLE, *PURS_ROLE enumeration [Buses], urstypes/URS_ROLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

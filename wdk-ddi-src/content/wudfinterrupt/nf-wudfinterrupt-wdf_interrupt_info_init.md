@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CFFE19FB-289C-4002-AB07-AE342D855B20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_INTERRUPT_INFO_INIT function, umdf.wdf_interrupt_info_init, wudfinterrupt/WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT, wdf.wdf_interrupt_info_init_umdf
+ms.keywords: WDF_INTERRUPT_INFO_INIT, wdf.wdf_interrupt_info_init_umdf, umdf.wdf_interrupt_info_init, WDF_INTERRUPT_INFO_INIT function, wudfinterrupt/WDF_INTERRUPT_INFO_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

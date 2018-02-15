@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3b84c06f-774e-45e1-9a64-711749bb3a88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSFILTER_DISPATCH, _KSFILTER_DISPATCH, ks/PKSFILTER_DISPATCH, *PKSFILTER_DISPATCH, avstruct_cfadb813-12c3-4960-89d7-72a75db1684a.xml, KSFILTER_DISPATCH structure [Streaming Media Devices], stream.ksfilter_dispatch, PKSFILTER_DISPATCH, PKSFILTER_DISPATCH structure pointer [Streaming Media Devices], ks/KSFILTER_DISPATCH
+ms.keywords: avstruct_cfadb813-12c3-4960-89d7-72a75db1684a.xml, PKSFILTER_DISPATCH structure pointer [Streaming Media Devices], PKSFILTER_DISPATCH, ks/PKSFILTER_DISPATCH, KSFILTER_DISPATCH, stream.ksfilter_dispatch, ks/KSFILTER_DISPATCH, *PKSFILTER_DISPATCH, _KSFILTER_DISPATCH, KSFILTER_DISPATCH structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,11 +106,11 @@ Also see <a href="https://msdn.microsoft.com/f60d4dbd-61e6-4ae2-aa43-9edc8f36c3f
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
-
-
-
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
+
+
+
+<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
 
 
 

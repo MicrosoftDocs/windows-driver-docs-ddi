@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5e267d53-4e92-4c94-8a59-93d3c79574dd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: AuxKlibQueryModuleInformation, aux_klib/AuxKlibQueryModuleInformation, AuxKlibQueryModuleInformation routine [Kernel-Mode Driver Architecture], kernel.auxklibquerymoduleinformation, aux_klib_555c5806-0b0d-48c1-9c50-b0496fb4e807.xml
+ms.keywords: AuxKlibQueryModuleInformation, aux_klib_555c5806-0b0d-48c1-9c50-b0496fb4e807.xml, AuxKlibQueryModuleInformation routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibQueryModuleInformation, kernel.auxklibquerymoduleinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -197,19 +197,19 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
-
-
-
 <a href="..\aux_klib\nf-aux_klib-auxklibgetimageexportdirectory.md">AuxKlibGetImageExportDirectory</a>
 
 
 
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\aux_klib\ns-aux_klib-_aux_module_basic_info.md">AUX_MODULE_BASIC_INFO</a>
+
+
+
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
 
 

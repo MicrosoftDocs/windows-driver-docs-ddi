@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice::SetPnpState, IWDFDevice, SetPnpState method, IWDFDevice interface, SetPnpState method, IWDFDevice interface, SetPnpState method, wudfddi/IWDFDevice::SetPnpState, wdf.iwdfdevice_setpnpstate, SetPnpState, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, umdf.iwdfdevice_setpnpstate
+ms.keywords: IWDFDevice::SetPnpState, wudfddi/IWDFDevice::SetPnpState, IWDFDevice interface, SetPnpState method, umdf.iwdfdevice_setpnpstate, SetPnpState method, SetPnpState method, IWDFDevice interface, SetPnpState, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, IWDFDevice, wdf.iwdfdevice_setpnpstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -188,6 +188,10 @@ CUmdfHidDevice::OnCompletion(
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
@@ -197,10 +201,6 @@ CUmdfHidDevice::OnCompletion(
 
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
 
 
 

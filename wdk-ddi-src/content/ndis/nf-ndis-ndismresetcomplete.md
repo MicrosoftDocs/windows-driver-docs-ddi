@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3da12a14-a90a-46a6-b67e-55044fdc3ca1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMResetComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, netvista.ndismresetcomplete, NdisMResetComplete, ndis/NdisMResetComplete
+ms.keywords: miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMResetComplete, netvista.ndismresetcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -91,17 +91,6 @@ TBD
 
 
 
-#### - MiniportAdapterHandle [in]
-
-The miniport adapter handle that NDIS originally passed to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
-
-
-#### - Status [in]
-
-The final status of the reset operation just completed
-
-
 #### - AddressingReset [in]
 
 A Boolean value that is <b>TRUE</b> if NDIS is responsible for restoring the settings for multicast
@@ -117,6 +106,17 @@ If
 
 For more information, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
+
+
+#### - MiniportAdapterHandle [in]
+
+The miniport adapter handle that NDIS originally passed to the 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+
+
+#### - Status [in]
+
+The final status of the reset operation just completed
 
 
 ## -remarks
@@ -150,11 +150,11 @@ In NDIS 6.0 and later, callers of
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 

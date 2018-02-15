@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31CB33F9-87E8-419D-AF35-E7F731661DD5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_getrootpagetablesize, DXGKARG_GETROOTPAGETABLESIZE structure [Display Devices], _DXGKARG_GETROOTPAGETABLESIZE, DXGKARG_GETROOTPAGETABLESIZE, *INOUT_PDXGKARG_GETROOTPAGETABLESIZE, d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE
+ms.keywords: d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE, _DXGKARG_GETROOTPAGETABLESIZE, DXGKARG_GETROOTPAGETABLESIZE, *INOUT_PDXGKARG_GETROOTPAGETABLESIZE, display.dxgkarg_getrootpagetablesize, DXGKARG_GETROOTPAGETABLESIZE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

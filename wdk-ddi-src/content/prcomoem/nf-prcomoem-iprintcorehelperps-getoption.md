@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: fa212b86-89ae-4d22-a3ff-ebcc6100874b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetOption method [Print Devices], IPrintCoreHelperPS interface, print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml, IPrintCoreHelperPS, IPrintCoreHelperPS::GetOption, prcomoem/IPrintCoreHelperPS::GetOption, print.iprintcorehelperps_getoption, GetOption, GetOption method [Print Devices], IPrintCoreHelperPS interface [Print Devices], GetOption method
+ms.keywords: GetOption method [Print Devices], IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::GetOption, IPrintCoreHelperPS::GetOption, GetOption, print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml, IPrintCoreHelperPS interface [Print Devices], GetOption method, GetOption method [Print Devices], print.iprintcorehelperps_getoption, IPrintCoreHelperPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -178,11 +178,11 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552912">IPrintCoreHelperPS::SetOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
 
 
 

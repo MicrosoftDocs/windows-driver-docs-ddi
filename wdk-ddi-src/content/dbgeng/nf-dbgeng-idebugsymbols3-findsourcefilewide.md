@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a21be482-7640-4e72-a8af-00bb10216fa8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, IDebugSymbols3::FindSourceFileWide, FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], FindSourceFileWide method, debugger.findsourcefilewide, IDebugSymbols3
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], FindSourceFileWide method, dbgeng/IDebugSymbols3::FindSourceFileWide, IDebugSymbols3, IDebugSymbols3::FindSourceFileWide, FindSourceFileWide, debugger.findsourcefilewide, FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -184,11 +184,7 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
 
 
 
@@ -196,7 +192,11 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
 
 

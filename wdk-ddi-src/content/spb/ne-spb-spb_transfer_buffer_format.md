@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SpbTransferBufferFormatSimpleNonPaged, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatInvalid, SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatSimpleNonPaged, SpbTransferBufferFormatMax, SPB.spb_transfer_buffer_format, spb/SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatList, spb/SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatSimple, spb/SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatMdl, *PSPB_TRANSFER_BUFFER_FORMAT
+ms.keywords: spb/SpbTransferBufferFormatSimple, SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatList, *PSPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatList, SpbTransferBufferFormatSimpleNonPaged, spb/SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatMdl, SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatMdl, SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatInvalid, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatSimple, spb/SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatSimpleNonPaged, SPB.spb_transfer_buffer_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

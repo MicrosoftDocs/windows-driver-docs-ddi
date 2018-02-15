@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3e49f80e-3c30-4796-b2f3-7df37746d97b
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fltreferencecontext, FltApiRef_p_to_z_bb2ded16-77d3-4fb3-a6c6-870b0112df7a.xml, FltReferenceContext, fltkernel/FltReferenceContext, FltReferenceContext function [Installable File System Drivers]
+ms.keywords: FltApiRef_p_to_z_bb2ded16-77d3-4fb3-a6c6-870b0112df7a.xml, FltReferenceContext, fltkernel/FltReferenceContext, FltReferenceContext function [Installable File System Drivers], ifsk.fltreferencecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,7 @@ To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocateco
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
@@ -118,15 +114,19 @@ To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocateco
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 10aadf41-79c4-46d6-a5ae-e8b3b5f338f0
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.secreateclientsecurity, SeCreateClientSecurity, SeCreateClientSecurity routine [Installable File System Drivers], ntifs/SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml
+ms.keywords: SeCreateClientSecurity routine [Installable File System Drivers], ifsk.secreateclientsecurity, ntifs/SeCreateClientSecurity, SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,11 +159,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sedeleteclientsecurity.md">SeDeleteClientSecurity</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sedeleteclientsecurity.md">SeDeleteClientSecurity</a>
 
 
 

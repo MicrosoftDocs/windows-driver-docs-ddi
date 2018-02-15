@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c39a9438-d3be-4f01-96d5-01c7339a666a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_WMI_METHOD_HEADER, netvista.ndis_wmi_method_header, ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml, *PNDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER, _NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_WMI_METHOD_HEADER
+ms.keywords: netvista.ndis_wmi_method_header, PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml, NDIS_WMI_METHOD_HEADER, _NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_METHOD_HEADER, ntddndis/PNDIS_WMI_METHOD_HEADER, *PNDIS_WMI_METHOD_HEADER, ntddndis/NDIS_WMI_METHOD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,7 +149,7 @@ WMI method GUID requests that are specific to NDIS 6.0 and later versions includ
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -157,7 +157,7 @@ WMI method GUID requests that are specific to NDIS 6.0 and later versions includ
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
 
 
 

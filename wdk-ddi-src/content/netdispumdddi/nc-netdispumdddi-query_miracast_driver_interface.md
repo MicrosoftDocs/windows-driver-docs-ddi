@@ -111,11 +111,11 @@ When the Miracast user-mode driver is loaded, the operating system calls the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>
-
-
-
 <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>
 
 
 

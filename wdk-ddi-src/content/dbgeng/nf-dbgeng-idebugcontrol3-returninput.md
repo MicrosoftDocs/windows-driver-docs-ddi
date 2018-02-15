@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f4c63da-8583-4382-a208-8279b4fe0906
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, ReturnInput method [Windows Debugging], IDebugControl3 interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::ReturnInput, ReturnInput method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::ReturnInput, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, IDebugControl, IDebugControl::ReturnInput, ReturnInput, IDebugControl2 interface [Windows Debugging], ReturnInput method, IDebugControl3::ReturnInput, debugger.returninput, ReturnInput method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ReturnInput method, IDebugControl2::ReturnInput, IDebugControl3, dbgeng/IDebugControl3::ReturnInput
+ms.keywords: ReturnInput method [Windows Debugging], IDebugControl3 interface, IDebugControl3, ReturnInput method [Windows Debugging], IDebugControl2::ReturnInput, dbgeng/IDebugControl3::ReturnInput, IDebugControl interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl interface, IDebugControl3::ReturnInput, dbgeng/IDebugControl::ReturnInput, dbgeng/IDebugControl2::ReturnInput, ReturnInput, IDebugControl::ReturnInput, IDebugControl2 interface [Windows Debugging], ReturnInput method, IDebugControl3 interface [Windows Debugging], ReturnInput method, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, IDebugControl2, ReturnInput method [Windows Debugging], IDebugControl2 interface, IDebugControl, debugger.returninput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

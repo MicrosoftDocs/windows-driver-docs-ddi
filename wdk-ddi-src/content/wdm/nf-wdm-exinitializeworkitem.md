@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e26e7e68-0d0c-42fe-9342-ebbf2bb8f830
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, ExInitializeWorkItem, ExInitializeWorkItem routine [Installable File System Drivers], ifsk.exinitializeworkitem, wdm/ExInitializeWorkItem
+ms.keywords: ExInitializeWorkItem routine [Installable File System Drivers], ifsk.exinitializeworkitem, ExInitializeWorkItem, exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, wdm/ExInitializeWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,15 +140,7 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
 
 
 
@@ -156,7 +148,7 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 
 
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+<a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
 
 
 
@@ -164,7 +156,15 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 
 
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
+
+
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
 
 
 

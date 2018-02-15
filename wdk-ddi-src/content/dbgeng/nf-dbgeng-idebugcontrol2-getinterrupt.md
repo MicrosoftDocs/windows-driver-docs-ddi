@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 597bff1e-0bc1-4c18-9156-661a46cf8e7a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], GetInterrupt method, IDebugControl2, IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, IDebugControl interface [Windows Debugging], GetInterrupt method, IDebugControl2 interface [Windows Debugging], GetInterrupt method, GetInterrupt method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetInterrupt, dbgeng/IDebugControl3::GetInterrupt, GetInterrupt, dbgeng/IDebugControl2::GetInterrupt, IDebugControl2::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl2 interface, IDebugControl, IDebugControl::GetInterrupt, GetInterrupt method [Windows Debugging], debugger.getinterrupt
+ms.keywords: IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, IDebugControl3 interface [Windows Debugging], GetInterrupt method, IDebugControl interface [Windows Debugging], GetInterrupt method, GetInterrupt method [Windows Debugging], dbgeng/IDebugControl::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetInterrupt method, debugger.getinterrupt, IDebugControl2::GetInterrupt, IDebugControl3::GetInterrupt, dbgeng/IDebugControl2::GetInterrupt, dbgeng/IDebugControl3::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl interface, IDebugControl2, GetInterrupt, IDebugControl, GetInterrupt method [Windows Debugging], IDebugControl3 interface, IDebugControl::GetInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,7 +125,7 @@ This method can be called at any time and from any thread.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -133,11 +133,11 @@ This method can be called at any time and from any thread.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
 
 
 

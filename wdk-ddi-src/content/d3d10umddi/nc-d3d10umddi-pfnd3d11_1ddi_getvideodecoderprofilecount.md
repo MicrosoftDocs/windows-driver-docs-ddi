@@ -40,7 +40,7 @@ apiname:
 -	pfnGetVideoDecoderProfileCount
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT callback
@@ -74,8 +74,9 @@ VOID APIENTRY* pfnGetVideoDecoderProfileCount(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -97,6 +98,8 @@ A pointer to a UINT value that specifies the maximum number of decoder profiles 
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

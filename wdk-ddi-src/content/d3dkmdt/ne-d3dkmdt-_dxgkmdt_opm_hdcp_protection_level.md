@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e0d38f3b-19da-4118-a1d9-7d5a00bcad26
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkmdt_opm_hdcp_protection_level, DXGKMDT_OPM_HDCP_FORCE_ULONG, _DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, d3dkmdt/DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, DmEnums_5df35ab3-a367-45c3-b03c-12b3d733f244.xml, DXGKMDT_OPM_HDCP_ON, d3dkmdt/DXGKMDT_OPM_HDCP_OFF, DXGKMDT_OPM_HDCP_OFF, d3dkmdt/DXGKMDT_OPM_HDCP_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_HDCP_ON, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration [Display Devices], DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
+ms.keywords: DXGKMDT_OPM_HDCP_ON, display.dxgkmdt_opm_hdcp_protection_level, DmEnums_5df35ab3-a367-45c3-b03c-12b3d733f244.xml, DXGKMDT_OPM_HDCP_OFF, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, d3dkmdt/DXGKMDT_OPM_HDCP_ON, DXGKMDT_OPM_HDCP_FORCE_ULONG, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_HDCP_OFF, d3dkmdt/DXGKMDT_OPM_HDCP_FORCE_ULONG, _DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, d3dkmdt/DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,11 +95,11 @@ HDCP protects digital video signals from digital video output connectors. Curren
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 
@@ -107,7 +107,7 @@ HDCP protects digital video signals from digital video output connectors. Curren
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 

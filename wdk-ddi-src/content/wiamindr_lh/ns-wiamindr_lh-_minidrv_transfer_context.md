@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 26583873-4f84-4254-86c1-2063df85000c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, *PMINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, _MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml, PMINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], image.minidrv_transfer_context, MINIDRV_TRANSFER_CONTEXT
+ms.keywords: image.minidrv_transfer_context, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], MINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml, *PMINIDRV_TRANSFER_CONTEXT, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], _MINIDRV_TRANSFER_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -497,11 +497,11 @@ WIA service
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543946">IWiaMiniDrvCallBack::MiniDrvCallback</a>
 
 
 
@@ -509,7 +509,7 @@ WIA service
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543946">IWiaMiniDrvCallBack::MiniDrvCallback</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a>
 
 
 

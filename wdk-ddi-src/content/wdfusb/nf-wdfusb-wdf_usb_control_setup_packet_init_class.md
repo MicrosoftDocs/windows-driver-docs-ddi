@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c44e16f1-2ecd-4dad-b3c3-c6b6a3dcbb84
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_usb_control_setup_packet_init_class, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function, DFUsbRef_840aad44-522b-426d-ad95-457dee6c44dd.xml, wdf.wdf_usb_control_setup_packet_init_class
+ms.keywords: WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS, kmdf.wdf_usb_control_setup_packet_init_class, DFUsbRef_840aad44-522b-426d-ad95-457dee6c44dd.xml, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS, wdf.wdf_usb_control_setup_packet_init_class, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,7 +194,7 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
 
 
 
@@ -206,7 +206,7 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS(
 
 
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
 
 
 
@@ -214,11 +214,11 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS(
 
 
 
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
+
+
+
 <a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
 
 
 

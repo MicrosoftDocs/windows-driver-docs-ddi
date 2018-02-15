@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 15a83343-b95b-4f79-b4f2-ed2ad60d170e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method, IDebugDataSpaces4::WritePhysical2, debugger.writephysical2, dbgeng/IDebugDataSpaces4::WritePhysical2, WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, WritePhysical2, IDebugDataSpaces4
+ms.keywords: WritePhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, WritePhysical2, debugger.writephysical2, WritePhysical2 method [Windows Debugging], dbgeng/IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces4, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical2 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

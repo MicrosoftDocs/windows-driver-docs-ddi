@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fe033614-b1a0-490b-b45b-a8d8de650dbf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsTopologyPropertyHandler, ks/KsTopologyPropertyHandler, stream.kstopologypropertyhandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, KsTopologyPropertyHandler function [Streaming Media Devices]
+ms.keywords: KsTopologyPropertyHandler function [Streaming Media Devices], ks/KsTopologyPropertyHandler, stream.kstopologypropertyhandler, KsTopologyPropertyHandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

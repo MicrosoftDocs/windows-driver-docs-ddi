@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c2137849-aff0-4bf7-abab-b92e17aaef70
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGenerateEvents function [Streaming Media Devices], avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, ks/KsPinGenerateEvents, KsPinGenerateEvents, stream.kspingenerateevents
+ms.keywords: KsPinGenerateEvents, avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, KsPinGenerateEvents function [Streaming Media Devices], stream.kspingenerateevents, ks/KsPinGenerateEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,11 +163,7 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
-
-
-
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
 
 
 
@@ -175,7 +171,11 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
 
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
+
+
+<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
 
 
 

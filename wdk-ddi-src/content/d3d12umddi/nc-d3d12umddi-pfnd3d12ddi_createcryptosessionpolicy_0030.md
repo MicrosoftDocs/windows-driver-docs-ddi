@@ -99,6 +99,8 @@ Used to create a protected session.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

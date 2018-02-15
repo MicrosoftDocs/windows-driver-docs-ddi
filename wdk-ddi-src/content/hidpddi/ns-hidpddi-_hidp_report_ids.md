@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: C88B77C3-01CB-4E8C-83A4-EB9AFB122327
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HIDP_REPORT_IDS structure [Human Input Devices], hidpddi/PHIDP_REPORT_IDS, *PHIDP_REPORT_IDS, PHIDP_REPORT_IDS structure pointer [Human Input Devices], HIDP_REPORT_IDS, PHIDP_REPORT_IDS, hidpddi/HIDP_REPORT_IDS, _HIDP_REPORT_IDS, hid.hidp_report_ids
+ms.keywords: hidpddi/PHIDP_REPORT_IDS, HIDP_REPORT_IDS structure [Human Input Devices], hid.hidp_report_ids, PHIDP_REPORT_IDS, *PHIDP_REPORT_IDS, PHIDP_REPORT_IDS structure pointer [Human Input Devices], _HIDP_REPORT_IDS, HIDP_REPORT_IDS, hidpddi/HIDP_REPORT_IDS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

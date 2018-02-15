@@ -86,11 +86,14 @@ A pointer to the provider module's context for the binding between the provider 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The NMR calls a provider module's 
@@ -117,15 +120,24 @@ The NMR calls a provider module's
 
 
 
+
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
 
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+
+
 
  
 

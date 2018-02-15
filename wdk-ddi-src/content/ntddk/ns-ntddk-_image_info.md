@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D2CD2457-8DDF-4449-9DC1-F1E7472C87CA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.image_info, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], IMAGE_INFO, ntddk/IMAGE_INFO, *PIMAGE_INFO, ntddk/PIMAGE_INFO, _IMAGE_INFO
+ms.keywords: ntddk/IMAGE_INFO, IMAGE_INFO, kernel.image_info, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, _IMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], ntddk/PIMAGE_INFO, *PIMAGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

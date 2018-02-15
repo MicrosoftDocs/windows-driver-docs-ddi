@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer, print.ixpsrasterizationfactory_createrasterizer, IXpsRasterizationFactory::CreateRasterizer, IXpsRasterizationFactory, CreateRasterizer, IXpsRasterizationFactory interface [Print Devices], CreateRasterizer method, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices], IXpsRasterizationFactory interface
+ms.keywords: IXpsRasterizationFactory interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, IXpsRasterizationFactory::CreateRasterizer, CreateRasterizer method [Print Devices], print.ixpsrasterizationfactory_createrasterizer, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer, CreateRasterizer method [Print Devices], IXpsRasterizationFactory interface, CreateRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -194,11 +194,11 @@ For a code example that calls the <code>CreateRasterizer</code> method, see the 
 
 
 
-<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
 
 
 

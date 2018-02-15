@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 74f24296-cd42-402b-a61f-0199c4a07fd0
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: SeUnregisterLogonSessionTerminatedRoutine, ifsk.seunregisterlogonsessionterminatedroutine, ntifs/SeUnregisterLogonSessionTerminatedRoutine, seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers]
+ms.keywords: ntifs/SeUnregisterLogonSessionTerminatedRoutine, ifsk.seunregisterlogonsessionterminatedroutine, seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], SeUnregisterLogonSessionTerminatedRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,11 +135,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-semarklogonsessionforterminationnotification.md">SeMarkLogonSessionForTerminationNotification</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>
 
 
 

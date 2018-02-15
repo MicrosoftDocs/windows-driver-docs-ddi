@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: af52d1a3-b537-48d2-ab57-3f798ec83c98
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_ISSUEQUERY, _D3DDDIARG_ISSUEQUERY, D3DDDIARG_ISSUEQUERY, D3DDDIARG_ISSUEQUERY structure [Display Devices], display.d3dddiarg_issuequery, UMDisplayDriver_param_Structs_3fb59dbc-e5de-4d14-9d4b-25934e4e3ded.xml
+ms.keywords: display.d3dddiarg_issuequery, D3DDDIARG_ISSUEQUERY, _D3DDDIARG_ISSUEQUERY, UMDisplayDriver_param_Structs_3fb59dbc-e5de-4d14-9d4b-25934e4e3ded.xml, d3dumddi/D3DDDIARG_ISSUEQUERY, D3DDDIARG_ISSUEQUERY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,7 +82,7 @@ For many query types, start query is never specified (that is, the <b>Begin</b> 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
 
 
 
@@ -90,7 +90,7 @@ For many query types, start query is never specified (that is, the <b>Begin</b> 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
 
 
 

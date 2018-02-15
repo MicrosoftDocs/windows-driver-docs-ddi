@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6149765b-cd2c-44f5-aa72-f4755e0b034c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FILE_FS_DRIVER_PATH_INFORMATION structure [Installable File System Drivers], FILE_FS_DRIVER_PATH_INFORMATION, *PFILE_FS_DRIVER_PATH_INFORMATION, ntifs/PFILE_FS_DRIVER_PATH_INFORMATION, fileinformationstructures_9d09c9ee-18a0-4230-af6b-0cddadbac901.xml, PFILE_FS_DRIVER_PATH_INFORMATION, ntifs/FILE_FS_DRIVER_PATH_INFORMATION, PFILE_FS_DRIVER_PATH_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_DRIVER_PATH_INFORMATION, ifsk.file_fs_driver_path_information
+ms.keywords: fileinformationstructures_9d09c9ee-18a0-4230-af6b-0cddadbac901.xml, *PFILE_FS_DRIVER_PATH_INFORMATION, _FILE_FS_DRIVER_PATH_INFORMATION, ifsk.file_fs_driver_path_information, PFILE_FS_DRIVER_PATH_INFORMATION, PFILE_FS_DRIVER_PATH_INFORMATION structure pointer [Installable File System Drivers], ntifs/FILE_FS_DRIVER_PATH_INFORMATION, ntifs/PFILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,11 +103,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 

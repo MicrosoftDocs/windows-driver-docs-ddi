@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44a5b4dd-c654-4af1-afd6-6e59d2cd1ff8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, WDF_TIMER_CONFIG_INIT_PERIODIC function, WDF_TIMER_CONFIG_INIT_PERIODIC, wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC, kmdf.wdf_timer_config_init_periodic, wdf.wdf_timer_config_init_periodic
+ms.keywords: wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC, kmdf.wdf_timer_config_init_periodic, WDF_TIMER_CONFIG_INIT_PERIODIC function, wdf.wdf_timer_config_init_periodic, WDF_TIMER_CONFIG_INIT_PERIODIC, DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,15 +141,15 @@ Status = WdfTimerCreate(
 
 ## -see-also
 
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
+
+
+
 <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
 
 
 
 <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
-
-
-
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
 
 
 

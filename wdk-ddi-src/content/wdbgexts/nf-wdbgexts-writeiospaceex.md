@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb0ae4bb-6d6b-4772-9dbd-ae43f7728313
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WriteIoSpaceEx function [Windows Debugging], WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, WriteIoSpaceEx, wdbgexts/WriteIoSpaceEx, debugger.writeiospaceex
+ms.keywords: debugger.writeiospaceex, WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, WriteIoSpaceEx, WriteIoSpaceEx function [Windows Debugging], wdbgexts/WriteIoSpaceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

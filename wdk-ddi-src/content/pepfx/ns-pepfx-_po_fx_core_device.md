@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46C16795-412B-48E7-A7E8-E474CEC51849
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.po_fx_core_device, PO_FX_CORE_DEVICE, pepfx/PO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture], PPO_FX_CORE_DEVICE, _PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE, pepfx/PPO_FX_CORE_DEVICE
+ms.keywords: "_PO_FX_CORE_DEVICE, pepfx/PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE, pepfx/PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, kernel.po_fx_core_device, PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,7 +129,7 @@ For more information about component transitions between the active condition an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
+<a href="..\pepfx\nf-pepfx-pofxregistercoredevice.md">PoFxRegisterCoreDevice</a>
 
 
 
@@ -145,11 +145,11 @@ For more information about component transitions between the active condition an
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
-
-
-
-<a href="..\pepfx\nf-pepfx-pofxregistercoredevice.md">PoFxRegisterCoreDevice</a>
 
 
 

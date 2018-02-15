@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ea5e60d9-d167-4ad9-bef4-2ebb6c63184d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_eeca8064-e141-4398-819e-451a80aca4c3.xml, storage.cdrom_exclusive_lock_state, CDROM_EXCLUSIVE_LOCK_STATE structure [Storage Devices], ntddcdrm/PCDROM_EXCLUSIVE_LOCK_STATE, CDROM_EXCLUSIVE_LOCK_STATE, PCDROM_EXCLUSIVE_LOCK_STATE, _CDROM_EXCLUSIVE_LOCK_STATE, ntddcdrm/CDROM_EXCLUSIVE_LOCK_STATE, *PCDROM_EXCLUSIVE_LOCK_STATE, PCDROM_EXCLUSIVE_LOCK_STATE structure pointer [Storage Devices]
+ms.keywords: structs-CD-ROM_eeca8064-e141-4398-819e-451a80aca4c3.xml, CDROM_EXCLUSIVE_LOCK_STATE, PCDROM_EXCLUSIVE_LOCK_STATE structure pointer [Storage Devices], CDROM_EXCLUSIVE_LOCK_STATE structure [Storage Devices], PCDROM_EXCLUSIVE_LOCK_STATE, *PCDROM_EXCLUSIVE_LOCK_STATE, _CDROM_EXCLUSIVE_LOCK_STATE, ntddcdrm/PCDROM_EXCLUSIVE_LOCK_STATE, ntddcdrm/CDROM_EXCLUSIVE_LOCK_STATE, storage.cdrom_exclusive_lock_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

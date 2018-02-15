@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e0a0ad31-86c1-44bd-b069-70442973a539
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, DXVADDI_DECODEBUFFERINFO structure [Display Devices], display.dxvaddi_decodebufferinfo, d3dumddi/DXVADDI_DECODEBUFFERINFO, _DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO
+ms.keywords: "_DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo, DXVADDI_DECODEBUFFERINFO structure [Display Devices], d3dumddi/DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO, DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,7 +105,7 @@ A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVAD
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVADDI_DECODEINPUT</a>
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
@@ -113,7 +113,7 @@ A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVAD
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVADDI_DECODEINPUT</a>
 
 
 

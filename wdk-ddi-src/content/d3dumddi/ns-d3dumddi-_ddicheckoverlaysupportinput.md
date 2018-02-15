@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5f15743a-1ea7-4260-b2cb-f2871acb27f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, DDICHECKOVERLAYSUPPORTINPUT, d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, display.ddicheckoverlaysupportinput, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices], _DDICHECKOVERLAYSUPPORTINPUT
+ms.keywords: D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, DDICHECKOVERLAYSUPPORTINPUT, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices], d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, display.ddicheckoverlaysupportinput, _DDICHECKOVERLAYSUPPORTINPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,14 +133,6 @@ The runtime specifies a pointer to a DDICHECKOVERLAYSUPPORTINPUT structure in th
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_scanlineordering.md">D3DDDI_SCANLINEORDERING</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
@@ -150,6 +142,14 @@ The runtime specifies a pointer to a DDICHECKOVERLAYSUPPORTINPUT structure in th
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_scanlineordering.md">D3DDDI_SCANLINEORDERING</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 

@@ -87,6 +87,8 @@ The protected resource session.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

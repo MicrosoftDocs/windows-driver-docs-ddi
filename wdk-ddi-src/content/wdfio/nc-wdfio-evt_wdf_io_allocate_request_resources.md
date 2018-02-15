@@ -153,11 +153,11 @@ The <b>EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES</b> function type is defined in the
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
+
+
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: be662551-c4d3-4979-8a9b-c913fb6bd336
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped interface [Windows Debugging], Field method, Field method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::Field, EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, debugger.extremotetyped_field, Field method [Windows Debugging], Field, ExtRemoteTyped
+ms.keywords: ExtRemoteTyped, Field method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped::Field, Field method [Windows Debugging], EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped interface [Windows Debugging], Field method, debugger.extremotetyped_field, Field
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 400e2172-803c-4b6c-a41e-3c322077ffa4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_senduicctoolkitcmdresponse, RIL_SendUiccToolkitCmdResponse method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendUiccToolkitCmdResponse, RIL_SendUiccToolkitCmdResponse
+ms.keywords: RIL_SendUiccToolkitCmdResponse method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendUiccToolkitCmdResponse, RIL_SendUiccToolkitCmdResponse, netvista.ril_senduicctoolkitcmdresponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

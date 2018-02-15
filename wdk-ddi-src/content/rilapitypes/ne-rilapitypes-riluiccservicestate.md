@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f817db6b-bda4-45cd-953b-fd3d81bafa8f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCSERVICESTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCSERVICESTATE_ENABLED, RIL_UICCSERVICESTATE_ENABLED, netvista.riluiccservicestate_2, RILUICCSERVICESTATE, rilapitypes/RIL_UICCSERVICESTATE_MAX, RIL_UICCSERVICESTATE_DISABLED, RIL_UICCSERVICESTATE_MAX, rilapitypes/RIL_UICCSERVICESTATE_DISABLED, rilapitypes/RILUICCSERVICESTATE
+ms.keywords: RILUICCSERVICESTATE, RIL_UICCSERVICESTATE_ENABLED, rilapitypes/RIL_UICCSERVICESTATE_MAX, RIL_UICCSERVICESTATE_DISABLED, rilapitypes/RIL_UICCSERVICESTATE_DISABLED, netvista.riluiccservicestate_2, rilapitypes/RILUICCSERVICESTATE, RILUICCSERVICESTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCSERVICESTATE_ENABLED, RIL_UICCSERVICESTATE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

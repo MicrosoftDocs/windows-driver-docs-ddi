@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14078b2b-8951-48df-912a-e053bc997dde
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_QUERYRESOURCEINFO, D3DKMT_QUERYRESOURCEINFO structure [Display Devices], display.d3dkmt_queryresourceinfo, OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml, d3dkmthk/D3DKMT_QUERYRESOURCEINFO, _D3DKMT_QUERYRESOURCEINFO
+ms.keywords: d3dkmthk/D3DKMT_QUERYRESOURCEINFO, OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml, display.d3dkmt_queryresourceinfo, D3DKMT_QUERYRESOURCEINFO structure [Display Devices], _D3DKMT_QUERYRESOURCEINFO, D3DKMT_QUERYRESOURCEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,11 +110,11 @@ typedef struct _D3DKMT_QUERYRESOURCEINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
 
 
 

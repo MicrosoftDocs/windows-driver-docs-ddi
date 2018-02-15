@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fdfcb8bc-bc42-4c34-ae19-b40401bea41e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdmaenablersetmaximumscattergatherelements, wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements, WdfDmaEnablerSetMaximumScatterGatherElements method, DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml, PFN_WDFDMAENABLERSETMAXIMUMSCATTERGATHERELEMENTS, kmdf.wdfdmaenablersetmaximumscattergatherelements, WdfDmaEnablerSetMaximumScatterGatherElements
+ms.keywords: WdfDmaEnablerSetMaximumScatterGatherElements, DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml, wdf.wdfdmaenablersetmaximumscattergatherelements, PFN_WDFDMAENABLERSETMAXIMUMSCATTERGATHERELEMENTS, kmdf.wdfdmaenablersetmaximumscattergatherelements, WdfDmaEnablerSetMaximumScatterGatherElements method, wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

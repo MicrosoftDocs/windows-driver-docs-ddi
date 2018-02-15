@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b41fc37a-d41f-49ca-848f-844e049dd987
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfInterruptSynchronize, WdfInterruptSynchronize method, wdfinterrupt/WdfInterruptSynchronize, wdf.wdfinterruptsynchronize, DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml, kmdf.wdfinterruptsynchronize, PFN_WDFINTERRUPTSYNCHRONIZE
+ms.keywords: WdfInterruptSynchronize method, wdf.wdfinterruptsynchronize, kmdf.wdfinterruptsynchronize, PFN_WDFINTERRUPTSYNCHRONIZE, wdfinterrupt/WdfInterruptSynchronize, WdfInterruptSynchronize, DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

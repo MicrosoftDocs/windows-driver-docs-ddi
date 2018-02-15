@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 426ff4f4-7924-4115-9f66-b4152e2ba5bb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_request_ref_323c05f2-8b33-40c1-a4d8-385a8b0d0015.xml, NdisAllocateCloneOidRequest, ndis/NdisAllocateCloneOidRequest, netvista.ndisallocatecloneoidrequest, NdisAllocateCloneOidRequest function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisAllocateCloneOidRequest, netvista.ndisallocatecloneoidrequest, NdisAllocateCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis_request_ref_323c05f2-8b33-40c1-a4d8-385a8b0d0015.xml, NdisAllocateCloneOidRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,18 +98,18 @@ TBD
 
 
 
-#### - Request [in]
-
-A pointer to an existing 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure from which NDIS
-     copies the information to the newly allocated structure.
-
-
 #### - CloneRequest [out]
 
 A pointer to a pointer to an NDIS_OID_REQUEST structure. If NDIS returns NDIS_STATUS_SUCCESS, NDIS
      provides a pointer to the new, cloned NDIS_OID_REQUEST structure; otherwise, NDIS sets the pointer value
      to <b>NULL</b>.
+
+
+#### - Request [in]
+
+A pointer to an existing 
+     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure from which NDIS
+     copies the information to the newly allocated structure.
 
 
 ## -returns

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2b5ac749-9097-43bf-a0e6-a18374f15a86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSENDSUPSERVICEDATARESPONSEPARAMS, netvista.rilsendsupservicedataresponseparams_2, *LPRILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSENDSUPSERVICEDATARESPONSEPARAMS
+ms.keywords: netvista.rilsendsupservicedataresponseparams_2, RILSENDSUPSERVICEDATARESPONSEPARAMS, RILSENDSUPSERVICEDATARESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSENDSUPSERVICEDATARESPONSEPARAMS, rilapitypes/RILSENDSUPSERVICEDATARESPONSEPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

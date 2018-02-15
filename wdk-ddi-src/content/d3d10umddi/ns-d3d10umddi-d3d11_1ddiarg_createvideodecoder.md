@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c309e9b1-b2bc-40bc-90b9-5c070ba48957
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_CREATEVIDEODECODER structure [Display Devices], D3D11_1DDIARG_CREATEVIDEODECODER, display.d3d11_1ddiarg_createvideodecoder, d3d10umddi/D3D11_1DDIARG_CREATEVIDEODECODER
+ms.keywords: D3D11_1DDIARG_CREATEVIDEODECODER, display.d3d11_1ddiarg_createvideodecoder, d3d10umddi/D3D11_1DDIARG_CREATEVIDEODECODER, D3D11_1DDIARG_CREATEVIDEODECODER structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

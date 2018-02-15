@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 241525fd-c21b-4c24-91a0-6a79df4faea7
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlAllocatePoolWithQuotaTag, FsRtlAllocatePoolWithQuotaTag routine [Installable File System Drivers], fsrtlref_f4d15687-848c-4c31-8f30-48eb69498cc9.xml, ifsk.fsrtlallocatepoolwithquotatag, ntifs/FsRtlAllocatePoolWithQuotaTag
+ms.keywords: ntifs/FsRtlAllocatePoolWithQuotaTag, FsRtlAllocatePoolWithQuotaTag routine [Installable File System Drivers], FsRtlAllocatePoolWithQuotaTag, fsrtlref_f4d15687-848c-4c31-8f30-48eb69498cc9.xml, ifsk.fsrtlallocatepoolwithquotatag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -112,7 +112,7 @@ Callers of <b>FsRtlAllocatePoolWithQuotaTag</b> must be running at IRQL &lt;= DI
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
@@ -120,7 +120,7 @@ Callers of <b>FsRtlAllocatePoolWithQuotaTag</b> must be running at IRQL &lt;= DI
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 
 

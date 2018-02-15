@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5aaf1f90-fb75-4e5a-9316-9212a21b8fed
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "*PDOCUMENTPROPERTYHEADER, print.documentpropertyheader, _DOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], DOCUMENTPROPERTYHEADER structure [Print Devices], winddiui/PDOCUMENTPROPERTYHEADER, print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, winddiui/DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER"
+ms.keywords: "*PDOCUMENTPROPERTYHEADER, print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, print.documentpropertyheader, winddiui/PDOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], DOCUMENTPROPERTYHEADER structure [Print Devices], _DOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER, winddiui/DOCUMENTPROPERTYHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -240,11 +240,11 @@ The input value in the <b>cbOut</b> member is not necessarily equal to the size 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
-
-
-
 <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a>
+
+
+
+<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
 
 
 

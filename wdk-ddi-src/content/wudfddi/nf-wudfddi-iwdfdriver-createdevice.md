@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: df921271-b708-43bf-a250-048b7f638cac
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdriver_createdevice, CreateDevice method, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, CreateDevice method, IWDFDriver interface, wudfddi/IWDFDriver::CreateDevice, IWDFDriver, CreateDevice, IWDFDriver interface, CreateDevice method, wdf.iwdfdriver_createdevice, IWDFDriver::CreateDevice
+ms.keywords: umdf.iwdfdriver_createdevice, CreateDevice, CreateDevice method, IWDFDriver interface, wdf.iwdfdriver_createdevice, IWDFDriver::CreateDevice, wudfddi/IWDFDriver::CreateDevice, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, IWDFDriver, CreateDevice method, IWDFDriver interface, CreateDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -249,23 +249,7 @@ CDriver::OnDeviceAdd(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md">IFileCallbackCleanup</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
@@ -273,7 +257,7 @@ CDriver::OnDeviceAdd(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
 
 
 
@@ -281,11 +265,27 @@ CDriver::OnDeviceAdd(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md">IFileCallbackCleanup</a>
 
 
 

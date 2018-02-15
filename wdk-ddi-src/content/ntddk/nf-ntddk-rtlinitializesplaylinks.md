@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 34818dc0-d241-4f5f-a202-08200fbc23a3
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlInitializeSplayLinks, ifsk.rtlinitializesplaylinks, rtlref_20e818cf-6afb-4699-b760-bbd7964b576c.xml, RtlInitializeSplayLinks routine [Installable File System Drivers], ntddk/RtlInitializeSplayLinks
+ms.keywords: ifsk.rtlinitializesplaylinks, ntddk/RtlInitializeSplayLinks, rtlref_20e818cf-6afb-4699-b760-bbd7964b576c.xml, RtlInitializeSplayLinks routine [Installable File System Drivers], RtlInitializeSplayLinks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,23 +96,7 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlsubtreepredecessor.md">RtlSubtreePredecessor</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtldeletenosplay.md">RtlDeleteNoSplay</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
+<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
 
 
 
@@ -120,31 +104,27 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisrightchild.md">RtlIsRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlsubtreepredecessor.md">RtlSubtreePredecessor</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
@@ -152,7 +132,27 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlisrightchild.md">RtlIsRightChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtldeletenosplay.md">RtlDeleteNoSplay</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
 
 
 

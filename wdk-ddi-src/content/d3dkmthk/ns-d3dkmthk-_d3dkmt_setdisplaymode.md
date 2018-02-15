@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb590e18-59a4-4c4d-9d97-9f60c409c2e9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_SETDISPLAYMODE, D3DKMT_SETDISPLAYMODE, OpenGL_Structs_05a13119-df17-4380-8c9b-8af52c989c73.xml, display.d3dkmt_setdisplaymode, D3DKMT_SETDISPLAYMODE structure [Display Devices], _D3DKMT_SETDISPLAYMODE
+ms.keywords: D3DKMT_SETDISPLAYMODE structure [Display Devices], D3DKMT_SETDISPLAYMODE, d3dkmthk/D3DKMT_SETDISPLAYMODE, OpenGL_Structs_05a13119-df17-4380-8c9b-8af52c989c73.xml, display.d3dkmt_setdisplaymode, _D3DKMT_SETDISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

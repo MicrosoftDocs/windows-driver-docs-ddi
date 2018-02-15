@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 445b6836-aeac-4183-ba11-a787c1e125ac
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlNotifyFilterChangeDirectory, FsRtlNotifyFilterChangeDirectory routine [Installable File System Drivers], ifsk.fsrtlnotifyfilterchangedirectory, ntifs/FsRtlNotifyFilterChangeDirectory, fsrtlref_ef37396f-2844-4b1e-a474-16788aa1de75.xml
+ms.keywords: FsRtlNotifyFilterChangeDirectory routine [Installable File System Drivers], ntifs/FsRtlNotifyFilterChangeDirectory, FsRtlNotifyFilterChangeDirectory, fsrtlref_ef37396f-2844-4b1e-a474-16788aa1de75.xml, ifsk.fsrtlnotifyfilterchangedirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -341,15 +341,11 @@ When a change occurs to the directory, the file system calls <a href="..\ntifs\n
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
 
 
 
@@ -357,7 +353,11 @@ When a change occurs to the directory, the file system calls <a href="..\ntifs\n
 
 
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
 
 
 

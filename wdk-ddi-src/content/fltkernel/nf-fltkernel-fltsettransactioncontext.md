@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb68ee38-1726-4493-9c3b-71a1352dd9f2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fltsettransactioncontext, FLT_SET_CONTEXT_KEEP_IF_EXISTS, FltSetTransactionContext, fltkernel/FltSetTransactionContext, FLT_SET_CONTEXT_REPLACE_IF_EXISTS, FltSetTransactionContext routine [Installable File System Drivers], FltApiRef_p_to_z_ac2c79a4-ca14-417d-a394-24a38d89f3bf.xml
+ms.keywords: FltApiRef_p_to_z_ac2c79a4-ca14-417d-a394-24a38d89f3bf.xml, FltSetTransactionContext, FltSetTransactionContext routine [Installable File System Drivers], FLT_SET_CONTEXT_REPLACE_IF_EXISTS, fltkernel/FltSetTransactionContext, ifsk.fltsettransactioncontext, FLT_SET_CONTEXT_KEEP_IF_EXISTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -218,7 +218,7 @@ For more information about context reference counting, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
@@ -226,31 +226,7 @@ For more information about context reference counting, see <a href="https://msdn
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltrollbackenlistment.md">FltRollbackEnlistment</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltenlistintransaction.md">FltEnlistInTransaction</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgettransactioncontext.md">FltGetTransactionContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -258,7 +234,31 @@ For more information about context reference counting, see <a href="https://msdn
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgettransactioncontext.md">FltGetTransactionContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltenlistintransaction.md">FltEnlistInTransaction</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltrollbackenlistment.md">FltRollbackEnlistment</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltprepreparecomplete.md">FltPrePrepareComplete</a>
 
 
 

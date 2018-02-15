@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prntfont/MAPTABLE, prntfont/PMAPTABLE, MAPTABLE, PMAPTABLE structure pointer [Print Devices], PMAPTABLE, MAPTABLE structure [Print Devices], print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, _MAPTABLE, *PMAPTABLE, print.maptable
+ms.keywords: print.maptable, print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, *PMAPTABLE, prntfont/PMAPTABLE, prntfont/MAPTABLE, PMAPTABLE structure pointer [Print Devices], PMAPTABLE, MAPTABLE structure [Print Devices], MAPTABLE, _MAPTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

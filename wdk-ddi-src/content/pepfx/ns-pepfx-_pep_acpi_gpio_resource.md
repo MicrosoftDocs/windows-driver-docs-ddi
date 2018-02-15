@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1B8AD1A9-9EB0-49A8-B791-0453C768A974
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_acpi_gpio_resource, *PPEP_ACPI_GPIO_RESOURCE, pepfx/PEP_ACPI_GPIO_RESOURCE, PPEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_GPIO_RESOURCE, PPEP_ACPI_GPIO_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_GPIO_RESOURCE, _PEP_ACPI_GPIO_RESOURCE
+ms.keywords: PEP_ACPI_GPIO_RESOURCE, kernel.pep_acpi_gpio_resource, PPEP_ACPI_GPIO_RESOURCE, PPEP_ACPI_GPIO_RESOURCE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_GPIO_RESOURCE, _PEP_ACPI_GPIO_RESOURCE, *PPEP_ACPI_GPIO_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,14 +152,6 @@ The size of the <b>VendorData</b> buffer.
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
-
-
-
-<a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
-
-
-
 <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
 
@@ -168,11 +160,19 @@ The size of the <b>VendorData</b> buffer.
 
 
 
+<a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a>
 
 
 
-<a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
+<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
+
+
+<a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
 
 
 

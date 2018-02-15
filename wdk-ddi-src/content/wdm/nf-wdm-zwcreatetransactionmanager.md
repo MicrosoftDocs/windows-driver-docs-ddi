@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9c9f0a8b-7add-4ab1-835d-39f508ce32a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtCreateTransactionManager, ktm_ref_56fad0b5-053d-4d65-bdb3-8c2d09fee541.xml, ZwCreateTransactionManager, ZwCreateTransactionManager routine [Kernel-Mode Driver Architecture], wdm/NtCreateTransactionManager, kernel.zwcreatetransactionmanager, wdm/ZwCreateTransactionManager
+ms.keywords: ktm_ref_56fad0b5-053d-4d65-bdb3-8c2d09fee541.xml, ZwCreateTransactionManager routine [Kernel-Mode Driver Architecture], wdm/ZwCreateTransactionManager, NtCreateTransactionManager, ZwCreateTransactionManager, wdm/NtCreateTransactionManager, kernel.zwcreatetransactionmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -435,27 +435,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
 
 
 
@@ -463,7 +447,23 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

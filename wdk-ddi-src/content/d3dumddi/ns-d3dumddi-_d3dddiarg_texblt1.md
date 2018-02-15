@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e11fd9b5-c3ad-4f8f-890c-30ca5ce4a57f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], display.d3dddiarg_texblt1, _D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1
+ms.keywords: d3dumddi/D3DDDIARG_TEXBLT1, _D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], display.d3dddiarg_texblt1, D3DDDIARG_TEXBLT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,11 +104,11 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

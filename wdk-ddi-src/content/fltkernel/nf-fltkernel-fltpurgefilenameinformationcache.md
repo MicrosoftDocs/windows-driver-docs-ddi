@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d3c4d041-0589-46f5-a514-8efb0db642c7
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fltpurgefilenameinformationcache, fltkernel/FltPurgeFileNameInformationCache, FltApiRef_p_to_z_2b9315b1-c1c1-4739-af0e-0acebae1c59e.xml, FltPurgeFileNameInformationCache function [Installable File System Drivers], FltPurgeFileNameInformationCache
+ms.keywords: fltkernel/FltPurgeFileNameInformationCache, ifsk.fltpurgefilenameinformationcache, FltPurgeFileNameInformationCache function [Installable File System Drivers], FltPurgeFileNameInformationCache, FltApiRef_p_to_z_2b9315b1-c1c1-4739-af0e-0acebae1c59e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,15 +100,11 @@ The file name information structures are not freed until all references are rele
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component.md">PFLT_NORMALIZE_NAME_COMPONENT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
 
 
 
@@ -120,19 +116,23 @@ The file name information structures are not freed until all references are rele
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component.md">PFLT_NORMALIZE_NAME_COMPONENT</a>
-
-
-
 <a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+
+
 <a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
 
 

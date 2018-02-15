@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pscreatesystemthread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], PsCreateSystemThread, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, wdm/PsCreateSystemThread
+ms.keywords: wdm/PsCreateSystemThread, k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, PsCreateSystemThread, kernel.pscreatesystemthread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,11 +151,7 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
 
 
 
@@ -163,15 +159,19 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

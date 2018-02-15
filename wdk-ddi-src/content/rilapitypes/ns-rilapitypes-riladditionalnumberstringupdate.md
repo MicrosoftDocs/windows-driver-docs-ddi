@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2675395-08b6-44e6-8052-1fdd7b693c31
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riladditionalnumberstringupdate_2, RILADDITIONALNUMBERSTRINGUPDATE, rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], *LPRILADDITIONALNUMBERSTRINGUPDATE
+ms.keywords: netvista.riladditionalnumberstringupdate_2, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

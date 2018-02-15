@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b8cea0f-bca0-4ffa-834b-d7c079cf93d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdrivercreate, WdfDriverCreate, kmdf.wdfdrivercreate, PFN_WDFDRIVERCREATE, WdfDriverCreate method, DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, wdfdriver/WdfDriverCreate
+ms.keywords: WdfDriverCreate, PFN_WDFDRIVERCREATE, wdf.wdfdrivercreate, WdfDriverCreate method, DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, kmdf.wdfdrivercreate, wdfdriver/WdfDriverCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,19 +209,15 @@ DriverEntry(
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
 <a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -233,7 +229,11 @@ DriverEntry(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: efb3617d-86be-4380-ad1a-0a333d248168
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, wdf.wdfioresourcerequirementslistappendioreslist, WdfIoResourceRequirementsListAppendIoResList method, wdfresource/WdfIoResourceRequirementsListAppendIoResList, WdfIoResourceRequirementsListAppendIoResList, kmdf.wdfioresourcerequirementslistappendioreslist, PFN_WDFIORESOURCEREQUIREMENTSLISTAPPENDIORESLIST
+ms.keywords: PFN_WDFIORESOURCEREQUIREMENTSLISTAPPENDIORESLIST, WdfIoResourceRequirementsListAppendIoResList, DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, wdfresource/WdfIoResourceRequirementsListAppendIoResList, wdf.wdfioresourcerequirementslistappendioreslist, WdfIoResourceRequirementsListAppendIoResList method, kmdf.wdfioresourcerequirementslistappendioreslist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

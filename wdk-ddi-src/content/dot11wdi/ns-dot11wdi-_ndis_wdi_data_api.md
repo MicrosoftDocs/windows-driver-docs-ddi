@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8C26D62E-711A-4CE7-BD2B-D78B794C67FB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wdi_data_api, _NDIS_WDI_DATA_API, NDIS_WDI_DATA_API structure [Network Drivers Starting with Windows Vista], dot11wdi/PNDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API, dot11wdi/NDIS_WDI_DATA_API, PNDIS_WDI_DATA_API structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WDI_DATA_API, NDIS_WDI_DATA_API
+ms.keywords: NDIS_WDI_DATA_API structure [Network Drivers Starting with Windows Vista], _NDIS_WDI_DATA_API, PNDIS_WDI_DATA_API structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wdi_data_api, NDIS_WDI_DATA_API, *PNDIS_WDI_DATA_API, PNDIS_WDI_DATA_API, dot11wdi/PNDIS_WDI_DATA_API, dot11wdi/NDIS_WDI_DATA_API
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

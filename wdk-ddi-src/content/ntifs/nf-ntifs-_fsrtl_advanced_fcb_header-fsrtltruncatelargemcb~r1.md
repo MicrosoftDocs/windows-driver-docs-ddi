@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 59970380-0cf5-4557-aa39-854c837552a5
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlTruncateLargeMcb, fsrtlref_5399ea6f-c059-44a7-84f0-01a7eba2c40a.xml, ntifs/FsRtlTruncateLargeMcb, ifsk.fsrtltruncatelargemcb, FsRtlTruncateLargeMcb routine [Installable File System Drivers]
+ms.keywords: FsRtlTruncateLargeMcb routine [Installable File System Drivers], ifsk.fsrtltruncatelargemcb, ntifs/FsRtlTruncateLargeMcb, fsrtlref_5399ea6f-c059-44a7-84f0-01a7eba2c40a.xml, FsRtlTruncateLargeMcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - OpaqueMcb [in]
-
-Pointer to the MCB structure. 
-
-
 #### - LargeVbn [in]
 
 Starting virtual block number (VBN) of the range of mappings to be removed from the MCB. 
+
+
+#### - OpaqueMcb [in]
+
+Pointer to the MCB structure. 
 
 
 ## -returns
@@ -112,11 +112,7 @@ If the starting VBN is zero, all mappings are removed from the MCB.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb~r2.md">FsRtlSplitLargeMcb</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
 
 
 
@@ -124,23 +120,15 @@ If the starting VBN is zero, all mappings are removed from the MCB.
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry~r2.md">FsRtlRemoveLargeMcbEntry</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry~r2.md">FsRtlLookupLastLargeMcbEntry</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb~r2.md">FsRtlSplitLargeMcb</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
 
 
 
@@ -148,7 +136,19 @@ If the starting VBN is zero, all mappings are removed from the MCB.
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry~r4.md">FsRtlGetNextLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry~r3.md">FsRtlAddLargeMcbEntry</a>
 
 
 

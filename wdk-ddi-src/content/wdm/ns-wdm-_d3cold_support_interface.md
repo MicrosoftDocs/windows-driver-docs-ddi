@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B681719-FBCC-417A-9FEB-ACB386FA3BE2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], *PD3COLD_SUPPORT_INTERFACE, wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE, _D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], kernel.d3cold_support_interface, PD3COLD_SUPPORT_INTERFACE
+ms.keywords: kernel.d3cold_support_interface, *PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], wdm/D3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE, _D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -144,10 +144,6 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a>
-
-
-
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
 
 
@@ -156,11 +152,7 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 
 
@@ -168,7 +160,15 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a>
+
+
+
+<a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 

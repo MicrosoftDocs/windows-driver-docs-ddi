@@ -83,6 +83,8 @@ A handle to a context block associated with a display adapter. The display minip
 
 
 
+
+
 #### - pIsSupportedVidPnArg [in, out]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_issupportedvidpn.md">DXGKARG_ISSUPPORTEDVIDPN</a> structure. On input, the caller supplies the <b>hDesiredVidPn</b> member of the structure. On return, the <b>IsVidPnSupported</b> member receives a Boolean value that indicates whether the VidPN is supported (<b>TRUE</b>) or not supported (<b>FALSE</b>).
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_issupportedvidpn.md">DX
 ## -returns
 
 
+
 <i>DxgkDdiIsSupportedVidPn</i> returns one of the following values
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,11 +134,14 @@ The function failed because it was unable to allocate memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For more information about the analysis that this function must perform, see <a href="https://msdn.microsoft.com/ebf001fb-e445-4534-8e89-60e1b06b2d6e">Determining Whether a VidPN is Supported on a Display Adapter</a><u>.</u>
@@ -145,9 +152,12 @@ If pIsSupportedVidPnArg-&gt;hDesiredVidPn is zero, <i>DxgkDdiIsSupportedVidPn</i
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
+
+
 
  
 

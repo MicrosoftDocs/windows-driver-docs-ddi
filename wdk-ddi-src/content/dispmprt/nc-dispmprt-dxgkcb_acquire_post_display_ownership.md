@@ -146,15 +146,15 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 
 
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 
 
@@ -162,7 +162,7 @@ The display miniport driver must only call the <i>DxgkCbAcquirePostDisplayOwners
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
 
 

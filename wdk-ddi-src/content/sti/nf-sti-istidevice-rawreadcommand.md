@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: fc6b46af-d3e3-4a49-a354-c0effee6a005
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawReadCommand method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], RawReadCommand method, RawReadCommand, IStiDevice, IStiDevice::RawReadCommand, RawReadCommand method [Imaging Devices], stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml, image.istidevice_rawreadcommand, sti/IStiDevice::RawReadCommand
+ms.keywords: IStiDevice interface [Imaging Devices], RawReadCommand method, RawReadCommand method [Imaging Devices], stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml, RawReadCommand, sti/IStiDevice::RawReadCommand, image.istidevice_rawreadcommand, IStiDevice::RawReadCommand, IStiDevice, RawReadCommand method [Imaging Devices], IStiDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

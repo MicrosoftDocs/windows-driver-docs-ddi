@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2e98d111-5af5-4854-9b58-f5237ba913e7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwFsControlFile routine [Kernel-Mode Driver Architecture], ntifs/NtFsControlFile, ntifs/ZwFsControlFile, ZwFsControlFile, k111_5da20655-11b0-4366-bca2-8cee3aadbeab.xml, kernel.zwfscontrolfile, NtFsControlFile
+ms.keywords: ntifs/ZwFsControlFile, ntifs/NtFsControlFile, k111_5da20655-11b0-4366-bca2-8cee3aadbeab.xml, ZwFsControlFile, ZwFsControlFile routine [Kernel-Mode Driver Architecture], NtFsControlFile, kernel.zwfscontrolfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,31 +209,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565406">Using I/O Control Codes</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetfunctioncodefromctlcode.md">IoGetFunctionCodeFromCtlCode</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioisoperationsynchronous.md">IoIsOperationSynchronous</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
 
 
 
@@ -241,11 +217,35 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetfunctioncodefromctlcode.md">IoGetFunctionCodeFromCtlCode</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioisoperationsynchronous.md">IoIsOperationSynchronous</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565406">Using I/O Control Codes</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

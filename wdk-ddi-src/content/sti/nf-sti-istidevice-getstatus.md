@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e9539565-e13f-42ea-9566-066e2c9ae2ae
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetStatus method [Imaging Devices], image.istidevice_getstatus, stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml, GetStatus, IStiDevice::GetStatus, IStiDevice, GetStatus method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], GetStatus method, sti/IStiDevice::GetStatus
+ms.keywords: stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml, IStiDevice, IStiDevice interface [Imaging Devices], GetStatus method, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices], IStiDevice interface, GetStatus, IStiDevice::GetStatus, image.istidevice_getstatus, sti/IStiDevice::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

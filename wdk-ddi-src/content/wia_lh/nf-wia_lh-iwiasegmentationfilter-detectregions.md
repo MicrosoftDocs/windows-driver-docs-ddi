@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 53ad769e-38b5-463d-9fa0-053c2215cc81
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaSegmentationFilter, DetectRegions, IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, image.iwiasegmentationfilter_detectregions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, wia_lh/IWiaSegmentationFilter::DetectRegions
+ms.keywords: DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, wia_lh/IWiaSegmentationFilter::DetectRegions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, image.iwiasegmentationfilter_detectregions, DetectRegions, IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, IWiaSegmentationFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

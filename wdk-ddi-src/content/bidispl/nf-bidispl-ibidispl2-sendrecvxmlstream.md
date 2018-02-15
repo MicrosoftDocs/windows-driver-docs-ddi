@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2daf99a8-42dc-4739-8e7e-80d3c9a084b7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: gdi.ibidispl2_ibidispl2__sendrecvxmlstream, IBidiSpl2::SendRecvXMLStream, SendRecvXMLStream method [Print Devices], bidispl/IBidiSpl2::SendRecvXMLStream, IBidiSpl2, SendRecvXMLStream, _win32_IBidiSpl2_SendRecvXMLStream, SendRecvXMLStream method [Print Devices], IBidiSpl2 interface, print.ibidispl2_ibidispl2__sendrecvxmlstream, IBidiSpl2 interface [Print Devices], SendRecvXMLStream method
+ms.keywords: SendRecvXMLStream method [Print Devices], IBidiSpl2 interface, bidispl/IBidiSpl2::SendRecvXMLStream, SendRecvXMLStream method [Print Devices], IBidiSpl2 interface [Print Devices], SendRecvXMLStream method, IBidiSpl2, SendRecvXMLStream, IBidiSpl2::SendRecvXMLStream, print.ibidispl2_ibidispl2__sendrecvxmlstream, gdi.ibidispl2_ibidispl2__sendrecvxmlstream, _win32_IBidiSpl2_SendRecvXMLStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,11 +141,7 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
-<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -153,7 +149,11 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
 
 
 

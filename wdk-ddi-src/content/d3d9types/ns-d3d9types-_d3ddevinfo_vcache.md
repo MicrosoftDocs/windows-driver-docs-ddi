@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c20b757-c27c-446c-a138-066fc57ec1bc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], D3DDEVINFO_VCACHE, d3d9types/LPD3DDEVINFO_VCACHE, display.d3ddevinfo_vcache, D3DDEVINFO_VCACHE structure [Display Devices], _D3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml
+ms.keywords: D3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, display.d3ddevinfo_vcache, D3DDEVINFO_VCACHE structure [Display Devices], LPD3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], d3d9types/LPD3DDEVINFO_VCACHE, _D3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -151,14 +151,6 @@ D3DDP2OP_CREATEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
-
-
-
 <a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
 
 
@@ -167,11 +159,19 @@ D3DDP2OP_CREATEQUERY
 
 
 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
+
+
+
 D3DDP2OP_ISSUEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
 
 
 

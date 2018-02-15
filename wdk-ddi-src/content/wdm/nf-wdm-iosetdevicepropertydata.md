@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], kernel.iosetdevicepropertydata, k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, wdm/IoSetDevicePropertyData, IoSetDevicePropertyData
+ms.keywords: IoSetDevicePropertyData, k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], kernel.iosetdevicepropertydata, wdm/IoSetDevicePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,7 +151,7 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
 
 
@@ -159,7 +159,7 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 
 

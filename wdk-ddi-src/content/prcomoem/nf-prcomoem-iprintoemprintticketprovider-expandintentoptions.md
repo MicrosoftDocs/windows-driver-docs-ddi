@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c0499a9b-8f02-4a88-bffa-e088e9098a6c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml, ExpandIntentOptions method [Print Devices], IPrintOemPrintTicketProvider::ExpandIntentOptions, IPrintOemPrintTicketProvider, ExpandIntentOptions method [Print Devices], IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, IPrintOemPrintTicketProvider interface [Print Devices], ExpandIntentOptions method, ExpandIntentOptions
+ms.keywords: ExpandIntentOptions method [Print Devices], ExpandIntentOptions method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, ExpandIntentOptions, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, IPrintOemPrintTicketProvider interface [Print Devices], ExpandIntentOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

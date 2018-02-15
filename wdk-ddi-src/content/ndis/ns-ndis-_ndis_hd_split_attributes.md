@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c3e28d66-1fe8-4cb0-ada0-4292387da19a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_HD_SPLIT_ATTRIBUTES, netvista.ndis_hd_split_attributes, header_data_split_ref_32bcb512-6620-48a5-8073-7b9ef0ef1f18.xml, NDIS_HD_SPLIT_ATTRIBUTES, ndis/NDIS_HD_SPLIT_ATTRIBUTES, ndis/PNDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], NDIS_HD_SPLIT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], _NDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES
+ms.keywords: NDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], netvista.ndis_hd_split_attributes, ndis/NDIS_HD_SPLIT_ATTRIBUTES, ndis/PNDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES, header_data_split_ref_32bcb512-6620-48a5-8073-7b9ef0ef1f18.xml, _NDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -221,10 +221,6 @@ To support header-data split, a miniport driver passes a pointer to an
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
@@ -235,6 +231,10 @@ To support header-data split, a miniport driver passes a pointer to an
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8143c741-8f6e-442d-a52a-c226b2e4aa57
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltDoCompletionProcessingWhenSafe routine [Installable File System Drivers], FltApiRef_a_to_d_4e8cd7a1-1469-4ae1-97a9-51a184d0ad5a.xml, fltkernel/FltDoCompletionProcessingWhenSafe, ifsk.fltdocompletionprocessingwhensafe, FltDoCompletionProcessingWhenSafe
+ms.keywords: ifsk.fltdocompletionprocessingwhensafe, fltkernel/FltDoCompletionProcessingWhenSafe, FltDoCompletionProcessingWhenSafe, FltApiRef_a_to_d_4e8cd7a1-1469-4ae1-97a9-51a184d0ad5a.xml, FltDoCompletionProcessingWhenSafe routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,7 @@ If the minifilter does return FLT_POSTOP_MORE_PROCESSING_REQUIRED from the <i>Sa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -183,15 +179,19 @@ If the minifilter does return FLT_POSTOP_MORE_PROCESSING_REQUIRED from the <i>Sa
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+
+
+
 <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 

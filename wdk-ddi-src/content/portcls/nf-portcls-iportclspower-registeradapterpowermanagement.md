@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f4eb9d18-4352-47e2-bd5f-256e1fa831d3
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: RegisterAdapterPowerManagement method [Audio Devices], RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, RegisterAdapterPowerManagement, IPortClsPower::RegisterAdapterPowerManagement, audio.iportclspower_registeradapterpowermanagement, IPortClsPower, portcls/IPortClsPower::RegisterAdapterPowerManagement, audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, IPortClsPower interface [Audio Devices], RegisterAdapterPowerManagement method
+ms.keywords: portcls/IPortClsPower::RegisterAdapterPowerManagement, IPortClsPower, RegisterAdapterPowerManagement, IPortClsPower::RegisterAdapterPowerManagement, RegisterAdapterPowerManagement method [Audio Devices], IPortClsPower interface, RegisterAdapterPowerManagement method [Audio Devices], audmp-routines_9c179fd9-d332-478d-a114-469dc1c746fc.xml, audio.iportclspower_registeradapterpowermanagement, IPortClsPower interface [Audio Devices], RegisterAdapterPowerManagement method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,7 +98,11 @@ When the <code>RegisterAdapterPowerManagement</code> method registers the power 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
 
 
 
@@ -106,11 +110,7 @@ When the <code>RegisterAdapterPowerManagement</code> method registers the power 
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
 
 
 

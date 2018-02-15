@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dd53d3c5-3a31-4ea9-9f16-0d1b9397f63e
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fsrtlref_ae47bec7-1534-4ace-a29b-d5b6a5da292c.xml, ifsk.fsrtlcompleterequest, FsRtlCompleteRequest, ntifs/FsRtlCompleteRequest, FsRtlCompleteRequest function [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlCompleteRequest, ifsk.fsrtlcompleterequest, fsrtlref_ae47bec7-1534-4ace-a29b-d5b6a5da292c.xml, FsRtlCompleteRequest, FsRtlCompleteRequest function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

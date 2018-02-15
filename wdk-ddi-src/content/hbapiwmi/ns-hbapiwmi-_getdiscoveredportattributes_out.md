@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a6ae185-2f91-4285-b540-61130aef464c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], PGetDiscoveredPortAttributes_OUT, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, _GetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT, storage.getdiscoveredportattributes_out, GetDiscoveredPortAttributes_OUT structure [Storage Devices], *PGetDiscoveredPortAttributes_OUT
+ms.keywords: structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml, GetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT, *PGetDiscoveredPortAttributes_OUT, _GetDiscoveredPortAttributes_OUT, storage.getdiscoveredportattributes_out, GetDiscoveredPortAttributes_OUT structure [Storage Devices], PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], hbapiwmi/GetDiscoveredPortAttributes_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

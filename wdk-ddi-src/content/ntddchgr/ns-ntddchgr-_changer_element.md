@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 85035147-0ae8-482a-9a12-1e4e53ae1969
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer [Storage Devices], structs-changer_b1685d99-20ff-495d-a9e3-c63571559106.xml, PCHANGER_ELEMENT, ntddchgr/CHANGER_ELEMENT, CHANGER_ELEMENT structure [Storage Devices], _CHANGER_ELEMENT, CHANGER_ELEMENT, ntddchgr/PCHANGER_ELEMENT, storage.changer_element"
+ms.keywords: CHANGER_ELEMENT, ntddchgr/CHANGER_ELEMENT, ntddchgr/PCHANGER_ELEMENT, _CHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer [Storage Devices], storage.changer_element, structs-changer_b1685d99-20ff-495d-a9e3-c63571559106.xml, PCHANGER_ELEMENT, *PCHANGER_ELEMENT, CHANGER_ELEMENT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -147,15 +147,15 @@ On input, a changer miniclass driver must translate the zero-based address in <b
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
-
-
-
 <a href="..\ntddchgr\ne-ntddchgr-_element_type.md">ELEMENT_TYPE</a>
 
 
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 

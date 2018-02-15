@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 346F6FEC-7E06-4DF0-A304-88BD830C591B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetDeviceInterfacePropertyData, kernel.iosetdeviceinterfacepropertydata, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], wdm/IoSetDeviceInterfacePropertyData
+ms.keywords: kernel.iosetdeviceinterfacepropertydata, wdm/IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,7 +163,7 @@ Callers of <b>IoSetDeviceInterfacePropertyData</b> must be running at IRQL &lt;=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
 
 
@@ -171,7 +171,7 @@ Callers of <b>IoSetDeviceInterfacePropertyData</b> must be running at IRQL &lt;=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a22bcf4e-f460-4f32-9e1e-4ae952fc87d0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_COMPRESSION, WwanCompressionNone, wwan/WwanCompressionEnable, WWAN_COMPRESSION, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, _WWAN_COMPRESSION, *PWWAN_COMPRESSION, wwan/WWAN_COMPRESSION, netvista.wwan_compression, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanCompressionMax, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], WwanCompressionEnable, wwan/WwanCompressionNone, WwanCompressionMax, wwan/PWWAN_COMPRESSION
+ms.keywords: WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, wwan/WWAN_COMPRESSION, wwan/PWWAN_COMPRESSION, WWAN_COMPRESSION, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], WwanCompressionMax, PWWAN_COMPRESSION, _WWAN_COMPRESSION, wwan/WwanCompressionMax, netvista.wwan_compression, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], WwanCompressionNone, WwanCompressionEnable, *PWWAN_COMPRESSION, wwan/WwanCompressionEnable, wwan/WwanCompressionNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

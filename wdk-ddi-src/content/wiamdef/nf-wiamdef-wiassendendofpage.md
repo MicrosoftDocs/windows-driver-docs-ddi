@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 107cd468-bc39-4672-9356-e5329b36277b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasSendEndOfPage, wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiasSendEndOfPage function [Imaging Devices], wiasSendEndOfPage, image.wiassendendofpage
+ms.keywords: wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiasSendEndOfPage function [Imaging Devices], wiamdef/wiasSendEndOfPage, wiasSendEndOfPage, image.wiassendendofpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

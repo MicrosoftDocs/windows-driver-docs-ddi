@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 07fc3ae1-325a-4e50-a83d-9e70a8d63aaa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture], IoAllocateErrorLogEntry, kernel.ioallocateerrorlogentry, wdm/IoAllocateErrorLogEntry, k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml
+ms.keywords: IoAllocateErrorLogEntry, wdm/IoAllocateErrorLogEntry, kernel.ioallocateerrorlogentry, k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml, IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,15 +107,15 @@ Drivers must not treat <b>IoAllocateErrorLogEntry</b> returning <b>NULL</b> as a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
-
-
-
 <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 
 
 <a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
 
 
 

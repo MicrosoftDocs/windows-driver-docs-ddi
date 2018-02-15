@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c1af342a-438d-4c83-be2d-a4c4c9f204b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksdispatchsetsecurity, ksfunc_b643b100-dc1c-4df4-b1e4-32ac7ae59b2a.xml, KsDispatchSetSecurity function [Streaming Media Devices], KsDispatchSetSecurity, ks/KsDispatchSetSecurity
+ms.keywords: KsDispatchSetSecurity, ksfunc_b643b100-dc1c-4df4-b1e4-32ac7ae59b2a.xml, stream.ksdispatchsetsecurity, KsDispatchSetSecurity function [Streaming Media Devices], ks/KsDispatchSetSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

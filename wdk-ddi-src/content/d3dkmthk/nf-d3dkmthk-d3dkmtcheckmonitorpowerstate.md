@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f218b63-304e-4f25-88d8-ea1326c613ee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_d05a2b63-fe81-45f0-908d-94043416b1d0.xml, D3DKMTCheckMonitorPowerState function [Display Devices], display.d3dkmtcheckmonitorpowerstate, d3dkmthk/D3DKMTCheckMonitorPowerState, PFND3DKMT_CHECKMONITORPOWERSTATE, D3DKMTCheckMonitorPowerState
+ms.keywords: PFND3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMTCheckMonitorPowerState, D3DKMTCheckMonitorPowerState, D3DKMTCheckMonitorPowerState function [Display Devices], OpenGL_Functions_d05a2b63-fe81-45f0-908d-94043416b1d0.xml, display.d3dkmtcheckmonitorpowerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

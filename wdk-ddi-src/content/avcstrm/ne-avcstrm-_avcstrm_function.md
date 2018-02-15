@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0dacc4b0-003f-4c73-8705-1c1e86ce357c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: AVCSTRM_FUNCTION enumeration [Streaming Media Devices], AVCSTRM_FUNCTION, avcstrm/AVCSTRM_OPEN, AVCSTRM_WRITE, avcstrm/AVCSTRM_ABORT_STREAMING, stream.avcstrm_function, avcstrm/AVCSTRM_GET_STATE, AVCSTRM_READ, AVCSTRM_ABORT_STREAMING, avcstrm/AVCSTRM_CLOSE, AVCSTRM_GET_STATE, AVCSTRM_SET_STATE, _AVCSTRM_FUNCTION, avcstrm/AVCSTRM_SET_STATE, avcstrm/AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_FUNCTION, avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, avcstrm/AVCSTRM_SET_PROPERTY, AVCSTRM_GET_PROPERTY, AVCSTRM_OPEN, avcstrm/AVCSTRM_READ, AVCSTRM_SET_PROPERTY, AVCSTRM_CLOSE, avcstrm/AVCSTRM_WRITE
+ms.keywords: avcstrm/AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_ABORT_STREAMING, AVCSTRM_SET_STATE, avcstrm/AVCSTRM_CLOSE, avcstrm/AVCSTRM_FUNCTION, avcstrm/AVCSTRM_WRITE, AVCSTRM_GET_STATE, avcstrm/AVCSTRM_SET_STATE, AVCSTRM_ABORT_STREAMING, AVCSTRM_CLOSE, avcstrm/AVCSTRM_OPEN, AVCSTRM_GET_PROPERTY, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], AVCSTRM_SET_PROPERTY, stream.avcstrm_function, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_SET_PROPERTY, AVCSTRM_FUNCTION, avcstrm/AVCSTRM_READ, AVCSTRM_OPEN, AVCSTRM_WRITE, avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, AVCSTRM_READ, _AVCSTRM_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -126,27 +126,7 @@ Set stream property. This function is not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
 
 
@@ -154,7 +134,27 @@ Set stream property. This function is not implemented.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
 
 
 

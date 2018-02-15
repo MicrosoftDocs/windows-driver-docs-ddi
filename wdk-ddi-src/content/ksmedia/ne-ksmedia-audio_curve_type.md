@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: E3CE3385-8744-4E3F-A5EF-41AC4E3E4375
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: AUDIO_CURVE_TYPE_WINDOWS_FADE, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE, audio.audio_curve_type, ksmedia/AUDIO_CURVE_TYPE, ksmedia/AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE enumeration [Audio Devices]
+ms.keywords: audio.audio_curve_type, AUDIO_CURVE_TYPE_WINDOWS_FADE, AUDIO_CURVE_TYPE, ksmedia/AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE enumeration [Audio Devices], ksmedia/AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

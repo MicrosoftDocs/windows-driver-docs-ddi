@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06A41593-A052-43A7-B3A7-02185B557FA3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.po_fx_perf_state, _PO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], wdm/PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_PERF_STATE, PO_FX_PERF_STATE, wdm/PO_FX_PERF_STATE, PPO_FX_PERF_STATE
+ms.keywords: kernel.po_fx_perf_state, wdm/PPO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], wdm/PO_FX_PERF_STATE, _PO_FX_PERF_STATE, *PPO_FX_PERF_STATE, PO_FX_PERF_STATE, PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ The <b>States</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+
+
+
+<a href="..\wdm\ne-wdm-_po_fx_perf_state_unit.md">PO_FX_PERF_STATE_UNIT</a>
 
 
 
@@ -104,7 +104,7 @@ The <b>States</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set
 
 
 
-<a href="..\wdm\ne-wdm-_po_fx_perf_state_unit.md">PO_FX_PERF_STATE_UNIT</a>
+<a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
 
 

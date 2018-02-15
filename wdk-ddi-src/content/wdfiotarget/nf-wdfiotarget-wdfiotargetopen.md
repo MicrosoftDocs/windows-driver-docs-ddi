@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6ea2e6dd-9794-4214-8fb1-db563f49b33a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetOpen, kmdf.wdfiotargetopen, DFIOTargetRef_72899f0c-58db-461c-b02c-5e99d5a0f875.xml, WdfIoTargetOpen method, wdf.wdfiotargetopen, wdfiotarget/WdfIoTargetOpen, PFN_WDFIOTARGETOPEN
+ms.keywords: DFIOTargetRef_72899f0c-58db-461c-b02c-5e99d5a0f875.xml, WdfIoTargetOpen, WdfIoTargetOpen method, wdf.wdfiotargetopen, PFN_WDFIOTARGETOPEN, kmdf.wdfiotargetopen, wdfiotarget/WdfIoTargetOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -240,7 +240,7 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetclose.md">WdfIoTargetClose</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -252,11 +252,7 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetclose.md">WdfIoTargetClose</a>
 
 
 
@@ -265,6 +261,10 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: BB182083-58F2-4706-9D6B-B581325BDD48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/, pos.linedisplaymarqueeformattype, pointofservicecommontypes/PLineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType, _LineDisplayMarqueeFormatType, pointofservicecommontypes/LineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType enumeration pointer, LineDisplayMarqueeFormatType enumeration, LineDisplayMarqueeFormatType
+ms.keywords: LineDisplayMarqueeFormatType enumeration, pointofservicecommontypes/LineDisplayMarqueeFormatType, _LineDisplayMarqueeFormatType, pos.linedisplaymarqueeformattype, PLineDisplayMarqueeFormatType, LineDisplayMarqueeFormatType, pointofservicecommontypes/, pointofservicecommontypes/PLineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType enumeration pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

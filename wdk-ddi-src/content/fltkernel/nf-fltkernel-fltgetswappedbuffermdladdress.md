@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 804263ec-8b3b-4a7c-9db4-ad524b807313
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltGetSwappedBufferMdlAddress, fltkernel/FltGetSwappedBufferMdlAddress, ifsk.fltgetswappedbuffermdladdress, FltApiRef_e_to_o_7ebd2be1-79a1-4a5a-a9ab-7ca5023eb8fc.xml, FltGetSwappedBufferMdlAddress routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltGetSwappedBufferMdlAddress, FltGetSwappedBufferMdlAddress, FltGetSwappedBufferMdlAddress routine [Installable File System Drivers], FltApiRef_e_to_o_7ebd2be1-79a1-4a5a-a9ab-7ca5023eb8fc.xml, ifsk.fltgetswappedbuffermdladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

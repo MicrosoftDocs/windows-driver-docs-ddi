@@ -190,6 +190,10 @@ The following code example shows how to color-fill a destination surface.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_present.md">D3DDDICB_PRESENT</a>
 
 
@@ -199,10 +203,6 @@ The following code example shows how to color-fill a destination surface.
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
 
 

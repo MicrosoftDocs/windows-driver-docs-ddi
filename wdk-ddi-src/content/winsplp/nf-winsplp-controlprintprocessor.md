@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a0a19747-ab39-4606-a49b-78e5e056da32
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.controlprintprocessor, winsplp/ControlPrintProcessor, ControlPrintProcessor function [Print Devices], spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, ControlPrintProcessor
+ms.keywords: ControlPrintProcessor function [Print Devices], winsplp/ControlPrintProcessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, ControlPrintProcessor, print.controlprintprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,11 +140,11 @@ Based on the value received for <i>Command</i>, the function should either pause
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
 
 
 

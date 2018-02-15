@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 12383ae0-69c8-4546-9560-08aa4a50de8e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMPIO_PATH_INFORMATION structure pointer [Storage Devices], *PMPIO_PATH_INFORMATION, storage.mpio_path_information, structs-scsibus_2000c93b-2c86-478c-a70e-89622ca40862.xml, mpiowmi/PMPIO_PATH_INFORMATION, mpiowmi/MPIO_PATH_INFORMATION, PMPIO_PATH_INFORMATION, _MPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION structure [Storage Devices]
+ms.keywords: PMPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION structure [Storage Devices], MPIO_PATH_INFORMATION, structs-scsibus_2000c93b-2c86-478c-a70e-89622ca40862.xml, *PMPIO_PATH_INFORMATION, mpiowmi/MPIO_PATH_INFORMATION, _MPIO_PATH_INFORMATION, storage.mpio_path_information, mpiowmi/PMPIO_PATH_INFORMATION, PMPIO_PATH_INFORMATION structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

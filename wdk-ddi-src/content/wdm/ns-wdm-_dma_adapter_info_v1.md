@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5BB089B8-4384-450D-BC81-9D9D068CF4EB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], wdm/DMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1, PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1"
+ms.keywords: DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1, _DMA_ADAPTER_INFO_V1, wdm/DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ A driver calls <a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInf
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER_INFO</a>
-
-
-
 <a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER_INFO</a>
 
 
 

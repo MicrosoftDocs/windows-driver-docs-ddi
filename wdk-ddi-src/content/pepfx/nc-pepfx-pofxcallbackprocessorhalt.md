@@ -40,7 +40,7 @@ apiname:
 -	ProcessorHalt
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKPROCESSORHALT callback
@@ -75,6 +75,7 @@ NTSTATUS ProcessorHalt(
 ### -param Flags [in]
 
 Flags that indicate the properties of the idle state that the processor will enter. The <i>Flags</i> parameter is set to zero or to the bitwise-OR of one or more of the following flag bits.
+
 <table>
 <tr>
 <th>Flag name</th>
@@ -106,7 +107,8 @@ Flags that indicate the properties of the idle state that the processor will ent
 <td>0x16</td>
 <td></td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Context [in, out, optional]
@@ -122,7 +124,9 @@ A pointer to a PEP-implemented <i>Halt</i> callback routine. PoFx calls this rou
 ## -returns
 
 
+
 <b>ProcessorHalt</b> returns STATUS_SUCCESS if the processor is successfully prepared to be halted. Possible error return values include the following status code.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -150,11 +154,14 @@ The PEP's <i>Halt</i> callback routine unexpectedly returned from an idle state 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>ProcessorHalt</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>ProcessorHalt</b> routine.
@@ -162,10 +169,13 @@ This routine is implemented by the power management framework (PoFx) and is call
 Before halting the processor, the PEP calls the <b>ProcessorHalt</b> routine to give PoFx an opportunity to save the processor's hardware context. If necessary, <b>ProcessorHalt</b> saves this state internally in PoFx so that the state can later be restored when the processor exits the idle state. After preparing the processor to enter the idle state, <b>ProcessorHalt</b> calls the PEP's <i>Halt</i> callback routine to halt the processor.
 
 As part of the PEP's handling of a  <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186807">PEP_NOTIFY_PPM_IDLE_EXECUTE</a> notification, the PEP must transition the processor to the idle state that the PEP has selected. The following are the two ways to enter the processor idle state:
+
 <ul>
 <li>For a processor idle state in which the processor's caches remain coherent so that all system and processor state is maintained, the PEP can enter the idle state directly without first calling <b>ProcessorHalt</b>.</li>
 <li>For a processor idle state in which the processor's caches might not remain coherent, or an idle state in which the processor hardware context is not preserved, the PEP must call <b>ProcessorHalt</b> before transitioning the processor to the idle state.</li>
-</ul>The following combinations of flag bits are illegal:
+</ul>
+The following combinations of flag bits are illegal:
+
 <ul>
 <li>
 PROCESSOR_HALT_CONTEXT_RETAINED = 1 and PROCESSOR_HALT_RETURN_NOT_SAFE = 1
@@ -191,9 +201,11 @@ PROCESSOR_HALT_CONTEXT_RETAINED = 0 and PROCESSOR_HALT_CACHE_COHERENT = 1
 Any idle states that lose processor hardware context (and therefore use the <a href="https://acpica.org/sites/acpica/files/MP Startup for ARM platforms.doc">multiprocessor parking protocol</a> to exit the idle state and return control to the operating system) are not cache-coherent states.
 
 </li>
-</ul>If the <i>Flags</i> parameter contains an illegal combination of flag bits, <b>ProcessorHalt</b> fails and returns STATUS_INVALID_PARAMETER.
+</ul>
+If the <i>Flags</i> parameter contains an illegal combination of flag bits, <b>ProcessorHalt</b> fails and returns STATUS_INVALID_PARAMETER.
 
 The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
+
 
 
 
@@ -201,7 +213,11 @@ The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186807">PEP_NOTIFY_PPM_IDLE_EXECUTE</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
+
 
  
 

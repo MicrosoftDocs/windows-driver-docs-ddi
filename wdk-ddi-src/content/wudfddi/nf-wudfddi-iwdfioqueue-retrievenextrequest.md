@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d9dbfc8-7563-4c47-9b34-27cce2b847b2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, IWDFIoQueue interface, RetrieveNextRequest method, umdf.iwdfioqueue_retrievenextrequest, wudfddi/IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest method, IWDFIoQueue interface, IWDFIoQueue, RetrieveNextRequest, IWDFIoQueue::RetrieveNextRequest, wdf.iwdfioqueue_retrievenextrequest, RetrieveNextRequest method
+ms.keywords: RetrieveNextRequest, wudfddi/IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest method, IWDFIoQueue interface, IWDFIoQueue interface, RetrieveNextRequest method, IWDFIoQueue::RetrieveNextRequest, wdf.iwdfioqueue_retrievenextrequest, IWDFIoQueue, umdf.iwdfioqueue_retrievenextrequest, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, RetrieveNextRequest method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -222,7 +222,7 @@ CMyDevice::ServiceSwitchChangeQueue(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
 
 
@@ -230,7 +230,7 @@ CMyDevice::ServiceSwitchChangeQueue(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

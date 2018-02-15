@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7a36f278-45eb-4ee9-9bdf-370c546245c0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.startserverwide, IDebugClient5::StartServerWide, IDebugClient5, StartServerWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], StartServerWide method, dbgeng/IDebugClient5::StartServerWide, StartServerWide method [Windows Debugging], IDebugClient5 interface, StartServerWide
+ms.keywords: dbgeng/IDebugClient5::StartServerWide, IDebugClient5 interface [Windows Debugging], StartServerWide method, StartServerWide method [Windows Debugging], IDebugClient5, StartServerWide, IDebugClient5::StartServerWide, StartServerWide method [Windows Debugging], IDebugClient5 interface, debugger.startserverwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,15 +117,15 @@ For more information about debugging servers, see Debugging Server and Debugging
 
 
 
+<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
-
-
-
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
 
 
 

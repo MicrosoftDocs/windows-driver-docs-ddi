@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: E29E6F8B-F708-493B-94C3-A9DEE691ED3C
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.ksaudioengine_volumelevel, KSAUDIOENGINE_VOLUMELEVEL structure [Audio Devices], PKSAUDIOENGINE_VOLUMELEVEL structure pointer [Audio Devices], PKSAUDIOENGINE_VOLUMELEVEL, ksmedia/KSAUDIOENGINE_VOLUMELEVEL, KSAUDIOENGINE_VOLUMELEVEL, *PKSAUDIOENGINE_VOLUMELEVEL, ksmedia/PKSAUDIOENGINE_VOLUMELEVEL, _tagKSAUDIOENGINE_VOLUMELEVEL
+ms.keywords: "_tagKSAUDIOENGINE_VOLUMELEVEL, PKSAUDIOENGINE_VOLUMELEVEL, PKSAUDIOENGINE_VOLUMELEVEL structure pointer [Audio Devices], *PKSAUDIOENGINE_VOLUMELEVEL, ksmedia/PKSAUDIOENGINE_VOLUMELEVEL, ksmedia/KSAUDIOENGINE_VOLUMELEVEL, KSAUDIOENGINE_VOLUMELEVEL structure [Audio Devices], audio.ksaudioengine_volumelevel, KSAUDIOENGINE_VOLUMELEVEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

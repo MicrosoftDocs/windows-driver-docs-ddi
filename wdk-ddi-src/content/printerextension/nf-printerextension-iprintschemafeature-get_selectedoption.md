@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: DEFA0559-9946-4F4D-B5DC-A0E5E872114A
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaFeature.SelectedOption, SelectedOption property [Print Devices], IPrintSchemaFeature interface, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::put_SelectedOption, IPrintSchemaFeature, get_SelectedOption, IPrintSchemaFeature::put_SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], print.iprintschemafeature_put_selectedoption, IPrintSchemaFeature interface [Print Devices], SelectedOption property
+ms.keywords: IPrintSchemaFeature interface [Print Devices], SelectedOption property, SelectedOption property [Print Devices], IPrintSchemaFeature interface, printerextension/IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature, IPrintSchemaFeature::get_SelectedOption, print.iprintschemafeature_put_selectedoption, IPrintSchemaFeature::put_SelectedOption, printerextension/IPrintSchemaFeature::put_SelectedOption, SelectedOption property [Print Devices], get_SelectedOption, IPrintSchemaFeature.SelectedOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

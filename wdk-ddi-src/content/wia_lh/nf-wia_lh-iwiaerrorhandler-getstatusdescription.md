@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c3b5622d-9d51-4008-abb0-c8a60c4a6b16
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaErrorHandler, image.iwiaerrorhandler_getstatusdescription, IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, GetStatusDescription method [Imaging Devices], IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, GetStatusDescription, wia_lh/IWiaErrorHandler::GetStatusDescription
+ms.keywords: image.iwiaerrorhandler_getstatusdescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, IWiaErrorHandler::GetStatusDescription, GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, GetStatusDescription method [Imaging Devices], IWiaErrorHandler, wia_lh/IWiaErrorHandler::GetStatusDescription, GetStatusDescription, IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

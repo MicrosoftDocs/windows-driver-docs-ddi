@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7042a08d-b45e-49f2-acd2-1f5b6146c1da
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMDevicePropertySheets function [Print Devices], OEMDevicePropertySheets, print_obsoletefunctions_50e101c3-3bd4-4966-b29d-4a10f7295835.xml, print.oemdevicepropertysheets, printoem/OEMDevicePropertySheets
+ms.keywords: printoem/OEMDevicePropertySheets, print_obsoletefunctions_50e101c3-3bd4-4966-b29d-4a10f7295835.xml, print.oemdevicepropertysheets, OEMDevicePropertySheets function [Print Devices], OEMDevicePropertySheets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

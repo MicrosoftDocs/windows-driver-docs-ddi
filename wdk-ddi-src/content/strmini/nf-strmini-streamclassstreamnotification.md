@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 67dd0ea0-9c69-415a-8b37-0e8700b6fbd8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassStreamNotification, stream.streamclassstreamnotification, strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, strmini/StreamClassStreamNotification, StreamClassStreamNotification routine [Streaming Media Devices]
+ms.keywords: StreamClassStreamNotification, strmini/StreamClassStreamNotification, strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, stream.streamclassstreamnotification, StreamClassStreamNotification routine [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,14 +129,14 @@ TBD
 
 
 
-#### - pSrb
-
-Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
-
-
 #### - EventEntry
 
 Specify only if <i>NotificationType</i> equals either <b>SignalStreamEvent</b> or <b>DeleteStreamEvent</b>. Pointer to the event to be signaled or deleted. This parameter is optional. 
+
+
+#### - EventId
+
+Indicates the event ID against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional.
 
 
 #### - EventSet
@@ -144,9 +144,9 @@ Specify only if <i>NotificationType</i> equals either <b>SignalStreamEvent</b> o
 Identifies the event set against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional. 
 
 
-#### - EventId
+#### - pSrb
 
-Indicates the event ID against which to match in the event queue for this stream. Specify only if <i>NotificationType</i> equals <b>SignalMultipleStreamEvents</b>. This parameter is optional.
+Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
 
 
 ## -returns

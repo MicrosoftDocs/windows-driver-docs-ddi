@@ -106,11 +106,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_flush_flags.md">D3D11_1_DDI_FLUSH_FLAGS</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_flush_flags.md">D3D11_1_DDI_FLUSH_FLAGS</a>
 
 
 

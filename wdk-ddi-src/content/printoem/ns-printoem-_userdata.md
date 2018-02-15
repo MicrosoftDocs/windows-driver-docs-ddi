@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5d4e5454-f44f-483a-a389-c8973263fbaa
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: USERDATA structure [Print Devices], *PUSERDATA, PUSERDATA structure pointer [Print Devices], print_unidrv-pscript_ui_d0e62306-f4b7-491e-83b3-b1e2ddaddfb5.xml, PUSERDATA, printoem/USERDATA, _USERDATA, USERDATA, print.userdata, printoem/PUSERDATA
+ms.keywords: print_unidrv-pscript_ui_d0e62306-f4b7-491e-83b3-b1e2ddaddfb5.xml, print.userdata, _USERDATA, PUSERDATA structure pointer [Print Devices], PUSERDATA, USERDATA, printoem/PUSERDATA, *PUSERDATA, USERDATA structure [Print Devices], printoem/USERDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

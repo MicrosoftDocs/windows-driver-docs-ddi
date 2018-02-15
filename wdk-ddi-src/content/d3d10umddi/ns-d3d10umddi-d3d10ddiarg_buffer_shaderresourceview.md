@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9144b167-7fa4-4854-bf0c-e98192f07db8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10ddiarg_buffer_shaderresourceview, d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_76ff32e8-1460-45a7-a63d-3c18b75a860e.xml, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW
+ms.keywords: UMDisplayDriver_Dx10param_Structs_76ff32e8-1460-45a7-a63d-3c18b75a860e.xml, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure [Display Devices], d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, display.d3d10ddiarg_buffer_shaderresourceview, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

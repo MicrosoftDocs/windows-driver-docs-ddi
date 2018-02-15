@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_commitvidpn_flags, DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, _DXGKARG_COMMITVIDPN_FLAGS
+ms.keywords: DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, _DXGKARG_COMMITVIDPN_FLAGS, display.dxgkarg_commitvidpn_flags, DXGKARG_COMMITVIDPN_FLAGS, d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -121,11 +121,11 @@ If a system resume operation is triggered after monitors were turned off for a s
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
 
 
 

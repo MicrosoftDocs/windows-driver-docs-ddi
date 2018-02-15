@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 95b2f2ff-b98f-4210-9a4f-898573679aa7
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], KSDSOUND_BUFFERDESC structure [Audio Devices], *PKSDSOUND_BUFFERDESC, audio.ksdsound_bufferdesc, KSDSOUND_BUFFERDESC, PKSDSOUND_BUFFERDESC, ksmedia/PKSDSOUND_BUFFERDESC, ksmedia/KSDSOUND_BUFFERDESC, aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml
+ms.keywords: PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], KSDSOUND_BUFFERDESC structure [Audio Devices], *PKSDSOUND_BUFFERDESC, ksmedia/KSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC, audio.ksdsound_bufferdesc, aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, PKSDSOUND_BUFFERDESC, ksmedia/PKSDSOUND_BUFFERDESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -161,7 +161,7 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537190">KSNODETYPE_SRC</a>
+<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
 
 
 
@@ -169,7 +169,11 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
 
 
 
@@ -181,15 +185,11 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 
 
-<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537190">KSNODETYPE_SRC</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>
 
 
 

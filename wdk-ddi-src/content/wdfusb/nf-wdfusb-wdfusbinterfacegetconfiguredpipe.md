@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0836a969-e484-485f-9b65-202c177b4f43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbinterfacegetconfiguredpipe, WdfUsbInterfaceGetConfiguredPipe, DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, PFN_WDFUSBINTERFACEGETCONFIGUREDPIPE
+ms.keywords: WdfUsbInterfaceGetConfiguredPipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe, DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, wdf.wdfusbinterfacegetconfiguredpipe, PFN_WDFUSBINTERFACEGETCONFIGUREDPIPE, kmdf.wdfusbinterfacegetconfiguredpipe, WdfUsbInterfaceGetConfiguredPipe method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,11 +152,11 @@ for (i = 0; i &lt; count; i++) {
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetnumconfiguredpipes.md">WdfUsbInterfaceGetNumConfiguredPipes</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 
 

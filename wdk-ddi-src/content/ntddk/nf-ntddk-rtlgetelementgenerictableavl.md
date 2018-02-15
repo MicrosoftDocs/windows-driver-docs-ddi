@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c836dd4b-5c66-4302-9b2a-115cec418533
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rtlref_c94e774b-baba-4be7-be6d-09b01544612b.xml, ntddk/RtlGetElementGenericTableAvl, RtlGetElementGenericTableAvl, ifsk.rtlgetelementgenerictableavl, RtlGetElementGenericTableAvl routine [Installable File System Drivers]
+ms.keywords: rtlref_c94e774b-baba-4be7-be6d-09b01544612b.xml, ntddk/RtlGetElementGenericTableAvl, RtlGetElementGenericTableAvl, RtlGetElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlgetelementgenerictableavl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,7 +110,15 @@ Callers of <b>RtlGetElementGenericTableAvl</b> must be running at IRQL &lt; DISP
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
 
 
 
@@ -122,15 +130,7 @@ Callers of <b>RtlGetElementGenericTableAvl</b> must be running at IRQL &lt; DISP
 
 
 
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplayingavl.md">RtlEnumerateGenericTableWithoutSplayingAvl</a>
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
 
 
 

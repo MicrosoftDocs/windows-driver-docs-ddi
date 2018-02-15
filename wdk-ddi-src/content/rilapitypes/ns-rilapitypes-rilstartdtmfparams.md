@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 51f6ea96-412a-429f-993b-de31f77f4d30
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSTARTDTMFPARAMS, rilapitypes/RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams_2
+ms.keywords: "*LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, rilapitypes/RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

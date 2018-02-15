@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b752a764-1f7d-4768-9fa2-c8976560f840
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml, wdm/RtlCheckRegistryKey, kernel.rtlcheckregistrykey, RtlCheckRegistryKey
+ms.keywords: RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], wdm/RtlCheckRegistryKey, k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml, kernel.rtlcheckregistrykey, RtlCheckRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9129e776-b5d0-4f53-b2be-67e593369c6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Escape method [Imaging Devices], IStiUSD interface, Escape, IStiUSD interface [Imaging Devices], Escape method, IStiUSD::Escape, image.istiusd_escape, IStiUSD, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, stiusd/IStiUSD::Escape, Escape method [Imaging Devices]
+ms.keywords: image.istiusd_escape, IStiUSD::Escape, Escape method [Imaging Devices], IStiUSD interface, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, Escape method [Imaging Devices], IStiUSD, stiusd/IStiUSD::Escape, IStiUSD interface [Imaging Devices], Escape method, Escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

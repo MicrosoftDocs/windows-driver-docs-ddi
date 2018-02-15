@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 4B5301B6-8C10-4C8E-A9D2-28D2484A907A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SerCxProgressTransmit, serports.sercxprogresstransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports]
+ms.keywords: serports.sercxprogresstransmit, SerCxProgressTransmit method [Serial Ports], 1/SerCxProgressTransmit, SerCxProgressTransmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

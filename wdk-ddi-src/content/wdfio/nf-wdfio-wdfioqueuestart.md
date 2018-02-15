@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ce8a447-6205-44d0-b5d2-b78f01e15bb4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoQueueStart method, wdfio/WdfIoQueueStart, wdf.wdfioqueuestart, PFN_WDFIOQUEUESTART, kmdf.wdfioqueuestart, WdfIoQueueStart, DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml
+ms.keywords: wdf.wdfioqueuestart, WdfIoQueueStart method, wdfio/WdfIoQueueStart, kmdf.wdfioqueuestart, DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, WdfIoQueueStart, PFN_WDFIOQUEUESTART
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

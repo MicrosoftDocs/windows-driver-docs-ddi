@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 75a0e9ef-0791-4465-b671-36c86dc9116a
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.ucmtcpci_driver_globals, UCMTCPCI_DRIVER_GLOBALS structure [Buses], *PUCMTCPCI_DRIVER_GLOBALS, ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS, _UCMTCPCI_DRIVER_GLOBALS
+ms.keywords: "_UCMTCPCI_DRIVER_GLOBALS, ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS, buses.ucmtcpci_driver_globals, UCMTCPCI_DRIVER_GLOBALS structure [Buses], UCMTCPCI_DRIVER_GLOBALS, *PUCMTCPCI_DRIVER_GLOBALS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 28363041-4adc-4348-a1a5-2b9c11750286
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILACCESSTECHNOLOGY, ntddrilapitypes/RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY, netvista.rilaccesstechnology, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista]"
+ms.keywords: RILACCESSTECHNOLOGY, netvista.rilaccesstechnology, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,11 +122,11 @@ typedef struct _RILACCESSTECHNOLOGY {
 #### - dwGsmKind
 
 
-#### - dwUmtsKind
+#### - dwLteKind
 
 
 #### - dwTdscdmaKind
 
 
-#### - dwLteKind
+#### - dwUmtsKind
 

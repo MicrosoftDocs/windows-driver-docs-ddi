@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ad24f1b4-ac7f-46df-8f8d-14c956c73a34
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOTARGETWDMGETTARGETPHYSICALDEVICE, DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, wdf.wdfiotargetwdmgettargetphysicaldevice, kmdf.wdfiotargetwdmgettargetphysicaldevice
+ms.keywords: kmdf.wdfiotargetwdmgettargetphysicaldevice, WdfIoTargetWdmGetTargetPhysicalDevice method, wdf.wdfiotargetwdmgettargetphysicaldevice, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice, DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, WdfIoTargetWdmGetTargetPhysicalDevice, PFN_WDFIOTARGETWDMGETTARGETPHYSICALDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ad95d11e-c170-4c21-a498-45e38f41cbbb
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "_DOCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE, winddiui/DOCEVENT_CREATEDCPRE, print.docevent_createdcpre, winddiui/PDCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE structure pointer [Print Devices], DOCEVENT_CREATEDCPRE structure [Print Devices], print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml"
+ms.keywords: print.docevent_createdcpre, _DOCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE structure pointer [Print Devices], DOCEVENT_CREATEDCPRE structure [Print Devices], DOCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE, *PDCEVENT_CREATEDCPRE, winddiui/DOCEVENT_CREATEDCPRE, print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml, winddiui/PDCEVENT_CREATEDCPRE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,11 +104,11 @@ This structure is used in conjunction with a call to <a href="..\winddiui\nf-win
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554141">IPrintOemUI2::DocumentEvent</a>
 
 
 

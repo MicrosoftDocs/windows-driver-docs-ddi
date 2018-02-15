@@ -121,7 +121,7 @@ The value of <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than t
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_device_caps.md">IOCTL_PAR_GET_DEVICE_CAPS</a>
+<a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PARCLASS_NEGOTIATION_MASK</a>
 
 
 
@@ -129,7 +129,7 @@ The value of <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than t
 
 
 
-<a href="..\ntddpar\ns-ntddpar-_parclass_negotiation_mask.md">PARCLASS_NEGOTIATION_MASK</a>
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_device_caps.md">IOCTL_PAR_GET_DEVICE_CAPS</a>
 
 
 

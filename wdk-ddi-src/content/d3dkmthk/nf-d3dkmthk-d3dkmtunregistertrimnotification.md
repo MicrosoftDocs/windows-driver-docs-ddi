@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C90A5200-F6AF-4B7B-BB66-D76D4C3AA8EE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTUnregisterTrimNotification, display.d3dkmtunregistertrimnotification, D3DKMTUnregisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTUnregisterTrimNotification
+ms.keywords: d3dkmthk/D3DKMTUnregisterTrimNotification, D3DKMTUnregisterTrimNotification function [Display Devices], display.d3dkmtunregistertrimnotification, D3DKMTUnregisterTrimNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,11 +120,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unregistertrimnotification.md">D3DKMT_UNREGISTERTRIMNOTIFICATION</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unregistertrimnotification.md">D3DKMT_UNREGISTERTRIMNOTIFICATION</a>
 
 
 

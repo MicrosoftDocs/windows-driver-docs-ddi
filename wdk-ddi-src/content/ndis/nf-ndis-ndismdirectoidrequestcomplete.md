@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11b8d4ed-54c8-4c64-ba9d-2a6fc1b22724
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], NdisMDirectOidRequestComplete, ndis_request_direct_ref_5f09825b-962f-41a9-b25d-e21c20e23249.xml, netvista.ndismdirectoidrequestcomplete, ndis/NdisMDirectOidRequestComplete
+ms.keywords: ndis_request_direct_ref_5f09825b-962f-41a9-b25d-e21c20e23249.xml, ndis/NdisMDirectOidRequestComplete, NdisMDirectOidRequestComplete, netvista.ndismdirectoidrequestcomplete, NdisMDirectOidRequestComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,8 +128,7 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
-   FilterDirectOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
 
 
 
@@ -137,12 +136,13 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 
 
+<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+   FilterDirectOidRequestComplete</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
    ProtocolDirectOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
 
 
 

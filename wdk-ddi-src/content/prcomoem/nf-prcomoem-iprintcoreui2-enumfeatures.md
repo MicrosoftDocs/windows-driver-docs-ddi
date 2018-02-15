@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreUI2, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml, print.iprintcoreui2_enumfeatures, EnumFeatures method [Print Devices], IPrintCoreUI2 interface, EnumFeatures method [Print Devices], IPrintCoreUI2 interface [Print Devices], EnumFeatures method, IPrintCoreUI2::EnumFeatures, EnumFeatures, prcomoem/IPrintCoreUI2::EnumFeatures
+ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml, IPrintCoreUI2::EnumFeatures, IPrintCoreUI2 interface [Print Devices], EnumFeatures method, print.iprintcoreui2_enumfeatures, EnumFeatures method [Print Devices], IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::EnumFeatures, IPrintCoreUI2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

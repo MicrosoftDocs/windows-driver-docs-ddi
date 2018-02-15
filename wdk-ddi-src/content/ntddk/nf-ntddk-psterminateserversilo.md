@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C19190A3-57F9-4482-A550-045805734909
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], kernel.psterminateserversilo, ntddk/PsTerminateServerSilo, PsTerminateServerSilo
+ms.keywords: PsTerminateServerSilo, PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], ntddk/PsTerminateServerSilo, kernel.psterminateserversilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

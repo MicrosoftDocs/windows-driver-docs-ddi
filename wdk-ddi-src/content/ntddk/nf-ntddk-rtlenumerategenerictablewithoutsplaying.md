@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 28dacbac-99f0-415d-8d4f-954220839078
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlenumerategenerictablewithoutsplaying, rtlref_83b2461b-003b-4aee-be45-afb325b15219.xml, ntddk/RtlEnumerateGenericTableWithoutSplaying, RtlEnumerateGenericTableWithoutSplaying, RtlEnumerateGenericTableWithoutSplaying routine [Installable File System Drivers]
+ms.keywords: rtlref_83b2461b-003b-4aee-be45-afb325b15219.xml, ifsk.rtlenumerategenerictablewithoutsplaying, ntddk/RtlEnumerateGenericTableWithoutSplaying, RtlEnumerateGenericTableWithoutSplaying, RtlEnumerateGenericTableWithoutSplaying routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,7 +131,7 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplaying</b> must be running at IRQ
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
 
 
 
@@ -139,7 +139,7 @@ Callers of <b>RtlEnumerateGenericTableWithoutSplaying</b> must be running at IRQ
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictable.md">RtlEnumerateGenericTable</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1a605eed-d9a1-4a2f-a095-3e790061527b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IrqPolicySpreadMessagesAcrossAllProcessors, IrqPolicyAllCloseProcessors, *PIRQ_DEVICE_POLICY, wdm/IRQ_DEVICE_POLICY, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyOneCloseProcessor, PIRQ_DEVICE_POLICY, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, IrqPolicySpreadMessagesAcrossAllProcessors, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPolicySpecifiedProcessors, IrqPolicyMachineDefault, IrqPolicyAllProcessorsInMachine, IRQ_DEVICE_POLICY, wdm/PIRQ_DEVICE_POLICY, wdm/IrqPolicyMachineDefault, IrqPolicyOneCloseProcessor, IrqPolicySpecifiedProcessors, wdm/IrqPolicyAllCloseProcessors, _IRQ_DEVICE_POLICY, kernel.irq_device_policy
+ms.keywords: IRQ_DEVICE_POLICY, wdm/IrqPolicyOneCloseProcessor, IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyMachineDefault, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPolicySpecifiedProcessors, wdm/PIRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY, IrqPolicyMachineDefault, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyAllProcessorsInMachine, _IRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY, IrqPolicySpecifiedProcessors, IrqPolicyOneCloseProcessor, kernel.irq_device_policy, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, IrqPolicyAllCloseProcessors, wdm/IrqPolicyAllCloseProcessors, wdm/IRQ_DEVICE_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

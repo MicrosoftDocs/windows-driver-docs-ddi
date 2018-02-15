@@ -109,15 +109,15 @@ The <i>PnpGetLocationString</i> routine calls a routine such as <a href="..\wdm\
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a>
-
-
-
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a>
 
 
 

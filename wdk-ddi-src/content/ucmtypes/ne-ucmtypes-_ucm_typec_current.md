@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5A603C0E-BBB8-4909-B7B0-EAADF428CB5F
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucmtypes/UcmTypeCCurrent1500mA, UCM_TYPEC_CURRENT, UCM_TYPEC_CURRENT enumeration [Buses], ucmtypes/UcmTypeCCurrentInvalid, UcmTypeCCurrentDefaultUsb, _UCM_TYPEC_CURRENT, UcmTypeCCurrentInvalid, ucmtypes/UCM_TYPEC_CURRENT, UcmTypeCCurrent3000mA, ucmtypes/UcmTypeCCurrent3000mA, UcmTypeCCurrent1500mA, buses.ucm_type_c_current, ucmtypes/UcmTypeCCurrentDefaultUsb
+ms.keywords: UcmTypeCCurrentDefaultUsb, UCM_TYPEC_CURRENT enumeration [Buses], UcmTypeCCurrent1500mA, UcmTypeCCurrent3000mA, ucmtypes/UCM_TYPEC_CURRENT, _UCM_TYPEC_CURRENT, buses.ucm_type_c_current, UcmTypeCCurrentInvalid, ucmtypes/UcmTypeCCurrentDefaultUsb, ucmtypes/UcmTypeCCurrent1500mA, UCM_TYPEC_CURRENT, ucmtypes/UcmTypeCCurrentInvalid, ucmtypes/UcmTypeCCurrent3000mA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,11 +93,11 @@ Indicates the power sourcing current is 3000 mA.
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
-
-
-
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypeccurrentadchanged.md">UcmConnectorTypeCCurrentAdChanged</a>
+
+
+
+<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 

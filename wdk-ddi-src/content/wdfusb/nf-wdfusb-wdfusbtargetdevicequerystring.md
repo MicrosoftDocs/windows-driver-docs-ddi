@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e7b25a47-e197-4670-9907-409d5aeb5462
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEQUERYSTRING, WdfUsbTargetDeviceQueryString, wdf.wdfusbtargetdevicequerystring, WdfUsbTargetDeviceQueryString method, DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, kmdf.wdfusbtargetdevicequerystring, wdfusb/WdfUsbTargetDeviceQueryString
+ms.keywords: WdfUsbTargetDeviceQueryString method, wdf.wdfusbtargetdevicequerystring, PFN_WDFUSBTARGETDEVICEQUERYSTRING, DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, kmdf.wdfusbtargetdevicequerystring, WdfUsbTargetDeviceQueryString, wdfusb/WdfUsbTargetDeviceQueryString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -267,15 +267,11 @@ status = WdfUsbTargetDeviceQueryString(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
-
-
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
 
 
 
@@ -283,7 +279,7 @@ status = WdfUsbTargetDeviceQueryString(
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
@@ -292,6 +288,10 @@ status = WdfUsbTargetDeviceQueryString(
 
 
 <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 

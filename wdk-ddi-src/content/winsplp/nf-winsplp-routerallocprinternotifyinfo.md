@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml, winsplp/RouterAllocPrinterNotifyInfo, print.routerallocprinternotifyinfo, RouterAllocPrinterNotifyInfo, RouterAllocPrinterNotifyInfo function [Print Devices]
+ms.keywords: spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml, RouterAllocPrinterNotifyInfo function [Print Devices], winsplp/RouterAllocPrinterNotifyInfo, print.routerallocprinternotifyinfo, RouterAllocPrinterNotifyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

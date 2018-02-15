@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltRegisterForDataScan, FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], ifsk.fltregisterfordatascan
+ms.keywords: FltRegisterForDataScan, ifsk.fltregisterfordatascan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ If <b>STATUS_NOT_SUPPORTED</b> is returned by <b>FltRegisterForDataScan</b>, a m
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlcreatesectionfordatascan.md">FsRtlCreateSectionForDataScan</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltclosesectionfordatascan.md">FltCloseSectionForDataScan</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlcreatesectionfordatascan.md">FsRtlCreateSectionForDataScan</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5a71a8e9-323e-4f14-8c97-d6ce4e9bfe65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumberpseudoregisters, GetNumberPseudoRegisters method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_e12950ac-f9b2-4ed2-9ce1-bc3088b65ef1.xml, IDebugRegisters2::GetNumberPseudoRegisters, IDebugRegisters2, GetNumberPseudoRegisters, GetNumberPseudoRegisters method [Windows Debugging], dbgeng/IDebugRegisters2::GetNumberPseudoRegisters, IDebugRegisters2 interface [Windows Debugging], GetNumberPseudoRegisters method
+ms.keywords: GetNumberPseudoRegisters method [Windows Debugging], GetNumberPseudoRegisters method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], GetNumberPseudoRegisters method, dbgeng/IDebugRegisters2::GetNumberPseudoRegisters, IDebugRegisters_e12950ac-f9b2-4ed2-9ce1-bc3088b65ef1.xml, IDebugRegisters2, debugger.getnumberpseudoregisters, IDebugRegisters2::GetNumberPseudoRegisters, GetNumberPseudoRegisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 469896b3-3ae0-4edd-9fb0-ee5869633872
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.message_interrupt_information, MESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION, _MESSAGE_INTERRUPT_INFORMATION, storport/MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], *PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices]
+ms.keywords: MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], storport/MESSAGE_INTERRUPT_INFORMATION, *PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION, _MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], PMESSAGE_INTERRUPT_INFORMATION, storage.message_interrupt_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 21B370C9-BDF7-42A6-B0CC-BC9B19F9D2D5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterExtensionContext, IPrinterExtensionContext::get_UserProperties, UserProperties property [Print Devices], IPrinterExtensionContext interface, printerextension/IPrinterExtensionContext::UserProperties, UserProperties property [Print Devices], IPrinterScriptContext, IPrinterScriptContext::get_UserProperties, get_UserProperties, printerextension/IPrinterExtensionContext::get_UserProperties, print.iprinterextensioncontext_userproperties, IPrinterExtensionContext interface [Print Devices], UserProperties property, IPrinterExtensionContext.UserProperties
+ms.keywords: IPrinterExtensionContext interface [Print Devices], UserProperties property, IPrinterExtensionContext.UserProperties, IPrinterScriptContext, printerextension/IPrinterExtensionContext::get_UserProperties, printerextension/IPrinterExtensionContext::UserProperties, get_UserProperties, IPrinterExtensionContext::get_UserProperties, IPrinterExtensionContext, print.iprinterextensioncontext_userproperties, UserProperties property [Print Devices], UserProperties property [Print Devices], IPrinterExtensionContext interface, IPrinterScriptContext::get_UserProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_UserProperties(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 

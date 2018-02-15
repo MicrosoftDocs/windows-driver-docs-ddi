@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 94dc7a87-83a0-419d-914c-008d797fec87
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemovePersistentLogin_IN structure [Storage Devices], *PRemovePersistentLogin_IN, storage.removepersistentlogin_in, _RemovePersistentLogin_IN, structs-iSCSI_4972aa6c-a6a5-4409-a714-49693f679fa2.xml, RemovePersistentLogin_IN, PRemovePersistentLogin_IN, iscsiop/RemovePersistentLogin_IN, PRemovePersistentLogin_IN structure pointer [Storage Devices], iscsiop/PRemovePersistentLogin_IN
+ms.keywords: "_RemovePersistentLogin_IN, *PRemovePersistentLogin_IN, RemovePersistentLogin_IN, storage.removepersistentlogin_in, RemovePersistentLogin_IN structure [Storage Devices], PRemovePersistentLogin_IN, PRemovePersistentLogin_IN structure pointer [Storage Devices], iscsiop/PRemovePersistentLogin_IN, iscsiop/RemovePersistentLogin_IN, structs-iSCSI_4972aa6c-a6a5-4409-a714-49693f679fa2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,11 +99,11 @@ You must implement this method.
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-
-
-
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 

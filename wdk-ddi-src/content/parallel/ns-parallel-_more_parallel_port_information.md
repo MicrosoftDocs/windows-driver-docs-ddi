@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: b21bfbce-5436-4865-b291-2e55abc4aad1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: MORE_PARALLEL_PORT_INFORMATION structure [Parallel Ports], MORE_PARALLEL_PORT_INFORMATION, _MORE_PARALLEL_PORT_INFORMATION, PMORE_PARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], parports.more_parallel_port_information, *PMORE_PARALLEL_PORT_INFORMATION, parallel/MORE_PARALLEL_PORT_INFORMATION, parallel/PMORE_PARALLEL_PORT_INFORMATION, cisspd_0a671b2f-443c-4373-aeb0-8bf59c1d836b.xml, PMORE_PARALLEL_PORT_INFORMATION
+ms.keywords: parallel/PMORE_PARALLEL_PORT_INFORMATION, MORE_PARALLEL_PORT_INFORMATION, cisspd_0a671b2f-443c-4373-aeb0-8bf59c1d836b.xml, MORE_PARALLEL_PORT_INFORMATION structure [Parallel Ports], PMORE_PARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], _MORE_PARALLEL_PORT_INFORMATION, parallel/MORE_PARALLEL_PORT_INFORMATION, PMORE_PARALLEL_PORT_INFORMATION, *PMORE_PARALLEL_PORT_INFORMATION, parports.more_parallel_port_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,19 +115,11 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
-
-
-
 <a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
 
 
 
-<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 
 
@@ -135,7 +127,15 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 
 
+<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
+
+
+
 <a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
 
 
 

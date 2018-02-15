@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: eb3aa7ec-65f7-4e3d-8059-e9627de9818c
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IRegistryKey interface [Audio Devices], QueryRegistryValues method, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, portcls/IRegistryKey::QueryRegistryValues, IRegistryKey::QueryRegistryValues, QueryRegistryValues method [Audio Devices], QueryRegistryValues method [Audio Devices], IRegistryKey interface, audio.iregistrykey_queryregistryvalues, QueryRegistryValues, IRegistryKey
+ms.keywords: audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, IRegistryKey::QueryRegistryValues, QueryRegistryValues, IRegistryKey interface [Audio Devices], QueryRegistryValues method, IRegistryKey, portcls/IRegistryKey::QueryRegistryValues, QueryRegistryValues method [Audio Devices], QueryRegistryValues method [Audio Devices], IRegistryKey interface, audio.iregistrykey_queryregistryvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -130,11 +130,11 @@ The <i>QueryTable</i> parameter points to an array of RTL_QUERY_REGISTRY_TABLE s
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
+
+
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 

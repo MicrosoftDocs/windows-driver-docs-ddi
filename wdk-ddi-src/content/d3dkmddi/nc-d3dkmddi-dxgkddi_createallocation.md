@@ -84,7 +84,9 @@ NTSTATUS APIENTRY DxgkDdiCreateAllocation(
 ## -returns
 
 
+
 <i>DxgkDdiCreateAllocation</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -136,11 +138,14 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 After the user-mode display driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function, the DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiCreateAllocation</i> function to create the allocations. The display miniport driver must interpret the private data (in the <b>pPrivateDriverData</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure for each allocation) that is passed from the user-mode display driver and must determine the list of parameters that are required to create each allocation through the video memory manager. For more information about how the display miniport driver supplies these parameters to the video memory manager, see <a href="https://msdn.microsoft.com/31bfbfd9-89e5-42fe-90bc-8ff54bac4f8b">Specifying Segments When Creating Allocations</a>. 
@@ -156,25 +161,42 @@ Beginning with Windows 7, if a display miniport driver processes a call to the <
 The resources that are created in the <i>DxgkDdiCreateAllocation</i> call belong to the adapter and not to the device. The display miniport driver should not reference the device data anywhere within the private allocation and resource data structures. Because of surface sharing, a resource might be in use after the destruction of the device that the user-mode display driver created the resource from. 
 
 <i>DxgkDdiCreateAllocation</i> should be made pageable.
-<h3><a id="Allocating_history_buffers"></a><a id="allocating_history_buffers"></a><a id="ALLOCATING_HISTORY_BUFFERS"></a>Allocating history buffers</h3>Starting in Windows 8.1, when <i>DxgkDdiCreateAllocation</i> is called, the display miniport driver can set the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>.<b>HistoryBuffer</b> member to indicate that the user-mode driver can manage the creation and destruction of history buffers.
+
+<h3><a id="Allocating_history_buffers"></a><a id="allocating_history_buffers"></a><a id="ALLOCATING_HISTORY_BUFFERS"></a>Allocating history buffers</h3>
+Starting in Windows 8.1, when <i>DxgkDdiCreateAllocation</i> is called, the display miniport driver can set the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>.<b>HistoryBuffer</b> member to indicate that the user-mode driver can manage the creation and destruction of history buffers.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+
 
  
 

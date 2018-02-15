@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ad9410a-f3ec-445a-b509-7666a81e1427
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, wudfddi/IWDFIoQueue::Stop, IWDFIoQueue interface, Stop method, umdf.iwdfioqueue_stop, Stop method, IWDFIoQueue, Stop, IWDFIoQueue::Stop, Stop method, IWDFIoQueue interface, wdf.iwdfioqueue_stop
+ms.keywords: umdf.iwdfioqueue_stop, Stop method, IWDFIoQueue interface, Stop method, Stop, IWDFIoQueue, wudfddi/IWDFIoQueue::Stop, IWDFIoQueue interface, Stop method, wdf.iwdfioqueue_stop, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, IWDFIoQueue::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,11 +123,11 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

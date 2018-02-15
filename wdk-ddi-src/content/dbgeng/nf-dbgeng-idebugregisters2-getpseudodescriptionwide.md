@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fcf2409a-aedf-4de3-ad17-7edbc810f7be
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2 interface [Windows Debugging], GetPseudoDescriptionWide method, IDebugRegisters2::GetPseudoDescriptionWide, GetPseudoDescriptionWide, dbgeng/IDebugRegisters2::GetPseudoDescriptionWide, GetPseudoDescriptionWide method [Windows Debugging], IDebugRegisters2, GetPseudoDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, debugger.getpseudodescriptionwide
+ms.keywords: GetPseudoDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetPseudoDescriptionWide, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescriptionWide method, IDebugRegisters2::GetPseudoDescriptionWide, GetPseudoDescriptionWide method [Windows Debugging], debugger.getpseudodescriptionwide, GetPseudoDescriptionWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

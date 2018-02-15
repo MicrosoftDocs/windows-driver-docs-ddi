@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F970A7FB-DF6F-414B-8B4B-C7E4C5C620B1
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbioctl/USB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], *PUSB_PROTOCOLS, buses.usb_protocols, USB_PROTOCOLS, PUSB_PROTOCOLS, USB_PROTOCOLS union [Buses], usbioctl/PUSB_PROTOCOLS, _USB_PROTOCOLS
+ms.keywords: USB_PROTOCOLS union [Buses], USB_PROTOCOLS, usbioctl/USB_PROTOCOLS, _USB_PROTOCOLS, usbioctl/PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], buses.usb_protocols, *PUSB_PROTOCOLS, PUSB_PROTOCOLS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ Reserved. Do not use.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex_v2.md">USB_NODE_CONNECTION_INFORMATION_EX_V2</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
 
 
 

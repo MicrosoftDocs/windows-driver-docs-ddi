@@ -294,7 +294,7 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);</pre>
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a>
 
 
 
@@ -306,7 +306,7 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);</pre>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceunmap.md">ResourceUnmap</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
 
 
 
@@ -318,7 +318,7 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);</pre>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 

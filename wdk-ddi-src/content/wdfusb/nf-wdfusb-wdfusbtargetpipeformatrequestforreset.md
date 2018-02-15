@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10f5296c-6be2-4f88-952b-b23e518b844a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetpipeformatrequestforreset, wdfusb/WdfUsbTargetPipeFormatRequestForReset, wdf.wdfusbtargetpipeformatrequestforreset, DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORRESET, WdfUsbTargetPipeFormatRequestForReset method, WdfUsbTargetPipeFormatRequestForReset
+ms.keywords: DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml, wdf.wdfusbtargetpipeformatrequestforreset, wdfusb/WdfUsbTargetPipeFormatRequestForReset, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORRESET, WdfUsbTargetPipeFormatRequestForReset, kmdf.wdfusbtargetpipeformatrequestforreset, WdfUsbTargetPipeFormatRequestForReset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

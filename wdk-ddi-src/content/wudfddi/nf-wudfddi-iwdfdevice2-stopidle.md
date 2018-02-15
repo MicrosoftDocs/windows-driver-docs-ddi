@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: StopIdle method, wudfddi/IWDFDevice2::StopIdle, umdf.iwdfdevice2_stopidle, StopIdle method, IWDFDevice2 interface, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, IWDFDevice2 interface, StopIdle method, StopIdle, IWDFDevice2::StopIdle, IWDFDevice2, wdf.iwdfdevice2_stopidle
+ms.keywords: wudfddi/IWDFDevice2::StopIdle, IWDFDevice2 interface, StopIdle method, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, StopIdle method, IWDFDevice2 interface, wdf.iwdfdevice2_stopidle, IWDFDevice2::StopIdle, umdf.iwdfdevice2_stopidle, StopIdle, StopIdle method, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -182,11 +182,11 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76568167-283C-4966-B7FC-0E8CDCD19B60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, kernel.pep_acpi_initialize_spb_spi_resource
+ms.keywords: PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, kernel.pep_acpi_initialize_spb_spi_resource, PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

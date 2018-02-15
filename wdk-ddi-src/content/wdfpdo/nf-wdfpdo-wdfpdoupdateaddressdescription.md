@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPdoUpdateAddressDescription method, PFN_WDFPDOUPDATEADDRESSDESCRIPTION, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription, DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription
+ms.keywords: kmdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, PFN_WDFPDOUPDATEADDRESSDESCRIPTION, DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, wdf.wdfpdoupdateaddressdescription, WdfPdoUpdateAddressDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

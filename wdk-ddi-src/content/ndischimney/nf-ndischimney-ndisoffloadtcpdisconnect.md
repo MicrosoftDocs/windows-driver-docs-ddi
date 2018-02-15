@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8abff30-b641-4581-8532-8292993ca9f6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisOffloadTcpDisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml, ndischimney/NdisOffloadTcpDisconnect, netvista.ndisoffloadtcpdisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndischimney/NdisOffloadTcpDisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml, NdisOffloadTcpDisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,17 +173,8 @@ When the underlying driver or offload target subsequently completes the disconne
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
-   ProtocolTcpOffloadDisconnectComplete</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
    NdisTcpOffloadDisconnectComplete</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 
 
@@ -191,12 +182,21 @@ When the underlying driver or offload target subsequently completes the disconne
 
 
 
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+   MiniportTcpOffloadDisconnect</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
+   ProtocolTcpOffloadDisconnectComplete</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
-   MiniportTcpOffloadDisconnect</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 
 

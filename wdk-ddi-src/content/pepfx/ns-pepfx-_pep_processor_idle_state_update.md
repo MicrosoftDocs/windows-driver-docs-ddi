@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A05617FB-5105-4FCA-807F-C49F32BD1399
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_processor_idle_state_update, PEP_PROCESSOR_IDLE_STATE_UPDATE, PPEP_PROCESSOR_IDLE_STATE_UPDATE, _PEP_PROCESSOR_IDLE_STATE_UPDATE, PPEP_PROCESSOR_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], PEP_PROCESSOR_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], *PPEP_PROCESSOR_IDLE_STATE_UPDATE, pepfx/PEP_PROCESSOR_IDLE_STATE_UPDATE, pepfx/PPEP_PROCESSOR_IDLE_STATE_UPDATE
+ms.keywords: PEP_PROCESSOR_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PROCESSOR_IDLE_STATE_UPDATE, PEP_PROCESSOR_IDLE_STATE_UPDATE, PPEP_PROCESSOR_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_processor_idle_state_update, pepfx/PPEP_PROCESSOR_IDLE_STATE_UPDATE, _PEP_PROCESSOR_IDLE_STATE_UPDATE, *PPEP_PROCESSOR_IDLE_STATE_UPDATE, PPEP_PROCESSOR_IDLE_STATE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

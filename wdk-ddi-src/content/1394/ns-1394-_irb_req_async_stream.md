@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 9E4958B0-066F-4485-AFF2-3AE499AF3E64
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM structure [Buses], IEEE.irb_req_async_stream, 1394/IRB_REQ_ASYNC_STREAM"
+ms.keywords: IRB_REQ_ASYNC_STREAM structure [Buses], _IRB_REQ_ASYNC_STREAM, IRB_REQ_ASYNC_STREAM, 1394/IRB_REQ_ASYNC_STREAM, IEEE.irb_req_async_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

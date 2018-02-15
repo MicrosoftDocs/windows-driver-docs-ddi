@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AC84B27B-6FBF-429D-A8FA-F3C8F583F738
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FilterSynchronousOidRequest function [Network Drivers Starting with Windows Vista], FilterSynchronousOidRequest, ndis/FilterSynchronousOidRequest, netvista.filter_synchronous_oid_request, FILTER_SYNCHRONOUS_OID_REQUEST
+ms.keywords: ndis/FilterSynchronousOidRequest, FilterSynchronousOidRequest, FilterSynchronousOidRequest function [Network Drivers Starting with Windows Vista], FILTER_SYNCHRONOUS_OID_REQUEST, netvista.filter_synchronous_oid_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 325E5717-6B84-45AE-85D4-BA1839DB76A2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics, *PNDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS
+ms.keywords: PNDIS_MINIPORT_SS_CHARACTERISTICS, ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics, _NDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -128,15 +128,11 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
 
 
 
@@ -144,7 +140,11 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 

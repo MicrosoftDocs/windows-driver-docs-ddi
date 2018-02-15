@@ -40,7 +40,7 @@ apiname:
 -	pfnFinishSessionKeyRefresh
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_FINISHSESSIONKEYREFRESH callback
@@ -86,20 +86,26 @@ A handle to the driver's private data for the cryptographic session. This handle
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 <b>FinishSessionKeyRefresh</b> indicates that all buffers from that point in time will use the updated session key value.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
+
 
  
 

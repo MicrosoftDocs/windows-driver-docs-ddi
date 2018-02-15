@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: afa900fc-7297-425b-8308-18806d7d97d3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: usbscan/USBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], USBSCAN_TIMEOUT, _USBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], PUSBSCAN_TIMEOUT, stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml, image.usbscan_timeout, usbscan/PUSBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
+ms.keywords: usbscan/USBSCAN_TIMEOUT, image.usbscan_timeout, PUSBSCAN_TIMEOUT, _USBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], usbscan/PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], *PUSBSCAN_TIMEOUT, stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

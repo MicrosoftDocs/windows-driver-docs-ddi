@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2a2e964-b9ae-4367-85de-f0ebe3c7a952
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/EisaConfiguration, ntddk/Pos, Pos, MPIConfiguration, VMEConfiguration, ntddk/MaximumBusDataType, _BUS_DATA_TYPE, PCMCIAConfiguration, ntddk/ConfigurationSpaceUndefined, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], *PBUS_DATA_TYPE, CbusConfiguration, EisaConfiguration, ntddk/PCMCIAConfiguration, ntddk/PBUS_DATA_TYPE, ntddk/VMEConfiguration, MPSAConfiguration, PNPISAConfiguration, ConfigurationSpaceUndefined, ntddk/NuBusConfiguration, Cmos, ntddk/MPIConfiguration, ntddk/PCIConfiguration, ntddk/MPSAConfiguration, BUS_DATA_TYPE, SgiInternalConfiguration, ntddk/SgiInternalConfiguration, MaximumBusDataType, PBUS_DATA_TYPE, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, NuBusConfiguration, kernel.bus_data_type, ntddk/PNPISAConfiguration, ntddk/BUS_DATA_TYPE, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/Cmos, ntddk/CbusConfiguration, PCIConfiguration
+ms.keywords: PNPISAConfiguration, ntddk/ConfigurationSpaceUndefined, CbusConfiguration, PCMCIAConfiguration, MaximumBusDataType, EisaConfiguration, _BUS_DATA_TYPE, ntddk/PBUS_DATA_TYPE, SgiInternalConfiguration, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, MPSAConfiguration, ntddk/MPSAConfiguration, ntddk/CbusConfiguration, ntddk/MPIConfiguration, VMEConfiguration, ConfigurationSpaceUndefined, ntddk/Pos, ntddk/SgiInternalConfiguration, ntddk/Cmos, ntddk/NuBusConfiguration, MPIConfiguration, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], ntddk/PNPISAConfiguration, kernel.bus_data_type, ntddk/VMEConfiguration, *PBUS_DATA_TYPE, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], PBUS_DATA_TYPE, BUS_DATA_TYPE, Cmos, NuBusConfiguration, ntddk/EisaConfiguration, PCIConfiguration, ntddk/BUS_DATA_TYPE, ntddk/PCIConfiguration, ntddk/MaximumBusDataType, ntddk/PCMCIAConfiguration, Pos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -152,6 +152,10 @@ Indicates the upper limit of the bus configuration space types.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 
 
@@ -161,10 +165,6 @@ Indicates the upper limit of the bus configuration space types.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 
 

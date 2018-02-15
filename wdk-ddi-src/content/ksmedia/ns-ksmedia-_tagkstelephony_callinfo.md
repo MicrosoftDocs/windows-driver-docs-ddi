@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PKSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, _tagKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, ksmedia/KSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices]"
+ms.keywords: KSTELEPHONY_CALLINFO structure [Audio Devices], _tagKSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO, ksmedia/KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], PKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

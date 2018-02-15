@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F2279727-168D-451B-8EDB-8A4A36ACA08F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrinterExtensionContextCollection::Count, IPrinterExtensionContextCollection, IPrinterExtensionContextCollection::get_Count, IPrintJobCollection, IPrinterExtensionContextCollection interface [Print Devices], Count property, IPrinterExtensionContextCollection.Count, get_Count, Count property [Print Devices], printerextension/IPrinterExtensionContextCollection::get_Count, Count property [Print Devices], IPrinterExtensionContextCollection interface, IPrintJobCollection::get_Count, print.iprinterextensioncontextcollection_count
+ms.keywords: IPrinterExtensionContextCollection interface [Print Devices], Count property, IPrinterExtensionContextCollection, IPrintJobCollection::get_Count, IPrinterExtensionContextCollection::get_Count, IPrinterExtensionContextCollection.Count, printerextension/IPrinterExtensionContextCollection::Count, Count property [Print Devices], printerextension/IPrinterExtensionContextCollection::get_Count, print.iprinterextensioncontextcollection_count, Count property [Print Devices], IPrinterExtensionContextCollection interface, IPrintJobCollection, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

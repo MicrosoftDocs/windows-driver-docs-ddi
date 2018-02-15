@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6f63d48d-7c2f-4531-b6db-fd4fdcfbce27
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: FontInstallerDlgProc, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface [Print Devices], FontInstallerDlgProc method, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface, IPrintOemUI::FontInstallerDlgProc, print.iprintoemui_fontinstallerdlgproc, prcomoem/IPrintOemUI::FontInstallerDlgProc, IPrintOemUI
+ms.keywords: IPrintOemUI::FontInstallerDlgProc, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml, prcomoem/IPrintOemUI::FontInstallerDlgProc, IPrintOemUI, print.iprintoemui_fontinstallerdlgproc, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface [Print Devices], FontInstallerDlgProc method, FontInstallerDlgProc, FontInstallerDlgProc method [Print Devices], IPrintOemUI interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

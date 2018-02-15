@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d4342c72-6737-4f9a-927a-dbfdd69da38d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function, wdf.wdf_io_queue_forward_progress_policy_default_init, kmdf.wdf_io_queue_forward_progress_policy_default_init, DFQueueObjectRef_bc87904f-0d02-4369-ae30-734766e7335b.xml, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT
+ms.keywords: DFQueueObjectRef_bc87904f-0d02-4369-ae30-734766e7335b.xml, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, kmdf.wdf_io_queue_forward_progress_policy_default_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, wdf.wdf_io_queue_forward_progress_policy_default_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

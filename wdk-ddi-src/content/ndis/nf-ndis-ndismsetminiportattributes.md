@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 861626af-23ea-40dc-a91a-7da42d4b0a1c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_ndis_functions_ref_2fc47304-466b-4ae0-8450-44c636cecf64.xml, NdisMSetMiniportAttributes, NdisMSetMiniportAttributes function [Network Drivers Starting with Windows Vista], netvista.ndismsetminiportattributes, ndis/NdisMSetMiniportAttributes
+ms.keywords: ndis/NdisMSetMiniportAttributes, netvista.ndismsetminiportattributes, NdisMSetMiniportAttributes, NdisMSetMiniportAttributes function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_2fc47304-466b-4ae0-8450-44c636cecf64.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,19 +180,6 @@ A miniport driver can also call <b>NdisMSetMiniportAttributes</b> from its <a hr
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
 
 
@@ -202,19 +189,24 @@ A miniport driver can also call <b>NdisMSetMiniportAttributes</b> from its <a hr
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/6d7a23dc-cc09-46d3-89d3-34e8e8f17a51">Initializing a Miniport Adapter</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
@@ -224,6 +216,14 @@ A miniport driver can also call <b>NdisMSetMiniportAttributes</b> from its <a hr
 
 <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_attributes.md">
    NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 

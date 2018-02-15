@@ -90,13 +90,17 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setrootpagetable.md">DXGKARG_SETRO
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setrootpagetable.md">DXGKARG_SETROOTPAGETABLE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2e802f1c-1d27-43cb-a69d-023519806fc2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRawWritePortBufferUchar macro [Network Drivers Starting with Windows Vista], NdisRawWritePortBufferUchar, miniport_port_raw_ref_4b54b55d-c94d-4401-8d16-4650d80c620c.xml, netvista.ndisrawwriteportbufferuchar, ndis/NdisRawWritePortBufferUchar
+ms.keywords: miniport_port_raw_ref_4b54b55d-c94d-4401-8d16-4650d80c620c.xml, netvista.ndisrawwriteportbufferuchar, NdisRawWritePortBufferUchar macro [Network Drivers Starting with Windows Vista], NdisRawWritePortBufferUchar, ndis/NdisRawWritePortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -102,7 +102,7 @@ A miniport driver calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
 
 
 
@@ -110,19 +110,19 @@ A miniport driver calls
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
 
 
 

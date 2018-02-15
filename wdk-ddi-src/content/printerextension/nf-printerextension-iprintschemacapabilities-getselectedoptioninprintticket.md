@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method, GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, print.iprintschemacapabilities_getselectedoptioninprintticket, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface
+ms.keywords: IPrintSchemaCapabilities, GetSelectedOptionInPrintTicket, print.iprintschemacapabilities_getselectedoptioninprintticket, IPrintSchemaCapabilities interface [Print Devices], GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], IPrintSchemaCapabilities interface, GetSelectedOptionInPrintTicket method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

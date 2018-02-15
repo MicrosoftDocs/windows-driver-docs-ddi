@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d9d7327f-a413-4828-b204-e08198d0fe9e
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, PSYNTHCAPS, dmusprop/PSYNTHCAPS, SYNTHCAPS structure [Audio Devices], dmusprop/SYNTHCAPS, audio.synthcaps, _SYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], SYNTHCAPS, *PSYNTHCAPS
+ms.keywords: dmusprop/PSYNTHCAPS, dmusprop/SYNTHCAPS, aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, SYNTHCAPS, audio.synthcaps, SYNTHCAPS structure [Audio Devices], PSYNTHCAPS, _SYNTHCAPS, *PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -226,11 +226,11 @@ In this example, the 0xFFFFFFFF values indicate that the handler has no way of k
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537203">KSNODETYPE_SYNTHESIZER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537389">KSPROPERTY_SYNTH_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537203">KSNODETYPE_SYNTHESIZER</a>
 
 
 

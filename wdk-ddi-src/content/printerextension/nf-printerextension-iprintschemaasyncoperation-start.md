@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintschemaasyncoperation_start, Start, IPrintSchemaAsyncOperation interface [Print Devices], Start method, IPrintSchemaAsyncOperation::Start, printerextension/IPrintSchemaAsyncOperation::Start, Start method [Print Devices], IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation, Start method [Print Devices]
+ms.keywords: print.iprintschemaasyncoperation_start, IPrintSchemaAsyncOperation, Start, Start method [Print Devices], IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation::Start, Start method [Print Devices], printerextension/IPrintSchemaAsyncOperation::Start, IPrintSchemaAsyncOperation interface [Print Devices], Start method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

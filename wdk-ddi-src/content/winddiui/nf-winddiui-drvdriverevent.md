@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 84d1f438-b6ee-4199-89ae-9384601203b3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.drvdriverevent, print_interface-graphics_41c98198-e5b7-4725-9b93-d467ec38e4c3.xml, DrvDriverEvent, DrvDriverEvent function [Print Devices], winddiui/DrvDriverEvent
+ms.keywords: DrvDriverEvent, winddiui/DrvDriverEvent, print.drvdriverevent, DrvDriverEvent function [Print Devices], print_interface-graphics_41c98198-e5b7-4725-9b93-d467ec38e4c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

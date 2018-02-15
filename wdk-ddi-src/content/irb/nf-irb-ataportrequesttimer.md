@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b057ae2e-53ae-4da9-8668-1ebca3c80998
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportrequesttimer, irb/AtaPortRequestTimer, AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices], atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml
+ms.keywords: irb/AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices], atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml, storage.ataportrequesttimer, AtaPortRequestTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -40,7 +40,7 @@ apiname:
 -	HwStorDpcRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -97,11 +97,14 @@ A pointer to caller-supplied information.
 ## -returns
 
 
+
 None. 
 
 
 
+
 ## -remarks
+
 
 
 When a miniport driver calls <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a> to initialize a DPC it must load the <i>HwDpcRoutine</i>  parameter of the <b>StorPortInitializeDpc</b> routine with a pointer to the <b>HwStorDpcRoutine</b> routine. 
@@ -109,6 +112,7 @@ When a miniport driver calls <a href="..\storport\nf-storport-storportinitialize
 Any particular instance of a DPC routine is guaranteed to be synchronized with other instances of the DPC routine. A DPC routine can synchronize itself with the <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine or with the <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a> routine by acquiring the appropriate spin lock with a call to <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>. For more information about the management of spin locks within DPC routines, see <a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>. 
 
 The name <b>HwStorDpcRoutine</b> is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -125,21 +129,74 @@ HW_DPC_ROUTINE (
   );</pre>
 </td>
 </tr>
-</table></span></div>The port driver calls the <b>HwStorDpcRoutine</b> routine at DISPATCH IRQL.
+</table></span></div>
+The port driver calls the <b>HwStorDpcRoutine</b> routine at DISPATCH IRQL.
+
+
+#### Examples
+
+To define an <b>HwStorDpcRoutine</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+
+ For example, to define a <b>HwStorDpcRoutine</b> callback routine that is named <i>MyHwDpcRoutine</i>, use the <b>HW_DPC_ROUTINE</b> type as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HW_DPC_ROUTINE MyHwDpcRoutine;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback routine as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+BOOLEAN
+MyHwDpcRoutine (
+  _In_  PSTOR_DPC Dpc,
+  _In_  PVOID HwDeviceExtension,
+  _In_opt_  PVOID SystemArgument1,
+  _In_opt_  PVOID SystemArgument2
+  );
+  {
+      ...
+  }</pre>
+</td>
+</tr>
+</table></span></div>
+The <b>HW_DPC_ROUTINE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_DPC_ROUTINE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
+
+
 
 <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
 
 <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
-<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
+
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+
+
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
+
+
 
  
 

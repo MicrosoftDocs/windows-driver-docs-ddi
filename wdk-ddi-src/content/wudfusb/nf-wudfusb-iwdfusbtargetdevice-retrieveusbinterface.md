@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface method, umdf.iwdfusbtargetdevice_retrieveusbinterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, RetrieveUsbInterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface method, IWDFUsbTargetDevice interface, wdf.iwdfusbtargetdevice_retrieveusbinterface, IWDFUsbTargetDevice
+ms.keywords: IWDFUsbTargetDevice::RetrieveUsbInterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, wdf.iwdfusbtargetdevice_retrieveusbinterface, RetrieveUsbInterface method, IWDFUsbTargetDevice, RetrieveUsbInterface method, IWDFUsbTargetDevice interface, umdf.iwdfusbtargetdevice_retrieveusbinterface, IWDFUsbTargetDevice interface, RetrieveUsbInterface method, RetrieveUsbInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -152,7 +152,11 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
 
 
@@ -160,11 +164,7 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
-
-
-
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
 
 

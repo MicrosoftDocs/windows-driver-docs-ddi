@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10f6c449-f0f8-4261-825e-127c477c06eb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: POWER_CHANGE_INFO structure [Storage Devices], PIDE_POWER_INFO, storage.power_change_info, IDE_POWER_INFO, _IDE_POWER_INFO, structs-ATA_b4b67f22-359b-4c12-ad21-7de1c39a8259.xml, irb/PIDE_POWER_INFO, IDE_POWER_INFO structure [Storage Devices], *PIDE_POWER_INFO, PIDE_POWER_INFO structure pointer [Storage Devices], irb/IDE_POWER_INFO, POWER_CHANGE_INFO
+ms.keywords: PIDE_POWER_INFO structure pointer [Storage Devices], PIDE_POWER_INFO, _IDE_POWER_INFO, IDE_POWER_INFO structure [Storage Devices], structs-ATA_b4b67f22-359b-4c12-ad21-7de1c39a8259.xml, storage.power_change_info, *PIDE_POWER_INFO, POWER_CHANGE_INFO structure [Storage Devices], IDE_POWER_INFO, irb/IDE_POWER_INFO, POWER_CHANGE_INFO, irb/PIDE_POWER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -40,7 +40,7 @@ apiname:
 -	CamProcessRawVideoFrame
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -127,11 +127,14 @@ Pointer to the number of bytes transferred. The minidriver must set this to zero
 ## -returns
 
 
+
 <b>CamProcessRawVideoFrame</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Before USBCAMD calls the minidriver's <b>CamProcessRawVideoFrame</b> callback, it sets the first DWORD in the buffer pointed to by the <i>FrameBuffer</i> parameter to the value <i>0xdeadbeef.</i> After calling the minidriver's <b>CamProcessRawVideoFrame</b> callback USBCAMD checks the first DWORD in the buffer pointed to by the <i>FrameBuffer</i> parameter for the value <i>0xdeadbeef</i> to determine if <b>CamProcessRawVideoFrame</b> successfully copied the video frame from the buffer pointed to by the <i>RawFrameBuffer</i> parameter into the buffer pointed to by the <i>FrameBuffer</i> parameter.
@@ -142,9 +145,12 @@ This function is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
+
+
 
  
 

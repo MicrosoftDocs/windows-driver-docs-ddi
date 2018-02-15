@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStiUSD interface, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize, IStiUSD interface [Imaging Devices], Initialize method, IStiUSD, image.istiusd_initialize, Initialize
+ms.keywords: Initialize method [Imaging Devices], IStiUSD::Initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize, Initialize, IStiUSD interface [Imaging Devices], Initialize method, Initialize method [Imaging Devices], IStiUSD interface, IStiUSD, image.istiusd_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

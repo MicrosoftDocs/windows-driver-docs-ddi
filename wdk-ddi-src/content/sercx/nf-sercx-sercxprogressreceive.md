@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: A1773CCB-971E-4439-A11F-82761FF8AF71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxProgressReceive method [Serial Ports], 1/SerCxProgressReceive, serports.sercxprogressreceive, SerCxProgressReceive
+ms.keywords: serports.sercxprogressreceive, SerCxProgressReceive method [Serial Ports], 1/SerCxProgressReceive, SerCxProgressReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -155,11 +155,11 @@ If the <b>SerCxProgressReceive</b> does not complete all outstanding work for th
 
 ## -see-also
 
-<a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
+
+
+
+<a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
 
 
 

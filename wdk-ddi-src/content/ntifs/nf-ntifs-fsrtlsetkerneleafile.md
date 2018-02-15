@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlsetkerneleafile, FsRtlSetKernelEaFile routine [Installable File System Drivers], FsRtlSetKernelEaFile, ntifs/FsRtlSetKernelEaFile
+ms.keywords: FsRtlSetKernelEaFile, ntifs/FsRtlSetKernelEaFile, FsRtlSetKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlsetkerneleafile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -184,15 +184,15 @@ You delete EA’s by specifying an <b>EAName</b> with an <b>EaValueLength</b> of
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-fsrtlquerykerneleafile.md">FsRtlQueryKernelEaFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
 
 
 

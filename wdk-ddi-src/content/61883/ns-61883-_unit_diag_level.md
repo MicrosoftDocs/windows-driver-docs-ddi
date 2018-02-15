@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 2759486f-7eaa-4af4-b9a9-2e44354f411b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL, 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml, _UNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL, 61883/PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL structure [Buses], PUNIT_DIAG_LEVEL structure pointer [Buses], 61883/UNIT_DIAG_LEVEL, IEEE.unit_diag_level"
+ms.keywords: UNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL, 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml, IEEE.unit_diag_level, PUNIT_DIAG_LEVEL structure pointer [Buses], 61883/UNIT_DIAG_LEVEL, _UNIT_DIAG_LEVEL, 61883/PUNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

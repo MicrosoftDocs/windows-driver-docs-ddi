@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetIoTypePreference method, SetIoTypePreference, IWDFDeviceInitialize2 interface, SetIoTypePreference method, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference method, IWDFDeviceInitialize2 interface, wdf.iwdfdeviceinitialize2_setiotypepreference, IWDFDeviceInitialize2::SetIoTypePreference, IWDFDeviceInitialize2, umdf.iwdfdeviceinitialize2_setiotypepreference
+ms.keywords: IWDFDeviceInitialize2 interface, SetIoTypePreference method, SetIoTypePreference, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, IWDFDeviceInitialize2, SetIoTypePreference method, IWDFDeviceInitialize2 interface, SetIoTypePreference method, IWDFDeviceInitialize2::SetIoTypePreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference, wdf.iwdfdeviceinitialize2_setiotypepreference, umdf.iwdfdeviceinitialize2_setiotypepreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -152,7 +152,7 @@ The following code example shows a segment of a driver's <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
 
 
 
@@ -164,11 +164,11 @@ The following code example shows a segment of a driver's <a href="https://msdn.m
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
 
 

@@ -40,7 +40,7 @@ apiname:
 -	TransitionCriticalResource
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKCRITICALRESOURCE callback
@@ -90,11 +90,14 @@ Whether to transition the device from inactive to active, or vice versa. Set to 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>TransitionCriticalResource</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>TransitionCriticalResource</b> routine.
@@ -103,13 +106,20 @@ A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 
 
-## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
+
+
+<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+
+
 
  
 

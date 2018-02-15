@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 269eccd8-e477-4082-930b-1f4b3e3706b9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices], RegisterNotificationEvent method, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, IMiniportWaveRTStreamNotification, RegisterNotificationEvent method [Audio Devices], portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent, IMiniportWaveRTStreamNotification::RegisterNotificationEvent, audio.iminiportwavertstreamnotification_registernotificationevent
+ms.keywords: IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface [Audio Devices], RegisterNotificationEvent method, IMiniportWaveRTStreamNotification, audio.iminiportwavertstreamnotification_registernotificationevent, portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,15 +96,15 @@ For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIF
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksrtaudio_notification_event_property.md">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksrtaudio_notification_event_property.md">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>
 
 
 

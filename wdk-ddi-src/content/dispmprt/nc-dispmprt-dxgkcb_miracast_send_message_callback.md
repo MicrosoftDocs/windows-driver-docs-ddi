@@ -104,11 +104,11 @@ The operating system guarantees that this function follows the zero level synchr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

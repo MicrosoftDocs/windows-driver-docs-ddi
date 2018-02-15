@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0a88cbb6-66be-4ef7-93da-27d7ce169779
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice::CreateDeviceInterface, CreateDeviceInterface method, IWDFDevice, IWDFDevice interface, CreateDeviceInterface method, CreateDeviceInterface, IWDFDevice::CreateDeviceInterface, CreateDeviceInterface method, IWDFDevice interface, wdf.iwdfdevice_createdeviceinterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, umdf.iwdfdevice_createdeviceinterface
+ms.keywords: wdf.iwdfdevice_createdeviceinterface, IWDFDevice interface, CreateDeviceInterface method, wudfddi/IWDFDevice::CreateDeviceInterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, IWDFDevice::CreateDeviceInterface, CreateDeviceInterface, CreateDeviceInterface method, IWDFDevice interface, CreateDeviceInterface method, umdf.iwdfdevice_createdeviceinterface, IWDFDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -134,11 +134,11 @@ The following code example shows how to create a device interface instance. In t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557006">IWDFDevice::AssignDeviceInterfaceState</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557006">IWDFDevice::AssignDeviceInterfaceState</a>
 
 
 

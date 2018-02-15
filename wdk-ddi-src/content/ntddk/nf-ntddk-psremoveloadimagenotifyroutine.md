@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5491f9fb-8f87-41ed-9629-18318554ad90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], PsRemoveLoadImageNotifyRoutine, kernel.psremoveloadimagenotifyroutine, k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, ntddk/PsRemoveLoadImageNotifyRoutine
+ms.keywords: ntddk/PsRemoveLoadImageNotifyRoutine, PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, kernel.psremoveloadimagenotifyroutine, PsRemoveLoadImageNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9008e5e6-e03c-4d34-99bd-3e6624327fcc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info, _DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices]
+ms.keywords: d3dkmdt/DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], display.dxgk_backlight_info, _DXGK_BACKLIGHT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

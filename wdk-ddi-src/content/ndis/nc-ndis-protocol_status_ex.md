@@ -164,11 +164,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567420">NDIS_STATUS_RESET_START</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 
@@ -176,7 +176,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 

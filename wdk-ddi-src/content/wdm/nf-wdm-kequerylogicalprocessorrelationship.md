@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryLogicalProcessorRelationship, kernel.kequerylogicalprocessorrelationship, k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, wdm/KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, KeQueryLogicalProcessorRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 717847D7-D7D9-4FEE-B3DC-14B0404FA937
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wdi_p2p_scan_type, WDI_P2P_SCAN_TYPE_ACTIVE, WDI_P2P_SCAN_TYPE_AUTO, wditypes/WDI_P2P_SCAN_TYPE_AUTO, wditypes/WDI_P2P_SCAN_TYPE_ACTIVE, WDI_P2P_SCAN_TYPE_PASSIVE, netvista.wifi_p2p_scan_type, WDI_P2P_SCAN_TYPE enumeration [Device and Driver Installation], wditypes/WDI_P2P_SCAN_TYPE_PASSIVE, wditypes/WDI_P2P_SCAN_TYPE, WDI_P2P_SCAN_TYPE, _WDI_P2P_SCAN_TYPE
+ms.keywords: wditypes/WDI_P2P_SCAN_TYPE_PASSIVE, wditypes/WDI_P2P_SCAN_TYPE_AUTO, wditypes/WDI_P2P_SCAN_TYPE, netvista.wdi_p2p_scan_type, netvista.wifi_p2p_scan_type, WDI_P2P_SCAN_TYPE enumeration [Device and Driver Installation], WDI_P2P_SCAN_TYPE, WDI_P2P_SCAN_TYPE_PASSIVE, WDI_P2P_SCAN_TYPE_ACTIVE, WDI_P2P_SCAN_TYPE_AUTO, _WDI_P2P_SCAN_TYPE, wditypes/WDI_P2P_SCAN_TYPE_ACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

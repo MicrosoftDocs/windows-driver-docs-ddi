@@ -40,7 +40,7 @@ apiname:
 -	pfnGetCryptoSessionPrivateDataSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE callback
@@ -108,14 +108,18 @@ Returns the size of private data that the driver needs for output commands.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <b>NegotiateCryptessionKeyExchange</b>device driver interface (DDI):
+
 <ul>
 <li><b>DataSize</b> is set to the size of the <b>D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</b> structure.
 
@@ -140,9 +144,12 @@ When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the fol
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+
 
  
 

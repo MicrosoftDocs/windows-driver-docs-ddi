@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E1F0BB4A-17FB-4C35-9373-CD648553A738
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitpurgefifocomplete
+ms.keywords: SerCx2SystemDmaTransmitPurgeFifoComplete, 2/SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitpurgefifocomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,15 +107,15 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 ## -see-also
 
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_purge_fifo.md">EvtSerCx2SystemDmaTransmitPurgeFifo</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
 
 
 <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_purge_fifo.md">EvtSerCx2SystemDmaTransmitPurgeFifo</a>
 
 
 

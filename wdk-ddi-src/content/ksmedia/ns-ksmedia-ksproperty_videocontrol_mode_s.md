@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ba6ac5ef-4153-479f-a1a9-b71d1d80786c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSPROPERTY_VIDEOCONTROL_MODE_S, KSPROPERTY_VIDEOCONTROL_MODE_S, ksmedia/KSPROPERTY_VIDEOCONTROL_MODE_S, stream.ksproperty_videocontrol_mode_s, ksmedia/PKSPROPERTY_VIDEOCONTROL_MODE_S, PKSPROPERTY_VIDEOCONTROL_MODE_S structure pointer [Streaming Media Devices], vidcapstruct_35950052-3872-4155-842f-b8615aa68234.xml, KSPROPERTY_VIDEOCONTROL_MODE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_MODE_S"
+ms.keywords: stream.ksproperty_videocontrol_mode_s, ksmedia/PKSPROPERTY_VIDEOCONTROL_MODE_S, vidcapstruct_35950052-3872-4155-842f-b8615aa68234.xml, KSPROPERTY_VIDEOCONTROL_MODE_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_MODE_S, PKSPROPERTY_VIDEOCONTROL_MODE_S structure pointer [Streaming Media Devices], *PKSPROPERTY_VIDEOCONTROL_MODE_S, KSPROPERTY_VIDEOCONTROL_MODE_S, PKSPROPERTY_VIDEOCONTROL_MODE_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,19 +86,19 @@ Specifies the video control mode. For a Set request, this member contains the re
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566042">KSPROPERTY_VIDEOCONTROL_MODE</a>
-
-
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566042">KSPROPERTY_VIDEOCONTROL_MODE</a>
+
+
+
 <a href="..\ksmedia\ne-ksmedia-ks_videocontrolflags.md">KS_VideoControlFlags</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0f05f765-ca59-4a92-91a0-f1123dd9cd6f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_cfd3f257-e96f-4f75-a335-6b78aaa47c70.xml, display.videoportwriteportuchar, video/VideoPortWritePortUchar, VideoPortWritePortUchar, VideoPortWritePortUchar function [Display Devices]
+ms.keywords: VideoPort_Functions_cfd3f257-e96f-4f75-a335-6b78aaa47c70.xml, video/VideoPortWritePortUchar, VideoPortWritePortUchar function [Display Devices], VideoPortWritePortUchar, display.videoportwriteportuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

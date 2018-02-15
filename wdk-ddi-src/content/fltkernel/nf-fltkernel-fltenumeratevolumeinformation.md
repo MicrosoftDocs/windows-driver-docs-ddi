@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cdec7faa-299c-4a4e-a037-9900bc3cffa1
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltEnumerateVolumeInformation, FltEnumerateVolumeInformation, ifsk.fltenumeratevolumeinformation, FltApiRef_e_to_o_2fec9273-857a-4c22-b970-27882f88d58d.xml, FltEnumerateVolumeInformation routine [Installable File System Drivers]
+ms.keywords: ifsk.fltenumeratevolumeinformation, fltkernel/FltEnumerateVolumeInformation, FltEnumerateVolumeInformation, FltApiRef_e_to_o_2fec9273-857a-4c22-b970-27882f88d58d.xml, FltEnumerateVolumeInformation routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -219,7 +219,7 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
 
 
 
@@ -227,7 +227,7 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
 
 
 
@@ -235,11 +235,7 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_standard_information.md">FILTER_VOLUME_STANDARD_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>
 
 
 
@@ -247,11 +243,15 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+
+
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_standard_information.md">FILTER_VOLUME_STANDARD_INFORMATION</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
 
 
 

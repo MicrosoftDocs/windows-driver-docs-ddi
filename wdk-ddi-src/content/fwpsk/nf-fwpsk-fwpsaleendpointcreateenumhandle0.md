@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5daa3dd4-e499-4a72-b784-8a0e1ef3e92b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsAleEndpointCreateEnumHandle0, netvista.fwpsaleendpointcreateenumhandle0, FwpsAleEndpointCreateEnumHandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml
+ms.keywords: fwpsk/FwpsAleEndpointCreateEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointCreateEnumHandle0, netvista.fwpsaleendpointcreateenumhandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,12 +147,12 @@ After using the handle acquired by calling
 
 ## -see-also
 
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
    FwpsAleEndpointDestroyEnumHandle0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
 
 
 

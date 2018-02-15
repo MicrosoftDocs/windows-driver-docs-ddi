@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5de5a7b9-4ac8-4d5a-8037-eec39a580372
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ClearTriageLogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ClearTriageLogs, ClearTriageLogs method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ClearTriageLogs, IWDTFDriverSetupSystemAction2, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ClearTriageLogs, ClearTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_cleartriagelogs, IWDTFDriverSetupSystemAction2::ClearTriageLogs, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ClearTriageLogs method
+ms.keywords: ClearTriageLogs, dtf.iwdtfdriversetupsystemaction2_cleartriagelogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ClearTriageLogs, IWDTFDriverSetupSystemAction2::ClearTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ClearTriageLogs, ClearTriageLogs method [Windows Device Testing Framework], wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ClearTriageLogs, IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ClearTriageLogs method, ClearTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

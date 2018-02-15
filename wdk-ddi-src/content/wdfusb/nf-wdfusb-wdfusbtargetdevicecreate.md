@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5a2d3430-ca94-42f0-bfeb-fd38d9d4958a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetDeviceCreate, DFUsbRef_be9c210e-6cf0-4e0b-a5d5-f0b02d7a2141.xml, wdf.wdfusbtargetdevicecreate, PFN_WDFUSBTARGETDEVICECREATE, WdfUsbTargetDeviceCreate method, WdfUsbTargetDeviceCreate, kmdf.wdfusbtargetdevicecreate
+ms.keywords: wdf.wdfusbtargetdevicecreate, kmdf.wdfusbtargetdevicecreate, wdfusb/WdfUsbTargetDeviceCreate, PFN_WDFUSBTARGETDEVICECREATE, WdfUsbTargetDeviceCreate, WdfUsbTargetDeviceCreate method, DFUsbRef_be9c210e-6cf0-4e0b-a5d5-f0b02d7a2141.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,7 +206,7 @@ MyEvtDevicePrepareHardware(
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -214,7 +214,7 @@ MyEvtDevicePrepareHardware(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SpoolerRefreshPrinterChangeNotification function [Print Devices], print.spoolerrefreshprinterchangenotification, winsplp/SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification
+ms.keywords: winsplp/SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification, print.spoolerrefreshprinterchangenotification, SpoolerRefreshPrinterChangeNotification function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

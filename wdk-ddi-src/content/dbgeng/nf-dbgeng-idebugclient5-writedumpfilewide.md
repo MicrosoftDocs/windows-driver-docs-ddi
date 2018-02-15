@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b089499f-4f15-400e-bf88-53d0507200b9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient4, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient4::WriteDumpFileWide, IDebugClient5, dbgeng/IDebugClient5::WriteDumpFileWide, IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method, IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient4::WriteDumpFileWide, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, IDebugClient5::WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], debugger.writedumpfilewide
+ms.keywords: IDebugClient5::WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], dbgeng/IDebugClient4::WriteDumpFileWide, IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, IDebugClient4, IDebugClient4::WriteDumpFileWide, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, IDebugClient5, WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, debugger.writedumpfilewide, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::WriteDumpFileWide, IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

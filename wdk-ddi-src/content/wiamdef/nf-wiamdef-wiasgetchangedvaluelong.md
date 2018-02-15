@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2c23729c-9fab-4e3c-9205-175a6aba8f8a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasGetChangedValueLong, wiamdef/wiasGetChangedValueLong, wiasFncs_c333720c-e0e9-4fa4-9fdc-24a6a248f58b.xml, image.wiasgetchangedvaluelong, wiasGetChangedValueLong function [Imaging Devices]
+ms.keywords: wiasGetChangedValueLong function [Imaging Devices], wiamdef/wiasGetChangedValueLong, wiasFncs_c333720c-e0e9-4fa4-9fdc-24a6a248f58b.xml, image.wiasgetchangedvaluelong, wiasGetChangedValueLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,7 +132,7 @@ The driver should validate the property only after the driver has updated the va
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
 
 
 
@@ -140,7 +140,7 @@ The driver should validate the property only after the driver has updated the va
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
 
 
 

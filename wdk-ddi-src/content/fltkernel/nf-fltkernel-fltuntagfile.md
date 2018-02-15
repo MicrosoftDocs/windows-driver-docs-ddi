@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 728a9879-681b-4244-b931-7945a05e3d40
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltUntagFile function [Installable File System Drivers], FltApiRef_p_to_z_c1e51b69-c780-46bd-b3f0-b78cdc9c3b3f.xml, ifsk.fltuntagfile, FltUntagFile, fltkernel/FltUntagFile
+ms.keywords: ifsk.fltuntagfile, FltApiRef_p_to_z_c1e51b69-c780-46bd-b3f0-b78cdc9c3b3f.xml, FltUntagFile function [Installable File System Drivers], fltkernel/FltUntagFile, FltUntagFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,11 +144,15 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
 
 
 
@@ -164,11 +168,7 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
 
 
 

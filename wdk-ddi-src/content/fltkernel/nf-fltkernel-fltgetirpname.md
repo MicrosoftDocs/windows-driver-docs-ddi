@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d4087825-cdfd-4de5-a5b7-f95f6f0563e6
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltGetIrpName routine [Installable File System Drivers], FltApiRef_e_to_o_35d2b6e8-d233-4c6e-a27a-6a5770f5f5d0.xml, FltGetIrpName, ifsk.fltgetirpname, fltkernel/FltGetIrpName
+ms.keywords: FltApiRef_e_to_o_35d2b6e8-d233-4c6e-a27a-6a5770f5f5d0.xml, fltkernel/FltGetIrpName, FltGetIrpName routine [Installable File System Drivers], FltGetIrpName, ifsk.fltgetirpname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

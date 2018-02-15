@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4B044635-1088-4CED-87C7-4385E565A54A
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_HIDP_COLLECTION_DESC, hidpddi/HIDP_COLLECTION_DESC, hid.hidp_collection_desc, HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], PHIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], *PHIDP_COLLECTION_DESC"
+ms.keywords: "_HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC, hid.hidp_collection_desc, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], PHIDP_COLLECTION_DESC, hidpddi/HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], HIDP_COLLECTION_DESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

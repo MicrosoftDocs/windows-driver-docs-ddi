@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 79d63b5e-78b0-452a-aa84-695c59a7d4a5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetPortAttributesByWWN, fibreHBA_rtns_2cd8e0da-90d5-41bb-8bd9-ab2ee26ec772.xml, HBA_GetPortAttributesByWWN, HBA_GetPortAttributesByWWN routine [Storage Devices], storage.hba_getportattributesbywwn
+ms.keywords: HBA_GetPortAttributesByWWN, hbaapi/HBA_GetPortAttributesByWWN, fibreHBA_rtns_2cd8e0da-90d5-41bb-8bd9-ab2ee26ec772.xml, HBA_GetPortAttributesByWWN routine [Storage Devices], storage.hba_getportattributesbywwn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ The <b>HBA_GetPortAttributesByWWN</b> routine serves a purpose very similar to t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

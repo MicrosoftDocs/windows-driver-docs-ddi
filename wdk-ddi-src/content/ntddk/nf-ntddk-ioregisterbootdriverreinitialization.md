@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: af1c1f4b-7710-4cf7-9596-32d11db98abb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRegisterBootDriverReinitialization, k104_492655f7-02ee-48ad-83b8-80ac50716b89.xml, IoRegisterBootDriverReinitialization routine [Kernel-Mode Driver Architecture], ntddk/IoRegisterBootDriverReinitialization, kernel.ioregisterbootdriverreinitialization
+ms.keywords: IoRegisterBootDriverReinitialization, kernel.ioregisterbootdriverreinitialization, IoRegisterBootDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_492655f7-02ee-48ad-83b8-80ac50716b89.xml, ntddk/IoRegisterBootDriverReinitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,11 +114,11 @@ The <i>DriverEntry</i> routine can call <b>IoRegisterBootDriverReinitialization<
 
 
 
-<a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a>
-
-
-
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a>
 
 
 

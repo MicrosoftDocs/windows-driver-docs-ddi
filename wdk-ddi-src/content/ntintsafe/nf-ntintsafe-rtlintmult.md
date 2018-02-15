@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5417D6B1-0523-4C01-9C07-571D096E10F3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlintmult, RtlIntMult function [Kernel-Mode Driver Architecture], RtlIntMult, ntintsafe/RtlIntMult
+ms.keywords: kernel.rtlintmult, RtlIntMult, RtlIntMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 6a85b0a6-0dff-4dea-86a1-93fd4258900e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: OutputError method [Windows Device Testing Framework], IWDTFLOG2 interface, OutputError, dtf.iwdtflog2_outputerror, wdtf/IWDTFLOG2::OutputError, Microsoft::WDTF::IWDTFLOG2::OutputError, IWDTFLOG2 interface [Windows Device Testing Framework], OutputError method, OutputError method [Windows Device Testing Framework], IWDTFLOG2::OutputError, Microsoft.WDTF.IWDTFLOG2.OutputError, IWDTFLOG2
+ms.keywords: OutputError method [Windows Device Testing Framework], IWDTFLOG2 interface, IWDTFLOG2, Microsoft.WDTF.IWDTFLOG2.OutputError, dtf.iwdtflog2_outputerror, OutputError method [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework], OutputError method, wdtf/IWDTFLOG2::OutputError, OutputError, Microsoft::WDTF::IWDTFLOG2::OutputError, IWDTFLOG2::OutputError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

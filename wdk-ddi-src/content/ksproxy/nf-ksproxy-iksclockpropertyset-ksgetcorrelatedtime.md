@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b91f33b3-2706-4c94-9960-ceea023891af
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsClockPropertySet::KsGetCorrelatedTime, ksproxy/IKsClockPropertySet::KsGetCorrelatedTime, IKsClockPropertySet interface [Streaming Media Devices], KsGetCorrelatedTime method, KsGetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetCorrelatedTime method [Streaming Media Devices], KsGetCorrelatedTime, stream.iksclockpropertyset_ksgetcorrelatedtime, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, IKsClockPropertySet
+ms.keywords: IKsClockPropertySet interface [Streaming Media Devices], KsGetCorrelatedTime method, KsGetCorrelatedTime, stream.iksclockpropertyset_ksgetcorrelatedtime, KsGetCorrelatedTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet::KsGetCorrelatedTime, IKsClockPropertySet, ksproxy_79582c7f-456c-420e-88eb-b0cb6916040f.xml, KsGetCorrelatedTime method [Streaming Media Devices], ksproxy/IKsClockPropertySet::KsGetCorrelatedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

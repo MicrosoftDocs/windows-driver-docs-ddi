@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D75EAC9E-8E65-437E-83AA-59B422527C6C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_ipv4_address, wwan/WWAN_IPV4_ADDRESS, *PWWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS structure [Network Drivers Starting with Windows Vista], PWWAN_IPV4_ADDRESS, wwan/PWWAN_IPV4_ADDRESS, _WWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV4_ADDRESS
+ms.keywords: wwan/PWWAN_IPV4_ADDRESS, _WWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_IPV4_ADDRESS, netvista.wwan_ipv4_address, WWAN_IPV4_ADDRESS, WWAN_IPV4_ADDRESS structure [Network Drivers Starting with Windows Vista], wwan/WWAN_IPV4_ADDRESS, PWWAN_IPV4_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

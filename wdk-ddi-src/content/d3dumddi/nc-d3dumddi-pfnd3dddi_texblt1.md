@@ -122,11 +122,11 @@ The pixel formats of the source and destination textures are identical and, in g
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_texblt1.md">D3DDDIARG_TEXBLT1</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CFEEB41D-050F-4372-AB54-39ABC696C89D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_setvidpnsourceaddress_output_flags, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
+ms.keywords: d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], display.dxgk_setvidpnsourceaddress_output_flags, _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

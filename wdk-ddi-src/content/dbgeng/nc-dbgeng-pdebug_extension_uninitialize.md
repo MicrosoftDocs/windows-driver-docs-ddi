@@ -81,14 +81,19 @@ The <b>DebugExtensionUninitialize</b> callback function is called by the engine 
 
 
 
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This function is optional.  A DbgEng extension DLL only needs to export <b>DebugExtensionUninitialize</b> if it needs to be notified before it is unloaded.  The engine looks for this function by name in the extension DLL.
@@ -101,9 +106,12 @@ DebugExtensionUninitialize is called <b>PDEBUG_EXTENSION_UNINITIALIZE</b> in the
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+
 
  
 

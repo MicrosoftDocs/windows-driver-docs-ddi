@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4f63fc92-56e3-4414-a912-09ed0de59c92
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_90cd9c96-1fcf-4214-b14f-5065c1e52260.xml, RxDereference function [Installable File System Drivers], rxprocs/RxDereference, ifsk.rxdereference, RxDereference
+ms.keywords: rxref_90cd9c96-1fcf-4214-b14f-5065c1e52260.xml, ifsk.rxdereference, RxDereference function [Installable File System Drivers], rxprocs/RxDereference, RxDereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,7 +135,11 @@ If the <b>NodeReferenceCount</b> member decrements to 1 and the <i>LockHoldingSt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/866eba91-13b6-4b15-93de-4f627a635c92">The V_NET_ROOT Structure</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
+
+
+
+<a href="https://msdn.microsoft.com/9a3bb194-0289-47f4-a5c8-848d8d82cdd7">The SRV_CALL Structure</a>
 
 
 
@@ -151,11 +155,7 @@ If the <b>NodeReferenceCount</b> member decrements to 1 and the <i>LockHoldingSt
 
 
 
-<a href="https://msdn.microsoft.com/9a3bb194-0289-47f4-a5c8-848d8d82cdd7">The SRV_CALL Structure</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
+<a href="https://msdn.microsoft.com/866eba91-13b6-4b15-93de-4f627a635c92">The V_NET_ROOT Structure</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: EA496897-7D5A-43A8-A61E-34E986288E8B
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.framing_cache_ops, Framing_Cache_ReadOrig, ksproxy/Framing_Cache_Update, ksproxy/FRAMING_CACHE_OPS, ksproxy/Framing_Cache_Write, FRAMING_CACHE_OPS, Framing_Cache_Update, Framing_Cache_ReadLast, FRAMING_CACHE_OPS enumeration [Streaming Media Devices], ksproxy/Framing_Cache_ReadOrig, ksproxy/Framing_Cache_ReadLast, Framing_Cache_Write
+ms.keywords: Framing_Cache_ReadOrig, ksproxy/Framing_Cache_Write, Framing_Cache_Update, Framing_Cache_ReadLast, ksproxy/Framing_Cache_ReadLast, FRAMING_CACHE_OPS, stream.framing_cache_ops, ksproxy/FRAMING_CACHE_OPS, Framing_Cache_Write, ksproxy/Framing_Cache_Update, FRAMING_CACHE_OPS enumeration [Streaming Media Devices], ksproxy/Framing_Cache_ReadOrig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

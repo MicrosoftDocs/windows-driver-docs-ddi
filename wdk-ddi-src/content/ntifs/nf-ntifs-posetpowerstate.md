@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fff319e-0428-4185-a792-d3842ab9feb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, kernel.posetpowerstate, PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture], wdm/PoSetPowerState
+ms.keywords: portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture], kernel.posetpowerstate, wdm/PoSetPowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ Callers of <b>PoSetPowerState</b> must be running at IRQL &lt;= APC_LEVEL except
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
+<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
 
 
 

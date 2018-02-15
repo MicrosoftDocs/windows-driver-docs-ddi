@@ -86,14 +86,14 @@ __checkReturn HRESULT APIENTRY CreatePixelShader(
 
 
 
-#### - pData [in, out]
-
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createpixelshader.md">D3DDDIARG_CREATEPIXELSHADER</a> structure that retrieves the shader handle that is associated with the pixel shader code that is specified by <b>pCode</b>.
-
-
 #### - pCode [in]
 
  An array of CONST UINT tokens that make up the pixel shader code.
+
+
+#### - pData [in, out]
+
+ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createpixelshader.md">D3DDDIARG_CREATEPIXELSHADER</a> structure that retrieves the shader handle that is associated with the pixel shader code that is specified by <b>pCode</b>.
 
 
 ## -returns

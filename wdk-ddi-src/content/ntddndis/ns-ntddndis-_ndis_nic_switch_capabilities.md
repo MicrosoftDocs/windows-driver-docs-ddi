@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc4b56bd-583f-4b41-b5a7-90958ce65f42
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES, ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml, ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities"
+ms.keywords: NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, _NDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml, netvista.ndis_nic_switch_capabilities, *PNDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -420,11 +420,11 @@ OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -432,7 +432,7 @@ OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
 
 
 

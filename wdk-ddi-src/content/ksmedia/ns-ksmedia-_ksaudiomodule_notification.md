@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 92A9462C-0E8C-4012-9374-3437BB220502
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PKSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], ksmedia/KSAUDIOMODULE_NOTIFICATION, _KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], ksmedia/PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification
+ms.keywords: audio.ksaudiomodule_notification, PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], *PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], _KSAUDIOMODULE_NOTIFICATION, ksmedia/KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, ksmedia/PKSAUDIOMODULE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

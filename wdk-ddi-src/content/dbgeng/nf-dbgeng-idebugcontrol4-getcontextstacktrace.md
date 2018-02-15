@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d7a461e-46bf-4556-b13c-805bb5af572e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], GetContextStackTrace method, GetContextStackTrace method [Windows Debugging], IDebugControl4 interface, debugger.getcontextstacktrace, IDebugControl4::GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, dbgeng/IDebugControl4::GetContextStackTrace, IDebugControl4, GetContextStackTrace method [Windows Debugging], GetContextStackTrace
+ms.keywords: IDebugControl4::GetContextStackTrace, GetContextStackTrace method [Windows Debugging], dbgeng/IDebugControl4::GetContextStackTrace, debugger.getcontextstacktrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, GetContextStackTrace, GetContextStackTrace method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetContextStackTrace method, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -155,7 +155,7 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
 
 
 
@@ -167,7 +167,7 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
 
 
 

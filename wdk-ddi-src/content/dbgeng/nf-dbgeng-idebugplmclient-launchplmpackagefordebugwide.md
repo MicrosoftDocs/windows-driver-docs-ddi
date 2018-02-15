@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: DE11B4A5-5AE3-4369-AF6D-6CE34B9AAFAB
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], IDebugPlmClient interface [Windows Debugging], LaunchPlmPackageForDebugWide method, debugger.idebugplmclient_launchplmpackagefordebugwide, IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], IDebugPlmClient interface, IDebugPlmClient
+ms.keywords: dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, IDebugPlmClient interface [Windows Debugging], LaunchPlmPackageForDebugWide method, IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide, debugger.idebugplmclient_launchplmpackagefordebugwide, LaunchPlmPackageForDebugWide method [Windows Debugging], IDebugPlmClient interface, LaunchPlmPackageForDebugWide method [Windows Debugging], IDebugPlmClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

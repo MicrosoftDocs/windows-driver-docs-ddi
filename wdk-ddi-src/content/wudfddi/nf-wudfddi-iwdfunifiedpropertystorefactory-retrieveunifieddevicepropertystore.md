@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A54E56A6-9A6C-435D-83FD-84BB0E072C74
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveUnifiedDevicePropertyStore method, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory interface, IWDFUnifiedPropertyStoreFactory, wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore method, wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
+ms.keywords: IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore, wdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory, IWDFUnifiedPropertyStoreFactory interface, RetrieveUnifiedDevicePropertyStore method, umdf.iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore, wudfddi/IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore, RetrieveUnifiedDevicePropertyStore method, IWDFUnifiedPropertyStoreFactory interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -198,11 +198,11 @@ exit:
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
 
 

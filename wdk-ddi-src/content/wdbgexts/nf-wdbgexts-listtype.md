@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5c250438-8805-4f45-b08f-65ec87b3e61a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/ListType, ListType, WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, debugger.listtype, ListType function [Windows Debugging]
+ms.keywords: WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, ListType, ListType function [Windows Debugging], wdbgexts/ListType, debugger.listtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

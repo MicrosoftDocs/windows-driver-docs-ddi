@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2037d77-8745-4307-ac12-54f62f20c2d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DEVICERESET_STATE, D3DKMT_DEVICERESET_STATE structure [Display Devices], d3dkmthk/D3DKMT_DEVICERESET_STATE, display.d3dkmt_devicereset_state, _D3DKMT_DEVICERESET_STATE, OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml
+ms.keywords: display.d3dkmt_devicereset_state, D3DKMT_DEVICERESET_STATE, _D3DKMT_DEVICERESET_STATE, OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, D3DKMT_DEVICERESET_STATE structure [Display Devices], d3dkmthk/D3DKMT_DEVICERESET_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

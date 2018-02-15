@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3d9415f7-cc28-4e45-8d88-b8693aa57116
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_SUPSVCTYPE_COLP, RILSUPSVCTYPE, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIR, ntddrilapitypes/RIL_SUPSVCTYPE_CLIP, ntddrilapitypes/RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_COLR, ntddrilapitypes/RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_MAX, RIL_SUPSVCTYPE_CLIP, ntddrilapitypes/RIL_SUPSVCTYPE_CLIR, ntddrilapitypes/RIL_SUPSVCTYPE_MAX, netvista.rilsupsvctype, ntddrilapitypes/RILSUPSVCTYPE
+ms.keywords: ntddrilapitypes/RIL_SUPSVCTYPE_CLIR, ntddrilapitypes/RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_CNAP, ntddrilapitypes/RIL_SUPSVCTYPE_CNAP, ntddrilapitypes/RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_MAX, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_CLIR, netvista.rilsupsvctype, RILSUPSVCTYPE, ntddrilapitypes/RIL_SUPSVCTYPE_CLIP, ntddrilapitypes/RIL_SUPSVCTYPE_MAX, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSUPSVCTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

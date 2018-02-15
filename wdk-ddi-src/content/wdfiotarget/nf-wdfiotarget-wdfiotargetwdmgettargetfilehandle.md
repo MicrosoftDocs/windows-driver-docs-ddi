@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3312e6ca-bf2c-4a53-bd86-d36d708ed596
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetWdmGetTargetFileHandle method, wdf.wdfiotargetwdmgettargetfilehandle, kmdf.wdfiotargetwdmgettargetfilehandle, DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, PFN_WDFIOTARGETWDMGETTARGETFILEHANDLE, WdfIoTargetWdmGetTargetFileHandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
+ms.keywords: DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle, wdf.wdfiotargetwdmgettargetfilehandle, PFN_WDFIOTARGETWDMGETTARGETFILEHANDLE, kmdf.wdfiotargetwdmgettargetfilehandle, WdfIoTargetWdmGetTargetFileHandle, WdfIoTargetWdmGetTargetFileHandle method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

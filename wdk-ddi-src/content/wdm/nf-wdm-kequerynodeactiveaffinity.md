@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49d4c9c7-217f-41b7-b870-886dd78e04a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryNodeActiveAffinity, wdm/KeQueryNodeActiveAffinity, kernel.kequerynodeactiveaffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml
+ms.keywords: kernel.kequerynodeactiveaffinity, KeQueryNodeActiveAffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml, wdm/KeQueryNodeActiveAffinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,15 +111,15 @@ If, during system initialization, Windows encounters a NUMA hardware node that c
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a>
-
-
-
 <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 
 <a href="..\wdm\nf-wdm-kequeryhighestnodenumber.md">KeQueryHighestNodeNumber</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, kernel.transaction_information_class, wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionEnlistmentInformation, wdm/TransactionBasicInformation, wdm/TransactionPropertiesInformation, TransactionBasicInformation, TRANSACTION_INFORMATION_CLASS, _TRANSACTION_INFORMATION_CLASS, TransactionPropertiesInformation, TransactionSuperiorEnlistmentInformation, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionEnlistmentInformation, wdm/TransactionSuperiorEnlistmentInformation
+ms.keywords: TransactionSuperiorEnlistmentInformation, kernel.transaction_information_class, wdm/TransactionPropertiesInformation, TransactionEnlistmentInformation, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, wdm/TransactionSuperiorEnlistmentInformation, TransactionPropertiesInformation, wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionEnlistmentInformation, TransactionBasicInformation, _TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/TransactionBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -93,11 +93,11 @@ Information about a transaction manager object is stored in a <b>TRANSACTION_SUP
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
 
 
 

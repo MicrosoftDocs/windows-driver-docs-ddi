@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e77aece7-df27-42d8-8e25-6907a5401ff9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestallocatetimer, PFN_WDFREQUESTALLOCATETIMER, DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, wdf.wdfrequestallocatetimer, wdfrequest/WdfRequestAllocateTimer, WdfRequestAllocateTimer, WdfRequestAllocateTimer method
+ms.keywords: wdf.wdfrequestallocatetimer, PFN_WDFREQUESTALLOCATETIMER, kmdf.wdfrequestallocatetimer, wdfrequest/WdfRequestAllocateTimer, WdfRequestAllocateTimer method, DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, WdfRequestAllocateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -175,11 +175,11 @@ if (!NT_SUCCESS(status)){
 
 ## -see-also
 
-<a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_sec.md">WDF_ABS_TIMEOUT_IN_SEC</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
+
+
+
+<a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_sec.md">WDF_ABS_TIMEOUT_IN_SEC</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml, storage.tape_set_position, TAPE_SET_POSITION structure [Storage Devices], TAPE_SET_POSITION, *PTAPE_SET_POSITION, PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, _TAPE_SET_POSITION
+ms.keywords: PTAPE_SET_POSITION, storage.tape_set_position, *PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], ntddtape/TAPE_SET_POSITION, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml, _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], TAPE_SET_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -177,11 +177,11 @@ When the offset specifies a number of blocks, filemarks, or setmarks to position
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
-
-
-
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
 
 
 

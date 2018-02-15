@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AB5939B9-01DD-4F51-BAEB-6C5EC909FAE1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], ExAcquireRundownProtectionEx, kernel.exacquirerundownprotectionex, wdm/ExAcquireRundownProtectionEx
+ms.keywords: kernel.exacquirerundownprotectionex, wdm/ExAcquireRundownProtectionEx, ExAcquireRundownProtectionEx routine [Kernel-Mode Driver Architecture], ExAcquireRundownProtectionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,19 +107,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
 
 
 
-<a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
+<a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
 
 
 
 <a href="..\wdm\nf-wdm-exreleaserundownprotectionex.md">ExReleaseRundownProtectionEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
 
 
 

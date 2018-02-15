@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3b3b12b8-05f7-40e6-909c-b99bf18cc299
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml, SeCreateClientSecurityFromSubjectContext, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], ifsk.secreateclientsecurityfromsubjectcontext, ntifs/SeCreateClientSecurityFromSubjectContext
+ms.keywords: SeCreateClientSecurityFromSubjectContext, seref_fac27935-a941-48f6-a27b-7ca56bd1f9e2.xml, ifsk.secreateclientsecurityfromsubjectcontext, SeCreateClientSecurityFromSubjectContext routine [Installable File System Drivers], ntifs/SeCreateClientSecurityFromSubjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,7 +154,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
 
 
 
@@ -162,7 +162,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
 

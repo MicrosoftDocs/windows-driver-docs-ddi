@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a0f4d4a4-f636-44df-911f-e3a615144fa9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestsend, WdfRequestSend, WdfRequestSend method, PFN_WDFREQUESTSEND, DFRequestObjectRef_3104cf0d-01d0-4299-a123-ba7a8cc0ada9.xml, wdfrequest/WdfRequestSend, wdf.wdfrequestsend
+ms.keywords: WdfRequestSend, wdf.wdfrequestsend, wdfrequest/WdfRequestSend, kmdf.wdfrequestsend, WdfRequestSend method, DFRequestObjectRef_3104cf0d-01d0-4299-a123-ba7a8cc0ada9.xml, PFN_WDFREQUESTSEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -239,10 +239,6 @@ Exit:
 
 ## -see-also
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestallocatetimer.md">WdfRequestAllocateTimer</a>
 
 
@@ -251,15 +247,19 @@ Exit:
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
-
-
-
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetstatus.md">WdfRequestGetStatus</a>
+
+
+
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 
 
 

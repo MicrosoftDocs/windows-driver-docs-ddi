@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: e1f397f6-2f33-4352-9bbc-2b2a49dcd067
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: USBD_CreateConfigurationRequest routine [Buses], USBD_CreateConfigurationRequest, usbdlib/USBD_CreateConfigurationRequest, usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml, buses.usbd_createconfigurationrequest
+ms.keywords: USBD_CreateConfigurationRequest, buses.usbd_createconfigurationrequest, USBD_CreateConfigurationRequest routine [Buses], usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml, usbdlib/USBD_CreateConfigurationRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

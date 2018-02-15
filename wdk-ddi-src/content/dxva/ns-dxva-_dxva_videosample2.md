@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0a82d7b4-1cba-4dd4-b5e4-ec85505ee3e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPDXVA_VideoSample2, DXVA_VideoSample2, LPDXVA_VideoSample2, dxva/DXVA_VideoSample2, _DXVA_VideoSample2, DXVA_VideoSample2 structure [Display Devices], dxva/LPDXVA_VideoSample2, display.dxva_videosample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml, LPDXVA_VideoSample2 structure pointer [Display Devices]"
+ms.keywords: dxva/DXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], _DXVA_VideoSample2, *LPDXVA_VideoSample2, display.dxva_videosample2, DXVA_VideoSample2 structure [Display Devices], LPDXVA_VideoSample2, dxva/LPDXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml, DXVA_VideoSample2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,11 +149,7 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
 
 
 
@@ -161,15 +157,11 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
+
+
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
-
-
-
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 
@@ -177,7 +169,15 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
 
 

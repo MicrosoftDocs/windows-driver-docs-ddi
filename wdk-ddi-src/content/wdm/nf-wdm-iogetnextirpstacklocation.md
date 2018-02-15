@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44d38686-7a66-4e27-9dc7-9b3b4dbdffd6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], IoGetNextIrpStackLocation, wdm/IoGetNextIrpStackLocation, k104_28da61f1-a732-4336-a14a-90a5bd2682c3.xml, kernel.iogetnextirpstacklocation
+ms.keywords: IoGetNextIrpStackLocation, kernel.iogetnextirpstacklocation, wdm/IoGetNextIrpStackLocation, IoGetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_28da61f1-a732-4336-a14a-90a5bd2682c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,6 +97,18 @@ The return value is a pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+
+
+
 <a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
 
 
@@ -105,19 +117,7 @@ The return value is a pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
 
 

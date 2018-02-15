@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, IPrintOemPrintTicketProvider::ValidatePrintTicket, IPrintOemPrintTicketProvider, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], print.iprintoemprintticketprovider_validateprintticket, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method
+ms.keywords: ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket method [Print Devices], print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, IPrintOemPrintTicketProvider, ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, IPrintOemPrintTicketProvider::ValidatePrintTicket, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

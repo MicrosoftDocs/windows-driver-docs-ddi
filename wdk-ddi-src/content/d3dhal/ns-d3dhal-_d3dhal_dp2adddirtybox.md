@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9cb74a6f-64ae-449a-a1de-6b05419e3387
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2ADDDIRTYBOX structure [Display Devices], d3dhal/D3DHAL_DP2ADDDIRTYBOX, display.d3dhal_dp2adddirtybox, d3dstrct_ae7da3ce-63e0-4854-ad22-12b2669baba2.xml, *LPD3DHAL_DP2ADDDIRTYBOX, _D3DHAL_DP2ADDDIRTYBOX, LPD3DHAL_DP2ADDDIRTYBOX structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2ADDDIRTYBOX, LPD3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX
+ms.keywords: "*LPD3DHAL_DP2ADDDIRTYBOX, display.d3dhal_dp2adddirtybox, d3dhal/D3DHAL_DP2ADDDIRTYBOX, LPD3DHAL_DP2ADDDIRTYBOX structure pointer [Display Devices], LPD3DHAL_DP2ADDDIRTYBOX, _D3DHAL_DP2ADDDIRTYBOX, d3dhal/LPD3DHAL_DP2ADDDIRTYBOX, D3DHAL_DP2ADDDIRTYBOX structure [Display Devices], d3dstrct_ae7da3ce-63e0-4854-ad22-12b2669baba2.xml, D3DHAL_DP2ADDDIRTYBOX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,7 +93,11 @@ D3DHAL_DP2ADDDIRTYBOX, along with the DP2OP_ADDDIRTYBOX token, is used only for 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
 
 
@@ -105,11 +109,7 @@ D3DHAL_DP2ADDDIRTYBOX, along with the DP2OP_ADDDIRTYBOX token, is used only for 
 
 
 
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

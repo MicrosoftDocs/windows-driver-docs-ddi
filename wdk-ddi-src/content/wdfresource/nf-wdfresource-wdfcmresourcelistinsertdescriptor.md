@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18406f06-d60c-401e-a745-54caf1d0c21d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCmResourceListInsertDescriptor method, WdfCmResourceListInsertDescriptor, kmdf.wdfcmresourcelistinsertdescriptor, DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, wdfresource/WdfCmResourceListInsertDescriptor, PFN_WDFCMRESOURCELISTINSERTDESCRIPTOR, wdf.wdfcmresourcelistinsertdescriptor
+ms.keywords: PFN_WDFCMRESOURCELISTINSERTDESCRIPTOR, WdfCmResourceListInsertDescriptor, wdf.wdfcmresourcelistinsertdescriptor, WdfCmResourceListInsertDescriptor method, DFResourceObjectRef_f55c637b-3d8b-4467-9668-bd723bc0206e.xml, kmdf.wdfcmresourcelistinsertdescriptor, wdfresource/WdfCmResourceListInsertDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,7 +206,7 @@ PdoEvtDeviceResourcesQuery(
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistappenddescriptor.md">WdfCmResourceListAppendDescriptor</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
 
@@ -214,7 +214,7 @@ PdoEvtDeviceResourcesQuery(
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistappenddescriptor.md">WdfCmResourceListAppendDescriptor</a>
 
 
 

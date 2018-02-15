@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 25b15c20-e23a-438f-a02e-aedc26498828
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_FILTER_CAPS, DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_FEATURE_CAPS, DXVAHDDDI_INPUT_FORMAT_CAPS, DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_DEVICE_CAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], d3dumddi/DXVAHDDDI_VPDEVCAPS, display.dxvahdddi_vpdevcaps"
+ms.keywords: DXVAHDDDI_VPDEVCAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], display.dxvahdddi_vpdevcaps, _DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_FEATURE_CAPS, DXVAHDDDI_DEVICE_CAPS, DXVAHDDDI_FILTER_CAPS, DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_INPUT_FORMAT_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -291,11 +291,11 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPDEVCAP
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 
 
@@ -303,11 +303,11 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPDEVCAP
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 

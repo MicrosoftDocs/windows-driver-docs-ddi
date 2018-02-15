@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prntfont/PUNIDRVINFO, PUNIDRVINFO, _UNIDRVINFO, *PUNIDRVINFO, prntfont/UNIDRVINFO, print.unidrvinfo, UNIDRVINFO, UNIDRVINFO structure [Print Devices], print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, PUNIDRVINFO structure pointer [Print Devices]
+ms.keywords: print.unidrvinfo, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, PUNIDRVINFO, prntfont/PUNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO structure [Print Devices], *PUNIDRVINFO, _UNIDRVINFO, UNIDRVINFO, prntfont/UNIDRVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

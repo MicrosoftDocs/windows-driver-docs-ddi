@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: de73a814-2406-4976-ae12-909ed820586c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2DRAWPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE2, LPD3DHAL_DP2DRAWPRIMITIVE2, display.d3dhal_dp2drawprimitive2, D3DHAL_DP2DRAWPRIMITIVE2, _D3DHAL_DP2DRAWPRIMITIVE2, D3DHAL_DP2DRAWPRIMITIVE2 structure [Display Devices], d3dstrct_b61a4b46-344e-4f06-9b2b-1434bb8b6dcc.xml, *LPD3DHAL_DP2DRAWPRIMITIVE2, LPD3DHAL_DP2DRAWPRIMITIVE2 structure pointer [Display Devices]
+ms.keywords: d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE2, _D3DHAL_DP2DRAWPRIMITIVE2, d3dstrct_b61a4b46-344e-4f06-9b2b-1434bb8b6dcc.xml, *LPD3DHAL_DP2DRAWPRIMITIVE2, LPD3DHAL_DP2DRAWPRIMITIVE2, LPD3DHAL_DP2DRAWPRIMITIVE2 structure pointer [Display Devices], D3DHAL_DP2DRAWPRIMITIVE2 structure [Display Devices], d3dhal/D3DHAL_DP2DRAWPRIMITIVE2, display.d3dhal_dp2drawprimitive2, D3DHAL_DP2DRAWPRIMITIVE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,15 +99,7 @@ The vertex data has been transformed by the runtime.
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawprimitive.md">D3DHAL_DP2DRAWPRIMITIVE</a>
-
-
-
-D3DDP2OP_DRAWPRIMITIVE
 
 
 
@@ -116,6 +108,14 @@ D3DDP2OP_DRAWPRIMITIVE
 
 
 D3DDP2OP_DRAWPRIMITIVE2
+
+
+
+D3DDP2OP_DRAWPRIMITIVE
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

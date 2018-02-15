@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 713c8ecc-e0a5-480a-9c53-e331aeaeb38e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_PM_CAPABILITIES, netvista.ndis_pm_capabilities, PNDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, _NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, *PNDIS_PM_CAPABILITIES
+ms.keywords: PNDIS_PM_CAPABILITIES, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, ntddndis/PNDIS_PM_CAPABILITIES, _NDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_PM_CAPABILITIES, netvista.ndis_pm_capabilities, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], *PNDIS_PM_CAPABILITIES, ntddndis/NDIS_PM_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -613,7 +613,23 @@ The
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
 
 
 
@@ -622,23 +638,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439808">NDIS_STATUS_PM_WAKE_REASON</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>
 
 
 

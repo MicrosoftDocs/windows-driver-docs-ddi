@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8e6b967f-7114-4231-bcfc-23637cd83268
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: RegisterServiceGroup method [Audio Devices], audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, portcls/IPortMidi::RegisterServiceGroup, audio.iportmidi_registerservicegroup, RegisterServiceGroup, IPortMidi::RegisterServiceGroup, IPortMidi, IPortMidi interface [Audio Devices], RegisterServiceGroup method, RegisterServiceGroup method [Audio Devices], IPortMidi interface
+ms.keywords: portcls/IPortMidi::RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], IPortMidi interface, audio.iportmidi_registerservicegroup, IPortMidi::RegisterServiceGroup, audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, IPortMidi, IPortMidi interface [Audio Devices], RegisterServiceGroup method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

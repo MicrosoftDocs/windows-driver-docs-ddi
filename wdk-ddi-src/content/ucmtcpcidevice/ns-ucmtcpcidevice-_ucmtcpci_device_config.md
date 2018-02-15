@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 74de7f2a-8738-472b-8a22-983a82e29fcb
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, buses.ucmtcpci_device_config, PUCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses], PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], *PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG"
+ms.keywords: buses.ucmtcpci_device_config, PUCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses], _UCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

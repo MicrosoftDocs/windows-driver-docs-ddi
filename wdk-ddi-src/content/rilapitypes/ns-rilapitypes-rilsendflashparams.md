@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2279c1f2-382f-4cae-a881-997f0bed7b6d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSENDFLASHPARAMS, netvista.rilsendflashparams_2, *LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS, netvista.rilsendflashparams_2, rilapitypes/RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

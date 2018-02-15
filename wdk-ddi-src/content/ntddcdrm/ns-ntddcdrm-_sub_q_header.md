@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3ee3657d-acdd-4d3f-9cff-eb4a494429b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sub_q_header, SUB_Q_HEADER, PSUB_Q_HEADER structure pointer [Storage Devices], *PSUB_Q_HEADER, ntddcdrm/PSUB_Q_HEADER, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml, _SUB_Q_HEADER, PSUB_Q_HEADER, ntddcdrm/SUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices]
+ms.keywords: "_SUB_Q_HEADER, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml, SUB_Q_HEADER structure [Storage Devices], PSUB_Q_HEADER structure pointer [Storage Devices], ntddcdrm/SUB_Q_HEADER, SUB_Q_HEADER, storage.sub_q_header, PSUB_Q_HEADER, *PSUB_Q_HEADER, ntddcdrm/PSUB_Q_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

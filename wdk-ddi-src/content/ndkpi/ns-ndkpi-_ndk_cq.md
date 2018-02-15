@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FE5E1E5F-3EEC-4FF4-B275-E2B086ADCDCC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDK_CQ structure [Network Drivers Starting with Windows Vista], PNDK_CQ structure pointer [Network Drivers Starting with Windows Vista], netvista.ndk_cq, ndkpi/NDK_CQ, PNDK_CQ, ndkpi/PNDK_CQ, _NDK_CQ, NDK_CQ
+ms.keywords: ndkpi/PNDK_CQ, netvista.ndk_cq, NDK_CQ structure [Network Drivers Starting with Windows Vista], PNDK_CQ structure pointer [Network Drivers Starting with Windows Vista], PNDK_CQ, ndkpi/NDK_CQ, NDK_CQ, _NDK_CQ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,7 +89,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
 
 
 
@@ -97,19 +97,19 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>
 
 
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
 
 
 

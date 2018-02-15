@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a9299c25-4210-4161-bfd6-8a13113b93e1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winddiui/ATTRIBUTE_INFO_3, PATTRIBUTE_INFO_3, winddiui/PATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3 structure [Print Devices], ATTRIBUTE_INFO_3, print_interface-graphics_473dca69-31fc-410d-a9d6-cfa5241f2c5b.xml, _ATTRIBUTE_INFO_3, PATTRIBUTE_INFO_3 structure pointer [Print Devices], *PATTRIBUTE_INFO_3, print.attribute_info_3
+ms.keywords: PATTRIBUTE_INFO_3, *PATTRIBUTE_INFO_3, print.attribute_info_3, winddiui/PATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3 structure [Print Devices], print_interface-graphics_473dca69-31fc-410d-a9d6-cfa5241f2c5b.xml, PATTRIBUTE_INFO_3 structure pointer [Print Devices], _ATTRIBUTE_INFO_3, winddiui/ATTRIBUTE_INFO_3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -238,6 +238,10 @@ For information about other ATTRIBUTE_INFO_3 structure members, see <a href="..\
 
 ## -see-also
 
+<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
+
+
+
 <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
 
@@ -251,10 +255,6 @@ For information about other ATTRIBUTE_INFO_3 structure members, see <a href="..\
 
 
 <a href="..\winddiui\ns-winddiui-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
-
-
-
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
 
 
 

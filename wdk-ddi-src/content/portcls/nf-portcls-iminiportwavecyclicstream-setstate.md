@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 61d7252e-04af-46f1-a885-4720698ae930
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices], SetState method, audio.iminiportwavecyclicstream_setstate, IMiniportWaveCyclicStream, SetState, SetState method [Audio Devices], portcls/IMiniportWaveCyclicStream::SetState, SetState method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream::SetState, audmp-routines_46474aab-87da-4121-9cb8-ee8b280c7852.xml
+ms.keywords: audmp-routines_46474aab-87da-4121-9cb8-ee8b280c7852.xml, audio.iminiportwavecyclicstream_setstate, IMiniportWaveCyclicStream::SetState, SetState method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream interface [Audio Devices], SetState method, SetState method [Audio Devices], portcls/IMiniportWaveCyclicStream::SetState, IMiniportWaveCyclicStream, SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -134,7 +134,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMini
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
 
 
 
@@ -142,11 +146,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMini
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
 

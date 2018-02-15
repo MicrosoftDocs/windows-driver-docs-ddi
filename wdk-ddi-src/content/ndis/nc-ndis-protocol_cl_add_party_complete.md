@@ -236,14 +236,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
 
@@ -252,7 +244,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
 
 
 
@@ -260,11 +256,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
 
 
 

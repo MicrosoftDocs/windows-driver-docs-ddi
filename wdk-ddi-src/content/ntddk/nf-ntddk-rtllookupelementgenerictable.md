@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9182084b-ea11-48e4-acb5-06a8375d05bf
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtllookupelementgenerictable, ntddk/RtlLookupElementGenericTable, rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml, RtlLookupElementGenericTable routine [Installable File System Drivers], RtlLookupElementGenericTable
+ms.keywords: ntddk/RtlLookupElementGenericTable, rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml, RtlLookupElementGenericTable routine [Installable File System Drivers], RtlLookupElementGenericTable, ifsk.rtllookupelementgenerictable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

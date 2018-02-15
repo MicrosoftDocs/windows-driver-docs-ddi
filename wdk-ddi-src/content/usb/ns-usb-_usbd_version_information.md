@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 37dc1e94-18cb-48d5-81a2-74d03cef4d5d
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbstrct_2871bd56-3ee1-48ab-8353-d19b74470ff1.xml, PUSBD_VERSION_INFORMATION structure pointer [Buses], usb/USBD_VERSION_INFORMATION, PUSBD_VERSION_INFORMATION, _USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION, buses.usbd_version_information, usb/PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION structure [Buses], USBD_VERSION_INFORMATION
+ms.keywords: PUSBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION structure [Buses], USBD_VERSION_INFORMATION, _USBD_VERSION_INFORMATION, usb/USBD_VERSION_INFORMATION, usbstrct_2871bd56-3ee1-48ab-8353-d19b74470ff1.xml, PUSBD_VERSION_INFORMATION structure pointer [Buses], buses.usbd_version_information, usb/PUSBD_VERSION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -163,11 +163,11 @@ Contains a binary-coded decimal USB specification version number.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a>
 
 
 

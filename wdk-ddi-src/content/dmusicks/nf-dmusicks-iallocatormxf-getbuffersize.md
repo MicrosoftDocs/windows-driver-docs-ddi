@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b3a35769-a98a-40f5-bdc1-db964d2a967c
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IAllocatorMXF, GetBufferSize method [Audio Devices], IAllocatorMXF interface [Audio Devices], GetBufferSize method, dmusicks/IAllocatorMXF::GetBufferSize, GetBufferSize, IAllocatorMXF::GetBufferSize, GetBufferSize method [Audio Devices], IAllocatorMXF interface, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, audio.iallocatormxf_getbuffersize
+ms.keywords: IAllocatorMXF::GetBufferSize, audmp-routines_5eb7fc90-4f40-4796-9c7c-2086689f1593.xml, GetBufferSize method [Audio Devices], IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices], GetBufferSize method, dmusicks/IAllocatorMXF::GetBufferSize, GetBufferSize, GetBufferSize method [Audio Devices], audio.iallocatormxf_getbuffersize, IAllocatorMXF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ USHORT GetBufferSize(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536492">IAllocatorMXF::GetBuffer</a>
-
-
-
 <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536492">IAllocatorMXF::GetBuffer</a>
 
 
 

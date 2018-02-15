@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 85b3764d-00b5-4e1d-bedc-c59a6b182735
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE structure [Display Devices], dispmprt/PDXGK_TIMED_OPERATION_INTERFACE, _DXGK_TIMED_OPERATION_INTERFACE, *PDXGK_TIMED_OPERATION_INTERFACE, display.dxgk_timed_operation_interface, PDXGK_TIMED_OPERATION_INTERFACE, DmStructs_024c0974-7f10-4251-b08e-c68307fc62d9.xml, dispmprt/DXGK_TIMED_OPERATION_INTERFACE, PDXGK_TIMED_OPERATION_INTERFACE structure pointer [Display Devices]
+ms.keywords: DXGK_TIMED_OPERATION_INTERFACE, PDXGK_TIMED_OPERATION_INTERFACE, display.dxgk_timed_operation_interface, DmStructs_024c0974-7f10-4251-b08e-c68307fc62d9.xml, dispmprt/DXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE structure [Display Devices], PDXGK_TIMED_OPERATION_INTERFACE structure pointer [Display Devices], *PDXGK_TIMED_OPERATION_INTERFACE, _DXGK_TIMED_OPERATION_INTERFACE, dispmprt/PDXGK_TIMED_OPERATION_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -216,11 +216,7 @@ The display miniport driver supplies the <b>Size</b> and <b>Version</b> members 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
 
 
 
@@ -228,11 +224,15 @@ The display miniport driver supplies the <b>Size</b> and <b>Version</b> members 
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15582270-6cc4-43d4-b9e6-dceab3bc092d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wmistr/PWNODE_ALL_DATA, wmistr/WNODE_ALL_DATA, kernel.wnode_all_data, PWNODE_ALL_DATA, tagWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], *PWNODE_ALL_DATA, WNODE_ALL_DATA, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml
+ms.keywords: "*PWNODE_ALL_DATA, PWNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], wmistr/WNODE_ALL_DATA, WNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], kernel.wnode_all_data, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, tagWNODE_ALL_DATA, wmistr/PWNODE_ALL_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,14 +132,14 @@ If instances to be returned vary in size, <b>OffsetInstanceDataAndLength</b> is 
 Each instance must be aligned on a USHORT boundary. The <b>OffsetInstanceDataAndLength</b> member is valid only if the driver clears WNODE_FLAG_FIXED_INSTANCE_SIZE in <b>WnodeHeader.Flags</b>. 
 
 
-##### - OffsetInstanceDataAndLength.OffsetInstanceData
-
-Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the instance data.
-
-
 ##### - OffsetInstanceDataAndLength.LengthInstanceData
 
 Indicates the length in bytes of the instance data.
+
+
+##### - OffsetInstanceDataAndLength.OffsetInstanceData
+
+Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the instance data.
 
 
 ## -remarks

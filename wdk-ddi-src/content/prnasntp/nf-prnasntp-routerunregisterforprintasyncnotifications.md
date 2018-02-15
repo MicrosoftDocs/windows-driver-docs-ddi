@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 67909e35-fae2-40b7-b39f-58576e932332
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml, RouterUnregisterForPrintAsyncNotifications, RouterUnregisterForPrintAsyncNotifications function [Print Devices], prnasntp/RouterUnregisterForPrintAsyncNotifications, print.routerunregisterforprintasyncnotifications
+ms.keywords: prnasntp/RouterUnregisterForPrintAsyncNotifications, RouterUnregisterForPrintAsyncNotifications function [Print Devices], print.routerunregisterforprintasyncnotifications, spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml, RouterUnregisterForPrintAsyncNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

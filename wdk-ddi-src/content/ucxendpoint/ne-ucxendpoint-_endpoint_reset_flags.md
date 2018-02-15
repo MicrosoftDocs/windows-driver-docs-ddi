@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3775836D-DC1E-47B4-8186-2AC329825FCE
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.endpoint_reset_flags, _ENDPOINT_RESET_FLAGS, ENDPOINT_RESET_FLAGS enumeration [Buses], ucxendpoint/ENDPOINT_RESET_FLAGS, ENDPOINT_RESET_FLAGS, ucxendpoint/FlagEndpointResetPreserveTransferState, FlagEndpointResetPreserveTransferState
+ms.keywords: buses.endpoint_reset_flags, ENDPOINT_RESET_FLAGS, _ENDPOINT_RESET_FLAGS, ucxendpoint/ENDPOINT_RESET_FLAGS, ENDPOINT_RESET_FLAGS enumeration [Buses], ucxendpoint/FlagEndpointResetPreserveTransferState, FlagEndpointResetPreserveTransferState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -75,11 +75,11 @@ The transfer state must be preserved after the endpoint reset operation is compl
 
 ## -see-also
 
-<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_reset.md">EVT_UCX_ENDPOINT_RESET</a>
-
-
-
 <a href="..\ucxendpoint\ns-ucxendpoint-_endpoint_reset.md">ENDPOINT_RESET</a>
+
+
+
+<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_reset.md">EVT_UCX_ENDPOINT_RESET</a>
 
 
 

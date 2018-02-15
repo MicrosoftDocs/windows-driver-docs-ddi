@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 47e7fd44-b98f-4e0a-80c8-cc9b6dcc483b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetPinFromFileObject function [Streaming Media Devices], ks/KsGetPinFromFileObject, avfunc_18bdc4eb-2823-481e-ba51-e4103ff10d8c.xml, stream.ksgetpinfromfileobject, KsGetPinFromFileObject
+ms.keywords: ks/KsGetPinFromFileObject, KsGetPinFromFileObject, avfunc_18bdc4eb-2823-481e-ba51-e4103ff10d8c.xml, KsGetPinFromFileObject function [Streaming Media Devices], stream.ksgetpinfromfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

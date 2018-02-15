@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3676476d-babe-4d68-995b-b7068a587bbc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH, DmStructs_7cf350db-f1fa-492f-96d2-9ad806f2b75a.xml, _D3DKMDT_VIDPN_PRESENT_PATH, display.d3dkmdt_vidpn_present_path, D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH structure [Display Devices]
+ms.keywords: DmStructs_7cf350db-f1fa-492f-96d2-9ad806f2b75a.xml, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH structure [Display Devices], D3DKMDT_VIDPN_PRESENT_PATH, _D3DKMDT_VIDPN_PRESENT_PATH, display.d3dkmdt_vidpn_present_path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

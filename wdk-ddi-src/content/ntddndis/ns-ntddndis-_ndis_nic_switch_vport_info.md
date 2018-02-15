@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5effb179-18e8-4306-84c5-724cb5483449
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NIC_SWITCH_VPORT_INFO, _NDIS_NIC_SWITCH_VPORT_INFO, *PNDIS_NIC_SWITCH_VPORT_INFO, netvista.ndis_nic_switch_vport_info, NDIS_NIC_SWITCH_VPORT_INFO, PNDIS_NIC_SWITCH_VPORT_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO, ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO, NDIS_NIC_SWITCH_VPORT_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NDIS_NIC_SWITCH_VPORT_INFO, *PNDIS_NIC_SWITCH_VPORT_INFO, PNDIS_NIC_SWITCH_VPORT_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_INFO, PNDIS_NIC_SWITCH_VPORT_INFO, NDIS_NIC_SWITCH_VPORT_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_nic_switch_vport_info, ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO, NDIS_NIC_SWITCH_VPORT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -199,11 +199,7 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info_array.md">NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -211,7 +207,11 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info_array.md">NDIS_NIC_SWITCH_VPORT_INFO_ARRAY</a>
 
 
 

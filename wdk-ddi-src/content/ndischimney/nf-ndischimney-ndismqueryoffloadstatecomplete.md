@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7bcc6610-0c48-4a7f-b8fa-be372af201ba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMQueryOffloadStateComplete, ndischimney/NdisMQueryOffloadStateComplete, netvista.ndismqueryoffloadstatecomplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml
+ms.keywords: netvista.ndismqueryoffloadstatecomplete, ndischimney/NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete, NdisMQueryOffloadStateComplete function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_505090bf-b327-439e-886e-784bb5f44b00.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,7 +131,8 @@ Write a status value of NDIS_STATUS_SUCCESS or NDIS_STATUS_FAILURE to the
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
@@ -139,8 +140,7 @@ Write a status value of NDIS_STATUS_SUCCESS or NDIS_STATUS_FAILURE to the
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
 
 
 

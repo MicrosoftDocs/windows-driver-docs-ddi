@@ -40,7 +40,7 @@ apiname:
 -	RequestWorker
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKREQUESTWORKER callback
@@ -78,11 +78,14 @@ A POHANDLE value that represents the registration of the device with PoFx. The P
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine is implemented by PoFx and is called by the PEP. The <b>RequestWorker</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>RequestWorker</b> routine.
@@ -93,11 +96,16 @@ A PEP can call this routine at IRQL &lt;= DISPATCH_LEVEL.
 
 
 
+
 ## -see-also
+
+<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
 
  
 

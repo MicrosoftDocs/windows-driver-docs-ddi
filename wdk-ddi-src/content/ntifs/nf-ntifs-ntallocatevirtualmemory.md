@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory, kernel.zwallocatevirtualmemory, k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, ZwAllocateVirtualMemory
+ms.keywords: ZwAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory, kernel.zwallocatevirtualmemory, NtAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, ntifs/NtAllocateVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -363,11 +363,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-zwfreevirtualmemory.md">ZwFreeVirtualMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

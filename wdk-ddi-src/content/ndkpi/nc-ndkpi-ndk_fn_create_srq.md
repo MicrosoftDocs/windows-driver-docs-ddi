@@ -225,15 +225,15 @@ The <i>NdkCreateSrq</i> function creates an NDK shared receive queue (SRQ) objec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
-
-
-
 <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_srq_notification_callback.md">NDK_FN_SRQ_NOTIFICATION_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 

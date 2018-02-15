@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f11b3b85-d01b-4133-9279-bff0001e04f9
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintCoreHelperUni::GetFontSubstitution, print.iprintcorehelperuni_getfontsubstitution, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml, GetFontSubstitution, GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni, GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface [Print Devices], GetFontSubstitution method, IPrintCoreHelperUni::GetFontSubstitution
+ms.keywords: IPrintCoreHelperUni, prcomoem/IPrintCoreHelperUni::GetFontSubstitution, GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, print.iprintcorehelperuni_getfontsubstitution, IPrintCoreHelperUni interface [Print Devices], GetFontSubstitution method, GetFontSubstitution, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml, IPrintCoreHelperUni::GetFontSubstitution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

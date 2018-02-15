@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b2c70976-00ce-4563-af60-0bbdd1a65540
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEGETDEVICEDESCRIPTOR, DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor, wdf.wdfusbtargetdevicegetdevicedescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method, kmdf.wdfusbtargetdevicegetdevicedescriptor
+ms.keywords: PFN_WDFUSBTARGETDEVICEGETDEVICEDESCRIPTOR, kmdf.wdfusbtargetdevicegetdevicedescriptor, wdf.wdfusbtargetdevicegetdevicedescriptor, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor, DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

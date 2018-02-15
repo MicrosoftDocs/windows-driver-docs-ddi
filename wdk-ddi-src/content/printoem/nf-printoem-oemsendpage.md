@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9a3380d0-2d90-49ec-b97d-be55eb6eaaa5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMSendPage function [Print Devices], printoem/OEMSendPage, OEMSendPage, print.oemsendpage, print_unidrv-pscript_rendering_6a896dea-57aa-4fa0-810f-dadb79b13079.xml
+ms.keywords: print_unidrv-pscript_rendering_6a896dea-57aa-4fa0-810f-dadb79b13079.xml, print.oemsendpage, printoem/OEMSendPage, OEMSendPage, OEMSendPage function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

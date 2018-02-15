@@ -40,7 +40,7 @@ apiname:
 -	CamStartCaptureEx
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -91,15 +91,19 @@ Indicates the stream number.
 ## -returns
 
 
+
 <b>CamStartCaptureEx</b> returns STATUS_SUCCESS or an appropriate error code. This return value is the completion code for the read IRP.
+
 
 
 
 ## -remarks
 
 
+
 The original USBCAMD does not call <b>CamStartCaptureEx</b>.
 
 This function is required.
+
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 935E4BAD-2B4E-44DD-8AE6-A0FD1FE9F2BF
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNext, debugger.idebugfailureanalysis2_getnext, IDebugFailureAnalysis2::GetNext, extsfns/IDebugFailureAnalysis2::GetNext, GetNext method [Windows Debugging], GetNext method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging], GetNext method, IDebugFailureAnalysis2
+ms.keywords: debugger.idebugfailureanalysis2_getnext, IDebugFailureAnalysis2 interface [Windows Debugging], GetNext method, GetNext method [Windows Debugging], extsfns/IDebugFailureAnalysis2::GetNext, IDebugFailureAnalysis2, GetNext, GetNext method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::GetNext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -220,11 +220,11 @@ while(NULL != entry)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
-
-
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67942bf7-28f6-4b2d-a880-9439afaf0bb2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, RemoveTailList, kernel.removetaillist, RemoveTailList routine [Kernel-Mode Driver Architecture], wdm/RemoveTailList
+ms.keywords: k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, RemoveTailList, RemoveTailList routine [Kernel-Mode Driver Architecture], kernel.removetaillist, wdm/RemoveTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,7 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
+<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
 
 
@@ -105,11 +105,11 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 
 
-<a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
-
-
-
 <a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
 
 

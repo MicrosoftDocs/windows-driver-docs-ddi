@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ntifs/CcPinMappedData, CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ifsk.ccpinmappeddata
+ms.keywords: ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ifsk.ccpinmappeddata, CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ntifs/CcPinMappedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,7 +178,15 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinDa
 
 
 
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 
@@ -187,14 +195,6 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinDa
 
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 

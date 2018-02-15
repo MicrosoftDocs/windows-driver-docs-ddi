@@ -109,11 +109,11 @@ The <i>AcceptDeviceNotification</i> routine can be called at IRQL &lt;= DISPATCH
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
-
-
-
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
 
 

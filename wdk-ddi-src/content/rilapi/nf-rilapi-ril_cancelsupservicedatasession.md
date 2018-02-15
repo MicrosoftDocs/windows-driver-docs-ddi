@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4b247e4-65d5-47ec-879d-9718710a7b61
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_cancelsupservicedatasession, RIL_CancelSupServiceDataSession, rilapi/RIL_CancelSupServiceDataSession, RIL_CancelSupServiceDataSession method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_cancelsupservicedatasession, RIL_CancelSupServiceDataSession, RIL_CancelSupServiceDataSession method [Network Drivers Starting with Windows Vista], rilapi/RIL_CancelSupServiceDataSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

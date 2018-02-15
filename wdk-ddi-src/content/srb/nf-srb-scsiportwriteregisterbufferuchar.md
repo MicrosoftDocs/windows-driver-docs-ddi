@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6c04c3ae-bca4-4235-a76a-2cfd1fbe4db7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_260290c1-818a-49dd-9705-ea79984fa0af.xml, ScsiPortWriteRegisterBufferUchar, ScsiPortWriteRegisterBufferUchar routine [Storage Devices], srb/ScsiPortWriteRegisterBufferUchar, storage.scsiportwriteregisterbufferuchar
+ms.keywords: scsiprt_260290c1-818a-49dd-9705-ea79984fa0af.xml, srb/ScsiPortWriteRegisterBufferUchar, storage.scsiportwriteregisterbufferuchar, ScsiPortWriteRegisterBufferUchar routine [Storage Devices], ScsiPortWriteRegisterBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

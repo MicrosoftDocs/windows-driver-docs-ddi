@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24444451-7323-4e1a-9981-cf5caa00c4e3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, DXGK_PREEMPTCOMMANDFLAGS, _DXGK_PREEMPTCOMMANDFLAGS, display.dxgk_preemptcommandflags, d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS
+ms.keywords: d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS, _DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, display.dxgk_preemptcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

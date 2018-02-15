@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f27b7622-614b-4c9e-8253-51f4638e5eb0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_009bdc6a-6bbc-4a7f-927e-ea5c6de8fa95.xml, MmMapLockedPages routine [Kernel-Mode Driver Architecture], wdm/MmMapLockedPages, kernel.mmmaplockedpages, MmMapLockedPages
+ms.keywords: MmMapLockedPages routine [Kernel-Mode Driver Architecture], kernel.mmmaplockedpages, wdm/MmMapLockedPages, MmMapLockedPages, k106_009bdc6a-6bbc-4a7f-927e-ea5c6de8fa95.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,11 +109,7 @@ Callers of <b>MmMapLockedPages</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+<a href="..\wdm\nf-wdm-mmgetsystemaddressformdl.md">MmGetSystemAddressForMdl</a>
 
 
 
@@ -121,7 +117,11 @@ Callers of <b>MmMapLockedPages</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 
 
-<a href="..\wdm\nf-wdm-mmgetsystemaddressformdl.md">MmGetSystemAddressForMdl</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

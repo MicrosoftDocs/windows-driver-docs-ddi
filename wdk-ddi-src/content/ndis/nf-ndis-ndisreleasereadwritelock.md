@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml, netvista.ndisreleasereadwritelock, ndis/NdisReleaseReadWriteLock, NdisReleaseReadWriteLock, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisreleasereadwritelock, NdisReleaseReadWriteLock, ndis/NdisReleaseReadWriteLock, ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,7 +121,7 @@ A driver must call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a>
+<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
 
 
 
@@ -129,7 +129,7 @@ A driver must call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializereadwritelock.md">NdisInitializeReadWriteLock</a>
+<a href="..\ndis\ns-ndis-_ndis_rw_lock.md">NDIS_RW_LOCK</a>
 
 
 

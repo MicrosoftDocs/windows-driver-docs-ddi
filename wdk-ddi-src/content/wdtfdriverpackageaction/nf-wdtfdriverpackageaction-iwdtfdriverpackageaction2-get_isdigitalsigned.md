@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 421682aa-2e21-4650-bae0-f47e6beff632
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IsDigitalSigned property [Windows Device Testing Framework], dtf.iwdtfdriverpackageaction2_isdigitalsigned, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IsDigitalSigned property, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsDigitalSigned, IsDigitalSigned property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft::WDTF::IWDTFDriverPackageAction2::IsDigitalSigned, IWDTFDriverPackageAction2::get_IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsDigitalSigned, get_IsDigitalSigned, Microsoft.WDTF.IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2.IsDigitalSigned
+ms.keywords: Microsoft::WDTF::IWDTFDriverPackageAction2::IsDigitalSigned, IsDigitalSigned property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IsDigitalSigned property, Microsoft.WDTF.IWDTFDriverPackageAction2.IsDigitalSigned, dtf.iwdtfdriverpackageaction2_isdigitalsigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsDigitalSigned, IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2::get_IsDigitalSigned, IWDTFDriverPackageAction2, IsDigitalSigned property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, get_IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsDigitalSigned
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

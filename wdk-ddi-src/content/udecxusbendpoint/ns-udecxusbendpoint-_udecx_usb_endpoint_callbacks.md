@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5AAB4474-9FDF-4ACF-AC38-F84D2682B5E0
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], UDECX_USB_ENDPOINT_CALLBACKS structure [Buses], _UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS, buses.udecx_usb_endpoint_callbacks, PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS
+ms.keywords: UDECX_USB_ENDPOINT_CALLBACKS, buses.udecx_usb_endpoint_callbacks, *PUDECX_USB_ENDPOINT_CALLBACKS, UDECX_USB_ENDPOINT_CALLBACKS structure [Buses], udecxusbendpoint/PUDECX_USB_ENDPOINT_CALLBACKS, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS, PUDECX_USB_ENDPOINT_CALLBACKS structure pointer [Buses], _UDECX_USB_ENDPOINT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,11 +93,11 @@ Optional. A pointer to an <a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_u
 
 ## -see-also
 
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
-
-
-
 <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks.md">UdecxUsbEndpointInitSetCallbacks</a>
+
+
+
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
 
 

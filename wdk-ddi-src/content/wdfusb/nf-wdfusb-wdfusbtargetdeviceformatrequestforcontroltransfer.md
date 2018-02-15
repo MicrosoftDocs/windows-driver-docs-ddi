@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 72ba7550-9153-4ff7-8478-c9cc71151a25
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, WdfUsbTargetDeviceFormatRequestForControlTransfer method, wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer, kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCONTROLTRANSFER, wdf.wdfusbtargetdeviceformatrequestforcontroltransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer
+ms.keywords: PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCONTROLTRANSFER, WdfUsbTargetDeviceFormatRequestForControlTransfer, wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer, DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer method, wdf.wdfusbtargetdeviceformatrequestforcontroltransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

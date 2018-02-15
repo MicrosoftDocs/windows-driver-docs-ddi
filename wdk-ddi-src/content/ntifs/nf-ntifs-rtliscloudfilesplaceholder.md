@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9FF2EC69-0844-4FD7-A2BC-F16C42922212
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlIsCloudFilesPlaceholder, ntifs/RtlIsCloudFilesPlaceholder, RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], ifsk.rtliscloudfilesplaceholder
+ms.keywords: RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], ntifs/RtlIsCloudFilesPlaceholder, RtlIsCloudFilesPlaceholder, ifsk.rtliscloudfilesplaceholder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

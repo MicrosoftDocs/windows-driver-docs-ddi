@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 83c1c4cb-b28b-4980-92fb-a1a49d95406e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdmatransactiondmacompleted, WdfDmaTransactionDmaCompleted, DFDmaObjectRef_d7fd815f-7c21-4b84-b4f2-0dcc13cf068a.xml, wdfdmatransaction/WdfDmaTransactionDmaCompleted, kmdf.wdfdmatransactiondmacompleted, WdfDmaTransactionDmaCompleted method
+ms.keywords: DFDmaObjectRef_d7fd815f-7c21-4b84-b4f2-0dcc13cf068a.xml, wdfdmatransaction/WdfDmaTransactionDmaCompleted, WdfDmaTransactionDmaCompleted, wdf.wdfdmatransactiondmacompleted, kmdf.wdfdmatransactiondmacompleted, WdfDmaTransactionDmaCompleted method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -263,7 +263,11 @@ AmccPciEvtInterruptDpc(
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
+<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 
@@ -271,15 +275,7 @@ AmccPciEvtInterruptDpc(
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>
 
 
 
@@ -287,11 +283,15 @@ AmccPciEvtInterruptDpc(
 
 
 
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+
+
+
 <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
 
 
 

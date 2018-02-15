@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8eda6100-598f-405d-a9b3-74424c829a58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismallocatesharedmemory, ndis/NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], NdisMAllocateSharedMemory, miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml
+ms.keywords: NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory, miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, ndis/NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -240,8 +240,16 @@ If a miniport driver calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
-   NdisMAllocateSharedMemoryAsyncEx</a>
+<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
+
+
+
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 
 
@@ -249,7 +257,8 @@ If a miniport driver calls
 
 
 
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
 
 
 
@@ -261,20 +270,11 @@ If a miniport driver calls
 
 
 
-<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
 
 
 
@@ -282,12 +282,12 @@ If a miniport driver calls
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
-   MiniportSharedMemoryAllocateComplete</a>
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a>
 
 
 

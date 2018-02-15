@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5d860c5c-e29e-4ea2-b6f7-bcaab0d4584d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: swenum/KsGetBusEnumParentFDOFromChildPDO, stream.ksgetbusenumparentfdofromchildpdo, KsGetBusEnumParentFDOFromChildPDO, ksfunc_592bfe23-7135-4118-9acf-6783691c55ea.xml, KsGetBusEnumParentFDOFromChildPDO function [Streaming Media Devices]
+ms.keywords: stream.ksgetbusenumparentfdofromchildpdo, swenum/KsGetBusEnumParentFDOFromChildPDO, KsGetBusEnumParentFDOFromChildPDO function [Streaming Media Devices], ksfunc_592bfe23-7135-4118-9acf-6783691c55ea.xml, KsGetBusEnumParentFDOFromChildPDO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7c9f7c52-edb3-48cd-b532-0e100692fee4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, netvista.riluiccsubscribernumbers, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUMTSMRL"
+ms.keywords: netvista.riluiccsubscribernumbers, rilapitypes/RILUMTSMRL, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], *LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b1d9ce90-9926-4ff8-a5bb-54c1a88d84dc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCmCreateVc, netvista.ndismcmcreatevc, NdisMCmCreateVc, NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml
+ms.keywords: NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], ndis/NdisMCmCreateVc, condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml, netvista.ndismcmcreatevc, NdisMCmCreateVc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -213,11 +213,20 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
@@ -229,16 +238,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
 
 
 

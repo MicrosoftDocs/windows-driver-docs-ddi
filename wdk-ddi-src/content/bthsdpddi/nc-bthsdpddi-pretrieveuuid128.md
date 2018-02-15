@@ -86,11 +86,14 @@ A pointer to an aligned variable to receive the 128-bit UUID.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -115,9 +118,12 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

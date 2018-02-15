@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a61da8e7-6db0-4d89-bf68-8fa74c284720
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], storport/MINIPORT_DUMP_POINTERS, storport/PMINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml, MINIPORT_DUMP_POINTERS structure [Storage Devices], *PMINIPORT_DUMP_POINTERS, _MINIPORT_DUMP_POINTERS
+ms.keywords: storport/PMINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml, *PMINIPORT_DUMP_POINTERS, _MINIPORT_DUMP_POINTERS, storport/MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], MINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -196,7 +196,7 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 
@@ -204,11 +204,11 @@ Starting with Windows 8, physical minport drivers can optionally support SRB_FU
 
 
 
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 

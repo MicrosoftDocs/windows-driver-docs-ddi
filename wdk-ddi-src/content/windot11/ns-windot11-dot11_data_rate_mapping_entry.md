@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d2772a9e-655a-4e3e-8b48-65d58b0a659d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_DATA_RATE_MAPPING_ENTRY, PDOT11_DATA_RATE_MAPPING_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_data_rate_mapping_entry, DOT11_DATA_RATE_MAPPING_ENTRY, windot11/DOT11_DATA_RATE_MAPPING_ENTRY, Native_802.11_data_types_465aabe5-c790-4e3d-ae63-3313dd487eb5.xml, PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY structure [Network Drivers Starting with Windows Vista], *PDOT11_DATA_RATE_MAPPING_ENTRY
+ms.keywords: windot11/DOT11_DATA_RATE_MAPPING_ENTRY, netvista.dot11_data_rate_mapping_entry, *PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY structure [Network Drivers Starting with Windows Vista], DOT11_DATA_RATE_MAPPING_ENTRY, Native_802.11_data_types_465aabe5-c790-4e3d-ae63-3313dd487eb5.xml, windot11/PDOT11_DATA_RATE_MAPPING_ENTRY, PDOT11_DATA_RATE_MAPPING_ENTRY, PDOT11_DATA_RATE_MAPPING_ENTRY structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ED597BB0-F9ED-4311-9E2F-06AEA2755B37
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddiarg_resource_barrier_0022, D3D12DDIARG_RESOURCE_BARRIER_0022 structure [Display Devices], D3D12DDIARG_RESOURCE_BARRIER_0022, d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022
+ms.keywords: d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022, D3D12DDIARG_RESOURCE_BARRIER_0022 structure [Display Devices], D3D12DDIARG_RESOURCE_BARRIER_0022, display.d3d12ddiarg_resource_barrier_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

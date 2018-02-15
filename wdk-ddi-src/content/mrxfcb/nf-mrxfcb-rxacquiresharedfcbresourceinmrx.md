@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5ef976a7-5be6-414b-a558-75c107f75d61
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxAcquireSharedFcbResourceInMRx, RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrx, rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml, mrxfcb/RxAcquireSharedFcbResourceInMRx
+ms.keywords: RxAcquireSharedFcbResourceInMRx, ifsk.rxacquiresharedfcbresourceinmrx, RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml, mrxfcb/RxAcquireSharedFcbResourceInMRx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -133,11 +133,11 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRx </b>should be r
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
-
-
-
 <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
+
+
+
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
 
 
 

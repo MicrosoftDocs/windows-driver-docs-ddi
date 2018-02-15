@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19a0eec7-1a67-42ad-86d2-20566a2c1268
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival
+ms.keywords: UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, OnRemoteInterfaceArrival method, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface, IPnpCallbackRemoteInterfaceNotification, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, OnRemoteInterfaceArrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,7 +120,7 @@ For more information about using remote interface objects to access device inter
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 
 
@@ -132,7 +132,7 @@ For more information about using remote interface objects to access device inter
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>
 
 
 

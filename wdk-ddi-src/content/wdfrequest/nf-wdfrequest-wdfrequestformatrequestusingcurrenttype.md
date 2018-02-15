@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 51af6f9e-1e38-4af2-9db8-cfad41e2f435
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestformatrequestusingcurrenttype, WdfRequestFormatRequestUsingCurrentType, DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, WdfRequestFormatRequestUsingCurrentType method, kmdf.wdfrequestformatrequestusingcurrenttype, PFN_WDFREQUESTFORMATREQUESTUSINGCURRENTTYPE, wdfrequest/WdfRequestFormatRequestUsingCurrentType
+ms.keywords: PFN_WDFREQUESTFORMATREQUESTUSINGCURRENTTYPE, WdfRequestFormatRequestUsingCurrentType, WdfRequestFormatRequestUsingCurrentType method, wdf.wdfrequestformatrequestusingcurrenttype, DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, wdfrequest/WdfRequestFormatRequestUsingCurrentType, kmdf.wdfrequestformatrequestusingcurrenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5d1fff23-f1e8-41a5-9cd6-a20bd4a7883e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], kernel.iocalldriver, IoCallDriver, k104_8579a946-2f96-455f-825c-c3f86caba99c.xml
+ms.keywords: wdm/IoCallDriver, IoCallDriver, kernel.iocalldriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -110,10 +110,6 @@ Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-
-
-
 <a href="..\wdm\nf-wdm-pocalldriver.md">PoCallDriver</a>
 
 
@@ -122,7 +118,7 @@ Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="
 
 
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 
@@ -131,6 +127,10 @@ Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="
 
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 

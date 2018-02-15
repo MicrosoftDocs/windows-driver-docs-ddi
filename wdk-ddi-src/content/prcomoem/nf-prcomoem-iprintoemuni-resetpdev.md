@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7398a265-56e0-4b40-bfbb-0d72e7309efc
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemuni_resetpdev, IPrintOemUni, prcomoem/IPrintOemUni::ResetPDEV, ResetPDEV, IPrintOemUni interface [Print Devices], ResetPDEV method, IPrintOemUni::ResetPDEV, ResetPDEV method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml, ResetPDEV method [Print Devices]
+ms.keywords: IPrintOemUni interface [Print Devices], ResetPDEV method, IPrintOemUni::ResetPDEV, print.iprintoemuni_resetpdev, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml, ResetPDEV method [Print Devices], prcomoem/IPrintOemUni::ResetPDEV, ResetPDEV method [Print Devices], IPrintOemUni interface, IPrintOemUni, ResetPDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

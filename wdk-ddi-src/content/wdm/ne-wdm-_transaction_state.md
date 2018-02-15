@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b97bedc5-6393-49bd-b803-e70e3a3d49df
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TransactionStateIndoubt, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, TRANSACTION_STATE, kernel.transaction_state, TransactionStateNormal, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/TransactionStateNormal, TransactionStateCommittedNotify, wdm/TransactionStateCommittedNotify, _TRANSACTION_STATE, wdm/TRANSACTION_STATE, TransactionStateIndoubt
+ms.keywords: TransactionStateIndoubt, wdm/TransactionStateIndoubt, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], kernel.transaction_state, wdm/TransactionStateCommittedNotify, TRANSACTION_STATE, wdm/TransactionStateNormal, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, _TRANSACTION_STATE, wdm/TRANSACTION_STATE, TransactionStateNormal, TransactionStateCommittedNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

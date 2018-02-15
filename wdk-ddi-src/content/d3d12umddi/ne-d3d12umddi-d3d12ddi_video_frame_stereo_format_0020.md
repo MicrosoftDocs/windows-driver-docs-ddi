@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 91C5C387-320C-4ABE-98AB-36D2CDE7428F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_SEPARATE, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_SEPARATE, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_VERTICAL, display.d3d12ddi_video_frame_stereo_format, d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_MONO, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020, d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020, d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_VERTICAL, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_MONO, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_HORIZONTAL, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020 enumeration [Display Devices], d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_HORIZONTAL
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_HORIZONTAL, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_VERTICAL, d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_SEPARATE, display.d3d12ddi_video_frame_stereo_format, d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_VERTICAL, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_HORIZONTAL, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_MONO, d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_MONO, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_SEPARATE, D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020 enumeration [Display Devices], D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020, d3d12umddi/D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -78,6 +78,7 @@ The sample does not contain stereo data. If the stereo format is not specified, 
 ### -field D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_HORIZONTAL
 
 Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram:
+
 <table>
 <tr>
 <td>0</td>
@@ -111,12 +112,14 @@ Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram:
 <td>1</td>
 <td>1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_VERTICAL
 
 Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram:
+
 <table>
 <tr>
 <td>0</td>
@@ -150,7 +153,8 @@ Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram:
 <td>1</td>
 <td>1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020_SEPARATE
@@ -161,6 +165,8 @@ Frame 0 and frame 1 are placed in separate resources.
 ## -remarks
 
 
+
 All drivers that support stereo must support all the formats in this enumeration.
+
 
 

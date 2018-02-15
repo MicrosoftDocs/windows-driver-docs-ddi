@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f569d306-4e1e-44b7-acb0-6b46abc26b37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IQueueCallbackCreate::OnCreateFile, OnCreateFile method, IQueueCallbackCreate interface, umdf.iqueuecallbackcreate_oncreatefile, OnCreateFile method, IQueueCallbackCreate::OnCreateFile, wdf.iqueuecallbackcreate_oncreatefile, IQueueCallbackCreate interface, OnCreateFile method, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, IQueueCallbackCreate, OnCreateFile
+ms.keywords: wudfddi/IQueueCallbackCreate::OnCreateFile, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, OnCreateFile, wdf.iqueuecallbackcreate_oncreatefile, OnCreateFile method, IQueueCallbackCreate interface, IQueueCallbackCreate interface, OnCreateFile method, IQueueCallbackCreate::OnCreateFile, umdf.iqueuecallbackcreate_oncreatefile, IQueueCallbackCreate, OnCreateFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -155,6 +155,10 @@ return;
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
@@ -163,15 +167,7 @@ return;
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 
@@ -183,7 +179,11 @@ return;
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 
 

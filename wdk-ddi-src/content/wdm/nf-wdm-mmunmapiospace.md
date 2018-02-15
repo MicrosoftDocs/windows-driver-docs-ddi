@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5963f34a-4315-46c3-9802-0b6a1b229e3f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/MmUnmapIoSpace, kernel.mmunmapiospace, MmUnmapIoSpace, k106_a56f91b1-7187-4836-a3d8-4b7d2918227a.xml, MmUnmapIoSpace routine [Kernel-Mode Driver Architecture]
+ms.keywords: k106_a56f91b1-7187-4836-a3d8-4b7d2918227a.xml, MmUnmapIoSpace routine [Kernel-Mode Driver Architecture], MmUnmapIoSpace, wdm/MmUnmapIoSpace, kernel.mmunmapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

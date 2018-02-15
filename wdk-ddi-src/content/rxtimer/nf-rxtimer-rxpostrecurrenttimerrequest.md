@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a44fb478-4f78-415e-b557-bf383199578c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rxpostrecurrenttimerrequest, RxPostRecurrentTimerRequest routine [Installable File System Drivers], rxtimer/RxPostRecurrentTimerRequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, RxPostRecurrentTimerRequest
+ms.keywords: RxPostRecurrentTimerRequest routine [Installable File System Drivers], RxPostRecurrentTimerRequest, rxtimer/RxPostRecurrentTimerRequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, ifsk.rxpostrecurrenttimerrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,11 +130,11 @@ A recurrent timer can be canceled by calling <b>RxCancelTimerRequest</b>.
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
-
-
-
 <a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
+
+
+
+<a href="..\rxtimer\nf-rxtimer-rxpostoneshottimerrequest.md">RxPostOneShotTimerRequest</a>
 
 
 

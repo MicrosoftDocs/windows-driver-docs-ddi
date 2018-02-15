@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c04b79a0-ef20-4ba5-aba9-9335b095cfef
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OpenDumpFile, IDebugClient3 interface [Windows Debugging], OpenDumpFile method, IDebugClient interface [Windows Debugging], OpenDumpFile method, IDebugClient4::OpenDumpFile, IDebugClient5::OpenDumpFile, dbgeng/IDebugClient4::OpenDumpFile, dbgeng/IDebugClient2::OpenDumpFile, IDebugClient_4ab673e2-629c-455a-8d40-27465005375f.xml, OpenDumpFile method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient3::OpenDumpFile, IDebugClient2, OpenDumpFile method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient5::OpenDumpFile, IDebugClient2 interface [Windows Debugging], OpenDumpFile method, IDebugClient4 interface [Windows Debugging], OpenDumpFile method, dbgeng/IDebugClient::OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient4 interface, IDebugClient::OpenDumpFile, debugger.opendumpfile, IDebugClient3, OpenDumpFile method [Windows Debugging], IDebugClient2 interface, IDebugClient2::OpenDumpFile, IDebugClient, IDebugClient3::OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient interface, OpenDumpFile method [Windows Debugging], IDebugClient5 interface [Windows Debugging], OpenDumpFile method
+ms.keywords: OpenDumpFile method [Windows Debugging], IDebugClient4 interface, IDebugClient_4ab673e2-629c-455a-8d40-27465005375f.xml, IDebugClient3, IDebugClient3::OpenDumpFile, IDebugClient interface [Windows Debugging], OpenDumpFile method, dbgeng/IDebugClient2::OpenDumpFile, IDebugClient, IDebugClient2 interface [Windows Debugging], OpenDumpFile method, OpenDumpFile method [Windows Debugging], OpenDumpFile method [Windows Debugging], IDebugClient5 interface, OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient3 interface, debugger.opendumpfile, IDebugClient5 interface [Windows Debugging], OpenDumpFile method, IDebugClient4::OpenDumpFile, IDebugClient2, dbgeng/IDebugClient4::OpenDumpFile, IDebugClient2::OpenDumpFile, IDebugClient::OpenDumpFile, IDebugClient4 interface [Windows Debugging], OpenDumpFile method, OpenDumpFile method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient5::OpenDumpFile, dbgeng/IDebugClient::OpenDumpFile, IDebugClient3 interface [Windows Debugging], OpenDumpFile method, dbgeng/IDebugClient3::OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient2 interface, IDebugClient5::OpenDumpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,15 +119,7 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -135,7 +127,7 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564611">.opendump (Open Dump File)</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -143,15 +135,23 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564611">.opendump (Open Dump File)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

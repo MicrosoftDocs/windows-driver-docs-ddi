@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0e648c99-6d1a-4515-af17-a16e88351f45
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rtlref_836e23f0-2e1a-474e-a66c-615f260e2f4f.xml, ntifs/RtlUnicodeStringToOemSize, RtlUnicodeStringToOemSize routine [Installable File System Drivers], ifsk.rtlunicodestringtooemsize, RtlUnicodeStringToOemSize
+ms.keywords: RtlUnicodeStringToOemSize, ifsk.rtlunicodestringtooemsize, RtlUnicodeStringToOemSize routine [Installable File System Drivers], rtlref_836e23f0-2e1a-474e-a66c-615f260e2f4f.xml, ntifs/RtlUnicodeStringToOemSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,15 +98,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
+<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
 
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
 
 
 

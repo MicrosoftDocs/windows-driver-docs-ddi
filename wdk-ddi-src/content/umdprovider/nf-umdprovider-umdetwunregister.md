@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDEtwUnregister function [Display Devices], UMDEtwUnregister, display.umdetwunregister, umdprovider/UMDEtwUnregister
+ms.keywords: display.umdetwunregister, UMDEtwUnregister, umdprovider/UMDEtwUnregister, UMDEtwUnregister function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

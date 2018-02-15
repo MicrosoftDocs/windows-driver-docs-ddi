@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestcompletewithpriorityboost, kmdf.wdfrequestcompletewithpriorityboost, WdfRequestCompleteWithPriorityBoost method, WdfRequestCompleteWithPriorityBoost, wdfrequest/WdfRequestCompleteWithPriorityBoost, DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST
+ms.keywords: WdfRequestCompleteWithPriorityBoost, DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, WdfRequestCompleteWithPriorityBoost method, wdfrequest/WdfRequestCompleteWithPriorityBoost, PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST, wdf.wdfrequestcompletewithpriorityboost, kmdf.wdfrequestcompletewithpriorityboost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,11 @@ The following code example shows how the example at <a href="..\wdfrequest\nf-wd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
 
 

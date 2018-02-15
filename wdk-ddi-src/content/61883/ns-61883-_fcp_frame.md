@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 56a0e888-8048-4774-a46f-8a0beebfb9f2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PFCP_FRAME, IEEE.fcp_frame, 61883/FCP_FRAME, PFCP_FRAME structure pointer [Buses], FCP_FRAME, FCP_FRAME structure [Buses], 61883_structures_760d5112-e681-4c00-b178-66aadbe95b62.xml, PFCP_FRAME, _FCP_FRAME, 61883/PFCP_FRAME"
+ms.keywords: FCP_FRAME, 61883/PFCP_FRAME, 61883_structures_760d5112-e681-4c00-b178-66aadbe95b62.xml, _FCP_FRAME, *PFCP_FRAME, 61883/FCP_FRAME, IEEE.fcp_frame, FCP_FRAME structure [Buses], PFCP_FRAME, PFCP_FRAME structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

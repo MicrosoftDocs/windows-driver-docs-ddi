@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e503b016-3271-4cce-a7fc-09c04b56716d
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltCurrentOplock, FltApiRef_a_to_d_cda1ee2b-1ce2-40a3-8e55-25846f59f611.xml, fltkernel/FltCurrentOplock, FltCurrentOplock routine [Installable File System Drivers], ifsk.fltcurrentoplock
+ms.keywords: FltCurrentOplock routine [Installable File System Drivers], fltkernel/FltCurrentOplock, FltCurrentOplock, ifsk.fltcurrentoplock, FltApiRef_a_to_d_cda1ee2b-1ce2-40a3-8e55-25846f59f611.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 40f4cd91-ba84-426c-b248-6027d1e8d1a4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfIoQueueDispatchMaximum, umdf.wdf_io_queue_dispatch_type, _WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchSequential, wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchParallel, WdfIoQueueDispatchManual, WdfIoQueueDispatchMaximum, WDF_IO_QUEUE_DISPATCH_TYPE, wudfddi_types/WdfIoQueueDispatchSequential, wudfddi_types/WdfIoQueueDispatchParallel, umdfstructs_7f7744f6-7f47-4e8e-a74d-fb0217a59f34.xml, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, wdf.wdf_io_queue_dispatch_type_umdf, wudfddi_types/WdfIoQueueDispatchManual
+ms.keywords: WdfIoQueueDispatchParallel, WdfIoQueueDispatchSequential, wdf.wdf_io_queue_dispatch_type_umdf, umdfstructs_7f7744f6-7f47-4e8e-a74d-fb0217a59f34.xml, wudfddi_types/WdfIoQueueDispatchSequential, WdfIoQueueDispatchMaximum, WDF_IO_QUEUE_DISPATCH_TYPE, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, wudfddi_types/WdfIoQueueDispatchParallel, wudfddi_types/WdfIoQueueDispatchMaximum, umdf.wdf_io_queue_dispatch_type, wudfddi_types/WdfIoQueueDispatchManual, WdfIoQueueDispatchManual, wudfddi_types/WDF_IO_QUEUE_DISPATCH_TYPE, _WDF_IO_QUEUE_DISPATCH_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,11 +96,11 @@ Valid enumeration values were exceeded.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 
 

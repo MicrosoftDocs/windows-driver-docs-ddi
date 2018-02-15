@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: f2a76389-575d-425b-afe6-27fb93e101eb
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION, _PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], powermeter.pmi_threshold_configuration, pmi/PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION, PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, pmi/PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices]
+ms.keywords: PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, powermeter.pmi_threshold_configuration, pmi/PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], _PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, pmi/PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PPMI_THRESHOLD_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

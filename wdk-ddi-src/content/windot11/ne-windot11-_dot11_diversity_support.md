@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64eeb1bf-c18a-4dfa-b6ea-438d9e10fe4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], dot11_diversity_support_dynamic, netvista.dot11_diversity_support, windot11/dot11_diversity_support_dynamic, dot11_diversity_support_fixedlist, dot11_diversity_support_unknown, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, windot11/dot11_diversity_support_fixedlist, dot11_diversity_support_notsupported, DOT11_DIVERSITY_SUPPORT, _DOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT, PDOT11_DIVERSITY_SUPPORT, windot11/DOT11_DIVERSITY_SUPPORT, windot11/PDOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_diversity_support_notsupported
+ms.keywords: DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], windot11/PDOT11_DIVERSITY_SUPPORT, dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_diversity_support_fixedlist, PDOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, *PDOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_dynamic, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, dot11_diversity_support_notsupported, windot11/dot11_diversity_support_unknown, dot11_diversity_support_fixedlist, windot11/dot11_diversity_support_notsupported, windot11/DOT11_DIVERSITY_SUPPORT, netvista.dot11_diversity_support, DOT11_DIVERSITY_SUPPORT, _DOT11_DIVERSITY_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

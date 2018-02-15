@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 88378f82-2975-4b53-9dde-53ab81df3c53
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: CcIsThereDirtyDataEx routine [Installable File System Drivers], ifsk.ccistheredirtydataex, CcIsThereDirtyDataEx, ntifs/CcIsThereDirtyDataEx, ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml
+ms.keywords: CcIsThereDirtyDataEx, ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml, CcIsThereDirtyDataEx routine [Installable File System Drivers], ifsk.ccistheredirtydataex, ntifs/CcIsThereDirtyDataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,7 +98,7 @@ This routine will return <b>TRUE</b> if any dirty pages exist including temporar
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
 
 
@@ -106,7 +106,7 @@ This routine will return <b>TRUE</b> if any dirty pages exist including temporar
 
 
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
 
 
 

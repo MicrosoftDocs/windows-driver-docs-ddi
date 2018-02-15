@@ -98,11 +98,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn46
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 The DirectX graphics kernel subsystem uses the returned info in the <i>pClockCalibration</i> parameter to estimate the drift between the GPU and CPU clocks.
@@ -114,13 +117,20 @@ The DirectX graphics kernel subsystem calls this function often enough, typicall
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn467320">DXGKARG_CALIBRATEGPUCLOCK</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn467320">DXGKARG_CALIBRATEGPUCLOCK</a>
+
 
  
 

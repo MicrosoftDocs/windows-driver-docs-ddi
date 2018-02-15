@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C86A931-C87C-4273-9409-A45A3FDB8B4C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, storage.storage_zones_attributes, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], ntddstor/ZonesAttributeTypeAndLengthMayDifferent, ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeSameLastZoneLengthDifferent, _STORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeMayDifferentLengthSame, STORAGE_ZONES_ATTRIBUTES, ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], ZonesAttributeTypeSameLengthSame"
+ms.keywords: "_STORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], *PSTORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, storage.storage_zones_attributes, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], ntddstor/ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeSameLengthSame, PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

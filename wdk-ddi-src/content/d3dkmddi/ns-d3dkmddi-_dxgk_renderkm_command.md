@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 998bf0ca-c08d-41d9-ba3e-74a620ed51ae
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command, DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, d3dkmddi/DXGK_RENDERKM_COMMAND"
+ms.keywords: display.dxgk_renderkm_command, d3dkmddi/DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DXGK_RENDERKM_COMMAND, DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, _DXGK_RENDERKM_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,19 +152,7 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
 
 
 
@@ -176,15 +164,27 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_bitblt.md">DXGK_GDIARG_BITBLT</a>
 
 
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_renderkm_operation.md">DXGK_RENDERKM_OPERATION</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a>
 
 
 

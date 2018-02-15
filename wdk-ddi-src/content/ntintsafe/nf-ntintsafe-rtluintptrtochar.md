@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 531A8110-FF91-4DE7-8FC5-305A2525DD40
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtluintptrtochar, RtlUIntPtrToChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntPtrToChar, RtlUIntPtrToChar
+ms.keywords: kernel.rtluintptrtochar, ntintsafe/RtlUIntPtrToChar, RtlUIntPtrToChar function [Kernel-Mode Driver Architecture], RtlUIntPtrToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - sOperand [in]
-
-The value to be converted.
-
-
 #### - pulResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
+
+
+#### - sOperand [in]
+
+The value to be converted.
 
 
 ## -remarks

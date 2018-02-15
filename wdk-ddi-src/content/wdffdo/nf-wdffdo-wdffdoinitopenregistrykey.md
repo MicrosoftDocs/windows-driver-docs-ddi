@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1b720e3e-8858-4567-ada3-30ac0dcf9696
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFdoInitOpenRegistryKey method, DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey, kmdf.wdffdoinitopenregistrykey, wdf.wdffdoinitopenregistrykey
+ms.keywords: WdfFdoInitOpenRegistryKey, DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, kmdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey method, wdf.wdffdoinitopenregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -328,11 +328,11 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
-
-
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
 
 
 

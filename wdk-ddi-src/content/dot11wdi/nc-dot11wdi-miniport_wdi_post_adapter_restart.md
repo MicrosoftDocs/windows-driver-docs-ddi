@@ -142,15 +142,15 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
 
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
 
 

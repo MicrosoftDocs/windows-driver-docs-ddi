@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6377f980-dd56-4bef-91e7-7557866132d6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_18c6aeef-4362-49f9-88a3-6d2a970eb0d7.xml, kernel.ioattachdevicetodevicestack, wdm/IoAttachDeviceToDeviceStack, IoAttachDeviceToDeviceStack, IoAttachDeviceToDeviceStack routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoAttachDeviceToDeviceStack, IoAttachDeviceToDeviceStack routine [Kernel-Mode Driver Architecture], kernel.ioattachdevicetodevicestack, k104_18c6aeef-4362-49f9-88a3-6d2a970eb0d7.xml, IoAttachDeviceToDeviceStack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,7 +109,7 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 
 
@@ -117,7 +117,7 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
 
 
 

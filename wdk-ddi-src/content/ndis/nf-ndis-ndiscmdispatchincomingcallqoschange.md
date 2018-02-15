@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eee2625e-6dc8-4f54-81e9-2d31d25f62d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista], ndis/NdisCmDispatchIncomingCallQoSChange, netvista.ndiscmdispatchincomingcallqoschange, condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, NdisCmDispatchIncomingCallQoSChange
+ms.keywords: netvista.ndiscmdispatchincomingcallqoschange, ndis/NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista], NdisCmDispatchIncomingCallQoSChange, condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,16 +128,8 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
-   ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
+   ProtocolClIncomingCallQosChange</a>
 
 
 
@@ -145,7 +137,16 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
 
 
 
@@ -154,12 +155,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call_qos_change.md">
-   ProtocolClIncomingCallQosChange</a>
 
 
 

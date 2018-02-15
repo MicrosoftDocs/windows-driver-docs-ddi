@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10e7e097-ed84-4200-b7b6-6a838a058fd2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PVIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA, _VIRTUAL_HW_INITIALIZATION_DATA, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices], storport/VIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices], storage.virtual_hw_initialization_data
+ms.keywords: PVIRTUAL_HW_INITIALIZATION_DATA, _VIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA, storport/PVIRTUAL_HW_INITIALIZATION_DATA, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml, storage.virtual_hw_initialization_data, VIRTUAL_HW_INITIALIZATION_DATA, storport/VIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices], PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -287,23 +287,11 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
-
-
-
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a>
+
+
+
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 
@@ -315,7 +303,19 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
+
+
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolEntryInformation method, GetSymbolEntryInformation, IDebugSymbolGroup2::GetSymbolEntryInformation, debugger.getsymbolentryinformation2, GetSymbolEntryInformation method [Windows Debugging], ComOther_b34e6d42-3da1-43bd-954d-0aaf0da5a3a8.xml, dbgeng/IDebugSymbolGroup2::GetSymbolEntryInformation, IDebugSymbolGroup2, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.keywords: dbgeng/IDebugSymbolGroup2::GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], ComOther_b34e6d42-3da1-43bd-954d-0aaf0da5a3a8.xml, GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.getsymbolentryinformation2, IDebugSymbolGroup2::GetSymbolEntryInformation, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolEntryInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,7 +117,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
@@ -125,11 +129,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
 
 
 

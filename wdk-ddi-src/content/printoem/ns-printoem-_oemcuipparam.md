@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMCUIPPARAM structure [Print Devices], _OEMCUIPPARAM, OEMCUIPPARAM, printoem/OEMCUIPPARAM, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, print.oemcuipparam, *POEMCUIPPARAM
+ms.keywords: OEMCUIPPARAM, _OEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], *POEMCUIPPARAM, printoem/OEMCUIPPARAM, print.oemcuipparam, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnregisterBootDriverCallback, kernel.iounregisterbootdrivercallback
+ms.keywords: ntddk/IoUnRegisterBootDriverCallback, kernel.iounregisterbootdrivercallback, IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnregisterBootDriverCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

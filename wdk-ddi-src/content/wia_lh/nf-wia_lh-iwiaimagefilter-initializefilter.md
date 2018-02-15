@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 03e359aa-4745-4961-a342-79f725468aab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IWiaImageFilter, wia_lh/IWiaImageFilter::InitializeFilter, image.iwiaimagefilter_initializefilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, InitializeFilter, InitializeFilter method [Imaging Devices], IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter::InitializeFilter, InitializeFilter method [Imaging Devices], IWiaImageFilter interface
+ms.keywords: IWiaImageFilter, InitializeFilter, InitializeFilter method [Imaging Devices], image.iwiaimagefilter_initializefilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, InitializeFilter method [Imaging Devices], IWiaImageFilter interface, IWiaImageFilter::InitializeFilter, wia_lh/IWiaImageFilter::InitializeFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -110,11 +110,11 @@ The <b>IWiaItem2, IWiaPreview</b> and <b>IWiaTransfer</b> interfaces are describ
 
 ## -see-also
 
-<a href="..\wia_lh\nn-wia_lh-iwiaimagefilter.md">IWiaImageFilter</a>
-
-
-
 <a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback Interface</a>
+
+
+
+<a href="..\wia_lh\nn-wia_lh-iwiaimagefilter.md">IWiaImageFilter</a>
 
 
 

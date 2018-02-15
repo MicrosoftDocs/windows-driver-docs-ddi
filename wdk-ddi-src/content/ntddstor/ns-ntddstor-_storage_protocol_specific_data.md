@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 74569A0A-5828-4533-8974-4DE0B4EAAAEB
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Storage Devices], *PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA, _STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA, storage.storage_protocol_specific_data, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Storage Devices]
+ms.keywords: PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Storage Devices], _STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Storage Devices], *PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA, storage.storage_protocol_specific_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -176,7 +176,7 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
@@ -184,11 +184,11 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 
 
 
+<a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
-
-
-
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57CB3CED-FE46-4A74-9E23-82640B7EF1DC
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest3::SetActivityId, IWDFIoRequest3, umdf.iwdfiorequest3_setactivityid, SetActivityId method, SetActivityId method, IWDFIoRequest3 interface, IWDFIoRequest3 interface, SetActivityId method, wudfddi/IWDFIoRequest3::SetActivityId, SetActivityId, wdf.iwdfiorequest3_setactivityid
+ms.keywords: SetActivityId method, IWDFIoRequest3 interface, IWDFIoRequest3::SetActivityId, IWDFIoRequest3 interface, SetActivityId method, umdf.iwdfiorequest3_setactivityid, SetActivityId method, wudfddi/IWDFIoRequest3::SetActivityId, wdf.iwdfiorequest3_setactivityid, SetActivityId, IWDFIoRequest3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,7 +111,7 @@ For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
 
 
 
@@ -119,7 +119,7 @@ For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.mic
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
 
 
 

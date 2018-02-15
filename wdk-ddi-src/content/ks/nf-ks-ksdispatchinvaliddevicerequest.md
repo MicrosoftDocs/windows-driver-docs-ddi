@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7c30bc5b-2bd5-4db9-acaf-0c0347035ae3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksdispatchinvaliddevicerequest, KsDispatchInvalidDeviceRequest function [Streaming Media Devices], ksfunc_9be97c86-7505-4192-8a61-8280fca7ba0c.xml, KsDispatchInvalidDeviceRequest, ks/KsDispatchInvalidDeviceRequest
+ms.keywords: ks/KsDispatchInvalidDeviceRequest, KsDispatchInvalidDeviceRequest function [Streaming Media Devices], ksfunc_9be97c86-7505-4192-8a61-8280fca7ba0c.xml, stream.ksdispatchinvaliddevicerequest, KsDispatchInvalidDeviceRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ The <b>KsDispatchInvalidDeviceRequest</b> function is needed because the dispatc
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdispatchfastreadfailure.md">KsDispatchFastReadFailure</a>
-
-
-
 <a href="..\ks\nf-ks-ksdispatchfastiodevicecontrolfailure.md">KsDispatchFastIoDeviceControlFailure</a>
+
+
+
+<a href="..\ks\nf-ks-ksdispatchfastreadfailure.md">KsDispatchFastReadFailure</a>
 
 
 

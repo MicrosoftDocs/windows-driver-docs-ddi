@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a249c76b-7389-467f-bfb0-befe06df2fa4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_0411033a-da5d-4803-a970-f6e7289a6200.xml, wdm/IoCheckShareAccess, IoCheckShareAccess, kernel.iocheckshareaccess, IoCheckShareAccess routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoCheckShareAccess, k104_0411033a-da5d-4803-a970-f6e7289a6200.xml, wdm/IoCheckShareAccess, kernel.iocheckshareaccess, IoCheckShareAccess routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,11 @@ File systems maintain state about files through structures called file control b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
+<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -139,11 +139,11 @@ File systems maintain state about files through structures called file control b
 
 
 
+<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
 
 
 
@@ -151,7 +151,7 @@ File systems maintain state about files through structures called file control b
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
 
 
 

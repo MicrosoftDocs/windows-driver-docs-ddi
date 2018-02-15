@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiadrvitem_removeitemfromfolder, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method, IWiaDrvItem, RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder, DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices]
+ms.keywords: RemoveItemFromFolder method [Imaging Devices], DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method, image.iwiadrvitem_removeitemfromfolder, IWiaDrvItem, RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface, RemoveItemFromFolder, IWiaDrvItem::RemoveItemFromFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -128,11 +128,11 @@ After the item has been removed from the folder, it can no longer be used for de
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
-
-
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
 
 
 

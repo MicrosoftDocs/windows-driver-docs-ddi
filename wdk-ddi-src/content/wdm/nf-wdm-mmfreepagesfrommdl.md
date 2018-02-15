@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bde26b75-9eae-494b-b943-f1e9534c5f7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmFreePagesFromMdl, k106_4263f517-edab-4378-b316-ce344676d7e6.xml, MmFreePagesFromMdl routine [Kernel-Mode Driver Architecture], wdm/MmFreePagesFromMdl, kernel.mmfreepagesfrommdl
+ms.keywords: kernel.mmfreepagesfrommdl, MmFreePagesFromMdl routine [Kernel-Mode Driver Architecture], k106_4263f517-edab-4378-b316-ce344676d7e6.xml, wdm/MmFreePagesFromMdl, MmFreePagesFromMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,11 @@ After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\w
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-
-
-
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
 
 
 

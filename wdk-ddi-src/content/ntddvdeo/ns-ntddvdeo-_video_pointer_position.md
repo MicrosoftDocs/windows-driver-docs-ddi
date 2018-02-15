@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07586be9-a8bc-4149-8037-7b649a75a818
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_POINTER_POSITION structure pointer [Display Devices], PVIDEO_POINTER_POSITION, VIDEO_POINTER_POSITION structure [Display Devices], ntddvdeo/VIDEO_POINTER_POSITION, Video_Structs_72aeeda6-58eb-419e-95d2-35c1b66adf36.xml, VIDEO_POINTER_POSITION, display.video_pointer_position, *PVIDEO_POINTER_POSITION, ntddvdeo/PVIDEO_POINTER_POSITION, _VIDEO_POINTER_POSITION
+ms.keywords: ntddvdeo/VIDEO_POINTER_POSITION, Video_Structs_72aeeda6-58eb-419e-95d2-35c1b66adf36.xml, *PVIDEO_POINTER_POSITION, ntddvdeo/PVIDEO_POINTER_POSITION, VIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION structure pointer [Display Devices], display.video_pointer_position, VIDEO_POINTER_POSITION structure [Display Devices], PVIDEO_POINTER_POSITION, _VIDEO_POINTER_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

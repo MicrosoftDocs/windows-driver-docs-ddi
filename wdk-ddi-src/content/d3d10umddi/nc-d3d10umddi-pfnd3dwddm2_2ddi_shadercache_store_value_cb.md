@@ -40,7 +40,7 @@ apiname:
 -	pfnShaderCacheStoreValue
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback
@@ -108,6 +108,8 @@ The length of the input value.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

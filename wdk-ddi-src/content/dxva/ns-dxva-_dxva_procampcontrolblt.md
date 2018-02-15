@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93f321e1-a38b-43a2-bfbd-35411a62194e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_ProcAmpControlBlt, dxva/DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, DXVA_ProcAmpControlBlt structure [Display Devices], DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt"
+ms.keywords: dxva/DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, DXVA_ProcAmpControlBlt structure [Display Devices], DXVA_ProcAmpControlBlt, _DXVA_ProcAmpControlBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,11 +116,11 @@ Specifies the saturation of the output image as it is written to the destination
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
 
 
 

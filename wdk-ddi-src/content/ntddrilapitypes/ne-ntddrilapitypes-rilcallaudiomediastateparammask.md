@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad016fd6-1fbf-4600-809b-b0a9b368a87b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CALLAUDIO_QUALITY, RILCALLAUDIOMEDIASTATEPARAMMASK, ntddrilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, RIL_PARAM_CALLAUDIO_QUALITY, netvista.rilcallaudiomediastateparammask, ntddrilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, RIL_PARAM_CALLAUDIO_ALL, RIL_PARAM_CALLAUDIO_FLAGS, ntddrilapitypes/RIL_PARAM_CALLAUDIO_ALL
+ms.keywords: ntddrilapitypes/RIL_PARAM_CALLAUDIO_QUALITY, ntddrilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, RIL_PARAM_CALLAUDIO_FLAGS, RIL_PARAM_CALLAUDIO_QUALITY, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILCALLAUDIOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLAUDIO_ALL, netvista.rilcallaudiomediastateparammask, RIL_PARAM_CALLAUDIO_ALL, ntddrilapitypes/RIL_PARAM_CALLAUDIO_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

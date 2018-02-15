@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d68d0a98-ec93-4643-a6c1-eff9d5618e03
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, SetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, IDebugControl_b0661dd4-9ecd-49ac-93e1-86d3c6c2c3f6.xml, debugger.seteventfiltercommand, dbgeng/IDebugControl3::SetEventFilterCommand, IDebugControl interface [Windows Debugging], SetEventFilterCommand method, SetEventFilterCommand method [Windows Debugging], IDebugControl::SetEventFilterCommand, IDebugControl2 interface [Windows Debugging], SetEventFilterCommand method, SetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::SetEventFilterCommand, IDebugControl, IDebugControl2::SetEventFilterCommand, SetEventFilterCommand, dbgeng/IDebugControl2::SetEventFilterCommand, SetEventFilterCommand method [Windows Debugging], IDebugControl interface, IDebugControl3::SetEventFilterCommand, IDebugControl3 interface [Windows Debugging], SetEventFilterCommand method
+ms.keywords: dbgeng/IDebugControl2::SetEventFilterCommand, SetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::SetEventFilterCommand, SetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetEventFilterCommand, dbgeng/IDebugControl::SetEventFilterCommand, SetEventFilterCommand method [Windows Debugging], IDebugControl interface [Windows Debugging], SetEventFilterCommand method, SetEventFilterCommand method [Windows Debugging], IDebugControl interface, debugger.seteventfiltercommand, IDebugControl2 interface [Windows Debugging], SetEventFilterCommand method, IDebugControl2::SetEventFilterCommand, IDebugControl3 interface [Windows Debugging], SetEventFilterCommand method, IDebugControl_b0661dd4-9ecd-49ac-93e1-86d3c6c2c3f6.xml, SetEventFilterCommand, IDebugControl2, IDebugControl::SetEventFilterCommand, IDebugControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,7 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
-
-
-
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
 
 
 
@@ -131,15 +127,19 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

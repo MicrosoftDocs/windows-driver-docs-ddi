@@ -91,12 +91,12 @@ None.
 </tr>
 </table></span></div>
 
-#### -OutputType
- The KSNODE type for the output.
-
-
 #### -InputType
  The KSNODE type for the intput.
+
+
+#### -OutputType
+ The KSNODE type for the output.
 
 
 ### -output-buffer-length
@@ -138,11 +138,11 @@ This request completes immediately.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-
-
-
 <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor.md">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
 
 

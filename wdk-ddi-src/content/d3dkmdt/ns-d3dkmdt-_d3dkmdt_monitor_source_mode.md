@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bccacf88-b66b-4d55-b3a8-9d9b8cfcede8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMDT_MONITOR_SOURCE_MODE, d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, D3DKMDT_MONITOR_SOURCE_MODE, display.d3dkmdt_monitor_source_mode, DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml, D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices]"
+ms.keywords: display.d3dkmdt_monitor_source_mode, D3DKMDT_MONITOR_SOURCE_MODE, D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices], _D3DKMDT_MONITOR_SOURCE_MODE, d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ The D3DKMDT_MONITOR_SOURCE_MODE_ID data type is defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
 
 
 

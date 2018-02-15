@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 905BA306-29A5-4AAB-BA30-6B459E0062F6
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.urssethardwareeventsupport, UrsSetHardwareEventSupport, UrsSetHardwareEventSupport function [Buses], ursdevice/UrsSetHardwareEventSupport
+ms.keywords: ursdevice/UrsSetHardwareEventSupport, UrsSetHardwareEventSupport, UrsSetHardwareEventSupport function [Buses], buses.urssethardwareeventsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

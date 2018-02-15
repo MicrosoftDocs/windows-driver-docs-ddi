@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 00c82e73-5649-403b-9f07-81bdd2f6c756
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetTextReplacement method [Windows Debugging], IDebugControl3 interface, debugger.settextreplacement, SetTextReplacement, IDebugControl2, dbgeng/IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], dbgeng/IDebugControl3::SetTextReplacement, IDebugControl2 interface [Windows Debugging], SetTextReplacement method, IDebugControl3, IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, IDebugControl3 interface [Windows Debugging], SetTextReplacement method
+ms.keywords: SetTextReplacement method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::SetTextReplacement, IDebugControl3::SetTextReplacement, SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, SetTextReplacement method [Windows Debugging], IDebugControl3, debugger.settextreplacement, IDebugControl2 interface [Windows Debugging], SetTextReplacement method, IDebugControl2, IDebugControl3 interface [Windows Debugging], SetTextReplacement method, IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::SetTextReplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,6 +124,18 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 
 
@@ -132,27 +144,15 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
 
 
 

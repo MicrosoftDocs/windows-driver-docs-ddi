@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: BdCbStatusPrepareForUnload, ntddk/BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, kernel.bdcb_status_update_type, BdCbStatusPrepareForDependecyLoad, ntddk/BdCbStatusPrepareForUnload, ntddk/BdCbStatusPrepareForDependecyLoad, *PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDriverLoad
+ms.keywords: kernel.bdcb_status_update_type, ntddk/BdCbStatusPrepareForDriverLoad, BdCbStatusPrepareForUnload, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/BdCbStatusPrepareForDependecyLoad, ntddk/BdCbStatusPrepareForUnload, BdCbStatusPrepareForDependecyLoad, BDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, *PBDCB_STATUS_UPDATE_TYPE, ntddk/BDCB_STATUS_UPDATE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,11 +89,11 @@ Windows will start loading driver dependencies next.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_bdcb_status_update_context.md">BDCB_STATUS_UPDATE_CONTEXT</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
 
 
 

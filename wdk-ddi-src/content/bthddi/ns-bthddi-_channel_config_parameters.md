@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: c2201e3c-c680-4a22-adf5-5131fb138066
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: CHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, _CHANNEL_CONFIG_PARAMETERS, bthddi/CHANNEL_CONFIG_PARAMETERS, bthddi/PCHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS, bltooth.channel_config_parameters
+ms.keywords: bthddi/PCHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], bltooth.channel_config_parameters, bthddi/CHANNEL_CONFIG_PARAMETERS, bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS, _CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

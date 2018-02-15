@@ -144,11 +144,11 @@ When the runtime subsequently calls the driver's <a href="..\d3dumddi\nc-d3dumdd
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_startsessionkeyrefresh.md">D3DDDIARG_STARTSESSIONKEYREFRESH</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
 
 
 

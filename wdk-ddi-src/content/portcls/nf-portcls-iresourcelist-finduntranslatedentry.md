@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3578eb3a-e9c8-4de3-b959-daff9ac7f1a2
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: FindUntranslatedEntry method [Audio Devices], audmp-routines_d9b98845-63dd-454d-b1de-dd7db8825e27.xml, IResourceList, IResourceList interface [Audio Devices], FindUntranslatedEntry method, portcls/IResourceList::FindUntranslatedEntry, FindUntranslatedEntry method [Audio Devices], IResourceList interface, IResourceList::FindUntranslatedEntry, audio.iresourcelist_finduntranslatedentry, FindUntranslatedEntry
+ms.keywords: FindUntranslatedEntry method [Audio Devices], IResourceList interface, FindUntranslatedEntry method [Audio Devices], audmp-routines_d9b98845-63dd-454d-b1de-dd7db8825e27.xml, FindUntranslatedEntry, IResourceList::FindUntranslatedEntry, IResourceList interface [Audio Devices], FindUntranslatedEntry method, IResourceList, audio.iresourcelist_finduntranslatedentry, portcls/IResourceList::FindUntranslatedEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -108,11 +108,11 @@ For more information about translated and untranslated (or "raw") resources, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
-
-
-
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
 
 
 

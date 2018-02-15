@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b33a7ed-6892-4b2d-9d7a-cfc43c9fbf68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PTRANSACTION_ENLISTMENTS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_ENLISTMENTS_INFORMATION, *PTRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.transaction_enlistments_information, ktm_ref_d6790593-2057-4d78-82f2-9d4d64cd800c.xml, wdm/TRANSACTION_ENLISTMENTS_INFORMATION, _TRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION
+ms.keywords: wdm/TRANSACTION_ENLISTMENTS_INFORMATION, kernel.transaction_enlistments_information, *PTRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PTRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION, ktm_ref_d6790593-2057-4d78-82f2-9d4d64cd800c.xml, _TRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,11 +94,11 @@ The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure is used with the <a hre
 
 
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
-
-
-
 <a href="..\wdm\ns-wdm-_transaction_enlistment_pair.md">TRANSACTION_ENLISTMENT_PAIR</a>
+
+
+
+<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
 
 

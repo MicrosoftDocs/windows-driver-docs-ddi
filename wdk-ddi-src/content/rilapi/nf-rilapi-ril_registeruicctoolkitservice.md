@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1f406818-b81c-4dc8-bfc7-0c977495b285
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_registeruicctoolkitservice, RIL_RegisterUiccToolkitService, RIL_RegisterUiccToolkitService method [Network Drivers Starting with Windows Vista], rilapi/RIL_RegisterUiccToolkitService
+ms.keywords: RIL_RegisterUiccToolkitService method [Network Drivers Starting with Windows Vista], RIL_RegisterUiccToolkitService, rilapi/RIL_RegisterUiccToolkitService, netvista.ril_registeruicctoolkitservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 41b159b6-f365-4ade-b5d4-e7662c75e866
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock, strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, StreamClassQueryMasterClock routine [Streaming Media Devices], StreamClassQueryMasterClock
+ms.keywords: StreamClassQueryMasterClock routine [Streaming Media Devices], strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock, StreamClassQueryMasterClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,15 +126,15 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
 
 
 
 <a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 
 

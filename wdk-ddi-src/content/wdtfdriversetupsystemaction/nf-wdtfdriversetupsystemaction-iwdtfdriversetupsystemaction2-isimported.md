@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 2b6e0fc6-33c6-4dcf-8def-b0e081e2405b
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDriverSetupSystemAction2::IsImported, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::IsImported, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IsImported method, IsImported method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2, IsImported, IsImported method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.IsImported, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::IsImported, dtf.iwdtfdriversetupsystemaction2_isimported
+ms.keywords: Microsoft.WDTF.IWDTFDriverSetupSystemAction2.IsImported, IsImported method [Windows Device Testing Framework], wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::IsImported, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IsImported method, IsImported method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_isimported, IWDTFDriverSetupSystemAction2::IsImported, IsImported, IWDTFDriverSetupSystemAction2, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::IsImported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

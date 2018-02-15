@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C8829785-1EB7-4F29-9279-F2FC2A3C0ABD
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DeviceWakeDepthD0, wdm/DeviceWakeDepthD3hot, DeviceWakeDepthD1, kernel.device_wake_depth, _DEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH, DeviceWakeDepthNotWakeable, wdm/DeviceWakeDepthD3cold, *PDEVICE_WAKE_DEPTH, wdm/DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD0, wdm/DeviceWakeDepthNotWakeable, wdm/DeviceWakeDepthMaximum, wdm/DeviceWakeDepthD2, wdm/DeviceWakeDepthD1, DeviceWakeDepthD3hot, DeviceWakeDepthD3cold, DeviceWakeDepthD2, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], DeviceWakeDepthMaximum
+ms.keywords: wdm/DeviceWakeDepthD0, DeviceWakeDepthNotWakeable, wdm/DeviceWakeDepthNotWakeable, DeviceWakeDepthD2, wdm/DeviceWakeDepthMaximum, DeviceWakeDepthD3hot, wdm/DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD1, DeviceWakeDepthMaximum, *PDEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD2, DEVICE_WAKE_DEPTH, DeviceWakeDepthD0, DeviceWakeDepthD3cold, wdm/DeviceWakeDepthD3hot, DeviceWakeDepthD1, wdm/DeviceWakeDepthD3cold, _DEVICE_WAKE_DEPTH, kernel.device_wake_depth, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

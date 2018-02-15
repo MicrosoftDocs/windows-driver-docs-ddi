@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f97ecce3-73b9-4c51-b4a4-e114420af2c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], NdisFDeregisterFilterDriver, filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, netvista.ndisfderegisterfilterdriver
+ms.keywords: ndis/NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ A filter driver must call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

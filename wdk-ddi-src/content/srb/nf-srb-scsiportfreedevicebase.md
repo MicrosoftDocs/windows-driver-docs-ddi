@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 391f3b20-175f-4b27-b30f-34ccc43ca650
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase, scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, ScsiPortFreeDeviceBase routine [Storage Devices], srb/ScsiPortFreeDeviceBase
+ms.keywords: ScsiPortFreeDeviceBase routine [Storage Devices], ScsiPortFreeDeviceBase, scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, srb/ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ If a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
 
 

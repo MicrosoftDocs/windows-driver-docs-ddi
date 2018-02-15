@@ -7,7 +7,7 @@ old-location: ifsk\mrxclosesrvopen.htm
 old-project: ifsk
 ms.assetid: 6300595e-8cf6-47c4-a6ca-7851dd95576d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/7/2018
 ms.keywords: ifsk.mrxclosesrvopen, MRxCloseSrvOpen, MRxCollapseOpen, MRxCreate, MRxDevFcbXXXControlFile, MRxFlush, MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK], MRxLowIOSubmit[LOWIO_OP_FSCTL], MRxLowIOSubmit[LOWIO_OP_IOCTL], MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY], MRxLowIOSubmit[LOWIO_OP_READ], MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE], MRxLowIOSubmit[LOWIO_OP_WRITE], MRxQueryDirectory, MRxQueryEaInfo, MRxQueryFileInfo, MRxQueryQuotaInfo, MRxQuerySdInfo, MRxQueryVolumeInfo, MRxSetEaInfo, MRxSetFileInfo, MRxSetFileInfoAtCleanup, MRxSetQuotaInfo, MRxSetSdInfo, MRxSetVolumeInfo, MRxShouldTryToCollapseThisOpen, MRxTruncate, MRxZeroExtend, MyCalldown routine [Installable File System Drivers], MyCalldown, PMRX_CALLDOWN, PMRX_CALLDOWN, mrx/MyCalldown, mrxref_e6b5df78-d201-4f9e-9422-089772c04674.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,9 @@ A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is r
 
 
 
+
             This callback returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -441,11 +443,14 @@ The call was unsuccessful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The<i> MRxCloseSrvOpen</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector close an SRV_OPEN structure.
@@ -572,6 +577,7 @@ The <b>LowIoContext.ParamsFor.FsCtl.pOutputBuffer</b> member is set to the outpu
 The <b>LowIoContext.ParamsFor.FsCtl.OutputBufferLength</b> member is set to the output buffer length.
 
 The file system control code (FSCTL) requests handled by a network mini-redirector can be classified into one of several categories:
+
 <ul>
 <li>
 FSCTLs that are implemented and used by RDBSS and the network mini redirector
@@ -585,7 +591,8 @@ FSCTLs that are implemented and used only by the network mini-redirector
 FSCTLs which should never be seen by the network mini-redirector. These FSCTLs are solely intended as a debugging aid.
 
 </li>
-</ul>While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the input resource on behalf of another thread. When an asynchronous routine completes, the input resource that was acquired from the initial thread can be released. 
+</ul>
+While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the input resource on behalf of another thread. When an asynchronous routine completes, the input resource that was acquired from the initial thread can be released. 
 
 The<a href="https://msdn.microsoft.com/b416e2b4-6024-45ec-adf5-90743d417ad5"> MRxLowIOSubmit[LOWIO_OP_IOCTL]</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to issue an I/O system control request to the network mini-redirector.
 
@@ -712,6 +719,7 @@ The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the proc
 The <b>LowIoContext.ParamsFor.Locks.LockList</b> member is set to a list of LOWIO_LOCK_LIST elements. Each element specifies a range to be unlocked.
 
 The byte ranges to be unlocked are specified in the <b>LowIoContext.ParamsFor.Locks.LockList</b> member of the RX_CONTEXT structure. The LOWIO_LOCK_LIST structure is as follows: 
+
 <pre class="syntax" xml:space="preserve"><code>typedef struct _LOWIO_LOCK_LIST {
   struct  _LOWIO_LOCK_LIST  *Next;
   ULONG  LockNumber;
@@ -719,7 +727,8 @@ The byte ranges to be unlocked are specified in the <b>LowIoContext.ParamsFor.Lo
   LONGLONG  Length;
   ULONG  Key;
   BOOLEAN  ExclusiveLock;
-} LOWIO_LOCK_LIST, *PLOWIO_LOCK_LIST;</code></pre>The <b>LowIoContext.Operation</b> member of RX_CONTEXT specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
+} LOWIO_LOCK_LIST, *PLOWIO_LOCK_LIST;</code></pre>
+The <b>LowIoContext.Operation</b> member of RX_CONTEXT specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
 If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550745">MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
 
@@ -864,6 +873,7 @@ On success, the network mini-redirector should set the <b>InformationToReturn</b
 The<a href="https://msdn.microsoft.com/28e36992-2b6b-4484-9e7e-2cea7a2953e9"> MRxQueryVolumeInfo</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query volume information. 
 
 RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a> in either of the following cases:
+
 <ul>
 <li>
 RDBSS receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a> request.
@@ -873,7 +883,8 @@ RDBSS receives an <a href="https://msdn.microsoft.com/library/windows/hardware/f
 RDBSS receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a> request for an FSCTL_LMR_GET_LINK_TRACKING_INFORMATION control code. 
 
 </li>
-</ul>Before calling<a href="https://msdn.microsoft.com/28e36992-2b6b-4484-9e7e-2cea7a2953e9"> MRxQueryVolumeInfo</a> in the case of an IRP_MJ_QUERY_VOLUME_INFORMATION request, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+</ul>
+Before calling<a href="https://msdn.microsoft.com/28e36992-2b6b-4484-9e7e-2cea7a2953e9"> MRxQueryVolumeInfo</a> in the case of an IRP_MJ_QUERY_VOLUME_INFORMATION request, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
 The <b>Info.FsInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.QueryVolume.FsInformationClass</b>. 
 
@@ -1013,6 +1024,7 @@ The<a href="https://msdn.microsoft.com/d60ec8ef-2ccf-42ad-97d2-1aaf9d60acfb"> MR
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a> is called as part of cleanup operations if both of the following conditions are true: 
+
 <ul>
 <li>
 The file object corresponds to a disk file or directory
@@ -1022,7 +1034,8 @@ The file object corresponds to a disk file or directory
 This is the last cleanup call and the file object was marked for truncation. 
 
 </li>
-</ul>The file object is marked for truncation if the <b>fcbstate</b> member of the FCB structure has the FCB_STATE_TRUNCATE_ON_CLOSE bit set. RDBSS will uninitialize the cache map at some later time.
+</ul>
+The file object is marked for truncation if the <b>fcbstate</b> member of the FCB structure has the FCB_STATE_TRUNCATE_ON_CLOSE bit set. RDBSS will uninitialize the cache map at some later time.
 
 A call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a> will be followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a> as part of the cleanup operation.
 
@@ -1039,39 +1052,68 @@ RDBSS ignores the return value from <a href="https://msdn.microsoft.com/library/
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
-
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CALLDOWN routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CALLDOWN routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 468cb35d-f816-4233-ba07-8dc47b77d442
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFTarget2::Eval, IWDTFTarget2 interface [Windows Device Testing Framework], Eval method, Eval, Eval method [Windows Device Testing Framework], wdtf/IWDTFTarget2::Eval, Microsoft::WDTF::IWDTFTarget2::Eval, IWDTFTarget2, dtf.iwdtftarget2_eval, Eval method [Windows Device Testing Framework], IWDTFTarget2 interface, Microsoft.WDTF.IWDTFTarget2.Eval
+ms.keywords: Microsoft::WDTF::IWDTFTarget2::Eval, IWDTFTarget2 interface [Windows Device Testing Framework], Eval method, dtf.iwdtftarget2_eval, IWDTFTarget2, Eval method [Windows Device Testing Framework], IWDTFTarget2 interface, Microsoft.WDTF.IWDTFTarget2.Eval, wdtf/IWDTFTarget2::Eval, IWDTFTarget2::Eval, Eval, Eval method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 686bc6e0-7455-4b86-93ce-09b7c7d60240
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_RESERVED structure [Storage Devices], ntddmmc/FEATURE_DATA_RESERVED, _FEATURE_DATA_RESERVED, PFEATURE_DATA_RESERVED structure pointer [Storage Devices], PFEATURE_DATA_RESERVED, storage.feature_data_reserved, FEATURE_DATA_RESERVED, structs-CD-ROM_4fc9f24f-2488-493d-8e63-2e4c8a3ab879.xml, ntddmmc/PFEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED
+ms.keywords: FEATURE_DATA_RESERVED structure [Storage Devices], storage.feature_data_reserved, PFEATURE_DATA_RESERVED structure pointer [Storage Devices], _FEATURE_DATA_RESERVED, structs-CD-ROM_4fc9f24f-2488-493d-8e63-2e4c8a3ab879.xml, FEATURE_DATA_RESERVED, PFEATURE_DATA_RESERVED, *PFEATURE_DATA_RESERVED, ntddmmc/PFEATURE_DATA_RESERVED, ntddmmc/FEATURE_DATA_RESERVED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

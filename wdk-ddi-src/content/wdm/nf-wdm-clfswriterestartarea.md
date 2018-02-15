@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e97006e1-5a18-4478-9cac-30eb70142fa7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfswriterestartarea, Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml, wdm/ClfsWriteRestartArea, ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], ClfsWriteRestartArea
+ms.keywords: ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], ClfsWriteRestartArea, kernel.clfswriterestartarea, wdm/ClfsWriteRestartArea, Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,15 +166,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
 
 
 
@@ -183,6 +179,10 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 <a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
 
 
 

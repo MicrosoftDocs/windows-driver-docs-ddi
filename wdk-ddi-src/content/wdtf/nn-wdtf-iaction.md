@@ -96,7 +96,7 @@ For a listing of all action interfaces included in WDTF, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
 
 
 
@@ -104,7 +104,7 @@ For a listing of all action interfaces included in WDTF, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 

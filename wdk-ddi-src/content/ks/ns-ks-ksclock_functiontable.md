@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed16588e-1c63-411d-b5c8-a8151a218328
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, KSCLOCK_FUNCTIONTABLE, ks/KSCLOCK_FUNCTIONTABLE, ks/PKSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], stream.ksclock_functiontable, PKSCLOCK_FUNCTIONTABLE, *PKSCLOCK_FUNCTIONTABLE
+ms.keywords: PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], KSCLOCK_FUNCTIONTABLE, ks/PKSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable, ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, *PKSCLOCK_FUNCTIONTABLE, ks/KSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

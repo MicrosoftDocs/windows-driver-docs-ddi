@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3522315-cf15-41f7-ac87-c625c7dc8040
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, kernel.device_object, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], DEVICE_OBJECT, *PDEVICE_OBJECT, wdm/PDEVICE_OBJECT, wdm/DEVICE_OBJECT, _DEVICE_OBJECT
+ms.keywords: wdm/DEVICE_OBJECT, wdm/PDEVICE_OBJECT, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, _DEVICE_OBJECT, *PDEVICE_OBJECT, kernel.device_object, PDEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], DEVICE_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -434,7 +434,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 
 
@@ -442,11 +442,11 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -454,7 +454,7 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
 
 

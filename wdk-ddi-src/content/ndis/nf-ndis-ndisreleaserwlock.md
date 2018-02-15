@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0859f3f-0acc-45b7-99b2-ef420cd06565
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisReleaseRWLock, NdisReleaseRWLock function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_bbc47204-3cf6-4154-bafc-23c14cff452b.xml, ndis/NdisReleaseRWLock, netvista.ndisreleaserwlock
+ms.keywords: netvista.ndisreleaserwlock, NdisReleaseRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisReleaseRWLock, ndis_processor_group_ref_bbc47204-3cf6-4154-bafc-23c14cff452b.xml, NdisReleaseRWLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,19 +122,19 @@ The acquisition of an <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+
+
+
 <a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
 
 

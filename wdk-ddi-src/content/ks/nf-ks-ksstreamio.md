@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 74c62a30-42b9-4ea7-b52a-014e263d886e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsStreamIo function [Streaming Media Devices], KsStreamIo, stream.ksstreamio, ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml, ks/KsStreamIo
+ms.keywords: ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml, KsStreamIo, ks/KsStreamIo, KsStreamIo function [Streaming Media Devices], stream.ksstreamio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

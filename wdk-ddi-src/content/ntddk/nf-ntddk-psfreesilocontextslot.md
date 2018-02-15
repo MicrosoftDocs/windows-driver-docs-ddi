@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 659B92A6-8582-468F-8CDD-119832A95230
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psfreesilocontextslot, PsFreeSiloContextSlot, ntddk/PsFreeSiloContextSlot, PsFreeSiloContextSlot routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsFreeSiloContextSlot routine [Kernel-Mode Driver Architecture], ntddk/PsFreeSiloContextSlot, kernel.psfreesilocontextslot, PsFreeSiloContextSlot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

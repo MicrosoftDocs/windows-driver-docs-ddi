@@ -129,11 +129,11 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than the
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-
-
-
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_free.md">IOCTL_INTERNAL_PARALLEL_PORT_FREE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
 
 
 

@@ -117,15 +117,15 @@ The driver's <b>CheckCounterInfo</b> function cannot call the <a href="..\d3d10u
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a>
 
 
 

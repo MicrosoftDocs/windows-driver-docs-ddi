@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ABC856E4-557D-45FD-B3A9-3FAA60542343
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PepIdleTypePlatform, PepIdleTypeProcessor, kernel.pep_processor_idle_type, PepIdleTypePlatform, *PPEP_PROCESSOR_IDLE_TYPE, pep_x/PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypeMax, pep_x/PepIdleTypeProcessor, PepIdleTypeMax, PEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: pep_x/PepIdleTypeMax, pep_x/PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypeProcessor, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], PepIdleTypePlatform, *PPEP_PROCESSOR_IDLE_TYPE, kernel.pep_processor_idle_type, PepIdleTypeMax, PEP_PROCESSOR_IDLE_TYPE, PepIdleTypeProcessor, pep_x/PepIdleTypePlatform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

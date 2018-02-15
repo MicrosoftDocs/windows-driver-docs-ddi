@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7902877c-4991-48ae-9285-82949f898af2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.attribute_info_1, winddiui/ATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1 structure [Print Devices], _ATTRIBUTE_INFO_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, PATTRIBUTE_INFO_1, winddiui/PATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1 structure pointer [Print Devices], *PATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1
+ms.keywords: winddiui/PATTRIBUTE_INFO_1, print.attribute_info_1, winddiui/ATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1 structure [Print Devices], ATTRIBUTE_INFO_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, _ATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1 structure pointer [Print Devices], PATTRIBUTE_INFO_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

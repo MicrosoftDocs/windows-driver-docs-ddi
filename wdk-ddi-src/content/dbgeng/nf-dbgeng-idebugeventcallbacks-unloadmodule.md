@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2afdaee6-7714-42d4-a402-3cb85ef3b970
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: UnloadModule, dbgeng/IDebugEventCallbacks::UnloadModule, UnloadModule method [Windows Debugging], UnloadModule method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, IDebugEventCallbacks::UnloadModule, debugger.idebugeventcallbacks_unloadmodule
+ms.keywords: UnloadModule, debugger.idebugeventcallbacks_unloadmodule, UnloadModule method [Windows Debugging], IDebugEventCallbacks::UnloadModule, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, UnloadModule method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, IDebugEventCallbacks, dbgeng/IDebugEventCallbacks::UnloadModule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

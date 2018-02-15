@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, DrvWriteSpoolBuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml, IPrintCorePS2
+ms.keywords: IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml, DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2, DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, IPrintCorePS2::DrvWriteSpoolBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

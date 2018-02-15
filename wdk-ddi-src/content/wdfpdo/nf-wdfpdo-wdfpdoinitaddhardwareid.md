@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfpdoinitaddhardwareid, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, PFN_WDFPDOINITADDHARDWAREID, wdf.wdfpdoinitaddhardwareid, wdfpdo/WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method, WdfPdoInitAddHardwareID
+ms.keywords: wdf.wdfpdoinitaddhardwareid, WdfPdoInitAddHardwareID, kmdf.wdfpdoinitaddhardwareid, wdfpdo/WdfPdoInitAddHardwareID, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID method, PFN_WDFPDOINITADDHARDWAREID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -157,7 +157,7 @@ status = WdfPdoInitAddHardwareID(
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigninstanceid.md">WdfPdoInitAssignInstanceID</a>
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddcompatibleid.md">WdfPdoInitAddCompatibleID</a>
 
 
 
@@ -165,7 +165,7 @@ status = WdfPdoInitAddHardwareID(
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddcompatibleid.md">WdfPdoInitAddCompatibleID</a>
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigninstanceid.md">WdfPdoInitAssignInstanceID</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2c4b7f40-210a-44fa-b7d4-150355d6b75b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData, ExtRemoteData::GetUchar, debugger.extremotedata_getuchar, GetUchar, GetUchar method [Windows Debugging], ExtRemoteData class, ExtRemoteData class [Windows Debugging], GetUchar method, EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, GetUchar method [Windows Debugging]
+ms.keywords: GetUchar method [Windows Debugging], ExtRemoteData class, GetUchar method [Windows Debugging], debugger.extremotedata_getuchar, ExtRemoteData, GetUchar, ExtRemoteData class [Windows Debugging], GetUchar method, EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, ExtRemoteData::GetUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,15 +87,15 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544016">ExtRemoteData::GetChar</a>
 
 
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 
 

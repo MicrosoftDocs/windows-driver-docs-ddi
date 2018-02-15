@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ddb54eb-9f20-4cb9-8488-5f2806d23430
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndissystemactiveprocessorcount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], NdisSystemActiveProcessorCount, ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml
+ms.keywords: NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount, ndis/NdisSystemActiveProcessorCount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,15 +128,15 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
 
 

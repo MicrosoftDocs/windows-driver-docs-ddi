@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 705faf80-79c4-4f2a-a399-d9a26bde54cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIOQUEUEPURGESYNCHRONOUSLY, wdfio/WdfIoQueuePurgeSynchronously, kmdf.wdfioqueuepurgesynchronously, DFQueueObjectRef_3630b28a-48ff-4b9d-9359-9b88771e5104.xml, WdfIoQueuePurgeSynchronously, WdfIoQueuePurgeSynchronously method, wdf.wdfioqueuepurgesynchronously
+ms.keywords: wdfio/WdfIoQueuePurgeSynchronously, WdfIoQueuePurgeSynchronously, PFN_WDFIOQUEUEPURGESYNCHRONOUSLY, kmdf.wdfioqueuepurgesynchronously, WdfIoQueuePurgeSynchronously method, DFQueueObjectRef_3630b28a-48ff-4b9d-9359-9b88771e5104.xml, wdf.wdfioqueuepurgesynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

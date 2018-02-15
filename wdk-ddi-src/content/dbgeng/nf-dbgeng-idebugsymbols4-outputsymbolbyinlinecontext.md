@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 55BA214C-7161-4B2C-8107-11EE22D63CD6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputSymbolByInlineContext, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4::OutputSymbolByInlineContext, debugger.idebugsymbols4_outputsymbolbyinlinecontext
+ms.keywords: IDebugSymbols4 interface [Windows Debugging], OutputSymbolByInlineContext method, IDebugSymbols4, debugger.idebugsymbols4_outputsymbolbyinlinecontext, OutputSymbolByInlineContext, IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging], IDebugSymbols4 interface, dbgeng/IDebugSymbols4::OutputSymbolByInlineContext, OutputSymbolByInlineContext method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

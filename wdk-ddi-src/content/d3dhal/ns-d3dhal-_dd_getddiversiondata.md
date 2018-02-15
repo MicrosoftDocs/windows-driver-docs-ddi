@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f96ef86-1155-4483-915e-706cc18c3bca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DD_GETDDIVERSIONDATA, display.dd_getddiversiondata, DD_GETDDIVERSIONDATA structure [Display Devices], DD_GETDDIVERSIONDATA, d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml, d3dhal/DD_GETDDIVERSIONDATA"
+ms.keywords: DD_GETDDIVERSIONDATA, d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml, display.dd_getddiversiondata, _DD_GETDDIVERSIONDATA, DD_GETDDIVERSIONDATA structure [Display Devices], d3dhal/DD_GETDDIVERSIONDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

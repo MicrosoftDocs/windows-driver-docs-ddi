@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 75aace9d-3f1e-4002-82e6-d581903da4f9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3::GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], debugger.geteventindexdescription, IDebugControl3, GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, GetEventIndexDescription, dbgeng/IDebugControl3::GetEventIndexDescription, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method
+ms.keywords: GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, debugger.geteventindexdescription, dbgeng/IDebugControl3::GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], IDebugControl3::GetEventIndexDescription, GetEventIndexDescription, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -135,11 +135,11 @@ The amount of descriptive information available for a particular target varies d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 
 

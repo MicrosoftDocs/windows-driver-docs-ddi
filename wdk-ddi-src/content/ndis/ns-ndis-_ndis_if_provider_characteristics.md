@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f295bea2-20d8-4c71-b78b-77d43840be2a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], *PNDIS_IF_PROVIDER_CHARACTERISTICS, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS, _NDIS_IF_PROVIDER_CHARACTERISTICS, PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, PNDIS_IF_PROVIDER_CHARACTERISTICS, netvista.ndis_if_provider_characteristics
+ms.keywords: PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IF_PROVIDER_CHARACTERISTICS, netvista.ndis_if_provider_characteristics, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_IF_PROVIDER_CHARACTERISTICS, *PNDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,6 +124,10 @@ To register as an interface provider, the driver passes a pointer to the initial
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
 
 
@@ -133,10 +137,6 @@ To register as an interface provider, the driver passes a pointer to the initial
 
 
 <a href="..\ndis\nc-ndis-if_set_object.md">ProviderSetObject</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

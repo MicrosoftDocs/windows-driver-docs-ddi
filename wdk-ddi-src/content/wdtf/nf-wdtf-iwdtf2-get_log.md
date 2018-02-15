@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 4c229367-bcdc-466f-ae38-f5c56ae4b840
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTF2.Log, IWDTF2.Log, IWDTF2::get_Log, Log property [Windows Device Testing Framework], IWDTF2, Log property [Windows Device Testing Framework], IWDTF2 interface, IWDTF2 interface [Windows Device Testing Framework], Log property, wdtf/IWDTF2::get_Log, dtf.iwdtf2_log, Microsoft::WDTF::IWDTF2::Log, get_Log, wdtf/IWDTF2::Log
+ms.keywords: wdtf/IWDTF2::get_Log, IWDTF2 interface [Windows Device Testing Framework], Log property, Log property [Windows Device Testing Framework], IWDTF2.Log, get_Log, IWDTF2::get_Log, dtf.iwdtf2_log, Microsoft::WDTF::IWDTF2::Log, Microsoft.WDTF.IWDTF2.Log, IWDTF2, Log property [Windows Device Testing Framework], IWDTF2 interface, wdtf/IWDTF2::Log
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_Log(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtf2.md">IWDTF2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtflog2.md">IWDTFLog2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtf2.md">IWDTF2</a>
 
 
 

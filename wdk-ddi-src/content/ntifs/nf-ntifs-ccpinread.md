@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46b0e05e-f7e2-4a9b-bec0-26bcaf31b013
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: CcPinRead, ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ntifs/CcPinRead, ifsk.ccpinread, CcPinRead routine [Installable File System Drivers]
+ms.keywords: CcPinRead routine [Installable File System Drivers], ifsk.ccpinread, ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ntifs/CcPinRead, CcPinRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,19 +192,19 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5d67c0-eb3f-4ac1-9f85-f9c673314458
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PDEVICE_INTERFACE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], wdm/DEVICE_INTERFACE_CHANGE_NOTIFICATION, _DEVICE_INTERFACE_CHANGE_NOTIFICATION, *PDEVICE_INTERFACE_CHANGE_NOTIFICATION, wdm/PDEVICE_INTERFACE_CHANGE_NOTIFICATION, kernel.device_interface_change_notification, DEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], kstruct_a_43e52fa7-54ee-49bd-b822-4daf39ebcdc2.xml, PDEVICE_INTERFACE_CHANGE_NOTIFICATION
+ms.keywords: wdm/PDEVICE_INTERFACE_CHANGE_NOTIFICATION, *PDEVICE_INTERFACE_CHANGE_NOTIFICATION, PDEVICE_INTERFACE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], DEVICE_INTERFACE_CHANGE_NOTIFICATION, wdm/DEVICE_INTERFACE_CHANGE_NOTIFICATION, PDEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], kernel.device_interface_change_notification, kstruct_a_43e52fa7-54ee-49bd-b822-4daf39ebcdc2.xml, _DEVICE_INTERFACE_CHANGE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,6 +108,10 @@ This structure is allocated from paged memory.
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_plugplay_notification_header.md">PLUGPLAY_NOTIFICATION_HEADER</a>
+
+
+
 <a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
 
 
@@ -117,10 +121,6 @@ This structure is allocated from paged memory.
 
 
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
-
-
-
-<a href="..\wdm\ns-wdm-_plugplay_notification_header.md">PLUGPLAY_NOTIFICATION_HEADER</a>
 
 
 

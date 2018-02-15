@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 0CD692E2-B2D6-4786-8C0B-C0DCAFCF6259
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbRequestGetController, SpbRequestGetController method [Buses], SPB.spbrequestgetcontroller, spbcx/SpbRequestGetController
+ms.keywords: SPB.spbrequestgetcontroller, SpbRequestGetController method [Buses], spbcx/SpbRequestGetController, SpbRequestGetController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

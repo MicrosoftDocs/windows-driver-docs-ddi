@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1957D03D-7C85-4A58-A5CC-94D3C9913F5A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_ppm_park_selection, PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION, _PEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION, *PPEP_PPM_PARK_SELECTION, pepfx/PEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture]
+ms.keywords: "_PEP_PPM_PARK_SELECTION, kernel.pep_ppm_park_selection, pepfx/PEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION, pepfx/PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION, *PPEP_PPM_PARK_SELECTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

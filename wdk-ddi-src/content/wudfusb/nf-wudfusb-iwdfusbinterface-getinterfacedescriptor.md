@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ae4cffc8-65db-452c-9b85-19752c32c421
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_2d9877fd-47c4-4629-8656-d5d513260b2d.xml, GetInterfaceDescriptor, IWDFUsbInterface interface, GetInterfaceDescriptor method, umdf.iwdfusbinterface_getinterfacedescriptor, IWDFUsbInterface, wdf.iwdfusbinterface_getinterfacedescriptor, IWDFUsbInterface::GetInterfaceDescriptor, GetInterfaceDescriptor method, GetInterfaceDescriptor method, IWDFUsbInterface interface, wudfusb/IWDFUsbInterface::GetInterfaceDescriptor
+ms.keywords: IWDFUsbInterface::GetInterfaceDescriptor, IWDFUsbInterface interface, GetInterfaceDescriptor method, GetInterfaceDescriptor, GetInterfaceDescriptor method, wudfusb/IWDFUsbInterface::GetInterfaceDescriptor, wdf.iwdfusbinterface_getinterfacedescriptor, GetInterfaceDescriptor method, IWDFUsbInterface interface, umdf.iwdfusbinterface_getinterfacedescriptor, IWDFUsbInterface, UMDFUSBref_2d9877fd-47c4-4629-8656-d5d513260b2d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

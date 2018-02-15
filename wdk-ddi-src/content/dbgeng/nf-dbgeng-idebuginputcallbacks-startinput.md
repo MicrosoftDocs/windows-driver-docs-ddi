@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4ac3764e-6482-49de-aac8-3b540561d201
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugInputCallbacks::StartInput, IDebugInputCallbacks, ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, StartInput method [Windows Debugging], debugger.idebuginputcallbacks_startinput, IDebugInputCallbacks::StartInput, StartInput, IDebugInputCallbacks interface [Windows Debugging], StartInput method, StartInput method [Windows Debugging], IDebugInputCallbacks interface
+ms.keywords: IDebugInputCallbacks::StartInput, dbgeng/IDebugInputCallbacks::StartInput, StartInput method [Windows Debugging], IDebugInputCallbacks interface, debugger.idebuginputcallbacks_startinput, IDebugInputCallbacks, StartInput method [Windows Debugging], ComCallbacks_155d62a2-08b2-4caf-80d6-80fab139e77b.xml, IDebugInputCallbacks interface [Windows Debugging], StartInput method, StartInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

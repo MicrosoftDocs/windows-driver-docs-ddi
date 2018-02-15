@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 35e11004-c716-4c6a-ba0a-be04750afb7a
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SetFormat method [Audio Devices], IMiniportMidiStream interface, portcls/IMiniportMidiStream::SetFormat, SetFormat method [Audio Devices], audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, IMiniportMidiStream::SetFormat, audio.iminiportmidistream_setformat, IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], SetFormat method, SetFormat
+ms.keywords: audmp-routines_9e75b920-4cc0-4acb-83e6-f970524e0587.xml, SetFormat method [Audio Devices], IMiniportMidiStream interface, portcls/IMiniportMidiStream::SetFormat, audio.iminiportmidistream_setformat, SetFormat, SetFormat method [Audio Devices], IMiniportMidiStream::SetFormat, IMiniportMidiStream interface [Audio Devices], SetFormat method, IMiniportMidiStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ The <code>SetFormat</code> method essentially does nothing because the data form
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 

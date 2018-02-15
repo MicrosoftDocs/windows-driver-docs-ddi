@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ab90ab40-7b45-4658-b11b-cf46f91f8699
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoCheckDesiredAccess, ioref_f8879d66-0bad-4c92-b2a3-853b7eb65ac6.xml, IoCheckDesiredAccess function [Installable File System Drivers], ifsk.iocheckdesiredaccess, ntifs/IoCheckDesiredAccess
+ms.keywords: ntifs/IoCheckDesiredAccess, ifsk.iocheckdesiredaccess, IoCheckDesiredAccess function [Installable File System Drivers], ioref_f8879d66-0bad-4c92-b2a3-853b7eb65ac6.xml, IoCheckDesiredAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F381C8DB-DC69-4820-BDCE-2F1DF3482FDD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PDOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_ADDITIONAL_IE, windot11/ DOT11_WFD_ADDITIONAL_IE, PDOT11_WFD_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_additional_ie, PDOT11_WFD_ADDITIONAL_IE, _DOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE"
+ms.keywords: netvista._dot11_wfd_additional_ie, windot11/PDOT11_WFD_ADDITIONAL_IE, *PDOT11_WFD_ADDITIONAL_IE, PDOT11_WFD_ADDITIONAL_IE, windot11/ DOT11_WFD_ADDITIONAL_IE, PDOT11_WFD_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], DOT11_WFD_ADDITIONAL_IE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

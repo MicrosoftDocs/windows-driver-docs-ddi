@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide::ChangeDebuggeeState, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate, IDebugEventCallbacksWide
+ms.keywords: IDebugEventCallbacksWide::ChangeDebuggeeState, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_changedebuggeestate, ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

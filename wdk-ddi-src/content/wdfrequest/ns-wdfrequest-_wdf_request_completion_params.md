@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3993202-c49d-4de9-8881-9e3786575e17
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_REQUEST_COMPLETION_PARAMS structure pointer, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, PWDF_REQUEST_COMPLETION_PARAMS, *PWDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, kmdf.wdf_request_completion_params, WDF_REQUEST_COMPLETION_PARAMS, _WDF_REQUEST_COMPLETION_PARAMS, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS, wdf.wdf_request_completion_params, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS
+ms.keywords: WDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, PWDF_REQUEST_COMPLETION_PARAMS, wdf.wdf_request_completion_params, PWDF_REQUEST_COMPLETION_PARAMS structure pointer, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, kmdf.wdf_request_completion_params, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS, _WDF_REQUEST_COMPLETION_PARAMS, *PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -306,11 +306,7 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 ## -see-also
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 
@@ -318,7 +314,11 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
 
 
 

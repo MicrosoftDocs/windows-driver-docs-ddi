@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5ce7786-717a-4e0f-bc57-342655a59ca1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoCallDriver routine [Kernel-Mode Driver Architecture], kernel.pocalldriver, wdm/PoCallDriver, PoCallDriver, portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml
+ms.keywords: kernel.pocalldriver, PoCallDriver routine [Kernel-Mode Driver Architecture], portn_2045d7d3-993d-49e6-aaf5-52d3c1316382.xml, PoCallDriver, wdm/PoCallDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,31 +114,7 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
 
 
@@ -146,7 +122,31 @@ On Windows 98/Me, all drivers call <b>PoCallDriver</b> at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+
+
+<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
 
 
 

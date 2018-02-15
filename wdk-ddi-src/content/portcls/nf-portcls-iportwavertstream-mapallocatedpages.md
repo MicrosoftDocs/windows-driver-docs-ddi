@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 90f412de-073f-4889-adf3-898cde0206b7
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.iportwavertstream_mapallocatedpages, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface [Audio Devices], MapAllocatedPages method, MapAllocatedPages, IPortWaveRTStream::MapAllocatedPages, portcls/IPortWaveRTStream::MapAllocatedPages, IPortWaveRTStream, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface
+ms.keywords: MapAllocatedPages method [Audio Devices], audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, IPortWaveRTStream::MapAllocatedPages, portcls/IPortWaveRTStream::MapAllocatedPages, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], MapAllocatedPages method, MapAllocatedPages, audio.iportwavertstream_mapallocatedpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,15 +104,11 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
 
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
 
 
 
@@ -120,7 +116,7 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 
@@ -128,7 +124,11 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
 
 
 

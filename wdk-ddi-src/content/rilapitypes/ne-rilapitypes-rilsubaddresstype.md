@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5484775b-0c02-4879-a550-a4dc99e577ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SUBADDRTYPE_MAX, netvista.rilsubaddresstype_2, rilapitypes/RIL_SUBADDRTYPE_MAX, rilapitypes/RILSUBADDRESSTYPE, rilapitypes/RIL_SUBADDRTYPE_USER, RILSUBADDRESSTYPE, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_USER
+ms.keywords: rilapitypes/RIL_SUBADDRTYPE_MAX, rilapitypes/RILSUBADDRESSTYPE, netvista.rilsubaddresstype_2, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_USER, RIL_SUBADDRTYPE_MAX, rilapitypes/RIL_SUBADDRTYPE_USER, RILSUBADDRESSTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

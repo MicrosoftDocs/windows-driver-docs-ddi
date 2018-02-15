@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d4d51366-4d04-47fe-8c44-09c9c6ccf35f
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbstrct_b5a96c38-53d8-4d08-849b-d6c8c4b69c72.xml, PUSB_DESCRIPTOR_REQUEST structure pointer [Buses], usbioctl/USB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST, _USB_DESCRIPTOR_REQUEST, usbioctl/PUSB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST, buses.usb_descriptor_request, USB_DESCRIPTOR_REQUEST structure [Buses]
+ms.keywords: buses.usb_descriptor_request, usbioctl/PUSB_DESCRIPTOR_REQUEST, usbstrct_b5a96c38-53d8-4d08-849b-d6c8c4b69c72.xml, usbioctl/USB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST structure [Buses], PUSB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST structure pointer [Buses], *PUSB_DESCRIPTOR_REQUEST, _USB_DESCRIPTOR_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

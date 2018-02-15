@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 28CC4BE1-D4C1-4D22-885B-D50BE5AD6EE6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, display.dxgk_check_multiplane_overlay_support_plane, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure [Display Devices], d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE"
+ms.keywords: display.dxgk_check_multiplane_overlay_support_plane, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure [Display Devices], _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

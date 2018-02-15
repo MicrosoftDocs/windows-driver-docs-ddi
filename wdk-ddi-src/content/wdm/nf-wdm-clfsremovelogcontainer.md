@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5c49bf4f-acc6-4c0f-bbc2-bafb68ea1a74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsRemoveLogContainer routine [Kernel-Mode Driver Architecture], kernel.clfsremovelogcontainer, wdm/ClfsRemoveLogContainer, ClfsRemoveLogContainer, Clfs_f797d534-9c7e-4871-81d1-aff9ccedccf5.xml
+ms.keywords: Clfs_f797d534-9c7e-4871-81d1-aff9ccedccf5.xml, ClfsRemoveLogContainer, ClfsRemoveLogContainer routine [Kernel-Mode Driver Architecture], kernel.clfsremovelogcontainer, wdm/ClfsRemoveLogContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,15 +112,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+
+
 <a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsremovelogcontainerset.md">ClfsRemoveLogContainerSet </a>
-
-
-
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -128,7 +128,7 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdm\nf-wdm-clfsremovelogcontainerset.md">ClfsRemoveLogContainerSet </a>
 
 
 

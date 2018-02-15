@@ -114,11 +114,11 @@ The <b>Information</b> field contains the number of bytes returned in the output
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
-
-
-
 <a href="..\ntddscsi\ns-ntddscsi-_nvcache_request_block.md">NVCACHE_REQUEST_BLOCK</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
 
 
 

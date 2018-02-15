@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4c5d8834-a78d-443e-bfec-1d9fcddb9331
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml, IStiDevice::GetCapabilities, IStiDevice, GetCapabilities method [Imaging Devices], image.istidevice_getcapabilities, sti/IStiDevice::GetCapabilities, GetCapabilities method [Imaging Devices], IStiDevice interface, GetCapabilities, IStiDevice interface [Imaging Devices], GetCapabilities method
+ms.keywords: IStiDevice interface [Imaging Devices], GetCapabilities method, GetCapabilities method [Imaging Devices], IStiDevice interface, IStiDevice, IStiDevice::GetCapabilities, image.istidevice_getcapabilities, sti/IStiDevice::GetCapabilities, GetCapabilities, GetCapabilities method [Imaging Devices], stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

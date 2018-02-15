@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93f94a42-bffb-4e4d-a560-b0da5d7d0019
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, netvista.ndismconfigmsixtableentry, ndis/NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismconfigmsixtableentry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], NdisMConfigMSIXTableEntry, ndis/NdisMConfigMSIXTableEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,15 +169,15 @@ For the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
 
 
 

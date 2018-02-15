@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoDecoderGetHandle
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEODECODERGETHANDLE callback
@@ -82,7 +82,6 @@ A handle to the display device (graphics context).
 ### -param D3D11_1DDI_HDECODE
 
 
-
 ### -param *pContentProtectionHandle [out]
 
 A pointer to the handle.
@@ -98,7 +97,9 @@ A handle to the video decoder object that was created through a call to the <a h
 ## -returns
 
 
+
 <b>VideoDecoderGetHandle</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,24 +140,34 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>VideoDecoderGetHandle</b> function returns a driver handle for the video decoder. This handle can be used by the application to associate the decoder with a cryptographic session over the authenticated channel.
 
 This function allows the driver to define its own handle to its state data for the video decoder. This bypasses any handle mapping that may be performed by the Microsoft Direct3D runtime.
-<div class="alert"><b>Note</b>  Drivers can return the same handle in the <i>pHandle</i> parameter that was passed  in the <i>hDecoder</i> parameter.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Drivers can return the same handle in the <i>pHandle</i> parameter that was passed  in the <i>hDecoder</i> parameter.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_videodecoderextension.md">D3D11_1DDIARG_VIDEODECODEREXTENSION</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
+
+
 
  
 

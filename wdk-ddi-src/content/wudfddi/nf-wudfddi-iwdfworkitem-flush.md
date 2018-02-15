@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: AB79C2AE-0696-4EEC-9FC0-8A458CF19B82
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFWorkItem, Flush method, Flush method, IWDFWorkItem interface, IWDFWorkItem::Flush, IWDFWorkItem interface, Flush method, wudfddi/IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, Flush, wdf.iwdfworkitem_flush
+ms.keywords: wdf.iwdfworkitem_flush, IWDFWorkItem::Flush, IWDFWorkItem interface, Flush method, Flush method, wudfddi/IWDFWorkItem::Flush, IWDFWorkItem, umdf.iwdfworkitem_flush, Flush, Flush method, IWDFWorkItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

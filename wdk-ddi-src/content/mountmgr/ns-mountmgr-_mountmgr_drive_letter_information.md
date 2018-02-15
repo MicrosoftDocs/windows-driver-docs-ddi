@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ad8dc740-c297-43e7-beb9-d93019955fd3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], PMOUNTMGR_DRIVE_LETTER_INFORMATION, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml, storage.mountmgr_drive_letter_information, MOUNTMGR_DRIVE_LETTER_INFORMATION, *PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], _MOUNTMGR_DRIVE_LETTER_INFORMATION
+ms.keywords: storage.mountmgr_drive_letter_information, *PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml, MOUNTMGR_DRIVE_LETTER_INFORMATION, _MOUNTMGR_DRIVE_LETTER_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

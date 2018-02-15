@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlCopyWrite, ifsk.fsrtlcopywrite, FsRtlCopyWrite routine [Installable File System Drivers], fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ntifs/FsRtlCopyWrite
+ms.keywords: ntifs/FsRtlCopyWrite, FsRtlCopyWrite routine [Installable File System Drivers], FsRtlCopyWrite, ifsk.fsrtlcopywrite, fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

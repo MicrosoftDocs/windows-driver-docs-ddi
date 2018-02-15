@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9c5abef5-36ff-4f10-8e4e-b8d36d995246
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IsReparseTagMicrosoft function [Installable File System Drivers], ioref_ef573233-e933-490e-b762-1ce20343c65c.xml, IsReparseTagMicrosoft, ifsk.isreparsetagmicrosoft, ntifs/IsReparseTagMicrosoft
+ms.keywords: IsReparseTagMicrosoft function [Installable File System Drivers], ioref_ef573233-e933-490e-b762-1ce20343c65c.xml, ntifs/IsReparseTagMicrosoft, ifsk.isreparsetagmicrosoft, IsReparseTagMicrosoft
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -85,11 +85,7 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
 
 
 
@@ -101,7 +97,11 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
+<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
 
 
 
@@ -109,7 +109,11 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
 
 
 
@@ -117,11 +121,7 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 719210f5-22d6-425d-aff0-aefbebfbfca2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_5da99f27-5758-4e1b-af45-0d9069b55af7.xml, storage.scsiportreadportbufferulong, ScsiPortReadPortBufferUlong routine [Storage Devices], srb/ScsiPortReadPortBufferUlong, ScsiPortReadPortBufferUlong
+ms.keywords: ScsiPortReadPortBufferUlong, storage.scsiportreadportbufferulong, scsiprt_5da99f27-5758-4e1b-af45-0d9069b55af7.xml, srb/ScsiPortReadPortBufferUlong, ScsiPortReadPortBufferUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

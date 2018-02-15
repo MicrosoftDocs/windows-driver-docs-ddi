@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25999016-95a8-4d78-a4a3-111fc4e910ad
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NdisNicSwitchVPortStateMaximum, ntddndis/NdisNicSwitchVPortStateDeactivated, netvista.ndis_nic_switch_vport_state, _NDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NdisNicSwitchVPortStateUndefined, ntddndis/NdisNicSwitchVPortStateActivated, NdisNicSwitchVPortStateUndefined, NdisNicSwitchVPortStateMaximum, PNDIS_NIC_SWITCH_VPORT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], NdisNicSwitchVPortStateActivated, ntddndis/NDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateDeactivated, PNDIS_NIC_SWITCH_VPORT_STATE, ntddndis/PNDIS_NIC_SWITCH_VPORT_STATE
+ms.keywords: NdisNicSwitchVPortStateUndefined, PNDIS_NIC_SWITCH_VPORT_STATE, netvista.ndis_nic_switch_vport_state, ntddndis/NdisNicSwitchVPortStateMaximum, _NDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NDIS_NIC_SWITCH_VPORT_STATE, *PNDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateActivated, ntddndis/NdisNicSwitchVPortStateUndefined, NDIS_NIC_SWITCH_VPORT_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisNicSwitchVPortStateActivated, NdisNicSwitchVPortStateDeactivated, NdisNicSwitchVPortStateMaximum, PNDIS_NIC_SWITCH_VPORT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisNicSwitchVPortStateDeactivated, ntddndis/PNDIS_NIC_SWITCH_VPORT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -105,7 +105,7 @@ The <b>VPortState</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_s
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_parameters.md">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
 
 
 
@@ -113,7 +113,7 @@ The <b>VPortState</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_s
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_parameters.md">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
 
 
 

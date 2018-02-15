@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2e21d2f8-467e-43d3-8261-2373a8b8daa4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisDprAcquireSpinLock macro [Network Drivers Starting with Windows Vista], netvista.ndisdpracquirespinlock, ndis/NdisDprAcquireSpinLock, NdisDprAcquireSpinLock, ndis_spin_lock_ref_c954c605-2544-4911-8ebd-ba0464228437.xml
+ms.keywords: netvista.ndisdpracquirespinlock, NdisDprAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireSpinLock, ndis_spin_lock_ref_c954c605-2544-4911-8ebd-ba0464228437.xml, NdisDprAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -125,11 +125,24 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 
 
@@ -138,24 +151,11 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
-   NdisMSynchronizeWithInterruptEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 
 

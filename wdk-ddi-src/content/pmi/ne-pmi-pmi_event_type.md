@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: c2a8422d-15f0-45df-bc54-946fb3d11a22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: pmi/PmiThresholdEvent, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiAveragingIntervalChangedEvent, PmiBudgetEvent, powermeter.pmi_event_type, PmiEventMax, pmi/PmiBudgetEvent, pmi/PmiEventMax, pmi/PmiConfigurationChangedEvent, PmiCapabilitiesChangedEvent, pmi/PmiCapabilitiesChangedEvent, PmiConfigurationChangedEvent, PmiAveragingIntervalChangedEvent, PMI_EVENT_TYPE, PmiThresholdEvent, pmi/PMI_EVENT_TYPE
+ms.keywords: pmi/PmiThresholdEvent, PmiEventMax, pmi/PMI_EVENT_TYPE, PmiThresholdEvent, pmi/PmiBudgetEvent, pmi/PmiEventMax, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, PmiBudgetEvent, pmi/PmiConfigurationChangedEvent, PmiCapabilitiesChangedEvent, PmiAveragingIntervalChangedEvent, powermeter.pmi_event_type, pmi/PmiAveragingIntervalChangedEvent, pmi/PmiCapabilitiesChangedEvent, PmiConfigurationChangedEvent, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], PMI_EVENT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

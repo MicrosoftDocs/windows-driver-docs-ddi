@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0d77bb03-debb-4ba8-ac6b-ce130a8a16fa
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ntifs/FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], ifsk.fsrtlgetnextmcbentry, FsRtlGetNextMcbEntry
+ms.keywords: FsRtlGetNextMcbEntry function [Installable File System Drivers], ntifs/FsRtlGetNextMcbEntry, fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ifsk.fsrtlgetnextmcbentry, FsRtlGetNextMcbEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

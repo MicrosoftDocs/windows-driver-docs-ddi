@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1b778d94-55e6-4a5f-aa77-739bcf9a8041
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassGetDmaBuffer, strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, StreamClassGetDmaBuffer, stream.streamclassgetdmabuffer, StreamClassGetDmaBuffer routine [Streaming Media Devices]
+ms.keywords: strmini/StreamClassGetDmaBuffer, stream.streamclassgetdmabuffer, StreamClassGetDmaBuffer routine [Streaming Media Devices], strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, StreamClassGetDmaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

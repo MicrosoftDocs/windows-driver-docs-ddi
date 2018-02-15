@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 061db3ca-80ed-419e-8cca-f49d1498b780
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/PWSK_DATAGRAM_INDICATION, PWSK_DATAGRAM_INDICATION structure pointer [Network Drivers Starting with Windows Vista], *PWSK_DATAGRAM_INDICATION, WSK_DATAGRAM_INDICATION structure [Network Drivers Starting with Windows Vista], PWSK_DATAGRAM_INDICATION, _WSK_DATAGRAM_INDICATION, wsk/WSK_DATAGRAM_INDICATION, wskref_1e0fb168-6e03-4b73-8bb4-e3bce0c94b02.xml, WSK_DATAGRAM_INDICATION, netvista.wsk_datagram_indication
+ms.keywords: netvista.wsk_datagram_indication, WSK_DATAGRAM_INDICATION structure [Network Drivers Starting with Windows Vista], PWSK_DATAGRAM_INDICATION structure pointer [Network Drivers Starting with Windows Vista], PWSK_DATAGRAM_INDICATION, wskref_1e0fb168-6e03-4b73-8bb4-e3bce0c94b02.xml, _WSK_DATAGRAM_INDICATION, WSK_DATAGRAM_INDICATION, *PWSK_DATAGRAM_INDICATION, wsk/PWSK_DATAGRAM_INDICATION, wsk/WSK_DATAGRAM_INDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,10 +126,6 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
 
 
@@ -138,11 +134,15 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 
 
 <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 
 

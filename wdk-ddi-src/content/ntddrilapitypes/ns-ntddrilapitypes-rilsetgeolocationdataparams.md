@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7736c8d6-731e-4322-aade-ecd23a4fedde
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsetgeolocationdataparams, ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista], RILSETGEOLOCATIONDATAPARAMS, *LPRILSETGEOLOCATIONDATAPARAMS
+ms.keywords: RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS, *LPRILSETGEOLOCATIONDATAPARAMS, netvista.rilsetgeolocationdataparams, RILSETGEOLOCATIONDATAPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

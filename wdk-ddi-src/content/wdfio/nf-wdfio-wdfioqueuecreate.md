@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cd7e993e-1381-4b0c-b046-716e839dbb62
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, PFN_WDFIOQUEUECREATE, wdf.wdfioqueuecreate, kmdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate, WdfIoQueueCreate method, WdfIoQueueCreate
+ms.keywords: DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, WdfIoQueueCreate, kmdf.wdfioqueuecreate, wdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate, WdfIoQueueCreate method, PFN_WDFIOQUEUECREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -245,15 +245,11 @@ MyEvtDriverDeviceAdd(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a>
-
-
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
 
 
 
@@ -262,6 +258,10 @@ MyEvtDriverDeviceAdd(
 
 
 <a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a>
 
 
 

@@ -40,7 +40,7 @@ apiname:
 -	pfnGetVideoDecoderProfile
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERPROFILE callback
@@ -75,9 +75,7 @@ VOID APIENTRY* pfnGetVideoDecoderProfile(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param UINT
-
 
 
 ### -param *
@@ -87,16 +85,18 @@ VOID APIENTRY* pfnGetVideoDecoderProfile(
 
 
 
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
 
 
 #### - Index [in]
 
 The zero-based index of the video decoder profile. The display miniport driver returns the maximum number of video decoder profiles that it supports through a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount.md">GetVideoDecoderProfileCount</a> function.
+
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
 
 
 #### - pDecodeDesc [out]
@@ -107,22 +107,30 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_des
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The Microsoft Direct3D runtime verifies that the <i>Index</i> parameter data is valid before it calls the <b>GetVideoDecoderProfile</b> function.
+
 
 
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount.md">GetVideoDecoderProfileCount</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofilecount.md">GetVideoDecoderProfileCount</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8970833A-7CBA-40EB-85A8-60E7730C052F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetBool method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag::SetBool, printerextension/IPrinterScriptablePropertyBag::SetBool, print.iprinterscriptablepropertybag_setbool, SetBool method [Print Devices], SetBool, IPrinterScriptablePropertyBag interface [Print Devices], SetBool method
+ms.keywords: SetBool, SetBool method [Print Devices], print.iprinterscriptablepropertybag_setbool, SetBool method [Print Devices], IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices], SetBool method, IPrinterScriptablePropertyBag::SetBool, IPrinterScriptablePropertyBag, printerextension/IPrinterScriptablePropertyBag::SetBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

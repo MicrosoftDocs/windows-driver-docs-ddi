@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0c91abd0-5e49-4e23-a50f-9d1dacf9d868
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IBidiSpl, SendRecv, _win32_IBidiSpl_SendRecv, SendRecv method [Print Devices], IBidiSpl interface, print.ibidispl_ibidispl__sendrecv, gdi.ibidispl_ibidispl__sendrecv, IBidiSpl::SendRecv, IBidiSpl interface [Print Devices], SendRecv method, bidispl/IBidiSpl::SendRecv, SendRecv method [Print Devices]
+ms.keywords: "_win32_IBidiSpl_SendRecv, SendRecv method [Print Devices], SendRecv method [Print Devices], IBidiSpl interface, print.ibidispl_ibidispl__sendrecv, IBidiSpl::SendRecv, IBidiSpl interface [Print Devices], SendRecv method, SendRecv, IBidiSpl, bidispl/IBidiSpl::SendRecv, gdi.ibidispl_ibidispl__sendrecv"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -175,15 +175,15 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 

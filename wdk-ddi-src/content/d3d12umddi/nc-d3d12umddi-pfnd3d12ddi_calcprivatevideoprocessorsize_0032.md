@@ -81,6 +81,8 @@ The arguments used to create a video processor.
 ## -returns
 
 
+
 Returns the size of the video processor in bytes.
+
 
 

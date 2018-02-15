@@ -84,8 +84,10 @@ A pointer to the provider module's context for the binding between the provider 
 ## -returns
 
 
+
 A provider module's 
      <i>ProviderDetachClient</i> callback function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +115,14 @@ The provider module could not detach from the client module immediately.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NMR calls a provider module's 
@@ -163,23 +168,38 @@ The NMR calls a provider module's
 
 
 
+
 ## -see-also
-
-<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
-   ProviderCleanupBindingContext</a>
-
-<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
 <a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
    NmrProviderDetachClientComplete</a>
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
 
 <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
+
+
 <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
 
+
+
+<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
+   ProviderCleanupBindingContext</a>
+
+
+
 <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+
+
 
  
 

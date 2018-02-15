@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3410e8b1-820f-4892-8d26-d803e3f943da
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winppi/GdiGetDevmodeForPage, GdiGetDevmodeForPage, print.gdigetdevmodeforpage, gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, GdiGetDevmodeForPage function [Print Devices]
+ms.keywords: gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, winppi/GdiGetDevmodeForPage, GdiGetDevmodeForPage function [Print Devices], GdiGetDevmodeForPage, print.gdigetdevmodeforpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

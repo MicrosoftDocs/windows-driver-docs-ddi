@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5ad0f35-8413-4828-92f8-47544a6e802e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_a0793356-2192-4a72-9605-3d0d6d981ad2.xml, _BDA_PID_MAP, BDA_PID_MAP, stream.bda_pid_map, PBDA_PID_MAP, bdatypes/BDA_PID_MAP, BDA_PID_MAP structure [Streaming Media Devices], *PBDA_PID_MAP, PBDA_PID_MAP structure pointer [Streaming Media Devices], bdatypes/PBDA_PID_MAP
+ms.keywords: bdatypes/BDA_PID_MAP, BDA_PID_MAP, *PBDA_PID_MAP, PBDA_PID_MAP structure pointer [Streaming Media Devices], PBDA_PID_MAP, _BDA_PID_MAP, BDA_PID_MAP structure [Streaming Media Devices], bdatypes/PBDA_PID_MAP, bdaref_a0793356-2192-4a72-9605-3d0d6d981ad2.xml, stream.bda_pid_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

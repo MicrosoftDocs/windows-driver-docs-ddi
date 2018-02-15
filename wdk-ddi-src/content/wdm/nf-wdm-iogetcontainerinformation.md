@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 34612bc5-bed5-4645-8619-64ae2a603d1e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetcontainerinformation, IoGetContainerInformation routine [Kernel-Mode Driver Architecture], wdm/IoGetContainerInformation, IoGetContainerInformation, k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml
+ms.keywords: wdm/IoGetContainerInformation, kernel.iogetcontainerinformation, k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml, IoGetContainerInformation routine [Kernel-Mode Driver Architecture], IoGetContainerInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f9340f0d-4f70-4751-b339-de11ee13a469
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sendctpassthru_out, SendCTPassThru_OUT structure [Storage Devices], *PSendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT, PSendCTPassThru_OUT, SendCTPassThru_OUT, _SendCTPassThru_OUT, hbapiwmi/PSendCTPassThru_OUT, structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml, PSendCTPassThru_OUT structure pointer [Storage Devices]
+ms.keywords: "_SendCTPassThru_OUT, PSendCTPassThru_OUT structure pointer [Storage Devices], structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml, storage.sendctpassthru_out, *PSendCTPassThru_OUT, hbapiwmi/PSendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT, PSendCTPassThru_OUT, SendCTPassThru_OUT, SendCTPassThru_OUT structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

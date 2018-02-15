@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 354dcd2b-fa63-4574-94d8-149e3f199751
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, stream.iksdatatypehandler_ksismediatypeinranges, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, KsIsMediaTypeInRanges, IKsDataTypeHandler, KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface
+ms.keywords: KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface, IKsDataTypeHandler, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, IKsDataTypeHandler::KsIsMediaTypeInRanges, IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, KsIsMediaTypeInRanges, stream.iksdatatypehandler_ksismediatypeinranges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ A client first calls the <a href="https://msdn.microsoft.com/library/windows/har
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-
-
-
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
 
 

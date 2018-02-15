@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5bb69443-8ccd-4157-8815-fb3423b57e30
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/CWiauFormatConverter::IsFormatSupported, IsFormatSupported method [Imaging Devices], CWiauFormatConverter interface, image.cwiauformatconverter_isformatsupported, CWiauFormatConverter interface [Imaging Devices], IsFormatSupported method, IsFormatSupported, CWiauFormatConverter::IsFormatSupported, wiauFncs_894f0261-249e-4b7c-aaa1-43a52bd48fbf.xml, IsFormatSupported method [Imaging Devices], CWiauFormatConverter
+ms.keywords: CWiauFormatConverter interface [Imaging Devices], IsFormatSupported method, IsFormatSupported, IsFormatSupported method [Imaging Devices], CWiauFormatConverter interface, wiauFncs_894f0261-249e-4b7c-aaa1-43a52bd48fbf.xml, wiautil/CWiauFormatConverter::IsFormatSupported, CWiauFormatConverter::IsFormatSupported, image.cwiauformatconverter_isformatsupported, IsFormatSupported method [Imaging Devices], CWiauFormatConverter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

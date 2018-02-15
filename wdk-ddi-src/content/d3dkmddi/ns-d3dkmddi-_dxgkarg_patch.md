@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 37ca2208-253c-417e-a44c-fd1303d5f3dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_PATCH, display.dxgkarg_patch, _DXGKARG_PATCH, DXGKARG_PATCH, DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, DXGKARG_PATCH structure [Display Devices]
+ms.keywords: DXGKARG_PATCH, _DXGKARG_PATCH, DXGKARG_PATCH structure [Display Devices], d3dkmddi/DXGKARG_PATCH, display.dxgkarg_patch, DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -241,35 +241,7 @@ The display miniport driver returns an array in the <b>pAllocationList</b> membe
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_patchflags.md">DXGK_PATCHFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 
@@ -277,11 +249,39 @@ The display miniport driver returns an array in the <b>pAllocationList</b> membe
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
 
 
 

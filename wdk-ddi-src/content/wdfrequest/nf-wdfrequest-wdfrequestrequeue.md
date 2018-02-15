@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 955859d2-7c4f-454c-8621-84bacf0b9770
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, WdfRequestRequeue, WdfRequestRequeue method, wdfrequest/WdfRequestRequeue, wdf.wdfrequestrequeue, kmdf.wdfrequestrequeue, PFN_WDFREQUESTREQUEUE
+ms.keywords: wdf.wdfrequestrequeue, DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, WdfRequestRequeue method, kmdf.wdfrequestrequeue, WdfRequestRequeue, wdfrequest/WdfRequestRequeue, PFN_WDFREQUESTREQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

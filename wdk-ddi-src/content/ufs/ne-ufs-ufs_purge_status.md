@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9BC978A9-FA5E-4A1E-9775-1DC9C270F5DC
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_PURGE_STATUS, UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusSuccess, ufs/UFS_PurgeStatusQueueNotEmpty, UFS_PurgeStatusFailure, UFS_PURGE_STATUS enumeration [Storage Devices], ufs/UFS_PurgeStatusInterrupted, UFS_PurgeStatusInProgress, storage.ufs_purge_status, ufs/UFS_PurgeStatusFailure, UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusInProgress, ufs/UFS_PURGE_STATUS, ufs/UFS_PurgeStatusIdle, UFS_PurgeStatusSuccess, UFS_PurgeStatusInterrupted
+ms.keywords: ufs/UFS_PurgeStatusQueueNotEmpty, UFS_PURGE_STATUS enumeration [Storage Devices], UFS_PurgeStatusInterrupted, ufs/UFS_PurgeStatusInterrupted, UFS_PURGE_STATUS, storage.ufs_purge_status, ufs/UFS_PurgeStatusSuccess, ufs/UFS_PurgeStatusIdle, UFS_PurgeStatusSuccess, UFS_PurgeStatusInProgress, UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusFailure, UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusInProgress, ufs/UFS_PURGE_STATUS, UFS_PurgeStatusFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

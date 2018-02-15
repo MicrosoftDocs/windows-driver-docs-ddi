@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4990f3d7-e48c-49ee-9384-4bcad93c9281
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture], wdm/ClfsReadNextLogRecord, ClfsReadNextLogRecord, kernel.clfsreadnextlogrecord, Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml
+ms.keywords: wdm/ClfsReadNextLogRecord, Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml, kernel.clfsreadnextlogrecord, ClfsReadNextLogRecord, ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,7 +178,7 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
 
 
 
@@ -186,7 +186,7 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 
 

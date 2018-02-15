@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSPIN_MEDIUM, KSPROPERTY, KSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSIDENTIFIER structure [Streaming Media Devices], *PKSDEGRADE, PKSIDENTIFIER structure pointer [Streaming Media Devices], *PKSMETHOD, stream.ksidentifier, *PKSEVENT, *PKSPIN_INTERFACE, ks/KSIDENTIFIER, PKSIDENTIFIER, KSPIN_INTERFACE, ks/PKSIDENTIFIER, *PKSIDENTIFIER, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, KSEVENT, KSIDENTIFIER, KSMETHOD"
+ms.keywords: ks/KSIDENTIFIER, *PKSPIN_INTERFACE, *PKSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], *PKSPROPERTY, KSMETHOD, *PKSEVENT, KSIDENTIFIER, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], KSDEGRADE, KSEVENT, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, KSPROPERTY, *PKSDEGRADE, ks/PKSIDENTIFIER, *PKSPIN_MEDIUM, KSPIN_MEDIUM, *PKSMETHOD, KSPIN_INTERFACE, stream.ksidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,11 +133,11 @@ The use of an ID within the set allows one to perform a single large compare for
 
 
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

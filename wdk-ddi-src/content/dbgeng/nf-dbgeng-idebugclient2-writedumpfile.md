@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f410561-b848-471e-8230-f12aa512a897
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient4::WriteDumpFile, WriteDumpFile method [Windows Debugging], IDebugClient4 interface, IDebugClient3 interface [Windows Debugging], WriteDumpFile method, dbgeng/IDebugClient3::WriteDumpFile, WriteDumpFile, IDebugClient5::WriteDumpFile, IDebugClient interface [Windows Debugging], WriteDumpFile method, WriteDumpFile method [Windows Debugging], IDebugClient2 interface, IDebugClient4::WriteDumpFile, IDebugClient4 interface [Windows Debugging], WriteDumpFile method, dbgeng/IDebugClient::WriteDumpFile, IDebugClient2::WriteDumpFile, IDebugClient_d9fa8d64-3c92-425b-82fc-dec8553bdb52.xml, IDebugClient::WriteDumpFile, dbgeng/IDebugClient5::WriteDumpFile, IDebugClient2, IDebugClient5 interface [Windows Debugging], WriteDumpFile method, WriteDumpFile method [Windows Debugging], IDebugClient5 interface, IDebugClient3::WriteDumpFile, debugger.writedumpfile, WriteDumpFile method [Windows Debugging], IDebugClient3 interface, IDebugClient, IDebugClient2 interface [Windows Debugging], WriteDumpFile method, WriteDumpFile method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient2::WriteDumpFile, WriteDumpFile method [Windows Debugging]
+ms.keywords: dbgeng/IDebugClient5::WriteDumpFile, IDebugClient4 interface [Windows Debugging], WriteDumpFile method, dbgeng/IDebugClient2::WriteDumpFile, IDebugClient5::WriteDumpFile, IDebugClient, IDebugClient2 interface [Windows Debugging], WriteDumpFile method, WriteDumpFile method [Windows Debugging], IDebugClient4 interface, IDebugClient3::WriteDumpFile, IDebugClient_d9fa8d64-3c92-425b-82fc-dec8553bdb52.xml, IDebugClient4::WriteDumpFile, dbgeng/IDebugClient4::WriteDumpFile, IDebugClient2, WriteDumpFile method [Windows Debugging], IDebugClient3 interface, WriteDumpFile method [Windows Debugging], IDebugClient2 interface, WriteDumpFile method [Windows Debugging], IDebugClient interface, IDebugClient5 interface [Windows Debugging], WriteDumpFile method, WriteDumpFile method [Windows Debugging], WriteDumpFile method [Windows Debugging], IDebugClient5 interface, debugger.writedumpfile, IDebugClient2::WriteDumpFile, IDebugClient3 interface [Windows Debugging], WriteDumpFile method, IDebugClient::WriteDumpFile, dbgeng/IDebugClient3::WriteDumpFile, IDebugClient interface [Windows Debugging], WriteDumpFile method, WriteDumpFile, dbgeng/IDebugClient::WriteDumpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -223,23 +223,19 @@ For a description of kernel-mode dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
 
 
 
@@ -252,6 +248,10 @@ For a description of kernel-mode dump files, see <a href="https://msdn.microsoft
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

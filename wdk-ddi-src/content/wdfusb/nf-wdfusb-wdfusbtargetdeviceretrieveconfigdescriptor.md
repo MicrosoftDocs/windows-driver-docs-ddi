@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4d22384d-757a-499d-a82c-ae846a6372cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetdeviceretrieveconfigdescriptor, WdfUsbTargetDeviceRetrieveConfigDescriptor method, WdfUsbTargetDeviceRetrieveConfigDescriptor, DFUsbRef_6c3748fe-16c0-4151-8cbd-42c5882475eb.xml, wdf.wdfusbtargetdeviceretrieveconfigdescriptor, wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor, PFN_WDFUSBTARGETDEVICERETRIEVECONFIGDESCRIPTOR
+ms.keywords: WdfUsbTargetDeviceRetrieveConfigDescriptor, wdf.wdfusbtargetdeviceretrieveconfigdescriptor, kmdf.wdfusbtargetdeviceretrieveconfigdescriptor, WdfUsbTargetDeviceRetrieveConfigDescriptor method, DFUsbRef_6c3748fe-16c0-4151-8cbd-42c5882475eb.xml, PFN_WDFUSBTARGETDEVICERETRIEVECONFIGDESCRIPTOR, wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -233,7 +233,7 @@ if (!NT_SUCCESS(ntStatus)) {
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
 
 
 
@@ -241,11 +241,11 @@ if (!NT_SUCCESS(ntStatus)) {
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetdevicedescriptor.md">WdfUsbTargetDeviceGetDeviceDescriptor</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 

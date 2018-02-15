@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73779eb1-514e-4103-9af2-0dc0c86cb04e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVAHDDDI_COLOR_RGBA, d3dumddi/DXVAHDDDI_COLOR_RGBA, DXVAHDDDI_COLOR_RGBA structure [Display Devices], DXVAHDDDI_COLOR_RGBA, display.dxvahdddi_color_rgba, DXVA2_Structs_ecf8ab79-edb1-42c8-b873-39cc1f7a1ef8.xml"
+ms.keywords: d3dumddi/DXVAHDDDI_COLOR_RGBA, DXVAHDDDI_COLOR_RGBA structure [Display Devices], DXVAHDDDI_COLOR_RGBA, display.dxvahdddi_color_rgba, _DXVAHDDDI_COLOR_RGBA, DXVA2_Structs_ecf8ab79-edb1-42c8-b873-39cc1f7a1ef8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

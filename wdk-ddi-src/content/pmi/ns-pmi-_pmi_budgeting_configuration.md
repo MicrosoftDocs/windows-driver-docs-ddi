@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: f9c3c289-30b8-4cec-8c38-198d1ba3d8ae
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_PMI_BUDGETING_CONFIGURATION, pmi/PPMI_BUDGETING_CONFIGURATION, *PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices], PMI_BUDGETING_CONFIGURATION, PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, pmi/PMI_BUDGETING_CONFIGURATION, powermeter.pmi_budgeting_configuration, PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices]"
+ms.keywords: "_PMI_BUDGETING_CONFIGURATION, powermeter.pmi_budgeting_configuration, PMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], pmi/PPMI_BUDGETING_CONFIGURATION, *PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION, pmi/PMI_BUDGETING_CONFIGURATION, PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,15 +87,7 @@ Unlike other PMI capability or configuration data, the power meter's current bud
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
 
 
 
@@ -103,11 +95,19 @@ Unlike other PMI capability or configuration data, the power meter's current bud
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
 
 
 
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 

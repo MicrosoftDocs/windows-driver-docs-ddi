@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e6390a7c-bbe1-47d7-9411-d710c4ab58a8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup, IDebugSymbolGroup::GetSymbolParameters, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, GetSymbolParameters, IDebugSymbolGroup2::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, debugger.getsymbolparameters, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.keywords: IDebugSymbolGroup::GetSymbolParameters, GetSymbolParameters method [Windows Debugging], debugger.getsymbolparameters, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolParameters method, IDebugSymbolGroup, IDebugSymbolGroup2::GetSymbolParameters, GetSymbolParameters, dbgeng/IDebugSymbolGroup::GetSymbolParameters, dbgeng/IDebugSymbolGroup2::GetSymbolParameters, ComOther_f81a6f5a-df93-4ae2-9694-88a25d6d67a8.xml, GetSymbolParameters method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging], GetSymbolParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,7 +124,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
@@ -136,7 +136,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 

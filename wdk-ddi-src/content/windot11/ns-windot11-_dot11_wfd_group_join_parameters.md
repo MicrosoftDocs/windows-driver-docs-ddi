@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7E526179-97B6-4BA3-8F78-C4C04FFF9085
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_GROUP_JOIN_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_wfd_group_join_parameters, _DOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS, *PDOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.dot11_wfd_group_join_parameters, PDOT11_WFD_GROUP_JOIN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_WFD_GROUP_JOIN_PARAMETERS, _DOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

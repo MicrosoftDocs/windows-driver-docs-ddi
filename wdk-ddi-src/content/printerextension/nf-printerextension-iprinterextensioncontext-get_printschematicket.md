@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B217DE53-23B9-46BA-8B35-DA869EB9DBDA
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterExtensionContext, PrintSchemaTicket property [Print Devices], print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, get_PrintSchemaTicket, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext interface [Print Devices], PrintSchemaTicket property, PrintSchemaTicket property [Print Devices], IPrinterExtensionContext interface
+ms.keywords: printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket, get_PrintSchemaTicket, print.iprinterextensioncontext_printschematicket, IPrinterExtensionContext interface [Print Devices], PrintSchemaTicket property, IPrinterExtensionContext, PrintSchemaTicket property [Print Devices], IPrinterExtensionContext.PrintSchemaTicket, PrintSchemaTicket property [Print Devices], IPrinterExtensionContext interface, IPrinterExtensionContext::get_PrintSchemaTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_PrintSchemaTicket(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68523004-c9f5-4038-985e-702d929cdf04
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcore/WDF_ALIGN_SIZE_UP, WDF_ALIGN_SIZE_UP function, wdf.wdf_align_size_up, kmdf.wdf_align_size_up, WDF_ALIGN_SIZE_UP, DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml
+ms.keywords: kmdf.wdf_align_size_up, WDF_ALIGN_SIZE_UP, wdf.wdf_align_size_up, DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml, wdfcore/WDF_ALIGN_SIZE_UP, WDF_ALIGN_SIZE_UP function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

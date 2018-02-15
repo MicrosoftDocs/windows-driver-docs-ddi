@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 357C62F3-43FE-4132-9233-7BFAD2CE95C5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], buses.usb_cycle_port_params, USB_CYCLE_PORT_PARAMS structure [Buses], usbioctl/USB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS, usbioctl/PUSB_CYCLE_PORT_PARAMS, _USB_CYCLE_PORT_PARAMS"
+ms.keywords: usbioctl/USB_CYCLE_PORT_PARAMS, usbioctl/PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS structure [Buses], USB_CYCLE_PORT_PARAMS, buses.usb_cycle_port_params, *PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], _USB_CYCLE_PORT_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,11 +84,11 @@ On return, contains the USBD status of the operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_hub_cycle_port.md">IOCTL_USB_HUB_CYCLE_PORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

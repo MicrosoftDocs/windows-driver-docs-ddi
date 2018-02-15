@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE220435-C8EC-408E-8177-A88FC858FA5A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_pd_filter_parameters, NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS, _NDIS_PD_FILTER_PARAMETERS
+ms.keywords: NDIS_PD_FILTER_PARAMETERS, ndis/NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_PARAMETERS, netvista.ndis_pd_filter_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

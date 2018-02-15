@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc44c970-482c-4fbf-a149-e6b732f6c9d8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_STATE_NOTIFICATION_TYPE, StateNotificationLeaveState, wdfdevice/StateNotificationLeaveState, StateNotificationAllStates, _WDF_STATE_NOTIFICATION_TYPE, wdfdevice/StateNotificationAllStates, StateNotificationEnterState, wdfdevice/StateNotificationEnterState, StateNotificationInvalid, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, kmdf.wdf_state_notification_type, WDF_STATE_NOTIFICATION_TYPE enumeration, wdfdevice/StateNotificationPostProcessState, StateNotificationPostProcessState, wdf.wdf_state_notification_type, wdfdevice/StateNotificationInvalid
+ms.keywords: StateNotificationPostProcessState, wdfdevice/StateNotificationEnterState, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, wdf.wdf_state_notification_type, WDF_STATE_NOTIFICATION_TYPE enumeration, StateNotificationInvalid, wdfdevice/StateNotificationInvalid, wdfdevice/StateNotificationPostProcessState, WDF_STATE_NOTIFICATION_TYPE, wdfdevice/StateNotificationLeaveState, StateNotificationAllStates, _WDF_STATE_NOTIFICATION_TYPE, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, StateNotificationLeaveState, StateNotificationEnterState, wdfdevice/StateNotificationAllStates, kmdf.wdf_state_notification_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -150,11 +150,11 @@ To register for notification of a change in state, the driver can call the follo
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
-
-
-
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
+
+
+
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
 
 
 

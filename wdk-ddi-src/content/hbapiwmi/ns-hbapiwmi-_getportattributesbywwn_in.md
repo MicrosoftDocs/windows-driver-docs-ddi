@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b189ece-6c49-42e2-8ef2-b3db516fc844
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/GetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN structure [Storage Devices], PGetPortAttributesByWWN_IN, *PGetPortAttributesByWWN_IN, _GetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], hbapiwmi/PGetPortAttributesByWWN_IN, storage.getportattributesbywwn_in, structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml, GetPortAttributesByWWN_IN
+ms.keywords: "*PGetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], storage.getportattributesbywwn_in, hbapiwmi/GetPortAttributesByWWN_IN, structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml, PGetPortAttributesByWWN_IN, _GetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN structure [Storage Devices], GetPortAttributesByWWN_IN, hbapiwmi/PGetPortAttributesByWWN_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

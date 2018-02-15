@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 689306DE-F83A-4C5D-B79A-DEBF2D5E79B3
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2SaveReceiveFifoOnD0Exit method [Serial Ports], 2/SerCx2SaveReceiveFifoOnD0Exit, serports.sercx2savereceivefifoond0exit, SerCx2SaveReceiveFifoOnD0Exit
+ms.keywords: SerCx2SaveReceiveFifoOnD0Exit, 2/SerCx2SaveReceiveFifoOnD0Exit, serports.sercx2savereceivefifoond0exit, SerCx2SaveReceiveFifoOnD0Exit method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,6 +105,10 @@ Later, after a client sends a read (<a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
@@ -117,15 +121,11 @@ Later, after a client sends a read (<a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-
-
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
 
 

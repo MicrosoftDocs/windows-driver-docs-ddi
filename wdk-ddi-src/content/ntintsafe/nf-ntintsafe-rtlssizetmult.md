@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43FFE47F-C8A3-49B4-B61A-3EAF3841037D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlSSIZETMult, RtlSSIZETMult, kernel.rtlssizetmult, RtlSSIZETMult function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlSSIZETMult, RtlSSIZETMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlSSIZETMult, kernel.rtlssizetmult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

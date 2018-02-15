@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3debcf76-bb84-48ec-933e-03e099ad764f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddchgr/CHANGER_ELEMENT_STATUS, storage.changer_element_status, *PCHANGER_ELEMENT_STATUS, ntddchgr/PCHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS, _CHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure [Storage Devices], structs-changer_6dd054a8-1224-42f1-ab26-29b2c108ce27.xml, CHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS structure pointer [Storage Devices]
+ms.keywords: CHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS structure pointer [Storage Devices], ntddchgr/CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure [Storage Devices], storage.changer_element_status, _CHANGER_ELEMENT_STATUS, ntddchgr/PCHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS, structs-changer_6dd054a8-1224-42f1-ab26-29b2c108ce27.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -283,11 +283,11 @@ For most element types, changer miniclass drivers use CHANGER_ELEMENT_STATUS to 
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-
-
-
 <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 
@@ -299,7 +299,7 @@ For most element types, changer miniclass drivers use CHANGER_ELEMENT_STATUS to 
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 

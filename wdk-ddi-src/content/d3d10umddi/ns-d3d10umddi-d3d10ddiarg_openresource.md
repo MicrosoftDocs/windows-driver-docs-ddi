@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acd1a957-9a1f-48a5-849b-e0cb9f8e05b6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_OPENRESOURCE structure [Display Devices], D3D10DDIARG_OPENRESOURCE, d3d10umddi/D3D10DDIARG_OPENRESOURCE, display.d3d10ddiarg_openresource, UMDisplayDriver_Dx10param_Structs_bb0f1769-190c-4500-8efa-9ed3eab771f7.xml
+ms.keywords: display.d3d10ddiarg_openresource, D3D10DDIARG_OPENRESOURCE structure [Display Devices], d3d10umddi/D3D10DDIARG_OPENRESOURCE, UMDisplayDriver_Dx10param_Structs_bb0f1769-190c-4500-8efa-9ed3eab771f7.xml, D3D10DDIARG_OPENRESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

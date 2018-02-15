@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 545a5014-aa07-49ee-92b7-2ae95f4ce785
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml, ndis/NdisGroupMaxProcessorCount, NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista], NdisGroupMaxProcessorCount, netvista.ndisgroupmaxprocessorcount
+ms.keywords: ndis/NdisGroupMaxProcessorCount, NdisGroupMaxProcessorCount, netvista.ndisgroupmaxprocessorcount, ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml, NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 216fe649-18c0-4782-8040-21ce87fbd888
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, wdfdevice/WdfDeviceWdmGetAttachedDevice, wdf.wdfdevicewdmgetattacheddevice, WdfDeviceWdmGetAttachedDevice, kmdf.wdfdevicewdmgetattacheddevice, WdfDeviceWdmGetAttachedDevice method, PFN_WDFDEVICEWDMGETATTACHEDDEVICE
+ms.keywords: wdfdevice/WdfDeviceWdmGetAttachedDevice, PFN_WDFDEVICEWDMGETATTACHEDDEVICE, WdfDeviceWdmGetAttachedDevice, wdf.wdfdevicewdmgetattacheddevice, kmdf.wdfdevicewdmgetattacheddevice, WdfDeviceWdmGetAttachedDevice method, DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PEP_WORK_DEVICE_POWER, _PEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], kernel.pep_work_device_power, PPEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], pep_x/PPEP_WORK_DEVICE_POWER
+ms.keywords: PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], kernel.pep_work_device_power, _PEP_WORK_DEVICE_POWER, pep_x/PPEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER, pep_x/PEP_WORK_DEVICE_POWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

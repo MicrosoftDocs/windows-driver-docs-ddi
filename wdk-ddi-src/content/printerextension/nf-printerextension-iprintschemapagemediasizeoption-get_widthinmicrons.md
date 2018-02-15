@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D44C8782-DA25-4189-AECA-B899A4AA9279
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WidthInMicrons property [Print Devices], IPrintSchemaPageMediaSizeOption interface, IPrintSchemaPageMediaSizeOption interface [Print Devices], WidthInMicrons property, get_WidthInMicrons, IPrintSchemaPageMediaSizeOption, printerextension/IPrintSchemaPageMediaSizeOption::WidthInMicrons, WidthInMicrons property [Print Devices], printerextension/IPrintSchemaPageMediaSizeOption::get_WidthInMicrons, print.iprintschemapagemediasizeoption_widthinmicrons, IPrintSchemaPageMediaSizeOption::get_WidthInMicrons, IPrintSchemaPageMediaSizeOption.WidthInMicrons
+ms.keywords: printerextension/IPrintSchemaPageMediaSizeOption::get_WidthInMicrons, IPrintSchemaPageMediaSizeOption.WidthInMicrons, print.iprintschemapagemediasizeoption_widthinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::WidthInMicrons, IPrintSchemaPageMediaSizeOption, WidthInMicrons property [Print Devices], IPrintSchemaPageMediaSizeOption::get_WidthInMicrons, WidthInMicrons property [Print Devices], IPrintSchemaPageMediaSizeOption interface, get_WidthInMicrons, IPrintSchemaPageMediaSizeOption interface [Print Devices], WidthInMicrons property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

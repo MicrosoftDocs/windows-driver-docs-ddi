@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bce6931d-af45-42aa-9be2-ded07f98c300
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvaddi_procampvalues, _DXVADDI_PROCAMPVALUES, DXVADDI_PROCAMPVALUES structure [Display Devices], d3dumddi/DXVADDI_PROCAMPVALUES, DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES
+ms.keywords: display.dxvaddi_procampvalues, _DXVADDI_PROCAMPVALUES, DXVADDI_PROCAMPVALUES, d3dumddi/DXVADDI_PROCAMPVALUES, DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

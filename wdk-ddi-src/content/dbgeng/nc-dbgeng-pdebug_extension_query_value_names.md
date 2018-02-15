@@ -102,7 +102,9 @@ The number of wide characters that this function needs to complete successfully.
 ## -returns
 
 
+
 <b>DebugExtensionQueryValueNames</b> might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,13 +132,16 @@ The function completed without error, but it obtained only partial results.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return error values.  For more information about possible return values, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Value names must start with <b>$$</b> and have a terminating NULL character. The <i>Buffer</i> string must also be NULL-terminated. For example, <i>Buffer</i> could be "$$myval1\0$$myval2\0\0".
@@ -145,17 +150,28 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
-
-<i>DebugExtensionNotify</i>
 
 <i>KnownStructOutput</i>
 
-<i>DebugExtensionProvideValue</i>
+
+
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+
 
 <i>DebugExtensionUninitialize</i>
+
+
+
+<i>DebugExtensionProvideValue</i>
+
+
+
+<i>DebugExtensionNotify</i>
+
+
 
  
 

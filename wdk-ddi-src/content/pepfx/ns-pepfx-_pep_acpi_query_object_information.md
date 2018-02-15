@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 71E43364-CBD6-4628-B51C-B41315E0E800
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_ACPI_QUERY_OBJECT_INFORMATION, _PEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION structure [Kernel-Mode Driver Architecture], *PPEP_ACPI_QUERY_OBJECT_INFORMATION, pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION, PPEP_ACPI_QUERY_OBJECT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION, kernel.pep_acpi_query_object_information
+ms.keywords: pepfx/PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION structure [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION, *PPEP_ACPI_QUERY_OBJECT_INFORMATION, kernel.pep_acpi_query_object_information, _PEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION, PPEP_ACPI_QUERY_OBJECT_INFORMATION, PPEP_ACPI_QUERY_OBJECT_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,15 +127,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
-
-
-
 <a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629114">PEP_NOTIFY_ACPI_QUERY_OBJECT_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
 
 
 

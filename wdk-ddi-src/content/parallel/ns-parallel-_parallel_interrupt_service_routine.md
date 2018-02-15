@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: dff10a68-f7c4-4f7a-a3f7-3697fc88992a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports], cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, PARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PPARALLEL_INTERRUPT_SERVICE_ROUTINE, _PARALLEL_INTERRUPT_SERVICE_ROUTINE, parports.parallel_interrupt_service_routine, *PPARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports]
+ms.keywords: "*PPARALLEL_INTERRUPT_SERVICE_ROUTINE, _PARALLEL_INTERRUPT_SERVICE_ROUTINE, cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports], parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, parports.parallel_interrupt_service_routine, PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports], PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,15 +126,15 @@ A kernel-mode driver can connect a device-specific interrupt service routine and
 
 ## -see-also
 
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>
+
+
+
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_disconnect_interrupt.md">IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT</a>
 
 
 
 <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>
 
 
 

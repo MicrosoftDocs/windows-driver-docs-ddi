@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KTMOBJECT_TYPE, wdm/KTMOBJECT_INVALID, KTMOBJECT_RESOURCE_MANAGER, *PKTMOBJECT_TYPE, PKTMOBJECT_TYPE, wdm/PKTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], KTMOBJECT_INVALID, wdm/KTMOBJECT_ENLISTMENT, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, kernel.ktmobject_type, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TRANSACTION, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_ENLISTMENT, KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION_MANAGER, _KTMOBJECT_TYPE
+ms.keywords: kernel.ktmobject_type, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION, KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_INVALID, PKTMOBJECT_TYPE, KTMOBJECT_INVALID, wdm/KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_TYPE, *PKTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], _KTMOBJECT_TYPE, KTMOBJECT_TRANSACTION, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TRANSACTION_MANAGER, wdm/KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TRANSACTION_MANAGER, wdm/PKTMOBJECT_TYPE, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

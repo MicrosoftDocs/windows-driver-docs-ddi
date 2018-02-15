@@ -218,11 +218,7 @@ After NDIS calls an intermediate driver's
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -231,28 +227,12 @@ After NDIS calls an intermediate driver's
 
 
 
+<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
+   NdisIMDeInitializeDeviceInstance</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
-   NdisIMCancelInitializeDeviceInstance</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -261,12 +241,32 @@ After NDIS calls an intermediate driver's
 
 
 
-<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
-   NdisIMDeInitializeDeviceInstance</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisimgetbindingcontext.md">NdisIMGetBindingContext</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisimcancelinitializedeviceinstance.md">
+   NdisIMCancelInitializeDeviceInstance</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 

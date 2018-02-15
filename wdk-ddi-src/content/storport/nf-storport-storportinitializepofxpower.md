@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 154EAF9B-4B30-4124-B31D-6C7D09B52674
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializePoFxPower routine [Storage Devices], storage.storportinitializepofxpower, storport/StorPortInitializePoFxPower, StorPortInitializePoFxPower
+ms.keywords: StorPortInitializePoFxPower routine [Storage Devices], storage.storportinitializepofxpower, StorPortInitializePoFxPower, storport/StorPortInitializePoFxPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

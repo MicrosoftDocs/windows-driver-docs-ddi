@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2bc038bb-fe8a-4a22-b4e2-d6dcf2589a12
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetIMSI, rilapi/RIL_GetIMSI, RIL_GetIMSI method [Network Drivers Starting with Windows Vista], netvista.ril_getimsi
+ms.keywords: netvista.ril_getimsi, RIL_GetIMSI, rilapi/RIL_GetIMSI, RIL_GetIMSI method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

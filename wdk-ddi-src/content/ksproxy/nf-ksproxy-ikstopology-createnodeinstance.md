@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, ksproxy/IKsTopology::CreateNodeInstance, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, IKsTopology, stream.ikstopology_createnodeinstance, CreateNodeInstance method [Streaming Media Devices], IKsTopology::CreateNodeInstance, CreateNodeInstance
+ms.keywords: CreateNodeInstance method [Streaming Media Devices], stream.ikstopology_createnodeinstance, IKsTopology::CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, IKsTopology, ksproxy/IKsTopology::CreateNodeInstance, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, CreateNodeInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,11 +117,11 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

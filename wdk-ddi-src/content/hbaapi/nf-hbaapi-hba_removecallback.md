@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b97e93c-a375-4df7-9d2d-86f1ad72b62d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_f0c88702-5544-4e66-ac3e-a5f8303bfb08.xml, storage.hba_removecallback, hbaapi/HBA_RemoveCallback, HBA_RemoveCallback, HBA_RemoveCallback routine [Storage Devices]
+ms.keywords: HBA_RemoveCallback routine [Storage Devices], fibreHBA_rtns_f0c88702-5544-4e66-ac3e-a5f8303bfb08.xml, HBA_RemoveCallback, hbaapi/HBA_RemoveCallback, storage.hba_removecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

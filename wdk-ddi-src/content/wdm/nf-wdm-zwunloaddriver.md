@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4fbb4d4b-b98a-4d10-b9b2-7ad8fc4ada6e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtUnloadDriver, ZwUnloadDriver, wdm/ZwUnloadDriver, kernel.zwunloaddriver, k111_72ac4415-d46c-4ea2-9d6c-d66903082808.xml, ZwUnloadDriver routine [Kernel-Mode Driver Architecture], wdm/NtUnloadDriver
+ms.keywords: wdm/NtUnloadDriver, NtUnloadDriver, k111_72ac4415-d46c-4ea2-9d6c-d66903082808.xml, ZwUnloadDriver routine [Kernel-Mode Driver Architecture], wdm/ZwUnloadDriver, kernel.zwunloaddriver, ZwUnloadDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,15 +104,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>
 
 
 
@@ -121,6 +117,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\nf-wdm-zwloaddriver.md">ZwLoadDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

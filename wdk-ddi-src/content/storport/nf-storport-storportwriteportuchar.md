@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortWritePortUchar routine [Storage Devices], storage.storportwriteportuchar, StorPortWritePortUchar, storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml, storport/StorPortWritePortUchar
+ms.keywords: storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml, StorPortWritePortUchar routine [Storage Devices], StorPortWritePortUchar, storport/StorPortWritePortUchar, storage.storportwriteportuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

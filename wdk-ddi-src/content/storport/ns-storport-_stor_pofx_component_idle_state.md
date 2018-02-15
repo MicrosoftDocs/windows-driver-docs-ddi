@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2600405F-AE07-4284-84AD-D19EEE2058BF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_POFX_COMPONENT_IDLE_STATE structure pointer [Storage Devices], storport/PSTOR_POFX_COMPONENT_IDLE_STATE, storport/STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE structure [Storage Devices], *PSTOR_POFX_COMPONENT_IDLE_STATE, storage.stor_pofx_component_idle_state, _STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE
+ms.keywords: "_STOR_POFX_COMPONENT_IDLE_STATE, *PSTOR_POFX_COMPONENT_IDLE_STATE, storage.stor_pofx_component_idle_state, storport/STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE, storport/PSTOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE structure [Storage Devices], PSTOR_POFX_COMPONENT_IDLE_STATE structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

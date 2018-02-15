@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4108EB7A-F8FB-4FA5-8426-BB434E89AF06
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: CcCopyReadEx routine [Installable File System Drivers], ifsk.cccopyreadex, ntifs/CcCopyReadEx, CcCopyReadEx
+ms.keywords: ifsk.cccopyreadex, CcCopyReadEx, CcCopyReadEx routine [Installable File System Drivers], ntifs/CcCopyReadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -136,19 +136,11 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
 
 
 
@@ -157,6 +149,14 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccfastcopyread.md">CcFastCopyRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
 
 
 

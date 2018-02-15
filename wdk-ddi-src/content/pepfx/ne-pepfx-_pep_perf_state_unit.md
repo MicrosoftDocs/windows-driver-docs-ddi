@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5E5F049D-4306-4382-B3F7-06C1F5FFE93E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PepPerfStateUnitBandwidth, PEP_PERF_STATE_UNIT, PepPerfStateUnitBandwidth, *PPEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitMax, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], _PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitFrequency, PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitOther, pepfx/PEP_PERF_STATE_UNIT, PepPerfStateUnitMax, kernel.pep_perf_state_unit, PepPerfStateUnitOther
+ms.keywords: pepfx/PEP_PERF_STATE_UNIT, PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitFrequency, PepPerfStateUnitMax, kernel.pep_perf_state_unit, pepfx/PepPerfStateUnitMax, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitOther, PepPerfStateUnitOther, pepfx/PepPerfStateUnitBandwidth, *PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, _PEP_PERF_STATE_UNIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

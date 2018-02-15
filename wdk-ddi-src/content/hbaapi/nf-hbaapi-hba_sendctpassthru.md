@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: adfdb968-5ba3-43af-899a-7172c9ecf46c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_cae90bb3-cdb2-47fe-92b8-e2bffefa338d.xml, storage.hba_sendctpassthru, hbaapi/HBA_SendCTPassThru, HBA_SendCTPassThru, HBA_SendCTPassThru routine [Storage Devices]
+ms.keywords: fibreHBA_rtns_cae90bb3-cdb2-47fe-92b8-e2bffefa338d.xml, hbaapi/HBA_SendCTPassThru, HBA_SendCTPassThru routine [Storage Devices], storage.hba_sendctpassthru, HBA_SendCTPassThru
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,15 +123,15 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
 <a href="..\hbaapi\nf-hbaapi-hba_sendctpassthruv2.md">HBA_SendCTPassThruV2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
 
 
 

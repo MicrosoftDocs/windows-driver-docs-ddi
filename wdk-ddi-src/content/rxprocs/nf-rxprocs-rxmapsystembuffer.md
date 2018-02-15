@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dc549e51-2f25-45b5-925f-3481294e0b35
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml, RxMapSystemBuffer, ifsk.rxmapsystembuffer, RxMapSystemBuffer function [Installable File System Drivers], rxprocs/RxMapSystemBuffer
+ms.keywords: ifsk.rxmapsystembuffer, rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml, rxprocs/RxMapSystemBuffer, RxMapSystemBuffer function [Installable File System Drivers], RxMapSystemBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,7 +101,11 @@ On retail builds, <b>RxMapSystemBuffer</b> will call <b>MmGetSystemAddressForMdl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+<a href="..\lowio\nf-lowio-rxlowiocompletion.md">RxLowIoCompletion</a>
+
+
+
+<a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
 
 
 
@@ -109,15 +113,11 @@ On retail builds, <b>RxMapSystemBuffer</b> will call <b>MmGetSystemAddressForMdl
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+
+
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
-
-
-<a href="..\lowio\nf-lowio-rxlowiocompletion.md">RxLowIoCompletion</a>
-
-
-
-<a href="..\lowio\nf-lowio-rxlowiogetbufferaddress.md">RxLowIoGetBufferAddress</a>
 
 
 

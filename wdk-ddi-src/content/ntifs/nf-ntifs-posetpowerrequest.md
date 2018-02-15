@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoSetPowerRequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, PoSetPowerRequest
+ms.keywords: wdm/PoSetPowerRequest, PoSetPowerRequest, kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, PoSetPowerRequest routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,11 +125,11 @@ The power manager maintains a count of the active requests for each power reques
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
-
-
-
 <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
 
 
 

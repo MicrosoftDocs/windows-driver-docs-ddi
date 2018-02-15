@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b9a860b1-d169-44b6-8dbd-0d26b050b7b0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IXpsDocumentConsumer interface [Print Devices], CloseSender method, filterpipeline/IXpsDocumentConsumer::CloseSender, IXpsDocumentConsumer::CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, IXpsDocumentConsumer, CloseSender method [Print Devices], IXpsDocumentConsumer interface, CloseSender, CloseSender method [Print Devices], print.ixpsdocumentconsumer_closesender
+ms.keywords: CloseSender method [Print Devices], IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::CloseSender, CloseSender method [Print Devices], IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], CloseSender method, CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, print.ixpsdocumentconsumer_closesender, IXpsDocumentConsumer::CloseSender
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

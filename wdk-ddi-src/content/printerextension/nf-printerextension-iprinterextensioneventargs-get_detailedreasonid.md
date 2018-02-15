@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B39DC40A-2B7D-402F-B88C-E6684BF9AA0F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: get_DetailedReasonId, DetailedReasonId property [Print Devices], IPrinterExtensionEventArgs interface, DetailedReasonId property [Print Devices], IPrinterExtensionEventArgs::get_DetailedReasonId, IPrinterExtensionEventArgs.DetailedReasonId, print.iprinterextensioneventargs_detailedreasonid, printerextension/IPrinterExtensionEventArgs::get_DetailedReasonId, IPrinterExtensionEventArgs interface [Print Devices], DetailedReasonId property, IPrinterExtensionEventArgs, printerextension/IPrinterExtensionEventArgs::DetailedReasonId
+ms.keywords: printerextension/IPrinterExtensionEventArgs::DetailedReasonId, get_DetailedReasonId, IPrinterExtensionEventArgs interface [Print Devices], DetailedReasonId property, DetailedReasonId property [Print Devices], IPrinterExtensionEventArgs::get_DetailedReasonId, IPrinterExtensionEventArgs, IPrinterExtensionEventArgs.DetailedReasonId, print.iprinterextensioneventargs_detailedreasonid, DetailedReasonId property [Print Devices], IPrinterExtensionEventArgs interface, printerextension/IPrinterExtensionEventArgs::get_DetailedReasonId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -91,6 +91,16 @@ VOID APIENTRY* pfnSetPredication(
 
 
 
+#### - PredicationOp
+
+A predication operation. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_predication_op.md">D3D12DDI_PREDICATION_OP</a> enumeration.
+
+
+#### - Uint64
+
+An integer.
+
+
 #### - hCommandList
 
 The handle of a command list.
@@ -99,16 +109,6 @@ The handle of a command list.
 #### - hResource
 
 The handle of a resource.
-
-
-#### - Uint64
-
-An integer.
-
-
-#### - PredicationOp
-
-A predication operation. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_predication_op.md">D3D12DDI_PREDICATION_OP</a> enumeration.
 
 
 ## -returns

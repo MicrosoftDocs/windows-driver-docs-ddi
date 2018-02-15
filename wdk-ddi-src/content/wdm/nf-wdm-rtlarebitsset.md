@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7343f619-cf89-4768-b488-fe95f1da749d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlAreBitsSet, RtlAreBitsSet routine [Kernel-Mode Driver Architecture], kernel.rtlarebitsset, k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml, RtlAreBitsSet
+ms.keywords: RtlAreBitsSet routine [Kernel-Mode Driver Architecture], RtlAreBitsSet, wdm/RtlAreBitsSet, k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml, kernel.rtlarebitsset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,11 +109,7 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
@@ -121,7 +117,11 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 

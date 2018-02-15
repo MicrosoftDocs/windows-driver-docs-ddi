@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6192920a-138b-49d9-ba78-84e3e70cb8df
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_EUAR_RESPONSEAPDU, RIL_PARAM_EUAR_ALL, RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduresponseparammask_2, rilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU, rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, rilapitypes/RIL_PARAM_EUAR_ALL
+ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RIL_PARAM_EUAR_RESPONSEAPDU, rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, rilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU, netvista.rilexchangeuiccapduresponseparammask_2, RIL_PARAM_EUAR_ALL, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_EUAR_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

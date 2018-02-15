@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 973f440a-ba17-466a-a9f4-f21c07e854d8
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: "*PTXN_PARAMETER_BLOCK, fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml, PTXN_PARAMETER_BLOCK, ntddk/_TXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK, ntddk/PTXN_PARAMETER_BLOCK, ifsk.txn_parameter_block, _TXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers]"
+ms.keywords: "*PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK, _TXN_PARAMETER_BLOCK, ntddk/_TXN_PARAMETER_BLOCK, ifsk.txn_parameter_block, fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml, ntddk/PTXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], TXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

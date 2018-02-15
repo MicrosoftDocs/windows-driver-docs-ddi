@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 412a77c8-eb10-43c5-bc45-2c61858463a7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: HasNode, HasNode method [Windows Debugging], ExtRemoteList class, ExtRemoteList::HasNode, HasNode method [Windows Debugging], debugger.extremotelist_hasnode, ExtRemoteList class [Windows Debugging], HasNode method, ExtRemoteList, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml
+ms.keywords: debugger.extremotelist_hasnode, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, ExtRemoteList::HasNode, HasNode method [Windows Debugging], ExtRemoteList class, ExtRemoteList class [Windows Debugging], HasNode method, HasNode, ExtRemoteList, HasNode method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

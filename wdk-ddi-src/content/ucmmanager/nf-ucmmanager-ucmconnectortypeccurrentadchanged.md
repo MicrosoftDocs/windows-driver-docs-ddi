@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 26C4D840-2287-4DC2-B039-FD8D2FB92288
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucmmanager/UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged, buses.ucmconnectortypeccurrentadchanged, UcmConnectorTypeCCurrentAdChanged method [Buses]
+ms.keywords: ucmmanager/UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged method [Buses], buses.ucmconnectortypeccurrentadchanged, UcmConnectorTypeCCurrentAdChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,15 +100,15 @@ When using a Type-C connector for charging, the partner connector sends a curren
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
-
-
-
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypeccurrentadchanged.md">UcmConnectorTypeCCurrentAdChanged</a>
 
 
 
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
+
+
+
+<a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
 
 
 

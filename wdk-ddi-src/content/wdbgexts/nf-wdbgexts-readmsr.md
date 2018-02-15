@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1cb51f88-a943-43e6-af18-0e9e301d8382
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, wdbgexts/ReadMsr, ReadMsr function [Windows Debugging], ReadMsr, debugger.readmsr
+ms.keywords: ReadMsr function [Windows Debugging], ReadMsr, debugger.readmsr, WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, wdbgexts/ReadMsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

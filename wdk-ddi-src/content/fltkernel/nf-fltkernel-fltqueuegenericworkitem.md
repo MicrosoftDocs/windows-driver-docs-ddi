@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltQueueGenericWorkItem function [Installable File System Drivers], FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, FltQueueGenericWorkItem, ifsk.fltqueuegenericworkitem, fltkernel/FltQueueGenericWorkItem
+ms.keywords: ifsk.fltqueuegenericworkitem, FltQueueGenericWorkItem function [Installable File System Drivers], FltQueueGenericWorkItem, fltkernel/FltQueueGenericWorkItem, FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

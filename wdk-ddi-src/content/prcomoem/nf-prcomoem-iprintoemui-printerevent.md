@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUI::PrinterEvent, PrinterEvent method [Print Devices], IPrintOemUI interface, IPrintOemUI, print.iprintoemui_printerevent, prcomoem/IPrintOemUI::PrinterEvent, PrinterEvent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml, PrinterEvent method [Print Devices], IPrintOemUI interface [Print Devices], PrinterEvent method
+ms.keywords: print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml, PrinterEvent method [Print Devices], IPrintOemUI::PrinterEvent, IPrintOemUI interface [Print Devices], PrinterEvent method, IPrintOemUI, PrinterEvent method [Print Devices], IPrintOemUI interface, print.iprintoemui_printerevent, PrinterEvent, prcomoem/IPrintOemUI::PrinterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

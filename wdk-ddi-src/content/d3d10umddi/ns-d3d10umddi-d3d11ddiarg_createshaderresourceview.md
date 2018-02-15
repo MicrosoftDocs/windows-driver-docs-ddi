@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0271e937-a55d-4153-b1e1-045fef4b76a0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx11param_Structs_e1d9908f-af17-4d66-ba86-4782bb22458e.xml, display.d3d11ddiarg_createshaderresourceview, d3d10umddi/D3D11DDIARG_CREATESHADERRESOURCEVIEW, D3D11DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], D3D11DDIARG_CREATESHADERRESOURCEVIEW
+ms.keywords: D3D11DDIARG_CREATESHADERRESOURCEVIEW, UMDisplayDriver_Dx11param_Structs_e1d9908f-af17-4d66-ba86-4782bb22458e.xml, display.d3d11ddiarg_createshaderresourceview, D3D11DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], d3d10umddi/D3D11DDIARG_CREATESHADERRESOURCEVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -128,23 +128,11 @@ typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_bufferex_shaderresourceview.md">D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_shaderresourceview.md">D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a>
 
 
 
@@ -153,6 +141,18 @@ typedef struct D3D11DDIARG_CREATESHADERRESOURCEVIEW {
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_shaderresourceview.md">D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_shaderresourceview.md">D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
 
 
 

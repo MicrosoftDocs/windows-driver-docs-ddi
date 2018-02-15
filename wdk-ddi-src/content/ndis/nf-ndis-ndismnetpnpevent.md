@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], NdisMNetPnPEvent, netvista.ndismnetpnpevent, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml
+ms.keywords: ndis/NdisMNetPnPEvent, miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, netvista.ndismnetpnpevent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], NdisMNetPnPEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -287,7 +287,7 @@ For all other propagated events, the intermediate driver's
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 
 
@@ -295,7 +295,7 @@ For all other propagated events, the intermediate driver's
 
 
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 80576db6-38de-46c6-89f1-a3dde613fed1
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.pcnewresourcelist, PcNewResourceList function [Audio Devices], portcls/PcNewResourceList, PcNewResourceList, audpc-routines_b9e7a222-20ac-482b-ae30-083765ecf5b7.xml
+ms.keywords: PcNewResourceList function [Audio Devices], audio.pcnewresourcelist, portcls/PcNewResourceList, audpc-routines_b9e7a222-20ac-482b-ae30-083765ecf5b7.xml, PcNewResourceList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,15 +119,15 @@ The <i>OutResourceList</i> and <i>OuterUnknown</i> parameters follow the <a href
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+
 <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 

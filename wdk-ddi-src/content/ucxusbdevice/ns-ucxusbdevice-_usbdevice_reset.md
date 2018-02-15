@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4C07239D-89AE-4A9F-B7EB-CFFE6D47F10B
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: P_USBDEVICE_RESET, _USBDEVICE_RESET, P_USBDEVICE_RESET structure pointer [Buses], ucxusbdevice/_USBDEVICE_RESET, USBDEVICE_RESET, ucxusbdevice/P_USBDEVICE_RESET, buses._usbdevice_reset, *PUSBDEVICE_RESET, USBDEVICE_RESET structure [Buses]
+ms.keywords: "_USBDEVICE_RESET, ucxusbdevice/P_USBDEVICE_RESET, USBDEVICE_RESET structure [Buses], buses._usbdevice_reset, P_USBDEVICE_RESET structure pointer [Buses], *PUSBDEVICE_RESET, P_USBDEVICE_RESET, ucxusbdevice/_USBDEVICE_RESET, USBDEVICE_RESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

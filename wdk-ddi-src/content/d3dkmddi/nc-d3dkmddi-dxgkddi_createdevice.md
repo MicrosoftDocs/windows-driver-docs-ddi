@@ -84,7 +84,9 @@ NTSTATUS APIENTRY DxgkDdiCreateDevice(
 ## -returns
 
 
+
 <i>DxgkDdiCreateDevice</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,25 +114,36 @@ NTSTATUS APIENTRY DxgkDdiCreateDevice(
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiCreateDevice</i> function to create a graphics context device that the graphics subsystem subsequently passes in calls to the display miniport driver. The driver uses a device to hold a collection of rendering state. The graphics subsystem can create multiple devices in the same process on a given graphics processing unit (GPU) adapter. 
-<div class="alert"><b>Note</b>  The number of devices that can simultaneously exist is limited only by available system memory. That is, a driver cannot have a hard-coded maximum device limit.</div><div> </div>Generally, devices are independent of each other; in other words, resources that are created in one device cannot be referenced or accessed by resources that are created in another device. However, cross-process resources are an exception to this rule. 
+
+<div class="alert"><b>Note</b>  The number of devices that can simultaneously exist is limited only by available system memory. That is, a driver cannot have a hard-coded maximum device limit.</div>
+<div> </div>
+Generally, devices are independent of each other; in other words, resources that are created in one device cannot be referenced or accessed by resources that are created in another device. However, cross-process resources are an exception to this rule. 
 
 <i>DxgkDdiCreateDevice</i> should be made pageable.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+
 
  
 

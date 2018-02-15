@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c6a51b9b-544e-4595-842a-76c667928350
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem, ifsk.fltqueuedeferredioworkitem
+ms.keywords: FltQueueDeferredIoWorkItem, fltkernel/FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], ifsk.fltqueuedeferredioworkitem, FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -288,11 +288,7 @@ IRP_MJ_FLUSH_BUFFERS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
 
 
 
@@ -300,15 +296,11 @@ IRP_MJ_FLUSH_BUFFERS
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
 
 
 
@@ -316,11 +308,19 @@ IRP_MJ_FLUSH_BUFFERS
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatedeferredioworkitem.md">FltAllocateDeferredIoWorkItem</a>
+<a href="..\fltkernel\nf-fltkernel-fltcompletependedpostoperation.md">FltCompletePendedPostOperation</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 

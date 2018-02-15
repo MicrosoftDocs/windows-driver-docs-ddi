@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 509cf778-2b0c-4dd2-982d-0c7be95ad407
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetNextSibling function [Streaming Media Devices], avfunc_0fedfc95-34c0-44d9-bed4-fff6bf6bd467.xml, KsGetNextSibling, ks/KsGetNextSibling, stream.ksgetnextsibling
+ms.keywords: KsGetNextSibling function [Streaming Media Devices], KsGetNextSibling, avfunc_0fedfc95-34c0-44d9-bed4-fff6bf6bd467.xml, stream.ksgetnextsibling, ks/KsGetNextSibling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,10 +101,6 @@ Minidrivers rarely call <b>KsGetNextSibling</b> directly. There are a number of 
 
 
 
-<a href="..\ks\nf-ks-ksfiltergetnextsiblingfilter.md">KsFilterGetNextSiblingFilter</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
 
 
@@ -114,6 +110,10 @@ Minidrivers rarely call <b>KsGetNextSibling</b> directly. There are a number of 
 
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\nf-ks-ksfiltergetnextsiblingfilter.md">KsFilterGetNextSiblingFilter</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EBB89BDA-6249-4D0F-A0EE-7074DDAFFFC1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndkpi/NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeRead, NdkOperationTypeReceive, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeBind, NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeWrite, NdkOperationTypeFastRegister, NdkOperationTypeRead, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], ndkpi/NdkOperationTypeFastRegister, NdkOperationTypeBind, _NDK_OPERATION_TYPE, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeReceive, NdkOperationTypeSend, NdkOperationTypeWrite, netvista.ndk_operation_type, NdkOperationTypeReceiveAndInvalidate, NdkOperationTypeInvalidate
+ms.keywords: NdkOperationTypeRead, NDK_OPERATION_TYPE, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeInvalidate, NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeReceiveAndInvalidate, _NDK_OPERATION_TYPE, netvista.ndk_operation_type, ndkpi/NdkOperationTypeWrite, NdkOperationTypeFastRegister, NdkOperationTypeBind, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeReceive, ndkpi/NdkOperationTypeBind, ndkpi/NDK_OPERATION_TYPE, NdkOperationTypeSend, NdkOperationTypeReceive, ndkpi/NdkOperationTypeSend, NdkOperationTypeWrite, ndkpi/NdkOperationTypeFastRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

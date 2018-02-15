@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: c732fe90-50fb-4f6e-b42e-cb35c1ed0091
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: OHCI_NEC, UHCI_Ich5, USB_HcGeneric, UHCI_Piix4, usb/USB_CONTROLLER_FLAVOR, _USB_CONTROLLER_FLAVOR, EHCI_Generic, USB_CONTROLLER_FLAVOR enumeration [Buses], UHCI_Ich6, OHCI_Generic, usb/UHCI_Ich6, usb/UHCI_Piix4, usb/UHCI_Ich3m, UHCI_VIA_x04, usb/OHCI_NEC, UHCI_Ich1, usb/UHCI_Intel, UHCI_VIA, usb/UHCI_VIA_x01, usb/UHCI_Piix3, usb/EHCI_NVIDIA_Tegra2, usb/EHCI_NEC, usb/UHCI_Ich4, usb/UHCI_VIA, usb/UHCI_Ich1, usb/UHCI_VIA_x0E_FIFO, usb/UHCI_VIA_x02, USB_CONTROLLER_FLAVOR, UHCI_Intel, EHCI_NVIDIA_Tegra3, UHCI_VIA_x03, usb/EHCI_NVIDIA_Tegra3, EHCI_Intel_Medfield, usb/EHCI_Intel_Medfield, usb/UHCI_Generic, usb/UHCI_VIA_x03, UHCI_Ich2, EHCI_NVIDIA_Tegra2, OHCI_Hydra, usb/EHCI_Generic, EHCI_Lucent, UHCI_VIA_x02, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, usb/UHCI_Ich5, EHCI_NEC, UHCI_VIA_x01, usb/UHCI_VIA_x04, UHCI_Generic, usb/OHCI_Hydra, buses.usb_controller_flavor, UHCI_Ich4, UHCI_VIA_x0E_FIFO, usb/EHCI_Lucent, usb/UHCI_Ich2, UHCI_Ich3m, usb/USB_HcGeneric, UHCI_Piix3, usb/OHCI_Generic
+ms.keywords: UHCI_VIA, EHCI_NVIDIA_Tegra2, buses.usb_controller_flavor, usb/USB_HcGeneric, usb/EHCI_NVIDIA_Tegra2, UHCI_Ich4, usb/UHCI_VIA_x01, UHCI_Ich3m, usb/OHCI_Generic, usb/UHCI_Ich1, usb/OHCI_NEC, UHCI_Ich2, EHCI_Lucent, usb/EHCI_Intel_Medfield, OHCI_NEC, _USB_CONTROLLER_FLAVOR, usb/UHCI_VIA_x02, usb/UHCI_VIA_x0E_FIFO, UHCI_Ich6, usb/UHCI_VIA_x03, EHCI_Generic, usb/EHCI_Lucent, USB_HcGeneric, usb/UHCI_Intel, UHCI_VIA_x0E_FIFO, usb/UHCI_Ich5, usb/UHCI_VIA, UHCI_Ich5, UHCI_VIA_x03, EHCI_NVIDIA_Tegra3, usb/EHCI_NEC, usb/UHCI_Ich6, EHCI_NEC, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, OHCI_Generic, UHCI_Piix3, usb/UHCI_Ich3m, UHCI_VIA_x01, usb/EHCI_Generic, usb/EHCI_NVIDIA_Tegra3, USB_CONTROLLER_FLAVOR, OHCI_Hydra, EHCI_Intel_Medfield, UHCI_VIA_x02, UHCI_Piix4, usb/UHCI_VIA_x04, UHCI_Intel, USB_CONTROLLER_FLAVOR enumeration [Buses], usb/UHCI_Generic, UHCI_VIA_x04, usb/USB_CONTROLLER_FLAVOR, usb/OHCI_Hydra, UHCI_Ich1, UHCI_Generic, usb/UHCI_Piix4, usb/UHCI_Ich4, usb/UHCI_Piix3, usb/UHCI_Ich2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -228,11 +228,11 @@ Indicates an Intel Medfield host controller.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
 
 
 

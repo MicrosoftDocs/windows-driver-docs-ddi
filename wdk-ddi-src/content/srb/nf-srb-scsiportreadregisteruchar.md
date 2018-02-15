@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d5ea19e5-015d-451e-8e28-0b5a226f291a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportreadregisteruchar, ScsiPortReadRegisterUchar routine [Storage Devices], ScsiPortReadRegisterUchar, srb/ScsiPortReadRegisterUchar, scsiprt_220f8972-dc09-4027-9cec-85a07ed5547d.xml
+ms.keywords: srb/ScsiPortReadRegisterUchar, scsiprt_220f8972-dc09-4027-9cec-85a07ed5547d.xml, ScsiPortReadRegisterUchar routine [Storage Devices], ScsiPortReadRegisterUchar, storage.scsiportreadregisteruchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

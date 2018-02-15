@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 68859180-274d-44f8-9ccf-1cae0348f902
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: STISUBSCRIBE, LPSTISUBSCRIBE structure pointer [Imaging Devices], _STISUBSCRIBE, image.stisubscribe, LPSTISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml, sti/LPSTISUBSCRIBE, *LPSTISUBSCRIBE, STISUBSCRIBE structure [Imaging Devices], sti/STISUBSCRIBE
+ms.keywords: sti/STISUBSCRIBE, _STISUBSCRIBE, sti/LPSTISUBSCRIBE, STISUBSCRIBE, LPSTISUBSCRIBE structure pointer [Imaging Devices], *LPSTISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml, STISUBSCRIBE structure [Imaging Devices], LPSTISUBSCRIBE, image.stisubscribe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a2a2bb57-6f5c-4bc9-8564-ab0db2efd872
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxDereferenceAndDeleteRxContext_Real, ifsk.rxdereferenceanddeleterxcontext_real, rxref_d3ea173c-343f-4fbf-b07b-be17816e1b2e.xml, rxcontx/RxDereferenceAndDeleteRxContext_Real, RxDereferenceAndDeleteRxContext_Real function [Installable File System Drivers]
+ms.keywords: ifsk.rxdereferenceanddeleterxcontext_real, rxcontx/RxDereferenceAndDeleteRxContext_Real, RxDereferenceAndDeleteRxContext_Real function [Installable File System Drivers], rxref_d3ea173c-343f-4fbf-b07b-be17816e1b2e.xml, RxDereferenceAndDeleteRxContext_Real
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,27 +109,15 @@ If the RX_CONTEXT structure was allocated from non-page pool memory (the <b>Flag
 
 ## -see-also
 
+<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
-
-
-
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 
@@ -145,7 +133,19 @@ If the RX_CONTEXT structure was allocated from non-page pool memory (the <b>Flag
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
+
+
+
+<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 

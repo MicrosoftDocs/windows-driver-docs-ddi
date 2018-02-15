@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiRemoveDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_REMOVE_DEVICE callback
@@ -78,11 +78,14 @@ A handle to a context block associated with a display adapter. The display minip
 ## -returns
 
 
+
 <i>DxgkDdiRemoveDevice </i>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 <i>DxgkDdiRemoveDevice</i> must free the context block represented by <i>MiniportDeviceContext</i>.
@@ -91,9 +94,12 @@ A handle to a context block associated with a display adapter. The display minip
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

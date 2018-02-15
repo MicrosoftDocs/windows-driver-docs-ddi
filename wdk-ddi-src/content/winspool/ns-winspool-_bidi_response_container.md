@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 26924dd2-ac67-408c-87e0-5cfb3281fe75
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_79e5354d-1fc1-4156-8be9-028ebcd14b16.xml, _BIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER, winspool/PBIDI_RESPONSE_CONTAINER, winspool/BIDI_RESPONSE_CONTAINER, winspool/LPBIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], PBIDI_RESPONSE_CONTAINER, print.bidi_response_container, LPBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], *PBIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER structure [Print Devices], BIDI_RESPONSE_CONTAINER
+ms.keywords: "*PBIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER structure [Print Devices], winspool/PBIDI_RESPONSE_CONTAINER, _BIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], *LPBIDI_RESPONSE_CONTAINER, winspool/BIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], winspool/LPBIDI_RESPONSE_CONTAINER, spoolfnc_79e5354d-1fc1-4156-8be9-028ebcd14b16.xml, print.bidi_response_container"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,11 +108,11 @@ The spooler's <a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md
 
 
 
-<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
+
+
+
+<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
 
 
 

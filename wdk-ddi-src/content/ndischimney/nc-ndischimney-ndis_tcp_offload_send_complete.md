@@ -93,11 +93,14 @@ A pointer to a
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 To improve system performance, an offload target can create a linked list that contains 
@@ -110,6 +113,7 @@ To improve system performance, an offload target can create a linked list that c
 Before completing one or more send requests, the offload target must do the following for each
     NET_BUFFER_LIST structure that it passes to the 
     <b>NdisTcpOffloadSendComplete</b> function:
+
 <ul>
 <li>
 Write a status value to the 
@@ -143,7 +147,8 @@ Write a status value to the
        operation.</li>
 </ul>
 </li>
-</ul><ul>
+</ul>
+<ul>
 <li>
 Specify the number of data bytes sent. The offload target does this by calling the 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro with an 
@@ -166,20 +171,33 @@ Call the
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
    NdisAdvanceNetBufferDataStart</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

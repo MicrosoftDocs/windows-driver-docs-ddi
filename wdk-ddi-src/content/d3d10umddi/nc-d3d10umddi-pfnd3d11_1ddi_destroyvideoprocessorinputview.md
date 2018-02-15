@@ -40,7 +40,7 @@ apiname:
 -	pfnDestroyVideoProcessorInputView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback
@@ -75,8 +75,9 @@ VOID APIENTRY* pfnDestroyVideoProcessorInputView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSORINPUTVIEW
+
+
 
 
 
@@ -98,6 +99,8 @@ A handle to the driver's private data for the video processor input view. This h
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

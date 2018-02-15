@@ -171,19 +171,19 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_bind_flag.md">D3D10_DDI_RESOURCE_BIND_FLAG</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a>
 
 
 
@@ -195,7 +195,7 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddiarg_subresource_up.md">D3D10_DDIARG_SUBRESOURCE_UP</a>
 
 
 
@@ -203,7 +203,7 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddiarg_subresource_up.md">D3D10_DDIARG_SUBRESOURCE_UP</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
 
 
 
@@ -211,11 +211,11 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_mipinfo.md">D3D10DDI_MIPINFO</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a>
 
 
 

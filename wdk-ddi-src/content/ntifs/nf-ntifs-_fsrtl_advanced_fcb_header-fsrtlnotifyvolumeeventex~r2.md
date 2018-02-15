@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0792e139-0217-4882-b2df-e69452118fc9
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], ntifs/FsRtlNotifyVolumeEventEx, ifsk.fsrtlnotifyvolumeeventex, FsRtlNotifyVolumeEventEx
+ms.keywords: FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], ntifs/FsRtlNotifyVolumeEventEx, ifsk.fsrtlnotifyvolumeeventex, FsRtlNotifyVolumeEventEx, fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,7 +108,7 @@ Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as ST
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+<a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
 
 
 
@@ -116,7 +116,7 @@ Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as ST
 
 
 
-<a href="..\wdm\nf-wdm-iounregisterplugplaynotification.md">IoUnregisterPlugPlayNotification</a>
+<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
 
 

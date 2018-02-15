@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6A9F8963-54F2-4AD7-AB98-C3215E1F7839
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ResetManagedStatus method [Windows Debugging], dbgeng/IDebugControl4::ResetManagedStatus, ResetManagedStatus method [Windows Debugging], IDebugControl4 interface, debugger.idebugcontrol4_resetmanagedstatus, IDebugControl4::ResetManagedStatus, ResetManagedStatus, IDebugControl4, IDebugControl4 interface [Windows Debugging], ResetManagedStatus method
+ms.keywords: dbgeng/IDebugControl4::ResetManagedStatus, ResetManagedStatus, IDebugControl4 interface [Windows Debugging], ResetManagedStatus method, debugger.idebugcontrol4_resetmanagedstatus, ResetManagedStatus method [Windows Debugging], IDebugControl4 interface, ResetManagedStatus method [Windows Debugging], IDebugControl4::ResetManagedStatus, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

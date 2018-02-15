@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 94e5153a-3ce5-400c-b53a-5323b34a6c34
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpiobtn.hwnunregisterclient, HwNUnregisterClient function, hwnclx/HwNUnregisterClient, HwNUnregisterClient
+ms.keywords: hwnclx/HwNUnregisterClient, HwNUnregisterClient function, HwNUnregisterClient, gpiobtn.hwnunregisterclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f3f9294a-23c0-450a-ae29-22add8176540
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, ntifs/FsRtlGetPerStreamContextPointer, ifsk.fsrtlgetperstreamcontextpointer, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], FsRtlGetPerStreamContextPointer
+ms.keywords: fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, FsRtlGetPerStreamContextPointer, ifsk.fsrtlgetperstreamcontextpointer, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], ntifs/FsRtlGetPerStreamContextPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,27 +98,7 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
 
 
 
@@ -127,6 +107,26 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 <a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
 
 
 

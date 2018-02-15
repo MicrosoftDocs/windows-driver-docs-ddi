@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: adfe720f-695e-49a2-b7b5-940ba11bc83f
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlcopysid, RtlCopySid routine [Installable File System Drivers], rtlref_598b8f18-6cd2-4714-a2da-8e91f6aba065.xml, RtlCopySid, ntifs/RtlCopySid
+ms.keywords: rtlref_598b8f18-6cd2-4714-a2da-8e91f6aba065.xml, ifsk.rtlcopysid, RtlCopySid routine [Installable File System Drivers], RtlCopySid, ntifs/RtlCopySid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -136,11 +136,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
 
 
 

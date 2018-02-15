@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 87828768-BE97-4549-AC5B-7CB27D0A9720
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchPortVlanModeMax, ntddndis/NdisSwitchPortVlanModeMax, ntddndis/NdisSwitchPortVlanModeTrunk, ntddndis/NdisSwitchPortVlanModeAccess, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_VLAN_MODE, *PNDIS_SWITCH_PORT_VLAN_MODE, netvista.ndis_switch_port_vlan_mode, ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModePrivate, NdisSwitchPortVlanModeUnknown, NdisSwitchPortVlanModeAccess, ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModePrivate, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortVlanModeUnknown, PNDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeTrunk
+ms.keywords: ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeUnknown, ntddndis/NdisSwitchPortVlanModeUnknown, ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeAccess, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortVlanModeMax, netvista.ndis_switch_port_vlan_mode, NdisSwitchPortVlanModeTrunk, PNDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModePrivate, _NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeAccess, ntddndis/NdisSwitchPortVlanModeTrunk, ntddndis/NdisSwitchPortVlanModePrivate, NdisSwitchPortVlanModeMax, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PORT_VLAN_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -118,11 +118,11 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
 
 
 

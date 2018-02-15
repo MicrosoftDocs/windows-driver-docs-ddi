@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c206d8e7-1a90-4866-868b-20275a52e2dd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: HasField method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_hasfield, ExtRemoteTyped::HasField, HasField, HasField method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], HasField method, ExtRemoteTyped, EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml
+ms.keywords: ExtRemoteTyped, HasField method [Windows Debugging], HasField method [Windows Debugging], ExtRemoteTyped interface, HasField, ExtRemoteTyped::HasField, ExtRemoteTyped interface [Windows Debugging], HasField method, debugger.extremotetyped_hasfield, EngExtCpp_Ref_8ce2c346-a92a-45ef-8baa-f1c42670aca6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

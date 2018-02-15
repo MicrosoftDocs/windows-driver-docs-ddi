@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc13eebd-810c-44b0-8909-4a4c3fc5b320
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_ALL, RIL_PARAM_MWIDETAIL_ALL, RILMSGMWIDETAILLISTPARAMMASK, RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGMWIDETAILLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_REFNUM, RIL_PARAM_MWIDETAIL_REFNUM, RIL_PARAM_MWIDETAIL_DETAILITEMS, netvista.rilmsgmwidetaillistparammask
+ms.keywords: RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetaillistparammask, ntddrilapitypes/RIL_PARAM_MWIDETAIL_ALL, ntddrilapitypes/RILMSGMWIDETAILLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RILMSGMWIDETAILLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, RIL_PARAM_MWIDETAIL_REFNUM, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RIL_PARAM_MWIDETAIL_DETAILITEMS, RIL_PARAM_MWIDETAIL_ALL, ntddrilapitypes/RIL_PARAM_MWIDETAIL_REFNUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

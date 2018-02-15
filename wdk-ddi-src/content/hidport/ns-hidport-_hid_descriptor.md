@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 80a6a5d8-b13a-418d-a4bd-941d3a913c1e
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "_HID_DESCRIPTOR, PHID_DESCRIPTOR, hidport/PHID_DESCRIPTOR, HID_DESCRIPTOR structure [Human Input Devices], hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, HID_DESCRIPTOR, *PHID_DESCRIPTOR, hidport/HID_DEVICE_ATTRIBUTES, PHID_DESCRIPTOR structure pointer [Human Input Devices], hid.hid_descriptor"
+ms.keywords: hidport/PHID_DESCRIPTOR, HID_DESCRIPTOR, *PHID_DESCRIPTOR, hid.hid_descriptor, PHID_DESCRIPTOR structure pointer [Human Input Devices], hidport/HID_DEVICE_ATTRIBUTES, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, HID_DESCRIPTOR structure [Human Input Devices], _HID_DESCRIPTOR, PHID_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

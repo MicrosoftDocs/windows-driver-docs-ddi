@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 21932a96-285c-490d-a1fb-a137aed57bbb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCHILDLISTUPDATECHILDDESCRIPTIONASMISSING, DFDeviceObjectChildListRef_1a871104-3d76-4ecb-936e-c27c2a107f2e.xml, wdf.wdfchildlistupdatechilddescriptionasmissing, kmdf.wdfchildlistupdatechilddescriptionasmissing, WdfChildListUpdateChildDescriptionAsMissing, WdfChildListUpdateChildDescriptionAsMissing method, wdfchildlist/WdfChildListUpdateChildDescriptionAsMissing
+ms.keywords: PFN_WDFCHILDLISTUPDATECHILDDESCRIPTIONASMISSING, wdf.wdfchildlistupdatechilddescriptionasmissing, WdfChildListUpdateChildDescriptionAsMissing, WdfChildListUpdateChildDescriptionAsMissing method, DFDeviceObjectChildListRef_1a871104-3d76-4ecb-936e-c27c2a107f2e.xml, kmdf.wdfchildlistupdatechilddescriptionasmissing, wdfchildlist/WdfChildListUpdateChildDescriptionAsMissing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -181,15 +181,15 @@ status = WdfChildListUpdateChildDescriptionAsMissing(
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
-
-
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
 
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 

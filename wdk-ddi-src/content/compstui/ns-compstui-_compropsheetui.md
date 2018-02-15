@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 7ebf46b7-5c31-482e-8644-a3d81f7dc5cc
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: compstui/COMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, print.compropsheetui, *PCOMPROPSHEETUI, PCOMPROPSHEETUI, COMPROPSHEETUI, _COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI structure pointer [Print Devices], compstui/PCOMPROPSHEETUI
+ms.keywords: PCOMPROPSHEETUI structure pointer [Print Devices], compstui/COMPROPSHEETUI, PCOMPROPSHEETUI, _COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], *PCOMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, print.compropsheetui, COMPROPSHEETUI, compstui/PCOMPROPSHEETUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

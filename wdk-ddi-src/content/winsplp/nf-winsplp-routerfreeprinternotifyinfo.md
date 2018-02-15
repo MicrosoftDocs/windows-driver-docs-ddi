@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 11beef0b-061a-4d73-b723-d0214f479503
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo function [Print Devices], print.routerfreeprinternotifyinfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml
+ms.keywords: RouterFreePrinterNotifyInfo function [Print Devices], spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, winsplp/RouterFreePrinterNotifyInfo, print.routerfreeprinternotifyinfo, RouterFreePrinterNotifyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

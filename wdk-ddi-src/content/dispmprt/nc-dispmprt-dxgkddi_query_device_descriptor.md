@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiQueryDeviceDescriptor
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback
@@ -90,7 +90,9 @@ A pointer to a <a href="..\dispmprt\ns-dispmprt-_dxgk_device_descriptor.md">DXGK
 ## -returns
 
 
+
 <i>DxgkDdiQueryDeviceDescriptor </i>returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ The child device identified by <i>ChildUid</i> is connected to a monitor that do
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>DxgkDdiQueryDeviceDescriptor</i> must never write more than the number of bytes specified by <i>DeviceDescriptor</i>-&gt;<b>DescriptorLength</b>.
@@ -159,15 +164,24 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function can be called several times for
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+
+
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_device_descriptor.md">DXGK_DEVICE_DESCRIPTOR</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+
 
  
 

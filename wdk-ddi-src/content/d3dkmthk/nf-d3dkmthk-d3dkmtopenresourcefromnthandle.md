@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenResourceFromNtHandle, d3dkmthk/D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle, D3DKMTOpenResourceFromNtHandle function [Display Devices], PFND3DKMT_OPENRESOURCEFROMNTHANDLE
+ms.keywords: D3DKMTOpenResourceFromNtHandle function [Display Devices], d3dkmthk/D3DKMTOpenResourceFromNtHandle, PFND3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53114ABE-33F2-4DA2-ABE0-2547547AA6AD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Revision, Type, _DOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS, Size, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS, windot11/PDOT11_MAC_PARAMETERS, netvista.dot11_mac_parameters
+ms.keywords: PDOT11_MAC_PARAMETERS, Size, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_MAC_PARAMETERS, netvista.dot11_mac_parameters, windot11/DOT11_MAC_PARAMETERS, _DOT11_MAC_PARAMETERS, Revision, DOT11_MAC_PARAMETERS, Type, windot11/PDOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

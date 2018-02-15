@@ -94,11 +94,14 @@ A pointer to a
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An offload target should use and return preposted receive requests in the order in which the requests
@@ -134,6 +137,7 @@ To improve system performance, an offload target can create a linked list that c
 Before calling the 
     <b>NdisTcpOffloadReceiveComplete</b> function, the offload target does the following for each
     NET_BUFFER_LIST structure that it passes to the function:
+
 <ul>
 <li>Writes one of the following status values to the 
      <b>Status</b> member:
@@ -179,7 +183,8 @@ The receive request was posted after the offload target indicated a disconnect b
 </dd>
 </dl>
 </li>
-</ul><ul>
+</ul>
+<ul>
 <li>
 Specifies the number of data bytes returned by calling the 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro with an 
@@ -201,18 +206,29 @@ Calls the
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
    NdisAdvanceNetBufferDataStart</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

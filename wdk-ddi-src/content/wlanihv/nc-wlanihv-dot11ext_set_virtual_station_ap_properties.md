@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetVirtualStationAPProperties
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -114,13 +114,16 @@ This parameter is reserved for use by the operating system and should be <b>NULL
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 If the current IHV profile connection is an access point (AP), and the IHV Extensions DLL can provide
@@ -138,15 +141,22 @@ If the IHV Extensions DLL calls
 
 
 
+
 ## -see-also
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_ap_property.md">
    DOT11EXT_VIRTUAL_STATION_AP_PROPERTY</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
    Dot11ExtIhvPerformPreAssociate</a>
+
+
 
  
 

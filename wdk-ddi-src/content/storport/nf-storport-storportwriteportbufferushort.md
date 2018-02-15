@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e7b7718b-0c03-4114-8402-9657c49230ad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml, StorPortWritePortBufferUshort, StorPortWritePortBufferUshort routine [Storage Devices], storage.storportwriteportbufferushort, storport/StorPortWritePortBufferUshort
+ms.keywords: storport/StorPortWritePortBufferUshort, storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml, StorPortWritePortBufferUshort, StorPortWritePortBufferUshort routine [Storage Devices], storage.storportwriteportbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
-
-Contains the address of the port to be written to. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer containing the data to be written. 
@@ -114,6 +104,16 @@ Pointer to the buffer containing the data to be written.
 #### - Count [in]
 
 Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. 
+
+
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Port [in]
+
+Contains the address of the port to be written to. 
 
 
 ## -remarks

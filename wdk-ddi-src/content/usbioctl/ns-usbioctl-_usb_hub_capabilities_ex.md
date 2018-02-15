@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: deb8d710-6137-4f69-8fde-00d46cdb6f4f
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.usb_hub_capabilities_ex, PUSB_HUB_CAPABILITIES_EX structure pointer [Buses], usbstrct_42446556-393a-4d58-934e-f63d62fa3c07.xml, usbioctl/USB_HUB_CAPABILITIES_EX, PUSB_HUB_CAPABILITIES_EX, USB_HUB_CAPABILITIES_EX, usbioctl/PUSB_HUB_CAPABILITIES_EX, *PUSB_HUB_CAPABILITIES_EX, USB_HUB_CAPABILITIES_EX structure [Buses], _USB_HUB_CAPABILITIES_EX
+ms.keywords: USB_HUB_CAPABILITIES_EX structure [Buses], *PUSB_HUB_CAPABILITIES_EX, usbioctl/USB_HUB_CAPABILITIES_EX, PUSB_HUB_CAPABILITIES_EX structure pointer [Buses], usbioctl/PUSB_HUB_CAPABILITIES_EX, usbstrct_42446556-393a-4d58-934e-f63d62fa3c07.xml, buses.usb_hub_capabilities_ex, USB_HUB_CAPABILITIES_EX, _USB_HUB_CAPABILITIES_EX, PUSB_HUB_CAPABILITIES_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

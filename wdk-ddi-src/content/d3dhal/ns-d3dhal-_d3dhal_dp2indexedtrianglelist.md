@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 138d226a-85ca-41d0-a0dd-2772194874e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2INDEXEDTRIANGLELIST structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLELIST, d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST, *LPD3DHAL_DP2INDEXEDTRIANGLELIST, display.d3dhal_dp2indexedtrianglelist, LPD3DHAL_DP2INDEXEDTRIANGLELIST structure pointer [Display Devices], D3DHAL_DP2INDEXEDTRIANGLELIST, d3dstrct_ee454273-b67d-4fe5-8e81-0de4ad80ce9c.xml, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST, _D3DHAL_DP2INDEXEDTRIANGLELIST
+ms.keywords: D3DHAL_DP2INDEXEDTRIANGLELIST, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST, LPD3DHAL_DP2INDEXEDTRIANGLELIST structure pointer [Display Devices], display.d3dhal_dp2indexedtrianglelist, d3dstrct_ee454273-b67d-4fe5-8e81-0de4ad80ce9c.xml, D3DHAL_DP2INDEXEDTRIANGLELIST structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLELIST, _D3DHAL_DP2INDEXEDTRIANGLELIST, d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST, *LPD3DHAL_DP2INDEXEDTRIANGLELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -168,7 +168,7 @@ Similarly, the following figure shows a portion of a sample command buffer conta
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
 
 
 
@@ -176,15 +176,15 @@ Similarly, the following figure shows a portion of a sample command buffer conta
 
 
 
-D3DDP2OP_INDEXEDTRIANGLELIST
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
+D3DDP2OP_INDEXEDTRIANGLELIST
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

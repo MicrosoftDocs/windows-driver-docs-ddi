@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_detect_proprietary_charger.htm
 old-project: usbref
 ms.assetid: A3396CC8-153E-401A-BAD6-18FEE4D14EE5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.evt_ufx_device_detect_proprietary_charger, EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER, EvtDeviceProprietaryChargerDetect, EvtUfxDeviceDetectProprietaryCharger callback function [Buses], EvtUfxDeviceDetectProprietaryCharger, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT, ufxclient/EvtUfxDeviceDetectProprietaryCharger, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function pointer [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,6 +76,9 @@ typedef EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT PFN_UFX_DEVICE_PROPRIETARY_CHA
 
 
 
+
+
+
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
@@ -84,11 +87,14 @@ The handle to a  USB device object that the client driver received in a previous
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 <i>EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER</i> is an optional event callback. The client driver is required to implement this event callback only if it supports proprietary charger detection. The driver indicates its support in the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> call by setting <b>PdcpSupported</b> to TRUE in <a href="..\ufxbase\ns-ufxbase-_ufx_device_capabilities.md">UFX_DEVICE_CAPABILITIES</a>. If the client driver does not support the functionality, the <b>EvtDeviceProprietaryChargerDetect</b>, <b>EvtDeviceProprietaryChargerSetProperty</b>, and <b>EvtDeviceProprietaryChargerReset</b>
@@ -100,15 +106,20 @@ The client driver sends a request to the lower filter driver to determine if a p
 
 
 
+
 ## -see-also
 
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
 
+
+
 <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

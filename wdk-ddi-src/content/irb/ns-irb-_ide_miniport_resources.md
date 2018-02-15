@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 867b6152-9846-484f-9eac-07d0f24d55df
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-ATA_28df7197-d4b0-4279-a4db-e9b1269f6ba7.xml, storage.ide_miniport_resources, PIDE_MINIPORT_RESOURCES, *PIDE_MINIPORT_RESOURCES, irb/IDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES, irb/PIDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES structure [Storage Devices], PIDE_MINIPORT_RESOURCES structure pointer [Storage Devices], _IDE_MINIPORT_RESOURCES
+ms.keywords: "*PIDE_MINIPORT_RESOURCES, PIDE_MINIPORT_RESOURCES structure pointer [Storage Devices], irb/IDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES, storage.ide_miniport_resources, _IDE_MINIPORT_RESOURCES, structs-ATA_28df7197-d4b0-4279-a4db-e9b1269f6ba7.xml, PIDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES structure [Storage Devices], irb/PIDE_MINIPORT_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ The port driver passes this structure to the miniport driver's <a href="https://
 
 ## -see-also
 
-<a href="..\irb\ns-irb-_ide_access_range.md">IDE_ACCESS_RANGE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
+
+<a href="..\irb\ns-irb-_ide_access_range.md">IDE_ACCESS_RANGE</a>
 
 
 

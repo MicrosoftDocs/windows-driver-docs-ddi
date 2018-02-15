@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 61C1EB2F-E4CF-4B18-AD7B-6B24EF14E71F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices], D3DKMDT_VPPR_GET_CONTENT_ROTATION, d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, display.d3dkmdt_vppr_get_content_rotation
+ms.keywords: d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, D3DKMDT_VPPR_GET_CONTENT_ROTATION, display.d3dkmdt_vppr_get_content_rotation, D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -239,7 +239,15 @@ Here's an example of how this function can provide your driver with the info it 
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentflags.md">DXGK_PRESENTFLAGS</a>
+
+
+
+<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_offset_rotation.md">D3DKMDT_VPPR_GET_OFFSET_ROTATION</a>
 
 
 
@@ -248,14 +256,6 @@ Here's an example of how this function can provide your driver with the info it 
 
 
 <a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_content_rotation_part.md">D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-
-
-
-<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_offset_rotation.md">D3DKMDT_VPPR_GET_OFFSET_ROTATION</a>
 
 
 

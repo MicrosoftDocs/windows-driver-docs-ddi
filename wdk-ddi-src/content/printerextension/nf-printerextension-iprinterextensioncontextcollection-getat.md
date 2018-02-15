@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5E3DC6C7-E370-4120-81B7-2093812AD009
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetAt method [Print Devices], IPrinterExtensionContextCollection, GetAt, get_GetAt, IPrinterExtensionContextCollection interface [Print Devices], GetAt method, print.iprinterextensioncontextcollection_getat, printerextension/IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection::GetAt, GetAt method [Print Devices], IPrinterExtensionContextCollection interface
+ms.keywords: GetAt method [Print Devices], GetAt method [Print Devices], IPrinterExtensionContextCollection interface, printerextension/IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection, IPrinterExtensionContextCollection::GetAt, IPrinterExtensionContextCollection interface [Print Devices], GetAt method, GetAt, print.iprinterextensioncontextcollection_getat, get_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

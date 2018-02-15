@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 56147D28-B832-4C5D-BFB7-60C4020CA299
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInterlockedInsertTailList routine [Storage Devices], storage.storportinterlockedinserttaillist, StorPortInterlockedInsertTailList, storport/StorPortInterlockedInsertTailList
+ms.keywords: storage.storportinterlockedinserttaillist, StorPortInterlockedInsertTailList routine [Storage Devices], StorPortInterlockedInsertTailList, storport/StorPortInterlockedInsertTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,11 +158,7 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790429">StorPortInterlockedInsertTailList</a>
-
-
-
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
 
 
 
@@ -170,11 +166,15 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790429">StorPortInterlockedInsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
 
 
 

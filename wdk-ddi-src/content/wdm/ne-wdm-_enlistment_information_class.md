@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d031e032-66e3-4697-8db1-67655cfc223d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/ENLISTMENT_INFORMATION_CLASS, kernel.enlistment_information_class, wdm/EnlistmentRecoveryInformation, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, EnlistmentCrmInformation, EnlistmentBasicInformation, _ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentCrmInformation, EnlistmentRecoveryInformation, ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentBasicInformation
+ms.keywords: EnlistmentBasicInformation, wdm/EnlistmentBasicInformation, ENLISTMENT_INFORMATION_CLASS, kernel.enlistment_information_class, EnlistmentRecoveryInformation, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, EnlistmentCrmInformation, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/EnlistmentRecoveryInformation, _ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentCrmInformation, wdm/ENLISTMENT_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

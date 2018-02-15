@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07de1b64-bafb-4b5b-8ef3-24b87ae0c273
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbInterfaceGetNumSettings, wdfusb/WdfUsbInterfaceGetNumSettings, kmdf.wdfusbinterfacegetnumsettings, DFUsbRef_5515a8bf-1a43-434c-9806-75393a17fdf5.xml, wdf.wdfusbinterfacegetnumsettings, WdfUsbInterfaceGetNumSettings method
+ms.keywords: WdfUsbInterfaceGetNumSettings, wdfusb/WdfUsbInterfaceGetNumSettings, wdf.wdfusbinterfacegetnumsettings, WdfUsbInterfaceGetNumSettings method, kmdf.wdfusbinterfacegetnumsettings, DFUsbRef_5515a8bf-1a43-434c-9806-75393a17fdf5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,11 +125,11 @@ altSettings = WdfUsbInterfaceGetNumSettings(UsbInterface);</pre>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 
 

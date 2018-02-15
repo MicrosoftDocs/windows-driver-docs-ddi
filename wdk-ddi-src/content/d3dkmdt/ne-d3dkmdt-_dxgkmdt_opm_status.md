@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e3bfde85-e8a0-41df-9248-f48ceb8b5304
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, d3dkmdt/DXGKMDT_OPM_STATUS_NORMAL, d3dkmdt/DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, d3dkmdt/DXGKMDT_OPM_STATUS_LINK_LOST, DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, DXGKMDT_OPM_STATUS, DXGKMDT_OPM_STATUS_NORMAL, d3dkmdt/DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, display.dxgkmdt_opm_status, d3dkmdt/DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, DXGKMDT_OPM_STATUS_LINK_LOST, DmEnums_77faebe8-d3a4-461f-9f03-daa2d81da828.xml, DXGKMDT_OPM_STATUS enumeration [Display Devices], _DXGKMDT_OPM_STATUS, d3dkmdt/DXGKMDT_OPM_STATUS
+ms.keywords: DXGKMDT_OPM_STATUS_LINK_LOST, DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, d3dkmdt/DXGKMDT_OPM_STATUS_LINK_LOST, DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, d3dkmdt/DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, d3dkmdt/DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, DXGKMDT_OPM_STATUS enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, DmEnums_77faebe8-d3a4-461f-9f03-daa2d81da828.xml, d3dkmdt/DXGKMDT_OPM_STATUS_NORMAL, d3dkmdt/DXGKMDT_OPM_STATUS, DXGKMDT_OPM_STATUS, _DXGKMDT_OPM_STATUS, DXGKMDT_OPM_STATUS_NORMAL, display.dxgkmdt_opm_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -109,11 +109,7 @@ The display miniport driver returns status about a protected output whenever the
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 
@@ -121,15 +117,19 @@ The display miniport driver returns status about a protected output whenever the
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_actual_output_format.md">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 

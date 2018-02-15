@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ee85e9fb-2112-4b36-af7f-7d142159bd2d
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltApiRef_a_to_d_329cb1e6-2fb5-45fa-a533-71a60ce341cf.xml, fltkernel/FltAcquirePushLockShared, FltAcquirePushLockShared routine [Installable File System Drivers], FltAcquirePushLockShared, ifsk.fltacquirepushlockshared
+ms.keywords: ifsk.fltacquirepushlockshared, FltAcquirePushLockShared, FltAcquirePushLockShared routine [Installable File System Drivers], fltkernel/FltAcquirePushLockShared, FltApiRef_a_to_d_329cb1e6-2fb5-45fa-a533-71a60ce341cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -125,10 +125,6 @@ To delete a push lock, call <a href="..\fltkernel\nf-fltkernel-fltdeletepushlock
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>
 
 
@@ -137,11 +133,15 @@ To delete a push lock, call <a href="..\fltkernel\nf-fltkernel-fltdeletepushlock
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletepushlock.md">FltDeletePushLock</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdeletepushlock.md">FltDeletePushLock</a>
 
 
 

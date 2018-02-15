@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5a8a764d-48bf-48f9-831a-ac22767aeca6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml, print.drvupgradeprinter, DrvUpgradePrinter function [Print Devices], DrvUpgradePrinter, winddiui/DrvUpgradePrinter
+ms.keywords: DrvUpgradePrinter, winddiui/DrvUpgradePrinter, print.drvupgradeprinter, DrvUpgradePrinter function [Print Devices], print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,15 +137,15 @@ For Windows NT 4.0 and previous, when the spooler calls <b>DrvUpgradePrinter</b>
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
-
-
-
 <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
 
 
 
 <a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
 
 
 

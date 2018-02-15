@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PSYNTH_STATS, dmusprop/SYNTH_STATS, PSYNTH_STATS, _SYNTH_STATS, SYNTH_STATS, dmusprop/PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, PSYNTH_STATS structure pointer [Audio Devices], audio.synth_stats"
+ms.keywords: audio.synth_stats, dmusprop/PSYNTH_STATS, PSYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, SYNTH_STATS, SYNTH_STATS structure [Audio Devices], _SYNTH_STATS, PSYNTH_STATS structure pointer [Audio Devices], *PSYNTH_STATS, dmusprop/SYNTH_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

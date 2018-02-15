@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d7302c51-02b3-4876-b215-6bde1160245a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTF2.Config, IWDTF2 interface [Windows Device Testing Framework], Config property, wdtf/IWDTF2::Config, Microsoft.WDTF.IWDTF2.Config, dtf.iwdtf2_config, Config property [Windows Device Testing Framework], IWDTF2::get_Config, get_Config, Microsoft::WDTF::IWDTF2::Config, Config property [Windows Device Testing Framework], IWDTF2 interface, IWDTF2, wdtf/IWDTF2::get_Config
+ms.keywords: IWDTF2::get_Config, Microsoft::WDTF::IWDTF2::Config, dtf.iwdtf2_config, get_Config, Config property [Windows Device Testing Framework], IWDTF2 interface, wdtf/IWDTF2::Config, wdtf/IWDTF2::get_Config, Microsoft.WDTF.IWDTF2.Config, IWDTF2, IWDTF2 interface [Windows Device Testing Framework], Config property, IWDTF2.Config, Config property [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

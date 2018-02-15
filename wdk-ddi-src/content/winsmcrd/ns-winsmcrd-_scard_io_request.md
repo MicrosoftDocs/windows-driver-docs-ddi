@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: DE670712-2F11-4BB0-ADC7-B68C94EF0759
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: "*PSCARD_IO_REQUEST, _SCARD_IO_REQUEST, winsmcrd/PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, SCARD_IO_REQUEST structure [Near-Field Proximity Drivers], winsmcrd/SCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST structure pointer [Near-Field Proximity Drivers], SCARD_IO_REQUEST, nfpdrivers.scard_io_request_structure"
+ms.keywords: SCARD_IO_REQUEST structure [Near-Field Proximity Drivers], winsmcrd/SCARD_IO_REQUEST, nfpdrivers.scard_io_request_structure, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, SCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, *PSCARD_IO_REQUEST, winsmcrd/PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST, _SCARD_IO_REQUEST, PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST structure pointer [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,11 @@ Specifies the protocol control information length.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
+
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 

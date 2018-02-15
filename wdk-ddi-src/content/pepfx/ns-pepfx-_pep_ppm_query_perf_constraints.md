@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29B823A2-C645-4DA3-A3BE-4A3ED6A9799F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PERFORMANCE_LIMIT_POWER, kernel.pep_ppm_perf_constraints, PERFORMANCE_LIMIT_THERMAL, *PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS, _PEP_PPM_QUERY_PERF_CONSTRAINTS, pepfx/PEP_PPM_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY
+ms.keywords: pepfx/PEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_THERMAL, *PPEP_PPM_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, _PEP_PPM_QUERY_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_POWER, PEP_PPM_PERF_CONSTRAINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

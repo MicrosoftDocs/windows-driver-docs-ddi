@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6222db07-5aba-467c-94a5-18493dfb1524
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCOMMONBUFFERGETALIGNEDLOGICALADDRESS, DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, WdfCommonBufferGetAlignedLogicalAddress, kmdf.wdfcommonbuffergetalignedlogicaladdress, wdf.wdfcommonbuffergetalignedlogicaladdress, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress method
+ms.keywords: kmdf.wdfcommonbuffergetalignedlogicaladdress, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress method, DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, WdfCommonBufferGetAlignedLogicalAddress, wdf.wdfcommonbuffergetalignedlogicaladdress, PFN_WDFCOMMONBUFFERGETALIGNEDLOGICALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,11 +115,11 @@ For a code example that uses <b>WdfCommonBufferGetAlignedLogicalAddress</b>, see
 
 
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
-
-
-
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedvirtualaddress.md">WdfCommonBufferGetAlignedVirtualAddress</a>
+
+
+
+<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
 
 
 

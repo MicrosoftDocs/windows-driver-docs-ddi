@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3313af42-0e0a-4ad0-b0bb-0afb795e24fd
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.flt_registration, PFLT_REGISTRATION, FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS, *PFLT_REGISTRATION, PFLT_REGISTRATION structure pointer [Installable File System Drivers], FLT_REGISTRATION structure [Installable File System Drivers], FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME, FLT_REGISTRATION, FltSystemStructures_5257e153-faae-4eb8-845a-f6c137a29390.xml, fltkernel/PFLT_REGISTRATION, _FLT_REGISTRATION, fltkernel/FLT_REGISTRATION, FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP
+ms.keywords: PFLT_REGISTRATION structure pointer [Installable File System Drivers], FLT_REGISTRATION, PFLT_REGISTRATION, FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME, FLT_REGISTRATION structure [Installable File System Drivers], ifsk.flt_registration, FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP, FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS, FltSystemStructures_5257e153-faae-4eb8-845a-f6c137a29390.xml, fltkernel/PFLT_REGISTRATION, *PFLT_REGISTRATION, _FLT_REGISTRATION, fltkernel/FLT_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -221,23 +221,11 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_operation_registration.md">FLT_OPERATION_REGISTRATION</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
 
 
@@ -245,7 +233,15 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_transaction_notification_callback.md">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
 
 
 
@@ -257,23 +253,27 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_transaction_notification_callback.md">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_operation_registration.md">FLT_OPERATION_REGISTRATION</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 

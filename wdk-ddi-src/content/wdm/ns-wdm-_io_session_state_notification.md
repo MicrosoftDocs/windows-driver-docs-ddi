@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 19ff9c3a-d416-4468-b5a5-e2e6e896802a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_SESSION_STATE_TERMINATION_EVENT, IO_SESSION_STATE_LOGON_EVENT, kstruct_b_b25d50a3-6254-4eeb-800e-c5fc73c56dfb.xml, PIO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_LOGOFF_EVENT, IO_SESSION_STATE_CREATION_EVENT, *PIO_SESSION_STATE_NOTIFICATION, PIO_SESSION_STATE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], IO_SESSION_STATE_NOTIFICATION structure [Kernel-Mode Driver Architecture], IO_SESSION_STATE_CONNECT_EVENT, IO_SESSION_STATE_ALL_EVENTS, _IO_SESSION_STATE_NOTIFICATION, kernel.io_session_state_notification, IO_SESSION_STATE_DISCONNECT_EVENT, wdm/IO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_NOTIFICATION, wdm/PIO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_VALID_EVENT_MASK
+ms.keywords: IO_SESSION_STATE_LOGON_EVENT, IO_SESSION_STATE_VALID_EVENT_MASK, IO_SESSION_STATE_CONNECT_EVENT, _IO_SESSION_STATE_NOTIFICATION, wdm/PIO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_TERMINATION_EVENT, PIO_SESSION_STATE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], IO_SESSION_STATE_NOTIFICATION structure [Kernel-Mode Driver Architecture], PIO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_ALL_EVENTS, IO_SESSION_STATE_DISCONNECT_EVENT, IO_SESSION_STATE_CREATION_EVENT, IO_SESSION_STATE_LOGOFF_EVENT, kstruct_b_b25d50a3-6254-4eeb-800e-c5fc73c56dfb.xml, IO_SESSION_STATE_NOTIFICATION, *PIO_SESSION_STATE_NOTIFICATION, wdm/IO_SESSION_STATE_NOTIFICATION, kernel.io_session_state_notification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -212,11 +212,7 @@ To determine whether a device object is a per-session device object, a driver ca
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542651">DEVPKEY_Device_SessionId</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -224,7 +220,11 @@ To determine whether a device object is a per-session device object, a driver ca
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542651">DEVPKEY_Device_SessionId</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a>
 
 
 

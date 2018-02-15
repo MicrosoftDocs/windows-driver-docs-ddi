@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 644680a9-ec56-4d65-890f-fbc11badf2b7
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlAllocateExtraCreateParameter routine [Installable File System Drivers], ifsk.fsrtlallocateextracreateparameter, fsrtlref_97f1c552-b822-4fda-9327-8d127f42080b.xml, FsRtlAllocateExtraCreateParameter, ntifs/FsRtlAllocateExtraCreateParameter
+ms.keywords: ifsk.fsrtlallocateextracreateparameter, fsrtlref_97f1c552-b822-4fda-9327-8d127f42080b.xml, ntifs/FsRtlAllocateExtraCreateParameter, FsRtlAllocateExtraCreateParameter, FsRtlAllocateExtraCreateParameter routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,43 +166,7 @@ If the caller allocates ECP_LIST and one or more ECPs are used in a call to <a h
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
-
-
-
-<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -210,7 +174,43 @@ If the caller allocates ECP_LIST and one or more ECPs are used in a call to <a h
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e3126df-d081-4545-a5db-8637ee27f15b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/STATUS_BLOCK, STATUS_BLOCK, STATUS_BLOCK structure [Display Devices], Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, *PSTATUS_BLOCK, PSTATUS_BLOCK structure pointer [Display Devices], display.status_block, PSTATUS_BLOCK, _STATUS_BLOCK, video/PSTATUS_BLOCK
+ms.keywords: STATUS_BLOCK, Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, video/PSTATUS_BLOCK, STATUS_BLOCK structure [Display Devices], PSTATUS_BLOCK, display.status_block, PSTATUS_BLOCK structure pointer [Display Devices], _STATUS_BLOCK, *PSTATUS_BLOCK, video/STATUS_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

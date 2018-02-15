@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c0c61c6a-35fe-410a-b3e8-70d33557bb9b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsourceentriesbylinewide, GetSourceEntriesByLineWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceEntriesByLineWide, GetSourceEntriesByLineWide, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLineWide method, GetSourceEntriesByLineWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3::GetSourceEntriesByLineWide
+ms.keywords: GetSourceEntriesByLineWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSourceEntriesByLineWide, IDebugSymbols3 interface [Windows Debugging], GetSourceEntriesByLineWide method, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSourceEntriesByLineWide, GetSourceEntriesByLineWide, debugger.getsourceentriesbylinewide, GetSourceEntriesByLineWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -224,15 +224,15 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
 
 
 
 <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

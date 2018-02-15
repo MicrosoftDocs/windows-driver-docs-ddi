@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86c4e5ec-e893-4b1e-b397-6c51351df46c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, IDebugControl2::SetLogMask, dbgeng/IDebugControl::SetLogMask, IDebugControl2 interface [Windows Debugging], SetLogMask method, SetLogMask method [Windows Debugging], IDebugControl3 interface, SetLogMask, debugger.setlogmask, dbgeng/IDebugControl3::SetLogMask, IDebugControl_b1c44a2b-d2fd-407b-8994-00f5e53af10d.xml, IDebugControl, SetLogMask method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], SetLogMask method, SetLogMask method [Windows Debugging], IDebugControl2 interface, SetLogMask method [Windows Debugging], IDebugControl::SetLogMask, dbgeng/IDebugControl2::SetLogMask, IDebugControl3::SetLogMask, IDebugControl3 interface [Windows Debugging], SetLogMask method
+ms.keywords: IDebugControl::SetLogMask, dbgeng/IDebugControl2::SetLogMask, SetLogMask method [Windows Debugging], IDebugControl interface [Windows Debugging], SetLogMask method, dbgeng/IDebugControl::SetLogMask, debugger.setlogmask, IDebugControl3::SetLogMask, dbgeng/IDebugControl3::SetLogMask, SetLogMask method [Windows Debugging], IDebugControl interface, SetLogMask method [Windows Debugging], IDebugControl3 interface, SetLogMask method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], SetLogMask method, IDebugControl2::SetLogMask, IDebugControl3 interface [Windows Debugging], SetLogMask method, SetLogMask, IDebugControl2, IDebugControl_b1c44a2b-d2fd-407b-8994-00f5e53af10d.xml, IDebugControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,7 +104,7 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
 
 
@@ -112,15 +112,15 @@ The method was successful.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

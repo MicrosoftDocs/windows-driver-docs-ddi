@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0b681f00-6cec-4598-abee-e9a97bd53582
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, ExtRemoteTyped interface [Windows Debugging], GetTypeSize method, GetTypeSize method [Windows Debugging], ExtRemoteTyped::GetTypeSize, GetTypeSize, debugger.extremotetyped_gettypesize, GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped
+ms.keywords: ExtRemoteTyped, GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, GetTypeSize method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], GetTypeSize method, debugger.extremotetyped_gettypesize, ExtRemoteTyped::GetTypeSize, EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, GetTypeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -78,11 +78,11 @@ ULONG GetTypeSize();
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 
 

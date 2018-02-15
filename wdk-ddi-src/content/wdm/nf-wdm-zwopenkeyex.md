@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 05057ae7-0f91-4f5a-8c72-652ec04ee3ab
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, wdm/ZwOpenKeyEx, kernel.zwopenkeyex, ZwOpenKeyEx, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], kernel.zwopenkeyex, wdm/ZwOpenKeyEx, ZwOpenKeyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -227,7 +227,11 @@ For more information about working with registry keys in kernel mode, see <a hre
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
@@ -235,11 +239,7 @@ For more information about working with registry keys in kernel mode, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9e363bd1-3bfd-48cc-adc1-a14d23868a57
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSINTERVAL, PKSINTERVAL, PKSINTERVAL structure pointer [Streaming Media Devices], *PKSINTERVAL, ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, KSINTERVAL structure [Streaming Media Devices], ks/PKSINTERVAL, KSINTERVAL, stream.ksinterval
+ms.keywords: ks/KSINTERVAL, PKSINTERVAL structure pointer [Streaming Media Devices], KSINTERVAL, PKSINTERVAL, *PKSINTERVAL, ks/PKSINTERVAL, ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, KSINTERVAL structure [Streaming Media Devices], stream.ksinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

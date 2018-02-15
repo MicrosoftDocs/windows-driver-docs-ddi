@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: f8f5db79-d1ea-4ce8-b941-49ef7518b941
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure pointer [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING, acpi-meth-eval-ref_e7f8f5c8-9aef-488b-b041-2dc9d2f1a280.xml, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, acpi.acpi_eval_input_buffer_simple_string
+ms.keywords: PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, acpi-meth-eval-ref_e7f8f5c8-9aef-488b-b041-2dc9d2f1a280.xml, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1, acpi.acpi_eval_input_buffer_simple_string, PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 structure pointer [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,11 +134,11 @@ For more information about how to use this structure, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
-
-
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
+
+
+
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
 
 
 

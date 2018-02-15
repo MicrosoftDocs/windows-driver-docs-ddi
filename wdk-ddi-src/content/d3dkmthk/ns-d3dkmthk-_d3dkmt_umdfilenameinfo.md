@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 456aef5a-f297-4670-8a83-b468569d23ad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_UMDFILENAMEINFO, _D3DKMT_UMDFILENAMEINFO, display.d3dkmt_umdfilenameinfo, D3DKMT_UMDFILENAMEINFO structure [Display Devices], d3dkmthk/D3DKMT_UMDFILENAMEINFO, OpenGL_Structs_631f8c52-0978-4f26-bd6b-08348676795b.xml
+ms.keywords: D3DKMT_UMDFILENAMEINFO, d3dkmthk/D3DKMT_UMDFILENAMEINFO, OpenGL_Structs_631f8c52-0978-4f26-bd6b-08348676795b.xml, D3DKMT_UMDFILENAMEINFO structure [Display Devices], _D3DKMT_UMDFILENAMEINFO, display.d3dkmt_umdfilenameinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

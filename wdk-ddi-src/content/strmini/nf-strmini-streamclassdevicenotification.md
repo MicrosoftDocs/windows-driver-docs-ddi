@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 80383159-c2c3-4d05-92e8-9245408e5243
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassDeviceNotification routine [Streaming Media Devices], strclass-routines_bddec484-f87c-4ebc-b8e1-ea52d265cbc4.xml, StreamClassDeviceNotification, strmini/StreamClassDeviceNotification, stream.streamclassdevicenotification
+ms.keywords: StreamClassDeviceNotification, StreamClassDeviceNotification routine [Streaming Media Devices], strclass-routines_bddec484-f87c-4ebc-b8e1-ea52d265cbc4.xml, stream.streamclassdevicenotification, strmini/StreamClassDeviceNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,14 +123,14 @@ TBD
 
 
 
-#### - pSrb
-
-Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. If <i>NotificationType</i> equals <b>DeviceRequestComplete</b>, this parameter points to the stream request block that the minidriver has completed processing. After <b>StreamClassDeviceNotification</b> completes, this address is no longer valid.
-
-
 #### - EventEntry
 
 If <i>NotificationType</i> equals either SignalDeviceEvent or DeleteDeviceEvent, points to a structure of type <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> that specifies the event to be signaled or deleted. 
+
+
+#### - EventId
+
+Specifies the event ID to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>.
 
 
 #### - EventSet
@@ -138,9 +138,9 @@ If <i>NotificationType</i> equals either SignalDeviceEvent or DeleteDeviceEvent,
 Specifies the event set to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>. 
 
 
-#### - EventId
+#### - pSrb
 
-Specifies the event ID to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>.
+Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. If <i>NotificationType</i> equals <b>DeviceRequestComplete</b>, this parameter points to the stream request block that the minidriver has completed processing. After <b>StreamClassDeviceNotification</b> completes, this address is no longer valid.
 
 
 ## -returns

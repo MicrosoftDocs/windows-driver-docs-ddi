@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4151e72-e0a6-4873-a2e8-c3321941cfd4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DmStructs_64a3857d-3c66-4653-980b-72df307eba0f.xml, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Display Devices], DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, display.dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters
+ms.keywords: DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, display.dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters, DmStructs_64a3857d-3c66-4653-980b-72df307eba0f.xml, _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

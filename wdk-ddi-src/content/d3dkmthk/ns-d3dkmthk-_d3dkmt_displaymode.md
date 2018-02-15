@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04d3d4bd-3926-43bf-b64e-0ba0c2589a54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DISPLAYMODE structure [Display Devices], _D3DKMT_DISPLAYMODE, OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, D3DKMT_DISPLAYMODE, display.d3dkmt_displaymode, d3dkmthk/D3DKMT_DISPLAYMODE
+ms.keywords: d3dkmthk/D3DKMT_DISPLAYMODE, _D3DKMT_DISPLAYMODE, OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, D3DKMT_DISPLAYMODE, display.d3dkmt_displaymode, D3DKMT_DISPLAYMODE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,15 +122,7 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
 
 
 
@@ -146,7 +138,15 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
 
 
 

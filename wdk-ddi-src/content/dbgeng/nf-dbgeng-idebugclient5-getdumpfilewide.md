@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 42acd24e-5952-46b3-bb0b-1eb43125fccd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient4, GetDumpFileWide method [Windows Debugging], IDebugClient5, GetDumpFileWide, debugger.getdumpfilewide, GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, dbgeng/IDebugClient5::GetDumpFileWide, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, IDebugClient4::GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, IDebugClient5::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: debugger.getdumpfilewide, IDebugClient4, GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient4::GetDumpFileWide, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, dbgeng/IDebugClient5::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], GetDumpFileWide, IDebugClient5, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, dbgeng/IDebugClient4::GetDumpFileWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -142,10 +142,6 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
 
@@ -155,6 +151,10 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
 
 

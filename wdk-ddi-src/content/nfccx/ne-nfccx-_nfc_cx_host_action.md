@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: CE485A6F-8480-4535-9145-A8CBF78C804D
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], HostActionUnload, _NFC_CX_HOST_ACTION, HostActionStart, HostActionRestart, nfccx/HostActionStart, *PNFC_CX_HOST_ACTION, nfpdrivers.nfc_cx_host_action, nfccx/HostActionStop, nfccx/HostActionRestart, NFC_CX_HOST_ACTION, HostActionStop, nfccx/NFC_CX_HOST_ACTION, nfccx/HostActionUnload
+ms.keywords: nfccx/NFC_CX_HOST_ACTION, HostActionStart, nfccx/HostActionRestart, HostActionStop, NFC_CX_HOST_ACTION, nfccx/HostActionStop, HostActionUnload, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], nfccx/HostActionStart, _NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION, nfccx/HostActionUnload, nfpdrivers.nfc_cx_host_action, HostActionRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

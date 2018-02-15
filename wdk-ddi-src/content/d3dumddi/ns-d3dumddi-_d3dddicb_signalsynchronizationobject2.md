@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cb8df28d-1d44-446b-83a8-b4191213973d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], display.d3dddicb_signalsynchronizationobject2, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2
+ms.keywords: "_D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dddicb_signalsynchronizationobject2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,7 +124,7 @@ This value applies only if the GPU synchronization object is of type <b>D3DDDI_F
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a>
 
 
 
@@ -132,7 +132,7 @@ This value applies only if the GPU synchronization object is of type <b>D3DDDI_F
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
 
 
 

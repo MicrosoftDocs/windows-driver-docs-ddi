@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: AA71D015-B047-497C-A9E1-32E5E73AD0C2
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO, buses._roothub_20port_info, *PROOTHUB_20PORT_INFO, ucxroothub/_ROOTHUB_20PORT_INFO, ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO structure pointer [Buses], ROOTHUB_20PORT_INFO structure [Buses], ucxroothub/P_ROOTHUB_20PORT_INFO"
+ms.keywords: ROOTHUB_20PORT_INFO structure [Buses], ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO, P_ROOTHUB_20PORT_INFO structure pointer [Buses], ucxroothub/P_ROOTHUB_20PORT_INFO, buses._roothub_20port_info, _ROOTHUB_20PORT_INFO, *PROOTHUB_20PORT_INFO, ucxroothub/_ROOTHUB_20PORT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

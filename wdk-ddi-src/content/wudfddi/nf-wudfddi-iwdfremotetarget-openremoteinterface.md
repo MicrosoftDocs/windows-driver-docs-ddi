@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d278cde-3ebe-4fee-86fd-1ec4e79bd837
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFRemoteTarget::OpenRemoteInterface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, umdf.iwdfremotetarget_openremoteinterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface, OpenRemoteInterface method, IWDFRemoteTarget interface, OpenRemoteInterface method, OpenRemoteInterface, IWDFRemoteTarget, wdf.iwdfremotetarget_openremoteinterface, IWDFRemoteTarget interface, OpenRemoteInterface method
+ms.keywords: OpenRemoteInterface method, OpenRemoteInterface method, IWDFRemoteTarget interface, IWDFRemoteTarget, IWDFRemoteTarget interface, OpenRemoteInterface method, wdf.iwdfremotetarget_openremoteinterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface, umdf.iwdfremotetarget_openremoteinterface, IWDFRemoteTarget::OpenRemoteInterface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, OpenRemoteInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

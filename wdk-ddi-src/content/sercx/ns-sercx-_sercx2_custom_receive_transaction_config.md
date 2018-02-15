@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7D9E4F33-FCEE-4783-AE33-DCD3CB0286AE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, 2/PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, serports.sercx2_custom_receive_transaction_config, PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG structure pointer [Serial Ports], _SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG structure [Serial Ports], 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG"
+ms.keywords: SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG structure [Serial Ports], _SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, serports.sercx2_custom_receive_transaction_config, 2/PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG, PSERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG structure pointer [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,15 +114,7 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2Cu
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_initialize.md">EvtSerCx2CustomReceiveTransactionInitialize</a>
-
-
-
 <a href="https://msdn.microsoft.com/C3E446AB-17AA-4FD8-8245-16D95134B0E7">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_cleanup.md">EvtSerCx2CustomReceiveTransactionCleanup</a>
 
 
 
@@ -130,7 +122,15 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2Cu
 
 
 
-<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_cleanup.md">EvtSerCx2CustomReceiveTransactionCleanup</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2_custom_receive_transaction_config_init.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_initialize.md">EvtSerCx2CustomReceiveTransactionInitialize</a>
 
 
 
@@ -138,7 +138,7 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2Cu
 
 
 
-<a href="..\sercx\nf-sercx-sercx2_custom_receive_transaction_config_init.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
 
 
 

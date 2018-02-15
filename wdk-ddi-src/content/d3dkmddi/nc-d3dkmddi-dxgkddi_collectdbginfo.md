@@ -84,7 +84,9 @@ NTSTATUS APIENTRY DxgkDdiCollectDbgInfo(
 ## -returns
 
 
+
 <i>DxgkDdiCollectDbgInfo</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,11 +127,14 @@ Another error prevented the driver from collecting valid debug information.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiCollectDbgInfo</i> function whenever the operating system is about to generate a driver-related debug report. <i>DxgkDdiCollectDbgInfo</i> might be called either immediately before Timeout Detection and Recovery (TDR) work (for more information, see <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetfromtimeout.md">DxgkDdiResetFromTimeout</a>) or immediately before the operating system bug checks. 
@@ -142,13 +147,20 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetfromtimeout.md">DxgkDdiResetFromTimeout</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6435D3B7-A1B7-4417-8272-C505A5FA500E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, display.d3dkmt_opensyncobjectnthandlefromname, d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
+ms.keywords: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], display.d3dkmt_opensyncobjectnthandlefromname, _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b6d96a82-f744-4663-8373-886f4245c106
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_CIPHER_ALGORITHM_LIST, Native_802.11_data_types_704d7a5a-0cf5-459f-af0c-06dfdc936a9e.xml, netvista.dot11_cipher_algorithm_list, PDOT11_CIPHER_ALGORITHM_LIST, windot11/PDOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_CIPHER_ALGORITHM_LIST
+ms.keywords: windot11/PDOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST, Native_802.11_data_types_704d7a5a-0cf5-459f-af0c-06dfdc936a9e.xml, PDOT11_CIPHER_ALGORITHM_LIST, netvista.dot11_cipher_algorithm_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -214,16 +214,16 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
 
 

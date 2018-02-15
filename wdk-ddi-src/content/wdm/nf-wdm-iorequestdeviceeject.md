@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ceaa6793-43ba-4998-827e-8a2c7c892e50
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoRequestDeviceEject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture], k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, wdm/IoRequestDeviceEject, kernel.iorequestdeviceeject
+ms.keywords: kernel.iorequestdeviceeject, IoRequestDeviceEject, wdm/IoRequestDeviceEject, k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,7 +147,7 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
 
 
@@ -159,7 +159,7 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
 
 
 

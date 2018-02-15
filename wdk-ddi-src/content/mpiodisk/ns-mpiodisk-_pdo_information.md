@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26ce460f-b12d-4e5e-994a-047a1853325d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDO_INFORMATION, PPDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices], storage.pdo_information, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml, _PDO_INFORMATION, *PPDO_INFORMATION, mpiodisk/PPDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], mpiodisk/PDO_INFORMATION
+ms.keywords: "*PPDO_INFORMATION, mpiodisk/PDO_INFORMATION, storage.pdo_information, mpiodisk/PPDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], PPDO_INFORMATION structure pointer [Storage Devices], structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml, _PDO_INFORMATION, PDO_INFORMATION, PPDO_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

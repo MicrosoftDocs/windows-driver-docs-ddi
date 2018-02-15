@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F05D67A0-6583-4C3E-B9AA-B99381A18047
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_INFO, _PEP_COMPONENT_PERF_INFO, pepfx/PEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_COMPONENT_PERF_INFO, kernel.pep_component_perf_info, PEP_COMPONENT_PERF_INFO, *PPEP_COMPONENT_PERF_INFO
+ms.keywords: pepfx/PPEP_COMPONENT_PERF_INFO, _PEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO, pepfx/PEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], *PPEP_COMPONENT_PERF_INFO, kernel.pep_component_perf_info, PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,7 +91,7 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
 
 
 
@@ -103,7 +103,7 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a>
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
 
 
 

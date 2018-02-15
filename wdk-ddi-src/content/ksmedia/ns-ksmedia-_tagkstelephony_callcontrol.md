@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 44CA5D9D-EF6E-4681-93EB-B803638896F9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: KSTELEPHONY_CALLCONTROL structure [Audio Devices], _tagKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, KSTELEPHONY_CALLCONTROL, ksmedia/KSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices]
+ms.keywords: KSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices], PKSTELEPHONY_CALLCONTROL, _tagKSTELEPHONY_CALLCONTROL, ksmedia/KSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, *PKSTELEPHONY_CALLCONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

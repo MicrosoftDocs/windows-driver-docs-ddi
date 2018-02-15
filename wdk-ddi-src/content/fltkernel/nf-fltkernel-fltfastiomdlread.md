@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fltfastiomdlread, FltFastIoMdlRead, FsRtlMdlReadDev routine [Installable File System Drivers], FsRtlMdlReadDev, fltkernel/FsRtlMdlReadDev
+ms.keywords: FltFastIoMdlRead, FsRtlMdlReadDev, ifsk.fltfastiomdlread, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,15 +130,15 @@ The routine is similar to <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltfastiomdlreadcomplete.md">FltFastIoMdlReadComplete</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a>
 
 
 

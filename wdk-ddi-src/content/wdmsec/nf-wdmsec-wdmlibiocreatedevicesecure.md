@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F4B06D2E-A024-4F0B-91A2-7A7775AD99DC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdmsec/WdmlibIoCreateDeviceSecure, kernel.wdmlibiocreatedevicesecure, wdmsec/IoCreateDeviceSecure, IoCreateDeviceSecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], WdmlibIoCreateDeviceSecure
+ms.keywords: kernel.wdmlibiocreatedevicesecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], IoCreateDeviceSecure, WdmlibIoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure, wdmsec/IoCreateDeviceSecure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,11 +165,7 @@ If a driver's call to <b>WdmlibIoCreateDeviceSecure</b> returns an error, the dr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -177,15 +173,19 @@ If a driver's call to <b>WdmlibIoCreateDeviceSecure</b> returns an error, the dr
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
 
 

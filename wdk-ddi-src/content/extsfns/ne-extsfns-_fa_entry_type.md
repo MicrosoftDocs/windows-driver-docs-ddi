@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 49E0D15E-4214-421F-9C3F-E7C7A481CA10
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: extsfns/FA_ENTRY_TYPE, DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, _FA_ENTRY_TYPE, DEBUG_FA_ENTRY_NO_TYPE, extsfns/DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, DEBUG_FA_ENTRY_ULONG, extsfns/DEBUG_FA_ENTRY_STRUCTURED_DATA, debugger.fa_entry_type, DEBUG_FA_ENTRY_ULONG64, DEBUG_FA_ENTRY_UNICODE_STRING, DEBUG_FA_ENTRY_POINTER, DEBUG_FA_ENTRY_EXTENSION_CMD, FA_ENTRY_TYPE, extsfns/DEBUG_FA_ENTRY_EXTENSION_CMD, extsfns/DEBUG_FA_ENTRY_ANSI_STRING, extsfns/DEBUG_FA_ENTRY_UNICODE_STRING, extsfns/DEBUG_FA_ENTRY_NO_TYPE, extsfns/DEBUG_FA_ENTRY_ARRAY, extsfns/DEBUG_FA_ENTRY_ULONG64, DEBUG_FA_ENTRY_ANSI_STRING, DEBUG_FA_ENTRY_ARRAY, DEBUG_FA_ENTRY_STRUCTURED_DATA, FA_ENTRY_TYPE enumeration [Windows Debugging], extsfns/DEBUG_FA_ENTRY_POINTER, extsfns/DEBUG_FA_ENTRY_ULONG
+ms.keywords: extsfns/DEBUG_FA_ENTRY_ANSI_STRING, extsfns/DEBUG_FA_ENTRY_UNICODE_STRING, DEBUG_FA_ENTRY_ANSI_STRING, FA_ENTRY_TYPE, extsfns/FA_ENTRY_TYPE, DEBUG_FA_ENTRY_NO_TYPE, extsfns/DEBUG_FA_ENTRY_STRUCTURED_DATA, DEBUG_FA_ENTRY_ARRAY, FA_ENTRY_TYPE enumeration [Windows Debugging], DEBUG_FA_ENTRY_ULONG64, debugger.fa_entry_type, DEBUG_FA_ENTRY_UNICODE_STRING, extsfns/DEBUG_FA_ENTRY_ULONG64, extsfns/DEBUG_FA_ENTRY_ARRAY, DEBUG_FA_ENTRY_EXTENSION_CMD, extsfns/DEBUG_FA_ENTRY_EXTENSION_CMD, extsfns/DEBUG_FA_ENTRY_ULONG, DEBUG_FA_ENTRY_ULONG, extsfns/DEBUG_FA_ENTRY_POINTER, extsfns/DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, DEBUG_FA_ENTRY_STRUCTURED_DATA, DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, DEBUG_FA_ENTRY_POINTER, _FA_ENTRY_TYPE, extsfns/DEBUG_FA_ENTRY_NO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -133,15 +133,15 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTag</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
 
 
 
@@ -149,7 +149,7 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTag</a>
 
 
 

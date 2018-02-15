@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 92161111-5e02-4a97-9656-9a297e9ea1af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint interface [Windows Debugging], AddFlags method, dbgeng/IDebugBreakpoint::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::AddFlags, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, IDebugBreakpoint2, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint, IDebugBreakpoint::AddFlags, debugger.addflags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, AddFlags method [Windows Debugging], AddFlags
+ms.keywords: AddFlags method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::AddFlags, debugger.addflags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, IDebugBreakpoint interface [Windows Debugging], AddFlags method, IDebugBreakpoint::AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint2::AddFlags, IDebugBreakpoint, dbgeng/IDebugBreakpoint::AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, AddFlags, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

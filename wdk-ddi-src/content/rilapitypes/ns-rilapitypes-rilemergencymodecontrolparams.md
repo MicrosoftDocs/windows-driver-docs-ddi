@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 240414c7-c035-462c-8319-d7ac192c712a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilemergencymodecontrolparams_2, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS, rilapitypes/RILEMERGENCYMODECONTROLPARAMS
+ms.keywords: "*LPRILEMERGENCYMODECONTROLPARAMS, netvista.rilemergencymodecontrolparams_2, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d9755557-6d5d-4ef0-b868-f05e5b82da78
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdriverwdmgetdriverobject, DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, wdfdriver/WdfDriverWdmGetDriverObject, kmdf.wdfdriverwdmgetdriverobject, WdfDriverWdmGetDriverObject, WdfDriverWdmGetDriverObject method, PFN_WDFDRIVERWDMGETDRIVEROBJECT
+ms.keywords: PFN_WDFDRIVERWDMGETDRIVEROBJECT, WdfDriverWdmGetDriverObject method, wdf.wdfdriverwdmgetdriverobject, wdfdriver/WdfDriverWdmGetDriverObject, WdfDriverWdmGetDriverObject, kmdf.wdfdriverwdmgetdriverobject, DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ pDrvObj = WdfDriverWdmGetDriverObject(Driver);</pre>
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 

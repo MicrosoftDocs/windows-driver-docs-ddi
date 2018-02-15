@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3884eb16-56a0-4b48-abf3-a74794b2c996
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KeQueryActiveProcessorCountEx, k105_7cd9a091-c100-4b0c-9ea0-9b831407d5a1.xml, KeQueryActiveProcessorCountEx, KeQueryActiveProcessorCountEx routine [Kernel-Mode Driver Architecture], kernel.kequeryactiveprocessorcountex
+ms.keywords: kernel.kequeryactiveprocessorcountex, KeQueryActiveProcessorCountEx routine [Kernel-Mode Driver Architecture], k105_7cd9a091-c100-4b0c-9ea0-9b831407d5a1.xml, KeQueryActiveProcessorCountEx, wdm/KeQueryActiveProcessorCountEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

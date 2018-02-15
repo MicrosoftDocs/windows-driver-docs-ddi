@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 23FEA770-12E1-44EC-901D-5C660F5F054A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxInit, PosCxInit function, pos.poscxinit, PosCxInit
+ms.keywords: pos.poscxinit, PosCxInit, PosCxInit function, poscx/PosCxInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

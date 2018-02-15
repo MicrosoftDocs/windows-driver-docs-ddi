@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8B07B225-D612-47D2-B93C-7F9E3A23ACE1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchPortPvlanModeUndefined, *PNDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModeIsolated, ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModePromiscuous, NdisSwitchPortPvlanModeCommunity, ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeCommunity, NdisSwitchPortPvlanModePromiscuous, ntddndis/NdisSwitchPortPvlanModeUndefined, ntddndis/NdisSwitchPortPvlanModeIsolated, _NDIS_SWITCH_PORT_PVLAN_MODE, PNDIS_SWITCH_PORT_PVLAN_MODE, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_port_pvlan_mode, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisSwitchPortPvlanModeUndefined, NdisSwitchPortPvlanModeIsolated, ntddndis/NdisSwitchPortPvlanModeCommunity, ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeUndefined, NdisSwitchPortPvlanModeCommunity, ntddndis/NdisSwitchPortPvlanModePromiscuous, NdisSwitchPortPvlanModePromiscuous, PNDIS_SWITCH_PORT_PVLAN_MODE, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, *PNDIS_SWITCH_PORT_PVLAN_MODE, _NDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeIsolated, netvista.ndis_switch_port_pvlan_mode, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -110,11 +110,11 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
 
 
 

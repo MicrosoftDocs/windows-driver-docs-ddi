@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d1d6407-f853-48d5-bd54-2eacece48b84
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: "_ACCESS_STATE, PACCESS_STATE, ifsk.access_state, PACCESS_STATE structure pointer [Installable File System Drivers], securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, *PACCESS_STATE, ACCESS_STATE structure [Installable File System Drivers], wdm/PACCESS_STATE, wdm/ACCESS_STATE, ACCESS_STATE"
+ms.keywords: ACCESS_STATE, ACCESS_STATE structure [Installable File System Drivers], securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, ifsk.access_state, PACCESS_STATE, *PACCESS_STATE, wdm/PACCESS_STATE, wdm/ACCESS_STATE, _ACCESS_STATE, PACCESS_STATE structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -180,43 +180,7 @@ A <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structur
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
 
 
 
@@ -224,11 +188,47 @@ A <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
 
 
 
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 

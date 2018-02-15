@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e106a176-b7f9-4812-9995-a23246439b23
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: TerminateProcesses method [Windows Debugging], IDebugClient2 interface, IDebugClient2 interface [Windows Debugging], TerminateProcesses method, IDebugClient4::TerminateProcesses, TerminateProcesses method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient5::TerminateProcesses, TerminateProcesses method [Windows Debugging], IDebugClient interface [Windows Debugging], TerminateProcesses method, TerminateProcesses method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], TerminateProcesses method, debugger.terminateprocesses, IDebugClient2, IDebugClient5 interface [Windows Debugging], TerminateProcesses method, IDebugClient4, IDebugClient_6bbf21ae-e69b-4f44-a4e7-9b5abe428903.xml, dbgeng/IDebugClient3::TerminateProcesses, TerminateProcesses method [Windows Debugging], IDebugClient4 interface, IDebugClient2::TerminateProcesses, IDebugClient3, TerminateProcesses method [Windows Debugging], IDebugClient interface, IDebugClient4 interface [Windows Debugging], TerminateProcesses method, IDebugClient5::TerminateProcesses, IDebugClient, IDebugClient::TerminateProcesses, dbgeng/IDebugClient::TerminateProcesses, dbgeng/IDebugClient2::TerminateProcesses, TerminateProcesses, dbgeng/IDebugClient4::TerminateProcesses, IDebugClient3::TerminateProcesses
+ms.keywords: TerminateProcesses method [Windows Debugging], IDebugClient interface, TerminateProcesses, dbgeng/IDebugClient::TerminateProcesses, debugger.terminateprocesses, IDebugClient3, TerminateProcesses method [Windows Debugging], IDebugClient3 interface, IDebugClient, IDebugClient5::TerminateProcesses, IDebugClient interface [Windows Debugging], TerminateProcesses method, IDebugClient2::TerminateProcesses, dbgeng/IDebugClient2::TerminateProcesses, TerminateProcesses method [Windows Debugging], IDebugClient5 interface [Windows Debugging], TerminateProcesses method, IDebugClient3::TerminateProcesses, IDebugClient3 interface [Windows Debugging], TerminateProcesses method, IDebugClient2, TerminateProcesses method [Windows Debugging], IDebugClient4 interface, IDebugClient4::TerminateProcesses, TerminateProcesses method [Windows Debugging], IDebugClient2 interface, IDebugClient4 interface [Windows Debugging], TerminateProcesses method, IDebugClient::TerminateProcesses, IDebugClient_6bbf21ae-e69b-4f44-a4e7-9b5abe428903.xml, dbgeng/IDebugClient3::TerminateProcesses, dbgeng/IDebugClient4::TerminateProcesses, IDebugClient2 interface [Windows Debugging], TerminateProcesses method, IDebugClient4, dbgeng/IDebugClient5::TerminateProcesses, TerminateProcesses method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,7 +112,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 
 
@@ -121,14 +121,6 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563855">.kill (Kill Process)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541851">DetachProcesses</a>
 
 
 
@@ -144,11 +136,19 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563855">.kill (Kill Process)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541851">DetachProcesses</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

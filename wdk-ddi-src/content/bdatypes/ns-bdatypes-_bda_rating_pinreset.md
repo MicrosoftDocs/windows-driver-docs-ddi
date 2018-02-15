@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 237463EC-3C57-4DCA-9757-870B5F55C584
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PBDA_RATING_PINRESET, stream.bda_rating_pinreset, bdatypes/PBDA_RATING_PINRESET, BDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], _BDA_RATING_PINRESET, bdatypes/BDA_RATING_PINRESET, PBDA_RATING_PINRESET, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices]"
+ms.keywords: "_BDA_RATING_PINRESET, *PBDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], stream.bda_rating_pinreset, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices], BDA_RATING_PINRESET, bdatypes/PBDA_RATING_PINRESET, PBDA_RATING_PINRESET, bdatypes/BDA_RATING_PINRESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

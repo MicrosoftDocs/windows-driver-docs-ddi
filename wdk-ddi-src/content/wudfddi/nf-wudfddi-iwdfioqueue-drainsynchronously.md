@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dc32dd7-e15b-4c93-92d1-5b7206ed98c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DrainSynchronously method, wudfddi/IWDFIoQueue::DrainSynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, DrainSynchronously, wdf.iwdfioqueue_drainsynchronously, IWDFIoQueue::DrainSynchronously, DrainSynchronously method, IWDFIoQueue interface, IWDFIoQueue, IWDFIoQueue interface, DrainSynchronously method, umdf.iwdfioqueue_drainsynchronously
+ms.keywords: wudfddi/IWDFIoQueue::DrainSynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, DrainSynchronously, DrainSynchronously method, umdf.iwdfioqueue_drainsynchronously, IWDFIoQueue, wdf.iwdfioqueue_drainsynchronously, IWDFIoQueue::DrainSynchronously, IWDFIoQueue interface, DrainSynchronously method, DrainSynchronously method, IWDFIoQueue interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

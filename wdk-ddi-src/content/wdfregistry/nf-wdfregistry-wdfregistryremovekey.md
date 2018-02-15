@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b23d1c2f-15f0-4b9e-8a10-9b81056fa509
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRegistryRemoveKey, wdfregistry/WdfRegistryRemoveKey, kmdf.wdfregistryremovekey, WdfRegistryRemoveKey method, DFRegKeyObjectRef_448264d5-1720-46e3-b493-b195825db91f.xml, wdf.wdfregistryremovekey
+ms.keywords: WdfRegistryRemoveKey method, WdfRegistryRemoveKey, wdfregistry/WdfRegistryRemoveKey, kmdf.wdfregistryremovekey, wdf.wdfregistryremovekey, DFRegKeyObjectRef_448264d5-1720-46e3-b493-b195825db91f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfunifiedpropertystore_getpropertydata, GetPropertyData, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, GetPropertyData method, GetPropertyData method, IWDFUnifiedPropertyStore interface, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
+ms.keywords: wdf.iwdfunifiedpropertystore_getpropertydata, IWDFUnifiedPropertyStore, GetPropertyData, IWDFUnifiedPropertyStore interface, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, GetPropertyData method, IWDFUnifiedPropertyStore interface, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData, GetPropertyData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -300,11 +300,11 @@ exit:
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
 
 
 
@@ -316,11 +316,11 @@ exit:
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
 
 
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
 
 

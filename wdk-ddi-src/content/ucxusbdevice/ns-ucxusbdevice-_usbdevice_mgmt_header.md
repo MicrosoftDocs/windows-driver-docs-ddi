@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E3CDED41-FE83-4CBC-9FF8-4858125F7108
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses._usbdevice_mgmt_header, USBDEVICE_MGMT_HEADER structure [Buses], P_USBDEVICE_MGMT_HEADER, USBDEVICE_MGMT_HEADER, ucxusbdevice/P_USBDEVICE_MGMT_HEADER, *PUSBDEVICE_MGMT_HEADER, ucxusbdevice/_USBDEVICE_MGMT_HEADER, P_USBDEVICE_MGMT_HEADER structure pointer [Buses], _USBDEVICE_MGMT_HEADER
+ms.keywords: "_USBDEVICE_MGMT_HEADER, P_USBDEVICE_MGMT_HEADER structure pointer [Buses], USBDEVICE_MGMT_HEADER, ucxusbdevice/P_USBDEVICE_MGMT_HEADER, USBDEVICE_MGMT_HEADER structure [Buses], P_USBDEVICE_MGMT_HEADER, ucxusbdevice/_USBDEVICE_MGMT_HEADER, *PUSBDEVICE_MGMT_HEADER, buses._usbdevice_mgmt_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

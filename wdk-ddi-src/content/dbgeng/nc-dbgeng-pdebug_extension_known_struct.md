@@ -81,13 +81,10 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 ### -param Flags
 
 
-
 ### -param Offset
 
 
-
 ### -param TypeName
-
 
 
 ### -param Buffer [out]
@@ -106,9 +103,30 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 
 
 
+
+
+#### - Address [in]
+
+<b>When getting a list of names:</b> Unused.
+
+<b>When asking whether a name should be printed:</b> Unused.
+
+<b>When getting a single-line representation:</b>  Specifies the location in the target's memory address space of the structure to be printed.
+
+
+#### - BufferSize [in, out]
+
+<b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
+
+<b>When asking whether a name should be printed:</b> Unused.
+
+<b>When getting a single-line representation:</b>  On input, specifies the size, in characters, of <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
+
+
 #### - Flag [in]
 
 One of the following values, depending on what information the engine wants to obtain from the extension DLL.
+
 <table>
 <tr>
 <th>Value</th>
@@ -144,16 +162,8 @@ Get  a single-line representation of a structure.
 
 </td>
 </tr>
-</table> 
-
-
-#### - Address [in]
-
-<b>When getting a list of names:</b> Unused.
-
-<b>When asking whether a name should be printed:</b> Unused.
-
-<b>When getting a single-line representation:</b>  Specifies the location in the target's memory address space of the structure to be printed.
+</table>
+ 
 
 
 #### - StructName [in]
@@ -165,16 +175,8 @@ Get  a single-line representation of a structure.
 <b>When getting a single-line representation:</b>  Specifies the name of the structure.  This is one of the names returned from the DEBUG_KNOWN_STRUCT_GET_NAMES query.
 
 
-#### - BufferSize [in, out]
-
-<b>When getting a list of names:</b>  On input, specifies the size, in characters, of  <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
-
-<b>When asking whether a name should be printed:</b> Unused.
-
-<b>When getting a single-line representation:</b>  On input, specifies the size, in characters, of <i>Buffer</i>. On output, if the buffer is too small, receives the required buffer size.
-
-
 ## -returns
+
 
 
 <table>
@@ -212,13 +214,16 @@ Get  a single-line representation of a structure.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 All other return values indicate that the function failed.  The engine will continue ignoring the contents of <i>Buffer</i>.
 
 
 
+
 ## -remarks
+
 
 
 This function is optional.  An extension DLL only needs to export <b>KnownStructOutput</b> if it has the ability to format special structures for printing on a single line.  The engine looks for this function by name in the extension DLL.
@@ -230,9 +235,12 @@ After initializing the extension DLL, the engine calls this function to query th
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d6567f1-9e2a-405f-ae8d-eb531cc29275
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetFileObject method, IWDFIoRequest interface, IWDFIoRequest interface, GetFileObject method, umdf.iwdfiorequest_getfileobject, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, GetFileObject, wudfddi/IWDFIoRequest::GetFileObject, IWDFIoRequest::GetFileObject, GetFileObject method, wdf.iwdfiorequest_getfileobject, IWDFIoRequest
+ms.keywords: wdf.iwdfiorequest_getfileobject, umdf.iwdfiorequest_getfileobject, IWDFIoRequest::GetFileObject, GetFileObject method, GetFileObject method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::GetFileObject, GetFileObject, IWDFIoRequest, UMDFRequestObjectRef_50a8506d-039a-448a-8459-30e89ac1021c.xml, IWDFIoRequest interface, GetFileObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,11 +123,11 @@ The following code example is taken from the WpdMultiTransportDriver sample in t
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

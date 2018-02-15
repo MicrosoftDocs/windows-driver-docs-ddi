@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1341c0c6-f943-4f94-8535-8b6cc7b5c27e
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltOplockBreakH routine [Installable File System Drivers], ifsk.fltoplockbreakh, fltkernel/FltOplockBreakH, FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH
+ms.keywords: FltOplockBreakH, ifsk.fltoplockbreakh, FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH routine [Installable File System Drivers], fltkernel/FltOplockBreakH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

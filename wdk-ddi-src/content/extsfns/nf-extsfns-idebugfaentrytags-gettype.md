@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CE43711F-E17B-4234-A885-4FE04EA53903
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: extsfns/IDebugFAEntryTags::GetType, GetType method [Windows Debugging], IDebugFAEntryTags::GetType, GetType method [Windows Debugging], IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging], GetType method, debugger.idebugfaentrytags_gettype, IDebugFAEntryTags, GetType
+ms.keywords: IDebugFAEntryTags::GetType, GetType method [Windows Debugging], extsfns/IDebugFAEntryTags::GetType, debugger.idebugfaentrytags_gettype, IDebugFAEntryTags, GetType method [Windows Debugging], IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging], GetType method, GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -83,11 +83,7 @@ A value in the <a href="..\extsfns\ne-extsfns-_fa_entry_type.md">FA_ENTRY_TYPE</
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a>
 
 
 
@@ -95,7 +91,11 @@ A value in the <a href="..\extsfns\ne-extsfns-_fa_entry_type.md">FA_ENTRY_TYPE</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
+<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
 
 

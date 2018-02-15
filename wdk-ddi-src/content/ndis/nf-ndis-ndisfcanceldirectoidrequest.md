@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 05cbeca1-7420-41c6-8868-980b265523db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfcanceldirectoidrequest, NdisFCancelDirectOidRequest, ndis_request_direct_ref_48dc16f9-1c11-41de-9c37-91abed86b06c.xml, NdisFCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelDirectOidRequest
+ms.keywords: NdisFCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelDirectOidRequest, NdisFCancelDirectOidRequest, ndis_request_direct_ref_48dc16f9-1c11-41de-9c37-91abed86b06c.xml, netvista.ndisfcanceldirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,7 +114,8 @@ The filter driver can call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
+   FilterCancelDirectOidRequest</a>
 
 
 
@@ -122,12 +123,11 @@ The filter driver can call
 
 
 
-<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
-   FilterCancelDirectOidRequest</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
 
 
 

@@ -84,11 +84,14 @@ NTSTATUS APIENTRY DxgkDdiStopCapture(
 ## -returns
 
 
+
 <i>DxgkDdiStopCapture</i> returns STATUS_SUCCESS, or an appropriate error result if the allocation is not successfully stopped.
 
 
 
+
 ## -remarks
+
 
 
 When a capture buffer is destroyed, the DirectX graphics kernel subsystem calls the <i>DxgkDdiStopCapture</i> function to inform the display miniport driver to stop the capture hardware from using the allocation as the capture buffer. If the capture hardware already stopped using the allocation, the driver should ignore the call.
@@ -97,11 +100,16 @@ When a capture buffer is destroyed, the DirectX graphics kernel subsystem calls 
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_stopcapture.md">DXGKARG_STOPCAPTURE</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_stopcapture.md">DXGKARG_STOPCAPTURE</a>
+
 
  
 

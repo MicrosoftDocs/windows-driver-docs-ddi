@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 14ed4180-9ac1-46dd-af76-8d79a2a1fd2d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PIPPARAMS structure pointer [Print Devices], printoem/PIPPARAMS, printoem/IPPARAMS, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, IPPARAMS, IPPARAMS structure [Print Devices], *PIPPARAMS, PIPPARAMS, print.ipparams
+ms.keywords: "*PIPPARAMS, PIPPARAMS, IPPARAMS structure [Print Devices], printoem/PIPPARAMS, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, IPPARAMS, printoem/IPPARAMS, PIPPARAMS structure pointer [Print Devices], print.ipparams"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

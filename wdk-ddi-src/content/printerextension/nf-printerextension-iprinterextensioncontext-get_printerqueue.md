@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 304C8AF5-EA4E-4401-A8EC-6E1B279038E8
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprinterextensioncontext_printerqueue, IPrinterExtensionContext.PrinterQueue, printerextension/IPrinterExtensionContext::get_PrinterQueue, IPrinterExtensionContext, PrinterQueue property [Print Devices], printerextension/IPrinterExtensionContext::PrinterQueue, PrinterQueue property [Print Devices], IPrinterExtensionContext interface, IPrinterExtensionContext::get_PrinterQueue, get_PrinterQueue, IPrinterExtensionContext interface [Print Devices], PrinterQueue property
+ms.keywords: IPrinterExtensionContext interface [Print Devices], PrinterQueue property, print.iprinterextensioncontext_printerqueue, get_PrinterQueue, printerextension/IPrinterExtensionContext::PrinterQueue, IPrinterExtensionContext, IPrinterExtensionContext::get_PrinterQueue, PrinterQueue property [Print Devices], PrinterQueue property [Print Devices], IPrinterExtensionContext interface, IPrinterExtensionContext.PrinterQueue, printerextension/IPrinterExtensionContext::get_PrinterQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_PrinterQueue(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
 
 

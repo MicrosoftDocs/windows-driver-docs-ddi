@@ -83,6 +83,8 @@ A handle to a context block associated with a display adapter. The display minip
 
 
 
+
+
 #### - pRecommendFunctionalVidPnArg [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendfunctionalvidpn.md">DXGKARG_RECOMMENDFUNCTIONALVIDPN</a> structure that contains function arguments. The caller supplies the <b>hRecommendedFunctionalVidPn</b> member, which is a handle to an empty VidPN object. <i>DxgkDdiRecommendFunctionalVidPn</i> populates the VidPN object with the elements of a functional VidPN: topology, mode sets, pinned modes.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendfunctionalvidp
 ## -returns
 
 
+
 <i>DxgkDdiRecommendFunctionalVidPn </i>returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,14 +134,18 @@ The function failed because it was unable to allocate memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A VidPN is functional if it satisfies the following conditions:
+
 <ul>
 <li>
 It has a topology that has at least one path. (A path is an association between a source and a target.)
@@ -147,7 +155,9 @@ It has a topology that has at least one path. (A path is an association between 
 Every source and target in the topology has a pinned mode.
 
 </li>
-</ul>The job of <i>DxgkDdiRecommendFunctionalVidPn</i> is to create a functional VidPN that can be implemented on the display adapter. The following list gives the steps used to create a functional VidPN.
+</ul>
+The job of <i>DxgkDdiRecommendFunctionalVidPn</i> is to create a functional VidPN that can be implemented on the display adapter. The following list gives the steps used to create a functional VidPN.
+
 <ol>
 <li>
 Start with a handle to an empty VidPN object. This handle was supplied in the <b>hDesiredVidPn</b> member of <i>pRecommendFunctionalVidPnArg.</i>
@@ -165,8 +175,10 @@ Create a new source mode set and add one source mode to the set. Assign the sour
 Create a new target mode set and add one target mode to the set. Assign the target mode set to the target in your path. Pin the target mode.
 
 </li>
-</ol>For information about how to add paths, add mode sets, assign modes, and pin modes, see <a href="https://msdn.microsoft.com/5dedac8c-9a99-4b3a-81be-39819135cd97">VidPN Objects and Interfaces</a>.
+</ol>
+For information about how to add paths, add mode sets, assign modes, and pin modes, see <a href="https://msdn.microsoft.com/5dedac8c-9a99-4b3a-81be-39819135cd97">VidPN Objects and Interfaces</a>.
 
 <i>DxgkDdiRecommendFunctionalVidPn</i> should be made pageable.
+
 
 

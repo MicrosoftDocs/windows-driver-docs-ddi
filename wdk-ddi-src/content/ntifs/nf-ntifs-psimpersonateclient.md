@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 69cc1253-07eb-43cf-abc7-5ad02ecb014d
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: PsImpersonateClient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml, ifsk.psimpersonateclient, PsImpersonateClient routine [Installable File System Drivers], ntifs/PsImpersonateClient
+ms.keywords: ntifs/PsImpersonateClient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml, PsImpersonateClient routine [Installable File System Drivers], PsImpersonateClient, ifsk.psimpersonateclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,11 +162,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psreverttoself.md">PsRevertToSelf</a>
-
-
-
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
@@ -178,7 +174,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="..\ntifs\nf-ntifs-psreverttoself.md">PsRevertToSelf</a>
+
+
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: daf84d1a-d499-4a6e-be87-39fd16f3d87d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, SetMinimalLineWidth method [Print Devices], xpsrassvc/IXpsRasterizer::SetMinimalLineWidth, print.ixpsrasterizer_setminimallinewidth, SetMinimalLineWidth, IXpsRasterizer, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, IXpsRasterizer::SetMinimalLineWidth
+ms.keywords: IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, print.ixpsrasterizer_setminimallinewidth, IXpsRasterizer, SetMinimalLineWidth, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, IXpsRasterizer::SetMinimalLineWidth, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, SetMinimalLineWidth method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,7 +93,7 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
 
 
 
@@ -105,7 +105,7 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 

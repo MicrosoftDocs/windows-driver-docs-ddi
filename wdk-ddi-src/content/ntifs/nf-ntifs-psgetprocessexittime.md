@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml, ntifs/PsGetProcessExitTime, ifsk.psgetprocessexittime, PsGetProcessExitTime routine [Installable File System Drivers], PsGetProcessExitTime
+ms.keywords: psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml, PsGetProcessExitTime, PsGetProcessExitTime routine [Installable File System Drivers], ifsk.psgetprocessexittime, ntifs/PsGetProcessExitTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,15 +93,15 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-psisthreadterminating.md">PsIsThreadTerminating</a>
-
-
-
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 
 

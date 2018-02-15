@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 6f5521f4-44da-4470-b649-d98c1d4e4891
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbspec/PUSB_HUB_DESCRIPTOR, usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml, PUSB_HUB_DESCRIPTOR structure pointer [Buses], PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], buses.usb_hub_descriptor, _USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR, usbspec/USB_HUB_DESCRIPTOR
+ms.keywords: buses.usb_hub_descriptor, *PUSB_HUB_DESCRIPTOR, usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml, USB_HUB_DESCRIPTOR structure [Buses], PUSB_HUB_DESCRIPTOR structure pointer [Buses], PUSB_HUB_DESCRIPTOR, _USB_HUB_DESCRIPTOR, usbspec/USB_HUB_DESCRIPTOR, usbspec/PUSB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ This member implements DeviceRemovable and PortPwrCtrlMask fields of the hub des
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information.md">USB_HUB_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

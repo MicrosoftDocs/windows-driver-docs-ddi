@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 33076a24-8856-4533-b4ab-ec1d7bdb083d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, _D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices]
+ms.keywords: UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, _D3DDDIARG_CREATEEXTENSIONDEVICE, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices], D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 0860733c-d28c-4916-a743-d5f6256cfca0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_GetSpecificValueCaps, HidP_GetSpecificValueCaps, hid.hidp_getspecificvaluecaps, hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, HidP_GetSpecificValueCaps routine [Human Input Devices]
+ms.keywords: hid.hidp_getspecificvaluecaps, HidP_GetSpecificValueCaps routine [Human Input Devices], hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, HidP_GetSpecificValueCaps, hidpi/HidP_GetSpecificValueCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,15 +173,15 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
-
-
-
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
 
 

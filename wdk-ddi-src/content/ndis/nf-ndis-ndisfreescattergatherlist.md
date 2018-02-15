@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 140be989-e578-4bfe-8b9e-56abb274933a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisFreeScatterGatherList, netvista.ndisfreescattergatherlist, NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml
+ms.keywords: NdisFreeScatterGatherList, ndis/NdisFreeScatterGatherList, ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ NDIS drivers call the
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
+
+
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 
 

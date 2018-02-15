@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 205936c3-fb5a-48e7-8f13-328563c2f0d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DDICERTIFICATEINFO, DDICERTIFICATEINFO, D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, _DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], display.ddicertificateinfo
+ms.keywords: DDICERTIFICATEINFO structure [Display Devices], d3dumddi/DDICERTIFICATEINFO, _DDICERTIFICATEINFO, display.ddicertificateinfo, DDICERTIFICATEINFO, D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,11 +103,11 @@ The runtime specifies a pointer to a DDICERTIFICATEINFO structure in the <b>pInf
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddi_certificatetype.md">D3DDDI_CERTIFICATETYPE</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
+
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddi_certificatetype.md">D3DDDI_CERTIFICATETYPE</a>
 
 
 

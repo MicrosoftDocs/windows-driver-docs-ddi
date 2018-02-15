@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f8aacb6d-4e8a-4fdb-902c-3d0efbc40f08
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winppi/GdiGetDC, GdiGetDC, GdiGetDC function [Print Devices], print.gdigetdc, gdifnc_4129439c-9cb6-46d3-8659-d12438841bb5.xml
+ms.keywords: GdiGetDC, GdiGetDC function [Print Devices], winppi/GdiGetDC, gdifnc_4129439c-9cb6-46d3-8659-d12438841bb5.xml, print.gdigetdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

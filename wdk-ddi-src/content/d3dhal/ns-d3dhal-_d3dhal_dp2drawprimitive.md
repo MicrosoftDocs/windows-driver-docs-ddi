@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dd56465-e9e8-4a79-8533-a1777cf4d8a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2DRAWPRIMITIVE structure pointer [Display Devices], d3dstrct_2736a73d-52f8-4647-86c3-2c362dc3f669.xml, LPD3DHAL_DP2DRAWPRIMITIVE, display.d3dhal_dp2drawprimitive, *LPD3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE structure [Display Devices], d3dhal/D3DHAL_DP2DRAWPRIMITIVE, _D3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE
+ms.keywords: d3dhal/D3DHAL_DP2DRAWPRIMITIVE, *LPD3DHAL_DP2DRAWPRIMITIVE, d3dstrct_2736a73d-52f8-4647-86c3-2c362dc3f669.xml, D3DHAL_DP2DRAWPRIMITIVE structure [Display Devices], LPD3DHAL_DP2DRAWPRIMITIVE structure pointer [Display Devices], LPD3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE, display.d3dhal_dp2drawprimitive, _D3DHAL_DP2DRAWPRIMITIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,15 +103,15 @@ D3DDP2OP_DRAWPRIMITIVE
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

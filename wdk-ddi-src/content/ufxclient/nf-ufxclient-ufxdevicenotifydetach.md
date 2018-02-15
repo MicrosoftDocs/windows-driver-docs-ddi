@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 890C7451-D9BF-4019-ABBE-D97446728E6B
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UfxDeviceNotifyDetach method [Buses], ufxclient/UfxDeviceNotifyDetach, buses.ufxdevicenotifydetach, UfxDeviceNotifyDetach
+ms.keywords: ufxclient/UfxDeviceNotifyDetach, UfxDeviceNotifyDetach method [Buses], buses.ufxdevicenotifydetach, UfxDeviceNotifyDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

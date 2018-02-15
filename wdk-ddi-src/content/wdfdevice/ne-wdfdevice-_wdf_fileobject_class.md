@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0887061-eafe-4dba-bb7a-58bf949e2d08
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFileObjectCanBeOptional, *PWDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectCanBeOptional, WdfFileObjectWdfCanUseFsContext2, wdf.wdf_fileobject_class, PWDF_FILEOBJECT_CLASS enumeration pointer, WDF_FILEOBJECT_CLASS enumeration, WdfFileObjectInvalid, PWDF_FILEOBJECT_CLASS, wdfdevice/WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectWdfCanUseFsContext2, WdfFileObjectNotRequired, wdfdevice/WdfFileObjectInvalid, WdfFileObjectWdfCanUseFsContext, wdfdevice/WdfFileObjectNotRequired, WdfFileObjectWdfCannotUseFsContexts, wdfdevice/PWDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectWdfCannotUseFsContexts, kmdf.wdf_fileobject_class, _WDF_FILEOBJECT_CLASS, WDF_FILEOBJECT_CLASS, DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml, wdfdevice/WdfFileObjectWdfCanUseFsContext
+ms.keywords: DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml, PWDF_FILEOBJECT_CLASS, WdfFileObjectInvalid, wdfdevice/WdfFileObjectWdfCannotUseFsContexts, PWDF_FILEOBJECT_CLASS enumeration pointer, WdfFileObjectWdfCanUseFsContext2, wdfdevice/WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectWdfCanUseFsContext2, _WDF_FILEOBJECT_CLASS, wdf.wdf_fileobject_class, WdfFileObjectWdfCannotUseFsContexts, wdfdevice/WdfFileObjectWdfCanUseFsContext, WDF_FILEOBJECT_CLASS enumeration, kmdf.wdf_fileobject_class, wdfdevice/WdfFileObjectCanBeOptional, wdfdevice/WdfFileObjectNotRequired, WdfFileObjectNotRequired, *PWDF_FILEOBJECT_CLASS, wdfdevice/PWDF_FILEOBJECT_CLASS, WdfFileObjectWdfCanUseFsContext, wdfdevice/WdfFileObjectInvalid, WDF_FILEOBJECT_CLASS, WdfFileObjectCanBeOptional
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

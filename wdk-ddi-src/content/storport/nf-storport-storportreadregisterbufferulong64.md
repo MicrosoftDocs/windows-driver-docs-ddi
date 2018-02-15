@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 585EE323-99EC-4367-8D97-CB554D695C11
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadRegisterBufferUlong64 routine [Storage Devices], StorPortReadRegisterBufferUlong64, storage.storportreadregisterbufferulong64, storport/StorPortReadRegisterBufferUlong64
+ms.keywords: storport/StorPortReadRegisterBufferUlong64, storage.storportreadregisterbufferulong64, StorPortReadRegisterBufferUlong64 routine [Storage Devices], StorPortReadRegisterBufferUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -95,11 +95,6 @@ TBD
 
 
 
-#### - Register [in]
-
-Pointer to the register where the data is to be read. The register must be a mapped range in memory space
-
-
 #### - Buffer [out]
 
 Pointer to the buffer that receives the data that is read.
@@ -108,6 +103,11 @@ Pointer to the buffer that receives the data that is read.
 #### - Count [in]
 
 Specifies the number of data values to read. Each data item has a size of <b>sizeof</b>(ULONG64). 
+
+
+#### - Register [in]
+
+Pointer to the register where the data is to be read. The register must be a mapped range in memory space
 
 
 ## -remarks

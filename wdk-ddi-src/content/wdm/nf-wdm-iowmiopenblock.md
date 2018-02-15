@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIOpenBlock, kernel.iowmiopenblock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, wdm/IoWMIOpenBlock
+ms.keywords: IoWMIOpenBlock, wdm/IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,11 +142,11 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
+<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
 
 
 
@@ -154,7 +154,7 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 
 
-<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
+<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
 
 
 
@@ -162,7 +162,11 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 
 
-<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
+<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
 
 
@@ -170,11 +174,7 @@ Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to cl
 
 
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+<a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
 
 
 

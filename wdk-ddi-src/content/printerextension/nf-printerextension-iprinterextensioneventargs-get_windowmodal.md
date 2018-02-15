@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 606FF5E7-CCC1-4227-8917-F5DF3ECB31A6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprinterextensioneventargs_windowmodal, WindowModal property [Print Devices], IPrinterExtensionEventArgs interface, printerextension/IPrinterExtensionEventArgs::WindowModal, printerextension/IPrinterExtensionEventArgs::get_WindowModal, IPrinterExtensionEventArgs, IPrinterExtensionEventArgs.WindowModal, WindowModal property [Print Devices], IPrinterExtensionEventArgs interface [Print Devices], WindowModal property, get_WindowModal, IPrinterExtensionEventArgs::get_WindowModal
+ms.keywords: IPrinterExtensionEventArgs.WindowModal, print.iprinterextensioneventargs_windowmodal, IPrinterExtensionEventArgs interface [Print Devices], WindowModal property, printerextension/IPrinterExtensionEventArgs::WindowModal, printerextension/IPrinterExtensionEventArgs::get_WindowModal, WindowModal property [Print Devices], IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs, WindowModal property [Print Devices], IPrinterExtensionEventArgs::get_WindowModal, get_WindowModal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

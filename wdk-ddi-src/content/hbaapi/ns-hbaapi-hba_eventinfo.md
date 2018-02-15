@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc6b73ac-f86c-4978-9d71-9bd8398c116b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PHBA_EVENTINFO, HBA_EventInfo structure [Storage Devices], *PHBA_EVENTINFO, structs-Fibre_6885fdc8-d2ce-40b3-ba2a-2e423f287780.xml, hbaapi/HBA_EventInfo, hbaapi/PHBA_EVENTINFO, PHBA_EVENTINFO structure pointer [Storage Devices], HBA_EventInfo, storage.hba_eventinfo, HBA_EVENTINFO, HBA_EVENTINFO structure [Storage Devices]
+ms.keywords: HBA_EventInfo, HBA_EVENTINFO, PHBA_EVENTINFO, *PHBA_EVENTINFO, PHBA_EVENTINFO structure pointer [Storage Devices], structs-Fibre_6885fdc8-d2ce-40b3-ba2a-2e423f287780.xml, hbaapi/HBA_EventInfo, HBA_EVENTINFO structure [Storage Devices], hbaapi/PHBA_EVENTINFO, HBA_EventInfo structure [Storage Devices], storage.hba_eventinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

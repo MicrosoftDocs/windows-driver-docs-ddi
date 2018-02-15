@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9713c1c8-2bfc-4ac4-82f1-b223d3fe2511
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Target property [Windows Device Testing Framework], Microsoft.WDTF.IWDTFAction2.Target, IWDTFAction2.Target, Microsoft::WDTF::IWDTFAction2::Target, IWDTFAction2, get_Target, IWDTFAction2::get_Target, wdtf/IWDTFAction2::get_Target, wdtf/IWDTFAction2::Target, dtf.iwdtfaction2_target, IWDTFAction2 interface [Windows Device Testing Framework], Target property, Target property [Windows Device Testing Framework], IWDTFAction2 interface
+ms.keywords: IWDTFAction2.Target, IWDTFAction2 interface [Windows Device Testing Framework], Target property, Target property [Windows Device Testing Framework], IWDTFAction2 interface, wdtf/IWDTFAction2::Target, wdtf/IWDTFAction2::get_Target, Microsoft.WDTF.IWDTFAction2.Target, Microsoft::WDTF::IWDTFAction2::Target, Target property [Windows Device Testing Framework], IWDTFAction2, get_Target, dtf.iwdtfaction2_target, IWDTFAction2::get_Target
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

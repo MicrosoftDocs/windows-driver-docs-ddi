@@ -189,7 +189,7 @@ The <b>EVT_WDF_USB_READER_COMPLETION_ROUTINE</b> function type is defined in the
 
 ## -see-also
 
-<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 
 
@@ -197,7 +197,7 @@ The <b>EVT_WDF_USB_READER_COMPLETION_ROUTINE</b> function type is defined in the
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
 
 
 

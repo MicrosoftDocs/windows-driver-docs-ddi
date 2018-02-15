@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fd833d0b-2f81-4002-8280-38e17e528af6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPeekAllocator method [Streaming Media Devices], IKsPin interface, IKsPin::KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], IKsPin, IKsPin interface [Streaming Media Devices], KsPeekAllocator method, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, ksproxy/IKsPin::KsPeekAllocator, stream.ikspin_kspeekallocator, KsPeekAllocator
+ms.keywords: ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, KsPeekAllocator method [Streaming Media Devices], IKsPin interface, KsPeekAllocator method [Streaming Media Devices], stream.ikspin_kspeekallocator, IKsPin, IKsPin interface [Streaming Media Devices], KsPeekAllocator method, IKsPin::KsPeekAllocator, ksproxy/IKsPin::KsPeekAllocator, KsPeekAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

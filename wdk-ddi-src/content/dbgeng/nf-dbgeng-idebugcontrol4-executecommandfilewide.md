@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4c3fbd76-745a-45d0-b4fd-6da382712322
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4::ExecuteCommandFileWide, IDebugControl4, dbgeng/IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide
+ms.keywords: ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide, IDebugControl4::ExecuteCommandFileWide, IDebugControl4, ExecuteCommandFileWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ExecuteCommandFileWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

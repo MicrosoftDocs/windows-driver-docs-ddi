@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 21CFAA26-3E11-4E3B-949A-C905813E56A8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CDROM_WRITE_SPEED_DESCRIPTOR structure [Storage Devices], PCDROM_WRITE_SPEED_DESCRIPTOR structure pointer [Storage Devices], _CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR, PCDROM_WRITE_SPEED_DESCRIPTOR, ntddcdrm/PCDROM_WRITE_SPEED_DESCRIPTOR, ntddcdrm/CDROM_WRITE_SPEED_DESCRIPTOR, storage.cdrom_write_speed_descriptor, CDROM_WRITE_SPEED_DESCRIPTOR
+ms.keywords: ntddcdrm/CDROM_WRITE_SPEED_DESCRIPTOR, CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR, PCDROM_WRITE_SPEED_DESCRIPTOR structure pointer [Storage Devices], _CDROM_WRITE_SPEED_DESCRIPTOR, PCDROM_WRITE_SPEED_DESCRIPTOR, CDROM_WRITE_SPEED_DESCRIPTOR structure [Storage Devices], storage.cdrom_write_speed_descriptor, ntddcdrm/PCDROM_WRITE_SPEED_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,11 +134,11 @@ specification for the Write Speed Descriptor.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+
+
+
+<a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>
 
 
 

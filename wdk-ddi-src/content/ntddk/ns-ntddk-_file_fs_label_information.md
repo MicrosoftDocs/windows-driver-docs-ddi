@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cad48019-3777-4f1c-9872-c837604f47bc
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.file_fs_label_information, _FILE_FS_LABEL_INFORMATION, fileinformationstructures_ac9398f2-2488-43b4-8fdb-76ae1f84066c.xml, *PFILE_FS_LABEL_INFORMATION, ntddk/PFILE_FS_LABEL_INFORMATION, FILE_FS_LABEL_INFORMATION, PFILE_FS_LABEL_INFORMATION structure pointer [Installable File System Drivers], PFILE_FS_LABEL_INFORMATION, ntddk/FILE_FS_LABEL_INFORMATION, FILE_FS_LABEL_INFORMATION structure [Installable File System Drivers]
+ms.keywords: "_FILE_FS_LABEL_INFORMATION, ntddk/PFILE_FS_LABEL_INFORMATION, ifsk.file_fs_label_information, FILE_FS_LABEL_INFORMATION structure [Installable File System Drivers], PFILE_FS_LABEL_INFORMATION, fileinformationstructures_ac9398f2-2488-43b4-8fdb-76ae1f84066c.xml, FILE_FS_LABEL_INFORMATION, *PFILE_FS_LABEL_INFORMATION, ntddk/FILE_FS_LABEL_INFORMATION, PFILE_FS_LABEL_INFORMATION structure pointer [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

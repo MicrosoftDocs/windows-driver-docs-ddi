@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d40b0bc6-fad0-4c83-b1ca-c5105112ae2d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, video/VideoPortEnableInterrupt, VideoPortEnableInterrupt function [Display Devices], display.videoportenableinterrupt, VideoPortEnableInterrupt
+ms.keywords: VideoPortEnableInterrupt, video/VideoPortEnableInterrupt, VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, display.videoportenableinterrupt, VideoPortEnableInterrupt function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ If the video miniport driver has not registered an <a href="..\video\nc-video-pv
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 
 

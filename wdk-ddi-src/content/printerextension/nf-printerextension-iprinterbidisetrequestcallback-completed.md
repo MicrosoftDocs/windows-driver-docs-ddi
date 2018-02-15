@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F086903F-2FCA-4B9F-948B-0F40F114E11D
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: Completed method [Print Devices], IPrinterBidiSetRequestCallback interface, IPrinterBidiSetRequestCallback, print.iprinterbidisetrequestcallback_completed, Completed, IPrinterBidiSetRequestCallback::Completed, IPrinterBidiSetRequestCallback interface [Print Devices], Completed method, printerextension/IPrinterBidiSetRequestCallback::Completed, Completed method [Print Devices]
+ms.keywords: printerextension/IPrinterBidiSetRequestCallback::Completed, IPrinterBidiSetRequestCallback::Completed, IPrinterBidiSetRequestCallback, Completed method [Print Devices], IPrinterBidiSetRequestCallback interface, Completed method [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices], Completed method, print.iprinterbidisetrequestcallback_completed, Completed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

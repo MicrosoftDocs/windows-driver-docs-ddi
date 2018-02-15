@@ -87,11 +87,15 @@ The GetSynchronizationStatus method returns information about the synchronizatio
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -100,10 +104,6 @@ The GetSynchronizationStatus method returns information about the synchronizatio
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

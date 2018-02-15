@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 44760191-77DD-40A9-AA11-AE8AB55AB307
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType, UdecxUsbDeviceInitSetEndpointsType function [Buses], buses.udecxusbdeviceinitsetendpointstype, UdecxUsbDeviceInitSetEndpointsType
+ms.keywords: buses.udecxusbdeviceinitsetendpointstype, UdecxUsbDeviceInitSetEndpointsType function [Buses], UdecxUsbDeviceInitSetEndpointsType, udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,15 +121,7 @@ Before calling this method, the client driver must have set those pointers by ca
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/4DABCC96-F3F5-43D9-9BCF-A2663ED30137">USB endpoints</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks.md">UdecxUsbDeviceInitSetStateChangeCallbacks</a>
 
 
 
@@ -137,11 +129,19 @@ Before calling this method, the client driver must have set those pointers by ca
 
 
 
+<a href="https://msdn.microsoft.com/4DABCC96-F3F5-43D9-9BCF-A2663ED30137">USB endpoints</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+
+
+
 <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
-
-
-
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks.md">UdecxUsbDeviceInitSetStateChangeCallbacks</a>
 
 
 

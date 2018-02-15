@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ccc8c97-4c8c-4278-8eef-a612ce85439e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PVIDEO_REQUEST_PACKET structure pointer [Display Devices], display.video_request_packet, VIDEO_REQUEST_PACKET structure [Display Devices], video/PVIDEO_REQUEST_PACKET, _VIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET, Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET, video/VIDEO_REQUEST_PACKET
+ms.keywords: PVIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET structure [Display Devices], video/PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET structure pointer [Display Devices], _VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET, display.video_request_packet, Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, video/VIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,7 +105,7 @@ Specifies the size in bytes of the output buffer. A miniport driver cannot enlar
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
 
 
 
@@ -113,7 +113,7 @@ Specifies the size in bytes of the output buffer. A miniport driver cannot enlar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 

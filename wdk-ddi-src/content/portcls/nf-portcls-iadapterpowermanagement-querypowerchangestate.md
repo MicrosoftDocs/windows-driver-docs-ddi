@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 32cd29c3-e8da-4119-84a4-3ce4daed528e
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: QueryPowerChangeState, audio.iadapterpowermanagement_querypowerchangestate, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml, portcls/IAdapterPowerManagement::QueryPowerChangeState, IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, IAdapterPowerManagement, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState method [Audio Devices], QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface
+ms.keywords: audio.iadapterpowermanagement_querypowerchangestate, portcls/IAdapterPowerManagement::QueryPowerChangeState, IAdapterPowerManagement::QueryPowerChangeState, QueryPowerChangeState, IAdapterPowerManagement, QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface [Audio Devices], QueryPowerChangeState method, QueryPowerChangeState method [Audio Devices], IAdapterPowerManagement interface, audmp-routines_4a5ebdca-faa4-4f99-89d1-6c86a928243c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

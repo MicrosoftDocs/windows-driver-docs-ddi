@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PIO_SESSION_STATE, IoSessionStateTerminated, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionStateInitialized, wdm/IoSessionStateDisconnected, IoSessionStateMax, wdm/IoSessionStateDisconnectedLoggedOn, wdm/IO_SESSION_STATE, IoSessionStateDisconnected, IoSessionStateLoggedOff, IoSessionStateDisconnectedLoggedOn, wdm/PIO_SESSION_STATE, IoSessionStateConnected, wdm/IoSessionStateTerminated, wdm/IoSessionStateLoggedOff, _IO_SESSION_STATE, wdm/IoSessionStateMax, wdm/IoSessionStateCreated, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, kernel.io_session_state, IoSessionStateInitialized, wdm/IoSessionStateLoggedOn, IoSessionStateLoggedOn, wdm/IoSessionStateConnected, IoSessionStateCreated, IO_SESSION_STATE, *PIO_SESSION_STATE
+ms.keywords: IO_SESSION_STATE, wdm/IoSessionStateInitialized, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], IoSessionStateTerminated, IoSessionStateCreated, IoSessionStateInitialized, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PIO_SESSION_STATE, wdm/IoSessionStateDisconnectedLoggedOn, IoSessionStateDisconnected, wdm/IoSessionStateConnected, wdm/IoSessionStateTerminated, IoSessionStateConnected, wdm/IoSessionStateLoggedOff, wdm/IoSessionStateMax, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, wdm/IO_SESSION_STATE, wdm/IoSessionStateCreated, wdm/IoSessionStateDisconnected, *PIO_SESSION_STATE, IoSessionStateLoggedOff, IoSessionStateMax, IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateLoggedOn, _IO_SESSION_STATE, PIO_SESSION_STATE, kernel.io_session_state, IoSessionStateLoggedOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -153,15 +153,15 @@ In the preceding table, the <i>from</i> and <i>to</i> states are represented by 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
+
+
+
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
 
 
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
 
 
 

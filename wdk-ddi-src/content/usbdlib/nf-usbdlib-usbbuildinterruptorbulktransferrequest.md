@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 2500fa22-b3f9-419d-9e37-5060b83403fb
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.usbbuildinterruptorbulktransferrequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest routine [Buses], UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml
+ms.keywords: UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml, UsbBuildInterruptOrBulkTransferRequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

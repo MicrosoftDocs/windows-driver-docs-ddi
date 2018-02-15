@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: abf484e4-6a11-4727-b195-5eaf6683113e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PCONFIG_INFO_DATA_1 structure pointer [Print Devices], tcpxcv/CONFIG_INFO_DATA_1, spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml, tcpxcv/PCONFIG_INFO_DATA_1, *PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1, _CONFIG_INFO_DATA_1, print.config_info_data_1, CONFIG_INFO_DATA_1 structure [Print Devices]
+ms.keywords: CONFIG_INFO_DATA_1, spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml, print.config_info_data_1, tcpxcv/PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1 structure [Print Devices], PCONFIG_INFO_DATA_1, tcpxcv/CONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1 structure pointer [Print Devices], *PCONFIG_INFO_DATA_1, _CONFIG_INFO_DATA_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

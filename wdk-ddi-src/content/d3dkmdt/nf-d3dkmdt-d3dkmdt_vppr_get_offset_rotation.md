@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EA7D2840-63B2-417A-933C-C1D360106264
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPR_GET_OFFSET_ROTATION function [Display Devices], D3DKMDT_VPPR_GET_OFFSET_ROTATION, display.d3dkmdt_vppr_get_offset_rotation, d3dkmdt/D3DKMDT_VPPR_GET_OFFSET_ROTATION
+ms.keywords: D3DKMDT_VPPR_GET_OFFSET_ROTATION function [Display Devices], display.d3dkmdt_vppr_get_offset_rotation, D3DKMDT_VPPR_GET_OFFSET_ROTATION, d3dkmdt/D3DKMDT_VPPR_GET_OFFSET_ROTATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -234,11 +234,11 @@ The driver should use the output value of the <i>Rotation</i> parameter to rotat
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation_support.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</a>
-
-
-
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation_support.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</a>
 
 
 

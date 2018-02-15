@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0cd14f0c-5b7b-443b-ab37-c455b4accacb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure [Display Devices], DXVAHDDDI_STREAM_STATE_ALPHA_DATA, display.dxvahdddi_stream_state_alpha_data, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA, _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, DXVA2_Structs_33a16800-e101-40e7-b776-36161a8a984a.xml
+ms.keywords: DXVAHDDDI_STREAM_STATE_ALPHA_DATA, display.dxvahdddi_stream_state_alpha_data, DXVA2_Structs_33a16800-e101-40e7-b776-36161a8a984a.xml, DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

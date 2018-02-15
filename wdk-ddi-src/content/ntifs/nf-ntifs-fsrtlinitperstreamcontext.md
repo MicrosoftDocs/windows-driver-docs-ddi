@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: eea0c2d7-0338-4f34-acae-6ab869011696
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlInitPerStreamContext function [Installable File System Drivers], ntifs/FsRtlInitPerStreamContext, fsrtlref_13a48f5e-d3e7-49fa-8c4c-bb2d061f2b2a.xml, ifsk.fsrtlinitperstreamcontext, FsRtlInitPerStreamContext
+ms.keywords: ntifs/FsRtlInitPerStreamContext, FsRtlInitPerStreamContext function [Installable File System Drivers], ifsk.fsrtlinitperstreamcontext, FsRtlInitPerStreamContext, fsrtlref_13a48f5e-d3e7-49fa-8c4c-bb2d061f2b2a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -94,21 +94,6 @@ TBD
 
 
 
-#### - PerStreamContext [in]
-
-Pointer to a caller-allocated FSRTL_PER_STREAM_CONTEXT structure to be used to maintain context information for a file stream. This structure can be used as is or embedded in a driver-defined per-stream context structure. Both structure types are commonly allocated by calling <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>. 
-
-
-#### - OwnerId [in]
-
-Pointer to a caller-allocated variable that uniquely identifies the owner of the per-stream context structure. The format of this variable is filter driver − specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of a driver object or device object. Callers must specify a non-<b>NULL</b> value for this parameter. 
-
-
-#### - InstanceId [in]
-
-Pointer to a filter driver − allocated variable that can be used to distinguish among per-stream context structures created by the same filter driver. The format of this variable is filter driver − specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of the stream context object for the file stream. (To get this address from a file object, use the <a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a> macro.) This parameter is optional and can be <b>NULL</b>. 
-
-
 #### - FreeCallback [in]
 
 Pointer to a callback routine that frees the per-stream context structure. Callers must specify a non-<b>NULL</b> value for this parameter. This routine and its parameters are defined as follows: 
@@ -135,6 +120,21 @@ VOID (*PFREE_FUNCTION) (
 Pointer to the per-stream context structure to be freed. The <i>FreeCallback</i> routine typically casts this pointer to the appropriate structure pointer type and frees it by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
 
 
+#### - InstanceId [in]
+
+Pointer to a filter driver − allocated variable that can be used to distinguish among per-stream context structures created by the same filter driver. The format of this variable is filter driver − specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of the stream context object for the file stream. (To get this address from a file object, use the <a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a> macro.) This parameter is optional and can be <b>NULL</b>. 
+
+
+#### - OwnerId [in]
+
+Pointer to a caller-allocated variable that uniquely identifies the owner of the per-stream context structure. The format of this variable is filter driver − specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of a driver object or device object. Callers must specify a non-<b>NULL</b> value for this parameter. 
+
+
+#### - PerStreamContext [in]
+
+Pointer to a caller-allocated FSRTL_PER_STREAM_CONTEXT structure to be used to maintain context information for a file stream. This structure can be used as is or embedded in a driver-defined per-stream context structure. Both structure types are commonly allocated by calling <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>. 
+
+
 ## -remarks
 
 
@@ -158,7 +158,19 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
 
 
@@ -166,7 +178,15 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlgetperstreamcontextpointer.md">FsRtlGetPerStreamContextPointer</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
 
 
 
@@ -175,26 +195,6 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 <a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlteardownperstreamcontexts.md">FsRtlTeardownPerStreamContexts</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperstreamcontext.md">FsRtlRemovePerStreamContext</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b36d01e5-179b-4adc-ace3-0664c93aedef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringCbCopyStringN, RtlUnicodeStringCbCopyStringN, safestrings_4f11af32-212f-47f5-8585-ad5c04c51ec0.xml, kernel.rtlunicodestringcbcopystringn, RtlUnicodeStringCbCopyStringN function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlunicodestringcbcopystringn, safestrings_4f11af32-212f-47f5-8585-ad5c04c51ec0.xml, RtlUnicodeStringCbCopyStringN function [Kernel-Mode Driver Architecture], RtlUnicodeStringCbCopyStringN, ntstrsafe/RtlUnicodeStringCbCopyStringN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,11 +163,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcopynex.md">RtlUnicodeStringCbCopyNEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
 
 
 

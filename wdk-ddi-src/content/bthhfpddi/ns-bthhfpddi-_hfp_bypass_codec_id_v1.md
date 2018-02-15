@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: FB618271-A1E9-4F47-97DC-F4ACAA01028C
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_HFP_BYPASS_CODEC_ID_V1, PHFP_BYPASS_CODEC_ID_V1 structure pointer [Audio Devices], HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1, audio.hfp_bypass_codec_id_v1, bthhfpddi/PHFP_BYPASS_CODEC_ID_V1, PHFP_BYPASS_CODEC_ID_V1, bthhfpddi/HFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1 structure [Audio Devices]"
+ms.keywords: PHFP_BYPASS_CODEC_ID_V1 structure pointer [Audio Devices], PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1 structure [Audio Devices], *PHFP_BYPASS_CODEC_ID_V1, bthhfpddi/HFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_V1, audio.hfp_bypass_codec_id_v1, bthhfpddi/PHFP_BYPASS_CODEC_ID_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,11 +94,11 @@ The codec ID can be any of the values in the following table.
 
 ## -see-also
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id.md">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
-
-
-
 <a href="..\bthhfpddi\ne-bthhfpddi-_hfp_bypass_codec_id_version.md">HFP_BYPASS_CODEC_ID_VERSION</a>
+
+
+
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id.md">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
 
 
 

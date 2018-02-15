@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoDecoderSubmitBuffers1
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1 callback
@@ -97,7 +97,9 @@ A pointer to an array of one or more <a href="..\d3d10umddi\ns-d3d10umddi-d3dwdd
 
 
 
+
       Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,24 +129,34 @@ Private driver data was successfully returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>pBufferDesc</b> member points to an array of one or more <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1.md">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a> structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding. 
+
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_buffer_desc1.md">D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+
 
  
 

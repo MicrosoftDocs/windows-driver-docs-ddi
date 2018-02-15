@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 94c953ae-519b-4659-a4c9-a97db7dc31e9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_SYNTH_PORTPARAMS, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, PSYNTH_PORTPARAMS structure pointer [Audio Devices], PSYNTH_PORTPARAMS, *PSYNTH_PORTPARAMS, SYNTH_PORTPARAMS structure [Audio Devices], audio.synth_portparams, SYNTH_PORTPARAMS, dmusprop/SYNTH_PORTPARAMS, dmusprop/PSYNTH_PORTPARAMS"
+ms.keywords: PSYNTH_PORTPARAMS structure pointer [Audio Devices], audio.synth_portparams, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, _SYNTH_PORTPARAMS, dmusprop/PSYNTH_PORTPARAMS, SYNTH_PORTPARAMS structure [Audio Devices], dmusprop/SYNTH_PORTPARAMS, PSYNTH_PORTPARAMS, *PSYNTH_PORTPARAMS, SYNTH_PORTPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

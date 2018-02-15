@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_buildpagingbuffer, *IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGK_BUILDPAGINGBUFFER_OPERATION, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER_OPERATION
+ms.keywords: d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, display.dxgkarg_buildpagingbuffer, DXGKARG_BUILDPAGINGBUFFER_OPERATION, _DXGKARG_BUILDPAGINGBUFFER, *IN_PDXGKARG_BUILDPAGINGBUFFER, DXGK_BUILDPAGINGBUFFER_OPERATION, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -744,30 +744,6 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 
@@ -776,19 +752,7 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
 
 
 
@@ -796,15 +760,15 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a>
 
 
 
@@ -816,7 +780,43 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
 
 
 

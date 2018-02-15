@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0E62B57D-F9B1-4B01-A19E-9E2DBC387578
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_POWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION, kernel.power_platform_information, POWER_PLATFORM_INFORMATION structure [Kernel-Mode Driver Architecture], *PPOWER_PLATFORM_INFORMATION, wdm/POWER_PLATFORM_INFORMATION, PPOWER_PLATFORM_INFORMATION, PPOWER_PLATFORM_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PPOWER_PLATFORM_INFORMATION"
+ms.keywords: PPOWER_PLATFORM_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PPOWER_PLATFORM_INFORMATION, _POWER_PLATFORM_INFORMATION, wdm/POWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.power_platform_information, PPOWER_PLATFORM_INFORMATION, wdm/PPOWER_PLATFORM_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

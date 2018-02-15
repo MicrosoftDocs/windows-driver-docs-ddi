@@ -84,14 +84,18 @@ NTSTATUS APIENTRY DxgkDdiDescribeAllocation(
 ## -returns
 
 
+
 <i>DxgkDdiDescribeAllocation</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 Because the DirectX graphics kernel subsystem does not necessarily maintain records of allocations, the graphics kernel subsystem calls <i>DxgkDdiDescribeAllocation</i> to request that the display miniport driver return information about existing allocations. Currently, the display miniport driver must be able to return this information for the following allocations:
+
 <ul>
 <li>
 Allocations that are also primaries (that is, allocations that the user-mode display driver created by setting the <b>Primary</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structure in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function).
@@ -101,21 +105,33 @@ Allocations that are also primaries (that is, allocations that the user-mode dis
 Allocations that might be the source of a presentation (that is, allocations that are represented by the <b>hSource</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a> structure in a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function).
 
 </li>
-</ul><i>DxgkDdiDescribeAllocation</i> should be made pageable.
+</ul>
+<i>DxgkDdiDescribeAllocation</i> should be made pageable.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_describeallocation.md">DXGKARG_DESCRIBEALLOCATION</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
+
+
 
  
 

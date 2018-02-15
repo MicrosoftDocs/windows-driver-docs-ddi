@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f149e86-7855-4a10-8e0c-8b1aff261946
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml, storport/StorPortRegistryWrite, storage.storportregistrywrite, StorPortRegistryWrite, StorPortRegistryWrite routine [Storage Devices]
+ms.keywords: storport/StorPortRegistryWrite, storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml, storage.storportregistrywrite, StorPortRegistryWrite routine [Storage Devices], StorPortRegistryWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

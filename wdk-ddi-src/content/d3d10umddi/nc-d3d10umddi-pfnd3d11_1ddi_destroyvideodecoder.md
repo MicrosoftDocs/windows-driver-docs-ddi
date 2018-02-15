@@ -40,7 +40,7 @@ apiname:
 -	pfnDestroyVideoDecoder
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEODECODER callback
@@ -75,17 +75,11 @@ VOID APIENTRY* pfnDestroyVideoDecoder(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HDECODE
 
 
 
 
-
-
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
 
 
 
@@ -95,16 +89,27 @@ A handle to the display device (graphics context).
 A handle to the driver's private data for the video decoder object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>.
 
 
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
+
+
 
  
 

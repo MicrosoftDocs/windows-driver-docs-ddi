@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b0a3ce92-b29a-4c5e-8cab-18fc92787e2e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, debugger.geteventsystem, dbgeng/IDebugSystemObjects4::GetEventSystem, GetEventSystem method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetEventSystem method, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects4 interface [Windows Debugging], GetEventSystem method, IDebugSystemObjects3, GetEventSystem, dbgeng/IDebugSystemObjects3::GetEventSystem, GetEventSystem method [Windows Debugging]
+ms.keywords: GetEventSystem method [Windows Debugging], GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetEventSystem method, IDebugSystemObjects3::GetEventSystem, dbgeng/IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects3 interface [Windows Debugging], GetEventSystem method, dbgeng/IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, GetEventSystem, debugger.geteventsystem, IDebugSystemObjects3, GetEventSystem method [Windows Debugging], IDebugSystemObjects3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -107,15 +107,15 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 

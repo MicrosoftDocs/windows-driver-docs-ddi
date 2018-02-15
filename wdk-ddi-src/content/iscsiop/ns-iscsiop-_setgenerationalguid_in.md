@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24568c37-9641-4e3e-b788-f71db4f3f70f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetGenerationalGuid_IN structure [Storage Devices], iscsiop/PSetGenerationalGuid_IN, PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], *PSetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, _SetGenerationalGuid_IN, SetGenerationalGuid_IN, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, storage.setgenerationalguid_in
+ms.keywords: "_SetGenerationalGuid_IN, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, iscsiop/SetGenerationalGuid_IN, SetGenerationalGuid_IN structure [Storage Devices], storage.setgenerationalguid_in, iscsiop/PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], SetGenerationalGuid_IN, PSetGenerationalGuid_IN, *PSetGenerationalGuid_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,11 +83,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
-
-
-
 <a href="..\iscsiop\ns-iscsiop-_setgenerationalguid_out.md">SetGenerationalGuid_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
 
 
 

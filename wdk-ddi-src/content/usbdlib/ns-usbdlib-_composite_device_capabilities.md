@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 3C1BF8C6-3489-4636-9B3F-B0C2C1327466
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbdlib/PCOMPOSITE_DEVICE_CAPABILITIES, usbdlib/COMPOSITE_DEVICE_CAPABILITIES, PCOMPOSITE_DEVICE_CAPABILITIES, PCOMPOSITE_DEVICE_CAPABILITIES structure pointer [Buses], _COMPOSITE_DEVICE_CAPABILITIES, *PCOMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES structure [Buses], buses.composite_driver_capabilities
+ms.keywords: "_COMPOSITE_DEVICE_CAPABILITIES, PCOMPOSITE_DEVICE_CAPABILITIES structure pointer [Buses], *PCOMPOSITE_DEVICE_CAPABILITIES, buses.composite_driver_capabilities, COMPOSITE_DEVICE_CAPABILITIES, usbdlib/COMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES structure [Buses], PCOMPOSITE_DEVICE_CAPABILITIES, usbdlib/PCOMPOSITE_DEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,7 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
-
-
-
-<a href="..\usbdlib\nf-usbdlib-composite_device_capabilities_init.md">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a>
 
 
 
@@ -97,7 +93,11 @@ Reserved.
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-composite_device_capabilities_init.md">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0e9d13e8-c351-4730-8f00-6c149f824af0
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SetContentId method [Audio Devices], IDrmAudioStream interface, IDrmAudioStream::SetContentId, IDrmAudioStream, SetContentId method [Audio Devices], IDrmAudioStream interface [Audio Devices], SetContentId method, audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, SetContentId, drmk/IDrmAudioStream::SetContentId
+ms.keywords: SetContentId method [Audio Devices], audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, SetContentId method [Audio Devices], IDrmAudioStream interface, IDrmAudioStream::SetContentId, drmk/IDrmAudioStream::SetContentId, IDrmAudioStream, SetContentId, IDrmAudioStream interface [Audio Devices], SetContentId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,7 +104,7 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 
 
@@ -112,15 +112,7 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 
 
-<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
 
 
 
@@ -128,7 +120,15 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

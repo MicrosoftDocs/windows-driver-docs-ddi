@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08f0b4c0-ba77-450d-8b93-73231bbf760c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, kernel.seassignsecurity, wdm/SeAssignSecurity, SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, kernel.seassignsecurity, SeAssignSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -236,19 +236,19 @@ If the passed security descriptor includes a group, it is assigned as the new ob
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
+
+
+
+<a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+
+
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
 
 

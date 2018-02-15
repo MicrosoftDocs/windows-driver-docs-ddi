@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeGetType method, DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, kmdf.wdfusbtargetpipegettype, wdf.wdfusbtargetpipegettype, WdfUsbTargetPipeGetType, wdfusb/WdfUsbTargetPipeGetType, PFN_WDFUSBTARGETPIPEGETTYPE
+ms.keywords: WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method, wdfusb/WdfUsbTargetPipeGetType, PFN_WDFUSBTARGETPIPEGETTYPE, DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, wdf.wdfusbtargetpipegettype, kmdf.wdfusbtargetpipegettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,11 +120,11 @@ usbPipeType = WdfUsbTargetPipeGetType(usbPipe);
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
-
-
-
 <a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 

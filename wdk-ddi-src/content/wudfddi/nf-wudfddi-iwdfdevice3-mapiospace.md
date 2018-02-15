@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 243C7299-7C74-408A-8FB9-32FB3315251F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice3::\_MapIoSpace, MapIoSpace, IWDFDevice3::\_MapIoSpace, wdf.iwdfdevice3_mapiospace, IWDFDevice3 interface, MapIoSpace method, IWDFDevice3::MapIoSpace, MapIoSpace method, IWDFDevice3, umdf.iwdfdevice3_mapiospace, MapIoSpace method, IWDFDevice3 interface
+ms.keywords: IWDFDevice3, MapIoSpace method, IWDFDevice3 interface, IWDFDevice3::MapIoSpace, MapIoSpace method, umdf.iwdfdevice3_mapiospace, IWDFDevice3::\_MapIoSpace, IWDFDevice3 interface, MapIoSpace method, MapIoSpace, wudfddi/IWDFDevice3::\_MapIoSpace, wdf.iwdfdevice3_mapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

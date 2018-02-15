@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c48e7cd-e9aa-4ae7-bd44-fe16e1b0d619
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_child_retrieve_info, wdfchildlist/PWDF_CHILD_RETRIEVE_INFO, DFDeviceObjectChildListRef_f2075d85-7f9e-4b9c-b702-c2ef2be65987.xml, WDF_CHILD_RETRIEVE_INFO structure, PWDF_CHILD_RETRIEVE_INFO structure pointer, _WDF_CHILD_RETRIEVE_INFO, wdfchildlist/WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO, wdf.wdf_child_retrieve_info, PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO
+ms.keywords: WDF_CHILD_RETRIEVE_INFO, wdfchildlist/PWDF_CHILD_RETRIEVE_INFO, wdf.wdf_child_retrieve_info, DFDeviceObjectChildListRef_f2075d85-7f9e-4b9c-b702-c2ef2be65987.xml, PWDF_CHILD_RETRIEVE_INFO structure pointer, wdfchildlist/WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO, _WDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO structure, PWDF_CHILD_RETRIEVE_INFO, kmdf.wdf_child_retrieve_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,7 +120,15 @@ To initialize a WDF_CHILD_RETRIEVE_INFO structure, the driver must call <a href=
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
+
+
+
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a>
 
 
 
@@ -132,15 +140,7 @@ To initialize a WDF_CHILD_RETRIEVE_INFO structure, the driver must call <a href=
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
-
-
-
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_identification_description_compare.md">EvtChildListIdentificationDescriptionCompare</a>
-
-
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 

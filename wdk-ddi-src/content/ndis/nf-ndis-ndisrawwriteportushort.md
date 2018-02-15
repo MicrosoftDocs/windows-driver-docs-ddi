@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8ad7d35-5832-4258-8666-2c0f1f893f10
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisrawwriteportushort, NdisRawWritePortUshort macro [Network Drivers Starting with Windows Vista], NdisRawWritePortUshort, ndis/NdisRawWritePortUshort, miniport_port_raw_ref_6c164b75-fcfb-4251-803a-ca7cbe623b4d.xml
+ms.keywords: NdisRawWritePortUshort macro [Network Drivers Starting with Windows Vista], netvista.ndisrawwriteportushort, NdisRawWritePortUshort, ndis/NdisRawWritePortUshort, miniport_port_raw_ref_6c164b75-fcfb-4251-803a-ca7cbe623b4d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -92,7 +92,7 @@ Specifies the USHORT to be written.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
 
 
 
@@ -100,19 +100,19 @@ Specifies the USHORT to be written.
 
 
 
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisrawwriteportulong.md">NdisRawWritePortUlong</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisrawwriteportuchar.md">NdisRawWritePortUchar</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferushort.md">NdisRawWritePortBufferUshort</a>
 
 
 

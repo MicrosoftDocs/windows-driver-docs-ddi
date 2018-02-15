@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50661fc9-2f1f-4c9a-bc15-1cdf7c1f6d01
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_BSS_ENTRY structure [Network Drivers Starting with Windows Vista], *PDOT11_BSS_ENTRY, PDOT11_BSS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f884f12d-d267-4ae3-b632-6c318b515880.xml, windot11/PDOT11_BSS_ENTRY, windot11/DOT11_BSS_ENTRY, DOT11_BSS_ENTRY, netvista.dot11_bss_entry, PDOT11_BSS_ENTRY
+ms.keywords: netvista.dot11_bss_entry, Native_802.11_data_types_f884f12d-d267-4ae3-b632-6c318b515880.xml, windot11/DOT11_BSS_ENTRY, *PDOT11_BSS_ENTRY, PDOT11_BSS_ENTRY, windot11/PDOT11_BSS_ENTRY, PDOT11_BSS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], DOT11_BSS_ENTRY structure [Network Drivers Starting with Windows Vista], DOT11_BSS_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -241,16 +241,7 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
-   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
-
-
-
 <a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 
@@ -258,11 +249,15 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
 
 
 
@@ -271,7 +266,12 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms893670.aspx">
+   OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
 
 
 

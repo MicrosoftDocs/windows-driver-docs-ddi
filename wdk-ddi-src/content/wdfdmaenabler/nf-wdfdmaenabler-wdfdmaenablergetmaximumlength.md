@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f37359b9-807e-43dc-a66b-7b32c0921f06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaEnablerGetMaximumLength method, WdfDmaEnablerGetMaximumLength, PFN_WDFDMAENABLERGETMAXIMUMLENGTH, wdf.wdfdmaenablergetmaximumlength, wdfdmaenabler/WdfDmaEnablerGetMaximumLength, DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, kmdf.wdfdmaenablergetmaximumlength
+ms.keywords: WdfDmaEnablerGetMaximumLength, kmdf.wdfdmaenablergetmaximumlength, WdfDmaEnablerGetMaximumLength method, PFN_WDFDMAENABLERGETMAXIMUMLENGTH, wdf.wdfdmaenablergetmaximumlength, wdfdmaenabler/WdfDmaEnablerGetMaximumLength, DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,7 +91,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetfragmentlength.md">WdfDmaEnablerGetFragmentLength</a>
 
 
 
@@ -99,7 +99,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetfragmentlength.md">WdfDmaEnablerGetFragmentLength</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 
 

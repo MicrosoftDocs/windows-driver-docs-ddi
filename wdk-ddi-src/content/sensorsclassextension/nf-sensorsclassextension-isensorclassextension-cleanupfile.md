@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: eeade123-fb83-478f-99e3-e79bbbb1919b
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ISensorClassExtension::CleanupFile, ISensorClassExtension, CleanupFile method [Sensor Devices], CleanupFile, sensors.isensorclassextension_cleanupfile
+ms.keywords: ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile, CleanupFile method [Sensor Devices], ISensorClassExtension, CleanupFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

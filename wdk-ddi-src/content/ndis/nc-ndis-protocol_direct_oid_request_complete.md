@@ -231,7 +231,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -239,7 +239,12 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismdirectoidrequestcomplete.md">
+   NdisMDirectOidRequestComplete</a>
 
 
 
@@ -247,12 +252,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismdirectoidrequestcomplete.md">
-   NdisMDirectOidRequestComplete</a>
+<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
 
 
 

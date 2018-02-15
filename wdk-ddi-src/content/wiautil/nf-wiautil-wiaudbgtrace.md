@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c3cdb5c9-b43d-443b-8d04-d30eb74f39da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiauDbgTrace function [Imaging Devices], image.wiaudbgtrace, wiauDbgTrace, wiautil/wiauDbgTrace
+ms.keywords: image.wiaudbgtrace, wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiautil/wiauDbgTrace, wiauDbgTrace, wiauDbgTrace function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,6 +102,10 @@ None
 
 ## -see-also
 
+<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+
+
+
 <a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
 
@@ -111,10 +115,6 @@ None
 
 
 <a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
-
-
-
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
 
 

@@ -105,11 +105,11 @@ An <i>EnumerateInterruptSource</i> callback routine is called at the same IRQL a
 
 ## -see-also
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
-
-
-
 <a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
+
+
+
+<a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
 
 
 

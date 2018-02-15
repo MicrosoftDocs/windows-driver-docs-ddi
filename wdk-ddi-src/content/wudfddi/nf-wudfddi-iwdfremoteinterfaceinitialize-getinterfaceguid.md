@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, GetInterfaceGuid, GetInterfaceGuid method, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
+ms.keywords: GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, GetInterfaceGuid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, GetInterfaceGuid method, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -119,11 +119,11 @@ CMyDevice::OnRemoteInterfaceArrival(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
 
 
 

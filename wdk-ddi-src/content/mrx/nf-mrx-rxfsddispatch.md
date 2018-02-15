@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 92b9b22a-0fe7-4c95-a4fc-5f5f5558b4cf
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml, ifsk.rxfsddispatch, RxFsdDispatch, RxFsdDispatch routine [Installable File System Drivers]
+ms.keywords: RxFsdDispatch, mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml, ifsk.rxfsddispatch, RxFsdDispatch routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

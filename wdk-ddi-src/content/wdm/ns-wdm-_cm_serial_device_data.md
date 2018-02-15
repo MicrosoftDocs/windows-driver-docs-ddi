@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c829cc26-e21c-46e7-a70f-fa691a6c52e0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_CM_SERIAL_DEVICE_DATA, wdm/PCM_SERIAL_DEVICE_DATA, PCM_SERIAL_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], CM_SERIAL_DEVICE_DATA, kstruct_a_5b9a8153-d673-4576-b861-3242faf23c54.xml, *PCM_SERIAL_DEVICE_DATA, kernel.cm_serial_device_data, PCM_SERIAL_DEVICE_DATA, wdm/CM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA structure [Kernel-Mode Driver Architecture]"
+ms.keywords: kstruct_a_5b9a8153-d673-4576-b861-3242faf23c54.xml, PCM_SERIAL_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], kernel.cm_serial_device_data, wdm/CM_SERIAL_DEVICE_DATA, _CM_SERIAL_DEVICE_DATA, PCM_SERIAL_DEVICE_DATA, wdm/PCM_SERIAL_DEVICE_DATA, *PCM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA, CM_SERIAL_DEVICE_DATA structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,7 +87,7 @@ The clock baud rate, in megahertz, at which data is transferred.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
 
 
 
@@ -95,7 +95,7 @@ The clock baud rate, in megahertz, at which data is transferred.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

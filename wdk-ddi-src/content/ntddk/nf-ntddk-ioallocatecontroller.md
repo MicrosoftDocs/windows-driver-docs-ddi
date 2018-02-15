@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfeec8b1-48fb-420e-b602-699a5f2d659a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/IoAllocateController, kernel.ioallocatecontroller, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, IoAllocateController, IoAllocateController routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoAllocateController routine [Kernel-Mode Driver Architecture], ntddk/IoAllocateController, kernel.ioallocatecontroller, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, IoAllocateController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

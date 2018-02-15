@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9fb5805c-bb12-41ba-8c72-526b4193b6b5
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlCancellableWaitForMultipleObjects, ntifs/FsRtlCancellableWaitForMultipleObjects, fsrtlref_8a221e67-4344-401f-9e56-8fac66bb03b7.xml, ifsk.fsrtlcancellablewaitformultipleobjects, FsRtlCancellableWaitForMultipleObjects routine [Installable File System Drivers]
+ms.keywords: ifsk.fsrtlcancellablewaitformultipleobjects, FsRtlCancellableWaitForMultipleObjects routine [Installable File System Drivers], ntifs/FsRtlCancellableWaitForMultipleObjects, fsrtlref_8a221e67-4344-401f-9e56-8fac66bb03b7.xml, FsRtlCancellableWaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -226,15 +226,7 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 
 
@@ -242,7 +234,23 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 
 
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitforsingleobject.md">FsRtlCancellableWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
@@ -250,15 +258,7 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitforsingleobject.md">FsRtlCancellableWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: D0190BA1-196D-4F8B-A367-80272F094B6B
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers], NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig
+ms.keywords: nfpdrivers._nfccxsetrfdiscoveryconfig, NfcCxSetRfDiscoveryConfig, nfccx/NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

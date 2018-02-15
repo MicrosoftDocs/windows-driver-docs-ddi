@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, debugger.idebugeventcallbackswide_loadmodule, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::LoadModule, LoadModule, IDebugEventCallbacksWide
+ms.keywords: LoadModule, IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_loadmodule, LoadModule method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/BoundExceptionMaximum, BOUND_CALLBACK_STATUS, BoundExceptionHandled, *PBOUND_CALLBACK_STATUS, wdm/BoundExceptionContinueSearch, BoundExceptionError, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionMaximum, BoundExceptionContinueSearch, wdm/BoundExceptionHandled, _BOUND_CALLBACK_STATUS, wdm/BOUND_CALLBACK_STATUS, wdm/BoundExceptionError, kernel.bound_callback_status
+ms.keywords: BoundExceptionContinueSearch, wdm/BoundExceptionContinueSearch, BoundExceptionHandled, BoundExceptionMaximum, wdm/BoundExceptionHandled, *PBOUND_CALLBACK_STATUS, wdm/BoundExceptionMaximum, wdm/BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionError, _BOUND_CALLBACK_STATUS, kernel.bound_callback_status, wdm/BoundExceptionError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

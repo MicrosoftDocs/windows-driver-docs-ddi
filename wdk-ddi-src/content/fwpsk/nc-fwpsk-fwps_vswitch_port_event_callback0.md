@@ -195,11 +195,11 @@ After the port is deleted, the WFP filter driver calls <i>vSwitchPortEventNotify
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
-
-
-
 <a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
 
 
 
@@ -211,7 +211,7 @@ After the port is deleted, the WFP filter driver calls <i>vSwitchPortEventNotify
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
 
 
 

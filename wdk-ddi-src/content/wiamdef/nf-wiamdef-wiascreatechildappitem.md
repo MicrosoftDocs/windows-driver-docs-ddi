@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1dba59b0-5eac-4507-bd42-517a856aa864
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasCreateChildAppItem function [Imaging Devices], image.wiascreatechildappitem, wiasCreateChildAppItem, wiamdef/wiasCreateChildAppItem, wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml
+ms.keywords: wiasCreateChildAppItem function [Imaging Devices], image.wiascreatechildappitem, wiamdef/wiasCreateChildAppItem, wiasCreateChildAppItem, wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

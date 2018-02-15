@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 8674FD34-65FB-4B69-B43C-0D21133E35AB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LineDisplaySetBitmapData structure, _LineDisplaySetBitmapData, pointofservicedriverinterface/LineDisplaySetBitmapData, pos.linedisplaysetbitmapdata, PLineDisplaySetBitmapData, PLineDisplaySetBitmapData structure pointer, pointofservicedriverinterface/PLineDisplaySetBitmapData, LineDisplaySetBitmapData
+ms.keywords: LineDisplaySetBitmapData structure, LineDisplaySetBitmapData, pos.linedisplaysetbitmapdata, pointofservicedriverinterface/LineDisplaySetBitmapData, pointofservicedriverinterface/PLineDisplaySetBitmapData, PLineDisplaySetBitmapData, _LineDisplaySetBitmapData, PLineDisplaySetBitmapData structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

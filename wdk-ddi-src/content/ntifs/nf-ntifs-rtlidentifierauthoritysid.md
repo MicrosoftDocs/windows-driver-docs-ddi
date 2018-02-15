@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cf81a653-19fd-45fc-ad38-3f701241fd80
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rtlref_e4f051a9-6a6d-4008-b134-9a255b6764c0.xml, RtlIdentifierAuthoritySid function [Installable File System Drivers], ntifs/RtlIdentifierAuthoritySid, RtlIdentifierAuthoritySid, ifsk.rtlidentifierauthoritysid
+ms.keywords: RtlIdentifierAuthoritySid function [Installable File System Drivers], ifsk.rtlidentifierauthoritysid, rtlref_e4f051a9-6a6d-4008-b134-9a255b6764c0.xml, ntifs/RtlIdentifierAuthoritySid, RtlIdentifierAuthoritySid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df3bbc09-14aa-4243-887b-d88d02a59f73
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, KsMediaSamplesCompleted, IKsPin, IKsPin::KsMediaSamplesCompleted, stream.ikspin_ksmediasamplescompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, ksproxy/IKsPin::KsMediaSamplesCompleted, IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method
+ms.keywords: KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method, stream.ikspin_ksmediasamplescompleted, KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, KsMediaSamplesCompleted, IKsPin, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, ksproxy/IKsPin::KsMediaSamplesCompleted, IKsPin::KsMediaSamplesCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

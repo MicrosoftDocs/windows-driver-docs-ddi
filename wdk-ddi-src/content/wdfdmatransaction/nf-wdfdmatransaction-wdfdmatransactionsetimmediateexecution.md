@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: BC260058-1E33-43BA-B75E-79540E36A08D
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdmatransaction/WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution, PFN_WDFDMATRANSACTIONSETIMMEDIATEEXECUTION, kmdf.wdfdmatransactionsetimmediateexecution, WdfDmaTransactionSetImmediateExecution method, wdf.wdfdmatransactionsetimmediateexecution
+ms.keywords: kmdf.wdfdmatransactionsetimmediateexecution, PFN_WDFDMATRANSACTIONSETIMMEDIATEEXECUTION, wdf.wdfdmatransactionsetimmediateexecution, wdfdmatransaction/WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution method, WdfDmaTransactionSetImmediateExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,11 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4215ca86-9ceb-451d-8e67-992a8a3f9bab
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, IBidiRequestContainer, GetRequestCount method [Print Devices], GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, IBidiRequestContainer::GetRequestCount, GetRequestCount method [Print Devices], IBidiRequestContainer interface, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, IBidiRequestContainer interface [Print Devices], GetRequestCount method, _win32_IBidiRequestContainer_GetRequestCount
+ms.keywords: IBidiRequestContainer interface [Print Devices], GetRequestCount method, bidispl/IBidiRequestContainer::GetRequestCount, IBidiRequestContainer, GetRequestCount method [Print Devices], IBidiRequestContainer interface, GetRequestCount method [Print Devices], IBidiRequestContainer::GetRequestCount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, _win32_IBidiRequestContainer_GetRequestCount, GetRequestCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,15 +124,15 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
+
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
 <a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 

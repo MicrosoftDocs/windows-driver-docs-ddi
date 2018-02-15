@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2ae002b-2bc9-4e5e-b9b6-bb76849c2cba
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "_PSCRIPT5_PRIVATE_DEVMODE, *PPSCRIPT5_PRIVATE_DEVMODE, printoem/PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices], PSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], printoem/PSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE, print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, print.pscript5_private_devmode"
+ms.keywords: PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], PSCRIPT5_PRIVATE_DEVMODE, print.pscript5_private_devmode, printoem/PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices], print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, _PSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE, printoem/PSCRIPT5_PRIVATE_DEVMODE, *PPSCRIPT5_PRIVATE_DEVMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

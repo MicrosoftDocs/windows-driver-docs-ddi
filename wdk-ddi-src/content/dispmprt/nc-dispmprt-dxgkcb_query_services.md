@@ -179,7 +179,11 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -187,11 +191,7 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
-
-
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
 
 
 

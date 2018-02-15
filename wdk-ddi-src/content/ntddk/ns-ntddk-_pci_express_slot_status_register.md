@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1012abf2-a73b-49d9-8017-b0b1a1c7fbcd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], _PCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER, PPCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, *PPCI_EXPRESS_SLOT_STATUS_REGISTER
+ms.keywords: ntddk/PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI_EXPRESS_SLOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_SLOT_STATUS_REGISTER, pci_struct_2b218675-a1f4-4aec-a115-3046fac70492.xml, PPCI_EXPRESS_SLOT_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_SLOT_STATUS_REGISTER, PCI.pci_express_slot_status_register, *PPCI_EXPRESS_SLOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_SLOT_STATUS_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,14 +153,14 @@ The MRL is closed.
 The MRL is open.
 
 
-##### - PresenceDetectState.SlotEmpty
-
-The slot is empty.
-
-
 ##### - PresenceDetectState.CardPresent
 
 A card is present in the slot.
+
+
+##### - PresenceDetectState.SlotEmpty
+
+The slot is empty.
 
 
 ## -remarks

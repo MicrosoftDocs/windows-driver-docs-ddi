@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ee40ea1f-fe9b-4126-b5b1-83f60cf51909
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_NICConfig, PMSiSCSI_NICConfig structure pointer [Storage Devices], iscsicfg/PMSiSCSI_NICConfig, structs-iSCSI_2cddeb4e-7df2-4eda-ae9f-ca79c6005279.xml, PMSiSCSI_NICConfig, *PMSiSCSI_NICConfig, iscsicfg/MSiSCSI_NICConfig, _MSiSCSI_NICConfig, storage.msiscsi_nicconfig, MSiSCSI_NICConfig structure [Storage Devices]
+ms.keywords: PMSiSCSI_NICConfig structure pointer [Storage Devices], _MSiSCSI_NICConfig, iscsicfg/PMSiSCSI_NICConfig, structs-iSCSI_2cddeb4e-7df2-4eda-ae9f-ca79c6005279.xml, iscsicfg/MSiSCSI_NICConfig, MSiSCSI_NICConfig structure [Storage Devices], *PMSiSCSI_NICConfig, PMSiSCSI_NICConfig, storage.msiscsi_nicconfig, MSiSCSI_NICConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ Initiators should register each instance of the MSiSCSI_NICConfig class by using
 
 ## -see-also
 
-<a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
+
+
+
+<a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a>
 
 
 

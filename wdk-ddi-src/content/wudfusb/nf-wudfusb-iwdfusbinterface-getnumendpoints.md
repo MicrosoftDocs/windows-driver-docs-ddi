@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 60ec8b38-8ab2-45d8-92ab-5943fd9bba79
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, IWDFUsbInterface interface, GetNumEndPoints method, GetNumEndPoints method, GetNumEndPoints, IWDFUsbInterface, GetNumEndPoints method, IWDFUsbInterface interface, wudfusb/IWDFUsbInterface::GetNumEndPoints, IWDFUsbInterface::GetNumEndPoints, umdf.iwdfusbinterface_getnumendpoints, wdf.iwdfusbinterface_getnumendpoints
+ms.keywords: umdf.iwdfusbinterface_getnumendpoints, IWDFUsbInterface::GetNumEndPoints, IWDFUsbInterface interface, GetNumEndPoints method, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, wdf.iwdfusbinterface_getnumendpoints, GetNumEndPoints, wudfusb/IWDFUsbInterface::GetNumEndPoints, GetNumEndPoints method, IWDFUsbInterface interface, GetNumEndPoints method, IWDFUsbInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -131,11 +131,11 @@ The following code example retrieves the number of pipes on a USB interface and 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
 
 
 

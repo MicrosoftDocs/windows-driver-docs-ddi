@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 053BFE59-FDC6-42F3-BE14-CE63D5637D62
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaCapabilities interface [Print Devices], GetFeatureByKeyName method, GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface, IPrintSchemaCapabilities::GetFeatureByKeyName, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname, IPrintSchemaCapabilities
+ms.keywords: IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaCapabilities::GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -176,11 +176,11 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
+<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+
+
+
 <a href="..\printerextension\nn-printerextension-iprintschemanupoption.md">IPrintSchemaNUpOption</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
@@ -188,7 +188,7 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 

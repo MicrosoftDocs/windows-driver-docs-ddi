@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e0b0a4a3-6003-4b48-a3cf-570e5405fa5b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoFreeWorkItem routine [Kernel-Mode Driver Architecture], k104_7db57e08-0786-4f20-96d8-ecb7980a479c.xml, IoFreeWorkItem, wdm/IoFreeWorkItem, kernel.iofreeworkitem
+ms.keywords: IoFreeWorkItem routine [Kernel-Mode Driver Architecture], IoFreeWorkItem, k104_7db57e08-0786-4f20-96d8-ecb7980a479c.xml, kernel.iofreeworkitem, wdm/IoFreeWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
 
 

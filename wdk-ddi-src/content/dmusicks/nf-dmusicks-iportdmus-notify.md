@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 64158ea5-23ca-42a3-9284-2b1523e616b8
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: Notify method [Audio Devices], audio.iportdmus_notify, dmusicks/IPortDMus::Notify, Notify, Notify method [Audio Devices], IPortDMus interface, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, IPortDMus::Notify, IPortDMus interface [Audio Devices], Notify method, IPortDMus
+ms.keywords: IPortDMus::Notify, audmp-routines_cc818dda-ae0e-435e-8d94-f1632a4c4319.xml, dmusicks/IPortDMus::Notify, IPortDMus interface [Audio Devices], Notify method, Notify method [Audio Devices], IPortDMus interface, IPortDMus, audio.iportdmus_notify, Notify method [Audio Devices], Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -122,7 +122,7 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
 
 
 
@@ -130,7 +130,7 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
 
 
 
@@ -138,11 +138,11 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536882">IPortDMus::RegisterServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
 
 

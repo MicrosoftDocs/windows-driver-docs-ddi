@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 842842c2-ed79-4c8a-b9c1-d73c47998f91
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSendLIRR_OUT, PSendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, SendLIRR_OUT, storage.sendlirr_out, PSendLIRR_OUT structure pointer [Storage Devices], hbapiwmi/SendLIRR_OUT, structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml, _SendLIRR_OUT, SendLIRR_OUT structure [Storage Devices]"
+ms.keywords: PSendLIRR_OUT, SendLIRR_OUT, SendLIRR_OUT structure [Storage Devices], *PSendLIRR_OUT, hbapiwmi/PSendLIRR_OUT, structs-Fibre_193ae454-313d-4ada-a161-39c403226edf.xml, hbapiwmi/SendLIRR_OUT, storage.sendlirr_out, PSendLIRR_OUT structure pointer [Storage Devices], _SendLIRR_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

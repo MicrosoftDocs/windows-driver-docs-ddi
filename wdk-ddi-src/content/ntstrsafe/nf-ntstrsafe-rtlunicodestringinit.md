@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 319d1d6e-a4a2-4c2c-9c30-948c5f03a2be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringInit, safestrings_7540072b-061a-46be-a2ea-72c4da1790dd.xml, RtlUnicodeStringInit, kernel.rtlunicodestringinit, RtlUnicodeStringInit function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlunicodestringinit, RtlUnicodeStringInit function [Kernel-Mode Driver Architecture], RtlUnicodeStringInit, ntstrsafe/RtlUnicodeStringInit, safestrings_7540072b-061a-46be-a2ea-72c4da1790dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

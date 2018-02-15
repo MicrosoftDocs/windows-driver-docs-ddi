@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee51c436-2d1c-49d0-ab76-337317eeeeda
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IdleDoNotAllowUserControl, IdleAllowUserControl, wudfddi_types/IdleUserControlInvalid, wdfdevice/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wdfdevice/IdleUserControlInvalid, wdfdevice/IdleDoNotAllowUserControl, wudfddi_types/IdleAllowUserControl, wdfdevice/IdleAllowUserControl, DFDeviceObjectGeneralRef_3d85e623-4e88-4e66-a21d-489aebd13ddf.xml, IdleUserControlInvalid, kmdf.wdf_power_policy_s0_idle_user_control, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wdf.wdf_power_policy_s0_idle_user_control, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration, wudfddi_types/IdleDoNotAllowUserControl
+ms.keywords: wudfddi_types/IdleAllowUserControl, IdleUserControlInvalid, kmdf.wdf_power_policy_s0_idle_user_control, wudfddi_types/IdleDoNotAllowUserControl, wdfdevice/IdleUserControlInvalid, wdf.wdf_power_policy_s0_idle_user_control, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration, wdfdevice/IdleDoNotAllowUserControl, _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wudfddi_types/IdleUserControlInvalid, IdleDoNotAllowUserControl, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, IdleAllowUserControl, DFDeviceObjectGeneralRef_3d85e623-4e88-4e66-a21d-489aebd13ddf.xml, wdfdevice/IdleAllowUserControl, wdfdevice/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

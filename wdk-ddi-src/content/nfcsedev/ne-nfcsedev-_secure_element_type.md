@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 118B63D1-713A-4F8C-B97A-53BB6D0B819E
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfcsedev/External, Integrated, SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], SECURE_ELEMENT_TYPE, DeviceHost, SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE, nfpdrivers._secure_element_type, _SECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_TYPE, nfcsedev/_SECURE_ELEMENT_TYPE, nfcsedev/DeviceHost, nfcsedev/Integrated, External, *PSECURE_ELEMENT_TYPE
+ms.keywords: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_TYPE enumeration [Near-Field Proximity Drivers], _SECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE, Integrated, nfcsedev/Integrated, SECURE_ELEMENT_TYPE, nfcsedev/External, nfcsedev/DeviceHost, nfpdrivers._secure_element_type, *PSECURE_ELEMENT_TYPE, DeviceHost, nfcsedev/_SECURE_ELEMENT_TYPE, External
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

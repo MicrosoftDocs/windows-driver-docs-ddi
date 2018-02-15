@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 260fdda5-bc97-4522-96ca-1c29d41e8542
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceFailedAttemptRestart, WDF_DEVICE_FAILED_ACTION, wdf.wdf_device_failed_action, WdfDeviceFailedAttemptRestart, kmdf.wdf_device_failed_action, _WDF_DEVICE_FAILED_ACTION, wdfdevice/WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION enumeration, wdfdevice/WdfDeviceFailedUndefined, WdfDeviceFailedNoRestart, WdfDeviceFailedUndefined, DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, wdfdevice/WdfDeviceFailedNoRestart
+ms.keywords: wdf.wdf_device_failed_action, _WDF_DEVICE_FAILED_ACTION, DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, wdfdevice/WdfDeviceFailedNoRestart, kmdf.wdf_device_failed_action, wdfdevice/WdfDeviceFailedUndefined, WdfDeviceFailedUndefined, wdfdevice/WDF_DEVICE_FAILED_ACTION, WdfDeviceFailedAttemptRestart, WDF_DEVICE_FAILED_ACTION enumeration, wdfdevice/WdfDeviceFailedAttemptRestart, WDF_DEVICE_FAILED_ACTION, WdfDeviceFailedNoRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

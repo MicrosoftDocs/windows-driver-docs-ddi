@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: DC8A7CE9-7FDE-4FC9-8C71-3F3368E7E5C1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksi/KSCLOCKINSTANCE, PKSCLOCKINSTANCE, *PKSCLOCKINSTANCE, stream.ksclockinstance, ksi/PKSCLOCKINSTANCE, KSCLOCKINSTANCE, KSCLOCKINSTANCE structure [Streaming Media Devices], PKSCLOCKINSTANCE structure pointer [Streaming Media Devices]
+ms.keywords: KSCLOCKINSTANCE structure [Streaming Media Devices], KSCLOCKINSTANCE, ksi/PKSCLOCKINSTANCE, ksi/KSCLOCKINSTANCE, *PKSCLOCKINSTANCE, stream.ksclockinstance, PKSCLOCKINSTANCE, PKSCLOCKINSTANCE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

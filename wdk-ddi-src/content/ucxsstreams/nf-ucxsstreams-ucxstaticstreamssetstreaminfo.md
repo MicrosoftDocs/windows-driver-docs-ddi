@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses._ucxstaticstreamssetstreaminfo, UcxStaticStreamsSetStreamInfo method [Buses], UcxStaticStreamsSetStreamInfo
+ms.keywords: UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], buses._ucxstaticstreamssetstreaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

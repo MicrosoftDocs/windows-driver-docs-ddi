@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 79e56363-1098-42bb-8e6a-c4b4c76e7e7c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlInitializeExtraCreateParameterList, ntifs/FsRtlInitializeExtraCreateParameterList, ifsk.fsrtlinitializeextracreateparameterlist, FsRtlInitializeExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_785d3f11-f568-491e-9cdb-abba70ae3eeb.xml
+ms.keywords: ntifs/FsRtlInitializeExtraCreateParameterList, FsRtlInitializeExtraCreateParameterList, FsRtlInitializeExtraCreateParameterList routine [Installable File System Drivers], ifsk.fsrtlinitializeextracreateparameterlist, fsrtlref_785d3f11-f568-491e-9cdb-abba70ae3eeb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

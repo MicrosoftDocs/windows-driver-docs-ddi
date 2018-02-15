@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BBA834D0-4D21-42EF-98B0-9AF3FF28E6E2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.device_data_set_repair_parameters, DEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/PDEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS structure [Storage Devices], _DEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer [Storage Devices], *PDEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/DEVICE_DATA_SET_REPAIR_PARAMETERS
+ms.keywords: "_DEVICE_DATA_SET_REPAIR_PARAMETERS, storage.device_data_set_repair_parameters, ntddstor/DEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS, *PDEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer [Storage Devices], DEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/PDEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,15 +99,15 @@ The <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> members of <a href
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552520">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
 
 
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

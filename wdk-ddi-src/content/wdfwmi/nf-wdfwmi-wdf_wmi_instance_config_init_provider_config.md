@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e65a7fa3-1c9c-447a-b99a-a63570c9e233
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_wmi_instance_config_init_provider_config, DFWMIRef_6aec4b1b-494c-4f9f-89c3-a8e79fa552da.xml, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function, wdf.wdf_wmi_instance_config_init_provider_config, wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
+ms.keywords: WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG, wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG, kmdf.wdf_wmi_instance_config_init_provider_config, wdf.wdf_wmi_instance_config_init_provider_config, DFWMIRef_6aec4b1b-494c-4f9f-89c3-a8e79fa552da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,7 +109,7 @@ For a code example the uses <b>WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG</b>,
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
 
 
@@ -121,11 +121,11 @@ For a code example the uses <b>WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG</b>,
 
 
 
+<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_instance_config_init_provider.md">WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER</a>
+
+
+
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
 
 

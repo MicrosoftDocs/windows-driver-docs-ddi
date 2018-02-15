@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: ac539b82-83a1-4ccb-8088-c6f4b746a184
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iaction_settarget, Microsoft::WDTF::IAction::SetTarget, IAction_6b35121b-1750-475f-8c37-5edf9c0b8585.xml, IAction::SetTarget, Microsoft.WDTF.IAction.SetTarget, IAction, SetTarget method [Windows Device Testing Framework], SetTarget, SetTarget method [Windows Device Testing Framework], IAction interface, wdtf/IAction::SetTarget, IAction interface [Windows Device Testing Framework], SetTarget method
+ms.keywords: SetTarget method [Windows Device Testing Framework], IAction, dtf.iaction_settarget, IAction::SetTarget, wdtf/IAction::SetTarget, SetTarget, IAction interface [Windows Device Testing Framework], SetTarget method, SetTarget method [Windows Device Testing Framework], IAction interface, Microsoft::WDTF::IAction::SetTarget, IAction_6b35121b-1750-475f-8c37-5edf9c0b8585.xml, Microsoft.WDTF.IAction.SetTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,11 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-iaction.md">IAction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action interfaces</a>
 
 
 
@@ -112,11 +112,11 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action interfaces</a>
+<a href="..\wdtf\nn-wdtf-iaction.md">IAction</a>
 
 
 

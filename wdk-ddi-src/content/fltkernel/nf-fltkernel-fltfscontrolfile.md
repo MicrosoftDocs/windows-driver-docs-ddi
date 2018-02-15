@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: afc72cdf-ea29-4e78-95a0-fc621e3290a7
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltFsControlFile routine [Installable File System Drivers], ifsk.fltfscontrolfile, FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, fltkernel/FltFsControlFile, FltFsControlFile
+ms.keywords: FltFsControlFile routine [Installable File System Drivers], FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, ifsk.fltfscontrolfile, FltFsControlFile, fltkernel/FltFsControlFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

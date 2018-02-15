@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70f45ca2-4be6-4e74-b2e8-55ef7a43192f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_ADAPTERADDRESS, display.d3dkmt_adapteraddress, d3dkmthk/D3DKMT_ADAPTERADDRESS, D3DKMT_ADAPTERADDRESS structure [Display Devices], D3DKMT_ADAPTERADDRESS, OpenGL_Structs_98b1caf8-46c4-4f78-896c-031e8f3f61d0.xml"
+ms.keywords: "_D3DKMT_ADAPTERADDRESS, OpenGL_Structs_98b1caf8-46c4-4f78-896c-031e8f3f61d0.xml, D3DKMT_ADAPTERADDRESS structure [Display Devices], display.d3dkmt_adapteraddress, d3dkmthk/D3DKMT_ADAPTERADDRESS, D3DKMT_ADAPTERADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ typedef struct _D3DKMT_ADAPTERADDRESS {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
 
 

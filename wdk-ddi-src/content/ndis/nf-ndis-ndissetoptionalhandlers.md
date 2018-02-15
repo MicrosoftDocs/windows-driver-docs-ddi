@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 97649f4f-942a-47fc-a541-6f160c8b4eb4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, ndis/NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], NdisSetOptionalHandlers, netvista.ndissetoptionalhandlers
+ms.keywords: ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, ndis/NdisSetOptionalHandlers, netvista.ndissetoptionalhandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], NdisSetOptionalHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -376,15 +376,7 @@ For more information on the 4 chimney offload structures, see
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -393,35 +385,7 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
-   NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
-   ProtocolOpenAdapterCompleteEx</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
 
 
@@ -430,12 +394,17 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+   ProtocolOpenAdapterCompleteEx</a>
 
 
 
@@ -444,7 +413,38 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+   NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 

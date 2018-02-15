@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d64fb3e6-fba1-4383-bdb0-a63dc7c16033
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcbcopyn, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCopyNA, RtlStringCbCopyN, RtlStringCbCopyNW, RtlStringCbCopyNA, safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml, ntstrsafe/RtlStringCbCopyNW
+ms.keywords: safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml, kernel.rtlstringcbcopyn, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], RtlStringCbCopyNA, ntstrsafe/RtlStringCbCopyNA, RtlStringCbCopyNW, ntstrsafe/RtlStringCbCopyNW, RtlStringCbCopyN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -220,11 +220,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynexw.md">RtlStringCbCopyNEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynexw.md">RtlStringCbCopyNEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c53672b7-fbe7-45f7-b3ff-30cfeefa7d52
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchCopyNExA, STRSAFE_IGNORE_NULLS, kernel.rtlstringcchcopynex, STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCchCopyNExA, STRSAFE_FILL_BEHIND_NULL, RtlStringCchCopyNEx, ntstrsafe/RtlStringCchCopyNExW, safestrings_60ae1ee7-e0ba-407d-8946-a2928d2b9b32.xml, RtlStringCchCopyNExW, RtlStringCchCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_NO_TRUNCATION, STRSAFE_FILL_ON_FAILURE
+ms.keywords: RtlStringCchCopyNExW, STRSAFE_IGNORE_NULLS, kernel.rtlstringcchcopynex, safestrings_60ae1ee7-e0ba-407d-8946-a2928d2b9b32.xml, ntstrsafe/RtlStringCchCopyNExA, RtlStringCchCopyNExA, RtlStringCchCopyNEx, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, RtlStringCchCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCchCopyNExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

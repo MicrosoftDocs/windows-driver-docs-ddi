@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 98eb2bef-18ac-449f-b180-7b0f768cc093
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlCurrentOplockH function [Installable File System Drivers], FsRtlCurrentOplockH, ntifs/FsRtlCurrentOplockH, ifsk.fsrtlcurrentoplockh, fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml
+ms.keywords: FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], ntifs/FsRtlCurrentOplockH, fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, ifsk.fsrtlcurrentoplockh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39deba08-3ff0-4037-b530-0cb4a01fc758
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismqueryprobedbars, ndis/NdisMQueryProbedBars, NdisMQueryProbedBars, NdisMQueryProbedBars function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismqueryprobedbars, NdisMQueryProbedBars, NdisMQueryProbedBars function [Network Drivers Starting with Windows Vista], ndis/NdisMQueryProbedBars
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,11 +163,11 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451140">GetVirtualFunctionProbedBars</a>
 
 
 

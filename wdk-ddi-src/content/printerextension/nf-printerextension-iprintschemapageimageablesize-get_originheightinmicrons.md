@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9D266AC2-4CA1-4E23-B058-F2841420D0AC
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: get_OriginHeightInMicrons, IPrintSchemaPageImageableSize, OriginHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, print.iprintschemapageimageablesize_originheightinmicrons, IPrintSchemaPageImageableSize interface [Print Devices], OriginHeightInMicrons property, IPrintSchemaPageImageableSize::get_OriginHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::OriginHeightInMicrons, IPrintSchemaPageImageableSize.OriginHeightInMicrons, OriginHeightInMicrons property [Print Devices], printerextension/IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
+ms.keywords: print.iprintschemapageimageablesize_originheightinmicrons, IPrintSchemaPageImageableSize.OriginHeightInMicrons, OriginHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, printerextension/IPrintSchemaPageImageableSize::OriginHeightInMicrons, IPrintSchemaPageImageableSize interface [Print Devices], OriginHeightInMicrons property, printerextension/IPrintSchemaPageImageableSize::get_OriginHeightInMicrons, IPrintSchemaPageImageableSize, get_OriginHeightInMicrons, OriginHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

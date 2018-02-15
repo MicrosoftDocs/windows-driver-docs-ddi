@@ -154,11 +154,11 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 
@@ -166,7 +166,7 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 

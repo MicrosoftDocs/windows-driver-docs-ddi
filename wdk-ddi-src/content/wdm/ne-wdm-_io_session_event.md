@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSessionEventLogoff, wdm/IoSessionEventTerminated, IO_SESSION_EVENT, kernel.io_session_event, IoSessionEventConnected, IoSessionEventLogon, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IoSessionEventLogon, IoSessionEventDisconnected, PIO_SESSION_EVENT, IoSessionEventTerminated, wdm/IoSessionEventCreated, *PIO_SESSION_EVENT, wdm/IoSessionEventMax, IoSessionEventMax, wdm/IoSessionEventDisconnected, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], IoSessionEventCreated, _IO_SESSION_EVENT, IoSessionEventLogoff, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], wdm/IO_SESSION_EVENT, wdm/IoSessionEventConnected, wdm/PIO_SESSION_EVENT
+ms.keywords: wdm/IoSessionEventLogon, IoSessionEventLogoff, wdm/IO_SESSION_EVENT, IoSessionEventCreated, IO_SESSION_EVENT, IoSessionEventTerminated, kernel.io_session_event, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IoSessionEventCreated, IoSessionEventConnected, IoSessionEventMax, wdm/IoSessionEventMax, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], *PIO_SESSION_EVENT, _IO_SESSION_EVENT, PIO_SESSION_EVENT, IoSessionEventLogon, wdm/IoSessionEventConnected, wdm/IoSessionEventTerminated, wdm/PIO_SESSION_EVENT, IoSessionEventDisconnected, wdm/IoSessionEventLogoff, wdm/IoSessionEventDisconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -125,11 +125,11 @@ A session event causes a transition from one session state to another. For more 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
-
-
-
 <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, print.iprintoemprintticketprovider_bindprinter, IPrintOemPrintTicketProvider::BindPrinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, IPrintOemPrintTicketProvider, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface
+ms.keywords: prcomoem/IPrintOemPrintTicketProvider::BindPrinter, BindPrinter method [Print Devices], IPrintOemPrintTicketProvider interface, BindPrinter method [Print Devices], print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml, IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_bindprinter, IPrintOemPrintTicketProvider interface [Print Devices], BindPrinter method, IPrintOemPrintTicketProvider::BindPrinter, BindPrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

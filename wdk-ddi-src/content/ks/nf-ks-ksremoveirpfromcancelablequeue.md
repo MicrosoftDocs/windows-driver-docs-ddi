@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6bc23364-07c9-4a01-b475-e4620f62a674
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, ks/KsRemoveIrpFromCancelableQueue, KsRemoveIrpFromCancelableQueue, stream.ksremoveirpfromcancelablequeue, KsRemoveIrpFromCancelableQueue function [Streaming Media Devices]
+ms.keywords: KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveIrpFromCancelableQueue, ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, stream.ksremoveirpfromcancelablequeue, KsRemoveIrpFromCancelableQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

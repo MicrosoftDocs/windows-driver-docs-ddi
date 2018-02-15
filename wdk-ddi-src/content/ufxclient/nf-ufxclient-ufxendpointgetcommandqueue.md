@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BF84F0E4-3B0D-45B8-AC06-F6F761A37234
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UfxEndpointGetCommandQueue method [Buses], UfxEndpointGetCommandQueue, buses.ufxendpointgetcommandqueue, ufxclient/UfxEndpointGetCommandQueue
+ms.keywords: UfxEndpointGetCommandQueue, UfxEndpointGetCommandQueue method [Buses], buses.ufxendpointgetcommandqueue, ufxclient/UfxEndpointGetCommandQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

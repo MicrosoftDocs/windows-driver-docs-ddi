@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0fc9fb57-219e-4a3d-bc82-904ab8657d66
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxPostToWorkerThread routine [Installable File System Drivers], RxPostToWorkerThread, ifsk.rxposttoworkerthread, rxref_19387eca-2666-41c0-a93d-2133d3ca03ee.xml, rxworkq/RxPostToWorkerThread
+ms.keywords: RxPostToWorkerThread routine [Installable File System Drivers], rxref_19387eca-2666-41c0-a93d-2133d3ca03ee.xml, RxPostToWorkerThread, rxworkq/RxPostToWorkerThread, ifsk.rxposttoworkerthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -172,15 +172,15 @@ If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="
 
 ## -see-also
 
+<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
+
+
+
 <a href="..\rxworkq\nf-rxworkq-rxspindownmrxdispatcher.md">RxSpinDownMRxDispatcher</a>
 
 
 
 <a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
-
-
-
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
 
 
 

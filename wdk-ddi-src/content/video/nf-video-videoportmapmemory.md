@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c1b54ef4-93b5-41df-8a49-8b00cbd4bcee
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortMapMemory function [Display Devices], display.videoportmapmemory, video/VideoPortMapMemory, VideoPortMapMemory, VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml
+ms.keywords: VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml, video/VideoPortMapMemory, VideoPortMapMemory function [Display Devices], display.videoportmapmemory, VideoPortMapMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

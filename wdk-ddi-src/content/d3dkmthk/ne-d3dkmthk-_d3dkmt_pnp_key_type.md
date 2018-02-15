@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 48B173D5-56C3-4611-BC55-CB7A25D05352
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_PNP_KEY_TYPE enumeration [Display Devices], d3dkmthk/D3DKMT_PNP_KEY_HARDWARE, D3DKMT_PNP_KEY_SOFTWARE, display.d3dkmt_pnp_key_type, D3DKMT_PNP_KEY_HARDWARE, D3DKMT_PNP_KEY_TYPE, d3dkmthk/D3DKMT_PNP_KEY_TYPE, d3dkmthk/D3DKMT_PNP_KEY_SOFTWARE, _D3DKMT_PNP_KEY_TYPE
+ms.keywords: d3dkmthk/D3DKMT_PNP_KEY_SOFTWARE, D3DKMT_PNP_KEY_SOFTWARE, display.d3dkmt_pnp_key_type, d3dkmthk/D3DKMT_PNP_KEY_HARDWARE, D3DKMT_PNP_KEY_HARDWARE, _D3DKMT_PNP_KEY_TYPE, d3dkmthk/D3DKMT_PNP_KEY_TYPE, D3DKMT_PNP_KEY_TYPE, D3DKMT_PNP_KEY_TYPE enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

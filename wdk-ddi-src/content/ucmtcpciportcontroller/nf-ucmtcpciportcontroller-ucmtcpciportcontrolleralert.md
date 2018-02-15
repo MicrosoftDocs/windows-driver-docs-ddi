@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 38700667-d872-4c08-b846-236e94318dba
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerAlert, buses.ucmtcpciportcontrolleralert
+ms.keywords: UcmTcpciPortControllerAlert, buses.ucmtcpciportcontrolleralert, UcmTcpciPortControllerAlert method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerAlert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

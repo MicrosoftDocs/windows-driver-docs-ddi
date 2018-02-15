@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: af94f36f-6e1a-4ac5-be6d-64a9a8dade9e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, stream.kspropertyhandler, ks/KsPropertyHandler
+ms.keywords: KsPropertyHandler function [Streaming Media Devices], stream.kspropertyhandler, KsPropertyHandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, ks/KsPropertyHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,11 +113,11 @@ The owner of the property sets can perform prefiltering or postfiltering of prop
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
-
-
-
 <a href="..\ks\nf-ks-kspropertyhandlerwithallocator.md">KsPropertyHandlerWithAllocator</a>
+
+
+
+<a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
 
 
 

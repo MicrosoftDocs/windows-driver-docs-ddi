@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetOutputAlphaFillMode
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTALPHAFILLMODE callback
@@ -78,18 +78,29 @@ VOID APIENTRY* pfnVideoProcessorSetOutputAlphaFillMode(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 
 
-
 ### -param UINT
 
 
+
+
+
+
+
+
+#### - FillMode [in]
+
+The alpha fill mode, specified as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_alpha_fill_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE</a> value. For more information, see the Remarks section.
+
+
+#### - StreamIndex [in]
+
+The zero-based index of an input stream. This parameter is used if the <i>AlphaFillMode</i> parameter is set to <b>D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM</b>. Otherwise, the parameter is ignored.
 
 
 
@@ -108,32 +119,27 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - FillMode [in]
-
-The alpha fill mode, specified as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_alpha_fill_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE</a> value. For more information, see the Remarks section.
-
-
-#### - StreamIndex [in]
-
-The zero-based index of an input stream. This parameter is used if the <i>AlphaFillMode</i> parameter is set to <b>D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM</b>. Otherwise, the parameter is ignored.
-
-
-
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The driver reports its ability to support alpha fill modes in the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a> structure that is returned through the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a> function. If the driver supports the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL</b> capability, it supports all of the alpha fill modes that are defined by the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_alpha_fill_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE</a> enumeration. Otherwise, the <i>FillMode</i> parameter must be set to <b>D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE</b>. 
 
 
-<div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetOutputAlphaFillMode</b> function.</div><div> </div>The default fill mode is <b>D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE</b>.
+
+<div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetOutputAlphaFillMode</b> function.</div>
+<div> </div>
+The default fill mode is <b>D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_OPAQUE</b>.
+
 
 
 
@@ -141,15 +147,25 @@ The driver reports its ability to support alpha fill modes in the <a href="..\d3
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_alpha_fill_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_alpha_fill_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
+
+
 
  
 

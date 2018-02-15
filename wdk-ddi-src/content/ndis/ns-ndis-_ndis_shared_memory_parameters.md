@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 286b08f6-179e-426e-ae65-b108529d049a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SHARED_MEMORY_PARAMETERS, ndis/PNDIS_SHARED_MEMORY_PARAMETERS, *PNDIS_SHARED_MEMORY_PARAMETERS, netvista.ndis_shared_memory_parameters, NDIS_SHARED_MEMORY_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_SHARED_MEMORY_PARAMETERS, PNDIS_SHARED_MEMORY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_PARAMETERS, PNDIS_SHARED_MEMORY_PARAMETERS, ndis_shared_memory_ref_76b2c89f-c221-42de-ae92-ad10cf2297f2.xml
+ms.keywords: ndis/NDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS, ndis_shared_memory_ref_76b2c89f-c221-42de-ae92-ad10cf2297f2.xml, PNDIS_SHARED_MEMORY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PARAMETERS, _NDIS_SHARED_MEMORY_PARAMETERS, netvista.ndis_shared_memory_parameters, ndis/PNDIS_SHARED_MEMORY_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -198,15 +198,7 @@ NDIS drivers pass this structure to the
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-
-
 <a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a>
-
-
-
-<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
 
 
 
@@ -215,6 +207,14 @@ NDIS drivers pass this structure to the
 
 
 <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
+
+
+
+<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
+
+
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f615acc4-7e3e-4390-8a6a-e68663fcc162
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, ndis/NdisSendNetBufferLists, NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], NdisSendNetBufferLists, netvista.ndissendnetbufferlists
+ms.keywords: NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], netvista.ndissendnetbufferlists, NdisSendNetBufferLists, ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, ndis/NdisSendNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -219,46 +219,7 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
-   NdisAllocateCloneNetBufferList</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-   ProtocolSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
@@ -267,7 +228,46 @@ Until NDIS calls
 
 
 
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+
+
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+   ProtocolSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+   NdisAllocateCloneNetBufferList</a>
 
 
 

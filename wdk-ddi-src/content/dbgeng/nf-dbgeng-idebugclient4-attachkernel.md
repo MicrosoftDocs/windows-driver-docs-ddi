@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb861179-3567-4654-a702-40ee3319b27a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient3 interface [Windows Debugging], AttachKernel method, dbgeng/IDebugClient::AttachKernel, AttachKernel method [Windows Debugging], dbgeng/IDebugClient5::AttachKernel, dbgeng/IDebugClient4::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient5 interface, AttachKernel method [Windows Debugging], IDebugClient interface, debugger.attachkernel, dbgeng/IDebugClient3::AttachKernel, IDebugClient2 interface [Windows Debugging], AttachKernel method, AttachKernel, IDebugClient::AttachKernel, IDebugClient5 interface [Windows Debugging], AttachKernel method, AttachKernel method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient2::AttachKernel, IDebugClient4 interface [Windows Debugging], AttachKernel method, IDebugClient2, IDebugClient3::AttachKernel, IDebugClient2::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient4 interface, IDebugClient4, IDebugClient4::AttachKernel, IDebugClient3, IDebugClient5::AttachKernel, IDebugClient_9008538b-3492-4952-a18f-b1dd346e887e.xml, IDebugClient interface [Windows Debugging], AttachKernel method, IDebugClient, AttachKernel method [Windows Debugging], IDebugClient2 interface
+ms.keywords: IDebugClient4 interface [Windows Debugging], AttachKernel method, IDebugClient4::AttachKernel, IDebugClient3, IDebugClient2::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient2 interface, IDebugClient, AttachKernel method [Windows Debugging], IDebugClient4 interface, AttachKernel method [Windows Debugging], IDebugClient3 interface, IDebugClient_9008538b-3492-4952-a18f-b1dd346e887e.xml, dbgeng/IDebugClient3::AttachKernel, debugger.attachkernel, dbgeng/IDebugClient2::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient interface, IDebugClient::AttachKernel, IDebugClient2 interface [Windows Debugging], AttachKernel method, dbgeng/IDebugClient4::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::AttachKernel, IDebugClient5 interface [Windows Debugging], AttachKernel method, IDebugClient interface [Windows Debugging], AttachKernel method, IDebugClient2, AttachKernel, dbgeng/IDebugClient::AttachKernel, AttachKernel method [Windows Debugging], IDebugClient3 interface [Windows Debugging], AttachKernel method, IDebugClient4, IDebugClient3::AttachKernel, IDebugClient5::AttachKernel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,14 +124,14 @@ Specifies the connection settings for communicating with the computer running th
 eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
 
 
-##### - ConnectOptions.DEBUG_ATTACH_KERNEL_CONNECTION
-
-<i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.
-
-
 ##### - ConnectOptions.DEBUG_ATTACH_EXDI_DRIVER
 
 eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
+
+
+##### - ConnectOptions.DEBUG_ATTACH_KERNEL_CONNECTION
+
+<i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.
 
 
 ## -returns
@@ -175,7 +175,7 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 
 
@@ -195,7 +195,7 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -203,7 +203,7 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

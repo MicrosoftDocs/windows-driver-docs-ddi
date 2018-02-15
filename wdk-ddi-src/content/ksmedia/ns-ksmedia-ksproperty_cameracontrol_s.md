@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 203c6452-26d4-4dbf-89d4-c7e6d47e7c16
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml, stream.ksproperty_cameracontrol_s, ksmedia/KSPROPERTY_CAMERACONTROL_S, ksmedia/PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S
+ms.keywords: PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S, stream.ksproperty_cameracontrol_s, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml, ksmedia/PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -188,7 +188,7 @@ Indicates that the device settings are in relative values.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_s.md">KSPROPERTY_CAMERACONTROL_NODE_S</a>
 
 
 
@@ -196,7 +196,7 @@ Indicates that the device settings are in relative values.
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_s.md">KSPROPERTY_CAMERACONTROL_NODE_S</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

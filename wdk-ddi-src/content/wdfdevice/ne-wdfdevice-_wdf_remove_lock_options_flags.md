@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3822B8A2-1EFB-45C7-A7DB-FBCE76A06336
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_remove_lock_options_flags, wdfdevice/WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_FLAGS, kmdf.wdf_remove_lock_options_flags, WDF_REMOVE_LOCK_OPTIONS_FLAGS, _WDF_REMOVE_LOCK_OPTIONS_FLAGS, WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration, WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO
+ms.keywords: WDF_REMOVE_LOCK_OPTIONS_FLAGS, kmdf.wdf_remove_lock_options_flags, wdf.wdf_remove_lock_options_flags, wdfdevice/WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO, WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO, WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_FLAGS, _WDF_REMOVE_LOCK_OPTIONS_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -90,11 +90,11 @@ For more information about using remove locks in a framework-based driver, see <
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
 
 
 

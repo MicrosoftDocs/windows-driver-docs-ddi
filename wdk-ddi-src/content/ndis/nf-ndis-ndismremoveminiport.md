@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70745b03-f9a3-4398-b41a-dc75bd16ffe0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismremoveminiport, miniport_ndis_functions_ref_54f3a264-7933-4dca-86f4-42652abe9a9a.xml, NdisMRemoveMiniport function [Network Drivers Starting with Windows Vista], ndis/NdisMRemoveMiniport, NdisMRemoveMiniport
+ms.keywords: ndis/NdisMRemoveMiniport, miniport_ndis_functions_ref_54f3a264-7933-4dca-86f4-42652abe9a9a.xml, NdisMRemoveMiniport, netvista.ndismremoveminiport, NdisMRemoveMiniport function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

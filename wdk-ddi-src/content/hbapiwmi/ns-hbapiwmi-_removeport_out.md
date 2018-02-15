@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 89cb75e4-5e3b-4277-b173-abed00a7360b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PRemovePort_OUT, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, PRemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices], *PRemovePort_OUT, RemovePort_OUT structure [Storage Devices], hbapiwmi/RemovePort_OUT, storage.removeport_out, RemovePort_OUT, _RemovePort_OUT
+ms.keywords: hbapiwmi/RemovePort_OUT, storage.removeport_out, _RemovePort_OUT, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, PRemovePort_OUT structure pointer [Storage Devices], RemovePort_OUT, PRemovePort_OUT, *PRemovePort_OUT, hbapiwmi/PRemovePort_OUT, RemovePort_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

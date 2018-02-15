@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 02adb7a7-0c1d-4dd4-bde2-f2e700a7ee76
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltOplockFsctrlEx, FltOplockFsctrlEx routine [Installable File System Drivers], ifsk.fltoplockfsctrlex, FltApiRef_e_to_o_fbf1fd08-c50d-41f9-8d13-5bd8f1265625.xml, fltkernel/FltOplockFsctrlEx
+ms.keywords: fltkernel/FltOplockFsctrlEx, ifsk.fltoplockfsctrlex, FltApiRef_e_to_o_fbf1fd08-c50d-41f9-8d13-5bd8f1265625.xml, FltOplockFsctrlEx, FltOplockFsctrlEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -176,35 +176,7 @@ The value of the <i>ShareAccess</i> parameter for the IRP_MJ_CREATE operation is
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 
@@ -212,19 +184,11 @@ The value of the <i>ShareAccess</i> parameter for the IRP_MJ_CREATE operation is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex~r3.md">FsRtlOplockFsctrlEx</a>
+<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
 
 
 
@@ -232,7 +196,43 @@ The value of the <i>ShareAccess</i> parameter for the IRP_MJ_CREATE operation is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex~r3.md">FsRtlOplockFsctrlEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 

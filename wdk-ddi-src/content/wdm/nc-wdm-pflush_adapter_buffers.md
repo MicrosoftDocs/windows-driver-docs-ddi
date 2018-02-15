@@ -40,7 +40,7 @@ apiname:
 -	FlushAdapterBuffers
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,7 @@ BOOLEAN FlushAdapterBuffers(
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param Mdl [in]
@@ -109,17 +109,20 @@ Specifies the direction of the DMA transfer operation: <b>TRUE</b> for a transfe
 ## -returns
 
 
+
 <b>FlushAdapterBuffers</b> returns <b>TRUE</b> if any data remaining in the DMA controller's or bus-master adapter's internal cache has been successfully flushed into system memory or out to the device.
+
 
 
 
 ## -remarks
 
 
+
 <b>FlushAdapterBuffers</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
+           structure. Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>.
 
 To ensure that a DMA transfer is complete, every driver that performs DMA operations must call <b>FlushAdapterBuffers</b> before completing the IRP that requested the DMA transfer and before freeing the map registers.
 
@@ -127,21 +130,36 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
 
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
 
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
 
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
 
  
 

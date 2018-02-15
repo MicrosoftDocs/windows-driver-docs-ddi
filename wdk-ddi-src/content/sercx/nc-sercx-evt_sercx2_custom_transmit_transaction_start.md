@@ -185,6 +185,10 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START</b> function type is defined
 
 
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingoffset.md">WdfDmaTransactionInitializeUsingOffset</a>
+
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup.md">EvtSerCx2CustomTransmitTransactionCleanup</a>
 
 
@@ -193,15 +197,11 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START</b> function type is defined
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingoffset.md">WdfDmaTransactionInitializeUsingOffset</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 

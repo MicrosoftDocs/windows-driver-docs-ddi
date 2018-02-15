@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 66231303-20ec-42d4-b61d-c8e85e4e6a88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVC_SUBUNIT_INFO_BLOCK, avc/PAVC_SUBUNIT_INFO_BLOCK, avcref_d8151f14-0fc4-4be5-b815-d94dc77165db.xml, AVC_SUBUNIT_INFO_BLOCK structure [Streaming Media Devices], _AVC_SUBUNIT_INFO_BLOCK, avc/AVC_SUBUNIT_INFO_BLOCK, stream.avc_subunit_info_block, PAVC_SUBUNIT_INFO_BLOCK structure pointer [Streaming Media Devices], *PAVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK
+ms.keywords: avcref_d8151f14-0fc4-4be5-b815-d94dc77165db.xml, *PAVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK structure [Streaming Media Devices], avc/PAVC_SUBUNIT_INFO_BLOCK, avc/AVC_SUBUNIT_INFO_BLOCK, _AVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK, PAVC_SUBUNIT_INFO_BLOCK, stream.avc_subunit_info_block, PAVC_SUBUNIT_INFO_BLOCK structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,15 +87,15 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-
-
-
 <a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554164">AVC_FUNCTION_GET_SUBUNIT_INFO</a>
+
+
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 

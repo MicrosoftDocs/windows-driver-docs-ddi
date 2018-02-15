@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6907eb45-8d29-4cdc-80eb-2d8cafbbd9bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_QUERYEXTENSIONCAPSINPUT structure [Display Devices], _DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVADDI_QUERYEXTENSIONCAPSINPUT, d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT, display.dxvaddi_queryextensioncapsinput, DXVA2_Structs_82433e94-79b3-4398-a38e-7f7a99cc09be.xml
+ms.keywords: d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVA2_Structs_82433e94-79b3-4398-a38e-7f7a99cc09be.xml, DXVADDI_QUERYEXTENSIONCAPSINPUT, display.dxvaddi_queryextensioncapsinput, DXVADDI_QUERYEXTENSIONCAPSINPUT structure [Display Devices], _DXVADDI_QUERYEXTENSIONCAPSINPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,19 +106,19 @@ Extension capability types can be defined from DXVADDI_EXTENSION_CAPTYPE_MIN (30
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
 
 
 

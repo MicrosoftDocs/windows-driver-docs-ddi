@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 47d5e7e2-bc97-4413-b1ca-ef958288902c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoCreateFileEx, ifsk.iocreatefileex, ntddk/IoCreateFileEx, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml, IoCreateFileEx routine [Installable File System Drivers]
+ms.keywords: ntddk/IoCreateFileEx, IoCreateFileEx routine [Installable File System Drivers], ifsk.iocreatefileex, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml, IoCreateFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -1062,35 +1062,35 @@ If the I/O request does not go to the top of the driver stack, that is if the <i
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -1102,15 +1102,23 @@ If the I/O request does not go to the top of the driver stack, that is if the <i
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
-<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 
 
@@ -1118,23 +1126,15 @@ If the I/O request does not go to the top of the driver stack, that is if the <i
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -1142,7 +1142,7 @@ If the I/O request does not go to the top of the driver stack, that is if the <i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

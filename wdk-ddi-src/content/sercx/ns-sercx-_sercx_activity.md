@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 743AA179-3FD1-4528-9A78-5ECC53642D55
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx_activity, SERCX_ACTIVITY, *PSERCX_ACTIVITY, 1/PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], SERCX_ACTIVITY structure [Serial Ports], 1/SERCX_ACTIVITY, PSERCX_ACTIVITY, _SERCX_ACTIVITY
+ms.keywords: serports.sercx_activity, SERCX_ACTIVITY, 1/PSERCX_ACTIVITY, PSERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports], 1/SERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], *PSERCX_ACTIVITY, _SERCX_ACTIVITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,11 +104,7 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
+<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
 
 
 
@@ -116,7 +112,11 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 
 
-<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
+<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 
 

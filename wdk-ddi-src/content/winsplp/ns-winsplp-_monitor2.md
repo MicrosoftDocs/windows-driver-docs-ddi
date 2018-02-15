@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0bfb5119-2034-4e63-9fbe-e2ff42a352d6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: LPMONITOR2, winsplp/PMONITOR2, _MONITOR2, winsplp/MONITOR2, *PMONITOR2, MONITOR2, MONITOR2 structure [Print Devices], winsplp/LPMONITOR2, PMONITOR2 structure pointer [Print Devices], PMONITOR2, *LPMONITOR2, LPMONITOR2 structure pointer [Print Devices], spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, print.monitor2
+ms.keywords: MONITOR2 structure [Print Devices], LPMONITOR2, _MONITOR2, winsplp/LPMONITOR2, *PMONITOR2, LPMONITOR2 structure pointer [Print Devices], MONITOR2, winsplp/PMONITOR2, *LPMONITOR2, PMONITOR2, winsplp/MONITOR2, print.monitor2, spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, PMONITOR2 structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

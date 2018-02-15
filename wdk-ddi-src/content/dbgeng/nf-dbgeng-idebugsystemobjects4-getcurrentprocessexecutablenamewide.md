@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4b87adca-e838-471b-a600-1327253ee45d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableNameWide method, GetCurrentProcessExecutableNameWide
+ms.keywords: debugger.getcurrentprocessexecutablenamewide, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableNameWide method, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide, IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

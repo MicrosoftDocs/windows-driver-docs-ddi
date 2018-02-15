@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 754d2a4c-6a22-4c25-87e2-e30e87b9c1ba
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/SRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml, _SRB_IO_CONTROL, PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], SRB_IO_CONTROL, storage.srb_io_control, ntddscsi/PSRB_IO_CONTROL, *PSRB_IO_CONTROL
+ms.keywords: "_SRB_IO_CONTROL, storage.srb_io_control, SRB_IO_CONTROL structure [Storage Devices], ntddscsi/SRB_IO_CONTROL, PSRB_IO_CONTROL, ntddscsi/PSRB_IO_CONTROL, *PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml, SRB_IO_CONTROL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,11 +112,11 @@ This structure is used by applications to send requests directly to an applicati
 
 ## -see-also
 
-SCSI Port I/O Control Codes
-
-
-
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+SCSI Port I/O Control Codes
 
 
 

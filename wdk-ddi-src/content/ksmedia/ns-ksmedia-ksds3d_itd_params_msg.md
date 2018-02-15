@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: cc580766-54ca-47b2-93dd-2f234afa73ff
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: KSDS3D_ITD_PARAMS_MSG, ksmedia/KSDS3D_ITD_PARAMS_MSG, aud-prop_af31be2f-c153-4430-9634-6d29b05208dd.xml, PKSDS3D_ITD_PARAMS_MSG structure pointer [Audio Devices], *PKSDS3D_ITD_PARAMS_MSG, PKSDS3D_ITD_PARAMS_MSG, ksmedia/PKSDS3D_ITD_PARAMS_MSG, audio.ksds3d_itd_params_msg, KSDS3D_ITD_PARAMS_MSG structure [Audio Devices]
+ms.keywords: "*PKSDS3D_ITD_PARAMS_MSG, PKSDS3D_ITD_PARAMS_MSG, ksmedia/KSDS3D_ITD_PARAMS_MSG, KSDS3D_ITD_PARAMS_MSG structure [Audio Devices], audio.ksds3d_itd_params_msg, PKSDS3D_ITD_PARAMS_MSG structure pointer [Audio Devices], ksmedia/PKSDS3D_ITD_PARAMS_MSG, KSDS3D_ITD_PARAMS_MSG, aud-prop_af31be2f-c153-4430-9634-6d29b05208dd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,15 +103,15 @@ The <i>Enabled</i> parameter should track the DirectSound buffer's 3D mode: Disa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksds3d_itd_params.md">KSDS3D_ITD_PARAMS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a>
 
 
 

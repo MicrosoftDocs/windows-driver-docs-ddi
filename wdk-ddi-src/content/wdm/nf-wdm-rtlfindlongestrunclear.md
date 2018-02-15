@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6d68cb0f-d0b8-4468-8def-60a65780480e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFindLongestRunClear routine [Kernel-Mode Driver Architecture], wdm/RtlFindLongestRunClear, kernel.rtlfindlongestrunclear, RtlFindLongestRunClear, k109_a6295996-9e2c-4d19-9ee9-1dc7802bd145.xml
+ms.keywords: k109_a6295996-9e2c-4d19-9ee9-1dc7802bd145.xml, wdm/RtlFindLongestRunClear, kernel.rtlfindlongestrunclear, RtlFindLongestRunClear, RtlFindLongestRunClear routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,7 +101,7 @@ Callers of <b>RtlFindLongestRunClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
+<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
 
 
 
@@ -109,11 +109,11 @@ Callers of <b>RtlFindLongestRunClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
 
 
 
@@ -121,11 +121,11 @@ Callers of <b>RtlFindLongestRunClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
 
 
 
@@ -137,7 +137,7 @@ Callers of <b>RtlFindLongestRunClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
 
 
 

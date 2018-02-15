@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ba80f0f5-ecea-41d7-8ddd-58b417e1fbe7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: SetOptions, prcomoem/IPrintCoreHelperPS::SetOptions, IPrintCoreHelperPS, SetOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS::SetOptions, print.iprintcorehelperps_setoptions, SetOptions method [Print Devices], IPrintCoreHelperPS interface [Print Devices], SetOptions method, print_unidrv-pscript_allplugins_7830001c-589d-4797-870c-cb48231745ed.xml
+ms.keywords: SetOptions method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices], SetOptions method, print.iprintcorehelperps_setoptions, SetOptions, IPrintCoreHelperPS::SetOptions, prcomoem/IPrintCoreHelperPS::SetOptions, print_unidrv-pscript_allplugins_7830001c-589d-4797-870c-cb48231745ed.xml, SetOptions method [Print Devices], IPrintCoreHelperPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

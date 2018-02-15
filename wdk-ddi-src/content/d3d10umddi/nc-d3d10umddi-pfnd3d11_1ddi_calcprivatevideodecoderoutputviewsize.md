@@ -40,7 +40,7 @@ apiname:
 -	CalcPrivateVideoDecoderOutputViewSize
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CALCPRIVATEVIDEODECODEROUTPUTVIEWSIZE callback
@@ -74,8 +74,9 @@ SIZE_T APIENTRY* CalcPrivateVideoDecoderOutputViewSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -97,11 +98,14 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodec
 ## -returns
 
 
+
 The required number of bytes for the video decoder view state.
 
 
 
+
 ## -remarks
+
 
 
 The runtime will validate the members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview.md">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a> structure before it calls this function.
@@ -110,9 +114,12 @@ This function is not expected to fail.
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview.md">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4779E943-5C13-4DE2-AF8F-37657F0F99C0
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_UCM_TYPEC_PARTNER, UcmTypeCPartnerStateInvalid, ucmtypes/UcmTypeCPartnerStateDfp, ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp, buses.ucm_type_c_port_state, ucmtypes/UcmTypeCPartnerStateInvalid, ucmtypes/UCM_TYPEC_PARTNER, ucmtypes/UcmTypeCPartnerStateDebugAccessory, UcmTypeCPartnerStatePoweredCableNoUfp, UcmTypeCPartnerStateUfp, UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStateUfp, ucmtypes/UcmTypeCPartnerStateAudioAccessory, UcmTypeCPartnerStateDebugAccessory, UCM_TYPEC_PARTNER, UcmTypeCPartnerStateDfp, UCM_TYPEC_PARTNER enumeration [Buses], ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStatePoweredCableWithUfp"
+ms.keywords: UcmTypeCPartnerStateDfp, buses.ucm_type_c_port_state, ucmtypes/UcmTypeCPartnerStateInvalid, _UCM_TYPEC_PARTNER, UCM_TYPEC_PARTNER enumeration [Buses], ucmtypes/UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStateUfp, UcmTypeCPartnerStatePoweredCableNoUfp, UcmTypeCPartnerStatePoweredCableWithUfp, UcmTypeCPartnerStateDebugAccessory, ucmtypes/UcmTypeCPartnerStateDebugAccessory, ucmtypes/UcmTypeCPartnerStateDfp, UCM_TYPEC_PARTNER, ucmtypes/UCM_TYPEC_PARTNER, UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStateAudioAccessory, ucmtypes/UcmTypeCPartnerStatePoweredCableNoUfp, ucmtypes/UcmTypeCPartnerStateUfp, UcmTypeCPartnerStateInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -97,19 +97,24 @@ typedef enum _UCM_TYPEC_PARTNER {
 
 
 
-#### - UcmTypeCPartnerStateInvalid
+#### - UcmTypeCPartnerStateAudioAccessory
 
-The partner port state is invalid.
+The partner is used as an audio accessory.
 
 
-#### - UcmTypeCPartnerStateUfp
+#### - UcmTypeCPartnerStateDebugAccessory
 
-The partner is an Upstream Facing Port (UFP).
+The partner is a debug accessory.
 
 
 #### - UcmTypeCPartnerStateDfp
 
 The partner is a Downstream Facing Port (DFP).
+
+
+#### - UcmTypeCPartnerStateInvalid
+
+The partner port state is invalid.
 
 
 #### - UcmTypeCPartnerStatePoweredCableNoUfp
@@ -122,14 +127,9 @@ The partner is a powered cable that requires VConn, that currently does not have
 The partner is a powered and upstream facing.
 
 
-#### - UcmTypeCPartnerStateAudioAccessory
+#### - UcmTypeCPartnerStateUfp
 
-The partner is used as an audio accessory.
-
-
-#### - UcmTypeCPartnerStateDebugAccessory
-
-The partner is a debug accessory.
+The partner is an Upstream Facing Port (UFP).
 
 
 ## -see-also

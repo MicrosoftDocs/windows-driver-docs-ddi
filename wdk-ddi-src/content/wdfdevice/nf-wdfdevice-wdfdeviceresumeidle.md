@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d63848e8-0e6a-4ad7-a147-8804869b9c9b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdle method, wdf.wdfdeviceresumeidle, PFN_WDFDEVICERESUMEIDLE, wdfdevice/WdfDeviceResumeIdle, kmdf.wdfdeviceresumeidle, WdfDeviceResumeIdle
+ms.keywords: WdfDeviceResumeIdle method, PFN_WDFDEVICERESUMEIDLE, wdf.wdfdeviceresumeidle, DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, kmdf.wdfdeviceresumeidle, WdfDeviceResumeIdle, wdfdevice/WdfDeviceResumeIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -106,7 +106,7 @@ The following code example informs the framework that the specified device is no
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/25F4EEBB-4733-498C-8704-8E015F81FE06">Debugging Power Reference Leaks in WDF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a>
 
 
 
@@ -114,7 +114,7 @@ The following code example informs the framework that the specified device is no
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a>
+<a href="https://msdn.microsoft.com/25F4EEBB-4733-498C-8704-8E015F81FE06">Debugging Power Reference Leaks in WDF</a>
 
 
 

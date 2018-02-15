@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 99a91bb4-4fcd-4b49-bd1e-4551027b5d1f
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntddk/RtlInitializeGenericTable, RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers], rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml, ifsk.rtlinitializegenerictable
+ms.keywords: RtlInitializeGenericTable routine [Installable File System Drivers], rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml, RtlInitializeGenericTable, ntddk/RtlInitializeGenericTable, ifsk.rtlinitializegenerictable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,7 +243,7 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
 
 
 
@@ -251,7 +251,7 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
 
 
 
@@ -259,11 +259,11 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
 
 
 
@@ -271,7 +271,7 @@ Callers of <b>RtlInitializeGenericTable</b> must be running at IRQL &lt;= DISPAT
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelements.md">RtlNumberGenericTableElements</a>
+<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTable</a>
 
 
 

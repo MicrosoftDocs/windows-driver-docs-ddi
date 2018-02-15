@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aeab6bf1-bb6f-427e-a566-942b3fb061b2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SETGAMMARAMP, D3DKMT_SETGAMMARAMP structure [Display Devices], display.d3dkmt_setgammaramp, _D3DKMT_SETGAMMARAMP, d3dkmthk/D3DKMT_SETGAMMARAMP, OpenGL_Structs_3f9b4d19-5367-43bb-94a7-288d375412d7.xml
+ms.keywords: d3dkmthk/D3DKMT_SETGAMMARAMP, D3DKMT_SETGAMMARAMP structure [Display Devices], _D3DKMT_SETGAMMARAMP, display.d3dkmt_setgammaramp, D3DKMT_SETGAMMARAMP, OpenGL_Structs_3f9b4d19-5367-43bb-94a7-288d375412d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,11 +110,11 @@ typedef struct _D3DKMT_SETGAMMARAMP {
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetgammaramp.md">D3DKMTSetGammaRamp</a>
-
-
-
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1.md">D3DDDI_GAMMA_RAMP_DXGI_1</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetgammaramp.md">D3DKMTSetGammaRamp</a>
 
 
 

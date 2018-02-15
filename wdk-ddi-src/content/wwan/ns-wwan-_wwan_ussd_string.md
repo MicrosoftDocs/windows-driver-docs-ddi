@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9DE6CE5D-9570-4728-ACED-D6863812A3F4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_ussd_string, _WWAN_USSD_STRING, wwan/PWWAN_USSD_STRING, PWWAN_USSD_STRING, *PWWAN_USSD_STRING, wwan/WWAN_USSD_STRING, WWAN_USSD_STRING, WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: "_WWAN_USSD_STRING, wwan/WWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING, *PWWAN_USSD_STRING, PWWAN_USSD_STRING, wwan/PWWAN_USSD_STRING, netvista.wwan_ussd_string"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

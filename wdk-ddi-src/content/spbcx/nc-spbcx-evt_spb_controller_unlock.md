@@ -159,7 +159,7 @@ The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header fil
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
 
 
 
@@ -167,11 +167,11 @@ The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header fil
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 
@@ -179,7 +179,7 @@ The EVT_SPB_CONTROLLER_UNLOCK function type is defined in the Spbcx.h header fil
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
 
 
 

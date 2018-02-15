@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B9918A06-6C10-4AD7-97EC-4FA0BC5319AD
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_video_sample_description, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
+ms.keywords: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure [Display Devices], display.d3d12ddi_video_sample_description, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020, d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,6 +87,8 @@ The format and color space of the sample.  For more information, see the <a href
 ## -see-also
 
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_format_description_0020.md">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
+
+
 
  
 

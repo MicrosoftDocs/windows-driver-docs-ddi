@@ -84,11 +84,14 @@ A value of type  <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_querydependentengineg
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 This function is used to describe all physical adapters (engines) that are affected by an engine reset request. It helps improve user experience on hardware architectures that have dependencies among multiple engines that can affect the reset process. Note that all affected nodes must have the same engine affinity value. (See engine affinity discussion in <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2-8BBF-B455BB864A29">TDR changes in Windows 8</a>.)
@@ -105,17 +108,28 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 
 
+
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_querydependentenginegroup.md">DXGKARG_QUERYDEPENDENTENGINEGROUP</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
 
  
 

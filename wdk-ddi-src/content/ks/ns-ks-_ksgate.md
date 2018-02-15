@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f6b5169e-2ff1-43da-a207-0c15c75e1367
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSGATE, ks/KSGATE, PKSGATE structure pointer [Streaming Media Devices], KSGATE structure [Streaming Media Devices], stream.ksgate, avstruct_b232aae6-2b0a-44f9-beaf-29fe4b7f8b86.xml, PKSGATE, ks/PKSGATE, _KSGATE, KSGATE"
+ms.keywords: PKSGATE, avstruct_b232aae6-2b0a-44f9-beaf-29fe4b7f8b86.xml, PKSGATE structure pointer [Streaming Media Devices], ks/KSGATE, _KSGATE, *PKSGATE, KSGATE, stream.ksgate, KSGATE structure [Streaming Media Devices], ks/PKSGATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,7 @@ All of the manipulations of <b>Count</b> are done using interlocked functions to
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
 
 
@@ -104,7 +100,11 @@ All of the manipulations of <b>Count</b> are done using interlocked functions to
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 

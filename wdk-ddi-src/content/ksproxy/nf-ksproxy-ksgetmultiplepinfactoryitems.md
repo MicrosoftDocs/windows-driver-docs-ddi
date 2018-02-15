@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 43210484-dcae-49b7-bda3-50d6c06ee2c0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgetmultiplepinfactoryitems, ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, KsGetMultiplePinFactoryItems, ksproxy/KsGetMultiplePinFactoryItems, KsGetMultiplePinFactoryItems function [Streaming Media Devices]
+ms.keywords: ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, stream.ksgetmultiplepinfactoryitems, ksproxy/KsGetMultiplePinFactoryItems, KsGetMultiplePinFactoryItems function [Streaming Media Devices], KsGetMultiplePinFactoryItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,19 +113,19 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-
-
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
 
 
 
 <a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

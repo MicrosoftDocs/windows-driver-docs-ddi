@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 266cdf1a-6122-4f46-8e93-8f76fceb0180
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PowerRequestExecutionRequired, PowerRequestAwayModeRequired, wdm/PowerRequestAwayModeRequired, wdm/PowerRequestDisplayRequired, _POWER_REQUEST_TYPE, PowerRequestSystemRequired, sysenum_2d1a5da5-2541-4db1-bfde-2bd06f38b17c.xml, wdm/PPOWER_REQUEST_TYPE, kernel.power_request_type, PowerRequestDisplayRequired, wdm/POWER_REQUEST_TYPE, PowerRequestExecutionRequired, PPOWER_REQUEST_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PPOWER_REQUEST_TYPE, *PPOWER_REQUEST_TYPE, wdm/PowerRequestSystemRequired, POWER_REQUEST_TYPE enumeration [Kernel-Mode Driver Architecture], POWER_REQUEST_TYPE
+ms.keywords: wdm/PowerRequestAwayModeRequired, wdm/PowerRequestSystemRequired, sysenum_2d1a5da5-2541-4db1-bfde-2bd06f38b17c.xml, POWER_REQUEST_TYPE, PowerRequestSystemRequired, wdm/POWER_REQUEST_TYPE, _POWER_REQUEST_TYPE, PowerRequestExecutionRequired, wdm/PowerRequestDisplayRequired, PPOWER_REQUEST_TYPE, wdm/PowerRequestExecutionRequired, PPOWER_REQUEST_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PowerRequestAwayModeRequired, wdm/PPOWER_REQUEST_TYPE, PowerRequestDisplayRequired, POWER_REQUEST_TYPE enumeration [Kernel-Mode Driver Architecture], kernel.power_request_type, *PPOWER_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -124,7 +124,7 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+<a href="https://msdn.microsoft.com/794248b1-5aa8-495e-aca6-1a1f35dc9c7f">PowerClearRequest</a>
 
 
 
@@ -136,7 +136,7 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 
 
-<a href="https://msdn.microsoft.com/794248b1-5aa8-495e-aca6-1a1f35dc9c7f">PowerClearRequest</a>
+<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
 
 
 

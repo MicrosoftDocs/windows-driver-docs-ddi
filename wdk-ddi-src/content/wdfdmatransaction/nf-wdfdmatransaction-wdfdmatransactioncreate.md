@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9470e4a6-eee4-4a73-80b0-3d45f9d79934
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMATRANSACTIONCREATE, WdfDmaTransactionCreate, WdfDmaTransactionCreate method, wdf.wdfdmatransactioncreate, DFDmaObjectRef_d7399240-2da3-418f-b21b-8a441e7923d4.xml, wdfdmatransaction/WdfDmaTransactionCreate, kmdf.wdfdmatransactioncreate
+ms.keywords: kmdf.wdfdmatransactioncreate, wdfdmatransaction/WdfDmaTransactionCreate, wdf.wdfdmatransactioncreate, WdfDmaTransactionCreate method, PFN_WDFDMATRANSACTIONCREATE, DFDmaObjectRef_d7399240-2da3-418f-b21b-8a441e7923d4.xml, WdfDmaTransactionCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,15 +158,15 @@ For a code example that uses <b>WdfDmaTransactionCreate</b>, see <a href="..\wdf
 
 ## -see-also
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
+
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -174,7 +174,7 @@ For a code example that uses <b>WdfDmaTransactionCreate</b>, see <a href="..\wdf
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
 
 
 

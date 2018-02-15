@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9f240ea-5689-4d33-8da7-b1cb7e66bc5b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WMIREGGUIDW structure [Kernel-Mode Driver Architecture], PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture], PWMIREGGUID, kernel.wmiregguid, *PWMIREGGUIDW, WMIREGGUID structure [Kernel-Mode Driver Architecture], wmistr/WMIREGGUID, kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml, WMIREGGUIDW, wmistr/PWMIREGGUID, WMIREGGUID
+ms.keywords: kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml, *PWMIREGGUIDW, wmistr/WMIREGGUID, WMIREGGUID structure [Kernel-Mode Driver Architecture], PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture], PWMIREGGUID, WMIREGGUIDW, WMIREGGUIDW structure [Kernel-Mode Driver Architecture], kernel.wmiregguid, wmistr/PWMIREGGUID, WMIREGGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

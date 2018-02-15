@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfrequest/WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer method, wdf.wdfrequestretrieveoutputbuffer, DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, kmdf.wdfrequestretrieveoutputbuffer, PFN_WDFREQUESTRETRIEVEOUTPUTBUFFER
+ms.keywords: WdfRequestRetrieveOutputBuffer, PFN_WDFREQUESTRETRIEVEOUTPUTBUFFER, wdfrequest/WdfRequestRetrieveOutputBuffer, DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, WdfRequestRetrieveOutputBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

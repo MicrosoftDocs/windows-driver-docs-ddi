@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8cde623d-a255-45ff-ab1e-bdd0c14a02a0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfpredeviceremove, kmdf.wdfpredeviceremove, WdfPreDeviceRemove function, wdfinstaller/WdfPreDeviceRemove, DFCoinstallerRef_6eeb3b62-08ef-4d17-a6af-9945a3737f0d.xml, WdfPreDeviceRemove, PFN_WDFPREDEVICEREMOVE
+ms.keywords: PFN_WDFPREDEVICEREMOVE, WdfPreDeviceRemove, WdfPreDeviceRemove function, DFCoinstallerRef_6eeb3b62-08ef-4d17-a6af-9945a3737f0d.xml, kmdf.wdfpredeviceremove, wdf.wdfpredeviceremove, wdfinstaller/WdfPreDeviceRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

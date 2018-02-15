@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 5c4bf4c0-c36f-4779-a012-6364c94f37a1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_PCI_PMCSR, PCI_PMCSR structure [Buses], wdm/PPCI_PMCSR, *PPCI_PMCSR, PCI_PMCSR, PPCI_PMCSR structure pointer [Buses], pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, wdm/PCI_PMCSR, PCI.pci_pmcsr, PPCI_PMCSR"
+ms.keywords: "_PCI_PMCSR, wdm/PCI_PMCSR, *PPCI_PMCSR, PCI.pci_pmcsr, PCI_PMCSR structure [Buses], wdm/PPCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, PPCI_PMCSR structure pointer [Buses], PCI_PMCSR, PPCI_PMCSR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

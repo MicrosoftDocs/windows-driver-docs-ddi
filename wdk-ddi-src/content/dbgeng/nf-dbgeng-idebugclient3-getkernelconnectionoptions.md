@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2862fe26-1613-4fc2-98e1-3deb5078d1e2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient4::GetKernelConnectionOptions, IDebugClient interface [Windows Debugging], GetKernelConnectionOptions method, dbgeng/IDebugClient2::GetKernelConnectionOptions, IDebugClient2 interface [Windows Debugging], GetKernelConnectionOptions method, GetKernelConnectionOptions method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient3::GetKernelConnectionOptions, dbgeng/IDebugClient5::GetKernelConnectionOptions, IDebugClient3::GetKernelConnectionOptions, dbgeng/IDebugClient::GetKernelConnectionOptions, debugger.getkernelconnectionoptions, dbgeng/IDebugClient4::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface, IDebugClient2::GetKernelConnectionOptions, IDebugClient4 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptions method, GetKernelConnectionOptions method [Windows Debugging], IDebugClient interface, IDebugClient2, IDebugClient_5a7fe06a-42e4-4bdd-935c-8130cdfef568.xml, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2 interface, IDebugClient5::GetKernelConnectionOptions, GetKernelConnectionOptions, IDebugClient::GetKernelConnectionOptions, IDebugClient3, GetKernelConnectionOptions method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient, GetKernelConnectionOptions method [Windows Debugging]
+ms.keywords: IDebugClient_5a7fe06a-42e4-4bdd-935c-8130cdfef568.xml, GetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface, GetKernelConnectionOptions method [Windows Debugging], IDebugClient4 interface, IDebugClient3, IDebugClient interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient::GetKernelConnectionOptions, IDebugClient, dbgeng/IDebugClient3::GetKernelConnectionOptions, GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2 interface, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient2 interface [Windows Debugging], GetKernelConnectionOptions method, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2::GetKernelConnectionOptions, IDebugClient4 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient4::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient interface, debugger.getkernelconnectionoptions, IDebugClient2, dbgeng/IDebugClient4::GetKernelConnectionOptions, IDebugClient3::GetKernelConnectionOptions, dbgeng/IDebugClient::GetKernelConnectionOptions, IDebugClient5::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], GetKernelConnectionOptions method, dbgeng/IDebugClient2::GetKernelConnectionOptions, dbgeng/IDebugClient5::GetKernelConnectionOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -153,15 +153,11 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
 
 
@@ -174,6 +170,10 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

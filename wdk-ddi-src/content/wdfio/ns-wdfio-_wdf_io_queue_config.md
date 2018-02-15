@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_CONFIG, wdf.wdf_io_queue_config, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, _WDF_IO_QUEUE_CONFIG, wdfio/PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, PWDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdfio/WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, *PWDF_IO_QUEUE_CONFIG
+ms.keywords: WDF_IO_QUEUE_CONFIG structure, _WDF_IO_QUEUE_CONFIG, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, kmdf.wdf_io_queue_config, wdfio/PWDF_IO_QUEUE_CONFIG, *PWDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG, wdf.wdf_io_queue_config, PWDF_IO_QUEUE_CONFIG structure pointer, wdfio/WDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -196,15 +196,15 @@ For parallel queues,
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
 
 
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
 
 
 

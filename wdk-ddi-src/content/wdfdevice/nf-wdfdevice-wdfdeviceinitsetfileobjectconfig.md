@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e309a741-1f61-4668-8176-baf0c8e26dff
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceInitSetFileObjectConfig, PFN_WDFDEVICEINITSETFILEOBJECTCONFIG, wdf.wdfdeviceinitsetfileobjectconfig, WdfDeviceInitSetFileObjectConfig method, kmdf.wdfdeviceinitsetfileobjectconfig, WdfDeviceInitSetFileObjectConfig, DFDeviceObjectGeneralRef_97ec0f62-e8d2-46f9-b37a-13a632425a77.xml
+ms.keywords: WdfDeviceInitSetFileObjectConfig method, WdfDeviceInitSetFileObjectConfig, PFN_WDFDEVICEINITSETFILEOBJECTCONFIG, wdfdevice/WdfDeviceInitSetFileObjectConfig, DFDeviceObjectGeneralRef_97ec0f62-e8d2-46f9-b37a-13a632425a77.xml, wdf.wdfdeviceinitsetfileobjectconfig, kmdf.wdfdeviceinitsetfileobjectconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,10 +146,6 @@ WdfDeviceInitSetFileObjectConfig(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_fileobject_config_init.md">WDF_FILEOBJECT_CONFIG_INIT</a>
-
-
-
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
 
 
@@ -159,6 +155,10 @@ WdfDeviceInitSetFileObjectConfig(
 
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdf_fileobject_config_init.md">WDF_FILEOBJECT_CONFIG_INIT</a>
 
 
 

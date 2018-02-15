@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 47e857d0-1423-45e5-a5a5-54507b8fa315
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicesetalignmentrequirement, PFN_WDFDEVICESETALIGNMENTREQUIREMENT, WdfDeviceSetAlignmentRequirement, wdfdevice/WdfDeviceSetAlignmentRequirement, WdfDeviceSetAlignmentRequirement method, kmdf.wdfdevicesetalignmentrequirement, DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml
+ms.keywords: wdfdevice/WdfDeviceSetAlignmentRequirement, kmdf.wdfdevicesetalignmentrequirement, PFN_WDFDEVICESETALIGNMENTREQUIREMENT, WdfDeviceSetAlignmentRequirement, WdfDeviceSetAlignmentRequirement method, wdf.wdfdevicesetalignmentrequirement, DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

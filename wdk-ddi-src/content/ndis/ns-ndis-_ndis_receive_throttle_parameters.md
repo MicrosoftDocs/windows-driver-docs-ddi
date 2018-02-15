@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad51cc5c-7385-405b-8b65-20b079a3265c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_THROTTLE_PARAMETERS, PNDIS_RECEIVE_THROTTLE_PARAMETERS, _NDIS_RECEIVE_THROTTLE_PARAMETERS, netvista.ndis_receive_throttle_parameters, PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS"
+ms.keywords: ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMETERS, netvista.ndis_receive_throttle_parameters, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS, _NDIS_RECEIVE_THROTTLE_PARAMETERS, PNDIS_RECEIVE_THROTTLE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -172,8 +172,7 @@ If the miniport driver is using multiple MSI messages to differentiate different
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
 
 
 
@@ -181,7 +180,8 @@ If the miniport driver is using multiple MSI messages to differentiate different
 
 
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 
 

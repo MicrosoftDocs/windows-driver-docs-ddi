@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8E083814-7408-47D2-A811-2DCBDCD13097
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlFreeNonVolatileToken, RtlFreeNonVolatileToken routine [Installable File System Drivers], ntddk/RtlFreeNonVolatileToken, ifsk.rtlfreenonvolatiletoken
+ms.keywords: ntddk/RtlFreeNonVolatileToken, RtlFreeNonVolatileToken routine [Installable File System Drivers], ifsk.rtlfreenonvolatiletoken, RtlFreeNonVolatileToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,7 +124,7 @@ This routine is currently not supported for Windows Server until the next major 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
+<a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
 
 
 
@@ -137,11 +137,11 @@ RtlFlushNonVolatileMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a>
-
-
-
 <a href="https://msdn.microsoft.com/49DDDEF8-F949-4674-A18B-9BB091D163C2">RtlWriteNonVolatileMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
 
 
 

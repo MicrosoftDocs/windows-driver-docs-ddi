@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86070c36-6702-42c8-b4fe-b3ef15ba418f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetDumpFormatFlags, dbgeng/IDebugControl2::GetDumpFormatFlags, debugger.getdumpformatflags, IDebugControl3::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method
+ms.keywords: debugger.getdumpformatflags, GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, IDebugControl2::GetDumpFormatFlags, GetDumpFormatFlags, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetDumpFormatFlags, dbgeng/IDebugControl3::GetDumpFormatFlags, IDebugControl2, IDebugControl3::GetDumpFormatFlags, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,15 +112,15 @@ This method is only available when debugging crash dump files.  If the crash dum
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
 
 
 

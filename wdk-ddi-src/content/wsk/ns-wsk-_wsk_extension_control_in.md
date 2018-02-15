@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d04f4c24-15a5-490a-aada-af1050f727d4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml, _WSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], wsk/PWSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN, wsk/WSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in, *PWSK_EXTENSION_CONTROL_IN
+ms.keywords: wsk/WSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml, WSK_EXTENSION_CONTROL_IN, wsk/PWSK_EXTENSION_CONTROL_IN, _WSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in, *PWSK_EXTENSION_CONTROL_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,11 +113,11 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_extension_control_out.md">WSK_EXTENSION_CONTROL_OUT</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 

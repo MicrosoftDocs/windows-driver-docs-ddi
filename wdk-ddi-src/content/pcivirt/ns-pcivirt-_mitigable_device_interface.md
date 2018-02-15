@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 1fac7c03-2a48-4b29-951d-c777fbec7dd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.mitigable_device_interface, *PMITIGABLE_DEVICE_INTERFACE, _MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], MITIGABLE_DEVICE_INTERFACE
+ms.keywords: PCI.mitigable_device_interface, *PMITIGABLE_DEVICE_INTERFACE, _MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], pcivirt/MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

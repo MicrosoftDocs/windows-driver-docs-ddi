@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d5374177-fddd-4f35-8cad-10be762ef4d8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::CoerceValues, CoerceValues method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], CoerceValues method, CoerceValues method [Windows Debugging], debugger.coercevalues, IDebugControl2 interface [Windows Debugging], CoerceValues method, IDebugControl2::CoerceValues, IDebugControl_a17ec845-aaf3-4480-a0fd-79fb515c48d5.xml, dbgeng/IDebugControl2::CoerceValues, IDebugControl3::CoerceValues, IDebugControl, CoerceValues method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::CoerceValues, IDebugControl interface [Windows Debugging], CoerceValues method, IDebugControl::CoerceValues, CoerceValues, CoerceValues method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl2 interface [Windows Debugging], CoerceValues method, IDebugControl2::CoerceValues, CoerceValues method [Windows Debugging], IDebugControl2 interface, debugger.coercevalues, CoerceValues method [Windows Debugging], IDebugControl interface, CoerceValues, IDebugControl::CoerceValues, dbgeng/IDebugControl::CoerceValues, dbgeng/IDebugControl2::CoerceValues, IDebugControl3 interface [Windows Debugging], CoerceValues method, dbgeng/IDebugControl3::CoerceValues, IDebugControl_a17ec845-aaf3-4480-a0fd-79fb515c48d5.xml, IDebugControl3::CoerceValues, IDebugControl, IDebugControl interface [Windows Debugging], CoerceValues method, CoerceValues method [Windows Debugging], CoerceValues method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,7 +136,7 @@ This method converts an array of values of one type into values of another type.
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>
 
 
 
@@ -144,15 +144,15 @@ This method converts an array of values of one type into values of another type.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

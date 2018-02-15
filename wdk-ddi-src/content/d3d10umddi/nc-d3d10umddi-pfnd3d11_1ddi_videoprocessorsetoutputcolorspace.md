@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetOutputColorSpace
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE callback
@@ -75,12 +75,12 @@ VOID APIENTRY* pfnVideoProcessorSetOutputColorSpace(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
 
 
-
 ### -param *
+
+
 
 
 
@@ -109,14 +109,18 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_c
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_color_space.md">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure includes the following members:
+
 <ul>
 <li>
 The <b>Usage</b> member specifies whether the output is intended for playback or video processing, such as editing or authoring. The driver can optimize the video processing based on the specified usage. 
@@ -145,11 +149,16 @@ If this member is set to one, the format that is used is the extended xvYCC form
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_color_space.md">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
 
  
 

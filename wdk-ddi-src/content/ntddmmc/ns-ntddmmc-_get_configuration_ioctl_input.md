@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6b8d9cbf-bb05-40a1-9129-52510befebe3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PGET_CONFIGURATION_IOCTL_INPUT, *PGET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT structure [Storage Devices], GET_CONFIGURATION_IOCTL_INPUT, ntddmmc/PGET_CONFIGURATION_IOCTL_INPUT, structs-CD-ROM_1bac7730-693e-4d41-b672-260f83765e35.xml, storage.get_configuration_ioctl_input, ntddmmc/GET_CONFIGURATION_IOCTL_INPUT, _GET_CONFIGURATION_IOCTL_INPUT, PGET_CONFIGURATION_IOCTL_INPUT structure pointer [Storage Devices]
+ms.keywords: GET_CONFIGURATION_IOCTL_INPUT structure [Storage Devices], PGET_CONFIGURATION_IOCTL_INPUT structure pointer [Storage Devices], ntddmmc/GET_CONFIGURATION_IOCTL_INPUT, structs-CD-ROM_1bac7730-693e-4d41-b672-260f83765e35.xml, PGET_CONFIGURATION_IOCTL_INPUT, _GET_CONFIGURATION_IOCTL_INPUT, storage.get_configuration_ioctl_input, ntddmmc/PGET_CONFIGURATION_IOCTL_INPUT, GET_CONFIGURATION_IOCTL_INPUT, *PGET_CONFIGURATION_IOCTL_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,11 +90,11 @@ Reserved.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
-
-
-
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_configuration.md">IOCTL_CDROM_GET_CONFIGURATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDRIVERSTATUS, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, ntdddisk/PDRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], storage.driverstatus, LPDRIVERSTATUS structure pointer [Storage Devices], DRIVERSTATUS, *PDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS, LPDRIVERSTATUS, _DRIVERSTATUS, *LPDRIVERSTATUS, DRIVERSTATUS structure [Storage Devices], ntdddisk/DRIVERSTATUS
+ms.keywords: "_DRIVERSTATUS, LPDRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], *PDRIVERSTATUS, storage.driverstatus, PDRIVERSTATUS structure pointer [Storage Devices], *LPDRIVERSTATUS, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, DRIVERSTATUS structure [Storage Devices], ntdddisk/PDRIVERSTATUS, DRIVERSTATUS, ntdddisk/DRIVERSTATUS, PDRIVERSTATUS, ntdddisk/LPDRIVERSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EC3D7812-4EAB-419D-B736-47AE148FC61C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_REGISTER_USHORT, WDF_READ_REGISTER_USHORT function, WDF_READ_REGISTER_USHORT, wdf.wdf_read_register_ushort
+ms.keywords: WDF_READ_REGISTER_USHORT function, wdfhwaccess/WDF_READ_REGISTER_USHORT, wdf.wdf_read_register_ushort, WDF_READ_REGISTER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

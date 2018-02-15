@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e7c770de-0508-46e8-9820-aee6716fb7a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetFormatRequestForRead, wdf.wdfiotargetformatrequestforread, kmdf.wdfiotargetformatrequestforread, DFIOTargetRef_397cd31e-d4d8-40b5-ae7b-5f8e9ed62300.xml, PFN_WDFIOTARGETFORMATREQUESTFORREAD, WdfIoTargetFormatRequestForRead method, WdfIoTargetFormatRequestForRead
+ms.keywords: WdfIoTargetFormatRequestForRead method, DFIOTargetRef_397cd31e-d4d8-40b5-ae7b-5f8e9ed62300.xml, PFN_WDFIOTARGETFORMATREQUESTFORREAD, wdfiotarget/WdfIoTargetFormatRequestForRead, kmdf.wdfiotargetformatrequestforread, wdf.wdfiotargetformatrequestforread, WdfIoTargetFormatRequestForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -289,22 +289,6 @@ if (WdfRequestSend(
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendreadsynchronously.md">WdfIoTargetSendReadSynchronously</a>
-
-
-
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforwrite.md">WdfIoTargetFormatRequestForWrite</a>
 
 
@@ -317,19 +301,15 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
+
+
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 
 
@@ -337,7 +317,27 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendreadsynchronously.md">WdfIoTargetSendReadSynchronously</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 
 

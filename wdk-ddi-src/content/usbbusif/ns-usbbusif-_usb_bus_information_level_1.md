@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 518cd3bb-86a8-4960-b140-fabb78fa3519
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PUSB_BUS_INFORMATION_LEVEL_1 structure pointer [Buses], _USB_BUS_INFORMATION_LEVEL_1, usbstrct_44c7c910-aa13-492b-b81e-79faa501f1f9.xml, PUSB_BUS_INFORMATION_LEVEL_1, usbbusif/USB_BUS_INFORMATION_LEVEL_1, usbbusif/PUSB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1, buses.usb_bus_information_level_1, USB_BUS_INFORMATION_LEVEL_1 structure [Buses], *PUSB_BUS_INFORMATION_LEVEL_1
+ms.keywords: PUSB_BUS_INFORMATION_LEVEL_1 structure pointer [Buses], USB_BUS_INFORMATION_LEVEL_1 structure [Buses], *PUSB_BUS_INFORMATION_LEVEL_1, usbbusif/USB_BUS_INFORMATION_LEVEL_1, PUSB_BUS_INFORMATION_LEVEL_1, usbstrct_44c7c910-aa13-492b-b81e-79faa501f1f9.xml, buses.usb_bus_information_level_1, usbbusif/PUSB_BUS_INFORMATION_LEVEL_1, USB_BUS_INFORMATION_LEVEL_1, _USB_BUS_INFORMATION_LEVEL_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

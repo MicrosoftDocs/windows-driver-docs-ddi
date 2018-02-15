@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 4eb49aae-a7de-4038-9d57-003bb30d7ea8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iwdtfdriversetupaction2_updatedriver, UpdateDriver, IWDTFDriverSetupAction2, IWDTFDriverSetupAction2::UpdateDriver, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UpdateDriver, Microsoft.WDTF.IWDTFDriverSetupAction2.UpdateDriver, Microsoft::WDTF::IWDTFDriverSetupAction2::UpdateDriver, UpdateDriver method [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], UpdateDriver method, UpdateDriver method [Windows Device Testing Framework]
+ms.keywords: UpdateDriver method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFDriverSetupAction2.UpdateDriver, IWDTFDriverSetupAction2::UpdateDriver, dtf.iwdtfdriversetupaction2_updatedriver, UpdateDriver, IWDTFDriverSetupAction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], UpdateDriver method, Microsoft::WDTF::IWDTFDriverSetupAction2::UpdateDriver, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UpdateDriver, UpdateDriver method [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

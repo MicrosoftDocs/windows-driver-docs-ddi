@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c9b2eecf-fa9d-442e-9875-d068add25289
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.outputpromptwide, IDebugControl4 interface [Windows Debugging], OutputPromptWide method, IDebugControl4::OutputPromptWide, dbgeng/IDebugControl4::OutputPromptWide, IDebugControl4, OutputPromptWide, OutputPromptWide method [Windows Debugging], IDebugControl4 interface, OutputPromptWide method [Windows Debugging]
+ms.keywords: IDebugControl4, dbgeng/IDebugControl4::OutputPromptWide, IDebugControl4 interface [Windows Debugging], OutputPromptWide method, OutputPromptWide method [Windows Debugging], IDebugControl4 interface, OutputPromptWide, OutputPromptWide method [Windows Debugging], IDebugControl4::OutputPromptWide, debugger.outputpromptwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -312,7 +312,15 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 
@@ -321,14 +329,6 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B0C1E602-83CE-4F4E-9198-B1B1CDAFF4BF
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl5::OutputContextStackTraceEx, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, dbgeng/IDebugControl5::OutputContextStackTraceEx, IDebugControl5, OutputContextStackTraceEx method [Windows Debugging], OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, OutputContextStackTraceEx, debugger.idebugcontrol5_outputcontextstacktraceex
+ms.keywords: IDebugControl5, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, debugger.idebugcontrol5_outputcontextstacktraceex, IDebugControl5::OutputContextStackTraceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

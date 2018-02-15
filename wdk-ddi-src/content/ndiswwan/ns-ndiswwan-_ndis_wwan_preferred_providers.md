@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cbbbf7d2-cf24-47af-89e9-c27d577165e4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_PREFERRED_PROVIDERS, PNDIS_WWAN_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_preferred_providers, ndiswwan/NDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS, _NDIS_WWAN_PREFERRED_PROVIDERS, WwanRef_71564505-6147-416d-8178-0a7f5b30d07e.xml, PNDIS_WWAN_PREFERRED_PROVIDERS
+ms.keywords: PNDIS_WWAN_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_preferred_providers, PNDIS_WWAN_PREFERRED_PROVIDERS, *PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS, _NDIS_WWAN_PREFERRED_PROVIDERS, WwanRef_71564505-6147-416d-8178-0a7f5b30d07e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -210,11 +210,11 @@ Response to
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS, _MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ntifs/MemoryBasicInformation, kernel.memory_information_class, MemoryBasicInformation
+ms.keywords: MEMORY_INFORMATION_CLASS, MemoryBasicInformation, ntifs/MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ntifs/MemoryBasicInformation, kernel.memory_information_class, _MEMORY_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

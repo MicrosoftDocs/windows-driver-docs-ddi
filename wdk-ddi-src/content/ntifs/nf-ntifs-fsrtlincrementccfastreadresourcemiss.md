@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 38264afe-e324-455d-b81a-7dafae8abc1c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlIncrementCcFastReadResourceMiss routine [Installable File System Drivers], FsRtlIncrementCcFastReadResourceMiss, ifsk.fsrtlincrementccfastreadresourcemiss, ntifs/FsRtlIncrementCcFastReadResourceMiss, fsrtlref_4eb3905b-e599-451e-ba6c-29b800b277a5.xml
+ms.keywords: ifsk.fsrtlincrementccfastreadresourcemiss, FsRtlIncrementCcFastReadResourceMiss, ntifs/FsRtlIncrementCcFastReadResourceMiss, FsRtlIncrementCcFastReadResourceMiss routine [Installable File System Drivers], fsrtlref_4eb3905b-e599-451e-ba6c-29b800b277a5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ File system drivers should call this function to update the performance counter 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadwait.md">FsRtlIncrementCcFastReadWait</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnotpossible.md">FsRtlIncrementCcFastReadNotPossible</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnowait.md">FsRtlIncrementCcFastReadNoWait</a>
 
 
 
@@ -105,7 +105,7 @@ File system drivers should call this function to update the performance counter 
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnowait.md">FsRtlIncrementCcFastReadNoWait</a>
+<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadwait.md">FsRtlIncrementCcFastReadWait</a>
 
 
 

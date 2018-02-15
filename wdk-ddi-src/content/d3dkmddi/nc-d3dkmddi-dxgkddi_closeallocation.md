@@ -84,11 +84,14 @@ NTSTATUS APIENTRY DxgkDdiCloseAllocation(
 ## -returns
 
 
+
 <i>DxgkDdiCloseAllocation</i> returns STATUS_SUCCESS, or an appropriate error result if the allocations are not successfully unbound from the graphics context device. 
 
 
 
+
 ## -remarks
+
 
 
 Before the display miniport driver receives a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a> function to release allocations, the driver calls the <i>DxgkDdiCloseAllocation</i> function to close all bindings to those allocations. 
@@ -99,17 +102,28 @@ For a resource that contains multiple allocations, the DirectX graphics kernel s
 
 
 
+
 ## -see-also
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyallocation.md">DxgkDdiDestroyAllocation</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_closeallocation.md">DXGKARG_CLOSEALLOCATION</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
 
  
 

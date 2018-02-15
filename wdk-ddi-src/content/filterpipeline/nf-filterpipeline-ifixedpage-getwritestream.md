@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1a095d51-b727-4d89-aa7c-f43998db4c2e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetWriteStream, print.ifixedpage_getwritestream, GetWriteStream method [Print Devices], IFixedPage::GetWriteStream, filterpipeline/IFixedPage::GetWriteStream, filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml, IFixedPage interface [Print Devices], GetWriteStream method, IFixedPage, GetWriteStream method [Print Devices], IFixedPage interface
+ms.keywords: print.ifixedpage_getwritestream, filterpipeline/IFixedPage::GetWriteStream, GetWriteStream method [Print Devices], IFixedPage interface, IFixedPage, GetWriteStream, IFixedPage interface [Print Devices], GetWriteStream method, IFixedPage::GetWriteStream, GetWriteStream method [Print Devices], filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 69a97816-2994-4eec-b2ab-a545195e3776
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IBidiRequestContainer::AddRequest, AddRequest method [Print Devices], IBidiRequestContainer interface, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, AddRequest method [Print Devices], print.ibidirequestcontainer_ibidirequestcontainer__addrequest, IBidiRequestContainer, AddRequest, bidispl/IBidiRequestContainer::AddRequest, IBidiRequestContainer interface [Print Devices], AddRequest method, _win32_IBidiRequestContainer_AddRequest
+ms.keywords: AddRequest method [Print Devices], IBidiRequestContainer::AddRequest, _win32_IBidiRequestContainer_AddRequest, IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], AddRequest method, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, print.ibidirequestcontainer_ibidirequestcontainer__addrequest, AddRequest method [Print Devices], IBidiRequestContainer interface, bidispl/IBidiRequestContainer::AddRequest, AddRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -133,7 +133,7 @@ This is similar to adding an item in a link list. In this case, <a href="..\bidi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
@@ -141,7 +141,7 @@ This is similar to adding an item in a link list. In this case, <a href="..\bidi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 

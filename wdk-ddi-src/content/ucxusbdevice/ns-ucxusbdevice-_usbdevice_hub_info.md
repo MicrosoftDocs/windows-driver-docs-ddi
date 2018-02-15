@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F403179A-B339-432D-AAF9-E7D9965F8B00
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: P_USBDEVICE_HUB_INFO structure pointer [Buses], buses._usbdevice_hub_info, ucxusbdevice/_USBDEVICE_HUB_INFO, ucxusbdevice/P_USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], *PUSBDEVICE_HUB_INFO, _USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO
+ms.keywords: "*PUSBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO, _USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], buses._usbdevice_hub_info, P_USBDEVICE_HUB_INFO structure pointer [Buses], ucxusbdevice/_USBDEVICE_HUB_INFO, ucxusbdevice/P_USBDEVICE_HUB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

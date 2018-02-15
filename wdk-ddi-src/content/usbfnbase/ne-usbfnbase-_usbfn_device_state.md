@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B367D0F7-5026-4C88-B88A-69068F76B675
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateDetached, USBFN_DEVICE_STATE enumeration [Buses], usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateSuspended, usbfnbase/UsbfnDeviceStateAttached, USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateConfigured, UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateStateMaximum, UsbfnDeviceStateDetached, UsbfnDeviceStateAddressed, _USBFN_DEVICE_STATE, UsbfnDeviceStateDefault, buses.usbfn_device_state, *PUSBFN_DEVICE_STATE, UsbfnDeviceStateAttached, UsbfnDeviceStateSuspended, usbfnbase/USBFN_DEVICE_STATE, UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateMinimum
+ms.keywords: usbfnbase/UsbfnDeviceStateAddressed, _USBFN_DEVICE_STATE, UsbfnDeviceStateSuspended, usbfnbase/UsbfnDeviceStateAttached, UsbfnDeviceStateDetached, UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateDefault, UsbfnDeviceStateDefault, UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateStateMaximum, USBFN_DEVICE_STATE, usbfnbase/USBFN_DEVICE_STATE, UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateConfigured, *PUSBFN_DEVICE_STATE, USBFN_DEVICE_STATE enumeration [Buses], usbfnbase/UsbfnDeviceStateSuspended, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateAttached, buses.usbfn_device_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

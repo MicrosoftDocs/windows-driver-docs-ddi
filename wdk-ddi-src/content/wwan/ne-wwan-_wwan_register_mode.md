@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 608d041c-1034-49cf-b8da-cb3f7769ac55
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_REGISTER_MODE, _WWAN_REGISTER_MODE, wwan/WwanRegisterModeAutomatic, wwan/WwanRegisterModeMax, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterModeManual, wwan/WWAN_REGISTER_MODE, WwanRegisterModeAutomatic, WWAN_REGISTER_MODE, WwanRegisterModeUnknown, WwanRegisterModeManual, WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, WwanRegisterModeMax, netvista.wwan_register_mode, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_REGISTER_MODE, PWWAN_REGISTER_MODE, wwan/WwanRegisterModeUnknown
+ms.keywords: netvista.wwan_register_mode, WwanRegisterModeUnknown, WwanRegisterModeManual, wwan/WwanRegisterModeUnknown, wwan/PWWAN_REGISTER_MODE, WwanRegisterModeAutomatic, PWWAN_REGISTER_MODE, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_REGISTER_MODE, WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, WwanRegisterModeMax, _WWAN_REGISTER_MODE, wwan/WwanRegisterModeMax, WWAN_REGISTER_MODE, wwan/WwanRegisterModeManual, *PWWAN_REGISTER_MODE, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterModeAutomatic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

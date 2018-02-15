@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7395ccb8-2608-46ae-a378-987bd757761b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_registerforadapteraddevents, HBA_RegisterForAdapterAddEvents, fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, hbaapi/HBA_RegisterForAdapterAddEvents, HBA_RegisterForAdapterAddEvents routine [Storage Devices]
+ms.keywords: hbaapi/HBA_RegisterForAdapterAddEvents, fibreHBA_rtns_d44e8303-9d14-4f36-830e-bca76a494dfd.xml, storage.hba_registerforadapteraddevents, HBA_RegisterForAdapterAddEvents, HBA_RegisterForAdapterAddEvents routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,14 +86,14 @@ TBD
 
 
 
-#### - userData
-
-Pointer to a buffer that will be passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
-
-
 #### - callbackHandle
 
 Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+
+
+#### - userData
+
+Pointer to a buffer that will be passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns

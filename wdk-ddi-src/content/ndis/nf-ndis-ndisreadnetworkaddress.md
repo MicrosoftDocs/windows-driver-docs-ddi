@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42519c60-6dc6-4c20-a2e8-954d9610a982
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisReadNetworkAddress, NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, netvista.ndisreadnetworkaddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisreadnetworkaddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, ndis/NdisReadNetworkAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

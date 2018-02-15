@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b233dfab-6a99-4f2f-930e-cafd01dc4bb5
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ioref_259181c2-f6d9-4fe6-8d4b-594e7cf8db09.xml, IoIsOperationSynchronous routine [Installable File System Drivers], ifsk.ioisoperationsynchronous, IoIsOperationSynchronous, ntifs/IoIsOperationSynchronous
+ms.keywords: ifsk.ioisoperationsynchronous, IoIsOperationSynchronous, IoIsOperationSynchronous routine [Installable File System Drivers], ioref_259181c2-f6d9-4fe6-8d4b-594e7cf8db09.xml, ntifs/IoIsOperationSynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,7 +117,7 @@ If none of the above conditions is true, the operation is asynchronous.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -125,19 +125,7 @@ If none of the above conditions is true, the operation is asynchronous.
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -145,7 +133,19 @@ If none of the above conditions is true, the operation is asynchronous.
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6c7b35a2-f9fd-41a9-a353-ec8b78259bf0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WIDTHTABLE, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, _WIDTHTABLE, *PWIDTHTABLE, print.widthtable, prntfont/PWIDTHTABLE, WIDTHTABLE structure [Print Devices], PWIDTHTABLE structure pointer [Print Devices], PWIDTHTABLE, prntfont/WIDTHTABLE
+ms.keywords: prntfont/WIDTHTABLE, WIDTHTABLE, print.widthtable, PWIDTHTABLE structure pointer [Print Devices], _WIDTHTABLE, *PWIDTHTABLE, WIDTHTABLE structure [Print Devices], prntfont/PWIDTHTABLE, PWIDTHTABLE, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, ifsk.fltattachvolume, FltAttachVolume function [Installable File System Drivers], fltkernel/FltAttachVolume, FltAttachVolume
+ms.keywords: FltAttachVolume, fltkernel/FltAttachVolume, FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, ifsk.fltattachvolume, FltAttachVolume function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,15 +192,7 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
 
 
 
@@ -208,11 +200,19 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B3655B3C-4E9E-4FAC-9AAB-B7D4BFB2B91E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, *PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_port_feature_status_custom, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_port_feature_status_custom, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, *PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, _NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,7 +122,7 @@ An <b>NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</b> structure that contains the fea
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598274">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -130,7 +130,7 @@ An <b>NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM</b> structure that contains the fea
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598274">OID_SWITCH_PORT_FEATURE_STATUS_QUERY</a>
 
 
 

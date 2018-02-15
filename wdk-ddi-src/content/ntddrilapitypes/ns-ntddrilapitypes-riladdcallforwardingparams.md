@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8918552d-6a7b-414a-ab0c-a5690f109db4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILADDCALLFORWARDINGPARAMS, ntddrilapitypes/RILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riladdcallforwardingparams, *LPRILADDCALLFORWARDINGPARAMS
+ms.keywords: ntddrilapitypes/RILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riladdcallforwardingparams, *LPRILADDCALLFORWARDINGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

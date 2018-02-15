@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5343A7F6-7EFC-4BAE-8D21-CA8FB9B6078A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtsignalsynchronizationobjectfromgpu, D3DKMTSignalSynchronizationObjectFromGpu, D3DKMTSignalSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu
+ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu function [Display Devices], display.d3dkmtsignalsynchronizationobjectfromgpu, D3DKMTSignalSynchronizationObjectFromGpu, d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,7 +126,7 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromgpu.md">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu2.md">D3DKMTSignalSynchronizationObjectFromGpu2</a>
 
 
 
@@ -138,7 +138,7 @@ This function might also return other <b>NTSTATUS</b> values.
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu2.md">D3DKMTSignalSynchronizationObjectFromGpu2</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromgpu.md">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</a>
 
 
 

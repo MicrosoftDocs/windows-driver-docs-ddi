@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 38ac85bc-9ace-4e70-a886-92e18afb32db
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscreatedefaultclock, ks/KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices]
+ms.keywords: KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, KsCreateDefaultClock function [Streaming Media Devices], ks/KsCreateDefaultClock, stream.kscreatedefaultclock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

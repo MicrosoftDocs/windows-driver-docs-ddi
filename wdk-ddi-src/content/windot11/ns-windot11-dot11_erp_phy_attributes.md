@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ce5f2833-7df6-449b-be68-ed58620fbb43
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_erp_phy_attributes, DOT11_ERP_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_ERP_PHY_ATTRIBUTES, PDOT11_ERP_PHY_ATTRIBUTES, PDOT11_ERP_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ERP_PHY_ATTRIBUTES, windot11/DOT11_ERP_PHY_ATTRIBUTES, DOT11_ERP_PHY_ATTRIBUTES, Native_802.11_data_types_ca561d35-8793-4e0f-8c56-81bd58365f08.xml
+ms.keywords: windot11/DOT11_ERP_PHY_ATTRIBUTES, netvista.dot11_erp_phy_attributes, PDOT11_ERP_PHY_ATTRIBUTES, Native_802.11_data_types_ca561d35-8793-4e0f-8c56-81bd58365f08.xml, PDOT11_ERP_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], DOT11_ERP_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_ERP_PHY_ATTRIBUTES, *PDOT11_ERP_PHY_ATTRIBUTES, windot11/PDOT11_ERP_PHY_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

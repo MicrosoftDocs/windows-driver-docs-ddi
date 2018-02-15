@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E2413C3A-79D3-47E3-A664-80869A721F37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PO_FX_DEVICE_V1, PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], wdm/PPO_FX_DEVICE_V1, PO_FX_DEVICE, PPO_FX_DEVICE_V1, PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V1, PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], _PO_FX_DEVICE_V1, PO_FX_DEVICE_V2, *PPO_FX_DEVICE, kernel.po_fx_device, *PPO_FX_DEVICE_V1, *PPO_FX_DEVICE_V2, wdm/PO_FX_DEVICE, _PO_FX_DEVICE_V2
+ms.keywords: PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], _PO_FX_DEVICE_V1, *PPO_FX_DEVICE_V1, wdm/PO_FX_DEVICE_V1, wdm/PO_FX_DEVICE, PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], PPO_FX_DEVICE_V1, PO_FX_DEVICE_V2, PO_FX_DEVICE_V1, *PPO_FX_DEVICE_V2, *PPO_FX_DEVICE, _PO_FX_DEVICE_V2, kernel.po_fx_device, PO_FX_DEVICE, wdm/PPO_FX_DEVICE_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_DEVICE_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_DEVICE_V2, PO_FX_DEVICE_V2"
+req.typenames: PO_FX_DEVICE_V2, *PPO_FX_DEVICE_V2
 req.product: Windows 10 or later.
 ---
 
@@ -140,6 +140,7 @@ This member is the first element in an array of one or more <a href="..\wdm\ns-w
 ## -remarks
 
 
+
 To register a device with PoFx, a driver calls the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.
 
 Each element in the <b>Components</b> array describes the power state attributes of one component in the device. Each component in the device is identified by its <b>Components</b> array index. Routines such as  <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a> and <a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a> use the array index of a component to identify the component.
@@ -148,27 +149,48 @@ A device driver is not required to implement all six callback routines. The driv
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
 <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">PO_FX_COMPONENT</a>
 
-<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
+
 
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
+
+
 
  
 

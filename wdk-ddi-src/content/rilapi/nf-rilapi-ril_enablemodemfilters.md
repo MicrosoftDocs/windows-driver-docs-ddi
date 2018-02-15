@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11fc231e-4b65-4cbb-8c0f-58b1165c08dd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_EnableModemFilters, RIL_EnableModemFilters method [Network Drivers Starting with Windows Vista], netvista.ril_enablemodemfilters, rilapi/RIL_EnableModemFilters
+ms.keywords: RIL_EnableModemFilters, netvista.ril_enablemodemfilters, rilapi/RIL_EnableModemFilters, RIL_EnableModemFilters method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

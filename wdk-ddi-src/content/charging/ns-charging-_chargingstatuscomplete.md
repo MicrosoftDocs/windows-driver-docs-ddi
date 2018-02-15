@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 5B5BD82A-15A3-40AA-9FE8-191B31CB694A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_CHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE, charging/BATTERY_INFORMATION, *PCHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE structure [Battery Devices], battery.chargingstatuscomplete"
+ms.keywords: battery.chargingstatuscomplete, CHARGINGSTATUSCOMPLETE structure [Battery Devices], *PCHARGINGSTATUSCOMPLETE, _CHARGINGSTATUSCOMPLETE, charging/BATTERY_INFORMATION, CHARGINGSTATUSCOMPLETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

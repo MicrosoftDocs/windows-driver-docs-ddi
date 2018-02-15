@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 74E78EC9-4D2B-4CA4-AC00-03EB7433617C
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses], ufxclient/UfxEndpointGetTransferQueue, buses.ufxendpointgettransferqueue
+ms.keywords: UfxEndpointGetTransferQueue, ufxclient/UfxEndpointGetTransferQueue, UfxEndpointGetTransferQueue method [Buses], buses.ufxendpointgettransferqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

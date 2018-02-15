@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e7af434-a6ad-44c8-a33d-adebb53b8e1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_GENERIC_OBJECT, ndis_object_ref_19f8706c-633c-4c32-9d86-17edc4e2ad12.xml, PNDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT structure [Network Drivers Starting with Windows Vista], NDIS_GENERIC_OBJECT, *PNDIS_GENERIC_OBJECT, PNDIS_GENERIC_OBJECT structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_GENERIC_OBJECT, ndis/PNDIS_GENERIC_OBJECT, netvista.ndis_generic_object"
+ms.keywords: NDIS_GENERIC_OBJECT structure [Network Drivers Starting with Windows Vista], netvista.ndis_generic_object, PNDIS_GENERIC_OBJECT, *PNDIS_GENERIC_OBJECT, ndis/NDIS_GENERIC_OBJECT, ndis_object_ref_19f8706c-633c-4c32-9d86-17edc4e2ad12.xml, _NDIS_GENERIC_OBJECT, ndis/PNDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT, PNDIS_GENERIC_OBJECT structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,15 +129,15 @@ Use the
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

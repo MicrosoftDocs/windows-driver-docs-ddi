@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b1d6465-83bd-42c4-be1f-d7a2cfb74483
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP, _DXGKARG_QUERYDEPENDENTENGINEGROUP, display.dxgkarg_querydependentenginegroup, *INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP
+ms.keywords: display.dxgkarg_querydependentenginegroup, DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP, *INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP, _DXGKARG_QUERYDEPENDENTENGINEGROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

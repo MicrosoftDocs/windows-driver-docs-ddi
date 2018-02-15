@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: a58d333f-f092-4f7a-b6ae-ebba4f894678
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMDisablePDEV, print.oemdisablepdev, print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml, printoem/OEMDisablePDEV, OEMDisablePDEV function [Print Devices]
+ms.keywords: OEMDisablePDEV function [Print Devices], printoem/OEMDisablePDEV, print.oemdisablepdev, print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml, OEMDisablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

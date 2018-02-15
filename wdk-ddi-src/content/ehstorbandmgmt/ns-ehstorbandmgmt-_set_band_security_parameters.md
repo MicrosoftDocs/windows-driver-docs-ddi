@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1703D6F-A453-4E3E-8705-344469D61412
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.set_band_security_parameters, PSET_BAND_SECURITY_PARAMETERS structure pointer [Storage Devices], PSET_BAND_SECURITY_PARAMETERS, SETBANDSEC_AUTHKEY_CACHING_ENABLED, SET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS structure [Storage Devices], *PSET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/SET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/PSET_BAND_SECURITY_PARAMETERS, _SET_BAND_SECURITY_PARAMETERS
+ms.keywords: ehstorbandmgmt/PSET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS structure pointer [Storage Devices], _SET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS structure [Storage Devices], ehstorbandmgmt/SET_BAND_SECURITY_PARAMETERS, SETBANDSEC_AUTHKEY_CACHING_ENABLED, *PSET_BAND_SECURITY_PARAMETERS, storage.set_band_security_parameters, SET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -212,11 +212,11 @@ The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a hre
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
-
-
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
+
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 479ff048-f57f-42ca-8787-f87ed055fdbf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsvswitcheventssubscribe0, fwpsk/FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.fwpsvswitcheventssubscribe0, fwpsk/FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], FwpsvSwitchEventsSubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,11 +165,11 @@ The callout driver must later call
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_vswitch_event_dispatch_table0_.md">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventsunsubscribe0.md">FwpsvSwitchEventsUnsubscribe0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_vswitch_event_dispatch_table0_.md">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
 
 
 

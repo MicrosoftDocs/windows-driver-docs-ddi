@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4fe525b1-9c06-4e2c-9e57-041164905efe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_setqueuedlimit, D3DKMT_SETQUEUEDLIMIT structure [Display Devices], d3dkmthk/D3DKMT_SETQUEUEDLIMIT, _D3DKMT_SETQUEUEDLIMIT, D3DKMT_SETQUEUEDLIMIT, OpenGL_Structs_3c7f7e33-f71a-4547-89ee-7dba69917a4f.xml
+ms.keywords: display.d3dkmt_setqueuedlimit, D3DKMT_SETQUEUEDLIMIT, _D3DKMT_SETQUEUEDLIMIT, D3DKMT_SETQUEUEDLIMIT structure [Display Devices], d3dkmthk/D3DKMT_SETQUEUEDLIMIT, OpenGL_Structs_3c7f7e33-f71a-4547-89ee-7dba69917a4f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

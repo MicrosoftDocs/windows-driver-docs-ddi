@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E9E80EB4-C20B-4025-957B-32DC6FAE7F38
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: iointex/WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], WdmlibIoGetAffinityInterrupt, IoGetAffinityInterrupt, iointex/IoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt
+ms.keywords: WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt, iointex/IoGetAffinityInterrupt, IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
 ## -see-also
 
-<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 
@@ -134,11 +134,11 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
+<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
 
 
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
 
 

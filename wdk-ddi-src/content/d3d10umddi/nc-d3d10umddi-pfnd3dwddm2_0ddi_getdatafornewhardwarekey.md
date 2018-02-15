@@ -40,7 +40,7 @@ apiname:
 -	pfnGetDataForNewHardwareKey
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY callback
@@ -103,7 +103,9 @@ A pointer to a UINT64 value that receives private driver output data that could 
 
 
 
+
       Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,15 +135,21 @@ Private driver data was successfully returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
 
  
 

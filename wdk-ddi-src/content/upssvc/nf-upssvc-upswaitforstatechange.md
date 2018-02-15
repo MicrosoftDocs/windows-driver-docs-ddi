@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: ac78dda4-6d14-441b-8e79-3245f7253875
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPSWaitForStateChange, UPSWaitForStateChange function [Battery Devices], battery.upswaitforstatechange, UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, upssvc/UPSWaitForStateChange
+ms.keywords: upssvc/UPSWaitForStateChange, UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, battery.upswaitforstatechange, UPSWaitForStateChange function [Battery Devices], UPSWaitForStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -141,11 +141,11 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP</b> function type is define
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncleanupcomplete.md">SerCx2CustomReceiveTransactionCleanupComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 

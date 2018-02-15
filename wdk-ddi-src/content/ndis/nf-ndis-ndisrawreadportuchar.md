@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5bda6d10-dd68-4385-b71c-8319e6ed0d4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisRawReadPortUchar, miniport_port_raw_ref_e478dfdb-7037-4a9e-8da5-3bc38561094f.xml, NdisRawReadPortUchar, NdisRawReadPortUchar macro [Network Drivers Starting with Windows Vista], netvista.ndisrawreadportuchar
+ms.keywords: NdisRawReadPortUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_e478dfdb-7037-4a9e-8da5-3bc38561094f.xml, NdisRawReadPortUchar, netvista.ndisrawreadportuchar, ndis/NdisRawReadPortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -94,11 +94,7 @@ Pointer to a caller-supplied variable in which this function returns a byte read
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
 
 
 
@@ -110,7 +106,11 @@ Pointer to a caller-supplied variable in which this function returns a byte read
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportushort.md">NdisRawReadPortUshort</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
 
 
 

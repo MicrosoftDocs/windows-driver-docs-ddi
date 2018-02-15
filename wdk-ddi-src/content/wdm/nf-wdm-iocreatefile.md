@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928f16d4-19cb-4d80-96a6-d25357bfdc30
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iocreatefile, IoCreateFile routine [Kernel-Mode Driver Architecture], k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml, IoCreateFile, wdm/IoCreateFile
+ms.keywords: wdm/IoCreateFile, kernel.iocreatefile, IoCreateFile routine [Kernel-Mode Driver Architecture], IoCreateFile, k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -667,11 +667,11 @@ Driver routines that run in a process context other than that of the system proc
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

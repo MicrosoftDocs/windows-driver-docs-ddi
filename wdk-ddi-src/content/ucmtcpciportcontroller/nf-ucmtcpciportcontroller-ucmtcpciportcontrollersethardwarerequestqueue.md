@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 47142adb-4d22-41eb-b455-93409bbffffb
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.ucmtcpciportcontrollersethardwarerequestqueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue
+ms.keywords: UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue, buses.ucmtcpciportcontrollersethardwarerequestqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

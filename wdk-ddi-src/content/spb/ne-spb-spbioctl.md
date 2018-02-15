@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 83260550-B364-4790-BDB5-5C6E5AD76A72
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PSpbIoctl, spb/IOCTL_SPB_LOCK_CONTROLLER, IOCTL_SPB_FULL_DUPLEX, spb/IOCTL_SPB_UNLOCK_CONNECTION, IOCTL_SPB_LOCK_CONNECTION, IOCTL_SPB_UNLOCK_CONTROLLER, spb/IOCTL_SPB_EXECUTE_SEQUENCE, SpbIoctl, spb/IOCTL_SPB_LOCK_CONNECTION, *PSpbIoctl enumeration [Buses], spb/SpbIoctl, spb/*PSpbIoctl, IOCTL_SPB_LOCK_CONTROLLER, IOCTL_SPB_EXECUTE_SEQUENCE, SpbIoctl enumeration [Buses], IOCTL_SPB_UNLOCK_CONNECTION, spb/IOCTL_SPB_UNLOCK_CONTROLLER, SPB.spbioctl, spb/IOCTL_SPB_FULL_DUPLEX"
+ms.keywords: "*PSpbIoctl enumeration [Buses], SpbIoctl enumeration [Buses], spb/IOCTL_SPB_UNLOCK_CONTROLLER, IOCTL_SPB_LOCK_CONTROLLER, *PSpbIoctl, spb/IOCTL_SPB_LOCK_CONTROLLER, spb/IOCTL_SPB_EXECUTE_SEQUENCE, SpbIoctl, spb/IOCTL_SPB_LOCK_CONNECTION, SPB.spbioctl, IOCTL_SPB_EXECUTE_SEQUENCE, IOCTL_SPB_LOCK_CONNECTION, IOCTL_SPB_UNLOCK_CONNECTION, spb/IOCTL_SPB_UNLOCK_CONNECTION, spb/SpbIoctl, IOCTL_SPB_UNLOCK_CONTROLLER, spb/*PSpbIoctl, IOCTL_SPB_FULL_DUPLEX, spb/IOCTL_SPB_FULL_DUPLEX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SpbIoctl
 product: Windows
 targetos: Windows
-req.typenames: "*PSpbIoctl, SpbIoctl"
+req.typenames: SpbIoctl, *PSpbIoctl
 req.product: Windows 10 or later.
 ---
 

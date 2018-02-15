@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9ce7f40f-28f1-4303-9f7a-24ff1213bab1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml, NdisOpenConfigurationKeyByName, netvista.ndisopenconfigurationkeybyname, ndis/NdisOpenConfigurationKeyByName
+ms.keywords: NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml, netvista.ndisopenconfigurationkeybyname, NdisOpenConfigurationKeyByName, ndis/NdisOpenConfigurationKeyByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,7 +160,8 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
+   NdisOpenConfigurationKeyByIndex</a>
 
 
 
@@ -176,11 +177,7 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -188,12 +185,15 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
-   NdisOpenConfigurationKeyByIndex</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3509a177-d974-45fb-9387-21780483cbe7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_array, _NDIS_SWITCH_NIC_ARRAY, *PNDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY, ntddndis/PNDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_ARRAY, *PNDIS_SWITCH_NIC_ARRAY, ntddndis/NDIS_SWITCH_NIC_ARRAY, ntddndis/PNDIS_SWITCH_NIC_ARRAY, _NDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_array
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,15 +130,15 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
 
 
 

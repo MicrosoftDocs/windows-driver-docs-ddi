@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b39a6e4-2e11-4b4e-9218-92336629ae80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportgetphysicaladdress, StorPortGetPhysicalAddress, StorPortGetPhysicalAddress routine [Storage Devices], storprt_fea6d754-844c-4ee9-8153-97f2f0e9ee80.xml, storport/StorPortGetPhysicalAddress
+ms.keywords: storage.storportgetphysicaladdress, StorPortGetPhysicalAddress, storport/StorPortGetPhysicalAddress, StorPortGetPhysicalAddress routine [Storage Devices], storprt_fea6d754-844c-4ee9-8153-97f2f0e9ee80.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,7 @@ Pointer to a value indicating the number of bytes mapped, starting at the return
 
 If the virtual address passed to <b>StorPortGetPhysicalAddress</b> is obtained from <a href="..\storport\nf-storport-storportallocatecontiguousmemoryspecifycachenode.md">StorPortAllocateContiguousMemorySpecifyCacheNode</a>, the value returned for <i>Length</i> should be ignored.
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 <b>StorPortGetPhysicalAddress</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent physical addresses.
 
@@ -129,15 +129,15 @@ The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
+
 <a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
 
 
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

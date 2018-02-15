@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 12b92834-dcab-4723-91e5-9b7ab0bdd719
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_VIDEODECODER_STATUS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEODECODER_STATUS_S, *PKSPROPERTY_VIDEODECODER_STATUS_S, vidcapstruct_c030337a-0c67-4848-84cb-109367a78e07.xml, PKSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S structure [Streaming Media Devices], stream.ksproperty_videodecoder_status_s, KSPROPERTY_VIDEODECODER_STATUS_S, ksmedia/PKSPROPERTY_VIDEODECODER_STATUS_S
+ms.keywords: stream.ksproperty_videodecoder_status_s, KSPROPERTY_VIDEODECODER_STATUS_S structure [Streaming Media Devices], *PKSPROPERTY_VIDEODECODER_STATUS_S, vidcapstruct_c030337a-0c67-4848-84cb-109367a78e07.xml, PKSPROPERTY_VIDEODECODER_STATUS_S structure pointer [Streaming Media Devices], PKSPROPERTY_VIDEODECODER_STATUS_S, ksmedia/PKSPROPERTY_VIDEODECODER_STATUS_S, KSPROPERTY_VIDEODECODER_STATUS_S, ksmedia/KSPROPERTY_VIDEODECODER_STATUS_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,11 +95,11 @@ The KSPROPERTY_VIDEODECODER_STATUS_S structure retrieves information about the v
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566060">KSPROPERTY_VIDEODECODER_STATUS</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

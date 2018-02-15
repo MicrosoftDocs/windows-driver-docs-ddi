@@ -40,7 +40,7 @@ apiname:
 -	(*TAPE_EXTENSION_INIT_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
+req.typenames: "*PPROCESSOR_NUMBER, PROCESSOR_NUMBER"
 ---
 
 # TAPE_EXTENSION_INIT_ROUTINE callback
@@ -90,11 +90,14 @@ Pointer to a buffer that contains low-level information for the tape device. The
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A tape miniclass driver requests a minitape extension by specifying a nonzero value for <b>MinitapeExtensionSize</b> in the <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a> structure it passes to <a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a> from its <b>DriverEntry</b> routine. A miniclass driver defines the structure and contents of the minitape extension and typically uses it to store inquiry data for the devices it supports.
@@ -105,17 +108,28 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+
 
 <a href="..\minitape\nc-minitape-tape_error_routine.md">TapeMiniTapeError</a>
 
+
+
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+
+
+
 <a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+
+
 
  
 

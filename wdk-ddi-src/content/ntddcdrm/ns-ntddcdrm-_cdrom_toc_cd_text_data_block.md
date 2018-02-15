@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 119386fe-1eff-4dac-b9d5-54baefcf6e12
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK, storage.cdrom_toc_cd_text_data_block, ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK, PCDROM_TOC_CD_TEXT_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_CD_TEXT_DATA_BLOCK, *PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK structure [Storage Devices], PCDROM_TOC_CD_TEXT_DATA_BLOCK, structs-CD-ROM_6bdb8d21-6388-4505-b9a1-1b3e1e594e02.xml
+ms.keywords: CDROM_TOC_CD_TEXT_DATA_BLOCK structure [Storage Devices], PCDROM_TOC_CD_TEXT_DATA_BLOCK structure pointer [Storage Devices], *PCDROM_TOC_CD_TEXT_DATA_BLOCK, CDROM_TOC_CD_TEXT_DATA_BLOCK, structs-CD-ROM_6bdb8d21-6388-4505-b9a1-1b3e1e594e02.xml, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA_BLOCK, ntddcdrm/CDROM_TOC_CD_TEXT_DATA_BLOCK, _CDROM_TOC_CD_TEXT_DATA_BLOCK, PCDROM_TOC_CD_TEXT_DATA_BLOCK, storage.cdrom_toc_cd_text_data_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -230,11 +230,11 @@ Contains the cyclic redundancy check.
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc_cd_text_data.md">CDROM_TOC_CD_TEXT_DATA</a>
 
 
 

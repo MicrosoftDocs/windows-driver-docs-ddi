@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorQueryCapabilities, StorRemoveDevice, storport/PSRBEX_DATA_PNP, SRBEX_DATA_PNP, storport/SRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], storage.srbex_data_pnp, StorFilterResourceRequirements, StorStopDevice, PSRBEX_DATA_PNP, StorSupriseRemoval, StorQueryResourceRequirements, _SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], *PSRBEX_DATA_PNP, StorStartDevice
+ms.keywords: StorQueryResourceRequirements, storport/SRBEX_DATA_PNP, SRBEX_DATA_PNP, StorQueryCapabilities, StorSupriseRemoval, SRBEX_DATA_PNP structure [Storage Devices], StorRemoveDevice, *PSRBEX_DATA_PNP, StorStopDevice, _SRBEX_DATA_PNP, storport/PSRBEX_DATA_PNP, StorStartDevice, PSRBEX_DATA_PNP, storage.srbex_data_pnp, StorFilterResourceRequirements, PSRBEX_DATA_PNP structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -186,7 +186,7 @@ Surprise Removal of the device. This value is available starting with Windows 7
 
 ### -field SrbPnPFlags
 
-Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved1
@@ -196,7 +196,7 @@ This member is reserved. Set to 0.
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

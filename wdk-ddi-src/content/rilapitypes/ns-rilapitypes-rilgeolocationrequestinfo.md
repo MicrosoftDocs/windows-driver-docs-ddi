@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c9e2bcb8-cd74-4256-9854-bc898fc8cf74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, netvista.rilgeolocationrequestinfo_2"
+ms.keywords: RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, netvista.rilgeolocationrequestinfo_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

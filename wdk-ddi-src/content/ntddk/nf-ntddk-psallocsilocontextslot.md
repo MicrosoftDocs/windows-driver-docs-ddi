@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 835446D1-EB41-47BC-AA0F-54A9C029EFFE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot, PsAllocSiloContextSlot
+ms.keywords: ntddk/PsAllocSiloContextSlot, PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

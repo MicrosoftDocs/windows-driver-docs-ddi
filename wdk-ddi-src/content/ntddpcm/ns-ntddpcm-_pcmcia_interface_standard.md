@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 3c98fe7b-e60a-4494-b1f0-847a7cbe9d3a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddpcm/PPCMCIA_INTERFACE_STANDARD, PCMCIA_INTERFACE_STANDARD, PCMCIA_INTERFACE_STANDARD structure [Buses], _PCMCIA_INTERFACE_STANDARD, PCMCIA.pcmcia_interface_standard, *PPCMCIA_INTERFACE_STANDARD, PPCMCIA_INTERFACE_STANDARD, memcdref_768387a3-0148-4f5e-972a-983b7827a634.xml, ntddpcm/PCMCIA_INTERFACE_STANDARD, PPCMCIA_INTERFACE_STANDARD structure pointer [Buses]
+ms.keywords: PCMCIA_INTERFACE_STANDARD structure [Buses], memcdref_768387a3-0148-4f5e-972a-983b7827a634.xml, PCMCIA_INTERFACE_STANDARD, _PCMCIA_INTERFACE_STANDARD, *PPCMCIA_INTERFACE_STANDARD, ntddpcm/PCMCIA_INTERFACE_STANDARD, PPCMCIA_INTERFACE_STANDARD structure pointer [Buses], PCMCIA.pcmcia_interface_standard, PPCMCIA_INTERFACE_STANDARD, ntddpcm/PPCMCIA_INTERFACE_STANDARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

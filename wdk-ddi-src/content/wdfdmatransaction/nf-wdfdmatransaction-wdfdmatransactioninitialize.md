@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb17b31a-a069-4d41-a613-81a9815ac9a3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDmaObjectRef_d7f9d480-a08b-4d5e-a4a2-bfc2de6b4d34.xml, kmdf.wdfdmatransactioninitialize, wdfdmatransaction/WdfDmaTransactionInitialize, wdf.wdfdmatransactioninitialize, WdfDmaTransactionInitialize method, WdfDmaTransactionInitialize
+ms.keywords: WdfDmaTransactionInitialize method, wdfdmatransaction/WdfDmaTransactionInitialize, wdf.wdfdmatransactioninitialize, WdfDmaTransactionInitialize, kmdf.wdfdmatransactioninitialize, DFDmaObjectRef_d7f9d480-a08b-4d5e-a4a2-bfc2de6b4d34.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -275,19 +275,7 @@ if(!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
-
-
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
 
 
 
@@ -299,11 +287,23 @@ if(!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+
+
+
+<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
 
 
 

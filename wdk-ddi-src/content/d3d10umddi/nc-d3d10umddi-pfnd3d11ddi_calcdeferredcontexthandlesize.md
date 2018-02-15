@@ -87,14 +87,14 @@ SIZE_T APIENTRY CalcDeferredContextHandleSize(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - HandleType [in]
 
  A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>-typed value that indicates the type of deferred context handle to determine the size of the memory region for. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - pICObject [in]
@@ -126,11 +126,7 @@ For more information about how <b>CalcDeferredContextHandleSize</b> is used, see
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
 
 
 
@@ -138,7 +134,11 @@ For more information about how <b>CalcDeferredContextHandleSize</b> is used, see
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+
+
+
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
 
 
 

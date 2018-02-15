@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, Write, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], display.d3dddi_mapgpuvirtualaddress, Execute, Zero, NoAccess
+ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, Write, NoAccess, Execute, display.d3dddi_mapgpuvirtualaddress, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, Zero, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -206,7 +206,7 @@ A zero fence value might be returned, meaning that the operation is already comp
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
 
 
 
@@ -218,7 +218,7 @@ A zero fence value might be returned, meaning that the operation is already comp
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
 
 
 

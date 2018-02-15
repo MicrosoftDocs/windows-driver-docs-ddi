@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ba7023d9-5130-4eea-9de9-034f5bf0b145
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, ntifs/CcSetDirtyPageThreshold, CcSetDirtyPageThreshold, CcSetDirtyPageThreshold routine [Installable File System Drivers], ifsk.ccsetdirtypagethreshold
+ms.keywords: CcSetDirtyPageThreshold routine [Installable File System Drivers], ifsk.ccsetdirtypagethreshold, ntifs/CcSetDirtyPageThreshold, CcSetDirtyPageThreshold, ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

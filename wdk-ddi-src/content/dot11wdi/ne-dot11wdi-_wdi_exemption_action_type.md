@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46640961-828c-411b-b1b9-bcceb04bdf17
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE, WDI_EXEMPTION_ACTION_TYPE, WDI_EXEMPTION_ACTION_TYPE enumeration [Network Drivers Starting with Windows Vista], _WDI_EXEMPTION_ACTION_TYPE, dot11wdi/WDI_EXEMPT_NO_EXEMPTION, netvista.wifi_exemption_action_type, dot11wdi/WDI_EXEMPT_ALWAYS, WDI_EXEMPT_NO_EXEMPTION, netvista.wdi_exemption_action_type, dot11wdi/WDI_EXEMPTION_ACTION_TYPE, dot11wdi/WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE, WDI_EXEMPT_ALWAYS
+ms.keywords: dot11wdi/WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE, WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE, dot11wdi/WDI_EXEMPTION_ACTION_TYPE, dot11wdi/WDI_EXEMPT_NO_EXEMPTION, dot11wdi/WDI_EXEMPT_ALWAYS, WDI_EXEMPT_ALWAYS, netvista.wdi_exemption_action_type, WDI_EXEMPTION_ACTION_TYPE, WDI_EXEMPTION_ACTION_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.wifi_exemption_action_type, _WDI_EXEMPTION_ACTION_TYPE, WDI_EXEMPT_NO_EXEMPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

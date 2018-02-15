@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f312afec-10b3-4049-a4c1-154c11b4a869
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoInvalidateDeviceRelations, IoInvalidateDeviceRelations, k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, kernel.ioinvalidatedevicerelations, IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoInvalidateDeviceRelations, k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], kernel.ioinvalidatedevicerelations, IoInvalidateDeviceRelations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ After a bus driver calls <b>IoInvalidateDeviceRelations</b> to inform the PnP ma
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
 
 
 

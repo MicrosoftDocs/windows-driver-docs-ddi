@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bb8a1dd5-8207-4034-993e-eed49dc0f9c4
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthsdpddi/PBTHDDI_SDP_PARSE_INTERFACE, *PBTHDDI_SDP_PARSE_INTERFACE, PBTHDDI_SDP_PARSE_INTERFACE structure pointer [Bluetooth Devices], PBTHDDI_SDP_PARSE_INTERFACE, bthsdpddi/BTHDDI_SDP_PARSE_INTERFACE, bth_structs_9c26fcf9-b84e-4b8d-a6bd-f897428cb921.xml, BTHDDI_SDP_PARSE_INTERFACE, BTHDDI_SDP_PARSE_INTERFACE structure [Bluetooth Devices], bltooth.bthddi_sdp_parse_interface, _BTHDDI_SDP_PARSE_INTERFACE
+ms.keywords: BTHDDI_SDP_PARSE_INTERFACE, *PBTHDDI_SDP_PARSE_INTERFACE, PBTHDDI_SDP_PARSE_INTERFACE, _BTHDDI_SDP_PARSE_INTERFACE, bthsdpddi/PBTHDDI_SDP_PARSE_INTERFACE, bthsdpddi/BTHDDI_SDP_PARSE_INTERFACE, bltooth.bthddi_sdp_parse_interface, PBTHDDI_SDP_PARSE_INTERFACE structure pointer [Bluetooth Devices], bth_structs_9c26fcf9-b84e-4b8d-a6bd-f897428cb921.xml, BTHDDI_SDP_PARSE_INTERFACE structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -202,11 +202,23 @@ All the members of this structure, other than the
 
 ## -see-also
 
+<a href="..\bthsdpddi\nc-bthsdpddi-pbyteswapuint128.md">SdpByteSwapUint128</a>
+
+
+
+<a href="..\bthsdpddi\nc-bthsdpddi-pretrieveuint64.md">SdpRetrieveUint64</a>
+
+
+
 <a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
 
 
 
-<a href="..\bthsdpddi\nc-bthsdpddi-pbyteswapuuid128.md">SdpByteSwapUuid128</a>
+<a href="..\bthsdpddi\nc-bthsdpddi-pbyteswapuint64.md">SdpByteSwapUint64</a>
+
+
+
+<a href="..\bthsdpddi\nc-bthsdpddi-pvalidatestream.md">SdpValidateStream</a>
 
 
 
@@ -214,11 +226,11 @@ All the members of this structure, other than the
 
 
 
+<a href="..\bthsdpddi\nc-bthsdpddi-pretrieveuint64.md">SdpRetrieveUint128</a>
+
+
+
 <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
-
-
-
-<a href="..\bthsdpddi\nc-bthsdpddi-pbyteswapuint64.md">SdpByteSwapUint64</a>
 
 
 
@@ -230,7 +242,7 @@ All the members of this structure, other than the
 
 
 
-<a href="..\bthsdpddi\nc-bthsdpddi-pretrieveuuid128.md">SdpRetrieveUuid128</a>
+<a href="..\bthsdpddi\nc-bthsdpddi-pbyteswapuuid128.md">SdpByteSwapUuid128</a>
 
 
 
@@ -238,19 +250,7 @@ All the members of this structure, other than the
 
 
 
-<a href="..\bthsdpddi\nc-bthsdpddi-pretrieveuint64.md">SdpRetrieveUint64</a>
-
-
-
-<a href="..\bthsdpddi\nc-bthsdpddi-pretrieveuint64.md">SdpRetrieveUint128</a>
-
-
-
-<a href="..\bthsdpddi\nc-bthsdpddi-pvalidatestream.md">SdpValidateStream</a>
-
-
-
-<a href="..\bthsdpddi\nc-bthsdpddi-pbyteswapuint128.md">SdpByteSwapUint128</a>
+<a href="..\bthsdpddi\nc-bthsdpddi-pretrieveuuid128.md">SdpRetrieveUuid128</a>
 
 
 

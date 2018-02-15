@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f5730d3-6e6c-490f-b2e5-e2d3615b4c3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFPauseComplete function [Network Drivers Starting with Windows Vista], netvista.ndisfpausecomplete, filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, NdisFPauseComplete, ndis/NdisFPauseComplete
+ms.keywords: NdisFPauseComplete, netvista.ndisfpausecomplete, filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, NdisFPauseComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFPauseComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,11 @@ After a pending pause operation is complete, the driver calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
 
 
 

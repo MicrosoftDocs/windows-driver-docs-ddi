@@ -90,11 +90,14 @@ Pointer to an AVStream-generated <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT
 ## -returns
 
 
+
 <i>AVStrMiniAddEvent</i> should return STATUS_SUCCESS or an error specific to the event being enabled.  
 
 
 
+
 ## -remarks
+
 
 
 If you do not provide an add event handler, AVStream adds the event to the object list. See <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a>.
@@ -107,25 +110,44 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
-
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
-<a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+
+
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
 
 <a href="..\ks\nc-ks-pfnksremoveevent.md">AVStrMiniRemoveEvent</a>
 
+
+
+<a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
+
+
+
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+
+
 
  
 

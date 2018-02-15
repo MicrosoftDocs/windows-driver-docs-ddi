@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0B5C1BF9-59C3-4AC9-B545-FD7260B75E90
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltGetSectionContext, fltkernel/FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], ifsk.fltgetsectioncontext
+ms.keywords: FltGetSectionContext routine [Installable File System Drivers], ifsk.fltgetsectioncontext, FltGetSectionContext, fltkernel/FltGetSectionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

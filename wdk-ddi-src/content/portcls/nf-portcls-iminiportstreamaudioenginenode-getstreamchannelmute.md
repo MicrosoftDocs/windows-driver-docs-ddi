@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 16010297-5B08-466C-AB79-4ED12A9539D9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: GetStreamChannelMute, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelMute method, GetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreamchannelmute, GetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode::GetStreamChannelMute, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelMute
+ms.keywords: GetStreamChannelMute method [Audio Devices], portcls/IMiniportStreamAudioEngineNode::GetStreamChannelMute, GetStreamChannelMute, IMiniportStreamAudioEngineNode::GetStreamChannelMute, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelMute method, GetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreamchannelmute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

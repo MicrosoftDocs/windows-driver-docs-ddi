@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 948475eb-0670-4fab-b831-2fdb3ec86032
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/SetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN structure [Storage Devices], _SetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, *PSetRADIUSSharedSecret_IN, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, PSetRADIUSSharedSecret_IN, iscsiop/PSetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], SetRADIUSSharedSecret_IN
+ms.keywords: PSetRADIUSSharedSecret_IN, iscsiop/PSetRADIUSSharedSecret_IN, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], *PSetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, iscsiop/SetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN structure [Storage Devices], _SetRADIUSSharedSecret_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

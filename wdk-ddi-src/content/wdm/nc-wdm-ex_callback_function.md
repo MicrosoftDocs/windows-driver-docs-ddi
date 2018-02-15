@@ -588,15 +588,15 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+
 <a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
 
 
 
-<a href="..\wdm\ne-wdm-_reg_notify_class.md">REG_NOTIFY_CLASS</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+<a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
 
 
 
@@ -604,7 +604,7 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 
 
-<a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
+<a href="..\wdm\ne-wdm-_reg_notify_class.md">REG_NOTIFY_CLASS</a>
 
 
 

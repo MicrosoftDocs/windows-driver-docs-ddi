@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2d67a00e-a3ba-4a19-ac6b-0b12d079435c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_3f91ee50-2bdd-4206-afe6-d8b79d3b7d80.xml, D3D10DDIARG_CREATERESOURCE, display.d3d10ddiarg_createresource, d3d10umddi/D3D10DDIARG_CREATERESOURCE, D3D10DDIARG_CREATERESOURCE structure [Display Devices]
+ms.keywords: display.d3d10ddiarg_createresource, UMDisplayDriver_Dx10param_Structs_3f91ee50-2bdd-4206-afe6-d8b79d3b7d80.xml, D3D10DDIARG_CREATERESOURCE, d3d10umddi/D3D10DDIARG_CREATERESOURCE, D3D10DDIARG_CREATERESOURCE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -148,11 +148,7 @@ If <b>pPrimaryDesc</b> is set to <b>NULL</b>, the runtime will use the created r
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
-
-
-
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
 
 
 
@@ -168,10 +164,6 @@ If <b>pPrimaryDesc</b> is set to <b>NULL</b>, the runtime will use the created r
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
 
 
@@ -180,15 +172,23 @@ If <b>pPrimaryDesc</b> is set to <b>NULL</b>, the runtime will use the created r
 
 
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_primary_desc.md">DXGI_DDI_PRIMARY_DESC</a>
+
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
 
 
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_mipinfo.md">D3D10DDI_MIPINFO</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
 
 
 

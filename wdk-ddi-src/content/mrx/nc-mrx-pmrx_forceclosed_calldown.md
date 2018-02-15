@@ -125,43 +125,11 @@ This routine is not implemented.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
 
 
@@ -169,7 +137,19 @@ This routine is not implemented.
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
 
 
 
@@ -181,7 +161,27 @@ This routine is not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
 
 
 

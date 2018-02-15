@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 347e0d45-8be1-4e4e-8a6a-44d5c914bf0f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, GetOffsetByLine method [Windows Debugging], GetOffsetByLine, IDebugSymbols::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method, debugger.getoffsetbyline, IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3::GetOffsetByLine, IDebugSymbols, dbgeng/IDebugSymbols::GetOffsetByLine, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, dbgeng/IDebugSymbols2::GetOffsetByLine, dbgeng/IDebugSymbols3::GetOffsetByLine
+ms.keywords: dbgeng/IDebugSymbols3::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, GetOffsetByLine, IDebugSymbols::GetOffsetByLine, GetOffsetByLine method [Windows Debugging], dbgeng/IDebugSymbols::GetOffsetByLine, debugger.getoffsetbyline, GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method, dbgeng/IDebugSymbols2::GetOffsetByLine, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, IDebugSymbols, IDebugSymbols3::GetOffsetByLine, IDebugSymbols2::GetOffsetByLine, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -127,19 +127,19 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546995">GetLineByOffset</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

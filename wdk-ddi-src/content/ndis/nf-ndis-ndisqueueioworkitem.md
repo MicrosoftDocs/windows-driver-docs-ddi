@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f5065217-a74e-41b6-bc23-59b39948a450
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, NdisQueueIoWorkItem, netvista.ndisqueueioworkitem, ndis/NdisQueueIoWorkItem, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisQueueIoWorkItem, netvista.ndisqueueioworkitem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, ndis/NdisQueueIoWorkItem, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -181,7 +181,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+<a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
 
 
 
@@ -193,7 +193,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocateioworkitem.md">NdisAllocateIoWorkItem</a>
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 
 

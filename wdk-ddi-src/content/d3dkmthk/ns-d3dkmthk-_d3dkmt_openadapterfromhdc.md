@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: db425b8c-4abd-4998-89bb-f6d9f066a3f6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], display.d3dkmt_openadapterfromhdc, OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml, d3dkmthk/D3DKMT_OPENADAPTERFROMHDC, D3DKMT_OPENADAPTERFROMHDC, _D3DKMT_OPENADAPTERFROMHDC
+ms.keywords: D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], _D3DKMT_OPENADAPTERFROMHDC, OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml, d3dkmthk/D3DKMT_OPENADAPTERFROMHDC, D3DKMT_OPENADAPTERFROMHDC, display.d3dkmt_openadapterfromhdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

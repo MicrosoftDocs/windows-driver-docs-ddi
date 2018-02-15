@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BA710D92-63F4-4B4B-868A-58074FC052E9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging], dbgeng/IDebugOutputCallbacks2::GetInterestMask, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2::GetInterestMask, DEBUG_OUTCBI_DML, GetInterestMask, DEBUG_OUTCBI_TEXT, DEBUG_OUTCBI_ANY_FORMAT, GetInterestMask method [Windows Debugging], IDebugOutputCallbacks2 interface, debugger.idebugoutputcallbacks2_getinterestmask
+ms.keywords: DEBUG_OUTCBI_TEXT, dbgeng/IDebugOutputCallbacks2::GetInterestMask, IDebugOutputCallbacks2, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2::GetInterestMask, IDebugOutputCallbacks2 interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugOutputCallbacks2 interface, DEBUG_OUTCBI_DML, GetInterestMask, DEBUG_OUTCBI_ANY_FORMAT, debugger.idebugoutputcallbacks2_getinterestmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

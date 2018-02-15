@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 89fd8a33-9b2e-401a-9b48-49b4b19d3cb2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltAcknowledgeEcp routine [Installable File System Drivers], FltAcknowledgeEcp, FltApiRef_a_to_d_17c8b1d4-47d1-4871-be9d-57986967a083.xml, fltkernel/FltAcknowledgeEcp, ifsk.fltacknowledgeecp
+ms.keywords: FltAcknowledgeEcp, fltkernel/FltAcknowledgeEcp, ifsk.fltacknowledgeecp, FltApiRef_a_to_d_17c8b1d4-47d1-4871-be9d-57986967a083.xml, FltAcknowledgeEcp routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,10 +101,6 @@ The ECP pointed to by the <i>EcpContext</i> parameter is marked as "acknowledged
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
 
@@ -113,11 +109,15 @@ The ECP pointed to by the <i>EcpContext</i> parameter is marked as "acknowledged
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltisecpfromusermode.md">FltIsEcpFromUserMode</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltisecpacknowledged.md">FltIsEcpAcknowledged</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
 
@@ -125,11 +125,11 @@ The ECP pointed to by the <i>EcpContext</i> parameter is marked as "acknowledged
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltisecpfromusermode.md">FltIsEcpFromUserMode</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
 
 

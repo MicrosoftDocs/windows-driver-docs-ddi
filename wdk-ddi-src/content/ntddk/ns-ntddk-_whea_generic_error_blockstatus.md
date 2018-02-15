@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 38c8422d-7307-4acd-81f0-931d2e128cb9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PWHEA_GENERIC_ERROR_BLOCKSTATUS, whea.whea_generic_error_blockstatus, WHEA_GENERIC_ERROR_BLOCKSTATUS, ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS union [WHEA Drivers and Applications], _WHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS union pointer [WHEA Drivers and Applications], ntddk/PWHEA_GENERIC_ERROR_BLOCKSTATUS, whearef_2137a60a-daff-4a33-a516-c9ae87e2f11c.xml"
+ms.keywords: WHEA_GENERIC_ERROR_BLOCKSTATUS, whea.whea_generic_error_blockstatus, ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS, *PWHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS union [WHEA Drivers and Applications], whearef_2137a60a-daff-4a33-a516-c9ae87e2f11c.xml, _WHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS union pointer [WHEA Drivers and Applications], ntddk/PWHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,11 +126,11 @@ A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="..\ntddk
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_generic_error_data_entry_v2.md">WHEA_GENERIC_ERROR_DATA_ENTRY</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
 
 

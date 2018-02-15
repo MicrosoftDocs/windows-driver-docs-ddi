@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 2D7B6278-6D7A-41C4-B21A-D531CD8DCD91
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE, _HPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices], *PHPMI_QUERY_CAPABILITIES_RESPONSE, powermeter.hpmi_query_capabilities_response, PHPMI_QUERY_CAPABILITIES_RESPONSE
+ms.keywords: hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], PHPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE, powermeter.hpmi_query_capabilities_response, HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices], HPMI_QUERY_CAPABILITIES_RESPONSE, _HPMI_QUERY_CAPABILITIES_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,6 @@ Requests one or more Windows services as defined by
 ### -field SdbCapabilities
 
 Specifies Software Defined Battery (SDB) features supported by the system.
-    
 
  This field is set to combination of one or more HPMI_CAPABILITY_SDB_XXX
     values logically OR'd. It should be set to HPMI_CAPABILITY_NOT_SUPPORTED to
@@ -92,11 +91,17 @@ Specifies Software Defined Battery (SDB) features supported by the system.
 
 ## -see-also
 
-<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities.md">HPMI_QUERY_CAPABILITIES</a>
-
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
 
+
+
+<a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities.md">HPMI_QUERY_CAPABILITIES</a>
+
+
+
 <a href="..\hpmi\ni-hpmi-ioctl_hpmi_query_capabilities.md">IOCTL_HPMI_QUERY_CAPABILITIES</a>
+
+
 
  
 

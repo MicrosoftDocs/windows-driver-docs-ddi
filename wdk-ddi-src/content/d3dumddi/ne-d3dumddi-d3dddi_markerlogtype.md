@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CBD48828-7DAA-470F-AB9E-34957C579EB5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_markerlogtype, D3DDDI_MARKERLOGTYPE, D3DDDIMLT_NONE, d3dumddi/D3DDDIMLT_FT_PROFILE, D3DDDIMLT_FT_PROFILE, d3dumddi/D3DDDI_MARKERLOGTYPE, D3DDDIMLT_PROFILE, d3dumddi/D3DDDIMLT_NONE, d3dumddi/D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices]
+ms.keywords: d3dumddi/D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices], d3dumddi/D3DDDIMLT_FT_PROFILE, D3DDDIMLT_NONE, d3dumddi/D3DDDI_MARKERLOGTYPE, d3dumddi/D3DDDIMLT_NONE, D3DDDIMLT_PROFILE, D3DDDIMLT_FT_PROFILE, display.d3dddi_markerlogtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

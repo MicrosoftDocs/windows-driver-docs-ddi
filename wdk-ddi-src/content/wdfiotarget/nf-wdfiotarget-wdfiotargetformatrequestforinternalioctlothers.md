@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e843eb33-f688-4963-9f35-244b4ed0ef7a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetFormatRequestForInternalIoctlOthers, wdf.wdfiotargetformatrequestforinternalioctlothers, kmdf.wdfiotargetformatrequestforinternalioctlothers, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers, DFIOTargetRef_bf839577-4858-4b98-adf3-cee7e8f01bd5.xml, WdfIoTargetFormatRequestForInternalIoctlOthers method, PFN_WDFIOTARGETFORMATREQUESTFORINTERNALIOCTLOTHERS
+ms.keywords: PFN_WDFIOTARGETFORMATREQUESTFORINTERNALIOCTLOTHERS, WdfIoTargetFormatRequestForInternalIoctlOthers method, WdfIoTargetFormatRequestForInternalIoctlOthers, wdf.wdfiotargetformatrequestforinternalioctlothers, DFIOTargetRef_bf839577-4858-4b98-adf3-cee7e8f01bd5.xml, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers, kmdf.wdfiotargetformatrequestforinternalioctlothers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -331,15 +331,7 @@ else {
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 
@@ -351,23 +343,7 @@ else {
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 
@@ -375,11 +351,35 @@ else {
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
 
 
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

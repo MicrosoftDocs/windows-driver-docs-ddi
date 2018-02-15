@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 633c9766-f92b-436a-bac9-f77702888a3d
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fltkernel/FltCompletePendedPostOperation, FltCompletePendedPostOperation, FltCompletePendedPostOperation routine [Installable File System Drivers], ifsk.fltcompletependedpostoperation, FltApiRef_a_to_d_ce848a3a-9d76-433d-a65c-e67ea0f9550b.xml
+ms.keywords: FltCompletePendedPostOperation, FltCompletePendedPostOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPostOperation, FltApiRef_a_to_d_ce848a3a-9d76-433d-a65c-e67ea0f9550b.xml, ifsk.fltcompletependedpostoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,15 +93,15 @@ When a minifilter driver's postoperation callback (<a href="..\fltkernel\nc-fltk
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
+
+
+
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
 <a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
 
 
 

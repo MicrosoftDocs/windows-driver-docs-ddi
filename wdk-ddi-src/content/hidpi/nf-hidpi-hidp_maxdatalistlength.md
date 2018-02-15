@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 525a44a5-4271-4079-917e-48eb679cb96d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidfunc_2c103c6f-6177-47b3-9d52-9e15c97d758d.xml, hid.hidp_maxdatalistlength, HidP_MaxDataListLength routine [Human Input Devices], hidpi/HidP_MaxDataListLength, HidP_MaxDataListLength
+ms.keywords: hidpi/HidP_MaxDataListLength, hid.hidp_maxdatalistlength, HidP_MaxDataListLength, hidfunc_2c103c6f-6177-47b3-9d52-9e15c97d758d.xml, HidP_MaxDataListLength routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
 
 
 
@@ -113,7 +109,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
 
 
 

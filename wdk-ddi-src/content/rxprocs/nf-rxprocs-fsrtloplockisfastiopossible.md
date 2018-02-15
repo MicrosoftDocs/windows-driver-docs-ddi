@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ba482fbf-862c-48b4-b8f9-aaab6c5527ee
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlOplockIsFastIoPossible function [Installable File System Drivers], rxprocs/FsRtlOplockIsFastIoPossible, FsRtlOplockIsFastIoPossible, fsrtlref_94131dc4-e2ee-4ec0-92b9-39cd8a7d6e41.xml, ifsk.fsrtloplockisfastiopossible
+ms.keywords: FsRtlOplockIsFastIoPossible, FsRtlOplockIsFastIoPossible function [Installable File System Drivers], rxprocs/FsRtlOplockIsFastIoPossible, ifsk.fsrtloplockisfastiopossible, fsrtlref_94131dc4-e2ee-4ec0-92b9-39cd8a7d6e41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -107,22 +107,6 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockisfastioposs
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrl~r2.md">FsRtlOplockFsctrl</a>
 
 
@@ -131,11 +115,31 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockisfastioposs
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
+<a href="..\fltkernel\nf-fltkernel-fltoplockisfastiopossible.md">FltOplockIsFastIoPossible</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock.md">FsRtlUninitializeOplock</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
 
 
@@ -147,15 +151,11 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockisfastioposs
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock.md">FsRtlUninitializeOplock</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltoplockisfastiopossible.md">FltOplockIsFastIoPossible</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-fsrtlcheckoplock.md">FsRtlCheckOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 

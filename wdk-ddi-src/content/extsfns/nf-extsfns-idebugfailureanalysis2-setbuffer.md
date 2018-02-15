@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 366EE066-AD47-4A75-87B4-17279C66C741
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugfailureanalysis2_setbuffer, SetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, SetBuffer, IDebugFailureAnalysis2::SetBuffer, IDebugFailureAnalysis2 interface [Windows Debugging], SetBuffer method, SetBuffer method [Windows Debugging], IDebugFailureAnalysis2, extsfns/IDebugFailureAnalysis2::SetBuffer
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], SetBuffer method, SetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, extsfns/IDebugFailureAnalysis2::SetBuffer, debugger.idebugfailureanalysis2_setbuffer, SetBuffer, IDebugFailureAnalysis2, IDebugFailureAnalysis2::SetBuffer, SetBuffer method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,15 +112,11 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -129,6 +125,10 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
 
 
 

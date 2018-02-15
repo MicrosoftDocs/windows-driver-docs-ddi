@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 45d5b640-5983-43cc-9b2e-2f2625dbd57c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_33fb6610-08f3-4605-9511-72a2ec6fa442.xml, MmAllocateContiguousMemory, MmAllocateContiguousMemory routine [Kernel-Mode Driver Architecture], wdm/MmAllocateContiguousMemory, kernel.mmallocatecontiguousmemory
+ms.keywords: MmAllocateContiguousMemory routine [Kernel-Mode Driver Architecture], MmAllocateContiguousMemory, kernel.mmallocatecontiguousmemory, k106_33fb6610-08f3-4605-9511-72a2ec6fa442.xml, wdm/MmAllocateContiguousMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,7 @@ Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the mem
 
 
 
-<a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -121,11 +121,11 @@ Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the mem
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fe0896ab-2d20-465f-a8bc-bfc0033701d6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfsendnetbufferlists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisFSendNetBufferLists, NdisFSendNetBufferLists, filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml
+ms.keywords: NdisFSendNetBufferLists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, ndis/NdisFSendNetBufferLists, netvista.ndisfsendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -222,7 +222,19 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
@@ -231,23 +243,11 @@ Until NDIS calls
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
 
 

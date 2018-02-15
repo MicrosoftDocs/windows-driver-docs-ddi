@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b4510fac-839b-4744-9525-2bf96c5c724e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: sti/IStiDevice::RawReadData, stifnc_cbd37004-cf03-4a49-9422-374e01abe376.xml, IStiDevice::RawReadData, RawReadData method [Imaging Devices], RawReadData, IStiDevice, image.istidevice_rawreaddata, RawReadData method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], RawReadData method
+ms.keywords: stifnc_cbd37004-cf03-4a49-9422-374e01abe376.xml, RawReadData method [Imaging Devices], image.istidevice_rawreaddata, RawReadData method [Imaging Devices], IStiDevice interface, RawReadData, sti/IStiDevice::RawReadData, IStiDevice::RawReadData, IStiDevice, IStiDevice interface [Imaging Devices], RawReadData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

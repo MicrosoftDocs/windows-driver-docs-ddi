@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb66a17e-2e85-453c-8b39-091f0dc8c29b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeGetCurrentProcessorNumberEx, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture], k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, kernel.kegetcurrentprocessornumberex, wdm/KeGetCurrentProcessorNumberEx
+ms.keywords: wdm/KeGetCurrentProcessorNumberEx, KeGetCurrentProcessorNumberEx, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture], k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, kernel.kegetcurrentprocessornumberex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ A related routine, <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">Ke
 
 
 
-<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
 
 
 

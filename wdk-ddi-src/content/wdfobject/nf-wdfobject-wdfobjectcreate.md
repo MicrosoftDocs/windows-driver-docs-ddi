@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fd56c529-c7ad-4fc4-8fcc-950a1e8e21e5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFOBJECTCREATE, wdf.wdfobjectcreate, kmdf.wdfobjectcreate, wdfobject/WdfObjectCreate, DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, WdfObjectCreate method, WdfObjectCreate
+ms.keywords: WdfObjectCreate, kmdf.wdfobjectcreate, PFN_WDFOBJECTCREATE, wdf.wdfobjectcreate, WdfObjectCreate method, wdfobject/WdfObjectCreate, DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,7 +130,7 @@ status = WdfObjectCreate(
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -138,11 +138,11 @@ status = WdfObjectCreate(
 
 
 
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+
+
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

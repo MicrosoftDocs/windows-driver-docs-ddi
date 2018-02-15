@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 07825be3-84a1-4aab-a9f0-22a45f636a04
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, IDebugSymbols3::RemoveSyntheticSymbol, RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, RemoveSyntheticSymbol, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticSymbol method, debugger.removesyntheticsymbol, RemoveSyntheticSymbol method [Windows Debugging], dbgeng/IDebugSymbols3::RemoveSyntheticSymbol, IDebugSymbols3
+ms.keywords: RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::RemoveSyntheticSymbol, RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticSymbol method, IDebugSymbols3, debugger.removesyntheticsymbol, RemoveSyntheticSymbol, dbgeng/IDebugSymbols3::RemoveSyntheticSymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,15 +124,15 @@ For more information about synthetic symbols, see Synthetic Symbols.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

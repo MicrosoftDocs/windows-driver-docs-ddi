@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b76acae1-3c37-4095-bf8b-1785dc90f378
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveContext method, IWDFObject interface, wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext, umdf.iwdfobject_retrievecontext, IWDFObject interface, RetrieveContext method, IWDFObject, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, RetrieveContext method, IWDFObject::RetrieveContext, RetrieveContext
+ms.keywords: wdf.iwdfobject_retrievecontext, wudfddi/IWDFObject::RetrieveContext, UMDFBaseObjectRef_e12f4a9b-d71b-4fc1-96df-0244b7513f32.xml, RetrieveContext, IWDFObject, IWDFObject::RetrieveContext, RetrieveContext method, IWDFObject interface, IWDFObject interface, RetrieveContext method, umdf.iwdfobject_retrievecontext, RetrieveContext method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

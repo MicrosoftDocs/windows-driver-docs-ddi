@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, KeQueryActiveGroupCount, wdm/KeQueryActiveGroupCount, kernel.kequeryactivegroupcount
+ms.keywords: k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], kernel.kequeryactivegroupcount, KeQueryActiveGroupCount, wdm/KeQueryActiveGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,11 @@ Windows 7 is the first version of Windows to support processor groups. In Windo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
 
 
 

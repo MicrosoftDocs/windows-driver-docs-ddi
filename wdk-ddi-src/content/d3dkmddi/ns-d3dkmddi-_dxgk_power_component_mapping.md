@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6aa00a36-f7a2-4e49-bbd9-1a1ae3592951
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_power_component_mapping, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices], _DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING
+ms.keywords: display.dxgk_power_component_mapping, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices], _DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

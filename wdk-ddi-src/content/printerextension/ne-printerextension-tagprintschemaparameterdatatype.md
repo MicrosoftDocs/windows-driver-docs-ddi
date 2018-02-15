@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3276C273-C950-4DC9-B338-E6E7E30DEB77
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_String, print.tagprintschemaparameterdatatype, PrintSchemaParameterDataType, tagPrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType, PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_Integer, PrintSchemaParameterDataType_String, PrintSchemaParameterDataType enumeration [Print Devices]
+ms.keywords: PrintSchemaParameterDataType_String, PrintSchemaParameterDataType_NumericString, PrintSchemaParameterDataType, print.tagprintschemaparameterdatatype, PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_NumericString, tagPrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType, PrintSchemaParameterDataType enumeration [Print Devices], printerextension/PrintSchemaParameterDataType_String
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

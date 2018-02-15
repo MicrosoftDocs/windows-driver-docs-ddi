@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4976fc27-c28a-46ec-ac07-19505cda8f14
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlequalsid, rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml, RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], ntifs/RtlEqualSid
+ms.keywords: RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml, ifsk.rtlequalsid, ntifs/RtlEqualSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,19 +99,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

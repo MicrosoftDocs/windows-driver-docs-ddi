@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtAllocateBuffer
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -85,9 +85,11 @@ A pointer to a caller-supplied variable that stores the address of the allocated
 ## -returns
 
 
+
 The call returns an ERROR_xxxx code defined in 
      Winerror.h. The following ERROR_xxxx codes are commonly returned by the 
      <b>Dot11ExtAllocateBuffer</b> function.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,15 +117,19 @@ The operating system was unable to allocate the memory due to a lack of resource
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The IHV Extensions DLL must follow these guidelines when calling the 
     <b>Dot11ExtAllocateBuffer</b> function.
+
 <ul>
 <li>
 The IHV Extensions DLL must call this function when returning any variable-length buffer from an IHV
@@ -146,15 +152,22 @@ In this situation, the DLL must free the memory buffer by calling
 </ul>
 
 
+
 ## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
    Dot11ExtIhvCreateDiscoveryProfiles</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+
+
 
  
 

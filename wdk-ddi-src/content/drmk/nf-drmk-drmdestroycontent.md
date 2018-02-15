@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 197f74f8-050e-4b0b-a95d-f640c565c17e
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.drmdestroycontent, DrmDestroyContent function [Audio Devices], drmk/DrmDestroyContent, DrmDestroyContent, aud-prop2_cfaec95c-a7e5-4488-a56d-323ebc577d90.xml
+ms.keywords: DrmDestroyContent, drmk/DrmDestroyContent, aud-prop2_cfaec95c-a7e5-4488-a56d-323ebc577d90.xml, audio.drmdestroycontent, DrmDestroyContent function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,15 +95,11 @@ A KS audio filter can only use <code>DrmDestroyContent</code> to delete a DRM co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-
-
-
 <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 
 
@@ -116,6 +112,10 @@ A KS audio filter can only use <code>DrmDestroyContent</code> to delete a DRM co
 
 
 <a href="..\portcls\nf-portcls-pcdestroycontent.md">PcDestroyContent</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

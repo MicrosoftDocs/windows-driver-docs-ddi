@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B1599F21-D6DD-497D-9CD8-6C637ABAA33A
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: Completed method [Print Devices], IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent interface [Print Devices], Completed method, Completed, IPrintSchemaAsyncOperationEvent, print.iprintschemaasyncoperationevent_completed, IPrintSchemaAsyncOperationEvent::Completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed, Completed method [Print Devices]
+ms.keywords: IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent interface [Print Devices], Completed method, Completed method [Print Devices], IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent::Completed, Completed method [Print Devices], Completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed, print.iprintschemaasyncoperationevent_completed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

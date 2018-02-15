@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ntddk/WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], whea.whea_error_record_header, ntddk/PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
+ms.keywords: ntddk/WHEA_ERROR_RECORD_HEADER, whea.whea_error_record_header, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, *PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], PWHEA_ERROR_RECORD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -273,7 +273,7 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
 
 
 
@@ -281,15 +281,15 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
-
-
-
 <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
+<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 

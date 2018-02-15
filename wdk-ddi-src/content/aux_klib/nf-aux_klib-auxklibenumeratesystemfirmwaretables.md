@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EEAB636B-5565-4C2A-9EC7-4DC63EBB286F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: aux_klib/AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], AuxKlibEnumerateSystemFirmwareTables, kernel.auxklibenumeratesystemfirmwaretables
+ms.keywords: AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], kernel.auxklibenumeratesystemfirmwaretables, aux_klib/AuxKlibEnumerateSystemFirmwareTables
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -193,7 +193,7 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 ## -see-also
 
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
 
 
 
@@ -201,7 +201,7 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 
 
-<a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
 
 

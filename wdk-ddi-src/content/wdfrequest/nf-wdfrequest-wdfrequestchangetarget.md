@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 562e92b4-fe68-4301-af40-f535cc408b9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestChangeTarget, DFRequestObjectRef_3d1f75eb-de12-4a8e-8cb8-d5ebe941e70f.xml, kmdf.wdfrequestchangetarget, wdf.wdfrequestchangetarget, wdfrequest/WdfRequestChangeTarget, WdfRequestChangeTarget method, PFN_WDFREQUESTCHANGETARGET
+ms.keywords: WdfRequestChangeTarget, DFRequestObjectRef_3d1f75eb-de12-4a8e-8cb8-d5ebe941e70f.xml, PFN_WDFREQUESTCHANGETARGET, kmdf.wdfrequestchangetarget, wdfrequest/WdfRequestChangeTarget, WdfRequestChangeTarget method, wdf.wdfrequestchangetarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -183,11 +183,11 @@ status = WdfRequestChangeTarget(
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetiotarget.md">WdfDeviceGetIoTarget</a>
 
 
 

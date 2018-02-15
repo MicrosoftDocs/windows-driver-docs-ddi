@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 485583b2-2736-4ecf-b58c-65b4d4f47a20
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfregistry/WdfRegistryRemoveValue, wdf.wdfregistryremovevalue, DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, WdfRegistryRemoveValue, WdfRegistryRemoveValue method, PFN_WDFREGISTRYREMOVEVALUE, kmdf.wdfregistryremovevalue
+ms.keywords: DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, wdfregistry/WdfRegistryRemoveValue, WdfRegistryRemoveValue method, WdfRegistryRemoveValue, kmdf.wdfregistryremovevalue, wdf.wdfregistryremovevalue, PFN_WDFREGISTRYREMOVEVALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

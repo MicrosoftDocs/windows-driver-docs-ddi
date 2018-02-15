@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 19272158-96bb-4efa-b32b-f8848d01bad1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure pointer [Buses], PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure [Buses], wdm/PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, pci_struct_f65551d3-2213-468e-aa94-508b29c11844.xml, _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI.pci_express_rootport_aer_capability, PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, wdm/PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY"
+ms.keywords: PCI.pci_express_rootport_aer_capability, PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure pointer [Buses], wdm/PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, _PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, *PPCI_EXPRESS_ROOTPORT_AER_CAPABILITY, wdm/PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY, PCI_EXPRESS_ROOTPORT_AER_CAPABILITY structure [Buses], pci_struct_f65551d3-2213-468e-aa94-508b29c11844.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,14 +152,6 @@ For additional information about the PCIe advanced error reporting capability st
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537570">PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537466">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a>
 
 
@@ -168,11 +160,7 @@ For additional information about the PCIe advanced error reporting capability st
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537456">PCI_EXPRESS_AER_CAPABILITIES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537462">PCI_EXPRESS_CORRECTABLE_ERROR_STATUS</a>
 
 
 
@@ -180,11 +168,15 @@ For additional information about the PCIe advanced error reporting capability st
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537456">PCI_EXPRESS_AER_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537461">PCI_EXPRESS_CORRECTABLE_ERROR_MASK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537475">PCI_EXPRESS_ROOT_ERROR_COMMAND</a>
 
 
 
@@ -196,7 +188,15 @@ For additional information about the PCIe advanced error reporting capability st
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537462">PCI_EXPRESS_CORRECTABLE_ERROR_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537570">PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537475">PCI_EXPRESS_ROOT_ERROR_COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 

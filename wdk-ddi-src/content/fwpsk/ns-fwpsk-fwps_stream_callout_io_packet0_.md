@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2c0539f0-116e-4344-9584-db7416d258e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_stream_callout_io_packet0, FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0_
+ms.keywords: netvista.fwps_stream_callout_io_packet0, fwpsk/FWPS_STREAM_CALLOUT_IO_PACKET0, wfp_ref_3_struct_3_fwps_P-Z_a5b8078a-e940-451c-ba7d-e7b4d3cf16bd.xml, FWPS_STREAM_CALLOUT_IO_PACKET0, FWPS_STREAM_CALLOUT_IO_PACKET0_, FWPS_STREAM_CALLOUT_IO_PACKET0 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -200,15 +200,15 @@ The filter engine passes a pointer to an <b>FWPS_STREAM_CALLOUT_IO_PACKET0</b> s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
-
-
-
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpsstreamcontinue0.md">FwpsStreamContinue0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 

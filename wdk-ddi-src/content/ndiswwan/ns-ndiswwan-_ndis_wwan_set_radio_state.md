@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4fe42397-1c95-4017-8d7b-14eda11c7b74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "*PNDIS_WWAN_SET_RADIO_STATE, NDIS_WWAN_SET_RADIO_STATE structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_set_radio_state, ndiswwan/PNDIS_WWAN_SET_RADIO_STATE, _NDIS_WWAN_SET_RADIO_STATE, WwanRef_b5525c3b-fbf3-4423-b691-464ed9a7a65a.xml, PNDIS_WWAN_SET_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_RADIO_STATE, NDIS_WWAN_SET_RADIO_STATE, ndiswwan/NDIS_WWAN_SET_RADIO_STATE"
+ms.keywords: NDIS_WWAN_SET_RADIO_STATE structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_RADIO_STATE, netvista.ndis_wwan_set_radio_state, PNDIS_WWAN_SET_RADIO_STATE, ndiswwan/NDIS_WWAN_SET_RADIO_STATE, ndiswwan/PNDIS_WWAN_SET_RADIO_STATE, *PNDIS_WWAN_SET_RADIO_STATE, PNDIS_WWAN_SET_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b5525c3b-fbf3-4423-b691-464ed9a7a65a.xml, _NDIS_WWAN_SET_RADIO_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -168,11 +168,11 @@ This parameter allows Windows to turn the radio power on and off. Be aware that 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
 
 
 

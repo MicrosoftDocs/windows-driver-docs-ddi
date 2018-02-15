@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d932f5c8-d6a6-4611-b6f2-12c501df1117
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_SSSPFLAG_ENFORCESCAN, rilapitypes/RIL_SSSPFLAG_APPLYIMMEDIATELY, RILSETSYSTEMSELECTIONPREFSFLAG, rilapitypes/RIL_SSSPFLAG_ALL, RIL_SSSPFLAG_ENFORCESCAN, rilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG, netvista.rilsetsystemselectionprefsflag_2, RILSETSYSTEMSELECTIONPREFSFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_SSSPFLAG_APPLYIMMEDIATELY, RIL_SSSPFLAG_ALL
+ms.keywords: netvista.rilsetsystemselectionprefsflag_2, RIL_SSSPFLAG_APPLYIMMEDIATELY, RILSETSYSTEMSELECTIONPREFSFLAG enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG, rilapitypes/RIL_SSSPFLAG_ALL, RILSETSYSTEMSELECTIONPREFSFLAG, RIL_SSSPFLAG_ENFORCESCAN, rilapitypes/RIL_SSSPFLAG_ENFORCESCAN, rilapitypes/RIL_SSSPFLAG_APPLYIMMEDIATELY, RIL_SSSPFLAG_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

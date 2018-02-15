@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa7cee9a-5051-4ebc-be7c-ac9ac91ba631
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, display.d3dkmt_checkmonitorpowerstate, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, _D3DKMT_CHECKMONITORPOWERSTATE
+ms.keywords: D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], display.d3dkmt_checkmonitorpowerstate, OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, _D3DKMT_CHECKMONITORPOWERSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

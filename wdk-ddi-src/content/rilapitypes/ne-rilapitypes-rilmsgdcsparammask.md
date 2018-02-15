@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58ec244c-ccd5-480d-8185-2c62273aeb1f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_ALL, rilapitypes/RIL_PARAM_MDCS_ALL, RIL_PARAM_MDCS_INDICATION, rilapitypes/RIL_PARAM_MDCS_INDICATION, rilapitypes/RIL_PARAM_MDCS_ALPHABET, rilapitypes/RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_FLAGS, rilapitypes/RILMSGDCSPARAMMASK, RIL_PARAM_MDCS_ALPHABET, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MDCS_MSGCLASS, netvista.rilmsgdcsparammask_2, rilapitypes/RIL_PARAM_MDCS_FLAGS, RILMSGDCSPARAMMASK, rilapitypes/RIL_PARAM_MDCS_MSGCLASS
+ms.keywords: RIL_PARAM_MDCS_LANGUAGE, rilapitypes/RIL_PARAM_MDCS_FLAGS, RILMSGDCSPARAMMASK, RIL_PARAM_MDCS_MSGCLASS, RIL_PARAM_MDCS_FLAGS, rilapitypes/RIL_PARAM_MDCS_ALPHABET, RIL_PARAM_MDCS_INDICATION, rilapitypes/RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_ALL, rilapitypes/RIL_PARAM_MDCS_ALL, rilapitypes/RIL_PARAM_MDCS_INDICATION, rilapitypes/RILMSGDCSPARAMMASK, netvista.rilmsgdcsparammask_2, rilapitypes/RIL_PARAM_MDCS_MSGCLASS, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MDCS_ALPHABET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

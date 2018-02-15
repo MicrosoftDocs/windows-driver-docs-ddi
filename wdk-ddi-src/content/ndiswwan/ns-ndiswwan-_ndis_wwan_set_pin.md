@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 96c85e4d-d31d-4e89-9822-2c9068533b9a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN, netvista.ndis_wwan_set_pin, NDIS_WWAN_SET_PIN, ndiswwan/PNDIS_WWAN_SET_PIN, _NDIS_WWAN_SET_PIN, *PNDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN structure pointer [Network Drivers Starting with Windows Vista], WwanRef_565f6200-b5cd-4845-a606-bfb098eda610.xml
+ms.keywords: "_NDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_set_pin, PNDIS_WWAN_SET_PIN, ndiswwan/PNDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN, WwanRef_565f6200-b5cd-4845-a606-bfb098eda610.xml, *PNDIS_WWAN_SET_PIN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 58af1872-23bf-44f2-9ef4-271f0ddef5d5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_fac4e524-8266-4135-9211-564d1ea2a952.xml, _SetInitiatorNodeName_IN, *PSetInitiatorNodeName_IN, iscsiop/SetInitiatorNodeName_IN, SetInitiatorNodeName_IN, SetInitiatorNodeName_IN structure [Storage Devices], storage.setinitiatornodename_in, PSetInitiatorNodeName_IN structure pointer [Storage Devices], iscsiop/PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN
+ms.keywords: structs-iSCSI_fac4e524-8266-4135-9211-564d1ea2a952.xml, iscsiop/PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN structure pointer [Storage Devices], SetInitiatorNodeName_IN structure [Storage Devices], *PSetInitiatorNodeName_IN, PSetInitiatorNodeName_IN, _SetInitiatorNodeName_IN, storage.setinitiatornodename_in, iscsiop/SetInitiatorNodeName_IN, SetInitiatorNodeName_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,11 +83,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_out.md">SetInitiatorNodeName_OUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_out.md">SetInitiatorNodeName_OUT</a>
 
 
 

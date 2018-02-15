@@ -173,7 +173,7 @@ The <b>EVT_WDF_IO_QUEUE_IO_WRITE</b> function type is defined in the Wdfio.h hea
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_default.md">EvtIoDefault</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -181,7 +181,7 @@ The <b>EVT_WDF_IO_QUEUE_IO_WRITE</b> function type is defined in the Wdfio.h hea
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_default.md">EvtIoDefault</a>
 
 
 

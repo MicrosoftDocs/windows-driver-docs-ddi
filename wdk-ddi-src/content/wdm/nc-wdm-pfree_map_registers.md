@@ -40,7 +40,7 @@ apiname:
 -	FreeMapRegisters
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ VOID FreeMapRegisters(
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param MapRegisterBase [in]
@@ -91,19 +91,23 @@ Specifies the number of map registers to be released. This value must match the 
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>FreeMapRegisters</b>
            is not a system routine that can be called directly by name. This routine is only callable by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
+           structure. Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>.
 
 When the driver of a bus-master device has completed the current packet-based DMA transfer request, it calls <b>FreeMapRegisters</b> to release the map registers previously allocated by a call to <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a> and retained because its <i>AdapterControl</i> routine returned <b>DeallocateObjectKeepRegisters</b>. The driver must call <b>FreeMapRegisters</b> after calling <a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>. 
+
 
 
 
@@ -111,13 +115,23 @@ When the driver of a bus-master device has completed the current packet-based DM
 
 <a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
 
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+
 
  
 

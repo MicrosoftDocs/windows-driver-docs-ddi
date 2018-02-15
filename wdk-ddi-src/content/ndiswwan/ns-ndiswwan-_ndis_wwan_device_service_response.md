@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 65999499-C14C-45CC-B7A5-021750B1A728
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, netvista.ndis_wwan_device_service_response, _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE, *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE
+ms.keywords: netvista.ndis_wwan_device_service_response, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

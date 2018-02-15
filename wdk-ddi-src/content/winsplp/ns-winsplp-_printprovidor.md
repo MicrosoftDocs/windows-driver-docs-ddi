@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c030cb9d-23c0-4d0e-970f-f447e9af7528
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/LPPRINTPROVIDOR, _PRINTPROVIDOR, *LPPRINTPROVIDOR, print.printprovidor, PRINTPROVIDOR, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, LPPRINTPROVIDOR structure pointer [Print Devices], winsplp/PRINTPROVIDOR, LPPRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices]
+ms.keywords: print.printprovidor, PRINTPROVIDOR, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, LPPRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], winsplp/LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR, LPPRINTPROVIDOR structure pointer [Print Devices], _PRINTPROVIDOR, *LPPRINTPROVIDOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1046,15 +1046,7 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintprovidor.md">InitializePrintProvidor</a>
-
-
-
 <a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 
 
@@ -1063,6 +1055,14 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562068">SendRecvBidiData</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-initializeprintprovidor.md">InitializePrintProvidor</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 
 

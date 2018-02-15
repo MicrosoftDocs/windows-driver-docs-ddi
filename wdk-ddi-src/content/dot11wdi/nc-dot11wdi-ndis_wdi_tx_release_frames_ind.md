@@ -137,15 +137,15 @@ The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
-
-
-
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
 
 
 
@@ -153,11 +153,11 @@ The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
 
 

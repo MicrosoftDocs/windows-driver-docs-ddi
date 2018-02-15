@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 72AE7A78-C02D-4C14-B017-9CEECF34FEDF
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.dot4_dc_open_data, DOT4_DC_OPEN_DATA, _DOT4_DC_OPEN_DATA, *PDOT4_DC_OPEN_DATA, PDOT4_DC_OPEN_DATA structure pointer [Print Devices], DOT4_DC_OPEN_DATA structure [Print Devices], PDOT4_DC_OPEN_DATA, d4drvif/DOT4_DC_OPEN_DATA, d4drvif/PDOT4_DC_OPEN_DATA
+ms.keywords: d4drvif/DOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA, PDOT4_DC_OPEN_DATA, _DOT4_DC_OPEN_DATA, *PDOT4_DC_OPEN_DATA, PDOT4_DC_OPEN_DATA structure pointer [Print Devices], print.dot4_dc_open_data, d4drvif/PDOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

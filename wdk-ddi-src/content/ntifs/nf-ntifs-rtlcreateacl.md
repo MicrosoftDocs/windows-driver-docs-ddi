@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d7bf1fa0-81e0-4b44-adcd-d8f629453ac8
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/RtlCreateAcl, RtlCreateAcl routine [Installable File System Drivers], RtlCreateAcl, rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml, ifsk.rtlcreateacl
+ms.keywords: ifsk.rtlcreateacl, RtlCreateAcl routine [Installable File System Drivers], RtlCreateAcl, rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml, ntifs/RtlCreateAcl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -219,7 +219,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
@@ -231,15 +239,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
 

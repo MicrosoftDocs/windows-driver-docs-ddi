@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 95150a1f-e323-4c29-8a4e-12ab4f231bc6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceSendControlTransferSynchronously method, kmdf.wdfusbtargetdevicesendcontroltransfersynchronously, wdfusb/WdfUsbTargetDeviceSendControlTransferSynchronously, wdf.wdfusbtargetdevicesendcontroltransfersynchronously, PFN_WDFUSBTARGETDEVICESENDCONTROLTRANSFERSYNCHRONOUSLY, DFUsbRef_fe154a84-e5b4-4997-ad1f-6eb7f6829553.xml, WdfUsbTargetDeviceSendControlTransferSynchronously
+ms.keywords: WdfUsbTargetDeviceSendControlTransferSynchronously, WdfUsbTargetDeviceSendControlTransferSynchronously method, DFUsbRef_fe154a84-e5b4-4997-ad1f-6eb7f6829553.xml, wdfusb/WdfUsbTargetDeviceSendControlTransferSynchronously, kmdf.wdfusbtargetdevicesendcontroltransfersynchronously, wdf.wdfusbtargetdevicesendcontroltransfersynchronously, PFN_WDFUSBTARGETDEVICESENDCONTROLTRANSFERSYNCHRONOUSLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -324,15 +324,11 @@ return status;</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer.md">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendurbsynchronously.md">WdfUsbTargetDeviceSendUrbSynchronously</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
 
 
 
@@ -341,6 +337,10 @@ return status;</pre>
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer.md">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>
 
 
 

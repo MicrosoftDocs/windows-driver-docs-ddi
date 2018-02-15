@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b88afd6e-3a0a-471e-a874-db8fc3175d61
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.mmdoesfilehaveuserwritablereferences, ntifs/MmDoesFileHaveUserWritableReferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers]
+ms.keywords: mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, ifsk.mmdoesfilehaveuserwritablereferences, MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], ntifs/MmDoesFileHaveUserWritableReferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

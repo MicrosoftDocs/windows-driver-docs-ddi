@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: abb8d45a-a698-41b0-94b3-c658fe3105bb
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/SecMakeSPNEx2, SecMakeSPNEx2, SecMakeSPNEx2 function [Installable File System Drivers], ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, ifsk.secmakespnex2
+ms.keywords: SecMakeSPNEx2, ntifs/SecMakeSPNEx2, ksecddref_be331d16-cc90-4e80-85cd-c2faaecca843.xml, ifsk.secmakespnex2, SecMakeSPNEx2 function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -197,11 +197,11 @@ The <i>Allocate</i> parameter was set to <b>TRUE</b>, but the memory allocation 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secmakespnex.md">SecMakeSPNEx</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secmakespnex.md">SecMakeSPNEx</a>
 
 
 

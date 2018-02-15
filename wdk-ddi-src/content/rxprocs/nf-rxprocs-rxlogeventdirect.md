@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fc0bf8c4-cc0b-4f1e-bd4e-facf8f0d2a96
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxLogEventDirect routine [Installable File System Drivers], RxLogEventDirect, ifsk.rxlogeventdirect, rxprocs/RxLogEventDirect, rxref_654ffecc-ea49-44b8-b454-9f66e9519ddd.xml
+ms.keywords: ifsk.rxlogeventdirect, rxref_654ffecc-ea49-44b8-b454-9f66e9519ddd.xml, RxLogEventDirect, rxprocs/RxLogEventDirect, RxLogEventDirect routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

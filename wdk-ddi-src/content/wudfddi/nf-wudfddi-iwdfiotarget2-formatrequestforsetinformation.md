@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2bfdc5c6-da5a-43c1-9165-02d6c448a690
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation, FormatRequestForSetInformation method, IWDFIoTarget2 interface, wdf.iwdfiotarget2_formatrequestforsetinformation, IWDFIoTarget2, IWDFIoTarget2::FormatRequestForSetInformation, FormatRequestForSetInformation method, umdf.iwdfiotarget2_formatrequestforsetinformation, IWDFIoTarget2 interface, FormatRequestForSetInformation method
+ms.keywords: wdf.iwdfiotarget2_formatrequestforsetinformation, FormatRequestForSetInformation, IWDFIoTarget2 interface, FormatRequestForSetInformation method, IWDFIoTarget2, IWDFIoTarget2::FormatRequestForSetInformation, FormatRequestForSetInformation method, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, umdf.iwdfiotarget2_formatrequestforsetinformation, FormatRequestForSetInformation method, IWDFIoTarget2 interface, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,7 +81,7 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest<
 
 ### -param InformationClass [in]
 
-A <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
 
 
 ### -param pFile [in, optional]

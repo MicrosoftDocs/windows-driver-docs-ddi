@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3b67c73-446b-42a8-bc41-2ca42fde3513
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], wdm/IoOpenDeviceRegistryKey, kernel.ioopendeviceregistrykey
+ms.keywords: kernel.ioopendeviceregistrykey, IoOpenDeviceRegistryKey, k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, wdm/IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,11 @@ Callers of <b>IoOpenDeviceRegistryKey</b> must be running at IRQL = PASSIVE_LEVE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

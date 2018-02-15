@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ce7a843-0053-4351-ba79-161d83e245ac
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeSendUrbSynchronously method, wdfusb/WdfUsbTargetPipeSendUrbSynchronously, kmdf.wdfusbtargetpipesendurbsynchronously, DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, WdfUsbTargetPipeSendUrbSynchronously, wdf.wdfusbtargetpipesendurbsynchronously, PFN_WDFUSBTARGETPIPESENDURBSYNCHRONOUSLY
+ms.keywords: DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, wdfusb/WdfUsbTargetPipeSendUrbSynchronously, kmdf.wdfusbtargetpipesendurbsynchronously, PFN_WDFUSBTARGETPIPESENDURBSYNCHRONOUSLY, wdf.wdfusbtargetpipesendurbsynchronously, WdfUsbTargetPipeSendUrbSynchronously method, WdfUsbTargetPipeSendUrbSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -251,15 +251,15 @@ status = WdfUsbTargetPipeSendUrbSynchronously(
 
 ## -see-also
 
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcancelsentrequest.md">WdfRequestCancelSentRequest</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
-
-
-
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 
 
 

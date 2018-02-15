@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ed61d135-967d-4e7c-b437-09c9e0e6f3c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_117817ed-5a64-48c4-8b90-1ca6435c75b6.xml, KoDriverInitialize function [Streaming Media Devices], kcom/KoDriverInitialize, KoDriverInitialize, stream.kodriverinitialize
+ms.keywords: KoDriverInitialize function [Streaming Media Devices], kcom/KoDriverInitialize, KoDriverInitialize, ksfunc_117817ed-5a64-48c4-8b90-1ca6435c75b6.xml, stream.kodriverinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

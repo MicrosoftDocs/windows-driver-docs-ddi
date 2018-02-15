@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: B97E27A1-0D95-41AA-8FF6-A92F70FBAD28
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.usbfn_bus_speed, *PUSBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedFull, UsbfnBusSpeedLow, UsbfnBusSpeedFull, UsbfnBusSpeedHigh, UsbfnBusSpeedSuper, usbfnbase/USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedHigh, USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedSuper, UsbfnBusSpeedMaximum, _USBFN_BUS_SPEED, USBFN_BUS_SPEED enumeration [Buses], usbfnbase/UsbfnBusSpeedLow
+ms.keywords: USBFN_BUS_SPEED, USBFN_BUS_SPEED enumeration [Buses], UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedSuper, usbfnbase/USBFN_BUS_SPEED, buses.usbfn_bus_speed, UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedLow, *PUSBFN_BUS_SPEED, _USBFN_BUS_SPEED, UsbfnBusSpeedLow, UsbfnBusSpeedSuper, UsbfnBusSpeedFull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

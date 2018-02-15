@@ -40,7 +40,7 @@ apiname:
 -	BoundCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -72,14 +72,20 @@ BOUND_CALLBACK_STATUS BoundCallback(void)
 
 
 
+
+
+
 ## -returns
+
 
 
 A <a href="..\wdm\ne-wdm-_bound_callback_status.md">BOUND_CALLBACK_STATUS</a> value that indicates how the bounds exception was processed by the callback function. 
 
 
 
+
 ## -remarks
+
 
 
 Drivers can supply a <i>BoundCallback</i> that is called when the system issues a bounds exception.
@@ -88,11 +94,16 @@ Use <a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a>
+
+
 
 <a href="..\wdm\nf-wdm-kederegisterboundcallback.md">KeDeregisterBoundCallback</a>
 
-<a href="..\wdm\nf-wdm-keregisterboundcallback.md">KeRegisterBoundCallback</a>
+
 
  
 

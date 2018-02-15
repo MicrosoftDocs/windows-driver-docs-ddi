@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07aed86f-870e-431b-b1bb-403395c35946
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiProviderCreate, PFN_WDFWMIPROVIDERCREATE, kmdf.wdfwmiprovidercreate, DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml, wdfwmi/WdfWmiProviderCreate, wdf.wdfwmiprovidercreate, WdfWmiProviderCreate method
+ms.keywords: wdfwmi/WdfWmiProviderCreate, WdfWmiProviderCreate method, kmdf.wdfwmiprovidercreate, wdf.wdfwmiprovidercreate, WdfWmiProviderCreate, PFN_WDFWMIPROVIDERCREATE, DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -218,11 +218,15 @@ status = WdfWmiProviderCreate(
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -231,10 +235,6 @@ status = WdfWmiProviderCreate(
 
 
 <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

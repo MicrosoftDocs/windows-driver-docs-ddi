@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 48744342-9137-48F5-9071-528974DE6AD5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UdecxUsbEndpointSetWdfIoQueue, udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], buses.udecxusbendpointsetwdfioqueue
+ms.keywords: udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], buses.udecxusbendpointsetwdfioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,7 +91,7 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -99,7 +99,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

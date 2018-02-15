@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0c0b877f-cef0-4e98-9f37-60f2d96b81bd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_BRIGHTNESS_INTERFACE_2 structure pointer [Display Devices], dispmprt/DXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2, *PDXGK_BRIGHTNESS_INTERFACE_2, display.dxgk_brightness_interface_2, dispmprt/PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2 structure [Display Devices], PDXGK_BRIGHTNESS_INTERFACE_2
+ms.keywords: DXGK_BRIGHTNESS_INTERFACE_2, dispmprt/DXGK_BRIGHTNESS_INTERFACE_2, display.dxgk_brightness_interface_2, dispmprt/PDXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2 structure pointer [Display Devices], *PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2 structure [Display Devices], PDXGK_BRIGHTNESS_INTERFACE_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

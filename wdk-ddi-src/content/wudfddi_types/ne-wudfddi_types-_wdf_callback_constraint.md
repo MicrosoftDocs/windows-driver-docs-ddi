@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, None, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, _WDF_CALLBACK_CONSTRAINT, wudfddi_types/None, WdfLevelReserved, wudfddi_types/WdfLevelReserved, WDF_CALLBACK_CONSTRAINT, WdfDeviceLevel, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfDeviceLevel, wdf.wdf_callback_constraint
+ms.keywords: "_WDF_CALLBACK_CONSTRAINT, wudfddi_types/WdfDeviceLevel, WDF_CALLBACK_CONSTRAINT, None, WdfLevelReserved, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, wdf.wdf_callback_constraint, WdfDeviceLevel, wudfddi_types/None, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfLevelReserved"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -92,6 +92,8 @@ Reserved.
 ## -remarks
 
 
+
 Note that the above locking models apply only for I/O (that is, open, read, write, and device I/O control) operations and not for Plug and Play (PnP) and power management notifications. 
+
 
 

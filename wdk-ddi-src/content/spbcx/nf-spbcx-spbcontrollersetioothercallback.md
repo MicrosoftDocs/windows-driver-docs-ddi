@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], SPB.spbcontrollersetioothercallback, spbcx/SpbControllerSetIoOtherCallback
+ms.keywords: SpbControllerSetIoOtherCallback method [Buses], SpbControllerSetIoOtherCallback, SPB.spbcontrollersetioothercallback, spbcx/SpbControllerSetIoOtherCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb5bfd4f-e45a-4894-acb4-0ece2de91510
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfrequestcomplete, DFRequestObjectRef_e723fb4c-f8f2-4eb9-9152-7f7ac74329df.xml, wdfrequest/WdfRequestComplete, WdfRequestComplete method, WdfRequestComplete, PFN_WDFREQUESTCOMPLETE, wdf.wdfrequestcomplete
+ms.keywords: wdf.wdfrequestcomplete, DFRequestObjectRef_e723fb4c-f8f2-4eb9-9152-7f7ac74329df.xml, WdfRequestComplete method, PFN_WDFREQUESTCOMPLETE, kmdf.wdfrequestcomplete, WdfRequestComplete, wdfrequest/WdfRequestComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,7 +192,11 @@ MyEvtIoDefault(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetstatus.md">WdfRequestGetStatus</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
 
 
@@ -204,15 +208,11 @@ MyEvtIoDefault(
 
 
 
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md">WdfRequestCompleteWithPriorityBoost</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetstatus.md">WdfRequestGetStatus</a>
 
 
 

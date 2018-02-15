@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 966af529-1725-4e80-9e67-cdb8666673f2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSPROPERTY_DROPPEDFRAMES_CURRENT_S, PKSPROPERTY_DROPPEDFRAMES_CURRENT_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure [Streaming Media Devices], vidcapstruct_ee78d2f2-c142-4d17-855d-7dc35589f271.xml, *PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S, stream.ksproperty_droppedframes_current_s, PKSPROPERTY_DROPPEDFRAMES_CURRENT_S
+ms.keywords: ksmedia/PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, *PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, PKSPROPERTY_DROPPEDFRAMES_CURRENT_S structure pointer [Streaming Media Devices], KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_DROPPEDFRAMES_CURRENT_S, stream.ksproperty_droppedframes_current_s, KSPROPERTY_DROPPEDFRAMES_CURRENT_S, vidcapstruct_ee78d2f2-c142-4d17-855d-7dc35589f271.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ For more information about updating <b>PictureNumber</b> and <b>DropCount</b> se
 
 
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567806">PROPSETID_VIDCAP_DROPPEDFRAMES</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

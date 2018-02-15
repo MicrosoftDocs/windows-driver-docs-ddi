@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db034863-f5fa-42bb-81c8-23d4784e0abe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, windot11/PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE, *PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], DOT11_ADDITIONAL_IE, _DOT11_ADDITIONAL_IE, windot11/DOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_additional_ie
+ms.keywords: "_DOT11_ADDITIONAL_IE, Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, DOT11_ADDITIONAL_IE, *PDOT11_ADDITIONAL_IE, windot11/DOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_additional_ie"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,15 +149,15 @@ The miniport driver should reset the members of the DOT11_ADDITIONAL_IE structur
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569103">OID_DOT11_ADDITIONAL_IE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

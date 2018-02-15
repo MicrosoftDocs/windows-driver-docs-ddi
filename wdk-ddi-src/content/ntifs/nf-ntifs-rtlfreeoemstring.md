@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: cd9bc03d-1f57-420c-9430-d2d742f654e1
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rtlref_ffc98e3c-a96f-4250-a527-bcd1ba2ce506.xml, ntifs/RtlFreeOemString, RtlFreeOemString routine [Installable File System Drivers], RtlFreeOemString, ifsk.rtlfreeoemstring
+ms.keywords: RtlFreeOemString, ifsk.rtlfreeoemstring, ntifs/RtlFreeOemString, RtlFreeOemString routine [Installable File System Drivers], rtlref_ffc98e3c-a96f-4250-a527-bcd1ba2ce506.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,14 +94,6 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlupcaseunicodestringtooemstring.md">RtlUpcaseUnicodeStringToOemString</a>
 
 
@@ -111,6 +103,14 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 <a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
 
 
 

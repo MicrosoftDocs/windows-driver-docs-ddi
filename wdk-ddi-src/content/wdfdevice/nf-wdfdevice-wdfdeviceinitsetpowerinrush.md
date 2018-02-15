@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEINITSETPOWERINRUSH, wdfdevice/WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush method, WdfDeviceInitSetPowerInrush, kmdf.wdfdeviceinitsetpowerinrush, wdf.wdfdeviceinitsetpowerinrush, DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml
+ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, PFN_WDFDEVICEINITSETPOWERINRUSH, WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush method, wdfdevice/WdfDeviceInitSetPowerInrush, kmdf.wdfdeviceinitsetpowerinrush, wdf.wdfdeviceinitsetpowerinrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ The following code example informs the power manager that a device requires an i
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

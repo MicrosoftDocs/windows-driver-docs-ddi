@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: hwnclx/AddDevicePostDeviceCreateIndex, hwnclx/UnregisterClientIndex, *PHWN_CLX_EXPORT_INDEX, AddDevicePreDeviceCreateIndex, HWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX enumeration, UnregisterClientIndex, AddDevicePostDeviceCreateIndex, gpiobtn._hwn_clx_export_index, hwnclx/HWN_CLX_EXPORT_INDEX, hwnclx/AddDevicePreDeviceCreateIndex, hwnclx/RegisterClientIndex, HwNExportLastExportIndex, hwnclx/HwNExportLastExportIndex, _HWN_CLX_EXPORT_INDEX, RegisterClientIndex
+ms.keywords: AddDevicePreDeviceCreateIndex, hwnclx/RegisterClientIndex, HwNExportLastExportIndex, hwnclx/AddDevicePreDeviceCreateIndex, hwnclx/HwNExportLastExportIndex, HWN_CLX_EXPORT_INDEX enumeration, RegisterClientIndex, gpiobtn._hwn_clx_export_index, UnregisterClientIndex, HWN_CLX_EXPORT_INDEX, hwnclx/UnregisterClientIndex, *PHWN_CLX_EXPORT_INDEX, _HWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, hwnclx/AddDevicePostDeviceCreateIndex, hwnclx/HWN_CLX_EXPORT_INDEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

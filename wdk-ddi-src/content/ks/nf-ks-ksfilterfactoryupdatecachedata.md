@@ -111,11 +111,11 @@ For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
-
-
-
 <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+
+
+<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
 
 
 

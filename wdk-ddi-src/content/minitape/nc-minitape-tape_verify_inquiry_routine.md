@@ -40,7 +40,7 @@ apiname:
 -	(*TAPE_VERIFY_INQUIRY_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
+req.typenames: "*PPROCESSOR_NUMBER, PROCESSOR_NUMBER"
 ---
 
 # TAPE_VERIFY_INQUIRY_ROUTINE callback
@@ -84,22 +84,30 @@ Pointer to a MODE_CAPABILITIES_PAGE structure that contains low-level informatio
 ## -returns
 
 
+
 <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> returns <b>TRUE</b> if the miniclass driver supports the device.
+
 
 
 
 ## -remarks
 
 
+
 <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> examines the <i>InquiryData</i>, particularly the <b>VendorId</b> and <b>ProductId</b> members, to determine whether the tape miniclass driver supports the tape device. <i>TAPE_VERIFY_INQUIRY_ROUTINE</i> uses <a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a> to compare ID strings against values the tape miniclass driver supports.
+
 
 
 
 ## -see-also
 
+<a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a>
+
+
+
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
-<a href="..\minitape\nf-minitape-tapeclasscomparememory.md">TapeClassCompareMemory</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 053b9f14-7319-4599-886e-3c03c717b348
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsimgt/PISCSI_Supported_LB_Policies, structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml, _ISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], *PISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies structure pointer [Storage Devices], storage.iscsi_supported_lb_policies, iscsimgt/ISCSI_Supported_LB_Policies
+ms.keywords: PISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies structure pointer [Storage Devices], iscsimgt/ISCSI_Supported_LB_Policies, storage.iscsi_supported_lb_policies, _ISCSI_Supported_LB_Policies, iscsimgt/PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], ISCSI_Supported_LB_Policies, structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -160,11 +160,11 @@ Path information as shown in the <a href="..\iscsimgt\ns-iscsimgt-_iscsi_path.md
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

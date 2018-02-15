@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a251bf5c-c09b-4097-a9ed-82f2312ac408
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfobject/WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeInheritFromParent, kmdf.wdf_synchronization_scope, _WDF_SYNCHRONIZATION_SCOPE, WdfSynchronizationScopeInvalid, WdfSynchronizationScopeNone, wdf.wdf_synchronization_scope, WDF_SYNCHRONIZATION_SCOPE enumeration, WdfSynchronizationScopeDevice, WdfSynchronizationScopeQueue, wdfobject/WdfSynchronizationScopeNone, DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeDevice, wdfobject/WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeInvalid, wdfobject/WdfSynchronizationScopeQueue
+ms.keywords: wdfobject/WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeQueue, wdfobject/WdfSynchronizationScopeQueue, WdfSynchronizationScopeInvalid, _WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeNone, WDF_SYNCHRONIZATION_SCOPE, wdfobject/WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeDevice, WdfSynchronizationScopeNone, DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, WDF_SYNCHRONIZATION_SCOPE enumeration, WdfSynchronizationScopeInheritFromParent, wdf.wdf_synchronization_scope, wdfobject/WdfSynchronizationScopeInvalid, WdfSynchronizationScopeDevice, kmdf.wdf_synchronization_scope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

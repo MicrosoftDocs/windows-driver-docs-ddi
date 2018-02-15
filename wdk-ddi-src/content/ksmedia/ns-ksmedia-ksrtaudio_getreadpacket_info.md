@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0157FA09-C227-4BB2-BB75-0AB5802BC150
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.ksrtaudio_getreadpacket_info, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO, *PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], ksmedia/KSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices]
+ms.keywords: PKSRTAUDIO_GETREADPACKET_INFO, audio.ksrtaudio_getreadpacket_info, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], KSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], *PKSRTAUDIO_GETREADPACKET_INFO, ksmedia/KSRTAUDIO_GETREADPACKET_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

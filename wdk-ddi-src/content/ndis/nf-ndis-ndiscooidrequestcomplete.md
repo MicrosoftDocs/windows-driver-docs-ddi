@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba4a22a1-ad48-43f1-96f5-dee5d76e49cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCoOidRequestComplete function [Network Drivers Starting with Windows Vista], netvista.ndiscooidrequestcomplete, NdisCoOidRequestComplete, ndis/NdisCoOidRequestComplete, condis_request_ref_29e0ae37-d6e6-4c75-b0fa-a6f84494f4a6.xml
+ms.keywords: NdisCoOidRequestComplete, NdisCoOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCoOidRequestComplete, condis_request_ref_29e0ae37-d6e6-4c75-b0fa-a6f84494f4a6.xml, netvista.ndiscooidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,16 +159,7 @@ Only clients and stand-alone call managers, which register themselves with NDIS 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
-   ProtocolCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
 
 
@@ -176,11 +167,20 @@ Only clients and stand-alone call managers, which register themselves with NDIS 
 
 
 
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
 
 
 
@@ -188,7 +188,7 @@ Only clients and stand-alone call managers, which register themselves with NDIS 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
 
 
 

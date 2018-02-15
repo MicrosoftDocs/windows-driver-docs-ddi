@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EAFC6B53-98E9-46A4-9D45-56B0A32993B1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey method, wdfdevice/WdfDeviceOpenDevicemapKey, wdf.wdfdeviceopendevicemapkey
+ms.keywords: WdfDeviceOpenDevicemapKey method, wdf.wdfdeviceopendevicemapkey, wdfdevice/WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -191,11 +191,11 @@ For more information about the registry, hardware and software keys, and registr
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
-
-
-
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71CDBF47-B32D-4084-B2F6-9F8C037FCB79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, d3d12umddi/D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 structure [Display Devices], display.d3d12ddi_resource_allocation_info_0022
+ms.keywords: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 structure [Display Devices], D3D12DDI_RESOURCE_ALLOCATION_INFO_0022, display.d3d12ddi_resource_allocation_info_0022, d3d12umddi/D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58589d8c-f58c-4cb4-8f8e-0021f423efdf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilaccesstechnologyparammask, RILACCESSTECHNOLOGYPARAMMASK, RILACCESSTECHNOLOGYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILACCESSTECHNOLOGYPARAMMASK, RIL_PARAM_ACCTECH_SYSTEMKIND, RIL_PARAM_ACCTECH_ALL, ntddrilapitypes/RIL_PARAM_ACCTECH_SYSTEMKIND, ntddrilapitypes/RIL_PARAM_ACCTECH_ALL
+ms.keywords: ntddrilapitypes/RILACCESSTECHNOLOGYPARAMMASK, netvista.rilaccesstechnologyparammask, ntddrilapitypes/RIL_PARAM_ACCTECH_SYSTEMKIND, ntddrilapitypes/RIL_PARAM_ACCTECH_ALL, RILACCESSTECHNOLOGYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ACCTECH_ALL, RILACCESSTECHNOLOGYPARAMMASK, RIL_PARAM_ACCTECH_SYSTEMKIND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UcmConnectorTypeCDetach, buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses]
+ms.keywords: UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses], ucmmanager/UcmConnectorTypeCDetach, buses.ucmconnectortypecdetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

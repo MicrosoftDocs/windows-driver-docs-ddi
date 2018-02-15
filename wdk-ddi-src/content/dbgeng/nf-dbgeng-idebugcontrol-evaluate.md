@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 67b17847-6ab3-4712-9ffc-94f8016e3c34
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Evaluate method [Windows Debugging], IDebugControl3 interface, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, IDebugControl2::Evaluate, Evaluate method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], Evaluate method, Evaluate method [Windows Debugging], IDebugControl interface, IDebugControl, Evaluate method [Windows Debugging], IDebugControl::Evaluate, dbgeng/IDebugControl::Evaluate, IDebugControl3::Evaluate, dbgeng/IDebugControl3::Evaluate, Evaluate, IDebugControl2 interface [Windows Debugging], Evaluate method, debugger.evaluate, IDebugControl interface [Windows Debugging], Evaluate method, dbgeng/IDebugControl2::Evaluate
+ms.keywords: Evaluate, Evaluate method [Windows Debugging], IDebugControl2 interface, Evaluate method [Windows Debugging], IDebugControl interface, Evaluate method [Windows Debugging], IDebugControl2 interface [Windows Debugging], Evaluate method, debugger.evaluate, dbgeng/IDebugControl3::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, IDebugControl interface [Windows Debugging], Evaluate method, IDebugControl2::Evaluate, IDebugControl3 interface [Windows Debugging], Evaluate method, Evaluate method [Windows Debugging], IDebugControl3 interface, IDebugControl::Evaluate, IDebugControl, dbgeng/IDebugControl::Evaluate, dbgeng/IDebugControl2::Evaluate, IDebugControl3::Evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -146,7 +146,7 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 
@@ -154,11 +154,11 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
 
 
 
@@ -166,7 +166,7 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
 
 

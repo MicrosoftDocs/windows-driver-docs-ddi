@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5279d126-8fd3-43dd-be03-2134e46a3ef9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFindClearBits, RtlFindClearBits routine [Kernel-Mode Driver Architecture], k109_bf520772-12d8-403e-8b57-31a24e9a27b6.xml, wdm/RtlFindClearBits, kernel.rtlfindclearbits
+ms.keywords: wdm/RtlFindClearBits, RtlFindClearBits routine [Kernel-Mode Driver Architecture], RtlFindClearBits, kernel.rtlfindclearbits, k109_bf520772-12d8-403e-8b57-31a24e9a27b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,19 +107,15 @@ Callers of <b>RtlFindClearBits</b> must be running at IRQL &lt;= APC_LEVEL if th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindclearbitsandset.md">RtlFindClearBitsAndSet</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
@@ -127,11 +123,15 @@ Callers of <b>RtlFindClearBits</b> must be running at IRQL &lt;= APC_LEVEL if th
 
 
 
+<a href="..\wdm\nf-wdm-rtlfindclearbitsandset.md">RtlFindClearBitsAndSet</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlfindfirstrunclear.md">RtlFindFirstRunClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 

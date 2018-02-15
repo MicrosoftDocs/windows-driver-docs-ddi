@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f285e319-23ef-4951-8fb3-107cd54a23b3
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlMultiByteToUnicodeSize, RtlMultiByteToUnicodeSize routine [Installable File System Drivers], ifsk.rtlmultibytetounicodesize, rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml, ntifs/RtlMultiByteToUnicodeSize
+ms.keywords: rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml, ntifs/RtlMultiByteToUnicodeSize, ifsk.rtlmultibytetounicodesize, RtlMultiByteToUnicodeSize, RtlMultiByteToUnicodeSize routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,11 +108,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlunicodetomultibytesize.md">RtlUnicodeToMultiByteSize</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
 
 
 

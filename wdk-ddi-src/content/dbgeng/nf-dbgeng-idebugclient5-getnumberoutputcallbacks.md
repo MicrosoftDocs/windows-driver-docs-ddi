@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20bc6141-8c4a-4a98-acb3-506840893db6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumberoutputcallbacks, GetNumberOutputCallbacks, IDebugClient5 interface [Windows Debugging], GetNumberOutputCallbacks method, IDebugClient5, dbgeng/IDebugClient5::GetNumberOutputCallbacks, IDebugClient_ce6e107b-a356-434a-81d7-eccb8495289d.xml, GetNumberOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetNumberOutputCallbacks, GetNumberOutputCallbacks method [Windows Debugging]
+ms.keywords: debugger.getnumberoutputcallbacks, IDebugClient5 interface [Windows Debugging], GetNumberOutputCallbacks method, IDebugClient5, IDebugClient5::GetNumberOutputCallbacks, dbgeng/IDebugClient5::GetNumberOutputCallbacks, GetNumberOutputCallbacks, GetNumberOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient_ce6e107b-a356-434a-81d7-eccb8495289d.xml, GetNumberOutputCallbacks method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,15 +113,15 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
 
 
 
@@ -129,7 +129,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 
 
 

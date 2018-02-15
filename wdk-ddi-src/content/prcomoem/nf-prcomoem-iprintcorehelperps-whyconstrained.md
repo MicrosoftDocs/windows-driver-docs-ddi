@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 23953142-9246-41cf-91b4-75b1a3f6128e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_allplugins_fc5f3f79-3a89-4e0f-9d13-4fda10a1c3b4.xml, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, print.iprintcorehelperps_whyconstrained, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface [Print Devices], WhyConstrained method, WhyConstrained, IPrintCoreHelperPS::WhyConstrained, prcomoem/IPrintCoreHelperPS::WhyConstrained
+ms.keywords: print.iprintcorehelperps_whyconstrained, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface [Print Devices], WhyConstrained method, WhyConstrained method [Print Devices], IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::WhyConstrained, WhyConstrained, print_unidrv-pscript_allplugins_fc5f3f79-3a89-4e0f-9d13-4fda10a1c3b4.xml, IPrintCoreHelperPS::WhyConstrained, IPrintCoreHelperPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

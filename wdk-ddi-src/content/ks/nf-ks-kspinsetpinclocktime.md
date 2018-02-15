@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 85dac103-c729-4202-96b1-661891c6a531
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinSetPinClockTime, ks/KsPinSetPinClockTime, avfunc_8f1c1b04-c5eb-4aa1-9cdf-84b86da388e9.xml, KsPinSetPinClockTime function [Streaming Media Devices], stream.kspinsetpinclocktime
+ms.keywords: KsPinSetPinClockTime, KsPinSetPinClockTime function [Streaming Media Devices], avfunc_8f1c1b04-c5eb-4aa1-9cdf-84b86da388e9.xml, stream.kspinsetpinclocktime, ks/KsPinSetPinClockTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,14 +99,6 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
-
-
-
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
-
-
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
 
@@ -115,11 +107,7 @@ None
 
 
 
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
-
-
-
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
 
 
 
@@ -127,7 +115,19 @@ None
 
 
 
-<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+
+
+
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: smartcrd.smartcard_extension, SMARTCARD_EXTENSION, smclib/PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], _SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, *PSMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION
+ms.keywords: "*PSMARTCARD_EXTENSION, smartcrd.smartcard_extension, _SMARTCARD_EXTENSION, SMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, smclib/PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

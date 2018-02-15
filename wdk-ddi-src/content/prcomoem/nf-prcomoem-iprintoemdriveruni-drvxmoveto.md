@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1f2c65ec-6218-438e-a853-4780f091a330
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintoemdriveruni_drvxmoveto, IPrintOemDriverUni, prcomoem/IPrintOemDriverUni::DrvXMoveTo, print_unidrv-pscript_rendering_85f4b5f5-6953-4b3d-902c-4573c4a1bb90.xml, DrvXMoveTo method [Print Devices], DrvXMoveTo method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni::DrvXMoveTo, DrvXMoveTo, IPrintOemDriverUni interface [Print Devices], DrvXMoveTo method
+ms.keywords: IPrintOemDriverUni interface [Print Devices], DrvXMoveTo method, IPrintOemDriverUni, DrvXMoveTo method [Print Devices], IPrintOemDriverUni interface, IPrintOemDriverUni::DrvXMoveTo, DrvXMoveTo, print_unidrv-pscript_rendering_85f4b5f5-6953-4b3d-902c-4573c4a1bb90.xml, prcomoem/IPrintOemDriverUni::DrvXMoveTo, DrvXMoveTo method [Print Devices], print.iprintoemdriveruni_drvxmoveto
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

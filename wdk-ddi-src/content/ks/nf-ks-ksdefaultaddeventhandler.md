@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8e429a48-4e86-4673-aa32-85b640e2f64f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDefaultAddEventHandler, stream.ksdefaultaddeventhandler, avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, KsDefaultAddEventHandler, KsDefaultAddEventHandler function [Streaming Media Devices]
+ms.keywords: stream.ksdefaultaddeventhandler, ks/KsDefaultAddEventHandler, avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, KsDefaultAddEventHandler, KsDefaultAddEventHandler function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

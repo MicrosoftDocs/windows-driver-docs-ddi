@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, IWDFIoRequestCompletionParams, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters, GetWriteParameters method, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface, GetWriteParameters method, umdf.iwdfiorequestcompletionparams_getwriteparameters, wdf.iwdfiorequestcompletionparams_getwriteparameters
+ms.keywords: umdf.iwdfiorequestcompletionparams_getwriteparameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, GetWriteParameters method, IWDFIoRequestCompletionParams interface, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, IWDFIoRequestCompletionParams interface, GetWriteParameters method, IWDFIoRequestCompletionParams::GetWriteParameters, IWDFIoRequestCompletionParams, wdf.iwdfiorequestcompletionparams_getwriteparameters, GetWriteParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

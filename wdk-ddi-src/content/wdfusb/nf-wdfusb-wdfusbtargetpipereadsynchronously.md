@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e09f68bd-cd43-42ce-988e-505415d62891
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeReadSynchronously, PFN_WDFUSBTARGETPIPEREADSYNCHRONOUSLY, WdfUsbTargetPipeReadSynchronously, WdfUsbTargetPipeReadSynchronously method, DFUsbRef_97551c52-37b0-4ed7-a961-921ed0e990b6.xml, kmdf.wdfusbtargetpipereadsynchronously, wdf.wdfusbtargetpipereadsynchronously
+ms.keywords: wdf.wdfusbtargetpipereadsynchronously, WdfUsbTargetPipeReadSynchronously method, kmdf.wdfusbtargetpipereadsynchronously, PFN_WDFUSBTARGETPIPEREADSYNCHRONOUSLY, wdfusb/WdfUsbTargetPipeReadSynchronously, WdfUsbTargetPipeReadSynchronously, DFUsbRef_97551c52-37b0-4ed7-a961-921ed0e990b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

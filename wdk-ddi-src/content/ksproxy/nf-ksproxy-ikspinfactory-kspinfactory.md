@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 939ea77d-f194-4751-b02b-80d5e83c46f4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsPinFactory::KsPinFactory, IKsPinFactory interface [Streaming Media Devices], KsPinFactory method, IKsPinFactory::KsPinFactory, KsPinFactory method [Streaming Media Devices], IKsPinFactory interface, KsPinFactory method [Streaming Media Devices], KsPinFactory, stream.ikspinfactory_kspinfactory, ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, IKsPinFactory
+ms.keywords: IKsPinFactory interface [Streaming Media Devices], KsPinFactory method, KsPinFactory method [Streaming Media Devices], IKsPinFactory interface, KsPinFactory method [Streaming Media Devices], stream.ikspinfactory_kspinfactory, IKsPinFactory::KsPinFactory, ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, IKsPinFactory, KsPinFactory, ksproxy/IKsPinFactory::KsPinFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

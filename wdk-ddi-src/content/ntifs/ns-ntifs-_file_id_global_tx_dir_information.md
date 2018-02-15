@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4c4a0458-8ab3-4ef0-b455-c7a70737f322
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: "_FILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], *PFILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, PFILE_ID_GLOBAL_TX_DIR_INFORMATION"
+ms.keywords: "_FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], ifsk.file_id_global_tx_dir_information, PFILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

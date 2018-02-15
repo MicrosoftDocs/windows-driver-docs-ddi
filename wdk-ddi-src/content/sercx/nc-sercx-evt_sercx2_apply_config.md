@@ -244,11 +244,11 @@ The pshpack1.h and poppack.h header files in the preceding code example control 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
 
 
 
@@ -256,7 +256,7 @@ The pshpack1.h and poppack.h header files in the preceding code example control 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
 
 
 

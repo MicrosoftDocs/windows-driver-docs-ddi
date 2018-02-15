@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b90f8b63-51d3-4de4-9d8b-91926150fd30
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_GETDEVICESTATE, D3DKMT_GETDEVICESTATE, display.d3dkmt_getdevicestate, D3DKMT_GETDEVICESTATE structure [Display Devices], _D3DKMT_GETDEVICESTATE, OpenGL_Structs_39a99244-3951-4a2f-a92d-4aec50589cde.xml
+ms.keywords: OpenGL_Structs_39a99244-3951-4a2f-a92d-4aec50589cde.xml, d3dkmthk/D3DKMT_GETDEVICESTATE, display.d3dkmt_getdevicestate, _D3DKMT_GETDEVICESTATE, D3DKMT_GETDEVICESTATE, D3DKMT_GETDEVICESTATE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,11 +117,7 @@ typedef struct _D3DKMT_GETDEVICESTATE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_deviceexecution_state.md">D3DKMT_DEVICEEXECUTION_STATE</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_devicepresent_state.md">D3DKMT_DEVICEPRESENT_STATE</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
 
 
 
@@ -129,7 +125,11 @@ typedef struct _D3DKMT_GETDEVICESTATE {
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_devicepresent_state.md">D3DKMT_DEVICEPRESENT_STATE</a>
+
+
+
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_deviceexecution_state.md">D3DKMT_DEVICEEXECUTION_STATE</a>
 
 
 

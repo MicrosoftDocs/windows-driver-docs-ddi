@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb759043-ffdf-4edf-819b-669631927bc5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmMapLockedPagesSpecifyCache routine [Kernel-Mode Driver Architecture], k106_337c0e8a-c098-46a8-b820-db78be002148.xml, kernel.mmmaplockedpagesspecifycache, MmMapLockedPagesSpecifyCache, wdm/MmMapLockedPagesSpecifyCache
+ms.keywords: MmMapLockedPagesSpecifyCache, MmMapLockedPagesSpecifyCache routine [Kernel-Mode Driver Architecture], kernel.mmmaplockedpagesspecifycache, wdm/MmMapLockedPagesSpecifyCache, k106_337c0e8a-c098-46a8-b820-db78be002148.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,7 +158,15 @@ If <i>AccessMode</i> is <b>UserMode</b>, the caller must be running at IRQL &lt;
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 
@@ -166,15 +174,7 @@ If <i>AccessMode</i> is <b>UserMode</b>, the caller must be running at IRQL &lt;
 
 
 
-<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 

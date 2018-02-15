@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e28dd810-d86f-479f-b049-63a626ed432f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCchVPrintfExA, RtlStringCchVPrintfEx, ntstrsafe/RtlStringCchVPrintfExW, RtlStringCchVPrintfExW, ntstrsafe/RtlStringCchVPrintfExA, kernel.rtlstringcchvprintfex, STRSAFE_IGNORE_NULLS, STRSAFE_NULL_ON_FAILURE, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml, RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_NO_TRUNCATION, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE
+ms.keywords: RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchvprintfex, ntstrsafe/RtlStringCchVPrintfExW, RtlStringCchVPrintfEx, STRSAFE_IGNORE_NULLS, RtlStringCchVPrintfExW, STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, RtlStringCchVPrintfExA, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCchVPrintfExA, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

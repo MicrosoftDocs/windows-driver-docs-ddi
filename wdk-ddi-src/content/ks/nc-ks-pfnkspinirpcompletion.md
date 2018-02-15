@@ -84,14 +84,18 @@ Points to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> which originated from the c
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The minidriver specifies this routine's address in the <i>IrpCompletion</i> parameter of a call to <a href="..\ks\nf-ks-kspinregisterirpcompletioncallback.md">KsPinRegisterIrpCompletionCallback</a>.
+
 
 
 
@@ -99,7 +103,11 @@ The minidriver specifies this routine's address in the <i>IrpCompletion</i> para
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
+
+
 <a href="..\ks\nf-ks-kspinregisterirpcompletioncallback.md">KsPinRegisterIrpCompletionCallback</a>
+
+
 
  
 

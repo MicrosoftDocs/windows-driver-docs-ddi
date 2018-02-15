@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f55aa290-5e57-48d8-9454-370c494bbd65
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: CreateSymbolGroup, IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, dbgeng/IDebugSymbols2::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, IDebugSymbols3, IDebugSymbols::CreateSymbolGroup, IDebugSymbols2, IDebugSymbols, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, debugger.createsymbolgroup, dbgeng/IDebugSymbols3::CreateSymbolGroup
+ms.keywords: CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, dbgeng/IDebugSymbols::CreateSymbolGroup, debugger.createsymbolgroup, IDebugSymbols::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::CreateSymbolGroup, dbgeng/IDebugSymbols2::CreateSymbolGroup, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols3::CreateSymbolGroup, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, IDebugSymbols3, IDebugSymbols2, IDebugSymbols, CreateSymbolGroup, dbgeng/IDebugSymbols3::CreateSymbolGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,11 +117,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
 
 
 
@@ -129,7 +125,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

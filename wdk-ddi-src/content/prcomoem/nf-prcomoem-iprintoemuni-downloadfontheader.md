@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUni::DownloadFontHeader, prcomoem/IPrintOemUni::DownloadFontHeader, IPrintOemUni, DownloadFontHeader method [Print Devices], print.iprintoemuni_downloadfontheader, DownloadFontHeader, IPrintOemUni interface [Print Devices], DownloadFontHeader method, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml, DownloadFontHeader method [Print Devices], IPrintOemUni interface
+ms.keywords: DownloadFontHeader method [Print Devices], DownloadFontHeader, print.iprintoemuni_downloadfontheader, prcomoem/IPrintOemUni::DownloadFontHeader, IPrintOemUni, IPrintOemUni interface [Print Devices], DownloadFontHeader method, DownloadFontHeader method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml, IPrintOemUni::DownloadFontHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 99330348-bcc2-4a89-96f8-e1b67d9ebe25
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoRequestPowerIrp, portn_d417d88c-2f6d-4af9-b7de-455dfcc1b9df.xml, PoRequestPowerIrp routine [Kernel-Mode Driver Architecture], kernel.porequestpowerirp, wdm/PoRequestPowerIrp
+ms.keywords: PoRequestPowerIrp, wdm/PoRequestPowerIrp, PoRequestPowerIrp routine [Kernel-Mode Driver Architecture], kernel.porequestpowerirp, portn_d417d88c-2f6d-4af9-b7de-455dfcc1b9df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -176,19 +176,7 @@ Drivers can use the returned <i>Irp</i> to cancel an <b>IRP_MN_WAIT_WAKE</b> IRP
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
-
-
-
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
-
-
-
-<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
 
 
 
@@ -196,7 +184,15 @@ Drivers can use the returned <i>Irp</i> to cancel an <b>IRP_MN_WAIT_WAKE</b> IRP
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961906">PowerCompletion</a>
+
+
+
+<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
 
 
 
@@ -204,11 +200,15 @@ Drivers can use the returned <i>Irp</i> to cancel an <b>IRP_MN_WAIT_WAKE</b> IRP
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551644">IRP_MN_POWER_SEQUENCE</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551699">IRP_MN_QUERY_POWER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551644">IRP_MN_POWER_SEQUENCE</a>
 
 
 

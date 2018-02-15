@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e319f9d-4c24-4dd3-b5a1-b244714c06dc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_NominalRange_Wide, DXVA_NominalRange_0_255, dxva/DXVA_NominalRange_Normal, dxva/DXVA_NominalRangeMask, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml, dxva/DXVA_NominalRange_16_235, display.dxva_nominalrange, DXVA_NominalRange, DXVA_NominalRangeMask, dxva/DXVA_NominalRange, DXVA_NominalRange_16_235, dxva/DXVA_NominalRange_0_255, DXVA_NominalRange enumeration [Display Devices], dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRange_48_208, DXVA_NominalRangeShift, dxva/DXVA_NominalRangeShift, _DXVA_NominalRange, DXVA_NominalRange_Unknown, DXVA_NominalRange_Normal, dxva/DXVA_NominalRange_Wide, DXVA_NominalRange_48_208
+ms.keywords: dxva/DXVA_NominalRangeMask, _DXVA_NominalRange, dxva/DXVA_NominalRange_Normal, DXVA_NominalRange_0_255, dxva/DXVA_NominalRange_16_235, display.dxva_nominalrange, dxva/DXVA_NominalRange_0_255, dxva/DXVA_NominalRangeShift, dxva/DXVA_NominalRange_48_208, DXVA_NominalRange_Wide, DXVA_NominalRange_Normal, dxvaref_5931dd2e-baac-48a6-931a-b7f3fc965b4d.xml, DXVA_NominalRangeShift, DXVA_NominalRangeMask, DXVA_NominalRange_48_208, dxva/DXVA_NominalRange_Unknown, dxva/DXVA_NominalRange_Wide, DXVA_NominalRange enumeration [Display Devices], dxva/DXVA_NominalRange, DXVA_NominalRange_16_235, DXVA_NominalRange_Unknown, DXVA_NominalRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

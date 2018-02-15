@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4b903046-8f96-4299-94e7-85900be1bbd4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoStopTimer, k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, kernel.iostoptimer, IoStopTimer routine [Kernel-Mode Driver Architecture], wdm/IoStopTimer
+ms.keywords: kernel.iostoptimer, IoStopTimer routine [Kernel-Mode Driver Architecture], IoStopTimer, k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, wdm/IoStopTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

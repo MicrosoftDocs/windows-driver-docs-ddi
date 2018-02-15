@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: A0705B79-BD13-4AB7-8647-A7AF905B97CC
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue, JobCopiesAllDocumentsMaxValue property [Print Devices], IPrintSchemaCapabilities interface, JobCopiesAllDocumentsMaxValue property [Print Devices], IPrintSchemaCapabilities interface [Print Devices], JobCopiesAllDocumentsMaxValue property, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, print.iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue, IPrintSchemaCapabilities, get_JobCopiesAllDocumentsMaxValue
+ms.keywords: get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities, print.iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue, IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue, JobCopiesAllDocumentsMaxValue property [Print Devices], printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities interface [Print Devices], JobCopiesAllDocumentsMaxValue property, JobCopiesAllDocumentsMaxValue property [Print Devices], IPrintSchemaCapabilities interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

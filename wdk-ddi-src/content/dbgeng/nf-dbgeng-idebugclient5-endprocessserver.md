@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 45421556-6781-4ec4-9ee1-783df99437ae
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient3::EndProcessServer, IDebugClient5, EndProcessServer, IDebugClient5::EndProcessServer, dbgeng/IDebugClient2::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient2 interface, debugger.endprocessserver, dbgeng/IDebugClient5::EndProcessServer, IDebugClient3 interface [Windows Debugging], EndProcessServer method, EndProcessServer method [Windows Debugging], EndProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], EndProcessServer method, IDebugClient2, IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient4::EndProcessServer, IDebugClient2::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient4, dbgeng/IDebugClient4::EndProcessServer, IDebugClient3, IDebugClient4 interface [Windows Debugging], EndProcessServer method, dbgeng/IDebugClient3::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient3 interface, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml
+ms.keywords: IDebugClient3 interface [Windows Debugging], EndProcessServer method, EndProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient4 interface [Windows Debugging], EndProcessServer method, IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient5, IDebugClient3, IDebugClient2::EndProcessServer, dbgeng/IDebugClient2::EndProcessServer, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml, EndProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient2, IDebugClient4::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient3 interface, EndProcessServer method [Windows Debugging], IDebugClient5::EndProcessServer, debugger.endprocessserver, EndProcessServer, dbgeng/IDebugClient4::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient4, dbgeng/IDebugClient5::EndProcessServer, IDebugClient2 interface [Windows Debugging], EndProcessServer method, dbgeng/IDebugClient3::EndProcessServer, IDebugClient3::EndProcessServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -114,11 +114,11 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -130,7 +130,7 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -138,11 +138,11 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

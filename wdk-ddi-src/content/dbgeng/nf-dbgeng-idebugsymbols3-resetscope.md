@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: de8b7c44-98a6-457d-8c04-05d4fc76be16
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::ResetScope, debugger.resetscope, ResetScope, IDebugSymbols interface [Windows Debugging], ResetScope method, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], ResetScope method, dbgeng/IDebugSymbols3::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], ResetScope method, ResetScope method [Windows Debugging], IDebugSymbols::ResetScope, IDebugSymbols, IDebugSymbols2, IDebugSymbols_e3d0b307-57e7-4bc1-83f6-3352dd33a7aa.xml, dbgeng/IDebugSymbols2::ResetScope, dbgeng/IDebugSymbols::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols interface
+ms.keywords: IDebugSymbols::ResetScope, ResetScope, IDebugSymbols3 interface [Windows Debugging], ResetScope method, IDebugSymbols2, ResetScope method [Windows Debugging], IDebugSymbols interface [Windows Debugging], ResetScope method, IDebugSymbols_e3d0b307-57e7-4bc1-83f6-3352dd33a7aa.xml, IDebugSymbols3, ResetScope method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], ResetScope method, IDebugSymbols2::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols3 interface, debugger.resetscope, dbgeng/IDebugSymbols3::ResetScope, IDebugSymbols3::ResetScope, dbgeng/IDebugSymbols::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, dbgeng/IDebugSymbols2::ResetScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -108,11 +108,7 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
 
 
@@ -120,7 +116,11 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

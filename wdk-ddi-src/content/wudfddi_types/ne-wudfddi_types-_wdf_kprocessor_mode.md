@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b50be4c2-4575-42b9-953d-9ddb3c3e696c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfKProcessorModeMaximum, wudfddi_types/PWDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE enumeration, _WDF_KPROCESSOR_MODE, wudfddi_types/WDF_KPROCESSOR_MODE, WdfKernelMode, PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKernelMode, *PWDF_KPROCESSOR_MODE, wdf.wdf_kprocessor_mode, WdfKProcessorModeInvalid, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, WDF_KPROCESSOR_MODE, WdfUserMode, WdfKProcessorModeMaximum, wudfddi_types/WdfUserMode, wudfddi_types/WdfKProcessorModeInvalid, PWDF_KPROCESSOR_MODE enumeration pointer, umdf.wdf_kprocessor_mode
+ms.keywords: wudfddi_types/WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeMaximum, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, wudfddi_types/PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid, WdfKernelMode, PWDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, WdfUserMode, _WDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE, wudfddi_types/WdfKernelMode, WdfKProcessorModeMaximum, WDF_KPROCESSOR_MODE enumeration, wudfddi_types/WdfUserMode, PWDF_KPROCESSOR_MODE enumeration pointer, wdf.wdf_kprocessor_mode, WdfKProcessorModeInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

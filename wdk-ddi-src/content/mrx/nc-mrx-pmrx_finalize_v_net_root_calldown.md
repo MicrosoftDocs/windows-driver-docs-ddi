@@ -83,14 +83,14 @@ NTSTATUS MRxFinalizeVNetRoot(
 
 
 
-#### - pVNetRoot [in, out]
-
-A pointer to the V_NET_ROOT structure to finalize. 
-
-
 #### - ForceDisconnect [in]
 
 A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes <b>FALSE</b> for this parameter in all cases.
+
+
+#### - pVNetRoot [in, out]
+
+A pointer to the V_NET_ROOT structure to finalize. 
 
 
 ## -returns
@@ -117,14 +117,6 @@ RDBSS ignores the return value from <i>MRxFinalizeVNetRoot</i>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549869">MRxCreateVNetRoot</a>
 
 
@@ -133,15 +125,23 @@ RDBSS ignores the return value from <i>MRxFinalizeVNetRoot</i>.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550750">MRxPreparseName</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
 
 
 

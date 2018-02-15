@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b872eff3-2d0a-4f01-874d-e00e09195801
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateNetBufferAndNetBufferList, ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml, ndis/NdisAllocateNetBufferAndNetBufferList, netvista.ndisallocatenetbufferandnetbufferlist, NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista], netvista.ndisallocatenetbufferandnetbufferlist, ndis/NdisAllocateNetBufferAndNetBufferList, NdisAllocateNetBufferAndNetBufferList, ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -202,8 +202,11 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
 
 
 
@@ -211,15 +214,12 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
 
 
 

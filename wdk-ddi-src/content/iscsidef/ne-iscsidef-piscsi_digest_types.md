@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0515dd76-ef1f-4f0f-a7d7-1b3b07e0523d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_DIGEST_TYPES enumeration [Storage Devices], *PISCSI_DIGEST_TYPES, PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPE_NONE, PISCSI_DIGEST_TYPES enumeration pointer [Storage Devices], structs-iSCSI_107b48fe-7dd1-41d3-b329-d82ba0cd13d4.xml, ISCSI_DIGEST_TYPE_CRC32C, iscsidef/ISCSI_DIGEST_TYPE_NONE, storage.iscsi_digest_types, iscsidef/ISCSI_DIGEST_TYPES, iscsidef/PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES, iscsidef/ISCSI_DIGEST_TYPE_CRC32C
+ms.keywords: ISCSI_DIGEST_TYPE_NONE, iscsidef/ISCSI_DIGEST_TYPE_CRC32C, iscsidef/ISCSI_DIGEST_TYPE_NONE, iscsidef/ISCSI_DIGEST_TYPES, PISCSI_DIGEST_TYPES, iscsidef/PISCSI_DIGEST_TYPES, ISCSI_DIGEST_TYPES, storage.iscsi_digest_types, ISCSI_DIGEST_TYPES enumeration [Storage Devices], *PISCSI_DIGEST_TYPES, PISCSI_DIGEST_TYPES enumeration pointer [Storage Devices], ISCSI_DIGEST_TYPE_CRC32C, structs-iSCSI_107b48fe-7dd1-41d3-b329-d82ba0cd13d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

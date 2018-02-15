@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: EEBD3291-4DFC-4503-9F5A-49591FE09680
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetProperties method [Windows Debugging], IDebugFAEntryTags interface, debugger.idebugfaentrytags_setproperties, SetProperties method [Windows Debugging], IDebugFAEntryTags::SetProperties, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], SetProperties method, SetProperties, extsfns/IDebugFAEntryTags::SetProperties
+ms.keywords: SetProperties method [Windows Debugging], IDebugFAEntryTags interface, SetProperties, debugger.idebugfaentrytags_setproperties, IDebugFAEntryTags interface [Windows Debugging], SetProperties method, IDebugFAEntryTags::SetProperties, IDebugFAEntryTags, extsfns/IDebugFAEntryTags::SetProperties, SetProperties method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,6 +101,14 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise it returns an error c
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
 <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
@@ -109,15 +117,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise it returns an error c
 
 
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
-
-
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
 
 
 

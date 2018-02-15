@@ -40,7 +40,7 @@ apiname:
 -	pfnNegotiateAuthenticatedChannelKeyExchange
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE callback
@@ -104,7 +104,9 @@ A pointer to a byte array that contains the encrypted session key.
 ## -returns
 
 
+
 <b>NegotiateAuthenticatedChannelKeyExchange</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,22 +146,30 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <i>pData</i> parameter references a buffer that contains a session key for the authenticated channel. This key buffer must contain 256 bytes of data and must be encrypted by using the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) algorithm with the public key from the authenticated channel certificate.
 
 The key exchange for an authenticated channel is identical to the key exchange for the Output Protection Manager (OPM) interface. However,  the OPM key buffer contains additional data besides the session key.  
-<div class="alert"><b>Note</b>  The same certificate can be used for the authenticated channel and OPM session key.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The same certificate can be used for the authenticated channel and OPM session key.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel.md">CreateAuthenticatedChannel(D3D11_1)</a>
+
+
 
  
 

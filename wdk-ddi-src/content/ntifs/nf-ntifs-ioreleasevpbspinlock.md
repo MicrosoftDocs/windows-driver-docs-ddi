@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c0b93f32-4c5c-472c-8c13-3e441f86475f
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/IoReleaseVpbSpinLock, ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml, IoReleaseVpbSpinLock routine [Installable File System Drivers], IoReleaseVpbSpinLock, ifsk.ioreleasevpbspinlock
+ms.keywords: ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml, ifsk.ioreleasevpbspinlock, IoReleaseVpbSpinLock routine [Installable File System Drivers], ntifs/IoReleaseVpbSpinLock, IoReleaseVpbSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

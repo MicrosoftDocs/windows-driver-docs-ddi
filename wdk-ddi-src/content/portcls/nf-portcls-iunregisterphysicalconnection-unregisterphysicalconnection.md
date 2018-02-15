@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: e8b99549-0fe2-4c8a-ad93-6689ebddee40
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection, audio.iunregisterphysicalconnection_unregisterphysicalconnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method, UnregisterPhysicalConnection, IUnregisterPhysicalConnection
+ms.keywords: portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnection, audmp-routines_5ecc7a84-6d2c-4514-9de8-cb1e4c60a61c.xml, UnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnection method, UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection interface, audio.iunregisterphysicalconnection_unregisterphysicalconnection, IUnregisterPhysicalConnection::UnregisterPhysicalConnection, UnregisterPhysicalConnection method [Audio Devices], IUnregisterPhysicalConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,19 +116,19 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
 
 
 
+<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+
+
+
 <a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

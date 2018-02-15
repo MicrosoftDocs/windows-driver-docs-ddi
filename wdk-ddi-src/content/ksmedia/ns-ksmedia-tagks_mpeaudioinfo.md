@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: df8a1e95-211a-47df-a904-4578cd0a7dc9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, ksmedia/PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], *PKS_MPEGAUDIOINFO, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml, ksmedia/KS_MPEGAUDIOINFO, PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], PKS_MPEGAUDIOINFO, tagKS_MPEAUDIOINFO
+ms.keywords: PKS_MPEGAUDIOINFO structure pointer [Streaming Media Devices], ksmedia/PKS_MPEGAUDIOINFO, stream.ks_mpegaudioinfo, PKS_MPEGAUDIOINFO, vidcapstruct_613d53ce-69cd-46da-9bd8-0ac41ca12129.xml, *PKS_MPEGAUDIOINFO, KS_MPEGAUDIOINFO structure [Streaming Media Devices], KS_MPEGAUDIOINFO, tagKS_MPEAUDIOINFO, ksmedia/KS_MPEGAUDIOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

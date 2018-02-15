@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3bf50952-7ac9-4c6b-9318-dd64748de9d2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypedNodePtr method [Windows Debugging], ExtRemoteTypedList class, ExtRemoteTypedList, GetTypedNodePtr method [Windows Debugging], EngExtCpp_Ref_f007b7c1-89b0-43fa-95e3-792a3272b56d.xml, GetTypedNodePtr, debugger.extremotetypedlist_gettypednodeptr, ExtRemoteTypedList class [Windows Debugging], GetTypedNodePtr method, ExtRemoteTypedList::GetTypedNodePtr
+ms.keywords: GetTypedNodePtr method [Windows Debugging], ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednodeptr, EngExtCpp_Ref_f007b7c1-89b0-43fa-95e3-792a3272b56d.xml, GetTypedNodePtr, ExtRemoteTypedList::GetTypedNodePtr, ExtRemoteTypedList class [Windows Debugging], GetTypedNodePtr method, GetTypedNodePtr method [Windows Debugging], ExtRemoteTypedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

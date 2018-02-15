@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3730035-74fc-421a-89dc-7411e53950f5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: POWER_STATE, PPOWER_STATE union pointer [Kernel-Mode Driver Architecture], POWER_STATE union [Kernel-Mode Driver Architecture], PPOWER_STATE, kernel.power_state, *PPOWER_STATE, wdm/PPOWER_STATE, wdm/POWER_STATE, kstruct_c_a0fca0b4-3d45-48e4-b3ee-ba473ac08347.xml, _POWER_STATE
+ms.keywords: PPOWER_STATE union pointer [Kernel-Mode Driver Architecture], wdm/PPOWER_STATE, POWER_STATE union [Kernel-Mode Driver Architecture], kstruct_c_a0fca0b4-3d45-48e4-b3ee-ba473ac08347.xml, _POWER_STATE, wdm/POWER_STATE, PPOWER_STATE, kernel.power_state, *PPOWER_STATE, POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ For more information about power management, see <a href="https://msdn.microsoft
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+
+
+
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
-
-
-
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 
@@ -104,11 +104,11 @@ For more information about power management, see <a href="https://msdn.microsoft
 
 
 
+<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+
+
+
 <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
 
 

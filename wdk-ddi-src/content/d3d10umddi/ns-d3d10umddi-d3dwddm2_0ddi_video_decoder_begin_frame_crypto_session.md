@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EC08022F-319E-4E49-A003-B98EEADAA0CC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, display.d3d11_video_decoder_begin_frame_crypto_session, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Display Devices], D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Display Devices]
+ms.keywords: display.d3d11_video_decoder_begin_frame_crypto_session, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Display Devices], D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,11 +115,11 @@ A pointer to this structure is passed in the <b>pContentKey</b> member of the <a
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
-
-
-
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_config.md">D3D11_1DDI_VIDEO_DECODER_CONFIG</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 

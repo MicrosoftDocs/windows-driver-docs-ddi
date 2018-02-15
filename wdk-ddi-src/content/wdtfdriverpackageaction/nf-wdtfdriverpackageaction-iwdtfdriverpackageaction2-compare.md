@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: fa93d535-fe26-40cc-b08a-88841dcfdc96
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, Compare method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, IWDTFDriverPackageAction2, dtf.iwdtfdriverpackageaction2_compare, IWDTFDriverPackageAction2::Compare, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Compare method, Compare method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare, Compare
+ms.keywords: dtf.iwdtfdriverpackageaction2_compare, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Compare method, Compare, Compare method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2::Compare, IWDTFDriverPackageAction2, Compare method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

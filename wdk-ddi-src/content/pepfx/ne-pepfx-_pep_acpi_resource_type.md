@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C67FA5DF-D2E4-4F00-B22F-9218F0012708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiExtendedMemory, kernel.pep_acpi_resource_type, pepfx/PepAcpiGpioInt, PepAcpiInterrupt, PepAcpiExtendedMemory, PepAcpiIoPort, pepfx/PepAcpiIoPort, pepfx/PepAcpiGpioIo, pepfx/PepAcpiMemory, PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbSpi, PepAcpiGpioInt, PepAcpiMemory, pepfx/PEP_ACPI_RESOURCE_TYPE, _PEP_ACPI_RESOURCE_TYPE, PepAcpiGpioIo, pepfx/PepAcpiInterrupt, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiSpbI2c, PepAcpiExtendedIo, PepAcpiSpbUart, pepfx/PepAcpiExtendedIo, pepfx/PepAcpiSpbUart, PepAcpiSpbI2c
+ms.keywords: PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiIoPort, PepAcpiInterrupt, pepfx/PepAcpiInterrupt, PepAcpiGpioInt, pepfx/PepAcpiMemory, pepfx/PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiGpioInt, PepAcpiSpbUart, PepAcpiIoPort, PepAcpiExtendedIo, pepfx/PepAcpiSpbI2c, _PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiSpbUart, PepAcpiExtendedMemory, pepfx/PepAcpiGpioIo, PepAcpiMemory, PepAcpiGpioIo, PepAcpiSpbSpi, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiExtendedIo, PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbI2c, kernel.pep_acpi_resource_type, pepfx/PepAcpiExtendedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

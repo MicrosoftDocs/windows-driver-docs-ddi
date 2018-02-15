@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 25e8aec7-86af-4753-83d7-e7df5435f602
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DrvGetDriverSetting method [Print Devices], print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml, IPrintOemDriverUI::DrvGetDriverSetting, IPrintOemDriverUI interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUI, prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI interface, print.iprintoemdriverui_drvgetdriversetting, DrvGetDriverSetting
+ms.keywords: prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUI interface, IPrintOemDriverUI::DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting, print.iprintoemdriverui_drvgetdriversetting, IPrintOemDriverUI interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverUI, print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

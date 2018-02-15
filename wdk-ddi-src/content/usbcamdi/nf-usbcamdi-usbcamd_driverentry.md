@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: ac77b121-2495-4739-8c8f-96d6c48e4dc6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml, USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], usbcamdi/USBCAMD_DriverEntry, stream.usbcamd_driverentry
+ms.keywords: usbcamdi/USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml, stream.usbcamd_driverentry, USBCAMD_DriverEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,7 +126,7 @@ A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
 
 
 
@@ -134,7 +134,7 @@ A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
+<a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
 
 
 

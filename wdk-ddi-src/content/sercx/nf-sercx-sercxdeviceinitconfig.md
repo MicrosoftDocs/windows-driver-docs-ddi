@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 13466A7E-D39B-4E60-AD02-2E6EFE27495A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, serports.sercxdeviceinitconfig, SerCxDeviceInitConfig method [Serial Ports]
+ms.keywords: serports.sercxdeviceinitconfig, 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], SerCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -156,7 +156,7 @@ if (!NT_SUCCESS(status))
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 
@@ -164,11 +164,11 @@ if (!NT_SUCCESS(status))
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

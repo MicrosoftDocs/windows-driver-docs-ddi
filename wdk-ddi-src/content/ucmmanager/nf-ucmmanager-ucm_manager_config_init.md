@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5247D5F0-8422-48C1-81AF-98C8A3537FAD
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UCM_MANAGER_CONFIG_INIT function [Buses], UCM_MANAGER_CONFIG_INIT, buses.ucm_manager_config_init, ucmmanager/UCM_MANAGER_CONFIG_INIT
+ms.keywords: buses.ucm_manager_config_init, UCM_MANAGER_CONFIG_INIT function [Buses], ucmmanager/UCM_MANAGER_CONFIG_INIT, UCM_MANAGER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

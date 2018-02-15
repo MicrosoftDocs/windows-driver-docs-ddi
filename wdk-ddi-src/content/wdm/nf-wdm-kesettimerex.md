@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a2a092d-f9b5-42a2-9be4-bc934a9304fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kesettimerex, k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, wdm/KeSetTimerEx, KeSetTimerEx routine [Kernel-Mode Driver Architecture], KeSetTimerEx
+ms.keywords: k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, KeSetTimerEx routine [Kernel-Mode Driver Architecture], KeSetTimerEx, kernel.kesettimerex, wdm/KeSetTimerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,11 +145,7 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 
 
@@ -161,15 +157,19 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+
+
+
 <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
 
 
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 
 

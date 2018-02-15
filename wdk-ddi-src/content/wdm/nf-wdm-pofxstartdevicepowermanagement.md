@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DA034B30-203E-4418-B5BD-1094B3D438FE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxStartDevicePowerManagement, wdm/PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], kernel.pofxstartdevicepowermanagement
+ms.keywords: PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], kernel.pofxstartdevicepowermanagement, wdm/PoFxStartDevicePowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,19 +97,19 @@ If the driver requires a component to be in the active condition immediately aft
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoPagingPriorityHigh, wdm/IoPagingPriorityNormal, IoPagingPriorityInvalid, wdm/IoPagingPriorityHigh, wdm/IO_PAGING_PRIORITY, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], wdm/IoPagingPriorityReserved1, wdm/IoPagingPriorityInvalid, kernel.io_paging_priority, _IO_PAGING_PRIORITY, IoPagingPriorityReserved2, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, IoPagingPriorityNormal, IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved2, IO_PAGING_PRIORITY
+ms.keywords: wdm/IoPagingPriorityReserved1, IoPagingPriorityNormal, wdm/IO_PAGING_PRIORITY, _IO_PAGING_PRIORITY, IoPagingPriorityReserved1, IoPagingPriorityReserved2, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, IoPagingPriorityInvalid, wdm/IoPagingPriorityReserved2, kernel.io_paging_priority, wdm/IoPagingPriorityNormal, IoPagingPriorityHigh, wdm/IoPagingPriorityInvalid, IO_PAGING_PRIORITY, wdm/IoPagingPriorityHigh, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

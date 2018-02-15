@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E63B234D-07B7-467D-A13B-157781513F22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2initializedeviceinit, SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit method [Serial Ports], 2/SerCx2InitializeDeviceInit
+ms.keywords: SerCx2InitializeDeviceInit method [Serial Ports], SerCx2InitializeDeviceInit, 2/SerCx2InitializeDeviceInit, serports.sercx2initializedeviceinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,11 +132,11 @@ If necessary, the serial controller driver can override the default setting by c
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
 
 
 
@@ -144,11 +144,11 @@ If necessary, the serial controller driver can override the default setting by c
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 
 

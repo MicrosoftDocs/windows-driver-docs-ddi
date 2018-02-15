@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 34b1585d-ceba-4e13-b5c1-70ce29a940c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_bufferdescription, LPDXVA_BufferDescription, dxva/LPDXVA_BufferDescription, DXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml, DXVA_BufferDescription structure [Display Devices], *LPDXVA_BufferDescription, dxva/DXVA_BufferDescription, _DXVA_BufferDescription
+ms.keywords: DXVA_BufferDescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml, DXVA_BufferDescription structure [Display Devices], dxva/LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], LPDXVA_BufferDescription, _DXVA_BufferDescription, display.dxva_bufferdescription, *LPDXVA_BufferDescription, dxva/DXVA_BufferDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -398,11 +398,11 @@ An array of DXVA_BufferDescription structures is referred to as a buffer descrip
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 

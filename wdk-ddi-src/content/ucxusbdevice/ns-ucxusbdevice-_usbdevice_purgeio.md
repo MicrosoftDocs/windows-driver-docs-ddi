@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 5E45A5A0-59EE-4A72-9CCA-DD1C9A406EB5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_USBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO structure pointer [Buses], ucxusbdevice/P_USBDEVICE_PURGEIO, ucxusbdevice/_USBDEVICE_PURGEIO, USBDEVICE_PURGEIO structure [Buses], buses._usbdevice_purgeio, P_USBDEVICE_PURGEIO, USBDEVICE_PURGEIO, *PUSBDEVICE_PURGEIO"
+ms.keywords: ucxusbdevice/_USBDEVICE_PURGEIO, USBDEVICE_PURGEIO structure [Buses], buses._usbdevice_purgeio, P_USBDEVICE_PURGEIO structure pointer [Buses], P_USBDEVICE_PURGEIO, _USBDEVICE_PURGEIO, USBDEVICE_PURGEIO, *PUSBDEVICE_PURGEIO, ucxusbdevice/P_USBDEVICE_PURGEIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,11 +86,11 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_abortio.md">USBDEVICE_ABORTIO</a>
-
-
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_tree_purgeio.md">USBDEVICE_TREE_PURGEIO</a>
+
+
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_abortio.md">USBDEVICE_ABORTIO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c676588e-348b-4840-9873-6b1bb2454987
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IDriverEntry, IDriverEntry::OnInitialize, wdf.idriverentry_oninitialize, OnInitialize method, umdf.idriverentry_oninitialize, wudfddi/IDriverEntry::OnInitialize, IDriverEntry interface, OnInitialize method, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, OnInitialize, OnInitialize method, IDriverEntry interface
+ms.keywords: umdf.idriverentry_oninitialize, OnInitialize, OnInitialize method, UMDFDriverObjectRef_01ebb7b4-69bb-4597-b21a-d3ff6cf3bc24.xml, IDriverEntry::OnInitialize, OnInitialize method, IDriverEntry interface, wudfddi/IDriverEntry::OnInitialize, IDriverEntry, IDriverEntry interface, OnInitialize method, wdf.idriverentry_oninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

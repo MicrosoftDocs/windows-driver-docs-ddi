@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: def462ee-30c6-44c0-8639-f8f7d3d0b69e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, ZwOpenThreadTokenEx, kernel.zwopenthreadtokenex, ntifs/NtOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx, NtOpenThreadTokenEx
+ms.keywords: NtOpenThreadTokenEx, ZwOpenThreadTokenEx, ntifs/NtOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], kernel.zwopenthreadtokenex, k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, ntifs/ZwOpenThreadTokenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,11 +206,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwopenprocesstokenex.md">ZwOpenProcessTokenEx</a>
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
@@ -218,7 +214,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\ntifs\nf-ntifs-zwopenprocesstokenex.md">ZwOpenProcessTokenEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -230,7 +230,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

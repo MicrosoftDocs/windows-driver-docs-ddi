@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1dd7e73d-b804-4018-8c72-732bd68dd8d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10_ddi_query_data_timestamp_disjoint, D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT structure [Display Devices], D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT, UMDisplayDriver_Dx10param_Structs_1dbd9e05-9c61-4753-902c-245471e71e36.xml, d3d10umddi/D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT
+ms.keywords: d3d10umddi/D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT, D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_1dbd9e05-9c61-4753-902c-245471e71e36.xml, D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT, display.d3d10_ddi_query_data_timestamp_disjoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,15 +89,15 @@ The driver associates a D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT structure with t
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
 
 
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
 
 
 

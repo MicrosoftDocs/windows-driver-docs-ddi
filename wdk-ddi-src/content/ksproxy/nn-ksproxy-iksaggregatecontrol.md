@@ -163,19 +163,19 @@ For more information about <b>IDistributorNotify</b>, <b>IUnknown</b>, and <b>Co
 
 ## -see-also
 
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/9808bdb9-17f9-4a80-90c7-e85ab35b74ae">KsAddAggregate</a>
 
 
 
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
 
 
 <a href="https://msdn.microsoft.com/f625b1ed-ccab-4072-9eb9-c4ebbddb1199">KsRemoveAggregate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
 
 

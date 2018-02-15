@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8AAC657A-218E-41CF-AE89-0199A5B35280
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printerextension/IPrinterExtensionEventArgs::get_BidiNotification, IPrinterExtensionEventArgs interface [Print Devices], BidiNotification property, IPrinterExtensionEventArgs::get_BidiNotification, IPrinterExtensionEventArgs.BidiNotification, print.iprinterextensioneventargs_bidinotification, IPrinterExtensionEventArgs, get_BidiNotification, BidiNotification property [Print Devices], printerextension/IPrinterExtensionEventArgs::BidiNotification, BidiNotification property [Print Devices], IPrinterExtensionEventArgs interface
+ms.keywords: print.iprinterextensioneventargs_bidinotification, printerextension/IPrinterExtensionEventArgs::BidiNotification, printerextension/IPrinterExtensionEventArgs::get_BidiNotification, IPrinterExtensionEventArgs.BidiNotification, IPrinterExtensionEventArgs, BidiNotification property [Print Devices], IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs::get_BidiNotification, BidiNotification property [Print Devices], get_BidiNotification, IPrinterExtensionEventArgs interface [Print Devices], BidiNotification property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c4e83638-4931-460f-848b-ceb0f7a00afb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_request_parameters_init, kmdf.wdf_request_parameters_init, WDF_REQUEST_PARAMETERS_INIT function, wdfrequest/WDF_REQUEST_PARAMETERS_INIT, WDF_REQUEST_PARAMETERS_INIT, DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml
+ms.keywords: WDF_REQUEST_PARAMETERS_INIT, wdf.wdf_request_parameters_init, WDF_REQUEST_PARAMETERS_INIT function, wdfrequest/WDF_REQUEST_PARAMETERS_INIT, DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml, kmdf.wdf_request_parameters_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

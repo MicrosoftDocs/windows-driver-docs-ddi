@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6DCD1F8A-45E3-4084-9688-AE59597D65AF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PSTOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], storport/STOR_DEVICE_CAPABILITIES_EX, _STOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX
+ms.keywords: storage.stor_device_capabilities_ex, storport/PSTOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], PSTOR_DEVICE_CAPABILITIES_EX, _STOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX, storport/STOR_DEVICE_CAPABILITIES_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -198,11 +198,11 @@ The eject, removal, and install characteristics for the device are set in the <b
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
+
 <a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
-
-
-
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 
@@ -210,7 +210,7 @@ The eject, removal, and install characteristics for the device are set in the <b
 
 
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 

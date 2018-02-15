@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0efae7b-5a53-4f8a-b2d7-c30eefad7c90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], kernel.iowmiqueryalldata, wdm/IoWMIQueryAllData, k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml, IoWMIQueryAllData
+ms.keywords: IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], kernel.iowmiqueryalldata, k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml, IoWMIQueryAllData, wdm/IoWMIQueryAllData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -148,7 +148,7 @@ To query for multiple WMI classes, use <a href="..\wdm\nf-wdm-iowmiqueryalldatam
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
 
 
 
@@ -156,7 +156,7 @@ To query for multiple WMI classes, use <a href="..\wdm\nf-wdm-iowmiqueryalldatam
 
 
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
 
 

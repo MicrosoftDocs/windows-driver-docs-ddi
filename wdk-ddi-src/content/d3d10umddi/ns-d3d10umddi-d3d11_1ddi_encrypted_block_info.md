@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 36d7fab0-e343-4236-9d13-93cc0e41721e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_ENCRYPTED_BLOCK_INFO structure [Display Devices], D3D11_1DDI_ENCRYPTED_BLOCK_INFO, display.d3d11_1ddi_encrypted_block_info, d3d10umddi/D3D11_1DDI_ENCRYPTED_BLOCK_INFO
+ms.keywords: d3d10umddi/D3D11_1DDI_ENCRYPTED_BLOCK_INFO, display.d3d11_1ddi_encrypted_block_info, D3D11_1DDI_ENCRYPTED_BLOCK_INFO structure [Display Devices], D3D11_1DDI_ENCRYPTED_BLOCK_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

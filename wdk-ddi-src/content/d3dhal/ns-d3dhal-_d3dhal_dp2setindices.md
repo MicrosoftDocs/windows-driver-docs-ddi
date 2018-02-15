@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac1b7daf-803d-48a0-89de-4a438f3837f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_DP2SETINDICES, LPD3DHAL_DP2SETINDICES, _D3DHAL_DP2SETINDICES, d3dhal/LPD3DHAL_DP2SETINDICES, d3dhal/D3DHAL_DP2SETINDICES, LPD3DHAL_DP2SETINDICES structure pointer [Display Devices], d3dstrct_fd1eb5e4-28c8-45f9-90ba-b57970888717.xml, D3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES structure [Display Devices], display.d3dhal_dp2setindices"
+ms.keywords: d3dhal/D3DHAL_DP2SETINDICES, LPD3DHAL_DP2SETINDICES structure pointer [Display Devices], display.d3dhal_dp2setindices, d3dstrct_fd1eb5e4-28c8-45f9-90ba-b57970888717.xml, _D3DHAL_DP2SETINDICES, d3dhal/LPD3DHAL_DP2SETINDICES, *LPD3DHAL_DP2SETINDICES, LPD3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

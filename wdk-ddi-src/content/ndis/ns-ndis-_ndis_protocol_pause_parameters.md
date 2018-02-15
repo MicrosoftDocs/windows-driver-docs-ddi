@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7754d47f-9e21-44c7-8a6f-141d18623ddf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS, protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml, _NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_protocol_pause_parameters
+ms.keywords: NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_PROTOCOL_PAUSE_PARAMETERS, netvista.ndis_protocol_pause_parameters, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS, *PNDIS_PROTOCOL_PAUSE_PARAMETERS, protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml, _NDIS_PROTOCOL_PAUSE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55a9c9e0-24e2-436f-9132-77ae1bab7c2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_DOT11_SUPPORTED_ANTENNA, netvista.dot11_supported_antenna, windot11/DOT11_SUPPORTED_ANTENNA, Native_802.11_data_types_b48dfe45-efbc-4f88-a754-3e1fba8e45f6.xml, PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA structure [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_ANTENNA, PDOT11_SUPPORTED_ANTENNA structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_ANTENNA"
+ms.keywords: PDOT11_SUPPORTED_ANTENNA structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_ANTENNA, windot11/PDOT11_SUPPORTED_ANTENNA, Native_802.11_data_types_b48dfe45-efbc-4f88-a754-3e1fba8e45f6.xml, _DOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA, *PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA structure [Network Drivers Starting with Windows Vista], netvista.dot11_supported_antenna, PDOT11_SUPPORTED_ANTENNA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

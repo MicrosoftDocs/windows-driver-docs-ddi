@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 27465cd9-77bc-4c9e-bac6-bd471ca93261
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberSystems method [Windows Debugging], IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, debugger.getnumbersystems, IDebugSystemObjects4::GetNumberSystems, GetNumberSystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects3, dbgeng/IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml
+ms.keywords: IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, GetNumberSystems method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, debugger.getnumbersystems, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, GetNumberSystems, GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3, dbgeng/IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,15 +103,15 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 

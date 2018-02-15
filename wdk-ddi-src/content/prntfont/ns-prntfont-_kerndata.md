@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b3f68c08-7097-46e7-ad47-6e5e1f2cb8b2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PKERNDATA, _KERNDATA, prntfont/PKERNDATA, KERNDATA, print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, print.kerndata, KERNDATA structure [Print Devices], prntfont/KERNDATA, *PKERNDATA, PKERNDATA structure pointer [Print Devices]
+ms.keywords: PKERNDATA structure pointer [Print Devices], print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, KERNDATA, *PKERNDATA, prntfont/PKERNDATA, KERNDATA structure [Print Devices], PKERNDATA, prntfont/KERNDATA, _KERNDATA, print.kerndata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

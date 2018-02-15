@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 578f7633-307e-4cda-b8fe-ae73a095976f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrievePipePolicy method, IWDFUsbTargetPipe::RetrievePipePolicy, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, RetrievePipePolicy method, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, RetrievePipePolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy method, IWDFUsbTargetPipe interface
+ms.keywords: RetrievePipePolicy, RetrievePipePolicy method, IWDFUsbTargetPipe interface, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy method, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, RetrievePipePolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -156,7 +156,7 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560421">IWDFUsbTargetPipe::SetPipePolicy</a>
 
 
 
@@ -164,7 +164,7 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560421">IWDFUsbTargetPipe::SetPipePolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
 
 
 

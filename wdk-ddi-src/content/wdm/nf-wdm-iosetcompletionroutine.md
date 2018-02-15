@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 09c645d0-4d46-46c0-9256-8d2ddd3670b9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_cbc51352-796e-4b64-9725-7d8a08c4aea9.xml, IoSetCompletionRoutine routine [Kernel-Mode Driver Architecture], kernel.iosetcompletionroutine, wdm/IoSetCompletionRoutine, IoSetCompletionRoutine
+ms.keywords: IoSetCompletionRoutine, IoSetCompletionRoutine routine [Kernel-Mode Driver Architecture], k104_cbc51352-796e-4b64-9725-7d8a08c4aea9.xml, wdm/IoSetCompletionRoutine, kernel.iosetcompletionroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,11 +147,15 @@ Non-PnP drivers that might be unloaded before their <i>IoCompletion</i> routines
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
 
 
@@ -163,15 +167,11 @@ Non-PnP drivers that might be unloaded before their <i>IoCompletion</i> routines
 
 
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
 
 

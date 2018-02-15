@@ -109,11 +109,11 @@ Callers of <b>IoRemoveLinkShareAccess</b> must be running at IRQL = PASSIVE_LEVE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetlinkshareaccess.md">IoSetLinkShareAccess</a>
 
 
 

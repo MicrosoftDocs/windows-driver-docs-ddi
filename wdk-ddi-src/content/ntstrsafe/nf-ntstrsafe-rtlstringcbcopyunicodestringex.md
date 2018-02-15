@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 146f0e43-a9de-4d4d-8b8f-219c22cfa871
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: safestrings_38290608-dda4-4827-bcd2-3a0bef015690.xml, RtlStringCbCopyUnicodeStringEx, kernel.rtlstringcbcopyunicodestringex, ntstrsafe/RtlStringCbCopyUnicodeStringEx, RtlStringCbCopyUnicodeStringEx function [Kernel-Mode Driver Architecture]
+ms.keywords: ntstrsafe/RtlStringCbCopyUnicodeStringEx, RtlStringCbCopyUnicodeStringEx, kernel.rtlstringcbcopyunicodestringex, RtlStringCbCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], safestrings_38290608-dda4-4827-bcd2-3a0bef015690.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

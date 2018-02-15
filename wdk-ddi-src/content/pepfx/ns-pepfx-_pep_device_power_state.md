@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F5E66C33-F727-4631-89C6-413C24995A04
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_device_power_state, PEP_DEVICE_POWER_STATE, _PEP_DEVICE_POWER_STATE, pepfx/PPEP_DEVICE_POWER_STATE, *PPEP_DEVICE_POWER_STATE, pepfx/PEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture]
+ms.keywords: PPEP_DEVICE_POWER_STATE, *PPEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_DEVICE_POWER_STATE, pepfx/PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE, _PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_device_power_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,6 +101,10 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+
+
+
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
 
@@ -114,10 +118,6 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
-
-
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
 
 

@@ -86,6 +86,8 @@ A handle to the kernel mode driver process.
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+
 
 

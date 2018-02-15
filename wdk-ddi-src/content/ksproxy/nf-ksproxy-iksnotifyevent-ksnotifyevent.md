@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c0813b1a-402e-46ba-8d81-e31cdcbbb8dd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent interface, IKsNotifyEvent interface [Streaming Media Devices], KsNotifyEvent method, IKsNotifyEvent, stream.iksnotifyevent_ksnotifyevent, ksproxy/IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, KsNotifyEvent method [Streaming Media Devices]
+ms.keywords: stream.iksnotifyevent_ksnotifyevent, IKsNotifyEvent interface [Streaming Media Devices], KsNotifyEvent method, IKsNotifyEvent::KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, IKsNotifyEvent, ksproxy/IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

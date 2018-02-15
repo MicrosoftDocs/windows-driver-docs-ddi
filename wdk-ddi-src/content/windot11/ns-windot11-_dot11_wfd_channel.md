@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FE05F3D9-B1F0-4DC3-9265-22A76209A3E1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_wfd_channel, _DOT11_WFD_CHANNEL, windot11/PDOT11_WFD_CHANNEL, windot11/DOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_CHANNEL, *PDOT11_WFD_CHANNEL
+ms.keywords: "*PDOT11_WFD_CHANNEL, windot11/DOT11_WFD_CHANNEL, netvista.dot11_wfd_channel, PDOT11_WFD_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL, windot11/PDOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL structure [Network Drivers Starting with Windows Vista], _DOT11_WFD_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b95ca8c-604b-4497-9798-02f362095709
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolRegister method [Windows Debugging], dbgeng/IDebugSymbolGroup2::GetSymbolRegister, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolRegister method, debugger.getsymbolregister, ComOther_9383fee9-ec27-4ccb-8768-02bd550746d7.xml, GetSymbolRegister method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolRegister, IDebugSymbolGroup2::GetSymbolRegister
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolRegister method, dbgeng/IDebugSymbolGroup2::GetSymbolRegister, GetSymbolRegister method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolRegister, GetSymbolRegister, IDebugSymbolGroup2, ComOther_9383fee9-ec27-4ccb-8768-02bd550746d7.xml, GetSymbolRegister method [Windows Debugging], debugger.getsymbolregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -128,11 +128,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
 

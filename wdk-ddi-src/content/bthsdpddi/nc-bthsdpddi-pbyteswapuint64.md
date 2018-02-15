@@ -79,11 +79,14 @@ The unsigned 64-bit integer for which to reverse the byte order.
 ## -returns
 
 
+
 <b>SdpByteSwapUint64</b> returns a converted unsigned 64-bit integer.
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -97,9 +100,12 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

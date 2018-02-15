@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aaf3d22d-da54-4478-9bf8-aad4b943788a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceListCreate, WdfIoResourceListCreate method, wdf.wdfioresourcelistcreate, kmdf.wdfioresourcelistcreate, DFResourceObjectRef_7130ba6a-fc24-4785-9fa3-c8fd159f63fb.xml, wdfresource/WdfIoResourceListCreate, PFN_WDFIORESOURCELISTCREATE
+ms.keywords: WdfIoResourceListCreate method, WdfIoResourceListCreate, PFN_WDFIORESOURCELISTCREATE, DFResourceObjectRef_7130ba6a-fc24-4785-9fa3-c8fd159f63fb.xml, wdf.wdfioresourcelistcreate, kmdf.wdfioresourcelistcreate, wdfresource/WdfIoResourceListCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -40,7 +40,7 @@ apiname:
 -	UpdatePlatformIdleState
 product: Windows
 targetos: Windows
-req.typenames: "*PVPCI_PNP_ID, VPCI_PNP_ID"
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # POFXCALLBACKUPDATEPLATFORMIDLESTATE callback
@@ -90,7 +90,9 @@ A pointer to a <a href="..\pepfx\ns-pepfx-_pep_platform_idle_state_update.md">PE
 ## -returns
 
 
+
 <b>UpdatePlatformIdleState</b> returns STATUS_SUCCESS if it successfully updates the properties of the platform idle state. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return value</th>
@@ -118,11 +120,14 @@ The <b>UpdatePlatformIdleState</b> routine is not implemented for this processor
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine is implemented by PoFx and is called by the PEP. The <b>UpdatePlatformIdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>UpdatePlatformIdleState</b> routine.
@@ -133,17 +138,28 @@ The <b>UpdatePlatformIdleState</b> routine must be called at IRQL = PASSIVE_LEVE
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_platform_idle_state_update.md">PEP_PLATFORM_IDLE_STATE_UPDATE</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_platform_idle_state_update.md">PEP_PLATFORM_IDLE_STATE_UPDATE</a>
+
+
 
  
 

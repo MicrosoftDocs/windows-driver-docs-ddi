@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 35f2b42d-d67f-4fd4-adde-918a2587980b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsContextNone, CLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], wdm/ClfsContextPrevious, CLFS_CONTEXT_MODE enumeration [Kernel-Mode Driver Architecture], kernel.clfs_context_mode, wdm/CLFS_CONTEXT_MODE, *PCLFS_CONTEXT_MODE, _CLFS_CONTEXT_MODE, wdm/ClfsContextForward, sysenum_b51a934c-9174-4607-8da9-22c7ecf56730.xml, wdm/ClfsContextUndoNext, PPCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], wdm/ClfsContextNone, PPCLFS_CONTEXT_MODE, ClfsContextPrevious, wdm/PCLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE, ClfsContextForward, ClfsContextUndoNext, wdm/PPCLFS_CONTEXT_MODE
+ms.keywords: wdm/ClfsContextForward, wdm/CLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE, wdm/PPCLFS_CONTEXT_MODE, ClfsContextUndoNext, wdm/PCLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], ClfsContextForward, ClfsContextNone, PPCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], CLFS_CONTEXT_MODE, ClfsContextPrevious, wdm/ClfsContextPrevious, PCLFS_CONTEXT_MODE, *PCLFS_CONTEXT_MODE, sysenum_b51a934c-9174-4607-8da9-22c7ecf56730.xml, wdm/ClfsContextNone, _CLFS_CONTEXT_MODE, wdm/ClfsContextUndoNext, CLFS_CONTEXT_MODE enumeration [Kernel-Mode Driver Architecture], kernel.clfs_context_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -97,7 +97,7 @@ Indicates that the next record in the sequence is the record in the stream that 
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
+<a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
 
 
 
@@ -105,7 +105,7 @@ Indicates that the next record in the sequence is the record in the stream that 
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
+<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
 
 
 

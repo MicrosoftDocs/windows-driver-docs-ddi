@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 862441ee-8a6e-4ddc-8dba-d3d990f45cfc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_presentmultiplaneoverlay, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], D3DDDIARG_PRESENTMULTIPLANEOVERLAY, d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY
+ms.keywords: D3DDDIARG_PRESENTMULTIPLANEOVERLAY, d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY, display.d3dddiarg_presentmultiplaneoverlay, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

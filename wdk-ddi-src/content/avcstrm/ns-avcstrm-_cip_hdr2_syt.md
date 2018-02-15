@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e66b721f-4cc0-4d35-9e24-6d7dd4029ea4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: CIP_HDR2_SYT structure [Streaming Media Devices], stream.cip_hdr2_syt, CIP_HDR2_SYT, _CIP_HDR2_SYT, avcstrm/PCIP_HDR2_SYT, PCIP_HDR2_SYT, *PCIP_HDR2_SYT, avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, avcstrm/CIP_HDR2_SYT, PCIP_HDR2_SYT structure pointer [Streaming Media Devices]
+ms.keywords: avcstrm/CIP_HDR2_SYT, avcstrm/PCIP_HDR2_SYT, avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, stream.cip_hdr2_syt, *PCIP_HDR2_SYT, PCIP_HDR2_SYT, CIP_HDR2_SYT structure [Streaming Media Devices], CIP_HDR2_SYT, PCIP_HDR2_SYT structure pointer [Streaming Media Devices], _CIP_HDR2_SYT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

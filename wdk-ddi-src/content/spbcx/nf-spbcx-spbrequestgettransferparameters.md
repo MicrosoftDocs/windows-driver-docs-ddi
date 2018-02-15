@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 33B0C9EF-B40A-4BE7-A5AB-81FFF4698F3F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbRequestGetTransferParameters method [Buses], SpbRequestGetTransferParameters, SPB.spbrequestgettransferparameters, spbcx/SpbRequestGetTransferParameters
+ms.keywords: SpbRequestGetTransferParameters method [Buses], spbcx/SpbRequestGetTransferParameters, SpbRequestGetTransferParameters, SPB.spbrequestgettransferparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -156,7 +156,7 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 
@@ -164,15 +164,15 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NET_DMA_INTERRUPT_ON_COMPLETION, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_DESCRIPTOR, NET_DMA_RESERVED_MASK, *PNET_DMA_DESCRIPTOR, NET_DMA_SOURCE_NO_SNOOP, NET_DMA_OP_TYPE_CONTEXT_CHANGE, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_STATUS_UPDATE_ON_COMPLETION, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_OP_TYPE_MASK, netdma/PNET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_DESTINATION_PAGE_BREAK, netdma/NET_DMA_DESCRIPTOR, netvista.net_dma_descriptor, NET_DMA_NULL_TRANSFER, _NET_DMA_DESCRIPTOR
+ms.keywords: NET_DMA_DESCRIPTOR, netvista.net_dma_descriptor, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_DESTINATION_NO_SNOOP, PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_SOURCE_NO_SNOOP, *PNET_DMA_DESCRIPTOR, NET_DMA_STATUS_UPDATE_ON_COMPLETION, NET_DMA_RESERVED_MASK, netdma/NET_DMA_DESCRIPTOR, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_SERIALIZE_TRANSFER, netdma/PNET_DMA_DESCRIPTOR, NET_DMA_OP_TYPE_MASK, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_DESCRIPTOR, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_NULL_TRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -459,15 +459,15 @@ The NetDMA interface calls a DMA provider driver's
 
 ## -see-also
 
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
+
+
+
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
 <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 
 

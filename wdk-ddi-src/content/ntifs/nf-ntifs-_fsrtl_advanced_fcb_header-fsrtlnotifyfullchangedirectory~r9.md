@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 42e5340e-0be4-49d1-a219-88b7425a41ef
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlnotifyfullchangedirectory, FsRtlNotifyFullChangeDirectory, rxprocs/FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml
+ms.keywords: FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, FsRtlNotifyFullChangeDirectory, rxprocs/FsRtlNotifyFullChangeDirectory, ifsk.fsrtlnotifyfullchangedirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -317,7 +317,7 @@ If the file object has not undergone cleanup, <b>FsRtlNotifyFullChangeDirectory<
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
 
 
 
@@ -325,7 +325,7 @@ If the file object has not undergone cleanup, <b>FsRtlNotifyFullChangeDirectory<
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
 

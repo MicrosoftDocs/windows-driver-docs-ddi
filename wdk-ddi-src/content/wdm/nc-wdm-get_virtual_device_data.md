@@ -40,7 +40,7 @@ apiname:
 -	GetVirtualFunctionData
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -103,31 +103,47 @@ The length, in bytes, of the data to be read.
 ## -returns
 
 
+
 The 
       <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero. 
+
 
 
 
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a> routine resembles the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface. The <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a> interface.
-<div class="alert"><b>Note</b>  The virtualization stack calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a> when a driver that is running in the guest operating system calls the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The virtualization stack calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVirtualFunctionData</a> when a driver that is running in the guest operating system calls the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
+
 
 <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
+
+
+
 <b></b>
+
+
 
  
 

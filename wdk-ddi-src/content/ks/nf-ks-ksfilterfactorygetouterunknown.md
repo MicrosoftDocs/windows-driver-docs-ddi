@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 65244091-6089-4d0c-abf4-1178cf0bf1b5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterFactoryGetOuterUnknown, avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml, KsFilterFactoryGetOuterUnknown, stream.ksfilterfactorygetouterunknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices]
+ms.keywords: stream.ksfilterfactorygetouterunknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices], KsFilterFactoryGetOuterUnknown, ks/KsFilterFactoryGetOuterUnknown, avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,7 +95,11 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
 
 
 
@@ -103,7 +107,7 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 
 
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
 
 
 
@@ -111,11 +115,7 @@ For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e
 
 
 
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-
-
-
-<a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 
 

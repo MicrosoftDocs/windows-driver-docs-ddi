@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a9da40fa-59b7-4d2b-978f-1785a51eeaed
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::GetSymbolOptions, IDebugSymbols::GetSymbolOptions, dbgeng/IDebugSymbols3::GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetSymbolOptions method, GetSymbolOptions method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetSymbolOptions method, debugger.getsymboloptions, IDebugSymbols3 interface [Windows Debugging], GetSymbolOptions method, dbgeng/IDebugSymbols::GetSymbolOptions, IDebugSymbols2, IDebugSymbols3::GetSymbolOptions, IDebugSymbols, IDebugSymbols_70c05823-d1a1-4769-8584-e191255c4deb.xml, GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3
+ms.keywords: IDebugSymbols2::GetSymbolOptions, GetSymbolOptions method [Windows Debugging], dbgeng/IDebugSymbols::GetSymbolOptions, IDebugSymbols::GetSymbolOptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSymbolOptions, debugger.getsymboloptions, GetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetSymbolOptions method, dbgeng/IDebugSymbols2::GetSymbolOptions, IDebugSymbols interface [Windows Debugging], GetSymbolOptions method, dbgeng/IDebugSymbols3::GetSymbolOptions, IDebugSymbols2, IDebugSymbols_70c05823-d1a1-4769-8584-e191255c4deb.xml, IDebugSymbols, IDebugSymbols3, GetSymbolOptions method [Windows Debugging], IDebugSymbols interface, GetSymbolOptions, IDebugSymbols3 interface [Windows Debugging], GetSymbolOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,19 +113,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537930">AddSymbolOptions</a>
 
 
 
@@ -133,7 +121,19 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537930">AddSymbolOptions</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e9faa47e-56f7-464b-ad6a-fbb543ca9d1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSUPSERVICEDATA, rilapitypes/RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], *LPRILSUPSERVICEDATA, netvista.rilsupservicedata_2
+ms.keywords: RILSUPSERVICEDATA, netvista.rilsupservicedata_2, rilapitypes/RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], *LPRILSUPSERVICEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

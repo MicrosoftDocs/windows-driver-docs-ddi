@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: beec5516-6191-4b70-8c80-ddbaedbad5c0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: SdpAppendNodeToContainerNode function [Bluetooth Devices], bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, sdplib/SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode, bltooth.sdpappendnodetocontainernode
+ms.keywords: SdpAppendNodeToContainerNode function [Bluetooth Devices], bltooth.sdpappendnodetocontainernode, SdpAppendNodeToContainerNode, sdplib/SdpAppendNodeToContainerNode, bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpAppendNodeToContainerNode
 product: Windows
 targetos: Windows
-req.typenames: SD_TRANSFER_TYPE
+req.typenames: "*PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 

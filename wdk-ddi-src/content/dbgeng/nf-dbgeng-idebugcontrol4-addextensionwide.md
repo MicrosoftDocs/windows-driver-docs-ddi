@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5c918f44-1ee7-4666-b83a-e13ce02e26db
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AddExtensionWide method [Windows Debugging], IDebugControl4 interface, AddExtensionWide method [Windows Debugging], AddExtensionWide, IDebugControl4::AddExtensionWide, debugger.addextensionwide, dbgeng/IDebugControl4::AddExtensionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], AddExtensionWide method
+ms.keywords: AddExtensionWide, AddExtensionWide method [Windows Debugging], IDebugControl4 interface, debugger.addextensionwide, AddExtensionWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], AddExtensionWide method, IDebugControl4::AddExtensionWide, dbgeng/IDebugControl4::AddExtensionWide, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -127,7 +127,7 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
 
 
 
@@ -135,7 +135,7 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9bde557e-0759-4f5b-989e-a34a701d2ebd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCompletePendingRequest, ks/KsCompletePendingRequest, avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, KsCompletePendingRequest function [Streaming Media Devices], stream.kscompletependingrequest
+ms.keywords: KsCompletePendingRequest, KsCompletePendingRequest function [Streaming Media Devices], avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, ks/KsCompletePendingRequest, stream.kscompletependingrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,7 @@ If the dispatch function in question does not pass an IRP, it <b>cannot</b> retu
 
 
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -107,7 +107,7 @@ If the dispatch function in question does not pass an IRP, it <b>cannot</b> retu
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

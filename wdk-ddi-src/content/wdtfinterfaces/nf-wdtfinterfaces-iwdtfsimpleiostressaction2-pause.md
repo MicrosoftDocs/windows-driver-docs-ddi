@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9a0c66cd-3065-4532-8543-22d6f202fb74
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFSimpleIOStressAction2.Pause, Pause method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, wdtfinterfaces/IWDTFSimpleIOStressAction2::Pause, Pause, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Pause, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Pause method, dtf.iwdtfsimpleiostressaction2_pause, IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2::Pause, Pause method [Windows Device Testing Framework]
+ms.keywords: IWDTFSimpleIOStressAction2::Pause, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Pause, dtf.iwdtfsimpleiostressaction2_pause, wdtfinterfaces/IWDTFSimpleIOStressAction2::Pause, Pause method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2, Pause method [Windows Device Testing Framework], Pause, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Pause, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Pause method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

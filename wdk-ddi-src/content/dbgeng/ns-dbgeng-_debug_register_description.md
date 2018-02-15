@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 92e7800d-4de6-498c-87f8-8690d7e8fc51
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], dbgeng/DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], debugger.debug_register_description, PDEBUG_REGISTER_DESCRIPTION, Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, _DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION, dbgeng/PDEBUG_REGISTER_DESCRIPTION
+ms.keywords: debugger.debug_register_description, Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, *PDEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION, dbgeng/DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], dbgeng/PDEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], _DEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

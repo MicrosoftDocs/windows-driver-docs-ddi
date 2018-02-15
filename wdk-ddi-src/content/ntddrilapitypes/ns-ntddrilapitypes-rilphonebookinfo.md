@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 626bfc9b-6d84-4b8c-89eb-c635d0cb61f0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILPHONEBOOKINFO, netvista.rilphonebookinfo, RILPHONEBOOKINFO, RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKINFO
+ms.keywords: RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPHONEBOOKINFO, netvista.rilphonebookinfo, RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

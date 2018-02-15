@@ -40,7 +40,7 @@ apiname:
 -	CamConfigure
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -109,11 +109,14 @@ Pointer to a value that indicates the index of the sync pipe, if one is needed. 
 ## -returns
 
 
+
 <b>CamConfigure</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
@@ -124,13 +127,20 @@ This function is required.
 
 
 
+
 ## -see-also
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
+
+
 
 <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
+
+
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
+
 
  
 

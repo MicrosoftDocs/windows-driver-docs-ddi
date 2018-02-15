@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a59e6a1-d018-4b95-8e50-8351a3b69d86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml, netvista.ndiscompletenetpnpevent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], NdisCompleteNetPnPEvent, ndis/NdisCompleteNetPnPEvent
+ms.keywords: NdisCompleteNetPnPEvent, netvista.ndiscompletenetpnpevent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteNetPnPEvent, protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -129,15 +129,15 @@ When a protocol driver returns NDIS_STATUS_PENDING from its
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 

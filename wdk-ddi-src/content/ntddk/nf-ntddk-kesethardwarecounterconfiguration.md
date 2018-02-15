@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], KeSetHardwareCounterConfiguration, k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration
+ms.keywords: KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, ntddk/KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -155,7 +155,7 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
+<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
 
 
 
@@ -163,7 +163,7 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
-<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
+<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
 
 
 

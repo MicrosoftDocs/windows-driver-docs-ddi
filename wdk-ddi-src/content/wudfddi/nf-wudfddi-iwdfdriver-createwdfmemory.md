@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ea754db-3bed-48d9-825f-7ee7b5e169b7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDriver::CreateWdfMemory, wudfddi/IWDFDriver::CreateWdfMemory, wdf.iwdfdriver_createwdfmemory, umdf.iwdfdriver_createwdfmemory, IWDFDriver, CreateWdfMemory method, IWDFDriver interface, CreateWdfMemory method, CreateWdfMemory, CreateWdfMemory method, IWDFDriver interface, UMDFDriverObjectRef_903775e8-0752-435b-96d9-fa1317f63289.xml
+ms.keywords: wudfddi/IWDFDriver::CreateWdfMemory, CreateWdfMemory, IWDFDriver, CreateWdfMemory method, IWDFDriver::CreateWdfMemory, UMDFDriverObjectRef_903775e8-0752-435b-96d9-fa1317f63289.xml, wdf.iwdfdriver_createwdfmemory, IWDFDriver interface, CreateWdfMemory method, umdf.iwdfdriver_createwdfmemory, CreateWdfMemory method, IWDFDriver interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -168,18 +168,6 @@ CUmdfHidDevice::PrepareReader(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
 
 
@@ -188,11 +176,23 @@ CUmdfHidDevice::PrepareReader(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
 
 
 

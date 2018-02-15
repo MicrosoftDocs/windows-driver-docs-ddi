@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93c9e4f4-7b36-4815-b762-3ac528ac96ba
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortSynchronizeExecution, VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, VideoPortSynchronizeExecution function [Display Devices], VideoPortSynchronizeExecution, display.videoportsynchronizeexecution
+ms.keywords: VideoPortSynchronizeExecution function [Display Devices], display.videoportsynchronizeexecution, VideoPortSynchronizeExecution, VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, video/VideoPortSynchronizeExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,11 +139,11 @@ Callers of <b>VideoPortSynchronizeExecution</b> must be running at IRQL
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+
+
+
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
 
 
 

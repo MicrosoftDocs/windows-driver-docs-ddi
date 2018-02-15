@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 211d41ae-18d3-4ca5-b9f5-868d97fab6fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], IoWMIDeviceObjectToProviderId, kernel.iowmideviceobjecttoproviderid, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml
+ms.keywords: wdm/IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], IoWMIDeviceObjectToProviderId, k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml, kernel.iowmideviceobjecttoproviderid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

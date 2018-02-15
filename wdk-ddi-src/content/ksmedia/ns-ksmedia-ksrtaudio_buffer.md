@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b80efaf0-ecee-40cd-befb-2139a20840a5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ksmedia/PKSRTAUDIO_BUFFER, ksmedia/KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], KSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], PKSRTAUDIO_BUFFER, aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, audio.ksrtaudio_buffer
+ms.keywords: KSRTAUDIO_BUFFER, audio.ksrtaudio_buffer, aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, *PKSRTAUDIO_BUFFER, ksmedia/PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], PKSRTAUDIO_BUFFER, ksmedia/KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,15 +95,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPRO
 
 ## -see-also
 
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPROPERTY_RTAUDIO_BUFFER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537494">KSRTAUDIO_BUFFER_PROPERTY</a>
-
-
-
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 

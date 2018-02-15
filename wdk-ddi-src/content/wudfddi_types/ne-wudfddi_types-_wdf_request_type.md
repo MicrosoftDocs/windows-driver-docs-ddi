@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a883f22e-0d6f-4755-882b-ad5a60a09271
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestRead, WdfRequestDeviceIoControl, _WDF_REQUEST_TYPE, umdf.wdf_request_type__umdf_, WdfRequestWrite, wudfddi_types/WdfRequestDeviceIoControl, wudfddi_types/WdfRequestMaximum, WdfRequestFlushBuffers, WdfRequestQueryInformation, WDF_REQUEST_TYPE, WdfRequestUsb, wudfddi_types/WdfRequestInternalIoctl, *PWDF_REQUEST_TYPE, wudfddi_types/WdfRequestClose, WDF_REQUEST_TYPE enumeration, WdfRequestClose, wudfddi_types/WdfRequestRead, wudfddi_types/WdfRequestUndefined, WdfRequestSetInformation, wudfddi_types/WdfRequestFlushBuffers, WdfRequestInternalIoctl, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, WdfRequestUndefined, wudfddi_types/WDF_REQUEST_TYPE, WdfRequestCleanup, WdfRequestTypeNoFormat, wudfddi_types/WdfRequestUsb, wudfddi_types/WdfRequestQueryInformation, wdf.wdf_request_type__umdf_, wudfddi_types/WdfRequestCreate, wudfddi_types/WdfRequestWrite, wudfddi_types/WdfRequestTypeNoFormat, wudfddi_types/WdfRequestSetInformation, WdfRequestMaximum, WdfRequestCreate, wudfddi_types/WdfRequestOther, wudfddi_types/WdfRequestCleanup, WdfRequestOther
+ms.keywords: umdf.wdf_request_type__umdf_, WdfRequestWrite, WdfRequestDeviceIoControl, wudfddi_types/WdfRequestInternalIoctl, WdfRequestCleanup, wdf.wdf_request_type__umdf_, WdfRequestUsb, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, WdfRequestSetInformation, WdfRequestUndefined, WdfRequestQueryInformation, wudfddi_types/WdfRequestTypeNoFormat, wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestCreate, wudfddi_types/WdfRequestFlushBuffers, WdfRequestFlushBuffers, wudfddi_types/WdfRequestUsb, wudfddi_types/WdfRequestMaximum, WdfRequestCreate, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestWrite, WdfRequestClose, WdfRequestTypeNoFormat, *PWDF_REQUEST_TYPE, WDF_REQUEST_TYPE enumeration, wudfddi_types/WdfRequestClose, WdfRequestInternalIoctl, WdfRequestMaximum, wudfddi_types/WdfRequestCleanup, wudfddi_types/WdfRequestOther, wudfddi_types/WDF_REQUEST_TYPE, WdfRequestRead, WDF_REQUEST_TYPE, wudfddi_types/WdfRequestSetInformation, _WDF_REQUEST_TYPE, WdfRequestOther, wudfddi_types/WdfRequestRead, wudfddi_types/WdfRequestDeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -173,18 +173,6 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
 
 
@@ -193,11 +181,23 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
 
 
 

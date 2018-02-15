@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: AAC70470-B58E-44F1-9CC5-4E0C25539639
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, _SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, 2/PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, *PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure [Serial Ports], 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, serports.sercx2_system_dma_transmit_config, PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure pointer [Serial Ports]
+ms.keywords: "_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure [Serial Ports], PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, *PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure pointer [Serial Ports], SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, 2/PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, serports.sercx2_system_dma_transmit_config, 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -178,19 +178,7 @@ The <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDma
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cancel_drain_fifo.md">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a>
-
-
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2_system_dma_transmit_config_init.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_drain_fifo.md">EvtSerCx2SystemDmaTransmitDrainFifo</a>
 
 
 
@@ -198,15 +186,7 @@ The <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDma
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_drain_fifo.md">EvtSerCx2SystemDmaTransmitDrainFifo</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cleanup_transaction.md">EvtSerCx2SystemDmaTransmitCleanupTransaction</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
 
 
 
@@ -214,11 +194,31 @@ The <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDma
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
 
 
 
 <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction.md">EvtSerCx2SystemDmaTransmitInitializeTransaction</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2_system_dma_transmit_config_init.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cancel_drain_fifo.md">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
 
 
 

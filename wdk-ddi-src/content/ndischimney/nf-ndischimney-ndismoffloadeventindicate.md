@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81052e73-4dce-48df-8541-5da54e2156d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMOffloadEventIndicate, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista], ndischimney/NdisMOffloadEventIndicate, tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml, netvista.ndismoffloadeventindicate
+ms.keywords: netvista.ndismoffloadeventindicate, NdisMOffloadEventIndicate, ndischimney/NdisMOffloadEventIndicate, tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -184,6 +184,10 @@ The host stack uses the
 
 ## -see-also
 
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
 
@@ -192,20 +196,16 @@ The host stack uses the
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
 
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b27f26f-c98d-4979-b60e-0ed5965f637c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PFILE_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.file_ea_information, PFILE_EA_INFORMATION, ntifs/FILE_EA_INFORMATION, FILE_EA_INFORMATION, FILE_EA_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_b_f78f051a-aa8f-4611-a699-1f706ac74f1f.xml, *PFILE_EA_INFORMATION, ntifs/PFILE_EA_INFORMATION, _FILE_EA_INFORMATION
+ms.keywords: "*PFILE_EA_INFORMATION, FILE_EA_INFORMATION, _FILE_EA_INFORMATION, PFILE_EA_INFORMATION, ntifs/FILE_EA_INFORMATION, PFILE_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntifs/PFILE_EA_INFORMATION, kernel.file_ea_information, FILE_EA_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_b_f78f051a-aa8f-4611-a699-1f706ac74f1f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

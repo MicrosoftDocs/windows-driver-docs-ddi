@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], RtlIsPartialPlaceholderFileInfo, ntifs/RtlIsPartialPlaceholderFileInfo, ifsk.rtlispartialplaceholderfileinfo
+ms.keywords: RtlIsPartialPlaceholderFileInfo, ntifs/RtlIsPartialPlaceholderFileInfo, RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfileinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

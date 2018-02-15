@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 652f64e2-310b-46c9-8b00-c827a7475b07
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, dmusicks/PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT, dmusicks/DMUS_KERNEL_EVENT, PDMUS_KERNEL_EVENT structure pointer [Audio Devices], PDMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], audio.dmus_kernel_event, _DMUS_KERNEL_EVENT
+ms.keywords: DMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], PDMUS_KERNEL_EVENT structure pointer [Audio Devices], dmusicks/DMUS_KERNEL_EVENT, _DMUS_KERNEL_EVENT, dmusicks/PDMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, *PDMUS_KERNEL_EVENT, audio.dmus_kernel_event, PDMUS_KERNEL_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

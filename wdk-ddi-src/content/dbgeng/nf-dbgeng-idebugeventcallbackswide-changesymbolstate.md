@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, ChangeSymbolState, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide::ChangeSymbolState, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_changesymbolstate, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, IDebugEventCallbacksWide
+ms.keywords: ChangeSymbolState method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, IDebugEventCallbacksWide, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_changesymbolstate, ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

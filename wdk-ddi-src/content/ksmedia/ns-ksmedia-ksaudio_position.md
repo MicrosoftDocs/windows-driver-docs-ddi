@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 91658dfc-dad4-4fbb-8688-13971e7275e2
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ksmedia/PKSAUDIO_POSITION, KSAUDIO_POSITION, aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, PKSAUDIO_POSITION structure pointer [Audio Devices], KSAUDIO_POSITION structure [Audio Devices], audio.ksaudio_position, PKSAUDIO_POSITION, ksmedia/KSAUDIO_POSITION, *PKSAUDIO_POSITION
+ms.keywords: ksmedia/KSAUDIO_POSITION, KSAUDIO_POSITION, aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, audio.ksaudio_position, PKSAUDIO_POSITION structure pointer [Audio Devices], PKSAUDIO_POSITION, ksmedia/PKSAUDIO_POSITION, KSAUDIO_POSITION structure [Audio Devices], *PKSAUDIO_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,11 +135,11 @@ For more information, see <a href="https://msdn.microsoft.com/893fea84-9136-4107
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563384">KSINTERFACE_STANDARD_STREAMING</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563384">KSINTERFACE_STANDARD_STREAMING</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: caf5d3fc-f9bb-412c-af5f-e0c5e4d45efc
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/KeReadStateMutant, keref_71f98f36-f8ae-4ea9-9a54-8fb34694b18c.xml, KeReadStateMutant, KeReadStateMutant function [Installable File System Drivers], ifsk.kereadstatemutant
+ms.keywords: ntifs/KeReadStateMutant, KeReadStateMutant, ifsk.kereadstatemutant, KeReadStateMutant function [Installable File System Drivers], keref_71f98f36-f8ae-4ea9-9a54-8fb34694b18c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

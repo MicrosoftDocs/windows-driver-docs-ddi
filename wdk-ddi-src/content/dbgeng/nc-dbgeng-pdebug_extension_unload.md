@@ -81,14 +81,19 @@ The <i>DebugExtensionUnload</i> callback function unloads the debug extension.
 
 
 
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If and only if <a href="..\dbgeng\nc-dbgeng-pdebug_extension_canunload.md">DebugExtensionCanUnload</a> is present in the debugger extension, this callback function is called after a successful <i>DebugExtensionCanUnload</i> call, immediately before the debugger actually unloads the extension DLL.
@@ -97,9 +102,12 @@ If and only if <a href="..\dbgeng\nc-dbgeng-pdebug_extension_canunload.md">Debug
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_canunload.md">DebugExtensionCanUnload</a>
+
+
 
  
 

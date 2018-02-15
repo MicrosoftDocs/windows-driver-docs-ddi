@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD7D7E5F-D35C-40B4-B414-A6D2EB8D3A02
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_work_active_complete, _PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE, pep_x/PPEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "*PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACTIVE_COMPLETE, _PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE, kernel.pep_work_active_complete, pep_x/PPEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_ACTIVE_COMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

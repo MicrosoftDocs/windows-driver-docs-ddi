@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928cc1b6-4569-4ca1-9410-d864b5556b86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA structure [Kernel-Mode Driver Architecture], kernel.cm_keyboard_device_data, wdm/CM_KEYBOARD_DEVICE_DATA, _CM_KEYBOARD_DEVICE_DATA, PCM_KEYBOARD_DEVICE_DATA, *PCM_KEYBOARD_DEVICE_DATA, kstruct_a_db7af30d-3698-4c1a-b1ee-9b7e95e7b5fd.xml, PCM_KEYBOARD_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_KEYBOARD_DEVICE_DATA
+ms.keywords: CM_KEYBOARD_DEVICE_DATA, _CM_KEYBOARD_DEVICE_DATA, kstruct_a_db7af30d-3698-4c1a-b1ee-9b7e95e7b5fd.xml, *PCM_KEYBOARD_DEVICE_DATA, kernel.cm_keyboard_device_data, CM_KEYBOARD_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_KEYBOARD_DEVICE_DATA, PCM_KEYBOARD_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_KEYBOARD_DEVICE_DATA, wdm/CM_KEYBOARD_DEVICE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -187,7 +187,7 @@ Right shift key is down.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
 
 
 
@@ -195,7 +195,7 @@ Right shift key is down.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

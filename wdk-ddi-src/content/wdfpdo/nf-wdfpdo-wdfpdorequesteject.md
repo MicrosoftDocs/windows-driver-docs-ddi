@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 40cd83c0-701a-436f-a3c3-b0ab14848a92
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoRequestEject, WdfPdoRequestEject method, wdf.wdfpdorequesteject, kmdf.wdfpdorequesteject, DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, PFN_WDFPDOREQUESTEJECT
+ms.keywords: PFN_WDFPDOREQUESTEJECT, WdfPdoRequestEject method, DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, kmdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject, wdf.wdfpdorequesteject, WdfPdoRequestEject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,15 +138,15 @@ WdfFdoUnlockStaticChildListFromIteration(Device);</pre>
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
-
-
-
 <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
 
 
 
 <a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
+
+
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
 
 
 

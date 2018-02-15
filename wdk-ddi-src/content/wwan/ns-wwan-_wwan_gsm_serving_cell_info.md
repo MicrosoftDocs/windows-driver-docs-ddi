@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 37F6BD26-55F3-4E46-9C39-97A95B6FF5B1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_gsm_serving_cell_info, WWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_GSM_SERVING_CELL_INFO, PWWAN_GSM_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], PWWAN_GSM_SERVING_CELL_INFO, wwan/WWAN_GSM_SERVING_CELL_INFO, _WWAN_GSM_SERVING_CELL_INFO, *PWWAN_GSM_SERVING_CELL_INFO
+ms.keywords: PWWAN_GSM_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_GSM_SERVING_CELL_INFO, *PWWAN_GSM_SERVING_CELL_INFO, _WWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_GSM_SERVING_CELL_INFO, netvista.wwan_gsm_serving_cell_info, WWAN_GSM_SERVING_CELL_INFO, wwan/WWAN_GSM_SERVING_CELL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,7 +135,7 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
 
 
 
@@ -147,7 +147,7 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+<a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
 
 
 

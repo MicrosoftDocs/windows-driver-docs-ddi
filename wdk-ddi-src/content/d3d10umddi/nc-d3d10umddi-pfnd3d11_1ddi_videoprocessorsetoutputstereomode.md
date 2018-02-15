@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetOutputStereoMode
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback
@@ -77,14 +77,21 @@ VOID APIENTRY* pfnVideoProcessorSetOutputStereoMode(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param BOOL
 
 
+
+
+
+
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
 
 
 
@@ -103,21 +110,17 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
-
-
-
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 By default, the video processor produces mono video frames. If stereo video is enabled, the stereo output format is set through the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a> function.
@@ -125,16 +128,25 @@ By default, the video processor produces mono video frames. If stereo video is e
 
 
 The driver reports its ability to support stereo video modes through the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a> function. If the driver supports the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO</b> capability, it can be enabled or disabled to produce stereo video frames.
-<div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetOutputStereoMode</b> function.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetOutputStereoMode</b> function.</div>
+<div> </div>
+
 
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
 
  
 

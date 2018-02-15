@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 71949653-08c7-4f22-951d-6e1595b10700
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/WIAS_LERROR, WIAS_LERROR, image.wias_lerror, IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, WIAS_LERROR macro [Imaging Devices]
+ms.keywords: IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, WIAS_LERROR, wiamdef/WIAS_LERROR, image.wias_lerror, WIAS_LERROR macro [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -91,9 +91,9 @@ TBD
 
 
 
-#### - pIWiaLog
+####### - format_string, ...
 
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
+Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
 #### - lResId
@@ -101,9 +101,9 @@ Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 
-####### - format_string, ...
+#### - pIWiaLog
 
-Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 
 
 ## -remarks
@@ -130,11 +130,11 @@ The WIAS_LERROR macro is not recommended for Windows Vista, because it does not 
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
 
 
@@ -142,7 +142,7 @@ The WIAS_LERROR macro is not recommended for Windows Vista, because it does not 
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
 
 

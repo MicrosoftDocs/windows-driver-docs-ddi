@@ -40,7 +40,7 @@ apiname:
 -	ObjectPreCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A pointer to an <a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_
 ## -returns
 
 
+
 <i>ObjectPreCallback</i> returns an OB_PREOP_CALLBACK_STATUS value. Drivers must return OB_PREOP_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 Use the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a> routine to register an <i>ObjectPreCallback</i> routine, and use the <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a> routine to unregister the routine.
@@ -98,15 +101,24 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
 
+
+
+<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
+
+
+
 <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+
 
 <a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERATION_INFORMATION</a>
 
-<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
+
 
  
 

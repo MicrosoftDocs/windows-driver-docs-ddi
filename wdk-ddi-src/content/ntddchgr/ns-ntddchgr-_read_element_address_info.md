@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5fc5b38e-8eef-4ba0-9f29-025df55e4525
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PREAD_ELEMENT_ADDRESS_INFO structure pointer [Storage Devices], PREAD_ELEMENT_ADDRESS_INFO, ntddchgr/PREAD_ELEMENT_ADDRESS_INFO, storage.read_element_address_info, _READ_ELEMENT_ADDRESS_INFO, *PREAD_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO, ntddchgr/READ_ELEMENT_ADDRESS_INFO, structs-changer_5137d1a1-82bb-4333-b555-45bc1c8cc0bf.xml, READ_ELEMENT_ADDRESS_INFO structure [Storage Devices]
+ms.keywords: ntddchgr/PREAD_ELEMENT_ADDRESS_INFO, storage.read_element_address_info, READ_ELEMENT_ADDRESS_INFO structure [Storage Devices], *PREAD_ELEMENT_ADDRESS_INFO, ntddchgr/READ_ELEMENT_ADDRESS_INFO, _READ_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO structure pointer [Storage Devices], PREAD_ELEMENT_ADDRESS_INFO, structs-changer_5137d1a1-82bb-4333-b555-45bc1c8cc0bf.xml, READ_ELEMENT_ADDRESS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,19 +80,19 @@ Contains an array holding the first <a href="..\ntddchgr\ns-ntddchgr-_changer_el
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
-
-
-
 <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
 
 
 
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 

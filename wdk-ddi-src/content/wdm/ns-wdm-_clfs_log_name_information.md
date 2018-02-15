@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6011a3e9-1de1-4862-b6a4-a3becf3ec3ca
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PCLFS_LOG_NAME_INFORMATION, PPCLFS_LOG_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_LOG_NAME_INFORMATION, kernel.clfs_log_name_information, kstruct_a_381305d2-8396-4f34-b981-0ba3eb732cd1.xml, wdm/PCLFS_LOG_NAME_INFORMATION, *PCLFS_LOG_NAME_INFORMATION, CLFS_LOG_NAME_INFORMATION, PCLFS_LOG_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/CLFS_LOG_NAME_INFORMATION, CLFS_LOG_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PPCLFS_LOG_NAME_INFORMATION, _CLFS_LOG_NAME_INFORMATION
+ms.keywords: wdm/PPCLFS_LOG_NAME_INFORMATION, PCLFS_LOG_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CLFS_LOG_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], CLFS_LOG_NAME_INFORMATION, kstruct_a_381305d2-8396-4f34-b981-0ba3eb732cd1.xml, _CLFS_LOG_NAME_INFORMATION, wdm/PCLFS_LOG_NAME_INFORMATION, PCLFS_LOG_NAME_INFORMATION, wdm/CLFS_LOG_NAME_INFORMATION, *PCLFS_LOG_NAME_INFORMATION, PPCLFS_LOG_NAME_INFORMATION, kernel.clfs_log_name_information, PPCLFS_LOG_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,11 +81,11 @@ An array of wide characters that holds the log name.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
 
 
 

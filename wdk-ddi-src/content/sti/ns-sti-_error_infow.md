@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e448ddfc-ae5a-4eb8-a39c-e46771278081
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.sti_error_info, *PSTI_ERROR_INFOW, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml, PSTI_ERROR_INFO structure pointer [Imaging Devices], sti/STI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices], *PSTI_ERROR_INFO, STI_ERROR_INFOW, _ERROR_INFOW, PSTI_ERROR_INFO, STI_ERROR_INFO, sti/PSTI_ERROR_INFO
+ms.keywords: sti/PSTI_ERROR_INFO, PSTI_ERROR_INFO, *PSTI_ERROR_INFO, image.sti_error_info, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml, _ERROR_INFOW, STI_ERROR_INFOW, *PSTI_ERROR_INFOW, STI_ERROR_INFO, PSTI_ERROR_INFO structure pointer [Imaging Devices], sti/STI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

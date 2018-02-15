@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4FE3FE9E-9F00-431D-99F0-002B1368CE34
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], PCMP_CREATE_PLUG, _CMP_CREATE_PLUG, CMP_CREATE_PLUG structure [Buses], IEEE.cmp_create_plug, 61883/CMP_CREATE_PLUG, *PCMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG
+ms.keywords: CMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, PCMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, *PCMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], _CMP_CREATE_PLUG, IEEE.cmp_create_plug, CMP_CREATE_PLUG structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

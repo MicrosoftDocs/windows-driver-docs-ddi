@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18ce5fc5-927c-4261-8966-bb12849b95c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], *PKSP_TIMEFORMAT, ks/KSP_TIMEFORMAT, stream.ksp_timeformat, ks/PKSP_TIMEFORMAT, PKSP_TIMEFORMAT, KSP_TIMEFORMAT, KSP_TIMEFORMAT structure [Streaming Media Devices]
+ms.keywords: KSP_TIMEFORMAT structure [Streaming Media Devices], PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, PKSP_TIMEFORMAT, *PKSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, KSP_TIMEFORMAT, stream.ksp_timeformat, ks/KSP_TIMEFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

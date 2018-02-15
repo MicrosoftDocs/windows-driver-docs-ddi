@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 119a8c88-f181-40f5-8a12-5d663c5a1534
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, OFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO, _OFFLOAD_ALGO_INFO, ntddndis/OFFLOAD_ALGO_INFO, ntddndis/POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], *POFFLOAD_ALGO_INFO, netvista.offload_algo_info
+ms.keywords: OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], netvista.offload_algo_info, *POFFLOAD_ALGO_INFO, ntddndis/OFFLOAD_ALGO_INFO, _OFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], ntddndis/POFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO, 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

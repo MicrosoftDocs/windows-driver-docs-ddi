@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fba7eb60-0d19-4bfd-b484-2e615d3e9237
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, FWPS_INCOMING_METADATA_VALUES0, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE, fwpsk/FWPS_INCOMING_METADATA_VALUES0, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID, wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, FWPS_INCOMING_METADATA_VALUES0_, netvista.fwps_incoming_metadata_values0, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT
+ms.keywords: FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE, wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml, FWPS_INCOMING_METADATA_VALUES0_, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, FWPS_INCOMING_METADATA_VALUES0, FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, netvista.fwps_incoming_metadata_values0, fwpsk/FWPS_INCOMING_METADATA_VALUES0, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -621,16 +621,16 @@ Reserved.
 
 
 
-#### - l2ConnectionProfileIndex
+#### - Reserved1
 
-A the layer 2 connection profile index. 
+Reserved. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>
 
-#### - Reserved1
+#### - l2ConnectionProfileIndex
 
-Reserved. 
+A the layer 2 connection profile index. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>
@@ -683,24 +683,15 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/9bead001-7ea7-4a51-8a7c-82fe01017dd7">
-   FWPS_INBOUND_FRAGMENT_METADATA0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
 
 
 
@@ -712,7 +703,16 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="https://msdn.microsoft.com/9bead001-7ea7-4a51-8a7c-82fe01017dd7">
+   FWPS_INBOUND_FRAGMENT_METADATA0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551235">FWPS_DISCARD_METADATA0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
 
 
 

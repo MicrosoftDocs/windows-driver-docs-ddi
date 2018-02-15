@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c5250b7d-a996-4591-b289-cfb1af00e7da
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtFlushKey, ZwFlushKey, kernel.zwflushkey, k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, wdm/ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], wdm/NtFlushKey
+ms.keywords: NtFlushKey, kernel.zwflushkey, ZwFlushKey routine [Kernel-Mode Driver Architecture], wdm/NtFlushKey, k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, wdm/ZwFlushKey, ZwFlushKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
@@ -110,11 +110,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

@@ -75,9 +75,7 @@ HRESULT APIENTRY* pfnCreateVideoDecoder(
 ### -param hDrvDevice
 
 
-
 ### -param *pArgs
-
 
 
 ### -param hDrvVideoDecoder
@@ -85,19 +83,21 @@ HRESULT APIENTRY* pfnCreateVideoDecoder(
 The handle of a driver video decoder.
 
 
-#### - hDevice
-
-The handle of the device.
-
-
 #### - CreateVideoDecoder [in]
 
 The arguments used to create a video decoder.
 
 
+#### - hDevice
+
+The handle of the device.
+
+
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

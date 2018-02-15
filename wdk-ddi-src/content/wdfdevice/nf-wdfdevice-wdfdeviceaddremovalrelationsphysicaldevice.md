@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4638905f-cefb-4bf0-aa00-64f2f096dc22
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceAddRemovalRelationsPhysicalDevice, WdfDeviceAddRemovalRelationsPhysicalDevice method, wdf.wdfdeviceaddremovalrelationsphysicaldevice, WdfDeviceAddRemovalRelationsPhysicalDevice, kmdf.wdfdeviceaddremovalrelationsphysicaldevice, PFN_WDFDEVICEADDREMOVALRELATIONSPHYSICALDEVICE, DFDeviceObjectGeneralRef_5e16c670-eb46-4c83-88e0-32eb41aeeac3.xml
+ms.keywords: PFN_WDFDEVICEADDREMOVALRELATIONSPHYSICALDEVICE, DFDeviceObjectGeneralRef_5e16c670-eb46-4c83-88e0-32eb41aeeac3.xml, WdfDeviceAddRemovalRelationsPhysicalDevice method, wdfdevice/WdfDeviceAddRemovalRelationsPhysicalDevice, WdfDeviceAddRemovalRelationsPhysicalDevice, kmdf.wdfdeviceaddremovalrelationsphysicaldevice, wdf.wdfdeviceaddremovalrelationsphysicaldevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

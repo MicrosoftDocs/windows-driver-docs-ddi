@@ -88,7 +88,6 @@ Pointer to the buffer originally specified in the call to <a href="..\ks\nf-ks-k
 ### -param OPTIONAL
 
 
-
 ### -param Mdl [in, optional]
 
 Pointer to a memory descriptor list describing the injected frame as in the call to <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a><b>.</b>
@@ -112,22 +111,30 @@ Specifies the size in bytes of <i>Data</i> as originally specified in <a href=".
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
+
+
 <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
 
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
 
  
 

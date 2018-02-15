@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: GetKInterrupt, portcls/IInterruptSync::GetKInterrupt, IInterruptSync::GetKInterrupt, IInterruptSync interface [Audio Devices], GetKInterrupt method, GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices], IInterruptSync interface, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, IInterruptSync, audio.iinterruptsync_getkinterrupt
+ms.keywords: GetKInterrupt method [Audio Devices], IInterruptSync interface [Audio Devices], GetKInterrupt method, IInterruptSync::GetKInterrupt, audio.iinterruptsync_getkinterrupt, IInterruptSync, GetKInterrupt, portcls/IInterruptSync::GetKInterrupt, GetKInterrupt method [Audio Devices], IInterruptSync interface, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,15 +94,15 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
-
-
-
 <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
 
 

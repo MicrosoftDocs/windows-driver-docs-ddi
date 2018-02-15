@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 12261b88-681e-4623-b5af-abaae756e3e1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: RemoveSymbolByNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, debugger.removesymbolbynamewide, dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByNameWide method, IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide method [Windows Debugging]
+ms.keywords: RemoveSymbolByNameWide, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByNameWide method, RemoveSymbolByNameWide method [Windows Debugging], RemoveSymbolByNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::RemoveSymbolByNameWide, debugger.removesymbolbynamewide, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,6 +115,10 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
@@ -124,10 +128,6 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549121">GetSymbolName</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
 
 
 

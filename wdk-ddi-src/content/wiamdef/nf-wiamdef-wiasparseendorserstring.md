@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c724a4f5-55ef-413d-bd1a-9cd39d3e42f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasParseEndorserString function [Imaging Devices], wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiamdef/wiasParseEndorserString, image.wiasparseendorserstring, wiasParseEndorserString
+ms.keywords: wiamdef/wiasParseEndorserString, image.wiasparseendorserstring, wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

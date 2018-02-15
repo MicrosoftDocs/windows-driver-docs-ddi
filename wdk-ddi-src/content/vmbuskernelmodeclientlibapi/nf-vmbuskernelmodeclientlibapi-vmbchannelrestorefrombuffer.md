@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5A063585-AC45-44DF-BE21-FA1BB6283E6F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbchannelrestorefrombuffer, VmbChannelRestoreFromBuffer, vmbuskernelmodeclientlibapi/VmbChannelRestoreFromBuffer, VmbChannelRestoreFromBuffer function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelRestoreFromBuffer, VmbChannelRestoreFromBuffer function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelRestoreFromBuffer, netvista.vmbchannelrestorefrombuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

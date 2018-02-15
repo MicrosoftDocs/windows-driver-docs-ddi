@@ -91,9 +91,11 @@ VOID APIENTRY SetScissorRects(
 
 
 
-#### - hDevice [in]
+#### - ClearScissorRects [in]
 
- A handle to the display device (graphics context).
+ The number of render-target portions after the number of render-target portions that <i>NumScissorRects </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render-target portions (that is, when the Microsoft Direct3D runtime previously called <i>SetScissorRects</i>) and the new number of render-target portions. 
+
+Note that the number that <i>ClearScissorRects</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
 
 #### - NumScissorRects [in]
@@ -101,11 +103,9 @@ VOID APIENTRY SetScissorRects(
  The total number of render-target portions that the <i>pRects</i> parameter specifies. 
 
 
-#### - ClearScissorRects [in]
+#### - hDevice [in]
 
- The number of render-target portions after the number of render-target portions that <i>NumScissorRects </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render-target portions (that is, when the Microsoft Direct3D runtime previously called <i>SetScissorRects</i>) and the new number of render-target portions. 
-
-Note that the number that <i>ClearScissorRects</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
+ A handle to the display device (graphics context).
 
 
 #### - pRects [in]
@@ -157,11 +157,11 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

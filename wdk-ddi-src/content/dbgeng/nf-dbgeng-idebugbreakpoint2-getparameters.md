@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b0e2a3d-2a62-4a79-a4e1-03168277caec
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::GetParameters, IDebugBreakpoint2::GetParameters, ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, GetParameters, IDebugBreakpoint2 interface [Windows Debugging], GetParameters method, dbgeng/IDebugBreakpoint::GetParameters, dbgeng/IDebugBreakpoint2::GetParameters, IDebugBreakpoint interface [Windows Debugging], GetParameters method, IDebugBreakpoint2, IDebugBreakpoint, debugger.getparameters, GetParameters method [Windows Debugging], IDebugBreakpoint interface, GetParameters method [Windows Debugging], GetParameters method [Windows Debugging], IDebugBreakpoint2 interface
+ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetParameters method, GetParameters method [Windows Debugging], IDebugBreakpoint interface, GetParameters method [Windows Debugging], GetParameters, debugger.getparameters, ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, IDebugBreakpoint, dbgeng/IDebugBreakpoint::GetParameters, IDebugBreakpoint2, GetParameters method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::GetParameters, IDebugBreakpoint2::GetParameters, dbgeng/IDebugBreakpoint2::GetParameters, IDebugBreakpoint interface [Windows Debugging], GetParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

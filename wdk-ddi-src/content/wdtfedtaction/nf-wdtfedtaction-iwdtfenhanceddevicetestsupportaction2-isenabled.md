@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 7d75d8e7-1416-4075-bc75-b4d2cd4f65a5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IsEnabled, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsEnabled, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IsEnabled method, IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IsEnabled method [Windows Device Testing Framework], wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IsEnabled method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, dtf.iwdtfenhanceddevicetestsupportaction2_isenabled
+ms.keywords: IsEnabled method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, IsEnabled, IsEnabled method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IsEnabled method, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsEnabled, IWDTFEnhancedDeviceTestSupportAction2, dtf.iwdtfenhanceddevicetestsupportaction2_isenabled, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IWDTFEnhancedDeviceTestSupportAction2::IsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

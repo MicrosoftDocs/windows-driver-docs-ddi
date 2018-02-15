@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: poclass/PTHERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, PTHERMAL_COOLING_INTERFACE, THERMAL_DEVICE_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], poclass/THERMAL_COOLING_INTERFACE, _THERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, THERMAL_COOLING_INTERFACE
+ms.keywords: PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, THERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE, THERMAL_DEVICE_INTERFACE, kernel.thermal_cooling_interface, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], poclass/PTHERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], _THERMAL_COOLING_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -137,15 +137,11 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-
-
-<a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
-
-
-
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
 
 
 
@@ -153,7 +149,11 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 
 
@@ -161,11 +161,11 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
 
 
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
 
 
 

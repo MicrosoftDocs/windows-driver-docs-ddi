@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 177AF27E-3EBA-4D43-BAF2-11834784F762
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function [Buses], buses.ucm_connector_pd_conn_state_changed_params_init, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
+ms.keywords: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function [Buses], buses.ucm_connector_pd_conn_state_changed_params_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

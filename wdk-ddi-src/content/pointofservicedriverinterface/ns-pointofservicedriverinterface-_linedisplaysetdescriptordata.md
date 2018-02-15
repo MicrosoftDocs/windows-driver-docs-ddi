@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 60E2379E-BF42-4290-98AA-5E6E8DE0A922
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/LineDisplaySetDescriptorData, LineDisplaySetDescriptorData, PLineDisplaySetDescriptorData, PLineDisplaySetDescriptorData structure pointer, LineDisplaySetDescriptorData structure, _LineDisplaySetDescriptorData, pos.linedisplaysetdescriptordata, pointofservicedriverinterface/PLineDisplaySetDescriptorData
+ms.keywords: "_LineDisplaySetDescriptorData, LineDisplaySetDescriptorData, pointofservicedriverinterface/PLineDisplaySetDescriptorData, LineDisplaySetDescriptorData structure, pointofservicedriverinterface/LineDisplaySetDescriptorData, PLineDisplaySetDescriptorData, pos.linedisplaysetdescriptordata, PLineDisplaySetDescriptorData structure pointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

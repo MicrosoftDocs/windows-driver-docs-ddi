@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 2F89C886-99FF-4D6C-B52F-6422DB9E76AE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbRequestGetTarget, SpbRequestGetTarget method [Buses], SPB.spbrequestgettarget, spbcx/SpbRequestGetTarget
+ms.keywords: SPB.spbrequestgettarget, SpbRequestGetTarget, spbcx/SpbRequestGetTarget, SpbRequestGetTarget method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ The returned SPBTARGET handle is guaranteed to remain valid until the correspond
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 

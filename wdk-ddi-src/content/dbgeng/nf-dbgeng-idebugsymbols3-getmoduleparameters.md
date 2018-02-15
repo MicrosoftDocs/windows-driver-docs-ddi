@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetModuleParameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, dbgeng/IDebugSymbols3::GetModuleParameters, IDebugSymbols::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, dbgeng/IDebugSymbols2::GetModuleParameters, GetModuleParameters, IDebugSymbols3::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2, debugger.getmoduleparameters, dbgeng/IDebugSymbols::GetModuleParameters, IDebugSymbols, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml
+ms.keywords: IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, dbgeng/IDebugSymbols2::GetModuleParameters, GetModuleParameters method [Windows Debugging], GetModuleParameters method [Windows Debugging], IDebugSymbols interface, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetModuleParameters, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols::GetModuleParameters, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters, dbgeng/IDebugSymbols3::GetModuleParameters, IDebugSymbols, IDebugSymbols2, debugger.getmoduleparameters, dbgeng/IDebugSymbols::GetModuleParameters, IDebugSymbols3::GetModuleParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -144,19 +144,19 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

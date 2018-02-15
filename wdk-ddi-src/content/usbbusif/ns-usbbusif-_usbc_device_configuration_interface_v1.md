@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 86e8946f-f87f-40d4-bd02-6e4befe847e0
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], buses.usbc_device_configuration_interface_v1, usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses], usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1, _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1
+ms.keywords: USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml, usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, buses.usbc_device_configuration_interface_v1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses], _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,11 +117,11 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB structures</a>
-
-
-
 <a href="..\usbbusif\nc-usbbusif-usbc_start_device_callback.md">USBC_START_DEVICE_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB structures</a>
 
 
 

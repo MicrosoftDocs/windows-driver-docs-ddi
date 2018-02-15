@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 84bfec05-9d77-433e-bec2-ad188269fc61
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltApiRef_e_to_o_8e2110a7-bc7b-4a98-b094-c6a7a12e7900.xml, FltInitializeFileLock routine [Installable File System Drivers], fltkernel/FltInitializeFileLock, ifsk.fltinitializefilelock, FltInitializeFileLock
+ms.keywords: FltApiRef_e_to_o_8e2110a7-bc7b-4a98-b094-c6a7a12e7900.xml, FltInitializeFileLock, FltInitializeFileLock routine [Installable File System Drivers], ifsk.fltinitializefilelock, fltkernel/FltInitializeFileLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,19 +102,15 @@ To free an initialized <a href="https://msdn.microsoft.com/library/windows/hardw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltfreefilelock.md">FltFreeFileLock</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltuninitializefilelock.md">FltUninitializeFileLock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
 
 
 
@@ -126,11 +122,15 @@ To free an initialized <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforwriteaccess.md">FltCheckLockForWriteAccess</a>
 
 
 

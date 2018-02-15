@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 015c2e02-62aa-4037-9974-c8e4b8784fe5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: drvReadItemProperties method [Imaging Devices], MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties, image.iwiaminidrv_drvreaditemproperties, drvReadItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvReadItemProperties method, IWiaMiniDrv::drvReadItemProperties, IWiaMiniDrv
+ms.keywords: MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, IWiaMiniDrv, IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvReadItemProperties method, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvReadItemProperties, image.iwiaminidrv_drvreaditemproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,11 +99,6 @@ HRESULT drvReadItemProperties(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is reserved. Set to zero.
@@ -117,6 +112,11 @@ Indicates the number of items in the <i>pPropSpec</i> array.
 #### - pPropSpec [in]
 
 Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]
@@ -150,23 +150,7 @@ In this method, the minidriver should read the requested properties from the dev
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
 
 
 
@@ -178,7 +162,23 @@ In this method, the minidriver should read the requested properties from the dev
 
 
 
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+
+
+
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 

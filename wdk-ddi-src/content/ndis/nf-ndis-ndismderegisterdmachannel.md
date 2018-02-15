@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1581cbfd-bdab-40ed-9978-f60ec220c17a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterDmaChannel, dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterdmachannel, ndis/NdisMDeregisterDmaChannel
+ms.keywords: ndis/NdisMDeregisterDmaChannel, netvista.ndismderegisterdmachannel, dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], NdisMDeregisterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

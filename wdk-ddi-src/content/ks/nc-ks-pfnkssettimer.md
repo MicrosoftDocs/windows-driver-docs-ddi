@@ -121,7 +121,7 @@ The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
+<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
 
 
 
@@ -133,7 +133,7 @@ The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics a
 
 
 
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
 
 
 

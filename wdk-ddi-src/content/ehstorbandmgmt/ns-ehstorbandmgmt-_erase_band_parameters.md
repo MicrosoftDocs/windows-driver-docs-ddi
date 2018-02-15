@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.erase_band_parameters, ehstorbandmgmt/ERASE_BAND_PARAMETERS, _ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], ERASE_BAND_PARAMETERS structure [Storage Devices], ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED, PERASE_BAND_PARAMETERS
+ms.keywords: PERASE_BAND_PARAMETERS structure pointer [Storage Devices], ERASE_BAND_PARAMETERS structure [Storage Devices], ERASE_BAND_PARAMETERS, storage.erase_band_parameters, _ERASE_BAND_PARAMETERS, ehstorbandmgmt/ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED, *PERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -163,7 +163,7 @@ To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
 
 
 
@@ -171,7 +171,7 @@ To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
 
 

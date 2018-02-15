@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f5bb3af4-c687-47ad-88ce-d56067c78d6d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfworkitem/WdfWorkItemCreate, wdf.wdfworkitemcreate, kmdf.wdfworkitemcreate, WdfWorkItemCreate, PFN_WDFWORKITEMCREATE, WdfWorkItemCreate method, DFWorkItemObjectRef_0041ea62-aa06-4e8b-8f84-807731ecc516.xml
+ms.keywords: WdfWorkItemCreate method, wdf.wdfworkitemcreate, kmdf.wdfworkitemcreate, PFN_WDFWORKITEMCREATE, DFWorkItemObjectRef_0041ea62-aa06-4e8b-8f84-807731ecc516.xml, wdfworkitem/WdfWorkItemCreate, WdfWorkItemCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

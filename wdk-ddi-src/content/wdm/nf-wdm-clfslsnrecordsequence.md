@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 407675de-4a06-49f7-9b43-c48b4c84ac7e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfslsnrecordsequence, ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml, ClfsLsnRecordSequence, wdm/ClfsLsnRecordSequence
+ms.keywords: ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], kernel.clfslsnrecordsequence, ClfsLsnRecordSequence, wdm/ClfsLsnRecordSequence, Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

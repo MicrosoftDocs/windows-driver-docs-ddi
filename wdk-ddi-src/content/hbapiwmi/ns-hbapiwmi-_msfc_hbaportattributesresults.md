@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd6797a3-3128-4100-81f0-82e4d6f209b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msfc_hbaportattributesresults, PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], *PMSFC_HBAPortAttributesResults, hbapiwmi/MSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults, _MSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml
+ms.keywords: storage.msfc_hbaportattributesresults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml, MSFC_HBAPortAttributesResults, _MSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], hbapiwmi/PMSFC_HBAPortAttributesResults, hbapiwmi/MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

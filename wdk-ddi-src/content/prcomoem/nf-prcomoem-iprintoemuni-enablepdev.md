@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUni, IPrintOemUni::EnablePDEV, EnablePDEV, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, EnablePDEV method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::EnablePDEV, IPrintOemUni interface [Print Devices], EnablePDEV method, print.iprintoemuni_enablepdev, EnablePDEV method [Print Devices]
+ms.keywords: EnablePDEV method [Print Devices], IPrintOemUni interface, IPrintOemUni::EnablePDEV, EnablePDEV method [Print Devices], IPrintOemUni interface [Print Devices], EnablePDEV method, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, IPrintOemUni, EnablePDEV, print.iprintoemuni_enablepdev, prcomoem/IPrintOemUni::EnablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 32687aa7-4e14-40cb-baa3-4a97d834bf86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlAnsiStringToUnicodeSize, kernel.rtlansistringtounicodesize, k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture]
+ms.keywords: k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, wdm/RtlAnsiStringToUnicodeSize, kernel.rtlansistringtounicodesize, RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -95,11 +95,11 @@ Callers of <b>RtlAnsiStringToUnicodeSize</b> must be running at IRQL = PASSIVE_L
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlxansistringtounicodesize.md">RtlxAnsiStringToUnicodeSize</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
 
 
 

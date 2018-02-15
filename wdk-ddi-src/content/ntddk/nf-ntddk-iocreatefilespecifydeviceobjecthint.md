@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b7374625-6997-44db-b43b-748dab813fcd
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers], ifsk.iocreatefilespecifydeviceobjecthint, ntddk/IoCreateFileSpecifyDeviceObjectHint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, IoCreateFileSpecifyDeviceObjectHint
+ms.keywords: ifsk.iocreatefilespecifydeviceobjecthint, ntddk/IoCreateFileSpecifyDeviceObjectHint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -1016,19 +1016,23 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -1044,27 +1048,7 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
@@ -1072,7 +1056,23 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+
+
 <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

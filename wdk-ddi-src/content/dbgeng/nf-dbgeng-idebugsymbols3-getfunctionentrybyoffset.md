@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b1fa9fc-f033-4d93-a2ec-f31159d6a69d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetFunctionEntryByOffset, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, GetFunctionEntryByOffset, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, debugger.getfunctionentrybyoffset, IDebugSymbols3
+ms.keywords: GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3::GetFunctionEntryByOffset, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols3, debugger.getfunctionentrybyoffset, GetFunctionEntryByOffset, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -161,11 +161,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
 
 
 
@@ -173,7 +169,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
 
 
 

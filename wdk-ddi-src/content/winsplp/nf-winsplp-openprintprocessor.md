@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bab79fb6-1bb0-48ec-9d60-fcb6e679b758
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OpenPrintProcessor function [Print Devices], winsplp/OpenPrintProcessor, spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, OpenPrintProcessor, print.openprintprocessor
+ms.keywords: OpenPrintProcessor, print.openprintprocessor, winsplp/OpenPrintProcessor, spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, OpenPrintProcessor function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,11 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
+<a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
 
 
 
@@ -110,11 +114,7 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 
 
-<a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>
-
-
-
-<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+<a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
 
 
 

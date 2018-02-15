@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 54977838-381e-4c86-a6ca-646202fdc619
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateIoWorkItem, ndis/NdisAllocateIoWorkItem, netvista.ndisallocateioworkitem, ndis_work_items_ref_c227456a-4847-40db-b530-a772f4fd4dc3.xml, NdisAllocateIoWorkItem function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisAllocateIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateIoWorkItem, NdisAllocateIoWorkItem, ndis_work_items_ref_c227456a-4847-40db-b530-a772f4fd4dc3.xml, netvista.ndisallocateioworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -148,15 +148,15 @@ In general, a driver must free the work item before the driver unloads.
 
 
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
 
 
 
@@ -172,11 +172,11 @@ In general, a driver must free the work item before the driver unloads.
 
 
 
-<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

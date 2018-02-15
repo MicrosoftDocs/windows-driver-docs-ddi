@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0e634e0-f0b4-49a7-9df5-7af0842154f4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_a527fbb6-bb60-4051-9983-e960d9406abe.xml, wdm/KeInsertDeviceQueue, kernel.keinsertdevicequeue, KeInsertDeviceQueue routine [Kernel-Mode Driver Architecture], KeInsertDeviceQueue
+ms.keywords: KeInsertDeviceQueue, KeInsertDeviceQueue routine [Kernel-Mode Driver Architecture], kernel.keinsertdevicequeue, k105_a527fbb6-bb60-4051-9983-e960d9406abe.xml, wdm/KeInsertDeviceQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,11 +107,11 @@ This routine is for code that queues an I/O request to a device driver.
 
 
 
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
 
 
 

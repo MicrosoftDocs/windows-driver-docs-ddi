@@ -115,6 +115,7 @@ The offload target must supply the following status value:
 
 
 
+
 #### NDIS_STATUS_SUCCESS
 
 This indicates that the host stack can retain ownership of the NET_BUFFER_LIST structures and
@@ -132,8 +133,10 @@ A pointer to a ULONG-typed variable that receives the number of bytes that were 
 ## -returns
 
 
+
 The 
      <b>NdisTcpOffloadReceiveHandler</b> function can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -174,11 +177,14 @@ The client application consumed a subset of the indicated receive data. The amou
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Receive buffers are posted to the 
@@ -194,6 +200,7 @@ All receive requests must be completed by the offload target (even if they are z
 
 After an offload target has indicated receive data and that data has been refused, the offload target
     cannot indicate that data again until the host stack posts a receive request:
+
 <ul>
 <li>
 Normal receive requests
@@ -213,7 +220,8 @@ The host stack can post a zero-byte receive request to enable receive indication
       zero-byte receive request does not consume any buffered data.
 
 </li>
-</ul>During initialization, the offload target should allocate two pools of buffers, each of which contains
+</ul>
+During initialization, the offload target should allocate two pools of buffers, each of which contains
     NET_BUFFER_LIST structures and NET_BUFFER structures. The offload target uses one pool for making receive
     indications through the TCP chimney when calling the 
     <b>
@@ -238,6 +246,7 @@ The offload target always supplies a
     <b>NdisTcpOffloadReceiveHandler</b> function. This indicates that the host stack can retain ownership of
     the NET_BUFFER_LIST structures and associated structures until it returns these structures to the offload
     target.
+
 <ul>
 <li>
 If the host stack returns NDIS_STATUS_SUCCESS, indicating that the client application accepted and
@@ -274,7 +283,8 @@ If the host stack returns NDIS_STATUS_OFFLOAD_DATA_PARTIALLY_ACCEPTED, indicatin
       anticipation that the client application will post the receive buffers on the connection.
 
 </li>
-</ul>Note that the offload target never supplies a 
+</ul>
+Note that the offload target never supplies a 
     <i>Status</i> value of NDIS_STATUS_RESOURCES when calling the 
     <b>NdisTcpOffloadReceiveHandler</b> function.
 
@@ -287,22 +297,37 @@ In the
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
    MiniportTcpOffloadReceiveReturn</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
  
 

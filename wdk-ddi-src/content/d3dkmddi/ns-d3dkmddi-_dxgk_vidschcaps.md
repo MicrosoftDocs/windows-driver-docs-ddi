@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 714741b5-aec1-4d79-8199-00e8d97e6637
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_VIDSCHCAPS, DXGK_VIDSCHCAPS structure [Display Devices], display.dxgk_vidschcaps, d3dkmddi/DXGK_VIDSCHCAPS, _DXGK_VIDSCHCAPS, DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml
+ms.keywords: d3dkmddi/DXGK_VIDSCHCAPS, _DXGK_VIDSCHCAPS, display.dxgk_vidschcaps, DXGK_VIDSCHCAPS, DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml, DXGK_VIDSCHCAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -221,15 +221,11 @@ A member in the union that DXGK_VIDSCHCAPS contains that can hold a 32-bit value
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
 
 
@@ -237,15 +233,19 @@ A member in the union that DXGK_VIDSCHCAPS contains that can hold a 32-bit value
 
 
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroycontext.md">DxgkDdiDestroyContext</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
 
 

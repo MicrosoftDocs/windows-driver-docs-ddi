@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 954DE5B5-F08F-4805-8CA0-8C42CB1750FA
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT, _WWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], WWAN_NETWORK_IDLE_HINT, netvista.wwan_network_idle_hint, wwan/WWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT
+ms.keywords: PWWAN_NETWORK_IDLE_HINT, netvista.wwan_network_idle_hint, wwan/WWAN_NETWORK_IDLE_HINT, *PWWAN_NETWORK_IDLE_HINT, _WWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8E52A10E-5666-41B5-B342-491E5AF9DD38
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.iminiportwavertoutputstream_getoutputstreampresentationposition, IMiniportWaveRTOutputStream interface [Audio Devices], GetOutputStreamPresentationPosition method, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition method [Audio Devices], IMiniportWaveRTOutputStream interface, GetOutputStreamPresentationPosition
+ms.keywords: GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream, audio.iminiportwavertoutputstream_getoutputstreampresentationposition, GetOutputStreamPresentationPosition method [Audio Devices], IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, GetOutputStreamPresentationPosition method [Audio Devices], IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices], GetOutputStreamPresentationPosition method, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

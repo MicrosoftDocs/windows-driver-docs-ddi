@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 40abbdf8-3712-4724-8aef-16c247780c86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoAllocateIrp, kernel.ioallocateirp, wdm/IoAllocateIrp, k104_326eb80d-9bc3-4a91-9f33-710f7975808a.xml, IoAllocateIrp routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_326eb80d-9bc3-4a91-9f33-710f7975808a.xml, IoAllocateIrp, IoAllocateIrp routine [Kernel-Mode Driver Architecture], kernel.ioallocateirp, wdm/IoAllocateIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,11 +105,7 @@ An intermediate or highest-level driver also can call <a href="..\wdm\nf-wdm-iob
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -117,19 +113,7 @@ An intermediate or highest-level driver also can call <a href="..\wdm\nf-wdm-iob
 
 
 
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 
@@ -137,7 +121,23 @@ An intermediate or highest-level driver also can call <a href="..\wdm\nf-wdm-iob
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
 
 
 

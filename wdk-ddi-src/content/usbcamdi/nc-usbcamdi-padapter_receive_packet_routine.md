@@ -40,7 +40,7 @@ apiname:
 -	AdapterReceivePacket
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -76,20 +76,26 @@ Specifies the SRB to be processed by the camera minidriver.
 ## -returns
 
 
+
 <i>AdapterReceivePacket</i> does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 A camera's minidriver provides USBCAMD with the address of its <i>AdapterReceivePacket</i> function that processes SRBs in its call to the <b>USBCAMD_DriverEntry</b> service.
+
 
 
 
 ## -see-also
 
 <a href="..\usbcamdi\nf-usbcamdi-usbcamd_driverentry.md">USBCAMD_DriverEntry</a>
+
+
 
  
 

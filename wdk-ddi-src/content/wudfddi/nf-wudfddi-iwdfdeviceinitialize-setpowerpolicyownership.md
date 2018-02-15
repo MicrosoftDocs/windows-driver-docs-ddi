@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18b0b277-97c8-4aff-9f09-34822ce84290
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, wdf.iwdfdeviceinitialize_setpowerpolicyownership, SetPowerPolicyOwnership method, umdf.iwdfdeviceinitialize_setpowerpolicyownership, SetPowerPolicyOwnership, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, IWDFDeviceInitialize, IWDFDeviceInitialize::SetPowerPolicyOwnership, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership
+ms.keywords: SetPowerPolicyOwnership method, IWDFDeviceInitialize, IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, umdf.iwdfdeviceinitialize_setpowerpolicyownership, wdf.iwdfdeviceinitialize_setpowerpolicyownership, IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

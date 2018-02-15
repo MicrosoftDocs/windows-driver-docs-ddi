@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: QueryBankPowerInformation, QuerySetRequestMaximumType, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QuerySetRequestMaximumType, GPIO.client_controller_query_set_request_type, gpioclx/QueryBankPowerInformation, gpioclx/QueryBankInterruptBindingInformation, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QueryControllerFunctionBankMappingInformation, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryControllerFunctionBankMappingInformation, QueryBankInterruptBindingInformation
+ms.keywords: gpioclx/QueryBankInterruptBindingInformation, QueryControllerFunctionBankMappingInformation, QueryBankInterruptBindingInformation, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], QuerySetRequestMaximumType, gpioclx/QueryBankPowerInformation, gpioclx/QueryControllerFunctionBankMappingInformation, GPIO.client_controller_query_set_request_type, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, *PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, QueryBankPowerInformation, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QuerySetRequestMaximumType, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,15 +101,15 @@ The <b>RequestType</b> member of the <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698238">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: e07c6246-f6f8-4335-9b2c-ae6c2673e188
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SkipRestart property [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart, dtf.iwdtfenhanceddevicetestsupportaction2_skiprestart, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], SkipRestart property, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, IWDTFEnhancedDeviceTestSupportAction2, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.SkipRestart, IWDTFEnhancedDeviceTestSupportAction2.SkipRestart, SkipRestart property [Windows Device Testing Framework], put_SkipRestart, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart
+ms.keywords: IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart, dtf.iwdtfenhanceddevicetestsupportaction2_skiprestart, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.SkipRestart, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], SkipRestart property, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, put_SkipRestart, IWDTFEnhancedDeviceTestSupportAction2.SkipRestart, SkipRestart property [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, IWDTFEnhancedDeviceTestSupportAction2, SkipRestart property [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 881a52d1-8e37-4474-a943-086ef5ceca80
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, _DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], display.dd_getformatdata, d3dhal/DD_GETFORMATDATA, DD_GETFORMATDATA
+ms.keywords: "_DD_GETFORMATDATA, DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], d3dhal/DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, display.dd_getformatdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ When processing this <b>GetDriverInfo2</b> request the driver should read the <b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 

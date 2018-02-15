@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb36b3e9-c17b-4c15-b1ad-b93f71f43cd5
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlCopyRead routine [Installable File System Drivers], ifsk.fsrtlcopyread, ntifs/FsRtlCopyRead, fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, FsRtlCopyRead
+ms.keywords: FsRtlCopyRead, FsRtlCopyRead routine [Installable File System Drivers], ifsk.fsrtlcopyread, ntifs/FsRtlCopyRead, fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,7 +165,7 @@ To cache a file, use the <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcI
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
 
 
 
@@ -173,7 +173,7 @@ To cache a file, use the <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcI
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 

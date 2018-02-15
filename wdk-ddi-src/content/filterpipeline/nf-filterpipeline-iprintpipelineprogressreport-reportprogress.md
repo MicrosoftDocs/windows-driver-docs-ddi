@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 989e8888-3494-4355-a41f-2ed774a060d2
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ReportProgress method [Print Devices], filterpipeline/IPrintPipelineProgressReport::ReportProgress, ReportProgress, IPrintPipelineProgressReport interface [Print Devices], ReportProgress method, IPrintPipelineProgressReport::ReportProgress, print.iprintpipelineprogressreport_reportprogress, filterpipeline_3f4798ee-db6e-42ab-9eb8-fb016920fd08.xml, ReportProgress method [Print Devices], IPrintPipelineProgressReport interface, IPrintPipelineProgressReport
+ms.keywords: IPrintPipelineProgressReport, print.iprintpipelineprogressreport_reportprogress, filterpipeline_3f4798ee-db6e-42ab-9eb8-fb016920fd08.xml, filterpipeline/IPrintPipelineProgressReport::ReportProgress, ReportProgress method [Print Devices], IPrintPipelineProgressReport interface, IPrintPipelineProgressReport interface [Print Devices], ReportProgress method, ReportProgress method [Print Devices], IPrintPipelineProgressReport::ReportProgress, ReportProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

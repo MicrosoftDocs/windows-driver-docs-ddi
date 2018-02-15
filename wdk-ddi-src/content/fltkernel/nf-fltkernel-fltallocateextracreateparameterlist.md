@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0130e35f-a6a8-4fa9-9922-1d1d0f43cb2a
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltAllocateExtraCreateParameterList, ifsk.fltallocateextracreateparameterlist, FltAllocateExtraCreateParameterList routine [Installable File System Drivers], FltApiRef_a_to_d_9caf46c0-e0bb-4a0a-b9dd-f4005664b9ca.xml, fltkernel/FltAllocateExtraCreateParameterList
+ms.keywords: fltkernel/FltAllocateExtraCreateParameterList, FltAllocateExtraCreateParameterList routine [Installable File System Drivers], FltAllocateExtraCreateParameterList, ifsk.fltallocateextracreateparameterlist, FltApiRef_a_to_d_9caf46c0-e0bb-4a0a-b9dd-f4005664b9ca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,11 +149,23 @@ If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is used with the <i>Flags</
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 
 
@@ -165,11 +177,7 @@ If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is used with the <i>Flags</
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
 
@@ -177,19 +185,11 @@ If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is used with the <i>Flags</
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
 
 
 

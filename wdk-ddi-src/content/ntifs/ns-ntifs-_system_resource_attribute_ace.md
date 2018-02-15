@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: E4A6A738-F7AB-4EA2-8CC6-E1F595F35870
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/SYSTEM_RESOURCE_ATTRIBUTE_ACE, *PSYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Installable File System Drivers], PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Installable File System Drivers], ntifs/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, ifsk.system_resource_attribute_ace, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE, _SYSTEM_RESOURCE_ATTRIBUTE_ACE
+ms.keywords: PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Installable File System Drivers], SYSTEM_RESOURCE_ATTRIBUTE_ACE, ntifs/SYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, ntifs/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Installable File System Drivers], ifsk.system_resource_attribute_ace, *PSYSTEM_RESOURCE_ATTRIBUTE_ACE, _SYSTEM_RESOURCE_ATTRIBUTE_ACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,15 +95,15 @@ Following the <b>SidStart</b> member begins a <b>CLAIM_SECURITY_ATTRIBUTE_RELATI
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 

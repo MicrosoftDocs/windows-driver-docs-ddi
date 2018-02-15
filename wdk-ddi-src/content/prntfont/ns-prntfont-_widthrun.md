@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 18cc608e-b94d-4588-98e9-c22a7949a3b6
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PWIDTHRUN, prntfont/PWIDTHRUN, print.widthrun, WIDTHRUN, prntfont/WIDTHRUN, PWIDTHRUN structure pointer [Print Devices], _WIDTHRUN, *PWIDTHRUN, WIDTHRUN structure [Print Devices], print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml
+ms.keywords: prntfont/PWIDTHRUN, WIDTHRUN structure [Print Devices], WIDTHRUN, *PWIDTHRUN, prntfont/WIDTHRUN, PWIDTHRUN, PWIDTHRUN structure pointer [Print Devices], _WIDTHRUN, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, print.widthrun
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

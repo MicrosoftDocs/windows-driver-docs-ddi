@@ -110,11 +110,11 @@ The Microsoft Direct3D runtime maps <b>BeginScene</b> and <b>EndScene</b> calls 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_renderstate.md">D3DDDIARG_RENDERSTATE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 

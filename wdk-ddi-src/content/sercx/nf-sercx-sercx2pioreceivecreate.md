@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: DFD953F7-06DF-4FBD-8BEC-3A15943D6462
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], SerCx2PioReceiveCreate, serports.sercx2pioreceivecreate
+ms.keywords: 2/SerCx2PioReceiveCreate, SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], serports.sercx2pioreceivecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,11 +171,19 @@ For more information about creating PIO-receive objects, see <a href="https://do
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a>
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -187,23 +195,15 @@ For more information about creating PIO-receive objects, see <a href="https://do
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
 <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
-
-
-
-<a href="..\sercx\ns-sercx-_sercx2_pio_receive_config.md">SERCX2_PIO_RECEIVE_CONFIG</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b79f58bb-af94-4143-9e30-6f50d85cbb3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, ClfsAlignReservedLog, wdm/ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], kernel.clfsalignreservedlog
+ms.keywords: wdm/ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], kernel.clfsalignreservedlog, Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, ClfsAlignReservedLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

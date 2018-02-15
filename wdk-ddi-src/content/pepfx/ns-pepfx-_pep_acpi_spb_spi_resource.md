@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 75CD5462-8382-4E83-ADC1-3E1B811A0D60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_SPB_SPI_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_SPI_RESOURCE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_spb_spi_resource, PEP_ACPI_SPB_SPI_RESOURCE, pepfx/PPEP_ACPI_SPB_SPI_RESOURCE, PPEP_ACPI_SPB_SPI_RESOURCE, _PEP_ACPI_SPB_SPI_RESOURCE, *PPEP_ACPI_SPB_SPI_RESOURCE, pepfx/PEP_ACPI_SPB_SPI_RESOURCE
+ms.keywords: PPEP_ACPI_SPB_SPI_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_SPI_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE, _PEP_ACPI_SPB_SPI_RESOURCE, PPEP_ACPI_SPB_SPI_RESOURCE, kernel.pep_acpi_spb_spi_resource, *PPEP_ACPI_SPB_SPI_RESOURCE, pepfx/PEP_ACPI_SPB_SPI_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

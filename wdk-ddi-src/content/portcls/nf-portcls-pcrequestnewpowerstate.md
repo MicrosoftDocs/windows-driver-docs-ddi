@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fbe2c665-a7e8-43e4-95e5-a7e87521e163
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: portcls/PcRequestNewPowerState, PcRequestNewPowerState, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, audio.pcrequestnewpowerstate, PcRequestNewPowerState function [Audio Devices]
+ms.keywords: audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], portcls/PcRequestNewPowerState, audio.pcrequestnewpowerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

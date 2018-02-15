@@ -73,7 +73,6 @@ VOID APIENTRY* PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param Count
 
 The count.
@@ -97,6 +96,8 @@ The command list.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

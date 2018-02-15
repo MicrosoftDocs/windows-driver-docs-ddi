@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7edbe37b-ea45-4d37-908c-25c840e4cd74
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_STREAM structure [Display Devices], display.d3d11_1ddi_video_processor_stream, D3D11_1DDI_VIDEO_PROCESSOR_STREAM
+ms.keywords: display.d3d11_1ddi_video_processor_stream, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STREAM, D3D11_1DDI_VIDEO_PROCESSOR_STREAM structure [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_STREAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -163,11 +163,11 @@ If the stereo 3-D format is <b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_SEPARATE
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat.md">VideoProcessorSetStreamStereoFormat</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 
 
 

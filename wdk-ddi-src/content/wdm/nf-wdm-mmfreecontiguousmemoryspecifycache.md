@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5958dd7-b287-4f0d-8677-75d850885262
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], kernel.mmfreecontiguousmemoryspecifycache, wdm/MmFreeContiguousMemorySpecifyCache, MmFreeContiguousMemorySpecifyCache, k106_256e3525-d48d-4045-872c-2e2fd6302525.xml
+ms.keywords: MmFreeContiguousMemorySpecifyCache, k106_256e3525-d48d-4045-872c-2e2fd6302525.xml, kernel.mmfreecontiguousmemoryspecifycache, MmFreeContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], wdm/MmFreeContiguousMemorySpecifyCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

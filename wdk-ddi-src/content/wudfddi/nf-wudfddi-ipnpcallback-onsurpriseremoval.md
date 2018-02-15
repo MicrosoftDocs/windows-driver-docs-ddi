@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnSurpriseRemoval method, OnSurpriseRemoval method, IPnpCallback interface, wudfddi/IPnpCallback::OnSurpriseRemoval, wdf.ipnpcallback_onsurpriseremoval, umdf.ipnpcallback_onsurpriseremoval, IPnpCallback::OnSurpriseRemoval, IPnpCallback, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, OnSurpriseRemoval, IPnpCallback interface, OnSurpriseRemoval method
+ms.keywords: wudfddi/IPnpCallback::OnSurpriseRemoval, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval, wdf.ipnpcallback_onsurpriseremoval, IPnpCallback, OnSurpriseRemoval method, IPnpCallback interface, umdf.ipnpcallback_onsurpriseremoval, IPnpCallback interface, OnSurpriseRemoval method, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, OnSurpriseRemoval method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,7 +99,7 @@ For more information about when the framework calls this callback function, and 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
 
 
@@ -107,7 +107,7 @@ For more information about when the framework calls this callback function, and 
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

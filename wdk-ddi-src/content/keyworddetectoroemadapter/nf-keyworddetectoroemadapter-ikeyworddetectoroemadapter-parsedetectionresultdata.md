@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 97C92A85-BE00-4B95-80D1-20FE7A31BCA9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices], ParseDetectionResultData method, IKeywordDetectorOemAdapter, ParseDetectionResultData method [Audio Devices], audio.ikeyworddetectoroemadapter_parsedetectionresultdata, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData
+ms.keywords: audio.ikeyworddetectoroemadapter_parsedetectionresultdata, IKeywordDetectorOemAdapter::ParseDetectionResultData, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData, IKeywordDetectorOemAdapter, ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices], ParseDetectionResultData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,11 +111,9 @@ Indicates if the user matched.
 
 
 
-#### - ModelData [in]
+#### - KeywordEndPerformanceCounter [out]
 
-A pointer to <b>IStream</b> bound to model data for the arming pattern.
-
-
+Optionally returns the end time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
 
 
 #### - KeywordStartPerformanceCounter [out]
@@ -123,9 +121,11 @@ A pointer to <b>IStream</b> bound to model data for the arming pattern.
 Optionally returns the start time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
 
 
-#### - KeywordEndPerformanceCounter [out]
+#### - ModelData [in]
 
-Optionally returns the end time of the keyword in terms of the Windows performance counter. The OEMDLL should return 0 if this is not available.
+A pointer to <b>IStream</b> bound to model data for the arming pattern.
+
+
 
 
 ## -returns
@@ -224,7 +224,7 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
 
 
@@ -232,11 +232,11 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 
-<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
-
-
-
 <a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
 
 
 

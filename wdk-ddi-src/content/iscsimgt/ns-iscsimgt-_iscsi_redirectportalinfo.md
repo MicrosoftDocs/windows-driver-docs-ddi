@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 90d9c5e9-4bdf-4c7a-b5ac-54e1f94818bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSI_RedirectPortalInfo, iscsimgt/ISCSI_RedirectPortalInfo, structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml, _ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo structure [Storage Devices], *PISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], iscsimgt/PISCSI_RedirectPortalInfo, storage.iscsi_redirectportalinfo
+ms.keywords: ISCSI_RedirectPortalInfo structure [Storage Devices], structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml, iscsimgt/PISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], storage.iscsi_redirectportalinfo, PISCSI_RedirectPortalInfo, *PISCSI_RedirectPortalInfo, iscsimgt/ISCSI_RedirectPortalInfo, _ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,11 +110,11 @@ This value is <b>true</b> if redirection is temporary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

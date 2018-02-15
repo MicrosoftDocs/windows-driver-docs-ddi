@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 693CB919-A1D1-4A82-ABE5-2362431A9B92
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3::GetSystemByServer, GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, dbgeng/IDebugSystemObjects3::GetSystemByServer, IDebugSystemObjects3, GetSystemByServer method [Windows Debugging]
+ms.keywords: IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3::GetSystemByServer, IDebugSystemObjects3, dbgeng/IDebugSystemObjects3::GetSystemByServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -126,11 +126,11 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 

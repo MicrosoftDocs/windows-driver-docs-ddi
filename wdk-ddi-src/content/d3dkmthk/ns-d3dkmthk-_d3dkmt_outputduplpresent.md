@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1820e11c-0888-4d6d-aa75-b895c863eb43
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent, _D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices]
+ms.keywords: "_D3DKMT_OUTPUTDUPLPRESENT, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], D3DKMT_OUTPUTDUPLPRESENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

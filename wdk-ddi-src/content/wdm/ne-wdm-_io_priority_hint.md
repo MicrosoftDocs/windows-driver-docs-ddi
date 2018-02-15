@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38d19398-b34f-4934-b643-df119ebd9711
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoPriorityNormal, IoPriorityCritical, kernel.io_priority_hint, wdm/IoPriorityNormal, wdm/IoPriorityCritical, wdm/MaxIoPriorityTypes, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], wdm/IoPriorityLow, IoPriorityLow, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, wdm/IoPriorityHigh, MaxIoPriorityTypes, IoPriorityVeryLow, _IO_PRIORITY_HINT, wdm/IoPriorityVeryLow, wdm/IO_PRIORITY_HINT, IoPriorityHigh, IO_PRIORITY_HINT
+ms.keywords: MaxIoPriorityTypes, IoPriorityCritical, IO_PRIORITY_HINT, wdm/IoPriorityVeryLow, wdm/IoPriorityLow, _IO_PRIORITY_HINT, wdm/MaxIoPriorityTypes, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], IoPriorityVeryLow, wdm/IoPriorityNormal, wdm/IoPriorityCritical, wdm/IoPriorityHigh, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, IoPriorityLow, wdm/IO_PRIORITY_HINT, kernel.io_priority_hint, IoPriorityHigh, IoPriorityNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

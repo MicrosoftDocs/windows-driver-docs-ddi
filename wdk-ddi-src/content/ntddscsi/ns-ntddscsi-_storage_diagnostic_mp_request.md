@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1F2B15A6-7C05-4FBA-B54F-EEF013FF5739
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], storage.storage_diagnostic_mp_request, ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], _STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
+ms.keywords: ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], storage.storage_diagnostic_mp_request, STORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], _STORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,7 +118,7 @@ Specifies the Diagnostic data buffer.
 
 ## -see-also
 
-<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_diagnostic.md">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
 
 
 
@@ -126,7 +126,7 @@ Specifies the Diagnostic data buffer.
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_diagnostic.md">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
+<a href="..\ntddstor\ne-ntddstor-_storage_diagnostic_target_type.md">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
 
 
 

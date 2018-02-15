@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: "*PCPSUICBPARAM, compstui/CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], CPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, _CPSUICBPARAM, compstui/PCPSUICBPARAM, PCPSUICBPARAM, print.cpsuicbparam"
+ms.keywords: CPSUICBPARAM structure [Print Devices], *PCPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], CPSUICBPARAM, PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, _CPSUICBPARAM, compstui/CPSUICBPARAM, print.cpsuicbparam, compstui/PCPSUICBPARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

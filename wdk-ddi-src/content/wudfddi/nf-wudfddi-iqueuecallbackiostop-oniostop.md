@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: baa48d1b-b7da-4f89-b2e8-9a9ae2086527
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFQueueObjectRef_5de69aa4-be79-45c4-9ee4-1628741ca249.xml, wudfddi/IQueueCallbackIoStop::OnIoStop, IQueueCallbackIoStop::OnIoStop, OnIoStop method, IQueueCallbackIoStop interface, IQueueCallbackIoStop, wdf.iqueuecallbackiostop_oniostop, IQueueCallbackIoStop interface, OnIoStop method, umdf.iqueuecallbackiostop_oniostop, OnIoStop method, OnIoStop
+ms.keywords: OnIoStop method, IQueueCallbackIoStop, wudfddi/IQueueCallbackIoStop::OnIoStop, umdf.iqueuecallbackiostop_oniostop, IQueueCallbackIoStop interface, OnIoStop method, wdf.iqueuecallbackiostop_oniostop, OnIoStop method, IQueueCallbackIoStop interface, IQueueCallbackIoStop::OnIoStop, OnIoStop, UMDFQueueObjectRef_5de69aa4-be79-45c4-9ee4-1628741ca249.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,15 +117,11 @@ If the <b>WdfRequestStopRequestCancelable</b> flag is set in the <i>ActionFlags<
 
 ## -see-also
 
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_stop_action_flags.md">WDF_REQUEST_STOP_ACTION_FLAGS</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559051">IWDFIoRequest2::StopAcknowledge</a>
 
 
 
@@ -133,11 +129,15 @@ If the <b>WdfRequestStopRequestCancelable</b> flag is set in the <i>ActionFlags<
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559051">IWDFIoRequest2::StopAcknowledge</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackiostop.md">IQueueCallbackIoStop</a>
-
-
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_stop_action_flags.md">WDF_REQUEST_STOP_ACTION_FLAGS</a>
 
 
 

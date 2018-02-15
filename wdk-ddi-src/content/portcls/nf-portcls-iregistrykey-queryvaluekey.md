@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6339a8bf-ab32-48bc-aae6-2cce2a6a648d
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IRegistryKey interface [Audio Devices], QueryValueKey method, QueryValueKey method [Audio Devices], IRegistryKey interface, portcls/IRegistryKey::QueryValueKey, audio.iregistrykey_queryvaluekey, IRegistryKey, QueryValueKey method [Audio Devices], audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, QueryValueKey, IRegistryKey::QueryValueKey
+ms.keywords: QueryValueKey method [Audio Devices], IRegistryKey interface, audio.iregistrykey_queryvaluekey, IRegistryKey, IRegistryKey::QueryValueKey, portcls/IRegistryKey::QueryValueKey, audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, QueryValueKey, QueryValueKey method [Audio Devices], IRegistryKey interface [Audio Devices], QueryValueKey method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -164,10 +164,6 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
 
@@ -181,6 +177,10 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 
 <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 

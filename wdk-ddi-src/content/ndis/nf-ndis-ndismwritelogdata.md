@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, netvista.ndismwritelogdata, NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteLogData
+ms.keywords: ndis/NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], netvista.ndismwritelogdata, NdisMWriteLogData, miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,19 +161,12 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 
@@ -182,8 +175,15 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 

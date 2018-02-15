@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b953c73-a033-465a-a041-7c21ee307c32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure [Display Devices], _D3DDDIARG_DESTROYAUTHENICATEDCHANNEL, display.d3dddiarg_destroyauthenticatedchannel, UMDisplayDriver_param_Structs_be6187b3-2d01-450e-90a7-d01a97aba764.xml, d3dumddi/D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL, D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL
+ms.keywords: D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL, d3dumddi/D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL, D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure [Display Devices], _D3DDDIARG_DESTROYAUTHENICATEDCHANNEL, UMDisplayDriver_param_Structs_be6187b3-2d01-450e-90a7-d01a97aba764.xml, display.d3dddiarg_destroyauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

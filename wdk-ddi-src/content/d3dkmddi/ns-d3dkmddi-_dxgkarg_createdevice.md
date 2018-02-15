@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d20349-4039-4a5d-a1fd-0488148c623d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_CREATEDEVICE, _DXGKARG_CREATEDEVICE, *INOUT_PDXGKARG_CREATEDEVICE, display.dxgkarg_createdevice, d3dkmddi/DXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, DXGKARG_CREATEDEVICE structure [Display Devices]
+ms.keywords: "*INOUT_PDXGKARG_CREATEDEVICE, display.dxgkarg_createdevice, d3dkmddi/DXGKARG_CREATEDEVICE, _DXGKARG_CREATEDEVICE, DmStructs_76bb50f9-b0d8-415c-b183-ad780ebcabc6.xml, DXGKARG_CREATEDEVICE, DXGKARG_CREATEDEVICE structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,11 +112,11 @@ Supported starting with Windows 10.
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createdeviceflags.md">DXGK_CREATEDEVICEFLAGS</a>
 
 
 

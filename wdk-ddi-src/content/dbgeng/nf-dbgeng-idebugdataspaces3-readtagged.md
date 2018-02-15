@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d7ca67d2-7156-44f7-ab16-178e6307e412
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, IDebugDataSpaces4::ReadTagged, dbgeng/IDebugDataSpaces3::ReadTagged, debugger.readtagged, ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, ReadTagged method [Windows Debugging], ReadTagged, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3
+ms.keywords: ReadTagged method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadTagged, ReadTagged, IDebugDataSpaces3, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, dbgeng/IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, debugger.readtagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::ReadTagged, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -149,11 +149,11 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 

@@ -88,9 +88,9 @@ NTSTATUS QueryBusInformation(
 Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
-#### - Level [in]
+#### - BusInformationActualLength [out, optional]
 
-Specifies the level of information to be returned. If <i>Level</i> is 0, the function returns the total bandwidth and the total consumed bandwidth in bits per second. If <i>Level</i> is 1, the function returns the symbolic name of the controller in Unicode, in addition to the total bandwidth and the total consumed bandwidth. 
+Specifies the length of the output data. 
 
 
 #### - BusInformationBuffer [in, out]
@@ -103,9 +103,9 @@ Pointer to a buffer that receives the requested bus information.
 On input, the length of the buffer specified by <i>BusInformationBuffer</i>. On output, the length of the output data. 
 
 
-#### - BusInformationActualLength [out, optional]
+#### - Level [in]
 
-Specifies the length of the output data. 
+Specifies the level of information to be returned. If <i>Level</i> is 0, the function returns the total bandwidth and the total consumed bandwidth in bits per second. If <i>Level</i> is 1, the function returns the symbolic name of the controller in Unicode, in addition to the total bandwidth and the total consumed bandwidth. 
 
 
 ## -returns
@@ -172,15 +172,15 @@ The function definition that is provided on this reference page is an example ro
 
 ## -see-also
 
+<a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a>
+
+
+
 <a href="..\usbbusif\ns-usbbusif-_usb_bus_information_level_0.md">USB_BUS_INFORMATION_LEVEL_0</a>
 
 
 
 <a href="..\usbbusif\ns-usbbusif-_usb_bus_information_level_1.md">USB_BUS_INFORMATION_LEVEL_1</a>
-
-
-
-<a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a>
 
 
 

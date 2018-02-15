@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SendNotification method [Audio Devices], IPortClsNotifications interface, SendNotification method [Audio Devices], audio.iportclsnotifications_sendnotification, SendNotification, portcls/IPortClsNotifications::SendNotification, IPortClsNotifications interface [Audio Devices], SendNotification method, IPortClsNotifications, IPortClsNotifications::SendNotification
+ms.keywords: SendNotification method [Audio Devices], IPortClsNotifications interface, SendNotification, IPortClsNotifications, audio.iportclsnotifications_sendnotification, SendNotification method [Audio Devices], IPortClsNotifications::SendNotification, portcls/IPortClsNotifications::SendNotification, IPortClsNotifications interface [Audio Devices], SendNotification method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

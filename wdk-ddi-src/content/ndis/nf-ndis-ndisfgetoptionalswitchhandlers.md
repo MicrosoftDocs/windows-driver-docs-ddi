@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bf034ecd-5c1b-4117-a7b0-bcca3971386b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfgetoptionalswitchhandlers, ndis/NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], NdisFGetOptionalSwitchHandlers
+ms.keywords: NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], netvista.ndisfgetoptionalswitchhandlers, ndis/NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

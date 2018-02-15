@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d423861-4c4d-45f2-bc44-b7cf1b230458
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfcontroldeviceinitallocate, DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, wdf.wdfcontroldeviceinitallocate, PFN_WDFCONTROLDEVICEINITALLOCATE, WdfControlDeviceInitAllocate, WdfControlDeviceInitAllocate method, wdfcontrol/WdfControlDeviceInitAllocate
+ms.keywords: DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, WdfControlDeviceInitAllocate, wdfcontrol/WdfControlDeviceInitAllocate, PFN_WDFCONTROLDEVICEINITALLOCATE, wdf.wdfcontroldeviceinitallocate, kmdf.wdfcontroldeviceinitallocate, WdfControlDeviceInitAllocate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,23 +161,7 @@ WdfControlFinishInitializing(controlDevice);</pre>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
-
-
-
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontrolfinishinitializing.md">WdfControlFinishInitializing</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
 
 
 
@@ -185,7 +169,23 @@ WdfControlFinishInitializing(controlDevice);</pre>
 
 
 
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+
+
+
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontrolfinishinitializing.md">WdfControlFinishInitializing</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 25936ed9-d213-458f-bbc8-90eedea9ba02
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetDevicePnpState, wdf.wdfdevicegetdevicepnpstate, wdfdevice/WdfDeviceGetDevicePnpState, DFDeviceObjectGeneralRef_8c17c41d-4e8e-499e-83db-92006e4fe08a.xml, PFN_WDFDEVICEGETDEVICEPNPSTATE, WdfDeviceGetDevicePnpState method, kmdf.wdfdevicegetdevicepnpstate
+ms.keywords: DFDeviceObjectGeneralRef_8c17c41d-4e8e-499e-83db-92006e4fe08a.xml, WdfDeviceGetDevicePnpState method, wdf.wdfdevicegetdevicepnpstate, kmdf.wdfdevicegetdevicepnpstate, wdfdevice/WdfDeviceGetDevicePnpState, WdfDeviceGetDevicePnpState, PFN_WDFDEVICEGETDEVICEPNPSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,15 +115,15 @@ state = WdfDeviceGetDevicePnpState(Device);</pre>
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerpolicystate.md">WdfDeviceGetDevicePowerPolicyState</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevstatenormalize.md">WdfDevStateNormalize</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerstate.md">WdfDeviceGetDevicePowerState</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerpolicystate.md">WdfDeviceGetDevicePowerPolicyState</a>
 
 
 

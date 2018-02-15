@@ -40,7 +40,7 @@ apiname:
 -	CamProcessUSBPacket
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -127,11 +127,14 @@ Pointer to a BOOLEAN value that the camera minidriver sets to indicate whether t
 ## -returns
 
 
+
 This callback function returns a ULONG that indicates the number of bytes that should be copied into the buffer (<i>RawFrameBuffer</i> or <i>FrameBuffer)</i>.
 
 
 
+
 ## -remarks
+
 
 
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
@@ -142,13 +145,20 @@ This function is optional.
 
 
 
+
 ## -see-also
+
+<a href="..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine_ex.md">CamProcessUSBPacketEx</a>
+
+
 
 <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
 
+
+
 <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine_ex.md">CamProcessUSBPacketEx</a>
+
 
  
 

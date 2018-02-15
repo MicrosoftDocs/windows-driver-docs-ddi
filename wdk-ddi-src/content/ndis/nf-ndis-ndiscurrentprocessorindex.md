@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 68ac845e-9b2f-4e35-8e61-83c799b3cd59
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_c19efe7e-be4a-4093-bd50-80d3c0588dc6.xml, ndis/NdisCurrentProcessorIndex, NdisCurrentProcessorIndex, NdisCurrentProcessorIndex function [Network Drivers Starting with Windows Vista], netvista.ndiscurrentprocessorindex
+ms.keywords: ndis_processor_group_ref_c19efe7e-be4a-4093-bd50-80d3c0588dc6.xml, netvista.ndiscurrentprocessorindex, NdisCurrentProcessorIndex, NdisCurrentProcessorIndex function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentProcessorIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ NDIS drivers call the
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564915">NDIS_CURRENT_PROCESSOR_NUMBER</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
 
 
 

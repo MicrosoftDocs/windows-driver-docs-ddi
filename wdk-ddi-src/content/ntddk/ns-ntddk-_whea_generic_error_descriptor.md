@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: a3ab6522-8706-4166-974f-1744b352f3c2
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR, *PWHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whea.whea_generic_error_descriptor, whearef_f9183d24-a7ad-4328-99b3-6e23ff890d1b.xml, WHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR, _WHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR
+ms.keywords: whea.whea_generic_error_descriptor, WHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR, _WHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_GENERIC_ERROR_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whearef_f9183d24-a7ad-4328-99b3-6e23ff890d1b.xml, *PWHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -231,11 +231,11 @@ A WHEA_GENERIC_ERROR_DESCRIPTOR structure is contained within the <a href="..\nt
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
 
 

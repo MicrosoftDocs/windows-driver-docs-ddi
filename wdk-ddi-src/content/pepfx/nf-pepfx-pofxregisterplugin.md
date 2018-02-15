@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxRegisterPlugin, kernel.pofxregisterplugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], pepfx/PoFxRegisterPlugin
+ms.keywords: pepfx/PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, PoFxRegisterPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,11 +146,11 @@ The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
-
-
-
 <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
 
 
 

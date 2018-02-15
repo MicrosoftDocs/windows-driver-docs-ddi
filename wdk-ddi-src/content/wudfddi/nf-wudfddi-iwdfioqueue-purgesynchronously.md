@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a714dffd-ca88-40cf-95ef-cf15384e0c02
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue::PurgeSynchronously, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, wudfddi/IWDFIoQueue::PurgeSynchronously, IWDFIoQueue interface, PurgeSynchronously method, umdf.iwdfioqueue_purgesynchronously, wdf.iwdfioqueue_purgesynchronously, IWDFIoQueue, PurgeSynchronously method, PurgeSynchronously method, IWDFIoQueue interface, PurgeSynchronously
+ms.keywords: PurgeSynchronously, wdf.iwdfioqueue_purgesynchronously, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, IWDFIoQueue::PurgeSynchronously, IWDFIoQueue, PurgeSynchronously method, wudfddi/IWDFIoQueue::PurgeSynchronously, IWDFIoQueue interface, PurgeSynchronously method, PurgeSynchronously method, IWDFIoQueue interface, umdf.iwdfioqueue_purgesynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

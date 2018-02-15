@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 7a5fcb4f-fc9a-4ebb-93ef-b83461557b22
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml, UsbBuildGetStatusRequest, buses.usbbuildgetstatusrequest, usbdlib/UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses]
+ms.keywords: usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml, usbdlib/UsbBuildGetStatusRequest, UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], buses.usbbuildgetstatusrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

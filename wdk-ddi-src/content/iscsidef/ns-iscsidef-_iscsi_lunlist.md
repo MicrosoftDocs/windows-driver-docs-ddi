@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1c477f38-c24f-45df-ab02-62ee47c0957b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_ISCSI_LUNList, structs-iSCSI_f6a29259-8905-438e-ba9f-1055026d7bf6.xml, *PISCSI_LUNList, ISCSI_LUNList, PISCSI_LUNList structure pointer [Storage Devices], storage.iscsi_lunlist, PISCSI_LUNList, iscsidef/ISCSI_LUNList, iscsidef/PISCSI_LUNList, ISCSI_LUNList structure [Storage Devices]"
+ms.keywords: storage.iscsi_lunlist, iscsidef/PISCSI_LUNList, ISCSI_LUNList structure [Storage Devices], PISCSI_LUNList, structs-iSCSI_f6a29259-8905-438e-ba9f-1055026d7bf6.xml, PISCSI_LUNList structure pointer [Storage Devices], *PISCSI_LUNList, ISCSI_LUNList, _ISCSI_LUNList, iscsidef/ISCSI_LUNList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

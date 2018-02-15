@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9F991E80-5155-45CE-9547-7354EE7EC4DB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_auth_response, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE, *PNDIS_WWAN_AUTH_RESPONSE, ndiswwan/NDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_AUTH_RESPONSE
+ms.keywords: NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE, netvista.ndis_wwan_auth_response, *PNDIS_WWAN_AUTH_RESPONSE, _NDIS_WWAN_AUTH_RESPONSE, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

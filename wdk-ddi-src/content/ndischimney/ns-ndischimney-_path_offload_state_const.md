@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a71f70f6-7731-457b-bd6d-b4a649f76f8b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/PPATH_OFFLOAD_STATE_CONST, _PATH_OFFLOAD_STATE_CONST, PPATH_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], *PPATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_CONST, tcp_chim_struct_4412519c-3610-4f0a-a4c6-400ff661d205.xml, netvista.path_offload_state_const, PATH_OFFLOAD_STATE_CONST, ndischimney/PATH_OFFLOAD_STATE_CONST
+ms.keywords: PATH_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], *PPATH_OFFLOAD_STATE_CONST, ndischimney/PATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST, _PATH_OFFLOAD_STATE_CONST, PPATH_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], ndischimney/PPATH_OFFLOAD_STATE_CONST, PPATH_OFFLOAD_STATE_CONST, tcp_chim_struct_4412519c-3610-4f0a-a4c6-400ff661d205.xml, netvista.path_offload_state_const
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,11 +119,11 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CONST structure is associ
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 
 
@@ -131,11 +131,11 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CONST structure is associ
 
 
 
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

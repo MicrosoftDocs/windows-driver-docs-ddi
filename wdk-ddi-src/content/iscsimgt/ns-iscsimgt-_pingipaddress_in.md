@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2dec9594-727e-44e6-8be8-2416ea77e447
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsimgt/PPingIPAddress_IN, PingIPAddress_IN, structs-iSCSI_4b2a763e-bb28-4132-9f29-08377e81dd82.xml, PPingIPAddress_IN structure pointer [Storage Devices], *PPingIPAddress_IN, storage.pingipaddress_in, PingIPAddress_IN structure [Storage Devices], iscsimgt/PingIPAddress_IN, PPingIPAddress_IN, _PingIPAddress_IN
+ms.keywords: PingIPAddress_IN, PPingIPAddress_IN structure pointer [Storage Devices], storage.pingipaddress_in, PPingIPAddress_IN, _PingIPAddress_IN, structs-iSCSI_4b2a763e-bb28-4132-9f29-08377e81dd82.xml, *PPingIPAddress_IN, iscsimgt/PingIPAddress_IN, PingIPAddress_IN structure [Storage Devices], iscsimgt/PPingIPAddress_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

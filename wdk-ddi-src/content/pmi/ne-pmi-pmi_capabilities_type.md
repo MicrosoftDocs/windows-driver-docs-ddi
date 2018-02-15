@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 6857f85b-c79a-4e80-a63f-1414aff61d1f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PmiReportedCapabilities, pmi/PmiCapabilitiesMax, pmi/PmiMeteredHardware, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, powermeter.pmi_capabilities_type, PMI_CAPABILITIES_TYPE, PmiMeteredHardware, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiReportedCapabilities, PmiCapabilitiesMax, pmi/PMI_CAPABILITIES_TYPE
+ms.keywords: PMI_CAPABILITIES_TYPE, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiMeteredHardware, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, pmi/PMI_CAPABILITIES_TYPE, PmiReportedCapabilities, pmi/PmiCapabilitiesMax, PmiCapabilitiesMax, powermeter.pmi_capabilities_type, PmiMeteredHardware, pmi/PmiReportedCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,7 +95,7 @@ The <b>CapabilityType</b> member of the <a href="..\pmi\ns-pmi-_pmi_capabilities
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 
@@ -103,7 +103,7 @@ The <b>CapabilityType</b> member of the <a href="..\pmi\ns-pmi-_pmi_capabilities
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
 
 
 

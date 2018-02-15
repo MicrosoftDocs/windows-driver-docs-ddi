@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11e8338d-4ca3-49a4-8cfe-ac9f15434b4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml, FwpsDiscardClonedStreamData0, netvista.fwpsdiscardclonedstreamdata0, fwpsk/FwpsDiscardClonedStreamData0, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: fwpsk/FwpsDiscardClonedStreamData0, wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], FwpsDiscardClonedStreamData0, netvista.fwpsdiscardclonedstreamdata0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

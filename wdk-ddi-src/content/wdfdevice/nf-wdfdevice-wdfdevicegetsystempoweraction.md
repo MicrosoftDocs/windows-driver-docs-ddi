@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5c4e44cd-94a3-4265-b195-7a5711d8035d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetSystemPowerAction method, PFN_WDFDEVICEGETSYSTEMPOWERACTION, kmdf.wdfdevicegetsystempoweraction, WdfDeviceGetSystemPowerAction, wdf.wdfdevicegetsystempoweraction, wdfdevice/WdfDeviceGetSystemPowerAction, DFDeviceObjectGeneralRef_605cddb8-470b-4d71-8a6e-295e060ea3e3.xml
+ms.keywords: kmdf.wdfdevicegetsystempoweraction, PFN_WDFDEVICEGETSYSTEMPOWERACTION, WdfDeviceGetSystemPowerAction method, wdfdevice/WdfDeviceGetSystemPowerAction, wdf.wdfdevicegetsystempoweraction, WdfDeviceGetSystemPowerAction, DFDeviceObjectGeneralRef_605cddb8-470b-4d71-8a6e-295e060ea3e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

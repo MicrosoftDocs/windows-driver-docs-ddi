@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 87265ABB-C2B7-468F-83FC-411AD9769517
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HciPacketEvent, bthxddi/HciPacketEvent, BTHX_HCI_PACKET_TYPE, _BTHX_HCI_PACKET_TYPE, HciPacketAclData, bthxddi/HciPacketAclData, bltooth.bthx_hci_packet_type, bthxddi/HciPacketCommand, bthxddi/BTHX_HCI_PACKET_TYPE, HciPacketCommand, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices]
+ms.keywords: HciPacketAclData, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], bthxddi/HciPacketAclData, HciPacketEvent, _BTHX_HCI_PACKET_TYPE, bltooth.bthx_hci_packet_type, bthxddi/BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketCommand, bthxddi/HciPacketEvent, BTHX_HCI_PACKET_TYPE, HciPacketCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,11 +95,11 @@ The IOCTL_BTHX_HCI_READ and IOCTL_BTHX_HCI_WRITE IOCTLs are used to read/write d
 
 ## -see-also
 
-<a href="..\bthxddi\ni-bthxddi-ioctl_bthx_read_hci.md">IOCTL_BTHX_HCI_READ</a>
-
-
-
 <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_write_hci.md">IOCTL_BTHX_HCI_WRITE</a>
+
+
+
+<a href="..\bthxddi\ni-bthxddi-ioctl_bthx_read_hci.md">IOCTL_BTHX_HCI_READ</a>
 
 
 

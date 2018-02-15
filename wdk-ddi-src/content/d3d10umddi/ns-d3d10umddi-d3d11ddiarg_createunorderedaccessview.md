@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c977fe6-d0f9-4edc-abeb-0725d68a482d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure [Display Devices], display.d3d11ddiarg_createunorderedaccessview, D3D11DDIARG_CREATEUNORDEREDACCESSVIEW, UMDisplayDriver_Dx11param_Structs_e6b10da8-f790-4182-926a-a7f183dcd59b.xml, d3d10umddi/D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
+ms.keywords: d3d10umddi/D3D11DDIARG_CREATEUNORDEREDACCESSVIEW, D3D11DDIARG_CREATEUNORDEREDACCESSVIEW, D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure [Display Devices], display.d3d11ddiarg_createunorderedaccessview, UMDisplayDriver_Dx11param_Structs_e6b10da8-f790-4182-926a-a7f183dcd59b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,23 +112,11 @@ typedef struct D3D11DDIARG_CREATEUNORDEREDACCESSVIEW {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_tex3d_unorderedaccessview.md">D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_tex1d_unorderedaccessview.md">D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createunorderedaccessview.md">CreateUnorderedAccessView</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_tex3d_unorderedaccessview.md">D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW</a>
 
 
 
@@ -136,7 +124,19 @@ typedef struct D3D11DDIARG_CREATEUNORDEREDACCESSVIEW {
 
 
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_tex1d_unorderedaccessview.md">D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_tex2d_unorderedaccessview.md">D3D11DDIARG_TEX2D_UNORDEREDACCESSVIEW</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview.md">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a>
 
 
 

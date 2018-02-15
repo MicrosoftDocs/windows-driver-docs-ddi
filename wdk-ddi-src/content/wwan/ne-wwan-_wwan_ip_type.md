@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E4CE7BE7-021A-4C9A-B467-B63AACEC1266
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_IP_TYPE, _WWAN_IP_TYPE, *PWWAN_IP_TYPE, wwan/WwanIPTypeIPv6, WwanIPTypeDefault, WwanIPTypeIPv4, wwan/WWAN_IP_TYPE, WwanIPTypeIPv6, WwanIPTypeIpv4v6, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanIPTypeDefault, wwan/WwanIPTypeIpv4v6, netvista.wwan_ip_type, wwan/WwanIPTypeIPv4
+ms.keywords: netvista.wwan_ip_type, *PWWAN_IP_TYPE, wwan/WwanIPTypeDefault, WwanIPTypeIPv4, WWAN_IP_TYPE, wwan/WWAN_IP_TYPE, _WWAN_IP_TYPE, WwanIPTypeDefault, wwan/WwanIPTypeIPv4, WwanIPTypeIpv4v6, wwan/WwanIPTypeIpv4v6, WwanIPTypeIPv6, wwan/WwanIPTypeIPv6, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

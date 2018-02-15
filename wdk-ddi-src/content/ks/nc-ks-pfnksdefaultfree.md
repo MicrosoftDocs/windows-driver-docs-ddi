@@ -84,11 +84,14 @@ Pointer to the frame to be freed.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine's address in the <b>Free</b> member of its <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>.
@@ -99,11 +102,16 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>
 
+
+
 <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f4cd0fe6-acdc-43e6-8dd7-7b547b1ec7cc
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winddiui/DevQueryPrintEx, print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, DevQueryPrintEx function [Print Devices], DevQueryPrintEx
+ms.keywords: print.devqueryprintex, winddiui/DevQueryPrintEx, DevQueryPrintEx, DevQueryPrintEx function [Print Devices], print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

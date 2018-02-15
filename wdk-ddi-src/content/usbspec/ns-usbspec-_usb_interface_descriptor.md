@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 12378915-fa3d-4054-bb06-6eb8b292559c
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], usbspec/PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR, _USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], buses.usb_interface_descriptor
+ms.keywords: usbspec/USB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml, _USB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR, buses.usb_interface_descriptor, usbspec/PUSB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,11 +127,11 @@ The index of a string descriptor that describes the interface. For information a
 
 
 
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
+<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
 
 
 

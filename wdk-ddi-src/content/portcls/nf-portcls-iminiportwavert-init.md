@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: f25be064-6ad4-42e8-87a5-188978d093fb
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: Init method [Audio Devices], IMiniportWaveRT interface, Init method [Audio Devices], audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, portcls/IMiniportWaveRT::Init, IMiniportWaveRT interface [Audio Devices], Init method, audio.iminiportwavert_init, IMiniportWaveRT, IMiniportWaveRT::Init, Init
+ms.keywords: IMiniportWaveRT interface [Audio Devices], Init method, portcls/IMiniportWaveRT::Init, IMiniportWaveRT::Init, Init method [Audio Devices], IMiniportWaveRT interface, Init method [Audio Devices], IMiniportWaveRT, audio.iminiportwavert_init, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

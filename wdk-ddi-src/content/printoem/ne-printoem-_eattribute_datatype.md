@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 51d3e768-11b1-411d-89b1-4fec19306b97
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: kADT_INT, printoem/kADT_CUSTOMSIZEPARAMS, printoem/kADT_DWORD, kADT_RECT, kADT_CUSTOMSIZEPARAMS, printoem/EATTRIBUTE_DATATYPE, kADT_DWORD, kADT_BINARY, kADT_UNICODE, printoem/kADT_RECT, printoem/kADT_ASCII, kADT_LONG, printoem/kADT_BINARY, printoem/kADT_SIZE, kADT_ASCII, kADT_SIZE, kADT_BOOL, printoem/kADT_UNICODE, EATTRIBUTE_DATATYPE, printoem/kADT_UNKNOWN, EATTRIBUTE_DATATYPE enumeration [Print Devices], printoem/kADT_LONG, kADT_UNKNOWN, printoem/kADT_INT, _EATTRIBUTE_DATATYPE, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, printoem/kADT_BOOL, print.eattribute_datatype
+ms.keywords: printoem/kADT_SIZE, printoem/EATTRIBUTE_DATATYPE, kADT_BOOL, printoem/kADT_BINARY, kADT_SIZE, printoem/kADT_DWORD, printoem/kADT_CUSTOMSIZEPARAMS, _EATTRIBUTE_DATATYPE, printoem/kADT_BOOL, kADT_UNICODE, kADT_INT, kADT_BINARY, kADT_ASCII, printoem/kADT_INT, EATTRIBUTE_DATATYPE enumeration [Print Devices], kADT_LONG, kADT_RECT, EATTRIBUTE_DATATYPE, kADT_CUSTOMSIZEPARAMS, printoem/kADT_ASCII, kADT_DWORD, printoem/kADT_LONG, kADT_UNKNOWN, print.eattribute_datatype, printoem/kADT_UNICODE, printoem/kADT_UNKNOWN, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, printoem/kADT_RECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

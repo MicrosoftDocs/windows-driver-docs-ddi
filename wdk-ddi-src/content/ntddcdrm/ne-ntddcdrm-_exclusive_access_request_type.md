@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 314dfdeb-1821-444a-84c6-2ee7fa536122
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices], ExclusiveAccessUnlockDevice, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml, ntddcdrm/ExclusiveAccessUnlockDevice, ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, PEXCLUSIVE_ACCESS_REQUEST_TYPE, _EXCLUSIVE_ACCESS_REQUEST_TYPE, storage.exclusive_access_request_type, ExclusiveAccessLockDevice, ntddcdrm/ExclusiveAccessLockDevice, ExclusiveAccessQueryState, ntddcdrm/ExclusiveAccessQueryState, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices]"
+ms.keywords: ntddcdrm/ExclusiveAccessLockDevice, ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE, storage.exclusive_access_request_type, ExclusiveAccessUnlockDevice, ntddcdrm/ExclusiveAccessUnlockDevice, ExclusiveAccessQueryState, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml, EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/ExclusiveAccessQueryState, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices], PEXCLUSIVE_ACCESS_REQUEST_TYPE, _EXCLUSIVE_ACCESS_REQUEST_TYPE, ExclusiveAccessLockDevice, ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

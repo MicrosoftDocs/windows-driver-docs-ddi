@@ -238,6 +238,22 @@ If the WSK application calls the
 
 ## -see-also
 
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
@@ -251,22 +267,6 @@ If the WSK application calls the
 
 
 <a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
 
 
 

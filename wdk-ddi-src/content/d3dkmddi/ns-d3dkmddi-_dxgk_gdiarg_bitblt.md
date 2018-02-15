@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_gdiarg_bitblt, DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, DXGK_GDIARG_BITBLT structure [Display Devices], DXGK_GDIARG_BITBLT, d3dkmddi/DXGK_GDIARG_BITBLT, _DXGK_GDIARG_BITBLT
+ms.keywords: display.dxgk_gdiarg_bitblt, DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, DXGK_GDIARG_BITBLT, _DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], d3dkmddi/DXGK_GDIARG_BITBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -210,7 +210,11 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;</pre>
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
 
 
@@ -222,11 +226,7 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;</pre>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
 
 
 

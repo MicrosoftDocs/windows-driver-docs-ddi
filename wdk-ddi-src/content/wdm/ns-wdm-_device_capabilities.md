@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], wdm/DEVICE_CAPABILITIES, _DEVICE_CAPABILITIES, DEVICE_CAPABILITIES, kernel.device_capabilities, PDEVICE_CAPABILITIES
+ms.keywords: kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/DEVICE_CAPABILITIES, _DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], PDEVICE_CAPABILITIES, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], DEVICE_CAPABILITIES, kernel.device_capabilities, wdm/PDEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F6DBD055-8B6F-4B2B-B584-3C06979DD6DF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.vmbserverchannelinitsetflags, VmbServerChannelInitSetFlags, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetFlags, VmbServerChannelInitSetFlags function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbServerChannelInitSetFlags, VmbServerChannelInitSetFlags function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetflags, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

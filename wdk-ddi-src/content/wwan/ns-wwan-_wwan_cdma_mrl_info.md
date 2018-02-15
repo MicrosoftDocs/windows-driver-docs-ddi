@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D8633E80-C7A3-4050-8E8E-8AE459F905D5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_CDMA_MRL_INFO, netvista.wwan_cdma_mrl_info, PWWAN_CDMA_MRL_INFO, *PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL_INFO, wwan/WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_CDMA_MRL_INFO"
+ms.keywords: netvista.wwan_cdma_mrl_info, wwan/WWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_CDMA_MRL_INFO, _WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

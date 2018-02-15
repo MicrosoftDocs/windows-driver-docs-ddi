@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f1651f9-4952-4e87-90fc-3f79948b8457
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDeviceInitialize::RetrieveDeviceInstanceId, IWDFDeviceInitialize interface, RetrieveDeviceInstanceId method, UMDFDeviceObjectRef_b383227b-ba03-4c85-9517-bb87eac631ef.xml, umdf.iwdfdeviceinitialize_retrievedeviceinstanceid, IWDFDeviceInitialize::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, wdf.iwdfdeviceinitialize_retrievedeviceinstanceid, IWDFDeviceInitialize, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface
+ms.keywords: RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId, IWDFDeviceInitialize::RetrieveDeviceInstanceId, IWDFDeviceInitialize, umdf.iwdfdeviceinitialize_retrievedeviceinstanceid, wudfddi/IWDFDeviceInitialize::RetrieveDeviceInstanceId, wdf.iwdfdeviceinitialize_retrievedeviceinstanceid, UMDFDeviceObjectRef_b383227b-ba03-4c85-9517-bb87eac631ef.xml, RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

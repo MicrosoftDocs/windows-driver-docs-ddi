@@ -178,7 +178,7 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
 
 
 
@@ -186,7 +186,11 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
+
+
+
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 
 
@@ -194,11 +198,7 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatefromlookasidelistex.md">ExAllocateFromLookasideListEx</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 
 

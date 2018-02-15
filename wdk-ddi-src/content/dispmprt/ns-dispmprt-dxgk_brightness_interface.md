@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8fa7908c-7ed4-4f85-846c-71fc5c7dc035
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_brightness_interface, DXGK_BRIGHTNESS_INTERFACE, PDXGK_BRIGHTNESS_INTERFACE structure pointer [Display Devices], PDXGK_BRIGHTNESS_INTERFACE, dispmprt/PDXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE structure [Display Devices], DmStructs_f750f3c3-0754-49b9-8ad5-cd93f84697c4.xml, dispmprt/DXGK_BRIGHTNESS_INTERFACE, *PDXGK_BRIGHTNESS_INTERFACE
+ms.keywords: DXGK_BRIGHTNESS_INTERFACE, *PDXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE structure [Display Devices], dispmprt/DXGK_BRIGHTNESS_INTERFACE, PDXGK_BRIGHTNESS_INTERFACE structure pointer [Display Devices], dispmprt/PDXGK_BRIGHTNESS_INTERFACE, display.dxgk_brightness_interface, DmStructs_f750f3c3-0754-49b9-8ad5-cd93f84697c4.xml, PDXGK_BRIGHTNESS_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,7 +125,11 @@ A kernel-mode component that must use the brightness interface initiates a call 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_possible.md">DxgkDdiGetPossibleBrightness</a>
+<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get.md">DxgkDdiGetBrightness</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
 
 
 
@@ -133,19 +137,15 @@ A kernel-mode component that must use the brightness interface initiates a call 
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set.md">DxgkDdiSetBrightness</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get.md">DxgkDdiGetBrightness</a>
-
-
-
 <a href="..\dispmprt\ns-dispmprt-dxgk_brightness_interface_2.md">DXGK_BRIGHTNESS_INTERFACE_2</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_interface.md">DxgkDdiQueryInterface</a>
+<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set.md">DxgkDdiSetBrightness</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_possible.md">DxgkDdiGetPossibleBrightness</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], print.iprintoemps2_getpdevadjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, IPrintOemPS2::GetPDEVAdjustment, IPrintOemPS2
+ms.keywords: GetPDEVAdjustment, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, prcomoem/IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, IPrintOemPS2::GetPDEVAdjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, IPrintOemPS2, print.iprintoemps2_getpdevadjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -157,7 +157,7 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
 
 
 
@@ -165,7 +165,7 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
+<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
 
 
 

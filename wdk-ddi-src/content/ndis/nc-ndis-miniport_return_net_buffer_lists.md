@@ -176,19 +176,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisreturnnetbufferlists.md">NdisReturnNetBufferLists</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -197,7 +189,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisreturnnetbufferlists.md">NdisReturnNetBufferLists</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

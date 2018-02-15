@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f77469d3-ce48-4e17-9fff-1af56296f61f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, _NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_port_array, ntddndis/NDIS_PORT_ARRAY, NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY
+ms.keywords: "_NDIS_PORT_ARRAY, PNDIS_PORT_ARRAY, NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], NDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, netvista.ndis_port_array, *PNDIS_PORT_ARRAY, ntddndis/PNDIS_PORT_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,11 +129,11 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
 
 
 

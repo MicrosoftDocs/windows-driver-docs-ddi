@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d81c5e4-780b-4b1f-ad3a-6d59cab5650f
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/RtlUpcaseUnicodeStringToOemString, rtlref_a98f9782-c665-40fa-af3d-47eb2bef27d9.xml, RtlUpcaseUnicodeStringToOemString, ifsk.rtlupcaseunicodestringtooemstring, RtlUpcaseUnicodeStringToOemString routine [Installable File System Drivers]
+ms.keywords: ntifs/RtlUpcaseUnicodeStringToOemString, rtlref_a98f9782-c665-40fa-af3d-47eb2bef27d9.xml, ifsk.rtlupcaseunicodestringtooemstring, RtlUpcaseUnicodeStringToOemString routine [Installable File System Drivers], RtlUpcaseUnicodeStringToOemString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,19 +110,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+<a href="..\ntifs\nf-ntifs-rtlupcaseunicodetooemn.md">RtlUpcaseUnicodeToOemN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlfreeoemstring.md">RtlFreeOemString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
 
 
 
@@ -130,11 +122,19 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlupcaseunicodetooemn.md">RtlUpcaseUnicodeToOemN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlfreeoemstring.md">RtlFreeOemString</a>
 
 
 

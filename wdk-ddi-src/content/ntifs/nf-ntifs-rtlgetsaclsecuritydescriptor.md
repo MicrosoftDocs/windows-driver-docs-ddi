@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5dd4b15a-63e1-4b80-a156-bc44aeeafb0e
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlgetsaclsecuritydescriptor, RtlGetSaclSecurityDescriptor routine [Installable File System Drivers], ntifs/RtlGetSaclSecurityDescriptor, RtlGetSaclSecurityDescriptor, rtlref_708c4a48-6840-426d-9c64-1eff896e8446.xml
+ms.keywords: ntifs/RtlGetSaclSecurityDescriptor, RtlGetSaclSecurityDescriptor routine [Installable File System Drivers], RtlGetSaclSecurityDescriptor, ifsk.rtlgetsaclsecuritydescriptor, rtlref_708c4a48-6840-426d-9c64-1eff896e8446.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -133,11 +133,7 @@ For more information about security and access control, see the documentation fo
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 
 
@@ -145,7 +141,11 @@ For more information about security and access control, see the documentation fo
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlgetdaclsecuritydescriptor.md">RtlGetDaclSecurityDescriptor</a>
+<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -153,7 +153,7 @@ For more information about security and access control, see the documentation fo
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+<a href="..\ntifs\nf-ntifs-rtlgetdaclsecuritydescriptor.md">RtlGetDaclSecurityDescriptor</a>
 
 
 

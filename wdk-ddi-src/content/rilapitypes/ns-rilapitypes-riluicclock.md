@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 634c2177-8e6f-4967-a555-928eb512fce3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCLOCK structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCLOCK, netvista.riluicclock, *LPRILUICCLOCK, RILUICCLOCK
+ms.keywords: RILUICCLOCK structure [Network Drivers Starting with Windows Vista], netvista.riluicclock, *LPRILUICCLOCK, rilapitypes/RILUICCLOCK, RILUICCLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

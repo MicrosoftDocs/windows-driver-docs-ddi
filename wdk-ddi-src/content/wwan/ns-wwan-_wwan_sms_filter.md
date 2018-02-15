@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 798101da-51be-416d-ac56-2f55a21e8ea8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SMS_FILTER structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_SMS_FILTER, WWAN_SMS_FILTER, PWWAN_SMS_FILTER, *PWWAN_SMS_FILTER, netvista.wwan_sms_filter, WwanRef_1bec8893-7ce8-4d8c-aea1-d1c76b0013fc.xml, wwan/WWAN_SMS_FILTER, WWAN_SMS_FILTER structure [Network Drivers Starting with Windows Vista], _WWAN_SMS_FILTER
+ms.keywords: WWAN_SMS_FILTER structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_FILTER, WwanRef_1bec8893-7ce8-4d8c-aea1-d1c76b0013fc.xml, _WWAN_SMS_FILTER, wwan/PWWAN_SMS_FILTER, PWWAN_SMS_FILTER structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_SMS_FILTER, netvista.wwan_sms_filter, *PWWAN_SMS_FILTER, WWAN_SMS_FILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

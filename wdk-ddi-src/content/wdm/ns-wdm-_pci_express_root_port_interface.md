@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c135b69d-864b-4765-903f-3c7a1b236d33
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: wdm/, PCI_EXPRESS_ROOT_PORT_INTERFACE structure [Buses], PCI_EXPRESS_ROOT_PORT_INTERFACE, *PPCI_EXPRESS_ROOT_PORT_INTERFACE, _PCI_EXPRESS_ROOT_PORT_INTERFACE, PCI.pci_express_root_port_interface
+ms.keywords: "*PPCI_EXPRESS_ROOT_PORT_INTERFACE, PCI_EXPRESS_ROOT_PORT_INTERFACE structure [Buses], wdm/, PCI.pci_express_root_port_interface, PCI_EXPRESS_ROOT_PORT_INTERFACE, _PCI_EXPRESS_ROOT_PORT_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

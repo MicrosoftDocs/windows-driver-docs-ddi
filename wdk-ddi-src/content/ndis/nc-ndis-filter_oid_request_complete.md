@@ -191,10 +191,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
 
 
@@ -204,6 +200,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>
 
 
 

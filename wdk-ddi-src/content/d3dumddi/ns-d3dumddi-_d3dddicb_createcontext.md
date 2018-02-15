@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6bee57b5-f4b3-424c-aeb5-3bf65ab16392
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_CREATECONTEXT, D3DDDICB_CREATECONTEXT, _D3DDDICB_CREATECONTEXT, display.d3dddicb_createcontext, D3D_param_Structs_9ad6c5e1-c3aa-4546-b3c9-c07c8350093b.xml, D3DDDICB_CREATECONTEXT structure [Display Devices]
+ms.keywords: D3D_param_Structs_9ad6c5e1-c3aa-4546-b3c9-c07c8350093b.xml, D3DDDICB_CREATECONTEXT, _D3DDDICB_CREATECONTEXT, d3dumddi/D3DDDICB_CREATECONTEXT, display.d3dddicb_createcontext, D3DDDICB_CREATECONTEXT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -150,11 +150,7 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
+<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
 
 
@@ -162,7 +158,11 @@ This member is available beginning with Windows 7.
 
 
 
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
 
 
 

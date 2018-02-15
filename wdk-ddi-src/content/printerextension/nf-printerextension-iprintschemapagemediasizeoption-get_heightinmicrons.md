@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: B419BD5D-A3B7-46D1-8E6B-3100E0940842
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintschemapagemediasizeoption_heightinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::get_HeightInMicrons, IPrintSchemaPageMediaSizeOption, get_HeightInMicrons, IPrintSchemaPageMediaSizeOption interface [Print Devices], HeightInMicrons property, HeightInMicrons property [Print Devices], IPrintSchemaPageMediaSizeOption interface, HeightInMicrons property [Print Devices], IPrintSchemaPageMediaSizeOption::get_HeightInMicrons, IPrintSchemaPageMediaSizeOption.HeightInMicrons, printerextension/IPrintSchemaPageMediaSizeOption::HeightInMicrons
+ms.keywords: IPrintSchemaPageMediaSizeOption.HeightInMicrons, get_HeightInMicrons, print.iprintschemapagemediasizeoption_heightinmicrons, IPrintSchemaPageMediaSizeOption interface [Print Devices], HeightInMicrons property, IPrintSchemaPageMediaSizeOption::get_HeightInMicrons, HeightInMicrons property [Print Devices], IPrintSchemaPageMediaSizeOption interface, IPrintSchemaPageMediaSizeOption, printerextension/IPrintSchemaPageMediaSizeOption::HeightInMicrons, HeightInMicrons property [Print Devices], printerextension/IPrintSchemaPageMediaSizeOption::get_HeightInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

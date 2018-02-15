@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b79b1f09-baff-4071-a209-6fc399c9aef9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces4::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged, StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3, IDebugDataSpaces4
+ms.keywords: StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces3, dbgeng/IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, StartEnumTagged, debugger.startenumtagged, StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::StartEnumTagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

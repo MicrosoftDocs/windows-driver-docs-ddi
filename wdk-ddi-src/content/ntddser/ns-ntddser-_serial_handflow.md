@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_SERIAL_HANDFLOW, serports.serial_handflow, *PSERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, SERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], PSERIAL_HANDFLOW structure pointer [Serial Ports], ntddser/SERIAL_HANDFLOW"
+ms.keywords: SERIAL_HANDFLOW, serports.serial_handflow, PSERIAL_HANDFLOW, *PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, _SERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], PSERIAL_HANDFLOW structure pointer [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

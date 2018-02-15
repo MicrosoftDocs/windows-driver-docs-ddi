@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c11941e-d0fc-4b0f-bf18-9920d371dd09
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_usb_interface_select_setting_params_init_urb, DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, kmdf.wdf_usb_interface_select_setting_params_init_urb, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB
+ms.keywords: kmdf.wdf_usb_interface_select_setting_params_init_urb, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, wdf.wdf_usb_interface_select_setting_params_init_urb, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,15 +162,15 @@ Status = WdfUsbInterfaceSelectSetting(
 
 
 
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
+
+
+
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
 
 
 

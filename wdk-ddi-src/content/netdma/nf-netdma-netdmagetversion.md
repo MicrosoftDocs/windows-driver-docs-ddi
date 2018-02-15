@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eec8ba30-0f9e-4487-ba0d-99587d97b44a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma/NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista], netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netvista.netdmagetversion, NetDmaGetVersion
+ms.keywords: netvista.netdmagetversion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, NetDmaGetVersion, netdma/NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,12 +149,12 @@ NetDMA provider drivers call
 
 ## -see-also
 
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
+
 <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
-
-
-
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 

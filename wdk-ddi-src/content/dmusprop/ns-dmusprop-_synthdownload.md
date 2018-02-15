@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: b6fd9c92-ac36-46ac-b996-d76afaf6b906
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_SYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], dmusprop/PSYNTHDOWNLOAD, PSYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, dmusprop/SYNTHDOWNLOAD, SYNTHDOWNLOAD structure [Audio Devices], audio.synthdownload, *PSYNTHDOWNLOAD, SYNTHDOWNLOAD"
+ms.keywords: PSYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, dmusprop/SYNTHDOWNLOAD, SYNTHDOWNLOAD, _SYNTHDOWNLOAD, SYNTHDOWNLOAD structure [Audio Devices], audio.synthdownload, dmusprop/PSYNTHDOWNLOAD, *PSYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,11 +91,11 @@ If the miniport driver makes its own copy of the DLS data, it sets the <i>Free</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537398">KSPROPERTY_SYNTH_DLS_UNLOAD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537398">KSPROPERTY_SYNTH_DLS_UNLOAD</a>
 
 
 

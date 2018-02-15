@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: F03FFC6A-6186-4C59-97EB-0D954BF198D3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: get_NamespaceUri, printerextension/IPrintSchemaElement::NamespaceUri, IPrintSchemaElement, NamespaceUri property [Print Devices], IPrintSchemaElement interface, IPrintSchemaElement interface [Print Devices], NamespaceUri property, printerextension/IPrintSchemaElement::get_NamespaceUri, NamespaceUri property [Print Devices], IPrintSchemaElement.NamespaceUri, IPrintSchemaElement::get_NamespaceUri, print.iprintschemaelement_namespaceuri
+ms.keywords: get_NamespaceUri, IPrintSchemaElement, IPrintSchemaElement.NamespaceUri, printerextension/IPrintSchemaElement::get_NamespaceUri, printerextension/IPrintSchemaElement::NamespaceUri, NamespaceUri property [Print Devices], IPrintSchemaElement interface [Print Devices], NamespaceUri property, NamespaceUri property [Print Devices], IPrintSchemaElement interface, IPrintSchemaElement::get_NamespaceUri, print.iprintschemaelement_namespaceuri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

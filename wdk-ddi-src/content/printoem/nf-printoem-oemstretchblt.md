@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 5a533a68-6bdb-45dc-b5d3-04fa8d3e7129
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: printoem/OEMStretchBlt, OEMStretchBlt, OEMStretchBlt function [Print Devices], print.oemstretchblt, print_unidrv-pscript_rendering_cbbd51bd-2201-4fd4-9b3e-1e86f3962be8.xml
+ms.keywords: OEMStretchBlt function [Print Devices], print_unidrv-pscript_rendering_cbbd51bd-2201-4fd4-9b3e-1e86f3962be8.xml, OEMStretchBlt, printoem/OEMStretchBlt, print.oemstretchblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: eebae465-a49a-4e19-a636-9da7f9db7278
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IAllocatorMXF, GetBuffer, GetBuffer method [Audio Devices], IAllocatorMXF interface, audmp-routines_5abb78f4-de92-4342-877f-e7f1c15f8d8e.xml, GetBuffer method [Audio Devices], audio.iallocatormxf_getbuffer, dmusicks/IAllocatorMXF::GetBuffer, IAllocatorMXF::GetBuffer, IAllocatorMXF interface [Audio Devices], GetBuffer method
+ms.keywords: GetBuffer, IAllocatorMXF interface [Audio Devices], GetBuffer method, dmusicks/IAllocatorMXF::GetBuffer, IAllocatorMXF::GetBuffer, GetBuffer method [Audio Devices], IAllocatorMXF interface, GetBuffer method [Audio Devices], audio.iallocatormxf_getbuffer, audmp-routines_5abb78f4-de92-4342-877f-e7f1c15f8d8e.xml, IAllocatorMXF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,15 +101,15 @@ The size of the buffer can determined by calling <a href="https://msdn.microsoft
 
 ## -see-also
 
+<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536493">IAllocatorMXF::GetBufferSize</a>
 
 
 
 <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
 
 
 

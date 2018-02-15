@@ -179,7 +179,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="..\ndis\nf-ndis-ndisfcanceldirectoidrequest.md">NdisFCancelDirectOidRequest</a>
 
 
 
@@ -188,11 +188,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisfcanceldirectoidrequest.md">NdisFCancelDirectOidRequest</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

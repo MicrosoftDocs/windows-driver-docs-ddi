@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a2bf1a8-d416-46bc-a9ba-9122407ea2a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices], D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml, d3dumddi/D3DDDICB_RENDER, display.d3dddicb_render, D3DDDICB_RENDER"
+ms.keywords: d3dumddi/D3DDDICB_RENDER, display.d3dddicb_render, D3DDDICB_RENDER, _D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices], D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -249,11 +249,7 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
 
 
 
@@ -261,7 +257,11 @@ This member is available beginning with Windows 7.
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_renderflags.md">D3DDDICB_RENDERFLAGS</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 

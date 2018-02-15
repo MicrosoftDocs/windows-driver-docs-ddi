@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, FILTER_INITIALIZATION_DATA structure [Storage Devices], *PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION, storage.filter_initialization_data, DUMP_FILTER_MAJOR_VERSION_1, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, ntdddump/PFILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA, _FILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL
+ms.keywords: PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, _FILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION_1, *PFILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_CRITICAL, FILTER_INITIALIZATION_DATA structure [Storage Devices], PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, FILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, ntdddump/PFILTER_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -180,11 +180,11 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
+<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
+<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
 
 
 
@@ -196,11 +196,11 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
+<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 
 

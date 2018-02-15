@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ccef350c-7c46-43fa-8834-b0d712d9cf38
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, audio.iportclspower_setidlepowermanagement, IPortClsPower, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, SetIdlePowerManagement method [Audio Devices], IPortClsPower::SetIdlePowerManagement, portcls/IPortClsPower::SetIdlePowerManagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, SetIdlePowerManagement
+ms.keywords: SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, IPortClsPower, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, SetIdlePowerManagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, SetIdlePowerManagement method [Audio Devices], portcls/IPortClsPower::SetIdlePowerManagement, audio.iportclspower_setidlepowermanagement, IPortClsPower::SetIdlePowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,11 +102,11 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 
 
-<a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+
+
+<a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
 
 
 

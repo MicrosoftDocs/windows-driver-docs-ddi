@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f669790f-0370-46a0-ba38-05e35cdf23b3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEENQUEUEREQUEST, WdfDeviceEnqueueRequest, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest, kmdf.wdfdeviceenqueuerequest, WdfDeviceEnqueueRequest method
+ms.keywords: PFN_WDFDEVICEENQUEUEREQUEST, WdfDeviceEnqueueRequest, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest, kmdf.wdfdeviceenqueuerequest, DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, WdfDeviceEnqueueRequest method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

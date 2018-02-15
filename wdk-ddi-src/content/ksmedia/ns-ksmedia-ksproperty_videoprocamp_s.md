@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e8b9c381-2159-4cb2-92e2-11c1d3698f2d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSPROPERTY_VIDEOPROCAMP_S, vidcapstruct_4ec1fd8e-6ea5-4560-a528-e6cd2023ec87.xml, ksmedia/KSPROPERTY_VIDEOPROCAMP_S, KSPROPERTY_VIDEOPROCAMP_S, ksmedia/PKSPROPERTY_VIDEOPROCAMP_S, stream.ksproperty_videoprocamp_s, PKSPROPERTY_VIDEOPROCAMP_S, KSPROPERTY_VIDEOPROCAMP_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_S structure pointer [Streaming Media Devices]"
+ms.keywords: vidcapstruct_4ec1fd8e-6ea5-4560-a528-e6cd2023ec87.xml, ksmedia/PKSPROPERTY_VIDEOPROCAMP_S, *PKSPROPERTY_VIDEOPROCAMP_S, KSPROPERTY_VIDEOPROCAMP_S structure [Streaming Media Devices], KSPROPERTY_VIDEOPROCAMP_S, PKSPROPERTY_VIDEOPROCAMP_S, stream.ksproperty_videoprocamp_s, PKSPROPERTY_VIDEOPROCAMP_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOPROCAMP_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -148,7 +148,7 @@ The device supports automatic setting of the specified property.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566070">KSPROPERTY_VIDEOPROCAMP_CONTRAST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566093">KSPROPERTY_VIDEOPROCAMP_SHARPNESS</a>
 
 
 
@@ -156,31 +156,7 @@ The device supports automatic setting of the specified property.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566095">KSPROPERTY_VIDEOPROCAMP_WHITEBALANCE</a>
-
-
-
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566065">KSPROPERTY_VIDEOPROCAMP_BRIGHTNESS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566093">KSPROPERTY_VIDEOPROCAMP_SHARPNESS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566063">KSPROPERTY_VIDEOPROCAMP_BACKLIGHT_COMPENSATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566076">KSPROPERTY_VIDEOPROCAMP_GAMMA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566092">KSPROPERTY_VIDEOPROCAMP_SATURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568122">PROPSETID_VIDCAP_VIDEOPROCAMP</a>
 
 
 
@@ -188,7 +164,31 @@ The device supports automatic setting of the specified property.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568122">PROPSETID_VIDCAP_VIDEOPROCAMP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566076">KSPROPERTY_VIDEOPROCAMP_GAMMA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566065">KSPROPERTY_VIDEOPROCAMP_BRIGHTNESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566063">KSPROPERTY_VIDEOPROCAMP_BACKLIGHT_COMPENSATION</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566095">KSPROPERTY_VIDEOPROCAMP_WHITEBALANCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566092">KSPROPERTY_VIDEOPROCAMP_SATURATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566070">KSPROPERTY_VIDEOPROCAMP_CONTRAST</a>
 
 
 

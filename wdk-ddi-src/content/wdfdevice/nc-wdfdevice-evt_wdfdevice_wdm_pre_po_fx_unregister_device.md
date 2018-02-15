@@ -149,11 +149,11 @@ The <b>EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE</b> function type is define
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
 
 
 

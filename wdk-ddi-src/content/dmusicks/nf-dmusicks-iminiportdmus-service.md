@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: a3f8d3f2-180c-454b-8e15-57c479c00db9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: Service method [Audio Devices], IMiniportDMus interface, Service method [Audio Devices], Service, IMiniportDMus::Service, dmusicks/IMiniportDMus::Service, IMiniportDMus, IMiniportDMus interface [Audio Devices], Service method, audmp-routines_0c872bc5-12b7-4e9d-b6ea-0da47cd41483.xml, audio.iminiportdmus_service
+ms.keywords: IMiniportDMus interface [Audio Devices], Service method, IMiniportDMus::Service, IMiniportDMus, Service, dmusicks/IMiniportDMus::Service, audio.iminiportdmus_service, Service method [Audio Devices], Service method [Audio Devices], IMiniportDMus interface, audmp-routines_0c872bc5-12b7-4e9d-b6ea-0da47cd41483.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,7 +93,7 @@ None
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
 
 
 
@@ -101,7 +101,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
 
 

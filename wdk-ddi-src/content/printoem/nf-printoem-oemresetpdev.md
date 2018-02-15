@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 92ae8382-49f3-4bfc-917a-047991953809
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: OEMResetPDEV function [Print Devices], print.oemresetpdev, OEMResetPDEV, printoem/OEMResetPDEV, print_obsoletefunctions_c49829da-bbf6-4438-b291-c8dd93856311.xml
+ms.keywords: OEMResetPDEV, print.oemresetpdev, printoem/OEMResetPDEV, OEMResetPDEV function [Print Devices], print_obsoletefunctions_c49829da-bbf6-4438-b291-c8dd93856311.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

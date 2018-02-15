@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 761B905B-D8E5-43C2-A412-EEC5F91848F3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PSTOR_CRYPTO_ALGORITHM_ID, _STOR_CRYPTO_ALGORITHM_ID, storport/PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID enumeration pointer [Storage Devices], STOR_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], PSTOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID, storage.stor_crypto_algorithm_id, storport/STOR_CRYPTO_ALGORITHM_ID, storport/"
+ms.keywords: storport/STOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], *PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID, storport/, _STOR_CRYPTO_ALGORITHM_ID, storport/PSTOR_CRYPTO_ALGORITHM_ID, storage.stor_crypto_algorithm_id, PSTOR_CRYPTO_ALGORITHM_ID enumeration pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: df2b6438-271d-4ea2-a06b-49a83415ca7a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ADDRESS_FIFO, IEEE.address_fifo, PADDRESS_FIFO, *PADDRESS_FIFO, 1394/ADDRESS_FIFO, _ADDRESS_FIFO, ADDRESS_FIFO structure [Buses], 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, 1394/PADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses]
+ms.keywords: 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, 1394/PADDRESS_FIFO, IEEE.address_fifo, *PADDRESS_FIFO, ADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], 1394/ADDRESS_FIFO, ADDRESS_FIFO structure [Buses], _ADDRESS_FIFO, PADDRESS_FIFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

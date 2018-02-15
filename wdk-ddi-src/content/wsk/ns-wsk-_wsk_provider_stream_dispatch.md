@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A10B901E-9987-40E9-976B-4CD9455E0AEE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/PWSK_PROVIDER_STREAM_DISPATCH, netvista.wsk_provider_stream_dispatch, PWSK_PROVIDER_STREAM_DISPATCH, WSK_PROVIDER_STREAM_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_STREAM_DISPATCH, wsk/WSK_PROVIDER_STREAM_DISPATCH, PWSK_PROVIDER_STREAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], *PWSK_PROVIDER_STREAM_DISPATCH, WSK_PROVIDER_STREAM_DISPATCH
+ms.keywords: PWSK_PROVIDER_STREAM_DISPATCH, WSK_PROVIDER_STREAM_DISPATCH, _WSK_PROVIDER_STREAM_DISPATCH, *PWSK_PROVIDER_STREAM_DISPATCH, netvista.wsk_provider_stream_dispatch, PWSK_PROVIDER_STREAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_PROVIDER_STREAM_DISPATCH, wsk/PWSK_PROVIDER_STREAM_DISPATCH, WSK_PROVIDER_STREAM_DISPATCH structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -185,15 +185,15 @@ A WSK application receives a pointer to a WSK_PROVIDER_STREAM_DISPATCH structure
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
 
 
 

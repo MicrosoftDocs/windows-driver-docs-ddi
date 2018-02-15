@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09B574FA-BCBA-4370-8F9F-BF30CE0BE52D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock, NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], NdisDprAcquireReadWriteLock
+ms.keywords: NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock, NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireReadWriteLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,21 +158,8 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
-   MiniportSynchronizeInterrupt</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
    NdisMSynchronizeWithInterruptEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisDprReleaseReadWriteLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
 
 
@@ -180,11 +167,19 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
+<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisDprReleaseReadWriteLock</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a>
+<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
 
 
 
@@ -192,7 +187,12 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
+
+
+
+<a href="..\ndis\ns-ndis-_lock_state.md">LOCK_STATE</a>
 
 
 

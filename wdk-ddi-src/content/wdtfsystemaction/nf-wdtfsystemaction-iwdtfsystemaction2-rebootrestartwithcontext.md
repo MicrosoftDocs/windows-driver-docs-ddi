@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d88fe083-328c-4ce4-bb15-9fa824384f57
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RebootRestartWithContext method [Windows Device Testing Framework], dtf.iwdtfsystemaction2_rebootrestartwithcontext, Microsoft::WDTF::IWDTFSystemAction2::RebootRestartWithContext, IWDTFSystemAction2, wdtfsystemaction/IWDTFSystemAction2::RebootRestartWithContext, RebootRestartWithContext, IWDTFSystemAction2 interface [Windows Device Testing Framework], RebootRestartWithContext method, IWDTFSystemAction2::RebootRestartWithContext, Microsoft.WDTF.IWDTFSystemAction2.RebootRestartWithContext, RebootRestartWithContext method [Windows Device Testing Framework], IWDTFSystemAction2 interface
+ms.keywords: RebootRestartWithContext, Microsoft::WDTF::IWDTFSystemAction2::RebootRestartWithContext, IWDTFSystemAction2, wdtfsystemaction/IWDTFSystemAction2::RebootRestartWithContext, IWDTFSystemAction2::RebootRestartWithContext, dtf.iwdtfsystemaction2_rebootrestartwithcontext, Microsoft.WDTF.IWDTFSystemAction2.RebootRestartWithContext, RebootRestartWithContext method [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework], RebootRestartWithContext method, RebootRestartWithContext method [Windows Device Testing Framework], IWDTFSystemAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

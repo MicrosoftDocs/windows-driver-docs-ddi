@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a73cd67e-839a-403c-9968-313417eac25a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getrfstate, rilapi/RIL_GetRFState, RIL_GetRFState
+ms.keywords: RIL_GetRFState, rilapi/RIL_GetRFState, netvista.ril_getrfstate, RIL_GetRFState method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

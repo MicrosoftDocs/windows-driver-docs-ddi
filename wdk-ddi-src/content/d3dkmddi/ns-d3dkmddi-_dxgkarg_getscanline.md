@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, display.dxgkarg_getscanline, DXGKARG_GETSCANLINE structure [Display Devices], DXGKARG_GETSCANLINE, d3dkmddi/DXGKARG_GETSCANLINE, _DXGKARG_GETSCANLINE, *INOUT_PDXGKARG_GETSCANLINE
+ms.keywords: DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, _DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE structure [Display Devices], display.dxgkarg_getscanline, d3dkmddi/DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE, *INOUT_PDXGKARG_GETSCANLINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

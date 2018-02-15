@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8284fdd4-26de-4622-b164-f33aee1d8742
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCoSendNetBufferLists, condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, ndis/NdisCoSendNetBufferLists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], netvista.ndiscosendnetbufferlists
+ms.keywords: ndis/NdisCoSendNetBufferLists, netvista.ndiscosendnetbufferlists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, NdisCoSendNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,12 +209,24 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
-   ProtocolCoSendNetBufferListsComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
 
 
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -228,29 +240,17 @@ Until NDIS calls
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+   ProtocolCoSendNetBufferListsComplete</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
    NdisAllocateCloneNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
-   NdisAllocateNetBufferAndNetBufferList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
 
 
 

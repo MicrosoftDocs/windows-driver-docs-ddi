@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, DRIVER_INITIALIZATION_DATA structure [Display Devices], DRIVER_INITIALIZATION_DATA, _DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, dispmprt/DRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
+ms.keywords: PDRIVER_INITIALIZATION_DATA, dispmprt/PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, _DRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], dispmprt/DRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA structure [Display Devices], display.driver_initialization_data, DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, *PDRIVER_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -40,7 +40,7 @@ apiname:
 -	CreateCryptoSession
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CREATECRYPTOSESSION callback
@@ -98,7 +98,9 @@ A handle to the cryptographic session that the driver should use when it calls b
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,11 +151,14 @@ A cryptographic type was specified that is not supported by the decode profile.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Direct3D runtime calls <i>CreateCryptoSession</i> to create a cryptographic session that the runtime uses to manage a session key and to perform cryptographic operations for video content that is stored in protected memory. 
@@ -171,13 +176,20 @@ If the <b>DecodeProfile</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
+## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createcryptosession.md">D3D11_1DDIARG_CREATECRYPTOSESSION</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatecryptosessionsize.md">CalcPrivateCryptoSessionSize</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
+
+
 
  
 

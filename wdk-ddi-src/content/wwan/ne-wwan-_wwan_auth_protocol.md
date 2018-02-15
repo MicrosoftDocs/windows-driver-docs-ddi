@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33c9523e-3195-456f-8e17-b9539475bc67
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanAuthProtocolChap, wwan/WWAN_AUTH_PROTOCOL, WwanAuthProtocolPap, WWAN_AUTH_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], wwan/WwanAuthProtocolMsChapV2, WWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolNone, wwan/WwanAuthProtocolMax, WwanAuthProtocolMsChapV2, PWWAN_AUTH_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_AUTH_PROTOCOL, *PWWAN_AUTH_PROTOCOL, PWWAN_AUTH_PROTOCOL, WwanRef_b7f5b77c-f85f-4ed2-adfa-306b903da5fd.xml, WwanAuthProtocolNone, wwan/WwanAuthProtocolPap, wwan/WwanAuthProtocolChap, wwan/PWWAN_AUTH_PROTOCOL, WwanAuthProtocolMax, netvista.wwan_auth_protocol
+ms.keywords: PWWAN_AUTH_PROTOCOL, wwan/PWWAN_AUTH_PROTOCOL, WwanRef_b7f5b77c-f85f-4ed2-adfa-306b903da5fd.xml, wwan/WwanAuthProtocolMsChapV2, WwanAuthProtocolChap, WWAN_AUTH_PROTOCOL, netvista.wwan_auth_protocol, WWAN_AUTH_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], WwanAuthProtocolPap, wwan/WwanAuthProtocolPap, WwanAuthProtocolNone, WwanAuthProtocolMsChapV2, wwan/WwanAuthProtocolNone, PWWAN_AUTH_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_AUTH_PROTOCOL, _WWAN_AUTH_PROTOCOL, *PWWAN_AUTH_PROTOCOL, wwan/WwanAuthProtocolChap, WwanAuthProtocolMax, wwan/WwanAuthProtocolMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

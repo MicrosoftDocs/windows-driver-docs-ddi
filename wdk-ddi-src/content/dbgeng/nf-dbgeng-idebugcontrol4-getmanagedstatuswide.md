@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5854BB6A-EB5F-493A-96E4-0DF298EC0332
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::GetManagedStatusWide, GetManagedStatusWide, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface, debugger.idebugcontrol4_getmanagedstatuswide, IDebugControl4::GetManagedStatusWide, IDebugControl4, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetManagedStatusWide method
+ms.keywords: debugger.idebugcontrol4_getmanagedstatuswide, GetManagedStatusWide method [Windows Debugging], IDebugControl4 interface, GetManagedStatusWide, GetManagedStatusWide method [Windows Debugging], IDebugControl4::GetManagedStatusWide, dbgeng/IDebugControl4::GetManagedStatusWide, IDebugControl4 interface [Windows Debugging], GetManagedStatusWide method, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

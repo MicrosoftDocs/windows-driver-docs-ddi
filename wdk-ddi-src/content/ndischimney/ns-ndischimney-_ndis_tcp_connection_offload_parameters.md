@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8d3f971-2abc-425d-9929-518f093262a7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, netvista.ndis_tcp_connection_offload_parameters, _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
+ms.keywords: NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, netvista.ndis_tcp_connection_offload_parameters, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml, ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -215,20 +215,7 @@ The
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_offload_encapsulation.md">NDIS_OFFLOAD_ENCAPSULATION</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/gg158102.aspx">
-   OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a>
 
 
 
@@ -237,6 +224,19 @@ The
 
 
 <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/gg158102.aspx">
+   OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">Full TCP Offload</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_offload_encapsulation.md">NDIS_OFFLOAD_ENCAPSULATION</a>
 
 
 

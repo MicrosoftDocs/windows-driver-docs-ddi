@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: ee557112-ada3-4906-a8f3-e59b59ab2bc1
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses._urb_control_transfer, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, usb/_URB_CONTROL_TRANSFER, USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml, _URB_CONTROL_TRANSFER, _URB_CONTROL_TRANSFER structure [Buses]
+ms.keywords: USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, _URB_CONTROL_TRANSFER structure [Buses], usb/_URB_CONTROL_TRANSFER, USBD_TRANSFER_DIRECTION_IN, buses._urb_control_transfer, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -213,19 +213,19 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

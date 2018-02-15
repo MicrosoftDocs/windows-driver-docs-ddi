@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 8358cd45-62aa-41d8-a795-d42c53fdaf07
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFDriverPackageAction2::get_ClassName, dtf.iwdtfdriverpackageaction2_classname, IWDTFDriverPackageAction2, ClassName property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.ClassName, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_ClassName, get_ClassName, Microsoft::WDTF::IWDTFDriverPackageAction2::ClassName, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], ClassName property, ClassName property [Windows Device Testing Framework], IWDTFDriverPackageAction2.ClassName, wdtfdriverpackageaction/IWDTFDriverPackageAction2::ClassName
+ms.keywords: IWDTFDriverPackageAction2.ClassName, ClassName property [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverPackageAction2::ClassName, IWDTFDriverPackageAction2::get_ClassName, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_ClassName, get_ClassName, ClassName property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], ClassName property, wdtfdriverpackageaction/IWDTFDriverPackageAction2::ClassName, Microsoft.WDTF.IWDTFDriverPackageAction2.ClassName, dtf.iwdtfdriverpackageaction2_classname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

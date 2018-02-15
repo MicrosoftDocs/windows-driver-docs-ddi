@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6d8e934a-9f1e-4b65-9491-02cf7f5f9255
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_WriteMsg, RIL_WriteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_writemsg, RIL_WriteMsg
+ms.keywords: rilapi/RIL_WriteMsg, RIL_WriteMsg, RIL_WriteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_writemsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 50b85fc0-b84a-4c1d-9d7b-4b91150f8e76
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_VOICE_CALL_STATE, WwanVoiceCallStateInProgress, WwanVoiceCallStateMaximum, WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_voice_call_state, wwan/WwanVoiceCallStateInProgress, WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateMaximum, *PWWAN_VOICE_CALL_STATE, wwan/WwanVoiceCallStateNone, WWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], WwanVoiceCallStateNone, _WWAN_VOICE_CALL_STATE, wwan/PWWAN_VOICE_CALL_STATE
+ms.keywords: wwan/PWWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanVoiceCallStateMaximum, wwan/WWAN_VOICE_CALL_STATE, WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateInProgress, WwanVoiceCallStateMaximum, netvista.wwan_voice_call_state, wwan/WwanVoiceCallStateHangUp, wwan/WwanVoiceCallStateNone, WwanRef_65c4ae25-c50f-4527-95fd-043730c736e4.xml, _WWAN_VOICE_CALL_STATE, *PWWAN_VOICE_CALL_STATE, WWAN_VOICE_CALL_STATE, WwanVoiceCallStateInProgress, PWWAN_VOICE_CALL_STATE, PWWAN_VOICE_CALL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanVoiceCallStateNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

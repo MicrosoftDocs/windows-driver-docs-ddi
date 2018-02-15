@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c69d03b7-ef07-41b3-9659-79ab05ecd4e9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILDIALEDIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_DIDS_PROVISIONING, RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DIDS_ALL, RIL_PARAM_DIDS_PROVISIONING, rilapitypes/RIL_PARAM_DIDS_STATUS, RILDIALEDIDSETTINGSPARAMMASK, netvista.rildialedidsettingsparammask_2, RIL_PARAM_DIDS_STATUS, rilapitypes/RIL_PARAM_DIDS_ALL
+ms.keywords: RIL_PARAM_DIDS_STATUS, rilapitypes/RILDIALEDIDSETTINGSPARAMMASK, RIL_PARAM_DIDS_ALL, RIL_PARAM_DIDS_PROVISIONING, netvista.rildialedidsettingsparammask_2, RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_DIDS_PROVISIONING, rilapitypes/RIL_PARAM_DIDS_STATUS, RILDIALEDIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_DIDS_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

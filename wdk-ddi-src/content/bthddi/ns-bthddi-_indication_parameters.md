@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: fc93ab8a-01d2-4827-8d89-06f09bf10456
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: INDICATION_PARAMETERS structure [Bluetooth Devices], *PINDICATION_PARAMETERS, _INDICATION_PARAMETERS, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, bthddi/INDICATION_PARAMETERS, bthddi/PINDICATION_PARAMETERS, PINDICATION_PARAMETERS, bltooth.indication_parameters, INDICATION_PARAMETERS, PINDICATION_PARAMETERS structure pointer [Bluetooth Devices]
+ms.keywords: PINDICATION_PARAMETERS structure pointer [Bluetooth Devices], INDICATION_PARAMETERS structure [Bluetooth Devices], bltooth.indication_parameters, bthddi/INDICATION_PARAMETERS, PINDICATION_PARAMETERS, INDICATION_PARAMETERS, bthddi/PINDICATION_PARAMETERS, _INDICATION_PARAMETERS, *PINDICATION_PARAMETERS, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -445,10 +445,6 @@ When the Bluetooth driver stack passes
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_l2cap_disconnect_reason.md">L2CAP_DISCONNECT_REASON</a>
-
-
-
 <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 
@@ -457,11 +453,15 @@ When the Bluetooth driver stack passes
 
 
 
+<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+
+
+
 <a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+<a href="..\bthddi\ne-bthddi-_l2cap_disconnect_reason.md">L2CAP_DISCONNECT_REASON</a>
 
 
 

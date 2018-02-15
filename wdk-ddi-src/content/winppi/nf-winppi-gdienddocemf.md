@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e58403d4-aacc-4d22-98e5-86db1a69c54a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.gdienddocemf, GdiEndDocEMF function [Print Devices], gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml, winppi/GdiEndDocEMF, GdiEndDocEMF
+ms.keywords: GdiEndDocEMF, gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml, print.gdienddocemf, winppi/GdiEndDocEMF, GdiEndDocEMF function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

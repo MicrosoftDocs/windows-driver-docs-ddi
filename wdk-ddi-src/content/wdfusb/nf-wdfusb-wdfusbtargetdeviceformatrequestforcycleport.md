@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f27dae6e-2fc7-4e26-84fb-4ce48da3db6b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCYCLEPORT, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort, WdfUsbTargetDeviceFormatRequestForCyclePort method, kmdf.wdfusbtargetdeviceformatrequestforcycleport, wdf.wdfusbtargetdeviceformatrequestforcycleport, DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, WdfUsbTargetDeviceFormatRequestForCyclePort
+ms.keywords: DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, WdfUsbTargetDeviceFormatRequestForCyclePort method, WdfUsbTargetDeviceFormatRequestForCyclePort, kmdf.wdfusbtargetdeviceformatrequestforcycleport, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCYCLEPORT, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort, wdf.wdfusbtargetdeviceformatrequestforcycleport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -186,7 +186,7 @@ if (WdfRequestSend(
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
 
 
 
@@ -194,15 +194,15 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecycleportsynchronously.md">WdfUsbTargetDeviceCyclePortSynchronously</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

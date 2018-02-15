@@ -71,7 +71,6 @@ VOID APIENTRY* PFND3D12DDI_SETVIEWINSTANCEMASK_0033(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param Mask
 
 The mask that will be set.
@@ -85,6 +84,8 @@ The command list.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

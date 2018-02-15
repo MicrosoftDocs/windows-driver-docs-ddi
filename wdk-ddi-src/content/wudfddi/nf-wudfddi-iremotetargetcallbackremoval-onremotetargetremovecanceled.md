@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26a6e9e7-f1bb-4174-a640-f665cecfd191
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_aa4d89fd-ad91-46ea-a55d-4c89d65da13e.xml, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled, wdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, IRemoteTargetCallbackRemoval, umdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, OnRemoteTargetRemoveCanceled method, OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval interface, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveCanceled method
+ms.keywords: wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, umdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled method, UMDFIoTargetObjectRef_aa4d89fd-ad91-46ea-a55d-4c89d65da13e.xml, OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval, wdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,7 +109,7 @@ For more information about the <b>OnRemoteTargetRemoveCanceled</b> event callbac
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
+<a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
 
 
 
@@ -117,7 +117,7 @@ For more information about the <b>OnRemoteTargetRemoveCanceled</b> event callbac
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
 
 
 

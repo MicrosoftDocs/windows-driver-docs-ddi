@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: ef5a89e3-f072-48a7-b2d9-d68e0e27ba9e
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_ab7c70f5-9161-4245-8f25-350f68144f82.xml, *LPBIDI_REQUEST_DATA, LPBIDI_REQUEST_DATA structure pointer [Print Devices], _BIDI_REQUEST_DATA, PBIDI_REQUEST_DATA, winspool/PBIDI_REQUEST_DATA, PBIDI_REQUEST_DATA structure pointer [Print Devices], *PBIDI_REQUEST_DATA, BIDI_REQUEST_DATA structure [Print Devices], winspool/LPBIDI_REQUEST_DATA, winspool/BIDI_REQUEST_DATA, print.bidi_request_data, LPBIDI_REQUEST_DATA, BIDI_REQUEST_DATA
+ms.keywords: "_BIDI_REQUEST_DATA, print.bidi_request_data, *PBIDI_REQUEST_DATA, BIDI_REQUEST_DATA, winspool/LPBIDI_REQUEST_DATA, spoolfnc_ab7c70f5-9161-4245-8f25-350f68144f82.xml, PBIDI_REQUEST_DATA, PBIDI_REQUEST_DATA structure pointer [Print Devices], *LPBIDI_REQUEST_DATA, LPBIDI_REQUEST_DATA, BIDI_REQUEST_DATA structure [Print Devices], LPBIDI_REQUEST_DATA structure pointer [Print Devices], winspool/BIDI_REQUEST_DATA, winspool/PBIDI_REQUEST_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,11 +87,11 @@ Specifies a <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a> struct
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_request_container.md">BIDI_REQUEST_CONTAINER</a>
-
-
-
 <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a>
+
+
+
+<a href="..\winspool\ns-winspool-_bidi_request_container.md">BIDI_REQUEST_CONTAINER</a>
 
 
 

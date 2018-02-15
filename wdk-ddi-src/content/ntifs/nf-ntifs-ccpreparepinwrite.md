@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1645c7e9-5ae7-41d1-92db-1f069f79ac81
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml, ifsk.ccpreparepinwrite, ntifs/CcPreparePinWrite, CcPreparePinWrite routine [Installable File System Drivers], CcPreparePinWrite
+ms.keywords: ifsk.ccpreparepinwrite, CcPreparePinWrite routine [Installable File System Drivers], ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml, CcPreparePinWrite, ntifs/CcPreparePinWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -202,23 +202,7 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-mmsetaddressrangemodified.md">MmSetAddressRangeModified</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
 
 
@@ -226,7 +210,23 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 
 
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
 
 

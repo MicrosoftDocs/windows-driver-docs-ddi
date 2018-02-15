@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5f334f48-a262-4b09-98c4-766039de3f0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DD_GETFORMATCOUNTDATA, _DD_GETFORMATCOUNTDATA, d3dhal/DD_GETFORMATCOUNTDATA, DD_GETFORMATCOUNTDATA structure [Display Devices], display.dd_getformatcountdata, d3dstrct_610983cc-4f8a-4c16-b60b-960dbf0c58e9.xml
+ms.keywords: DD_GETFORMATCOUNTDATA, d3dstrct_610983cc-4f8a-4c16-b60b-960dbf0c58e9.xml, d3dhal/DD_GETFORMATCOUNTDATA, DD_GETFORMATCOUNTDATA structure [Display Devices], display.dd_getformatcountdata, _DD_GETFORMATCOUNTDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

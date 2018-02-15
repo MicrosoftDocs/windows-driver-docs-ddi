@@ -305,7 +305,7 @@ The process to which the
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 
 
@@ -313,15 +313,15 @@ The process to which the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 4E2EA8F5-2D4A-4AEB-AF59-97D6C3FB09BC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxputpendingevent, PosCxPutPendingEvent, PosCxPutPendingEvent function, poscx/PosCxPutPendingEvent
+ms.keywords: PosCxPutPendingEvent, PosCxPutPendingEvent function, poscx/PosCxPutPendingEvent, pos.poscxputpendingevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F997E3DB-630D-41C8-B659-36376E05A6B7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure [Display Devices], DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, display.dxgk_multiplane_overlay_post_composition_with_source, _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, display.dxgk_multiplane_overlay_post_composition_with_source, _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

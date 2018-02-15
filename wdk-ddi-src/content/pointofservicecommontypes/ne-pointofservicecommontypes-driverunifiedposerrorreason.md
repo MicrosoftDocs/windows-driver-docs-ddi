@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 2bbf5fcf-666e-4265-95cf-7e04670d59da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/Extended, pos.unifiedposerrorreason, Failure, pointofservicecommontypes/Timeout, UnknownErrorReason, pointofservicecommontypes/UnknownErrorReason, Busy, NoHardware, DriverUnifiedPosErrorReason enumeration, Illegal, pointofservicecommontypes/DriverUnifiedPosErrorReason, pointofservicecommontypes/Disabled, Extended, Disabled, pointofservicecommontypes/Closed, pointofservicecommontypes/NoService, pointofservicecommontypes/Failure, Timeout, pointofservicecommontypes/ NoHardware, Offline, Closed, DriverUnifiedPosErrorReason, NoService, pointofservicecommontypes/Illegal, pointofservicecommontypes/Offline, pointofservicecommontypes/Busy
+ms.keywords: pointofservicecommontypes/UnknownErrorReason, Disabled, Extended, pointofservicecommontypes/Timeout, pointofservicecommontypes/ NoHardware, UnknownErrorReason, Illegal, NoHardware, pointofservicecommontypes/Offline, pos.unifiedposerrorreason, pointofservicecommontypes/Extended, Offline, Failure, Busy, DriverUnifiedPosErrorReason enumeration, NoService, pointofservicecommontypes/Closed, Timeout, pointofservicecommontypes/NoService, Closed, pointofservicecommontypes/Illegal, pointofservicecommontypes/DriverUnifiedPosErrorReason, pointofservicecommontypes/Disabled, DriverUnifiedPosErrorReason, pointofservicecommontypes/Failure, pointofservicecommontypes/Busy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

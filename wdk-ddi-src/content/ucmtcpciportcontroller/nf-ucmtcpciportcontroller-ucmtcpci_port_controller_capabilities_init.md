@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: d6a30351-4d0f-462a-bbf7-672f4da75bf5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT method [Buses], buses.ucmtcpci_port_controller_capabilities_init
+ms.keywords: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT method [Buses], ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, buses.ucmtcpci_port_controller_capabilities_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

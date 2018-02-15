@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60b105df-2085-40bc-9d95-0f6b317a565e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtescape, OpenGL_Functions_ad391641-4fb5-425a-839f-7b257f26849a.xml, d3dkmthk/D3DKMTEscape, D3DKMTEscape function [Display Devices], D3DKMTEscape
+ms.keywords: display.d3dkmtescape, d3dkmthk/D3DKMTEscape, OpenGL_Functions_ad391641-4fb5-425a-839f-7b257f26849a.xml, D3DKMTEscape, D3DKMTEscape function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 81c2446e-8f11-4146-8da5-17fc451c2729
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: CcRepinBcb, ifsk.ccrepinbcb, ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, CcRepinBcb routine [Installable File System Drivers], ntifs/CcRepinBcb
+ms.keywords: ntifs/CcRepinBcb, ifsk.ccrepinbcb, ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, CcRepinBcb, CcRepinBcb routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,7 @@ Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href=
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccunpinrepinnedbcb.md">CcUnpinRepinnedBcb</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 
@@ -106,7 +102,11 @@ Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href=
 
 
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+<a href="..\ntifs\nf-ntifs-ccunpinrepinnedbcb.md">CcUnpinRepinnedBcb</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 

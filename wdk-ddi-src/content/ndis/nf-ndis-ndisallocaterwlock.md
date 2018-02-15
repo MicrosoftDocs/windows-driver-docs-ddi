@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 460c81bf-ae06-40f7-a019-b006e5c9f94b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocaterwlock, ndis/NdisAllocateRWLock, NdisAllocateRWLock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, NdisAllocateRWLock function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisAllocateRWLock, NdisAllocateRWLock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, NdisAllocateRWLock function [Network Drivers Starting with Windows Vista], netvista.ndisallocaterwlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,6 +152,34 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548114">Introduction to Spin Locks</a>
 
 
@@ -160,19 +188,7 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreerwlock.md">NdisFreeRWLock</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockread.md">NdisAcquireRWLockRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
 
 
 
@@ -180,27 +196,11 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nf-ndis-ndisfreerwlock.md">NdisFreeRWLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7EEFC371-5E6F-4507-BF7F-66A1954C7A1A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndk_adapter, _NDK_ADAPTER, PNDK_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], PNDK_ADAPTER, NDK_ADAPTER structure [Network Drivers Starting with Windows Vista], NDK_ADAPTER, ndkpi/NDK_ADAPTER, ndkpi/PNDK_ADAPTER
+ms.keywords: ndkpi/PNDK_ADAPTER, NDK_ADAPTER, netvista.ndk_adapter, PNDK_ADAPTER, _NDK_ADAPTER, PNDK_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], NDK_ADAPTER structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_ADAPTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
 
 
 
@@ -107,7 +107,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+<a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a>
 
 
 

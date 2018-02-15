@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ImageProcessing method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], ImageProcessing method, IPrintOemUni, ImageProcessing, prcomoem/IPrintOemUni::ImageProcessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, ImageProcessing method [Print Devices], print.iprintoemuni_imageprocessing, IPrintOemUni::ImageProcessing
+ms.keywords: print.iprintoemuni_imageprocessing, IPrintOemUni interface [Print Devices], ImageProcessing method, ImageProcessing method [Print Devices], prcomoem/IPrintOemUni::ImageProcessing, IPrintOemUni, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, ImageProcessing method [Print Devices], IPrintOemUni interface, ImageProcessing, IPrintOemUni::ImageProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

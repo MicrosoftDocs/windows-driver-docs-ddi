@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 96A069B5-BD89-4B8E-88D9-57944F4C9DB8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_DESCRIPTOR_INIT, SPB.spb_transfer_descriptor_init, SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], spbcx/SPB_TRANSFER_DESCRIPTOR_INIT
+ms.keywords: SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], spbcx/SPB_TRANSFER_DESCRIPTOR_INIT, SPB_TRANSFER_DESCRIPTOR_INIT, SPB.spb_transfer_descriptor_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ Your SPB controller driver must use this function to initialize an <b>SPB_TRANSF
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450924">SpbRequestGetTransferParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cd71234b-4b46-4b7b-953b-32e6f014af03
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKREADYSTATE, ntddrilapitypes/RILPHONEBOOKREADYSTATE, netvista.rilphonebookreadystate
+ms.keywords: RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKREADYSTATE, netvista.rilphonebookreadystate, ntddrilapitypes/RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 318ba587-e34f-4f9f-bdf9-3e7c402456c5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: portcls/IPortWaveCyclic::Notify, Notify method [Audio Devices], Notify method [Audio Devices], IPortWaveCyclic interface, Notify, audio.iportwavecyclic_notify, IPortWaveCyclic, IPortWaveCyclic::Notify, IPortWaveCyclic interface [Audio Devices], Notify method, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml
+ms.keywords: portcls/IPortWaveCyclic::Notify, audio.iportwavecyclic_notify, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml, IPortWaveCyclic interface [Audio Devices], Notify method, IPortWaveCyclic, Notify method [Audio Devices], IPortWaveCyclic interface, IPortWaveCyclic::Notify, Notify method [Audio Devices], Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,15 +98,15 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536719">IMiniportWaveCyclicStream::SetNotificationFreq</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536719">IMiniportWaveCyclicStream::SetNotificationFreq</a>
 
 
 

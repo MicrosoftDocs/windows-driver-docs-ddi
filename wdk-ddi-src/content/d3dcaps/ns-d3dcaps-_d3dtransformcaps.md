@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4eb6c31d-97b2-4d51-ae49-ed2ab395188a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dtransformcaps, _D3DTRANSFORMCAPS, D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS, d3dcaps/LPD3DTRANSFORMCAPS, LPD3DTRANSFORMCAPS, d3dstrct_9dc73cc8-edfd-424e-b902-0305de356c07.xml, d3dcaps/D3DTRANSFORMCAPS, LPD3DTRANSFORMCAPS structure pointer [Display Devices], D3DTRANSFORMCAPS structure [Display Devices]
+ms.keywords: display.d3dtransformcaps, LPD3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS, d3dcaps/D3DTRANSFORMCAPS, D3DTRANSFORMCAPS, LPD3DTRANSFORMCAPS structure pointer [Display Devices], D3DTRANSFORMCAPS structure [Display Devices], d3dstrct_9dc73cc8-edfd-424e-b902-0305de356c07.xml, d3dcaps/LPD3DTRANSFORMCAPS, _D3DTRANSFORMCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

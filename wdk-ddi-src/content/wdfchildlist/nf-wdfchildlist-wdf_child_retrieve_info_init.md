@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e41a656c-c507-45ca-a232-6926ace3c9d9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectChildListRef_f647d2ee-4714-49b9-9ba4-18488fd66628.xml, WDF_CHILD_RETRIEVE_INFO_INIT function, kmdf.wdf_child_retrieve_info_init, wdfchildlist/WDF_CHILD_RETRIEVE_INFO_INIT, WDF_CHILD_RETRIEVE_INFO_INIT, wdf.wdf_child_retrieve_info_init
+ms.keywords: WDF_CHILD_RETRIEVE_INFO_INIT, WDF_CHILD_RETRIEVE_INFO_INIT function, wdfchildlist/WDF_CHILD_RETRIEVE_INFO_INIT, kmdf.wdf_child_retrieve_info_init, DFDeviceObjectChildListRef_f647d2ee-4714-49b9-9ba4-18488fd66628.xml, wdf.wdf_child_retrieve_info_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

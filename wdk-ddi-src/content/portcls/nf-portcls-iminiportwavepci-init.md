@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 0796a1a2-1aaa-4e07-a8f1-7a3c895643e7
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IMiniportWavePci, audio.iminiportwavepci_init, audmp-routines_fd2d7813-ebe8-4cf3-8a6c-4ebfccca5826.xml, Init method [Audio Devices], IMiniportWavePci interface, Init method [Audio Devices], portcls/IMiniportWavePci::Init, IMiniportWavePci interface [Audio Devices], Init method, IMiniportWavePci::Init, Init
+ms.keywords: Init, audmp-routines_fd2d7813-ebe8-4cf3-8a6c-4ebfccca5826.xml, portcls/IMiniportWavePci::Init, Init method [Audio Devices], Init method [Audio Devices], IMiniportWavePci interface, audio.iminiportwavepci_init, IMiniportWavePci, IMiniportWavePci interface [Audio Devices], Init method, IMiniportWavePci::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,11 +112,7 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
 
 
 
@@ -128,7 +124,11 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, <i>Port</i>, and <i>ServiceGroup
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 

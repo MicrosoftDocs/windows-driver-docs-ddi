@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 34BD68C3-446A-4074-8F5C-E670BE09083A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_DVBT2_L1_SIGNALLING_DATA, bdatypes/PBDA_DVBT2_L1_SIGNALLING_DATA, BDA_DVBT2_L1_SIGNALLING_DATA, _BDA_DVBT2_L1_SIGNALLING_DATA, BDA_DVBT2_L1_SIGNALLING_DATA structure [Streaming Media Devices], PBDA_DVBT2_L1_SIGNALLING_DATA structure pointer [Streaming Media Devices], *PBDA_DVBT2_L1_SIGNALLING_DATA, bdatypes/BDA_DVBT2_L1_SIGNALLING_DATA, stream.bda_dvbt2_l1_signalling_data
+ms.keywords: bdatypes/PBDA_DVBT2_L1_SIGNALLING_DATA, stream.bda_dvbt2_l1_signalling_data, *PBDA_DVBT2_L1_SIGNALLING_DATA, _BDA_DVBT2_L1_SIGNALLING_DATA, PBDA_DVBT2_L1_SIGNALLING_DATA structure pointer [Streaming Media Devices], BDA_DVBT2_L1_SIGNALLING_DATA structure [Streaming Media Devices], PBDA_DVBT2_L1_SIGNALLING_DATA, BDA_DVBT2_L1_SIGNALLING_DATA, bdatypes/BDA_DVBT2_L1_SIGNALLING_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

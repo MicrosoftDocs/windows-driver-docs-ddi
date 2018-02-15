@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07bbc201-0320-4f26-be0a-27c06763813f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTOutputDuplReleaseFrame, D3DKMTOutputDuplReleaseFrame function [Display Devices], PFND3DKMT_OUTPUTDUPLRELEASEFRAME, display.d3dkmtoutputduplreleaseframe, D3DKMTOutputDuplReleaseFrame
+ms.keywords: D3DKMTOutputDuplReleaseFrame, D3DKMTOutputDuplReleaseFrame function [Display Devices], d3dkmthk/D3DKMTOutputDuplReleaseFrame, display.d3dkmtoutputduplreleaseframe, PFND3DKMT_OUTPUTDUPLRELEASEFRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

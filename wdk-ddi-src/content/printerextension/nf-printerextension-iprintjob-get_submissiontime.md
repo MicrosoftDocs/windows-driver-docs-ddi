@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 23433B59-A376-4D92-863E-4492621F3BF5
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: get_SubmissionTime, printerextension/IPrintJob::get_SubmissionTime, IPrintJob interface [Print Devices], SubmissionTime property, IPrintJob, print.iprintjob_submissiontime, IPrintJob::get_SubmissionTime, SubmissionTime property [Print Devices], IPrintJob interface, printerextension/IPrintJob::SubmissionTime, IPrintJob.SubmissionTime, SubmissionTime property [Print Devices]
+ms.keywords: printerextension/IPrintJob::SubmissionTime, IPrintJob, IPrintJob interface [Print Devices], SubmissionTime property, IPrintJob::get_SubmissionTime, SubmissionTime property [Print Devices], IPrintJob interface, printerextension/IPrintJob::get_SubmissionTime, IPrintJob.SubmissionTime, print.iprintjob_submissiontime, get_SubmissionTime, SubmissionTime property [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 8126af29-a7ee-4ab7-8902-45b4baf33b9e
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: portcls/IPortWaveRTStream::GetPhysicalPagesCount, GetPhysicalPagesCount, IPortWaveRTStream interface [Audio Devices], GetPhysicalPagesCount method, GetPhysicalPagesCount method [Audio Devices], IPortWaveRTStream interface, IPortWaveRTStream::GetPhysicalPagesCount, audmp-routines_bdc74102-0337-436b-b3ac-68187fb323a4.xml, audio.iportwavertstream_getphysicalpagescount, IPortWaveRTStream, GetPhysicalPagesCount method [Audio Devices]
+ms.keywords: portcls/IPortWaveRTStream::GetPhysicalPagesCount, IPortWaveRTStream interface [Audio Devices], GetPhysicalPagesCount method, IPortWaveRTStream, audmp-routines_bdc74102-0337-436b-b3ac-68187fb323a4.xml, GetPhysicalPagesCount, GetPhysicalPagesCount method [Audio Devices], IPortWaveRTStream interface, audio.iportwavertstream_getphysicalpagescount, GetPhysicalPagesCount method [Audio Devices], IPortWaveRTStream::GetPhysicalPagesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,7 +92,11 @@ The miniport driver uses this call to determine the number of physical pages tha
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536928">IPortWaveRTStream::GetPhysicalPageAddress</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 
 
 
@@ -100,11 +104,7 @@ The miniport driver uses this call to determine the number of physical pages tha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536928">IPortWaveRTStream::GetPhysicalPageAddress</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
 
 

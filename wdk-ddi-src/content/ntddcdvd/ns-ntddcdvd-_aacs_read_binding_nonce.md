@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d017896-bb83-4ea3-9d28-b774213f86e9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PAACS_READ_BINDING_NONCE structure pointer [Storage Devices], AACS_READ_BINDING_NONCE structure [Storage Devices], storage.aacs_read_binding_nonce, AACS_READ_BINDING_NONCE, structs-DVD_bc4b150f-5fa2-4c8d-b8fa-d3c3bf1c8639.xml, ntddcdvd/PAACS_READ_BINDING_NONCE, *PAACS_READ_BINDING_NONCE, PAACS_READ_BINDING_NONCE, ntddcdvd/AACS_READ_BINDING_NONCE, _AACS_READ_BINDING_NONCE
+ms.keywords: AACS_READ_BINDING_NONCE, ntddcdvd/AACS_READ_BINDING_NONCE, *PAACS_READ_BINDING_NONCE, ntddcdvd/PAACS_READ_BINDING_NONCE, AACS_READ_BINDING_NONCE structure [Storage Devices], structs-DVD_bc4b150f-5fa2-4c8d-b8fa-d3c3bf1c8639.xml, PAACS_READ_BINDING_NONCE, _AACS_READ_BINDING_NONCE, PAACS_READ_BINDING_NONCE structure pointer [Storage Devices], storage.aacs_read_binding_nonce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,7 +107,7 @@ Clients retrieve the binding nonce with an <a href="..\ntddcdvd\ni-ntddcdvd-ioct
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
+<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_binding_nonce.md">AACS_BINDING_NONCE</a>
 
 
 
@@ -115,7 +115,7 @@ Clients retrieve the binding nonce with an <a href="..\ntddcdvd\ni-ntddcdvd-ioct
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_binding_nonce.md">AACS_BINDING_NONCE</a>
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
 
 
 

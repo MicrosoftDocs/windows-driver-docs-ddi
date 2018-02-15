@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 69D251D9-1B33-49FD-8D48-EFCBD6640632
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdmatransaction/WdfDmaTransactionAllocateResources, wdf.wdfdmatransactionallocateresources, kmdf.wdfdmatransactionallocateresources, WdfDmaTransactionAllocateResources method, PFN_WDFDMATRANSACTIONALLOCATERESOURCES, WdfDmaTransactionAllocateResources
+ms.keywords: wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources, WdfDmaTransactionAllocateResources method, PFN_WDFDMATRANSACTIONALLOCATERESOURCES, WdfDmaTransactionAllocateResources, kmdf.wdfdmatransactionallocateresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -184,15 +184,11 @@ To call <b>WdfDmaTransactionAllocateResources</b> in a non-blocking manner, the 
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md">WdfDmaTransactionSetImmediateExecution</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 
@@ -200,11 +196,15 @@ To call <b>WdfDmaTransactionAllocateResources</b> in a non-blocking manner, the 
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetimmediateexecution.md">WdfDmaTransactionSetImmediateExecution</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
 

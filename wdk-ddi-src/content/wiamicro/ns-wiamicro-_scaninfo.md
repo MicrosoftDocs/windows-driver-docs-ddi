@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PSCANINFO structure pointer [Imaging Devices], MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, image.scaninfo, wiamicro/SCANINFO, PSCANINFO, SCANINFO structure [Imaging Devices], _SCANINFO, *PSCANINFO, SCANINFO, wiamicro/PSCANINFO
+ms.keywords: "_SCANINFO, PSCANINFO structure pointer [Imaging Devices], *PSCANINFO, wiamicro/SCANINFO, PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, SCANINFO structure [Imaging Devices], wiamicro/PSCANINFO, image.scaninfo, SCANINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

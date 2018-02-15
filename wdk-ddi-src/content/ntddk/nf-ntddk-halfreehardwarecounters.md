@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 646a073b-e0c5-4d41-b60c-3935c129fb39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/HalFreeHardwareCounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], HalFreeHardwareCounters, kernel.halfreehardwarecounters, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml
+ms.keywords: kernel.halfreehardwarecounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], ntddk/HalFreeHardwareCounters, HalFreeHardwareCounters, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

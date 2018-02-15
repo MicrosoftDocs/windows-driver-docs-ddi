@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency, OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], _D3DKMT_QUERYALLOCATIONRESIDENCY
+ms.keywords: D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], _D3DKMT_QUERYALLOCATIONRESIDENCY, OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

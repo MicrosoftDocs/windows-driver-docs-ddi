@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e87104d2-96e4-4840-8609-8a75247a039a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILDELETEMSGPARAMS, RILDELETEMSGPARAMS, netvista.rildeletemsgparams, *LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILDELETEMSGPARAMS, ntddrilapitypes/RILDELETEMSGPARAMS, *LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletemsgparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

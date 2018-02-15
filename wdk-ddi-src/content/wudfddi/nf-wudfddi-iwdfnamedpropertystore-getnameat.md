@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6ebf45b-b411-4684-b430-0b17a56ec0c0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore interface, GetNameAt method, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml, wudfddi/IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore, wdf.iwdfnamedpropertystore_getnameat, GetNameAt method, GetNameAt method, IWDFNamedPropertyStore interface, GetNameAt, umdf.iwdfnamedpropertystore_getnameat
+ms.keywords: IWDFNamedPropertyStore::GetNameAt, GetNameAt, IWDFNamedPropertyStore interface, GetNameAt method, wdf.iwdfnamedpropertystore_getnameat, wudfddi/IWDFNamedPropertyStore::GetNameAt, IWDFNamedPropertyStore, GetNameAt method, IWDFNamedPropertyStore interface, GetNameAt method, umdf.iwdfnamedpropertystore_getnameat, UMDFPropertyStoreObjectRef_d7568b53-9673-4344-bbbc-100fc19aaba5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

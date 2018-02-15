@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 490c95f5-ea93-4521-8fa5-4ca1f83ff19d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallbackSelfManagedIo, OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoStop method, umdf.ipnpcallbackselfmanagedio_onselfmanagediostop, OnSelfManagedIoStop, IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, wdf.ipnpcallbackselfmanagedio_onselfmanagediostop, OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo interface, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, UMDFDeviceObjectRef_d9eba21f-f9a7-48d2-a8e7-f71a735246bc.xml
+ms.keywords: OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo, OnSelfManagedIoStop, UMDFDeviceObjectRef_d9eba21f-f9a7-48d2-a8e7-f71a735246bc.xml, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, OnSelfManagedIoStop method, IPnpCallbackSelfManagedIo interface, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoStop, umdf.ipnpcallbackselfmanagedio_onselfmanagediostop, wdf.ipnpcallbackselfmanagedio_onselfmanagediostop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

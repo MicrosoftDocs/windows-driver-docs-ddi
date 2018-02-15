@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 77a42d5e-92ff-4e64-9bd3-b713286d3db0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbCopyW function [Kernel-Mode Driver Architecture], safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml, ntstrsafe/RtlStringCbCopyW, RtlStringCbCopy, ntstrsafe/RtlStringCbCopyA, RtlStringCbCopyA, kernel.rtlstringcbcopy, RtlStringCbCopyW
+ms.keywords: ntstrsafe/RtlStringCbCopyA, RtlStringCbCopyW, RtlStringCbCopyA, RtlStringCbCopy, kernel.rtlstringcbcopy, ntstrsafe/RtlStringCbCopyW, RtlStringCbCopyW function [Kernel-Mode Driver Architecture], safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

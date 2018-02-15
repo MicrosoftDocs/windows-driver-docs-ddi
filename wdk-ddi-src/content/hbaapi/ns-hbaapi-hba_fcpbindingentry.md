@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c9c46133-a660-46c6-911b-77c2dd2ed2e0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_fcpbindingentry, HBA_FCPBindingEntry, *PHBA_FCPBINDINGENTRY, HBA_FCPBINDINGENTRY, hbaapi/HBA_FCPBindingEntry, structs-Fibre_b3a84cf5-d8d5-41cc-9fe3-d362da586cbc.xml, HBA_FCPBindingEntry structure [Storage Devices]
+ms.keywords: structs-Fibre_b3a84cf5-d8d5-41cc-9fe3-d362da586cbc.xml, HBA_FCPBindingEntry structure [Storage Devices], *PHBA_FCPBINDINGENTRY, hbaapi/HBA_FCPBindingEntry, HBA_FCPBindingEntry, storage.hba_fcpbindingentry, HBA_FCPBINDINGENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

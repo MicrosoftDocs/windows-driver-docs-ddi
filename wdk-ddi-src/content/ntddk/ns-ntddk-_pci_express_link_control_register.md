@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: f4f8bd0d-fad7-4712-92ca-44d45969142d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER union pointer [Buses], PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER union [Buses], _PCI_EXPRESS_LINK_CONTROL_REGISTER, pci_struct_0fc5be0f-aae8-4d59-a569-030eb593e927.xml, ntddk/PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI.pci_express_link_control_register, *PPCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_LINK_CONTROL_REGISTER
+ms.keywords: ntddk/PPCI_EXPRESS_LINK_CONTROL_REGISTER, ntddk/PCI_EXPRESS_LINK_CONTROL_REGISTER, PPCI_EXPRESS_LINK_CONTROL_REGISTER, _PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI_EXPRESS_LINK_CONTROL_REGISTER, PCI.pci_express_link_control_register, PPCI_EXPRESS_LINK_CONTROL_REGISTER union pointer [Buses], PCI_EXPRESS_LINK_CONTROL_REGISTER union [Buses], pci_struct_0fc5be0f-aae8-4d59-a569-030eb593e927.xml, *PPCI_EXPRESS_LINK_CONTROL_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -140,6 +140,11 @@ A USHORT representation of the contents of the PCI_EXPRESS_LINK_CONTROL_REGISTER
 L0s and L1 are both disabled.
 
 
+##### - ActiveStatePMControl.L0sAndL1EntryEnabled
+
+L0s and L1 are both enabled.
+
+
 ##### - ActiveStatePMControl.L0sEntryEnabled
 
 L0s is enabled.
@@ -148,11 +153,6 @@ L0s is enabled.
 ##### - ActiveStatePMControl.L1EntryEnabled
 
 L1 is enabled.
-
-
-##### - ActiveStatePMControl.L0sAndL1EntryEnabled
-
-L0s and L1 are both enabled.
 
 
 ## -remarks

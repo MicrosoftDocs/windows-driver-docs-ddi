@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BAC97D72-23C4-49A6-A13D-0F011113DB32
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/PMARK_HANDLE_INFO32, USN_SOURCE_AUXILIARY_DATA, ifsk.mark_handle_info32, MARK_HANDLE_INFO32 structure [Installable File System Drivers], ntifs/MARK_HANDLE_INFO32, USN_SOURCE_REPLICATION_MANAGEMENT, *PMARK_HANDLE_INFO32, USN_SOURCE_DATA_MANAGEMENT, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_TXF_SYSTEM_LOG, MARK_HANDLE_NOT_REALTIME, PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], MARK_HANDLE_INFO32, MARK_HANDLE_REALTIME
+ms.keywords: MARK_HANDLE_INFO32 structure [Installable File System Drivers], USN_SOURCE_DATA_MANAGEMENT, ntifs/PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], USN_SOURCE_REPLICATION_MANAGEMENT, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_TXF_SYSTEM_LOG, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO32, MARK_HANDLE_REALTIME, *PMARK_HANDLE_INFO32, MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_INFO32, USN_SOURCE_AUXILIARY_DATA, ifsk.mark_handle_info32, ntifs/MARK_HANDLE_INFO32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -466,11 +466,11 @@ When running on a 64-bit system, file system minifilters must interpret the inpu
 
 
 
-<a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltis32bitprocess.md">FltIs32bitProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a>
 
 
 

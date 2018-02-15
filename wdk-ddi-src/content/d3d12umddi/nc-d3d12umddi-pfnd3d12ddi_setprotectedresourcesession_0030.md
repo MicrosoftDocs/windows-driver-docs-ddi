@@ -71,8 +71,9 @@ VOID APIENTRY* PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HPROTECTEDRESOURCESESSION_0030
+
+
 
 
 
@@ -92,6 +93,8 @@ The protected resource session.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

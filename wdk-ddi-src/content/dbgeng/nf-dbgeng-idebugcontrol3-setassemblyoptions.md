@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ec86ac71-212c-4edd-94c6-bab1cb5fa660
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setassemblyoptions, SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, SetAssemblyOptions method [Windows Debugging], dbgeng/IDebugControl3::SetAssemblyOptions, SetAssemblyOptions, IDebugControl3, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, IDebugControl3::SetAssemblyOptions
+ms.keywords: IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, SetAssemblyOptions, debugger.setassemblyoptions, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, IDebugControl3::SetAssemblyOptions, SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, SetAssemblyOptions method [Windows Debugging], dbgeng/IDebugControl3::SetAssemblyOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -173,11 +173,19 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 
 
@@ -189,15 +197,7 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: cb882170-5c8e-455d-89a6-b09ca77e63fb
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.iresourcelist_numberofentries, NumberOfEntries, IResourceList, NumberOfEntries method [Audio Devices], IResourceList interface, NumberOfEntries method [Audio Devices], IResourceList::NumberOfEntries, IResourceList interface [Audio Devices], NumberOfEntries method, portcls/IResourceList::NumberOfEntries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml
+ms.keywords: audio.iresourcelist_numberofentries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, IResourceList::NumberOfEntries, IResourceList interface [Audio Devices], NumberOfEntries method, NumberOfEntries, IResourceList, NumberOfEntries method [Audio Devices], portcls/IResourceList::NumberOfEntries, NumberOfEntries method [Audio Devices], IResourceList interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

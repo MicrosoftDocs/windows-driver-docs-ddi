@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e6247856-5abf-44ea-afe8-9be3f61271a4
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlAbsoluteToSelfRelativeSD, RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers], rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml, ifsk.rtlabsolutetoselfrelativesd, ntifs/RtlAbsoluteToSelfRelativeSD
+ms.keywords: RtlAbsoluteToSelfRelativeSD, rtlref_809e562f-be24-43d2-8357-ffd83eac421a.xml, ntifs/RtlAbsoluteToSelfRelativeSD, ifsk.rtlabsolutetoselfrelativesd, RtlAbsoluteToSelfRelativeSD routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,7 +139,15 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlselfrelativetoabsolutesd.md">RtlSelfRelativeToAbsoluteSD</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 
 
@@ -151,19 +159,11 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlselfrelativetoabsolutesd.md">RtlSelfRelativeToAbsoluteSD</a>
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 
 

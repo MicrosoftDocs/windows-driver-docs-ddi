@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14b0aed7-1602-41a3-bc55-59da40650860
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-CD-ROM_d4acf54e-b837-4064-a654-4fa2ebbe7425.xml, ntddcdrm/SUB_Q_MEDIA_CATALOG_NUMBER, SUB_Q_MEDIA_CATALOG_NUMBER structure [Storage Devices], *PSUB_Q_MEDIA_CATALOG_NUMBER, _SUB_Q_MEDIA_CATALOG_NUMBER, ntddcdrm/PSUB_Q_MEDIA_CATALOG_NUMBER, SUB_Q_MEDIA_CATALOG_NUMBER, PSUB_Q_MEDIA_CATALOG_NUMBER structure pointer [Storage Devices], storage.sub_q_media_catalog_number, PSUB_Q_MEDIA_CATALOG_NUMBER
+ms.keywords: SUB_Q_MEDIA_CATALOG_NUMBER structure [Storage Devices], PSUB_Q_MEDIA_CATALOG_NUMBER structure pointer [Storage Devices], storage.sub_q_media_catalog_number, *PSUB_Q_MEDIA_CATALOG_NUMBER, ntddcdrm/PSUB_Q_MEDIA_CATALOG_NUMBER, _SUB_Q_MEDIA_CATALOG_NUMBER, SUB_Q_MEDIA_CATALOG_NUMBER, structs-CD-ROM_d4acf54e-b837-4064-a654-4fa2ebbe7425.xml, ntddcdrm/SUB_Q_MEDIA_CATALOG_NUMBER, PSUB_Q_MEDIA_CATALOG_NUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,11 +108,11 @@ Contains the catalog number if <b>Mcval</b> is set to 1.
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_header.md">SUB_Q_HEADER</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
 
 
 

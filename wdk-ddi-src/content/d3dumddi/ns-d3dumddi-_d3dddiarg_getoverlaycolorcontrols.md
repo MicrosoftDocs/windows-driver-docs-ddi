@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63d14667-7409-40c8-af03-e4ffedd73e7e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_getoverlaycolorcontrols, d3dumddi/D3DDDIARG_GETOVERLAYCOLORCONTROLS, _D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS structure [Display Devices], UMDisplayDriver_param_Structs_eedf1607-a208-42ba-8d05-6151e489ee8f.xml
+ms.keywords: d3dumddi/D3DDDIARG_GETOVERLAYCOLORCONTROLS, D3DDDIARG_GETOVERLAYCOLORCONTROLS structure [Display Devices], D3DDDIARG_GETOVERLAYCOLORCONTROLS, display.d3dddiarg_getoverlaycolorcontrols, _D3DDDIARG_GETOVERLAYCOLORCONTROLS, UMDisplayDriver_param_Structs_eedf1607-a208-42ba-8d05-6151e489ee8f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1E1AC024-D628-4E31-80EF-8E929B8449FE
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: NfcCxDeviceDeinitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceDeinitialize, NfcCxDeviceDeinitialize, nfpdrivers._nfccxdevicedeinitialize
+ms.keywords: nfccx/NfcCxDeviceDeinitialize, NfcCxDeviceDeinitialize, nfpdrivers._nfccxdevicedeinitialize, NfcCxDeviceDeinitialize method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

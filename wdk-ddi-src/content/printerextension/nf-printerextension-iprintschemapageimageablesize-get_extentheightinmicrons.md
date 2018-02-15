@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: AA305230-B194-465F-936E-24FDE9929EAC
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ExtentHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, print.iprintschemapageimageablesize_extentheightinmicrons, IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::ExtentHeightInMicrons, IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize.ExtentHeightInMicrons, IPrintSchemaPageImageableSize interface [Print Devices], ExtentHeightInMicrons property, get_ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, ExtentHeightInMicrons property [Print Devices]
+ms.keywords: printerextension/IPrintSchemaPageImageableSize::ExtentHeightInMicrons, IPrintSchemaPageImageableSize.ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, ExtentHeightInMicrons property [Print Devices], print.iprintschemapageimageablesize_extentheightinmicrons, IPrintSchemaPageImageableSize, get_ExtentHeightInMicrons, ExtentHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices], ExtentHeightInMicrons property, IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

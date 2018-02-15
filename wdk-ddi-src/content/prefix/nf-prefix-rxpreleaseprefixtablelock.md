@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 57aef4ed-2ece-4af3-b1ca-e4fe5a306f82
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RxpReleasePrefixTableLock function [Installable File System Drivers], RxpReleasePrefixTableLock, rxref_34f5b33a-efeb-42a0-8e57-6c32c262319a.xml, ifsk.rxpreleaseprefixtablelock, prefix/RxpReleasePrefixTableLock
+ms.keywords: rxref_34f5b33a-efeb-42a0-8e57-6c32c262319a.xml, ifsk.rxpreleaseprefixtablelock, RxpReleasePrefixTableLock, prefix/RxpReleasePrefixTableLock, RxpReleasePrefixTableLock function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,7 +112,15 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
+
+
+
 <a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+
+
+
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
 
 
 
@@ -125,14 +133,6 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 
 <a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
-
-
-
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
 
 
 

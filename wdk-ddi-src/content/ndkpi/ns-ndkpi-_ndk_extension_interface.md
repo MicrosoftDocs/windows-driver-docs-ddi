@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BFA8FF36-1B10-4358-8826-9D5C32F27CFF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndk_extension_interface, _NDK_EXTENSION_INTERFACE, NDK_EXTENSION_INTERFACE structure [Network Drivers Starting with Windows Vista], NDK_EXTENSION_INTERFACE, PNDK_EXTENSION_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], ndkpi/NDK_EXTENSION_INTERFACE, PNDK_EXTENSION_INTERFACE, ndkpi/PNDK_EXTENSION_INTERFACE
+ms.keywords: NDK_EXTENSION_INTERFACE structure [Network Drivers Starting with Windows Vista], PNDK_EXTENSION_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], PNDK_EXTENSION_INTERFACE, NDK_EXTENSION_INTERFACE, ndkpi/NDK_EXTENSION_INTERFACE, _NDK_EXTENSION_INTERFACE, netvista.ndk_extension_interface, ndkpi/PNDK_EXTENSION_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

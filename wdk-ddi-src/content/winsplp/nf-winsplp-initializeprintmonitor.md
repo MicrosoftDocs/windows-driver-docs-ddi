@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 825ae98b-74d7-4e41-944b-0dc77cc0cc51
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, print.initializeprintmonitor, InitializePrintMonitor, winsplp/InitializePrintMonitor, InitializePrintMonitor function [Print Devices]
+ms.keywords: InitializePrintMonitor function [Print Devices], spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, print.initializeprintmonitor, InitializePrintMonitor, winsplp/InitializePrintMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

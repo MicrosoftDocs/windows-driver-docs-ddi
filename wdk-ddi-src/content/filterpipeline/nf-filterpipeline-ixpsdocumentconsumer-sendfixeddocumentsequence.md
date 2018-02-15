@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: e2541943-7e0c-45ca-bdfe-2d48581f62a4
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.ixpsdocumentconsumer_sendfixeddocumentsequence, filterpipeline/IXpsDocumentConsumer::SendFixedDocumentSequence, IXpsDocumentConsumer, IXpsDocumentConsumer::SendFixedDocumentSequence, SendFixedDocumentSequence, SendFixedDocumentSequence method [Print Devices], IXpsDocumentConsumer interface, filterpipeline_cd741d5b-4069-4a67-8add-b5c2701699f6.xml, IXpsDocumentConsumer interface [Print Devices], SendFixedDocumentSequence method, SendFixedDocumentSequence method [Print Devices]
+ms.keywords: IXpsDocumentConsumer::SendFixedDocumentSequence, IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendFixedDocumentSequence method, SendFixedDocumentSequence, SendFixedDocumentSequence method [Print Devices], SendFixedDocumentSequence method [Print Devices], IXpsDocumentConsumer interface, print.ixpsdocumentconsumer_sendfixeddocumentsequence, filterpipeline_cd741d5b-4069-4a67-8add-b5c2701699f6.xml, filterpipeline/IXpsDocumentConsumer::SendFixedDocumentSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

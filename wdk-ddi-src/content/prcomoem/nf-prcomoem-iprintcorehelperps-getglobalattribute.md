@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 4243ac31-83a7-47b5-8406-9d9537fbeb11
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, GetGlobalAttribute, print.iprintcorehelperps_getglobalattribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, IPrintCoreHelperPS::GetGlobalAttribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml
+ms.keywords: GetGlobalAttribute, IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, GetGlobalAttribute method [Print Devices], prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, IPrintCoreHelperPS::GetGlobalAttribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, print.iprintcorehelperps_getglobalattribute, IPrintCoreHelperPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

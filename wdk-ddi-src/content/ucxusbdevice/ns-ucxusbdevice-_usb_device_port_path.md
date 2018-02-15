@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 75C7DB08-F831-43ED-8373-F3F4C7AF89E8
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH, ucxusbdevice/_USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH structure pointer [Buses], P_USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH structure [Buses], ucxusbdevice/P_USB_DEVICE_PORT_PATH, buses._usb_device_port_path"
+ms.keywords: P_USB_DEVICE_PORT_PATH, buses._usb_device_port_path, USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH structure pointer [Buses], ucxusbdevice/_USB_DEVICE_PORT_PATH, ucxusbdevice/P_USB_DEVICE_PORT_PATH, _USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: C4AA60FF-03AD-444F-B897-654B787B5F86
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure pointer [Parallel Ports], CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure [Parallel Ports], GPIO.client_controller_query_set_information_input, _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
+ms.keywords: PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure [Parallel Ports], GPIO.client_controller_query_set_information_input, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -259,7 +259,7 @@ The <i>InputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
@@ -267,11 +267,11 @@ The <i>InputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 258addec-7231-494c-aa70-5966e9a57132
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InitializeSListHead routine [Kernel-Mode Driver Architecture], wdm/InitializeSListHead, ExInitializeSListHead, kernel.exinitializeslisthead, InitializeSListHead, k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml
+ms.keywords: InitializeSListHead routine [Kernel-Mode Driver Architecture], kernel.exinitializeslisthead, ExInitializeSListHead, InitializeSListHead, k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml, wdm/InitializeSListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,19 +107,19 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 
-<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
 
 
 <a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exquerydepthslist.md">ExQueryDepthSList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
 
 

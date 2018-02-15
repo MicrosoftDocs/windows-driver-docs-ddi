@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], prcomoem/IPrintOemUni3::GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method
+ms.keywords: IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method, GetPDEVAdjustment, prcomoem/IPrintOemUni3::GetPDEVAdjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, GetPDEVAdjustment method [Print Devices], print.iprintoemuni3_getpdevadjustment, IPrintOemUni3::GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -157,11 +157,15 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 ## -see-also
 
+<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
+
+
+
 <a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
+<a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
 
 
 
@@ -169,15 +173,11 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
-
-
-
 <a href="..\printoem\ns-printoem-_pdev_adjust_graphics_resolution.md">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
 
 
 

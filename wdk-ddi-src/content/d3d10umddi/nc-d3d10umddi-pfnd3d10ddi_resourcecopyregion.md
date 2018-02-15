@@ -96,16 +96,6 @@ VOID APIENTRY ResourceCopyRegion(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
-
 #### - DstSubresource [in]
 
  An index that indicates the destination subresource to copy to. 
@@ -126,14 +116,24 @@ VOID APIENTRY ResourceCopyRegion(
  The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
 
 
-#### - hSrcResource [in]
-
- A handle to the source resource to copy from.
-
-
 #### - SrcSubresource [in]
 
  An index that indicates the source subresource to copy from. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - hDstResource [in]
+
+ A handle to the destination resource to copy to.
+
+
+#### - hSrcResource [in]
+
+ A handle to the source resource to copy from.
 
 
 #### - pSrcBox [in, optional]
@@ -254,11 +254,11 @@ The source and destination resources must have the same number of samples and qu
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a>
 
 
 

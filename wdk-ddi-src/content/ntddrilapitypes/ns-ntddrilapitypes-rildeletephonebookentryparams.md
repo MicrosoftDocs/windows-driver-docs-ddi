@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a372468-2bad-44d4-a19a-d3b517b7ed7b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rildeletephonebookentryparams, *LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], RILDELETEPHONEBOOKENTRYPARAMS, ntddrilapitypes/RILDELETEPHONEBOOKENTRYPARAMS
+ms.keywords: RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletephonebookentryparams, *LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS, ntddrilapitypes/RILDELETEPHONEBOOKENTRYPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec080043-a147-4002-8d0c-ed383182ec40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.dvd_key_type, ntddcdvd/DvdChallengeKey, DvdGetRpcKey, ntddcdvd/DvdInvalidateAGID, DvdBusKey1, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, DvdChallengeKey, ntddcdvd/DvdGetRpcKey, DvdSetRpcKey, ntddcdvd/DvdSetRpcKey, ntddcdvd/DvdAsf, DvdTitleKey, DvdDiskKey, DVD_KEY_TYPE enumeration [Storage Devices], ntddcdvd/DvdBusKey1, ntddcdvd/DvdDiskKey, DvdBusKey2, ntddcdvd/DvdTitleKey, DVD_KEY_TYPE, ntddcdvd/DVD_KEY_TYPE, DvdInvalidateAGID, DvdAsf, ntddcdvd/DvdBusKey2
+ms.keywords: DvdGetRpcKey, ntddcdvd/DvdInvalidateAGID, DvdTitleKey, DVD_KEY_TYPE enumeration [Storage Devices], DVD_KEY_TYPE, ntddcdvd/DvdBusKey1, ntddcdvd/DvdDiskKey, DvdBusKey2, ntddcdvd/DvdSetRpcKey, DvdInvalidateAGID, ntddcdvd/DvdTitleKey, ntddcdvd/DvdAsf, DvdDiskKey, DvdSetRpcKey, DvdAsf, DvdChallengeKey, ntddcdvd/DVD_KEY_TYPE, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, ntddcdvd/DvdBusKey2, DvdBusKey1, storage.dvd_key_type, ntddcdvd/DvdChallengeKey, ntddcdvd/DvdGetRpcKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

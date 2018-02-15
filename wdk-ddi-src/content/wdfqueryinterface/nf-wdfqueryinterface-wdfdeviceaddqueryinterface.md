@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6e811b5e-bd2a-473b-8e5c-52bfbd9b8f7c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceaddqueryinterface, WdfDeviceAddQueryInterface, PFN_WDFDEVICEADDQUERYINTERFACE, WdfDeviceAddQueryInterface method, DFDeviceObjectDriverDefIntRef_6d1dbdca-5adf-4641-91c9-7c59e2af6869.xml, wdfqueryinterface/WdfDeviceAddQueryInterface, wdf.wdfdeviceaddqueryinterface
+ms.keywords: WdfDeviceAddQueryInterface, WdfDeviceAddQueryInterface method, PFN_WDFDEVICEADDQUERYINTERFACE, wdf.wdfdeviceaddqueryinterface, kmdf.wdfdeviceaddqueryinterface, DFDeviceObjectDriverDefIntRef_6d1dbdca-5adf-4641-91c9-7c59e2af6869.xml, wdfqueryinterface/WdfDeviceAddQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -235,18 +235,6 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
@@ -255,11 +243,23 @@ if (!NT_SUCCESS(status)) {
 
 
 
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
+
+
+
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
 
 
 
 <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+
+
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
 
 
 

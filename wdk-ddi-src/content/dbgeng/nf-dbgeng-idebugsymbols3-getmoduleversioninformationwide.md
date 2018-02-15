@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 60bb493c-81a2-45d7-8c2c-939afeda8a14
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformationWide method, GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getmoduleversioninformationwide, GetModuleVersionInformationWide method [Windows Debugging], GetModuleVersionInformationWide, IDebugSymbols3
+ms.keywords: debugger.getmoduleversioninformationwide, IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformationWide method, GetModuleVersionInformationWide, GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,10 +165,6 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547927">GetNumberModules</a>
 
 
@@ -178,6 +174,10 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

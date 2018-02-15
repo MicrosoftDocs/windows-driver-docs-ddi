@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1b81de5a-440a-4209-992e-7f79c047245c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print_obsoletefunctions_fa20bac8-85b3-4ddb-8bf6-1a659f30b3ad.xml, OEMFilterGraphics function [Print Devices], printoem/OEMFilterGraphics, OEMFilterGraphics, print.oemfiltergraphics
+ms.keywords: print_obsoletefunctions_fa20bac8-85b3-4ddb-8bf6-1a659f30b3ad.xml, OEMFilterGraphics, print.oemfiltergraphics, OEMFilterGraphics function [Print Devices], printoem/OEMFilterGraphics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

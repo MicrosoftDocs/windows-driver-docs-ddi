@@ -144,7 +144,7 @@ After <i>Rename</i> returns successfully (with S_OK), the user-mode display driv
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
@@ -152,15 +152,15 @@ After <i>Rename</i> returns successfully (with S_OK), the user-mode display driv
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_rename.md">D3DDDIARG_RENAME</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
 
 
 

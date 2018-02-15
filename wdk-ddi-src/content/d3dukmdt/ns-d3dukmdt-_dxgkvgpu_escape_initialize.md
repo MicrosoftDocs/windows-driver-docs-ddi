@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 697F4A4C-349E-46E5-B891-215C4AFFC4B6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE, DXGKVGPU_ESCAPE_INITIALIZE structure [Display Devices], _DXGKVGPU_ESCAPE_INITIALIZE, display.dxgkvgpu_escape_initialize, DXGKVGPU_ESCAPE_INITIALIZE
+ms.keywords: DXGKVGPU_ESCAPE_INITIALIZE, DXGKVGPU_ESCAPE_INITIALIZE structure [Display Devices], display.dxgkvgpu_escape_initialize, _DXGKVGPU_ESCAPE_INITIALIZE, d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

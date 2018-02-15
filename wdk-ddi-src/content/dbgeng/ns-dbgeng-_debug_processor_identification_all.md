@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2C4C03BC-0D84-4151-B1A1-FE76F0355CD6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: "_DEBUG_PROCESSOR_IDENTIFICATION_ALL, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL union [Windows Debugging], *PDEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL, debugger.debug_processor_identification_all"
+ms.keywords: debugger.debug_processor_identification_all, DEBUG_PROCESSOR_IDENTIFICATION_ALL, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL, *PDEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL union [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,11 +104,7 @@ An ARM64 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identifica
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_ia64.md">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a>
-
-
-
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_arm.md">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_amd64.md">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a>
 
 
 
@@ -116,7 +112,7 @@ An ARM64 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identifica
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_alpha.md">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_ia64.md">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a>
 
 
 
@@ -124,7 +120,11 @@ An ARM64 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identifica
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_amd64.md">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_arm.md">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a>
+
+
+
+<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_alpha.md">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a>
 
 
 

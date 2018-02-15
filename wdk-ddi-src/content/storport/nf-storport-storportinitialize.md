@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b560ce42-3c5c-4766-bb9c-6590b7113ecd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportinitialize, StorPortInitialize routine [Storage Devices], storport/StorPortInitialize, StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml
+ms.keywords: StorPortInitialize routine [Storage Devices], storage.storportinitialize, StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml, storport/StorPortInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,11 +190,11 @@ Every miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
-
-
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 
 

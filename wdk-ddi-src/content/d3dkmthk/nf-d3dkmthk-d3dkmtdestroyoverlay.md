@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8a5eef07-97b7-43ca-b8e0-15af89aa7d82
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTDestroyOverlay, D3DKMTDestroyOverlay, OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, display.d3dkmtdestroyoverlay, D3DKMTDestroyOverlay function [Display Devices]
+ms.keywords: D3DKMTDestroyOverlay function [Display Devices], OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, d3dkmthk/D3DKMTDestroyOverlay, display.d3dkmtdestroyoverlay, D3DKMTDestroyOverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

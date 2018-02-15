@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c74f5633-49bf-4c8d-8702-89723067753a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaUninitFilter function [Streaming Media Devices], stream.bdauninitfilter, BdaUninitFilter, bdaref_68d86dcd-9a84-4c5f-acf5-8174ab3ba6d8.xml, bdasup/BdaUninitFilter
+ms.keywords: stream.bdauninitfilter, BdaUninitFilter, bdaref_68d86dcd-9a84-4c5f-acf5-8174ab3ba6d8.xml, BdaUninitFilter function [Streaming Media Devices], bdasup/BdaUninitFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

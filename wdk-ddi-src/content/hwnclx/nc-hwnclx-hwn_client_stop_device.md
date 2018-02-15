@@ -40,7 +40,7 @@ apiname:
 -	*PHWN_CLIENT_STOP_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES"
+req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
 ---
 
 # HWN_CLIENT_STOP_DEVICE callback

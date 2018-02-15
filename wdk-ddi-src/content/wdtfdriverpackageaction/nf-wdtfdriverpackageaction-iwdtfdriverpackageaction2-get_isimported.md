@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9385ad16-843a-4454-ab58-5ccecc3cf6e8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: dtf.iwdtfdriverpackageaction2_isimported, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IsImported property, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2.IsImported, Microsoft::WDTF::IWDTFDriverPackageAction2::IsImported, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsImported, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsImported, get_IsImported, Microsoft.WDTF.IWDTFDriverPackageAction2.IsImported, IWDTFDriverPackageAction2::get_IsImported, IsImported property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IsImported property [Windows Device Testing Framework]
+ms.keywords: get_IsImported, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsImported, IWDTFDriverPackageAction2.IsImported, Microsoft.WDTF.IWDTFDriverPackageAction2.IsImported, IsImported property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IsImported property, dtf.iwdtfdriverpackageaction2_isimported, IWDTFDriverPackageAction2::get_IsImported, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsImported, IWDTFDriverPackageAction2, Microsoft::WDTF::IWDTFDriverPackageAction2::IsImported, IsImported property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

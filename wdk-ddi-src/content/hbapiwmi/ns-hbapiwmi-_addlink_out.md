@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe088ec7-2577-488d-a1c7-a7e2a1f86f6a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PAddLink_OUT, PAddLink_OUT structure pointer [Storage Devices], hbapiwmi/AddLink_OUT, storage.addlink_out, structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml, PAddLink_OUT, AddLink_OUT structure [Storage Devices], *PAddLink_OUT, AddLink_OUT, _AddLink_OUT
+ms.keywords: AddLink_OUT, structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml, *PAddLink_OUT, hbapiwmi/AddLink_OUT, hbapiwmi/PAddLink_OUT, _AddLink_OUT, storage.addlink_out, PAddLink_OUT, PAddLink_OUT structure pointer [Storage Devices], AddLink_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,7 @@ The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hb
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>
 
 
 
@@ -91,7 +91,7 @@ The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hb
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

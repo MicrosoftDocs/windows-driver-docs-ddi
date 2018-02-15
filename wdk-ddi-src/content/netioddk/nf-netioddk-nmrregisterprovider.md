@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NmrRegisterProvider function [Network Drivers Starting with Windows Vista], nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, NmrRegisterProvider, netioddk/NmrRegisterProvider, netvista.nmrregisterprovider
+ms.keywords: NmrRegisterProvider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml, netvista.nmrregisterprovider, netioddk/NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -174,15 +174,15 @@ A provider module typically calls the
 
 ## -see-also
 
+<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
+
+
+
 <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
 
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
 
 
 

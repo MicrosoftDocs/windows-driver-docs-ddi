@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemPS::GetInfo, prcomoem/IPrintOemPS::GetInfo, print.iprintoemps_getinfo, IPrintOemPS interface [Print Devices], GetInfo method, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml, GetInfo method [Print Devices], IPrintOemPS interface, GetInfo method [Print Devices], GetInfo, IPrintOemPS
+ms.keywords: IPrintOemPS::GetInfo, prcomoem/IPrintOemPS::GetInfo, IPrintOemPS interface [Print Devices], GetInfo method, print.iprintoemps_getinfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml, GetInfo method [Print Devices], GetInfo, GetInfo method [Print Devices], IPrintOemPS interface, IPrintOemPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -190,11 +190,11 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
 
 
 

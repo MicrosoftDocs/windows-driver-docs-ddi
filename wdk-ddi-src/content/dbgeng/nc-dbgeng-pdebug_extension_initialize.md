@@ -87,6 +87,7 @@ Set this to zero. (Reserved for future use.)
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,18 +104,22 @@ The extension was successfully initialized.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Any other value indicates that the extension DLL was unable to initialize and the engine will unload it.
+
 
 
 
 ## -remarks
 
 
+
 The engine looks for this function by name in each extension DLL.  This function must be exported by a DbgEng extension DLL.
 
 The version number can be set by using the macro DEBUG_EXTENSION_VERSION found in dbgeng.h, for example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -124,7 +129,8 @@ The version number can be set by using the macro DEBUG_EXTENSION_VERSION found i
 <pre>*Version = DEBUG_EXTENSION_VERSION(Major, Minor)</pre>
 </td>
 </tr>
-</table></span></div>Implementations of this function should initialize any global variables required by the extension DLL.
+</table></span></div>
+Implementations of this function should initialize any global variables required by the extension DLL.
 
 There may or may not be a session active when this function is called, so the extension should not assume that it is able to query session information.
 
@@ -132,13 +138,20 @@ There may or may not be a session active when this function is called, so the ex
 
 
 
+
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
+
+
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_notify.md">DebugExtensionNotify</a>
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
+
+
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
+
+
 
  
 

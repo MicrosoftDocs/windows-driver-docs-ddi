@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 06d4d1f1-8d28-46cc-8c80-8a67cf4ae4c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.addsyntheticsymbolwide, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbolWide method, AddSyntheticSymbolWide, AddSyntheticSymbolWide method [Windows Debugging], AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, IDebugSymbols3::AddSyntheticSymbolWide, IDebugSymbols3
+ms.keywords: IDebugSymbols3::AddSyntheticSymbolWide, debugger.addsyntheticsymbolwide, dbgeng/IDebugSymbols3::AddSyntheticSymbolWide, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbolWide method, IDebugSymbols3, AddSyntheticSymbolWide, AddSyntheticSymbolWide method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticSymbolWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -139,7 +139,7 @@ For more information about synthetic symbols, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
 
 
 
@@ -147,7 +147,7 @@ For more information about synthetic symbols, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

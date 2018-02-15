@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetEnumObject method [Print Devices], IBidiRequestContainer interface, _win32_IBidiRequestContainer_GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, bidispl/IBidiRequestContainer::GetEnumObject, GetEnumObject, IBidiRequestContainer, IBidiRequestContainer::GetEnumObject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject, GetEnumObject method [Print Devices], IBidiRequestContainer interface [Print Devices], GetEnumObject method
+ms.keywords: IBidiRequestContainer::GetEnumObject, IBidiRequestContainer interface [Print Devices], GetEnumObject method, IBidiRequestContainer, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, GetEnumObject method [Print Devices], print.ibidirequestcontainer_ibidirequestcontainer__getenumobject, _win32_IBidiRequestContainer_GetEnumObject, GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, GetEnumObject method [Print Devices], IBidiRequestContainer interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -133,19 +133,19 @@ An application can call <a href="https://msdn.microsoft.com/en-us/library/window
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a>
+
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
 
 

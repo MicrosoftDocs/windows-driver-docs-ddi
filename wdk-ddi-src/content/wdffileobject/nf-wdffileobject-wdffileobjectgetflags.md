@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2f30acb-cab7-444a-8b86-6001a8a325b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfFileObjectGetFlags, kmdf.wdffileobjectgetflags, WdfFileObjectGetFlags method, wdffileobject/WdfFileObjectGetFlags, wdf.wdffileobjectgetflags, DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, PFN_WDFFILEOBJECTGETFLAGS
+ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, PFN_WDFFILEOBJECTGETFLAGS, wdffileobject/WdfFileObjectGetFlags, WdfFileObjectGetFlags method, wdf.wdffileobjectgetflags, WdfFileObjectGetFlags, kmdf.wdffileobjectgetflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

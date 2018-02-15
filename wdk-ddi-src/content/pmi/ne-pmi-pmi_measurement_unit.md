@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 31f0239e-86d3-43e8-8627-7e16bd58df87
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: pmi/PmiMeasurementUnitMilliWatt, pmi/PMI_MEASUREMENT_UNIT, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, powermeter.pmi_measurement_unit, pmi/PmiMeasurementUnitMax, PMI_MEASUREMENT_UNIT, PmiMeasurementUnitMax, PmiMeasurementUnitMilliWatt, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices]
+ms.keywords: PmiMeasurementUnitMax, pmi/PMI_MEASUREMENT_UNIT, powermeter.pmi_measurement_unit, PmiMeasurementUnitMilliWatt, PMI_MEASUREMENT_UNIT, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], pmi/PmiMeasurementUnitMax, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, pmi/PmiMeasurementUnitMilliWatt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cb531a0e-c934-4f3e-9b92-07eb3ab75673
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeyFlagsInformation, wdm/KeyNameInformation, KeyHandleTagsInformation, wdm/KeyVirtualizationInformation, wdm/KeyFlagsInformation, wdm/KeyFullInformation, KeyFullInformation, wdm/KEY_INFORMATION_CLASS, KeyBasicInformation, wdm/MaxKeyInfoClass, KeyCachedInformation, MaxKeyInfoClass, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeyCachedInformation, wdm/KeyHandleTagsInformation, KeyNameInformation, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, KEY_INFORMATION_CLASS, KeyNodeInformation, wdm/KeyBasicInformation, KeyVirtualizationInformation, wdm/KeyNodeInformation, _KEY_INFORMATION_CLASS, kernel.key_information_class
+ms.keywords: wdm/KeyFullInformation, wdm/KeyBasicInformation, wdm/KeyFlagsInformation, wdm/KeyNameInformation, KeyBasicInformation, KeyCachedInformation, wdm/KeyHandleTagsInformation, _KEY_INFORMATION_CLASS, kernel.key_information_class, wdm/KEY_INFORMATION_CLASS, wdm/KeyCachedInformation, KEY_INFORMATION_CLASS, wdm/KeyVirtualizationInformation, KeyVirtualizationInformation, sysenum_c64ec9c8-1eda-495a-8b4a-566607e29a78.xml, MaxKeyInfoClass, wdm/MaxKeyInfoClass, KeyFlagsInformation, wdm/KeyNodeInformation, KEY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyNameInformation, KeyFullInformation, KeyHandleTagsInformation, KeyNodeInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -138,11 +138,7 @@ Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be su
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
 
 
 
@@ -150,11 +146,19 @@ Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be su
 
 
 
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
 
 
 <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
 
 
 
@@ -163,10 +167,6 @@ Use the <b>KEY_INFORMATION_CLASS</b> values to specify the type of data to be su
 
 
 <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
 
 
 

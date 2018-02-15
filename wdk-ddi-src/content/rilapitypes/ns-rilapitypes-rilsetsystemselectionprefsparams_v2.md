@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d6284633-1f56-412c-a97a-b6c740129cce
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSETSYSTEMSELECTIONPREFSPARAMS_V2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2, netvista.rilsetsystemselectionprefsparams_v2_2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], RILSETSYSTEMSELECTIONPREFSPARAMS
+ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS, RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], RILSETSYSTEMSELECTIONPREFSPARAMS_V2, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS, netvista.rilsetsystemselectionprefsparams_v2_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

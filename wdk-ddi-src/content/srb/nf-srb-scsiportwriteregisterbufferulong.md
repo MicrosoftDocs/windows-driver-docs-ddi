@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d77b188e-45b2-47c3-bee5-557886925d3f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortWriteRegisterBufferUlong, storage.scsiportwriteregisterbufferulong, scsiprt_f6ce8fd2-0d06-4bda-9673-983af38f08e9.xml, ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong routine [Storage Devices]
+ms.keywords: srb/ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong routine [Storage Devices], storage.scsiportwriteregisterbufferulong, scsiprt_f6ce8fd2-0d06-4bda-9673-983af38f08e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

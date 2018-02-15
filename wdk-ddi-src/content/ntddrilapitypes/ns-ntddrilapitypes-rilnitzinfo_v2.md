@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31980e7f-b767-4f63-9dc6-efce582d84ea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILNITZINFO_V2, RILNITZINFO_V2 structure [Network Drivers Starting with Windows Vista], *LPRILNITZINFO_V2, RILNITZINFO_V2, netvista.rilnitzinfo_v2, *LPRILNITZINFO, RILNITZINFO
+ms.keywords: RILNITZINFO_V2 structure [Network Drivers Starting with Windows Vista], RILNITZINFO_V2, *LPRILNITZINFO, netvista.rilnitzinfo_v2, *LPRILNITZINFO_V2, ntddrilapitypes/RILNITZINFO_V2, RILNITZINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

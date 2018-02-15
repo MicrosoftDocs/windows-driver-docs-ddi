@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1395687d-643a-40b5-9ca9-bff34c0dd6d5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE, ksmedia/PKSAC3_BIT_STREAM_MODE, audio.ksac3_bit_stream_mode, aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, ksmedia/KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], *PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices]
+ms.keywords: aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], KSAC3_BIT_STREAM_MODE structure [Audio Devices], ksmedia/KSAC3_BIT_STREAM_MODE, ksmedia/PKSAC3_BIT_STREAM_MODE, *PKSAC3_BIT_STREAM_MODE, audio.ksac3_bit_stream_mode, KSAC3_BIT_STREAM_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

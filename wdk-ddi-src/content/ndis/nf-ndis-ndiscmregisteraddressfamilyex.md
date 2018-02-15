@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8890bf31-f2c7-48b0-926d-8931893ede86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCmRegisterAddressFamilyEx, condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex
+ms.keywords: ndis/NdisCmRegisterAddressFamilyEx, condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -218,12 +218,7 @@ When a call manager's
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
-   NdisMCmRegisterAddressFamilyEx</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -231,11 +226,16 @@ When a call manager's
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
+   NdisMCmRegisterAddressFamilyEx</a>
 
 
 

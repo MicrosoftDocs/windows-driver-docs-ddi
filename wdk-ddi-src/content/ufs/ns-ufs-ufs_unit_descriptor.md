@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5D76C266-875A-40AC-9B26-F17978971783
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ufs/PUFS_UNIT_DESCRIPTOR, storage.ufs_unit_descriptor, *PUFS_UNIT_DESCRIPTOR, ufs/UFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices], PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices]
+ms.keywords: PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_unit_descriptor, ufs/UFS_UNIT_DESCRIPTOR, ufs/PUFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices], UFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -221,11 +221,11 @@ Specifies the boot LUN id.
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
-
-
 <a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: c60284ff-ebbd-455d-949c-e6d31ce65d5d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, upssvc/UPSGetState, UPSGetState, UPSGetState function [Battery Devices], battery.upsgetstate
+ms.keywords: UPSGetState, UPSGetState function [Battery Devices], UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, battery.upsgetstate, upssvc/UPSGetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

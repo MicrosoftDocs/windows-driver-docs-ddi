@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1ce67fb6-190e-4de2-9877-f06cd08cf424
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], DrmForwardContentToDeviceObject, aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml
+ms.keywords: DrmForwardContentToDeviceObject, aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -211,6 +211,10 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 ## -see-also
 
+<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
 
 
@@ -219,15 +223,11 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
 <a href="..\drmk\ns-drmk-tagdrmforward.md">DRMFORWARD</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
@@ -235,7 +235,7 @@ The handler for the KSPROPERTY_DRMAUDIOSTREAM_CONTENTID property must verify tha
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
 
 
 

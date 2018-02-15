@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cb08e0d9-8c4b-4b7f-be3d-4e7c87d7f3d4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient::OutputServers, IDebugClient interface [Windows Debugging], OutputServers method, IDebugClient_8fecfb37-5e4d-4a2b-af1e-df081e636337.xml, IDebugClient4 interface [Windows Debugging], OutputServers method, OutputServers method [Windows Debugging], IDebugClient2 interface, IDebugClient2 interface [Windows Debugging], OutputServers method, OutputServers method [Windows Debugging], IDebugClient4 interface, OutputServers method [Windows Debugging], IDebugClient3 interface [Windows Debugging], OutputServers method, IDebugClient4::OutputServers, OutputServers method [Windows Debugging], IDebugClient3 interface, IDebugClient5 interface [Windows Debugging], OutputServers method, dbgeng/IDebugClient4::OutputServers, dbgeng/IDebugClient::OutputServers, dbgeng/IDebugClient5::OutputServers, IDebugClient3::OutputServers, IDebugClient2::OutputServers, dbgeng/IDebugClient2::OutputServers, IDebugClient2, OutputServers method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient3::OutputServers, OutputServers, debugger.outputservers, OutputServers method [Windows Debugging], IDebugClient interface, IDebugClient4, IDebugClient3, IDebugClient, IDebugClient5::OutputServers
+ms.keywords: IDebugClient::OutputServers, IDebugClient3, debugger.outputservers, IDebugClient, IDebugClient interface [Windows Debugging], OutputServers method, IDebugClient2::OutputServers, IDebugClient5::OutputServers, OutputServers method [Windows Debugging], IDebugClient interface, OutputServers method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient::OutputServers, dbgeng/IDebugClient4::OutputServers, IDebugClient2 interface [Windows Debugging], OutputServers method, dbgeng/IDebugClient5::OutputServers, dbgeng/IDebugClient2::OutputServers, IDebugClient4 interface [Windows Debugging], OutputServers method, IDebugClient2, OutputServers method [Windows Debugging], IDebugClient2 interface, IDebugClient_8fecfb37-5e4d-4a2b-af1e-df081e636337.xml, dbgeng/IDebugClient3::OutputServers, IDebugClient5 interface [Windows Debugging], OutputServers method, IDebugClient4::OutputServers, OutputServers, OutputServers method [Windows Debugging], IDebugClient5 interface, IDebugClient3::OutputServers, OutputServers method [Windows Debugging], IDebugClient3 interface [Windows Debugging], OutputServers method, IDebugClient4, OutputServers method [Windows Debugging], IDebugClient4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,15 +165,15 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
 
 <a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -189,15 +189,15 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

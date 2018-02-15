@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f6f50bba-cda5-41ed-9e0b-1aea5113a22b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, ndis/NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], netvista.ndissetcoalescabletimerobject
+ms.keywords: NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], NdisSetCoalescableTimerObject, ndis/NdisSetCoalescableTimerObject, netvista.ndissetcoalescabletimerobject, ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -201,18 +201,6 @@ To cancel a timer, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
-
-
-
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
 
 
@@ -222,6 +210,18 @@ To cancel a timer, call the
 
 
 <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 

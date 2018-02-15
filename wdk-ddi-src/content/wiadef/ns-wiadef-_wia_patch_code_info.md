@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 476C9269-7A88-4D06-80E8-C80E5F29B6CF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WIA_PATCH_CODE_INFO, wiadef/WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO structure [Imaging Devices], image.wia_patch_code_info, WIA_PATCH_CODE_INFO"
+ms.keywords: WIA_PATCH_CODE_INFO, wiadef/WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO structure [Imaging Devices], image.wia_patch_code_info, _WIA_PATCH_CODE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

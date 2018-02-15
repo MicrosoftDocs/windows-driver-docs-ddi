@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0e2f42af-3eb7-4957-be91-4f31d2d558c2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_65152bfc-4855-40ba-ab0d-abfc2415441d.xml, OnDisarmWakeFromSx, IPowerPolicyCallbackWakeFromSx, IPowerPolicyCallbackWakeFromSx interface, OnDisarmWakeFromSx method, IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, wdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, OnDisarmWakeFromSx method, IPowerPolicyCallbackWakeFromSx interface, umdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, wudfddi/IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, OnDisarmWakeFromSx method
+ms.keywords: OnDisarmWakeFromSx method, IPowerPolicyCallbackWakeFromSx interface, IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, wdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, IPowerPolicyCallbackWakeFromSx interface, OnDisarmWakeFromSx method, OnDisarmWakeFromSx method, OnDisarmWakeFromSx, wudfddi/IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, IPowerPolicyCallbackWakeFromSx, umdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, UMDFDeviceObjectRef_65152bfc-4855-40ba-ab0d-abfc2415441d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,7 +103,7 @@ For more information about this callback function, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556826">IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556833">IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered</a>
 
 
 
@@ -111,7 +111,7 @@ For more information about this callback function, see <a href="https://docs.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556833">IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556826">IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx</a>
 
 
 

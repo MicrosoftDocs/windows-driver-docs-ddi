@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9ad169a8-81a7-497c-849a-c36be66caa8e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_CONTEXTCREATEDATA structure pointer [Display Devices], D3DHAL_CONTEXTCREATEDATA, d3dstrct_46c9dd06-302d-423b-8cd6-fc81a4227ab4.xml, D3DHAL_CONTEXTCREATEDATA structure [Display Devices], LPD3DHAL_CONTEXTCREATEDATA, d3dhal/LPD3DHAL_CONTEXTCREATEDATA, *LPD3DHAL_CONTEXTCREATEDATA, d3dhal/D3DHAL_CONTEXTCREATEDATA, display.d3dhal_contextcreatedata, _D3DHAL_CONTEXTCREATEDATA
+ms.keywords: LPD3DHAL_CONTEXTCREATEDATA structure pointer [Display Devices], d3dhal/LPD3DHAL_CONTEXTCREATEDATA, display.d3dhal_contextcreatedata, d3dstrct_46c9dd06-302d-423b-8cd6-fc81a4227ab4.xml, d3dhal/D3DHAL_CONTEXTCREATEDATA, D3DHAL_CONTEXTCREATEDATA, _D3DHAL_CONTEXTCREATEDATA, *LPD3DHAL_CONTEXTCREATEDATA, LPD3DHAL_CONTEXTCREATEDATA, D3DHAL_CONTEXTCREATEDATA structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

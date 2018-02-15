@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7494ea8-e639-4466-9d56-07d164f57b5b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_startsessionkeyrefresh, _D3DDDIARG_STARTSESSIONKEYREFRESH, D3DDDIARG_STARTSESSIONKEYREFRESH structure [Display Devices], d3dumddi/D3DDDIARG_STARTSESSIONKEYREFRESH, D3DDDIARG_STARTSESSIONKEYREFRESH, UMDisplayDriver_param_Structs_63d20fb4-b769-45bf-8e3f-badb7b8e52e2.xml
+ms.keywords: "_D3DDDIARG_STARTSESSIONKEYREFRESH, D3DDDIARG_STARTSESSIONKEYREFRESH, d3dumddi/D3DDDIARG_STARTSESSIONKEYREFRESH, D3DDDIARG_STARTSESSIONKEYREFRESH structure [Display Devices], display.d3dddiarg_startsessionkeyrefresh, UMDisplayDriver_param_Structs_63d20fb4-b769-45bf-8e3f-badb7b8e52e2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

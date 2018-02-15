@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5D1B228D-81D9-47FE-8CF2-41AAD9148667
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicewdmdispatchirptoioqueue, kmdf.wdfdevicewdmforwardirptoioqueue, WdfDeviceWdmDispatchIrpToIoQueue, kmdf.wdfdevicewdmdispatchirptoioqueue, WdfDeviceWdmDispatchIrpToIoQueue method, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue
+ms.keywords: wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue, WdfDeviceWdmDispatchIrpToIoQueue, WdfDeviceWdmDispatchIrpToIoQueue method, kmdf.wdfdevicewdmdispatchirptoioqueue, kmdf.wdfdevicewdmforwardirptoioqueue, wdf.wdfdevicewdmdispatchirptoioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

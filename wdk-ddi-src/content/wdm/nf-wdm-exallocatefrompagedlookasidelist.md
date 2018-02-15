@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f0c86720-4914-47b1-abb1-151196cc2a68
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExAllocateFromPagedLookasideList, k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, kernel.exallocatefrompagedlookasidelist, ExAllocateFromPagedLookasideList, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ExAllocateFromPagedLookasideList, kernel.exallocatefrompagedlookasidelist, k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture], ExAllocateFromPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exfreetopagedlookasidelist.md">ExFreeToPagedLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
 
 

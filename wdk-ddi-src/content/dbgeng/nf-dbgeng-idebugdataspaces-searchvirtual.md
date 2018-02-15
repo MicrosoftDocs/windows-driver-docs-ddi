@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1cb779de-fcbb-450d-9932-0cdaa9fbb1e9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SearchVirtual method [Windows Debugging], IDebugDataSpaces2 interface, SearchVirtual method [Windows Debugging], IDebugDataSpaces4 interface, SearchVirtual method [Windows Debugging], IDebugDataSpaces interface, SearchVirtual method [Windows Debugging], IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces2 interface [Windows Debugging], SearchVirtual method, dbgeng/IDebugDataSpaces::SearchVirtual, dbgeng/IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces, IDebugDataSpaces_9af5d620-f8df-430c-88ab-0d4f96844499.xml, IDebugDataSpaces3::SearchVirtual, SearchVirtual, dbgeng/IDebugDataSpaces3::SearchVirtual, IDebugDataSpaces4::SearchVirtual, dbgeng/IDebugDataSpaces4::SearchVirtual, IDebugDataSpaces3 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces::SearchVirtual, debugger.searchvirtual, SearchVirtual method [Windows Debugging], IDebugDataSpaces3 interface
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], SearchVirtual method, dbgeng/IDebugDataSpaces::SearchVirtual, dbgeng/IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces_9af5d620-f8df-430c-88ab-0d4f96844499.xml, IDebugDataSpaces3 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual method, SearchVirtual method [Windows Debugging], IDebugDataSpaces interface, SearchVirtual method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::SearchVirtual, debugger.searchvirtual, dbgeng/IDebugDataSpaces4::SearchVirtual, SearchVirtual method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4::SearchVirtual, SearchVirtual, SearchVirtual method [Windows Debugging], IDebugDataSpaces, SearchVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces3::SearchVirtual, IDebugDataSpaces::SearchVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -159,15 +159,19 @@ For additional options, including the ability to restrict the search to writable
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554755">SearchVirtual2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 
@@ -176,10 +180,6 @@ For additional options, including the ability to restrict the search to writable
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
 
 
 

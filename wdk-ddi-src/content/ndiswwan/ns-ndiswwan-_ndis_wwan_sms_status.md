@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ab05cae-6902-4150-9af3-52981ba820b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SMS_STATUS, WwanRef_7f7554d1-07d3-451b-b36c-0c03d589c6f8.xml, PNDIS_WWAN_SMS_STATUS, ndiswwan/PNDIS_WWAN_SMS_STATUS, ndiswwan/NDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS, netvista.ndis_wwan_sms_status, PNDIS_WWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_SMS_STATUS
+ms.keywords: "*PNDIS_WWAN_SMS_STATUS, ndiswwan/PNDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS, NDIS_WWAN_SMS_STATUS structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SMS_STATUS, _NDIS_WWAN_SMS_STATUS, netvista.ndis_wwan_sms_status, PNDIS_WWAN_SMS_STATUS, PNDIS_WWAN_SMS_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_7f7554d1-07d3-451b-b36c-0c03d589c6f8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,11 +134,11 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_status.md">WWAN_SMS_STATUS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_status.md">WWAN_SMS_STATUS</a>
 
 
 

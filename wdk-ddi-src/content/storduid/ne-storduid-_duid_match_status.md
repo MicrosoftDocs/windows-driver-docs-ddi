@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DUID_MATCH_STATUS enumeration [Storage Devices], storduid/DuidErrorInvalidDeviceDescSize, DuidErrorMaximum, _DUID_MATCH_STATUS, storduid/DuidExactMatch, storduid/DuidErrorInvalidLayoutSigSize, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, storduid/DuidErrorInvalidLayoutSigVersion, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorVersionMismatch, storduid/DuidErrorInvalidDuid, DUID_MATCH_STATUS, DuidErrorGeneral, storduid/DuidErrorMaximum, DuidErrorVersionMismatch, storduid/DUID_MATCH_STATUS, DuidErrorMissingDuid, DuidExactMatch, DuidErrorInvalidDeviceIdDescSize, DuidErrorInvalidDeviceDescSize, DuidNoMatch, DuidErrorInvalidDuid, storduid/DuidErrorMissingDuid, storduid/DuidSubIdMatch, storduid/DuidErrorGeneral, DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorInvalidDeviceIdDescSize, storage.duid_match_status, DuidSubIdMatch, storduid/DuidNoMatch
+ms.keywords: storduid/DuidErrorMaximum, storduid/DuidErrorInvalidLayoutSigSize, DuidErrorInvalidDeviceDescSize, DuidSubIdMatch, DuidErrorMaximum, storduid/DuidErrorGeneral, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, _DUID_MATCH_STATUS, DuidErrorVersionMismatch, DuidErrorInvalidDuid, DuidErrorInvalidDeviceIdDescSize, storduid/DuidErrorVersionMismatch, storduid/DuidErrorInvalidDuid, DuidErrorMissingDuid, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorInvalidDeviceDescSize, storage.duid_match_status, DuidNoMatch, DuidErrorGeneral, storduid/DuidErrorInvalidLayoutSigVersion, DUID_MATCH_STATUS enumeration [Storage Devices], storduid/DuidErrorMissingDuid, DUID_MATCH_STATUS, storduid/DuidNoMatch, storduid/DuidErrorInvalidDeviceIdDescSize, DuidExactMatch, storduid/DUID_MATCH_STATUS, DuidErrorInvalidLayoutSigVersion, storduid/DuidSubIdMatch, storduid/DuidExactMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -141,11 +141,11 @@ This value delimits the upper limit of the enumeration values in this enumeratio
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 

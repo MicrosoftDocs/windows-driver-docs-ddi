@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5fa93ac6-8aee-4248-b0a6-ab82bc5486bf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetCloseForQueryRemove method, wdfiotarget/WdfIoTargetCloseForQueryRemove, WdfIoTargetCloseForQueryRemove, wdf.wdfiotargetcloseforqueryremove, DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, kmdf.wdfiotargetcloseforqueryremove, PFN_WDFIOTARGETCLOSEFORQUERYREMOVE
+ms.keywords: WdfIoTargetCloseForQueryRemove, kmdf.wdfiotargetcloseforqueryremove, wdf.wdfiotargetcloseforqueryremove, wdfiotarget/WdfIoTargetCloseForQueryRemove, WdfIoTargetCloseForQueryRemove method, PFN_WDFIOTARGETCLOSEFORQUERYREMOVE, DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,11 +143,11 @@ ToastMon_EvtIoTargetQueryRemove(
 
 ## -see-also
 
-<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a>
 
 
 

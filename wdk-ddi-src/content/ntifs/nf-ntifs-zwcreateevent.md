@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c11265fb-df9d-405e-ac9f-e868ab392e7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/NtCreateEvent, ntifs/ZwCreateEvent, k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, NtCreateEvent, ZwCreateEvent, kernel.zwcreateevent, ZwCreateEvent routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwCreateEvent, NtCreateEvent, ntifs/NtCreateEvent, k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, kernel.zwcreateevent, ntifs/ZwCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -259,15 +259,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
 
 
 
@@ -275,23 +271,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
 
 
@@ -303,7 +287,23 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
 
 
 

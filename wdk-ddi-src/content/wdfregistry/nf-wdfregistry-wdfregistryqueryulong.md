@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 54583406-9c60-4622-a78d-085c35ce7593
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfregistryqueryulong, wdfregistry/WdfRegistryQueryULong, kmdf.wdfregistryqueryulong, PFN_WDFREGISTRYQUERYULONG, WdfRegistryQueryULong method, DFRegKeyObjectRef_537593c8-1f9c-4392-9228-6a0e5d89a964.xml, WdfRegistryQueryULong
+ms.keywords: WdfRegistryQueryULong, WdfRegistryQueryULong method, wdf.wdfregistryqueryulong, PFN_WDFREGISTRYQUERYULONG, DFRegKeyObjectRef_537593c8-1f9c-4392-9228-6a0e5d89a964.xml, kmdf.wdfregistryqueryulong, wdfregistry/WdfRegistryQueryULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -218,11 +218,15 @@ status = WdfRegistryQueryULong(
 
 
 
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
 
 
 
@@ -230,11 +234,7 @@ status = WdfRegistryQueryULong(
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
 
 
 

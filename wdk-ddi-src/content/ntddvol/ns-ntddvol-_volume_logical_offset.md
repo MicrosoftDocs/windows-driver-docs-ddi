@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4b0a982b-63ae-4109-a4be-2dd82824e75a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: VOLUME_LOGICAL_OFFSET, PVOLUME_LOGICAL_OFFSET, _VOLUME_LOGICAL_OFFSET, *PVOLUME_LOGICAL_OFFSET, PVOLUME_LOGICAL_OFFSET structure pointer [Storage Devices], storage.volume_logical_offset, ntddvol/PVOLUME_LOGICAL_OFFSET, ntddvol/VOLUME_LOGICAL_OFFSET, structs-volumemgr_97756e49-7151-4d3a-abbe-aa90a472c284.xml, VOLUME_LOGICAL_OFFSET structure [Storage Devices]
+ms.keywords: VOLUME_LOGICAL_OFFSET, structs-volumemgr_97756e49-7151-4d3a-abbe-aa90a472c284.xml, storage.volume_logical_offset, PVOLUME_LOGICAL_OFFSET, _VOLUME_LOGICAL_OFFSET, ntddvol/PVOLUME_LOGICAL_OFFSET, VOLUME_LOGICAL_OFFSET structure [Storage Devices], *PVOLUME_LOGICAL_OFFSET, ntddvol/VOLUME_LOGICAL_OFFSET, PVOLUME_LOGICAL_OFFSET structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

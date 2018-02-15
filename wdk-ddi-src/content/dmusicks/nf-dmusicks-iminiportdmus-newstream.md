@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aa221279-8d59-4f6f-8fc6-ad09e36a12a9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: NewStream method [Audio Devices], IMiniportDMus interface [Audio Devices], NewStream method, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, NewStream, IMiniportDMus::NewStream, IMiniportDMus, dmusicks/IMiniportDMus::NewStream, NewStream method [Audio Devices], IMiniportDMus interface
+ms.keywords: audio.iminiportdmus_newstream, NewStream method [Audio Devices], audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream, IMiniportDMus interface [Audio Devices], NewStream method, IMiniportDMus, NewStream, IMiniportDMus::NewStream, NewStream method [Audio Devices], IMiniportDMus interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -150,19 +150,9 @@ For more information, see the following Remarks section.
 
 
 
-#### - ppMXF [out]
+#### - pAllocatorMXF [in]
 
-Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a> interface.
-
-
-#### - pOuterUnknown [in, optional]
-
-Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
-
-
-#### - uPinId [in]
-
-Specifies the pin ID. This parameter identifies the pin that is to be opened. If the DMus miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
+Pointer to an <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a> object. This is the port driver's memory allocator, which is needed to recycle <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a> structures.
 
 
 #### - pDataFormat [in]
@@ -170,24 +160,34 @@ Specifies the pin ID. This parameter identifies the pin that is to be opened. If
 Pointer to a kernel streaming <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure specifying the data format to use for this instance
 
 
-#### - ppServiceGroup [out]
-
-Output pointer for service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification.
-
-
-#### - pAllocatorMXF [in]
-
-Pointer to an <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a> object. This is the port driver's memory allocator, which is needed to recycle <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a> structures.
-
-
 #### - pMasterClock [in]
 
 Pointer to an <a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a> object. This master clock passes a wrapper for the KS clock to the miniport driver. The master-clock pointer is required to sync to reference time.
 
 
+#### - pOuterUnknown [in, optional]
+
+Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
+
+
+#### - ppMXF [out]
+
+Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a> interface.
+
+
+#### - ppServiceGroup [out]
+
+Output pointer for service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification.
+
+
 #### - puuSchedulePreFetch [out]
 
 Output pointer for the schedule-prefetch time. This parameter is a pointer to a caller-allocated ULONGLONG variable into which the method writes a time value that specifies how far ahead to query for events. The time is specified in 100-nanosecond units. The port driver is responsible for sequencing any events that exceed the amount of time that the miniport driver specifies here.
+
+
+#### - uPinId [in]
+
+Specifies the pin ID. This parameter identifies the pin that is to be opened. If the DMus miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
 
 
 ## -returns
@@ -226,7 +226,7 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
 
 
 
@@ -234,27 +234,11 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 
 
-<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
@@ -262,11 +246,27 @@ The <i>ppMXF</i>, <i>pOuterUnknown</i>, <i>ppServiceGroup</i>, <i>pAllocatorMXF<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+<a href="..\dmusicks\nn-dmusicks-imxf.md">IMXF</a>
+
+
+
+<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+
+
+
+<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
+
+
+
+<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
+
+
+
+<a href="..\dmusicks\nn-dmusicks-imasterclock.md">IMasterClock</a>
 
 
 

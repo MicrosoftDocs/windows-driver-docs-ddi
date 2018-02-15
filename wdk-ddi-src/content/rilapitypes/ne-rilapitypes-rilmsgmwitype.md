@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55f06d11-60b7-4dc0-8f78-eb9901d49d1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_MSGMWITYPE_VOICEMAIL, RILMSGMWITYPE, RIL_MSGMWITYPE_PAGER, RIL_MSGMWITYPE_MAX, RIL_MSGMWITYPE_FAX, rilapitypes/RILMSGMWITYPE, rilapitypes/RIL_MSGMWITYPE_MULTIMEDIA, rilapitypes/RIL_MSGMWITYPE_TEXT, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, rilapitypes/RIL_MSGMWITYPE_FAX, RIL_MSGMWITYPE_MULTIMEDIA, netvista.rilmsgmwitype_2, RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_VIDEOMAIL, rilapitypes/RIL_MSGMWITYPE_PAGER, rilapitypes/RIL_MSGMWITYPE_MAX, rilapitypes/RIL_MSGMWITYPE_VOICEMAIL
+ms.keywords: RIL_MSGMWITYPE_VIDEOMAIL, RIL_MSGMWITYPE_PAGER, rilapitypes/RIL_MSGMWITYPE_FAX, netvista.rilmsgmwitype_2, rilapitypes/RIL_MSGMWITYPE_VOICEMAIL, RIL_MSGMWITYPE_VOICEMAIL, RIL_MSGMWITYPE_MULTIMEDIA, RIL_MSGMWITYPE_TEXT, rilapitypes/RIL_MSGMWITYPE_MAX, rilapitypes/RILMSGMWITYPE, RIL_MSGMWITYPE_MAX, rilapitypes/RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_FAX, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, rilapitypes/RIL_MSGMWITYPE_PAGER, RILMSGMWITYPE, rilapitypes/RIL_MSGMWITYPE_MULTIMEDIA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0f1ec015-bda6-45fe-973d-be414aece918
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwreadfile, ZwReadFile, wdm/ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, wdm/NtReadFile, NtReadFile
+ms.keywords: k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, wdm/NtReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], ZwReadFile, NtReadFile, kernel.zwreadfile, wdm/ZwReadFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -222,15 +222,15 @@ Callers of <b>ZwReadFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href
 
 
 
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 

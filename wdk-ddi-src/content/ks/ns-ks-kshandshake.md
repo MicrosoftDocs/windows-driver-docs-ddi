@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fe163d23-0eaf-4a3e-b371-2f65f2235251
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kshandshake, KSHANDSHAKE structure [Streaming Media Devices], *PKSHANDSHAKE, avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, PKSHANDSHAKE, ks/PKSHANDSHAKE, ks/KSHANDSHAKE, KSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices]
+ms.keywords: avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, KSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], PKSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], ks/KSHANDSHAKE, *PKSHANDSHAKE, ks/PKSHANDSHAKE, stream.kshandshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,11 +97,11 @@ Pin handshaking is a concept that is usable only between two pins that support I
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
-
-
-
 <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+
+
+
+<a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
 
 
 

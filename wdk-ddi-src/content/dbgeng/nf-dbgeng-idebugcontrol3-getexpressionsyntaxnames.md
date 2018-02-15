@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c60b1d7b-b82d-4f59-a076-2122da97a161
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3, GetExpressionSyntaxNames, dbgeng/IDebugControl3::GetExpressionSyntaxNames, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, debugger.getexpressionsyntaxnames, IDebugControl3::GetExpressionSyntaxNames
+ms.keywords: GetExpressionSyntaxNames method [Windows Debugging], GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface, debugger.getexpressionsyntaxnames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, IDebugControl3::GetExpressionSyntaxNames, IDebugControl3, GetExpressionSyntaxNames, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, dbgeng/IDebugControl3::GetExpressionSyntaxNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,7 +158,7 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -166,7 +166,7 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
 
 

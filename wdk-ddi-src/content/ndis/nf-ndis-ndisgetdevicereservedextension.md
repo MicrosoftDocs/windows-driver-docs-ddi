@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b2c56a9-cf77-4734-8f85-0ca740084ce3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetDeviceReservedExtension, ndis_devices_ref_75d6a378-f525-46bb-9a2b-becf6abaa768.xml, netvista.ndisgetdevicereservedextension, ndis/NdisGetDeviceReservedExtension, NdisGetDeviceReservedExtension function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisGetDeviceReservedExtension, netvista.ndisgetdevicereservedextension, NdisGetDeviceReservedExtension, ndis_devices_ref_75d6a378-f525-46bb-9a2b-becf6abaa768.xml, NdisGetDeviceReservedExtension function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

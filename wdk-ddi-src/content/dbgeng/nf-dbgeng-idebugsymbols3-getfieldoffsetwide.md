@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4a9b90dd-72b2-4625-8b73-bc0dca6ba905
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFieldOffsetWide method [Windows Debugging], GetFieldOffsetWide, GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getfieldoffsetwide, IDebugSymbols3 interface [Windows Debugging], GetFieldOffsetWide method, dbgeng/IDebugSymbols3::GetFieldOffsetWide, IDebugSymbols3::GetFieldOffsetWide, IDebugSymbols3
+ms.keywords: debugger.getfieldoffsetwide, GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetFieldOffsetWide method, IDebugSymbols3, GetFieldOffsetWide, IDebugSymbols3::GetFieldOffsetWide, dbgeng/IDebugSymbols3::GetFieldOffsetWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

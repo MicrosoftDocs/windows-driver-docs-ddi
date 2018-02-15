@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 171d712d-89e0-44f4-aa52-b9048c20abf2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "_REG_UNLOAD_KEY_INFORMATION, *PREG_UNLOAD_KEY_INFORMATION, wdm/PREG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_3a289907-a70f-4245-a54c-5df9a71da3e6.xml, PREG_UNLOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PREG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION, kernel.reg_unload_key_information, wdm/REG_UNLOAD_KEY_INFORMATION"
+ms.keywords: REG_UNLOAD_KEY_INFORMATION, kernel.reg_unload_key_information, kstruct_d_3a289907-a70f-4245-a54c-5df9a71da3e6.xml, PREG_UNLOAD_KEY_INFORMATION, *PREG_UNLOAD_KEY_INFORMATION, wdm/PREG_UNLOAD_KEY_INFORMATION, _REG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_UNLOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/REG_UNLOAD_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

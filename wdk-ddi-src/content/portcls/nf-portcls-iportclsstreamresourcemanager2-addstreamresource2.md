@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: C140D11C-41D6-4812-AD95-990CBFA06FE8
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IPortClsStreamResourceManager2::AddStreamResource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2, IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, audio.iportclsstreamresourcemanager2_addstreamresource2, IPortClsStreamResourceManager2, AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, AddStreamResource2
+ms.keywords: AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, AddStreamResource2, AddStreamResource2 method [Audio Devices], audio.iportclsstreamresourcemanager2_addstreamresource2, IPortClsStreamResourceManager2::AddStreamResource2, IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, IPortClsStreamResourceManager2, portcls/IPortClsStreamResourceManager2::AddStreamResource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,15 +112,15 @@ Additional standard status codes may be returned.
 
 ## -see-also
 
+<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
+
+
+
 <a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
 
 
 
 <a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
-
-
-
-<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
 
 

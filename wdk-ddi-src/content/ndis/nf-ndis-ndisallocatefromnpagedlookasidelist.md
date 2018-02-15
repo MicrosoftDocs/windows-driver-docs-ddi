@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: df690a05-359d-44f0-b063-4fc21d6c4d76
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateFromNPagedLookasideList, NdisAllocateFromNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFromNPagedLookasideList, ndis_lookaside_ref_455986e8-a34c-44df-b454-87416d8eccf7.xml, netvista.ndisallocatefromnpagedlookasidelist
+ms.keywords: ndis/NdisAllocateFromNPagedLookasideList, NdisAllocateFromNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis_lookaside_ref_455986e8-a34c-44df-b454-87416d8eccf7.xml, netvista.ndisallocatefromnpagedlookasidelist, NdisAllocateFromNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

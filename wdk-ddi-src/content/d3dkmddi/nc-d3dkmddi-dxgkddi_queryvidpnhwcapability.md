@@ -84,11 +84,14 @@ NTSTATUS APIENTRY DxgkDdiQueryVidPnHWCapability(
 ## -returns
 
 
+
 <i>DxgkDdiQueryVidPnHwCapability </i>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 For more information on how to process this function, see <a href="https://msdn.microsoft.com/fb7939bb-ff7e-4ba8-b801-ac10010c44b7">Querying VidPN Hardware Capabilities</a>.
@@ -97,9 +100,12 @@ For more information on how to process this function, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryvidpnhwcapability.md">DXGKARG_QUERYVIDPNHWCAPABILITY</a>
+
+
 
  
 

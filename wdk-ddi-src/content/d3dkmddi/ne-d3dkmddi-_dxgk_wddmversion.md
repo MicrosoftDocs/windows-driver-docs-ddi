@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2360224a-fa99-4b2c-a346-0129e3e95cd7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv2, DXGK_WDDMVERSION, DXGK_WDDMVERSION enumeration [Display Devices], DXGKDDI_WDDMv2, DXGKDDI_WDDMv1, d3dkmddi/DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1, DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, d3dkmddi/DXGKDDI_WDDMv1_2, DXGKDDI_WDDMv1_2, display.dxgk_wddmversion"
+ms.keywords: DXGK_WDDMVERSION, _DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1, d3dkmddi/DXGK_WDDMVERSION, DXGKDDI_WDDMv2, d3dkmddi/DXGKDDI_WDDMv2, display.dxgk_wddmversion, DXGKDDI_WDDMv1, d3dkmddi/DXGKDDI_WDDMv1_2, DXGK_WDDMVERSION enumeration [Display Devices], DXGKDDI_WDDMv1_2, DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

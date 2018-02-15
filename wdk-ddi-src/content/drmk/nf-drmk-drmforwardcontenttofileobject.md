@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 84d81ae3-708d-48ee-99c5-b79f085a9592
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: aud-prop2_f0deebf5-ef63-406b-a424-b084e775333c.xml, drmk/DrmForwardContentToFileObject, DrmForwardContentToFileObject function [Audio Devices], DrmForwardContentToFileObject, audio.drmforwardcontenttofileobject
+ms.keywords: aud-prop2_f0deebf5-ef63-406b-a424-b084e775333c.xml, drmk/DrmForwardContentToFileObject, audio.drmforwardcontenttofileobject, DrmForwardContentToFileObject function [Audio Devices], DrmForwardContentToFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

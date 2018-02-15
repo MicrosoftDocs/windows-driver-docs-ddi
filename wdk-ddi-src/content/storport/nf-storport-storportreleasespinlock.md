@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ed91d41a-575d-4b26-a7e0-f3ce43db76b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReleaseSpinLock, StorPortReleaseSpinLock, storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml, storage.storportreleasespinlock, StorPortReleaseSpinLock routine [Storage Devices]
+ms.keywords: storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml, StorPortReleaseSpinLock routine [Storage Devices], storage.storportreleasespinlock, StorPortReleaseSpinLock, storport/StorPortReleaseSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

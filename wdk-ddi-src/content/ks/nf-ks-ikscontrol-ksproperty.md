@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a80312ef-394a-4a59-8a04-35d7c60689b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsControl interface [Streaming Media Devices], KsProperty method, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, IKsControl, stream.ikscontrol_ksproperty2, KsProperty, KsProperty method [Streaming Media Devices], IKsControl interface, ks/IKsControl::KsProperty, IKsControl::KsProperty, KsProperty method [Streaming Media Devices]
+ms.keywords: ks/IKsControl::KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method, KsProperty, IKsControl::KsProperty, IKsControl, KsProperty method [Streaming Media Devices], avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, stream.ikscontrol_ksproperty2, KsProperty method [Streaming Media Devices], IKsControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,15 +116,15 @@ To determine the buffer size that is required for a specific property request, y
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+
+
+
 <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
 
 
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 

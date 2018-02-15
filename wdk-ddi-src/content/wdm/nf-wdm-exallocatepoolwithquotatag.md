@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1d2e4c8c-c76c-4936-80bf-005d8a393aa9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExAllocatePoolWithQuotaTag, kernel.exallocatepoolwithquotatag, wdm/ExAllocatePoolWithQuotaTag, k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture]
+ms.keywords: ExAllocatePoolWithQuotaTag, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture], k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml, kernel.exallocatepoolwithquotatag, wdm/ExAllocatePoolWithQuotaTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,15 +131,15 @@ Callers of <b>ExAllocatePoolWithQuotaTag</b> must be executing at IRQL &lt;= DIS
 
 
 
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
 <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
 
 
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

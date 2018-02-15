@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ff1add9-4b9e-42dd-b3e2-53d891788d43
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: PsReferencePrimaryToken routine [Installable File System Drivers], ifsk.psreferenceprimarytoken, ntifs/PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml, PsReferencePrimaryToken
+ms.keywords: psref_021aea60-1707-4817-9169-95a3dc79adb6.xml, PsReferencePrimaryToken, PsReferencePrimaryToken routine [Installable File System Drivers], ntifs/PsReferencePrimaryToken, ifsk.psreferenceprimarytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,7 +110,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
 
 
@@ -118,7 +118,7 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

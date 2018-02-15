@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92594bdd-a458-4262-ac4c-013cffb7a725
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSEVENT_DEVICE_PREEMPTED, ks/KSEVENT_DEVICE_PREEMPTED, KSEVENT_DEVICE_LOST, stream.ksevent_device, KSEVENT_DEVICE enumeration [Streaming Media Devices], ks/KSEVENT_DEVICE_LOST, ks/KSEVENT_DEVICE, KSEVENT_DEVICE
+ms.keywords: KSEVENT_DEVICE_PREEMPTED, KSEVENT_DEVICE enumeration [Streaming Media Devices], stream.ksevent_device, KSEVENT_DEVICE, KSEVENT_DEVICE_LOST, ks/KSEVENT_DEVICE, ks/KSEVENT_DEVICE_LOST, ks/KSEVENT_DEVICE_PREEMPTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

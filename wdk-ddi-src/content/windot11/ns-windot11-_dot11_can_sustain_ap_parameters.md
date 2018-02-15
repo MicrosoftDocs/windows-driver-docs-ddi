@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d7995f3-6cc1-4f3c-a016-b31dc69ddd7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, DOT11_CAN_SUSTAIN_AP_PARAMETERS, *PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, netvista.dot11_can_sustain_ap_parameters, _DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS
+ms.keywords: DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS, *PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_can_sustain_ap_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -144,12 +144,12 @@ The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS str
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
    NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

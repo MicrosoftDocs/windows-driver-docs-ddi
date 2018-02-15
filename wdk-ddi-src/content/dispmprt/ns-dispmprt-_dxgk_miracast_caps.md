@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 63ED28D9-654F-45CC-BFDC-89C9E73DCF95
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_miracast_caps, *PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], dispmprt/DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS
+ms.keywords: dispmprt/PDXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, display.dxgk_miracast_caps, dispmprt/DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

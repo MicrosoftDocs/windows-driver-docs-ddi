@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3d681026-7ccb-4dcb-bed1-505c13089177
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_LU_TAC, ntddrilapitypes/RIL_PARAM_LU_TAC, ntddrilapitypes/RIL_PARAM_LU_CELLID, RILLOCATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_LU_ALL, ntddrilapitypes/RILLOCATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_LU_LAC, RIL_PARAM_LU_HUICCAPP, RIL_PARAM_LU_CELLID, netvista.rillocationinfoparammask, ntddrilapitypes/RIL_PARAM_LU_HUICCAPP, RIL_PARAM_LU_LAC, RIL_PARAM_LU_ALL
+ms.keywords: RILLOCATIONINFOPARAMMASK, RIL_PARAM_LU_ALL, ntddrilapitypes/RILLOCATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_LU_HUICCAPP, RIL_PARAM_LU_LAC, RIL_PARAM_LU_HUICCAPP, ntddrilapitypes/RIL_PARAM_LU_CELLID, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_LU_TAC, netvista.rillocationinfoparammask, ntddrilapitypes/RIL_PARAM_LU_LAC, RIL_PARAM_LU_CELLID, ntddrilapitypes/RIL_PARAM_LU_TAC, ntddrilapitypes/RIL_PARAM_LU_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

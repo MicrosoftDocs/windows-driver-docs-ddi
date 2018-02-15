@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b03f010-cc3c-48a1-b86c-df470a832c94
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByName method, RemoveSymbolByName, dbgeng/IDebugSymbolGroup::RemoveSymbolByName, IDebugSymbolGroup::RemoveSymbolByName, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup2, ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByName method, debugger.removesymbolbyname, IDebugSymbolGroup2::RemoveSymbolByName, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup interface, RemoveSymbolByName method [Windows Debugging], RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.keywords: ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, dbgeng/IDebugSymbolGroup::RemoveSymbolByName, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByName method, debugger.removesymbolbyname, IDebugSymbolGroup, IDebugSymbolGroup::RemoveSymbolByName, RemoveSymbolByName, IDebugSymbolGroup2, IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByName method, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup interface, RemoveSymbolByName method [Windows Debugging], RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,11 +116,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
@@ -128,11 +128,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 

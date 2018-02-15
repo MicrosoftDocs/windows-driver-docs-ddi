@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76842444-e733-4dee-b83b-db4ef22f697e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCbCatNExA, ntstrsafe/RtlStringCbCatNExW, RtlStringCbCatNExW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcatnex, RtlStringCbCatNExA, STRSAFE_IGNORE_NULLS, STRSAFE_NULL_ON_FAILURE, RtlStringCbCatNEx, safestrings_9e639754-980b-4a6d-9760-b826a8e09351.xml, RtlStringCbCatNExW, STRSAFE_NO_TRUNCATION, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE
+ms.keywords: RtlStringCbCatNExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCatNExA, STRSAFE_IGNORE_NULLS, RtlStringCbCatNEx, safestrings_9e639754-980b-4a6d-9760-b826a8e09351.xml, kernel.rtlstringcbcatnex, RtlStringCbCatNExW, STRSAFE_NULL_ON_FAILURE, RtlStringCbCatNExA, ntstrsafe/RtlStringCbCatNExW, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

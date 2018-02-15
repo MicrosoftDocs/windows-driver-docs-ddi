@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c1057dcf-2988-460d-b006-f6cf16ec969e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSSTREAM_HEADER structure pointer [Streaming Media Devices], ks-struct_6f951af2-bee6-49ee-9df5-5291b5d00045.xml, ks/KSSTREAM_HEADER, KSSTREAM_HEADER structure [Streaming Media Devices], KSSTREAM_HEADER, *PKSSTREAM_HEADER, stream.ksstream_header, ks/PKSSTREAM_HEADER, PKSSTREAM_HEADER
+ms.keywords: KSSTREAM_HEADER, PKSSTREAM_HEADER structure pointer [Streaming Media Devices], ks/PKSSTREAM_HEADER, *PKSSTREAM_HEADER, ks-struct_6f951af2-bee6-49ee-9df5-5291b5d00045.xml, stream.ksstream_header, PKSSTREAM_HEADER, ks/KSSTREAM_HEADER, KSSTREAM_HEADER structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

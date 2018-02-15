@@ -151,15 +151,7 @@ For example, the extension can call <a href="..\ndis\nf-ndis-ndisallocateclonene
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
+<a href="..\ndis\nf-ndis-ndisallocatefragmentnetbufferlist.md">NdisAllocateFragmentNetBufferList</a>
 
 
 
@@ -167,7 +159,15 @@ For example, the extension can call <a href="..\ndis\nf-ndis-ndisallocateclonene
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefragmentnetbufferlist.md">NdisAllocateFragmentNetBufferList</a>
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
 
 
 

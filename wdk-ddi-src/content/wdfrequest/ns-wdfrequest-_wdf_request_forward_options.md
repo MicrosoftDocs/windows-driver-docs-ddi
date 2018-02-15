@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61ec4a05-749d-4d60-9bd7-ad121b6fd90f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_request_forward_options, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS, _WDF_REQUEST_FORWARD_OPTIONS, DFRequestObjectRef_878a982e-6fe9-4bfc-ad5c-165ef7590b79.xml, WDF_REQUEST_FORWARD_OPTIONS, WDF_REQUEST_FORWARD_OPTIONS structure, *PWDF_REQUEST_FORWARD_OPTIONS, PWDF_REQUEST_FORWARD_OPTIONS structure pointer, kmdf.wdf_request_forward_options, wdfrequest/PWDF_REQUEST_FORWARD_OPTIONS, PWDF_REQUEST_FORWARD_OPTIONS
+ms.keywords: PWDF_REQUEST_FORWARD_OPTIONS, *PWDF_REQUEST_FORWARD_OPTIONS, WDF_REQUEST_FORWARD_OPTIONS, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS, _WDF_REQUEST_FORWARD_OPTIONS, PWDF_REQUEST_FORWARD_OPTIONS structure pointer, DFRequestObjectRef_878a982e-6fe9-4bfc-ad5c-165ef7590b79.xml, wdf.wdf_request_forward_options, kmdf.wdf_request_forward_options, WDF_REQUEST_FORWARD_OPTIONS structure, wdfrequest/PWDF_REQUEST_FORWARD_OPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

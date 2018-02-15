@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ff39aebb-03c0-4ba4-844a-417579ed2bbf
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxcontx/RxCreateRxContext, ifsk.rxcreaterxcontext, RxCreateRxContext, RxCreateRxContext function [Installable File System Drivers], rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml
+ms.keywords: RxCreateRxContext function [Installable File System Drivers], rxcontx/RxCreateRxContext, RxCreateRxContext, rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml, ifsk.rxcreaterxcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,23 +131,15 @@ When this value is set, the RX_CONTEXT structure was allocated from non-paged po
 
 ## -see-also
 
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
-
-
-
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 
@@ -163,11 +155,19 @@ When this value is set, the RX_CONTEXT structure was allocated from non-paged po
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 
 <a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
+
+
+
+<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 

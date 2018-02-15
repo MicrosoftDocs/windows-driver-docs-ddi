@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 30e2e62a-3ae4-4efe-a6e9-6aece6bfbb46
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml, PDRMFORWARD, drmk/PDRMFORWARD, drmk/DRMFORWARD, audio.drmforward, tagDRMFORWARD, DRMFORWARD structure [Audio Devices], PDRMFORWARD structure pointer [Audio Devices], DRMFORWARD, *PDRMFORWARD
+ms.keywords: audio.drmforward, DRMFORWARD structure [Audio Devices], drmk/DRMFORWARD, DRMFORWARD, PDRMFORWARD, drmk/PDRMFORWARD, *PDRMFORWARD, PDRMFORWARD structure pointer [Audio Devices], tagDRMFORWARD, aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,15 +120,11 @@ For general information about DRM, see <a href="https://msdn.microsoft.com/7ce19
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
-
-
-<a href="..\drmk\ns-drmk-ksp_drmaudiostream_contentid.md">KSP_DRMAUDIOSTREAM_CONTENTID</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
 
 
@@ -136,11 +132,15 @@ For general information about DRM, see <a href="https://msdn.microsoft.com/7ce19
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\drmk\ns-drmk-ksp_drmaudiostream_contentid.md">KSP_DRMAUDIOSTREAM_CONTENTID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536579">IDrmPort2::ForwardContentToDeviceObject</a>
+
+
+
+<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
 
 

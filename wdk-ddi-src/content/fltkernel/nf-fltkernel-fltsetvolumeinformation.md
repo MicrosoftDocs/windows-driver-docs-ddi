@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ee6b4a41-e4a7-41b8-9ca9-77b9052724a3
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fltsetvolumeinformation, FltSetVolumeInformation, FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml, fltkernel/FltSetVolumeInformation, FltSetVolumeInformation function [Installable File System Drivers]
+ms.keywords: FltSetVolumeInformation, FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml, fltkernel/FltSetVolumeInformation, ifsk.fltsetvolumeinformation, FltSetVolumeInformation function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -210,15 +210,15 @@ To query information about a volume, call <a href="..\fltkernel\nf-fltkernel-flt
 
 
 
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
 
 
 

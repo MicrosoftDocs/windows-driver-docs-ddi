@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0BD6BA91-7F46-482B-B808-DEB8A23A0B84
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_OPM_INTERFACE_3 structure [Display Devices], PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], dispmprt/PDXGK_OPM_INTERFACE_3, dispmprt/DXGK_OPM_INTERFACE_3, _DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3
+ms.keywords: dispmprt/DXGK_OPM_INTERFACE_3, dispmprt/PDXGK_OPM_INTERFACE_3, _DXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], display.dxgk_opm_interface_3, *PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

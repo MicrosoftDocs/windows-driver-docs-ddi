@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1be08720-be44-4e1b-b0ec-b4eb0a2718a0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, NdisMoveMemory macro [Network Drivers Starting with Windows Vista], NdisMoveMemory, netvista.ndismovememory
+ms.keywords: ndis/NdisMoveMemory, NdisMoveMemory, NdisMoveMemory macro [Network Drivers Starting with Windows Vista], netvista.ndismovememory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -120,12 +120,12 @@ Callers of
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 

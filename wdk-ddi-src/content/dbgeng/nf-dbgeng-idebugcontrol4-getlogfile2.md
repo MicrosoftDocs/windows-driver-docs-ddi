@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77ab08ce-96c5-4330-aab2-1bf4ab23cfc4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::GetLogFile2, debugger.getlogfile2, GetLogFile2, IDebugControl_9822bd84-b8ee-4d36-a66f-e38567d23646.xml, IDebugControl4, GetLogFile2 method [Windows Debugging], GetLogFile2 method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetLogFile2 method, dbgeng/IDebugControl4::GetLogFile2
+ms.keywords: IDebugControl_9822bd84-b8ee-4d36-a66f-e38567d23646.xml, GetLogFile2, GetLogFile2 method [Windows Debugging], IDebugControl4 interface, debugger.getlogfile2, IDebugControl4 interface [Windows Debugging], GetLogFile2 method, IDebugControl4, dbgeng/IDebugControl4::GetLogFile2, IDebugControl4::GetLogFile2, GetLogFile2 method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -151,11 +151,7 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
 
 
@@ -163,11 +159,15 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
 
 
 

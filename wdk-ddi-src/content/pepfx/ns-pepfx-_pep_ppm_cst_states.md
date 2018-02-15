@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4E620796-3065-469E-8E91-8F698F672CAE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PPM_CST_STATES, PPEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES, _PEP_PPM_CST_STATES, PEP_PPM_CST_STATES structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_cst_states, pepfx/PPEP_PPM_CST_STATES, PEP_PPM_CST_STATES, PPEP_PPM_CST_STATES structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PPEP_PPM_CST_STATES structure pointer [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES, pepfx/PEP_PPM_CST_STATES, PEP_PPM_CST_STATES, pepfx/PPEP_PPM_CST_STATES, _PEP_PPM_CST_STATES, kernel.pep_ppm_cst_states, PEP_PPM_CST_STATES structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

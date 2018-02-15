@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceQueryProperty, PFN_WDFDEVICEQUERYPROPERTY, DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, wdf.wdfdevicequeryproperty, kmdf.wdfdevicequeryproperty, WdfDeviceQueryProperty, WdfDeviceQueryProperty method
+ms.keywords: WdfDeviceQueryProperty, DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, kmdf.wdfdevicequeryproperty, PFN_WDFDEVICEQUERYPROPERTY, wdfdevice/WdfDeviceQueryProperty, wdf.wdfdevicequeryproperty, WdfDeviceQueryProperty method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

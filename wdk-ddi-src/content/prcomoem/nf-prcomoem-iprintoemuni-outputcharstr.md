@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemUni, prcomoem/IPrintOemUni::OutputCharStr, IPrintOemUni interface [Print Devices], OutputCharStr method, print.iprintoemuni_outputcharstr, OutputCharStr method [Print Devices], print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml, OutputCharStr, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], IPrintOemUni interface
+ms.keywords: OutputCharStr method [Print Devices], IPrintOemUni interface, print.iprintoemuni_outputcharstr, IPrintOemUni::OutputCharStr, IPrintOemUni interface [Print Devices], OutputCharStr method, IPrintOemUni, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml, prcomoem/IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

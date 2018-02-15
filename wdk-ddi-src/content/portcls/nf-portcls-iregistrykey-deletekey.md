@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 2930b049-7572-4ee5-bef1-fd4485e5f644
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.iregistrykey_deletekey, DeleteKey method [Audio Devices], IRegistryKey interface, IRegistryKey, audmp-routines_b5556b44-0bf4-47d2-8bbd-65d12c393341.xml, portcls/IRegistryKey::DeleteKey, DeleteKey method [Audio Devices], IRegistryKey interface [Audio Devices], DeleteKey method, IRegistryKey::DeleteKey, DeleteKey
+ms.keywords: IRegistryKey::DeleteKey, IRegistryKey interface [Audio Devices], DeleteKey method, DeleteKey method [Audio Devices], audmp-routines_b5556b44-0bf4-47d2-8bbd-65d12c393341.xml, portcls/IRegistryKey::DeleteKey, DeleteKey, IRegistryKey, audio.iregistrykey_deletekey, DeleteKey method [Audio Devices], IRegistryKey interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,11 +96,11 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
 
 
 
@@ -108,7 +108,7 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 
 
-<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
 
 
 
@@ -116,7 +116,7 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 
 

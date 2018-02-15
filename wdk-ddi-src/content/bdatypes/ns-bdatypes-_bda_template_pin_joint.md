@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 83df4c9e-7122-4087-9d03-98f2eeed4ec4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_TEMPLATE_PIN_JOINT, _BDA_TEMPLATE_PIN_JOINT, BDA_TEMPLATE_PIN_JOINT, bdaref_d1704bcd-5d90-4fa2-b675-509f31737dd4.xml, BDA_TEMPLATE_PIN_JOINT structure [Streaming Media Devices], stream.bda_template_pin_joint, bdatypes/PBDA_TEMPLATE_PIN_JOINT, *PBDA_TEMPLATE_PIN_JOINT, PBDA_TEMPLATE_PIN_JOINT structure pointer [Streaming Media Devices], bdatypes/BDA_TEMPLATE_PIN_JOINT
+ms.keywords: BDA_TEMPLATE_PIN_JOINT structure [Streaming Media Devices], BDA_TEMPLATE_PIN_JOINT, bdatypes/BDA_TEMPLATE_PIN_JOINT, bdatypes/PBDA_TEMPLATE_PIN_JOINT, stream.bda_template_pin_joint, PBDA_TEMPLATE_PIN_JOINT structure pointer [Streaming Media Devices], PBDA_TEMPLATE_PIN_JOINT, *PBDA_TEMPLATE_PIN_JOINT, _BDA_TEMPLATE_PIN_JOINT, bdaref_d1704bcd-5d90-4fa2-b675-509f31737dd4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,11 @@ Maximum number of possible instances of the joint in the template topology.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-
-
-
 <a href="..\bdatypes\ns-bdatypes-_bda_template_connection.md">BDA_TEMPLATE_CONNECTION</a>
+
+
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 
 

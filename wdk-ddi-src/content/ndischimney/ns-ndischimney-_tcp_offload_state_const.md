@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e80f963-a494-475a-a246-abe5674dbcb6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndischimney/TCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_CONST, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CONST, _TCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, netvista.tcp_offload_state_const
+ms.keywords: ndischimney/TCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST, PTCP_OFFLOAD_STATE_CONST, TCP_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_CONST, ndischimney/PTCP_OFFLOAD_STATE_CONST, netvista.tcp_offload_state_const, tcp_chim_struct_d6f90719-24f7-49d1-9253-5d5db776f192.xml, _TCP_OFFLOAD_STATE_CONST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -179,11 +179,15 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CONST structure is associa
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
 
 
 
@@ -191,11 +195,7 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CONST structure is associa
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 
 

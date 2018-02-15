@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.ixpsrasterizationfactory2_createrasterizer, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, CreateRasterizer, IXpsRasterizationFactory2::CreateRasterizer, IXpsRasterizationFactory2, CreateRasterizer method [Print Devices]
+ms.keywords: IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory2, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2::CreateRasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, CreateRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -164,6 +164,12 @@ The default background color is XPSRAS_BACKGROUND_COLOR_TRANSPARENT.
 
 
 
+#### - **ppIXpsRasterizer [out, optional]
+
+This parameter points to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+
+
+
 #### - *xpsPage [in, optional]
 
 Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. 
@@ -177,12 +183,6 @@ Dots per inch which is applied to x dimension of the rasterized output bitmap. T
 #### - dpiY [in]
 
 Dots per inch which is applied to y dimension of the rasterized output bitmap.
-
-
-#### - **ppIXpsRasterizer [out, optional]
-
-This parameter points to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
-
 
 
 ## -returns

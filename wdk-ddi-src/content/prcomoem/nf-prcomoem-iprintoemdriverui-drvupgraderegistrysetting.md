@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9249dd75-7d90-414a-b6b5-4be0fc4f3170
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemDriverUI::DrvUpgradeRegistrySetting, prcomoem/IPrintOemDriverUI::DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting, print.iprintoemdriverui_drvupgraderegistrysetting, DrvUpgradeRegistrySetting method [Print Devices], IPrintOemDriverUI interface, IPrintOemDriverUI, IPrintOemDriverUI interface [Print Devices], DrvUpgradeRegistrySetting method, print_unidrv-pscript_ui_f87ff21a-a7c2-49b5-857a-2ef201c2f13f.xml, DrvUpgradeRegistrySetting method [Print Devices]
+ms.keywords: prcomoem/IPrintOemDriverUI::DrvUpgradeRegistrySetting, IPrintOemDriverUI interface [Print Devices], DrvUpgradeRegistrySetting method, print.iprintoemdriverui_drvupgraderegistrysetting, DrvUpgradeRegistrySetting, IPrintOemDriverUI, DrvUpgradeRegistrySetting method [Print Devices], print_unidrv-pscript_ui_f87ff21a-a7c2-49b5-857a-2ef201c2f13f.xml, IPrintOemDriverUI::DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], IPrintOemDriverUI interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

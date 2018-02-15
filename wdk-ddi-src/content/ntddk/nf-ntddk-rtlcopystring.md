@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5295be15-b42e-4e5b-8257-434fb9ed6c83
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlcopystring, k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, ntddk/RtlCopyString, RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtlcopystring, ntddk/RtlCopyString, k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, RtlCopyString routine [Kernel-Mode Driver Architecture], RtlCopyString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

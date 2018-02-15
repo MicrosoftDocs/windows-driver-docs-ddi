@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 178C9423-D7C9-43FD-BC80-A675383BDE9B
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses._ucx_controller_pci_information, ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION, _UCX_CONTROLLER_PCI_INFORMATION, ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], *PUCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses]
+ms.keywords: UCX_CONTROLLER_PCI_INFORMATION structure [Buses], P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], *PUCX_CONTROLLER_PCI_INFORMATION, _UCX_CONTROLLER_PCI_INFORMATION, buses._ucx_controller_pci_information, ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION, ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,7 +105,7 @@ Specifies the specific function on the device that is located in the logical PCI
 
 ## -see-also
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
+<a href="..\ucxcontroller\ne-ucxcontroller-_ucx_controller_parent_bus_type.md">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
 
 
 
@@ -113,7 +113,7 @@ Specifies the specific function on the device that is located in the logical PCI
 
 
 
-<a href="..\ucxcontroller\ne-ucxcontroller-_ucx_controller_parent_bus_type.md">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
+<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
 
 
 

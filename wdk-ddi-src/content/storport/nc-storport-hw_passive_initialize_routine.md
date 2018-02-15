@@ -40,7 +40,7 @@ apiname:
 -	HwStorPassiveInitializeRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,8 @@ BOOLEAN HwStorPassiveInitializeRoutine(
 
 
 
+
+
 #### - HwDeviceExtension
 
 A pointer to a per-adapter storage area. 
@@ -86,16 +88,20 @@ A pointer to a per-adapter storage area.
 ## -returns
 
 
+
 The <b>HwStorPassiveInitializeRoutine</b> routine returns <b>TRUE</b> if the miniport successfully initialized the processing of DPCs, or <b>FALSE</b> if the initialization process failed. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>HwStorPassiveInitializeRoutine</b> routine should initialize any DPCs that the miniport driver will use. The port driver calls <b>HwStorPassiveInitializeRoutine</b> at PASSIVE_LEVEL without any spin locks held. Interrupts are enabled while this routine is called.
 
 The name <b>HwStorPassiveInitializeRoutine</b> is just a placeholder. The actual prototype for this callback routine is defined in <i>storport.h</i>as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -109,13 +115,55 @@ BOOLEAN
   );</pre>
 </td>
 </tr>
-</table></span></div>The port driver calls the <b>HwStorPassiveInitializeRoutine</b> routine at PASSIVE IRQL without acquiring any spin locks.
+</table></span></div>
+The port driver calls the <b>HwStorPassiveInitializeRoutine</b> routine at PASSIVE IRQL without acquiring any spin locks.
+
+
+#### Examples
+
+To define an <b>HwStorPassiveInitializeRoutine</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+
+ For example, to define a <b>HwStorPassiveInitializeRoutine</b> callback routine that is named <i>MyHwPassiveInitialize</i>, use the <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> type as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HW_PASSIVE_INITIALIZE_ROUTINE MyHwPassiveInitialize;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback routine as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+BOOLEAN
+MyHwPassiveInitialize (
+  _In_ PVOID  DeviceExtension
+  );
+  {
+      ...
+  }</pre>
+</td>
+</tr>
+</table></span></div>
+The <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportenablepassiveinitialization.md">StorPortEnablePassiveInitialization</a>
+
+
 
  
 

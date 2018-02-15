@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f756988d-8b21-4c2e-8c85-68f4eaa2c4f9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, IWDFUsbTargetPipe::Abort, wudfusb/IWDFUsbTargetPipe::Abort, IWDFUsbTargetPipe, wdf.iwdfusbtargetpipe_abort, IWDFUsbTargetPipe interface, Abort method, Abort method, Abort, Abort method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_abort
+ms.keywords: IWDFUsbTargetPipe::Abort, Abort method, IWDFUsbTargetPipe interface, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::Abort, Abort, umdf.iwdfusbtargetpipe_abort, Abort method, wdf.iwdfusbtargetpipe_abort, IWDFUsbTargetPipe interface, Abort method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 77d62078-7421-40c7-b743-fbc09b0eb5f9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_CONFIGURATION, *PNDIS_WWAN_SMS_CONFIGURATION, ndiswwan/PNDIS_WWAN_SMS_CONFIGURATION, WwanRef_29c93c56-0878-421c-a690-aa5d3ba2e64a.xml, _NDIS_WWAN_SMS_CONFIGURATION, PNDIS_WWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION, netvista.ndis_wwan_sms_configuration
+ms.keywords: NDIS_WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WwanRef_29c93c56-0878-421c-a690-aa5d3ba2e64a.xml, netvista.ndis_wwan_sms_configuration, PNDIS_WWAN_SMS_CONFIGURATION, *PNDIS_WWAN_SMS_CONFIGURATION, PNDIS_WWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SMS_CONFIGURATION, ndiswwan/NDIS_WWAN_SMS_CONFIGURATION, NDIS_WWAN_SMS_CONFIGURATION, _NDIS_WWAN_SMS_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -206,11 +206,11 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_sms_configuration.md">WWAN_SMS_CONFIGURATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory, k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, ZwFreeVirtualMemory
+ms.keywords: k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, ntifs/NtFreeVirtualMemory, kernel.zwfreevirtualmemory, ZwFreeVirtualMemory, ntifs/ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], NtFreeVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

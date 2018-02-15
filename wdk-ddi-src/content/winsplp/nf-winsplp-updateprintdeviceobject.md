@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.updateprintdeviceobject, UpdatePrintDeviceObject function [Print Devices], UpdatePrintDeviceObject, winsplp/UpdatePrintDeviceObject
+ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], winsplp/UpdatePrintDeviceObject, print.updateprintdeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

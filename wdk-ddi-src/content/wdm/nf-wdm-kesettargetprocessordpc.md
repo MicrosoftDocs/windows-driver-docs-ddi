@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fd86250-a495-4628-a07b-f5c44df69c0e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetTargetProcessorDpc routine [Kernel-Mode Driver Architecture], kernel.kesettargetprocessordpc, k105_a7931e50-ba41-47a0-9056-e9479ac46808.xml, wdm/KeSetTargetProcessorDpc, KeSetTargetProcessorDpc
+ms.keywords: k105_a7931e50-ba41-47a0-9056-e9479ac46808.xml, KeSetTargetProcessorDpc, kernel.kesettargetprocessordpc, wdm/KeSetTargetProcessorDpc, KeSetTargetProcessorDpc routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,19 @@ Windows 7 and later versions of Windows support processor groups. Drivers that 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a>
 
 
 
@@ -116,18 +128,6 @@ Windows 7 and later versions of Windows support processor groups. Drivers that 
 
 
 <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesetimportancedpc.md">KeSetImportanceDpc</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlStringCbPrintfW, RtlStringCbPrintfA, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbPrintfW, kernel.rtlstringcbprintf, RtlStringCbPrintf, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml, ntstrsafe/RtlStringCbPrintfA
+ms.keywords: kernel.rtlstringcbprintf, RtlStringCbPrintfA, RtlStringCbPrintfW, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], RtlStringCbPrintf, ntstrsafe/RtlStringCbPrintfA, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml, ntstrsafe/RtlStringCbPrintfW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -267,11 +267,11 @@ The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ae9175e5-c1fc-44ae-a7c9-921ac8483e33
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCoCreateVc, ndis/NdisCoCreateVc, netvista.ndiscocreatevc, NdisCoCreateVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_6b168c4f-016d-4fa8-911a-d89fd9de2829.xml
+ms.keywords: NdisCoCreateVc, ndis/NdisCoCreateVc, netvista.ndiscocreatevc, condis_protocol_ref_6b168c4f-016d-4fa8-911a-d89fd9de2829.xml, NdisCoCreateVc function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -228,7 +228,24 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 
 
@@ -237,11 +254,7 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
@@ -249,20 +262,7 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
 
 
 

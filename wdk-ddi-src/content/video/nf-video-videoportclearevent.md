@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70b9b8b4-8adc-4628-a37b-b513ecaca9ca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportclearevent, video/VideoPortClearEvent, VideoPort_Functions_4b6d9a3c-ee76-4c45-888f-4ef37f802e6b.xml, VideoPortClearEvent function [Display Devices], VideoPortClearEvent
+ms.keywords: VideoPortClearEvent function [Display Devices], video/VideoPortClearEvent, display.videoportclearevent, VideoPort_Functions_4b6d9a3c-ee76-4c45-888f-4ef37f802e6b.xml, VideoPortClearEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 828a5197-eb2d-46d1-9853-0f8b4f288820
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoCheckFunctionAccess, ioref_e6c92504-238b-4163-8078-35aee716744e.xml, ntifs/IoCheckFunctionAccess, ifsk.iocheckfunctionaccess, IoCheckFunctionAccess function [Installable File System Drivers]
+ms.keywords: IoCheckFunctionAccess, IoCheckFunctionAccess function [Installable File System Drivers], ioref_e6c92504-238b-4163-8078-35aee716744e.xml, ntifs/IoCheckFunctionAccess, ifsk.iocheckfunctionaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

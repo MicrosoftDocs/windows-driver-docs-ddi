@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9512ecf2-ca59-4df8-bb60-c644444bc6fa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy, PFN_WDFIOQUEUEASSIGNFORWARDPROGRESSPOLICY, wdf.wdfioqueueassignforwardprogresspolicy, WdfIoQueueAssignForwardProgressPolicy method, DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, kmdf.wdfioqueueassignforwardprogresspolicy
+ms.keywords: WdfIoQueueAssignForwardProgressPolicy, wdf.wdfioqueueassignforwardprogresspolicy, kmdf.wdfioqueueassignforwardprogresspolicy, PFN_WDFIOQUEUEASSIGNFORWARDPROGRESSPOLICY, WdfIoQueueAssignForwardProgressPolicy method, DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, wdfio/WdfIoQueueAssignForwardProgressPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -218,11 +218,11 @@ if(!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a>
+
+
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request.md">EvtIoAllocateResourcesForReservedRequest</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 63fc77c8-756c-4872-b608-539d8419154b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestgetrequestormode, wdfrequest/WdfRequestGetRequestorMode, WdfRequestGetRequestorMode method, PFN_WDFREQUESTGETREQUESTORMODE, WdfRequestGetRequestorMode, DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, kmdf.wdfrequestgetrequestormode
+ms.keywords: WdfRequestGetRequestorMode method, PFN_WDFREQUESTGETREQUESTORMODE, wdfrequest/WdfRequestGetRequestorMode, wdf.wdfrequestgetrequestormode, DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, kmdf.wdfrequestgetrequestormode, WdfRequestGetRequestorMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

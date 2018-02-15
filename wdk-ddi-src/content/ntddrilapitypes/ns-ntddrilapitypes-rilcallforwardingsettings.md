@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3603bc82-0058-43bd-9d45-90c198a20040
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcallforwardingsettings, RILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLFORWARDINGSETTINGS, *LPRILCALLFORWARDINGSETTINGS
+ms.keywords: ntddrilapitypes/RILCALLFORWARDINGSETTINGS, *LPRILCALLFORWARDINGSETTINGS, RILCALLFORWARDINGSETTINGS structure [Network Drivers Starting with Windows Vista], RILCALLFORWARDINGSETTINGS, netvista.rilcallforwardingsettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

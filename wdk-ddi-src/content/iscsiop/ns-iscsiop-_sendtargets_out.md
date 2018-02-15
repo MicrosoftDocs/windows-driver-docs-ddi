@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 82efeeb9-1167-4114-9d88-7ef66f613f80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSendTargets_OUT structure pointer [Storage Devices], SendTargets_OUT, SendTargets_OUT structure [Storage Devices], _SendTargets_OUT, *PSendTargets_OUT, storage.sendtargets_out, PSendTargets_OUT, structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml, iscsiop/PSendTargets_OUT, iscsiop/SendTargets_OUT
+ms.keywords: PSendTargets_OUT, SendTargets_OUT structure [Storage Devices], *PSendTargets_OUT, iscsiop/SendTargets_OUT, PSendTargets_OUT structure pointer [Storage Devices], structs-iSCSI_c54a2d75-d780-4605-bdaf-5953f7ce5008.xml, storage.sendtargets_out, _SendTargets_OUT, iscsiop/PSendTargets_OUT, SendTargets_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
+<a href="..\iscsiop\ns-iscsiop-_sendtargets_in.md">SendTargets_IN</a>
 
 
 
@@ -103,7 +103,7 @@ You must implement this method.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_sendtargets_in.md">SendTargets_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
 
 
 

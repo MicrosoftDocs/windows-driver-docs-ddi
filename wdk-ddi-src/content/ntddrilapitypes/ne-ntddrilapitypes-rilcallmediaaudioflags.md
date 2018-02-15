@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 457d0bee-4746-424d-bd22-4e968048bdb9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILCALLMEDIAAUDIOFLAGS, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAAUDIOFLAG_ALL, RILCALLMEDIAAUDIOFLAGS, netvista.rilcallmediaaudioflags, RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE
+ms.keywords: RILCALLMEDIAAUDIOFLAGS, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, RIL_CALLMEDIAAUDIOFLAG_ALL, netvista.rilcallmediaaudioflags, ntddrilapitypes/RILCALLMEDIAAUDIOFLAGS, RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

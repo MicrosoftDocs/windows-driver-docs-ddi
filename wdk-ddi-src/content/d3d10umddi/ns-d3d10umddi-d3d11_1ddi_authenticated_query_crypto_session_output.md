@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3ea5c3e9-44cd-4cf6-be01-4a8c0ce481b0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, display.d3d11_1ddi_authenticated_query_crypto_session_output, D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT structure [Display Devices]
+ms.keywords: d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, display.d3d11_1ddi_authenticated_query_crypto_session_output, D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT structure [Display Devices], D3D11_1DDI_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

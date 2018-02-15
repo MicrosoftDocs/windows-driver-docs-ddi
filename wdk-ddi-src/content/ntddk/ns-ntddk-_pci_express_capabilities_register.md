@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: aae9218e-e52b-4a72-9d96-d648ff6d2f5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_PCI_EXPRESS_CAPABILITIES_REGISTER, PCI.pci_express_capabilities_register, PCI_EXPRESS_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_CAPABILITIES_REGISTER, pci_struct_86cc3b70-4de8-4479-b431-5f7f10d4a2f4.xml, PPCI_EXPRESS_CAPABILITIES_REGISTER union pointer [Buses], *PPCI_EXPRESS_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_CAPABILITIES_REGISTER, PPCI_EXPRESS_CAPABILITIES_REGISTER, PCI_EXPRESS_CAPABILITIES_REGISTER union [Buses]"
+ms.keywords: ntddk/PCI_EXPRESS_CAPABILITIES_REGISTER, *PPCI_EXPRESS_CAPABILITIES_REGISTER, PCI.pci_express_capabilities_register, PPCI_EXPRESS_CAPABILITIES_REGISTER union pointer [Buses], PCI_EXPRESS_CAPABILITIES_REGISTER, _PCI_EXPRESS_CAPABILITIES_REGISTER, pci_struct_86cc3b70-4de8-4479-b431-5f7f10d4a2f4.xml, PPCI_EXPRESS_CAPABILITIES_REGISTER, PCI_EXPRESS_CAPABILITIES_REGISTER union [Buses], ntddk/PPCI_EXPRESS_CAPABILITIES_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,6 +111,11 @@ Reserved.
 A USHORT representation of the contents of the PCI_EXPRESS_CAPABILITIES_REGISTER structure.
 
 
+##### - DeviceType.PciExpressDownstreamSwitchPort
+
+A downstream port of a PCIe switch.
+
+
 ##### - DeviceType.PciExpressEndpoint
 
 A PCIe endpoint device.
@@ -121,29 +126,9 @@ A PCIe endpoint device.
 A legacy PCIe endpoint device.
 
 
-##### - DeviceType.PciExpressRootPort
+##### - DeviceType.PciExpressRootComplexEventCollector
 
-A root port of a PCIe root complex.
-
-
-##### - DeviceType.PciExpressUpstreamSwitchPort
-
-An upstream port of a PCIe switch.
-
-
-##### - DeviceType.PciExpressDownstreamSwitchPort
-
-A downstream port of a PCIe switch.
-
-
-##### - DeviceType.PciExpressToPciXBridge
-
-A PCIe-to-PCI or PCI-X bridge.
-
-
-##### - DeviceType.PciXToExpressBridge
-
-A PCI- or PCI-X-to PCIe bridge.
+A PCIe root complex event collector.
 
 
 ##### - DeviceType.PciExpressRootComplexIntegratedEndpoint
@@ -151,9 +136,24 @@ A PCI- or PCI-X-to PCIe bridge.
 A PCIe endpoint device that is integrated into the root complex.
 
 
-##### - DeviceType.PciExpressRootComplexEventCollector
+##### - DeviceType.PciExpressRootPort
 
-A PCIe root complex event collector.
+A root port of a PCIe root complex.
+
+
+##### - DeviceType.PciExpressToPciXBridge
+
+A PCIe-to-PCI or PCI-X bridge.
+
+
+##### - DeviceType.PciExpressUpstreamSwitchPort
+
+An upstream port of a PCIe switch.
+
+
+##### - DeviceType.PciXToExpressBridge
+
+A PCI- or PCI-X-to PCIe bridge.
 
 
 ## -remarks

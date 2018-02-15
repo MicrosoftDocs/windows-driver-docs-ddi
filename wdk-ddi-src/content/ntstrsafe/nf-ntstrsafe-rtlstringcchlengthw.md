@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCchLengthW, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml, RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthA, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], RtlStringCchLengthW, RtlStringCchLength, kernel.rtlstringcchlength
+ms.keywords: RtlStringCchLengthA, kernel.rtlstringcchlength, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml, ntstrsafe/RtlStringCchLengthW, RtlStringCchLengthW, ntstrsafe/RtlStringCchLengthA, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], RtlStringCchLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FFC52136-8A1C-48F6-A846-C1C5BFB4570C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, storage.device_manage_data_set_attributes_output
+ms.keywords: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, storage.device_manage_data_set_attributes_output, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,11 +133,11 @@ Currently, only the <b>DeviceDsmAction_Allocation</b> action uses this structure
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_device_data_set_lb_provisioning_state.md">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_device_data_set_lb_provisioning_state.md">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
 
 
 

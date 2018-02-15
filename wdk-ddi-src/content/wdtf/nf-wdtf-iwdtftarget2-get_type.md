@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 76b13505-7404-475c-98d8-fe3b3ed25720
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: wdtf/IWDTFTarget2::get_Type, Type property [Windows Device Testing Framework], IWDTFTarget2 interface [Windows Device Testing Framework], Type property, Microsoft.WDTF.IWDTFTarget2.Type, get_Type, Microsoft::WDTF::IWDTFTarget2::Type, wdtf/IWDTFTarget2::Type, Type property [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2::get_Type, IWDTFTarget2, dtf.iwdtftarget2_type, IWDTFTarget2.Type
+ms.keywords: wdtf/IWDTFTarget2::get_Type, get_Type, Type property [Windows Device Testing Framework], IWDTFTarget2 interface [Windows Device Testing Framework], Type property, wdtf/IWDTFTarget2::Type, IWDTFTarget2, Microsoft.WDTF.IWDTFTarget2.Type, Microsoft::WDTF::IWDTFTarget2::Type, dtf.iwdtftarget2_type, Type property [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2::get_Type, IWDTFTarget2.Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,11 +92,11 @@ The value can be one of the following:
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a>
 
 
 

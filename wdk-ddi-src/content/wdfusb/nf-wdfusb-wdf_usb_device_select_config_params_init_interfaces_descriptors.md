@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 45f024d2-f500-49aa-9a9d-3ec16ff7e99b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS function, DFUsbRef_294960b9-c686-4701-bed5-aff84f9bc990.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS, wdf.wdf_usb_device_select_config_params_init_interfaces_descriptors, kmdf.wdf_usb_device_select_config_params_init_interfaces_descriptors
+ms.keywords: wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS, kmdf.wdf_usb_device_select_config_params_init_interfaces_descriptors, wdf.wdf_usb_device_select_config_params_init_interfaces_descriptors, DFUsbRef_294960b9-c686-4701-bed5-aff84f9bc990.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS function, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,22 +147,6 @@ To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_param
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_deconfig.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG</a>
-
-
-
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_urb.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_interfaces_descriptors.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS</a>
 
 
@@ -171,7 +155,23 @@ To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_param
 
 
 
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_urb.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB</a>
+
+
+
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_deconfig.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
 
 
 

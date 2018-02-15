@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamDestRect
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMDESTRECT callback
@@ -77,17 +77,13 @@ VOID APIENTRY* pfnVideoProcessorSetStreamDestRect(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param UINT
 
 
-
 ### -param BOOL
-
 
 
 ### -param *
@@ -95,6 +91,20 @@ VOID APIENTRY* pfnVideoProcessorSetStreamDestRect(
 
 
 
+
+
+
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the destination rectangle specified by the <i>pDestRect</i> parameter should be used by the video processor.
+
+
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
 
 
 #### - hDevice [in]
@@ -107,31 +117,24 @@ A handle to the display device (graphics context).
 A handle to the video processor object that was created through a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a> function. 
 
 
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
-#### - Enable [in]
-
-If <b>TRUE</b>, the destination rectangle specified by the <i>pDestRect</i> parameter should be used by the video processor.
-
-
-
-
 #### - pDestRect [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the destination rectangle.
-<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.</div>
+<div> </div>
 
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The destination rectangle is the portion of the output surface that receives the bit-block transfer (bitblt) for the specified input stream. The destination rectangle is given in pixel coordinates, relative to the output surface.
@@ -140,11 +143,16 @@ The default destination rectangle is an empty rectangle (0, 0, 0, 0). If the <i>
 
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
+
 
  
 

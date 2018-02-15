@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6393b959-f67a-42e8-bb2b-e830bcf0d45f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintPipelineManagerControl, print.iprintpipelinemanagercontrol_filterfinished, FilterFinished method [Print Devices], IPrintPipelineManagerControl interface, FilterFinished, IPrintPipelineManagerControl::FilterFinished, filterpipeline_58038d61-195e-4144-adee-2615a62cef91.xml, IPrintPipelineManagerControl interface [Print Devices], FilterFinished method, filterpipeline/IPrintPipelineManagerControl::FilterFinished, FilterFinished method [Print Devices]
+ms.keywords: FilterFinished method [Print Devices], IPrintPipelineManagerControl interface, filterpipeline/IPrintPipelineManagerControl::FilterFinished, IPrintPipelineManagerControl::FilterFinished, IPrintPipelineManagerControl, print.iprintpipelinemanagercontrol_filterfinished, FilterFinished method [Print Devices], IPrintPipelineManagerControl interface [Print Devices], FilterFinished method, filterpipeline_58038d61-195e-4144-adee-2615a62cef91.xml, FilterFinished
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

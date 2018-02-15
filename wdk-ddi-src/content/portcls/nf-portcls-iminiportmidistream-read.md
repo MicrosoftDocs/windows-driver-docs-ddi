@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 448dc408-c47f-4c8b-8baf-a831c69c3020
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: Read, Read method [Audio Devices], IMiniportMidiStream interface, audio.iminiportmidistream_read, audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, IMiniportMidiStream::Read, IMiniportMidiStream, portcls/IMiniportMidiStream::Read, IMiniportMidiStream interface [Audio Devices], Read method, Read method [Audio Devices]
+ms.keywords: Read method [Audio Devices], IMiniportMidiStream interface, IMiniportMidiStream, Read method [Audio Devices], portcls/IMiniportMidiStream::Read, IMiniportMidiStream::Read, IMiniportMidiStream interface [Audio Devices], Read method, Read, audmp-routines_35ce63a1-ab31-4758-887a-9043e1f65915.xml, audio.iminiportmidistream_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,7 +125,7 @@ The <code>Read</code> method returns STATUS_SUCCESS and a <i>BytesRead</i> count
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
+<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
 
 
 
@@ -133,7 +133,7 @@ The <code>Read</code> method returns STATUS_SUCCESS and a <i>BytesRead</i> count
 
 
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
 
 
 

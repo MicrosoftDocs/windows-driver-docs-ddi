@@ -84,6 +84,8 @@ The arguments used to create a video processor.
 ## -remarks
 
 
+
 The  runtime allocates memory for storing the driver CPU object that represents the video processor.  This method is used to calculate the driver object size.
+
 
 

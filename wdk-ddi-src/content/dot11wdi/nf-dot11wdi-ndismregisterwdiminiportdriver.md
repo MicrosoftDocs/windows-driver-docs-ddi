@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60FE4E6C-38D4-438F-983B-7336926F6FE2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMRegisterWdiMiniportDriver, dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], netvista.ndismregisterwdiminiportdriver, dot11wdi/NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -212,11 +212,11 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
 
 

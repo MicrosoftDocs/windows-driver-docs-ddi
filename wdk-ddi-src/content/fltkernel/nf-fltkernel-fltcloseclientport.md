@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7a23b8f6-688f-4aa4-9bf3-f8bda0458566
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltCloseClientPort function [Installable File System Drivers], fltkernel/FltCloseClientPort, FltCloseClientPort, ifsk.fltcloseclientport, FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml
+ms.keywords: FltCloseClientPort, FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml, ifsk.fltcloseclientport, FltCloseClientPort function [Installable File System Drivers], fltkernel/FltCloseClientPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,6 +104,10 @@ This routine disconnects a specific connection from the minifilter driver. To cl
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
 
 
@@ -113,10 +117,6 @@ This routine disconnects a specific connection from the minifilter driver. To cl
 
 
 <a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
 
 
 

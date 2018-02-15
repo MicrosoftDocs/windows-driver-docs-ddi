@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 09123845-F734-48B6-A593-0368CD195379
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId, netvista.vmbserverchannelinitsettargetinterfaceid, VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], VmbServerChannelInitSetTargetInterfaceId
+ms.keywords: VmbServerChannelInitSetTargetInterfaceId function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsettargetinterfaceid, VmbServerChannelInitSetTargetInterfaceId, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetTargetInterfaceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ifsk.semarklogonsessionforterminationnotification, SeMarkLogonSessionForTerminationNotification, ntifs/SeMarkLogonSessionForTerminationNotification
+ms.keywords: seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ntifs/SeMarkLogonSessionForTerminationNotification, ifsk.semarklogonsessionforterminationnotification, SeMarkLogonSessionForTerminationNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,15 +122,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
+
+
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
 
 
 

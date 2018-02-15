@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: FD88E645-7CBB-4998-BEBA-5BBE2FF167FC
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], UfxDeviceNotifyReset
+ms.keywords: ufxclient/UfxDeviceNotifyReset, buses.ufxdevicenotifyreset, UfxDeviceNotifyReset method [Buses], UfxDeviceNotifyReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 75c0f546-1a58-45e8-a3eb-3075f07c426b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml, _HID_MINIDRIVER_REGISTRATION, hidport/HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], hid.hid_minidriver_registration"
+ms.keywords: HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], hid.hid_minidriver_registration, HID_MINIDRIVER_REGISTRATION, _HID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, hidport/HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION, hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], PHID_MINIDRIVER_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

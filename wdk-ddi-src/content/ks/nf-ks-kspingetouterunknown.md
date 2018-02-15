@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 58b14ddd-6698-487a-925d-7d559057e55d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspingetouterunknown, avfunc_6a9c21cd-38ab-4277-8379-346af4c9c4c9.xml, KsPinGetOuterUnknown, ks/KsPinGetOuterUnknown, KsPinGetOuterUnknown function [Streaming Media Devices]
+ms.keywords: KsPinGetOuterUnknown function [Streaming Media Devices], avfunc_6a9c21cd-38ab-4277-8379-346af4c9c4c9.xml, ks/KsPinGetOuterUnknown, KsPinGetOuterUnknown, stream.kspingetouterunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,23 +92,11 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which t
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>
-
-
-
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
-
-
-<a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
-
-
-
-<a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
 
 
 
@@ -116,7 +104,19 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which t
 
 
 
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+<a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
+
+
+
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
+
+<a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>
 
 
 

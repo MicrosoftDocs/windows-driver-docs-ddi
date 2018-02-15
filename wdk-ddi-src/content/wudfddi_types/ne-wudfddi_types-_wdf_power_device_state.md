@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_power_device_state, wudfddi_types/WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceInvalid, WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceD2, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDeviceD3Final, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD0, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDevicePrepareForHibernation, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceD3Final, WdfPowerDeviceInvalid, wudfddi_types/WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE, wdf.wdf_power_device_state_umdf, WdfPowerDeviceD2
+ms.keywords: WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceInvalid, wudfddi_types/WDF_POWER_DEVICE_STATE, WdfPowerDevicePrepareForHibernation, WdfPowerDeviceD2, WDF_POWER_DEVICE_STATE, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wudfddi_types/WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceMaximum, WDF_POWER_DEVICE_STATE enumeration, wudfddi_types/WdfPowerDeviceD2, wdf.wdf_power_device_state_umdf, wudfddi_types/WdfPowerDeviceD3, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD1, WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD0, *PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDevicePrepareForHibernation, umdf.wdf_power_device_state, WdfPowerDeviceD3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

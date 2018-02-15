@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f9dbeede-b4f2-4748-8a95-692f09ded787
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_e0e7bb9b-d6fd-4a31-9793-f21c4b36841d.xml, NdisActiveGroupCount, ndis/NdisActiveGroupCount, NdisActiveGroupCount function [Network Drivers Starting with Windows Vista], netvista.ndisactivegroupcount
+ms.keywords: NdisActiveGroupCount, ndis_processor_group_ref_e0e7bb9b-d6fd-4a31-9793-f21c4b36841d.xml, netvista.ndisactivegroupcount, ndis/NdisActiveGroupCount, NdisActiveGroupCount function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

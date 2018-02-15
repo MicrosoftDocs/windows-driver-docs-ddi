@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d7520300-9345-4681-a10d-acf34838199a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdriver/WDF_DRIVER_CONFIG_INIT, DFDriverObjectRef_c8331742-9717-476d-8a48-f9e472cb3128.xml, kmdf.wdf_driver_config_init, WDF_DRIVER_CONFIG_INIT function, WDF_DRIVER_CONFIG_INIT, wdf.wdf_driver_config_init
+ms.keywords: wdfdriver/WDF_DRIVER_CONFIG_INIT, WDF_DRIVER_CONFIG_INIT function, wdf.wdf_driver_config_init, kmdf.wdf_driver_config_init, WDF_DRIVER_CONFIG_INIT, DFDriverObjectRef_c8331742-9717-476d-8a48-f9e472cb3128.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,15 +107,15 @@ For a code example that uses WDF_DRIVER_CONFIG_INIT, see <a href="..\wdfdriver\n
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
 
 
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

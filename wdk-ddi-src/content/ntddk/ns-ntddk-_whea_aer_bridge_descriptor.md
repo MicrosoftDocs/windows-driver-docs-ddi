@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 33cc9d34-cffb-410d-9948-37c8a409e0a5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR, *PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR, _WHEA_AER_BRIDGE_DESCRIPTOR, ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], whea.whea_aer_bridge_descriptor, whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml
+ms.keywords: ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml, WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], *PWHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, whea.whea_aer_bridge_descriptor, _WHEA_AER_BRIDGE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -239,11 +239,11 @@ A WHEA_AER_BRIDGE_DESCRIPTOR structure is contained within the <a href="..\ntddk
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_pci_slot_number.md">WHEA_PCI_SLOT_NUMBER</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 

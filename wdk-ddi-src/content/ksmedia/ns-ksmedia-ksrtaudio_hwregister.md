@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 3d1dc600-f7cb-488e-9f92-678e0a6a58f8
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ksmedia/KSRTAUDIO_HWREGISTER, ksmedia/PKSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER, audio.ksrtaudio_hwregister, KSRTAUDIO_HWREGISTER, KSRTAUDIO_HWREGISTER structure [Audio Devices], aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, PKSRTAUDIO_HWREGISTER, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices]
+ms.keywords: KSRTAUDIO_HWREGISTER, *PKSRTAUDIO_HWREGISTER, audio.ksrtaudio_hwregister, PKSRTAUDIO_HWREGISTER structure pointer [Audio Devices], KSRTAUDIO_HWREGISTER structure [Audio Devices], PKSRTAUDIO_HWREGISTER, aud-prop_f94f5b72-e081-48ee-96b9-4649201743d5.xml, ksmedia/KSRTAUDIO_HWREGISTER, ksmedia/PKSRTAUDIO_HWREGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,11 +119,11 @@ For position registers, the <i>Accuracy</i> parameter represents the accuracy of
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister_property.md">KSRTAUDIO_HWREGISTER_PROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537376">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister_property.md">KSRTAUDIO_HWREGISTER_PROPERTY</a>
 
 
 

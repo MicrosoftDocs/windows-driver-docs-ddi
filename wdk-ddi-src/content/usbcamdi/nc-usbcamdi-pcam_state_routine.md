@@ -40,7 +40,7 @@ apiname:
 -	MyCamState
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -87,11 +87,14 @@ Pointer to the camera minidriver's device context.
 
 
 
+
             This callback routine must return STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 <b>About CamRestoreState</b>
@@ -116,9 +119,12 @@ This function is optional.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568157">SRB_CHANGE_POWER_STATE</a>
+
+
 
  
 

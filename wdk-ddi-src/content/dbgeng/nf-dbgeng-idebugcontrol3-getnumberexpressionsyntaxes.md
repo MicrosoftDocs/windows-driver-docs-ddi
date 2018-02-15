@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eb96dd47-300a-49b7-b3c3-ee3bcb6662ba
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface, GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3::GetNumberExpressionSyntaxes, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl3, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, debugger.getnumberexpressionsyntaxes, GetNumberExpressionSyntaxes
+ms.keywords: GetNumberExpressionSyntaxes, IDebugControl3, dbgeng/IDebugControl3::GetNumberExpressionSyntaxes, IDebugControl_af12dddf-1d15-4abf-8500-8beab99b69ea.xml, IDebugControl3 interface [Windows Debugging], GetNumberExpressionSyntaxes method, GetNumberExpressionSyntaxes method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetNumberExpressionSyntaxes, GetNumberExpressionSyntaxes method [Windows Debugging], debugger.getnumberexpressionsyntaxes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -102,7 +102,7 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -110,7 +110,7 @@ The method was successful.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
 
 

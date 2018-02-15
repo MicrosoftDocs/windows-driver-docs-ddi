@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3BD7B8D6-B06F-492F-A73E-DA0799387B2A
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintschematicket_getfeaturebykeyname, GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaTicket, IPrintSchemaTicket::GetFeatureByKeyName, printerextension/IPrintSchemaTicket::GetFeatureByKeyName
+ms.keywords: printerextension/IPrintSchemaTicket::GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface, IPrintSchemaTicket::GetFeatureByKeyName, GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], print.iprintschematicket_getfeaturebykeyname, IPrintSchemaTicket interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaTicket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -103,11 +103,11 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+
+
+
+<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
 
 
 
@@ -119,7 +119,7 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
-<a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 

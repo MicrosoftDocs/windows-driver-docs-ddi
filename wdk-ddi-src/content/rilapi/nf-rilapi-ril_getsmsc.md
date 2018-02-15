@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 07181f26-8fcc-4a0d-8ce6-bfaaea785ef6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetSMSC method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetSMSC, RIL_GetSMSC, netvista.ril_getsmsc
+ms.keywords: rilapi/RIL_GetSMSC, netvista.ril_getsmsc, RIL_GetSMSC, RIL_GetSMSC method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

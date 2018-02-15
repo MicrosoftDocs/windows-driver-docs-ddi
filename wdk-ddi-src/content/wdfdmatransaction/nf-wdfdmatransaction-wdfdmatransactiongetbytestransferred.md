@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32cc50bc-a93b-43ec-98c7-bfaaebbe6c28
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdmatransactiongetbytestransferred, WdfDmaTransactionGetBytesTransferred method, wdf.wdfdmatransactiongetbytestransferred, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred, PFN_WDFDMATRANSACTIONGETBYTESTRANSFERRED, DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, WdfDmaTransactionGetBytesTransferred
+ms.keywords: wdf.wdfdmatransactiongetbytestransferred, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred, kmdf.wdfdmatransactiongetbytestransferred, DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, WdfDmaTransactionGetBytesTransferred method, WdfDmaTransactionGetBytesTransferred, PFN_WDFDMATRANSACTIONGETBYTESTRANSFERRED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,11 @@ For a code example that uses <b>WdfDmaTransactionGetBytesTransferred</b>, see <a
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
 
 
 

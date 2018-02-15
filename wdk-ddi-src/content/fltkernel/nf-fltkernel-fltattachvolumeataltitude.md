@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: d6e6f66a-77ed-4c1c-92d5-97a806cfbd68
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltAttachVolumeAtAltitude routine [Installable File System Drivers], ifsk.fltattachvolumeataltitude, FltApiRef_a_to_d_5a0e9e03-7d81-4894-9430-fed1c32181b6.xml, FltAttachVolumeAtAltitude, fltkernel/FltAttachVolumeAtAltitude
+ms.keywords: ifsk.fltattachvolumeataltitude, FltAttachVolumeAtAltitude routine [Installable File System Drivers], fltkernel/FltAttachVolumeAtAltitude, FltApiRef_a_to_d_5a0e9e03-7d81-4894-9430-fed1c32181b6.xml, FltAttachVolumeAtAltitude
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,11 +209,7 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
 
 
 
@@ -221,7 +217,11 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 
 
@@ -229,7 +229,7 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
 
 
 
@@ -237,7 +237,7 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
 
 
 

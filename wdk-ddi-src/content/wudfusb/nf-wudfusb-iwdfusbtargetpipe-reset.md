@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8d42dd60-a032-4486-87e0-2204e833035b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, IWDFUsbTargetPipe::Reset, Reset method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_reset, wudfusb/IWDFUsbTargetPipe::Reset, Reset method, Reset, IWDFUsbTargetPipe interface, Reset method, wdf.iwdfusbtargetpipe_reset
+ms.keywords: Reset method, IWDFUsbTargetPipe interface, Reset method, wudfusb/IWDFUsbTargetPipe::Reset, umdf.iwdfusbtargetpipe_reset, Reset, Reset method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_reset, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, IWDFUsbTargetPipe, IWDFUsbTargetPipe::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 067ecebb-e63c-4161-9e8f-3746ecad3259
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportverifyaccessranges, video/VideoPortVerifyAccessRanges, VideoPortVerifyAccessRanges, VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, VideoPortVerifyAccessRanges function [Display Devices]
+ms.keywords: VideoPortVerifyAccessRanges, display.videoportverifyaccessranges, video/VideoPortVerifyAccessRanges, VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, VideoPortVerifyAccessRanges function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,15 +166,27 @@ Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> a
 
 ## -see-also
 
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
+
+
+
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
 
 
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+
+
+
 <a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
-
-
-
-<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
 
 
@@ -186,19 +198,7 @@ Call <b>VideoPortVerifyAccessRanges</b> with this modified <i>AccessRanges</i> a
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-
-
 <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
-
-
-
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
-
-
-
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 
 

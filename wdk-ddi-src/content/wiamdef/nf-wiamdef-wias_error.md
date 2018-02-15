@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e439f130-1b99-4f46-ace5-3456c09a5f67
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_ERROR macro [Imaging Devices], image.wias_error, wiamdef/WIAS_ERROR, WIAS_ERROR, IWiaLog_5b3e0d61-e0e5-4385-8256-943e437cee9d.xml
+ms.keywords: WIAS_ERROR macro [Imaging Devices], WIAS_ERROR, wiamdef/WIAS_ERROR, image.wias_error, IWiaLog_5b3e0d61-e0e5-4385-8256-943e437cee9d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -115,11 +115,11 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
 
 
 

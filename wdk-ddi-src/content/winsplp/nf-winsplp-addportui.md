@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winsplp/pfnAddPortUI, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, pfnAddPortUI, pfnAddPortUI function [Print Devices], AddPortUI, print.addportui
+ms.keywords: AddPortUI, pfnAddPortUI function [Print Devices], winsplp/pfnAddPortUI, pfnAddPortUI, print.addportui, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,15 +173,11 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
 
 
 
@@ -189,7 +185,11 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 
-<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
+<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 
 

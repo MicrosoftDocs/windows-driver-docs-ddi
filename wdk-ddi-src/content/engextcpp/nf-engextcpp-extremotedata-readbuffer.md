@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1ad13196-a133-4168-9a36-1f7e4ed5c4f1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ReadBuffer method, ReadBuffer, debugger.extremotedata_readbuffer, ReadBuffer method [Windows Debugging], ReadBuffer method [Windows Debugging], ExtRemoteData class, ExtRemoteData::ReadBuffer
+ms.keywords: debugger.extremotedata_readbuffer, ReadBuffer method [Windows Debugging], ExtRemoteData, ExtRemoteData::ReadBuffer, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ReadBuffer method [Windows Debugging], ExtRemoteData class, ReadBuffer, ExtRemoteData class [Windows Debugging], ReadBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,11 +95,11 @@ Specifies what happens if the debugger engine is unable to read all the data fro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544110">ExtRemoteData::WriteBuffer</a>
-
-
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544110">ExtRemoteData::WriteBuffer</a>
 
 
 

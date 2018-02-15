@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 6053f535-da9c-4f9d-885f-01f29cabd9ee
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi-meth-eval-ref_d66cba5a-75fb-4127-9f7f-d0ecf08c4b6e.xml, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, acpi.acpi_eval_input_buffer_complex_ex, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure pointer [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX
+ms.keywords: "_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure pointer [ACPI Devices], *PACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpi.acpi_eval_input_buffer_complex_ex, ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1_EX, acpi-meth-eval-ref_d66cba5a-75fb-4127-9f7f-d0ecf08c4b6e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,15 +137,15 @@ For more information about how to use this structure, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+
+
+
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
 
 
 
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
-
-
-
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
 
 
 

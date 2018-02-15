@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 785d99a5-a8c9-4763-bdd4-e26f604f6be7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsquerypacketinjectionstate0, fwpsk/FwpsQueryPacketInjectionState0, FwpsQueryPacketInjectionState0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_J-Q_2eb3c709-15f8-46de-a55d-b4e99c085740.xml, FwpsQueryPacketInjectionState0
+ms.keywords: fwpsk/FwpsQueryPacketInjectionState0, FwpsQueryPacketInjectionState0 function [Network Drivers Starting with Windows Vista], netvista.fwpsquerypacketinjectionstate0, wfp_ref_2_funct_3_fwps_J-Q_2eb3c709-15f8-46de-a55d-b4e99c085740.xml, FwpsQueryPacketInjectionState0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,11 +142,7 @@ If the return value is <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PRE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -158,7 +154,11 @@ If the return value is <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PRE
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
 
 
 

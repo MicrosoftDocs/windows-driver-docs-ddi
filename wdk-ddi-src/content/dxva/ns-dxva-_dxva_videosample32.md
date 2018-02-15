@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 78609b64-38fa-4431-bc74-8a83fe687a45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoSample32, dxvaref_3e581191-6878-4daa-87e6-62188fa4708e.xml, display.dxva_videosample32, DXVA_VideoSample32, _DXVA_VideoSample32, DXVA_VideoSample32 structure [Display Devices]
+ms.keywords: "_DXVA_VideoSample32, DXVA_VideoSample32, dxva/DXVA_VideoSample32, DXVA_VideoSample32 structure [Display Devices], dxvaref_3e581191-6878-4daa-87e6-62188fa4708e.xml, display.dxva_videosample32"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,7 +125,7 @@ The compiler adds 4 bytes of padding to align the structure to 8 bytes.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
 
 
 
@@ -137,7 +137,7 @@ The compiler adds 4 bytes of padding to align the structure to 8 bytes.
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
 
 
 
@@ -145,11 +145,11 @@ The compiler adds 4 bytes of padding to align the structure to 8 bytes.
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
 
 

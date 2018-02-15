@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860d0ad-f971-4ba7-93fb-20fe8831fc90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, ntddk/IoVolumeDeviceToDosName, IoVolumeDeviceToDosName, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], kernel.iovolumedevicetodosname
+ms.keywords: ntddk/IoVolumeDeviceToDosName, IoVolumeDeviceToDosName, kernel.iovolumedevicetodosname, k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

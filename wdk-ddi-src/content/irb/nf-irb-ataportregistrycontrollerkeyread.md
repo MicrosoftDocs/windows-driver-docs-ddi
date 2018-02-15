@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7db22027-49ac-4ee5-8da7-bbd16c97a35b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportregistrycontrollerkeyread, AtaPortRegistryControllerKeyRead routine [Storage Devices], AtaPortRegistryControllerKeyRead, irb/AtaPortRegistryControllerKeyRead, atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml
+ms.keywords: atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml, irb/AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead routine [Storage Devices], storage.ataportregistrycontrollerkeyread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,15 +169,15 @@ The miniport driver must call <b>AtaPortRegistryControllerKeyRead</b> either in 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 
 
 <a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 

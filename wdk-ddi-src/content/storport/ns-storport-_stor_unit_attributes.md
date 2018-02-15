@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9677C044-354B-4575-B2EC-187D1B4E8C61
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], STOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], storport/PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES, *PSTOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, _STOR_UNIT_ATTRIBUTES
+ms.keywords: STOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], *PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES, storport/PSTOR_UNIT_ATTRIBUTES, _STOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, STOR_UNIT_ATTRIBUTES structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

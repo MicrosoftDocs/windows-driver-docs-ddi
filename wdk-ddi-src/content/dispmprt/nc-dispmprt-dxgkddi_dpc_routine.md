@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiDpcRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_DPC_ROUTINE callback
@@ -78,11 +78,14 @@ A handle to a context block that is associated with a display adapter. The displ
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Only one deferred procedure call (DPC) can be scheduled (at a given time) for a given display adapter.
@@ -91,9 +94,12 @@ If the display miniport driver is supporting several display adapters, the <i>Dx
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
+
+
 
  
 

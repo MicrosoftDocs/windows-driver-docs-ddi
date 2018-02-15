@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: IDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], irb/IDE_DEVICE_PARAMETERS, storage.ide_device_parameters, *PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], irb/PIDE_DEVICE_PARAMETERS, _IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml
+ms.keywords: storage.ide_device_parameters, _IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS, irb/IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, IDE_DEVICE_PARAMETERS structure [Storage Devices], IDE_DEVICE_PARAMETERS, irb/PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -252,15 +252,15 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 ## -see-also
 
-<a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
-
-
-
 <a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
+
+
+
+<a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
 
 
 

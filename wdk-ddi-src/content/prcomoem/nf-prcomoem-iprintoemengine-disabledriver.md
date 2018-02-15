@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1BCE08D6-B25E-4C1B-B0F7-A53BE0E705A1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintOemEngine, prcomoem/IPrintOemEngine::DisableDriver, IPrintOemEngine interface [Print Devices], DisableDriver method, DisableDriver, print.iprintoemengine_disabledriver, IPrintOemEngine::DisableDriver, DisableDriver method [Print Devices], IPrintOemEngine interface, DisableDriver method [Print Devices]
+ms.keywords: IPrintOemEngine interface [Print Devices], DisableDriver method, DisableDriver method [Print Devices], IPrintOemEngine interface, IPrintOemEngine, DisableDriver method [Print Devices], DisableDriver, prcomoem/IPrintOemEngine::DisableDriver, print.iprintoemengine_disabledriver, IPrintOemEngine::DisableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

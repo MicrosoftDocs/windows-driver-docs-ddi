@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 3943c854-3bb9-4fc9-9af9-735c3f4ee94e
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ntddk/PWHEA_XPF_TLB_CHECK, whearef_20ed4273-105d-467b-a71f-46e50078543e.xml, WHEA_XPF_TLB_CHECK, WHEA_XPF_TLB_CHECK union [WHEA Drivers and Applications], whea.whea_xpf_tlb_check, PWHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK union pointer [WHEA Drivers and Applications], *PWHEA_XPF_TLB_CHECK, _WHEA_XPF_TLB_CHECK, ntddk/WHEA_XPF_TLB_CHECK
+ms.keywords: whea.whea_xpf_tlb_check, WHEA_XPF_TLB_CHECK union [WHEA Drivers and Applications], ntddk/PWHEA_XPF_TLB_CHECK, ntddk/WHEA_XPF_TLB_CHECK, whearef_20ed4273-105d-467b-a71f-46e50078543e.xml, WHEA_XPF_TLB_CHECK, _WHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK, *PWHEA_XPF_TLB_CHECK, PWHEA_XPF_TLB_CHECK union pointer [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -207,19 +207,14 @@ Reserved for system use.
 A ULONGLONG representation of the contents of the WHEA_XPF_TLB_CHECK union.
 
 
-##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_INSTRUCTION
+##### - Operation.XPF_TLB_CHECK_OPERATION_DATAREAD
 
-A processor instruction transaction.
-
-
-##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_DATAACCESS
-
-A data access transaction.
+A data read operation.
 
 
-##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_GENERIC
+##### - Operation.XPF_TLB_CHECK_OPERATION_DATAWRITE
 
-A generic transaction.
+A data write operation.
 
 
 ##### - Operation.XPF_TLB_CHECK_OPERATION_GENERIC
@@ -237,16 +232,6 @@ A generic read operation.
 A generic write operation.
 
 
-##### - Operation.XPF_TLB_CHECK_OPERATION_DATAREAD
-
-A data read operation.
-
-
-##### - Operation.XPF_TLB_CHECK_OPERATION_DATAWRITE
-
-A data write operation.
-
-
 ##### - Operation.XPF_TLB_CHECK_OPERATION_INSTRUCTIONFETCH
 
 An instruction fetch operation.
@@ -255,6 +240,21 @@ An instruction fetch operation.
 ##### - Operation.XPF_TLB_CHECK_OPERATION_PREFETCH
 
 An instruction prefetch operation.
+
+
+##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_DATAACCESS
+
+A data access transaction.
+
+
+##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_GENERIC
+
+A generic transaction.
+
+
+##### - TransactionType.XPF_TLB_CHECK_TRANSACTIONTYPE_INSTRUCTION
+
+A processor instruction transaction.
 
 
 ## -remarks

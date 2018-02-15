@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f0cef78-3edc-434b-af70-39694776e8a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, OpenFileByName method, OpenFileByName method, IWDFRemoteTarget interface, wdf.iwdfremotetarget_openfilebyname, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, IWDFRemoteTarget::OpenFileByName, OpenFileByName method, OpenFileByName, wudfddi/IWDFRemoteTarget::OpenFileByName, umdf.iwdfremotetarget_openfilebyname
+ms.keywords: umdf.iwdfremotetarget_openfilebyname, IWDFRemoteTarget::OpenFileByName, IWDFRemoteTarget, IWDFRemoteTarget interface, OpenFileByName method, OpenFileByName, wdf.iwdfremotetarget_openfilebyname, OpenFileByName method, OpenFileByName method, IWDFRemoteTarget interface, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, wudfddi/IWDFRemoteTarget::OpenFileByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

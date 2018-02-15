@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5E639331-5929-4575-855F-CAFB4E77B66D
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, sensors.sensor_property_list_calculate_max_count
+ms.keywords: sensors.sensor_property_list_calculate_max_count, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

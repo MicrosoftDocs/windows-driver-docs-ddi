@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ac33177-38fc-4027-95c9-c2cf9ccdaa52
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kequeryhardwarecounterconfiguration, ntddk/KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml
+ms.keywords: KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], kernel.kequeryhardwarecounterconfiguration, KeQueryHardwareCounterConfiguration, ntddk/KeQueryHardwareCounterConfiguration, k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

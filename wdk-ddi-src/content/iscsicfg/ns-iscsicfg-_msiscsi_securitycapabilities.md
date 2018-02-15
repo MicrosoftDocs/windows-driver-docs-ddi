@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msiscsi_securitycapabilities, _MSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], PMSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, iscsicfg/PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], iscsicfg/MSiSCSI_SecurityCapabilities
+ms.keywords: PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], MSiSCSI_SecurityCapabilities structure [Storage Devices], structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, *PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities, _MSiSCSI_SecurityCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ Initiators must register the MSiSCSI_SecurityCapabilities class using the name o
 
 ## -see-also
 
-<a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
+
+
+
+<a href="..\iscsicfg\ne-iscsicfg-piscsi_encryption_types.md">ISCSI_ENCRYPTION_TYPES</a>
 
 
 

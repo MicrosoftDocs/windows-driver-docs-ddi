@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 059d2a99-f4da-45f1-8d91-0e57930595d2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_3ec6b643-e13c-4aa6-879b-fdb2076e549d.xml, RxStopMinirdr, RxStopMinirdr function [Installable File System Drivers], ifsk.rxstopminirdr, mrx/RxStopMinirdr
+ms.keywords: ifsk.rxstopminirdr, mrx/RxStopMinirdr, rxref_3ec6b643-e13c-4aa6-879b-fdb2076e549d.xml, RxStopMinirdr, RxStopMinirdr function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,7 +161,7 @@ The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxSt
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
+<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
 
 
 
@@ -169,7 +169,7 @@ The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxSt
 
 
 
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
 
 
 
@@ -177,11 +177,11 @@ The <b>RxStopMinirdr</b> routine then calls the network mini-redirector <b>MrxSt
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+<a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
 
 
 

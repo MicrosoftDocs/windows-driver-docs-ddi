@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.geteventindexdescriptionwide, GetEventIndexDescriptionWide method [Windows Debugging], dbgeng/IDebugControl4::GetEventIndexDescriptionWide, IDebugControl4, GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetEventIndexDescriptionWide, IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method
+ms.keywords: IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method, GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface, debugger.geteventindexdescriptionwide, IDebugControl4, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

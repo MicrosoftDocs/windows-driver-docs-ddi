@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a4e6f0aa-bf96-4274-9a1d-f37dc7bd96fd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestProbeAndLockUserBufferForWrite method, DFRequestObjectRef_8a3643bf-a6b6-4e22-baa8-bfb8a5716af6.xml, PFN_WDFREQUESTPROBEANDLOCKUSERBUFFERFORWRITE, wdf.wdfrequestprobeandlockuserbufferforwrite, wdfrequest/WdfRequestProbeAndLockUserBufferForWrite, WdfRequestProbeAndLockUserBufferForWrite, kmdf.wdfrequestprobeandlockuserbufferforwrite
+ms.keywords: wdf.wdfrequestprobeandlockuserbufferforwrite, WdfRequestProbeAndLockUserBufferForWrite method, WdfRequestProbeAndLockUserBufferForWrite, DFRequestObjectRef_8a3643bf-a6b6-4e22-baa8-bfb8a5716af6.xml, wdfrequest/WdfRequestProbeAndLockUserBufferForWrite, kmdf.wdfrequestprobeandlockuserbufferforwrite, PFN_WDFREQUESTPROBEANDLOCKUSERBUFFERFORWRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -200,7 +200,7 @@ For a code example that uses <b>WdfRequestProbeAndLockUserBufferForWrite</b>, se
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer.md">WdfRequestRetrieveUnsafeUserOutputBuffer</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 
 
@@ -208,7 +208,7 @@ For a code example that uses <b>WdfRequestProbeAndLockUserBufferForWrite</b>, se
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer.md">WdfRequestRetrieveUnsafeUserOutputBuffer</a>
 
 
 

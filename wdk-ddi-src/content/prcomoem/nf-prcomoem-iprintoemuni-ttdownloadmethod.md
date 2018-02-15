@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: TTDownloadMethod, IPrintOemUni, IPrintOemUni interface [Print Devices], TTDownloadMethod method, IPrintOemUni::TTDownloadMethod, prcomoem/IPrintOemUni::TTDownloadMethod, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml, TTDownloadMethod method [Print Devices], TTDownloadMethod method [Print Devices], IPrintOemUni interface, print.iprintoemuni_ttdownloadmethod
+ms.keywords: print.iprintoemuni_ttdownloadmethod, TTDownloadMethod method [Print Devices], print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml, IPrintOemUni, IPrintOemUni::TTDownloadMethod, TTDownloadMethod method [Print Devices], IPrintOemUni interface, TTDownloadMethod, IPrintOemUni interface [Print Devices], TTDownloadMethod method, prcomoem/IPrintOemUni::TTDownloadMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -202,19 +202,19 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566001">FONTOBJ_pvTrueTypeFontFile</a>
 
 
 
-<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 
 <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+
+
+
+<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
 
 
 

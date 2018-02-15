@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14df0604-39cd-4743-a051-894d63f4417c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DISK_PARTITION_INFO, ntdddisk/DISK_PARTITION_INFO, PDISK_PARTITION_INFO, *PDISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Storage Devices], storage.disk_partition_info, _DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Storage Devices], structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml, ntdddisk/PDISK_PARTITION_INFO
+ms.keywords: PDISK_PARTITION_INFO structure pointer [Storage Devices], PDISK_PARTITION_INFO, structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml, _DISK_PARTITION_INFO, *PDISK_PARTITION_INFO, DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Storage Devices], storage.disk_partition_info, ntdddisk/DISK_PARTITION_INFO, ntdddisk/PDISK_PARTITION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E076E9E6-FA7E-4F46-88B4-D3971E62DE1A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTFreeGpuVirtualAddress function [Display Devices], D3DKMTFreeGpuVirtualAddress, d3dkmthk/D3DKMTFreeGpuVirtualAddress, display.d3dkmtfreegpuvirtualaddress
+ms.keywords: D3DKMTFreeGpuVirtualAddress, display.d3dkmtfreegpuvirtualaddress, D3DKMTFreeGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTFreeGpuVirtualAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

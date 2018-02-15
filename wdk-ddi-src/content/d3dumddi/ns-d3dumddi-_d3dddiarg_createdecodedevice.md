@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 15750301-da36-4341-8d5a-ab76a2edb970
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CREATEDECODEDEVICE, _D3DDDIARG_CREATEDECODEDEVICE, D3DDDIARG_CREATEDECODEDEVICE, display.d3dddiarg_createdecodedevice, D3DDDIARG_CREATEDECODEDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_eb54920e-5904-4a9d-bfac-fe71743b2726.xml
+ms.keywords: display.d3dddiarg_createdecodedevice, _D3DDDIARG_CREATEDECODEDEVICE, D3DDDIARG_CREATEDECODEDEVICE structure [Display Devices], d3dumddi/D3DDDIARG_CREATEDECODEDEVICE, D3DDDIARG_CREATEDECODEDEVICE, UMDisplayDriver_param_Structs_eb54920e-5904-4a9d-bfac-fe71743b2726.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,6 +92,10 @@ typedef struct _D3DDDIARG_CREATEDECODEDEVICE {
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_configpicturedecode.md">DXVADDI_CONFIGPICTUREDECODE</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
@@ -101,10 +105,6 @@ typedef struct _D3DDDIARG_CREATEDECODEDEVICE {
 
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_configpicturedecode.md">DXVADDI_CONFIGPICTUREDECODE</a>
 
 
 

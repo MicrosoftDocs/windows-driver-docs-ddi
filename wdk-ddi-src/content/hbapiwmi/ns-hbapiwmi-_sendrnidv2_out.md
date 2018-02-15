@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d8f1b49-5add-4dd9-998f-d0c1e79f3e7d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSendRNIDV2_OUT structure pointer [Storage Devices], structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml, _SendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], hbapiwmi/PSendRNIDV2_OUT, *PSendRNIDV2_OUT, SendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, PSendRNIDV2_OUT, storage.sendrnidv2_out
+ms.keywords: hbapiwmi/PSendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], *PSendRNIDV2_OUT, storage.sendrnidv2_out, PSendRNIDV2_OUT structure pointer [Storage Devices], _SendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, PSendRNIDV2_OUT, SendRNIDV2_OUT, structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

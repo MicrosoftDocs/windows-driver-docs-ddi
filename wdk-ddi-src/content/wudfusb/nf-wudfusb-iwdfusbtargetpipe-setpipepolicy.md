@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe interface, SetPipePolicy method, SetPipePolicy, IWDFUsbTargetPipe, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, SetPipePolicy method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::SetPipePolicy, umdf.iwdfusbtargetpipe_setpipepolicy, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method, wdf.iwdfusbtargetpipe_setpipepolicy
+ms.keywords: SetPipePolicy method, SetPipePolicy method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy, wdf.iwdfusbtargetpipe_setpipepolicy, IWDFUsbTargetPipe::SetPipePolicy, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, SetPipePolicy method, SetPipePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

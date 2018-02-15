@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6377CC08-A261-465A-AA04-0BE31EEACF01
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, netvista.ndis_switch_forwarding_detail_net_buffer_list_info, PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union [Network Drivers Starting with Windows Vista], ndis/NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO"
+ms.keywords: PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, netvista.ndis_switch_forwarding_detail_net_buffer_list_info, _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -184,31 +184,7 @@ For more information on how to duplicate packets in the extensible switch interf
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598259">NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL</a>
-
-
-
 <a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
-
-
-
-<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
-
-
-
-<a href="https://msdn.microsoft.com/14A78DB2-6643-471D-97B9-4D8524EC3E73">Forwarding Packets to Physical Network Adapters</a>
-
-
-
-<a href="https://msdn.microsoft.com/C8DA9064-21EE-45F4-BE6D-D24851C5480B">Forwarding Packets to Hyper-V Extensible Switch Ports</a>
 
 
 
@@ -216,11 +192,35 @@ For more information on how to duplicate packets in the extensible switch interf
 
 
 
-<a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>
+<a href="https://msdn.microsoft.com/55B5C0B4-5359-410B-9110-79EDDBA3010C">GetNetBufferListDestinations</a>
+
+
+
+<a href="https://msdn.microsoft.com/C8DA9064-21EE-45F4-BE6D-D24851C5480B">Forwarding Packets to Hyper-V Extensible Switch Ports</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598259">NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL</a>
+
+
+
+<a href="https://msdn.microsoft.com/14A78DB2-6643-471D-97B9-4D8524EC3E73">Forwarding Packets to Physical Network Adapters</a>
+
+
+
+<a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
 
 
 

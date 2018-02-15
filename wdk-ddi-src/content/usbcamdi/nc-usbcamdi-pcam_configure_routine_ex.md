@@ -40,7 +40,7 @@ apiname:
 -	CamConfigureEx
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -115,11 +115,14 @@ Pointer to the <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEV
 ## -returns
 
 
+
 <b>CamConfigureEx</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Camera minidrivers use <b>CamConfigureEx</b> to inform USBCAMD about the relationship between discovered pipes and streams.
@@ -134,17 +137,28 @@ This function is required.
 
 
 
+
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
 
 <a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a>
 
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
+
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+
+
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+
 
  
 

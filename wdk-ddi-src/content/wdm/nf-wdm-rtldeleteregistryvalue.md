@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4bbedc96-a7e2-40bd-98f3-c1136f70564d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlDeleteRegistryValue, RtlDeleteRegistryValue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], kernel.rtldeleteregistryvalue, k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml
+ms.keywords: RtlDeleteRegistryValue, RtlDeleteRegistryValue routine [Kernel-Mode Driver Architecture], wdm/RtlDeleteRegistryValue, kernel.rtldeleteregistryvalue, k109_ad2e98c7-7787-49b2-b2af-1782d7f64e0d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -186,19 +186,19 @@ On Windows 2000 and later versions of Windows, the routine leaves the handle ope
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 
 

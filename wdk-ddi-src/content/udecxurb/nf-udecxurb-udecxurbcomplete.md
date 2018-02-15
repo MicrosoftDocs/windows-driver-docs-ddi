@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: F0B014F3-AE40-466B-BD9A-0D01DF70DCFF
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.udecxurbcomplete, UdecxUrbComplete, UdecxUrbComplete function [Buses], udecxurb/UdecxUrbComplete
+ms.keywords: udecxurb/UdecxUrbComplete, UdecxUrbComplete, buses.udecxurbcomplete, UdecxUrbComplete function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

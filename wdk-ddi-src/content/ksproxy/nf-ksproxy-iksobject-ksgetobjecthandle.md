@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 55c4f362-eb3c-4c4f-a048-7abdd270f67f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsObject interface [Streaming Media Devices], KsGetObjectHandle method, ksproxy_37998df5-a529-4f73-95a3-88ff3fdfcf2a.xml, KsGetObjectHandle, ksproxy/IKsObject::KsGetObjectHandle, KsGetObjectHandle method [Streaming Media Devices], IKsObject interface, stream.iksobject_ksgetobjecthandle, IKsObject::KsGetObjectHandle, KsGetObjectHandle method [Streaming Media Devices], IKsObject
+ms.keywords: IKsObject interface [Streaming Media Devices], KsGetObjectHandle method, KsGetObjectHandle method [Streaming Media Devices], IKsObject::KsGetObjectHandle, KsGetObjectHandle method [Streaming Media Devices], IKsObject interface, ksproxy/IKsObject::KsGetObjectHandle, ksproxy_37998df5-a529-4f73-95a3-88ff3fdfcf2a.xml, KsGetObjectHandle, stream.iksobject_ksgetobjecthandle, IKsObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

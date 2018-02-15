@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: usbioctl/USB_PORT_PROPERTIES, usbioctl/PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], *PUSB_PORT_PROPERTIES, buses.usb_port_properties, PUSB_PORT_PROPERTIES, _USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], USB_PORT_PROPERTIES
+ms.keywords: usbioctl/USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], buses.usb_port_properties, _USB_PORT_PROPERTIES, USB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], *PUSB_PORT_PROPERTIES, usbioctl/PUSB_PORT_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

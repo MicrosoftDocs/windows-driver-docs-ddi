@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 86a0b7c4-ef3a-4dd9-961d-35f96182e30c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisRawReadPortBufferUlong, ndis/NdisRawReadPortBufferUlong, miniport_port_raw_ref_0696e0e4-976c-4d17-a482-054d5d441608.xml, netvista.ndisrawreadportbufferulong, NdisRawReadPortBufferUlong macro [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisrawreadportbufferulong, ndis/NdisRawReadPortBufferUlong, NdisRawReadPortBufferUlong, NdisRawReadPortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_0696e0e4-976c-4d17-a482-054d5d441608.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -102,15 +102,7 @@ Specifies how many ULONGs to transfer from the NIC.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
 
 
 
@@ -118,11 +110,19 @@ Specifies how many ULONGs to transfer from the NIC.
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
 
 
 

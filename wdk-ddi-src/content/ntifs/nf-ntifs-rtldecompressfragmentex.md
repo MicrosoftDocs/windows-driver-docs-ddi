@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: A4FE108D-85CE-4F6A-A17A-E81684764FD3
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/RtlDecompressFragmentEx, ifsk.rtldecompressfragmentex, RtlDecompressFragmentEx, RtlDecompressFragmentEx routine [Installable File System Drivers]
+ms.keywords: RtlDecompressFragmentEx routine [Installable File System Drivers], ifsk.rtldecompressfragmentex, RtlDecompressFragmentEx, ntifs/RtlDecompressFragmentEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -227,7 +227,19 @@ An invalid compression format was specified via the <i>CompressionFormat</i> par
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 
 
 
@@ -236,18 +248,6 @@ An invalid compression format was specified via the <i>CompressionFormat</i> par
 
 
 <a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
 
 
 

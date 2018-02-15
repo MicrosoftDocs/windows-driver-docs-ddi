@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4785D94B-271C-4F8E-B95B-87401E32CE42
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UCX_ENDPOINT_CHARACTERISTIC, _UCX_ENDPOINT_CHARACTERISTIC, *PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses]
+ms.keywords: UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC, _UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, *PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ A <a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.m
 
 ## -see-also
 
-<a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
-
-
-
 <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_set_characteristic.md">EVT_UCX_ENDPOINT_SET_CHARACTERISTIC</a>
+
+
+
+<a href="..\ucxendpoint\ne-ucxendpoint-_ucx_endpoint_characteristic_priority.md">UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY</a>
 
 
 

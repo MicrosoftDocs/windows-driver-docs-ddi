@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6335705d-a900-456a-a882-f7f11bb485af
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsireportluns_out, iscsiop/PScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], *PScsiReportLuns_OUT, ScsiReportLuns_OUT, iscsiop/ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml, PScsiReportLuns_OUT, _ScsiReportLuns_OUT
+ms.keywords: ScsiReportLuns_OUT, storage.scsireportluns_out, _ScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], *PScsiReportLuns_OUT, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml, iscsiop/ScsiReportLuns_OUT, PScsiReportLuns_OUT, iscsiop/PScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,7 +107,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireportluns_in.md">ScsiReportLuns_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
@@ -115,15 +119,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="..\iscsiop\ns-iscsiop-_scsireportluns_in.md">ScsiReportLuns_IN</a>
 
 
 

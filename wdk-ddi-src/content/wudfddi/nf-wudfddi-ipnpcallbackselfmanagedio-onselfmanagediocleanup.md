@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0890c352-8722-4108-9b76-60c81179b46b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, OnSelfManagedIoCleanup method, OnSelfManagedIoCleanup, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo interface, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup method, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml
+ms.keywords: OnSelfManagedIoCleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoCleanup method, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo, OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml, OnSelfManagedIoCleanup method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,7 +95,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
 
 
 
@@ -103,7 +103,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

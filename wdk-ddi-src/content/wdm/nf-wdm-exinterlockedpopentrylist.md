@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 339e688f-64ec-402f-bd28-9fa487acb984
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExInterlockedPopEntryList, ExInterlockedPopEntryList, k102_4673c5a1-a650-48c3-934f-c35c202277cc.xml, ExInterlockedPopEntryList routine [Kernel-Mode Driver Architecture], kernel.exinterlockedpopentrylist
+ms.keywords: ExInterlockedPopEntryList routine [Kernel-Mode Driver Architecture], k102_4673c5a1-a650-48c3-934f-c35c202277cc.xml, kernel.exinterlockedpopentrylist, wdm/ExInterlockedPopEntryList, ExInterlockedPopEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,11 +107,11 @@ The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The stor
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
-
-
-
 <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 181C3421-85D1-457E-85A5-42C84AE41BD6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/DMA_ADAPTER_INFO, kernel.dma_adapter_info, DMA_ADAPTER_INFO, PDMA_ADAPTER_INFO, _DMA_ADAPTER_INFO, *PDMA_ADAPTER_INFO, DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], wdm/PDMA_ADAPTER_INFO
+ms.keywords: wdm/DMA_ADAPTER_INFO, PDMA_ADAPTER_INFO structure pointer [Kernel-Mode Driver Architecture], DMA_ADAPTER_INFO structure [Kernel-Mode Driver Architecture], *PDMA_ADAPTER_INFO, PDMA_ADAPTER_INFO, kernel.dma_adapter_info, _DMA_ADAPTER_INFO, wdm/PDMA_ADAPTER_INFO, DMA_ADAPTER_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,11 +94,11 @@ The unnamed union in this structure contains a <b>DMA_ADAPTER_INFO_</b><i>XXX</i
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
-
-
-
 <a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
 
 
 

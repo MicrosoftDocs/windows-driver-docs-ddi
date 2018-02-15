@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: NtFlushBuffersFileEx, FLUSH_FLAGS_NO_SYNC, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], FLUSH_FLAGS_FILE_DATA_ONLY, kernel.zwflushbuffersfileex, ntifs/ZwFlushBuffersFileEx, ZwFlushBuffersFileEx, ntifs/NtFlushBuffersFileEx
+ms.keywords: FLUSH_FLAGS_NO_SYNC, ntifs/NtFlushBuffersFileEx, FLUSH_FLAGS_FILE_DATA_ONLY, kernel.zwflushbuffersfileex, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -197,10 +197,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltflushbuffers.md">FltFlushBuffers</a>
 
 
@@ -214,6 +210,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

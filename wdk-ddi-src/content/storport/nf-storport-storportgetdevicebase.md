@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d25f2fb-be77-480f-b07c-294ab8a4272e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml, StorPortGetDeviceBase routine [Storage Devices], storport/StorPortGetDeviceBase, StorPortGetDeviceBase, storage.storportgetdevicebase
+ms.keywords: storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml, storport/StorPortGetDeviceBase, StorPortGetDeviceBase, StorPortGetDeviceBase routine [Storage Devices], storage.storportgetdevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

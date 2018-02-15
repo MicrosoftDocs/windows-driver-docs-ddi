@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 600916e1-37c2-4766-93d9-b7d32a542542
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RemoveRADIUSServer_IN, PRemoveRADIUSServer_IN structure pointer [Storage Devices], *PRemoveRADIUSServer_IN, iscsiop/PRemoveRADIUSServer_IN, _RemoveRADIUSServer_IN, iscsiop/RemoveRADIUSServer_IN, RemoveRADIUSServer_IN structure [Storage Devices], structs-iSCSI_e85b2fed-4691-43c4-b71a-a81905c79564.xml, PRemoveRADIUSServer_IN, storage.removeradiusserver_in
+ms.keywords: structs-iSCSI_e85b2fed-4691-43c4-b71a-a81905c79564.xml, iscsiop/PRemoveRADIUSServer_IN, storage.removeradiusserver_in, PRemoveRADIUSServer_IN, *PRemoveRADIUSServer_IN, RemoveRADIUSServer_IN, iscsiop/RemoveRADIUSServer_IN, PRemoveRADIUSServer_IN structure pointer [Storage Devices], _RemoveRADIUSServer_IN, RemoveRADIUSServer_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

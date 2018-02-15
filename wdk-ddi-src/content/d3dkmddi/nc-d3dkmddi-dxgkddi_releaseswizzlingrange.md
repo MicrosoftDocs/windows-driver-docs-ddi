@@ -84,11 +84,14 @@ NTSTATUS APIENTRY DxgkDdiReleaseSwizzlingRange(
 ## -returns
 
 
+
 <i>DxgkDdiReleaseSwizzlingRange</i> returns STATUS_SUCCESS, or an appropriate error result if the swizzling range is not successfully released.
 
 
 
+
 ## -remarks
+
 
 
 The <i>DxgkDdiReleaseSwizzlingRange</i> function is typically called when the specified allocation (that is, the <b>hAllocation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_releaseswizzlingrange.md">DXGKARG_RELEASESWIZZLINGRANGE</a> structure that the <i>pReleaseSwizzlingRange</i> parameter points to) is evicted or destroyed, or when another allocation requires the swizzling range that the <b>RangeId</b> member of DXGKARG_RELEASESWIZZLINGRANGE specifies.
@@ -103,13 +106,20 @@ All calls to <i>DxgkDdiReleaseSwizzlingRange</i> are serialized among themselves
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_releaseswizzlingrange.md">DXGKARG_RELEASESWIZZLINGRANGE</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_releaseswizzlingrange.md">DXGKARG_RELEASESWIZZLINGRANGE</a>
+
 
  
 

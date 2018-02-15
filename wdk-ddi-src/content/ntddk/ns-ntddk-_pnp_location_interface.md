@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5189ffad-e5dc-4f5a-a7e3-481d36332c81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPNP_LOCATION_INTERFACE, _PNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE structure [Kernel-Mode Driver Architecture], ntddk/PNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE, ntddk/PPNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE structure pointer [Kernel-Mode Driver Architecture], drvr_interface_06c9b5c0-359b-4b14-9ade-8f88f04ee534.xml, kernel.pnp_location_interface, PNP_LOCATION_INTERFACE
+ms.keywords: "*PPNP_LOCATION_INTERFACE, ntddk/PPNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE structure [Kernel-Mode Driver Architecture], PPNP_LOCATION_INTERFACE structure pointer [Kernel-Mode Driver Architecture], drvr_interface_06c9b5c0-359b-4b14-9ade-8f88f04ee534.xml, PPNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE, _PNP_LOCATION_INTERFACE, ntddk/PNP_LOCATION_INTERFACE, kernel.pnp_location_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,19 +113,19 @@ A driver obtains a pointer to the <b>PNP_LOCATION_INTERFACE</b> structure by sen
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
 
-<a href="..\ntddk\nc-ntddk-pget_location_string.md">PnpGetLocationString</a>
-
-
-
 <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+
+
+<a href="..\ntddk\nc-ntddk-pget_location_string.md">PnpGetLocationString</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
+ms.keywords: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

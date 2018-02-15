@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7648c486-181a-45c8-9c4b-e3158428046a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicesetspecialfilesupport, WdfDeviceSetSpecialFileSupport, WdfDeviceSetSpecialFileSupport method, kmdf.wdfdevicesetspecialfilesupport, PFN_WDFDEVICESETSPECIALFILESUPPORT, DFDeviceObjectGeneralRef_c40463ef-3c26-431e-99d8-d176b0ef7ebf.xml, wdfdevice/WdfDeviceSetSpecialFileSupport
+ms.keywords: PFN_WDFDEVICESETSPECIALFILESUPPORT, wdfdevice/WdfDeviceSetSpecialFileSupport, WdfDeviceSetSpecialFileSupport method, kmdf.wdfdevicesetspecialfilesupport, WdfDeviceSetSpecialFileSupport, DFDeviceObjectGeneralRef_c40463ef-3c26-431e-99d8-d176b0ef7ebf.xml, wdf.wdfdevicesetspecialfilesupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

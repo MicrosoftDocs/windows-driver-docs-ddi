@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: D2FECBA5-21DF-411C-BBDB-968328E18C12
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucxusbdevice/_ADDRESS0_OWNERSHIP_ACQUIRE, buses._address0_ownership_acquire, ADDRESS0_OWNERSHIP_ACQUIRE, *PADDRESS0_OWNERSHIP_ACQUIRE, ucxusbdevice/P_ADDRESS0_OWNERSHIP_ACQUIRE, P_ADDRESS0_OWNERSHIP_ACQUIRE, P_ADDRESS0_OWNERSHIP_ACQUIRE structure pointer [Buses], ADDRESS0_OWNERSHIP_ACQUIRE structure [Buses], _ADDRESS0_OWNERSHIP_ACQUIRE
+ms.keywords: ucxusbdevice/P_ADDRESS0_OWNERSHIP_ACQUIRE, ADDRESS0_OWNERSHIP_ACQUIRE, ADDRESS0_OWNERSHIP_ACQUIRE structure [Buses], _ADDRESS0_OWNERSHIP_ACQUIRE, buses._address0_ownership_acquire, *PADDRESS0_OWNERSHIP_ACQUIRE, P_ADDRESS0_OWNERSHIP_ACQUIRE, ucxusbdevice/_ADDRESS0_OWNERSHIP_ACQUIRE, P_ADDRESS0_OWNERSHIP_ACQUIRE structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

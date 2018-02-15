@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f3de5514-9a7f-4e27-9be0-4aec4b84a5a7
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintPipelinePropertyBag interface [Print Devices], DeleteProperty method, filterpipeline_816db2e4-811c-467f-a7c3-65d2e35c0107.xml, DeleteProperty method [Print Devices], IPrintPipelinePropertyBag::DeleteProperty, DeleteProperty, DeleteProperty method [Print Devices], IPrintPipelinePropertyBag interface, filterpipeline/IPrintPipelinePropertyBag::DeleteProperty, print.iprintpipelinepropertybag_deleteproperty, IPrintPipelinePropertyBag
+ms.keywords: DeleteProperty method [Print Devices], IPrintPipelinePropertyBag interface, filterpipeline/IPrintPipelinePropertyBag::DeleteProperty, IPrintPipelinePropertyBag, print.iprintpipelinepropertybag_deleteproperty, IPrintPipelinePropertyBag::DeleteProperty, filterpipeline_816db2e4-811c-467f-a7c3-65d2e35c0107.xml, DeleteProperty method [Print Devices], IPrintPipelinePropertyBag interface [Print Devices], DeleteProperty method, DeleteProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

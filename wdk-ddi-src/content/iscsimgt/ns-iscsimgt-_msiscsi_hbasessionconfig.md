@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a97f39b7-9356-45f1-b0a2-bd18eb4c7467
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "_MSiSCSI_HBASessionConfig, structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml, PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], iscsimgt/PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], storage.msiscsi_hbasessionconfig, iscsimgt/MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig"
+ms.keywords: PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], iscsimgt/PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig, iscsimgt/MSiSCSI_HBASessionConfig, structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml, MSiSCSI_HBASessionConfig structure [Storage Devices], *PMSiSCSI_HBASessionConfig, _MSiSCSI_HBASessionConfig, storage.msiscsi_hbasessionconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

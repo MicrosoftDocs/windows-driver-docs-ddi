@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f561fc3e-2233-4237-a88d-bd5a887a1e7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/ZwSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture], kernel.zwsetevent, ntifs/NtSetEvent, ZwSetEvent, k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, NtSetEvent
+ms.keywords: ZwSetEvent routine [Kernel-Mode Driver Architecture], ntifs/NtSetEvent, ZwSetEvent, NtSetEvent, k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, ntifs/ZwSetEvent, kernel.zwsetevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,15 +144,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
 
 
 
@@ -160,7 +156,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
 
 
 
@@ -168,11 +164,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
 
 
 
@@ -180,7 +172,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
 
 
 

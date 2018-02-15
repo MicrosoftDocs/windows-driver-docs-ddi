@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out, structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, _SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], iscsiop/SetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT structure [Storage Devices], SetPresharedKeyForId_OUT
+ms.keywords: "_SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], *PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT structure [Storage Devices], structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, iscsiop/SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

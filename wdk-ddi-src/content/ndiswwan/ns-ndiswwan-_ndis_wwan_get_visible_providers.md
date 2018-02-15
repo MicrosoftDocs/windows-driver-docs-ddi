@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C1AF383A-2D9D-4B2F-A925-D138E1B7AA4F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wwan_get_visible_providers, NDIS_WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_GET_VISIBLE_PROVIDERS, PNDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS, PNDIS_WWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_GET_VISIBLE_PROVIDERS, _NDIS_WWAN_GET_VISIBLE_PROVIDERS
+ms.keywords: NDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_GET_VISIBLE_PROVIDERS, netvista.ndis_wwan_get_visible_providers, PNDIS_WWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_GET_VISIBLE_PROVIDERS, PNDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_GET_VISIBLE_PROVIDERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

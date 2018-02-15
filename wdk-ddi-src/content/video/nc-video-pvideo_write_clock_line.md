@@ -102,15 +102,7 @@ None
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
 
 
 
@@ -118,11 +110,19 @@ None
 
 
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
 
 
 <a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
+
+
+
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
 
 
 

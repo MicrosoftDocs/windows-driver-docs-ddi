@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c358220c-1e29-4889-b214-f2892c9ac47d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_a_abc410ed-6eca-4417-b428-565971e85287.xml, BOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX, wdm/BOOTDISK_INFORMATION_EX, kernel.bootdisk_information_ex, wdm/PBOOTDISK_INFORMATION_EX, _BOOTDISK_INFORMATION_EX
+ms.keywords: kstruct_a_abc410ed-6eca-4417-b428-565971e85287.xml, BOOTDISK_INFORMATION_EX, wdm/BOOTDISK_INFORMATION_EX, *PBOOTDISK_INFORMATION_EX, _BOOTDISK_INFORMATION_EX, wdm/PBOOTDISK_INFORMATION_EX, PBOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], kernel.bootdisk_information_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

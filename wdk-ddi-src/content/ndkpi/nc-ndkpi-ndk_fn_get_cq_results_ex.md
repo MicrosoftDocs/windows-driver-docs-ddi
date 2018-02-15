@@ -103,11 +103,11 @@ Zero means there were no completions in the CQ.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a>
 
 
 
@@ -115,7 +115,7 @@ Zero means there were no completions in the CQ.
 
 
 
-<a href="https://msdn.microsoft.com/87150E2F-64F2-4EAB-A8B3-8E77622BE36C">NDKPI Completion Handling Requirements</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a>
 
 
 

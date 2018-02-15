@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ab5239d-422e-483e-a633-4efab47311fc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, netvista.dot11_cipher_key_mapping_key_value, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
+ms.keywords: Native_802.11_data_types_3be84a7b-4b5b-49d1-8611-3217962483fe.xml, windot11/PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, netvista.dot11_cipher_key_mapping_key_value, PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE, windot11/DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -231,7 +231,11 @@ If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
 
 
 
@@ -240,15 +244,7 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
-
-
-
-<a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 
@@ -257,6 +253,10 @@ If the
 
 
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
 
 
 

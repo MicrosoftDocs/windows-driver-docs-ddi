@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5756e907-008a-49c3-b1cd-947cb0ce1bd4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PPRI_RESERVATION_LIST, *PPRI_RESERVATION_LIST, storage.pri_reservation_list, PPRI_RESERVATION_LIST structure pointer [Storage Devices], PRI_RESERVATION_LIST, structs-general_10a53f53-2aed-4be1-bf2b-d61efa2c846f.xml, storport/PRI_RESERVATION_LIST, PPRI_RESERVATION_LIST, PRI_RESERVATION_LIST structure [Storage Devices]
+ms.keywords: storport/PRI_RESERVATION_LIST, structs-general_10a53f53-2aed-4be1-bf2b-d61efa2c846f.xml, *PPRI_RESERVATION_LIST, storage.pri_reservation_list, PRI_RESERVATION_LIST, PRI_RESERVATION_LIST structure [Storage Devices], storport/PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST structure pointer [Storage Devices], PPRI_RESERVATION_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e51ae9a-4670-4de1-bfca-bef8cb0c9cc9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccapppersocheckstatus_2, rilapitypes/RILUICCAPPPERSOCHECKSTATUS, *LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS
+ms.keywords: RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCAPPPERSOCHECKSTATUS, *LPRILUICCAPPPERSOCHECKSTATUS, netvista.riluiccapppersocheckstatus_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

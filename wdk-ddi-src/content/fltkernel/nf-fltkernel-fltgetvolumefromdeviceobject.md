@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 49dc5866-d793-41a7-9d9e-e89eea6f2f28
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltApiRef_e_to_o_fcc59f13-4385-478e-ba1b-c539f13930af.xml, fltkernel/FltGetVolumeFromDeviceObject, ifsk.fltgetvolumefromdeviceobject, FltGetVolumeFromDeviceObject, FltGetVolumeFromDeviceObject routine [Installable File System Drivers]
+ms.keywords: fltkernel/FltGetVolumeFromDeviceObject, ifsk.fltgetvolumefromdeviceobject, FltApiRef_e_to_o_fcc59f13-4385-478e-ba1b-c539f13930af.xml, FltGetVolumeFromDeviceObject, FltGetVolumeFromDeviceObject routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,15 +140,15 @@ To get a pointer to the device object for a given volume, call <a href="..\fltke
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetdiskdeviceobject.md">FltGetDiskDeviceObject</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 
 

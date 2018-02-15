@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 11f086af-bda7-4dab-8c4b-0db2e89588d1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFINTERRUPTGETINFO, WdfInterruptGetInfo, WdfInterruptGetInfo method, wdf.wdfinterruptgetinfo, wdfinterrupt/WdfInterruptGetInfo, kmdf.wdfinterruptgetinfo, DFInterruptObjectRef_eb163aa0-1ba3-491d-b215-85c8773dcfc9.xml
+ms.keywords: wdfinterrupt/WdfInterruptGetInfo, kmdf.wdfinterruptgetinfo, WdfInterruptGetInfo, PFN_WDFINTERRUPTGETINFO, WdfInterruptGetInfo method, DFInterruptObjectRef_eb163aa0-1ba3-491d-b215-85c8773dcfc9.xml, wdf.wdfinterruptgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,19 +135,19 @@ WdfInterruptGetInfo(
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
-
-
-
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
 
 
 
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
 

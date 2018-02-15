@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ae789dd-2454-4ed6-bd26-5ebfd9c33768
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml, D3DKMDT_GDISURFACEDATA structure [Display Devices], _D3DKMDT_GDISURFACEDATA, d3dkmdt/D3DKMDT_GDISURFACEDATA, display.d3dkmdt_gdisurfacedata, D3DKMDT_GDISURFACEDATA
+ms.keywords: D3DKMDT_GDISURFACEDATA, DmStructs_91525c19-9d84-4406-b456-c6d80cb0f1d3.xml, d3dkmdt/D3DKMDT_GDISURFACEDATA, display.d3dkmdt_gdisurfacedata, D3DKMDT_GDISURFACEDATA structure [Display Devices], _D3DKMDT_GDISURFACEDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,7 +125,7 @@ The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
 
 
 
@@ -137,7 +137,7 @@ The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 

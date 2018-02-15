@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 00b9c218-8ae7-4624-be6b-6b6b2f83764a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.argument_present, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture], k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, wudfwdm/ARGUMENT_PRESENT, ARGUMENT_PRESENT
+ms.keywords: k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, wudfwdm/ARGUMENT_PRESENT, ARGUMENT_PRESENT, kernel.argument_present, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

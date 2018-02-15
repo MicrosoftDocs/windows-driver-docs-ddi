@@ -123,15 +123,11 @@ For a list of valid flags and corresponding descriptions, see the reference page
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
 
 
@@ -140,6 +136,10 @@ For a list of valid flags and corresponding descriptions, see the reference page
 
 
 <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
 
 
 

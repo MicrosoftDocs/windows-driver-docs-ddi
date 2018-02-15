@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cc9b7049-7b43-4c66-9d08-93af22d92540
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, KSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], stream.ksclock_dispatch, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], _KSCLOCK_DISPATCH, *PKSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH, ks/KSCLOCK_DISPATCH
+ms.keywords: ks/KSCLOCK_DISPATCH, _KSCLOCK_DISPATCH, KSCLOCK_DISPATCH, PKSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, *PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], stream.ksclock_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -150,14 +150,6 @@ The function should be prototyped as follows:
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
-
-
-
-<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
 
 
@@ -166,11 +158,19 @@ The function should be prototyped as follows:
 
 
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
+
+
+
+<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 
 

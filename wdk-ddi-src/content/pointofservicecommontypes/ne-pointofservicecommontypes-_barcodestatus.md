@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: b89ee18b-229d-4ec7-8c69-1b75ad0f3448
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: BarcodeStatus, pointofservicecommontypes/BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, _BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, BarcodeStatusUpdateType_Online, BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Online, BarcodeStatus enumeration, BarcodeStatusUpdateType_Off, BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, pos.barcodestatus
+ms.keywords: BarcodeStatusUpdateType_Off, _BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_Online, pointofservicecommontypes/BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, pointofservicecommontypes/BarcodeStatus, BarcodeStatusUpdateType_OffOrOffline, BarcodeStatusUpdateType_Extended, BarcodeStatusUpdateType_Online, BarcodeStatusUpdateType_Offline, BarcodeStatus enumeration, pos.barcodestatus, BarcodeStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

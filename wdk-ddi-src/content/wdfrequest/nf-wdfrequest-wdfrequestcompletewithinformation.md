@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestCompleteWithInformation method, wdf.wdfrequestcompletewithinformation, WdfRequestCompleteWithInformation, PFN_WDFREQUESTCOMPLETEWITHINFORMATION, DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, wdfrequest/WdfRequestCompleteWithInformation, kmdf.wdfrequestcompletewithinformation
+ms.keywords: wdf.wdfrequestcompletewithinformation, WdfRequestCompleteWithInformation, DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, wdfrequest/WdfRequestCompleteWithInformation, kmdf.wdfrequestcompletewithinformation, WdfRequestCompleteWithInformation method, PFN_WDFREQUESTCOMPLETEWITHINFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -200,15 +200,7 @@ EvtRequestReadCompletionRoutine(
 
 
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetinformation.md">WdfRequestSetInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
 
 
@@ -216,7 +208,15 @@ EvtRequestReadCompletionRoutine(
 
 
 
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
 
 

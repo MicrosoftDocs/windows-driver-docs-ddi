@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EB23D502-87E4-48B1-B1DC-0B215AB361C8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: "*PRT_PARAMETER_DATA, RT_PARAMETER_DATA structure [Storage Devices], RT_PARAMETER_DATA, PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], scsi/PRT_PARAMETER_DATA, storage.rt_parameter_data, scsi/RT_PARAMETER_DATA"
+ms.keywords: "*PRT_PARAMETER_DATA, RT_PARAMETER_DATA, storage.rt_parameter_data, PRT_PARAMETER_DATA, scsi/PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], RT_PARAMETER_DATA structure [Storage Devices], scsi/RT_PARAMETER_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -170,7 +170,7 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-st_parameter_data.md">ST_PARAMETER_DATA</a>
+<a href="..\storport\ns-storport-st_parameter_data.md">ST_PARAMETER_DATA</a>
 
 
 

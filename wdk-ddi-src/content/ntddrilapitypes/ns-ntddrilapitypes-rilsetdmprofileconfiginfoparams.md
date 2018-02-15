@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d485f00e-5fa6-4a01-83fe-78e59a8d8fcb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSETDMPROFILECONFIGINFOPARAMS, *LPRILSETDMPROFILECONFIGINFOPARAMS, RILSETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetdmprofileconfiginfoparams, RILSETDMPROFILECONFIGINFOPARAMS
+ms.keywords: ntddrilapitypes/RILSETDMPROFILECONFIGINFOPARAMS, netvista.rilsetdmprofileconfiginfoparams, RILSETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], RILSETDMPROFILECONFIGINFOPARAMS, *LPRILSETDMPROFILECONFIGINFOPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

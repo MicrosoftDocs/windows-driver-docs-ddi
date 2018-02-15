@@ -100,7 +100,11 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn925950">OID_WDI_TASK_DELETE_PORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 
@@ -108,11 +112,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925950">OID_WDI_TASK_DELETE_PORT</a>
 
 
 

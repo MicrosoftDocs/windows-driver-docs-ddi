@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f1875578-33c1-4d9e-865b-f1f5391f4aca
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceFormatRequestForString, DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, wdf.wdfusbtargetdeviceformatrequestforstring, wdfusb/WdfUsbTargetDeviceFormatRequestForString, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORSTRING, kmdf.wdfusbtargetdeviceformatrequestforstring, WdfUsbTargetDeviceFormatRequestForString method
+ms.keywords: kmdf.wdfusbtargetdeviceformatrequestforstring, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORSTRING, WdfUsbTargetDeviceFormatRequestForString method, wdf.wdfusbtargetdeviceformatrequestforstring, DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, wdfusb/WdfUsbTargetDeviceFormatRequestForString, WdfUsbTargetDeviceFormatRequestForString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -248,7 +248,11 @@ else {
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
 
 
 
@@ -260,15 +264,7 @@ else {
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
-
-
-
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 
 
@@ -276,15 +272,19 @@ else {
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
-
-
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
 
 
 
 <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

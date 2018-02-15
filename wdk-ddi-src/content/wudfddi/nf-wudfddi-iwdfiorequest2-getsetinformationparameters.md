@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44872d92-4a71-4cc7-9f7c-c95477ac3264
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest2_getsetinformationparameters, IWDFIoRequest2, GetSetInformationParameters, umdf.iwdfiorequest2_getsetinformationparameters, UMDFRequestObjectRef_ed4dd211-1a7c-4ca3-9450-ab4320ece88d.xml, IWDFIoRequest2 interface, GetSetInformationParameters method, GetSetInformationParameters method, IWDFIoRequest2::GetSetInformationParameters, GetSetInformationParameters method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::GetSetInformationParameters
+ms.keywords: IWDFIoRequest2, GetSetInformationParameters method, GetSetInformationParameters method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_getsetinformationparameters, wdf.iwdfiorequest2_getsetinformationparameters, UMDFRequestObjectRef_ed4dd211-1a7c-4ca3-9450-ab4320ece88d.xml, IWDFIoRequest2 interface, GetSetInformationParameters method, GetSetInformationParameters, wudfddi/IWDFIoRequest2::GetSetInformationParameters, IWDFIoRequest2::GetSetInformationParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -73,7 +73,7 @@ void GetSetInformationParameters(
 
 ### -param pInformationClass [out, optional]
 
-A pointer to a driver-allocated variable that receives a <a href="..\wdffileobject\ne-wdffileobject-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
+A pointer to a driver-allocated variable that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value. This pointer is optional and can be <b>NULL</b>.
 
 
 ### -param pSizeInBytes [out, optional]

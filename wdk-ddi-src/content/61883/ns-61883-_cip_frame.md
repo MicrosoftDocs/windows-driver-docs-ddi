@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PCIP_FRAME, _CIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, 61883/PCIP_FRAME, CIP_FRAME, 61883/CIP_FRAME, PCIP_FRAME, IEEE.cip_frame, PCIP_FRAME structure pointer [Buses], CIP_FRAME structure [Buses]"
+ms.keywords: CIP_FRAME structure [Buses], *PCIP_FRAME, IEEE.cip_frame, 61883/PCIP_FRAME, PCIP_FRAME structure pointer [Buses], 61883/CIP_FRAME, PCIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, _CIP_FRAME, CIP_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

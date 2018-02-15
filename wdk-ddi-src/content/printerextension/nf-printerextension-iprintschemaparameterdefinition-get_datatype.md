@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 82CC79A8-0281-4100-B3FB-1FFFB2454B8D
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DataType property [Print Devices], IPrintSchemaParameterDefinition interface, printerextension/IPrintSchemaParameterDefinition::DataType, print._iprintschemaparameterdefinition_datatype, IPrintSchemaParameterDefinition interface [Print Devices], DataType property, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition::get_DataType, IPrintSchemaParameterDefinition.DataType, get_DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType, DataType property [Print Devices]
+ms.keywords: IPrintSchemaParameterDefinition, get_DataType, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::get_DataType, DataType property [Print Devices], DataType property [Print Devices], IPrintSchemaParameterDefinition interface, printerextension/IPrintSchemaParameterDefinition::DataType, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition::get_DataType, IPrintSchemaParameterDefinition interface [Print Devices], DataType property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

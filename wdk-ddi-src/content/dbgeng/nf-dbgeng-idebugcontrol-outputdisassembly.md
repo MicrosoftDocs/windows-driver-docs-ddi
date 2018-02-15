@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2a9944a4-3885-4e83-b20e-040cffcbf85b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.outputdisassembly, IDebugControl2::OutputDisassembly, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, IDebugControl3 interface [Windows Debugging], OutputDisassembly method, dbgeng/IDebugControl2::OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl3 interface, IDebugControl3::OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl2 interface, IDebugControl, OutputDisassembly method [Windows Debugging], dbgeng/IDebugControl3::OutputDisassembly, dbgeng/IDebugControl::OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl interface, OutputDisassembly, IDebugControl::OutputDisassembly, IDebugControl2 interface [Windows Debugging], OutputDisassembly method, IDebugControl interface [Windows Debugging], OutputDisassembly method
+ms.keywords: IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, dbgeng/IDebugControl::OutputDisassembly, IDebugControl2 interface [Windows Debugging], OutputDisassembly method, IDebugControl3::OutputDisassembly, debugger.outputdisassembly, IDebugControl3 interface [Windows Debugging], OutputDisassembly method, dbgeng/IDebugControl3::OutputDisassembly, IDebugControl::OutputDisassembly, IDebugControl2::OutputDisassembly, dbgeng/IDebugControl2::OutputDisassembly, OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl interface [Windows Debugging], OutputDisassembly method, OutputDisassembly method [Windows Debugging], IDebugControl2 interface, OutputDisassembly method [Windows Debugging], IDebugControl3 interface, IDebugControl, OutputDisassembly method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -181,15 +181,15 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553216">OutputDisassemblyLines</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553216">OutputDisassemblyLines</a>
 
 
 
@@ -197,7 +197,7 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 742ee83c-3db4-4d77-a79d-28bcc405746d
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PcDestroyContent, audio.pcdestroycontent, PcDestroyContent function [Audio Devices], portcls/PcDestroyContent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml
+ms.keywords: portcls/PcDestroyContent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, PcDestroyContent, PcDestroyContent function [Audio Devices], audio.pcdestroycontent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

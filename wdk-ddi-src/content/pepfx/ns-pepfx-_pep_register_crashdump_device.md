@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 207EEFBF-289F-4973-9183-7D87C0BAE09A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_REGISTER_CRASHDUMP_DEVICE, pepfx/PEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE structure [Kernel-Mode Driver Architecture], PEP_REGISTER_CRASHDUMP_DEVICE, *PPEP_REGISTER_CRASHDUMP_DEVICE, PPEP_REGISTER_CRASHDUMP_DEVICE, kernel.pep_register_crashdump_device, PPEP_REGISTER_CRASHDUMP_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_CRASHDUMP_DEVICE
+ms.keywords: kernel.pep_register_crashdump_device, PEP_REGISTER_CRASHDUMP_DEVICE structure [Kernel-Mode Driver Architecture], _PEP_REGISTER_CRASHDUMP_DEVICE, PPEP_REGISTER_CRASHDUMP_DEVICE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_REGISTER_CRASHDUMP_DEVICE, pepfx/PEP_REGISTER_CRASHDUMP_DEVICE, PPEP_REGISTER_CRASHDUMP_DEVICE, *PPEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

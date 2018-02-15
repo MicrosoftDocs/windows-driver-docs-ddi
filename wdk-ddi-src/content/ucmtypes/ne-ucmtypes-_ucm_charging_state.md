@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: DDC3532A-0084-4C56-B540-C638AB7F7080
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucmtypes/UcmChargingStateNotCharging, *PUCM_CHARGING_STATE, UCM_CHARGING_STATE enumeration [Buses], UcmChargingStateSlowCharging, UCM_CHARGING_STATE, _UCM_CHARGING_STATE, buses.ucm_charging_state, ucmtypes/UCM_CHARGING_STATE, ucmtypes/UcmChargingStateSlowCharging, UcmChargingStateInvalid, UcmChargingStateNotCharging, ucmtypes/UcmChargingStateNominalCharging, ucmtypes/UcmChargingStateInvalid, UcmChargingStateTrickleCharging, UcmChargingStateNominalCharging, ucmtypes/ UcmChargingStateTrickleCharging
+ms.keywords: ucmtypes/UcmChargingStateNotCharging, UcmChargingStateNominalCharging, UcmChargingStateTrickleCharging, ucmtypes/UcmChargingStateInvalid, ucmtypes/UCM_CHARGING_STATE, ucmtypes/UcmChargingStateNominalCharging, ucmtypes/UcmChargingStateSlowCharging, ucmtypes/ UcmChargingStateTrickleCharging, UcmChargingStateNotCharging, UCM_CHARGING_STATE enumeration [Buses], *PUCM_CHARGING_STATE, buses.ucm_charging_state, _UCM_CHARGING_STATE, UcmChargingStateSlowCharging, UcmChargingStateInvalid, UCM_CHARGING_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -100,7 +100,7 @@ Indicates the port is drawing a trickle charge.
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params.md">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a>
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
 
 
@@ -112,7 +112,7 @@ Indicates the port is drawing a trickle charge.
 
 
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_attach_params.md">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params.md">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3ec46b53-f3a8-4fd6-bf94-261ff8accad7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntryString method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryString, debugger.getsymbolentrystring, IDebugSymbols3::GetSymbolEntryString, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryString method, dbgeng/IDebugSymbols3::GetSymbolEntryString, IDebugSymbols_cf31d6c1-ffc6-4112-af04-dc023635bb5a.xml, GetSymbolEntryString method [Windows Debugging], IDebugSymbols3
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryString method, debugger.getsymbolentrystring, IDebugSymbols_cf31d6c1-ffc6-4112-af04-dc023635bb5a.xml, GetSymbolEntryString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3::GetSymbolEntryString, dbgeng/IDebugSymbols3::GetSymbolEntryString, GetSymbolEntryString method [Windows Debugging], GetSymbolEntryString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -139,11 +139,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548458">GetSymbolEntriesByName</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

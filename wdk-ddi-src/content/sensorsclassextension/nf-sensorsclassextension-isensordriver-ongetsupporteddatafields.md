@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 5020212e-9e3f-468f-8f7c-77d70a8f024b
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: sensors.isensordriver_ongetsupporteddatafields, ISensorDriver::OnGetSupportedDataFields, ISensorDriver, OnGetSupportedDataFields method [Sensor Devices], OnGetSupportedDataFields
+ms.keywords: ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields, sensors.isensordriver_ongetsupporteddatafields, ISensorDriver, OnGetSupportedDataFields method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -77,7 +77,6 @@ The hardware device being processed.
 ### -param *
 
 
-
 ### -param hDrvVideoDecoderHeap
 
 The video decoder heap.
@@ -91,6 +90,8 @@ The arguments used to create a video decoder heap.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

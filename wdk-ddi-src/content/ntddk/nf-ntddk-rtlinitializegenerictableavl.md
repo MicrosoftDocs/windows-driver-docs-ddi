@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rtlinitializegenerictableavl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ntddk/RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl
+ms.keywords: RtlInitializeGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,15 +243,7 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
 
 
 
@@ -259,19 +251,27 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
 
 
 

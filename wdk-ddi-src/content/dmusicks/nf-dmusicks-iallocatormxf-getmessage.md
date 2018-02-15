@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: d5b56926-bcfb-4411-b24d-cc0758852510
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IAllocatorMXF, GetMessage method [Audio Devices], GetMessage method [Audio Devices], IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices], GetMessage method, dmusicks/IAllocatorMXF::GetMessage, GetMessage, audio.iallocatormxf_getmessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, IAllocatorMXF::GetMessage
+ms.keywords: audio.iallocatormxf_getmessage, GetMessage method [Audio Devices], IAllocatorMXF interface [Audio Devices], GetMessage method, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, IAllocatorMXF::GetMessage, GetMessage method [Audio Devices], IAllocatorMXF interface, dmusicks/IAllocatorMXF::GetMessage, GetMessage, IAllocatorMXF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,7 +96,7 @@ For more information about the allocator, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
+<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
 
 
 
@@ -104,7 +104,7 @@ For more information about the allocator, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
 
 

@@ -169,11 +169,7 @@ The <b>EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE</b> function type is defined in the W
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
-
-
-
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 
 
@@ -181,11 +177,11 @@ The <b>EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE</b> function type is defined in the W
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_instance.md">EvtWmiInstanceSetInstance</a>
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
@@ -194,6 +190,10 @@ The <b>EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE</b> function type is defined in the W
 
 
 <a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_buffer_append_string.md">WDF_WMI_BUFFER_APPEND_STRING</a>
+
+
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9006d542-0f83-4cd4-ab81-d2e4cce67406
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS, netvista.rilsenduicctoolkitcmdresponseparams, RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS
+ms.keywords: netvista.rilsenduicctoolkitcmdresponseparams, RILSENDUICCTOOLKITCMDRESPONSEPARAMS, ntddrilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS, *LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

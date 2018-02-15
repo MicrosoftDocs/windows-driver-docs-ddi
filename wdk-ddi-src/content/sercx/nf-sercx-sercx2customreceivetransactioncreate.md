@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 3E01268B-69DB-4713-841B-8B27D24F8431
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SerCx2CustomReceiveTransactionCreate, serports.sercx2customreceivetransactioncreate, SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate method [Serial Ports]
+ms.keywords: 2/SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate method [Serial Ports], serports.sercx2customreceivetransactioncreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,6 +171,26 @@ For more information about creating custom-receive-transaction objects, see <a h
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2_custom_receive_transaction_config_init.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+
+
+
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
@@ -183,15 +203,7 @@ For more information about creating custom-receive-transaction objects, see <a h
 
 
 
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -200,18 +212,6 @@ For more information about creating custom-receive-transaction objects, see <a h
 
 
 <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVE</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2_custom_receive_transaction_config_init.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a>
 
 
 

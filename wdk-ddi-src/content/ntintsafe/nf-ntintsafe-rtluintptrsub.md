@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0E23A94-515B-4225-A8AC-390CDD3BEA60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUIntPtrSub function [Kernel-Mode Driver Architecture], RtlUIntPtrSub, ntintsafe/RtlUIntPtrSub, kernel.rtluintptrsub
+ms.keywords: RtlUIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtluintptrsub, RtlUIntPtrSub, ntintsafe/RtlUIntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

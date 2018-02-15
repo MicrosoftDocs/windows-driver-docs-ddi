@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fdbb5d74-25d5-4920-849c-8d4adce1d216
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlunicodetoutf8n, wdm/RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], RtlUnicodeToUTF8N, k109_8c33089a-9b47-4c33-9468-56a16caea229.xml
+ms.keywords: k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, kernel.rtlunicodetoutf8n, RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeToUTF8N
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

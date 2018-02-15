@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dbc929a9-696b-42e1-9888-9e8c0b1e01c9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, WdfUsbInterfaceGetNumConfiguredPipes method, wdf.wdfusbinterfacegetnumconfiguredpipes, WdfUsbInterfaceGetNumConfiguredPipes, kmdf.wdfusbinterfacegetnumconfiguredpipes, PFN_WDFUSBINTERFACEGETNUMCONFIGUREDPIPES, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes
+ms.keywords: WdfUsbInterfaceGetNumConfiguredPipes method, kmdf.wdfusbinterfacegetnumconfiguredpipes, WdfUsbInterfaceGetNumConfiguredPipes, DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, wdf.wdfusbinterfacegetnumconfiguredpipes, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes, PFN_WDFUSBINTERFACEGETNUMCONFIGUREDPIPES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,11 +121,11 @@ pipeCount = WdfUsbInterfaceGetNumConfiguredPipes(UsbInterface);</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 
 

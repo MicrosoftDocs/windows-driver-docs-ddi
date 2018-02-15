@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e698027-23f8-4765-a4ac-955cd4b24a70
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_CREATEALLOCATION, OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, D3DKMT_CREATEALLOCATION, D3DKMT_CREATEALLOCATION structure [Display Devices], _D3DKMT_CREATEALLOCATION, display.d3dkmt_createallocation
+ms.keywords: display.d3dkmt_createallocation, _D3DKMT_CREATEALLOCATION, OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, D3DKMT_CREATEALLOCATION, d3dkmthk/D3DKMT_CREATEALLOCATION, D3DKMT_CREATEALLOCATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 81c89fbc-5d58-4983-b591-765a7818b932
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "*PIPCR, IPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, 61883/IPCR, IPCR structure [Buses], IEEE.ipcr, PIPCR, _IPCR, PIPCR structure pointer [Buses], 61883/PIPCR"
+ms.keywords: 61883/PIPCR, _IPCR, PIPCR, *PIPCR, IPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, PIPCR structure pointer [Buses], IEEE.ipcr, IPCR structure [Buses], 61883/IPCR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

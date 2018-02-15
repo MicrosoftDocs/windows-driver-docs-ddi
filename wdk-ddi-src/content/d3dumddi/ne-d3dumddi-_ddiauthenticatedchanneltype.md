@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 431575b7-1173-448c-98a9-790bc2721da0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DDIAUTHENTICATEDCHANNELTYPE, DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, DDIAUTHENTICATEDCHANNELTYPE enumeration [Display Devices], DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, DDIAUTHENTICATEDCHANNELTYPE, display.ddiauthenticatedchanneltype, D3D_other_Structs_ac5c5f50-3e64-483f-86d1-a0cd99f0578b.xml, _DDIAUTHENTICATEDCHANNELTYPE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE
+ms.keywords: "_DDIAUTHENTICATEDCHANNELTYPE, DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, display.ddiauthenticatedchanneltype, DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, d3dumddi/DDIAUTHENTICATEDCHANNELTYPE, D3D_other_Structs_ac5c5f50-3e64-483f-86d1-a0cd99f0578b.xml, DDIAUTHENTICATEDCHANNELTYPE enumeration [Display Devices], d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, DDIAUTHENTICATEDCHANNELTYPE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,11 +95,11 @@ The Microsoft Direct3D runtime specifies a DDIAUTHENTICATEDCHANNELTYPE-typed val
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createauthenicatedchannel.md">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
 
 
 
@@ -107,7 +107,7 @@ The Microsoft Direct3D runtime specifies a DDIAUTHENTICATEDCHANNELTYPE-typed val
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createauthenicatedchannel.md">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
 
 
 

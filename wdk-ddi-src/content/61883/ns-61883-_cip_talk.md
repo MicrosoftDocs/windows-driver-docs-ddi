@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: DD5EB79D-122B-4D17-9109-37473AC49C4A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cip_talk, 61883/PCIP_TALK, *PCIP_TALK, PCIP_TALK, _CIP_TALK, PCIP_TALK structure pointer [Buses], 61883/CIP_TALK, CIP_TALK structure [Buses], CIP_TALK
+ms.keywords: 61883/CIP_TALK, CIP_TALK, PCIP_TALK structure pointer [Buses], 61883/PCIP_TALK, *PCIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk, _CIP_TALK, PCIP_TALK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

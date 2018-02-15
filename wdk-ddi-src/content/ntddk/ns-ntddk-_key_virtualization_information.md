@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 128dd4ed-12c6-472a-b63c-d2d217b5c716
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KEY_VIRTUALIZATION_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_VIRTUALIZATION_INFORMATION, kstruct_c_00c77a09-ed8d-4a66-9b18-b971c9eab5ce.xml, KEY_VIRTUALIZATION_INFORMATION, PKEY_VIRTUALIZATION_INFORMATION, kernel.key_virtualization_information, PKEY_VIRTUALIZATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VIRTUALIZATION_INFORMATION, ntddk/PKEY_VIRTUALIZATION_INFORMATION, ntddk/KEY_VIRTUALIZATION_INFORMATION
+ms.keywords: KEY_VIRTUALIZATION_INFORMATION structure [Kernel-Mode Driver Architecture], ntddk/KEY_VIRTUALIZATION_INFORMATION, PKEY_VIRTUALIZATION_INFORMATION, _KEY_VIRTUALIZATION_INFORMATION, PKEY_VIRTUALIZATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_00c77a09-ed8d-4a66-9b18-b971c9eab5ce.xml, kernel.key_virtualization_information, *PKEY_VIRTUALIZATION_INFORMATION, ntddk/PKEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,7 +104,7 @@ This value is reserved for system use.
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 
 
@@ -112,15 +112,15 @@ This value is reserved for system use.
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
 
 
 

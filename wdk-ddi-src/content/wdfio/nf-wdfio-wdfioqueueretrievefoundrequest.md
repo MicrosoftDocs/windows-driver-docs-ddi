@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 34447879-1a2e-45de-b754-121a5956330a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfioqueueretrievefoundrequest, WdfIoQueueRetrieveFoundRequest, DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, wdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest, PFN_WDFIOQUEUERETRIEVEFOUNDREQUEST, WdfIoQueueRetrieveFoundRequest method
+ms.keywords: PFN_WDFIOQUEUERETRIEVEFOUNDREQUEST, wdfio/WdfIoQueueRetrieveFoundRequest, WdfIoQueueRetrieveFoundRequest, wdf.wdfioqueueretrievefoundrequest, DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, kmdf.wdfioqueueretrievefoundrequest, WdfIoQueueRetrieveFoundRequest method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

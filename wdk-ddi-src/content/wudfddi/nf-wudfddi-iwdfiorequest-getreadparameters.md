@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d5691fa-f5dc-4d13-b19c-a169a43aa7b9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, GetReadParameters method, GetReadParameters method, IWDFIoRequest interface, IWDFIoRequest::GetReadParameters, wdf.iwdfiorequest_getreadparameters, umdf.iwdfiorequest_getreadparameters, IWDFIoRequest interface, GetReadParameters method, GetReadParameters, IWDFIoRequest
+ms.keywords: wdf.iwdfiorequest_getreadparameters, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, IWDFIoRequest interface, GetReadParameters method, GetReadParameters method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::GetReadParameters, GetReadParameters method, umdf.iwdfiorequest_getreadparameters, IWDFIoRequest, GetReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

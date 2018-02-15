@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f0213dc9-7299-4cf7-b2c9-27e5d1caea00
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msiscsi_initiatorinstancefailureevent, iscsimgt/MSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent, _MSiSCSI_InitiatorInstanceFailureEvent, PMSiSCSI_InitiatorInstanceFailureEvent structure pointer [Storage Devices], iscsimgt/PMSiSCSI_InitiatorInstanceFailureEvent, structs-iSCSI_189ce06c-9fb3-49f5-9921-31c400c4ae23.xml, PMSiSCSI_InitiatorInstanceFailureEvent, *PMSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent structure [Storage Devices]
+ms.keywords: structs-iSCSI_189ce06c-9fb3-49f5-9921-31c400c4ae23.xml, MSiSCSI_InitiatorInstanceFailureEvent, PMSiSCSI_InitiatorInstanceFailureEvent structure pointer [Storage Devices], iscsimgt/MSiSCSI_InitiatorInstanceFailureEvent, iscsimgt/PMSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent structure [Storage Devices], storage.msiscsi_initiatorinstancefailureevent, *PMSiSCSI_InitiatorInstanceFailureEvent, _MSiSCSI_InitiatorInstanceFailureEvent, PMSiSCSI_InitiatorInstanceFailureEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

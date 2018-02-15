@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b3eaabdf-0163-4679-9b22-d8ec53abed59
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_MORPHING structure pointer [Storage Devices], storage.feature_data_morphing, structs-CD-ROM_f159fbd8-73db-440b-a4f3-2429181c6836.xml, *PFEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING, ntddmmc/PFEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING structure [Storage Devices], ntddmmc/FEATURE_DATA_MORPHING, _FEATURE_DATA_MORPHING
+ms.keywords: "_FEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING, storage.feature_data_morphing, *PFEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING, structs-CD-ROM_f159fbd8-73db-440b-a4f3-2429181c6836.xml, ntddmmc/PFEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

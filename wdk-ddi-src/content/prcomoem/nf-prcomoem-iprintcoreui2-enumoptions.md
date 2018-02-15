@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 9ae20927-6ef4-4566-939c-967ce1d99874
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrintCoreUI2, EnumOptions method [Print Devices], IPrintCoreUI2 interface, EnumOptions method [Print Devices], print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml, IPrintCoreUI2::EnumOptions, IPrintCoreUI2 interface [Print Devices], EnumOptions method, print.iprintcoreui2_enumoptions, EnumOptions, prcomoem/IPrintCoreUI2::EnumOptions
+ms.keywords: IPrintCoreUI2::EnumOptions, print.iprintcoreui2_enumoptions, print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml, EnumOptions, IPrintCoreUI2 interface [Print Devices], EnumOptions method, EnumOptions method [Print Devices], IPrintCoreUI2, prcomoem/IPrintCoreUI2::EnumOptions, EnumOptions method [Print Devices], IPrintCoreUI2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -200,11 +200,11 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553050">IPrintCoreUI2::EnumFeatures</a>
-
-
-
 <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553050">IPrintCoreUI2::EnumFeatures</a>
 
 
 

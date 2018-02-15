@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02fe418f-1793-4585-9891-1274a4ddba74
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSymbolEntryInformation, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, GetSymbolEntryInformation, debugger.getsymbolentryinformation, IDebugSymbols3::GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryInformation method, IDebugSymbols3
+ms.keywords: debugger.getsymbolentryinformation, IDebugSymbols_a1ac4d9f-172c-4697-937d-a59c88bb8778.xml, GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryInformation method, IDebugSymbols3::GetSymbolEntryInformation, GetSymbolEntryInformation, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSymbolEntryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 985f811e-cf4f-4dbe-8ede-497ba4eceffd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture], k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml, ExSetResourceOwnerPointer, wdm/ExSetResourceOwnerPointer, kernel.exsetresourceownerpointer
+ms.keywords: k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml, ExSetResourceOwnerPointer, wdm/ExSetResourceOwnerPointer, kernel.exsetresourceownerpointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

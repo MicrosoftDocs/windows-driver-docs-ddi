@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 29ed998c-d833-496f-a728-0eef2cd49ae6
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "*PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD, WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], ntddk/WHEA_ERROR_RECORD, whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml, _WHEA_ERROR_RECORD, WHEA_ERROR_RECORD, ntddk/PWHEA_ERROR_RECORD, whea.whea_error_record, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications]"
+ms.keywords: "_WHEA_ERROR_RECORD, ntddk/WHEA_ERROR_RECORD, WHEA_ERROR_RECORD, PWHEA_ERROR_RECORD, ntddk/PWHEA_ERROR_RECORD, whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml, WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], whea.whea_error_record, *PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

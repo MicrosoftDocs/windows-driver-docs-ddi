@@ -407,19 +407,23 @@ The <b>EVT_SERCX2_CONTROL</b> function type is defined in the Sercx.h header fil
 
 ## -see-also
 
+<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_apply_config.md">EvtSerCx2ApplyConfig</a>
+
+
+
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_purge_fifos.md">EvtSerCx2PurgeFifos</a>
-
-
-
 <a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
-
-
-
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
 
 
 
@@ -431,11 +435,7 @@ The <b>EVT_SERCX2_CONTROL</b> function type is defined in the Sercx.h header fil
 
 
 
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_apply_config.md">EvtSerCx2ApplyConfig</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_purge_fifos.md">EvtSerCx2PurgeFifos</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0da022d5-7294-4780-bab8-119ff6385abf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGetRssProcessorInformation, ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista], NdisGetRssProcessorInformation, netvista.ndisgetrssprocessorinformation
+ms.keywords: NdisGetRssProcessorInformation, NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetRssProcessorInformation, ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, netvista.ndisgetrssprocessorinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -166,7 +166,7 @@ RSS-capable miniport drivers that support MSI-X call
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -175,15 +175,15 @@ RSS-capable miniport drivers that support MSI-X call
 
 
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 

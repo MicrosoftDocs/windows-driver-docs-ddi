@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88e12eb6-6015-44bc-b170-cc152fdd1397
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], display.dxgkmdt_opm_get_info_parameters, *PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], DXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS, DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS"
+ms.keywords: d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, _DXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters, PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], *PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -175,11 +175,11 @@ DXGKMDT_OPM_GET_INFO_PARAMETERS is not used for COPP emulation; instead, the <a 
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
 
 
 

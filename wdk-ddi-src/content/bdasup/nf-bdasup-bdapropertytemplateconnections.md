@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 64b55b53-677a-4977-b865-0a07d34d2530
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_919b0c2d-5bb9-4e17-8028-79f669ab7b8c.xml, stream.bdapropertytemplateconnections, bdasup/BdaPropertyTemplateConnections, BdaPropertyTemplateConnections function [Streaming Media Devices], BdaPropertyTemplateConnections
+ms.keywords: BdaPropertyTemplateConnections function [Streaming Media Devices], bdasup/BdaPropertyTemplateConnections, bdaref_919b0c2d-5bb9-4e17-8028-79f669ab7b8c.xml, BdaPropertyTemplateConnections, stream.bdapropertytemplateconnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,7 +112,7 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
@@ -120,7 +120,7 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564386">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a>
+<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
 
 
 
@@ -128,7 +128,7 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564386">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a>
 
 
 

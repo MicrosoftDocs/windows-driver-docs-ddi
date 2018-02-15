@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c4ac992a-7ef2-47b6-88d1-54b47b4a0af4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_GetBindingCapability, storage.hba_getbindingcapability, fibreHBA_rtns_05b57109-c484-4faf-afaa-e5e833f47ee1.xml, HBA_GetBindingCapability routine [Storage Devices], HBA_GetBindingCapability
+ms.keywords: fibreHBA_rtns_05b57109-c484-4faf-afaa-e5e833f47ee1.xml, storage.hba_getbindingcapability, HBA_GetBindingCapability routine [Storage Devices], HBA_GetBindingCapability, hbaapi/HBA_GetBindingCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

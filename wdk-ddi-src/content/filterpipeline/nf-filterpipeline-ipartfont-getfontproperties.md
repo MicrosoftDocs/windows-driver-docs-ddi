@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 6a19c32c-62f2-4b88-908c-c6b92419e410
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.ipartfont_getfontproperties, GetFontProperties method [Print Devices], IPartFont interface, GetFontProperties, filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, IPartFont::GetFontProperties, IPartFont interface [Print Devices], GetFontProperties method, filterpipeline/IPartFont::GetFontProperties, IPartFont, GetFontProperties method [Print Devices]
+ms.keywords: filterpipeline/IPartFont::GetFontProperties, print.ipartfont_getfontproperties, GetFontProperties method [Print Devices], IPartFont::GetFontProperties, GetFontProperties method [Print Devices], IPartFont interface, filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, IPartFont interface [Print Devices], GetFontProperties method, IPartFont, GetFontProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

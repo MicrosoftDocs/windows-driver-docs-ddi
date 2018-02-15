@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fa6af43c-4fbd-43b5-9c3d-61254dfe894f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/SendTargets_IN, SendTargets_IN structure [Storage Devices], PSendTargets_IN, storage.sendtargets_in, SendTargets_IN, PSendTargets_IN structure pointer [Storage Devices], iscsiop/PSendTargets_IN, *PSendTargets_IN, structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml, _SendTargets_IN
+ms.keywords: SendTargets_IN structure [Storage Devices], storage.sendtargets_in, PSendTargets_IN structure pointer [Storage Devices], SendTargets_IN, *PSendTargets_IN, iscsiop/SendTargets_IN, _SendTargets_IN, iscsiop/PSendTargets_IN, structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml, PSendTargets_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,10 +89,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
@@ -102,6 +98,10 @@ You must implement this method.
 
 
 <a href="..\iscsiop\ns-iscsiop-_sendtargets_out.md">SendTargets_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
 
 
 

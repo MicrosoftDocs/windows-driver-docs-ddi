@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: sensorsclassextension/Unreliable, sensorsclassextension/Approximate, MagnetometerAccuracy enumeration [Sensor Devices], sensors.magnetometeraccuracy, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/High, High, MagnetometerAccuracy, Unknown, sensorsclassextension/Unknown, Approximate, Unreliable
+ms.keywords: Unknown, Approximate, Unreliable, sensorsclassextension/Approximate, MagnetometerAccuracy enumeration [Sensor Devices], MagnetometerAccuracy, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/High, High, sensorsclassextension/Unknown, sensorsclassextension/Unreliable, sensors.magnetometeraccuracy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -85,16 +85,6 @@ typedef enum _MagnetometerAccuracy {
 
 
 
-#### - Unknown
-
-The accuracy is currently not available, typically because the driver can't report it.
-
-
-#### - Unreliable
-
-The reported values have a high degree of inaccuracy. Apps should always ask the user to calibrate the device whenever this value is returned.
-
-
 #### - Approximate
 
           The actual and reported values differ but may be accurate enough for some applications. Apps that only need a relative value, like a virtual reality app, can continue without additional calibration.
@@ -103,6 +93,16 @@ The reported values have a high degree of inaccuracy. Apps should always ask the
 #### - High
 
           The actual and reported values are accurate. No additional calibration is needed.
+
+
+#### - Unknown
+
+The accuracy is currently not available, typically because the driver can't report it.
+
+
+#### - Unreliable
+
+The reported values have a high degree of inaccuracy. Apps should always ask the user to calibrate the device whenever this value is returned.
 
 
 ## -remarks

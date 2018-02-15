@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba85b333-9a43-421a-8687-9630e792cadf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_destroyallocation, _D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION structure [Display Devices], d3dkmthk/D3DKMT_DESTROYALLOCATION, OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml, D3DKMT_DESTROYALLOCATION
+ms.keywords: D3DKMT_DESTROYALLOCATION structure [Display Devices], display.d3dkmt_destroyallocation, d3dkmthk/D3DKMT_DESTROYALLOCATION, OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml, D3DKMT_DESTROYALLOCATION, _D3DKMT_DESTROYALLOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

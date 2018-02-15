@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64bb049a-6b8a-470f-8269-8a168761e388
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetPoolFromNetBuffer function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_ae9f36c7-ab1c-4ea4-9721-2fd15aabc667.xml, netvista.ndisgetpoolfromnetbuffer, ndis/NdisGetPoolFromNetBuffer, NdisGetPoolFromNetBuffer
+ms.keywords: NdisGetPoolFromNetBuffer function [Network Drivers Starting with Windows Vista], netvista.ndisgetpoolfromnetbuffer, ndis/NdisGetPoolFromNetBuffer, ndis_netbuf_functions_ref_ae9f36c7-ab1c-4ea4-9721-2fd15aabc667.xml, NdisGetPoolFromNetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

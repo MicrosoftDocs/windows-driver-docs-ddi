@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fc67ef79-41c8-414c-aaa9-ef8a80edd696
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/PI2C_CALLBACKS, Video_Structs_fc21393a-6df2-4b4f-89be-2d3ac46dfcd7.xml, _I2C_CALLBACKS, I2C_CALLBACKS structure [Display Devices], PI2C_CALLBACKS, I2C_CALLBACKS, PI2C_CALLBACKS structure pointer [Display Devices], video/I2C_CALLBACKS, *PI2C_CALLBACKS, display.i2c_callbacks
+ms.keywords: "_I2C_CALLBACKS, video/PI2C_CALLBACKS, *PI2C_CALLBACKS, PI2C_CALLBACKS, I2C_CALLBACKS structure [Display Devices], video/I2C_CALLBACKS, Video_Structs_fc21393a-6df2-4b4f-89be-2d3ac46dfcd7.xml, PI2C_CALLBACKS structure pointer [Display Devices], display.i2c_callbacks, I2C_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,11 +93,7 @@ A pointer to the <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="..\video\ns-video-_ddc_control.md">DDC_CONTROL</a>
 
 
 
@@ -105,7 +101,11 @@ A pointer to the <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLi
 
 
 
-<a href="..\video\ns-video-_ddc_control.md">DDC_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
+
+
+
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 

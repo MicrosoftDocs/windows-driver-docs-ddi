@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 63ee7f5c-ca95-4c2d-be17-56a769188f8c
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PSHOWUIPARAMS, winsplp/PSHOWUIPARAMS, SHOWUIPARAMS, winsplp/SHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, *PSHOWUIPARAMS, print.showuiparams, SHOWUIPARAMS structure [Print Devices]
+ms.keywords: spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, SHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], *PSHOWUIPARAMS, winsplp/PSHOWUIPARAMS, PSHOWUIPARAMS, winsplp/SHOWUIPARAMS, SHOWUIPARAMS structure [Print Devices], print.showuiparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

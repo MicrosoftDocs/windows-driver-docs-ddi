@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 3a5d4572-0455-4fd0-aeff-fc99d72433b6
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi.acpi_eval_input_buffer_ex, *PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_V1_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml
+ms.keywords: ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], acpi.acpi_eval_input_buffer_ex, ACPI_EVAL_INPUT_BUFFER_EX, _ACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml, ACPI_EVAL_INPUT_BUFFER_V1_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

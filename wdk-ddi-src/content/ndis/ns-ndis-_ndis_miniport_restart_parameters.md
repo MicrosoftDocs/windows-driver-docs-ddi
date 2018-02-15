@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4e005245-ed98-47fd-aaae-421940edf2dc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NDIS_MINIPORT_RESTART_PARAMETERS, netvista.ndis_miniport_restart_parameters, PNDIS_MINIPORT_RESTART_PARAMETERS, PNDIS_MINIPORT_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], miniport_structures_ref_618076bd-9d88-4104-89fd-c2ccddf32b02.xml, NDIS_MINIPORT_RESTART_PARAMETERS, *PNDIS_MINIPORT_RESTART_PARAMETERS, _NDIS_MINIPORT_RESTART_PARAMETERS, NDIS_MINIPORT_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_MINIPORT_RESTART_PARAMETERS
+ms.keywords: ndis/NDIS_MINIPORT_RESTART_PARAMETERS, miniport_structures_ref_618076bd-9d88-4104-89fd-c2ccddf32b02.xml, PNDIS_MINIPORT_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_MINIPORT_RESTART_PARAMETERS, ndis/PNDIS_MINIPORT_RESTART_PARAMETERS, PNDIS_MINIPORT_RESTART_PARAMETERS, NDIS_MINIPORT_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_restart_parameters, NDIS_MINIPORT_RESTART_PARAMETERS, _NDIS_MINIPORT_RESTART_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,7 +106,7 @@ To define miniport adapter restart parameters, NDIS passes a pointer to an
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -114,7 +114,7 @@ To define miniport adapter restart parameters, NDIS passes a pointer to an
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
 
 

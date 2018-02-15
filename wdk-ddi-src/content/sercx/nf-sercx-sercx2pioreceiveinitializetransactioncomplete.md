@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 66F8DA69-F4AD-45BE-A211-184E87882908
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2PioReceiveInitializeTransactionComplete method [Serial Ports], 2/SerCx2PioReceiveInitializeTransactionComplete, serports.sercx2pioreceiveinitializetransactioncomplete, SerCx2PioReceiveInitializeTransactionComplete
+ms.keywords: SerCx2PioReceiveInitializeTransactionComplete method [Serial Ports], serports.sercx2pioreceiveinitializetransactioncomplete, 2/SerCx2PioReceiveInitializeTransactionComplete, SerCx2PioReceiveInitializeTransactionComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

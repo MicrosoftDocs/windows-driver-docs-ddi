@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 052507ec-4a26-4bb6-8876-c03a9c81f412
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_3a2d269d-0867-42fb-9268-86c560531de4.xml, D3DKMTGetScanLine, D3DKMTGetScanLine function [Display Devices], display.d3dkmtgetscanline, d3dkmthk/D3DKMTGetScanLine
+ms.keywords: d3dkmthk/D3DKMTGetScanLine, D3DKMTGetScanLine function [Display Devices], display.d3dkmtgetscanline, D3DKMTGetScanLine, OpenGL_Functions_3a2d269d-0867-42fb-9268-86c560531de4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

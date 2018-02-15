@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ae029e17-7229-49a6-bf5f-96e0cb143d5b
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream::SetState, portcls/IMiniportWavePciStream::SetState, SetState, SetState method [Audio Devices], audio.iminiportwavepcistream_setstate, IMiniportWavePciStream interface [Audio Devices], SetState method, SetState method [Audio Devices], IMiniportWavePciStream interface, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml
+ms.keywords: portcls/IMiniportWavePciStream::SetState, SetState method [Audio Devices], IMiniportWavePciStream interface, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml, audio.iminiportwavepcistream_setstate, IMiniportWavePciStream interface [Audio Devices], SetState method, IMiniportWavePciStream, SetState method [Audio Devices], IMiniportWavePciStream::SetState, SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -134,11 +134,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMini
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-
-
-
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
+
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
 
 
 

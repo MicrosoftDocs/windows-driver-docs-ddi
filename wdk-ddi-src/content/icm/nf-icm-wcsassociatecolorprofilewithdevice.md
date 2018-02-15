@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: WcsAssociateColorProfileWithDevice function [Print Devices], icm/WcsAssociateColorProfileWithDevice, WcsAssociateColorProfileWithDevice, colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, print.wcsassociatecolorprofilewithdevice
+ms.keywords: print.wcsassociatecolorprofilewithdevice, WcsAssociateColorProfileWithDevice function [Print Devices], WcsAssociateColorProfileWithDevice, colorfnc_2d78f2bd-52f8-48c9-a018-30b4fed5746b.xml, icm/WcsAssociateColorProfileWithDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

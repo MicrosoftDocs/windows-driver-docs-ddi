@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a7a19c7-2e2d-4e52-920d-68f1d2d77585
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETCONVOLUTIONKERNELMONO structure [Display Devices], display.d3dddiarg_setconvolutionkernelmono, UMDisplayDriver_param_Structs_57045815-ecbd-4b5f-a94d-5bbf189449f2.xml, d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO, _D3DDDIARG_SETCONVOLUTIONKERNELMONO, D3DDDIARG_SETCONVOLUTIONKERNELMONO
+ms.keywords: D3DDDIARG_SETCONVOLUTIONKERNELMONO, _D3DDDIARG_SETCONVOLUTIONKERNELMONO, display.d3dddiarg_setconvolutionkernelmono, UMDisplayDriver_param_Structs_57045815-ecbd-4b5f-a94d-5bbf189449f2.xml, d3dumddi/D3DDDIARG_SETCONVOLUTIONKERNELMONO, D3DDDIARG_SETCONVOLUTIONKERNELMONO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

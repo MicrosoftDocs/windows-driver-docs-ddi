@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 74560229-9e97-40b9-961c-6bf726586e27
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, NDIS_STATUS_SUCCESS, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], NDIS_STATUS_RESOURCES, NdisReadConfiguration, netvista.ndisreadconfiguration, NDIS_STATUS_FAILURE, ndis/NdisReadConfiguration
+ms.keywords: NDIS_STATUS_FAILURE, NDIS_STATUS_SUCCESS, NDIS_STATUS_RESOURCES, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, NdisReadConfiguration, netvista.ndisreadconfiguration, ndis/NdisReadConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -262,32 +262,8 @@ For more information about setup and installation files, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
-
-
-
-<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyindex.md">
    NdisOpenConfigurationKeyByIndex</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
 
 
 
@@ -296,20 +272,11 @@ For more information about setup and installation files, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisunicodestringtoansistring.md">
-   NdisUnicodeStringToAnsiString</a>
+<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
 
 
 
@@ -318,7 +285,24 @@ For more information about setup and installation files, see
 
 
 
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="..\ndis\nf-ndis-ndisinitializestring.md">NdisInitializeString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisunicodestringtoansistring.md">
+   NdisUnicodeStringToAnsiString</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ndis_parameter_type.md">NDIS_PARAMETER_TYPE</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>
 
 
 
@@ -327,6 +311,22 @@ For more information about setup and installation files, see
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitunicodestring.md">NdisInitUnicodeString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitansistring.md">NdisInitAnsiString</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 
 

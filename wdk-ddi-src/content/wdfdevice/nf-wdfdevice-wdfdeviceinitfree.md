@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61540bd2-8496-4972-854c-968b53c90788
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitFree, kmdf.wdfdeviceinitfree, PFN_WDFDEVICEINITFREE, DFDeviceObjectGeneralRef_c2bdf168-0e3f-40c9-9e88-77faf7241bcb.xml, wdfdevice/WdfDeviceInitFree, wdf.wdfdeviceinitfree, WdfDeviceInitFree method
+ms.keywords: PFN_WDFDEVICEINITFREE, WdfDeviceInitFree method, WdfDeviceInitFree, wdfdevice/WdfDeviceInitFree, wdf.wdfdeviceinitfree, DFDeviceObjectGeneralRef_c2bdf168-0e3f-40c9-9e88-77faf7241bcb.xml, kmdf.wdfdeviceinitfree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

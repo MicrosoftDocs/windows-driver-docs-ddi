@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: aa48330b-93f0-4fb2-bb36-4e9050f19be5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, portcls/PPCMETHOD_REQUEST, *PPCMETHOD_REQUEST, PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], portcls/PCMETHOD_REQUEST, PCMETHOD_REQUEST structure [Audio Devices], PCMETHOD_REQUEST, _PCMETHOD_REQUEST, audio.pcmethod_request
+ms.keywords: PPCMETHOD_REQUEST, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, audio.pcmethod_request, portcls/PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST, _PCMETHOD_REQUEST, PCMETHOD_REQUEST, *PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], PCMETHOD_REQUEST structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1254b0d4-cb72-4171-b09d-f0bca58a137a
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, WcsCheckColors, WcsCheckColors function [Print Devices], print.wcscheckcolors, icm/WcsCheckColors
+ms.keywords: print.wcscheckcolors, WcsCheckColors, WcsCheckColors function [Print Devices], colorfnc_abd03c7d-c516-4c81-a0ff-df351cac753e.xml, icm/WcsCheckColors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

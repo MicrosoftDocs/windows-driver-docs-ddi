@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 281f223a-1189-4045-9a3a-17433432a6a3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_resume_from_system_state, pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE, *PPEP_PPM_RESUME_FROM_SYSTEM_STATE, _PEP_PPM_RESUME_FROM_SYSTEM_STATE
+ms.keywords: kernel.pep_ppm_resume_from_system_state, pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE, *PPEP_PPM_RESUME_FROM_SYSTEM_STATE, _PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

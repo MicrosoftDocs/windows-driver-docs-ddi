@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 42ad993a-b12e-49ff-8a1f-f62e2ab968d3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ChangeEngineState method [Windows Debugging], dbgeng/IDebugEventCallbacks::ChangeEngineState, ChangeEngineState, IDebugEventCallbacks, ComCallbacks_fafc4238-0565-410b-9e00-1cbce74737f4.xml, ChangeEngineState method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::ChangeEngineState, IDebugEventCallbacks interface [Windows Debugging], ChangeEngineState method, debugger.idebugeventcallbacks_changeenginestate
+ms.keywords: dbgeng/IDebugEventCallbacks::ChangeEngineState, IDebugEventCallbacks::ChangeEngineState, IDebugEventCallbacks interface [Windows Debugging], ChangeEngineState method, ComCallbacks_fafc4238-0565-410b-9e00-1cbce74737f4.xml, ChangeEngineState method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_changeenginestate, IDebugEventCallbacks, ChangeEngineState, ChangeEngineState method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 38F50F76-5D14-47CE-A211-3FC4F1399A74
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB.spb_transfer_list_entry_init_simple
+ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function [Buses], SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB.spb_transfer_list_entry_init_simple, spb/SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

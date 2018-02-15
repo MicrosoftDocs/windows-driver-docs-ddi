@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FCB87010-EA7D-495F-B58A-6E0322F9C846
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET structure [Buses], 1394/IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IEEE.irb_req_send_phy_configuration_packet"
+ms.keywords: 1394/IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IEEE.irb_req_send_phy_configuration_packet, _IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET, IRB_REQ_SEND_PHY_CONFIGURATION_PACKET structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

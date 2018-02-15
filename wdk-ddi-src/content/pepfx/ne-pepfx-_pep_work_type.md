@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5AED6B9E-5DB8-44AF-925C-4B587D100040
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PepWorkMax, PepWorkActiveComplete, PEP_WORK_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepWorkCompletePerfState, pepfx/PepWorkAcpiNotify, _PEP_WORK_TYPE, PepWorkAcpiNotify, PepWorkRequestIdleState, pepfx/PepWorkDevicePower, pepfx/PepWorkRequestPowerControl, pepfx/PepWorkMax, kernel.pep_work_type, pepfx/PepWorkActiveComplete, pepfx/PepWorkCompleteIdleState, PEP_WORK_TYPE, PepWorkDevicePower, pepfx/PepWorkAcpiEvaluateControlMethodComplete, pepfx/PEP_WORK_TYPE, PepWorkAcpiEvaluateControlMethodComplete, pepfx/PepWorkRequestIdleState, *PPEP_WORK_TYPE, PepWorkRequestPowerControl, PepWorkCompletePerfState, PepWorkCompleteIdleState, pepfx/PepWorkDeviceIdle, PepWorkDeviceIdle
+ms.keywords: "_PEP_WORK_TYPE, pepfx/PepWorkActiveComplete, *PPEP_WORK_TYPE, pepfx/PepWorkAcpiEvaluateControlMethodComplete, PepWorkRequestIdleState, PepWorkAcpiNotify, PepWorkCompletePerfState, PepWorkMax, PepWorkActiveComplete, pepfx/PepWorkRequestIdleState, pepfx/PepWorkAcpiNotify, PEP_WORK_TYPE enumeration [Kernel-Mode Driver Architecture], PepWorkCompleteIdleState, pepfx/PEP_WORK_TYPE, PepWorkDeviceIdle, kernel.pep_work_type, PEP_WORK_TYPE, pepfx/PepWorkRequestPowerControl, PepWorkDevicePower, pepfx/PepWorkMax, pepfx/PepWorkCompletePerfState, PepWorkAcpiEvaluateControlMethodComplete, PepWorkRequestPowerControl, pepfx/PepWorkDeviceIdle, pepfx/PepWorkCompleteIdleState, pepfx/PepWorkDevicePower"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -111,9 +111,9 @@ Reserved for use by operating system.
 Reserved for use by the operating system.
 
 
-#### - PepWorkRequestIdleState
+#### - PepWorkDeviceIdle
 
-Reserved for use by the operating system.
+A request for the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
 
 
 #### - PepWorkDevicePower
@@ -121,9 +121,9 @@ Reserved for use by the operating system.
 Reserved for use by the operating system.
 
 
-#### - PepWorkDeviceIdle
+#### - PepWorkRequestIdleState
 
-A request for the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) either to start ignoring idle time-outs for the specified device, or to start monitoring these time-outs.
+Reserved for use by the operating system.
 
 
 ## -remarks
@@ -137,6 +137,10 @@ This enumeration is used by the <a href="..\pepfx\ns-pepfx-_pep_work_information
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186659">PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD</a>
 
 
@@ -145,15 +149,11 @@ This enumeration is used by the <a href="..\pepfx\ns-pepfx-_pep_work_information
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186759">PEP_DPM_NOTIFY_COMPONENT_IDLE_STATE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: be77f9e2-acf7-4b59-9a46-abda7c43817b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILEXCHANGEUICCAPDUPARAMS, *LPRILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduparams, RILEXCHANGEUICCAPDUPARAMS
+ms.keywords: RILEXCHANGEUICCAPDUPARAMS, *LPRILEXCHANGEUICCAPDUPARAMS, RILEXCHANGEUICCAPDUPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduparams, ntddrilapitypes/RILEXCHANGEUICCAPDUPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

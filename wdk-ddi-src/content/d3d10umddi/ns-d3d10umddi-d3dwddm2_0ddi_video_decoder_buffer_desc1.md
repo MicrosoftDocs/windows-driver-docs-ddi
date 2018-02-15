@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BF57E573-852E-4784-8E76-B5E7D86A57EB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dwddm2_0ddi_video_decoder_buffer_desc1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices]
+ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, display.d3dwddm2_0ddi_video_decoder_buffer_desc1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

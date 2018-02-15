@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a379a910-4712-4d77-af52-614a1b9cc511
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_e7f7eecf-e845-455b-a94d-eccad1ce448a.xml, wdm/RtlSetAllBits, kernel.rtlsetallbits, RtlSetAllBits routine [Kernel-Mode Driver Architecture], RtlSetAllBits
+ms.keywords: wdm/RtlSetAllBits, k109_e7f7eecf-e845-455b-a94d-eccad1ce448a.xml, RtlSetAllBits, RtlSetAllBits routine [Kernel-Mode Driver Architecture], kernel.rtlsetallbits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,7 @@ Callers of <b>RtlSetAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
+<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
 
 
 
@@ -101,15 +101,11 @@ Callers of <b>RtlSetAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
+<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
 
 
@@ -117,15 +113,15 @@ Callers of <b>RtlSetAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
 <a href="..\wdm\nf-wdm-rtlfindclearbitsandset.md">RtlFindClearBitsAndSet</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
 
 
 
@@ -137,7 +133,11 @@ Callers of <b>RtlSetAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
 
 
 

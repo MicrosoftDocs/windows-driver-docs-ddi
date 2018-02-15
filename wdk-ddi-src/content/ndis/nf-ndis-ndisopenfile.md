@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 48d54092-d055-449c-a409-829213db2989
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisopenfile, ndis/NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, NdisOpenFile
+ms.keywords: NdisOpenFile function [Network Drivers Starting with Windows Vista], netvista.ndisopenfile, NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, ndis/NdisOpenFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -174,14 +174,6 @@ When
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
 
 
@@ -190,7 +182,15 @@ When
 
 
 
+<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
 
 
 

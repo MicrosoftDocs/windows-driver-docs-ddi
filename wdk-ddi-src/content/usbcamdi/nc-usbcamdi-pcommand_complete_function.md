@@ -40,7 +40,7 @@ apiname:
 -	CommandCompleteFunction
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
+req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
 ---
 
@@ -91,11 +91,14 @@ Specifies the completion status of the called function.
 ## -returns
 
 
+
 <i>CommandCompleteFunction</i> does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The following USBCAMD services allow for the camera minidriver to perform any additional tasks:
@@ -108,13 +111,20 @@ USBCAMD_WaitOnDeviceEvent.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
 
+
+
 <a href="..\usbcamdi\nf-usbcamdi-usbcamd_controlvendorcommand.md">USBCAMD_ControlVendorCommand</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
+
 
  
 

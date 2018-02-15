@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b195c6df-79c4-427d-b722-309f43a4e150
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionSetMaximumLength method, wdf.wdfdmatransactionsetmaximumlength, DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml, PFN_WDFDMATRANSACTIONSETMAXIMUMLENGTH, wdfdmatransaction/WdfDmaTransactionSetMaximumLength, kmdf.wdfdmatransactionsetmaximumlength, WdfDmaTransactionSetMaximumLength
+ms.keywords: WdfDmaTransactionSetMaximumLength method, wdf.wdfdmatransactionsetmaximumlength, kmdf.wdfdmatransactionsetmaximumlength, DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml, wdfdmatransaction/WdfDmaTransactionSetMaximumLength, WdfDmaTransactionSetMaximumLength, PFN_WDFDMATRANSACTIONSETMAXIMUMLENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,11 +138,11 @@ The following code example sets the maximum transfer length to a driver-defined 
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-
-
-
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 

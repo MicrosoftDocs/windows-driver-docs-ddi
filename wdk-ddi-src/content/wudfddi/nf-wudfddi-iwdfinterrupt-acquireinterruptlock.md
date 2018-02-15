@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt, AcquireInterruptLock, IWDFInterrupt::AcquireInterruptLock, IWDFInterrupt interface, AcquireInterruptLock method, AcquireInterruptLock method, AcquireInterruptLock method, IWDFInterrupt interface, umdf.iwdfinterrupt_acquireinterruptlock, wdf.iwdfinterrupt_acquireinterruptlock, wudfddi/IWDFInterrupt::AcquireInterruptLock
+ms.keywords: AcquireInterruptLock, IWDFInterrupt interface, AcquireInterruptLock method, wudfddi/IWDFInterrupt::AcquireInterruptLock, umdf.iwdfinterrupt_acquireinterruptlock, AcquireInterruptLock method, IWDFInterrupt::AcquireInterruptLock, IWDFInterrupt, wdf.iwdfinterrupt_acquireinterruptlock, AcquireInterruptLock method, IWDFInterrupt interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

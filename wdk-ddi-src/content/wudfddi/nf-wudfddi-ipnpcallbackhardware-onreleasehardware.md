@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8975941a-21ad-4d51-9215-b35fa65cdfeb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnReleaseHardware method, wudfddi/IPnpCallbackHardware::OnReleaseHardware, IPnpCallbackHardware interface, OnReleaseHardware method, IPnpCallbackHardware, IPnpCallbackHardware::OnReleaseHardware, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, OnReleaseHardware, wdf.ipnpcallbackhardware_onreleasehardware, umdf.ipnpcallbackhardware_onreleasehardware, OnReleaseHardware method, IPnpCallbackHardware interface
+ms.keywords: IPnpCallbackHardware::OnReleaseHardware, OnReleaseHardware method, IPnpCallbackHardware interface, wudfddi/IPnpCallbackHardware::OnReleaseHardware, OnReleaseHardware method, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, OnReleaseHardware, wdf.ipnpcallbackhardware_onreleasehardware, IPnpCallbackHardware, umdf.ipnpcallbackhardware_onreleasehardware, IPnpCallbackHardware interface, OnReleaseHardware method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,7 +101,7 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
@@ -117,7 +117,7 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

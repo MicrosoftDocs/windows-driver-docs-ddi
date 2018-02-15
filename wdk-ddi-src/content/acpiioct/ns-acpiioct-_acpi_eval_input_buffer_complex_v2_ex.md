@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 50AEF454-8E36-4348-9340-330094D2FDF8
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpi.acpi_eval_input_buffer_complex_v2_ex, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
+ms.keywords: acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, acpi.acpi_eval_input_buffer_complex_v2_ex, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX structure pointer [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,12 +98,12 @@ Defines the <b>ULONG</b> member <b>ArgumentCount</b>.
 
 
 
-#### - MethodName[256]
-
-NULL terminated name string.
-
-
 #### - Argument[ANYSIZE_ARRAY]
 
 Defines the <b>ACPI_METHOD_ARGUMENT_V2</b> member <b>Argument[ANYSIZE_ARRAY]</b>.
+
+
+#### - MethodName[256]
+
+NULL terminated name string.
 

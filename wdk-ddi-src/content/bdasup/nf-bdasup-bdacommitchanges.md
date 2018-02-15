@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 89bac523-65f1-462e-a734-285cda9e33ac
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: BdaCommitChanges function [Streaming Media Devices], stream.bdacommitchanges, bdasup/BdaCommitChanges, BdaCommitChanges, bdaref_41fbbc81-4461-47a2-ba7a-725b696329f3.xml
+ms.keywords: bdaref_41fbbc81-4461-47a2-ba7a-725b696329f3.xml, BdaCommitChanges function [Streaming Media Devices], bdasup/BdaCommitChanges, stream.bdacommitchanges, BdaCommitChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,7 @@ See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">De
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdastartchanges.md">BdaStartChanges</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563409">KSMETHOD_BDA_COMMIT_CHANGES</a>
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
 
 
@@ -128,15 +124,19 @@ See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">De
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
-
-
-
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563409">KSMETHOD_BDA_COMMIT_CHANGES</a>
 
 
 
 <a href="..\bdasup\nf-bdasup-bdacheckchanges.md">BdaCheckChanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdastartchanges.md">BdaStartChanges</a>
 
 
 

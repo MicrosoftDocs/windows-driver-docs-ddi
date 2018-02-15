@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45001da1-5fe3-4383-8da7-31e3ee115c1f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, netvista.ndis_shared_memory_provider_characteristics, PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis_shared_memory_ref_0cb54ab1-d469-4fa0-833a-eb17e1441e76.xml
+ms.keywords: NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, netvista.ndis_shared_memory_provider_characteristics, _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis_shared_memory_ref_0cb54ab1-d469-4fa0-833a-eb17e1441e76.xml, ndis/NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, *PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS, ndis/PNDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,15 +127,15 @@ To specify entry points for shared memory services, an NDIS driver initializes a
 
 
 
-<a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a>
 
 
 

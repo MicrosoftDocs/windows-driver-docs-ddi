@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtStartOneX
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,8 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 
 
 
+
+
 #### - pEapAttribute [in, optional]
 
 A pointer to an EAP_ATTRIBUTES array structure that contains the EAP attributes returned by the
@@ -97,13 +99,16 @@ A pointer to an EAP_ATTRIBUTES array structure that contains the EAP attributes 
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The IHV Extensions DLL can initiate an 802.1X authentication operation by using the 802.1X module of
@@ -126,6 +131,7 @@ When the
 
 After the 802.1X authentication operation is initiated, the IHV Extensions DLL must follow these
     guidelines.
+
 <ul>
 <li>
 The IHV Extensions must forward all EAPOL packets to the operating system for processing. When the
@@ -153,9 +159,11 @@ The IHV Extensions DLL can cancel the 802.1X authentication operation by calling
       <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>.
 
 </li>
-</ul>For more information about using the 802.1X module for authentication, see 
+</ul>
+For more information about using the 802.1X module for authentication, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>.
+
 
 
 
@@ -163,20 +171,34 @@ The IHV Extensions DLL can cancel the 802.1X authentication operation by calling
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
-   Dot11ExtPostAssociateCompletion</a>
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
    Dot11ExtIhvPerformPostAssociate</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
    Dot11ExtIhvOneXIndicateResult</a>
 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+   Dot11ExtPostAssociateCompletion</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+
+
 
  
 

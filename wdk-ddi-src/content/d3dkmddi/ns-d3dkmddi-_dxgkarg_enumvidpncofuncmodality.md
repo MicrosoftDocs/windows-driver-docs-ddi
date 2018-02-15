@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a67c9e20-68bf-45d5-bbf0-d324643b2a5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_ENUMVIDPNCOFUNCMODALITY, DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality, DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices]"
+ms.keywords: "_DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], display.dxgkarg_enumvidpncofuncmodality, DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,15 +97,15 @@ The D3DKMDT_HVIDPN data type is defined in <i>D3dkmdt.h</i>. The D3DDDI_VIDEO_PR
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
 
 
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_enumcofuncmodality_pivot_type.md">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a>
 
 
 

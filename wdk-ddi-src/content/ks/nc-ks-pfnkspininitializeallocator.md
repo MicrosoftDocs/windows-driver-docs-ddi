@@ -90,11 +90,14 @@ Pointer to a context for the allocator that will be passed as a parameter to the
 ## -returns
 
 
+
 <i>AVStrMiniInitializeAllocator</i> should return STATUS_SUCCESS or the error code that it received attempting to create the allocator.
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine's address in the <b>InitializeAllocator</b> member of its <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>.
@@ -107,17 +110,28 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
-
-<a href="..\ks\nc-ks-pfnksdeleteallocator.md">AVStrMiniDeleteAllocator</a>
 
 <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
 
+
+
+<a href="..\ks\nc-ks-pfnksdeleteallocator.md">AVStrMiniDeleteAllocator</a>
+
+
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+
 
  
 

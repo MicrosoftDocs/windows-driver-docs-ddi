@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e8839d4d-b7cb-4f18-b122-42c87e779d7f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_io_queue_forward_progress_policy_pagingio_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT function, kmdf.wdf_io_queue_forward_progress_policy_pagingio_init, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT, DFQueueObjectRef_57ac1d7b-3417-4757-bd62-21bc8b13c782.xml, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT
+ms.keywords: wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT, DFQueueObjectRef_57ac1d7b-3417-4757-bd62-21bc8b13c782.xml, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT function, wdf.wdf_io_queue_forward_progress_policy_pagingio_init, kmdf.wdf_io_queue_forward_progress_policy_pagingio_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

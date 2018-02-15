@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiInterruptRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_INTERRUPT_ROUTINE callback
@@ -84,16 +84,20 @@ The message number if the interrupt is message-signaled. For line-based interrup
 ## -returns
 
 
+
 If <i>DxgkDdiInterruptRoutine</i> determines that the adapter represented by <i>MiniportDeviceContext</i> did not generate the interrupt, it returns <b>FALSE</b>. Otherwise, it must dismiss the interrupt on the adapter before it returns <b>TRUE</b>.
+
 
 
 
 ## -remarks
 
 
+
 If the interrupt is line-based (<i>MessageNumber</i> = 0), <i>DxgkDdiInterruptRoutine</i> must determine whether the adapter represented by <i>MiniportDeviceContext</i> generated the interrupt and, if not, return <b>FALSE</b> immediately.
 
 If the adapter represented by <i>MiniportDeviceContext </i>did generate the interrupt, then <i>DxgkDdiInterruptRoutine</i> should perform the following steps:
+
 <ul>
 <li>
 Dismiss the interrupt on the adapter.
@@ -107,7 +111,8 @@ Complete the requested operation that caused the interrupt, or queue a DPC that 
 Return <b>TRUE</b> as quickly as possible.
 
 </li>
-</ul>Any other display miniport driver function that shares memory (for example, some portion of the state represented by <i>MiniportDeviceContext</i>) with <i>DxgkDdiInterruptRoutine</i> must call <a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a> to synchronize its access to the shared memory.
+</ul>
+Any other display miniport driver function that shares memory (for example, some portion of the state represented by <i>MiniportDeviceContext</i>) with <i>DxgkDdiInterruptRoutine</i> must call <a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a> to synchronize its access to the shared memory.
 
 The <i>DxgkDdiInterruptRoutine</i> function can call <a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a> and <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> but must not call any other <b>DxgkCbXxx</b> functions. For more information on the proper sequence of function calls, see <a href="https://msdn.microsoft.com/3622697a-3989-4756-89d4-c67c81815d49">Submitting a Command Buffer</a>.
 
@@ -115,13 +120,20 @@ The <i>DxgkDdiInterruptRoutine</i> function can call <a href="..\dispmprt\nc-dis
 
 
 
-## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+
+
 
  
 

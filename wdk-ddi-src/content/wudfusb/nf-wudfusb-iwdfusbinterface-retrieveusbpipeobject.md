@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: abfaad6b-be42-4547-aa26-5b44e53118bc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveUsbPipeObject method, RetrieveUsbPipeObject method, IWDFUsbInterface interface, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, RetrieveUsbPipeObject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject, IWDFUsbInterface interface, RetrieveUsbPipeObject method, IWDFUsbInterface, IWDFUsbInterface::RetrieveUsbPipeObject
+ms.keywords: wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, RetrieveUsbPipeObject method, IWDFUsbInterface interface, umdf.iwdfusbinterface_retrieveusbpipeobject, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject, wdf.iwdfusbinterface_retrieveusbpipeobject, IWDFUsbInterface interface, RetrieveUsbPipeObject method, IWDFUsbInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -150,11 +150,11 @@ For a code example of how to use the<b>RetrieveUsbPipeObject</b> method, see <a 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 

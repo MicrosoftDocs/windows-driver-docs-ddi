@@ -170,7 +170,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
 
 
 
@@ -178,7 +178,19 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 
@@ -190,19 +202,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b580c2ef-94f9-4738-bd00-0d5a4753f71a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, GetValidRegionVirtual method [Windows Debugging], dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, debugger.getvalidregionvirtual, GetValidRegionVirtual, IDebugDataSpaces4
+ms.keywords: IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, GetValidRegionVirtual method [Windows Debugging], GetValidRegionVirtual, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, debugger.getvalidregionvirtual, IDebugDataSpaces4, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::GetValidRegionVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,11 +120,11 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547847">GetNextDifferentlyValidOffsetVirtual</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547847">GetNextDifferentlyValidOffsetVirtual</a>
 
 
 

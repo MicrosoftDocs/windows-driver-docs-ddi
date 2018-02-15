@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 7B62C0B0-F90A-41B1-B903-5C9F905F4A08
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SpbDeviceInitConfig, SPB.spbdeviceinitconfig, spbcx/SpbDeviceInitConfig, SpbDeviceInitConfig method [Buses]
+ms.keywords: SPB.spbdeviceinitconfig, spbcx/SpbDeviceInitConfig, SpbDeviceInitConfig method [Buses], SpbDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,11 +152,7 @@ status = WdfDeviceCreate(&amp;FxDeviceInit,...);
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md">WdfPdoInitAllocate</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 
@@ -164,7 +160,11 @@ status = WdfDeviceCreate(&amp;FxDeviceInit,...);
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md">WdfPdoInitAllocate</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

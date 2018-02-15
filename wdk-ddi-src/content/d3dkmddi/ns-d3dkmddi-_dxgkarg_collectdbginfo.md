@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0dd72b5-9ab4-4511-b913-b0e456ea8950
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGKARG_COLLECTDBGINFO, VIDEO_TDR_TIMEOUT_DETECTED, DXGKARG_COLLECTDBGINFO structure [Display Devices], display.dxgkarg_collectdbginfo, DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, VIDEO_ENGINE_TIMEOUT_DETECTED, d3dkmddi/DXGKARG_COLLECTDBGINFO, DXGKARG_COLLECTDBGINFO"
+ms.keywords: DXGKARG_COLLECTDBGINFO structure [Display Devices], d3dkmddi/DXGKARG_COLLECTDBGINFO, DXGKARG_COLLECTDBGINFO, DmStructs_c3c19a4c-8536-474b-bca4-8b5af32fc4c8.xml, _DXGKARG_COLLECTDBGINFO, VIDEO_TDR_TIMEOUT_DETECTED, display.dxgkarg_collectdbginfo, VIDEO_ENGINE_TIMEOUT_DETECTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,15 +124,15 @@ Available starting in Windows 8.
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo_ext.md">DXGKARG_COLLECTDBGINFO_EXT</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md">DxgkDdiResetEngine</a>
 
 
 

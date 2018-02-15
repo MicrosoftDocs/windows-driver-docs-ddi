@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 166584fb-8a81-4a5b-93c9-3ad5348e15a7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisAllocateGenericObject, ndis_object_ref_bb08930d-d264-4580-be64-a48061ab8ad4.xml, NdisAllocateGenericObject, netvista.ndisallocategenericobject, NdisAllocateGenericObject function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisallocategenericobject, NdisAllocateGenericObject function [Network Drivers Starting with Windows Vista], NdisAllocateGenericObject, ndis_object_ref_bb08930d-d264-4580-be64-a48061ab8ad4.xml, ndis/NdisAllocateGenericObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ NDIS drivers must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
 
 
 

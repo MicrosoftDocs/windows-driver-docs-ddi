@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 493B8E5B-D2CC-453E-8202-69337FAC85ED
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], UCX_CONTROLLER_CONFIG_SET_PCI_INFO, buses._ucx_controller_config_set_pci_info
+ms.keywords: buses._ucx_controller_config_set_pci_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

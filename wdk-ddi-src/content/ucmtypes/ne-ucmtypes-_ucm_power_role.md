@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_UCM_POWER_ROLE, UCM_POWER_ROLE enumeration [Buses], ucmtypes/UCM_POWER_ROLE, UcmPowerRoleSource, ucmtypes/UcmPowerRoleSink, UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, UcmPowerRoleSink, ucmtypes/UcmPowerRoleSource, UcmPowerRoleInvalid, buses.ucm_power_role"
+ms.keywords: "_UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, ucmtypes/UcmPowerRoleSink, UCM_POWER_ROLE enumeration [Buses], ucmtypes/UcmPowerRoleSource, UCM_POWER_ROLE, UcmPowerRoleInvalid, UcmPowerRoleSink, buses.ucm_power_role, ucmtypes/UCM_POWER_ROLE, UcmPowerRoleSource"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

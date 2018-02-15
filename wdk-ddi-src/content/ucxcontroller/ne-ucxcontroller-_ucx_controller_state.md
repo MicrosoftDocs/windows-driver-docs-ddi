@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 717BE2D2-2CF3-4A8C-B7DC-41E45C56B02B
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UcxControllerStateLost, ucxcontroller/UcxControllerStatePreserved, UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE enumeration [Buses], ucxcontroller/UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStateLost, buses.ucx_controller_state, UcxControllerStatePreserved, _UCX_CONTROLLER_STATE
+ms.keywords: UCX_CONTROLLER_STATE enumeration [Buses], ucxcontroller/UcxControllerStateLost, buses.ucx_controller_state, UcxControllerStateLost, _UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE, ucxcontroller/UCX_CONTROLLER_STATE, UcxControllerStatePreserved, ucxcontroller/UcxControllerStatePreserved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

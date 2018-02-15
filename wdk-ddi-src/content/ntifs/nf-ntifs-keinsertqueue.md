@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0aee6102-e9e3-41dc-a222-36bebb3d4294
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: KeInsertQueue, keref_0e1ad47f-c38b-40e8-8629-8d970d5e1a72.xml, ntifs/KeInsertQueue, ifsk.keinsertqueue, KeInsertQueue routine [Installable File System Drivers]
+ms.keywords: ifsk.keinsertqueue, KeInsertQueue routine [Installable File System Drivers], ntifs/KeInsertQueue, keref_0e1ad47f-c38b-40e8-8629-8d970d5e1a72.xml, KeInsertQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,14 +104,6 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
 
 
@@ -121,6 +113,14 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 <a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
 
 

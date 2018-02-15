@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 744d6e49-9321-4cba-a4e7-48a4abb02319
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.init_avcstrm_header, avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], INIT_AVCSTRM_HEADER, avcstrm/INIT_AVCSTRM_HEADER
+ms.keywords: avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, avcstrm/INIT_AVCSTRM_HEADER, stream.init_avcstrm_header, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], INIT_AVCSTRM_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -97,11 +97,19 @@ The macro is defined as follows:
 
 
 
+<a href="..\avcstrm\ns-avcstrm-_avc_stream_request_block.md">AVC_STREAM_REQUEST_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
 
 
 
@@ -109,15 +117,7 @@ The macro is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
-
-
-
-<a href="..\avcstrm\ns-avcstrm-_avc_stream_request_block.md">AVC_STREAM_REQUEST_BLOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
 
 
 
@@ -129,11 +129,11 @@ The macro is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 47633903-0314-4d50-8dd5-ddb0eb934e09
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml, kernel.clfsterminatereadlog, ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture], wdm/ClfsTerminateReadLog, ClfsTerminateReadLog
+ms.keywords: ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture], wdm/ClfsTerminateReadLog, kernel.clfsterminatereadlog, Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml, ClfsTerminateReadLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
 
 
 

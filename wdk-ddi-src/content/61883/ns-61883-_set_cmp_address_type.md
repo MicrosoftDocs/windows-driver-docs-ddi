@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: b08588a2-d786-44c1-a265-0f7fef9ecd6a
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883_structures_35b30fc9-69a6-4599-8d76-5aaf35104346.xml, *PSET_CMP_ADDRESS_TYPE, 61883/PSET_CMP_ADDRESS_TYPE, _SET_CMP_ADDRESS_TYPE, PSET_CMP_ADDRESS_TYPE structure pointer [Buses], PSET_CMP_ADDRESS_TYPE, IEEE.set_cmp_address_type, SET_CMP_ADDRESS_TYPE, 61883/SET_CMP_ADDRESS_TYPE, SET_CMP_ADDRESS_TYPE structure [Buses]
+ms.keywords: 61883/PSET_CMP_ADDRESS_TYPE, SET_CMP_ADDRESS_TYPE, *PSET_CMP_ADDRESS_TYPE, SET_CMP_ADDRESS_TYPE structure [Buses], IEEE.set_cmp_address_type, PSET_CMP_ADDRESS_TYPE, _SET_CMP_ADDRESS_TYPE, 61883_structures_35b30fc9-69a6-4599-8d76-5aaf35104346.xml, 61883/SET_CMP_ADDRESS_TYPE, PSET_CMP_ADDRESS_TYPE structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

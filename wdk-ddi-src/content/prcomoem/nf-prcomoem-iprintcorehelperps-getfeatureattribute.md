@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bf5d9081-20c8-43da-a71f-f089c2885b49
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, IPrintCoreHelperPS::GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, IPrintCoreHelperPS interface [Print Devices], GetFeatureAttribute method, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml, GetFeatureAttribute method [Print Devices], GetFeatureAttribute
+ms.keywords: GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, IPrintCoreHelperPS interface [Print Devices], GetFeatureAttribute method, GetFeatureAttribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml, IPrintCoreHelperPS::GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, GetFeatureAttribute method [Print Devices], IPrintCoreHelperPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -180,11 +180,11 @@ For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552899">IPrintCoreHelperPS::GetGlobalAttribute</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
 
 
 

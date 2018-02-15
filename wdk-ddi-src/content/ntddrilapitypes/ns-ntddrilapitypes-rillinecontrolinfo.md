@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4a3bcbda-58e8-4b40-bcc2-fe7b1e624973
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rillinecontrolinfo, *LPRILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILLINECONTROLINFO, RILLINECONTROLINFO
+ms.keywords: "*LPRILLINECONTROLINFO, netvista.rillinecontrolinfo, RILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILLINECONTROLINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

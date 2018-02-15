@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10088043-fc0b-4df9-a5bf-fdee9740b88a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortGetLogicalUnit, scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, storage.scsiportgetlogicalunit, ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit routine [Storage Devices]
+ms.keywords: srb/ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit, scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, ScsiPortGetLogicalUnit routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,15 +116,15 @@ The operating system-specific port driver can consider a logical unit to be none
 
 ## -see-also
 
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+
+
+
 <a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 

@@ -141,7 +141,11 @@ The PO_FX_DEVICE_POWER_REQUIRED_CALLBACK function type is defined in the Wdm.h h
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxreportdevicepoweredon.md">PoFxReportDevicePoweredOn</a>
+<a href="..\wdm\nf-wdm-pofxcompletedevicepowernotrequired.md">PoFxCompleteDevicePowerNotRequired</a>
+
+
+
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
@@ -153,11 +157,7 @@ The PO_FX_DEVICE_POWER_REQUIRED_CALLBACK function type is defined in the Wdm.h h
 
 
 
-<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxcompletedevicepowernotrequired.md">PoFxCompleteDevicePowerNotRequired</a>
+<a href="..\wdm\nf-wdm-pofxreportdevicepoweredon.md">PoFxReportDevicePoweredOn</a>
 
 
 

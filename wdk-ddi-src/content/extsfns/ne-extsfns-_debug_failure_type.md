@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BFCFE35A-5697-4F9D-B0A1-51EB5D8AE690
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: extsfns/DEBUG_FLR_IE_CRASH, extsfns/DEBUG_FAILURE_TYPE, DEBUG_FLR_UNKNOWN, DEBUG_FLR_USER_CRASH, DEBUG_FLR_IE_CRASH, extsfns/DEBUG_FLR_UNKNOWN, DEBUG_FAILURE_TYPE, DEBUG_FLR_KERNEL, _DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_KERNEL, DEBUG_FAILURE_TYPE enumeration [Windows Debugging], debugger.debug_failure_type, extsfns/DEBUG_FLR_USER_CRASH
+ms.keywords: DEBUG_FLR_KERNEL, DEBUG_FLR_IE_CRASH, debugger.debug_failure_type, DEBUG_FAILURE_TYPE enumeration [Windows Debugging], DEBUG_FLR_USER_CRASH, DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_IE_CRASH, extsfns/DEBUG_FLR_UNKNOWN, extsfns/DEBUG_FLR_USER_CRASH, DEBUG_FLR_UNKNOWN, _DEBUG_FAILURE_TYPE, extsfns/DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_KERNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -92,11 +92,11 @@ The failure occurred in the application iexplore.exe.
 
 ## -see-also
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 

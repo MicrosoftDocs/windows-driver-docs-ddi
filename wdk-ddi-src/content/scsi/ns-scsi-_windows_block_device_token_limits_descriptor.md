@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A4DB93FE-96ED-4E6D-B912-31C53AD000FF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsi/WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, storage.windows_block_device_token_limits_descriptor, scsi/PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, *PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure [Storage Devices], PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure pointer [Storage Devices], _WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
+ms.keywords: "_WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, scsi/PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, *PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, storage.windows_block_device_token_limits_descriptor, WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure [Storage Devices], PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure pointer [Storage Devices], scsi/WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, PWINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR, WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,15 +126,15 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-write_using_token_header.md">WRITE_USING_TOKEN_HEADER</a>
-
-
-
 <a href="..\scsi\ns-scsi-_vpd_third_party_copy_page.md">VPD_THIRD_PARTY_COPY_PAGE</a>
 
 
 
 <a href="..\scsi\ns-scsi-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
+
+
+
+<a href="..\scsi\ns-scsi-write_using_token_header.md">WRITE_USING_TOKEN_HEADER</a>
 
 
 

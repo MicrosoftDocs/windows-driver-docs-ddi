@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94e942a4-de66-47a3-89bf-fbec2a408775
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_SETCLIPPLANE, display.d3dddiarg_setclipplane, D3DDDIARG_SETCLIPPLANE, UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, _D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE structure [Display Devices], _D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE, display.d3dddiarg_setclipplane, UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

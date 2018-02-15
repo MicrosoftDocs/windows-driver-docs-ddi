@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a777b8df-e255-402a-aa55-14e5861b215f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFObject interface, DeleteWdfObject method, wudfddi/IWDFObject::DeleteWdfObject, DeleteWdfObject method, IWDFObject interface, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, IWDFObject, wdf.iwdfobject_deletewdfobject, DeleteWdfObject, DeleteWdfObject method, IWDFObject::DeleteWdfObject, umdf.iwdfobject_deletewdfobject
+ms.keywords: IWDFObject::DeleteWdfObject, DeleteWdfObject method, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, DeleteWdfObject method, IWDFObject interface, umdf.iwdfobject_deletewdfobject, IWDFObject, IWDFObject interface, DeleteWdfObject method, wudfddi/IWDFObject::DeleteWdfObject, DeleteWdfObject, wdf.iwdfobject_deletewdfobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,11 @@ For a code example of how to use the <b>DeleteWdfObject</b> method, see <a href=
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 

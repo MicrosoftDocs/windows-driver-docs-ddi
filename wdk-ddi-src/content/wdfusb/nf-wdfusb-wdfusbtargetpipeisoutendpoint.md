@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 803d282b-f6eb-4cd3-91b3-899f983c9dc5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetpipeisoutendpoint, WdfUsbTargetPipeIsOutEndpoint method, PFN_WDFUSBTARGETPIPEISOUTENDPOINT, WdfUsbTargetPipeIsOutEndpoint, wdfusb/WdfUsbTargetPipeIsOutEndpoint, kmdf.wdfusbtargetpipeisoutendpoint, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml
+ms.keywords: wdf.wdfusbtargetpipeisoutendpoint, WdfUsbTargetPipeIsOutEndpoint, PFN_WDFUSBTARGETPIPEISOUTENDPOINT, wdfusb/WdfUsbTargetPipeIsOutEndpoint, kmdf.wdfusbtargetpipeisoutendpoint, WdfUsbTargetPipeIsOutEndpoint method, DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,11 +119,11 @@ isOutEndPoint = WdfUsbTargetPipeIsOutEndpoint(usbPipe);</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 

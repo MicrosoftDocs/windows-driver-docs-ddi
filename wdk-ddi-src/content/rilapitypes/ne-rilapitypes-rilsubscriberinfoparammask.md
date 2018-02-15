@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 271492ee-9053-4150-9e31-f121c9a94097
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsubscriberinfoparammask, RILSUBSCRIBERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SI_DESCRIPTION, RILSUBSCRIBERINFOPARAMMASK, RIL_PARAM_SI_ALL, rilapitypes/RILSUBSCRIBERINFOPARAMMASK, RIL_PARAM_SI_DESCRIPTION, RIL_PARAM_SI_SERVICE, rilapitypes/RIL_PARAM_SI_ADDRESS, rilapitypes/RIL_PARAM_SI_ALL, RIL_PARAM_SI_ADDRESS, rilapitypes/RIL_PARAM_SI_SERVICE
+ms.keywords: RILSUBSCRIBERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SI_ALL, rilapitypes/RIL_PARAM_SI_DESCRIPTION, rilapitypes/RIL_PARAM_SI_SERVICE, rilapitypes/RILSUBSCRIBERINFOPARAMMASK, netvista.rilsubscriberinfoparammask, RIL_PARAM_SI_ADDRESS, RILSUBSCRIBERINFOPARAMMASK, RIL_PARAM_SI_ALL, rilapitypes/RIL_PARAM_SI_ADDRESS, RIL_PARAM_SI_SERVICE, RIL_PARAM_SI_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

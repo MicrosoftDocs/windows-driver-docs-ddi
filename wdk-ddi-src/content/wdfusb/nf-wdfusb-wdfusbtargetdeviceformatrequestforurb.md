@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 886120f0-da2a-4a00-b440-ce1274c516d4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceFormatRequestForUrb, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORURB, WdfUsbTargetDeviceFormatRequestForUrb method, wdf.wdfusbtargetdeviceformatrequestforurb, kmdf.wdfusbtargetdeviceformatrequestforurb, wdfusb/WdfUsbTargetDeviceFormatRequestForUrb, DFUsbRef_c7b76463-570c-4f0d-b4d5-37ef192ba30f.xml
+ms.keywords: WdfUsbTargetDeviceFormatRequestForUrb, WdfUsbTargetDeviceFormatRequestForUrb method, DFUsbRef_c7b76463-570c-4f0d-b4d5-37ef192ba30f.xml, kmdf.wdfusbtargetdeviceformatrequestforurb, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORURB, wdfusb/WdfUsbTargetDeviceFormatRequestForUrb, wdf.wdfusbtargetdeviceformatrequestforurb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -235,11 +235,7 @@ if (WdfRequestSend(
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendurbsynchronously.md">WdfUsbTargetDeviceSendUrbSynchronously</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
 
 
 
@@ -247,15 +243,19 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendurbsynchronously.md">WdfUsbTargetDeviceSendUrbSynchronously</a>
 
 
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
 
 

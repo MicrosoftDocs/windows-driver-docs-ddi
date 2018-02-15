@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 44EC5408-626A-4FDA-A777-C1A733D690F1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_memory_resource, pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
+ms.keywords: kernel.pep_acpi_initialize_memory_resource, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

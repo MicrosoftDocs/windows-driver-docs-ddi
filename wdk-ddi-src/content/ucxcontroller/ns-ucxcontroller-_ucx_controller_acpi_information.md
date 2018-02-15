@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: BB5C69FF-166A-4A38-BF5E-FD644FCD1285
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: P_UCX_CONTROLLER_ACPI_INFORMATION, P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, *PUCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses], ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION, _UCX_CONTROLLER_ACPI_INFORMATION
+ms.keywords: P_UCX_CONTROLLER_ACPI_INFORMATION structure pointer [Buses], *PUCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION, _UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_ACPI_INFORMATION, ucxcontroller/P_UCX_CONTROLLER_ACPI_INFORMATION, buses._ucx_controller_acpi_information, P_UCX_CONTROLLER_ACPI_INFORMATION, UCX_CONTROLLER_ACPI_INFORMATION structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

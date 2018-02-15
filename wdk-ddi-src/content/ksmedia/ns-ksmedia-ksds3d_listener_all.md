@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 6bff18d1-77bf-49c0-af9c-aa1abbfbfa53
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.ksds3d_listener_all, KSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices], PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], *PKSDS3D_LISTENER_ALL, aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, ksmedia/PKSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL, ksmedia/KSDS3D_LISTENER_ALL
+ms.keywords: ksmedia/KSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices], PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], audio.ksds3d_listener_all, *PKSDS3D_LISTENER_ALL, aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, KSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL, ksmedia/PKSDS3D_LISTENER_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 4780d0ea-a54a-4125-b3b6-2210a14eff71
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: OnProcessWpdMessage, ISensorDriver, ISensorDriver::OnProcessWpdMessage, sensors.isensordriver_onprocesswpdmessage, OnProcessWpdMessage method [Sensor Devices]
+ms.keywords: sensors.isensordriver_onprocesswpdmessage, OnProcessWpdMessage method [Sensor Devices], ISensorDriver, OnProcessWpdMessage, ISensorDriver::OnProcessWpdMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

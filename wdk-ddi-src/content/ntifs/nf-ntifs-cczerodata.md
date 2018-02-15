@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/CcZeroData, CcZeroData, ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, CcZeroData routine [Installable File System Drivers], ifsk.cczerodata
+ms.keywords: ifsk.cczerodata, ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, CcZeroData, ntifs/CcZeroData, CcZeroData routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,15 +132,15 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 

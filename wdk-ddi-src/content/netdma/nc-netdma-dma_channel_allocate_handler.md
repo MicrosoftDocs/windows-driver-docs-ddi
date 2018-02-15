@@ -202,7 +202,11 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
 
 
 
@@ -210,11 +214,7 @@ NetDMA calls
 
 
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 

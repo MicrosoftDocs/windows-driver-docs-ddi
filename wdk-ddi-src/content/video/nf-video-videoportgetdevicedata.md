@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 95df7ed6-ac9e-4620-bc3c-54e45a123fdc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortGetDeviceData, VideoPortGetDeviceData, VideoPort_Functions_01e88665-7ecb-470e-b25b-21a3c62f7485.xml, VideoPortGetDeviceData function [Display Devices], display.videoportgetdevicedata
+ms.keywords: video/VideoPortGetDeviceData, display.videoportgetdevicedata, VideoPort_Functions_01e88665-7ecb-470e-b25b-21a3c62f7485.xml, VideoPortGetDeviceData function [Display Devices], VideoPortGetDeviceData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,7 +115,11 @@ The registry tree from which <b>VideoPortGetDeviceData</b> retrieves configurati
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+
+
+
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 
 
@@ -123,11 +127,7 @@ The registry tree from which <b>VideoPortGetDeviceData</b> retrieves configurati
 
 
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
 
 
 

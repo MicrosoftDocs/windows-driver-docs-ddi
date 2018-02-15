@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 294e5475-3aca-4758-87ed-07892a910b4f
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], ifsk.filter_message_header, fltuserstructures/FILTER_MESSAGE_HEADER, fltuserstructures/PFILTER_MESSAGE_HEADER, FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], _FILTER_MESSAGE_HEADER
+ms.keywords: FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, fltuserstructures/PFILTER_MESSAGE_HEADER, fltuserstructures/FILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], ifsk.filter_message_header, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], FILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER, _FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

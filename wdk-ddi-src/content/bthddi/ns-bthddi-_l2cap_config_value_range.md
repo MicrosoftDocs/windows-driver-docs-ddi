@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 12d9b0c1-6dce-4dc6-a8df-706408e1fbe1
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: "*PL2CAP_CONFIG_VALUE_RANGE, PL2CAP_CONFIG_VALUE_RANGE structure pointer [Bluetooth Devices], PL2CAP_CONFIG_VALUE_RANGE, _L2CAP_CONFIG_VALUE_RANGE, bthddi/L2CAP_CONFIG_VALUE_RANGE, bth_structs_3af526a5-d36e-432f-9d2e-fa31bee0effe.xml, L2CAP_CONFIG_VALUE_RANGE structure [Bluetooth Devices], bthddi/PL2CAP_CONFIG_VALUE_RANGE, bltooth.l2cap_config_value_range, L2CAP_CONFIG_VALUE_RANGE"
+ms.keywords: bltooth.l2cap_config_value_range, bthddi/L2CAP_CONFIG_VALUE_RANGE, bth_structs_3af526a5-d36e-432f-9d2e-fa31bee0effe.xml, L2CAP_CONFIG_VALUE_RANGE, bthddi/PL2CAP_CONFIG_VALUE_RANGE, PL2CAP_CONFIG_VALUE_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE, PL2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

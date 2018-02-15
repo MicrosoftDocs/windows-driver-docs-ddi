@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFInterrupt::GetInfo, IWDFInterrupt, GetInfo, GetInfo method, IWDFInterrupt interface, IWDFInterrupt interface, GetInfo method, IWDFInterrupt::GetInfo, GetInfo method, umdf.iwdfinterrupt_getinfo, wdf.iwdfinterrupt_getinfo
+ms.keywords: IWDFInterrupt::GetInfo, umdf.iwdfinterrupt_getinfo, GetInfo, wudfddi/IWDFInterrupt::GetInfo, wdf.iwdfinterrupt_getinfo, IWDFInterrupt, GetInfo method, IWDFInterrupt interface, GetInfo method, IWDFInterrupt interface, GetInfo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -126,11 +126,7 @@ pInterrupt&gt;GetInfo(&amp;Info);
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
 
 
 
@@ -138,11 +134,15 @@ pInterrupt&gt;GetInfo(&amp;Info);
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a>
+
+
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
 
 
 

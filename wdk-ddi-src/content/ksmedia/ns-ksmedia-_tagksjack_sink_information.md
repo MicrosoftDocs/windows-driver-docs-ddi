@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: ec832068-9b5d-40ce-bafc-31642539e2d9
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], KSJACK_SINK_INFORMATION structure [Audio Devices], aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, _tagKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION
+ms.keywords: PKSJACK_SINK_INFORMATION, ksmedia/KSJACK_SINK_INFORMATION, _tagKSJACK_SINK_INFORMATION, *PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, audio.ksjack_sink_information, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], KSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

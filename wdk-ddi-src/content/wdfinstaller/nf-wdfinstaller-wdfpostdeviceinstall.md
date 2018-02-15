@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 78942ef8-ecf9-481f-af60-2f1266a9e73f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPostDeviceInstall, wdfinstaller/WdfPostDeviceInstall, wdf.wdfpostdeviceinstall, PFN_WDFPOSTDEVICEINSTALL, DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, WdfPostDeviceInstall function, kmdf.wdfpostdeviceinstall
+ms.keywords: DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, kmdf.wdfpostdeviceinstall, wdfinstaller/WdfPostDeviceInstall, WdfPostDeviceInstall function, WdfPostDeviceInstall, PFN_WDFPOSTDEVICEINSTALL, wdf.wdfpostdeviceinstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

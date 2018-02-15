@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 572477c7-8588-415e-b66f-adab977ab373
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwQueryQuotaInformationFile routine [Kernel-Mode Driver Architecture], NtQueryQuotaInformationFile, ntifs/NtQueryQuotaInformationFile, ZwQueryQuotaInformationFile, kernel.zwqueryquotainformationfile, k111_226a807c-d14d-403f-bbef-f5b4e6491039.xml, ntifs/ZwQueryQuotaInformationFile
+ms.keywords: NtQueryQuotaInformationFile, ntifs/NtQueryQuotaInformationFile, kernel.zwqueryquotainformationfile, ntifs/ZwQueryQuotaInformationFile, ZwQueryQuotaInformationFile, ZwQueryQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_226a807c-d14d-403f-bbef-f5b4e6491039.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -201,23 +201,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetquotainformationfile.md">ZwSetQuotaInformationFile</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
 
 
@@ -230,6 +214,22 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwsetquotainformationfile.md">ZwSetQuotaInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

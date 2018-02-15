@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], DXVA_EncryptProtocolHeader structure [Display Devices], dxva/DXVA_EncryptProtocolHeader, _DXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, *LPDXVA_EncryptProtocolHeader
+ms.keywords: "_DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, DXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

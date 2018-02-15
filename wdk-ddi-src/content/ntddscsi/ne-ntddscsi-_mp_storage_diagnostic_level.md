@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB05D543-7B99-481E-8CDB-AE350CBCCA2A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/StorageDiagnosticLevelMax, PMP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/StorageDiagnosticLevelDefault, ntddscsi/PMP_STORAGE_DIAGNOSTIC_LEVEL, storage.mp_storage_diagnostic_level, ntddscsi/MP_STORAGE_DIAGNOSTIC_LEVEL, PMP_STORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], StorageDiagnosticLevelDefault, MP_STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelMax, _MP_STORAGE_DIAGNOSTIC_LEVEL
+ms.keywords: StorageDiagnosticLevelDefault, PMP_STORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], PMP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelMax, _MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/PMP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/MP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/StorageDiagnosticLevelDefault, storage.mp_storage_diagnostic_level, ntddscsi/StorageDiagnosticLevelMax, MP_STORAGE_DIAGNOSTIC_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

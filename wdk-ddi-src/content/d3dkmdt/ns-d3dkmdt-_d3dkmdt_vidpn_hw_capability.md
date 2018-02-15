@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d881133-3ea7-43c4-99cc-d843026573d6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices], DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml, d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY, display.d3dkmdt_vidpn_hw_capability, _D3DKMDT_VIDPN_HW_CAPABILITY
+ms.keywords: d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml, D3DKMDT_VIDPN_HW_CAPABILITY, display.d3dkmdt_vidpn_hw_capability, D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices], _D3DKMDT_VIDPN_HW_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 337874d1-9f9b-429d-a970-60b5d86ac7a2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_CREATERESOURCE2, D3DDDIARG_CREATERESOURCE2 structure [Display Devices], D3DDDIARG_CREATERESOURCE2, d3dukmdt/D3DDDIARG_CREATERESOURCE2, display.d3dddiarg_createresource2"
+ms.keywords: d3dukmdt/D3DDDIARG_CREATERESOURCE2, _D3DDDIARG_CREATERESOURCE2, D3DDDIARG_CREATERESOURCE2, display.d3dddiarg_createresource2, D3DDDIARG_CREATERESOURCE2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -160,27 +160,7 @@ Orientations other than <b>D3DDDI_ROTATION_IDENTITY</b> are set only when the <b
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddimultisample_type.md">D3DDDIMULTISAMPLE_TYPE</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
 
 
 
@@ -188,7 +168,27 @@ Orientations other than <b>D3DDDI_ROTATION_IDENTITY</b> are set only when the <b
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_surfaceinfo.md">D3DDDI_SURFACEINFO</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddimultisample_type.md">D3DDDIMULTISAMPLE_TYPE</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
 
 
 

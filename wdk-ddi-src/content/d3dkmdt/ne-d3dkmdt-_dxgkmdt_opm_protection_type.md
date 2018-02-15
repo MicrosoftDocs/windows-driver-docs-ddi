@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e82c863-16d8-4b79-b662-fc1c766a2f05
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_HDCP, DXGKMDT_OPM_PROTECTION_TYPE_HDCP, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_NONE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_DPCP, DXGKMDT_OPM_PROTECTION_TYPE_OTHER, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_MASK, DXGKMDT_OPM_PROTECTION_TYPE_DPCP, DXGKMDT_OPM_PROTECTION_TYPE enumeration [Display Devices], DXGKMDT_OPM_PROTECTION_TYPE_ACP, DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP, DXGKMDT_OPM_PROTECTION_TYPE_CGMSA, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_CGMSA, DXGKMDT_OPM_PROTECTION_TYPE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_ACP, _DXGKMDT_OPM_PROTECTION_TYPE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_OTHER, DXGKMDT_OPM_PROTECTION_TYPE_NONE, DmEnums_8213d95c-c1df-4084-b386-cfb9fac440e0.xml, DXGKMDT_OPM_PROTECTION_TYPE_MASK, display.dxgkmdt_opm_protection_type, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP
+ms.keywords: DXGKMDT_OPM_PROTECTION_TYPE_HDCP, DXGKMDT_OPM_PROTECTION_TYPE_MASK, DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP, DXGKMDT_OPM_PROTECTION_TYPE_NONE, DXGKMDT_OPM_PROTECTION_TYPE, _DXGKMDT_OPM_PROTECTION_TYPE, DXGKMDT_OPM_PROTECTION_TYPE_CGMSA, DXGKMDT_OPM_PROTECTION_TYPE_OTHER, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP, DXGKMDT_OPM_PROTECTION_TYPE enumeration [Display Devices], d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_MASK, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_HDCP, DmEnums_8213d95c-c1df-4084-b386-cfb9fac440e0.xml, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_ACP, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_DPCP, DXGKMDT_OPM_PROTECTION_TYPE_ACP, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_OTHER, DXGKMDT_OPM_PROTECTION_TYPE_DPCP, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_NONE, d3dkmdt/DXGKMDT_OPM_PROTECTION_TYPE_CGMSA, display.dxgkmdt_opm_protection_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -130,11 +130,11 @@ If a protected output supports DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP,
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 
@@ -142,7 +142,7 @@ If a protected output supports DXGKMDT_OPM_PROTECTION_TYPE_COPP_COMPATIBLE_HDCP,
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 
 

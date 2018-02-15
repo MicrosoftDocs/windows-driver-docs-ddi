@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 291b1fa9-5f42-49b6-b6de-20054a832bb2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, ifsk.rtladdace, RtlAddAce, RtlAddAce routine [Installable File System Drivers]
+ms.keywords: ntifs/RtlAddAce, RtlAddAce routine [Installable File System Drivers], rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, RtlAddAce, ifsk.rtladdace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -199,11 +199,7 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
 
 
@@ -215,11 +211,15 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 
 
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 

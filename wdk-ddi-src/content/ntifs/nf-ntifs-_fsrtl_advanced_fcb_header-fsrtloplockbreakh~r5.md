@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH, FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers], fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml
+ms.keywords: ifsk.fsrtloplockbreakh, FsRtlOplockBreakH routine [Installable File System Drivers], fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, FsRtlOplockBreakH, ntifs/FsRtlOplockBreakH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

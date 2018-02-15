@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f8184ae1-878f-46fc-bddc-66c065bc9e75
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiasupdatescanrect, wiasUpdateScanRect function [Imaging Devices], wiasUpdateScanRect, wiamdef/wiasUpdateScanRect, wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml
+ms.keywords: wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, wiasUpdateScanRect function [Imaging Devices], wiasUpdateScanRect, image.wiasupdatescanrect, wiamdef/wiasUpdateScanRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

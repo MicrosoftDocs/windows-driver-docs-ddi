@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwSetValueKey, wdm/NtSetValueKey, NtSetValueKey, ZwSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], kernel.zwsetvaluekey, k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml
+ms.keywords: wdm/ZwSetValueKey, kernel.zwsetvaluekey, ZwSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, wdm/NtSetValueKey, NtSetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -262,11 +262,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
 
 
@@ -274,7 +270,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 
 
@@ -286,15 +286,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

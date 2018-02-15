@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b3f23d1-1081-4fb9-86af-6dbf7bfeb3b7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddmmc/PFEATURE_DATA_POWER_MANAGEMENT, PFEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT, PFEATURE_DATA_POWER_MANAGEMENT structure pointer [Storage Devices], _FEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT structure [Storage Devices], *PFEATURE_DATA_POWER_MANAGEMENT, structs-CD-ROM_b2dfa21c-3dd3-40fd-9605-05c36c4b9fc8.xml, storage.feature_data_power_management, ntddmmc/FEATURE_DATA_POWER_MANAGEMENT
+ms.keywords: ntddmmc/FEATURE_DATA_POWER_MANAGEMENT, PFEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT, storage.feature_data_power_management, FEATURE_DATA_POWER_MANAGEMENT structure [Storage Devices], ntddmmc/PFEATURE_DATA_POWER_MANAGEMENT, *PFEATURE_DATA_POWER_MANAGEMENT, structs-CD-ROM_b2dfa21c-3dd3-40fd-9605-05c36c4b9fc8.xml, PFEATURE_DATA_POWER_MANAGEMENT structure pointer [Storage Devices], _FEATURE_DATA_POWER_MANAGEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

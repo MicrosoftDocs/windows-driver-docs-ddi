@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84520745-c99d-4495-a7c4-514d5e6cd27e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_ConnectMode, *LPDXVA_ConnectMode, dxva/DXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml, dxva/LPDXVA_ConnectMode, LPDXVA_ConnectMode structure pointer [Display Devices], DXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], display.dxva_connectmode, _DXVA_ConnectMode
+ms.keywords: dxva/DXVA_ConnectMode, LPDXVA_ConnectMode, DXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], dxva/LPDXVA_ConnectMode, LPDXVA_ConnectMode structure pointer [Display Devices], display.dxva_connectmode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml, *LPDXVA_ConnectMode, _DXVA_ConnectMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f406e755-dc46-4228-b70f-3520d3cb46a3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: FindSourceFileAndTokenWide method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndTokenWide method [Windows Debugging], IDebugAdvanced3, FindSourceFileAndTokenWide, IDebugAdvanced3::FindSourceFileAndTokenWide, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndTokenWide method, dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, debugger.findsourcefileandtokenwide
+ms.keywords: FindSourceFileAndTokenWide method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3, IDebugAdvanced3::FindSourceFileAndTokenWide, FindSourceFileAndTokenWide method [Windows Debugging], dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, debugger.findsourcefileandtokenwide, FindSourceFileAndTokenWide, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndTokenWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -218,11 +218,7 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
 
 
@@ -230,11 +226,15 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
 
 
 

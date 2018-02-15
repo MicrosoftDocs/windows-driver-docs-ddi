@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 443b6ed8-1d44-466f-93b0-bb8cd42aefaa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PCM_EISA_SLOT_INFORMATION, kstruct_a_07946ecf-4bcd-4626-a070-e3bca212c0ef.xml, CM_EISA_SLOT_INFORMATION structure [Kernel-Mode Driver Architecture], *PCM_EISA_SLOT_INFORMATION, kernel.cm_eisa_slot_information, CM_EISA_SLOT_INFORMATION, wdm/PCM_EISA_SLOT_INFORMATION, wdm/CM_EISA_SLOT_INFORMATION, _CM_EISA_SLOT_INFORMATION, PCM_EISA_SLOT_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PCM_EISA_SLOT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_a_07946ecf-4bcd-4626-a070-e3bca212c0ef.xml, CM_EISA_SLOT_INFORMATION, *PCM_EISA_SLOT_INFORMATION, _CM_EISA_SLOT_INFORMATION, PCM_EISA_SLOT_INFORMATION, CM_EISA_SLOT_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/CM_EISA_SLOT_INFORMATION, wdm/PCM_EISA_SLOT_INFORMATION, kernel.cm_eisa_slot_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,11 +139,11 @@ The driver of an EISA device might call <b>HalGetBusData</b> or <b>HalGetBusData
 
 
 
-<a href="..\wdm\ns-wdm-_cm_eisa_function_information.md">CM_EISA_FUNCTION_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_eisa_function_information.md">CM_EISA_FUNCTION_INFORMATION</a>
 
 
 

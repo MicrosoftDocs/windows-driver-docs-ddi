@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b117b472-0c26-41a9-b364-3d0cfbd26cc9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocatenetbufferlistpool, NdisAllocateNetBufferListPool function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListPool, ndis_netbuf_functions_ref_763044cb-dfaf-4cb5-959c-7895e3e49fb0.xml, NdisAllocateNetBufferListPool
+ms.keywords: ndis/NdisAllocateNetBufferListPool, ndis_netbuf_functions_ref_763044cb-dfaf-4cb5-959c-7895e3e49fb0.xml, NdisAllocateNetBufferListPool function [Network Drivers Starting with Windows Vista], NdisAllocateNetBufferListPool, netvista.ndisallocatenetbufferlistpool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,23 +140,11 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -165,11 +153,23 @@ Call the
 
 
 
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlistpool.md">NdisFreeNetBufferListPool</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

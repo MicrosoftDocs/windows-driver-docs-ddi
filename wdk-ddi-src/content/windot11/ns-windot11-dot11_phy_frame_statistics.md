@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2adf102b-52aa-40e4-b3de-9189803339bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_PHY_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], PDOT11_PHY_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_PHY_FRAME_STATISTICS, *PDOT11_PHY_FRAME_STATISTICS, windot11/DOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS, Native_802.11_data_types_e7446fc8-9a7c-41c5-bf90-7988dfddc950.xml, netvista.dot11_phy_frame_statistics
+ms.keywords: "*PDOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS, PDOT11_PHY_FRAME_STATISTICS, Native_802.11_data_types_e7446fc8-9a7c-41c5-bf90-7988dfddc950.xml, windot11/DOT11_PHY_FRAME_STATISTICS, DOT11_PHY_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], PDOT11_PHY_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_PHY_FRAME_STATISTICS, netvista.dot11_phy_frame_statistics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -294,16 +294,16 @@ The members of this structure are used to record PHY-level statistics for:
 
 
 
-<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
    Statistics</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B7898C81-E90D-4210-BEAE-1E629FCD7195
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndk_result, _NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], NDK_RESULT, ndkpi/NDK_RESULT
+ms.keywords: NDK_RESULT, _NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], netvista.ndk_result, ndkpi/NDK_RESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,11 +103,11 @@ A request context value specified by the NDK consumer when  a request is posted.
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60f0019b-ba02-433d-b5a2-f92a43f4d5a8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], d3d10umddi/D3D10DDIARG_CREATESHADERRESOURCEVIEW, display.d3d10ddiarg_createshaderresourceview, UMDisplayDriver_Dx10param_Structs_5307f7f2-0e25-4847-b1d4-5300c27320b7.xml, D3D10DDIARG_CREATESHADERRESOURCEVIEW
+ms.keywords: UMDisplayDriver_Dx10param_Structs_5307f7f2-0e25-4847-b1d4-5300c27320b7.xml, D3D10DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], D3D10DDIARG_CREATESHADERRESOURCEVIEW, display.d3d10ddiarg_createshaderresourceview, d3d10umddi/D3D10DDIARG_CREATESHADERRESOURCEVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -122,23 +122,11 @@ typedef struct D3D10DDIARG_CREATESHADERRESOURCEVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createshaderresourceview.md">CreateShaderResourceView</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_shaderresourceview.md">D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_shaderresourceview.md">D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_shaderresourceview.md">D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW</a>
 
 
 
@@ -147,6 +135,18 @@ typedef struct D3D10DDIARG_CREATESHADERRESOURCEVIEW {
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_shaderresourceview.md">D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_shaderresourceview.md">D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a>
 
 
 

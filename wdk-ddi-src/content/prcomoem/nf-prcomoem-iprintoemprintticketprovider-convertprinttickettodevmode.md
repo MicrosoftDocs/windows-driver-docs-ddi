@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 1243f679-76c3-4d2e-8d57-b9d652b21a05
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, ConvertPrintTicketToDevMode, print.iprintoemprintticketprovider_convertprinttickettodevmode, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml
+ms.keywords: ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml, print.iprintoemprintticketprovider_convertprinttickettodevmode, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider, ConvertPrintTicketToDevMode method [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices], ConvertPrintTicketToDevMode method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

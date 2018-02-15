@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1fdc4b85-d969-4433-8409-512f3f52cbbb
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetRunningProcessDescription method [Windows Debugging], IDebugClient interface, GetRunningProcessDescription method [Windows Debugging], IDebugClient4 interface, GetRunningProcessDescription method [Windows Debugging], IDebugClient5 interface, debugger.getrunningprocessdescription, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, GetRunningProcessDescription method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient4::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient2 interface, IDebugClient3::GetRunningProcessDescription, dbgeng/IDebugClient::GetRunningProcessDescription, IDebugClient2 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient5::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient2::GetRunningProcessDescription, IDebugClient::GetRunningProcessDescription, IDebugClient2::GetRunningProcessDescription, dbgeng/IDebugClient5::GetRunningProcessDescription, GetRunningProcessDescription, dbgeng/IDebugClient3::GetRunningProcessDescription, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient interface [Windows Debugging], GetRunningProcessDescription method, dbgeng/IDebugClient4::GetRunningProcessDescription, IDebugClient
+ms.keywords: GetRunningProcessDescription method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient2::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetRunningProcessDescription, IDebugClient, dbgeng/IDebugClient4::GetRunningProcessDescription, IDebugClient3::GetRunningProcessDescription, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, debugger.getrunningprocessdescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient3::GetRunningProcessDescription, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescription method, GetRunningProcessDescription method [Windows Debugging], IDebugClient4 interface, GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient4 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient4::GetRunningProcessDescription, IDebugClient2 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient::GetRunningProcessDescription, dbgeng/IDebugClient::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient3 interface, IDebugClient2::GetRunningProcessDescription, IDebugClient interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescription method, dbgeng/IDebugClient5::GetRunningProcessDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -224,7 +224,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
 
@@ -232,11 +232,15 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
 
 
 
@@ -252,15 +256,11 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

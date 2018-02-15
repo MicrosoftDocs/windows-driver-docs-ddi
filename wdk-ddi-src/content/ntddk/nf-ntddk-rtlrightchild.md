@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1b906983-b000-449b-8e82-46ade5384168
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: RtlRightChild routine [Installable File System Drivers], rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml, ifsk.rtlrightchild, RtlRightChild, ntddk/RtlRightChild
+ms.keywords: rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml, RtlRightChild, ntddk/RtlRightChild, ifsk.rtlrightchild, RtlRightChild routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -91,7 +91,7 @@ Callers of <b>RtlRightChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
 
 
 
@@ -99,7 +99,7 @@ Callers of <b>RtlRightChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 

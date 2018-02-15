@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 91b8ba63-5276-43f8-81a6-07afc1a77ced
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: UNIDRV_PRIVATE_DEVMODE structure [Print Devices], PUNIDRV_PRIVATE_DEVMODE, _UNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, printoem/PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], UNIDRV_PRIVATE_DEVMODE, printoem/UNIDRV_PRIVATE_DEVMODE, *PUNIDRV_PRIVATE_DEVMODE, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml
+ms.keywords: UNIDRV_PRIVATE_DEVMODE structure [Print Devices], UNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], printoem/UNIDRV_PRIVATE_DEVMODE, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, *PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE, printoem/PUNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, _UNIDRV_PRIVATE_DEVMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

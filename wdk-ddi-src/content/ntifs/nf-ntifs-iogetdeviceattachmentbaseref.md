@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e1d31fdd-de4f-4e57-a8e8-0468ab4242f8
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: IoGetDeviceAttachmentBaseRef, ioref_ab9c898e-74be-48aa-9462-d78d0e34c435.xml, ntifs/IoGetDeviceAttachmentBaseRef, ifsk.iogetdeviceattachmentbaseref, IoGetDeviceAttachmentBaseRef routine [Installable File System Drivers]
+ms.keywords: ioref_ab9c898e-74be-48aa-9462-d78d0e34c435.xml, IoGetDeviceAttachmentBaseRef routine [Installable File System Drivers], ifsk.iogetdeviceattachmentbaseref, ntifs/IoGetDeviceAttachmentBaseRef, IoGetDeviceAttachmentBaseRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,19 @@ A file system filter driver typically calls <b>IoGetDeviceAttachmentBaseRef</b> 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
+
+
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
 
 
 
@@ -103,18 +115,6 @@ A file system filter driver typically calls <b>IoGetDeviceAttachmentBaseRef</b> 
 
 
 <a href="..\ntifs\nf-ntifs-obquerynamestring.md">ObQueryNameString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
 
 
 

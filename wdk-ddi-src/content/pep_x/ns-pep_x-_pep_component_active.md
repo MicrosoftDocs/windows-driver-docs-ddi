@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58C2FFFC-2EAC-406B-943A-491AF3538F78
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pep_x/PPEP_COMPONENT_ACTIVE, *PPEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_component_active, pep_x/PEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE, _PEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE structure [Kernel-Mode Driver Architecture]
+ms.keywords: PPEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE, kernel.pep_component_active, PEP_COMPONENT_ACTIVE structure [Kernel-Mode Driver Architecture], pep_x/PPEP_COMPONENT_ACTIVE, *PPEP_COMPONENT_ACTIVE, pep_x/PEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_ACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,15 +107,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629112">PEP_DPM_COMPONENT_ACTIVE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629112">PEP_DPM_COMPONENT_ACTIVE</a>
 
 
 

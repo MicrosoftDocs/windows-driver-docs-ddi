@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 044af92b-b77c-415c-9ca5-4436bfe497e5
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: "_WHEA_XPF_CONTEXT_INFO, ntddk/WHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications], whea.whea_xpf_context_info, whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml, WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications], WHEA_XPF_CONTEXT_INFO, ntddk/PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO"
+ms.keywords: ntddk/WHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications], _WHEA_XPF_CONTEXT_INFO, ntddk/PWHEA_XPF_CONTEXT_INFO, *PWHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications], whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml, PWHEA_XPF_CONTEXT_INFO, whea.whea_xpf_context_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -214,7 +214,7 @@ The <b>VariableInfo</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_proce
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_x86_register_state.md">WHEA_X86_REGISTER_STATE</a>
+<a href="..\ntddk\ns-ntddk-_whea_x64_register_state.md">WHEA_X64_REGISTER_STATE</a>
 
 
 
@@ -222,7 +222,7 @@ The <b>VariableInfo</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_proce
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_x64_register_state.md">WHEA_X64_REGISTER_STATE</a>
+<a href="..\ntddk\ns-ntddk-_whea_x86_register_state.md">WHEA_X86_REGISTER_STATE</a>
 
 
 

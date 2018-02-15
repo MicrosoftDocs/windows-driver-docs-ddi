@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d462092c-e40f-4685-974e-3fb31cbafa62
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILEXECUTORFOCUSSTATE, netvista.rilexecutorfocusstate_2, RILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista], *LPRILEXECUTORFOCUSSTATE
+ms.keywords: RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista], RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE, netvista.rilexecutorfocusstate_2, rilapitypes/RILEXECUTORFOCUSSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

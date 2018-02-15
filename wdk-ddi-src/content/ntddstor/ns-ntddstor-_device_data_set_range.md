@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f610927-d8d0-44c5-8a66-0204953c1859
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_DATA_SET_RANGE structure [Storage Devices], ntddstor/PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], DEVICE_DATA_SET_RANGE, _DEVICE_DATA_SET_RANGE, storage.device_data_set_range, PDEVICE_DATA_SET_RANGE, structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml, ntddstor/DEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE
+ms.keywords: ntddstor/DEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE, storage.device_data_set_range, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], DEVICE_DATA_SET_RANGE structure [Storage Devices], structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml, ntddstor/PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE, _DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

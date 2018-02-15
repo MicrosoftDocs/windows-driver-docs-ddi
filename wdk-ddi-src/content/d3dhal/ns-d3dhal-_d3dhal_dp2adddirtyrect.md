@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b3bddb3a-2a07-4ca8-8452-be20d983fe6f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2ADDDIRTYRECT, d3dstrct_64c25041-cbd9-4073-a42a-e9fb304e0d65.xml, _D3DHAL_DP2ADDDIRTYRECT, LPD3DHAL_DP2ADDDIRTYRECT structure pointer [Display Devices], D3DHAL_DP2ADDDIRTYRECT structure [Display Devices], *LPD3DHAL_DP2ADDDIRTYRECT, display.d3dhal_dp2adddirtyrect, d3dhal/LPD3DHAL_DP2ADDDIRTYRECT, LPD3DHAL_DP2ADDDIRTYRECT, D3DHAL_DP2ADDDIRTYRECT
+ms.keywords: LPD3DHAL_DP2ADDDIRTYRECT structure pointer [Display Devices], D3DHAL_DP2ADDDIRTYRECT structure [Display Devices], D3DHAL_DP2ADDDIRTYRECT, d3dhal/D3DHAL_DP2ADDDIRTYRECT, d3dhal/LPD3DHAL_DP2ADDDIRTYRECT, _D3DHAL_DP2ADDDIRTYRECT, LPD3DHAL_DP2ADDDIRTYRECT, *LPD3DHAL_DP2ADDDIRTYRECT, display.d3dhal_dp2adddirtyrect, d3dstrct_64c25041-cbd9-4073-a42a-e9fb304e0d65.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,7 +93,11 @@ D3DHAL_DP2ADDDIRTYRECT, along with the DP2OP_ADDDIRTYRECT token, is used only fo
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
 
 
@@ -105,11 +109,7 @@ D3DHAL_DP2ADDDIRTYRECT, along with the DP2OP_ADDDIRTYRECT token, is used only fo
 
 
 
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

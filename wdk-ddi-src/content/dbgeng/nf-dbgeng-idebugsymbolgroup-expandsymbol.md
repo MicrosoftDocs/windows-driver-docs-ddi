@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 314fdeea-10be-4cb3-8bd7-9b1b4b12e534
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup2::ExpandSymbol, IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup2 interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup, dbgeng/IDebugSymbolGroup::ExpandSymbol, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, ExpandSymbol method [Windows Debugging], ExpandSymbol, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface, ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, debugger.expandsymbol, IDebugSymbolGroup interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup2::ExpandSymbol
+ms.keywords: IDebugSymbolGroup2::ExpandSymbol, dbgeng/IDebugSymbolGroup2::ExpandSymbol, ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, ExpandSymbol, dbgeng/IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup interface [Windows Debugging], ExpandSymbol method, IDebugSymbolGroup, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup interface, ExpandSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, ExpandSymbol method [Windows Debugging], debugger.expandsymbol, IDebugSymbolGroup::ExpandSymbol, IDebugSymbolGroup2 interface [Windows Debugging], ExpandSymbol method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -140,7 +140,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
@@ -148,7 +148,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 

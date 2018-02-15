@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 99843150-9e27-4f09-a3ba-5ff87d3f1c88
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.wcstranslatecolors, WcsTranslateColors, icm/WcsTranslateColors, colorfnc_3fac2d89-165e-4d5e-8dd2-cd68f7a9a47a.xml, WcsTranslateColors function [Print Devices]
+ms.keywords: colorfnc_3fac2d89-165e-4d5e-8dd2-cd68f7a9a47a.xml, WcsTranslateColors, icm/WcsTranslateColors, WcsTranslateColors function [Print Devices], print.wcstranslatecolors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

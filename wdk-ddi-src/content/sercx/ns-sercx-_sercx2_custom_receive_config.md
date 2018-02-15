@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 815DB069-4AB5-4C00-BB7A-BAAA4050C8CF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_CONFIG, 2/PSERCX2_CUSTOM_RECEIVE_CONFIG, _SERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG structure [Serial Ports], *PSERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG structure pointer [Serial Ports], serports.sercx2_custom_receive_config, PSERCX2_CUSTOM_RECEIVE_CONFIG
+ms.keywords: 2/PSERCX2_CUSTOM_RECEIVE_CONFIG, 2/SERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG structure [Serial Ports], PSERCX2_CUSTOM_RECEIVE_CONFIG structure pointer [Serial Ports], _SERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG, serports.sercx2_custom_receive_config, *PSERCX2_CUSTOM_RECEIVE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,11 +120,11 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceive
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
 
 
 

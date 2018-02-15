@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prntfont/PUFF_FONTDIRECTORY, prntfont/UFF_FONTDIRECTORY, UFF_FONTDIRECTORY, print.uff_fontdirectory, *PUFF_FONTDIRECTORY, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, PUFF_FONTDIRECTORY structure pointer [Print Devices], UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, PUFF_FONTDIRECTORY
+ms.keywords: "*PUFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, PUFF_FONTDIRECTORY, print.uff_fontdirectory, _UFF_FONTDIRECTORY, UFF_FONTDIRECTORY, prntfont/UFF_FONTDIRECTORY, PUFF_FONTDIRECTORY structure pointer [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

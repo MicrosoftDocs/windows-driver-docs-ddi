@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9b5fe91b-29ae-4c83-b405-4a90e4375b4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreenetbuffer, ndis_netbuf_functions_ref_623498b1-25e0-48ae-831e-8c1240106bd4.xml, NdisFreeNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBuffer, NdisFreeNetBuffer
+ms.keywords: ndis_netbuf_functions_ref_623498b1-25e0-48ae-831e-8c1240106bd4.xml, NdisFreeNetBuffer function [Network Drivers Starting with Windows Vista], NdisFreeNetBuffer, netvista.ndisfreenetbuffer, ndis/NdisFreeNetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

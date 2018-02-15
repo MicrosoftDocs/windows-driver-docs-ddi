@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c8deb6ef-e75b-4c90-a7ca-d685fdcc43bc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetExecutorFocus method [Network Drivers Starting with Windows Vista], RIL_SetExecutorFocus, rilapi/RIL_SetExecutorFocus, netvista.ril_setexecutorfocus
+ms.keywords: netvista.ril_setexecutorfocus, RIL_SetExecutorFocus, rilapi/RIL_SetExecutorFocus, RIL_SetExecutorFocus method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

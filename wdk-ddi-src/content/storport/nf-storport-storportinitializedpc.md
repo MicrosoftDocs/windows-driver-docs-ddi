@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeDpc routine [Storage Devices], StorPortInitializeDpc, storport/StorPortInitializeDpc, storage.storportinitializedpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
+ms.keywords: storport/StorPortInitializeDpc, storage.storportinitializedpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml, StorPortInitializeDpc routine [Storage Devices], StorPortInitializeDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,11 +124,11 @@ This routine is implemented using inline function definitions, so that miniport 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
-
-
-
 <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
 
 
 

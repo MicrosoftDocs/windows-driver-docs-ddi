@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 295a34e4-734e-41ba-bf2e-378333c14e2c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fltfreepoolalignedwithtag, fltkernel/FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag routine [Installable File System Drivers], FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, FltFreePoolAlignedWithTag
+ms.keywords: ifsk.fltfreepoolalignedwithtag, FltFreePoolAlignedWithTag, FltApiRef_e_to_o_dc83e564-1331-48f0-ad7e-8cdeaa677952.xml, fltkernel/FltFreePoolAlignedWithTag, FltFreePoolAlignedWithTag routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

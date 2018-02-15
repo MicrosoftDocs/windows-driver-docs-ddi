@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B28BE626-5DF1-4B55-8D1A-04B1FF2245EA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_WORK_COMPLETE_PERF_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_work_complete_perf_state, _PEP_WORK_COMPLETE_PERF_STATE, PEP_WORK_COMPLETE_PERF_STATE, pepfx/PPEP_WORK_COMPLETE_PERF_STATE, pepfx/PEP_WORK_COMPLETE_PERF_STATE, *PPEP_WORK_COMPLETE_PERF_STATE, PPEP_WORK_COMPLETE_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_WORK_COMPLETE_PERF_STATE
+ms.keywords: PPEP_WORK_COMPLETE_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_work_complete_perf_state, _PEP_WORK_COMPLETE_PERF_STATE, *PPEP_WORK_COMPLETE_PERF_STATE, pepfx/PEP_WORK_COMPLETE_PERF_STATE, PPEP_WORK_COMPLETE_PERF_STATE, PEP_WORK_COMPLETE_PERF_STATE structure [Kernel-Mode Driver Architecture], PEP_WORK_COMPLETE_PERF_STATE, pepfx/PPEP_WORK_COMPLETE_PERF_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,15 +95,15 @@ The <b>CompletePerfState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
 
 
 

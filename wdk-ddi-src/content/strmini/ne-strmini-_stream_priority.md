@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 790A00A5-1107-4686-B690-80D07B69AF62
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PSTREAM_PRIORITY, strmini/Low, strmini/STREAM_PRIORITY, Dispatch, STREAM_PRIORITY, stream.stream_priority, High, strmini/PSTREAM_PRIORITY, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], STREAM_PRIORITY enumeration [Streaming Media Devices], strmini/High, PSTREAM_PRIORITY, Low, _STREAM_PRIORITY, LowToHigh, strmini/LowToHigh, strmini/Dispatch"
+ms.keywords: "*PSTREAM_PRIORITY, STREAM_PRIORITY, Dispatch, PSTREAM_PRIORITY, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], _STREAM_PRIORITY, Low, strmini/LowToHigh, strmini/PSTREAM_PRIORITY, stream.stream_priority, strmini/STREAM_PRIORITY, strmini/High, strmini/Dispatch, STREAM_PRIORITY enumeration [Streaming Media Devices], strmini/Low, High, LowToHigh"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ac3c4609-094d-4003-a5ee-b609f7ec13e1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_SETVERTEXSHADERCONST, display.d3dddiarg_setvertexshaderconst, d3dumddi/D3DDDIARG_SETVERTEXSHADERCONST, UMDisplayDriver_param_Structs_1d6878e5-ecbe-493c-bcbc-58eabc4b0972.xml, D3DDDIARG_SETVERTEXSHADERCONST, D3DDDIARG_SETVERTEXSHADERCONST structure [Display Devices], D3DDDIARG_SETVERTEXSHADERCONSTB, D3DDDIARG_SETVERTEXSHADERCONSTI"
+ms.keywords: D3DDDIARG_SETVERTEXSHADERCONST, d3dumddi/D3DDDIARG_SETVERTEXSHADERCONST, _D3DDDIARG_SETVERTEXSHADERCONST, D3DDDIARG_SETVERTEXSHADERCONST structure [Display Devices], UMDisplayDriver_param_Structs_1d6878e5-ecbe-493c-bcbc-58eabc4b0972.xml, D3DDDIARG_SETVERTEXSHADERCONSTI, display.d3dddiarg_setvertexshaderconst, D3DDDIARG_SETVERTEXSHADERCONSTB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,11 +116,11 @@ typedef D3DDDIARG_SETVERTEXSHADERCONST D3DDDIARG_SETVERTEXSHADERCONSTB;</pre>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconst.md">SetVertexShaderConstI</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconst.md">SetVertexShaderConst</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setvertexshaderconst.md">SetVertexShaderConstI</a>
 
 
 

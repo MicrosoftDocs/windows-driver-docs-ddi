@@ -90,11 +90,14 @@ Pointer to the DEVICE_CAPABILITIES structure that describes PnP and Power capabi
 ## -returns
 
 
+
 Should return STATUS_SUCCESS or the error code that was returned from the attempt to perform the operation. Return success if providing query capabilities. If not, return an appropriate error code. Do not return STATUS_PENDING.
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine's address in the <b>QueryCapabilities</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
@@ -103,11 +106,16 @@ This routine is called when an <a href="https://msdn.microsoft.com/library/windo
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2ce67fd7-03f6-432c-9229-a99f66f7eb73
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, display.dxvahdddi_stream_state_source_rect_data, DXVA2_Structs_82045602-8c6c-4a80-8698-06b34f0ca8d9.xml
+ms.keywords: DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure [Display Devices], DXVA2_Structs_82045602-8c6c-4a80-8698-06b34f0ca8d9.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, display.dxvahdddi_stream_state_source_rect_data, _DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

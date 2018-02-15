@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 27816655-1FE9-44A0-81BB-59808FE6F064
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: udecxusbdevice/UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], buses.udecxusbdeviceplugoutanddelete, UdecxUsbDevicePlugOutAndDelete
+ms.keywords: buses.udecxusbdeviceplugoutanddelete, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ If the USB device needs to be removed at runtime, the client driver can call thi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
 
 
 

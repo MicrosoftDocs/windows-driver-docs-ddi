@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57418ab1-e341-41ad-a120-cc4f7e0b0227
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEXCHANGEUICCAPDURESPONSE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE, *LPRILEXCHANGEUICCAPDURESPONSE, netvista.rilexchangeuiccapduresponse
+ms.keywords: RILEXCHANGEUICCAPDURESPONSE structure [Network Drivers Starting with Windows Vista], *LPRILEXCHANGEUICCAPDURESPONSE, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE, netvista.rilexchangeuiccapduresponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

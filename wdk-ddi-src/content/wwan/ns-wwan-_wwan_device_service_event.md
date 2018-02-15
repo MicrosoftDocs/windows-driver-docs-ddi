@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7E02DDE0-7D55-4FBD-879E-EFBA6A517D86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT, _WWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SERVICE_EVENT, wwan/PWWAN_DEVICE_SERVICE_EVENT, netvista.wwan_device_service_event, *PWWAN_DEVICE_SERVICE_EVENT
+ms.keywords: wwan/WWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT, wwan/PWWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT, *PWWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_EVENT, netvista.wwan_device_service_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50c989b9-147c-41ea-b933-3a3e8575563e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PENLISTMENT_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PENLISTMENT_BASIC_INFORMATION, kernel.enlistment_basic_information, *PENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION, ktm_ref_5748a3a5-6a2a-4cf1-a610-2a406161b689.xml, _ENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/ENLISTMENT_BASIC_INFORMATION, PENLISTMENT_BASIC_INFORMATION
+ms.keywords: kernel.enlistment_basic_information, ENLISTMENT_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PENLISTMENT_BASIC_INFORMATION, wdm/ENLISTMENT_BASIC_INFORMATION, ktm_ref_5748a3a5-6a2a-4cf1-a610-2a406161b689.xml, ENLISTMENT_BASIC_INFORMATION, PENLISTMENT_BASIC_INFORMATION, *PENLISTMENT_BASIC_INFORMATION, _ENLISTMENT_BASIC_INFORMATION, PENLISTMENT_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

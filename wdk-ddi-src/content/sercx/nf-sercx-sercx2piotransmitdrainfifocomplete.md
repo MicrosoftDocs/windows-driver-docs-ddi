@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: A1AF3D23-D0F4-44C0-A1B1-E7775FCA3699
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCx2PioTransmitDrainFifoComplete method [Serial Ports], 2/SerCx2PioTransmitDrainFifoComplete, serports.sercx2piotransmitdrainfifocomplete, SerCx2PioTransmitDrainFifoComplete
+ms.keywords: serports.sercx2piotransmitdrainfifocomplete, SerCx2PioTransmitDrainFifoComplete method [Serial Ports], 2/SerCx2PioTransmitDrainFifoComplete, SerCx2PioTransmitDrainFifoComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,7 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
 
 
@@ -105,11 +105,11 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 
 
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
 
 
 

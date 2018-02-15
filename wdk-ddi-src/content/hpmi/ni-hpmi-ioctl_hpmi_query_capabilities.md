@@ -105,6 +105,7 @@ TBD
 ## -remarks
 
 
+
 The <b>IOCTL_HPMI_QUERY_CAPABILITIES</b> request queries the HPMI capabilities or asset information of the power meter. The input <a href="..\hpmi\ns-hpmi-_hpmi_query_capabilities.md">HPMI_QUERY_CAPABILITIES</a> structure value specifies the type of capability information to be returned. The data type and contents of the output buffer vary based on the data requested.
 
 This IOCTL may be issued multiple times, HPMI must respond with same  
@@ -113,17 +114,28 @@ subsequent IOCTL calls.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
 
  
 

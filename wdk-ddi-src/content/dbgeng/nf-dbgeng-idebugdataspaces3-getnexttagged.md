@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 529ef33a-adad-4242-96a8-01cdd273cc35
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetNextTagged method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3, IDebugDataSpaces3::GetNextTagged, IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, debugger.getnexttagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], GetNextTagged method, IDebugDataSpaces4 interface [Windows Debugging], GetNextTagged method, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface, GetNextTagged, dbgeng/IDebugDataSpaces4::GetNextTagged, dbgeng/IDebugDataSpaces3::GetNextTagged
+ms.keywords: IDebugDataSpaces3::GetNextTagged, IDebugDataSpaces3 interface [Windows Debugging], GetNextTagged method, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, IDebugDataSpaces3, GetNextTagged method [Windows Debugging], IDebugDataSpaces4 interface, GetNextTagged, IDebugDataSpaces4 interface [Windows Debugging], GetNextTagged method, debugger.getnexttagged, IDebugDataSpaces4::GetNextTagged, dbgeng/IDebugDataSpaces3::GetNextTagged, dbgeng/IDebugDataSpaces4::GetNextTagged, GetNextTagged method [Windows Debugging], IDebugDataSpaces3 interface, GetNextTagged method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -126,11 +126,11 @@ There are no more blocks of tagged data available in this enumeration.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
 
 
 
@@ -138,7 +138,7 @@ There are no more blocks of tagged data available in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 

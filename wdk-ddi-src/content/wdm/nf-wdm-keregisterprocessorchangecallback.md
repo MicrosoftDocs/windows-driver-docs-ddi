@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a10d54a2-39e4-4c90-ac91-28d31b3ebfb8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], wdm/KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback, kernel.keregisterprocessorchangecallback
+ms.keywords: KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], KeRegisterProcessorChangeCallback, wdm/KeRegisterProcessorChangeCallback, k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -168,11 +168,11 @@ A callback function that has been registered for notification of processor chang
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kederegisterprocessorchangecallback.md">KeDeregisterProcessorChangeCallback</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
+
+
+
+<a href="..\wdm\nf-wdm-kederegisterprocessorchangecallback.md">KeDeregisterProcessorChangeCallback</a>
 
 
 

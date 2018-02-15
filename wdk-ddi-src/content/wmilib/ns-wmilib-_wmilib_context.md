@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c9319f35-9745-47c4-a98d-4321e0d39f86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], WMILIB_CONTEXT, wmilib/PWMILIB_CONTEXT, kernel.wmilib_context, _WMILIB_CONTEXT, *PWMILIB_CONTEXT, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, wmilib/WMILIB_CONTEXT, PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "*PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], wmilib/WMILIB_CONTEXT, _WMILIB_CONTEXT, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, wmilib/PWMILIB_CONTEXT, PWMILIB_CONTEXT, kernel.wmilib_context, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], WMILIB_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,19 +130,7 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
-<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
-
-
-
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
 
 
 
@@ -154,11 +142,23 @@ Memory for this structure can be allocated from paged pool.
 
 
 
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
+
+
+
 <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
 
 
-<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
+<a href="..\wmilib\nc-wmilib-wmi_query_datablock_callback.md">DpWmiQueryDataBlock</a>
 
 
 

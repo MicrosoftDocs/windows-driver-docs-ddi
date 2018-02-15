@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27cc4067-33de-4f2d-abad-05c73c875458
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcompanion/WdfTaskQueueDispatchParallel, _WDF_TASK_QUEUE_DISPATCH_TYPE, WdfTaskQueueDispatchMax, wdfcompanion/WDF_TASK_QUEUE_DISPATCH_TYPE, wdfcompanion/WdfTaskQueueDispatchInvalid, WdfTaskQueueDispatchParallel, wdf.wdf_task_queue_dispatch_type, wdfcompanion/WdfTaskQueueDispatchMax, WDF_TASK_QUEUE_DISPATCH_TYPE enumeration, wdfcompanion/WdfTaskQueueDispatchSequential, WdfTaskQueueDispatchInvalid, WDF_TASK_QUEUE_DISPATCH_TYPE, WdfTaskQueueDispatchSequential
+ms.keywords: WdfTaskQueueDispatchSequential, WdfTaskQueueDispatchParallel, WdfTaskQueueDispatchMax, wdfcompanion/WdfTaskQueueDispatchParallel, WDF_TASK_QUEUE_DISPATCH_TYPE enumeration, wdfcompanion/WdfTaskQueueDispatchSequential, WdfTaskQueueDispatchInvalid, wdfcompanion/WdfTaskQueueDispatchMax, wdf.wdf_task_queue_dispatch_type, _WDF_TASK_QUEUE_DISPATCH_TYPE, wdfcompanion/WdfTaskQueueDispatchInvalid, wdfcompanion/WDF_TASK_QUEUE_DISPATCH_TYPE, WDF_TASK_QUEUE_DISPATCH_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

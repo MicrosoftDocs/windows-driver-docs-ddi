@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4ea03ea5-31df-4220-982c-0102d20c2d4a
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.rxcreatenetfobx, rxref_851152a8-bc89-44f8-9e74-1621e425dbba.xml, RxCreateNetFobx function [Installable File System Drivers], fcb/RxCreateNetFobx, RxCreateNetFobx
+ms.keywords: RxCreateNetFobx function [Installable File System Drivers], rxref_851152a8-bc89-44f8-9e74-1621e425dbba.xml, fcb/RxCreateNetFobx, RxCreateNetFobx, ifsk.rxcreatenetfobx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,11 +132,15 @@ On success, the reference count for the SRV_OPEN structure is incremented and th
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxcreatesrvopen.md">RxCreateSrvOpen</a>
-
-
-
 <a href="..\fcb\nf-fcb-rxfinalizevnetroot.md">RxFinalizeVNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
 
 
 
@@ -144,11 +148,7 @@ On success, the reference count for the SRV_OPEN structure is incremented and th
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinishfcbinitialization.md">RxFinishFcbInitialization</a>
+<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
 
 
 
@@ -160,43 +160,11 @@ On success, the reference count for the SRV_OPEN structure is incremented and th
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
+<a href="..\fcb\nf-fcb-rxfinishfcbinitialization.md">RxFinishFcbInitialization</a>
 
 
 
@@ -204,11 +172,43 @@ On success, the reference count for the SRV_OPEN structure is incremented and th
 
 
 
+<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFobx</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+
+
 <a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFobx</a>
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatesrvopen.md">RxCreateSrvOpen</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
 
 
 

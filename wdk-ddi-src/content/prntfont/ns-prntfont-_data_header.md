@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: DATA_HEADER, prntfont/DATA_HEADER, *PDATA_HEADER, prntfont/PDATA_HEADER, DATA_HEADER structure [Print Devices], _DATA_HEADER, print.data_header, PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml
+ms.keywords: "*PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], prntfont/DATA_HEADER, print.data_header, prntfont/PDATA_HEADER, _DATA_HEADER, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, DATA_HEADER, PDATA_HEADER, DATA_HEADER structure [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

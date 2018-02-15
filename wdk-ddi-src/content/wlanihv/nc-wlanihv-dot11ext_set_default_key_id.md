@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetDefaultKeyId
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -93,13 +93,16 @@ For standard 802.11 cipher algorithms, such as WEP or TKIP,
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The default key identifier (ID) specifies the index of a cipher key in the adapter's default key and
@@ -117,13 +120,20 @@ A call to the
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY_ID</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+<a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+
+
 
  
 

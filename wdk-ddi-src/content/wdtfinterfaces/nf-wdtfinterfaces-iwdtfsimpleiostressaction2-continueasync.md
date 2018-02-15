@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5297881a-34ba-4fa7-a116-a890ce8b7434
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], ContinueAsync method, ContinueAsync method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFSimpleIOStressAction2::ContinueAsync, IWDTFSimpleIOStressAction2, ContinueAsync, dtf.iwdtfsimpleiostressaction2_continueasync, ContinueAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, Microsoft.WDTF.IWDTFSimpleIOStressAction2.ContinueAsync, wdtfinterfaces/IWDTFSimpleIOStressAction2::ContinueAsync, IWDTFSimpleIOStressAction2::ContinueAsync
+ms.keywords: ContinueAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], ContinueAsync method, wdtfinterfaces/IWDTFSimpleIOStressAction2::ContinueAsync, IWDTFSimpleIOStressAction2::ContinueAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::ContinueAsync, IWDTFSimpleIOStressAction2, dtf.iwdtfsimpleiostressaction2_continueasync, ContinueAsync, ContinueAsync method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFSimpleIOStressAction2.ContinueAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

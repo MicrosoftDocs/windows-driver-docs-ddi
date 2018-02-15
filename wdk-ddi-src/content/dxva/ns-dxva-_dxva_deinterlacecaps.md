@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: be503505-fb20-4a8d-b395-7e807cde9fb6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps structure [Display Devices], dxva/LPDXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml, dxva/DXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], DXVA_DeinterlaceCaps, display.dxva_deinterlacecaps, *LPDXVA_DeinterlaceCaps"
+ms.keywords: DXVA_DeinterlaceCaps structure [Display Devices], dxva/DXVA_DeinterlaceCaps, _DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps, dxva/LPDXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml, display.dxva_deinterlacecaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], LPDXVA_DeinterlaceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,11 +127,11 @@ The driver receives the DXVA_DeinterlaceCaps structure with the <b>Size</b> memb
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
-
-
-
 <a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceTech</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2a861450-0bc5-432b-bf5d-9a9761c22ea1
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: print.iprintcoreps2_enumoptions, EnumOptions method [Print Devices], print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, prcomoem/IPrintCorePS2::EnumOptions, EnumOptions method [Print Devices], IPrintCorePS2 interface, EnumOptions, IPrintCorePS2::EnumOptions, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], EnumOptions method
+ms.keywords: print.iprintcoreps2_enumoptions, print_unidrv-pscript_rendering_d4f92055-f090-4794-854e-f6d26f482fd7.xml, EnumOptions, IPrintCorePS2, EnumOptions method [Print Devices], IPrintCorePS2 interface, EnumOptions method [Print Devices], IPrintCorePS2::EnumOptions, IPrintCorePS2 interface [Print Devices], EnumOptions method, prcomoem/IPrintCorePS2::EnumOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

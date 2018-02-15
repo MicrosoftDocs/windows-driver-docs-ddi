@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ee872d01-4bc6-46ce-80b7-3f73dd1a89ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_present, D3DDDIARG_PRESENT structure [Display Devices], D3DDDIARG_PRESENT, d3dumddi/D3DDDIARG_PRESENT, UMDisplayDriver_param_Structs_1406aa28-1355-4e46-886f-9121fcbd7750.xml, _D3DDDIARG_PRESENT
+ms.keywords: d3dumddi/D3DDDIARG_PRESENT, display.d3dddiarg_present, D3DDDIARG_PRESENT structure [Display Devices], D3DDDIARG_PRESENT, _D3DDDIARG_PRESENT, UMDisplayDriver_param_Structs_1406aa28-1355-4e46-886f-9121fcbd7750.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

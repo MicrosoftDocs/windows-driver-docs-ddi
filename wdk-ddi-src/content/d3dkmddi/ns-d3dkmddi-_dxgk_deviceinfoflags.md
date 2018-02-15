@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26d0aad9-86d0-4d97-978a-1e15285d3369
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS structure [Display Devices], DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, display.dxgk_deviceinfoflags, _DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS
+ms.keywords: DXGK_DEVICEINFOFLAGS, display.dxgk_deviceinfoflags, DXGK_DEVICEINFOFLAGS structure [Display Devices], DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, d3dkmddi/DXGK_DEVICEINFOFLAGS, _DXGK_DEVICEINFOFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

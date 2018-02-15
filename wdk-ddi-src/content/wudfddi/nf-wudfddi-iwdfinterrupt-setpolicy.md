@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EDBCBB37-41A4-4234-BE8C-4C8739BC287B
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt::SetPolicy, wdf.iwdfinterrupt_setpolicy, SetPolicy method, IWDFInterrupt interface, IWDFInterrupt, SetPolicy, umdf.iwdfinterrupt_setpolicy, IWDFInterrupt interface, SetPolicy method, wudfddi/IWDFInterrupt::SetPolicy, SetPolicy method
+ms.keywords: wudfddi/IWDFInterrupt::SetPolicy, SetPolicy method, IWDFInterrupt interface, SetPolicy method, IWDFInterrupt::SetPolicy, IWDFInterrupt interface, SetPolicy method, umdf.iwdfinterrupt_setpolicy, SetPolicy, IWDFInterrupt, wdf.iwdfinterrupt_setpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -144,11 +144,11 @@ pIWdfInterrupt-&gt;SetPolicy(
 
 
 
-<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
+<a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>
 
 
 

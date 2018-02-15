@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: GetSupportedVersions method [Print Devices], print.iprintoemprintticketprovider_getsupportedversions, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, IPrintOemPrintTicketProvider::GetSupportedVersions, GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml, GetSupportedVersions
+ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], GetSupportedVersions method, print.iprintoemprintticketprovider_getsupportedversions, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, GetSupportedVersions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider::GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices], IPrintOemPrintTicketProvider interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

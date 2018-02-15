@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D33FA62B-9DC8-4AC4-85FC-726C39FB76F4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_ppm_query_capabilities, pepfx/PPEP_PPM_QUERY_CAPABILITIES, _PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, pepfx/PEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES, *PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_PPM_QUERY_CAPABILITIES, kernel.pep_ppm_query_capabilities, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES, _PEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES, pepfx/PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

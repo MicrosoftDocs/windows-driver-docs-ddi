@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: cb510aa6-7156-4b02-bab1-6951becbc1a0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemUI2::QueryJobAttributes, IPrintOemUI2 interface [Print Devices], QueryJobAttributes method, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml, IPrintOemUI2::QueryJobAttributes, QueryJobAttributes method [Print Devices], print.iprintoemui2_queryjobattributes, IPrintOemUI2, QueryJobAttributes, QueryJobAttributes method [Print Devices], IPrintOemUI2 interface
+ms.keywords: print.iprintoemui2_queryjobattributes, QueryJobAttributes method [Print Devices], IPrintOemUI2 interface, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml, IPrintOemUI2, QueryJobAttributes, prcomoem/IPrintOemUI2::QueryJobAttributes, QueryJobAttributes method [Print Devices], IPrintOemUI2 interface [Print Devices], QueryJobAttributes method, IPrintOemUI2::QueryJobAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -171,15 +171,7 @@ See <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttrib
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
-
-
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
-
-
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
 
 
@@ -187,7 +179,15 @@ See <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttrib
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
 
 

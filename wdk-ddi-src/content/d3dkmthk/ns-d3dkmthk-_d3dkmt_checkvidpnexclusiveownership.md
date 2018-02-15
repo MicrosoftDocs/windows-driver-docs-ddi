@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a7f05a0-11ae-49ed-9015-f2712cc77880
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_checkvidpnexclusiveownership, _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, d3dkmthk/D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure [Display Devices], D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, OpenGL_Structs_23afa7dd-8aaa-402b-9b99-235be17cd26e.xml
+ms.keywords: D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, OpenGL_Structs_23afa7dd-8aaa-402b-9b99-235be17cd26e.xml, _D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, display.d3dkmt_checkvidpnexclusiveownership, d3dkmthk/D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

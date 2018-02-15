@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: cc20c2d6-c76b-4f72-9762-23b9aa5fe946
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: whea.whea_processor_family_info, *PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, _WHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications]
+ms.keywords: ntddk/WHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO, _WHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, whea.whea_processor_family_info, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

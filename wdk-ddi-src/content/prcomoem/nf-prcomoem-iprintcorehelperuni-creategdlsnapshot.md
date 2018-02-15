@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3dd9c7f9-27d4-45d2-8692-4270818c1823
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: CreateGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, print.iprintcorehelperuni_creategdlsnapshot, CreateGDLSnapshot method [Print Devices], IPrintCoreHelperUni::CreateGDLSnapshot, IPrintCoreHelperUni, print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml, CreateGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices], CreateGDLSnapshot method
+ms.keywords: IPrintCoreHelperUni, print.iprintcorehelperuni_creategdlsnapshot, prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, IPrintCoreHelperUni interface [Print Devices], CreateGDLSnapshot method, IPrintCoreHelperUni::CreateGDLSnapshot, CreateGDLSnapshot, CreateGDLSnapshot method [Print Devices], print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml, CreateGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

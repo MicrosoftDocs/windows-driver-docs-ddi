@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 988c7e70-3b2a-4a0f-91cf-dfab3ea07f05
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionSetSingleTransferRequirement, wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement, WdfDmaTransactionSetSingleTransferRequirement method, wdf.wdfdmatransactionsetsingletransferrequirement
+ms.keywords: wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement, WdfDmaTransactionSetSingleTransferRequirement method, wdf.wdfdmatransactionsetsingletransferrequirement, WdfDmaTransactionSetSingleTransferRequirement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,15 +109,15 @@ The driver calls <b>WdfDmaTransactionSetSingleTransferRequirement</b> after crea
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
 
 
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
 
 
 

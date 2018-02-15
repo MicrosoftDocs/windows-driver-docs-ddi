@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.keremovequeue, KeRemoveQueue, ntifs/KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml
+ms.keywords: ntifs/KeRemoveQueue, ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

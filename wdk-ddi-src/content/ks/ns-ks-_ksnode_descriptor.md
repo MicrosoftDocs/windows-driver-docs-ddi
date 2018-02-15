@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dfc5760f-fdd6-45f3-aeac-4406892e518a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: "*PKSNODE_DESCRIPTOR, KSNODE_DESCRIPTOR structure [Streaming Media Devices], ks/PKSNODE_DESCRIPTOR, ks/KSNODE_DESCRIPTOR, PKSNODE_DESCRIPTOR structure pointer [Streaming Media Devices], KSNODE_DESCRIPTOR, stream.ksnode_descriptor, avstruct_c4e79318-e112-4f57-ad6f-58e71ec53532.xml, PKSNODE_DESCRIPTOR, _KSNODE_DESCRIPTOR"
+ms.keywords: ks/KSNODE_DESCRIPTOR, _KSNODE_DESCRIPTOR, avstruct_c4e79318-e112-4f57-ad6f-58e71ec53532.xml, PKSNODE_DESCRIPTOR, KSNODE_DESCRIPTOR structure [Streaming Media Devices], stream.ksnode_descriptor, KSNODE_DESCRIPTOR, PKSNODE_DESCRIPTOR structure pointer [Streaming Media Devices], ks/PKSNODE_DESCRIPTOR, *PKSNODE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

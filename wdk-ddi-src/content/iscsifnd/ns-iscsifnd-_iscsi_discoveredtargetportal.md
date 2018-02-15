@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.iscsi_discoveredtargetportal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], ISCSI_DiscoveredTargetPortal structure [Storage Devices], PISCSI_DiscoveredTargetPortal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml, ISCSI_DiscoveredTargetPortal, iscsifnd/ISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, _ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal
+ms.keywords: storage.iscsi_discoveredtargetportal, _ISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml, iscsifnd/PISCSI_DiscoveredTargetPortal, iscsifnd/ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], ISCSI_DiscoveredTargetPortal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

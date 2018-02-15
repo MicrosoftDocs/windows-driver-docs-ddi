@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7924405f-9862-4704-bff1-05e0285592b9
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntifs/FsRtlNotifyFilterReportChange, ifsk.fsrtlnotifyfilterreportchange, FsRtlNotifyFilterReportChange, fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, FsRtlNotifyFilterReportChange function [Installable File System Drivers]
+ms.keywords: FsRtlNotifyFilterReportChange, fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, FsRtlNotifyFilterReportChange function [Installable File System Drivers], ntifs/FsRtlNotifyFilterReportChange, ifsk.fsrtlnotifyfilterreportchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -148,19 +148,19 @@ When a change occurs to the directory, the file system calls <b>FsRtlNotifyFilte
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory~r10.md">FsRtlNotifyFilterChangeDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
 
 

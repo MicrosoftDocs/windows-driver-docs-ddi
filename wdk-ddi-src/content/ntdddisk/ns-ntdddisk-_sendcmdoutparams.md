@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e9fb6d5c-258c-46eb-ba3a-3f10008fdf68
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS structure pointer [Storage Devices], structs-IDE_d1a70016-0e77-465a-9368-665975369bdc.xml, ntdddisk/PSENDCMDOUTPARAMS, storage.sendcmdoutparams, ntdddisk/LPSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS, _SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, SENDCMDOUTPARAMS structure [Storage Devices], *LPSENDCMDOUTPARAMS, PSENDCMDOUTPARAMS structure pointer [Storage Devices], ntdddisk/SENDCMDOUTPARAMS, SENDCMDOUTPARAMS
+ms.keywords: "_SENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS, structs-IDE_d1a70016-0e77-465a-9368-665975369bdc.xml, ntdddisk/SENDCMDOUTPARAMS, ntdddisk/LPSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS structure pointer [Storage Devices], *LPSENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, PSENDCMDOUTPARAMS, SENDCMDOUTPARAMS, SENDCMDOUTPARAMS structure [Storage Devices], storage.sendcmdoutparams, PSENDCMDOUTPARAMS structure pointer [Storage Devices], ntdddisk/PSENDCMDOUTPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,7 +97,7 @@ The SENDCMDOUTPARAMS structure is also used with the <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdinparams.md">SENDCMDINPARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
 
 
 
@@ -105,7 +105,7 @@ The SENDCMDOUTPARAMS structure is also used with the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566204">SMART_RCV_DRIVE_DATA</a>
+<a href="..\ntdddisk\ns-ntdddisk-_sendcmdinparams.md">SENDCMDINPARAMS</a>
 
 
 

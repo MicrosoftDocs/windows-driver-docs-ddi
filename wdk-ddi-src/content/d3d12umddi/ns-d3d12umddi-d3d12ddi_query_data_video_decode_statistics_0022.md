@@ -83,7 +83,6 @@ The number of blocks affected. If the <b>Status</b> value  is not 0, this member
 ### -field FrameRate
 
 
-
 ### -field BitRate
 
 When the <b>Status</b> value returned is <b>D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED</b>, this member reports the required bit rate.  This value may be used to recreate the decode stream and try again.  The updated value is relative to the frame rate with which the stream was created.  A value of zero (0) is valid to indicate that the worst case bit rate should be assumed.  
@@ -94,6 +93,8 @@ For all other <b>Status</b> values, <b>BitRate</b> is not used and is set to zer
 ## -see-also
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_status_0020.md">D3D12DDI_VIDEO_DECODE_STATUS</a>
+
+
 
  
 

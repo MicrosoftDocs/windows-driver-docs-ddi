@@ -118,7 +118,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_download.md">STORAGE_HW_FIRMWARE_DOWNLOAD</a>
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_firmware_activate.md">IOCTL_STORAGE_FIRMWARE_ACTIVATE</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info_query.md">STORAGE_HW_FIRMWARE_INFO_QUERY</a>
 
 
 
@@ -126,7 +130,7 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info.md">STORAGE_HW_FIRMWARE_INFO</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_download.md">STORAGE_HW_FIRMWARE_DOWNLOAD</a>
 
 
 
@@ -134,11 +138,7 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_firmware_activate.md">IOCTL_STORAGE_FIRMWARE_ACTIVATE</a>
-
-
-
-<a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info_query.md">STORAGE_HW_FIRMWARE_INFO_QUERY</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info.md">STORAGE_HW_FIRMWARE_INFO</a>
 
 
 

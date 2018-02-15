@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.fs_information_class, wdm/FileFsObjectIdInformation, wdm/FileFsSizeInformation, wdm/FileFsAttributeInformation, FileFsSizeInformation, wdm/FileFsDriverPathInformation, FileFsLabelInformation, FileFsAttributeInformation, wdm/FS_INFORMATION_CLASS, FileFsObjectIdInformation, wdm/FileFsVolumeFlagsInformation, wdm/FileFsLabelInformation, wdm/FileFsControlInformation, FileFsVolumeFlagsInformation, _FSINFOCLASS, wdm/FileFsSectorSizeInformation, wdm/FileFsDeviceInformation, wdm/FileFsFullSizeInformation, FileFsFullSizeInformation, *PFS_INFORMATION_CLASS, FileFsSectorSizeInformation, wdm/FileFsVolumeInformation, FileFsControlInformation, FS_INFORMATION_CLASS, FileFsDriverPathInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsDeviceInformation, FileFsVolumeInformation
+ms.keywords: FileFsObjectIdInformation, wdm/FileFsControlInformation, wdm/FileFsObjectIdInformation, *PFS_INFORMATION_CLASS, FileFsVolumeFlagsInformation, wdm/FileFsVolumeFlagsInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], wdm/FileFsDriverPathInformation, wdm/FileFsSizeInformation, FS_INFORMATION_CLASS, wdm/FileFsSectorSizeInformation, wdm/FileFsLabelInformation, FileFsVolumeInformation, FileFsSectorSizeInformation, FileFsSizeInformation, wdm/FileFsFullSizeInformation, FileFsControlInformation, FileFsAttributeInformation, wdm/FileFsVolumeInformation, FileFsLabelInformation, _FSINFOCLASS, ifsk.fs_information_class, FileFsFullSizeInformation, wdm/FileFsAttributeInformation, wdm/FileFsDeviceInformation, FileFsDriverPathInformation, FileFsDeviceInformation, wdm/FS_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

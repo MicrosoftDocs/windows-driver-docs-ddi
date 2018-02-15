@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2472582a-bade-4dfd-af67-c7c0626160bd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_DevSpecific method [Network Drivers Starting with Windows Vista], rilapi/RIL_DevSpecific, netvista.ril_devspecific, RIL_DevSpecific
+ms.keywords: netvista.ril_devspecific, RIL_DevSpecific method [Network Drivers Starting with Windows Vista], rilapi/RIL_DevSpecific, RIL_DevSpecific
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

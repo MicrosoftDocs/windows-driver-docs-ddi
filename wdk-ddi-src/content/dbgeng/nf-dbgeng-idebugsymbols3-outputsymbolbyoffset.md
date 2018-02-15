@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a9b3ac31-2001-45cc-a917-de687419b561
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, IDebugSymbols3::OutputSymbolByOffset, OutputSymbolByOffset, debugger.outputsymbolbyoffset, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, IDebugSymbols3, dbgeng/IDebugSymbols3::OutputSymbolByOffset
+ms.keywords: debugger.outputsymbolbyoffset, IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols3, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputSymbolByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -176,11 +176,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

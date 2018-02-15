@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 8db151ca-6358-41b0-a96a-e69b9d6c2c95
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PBUS_GENERATION_NODE structure pointer [Buses], _BUS_GENERATION_NODE, BUS_GENERATION_NODE structure [Buses], PBUS_GENERATION_NODE, *PBUS_GENERATION_NODE, 61883/BUS_GENERATION_NODE, 61883_structures_41921b5c-98f0-4df8-9770-335cc579eb38.xml, BUS_GENERATION_NODE, IEEE.bus_generation_node, 61883/PBUS_GENERATION_NODE
+ms.keywords: "_BUS_GENERATION_NODE, IEEE.bus_generation_node, PBUS_GENERATION_NODE structure pointer [Buses], 61883/BUS_GENERATION_NODE, *PBUS_GENERATION_NODE, BUS_GENERATION_NODE structure [Buses], PBUS_GENERATION_NODE, BUS_GENERATION_NODE, 61883_structures_41921b5c-98f0-4df8-9770-335cc579eb38.xml, 61883/PBUS_GENERATION_NODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

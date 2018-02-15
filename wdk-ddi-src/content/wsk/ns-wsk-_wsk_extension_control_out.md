@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aec44058-13ad-4093-91b1-e5dca6f2e295
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT, *PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT structure pointer [Network Drivers Starting with Windows Vista], wskref_fd819b16-7a6d-4206-b29e-d376e84c8e4d.xml, wsk/WSK_EXTENSION_CONTROL_OUT, WSK_EXTENSION_CONTROL_OUT, netvista.wsk_extension_control_out, WSK_EXTENSION_CONTROL_OUT structure [Network Drivers Starting with Windows Vista], wsk/PWSK_EXTENSION_CONTROL_OUT"
+ms.keywords: PWSK_EXTENSION_CONTROL_OUT structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_extension_control_out, wsk/WSK_EXTENSION_CONTROL_OUT, _WSK_EXTENSION_CONTROL_OUT, wsk/PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT, *PWSK_EXTENSION_CONTROL_OUT, WSK_EXTENSION_CONTROL_OUT, wskref_fd819b16-7a6d-4206-b29e-d376e84c8e4d.xml, WSK_EXTENSION_CONTROL_OUT structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B13D311F-FFC4-4A40-AF0C-6E7115174FD1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Storage Devices], storage.storage_device_power_cap, PSTORAGE_DEVICE_POWER_CAP structure pointer [Storage Devices], ntddstor/PSTORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP, _STORAGE_DEVICE_POWER_CAP, ntddstor/STORAGE_DEVICE_POWER_CAP
+ms.keywords: STORAGE_DEVICE_POWER_CAP, _STORAGE_DEVICE_POWER_CAP, ntddstor/PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, ntddstor/STORAGE_DEVICE_POWER_CAP, *PSTORAGE_DEVICE_POWER_CAP, storage.storage_device_power_cap, STORAGE_DEVICE_POWER_CAP structure [Storage Devices], PSTORAGE_DEVICE_POWER_CAP structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

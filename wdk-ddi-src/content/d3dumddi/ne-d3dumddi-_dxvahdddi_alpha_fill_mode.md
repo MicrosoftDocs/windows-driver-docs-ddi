@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b0fdae8-d313-4281-bab0-b3dcc38b19e5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE_DESTINATION, DXVAHDDDI_ALPHA_FILL_MODE enumeration [Display Devices], display.dxvahdddi_alpha_fill_mode, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE_SOURCE_STREAM, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE_BACKGROUND, DXVAHDDDI_ALPHA_FILL_MODE_SOURCE_STREAM, DXVAHDDDI_ALPHA_FILL_MODE_BACKGROUND, DXVAHDDDI_ALPHA_FILL_MODE_DESTINATION, DXVA2_Structs_bc53b063-f00e-4589-8bf7-d397925dda55.xml, DXVAHDDDI_ALPHA_FILL_MODE, DXVAHDDDI_ALPHA_FILL_MODE_OPAQUE, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE_OPAQUE, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE, _DXVAHDDDI_ALPHA_FILL_MODE
+ms.keywords: DXVAHDDDI_ALPHA_FILL_MODE enumeration [Display Devices], display.dxvahdddi_alpha_fill_mode, DXVAHDDDI_ALPHA_FILL_MODE_SOURCE_STREAM, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE_SOURCE_STREAM, DXVAHDDDI_ALPHA_FILL_MODE, DXVA2_Structs_bc53b063-f00e-4589-8bf7-d397925dda55.xml, DXVAHDDDI_ALPHA_FILL_MODE_DESTINATION, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE, DXVAHDDDI_ALPHA_FILL_MODE_OPAQUE, DXVAHDDDI_ALPHA_FILL_MODE_BACKGROUND, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE_DESTINATION, _DXVAHDDDI_ALPHA_FILL_MODE, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE_OPAQUE, d3dumddi/DXVAHDDDI_ALPHA_FILL_MODE_BACKGROUND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -92,11 +92,11 @@ A value that specifies to fill the output with the alpha channel data of the des
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data.md">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_background_color_data.md">DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data.md">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>
 
 
 

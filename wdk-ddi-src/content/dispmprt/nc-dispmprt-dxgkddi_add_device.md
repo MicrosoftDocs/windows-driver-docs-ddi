@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiAddDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_ADD_DEVICE callback
@@ -84,14 +84,18 @@ A pointer to a variable that receives a handle, created by the display miniport 
 ## -returns
 
 
+
 <i>DxgkDdiAddDevice </i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The <i>DxgkDdiAddDevice</i> function allocates a private context block that is associated with the display adapter identified by <i>PhysicalDeviceObject</i>. You can think of the handle returned in <i>MiniportDeviceContext</i> as a handle to the display adapter or as a handle to the context block associated with the display adapter. The DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) will supply the handle in subsequent calls to the display miniport driver. The following list gives examples of various components of <i>Dxgkrnl.sys</i> passing the handle to functions implemented by the display miniport driver.
+
 <ul>
 <li>
 The display port driver supplies the handle in the <i>MiniportDeviceContext</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function. 
@@ -105,7 +109,8 @@ The VidPN manager supplies the handle in the <i>hAdapter</i> parameter of the <a
 The DirectX graphics core supplies the handle in the <i>hAdapter</i> parameter of the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
 
 </li>
-</ul>Do not be confused by the fact that sometimes the handle is named <i>MiniportDeviceContext</i> and sometimes it is named <i>hAdapter</i>. Also, do not confuse this handle with the <i>hDevice</i> parameter that is passed to certain display miniport driver functions.
+</ul>
+Do not be confused by the fact that sometimes the handle is named <i>MiniportDeviceContext</i> and sometimes it is named <i>hAdapter</i>. Also, do not confuse this handle with the <i>hDevice</i> parameter that is passed to certain display miniport driver functions.
 
 Some display adapter cards have two or more PCI functions that play the role of display adapter. For example, certain older cards implement multiple views by having a separate PCI function for each view. The display port driver calls<i> DxgkDdiAddDevice</i> once for each of those PCI functions, at which time the display miniport driver can indicate that it supports the PCI function (by setting <i>MiniportDeviceContext</i> to a nonzero value) or that it does not support the PCI function (by setting <i>MiniportDeviceContext</i> to <b>NULL</b>). To get information about a particular PCI function, the display miniport driver can pass <i>PhysicalDeviceObject</i> to <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>.
 
@@ -115,11 +120,16 @@ The <i>DxgkDdiAddDevice</i> function should be made pageable.
 
 
 
+
 ## -see-also
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_remove_device.md">DxgkDdiRemoveDevice</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
 
  
 

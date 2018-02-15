@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7e626306-6ad9-4d99-a578-60bf69a3e73d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_INTERRUPT_INFO structure, wdfinterrupt/PWDF_INTERRUPT_INFO, wdf.wdf_interrupt_info, PWDF_INTERRUPT_INFO structure pointer, *PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO, wdfinterrupt/WDF_INTERRUPT_INFO, DFInterruptObjectRef_3f4ade63-40f9-4d5a-96a0-e4f7013171d5.xml, PWDF_INTERRUPT_INFO, kmdf.wdf_interrupt_info, _WDF_INTERRUPT_INFO
+ms.keywords: WDF_INTERRUPT_INFO structure, wdfinterrupt/PWDF_INTERRUPT_INFO, wdfinterrupt/WDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, kmdf.wdf_interrupt_info, _WDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, wdf.wdf_interrupt_info, *PWDF_INTERRUPT_INFO, DFInterruptObjectRef_3f4ade63-40f9-4d5a-96a0-e4f7013171d5.xml, WDF_INTERRUPT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -156,11 +156,7 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="..\wdfi
 
 
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
 
 
 
@@ -168,7 +164,11 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="..\wdfi
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptgetinfo.md">WdfInterruptGetInfo</a>
+<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
+
+
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 431d8f18-18db-460c-9f2f-454a5378825c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetpipeisinendpoint, WdfUsbTargetPipeIsInEndpoint, WdfUsbTargetPipeIsInEndpoint method, PFN_WDFUSBTARGETPIPEISINENDPOINT, DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, kmdf.wdfusbtargetpipeisinendpoint, wdfusb/WdfUsbTargetPipeIsInEndpoint
+ms.keywords: WdfUsbTargetPipeIsInEndpoint method, WdfUsbTargetPipeIsInEndpoint, wdf.wdfusbtargetpipeisinendpoint, kmdf.wdfusbtargetpipeisinendpoint, PFN_WDFUSBTARGETPIPEISINENDPOINT, DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, wdfusb/WdfUsbTargetPipeIsInEndpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,11 +123,11 @@ isInEndPoint = WdfUsbTargetPipeIsInEndpoint(usbPipe);</pre>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisoutendpoint.md">WdfUsbTargetPipeIsOutEndpoint</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 

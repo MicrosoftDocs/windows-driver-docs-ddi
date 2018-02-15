@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8f9bea7-dafe-41be-a6c7-521b78a274ee
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WWAN_DEVICE_CAPS, WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_device_caps, WwanRef_a809d2dc-68a8-45dd-b5b0-bfe519ffc3d7.xml, *PWWAN_DEVICE_CAPS, WWAN_DEVICE_CAPS, wwan/WWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS, wwan/PWWAN_DEVICE_CAPS"
+ms.keywords: WwanRef_a809d2dc-68a8-45dd-b5b0-bfe519ffc3d7.xml, wwan/PWWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS, WWAN_DEVICE_CAPS, PWWAN_DEVICE_CAPS structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_CAPS, wwan/WWAN_DEVICE_CAPS, netvista.wwan_device_caps, *PWWAN_DEVICE_CAPS, WWAN_DEVICE_CAPS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -996,15 +996,15 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_device_type.md">WWAN_DEVICE_TYPE</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_sim_class.md">WWAN_SIM_CLASS</a>
 
 
 
 <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_CELLULAR_CLASS</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_device_type.md">WWAN_DEVICE_TYPE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7b57177-17d2-42d7-ac4a-3cbd74803d50
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_DESTROYOVERLAY structure [Display Devices], d3dumddi/D3DDDICB_DESTROYOVERLAY, display.d3dddicb_destroyoverlay, D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml, _D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY
+ms.keywords: d3dumddi/D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY structure [Display Devices], display.d3dddicb_destroyoverlay, D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml, _D3DDDICB_DESTROYOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,11 +74,11 @@ typedef struct _D3DDDICB_DESTROYOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlaycb.md">pfnDestroyOverlayCb</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlaycb.md">pfnDestroyOverlayCb</a>
 
 
 

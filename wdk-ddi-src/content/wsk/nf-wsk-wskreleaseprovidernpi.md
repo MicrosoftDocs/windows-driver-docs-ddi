@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml, netvista.wskreleaseprovidernpi, WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], wsk/WskReleaseProviderNPI
+ms.keywords: WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], WskReleaseProviderNPI, wsk/WskReleaseProviderNPI, netvista.wskreleaseprovidernpi, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

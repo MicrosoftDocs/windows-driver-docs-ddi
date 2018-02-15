@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 45e4a08d-9615-410a-8f78-a8157802813f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwCreateDirectoryObject, NtCreateDirectoryObject, ZwCreateDirectoryObject, kernel.zwcreatedirectoryobject, k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml, wdm/NtCreateDirectoryObject, ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ZwCreateDirectoryObject, kernel.zwcreatedirectoryobject, NtCreateDirectoryObject, wdm/NtCreateDirectoryObject, ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture], k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml, ZwCreateDirectoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -174,7 +174,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
@@ -182,11 +182,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

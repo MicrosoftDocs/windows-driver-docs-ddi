@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 75100366-ba79-4ff2-b8e0-64c5c3f5f3b9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl, IKsControl interface [Streaming Media Devices], KsMethod method, avintfc_6cf0dd96-36e2-4d0a-8bb8-f2f49ab9eb1f.xml, KsMethod, KsMethod method [Streaming Media Devices], IKsControl::KsMethod, ks/IKsControl::KsMethod, stream.ikscontrol_ksmethod2
+ms.keywords: IKsControl::KsMethod, avintfc_6cf0dd96-36e2-4d0a-8bb8-f2f49ab9eb1f.xml, stream.ikscontrol_ksmethod2, KsMethod, ks/IKsControl::KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl, KsMethod method [Streaming Media Devices], IKsControl interface, KsMethod method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,11 +120,11 @@ To determine the buffer size that is required for a specific method request, you
 
 
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
-
-
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+
+
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_RADIO, WwanRadioOff, wwan/WwanRadioOn, netvista.wwan_radio, WWAN_RADIO, wwan/PWWAN_RADIO, wwan/WwanRadioOff, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], *PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_RADIO, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, _WWAN_RADIO, WwanRadioOn
+ms.keywords: netvista.wwan_radio, wwan/PWWAN_RADIO, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRadioOff, wwan/WwanRadioOn, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WwanRadioOn, _WWAN_RADIO, WwanRadioOff, wwan/WWAN_RADIO, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, *PWWAN_RADIO, WWAN_RADIO, PWWAN_RADIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8e81a294-9388-467d-8405-472fbe9fe827
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgetbusenumpnpdeviceobject, swenum/KsGetBusEnumPnpDeviceObject, ksfunc_246a7c6e-ef5a-4cf4-a05a-70a499a487cb.xml, KsGetBusEnumPnpDeviceObject function [Streaming Media Devices], KsGetBusEnumPnpDeviceObject
+ms.keywords: stream.ksgetbusenumpnpdeviceobject, swenum/KsGetBusEnumPnpDeviceObject, KsGetBusEnumPnpDeviceObject function [Streaming Media Devices], KsGetBusEnumPnpDeviceObject, ksfunc_246a7c6e-ef5a-4cf4-a05a-70a499a487cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14aaf96a-4d1f-4e4a-9fed-e493090157b8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksdiscardevent, ks/KsDiscardEvent, KsDiscardEvent function [Streaming Media Devices], ksfunc_553391e5-343a-4cc7-9bc5-99971cff2fcd.xml, KsDiscardEvent
+ms.keywords: ks/KsDiscardEvent, ksfunc_553391e5-343a-4cc7-9bc5-99971cff2fcd.xml, stream.ksdiscardevent, KsDiscardEvent function [Streaming Media Devices], KsDiscardEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

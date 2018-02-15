@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName, RetrieveCountedFileName method, IWDFFile2::RetrieveCountedFileName, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, wudfddi/IWDFFile2::RetrieveCountedFileName, IWDFFile2, RetrieveCountedFileName method, IWDFFile2 interface, wdf.iwdffile2_retrievecountedfilename, IWDFFile2 interface, RetrieveCountedFileName method
+ms.keywords: UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, RetrieveCountedFileName method, IWDFFile2 interface, IWDFFile2 interface, RetrieveCountedFileName method, IWDFFile2, wdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName, RetrieveCountedFileName method, wudfddi/IWDFFile2::RetrieveCountedFileName, umdf.iwdffile2_retrievecountedfilename, IWDFFile2::RetrieveCountedFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

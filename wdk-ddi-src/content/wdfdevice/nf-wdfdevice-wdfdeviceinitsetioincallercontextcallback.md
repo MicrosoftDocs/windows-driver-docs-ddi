@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f0104e8b-9a2f-4f52-a431-bec7de3be968
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfdeviceinitsetioincallercontextcallback, wdfdevice/WdfDeviceInitSetIoInCallerContextCallback, WdfDeviceInitSetIoInCallerContextCallback, PFN_WDFDEVICEINITSETIOINCALLERCONTEXTCALLBACK, WdfDeviceInitSetIoInCallerContextCallback method, kmdf.wdfdeviceinitsetioincallercontextcallback, DFDeviceObjectGeneralRef_6ef62fc4-094a-4fe7-8ecb-7205566aef77.xml
+ms.keywords: WdfDeviceInitSetIoInCallerContextCallback method, PFN_WDFDEVICEINITSETIOINCALLERCONTEXTCALLBACK, WdfDeviceInitSetIoInCallerContextCallback, wdf.wdfdeviceinitsetioincallercontextcallback, wdfdevice/WdfDeviceInitSetIoInCallerContextCallback, kmdf.wdfdeviceinitsetioincallercontextcallback, DFDeviceObjectGeneralRef_6ef62fc4-094a-4fe7-8ecb-7205566aef77.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

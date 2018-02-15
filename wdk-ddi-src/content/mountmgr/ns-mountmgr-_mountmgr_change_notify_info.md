@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3b1bb2be-2abb-414a-bf68-9d06e53c2808
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mountmgr/PMOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO structure [Storage Devices], *PMOUNTMGR_CHANGE_NOTIFY_INFO, storage.mountmgr_change_notify_info, structs-mntmgr_4d6cf8d3-c3cd-4ff5-8ff0-7fac5946d6a5.xml, _MOUNTMGR_CHANGE_NOTIFY_INFO, mountmgr/MOUNTMGR_CHANGE_NOTIFY_INFO, PMOUNTMGR_CHANGE_NOTIFY_INFO structure pointer [Storage Devices], PMOUNTMGR_CHANGE_NOTIFY_INFO
+ms.keywords: storage.mountmgr_change_notify_info, PMOUNTMGR_CHANGE_NOTIFY_INFO, _MOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO, mountmgr/MOUNTMGR_CHANGE_NOTIFY_INFO, PMOUNTMGR_CHANGE_NOTIFY_INFO structure pointer [Storage Devices], structs-mntmgr_4d6cf8d3-c3cd-4ff5-8ff0-7fac5946d6a5.xml, MOUNTMGR_CHANGE_NOTIFY_INFO structure [Storage Devices], mountmgr/PMOUNTMGR_CHANGE_NOTIFY_INFO, *PMOUNTMGR_CHANGE_NOTIFY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

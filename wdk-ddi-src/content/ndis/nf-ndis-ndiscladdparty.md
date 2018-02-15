@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e48357b2-52dc-48af-aeb1-8d84ea107579
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscladdparty, condis_client_ref_90d23e8e-f3a5-4a19-9eeb-b68a28f7f915.xml, NdisClAddParty function [Network Drivers Starting with Windows Vista], ndis/NdisClAddParty, NdisClAddParty
+ms.keywords: NdisClAddParty, netvista.ndiscladdparty, condis_client_ref_90d23e8e-f3a5-4a19-9eeb-b68a28f7f915.xml, NdisClAddParty function [Network Drivers Starting with Windows Vista], ndis/NdisClAddParty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,35 +187,8 @@ Whether a multipoint call permits transfers in both directions and/or per-party 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
 
 
@@ -223,16 +196,43 @@ Whether a multipoint call permits transfers in both directions and/or per-party 
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndiscmaddpartycomplete.md">NdisCmAddPartyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmaddpartycomplete.md">NdisMCmAddPartyComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 

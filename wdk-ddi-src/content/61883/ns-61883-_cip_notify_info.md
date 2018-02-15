@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 60b0d44b-0178-43ce-a1ad-7f5825bed3ba
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cip_notify_info, 61883_structures_383bc74c-1168-4478-8284-b2724f9ec654.xml, _CIP_NOTIFY_INFO, CIP_NOTIFY_INFO, *PCIP_NOTIFY_INFO, 61883/PCIP_NOTIFY_INFO, PCIP_NOTIFY_INFO structure pointer [Buses], PCIP_NOTIFY_INFO, CIP_NOTIFY_INFO structure [Buses], 61883/CIP_NOTIFY_INFO
+ms.keywords: IEEE.cip_notify_info, CIP_NOTIFY_INFO structure [Buses], 61883_structures_383bc74c-1168-4478-8284-b2724f9ec654.xml, 61883/CIP_NOTIFY_INFO, CIP_NOTIFY_INFO, *PCIP_NOTIFY_INFO, 61883/PCIP_NOTIFY_INFO, PCIP_NOTIFY_INFO, _CIP_NOTIFY_INFO, PCIP_NOTIFY_INFO structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

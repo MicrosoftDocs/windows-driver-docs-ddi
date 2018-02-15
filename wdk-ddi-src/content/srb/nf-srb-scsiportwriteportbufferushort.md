@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ca6bd14b-533d-4451-b54f-29bc566c968d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortWritePortBufferUshort, scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml, srb/ScsiPortWritePortBufferUshort, storage.scsiportwriteportbufferushort, ScsiPortWritePortBufferUshort routine [Storage Devices]
+ms.keywords: srb/ScsiPortWritePortBufferUshort, storage.scsiportwriteportbufferushort, ScsiPortWritePortBufferUshort, ScsiPortWritePortBufferUshort routine [Storage Devices], scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

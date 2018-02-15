@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27aa5d78-03ce-4fc9-b1c8-d02a760e2787
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WdfIoTargetOpenByName, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenReopen, WDF_IO_TARGET_OPEN_TYPE enumeration, wdfiotarget/WdfIoTargetOpenUseExistingDevice, WdfIoTargetOpenByName, _WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenUseExistingDevice, kmdf.wdf_io_target_open_type, wdfiotarget/WdfIoTargetOpenUndefined, WdfIoTargetOpenUndefined, wdf.wdf_io_target_open_type, WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenLocalTargetByFile, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml
+ms.keywords: wdfiotarget/WdfIoTargetOpenReopen, WDF_IO_TARGET_OPEN_TYPE enumeration, wdfiotarget/WdfIoTargetOpenUndefined, WdfIoTargetOpenByName, _WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenLocalTargetByFile, WdfIoTargetOpenUseExistingDevice, wdfiotarget/WdfIoTargetOpenByName, kmdf.wdf_io_target_open_type, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenReopen, WdfIoTargetOpenUndefined, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdf.wdf_io_target_open_type, wdfiotarget/WdfIoTargetOpenUseExistingDevice, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -125,7 +125,7 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -133,15 +133,15 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfchildlist/WdfChildListCreate, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, kmdf.wdfchildlistcreate, WdfChildListCreate method, WdfChildListCreate, wdf.wdfchildlistcreate, PFN_WDFCHILDLISTCREATE
+ms.keywords: wdf.wdfchildlistcreate, PFN_WDFCHILDLISTCREATE, wdfchildlist/WdfChildListCreate, WdfChildListCreate, kmdf.wdfchildlistcreate, WdfChildListCreate method, DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -200,11 +200,11 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
-
-
-
 <a href="..\wdffdo\nf-wdffdo-wdffdogetdefaultchildlist.md">WdfFdoGetDefaultChildList</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_list_config_init.md">WDF_CHILD_LIST_CONFIG_INIT</a>
 
 
 

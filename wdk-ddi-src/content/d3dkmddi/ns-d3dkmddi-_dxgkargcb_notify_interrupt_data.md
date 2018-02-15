@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, STATUS_NO_MEMORY, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], STATUS_SUCCESS, display.dxgkargcb_notify_interrupt_data, *IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, DXGKARGCB_NOTIFY_INTERRUPT_DATA, STATUS_INVALID_PARAMETER
+ms.keywords: d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, STATUS_NO_MEMORY, DXGKARGCB_NOTIFY_INTERRUPT_DATA, STATUS_INVALID_PARAMETER, *IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_SUCCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -609,24 +609,9 @@ An array of 32-bit values that are reserved for future use.
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md">DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS</a> structure that indicates if the display miniport driver provides a physical adapter mask in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function.
 
 
-#### - VidPnTargetId
+#### - GpuClockCounter
 
-The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
-
-
-#### - PhysicalAdapterMask
-
-The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
-
-
-#### - MultiPlaneOverlayVsyncInfoCount
-
-The number of overlay planes that are available to display.
-
-
-#### - pMultiPlaneOverlayVsyncInfo
-
-A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
+The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. 
 
 
 #### - GpuFrequency
@@ -634,9 +619,24 @@ A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies info
 The frequency of the GPU clock counter. 
 
 
-#### - GpuClockCounter
+#### - MultiPlaneOverlayVsyncInfoCount
 
-The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. 
+The number of overlay planes that are available to display.
+
+
+#### - PhysicalAdapterMask
+
+The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
+
+
+#### - VidPnTargetId
+
+The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
+
+
+#### - pMultiPlaneOverlayVsyncInfo
+
+A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
 
 
 ## -remarks
@@ -650,6 +650,18 @@ Depending on the value in the <b>InterruptType</b> member, the display miniport 
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a>
+
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md">DXGK_PAGE_FAULT_FLAGS</a>
 
 
@@ -658,19 +670,7 @@ Depending on the value in the <b>InterruptType</b> member, the display miniport 
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
-
-
-
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
 
 
 
@@ -678,11 +678,11 @@ Depending on the value in the <b>InterruptType</b> member, the display miniport 
 
 
 
+<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
 
 
 

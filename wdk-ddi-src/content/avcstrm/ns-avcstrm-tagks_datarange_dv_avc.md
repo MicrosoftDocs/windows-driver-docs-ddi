@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92759ba0-79f1-4dec-aea5-62c24253c6f0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_datarange_dv_avc, avcstrm/PKS_DATARANGE_DV_AVC, avcstrm/KS_DATARANGE_DV_AVC, PKS_DATARANGE_DV_AVC structure pointer [Streaming Media Devices], PKS_DATARANGE_DV_AVC, tagKS_DATARANGE_DV_AVC, avcsref_e5ebf0ed-91f2-415a-a6b1-346cfebf16b5.xml, KS_DATARANGE_DV_AVC structure [Streaming Media Devices], KS_DATARANGE_DV_AVC, *PKS_DATARANGE_DV_AVC
+ms.keywords: avcstrm/PKS_DATARANGE_DV_AVC, PKS_DATARANGE_DV_AVC, *PKS_DATARANGE_DV_AVC, avcstrm/KS_DATARANGE_DV_AVC, avcsref_e5ebf0ed-91f2-415a-a6b1-346cfebf16b5.xml, KS_DATARANGE_DV_AVC, tagKS_DATARANGE_DV_AVC, KS_DATARANGE_DV_AVC structure [Streaming Media Devices], stream.ks_datarange_dv_avc, PKS_DATARANGE_DV_AVC structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,15 +86,15 @@ Specifies the AV/C preconnection info.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
+
 <a href="..\avcstrm\ns-avcstrm-_dvinfo.md">DVINFO</a>
 
 
 
 <a href="..\avc\ns-avc-_avcpreconnectinfo.md">AVCPRECONNECTINFO</a>
-
-
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
 
 

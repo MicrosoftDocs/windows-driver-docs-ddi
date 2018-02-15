@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: fef8e8b8-7e79-4d88-b643-9b371e4297fd
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: SetPreFetchOffset, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml, IPreFetchOffset::SetPreFetchOffset, portcls/IPreFetchOffset::SetPreFetchOffset, audio.iprefetchoffset_setprefetchoffset, SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface [Audio Devices], SetPreFetchOffset method, IPreFetchOffset, SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface
+ms.keywords: IPreFetchOffset, SetPreFetchOffset method [Audio Devices], SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface, portcls/IPreFetchOffset::SetPreFetchOffset, IPreFetchOffset::SetPreFetchOffset, SetPreFetchOffset, audio.iprefetchoffset_setprefetchoffset, IPreFetchOffset interface [Audio Devices], SetPreFetchOffset method, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -120,11 +120,11 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 
 
-<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>
+
+
+
+<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
 
 
 

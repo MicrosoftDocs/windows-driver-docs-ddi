@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 005f4fc0-2b22-47bf-a129-59b2dc4ff052
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDI_DEVICEFUNCS, UMDisplayDriver_Dx10param_Structs_4d7e9e93-233d-4726-af26-bcaf0cbf149a.xml, D3D10DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3D10DDI_DEVICEFUNCS, display.d3d10ddi_devicefuncs
+ms.keywords: D3D10DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4d7e9e93-233d-4726-af26-bcaf0cbf149a.xml, display.d3d10ddi_devicefuncs, D3D10DDI_DEVICEFUNCS, d3d10umddi/D3D10DDI_DEVICEFUNCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -699,11 +699,11 @@ The <b>pfnResetPrimitiveID</b> and  <b>pfnSetVertexPipelineOutput</b> members (n
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
 
 
 

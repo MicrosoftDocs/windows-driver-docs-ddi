@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bae613e1-c450-4bc0-9370-a7eb8438ae23
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_dvdcopy_buskey, KS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY structure pointer [Streaming Media Devices], dvdref_e3933026-ef22-42c4-8977-2c648421ccb2.xml, *PKS_DVDCOPY_BUSKEY, ksmedia/PKS_DVDCOPY_BUSKEY, _KS_DVDCOPY_BUSKEY, ksmedia/KS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY structure [Streaming Media Devices]
+ms.keywords: PKS_DVDCOPY_BUSKEY structure pointer [Streaming Media Devices], PKS_DVDCOPY_BUSKEY, ksmedia/KS_DVDCOPY_BUSKEY, _KS_DVDCOPY_BUSKEY, ksmedia/PKS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY, stream.ks_dvdcopy_buskey, *PKS_DVDCOPY_BUSKEY, dvdref_e3933026-ef22-42c4-8977-2c648421ccb2.xml, KS_DVDCOPY_BUSKEY structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

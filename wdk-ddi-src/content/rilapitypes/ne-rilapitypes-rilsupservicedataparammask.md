@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 65901068-d45e-4c3a-b1ee-340427506c7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_DATA, RIL_PARAM_SSDI_DATASIZE, rilapitypes/RIL_PARAM_SSDI_SS_ERROR, rilapitypes/RIL_PARAM_SSDI_DATA, rilapitypes/RILSUPSERVICEDATAPARAMMASK, RIL_PARAM_SSDI_VENDOR_ERROR, RIL_PARAM_SSDI_STATUS, RILSUPSERVICEDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSDI_SS_ERROR, rilapitypes/RIL_PARAM_SSDI_DATASIZE, rilapitypes/RIL_PARAM_SSDI_ALL, RIL_PARAM_SSDI_ALL, rilapitypes/RIL_PARAM_SSDI_VENDOR_ERROR, RILSUPSERVICEDATAPARAMMASK, rilapitypes/RIL_PARAM_SSDI_STATUS, netvista.rilsupservicedataparammask_2
+ms.keywords: rilapitypes/RIL_PARAM_SSDI_CC_ERROR, RIL_PARAM_SSDI_DATA, RILSUPSERVICEDATAPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSDI_SS_ERROR, netvista.rilsupservicedataparammask_2, rilapitypes/RIL_PARAM_SSDI_SS_ERROR, RIL_PARAM_SSDI_VENDOR_ERROR, rilapitypes/RIL_PARAM_SSDI_DATASIZE, rilapitypes/RIL_PARAM_SSDI_ALL, RIL_PARAM_SSDI_STATUS, RILSUPSERVICEDATAPARAMMASK, RIL_PARAM_SSDI_ALL, rilapitypes/RILSUPSERVICEDATAPARAMMASK, rilapitypes/RIL_PARAM_SSDI_STATUS, rilapitypes/RIL_PARAM_SSDI_VENDOR_ERROR, RIL_PARAM_SSDI_DATASIZE, RIL_PARAM_SSDI_CC_ERROR, rilapitypes/RIL_PARAM_SSDI_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

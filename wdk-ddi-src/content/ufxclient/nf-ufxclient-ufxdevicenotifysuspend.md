@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 80786A5A-E585-4092-814F-B940DD6967C6
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: buses.ufxdevicenotifysuspend, UfxDeviceNotifySuspend, ufxclient/UfxDeviceNotifySuspend, UfxDeviceNotifySuspend method [Buses]
+ms.keywords: buses.ufxdevicenotifysuspend, UfxDeviceNotifySuspend method [Buses], ufxclient/UfxDeviceNotifySuspend, UfxDeviceNotifySuspend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

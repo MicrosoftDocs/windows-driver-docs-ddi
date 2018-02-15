@@ -81,6 +81,8 @@ The arguments used to create a session.
 ## -returns
 
 
+
 Returns the size of the session in bytes.
+
 
 

@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 1215cf8e-8e94-4da4-9fb9-2212e8386abd
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.sysaudio_attach_virtual_source, SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure [Audio Devices], SYSAUDIO_ATTACH_VIRTUAL_SOURCE, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, aud-prop_5fce938d-a784-46cf-a65b-3eb0d19db2f8.xml, *PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_ATTACH_VIRTUAL_SOURCE, ksmedia/PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE structure pointer [Audio Devices]
+ms.keywords: ksmedia/PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, SYSAUDIO_ATTACH_VIRTUAL_SOURCE, SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure [Audio Devices], PSYSAUDIO_ATTACH_VIRTUAL_SOURCE structure pointer [Audio Devices], *PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, audio.sysaudio_attach_virtual_source, ksmedia/SYSAUDIO_ATTACH_VIRTUAL_SOURCE, PSYSAUDIO_ATTACH_VIRTUAL_SOURCE, aud-prop_5fce938d-a784-46cf-a65b-3eb0d19db2f8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

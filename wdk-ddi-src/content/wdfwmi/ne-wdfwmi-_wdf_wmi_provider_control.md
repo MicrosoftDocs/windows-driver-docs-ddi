@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c545b0a6-bb36-47a7-b55c-ee7eed5ade3a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WDF_WMI_PROVIDER_CONTROL, WdfWmiControlInvalid, WdfWmiInstanceControl, WdfWmiEventControl, wdf.wdf_wmi_provider_control, WDF_WMI_PROVIDER_CONTROL enumeration, WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiInstanceControl, wdfwmi/WdfWmiControlInvalid, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, kmdf.wdf_wmi_provider_control, _WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiEventControl
+ms.keywords: WdfWmiInstanceControl, WdfWmiControlInvalid, kmdf.wdf_wmi_provider_control, wdfwmi/WdfWmiEventControl, wdf.wdf_wmi_provider_control, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, wdfwmi/WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL enumeration, WdfWmiEventControl, wdfwmi/WdfWmiControlInvalid, wdfwmi/WdfWmiInstanceControl, _WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

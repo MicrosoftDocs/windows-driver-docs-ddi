@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 879bae2e-f608-4678-92ae-6100e59b6d52
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionGetRequest, kmdf.wdfdmatransactiongetrequest, PFN_WDFDMATRANSACTIONGETREQUEST, wdfdmatransaction/WdfDmaTransactionGetRequest, wdf.wdfdmatransactiongetrequest, DFDmaObjectRef_2564dedd-7db9-4c5d-905d-0939dc8cf24b.xml, WdfDmaTransactionGetRequest method
+ms.keywords: WdfDmaTransactionGetRequest, DFDmaObjectRef_2564dedd-7db9-4c5d-905d-0939dc8cf24b.xml, PFN_WDFDMATRANSACTIONGETREQUEST, wdfdmatransaction/WdfDmaTransactionGetRequest, WdfDmaTransactionGetRequest method, wdf.wdfdmatransactiongetrequest, kmdf.wdfdmatransactiongetrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,15 +119,15 @@ request = WdfDmaTransactionGetRequest(dmaTransaction);</pre>
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
 
 
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a90b1318-ce21-4483-b253-767674fe0a2f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGetNetBufferListProtocolId, ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, NdisGetNetBufferListProtocolId, netvista.ndisgetnetbufferlistprotocolid, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_netbuf_functions_ref_7ce217e7-6d68-4e22-af32-bc984c1b7677.xml, NdisGetNetBufferListProtocolId function [Network Drivers Starting with Windows Vista], NdisGetNetBufferListProtocolId, netvista.ndisgetnetbufferlistprotocolid, ndis/NdisGetNetBufferListProtocolId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

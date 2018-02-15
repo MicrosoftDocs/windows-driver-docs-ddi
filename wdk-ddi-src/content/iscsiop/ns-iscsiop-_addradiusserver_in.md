@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b7b9f3b-df33-4886-bd22-23429cb05ea7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AddRADIUSServer_IN, PAddRADIUSServer_IN structure pointer [Storage Devices], iscsiop/AddRADIUSServer_IN, iscsiop/PAddRADIUSServer_IN, *PAddRADIUSServer_IN, AddRADIUSServer_IN structure [Storage Devices], structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, PAddRADIUSServer_IN, _AddRADIUSServer_IN, storage.addradiusserver_in
+ms.keywords: PAddRADIUSServer_IN structure pointer [Storage Devices], AddRADIUSServer_IN structure [Storage Devices], AddRADIUSServer_IN, storage.addradiusserver_in, iscsiop/AddRADIUSServer_IN, _AddRADIUSServer_IN, iscsiop/PAddRADIUSServer_IN, PAddRADIUSServer_IN, structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, *PAddRADIUSServer_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,15 +83,15 @@ It is optional that you implement this method.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
+
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
 
 
 

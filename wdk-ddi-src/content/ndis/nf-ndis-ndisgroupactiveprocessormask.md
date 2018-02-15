@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 92a50a96-8bfb-4d5d-8f24-dd29794e55b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGroupActiveProcessorMask, netvista.ndisgroupactiveprocessormask, NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, NdisGroupActiveProcessorMask
+ms.keywords: NdisGroupActiveProcessorMask, NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, netvista.ndisgroupactiveprocessormask, ndis/NdisGroupActiveProcessorMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,8 +116,8 @@ To obtain an active processor count, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
-   NdisSystemActiveProcessorCount</a>
+<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
+   NdisGroupActiveProcessorCount</a>
 
 
 
@@ -125,8 +125,8 @@ To obtain an active processor count, call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
-   NdisGroupActiveProcessorCount</a>
+<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+   NdisSystemActiveProcessorCount</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a95f7a8d-7e0d-4971-9683-f83600030337
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetPassCount, IDebugBreakpoint::SetPassCount, dbgeng/IDebugBreakpoint::SetPassCount, debugger.setpasscount, dbgeng/IDebugBreakpoint2::SetPassCount, IDebugBreakpoint2::SetPassCount, ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetPassCount method, IDebugBreakpoint, SetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, SetPassCount method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], SetPassCount method, SetPassCount method [Windows Debugging]
+ms.keywords: SetPassCount method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::SetPassCount, SetPassCount method [Windows Debugging], IDebugBreakpoint::SetPassCount, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetPassCount method, IDebugBreakpoint2::SetPassCount, dbgeng/IDebugBreakpoint2::SetPassCount, debugger.setpasscount, ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, IDebugBreakpoint2, SetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], SetPassCount method, SetPassCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

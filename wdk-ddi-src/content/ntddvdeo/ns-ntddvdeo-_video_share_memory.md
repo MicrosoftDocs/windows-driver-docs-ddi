@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2339da67-78cd-49d4-a70c-fd774706fe3f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.video_share_memory, PVIDEO_SHARE_MEMORY structure pointer [Display Devices], ntddvdeo/VIDEO_SHARE_MEMORY, *PVIDEO_SHARE_MEMORY, ntddvdeo/PVIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY structure [Display Devices], PVIDEO_SHARE_MEMORY, Video_Structs_11e49bfc-ee25-48cd-9327-f09c6218ed72.xml, _VIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY
+ms.keywords: ntddvdeo/VIDEO_SHARE_MEMORY, _VIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY, PVIDEO_SHARE_MEMORY structure pointer [Display Devices], ntddvdeo/PVIDEO_SHARE_MEMORY, VIDEO_SHARE_MEMORY structure [Display Devices], Video_Structs_11e49bfc-ee25-48cd-9327-f09c6218ed72.xml, display.video_share_memory, VIDEO_SHARE_MEMORY, *PVIDEO_SHARE_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,7 +103,7 @@ For structures used in mapping into kernel-mode video memory, see <a href="..\nt
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 
 
@@ -111,7 +111,7 @@ For structures used in mapping into kernel-mode video memory, see <a href="..\nt
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_unshare_video_memory.md">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
 
 
 

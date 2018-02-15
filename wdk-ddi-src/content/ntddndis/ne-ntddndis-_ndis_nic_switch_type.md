@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F990F166-D9DA-43F5-95D3-86B9B11FACF1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeMax, NdisNicSwitchTypeExternal, ntddndis/NdisNicSwitchTypeMax, netvista.ndis_nic_switch_type, ntddndis/NdisNicSwitchTypeExternal, PNDIS_NIC_SWITCH_TYPE, _NDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeUnspecified, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeUnspecified
+ms.keywords: NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeMax, ntddndis/NDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeMax, _NDIS_NIC_SWITCH_TYPE, ntddndis/PNDIS_NIC_SWITCH_TYPE, PNDIS_NIC_SWITCH_TYPE, netvista.ndis_nic_switch_type, NdisNicSwitchTypeExternal, NdisNicSwitchTypeUnspecified, ntddndis/NdisNicSwitchTypeUnspecified, ntddndis/NdisNicSwitchTypeExternal, NDIS_NIC_SWITCH_TYPE, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

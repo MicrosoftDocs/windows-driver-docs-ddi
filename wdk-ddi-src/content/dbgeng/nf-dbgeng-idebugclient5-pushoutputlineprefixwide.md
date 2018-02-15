@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B3D4AE97-9CDB-425D-A04B-E164852FDF19
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], PushOutputLinePrefixWide method, IDebugClient5, PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5::PushOutputLinePrefixWide, dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide, PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, PushOutputLinePrefixWide
+ms.keywords: debugger.idebugclient5_pushoutputlineprefixwide, IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefixWide method, PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::PushOutputLinePrefixWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

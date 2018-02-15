@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0f59d104-ef86-4fed-9728-1a01ccb6f879
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARTICIPANT_REMOVE, ntddrilapitypes/RILPARTICIPANTOPERATION, netvista.rilparticipantoperation, RILPARTICIPANTOPERATION, ntddrilapitypes/RIL_PARTICIPANT_MAX, RIL_PARTICIPANT_REMOVE, RIL_PARTICIPANT_MAX, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_PARTICIPANT_REMOVE, ntddrilapitypes/RILPARTICIPANTOPERATION, ntddrilapitypes/RIL_PARTICIPANT_MAX, ntddrilapitypes/RIL_PARTICIPANT_REMOVE, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PARTICIPANT_MAX, netvista.rilparticipantoperation, RILPARTICIPANTOPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

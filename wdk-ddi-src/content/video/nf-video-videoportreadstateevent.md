@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b09787b3-aede-4e53-9e22-0e81cf2dadb1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, video/VideoPortReadStateEvent, display.videoportreadstateevent, VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices]
+ms.keywords: VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, display.videoportreadstateevent, VideoPortReadStateEvent, video/VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

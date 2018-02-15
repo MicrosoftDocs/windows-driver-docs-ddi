@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76588bdd-ceb8-4c8b-bcd7-23184feacf86
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml, ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesize, wdm/ClfsMgmtSetLogFileSize, ClfsMgmtSetLogFileSize
+ms.keywords: ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtSetLogFileSize, kernel.clfsmgmtsetlogfilesize, ClfsMgmtSetLogFileSize, Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -258,11 +258,11 @@ The <b>ClfsMgmtSetLogFileSize</b> routine is typically used only when a client s
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
-
-
-
 <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
 
 
 

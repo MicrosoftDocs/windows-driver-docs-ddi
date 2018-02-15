@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a08cb8d-d933-4dc6-8bf2-8f435ffc9eb1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringPrintfEx, RtlUnicodeStringPrintfEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringprintfex, safestrings_06495952-554e-4e33-8610-dc34b7f1b879.xml, ntstrsafe/RtlUnicodeStringPrintfEx
+ms.keywords: ntstrsafe/RtlUnicodeStringPrintfEx, RtlUnicodeStringPrintfEx, safestrings_06495952-554e-4e33-8610-dc34b7f1b879.xml, kernel.rtlunicodestringprintfex, RtlUnicodeStringPrintfEx function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -227,11 +227,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintfex.md">RtlUnicodeStringVPrintfEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintf.md">RtlUnicodeStringVPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvprintfex.md">RtlUnicodeStringVPrintfEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], ufxclient/UfxFdoInit, buses.ufxfdoinit
+ms.keywords: ufxclient/UfxFdoInit, UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

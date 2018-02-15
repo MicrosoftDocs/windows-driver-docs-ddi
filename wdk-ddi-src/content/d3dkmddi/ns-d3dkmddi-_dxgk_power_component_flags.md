@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa8cce5b-d582-4c5b-99e2-fad1f0e80128
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS, d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], display.dxgk_power_component_flags"
+ms.keywords: DXGK_POWER_COMPONENT_FLAGS, d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, _DXGK_POWER_COMPONENT_FLAGS, display.dxgk_power_component_flags, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

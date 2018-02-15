@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 7c3cca5b-1d08-42dc-8dc4-42eb1160b8bb
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: ISensorDriver::OnSetProperties, OnSetProperties method [Sensor Devices], ISensorDriver, OnSetProperties, OnSetProperties method [Sensor Devices], ISensorDriver interface, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, ISensorDriver interface [Sensor Devices], OnSetProperties method, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties
+ms.keywords: sensors.isensordriver_onsetproperties, ISensorDriver::OnSetProperties, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, ISensorDriver interface [Sensor Devices], OnSetProperties method, sensorsclassextension/ISensorDriver::OnSetProperties, OnSetProperties, ISensorDriver, OnSetProperties method [Sensor Devices], ISensorDriver interface, OnSetProperties method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

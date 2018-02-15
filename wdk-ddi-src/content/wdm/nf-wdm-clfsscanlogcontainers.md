@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76f97976-f48b-4ead-88d6-a9e1fdb21f08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml, ClfsScanLogContainers, wdm/ClfsScanLogContainers, kernel.clfsscanlogcontainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.clfsscanlogcontainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml, ClfsScanLogContainers, wdm/ClfsScanLogContainers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,11 +150,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
 
 
 

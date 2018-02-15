@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide, ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces4
+ms.keywords: IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4::ReadUnicodeStringVirtualWide, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces4, debugger.readunicodestringvirtualwide, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -162,11 +162,11 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
 
 
 

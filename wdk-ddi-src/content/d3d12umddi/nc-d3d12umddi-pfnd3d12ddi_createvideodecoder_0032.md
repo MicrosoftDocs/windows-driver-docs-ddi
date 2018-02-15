@@ -87,6 +87,8 @@ The video decoder.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

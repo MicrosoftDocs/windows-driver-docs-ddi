@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2546303a-53c3-4c6b-a230-eb1ebd74cb76
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaEnablerWdmGetDmaAdapter method, PFN_WDFDMAENABLERWDMGETDMAADAPTER, kmdf.wdfdmaenablerwdmgetdmaadapter, wdf.wdfdmaenablerwdmgetdmaadapter, WdfDmaEnablerWdmGetDmaAdapter, DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter
+ms.keywords: WdfDmaEnablerWdmGetDmaAdapter, PFN_WDFDMAENABLERWDMGETDMAADAPTER, DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter, kmdf.wdfdmaenablerwdmgetdmaadapter, wdf.wdfdmaenablerwdmgetdmaadapter, WdfDmaEnablerWdmGetDmaAdapter method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -156,11 +156,11 @@ writeAdapter = WdfDmaEnablerWdmGetDmaAdapter(
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-
-
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 

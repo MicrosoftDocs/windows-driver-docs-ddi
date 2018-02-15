@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 20a27ad7-0b27-494e-b761-fc3edf71e8c9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionGetCurrentDmaTransferLength method, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength, WdfDmaTransactionGetCurrentDmaTransferLength, PFN_WDFDMATRANSACTIONGETCURRENTDMATRANSFERLENGTH, wdf.wdfdmatransactiongetcurrentdmatransferlength, kmdf.wdfdmatransactiongetcurrentdmatransferlength, DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml
+ms.keywords: DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml, wdf.wdfdmatransactiongetcurrentdmatransferlength, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength, WdfDmaTransactionGetCurrentDmaTransferLength method, WdfDmaTransactionGetCurrentDmaTransferLength, kmdf.wdfdmatransactiongetcurrentdmatransferlength, PFN_WDFDMATRANSACTIONGETCURRENTDMATRANSFERLENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,15 +110,15 @@ For a code example that uses <b>WdfDmaTransactionGetCurrentDmaTransferLength</b>
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
 
 
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+
+
+
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
 
 
 

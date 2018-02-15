@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BF7563F8-F1C5-4300-94A2-7D884DA7DFA2
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ntddk/RtlInsertElementGenericTableAvl, RtlInsertElementGenericTableAvl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictableavl
+ms.keywords: ntddk/RtlInsertElementGenericTableAvl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], RtlInsertElementGenericTableAvl, ifsk.rtlinsertelementgenerictableavl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -138,11 +138,11 @@ The caller-supplied <i>CompareRoutine</i> or <i>AllocateRoutine</i> contains pag
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
 
 
 

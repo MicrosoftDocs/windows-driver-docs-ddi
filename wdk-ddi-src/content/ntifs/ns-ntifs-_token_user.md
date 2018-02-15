@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 0168f1ea-d2b0-4343-b6e7-c6cc97214201
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: PTOKEN_USER, PTOKEN_USER structure pointer [Installable File System Drivers], securitystructures_0e952505-1e51-463e-ba92-c6995e6f107a.xml, TOKEN_USER, ntifs/TOKEN_USER, TOKEN_USER structure [Installable File System Drivers], ntifs/PTOKEN_USER, _TOKEN_USER, ifsk.token_user, *PTOKEN_USER
+ms.keywords: ifsk.token_user, securitystructures_0e952505-1e51-463e-ba92-c6995e6f107a.xml, _TOKEN_USER, PTOKEN_USER structure pointer [Installable File System Drivers], *PTOKEN_USER, ntifs/PTOKEN_USER, PTOKEN_USER, TOKEN_USER, ntifs/TOKEN_USER, TOKEN_USER structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,19 +83,7 @@ Unlike TOKEN_GROUPS structures, TOKEN_USER structures cannot be passed to <b>SeF
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
 <a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
 
 
 
@@ -103,11 +91,23 @@ Unlike TOKEN_GROUPS structures, TOKEN_USER structures cannot be passed to <b>SeF
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
 
 
 

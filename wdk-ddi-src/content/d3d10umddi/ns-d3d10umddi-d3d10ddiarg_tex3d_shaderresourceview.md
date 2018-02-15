@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2b7d930e-7003-4875-8a2b-6ce50ea606c8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure [Display Devices], D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, display.d3d10ddiarg_tex3d_shaderresourceview, UMDisplayDriver_Dx10param_Structs_b3c96163-7085-43eb-a8da-84f0f824e069.xml
+ms.keywords: display.d3d10ddiarg_tex3d_shaderresourceview, D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, d3d10umddi/D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW, UMDisplayDriver_Dx10param_Structs_b3c96163-7085-43eb-a8da-84f0f824e069.xml, D3D10DDIARG_TEX3D_SHADERRESOURCEVIEW structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

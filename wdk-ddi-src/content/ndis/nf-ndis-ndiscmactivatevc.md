@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9091426c-3174-4367-b7c7-5684877efe9c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, netvista.ndiscmactivatevc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], NdisCmActivateVc, ndis/NdisCmActivateVc
+ms.keywords: NdisCmActivateVc, condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], netvista.ndiscmactivatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,7 +169,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
 
 
 
@@ -177,7 +181,11 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 
 
@@ -186,23 +194,15 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQos</a>
-
-
-
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
 
 

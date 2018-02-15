@@ -120,11 +120,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_reset_bus.md">IOCTL_STORAGE_RESET_BUS</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-storage_break_reservation_request.md">STORAGE_BREAK_RESERVATION_REQUEST</a>
+
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_reset_bus.md">IOCTL_STORAGE_RESET_BUS</a>
 
 
 

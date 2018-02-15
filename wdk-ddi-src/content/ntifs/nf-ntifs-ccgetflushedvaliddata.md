@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a0e3700a-768f-4025-b5f2-715e25e1d10d
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData, CcGetFlushedValidData, ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, CcGetFlushedValidData routine [Installable File System Drivers]
+ms.keywords: CcGetFlushedValidData, ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,11 @@ The file system is responsible for ensuring that the value of <i>SectionObjectPo
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 

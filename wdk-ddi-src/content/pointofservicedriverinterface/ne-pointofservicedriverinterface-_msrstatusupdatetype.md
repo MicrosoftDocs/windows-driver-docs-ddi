@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: f7e055ac-df7c-4993-b7aa-f455c4548d5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrStatusUpdateType_Extended, MsrStatusUpdateType_Off, MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, MsrStatusUpdateType_Extended, pointofservicedriverinterface/MsrStatusUpdateType_Online, MsrStatusUpdateType_Online, pointofservicedriverinterface/MsrStatusUpdateType_Off, pointofservicedriverinterface/MsrStatusUpdateType_Offline, MsrStatusUpdateType_Unauthenticated, MsrStatusUpdateType_Authenticated, _MsrStatusUpdateType, pos.msrstatusupdatetype, MsrStatusUpdateType, MsrStatusUpdateType enumeration, pointofservicedriverinterface/MsrStatusUpdateType, MsrStatusUpdateType_OffOrOffline, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline
+ms.keywords: MsrStatusUpdateType_Off, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType_Off, MsrStatusUpdateType enumeration, pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, MsrStatusUpdateType_Online, MsrStatusUpdateType_Extended, MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType_Offline, MsrStatusUpdateType_Unauthenticated, MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline, pointofservicedriverinterface/MsrStatusUpdateType_Extended, _MsrStatusUpdateType, MsrStatusUpdateType_OffOrOffline, pos.msrstatusupdatetype, MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType_Online
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

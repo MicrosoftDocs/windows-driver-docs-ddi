@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a09cfc9a-26e8-4984-b5c6-7ead5aa4644e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, *IN_CONST_PDXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmddi/DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, display.dxgkarg_setdisplayprivatedriverformat, DmStructs_adfa4bbe-5e14-4a2a-acee-6d80b408f6ac.xml, _DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices]
+ms.keywords: display.dxgkarg_setdisplayprivatedriverformat, *IN_CONST_PDXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, DmStructs_adfa4bbe-5e14-4a2a-acee-6d80b408f6ac.xml, DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], d3dkmddi/DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, _DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

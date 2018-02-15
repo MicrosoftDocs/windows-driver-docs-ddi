@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5508650c-473c-4710-869e-053481e83f1b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NET_IF_INFORMATION structure [Network Drivers Starting with Windows Vista], net_if_struct_ref_ceb46daa-0e14-4ed8-9f05-9cd064a57dfb.xml, PNET_IF_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], NET_IF_INFORMATION, ndis/PNET_IF_INFORMATION, netvista.net_if_information, PNET_IF_INFORMATION, *PNET_IF_INFORMATION, _NET_IF_INFORMATION, ndis/NET_IF_INFORMATION
+ms.keywords: "_NET_IF_INFORMATION, ndis/NET_IF_INFORMATION, NET_IF_INFORMATION, *PNET_IF_INFORMATION, net_if_struct_ref_ceb46daa-0e14-4ed8-9f05-9cd064a57dfb.xml, PNET_IF_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], PNET_IF_INFORMATION, ndis/PNET_IF_INFORMATION, NET_IF_INFORMATION structure [Network Drivers Starting with Windows Vista], netvista.net_if_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -289,8 +289,7 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
-   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -298,7 +297,7 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
 
 
 
@@ -306,19 +305,12 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-statistics">OID_GEN_STATISTICS</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+   NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
@@ -326,11 +318,15 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
 
 
 
@@ -338,7 +334,11 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
 
 
 

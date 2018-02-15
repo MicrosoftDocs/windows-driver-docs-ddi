@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5DB29B81-2D7A-44FA-B5A9-FEF87C6A926D
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PBDCB_STATUS_UPDATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], BDCB_STATUS_UPDATE_CONTEXT structure [Kernel-Mode Driver Architecture], BDCB_STATUS_UPDATE_CONTEXT, _BDCB_STATUS_UPDATE_CONTEXT, *PBDCB_STATUS_UPDATE_CONTEXT, ntddk/PBDCB_STATUS_UPDATE_CONTEXT, PBDCB_STATUS_UPDATE_CONTEXT, kernel.bdcb_status_update_context, ntddk/BDCB_STATUS_UPDATE_CONTEXT
+ms.keywords: kernel.bdcb_status_update_context, BDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT structure [Kernel-Mode Driver Architecture], PBDCB_STATUS_UPDATE_CONTEXT, _BDCB_STATUS_UPDATE_CONTEXT, PBDCB_STATUS_UPDATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], *PBDCB_STATUS_UPDATE_CONTEXT, ntddk/BDCB_STATUS_UPDATE_CONTEXT, ntddk/PBDCB_STATUS_UPDATE_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,7 @@ Boot-start drivers must not unregister their boot-start driver callbacks during 
 
 ## -see-also
 
-<a href="..\ntddk\ne-ntddk-_bdcb_status_update_type.md">BDCB_STATUS_UPDATE_TYPE</a>
+<a href="..\ntddk\nf-ntddk-iounregisterbootdrivercallback.md">IoUnRegisterBootDriverCallback</a>
 
 
 
@@ -91,7 +91,7 @@ Boot-start drivers must not unregister their boot-start driver callbacks during 
 
 
 
-<a href="..\ntddk\nf-ntddk-iounregisterbootdrivercallback.md">IoUnRegisterBootDriverCallback</a>
+<a href="..\ntddk\ne-ntddk-_bdcb_status_update_type.md">BDCB_STATUS_UPDATE_TYPE</a>
 
 
 

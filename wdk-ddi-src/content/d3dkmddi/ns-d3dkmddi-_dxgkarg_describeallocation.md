@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd01ff3b-83b7-43d5-bbc6-6959485edd15
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_DESCRIBEALLOCATION, *INOUT_PDXGKARG_DESCRIBEALLOCATION, _DXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION structure [Display Devices], display.dxgkarg_describeallocation, DmStructs_73e3d53a-788b-4c88-980c-df0d2038694f.xml, DXGKARG_DESCRIBEALLOCATION
+ms.keywords: DXGKARG_DESCRIBEALLOCATION structure [Display Devices], _DXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION, *INOUT_PDXGKARG_DESCRIBEALLOCATION, display.dxgkarg_describeallocation, d3dkmddi/DXGKARG_DESCRIBEALLOCATION, DmStructs_73e3d53a-788b-4c88-980c-df0d2038694f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,19 +130,11 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_describeallocationflags.md">DXGK_DESCRIBEALLOCATIONFLAGS</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
 
 
 
@@ -154,11 +146,19 @@ Supported starting with Windows 8.
 
 
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
 
 
 

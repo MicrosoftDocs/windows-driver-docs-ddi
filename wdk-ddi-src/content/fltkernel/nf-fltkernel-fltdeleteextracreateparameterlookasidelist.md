@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8df06f2c-7358-49ea-8948-b76c5090d75b
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltDeleteExtraCreateParameterLookasideList, ifsk.fltdeleteextracreateparameterlookasidelist, FltDeleteExtraCreateParameterLookasideList
+ms.keywords: fltkernel/FltDeleteExtraCreateParameterLookasideList, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, ifsk.fltdeleteextracreateparameterlookasidelist, FltDeleteExtraCreateParameterLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,43 +111,15 @@ Drivers must explicitly free all ECP context structures and ECP lookaside lists 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
 
 
@@ -159,7 +131,23 @@ Drivers must explicitly free all ECP context structures and ECP lookaside lists 
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 
@@ -167,7 +155,19 @@ Drivers must explicitly free all ECP context structures and ECP lookaside lists 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
 

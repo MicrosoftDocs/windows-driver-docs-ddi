@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: filterpipeline/IFixedPage::GetXpsPartIterator, IFixedPage interface [Print Devices], GetXpsPartIterator method, GetXpsPartIterator method [Print Devices], print.ifixedpage_getxpspartiterator, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, GetXpsPartIterator method [Print Devices], IFixedPage interface, GetXpsPartIterator, IFixedPage::GetXpsPartIterator, IFixedPage
+ms.keywords: IFixedPage interface [Print Devices], GetXpsPartIterator method, GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator, IFixedPage, GetXpsPartIterator method [Print Devices], GetXpsPartIterator method [Print Devices], IFixedPage interface, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, print.ifixedpage_getxpspartiterator, IFixedPage::GetXpsPartIterator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

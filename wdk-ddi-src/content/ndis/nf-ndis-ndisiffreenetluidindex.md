@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eba881f8-e946-44a8-9624-37f63471fb65
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisiffreenetluidindex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, ndis/NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex
+ms.keywords: net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], netvista.ndisiffreenetluidindex, ndis/NdisIfFreeNetLuidIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,11 +165,11 @@ The provider should not use the freed NET_LUID index or the associated NET_LUID 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">NdisIfAllocateNetLuidIndex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 

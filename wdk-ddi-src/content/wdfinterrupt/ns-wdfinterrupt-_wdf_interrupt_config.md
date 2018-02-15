@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 10eb623d-6778-4ccb-8ed4-9926c13dec5a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/PWDF_INTERRUPT_CONFIG, kmdf.wdf_interrupt_config, wdfinterrupt/WDF_INTERRUPT_CONFIG, _WDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG structure pointer, WDF_INTERRUPT_CONFIG, WDF_INTERRUPT_CONFIG structure, DFInterruptObjectRef_545890e4-5222-42e8-8fba-c159a0faa140.xml, *PWDF_INTERRUPT_CONFIG, wdf.wdf_interrupt_config
+ms.keywords: wdfinterrupt/WDF_INTERRUPT_CONFIG, wdfinterrupt/PWDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG, PWDF_INTERRUPT_CONFIG structure pointer, WDF_INTERRUPT_CONFIG structure, WDF_INTERRUPT_CONFIG, wdf.wdf_interrupt_config, _WDF_INTERRUPT_CONFIG, DFInterruptObjectRef_545890e4-5222-42e8-8fba-c159a0faa140.xml, *PWDF_INTERRUPT_CONFIG, kmdf.wdf_interrupt_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -240,11 +240,7 @@ For more information, see <a href="https://msdn.microsoft.com/6A4E62BD-B10F-4F01
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptqueuedpcforisr.md">WdfInterruptQueueDpcForIsr</a>
-
-
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>
+<a href="..\wdfsync\nf-wdfsync-wdfspinlockcreate.md">WdfSpinLockCreate</a>
 
 
 
@@ -252,23 +248,7 @@ For more information, see <a href="https://msdn.microsoft.com/6A4E62BD-B10F-4F01
 
 
 
-<a href="..\wdfsync\nf-wdfsync-wdfspinlockcreate.md">WdfSpinLockCreate</a>
-
-
-
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
-
-
-
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
-
-
-
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md">WDF_INTERRUPT_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
 
 
 
@@ -276,11 +256,31 @@ For more information, see <a href="https://msdn.microsoft.com/6A4E62BD-B10F-4F01
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>
+
+
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md">WDF_INTERRUPT_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptqueuedpcforisr.md">WdfInterruptQueueDpcForIsr</a>
+
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+
+
+
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 
 
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerpageable.md">WdfDeviceInitSetPowerPageable</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>
 
 
 

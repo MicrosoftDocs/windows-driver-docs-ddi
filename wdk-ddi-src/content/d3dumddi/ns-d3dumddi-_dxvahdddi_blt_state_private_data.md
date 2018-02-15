@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f9c0f137-e84c-4626-aa6a-dce352bf7bb0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_BLT_STATE_PRIVATE_DATA, DXVA2_Structs_162bb87d-6383-4c29-b137-0316ace07a65.xml, d3dumddi/DXVAHDDDI_BLT_STATE_PRIVATE_DATA, DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_PRIVATE_DATA, display.dxvahdddi_blt_state_private_data
+ms.keywords: "_DXVAHDDDI_BLT_STATE_PRIVATE_DATA, DXVAHDDDI_BLT_STATE_PRIVATE_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_PRIVATE_DATA, DXVA2_Structs_162bb87d-6383-4c29-b137-0316ace07a65.xml, DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure [Display Devices], display.dxvahdddi_blt_state_private_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,11 +99,11 @@ Unlike other bitblt states (<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_blt_stat
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate.md">GetVideoProcessBltStatePrivate</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessbltstateprivate.md">GetVideoProcessBltStatePrivate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b6d89426-54d3-4f90-8687-c60e515b4d62
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], _DXGK_DEVICE_DESCRIPTOR, display.dxgk_device_descriptor, PDXGK_DEVICE_DESCRIPTOR, dispmprt/PDXGK_DEVICE_DESCRIPTOR, DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml, DXGK_DEVICE_DESCRIPTOR structure [Display Devices], *PDXGK_DEVICE_DESCRIPTOR
+ms.keywords: dispmprt/DXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR, *PDXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR structure [Display Devices], dispmprt/PDXGK_DEVICE_DESCRIPTOR, display.dxgk_device_descriptor, DXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], _DXGK_DEVICE_DESCRIPTOR, DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

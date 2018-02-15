@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 3c39a515-f4f4-4309-8d4e-461b8835295b
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: winddiui/PRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, print.printer_event_attributes_info, PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], PPRINTER_EVENT_ATTRIBUTES_INFO, _PRINTER_EVENT_ATTRIBUTES_INFO
+ms.keywords: PRINTER_EVENT_ATTRIBUTES_INFO, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], winddiui/PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO, winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO, _PRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, print.printer_event_attributes_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4b5e669-7abb-4c60-b2dc-249103d0b20c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismreadconfigblock, ndis/NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], NdisMReadConfigBlock
+ms.keywords: NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], netvista.ndismreadconfigblock, ndis/NdisMReadConfigBlock, NdisMReadConfigBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,11 +159,11 @@ The VBD that runs in a Hyper-V child partition's guest operating system can quer
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439637">ReadVfConfigBlock</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439637">ReadVfConfigBlock</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3131dde-95fc-447c-9451-5c8af074ed24
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetWdmGetTargetFileObject, WdfIoTargetWdmGetTargetFileObject method, wdf.wdfiotargetwdmgettargetfileobject, kmdf.wdfiotargetwdmgettargetfileobject, WdfIoTargetWdmGetTargetFileObject, DFIOTargetRef_b6639c60-55f2-40be-a678-c7cf56a8e28f.xml
+ms.keywords: WdfIoTargetWdmGetTargetFileObject method, wdf.wdfiotargetwdmgettargetfileobject, wdfiotarget/WdfIoTargetWdmGetTargetFileObject, kmdf.wdfiotargetwdmgettargetfileobject, WdfIoTargetWdmGetTargetFileObject, DFIOTargetRef_b6639c60-55f2-40be-a678-c7cf56a8e28f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,7 +123,7 @@ pfileObject = WdfIoTargetWdmGetTargetFileObject(IoTarget);</pre>
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetdeviceobject.md">WdfIoTargetWdmGetTargetDeviceObject</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 
@@ -131,7 +131,7 @@ pfileObject = WdfIoTargetWdmGetTargetFileObject(IoTarget);</pre>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetdeviceobject.md">WdfIoTargetWdmGetTargetDeviceObject</a>
 
 
 

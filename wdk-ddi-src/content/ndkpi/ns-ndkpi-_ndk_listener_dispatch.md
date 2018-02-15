@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CF44B920-428A-4CD0-94BF-15F80189D9C3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_LISTENER_DISPATCH, NDK_LISTENER_DISPATCH, ndkpi/NDK_LISTENER_DISPATCH, ndkpi/PNDK_LISTENER_DISPATCH, netvista.ndk_listener_dispatch, _NDK_LISTENER_DISPATCH, PNDK_LISTENER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDK_LISTENER_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDK_LISTENER_DISPATCH, NDK_LISTENER_DISPATCH, PNDK_LISTENER_DISPATCH, netvista.ndk_listener_dispatch, PNDK_LISTENER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDK_LISTENER_DISPATCH structure [Network Drivers Starting with Windows Vista], ndkpi/PNDK_LISTENER_DISPATCH, ndkpi/NDK_LISTENER_DISPATCH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,7 +107,7 @@ The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-n
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
 
 
 
@@ -119,11 +119,11 @@ The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-n
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_control_connect_events.md">NDK_FN_CONTROL_CONNECT_EVENTS</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 

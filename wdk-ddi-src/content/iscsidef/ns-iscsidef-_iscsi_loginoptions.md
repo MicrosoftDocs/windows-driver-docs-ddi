@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2440999a-e10c-4a27-b076-a0b640c2ca7f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, iscsidef/PISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], PISCSI_LoginOptions structure pointer [Storage Devices], iscsidef/ISCSI_LoginOptions, storage.iscsi_loginoptions, *PISCSI_LoginOptions, ISCSI_LoginOptions, PISCSI_LoginOptions, _ISCSI_LoginOptions
+ms.keywords: "_ISCSI_LoginOptions, *PISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], storage.iscsi_loginoptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml, ISCSI_LoginOptions, PISCSI_LoginOptions, iscsidef/ISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], iscsidef/PISCSI_LoginOptions"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -272,15 +272,15 @@ A <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a> va
 
 ## -see-also
 
+<a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561543">ISCSI_LoginOptions WMI Class</a>
 
 
 
 <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
-
-
-
-<a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a>
 
 
 

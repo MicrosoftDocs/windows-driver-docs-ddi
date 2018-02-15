@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e86e2c96-9ae5-4f6d-9c76-1c2816f318e7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetOuterUnknown, KsGetOuterUnknown function [Streaming Media Devices], ks/KsGetOuterUnknown, avfunc_5b660e76-03af-4fba-92f9-f11eeeaa3da0.xml, stream.ksgetouterunknown
+ms.keywords: KsGetOuterUnknown, stream.ksgetouterunknown, avfunc_5b660e76-03af-4fba-92f9-f11eeeaa3da0.xml, ks/KsGetOuterUnknown, KsGetOuterUnknown function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,7 @@ Minidrivers using this function must include <i>kcom.h</i> and use a C++ compile
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>
-
-
-
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
 
 
 
@@ -107,15 +103,19 @@ Minidrivers using this function must include <i>kcom.h</i> and use a C++ compile
 
 
 
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+<a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>
 
 
 

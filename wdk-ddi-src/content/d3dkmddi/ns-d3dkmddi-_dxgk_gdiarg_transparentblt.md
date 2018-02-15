@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], display.dxgk_gdiarg_transparentblt, _DXGK_GDIARG_TRANSPARENTBLT, DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, DXGK_GDIARG_TRANSPARENTBLT
+ms.keywords: display.dxgk_gdiarg_transparentblt, _DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], DXGK_GDIARG_TRANSPARENTBLT, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -200,11 +200,11 @@ int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

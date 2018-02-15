@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a620b0b2-85ce-4373-a50c-299d8ce7a91c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_BRIGHTNESS_INFO structure [Display Devices], D3DKMT_BRIGHTNESS_INFO, display.d3dkmt_brightness_info, _D3DKMT_BRIGHTNESS_INFO, d3dkmthk/D3DKMT_BRIGHTNESS_INFO
+ms.keywords: display.d3dkmt_brightness_info, D3DKMT_BRIGHTNESS_INFO structure [Display Devices], D3DKMT_BRIGHTNESS_INFO, _D3DKMT_BRIGHTNESS_INFO, d3dkmthk/D3DKMT_BRIGHTNESS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,15 +118,15 @@ A boolean value that indicates whether Event Tracing for Windows (ETW) logging o
 
 ## -see-also
 
+<a href="..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level.md">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_brightness_possible_levels.md">D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_backlight_info.md">DXGK_BACKLIGHT_INFO</a>
-
-
-
-<a href="..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level.md">DXGK_BACKLIGHT_OPTIMIZATION_LEVEL</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a>
 
 
 
@@ -134,7 +134,7 @@ A boolean value that indicates whether Event Tracing for Windows (ETW) logging o
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md">DXGK_BRIGHTNESS_CAPS</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_backlight_info.md">DXGK_BACKLIGHT_INFO</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a36e9d57-c820-43db-a6e0-e935bffca254
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetdevicenumanode, IoGetDeviceNumaNode routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceNumaNode, k104_5a8419d1-9b77-4461-bdc4-9cf5022fb508.xml, IoGetDeviceNumaNode
+ms.keywords: wdm/IoGetDeviceNumaNode, k104_5a8419d1-9b77-4461-bdc4-9cf5022fb508.xml, kernel.iogetdevicenumanode, IoGetDeviceNumaNode routine [Kernel-Mode Driver Architecture], IoGetDeviceNumaNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

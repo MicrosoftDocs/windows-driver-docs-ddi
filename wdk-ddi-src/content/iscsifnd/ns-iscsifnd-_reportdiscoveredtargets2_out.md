@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24e47733-14c2-4d2c-8b0a-8cdfd68c8b3b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PReportDiscoveredTargets2_OUT structure pointer [Storage Devices], *PReportDiscoveredTargets2_OUT, ReportDiscoveredTargets2_OUT structure [Storage Devices], iscsifnd/ReportDiscoveredTargets2_OUT, ReportDiscoveredTargets2_OUT, structs-iSCSI_b6c57e31-b994-4873-97e5-87499d4ce120.xml, _ReportDiscoveredTargets2_OUT, storage.reportdiscoveredtargets2_out, PReportDiscoveredTargets2_OUT, iscsifnd/PReportDiscoveredTargets2_OUT
+ms.keywords: PReportDiscoveredTargets2_OUT, ReportDiscoveredTargets2_OUT structure [Storage Devices], storage.reportdiscoveredtargets2_out, iscsifnd/ReportDiscoveredTargets2_OUT, *PReportDiscoveredTargets2_OUT, ReportDiscoveredTargets2_OUT, _ReportDiscoveredTargets2_OUT, iscsifnd/PReportDiscoveredTargets2_OUT, structs-iSCSI_b6c57e31-b994-4873-97e5-87499d4ce120.xml, PReportDiscoveredTargets2_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,11 +99,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564051">ReportDiscoveredTargets2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 

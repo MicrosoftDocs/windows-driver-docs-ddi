@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b04ef64a-cf1f-4de5-acb3-e57687f64719
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReadPortUlong, StorPortReadPortUlong, storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml, storage.storportreadportulong, StorPortReadPortUlong routine [Storage Devices]
+ms.keywords: storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml, StorPortReadPortUlong routine [Storage Devices], storport/StorPortReadPortUlong, StorPortReadPortUlong, storage.storportreadportulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

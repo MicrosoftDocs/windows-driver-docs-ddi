@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b12ff158-73e7-4fdf-b7b1-2969d161ed93
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasGetPropertyAttributes, wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices], image.wiasgetpropertyattributes, wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml
+ms.keywords: wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, wiasGetPropertyAttributes function [Imaging Devices], image.wiasgetpropertyattributes, wiasGetPropertyAttributes, wiamdef/wiasGetPropertyAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

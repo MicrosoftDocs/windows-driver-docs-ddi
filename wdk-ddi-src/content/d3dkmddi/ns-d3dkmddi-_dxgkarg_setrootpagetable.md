@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D3863924-29EE-4886-B8DC-F9020A7C85A4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_SETROOTPAGETABLE, display.dxgkarg_setrootpagetable, _DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], d3dkmddi/DXGKARG_SETROOTPAGETABLE
+ms.keywords: display.dxgkarg_setrootpagetable, _DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], DXGKARG_SETROOTPAGETABLE, d3dkmddi/DXGKARG_SETROOTPAGETABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

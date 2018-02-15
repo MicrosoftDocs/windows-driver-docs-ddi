@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cab9877c-3b7b-4644-83eb-0aa1e9fc77b9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/PDISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Storage Devices], PDISK_GROW_PARTITION, _DISK_GROW_PARTITION, *PDISK_GROW_PARTITION, structs-disk_cc7d52cd-b0b6-4e5c-a323-6d513f37e602.xml, storage.disk_grow_partition, PDISK_GROW_PARTITION structure pointer [Storage Devices], ntdddisk/DISK_GROW_PARTITION, DISK_GROW_PARTITION
+ms.keywords: ntdddisk/PDISK_GROW_PARTITION, storage.disk_grow_partition, ntdddisk/DISK_GROW_PARTITION, structs-disk_cc7d52cd-b0b6-4e5c-a323-6d513f37e602.xml, *PDISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Storage Devices], _DISK_GROW_PARTITION, PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

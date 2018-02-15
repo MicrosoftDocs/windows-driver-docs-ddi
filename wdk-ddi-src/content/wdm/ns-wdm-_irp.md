@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IRP, _IRP, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, PIRP structure pointer [Kernel-Mode Driver Architecture], kernel.irp, IRP structure [Kernel-Mode Driver Architecture], PIRP, IRP, wdm/PIRP, *PIRP
+ms.keywords: "_IRP, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, wdm/IRP, kernel.irp, PIRP structure pointer [Kernel-Mode Driver Architecture], PIRP, IRP structure [Kernel-Mode Driver Architecture], wdm/PIRP, IRP, *PIRP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -426,11 +426,7 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -442,15 +438,19 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 
 
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
 
 
 
 <a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
 
 
 

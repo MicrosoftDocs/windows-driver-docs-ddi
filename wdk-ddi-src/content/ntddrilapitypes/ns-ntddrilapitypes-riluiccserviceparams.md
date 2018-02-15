@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0f43b2be-d371-42d8-825b-56362de05c5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCSERVICEPARAMS, *LPRILUICCSERVICEPARAMS, netvista.riluiccserviceparams, RILUICCSERVICEPARAMS
+ms.keywords: "*LPRILUICCSERVICEPARAMS, RILUICCSERVICEPARAMS, netvista.riluiccserviceparams, RILUICCSERVICEPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCSERVICEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -102,11 +102,14 @@ Optional. The attribute range for the new format.
 ## -returns
 
 
+
 Return STATUS_SUCCESS if <i>Pin</i>'s <b>ConnectionFormat</b> member matches the range that was passed to this routine. Return STATUS_NO_MATCH if <b>ConnectionFormat</b> does not match the passed range and the minidriver would like to continue to attempt to find a match with another range. Return an error code of choice if <b>ConnectionFormat</b> does not match the passed range and the minidriver does not want to continue to try to find a match with another range. Do not return STATUS_PENDING.
 
 
 
+
 ## -remarks
+
 
 
 In a ring 3 graph, the Kernel Streaming Proxy module (KsProxy) sets the data format based on the agreed upon connection format or a dynamic format change. KsProxy issues a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565103">KSPROPERTY_CONNECTION_DATAFORMAT</a> request which, after some initial validation, is translated into this dispatch call to the minidriver. See <a href="https://msdn.microsoft.com/94ca96ae-d6de-4764-b95f-d3784af40e4d">Kernel Streaming Proxy</a>. For more information, see <a href="https://msdn.microsoft.com/44b55a5a-ec58-4c1e-b780-e20829fe3edf">KS Data Formats and Data Ranges</a> and <a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>.
@@ -121,19 +124,32 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
+
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
+<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B65DC4AD-FB24-4F1D-A1E9-F9B38160908E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2systemdmareceiveinitializetransactioncomplete, 2/SerCx2SystemDmaReceiveInitializeTransactionComplete, SerCx2SystemDmaReceiveInitializeTransactionComplete, SerCx2SystemDmaReceiveInitializeTransactionComplete method [Serial Ports]
+ms.keywords: SerCx2SystemDmaReceiveInitializeTransactionComplete method [Serial Ports], SerCx2SystemDmaReceiveInitializeTransactionComplete, serports.sercx2systemdmareceiveinitializetransactioncomplete, 2/SerCx2SystemDmaReceiveInitializeTransactionComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,15 +103,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_initialize_transaction.md">EvtSerCx2SystemDmaReceiveInitializeTransaction</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
 
 
 
 <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_initialize_transaction.md">EvtSerCx2SystemDmaReceiveInitializeTransaction</a>
 
 
 

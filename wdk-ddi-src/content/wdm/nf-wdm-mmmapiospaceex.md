@@ -155,10 +155,6 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmunmapiospace.md">MmUnmapIoSpace</a>
 
 
@@ -168,6 +164,10 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 
 <a href="..\wdm\nf-wdm-mmallocatecontiguousmemory.md">MmAllocateContiguousMemory</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
 
 

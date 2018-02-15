@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3a0d6633-b4a6-4864-96ae-4f91de11daa1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_PortStatistics structure [Storage Devices], *PHBA_PORTSTATISTICS, storage.hba_portstatistics, HBA_PORTSTATISTICS, hbaapi/HBA_PortStatistics, *PSMHBA_FCPHYSTATISTICS, HBA_PORTSTATISTICS structure [Storage Devices], SMHBA_FCPHYSTATISTICS, hbaapi/PHBA_PORTSTATISTICS, structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml, PHBA_PORTSTATISTICS structure pointer [Storage Devices], PHBA_PORTSTATISTICS, HBA_PortStatistics
+ms.keywords: "*PSMHBA_FCPHYSTATISTICS, HBA_PORTSTATISTICS structure [Storage Devices], SMHBA_FCPHYSTATISTICS, hbaapi/PHBA_PORTSTATISTICS, HBA_PortStatistics, storage.hba_portstatistics, HBA_PortStatistics structure [Storage Devices], PHBA_PORTSTATISTICS, *PHBA_PORTSTATISTICS, hbaapi/HBA_PortStatistics, HBA_PORTSTATISTICS, structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml, PHBA_PORTSTATISTICS structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

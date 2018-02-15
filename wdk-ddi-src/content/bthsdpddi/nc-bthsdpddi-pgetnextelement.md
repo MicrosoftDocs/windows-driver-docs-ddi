@@ -107,11 +107,14 @@ A pointer to an unsigned long integer variable that receives the size of the nex
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -133,9 +136,12 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
 ## -see-also
 
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

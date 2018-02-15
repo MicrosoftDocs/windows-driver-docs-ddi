@@ -40,7 +40,7 @@ apiname:
 -	pfnDestroyVideoDecoderOutputView
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW callback
@@ -75,8 +75,9 @@ VOID APIENTRY* pfnDestroyVideoDecoderOutputView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEODECODEROUTPUTVIEW
+
+
 
 
 
@@ -98,13 +99,17 @@ A handle to the driver's private data for the video decoder output view. This ha
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview.md">CreateVideoDecoderOutputView</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 948f10cb-215c-4a21-a275-ffdbf0ee1593
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_VIDEOPROCESSENDFRAME, _D3DDDIARG_VIDEOPROCESSENDFRAME, display.d3dddiarg_videoprocessendframe, d3dumddi/D3DDDIARG_VIDEOPROCESSENDFRAME, UMDisplayDriver_param_Structs_16fccea8-3a26-4470-bf7d-a94b04f01797.xml, D3DDDIARG_VIDEOPROCESSENDFRAME structure [Display Devices]
+ms.keywords: display.d3dddiarg_videoprocessendframe, d3dumddi/D3DDDIARG_VIDEOPROCESSENDFRAME, UMDisplayDriver_param_Structs_16fccea8-3a26-4470-bf7d-a94b04f01797.xml, _D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

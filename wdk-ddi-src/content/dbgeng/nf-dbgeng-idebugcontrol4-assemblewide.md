@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6ba291d7-c3e7-4f76-afc3-bf200bae2a8f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.assemblewide, AssembleWide method [Windows Debugging], AssembleWide, IDebugControl4 interface [Windows Debugging], AssembleWide method, IDebugControl4, AssembleWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::AssembleWide, IDebugControl4::AssembleWide
+ms.keywords: AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide, IDebugControl4 interface [Windows Debugging], AssembleWide method, AssembleWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::AssembleWide, AssembleWide method [Windows Debugging], IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -130,11 +130,11 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 
 

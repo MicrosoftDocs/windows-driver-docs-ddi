@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 19f79b01-1a3c-4695-96ec-2f7410f6b4aa
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_tuner_if_medium_s, PKSPROPERTY_TUNER_IF_MEDIUM_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_TUNER_IF_MEDIUM_S, *PKSPROPERTY_TUNER_IF_MEDIUM_S, KSPROPERTY_TUNER_IF_MEDIUM_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_IF_MEDIUM_S, KSPROPERTY_TUNER_IF_MEDIUM_S, vidcapstruct_8fb32d31-0264-49c3-b8de-3773e37441cc.xml, PKSPROPERTY_TUNER_IF_MEDIUM_S
+ms.keywords: ksmedia/KSPROPERTY_TUNER_IF_MEDIUM_S, ksmedia/PKSPROPERTY_TUNER_IF_MEDIUM_S, vidcapstruct_8fb32d31-0264-49c3-b8de-3773e37441cc.xml, stream.ksproperty_tuner_if_medium_s, PKSPROPERTY_TUNER_IF_MEDIUM_S structure pointer [Streaming Media Devices], KSPROPERTY_TUNER_IF_MEDIUM_S, PKSPROPERTY_TUNER_IF_MEDIUM_S, KSPROPERTY_TUNER_IF_MEDIUM_S structure [Streaming Media Devices], *PKSPROPERTY_TUNER_IF_MEDIUM_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,15 +89,15 @@ Support for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565842">KSPROPERTY_TUNER_IF_MEDIUM</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

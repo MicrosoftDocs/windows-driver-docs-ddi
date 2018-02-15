@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9AAE4B3F-7C5C-457D-9388-63E6E6AB8A2E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: "_WDI_CAN_SUSTAIN_AP_REASON, WDI_CAN_SUSTAIN_AP_REASON_IHV_START, WDI_CAN_SUSTAIN_AP_REASON, wditypes/WDI_CAN_SUSTAIN_AP_REASON_IHV_START, netvista.wdi_can_sustain_ap_reason, wditypes/WDI_CAN_SUSTAIN_AP_REASON_IHV_END, WDI_CAN_SUSTAIN_AP_REASON enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_CAN_SUSTAIN_AP_REASON, WDI_CAN_SUSTAIN_AP_REASON_IHV_END"
+ms.keywords: netvista.wdi_can_sustain_ap_reason, WDI_CAN_SUSTAIN_AP_REASON_IHV_START, WDI_CAN_SUSTAIN_AP_REASON_IHV_END, _WDI_CAN_SUSTAIN_AP_REASON, WDI_CAN_SUSTAIN_AP_REASON, wditypes/WDI_CAN_SUSTAIN_AP_REASON_IHV_START, WDI_CAN_SUSTAIN_AP_REASON enumeration [Network Drivers Starting with Windows Vista], wditypes/WDI_CAN_SUSTAIN_AP_REASON, wditypes/WDI_CAN_SUSTAIN_AP_REASON_IHV_END
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

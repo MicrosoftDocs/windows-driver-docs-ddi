@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e489601e-b016-4681-97a0-78f42004909f
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: PshedAllocateMemory, whea.pshedallocatememory, whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml, ntddk/PshedAllocateMemory, PshedAllocateMemory function [WHEA Drivers and Applications]
+ms.keywords: PshedAllocateMemory, ntddk/PshedAllocateMemory, PshedAllocateMemory function [WHEA Drivers and Applications], whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml, whea.pshedallocatememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

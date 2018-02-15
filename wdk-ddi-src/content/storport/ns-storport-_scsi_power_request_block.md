@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 04981b68-db32-461b-b24b-8b2bf2e53f78
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/SCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], PSCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml, SCSI_POWER_REQUEST_BLOCK, storport/PSCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], storage.scsi_power_request_block
+ms.keywords: PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], storage.scsi_power_request_block, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], storport/SCSI_POWER_REQUEST_BLOCK, storport/PSCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml, SCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -225,15 +225,15 @@ The miniport can access the adapter's hardware resources.
 
 ## -see-also
 
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+
+
+
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 
 
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
 
 

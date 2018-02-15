@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba65d1b1-a720-4f21-8c6d-af70185c0c24
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortLockBuffer, display.videoportlockbuffer, video/VideoPortLockBuffer, VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml, VideoPortLockBuffer function [Display Devices]
+ms.keywords: VideoPortLockBuffer, VideoPortLockBuffer function [Display Devices], video/VideoPortLockBuffer, display.videoportlockbuffer, VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

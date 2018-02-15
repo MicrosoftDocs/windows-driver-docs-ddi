@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 53efddbc-0e65-487c-b406-c7d093ca5667
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_ERROR_SOURCE_ID, pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], PCI.pci_express_error_source_id, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], wdm/PPCI_EXPRESS_ERROR_SOURCE_ID, _PCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID
+ms.keywords: pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, PCI.pci_express_error_source_id, _PCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], wdm/PCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fedd7aa0-366c-4083-b6d2-692332813b3f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateKeyedMutex2, d3dkmthk/D3DKMTCreateKeyedMutex2, PFND3DKMT_CREATEKEYEDMUTEX2, D3DKMTCreateKeyedMutex2 function [Display Devices], display.d3dkmtcreatekeyedmutex2
+ms.keywords: PFND3DKMT_CREATEKEYEDMUTEX2, d3dkmthk/D3DKMTCreateKeyedMutex2, display.d3dkmtcreatekeyedmutex2, D3DKMTCreateKeyedMutex2, D3DKMTCreateKeyedMutex2 function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

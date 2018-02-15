@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 32e47d3a-83ad-4d3f-a6ce-c03712021844
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: pfnOpenPort, pfnOpenPort function [Print Devices], winsplp/pfnOpenPort, print.openport, OpenPort, spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml
+ms.keywords: spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, pfnOpenPort, print.openport, OpenPort, pfnOpenPort function [Print Devices], winsplp/pfnOpenPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,19 +115,11 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a>
-
-
-
-<a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
-
-
-
-<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
 
 
 
@@ -135,7 +127,11 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
 
 
 
@@ -143,11 +139,15 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
+<a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
 
 
 

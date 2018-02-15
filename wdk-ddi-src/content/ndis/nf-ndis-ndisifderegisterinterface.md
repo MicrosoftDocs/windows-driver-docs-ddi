@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 696d0870-966e-44ac-859e-d530dd6c76b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisifderegisterinterface, ndis/NdisIfDeregisterInterface, NdisIfDeregisterInterface, NdisIfDeregisterInterface function [Network Drivers Starting with Windows Vista], net_if_functions_ref_dc1bdf3d-3cca-4d4a-b0f9-4bdef32bcdb0.xml
+ms.keywords: net_if_functions_ref_dc1bdf3d-3cca-4d4a-b0f9-4bdef32bcdb0.xml, ndis/NdisIfDeregisterInterface, NdisIfDeregisterInterface, netvista.ndisifderegisterinterface, NdisIfDeregisterInterface function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,11 +119,11 @@ An interface provider calls the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 

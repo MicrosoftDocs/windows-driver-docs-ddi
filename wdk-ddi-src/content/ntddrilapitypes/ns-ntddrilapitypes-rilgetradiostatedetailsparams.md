@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: faee1991-a183-4285-af14-402094dc6694
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilgetradiostatedetailsparams, ntddrilapitypes/RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETRADIOSTATEDETAILSPARAMS
+ms.keywords: netvista.rilgetradiostatedetailsparams, ntddrilapitypes/RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

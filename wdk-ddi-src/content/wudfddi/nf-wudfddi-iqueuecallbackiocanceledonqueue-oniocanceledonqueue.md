@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 901ff312-d1bb-46bf-b8e6-6abc47fa3c7f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue interface, OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue, UMDFQueueObjectRef_e80a1257-b51e-46f8-8e9f-0fff3b830587.xml, OnIoCanceledOnQueue, umdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, wdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, IQueueCallbackIoCanceledOnQueue interface, OnIoCanceledOnQueue method, wudfddi/IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue
+ms.keywords: OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue interface, wdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, IQueueCallbackIoCanceledOnQueue, OnIoCanceledOnQueue method, wudfddi/IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, umdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, OnIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue interface, OnIoCanceledOnQueue method, UMDFQueueObjectRef_e80a1257-b51e-46f8-8e9f-0fff3b830587.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,15 +111,15 @@ For more information about the <b>OnIoCanceledOnQueue</b> callback function, see
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackiocanceledonqueue.md">IQueueCallbackIoCanceledOnQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 
 

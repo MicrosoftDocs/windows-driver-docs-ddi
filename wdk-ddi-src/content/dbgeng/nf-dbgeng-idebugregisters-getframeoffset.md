@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 09473106-3ab8-43ee-a424-2930b6bd3fcf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugRegisters2::GetFrameOffset, dbgeng/IDebugRegisters::GetFrameOffset, IDebugRegisters interface [Windows Debugging], GetFrameOffset method, dbgeng/IDebugRegisters2::GetFrameOffset, GetFrameOffset method [Windows Debugging], IDebugRegisters2 interface, GetFrameOffset, GetFrameOffset method [Windows Debugging], IDebugRegisters interface, GetFrameOffset method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetFrameOffset method, debugger.getframeoffset, IDebugRegisters::GetFrameOffset, IDebugRegisters, IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml
+ms.keywords: IDebugRegisters_c3f31f5b-76d4-4910-b1a1-f3050c20e815.xml, GetFrameOffset, IDebugRegisters interface [Windows Debugging], GetFrameOffset method, GetFrameOffset method [Windows Debugging], GetFrameOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2 interface [Windows Debugging], GetFrameOffset method, dbgeng/IDebugRegisters2::GetFrameOffset, debugger.getframeoffset, IDebugRegisters, GetFrameOffset method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters::GetFrameOffset, IDebugRegisters2::GetFrameOffset, IDebugRegisters::GetFrameOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

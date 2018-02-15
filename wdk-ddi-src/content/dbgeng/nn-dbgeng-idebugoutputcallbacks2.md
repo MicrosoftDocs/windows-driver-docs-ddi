@@ -110,11 +110,11 @@ Returns notifications for the <b>IDebugOutputCallbacks2</b> interface.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbackswide.md">IDebugOutputCallbacksWide</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbackswide.md">IDebugOutputCallbacksWide</a>
 
 
 

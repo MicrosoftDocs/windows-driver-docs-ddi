@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CCA03E61-6FEF-42BC-9407-A02432C50542
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryInterruptTimePrecise, wdm/KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise
+ms.keywords: kernel.kequeryinterrupttimeprecise, KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], wdm/KeQueryInterruptTimePrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,7 @@ However, power-management state changes do affect the system interrupt time coun
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
+<a href="..\wdm\nf-wdm-kequeryunbiasedinterrupttime.md">KeQueryUnbiasedInterruptTime</a>
 
 
 
@@ -115,7 +115,7 @@ However, power-management state changes do affect the system interrupt time coun
 
 
 
-<a href="..\wdm\nf-wdm-kequeryunbiasedinterrupttime.md">KeQueryUnbiasedInterruptTime</a>
+<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b033cfe-9649-4993-b348-6c9af2d0f4bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportstallexecution, srb/ScsiPortStallExecution, scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml, ScsiPortStallExecution routine [Storage Devices], ScsiPortStallExecution
+ms.keywords: ScsiPortStallExecution routine [Storage Devices], srb/ScsiPortStallExecution, ScsiPortStallExecution, storage.scsiportstallexecution, scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,11 @@ A miniport driver-supplied <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
 
 
 
@@ -108,15 +112,11 @@ A miniport driver-supplied <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
 
 
 

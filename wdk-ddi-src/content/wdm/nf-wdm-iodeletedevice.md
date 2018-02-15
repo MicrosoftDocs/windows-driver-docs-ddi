@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 973549c3-c570-48ab-9a82-9398c920dbd9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoDeleteDevice routine [Kernel-Mode Driver Architecture], IoDeleteDevice, kernel.iodeletedevice, wdm/IoDeleteDevice, k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml
+ms.keywords: IoDeleteDevice routine [Kernel-Mode Driver Architecture], kernel.iodeletedevice, wdm/IoDeleteDevice, k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml, IoDeleteDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

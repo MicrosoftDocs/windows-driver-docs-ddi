@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DeleteNamedValue method, DeleteNamedValue method, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, IWDFNamedPropertyStore2::DeleteNamedValue, umdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, DeleteNamedValue, wdf.iwdfnamedpropertystore2_deletenamedvalue
+ms.keywords: DeleteNamedValue method, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, IWDFNamedPropertyStore2::DeleteNamedValue, umdf.iwdfnamedpropertystore2_deletenamedvalue, IWDFNamedPropertyStore2, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, DeleteNamedValue, DeleteNamedValue method, IWDFNamedPropertyStore2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -147,11 +147,11 @@ CMyDevice::OnCleanup(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
 
 
 

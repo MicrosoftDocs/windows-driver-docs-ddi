@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 57A8E522-D787-4663-B2E3-46E8430388B7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetWaitMask, serports.sercxgetwaitmask, SerCxGetWaitMask method [Serial Ports], 1/SerCxGetWaitMask
+ms.keywords: serports.sercxgetwaitmask, 1/SerCxGetWaitMask, SerCxGetWaitMask method [Serial Ports], SerCxGetWaitMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: C8A6A286-8F62-4A55-9AED-263317088706
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers.nfc_cx_rf_discovery_config_init, NFC_CX_RF_DISCOVERY_CONFIG_INIT, nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT, NFC_CX_RF_DISCOVERY_CONFIG_INIT function [Near-Field Proximity Drivers]
+ms.keywords: nfpdrivers.nfc_cx_rf_discovery_config_init, nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT, NFC_CX_RF_DISCOVERY_CONFIG_INIT function [Near-Field Proximity Drivers], NFC_CX_RF_DISCOVERY_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

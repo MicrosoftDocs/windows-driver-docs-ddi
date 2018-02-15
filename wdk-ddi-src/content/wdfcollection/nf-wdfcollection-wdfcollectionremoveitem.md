@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFCOLLECTIONREMOVEITEM, kmdf.wdfcollectionremoveitem, WdfCollectionRemoveItem method, wdf.wdfcollectionremoveitem, WdfCollectionRemoveItem, wdfcollection/WdfCollectionRemoveItem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml
+ms.keywords: wdf.wdfcollectionremoveitem, wdfcollection/WdfCollectionRemoveItem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, PFN_WDFCOLLECTIONREMOVEITEM, kmdf.wdfcollectionremoveitem, WdfCollectionRemoveItem, WdfCollectionRemoveItem method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -95,11 +95,11 @@ PoFx calls the driver's <i>DevicePowerNotRequiredCallback</i> routine to inform 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
 
 

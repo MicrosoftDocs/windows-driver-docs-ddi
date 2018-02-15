@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 8bf680a9-3779-447c-99b0-813ec454658e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: wdtf/IWDTFSystemDepot2::get_ThisSystem, Microsoft.WDTF.IWDTFSystemDepot2.ThisSystem, ThisSystem property [Windows Device Testing Framework], dtf.iwdtfsystemdepot2_thissystem, Microsoft::WDTF::IWDTFSystemDepot2::ThisSystem, IWDTFSystemDepot2, IWDTFSystemDepot2::get_ThisSystem, get_ThisSystem, ThisSystem property [Windows Device Testing Framework], IWDTFSystemDepot2 interface, IWDTFSystemDepot2.ThisSystem, wdtf/IWDTFSystemDepot2::ThisSystem, IWDTFSystemDepot2 interface [Windows Device Testing Framework], ThisSystem property
+ms.keywords: get_ThisSystem, ThisSystem property [Windows Device Testing Framework], IWDTFSystemDepot2 interface, IWDTFSystemDepot2.ThisSystem, Microsoft.WDTF.IWDTFSystemDepot2.ThisSystem, wdtf/IWDTFSystemDepot2::ThisSystem, IWDTFSystemDepot2, IWDTFSystemDepot2 interface [Windows Device Testing Framework], ThisSystem property, dtf.iwdtfsystemdepot2_thissystem, wdtf/IWDTFSystemDepot2::get_ThisSystem, IWDTFSystemDepot2::get_ThisSystem, Microsoft::WDTF::IWDTFSystemDepot2::ThisSystem, ThisSystem property [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,11 +71,11 @@ HRESULT get_ThisSystem(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 646b5442-aff1-4216-bb1b-6988218933be
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: "*PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], PIO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, IO_DISCONNECT_INTERRUPT_PARAMETERS, kernel.io_disconnect_interrupt_parameters, wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS, _IO_DISCONNECT_INTERRUPT_PARAMETERS"
+ms.keywords: wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_DISCONNECT_INTERRUPT_PARAMETERS, kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, IO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_DISCONNECT_INTERRUPT_PARAMETERS, kernel.io_disconnect_interrupt_parameters, *PIO_DISCONNECT_INTERRUPT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -178,11 +178,11 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRU
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 

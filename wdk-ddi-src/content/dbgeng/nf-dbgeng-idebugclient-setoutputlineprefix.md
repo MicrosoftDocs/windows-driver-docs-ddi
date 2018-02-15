@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 59A3FD7D-153D-4580-84C1-2408A485F684
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugclient_setoutputlineprefix, SetOutputLinePrefix method [Windows Debugging], IDebugClient interface, SetOutputLinePrefix method [Windows Debugging], SetOutputLinePrefix, IDebugClient, IDebugClient::SetOutputLinePrefix, IDebugClient interface [Windows Debugging], SetOutputLinePrefix method, dbgeng/IDebugClient::SetOutputLinePrefix
+ms.keywords: dbgeng/IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix, debugger.idebugclient_setoutputlineprefix, IDebugClient interface [Windows Debugging], SetOutputLinePrefix method, IDebugClient::SetOutputLinePrefix, IDebugClient, SetOutputLinePrefix method [Windows Debugging], SetOutputLinePrefix method [Windows Debugging], IDebugClient interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b6c50f2f-efc7-415f-895b-fcffb2575fe8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_SPPAL, dvdref_002f96c4-a499-4f93-8c3a-b083ed7a3339.xml, *PKSPROPERTY_SPPAL, stream.ksproperty_sppal, PKSPROPERTY_SPPAL structure pointer [Streaming Media Devices], PKSPROPERTY_SPPAL, _KSPROPERTY_SPPAL, KSPROPERTY_SPPAL structure [Streaming Media Devices], ksmedia/KSPROPERTY_SPPAL, ksmedia/PKSPROPERTY_SPPAL
+ms.keywords: "*PKSPROPERTY_SPPAL, ksmedia/KSPROPERTY_SPPAL, ksmedia/PKSPROPERTY_SPPAL, dvdref_002f96c4-a499-4f93-8c3a-b083ed7a3339.xml, PKSPROPERTY_SPPAL structure pointer [Streaming Media Devices], stream.ksproperty_sppal, PKSPROPERTY_SPPAL, _KSPROPERTY_SPPAL, KSPROPERTY_SPPAL structure [Streaming Media Devices], KSPROPERTY_SPPAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 77fc58fd-1bcf-4a68-b083-fa2bfa3ac312
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, wiasReadPropLong function [Imaging Devices], wiamdef/wiasReadPropLong, wiasReadPropLong, image.wiasreadproplong
+ms.keywords: wiamdef/wiasReadPropLong, wiasReadPropLong, wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, wiasReadPropLong function [Imaging Devices], image.wiasreadproplong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,14 +108,6 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
-
-
-
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
 
 
@@ -125,6 +117,14 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
 
 

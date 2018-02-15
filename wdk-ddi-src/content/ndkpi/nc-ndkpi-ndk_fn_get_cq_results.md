@@ -112,10 +112,6 @@ Zero means there were no completions in the CQ.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
 
@@ -125,6 +121,10 @@ Zero means there were no completions in the CQ.
 
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
 
 

@@ -239,11 +239,11 @@ HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createoverlay.md">D3DDDICB_CREATEOVERLAY</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlaycb.md">pfnDestroyOverlayCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createoverlay.md">D3DDDICB_CREATEOVERLAY</a>
 
 
 

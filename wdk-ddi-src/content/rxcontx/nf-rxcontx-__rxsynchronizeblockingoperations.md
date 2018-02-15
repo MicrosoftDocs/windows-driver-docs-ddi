@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e957f8bc-2ce3-4b9c-819e-ee068b39c4a0
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: rxref_d35d9118-8942-402e-8c78-3168a2d9ad73.xml, ifsk.__rxsynchronizeblockingoperations, rxcontx/__RxSynchronizeBlockingOperations, __RxSynchronizeBlockingOperations, __RxSynchronizeBlockingOperations function [Installable File System Drivers]
+ms.keywords: "__RxSynchronizeBlockingOperations, __RxSynchronizeBlockingOperations function [Installable File System Drivers], rxcontx/__RxSynchronizeBlockingOperations, rxref_d35d9118-8942-402e-8c78-3168a2d9ad73.xml, ifsk.__rxsynchronizeblockingoperations"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -155,15 +155,11 @@ The following two macros are defined on Windows Server 2003 or later for calling
 
 ## -see-also
 
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
 
 
 
@@ -183,7 +179,11 @@ The following two macros are defined on Windows Server 2003 or later for calling
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 

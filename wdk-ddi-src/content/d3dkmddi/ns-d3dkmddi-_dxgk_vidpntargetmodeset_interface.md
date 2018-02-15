@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 556d3134-942b-475c-adac-3087a512f481
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE, DXGK_VIDPNTARGETMODESET_INTERFACE, DXGK_VIDPNTARGETMODESET_INTERFACE structure [Display Devices], display.dxgk_vidpntargetmodeset_interface, DmStructs_f73ff16c-04e3-491b-9f0a-de50563abea4.xml, _DXGK_VIDPNTARGETMODESET_INTERFACE
+ms.keywords: DmStructs_f73ff16c-04e3-491b-9f0a-de50563abea4.xml, DXGK_VIDPNTARGETMODESET_INTERFACE, display.dxgk_vidpntargetmodeset_interface, DXGK_VIDPNTARGETMODESET_INTERFACE structure [Display Devices], d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE, _DXGK_VIDPNTARGETMODESET_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,7 +129,7 @@ The display miniport driver calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_v
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface.md">DXGK_MONITORSOURCEMODESET_INTERFACE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpnsourcemodeset_interface.md">DXGK_VIDPNSOURCEMODESET_INTERFACE</a>
 
 
 
@@ -137,7 +137,7 @@ The display miniport driver calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_v
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpnsourcemodeset_interface.md">DXGK_VIDPNSOURCEMODESET_INTERFACE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface.md">DXGK_MONITORSOURCEMODESET_INTERFACE</a>
 
 
 

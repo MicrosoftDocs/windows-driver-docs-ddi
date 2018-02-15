@@ -40,7 +40,7 @@ apiname:
 -	ObjectPostCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A pointer to an <a href="..\wdm\ns-wdm-_ob_post_operation_information.md">OB_POS
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Use the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a> routine to register an <i>ObjectPostCallback</i> routine, and use the <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a> routine to unregister the routine.
@@ -100,15 +103,24 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
-
-<a href="..\wdm\ns-wdm-_ob_post_operation_information.md">OB_POST_OPERATION_INFORMATION</a>
 
 <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
+
+
 <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ob_post_operation_information.md">OB_POST_OPERATION_INFORMATION</a>
+
+
+
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+
+
 
  
 

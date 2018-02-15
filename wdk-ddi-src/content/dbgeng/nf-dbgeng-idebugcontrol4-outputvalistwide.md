@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 34d25938-5640-4e32-949f-94605ac38fa0
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.outputvalistwide, dbgeng/IDebugControl4::OutputVaListWide, OutputVaListWide method [Windows Debugging], OutputVaListWide, IDebugControl4, OutputVaListWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], OutputVaListWide method, IDebugControl4::OutputVaListWide
+ms.keywords: IDebugControl4 interface [Windows Debugging], OutputVaListWide method, IDebugControl4::OutputVaListWide, dbgeng/IDebugControl4::OutputVaListWide, OutputVaListWide, IDebugControl4, OutputVaListWide method [Windows Debugging], OutputVaListWide method [Windows Debugging], IDebugControl4 interface, debugger.outputvalistwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -301,7 +301,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 
 
@@ -309,7 +309,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
 
 

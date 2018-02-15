@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 510f8cda-922e-48de-b95e-daf972e906fa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: "_D3DDDIARG_CREATEVERTEXSHADERDECL, display.d3dddiarg_createvertexshaderdecl, D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices], d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml"
+ms.keywords: "_D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices], display.d3dddiarg_createvertexshaderdecl, UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

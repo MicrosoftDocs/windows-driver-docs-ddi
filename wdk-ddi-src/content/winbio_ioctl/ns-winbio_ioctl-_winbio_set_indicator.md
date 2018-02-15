@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: c4410845-3c7b-445e-80ec-25694b122a0e
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric.winbio_set_indicator, WINBIO_SET_INDICATOR structure [Biometric Devices], WINBIO_SET_INDICATOR, winbio_ioctl/WINBIO_SET_INDICATOR, _WINBIO_SET_INDICATOR, PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], PWINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, winbio_ioctl/PWINBIO_SET_INDICATOR
+ms.keywords: PWINBIO_SET_INDICATOR, WINBIO_SET_INDICATOR structure [Biometric Devices], PWINBIO_SET_INDICATOR structure pointer [Biometric Devices], winbio_ioctl/WINBIO_SET_INDICATOR, _WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR, biometric.winbio_set_indicator, winbio_ioctl/PWINBIO_SET_INDICATOR, biometric_ref_2ee60af8-1872-4932-9db7-9c3c27e29ddf.xml, WINBIO_SET_INDICATOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,11 +117,11 @@ The sensor indicator light is off.  Sensors that do not have an indicator light 
 
 ## -see-also
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_get_indicator.md">WINBIO_GET_INDICATOR</a>
-
-
-
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_set_indicator.md">IOCTL_BIOMETRIC_SET_INDICATOR</a>
+
+
+
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_get_indicator.md">WINBIO_GET_INDICATOR</a>
 
 
 

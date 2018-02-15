@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 35C7AE64-C778-443E-9CF7-7868048DA01F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2_custom_receive_config_init, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function [Serial Ports], 2/SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT
+ms.keywords: SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function [Serial Ports], 2/SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, serports.sercx2_custom_receive_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

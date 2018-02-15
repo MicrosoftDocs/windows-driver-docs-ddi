@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e538f920-bf9e-484b-acea-f979bb952299
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPinStateMax, WWAN_PIN_STATE, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, WwanPinStateEnter, WwanPinStateNone, *PWWAN_PIN_STATE, wwan/WwanPinStateEnter, PWWAN_PIN_STATE, _WWAN_PIN_STATE, wwan/PWWAN_PIN_STATE, wwan/WWAN_PIN_STATE, netvista.wwan_pin_state, wwan/WwanPinStateNone, WwanPinStateMax
+ms.keywords: wwan/WwanPinStateEnter, *PWWAN_PIN_STATE, WwanPinStateEnter, WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, wwan/WWAN_PIN_STATE, WwanPinStateNone, netvista.wwan_pin_state, WwanPinStateMax, wwan/WwanPinStateMax, PWWAN_PIN_STATE, WWAN_PIN_STATE, wwan/PWWAN_PIN_STATE, wwan/WwanPinStateNone, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_PIN_STATE, WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

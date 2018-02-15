@@ -116,15 +116,15 @@ The return value is ignored.
 
 ## -see-also
 
+<a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
 
 
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
-
-
-<a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a>
 
 
 

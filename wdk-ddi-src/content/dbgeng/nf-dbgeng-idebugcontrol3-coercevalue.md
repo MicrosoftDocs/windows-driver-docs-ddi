@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2, dbgeng/IDebugControl2::CoerceValue, IDebugControl3::CoerceValue, CoerceValue, IDebugControl3, dbgeng/IDebugControl3::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl3 interface, CoerceValue method [Windows Debugging], IDebugControl2 interface, IDebugControl2::CoerceValue, IDebugControl::CoerceValue, dbgeng/IDebugControl::CoerceValue, IDebugControl, IDebugControl interface [Windows Debugging], CoerceValue method, IDebugControl2 interface [Windows Debugging], CoerceValue method, CoerceValue method [Windows Debugging], IDebugControl interface, CoerceValue method [Windows Debugging], IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, IDebugControl3 interface [Windows Debugging], CoerceValue method, debugger.coercevalue
+ms.keywords: IDebugControl interface [Windows Debugging], CoerceValue method, dbgeng/IDebugControl3::CoerceValue, IDebugControl3::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl interface, CoerceValue method [Windows Debugging], IDebugControl3, CoerceValue method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::CoerceValue, IDebugControl3 interface [Windows Debugging], CoerceValue method, dbgeng/IDebugControl2::CoerceValue, IDebugControl2 interface [Windows Debugging], CoerceValue method, IDebugControl2::CoerceValue, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, debugger.coercevalue, IDebugControl2, CoerceValue method [Windows Debugging], IDebugControl3 interface, IDebugControl, CoerceValue, IDebugControl::CoerceValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,15 +125,15 @@ This method converts a value of one type into a value of another type.  If the s
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 

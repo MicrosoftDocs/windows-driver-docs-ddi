@@ -153,6 +153,18 @@ The Direct3D runtime restricts the set of formats that can be presented through 
 
 ## -see-also
 
+<a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present.md">DXGIDDICB_PRESENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
+
+
+
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_callbacks.md">DXGI_DDI_BASE_CALLBACKS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538252">BltDXGI</a>
 
 
@@ -162,18 +174,6 @@ The Direct3D runtime restricts the set of formats that can be presented through 
 
 
 <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_arg_present.md">DXGI_DDI_ARG_PRESENT</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_callbacks.md">DXGI_DDI_BASE_CALLBACKS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569179">PresentDXGI</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present.md">DXGIDDICB_PRESENT</a>
 
 
 

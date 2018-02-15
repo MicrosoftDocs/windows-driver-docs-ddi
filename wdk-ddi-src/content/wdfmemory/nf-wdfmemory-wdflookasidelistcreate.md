@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37fc86b0-de8c-469b-94bb-ad482b9c7202
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfLookasideListCreate, WdfLookasideListCreate method, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, kmdf.wdflookasidelistcreate, wdfmemory/WdfLookasideListCreate, wdf.wdflookasidelistcreate
+ms.keywords: WdfLookasideListCreate, wdfmemory/WdfLookasideListCreate, WdfLookasideListCreate method, wdf.wdflookasidelistcreate, kmdf.wdflookasidelistcreate, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -180,7 +180,7 @@ For a code example that uses <b>WdfLookasideListCreate</b>, see <a href="..\wdfm
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -188,7 +188,7 @@ For a code example that uses <b>WdfLookasideListCreate</b>, see <a href="..\wdfm
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
 
 
 

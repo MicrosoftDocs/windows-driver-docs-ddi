@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9558e2bc-4975-4b32-8e95-9fc5e0f7882e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFindClearBitsAndSet routine [Kernel-Mode Driver Architecture], k109_187055d4-54ce-4ede-878a-fd97079e6fdd.xml, kernel.rtlfindclearbitsandset, wdm/RtlFindClearBitsAndSet, RtlFindClearBitsAndSet
+ms.keywords: RtlFindClearBitsAndSet routine [Kernel-Mode Driver Architecture], kernel.rtlfindclearbitsandset, RtlFindClearBitsAndSet, k109_187055d4-54ce-4ede-878a-fd97079e6fdd.xml, wdm/RtlFindClearBitsAndSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,7 @@ Callers of <b>RtlFindClearBitsAndSet</b> must be running at IRQL &lt;= APC_LEVEL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
+<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
 
 
 
@@ -115,15 +115,11 @@ Callers of <b>RtlFindClearBitsAndSet</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
 
 
 
@@ -131,11 +127,15 @@ Callers of <b>RtlFindClearBitsAndSet</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
 
 
 
@@ -147,7 +147,7 @@ Callers of <b>RtlFindClearBitsAndSet</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
 
 
 

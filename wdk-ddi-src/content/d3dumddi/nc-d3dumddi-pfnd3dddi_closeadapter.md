@@ -97,11 +97,11 @@ Before <b>CloseAdapter</b> closes the graphics adapter object, all of the displa
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
 
 
 

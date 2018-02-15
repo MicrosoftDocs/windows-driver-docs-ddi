@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: FsRtlDissectDbcs routine [Installable File System Drivers], fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, FsRtlDissectDbcs, ifsk.fsrtldissectdbcs, ntifs/FsRtlDissectDbcs
+ms.keywords: FsRtlDissectDbcs, ntifs/FsRtlDissectDbcs, ifsk.fsrtldissectdbcs, fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, FsRtlDissectDbcs routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

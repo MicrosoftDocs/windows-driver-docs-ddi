@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C5BAED6C-223F-4D1B-A9A4-323C93DD5AD9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolEntryByToken method [Windows Debugging], GetSymbolEntryByToken, IDebugSymbols3::GetSymbolEntryByToken, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryByToken method, dbgeng/IDebugSymbols3::GetSymbolEntryByToken, debugger.idebugsymbols3_getsymbolentrybytoken, GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3
+ms.keywords: dbgeng/IDebugSymbols3::GetSymbolEntryByToken, GetSymbolEntryByToken, IDebugSymbols3, debugger.idebugsymbols3_getsymbolentrybytoken, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryByToken method, IDebugSymbols3::GetSymbolEntryByToken, GetSymbolEntryByToken method [Windows Debugging], GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,11 +95,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

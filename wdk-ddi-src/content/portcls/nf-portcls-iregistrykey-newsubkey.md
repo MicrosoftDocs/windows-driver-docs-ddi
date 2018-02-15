@@ -8,7 +8,7 @@ old-project: audio
 ms.assetid: 39b352ba-4b6f-4d9c-baf5-a479d8c74ae0
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: audio.iregistrykey_newsubkey, audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, IRegistryKey::NewSubKey, NewSubKey method [Audio Devices], portcls/IRegistryKey::NewSubKey, NewSubKey method [Audio Devices], IRegistryKey interface, IRegistryKey interface [Audio Devices], NewSubKey method, NewSubKey, IRegistryKey
+ms.keywords: portcls/IRegistryKey::NewSubKey, audio.iregistrykey_newsubkey, NewSubKey, IRegistryKey, IRegistryKey::NewSubKey, NewSubKey method [Audio Devices], IRegistryKey interface, IRegistryKey interface [Audio Devices], NewSubKey method, audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, NewSubKey method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -132,19 +132,19 @@ The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

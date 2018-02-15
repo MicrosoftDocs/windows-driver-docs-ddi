@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: D964A0C4-041A-47BD-87AB-4AF523939DF0
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], OnChanged method, OnChanged, OnChanged method [Print Devices], print.iprinterqueueviewevent_onchanged, IPrinterQueueViewEvent::OnChanged, OnChanged method [Print Devices], IPrinterQueueViewEvent interface, printerextension/IPrinterQueueViewEvent::OnChanged
+ms.keywords: OnChanged method [Print Devices], IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], OnChanged method, OnChanged method [Print Devices], IPrinterQueueViewEvent interface, IPrinterQueueViewEvent::OnChanged, print.iprinterqueueviewevent_onchanged, OnChanged, printerextension/IPrinterQueueViewEvent::OnChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,7 +111,7 @@ The job range is controlled by the <a href="..\printerextension\nn-printerextens
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
+<a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
 
 
 
@@ -123,7 +123,7 @@ The job range is controlled by the <a href="..\printerextension\nn-printerextens
 
 
 
-<a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
+<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
 
 
 

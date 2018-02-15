@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: bidispl/IBidiRequest::GetOutputData, BIDI_BLOB, GetOutputData, BIDI_INT, GetOutputData method [Print Devices], IBidiRequest interface, IBidiRequest::GetOutputData, BIDI_TEXT, IBidiRequest interface [Print Devices], GetOutputData method, print.ibidirequest_ibidirequest__getoutputdata, GetOutputData method [Print Devices], BIDI_NULL, BIDI_BOOL, BIDI_STRING, BIDI_FLOAT, gdi.ibidirequest_ibidirequest__getoutputdata, IBidiRequest, _win32_IBidiRequest_GetOutputData, BIDI_ENUM
+ms.keywords: BIDI_FLOAT, BIDI_ENUM, BIDI_STRING, print.ibidirequest_ibidirequest__getoutputdata, GetOutputData, IBidiRequest interface [Print Devices], GetOutputData method, BIDI_BOOL, BIDI_TEXT, BIDI_INT, gdi.ibidirequest_ibidirequest__getoutputdata, bidispl/IBidiRequest::GetOutputData, BIDI_NULL, _win32_IBidiRequest_GetOutputData, GetOutputData method [Print Devices], IBidiRequest interface, IBidiRequest::GetOutputData, IBidiRequest, GetOutputData method [Print Devices], BIDI_BLOB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -258,11 +258,7 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
-<a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
@@ -270,7 +266,11 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
+
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 

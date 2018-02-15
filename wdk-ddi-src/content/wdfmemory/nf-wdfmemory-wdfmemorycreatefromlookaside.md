@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aeafa20c-e4be-4b6d-88b7-22b84ef4cedd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfMemoryCreateFromLookaside method, wdfmemory/WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside, wdf.wdfmemorycreatefromlookaside, PFN_WDFMEMORYCREATEFROMLOOKASIDE, kmdf.wdfmemorycreatefromlookaside, DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml
+ms.keywords: wdfmemory/WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method, wdf.wdfmemorycreatefromlookaside, PFN_WDFMEMORYCREATEFROMLOOKASIDE, DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, WdfMemoryCreateFromLookaside, kmdf.wdfmemorycreatefromlookaside
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,7 +178,7 @@ status = WdfMemoryCreateFromLookaside(
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>
 
 
 
@@ -190,7 +190,7 @@ status = WdfMemoryCreateFromLookaside(
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
 
 
 

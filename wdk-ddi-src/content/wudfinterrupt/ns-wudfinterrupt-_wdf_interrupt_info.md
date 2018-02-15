@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 37B997D1-6F5D-4685-BF46-2C33685C157F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_INTERRUPT_INFO structure, umdf.wdf_interrupt_info, wudfinterrupt/WDF_INTERRUPT_INFO, wudfinterrupt/PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, *PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO, wdf.wdf_interrupt_info_umdf, PWDF_INTERRUPT_INFO, _WDF_INTERRUPT_INFO
+ms.keywords: WDF_INTERRUPT_INFO structure, wudfinterrupt/WDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, _WDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, wdf.wdf_interrupt_info_umdf, *PWDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, WDF_INTERRUPT_INFO, wudfinterrupt/PWDF_INTERRUPT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -157,7 +157,7 @@ The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTER
 
 
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 
@@ -165,11 +165,11 @@ The <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTER
 
 
 
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_info_init.md">WDF_INTERRUPT_INFO_INIT</a>
+
+
+
 <a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 

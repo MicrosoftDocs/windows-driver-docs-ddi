@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B38BD937-5027-4EED-9ECA-3333F56DFFA8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionSetChannelConfigurationCallback method, PFN_WDFDMATRANSACTIONSETCHANNELCONFIGURATIONCALLBACK, wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback, wdf.wdfdmatransactionsetchannelconfigurationcallback, kmdf.wdfdmatransactionsetchannelconfigurationcallback, WdfDmaTransactionSetChannelConfigurationCallback
+ms.keywords: wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback, WdfDmaTransactionSetChannelConfigurationCallback method, kmdf.wdfdmatransactionsetchannelconfigurationcallback, wdf.wdfdmatransactionsetchannelconfigurationcallback, WdfDmaTransactionSetChannelConfigurationCallback, PFN_WDFDMATRANSACTIONSETCHANNELCONFIGURATIONCALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,11 +124,11 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel.md">EvtDmaTransactionConfigureDmaChannel</a>
-
-
-
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a>
+
+
+
+<a href="..\wdfdmatransaction\nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel.md">EvtDmaTransactionConfigureDmaChannel</a>
 
 
 

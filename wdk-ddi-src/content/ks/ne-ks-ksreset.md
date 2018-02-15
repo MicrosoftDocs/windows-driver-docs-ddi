@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7622A66F-EB4A-460B-B01F-6E48EC70C07D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSRESET_BEGIN, KSRESET_BEGIN, ks/KSRESET, KSRESET enumeration [Streaming Media Devices], KSRESET, stream.ksreset, KSRESET_END, ks/KSRESET_END
+ms.keywords: KSRESET_BEGIN, KSRESET, KSRESET enumeration [Streaming Media Devices], KSRESET_END, ks/KSRESET_BEGIN, ks/KSRESET, ks/KSRESET_END, stream.ksreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

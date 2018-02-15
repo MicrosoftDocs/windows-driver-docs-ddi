@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fd069b0c-9af3-4442-aba0-1d81465e7eb0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices], DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml, display.dxgkmdt_opm_set_hdcp_srm_parameters
+ms.keywords: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices], display.dxgkmdt_opm_set_hdcp_srm_parameters, d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,11 +74,11 @@ The version number of an HDCP SRM. The least significant bits (bits 0 through 15
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
 
 
 

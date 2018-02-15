@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], FsRtlTeardownPerFileContexts, ntifs/FsRtlTeardownPerFileContexts, ifsk.fsrtlteardownperfilecontexts
+ms.keywords: FsRtlTeardownPerFileContexts routine [Installable File System Drivers], ifsk.fsrtlteardownperfilecontexts, FsRtlTeardownPerFileContexts, fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, ntifs/FsRtlTeardownPerFileContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ To avoid conflicts in synchronization, the <b>FsRtlTeardownPerFileContexts</b> r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
 
 
 

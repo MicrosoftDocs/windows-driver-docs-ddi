@@ -8,7 +8,7 @@ old-project: usbref
 ms.assetid: 4522a7d0-d297-4668-bb4e-e4ceae18f52a
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: USBD_PIPE_TYPE, buses.usbd_pipe_type, usb/UsbdPipeTypeInterrupt, _USBD_PIPE_TYPE, UsbdPipeTypeInterrupt, UsbdPipeTypeControl, usb/USBD_PIPE_TYPE, UsbdPipeTypeBulk, usb/UsbdPipeTypeControl, usb/UsbdPipeTypeBulk, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, UsbdPipeTypeIsochronous, USBD_PIPE_TYPE enumeration [Buses], usb/UsbdPipeTypeIsochronous
+ms.keywords: usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, USBD_PIPE_TYPE enumeration [Buses], usb/UsbdPipeTypeInterrupt, buses.usbd_pipe_type, UsbdPipeTypeIsochronous, USBD_PIPE_TYPE, usb/UsbdPipeTypeControl, _USBD_PIPE_TYPE, UsbdPipeTypeInterrupt, usb/UsbdPipeTypeIsochronous, UsbdPipeTypeControl, UsbdPipeTypeBulk, usb/USBD_PIPE_TYPE, usb/UsbdPipeTypeBulk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

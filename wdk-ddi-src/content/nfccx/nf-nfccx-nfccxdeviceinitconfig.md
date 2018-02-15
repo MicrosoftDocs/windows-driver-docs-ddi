@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 98047C0F-B419-4DFE-8143-BD3917650878
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NfcCxDeviceInitConfig, nfpdrivers._nfccxdeviceinitconfig_, NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers]
+ms.keywords: nfccx/NfcCxDeviceInitConfig, NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], nfpdrivers._nfccxdeviceinitconfig_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

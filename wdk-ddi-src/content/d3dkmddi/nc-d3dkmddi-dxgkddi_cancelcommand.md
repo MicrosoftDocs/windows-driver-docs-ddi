@@ -84,14 +84,20 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_cancelcommand.md">DXGKA
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> upon successful completion. If the driver instead returns an error code, the operating system causes a system bugcheck to occur. For more information, see the following Remarks section.
+
 
 
 
 ## -remarks
 
 
-<div class="alert"><b>Note</b>  The DirectX graphics kernel subsystem calls this function only if the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md">DXGK_VIDSCHCAPS</a>.<b>CancelCommandAware</b> member is set.</div><div> </div>If the driver returns an error code, the DirectX graphics kernel subsystem  causes a system bugcheck to occur. In a crash dump file, the error is noted by the message <b>BugCheck 0x119</b>, which has the following four parameters.
+
+<div class="alert"><b>Note</b>  The DirectX graphics kernel subsystem calls this function only if the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md">DXGK_VIDSCHCAPS</a>.<b>CancelCommandAware</b> member is set.</div>
+<div> </div>
+If the driver returns an error code, the DirectX graphics kernel subsystem  causes a system bugcheck to occur. In a crash dump file, the error is noted by the message <b>BugCheck 0x119</b>, which has the following four parameters.
+
 <ol>
 <li>0x9</li>
 <li>The NTSTATUS error code returned from the failed driver call</li>
@@ -100,13 +106,20 @@ Returns <b>STATUS_SUCCESS</b> upon successful completion. If the driver instead 
 </ol>
 
 
+
 ## -see-also
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md">DXGK_VIDSCHCAPS</a>
+
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_cancelcommand.md">DXGKARG_CANCELCOMMAND</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidschcaps.md">DXGK_VIDSCHCAPS</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4F38C7D7-E350-4FCB-A89B-CA87BA638AD3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetPinBusCache method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe interface [Streaming Media Devices], KsGetPinBusCache method, KsGetPinBusCache, stream.ikspinpipe_ksgetpinbuscache, ksproxy/IKsPinPipe::KsGetPinBusCache, KsGetPinBusCache method [Streaming Media Devices], IKsPinPipe::KsGetPinBusCache, IKsPinPipe
+ms.keywords: stream.ikspinpipe_ksgetpinbuscache, IKsPinPipe interface [Streaming Media Devices], KsGetPinBusCache method, IKsPinPipe, KsGetPinBusCache method [Streaming Media Devices], KsGetPinBusCache, IKsPinPipe::KsGetPinBusCache, ksproxy/IKsPinPipe::KsGetPinBusCache, KsGetPinBusCache method [Streaming Media Devices], IKsPinPipe interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

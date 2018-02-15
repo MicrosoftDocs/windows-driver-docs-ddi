@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8a1ce43d-ba2c-489c-b37f-d98b9cf1d6b0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksvpsurfaceparams, ksmedia/KSVPSURFACEPARAMS, PKSVPSURFACEPARAMS structure pointer [Streaming Media Devices], PKSVPSURFACEPARAMS, ksmedia/PKSVPSURFACEPARAMS, KSVPSURFACEPARAMS, KSVPSURFACEPARAMS structure [Streaming Media Devices], *PKSVPSURFACEPARAMS, dvdref_676b0467-3a23-4aac-8f72-7fd53ef399dd.xml
+ms.keywords: stream.ksvpsurfaceparams, ksmedia/KSVPSURFACEPARAMS, ksmedia/PKSVPSURFACEPARAMS, dvdref_676b0467-3a23-4aac-8f72-7fd53ef399dd.xml, KSVPSURFACEPARAMS, PKSVPSURFACEPARAMS, *PKSVPSURFACEPARAMS, PKSVPSURFACEPARAMS structure pointer [Streaming Media Devices], KSVPSURFACEPARAMS structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

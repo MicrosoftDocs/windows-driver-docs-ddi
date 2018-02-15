@@ -175,6 +175,10 @@ If it cannot get bus-relative access ranges values by calling <b>VideoPortGetDev
 
 
 
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
+
+
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
@@ -184,10 +188,6 @@ If it cannot get bus-relative access ranges values by calling <b>VideoPortGetDev
 
 
 <a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
-
-
-
-<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 
 

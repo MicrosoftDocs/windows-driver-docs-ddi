@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 729bd44f-9ac7-4b3d-905d-a78b10fba2a7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function, DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml, wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, wdf.wdf_request_send_options_set_timeout, kmdf.wdf_request_send_options_set_timeout
+ms.keywords: wdf.wdf_request_send_options_set_timeout, kmdf.wdf_request_send_options_set_timeout, wdfrequest/WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT function, WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT, DFRequestObjectRef_bcbdd786-6d81-45f7-a70b-96e781da0d36.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

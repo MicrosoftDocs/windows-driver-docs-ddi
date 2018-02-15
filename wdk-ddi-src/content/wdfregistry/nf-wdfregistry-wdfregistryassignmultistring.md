@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b54949b-807e-47fe-a304-872500b41212
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfregistry/WdfRegistryAssignMultiString, WdfRegistryAssignMultiString, DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, PFN_WDFREGISTRYASSIGNMULTISTRING, kmdf.wdfregistryassignmultistring, WdfRegistryAssignMultiString method, wdf.wdfregistryassignmultistring
+ms.keywords: WdfRegistryAssignMultiString method, WdfRegistryAssignMultiString, wdf.wdfregistryassignmultistring, wdfregistry/WdfRegistryAssignMultiString, PFN_WDFREGISTRYASSIGNMULTISTRING, DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, kmdf.wdfregistryassignmultistring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -256,23 +256,7 @@ if (col != NULL) {
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
-
-
-
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md">WdfCollectionAdd</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
 
 
 
@@ -280,15 +264,15 @@ if (col != NULL) {
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md">WdfCollectionAdd</a>
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
 
 
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
 
 
 
@@ -296,7 +280,23 @@ if (col != NULL) {
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 7be90712-9f6f-4998-a8ca-148ff900c82c
 ms.author: windowsdriverdev
 ms.date: 2/8/2018
-ms.keywords: WheaErrSrcStateStarted, *PWHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStopped, _WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStopped, whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, ntddk/WheaErrSrcStateStarted, PWHEA_ERROR_SOURCE_STATE, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], whea.whea_error_source_state, WHEA_ERROR_SOURCE_STATE, ntddk/WHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], ntddk/PWHEA_ERROR_SOURCE_STATE
+ms.keywords: WheaErrSrcStateStopped, ntddk/WheaErrSrcStateStarted, PWHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStarted, ntddk/WHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_STATE, ntddk/PWHEA_ERROR_SOURCE_STATE, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, _WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStopped, *PWHEA_ERROR_SOURCE_STATE, whea.whea_error_source_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

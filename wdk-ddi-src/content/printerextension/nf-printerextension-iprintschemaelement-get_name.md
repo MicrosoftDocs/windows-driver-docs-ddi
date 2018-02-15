@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: BB8CAEFC-3CD5-46EA-89A8-FAF38063A185
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: IPrinterQueue::get_Name, IPrintJob::get_Name, IPrinterQueue interface [Print Devices], Name property, Name property [Print Devices], IPrinterQueue.Name, IPrintSchemaElement, print.iprinterqueue_name, IPrinterQueue, printerextension/IPrinterQueue::get_Name, IPrintJob, printerextension/IPrinterQueue::Name, IPrintSchemaElement::get_Name, get_Name, Name property [Print Devices], IPrinterQueue interface
+ms.keywords: IPrintJob, IPrintJob::get_Name, printerextension/IPrinterQueue::get_Name, printerextension/IPrinterQueue::Name, print.iprinterqueue_name, IPrinterQueue interface [Print Devices], Name property, Name property [Print Devices], IPrinterQueue.Name, IPrintSchemaElement, IPrinterQueue, IPrintSchemaElement::get_Name, get_Name, IPrinterQueue::get_Name, Name property [Print Devices], IPrinterQueue interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

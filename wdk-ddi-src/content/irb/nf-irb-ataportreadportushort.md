@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2534e79-293e-41db-b874-3f39aa5af864
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortReadPortUshort, AtaPortReadPortUshort, AtaPortReadPortUshort routine [Storage Devices], atartns_935ac51b-c226-48d2-acf0-ae1cfe5bfd60.xml, storage.ataportreadportushort
+ms.keywords: atartns_935ac51b-c226-48d2-acf0-ae1cfe5bfd60.xml, storage.ataportreadportushort, AtaPortReadPortUshort routine [Storage Devices], irb/AtaPortReadPortUshort, AtaPortReadPortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,7 +86,7 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 
 
@@ -94,7 +94,7 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 
 
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+<a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
 
 
 

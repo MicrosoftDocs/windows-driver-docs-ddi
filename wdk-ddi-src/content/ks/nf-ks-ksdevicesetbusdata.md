@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b319f2a4-dbbe-4324-8f8d-a42bb40d7939
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDeviceSetBusData, stream.ksdevicesetbusdata, ks/KsDeviceSetBusData, avfunc_5b7ad4e8-d651-4b80-99db-260fba83ce15.xml, KsDeviceSetBusData function [Streaming Media Devices]
+ms.keywords: KsDeviceSetBusData, stream.ksdevicesetbusdata, avfunc_5b7ad4e8-d651-4b80-99db-260fba83ce15.xml, KsDeviceSetBusData function [Streaming Media Devices], ks/KsDeviceSetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

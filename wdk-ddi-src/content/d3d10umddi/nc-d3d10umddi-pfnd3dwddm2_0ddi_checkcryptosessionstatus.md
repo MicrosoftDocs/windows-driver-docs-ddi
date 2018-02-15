@@ -40,7 +40,7 @@ apiname:
 -	CheckCryptoSessionStatus
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback
@@ -87,24 +87,34 @@ Receives a status as a value of the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The application may call this DDI after receiving a hardware content protection tear-down notification to determine the state of the underlying hardware key and protected content.
+
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
-
 <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status.md">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
+
 
  
 

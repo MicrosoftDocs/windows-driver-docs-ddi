@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 419912d0-40d0-4fa9-be3b-770875271640
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_afe4967c-d7ea-4c78-98ff-9bcfb98f6b80.xml, wdf.wdfpdoinitassignrawdevice, wdfpdo/WdfPdoInitAssignRawDevice, kmdf.wdfpdoinitassignrawdevice, WdfPdoInitAssignRawDevice method, WdfPdoInitAssignRawDevice
+ms.keywords: wdfpdo/WdfPdoInitAssignRawDevice, DFDeviceObjectFdoPdoRef_afe4967c-d7ea-4c78-98ff-9bcfb98f6b80.xml, kmdf.wdfpdoinitassignrawdevice, wdf.wdfpdoinitassignrawdevice, WdfPdoInitAssignRawDevice, WdfPdoInitAssignRawDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -133,7 +133,11 @@ status = WdfPdoInitAssignRawDevice(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetdevicetype.md">WdfDeviceInitSetDeviceType</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
 
 
 
@@ -141,11 +145,7 @@ status = WdfPdoInitAssignRawDevice(
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignsddlstring.md">WdfDeviceInitAssignSDDLString</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetdevicetype.md">WdfDeviceInitSetDeviceType</a>
 
 
 

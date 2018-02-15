@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b4a7375-1ee2-4829-92bb-01ed610236de
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_DiscoveredTarget structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml, PISCSI_DiscoveredTarget, iscsifnd/ISCSI_DiscoveredTarget, _ISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, *PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget
+ms.keywords: iscsifnd/ISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], ISCSI_DiscoveredTarget structure [Storage Devices], PISCSI_DiscoveredTarget, *PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget, iscsifnd/PISCSI_DiscoveredTarget, structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml, _ISCSI_DiscoveredTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

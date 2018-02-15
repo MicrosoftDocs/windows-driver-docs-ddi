@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8576a20b-bdb8-47d9-a21e-689a315c6886
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ControlledOutputVaListWide method [Windows Debugging], ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, IDebugControl4, debugger.controlledoutputvalistwide, dbgeng/IDebugControl4::ControlledOutputVaListWide, IDebugControl4::ControlledOutputVaListWide, ControlledOutputVaListWide
+ms.keywords: debugger.controlledoutputvalistwide, ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ControlledOutputVaListWide, IDebugControl4::ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, IDebugControl4, ControlledOutputVaListWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -473,19 +473,19 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
-
-
-
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 
 

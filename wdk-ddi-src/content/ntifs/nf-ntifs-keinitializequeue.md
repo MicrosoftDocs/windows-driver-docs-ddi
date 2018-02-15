@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.author: windowsdriverdev
 ms.date: 2/7/2018
-ms.keywords: keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, ifsk.keinitializequeue, KeInitializeQueue routine [Installable File System Drivers], KeInitializeQueue, ntifs/KeInitializeQueue
+ms.keywords: ntifs/KeInitializeQueue, ifsk.keinitializequeue, KeInitializeQueue routine [Installable File System Drivers], KeInitializeQueue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -176,15 +176,11 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 
 
@@ -200,7 +196,11 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 
 

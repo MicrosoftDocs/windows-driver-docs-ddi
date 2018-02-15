@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d36174ef-4df2-49ec-9167-cfb150f090f8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], NdisWriteErrorLogEntry, ndis/NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry
+ms.keywords: ndis/NdisWriteErrorLogEntry, NdisWriteErrorLogEntry, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], netvista.ndiswriteerrorlogentry, miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -237,7 +237,7 @@ In general, a miniport driver calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -245,7 +245,7 @@ In general, a miniport driver calls
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 

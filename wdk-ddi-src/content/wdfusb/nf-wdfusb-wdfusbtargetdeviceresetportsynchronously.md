@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4f0941ea-ccbb-4345-82c0-ec5d88862b05
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfusbtargetdeviceresetportsynchronously, wdfusb/WdfUsbTargetDeviceResetPortSynchronously, WdfUsbTargetDeviceResetPortSynchronously method, WdfUsbTargetDeviceResetPortSynchronously, PFN_WDFUSBTARGETDEVICERESETPORTSYNCHRONOUSLY, DFUsbRef_423196d9-8f58-462a-91b3-9d747a12d6df.xml, kmdf.wdfusbtargetdeviceresetportsynchronously
+ms.keywords: wdf.wdfusbtargetdeviceresetportsynchronously, WdfUsbTargetDeviceResetPortSynchronously, DFUsbRef_423196d9-8f58-462a-91b3-9d747a12d6df.xml, kmdf.wdfusbtargetdeviceresetportsynchronously, PFN_WDFUSBTARGETDEVICERESETPORTSYNCHRONOUSLY, wdfusb/WdfUsbTargetDeviceResetPortSynchronously, WdfUsbTargetDeviceResetPortSynchronously method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 95f62d57-300a-4179-868b-f14f29c58b4d
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: PDRIVER_INFO_8, DRIVER_INFO_8 structure [Print Devices], PDRIVER_INFO_8 structure pointer [Print Devices], DRIVER_INFO_8A, *PDRIVER_INFO_8A, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, winspool/LPDRIVER_INFO_8, _DRIVER_INFO_8A, winspool/PDRIVER_INFO_8, winspool/DRIVER_INFO_8, print.driver_info_8, *LPDRIVER_INFO_8A, DRIVER_INFO_8, LPDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices]
+ms.keywords: LPDRIVER_INFO_8 structure pointer [Print Devices], *LPDRIVER_INFO_8A, winspool/PDRIVER_INFO_8, winspool/DRIVER_INFO_8, print.driver_info_8, winspool/LPDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, *PDRIVER_INFO_8A, LPDRIVER_INFO_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, DRIVER_INFO_8, DRIVER_INFO_8A, _DRIVER_INFO_8A, DRIVER_INFO_8 structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 292e8a75-2035-4333-8a3c-28e79549d374
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: "*PWDF_REQUEST_REUSE_PARAMS, wdfrequest/WDF_REQUEST_REUSE_PARAMS, PWDF_REQUEST_REUSE_PARAMS, wdfrequest/PWDF_REQUEST_REUSE_PARAMS, kmdf.wdf_request_reuse_params, PWDF_REQUEST_REUSE_PARAMS structure pointer, DFRequestObjectRef_07ccbf40-797b-41c5-9f81-87c1494a69ce.xml, WDF_REQUEST_REUSE_PARAMS structure, wdf.wdf_request_reuse_params, WDF_REQUEST_REUSE_PARAMS, _WDF_REQUEST_REUSE_PARAMS"
+ms.keywords: "_WDF_REQUEST_REUSE_PARAMS, PWDF_REQUEST_REUSE_PARAMS structure pointer, wdf.wdf_request_reuse_params, PWDF_REQUEST_REUSE_PARAMS, *PWDF_REQUEST_REUSE_PARAMS, wdfrequest/WDF_REQUEST_REUSE_PARAMS, DFRequestObjectRef_07ccbf40-797b-41c5-9f81-87c1494a69ce.xml, kmdf.wdf_request_reuse_params, wdfrequest/PWDF_REQUEST_REUSE_PARAMS, WDF_REQUEST_REUSE_PARAMS structure, WDF_REQUEST_REUSE_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,11 +110,11 @@ You can set a <b>NewIrp</b> value only if the I/O request that you supply to <a 
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreatefromirp.md">WdfRequestCreateFromIrp</a>
+
+
+
 <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_reuse_flags.md">WDF_REQUEST_REUSE_FLAGS</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_reuse_params_init.md">WDF_REQUEST_REUSE_PARAMS_INIT</a>
 
 
 
@@ -126,7 +126,7 @@ You can set a <b>NewIrp</b> value only if the I/O request that you supply to <a 
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreatefromirp.md">WdfRequestCreateFromIrp</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdf_request_reuse_params_init.md">WDF_REQUEST_REUSE_PARAMS_INIT</a>
 
 
 

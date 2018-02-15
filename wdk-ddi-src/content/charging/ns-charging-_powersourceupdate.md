@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: A1BFCCE4-14F0-4F41-A062-71B001CE14AA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: POWERSOURCEUPDATE, _POWERSOURCEUPDATE, POWERSOURCEUPDATE structure [Battery Devices], charging/BATTERY_INFORMATION, battery.powersourceupdate, *PPOWERSOURCEUPDATE
+ms.keywords: "*PPOWERSOURCEUPDATE, battery.powersourceupdate, POWERSOURCEUPDATE structure [Battery Devices], POWERSOURCEUPDATE, _POWERSOURCEUPDATE, charging/BATTERY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
