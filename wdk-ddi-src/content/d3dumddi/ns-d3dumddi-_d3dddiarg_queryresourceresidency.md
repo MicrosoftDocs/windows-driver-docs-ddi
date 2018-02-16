@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_QUERYRESOURCERESIDENCY
-title: _D3DDDIARG_QUERYRESOURCERESIDENCY
+title: "_D3DDDIARG_QUERYRESOURCERESIDENCY"
 author: windows-driver-content
 description: The D3DDDIARG_QUERYRESOURCERESIDENCY structure describes a list of resources on which residency is verified through the QueryResourceResidency function.
 old-location: display\d3dddiarg_queryresourceresidency.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14c0cb12-3ed0-4c78-befa-6da9e8cd7dbc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_46a460d2-e511-43fd-9906-b9a47762f9a7.xml, _D3DDDIARG_QUERYRESOURCERESIDENCY, D3DDDIARG_QUERYRESOURCERESIDENCY, d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY, D3DDDIARG_QUERYRESOURCERESIDENCY structure [Display Devices], display.d3dddiarg_queryresourceresidency
+ms.keywords: D3DDDIARG_QUERYRESOURCERESIDENCY, display.d3dddiarg_queryresourceresidency, UMDisplayDriver_param_Structs_46a460d2-e511-43fd-9906-b9a47762f9a7.xml, d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY, _D3DDDIARG_QUERYRESOURCERESIDENCY, D3DDDIARG_QUERYRESOURCERESIDENCY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_QUERYRESOURCERESIDENCY
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct _D3DDDIARG_QUERYRESOURCERESIDENCY {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a>
+
+
 
  
 

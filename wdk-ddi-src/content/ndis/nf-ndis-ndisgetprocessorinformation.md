@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2cee5cf4-7dee-49d2-905c-2b9634137ce4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisgetprocessorinformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, NdisGetProcessorInformation
+ms.keywords: NdisGetProcessorInformation, ndis/NdisGetProcessorInformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], netvista.ndisgetprocessorinformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGetProcessorInformation
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGetProcessorInformation function
@@ -73,15 +73,17 @@ NDIS_STATUS NdisGetProcessorInformation(
 ### -param SystemProcessorInfo [in, out]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_system_processor_info" tabindex="0"><b>
-     NDIS_SYSTEM_PROCESSOR_INFO</b></mshelp:link> structure that NDIS fills with the information about the CPU topology
+     <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">
+     NDIS_SYSTEM_PROCESSOR_INFO</a> structure that NDIS fills with the information about the CPU topology
      of the system and the RSS processor set.
 
 
 ## -returns
 
 
+
 <b>NdisGetProcessorInformation</b> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,11 +113,14 @@ The size that was specified in the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -124,26 +129,35 @@ NDIS drivers call the
 
 RSS-capable miniport drivers that support MSI-X call 
     <b>NdisGetProcessorInformation</b> in their 
-    <mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-    MiniportFilterResourceRequirements</i></mshelp:link> function. Miniport drivers set the interrupt affinity of the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+    MiniportFilterResourceRequirements</a> function. Miniport drivers set the interrupt affinity of the
     allocated MSI-X messages to the RSS processors that are specified in the 
     <b>RssProcessors</b> member of the 
     <i>SystemProcessorInfo</i> parameter.
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisgetrssprocessorinformation" tabindex="0"><b>
-   NdisGetRssProcessorInformation</b></mshelp:link>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+   NdisGetProcessorInformationEx</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
-<mshelp:link keywords="netvista.ndisgetprocessorinformationex" tabindex="0"><b>
-   NdisGetProcessorInformationEx</b></mshelp:link>
 
-<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-   MiniportFilterResourceRequirements</i></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+   NdisGetRssProcessorInformation</a>
+
+
 
  
 

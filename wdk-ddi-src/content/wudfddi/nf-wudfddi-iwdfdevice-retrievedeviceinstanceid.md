@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 224277b4-447f-4981-aabf-90a10322c0df
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice, IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId, wudfddi/IWDFDevice::RetrieveDeviceInstanceId, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, umdf.iwdfdevice_retrievedeviceinstanceid, wdf.iwdfdevice_retrievedeviceinstanceid, RetrieveDeviceInstanceId method, IWDFDevice interface, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method, IWDFDevice interface
+ms.keywords: RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId, IWDFDevice interface, RetrieveDeviceInstanceId method, umdf.iwdfdevice_retrievedeviceinstanceid, IWDFDevice::RetrieveDeviceInstanceId, wudfddi/IWDFDevice::RetrieveDeviceInstanceId, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, RetrieveDeviceInstanceId method, IWDFDevice interface, IWDFDevice, wdf.iwdfdevice_retrievedeviceinstanceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.RetrieveDeviceInstanceId
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -88,6 +88,7 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 ## -returns
 
 
+
 <b>RetrieveDeviceInstanceId</b> returns S_OK for the following scenarios: 
 
 
@@ -105,9 +106,12 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 

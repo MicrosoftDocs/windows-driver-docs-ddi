@@ -1,6 +1,6 @@
 ---
 UID: NE:hwnclx._HWN_CLX_EXPORT_INDEX
-title: _HWN_CLX_EXPORT_INDEX
+title: "_HWN_CLX_EXPORT_INDEX"
 author: windows-driver-content
 description: Defines the position for each of the Hardware Notification exports in the export table.
 old-location: gpiobtn\_hwn_clx_export_index.htm
@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: RegisterClientIndex, hwnclx/UnregisterClientIndex, hwnclx/HWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, _HWN_CLX_EXPORT_INDEX, HwNExportLastExportIndex, *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX, hwnclx/RegisterClientIndex, hwnclx/AddDevicePostDeviceCreateIndex, gpiobtn._hwn_clx_export_index, hwnclx/HwNExportLastExportIndex, HWN_CLX_EXPORT_INDEX enumeration, UnregisterClientIndex, AddDevicePreDeviceCreateIndex, hwnclx/AddDevicePreDeviceCreateIndex
+ms.keywords: AddDevicePreDeviceCreateIndex, hwnclx/RegisterClientIndex, HwNExportLastExportIndex, hwnclx/AddDevicePreDeviceCreateIndex, hwnclx/HwNExportLastExportIndex, HWN_CLX_EXPORT_INDEX enumeration, RegisterClientIndex, gpiobtn._hwn_clx_export_index, UnregisterClientIndex, HWN_CLX_EXPORT_INDEX, hwnclx/UnregisterClientIndex, *PHWN_CLX_EXPORT_INDEX, _HWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, hwnclx/AddDevicePostDeviceCreateIndex, hwnclx/HWN_CLX_EXPORT_INDEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hwnclx.h
-apiname: 
+apiname:
 -	HWN_CLX_EXPORT_INDEX
 product: Windows
 targetos: Windows
-req.typenames: *PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX
+req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
 ---
 
 # _HWN_CLX_EXPORT_INDEX enumeration
@@ -104,9 +104,13 @@ Position of the last hardware notification in the export table.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+
+
 <a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
 
  
 

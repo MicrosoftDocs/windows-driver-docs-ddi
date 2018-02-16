@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a0f9a339-f548-47a2-92ab-ccd341592384
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, kernel.ioconnectinterrupt, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], IoConnectInterrupt, wdm/IoConnectInterrupt
+ms.keywords: k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, wdm/IoConnectInterrupt, kernel.ioconnectinterrupt, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], IoConnectInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoConnectInterrupt
 product: Windows
 targetos: Windows
@@ -136,11 +136,14 @@ Specifies whether to save the floating-point stack when the driver's device inte
 ## -returns
 
 
+
 <b>IoConnectInterrupt</b> can return one of the following NTSTATUS values:
 
 
 
+
 ## -remarks
+
 
 
 New drivers should use the <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> routine, which is easier to use. Drivers for devices that support message-signaled interrupts (MSI) must use <b>IoConnectInterruptEx</b>.
@@ -167,17 +170,28 @@ Kernel routines that use the KAFFINITY type include <b>IoConnectInterrupt</b>, <
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
-<a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

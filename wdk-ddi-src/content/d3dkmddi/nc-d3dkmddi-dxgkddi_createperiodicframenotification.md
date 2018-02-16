@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: requires_max_(PASSIVE_LEVEL)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ A structure of type <i>PDXGKARG_CREATEPERIODICFRAMENOTIFICATION</i> containing t
 ## -returns
 
 
+
 DXGKDDI_CREATEPERIODICFRAMENOTIFICATION returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,6 +127,8 @@ When a periodic frame notification has not been successfully created.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

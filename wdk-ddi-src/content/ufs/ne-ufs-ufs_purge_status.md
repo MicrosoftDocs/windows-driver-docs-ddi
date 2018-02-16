@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9BC978A9-FA5E-4A1E-9775-1DC9C270F5DC
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: UFS_PurgeStatusInProgress, ufs/UFS_PurgeStatusInProgress, ufs/UFS_PURGE_STATUS, storage.ufs_purge_status, UFS_PurgeStatusInterrupted, UFS_PurgeStatusSuccess, UFS_PURGE_STATUS, ufs/UFS_PurgeStatusFailure, UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusSuccess, UFS_PurgeStatusQueueNotEmpty, UFS_PurgeStatusFailure, ufs/UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusInterrupted, UFS_PURGE_STATUS enumeration [Storage Devices]
+ms.keywords: ufs/UFS_PurgeStatusQueueNotEmpty, UFS_PURGE_STATUS enumeration [Storage Devices], UFS_PurgeStatusInterrupted, ufs/UFS_PurgeStatusInterrupted, UFS_PURGE_STATUS, storage.ufs_purge_status, ufs/UFS_PurgeStatusSuccess, ufs/UFS_PurgeStatusIdle, UFS_PurgeStatusSuccess, UFS_PurgeStatusInProgress, UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusFailure, UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusInProgress, ufs/UFS_PURGE_STATUS, UFS_PurgeStatusFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ufs.h
-apiname: 
+apiname:
 -	UFS_PURGE_STATUS
 product: Windows
 targetos: Windows
@@ -106,6 +106,7 @@ The current purge operation failed.
 ## -remarks
 
 
+
 When the <b>UFS_PURGE_STATUS</b> is equal to
 the values 2, 3, 4, or 5, the
 <b>UFS_PURGE_STATUS</b> is automatically
@@ -114,9 +115,12 @@ that it is read.
 
 
 
+
 ## -see-also
 
 <a href="..\ufs\ne-ufs-ufs_attributes_descriptor.md">UFS_ATTRIBUTES_DESCRIPTOR</a>
+
+
 
  
 

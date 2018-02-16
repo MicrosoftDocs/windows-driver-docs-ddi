@@ -2,12 +2,12 @@
 UID: NF:winsplp.ProvidorFindClosePrinterChangeNotification
 title: ProvidorFindClosePrinterChangeNotification function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\providorfindcloseprinterchangenotification.htm
 old-project: print
 ms.assetid: D7360F7B-394D-480A-B2AB-B4461B057E43
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.providorfindcloseprinterchangenotification, ProvidorFindClosePrinterChangeNotification function [Print Devices], winsplp/ProvidorFindClosePrinterChangeNotification, ProvidorFindClosePrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	ProvidorFindClosePrinterChangeNotification
 product: Windows
 targetos: Windows
@@ -69,5 +69,4 @@ BOOL WINAPI ProvidorFindClosePrinterChangeNotification(
 
 
 ### -param hPrinter [in]
-
 

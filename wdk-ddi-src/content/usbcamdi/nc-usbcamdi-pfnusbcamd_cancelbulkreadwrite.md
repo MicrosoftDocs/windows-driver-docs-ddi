@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	USBCAMD_CancelBulkReadWrite
 product: Windows
 targetos: Windows
@@ -85,7 +85,9 @@ Specifies the index of the bulk pipe to cancel the read or write request.
 ## -returns
 
 
+
 <b>USBCAMD_CancelBulkReadWrite</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,20 +110,26 @@ The current IRQL &gt;= DISPATCH_LEVEL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>USBCAMD_CancelBulkReadWrite</b> is not available in USBCAMD version 1.0.
+
 
 
 
 ## -see-also
 
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
+
+
 
  
 

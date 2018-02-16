@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SRBEX_DATA_POWER
-title: _SRBEX_DATA_POWER
+title: "_SRBEX_DATA_POWER"
 author: windows-driver-content
 description: The SRBEX_DATA_POWER structure contains the request data for an extended power SRB.
 old-location: storage\srbex_data_power.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61F5C316-5214-45A6-B4BA-DEE6A224E811
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PSRBEX_DATA_POWER, storport/PSRBEX_DATA_POWER, storage.srbex_data_power, PSRBEX_DATA_POWER structure pointer [Storage Devices], _SRBEX_DATA_POWER, PSRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], storport/SRBEX_DATA_POWER, SRBEX_DATA_POWER
+ms.keywords: storport/SRBEX_DATA_POWER, PSRBEX_DATA_POWER structure pointer [Storage Devices], _SRBEX_DATA_POWER, SRBEX_DATA_POWER, storport/PSRBEX_DATA_POWER, *PSRBEX_DATA_POWER, storage.srbex_data_power, PSRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	SRBEX_DATA_POWER
 product: Windows
 targetos: Windows
-req.typenames: SRBEX_DATA_POWER, *PSRBEX_DATA_POWER
+req.typenames: "*PSRBEX_DATA_POWER, SRBEX_DATA_POWER"
 req.product: Windows 10 or later.
 ---
 
@@ -107,9 +107,15 @@ An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.
 
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
+
+
 <a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a>
 
+
+
 <a href="..\storport\ne-storport-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a>
+
+
 
  
 

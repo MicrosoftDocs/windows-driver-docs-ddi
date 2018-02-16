@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57ed4f33-6ce6-41ae-b424-147318ba7656
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeTimerEx, kernel.keinitializetimerex, wdm/KeInitializeTimerEx, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml
+ms.keywords: kernel.keinitializetimerex, k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], KeInitializeTimerEx, wdm/KeInitializeTimerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeInitializeTimerEx
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Specifies the type of the timer object, either <b>NotificationTimer</b> or <b>Sy
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The timer object is initialized to a not-signaled state.
@@ -103,19 +106,32 @@ Use <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a> or <a href="..\wdm\nf-w
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
 
 <a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
 
+
+
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+
+
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
 
 <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03fc6240-ccc8-48de-87e0-b1ee5db3bac8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_writephonebookentry, RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], rilapi/RIL_WritePhonebookEntry, RIL_WritePhonebookEntry
+ms.keywords: RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], rilapi/RIL_WritePhonebookEntry, netvista.ril_writephonebookentry, RIL_WritePhonebookEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_WritePhonebookEntry
 product: Windows
 targetos: Windows
@@ -78,30 +78,26 @@ HRESULT  RIL_WritePhonebookEntry(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param dwStoreLocation
-
 
 
 ### -param lpEntry
 
 
-
 ### -param lpLockVerification
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

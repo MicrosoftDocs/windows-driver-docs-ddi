@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 87289ea8-f727-428d-93a1-2d3b0ab44e8b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, video/VideoPortAllocateBuffer, VideoPortAllocateBuffer, VideoPortAllocateBuffer function [Display Devices], display.videoportallocatebuffer
+ms.keywords: VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, VideoPortAllocateBuffer, video/VideoPortAllocateBuffer, display.videoportallocatebuffer, VideoPortAllocateBuffer function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortAllocateBuffer
 product: Windows
 targetos: Windows
@@ -90,20 +90,26 @@ Is the location in which the video port driver returns a pointer to a pointer to
 ## -returns
 
 
+
 <b>VideoPortAllocateBuffer</b> returns NO_ERROR when it successfully completes the allocation request, or ERROR_NOT_ENOUGH_MEMORY if it is unable to allocate a buffer of <i>Size</i> bytes. A return value of ERROR_INSUFFICIENT_BUFFER indicates that a miniport driver has exceeded its maximum allowable allocation of memory.
+
 
 
 
 ## -remarks
 
 
+
 A miniport driver can use the return value of this function to determine whether the buffer allocation succeeded.
+
 
 
 
 ## -see-also
 
 <a href="..\video\nf-video-videoportreleasebuffer.md">VideoPortReleaseBuffer</a>
+
+
 
  
 

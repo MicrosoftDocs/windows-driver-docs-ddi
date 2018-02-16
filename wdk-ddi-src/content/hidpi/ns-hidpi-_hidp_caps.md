@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_CAPS
-title: _HIDP_CAPS
+title: "_HIDP_CAPS"
 author: windows-driver-content
 description: The HIDP_CAPS structure contains information about a top-level collection's capability.
 old-location: hid\hidp_caps.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: ec4d4b7b-acf6-4839-9a61-1883eddce3f4
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HIDP_CAPS, hid.hidp_caps, PHIDP_CAPS structure pointer [Human Input Devices], hidstrct_2ef93e42-2fd2-4dff-87fb-11f1d1342b07.xml, hidpi/PHIDP_CAPS, HIDP_CAPS structure [Human Input Devices], PHIDP_CAPS, hidpi/HIDP_CAPS, _HIDP_CAPS, *PHIDP_CAPS
+ms.keywords: hidpi/PHIDP_CAPS, hid.hidp_caps, *PHIDP_CAPS, PHIDP_CAPS, hidstrct_2ef93e42-2fd2-4dff-87fb-11f1d1342b07.xml, _HIDP_CAPS, HIDP_CAPS structure [Human Input Devices], hidpi/HIDP_CAPS, HIDP_CAPS, PHIDP_CAPS structure pointer [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidpi.h
-apiname: 
+apiname:
 -	HIDP_CAPS
 product: Windows
 targetos: Windows
-req.typenames: *PHIDP_CAPS, HIDP_CAPS
+req.typenames: HIDP_CAPS, *PHIDP_CAPS
 ---
 
 # _HIDP_CAPS structure
@@ -165,29 +165,49 @@ Specifies the number of data indices assigned to buttons and values in all featu
 ## -remarks
 
 
+
 Callers of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538865">HIDClass support routines</a> use the information provided in this structure when a called routine requires, as input, the size of a report type, the number of link collection nodes, the number of control capabilities, or the number of data indices.
+
 
 
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
-
 <a href="..\hidpi\nf-hidpi-hidp_getspecificvaluecaps.md">HidP_GetSpecificValueCaps</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
-
-<a href="..\hidpi\ns-hidpi-_hidp_link_collection_node.md">HIDP_LINK_COLLECTION_NODE</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_link_collection_node.md">HIDP_LINK_COLLECTION_NODE</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
+
+
 
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+
+
 
  
 

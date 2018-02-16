@@ -7,7 +7,7 @@ old-location: print\ixpspartiterator.htm
 old-project: print
 ms.assetid: 6fd51647-e7e4-4c9a-ae87-00eb3e1d3fbb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.ixpspartiterator, IXpsPartIterator interface [Print Devices], IXpsPartIterator interface [Print Devices], described, IXpsPartIterator, filterpipeline/IXpsPartIterator, filterpipeline_75476300-7fcc-46a5-8a48-abde1dcd5e36.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsPartIterator
 product: Windows
 targetos: Windows

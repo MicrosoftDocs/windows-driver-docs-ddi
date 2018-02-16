@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 136aa2af-e3bf-48b6-9511-348510eedfb5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, umdf.iwdfmemory_getdatabuffer, IWDFMemory interface, GetDataBuffer method, wdf.iwdfmemory_getdatabuffer, GetDataBuffer method, GetDataBuffer, wudfddi/IWDFMemory::GetDataBuffer, GetDataBuffer method, IWDFMemory interface, IWDFMemory, IWDFMemory::GetDataBuffer
+ms.keywords: wdf.iwdfmemory_getdatabuffer, GetDataBuffer method, GetDataBuffer, IWDFMemory interface, GetDataBuffer method, IWDFMemory, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, GetDataBuffer method, IWDFMemory interface, umdf.iwdfmemory_getdatabuffer, IWDFMemory::GetDataBuffer, wudfddi/IWDFMemory::GetDataBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFMemory.GetDataBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -76,6 +76,7 @@ void* GetDataBuffer(
 
 
 
+
 #### - pBufferSize [out, optional]
 
 A pointer to a variable that receives information that describes the size of the data buffer.
@@ -86,20 +87,26 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 ## -returns
 
 
+
 <b>GetDataBuffer</b> returns a pointer to the data buffer.
+
 
 
 
 ## -remarks
 
 
+
 For a code example of how to use the <b>GetDataBuffer</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
 
  
 

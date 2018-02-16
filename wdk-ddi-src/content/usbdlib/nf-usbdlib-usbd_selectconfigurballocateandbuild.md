@@ -7,8 +7,8 @@ old-location: buses\usbd_selectconfigurballocateandbuild.htm
 old-project: usbref
 ms.assetid: 2B2F721C-9201-472B-8629-352CB212235C
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbdlib/USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild, buses.usbd_selectconfigurballocateandbuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses]
+ms.date: 2/8/2018
+ms.keywords: USBD_SelectConfigUrbAllocateAndBuild routine [Buses], usbdlib/USBD_SelectConfigUrbAllocateAndBuild, buses.usbd_selectconfigurballocateandbuild, USBD_SelectConfigUrbAllocateAndBuild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbdex.lib
 -	Usbdex.dll
-apiname: 
+apiname:
 -	USBD_SelectConfigUrbAllocateAndBuild
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -99,10 +99,12 @@ Pointer to a <a href="..\usb\ns-usb-_urb.md">URB</a> structure that receives the
 ## -returns
 
 
+
 The <b>USBD_SelectConfigUrbAllocateAndBuild</b> routine returns an NT status code. 
 
 
 Possible values include, but are not limited to, the status codes listed in the following table.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,26 +143,34 @@ Insufficient memory available to complete the request.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Before calling <b>USBD_SelectConfigUrbAllocateAndBuild</b>, the client driver must perform the following tasks: 
+
 <ol>
 <li>Get the number of interfaces in the configuration. This information is contained in the <b>bNumInterfaces</b> member of the <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> structure pointed to by <i>ConfigurationDescriptor</i>.</li>
 <li>Create an array of  <a href="..\usbdlib\ns-usbdlib-_usbd_interface_list_entry.md">USBD_INTERFACE_LIST_ENTRY</a> structures. The number  of elements in the array  must be one more than the number of interfaces. Initialize the array by calling <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>. </li>
 <li>Obtain an interface descriptor  for each interface (or its alternate setting)   in the configuration. You can obtain those interface descriptors by calling <a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a>. </li>
 <li>For each element (except  the last element) in the array,  set the <b>InterfaceDescriptor</b> member to the address of an  interface descriptor. For the first element in the array, set the <b>InterfaceDescriptor</b> member to the address of the  interface descriptor that represents the first interface in the configuration. Similarly for the <i>n</i>th element in the array, set the <b>InterfaceDescriptor</b> member to the address of the  interface descriptor that represents the <i>n</i>th interface in the configuration. </li>
 <li>The <b>InterfaceDescriptor</b> member of the last element must be set to NULL. </li>
-</ol><b>USBD_SelectConfigUrbAllocateAndBuild</b> performs the following tasks: 
+</ol>
+<b>USBD_SelectConfigUrbAllocateAndBuild</b> performs the following tasks: 
+
 <ul>
 <li>Creates an URB and fills it with information about the specified configuration, its interfaces and endpoints, and sets the request type to URB_FUNCTION_SELECT_CONFIGURATION.</li>
 <li>Fills a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure in the URB for each interface.</li>
 <li>Sets  the <b>Interface</b> member of the <i>n</i>th element of the caller-provided <a href="..\usbdlib\ns-usbdlib-_usbd_interface_list_entry.md">USBD_INTERFACE_LIST_ENTRY</a>  array to the address of the corresponding <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure in the URB.</li>
-</ul>You can use the received pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> structure to submit a select-configuration request to the USB driver stack to set the specified configuration. In addition, you can use the <b>Interface</b> member of each <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure in the array to get information about the interface. Within each <b>USBD_INTERFACE_INFORMATION</b> structure, the  <b>Pipes</b> member is an array of <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structures. Each <b>USBD_PIPE_INFORMATION</b> structure contains information about the pipes opened (by the USB driver stack) for the endpoints in that interface. You can  obtain pipe handles from the array and store them for future I/O requests to the device.
+</ul>
+You can use the received pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> structure to submit a select-configuration request to the USB driver stack to set the specified configuration. In addition, you can use the <b>Interface</b> member of each <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure in the array to get information about the interface. Within each <b>USBD_INTERFACE_INFORMATION</b> structure, the  <b>Pipes</b> member is an array of <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a> structures. Each <b>USBD_PIPE_INFORMATION</b> structure contains information about the pipes opened (by the USB driver stack) for the endpoints in that interface. You can  obtain pipe handles from the array and store them for future I/O requests to the device.
+
 
 
 
@@ -168,11 +178,15 @@ Before calling <b>USBD_SelectConfigUrbAllocateAndBuild</b>, the client driver mu
 
 <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
 
+
+
 <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_SelectConfigUrbAllocateAndBuild routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_SelectConfigUrbAllocateAndBuild routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

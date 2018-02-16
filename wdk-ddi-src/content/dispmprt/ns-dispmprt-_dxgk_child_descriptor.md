@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_DESCRIPTOR
-title: _DXGK_CHILD_DESCRIPTOR
+title: "_DXGK_CHILD_DESCRIPTOR"
 author: windows-driver-content
 description: The DXGK_CHILD_DESCRIPTOR structure holds identification and capability information for an individual child device of the display adapter.
 old-location: display\dxgk_child_descriptor.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a814da0c-3712-4e7b-9349-a446d7b32c90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_child_descriptor, DmStructs_711f63dc-7ad9-49d8-b83b-5e375764a762.xml, PDXGK_CHILD_DESCRIPTOR structure pointer [Display Devices], DXGK_CHILD_DESCRIPTOR structure [Display Devices], DXGK_CHILD_DESCRIPTOR, PDXGK_CHILD_DESCRIPTOR, dispmprt/PDXGK_CHILD_DESCRIPTOR, *PDXGK_CHILD_DESCRIPTOR, dispmprt/DXGK_CHILD_DESCRIPTOR, _DXGK_CHILD_DESCRIPTOR
+ms.keywords: DXGK_CHILD_DESCRIPTOR structure [Display Devices], *PDXGK_CHILD_DESCRIPTOR, _DXGK_CHILD_DESCRIPTOR, DmStructs_711f63dc-7ad9-49d8-b83b-5e375764a762.xml, PDXGK_CHILD_DESCRIPTOR structure pointer [Display Devices], PDXGK_CHILD_DESCRIPTOR, DXGK_CHILD_DESCRIPTOR, display.dxgk_child_descriptor, dispmprt/PDXGK_CHILD_DESCRIPTOR, dispmprt/DXGK_CHILD_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dispmprt.h
-apiname: 
+apiname:
 -	DXGK_CHILD_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: DXGK_CHILD_DESCRIPTOR, *PDXGK_CHILD_DESCRIPTOR
+req.typenames: "*PDXGK_CHILD_DESCRIPTOR, DXGK_CHILD_DESCRIPTOR"
 ---
 
 # _DXGK_CHILD_DESCRIPTOR structure
@@ -93,9 +93,11 @@ A unique identifier, created by the display miniport driver, that identifies the
 ## -remarks
 
 
+
 The <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function, implemented by the display miniport driver, fills in an array of DXGK_CHILD_DESCRIPTOR structures, one for each child device of the display adapter.
 
 Each child device of type <b>TypeVideoOutput</b> is associated with a video present target, and the <b>ChildUid</b> member of this structure is used as the identifier for that video present target. Several functions implemented by the video present network (VidPN) manager receive a video present target identifier. For an example, see the <i>VidPnTargetId</i> parameter of the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a> function.
+
 
 
 
@@ -103,11 +105,19 @@ Each child device of type <b>TypeVideoOutput</b> is associated with a video pres
 
 <a href="..\dispmprt\ne-dispmprt-_dxgk_child_device_type.md">DXGK_CHILD_DEVICE_TYPE</a>
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+
+
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_capabilities.md">DXGK_CHILD_CAPABILITIES</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_TIMED_OPERATION
-title: _DXGK_TIMED_OPERATION
+title: "_DXGK_TIMED_OPERATION"
 author: windows-driver-content
 description: The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the Timed Operation Interface.
 old-location: display\dxgk_timed_operation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6b377ba5-cd3b-433e-bd9c-315203c3bc69
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION, dispmprt/DXGK_TIMED_OPERATION, DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, display.dxgk_timed_operation, PDXGK_TIMED_OPERATION structure pointer [Display Devices], DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION, _DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices]
+ms.keywords: display.dxgk_timed_operation, PDXGK_TIMED_OPERATION structure pointer [Display Devices], *PDXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION, dispmprt/DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices], _DXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION, DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, DXGK_TIMED_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_TIMED_OPERATION
 product: Windows
 targetos: Windows
@@ -105,13 +105,17 @@ typedef struct _DXGK_TIMED_OPERATION {
 ## -remarks
 
 
+
 Display miniport drivers should not change of rely on members that are marked with the  [system] designation.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
+
 
  
 

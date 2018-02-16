@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Poclass.h
-apiname: 
+apiname:
 -	ActiveCooling
 product: Windows
 targetos: Windows
-req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
+req.typenames: "*PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION"
 ---
 
 # DEVICE_ACTIVE_COOLING callback
@@ -84,11 +84,14 @@ Indicates whether to engage or disengage active cooling. If <b>TRUE</b>, the dri
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The driver for a device that has active-cooling capabilities can implement this routine to enable the operating system to engage or disengage the active-cooling function in the device.
@@ -103,9 +106,12 @@ For more information about active cooling, see <a href="https://msdn.microsoft.c
 
 
 
+
 ## -see-also
 
 <a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c724a4f5-55ef-413d-bd1a-9cd39d3e42f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, image.wiasparseendorserstring, wiasParseEndorserString function [Imaging Devices], wiamdef/wiasParseEndorserString, wiasParseEndorserString
+ms.keywords: wiamdef/wiasParseEndorserString, image.wiasparseendorserstring, wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasParseEndorserString
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Pointer to a memory location that receives the address of the parsed endorser st
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
 
 
 
+
 ## -remarks
+
 
 
 An application sets the WIA_DPS_ENDORSER_STRING property to a string that can contain the WIA service-defined tokens $DATE$, $TIME$, $PAGE_COUNT$, $DAY$, $MONTH$, and $YEAR$, as well as vendor-defined tokens. After a driver calls <b>wiasParseEndorserString</b>, the string pointed to by <i>pOutputString</i> contains a copy of the string in WIA_DPS_ENDORSER_STRING property, but with any tokens replaced by the values the tokens represent. For example, if the application set the endorser string to "This page was scanned on $DATE$", and the current date was October 1, 2000, the resulting output string would be "This page was scanned on 2000/10/1".
@@ -106,6 +109,7 @@ An application sets the WIA_DPS_ENDORSER_STRING property to a string that can co
 The list of standard WIA endorser tokens can be found in <i>wiadef.h</i>.
 
 Drivers can request that <b>wiasParseEndorserString</b> substitute values for vendor-defined tokens by filling out a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a> structure for each token/value pair, and packaging all of these structures in a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a> structure. The following example shows how this function can be used.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -120,7 +124,9 @@ hr = wiasParseEndorserString(pWiasContext, 0,
                              &amp;Info, &amp;bstrResultingEndorser);</pre>
 </td>
 </tr>
-</table></span></div>Assuming that the WIA_DPS_ENDORSER_STRING property contains "This is $MY_TOKEN$", and that the call to <b>wiasParseEndorserString</b> was successful, <i>bstrResultingEndorser</i> will now contain "This is My value".
+</table></span></div>
+Assuming that the WIA_DPS_ENDORSER_STRING property contains "This is $MY_TOKEN$", and that the call to <b>wiasParseEndorserString</b> was successful, <i>bstrResultingEndorser</i> will now contain "This is My value".
+
 
 
 
@@ -128,7 +134,11 @@ hr = wiasParseEndorserString(pWiasContext, 0,
 
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_value.md">WIAS_ENDORSER_VALUE</a>
 
+
+
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_endorser_info.md">WIAS_ENDORSER_INFO</a>
+
+
 
  
 

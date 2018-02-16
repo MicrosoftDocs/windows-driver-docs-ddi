@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_IPV4_HEADER_FIELD
-title: _NDIS_IPV4_HEADER_FIELD
+title: "_NDIS_IPV4_HEADER_FIELD"
 author: windows-driver-content
 description: The NDIS_IPV4_HEADER_FIELD enumeration identifies the type of a field in an IP version 4 (IPv4) header to be filtered.
 old-location: netvista\ndis_ipv4_header_field.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5B7C4107-1724-473C-8F36-C345A056F3DC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisIPv4HeaderFieldProtocol, PNDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldUndefined, ntddndis/NDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldMaximum, ntddndis/NdisIPv4HeaderFieldMaximum, NDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_ipv4_header_field, *PNDIS_IPV4_HEADER_FIELD, ntddndis/PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisIPv4HeaderFieldUndefined, _NDIS_IPV4_HEADER_FIELD, NdisIPv4HeaderFieldProtocol
+ms.keywords: NdisIPv4HeaderFieldMaximum, netvista.ndis_ipv4_header_field, _NDIS_IPV4_HEADER_FIELD, ntddndis/NDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldProtocol, NdisIPv4HeaderFieldProtocol, PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisIPv4HeaderFieldUndefined, ntddndis/NdisIPv4HeaderFieldMaximum, NdisIPv4HeaderFieldUndefined, *PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_IPV4_HEADER_FIELD
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD
+req.typenames: NDIS_IPV4_HEADER_FIELD, *PNDIS_IPV4_HEADER_FIELD
 ---
 
 # _NDIS_IPV4_HEADER_FIELD enumeration
@@ -88,16 +88,20 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The <b>NDIS_IPV4_HEADER_FIELD</b> enumeration is used in the 
-    <mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_receive_filter_field_parameters" tabindex="0"><b>
-   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b></mshelp:link>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+   NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+
+
 
  
 

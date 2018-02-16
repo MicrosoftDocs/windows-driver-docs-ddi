@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 32bb774f-b1eb-4198-8e4c-febcac83153d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ehstorioctl/PACT_AUTHZ_STATE, PACT_AUTHZ_STATE structure pointer [Storage Devices], ehstorioctl/ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE, tagACT_AUTHZ_STATE, ACT_AUTHZ_STATE, structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, ACT_AUTHZ_STATE structure [Storage Devices], PACT_AUTHZ_STATE, storage.act_authz_state
+ms.keywords: ehstorioctl/PACT_AUTHZ_STATE, structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, storage.act_authz_state, tagACT_AUTHZ_STATE, PACT_AUTHZ_STATE, ehstorioctl/ACT_AUTHZ_STATE, ACT_AUTHZ_STATE structure [Storage Devices], PACT_AUTHZ_STATE structure pointer [Storage Devices], ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	ACT_AUTHZ_STATE
 product: Windows
 targetos: Windows
-req.typenames: ACT_AUTHZ_STATE, *PACT_AUTHZ_STATE
+req.typenames: "*PACT_AUTHZ_STATE, ACT_AUTHZ_STATE"
 ---
 
 # tagACT_AUTHZ_STATE structure

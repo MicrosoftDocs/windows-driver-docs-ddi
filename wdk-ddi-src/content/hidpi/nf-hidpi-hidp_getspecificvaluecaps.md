@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 0860733c-d28c-4916-a743-d5f6256cfca0
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, hid.hidp_getspecificvaluecaps, hidpi/HidP_GetSpecificValueCaps, HidP_GetSpecificValueCaps, HidP_GetSpecificValueCaps routine [Human Input Devices]
+ms.keywords: hid.hidp_getspecificvaluecaps, HidP_GetSpecificValueCaps routine [Human Input Devices], hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, HidP_GetSpecificValueCaps, hidpi/HidP_GetSpecificValueCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+apiname:
 -	HidP_GetSpecificValueCaps
 product: Windows
 targetos: Windows
@@ -112,7 +112,9 @@ Pointer to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f
 ## -returns
 
 
+
 <b>HidP_GetSpecificValueCaps</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ The preparsed data is not valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The required size of the <i>ValueCaps</i> buffer is specified by the <b>Number</b><i>Xxx</i><b>ValueCaps </b>members of a top-level collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
@@ -157,17 +162,28 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
+
 ## -see-also
+
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+
+
 
 <a href="..\hidpi\nf-hidpi-hidp_getvaluecaps.md">HidP_GetValueCaps</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
 <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+
+
 
  
 

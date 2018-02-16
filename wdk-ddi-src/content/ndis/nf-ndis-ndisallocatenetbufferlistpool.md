@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b117b472-0c26-41a9-b364-3d0cfbd26cc9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_netbuf_functions_ref_763044cb-dfaf-4cb5-959c-7895e3e49fb0.xml, NdisAllocateNetBufferListPool, NdisAllocateNetBufferListPool function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListPool, netvista.ndisallocatenetbufferlistpool
+ms.keywords: ndis/NdisAllocateNetBufferListPool, ndis_netbuf_functions_ref_763044cb-dfaf-4cb5-959c-7895e3e49fb0.xml, NdisAllocateNetBufferListPool function [Network Drivers Starting with Windows Vista], NdisAllocateNetBufferListPool, netvista.ndisallocatenetbufferlistpool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: Ndis.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	ndis.sys
-apiname: 
+apiname:
 -	NdisAllocateNetBufferListPool
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateNetBufferListPool function
@@ -83,6 +83,7 @@ A pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET
 ## -returns
 
 
+
 <b>NdisAllocateNetBufferListPool</b> returns a handle to the NET_BUFFER_LIST structure pool that NDIS
      allocates. If the allocation was unsuccessful, this handle is <b>NULL</b>. This handle is a required parameter
      in subsequent calls to NDIS functions that allocate and free NET_BUFFER_LIST structures from this
@@ -90,7 +91,9 @@ A pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET
 
 
 
+
 ## -remarks
+
 
 
 In most cases, a caller that allocates a 
@@ -106,10 +109,10 @@ You can call the
     <b>fAllocateNetBuffer</b> value set to <b>TRUE</b> when creating a NET_BUFFER_LIST structure pool. In this case,
     a NET_BUFFER structure is preallocated with each NET_BUFFER_LIST structure that the caller allocates from
     the pool. You can call the 
-    <mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-    NdisAllocateNetBufferAndNetBufferList</b></mshelp:link> function or the 
-    <mshelp:link keywords="netvista.ndisallocatenetbufferlist" tabindex="0"><b>
-    NdisAllocateNetBufferList</b></mshelp:link> function to allocate NET_BUFFER_LIST structures from such a pool. Call 
+    <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+    NdisAllocateNetBufferAndNetBufferList</a> function or the 
+    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">
+    NdisAllocateNetBufferList</a> function to allocate NET_BUFFER_LIST structures from such a pool. Call 
     <b>NdisAllocateNetBufferAndNetBufferList</b> only if 
     <b>fAllocateNetBuffer</b> is <b>TRUE</b> and 
     <b>DataSize</b> is zero.
@@ -121,16 +124,17 @@ You can also call
     allocates from the pool.
 
 NET_BUFFER structures, MDLs, and data buffers that are allocated with 
-    <mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-    NdisAllocateNetBufferAndNetBufferList</b></mshelp:link> or 
+    <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+    NdisAllocateNetBufferAndNetBufferList</a> or 
     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a> should
     not be freed separate from the NET_BUFFER_LIST structure. Such structures are freed with the
     NET_BUFFER_LIST structure when you call the 
     <a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a> function.
 
 Call the 
-    <mshelp:link keywords="netvista.ndisfreenetbufferlistpool" tabindex="0"><b>
-    NdisFreeNetBufferListPool</b></mshelp:link> function to free a NET_BUFFER_LIST structure pool.
+    <a href="..\ndis\nf-ndis-ndisfreenetbufferlistpool.md">
+    NdisFreeNetBufferListPool</a> function to free a NET_BUFFER_LIST structure pool.
+
 
 
 
@@ -138,20 +142,36 @@ Call the
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisfreenetbufferlistpool.md">NdisFreeNetBufferListPool</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

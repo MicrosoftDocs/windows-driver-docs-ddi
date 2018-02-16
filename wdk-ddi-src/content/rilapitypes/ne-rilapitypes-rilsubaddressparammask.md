@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ef802d35-2ca6-4fe2-9f3b-e2d1e91b8500
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsubaddressparammask_2, rilapitypes/RIL_PARAM_SA_SUBADDRESS, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SA_SUBADDRESS, RILSUBADDRESSPARAMMASK, rilapitypes/RIL_PARAM_SA_ALL, RIL_PARAM_SA_ALL, rilapitypes/RILSUBADDRESSPARAMMASK
+ms.keywords: RIL_PARAM_SA_SUBADDRESS, RIL_PARAM_SA_ALL, RILSUBADDRESSPARAMMASK, netvista.rilsubaddressparammask_2, rilapitypes/RIL_PARAM_SA_SUBADDRESS, rilapitypes/RIL_PARAM_SA_ALL, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSUBADDRESSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSUBADDRESSPARAMMASK
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILSUBADDRESSPARAMMASK {
 ### -field RIL_PARAM_SA_TYPE
 
 
-
 ### -field RIL_PARAM_SA_SUBADDRESS
 
 
-
 ### -field RIL_PARAM_SA_ALL
-
 

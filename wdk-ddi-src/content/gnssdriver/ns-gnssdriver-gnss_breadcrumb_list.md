@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 40C11C4B-2FFE-452F-AA08-2BCD4B6A4F7F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PGNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST, sensors.gnss_breadcrumb_list, PGNSS_BREADCRUMB_LIST structure pointer [Sensor Devices], gnssdriver/PGNSS_BREADCRUMB_LIST, gnssdriver/GNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST structure [Sensor Devices], PGNSS_BREADCRUMB_LIST
+ms.keywords: gnssdriver/PGNSS_BREADCRUMB_LIST, PGNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST, sensors.gnss_breadcrumb_list, gnssdriver/GNSS_BREADCRUMB_LIST, PGNSS_BREADCRUMB_LIST structure pointer [Sensor Devices], GNSS_BREADCRUMB_LIST structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_BREADCRUMB_LIST
 product: Windows
 targetos: Windows

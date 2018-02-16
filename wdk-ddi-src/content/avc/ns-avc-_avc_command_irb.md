@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_COMMAND_IRB
-title: _AVC_COMMAND_IRB
+title: "_AVC_COMMAND_IRB"
 author: windows-driver-content
 description: The AVC_COMMAND_IRB structure defines a structure that contains an AV/C command and response pair.
 old-location: stream\avc_command_irb.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0aefbce4-a838-40c4-b31f-ff8dd13621f7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avc/AVC_COMMAND_IRB, AVC_COMMAND_IRB, AVC_COMMAND_IRB structure [Streaming Media Devices], PAVC_COMMAND_IRB structure pointer [Streaming Media Devices], *PAVC_COMMAND_IRB, avc/PAVC_COMMAND_IRB, PAVC_COMMAND_IRB, _AVC_COMMAND_IRB, avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml, stream.avc_command_irb
+ms.keywords: "_AVC_COMMAND_IRB, PAVC_COMMAND_IRB structure pointer [Streaming Media Devices], stream.avc_command_irb, avc/PAVC_COMMAND_IRB, avc/AVC_COMMAND_IRB, AVC_COMMAND_IRB, PAVC_COMMAND_IRB, *PAVC_COMMAND_IRB, AVC_COMMAND_IRB structure [Streaming Media Devices], avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avc.h
-apiname: 
+apiname:
 -	AVC_COMMAND_IRB
 product: Windows
 targetos: Windows
-req.typenames: *PAVC_COMMAND_IRB, AVC_COMMAND_IRB
+req.typenames: AVC_COMMAND_IRB, *PAVC_COMMAND_IRB
 ---
 
 # _AVC_COMMAND_IRB structure
@@ -84,16 +84,6 @@ typedef struct _AVC_COMMAND_IRB {
 
 
 
-### -field CommandType
-
-This specifies a value from the AvcCommandType enumeration. This member is used only during AVC_FUNCTION_GET_REQUEST. It is ignored otherwise.
-
-
-### -field ResponseCode
-
-This specifies a value from the AvcResponseCode enumeration. This member is used only during AVC_FUNCTION_SEND_RESPONSE. It is ignored otherwise.
-
-
 ### -field Common
 
 This must be set to the <b>AVC_FUNCTION_COMMAND</b> enumerator from the AVC_FUNCTION enumeration.
@@ -117,6 +107,16 @@ Set this to one if the default time-out is not appropriate for the subunit. If t
 ### -field RetryFlag
 
 Set this to one if the default retry count is not appropriate for the subunit. If this is set, the <b>Retries</b> member must be set to the desired retry count.
+
+
+### -field CommandType
+
+This specifies a value from the AvcCommandType enumeration. This member is used only during AVC_FUNCTION_GET_REQUEST. It is ignored otherwise.
+
+
+### -field ResponseCode
+
+This specifies a value from the AvcResponseCode enumeration. This member is used only during AVC_FUNCTION_SEND_RESPONSE. It is ignored otherwise.
 
 
 ### -field SubunitAddr
@@ -167,7 +167,9 @@ Reserved. This member must be zero.
 ## -remarks
 
 
+
 This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a> function codes.
+
 
 
 
@@ -175,11 +177,19 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a>
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+
+
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+
 
  
 

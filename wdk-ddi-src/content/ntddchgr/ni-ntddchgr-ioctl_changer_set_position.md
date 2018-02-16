@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddchgr.h
-apiname: 
+apiname:
 -	IOCTL_CHANGER_SET_POSITION
 product: Windows
 targetos: Windows
@@ -89,14 +89,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,7 +113,11 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_SET_POSITION). The 
 
 <a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
 
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
+
+
 
  
 

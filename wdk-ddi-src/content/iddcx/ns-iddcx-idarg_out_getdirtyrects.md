@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4116be18-e98e-4778-b0aa-753c1ca79d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_GETDIRTYRECTS, display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices]
+ms.keywords: IDARG_OUT_GETDIRTYRECTS structure [Display Devices], iddcx/IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS, display.idarg_out_getdirtyrects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDARG_OUT_GETDIRTYRECTS
 product: Windows
 targetos: Windows

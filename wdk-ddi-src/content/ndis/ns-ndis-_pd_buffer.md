@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._PD_BUFFER
-title: _PD_BUFFER
+title: "_PD_BUFFER"
 author: windows-driver-content
 description: This structure represents a PacketDirect (PD) packet, or a portion of a PD packet in a queue.
 old-location: netvista\pd_buffer.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 91555FBA-30F5-4CED-BA0D-2F0BE40BFF9E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PPD_BUFFER, netvista.pd_buffer, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], PD_BUFFER, ndis/PD_BUFFER, _PD_BUFFER, PPD_BUFFER
+ms.keywords: "_PD_BUFFER, ndis/PPD_BUFFER, PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], ndis/PD_BUFFER, netvista.pd_buffer, PPD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PD_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	PD_BUFFER
 product: Windows
 targetos: Windows
@@ -137,18 +137,105 @@ typedef struct _PD_BUFFER {
 A pointer to the next <b>PD_BUFFER</b> structure in the queue.
 
 
-### -field _PD_BUFFER
-
- 
-
-
 ### -field NextPartialPDBuffer
 
 A pointer to the next partial <b>PD_BUFFER</b> structure in the queue.
 
 
-### -field MetaDataV0
+### -field _PD_BUFFER
 
+ 
+
+
+### -field PDClientReserved
+
+Reserved for system use. Do not use.
+
+
+### -field PDClientContext
+
+The client and the provider are not allowed to modify this field.      If a client has allocated the <b>PD_BUFFER</b> with a non-zero value for      ClientContextSize, then the PDClientContext refers to a buffer size      of ClientContextSize. Otherwise, this field is NULL.
+
+
+### -field DataBufferVirtualAddress
+
+This field represents the address that hosts and software can use to access/modify the packet contents. The actual packet data is always at  DataBufferVirtualAddress+DataStart. The provider and the      platform never modify the value of this field after the <b>PD_BUFFER</b>      initialization.
+
+
+### -field DataBufferDmaLogicalAddress
+
+This field represents the logical memory location used for storing the packet data. The provider
+must use for DMA. The actual packet data is always at
+    DataBufferDmaLogicalAddress+DataStart. The provider and the
+    platform must never modify the value of this field after the <b>PD_BUFFER</b>
+    initialization.
+
+
+### -field DataBufferSize
+
+This is the total size of the allocated data buffer. The provider and the platform must never modify the value of this field
+    after the <b>PD_BUFFER</b> initialization. This data type is <b>ULONG</b> instead of
+    <b>USHORT</b> because of large send offload.
+
+
+### -field PDClientContextSize
+
+When this value is non-zero, it is the size of the buffer pointed to by PDClientContext.
+    The value of this field must only be modified by the platform. The platform does not change the value of this field after the <b>PD_BUFFER</b> allocation.
+
+
+### -field Attributes
+
+The attributes must never be modified by the provider. The table below lists attributes that this <b>PD_BUFFER</b> structure can have.
+
+<table>
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>PD_BUFFER_ATTR_BUILT_IN_DATA_BUFFER</td>
+<td>A <b>PD_BUFFER</b> allocated with its own accompanying data buffer will have
+this attribute set. The <b>PD_BUFFER</b> attributes must never be modified by clients
+or providers.</td>
+</tr>
+</table>
+ 
+
+
+### -field Flags
+
+The following table lists flags that this <b>PD_BUFFER</b> structure can have.
+
+<table>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>PD_BUFFER_FLAG_PARTIAL_PACKET_HEAD</td>
+<td>Indicates that this buffer is the head of partial packets.</td>
+</tr>
+</table>
+ 
+
+
+### -field DataStart
+
+This field denotes where the packet starts relative to the original starting address of the allocated data buffer. The provider must never modify this field. The provider adds this value to the
+    DataBufferDmaLogicalAddress value to derive the actual
+    target DMA address for packet reception/transmission. For example, the
+    target DMA address value in the hardware receive/transmit descriptor
+    must be set to DataBufferDmaLogicalAddress+DataStart when a <b>PD_BUFFER</b>
+    is posted to a receive/transmit queue.
+
+
+### -field DataLength
+
+The length of the this packet or partial packet data.
+
+
+### -field MetaDataV0
 
 
 ### -field MetaDataV0.RxFilterContext
@@ -163,6 +250,12 @@ The provider sets this to the filter context value obtained
 
 If one of the RxGftExceptionPacket or RxGftCopyPacket or RxGftSamplePacket bits are set, the RxFilterContext value is
                 overwritten with a GFT flow entry Id value.
+
+
+### -field MetaDataV0.RxHashValue
+
+The hash value computed for the incoming packet
+            that is steered to the receive queue using RSS.
 
 
 ### -field MetaDataV0.RxIPHeaderChecksumSucceeded
@@ -320,12 +413,6 @@ A common TX offload field that indicates the inner TCP options are present.
 TX offloads for this buffer.
 
 
-### -field MetaDataV0.RxHashValue
-
-The hash value computed for the incoming packet
-            that is steered to the receive queue using RSS.
-
-
 ### -field MetaDataV0.VirtualSubnetInfo
 
 The virtual subnet information.
@@ -351,91 +438,8 @@ Reserved for system use.
 A scratch field that the PD provider can use for its own purposes while the PD_BUFFER is sitting in the provider queue (in other words, posted by the client but not yet drained back by the client). Once the PD_BUFFER is drained by the client, there is no guarantee that the contents of this field will be preserved.
 
 
-### -field PDClientReserved
-
-Reserved for system use. Do not use.
-
-
-### -field PDClientContext
-
-The client and the provider are not allowed to modify this field.      If a client has allocated the <b>PD_BUFFER</b> with a non-zero value for      ClientContextSize, then the PDClientContext refers to a buffer size      of ClientContextSize. Otherwise, this field is NULL.
-
-
-### -field DataBufferVirtualAddress
-
-This field represents the address that hosts and software can use to access/modify the packet contents. The actual packet data is always at  DataBufferVirtualAddress+DataStart. The provider and the      platform never modify the value of this field after the <b>PD_BUFFER</b>      initialization.
-
-
-### -field DataBufferDmaLogicalAddress
-
-This field represents the logical memory location used for storing the packet data. The provider
-must use for DMA. The actual packet data is always at
-    DataBufferDmaLogicalAddress+DataStart. The provider and the
-    platform must never modify the value of this field after the <b>PD_BUFFER</b>
-    initialization.
-
-
-### -field DataBufferSize
-
-This is the total size of the allocated data buffer. The provider and the platform must never modify the value of this field
-    after the <b>PD_BUFFER</b> initialization. This data type is <b>ULONG</b> instead of
-    <b>USHORT</b> because of large send offload.
-
-
-### -field PDClientContextSize
-
-When this value is non-zero, it is the size of the buffer pointed to by PDClientContext.
-    The value of this field must only be modified by the platform. The platform does not change the value of this field after the <b>PD_BUFFER</b> allocation.
-
-
-### -field Attributes
-
-The attributes must never be modified by the provider. The table below lists attributes that this <b>PD_BUFFER</b> structure can have.
-<table>
-<tr>
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>PD_BUFFER_ATTR_BUILT_IN_DATA_BUFFER</td>
-<td>A <b>PD_BUFFER</b> allocated with its own accompanying data buffer will have
-this attribute set. The <b>PD_BUFFER</b> attributes must never be modified by clients
-or providers.</td>
-</tr>
-</table> 
-
-
-### -field Flags
-
-The following table lists flags that this <b>PD_BUFFER</b> structure can have.
-<table>
-<tr>
-<th>Flag</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>PD_BUFFER_FLAG_PARTIAL_PACKET_HEAD</td>
-<td>Indicates that this buffer is the head of partial packets.</td>
-</tr>
-</table> 
-
-
-### -field DataStart
-
-This field denotes where the packet starts relative to the original starting address of the allocated data buffer. The provider must never modify this field. The provider adds this value to the
-    DataBufferDmaLogicalAddress value to derive the actual
-    target DMA address for packet reception/transmission. For example, the
-    target DMA address value in the hardware receive/transmit descriptor
-    must be set to DataBufferDmaLogicalAddress+DataStart when a <b>PD_BUFFER</b>
-    is posted to a receive/transmit queue.
-
-
-### -field DataLength
-
-The length of the this packet or partial packet data.
-
-
 ## -remarks
+
 
 
 If an L2 packet is represented by multiple <b>PD_BUFFER</b> structures, the first <b>PD_BUFFER</b>
@@ -457,5 +461,6 @@ When posting <b>PD_BUFFER</b> structures to receive queues, DataLength is ignore
     When posting <b>PD_BUFFER</b> structures to transmit queues, DataLength denotes the length
     of the packet to be sent. When draining completed <b>PD_BUFFER</b> structures from
     transmit queues, the provider leaves the DataLength field unmodified.
+
 
 

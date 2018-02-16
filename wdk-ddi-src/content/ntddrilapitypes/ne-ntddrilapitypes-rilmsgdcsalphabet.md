@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21886c34-ca8d-4466-a3db-6841b2f59137
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_DCSALPHABET_UCS2, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_8BIT, ntddrilapitypes/RIL_DCSALPHABET_8BIT, ntddrilapitypes/RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, ntddrilapitypes/RILMSGDCSALPHABET, RILMSGDCSALPHABET, netvista.rilmsgdcsalphabet
+ms.keywords: ntddrilapitypes/RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_UCS2, ntddrilapitypes/RIL_DCSALPHABET_UCS2, RIL_DCSALPHABET_MAX, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RILMSGDCSALPHABET, ntddrilapitypes/RIL_DCSALPHABET_MAX, ntddrilapitypes/RILMSGDCSALPHABET, netvista.rilmsgdcsalphabet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGDCSALPHABET
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILMSGDCSALPHABET {
 ### -field RIL_DCSALPHABET_DEFAULT
 
 
-
 ### -field RIL_DCSALPHABET_8BIT
-
 
 
 ### -field RIL_DCSALPHABET_UCS2
 
 
-
 ### -field RIL_DCSALPHABET_MAX
-
 

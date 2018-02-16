@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnGetCryptoSessionPrivateDataSize
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE callback
@@ -80,65 +80,46 @@ VOID APIENTRY* pfnGetCryptoSessionPrivateDataSize(
  A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
-### -param *pCryptoType
-
-
-
-### -param *pDecoderProfile
-
-
-
-### -param *pKeyExchangeType
-
-
-
-### -param *pPrivateInputSize
-
-
-
-### -param *pPrivateOutputSize
-
-
-
-
-
-
-#### - pPrivateOutputSize [out]
-
-Returns the size of private data that the driver needs for output commands.
-
-
-#### - pPrivateInputSize [out]
-
-Returns the size of private data that the driver needs for input commands.
-
-
-#### - pCryptoType [in]
+### -param *pCryptoType [in]
 
 Indicates the crypto type for which the private input and output size is queried.
 
 
-#### - pKeyExchangeType [in]
-
-Indicates the key exchange type for which the private input and output size is queried.
-
-
-#### - pDecoderProfile [in, optional]
+### -param *pDecoderProfile [in, optional]
 
 Indicates the decoder profile for which the private input and output size is queried.
 
 
+### -param *pKeyExchangeType [in]
+
+Indicates the key exchange type for which the private input and output size is queried.
+
+
+### -param *pPrivateInputSize [out]
+
+Returns the size of private data that the driver needs for input commands.
+
+
+### -param *pPrivateOutputSize [out]
+
+Returns the size of private data that the driver needs for output commands.
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <b>NegotiateCryptessionKeyExchange</b>device driver interface (DDI):
+
 <ul>
 <li><b>DataSize</b> is set to the size of the <b>D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</b> structure.
 
@@ -163,9 +144,12 @@ When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the fol
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+
+
 
  
 

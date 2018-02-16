@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1967f663-86ce-4e9d-9498-61951bdf4db0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCmNotifyCloseAddressFamily, NdisCmNotifyCloseAddressFamily, condis_call_manager_ref_91b51137-6a26-4b90-a83c-c06a9463bf97.xml, NdisCmNotifyCloseAddressFamily function [Network Drivers Starting with Windows Vista], netvista.ndiscmnotifycloseaddressfamily
+ms.keywords: NdisCmNotifyCloseAddressFamily function [Network Drivers Starting with Windows Vista], NdisCmNotifyCloseAddressFamily, condis_call_manager_ref_91b51137-6a26-4b90-a83c-c06a9463bf97.xml, netvista.ndiscmnotifycloseaddressfamily, ndis/NdisCmNotifyCloseAddressFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCmNotifyCloseAddressFamily
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmNotifyCloseAddressFamily function
@@ -81,7 +81,9 @@ An NDIS handle that identifies the AF that NDIS should close. NDIS supplied this
 ## -returns
 
 
+
 <b>NdisCmNotifyCloseAddressFamily</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,8 +108,8 @@ NDIS successfully closed the address family.
 </td>
 <td width="60%">
 NDIS is handling this request asynchronously, and it will call the call manager's 
-       <mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-       ProtocolCmNotifyCloseAfComplete</i></mshelp:link> function when the close operation is complete.
+       <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+       ProtocolCmNotifyCloseAfComplete</a> function when the close operation is complete.
 
 </td>
 </tr>
@@ -122,49 +124,65 @@ NDIS failed the request for some NDIS or client driver-determined reason.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Stand-alone CoNDIS call managers, which register as NDIS protocol drivers by calling the 
-    <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-    NdisRegisterProtocolDriver</b></mshelp:link> function, can call the 
+    <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+    NdisRegisterProtocolDriver</a> function, can call the 
     <b>NdisCmNotifyCloseAddressFamily</b> function. Miniport call managers (MCMs) instead call the 
-    <mshelp:link keywords="netvista.ndismcmnotifycloseaddressfamily" tabindex="0"><b>
-    NdisMCmNotifyCloseAddressFamily</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+    NdisMCmNotifyCloseAddressFamily</a> function.
 
 To close an AF for a binding, the stand-alone call manager should call 
     <b>NdisCmNotifyCloseAddressFamily</b> from the 
-    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
-    ProtocolUnbindAdapterEx</i></mshelp:link> function. NDIS then calls the 
-    <mshelp:link keywords="netvista.protocolclnotifycloseaf" tabindex="0"><i>
-    ProtocolClNotifyCloseAf</i></mshelp:link> function of the client that has the specified AF open.
+    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    ProtocolUnbindAdapterEx</a> function. NDIS then calls the 
+    <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">
+    ProtocolClNotifyCloseAf</a> function of the client that has the specified AF open.
 
 If 
     <b>NdisCmNotifyCloseAddressFamily</b> returns NDIS_STATUS_PENDING, NDIS calls the call manager's 
-    <mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-    ProtocolCmNotifyCloseAfComplete</i></mshelp:link> function after the client completes the AF close operation.
+    <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+    ProtocolCmNotifyCloseAfComplete</a> function after the client completes the AF close operation.
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
-
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
-<mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-   ProtocolCmNotifyCloseAfComplete</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+   ProtocolCmNotifyCloseAfComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
-<mshelp:link keywords="netvista.ndismcmnotifycloseaddressfamily" tabindex="0"><b>
-   NdisMCmNotifyCloseAddressFamily</b></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+   NdisMCmNotifyCloseAddressFamily</a>
+
+
 
  
 

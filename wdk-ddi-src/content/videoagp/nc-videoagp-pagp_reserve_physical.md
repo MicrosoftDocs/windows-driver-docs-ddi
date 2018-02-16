@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	videoagp.h
-apiname: 
+apiname:
 -	AgpReservePhysical
 product: Windows
 targetos: Windows
-req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,7 @@ Specifies the number of pages that the video port driver should reserve.
 ### -param Caching [in]
 
 Specifies the type of caching that the system should use. This parameter can be set to one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -122,17 +123,11 @@ The system should use ordinary caching.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
-### -param *PhysicalReserveContext
-
-
-
-
-
-
-#### - PhysicalReserveContext [out]
+### -param *PhysicalReserveContext [out]
 
 Specifies the location in which the video port driver writes a context handle that identifies the reserved physical address space.
 
@@ -140,11 +135,14 @@ Specifies the location in which the video port driver writes a context handle th
 ## -returns
 
 
+
 <b>AgpReservePhysical</b> returns the base address of the reserved physical address range if successful; otherwise, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 Video miniport drivers that run on Microsoft Windows 2000 should always reserve a range whose size is a multiple of 64 kilobytes. Reserving a range that is not a multiple of 64 kilobytes can result in <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> or <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> returning an invalid virtual address.
@@ -159,13 +157,20 @@ The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_ph
 
 
 
-## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
+## -see-also
 
 <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
 
+
+
 <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
+
+
 
  
 

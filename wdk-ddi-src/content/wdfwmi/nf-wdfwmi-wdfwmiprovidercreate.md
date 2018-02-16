@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07aed86f-870e-431b-b1bb-403395c35946
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiProviderCreate method, wdf.wdfwmiprovidercreate, WdfWmiProviderCreate, kmdf.wdfwmiprovidercreate, wdfwmi/WdfWmiProviderCreate, DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml, PFN_WDFWMIPROVIDERCREATE
+ms.keywords: wdfwmi/WdfWmiProviderCreate, WdfWmiProviderCreate method, kmdf.wdfwmiprovidercreate, wdf.wdfwmiprovidercreate, WdfWmiProviderCreate, PFN_WDFWMIPROVIDERCREATE, DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfWmiProviderCreate
 product: Windows
 targetos: Windows
@@ -97,7 +97,9 @@ A pointer to a location that receives a handle to the new WMI provider object.
 ## -returns
 
 
+
 <b>WdfWmiProviderCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,7 +149,8 @@ The driver has already called <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a list of other return values that the <b>WdfWmiProviderCreate</b> method might return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
 
@@ -161,7 +164,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver must call <b>WdfWmiProviderCreate</b> to create a WMI provider object if the driver will create multiple instances of the provider. If the driver will create only one instance of the provider, it can call <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a> without first calling <b>WdfWmiProviderCreate</b>. 
@@ -177,18 +182,61 @@ After a driver creates a WMI provider object, the driver cannot delete the objec
 For more information about the <b>WdfWmiProviderCreate</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a> structure and calls <b>WdfWmiProviderCreate</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_WMI_PROVIDER_CONFIG config;
+WDFWMIPROVIDER provider;
+GUID providerGuid = MY_WMI_DATA_BLOCK_GUID;
+NTSTATUS status;
+
+WDF_WMI_PROVIDER_CONFIG_INIT(
+                             &amp;config,
+                             providerGuid
+                             );
+config.Flags = WdfWmiProviderTracing;
+config.EvtWmiProviderFunctionControl = MyProviderFunctionControl;
+
+status = WdfWmiProviderCreate(
+                              Device,
+                              &amp;config,
+                              WDF_NO_OBJECT_ATTRIBUTES,
+                              &amp;provider
+                              );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergetdevice.md">WdfWmiProviderGetDevice</a>
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergetdevice.md">WdfWmiProviderGetDevice</a>
+
+
+
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+
+
 
  
 

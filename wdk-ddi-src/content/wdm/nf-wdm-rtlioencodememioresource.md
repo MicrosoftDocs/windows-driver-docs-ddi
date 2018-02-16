@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b2f51d54-3fda-4cbf-a148-0572122ed9fa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIoEncodeMemIoResource, wdm/RtlIoEncodeMemIoResource, kernel.rtlioencodememioresource, k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture], kernel.rtlioencodememioresource, k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlIoEncodeMemIoResource
 product: Windows
 targetos: Windows
@@ -106,7 +106,9 @@ The maximum address that can be assigned to the device.
 ## -returns
 
 
+
 <b>RtlIoEncodeMemIoResource</b> returns an NTSTATUS value. This routine might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,14 +147,18 @@ One or more of the specified parameters were invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Addresses that are larger than 32 bits in length must satisfy certain alignment restrictions, or else the routine returns STATUS_UNSUCCESSFUL.
+
 <table>
 <tr>
 <th>Address length</th>
@@ -188,7 +194,9 @@ Lowest 32 bits must be zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -196,7 +204,11 @@ Lowest 32 bits must be zero.
 
 <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a>
 
+
+
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

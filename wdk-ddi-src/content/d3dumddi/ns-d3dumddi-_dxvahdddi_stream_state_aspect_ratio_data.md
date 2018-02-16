@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA
-title: _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA
+title: "_DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA"
 author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure describes stream-state data that specifies the pixel aspect ratio.
 old-location: display\dxvahdddi_stream_state_aspect_ratio_data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 12d33e2d-63d3-4cc8-9b50-5156132b2e72
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, DXVA2_Structs_daab6809-2f81-4892-9f56-c57254047627.xml, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure [Display Devices], display.dxvahdddi_stream_state_aspect_ratio_data, _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA
+ms.keywords: d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure [Display Devices], DXVA2_Structs_daab6809-2f81-4892-9f56-c57254047627.xml, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, display.dxvahdddi_stream_state_aspect_ratio_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ typedef struct _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA {
 ## -remarks
 
 
+
 The driver might require the source and destination pixel aspect ratios to achieve the best result. 
 
 The <b>DXVAHDDDI_STREAM_STATE_ASPECT_RATIO</b> stream state is best set along with the <b>DXVAHDDDI_STREAM_STATE_FILTER_ANAMORPHIC_SCALING</b> stream state.
@@ -95,9 +96,12 @@ Pixel aspect ratios (0, any value) and (any value, 0) are invalid and causes the
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
+
+
 
  
 

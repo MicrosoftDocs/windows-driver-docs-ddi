@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c04b79a0-ef20-4ba5-aba9-9335b095cfef
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OpenDumpFile method [Windows Debugging], IDebugClient3 interface, IDebugClient_4ab673e2-629c-455a-8d40-27465005375f.xml, OpenDumpFile, dbgeng/IDebugClient2::OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient5 interface, IDebugClient3::OpenDumpFile, IDebugClient5, dbgeng/IDebugClient4::OpenDumpFile, debugger.opendumpfile, IDebugClient3 interface [Windows Debugging], OpenDumpFile method, IDebugClient4 interface [Windows Debugging], OpenDumpFile method, IDebugClient interface [Windows Debugging], OpenDumpFile method, dbgeng/IDebugClient::OpenDumpFile, dbgeng/IDebugClient3::OpenDumpFile, IDebugClient5::OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient2 interface, OpenDumpFile method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient5::OpenDumpFile, IDebugClient::OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient interface, IDebugClient2::OpenDumpFile, IDebugClient5 interface [Windows Debugging], OpenDumpFile method, OpenDumpFile method [Windows Debugging], IDebugClient2 interface [Windows Debugging], OpenDumpFile method, IDebugClient4::OpenDumpFile
+ms.keywords: OpenDumpFile method [Windows Debugging], IDebugClient4 interface, IDebugClient_4ab673e2-629c-455a-8d40-27465005375f.xml, IDebugClient5, IDebugClient3, IDebugClient3::OpenDumpFile, IDebugClient interface [Windows Debugging], OpenDumpFile method, dbgeng/IDebugClient2::OpenDumpFile, IDebugClient, IDebugClient2 interface [Windows Debugging], OpenDumpFile method, OpenDumpFile method [Windows Debugging], OpenDumpFile method [Windows Debugging], IDebugClient5 interface, OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient3 interface, debugger.opendumpfile, IDebugClient5 interface [Windows Debugging], OpenDumpFile method, IDebugClient4::OpenDumpFile, IDebugClient2, dbgeng/IDebugClient4::OpenDumpFile, IDebugClient2::OpenDumpFile, IDebugClient::OpenDumpFile, IDebugClient4 interface [Windows Debugging], OpenDumpFile method, OpenDumpFile method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient5::OpenDumpFile, IDebugClient4, dbgeng/IDebugClient::OpenDumpFile, IDebugClient3 interface [Windows Debugging], OpenDumpFile method, dbgeng/IDebugClient3::OpenDumpFile, OpenDumpFile method [Windows Debugging], IDebugClient2 interface, IDebugClient5::OpenDumpFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.OpenDumpFile
 -	IDebugClient2.OpenDumpFile
 -	IDebugClient3.OpenDumpFile
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.OpenDumpFile
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::OpenDumpFile method
@@ -79,7 +79,9 @@ Specifies the name of the dump file to open.  <i>DumpFile</i> must include the f
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -96,37 +98,62 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The Unicode version of this method is <a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>.
-<div class="alert"><b>Note</b>    The engine doesn't completely attach to the dump file until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a> method has been called.  When a dump file is created from a process or kernel, information about the last event is stored in the dump file.  After the dump file is opened, the next time execution is attempted, the engine will generate this event for the event callbacks.  Only then does the dump file become available in the debugging session.</div><div> </div>For more information about crash dump files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542783">Dump-File Targets</a>.
+
+<div class="alert"><b>Note</b>    The engine doesn't completely attach to the dump file until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a> method has been called.  When a dump file is created from a process or kernel, information about the last event is stored in the dump file.  After the dump file is opened, the next time execution is attempted, the engine will generate this event for the event callbacks.  Only then does the dump file become available in the debugging session.</div>
+<div> </div>
+For more information about crash dump files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542783">Dump-File Targets</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564611">.opendump (Open Dump File)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564611">.opendump (Open Dump File)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	pfnReleaseAdditionalMonitorModeSet
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ NTSTATUS APIENTRY pfnReleaseAdditionalMonitorModeSet(
 ## -returns
 
 
+
 The <b>pfnReleaseAdditionalMonitorModeSet</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -129,14 +131,18 @@ The handle supplied in <i>ppAdditionalModesSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This function is available beginning with Windows 7.
+
 
 
 
@@ -144,7 +150,11 @@ This function is available beginning with Windows 7.
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getadditionalmonitormodeset.md">DXGK_MONITOR_INTERFACE_V2::pfnGetAdditionalMonitorModeSet</a>
+
+
 
  
 

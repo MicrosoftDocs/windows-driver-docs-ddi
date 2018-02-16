@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40b6596b-7ab8-4336-8c38-21b9f32d8558
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAllocateFragmentNetBufferList, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, netvista.ndisallocatefragmentnetbufferlist, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFragmentNetBufferList
+ms.keywords: ndis/NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista], netvista.ndisallocatefragmentnetbufferlist, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, NdisAllocateFragmentNetBufferList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisAllocateFragmentNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateFragmentNetBufferList function
@@ -131,18 +131,19 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 #### - NetBufferListPoolHandle [in, optional]
 
 A handle that was obtained from a call to the 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-     NdisAllocateNetBufferListPool</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+     NdisAllocateNetBufferListPool</a> function.
 
 
 #### - NetBufferPoolHandle [in, optional]
 
 A NET_BUFFER structure pool handle that was previously returned from a call to 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferpool" tabindex="0"><b>
-     NdisAllocateNetBufferPool</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">
+     NdisAllocateNetBufferPool</a>.
 
 
 ## -returns
+
 
 
 <b>NdisAllocateFragmentNetBufferList</b> returns a pointer to a new fragmented NET_BUFFER_LIST structure.
@@ -150,7 +151,9 @@ A NET_BUFFER structure pool handle that was previously returned from a call to
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisAllocateFragmentNetBufferList</b> allocates and initializes a new fragment 
@@ -167,6 +170,7 @@ If the fragment NET_BUFFER_LIST structure should have attributes that are associ
 
 For each NET_BUFFER structure in the specified source NET_BUFFER_LIST structure, NDIS creates the
     fragment NET_BUFFER structures as follows:
+
 <ul>
 <li>
 NDIS creates the fragments starting from the beginning of the 
@@ -204,34 +208,48 @@ If NDIS must allocate memory to supply the data space requested in
       <i>DataBackFill</i> specifies.
 
 </li>
-</ul>The new fragment NET_BUFFER_LIST structure that 
+</ul>
+The new fragment NET_BUFFER_LIST structure that 
     <b>NdisAllocateFragmentNetBufferList</b> creates does not include an initial 
-    <mshelp:link keywords="netvista.net_buffer_list_context" tabindex="0"><b>
-    NET_BUFFER_LIST_CONTEXT</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">
+    NET_BUFFER_LIST_CONTEXT</a> structure.
 
 Call the 
-    <mshelp:link keywords="netvista.ndisfreefragmentnetbufferlist" tabindex="0"><b>
-    NdisFreeFragmentNetBufferList</b></mshelp:link> function to free a NET_BUFFER_LIST structure and all associated
+    <a href="..\ndis\nf-ndis-ndisfreefragmentnetbufferlist.md">
+    NdisFreeFragmentNetBufferList</a> function to free a NET_BUFFER_LIST structure and all associated
     NET_BUFFER structures and MDL chains that were previously allocated by calling 
     <b>NdisAllocateFragmentNetBufferList</b>.
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndisfreefragmentnetbufferlist" tabindex="0"><b>
-   NdisFreeFragmentNetBufferList</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisfreefragmentnetbufferlist.md">
+   NdisFreeFragmentNetBufferList</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

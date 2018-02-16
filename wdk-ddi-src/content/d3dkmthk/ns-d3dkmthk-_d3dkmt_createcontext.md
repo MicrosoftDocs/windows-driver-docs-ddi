@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATECONTEXT
-title: _D3DKMT_CREATECONTEXT
+title: "_D3DKMT_CREATECONTEXT"
 author: windows-driver-content
 description: The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to create.
 old-location: display\d3dkmt_createcontext.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 867705b9-a721-48a6-b1bc-6a75d5a03a21
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_CREATECONTEXT, OpenGL_Structs_5a3cc128-be06-4189-a389-95813c2d3e28.xml, d3dkmthk/D3DKMT_CREATECONTEXT, D3DKMT_CREATECONTEXT structure [Display Devices], display.d3dkmt_createcontext, D3DKMT_CREATECONTEXT
+ms.keywords: OpenGL_Structs_5a3cc128-be06-4189-a389-95813c2d3e28.xml, D3DKMT_CREATECONTEXT structure [Display Devices], display.d3dkmt_createcontext, _D3DKMT_CREATECONTEXT, D3DKMT_CREATECONTEXT, d3dkmthk/D3DKMT_CREATECONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CREATECONTEXT
 product: Windows
 targetos: Windows
@@ -114,6 +114,7 @@ typedef struct _D3DKMT_CREATECONTEXT {
 ### -field ClientHint
 
 [in] A D3DKMT_CLIENTHINT-typed value that indicates the type of client that creates the context. The following table lists the possible values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -189,7 +190,8 @@ The client is the DirectX 10.0 runtime.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field hContext
@@ -242,13 +244,21 @@ The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a>
+
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a>
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
+
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+
 
  
 

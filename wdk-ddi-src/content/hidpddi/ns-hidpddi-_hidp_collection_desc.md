@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_COLLECTION_DESC
-title: _HIDP_COLLECTION_DESC
+title: "_HIDP_COLLECTION_DESC"
 author: windows-driver-content
 description: Contains the information of a top-level-collection. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_collection_desc.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4B044635-1088-4CED-87C7-4385E565A54A
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], hid.hidp_collection_desc, _HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC, hidpddi/HIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC
+ms.keywords: "_HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC, hid.hidp_collection_desc, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], PHIDP_COLLECTION_DESC, hidpddi/HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], HIDP_COLLECTION_DESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hidpddi.h
-apiname: 
+apiname:
 -	HIDP_COLLECTION_DESC
 product: Windows
 targetos: Windows
-req.typenames: *PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC
+req.typenames: "*PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC"
 ---
 
 # _HIDP_COLLECTION_DESC structure
@@ -123,6 +123,8 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardwar
 ## -see-also
 
 <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
+
+
 
  
 

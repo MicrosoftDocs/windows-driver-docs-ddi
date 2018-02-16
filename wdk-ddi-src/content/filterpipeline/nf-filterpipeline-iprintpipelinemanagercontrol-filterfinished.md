@@ -7,8 +7,8 @@ old-location: print\iprintpipelinemanagercontrol_filterfinished.htm
 old-project: print
 ms.assetid: 6393b959-f67a-42e8-bb2b-e830bcf0d45f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FilterFinished, print.iprintpipelinemanagercontrol_filterfinished, IPrintPipelineManagerControl interface [Print Devices], FilterFinished method, FilterFinished method [Print Devices], IPrintPipelineManagerControl interface, IPrintPipelineManagerControl, filterpipeline/IPrintPipelineManagerControl::FilterFinished, FilterFinished method [Print Devices], IPrintPipelineManagerControl::FilterFinished, filterpipeline_58038d61-195e-4144-adee-2615a62cef91.xml
+ms.date: 2/2/2018
+ms.keywords: FilterFinished method [Print Devices], IPrintPipelineManagerControl interface, filterpipeline/IPrintPipelineManagerControl::FilterFinished, IPrintPipelineManagerControl::FilterFinished, IPrintPipelineManagerControl, print.iprintpipelinemanagercontrol_filterfinished, FilterFinished method [Print Devices], IPrintPipelineManagerControl interface [Print Devices], FilterFinished method, filterpipeline_58038d61-195e-4144-adee-2615a62cef91.xml, FilterFinished
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Filterpipeline.h
-apiname: 
+apiname:
 -	IPrintPipelineManagerControl.FilterFinished
 product: Windows
 targetos: Windows
@@ -68,20 +68,24 @@ HRESULT STDMETHODCALLTYPE FilterFinished(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 <code>FilterFinished</code> returns an <b>HRESULT</b>.
 
 
 
+
 ## -remarks
 
 
+
 The filter does not need to call the <code>FilterFinished</code> method. The filter pipeline assumes the filter has finished when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554301">IPrintPipelineFilter::StartOperation</a> method returns. <code>FilterFinished</code> is provided for compatibility and, when called, it does nothing but returns.
+
 
 

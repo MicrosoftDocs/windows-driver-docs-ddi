@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d7d9163b-54bb-4753-96a3-f92eddbe25f5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteList, ExtRemoteList::StartHead, ExtRemoteList class [Windows Debugging], StartHead method, StartHead, StartHead method [Windows Debugging], ExtRemoteList class, debugger.extremotelist_starthead, EngExtCpp_Ref_cb3b3efb-2dd6-4319-85e1-2048cfae9b7c.xml, StartHead method [Windows Debugging]
+ms.keywords: debugger.extremotelist_starthead, EngExtCpp_Ref_cb3b3efb-2dd6-4319-85e1-2048cfae9b7c.xml, StartHead, ExtRemoteList, StartHead method [Windows Debugging], StartHead method [Windows Debugging], ExtRemoteList class, ExtRemoteList class [Windows Debugging], StartHead method, ExtRemoteList::StartHead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteList.StartHead
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteList::StartHead method
@@ -66,9 +66,12 @@ void StartHead();
 
 
 
+
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

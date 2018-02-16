@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e06a377a-e68a-4773-9f7f-b1c47010029c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_CHILD_LIST_ITERATOR_INIT, wdf.wdf_child_list_iterator_init, wdfchildlist/WDF_CHILD_LIST_ITERATOR_INIT, DFDeviceObjectChildListRef_5040aac1-503f-4559-ad77-0304bfb67e3d.xml, kmdf.wdf_child_list_iterator_init, WDF_CHILD_LIST_ITERATOR_INIT function
+ms.keywords: DFDeviceObjectChildListRef_5040aac1-503f-4559-ad77-0304bfb67e3d.xml, wdf.wdf_child_list_iterator_init, WDF_CHILD_LIST_ITERATOR_INIT function, WDF_CHILD_LIST_ITERATOR_INIT, wdfchildlist/WDF_CHILD_LIST_ITERATOR_INIT, kmdf.wdf_child_list_iterator_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfchildlist.h
-apiname: 
+apiname:
 -	WDF_CHILD_LIST_ITERATOR_INIT
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ A <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RET
 ## -returns
 
 
+
 None
+
 
 
 
@@ -92,7 +94,11 @@ None
 
 <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RETRIEVE_CHILD_FLAGS</a>
 
+
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+
+
 
  
 

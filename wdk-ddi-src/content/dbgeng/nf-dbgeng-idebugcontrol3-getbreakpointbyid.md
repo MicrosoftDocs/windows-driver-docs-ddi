@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6873609d-7f5a-474d-8b48-fee9f93c812b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetBreakpointById method [Windows Debugging], IDebugControl::GetBreakpointById, IDebugControl interface [Windows Debugging], GetBreakpointById method, debugger.getbreakpointbyid, dbgeng/IDebugControl::GetBreakpointById, IDebugControl2 interface [Windows Debugging], GetBreakpointById method, IDebugControl2::GetBreakpointById, IDebugControl3::GetBreakpointById, GetBreakpointById method [Windows Debugging], IDebugControl3 interface, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, GetBreakpointById method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetBreakpointById, IDebugControl3 interface [Windows Debugging], GetBreakpointById method, dbgeng/IDebugControl2::GetBreakpointById, GetBreakpointById, GetBreakpointById method [Windows Debugging], IDebugControl interface, IDebugControl3
+ms.keywords: IDebugControl interface [Windows Debugging], GetBreakpointById method, GetBreakpointById method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetBreakpointById, IDebugControl3, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, IDebugControl2 interface [Windows Debugging], GetBreakpointById method, IDebugControl::GetBreakpointById, GetBreakpointById method [Windows Debugging], IDebugControl interface, IDebugControl2::GetBreakpointById, GetBreakpointById, dbgeng/IDebugControl::GetBreakpointById, GetBreakpointById method [Windows Debugging], IDebugControl3 interface, GetBreakpointById method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetBreakpointById method, IDebugControl2, IDebugControl, debugger.getbreakpointbyid, dbgeng/IDebugControl3::GetBreakpointById, IDebugControl3::GetBreakpointById
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetBreakpointById
 -	IDebugControl2.GetBreakpointById
 -	IDebugControl3.GetBreakpointById
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetBreakpointById method
@@ -83,7 +83,9 @@ Receives the breakpoint.
 ## -returns
 
 
+
 This method can also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,26 +113,38 @@ No breakpoint was found with the given ID, or the breakpoint with the specified 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If the specified breakpoint does not belong to the current process, the method will fail.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f9dbeede-b4f2-4748-8a95-692f09ded787
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisactivegroupcount, NdisActiveGroupCount function [Network Drivers Starting with Windows Vista], NdisActiveGroupCount, ndis_processor_group_ref_e0e7bb9b-d6fd-4a31-9793-f21c4b36841d.xml, ndis/NdisActiveGroupCount
+ms.keywords: NdisActiveGroupCount, ndis_processor_group_ref_e0e7bb9b-d6fd-4a31-9793-f21c4b36841d.xml, netvista.ndisactivegroupcount, ndis/NdisActiveGroupCount, NdisActiveGroupCount function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisActiveGroupCount
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisActiveGroupCount function
@@ -69,7 +69,9 @@ USHORT NdisActiveGroupCount(void);
 
 
 
+
 ## -returns
+
 
 
 <b>NdisActiveGroupCount</b> returns a USHORT value for the number of processor groups that are currently
@@ -77,7 +79,9 @@ USHORT NdisActiveGroupCount(void);
 
 
 
+
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -89,9 +93,12 @@ To obtain the maximum number of groups, call the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismaxgroupcount.md">NdisMaxGroupCount</a>
+
+
 
  
 

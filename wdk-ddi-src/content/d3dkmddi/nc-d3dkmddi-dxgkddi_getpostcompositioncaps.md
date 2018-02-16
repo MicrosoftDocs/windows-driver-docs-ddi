@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKDDI_GETPOSTCOMPOSITIONCAPS
 product: Windows
 targetos: Windows
@@ -80,6 +80,8 @@ Identifies the adapter containing the overlay hardware.
 
 
 
+
+
 #### - pGetPostCompositonCaps [in]
 
 IA pointer to a DXGKARG_GETPOSTCOMPOSITIONCAPS structure that receives the driver capabilities.
@@ -88,7 +90,9 @@ IA pointer to a DXGKARG_GETPOSTCOMPOSITIONCAPS structure that receives the drive
 ## -returns
 
 
+
 DXGKDDI_GETPOSTCOMPOSITIONCAPS returns the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,16 +109,20 @@ If the routine has been successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This function is called at PASSIVE_LEVEL.
 
 The multiplane overlay capabilities are allowed to change due to display configuration changes.
+
 
 
 

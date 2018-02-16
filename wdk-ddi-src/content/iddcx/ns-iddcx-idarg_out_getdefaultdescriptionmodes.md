@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e172d33-e4af-4345-a979-6b4549565ec7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_out_getdefaultdescriptionmodes, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
+ms.keywords: iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, display.idarg_out_getdefaultdescriptionmodes, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
 product: Windows
 targetos: Windows
@@ -86,6 +86,8 @@ typedef struct IDARG_OUT_GETDEFAULTDESCRIPTIONMODES {
 ## -see-also
 
 <a href="..\iddcx\ns-iddcx-idarg_in_parsemonitordescription.md">IDARG_IN_PARSEMONITORDESCRIPTION</a>
+
+
 
  
 

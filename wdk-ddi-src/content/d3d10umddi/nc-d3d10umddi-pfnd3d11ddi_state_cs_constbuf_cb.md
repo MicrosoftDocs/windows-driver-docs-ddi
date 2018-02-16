@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnStateCsConstBufCb
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11DDI_STATE_CS_CONSTBUF_CB callback
@@ -75,7 +75,6 @@ void APIENTRY pfnStateCsConstBufCb(
 ### -param D3D10DDI_HRTCORELAYER
 
 
-
 ### -param UINT
 
 
@@ -83,14 +82,16 @@ void APIENTRY pfnStateCsConstBufCb(
 
 
 
-#### - Count [in]
-
- The total number of constant buffers. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
 
 
 #### - Base [in]
 
  The beginning constant buffer for which the runtime should refresh state. 
+
+
+#### - Count [in]
+
+ The total number of constant buffers. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
 
 
 #### - hRuntimeDevice [in]
@@ -101,7 +102,9 @@ void APIENTRY pfnStateCsConstBufCb(
 ## -returns
 
 
+
 None
+
 
 
 
@@ -109,7 +112,11 @@ None
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
+
+
 
  
 

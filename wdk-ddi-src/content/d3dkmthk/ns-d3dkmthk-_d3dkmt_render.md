@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RENDER
-title: _D3DKMT_RENDER
+title: "_D3DKMT_RENDER"
 author: windows-driver-content
 description: The D3DKMT_RENDER structure describes the current command buffer to be rendered.
 old-location: display\d3dkmt_render.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_RENDER, OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, display.d3dkmt_render, _D3DKMT_RENDER, D3DKMT_RENDER structure [Display Devices], D3DKMT_RENDER
+ms.keywords: D3DKMT_RENDER, _D3DKMT_RENDER, display.d3dkmt_render, OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, D3DKMT_RENDER structure [Display Devices], d3dkmthk/D3DKMT_RENDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_RENDER
 product: Windows
 targetos: Windows
@@ -218,9 +218,15 @@ This member is available beginning with Windows 7.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a>
+
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_renderflags.md">D3DKMT_RENDERFLAGS</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a>
+
+
 
  
 

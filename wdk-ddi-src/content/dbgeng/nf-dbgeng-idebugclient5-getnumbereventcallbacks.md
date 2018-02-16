@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02001bad-bafe-432d-bc07-011cb6981ae6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::GetNumberEventCallbacks, IDebugClient5 interface [Windows Debugging], GetNumberEventCallbacks method, GetNumberEventCallbacks method [Windows Debugging], GetNumberEventCallbacks method [Windows Debugging], IDebugClient5 interface, debugger.getnumbereventcallbacks, GetNumberEventCallbacks, IDebugClient5, IDebugClient_976101a5-6218-475a-b8e9-e7091e2524d6.xml, IDebugClient5::GetNumberEventCallbacks
+ms.keywords: IDebugClient5::GetNumberEventCallbacks, GetNumberEventCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient_976101a5-6218-475a-b8e9-e7091e2524d6.xml, debugger.getnumbereventcallbacks, IDebugClient5, GetNumberEventCallbacks method [Windows Debugging], IDebugClient5 interface [Windows Debugging], GetNumberEventCallbacks method, GetNumberEventCallbacks, dbgeng/IDebugClient5::GetNumberEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.GetNumberEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetNumberEventCallbacks method
@@ -81,7 +81,9 @@ Receives the number of event callbacks that are interested in at least one of th
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,11 +100,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Each client can have at most one event callback registered with it.  When a callback is registered with a client, its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a> method is called to allow the client to specify which events it is interested in.
@@ -111,19 +116,32 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547931">GetNumberOutputCallbacks</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547931">GetNumberOutputCallbacks</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KStrDereferenceDeviceObject
 product: Windows
 targetos: Windows
@@ -78,15 +78,19 @@ Pointer to a device extension of the device's PDO.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the request is handled. Otherwise returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 Minidrivers access this method through the <b>DereferenceDeviceObject</b> member of the <a href="..\ks\ns-ks-bus_interface_reference.md">BUS_INTERFACE_REFERENCE</a> structure.
 
 When the PDO's reference count is 0, it becomes eligible for removal. Note that this condition does not guarantee removal.
+
 
 

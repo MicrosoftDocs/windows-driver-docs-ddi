@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 81ad341a-5f68-43aa-98ea-193780a7c5b2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_datarange_image, KS_DATARANGE_IMAGE structure [Streaming Media Devices], KS_DATARANGE_IMAGE, ksmedia/PKS_DATARANGE_IMAGE, PKS_DATARANGE_IMAGE structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_IMAGE, tagKS_DATARANGE_IMAGE, *PKS_DATARANGE_IMAGE, PKS_DATARANGE_IMAGE
+ms.keywords: ksmedia/KS_DATARANGE_IMAGE, tagKS_DATARANGE_IMAGE, ksmedia/PKS_DATARANGE_IMAGE, PKS_DATARANGE_IMAGE, PKS_DATARANGE_IMAGE structure pointer [Streaming Media Devices], stream.ks_datarange_image, *PKS_DATARANGE_IMAGE, KS_DATARANGE_IMAGE structure [Streaming Media Devices], KS_DATARANGE_IMAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KS_DATARANGE_IMAGE
 product: Windows
 targetos: Windows
-req.typenames: KS_DATARANGE_IMAGE, *PKS_DATARANGE_IMAGE
+req.typenames: "*PKS_DATARANGE_IMAGE, KS_DATARANGE_IMAGE"
 ---
 
 # tagKS_DATARANGE_IMAGE structure
@@ -86,13 +86,21 @@ A <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER<
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+
+
+<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+
 
  
 

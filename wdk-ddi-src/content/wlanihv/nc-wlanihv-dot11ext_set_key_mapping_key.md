@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtSetKeyMappingKey
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -83,11 +83,12 @@ The handle used by the operating system to reference the WLAN adapter. This hand
 ### -param pKey [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11_cipher_key_mapping_key_value" tabindex="0"><b>
-     DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</b></mshelp:link> structure, which defines the cipher key.
+     <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
+     DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a> structure, which defines the cipher key.
 
 
 ## -returns
+
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
@@ -96,33 +97,44 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
+
 ## -remarks
+
 
 
 A key-mapping cipher key is deleted from the adapter's key tables if the 
     <b>bDelete</b> member of the 
-    <mshelp:link keywords="netvista.dot11_cipher_key_mapping_key_value" tabindex="0"><b>
-    DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</b></mshelp:link> structure is set to <b>TRUE</b>.
+    <a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
+    DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a> structure is set to <b>TRUE</b>.
 
 A call to the 
     <b>Dot11ExtSetKeyMappingKey</b> function results in a set request of the 
-    <mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-    OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link> object identifier (OID) to the Native 802.11 miniport driver that
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+   OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.oid_dot11_cipher_key_mapping_key" tabindex="0">
-   OID_DOT11_CIPHER_KEY_MAPPING_KEY</mshelp:link>
 
-<mshelp:link keywords="netvista.dot11_cipher_key_mapping_key_value" tabindex="0"><b>
-   DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/1de1a420-e2ec-4716-8a03-73c9278eb33b">802.11 Cipher Key Types</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_cipher_key_mapping_key_value.md">
+   DOT11_CIPHER_KEY_MAPPING_KEY_VALUE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e97006e1-5a18-4478-9cac-30eb70142fa7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], kernel.clfswriterestartarea, ClfsWriteRestartArea, wdm/ClfsWriteRestartArea, Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml
+ms.keywords: ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], ClfsWriteRestartArea, kernel.clfswriterestartarea, wdm/ClfsWriteRestartArea, Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsWriteRestartArea
 product: Windows
 targetos: Windows
@@ -98,6 +98,7 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that s
 ### -param fFlags [in]
 
 This parameter must be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -123,7 +124,8 @@ The restart record is placed in previously reserved space in an I/O block. The n
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pcbWritten [out, optional]
@@ -139,11 +141,14 @@ A pointer to a <b>CLFS_LSN</b> structure that receives the LSN of the newly writ
 ## -returns
 
 
+
 <b>ClfsWriteRestartArea</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 Typically ClfsWriteRestartArea is called as the last act of a client checkpoint.
@@ -158,17 +163,28 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
-
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 <a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
 
-<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+
 
 <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+
+
 
  
 

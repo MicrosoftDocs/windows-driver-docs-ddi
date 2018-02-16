@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQuerySystemTime
-title: KeQuerySystemTime function
+title: KeQuerySystemTime macro
 author: windows-driver-content
 description: The KeQuerySystemTime routine obtains the current system time.
 old-location: kernel\kequerysystemtime.htm
@@ -8,10 +8,10 @@ old-project: kernel
 ms.assetid: de271bd2-93cf-444d-889d-09c7e654e688
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQuerySystemTime, k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], wdm/KeQuerySystemTime
+ms.keywords: KeQuerySystemTime routine [Kernel-Mode Driver Architecture], wdm/KeQuerySystemTime, KeQuerySystemTime, k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeQuerySystemTime
 product: Windows
 targetos: Windows
@@ -44,7 +44,7 @@ req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
 
-# KeQuerySystemTime function
+# KeQuerySystemTime macro
 
 
 ## -description
@@ -68,34 +68,46 @@ VOID KeQuerySystemTime(
 
 
 
-### -param CurrentTime [out]
+### -param CurrentCount
+
+TBD
+
+
+
+
+
+
+#### - CurrentTime [out]
 
 Pointer to the current time on return from <b>KeQuerySystemTime</b>. 
 
 
-## -returns
-
-
-None
-
-
-
 ## -remarks
+
 
 
 System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 <a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 
+
+
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f312afec-10b3-4049-a4c1-154c11b4a869
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], kernel.ioinvalidatedevicerelations, k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, wdm/IoInvalidateDeviceRelations, IoInvalidateDeviceRelations
+ms.keywords: wdm/IoInvalidateDeviceRelations, k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], kernel.ioinvalidatedevicerelations, IoInvalidateDeviceRelations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoInvalidateDeviceRelations
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Specifies a <b>DEVICE_RELATION_TYPE</b> enumeration value that describes the typ
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 For some relation types, such as <b>BusRelations</b>, this routine causes the PnP manager or power manager to gather updated relations information by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> request to the drivers for the device. For other relation types, such as <b>EjectionRelations</b>, the PnP manager does not need to gather new relation information immediately; the PnP manager queries drivers for ejection relations only when it is preparing to eject a device.
@@ -95,11 +98,16 @@ After a bus driver calls <b>IoInvalidateDeviceRelations</b> to inform the PnP ma
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
+
 
  
 

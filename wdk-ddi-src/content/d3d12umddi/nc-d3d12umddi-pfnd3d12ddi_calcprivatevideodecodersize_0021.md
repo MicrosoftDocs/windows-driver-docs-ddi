@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCalcPrivateVideoDecoderSize
 product: Windows
 targetos: Windows
@@ -74,8 +74,9 @@ SIZE_T APIENTRY* pfnCalcPrivateVideoDecoderSize(
 ### -param hDrvDevice
 
 
-
 ### -param *pArgs
+
+
 
 
 
@@ -95,6 +96,8 @@ The handle of a device.
 ## -remarks
 
 
+
 The runtime allocates memory for storing the driver CPU object that represents the video decoder.  This method is used to calculate the driver object size.
+
 
 

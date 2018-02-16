@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	HwVidQueryDeviceCallback
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -114,7 +114,6 @@ Pointer to the name of the device as determined by the ARC firmware. This parame
 ### -param IdentiferLength
 
 
-
 ### -param ConfigurationData
 
 Pointer to hardware configuration data. The format of this data is determined by the specified <i>DeviceDataType</i> and by the <b>AdapterInterfaceType</b> value in the VIDEO_PORT_CONFIG_INFO.
@@ -143,11 +142,14 @@ Specifies the size in bytes of the buffered <i>Identifier</i> string<i>.</i> The
 ## -returns
 
 
+
 <i>HwVidQueryDeviceCallback</i> returns the status of the operation.
 
 
 
+
 ## -remarks
+
 
 
 <i>HwVidQueryDeviceCallback</i> is passed in a call to <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a> from the miniport driver's <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a> function. <b>VideoPortGetDeviceData</b> calls <i>HwVidQueryDeviceCallback</i> after collecting available configuration information under the <b>\Registry\Machine\Hardware\Description</b> node of the registry.
@@ -166,17 +168,28 @@ If it cannot get bus-relative access ranges values by calling <b>VideoPortGetDev
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
 
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
 
 <a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
+
+
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
+
+
+
+<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+
+
 
  
 

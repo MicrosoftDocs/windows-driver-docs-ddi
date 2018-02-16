@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f9e5fb0a-7add-462c-9b2a-2b543f7c7649
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportreadportulong, AtaPortReadPortUlong routine [Storage Devices], AtaPortReadPortUlong, atartns_e2d91111-cf48-4987-82ff-055469d67dc8.xml, irb/AtaPortReadPortUlong
+ms.keywords: AtaPortReadPortUlong, atartns_e2d91111-cf48-4987-82ff-055469d67dc8.xml, irb/AtaPortReadPortUlong, AtaPortReadPortUlong routine [Storage Devices], storage.ataportreadportulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortReadPortUlong
 product: Windows
 targetos: Windows
@@ -78,7 +78,9 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 ## -returns
 
 
+
 <b>AtaPortReadPortUlong</b> returns a ULONG value from the HBA's I/O port. 
+
 
 
 
@@ -86,9 +88,15 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
+
+
 <a href="..\irb\nf-irb-ataportreadportushort.md">AtaPortReadPortUshort</a>
 
+
+
 <a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+
+
 
  
 

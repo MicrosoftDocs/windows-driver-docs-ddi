@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	CamProcessRawVideoFrameEx
 product: Windows
 targetos: Windows
@@ -139,11 +139,14 @@ Indicates the stream number with which this frame is associated with.
 ## -returns
 
 
+
 <b>CamProcessRawVideoFrameEx</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Before USBCAMD calls the minidriver's <b>CamProcessRawVideoFrameEx</b> callback, it sets the first DWORD in the buffer pointed to by the <i>FrameBuffer</i> parameter to the value <i>0xdeadbeef.</i> After calling the minidriver's <b>CamProcessRawVideoFrameEx</b> callback USBCAMD checks the first DWORD in the buffer pointed to by the <i>FrameBuffer</i> parameter for the value <i>0xdeadbeef</i> to determine if <b>CamProcessRawVideoFrameEx</b> successfully copied the video frame from the buffer pointed to by the <i>RawFrameBuffer</i> parameter into the buffer pointed to by the <i>FrameBuffer</i> parameter.
@@ -159,5 +162,6 @@ USBCAMD clears the stream header options flag before passing the raw frame to th
 The original USBCAMD does not call <b>CamProcessRawVideoFrameEx</b>.
 
 This function is optional.
+
 
 

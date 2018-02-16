@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: B37B3C59-225C-40BC-BCA4-9ABF2500AFC0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_DISTANCETRACKING_PARAM, PGNSS_DISTANCETRACKING_PARAM structure pointer [Sensor Devices], sensors.gnss_distancetracking_param, GNSS_DISTANCETRACKING_PARAM, PGNSS_DISTANCETRACKING_PARAM, gnssdriver/PGNSS_DISTANCETRACKING_PARAM, *PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM structure [Sensor Devices]
+ms.keywords: PGNSS_DISTANCETRACKING_PARAM, gnssdriver/GNSS_DISTANCETRACKING_PARAM, sensors.gnss_distancetracking_param, PGNSS_DISTANCETRACKING_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM structure [Sensor Devices], *PGNSS_DISTANCETRACKING_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_DISTANCETRACKING_PARAM
 product: Windows
 targetos: Windows

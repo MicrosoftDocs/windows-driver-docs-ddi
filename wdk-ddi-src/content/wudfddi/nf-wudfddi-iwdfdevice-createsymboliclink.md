@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15984217-e789-457c-b20f-c3d51741f5d3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice::CreateSymbolicLink, IWDFDevice, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, CreateSymbolicLink, umdf.iwdfdevice_createsymboliclink, CreateSymbolicLink method, IWDFDevice::CreateSymbolicLink, CreateSymbolicLink method, IWDFDevice interface, IWDFDevice interface, CreateSymbolicLink method, wdf.iwdfdevice_createsymboliclink
+ms.keywords: CreateSymbolicLink, wudfddi/IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, CreateSymbolicLink method, IWDFDevice interface, wdf.iwdfdevice_createsymboliclink, IWDFDevice interface, CreateSymbolicLink method, CreateSymbolicLink method, umdf.iwdfdevice_createsymboliclink, IWDFDevice::CreateSymbolicLink, IWDFDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.CreateSymbolicLink
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,11 +78,14 @@ A pointer to a <b>NULL</b>-terminated string that contains the name of the symbo
 ## -returns
 
 
+
 <b>CreateSymbolicLink</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 
@@ -92,11 +95,16 @@ For an example usage of this method, see the <a href="http://go.microsoft.com/fw
 
 
 
+
 ## -see-also
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556932">IWDFDevice2::CreateSymbolicLinkWithReferenceString</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
 
  
 

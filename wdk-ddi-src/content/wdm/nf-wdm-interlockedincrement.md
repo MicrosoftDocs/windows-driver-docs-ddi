@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e8f4c3c9-c5b7-4fc1-9be3-0254c6cbd6f3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedIncrement routine [Kernel-Mode Driver Architecture], InterlockedIncrement, k102_8d625992-2e36-464d-a771-629d5f08b398.xml, kernel.interlockedincrement, wdm/InterlockedIncrement
+ms.keywords: InterlockedIncrement, kernel.interlockedincrement, InterlockedIncrement routine [Kernel-Mode Driver Architecture], k102_8d625992-2e36-464d-a771-629d5f08b398.xml, wdm/InterlockedIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	OneCoreUAP.lib
 -	OneCoreUAP.dll
 -	API-MS-Win-Core-Interlocked-l1-1-0.dll
 -	API-MS-Win-Core-Interlocked-l1-2-0.dll
 -	KernelBase.dll
 -	MinKernelBase.dll
-apiname: 
+apiname:
 -	InterlockedIncrement
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A pointer to a variable of type LONG.
 ## -returns
 
 
+
 <b>InterlockedIncrement</b> returns the incremented value.
 
 
 
+
 ## -remarks
+
 
 
 <b>InterlockedIncrement</b> should be used instead of <b>ExInterlockedIncrementLong</b> because it is both more efficient and faster. 
@@ -98,15 +101,24 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+
+
 
 <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
+
+
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+
+
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
+
 
  
 

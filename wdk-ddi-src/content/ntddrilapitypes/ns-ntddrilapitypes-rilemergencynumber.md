@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILEMERGENCYNUMBER
 product: Windows
 targetos: Windows
-req.typenames: *LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER
+req.typenames: "*LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER"
 ---
 
 # RILEMERGENCYNUMBER structure
@@ -75,23 +75,17 @@ typedef struct _RILEMERGENCYNUMBER {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field hUiccApp
-
 
 
 ### -field dwCategory
 
 
-
 ### -field wszEmergencyNumber
-
 

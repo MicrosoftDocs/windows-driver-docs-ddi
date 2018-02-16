@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosEventDataHeader
-title: _PosEventDataHeader
+title: "_PosEventDataHeader"
 author: windows-driver-content
 description: This structure describes the scanned image data that is passed to the BarcodeScannerImagePreviewReceived event.
 old-location: pos\posbarcodescannerimageprevieweventdata.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosBarcodeScannerImagePreviewEventData, _PosEventDataHeader, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData structure, PosEventDataHeader structure, PosEventDataHeader, pos.posbarcodescannerimageprevieweventdata, pointofservicedriverinterface/PosEventDataHeader
+ms.keywords: PosBarcodeScannerImagePreviewEventData, _PosEventDataHeader, PosBarcodeScannerImagePreviewEventData structure, pos.posbarcodescannerimageprevieweventdata, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, pointofservicedriverinterface/PosEventDataHeader, PosEventDataHeader structure, PosEventDataHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosEventDataHeader
 product: Windows
 targetos: Windows
-req.typenames: PosBarcodeScannerImagePreviewEventData, PosEventDataHeader
+req.typenames: PosEventDataHeader, PosBarcodeScannerImagePreviewEventData
 ---
 
 # _PosEventDataHeader structure
@@ -81,6 +81,8 @@ The length, in bytes, of the image preview data.
 ## -remarks
 
 
+
 The image preview bitmap data immediately follows after this structure in memory for <i>DataLength</i> bytes.
+
 
 

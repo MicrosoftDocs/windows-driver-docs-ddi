@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1399922d-684c-44a4-8bc7-b9e45ba05086
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory::SetBuffer, IWDFMemory interface, SetBuffer method, wudfddi/IWDFMemory::SetBuffer, SetBuffer, SetBuffer method, IWDFMemory interface, wdf.iwdfmemory_setbuffer, SetBuffer method, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, IWDFMemory, umdf.iwdfmemory_setbuffer
+ms.keywords: wdf.iwdfmemory_setbuffer, SetBuffer method, IWDFMemory interface, IWDFMemory, IWDFMemory interface, SetBuffer method, SetBuffer method, IWDFMemory::SetBuffer, wudfddi/IWDFMemory::SetBuffer, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, SetBuffer, umdf.iwdfmemory_setbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFMemory.SetBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -84,14 +84,18 @@ The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>SetBuffer</b> method can assign a buffer to a memory object that <a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a> created, but not to a memory object that <a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a> created.
+
 
 
 
@@ -99,7 +103,11 @@ The <b>SetBuffer</b> method can assign a buffer to a memory object that <a href=
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
 
  
 

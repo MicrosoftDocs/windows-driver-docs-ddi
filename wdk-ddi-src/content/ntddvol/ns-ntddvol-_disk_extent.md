@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvol._DISK_EXTENT
-title: _DISK_EXTENT
+title: "_DISK_EXTENT"
 author: windows-driver-content
 description: The DISK_EXTENT structure contains information defining the location and length of a volume extent on a disk.
 old-location: storage\disk_extent.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 74ffdfba-1b80-479d-9637-43222a438fa9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DISK_EXTENT, ntddvol/DISK_EXTENT, DISK_EXTENT, *PDISK_EXTENT, ntddvol/PDISK_EXTENT, PDISK_EXTENT, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml, storage.disk_extent, PDISK_EXTENT structure pointer [Storage Devices], DISK_EXTENT structure [Storage Devices]
+ms.keywords: storage.disk_extent, PDISK_EXTENT structure pointer [Storage Devices], _DISK_EXTENT, ntddvol/DISK_EXTENT, ntddvol/PDISK_EXTENT, DISK_EXTENT structure [Storage Devices], PDISK_EXTENT, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml, *PDISK_EXTENT, DISK_EXTENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvol.h
-apiname: 
+apiname:
 -	DISK_EXTENT
 product: Windows
 targetos: Windows
-req.typenames: DISK_EXTENT, *PDISK_EXTENT
+req.typenames: "*PDISK_EXTENT, DISK_EXTENT"
 ---
 
 # _DISK_EXTENT structure
@@ -88,7 +88,11 @@ Specifies the number of bytes of this extent.
 
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_get_volume_disk_extents.md">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
 
+
+
 <a href="..\ntddvol\ns-ntddvol-_volume_disk_extents.md">VOLUME_DISK_EXTENTS</a>
+
+
 
  
 

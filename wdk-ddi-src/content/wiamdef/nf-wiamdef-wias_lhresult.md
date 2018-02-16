@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dcc02735-632f-4b86-ac4f-833c8dcba1c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_LHRESULT, IWiaLog_f9693b87-6464-423a-9b50-f715f3b35f36.xml, WIAS_LHRESULT macro [Imaging Devices], wiamdef/WIAS_LHRESULT, image.wias_lhresult
+ms.keywords: image.wias_lhresult, WIAS_LHRESULT, IWiaLog_f9693b87-6464-423a-9b50-f715f3b35f36.xml, WIAS_LHRESULT macro [Imaging Devices], wiamdef/WIAS_LHRESULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamdef.h
-apiname: 
+apiname:
 -	WIAS_LHRESULT
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 ## -remarks
 
 
+
 The following is an example of how the macro can be used:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -99,19 +101,29 @@ if (hr != S_OK)
    WIAS_LHRESULT(g_pIWiaLog, hr);</pre>
 </td>
 </tr>
-</table></span></div>The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. 
+</table></span></div>
+The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a> macro be used instead. 
+
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
+<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
+
+
 
 <a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
 
-<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
+
+
+<a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
+
+
 
 <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
+
+
 
  
 

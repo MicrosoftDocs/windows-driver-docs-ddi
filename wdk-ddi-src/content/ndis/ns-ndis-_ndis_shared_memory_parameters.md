@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SHARED_MEMORY_PARAMETERS
-title: _NDIS_SHARED_MEMORY_PARAMETERS
+title: "_NDIS_SHARED_MEMORY_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_SHARED_MEMORY_PARAMETERS structure specifies the shared memory parameters for a shared memory allocation request.
 old-location: netvista\ndis_shared_memory_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 286b08f6-179e-426e-ae65-b108529d049a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SHARED_MEMORY_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_PARAMETERS, netvista.ndis_shared_memory_parameters, ndis/NDIS_SHARED_MEMORY_PARAMETERS, *PNDIS_SHARED_MEMORY_PARAMETERS, PNDIS_SHARED_MEMORY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PARAMETERS, ndis_shared_memory_ref_76b2c89f-c221-42de-ae92-ad10cf2297f2.xml, NDIS_SHARED_MEMORY_PARAMETERS, ndis/PNDIS_SHARED_MEMORY_PARAMETERS
+ms.keywords: ndis/NDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS, ndis_shared_memory_ref_76b2c89f-c221-42de-ae92-ad10cf2297f2.xml, PNDIS_SHARED_MEMORY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PARAMETERS, _NDIS_SHARED_MEMORY_PARAMETERS, netvista.ndis_shared_memory_parameters, ndis/PNDIS_SHARED_MEMORY_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_SHARED_MEMORY_PARAMETERS
 product: Windows
 targetos: Windows
@@ -89,6 +89,22 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
+#### NDIS_SHARED_MEMORY_PARAMETERS_REVISION_2
+
+Added <b>VPortId</b> for NDIS 6.30.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_SHARED_MEMORY_PARAMETERS_REVISION_2.
+
+
+
+#### NDIS_SHARED_MEMORY_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.20.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_SHARED_MEMORY_PARAMETERS_REVISION_1.
+
+
 ### -field Flags
 
 A UCHAR value that contains a bitwise OR of the following value:
@@ -97,19 +113,27 @@ A UCHAR value that contains a bitwise OR of the following value:
 
 
 
+
+#### NDIS_SHARED_MEM_PARAMETERS_CONTIGOUS
+
+The shared memory is in a contiguous block of memory.
+
+
 ### -field QueueId
 
 An NDIS_RECEIVE_QUEUE_ID value that contains a virtual machine queue (VMQ) or single root I/O virtualization (SR-IOV) receive queue identifier. This identifier is an
      integer between zero and the number of queues that the miniport adapter supports. A value of NDIS_DEFAULT_RECEIVE_QUEUE_ID specifies
      the default receive queue.
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the SR-IOV interface only supports the default receive queue on both default and nondefault virtual ports (VPorts). Miniport drivers that support the SR-IOV interface must set the <b>QueueId</b> member to NDIS_DEFAULT_RECEIVE_QUEUE_ID.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the SR-IOV interface only supports the default receive queue on both default and nondefault virtual ports (VPorts). Miniport drivers that support the SR-IOV interface must set the <b>QueueId</b> member to NDIS_DEFAULT_RECEIVE_QUEUE_ID.</div>
+<div> </div>
 
 ### -field SharedMemoryHandle
 
 An NDIS_HANDLE value that identifies a block of shared memory. NDIS provides this handle before it
      returns from the 
-     <mshelp:link keywords="netvista.ndisallocatesharedmemory" tabindex="0"><b>
-     NdisAllocateSharedMemory</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">
+     NdisAllocateSharedMemory</a> function.
 
 
 ### -field PreferredNode
@@ -152,28 +176,12 @@ A pointer to a
 An NDIS_NIC_SWITCH_VPORT_ID value that specifies a virtual port (VPort) identifier on which the shared memory is to be allocated. This value must be the identifier of a nondefault VPort that is attached to the physical function (PF) of the miniport adapter. 
 
 
-<div class="alert"><b>Note</b>  Miniport drivers that support the VMQ interface must set this member to zero. Miniport drivers that support the SR-IOV interface must not set this member to zero (DEFAULT_VPORT_ID).</div><div> </div>
 
-##### - Header.NDIS_SHARED_MEMORY_PARAMETERS_REVISION_2
-
-Added <b>VPortId</b> for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_SHARED_MEMORY_PARAMETERS_REVISION_2.
-
-
-##### - Flags.NDIS_SHARED_MEM_PARAMETERS_CONTIGOUS
-
-The shared memory is in a contiguous block of memory.
-
-
-##### - Header.NDIS_SHARED_MEMORY_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.20.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_SHARED_MEMORY_PARAMETERS_REVISION_1.
-
+<div class="alert"><b>Note</b>  Miniport drivers that support the VMQ interface must set this member to zero. Miniport drivers that support the SR-IOV interface must not set this member to zero (DEFAULT_VPORT_ID).</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The NDIS_SHARED_MEMORY_PARAMETERS structure specifies the shared memory parameters for a shared memory
@@ -187,17 +195,28 @@ NDIS drivers pass this structure to the
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
-
-<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
-
-<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
 
 <a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
+
+
+
+<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
+
+
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+
 
  
 

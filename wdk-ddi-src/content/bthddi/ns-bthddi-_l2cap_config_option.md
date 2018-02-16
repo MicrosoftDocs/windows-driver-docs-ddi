@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_CONFIG_OPTION
-title: _L2CAP_CONFIG_OPTION
+title: "_L2CAP_CONFIG_OPTION"
 author: windows-driver-content
 description: An array of L2CAP_CONFIG_OPTION structures is used to specify values for the ExtraOptions member of the CHANNEL_CONFIG_PARAMETERS, _BRB_L2CA_OPEN_CHANNEL, and INDICATION_PARAMETERS structures.
 old-location: bltooth\l2cap_config_option.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 9759c2b5-91c7-46e9-97dd-8268bf24db78
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bthddi/L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, bltooth.l2cap_config_option, PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], bthddi/PL2CAP_CONFIG_OPTION, _L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION
+ms.keywords: bthddi/PL2CAP_CONFIG_OPTION, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, *PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], L2CAP_CONFIG_OPTION, PL2CAP_CONFIG_OPTION, _L2CAP_CONFIG_OPTION, PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], bthddi/L2CAP_CONFIG_OPTION, bltooth.l2cap_config_option
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	L2CAP_CONFIG_OPTION
 product: Windows
 targetos: Windows
-req.typenames: *PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION
+req.typenames: "*PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION"
 ---
 
 # _L2CAP_CONFIG_OPTION structure
@@ -101,6 +101,7 @@ A buffer that contains additional L2CAP channel parameters that are defined eith
 A combination of flags that determines which of this structure's buffer members contain
      parameters. Multiple flags can be set at once. Valid flag values are listed in the following table.
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -128,16 +129,23 @@ If set, the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
+<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+
+
+
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+
+
 
 <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
 
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+
 
  
 

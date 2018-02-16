@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DA4C7FBC-F5D5-48EA-90D6-F2249AF6401E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.exacquirerundownprotection, ExAcquireRundownProtection, ExAcquireRundownProtection routine [Kernel-Mode Driver Architecture], wdm/ExAcquireRundownProtection
+ms.keywords: ExAcquireRundownProtection, kernel.exacquirerundownprotection, ExAcquireRundownProtection routine [Kernel-Mode Driver Architecture], wdm/ExAcquireRundownProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExAcquireRundownProtection
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj5
 ## -returns
 
 
+
 <b>ExAcquireRundownProtection</b> returns <b>TRUE</b> if the routine successfully acquires run-down protection for the caller. Otherwise, it returns <b>FALSE</b>. A return value of <b>FALSE</b> indicates that the run down of the object has started and that the object must be treated as invalid.
 
 
 
+
 ## -remarks
+
 
 
 To safely access a shared object, a driver calls <b>ExAcquireRundownProtection</b> to acquire run-down protection on the object. The routine returns <b>TRUE</b> to indicate that run-down  protection is in effect. When run-down protection is in effect, the driver can safely access the object without risk that the object will be deleted before the access completes.
@@ -93,13 +96,20 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
+
 
 <a href="..\wdm\nf-wdm-exreleaserundownprotection.md">ExReleaseRundownProtection</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
+
+
+<a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6d5bc57-dd0e-4a75-af48-470b65e70a7d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILMSGSERVICEINFO, RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], *LPRILMSGSERVICEINFO, netvista.rilmsgserviceinfo_2
+ms.keywords: "*LPRILMSGSERVICEINFO, RILMSGSERVICEINFO, rilapitypes/RILMSGSERVICEINFO, netvista.rilmsgserviceinfo_2, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGSERVICEINFO
 product: Windows
 targetos: Windows
-req.typenames: RILMSGSERVICEINFO, *LPRILMSGSERVICEINFO
+req.typenames: "*LPRILMSGSERVICEINFO, RILMSGSERVICEINFO"
 req.product: Windows 10 or later.
 ---
 
@@ -75,19 +75,14 @@ typedef struct _RILMSGSERVICEINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwMsgSupport
 
 
-
 ### -field dwStoreUsed
 
 
-
 ### -field dwStoreTotal
-
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f774dde1-3498-423b-bf09-239d3d3421b4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, GetSourceFileLineOffsetsWide method [Windows Debugging], debugger.getsourcefilelineoffsetswide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, IDebugSymbols3, GetSourceFileLineOffsetsWide
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], debugger.getsourcefilelineoffsetswide, GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetSourceFileLineOffsetsWide, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetSourceFileLineOffsetsWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSourceFileLineOffsetsWide method
@@ -93,7 +93,9 @@ Receives the number of lines in the source file specified by <i>File</i>.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,24 +123,34 @@ The method was successful.  However, the number of lines in the source file exce
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about using the source path, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

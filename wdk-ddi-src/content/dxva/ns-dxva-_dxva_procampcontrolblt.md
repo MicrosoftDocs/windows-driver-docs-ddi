@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ProcAmpControlBlt
-title: _DXVA_ProcAmpControlBlt
+title: "_DXVA_ProcAmpControlBlt"
 author: windows-driver-content
 description: The DXVA_ProcAmpControlBlt structure contains the ProcAmp adjustment data that is output to the destination surface.
 old-location: display\dxva_procampcontrolblt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93f321e1-a38b-43a2-bfbd-35411a62194e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, display.dxva_procampcontrolblt, _DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt structure [Display Devices]
+ms.keywords: dxva/DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml, DXVA_ProcAmpControlBlt structure [Display Devices], DXVA_ProcAmpControlBlt, _DXVA_ProcAmpControlBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_ProcAmpControlBlt
 product: Windows
 targetos: Windows
@@ -116,9 +116,13 @@ Specifies the saturation of the output image as it is written to the destination
 
 ## -see-also
 
+<a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
+
 
  
 

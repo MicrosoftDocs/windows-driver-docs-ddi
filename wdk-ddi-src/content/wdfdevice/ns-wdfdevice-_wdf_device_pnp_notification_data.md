@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_PNP_NOTIFICATION_DATA
-title: _WDF_DEVICE_PNP_NOTIFICATION_DATA
+title: "_WDF_DEVICE_PNP_NOTIFICATION_DATA"
 author: windows-driver-content
 description: The WDF_DEVICE_PNP_NOTIFICATION_DATA structure describes a state change within a device's Plug and Play state machine.
 old-location: wdf\wdf_device_pnp_notification_data.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b49431bf-4b44-4d7b-b3a6-c3d7416bcb53
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_device_pnp_notification_data, kmdf.wdf_device_pnp_notification_data, WDF_DEVICE_PNP_NOTIFICATION_DATA structure, DFDeviceObjectGeneralRef_92c66935-afca-4567-bc55-cb3e3822201e.xml, wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA, WDF_DEVICE_PNP_NOTIFICATION_DATA, _WDF_DEVICE_PNP_NOTIFICATION_DATA
+ms.keywords: DFDeviceObjectGeneralRef_92c66935-afca-4567-bc55-cb3e3822201e.xml, kmdf.wdf_device_pnp_notification_data, wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA, _WDF_DEVICE_PNP_NOTIFICATION_DATA, WDF_DEVICE_PNP_NOTIFICATION_DATA structure, WDF_DEVICE_PNP_NOTIFICATION_DATA, wdf.wdf_device_pnp_notification_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_DEVICE_PNP_NOTIFICATION_DATA
 product: Windows
 targetos: Windows
@@ -83,12 +83,19 @@ typedef struct _WDF_DEVICE_PNP_NOTIFICATION_DATA {
 
 
 
-### -field Data
+### -field Type
 
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
+
+
+### -field Data
 
 
 ### -field Data.EnterState
 
+
+
+##### EnterState.
 
 
 ### -field Data.EnterState.CurrentState
@@ -105,6 +112,9 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice
 
 
 
+##### PostProcessState.
+
+
 ### -field Data.PostProcessState.CurrentState
 
 If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's current state.
@@ -112,6 +122,9 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice
 
 ### -field Data.LeaveState
 
+
+
+##### LeaveState.
 
 
 ### -field Data.LeaveState.CurrentState
@@ -124,33 +137,20 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice
 If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_pnp_state.md">WDF_DEVICE_PNP_STATE</a>-typed enumerator identifies the state machine's next state.
 
 
-### -field Type
-
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_state_notification_type.md">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
-
-
-###### - Data.PostProcessState.
-
-
-
-###### - Data.LeaveState.
-
-
-
-###### - Data.EnterState.
-
-
-
 ## -remarks
+
 
 
 The WDF_DEVICE_PNP_NOTIFICATION_DATA structure is an input argument to a driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_pnp_state_change_notification.md">EvtDevicePnpStateChange</a> callback function.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpnpstatechangecallback.md">WdfDeviceInitRegisterPnpStateChangeCallback</a>
+
+
 
  
 

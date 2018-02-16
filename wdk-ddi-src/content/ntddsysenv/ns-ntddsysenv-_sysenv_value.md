@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddsysenv._SYSENV_VALUE
-title: _SYSENV_VALUE
+title: "_SYSENV_VALUE"
 author: windows-driver-content
 description: Stores the value of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_GET_VARIABLE request.
 old-location: kernel\sysenv_value.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4F79D820-29D4-4D38-A09C-8A5E968C1479
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PSYSENV_VALUE structure pointer [Kernel-Mode Driver Architecture], ntddsysenv/PSYSENV_VALUE, _SYSENV_VALUE, SYSENV_VALUE structure [Kernel-Mode Driver Architecture], kernel.sysenv_value, ntddsysenv/SYSENV_VALUE, SYSENV_VALUE, *PSYSENV_VALUE, PSYSENV_VALUE
+ms.keywords: "_SYSENV_VALUE, *PSYSENV_VALUE, kernel.sysenv_value, ntddsysenv/PSYSENV_VALUE, SYSENV_VALUE structure [Kernel-Mode Driver Architecture], ntddsysenv/SYSENV_VALUE, PSYSENV_VALUE structure pointer [Kernel-Mode Driver Architecture], PSYSENV_VALUE, SYSENV_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddsysenv.h
-apiname: 
+apiname:
 -	SYSENV_VALUE
 product: Windows
 targetos: Windows
-req.typenames: *PSYSENV_VALUE, SYSENV_VALUE
+req.typenames: "*PSYSENV_VALUE, SYSENV_VALUE"
 ---
 
 # _SYSENV_VALUE structure
@@ -86,6 +86,7 @@ The length of the value of the system environment variable.
 
 
 
+
 #### - UCHAR
 
 The value of the system environment variable.
@@ -94,6 +95,8 @@ The value of the system environment variable.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt791526">IOCTL_SYSENV_GET_VARIABLE</a>
+
+
 
  
 

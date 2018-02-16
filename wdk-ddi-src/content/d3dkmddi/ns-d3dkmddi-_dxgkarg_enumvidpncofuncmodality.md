@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_ENUMVIDPNCOFUNCMODALITY
-title: _DXGKARG_ENUMVIDPNCOFUNCMODALITY
+title: "_DXGKARG_ENUMVIDPNCOFUNCMODALITY"
 author: windows-driver-content
 description: The DXGKARG_ENUMVIDPNCOFUNCMODALITY structure contains arguments for the DxgkDdiEnumVidPnCofuncModality function.
 old-location: display\dxgkarg_enumvidpncofuncmodality.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a67c9e20-68bf-45d5-bbf0-d324643b2a5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], display.dxgkarg_enumvidpncofuncmodality, DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, _DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY
+ms.keywords: "_DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], display.dxgkarg_enumvidpncofuncmodality, DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_ENUMVIDPNCOFUNCMODALITY
 product: Windows
 targetos: Windows
@@ -87,19 +87,27 @@ A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a> stru
 ## -remarks
 
 
+
 If a particular video present source or target is designated as the pivot of the enumeration, then <i>DxgkDdiEnumVidPnCofuncModality</i> must not change the mode set for that source or target.
 
 The D3DKMDT_HVIDPN data type is defined in <i>D3dkmdt.h</i>. The D3DDDI_VIDEO_PRESENT_SOURCE_ID and D3DDDI_VIDEO_PRESENT_TARGET_ID data types are defined in <i>D3dukmdt.h</i>.
 
 
 
-## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_enumcofuncmodality_pivot_type.md">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a>
+## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_enumcofuncmodality_pivot_type.md">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a>
+
+
 
  
 

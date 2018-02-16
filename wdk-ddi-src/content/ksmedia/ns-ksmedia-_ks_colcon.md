@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_COLCON
-title: _KS_COLCON
+title: "_KS_COLCON"
 author: windows-driver-content
 description: The KS_COLCON structure is used to describe color and contrast settings.
 old-location: stream\ks_colcon.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8328c1b1-e72d-4e34-b69e-e02b3f5850bf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml, stream.ks_colcon, ksmedia/PKS_COLCON, _KS_COLCON, KS_COLCON, KS_COLCON structure [Streaming Media Devices], PKS_COLCON, ksmedia/KS_COLCON, *PKS_COLCON, PKS_COLCON structure pointer [Streaming Media Devices]
+ms.keywords: ksmedia/PKS_COLCON, _KS_COLCON, *PKS_COLCON, KS_COLCON structure [Streaming Media Devices], PKS_COLCON structure pointer [Streaming Media Devices], dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml, KS_COLCON, PKS_COLCON, ksmedia/KS_COLCON, stream.ks_colcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_COLCON
 product: Windows
 targetos: Windows
-req.typenames: *PKS_COLCON, KS_COLCON
+req.typenames: KS_COLCON, *PKS_COLCON
 ---
 
 # _KS_COLCON structure
@@ -117,13 +117,17 @@ Indicates
 ## -remarks
 
 
+
 The KS_COLCON structure is used by the <a href="..\ksmedia\ns-ksmedia-_ksproperty_sphli.md">KSPROPERTY_SPHLI</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-_ksproperty_sphli.md">KSPROPERTY_SPHLI</a>
+
+
 
  
 

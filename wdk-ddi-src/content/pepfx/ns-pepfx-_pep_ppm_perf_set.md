@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PERF_SET
-title: _PEP_PPM_PERF_SET
+title: "_PEP_PPM_PERF_SET"
 author: windows-driver-content
 description: The PEP_PPM_PERF_SET structure specifies the new performance level that the operating system is requesting for the processor.
 old-location: kernel\pep_ppm_perf_set.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA2495F6-09E8-4AF9-9489-E745B759F999
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_PERF_SET, _PEP_PPM_PERF_SET, PPEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET, kernel.pep_ppm_perf_set, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET
+ms.keywords: "*PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET, pepfx/PEP_PPM_PERF_SET, kernel.pep_ppm_perf_set, _PEP_PPM_PERF_SET, pepfx/PPEP_PPM_PERF_SET, PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_PERF_SET
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET
+req.typenames: PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET
 ---
 
 # _PEP_PPM_PERF_SET structure
@@ -99,9 +99,11 @@ typedef struct _PEP_PPM_PERF_SET {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186816">PEP_NOTIFY_PPM_PERF_SET</a> notification. All five members of this structure contain input values that PoFx supplies when this notification is sent to the PEP.
 
 Processor performance levels are specified in platform-specific units. For example, a hardware platform might use a metric such as the processor clock frequency to provide a rough approximation to the amount of processing work  that is being done. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>.
+
 
 
 
@@ -109,7 +111,11 @@ Processor performance levels are specified in platform-specific units. For examp
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186816">PEP_NOTIFY_PPM_PERF_SET</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>
+
+
 
  
 

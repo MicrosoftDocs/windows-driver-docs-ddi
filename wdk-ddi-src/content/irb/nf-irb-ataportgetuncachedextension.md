@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b81fc29-4906-4095-b197-6b63f5f01ac0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportgetuncachedextension, AtaPortGetUnCachedExtension routine [Storage Devices], irb/AtaPortGetUnCachedExtension, atartns_30b7c0f0-5636-4d81-b1de-13d8c413f4d6.xml, AtaPortGetUnCachedExtension
+ms.keywords: AtaPortGetUnCachedExtension routine [Storage Devices], atartns_30b7c0f0-5636-4d81-b1de-13d8c413f4d6.xml, AtaPortGetUnCachedExtension, irb/AtaPortGetUnCachedExtension, storage.ataportgetuncachedextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortGetUnCachedExtension
 product: Windows
 targetos: Windows
@@ -92,11 +92,14 @@ Set this parameter set to 0 if the miniport driver does not maintain per IRB inf
 ## -returns
 
 
+
 <b>AtaPortGetUncachedExtension</b> returns a virtual address pointer to the uncached extension. If it cannot allocate the requested memory, or if the memory was previously allocated, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 The miniport driver can use IRB extensions as storage for driver-determined, request-specific information, such as data that is necessary to process a particular request.
@@ -109,9 +112,12 @@ The miniport driver must not call <b>AtaPortGetUncachedExtension</b> from any ro
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
 
  
 

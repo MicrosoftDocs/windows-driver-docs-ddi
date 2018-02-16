@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d41d0eba-14e3-48ff-874d-e52589cf716c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.auxklibgetbugcheckdata, aux_klib_3cb977df-feb6-4b52-afa1-b5e3038fc287.xml, AuxKlibGetBugCheckData, aux_klib/AuxKlibGetBugCheckData, AuxKlibGetBugCheckData routine [Kernel-Mode Driver Architecture]
+ms.keywords: AuxKlibGetBugCheckData, aux_klib/AuxKlibGetBugCheckData, aux_klib_3cb977df-feb6-4b52-afa1-b5e3038fc287.xml, kernel.auxklibgetbugcheckdata, AuxKlibGetBugCheckData routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Aux_Klib.lib
 -	Aux_Klib.dll
-apiname: 
+apiname:
 -	AuxKlibGetBugCheckData
 product: Windows
 targetos: Windows
-req.typenames: *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
+req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
 ---
 
 # AuxKlibGetBugCheckData function
@@ -76,11 +76,14 @@ A pointer to a <a href="..\aux_klib\ns-aux_klib-_kbugcheck_data.md">KBUGCHECK_DA
 ## -returns
 
 
+
 <b>AuxKlibGetBugCheckData</b> returns STATUS_SUCCESS if the operation succeeds. The routine returns STATUS_INFO_LENGTH_MISMATCH if the <b>KBUGCHECK_DATA</b> structure's size is incorrect.
 
 
 
+
 ## -remarks
+
 
 
 The <b>AuxKlibGetBugCheckData</b> routine can be called only from a <a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a> routine.
@@ -89,13 +92,20 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 
 
+
 ## -see-also
 
 <a href="..\aux_klib\ns-aux_klib-_kbugcheck_data.md">KBUGCHECK_DATA</a>
 
+
+
 <a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
 
+
+
 <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+
+
 
  
 

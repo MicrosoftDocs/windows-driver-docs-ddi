@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 68faba0a-8057-4259-b93d-c19899637356
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, IKsPin::KsCreateSinkPinHandle, stream.ikspin_kscreatesinkpinhandle, ksproxy/IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin, KsCreateSinkPinHandle, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml
+ms.keywords: KsCreateSinkPinHandle method [Streaming Media Devices], IKsPin interface, KsCreateSinkPinHandle, IKsPin::KsCreateSinkPinHandle, IKsPin interface [Streaming Media Devices], KsCreateSinkPinHandle method, stream.ikspin_kscreatesinkpinhandle, IKsPin, KsCreateSinkPinHandle method [Streaming Media Devices], ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml, ksproxy/IKsPin::KsCreateSinkPinHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPin.KsCreateSinkPinHandle
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A type reference to a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> str
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 Since the <b>KsCreateSinkPinHandle</b> method uses pass-by-reference variables, it is not necessary to pass pointers to KSPIN_INTERFACE and KSPIN_MEDIUM structures as arguments. 
@@ -96,13 +99,20 @@ This method is for proxy use and is not recommended for application use.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
+
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
+
+
+
+<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
+
+
 
  
 

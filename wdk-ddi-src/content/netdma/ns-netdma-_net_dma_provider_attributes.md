@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_PROVIDER_ATTRIBUTES
-title: _NET_DMA_PROVIDER_ATTRIBUTES
+title: "_NET_DMA_PROVIDER_ATTRIBUTES"
 author: windows-driver-content
 description: The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration attributes for a NetDMA provider.
 old-location: netvista\net_dma_provider_attributes.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b5a7e9e-b10b-4c94-80b1-172cd9f0c9ca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_PROVIDER_ATTRIBUTES, netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, _NET_DMA_PROVIDER_ATTRIBUTES, netdma/NET_DMA_PROVIDER_ATTRIBUTES, netvista.net_dma_provider_attributes, NET_DMA_PROVIDER_ATTRIBUTES
+ms.keywords: netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, *PNET_DMA_PROVIDER_ATTRIBUTES, _NET_DMA_PROVIDER_ATTRIBUTES, netdma/NET_DMA_PROVIDER_ATTRIBUTES, netvista.net_dma_provider_attributes, netdma/PNET_DMA_PROVIDER_ATTRIBUTES, PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], NET_DMA_PROVIDER_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NET_DMA_PROVIDER_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_ATTRIBUTES, *PNET_DMA_PROVIDER_ATTRIBUTES
+req.typenames: "*PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES"
 ---
 
 # _NET_DMA_PROVIDER_ATTRIBUTES structure
@@ -101,16 +101,16 @@ Reserved for DMA provider attributes flags. Set this member to zero.
 A vendor identifier (ID) that uniquely identifies the vendor that created the DMA engine. This
      vendor ID is specified in the device's PCI configuration space. For more information about the vendor
      ID, see 
-     <mshelp:link keywords="devinst.identifiers_for_pci_devices" tabindex="0">Identifiers for PCI
-     Devices</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI
+     Devices</a>.
 
 
 ### -field DmaChannelCount
 
 The number of DMA channels that the DMA provider supports. This number can differ from the 
      <b>MaxDmaChannelCount</b> member of the 
-     <mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
-     NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure that defines the maximum number of DMA channels that
+     <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+     NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that defines the maximum number of DMA channels that
      this type of DMA provider can support.
 
 
@@ -128,6 +128,7 @@ The largest physical address that the DMA engine can support.
 ## -remarks
 
 
+
 To start a DMA provider, the DMA provider driver supplies a NET_DMA_PROVIDER_ATTRIBUTES structure at
     the 
     <i>ProviderAttributes</i> parameter of the 
@@ -138,16 +139,25 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 
 
+
 ## -see-also
+
+<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
+
+
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
-<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
-   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+
 
 <a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
+
+
 
  
 

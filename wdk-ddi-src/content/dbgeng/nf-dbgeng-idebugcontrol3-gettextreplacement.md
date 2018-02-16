@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8d5531ac-afa1-4928-8ea6-8be4663cf06a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.gettextreplacement, GetTextReplacement, IDebugControl3::GetTextReplacement, dbgeng/IDebugControl3::GetTextReplacement, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, GetTextReplacement method [Windows Debugging], IDebugControl3 interface, GetTextReplacement method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, IDebugControl2::GetTextReplacement, dbgeng/IDebugControl2::GetTextReplacement, GetTextReplacement method [Windows Debugging], IDebugControl3, IDebugControl3 interface [Windows Debugging], GetTextReplacement method
+ms.keywords: GetTextReplacement method [Windows Debugging], dbgeng/IDebugControl3::GetTextReplacement, IDebugControl3 interface [Windows Debugging], GetTextReplacement method, debugger.gettextreplacement, IDebugControl3, GetTextReplacement method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetTextReplacement, dbgeng/IDebugControl2::GetTextReplacement, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, GetTextReplacement, GetTextReplacement method [Windows Debugging], IDebugControl3 interface, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, IDebugControl3::GetTextReplacement, IDebugControl2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl2.GetTextReplacement
 -	IDebugControl3.GetTextReplacement
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetTextReplacement method
@@ -118,7 +118,9 @@ Receives the size, in characters, of the value of the alias.  If <i>DstSize</i> 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,11 +137,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Before executing commands or evaluating expressions, the debugger engine will replace the alias specified by <i>SrcBuffer</i> with the value of the alias (specified by <i>DstBuffer</i>).
@@ -148,21 +153,36 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+
 
  
 

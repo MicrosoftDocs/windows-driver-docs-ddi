@@ -2,13 +2,13 @@
 UID: NS:ksi.KSCLOCKINSTANCE
 title: KSCLOCKINSTANCE
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksclockinstance.htm
 old-project: stream
 ms.assetid: DC8A7CE9-7FDE-4FC9-8C71-3F3368E7E5C1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksclockinstance, KSCLOCKINSTANCE structure [Streaming Media Devices], KSCLOCKINSTANCE, ksi/KSCLOCKINSTANCE, ksi/PKSCLOCKINSTANCE, PKSCLOCKINSTANCE structure pointer [Streaming Media Devices], PKSCLOCKINSTANCE, *PKSCLOCKINSTANCE
+ms.keywords: KSCLOCKINSTANCE structure [Streaming Media Devices], KSCLOCKINSTANCE, ksi/PKSCLOCKINSTANCE, ksi/KSCLOCKINSTANCE, *PKSCLOCKINSTANCE, stream.ksclockinstance, PKSCLOCKINSTANCE, PKSCLOCKINSTANCE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksi.h
-apiname: 
+apiname:
 -	KSCLOCKINSTANCE
 product: Windows
 targetos: Windows
-req.typenames: KSCLOCKINSTANCE, *PKSCLOCKINSTANCE
+req.typenames: "*PKSCLOCKINSTANCE, KSCLOCKINSTANCE"
 ---
 
 # KSCLOCKINSTANCE structure
@@ -72,11 +72,8 @@ typedef struct {
 ### -field Header
 
 
-
 ### -field DefaultClock
 
 
-
 ### -field Reserved
-
 

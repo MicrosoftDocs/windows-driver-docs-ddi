@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8d991192-2df8-4b4d-a4c5-df5091492e67
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, IoCancelIrp, kernel.iocancelirp, wdm/IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture], IoCancelIrp, kernel.iocancelirp, k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoCancelIrp
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the IRP to be canceled.
 ## -returns
 
 
+
 <b>IoCancelIrp</b> returns <b>TRUE</b> if the IRP had a cancel routine and this routine was called. Otherwise, it returns <b>FALSE</b>. In either case, the IRP's cancel bit is set to <b>TRUE</b>. For more information, see Remarks.
 
 
 
+
 ## -remarks
+
 
 
 If the IRP has a cancel routine, <b>IoCancelIrp</b> sets the cancel bit and calls the cancel routine.
@@ -93,9 +96,12 @@ An intermediate driver should not arbitrarily call <b>IoCancelIrp</b> unless tha
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6fce78f7-a23e-4651-b6d8-b3d5387ccc27
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], PVRAM_SURFACE_INFO, ksmedia/PVRAM_SURFACE_INFO, avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml, ksmedia/VRAM_SURFACE_INFO, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], stream.vram_surface_info, VRAM_SURFACE_INFO
+ms.keywords: stream.vram_surface_info, ksmedia/PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO, PVRAM_SURFACE_INFO structure pointer [Streaming Media Devices], ksmedia/VRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO structure [Streaming Media Devices], PVRAM_SURFACE_INFO, avstruct_ac2ca5de-0eea-453b-b3fd-79874fd2242a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	VRAM_SURFACE_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO
+req.typenames: "*PVRAM_SURFACE_INFO, VRAM_SURFACE_INFO"
 ---
 
 # VRAM_SURFACE_INFO structure
@@ -117,6 +117,7 @@ The minidriver can use this member to store information about the surface as it 
 ## -remarks
 
 
+
 When the minidriver receives VRAM_SURFACE_INFO through a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a> property call, the members following <b>VramPhysicalAddress</b> in the member list (except for <b>ullReserved</b>) are zeroed out. The capture driver can store capture-related private data in these members.
 
 AVStream then stores this information in the stream header and returns it to the minidriver in the <a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a> callback function.
@@ -125,11 +126,16 @@ The data in these members persists for the lifetime of the stream header. When a
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a>
 
-<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8f3abf40-bb47-4fa6-862b-6126edb00b36
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, netvista.ndisequalunicodestring, ndis/NdisEqualUnicodeString, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], NdisEqualUnicodeString
+ms.keywords: NdisEqualUnicodeString, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualUnicodeString, netvista.ndisequalunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisEqualUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisEqualUnicodeString macro
@@ -71,14 +71,14 @@ BOOLEAN NdisEqualUnicodeString(
 
 
 
-### -param _String1
+### -param _String1 [in]
 
-TBD
+A pointer to an NDIS_STRING type that describes the first Unicode string.
 
 
-### -param _String2
+### -param _String2 [in]
 
-TBD
+A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 
 ### -param _CaseInsensitive
@@ -88,9 +88,6 @@ TBD
 
 
 
-#### - String2 [in]
-
-A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 
 #### - CaseInSensitive [in]
@@ -99,12 +96,8 @@ A Boolean value that is <b>TRUE</b>, if case should be ignored when doing the co
      is <b>FALSE</b>.
 
 
-#### - String1 [in]
-
-A pointer to an NDIS_STRING type that describes the first Unicode string.
-
-
 ## -remarks
+
 
 
 Starting with Windows 2000 and later drivers, a string of type NDIS_STRING is a counted,
@@ -113,9 +106,12 @@ Starting with Windows 2000 and later drivers, a string of type NDIS_STRING is a 
 
 
 
+
 ## -see-also
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

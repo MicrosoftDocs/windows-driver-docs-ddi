@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0cfe3674-2261-44f5-a916-fb786bb25fe5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_SET, *PKSEVENT_SET, ks/PKSEVENT_SET, KSEVENT_SET structure [Streaming Media Devices], KSEVENT_SET, stream.ksevent_set, ks-struct_f3a678ec-93b4-4b60-959a-ca750b4ac4c2.xml, PKSEVENT_SET, PKSEVENT_SET structure pointer [Streaming Media Devices]
+ms.keywords: "*PKSEVENT_SET, KSEVENT_SET structure [Streaming Media Devices], KSEVENT_SET, PKSEVENT_SET structure pointer [Streaming Media Devices], ks-struct_f3a678ec-93b4-4b60-959a-ca750b4ac4c2.xml, PKSEVENT_SET, ks/PKSEVENT_SET, stream.ksevent_set, ks/KSEVENT_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSEVENT_SET
 product: Windows
 targetos: Windows
-req.typenames: KSEVENT_SET, *PKSEVENT_SET
+req.typenames: "*PKSEVENT_SET, KSEVENT_SET"
 ---
 
 # KSEVENT_SET structure
@@ -87,13 +87,17 @@ Points to the beginning of the array of <a href="..\ks\ns-ks-ksevent_item.md">KS
 ## -remarks
 
 
+
 Microsoft provides several system-defined kernel streaming event set GUIDs. Minidrivers specify one of these GUIDs in the <b>Set</b> member. Kernel streaming event sets typically begin with a <i>KSEVENTSETID</i> prefix. Event set GUIDs are defined in <i>ks.h</i>, <i>ksmedia.h</i>, <i>bdamedia.h</i>, and possibly other header files.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 366EE066-AD47-4A75-87B4-17279C66C741
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2::SetBuffer, SetBuffer, extsfns/IDebugFailureAnalysis2::SetBuffer, SetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setbuffer, SetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging], SetBuffer method
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], SetBuffer method, SetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, extsfns/IDebugFailureAnalysis2::SetBuffer, debugger.idebugfailureanalysis2_setbuffer, SetBuffer, IDebugFailureAnalysis2, IDebugFailureAnalysis2::SetBuffer, SetBuffer method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	extsfns.h
-apiname: 
+apiname:
 -	IDebugFailureAnalysis2.SetBuffer
 product: Windows
 targetos: Windows
@@ -93,11 +93,14 @@ The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 ## -returns
 
 
+
 If this method succeeds, it returns a pointer to the new or existing <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the specified tag, it checks to see whether the data type associated with that tag is compatible with the data type specified by <i>EntryType</i>. For example, <b>DEBUG_FA_ENTRY_ULONG64</b>, <b>DEBUG_FA_ENTRY_INSTRUCTION_OFFSET</b>, and <b>DEBUG_FA_ENTRY_POINTER</b> are all compatible with each other. Likewise, <b>DEBUG_FA_ENTRY_ANSI_STRING</b> and <b>DEBUG_FA_ENTRY_EXTENSION_CMD</b> are compatible with each other. If the data types are not compatible, this method returns <b>NULL</b> and does not overwrite the entry's data block.
@@ -106,17 +109,28 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 
+
 ## -see-also
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
 
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
+
+
 
  
 

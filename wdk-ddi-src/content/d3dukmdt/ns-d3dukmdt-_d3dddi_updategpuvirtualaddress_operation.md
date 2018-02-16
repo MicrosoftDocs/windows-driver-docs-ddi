@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
-title: _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
+title: "_D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION"
 author: windows-driver-content
 description: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION describes a virtual address update operation.
 old-location: display\d3dddi_updategpuvirtualaddress_operation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BCA741A8-2294-43C1-8B9C-3724274D637B
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure [Display Devices], d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, display.d3dddi_updategpuvirtualaddress_operation
+ms.keywords: d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure [Display Devices], display.d3dddi_updategpuvirtualaddress_operation, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 product: Windows
 targetos: Windows
@@ -93,6 +93,9 @@ typedef struct _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION {
 ## -struct-fields
 
 
+
+
+### -field OperationType
 
 
 ### -field Map
@@ -202,6 +205,12 @@ Defines is the page table entry state after un-mapping, either <i>Zero</i> or <i
 The copy operation copies all mappings from source GPU virtual address range to the destination range. The source and destination ranges are allowed to intersect. Both ranges must belong to a reserved (zero) virtual address range.
 
 
+
+#### BaseAddress
+
+Specifies the start virtual address of the source virtual address range. The value is in bytes and must be 4KB aligned.
+
+
 ### -field Copy.SourceAddress
 
  
@@ -217,20 +226,15 @@ Specifies the size, in bytes, for the range being copied. The value must be 4KB 
 Specifies the start virtual address of the destination virtual address range. The value is in bytes and must be 4KB aligned.
 
 
-### -field OperationType
-
-
-
-##### - Copy.BaseAddress
-
-Specifies the start virtual address of the source virtual address range. The value is in bytes and must be 4KB aligned.
-
-
 ## -see-also
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+
 
  
 

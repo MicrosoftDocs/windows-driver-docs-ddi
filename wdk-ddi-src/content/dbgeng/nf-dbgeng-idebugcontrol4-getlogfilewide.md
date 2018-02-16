@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2dd20552-747c-4eb8-aacd-7ee241d490d1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetLogFileWide, dbgeng/IDebugControl4::GetLogFileWide, GetLogFileWide method [Windows Debugging], IDebugControl4 interface, debugger.getlogfilewide, IDebugControl4, GetLogFileWide method [Windows Debugging], IDebugControl4::GetLogFileWide, IDebugControl4 interface [Windows Debugging], GetLogFileWide method
+ms.keywords: IDebugControl4::GetLogFileWide, IDebugControl4, GetLogFileWide method [Windows Debugging], IDebugControl4 interface, GetLogFileWide, GetLogFileWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetLogFileWide method, debugger.getlogfilewide, dbgeng/IDebugControl4::GetLogFileWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetLogFileWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetLogFileWide method
@@ -93,7 +93,9 @@ Receives <b>TRUE</b> if log messages are appended to the log file, or <b>FALSE</
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +134,14 @@ There is no currently open log file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>GetLogFile</b> and <b>GetLogFileWide</b> behave the same way as <a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a> and <b>GetLogFile2Wide</b> with <i>Append</i> receiving only the information about the DEBUG_LOG_APPEND flag.
@@ -145,17 +150,28 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+
+
 
  
 

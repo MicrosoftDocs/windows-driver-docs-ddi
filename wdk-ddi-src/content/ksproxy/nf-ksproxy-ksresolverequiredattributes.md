@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 04153845-4170-40db-ba60-3d438ae0a60d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_fb22470c-5445-4005-b1c3-4f708cc0a47f.xml, stream.ksresolverequiredattributes, ksproxy/KsResolveRequiredAttributes, KsResolveRequiredAttributes, KsResolveRequiredAttributes function [Streaming Media Devices]
+ms.keywords: stream.ksresolverequiredattributes, ksproxy/KsResolveRequiredAttributes, KsResolveRequiredAttributes function [Streaming Media Devices], KsResolveRequiredAttributes, ksproxy_fb22470c-5445-4005-b1c3-4f708cc0a47f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname: 
+apiname:
 -	KsResolveRequiredAttributes
 product: Windows
 targetos: Windows
@@ -82,17 +82,25 @@ Pointer to a buffer that contains a <a href="..\ks\ns-ks-ksmultiple_item.md">KSM
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a>
-
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
+
+
+<a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a>
+
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
 
  
 

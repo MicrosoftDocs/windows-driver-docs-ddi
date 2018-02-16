@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030
 product: Windows
 targetos: Windows
@@ -80,30 +80,21 @@ The device being processed.
 The transform operation being performed.
 
 
-### -param *pOutputArguments
-
-
-
-### -param *pInputArguments
-
-
-
-
-
-
-#### - pInputArguments [in]
-
-The input arguments for the transform being performed.
-
-
-#### - pOutputArguments [in]
+### -param *pOutputArguments [in]
 
 The output arguments for the transform being performed.
+
+
+### -param *pInputArguments [in]
+
+The input arguments for the transform being performed.
 
 
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

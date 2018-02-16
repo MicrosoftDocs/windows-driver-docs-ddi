@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
 product: Windows
 targetos: Windows
@@ -83,10 +83,12 @@ The video processor.
 
 ### -param *pOutputParameters
 
+The output arguments for the video process.
 
 
 ### -param *pInputStreamParameters
 
+The input arguments for the video process.
 
 
 ### -param NumInputStreams
@@ -94,19 +96,11 @@ The video processor.
 The number of input streams.
 
 
-#### - pOutputParameters
-
-The output arguments for the video process.
-
-
-#### - pInputStreamParameters
-
-The input arguments for the video process.
-
-
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

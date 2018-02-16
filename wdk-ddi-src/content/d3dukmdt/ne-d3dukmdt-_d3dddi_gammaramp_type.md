@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_GAMMARAMP_TYPE
-title: _D3DDDI_GAMMARAMP_TYPE
+title: "_D3DDDI_GAMMARAMP_TYPE"
 author: windows-driver-content
 description: The D3DDDI_GAMMARAMP_TYPE enumeration indicates the type of gamma ramp used in a video present path.
 old-location: display\d3dddi_gammaramp_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4261989f-5f29-4957-9633-ce2de14698fa
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_GAMMARAMP_RGB256x3x16, d3dukmdt/D3DDDI_GAMMARAMP_MATRIX_3x4, DmEnums_fc19c762-0156-4602-97ea-0b3865012161.xml, d3dukmdt/D3DDDI_GAMMARAMP_DXGI_1, d3dukmdt/D3DDDI_GAMMARAMP_UNINITIALIZED, D3DDDI_GAMMARAMP_UNINITIALIZED, d3dukmdt/D3DDDI_GAMMARAMP_TYPE, D3DDDI_GAMMARAMP_DEFAULT, D3DDDI_GAMMARAMP_DXGI_1, _D3DDDI_GAMMARAMP_TYPE, d3dukmdt/D3DDDI_GAMMARAMP_DEFAULT, D3DDDI_GAMMARAMP_MATRIX_3x4, d3dukmdt/D3DDDI_GAMMARAMP_RGB256x3x16, D3DDDI_GAMMARAMP_TYPE enumeration [Display Devices], D3DDDI_GAMMARAMP_TYPE, display.d3dddi_gammaramp_type
+ms.keywords: "_D3DDDI_GAMMARAMP_TYPE, d3dukmdt/D3DDDI_GAMMARAMP_RGB256x3x16, D3DDDI_GAMMARAMP_UNINITIALIZED, D3DDDI_GAMMARAMP_DXGI_1, d3dukmdt/D3DDDI_GAMMARAMP_TYPE, D3DDDI_GAMMARAMP_TYPE, D3DDDI_GAMMARAMP_DEFAULT, d3dukmdt/D3DDDI_GAMMARAMP_DEFAULT, d3dukmdt/D3DDDI_GAMMARAMP_MATRIX_3x4, DmEnums_fc19c762-0156-4602-97ea-0b3865012161.xml, d3dukmdt/D3DDDI_GAMMARAMP_DXGI_1, D3DDDI_GAMMARAMP_TYPE enumeration [Display Devices], display.d3dddi_gammaramp_type, d3dukmdt/D3DDDI_GAMMARAMP_UNINITIALIZED, D3DDDI_GAMMARAMP_RGB256x3x16, D3DDDI_GAMMARAMP_MATRIX_3x4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_GAMMARAMP_TYPE
 product: Windows
 targetos: Windows
@@ -101,13 +101,17 @@ Indicates that the colorspace transform is defined by a D3DDDI_3X4_COLORSPACE_TR
 ## -remarks
 
 
+
 The <b>GammaRamp</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gamma_ramp.md">D3DKMDT_GAMMA_RAMP</a> structure. The <b>Type</b> member of the D3DKMDT_GAMMA_RAMP structure is a D3DDDI_GAMMARAMP_TYPE value.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_color_basis.md">D3DKMDT_COLOR_BASIS</a>
+
+
 
  
 

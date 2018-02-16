@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 492354e3-564f-480b-8e6f-e5e1c326b24e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILIMSSTATUS_V1, *LPRILIMSSTATUS_V1, RILIMSSTATUS_V1, netvista.rilimsstatus_v1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilimsstatus_v1, RILIMSSTATUS_V1, ntddrilapitypes/RILIMSSTATUS_V1, *LPRILIMSSTATUS_V1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILIMSSTATUS_V1
 product: Windows
 targetos: Windows
-req.typenames: *LPRILIMSSTATUS_V1, RILIMSSTATUS_V1
+req.typenames: RILIMSSTATUS_V1, *LPRILIMSSTATUS_V1
 ---
 
 # RILIMSSTATUS_V1 structure
@@ -75,23 +75,17 @@ typedef struct _RILIMSSTATUS_V1 {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field hUiccApp
-
 
 
 ### -field dwAvailableServices
 
 
-
 ### -field dwSMSSupportedFormat
-
 

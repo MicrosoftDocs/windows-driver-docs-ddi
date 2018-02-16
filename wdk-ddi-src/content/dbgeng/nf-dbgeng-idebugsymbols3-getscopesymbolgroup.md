@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 002af3f1-4879-40e9-a5c6-bf62a3b26e02
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols::GetScopeSymbolGroup, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, IDebugSymbols3, dbgeng/IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols2::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method, GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, debugger.getscopesymbolgroup
+ms.keywords: IDebugSymbols::GetScopeSymbolGroup, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols3, IDebugSymbols2, GetScopeSymbolGroup method [Windows Debugging], debugger.getscopesymbolgroup, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, GetScopeSymbolGroup, IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method, dbgeng/IDebugSymbols::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetScopeSymbolGroup
 -	IDebugSymbols2.GetScopeSymbolGroup
 -	IDebugSymbols3.GetScopeSymbolGroup
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetScopeSymbolGroup method
@@ -74,6 +74,7 @@ HRESULT GetScopeSymbolGroup(
 ### -param Flags [in]
 
 Specifies a bit-set used to determine which symbols to include in the symbol group.  To include all symbols, set <i>Flags</i> to DEBUG_SCOPE_GROUP_ALL.  The following bit-flags determine which symbols are included.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -99,7 +100,8 @@ Include the local variables for the current scope.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Update [in, optional]
@@ -116,7 +118,9 @@ Receives the symbol group interface object for the current scope.  For details o
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +137,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>Update</i> parameter allows for efficient updates when stepping through code. Instead of creating and populating a new symbol group, the old symbol group can be updated.
@@ -146,17 +153,28 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+
+
 
  
 

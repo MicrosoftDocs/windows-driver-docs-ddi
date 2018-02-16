@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 05cbeca1-7420-41c6-8868-980b265523db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], NdisFCancelDirectOidRequest, netvista.ndisfcanceldirectoidrequest, ndis/NdisFCancelDirectOidRequest, ndis_request_direct_ref_48dc16f9-1c11-41de-9c37-91abed86b06c.xml
+ms.keywords: NdisFCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelDirectOidRequest, NdisFCancelDirectOidRequest, ndis_request_direct_ref_48dc16f9-1c11-41de-9c37-91abed86b06c.xml, netvista.ndisfcanceldirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFCancelDirectOidRequest
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFCancelDirectOidRequest function
@@ -88,11 +88,14 @@ A cancellation identifier for the request. This identifier specifies the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Filter drivers call 
@@ -103,21 +106,30 @@ Filter drivers call
 
 The filter driver can call 
     <b>NdisFCancelDirectOidRequest</b> from the 
-    <mshelp:link keywords="netvista.filtercanceldirectoidrequest" tabindex="0"><i>
-    FilterCancelDirectOidRequest</i></mshelp:link> function to pass on the cancellation to underlying drivers.
+    <a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
+    FilterCancelDirectOidRequest</a> function to pass on the cancellation to underlying drivers.
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
+   FilterCancelDirectOidRequest</a>
 
-<mshelp:link keywords="netvista.filtercanceldirectoidrequest" tabindex="0"><i>
-   FilterCancelDirectOidRequest</i></mshelp:link>
+
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
+
+
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+
+
 
  
 

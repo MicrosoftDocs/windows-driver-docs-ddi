@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_ACPI_RESOURCE_TYPE
-title: _PEP_ACPI_RESOURCE_TYPE
+title: "_PEP_ACPI_RESOURCE_TYPE"
 author: windows-driver-content
 description: The PEP_ACPI_RESOURCE_TYPE enumeration is used to identify the type of ACPI resource that is contained in the PEP_ACPI_RESOURCE union.
 old-location: kernel\pep_acpi_resource_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C67FA5DF-D2E4-4F00-B22F-9218F0012708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_acpi_resource_type, pepfx/PepAcpiExtendedMemory, _PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiIoPort, PepAcpiIoPort, PepAcpiGpioIo, PepAcpiExtendedIo, PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbI2c, pepfx/PepAcpiInterrupt, pepfx/PepAcpiSpbSpi, PepAcpiGpioInt, PepAcpiExtendedMemory, pepfx/PepAcpiGpioInt, PepAcpiMemory, pepfx/PepAcpiMemory, pepfx/PepAcpiSpbI2c, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiExtendedIo, PepAcpiInterrupt, PepAcpiSpbUart, pepfx/PepAcpiSpbUart, pepfx/PepAcpiGpioIo, pepfx/PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbSpi
+ms.keywords: PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiIoPort, PepAcpiInterrupt, pepfx/PepAcpiInterrupt, PepAcpiGpioInt, pepfx/PepAcpiMemory, pepfx/PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiGpioInt, PepAcpiSpbUart, PepAcpiIoPort, PepAcpiExtendedIo, pepfx/PepAcpiSpbI2c, _PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiSpbUart, PepAcpiExtendedMemory, pepfx/PepAcpiGpioIo, PepAcpiMemory, PepAcpiGpioIo, PepAcpiSpbSpi, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiExtendedIo, PEP_ACPI_RESOURCE_TYPE, PepAcpiSpbI2c, kernel.pep_acpi_resource_type, pepfx/PepAcpiExtendedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_RESOURCE_TYPE
 product: Windows
 targetos: Windows
@@ -128,9 +128,13 @@ Indicates that the resource is an ACPI extended IO resource.
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_acpi_request_convert_to_bios_resources.md">PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</a>
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a>
+
 
  
 

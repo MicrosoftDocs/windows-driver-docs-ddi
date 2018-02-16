@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CONNECTION_CHANGE
-title: _DXGK_CONNECTION_CHANGE
+title: "_DXGK_CONNECTION_CHANGE"
 author: windows-driver-content
 description: Structure to describe the most recently updated status of the link for a target.
 old-location: display\dxgk_connection_change.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0B0D640C-3E4B-4DE0-AA11-C751F210C77A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_CONNECTION_CHANGE, _DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], d3dkmddi/DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], *PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change
+ms.keywords: "_DXGK_CONNECTION_CHANGE, d3dkmddi/DXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], display.dxgk_connection_change, *PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], d3dkmddi/PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_CONNECTION_CHANGE
 product: Windows
 targetos: Windows
@@ -83,43 +83,6 @@ typedef struct _DXGK_CONNECTION_CHANGE {
 
 
 
-### -field MonitorConnect
-
-
-
-### -field MonitorConnect.LinkTargetType
-
- 
-
-
-### -field TargetConnect
-
-
-
-### -field TargetConnect.BaseTargetType
-
- 
-
-
-### -field TargetConnect.NewTargetId
-
- 
-
-
-### -field TargetJoin
-
-
-
-### -field TargetJoin.BaseTargetType
-
- 
-
-
-### -field TargetJoin.NewTargetId
-
- 
-
-
 ### -field ConnectionChangeId
 
 The per target unique id for the transition being reported.  This value must be unique across all targets on the adapter and must be monotonically increasing for each change reported.
@@ -140,27 +103,70 @@ The status of the connection.
 This value is reserved for system use.
 
 
-###### - MonitorConnect.MonitorConnect.LinkTargetType
+### -field MonitorConnect
+
+
+
+##### LinkTargetType
 
 This is the video output technology of the monitor which has been connected.  Internal and Miracast are not allowed so only the following values are allowed:
 
 
-###### - TargetJoin.TargetJoin.NewTargetId
+### -field MonitorConnect.LinkTargetType
 
-The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.  
+ 
 
 
-###### - TargetConnect.TargetConnect.BaseTargetType
+### -field TargetConnect
+
+
+
+##### BaseTargetType
 
 This is the video output technology of connector of the new target.  As with MonitorConnect.LinkTargetType,  Internal and Miracast are not allowed so the same target types as listed above are allowed.
 
 
-###### - TargetJoin.TargetJoin.BaseTargetType
 
-This is the video output technology of the connector of the new target.  As with MonitorConnect.LinkTargetType,  Internal and Miracast are not allowed so the same target types as listed above are allowed.  
-<div class="alert"><b>Note</b>  The same BaseTargetType must be reported for all targets which are being joined to each other.</div><div> </div>
-
-###### - TargetConnect.TargetConnect.NewTargetId
+##### NewTargetId
 
 The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.  
+
+
+### -field TargetConnect.BaseTargetType
+
+ 
+
+
+### -field TargetConnect.NewTargetId
+
+ 
+
+
+### -field TargetJoin
+
+
+
+##### BaseTargetType
+
+This is the video output technology of the connector of the new target.  As with MonitorConnect.LinkTargetType,  Internal and Miracast are not allowed so the same target types as listed above are allowed.  
+
+<div class="alert"><b>Note</b>  The same BaseTargetType must be reported for all targets which are being joined to each other.</div>
+<div> </div>
+
+
+##### NewTargetId
+
+The target id for which the change is being reported.  This target id must have been reported to the OS before and must be in a state which supports the given change.  
+
+
+### -field TargetJoin.BaseTargetType
+
+ 
+
+
+### -field TargetJoin.NewTargetId
+
+ 
+
+
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24daa47b-993c-49ee-b4e2-462cd7570f3c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilexchangeuiccapduresponseparammask, RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_EUAR_ALL, ntddrilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU, RIL_PARAM_EUAR_ALL, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RIL_PARAM_EUAR_RESPONSEAPDU
+ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RIL_PARAM_EUAR_RESPONSEAPDU, RIL_PARAM_EUAR_ALL, ntddrilapitypes/RIL_PARAM_EUAR_ALL, ntddrilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduresponseparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 product: Windows
 targetos: Windows
@@ -71,11 +71,8 @@ typedef enum _RILEXCHANGEUICCAPDURESPONSEPARAMMASK {
 ### -field RIL_PARAM_EUAR_RESPONSEAPDULENGTH
 
 
-
 ### -field RIL_PARAM_EUAR_RESPONSEAPDU
 
 
-
 ### -field RIL_PARAM_EUAR_ALL
-
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 47ae3578-231c-49c8-a851-9f165db27fb1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSetStartIoAttributes, IoSetStartIoAttributes, k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoSetStartIoAttributes, kernel.iosetstartioattributes, IoSetStartIoAttributes, k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSetStartIoAttributes
 product: Windows
 targetos: Windows
@@ -88,15 +88,21 @@ If <b>TRUE</b>, the IRP cannot be canceled once it has been dequeued by a call t
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
+
+
+
 <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
+
 
  
 

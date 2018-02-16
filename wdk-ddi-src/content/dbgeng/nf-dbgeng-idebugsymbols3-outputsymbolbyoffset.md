@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a9b3ac31-2001-45cc-a917-de687419b561
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, dbgeng/IDebugSymbols3::OutputSymbolByOffset, debugger.outputsymbolbyoffset, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols3, OutputSymbolByOffset method [Windows Debugging]
+ms.keywords: debugger.outputsymbolbyoffset, IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols3, OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputSymbolByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.OutputSymbolByOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::OutputSymbolByOffset method
@@ -79,6 +79,7 @@ Specifies where to send the output. For possible values, see <a href="https://ms
 Specifies the flags used to determine what information is printed with the symbol.
 
 The following flags can be present:
+
 <table>
 <tr>
 <th>Bit-flag</th>
@@ -116,7 +117,8 @@ This allows the <i>Offset</i> parameter to specify any address within the symbol
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Offset [in]
@@ -127,7 +129,9 @@ Specifies the location in the process's virtual address space of the symbol to b
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,14 +159,18 @@ No symbol was found at the specified location.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 
 
@@ -170,7 +178,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

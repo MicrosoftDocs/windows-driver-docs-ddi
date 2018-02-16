@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	*PDXGK_POWER_NOTIFICATION
 product: Windows
 targetos: Windows
@@ -91,9 +91,13 @@ Indicates that a notification should be provided.
 
 
 
+
+
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

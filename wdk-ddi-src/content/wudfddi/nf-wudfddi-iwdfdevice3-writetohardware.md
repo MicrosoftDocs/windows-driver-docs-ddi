@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice3_writetohardware, wdf.iwdfdevice3_writetohardware, IWDFDevice3, WriteToHardware method, IWDFDevice3 interface, WriteToHardware method, WriteToHardware method, IWDFDevice3 interface, wudfddi/IWDFDevice3::WriteToHardware, IWDFDevice3::WriteToHardware, WriteToHardware
+ms.keywords: wdf.iwdfdevice3_writetohardware, IWDFDevice3, umdf.iwdfdevice3_writetohardware, WriteToHardware method, WriteToHardware method, IWDFDevice3 interface, IWDFDevice3::WriteToHardware, wudfddi/IWDFDevice3::WriteToHardware, WriteToHardware, IWDFDevice3 interface, WriteToHardware method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice3.WriteToHardware
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,37 +78,35 @@ void WriteToHardware(
 ### -param Type [in]
 
 
-
 ### -param Size [in]
-
 
 
 ### -param Address [in]
 
 
-
 ### -param Value [in]
-
 
 
 ### -param Buffer [in, optional]
 
 
-
 ### -param Count [in, optional]
 
 
-
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
 
  
 

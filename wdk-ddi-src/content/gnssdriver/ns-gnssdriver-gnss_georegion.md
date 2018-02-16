@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 70FC3BCE-3869-4263-8870-BB97438CB5F1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], sensors.gnss_georegion, PGNSS_GEOREGION structure pointer [Sensor Devices], GNSS_GEOREGION, *PGNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION, PGNSS_GEOREGION
+ms.keywords: gnssdriver/GNSS_GEOREGION, sensors.gnss_georegion, PGNSS_GEOREGION, GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION structure pointer [Sensor Devices], *PGNSS_GEOREGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_GEOREGION
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_GEOREGION, GNSS_GEOREGION
+req.typenames: "*PGNSS_GEOREGION, GNSS_GEOREGION"
 ---
 
 # GNSS_GEOREGION structure

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_ALLOCATION_ACTION
-title: _IO_ALLOCATION_ACTION
+title: "_IO_ALLOCATION_ACTION"
 author: windows-driver-content
 description: The IO_ALLOCATION_ACTION enumerated type is used to specify return values for AdapterControl and ControllerControl routines.
 old-location: kernel\io_allocation_action.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 245d35a1-e877-4446-a0da-e50ece3656b1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_ALLOCATION_ACTION, KeepObject, wdm/DeallocateObjectKeepRegisters, wdm/PIO_ALLOCATION_ACTION, *PIO_ALLOCATION_ACTION, DeallocateObject, _IO_ALLOCATION_ACTION, PIO_ALLOCATION_ACTION, kernel.io_allocation_action, wdm/DeallocateObject, IO_ALLOCATION_ACTION enumeration [Kernel-Mode Driver Architecture], DeallocateObjectKeepRegisters, wdm/IO_ALLOCATION_ACTION, sysenum_26c04e01-0e17-4f1b-93c9-b9ad8d9ca4d5.xml, wdm/KeepObject, PIO_ALLOCATION_ACTION enumeration pointer [Kernel-Mode Driver Architecture]
+ms.keywords: DeallocateObject, sysenum_26c04e01-0e17-4f1b-93c9-b9ad8d9ca4d5.xml, DeallocateObjectKeepRegisters, kernel.io_allocation_action, wdm/IO_ALLOCATION_ACTION, wdm/DeallocateObject, wdm/DeallocateObjectKeepRegisters, PIO_ALLOCATION_ACTION, _IO_ALLOCATION_ACTION, *PIO_ALLOCATION_ACTION, wdm/KeepObject, PIO_ALLOCATION_ACTION enumeration pointer [Kernel-Mode Driver Architecture], wdm/PIO_ALLOCATION_ACTION, KeepObject, IO_ALLOCATION_ACTION, IO_ALLOCATION_ACTION enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_ALLOCATION_ACTION
 product: Windows
 targetos: Windows
@@ -88,10 +88,12 @@ Indicates that you do not want the driver to retain ownership of the adapter or 
 ## -remarks
 
 
+
 If an <i>AdapterControl</i> or <i>ControllerControl</i> routine completes an IRP, or if it can set up an operation (such as a disk seek) for a target device object that could be overlapped with an operation for another device object, it should return <b>DeallocateObject</b>.
 
 If a driver uses packet-based bus-master DMA, its <i>AdapterControl</i> routine should return <b>DeallocateObjectKeepRegisters</b>.
 
 Otherwise, the driver should return <b>KeepObject</b>.
+
 
 

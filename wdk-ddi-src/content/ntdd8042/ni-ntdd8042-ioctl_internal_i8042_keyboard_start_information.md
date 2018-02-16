@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdd8042.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
 ---
 
 # IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION IOCTL
@@ -88,14 +88,18 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +113,8 @@ The <b>Status</b> member is set to STATUS_SUCCESS.
 ## -see-also
 
 <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_start_information.md">INTERNAL_I8042_START_INFORMATION</a>
+
+
 
  
 

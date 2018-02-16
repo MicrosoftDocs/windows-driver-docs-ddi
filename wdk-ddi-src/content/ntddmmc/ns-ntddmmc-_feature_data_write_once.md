@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_WRITE_ONCE
-title: _FEATURE_DATA_WRITE_ONCE
+title: "_FEATURE_DATA_WRITE_ONCE"
 author: windows-driver-content
 description: The FEATURE_DATA_WRITE_ONCE structure holds information for the Write Once feature.
 old-location: storage\feature_data_write_once.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d8352a73-6b3e-4890-a4ae-000d453d1143
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], *PFEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml, ntddmmc/FEATURE_DATA_WRITE_ONCE, _FEATURE_DATA_WRITE_ONCE, ntddmmc/PFEATURE_DATA_WRITE_ONCE
+ms.keywords: FEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, ntddmmc/PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], PFEATURE_DATA_WRITE_ONCE, _FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_WRITE_ONCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_WRITE_ONCE
 product: Windows
 targetos: Windows
@@ -105,15 +105,21 @@ Reserved.
 ## -remarks
 
 
+
 This structure holds data for the feature named "Write Once" by the <i>MMC-3 </i>specification. Devices that support this feature can write to any previously unused logical block. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

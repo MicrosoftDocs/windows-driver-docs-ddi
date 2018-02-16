@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCreateCommandQueue
 product: Windows
 targetos: Windows
@@ -76,13 +76,10 @@ HRESULT APIENTRY* pfnCreateCommandQueue(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param *
 
 
-
 ### -param D3D12DDI_HCOMMANDQUEUE
-
 
 
 ### -param D3D12DDI_HRTCOMMANDQUEUE
@@ -92,14 +89,6 @@ HRESULT APIENTRY* pfnCreateCommandQueue(
 
 
 
-#### - hRTCommandQueue
-
-The handle of the command queue for the driver to use when it calls back into the runtime.
-
-
-#### - hDrvCommandQueue
-
-The handle of a command queue.
 
 
 #### - CreateCommandQueue [in]
@@ -112,16 +101,30 @@ An argument used to create a command queue.
 The handle of a device.
 
 
+#### - hDrvCommandQueue
+
+The handle of a command queue.
+
+
+#### - hRTCommandQueue
+
+The handle of the command queue for the driver to use when it calls back into the runtime.
+
+
 ## -returns
+
 
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
 
 
+
 Access this callback function by using a device functions core structure, such as the <b>D3D12DDI_DEVICE_FUNCS_CORE_0003</b> structure.
+
 
 

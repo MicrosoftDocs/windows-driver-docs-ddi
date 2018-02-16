@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02c0ea87-d25d-4363-85e3-e47c4c5d8a9b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreegenericobject, NdisFreeGenericObject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, ndis/NdisFreeGenericObject
+ms.keywords: NdisFreeGenericObject, netvista.ndisfreegenericobject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, ndis/NdisFreeGenericObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFreeGenericObject
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeGenericObject function
@@ -52,8 +52,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeGenericObject</b> function to free a generic object that was created with the 
-  <mshelp:link keywords="netvista.ndisallocategenericobject" tabindex="0"><b>
-  NdisAllocateGenericObject</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">
+  NdisAllocateGenericObject</a> function.
 
 
 ## -syntax
@@ -77,6 +77,7 @@ TBD
 
 
 
+
 #### - NdisGenericObject [in]
 
 A pointer to the 
@@ -87,11 +88,14 @@ A pointer to the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An NDIS handle is required to allocate some NDIS resources (for example, buffer pools). Components
@@ -102,11 +106,16 @@ An NDIS handle is required to allocate some NDIS resources (for example, buffer 
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisallocategenericobject.md">NdisAllocateGenericObject</a>
+
+
 
  
 

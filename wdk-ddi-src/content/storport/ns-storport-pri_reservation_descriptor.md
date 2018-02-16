@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f03506f6-404e-4635-a9ad-f2f36164ff2f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], *PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], storage.pri_reservation_descriptor, storport/PPRI_RESERVATION_DESCRIPTOR, storport/PRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR
+ms.keywords: PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], storage.pri_reservation_descriptor, storport/PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], storport/PRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR, structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	PRI_RESERVATION_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: PRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR
+req.typenames: "*PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ Reserved. Must be zero.
 ## -remarks
 
 
+
 The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
+
 
 
 
@@ -114,7 +116,11 @@ The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOC
 
 <a href="..\storport\ns-storport-pri_reservation_list.md">PRI_RESERVATION_LIST</a>
 
+
+
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
+
+
 
  
 

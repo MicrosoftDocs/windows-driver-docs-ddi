@@ -1,6 +1,6 @@
 ---
 UID: NS:poclass._THERMAL_COOLING_INTERFACE
-title: _THERMAL_COOLING_INTERFACE
+title: "_THERMAL_COOLING_INTERFACE"
 author: windows-driver-content
 description: The THERMAL_COOLING_INTERFACE structure enables the operating system to control the thermal management settings of a device.
 old-location: kernel\thermal_cooling_interface.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PTHERMAL_DEVICE_INTERFACE, poclass/PTHERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], poclass/THERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _THERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE, THERMAL_DEVICE_INTERFACE, PTHERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE
+ms.keywords: PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, THERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE, THERMAL_DEVICE_INTERFACE, kernel.thermal_cooling_interface, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], poclass/PTHERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], _THERMAL_COOLING_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Poclass.h
-apiname: 
+apiname:
 -	THERMAL_COOLING_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: THERMAL_COOLING_INTERFACE, *PTHERMAL_COOLING_INTERFACE
+req.typenames: "*PTHERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE"
 ---
 
 # _THERMAL_COOLING_INTERFACE structure
@@ -117,6 +117,7 @@ A pointer to an <a href="..\poclass\nc-poclass-device_passive_cooling.md">Passiv
 ## -remarks
 
 
+
 The <b>THERMAL_COOLING_INTERFACE</b> structure is an extension of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 Starting with Windows 8, the operating system calls the routines pointed to by the <b>THERMAL_COOLING_INTERFACE</b> structure to control the thermal levels of the devices in a hardware platform. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698236">Device-Level Thermal Management</a>.
@@ -133,23 +134,40 @@ When a device driver receives an <a href="https://msdn.microsoft.com/library/win
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698265">GUID_THERMAL_COOLING_INTERFACE</a>
 
+
+
 <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
 
 <a href="..\poclass\nc-poclass-device_active_cooling.md">ActiveCooling</a>
 
+
+
 <a href="..\poclass\nc-poclass-device_passive_cooling.md">PassiveCooling</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
 
  
 

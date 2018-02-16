@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._BDCB_CLASSIFICATION
-title: _BDCB_CLASSIFICATION
+title: "_BDCB_CLASSIFICATION"
 author: windows-driver-content
 description: The BDCB_CLASSIFICATION enumeration lists different classifications of boot start images.
 old-location: kernel\bdcb_classification.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01627E7A-460F-4E49-B98C-0FCCFAB2F8BB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _BDCB_CLASSIFICATION, BdCbClassificationEnd, BdCbClassificationKnownGoodImage, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], ntddk/BDCB_CLASSIFICATION, kernel.bdcb_classification, ntddk/BdCbClassificationKnownBadImage, BdCbClassificationUnknownImage, BDCB_CLASSIFICATION, ntddk/BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationKnownBadImageBootCritical, ntddk/BdCbClassificationEnd, BdCbClassificationKnownBadImage, *PBDCB_CLASSIFICATION, ntddk/BdCbClassificationUnknownImage, BdCbClassificationKnownBadImageBootCritical
+ms.keywords: ntddk/BDCB_CLASSIFICATION, BdCbClassificationKnownBadImageBootCritical, ntddk/BdCbClassificationKnownBadImage, BdCbClassificationKnownBadImage, ntddk/BdCbClassificationEnd, _BDCB_CLASSIFICATION, BdCbClassificationUnknownImage, *PBDCB_CLASSIFICATION, ntddk/BdCbClassificationKnownGoodImage, kernel.bdcb_classification, BDCB_CLASSIFICATION, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], ntddk/BdCbClassificationKnownBadImageBootCritical, BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationUnknownImage, BdCbClassificationEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	BDCB_CLASSIFICATION
 product: Windows
 targetos: Windows
-req.typenames: *PBDCB_CLASSIFICATION, BDCB_CLASSIFICATION
+req.typenames: "*PBDCB_CLASSIFICATION, BDCB_CLASSIFICATION"
 ---
 
 # _BDCB_CLASSIFICATION enumeration
@@ -98,9 +98,13 @@ Do not use. Reserved for future use.
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
 
-<a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 00a79e57-5915-49a3-b11f-223cc93c2e99
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFIORESOURCEREQUIREMENTSLISTGETCOUNT, DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, wdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount, kmdf.wdfioresourcerequirementslistgetcount, WdfIoResourceRequirementsListGetCount method, wdfresource/WdfIoResourceRequirementsListGetCount
+ms.keywords: WdfIoResourceRequirementsListGetCount method, kmdf.wdfioresourcerequirementslistgetcount, DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, PFN_WDFIORESOURCEREQUIREMENTSLISTGETCOUNT, WdfIoResourceRequirementsListGetCount, wdfresource/WdfIoResourceRequirementsListGetCount, wdf.wdfioresourcerequirementslistgetcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoResourceRequirementsListGetCount
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -79,15 +79,43 @@ A handle to a framework resource-requirements-list object that represents a devi
 ## -returns
 
 
+
 <b>WdfIoResourceRequirementsListGetCount</b> returns the number of logical configurations that are contained in the resource requirements list.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+
+
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff540870">EvtDeviceFilterRemoveResourceRequirements</a> callback function can obtain the number of logical configurations that are contained in a resource requirements list.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+Example_EvtDeviceFilterRemoveResourceRequirements(
+    IN WDFDEVICE Device,
+    IN WDFIORESREQLIST RequirementsList
+    )
+{    
+    ULONG count;
+
+    count = WdfIoResourceRequirementsListGetCount(RequirementsList);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

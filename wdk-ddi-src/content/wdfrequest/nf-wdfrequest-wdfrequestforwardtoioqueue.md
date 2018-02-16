@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a98d7e74-8311-46bf-a0b9-a160f5675c3d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestForwardToIoQueue method, WdfRequestForwardToIoQueue, wdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue, PFN_WDFREQUESTFORWARDTOIOQUEUE, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, kmdf.wdfrequestforwardtoioqueue
+ms.keywords: wdfrequest/WdfRequestForwardToIoQueue, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, kmdf.wdfrequestforwardtoioqueue, WdfRequestForwardToIoQueue method, wdf.wdfrequestforwardtoioqueue, PFN_WDFREQUESTFORWARDTOIOQUEUE, WdfRequestForwardToIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestForwardToIoQueue
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ A handle to a framework queue object.
 ## -returns
 
 
+
 <b>WdfRequestForwardToIoQueue</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,7 +139,8 @@ The destination queue is not accepting new requests.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -150,7 +153,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The driver must <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">own</a> the I/O request and must have obtained the request from one of its I/O queues.
@@ -164,6 +169,7 @@ The request must not be cancelable. If the driver has called <a href="..\wdfrequ
 After the driver calls <b>WdfRequestForwardToIoQueue</b>, the driver does not own the requeued request until the framework delivers the request from the new queue to the driver. While the request is in the new queue, the framework owns the request and can cancel it without notifying the driver. 
 
 Before <b>WdfRequestForwardToIoQueue</b> returns, the following events can occur:
+
 <ul>
 <li>
 If the destination queue was empty, the framework can deliver the requeued I/O request to one of the destination queue's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handlers</a>.
@@ -173,21 +179,114 @@ If the destination queue was empty, the framework can deliver the requeued I/O r
 If the source queue's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a> is sequential or parallel, the framework can deliver another request to one of the source queue's request handlers.
 
 </li>
-</ul>For more information about <b>WdfRequestForwardToIoQueue</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/requeuing-i-o-requests">Requeuing I/O Requests</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+</ul>
+For more information about <b>WdfRequestForwardToIoQueue</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/requeuing-i-o-requests">Requeuing I/O Requests</a> and <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+
+
+#### Examples
+
+The following code example is an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> callback function from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. If a received request contains an I/O control code of IOCTL_NDISPROT_INDICATE_STATUS, the driver calls <b>WdfRequestForwardToIoQueue</b> to move the request to a different I/O queue. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+PciDrvEvtIoDeviceControl(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  OutputBufferLength,
+    IN size_t  InputBufferLength,
+    IN ULONG  IoControlCode
+    )
+{
+    NTSTATUS  status= STATUS_SUCCESS;
+    PFDO_DATA  fdoData = NULL;
+    WDFDEVICE  hDevice;
+    WDF_REQUEST_PARAMETERS  params;
+
+    UNREFERENCED_PARAMETER(OutputBufferLength);
+    UNREFERENCED_PARAMETER(InputBufferLength);
+
+    hDevice = WdfIoQueueGetDevice(Queue);
+    fdoData = FdoGetData(hDevice);
+
+    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WdfRequestGetParameters(
+                            Request,
+                            &amp;params
+                            );
+
+    switch (IoControlCode)
+    {
+        case IOCTL_NDISPROT_QUERY_OID_VALUE:
+            NICHandleQueryOidRequest(
+                                     Queue,
+                                     Request,
+                                     &amp;params
+                                     );
+            break;
+
+        case IOCTL_NDISPROT_SET_OID_VALUE:
+            NICHandleSetOidRequest(
+                                   Queue,
+                                   Request,
+                                   &amp;params
+                                   );
+            break;
+
+        case IOCTL_NDISPROT_INDICATE_STATUS:
+            status = WdfRequestForwardToIoQueue(
+                                                Request,
+                                                fdoData-&gt;PendingIoctlQueue
+                                                );
+            if(!NT_SUCCESS(status)){
+                WdfRequestComplete(
+                                   Request,
+                                   status
+                                   );
+                break;
+            }
+            break;
+
+        default:
+            WdfRequestComplete(
+                               Request,
+                               STATUS_INVALID_DEVICE_REQUEST
+                               );
+            break;
+    }
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
+
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
+
+<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
+
+
 
  
 

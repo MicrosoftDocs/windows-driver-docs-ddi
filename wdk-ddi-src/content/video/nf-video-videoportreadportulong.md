@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73402b35-85ce-4bb1-8ec5-619805d5a3e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadPortUlong, display.videoportreadportulong, VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, VideoPortReadPortUlong function [Display Devices], video/VideoPortReadPortUlong
+ms.keywords: VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, VideoPortReadPortUlong function [Display Devices], VideoPortReadPortUlong, video/VideoPortReadPortUlong, display.videoportreadportulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortReadPortUlong
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range r
 ## -returns
 
 
+
 <b>VideoPortReadPortUlong</b> returns the ULONG value read from the adapter.
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortReadPortUlong</b>.
@@ -89,13 +92,20 @@ Callers of <b>VideoPortReadPortUlong</b> can be running at any IRQL, provided th
 
 
 
-## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+## -see-also
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
+
+
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
 product: Windows
 targetos: Windows
@@ -73,21 +73,19 @@ VOID APIENTRY* PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param Count
 
 The count.
 
 
-### -param *pParams
+### -param *pParams [in]
+
+The parameters for the write buffer.
 
 
+### -param *pModes [in]
 
-### -param *pModes
-
-
-
-
+The modes for the write buffer.
 
 
 #### - hDrvCommandList
@@ -95,19 +93,11 @@ The count.
 The command list.
 
 
-#### - pModes [in]
-
-The modes for the write buffer.
-
-
-#### - pParams [in]
-
-The parameters for the write buffer.
-
-
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

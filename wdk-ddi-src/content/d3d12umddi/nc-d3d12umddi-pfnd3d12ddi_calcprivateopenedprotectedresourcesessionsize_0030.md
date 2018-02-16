@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030
 product: Windows
 targetos: Windows
@@ -73,14 +73,7 @@ SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030(
 The hardware device being processed.
 
 
-### -param *pArgs
-
-
-
-
-
-
-#### - pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to open a protected resource session.
 
@@ -88,6 +81,8 @@ The arguments used to open a protected resource session.
 ## -returns
 
 
+
 Returns the size of the session in bytes.
+
 
 

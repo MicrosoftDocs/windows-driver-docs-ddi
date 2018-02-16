@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bc0718b6-4c71-41a8-bab6-a52991b284d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMDeregisterInterruptEx, ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, netvista.ndismderegisterinterruptex, NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], NdisMDeregisterInterruptEx
+ms.keywords: netvista.ndismderegisterinterruptex, NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], NdisMDeregisterInterruptEx, ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, ndis/NdisMDeregisterInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMDeregisterInterruptEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMDeregisterInterruptEx function
@@ -52,8 +52,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 
 Miniport drivers call 
   <b>NdisMDeregisterInterruptEx</b> to release resources that were previously allocated with the 
-  <mshelp:link keywords="netvista.ndismregisterinterruptex" tabindex="0"><b>
-  NdisMRegisterInterruptEx</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+  NdisMRegisterInterruptEx</a> function.
 
 
 ## -syntax
@@ -80,11 +80,14 @@ An interrupt handle that the miniport driver obtained in a previous call to
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisMDeregisterInterruptEx</b> releases the resources that were allocated in 
@@ -103,25 +106,38 @@ A miniport driver can call
 The miniport driver should disable its NIC from generating interrupts before it calls 
     <b>NdisMDeregisterInterruptEx</b>. After 
     <b>NdisMDeregisterInterruptEx</b> returns control, the miniport driver cannot call the 
-    <mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-    NdisMSynchronizeWithInterruptEx</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    NdisMSynchronizeWithInterruptEx</a> function.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
 
  
 

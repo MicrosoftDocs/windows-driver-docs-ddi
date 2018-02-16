@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E536B66D-EAF2-4377-8452-7D37A277E7C8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelSetPointer, VmbChannelSetPointer, netvista.vmbchannelsetpointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelSetPointer, vmbuskernelmodeclientlibapi/VmbChannelSetPointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsetpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelSetPointer
 product: Windows
 targetos: Windows
@@ -86,20 +86,26 @@ Arbitrary pointer to save in the channel's context.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
   This is intended to be a more efficient way for a client driver to retrieve client driver's context.  For more information, see the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer.md">VmbChannelGetPointer</a> function.
+
 
 
 
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer.md">VmbChannelGetPointer</a>
+
+
 
  
 

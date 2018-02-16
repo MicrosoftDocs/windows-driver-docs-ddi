@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: Write, Zero, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, D3DDDI_MAPGPUVIRTUALADDRESS, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress, NoAccess
+ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, Write, NoAccess, Execute, display.d3dddi_mapgpuvirtualaddress, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, Zero, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_MAPGPUVIRTUALADDRESS
 product: Windows
 targetos: Windows
@@ -126,6 +126,7 @@ Specifies the size of the range to map in 4KB pages.
 
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a> structure that specifies the protection on the GPU virtual address that is mapped.
+
 <table>
 <tr>
 <th>Value</th>
@@ -172,7 +173,8 @@ The pages will be put to the Zero state (<b>hAllocation</b> must be <b>NULL</b>)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DriverProtection
@@ -204,13 +206,21 @@ A zero fence value might be returned, meaning that the operation is already comp
 
 ## -see-also
 
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>
+
+
+
+<a href="https://msdn.microsoft.com/08328e82-d1cc-4c50-bc96-7382232676ab">DxgkDdiUpdatePageTable</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type.md">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
 
-<a href="https://msdn.microsoft.com/08328e82-d1cc-4c50-bc96-7382232676ab">DxgkDdiUpdatePageTable</a>
 
  
 

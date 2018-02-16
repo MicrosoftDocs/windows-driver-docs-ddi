@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION
-title: _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION
+title: "_DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
 author: windows-driver-content
 description: The DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure contains High-bandwidth Digital Content Protection (HDCP) information that is retrieved in a call to the DxgkDdiOPMGetInformation function.
 old-location: display\dxgkmdt_opm_connected_hdcp_device_information.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5f99d3e5-1fa2-43a9-98fb-347dfe85440a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, display.dxgkmdt_opm_connected_hdcp_device_information, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, DmStructs_9c39e234-e0dd-4d2f-b1b4-e8745bcc69aa.xml, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Display Devices], d3dkmdt/DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION
+ms.keywords: DmStructs_9c39e234-e0dd-4d2f-b1b4-e8745bcc69aa.xml, _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, display.dxgkmdt_opm_connected_hdcp_device_information, d3dkmdt/DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
@@ -110,17 +110,29 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_hdcp_flag.md">DXGKMDT_OPM_HDCP_FLAG</a>
+
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
 
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_hdcp_flag.md">DXGKMDT_OPM_HDCP_FLAG</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+
+
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_hdcp_key_selection_vector.md">DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR</a>
+
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
 
  
 

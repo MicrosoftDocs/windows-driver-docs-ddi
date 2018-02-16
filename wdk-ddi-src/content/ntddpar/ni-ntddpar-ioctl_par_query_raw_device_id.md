@@ -2,7 +2,7 @@
 UID: NI:ntddpar.IOCTL_PAR_QUERY_RAW_DEVICE_ID
 title: IOCTL_PAR_QUERY_RAW_DEVICE_ID
 author: windows-driver-content
-description: The IOCTL_PAR_QUERY_RAW_DEVICE_ID request returns a raw device ID, which includes the following: a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the IEEE 1284 device ID; and a NULL terminator.
+description: The IOCTL_PAR_QUERY_RAW_DEVICE_ID request returns a raw device ID, which includes the following:\_a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the IEEE 1284 device ID; and a NULL terminator.
 old-location: parports\ioctl_par_query_raw_device_id.htm
 old-project: parports
 ms.assetid: 3d7b99ea-eb53-4466-bd98-15c147c00d35
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddpar.h
-apiname: 
+apiname:
 -	IOCTL_PAR_QUERY_RAW_DEVICE_ID
 product: Windows
 targetos: Windows
-req.typenames: *POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION
+req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
 ---
 
 # IOCTL_PAR_QUERY_RAW_DEVICE_ID IOCTL
@@ -88,14 +88,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the si
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -122,7 +126,11 @@ A device I/O error occurred.
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id_size.md">IOCTL_PAR_QUERY_DEVICE_ID_SIZE</a>
 
+
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
+
+
 
  
 

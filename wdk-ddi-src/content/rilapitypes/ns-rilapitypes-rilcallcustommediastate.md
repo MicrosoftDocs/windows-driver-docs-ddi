@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3c385208-992d-4a74-8382-4312f468300f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilcallcustommediastate_2, rilapitypes/RILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE
+ms.keywords: netvista.rilcallcustommediastate_2, rilapitypes/RILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLCUSTOMMEDIASTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLCUSTOMMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: RILCALLCUSTOMMEDIASTATE, *LPRILCALLCUSTOMMEDIASTATE
+req.typenames: "*LPRILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,5 +69,4 @@ typedef struct _RILCALLCUSTOMMEDIASTATE {
 
 
 ### -field dwCustomStateSpecific
-
 

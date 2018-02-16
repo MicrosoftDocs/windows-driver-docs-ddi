@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a84dffce-977e-412a-a12a-e0e156b943ac
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ataportregistryfreebuffer, AtaPortRegistryFreeBuffer, atartns_70807844-dbef-4457-bd47-102aeffcc840.xml, AtaPortRegistryFreeBuffer routine [Storage Devices], irb/AtaPortRegistryFreeBuffer
+ms.keywords: storage.ataportregistryfreebuffer, irb/AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer routine [Storage Devices], atartns_70807844-dbef-4457-bd47-102aeffcc840.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortRegistryFreeBuffer
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ A pointer to the buffer to free.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>AtaPortRegistryFreeBuffer</b> flushes deferred write operations to the registry.
@@ -97,13 +100,20 @@ The miniport driver must call <b>AtaPortRegistryFreeBuffer</b> either in its <a 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
-<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+
+
+
+<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+
+
 
  
 

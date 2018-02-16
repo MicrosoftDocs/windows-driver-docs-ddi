@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_UPDATE_FIRMWARE
-title: _WINBIO_UPDATE_FIRMWARE
+title: "_WINBIO_UPDATE_FIRMWARE"
 author: windows-driver-content
 description: The WINBIO_UPDATE_FIRMWARE structure is the IN payload for IOCTL_BIOMETRIC_UPDATE_FIRMWARE.
 old-location: biometric\winbio_update_firmware.htm
@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 14775785-27e3-4bfa-ad69-695869ebb5d6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: WINBIO_UPDATE_FIRMWARE, winbio_ioctl/WINBIO_UPDATE_FIRMWARE, WINBIO_UPDATE_FIRMWARE structure [Biometric Devices], PWINBIO_UPDATE_FIRMWARE, biometric.winbio_update_firmware, PWINBIO_UPDATE_FIRMWARE structure pointer [Biometric Devices], _WINBIO_UPDATE_FIRMWARE, biometric_ref_e4f6a748-a0a4-4dcd-883a-a00e568acf7f.xml, winbio_ioctl/PWINBIO_UPDATE_FIRMWARE, *PWINBIO_UPDATE_FIRMWARE
+ms.keywords: WINBIO_UPDATE_FIRMWARE structure [Biometric Devices], winbio_ioctl/PWINBIO_UPDATE_FIRMWARE, winbio_ioctl/WINBIO_UPDATE_FIRMWARE, biometric.winbio_update_firmware, PWINBIO_UPDATE_FIRMWARE, WINBIO_UPDATE_FIRMWARE, biometric_ref_e4f6a748-a0a4-4dcd-883a-a00e568acf7f.xml, _WINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE structure pointer [Biometric Devices], *PWINBIO_UPDATE_FIRMWARE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winbio_ioctl.h
-apiname: 
+apiname:
 -	WINBIO_UPDATE_FIRMWARE
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_UPDATE_FIRMWARE, *PWINBIO_UPDATE_FIRMWARE
+req.typenames: "*PWINBIO_UPDATE_FIRMWARE, WINBIO_UPDATE_FIRMWARE"
 req.product: Windows 10 or later.
 ---
 
@@ -83,7 +83,11 @@ Specifies a structure of type <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_d
 
 <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_update_firmware.md">IOCTL_BIOMETRIC_UPDATE_FIRMWARE</a>
 
+
+
 <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_blank_payload.md">WINBIO_BLANK_PAYLOAD</a>
+
+
 
  
 

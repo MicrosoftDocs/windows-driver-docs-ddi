@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	ProtocolTcpOffloadReceiveIndicate
 product: Windows
 targetos: Windows
@@ -115,8 +115,8 @@ The
 ### -param Status [in]
 
 An intermediate driver should propagate this status when calling 
-     <mshelp:link keywords="netvista.ndistcpoffloadreceivehandler" tabindex="0"><b>
-     NdisTcpOffloadReceiveHandler</b></mshelp:link>.
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     NdisTcpOffloadReceiveHandler</a>.
 
 
 ### -param BytesConsumed [out]
@@ -128,9 +128,11 @@ A pointer to a ULONG-typed variable that receives the number of bytes that were 
 ## -returns
 
 
+
 The 
      <i>
      ProtocolTcpOffloadReceiveIndicate</i> function can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -171,25 +173,29 @@ The client application consumed a subset of the indicated receive data. The amou
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 To propagate the indication to the overlying driver or host stack, the intermediate driver calls the 
-    <mshelp:link keywords="netvista.ndistcpoffloadreceivehandler" tabindex="0"><b>
-    NdisTcpOffloadReceiveHandler</b></mshelp:link> function. The intermediate driver passes the following parameters to
+    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+    NdisTcpOffloadReceiveHandler</a> function. The intermediate driver passes the following parameters to
     the 
     <b>NdisTcpOffloadReceiveHandler</b> function:
+
 <ul>
 <li>
 The 
       <b>NdisOffloadHandle</b> that the offload target stored in its context for the offloaded TCP connection.
       For more information, see 
-      <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-      Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>
 <li>
@@ -207,21 +213,36 @@ The
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceivereturn.md">NdisOffloadTcpReceiveReturn</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndischimney\nf-ndischimney-ndisinitiateoffload.md">NdisInitiateOffload</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NET_BUFFER_LIST</a>
+
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NET_BUFFER_LIST</a>
+
+
+
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceivereturn.md">NdisOffloadTcpReceiveReturn</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+
+
 
  
 

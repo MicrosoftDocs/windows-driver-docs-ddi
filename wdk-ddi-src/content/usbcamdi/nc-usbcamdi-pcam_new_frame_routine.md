@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	CamNewVideoFrame
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ Pointer to the camera minidriver's frame context.
 ## -returns
 
 
+
 <b>CamNewVideoFrame</b> does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
@@ -100,9 +103,12 @@ This function is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine_ex.md">CamNewVideoFrameEx</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a3c148e-d113-4cbc-a88a-691531bb3d9d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SendMsgAck_V1 method [Network Drivers Starting with Windows Vista], RIL_SendMsgAck_V1, rilapi/RIL_SendMsgAck_V1, netvista.ril_sendmsgack_v1
+ms.keywords: RIL_SendMsgAck_V1, RIL_SendMsgAck_V1 method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendMsgAck_V1, netvista.ril_sendmsgack_v1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SendMsgAck_V1
 product: Windows
 targetos: Windows
@@ -78,30 +78,26 @@ HRESULT  RIL_SendMsgAck_V1(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param hUiccApp
-
 
 
 ### -param dwAckID
 
 
-
 ### -param dwMsgStatus
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

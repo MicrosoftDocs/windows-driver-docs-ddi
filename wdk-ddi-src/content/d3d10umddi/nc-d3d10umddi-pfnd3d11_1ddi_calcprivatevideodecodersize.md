@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CalcPrivateVideoDecoderSize
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CALCPRIVATEVIDEODECODERSIZE callback
@@ -74,7 +74,6 @@ SIZE_T APIENTRY* CalcPrivateVideoDecoderSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ SIZE_T APIENTRY* CalcPrivateVideoDecoderSize(
 
 
 
-#### - pDecoder [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure that describes the video decoder.
 
 
 #### - hDevice [in]
@@ -94,14 +90,22 @@ A handle to the display device (graphics context).
 
 
 
+#### - pDecoder [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure that describes the video decoder.
+
+
 ## -returns
+
 
 
 The required number of bytes for the video decoder state.
 
 
 
+
 ## -remarks
+
 
 
 The runtime will validate the members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure before it calls this function.
@@ -110,9 +114,12 @@ This function is not expected to fail.
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a>
+
+
 
  
 

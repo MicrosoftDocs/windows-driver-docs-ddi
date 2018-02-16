@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	EvtSerCxReceiveCancel
 product: Windows
 targetos: Windows
-req.typenames: *PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR
+req.typenames: "*PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The serial framework extension (SerCx) calls this function to inform the serial controller driver that the current receive request has been canceled.  If the driver has an outstanding receive operation in progress, the driver should cancel this operation and call the <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a> method to report the cancellation. In the <b>SerCxProgressReceive</b> call, set <i>BytesReceived</i> to the number of bytes received before the operation was canceled, and set <i>ReceiveStatus</i> to <b>SerCxStatusCancelled</b>.
@@ -91,12 +94,66 @@ The serial framework extension (SerCx) calls this function to inform the serial 
 To register an <i>EvtSerCxReceiveCancel</i> callback function, the driver must call the <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a> method.
 
 
+#### Examples
+
+The function type for this callback is declared in Sercx.h, as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
+  EVT_SERCX_RECEIVE_CANCEL(
+    __in WDFDEVICE Device
+    );</pre>
+</td>
+</tr>
+</table></span></div>
+To define an <i>EvtSerCxReceiveCancel</i> callback function that is named <code>MyEvtSerCxReceiveCancel</code>, you must first provide a function declaration that <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>EVT_SERCX_RECEIVE_CANCEL MyEvtSerCxReceiveCancel;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback function as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+  MyEvtSerCxReceiveCancel(
+    __in WDFDEVICE Device
+    )
+{ ... }</pre>
+</td>
+</tr>
+</table></span></div>
+For more information about SDV requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
+
+
 <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
+
+
 
  
 

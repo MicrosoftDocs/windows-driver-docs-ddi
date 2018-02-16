@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eba881f8-e946-44a8-9624-37f63471fb65
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIfFreeNetLuidIndex, netvista.ndisiffreenetluidindex, ndis/NdisIfFreeNetLuidIndex, net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista]
+ms.keywords: net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], netvista.ndisiffreenetluidindex, ndis/NdisIfFreeNetLuidIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisIfFreeNetLuidIndex
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIfFreeNetLuidIndex function
@@ -54,8 +54,8 @@ The
   <b>NdisIfFreeNetLuidIndex</b> function frees a network interface 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> index that was previously allocated by a
   call to the 
-  <mshelp:link keywords="netvista.ndisifallocatenetluidindex" tabindex="0"><b>
-  NdisIfAllocateNetLuidIndex</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">
+  NdisIfAllocateNetLuidIndex</a> function.
 
 
 ## -syntax
@@ -97,7 +97,9 @@ The interface type that the index was allocated for. The caller must provide the
 ## -returns
 
 
+
 <b>NdisIfFreeNetLuidIndex</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,7 +129,8 @@ The operation completed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the call to 
      <b>NdisIfFreeNetLuidIndex</b> fails, the
@@ -137,7 +140,9 @@ If the call to
 
 
 
+
 ## -remarks
+
 
 
 NDIS interface providers call the 
@@ -148,8 +153,8 @@ NDIS interface providers call the
 <b>NdisIfFreeNetLuidIndex</b> returns a previously allocated NET_LUID index to NDIS for possible
     reallocation to another interface. The caller must pass in the same interface type at 
     <i>IfType</i> that it used when it called the 
-    <mshelp:link keywords="netvista.ndisifallocatenetluidindex" tabindex="0"><b>
-    NdisIfAllocateNetLuidIndex</b></mshelp:link> function to allocate the NET_LUID index.
+    <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">
+    NdisIfAllocateNetLuidIndex</a> function to allocate the NET_LUID index.
 
 The provider should not use the freed NET_LUID index or the associated NET_LUID value in any other
     NDIS function calls after it calls 
@@ -157,11 +162,16 @@ The provider should not use the freed NET_LUID index or the associated NET_LUID 
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">NdisIfAllocateNetLuidIndex</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+
+
 
  
 

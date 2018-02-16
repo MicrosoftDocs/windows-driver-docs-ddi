@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e41a656c-c507-45ca-a232-6926ace3c9d9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_child_retrieve_info_init, WDF_CHILD_RETRIEVE_INFO_INIT function, wdf.wdf_child_retrieve_info_init, wdfchildlist/WDF_CHILD_RETRIEVE_INFO_INIT, WDF_CHILD_RETRIEVE_INFO_INIT, DFDeviceObjectChildListRef_f647d2ee-4714-49b9-9ba4-18488fd66628.xml
+ms.keywords: WDF_CHILD_RETRIEVE_INFO_INIT, WDF_CHILD_RETRIEVE_INFO_INIT function, wdfchildlist/WDF_CHILD_RETRIEVE_INFO_INIT, kmdf.wdf_child_retrieve_info_init, DFDeviceObjectChildListRef_f647d2ee-4714-49b9-9ba4-18488fd66628.xml, wdf.wdf_child_retrieve_info_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfchildlist.h
-apiname: 
+apiname:
 -	WDF_CHILD_RETRIEVE_INFO_INIT
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ A pointer to a driver-supplied <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_chi
 ## -returns
 
 
+
 None
+
 
 
 
@@ -92,7 +94,11 @@ None
 
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
+
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
+
+
 
  
 

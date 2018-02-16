@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49f9d7d7-c774-4ba5-a9f3-6d605a3de674
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], kernel.read_register_uchar, READ_REGISTER_UCHAR, wdm/READ_REGISTER_UCHAR
+ms.keywords: READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, wdm/READ_REGISTER_UCHAR, READ_REGISTER_UCHAR, kernel.read_register_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	READ_REGISTER_UCHAR
 product: Windows
 targetos: Windows
@@ -76,13 +76,17 @@ Pointer to the register address, which must be a mapped range in memory space.
 ## -returns
 
 
+
 <b>READ_REGISTER_UCHAR</b> returns the byte read from the specified register address.
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>READ_REGISTER_UCHAR</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
+
 
 

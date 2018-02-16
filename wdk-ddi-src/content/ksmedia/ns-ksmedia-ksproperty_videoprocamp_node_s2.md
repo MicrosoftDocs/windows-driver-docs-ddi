@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 767ea5d2-4c11-4ba8-bb1f-c5f6038244f5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_NODE_S2 structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S2, vidcapstruct_1876d4f4-15ae-4bcb-9f57-ed08ddf15411.xml, ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S2, *PKSPROPERTY_VIDEOPROCAMP_NODE_S2, stream.ksproperty_videoprocamp_node_s2
+ms.keywords: PKSPROPERTY_VIDEOPROCAMP_NODE_S2, ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S2, vidcapstruct_1876d4f4-15ae-4bcb-9f57-ed08ddf15411.xml, PKSPROPERTY_VIDEOPROCAMP_NODE_S2 structure pointer [Streaming Media Devices], KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure [Streaming Media Devices], stream.ksproperty_videoprocamp_node_s2, KSPROPERTY_VIDEOPROCAMP_NODE_S2, *PKSPROPERTY_VIDEOPROCAMP_NODE_S2, ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_VIDEOPROCAMP_NODE_S2
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2
+req.typenames: KSPROPERTY_VIDEOPROCAMP_NODE_S2, *PKSPROPERTY_VIDEOPROCAMP_NODE_S2
 ---
 
 # KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure
@@ -84,6 +84,7 @@ Specifies the first value of a request. For set requests, the minidriver should 
 ### -field Flags
 
 Specifies the flags of a request. For set requests, this value indicates the desired setting. For get requests, this value contains the current setting. This member can be set to one of the values that are defined in <i>ksmedia.h</i>:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -109,12 +110,14 @@ Indicates that the property is to be adjusted automatically
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Capabilities
 
 Specifies the capabilities of a property. This member has meaning only for get requests. The minidriver should return the capabilities of the video processing amplifier with respect to the property specified in <b>Property</b>. This member should be set to one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -140,7 +143,8 @@ The device supports automatic setting of the specified property
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Value2
@@ -151,6 +155,8 @@ Specifies the second value of a request. For set requests, the minidriver should
 ## -remarks
 
 
+
 This structure is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566097">KSPROPERTY_VIDEOPROCAMP_WHITEBALANCE_COMPONENT</a>.
+
 
 

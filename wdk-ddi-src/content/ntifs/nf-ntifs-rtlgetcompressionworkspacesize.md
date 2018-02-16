@@ -7,8 +7,8 @@ old-location: ifsk\rtlgetcompressionworkspacesize.htm
 old-project: ifsk
 ms.assetid: f0e856f8-9c01-4219-b521-ab4a5c9bc35c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rtlgetcompressionworkspacesize, ntifs/RtlGetCompressionWorkSpaceSize, rtlref_26332738-6278-49f9-b948-87bcb7e68c83.xml, RtlGetCompressionWorkSpaceSize function [Installable File System Drivers], RtlGetCompressionWorkSpaceSize
+ms.date: 2/7/2018
+ms.keywords: ifsk.rtlgetcompressionworkspacesize, ntifs/RtlGetCompressionWorkSpaceSize, rtlref_26332738-6278-49f9-b948-87bcb7e68c83.xml, RtlGetCompressionWorkSpaceSize, RtlGetCompressionWorkSpaceSize function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlGetCompressionWorkSpaceSize
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ NTSTATUS RtlGetCompressionWorkSpaceSize(
 ### -param CompressionFormatAndEngine [in]
 
 Bitmask specifying the compression format and engine type. This parameter must be set to one of the following bitwise OR combinations:
+
 <ul>
 <li>
 COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD
@@ -81,7 +82,9 @@ COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD
 COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_MAXIMUM
 
 </li>
-</ul>The meanings of these, and other related values, are as follows:
+</ul>
+The meanings of these, and other related values, are as follows:
+
 <table>
 <tr>
 <th>Value</th>
@@ -147,7 +150,8 @@ Not supported by this function.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param CompressBufferWorkSpaceSize [out]
@@ -163,7 +167,9 @@ A pointer to a caller-allocated buffer receiving the size, in bytes, required to
 ## -returns
 
 
+
 <b>RtlGetCompressionWorkSpaceSize</b>returns an appropriate error status, such as one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -221,11 +227,14 @@ An invalid compression engine was specified via the <i>CompressionFormatAndEngin
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a> and <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>functions require an appropriately sized work space buffer to compress and decompress successfully. To determine the correct work space buffer size, in bytes, call the <b>RtlGetCompressionWorkSpaceSize</b> function. 
@@ -240,19 +249,28 @@ To decompress only a portion of a compressed buffer (that is, a "fragment" of th
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
+
+
 
 <a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetCompressionWorkSpaceSize function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetCompressionWorkSpaceSize function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETPRESENTHISTORY
-title: _D3DKMT_GETPRESENTHISTORY
+title: "_D3DKMT_GETPRESENTHISTORY"
 author: windows-driver-content
 description: The D3DKMT_GETPRESENTHISTORY structure describes the state of copying history.
 old-location: display\d3dkmt_getpresenthistory.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6d9b0473-544f-43aa-9358-ec51d84d45d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_getpresenthistory, OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY structure [Display Devices], d3dkmthk/D3DKMT_GETPRESENTHISTORY, _D3DKMT_GETPRESENTHISTORY
+ms.keywords: d3dkmthk/D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY, OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, D3DKMT_GETPRESENTHISTORY structure [Display Devices], _D3DKMT_GETPRESENTHISTORY, display.d3dkmt_getpresenthistory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_GETPRESENTHISTORY
 product: Windows
 targetos: Windows
@@ -108,7 +108,11 @@ Supported in Windows 7 and later versions.
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetpresenthistory.md">D3DKMTGetPresentHistory</a>
+
+
 
  
 

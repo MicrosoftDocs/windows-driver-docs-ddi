@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PD_CONFIG
-title: _NDIS_PD_CONFIG
+title: "_NDIS_PD_CONFIG"
 author: windows-driver-content
 description: This structure holds configuration data for the PD provider.
 old-location: netvista\ndis_pd_config.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2B010641-4CFA-40B6-AB77-BE9F85347134
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_PD_CONFIG, NDIS_PD_CONFIG, ntddndis/NDIS_PD_CONFIG, netvista.ndis_pd_config, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_PD_CONFIG, _NDIS_PD_CONFIG, netvista.ndis_pd_config, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PD_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PD_CONFIG
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ typedef struct _NDIS_PD_CONFIG {
 ### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CONFIG</b> structure. Set the members of this structure as follows:
+
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
 <li><b>Revision</b> = <b>NDIS_PD_CONFIG_REVISION_1</b></li>
@@ -103,13 +104,17 @@ If this member is greater than zero, it contains the size of the <a href="..\ntd
 ## -remarks
 
 
+
 This structure must be aligned on an 8-byte boundary.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4f868e88-ef5c-4fad-be53-2b5116a6385b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfilterreleasecontrol, ks/KsFilterReleaseControl, KsFilterReleaseControl, KsFilterReleaseControl function [Streaming Media Devices], avfunc_ca99338c-1cae-4ef4-8ef5-76ee368ae1d6.xml
+ms.keywords: ks/KsFilterReleaseControl, stream.ksfilterreleasecontrol, KsFilterReleaseControl, avfunc_ca99338c-1cae-4ef4-8ef5-76ee368ae1d6.xml, KsFilterReleaseControl function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsFilterReleaseControl
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure represe
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This function is an inline call to <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a> with the appropriate typecasting. When manipulating a filter, minidrivers should call this function instead of calling <b>KsReleaseControl</b> directly.
@@ -88,11 +91,16 @@ For a description of the filter control mutex, see <a href="https://msdn.microso
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
+
+
 <a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
+
 
  
 

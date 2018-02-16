@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2c46419-644b-4ad4-aa50-7c6e541638aa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisIMAssociateMiniport, NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], ndis/NdisIMAssociateMiniport, intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, netvista.ndisimassociateminiport
+ms.keywords: NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, ndis/NdisIMAssociateMiniport, NdisIMAssociateMiniport, netvista.ndisimassociateminiport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisIMAssociateMiniport
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIMAssociateMiniport function
@@ -74,25 +74,28 @@ VOID NdisIMAssociateMiniport(
 ### -param DriverHandle [in]
 
 The handle to the miniport driver interface that the 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> function returns.
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> function returns.
 
 
 ### -param ProtocolHandle [in]
 
 The handle to the protocol interface that the 
-     <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-     NdisRegisterProtocolDriver</b></mshelp:link> function returns.
+     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     NdisRegisterProtocolDriver</a> function returns.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 Any NDIS intermediate driver that exports both 
@@ -103,8 +106,9 @@ Any NDIS intermediate driver that exports both
     <b>NdisIMAssociateMiniport</b> during its 
     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <mshelp:link keywords="netvista.driverentry_of_ndis_intermediate_drivers" tabindex="0"><b>DriverEntry of NDIS
-    Intermediate Drivers</b></mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+    Intermediate Drivers</a>.
+
 
 
 
@@ -112,9 +116,15 @@ Any NDIS intermediate driver that exports both
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
 
  
 

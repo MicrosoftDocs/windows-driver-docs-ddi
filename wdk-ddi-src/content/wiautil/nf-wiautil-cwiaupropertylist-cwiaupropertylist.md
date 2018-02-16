@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5e493d3c-81b6-4db5-a550-c86eadf5a723
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList::CWiauPropertyList, CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList method [Imaging Devices], image.cwiaupropertylist_cwiaupropertylist, CWiauPropertyList interface [Imaging Devices], CWiauPropertyList method, CWiauPropertyList, wiautil/CWiauPropertyList::CWiauPropertyList, wiauFncs_834023ef-b425-4469-a5e7-c127fd5acf2a.xml
+ms.keywords: CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface [Imaging Devices], CWiauPropertyList method, image.cwiaupropertylist_cwiaupropertylist, CWiauPropertyList, wiautil/CWiauPropertyList::CWiauPropertyList, wiauFncs_834023ef-b425-4469-a5e7-c127fd5acf2a.xml, CWiauPropertyList::CWiauPropertyList, CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauPropertyList.CWiauPropertyList
 product: Windows
 targetos: Windows
@@ -67,17 +67,22 @@ void CWiauPropertyList();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 The <b>CWiauPropertyList</b> constructor initializes all data members of a property list object to either <b>NULL</b> or zero. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a> method to reserve memory for properties. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a> method once per property to add it to the property list object.
+
 
 
 
@@ -85,11 +90,19 @@ The <b>CWiauPropertyList</b> constructor initializes all data members of a prope
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a>
 
+
+
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540472">CWiauPropertyList::~CWiauPropertyList</a>
+
+
 
  
 

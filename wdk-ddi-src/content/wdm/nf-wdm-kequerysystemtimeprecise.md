@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQuerySystemTimePrecise, kernel.kequerysystemtimeprecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], wdm/KeQuerySystemTimePrecise
+ms.keywords: KeQuerySystemTimePrecise, kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeQuerySystemTimePrecise
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to a LARGE_INTEGER variable into which the routine writes the current 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 System time is a count of 100-nanosecond intervals since January 1, 1601. This value is computed for the GMT time zone. To adjust this value for the local time zone, call the <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a> routine.
@@ -96,17 +99,28 @@ Call the <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
+
+
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+
+
 
 <a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 
+
+
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+
+
 
  
 

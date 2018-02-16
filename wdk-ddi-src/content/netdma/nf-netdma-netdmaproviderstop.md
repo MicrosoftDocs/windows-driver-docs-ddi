@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 992fcdbd-200f-465d-b4be-922132d51d97
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaProviderStop function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStop, NetDmaProviderStop, netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml, netvista.netdmaproviderstop
+ms.keywords: netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml, NetDmaProviderStop, netvista.netdmaproviderstop, NetDmaProviderStop function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NetDmaProviderStop
 product: Windows
 targetos: Windows
@@ -75,18 +75,21 @@ VOID NetDmaProviderStop(
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-     NetDmaRegisterProvider</b></mshelp:link> function.
+     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     NetDmaRegisterProvider</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 A DMA provider driver calls the 
@@ -111,8 +114,8 @@ A DMA provider driver can call
     the application requires after registering the DMA provider and before deregistering the DMA provider. If
     a DMA engine is being restarted after it called 
     <b>NetDmaProviderStop</b>, the DMA provider driver can specify new attributes in the 
-    <mshelp:link keywords="netvista.net_dma_provider_attributes" tabindex="0"><b>
-    NET_DMA_PROVIDER_ATTRIBUTES</b></mshelp:link> structure at the 
+    <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">
+    NET_DMA_PROVIDER_ATTRIBUTES</a> structure at the 
     <i>ProviderAttributes</i> parameter of 
     <b>NetDmaProviderStart</b>.
 
@@ -122,19 +125,32 @@ The NetDMA interface waits for outstanding DMA operations to complete and frees 
 
 
 
+
 ## -see-also
 
 <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
 
+
+
 <a href="..\netdma\nf-netdma-netdmaderegisterprovider.md">NetDmaDeregisterProvider</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551755">IRP_MN_STOP_DEVICE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
 
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
+
+
 <a href="..\netdma\nf-netdma-netdmaproviderstart.md">NetDmaProviderStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
-title: _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
+title: "_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-history operation.
 old-location: display\d3dkmt_flipmodel_presenthistorytoken.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dcf844e3-3346-485e-8965-c8cb824e2c78
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_flipmodel_presenthistorytoken, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml
+ms.keywords: d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_flipmodel_presenthistorytoken, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
 product: Windows
 targetos: Windows
@@ -83,20 +83,6 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
 ## -struct-fields
 
 
-
-
-### -field ScatterBlts
-
-This member is reserved and should be set to zero.
-
-Supported starting with Windows 8.
-
-
-### -field hSyncObject
-
-This member is reserved and should be set to zero.
-
-Supported starting with Windows 8.
 
 
 ### -field FenceValue
@@ -205,6 +191,20 @@ This member is reserved and should be set to zero.
 Supported starting with Windows 8.
 
 
+### -field ScatterBlts
+
+This member is reserved and should be set to zero.
+
+Supported starting with Windows 8.
+
+
+### -field hSyncObject
+
+This member is reserved and should be set to zero.
+
+Supported starting with Windows 8.
+
+
 ### -field Reserved
 
  
@@ -262,13 +262,21 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+
+
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS</a>
 
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+
 
  
 

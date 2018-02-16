@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 10084238-dfeb-42a5-9bf0-06cb9b4f440c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTGetMultisampleMethodList function [Display Devices], D3DKMTGetMultisampleMethodList, display.d3dkmtgetmultisamplemethodlist, d3dkmthk/D3DKMTGetMultisampleMethodList, OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml
+ms.keywords: d3dkmthk/D3DKMTGetMultisampleMethodList, display.d3dkmtgetmultisamplemethodlist, D3DKMTGetMultisampleMethodList function [Display Devices], D3DKMTGetMultisampleMethodList, OpenGL_Functions_8adebfdd-1a02-4e17-8aef-e183587202d2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTGetMultisampleMethodList
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTGetMultisampleMethodList(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a> structure that describes the list of multiple-sample methods for an allocation.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist
 ## -returns
 
 
+
 <b>D3DKMTGetMultisampleMethodList</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,15 +121,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
+
+
 
  
 

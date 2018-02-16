@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPersistDeviceProfile function [Streaming Media Devices], KsPersistDeviceProfile, ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
+ms.keywords: ks/KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], KsPersistDeviceProfile, stream.kspersistdeviceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
-apiname: 
+apiname:
 -	KsPersistDeviceProfile
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ This is the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> that w
 ## -returns
 
 
+
 If <b>KsPersistDeviceProfile</b> is called without first initializing the profile store with <b>KsInitializeDeviceProfile</b> the call to <b>KsPersistDeviceProfile</b> will fail with <b>STATUS_INVALID_DEVICE_REQUEST</b>.
 Furthermore, this API may also fail with <b>STATUS_INSUFFICIENT_RESOURCE</b> if the page pool is exhausted when profile information is being persisted.
+
 
 

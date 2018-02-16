@@ -2,13 +2,13 @@
 UID: NF:fwpsk.FwpsNetBufferListAssociateContext0
 title: FwpsNetBufferListAssociateContext0 function
 author: windows-driver-content
-description: The FwpsNetBufferListAssociateContext0 function associates the callout driver's context with a network buffer list and configures notification for network buffer list events.Note  FwpsNetBufferListAssociateContext0 is the specific version of FwpsNetBufferListAssociateContext used in Windows 7 and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 8, FwpsNetBufferListAssociateContext1 is available. 
+description: The FwpsNetBufferListAssociateContext0 function associates the callout driver's context with a network buffer list and configures notification for network buffer list events.Note  FwpsNetBufferListAssociateContext0 is the specific version of FwpsNetBufferListAssociateContext used in Windows 7 and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 8, FwpsNetBufferListAssociateContext1 is available.
 old-location: netvista\fwpsnetbufferlistassociatecontext0.htm
 old-project: netvista
 ms.assetid: 31135396-303b-4b94-8616-a4b7be207fa1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsnetbufferlistassociatecontext0, FwpsNetBufferListAssociateContext0, fwpsk/FwpsNetBufferListAssociateContext0, wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml, FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsNetBufferListAssociateContext0, wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml, netvista.fwpsnetbufferlistassociatecontext0, fwpsk/FwpsNetBufferListAssociateContext0, FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsNetBufferListAssociateContext0
 product: Windows
 targetos: Windows
@@ -92,15 +92,15 @@ The identifier of the layer in which the context is being associated. When calli
 
 Arbitrary context information set by the callout driver. The filter engine will pass this context
      to the callout driver's 
-     <mshelp:link keywords="netvista.fwps_net_buffer_list_notify_fn0" tabindex="0"><i>
-     FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i></mshelp:link>.
+     <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
+     FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>.
 
 
 ### -param contextTag [in]
 
 A locally unique identifier obtained by calling the 
-     <mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
-     FwpsNetBufferListGetTagForContext0</b></mshelp:link> function.
+     <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+     FwpsNetBufferListGetTagForContext0</a> function.
 
 
 ### -param providerGuid
@@ -116,8 +116,8 @@ A pointer to the callout driver's device object.
 ### -param notifyFn [in]
 
 A pointer to the callout driver's 
-     <mshelp:link keywords="netvista.fwps_net_buffer_list_notify_fn0" tabindex="0"><i>
-     FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i></mshelp:link> function. The filter engine will send status notifications to this
+     <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">
+     FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> function. The filter engine will send status notifications to this
      function.
 
 
@@ -134,8 +134,10 @@ The provider GUID.
 ## -returns
 
 
+
 The 
      <b>FwpsNetBufferListAssociateContext0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -163,11 +165,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The 
@@ -179,22 +184,35 @@ Before calling this function, the
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+   FwpsNetBufferListRemoveContext0</a>
 
-<mshelp:link keywords="netvista.fwpsnetbufferlistremovecontext0" tabindex="0"><b>
-   FwpsNetBufferListRemoveContext0</b></mshelp:link>
 
-<mshelp:link keywords="netvista.fwpsnetbufferlistretrievecontext0" tabindex="0"><b>
-   FwpsNetBufferListRetrieveContext0</b></mshelp:link>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
+   FwpsNetBufferListRetrieveContext0</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
 
-<mshelp:link keywords="netvista.fwpsnetbufferlistgettagforcontext0" tabindex="0"><b>
-   FwpsNetBufferListGetTagForContext0</b></mshelp:link>
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistgettagforcontext0.md">
+   FwpsNetBufferListGetTagForContext0</a>
+
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+
+
 
  
 

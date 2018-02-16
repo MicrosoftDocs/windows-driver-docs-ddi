@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEVICERESET_STATE
-title: _D3DKMT_DEVICERESET_STATE
+title: "_D3DKMT_DEVICERESET_STATE"
 author: windows-driver-content
 description: The D3DKMT_DEVICERESET_STATE structure identifies reset status.
 old-location: display\d3dkmt_devicereset_state.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c2037d77-8745-4307-ac12-54f62f20c2d9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DEVICERESET_STATE, display.d3dkmt_devicereset_state, OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, D3DKMT_DEVICERESET_STATE structure [Display Devices], d3dkmthk/D3DKMT_DEVICERESET_STATE, _D3DKMT_DEVICERESET_STATE
+ms.keywords: display.d3dkmt_devicereset_state, D3DKMT_DEVICERESET_STATE, _D3DKMT_DEVICERESET_STATE, OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, D3DKMT_DEVICERESET_STATE structure [Display Devices], d3dkmthk/D3DKMT_DEVICERESET_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_DEVICERESET_STATE
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ A 32-bit value that identifies reset status.
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
+
+
 
  
 

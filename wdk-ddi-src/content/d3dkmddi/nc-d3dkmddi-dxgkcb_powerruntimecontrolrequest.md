@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DxgkCbPowerRuntimeControlRequest
 product: Windows
 targetos: Windows
@@ -84,8 +84,9 @@ A handle to the display adapter. The display miniport driver receives the handle
 ### -param LPCGUID
 
 
-
 ### -param OPTIONAL
+
+
 
 
 
@@ -94,6 +95,10 @@ A handle to the display adapter. The display miniport driver receives the handle
 
 ### -param SIZE_T
 
+
+#### - BytesReturned [out, optional]
+
+An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
 
 
 #### - InBuffer [in, optional]
@@ -106,19 +111,14 @@ An optional pointer to an input buffer.
 The size, in bytes, of the buffer that <i>InBuffer</i> points to.
 
 
-#### - OutBufferSize [in]
-
-The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
-
-
-#### - BytesReturned [out, optional]
-
-An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
-
-
 #### - OutBuffer [out, optional]
 
 An optional pointer to an output buffer.
+
+
+#### - OutBufferSize [in]
+
+The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 
 
 #### - PowerControlCode [in]
@@ -129,14 +129,19 @@ A pointer to a GUID that defines the meaning of the display miniport driver's co
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
+
 
 
 
 ## -remarks
 
 
-<div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div><div> </div>Although the driver can use any GUID in the <i>PowerControlCode</i> parameter, the following GUIDs that are defined in D3dkmddi.h are recommended. By using these GUIDs, the display port driver can issue Event Tracing for Windows (ETW) events, which are useful to profile driver performance issues.
+
+<div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div>
+<div> </div>
+Although the driver can use any GUID in the <i>PowerControlCode</i> parameter, the following GUIDs that are defined in D3dkmddi.h are recommended. By using these GUIDs, the display port driver can issue Event Tracing for Windows (ETW) events, which are useful to profile driver performance issues.
 
 <dl>
 <dt><a id="GUID_DXGKDDI_POWER_VOLTAGE_UP"></a><a id="guid_dxgkddi_power_voltage_up"></a>GUID_DXGKDDI_POWER_VOLTAGE_UP</dt>
@@ -191,13 +196,20 @@ These GUIDs do not imply that there is any communication protocol between the di
 
 
 
-## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a>
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
+
+
 
  
 

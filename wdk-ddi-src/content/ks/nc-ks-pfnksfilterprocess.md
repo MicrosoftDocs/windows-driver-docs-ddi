@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: (See Remarks section)
-topictype: 
+req.irql: "(See Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	AVStrMiniFilterProcess
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure that mu
 
 
 
+
+
 #### - ProcessPinsIndex [in]
 
 Pointer to an array of <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a> structures that AVStream orders by pin ID.
@@ -91,11 +93,14 @@ Pointer to an array of <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCE
 ## -returns
 
 
+
 Return STATUS_SUCCESS to continue processing. Return STATUS_PENDING to stop processing until the next triggering event. The minidriver may return an error code, but this will be treated as described for STATUS_PENDING.
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine's address in the <b>Process</b> member of its <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a> structure.
@@ -108,11 +113,16 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
+
+
 <a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RENDERSTATE
-title: _D3DDDIARG_RENDERSTATE
+title: "_D3DDDIARG_RENDERSTATE"
 author: windows-driver-content
 description: The D3DDDIARG_RENDERSTATE structure describes how to update a specific render state.
 old-location: display\d3dddiarg_renderstate.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 177a2578-2bd4-4a11-a3fd-fec226a64c22
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE structure [Display Devices], d3dumddi/D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE, UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, display.d3dddiarg_renderstate
+ms.keywords: D3DDDIARG_RENDERSTATE, _D3DDDIARG_RENDERSTATE, UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, D3DDDIARG_RENDERSTATE structure [Display Devices], display.d3dddiarg_renderstate, d3dumddi/D3DDDIARG_RENDERSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_RENDERSTATE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct _D3DDDIARG_RENDERSTATE {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setrenderstate.md">SetRenderState</a>
+
+
 
  
 

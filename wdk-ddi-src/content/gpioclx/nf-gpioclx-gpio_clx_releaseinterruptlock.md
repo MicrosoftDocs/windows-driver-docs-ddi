@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Msgpioclxstub.lib
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Msgpioclxstub.lib
 -	Msgpioclxstub.dll
-apiname: 
+apiname:
 -	GPIO_CLX_ReleaseInterruptLock
 product: Windows
 targetos: Windows
-req.typenames: *PGPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE
+req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 ---
 
 # GPIO_CLX_ReleaseInterruptLock function
@@ -82,11 +82,14 @@ The identifier for this bank of GPIO pins. If N is the number of banks in the GP
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This method releases the interrupt lock that the caller acquired in a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a> method.
@@ -97,9 +100,12 @@ If the <i>Context</i> parameter is NULL or points to an invalid GPIO device cont
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a>
+
+
 
  
 

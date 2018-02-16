@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYSEGMENTIN4
-title: _DXGK_QUERYSEGMENTIN4
+title: "_DXGK_QUERYSEGMENTIN4"
 author: windows-driver-content
 description: The DXGK_QUERYSEGMENTIN4 structure is used to specify the adapter to query.
 old-location: display\dxgk_querysegmentin4.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_QUERYSEGMENTIN4, d3dkmddi/DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4 structure [Display Devices], DXGK_QUERYSEGMENTIN4, display.dxgk_querysegmentin4
+ms.keywords: "_DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4, display.dxgk_querysegmentin4, d3dkmddi/DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4 structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_QUERYSEGMENTIN4
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ A zero-based physical adapter index in a linked display adapter  (LDA) link. Zer
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout4.md">DXGK_QUERYSEGMENTOUT4</a>
+
+
 
  
 

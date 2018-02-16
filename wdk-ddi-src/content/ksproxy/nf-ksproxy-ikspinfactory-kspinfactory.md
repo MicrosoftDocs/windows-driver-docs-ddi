@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 939ea77d-f194-4751-b02b-80d5e83c46f4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, KsPinFactory method [Streaming Media Devices], IKsPinFactory interface, stream.ikspinfactory_kspinfactory, ksproxy/IKsPinFactory::KsPinFactory, IKsPinFactory::KsPinFactory, IKsPinFactory, KsPinFactory method [Streaming Media Devices], KsPinFactory, IKsPinFactory interface [Streaming Media Devices], KsPinFactory method
+ms.keywords: IKsPinFactory interface [Streaming Media Devices], KsPinFactory method, KsPinFactory method [Streaming Media Devices], IKsPinFactory interface, KsPinFactory method [Streaming Media Devices], stream.ikspinfactory_kspinfactory, IKsPinFactory::KsPinFactory, ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, IKsPinFactory, KsPinFactory, ksproxy/IKsPinFactory::KsPinFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPinFactory.KsPinFactory
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ Pointer to a variable that receives the identifier of the pin factory.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
+
+
 
  
 

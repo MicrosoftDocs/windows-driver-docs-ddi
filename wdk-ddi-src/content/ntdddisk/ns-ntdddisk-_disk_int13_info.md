@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_INT13_INFO
-title: _DISK_INT13_INFO
+title: "_DISK_INT13_INFO"
 author: windows-driver-content
 description: The DISK_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an INT13 format.
 old-location: storage\disk_int13_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DISK_INT13_INFO, ntdddisk/DISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, PDISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO structure pointer [Storage Devices], _DISK_INT13_INFO, *PDISK_INT13_INFO, storage.disk_int13_info, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml
+ms.keywords: DISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], ntdddisk/DISK_INT13_INFO, PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices], structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, *PDISK_INT13_INFO, _DISK_INT13_INFO, storage.disk_int13_info, ntdddisk/PDISK_INT13_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	DISK_INT13_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PDISK_INT13_INFO, DISK_INT13_INFO
+req.typenames: DISK_INT13_INFO, *PDISK_INT13_INFO
 ---
 
 # _DISK_INT13_INFO structure
@@ -98,9 +98,13 @@ Indicates the number of drives.
 
 ## -see-also
 
+<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
+
+
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_ex_int13_info.md">DISK_EX_INT13_INFO</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
+
 
  
 

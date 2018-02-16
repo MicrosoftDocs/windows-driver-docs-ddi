@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a20e9c8-a8f2-4519-a22b-2444c46ba13a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPHONEENTRYSTORELOCATION, RIL_PBLOC_OWNNUMBERS, RIL_PBLOC_ALL, RIL_PBLOC_UICCFIXDIALING, ntddrilapitypes/RILPHONEENTRYSTORELOCATION, RIL_PBLOC_UICCSERVICEDIALING, ntddrilapitypes/RIL_PBLOC_OWNNUMBERS, netvista.rilphoneentrystorelocation, ntddrilapitypes/RIL_PBLOC_UICCSERVICEDIALING, RIL_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RIL_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RIL_PBLOC_UICCFIXDIALING, ntddrilapitypes/RIL_PBLOC_ALL, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddrilapitypes/RIL_PBLOC_OWNNUMBERS, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista], RILPHONEENTRYSTORELOCATION, ntddrilapitypes/RIL_PBLOC_UICCFIXDIALING, ntddrilapitypes/RIL_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RIL_PBLOC_ALL, RIL_PBLOC_UICCSERVICEDIALING, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_ALL, RIL_PBLOC_UICCFIXDIALING, ntddrilapitypes/RILPHONEENTRYSTORELOCATION, ntddrilapitypes/RIL_PBLOC_UICCSERVICEDIALING, RIL_PBLOC_OWNNUMBERS, netvista.rilphoneentrystorelocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILPHONEENTRYSTORELOCATION
 product: Windows
 targetos: Windows
@@ -74,23 +74,17 @@ typedef enum _RILPHONEENTRYSTORELOCATION {
 ### -field RIL_PBLOC_UNKNOWN
 
 
-
 ### -field RIL_PBLOC_UICCFIXDIALING
-
 
 
 ### -field RIL_PBLOC_OWNNUMBERS
 
 
-
 ### -field RIL_PBLOC_UICCPHONEBOOK
-
 
 
 ### -field RIL_PBLOC_UICCSERVICEDIALING
 
 
-
 ### -field RIL_PBLOC_ALL
-
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	ClearDepthStencilView
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback
@@ -77,17 +77,13 @@ VOID APIENTRY ClearDepthStencilView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HDEPTHSTENCILVIEW
-
 
 
 ### -param UINT
 
 
-
 ### -param FLOAT
-
 
 
 ### -param UINT8
@@ -97,14 +93,17 @@ VOID APIENTRY ClearDepthStencilView(
 
 
 
-#### - hDepthStencilView [in]
 
- A handle to the depth-stencil view to clear. 
+
+#### - Depth [in]
+
+ A single-precision float vector to set the depth to. 
 
 
 #### - Flags [in]
 
  A value that specifies which parts of the buffer to affect. This parameter must be set to one of the following values from the D3D10_DDI_CLEAR_FLAG enumeration.
+
 <table>
 <tr>
 <th>Value</th>
@@ -130,7 +129,8 @@ The stencil value is cleared.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 #### - Stencil [in]
@@ -138,17 +138,18 @@ The stencil value is cleared.
  An unsigned 8-bit integer value to set the stencil to. 
 
 
+#### - hDepthStencilView [in]
+
+ A handle to the depth-stencil view to clear. 
+
+
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - Depth [in]
-
- A single-precision float vector to set the depth to. 
-
-
 ## -returns
+
 
 
 None
@@ -157,7 +158,9 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 Floating point rules apply to the <b>ClearDepthStencilView</b> function. 
@@ -166,11 +169,16 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

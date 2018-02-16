@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_INT10_INTERFACE
-title: _VIDEO_PORT_INT10_INTERFACE
+title: "_VIDEO_PORT_INT10_INTERFACE"
 author: windows-driver-content
 description: The VIDEO_PORT_INT10_INTERFACE structure provides a way to allocate and deallocate memory in another thread's context, read from and write to that memory, and make INT10 BIOS calls.
 old-location: display\video_port_int10_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 551b2255-c221-4a95-a812-dec34f09438b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VIDEO_PORT_INT10_INTERFACE, _VIDEO_PORT_INT10_INTERFACE, display.video_port_int10_interface, Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], VIDEO_PORT_INT10_INTERFACE structure [Display Devices], *PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE, video/PVIDEO_PORT_INT10_INTERFACE
+ms.keywords: display.video_port_int10_interface, _VIDEO_PORT_INT10_INTERFACE, video/VIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], VIDEO_PORT_INT10_INTERFACE, *PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, video/PVIDEO_PORT_INT10_INTERFACE, Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, VIDEO_PORT_INT10_INTERFACE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VIDEO_PORT_INT10_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: *PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE
+req.typenames: "*PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE"
 req.product: Windows 10 or later.
 ---
 
@@ -130,13 +130,17 @@ Pointer to the video port driver-implemented <a href="..\video\nc-video-pint10_c
 ## -remarks
 
 
+
 PnP video miniport drivers that intend to make BIOS calls should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+
 
 
 
 ## -see-also
 
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7750a0f5-f38d-4530-81dc-589a1c2009ca
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterFactoryRegisterAggregatedClientUnknown, avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices], ks/KsFilterFactoryRegisterAggregatedClientUnknown, stream.ksfilterfactoryregisteraggregatedclientunknown
+ms.keywords: KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices], KsFilterFactoryRegisterAggregatedClientUnknown, avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, stream.ksfilterfactoryregisteraggregatedclientunknown, ks/KsFilterFactoryRegisterAggregatedClientUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsFilterFactoryRegisterAggregatedClientUnknown
 product: Windows
 targetos: Windows
@@ -81,20 +81,26 @@ A pointer to the client <b>IUnknown</b> interface.
 ## -returns
 
 
+
 <b>KsFilterFactoryRegisterAggregatedClientUnknown</b> returns a pointer to the <b>IUnknown</b> interface of the newly created aggregate object.
+
 
 
 
 ## -remarks
 
 
+
 Note that this inline function only performs a typecast and then calls <b>KsRegisterAggregatedClientUnknown</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
 
  
 

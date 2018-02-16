@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_DESTROYVIDEODECODER_0021
 product: Windows
 targetos: Windows
@@ -71,7 +71,6 @@ VOID APIENTRY PFND3D12DDI_DESTROYVIDEODECODER_0021(
 ### -param hDrvDevice
 
 
-
 ### -param hDrvVideoDecoder
 
 
@@ -79,9 +78,6 @@ VOID APIENTRY PFND3D12DDI_DESTROYVIDEODECODER_0021(
 
 
 
-#### - D3d12ddi_hvideodecoder
-
-Holds the HVideoDecoder
 
 
 #### - D3d12ddi_hdevice
@@ -89,9 +85,16 @@ Holds the HVideoDecoder
 Holds the HDevice.
 
 
+#### - D3d12ddi_hvideodecoder
+
+Holds the HVideoDecoder
+
+
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

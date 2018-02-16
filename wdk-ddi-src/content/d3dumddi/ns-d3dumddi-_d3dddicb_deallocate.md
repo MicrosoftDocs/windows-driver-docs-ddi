@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DEALLOCATE
-title: _D3DDDICB_DEALLOCATE
+title: "_D3DDDICB_DEALLOCATE"
 author: windows-driver-content
 description: The D3DDDICB_DEALLOCATE structure describes allocations to release.
 old-location: display\d3dddicb_deallocate.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b1d92adf-6efc-4a30-bd5c-cbfe53a7c648
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_DEALLOCATE structure [Display Devices], d3dumddi/D3DDDICB_DEALLOCATE, display.d3dddicb_deallocate, D3DDDICB_DEALLOCATE, D3D_param_Structs_4182b764-2e99-4146-a8ae-15620524f408.xml, _D3DDDICB_DEALLOCATE
+ms.keywords: "_D3DDDICB_DEALLOCATE, D3DDDICB_DEALLOCATE, d3dumddi/D3DDDICB_DEALLOCATE, D3D_param_Structs_4182b764-2e99-4146-a8ae-15620524f408.xml, display.d3dddicb_deallocate, D3DDDICB_DEALLOCATE structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_DEALLOCATE
 product: Windows
 targetos: Windows
@@ -89,6 +89,8 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+
+
 
  
 

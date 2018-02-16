@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: decfcafa-fe8b-44f6-913b-c04cf3b320a3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilerrordetails_2, RILERRORDETAILS, rilapitypes/RILERRORDETAILS, *LPRILERRORDETAILS
+ms.keywords: RILERRORDETAILS structure [Network Drivers Starting with Windows Vista], *LPRILERRORDETAILS, netvista.rilerrordetails_2, RILERRORDETAILS, rilapitypes/RILERRORDETAILS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILERRORDETAILS
 product: Windows
 targetos: Windows
-req.typenames: RILERRORDETAILS, *LPRILERRORDETAILS
+req.typenames: "*LPRILERRORDETAILS, RILERRORDETAILS"
 req.product: Windows 10 or later.
 ---
 
@@ -74,15 +74,11 @@ typedef struct _RILERRORDETAILS {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field hResult
 
 
-
 ### -field dw3gppCause
-
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 40971ff3-6fd3-480b-aba9-7f572d6e1ce2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, ks/KsDeviceGetBusData, KsDeviceGetBusData function [Streaming Media Devices], KsDeviceGetBusData, stream.ksdevicegetbusdata
+ms.keywords: avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, stream.ksdevicegetbusdata, KsDeviceGetBusData, KsDeviceGetBusData function [Streaming Media Devices], ks/KsDeviceGetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDeviceGetBusData
 product: Windows
 targetos: Windows
@@ -100,11 +100,14 @@ This parameter specifies the number of bytes to read into <i>Buffer</i>.
 ## -returns
 
 
+
 <b>KsDeviceGetBusData </b>returns the number of bytes actually read from the bus. If an errors occurs, this value is zero.
 
 
 
+
 ## -remarks
+
 
 
 Depending on the driver for the bus where the specified device resides, there are two possible behaviors and restriction sets on this function. If the given bus driver supports the bus interface standard (usually PCI), call this function at either IRQL = PASSIVE_LEVEL or DISPATCH_LEVEL. After such a call, <b>KsDeviceGetBusData</b> returns the actual number of bytes read from the requested space. If, however, the given bus driver does not support the bus interface standard, then AVStream communicates with the bus driver through <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>. Note that this restricts use of <b>KsDeviceGetBusData</b> to IRQL = PASSIVE_LEVEL and also means that the return value is either 0, in the case of failure, or equal to<i> Length</i> if data acquisition was successful<i>.</i>
@@ -113,11 +116,16 @@ To ensure compatibility, minidriver writers may want to restrict use of <b>KsDev
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nf-ks-ksdevicesetbusdata.md">KsDeviceSetBusData</a>
+
+
 
 <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
-<a href="..\ks\nf-ks-ksdevicesetbusdata.md">KsDeviceSetBusData</a>
+
 
  
 

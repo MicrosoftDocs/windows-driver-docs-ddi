@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	ResourceResolveSubresource
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback
@@ -78,16 +78,15 @@ VOID APIENTRY ResourceResolveSubresource(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HRESOURCE
-
 
 
 ### -param UINT
 
 
-
 ### -param DXGI_FORMAT
+
+
 
 
 
@@ -99,24 +98,9 @@ VOID APIENTRY ResourceResolveSubresource(
  An index that indicates the destination subresource to resolve to. 
 
 
-#### - hSrcResource [in]
-
- A handle to the source resource to resolve from.
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 #### - ResolveFormat [in]
 
  A DXGI_FORMAT-typed value that indicates how to interpret the contents of the resolved resource.
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
 
 
 #### - SrcSubresource [in]
@@ -124,7 +108,23 @@ VOID APIENTRY ResourceResolveSubresource(
  An index that indicates the source subresource to resolve from. 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - hDstResource [in]
+
+ A handle to the destination resource to resolve to. This resource must have been created as D3D10_USAGE_DEFAULT and single sampled.
+
+
+#### - hSrcResource [in]
+
+ A handle to the source resource to resolve from.
+
+
 ## -returns
+
 
 
 None
@@ -133,12 +133,15 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 The algorithm to resolve multiple samples to one pixel depends on the implementation. 
 
 The resolve operation shares similar restrictions to copy operations that occur in calls to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopy.md">ResourceCopy</a> and <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md">ResourceCopyRegion</a> functions. That is, both source and destination resources must be the same type (for example, Texture2D), and no stretching or format conversions can occur. The driver can resolve only a whole subresource; therefore, both the source and destination subresources must be equal in dimensions. Because of typeless resources, the following interactions can exist with either the source or destination resource format: 
+
 <ul>
 <li>
 If each resource is prestructured plus typed, both resources must have the same format type, and that format type must match the format type that was passed in the <i>ResolveFormat</i> parameter (for example, all R32_FLOAT). 
@@ -155,13 +158,20 @@ If both resources are prestructured plus typeless, they must be equal formats, a
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md">ResourceCopyRegion</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopy.md">ResourceCopy</a>
+
+
 
  
 

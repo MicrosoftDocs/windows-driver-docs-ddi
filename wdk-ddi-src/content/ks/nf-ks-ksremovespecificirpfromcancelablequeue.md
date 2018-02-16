@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2d3550c3-4a06-410e-9ec9-fed8b2786092
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsRemoveSpecificIrpFromCancelableQueue, stream.ksremovespecificirpfromcancelablequeue, ks/KsRemoveSpecificIrpFromCancelableQueue, KsRemoveSpecificIrpFromCancelableQueue function [Streaming Media Devices], ksfunc_db7aeb28-a39d-4ab6-9df5-6eef83453c85.xml
+ms.keywords: ks/KsRemoveSpecificIrpFromCancelableQueue, stream.ksremovespecificirpfromcancelablequeue, KsRemoveSpecificIrpFromCancelableQueue function [Streaming Media Devices], KsRemoveSpecificIrpFromCancelableQueue, ksfunc_db7aeb28-a39d-4ab6-9df5-6eef83453c85.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsRemoveSpecificIrpFromCancelableQueue
 product: Windows
 targetos: Windows
@@ -76,6 +76,8 @@ Points to I/O request packet.
 ## -returns
 
 
+
 None
+
 
 

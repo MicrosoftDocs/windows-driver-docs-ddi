@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6b2c56a9-cf77-4734-8f85-0ca740084ce3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetDeviceReservedExtension function [Network Drivers Starting with Windows Vista], NdisGetDeviceReservedExtension, ndis_devices_ref_75d6a378-f525-46bb-9a2b-becf6abaa768.xml, netvista.ndisgetdevicereservedextension, ndis/NdisGetDeviceReservedExtension
+ms.keywords: ndis/NdisGetDeviceReservedExtension, netvista.ndisgetdevicereservedextension, NdisGetDeviceReservedExtension, ndis_devices_ref_75d6a378-f525-46bb-9a2b-becf6abaa768.xml, NdisGetDeviceReservedExtension function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGetDeviceReservedExtension
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGetDeviceReservedExtension function
@@ -79,14 +79,18 @@ A pointer to a
 ## -returns
 
 
+
 <b>NdisGetDeviceReservedExtension</b> returns a pointer to the device extension. If an error occurs, it
      returns <b>NULL</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
  
 

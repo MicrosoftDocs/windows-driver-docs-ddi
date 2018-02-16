@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KStrAllocateFrame
 product: Windows
 targetos: Windows
@@ -76,14 +76,7 @@ NTSTATUS KStrAllocateFrame(
 Pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure for which to allocate frames.
 
 
-### -param *Frame
-
-
-
-
-
-
-#### - Frame [out]
+### -param *Frame [out]
 
 A pointer to a caller-allocated buffer in which the new frame is returned.
 
@@ -91,11 +84,14 @@ A pointer to a caller-allocated buffer in which the new frame is returned.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the request is handled.  Otherwise returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 This type is used in the <b>AllocateFrame</b> member of the <a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a> structure.
@@ -104,11 +100,16 @@ You can pass an instance of this structure as part of a <a href="https://msdn.mi
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
+
+
 
  
 

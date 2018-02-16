@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	AtaAdapterControl
 product: Windows
 targetos: Windows
@@ -82,6 +82,7 @@ A pointer to the controller extension.
 
       One of five actions that the miniport driver must perform as defined in the following table.
   
+
 <table>
 <tr>
 <th>ControlAction</th>
@@ -158,7 +159,8 @@ Indicates that the miniport driver should perform a vendor-defined control actio
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Parameters [in, out]
@@ -169,20 +171,26 @@ Parameters associated with the given action.
 ## -returns
 
 
+
 The miniport driver must return <b>TRUE</b> to acknowledge the completion of the requested action. A return value of <b>FALSE</b> indicates that the miniport driver was unable to complete the action successfully. A return value of <b>FALSE</b> for certain actions might cause the device installation to fail.
+
 
 
 
 ## -remarks
 
 
+
 The port driver guarantees that there is no outstanding I/O on the adapter before it invokes the <i>AtaAdapterControl</i> routine.
+
 
 
 
 ## -see-also
 
 <a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
+
+
 
  
 

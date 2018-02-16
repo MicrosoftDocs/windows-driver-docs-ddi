@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E0756361-CC11-4C24-9230-666836462BEF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlInt8ToUShort function [Kernel-Mode Driver Architecture], ntintsafe/RtlInt8ToUShort, RtlInt8ToUShort, kernel.rtlint8toushort
+ms.keywords: kernel.rtlint8toushort, RtlInt8ToUShort function [Kernel-Mode Driver Architecture], RtlInt8ToUShort, ntintsafe/RtlInt8ToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlInt8ToUShort
 product: Windows
 targetos: Windows
@@ -81,12 +81,15 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlInt8ToUInt16</li>
 <li>RtlInt8ToWord
 </li>
 </ul>
+
 

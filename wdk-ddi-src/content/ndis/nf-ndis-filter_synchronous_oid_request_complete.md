@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E0749F52-CC7C-484D-8350-1986154957C1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FilterSynchronousOidRequestComplete, netvista.filter_synchronous_oid_request_complete, FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequestComplete
+ms.keywords: FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], FilterSynchronousOidRequestComplete, netvista.filter_synchronous_oid_request_complete, FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, ndis/FilterSynchronousOidRequestComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	FilterSynchronousOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function
@@ -93,13 +93,17 @@ Reserved.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
+
+
 
  
 

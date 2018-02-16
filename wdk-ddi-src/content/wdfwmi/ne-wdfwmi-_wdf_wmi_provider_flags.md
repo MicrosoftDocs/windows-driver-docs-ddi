@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfwmi._WDF_WMI_PROVIDER_FLAGS
-title: _WDF_WMI_PROVIDER_FLAGS
+title: "_WDF_WMI_PROVIDER_FLAGS"
 author: windows-driver-content
 description: The WDF_WMI_PROVIDER_FLAGS enumeration defines configuration flags for a driver's WMI data provider.
 old-location: wdf\wdf_wmi_provider_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 85b1a4b4-53e0-4663-b813-18801f8b639b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfwmi/WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderExpensive, wdfwmi/WdfWmiProviderTracing, wdfwmi/WdfWmiProviderValidFlags, wdf.wdf_wmi_provider_flags, WdfWmiProviderValidFlags, kmdf.wdf_wmi_provider_flags, WDF_WMI_PROVIDER_FLAGS, _WDF_WMI_PROVIDER_FLAGS, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WDF_WMI_PROVIDER_FLAGS enumeration, wdfwmi/WdfWmiProviderEventOnly, WdfWmiProviderTracing, wdfwmi/WdfWmiProviderExpensive, WdfWmiProviderEventOnly
+ms.keywords: WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderExpensive, wdfwmi/WdfWmiProviderValidFlags, _WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderTracing, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, wdfwmi/WdfWmiProviderEventOnly, WDF_WMI_PROVIDER_FLAGS enumeration, WdfWmiProviderEventOnly, wdf.wdf_wmi_provider_flags, wdfwmi/WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderValidFlags, kmdf.wdf_wmi_provider_flags, WdfWmiProviderExpensive, WdfWmiProviderTracing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfwmi.h
-apiname: 
+apiname:
 -	WDF_WMI_PROVIDER_FLAGS
 product: Windows
 targetos: Windows
@@ -96,23 +96,37 @@ The bitwise OR of all flags. Drivers should not use this value.
 ## -remarks
 
 
+
 The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
-
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
+
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md">WdfWmiProviderGetTracingHandle</a>
 
-<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WdfWmiInstanceControl</a>
+
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
+
+
+
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+
+
+
+<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WdfWmiInstanceControl</a>
+
+
 
  
 

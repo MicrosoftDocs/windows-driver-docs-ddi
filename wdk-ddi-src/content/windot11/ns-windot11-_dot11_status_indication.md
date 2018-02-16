@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_STATUS_INDICATION
-title: _DOT11_STATUS_INDICATION
+title: "_DOT11_STATUS_INDICATION"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_status_indication.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 77b2eae8-1fa5-4f87-97e4-713bfca627b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PDOT11_STATUS_INDICATION, PDOT11_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_STATUS_INDICATION, PDOT11_STATUS_INDICATION, DOT11_STATUS_INDICATION, netvista.dot11_status_indication, DOT11_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_4bd90807-e039-426f-a5d9-daa7bca20bad.xml, _DOT11_STATUS_INDICATION, windot11/PDOT11_STATUS_INDICATION
+ms.keywords: PDOT11_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], DOT11_STATUS_INDICATION, DOT11_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], windot11/DOT11_STATUS_INDICATION, Native_802.11_data_types_4bd90807-e039-426f-a5d9-daa7bca20bad.xml, _DOT11_STATUS_INDICATION, windot11/PDOT11_STATUS_INDICATION, PDOT11_STATUS_INDICATION, netvista.dot11_status_indication, *PDOT11_STATUS_INDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_STATUS_INDICATION
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_STATUS_INDICATION, DOT11_STATUS_INDICATION
+req.typenames: DOT11_STATUS_INDICATION, *PDOT11_STATUS_INDICATION
 req.product: Windows 10 or later.
 ---
 
@@ -93,15 +93,19 @@ If the operation completed without a failure, the miniport driver must set the
 ## -remarks
 
 
+
 For the Windows Vista operating system, only 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a> requires the
     use of the DOT11_STATUS_INDICATION structure for completion indications.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
+
 
  
 

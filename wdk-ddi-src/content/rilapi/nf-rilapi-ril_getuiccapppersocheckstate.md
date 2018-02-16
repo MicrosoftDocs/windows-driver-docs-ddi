@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 328f6ac4-e045-4197-a74c-607e98ba606c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_getuiccapppersocheckstate, RIL_GetUiccAppPersoCheckState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetUiccAppPersoCheckState, RIL_GetUiccAppPersoCheckState
+ms.keywords: RIL_GetUiccAppPersoCheckState method [Network Drivers Starting with Windows Vista], RIL_GetUiccAppPersoCheckState, netvista.ril_getuiccapppersocheckstate, rilapi/RIL_GetUiccAppPersoCheckState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_GetUiccAppPersoCheckState
 product: Windows
 targetos: Windows
@@ -75,18 +75,17 @@ HRESULT  RIL_GetUiccAppPersoCheckState(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

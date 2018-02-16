@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._SYMBOL_INFO_EX
-title: _SYMBOL_INFO_EX
+title: "_SYMBOL_INFO_EX"
 author: windows-driver-content
 description: The SYMBOL_INFO_EX structure describes the extended line symbol information.
 old-location: debugger\symbol_info_ex.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BDB8179A-4A97-4E83-B4A4-7B8358B3510C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: _SYMBOL_INFO_EX, dbgeng/PSYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], debugger.symbol_info_ex, *PSYMBOL_INFO_EX, PSYMBOL_INFO_EX structure pointer [Windows Debugging], PSYMBOL_INFO_EX, SYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX
+ms.keywords: dbgeng/PSYMBOL_INFO_EX, PSYMBOL_INFO_EX, PSYMBOL_INFO_EX structure pointer [Windows Debugging], debugger.symbol_info_ex, SYMBOL_INFO_EX, *PSYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], _SYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	SYMBOL_INFO_EX
 product: Windows
 targetos: Windows
@@ -103,6 +103,7 @@ Line displacement: Offset between given address and the first instruction of the
 
 
 
+
 #### - Reserved[4]
 
 Reserved for future use. This parameter can be set to any value.
@@ -111,6 +112,8 @@ Reserved for future use. This parameter can be set to any value.
 ## -remarks
 
 
+
 Glue lines are code lines added to the binary by the compiler/linker. Glue lines do not have corresponding lines in the original source code. They are added to bind together functionality inside of the PE generated binary, for example calling NET framework functions inside of a native binary.
+
 
 

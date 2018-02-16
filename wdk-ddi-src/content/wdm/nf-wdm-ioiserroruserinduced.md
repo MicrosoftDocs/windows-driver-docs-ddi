@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f5e54e8-c127-44d9-b1a6-e6f7ac3b3b51
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoIsErrorUserInduced, kernel.ioiserroruserinduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], IoIsErrorUserInduced, k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml
+ms.keywords: k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml, IoIsErrorUserInduced, wdm/IoIsErrorUserInduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], kernel.ioiserroruserinduced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdm.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IoIsErrorUserInduced
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ Specifies the current NTSTATUS value, usually within the driver's <a href="https
 ## -remarks
 
 
+
 This routine indicates whether an I/O request failed for one of the following user-correctable conditions:  
 
 STATUS_DEVICE_NOT_READY
@@ -96,13 +97,20 @@ If <b>IoIsErrorUserInduced</b> returns <b>TRUE</b>, the removable-media driver m
 
 
 
+
 ## -see-also
+
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+
+
 
 <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
+
+
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+
 
  
 

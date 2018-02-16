@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1cc93e46-406f-4f75-ae5d-7a4986286640
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportreadportuchar, VideoPort_Functions_128aedd7-fb7b-4e0e-8447-12733a245bc0.xml, VideoPortReadPortUchar, video/VideoPortReadPortUchar, VideoPortReadPortUchar function [Display Devices]
+ms.keywords: VideoPortReadPortUchar function [Display Devices], VideoPortReadPortUchar, display.videoportreadportuchar, video/VideoPortReadPortUchar, VideoPort_Functions_128aedd7-fb7b-4e0e-8447-12733a245bc0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortReadPortUchar
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range r
 ## -returns
 
 
+
 <b>VideoPortReadPortUchar</b> returns the byte read from the adapter.
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortReadPortUchar</b>.
@@ -89,13 +92,20 @@ Callers of <b>VideoPortReadPortUchar</b> can be running at any IRQL, provided th
 
 
 
-## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+## -see-also
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
+
+
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	pfnAssignMultisamplingMethodSet
 product: Windows
 targetos: Windows
@@ -95,6 +95,8 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 
 
 
+
+
 #### - pSupportedMethodSet [in]
 
 [in] A pointer to an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
@@ -103,7 +105,9 @@ NTSTATUS APIENTRY pfnAssignMultisamplingMethodSet(
 ## -returns
 
 
+
 The <b>pfnAssignMultisamplingMethodSet</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,15 +157,19 @@ The function failed because it was unable to allocate enough memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other error codes that are defined in Ntstatus.h.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
+
+
 
  
 

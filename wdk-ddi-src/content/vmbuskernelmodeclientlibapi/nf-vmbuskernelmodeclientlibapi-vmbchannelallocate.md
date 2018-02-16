@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 97169CF5-566E-4EF6-88AD-7B68E9FE46EC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelAllocate, vmbuskernelmodeclientlibapi/VmbChannelAllocate, netvista.vmbchannelallocate, VmbChannelAllocate function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbChannelAllocate function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelAllocate, netvista.vmbchannelallocate, VmbChannelAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelAllocate
 product: Windows
 targetos: Windows
@@ -94,9 +94,11 @@ A pointer to an allocated channel.
 ## -remarks
 
 
+
 The
 channel may be further initialized using the VMBus channel initialization routines before
 it is enabled by using the  <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md">VmbChannelEnable</a> function. The channel must be freed by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcleanup.md">VmbChannelCleanup</a> function.
+
 
 
 
@@ -104,7 +106,11 @@ it is enabled by using the  <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskern
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md">VmbChannelEnable</a>
 
+
+
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcleanup.md">VmbChannelCleanup</a>
+
+
 
  
 

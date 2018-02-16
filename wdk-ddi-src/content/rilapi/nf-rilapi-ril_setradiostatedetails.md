@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5936bbbe-452c-4d68-ad22-e65671351f78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ril_setradiostatedetails, RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetRadioStateDetails, RIL_SetRadioStateDetails
+ms.keywords: RIL_SetRadioStateDetails, netvista.ril_setradiostatedetails, RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetRadioStateDetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SetRadioStateDetails
 product: Windows
 targetos: Windows
@@ -75,18 +75,17 @@ HRESULT  RIL_SetRadioStateDetails(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param pItems
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

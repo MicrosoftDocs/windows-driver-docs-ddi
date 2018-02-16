@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KTMOBJECT_TYPE
-title: _KTMOBJECT_TYPE
+title: "_KTMOBJECT_TYPE"
 author: windows-driver-content
 description: The KTMOBJECT_TYPE enumeration identifies the types of objects that KTM supports.
 old-location: kernel\ktmobject_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TYPE, wdm/KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_INVALID, KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_ENLISTMENT, _KTMOBJECT_TYPE, wdm/KTMOBJECT_INVALID, *PKTMOBJECT_TYPE, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, PKTMOBJECT_TYPE, kernel.ktmobject_type, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_ENLISTMENT, wdm/PKTMOBJECT_TYPE
+ms.keywords: kernel.ktmobject_type, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION, KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_INVALID, PKTMOBJECT_TYPE, KTMOBJECT_INVALID, wdm/KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_TYPE, *PKTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], _KTMOBJECT_TYPE, KTMOBJECT_TRANSACTION, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TRANSACTION_MANAGER, wdm/KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TRANSACTION_MANAGER, wdm/PKTMOBJECT_TYPE, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KTMOBJECT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: KTMOBJECT_TYPE, *PKTMOBJECT_TYPE
+req.typenames: "*PKTMOBJECT_TYPE, KTMOBJECT_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -100,15 +100,19 @@ Invalid object type.
 ## -remarks
 
 
+
 The <b>KTMOBJECT_TYPE</b> enumeration is used with the <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a> routine.
 
 For more information about KTM objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554272">KTM Objects</a>.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>
+
+
 
  
 

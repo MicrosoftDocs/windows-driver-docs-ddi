@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_GET_DEVICE_INTERFACE_STRING
-title: _BRB_GET_DEVICE_INTERFACE_STRING
+title: "_BRB_GET_DEVICE_INTERFACE_STRING"
 author: windows-driver-content
 description: The _BRB_GET_DEVICE_INTERFACE_STRING structure describes the device interface string for the current device object.
 old-location: bltooth\_brb_get_device_interface_string.htm
@@ -15,7 +15,7 @@ ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_GET_DEVICE_INTERFACE_STRING
 product: Windows
 targetos: Windows
@@ -86,18 +86,19 @@ A pointer to the buffer to contain the device interface string.
 
 On input, this member specifies the length, in bytes, of the device interface string. On output,
      this member specifies the number of bytes required for the string if the 
-     <mshelp:link keywords="bltooth.brb_get_device_interface_string" tabindex="0"><b>
-     BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link> BRB fails and returns STATUS_MORE_ENTRIES because of insufficient
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536856">
+     BRB_GET_DEVICE_INTERFACE_STRING</a> BRB fails and returns STATUS_MORE_ENTRIES because of insufficient
      buffer length. If the BRB call succeeds, this member contains the number of bytes copied.
 
 
 ## -remarks
 
 
+
 To get the device interface string for the current device object, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_get_device_interface_string" tabindex="0"><b>
-    BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link> request.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536856">
+    BRB_GET_DEVICE_INTERFACE_STRING</a> request.
 
 The Bluetooth driver stack performs an 
     <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> call on
@@ -110,14 +111,21 @@ If the buffer pointed to by the
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
-<mshelp:link keywords="bltooth.brb_get_device_interface_string" tabindex="0"><b>
-   BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>
+
 
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536856">
+   BRB_GET_DEVICE_INTERFACE_STRING</a>
+
+
 
  
 

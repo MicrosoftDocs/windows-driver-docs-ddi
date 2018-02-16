@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnBeginQuery
 product: Windows
 targetos: Windows
@@ -76,13 +76,10 @@ VOID  APIENTRY* pfnBeginQuery(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HQUERYHEAP
 
 
-
 ### -param D3D12DDI_QUERY_TYPE
-
 
 
 ### -param UINT
@@ -92,9 +89,11 @@ VOID  APIENTRY* pfnBeginQuery(
 
 
 
-#### - hQueryHeap
 
-The handle of a query heap, which represents an array of query results.
+
+#### - QueryType
+
+The type of query.
 
 
 #### - StartElement
@@ -107,14 +106,16 @@ The value of the start element.
 The handle of a command list for which to query. 
 
 
-#### - QueryType
+#### - hQueryHeap
 
-The type of query.
+The handle of a query heap, which represents an array of query results.
 
 
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

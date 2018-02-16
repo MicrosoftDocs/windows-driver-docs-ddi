@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_EVENT_TYPE
-title: _WDF_EVENT_TYPE
+title: "_WDF_EVENT_TYPE"
 author: windows-driver-content
 description: The WDF_EVENT_TYPE enumeration specifies.
 old-location: wdf\wdf_event_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfEventReserved, wudfddi_types/WdfEventBroadcast, WDF_EVENT_TYPE enumeration, wdfdevice/WdfEventMaximum, wudfddi_types/WdfEventMaximum, WDF_EVENT_TYPE, WdfEventBroadcast, _WDF_EVENT_TYPE, wudfddi_types/WDF_EVENT_TYPE, wdfdevice/WdfEventBroadcast, WdfEventReserved, WdfEventMaximum, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wudfddi_types/WdfEventReserved
+ms.keywords: WdfEventReserved, wdfdevice/WdfEventBroadcast, WdfEventMaximum, WDF_EVENT_TYPE, WdfEventBroadcast, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventReserved, wdfdevice/WDF_EVENT_TYPE, wdf.wdf_event_type, wudfddi_types/WDF_EVENT_TYPE, WDF_EVENT_TYPE enumeration, wudfddi_types/WdfEventBroadcast, _WDF_EVENT_TYPE, wudfddi_types/WdfEventReserved, wudfddi_types/WdfEventMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
 -	wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_EVENT_TYPE
 product: Windows
 targetos: Windows
@@ -90,9 +90,13 @@ Reserved for system use.
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
+
 
  
 

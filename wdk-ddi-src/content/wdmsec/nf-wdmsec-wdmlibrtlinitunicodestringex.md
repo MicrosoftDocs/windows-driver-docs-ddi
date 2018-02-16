@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdmsec/RtlInitUnicodeString, kernel.wdmlibrtlinitunicodestringex, WdmlibRtlInitUnicodeStringEx, wdmsec/WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], RtlInitUnicodeString
+ms.keywords: kernel.wdmlibrtlinitunicodestringex, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], wdmsec/RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, wdmsec/WdmlibRtlInitUnicodeStringEx, RtlInitUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WdmlibRtlInitUnicodeStringEx
 -	RtlInitUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM
+req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
 req.product: Windows 10 or later.
 ---
 
@@ -83,10 +83,15 @@ A pointer to a null-terminated wide-character string. This string is used to ini
 ## -remarks
 
 
+
 The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
 
 <b>WdmlibRtlInitUnicodeStringEx</b> does not alter the source string pointed to by <i>SourceString</i>.
-<div class="alert"><b>Note</b>  If the source string is longer than MAX_USTRING - 1 bytes, <b>WdmlibRtlInitUnicodeStringEx</b> sets the <b>Length</b> member of the <b>UNICODE_STRING</b> structure pointed to by <i>DestinationString</i> to MAX_USTRING - 2, and sets the <b>MaximumLength</b> member of this structure to MAX_USTRING.  In this case, the <b>Length</b> and <b>MaximumLength</b> values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.</div><div> </div>Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL &gt; PASSIVE_LEVEL.
+
+<div class="alert"><b>Note</b>  If the source string is longer than MAX_USTRING - 1 bytes, <b>WdmlibRtlInitUnicodeStringEx</b> sets the <b>Length</b> member of the <b>UNICODE_STRING</b> structure pointed to by <i>DestinationString</i> to MAX_USTRING - 2, and sets the <b>MaximumLength</b> member of this structure to MAX_USTRING.  In this case, the <b>Length</b> and <b>MaximumLength</b> values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.</div>
+<div> </div>
+Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL &gt; PASSIVE_LEVEL.
+
 
 
 
@@ -94,9 +99,15 @@ The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> me
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
 
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
 
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

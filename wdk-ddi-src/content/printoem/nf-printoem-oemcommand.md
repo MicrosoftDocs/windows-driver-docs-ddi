@@ -7,8 +7,8 @@ old-location: print\oemcommand.htm
 old-project: print
 ms.assetid: 67f75696-dee4-43ec-90fd-96fd1a91ec16
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMCommand function [Print Devices], OEMCommand, printoem/OEMCommand, print_obsoletefunctions_f6d1a0f9-6560-4e4c-9826-c2714b7c1ad3.xml, print.oemcommand
+ms.date: 2/2/2018
+ms.keywords: print_obsoletefunctions_f6d1a0f9-6560-4e4c-9826-c2714b7c1ad3.xml, print.oemcommand, OEMCommand, printoem/OEMCommand, OEMCommand function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMCommand
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ DWORD APIENTRY OEMCommand(
 ### -param pdevobj
 
 
-
 ### -param dwIndex
-
 
 
 ### -param pData [in]
 
 
-
 ### -param cbSize
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:winspool._BINARY_CONTAINER
-title: _BINARY_CONTAINER
+title: "_BINARY_CONTAINER"
 author: windows-driver-content
 description: The BINARY_CONTAINER structure is a container for binary data.
 old-location: print\binary_container.htm
 old-project: print
 ms.assetid: bac960c5-7c29-4550-9b82-5adb6a0cc243
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PBINARY_CONTAINER structure pointer [Print Devices], print.binary_container, BINARY_CONTAINER structure [Print Devices], *PBINARY_CONTAINER, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, _BINARY_CONTAINER, winspool/BINARY_CONTAINER, PBINARY_CONTAINER, winspool/PBINARY_CONTAINER, BINARY_CONTAINER
+ms.date: 2/2/2018
+ms.keywords: BINARY_CONTAINER, _BINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], PBINARY_CONTAINER structure pointer [Print Devices], spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, winspool/BINARY_CONTAINER, winspool/PBINARY_CONTAINER, *PBINARY_CONTAINER, print.binary_container, PBINARY_CONTAINER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winspool.h
-apiname: 
+apiname:
 -	BINARY_CONTAINER
 product: Windows
 targetos: Windows
-req.typenames: *PBINARY_CONTAINER, BINARY_CONTAINER
+req.typenames: BINARY_CONTAINER, *PBINARY_CONTAINER
 req.product: Windows 10 or later.
 ---
 
@@ -82,7 +82,9 @@ Pointer to a buffer that contains the binary data.
 ## -remarks
 
 
+
 The BINARY_CONTAINER structure is used in a <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a> structure when the bidi data consists of binary data, as opposed to integer, float, or string data.
+
 
 
 
@@ -90,9 +92,11 @@ The BINARY_CONTAINER structure is used in a <a href="..\winspool\ns-winspool-_bi
 
 <a href="..\winspool\ns-winspool-_bidi_data.md">BIDI_DATA</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20BINARY_CONTAINER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20BINARY_CONTAINER structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

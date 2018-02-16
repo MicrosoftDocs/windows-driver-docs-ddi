@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusOutput
-title: _DXVA_COPPStatusOutput
+title: "_DXVA_COPPStatusOutput"
 author: windows-driver-content
 description: The DXVA_COPPStatusOutput structure describes the status returned from a query on a protected video session that is associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusoutput.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 71d16b59-3e5c-4a2a-9217-5e0f7a2d4478
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *LPDXVA_COPPStatusOutput, dxva/DXVA_COPPStatusOutput, DXVA_COPPStatusOutput, DXVA_COPPStatusOutput structure [Display Devices], dxvaref_4b7212ce-7beb-45c6-b5dd-92922993595f.xml, dxva/LPDXVA_COPPStatusOutput, _DXVA_COPPStatusOutput, LPDXVA_COPPStatusOutput structure pointer [Display Devices], LPDXVA_COPPStatusOutput, display.dxva_coppstatusoutput
+ms.keywords: DXVA_COPPStatusOutput, dxva/DXVA_COPPStatusOutput, display.dxva_coppstatusoutput, LPDXVA_COPPStatusOutput structure pointer [Display Devices], dxva/LPDXVA_COPPStatusOutput, dxvaref_4b7212ce-7beb-45c6-b5dd-92922993595f.xml, DXVA_COPPStatusOutput structure [Display Devices], LPDXVA_COPPStatusOutput, *LPDXVA_COPPStatusOutput, _DXVA_COPPStatusOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_COPPStatusOutput
 product: Windows
 targetos: Windows
-req.typenames: DXVA_COPPStatusOutput, *LPDXVA_COPPStatusOutput
+req.typenames: "*LPDXVA_COPPStatusOutput, DXVA_COPPStatusOutput"
 ---
 
 # _DXVA_COPPStatusOutput structure
@@ -82,6 +82,7 @@ Specifies the size, in bytes, of the status data at <b>COPPStatus</b>.
 ### -field COPPStatus
 
 Specifies an array that contains the status data. The display driver should return status data in one of the following ways, depending on the input value that was specified in the <b>guidStatusRequestID</b> member of the <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a> structure: 
+
 <table>
 <tr>
 <th>Input value</th>
@@ -135,13 +136,16 @@ Pointer to a <a href="..\dxva\ns-dxva-_dxva_coppstatussignalingcmddata.md">DXVA_
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 Status requests are passed in the <i>pInput</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a> function. The <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a> structure describes a request for status. Status information is returned through the <i>pOutput</i> parameter of <i>COPPQueryStatus</i>. 
+
 
 
 
@@ -149,17 +153,31 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
 
 <a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
 
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_coppstatusdisplaydata.md">DXVA_COPPStatusDisplayData</a>
+
+
 
 <a href="..\dxva\ns-dxva-_dxva_coppstatushdcpkeydata.md">DXVA_COPPStatusHDCPKeyData</a>
 
+
+
 <a href="..\dxva\ns-dxva-_dxva_coppstatussignalingcmddata.md">DXVA_COPPStatusSignalingCmdData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+
 
  
 

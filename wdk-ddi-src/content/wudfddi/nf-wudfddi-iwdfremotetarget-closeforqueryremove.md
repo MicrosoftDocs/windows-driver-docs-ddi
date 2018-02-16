@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e23ae80-7c39-4cee-b1ab-80085f24d41f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, CloseForQueryRemove, wdf.iwdfremotetarget_closeforqueryremove, CloseForQueryRemove method, CloseForQueryRemove method, IWDFRemoteTarget interface, wudfddi/IWDFRemoteTarget::CloseForQueryRemove, IWDFRemoteTarget interface, CloseForQueryRemove method, umdf.iwdfremotetarget_closeforqueryremove, IWDFRemoteTarget, IWDFRemoteTarget::CloseForQueryRemove
+ms.keywords: UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, umdf.iwdfremotetarget_closeforqueryremove, CloseForQueryRemove, CloseForQueryRemove method, wudfddi/IWDFRemoteTarget::CloseForQueryRemove, IWDFRemoteTarget::CloseForQueryRemove, IWDFRemoteTarget, CloseForQueryRemove method, IWDFRemoteTarget interface, IWDFRemoteTarget interface, CloseForQueryRemove method, wdf.iwdfremotetarget_closeforqueryremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteTarget.CloseForQueryRemove
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,18 @@ HRESULT CloseForQueryRemove();
 
 
 
+
 ## -returns
+
 
 
 The <b>CloseForQueryRemove</b> method always returns S_OK.
 
 
 
+
 ## -remarks
+
 
 
 If your driver provides an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556897">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a> callback function, the callback function must call <b>CloseForQueryRemove</b> if it returns <b>TRUE</b> to indicate that the device can be removed. 
@@ -88,12 +92,52 @@ After a driver calls <b>CloseForQueryRemove</b>, the driver cannot send I/O requ
 For more information about the <b>CloseForQueryRemove</b> method, see <a href="https://msdn.microsoft.com/479487b2-5ce5-4522-b195-58ee50d210b6">Controlling a General I/O Target's State in UMDF</a>.
 
 
+#### Examples
+
+The following code example shows an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556897">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a> callback function that calls <b>CloseForQueryRemove</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
+STDMETHODCALLTYPE
+CMyRemoteTarget::OnRemoteTargetQueryRemove(
+    __in IWDFRemoteTarget  *FxTarget
+    )
+{
+    //
+    // Here, do any driver-specific actions that your driver requires
+    // to stop sending I/O requests to the I/O target.
+    //
+...
+    //
+    // Close the target.
+    //
+    FxTarget-&gt;CloseForQueryRemove();
+
+    //
+    // Return TRUE if you want to allow removal of the device.
+    //
+    return TRUE;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
+
 
  
 

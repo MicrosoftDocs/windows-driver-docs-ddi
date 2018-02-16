@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], gnssdriver/PGNSS_SUPL_CERT_CONFIG, sensors.gnss_supl_cert_config, *PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG
+ms.keywords: PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], gnssdriver/PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, gnssdriver/GNSS_SUPL_CERT_CONFIG, sensors.gnss_supl_cert_config, *PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_SUPL_CERT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
+req.typenames: "*PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG"
 ---
 
 # GNSS_SUPL_CERT_CONFIG structure
@@ -143,11 +143,6 @@ The size of the certificate in bytes.
 
 
 
-#### - CertData[ANYSIZE_ARRAY]
-
-The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
-
-
 #### - SuplCertName[MAX_PATH]
 
 String containing the certificate name.
@@ -163,4 +158,9 @@ Multiple root certificates can be configured since some mobile operator require 
 #### - Unused[512]
 
 Padding buffer.
+
+
+#### - CertData[ANYSIZE_ARRAY]
+
+The binary content of the certificate.  The total size of the bytes is defined by <b>CertSize</b>. The certificate is Base64 encoded.
 

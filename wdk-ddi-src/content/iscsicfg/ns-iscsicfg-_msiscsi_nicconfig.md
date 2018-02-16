@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_NICConfig
-title: _MSiSCSI_NICConfig
+title: "_MSiSCSI_NICConfig"
 author: windows-driver-content
 description: The MSiSCSI_NICConfig structure describes the configuration of a network interface card (NIC) port.
 old-location: storage\msiscsi_nicconfig.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ee40ea1f-fe9b-4126-b5b1-83f60cf51909
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_NICConfig, structs-iSCSI_2cddeb4e-7df2-4eda-ae9f-ca79c6005279.xml, storage.msiscsi_nicconfig, MSiSCSI_NICConfig structure [Storage Devices], iscsicfg/MSiSCSI_NICConfig, iscsicfg/PMSiSCSI_NICConfig, PMSiSCSI_NICConfig structure pointer [Storage Devices], PMSiSCSI_NICConfig, MSiSCSI_NICConfig, *PMSiSCSI_NICConfig
+ms.keywords: PMSiSCSI_NICConfig structure pointer [Storage Devices], _MSiSCSI_NICConfig, iscsicfg/PMSiSCSI_NICConfig, structs-iSCSI_2cddeb4e-7df2-4eda-ae9f-ca79c6005279.xml, iscsicfg/MSiSCSI_NICConfig, MSiSCSI_NICConfig structure [Storage Devices], *PMSiSCSI_NICConfig, PMSiSCSI_NICConfig, storage.msiscsi_nicconfig, MSiSCSI_NICConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsicfg.h
-apiname: 
+apiname:
 -	MSiSCSI_NICConfig
 product: Windows
 targetos: Windows
@@ -99,6 +99,7 @@ The Ethernet MAC address of the port.
 ## -remarks
 
 
+
 The WMI tool suite automatically generates a declaration of the MSiSCSI_NICConfig structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a> in <i>Config.mof</i>.
 
 Initiators are <i>not </i>required to implement the MSiSCSI_NICConfig class. 
@@ -109,11 +110,16 @@ Initiators should register each instance of the MSiSCSI_NICConfig class by using
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
+
+
 
 <a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
+
 
  
 

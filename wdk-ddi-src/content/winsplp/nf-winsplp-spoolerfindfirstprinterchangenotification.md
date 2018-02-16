@@ -2,13 +2,13 @@
 UID: NF:winsplp.SpoolerFindFirstPrinterChangeNotification
 title: SpoolerFindFirstPrinterChangeNotification function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\spoolerfindfirstprinterchangenotification.htm
 old-project: print
 ms.assetid: 429A5DF5-46A6-4A41-A77B-4D5743C841DC
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices], winsplp/SpoolerFindFirstPrinterChangeNotification, print.spoolerfindfirstprinterchangenotification
+ms.date: 2/2/2018
+ms.keywords: SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices], print.spoolerfindfirstprinterchangenotification, winsplp/SpoolerFindFirstPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	SpoolerFindFirstPrinterChangeNotification
 product: Windows
 targetos: Windows
@@ -78,31 +78,23 @@ BOOL WINAPI SpoolerFindFirstPrinterChangeNotification(
 ### -param hPrinter [in]
 
 
-
 ### -param fdwFilterFlags
-
 
 
 ### -param fdwOptions
 
 
-
 ### -param pPrinterNotifyOptions [in]
-
 
 
 ### -param pvReserved [in, optional]
 
 
-
 ### -param pNotificationConfig [in]
-
 
 
 ### -param phNotify [out, optional]
 
 
-
 ### -param phEvent [out, optional]
-
 

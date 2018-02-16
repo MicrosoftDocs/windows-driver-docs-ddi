@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_CONTROLLER_CONFIGURATION
-title: _IDE_CONTROLLER_CONFIGURATION
+title: "_IDE_CONTROLLER_CONFIGURATION"
 author: windows-driver-content
 description: The IDE_CONTROLLER_CONFIGURATION structure is used to pass controller configuration information between the port driver and the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_controller_configuration.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 89b7f66e-3a3a-4723-a409-3b3030c1a45b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], structs-ATA_c72d9d21-e06b-43e0-8854-8b682e2e0778.xml, IDE_CONTROLLER_CONFIGURATION structure [Storage Devices], irb/IDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION, storage.ide_controller_configuration, IDE_CONTROLLER_CONFIGURATION, irb/PIDE_CONTROLLER_CONFIGURATION, PIDE_CONTROLLER_CONFIGURATION, _IDE_CONTROLLER_CONFIGURATION
+ms.keywords: IDE_CONTROLLER_CONFIGURATION, PIDE_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], PIDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION structure [Storage Devices], storage.ide_controller_configuration, _IDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION, irb/PIDE_CONTROLLER_CONFIGURATION, irb/IDE_CONTROLLER_CONFIGURATION, structs-ATA_c72d9d21-e06b-43e0-8854-8b682e2e0778.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	IDE_CONTROLLER_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: *PIDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION
+req.typenames: IDE_CONTROLLER_CONFIGURATION, *PIDE_CONTROLLER_CONFIGURATION
 ---
 
 # _IDE_CONTROLLER_CONFIGURATION structure
@@ -91,6 +91,7 @@ Specifies the number of channels supported by the HBA. Note that this indicates 
 
 The port driver sets this field to inform the ATA miniport which mode it is running at. There are two possible modes:
   
+
 <table>
 <tr>
 <th>Mode</th>
@@ -116,7 +117,8 @@ This is the limited no memory mode that an ATA miniport operates in during hiber
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field NumberOfPhysicalBreaks

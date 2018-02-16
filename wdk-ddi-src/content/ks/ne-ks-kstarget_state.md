@@ -2,13 +2,13 @@
 UID: NE:ks.KSTARGET_STATE
 title: KSTARGET_STATE
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\kstarget_state.htm
 old-project: stream
 ms.assetid: 4D18A0F0-51E9-4871-B8C1-32FAA518FAEC
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSTARGET_STATE_DISABLED, stream.kstarget_state, ks/KSTARGET_STATE, KSTARGET_STATE enumeration [Streaming Media Devices], KSTARGET_STATE_ENABLED, ks/KSTARGET_STATE_ENABLED, ks/KSTARGET_STATE_DISABLED, KSTARGET_STATE
+ms.keywords: ks/KSTARGET_STATE_ENABLED, KSTARGET_STATE_DISABLED, KSTARGET_STATE enumeration [Streaming Media Devices], KSTARGET_STATE_ENABLED, ks/KSTARGET_STATE, stream.kstarget_state, KSTARGET_STATE, ks/KSTARGET_STATE_DISABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSTARGET_STATE
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum  {
 ### -field KSTARGET_STATE_DISABLED
 
 
-
 ### -field KSTARGET_STATE_ENABLED
-
 

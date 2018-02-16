@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02f5bec1-f2d2-4b72-bd9e-b30315c334da
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging], Exception method, debugger.idebugeventcallbackswide_exception, IDebugEventCallbacksWide, IDebugEventCallbacksWide::Exception, Exception, Exception method [Windows Debugging], IDebugEventCallbacksWide interface, Exception method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::Exception
+ms.keywords: debugger.idebugeventcallbackswide_exception, IDebugEventCallbacksWide interface [Windows Debugging], Exception method, IDebugEventCallbacksWide, Exception, Exception method [Windows Debugging], IDebugEventCallbacksWide interface, Exception method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::Exception, IDebugEventCallbacksWide::Exception
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacksWide.Exception
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacksWide::Exception method
@@ -81,11 +81,14 @@ Specifies whether this exception has been previously encountered.  A nonzero val
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
 
 
 
+
 ## -remarks
+
 
 
 This method is only called by the engine if the DEBUG_EVENT_EXCEPTION flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
@@ -93,5 +96,6 @@ This method is only called by the engine if the DEBUG_EVENT_EXCEPTION flag is se
 Because the structure that <i>Exception</i> points to might be deleted after this method returns, implementations of <b>IDebugEventCallbacksWide</b> should not access this structure after returning.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

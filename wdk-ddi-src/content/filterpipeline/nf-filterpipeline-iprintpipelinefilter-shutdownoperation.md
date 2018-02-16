@@ -7,8 +7,8 @@ old-location: print\iprintpipelinefilter_shutdownoperation.htm
 old-project: print
 ms.assetid: 4df9721f-19d1-4070-92dd-45d41b7c5374
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ShutdownOperation, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, IPrintPipelineFilter, ShutdownOperation method [Print Devices], IPrintPipelineFilter interface, print.iprintpipelinefilter_shutdownoperation, filterpipeline/IPrintPipelineFilter::ShutdownOperation, IPrintPipelineFilter::ShutdownOperation, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, ShutdownOperation method [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: ShutdownOperation, print.iprintpipelinefilter_shutdownoperation, filterpipeline/IPrintPipelineFilter::ShutdownOperation, ShutdownOperation method [Print Devices], IPrintPipelineFilter::ShutdownOperation, IPrintPipelineFilter interface [Print Devices], ShutdownOperation method, IPrintPipelineFilter, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, ShutdownOperation method [Print Devices], IPrintPipelineFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Filterpipeline.h
-apiname: 
+apiname:
 -	IPrintPipelineFilter.ShutdownOperation
 product: Windows
 targetos: Windows
@@ -68,21 +68,25 @@ HRESULT STDMETHODCALLTYPE ShutdownOperation(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 <code>ShutdownOperation</code> returns an <b>HRESULT</b> value.
 
 
 
+
 ## -remarks
 
 
+
 The <code>ShutdownOperation</code> method is called by the pipeline manager if the job is canceled or an error occurs. Filters do not have to block this call until they completely finish using any resources. You should set up an internal state to indicate when filters need to cancel a job. Filters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a> when the filters are finished, which can be later.
+
 
 
 
@@ -90,11 +94,15 @@ The <code>ShutdownOperation</code> method is called by the pipeline manager if t
 
 <a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintPipelineFilter::ShutdownOperation method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintPipelineFilter::ShutdownOperation method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

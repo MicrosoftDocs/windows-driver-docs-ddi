@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 246211E7-89A9-4916-BF6E-5771B911CBA3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pofxissuecomponentperfstatechangemultiple, PO_FX_FLAG_ASYNC_ONLY, wdm/PoFxIssueComponentPerfStateChangeMultiple, PoFxIssueComponentPerfStateChangeMultiple routine [Kernel-Mode Driver Architecture], PoFxIssueComponentPerfStateChangeMultiple, PO_FX_FLAG_BLOCKING
+ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PoFxIssueComponentPerfStateChangeMultiple routine [Kernel-Mode Driver Architecture], wdm/PoFxIssueComponentPerfStateChangeMultiple, PoFxIssueComponentPerfStateChangeMultiple, kernel.pofxissuecomponentperfstatechangemultiple, PO_FX_FLAG_BLOCKING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= APC_LEVEL or <= DISPATCH_LEVEL (See Remarks section)
-topictype: 
+req.irql: "<= APC_LEVEL or <= DISPATCH_LEVEL (See Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxIssueComponentPerfStateChangeMultiple
 product: Windows
 targetos: Windows
@@ -83,6 +83,7 @@ A handle that represents the registration of the device with PoFx. The device dr
 The flags that modify the behavior of the performance state change operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
 These two flag bits are mutually exclusive. For more information, see Remarks.
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,7 +111,8 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Component [in]
@@ -136,11 +138,14 @@ A pointer to the context for the <a href="https://msdn.microsoft.com/library/win
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A driver calls <b>PoFxIssueComponentPerfStateChangeMultiple</b>, the power management framework (PoFx) will request the platform extension plug-in (PEP) to place 
@@ -160,17 +165,28 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChangeMultiple</b> routi
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
-
-<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
 
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
+
+
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+
+
+<a href="..\wdm\ne-wdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
+
+
 
  
 

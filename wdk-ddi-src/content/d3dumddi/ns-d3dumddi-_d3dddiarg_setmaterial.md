@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETMATERIAL
-title: _D3DDDIARG_SETMATERIAL
+title: "_D3DDDIARG_SETMATERIAL"
 author: windows-driver-content
 description: The D3DDDIARG_SETMATERIAL structure describes the material properties that are used for rendering.
 old-location: display\d3dddiarg_setmaterial.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 66c35c60-9f6c-44d7-b6d5-9d50a3e33c2e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_5a3ecda9-5303-46f4-b7a2-42243e3a66d1.xml, d3dumddi/D3DDDIARG_SETMATERIAL, _D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL structure [Display Devices], D3DDDIARG_SETMATERIAL, display.d3dddiarg_setmaterial
+ms.keywords: UMDisplayDriver_param_Structs_5a3ecda9-5303-46f4-b7a2-42243e3a66d1.xml, d3dumddi/D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL, _D3DDDIARG_SETMATERIAL, display.d3dddiarg_setmaterial, D3DDDIARG_SETMATERIAL structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_SETMATERIAL
 product: Windows
 targetos: Windows
@@ -99,6 +99,8 @@ typedef struct _D3DDDIARG_SETMATERIAL {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmaterial.md">SetMaterial</a>
+
+
 
  
 

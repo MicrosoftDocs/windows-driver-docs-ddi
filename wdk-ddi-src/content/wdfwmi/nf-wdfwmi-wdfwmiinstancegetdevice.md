@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ebc90e0-328b-4830-9942-027d3f19d186
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfwmiinstancegetdevice, DFWMIRef_adc116bf-d2bc-41b0-8d1d-5cc90440d778.xml, PFN_WDFWMIINSTANCEGETDEVICE, WdfWmiInstanceGetDevice method, wdfwmi/WdfWmiInstanceGetDevice, kmdf.wdfwmiinstancegetdevice, WdfWmiInstanceGetDevice
+ms.keywords: PFN_WDFWMIINSTANCEGETDEVICE, WdfWmiInstanceGetDevice, DFWMIRef_adc116bf-d2bc-41b0-8d1d-5cc90440d778.xml, kmdf.wdfwmiinstancegetdevice, wdf.wdfwmiinstancegetdevice, WdfWmiInstanceGetDevice method, wdfwmi/WdfWmiInstanceGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfWmiInstanceGetDevice
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ A handle to a WMI instance object that the driver obtained from a previous call 
 ## -returns
 
 
+
 <b>WdfWmiInstanceGetDevice</b> returns a handle to a framework device object.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -87,9 +88,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
+
 
  
 

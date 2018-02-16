@@ -2,13 +2,13 @@
 UID: NF:fwpsk.FwpsClassifyOptionSet0
 title: FwpsClassifyOptionSet0 function
 author: windows-driver-content
-description: The FwpsClassifyOptionSet0 function is called by a callout filter's classifyFn function to specify additional information that affects the characteristics of permitted filtering operations.Note  FwpsClassifyOptionSet0 is a specific version of FwpsClassifyOptionSet. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. 
+description: The FwpsClassifyOptionSet0 function is called by a callout filter's classifyFn function to specify additional information that affects the characteristics of permitted filtering operations.Note  FwpsClassifyOptionSet0 is a specific version of FwpsClassifyOptionSet. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsclassifyoptionset0.htm
 old-project: netvista
 ms.assetid: 8653fac0-8b2f-4e77-9588-2854ae168c1a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsClassifyOptionSet0, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml, netvista.fwpsclassifyoptionset0, FwpsClassifyOptionSet0
+ms.keywords: FwpsClassifyOptionSet0, fwpsk/FwpsClassifyOptionSet0, wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], netvista.fwpsclassifyoptionset0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Fwpkclnt.lib
 -	Fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsClassifyOptionSet0
 product: Windows
 targetos: Windows
@@ -100,8 +100,10 @@ A pointer to an array of
 ## -returns
 
 
+
 The 
      <b>FwpsClassifyOptionSet0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,8 +129,8 @@ The function completed successfully.
 <td width="60%">
 The 
        <i>option</i> parameter does not match any of the values in the 
-       <mshelp:link keywords="netvista.fwp_classify_option_type" tabindex="0"><b>
-       FWP_CLASSIFY_OPTION_TYPE</b></mshelp:link> enumeration.
+       <a href="https://msdn.microsoft.com/4731b03d-4c51-414b-a07d-0957b9a04db2">
+       FWP_CLASSIFY_OPTION_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -180,11 +182,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This function should be called only by a callout filter's 
@@ -194,6 +199,7 @@ The following are the allowed values of the
     <i>option</i> parameter and members of the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a> structure pointed to by the 
     <i>newValue</i> parameter.
+
 <table>
 <tr>
 <th><i>option</i> Parameter</th>
@@ -285,7 +291,8 @@ Specifies the unicast state lifetime, in seconds.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The first (highest weight) caller to set a particular option will be granted that option. For example,
     if callout A sets the multicast state option, callout B will not be able to do so, but callout B can set
@@ -293,20 +300,33 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
+## -see-also
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
-<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+
+
 
  
 

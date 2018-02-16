@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_CRYPTO_DESCRIPTOR
-title: _STORAGE_CRYPTO_DESCRIPTOR
+title: "_STORAGE_CRYPTO_DESCRIPTOR"
 author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storage_crypto_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1D948882-2286-4080-A41B-D20714FC0A66
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR structure pointer [Storage Devices], storage.storage_crypto_descriptor, PSTORAGE_CRYPTO_DESCRIPTOR, _STORAGE_CRYPTO_DESCRIPTOR, *PSTORAGE_CRYPTO_DESCRIPTOR, ntddstor/PSTORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR structure [Storage Devices], ntddstor/STORAGE_CRYPTO_DESCRIPTOR
+ms.keywords: PSTORAGE_CRYPTO_DESCRIPTOR, ntddstor/STORAGE_CRYPTO_DESCRIPTOR, storage.storage_crypto_descriptor, PSTORAGE_CRYPTO_DESCRIPTOR structure pointer [Storage Devices], *PSTORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR structure [Storage Devices], STORAGE_CRYPTO_DESCRIPTOR, _STORAGE_CRYPTO_DESCRIPTOR, ntddstor/PSTORAGE_CRYPTO_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_CRYPTO_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_CRYPTO_DESCRIPTOR, *PSTORAGE_CRYPTO_DESCRIPTOR
+req.typenames: "*PSTORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR"
 ---
 
 # _STORAGE_CRYPTO_DESCRIPTOR structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DISPLAYMODE
-title: _D3DKMT_DISPLAYMODE
+title: "_D3DKMT_DISPLAYMODE"
 author: windows-driver-content
 description: The D3DKMT_DISPLAYMODE structure describes a display mode.
 old-location: display\d3dkmt_displaymode.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04d3d4bd-3926-43bf-b64e-0ba0c2589a54
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, D3DKMT_DISPLAYMODE, d3dkmthk/D3DKMT_DISPLAYMODE, _D3DKMT_DISPLAYMODE, D3DKMT_DISPLAYMODE structure [Display Devices], display.d3dkmt_displaymode
+ms.keywords: d3dkmthk/D3DKMT_DISPLAYMODE, _D3DKMT_DISPLAYMODE, OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, D3DKMT_DISPLAYMODE, display.d3dkmt_displaymode, D3DKMT_DISPLAYMODE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_DISPLAYMODE
 product: Windows
 targetos: Windows
@@ -124,17 +124,31 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdisplaymodelist.md">D3DKMTGetDisplayModeList</a>
 
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering.md">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmdt_displaymode_flags.md">D3DKMDT_DISPLAYMODE_FLAGS</a>
+
+
 
  
 

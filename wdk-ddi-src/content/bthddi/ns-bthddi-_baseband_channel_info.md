@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BASEBAND_CHANNEL_INFO
-title: _BASEBAND_CHANNEL_INFO
+title: "_BASEBAND_CHANNEL_INFO"
 author: windows-driver-content
 description: The BASEBAND_CHANNEL_INFO structure describes output information about the baseband channel that is used by a SCO link after a BRB_GET_CHANNEL_INFO BRB completes.
 old-location: bltooth\baseband_channel_info.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: c9328791-898e-48f2-acfd-30c8a36fcd29
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BASEBAND_CHANNEL_INFO, bth_structs_849b4363-4e7e-4fee-b5c1-86b32431a6dd.xml, bltooth.baseband_channel_info, bthddi/PBASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO, _BASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO structure [Bluetooth Devices], PBASEBAND_CHANNEL_INFO structure pointer [Bluetooth Devices], bthddi/BASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO
+ms.keywords: BASEBAND_CHANNEL_INFO, bth_structs_849b4363-4e7e-4fee-b5c1-86b32431a6dd.xml, BASEBAND_CHANNEL_INFO structure [Bluetooth Devices], bltooth.baseband_channel_info, PBASEBAND_CHANNEL_INFO structure pointer [Bluetooth Devices], bthddi/PBASEBAND_CHANNEL_INFO, bthddi/BASEBAND_CHANNEL_INFO, _BASEBAND_CHANNEL_INFO, PBASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	BASEBAND_CHANNEL_INFO
 product: Windows
 targetos: Windows
-req.typenames: BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
+req.typenames: "*PBASEBAND_CHANNEL_INFO, BASEBAND_CHANNEL_INFO"
 ---
 
 # _BASEBAND_CHANNEL_INFO structure
@@ -117,16 +117,20 @@ The size, in bytes, of the eSCO payload in the transmit direction. This member w
 ## -remarks
 
 
+
 Profile drivers access the BASEBAND_CHANNEL_INFO structure through the 
     <b>BasebandInfo</b> member of the 
-    <mshelp:link keywords="bltooth._brb_sco_get_channel_info" tabindex="0"><b>
-    _BRB_SCO_GET_CHANNEL_INFO</b></mshelp:link> structure.
+    <a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">
+    _BRB_SCO_GET_CHANNEL_INFO</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">_BRB_SCO_GET_CHANNEL_INFO</a>
+
+
 
  
 

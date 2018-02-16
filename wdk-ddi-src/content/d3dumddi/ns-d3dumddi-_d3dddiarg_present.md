@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_PRESENT
-title: _D3DDDIARG_PRESENT
+title: "_D3DDDIARG_PRESENT"
 author: windows-driver-content
 description: The D3DDDIARG_PRESENT structure describes a resource to display.
 old-location: display\d3dddiarg_present.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ee872d01-4bc6-46ce-80b7-3f73dd1a89ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_PRESENT, d3dumddi/D3DDDIARG_PRESENT, display.d3dddiarg_present, _D3DDDIARG_PRESENT, D3DDDIARG_PRESENT structure [Display Devices], UMDisplayDriver_param_Structs_1406aa28-1355-4e46-886f-9121fcbd7750.xml
+ms.keywords: d3dumddi/D3DDDIARG_PRESENT, display.d3dddiarg_present, D3DDDIARG_PRESENT structure [Display Devices], D3DDDIARG_PRESENT, _D3DDDIARG_PRESENT, UMDisplayDriver_param_Structs_1406aa28-1355-4e46-886f-9121fcbd7750.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_PRESENT
 product: Windows
 targetos: Windows
@@ -107,6 +107,8 @@ typedef struct _D3DDDIARG_PRESENT {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+
+
 
  
 

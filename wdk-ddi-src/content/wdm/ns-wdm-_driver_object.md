@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DRIVER_OBJECT
-title: _DRIVER_OBJECT
+title: "_DRIVER_OBJECT"
 author: windows-driver-content
 description: Each driver object represents the image of a loaded kernel-mode driver.
 old-location: kernel\driver_object.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 512e3fd5-7ea5-423c-a628-0db6b30fd708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/DRIVER_OBJECT, _DRIVER_OBJECT, *PDRIVER_OBJECT, wdm/PDRIVER_OBJECT, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, PDRIVER_OBJECT, DRIVER_OBJECT, kernel.driver_object, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: "*PDRIVER_OBJECT, _DRIVER_OBJECT, wdm/DRIVER_OBJECT, wdm/PDRIVER_OBJECT, DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, PDRIVER_OBJECT, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], kernel.driver_object"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DRIVER_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_OBJECT, *PDRIVER_OBJECT
+req.typenames: "*PDRIVER_OBJECT, DRIVER_OBJECT"
 req.product: Windows 10 or later.
 ---
 
@@ -152,6 +152,7 @@ The entry point for the driver's <a href="https://msdn.microsoft.com/library/win
 A dispatch table consisting of an array of entry points for the driver's <i>DispatchXxx</i> routines. The array's index values are the <b>IRP_MJ_<i>XXX</i></b> values representing each <a href="https://msdn.microsoft.com/11c5b1a9-74c0-47fb-8cce-a008ece9efae">IRP major function code</a>. Each driver must set entry points in this array for the <b>IRP_MJ_<i>XXX</i></b> requests that the driver handles. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566407">Writing Dispatch Routines</a>.
 
 To help <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools, each <i>DispatchXxx</i> routine is declared using the DRIVER_DISPATCH type, as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -162,7 +163,9 @@ To help <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA
 DRIVER_DISPATCH DispatchXxx;</pre>
 </td>
 </tr>
-</table></span></div>Then, the callback routine is implemented as follows:
+</table></span></div>
+Then, the callback routine is implemented as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -181,10 +184,12 @@ NTSTATUS
   }</pre>
 </td>
 </tr>
-</table></span></div>The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_DISPATCH function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+</table></span></div>
+The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_DISPATCH function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 
 ## -remarks
+
 
 
 Each kernel-mode driver's initialization routine should be named <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> so the system will load the driver automatically. If this routine's name is something else, the driver writer must define the name of the initialization routine for the linker; otherwise, the system loader or I/O manager cannot find the driver's transfer address. The names of other standard driver routines can be chosen at the discretion of the driver writer.
@@ -201,17 +206,28 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+
+
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
+
+
+
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:bthsdpddi._BTHDDI_SDP_NODE_INTERFACE
-title: _BTHDDI_SDP_NODE_INTERFACE
+title: "_BTHDDI_SDP_NODE_INTERFACE"
 author: windows-driver-content
 description: The BTHDDI_SDP_NODE_INTERFACE structure provides functions for manipulating SDP records, including converting them to and from a tree representation that profile drivers can more easily parse.
 old-location: bltooth\bthddi_sdp_node_interface.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: c9aeaaed-f017-4b23-b867-d704c4f8afb6
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PBTHDDI_SDP_NODE_INTERFACE structure pointer [Bluetooth Devices], *PBTHDDI_SDP_NODE_INTERFACE, bltooth.bthddi_sdp_node_interface, _BTHDDI_SDP_NODE_INTERFACE, BTHDDI_SDP_NODE_INTERFACE, PBTHDDI_SDP_NODE_INTERFACE, bth_structs_54f8f76d-9f12-491d-b189-c4e2fdd9b364.xml, BTHDDI_SDP_NODE_INTERFACE structure [Bluetooth Devices], bthsdpddi/PBTHDDI_SDP_NODE_INTERFACE, bthsdpddi/BTHDDI_SDP_NODE_INTERFACE
+ms.keywords: PBTHDDI_SDP_NODE_INTERFACE, bthsdpddi/BTHDDI_SDP_NODE_INTERFACE, PBTHDDI_SDP_NODE_INTERFACE structure pointer [Bluetooth Devices], BTHDDI_SDP_NODE_INTERFACE, BTHDDI_SDP_NODE_INTERFACE structure [Bluetooth Devices], bltooth.bthddi_sdp_node_interface, bth_structs_54f8f76d-9f12-491d-b189-c4e2fdd9b364.xml, _BTHDDI_SDP_NODE_INTERFACE, *PBTHDDI_SDP_NODE_INTERFACE, bthsdpddi/PBTHDDI_SDP_NODE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthsdpddi.h
-apiname: 
+apiname:
 -	BTHDDI_SDP_NODE_INTERFACE
 product: Windows
 targetos: Windows
@@ -217,32 +217,33 @@ A pointer to the
 ### -field SdpCreateNodeAlternative
 
 A pointer to the 
-     <mshelp:link keywords="bltooth.sdpcreatenodealternative" tabindex="0"><b>
-     SdpCreateNodeAlternative</b></mshelp:link> function.
+     <a href="..\sdplib\nf-sdplib-sdpcreatenodealternative.md">
+     SdpCreateNodeAlternative</a> function.
 
 
 ### -field SdpCreateNodeSequence
 
 A pointer to the 
-     <mshelp:link keywords="bltooth.sdpcreatenodesequence" tabindex="0"><b>
-     SdpCreateNodeSequence</b></mshelp:link> function.
+     <a href="..\sdplib\nf-sdplib-sdpcreatenodesequence.md">
+     SdpCreateNodeSequence</a> function.
 
 
 ### -field SdpAddAttributeToTree
 
 A pointer to the 
-     <mshelp:link keywords="bltooth.sdpaddattributetotree" tabindex="0"><b>
-     SdpAddAttributeToTree</b></mshelp:link> function.
+     <a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">
+     SdpAddAttributeToTree</a> function.
 
 
 ### -field SdpAppendNodeToContainerNode
 
 A pointer to the 
-     <mshelp:link keywords="bltooth.sdpappendnodetocontainernode" tabindex="0"><b>
-     SdpAppendNodeToContainerNode</b></mshelp:link> function.
+     <a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">
+     SdpAppendNodeToContainerNode</a> function.
 
 
 ## -remarks
+
 
 
 Profile drivers should specify the 
@@ -254,55 +255,104 @@ All the members of this structure, other than the
 
 
 
+
 ## -see-also
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid16.md">SdpCreateNodeUUID16</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid32.md">SdpCreateNodeUUID32</a>
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodestring.md">SdpCreateNodeString</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint32.md">SdpCreateNodeUInt32</a>
-
-<b>SdpCreateNodeInt8</b>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid128.md">SdpCreateNodeUUID128</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint8.md">SdpCreateNodeUInt8</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint64.md">SdpCreateNodeUInt64</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeurl.md">SdpCreateNodeUrl</a>
 
 <a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
 
-<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint16.md">SdpCreateNodeUInt16</a>
-
-<a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">SdpAppendNodeToContainerNode</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint128.md">SdpCreateNodeInt128</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodealternative.md">SdpCreateNodeAlternative</a>
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeboolean.md">SdpCreateNodeBoolean</a>
 
 <a href="..\sdplib\nf-sdplib-sdpcreatenodenil.md">SdpCreateNodeNil</a>
 
+
+
+<b>SdpCreateNodeInt8</b>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpappendnodetocontainernode.md">SdpAppendNodeToContainerNode</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeboolean.md">SdpCreateNodeBoolean</a>
+
+
+
 <a href="..\sdplib\nf-sdplib-sdpcreatenodesequence.md">SdpCreateNodeSequence</a>
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint16.md">SdpCreateNodeInt16</a>
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint64.md">SdpCreateNodeInt64</a>
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeint32.md">SdpCreateNodeInt32</a>
+<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint16.md">SdpCreateNodeUInt16</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid128.md">SdpCreateNodeUUID128</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint32.md">SdpCreateNodeUInt32</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodealternative.md">SdpCreateNodeAlternative</a>
+
+
 
 <a href="..\sdplib\nf-sdplib-sdpcreatenodeuint128.md">SdpCreateNodeUInt128</a>
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeurl.md">SdpCreateNodeUrl</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeint32.md">SdpCreateNodeInt32</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeint128.md">SdpCreateNodeInt128</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid32.md">SdpCreateNodeUUID32</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint8.md">SdpCreateNodeUInt8</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint64.md">SdpCreateNodeUInt64</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeint16.md">SdpCreateNodeInt16</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid16.md">SdpCreateNodeUUID16</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodestring.md">SdpCreateNodeString</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeint64.md">SdpCreateNodeInt64</a>
+
+
 
  
 

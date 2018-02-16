@@ -7,8 +7,8 @@ old-location: ifsk\rtlfreesid.htm
 old-project: ifsk
 ms.assetid: c3afb073-feb4-47ad-96a1-c9b580626026
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml, RtlFreeSid, ntifs/RtlFreeSid, ifsk.rtlfreesid, RtlFreeSid function [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: RtlFreeSid function [Installable File System Drivers], rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml, ifsk.rtlfreesid, RtlFreeSid, ntifs/RtlFreeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	RtlFreeSid
 product: Windows
 targetos: Windows

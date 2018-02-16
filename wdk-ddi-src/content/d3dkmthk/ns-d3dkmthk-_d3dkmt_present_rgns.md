@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT_RGNS
-title: _D3DKMT_PRESENT_RGNS
+title: "_D3DKMT_PRESENT_RGNS"
 author: windows-driver-content
 description: Specifies dirty and move regions in a present operation.
 old-location: display\d3dkmt_present_rgns.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 90ae3382-0a2d-46cf-89e6-2148f0cbfc83
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_present_rgns, d3dkmthk/D3DKMT_PRESENT_RGNS, _D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS structure [Display Devices]
+ms.keywords: D3DKMT_PRESENT_RGNS structure [Display Devices], display.d3dkmt_present_rgns, d3dkmthk/D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS, _D3DKMT_PRESENT_RGNS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_PRESENT_RGNS
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ A pointer to an array of move rectangles (<a href="https://msdn.microsoft.com/li
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
 
  
 

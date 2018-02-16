@@ -7,7 +7,7 @@ old-location: print\ixpsdocumentprovider.htm
 old-project: print
 ms.assetid: e1fac90f-5c21-4857-a52f-04c5366d7b18
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.ixpsdocumentprovider, IXpsDocumentProvider interface [Print Devices], IXpsDocumentProvider interface [Print Devices], described, IXpsDocumentProvider, filterpipeline/IXpsDocumentProvider, filterpipeline_5c7b0fb9-f191-47c7-b0fc-96371c21f993.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentProvider
 product: Windows
 targetos: Windows

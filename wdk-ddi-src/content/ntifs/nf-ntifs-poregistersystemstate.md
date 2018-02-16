@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, kernel.poregistersystemstate, wdm/PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], PoRegisterSystemState
+ms.keywords: portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, kernel.poregistersystemstate, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], wdm/PoRegisterSystemState, PoRegisterSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoRegisterSystemState
 product: Windows
 targetos: Windows
@@ -80,34 +80,41 @@ Indicates the type of activity, as specified by a bitwise OR of one or more of t
 
 
 
-##### - Flags.ES_CONTINUOUS
 
-The settings are continuous and should remain in effect until explicitly changed.
-
-
-##### - Flags.ES_USER_PRESENT
-
-A user is present.
-
-
-##### - Flags.ES_SYSTEM_REQUIRED
+#### ES_SYSTEM_REQUIRED
 
 The system is not idle, regardless of apparent load.
 
 
-##### - Flags.ES_DISPLAY_REQUIRED
+
+#### ES_DISPLAY_REQUIRED
 
 Use of the display is required.
 
 
+
+#### ES_USER_PRESENT
+
+A user is present.
+
+
+
+#### ES_CONTINUOUS
+
+The settings are continuous and should remain in effect until explicitly changed.
+
+
 ## -returns
+
 
 
 <b>PoRegisterSystemState</b> returns a handle to be used later to change or unregister the system busy state. It returns <b>NULL</b> if the handle could not be allocated.
 
 
 
+
 ## -remarks
+
 
 
 <b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>.
@@ -122,11 +129,16 @@ To set the system power state, call <a href="..\wdm\nf-wdm-posetsystemstate.md">
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
 
+
+
 <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
+
+
 
  
 

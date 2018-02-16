@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 172598B1-C486-489F-98F0-382EB8139A08
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoConnectInterruptEx, iointex/IoConnectInterruptEx, kernel.wdmlibioconnectinterruptex, IoConnectInterruptEx, iointex/WdmlibIoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.wdmlibioconnectinterruptex, WdmlibIoConnectInterruptEx, iointex/IoConnectInterruptEx, IoConnectInterruptEx, iointex/WdmlibIoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WdmlibIoConnectInterruptEx
 -	IoConnectInterruptEx
 product: Windows
@@ -76,7 +76,9 @@ Pointer to an <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CON
 ## -returns
 
 
+
 The function returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error value on failure. Possible error values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,11 +139,14 @@ One of the arguments was not found. For example, the specified device has no int
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>WdmlibIoConnectInterruptEx</b>
@@ -159,15 +164,24 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
+<a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
 
+
+
+<a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
 
-<a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
+
 
  
 

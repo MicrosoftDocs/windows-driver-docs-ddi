@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_RESULT_EX
-title: _NDK_RESULT_EX
+title: "_NDK_RESULT_EX"
 author: windows-driver-content
 description: The NDK_RESULT_EX structure returns the results for an NDK request operation. It is identical to the NDK_RESULT structure, except that it has additional Type and TypeSpecificCompletionOutput members.
 old-location: netvista\ndk_result_ex.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C79BF9FC-4836-48AD-8E9F-41278BB01E11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], NDK_RESULT_EX, netvista.ndk_result_ex, ndkpi/NDK_RESULT_EX, PNDK_RESULT_EX
+ms.keywords: NDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, ndkpi/NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], netvista.ndk_result_ex, PNDK_RESULT_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_RESULT_EX
 product: Windows
 targetos: Windows
@@ -104,13 +104,21 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 ## -see-also
 
+<a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
-<a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a>
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
 
  
 

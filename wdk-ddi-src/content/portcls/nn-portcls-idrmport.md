@@ -7,7 +7,7 @@ old-location: audio\idrmport.htm
 old-project: audio
 ms.assetid: 3a4b9bf7-74cc-409f-9b63-db61d7c977cd
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.idrmport, IDrmPort interface [Audio Devices], IDrmPort interface [Audio Devices], described, IDrmPort, portcls/IDrmPort, audmp-routines_c68e5cec-890e-48c8-8d1c-443b521e5477.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IDrmPort
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IDrmPort interface

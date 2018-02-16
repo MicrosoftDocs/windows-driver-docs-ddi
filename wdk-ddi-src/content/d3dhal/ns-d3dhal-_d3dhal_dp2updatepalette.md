@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2UPDATEPALETTE
-title: _D3DHAL_DP2UPDATEPALETTE
+title: "_D3DHAL_DP2UPDATEPALETTE"
 author: windows-driver-content
 description: The D3DHAL_DP2UPDATEPALETTE structure alters the palette that is used for palletized textures.
 old-location: display\d3dhal_dp2updatepalette.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1ab2e4da-1107-4a5b-99e4-9c9ea864f95e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *LPD3DHAL_DP2UPDATEPALETTE, D3DHAL_DP2UPDATEPALETTE, LPD3DHAL_DP2UPDATEPALETTE structure pointer [Display Devices], d3dstrct_93a9e991-e818-4dd0-a101-779baa0a873d.xml, display.d3dhal_dp2updatepalette, D3DHAL_DP2UPDATEPALETTE structure [Display Devices], d3dhal/D3DHAL_DP2UPDATEPALETTE, _D3DHAL_DP2UPDATEPALETTE, LPD3DHAL_DP2UPDATEPALETTE, d3dhal/LPD3DHAL_DP2UPDATEPALETTE
+ms.keywords: D3DHAL_DP2UPDATEPALETTE, d3dhal/LPD3DHAL_DP2UPDATEPALETTE, display.d3dhal_dp2updatepalette, d3dhal/D3DHAL_DP2UPDATEPALETTE, D3DHAL_DP2UPDATEPALETTE structure [Display Devices], *LPD3DHAL_DP2UPDATEPALETTE, LPD3DHAL_DP2UPDATEPALETTE structure pointer [Display Devices], LPD3DHAL_DP2UPDATEPALETTE, d3dstrct_93a9e991-e818-4dd0-a101-779baa0a873d.xml, _D3DHAL_DP2UPDATEPALETTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2UPDATEPALETTE
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ Specifies the number of PALETTEENTRYs being updated.
 ## -remarks
 
 
+
 The D3DHAL_DP2UPDATEPALETTE structure is used when responding to the D3DDP2OP_UPDATEPALETTE opcode in <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>. 
 
 The palette handle attached to a surface is updated with <b>wNumEntries</b> PALETTEENTRYs starting at a specific <b>wStartIndex</b> member of the palette. A PALETTEENTRY (defined in <i>wingdi.h</i> and <i>wtypes.h</i>) is actually a DWORD with an ARGB color for each byte.
@@ -95,13 +96,20 @@ After the D3DHAL_DP2UPDATEPALETTE structure in the command stream, the actual pa
 
 
 
-## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+## -see-also
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
+
+
 D3DDP2OP_UPDATEPALETTE
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
 
  
 

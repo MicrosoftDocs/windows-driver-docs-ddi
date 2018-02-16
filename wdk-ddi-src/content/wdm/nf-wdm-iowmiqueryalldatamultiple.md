@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 660ed1ad-3aad-44a9-9523-e167f84fe9d5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoWMIQueryAllDataMultiple, kernel.iowmiqueryalldatamultiple, k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], wdm/IoWMIQueryAllDataMultiple
+ms.keywords: k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], kernel.iowmiqueryalldatamultiple, wdm/IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWMIQueryAllDataMultiple
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ Pointer to the buffer where the routine returns the WMI data. The routine return
 ## -returns
 
 
+
 The routine returns an NTSTATUS code. Possible return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,11 +124,14 @@ The buffer passed by the caller in the <i>OutBuffer</i> parameter is too small. 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoWMIQueryAllDataMultiple</b> determines which drivers support the specified WMI classes, and issues an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request to every such driver. 
@@ -137,13 +142,20 @@ To query a single WMI class, use <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">Io
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+
+
+
 <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
+
+
 
  
 

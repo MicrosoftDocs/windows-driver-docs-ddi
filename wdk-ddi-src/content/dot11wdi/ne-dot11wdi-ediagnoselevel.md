@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C19C250D-3C8D-4855-A8B3-82E139CE09BB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DiagnoseLevelHardwareRegisters, eDiagnoseLevel, dot11wdi/DiagnoseLevelFirmwareImageDump, DiagnoseLevelDriverStateDump, dot11wdi/eDiagnoseLevel, DiagnoseLevelNone, dot11wdi/DiagnoseLevelNone, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelHardwareRegisters, DiagnoseLevelFirmwareImageDump, netvista.wdiediagnoselevel
+ms.keywords: dot11wdi/DiagnoseLevelFirmwareImageDump, DiagnoseLevelFirmwareImageDump, DiagnoseLevelDriverStateDump, eDiagnoseLevel, dot11wdi/eDiagnoseLevel, DiagnoseLevelHardwareRegisters, DiagnoseLevelNone, netvista.wdiediagnoselevel, dot11wdi/DiagnoseLevelDriverStateDump, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], dot11wdi/DiagnoseLevelNone, dot11wdi/DiagnoseLevelHardwareRegisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	eDiagnoseLevel
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ Dump the driver state, full firmware image, and hardware registers. The driver s
 ## -see-also
 
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_adapter_hang_diagnose.md">MiniportWdiAdapterHangDiagnose</a>
+
+
 
  
 

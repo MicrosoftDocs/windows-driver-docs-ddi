@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D2F7C90E-BAF4-419D-94CF-5FC39E7B6A58
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_NI_RESPONSE structure [Sensor Devices], GNSS_NI_RESPONSE, sensors.gnss_ni_response, gnssdriver/PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnssdriver/GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE
+ms.keywords: GNSS_NI_RESPONSE structure [Sensor Devices], GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnssdriver/PGNSS_NI_RESPONSE, gnssdriver/GNSS_NI_RESPONSE, PGNSS_NI_RESPONSE, sensors.gnss_ni_response
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_NI_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE
+req.typenames: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE"
 ---
 
 # GNSS_NI_RESPONSE structure

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6ee88b2d-4086-4e6d-b80b-eff6868ce784
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDispatchIrp, stream.ksdispatchirp, ksfunc_ed03b195-fcb3-41ca-9794-c9b9f04ce8c9.xml, ks/KsDispatchIrp, KsDispatchIrp routine [Streaming Media Devices]
+ms.keywords: ks/KsDispatchIrp, stream.ksdispatchirp, KsDispatchIrp, KsDispatchIrp routine [Streaming Media Devices], ksfunc_ed03b195-fcb3-41ca-9794-c9b9f04ce8c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDispatchIrp
 product: Windows
 targetos: Windows
@@ -82,20 +82,26 @@ Contains the IRP for which to call a dispatch routine.
 ## -returns
 
 
+
 Returns the status code returned from the dispatch routine.
+
 
 
 
 ## -remarks
 
 
+
 A <a href="..\ks\ns-ks-ksdispatch_table.md">KSDISPATCH_TABLE</a> can be contained in the stack location's file object's <b>FsContext</b> member. <b>KsDispatchIrp</b> calls the dispatch routine listed in this dispatch table for that major code.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-kssetmajorfunctionhandler.md">KsSetMajorFunctionHandler</a>
+
+
 
  
 

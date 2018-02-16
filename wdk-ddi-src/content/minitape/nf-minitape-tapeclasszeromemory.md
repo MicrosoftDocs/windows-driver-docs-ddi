@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a1f15890-ded8-4aba-8b67-6f1fb1490178
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml, TapeClassZeroMemory, minitape/TapeClassZeroMemory, storage.tapeclasszeromemory, TapeClassZeroMemory routine [Storage Devices]
+ms.keywords: storage.tapeclasszeromemory, tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml, TapeClassZeroMemory, TapeClassZeroMemory routine [Storage Devices], minitape/TapeClassZeroMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Tape.lib
 -	Tape.dll
-apiname: 
+apiname:
 -	TapeClassZeroMemory
 product: Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
 ---
 
 # TapeClassZeroMemory function
@@ -82,20 +82,26 @@ Specifies the size of the buffer, in bytes.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A tape miniclass driver calls <b>TapeClassZeroMemory</b> to zero a buffer in a portable way. A miniclass driver must use <b>TapeClassZeroMemory</b> to clear the TAPE_INIT_DATA_EX structure and CDBs before it uses them.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+
+
 
  
 

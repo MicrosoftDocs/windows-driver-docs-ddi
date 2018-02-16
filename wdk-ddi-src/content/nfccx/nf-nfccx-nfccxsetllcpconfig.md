@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8208F61E-DFD9-4AA8-B225-BEB35F80F621
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers._nfccxsetllcpconfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetLlcpConfig, NfcCxSetLlcpConfig
+ms.keywords: nfccx/NfcCxSetLlcpConfig, nfpdrivers._nfccxsetllcpconfig, NfcCxSetLlcpConfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NfcCx.dll
-apiname: 
+apiname:
 -	NfcCxSetLlcpConfig
 product: Windows
 targetos: Windows
-req.typenames: *PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE
+req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
 
 # NfcCxSetLlcpConfig function
@@ -81,7 +81,9 @@ A pointer to an <a href="..\nfccx\ns-nfccx-_nfc_cx_llcp_config.md">NFC_CX_LLCP_C
 ## -returns
 
 
+
 If the operation succeeds, the function returns STATUS_SUCCESS.
+
 
 
 
@@ -89,7 +91,11 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
 
  
 

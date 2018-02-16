@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScannerErrorOccurredEventData
-title: _PosBarcodeScannerErrorOccurredEventData
+title: "_PosBarcodeScannerErrorOccurredEventData"
 author: windows-driver-content
 description: This structure contains the error data that is passed to the BarcodeScannerErrorOccurred event.
 old-location: pos\posbarcodescannererroroccurredeventdata.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: c9e18ed0-bc34-49ed-a31e-20c82d43860f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosBarcodeScannerErrorOccurredEventData structure, _PosBarcodeScannerErrorOccurredEventData, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, pos.posbarcodescannererroroccurredeventdata, PosBarcodeScannerErrorOccurredEventData
+ms.keywords: pos.posbarcodescannererroroccurredeventdata, _PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, PosBarcodeScannerErrorOccurredEventData, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosBarcodeScannerErrorOccurredEventData
 product: Windows
 targetos: Windows
@@ -117,7 +117,9 @@ If a scanning error occurs, and some scan data was obtained, the partial scan da
 ## -remarks
 
 
+
 The error data should fill the buffer as shown in the following table (in order).
+
 <table>
 <tr>
 <th>Data</th>
@@ -163,6 +165,8 @@ Label data
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

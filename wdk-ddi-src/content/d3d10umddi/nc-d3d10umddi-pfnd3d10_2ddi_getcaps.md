@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	GetCaps
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10_2DDI_GETCAPS callback
@@ -74,7 +74,6 @@ HRESULT APIENTRY GetCaps(
 ### -param D3D10DDI_HADAPTER
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ HRESULT APIENTRY GetCaps(
 
 
 
-#### - pData [in]
-
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
 
 
 #### - hAdapter [in]
@@ -92,10 +88,17 @@ HRESULT APIENTRY GetCaps(
  A handle that identifies the graphics adapter. 
 
 
+#### - pData [in]
+
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
+
+
 ## -returns
 
 
+
 <i>GetCaps(D3D10_2)</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,14 +126,18 @@ The capabilities are successfully retrieved.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pData</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of D3D10_2DDIARG_GETCAPS and sometimes on the <b>pInfo</b> member). 
+
 
 
 
@@ -138,7 +145,11 @@ The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pDat
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddi_adapterfuncs.md">D3D10_2DDI_ADAPTERFUNCS</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a>
+
+
 
  
 

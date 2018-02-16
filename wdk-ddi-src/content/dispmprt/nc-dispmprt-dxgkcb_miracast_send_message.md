@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Dispmprt.h
-apiname: 
+apiname:
 -	DxgkCbMiracastSendMessage
 product: Windows
 targetos: Windows
@@ -86,16 +86,21 @@ A driver-supplied handle to the Miracast display device. This handle was origina
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
 
-### -param *pInputBuffer
+### -param *pInputBuffer [in]
 
+A pointer to the input buffer. <i>InputBufferSize</i> specifies the size of the buffer.
+
+See Remarks for more info about the input buffer.
 
 
 ### -param OutputBufferSize
 
 
+### -param *pOutputBuffer [out]
 
-### -param *pOutputBuffer
+A pointer to the output buffer. <i>OutBufferSize</i> specifies the size of the buffer.
 
+See Remarks for more info about the output buffer.
 
 
 ### -param pCallback [in, optional]
@@ -112,26 +117,13 @@ See Return value and Remarks sections for more about calls to <a href="..\dispmp
 An optional driver-supplied pointer to the driver-supplied callback context. The operating system passes this context to the driver-supplied callback routine after the operation has completed.
 
 
-#### - pOutputBuffer [out]
-
-A pointer to the output buffer. <i>OutBufferSize</i> specifies the size of the buffer.
-
-See Remarks for more info about the output buffer.
-
-
 #### - OutBufferSize [in]
 
 The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
 
-#### - pInputBuffer [in]
-
-A pointer to the input buffer. <i>InputBufferSize</i> specifies the size of the buffer.
-
-See Remarks for more info about the input buffer.
-
-
 ## -returns
+
 
 
 Returns <b>STATUS_PENDING</b> if it successfully delivers the message. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
@@ -140,13 +132,18 @@ If the display miniport driver needs to know the status of message handling in u
 
 
 
+
 ## -remarks
+
 
 
 If the display miniport driver supplies the <i>pInputBuffer</i> and <i>pOutputBuffer</i> buffers, it is the driver’s responsibility to hold these two buffers until the <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a> function is called. Otherwise, a random memory corruption issue can be created.
 
 If the driver supplies the <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a> in the <i>pCallback</i> parameter, it's possible that <b>DxgkCbMiracastSendMessageCallback</b> will return before <b>DxgkCbMiracastSendMessage</b> returns.
-<h3><a id="Example_calling_sequence"></a><a id="example_calling_sequence"></a><a id="EXAMPLE_CALLING_SEQUENCE"></a>Example calling sequence</h3>Here's example code that shows how to use this function:
+
+<h3><a id="Example_calling_sequence"></a><a id="example_calling_sequence"></a><a id="EXAMPLE_CALLING_SEQUENCE"></a>Example calling sequence</h3>
+Here's example code that shows how to use this function:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -205,13 +202,20 @@ DriverCallbackFunction(
 </table></span></div>
 
 
-## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a>
+## -see-also
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_display_callbacks.md">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message_callback.md">DxgkCbMiracastSendMessageCallback</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
+
+
 
  
 

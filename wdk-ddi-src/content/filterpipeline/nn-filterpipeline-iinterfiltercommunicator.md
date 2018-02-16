@@ -7,7 +7,7 @@ old-location: print\iinterfiltercommunicator.htm
 old-project: print
 ms.assetid: 777da1db-5522-48fc-bf35-8e6bf9203d6a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.iinterfiltercommunicator, IInterFilterCommunicator interface [Print Devices], IInterFilterCommunicator interface [Print Devices], described, IInterFilterCommunicator, filterpipeline/IInterFilterCommunicator, filterpipeline_80929d81-f333-4d23-9e46-72682784f0a2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IInterFilterCommunicator
 product: Windows
 targetos: Windows

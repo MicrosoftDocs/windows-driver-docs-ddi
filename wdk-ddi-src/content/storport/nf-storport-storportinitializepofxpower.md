@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 154EAF9B-4B30-4124-B31D-6C7D09B52674
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportinitializepofxpower, StorPortInitializePoFxPower, StorPortInitializePoFxPower routine [Storage Devices], storport/StorPortInitializePoFxPower
+ms.keywords: StorPortInitializePoFxPower routine [Storage Devices], storage.storportinitializepofxpower, StorPortInitializePoFxPower, storport/StorPortInitializePoFxPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortInitializePoFxPower
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ A pointer to a <b>BOOLEAN</b> value which the Storport driver will set to indica
 ## -returns
 
 
+
 The <b>StorPortInitializePoFxPower</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -160,11 +162,14 @@ The storage device is already registered with PoFx.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Adapter devices are always registered with a <b>NULL</b> value for <i>address</i>. Unit devices are registered by specifying a valid unit address for <i>address</i>.
@@ -173,9 +178,12 @@ If the <b>STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD</b> flag is set in the <b>Flags</
 
 
 
+
 ## -see-also
 
 <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
+
+
 
  
 

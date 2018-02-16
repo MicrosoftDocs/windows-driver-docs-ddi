@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2C51BB44-3204-4EE8-9C86-605698BD58C0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_SP_ROW_MAJOR, D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SP_DEVICE_DEPENDENT_0, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN, d3d12umddi/D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SWIZZLE_PATTERN enumeration [Display Devices], d3d12umddi/D3D12DDI_SP_64KB_STANDARD_SWIZZLE, display.d3d12ddi_swizzle_pattern, D3D12DDI_SP_ROW_MAJOR, D3D12DDI_SWIZZLE_PATTERN
+ms.keywords: d3d12umddi/D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SWIZZLE_PATTERN, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN, D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SP_ROW_MAJOR, d3d12umddi/D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SWIZZLE_PATTERN enumeration [Display Devices], display.d3d12ddi_swizzle_pattern, D3D12DDI_SP_64KB_STANDARD_SWIZZLE, d3d12umddi/D3D12DDI_SP_ROW_MAJOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_SWIZZLE_PATTERN
 product: Windows
 targetos: Windows

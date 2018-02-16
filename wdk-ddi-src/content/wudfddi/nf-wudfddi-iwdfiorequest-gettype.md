@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3be2ef6c-391e-4d1c-a1a6-e3228f5cc67d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetType method, IWDFIoRequest interface, GetType, UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml, IWDFIoRequest, wudfddi/IWDFIoRequest::GetType, IWDFIoRequest interface, GetType method, wdf.iwdfiorequest_gettype, umdf.iwdfiorequest_gettype, GetType method, IWDFIoRequest::GetType
+ms.keywords: wdf.iwdfiorequest_gettype, umdf.iwdfiorequest_gettype, IWDFIoRequest::GetType, IWDFIoRequest, wudfddi/IWDFIoRequest::GetType, UMDFRequestObjectRef_8f8bc7b0-b527-4325-a2dc-a9ef5e73cc28.xml, IWDFIoRequest interface, GetType method, GetType method, GetType, GetType method, IWDFIoRequest interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.GetType
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ WDF_REQUEST_TYPE  GetType();
 
 
 
+
 ## -returns
 
 
+
 <b>GetType</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request is sent to the driver.
+
 
 
 
@@ -80,7 +83,11 @@ WDF_REQUEST_TYPE  GetType();
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

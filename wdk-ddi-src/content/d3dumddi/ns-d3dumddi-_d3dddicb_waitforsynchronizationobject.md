@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
-title: _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
+title: "_D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT"
 author: windows-driver-content
 description: The D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure describes the parameters that are required to set up the wait in a call to the pfnWaitForSynchronizationObjectCb function.
 old-location: display\d3dddicb_waitforsynchronizationobject.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8f235fc4-924b-4cc4-858d-5009e69fae47
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3D_param_Structs_170af521-644c-4790-94dc-6836d880d620.xml, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, display.d3dddicb_waitforsynchronizationobject
+ms.keywords: "_D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_170af521-644c-4790-94dc-6836d880d620.xml, display.d3dddicb_waitforsynchronizationobject, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ typedef struct _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a>
+
+
 
  
 

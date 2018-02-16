@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: a43baab5-26d9-43f7-bc13-3b0864769e68
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, HidP_GetCaps, hidpi/HidP_GetCaps, HidP_GetCaps routine [Human Input Devices], hid.hidp_getcaps
+ms.keywords: HidP_GetCaps, HidP_GetCaps routine [Human Input Devices], hid.hidp_getcaps, hidpi/HidP_GetCaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+apiname:
 -	HidP_GetCaps
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ Pointer to a caller-allocated buffer that the routine uses to return a collectio
 ## -returns
 
 
+
 <b>HidP_GetCaps</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,11 +112,14 @@ The specified preparsed data is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For more information about a collection's capability, see <a href="https://msdn.microsoft.com/0568993b-ff50-48ac-a875-95ab643d6c28">Obtaining Collection Information</a>.
@@ -123,17 +128,28 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 
 
+
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_descriptor.md">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
+<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+
+
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getpreparseddata.md">HidD_GetPreparsedData</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_descriptor.md">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
+
+
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
 
  
 

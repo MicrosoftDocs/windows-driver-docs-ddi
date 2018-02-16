@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2d3faf3-cd3b-4147-8ceb-5b3f0c257939
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_PACKET_LIST_FWP_INFORMATION0, FWPS_PACKET_LIST_FWP_INFORMATION0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0, wfp_ref_3_struct_3_fwps_P-Z_ae770ad6-5c74-4954-98ca-ffb23f8dcc7c.xml, FWPS_PACKET_LIST_FWP_INFORMATION0_, netvista.fwps_packet_list_fwp_information0
+ms.keywords: FWPS_PACKET_LIST_FWP_INFORMATION0_, wfp_ref_3_struct_3_fwps_P-Z_ae770ad6-5c74-4954-98ca-ffb23f8dcc7c.xml, FWPS_PACKET_LIST_FWP_INFORMATION0, netvista.fwps_packet_list_fwp_information0, FWPS_PACKET_LIST_FWP_INFORMATION0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_PACKET_LIST_FWP_INFORMATION0
 product: Windows
 targetos: Windows
@@ -76,15 +76,19 @@ A value that indicates whether the packet data was reinjected by a callout drive
 ## -remarks
 
 
+
 A FWPS_PACKET_LIST_FWP_INFORMATION0 structure is included as a member of the 
-    <mshelp:link keywords="netvista.fwps_packet_list_information0" tabindex="0"><b>
-    FWPS_PACKET_LIST_INFORMATION0</b></mshelp:link> structure.
+    <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">
+    FWPS_PACKET_LIST_INFORMATION0</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
+
+
 
  
 

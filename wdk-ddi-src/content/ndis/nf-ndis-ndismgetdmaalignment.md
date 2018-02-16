@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b683518c-b4f4-4ae4-945d-8a2d064a5390
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], NdisMGetDmaAlignment, dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, netvista.ndismgetdmaalignment, ndis/NdisMGetDmaAlignment
+ms.keywords: dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], NdisMGetDmaAlignment, ndis/NdisMGetDmaAlignment, netvista.ndismgetdmaalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: = PASSIVE_LEVEL
-topictype: 
+req.irql: "= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMGetDmaAlignment
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMGetDmaAlignment function
@@ -73,11 +73,12 @@ ULONG NdisMGetDmaAlignment(
 
 An NDIS handle that identifies the miniport adapter for the NIC. This handle was originally passed
      to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ## -returns
+
 
 
 Returns a value that specifies the alignment requirements of the DMA system. The miniport driver
@@ -86,23 +87,32 @@ Returns a value that specifies the alignment requirements of the DMA system. The
 
 
 
+
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>  A miniport driver must have already called <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">NdisMRegisterScatterGatherDma</a> or <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> to initialize a
-  scatter/gather DMA channel before calling <b>NdisMGetDmaAlignment</b>.</div><div> </div>A miniport driver can call the 
+  scatter/gather DMA channel before calling <b>NdisMGetDmaAlignment</b>.</div>
+<div> </div>
+A miniport driver can call the 
     <b>NdisMGetDmaAlignment</b> function to determine alignment requirements for DMA buffers that it
     allocates. A miniport driver might require increasing the returned value because of additional hardware
     device restrictions.
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+   NdisMRegisterScatterGatherDma</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
  
 

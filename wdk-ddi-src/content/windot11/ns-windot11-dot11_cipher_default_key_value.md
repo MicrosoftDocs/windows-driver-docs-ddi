@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7362b20a-6ec4-4b22-8981-3a4b647a3cfa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_DEFAULT_KEY_VALUE, *PDOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE, netvista.dot11_cipher_default_key_value
+ms.keywords: PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_DEFAULT_KEY_VALUE, Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, netvista.dot11_cipher_default_key_value, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], *PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_CIPHER_DEFAULT_KEY_VALUE
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE
+req.typenames: "*PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE"
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,25 @@ The miniport driver must set the members of
      <i>Header</i> to the following values:
 
 
+
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+
+#### Revision
+
+This member must be set to DOT11_CIPHER_DEFAULT_KEY_VALUE_REVISION_1.
+
+
+
+#### Size
+
+This member must be set to 
+       <code>sizeof(DOT11_CIPHER_DEFAULT_KEY_VALUE)</code>.
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -142,6 +161,7 @@ If the
      <b>dot11DesiredBSSType</b> management information base (MIB) object is set to 
      <b>dot11_BSS_type_independent</b>, the 802.11 station must add or remove the key in the following
      way:
+
 <ul>
 <li>
 If the value of this member is 0x000000000000, the 802.11 station adds or removes the key from the
@@ -159,10 +179,11 @@ If a per-station default key table does not exist for the value of
        <b>MacAddr</b>, the 802.11 station must use any unused per-station default key table.
 
 </li>
-</ul>For more information about the 
+</ul>
+For more information about the 
      <b>dot11DesiredBSSType</b> MIB object, see 
-     <mshelp:link keywords="netvista.oid_dot11_desired_bss_type" tabindex="0">
-     OID_DOT11_DESIRED_BSS_TYPE</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">
+     OID_DOT11_DESIRED_BSS_TYPE</a>.
 
 
 ### -field bDelete
@@ -183,6 +204,7 @@ A Boolean value that specifies whether the miniport driver should delete the def
 
 If set to <b>FALSE</b>, the miniport driver must delete the default key referenced by 
      <b>uKeyIndex</b> whenever the 802.11 station:
+
 <ul>
 <li>
 Disconnects from the basic service set (BSS) network.
@@ -196,13 +218,15 @@ Roams to a new BSS network.
 Reconnects to the same BSS network.
 
 </li>
-</ul>If set to <b>TRUE</b>, the default key referenced by 
+</ul>
+If set to <b>TRUE</b>, the default key referenced by 
      <b>uKeyIndex</b> must not be deleted unless it is:
+
 <ul>
 <li>
 Explicitly deleted through a set request of 
-       <mshelp:link keywords="netvista.oid_dot11_cipher_default_key" tabindex="0">
-       OID_DOT11_CIPHER_DEFAULT_KEY</mshelp:link>.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
+       OID_DOT11_CIPHER_DEFAULT_KEY</a>.
 
 </li>
 <li>
@@ -242,15 +266,15 @@ If
      <b>AlgorithmId</b> is set to 
      <b>DOT11_CIPHER_ALGO_TKIP</b>, the 
      <b>ucKey</b> array defines the key material through the 
-     <mshelp:link keywords="netvista.dot11_key_algo_tkip_mic" tabindex="0"><b>
-     DOT11_KEY_ALGO_TKIP_MIC</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">
+     DOT11_KEY_ALGO_TKIP_MIC</a> structure.
 
 If 
      <b>AlgorithmId</b> is set to 
      <b>DOT11_CIPHER_ALGO_CCMP</b>, the 
      <b>ucKey</b> array defines the key material through the
-     <mshelp:link keywords="netvista.dot11_key_algo_ccmp" tabindex="0"><b>
-     DOT11_KEY_ALGO_CCMP</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">
+     DOT11_KEY_ALGO_CCMP</a> structure.
 
 If 
      <b>AlgorithmId</b> is set to 
@@ -260,27 +284,13 @@ If
      <a href="..\windot11\ns-windot11-dot11_key_algo_bip.md">DOT11_KEY_ALGO_BIP</a> structure.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_CIPHER_DEFAULT_KEY_VALUE_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <code>sizeof(DOT11_CIPHER_DEFAULT_KEY_VALUE)</code>.
-
-
 ## -remarks
+
 
 
 If the 
     <b>bDelete</b> member is <b>TRUE</b>, the following members are not valid and must be ignored:
+
 <ul>
 <li>
 <b>bStatic</b>
@@ -297,21 +307,36 @@ If the
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
 
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
 
-<a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+<a href="..\windot11\ns-windot11-dot11_key_algo_tkip_mic.md">DOT11_KEY_ALGO_TKIP_MIC</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85f07ef4-6306-4995-9c95-9bbae775af1c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILMSGMWISUMMARYLIST, netvista.rilmsgmwisummarylist_2, RILMSGMWISUMMARYLIST structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST
+ms.keywords: RILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwisummarylist_2, *LPRILMSGMWISUMMARYLIST, rilapitypes/RILMSGMWISUMMARYLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGMWISUMMARYLIST
 product: Windows
 targetos: Windows
-req.typenames: *LPRILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST
+req.typenames: "*LPRILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST"
 req.product: Windows 10 or later.
 ---
 
@@ -78,31 +78,23 @@ typedef struct _RILMSGMWISUMMARYLIST {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwReferenceNumber
-
 
 
 ### -field stAccountAddress
 
 
-
 ### -field dwTotalNumberOfDetailItems
-
 
 
 ### -field dwNumberOfSummaryItems
 
 
-
 ### -field stMwiSummary
-
 

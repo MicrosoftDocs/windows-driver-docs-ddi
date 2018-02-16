@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	ReportStatistic
 product: Windows
 targetos: Windows
@@ -78,14 +78,7 @@ VOID ReportStatistic(
 A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
 
 
-### -param *pStatistics
-
-
-
-
-
-
-#### - pStatistics [in]
+### -param *pStatistics [in]
 
 A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_data.md">MIRACAST_STATISTIC_DATA</a> structure that contains the statistics data.
 
@@ -93,16 +86,20 @@ A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_dat
 ## -returns
 
 
+
 Does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 When the operating system calls this function, it logs the data from the <i>pStatistics</i> parameter but takes no other action.
 
 For more info on how to use this function, see these topics:
+
 <ul>
 <li>
 <a href="https://msdn.microsoft.com/FF5D7760-2407-487A-8363-7AC3B6385F6C">Miracast user-mode driver tasks to support Miracast wireless displays</a>
@@ -113,11 +110,16 @@ For more info on how to use this function, see these topics:
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
+
+
 <a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_data.md">MIRACAST_STATISTIC_DATA</a>
+
+
 
  
 

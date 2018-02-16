@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_COMMPROP
-title: _SERIAL_COMMPROP
+title: "_SERIAL_COMMPROP"
 author: windows-driver-content
 description: The SERIAL_COMMPROP structure specifies the properties of a serial port.
 old-location: serports\serial_commprop.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.serial_commprop, ntddser/SERIAL_COMMPROP, PSERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, *PSERIAL_COMMPROP, _SERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports]
+ms.keywords: "*PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, serports.serial_commprop, PSERIAL_COMMPROP structure pointer [Serial Ports], PSERIAL_COMMPROP, SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, _SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	SERIAL_COMMPROP
 product: Windows
 targetos: Windows
-req.typenames: *PSERIAL_COMMPROP, SERIAL_COMMPROP
+req.typenames: "*PSERIAL_COMMPROP, SERIAL_COMMPROP"
 ---
 
 # _SERIAL_COMMPROP structure
@@ -119,6 +119,7 @@ Maximum receive queue size. The maximum size, in bytes, of the serial controller
 The maximum acceptable baud rate. An <a href="https://msdn.microsoft.com/4A9B80F1-4DE1-4D35-ADDF-90058A4F8388">extension-based serial controller driver</a> sets this member to a baud rate expressed in bits per second (bps). For example, if the serial controller supports a maximum baud rate of 115,200 bps, the driver sets <b>MaxBaud</b> = 115200.
 
 However, Serial.sys and many older serial controller drivers set <b>MaxBaud</b> to one of the SERIAL_BAUD_<i>XXX</i> flag bits that are defined in the Ntddser.h header file. The following values are defined for this member.
+
 <table>
 <tr>
 <th>Value</th>
@@ -204,12 +205,14 @@ However, Serial.sys and many older serial controller drivers set <b>MaxBaud</b> 
 <td>SERIAL_BAUD_USER</td>
 <td>Programmable baud rates are available.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ProvSubType
 
 The specific communications provider type. When the <b>ServiceMask</b> member is set to SERIAL_SP_SERIALCOMM, <b>ProvSubType</b> is set to one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -267,12 +270,14 @@ The specific communications provider type. When the <b>ServiceMask</b> member is
 <td>SERIAL_SP_X25</td>
 <td>X.25 standards</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ProvCapabilities
 
 The capabilities offered by the provider. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
+
 <table>
 <tr>
 <th>Value</th>
@@ -318,12 +323,14 @@ The capabilities offered by the provider. This member is set to zero or to the b
 <td>SERIAL_PCF_16BITMODE</td>
 <td>Special 16-bit mode is supported.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SettableParams
 
 A bitmask that indicates the communication parameter that can be changed. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
+
 <table>
 <tr>
 <th>Value</th>
@@ -357,7 +364,8 @@ A bitmask that indicates the communication parameter that can be changed. This m
 <td>SERIAL_SP_CARRIER_DETECT</td>
 <td>Carrier detect</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SettableBaud
@@ -370,6 +378,7 @@ Serial controller drivers set the SERIAL_BAUD_USER flag bit in the <b>SettableBa
 ### -field SettableData
 
 The number of data bits that can be set. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
+
 <table>
 <tr>
 <th>Value</th>
@@ -399,12 +408,14 @@ The number of data bits that can be set. This member is set to zero or to the bi
 <td>SERIAL_DATABITS_16X</td>
 <td>Special wide path through serial hardware lines</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SettableStopParity
 
 The stop-bit and parity settings that can be selected. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
+
 <table>
 <tr>
 <th>Value</th>
@@ -442,7 +453,8 @@ The stop-bit and parity settings that can be selected. This member is set to zer
 <td>SERIAL_PARITY_SPACE</td>
 <td>The parity bit is always set to 0.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field CurrentTxQueue
@@ -479,13 +491,17 @@ Provider-specific data. Applications should ignore this member unless provider-s
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_properties.md">IOCTL_SERIAL_GET_PROPERTIES</a> request.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_properties.md">IOCTL_SERIAL_GET_PROPERTIES</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: print\oempdriverevent.htm
 old-project: print
 ms.assetid: 761967c9-c31f-4b7b-837a-bd48285c54fc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMPDriverEvent, printoem/OEMPDriverEvent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, print.oempdriverevent, OEMPDriverEvent function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: OEMPDriverEvent, printoem/OEMPDriverEvent, OEMPDriverEvent function [Print Devices], print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, print.oempdriverevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMPDriverEvent
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ BOOL APIENTRY OEMPDriverEvent(
 ### -param dwDriverEvent
 
 
-
 ### -param dwLevel
-
 
 
 ### -param pDriverInfo
 
 
-
 ### -param lParam
-
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 604be66a-bec7-48db-b038-aaaf78043965
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, ks/KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], PKSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], stream.kstopology_connection, KSTOPOLOGY_CONNECTION
+ms.keywords: KSTOPOLOGY_CONNECTION, ks/KSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], *PKSTOPOLOGY_CONNECTION, ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, stream.kstopology_connection, PKSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSTOPOLOGY_CONNECTION
 product: Windows
 targetos: Windows
-req.typenames: *PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION
+req.typenames: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION"
 ---
 
 # KSTOPOLOGY_CONNECTION structure
@@ -93,6 +93,7 @@ Specifies the pin ID for the downstream end of the connection. If <b>ToNode</b> 
 ## -remarks
 
 
+
 KSTOPOLOGY_CONNECTION represents a single connection inside a filter, between either external pins, internal nodes, or an external pin and an internal node.
 
 A streaming driver returns an array of KSTOPOLOGY_CONNECTION structures in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565802">KSPROPERTY_TOPOLOGY_CONNECTIONS</a> get-property request.
@@ -105,17 +106,28 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCON
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a>
+<a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565802">KSPROPERTY_TOPOLOGY_CONNECTIONS</a>
 
-<a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+
+
 
  
 

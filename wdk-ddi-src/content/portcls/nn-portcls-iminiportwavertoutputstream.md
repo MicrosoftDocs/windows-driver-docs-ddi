@@ -7,7 +7,7 @@ old-location: audio\iminiportwavertoutputstream.htm
 old-project: audio
 ms.assetid: 40210313-1216-4E1A-B696-B23D2ACED605
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iminiportwavertoutputstream, IMiniportWaveRTOutputStream interface [Audio Devices], IMiniportWaveRTOutputStream interface [Audio Devices], described, IMiniportWaveRTOutputStream, portcls/IMiniportWaveRTOutputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWaveRTOutputStream
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRTOutputStream interface

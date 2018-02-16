@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENADAPTERFROMDEVICENAME
-title: _D3DKMT_OPENADAPTERFROMDEVICENAME
+title: "_D3DKMT_OPENADAPTERFROMDEVICENAME"
 author: windows-driver-content
 description: The D3DKMT_OPENADAPTERFROMDEVICENAME structure describes the mapping of the given name of a device to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromdevicename.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e633c7c-fd88-4b8f-9d29-2c7a3daa3d32
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENADAPTERFROMDEVICENAME structure [Display Devices], d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME, _D3DKMT_OPENADAPTERFROMDEVICENAME, display.d3dkmt_openadapterfromdevicename, OpenGL_Structs_f710fec6-a0f4-4b86-b4ba-5f8411deb490.xml, D3DKMT_OPENADAPTERFROMDEVICENAME
+ms.keywords: d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME, D3DKMT_OPENADAPTERFROMDEVICENAME, OpenGL_Structs_f710fec6-a0f4-4b86-b4ba-5f8411deb490.xml, _D3DKMT_OPENADAPTERFROMDEVICENAME, display.d3dkmt_openadapterfromdevicename, D3DKMT_OPENADAPTERFROMDEVICENAME structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_OPENADAPTERFROMDEVICENAME
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ typedef struct _D3DKMT_OPENADAPTERFROMDEVICENAME {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromdevicename.md">D3DKMTOpenAdapterFromDeviceName</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 322A17F1-E767-44EF-837D-F9162C2D5237
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlULongLongToULong, RtlULongLongToULong, kernel.rtlulonglongtoulong, RtlULongLongToULong function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlULongLongToULong function [Kernel-Mode Driver Architecture], RtlULongLongToULong, kernel.rtlulonglongtoulong, ntintsafe/RtlULongLongToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlULongLongToULong
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 #### - puResult [out]
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
@@ -87,6 +88,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

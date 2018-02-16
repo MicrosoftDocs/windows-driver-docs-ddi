@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DestroyVideoProcessor
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ __checkReturn HRESULT APIENTRY DestroyVideoProcessor(
 
 
 
+
+
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -91,20 +93,26 @@ __checkReturn HRESULT APIENTRY DestroyVideoProcessor(
 ## -returns
 
 
+
 <b>DestroyVideoProcessor</b> should return S_OK or an appropriate error result if it cannot successfully release resources for the DirectX VA video processor. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>DestroyVideoProcessor</b> function notifies the driver to destroy the handle to the DirectX VA video processor that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a> function previously created. The driver can then release resources that are associated with the DirectX VA video processor handle.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
 
  
 

@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NetFreeMdl
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # NET_BUFFER_FREE_MDL_HANDLER callback
@@ -80,18 +80,21 @@ A pointer to the MDL that is to be freed.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If the NDIS driver specifies an entry point for the 
     <i>NetFreeMdl</i> function at the 
     <i>FreeMdl</i> parameter of the 
-    <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-    NdisAdvanceNetBufferDataStart</b></mshelp:link> function, NDIS calls 
+    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    NdisAdvanceNetBufferDataStart</a> function, NDIS calls 
     <i>NetFreeMdl</i> to free an MDL and memory.
 
 <i>NetFreeMdl</i> frees the MDL and memory that were allocated by the 
@@ -106,12 +109,17 @@ NDIS calls
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+
 
 <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
 
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
+
 
  
 

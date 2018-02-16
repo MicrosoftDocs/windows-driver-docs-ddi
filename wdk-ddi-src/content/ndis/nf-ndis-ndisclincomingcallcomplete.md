@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b3931dd7-319e-4ef8-9812-6dc3f2e41b2c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete, ndis/NdisClIncomingCallComplete, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, ndis/NdisClIncomingCallComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisClIncomingCallComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisClIncomingCallComplete function
@@ -85,8 +85,8 @@ Is set to NDIS_STATUS_SUCCESS if the client accepts the offered call. Otherwise,
 Specifies the handle to the VC that was created by the call manager to represent the incoming
      call. The client obtained this handle from it per-VC state designated by the 
      <i>ProtocolVcContext</i> passed as an input parameter to its 
-     <mshelp:link keywords="netvista.protocolclincomingcall" tabindex="0"><i>
-     ProtocolClIncomingCall</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+     ProtocolClIncomingCall</a> function.
 
 
 ### -param CallParameters [in]
@@ -99,11 +99,14 @@ Pointer to a structure of type
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If a client's 
@@ -129,15 +132,15 @@ If the client has changed the call parameters passed in to its
     CALL_PARAMETERS_CHANGED when it passes these changes to 
     <b>NdisClIncomingCallComplete</b>. Depending on whether the call manager accepts or rejects the client's
     proposed changes to the call parameters, NDIS subsequently calls either the client's
-    <mshelp:link keywords="netvista.protocolclcallconnected" tabindex="0"><i>
-    ProtocolClCallConnected</i></mshelp:link> function or its 
-    <mshelp:link keywords="netvista.protocolclincomingclosecall" tabindex="0"><i>
-    ProtocolClIncomingCloseCall</i></mshelp:link> function, respectively.
+    <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">
+    ProtocolClCallConnected</a> function or its 
+    <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">
+    ProtocolClIncomingCloseCall</a> function, respectively.
 
 A call to 
     <b>NdisClIncomingCallComplete</b> causes NDIS to call the CM's 
-    <mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-    ProtocolCmIncomingCallComplete</i></mshelp:link> function. NDIS passes the client-supplied parameters of 
+    <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+    ProtocolCmIncomingCallComplete</a> function. NDIS passes the client-supplied parameters of 
     <b>NdisClIncomingCallComplete</b> as input parameters to 
     <i>ProtocolCmIncomingCallComplete</i>.
 
@@ -148,24 +151,41 @@ If a client rejects an offered call by setting
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+   ProtocolCmIncomingCallComplete</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
-<mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-   ProtocolCmIncomingCallComplete</i></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+
 
  
 

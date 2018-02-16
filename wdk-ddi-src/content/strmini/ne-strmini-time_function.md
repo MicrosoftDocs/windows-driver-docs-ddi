@@ -2,13 +2,13 @@
 UID: NE:strmini.TIME_FUNCTION
 title: TIME_FUNCTION
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\time_function.htm
 old-project: stream
 ms.assetid: 9335B3FB-B46B-404C-BCF9-F4E2F7A4C216
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/TIME_GET_STREAM_TIME, stream.time_function, strmini/TIME_FUNCTION, strmini/TIME_SET_ONBOARD_CLOCK, TIME_FUNCTION enumeration [Streaming Media Devices], TIME_GET_STREAM_TIME, TIME_SET_ONBOARD_CLOCK, TIME_READ_ONBOARD_CLOCK, strmini/TIME_READ_ONBOARD_CLOCK, TIME_FUNCTION
+ms.keywords: strmini/TIME_FUNCTION, TIME_FUNCTION, strmini/TIME_READ_ONBOARD_CLOCK, stream.time_function, TIME_GET_STREAM_TIME, TIME_READ_ONBOARD_CLOCK, TIME_FUNCTION enumeration [Streaming Media Devices], strmini/TIME_SET_ONBOARD_CLOCK, TIME_SET_ONBOARD_CLOCK, strmini/TIME_GET_STREAM_TIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Strmini.h
-apiname: 
+apiname:
 -	TIME_FUNCTION
 product: Windows
 targetos: Windows
@@ -73,11 +73,8 @@ typedef enum  {
 ### -field TIME_GET_STREAM_TIME
 
 
-
 ### -field TIME_READ_ONBOARD_CLOCK
 
 
-
 ### -field TIME_SET_ONBOARD_CLOCK
-
 

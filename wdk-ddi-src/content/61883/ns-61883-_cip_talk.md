@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_TALK
-title: _CIP_TALK
+title: "_CIP_TALK"
 author: windows-driver-content
 description: This structure is used to begin transmission.
 old-location: ieee\cip_talk.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: DD5EB79D-122B-4D17-9109-37473AC49C4A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PCIP_TALK, 61883/CIP_TALK, PCIP_TALK structure pointer [Buses], CIP_TALK, _CIP_TALK, IEEE.cip_talk, CIP_TALK structure [Buses], PCIP_TALK, *PCIP_TALK
+ms.keywords: 61883/CIP_TALK, CIP_TALK, PCIP_TALK structure pointer [Buses], 61883/PCIP_TALK, *PCIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk, _CIP_TALK, PCIP_TALK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CIP_TALK
 product: Windows
 targetos: Windows
@@ -75,6 +75,7 @@ On input, the handle of the connection to begin isochronous transmission.
 ## -remarks
 
 
+
 In the request, Flags can have these values:
 
 
@@ -102,9 +103,12 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

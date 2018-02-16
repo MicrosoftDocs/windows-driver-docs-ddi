@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_CDMA_LANG
-title: _WWAN_SMS_CDMA_LANG
+title: "_WWAN_SMS_CDMA_LANG"
 author: windows-driver-content
 description: The WWAN_SMS_CDMA_LANG enumeration lists the different SMS CDMA languages that are supported by the MB device.
 old-location: netvista\wwan_sms_cdma_lang.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5294ce07-a4eb-4c21-88f1-04889dfbc1a1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangFrench, *PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangKorean, WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangEnglish, PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangChinese, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangJapanese, wwan/PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangJapanese, _WWAN_SMS_CDMA_LANG, netvista.wwan_sms_cdma_lang, WwanSmsCdmaLangHebrew, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], WwanSmsCdmaLangUnknown, wwan/WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangMax, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsCdmaLangChinese, WWAN_SMS_CDMA_LANG, WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, wwan/WwanSmsCdmaLangUnknown
+ms.keywords: WwanSmsCdmaLangHebrew, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_sms_cdma_lang, WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangHebrew, PWWAN_SMS_CDMA_LANG, wwan/WWAN_SMS_CDMA_LANG, _WWAN_SMS_CDMA_LANG, WwanSmsCdmaLangChinese, WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangMax, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangUnknown, wwan/PWWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangChinese, WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangEnglish, *PWWAN_SMS_CDMA_LANG, WWAN_SMS_CDMA_LANG, WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangUnknown, WwanSmsCdmaLangJapanese
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SMS_CDMA_LANG
 product: Windows
 targetos: Windows
@@ -124,9 +124,13 @@ The total number of supported SMS CDMA languages.
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+
 
  
 

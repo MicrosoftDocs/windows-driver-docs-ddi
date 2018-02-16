@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D23A651-7231-40CE-B9C2-4382D4E7F683
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdffile3_getinitiatorprocessid, GetInitiatorProcessId method, IWDFFile3 interface, wudfddi/IWDFFile3::GetInitiatorProcessId, GetInitiatorProcessId, IWDFFile3, IWDFFile3::GetInitiatorProcessId, wdf.iwdffile3_getinitiatorprocessid, IWDFFile3 interface, GetInitiatorProcessId method, GetInitiatorProcessId method
+ms.keywords: IWDFFile3::GetInitiatorProcessId, GetInitiatorProcessId, wudfddi/IWDFFile3::GetInitiatorProcessId, wdf.iwdffile3_getinitiatorprocessid, umdf.iwdffile3_getinitiatorprocessid, GetInitiatorProcessId method, GetInitiatorProcessId method, IWDFFile3 interface, IWDFFile3, IWDFFile3 interface, GetInitiatorProcessId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFFile3.GetInitiatorProcessId
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,11 +78,14 @@ Specifies the address of a location that receives the initiator process identifi
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Starting in Windows 8, a system component may issue a create on behalf of an app. The driver can call <b>GetInitiatorProcessId</b> to determine which process the create operation is ultimately intended for.
@@ -92,10 +95,49 @@ Starting in Windows 8, a system component may issue a create on behalf of an ap
 For more information about framework file objects, see <a href="https://msdn.microsoft.com/f81ae0ed-a29c-476e-9b16-ff554eef1de9">Driver-Created Versus Application-Created File Objects</a>.
 
 
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+STDMETHODCALLTYPE
+CMyQueue::OnCreateFile(
+    __in IWDFIoQueue *pWdfQueue,
+    __in IWDFIoRequest *pWdfRequest,
+    __in IWDFFile*  pWdfFileObject
+    )
+ ...
+    IWDFFile3*  pWdfFileObject3 = NULL;
+    HRESULT  hr = S_OK;
+    DWORD initiatorProcessId;
+
+    //
+    // Obtain IWDFFile3 interface from IWDFFile.
+    //
+    hr = pWdfFileObject-&gt;QueryInterface(IID_PPV_ARGS(&amp;pWdfFileObject3));
+    if (!SUCCEEDED(hr))
+    {
+        goto Done;
+    }
+    pWdfFileObject3-&gt;GetInitiatorProcessId(&amp;initiatorProcessId);
+    ...
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdffile3.md">IWDFFile3</a>
+
+
 
  
 

@@ -7,7 +7,7 @@ old-location: audio\iminiportpnpnotify.htm
 old-project: audio
 ms.assetid: 634ADB7C-85B6-4C37-81A0-4A4891D0BBC4
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iminiportpnpnotify, IMiniportPnpNotify interface [Audio Devices], IMiniportPnpNotify interface [Audio Devices], described, IMiniportPnpNotify, portcls/IMiniportPnpNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportPnpNotify
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportPnpNotify interface
@@ -59,6 +59,6 @@ Miniports have an opportunity to receive a PnP Stop notification for each audio 
 
 IAdapterPnpManagement is available in Windows 10, version 1511 and later versions of Windows. 
 
-For more information, see <mshelp:link keywords="audio.implement_pnp_rebalance_for_portcls_audio_drivers" tabindex="0">
-Implement PnP Rebalance for PortCls Audio Drivers</mshelp:link>.
+For more information, see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">
+Implement PnP Rebalance for PortCls Audio Drivers</a>.
 

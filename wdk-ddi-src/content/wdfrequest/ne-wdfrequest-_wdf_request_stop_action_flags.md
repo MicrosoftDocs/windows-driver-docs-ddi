@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_STOP_ACTION_FLAGS
-title: _WDF_REQUEST_STOP_ACTION_FLAGS
+title: "_WDF_REQUEST_STOP_ACTION_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration type defines flags that the framework passes to a driver's EvtIoStop callback function.
 old-location: wdf\wdf_request_stop_action_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 01f95aee-60aa-4d6f-88a9-c0fa6ea6a09a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestStopActionSuspend, kmdf.wdf_request_stop_action_flags, wdfrequest/WdfRequestStopRequestCancelable, wdfrequest/WdfRequestStopActionPurge, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS, wdfrequest/WdfRequestStopActionInvalid, DFRequestObjectRef_e291c6a5-1e65-4505-9090-19e6ea66e7b3.xml, WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopActionPurge, _WDF_REQUEST_STOP_ACTION_FLAGS, wdf.wdf_request_stop_action_flags, wdfrequest/WdfRequestStopActionSuspend, WdfRequestStopActionInvalid, WdfRequestStopRequestCancelable
+ms.keywords: WdfRequestStopActionSuspend, wdfrequest/WdfRequestStopActionSuspend, kmdf.wdf_request_stop_action_flags, _WDF_REQUEST_STOP_ACTION_FLAGS, wdfrequest/WDF_REQUEST_STOP_ACTION_FLAGS, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wdf.wdf_request_stop_action_flags, WdfRequestStopActionInvalid, WdfRequestStopActionPurge, wdfrequest/WdfRequestStopActionInvalid, wdfrequest/WdfRequestStopActionPurge, WDF_REQUEST_STOP_ACTION_FLAGS, DFRequestObjectRef_e291c6a5-1e65-4505-9090-19e6ea66e7b3.xml, WdfRequestStopRequestCancelable, wdfrequest/WdfRequestStopRequestCancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfrequest.h
-apiname: 
+apiname:
 -	WDF_REQUEST_STOP_ACTION_FLAGS
 product: Windows
 targetos: Windows
@@ -96,13 +96,17 @@ The I/O request is cancelable.
 ## -remarks
 
 
+
 When the framework calls a driver's <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a> callback function, it sets either the <b>WdfRequestStopActionSuspend</b> or <b>WdfRequestStopActionPurge</b> flag. If the request is cancelable, the framework also sets the <b>WdfRequestStopRequestCancelable</b> flag.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_stop.md">EvtIoStop</a>
+
+
 
  
 

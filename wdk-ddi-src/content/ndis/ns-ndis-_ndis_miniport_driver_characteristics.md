@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_DRIVER_CHARACTERISTICS
-title: _NDIS_MINIPORT_DRIVER_CHARACTERISTICS
+title: "_NDIS_MINIPORT_DRIVER_CHARACTERISTICS"
 author: windows-driver-content
 description: An NDIS driver initializes an NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure to define its miniport driver characteristics, including the entry points for its MiniportXxx functions.
 old-location: netvista\ndis_miniport_driver_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2e2c8522-127d-49d5-a5d6-97f9403bec89
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_miniport_driver_characteristics, PNDIS_MINIPORT_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_DRIVER_CHARACTERISTICS, ndis/NDIS_MINIPORT_DRIVER_CHARACTERISTICS, PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, ndis/PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, _NDIS_MINIPORT_DRIVER_CHARACTERISTICS, miniport_structures_ref_9a538743-5c3f-40c7-a83d-07d5efde350c.xml
+ms.keywords: ndis/PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, _NDIS_MINIPORT_DRIVER_CHARACTERISTICS, netvista.ndis_miniport_driver_characteristics, NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_MINIPORT_DRIVER_CHARACTERISTICS, PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, miniport_structures_ref_9a538743-5c3f-40c7-a83d-07d5efde350c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_MINIPORT_DRIVER_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_CHARACTERISTICS
+req.typenames: NDIS_MINIPORT_DRIVER_CHARACTERISTICS, *PNDIS_MINIPORT_DRIVER_CHARACTERISTICS
 ---
 
 # _NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure
@@ -111,6 +111,33 @@ To indicate the version of the <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</b> struc
 
 
 
+
+#### NDIS_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_3
+
+Added the <b>SynchronousOidRequestHandler</b> member for NDIS 6.80.
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_3.
+
+
+
+#### NDIS_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_2
+
+Added the <b>DirectOidRequestHandler</b>, and <b>CancelDirectOidRequestHandler</b> members for NDIS 6.1.
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_2.
+
+
+
+#### NDIS_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_1
+
+Original version for NDIS 6.0.
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_1.
+
+
 ### -field MajorNdisVersion
 
 The major version of the NDIS library the driver is using. The current value is 0x06.
@@ -119,6 +146,7 @@ The major version of the NDIS library the driver is using. The current value is 
 ### -field MinorNdisVersion
 
 The minor NDIS version. The following are the available minor version value settings.
+
 <table>
 <tr>
 <th>Value</th>
@@ -223,7 +251,8 @@ NDIS 6.80
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MajorDriverVersion
@@ -246,6 +275,18 @@ A bitmask that can be set to zero or any of the following flags, combined with b
 
 
 
+
+#### NDIS_INTERMEDIATE_DRIVER
+
+Set if the caller is an NDIS intermediate driver.
+
+
+
+#### NDIS_WDM_DRIVER
+
+Set if the caller is an NDIS-WDM miniport driver.
+
+
 ### -field SetOptionsHandler
 
 The entry point for the caller's 
@@ -257,8 +298,8 @@ Required for Co-NDIS. Suggested for Ethernet miniport drivers that support RSS u
 ### -field InitializeHandlerEx
 
 Required. The entry point for the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -field HaltHandlerEx
@@ -270,8 +311,8 @@ Required. The entry point for the
 ### -field UnloadHandler
 
 Required. The entry point for the 
-     <mshelp:link keywords="netvista.miniportdriverunload" tabindex="0"><i>
-     MiniportDriverUnload</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_unload.md">
+     MiniportDriverUnload</a> function.
 
 
 ### -field PauseHandler
@@ -295,15 +336,15 @@ The entry point for the
 ### -field SendNetBufferListsHandler
 
 Required. The entry point for the 
-     <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-     MiniportSendNetBufferLists</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+     MiniportSendNetBufferLists</a> function.
 
 
 ### -field ReturnNetBufferListsHandler
 
 Required. The entry point for the 
-     <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-     MiniportReturnNetBufferLists</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+     MiniportReturnNetBufferLists</a> function.
 
 
 ### -field CancelSendHandler
@@ -315,8 +356,8 @@ Required. The entry point for the
 ### -field CheckForHangHandlerEx
 
 Optional. The entry point for the 
-     <mshelp:link keywords="netvista.miniportcheckforhangex" tabindex="0"><i>
-     MiniportCheckForHangEx</i></mshelp:link> function. 
+     <a href="..\ndis\nc-ndis-miniport_check_for_hang.md">
+     MiniportCheckForHangEx</a> function. 
      
 
 <i>MiniportCheckForHangEx</i> is not required for intermediate drivers or virtual miniports because they are not physical devices that can hang, so they must set this entry
@@ -340,8 +381,8 @@ Optional (required if you provide <b>CheckForHangHandlerEx</b>). The entry point
 ### -field DevicePnPEventNotifyHandler
 
 Required. The entry point for the 
-     <mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-     MiniportDevicePnPEventNotify</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+     MiniportDevicePnPEventNotify</a> function.
 
 
 ### -field ShutdownHandlerEx
@@ -353,15 +394,15 @@ Required. The entry point for the
 ### -field CancelOidRequestHandler
 
 Required. The entry point for the 
-     <mshelp:link keywords="netvista.miniportcanceloidrequest" tabindex="0"><i>
-     MiniportCancelOidRequest</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">
+     MiniportCancelOidRequest</a> function.
 
 
 ### -field DirectOidRequestHandler
 
 The entry point for the 
-      <mshelp:link keywords="netvista.miniportdirectoidrequest" tabindex="0"><i>
-      MiniportDirectOidRequest</i></mshelp:link> function. This is an optional entry point. Set this member to <b>NULL</b> if
+      <a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">
+      MiniportDirectOidRequest</a> function. This is an optional entry point. Set this member to <b>NULL</b> if
       the miniport driver does not handle direct OID requests. 
 
 Optional for Ethernet; however, if one is provided, then both must be provided.
@@ -372,8 +413,8 @@ Required for WLAN and Ethernet miniports that implement RDMA or IPSec offload.
 ### -field CancelDirectOidRequestHandler
 
 The entry point for the 
-      <mshelp:link keywords="netvista.miniportcanceldirectoidrequest" tabindex="0"><i>
-      MiniportCancelDirectOidRequest</i></mshelp:link> function. This is an optional entry point. Set this member to <b>NULL</b>
+      <a href="..\ndis\nc-ndis-miniport_cancel_direct_oid_request.md">
+      MiniportCancelDirectOidRequest</a> function. This is an optional entry point. Set this member to <b>NULL</b>
       if the miniport driver does not handle direct OID requests.
 
 Optional for Ethernet; however, if one is provided, then both must be provided.
@@ -384,103 +425,109 @@ Required for WLAN and Ethernet miniports that implement RDMA or IPSec offload.
 ### -field SynchronousOidRequestHandler
 
 The entry point for the 
-      <mshelp:link keywords="netvista.miniport_synchronous_oid_request" tabindex="0"><i>
-      MiniportSynchronousOidRequest</i></mshelp:link> function. This is an optional entry point. Set this member to <b>NULL</b> if
+      <a href="..\ndis\nf-ndis-miniport_synchronous_oid_request.md">
+      MiniportSynchronousOidRequest</a> function. This is an optional entry point. Set this member to <b>NULL</b> if
       the miniport driver does not handle Synchronous OID requests. 
 
 Required for WLAN and Ethernet miniports that implement RSSv2.
 
 
-##### - Header.NDIS_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_2
-
-Added the <b>DirectOidRequestHandler</b>, and <b>CancelDirectOidRequestHandler</b> members for NDIS 6.1.
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_2.
-
-
-##### - Flags.NDIS_INTERMEDIATE_DRIVER
-
-Set if the caller is an NDIS intermediate driver.
-
-
-##### - Flags.NDIS_WDM_DRIVER
-
-Set if the caller is an NDIS-WDM miniport driver.
-
-
-##### - Header.NDIS_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_3
-
-Added the <b>SynchronousOidRequestHandler</b> member for NDIS 6.80.
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_3.
-
-
-##### - Header.NDIS_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_1
-
-Original version for NDIS 6.0.
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_DRIVER_CHARACTERISTICS_REVISION_1.
-
-
 ## -remarks
+
 
 
 An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</b> structure in the 
     <i>MiniportDriverCharacteristics</i> parameter of the 
-    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-    NdisMRegisterMiniportDriver</b></mshelp:link> function. A miniport driver calls 
+    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    NdisMRegisterMiniportDriver</a> function. A miniport driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine (see also 
-    <mshelp:link keywords="netvista.driverentry_of_ndis_miniport_drivers" tabindex="0"><b>DriverEntry of NDIS
-    Miniport Drivers</b></mshelp:link>).
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
+    Miniport Drivers</a>).
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.miniportdevicepnpeventnotify" tabindex="0"><i>
-   MiniportDevicePnPEventNotify</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
-
-<mshelp:link keywords="netvista.miniportcanceldirectoidrequest" tabindex="0"><i>
-   MiniportCancelDirectOidRequest</i></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
-
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
-
 <a href="..\ndis\nc-ndis-miniport_cancel_oid_request.md">MiniportCancelOidRequest</a>
 
-<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
-<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
 
 <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+   MiniportDevicePnPEventNotify</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_cancel_direct_oid_request.md">
+   MiniportCancelDirectOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_direct_oid_request.md">MiniportDirectOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
-<mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-   MiniportReturnNetBufferLists</i></mshelp:link>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+   MiniportReturnNetBufferLists</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
+
+
 
  
 

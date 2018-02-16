@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 246ded7a-4f75-469d-bdba-860ce3cd6b44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml, ndis/NdisInterlockedIncrement, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], NdisInterlockedIncrement, netvista.ndisinterlockedincrement
+ms.keywords: ndis/NdisInterlockedIncrement, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], NdisInterlockedIncrement, netvista.ndisinterlockedincrement, ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisInterlockedIncrement
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInterlockedIncrement macro
@@ -78,6 +78,7 @@ A pointer to a variable of type LONG.
 ## -remarks
 
 
+
 <b>NdisInterlockedIncrement</b> cannot be used on variables in pageable memory.
 
 <b>NdisInterlockedIncrement</b> is atomic only with respect to other 
@@ -85,9 +86,12 @@ A pointer to a variable of type LONG.
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisinterlockeddecrement.md">NdisInterlockedDecrement</a>
+
+
 
  
 

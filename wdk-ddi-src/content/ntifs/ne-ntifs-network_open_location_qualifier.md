@@ -7,8 +7,8 @@ old-location: ifsk\network_open_location_qualifier.htm
 old-project: ifsk
 ms.assetid: 7762bf83-82cc-4eef-9699-d093a8c2b986
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: NetworkOpenLocationLoopback, NetworkOpenLocationRemote, NetworkOpenLocationAny, NETWORK_OPEN_LOCATION_QUALIFIER, ntifs/NetworkOpenLocationLoopback, ifsk.network_open_location_qualifier, ntifs/NETWORK_OPEN_LOCATION_QUALIFIER, ntifs/NetworkOpenLocationRemote, NETWORK_OPEN_LOCATION_QUALIFIER enumeration [Installable File System Drivers], ECP_Structures_0e589e5b-5266-429b-acab-236c00a75c1c.xml, ntifs/NetworkOpenLocationAny
+ms.date: 2/7/2018
+ms.keywords: ECP_Structures_0e589e5b-5266-429b-acab-236c00a75c1c.xml, NetworkOpenLocationLoopback, ntifs/NETWORK_OPEN_LOCATION_QUALIFIER, ntifs/NetworkOpenLocationRemote, ntifs/NetworkOpenLocationAny, NETWORK_OPEN_LOCATION_QUALIFIER enumeration [Installable File System Drivers], NetworkOpenLocationAny, NETWORK_OPEN_LOCATION_QUALIFIER, NetworkOpenLocationRemote, ifsk.network_open_location_qualifier, ntifs/NetworkOpenLocationLoopback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	NETWORK_OPEN_LOCATION_QUALIFIER
 product: Windows
 targetos: Windows

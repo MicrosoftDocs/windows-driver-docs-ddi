@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTIONMANAGER_RECOVERY_INFORMATION
-title: _TRANSACTIONMANAGER_RECOVERY_INFORMATION
+title: "_TRANSACTIONMANAGER_RECOVERY_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_recovery_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76701df3-8e7d-43fa-8caf-6cbf89504aad
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/TRANSACTIONMANAGER_RECOVERY_INFORMATION, _TRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PTRANSACTIONMANAGER_RECOVERY_INFORMATION, kernel.transactionmanager_recovery_information, ktm_ref_9efce7e2-3965-4659-8659-4f8262aad962.xml, *PTRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION, TRANSACTIONMANAGER_RECOVERY_INFORMATION structure [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_RECOVERY_INFORMATION
+ms.keywords: ktm_ref_9efce7e2-3965-4659-8659-4f8262aad962.xml, wdm/TRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_RECOVERY_INFORMATION, *PTRANSACTIONMANAGER_RECOVERY_INFORMATION, wdm/PTRANSACTIONMANAGER_RECOVERY_INFORMATION, PTRANSACTIONMANAGER_RECOVERY_INFORMATION, TRANSACTIONMANAGER_RECOVERY_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.transactionmanager_recovery_information, TRANSACTIONMANAGER_RECOVERY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	TRANSACTIONMANAGER_RECOVERY_INFORMATION
 product: Windows
 targetos: Windows
@@ -76,15 +76,21 @@ The last <a href="https://msdn.microsoft.com/4637fa0c-2f19-4f0c-bf13-f4ccac2e728
 ## -remarks
 
 
+
 The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure is used with the <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a> routine.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+
+
+
 <a href="..\wdm\ne-wdm-_transactionmanager_information_class.md">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+
 
  
 

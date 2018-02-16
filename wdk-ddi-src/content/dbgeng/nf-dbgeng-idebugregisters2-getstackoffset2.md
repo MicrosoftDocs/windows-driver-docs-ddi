@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c90119a8-c93b-4432-b164-b1f4c562ef2d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getstackoffset2, dbgeng/IDebugRegisters2::GetStackOffset2, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, IDebugRegisters2::GetStackOffset2, GetStackOffset2, IDebugRegisters2, GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method
+ms.keywords: GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetStackOffset2 method [Windows Debugging], IDebugRegisters2, IDebugRegisters2::GetStackOffset2, GetStackOffset2, dbgeng/IDebugRegisters2::GetStackOffset2, IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, debugger.getstackoffset2, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters2.GetStackOffset2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugRegisters2::GetStackOffset2 method
@@ -73,6 +73,7 @@ HRESULT GetStackOffset2(
 Specifies the register source to query.
 
 The possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,7 +111,8 @@ Fetch register information from the current scope's register context.
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Offset [out]
@@ -121,7 +123,9 @@ Receives the location in the process's virtual address space of the current thre
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,7 +142,9 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -146,7 +152,11 @@ The method was successful.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548403">GetStackOffset</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
 
  
 

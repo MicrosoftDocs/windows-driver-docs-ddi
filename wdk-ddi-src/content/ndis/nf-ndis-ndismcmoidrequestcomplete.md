@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4c45be9f-3d07-4150-830a-3aa6d74531ff
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml, NdisMCmOidRequestComplete, netvista.ndismcmoidrequestcomplete, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmOidRequestComplete
+ms.keywords: ndis/NdisMCmOidRequestComplete, NdisMCmOidRequestComplete, condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml, netvista.ndismcmoidrequestcomplete, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmOidRequestComplete macro
@@ -102,6 +102,15 @@ TBD
 
 
 
+
+
+#### - NdisAfHandle [in]
+
+An address family (AF) handle that NDIS passed to the MCM's 
+     <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">
+     ProtocolCoOidRequest</a> function.
+
+
 #### - NdisPartyHandle [in, optional]
 
 A party handle that NDIS passed to the MCM's 
@@ -119,13 +128,6 @@ A virtual connection (VC) handle that NDIS passed to the MCM's
      <b>NULL</b> VC handle.
 
 
-#### - Status [in]
-
-The final status of the request operation. This parameter can be NDIS_STATUS_SUCCESS,
-     NDIS_STATUS_REQUEST_ABORTED, or any driver-determined NDIS_STATUS_<i>XXX</i> status value
-     <u>except</u> NDIS_STATUS_PENDING.
-
-
 #### - OidRequest [in]
 
 A pointer to an 
@@ -134,14 +136,15 @@ A pointer to an
      <b>NdisCoOidRequest</b> function supplied.
 
 
-#### - NdisAfHandle [in]
+#### - Status [in]
 
-An address family (AF) handle that NDIS passed to the MCM's 
-     <mshelp:link keywords="netvista.protocolcooidrequest" tabindex="0"><i>
-     ProtocolCoOidRequest</i></mshelp:link> function.
+The final status of the request operation. This parameter can be NDIS_STATUS_SUCCESS,
+     NDIS_STATUS_REQUEST_ABORTED, or any driver-determined NDIS_STATUS_<i>XXX</i> status value
+     <u>except</u> NDIS_STATUS_PENDING.
 
 
 ## -remarks
+
 
 
 A CoNDIS MCM that returns NDIS_STATUS_PENDING from its 
@@ -151,8 +154,8 @@ A CoNDIS MCM that returns NDIS_STATUS_PENDING from its
 
 After the MCM calls 
     <b>NdisMCmOidRequestComplete</b>, NDIS calls the 
-    <mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-    ProtocolCoOidRequestComplete</i></mshelp:link> function of the CoNDIS client that originally called the 
+    <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+    ProtocolCoOidRequestComplete</a> function of the CoNDIS client that originally called the 
     <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function.
 
 For more information about the OIDs defined to use with CONDIS drivers, see 
@@ -160,16 +163,25 @@ For more information about the OIDs defined to use with CONDIS drivers, see
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+
 
  
 

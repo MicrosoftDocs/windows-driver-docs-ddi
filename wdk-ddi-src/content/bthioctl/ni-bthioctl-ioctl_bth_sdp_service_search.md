@@ -15,7 +15,7 @@ ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bthioctl.h
-apiname: 
+apiname:
 -	IOCTL_BTH_SDP_SERVICE_SEARCH
 product: Windows
 targetos: Windows
-req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
 ---
 
 # IOCTL_BTH_SDP_SERVICE_SEARCH IOCTL
@@ -70,16 +70,16 @@ The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP re
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <mshelp:link keywords="bltooth.bth_sdp_service_search_request" tabindex="0"><b>
-      BTH_SDP_SERVICE_SEARCH_REQUEST</b></mshelp:link> structure that specifies the connection handle to the remote SDP
+      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure that specifies the connection handle to the remote SDP
       server and an array of GUIDs to search for.
 
 
 ### -input-buffer-length
 
 The length of a 
-      <mshelp:link keywords="bltooth.bth_sdp_service_search_request" tabindex="0"><b>
-      BTH_SDP_SERVICE_SEARCH_REQUEST</b></mshelp:link> structure/
+      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure/
 
 
 ### -output-buffer
@@ -100,14 +100,18 @@ Callers can determine
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -120,6 +124,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -195,12 +200,15 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
+
+
 
  
 

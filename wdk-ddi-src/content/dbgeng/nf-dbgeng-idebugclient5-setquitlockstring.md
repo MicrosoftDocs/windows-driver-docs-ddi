@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0C4888C7-B7F9-4B23-8AC9-41CB7863AF22
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetQuitLockString method [Windows Debugging], IDebugClient5 interface, IDebugClient5::SetQuitLockString, SetQuitLockString, SetQuitLockString method [Windows Debugging], IDebugClient5, debugger.idebugclient5_setquitlockstring, IDebugClient5 interface [Windows Debugging], SetQuitLockString method, dbgeng/IDebugClient5::SetQuitLockString
+ms.keywords: dbgeng/IDebugClient5::SetQuitLockString, SetQuitLockString method [Windows Debugging], SetQuitLockString, IDebugClient5::SetQuitLockString, IDebugClient5, debugger.idebugclient5_setquitlockstring, SetQuitLockString method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], SetQuitLockString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.SetQuitLockString
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::SetQuitLockString method
@@ -75,11 +75,14 @@ A pointer to the quit lock string.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
     This function provides control over locking the session against
@@ -87,9 +90,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e4b11ff8-cafc-456c-b274-e47b85ac77d0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSBUFFER_ITEM structure [Streaming Media Devices], stream.ksbuffer_item, KSBUFFER_ITEM, ks/PKSBUFFER_ITEM, ks-struct_6c2444cb-9f6c-4ab7-ab79-ae969705db59.xml, *PKSBUFFER_ITEM, ks/KSBUFFER_ITEM, PKSBUFFER_ITEM structure pointer [Streaming Media Devices], PKSBUFFER_ITEM
+ms.keywords: stream.ksbuffer_item, ks-struct_6c2444cb-9f6c-4ab7-ab79-ae969705db59.xml, *PKSBUFFER_ITEM, KSBUFFER_ITEM, ks/PKSBUFFER_ITEM, ks/KSBUFFER_ITEM, KSBUFFER_ITEM structure [Streaming Media Devices], PKSBUFFER_ITEM, PKSBUFFER_ITEM structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSBUFFER_ITEM
 product: Windows
 targetos: Windows
-req.typenames: *PKSBUFFER_ITEM, KSBUFFER_ITEM
+req.typenames: "*PKSBUFFER_ITEM, KSBUFFER_ITEM"
 ---
 
 # KSBUFFER_ITEM structure
@@ -81,15 +81,21 @@ Specifies the head of a list of pool allocated buffers that are created by calls
 ## -remarks
 
 
+
 KSBUFFER_ITEM extends the normal deferred procedure call (DPC) structure, which may be needed for event generation, but does not use the structure itself.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
+
+
+
 <a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a>
 
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
+
 
  
 

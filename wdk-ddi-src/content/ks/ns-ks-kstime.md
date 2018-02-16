@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e026a539-7aa5-4205-970d-cf452e4471da
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PKSTIME, ks/KSTIME, KSTIME, PKSTIME structure pointer [Streaming Media Devices], ks/PKSTIME, stream.kstime, ks-struct_9db70ddb-ae2c-464b-a481-6927adef449c.xml, PKSTIME, KSTIME structure [Streaming Media Devices]
+ms.keywords: KSTIME, KSTIME structure [Streaming Media Devices], PKSTIME, *PKSTIME, ks-struct_9db70ddb-ae2c-464b-a481-6927adef449c.xml, ks/PKSTIME, ks/KSTIME, PKSTIME structure pointer [Streaming Media Devices], stream.kstime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSTIME
 product: Windows
 targetos: Windows
-req.typenames: KSTIME, *PKSTIME
+req.typenames: "*PKSTIME, KSTIME"
 ---
 
 # KSTIME structure
@@ -87,6 +87,8 @@ Specifies the denominator of the scaling factor for a scaled time value. For a n
 ## -remarks
 
 
+
 Unscaled time stamps are in 100-nanosecond units. A data stream can use different units by specifying the numerator and denominator of a scale factor.  
+
 
 

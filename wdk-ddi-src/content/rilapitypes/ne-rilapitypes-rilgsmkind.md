@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ec02cb5a-78e4-411b-945c-2ded798720e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_GSMKIND_GPRS, rilapitypes/RILGSMKIND, rilapitypes/RIL_GSMKIND_EDGE, rilapitypes/RIL_GSMKIND_MAX, RIL_GSMKIND_GPRS, RIL_GSMKIND_EDGE, netvista.rilgsmkind_2, RIL_GSMKIND_MAX
+ms.keywords: rilapitypes/RIL_GSMKIND_MAX, RILGSMKIND, rilapitypes/RILGSMKIND, RIL_GSMKIND_GPRS, netvista.rilgsmkind_2, rilapitypes/RIL_GSMKIND_GPRS, rilapitypes/RIL_GSMKIND_EDGE, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_GSMKIND_MAX, RIL_GSMKIND_EDGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGSMKIND
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILGSMKIND {
 ### -field RIL_GSMKIND_GSM
 
 
-
 ### -field RIL_GSMKIND_GPRS
-
 
 
 ### -field RIL_GSMKIND_EDGE
 
 
-
 ### -field RIL_GSMKIND_MAX
-
 

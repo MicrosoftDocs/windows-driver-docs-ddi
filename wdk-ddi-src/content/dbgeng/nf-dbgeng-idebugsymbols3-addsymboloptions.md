@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 952b4a7b-2713-4d7a-b70e-4fd1867bc096
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::AddSymbolOptions, dbgeng/IDebugSymbols::AddSymbolOptions, IDebugSymbols2::AddSymbolOptions, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, debugger.addsymboloptions, IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, dbgeng/IDebugSymbols3::AddSymbolOptions, IDebugSymbols3, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, AddSymbolOptions, IDebugSymbols::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, dbgeng/IDebugSymbols2::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, AddSymbolOptions method [Windows Debugging]
+ms.keywords: AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, AddSymbolOptions, IDebugSymbols2::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::AddSymbolOptions, dbgeng/IDebugSymbols2::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, IDebugSymbols2, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, dbgeng/IDebugSymbols::AddSymbolOptions, IDebugSymbols, debugger.addsymboloptions, AddSymbolOptions method [Windows Debugging], dbgeng/IDebugSymbols3::AddSymbolOptions, IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols::AddSymbolOptions, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.AddSymbolOptions
 -	IDebugSymbols2.AddSymbolOptions
 -	IDebugSymbols3.AddSymbolOptions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::AddSymbolOptions method
@@ -77,6 +77,7 @@ Specifies the symbol options to turns on.  <i>Options</i> is a bit-set that will
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,13 +94,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 After the symbol options have been changed, for each client the engine sends out notification to that client's <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a> by passing the DEBUG_CES_SYMBOL_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a> method.
@@ -108,19 +112,32 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

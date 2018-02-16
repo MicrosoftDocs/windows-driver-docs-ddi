@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a2f4429-b805-4a36-afdf-8b9c9a886951
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k103_04794cc7-88eb-4456-8613-6fcf9947ebe4.xml, kernel.read_port_ulong, READ_PORT_ULONG, wdm/READ_PORT_ULONG, READ_PORT_ULONG routine [Kernel-Mode Driver Architecture]
+ms.keywords: k103_04794cc7-88eb-4456-8613-6fcf9947ebe4.xml, READ_PORT_ULONG routine [Kernel-Mode Driver Architecture], wdm/READ_PORT_ULONG, READ_PORT_ULONG, kernel.read_port_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+apiname:
 -	READ_PORT_ULONG
 product: Windows
 targetos: Windows
@@ -77,13 +77,17 @@ Specifies the port address, which must be a mapped range in I/O space.
 ## -returns
 
 
+
 <b>READ_PORT_ULONG</b> returns the ULONG value that is read from the specified port address.
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>READ_PORT_ULONG</b> can be running at any IRQL, assuming the <i>Port</i> is resident, mapped device memory.
+
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 402f292c-14f8-4ff3-b1b3-b992578cbcc8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_VIDEOINFOHEADER, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml, PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices], stream.ks_videoinfoheader, PKS_VIDEOINFOHEADER, ksmedia/PKS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER structure [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER
+ms.keywords: tagKS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml, stream.ks_videoinfoheader, KS_VIDEOINFOHEADER structure [Streaming Media Devices], PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices], PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, ksmedia/KS_VIDEOINFOHEADER, ksmedia/PKS_VIDEOINFOHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_VIDEOINFOHEADER
 product: Windows
 targetos: Windows
@@ -105,6 +105,7 @@ Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPI
 ## -remarks
 
 
+
 To describe a video stream with bob or weave settings, use <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>.
 
 The KS_VIDEOINFOHEADER structure is identical to the Microsoft DirectShow VIDEOINFOHEADER structure.
@@ -117,11 +118,16 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 
 
+
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
+
+
 
  
 

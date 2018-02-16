@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Fwpsk.h
-apiname: 
+apiname:
 -	notifyFn2
 product: Windows
 targetos: Windows
@@ -85,18 +85,27 @@ A value that indicates the type of notification that the filter engine is sendin
 
 
 
-### -param *filterKey
+
+#### FWPS_CALLOUT_NOTIFY_ADD_FILTER
+
+A filter is being added to the filter engine that specifies the callout for the filter's
+       action.
 
 
 
-### -param *filter
+#### FWPS_CALLOUT_NOTIFY_DELETE_FILTER
+
+A filter is being deleted from the filter engine that specifies the callout for the filter's
+       action.
 
 
 
+#### FWPS_CALLOUT_NOTIFY_TYPE_MAX
+
+A maximum value for testing purposes.
 
 
-
-#### - filterKey [in]
+### -param *filterKey [in]
 
 A pointer to the management identifier for the filter, as specified by the application or driver
      that is adding or deleting the filter. Must be NULL if the 
@@ -104,24 +113,7 @@ A pointer to the management identifier for the filter, as specified by the appli
      following Remarks section.
 
 
-##### - notifyType.FWPS_CALLOUT_NOTIFY_TYPE_MAX
-
-A maximum value for testing purposes.
-
-
-##### - notifyType.FWPS_CALLOUT_NOTIFY_DELETE_FILTER
-
-A filter is being deleted from the filter engine that specifies the callout for the filter's
-       action.
-
-
-##### - notifyType.FWPS_CALLOUT_NOTIFY_ADD_FILTER
-
-A filter is being added to the filter engine that specifies the callout for the filter's
-       action.
-
-
-#### - filter [in, out]
+### -param *filter [in, out]
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439768">FWPS_FILTER2</a> structure. This structure
@@ -146,8 +138,10 @@ A callout driver's
 ## -returns
 
 
+
 A callout's 
      <i>notifyFn2</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -179,11 +173,14 @@ An error occurred. If the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver registers a callout's callout functions with the filter engine by calling the 
@@ -208,8 +205,8 @@ If a callout driver registers a callout with the filter engine after filters tha
     for the filter's action, the callout driver must call the appropriate management functions to enumerate
     all the filters in the filter engine and sort through the resulting list of filters to find those that
     specify the callout for the filter's action. See 
-    <mshelp:link keywords="netvista.calling_other_windows_filtering_platform_functions" tabindex="0">Calling Other
-    Windows Filtering Platform Functions</mshelp:link> for more information about calling these functions.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Calling Other
+    Windows Filtering Platform Functions</a> for more information about calling these functions.
 
 When a filter that specifies a callout for the filter's action is deleted from the filter engine, the
     filter engine calls the callout driver's 
@@ -225,19 +222,32 @@ This function is essentially identical to the previous version,
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn0.md">notifyFn0</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439768">FWPS_FILTER2</a>
 
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+
+
 
  
 

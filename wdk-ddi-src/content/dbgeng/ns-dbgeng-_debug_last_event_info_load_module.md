@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_LOAD_MODULE
-title: _DEBUG_LAST_EVENT_INFO_LOAD_MODULE
+title: "_DEBUG_LAST_EVENT_INFO_LOAD_MODULE"
 author: windows-driver-content
 description: Describes the load module of the last event.
 old-location: debugger\debug_last_event_info_load_module.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0C2371FE-935A-499B-8E7C-09AA6C03FC90
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE structure pointer [Windows Debugging], dbgeng/DEBUG_LAST_EVENT_INFO_LOAD_MODULE, debugger.debug_last_event_info_load_module, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, _DEBUG_LAST_EVENT_INFO_LOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure [Windows Debugging]
+ms.keywords: dbgeng/PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, _DEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE structure pointer [Windows Debugging], DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure [Windows Debugging], debugger.debug_last_event_info_load_module, *PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_LOAD_MODULE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_LAST_EVENT_INFO_LOAD_MODULE
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE
+req.typenames: DEBUG_LAST_EVENT_INFO_LOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_LOAD_MODULE
 ---
 
 # _DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure

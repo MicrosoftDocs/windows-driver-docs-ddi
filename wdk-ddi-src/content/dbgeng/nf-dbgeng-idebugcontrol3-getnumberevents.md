@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fb570110-a0a5-4a95-9a26-c4e4ada309b2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnumberevents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, dbgeng/IDebugControl3::GetNumberEvents, GetNumberEvents method [Windows Debugging], GetNumberEvents method [Windows Debugging], IDebugControl3 interface, GetNumberEvents, IDebugControl3 interface [Windows Debugging], GetNumberEvents method, IDebugControl3, IDebugControl3::GetNumberEvents
+ms.keywords: IDebugControl3 interface [Windows Debugging], GetNumberEvents method, GetNumberEvents, IDebugControl3, IDebugControl3::GetNumberEvents, IDebugControl_520cbec0-e8b3-49d1-9938-a8f496585758.xml, GetNumberEvents method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetNumberEvents, debugger.getnumberevents, GetNumberEvents method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.GetNumberEvents
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetNumberEvents method
@@ -75,7 +75,9 @@ Receives the number of events stored in the target.  If the target offers multip
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,11 +105,14 @@ The method was successful, but <i>Events</i> contains only the total number of e
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Crash dump files contain a static list of events; each event represents a snapshot of the target at a particular point in time.  If the current target is a crash dump file, this method sets <i>Events</i> to the number of stored events and returns S_OK.
@@ -118,13 +123,20 @@ For more information, see the topic <a href="https://msdn.microsoft.com/library/
 
 
 
+
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 

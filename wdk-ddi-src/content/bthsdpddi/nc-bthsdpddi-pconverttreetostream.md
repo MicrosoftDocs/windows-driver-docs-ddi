@@ -15,7 +15,7 @@ ms.topic: callback
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	BthSdpddi.h
-apiname: 
+apiname:
 -	SdpConvertTreeToStream
 product: Windows
 targetos: Windows
-req.typenames: *PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---
 
 # PCONVERTTREETOSTREAM callback
@@ -84,6 +84,7 @@ The root node of the tree-based representation of the SDP record to convert into
 
 ### -param *Stream
 
+A pointer to the buffer that receives the converted SDP stream.
 
 
 ### -param Size
@@ -99,12 +100,8 @@ Specifies a 4-byte
      <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
 
 
-#### - Stream
-
-A pointer to the buffer that receives the converted SDP stream.
-
-
 ## -returns
+
 
 
 Possible return values include:
@@ -121,7 +118,9 @@ Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -140,13 +139,20 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+## -see-also
 
 <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
 
+
+
 <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 

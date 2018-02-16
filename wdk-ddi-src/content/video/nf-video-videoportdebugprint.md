@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c476c8a2-5d79-45cd-ae72-f8792137f9c2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, display.videoportdebugprint, video/VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], VideoPortDebugPrint
+ms.keywords: video/VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], display.videoportdebugprint, VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, VideoPortDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortDebugPrint
 product: Windows
 targetos: Windows
@@ -72,7 +72,6 @@ VOID VideoPortDebugPrint(
 ### -param DebugPrintLevel
 
 
-
 ### -param DebugMessage [in]
 
 Pointer to a string that contains the debug message.
@@ -84,9 +83,12 @@ TBD
 
 
 
+
 ## -returns
 
 
+
 None
+
 
 

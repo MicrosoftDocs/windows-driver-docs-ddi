@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	CreateMiracastContext
 product: Windows
 targetos: Windows
@@ -77,35 +77,27 @@ NTSTATUS NTAPI* CreateMiracastContext(
 A handle to the current Miracast display device, supplied by the operating system.
 
 
-### -param *pMiracastCallbacks
-
-
-
-### -param *ppMiracastContext
-
-
-
-
-
-
-#### - ppMiracastContext [out]
-
-A pointer to a buffer, supplied by the operating system, that holds the Miracast context that the Miracast user-mode driver returns.
-
-
-#### - pMiracastCallbacks [in]
+### -param *pMiracastCallbacks [in]
 
 A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_callbacks.md">MIRACAST_CALLBACKS</a> structure that has pointers to callback functions, supplied by the operating system,  that the Miracast user-mode driver can call.
 
 
+### -param *ppMiracastContext [out]
+
+A pointer to a buffer, supplied by the operating system, that holds the Miracast context that the Miracast user-mode driver returns.
+
+
 ## -returns
+
 
 
 On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function returns an error code defined in the Ntstatus.h header.
 
 
 
+
 ## -remarks
+
 
 
 When this function is called, the Miracast user-mode driver should prepare all resources that it needs for a new Miracast connected session.
@@ -113,16 +105,30 @@ When this function is called, the Miracast user-mode driver should prepare all r
 The driver can call the callback functions pointed to by <i>pMiracastCallbacks</i> only during the lifetime of the current Miracast context.
 
 
+#### Thread Safety
+
+The operating system guarantees that only one of the <i>CreateMiracastContext</i>, <a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>, <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>, and <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> functions is called at a time.
+
+
+
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_callbacks.md">MIRACAST_CALLBACKS</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+
+
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
 
+
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+
+
+<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_callbacks.md">MIRACAST_CALLBACKS</a>
+
+
 
  
 

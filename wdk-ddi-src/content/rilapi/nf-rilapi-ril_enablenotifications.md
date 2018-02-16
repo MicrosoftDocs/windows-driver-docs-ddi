@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 560cb5a3-ac15-4a11-977a-b66caefc2f6b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_enablenotifications, RIL_EnableNotifications, rilapi/RIL_EnableNotifications
+ms.keywords: rilapi/RIL_EnableNotifications, RIL_EnableNotifications, RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_enablenotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_EnableNotifications
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_EnableNotifications(
 ### -param hRil
 
 
-
 ### -param usersContext
-
 
 
 ### -param lpdwNotifications
 
 
-
 ### -param dwNotificationCount
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

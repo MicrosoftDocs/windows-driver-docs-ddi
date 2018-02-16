@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d7abe2aa-a33c-4184-a850-d0efa1e99221
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint::GetPassCount, dbgeng/IDebugBreakpoint2::GetPassCount, GetPassCount, IDebugBreakpoint2::GetPassCount, IDebugBreakpoint interface [Windows Debugging], GetPassCount method, GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], GetPassCount method, debugger.getpasscount, ComOther_bf916108-efd7-436f-a89e-a26826e2e258.xml, GetPassCount method [Windows Debugging], GetPassCount method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, dbgeng/IDebugBreakpoint::GetPassCount
+ms.keywords: GetPassCount method [Windows Debugging], ComOther_bf916108-efd7-436f-a89e-a26826e2e258.xml, dbgeng/IDebugBreakpoint2::GetPassCount, IDebugBreakpoint, debugger.getpasscount, IDebugBreakpoint2::GetPassCount, dbgeng/IDebugBreakpoint::GetPassCount, GetPassCount method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], GetPassCount method, IDebugBreakpoint interface [Windows Debugging], GetPassCount method, IDebugBreakpoint2, GetPassCount, GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::GetPassCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.GetPassCount
 -	IDebugBreakpoint2.GetPassCount
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::GetPassCount method
@@ -76,6 +76,7 @@ The number of times that the target was originally required to hit the breakpoin
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,13 +93,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>GetPassCount</b> method returns the number of hits that were originally required to trigger the breakpoint. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545769">GetCurrentPassCount</a> method returns the number of hits that still must occur to trigger the breakpoint. For example, if a breakpoint was created with a pass count of 20, and there have been 5 passes so far, this method <b>GetPassCount</b> returns 20 and <b>GetCurrentPassCount</b> returns 15.
@@ -110,5 +114,6 @@ If the debugger executes the code at the breakpoint location while stepping thro
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548095">GetParameters</a> method also returns the information that is returned in <i>Count</i>.
 
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

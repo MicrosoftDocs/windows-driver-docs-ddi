@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_DISCONNECT
-title: _BTH_SDP_DISCONNECT
+title: "_BTH_SDP_DISCONNECT"
 author: windows-driver-content
 description: The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote SDP connection to terminate. This structure is passed as the input buffer of IOCTL_BTH_SDP_DISCONNECT.
 old-location: bltooth\bth_sdp_disconnect.htm
@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d0466569-7c9d-40d2-8794-b1d877a52458
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BTH_SDP_DISCONNECT, bltooth.bth_sdp_disconnect, bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bthioctl/PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], *PBTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT structure [Bluetooth Devices], bthioctl/BTH_SDP_DISCONNECT
+ms.keywords: bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bltooth.bth_sdp_disconnect, BTH_SDP_DISCONNECT structure [Bluetooth Devices], bthioctl/BTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], _BTH_SDP_DISCONNECT, bthioctl/PBTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthioctl.h
-apiname: 
+apiname:
 -	BTH_SDP_DISCONNECT
 product: Windows
 targetos: Windows
-req.typenames: BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT
+req.typenames: "*PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT"
 ---
 
 # _BTH_SDP_DISCONNECT structure
@@ -75,6 +75,7 @@ typedef struct _BTH_SDP_DISCONNECT {
 
 
 
+
 #### - hConnection
 
 A handle for the SDP connection on the remote server to terminate. This should be a value returned
@@ -89,9 +90,15 @@ A handle for the SDP connection on the remote server to terminate. This should b
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>
+
 
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>
+
+
 
  
 

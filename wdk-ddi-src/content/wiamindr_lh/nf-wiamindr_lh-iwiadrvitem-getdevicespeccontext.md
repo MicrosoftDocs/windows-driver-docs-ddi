@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 04f8d7ef-43c6-43b7-afa1-06ae379a8e26
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem::GetDeviceSpecContext, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, GetDeviceSpecContext, GetDeviceSpecContext method [Imaging Devices], image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext, DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, IWiaDrvItem
+ms.keywords: GetDeviceSpecContext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext, DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, IWiaDrvItem::GetDeviceSpecContext, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem, GetDeviceSpecContext method [Imaging Devices], image.iwiadrvitem_getdevicespeccontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.GetDeviceSpecContext
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ HRESULT GetDeviceSpecContext(
 
 
 
+
 #### - ppSpecContext [out, optional]
 
 Points to a memory location that will receive the address of a device-specific context.
@@ -82,14 +83,18 @@ Points to a memory location that will receive the address of a device-specific c
 ## -returns
 
 
+
 If the method succeeds, it stores a pointer to the device-specific context in <i>ppSpecContext</i> and returns S_OK. If the method fails because the parameter <i>ppSpecContext</i> specifies an invalid pointer, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 Minidrivers typically use this method to obtain a pointer to a device-specific context associated with an <b>IWiaDrvItem</b> item. The device-specific context is associated with the item when the item is created using the driver services library function <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>.
+
 
 
 
@@ -97,7 +102,11 @@ Minidrivers typically use this method to obtain a pointer to a device-specific c
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
+
+
 
  
 

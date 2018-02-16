@@ -7,8 +7,8 @@ old-location: print\ifixedpage_setpagepart.htm
 old-project: print
 ms.assetid: 12970111-3d25-4004-9c6d-8582ef7afef3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IFixedPage interface [Print Devices], SetPagePart method, SetPagePart method [Print Devices], print.ifixedpage_setpagepart, SetPagePart, filterpipeline_03059a3d-9aac-4ff2-8506-7754327942f6.xml, IFixedPage, SetPagePart method [Print Devices], IFixedPage interface, IFixedPage::SetPagePart, filterpipeline/IFixedPage::SetPagePart
+ms.date: 2/2/2018
+ms.keywords: SetPagePart method [Print Devices], filterpipeline/IFixedPage::SetPagePart, print.ifixedpage_setpagepart, IFixedPage interface [Print Devices], SetPagePart method, SetPagePart method [Print Devices], IFixedPage interface, IFixedPage, SetPagePart, filterpipeline_03059a3d-9aac-4ff2-8506-7754327942f6.xml, IFixedPage::SetPagePart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IFixedPage.SetPagePart
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ A pointer to the new part.
 ## -returns
 
 
+
 <b>SetPagePart</b> returns an <b>HRESULT</b> value.
+
 
 

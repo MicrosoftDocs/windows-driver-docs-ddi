@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
-title: _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
+title: "_DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS"
 author: windows-driver-content
 description: The parameters for a response to a provision discovery request are specified in a DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure. This structure is sent with an OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE request to the miniport.
 old-location: netvista\dot11_send_provision_discovery_response_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C6F937B8-6C3B-4D95-ADE0-931463EB57C3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, netvista.dot11_send_provision_discovery_response_parameters, PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_send_provision_discovery_response_parameters, _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, windot11/DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
+req.typenames: DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS, *PDOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -77,6 +77,7 @@ typedef struct _DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -94,7 +95,8 @@ The type, revision, and size of the <b>DOT11_SEND_PROVISION_DISCOVERY_RESPONSE_P
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_SEND_PROVISION_DISCOVERY_RESPONSE_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ReceiverDeviceAddress
@@ -129,11 +131,17 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451808">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439797">NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439785">NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_RESPONSE_SEND_COMPLETE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439797">NDIS_STATUS_DOT11_WFD_RECEIVED_PROVISION_DISCOVERY_REQUEST</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451808">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
+
+
 
  
 

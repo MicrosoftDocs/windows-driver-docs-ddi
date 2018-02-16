@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 5ae1c898-d06e-42ff-bddb-42d6748dac0f
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SDTT_CMD_ONLY, SDTT_SINGLE_BLOCK, sddef/SDTT_CMD_ONLY, sddef/SD_TRANSFER_TYPE, sddef/SDTT_MULTI_BLOCK, sddef/SDTT_MULTI_BLOCK_NO_CMD12, SD_TRANSFER_TYPE enumeration [Buses], SDTT_UNSPECIFIED, SDTT_MULTI_BLOCK_NO_CMD12, sddef/SDTT_SINGLE_BLOCK, SD_TRANSFER_TYPE, sddef/SDTT_UNSPECIFIED, SDTT_MULTI_BLOCK, sd-structs_5a149cc8-e6ba-4700-ad7c-148429d9731f.xml, SD.sd_transfer_type
+ms.keywords: SD.sd_transfer_type, SD_TRANSFER_TYPE enumeration [Buses], SDTT_SINGLE_BLOCK, SDTT_MULTI_BLOCK, sd-structs_5a149cc8-e6ba-4700-ad7c-148429d9731f.xml, sddef/SDTT_MULTI_BLOCK, SDTT_MULTI_BLOCK_NO_CMD12, sddef/SD_TRANSFER_TYPE, sddef/SDTT_CMD_ONLY, sddef/SDTT_MULTI_BLOCK_NO_CMD12, SDTT_CMD_ONLY, sddef/SDTT_SINGLE_BLOCK, SD_TRANSFER_TYPE, sddef/SDTT_UNSPECIFIED, SDTT_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	sddef.h
-apiname: 
+apiname:
 -	SD_TRANSFER_TYPE
 product: Windows
 targetos: Windows
@@ -100,6 +100,8 @@ Indicates that the request reads or writes multiple blocks of data. The transfer
 ## -see-also
 
 <a href="https://msdn.microsoft.com/7c49c394-d0b3-4594-a623-0a13825bdcec">SDCMD_DESCRIPTOR</a>
+
+
 
  
 

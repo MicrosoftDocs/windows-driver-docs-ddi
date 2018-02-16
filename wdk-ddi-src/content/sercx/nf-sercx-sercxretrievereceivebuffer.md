@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 4EC1935D-038C-418C-AB28-A49085877B4A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxRetrieveReceiveBuffer method [Serial Ports], 1/SerCxRetrieveReceiveBuffer, serports.sercxretrievereceivebuffer, SerCxRetrieveReceiveBuffer
+ms.keywords: SerCxRetrieveReceiveBuffer method [Serial Ports], serports.sercxretrievereceivebuffer, 1/SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SerCxRetrieveReceiveBuffer
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ A pointer to a caller-allocated <a href="..\sercx\ns-sercx-sercx_buffer_descript
 ## -returns
 
 
+
 <b>SerCxRetrieveReceiveBuffer</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,22 +129,30 @@ Could not allocate system resources (typically memory).
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The serial controller driver calls this method to acquire a buffer to contain input data from the current receive (read) operation.
+
 
 
 
 ## -see-also
 
+<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
+
+
+
 <a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
 
-<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_TDSCDMA_MRL_INFO
-title: _WWAN_TDSCDMA_MRL_INFO
+title: "_WWAN_TDSCDMA_MRL_INFO"
 author: windows-driver-content
 description: The WWAN_TDSCDMA_MRL_INFO structure represents information about a neighboring TDSCDMA cell.
 old-location: netvista\wwan_tdscdma_mrl_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4EA0AE24-E4B0-49E0-8C50-44F6890C5C52
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL_INFO, _WWAN_TDSCDMA_MRL_INFO, netvista.wwan_tdscdma_mrl_info, PWWAN_TDSCDMA_MRL_INFO, wwan/PWWAN_TDSCDMA_MRL_INFO, *PWWAN_TDSCDMA_MRL_INFO, WWAN_TDSCDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WWAN_TDSCDMA_MRL_INFO, wwan/PWWAN_TDSCDMA_MRL_INFO, WWAN_TDSCDMA_MRL_INFO, WWAN_TDSCDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], *PWWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO, netvista.wwan_tdscdma_mrl_info, _WWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_TDSCDMA_MRL_INFO
 product: Windows
 targetos: Windows
@@ -128,6 +128,7 @@ The path loss of the serving cell (46-158). Use 0xFFFFFFFF when this information
 
 
 
+
 #### - CellParameterID
 
 The Cell Parameter ID (0-127). Use 0xFFFFFFFF when this information is not available.
@@ -142,11 +143,19 @@ The data buffer containing <i>ProviderId</i>.
 
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_serving_cell_info.md">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
 
  
 

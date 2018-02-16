@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Poclass.h
-apiname: 
+apiname:
 -	PassiveCooling
 product: Windows
 targetos: Windows
-req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
+req.typenames: "*PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION"
 ---
 
 # DEVICE_PASSIVE_COOLING callback
@@ -84,11 +84,14 @@ The percentage of full performance at which the device is permitted to operate. 
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The driver for a device that has passive-cooling capabilities can implement this routine to enable the operating system to throttle the performance of the device, as necessary, to allow the device to cool.
@@ -109,9 +112,12 @@ For more information about passive cooling, see <a href="https://msdn.microsoft.
 
 
 
+
 ## -see-also
 
 <a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a>
+
+
 
  
 

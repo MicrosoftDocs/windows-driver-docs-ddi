@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._GetPathConfiguration_OUT
-title: _GetPathConfiguration_OUT
+title: "_GetPathConfiguration_OUT"
 author: windows-driver-content
 description: The GetPathConfiguration_OUT structure is used to report the output parameters that are associated with the GetPathConfiguration method.
 old-location: storage\getpathconfiguration_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 055db46e-59fc-4eb9-93d7-16d680495220
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: GetPathConfiguration_OUT, _GetPathConfiguration_OUT, *PGetPathConfiguration_OUT, storage.getpathconfiguration_out, mpiowmi/PGetPathConfiguration_OUT, structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml, PGetPathConfiguration_OUT, mpiowmi/GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], PGetPathConfiguration_OUT structure pointer [Storage Devices]
+ms.keywords: structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml, _GetPathConfiguration_OUT, mpiowmi/PGetPathConfiguration_OUT, storage.getpathconfiguration_out, PGetPathConfiguration_OUT structure pointer [Storage Devices], PGetPathConfiguration_OUT, mpiowmi/GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], GetPathConfiguration_OUT, *PGetPathConfiguration_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiowmi.h
-apiname: 
+apiname:
 -	GetPathConfiguration_OUT
 product: Windows
 targetos: Windows
-req.typenames: GetPathConfiguration_OUT, *PGetPathConfiguration_OUT
+req.typenames: "*PGetPathConfiguration_OUT, GetPathConfiguration_OUT"
 ---
 
 # _GetPathConfiguration_OUT structure

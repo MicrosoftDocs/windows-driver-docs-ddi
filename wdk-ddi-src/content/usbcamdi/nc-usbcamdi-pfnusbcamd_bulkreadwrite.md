@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	USBCAMD_BulkReadWrite
 product: Windows
 targetos: Windows
@@ -109,7 +109,9 @@ Pointer to a block of memory, that is passed as an argument to the camera minidr
 ## -returns
 
 
+
 <b>USBCAMD_BulkReadWrite</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,11 +158,14 @@ There are insufficient resources to schedule a transfer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 USBCAMD can accept one read and one write request at a time.
@@ -169,11 +174,16 @@ USBCAMD can accept one read and one write request at a time.
 
 
 
+
 ## -see-also
 
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
 
+
+
 <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
+
+
 
  
 

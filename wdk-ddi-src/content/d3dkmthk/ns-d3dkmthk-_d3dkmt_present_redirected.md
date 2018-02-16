@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT_REDIRECTED
-title: _D3DKMT_PRESENT_REDIRECTED
+title: "_D3DKMT_PRESENT_REDIRECTED"
 author: windows-driver-content
 description: Used to give information on the status of the present history token.
 old-location: display\d3dkmt-present-redirected.htm
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_PRESENT_REDIRECTED
 product: Windows
 targetos: Windows

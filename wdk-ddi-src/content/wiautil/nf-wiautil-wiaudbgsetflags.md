@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgSetFlags
-title: wiauDbgSetFlags function
+title: wiauDbgSetFlags macro
 author: windows-driver-content
 description: The wiauDbgSetFlags function sets debugging flags.
 old-location: image\wiaudbgsetflags.htm
@@ -8,10 +8,10 @@ old-project: image
 ms.assetid: e3b944ef-daa5-412c-ac11-7b08d2b9333b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiauDbgSetFlags function [Imaging Devices], wiautil/wiauDbgSetFlags
+ms.keywords: wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiauDbgSetFlags, image.wiaudbgsetflags, wiautil/wiauDbgSetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -26,17 +26,17 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauDbgSetFlags
 product: Windows
 targetos: Windows
@@ -44,7 +44,7 @@ req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
 ---
 
-# wiauDbgSetFlags function
+# wiauDbgSetFlags macro
 
 
 ## -description
@@ -68,9 +68,19 @@ inline DWORD __stdcall wiauDbgSetFlags(
 
 
 
-### -param flags
+### -param a
+
+TBD
+
+
+
+
+
+
+#### - flags
 
 Is a set of flags that control message logging. This parameter can be set to a combination of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -186,19 +196,15 @@ Log warning messages.
 
 </td>
 </tr>
-</table> 
-
-
-## -returns
-
-
-The <b>wiauDbgSetFlags</b> function returns a value containing the flags that were in effect before the call to this function.
-
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaudbgflags.md">wiauDbgFlags</a>
+
+
 
  
 

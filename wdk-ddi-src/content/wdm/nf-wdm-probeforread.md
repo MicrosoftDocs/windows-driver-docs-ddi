@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86b09f5c-6527-447e-b383-b97d45a57ce7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.probeforread, ProbeForRead, wdm/ProbeForRead, ProbeForRead routine [Kernel-Mode Driver Architecture], k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml
+ms.keywords: k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, kernel.probeforread, ProbeForRead, ProbeForRead routine [Kernel-Mode Driver Architecture], wdm/ProbeForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ProbeForRead
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Specifies the required alignment, in bytes, of the beginning of the user-mode bu
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the specified range of memory is not within the user-mode address range, <b>ProbeForRead</b> raises the STATUS_ACCESS_VIOLATION exception. If the beginning of the address range is not aligned on the byte boundary that is specified by <i>Alignment</i>, <b>ProbeForRead</b> raises the STATUS_DATATYPE_MISALIGNMENT exception.
@@ -109,9 +112,12 @@ If <i>Length</i> = 0, <b>ProbeForRead</b> does no checking of the address. In th
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
+
+
 
  
 

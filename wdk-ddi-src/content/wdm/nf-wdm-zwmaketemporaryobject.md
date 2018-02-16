@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1b58174f-aa38-4ea3-8e08-41434684e9ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_54a6768d-3f33-4c9e-8068-810401cad810.xml, kernel.zwmaketemporaryobject, wdm/NtMakeTemporaryObject, ZwMakeTemporaryObject, NtMakeTemporaryObject, wdm/ZwMakeTemporaryObject, ZwMakeTemporaryObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.zwmaketemporaryobject, k111_54a6768d-3f33-4c9e-8068-810401cad810.xml, ZwMakeTemporaryObject, wdm/ZwMakeTemporaryObject, ZwMakeTemporaryObject routine [Kernel-Mode Driver Architecture], wdm/NtMakeTemporaryObject, NtMakeTemporaryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwMakeTemporaryObject
 -	NtMakeTemporaryObject
 product: Windows
@@ -77,11 +77,14 @@ Handle to an object of any type.
 ## -returns
 
 
+
 <b>ZwMakeTemporaryObject</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure.
 
 
 
+
 ## -remarks
+
 
 
 <b>ZwMakeTemporaryObject</b> is a generic routine that operates on any type of object.
@@ -91,21 +94,35 @@ An object is permanent if it was created with the OBJ_PERMANENT object attribute
 An object is temporary if it is not permanent. <b>ZwMakeTemporaryObject</b> turns the specified object into a temporary object. If the object is already temporary, this routine does nothing.
 
 A temporary object has a name only as long as its handle count is greater than zero. When the handle count reaches zero, the system deletes the object name and appropriately adjusts the object's pointer count.
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtMakeTemporaryObject</b>" instead of "<b>ZwMakeTemporaryObject</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtMakeTemporaryObject</b>" instead of "<b>ZwMakeTemporaryObject</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
 
  
 

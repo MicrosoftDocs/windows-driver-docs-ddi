@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba1f48ab-f301-4ae8-b56e-92eb6e3601f2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_UMTSMRL_RSCP, rilapitypes/RIL_PARAM_UMTSMRL_UARFCN, rilapitypes/RILUMTSMRLPARAMMASK, rilapitypes/RIL_PARAM_UMTSMRL_ECNO, RILUMTSMRLPARAMMASK, netvista.rilumtsmrlparammask, rilapitypes/RIL_PARAM_UMTSMRL_PRIMARY_SC, rilapitypes/RIL_PARAM_UMTSMRL_CELLID, RIL_PARAM_UMTSMRL_PATHLOSS, rilapitypes/RIL_PARAM_UMTSMRL_MCC, RIL_PARAM_UMTSMRL_MNC, RIL_PARAM_UMTSMRL_CELLID, RIL_PARAM_UMTSMRL_UARFCN, RIL_PARAM_UMTSMRL_RSCP, RILUMTSMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_UMTSMRL_PATHLOSS, rilapitypes/RIL_PARAM_UMTSMRL_ALL, RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_PRIMARY_SC, RIL_PARAM_UMTSMRL_MCC, rilapitypes/RIL_PARAM_UMTSMRL_MNC, RIL_PARAM_UMTSMRL_ALL, rilapitypes/RIL_PARAM_UMTSMRL_LAC, RIL_PARAM_UMTSMRL_LAC
+ms.keywords: rilapitypes/RIL_PARAM_UMTSMRL_RSCP, rilapitypes/RIL_PARAM_UMTSMRL_MCC, RIL_PARAM_UMTSMRL_LAC, rilapitypes/RIL_PARAM_UMTSMRL_ALL, RIL_PARAM_UMTSMRL_MCC, RIL_PARAM_UMTSMRL_PATHLOSS, RIL_PARAM_UMTSMRL_CELLID, rilapitypes/RILUMTSMRLPARAMMASK, rilapitypes/RIL_PARAM_UMTSMRL_PRIMARY_SC, RIL_PARAM_UMTSMRL_RSCP, RIL_PARAM_UMTSMRL_ECNO, rilapitypes/RIL_PARAM_UMTSMRL_PATHLOSS, netvista.rilumtsmrlparammask, rilapitypes/RIL_PARAM_UMTSMRL_LAC, RIL_PARAM_UMTSMRL_ALL, RILUMTSMRLPARAMMASK, RIL_PARAM_UMTSMRL_UARFCN, rilapitypes/RIL_PARAM_UMTSMRL_MNC, rilapitypes/RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_PRIMARY_SC, rilapitypes/RIL_PARAM_UMTSMRL_UARFCN, rilapitypes/RIL_PARAM_UMTSMRL_CELLID, RIL_PARAM_UMTSMRL_MNC, RILUMTSMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUMTSMRLPARAMMASK
 product: Windows
 targetos: Windows
@@ -81,49 +81,41 @@ enum RILUMTSMRLPARAMMASK  {
 ### -field RIL_PARAM_UMTSMRL_MCC
 
 
-
 ### -field RIL_PARAM_UMTSMRL_MNC
-
 
 
 ### -field RIL_PARAM_UMTSMRL_LAC
 
 
-
 ### -field RIL_PARAM_UMTSMRL_CELLID
-
 
 
 ### -field RIL_PARAM_UMTSMRL_UARFCN
 
 
-
 ### -field RIL_PARAM_UMTSMRL_PRIMARY_SC
-
 
 
 ### -field RIL_PARAM_UMTSMRL_RSCP
 
 
-
 ### -field RIL_PARAM_UMTSMRL_ECNO
-
 
 
 ### -field RIL_PARAM_UMTSMRL_PATHLOSS
 
 
-
 ### -field RIL_PARAM_UMTSMRL_ALL
-
 
 
 ## -remarks
 
 
+
 Networks will vary, but the following table summarizes which items are returned for common UMTS networks. 
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -347,9 +339,11 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>UMTS neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -519,13 +513,17 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

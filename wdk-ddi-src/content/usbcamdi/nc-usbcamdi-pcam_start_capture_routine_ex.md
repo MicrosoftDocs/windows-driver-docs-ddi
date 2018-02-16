@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	CamStartCaptureEx
 product: Windows
 targetos: Windows
@@ -91,15 +91,19 @@ Indicates the stream number.
 ## -returns
 
 
+
 <b>CamStartCaptureEx</b> returns STATUS_SUCCESS or an appropriate error code. This return value is the completion code for the read IRP.
+
 
 
 
 ## -remarks
 
 
+
 The original USBCAMD does not call <b>CamStartCaptureEx</b>.
 
 This function is required.
+
 
 

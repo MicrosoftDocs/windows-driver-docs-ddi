@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 985f811e-cf4f-4dbe-8ede-497ba4eceffd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ExSetResourceOwnerPointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture], kernel.exsetresourceownerpointer, ExSetResourceOwnerPointer, k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml
+ms.keywords: k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml, ExSetResourceOwnerPointer, wdm/ExSetResourceOwnerPointer, kernel.exsetresourceownerpointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExSetResourceOwnerPointer
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ A pointer to an owner thread pointer of type ERESOURCE_THREAD (for additional re
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>ExSetResourceOwnerPointer</b>, used in conjunction with <b>ExReleaseResourceForThreadLite</b>, provides a means for one thread (acting as an resource manager thread) to acquire and release resources for use by another thread (acting as a resource user thread).
@@ -99,9 +102,12 @@ When the user thread is done with the resource, the resource manager thread rele
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
+
+
 
  
 

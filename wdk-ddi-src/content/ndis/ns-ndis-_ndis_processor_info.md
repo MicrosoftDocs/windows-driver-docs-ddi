@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROCESSOR_INFO
-title: _NDIS_PROCESSOR_INFO
+title: "_NDIS_PROCESSOR_INFO"
 author: windows-driver-content
 description: The NDIS_PROCESSOR_INFO structure specifies information about a processor in the local computer.
 old-location: netvista\ndis_processor_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 55c7044e-20db-4245-a644-93cbeb9cd512
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO, *PNDIS_PROCESSOR_INFO, netvista.ndis_processor_info, ndis/PNDIS_PROCESSOR_INFO, ndis_sysinfo_ref_87f00f3b-dc88-4f7d-be9e-39a649aa87a6.xml, ndis/NDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/PNDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO, ndis/NDIS_PROCESSOR_INFO, ndis_sysinfo_ref_87f00f3b-dc88-4f7d-be9e-39a649aa87a6.xml, _NDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_processor_info, NDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_PROCESSOR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_PROCESSOR_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO
+req.typenames: NDIS_PROCESSOR_INFO, *PNDIS_PROCESSOR_INFO
 ---
 
 # _NDIS_PROCESSOR_INFO structure
@@ -82,8 +82,8 @@ The CPU number that is assigned to the processor. The value is in the range from
 The physical package ID of the processor. The value is in the range from zero through the number
      in the 
      <b>NumPhysicalPackages</b> member of the 
-     <mshelp:link keywords="netvista.ndis_system_processor_info" tabindex="0"><b>
-     NDIS_SYSTEM_PROCESSOR_INFO</b></mshelp:link> structure minus one.
+     <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">
+     NDIS_SYSTEM_PROCESSOR_INFO</a> structure minus one.
 
 
 ### -field CoreId
@@ -102,9 +102,11 @@ The hyper-threading ID of the processor. The value is in the range from zero thr
 ## -remarks
 
 
+
 The NDIS_PROCESSOR_INFO structure is used in the 
-    <mshelp:link keywords="netvista.ndis_system_processor_info" tabindex="0"><b>
-    NDIS_SYSTEM_PROCESSOR_INFO</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">
+    NDIS_SYSTEM_PROCESSOR_INFO</a> structure.
+
 
 
 
@@ -112,7 +114,11 @@ The NDIS_PROCESSOR_INFO structure is used in the
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_processor_info_ex.md">NDIS_PROCESSOR_INFO_EX</a>
 
+
+
 <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
+
+
 
  
 

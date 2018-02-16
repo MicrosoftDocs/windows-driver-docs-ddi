@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_STATUS_BLOCK
-title: _IO_STATUS_BLOCK
+title: "_IO_STATUS_BLOCK"
 author: windows-driver-content
 description: A driver sets an IRP's I/O status block to indicate the final status of an I/O request, before calling IoCompleteRequest for the IRP.
 old-location: kernel\io_status_block.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], PIO_STATUS_BLOCK, _IO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, wdm/IO_STATUS_BLOCK, IO_STATUS_BLOCK, wdm/PIO_STATUS_BLOCK, *PIO_STATUS_BLOCK, kernel.io_status_block
+ms.keywords: PIO_STATUS_BLOCK, kernel.io_status_block, wdm/IO_STATUS_BLOCK, *PIO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK, IO_STATUS_BLOCK, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], wdm/PIO_STATUS_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_STATUS_BLOCK
 product: Windows
 targetos: Windows
@@ -79,12 +79,12 @@ typedef struct _IO_STATUS_BLOCK {
 
 ### -field DUMMYUNIONNAME.Status
 
- 
+This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
 
 
 ### -field DUMMYUNIONNAME.Pointer
 
- 
+Reserved. For internal use only.
 
 
 ### -field Information
@@ -92,17 +92,8 @@ typedef struct _IO_STATUS_BLOCK {
 This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
 
 
-#### - Status
-
-This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
-
-
-#### - Pointer
-
-Reserved. For internal use only.
-
-
 ## -remarks
+
 
 
 Unless a driver's dispatch routine completes an IRP with an error status value, the lowest-level driver in the chain frequently sets the IRP's I/O status block to the values that will be returned to the original requester of the I/O operation.
@@ -115,15 +106,24 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+## -see-also
 
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
 
  
 

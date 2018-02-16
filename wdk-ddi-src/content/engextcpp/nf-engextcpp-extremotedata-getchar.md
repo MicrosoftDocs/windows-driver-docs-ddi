@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bf916e7c-f03b-4d02-8260-bc90e8957cc9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetChar method [Windows Debugging], ExtRemoteData::GetChar, EngExtCpp_Ref_98ced053-a952-4c9f-af2b-0aab9d20e311.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetChar method, GetChar, GetChar method [Windows Debugging], ExtRemoteData class, debugger.extremotedata_getchar
+ms.keywords: ExtRemoteData class [Windows Debugging], GetChar method, debugger.extremotedata_getchar, ExtRemoteData, ExtRemoteData::GetChar, GetChar, GetChar method [Windows Debugging], ExtRemoteData class, GetChar method [Windows Debugging], EngExtCpp_Ref_98ced053-a952-4c9f-af2b-0aab9d20e311.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.GetChar
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetChar method
@@ -66,27 +66,38 @@ CHAR GetChar();
 
 
 
+
 ## -returns
+
 
 
 <b>GetChar</b> returns the CHAR version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
 
 
 
+
 ## -remarks
+
 
 
 The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be <code>sizeof(CHAR)</code>.
 
 
 
+
 ## -see-also
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544057">ExtRemoteData::GetUchar</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
 
  
 

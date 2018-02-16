@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8F64E58D-9C04-43BA-9C1B-88AD081176A9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsAllocator, KsSetAllocatorMode, stream.iksallocator_kssetallocatormode, KsSetAllocatorMode method [Streaming Media Devices], IKsAllocator::KsSetAllocatorMode, IKsAllocator interface [Streaming Media Devices], KsSetAllocatorMode method, KsSetAllocatorMode method [Streaming Media Devices], IKsAllocator interface, ksproxy/IKsAllocator::KsSetAllocatorMode
+ms.keywords: ksproxy/IKsAllocator::KsSetAllocatorMode, stream.iksallocator_kssetallocatormode, IKsAllocator, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices], KsSetAllocatorMode method, KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], IKsAllocator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsAllocator.KsSetAllocatorMode
 product: Windows
 targetos: Windows
@@ -75,16 +75,21 @@ HRESULT KsSetAllocatorMode(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
+
+
 
  
 

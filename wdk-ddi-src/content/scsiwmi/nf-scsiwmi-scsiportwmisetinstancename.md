@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f624959f-e232-4918-8f0b-f232471c2c67
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportwmisetinstancename, scsiwmi/ScsiPortWmiSetInstanceName, scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml, ScsiPortWmiSetInstanceName, ScsiPortWmiSetInstanceName routine [Storage Devices]
+ms.keywords: ScsiPortWmiSetInstanceName routine [Storage Devices], storage.scsiportwmisetinstancename, scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml, ScsiPortWmiSetInstanceName, scsiwmi/ScsiPortWmiSetInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsiwmi.h
-apiname: 
+apiname:
 -	ScsiPortWmiSetInstanceName
 product: Windows
 targetos: Windows
@@ -116,11 +116,14 @@ Indicates, on input, the number of bytes needed to describe the WNODE <i>before 
 ## -returns
 
 
+
 The <b>ScsiPortWmiSetInstanceCount</b> routine returns a pointer to the buffer where the caller can store the name of the instance specified in <i>InstanceIndex</i>. If <b>ScsiPortWmiSetInstanceCount</b> cannot allocate enough memory for the instance name, or if the WNODE contained within the request context is not of type <a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>, <b>ScsiPortWmiSetData</b> returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The minidriver must call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmisetinstancecount.md">ScsiPortWmiSetInstanceCount</a> before calling  <b>ScsiPortWmiSetInstanceName</b>.
@@ -133,13 +136,20 @@ The memory allocated for the request context must remain valid until after the m
 
 
 
+
 ## -see-also
 
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
+
+
 <a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
+
+
 <a href="..\wmistr\ns-wmistr-tagwnode_all_data.md">WNODE_ALL_DATA</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	MiniportTcpOffloadSend
 product: Windows
 targetos: Windows
@@ -80,10 +80,10 @@ NDIS_STATUS MiniportTcpOffloadSend(
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
-     <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-     NdisMSetMiniportAttributes</b></mshelp:link> from its 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     NdisMSetMiniportAttributes</a> from its 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -param MiniportOffloadContext [in]
@@ -109,14 +109,17 @@ A pointer to a
 ## -returns
 
 
+
 NDIS_STATUS_PENDING is the only return value that is allowed. An offload target always completes a
      send request asynchronously by calling 
-     <mshelp:link keywords="netvista.ndistcpoffloadsendcomplete" tabindex="0"><b>
-     NdisTcpOffloadSendComplete</b></mshelp:link>.
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">
+     NdisTcpOffloadSendComplete</a>.
+
 
 
 
 ## -remarks
+
 
 
 An offload target must transmit data in first in, first out (FIFO) order. The order of the linked list
@@ -162,15 +165,24 @@ The host stack will not request the offload target to send urgent data.
 
 
 
+
 ## -see-also
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
 
  
 

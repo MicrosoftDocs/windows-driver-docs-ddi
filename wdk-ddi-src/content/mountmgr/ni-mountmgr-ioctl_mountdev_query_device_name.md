@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Mountmgr.h
-apiname: 
+apiname:
 -	IOCTL_MOUNTDEV_QUERY_DEVICE_NAME
 product: Windows
 targetos: Windows
-req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
+req.typenames: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID"
 ---
 
 # IOCTL_MOUNTDEV_QUERY_DEVICE_NAME IOCTL
@@ -65,14 +65,18 @@ Support for this IOCTL by the mount manager clients is mandatory. Upon receiving
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -89,14 +93,18 @@ The mount manager client returns a variable-length structure of type <a href="..
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -112,6 +120,8 @@ If the output buffer is too small to hold the device name, the mount manager cli
 ## -see-also
 
 <a href="..\mountmgr\ns-mountmgr-_mountdev_name.md">MOUNTDEV_NAME</a>
+
+
 
  
 

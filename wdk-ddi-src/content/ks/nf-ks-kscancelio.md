@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 082a63d5-5ba5-4cd3-aea3-0184317e1e96
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, KsCancelIo function [Streaming Media Devices], KsCancelIo, ks/KsCancelIo, stream.kscancelio
+ms.keywords: ks/KsCancelIo, stream.kscancelio, KsCancelIo, ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, KsCancelIo function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsCancelIo
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Points to a caller-allocated spin lock for queue access. A copy of this pointer 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>KsCancelIo </b>cancels all IRPs in a given driver-maintained queue. If the IRP has a cancel routine, the cancel routine is called. Otherwise, the cancel flag in the IRP is set to <b>TRUE</b>. The IRPs are not removed from the queue by this routine. It is the sole responsibility of the driver to ensure that the IRPs are removed either by the cancel routine specified in the IRP or by some other driver-supplied functionality.
@@ -95,9 +98,12 @@ If the IRP being canceled has a driver-supplied cancel routine, the cancel spin 
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
+
+
 
  
 

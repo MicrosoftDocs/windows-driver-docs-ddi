@@ -7,7 +7,7 @@ old-location: print\ipartdiscardcontrol.htm
 old-project: print
 ms.assetid: 30c6fb0c-42ea-441f-b0a2-3310f8a5b407
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.ipartdiscardcontrol, IPartDiscardControl interface [Print Devices], IPartDiscardControl interface [Print Devices], described, IPartDiscardControl, filterpipeline/IPartDiscardControl, filterpipeline_c29b91d3-ecf6-4697-bf5f-5b536cfb7071.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartDiscardControl
 product: Windows
 targetos: Windows

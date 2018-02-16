@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e984400a-b94f-4848-af56-79695b327404
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoFreeMdl, wdm/IoFreeMdl, k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, IoFreeMdl routine [Kernel-Mode Driver Architecture], kernel.iofreemdl
+ms.keywords: kernel.iofreemdl, IoFreeMdl, IoFreeMdl routine [Kernel-Mode Driver Architecture], wdm/IoFreeMdl, k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoFreeMdl
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the MDL to be released.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If a driver allocates an MDL to describe a buffer, it must explicitly release the MDL when operations on the buffer are done.
@@ -93,11 +96,16 @@ This routine frees only the specified MDL. Any MDLs that are chained to this MDL
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
+
+
 <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+
 
  
 

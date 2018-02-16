@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusData
-title: _DXVA_COPPStatusData
+title: "_DXVA_COPPStatusData"
 author: windows-driver-content
 description: The DXVA_COPPStatusData structure contains the status information returned from a query on a protected video session that is associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusdata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f459cfa7-9fda-4b46-9fc9-05bdc9e5c964
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_COPPStatusData structure [Display Devices], display.dxva_coppstatusdata, dxvaref_76d7144b-c4a7-4530-bf35-be9b9955c9d6.xml, DXVA_COPPStatusData, dxva/DXVA_COPPStatusData, _DXVA_COPPStatusData
+ms.keywords: dxvaref_76d7144b-c4a7-4530-bf35-be9b9955c9d6.xml, display.dxva_coppstatusdata, dxva/DXVA_COPPStatusData, _DXVA_COPPStatusData, DXVA_COPPStatusData structure [Display Devices], DXVA_COPPStatusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_COPPStatusData
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ Specifies a 128-bit random number that is used once. This random number is gener
 ### -field dwFlags
 
 Specifies additional status information that might be relevant to the calling application. The display driver should set <b>dwFlags</b> to the COPP_StatusNormal (0x00) value from the <b>COPP_StatusFlags</b> enumeration type or to a valid ORed combination of the following COPP_StatusFlags:
+
 <ul>
 <li>
 COPP_LinkLost (0x01)
@@ -97,53 +98,39 @@ Specifies 32-bit status data that is returned from one of the following requests
 
 
 
-### -field ExtendedInfoValidMask
 
-Specifies a value that indicates the valid bitfields in the following <b>ExtendedInfoData</b> member.
+#### DXVA_COPPQueryProtectionType
 
+Returns a valid ORed combination of the following values that indicate the available types of protection mechanisms on the physical connector associated with a COPP device: 
 
-### -field ExtendedInfoData
-
-Specifies additional 32-bit data for the status. Not currently used.
-
-
-##### - dwData.DXVA_COPPQueryGlobalProtectionLevel
-
-Returns the currently set protection level for the physical connector. The level value returned must reflect the protection level currently applied through the connector, regardless of how the driver was instructed to apply the protection level. For example, if ACP was enabled through the Win32 <b>ChangeDisplaySettingsEx</b> function and not through the <b>IAMCertifiedOutputProtection</b> interface, the global protection level that was returned through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a> function for the connector must indicate that ACP was enabled, even though ACP was not enabled through the <b>IAMCertifiedOutputProtection</b> interface. 
-
-The protection-level value depends on the protection type specified in the <b>StatusData</b> member of the <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a> structure. For possible protection levels, see the <b>ProtLevel</b> member of the <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a> structure. 
-
-
-##### - dwData.DXVA_COPPQueryBusData
-
-Returns one of the following values from the <b>COPP_BusType</b> enumeration type that identifies the type of bus used by the graphics hardware associated with a COPP device:
 <ul>
 <li>
-COPP_BusType_Unknown (0)
+COPP_ProtectionType_Unknown (0x80000000)
 
 </li>
 <li>
-COPP_BusType_PCI (1)
+COPP_ProtectionType_None (0x00)
 
 </li>
 <li>
-COPP_BusType_PCIX (2)
+COPP_ProtectionType_HDCP (0x01)
 
 </li>
 <li>
-COPP_BusType_PCIExpress (3)
+COPP_ProtectionType_ACP (0x02)
 
 </li>
 <li>
-COPP_BusType_AGP (4)
+COPP_ProtectionType_CGMSA (0x04)
 
 </li>
-</ul>The COPP_BusType_Integrated (0x80000000) value can only be combined with one of the preceding bus-type values when none of the command and status interface signals between the graphics adapter and other subsystems are available on an expansion bus that uses a publicly available specification and standard connector type. Memory buses are excluded from this definition.
+</ul>
 
 
-##### - dwData.DXVA_COPPQueryConnectorType
+#### DXVA_COPPQueryConnectorType
 
 Returns one of the following values from the <b>COPP_ConnectorType</b> enumeration type that identifies the type of physical connector the video session uses:
+
 <ul>
 <li>
 COPP_ConnectorType_Unknown (-1)
@@ -185,56 +172,90 @@ COPP_ConnectorType_TMDS (7)
 COPP_ConnectorType_D_JPN (8)
 
 </li>
-</ul>The COPP_ConnectorType_Internal (0x80000000) value is only combined with one of the preceding connector-type values to indicate that the connection between the graphics adapter and display monitor is permanent and not accessible from the outside of a non-user-serviceable enclosure.
-
-
-##### - dwData.DXVA_COPPQueryProtectionType
-
-Returns a valid ORed combination of the following values that indicate the available types of protection mechanisms on the physical connector associated with a COPP device: 
-<ul>
-<li>
-COPP_ProtectionType_Unknown (0x80000000)
-
-</li>
-<li>
-COPP_ProtectionType_None (0x00)
-
-</li>
-<li>
-COPP_ProtectionType_HDCP (0x01)
-
-</li>
-<li>
-COPP_ProtectionType_ACP (0x02)
-
-</li>
-<li>
-COPP_ProtectionType_CGMSA (0x04)
-
-</li>
 </ul>
+The COPP_ConnectorType_Internal (0x80000000) value is only combined with one of the preceding connector-type values to indicate that the connection between the graphics adapter and display monitor is permanent and not accessible from the outside of a non-user-serviceable enclosure.
 
-##### - dwData.DXVA_COPPQueryLocalProtectionLevel
+
+
+#### DXVA_COPPQueryLocalProtectionLevel
 
 Returns the currently set protection level for the video session. The protection-level value depends on the protection type specified in the <b>StatusData</b> member of the <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a> structure. For possible protection levels, see the <b>ProtLevel</b> member of the <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a> structure. 
 
 
+
+#### DXVA_COPPQueryGlobalProtectionLevel
+
+Returns the currently set protection level for the physical connector. The level value returned must reflect the protection level currently applied through the connector, regardless of how the driver was instructed to apply the protection level. For example, if ACP was enabled through the Win32 <b>ChangeDisplaySettingsEx</b> function and not through the <b>IAMCertifiedOutputProtection</b> interface, the global protection level that was returned through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a> function for the connector must indicate that ACP was enabled, even though ACP was not enabled through the <b>IAMCertifiedOutputProtection</b> interface. 
+
+The protection-level value depends on the protection type specified in the <b>StatusData</b> member of the <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a> structure. For possible protection levels, see the <b>ProtLevel</b> member of the <a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a> structure. 
+
+
+
+#### DXVA_COPPQueryBusData
+
+Returns one of the following values from the <b>COPP_BusType</b> enumeration type that identifies the type of bus used by the graphics hardware associated with a COPP device:
+
+<ul>
+<li>
+COPP_BusType_Unknown (0)
+
+</li>
+<li>
+COPP_BusType_PCI (1)
+
+</li>
+<li>
+COPP_BusType_PCIX (2)
+
+</li>
+<li>
+COPP_BusType_PCIExpress (3)
+
+</li>
+<li>
+COPP_BusType_AGP (4)
+
+</li>
+</ul>
+The COPP_BusType_Integrated (0x80000000) value can only be combined with one of the preceding bus-type values when none of the command and status interface signals between the graphics adapter and other subsystems are available on an expansion bus that uses a publicly available specification and standard connector type. Memory buses are excluded from this definition.
+
+
+### -field ExtendedInfoValidMask
+
+Specifies a value that indicates the valid bitfields in the following <b>ExtendedInfoData</b> member.
+
+
+### -field ExtendedInfoData
+
+Specifies additional 32-bit data for the status. Not currently used.
+
+
 ## -remarks
+
 
 
 The display driver returns status information through the <i>pOutput</i> parameter of <i>COPPQueryStatus</i>. The <a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a> structure describes the returned status information. The display driver should cast the status information to a pointer to a DXVA_COPPStatusData structure and return the status information in the <b>COPPStatus</b> member of DXVA_COPPStatusOutput. 
 
 
 
-## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
+## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_coppstatusoutput.md">DXVA_COPPStatusOutput</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppsetprotectionlevelcmddata.md">DXVA_COPPSetProtectionLevelCmdData</a>
+
+
 
 <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+
 
  
 

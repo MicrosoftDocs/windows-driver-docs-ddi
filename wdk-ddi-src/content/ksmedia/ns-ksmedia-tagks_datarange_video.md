@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 682fe2b7-3166-4691-8959-ec7f34c414f7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_VIDEO, vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml, KS_DATARANGE_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], tagKS_DATARANGE_VIDEO, stream.ks_datarange_video, *PKS_DATARANGE_VIDEO, ksmedia/KS_DATARANGE_VIDEO
+ms.keywords: tagKS_DATARANGE_VIDEO, vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml, *PKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], KS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO structure [Streaming Media Devices], stream.ks_datarange_video, PKS_DATARANGE_VIDEO, ksmedia/KS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DATARANGE_VIDEO
 product: Windows
 targetos: Windows
-req.typenames: KS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO
+req.typenames: "*PKS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO"
 ---
 
 # tagKS_DATARANGE_VIDEO structure
@@ -111,7 +111,9 @@ Specifies the details of the video stream.
 ## -remarks
 
 
+
 The KS_DATARANGE_VIDEO structure is used for two related purposes:
+
 <ol>
 <li>
 At minidriver initialization time, the minidriver returns an array of KS_DATARANGE_VIDEO structures exposing all the supported formats for a given pin, including possible cropping and scaling options.
@@ -121,17 +123,25 @@ At minidriver initialization time, the minidriver returns an array of KS_DATARAN
 When a particular format is selected by a user-mode client, the members (and their settings) of this structure determine whether a proposed format is supported by the minidriver. User-mode clients modify the contents of the <b>VideoInfoHeader</b> member but must leave all other members of KS_DATARANGE_VIDEO unchanged. The minidriver then verifies the requested parameters and returns a KS_DATAFORMAT_VIDEO structure. The minidriver then calculates members that are unique to the particular format requested. 
 
 </li>
-</ol>For example, a stream that supports RGB16, RGB24, YVU9, and JPEG capture formats defines an array of four KS_DATAFORMAT_VIDEO structures. 
+</ol>
+For example, a stream that supports RGB16, RGB24, YVU9, and JPEG capture formats defines an array of four KS_DATAFORMAT_VIDEO structures. 
+
 
 
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+
+
 
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
 
  
 

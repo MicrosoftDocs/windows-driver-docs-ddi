@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e8b0a1c0-c018-4556-b43c-fae4f7cf43de
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin interface [Streaming Media Devices], KsQueryInterfaces method, stream.ikspin_ksqueryinterfaces, IKsPin::KsQueryInterfaces, KsQueryInterfaces, KsQueryInterfaces method [Streaming Media Devices], ksproxy/IKsPin::KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, IKsPin, KsQueryInterfaces method [Streaming Media Devices], IKsPin interface
+ms.keywords: IKsPin interface [Streaming Media Devices], KsQueryInterfaces method, KsQueryInterfaces method [Streaming Media Devices], IKsPin::KsQueryInterfaces, KsQueryInterfaces method [Streaming Media Devices], IKsPin interface, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, KsQueryInterfaces, stream.ikspin_ksqueryinterfaces, IKsPin, ksproxy/IKsPin::KsQueryInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPin.KsQueryInterfaces
 product: Windows
 targetos: Windows
@@ -75,14 +75,18 @@ Pointer to a buffer that receives a pointer to a <a href="..\ks\ns-ks-ksmultiple
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 The returned interfaces are ordered by preference. 
+
 
 
 
@@ -90,7 +94,11 @@ The returned interfaces are ordered by preference.
 
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
+
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
+
+
 
  
 

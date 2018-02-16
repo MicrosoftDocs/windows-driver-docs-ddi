@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice3 interface, ReadFromHardware method, ReadFromHardware, ReadFromHardware method, IWDFDevice3 interface, IWDFDevice3, ReadFromHardware method, wdf.iwdfdevice3_readfromhardware, IWDFDevice3::ReadFromHardware, umdf.iwdfdevice3_readfromhardware, wudfddi/IWDFDevice3::ReadFromHardware
+ms.keywords: ReadFromHardware, IWDFDevice3 interface, ReadFromHardware method, wudfddi/IWDFDevice3::ReadFromHardware, umdf.iwdfdevice3_readfromhardware, ReadFromHardware method, ReadFromHardware method, IWDFDevice3 interface, wdf.iwdfdevice3_readfromhardware, IWDFDevice3::ReadFromHardware, IWDFDevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice3.ReadFromHardware
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -77,26 +77,23 @@ SIZE_T ReadFromHardware(
 ### -param Type [in]
 
 
-
 ### -param Size [in]
-
 
 
 ### -param Address [in]
 
 
-
 ### -param Buffer [out]
-
 
 
 ### -param Count [in, optional]
 
 
-
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
 
  
 

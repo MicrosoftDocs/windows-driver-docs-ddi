@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2d332cd-d744-444c-b616-d8400ad30d43
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdriverregistertraceinfo, PFN_WDFDRIVERREGISTERTRACEINFO, WdfDriverRegisterTraceInfo, WdfDriverRegisterTraceInfo method, wdf.wdfdriverregistertraceinfo, DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml, wdfdriver/WdfDriverRegisterTraceInfo
+ms.keywords: WdfDriverRegisterTraceInfo method, PFN_WDFDRIVERREGISTERTRACEINFO, wdf.wdfdriverregistertraceinfo, WdfDriverRegisterTraceInfo, wdfdriver/WdfDriverRegisterTraceInfo, kmdf.wdfdriverregistertraceinfo, DFDriverObjectRef_1cbf9cbb-1a7f-4227-9c80-5d9c9cf0bb12.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Not applicable
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfdriver.h
-apiname: 
+apiname:
 -	WdfDriverRegisterTraceInfo
 product: Windows
 targetos: Windows
@@ -75,11 +75,8 @@ NTSTATUS WdfDriverRegisterTraceInfo(
 ### -param DriverObject [in]
 
 
-
 ### -param EvtTraceCallback [in]
 
 
-
 ### -param ControlBlock [in]
-
 

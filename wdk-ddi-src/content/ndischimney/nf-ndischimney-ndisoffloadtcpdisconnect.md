@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8abff30-b641-4581-8532-8292993ca9f6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisoffloadtcpdisconnect, NdisOffloadTcpDisconnect, ndischimney/NdisOffloadTcpDisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndischimney/NdisOffloadTcpDisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml, NdisOffloadTcpDisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisOffloadTcpDisconnect
 product: Windows
 targetos: Windows
@@ -81,8 +81,8 @@ NDIS_STATUS NdisOffloadTcpDisconnect(
 A pointer to an 
      <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure in the
      caller's context for the offloaded TCP connection. For more information, see 
-     <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-     Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+     Referencing Offloaded State Through an Intermediate Driver</a>.
 
 
 ### -param NetBufferList [in]
@@ -101,18 +101,21 @@ As one of the following values, the type of disconnect to be performed:
 
 
 
-##### - Flags.TCP_DISCONNECT_GRACEFUL_CLOSE
 
-Specifies that the offload target perform a graceful disconnect by sending a FIN segment.
-
-
-##### - Flags.TCP_DISCONNECT_ABORTIVE_CLOSE
+#### TCP_DISCONNECT_ABORTIVE_CLOSE
 
 Specifies that the offload target perform an abortive disconnect by sending an RST
        segment.
 
 
+
+#### TCP_DISCONNECT_GRACEFUL_CLOSE
+
+Specifies that the offload target perform a graceful disconnect by sending a FIN segment.
+
+
 ## -returns
+
 
 
 The 
@@ -121,12 +124,14 @@ The
 
 
 
+
 ## -remarks
 
 
+
 In response to a call to its 
-    <mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-    MiniportTcpOffloadDisconnect</i></mshelp:link> function, an intermediate driver calls the 
+    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+    MiniportTcpOffloadDisconnect</a> function, an intermediate driver calls the 
     <b>NdisOffloadTcpDisconnect</b> function to propagate the disconnect operation to the underlying
     intermediate driver or offload target. For more information, see 
     <a href="https://msdn.microsoft.com/009159ad-81c0-4555-8e6b-a4fec2c7f1d5">Propagating I/O Operations</a>.
@@ -134,13 +139,14 @@ In response to a call to its
 To the 
     <b>NdisOffloadTcp<i>Xxx</i></b>
      function, the intermediate driver passes the following:
+
 <ul>
 <li>
 An 
       <i>NdisOffloadHandle</i> function that references the NDIS_OFFLOAD_HANDLE structure stored in the
       intermediate driver's context for the offloaded TCP connection. For more information, see 
-      <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-      Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>
 <li>
@@ -154,7 +160,8 @@ The same
       <i>MiniportTcpOffloadDisconnect</i> function.
 
 </li>
-</ul>When the underlying driver or offload target subsequently completes the disconnect operation by
+</ul>
+When the underlying driver or offload target subsequently completes the disconnect operation by
     calling the 
     <b>NdisTcpOffloadDisconnectComplete</b> function, NDIS calls the intermediate driver's 
     <i>ProtocolOffloadDisconnectComplete</i> function. The intermediate driver then calls the 
@@ -163,22 +170,35 @@ The same
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
+   NdisTcpOffloadDisconnectComplete</a>
 
-<mshelp:link keywords="netvista.protocoltcpoffloaddisconnectcomplete" tabindex="0"><i>
-   ProtocolTcpOffloadDisconnectComplete</i></mshelp:link>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.miniporttcpoffloaddisconnect" tabindex="0"><i>
-   MiniportTcpOffloadDisconnect</i></mshelp:link>
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+   MiniportTcpOffloadDisconnect</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
+   ProtocolTcpOffloadDisconnectComplete</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
-<mshelp:link keywords="netvista.ndistcpoffloaddisconnectcomplete" tabindex="0"><b>
-   NdisTcpOffloadDisconnectComplete</b></mshelp:link>
+
 
  
 

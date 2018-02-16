@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KStrQueryReferenceString
 product: Windows
 targetos: Windows
@@ -76,14 +76,7 @@ NTSTATUS KStrQueryReferenceString(
 Pointer to a device extension of the device's PDO.
 
 
-### -param *String
-
-
-
-
-
-
-#### - String [in, out]
+### -param *String [in, out]
 
 Pointer to a string containing the reference string associated with the PDO.
 
@@ -91,13 +84,17 @@ Pointer to a string containing the reference string associated with the PDO.
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 The driver can access this method through the <b>QueryReferenceString</b> member of the <a href="..\ks\ns-ks-bus_interface_reference.md">BUS_INTERFACE_REFERENCE</a> structure.
+
 
 

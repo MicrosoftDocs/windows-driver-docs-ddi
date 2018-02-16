@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 31118f7f-fcc4-45f9-a248-a1d6f929f3a2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ReadIoSpace function [Windows Debugging], WdbgExts_Ref_e34c76a6-de5d-4347-90a7-959d5392680e.xml, ReadIoSpace, wdbgexts/ReadIoSpace, debugger.readiospace
+ms.keywords: debugger.readiospace, ReadIoSpace function [Windows Debugging], wdbgexts/ReadIoSpace, ReadIoSpace, WdbgExts_Ref_e34c76a6-de5d-4347-90a7-959d5392680e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	ReadIoSpace
 product: Windows
 targetos: Windows
@@ -88,16 +88,20 @@ Specifies the address of a variable that contains the number of bytes to read (1
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing 64-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-readiospace64.md">ReadIoSpace64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
+
 
 
 

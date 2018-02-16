@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	CreateExtensionDevice
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY CreateExtensionDevice(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createextensiondevice.md">D3DDDIARG_CREATEEXTENSIONDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY CreateExtensionDevice(
 ## -returns
 
 
+
 <b>CreateExtensionDevice</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,7 +124,9 @@ The extension device is successfully created.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -128,7 +134,11 @@ The extension device is successfully created.
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createextensiondevice.md">D3DDDIARG_CREATEEXTENSIONDEVICE</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyextensiondevice.md">DestroyExtensionDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisinitializeslisthead, NdisInitializeSListHead, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, ndis/NdisInitializeSListHead
+ms.keywords: ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], NdisInitializeSListHead, ndis/NdisInitializeSListHead, netvista.ndisinitializeslisthead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisInitializeSListHead
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInitializeSListHead macro
@@ -78,6 +78,7 @@ A pointer to the caller-supplied list head to be initialized, which must be in r
 ## -remarks
 
 
+
 <b>NdisInitializeSListHead</b> zero-initializes the opaque list head at 
     <i>SListHead</i> and sets the first-entry pointer to <b>NULL</b>.
 
@@ -87,10 +88,10 @@ The sequence number in an S-List is incremented each time an entry is inserted t
 All entries in an S-List must be nonpaged.
 
 Any driver that uses an S-List must provide a spin lock to the 
-    <mshelp:link keywords="netvista.ndisinterlockedpushentryslist" tabindex="0"><b>
-    NdisInterlockedPushEntrySList</b></mshelp:link> and 
-    <mshelp:link keywords="netvista.ndisinterlockedpopentryslist" tabindex="0"><b>
-    NdisInterlockedPopEntrySList</b></mshelp:link> functions. Before its initial call to either of these functions, the
+    <a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
+    NdisInterlockedPushEntrySList</a> and 
+    <a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">
+    NdisInterlockedPopEntrySList</a> functions. Before its initial call to either of these functions, the
     driver must initialize the spin lock with the 
     <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function. To
     prevent deadlocks, the driver 
@@ -109,19 +110,30 @@ If
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisinterlockedpushentryslist" tabindex="0"><b>
-   NdisInterlockedPushEntrySList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
+   NdisInterlockedPushEntrySList</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
 
-<mshelp:link keywords="netvista.ndisinitializenpagedlookasidelist" tabindex="0"><b>
-   NdisInitializeNPagedLookasideList</b></mshelp:link>
+
 
 <a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
+
+
+<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+   NdisInitializeNPagedLookasideList</a>
+
+
 
  
 

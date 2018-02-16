@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dc7b543b-1fb5-477c-a612-c8e7381e637e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], ntddk/IoVerifyPartitionTable, IoVerifyPartitionTable, kernel.ioverifypartitiontable
+ms.keywords: ntddk/IoVerifyPartitionTable, kernel.ioverifypartitiontable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, IoVerifyPartitionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoVerifyPartitionTable
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoVerifyPartitionTable function
@@ -82,6 +82,7 @@ Specifies if the routine should correct any correctable errors in the partition 
 ## -returns
 
 
+
 The routine returns STATUS_SUCCESS if the partition table is error-free.
 
 If the caller specifies <b>FALSE</b> for the <i>FixErrors</i> parameter 
@@ -93,9 +94,12 @@ The routine might also return other NT status error codes.
 
 
 
+
 ## -remarks
 
 
+
 <b>IoVerifyPartitionTable</b> must be used only by disk drivers.
+
 
 

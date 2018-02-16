@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 84685763-e7d8-4184-afa3-83efb4a0d3d7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfrestartcomplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], NdisFRestartComplete, ndis/NdisFRestartComplete, filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml
+ms.keywords: netvista.ndisfrestartcomplete, filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, ndis/NdisFRestartComplete, NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFRestartComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFRestartComplete function
@@ -87,7 +87,20 @@ The final status of the restart operation. The following status values are suppo
 
 
 
-##### - Status.NDIS_STATUS_FAILURE
+
+#### NDIS_STATUS_SUCCESS
+
+The driver successfully restarted the flow of network data.
+
+
+
+#### NDIS_STATUS_RESOURCES
+
+The restart failed because of insufficient resources.
+
+
+
+#### NDIS_STATUS_FAILURE
 
 The driver indicates NDIS_STATUS_FAILURE if none of the preceding values applies. The driver
        should call the 
@@ -95,24 +108,17 @@ The driver indicates NDIS_STATUS_FAILURE if none of the preceding values applies
        together with parameters that specify the reason for the failure.
 
 
-##### - Status.NDIS_STATUS_RESOURCES
-
-The restart failed because of insufficient resources.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The driver successfully restarted the flow of network data.
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 NDIS calls a filter driver's 
@@ -131,13 +137,20 @@ A filter driver can resume indicating received network data immediately after ND
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
 
+
+
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
 
  
 

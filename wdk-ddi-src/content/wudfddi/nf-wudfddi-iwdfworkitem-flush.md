@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: AB79C2AE-0696-4EEC-9FC0-8A458CF19B82
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: Flush, Flush method, IWDFWorkItem interface, wudfddi/IWDFWorkItem::Flush, umdf.iwdfworkitem_flush, IWDFWorkItem, wdf.iwdfworkitem_flush, Flush method, IWDFWorkItem interface, Flush method, IWDFWorkItem::Flush
+ms.keywords: wdf.iwdfworkitem_flush, IWDFWorkItem::Flush, IWDFWorkItem interface, Flush method, Flush method, wudfddi/IWDFWorkItem::Flush, IWDFWorkItem, umdf.iwdfworkitem_flush, Flush, Flush method, IWDFWorkItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFWorkItem.Flush
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,18 @@ void Flush();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If a driver calls the <b>Flush</b> method, the method does not return until a worker thread has removed the specified work item from the work-item queue and called the driver's <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function, and the <i>OnWorkItem</i> callback function has subsequently returned after processing the work item.
@@ -85,11 +89,16 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 
 
+
 ## -see-also
+
+<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
+
 
 <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
 
  
 

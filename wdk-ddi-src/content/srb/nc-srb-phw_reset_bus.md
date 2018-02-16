@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	srb.h
-apiname: 
+apiname:
 -	(*PHW_RESET_BUS)
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -82,11 +82,14 @@ Contains a number that identifies the SCSI bus to be reset.
 ## -returns
 
 
+
 The routine that this prototype declares returns <b>TRUE</b> if the bus is successfully reset. The routine returns <b>FALSE</b> if the bus is not successfully reset. 
 
 
 
+
 ## -remarks
+
 
 
 The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
@@ -97,11 +100,16 @@ For more information about the bus reset routine that is used with the StorPort 
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>
+
+
 
  
 

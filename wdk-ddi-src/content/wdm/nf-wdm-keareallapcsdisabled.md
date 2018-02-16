@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b4b57819-e2c9-4ac3-989e-c5e064f7487b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keareallapcsdisabled, KeAreAllApcsDisabled routine [Kernel-Mode Driver Architecture], k105_91675ec9-bef3-4ef8-9403-14999e018745.xml, KeAreAllApcsDisabled, wdm/KeAreAllApcsDisabled
+ms.keywords: kernel.keareallapcsdisabled, KeAreAllApcsDisabled routine [Kernel-Mode Driver Architecture], KeAreAllApcsDisabled, wdm/KeAreAllApcsDisabled, k105_91675ec9-bef3-4ef8-9403-14999e018745.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeAreAllApcsDisabled
 product: Windows
 targetos: Windows
@@ -67,23 +67,30 @@ BOOLEAN KeAreAllApcsDisabled(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeAreAllApcsDisabled</b> returns <b>TRUE</b> if the calling thread is inside a guarded region or running at IRQL &gt;= APC_LEVEL, and <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 A thread inside a guarded region or running at IRQL &gt;= APC_LEVEL has all APCs disabled, including special kernel APCs.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
+
+
 
  
 

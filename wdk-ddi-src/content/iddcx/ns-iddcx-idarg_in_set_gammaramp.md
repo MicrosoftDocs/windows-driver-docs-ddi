@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1e14bcaf-1454-4930-a3b8-afc044c4be3f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_SET_GAMMARAMP, iddcx/IDARG_IN_SET_GAMMARAMP, IDARG_IN_SET_GAMMARAMP structure [Display Devices], display.idarg_in_set_gammaramp
+ms.keywords: IDARG_IN_SET_GAMMARAMP structure [Display Devices], IDARG_IN_SET_GAMMARAMP, display.idarg_in_set_gammaramp, iddcx/IDARG_IN_SET_GAMMARAMP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDARG_IN_SET_GAMMARAMP
 product: Windows
 targetos: Windows

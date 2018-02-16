@@ -7,8 +7,8 @@ old-location: print\oemgetglyphmode.htm
 old-project: print
 ms.assetid: 350fe500-997b-48bb-90e2-04f39a7de3d2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, printoem/OEMGetGlyphMode, print.oemgetglyphmode, OEMGetGlyphMode function [Print Devices], OEMGetGlyphMode
+ms.date: 2/2/2018
+ms.keywords: OEMGetGlyphMode function [Print Devices], print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, OEMGetGlyphMode, printoem/OEMGetGlyphMode, print.oemgetglyphmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMGetGlyphMode
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ ULONG APIENTRY OEMGetGlyphMode(
 ### -param dhpdev
 
 
-
 ### -param pfo
-
 

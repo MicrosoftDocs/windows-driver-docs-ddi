@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 361BC3A7-AE86-4C92-B7E1-A30D467D4A65
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], 1/SerCxGetConnectionParameters, serports.sercxgetconnectionparameters
+ms.keywords: serports.sercxgetconnectionparameters, SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], 1/SerCxGetConnectionParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SerCxGetConnectionParameters
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ A pointer to a location into which the method writes a pointer to the connection
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The serial framework extension (SerCx) obtains the connection parameters for the peripheral device from the ACPI resource descriptors in the platform firmware.
@@ -95,9 +98,12 @@ For more information about the data format of the connection parameters, see <a 
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
+
+
 
  
 

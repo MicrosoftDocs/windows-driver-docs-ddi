@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfio._WDF_IO_QUEUE_CONFIG
-title: _WDF_IO_QUEUE_CONFIG
+title: "_WDF_IO_QUEUE_CONFIG"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_CONFIG structure contains configuration information for a framework queue object.
 old-location: wdf\wdf_io_queue_config.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_IO_QUEUE_CONFIG, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, WDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, kmdf.wdf_io_queue_config, wdfio/PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG, wdfio/WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, wdf.wdf_io_queue_config, *PWDF_IO_QUEUE_CONFIG
+ms.keywords: WDF_IO_QUEUE_CONFIG structure, _WDF_IO_QUEUE_CONFIG, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, kmdf.wdf_io_queue_config, wdfio/PWDF_IO_QUEUE_CONFIG, *PWDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG, wdf.wdf_io_queue_config, PWDF_IO_QUEUE_CONFIG structure pointer, wdfio/WDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfio.h
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_CONFIG
 product: Windows
 targetos: Windows
@@ -86,19 +86,6 @@ typedef struct _WDF_IO_QUEUE_CONFIG {
 ## -struct-fields
 
 
-
-
-### -field Settings
-
-
-
-### -field Settings.Parallel
-
-
-
-### -field Settings.Parallel.NumberOfPresentedRequests
-
-For the parallel <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a>, the maximum number of I/O requests that the framework asynchronously delivers to the I/O queue's request handlers. For more information, see the following Remarks section. For the sequential and manual dispatching methods, this member must be zero. This member is available in version 1.9 and later versions of KMDF.
 
 
 ### -field Size
@@ -174,6 +161,17 @@ A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_q
 A pointer to the driver's queue-specific <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue.md">EvtIoCanceledOnQueue</a> callback function, or <b>NULL</b>.
 
 
+### -field Settings
+
+
+### -field Settings.Parallel
+
+
+### -field Settings.Parallel.NumberOfPresentedRequests
+
+For the parallel <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a>, the maximum number of I/O requests that the framework asynchronously delivers to the I/O queue's request handlers. For more information, see the following Remarks section. For the sequential and manual dispatching methods, this member must be zero. This member is available in version 1.9 and later versions of KMDF.
+
+
 ### -field Driver
 
 For internal use only.  Set to NULL. This member is available in version 1.11 and later versions of KMDF.
@@ -181,6 +179,7 @@ For internal use only.  Set to NULL. This member is available in version 1.11 an
 
 
 ## -remarks
+
 
 
 The driver must initialize the <b>WDF_IO_QUEUE_CONFIG</b> structure by calling <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a> or <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>.
@@ -194,15 +193,24 @@ For parallel queues,
 
 
 
+
 ## -see-also
-
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
 
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+
+
 
  
 

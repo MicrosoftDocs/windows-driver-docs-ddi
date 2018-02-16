@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8257c636-824d-4909-b0cb-76d72ac980fa
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFQueueObjectRef_55457efd-0074-4be5-b078-bb223963bfca.xml, wdfio/WDF_IO_QUEUE_STOPPED, kmdf.wdf_io_queue_stopped, WDF_IO_QUEUE_STOPPED function, WDF_IO_QUEUE_STOPPED, wdf.wdf_io_queue_stopped
+ms.keywords: wdf.wdf_io_queue_stopped, WDF_IO_QUEUE_STOPPED, kmdf.wdf_io_queue_stopped, DFQueueObjectRef_55457efd-0074-4be5-b078-bb223963bfca.xml, WDF_IO_QUEUE_STOPPED function, wdfio/WDF_IO_QUEUE_STOPPED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any IRQL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_STOPPED
 product: Windows
 targetos: Windows
@@ -79,11 +79,14 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEU
 ## -returns
 
 
+
 <b>WDF_IO_QUEUE_STOPPED</b> returns <b>TRUE</b> if the specified queue state indicates that the queue is stopped. Otherwise, the function returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 An I/O queue is stopped if it can accept new I/O requests but the framework is not delivering them to the driver. 
@@ -93,16 +96,52 @@ Your driver can call <b>WDF_IO_QUEUE_STOPPED</b> after it has called <a href="..
 For more information about I/O queue states, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>.
 
 
+#### Examples
+
+The following code example is a routine that returns <b>TRUE</b> if a specified I/O queue is stopped.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN
+IsQueueStopped(
+    IN WDFQUEUE Queue
+    )
+{
+    WDF_IO_QUEUE_STATE queueStatus;
+    queueStatus = WdfIoQueueGetState(
+                                     Queue,
+                                     NULL,
+                                     NULL
+                                     );
+    return (WDF_IO_QUEUE_STOPPED(queueStatus)) ? TRUE : FALSE;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_drained.md">WDF_IO_QUEUE_DRAINED</a>
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_idle.md">WDF_IO_QUEUE_IDLE</a>
+
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
 
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_idle.md">WDF_IO_QUEUE_IDLE</a>
+
+
+
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_ready.md">WDF_IO_QUEUE_READY</a>
+
+
 
  
 

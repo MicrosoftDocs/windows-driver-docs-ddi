@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5083841-a6d7-4437-9941-bd7dca2f1771
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml, AtaPortBuildRequestSenseIrb routine [Storage Devices], irb/AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb
+ms.keywords: atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml, AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb, irb/AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortBuildRequestSenseIrb
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">I
 ## -returns
 
 
+
 If the operation succeeds, the <b>AtaPortBuildRequestSenseIrb</b> routine returns a pointer to the request sense IRB that it allocated. If the operation fails, <b>AtaPortBuildRequestSenseIrb</b> returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If the device does not support auto request sense, the miniport driver must build an IRB to gather sense data by using <b>AtaPortBuildRequestSenseIrb</b> and then sending it to the device. The miniport driver must not complete the original IRB until the corresponding request sense IRB has completed. Be aware that no request sense data is required for ATA devices.
@@ -99,9 +102,12 @@ The miniport driver can have only one outstanding request sense IRB per logical 
 
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportreleaserequestsenseirb.md">AtaPortReleaseRequestSenseIrb</a>
+
+
 
  
 

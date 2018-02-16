@@ -1,14 +1,14 @@
 ---
 UID: NS:printoem._DRVPROCS
-title: _DRVPROCS
+title: "_DRVPROCS"
 author: windows-driver-content
 description: The DRVPROCS structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.
 old-location: print\drvprocs.htm
 old-project: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDRVPROCS structure pointer [Print Devices], PDRVPROCS, printoem/PDRVPROCS, printoem/DRVPROCS, _DRVPROCS, DRVPROCS, DRVPROCS structure [Print Devices], print.drvprocs, *PDRVPROCS, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml
+ms.date: 2/2/2018
+ms.keywords: DRVPROCS structure [Print Devices], printoem/DRVPROCS, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, *PDRVPROCS, _DRVPROCS, print.drvprocs, PDRVPROCS structure pointer [Print Devices], PDRVPROCS, DRVPROCS, printoem/PDRVPROCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	DRVPROCS
 product: Windows
 targetos: Windows
-req.typenames: *PDRVPROCS, DRVPROCS
+req.typenames: "*PDRVPROCS, DRVPROCS"
 req.product: Windows 10 or later.
 ---
 
@@ -123,27 +123,20 @@ typedef struct _DRVPROCS {
 ### -field DrvWriteSpoolBuf
 
 
-
 ### -field DrvXMoveTo
-
 
 
 ### -field DrvYMoveTo
 
 
-
 ### -field DrvGetDriverSetting
-
 
 
 ### -field BGetStandardVariable
 
 
-
 ### -field DrvUnidriverTextOut
 
 
-
 ### -field DrvWriteAbortBuf
-
 

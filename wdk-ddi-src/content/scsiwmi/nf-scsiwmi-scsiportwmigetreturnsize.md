@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7cd54ac2-e13b-45eb-a0ac-56a2d60d9057
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.scsiportwmigetreturnsize, ScsiPortWmiGetReturnSize macro [Storage Devices], scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, scsiwmi/ScsiPortWmiGetReturnSize, ScsiPortWmiGetReturnSize
+ms.keywords: ScsiPortWmiGetReturnSize, scsiwmi/ScsiPortWmiGetReturnSize, scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, ScsiPortWmiGetReturnSize macro [Storage Devices], storage.scsiportwmigetreturnsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: scsiwmi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsiwmi.h
-apiname: 
+apiname:
 -	ScsiPortWmiGetReturnSize
 product: Windows
 targetos: Windows
@@ -76,17 +76,25 @@ Pointer to the request context for this SRB.
 ## -remarks
 
 
+
 A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value to put into <b>Srb-&gt;DataTransferLength</b> before completing the SRB. <b>ScsiPortWmiGetReturnSize</b> should be called sometime after the miniport driver calls <b>ScsiWmiPostProcess</b>.
+
 
 
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+
+
 
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+
+
 
  
 

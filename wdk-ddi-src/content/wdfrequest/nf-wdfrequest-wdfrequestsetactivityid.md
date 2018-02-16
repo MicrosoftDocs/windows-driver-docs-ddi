@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05FE0F91-781F-4B8B-87D1-E06BC315856C
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestSetActivityId method, PFN_WDFREQUESTSETACTIVITYID, wdf.wdfrequestsetactivityid, WdfRequestSetActivityId, wdfrequest/WdfRequestSetActivityId
+ms.keywords: PFN_WDFREQUESTSETACTIVITYID, wdf.wdfrequestsetactivityid, WdfRequestSetActivityId method, wdfrequest/WdfRequestSetActivityId, WdfRequestSetActivityId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfRequestSetActivityId
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ A pointer to the activity identifier GUID to store in the I/O request.
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Calling <b>WdfRequestSetActivityId</b> does not set an association with any previously present activity identifier. When the driver calls <b>WdfRequestSetActivityId</b>, any existing activity identifier is overwritten.
@@ -101,9 +104,12 @@ For more information about activity identifiers, see <a href="https://msdn.micro
 
 
 
+
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveactivityid.md">WdfRequestRetrieveActivityId</a>
+
+
 
  
 

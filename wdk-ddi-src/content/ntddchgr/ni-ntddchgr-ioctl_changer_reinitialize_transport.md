@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddchgr.h
-apiname: 
+apiname:
 -	IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 product: Windows
 targetos: Windows
@@ -86,14 +86,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,6 +109,8 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_ELEMENT). The <b>St
 ## -see-also
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
 
  
 

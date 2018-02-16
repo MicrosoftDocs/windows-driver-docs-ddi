@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Mountmgr.h
-apiname: 
+apiname:
 -	IOCTL_MOUNTMGR_CHANGE_NOTIFY
 product: Windows
 targetos: Windows
-req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
+req.typenames: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID"
 ---
 
 # IOCTL_MOUNTMGR_CHANGE_NOTIFY IOCTL
@@ -92,21 +92,27 @@ The mount manager returns the current <i>EpicNumber</i> in the <a href="..\mount
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -120,6 +126,8 @@ If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_CHANGE_NOTIFY_IN
 ## -see-also
 
 <a href="..\mountmgr\ns-mountmgr-_mountmgr_change_notify_info.md">MOUNTMGR_CHANGE_NOTIFY_INFO</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1DC215DF-1F53-4910-84D5-17E13BE6202A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelPacketComplete, VmbChannelPacketComplete function [Network Drivers Starting with Windows Vista], VmbChannelPacketComplete, netvista.vmbchannelpacketcomplete
+ms.keywords: VmbChannelPacketComplete function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketcomplete, vmbuskernelmodeclientlibapi/VmbChannelPacketComplete, VmbChannelPacketComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelPacketComplete
 product: Windows
 targetos: Windows
@@ -95,15 +95,19 @@ The size, in bytes, of the completion buffer.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 This function is called when the client driver is finished
 processing a packet.  This function may be called directly from the packet parsing function
 or it may be called later.  
+
 
 

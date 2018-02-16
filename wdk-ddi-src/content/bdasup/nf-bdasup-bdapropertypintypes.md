@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 155aafd7-0d26-47b1-9401-9d780e393e03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml, BdaPropertyPinTypes function [Streaming Media Devices], bdasup/BdaPropertyPinTypes, BdaPropertyPinTypes, stream.bdapropertypintypes
+ms.keywords: BdaPropertyPinTypes, stream.bdapropertypintypes, bdasup/BdaPropertyPinTypes, bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml, BdaPropertyPinTypes function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Bdasup.lib
 -	Bdasup.dll
-apiname: 
+apiname:
 -	BdaPropertyPinTypes
 product: Windows
 targetos: Windows
@@ -93,24 +93,34 @@ Points to the IRP for the request to retrieve list of pin types. The BDA minidri
 ## -returns
 
 
+
 Returns STATUS_SUCCESS or an appropriate error code. 
+
 
 
 
 ## -remarks
 
 
+
 A BDA minidriver calls the <b>BdaPropertyPinTypes</b> function to retrieve the list of pin types after the minidriver receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564352">KSPROPERTY_BDA_PIN_TYPES</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyPinTypes</b> function directly, without intercepting this request using an internal get-handler (<a href="https://msdn.microsoft.com/library/windows/hardware/ff567177">KStrGetPropertyHandler</a>). See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">Defining Automation Tables</a> and <a href="https://msdn.microsoft.com/fdac317e-d4fc-47c9-87d3-bec597f758f5">Determining BDA Device Topology</a> for more information. 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564352">KSPROPERTY_BDA_PIN_TYPES</a>
+
+
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564352">KSPROPERTY_BDA_PIN_TYPES</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
 
  
 

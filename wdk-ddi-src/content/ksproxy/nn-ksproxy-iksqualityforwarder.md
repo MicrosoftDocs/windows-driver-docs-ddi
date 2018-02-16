@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsQualityForwarder
 product: Windows
 targetos: Windows
@@ -77,6 +77,8 @@ Flushes information from a pin.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsQualityForwarder.
+
 
 

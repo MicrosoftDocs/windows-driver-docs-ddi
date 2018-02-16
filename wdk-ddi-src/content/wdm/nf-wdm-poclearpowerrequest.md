@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3754cca-81a4-42d2-a728-9f7e3270a4ee
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoClearPowerRequest routine [Kernel-Mode Driver Architecture], kernel.poclearpowerrequest, portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, wdm/PoClearPowerRequest, PoClearPowerRequest
+ms.keywords: PoClearPowerRequest, wdm/PoClearPowerRequest, portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, kernel.poclearpowerrequest, PoClearPowerRequest routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoClearPowerRequest
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ A pointer to a power request object that was created by the <a href="..\wdm\nf-w
 ### -param Type [in]
 
 The type of the power request. Set this parameter to the following <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration value:
+
 <ul>
 <li><b>PowerRequestSystemRequired</b></li>
 </ul>
@@ -84,7 +85,9 @@ The type of the power request. Set this parameter to the following <a href="..\w
 ## -returns
 
 
+
 <b>PoClearPowerRequest</b> returns STATUS_SUCCESS if the call is successful. If the call fails, possible error return codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,11 +104,14 @@ Parameter <i>Type</i> is set to an unsupported value.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A driver can call the <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a> routine to request that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> override several types of default power behavior, which are specified as <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a> enumeration values. To restore the default behavior, the driver cancels the request by calling the <b>PoClearPowerRequest</b> routine.
@@ -114,13 +120,20 @@ The power manager maintains a count of the active requests for each power reques
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
+
+
 
 <a href="..\wdm\ne-wdm-_power_request_type.md">POWER_REQUEST_TYPE</a>
 
-<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
+
+
+<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+
+
 
  
 

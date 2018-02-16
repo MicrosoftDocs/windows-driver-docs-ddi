@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_POWER_MODE
-title: _DOT11_POWER_MODE
+title: "_DOT11_POWER_MODE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_power_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4f18f937-e749-414d-aa21-96c6ab02982b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11_power_mode_unknown, DOT11_POWER_MODE, windot11/dot11_power_mode_active, PDOT11_POWER_MODE, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], *PDOT11_POWER_MODE, netvista.dot11_power_mode, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, windot11/dot11_power_mode_unknown, _DOT11_POWER_MODE, dot11_power_mode_active, dot11_power_mode_powersave, windot11/PDOT11_POWER_MODE, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_POWER_MODE, windot11/dot11_power_mode_powersave
+ms.keywords: windot11/dot11_power_mode_active, dot11_power_mode_powersave, windot11/dot11_power_mode_powersave, windot11/dot11_power_mode_unknown, DOT11_POWER_MODE, netvista.dot11_power_mode, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_POWER_MODE, dot11_power_mode_active, dot11_power_mode_unknown, PDOT11_POWER_MODE, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, *PDOT11_POWER_MODE, windot11/DOT11_POWER_MODE, _DOT11_POWER_MODE, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_POWER_MODE
 product: Windows
 targetos: Windows
@@ -89,15 +89,19 @@ Specifies a power-save mode in which the PHY is periodically turned off.
 ## -remarks
 
 
+
 An 802.11 station advertises its power management mode through the Power Management subfield of the
     Frame Control field in the 802.11 MAC header of transmitted frames. For more information about the Power
     Management subfield, refer to Clause 8.2.4.1.7 of the IEEE 802.11-2012 standard.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569359">OID_DOT11_ENUM_ASSOCIATION_INFO</a>
+
+
 
  
 

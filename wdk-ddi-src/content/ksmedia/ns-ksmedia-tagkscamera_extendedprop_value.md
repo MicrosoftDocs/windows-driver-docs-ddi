@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E595C2BF-C3C8-4FE8-90B0-CD53524F4852
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PKSCAMERA_EXTENDEDPROP_VALUE, ksmedia/KSCAMERA_EXTENDEDPROP_VALUE, tagKSCAMERA_EXTENDEDPROP_VALUE, ksmedia/PKSCAMERA_EXTENDEDPROP_VALUE, stream.kscamera_extendedprop_value, PKSCAMERA_EXTENDEDPROP_VALUE structure pointer [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE structure [Streaming Media Devices]
+ms.keywords: "*PKSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE structure [Streaming Media Devices], stream.kscamera_extendedprop_value, PKSCAMERA_EXTENDEDPROP_VALUE structure pointer [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_VALUE, ksmedia/KSCAMERA_EXTENDEDPROP_VALUE, ksmedia/PKSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE, tagKSCAMERA_EXTENDEDPROP_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_EXTENDEDPROP_VALUE
 product: Windows
 targetos: Windows
-req.typenames: *PKSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE
+req.typenames: KSCAMERA_EXTENDEDPROP_VALUE, *PKSCAMERA_EXTENDEDPROP_VALUE
 ---
 
 # tagKSCAMERA_EXTENDEDPROP_VALUE structure
@@ -112,6 +112,8 @@ The extended property expressed as a <b>LONGLONG</b> value.
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_header.md">KSCAMERA_EXTENDEDPROP_HEADER</a>
+
+
 
  
 

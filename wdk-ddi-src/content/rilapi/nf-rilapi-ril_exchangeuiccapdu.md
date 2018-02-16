@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e0d0eaa5-8f3a-4522-b99b-76f42402dae9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], rilapi/RIL_ExchangeUiccAPDU, netvista.ril_exchangeuiccapdu
+ms.keywords: netvista.ril_exchangeuiccapdu, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], rilapi/RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_ExchangeUiccAPDU
 product: Windows
 targetos: Windows
@@ -78,30 +78,26 @@ HRESULT  RIL_ExchangeUiccAPDU(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwSlotIndex
 
 
-
 ### -param dwChannelId
-
 
 
 ### -param dwAPDULength
 
 
-
 ### -param bAPDU
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

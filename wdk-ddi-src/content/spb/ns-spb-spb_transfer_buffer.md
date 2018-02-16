@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: E9C5B866-1EB0-4043-B22F-DF2F4CFAE64C
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spb/PSPB_TRANSFER_BUFFER, SPB.spb_transfer_buffer, spb/SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB_TRANSFER_BUFFER structure [Buses], SPB_TRANSFER_BUFFER
+ms.keywords: spb/SPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER structure [Buses], PSPB_TRANSFER_BUFFER, spb/PSPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB.spb_transfer_buffer, SPB_TRANSFER_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Spb.h
-apiname: 
+apiname:
 -	SPB_TRANSFER_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER
+req.typenames: SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER
 req.product: Windows 10 or later.
 ---
 
@@ -76,14 +76,17 @@ typedef struct _SPB_TRANSFER_BUFFER {
 
 
 
-### -field List
+### -field Format
 
- 
+The buffer format.  This member is set to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a> enumeration values:
 
-
-### -field ListCe
-
- 
+<ul>
+<li><b>SpbTransferBufferFormatSimple</b></li>
+<li><b>SpbTransferBufferFormatList</b></li>
+<li><b>SpbTransferBufferFormatSimpleNonPaged</b></li>
+<li><b>SpbTransferBufferFormatMdl</b></li>
+</ul>
+<b>SpbTransferBufferFormatMdl</b> is a valid value only for I/O transfer sequences that are requested by clients of the SPB controller driver that are kernel-mode components.
 
 
 ### -field Simple
@@ -96,33 +99,23 @@ A SPB_TRANSFER_BUFFER_LIST_ENTRY  structure that specifies the base address and 
 A scatter-gather list that consists of an array of buffer descriptors. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatList</b>.
 
 
+### -field BufferList.List
+
+A pointer to an array of <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structures that describe the buffers in the scatter-gather list.
+
+
+### -field BufferList.ListCe
+
+The number of elements in the <b>List</b> array.
+
+
 ### -field Mdl
 
 A pointer to an MDL that describes the buffer. This member is used only by kernel-mode clients. Use this member of the union if <b>Format</b> is <b>SpbTransferBufferFormatMdl</b>. For more information, see Remarks.
 
 
-### -field Format
-
-The buffer format.  This member is set to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a> enumeration values:
-<ul>
-<li><b>SpbTransferBufferFormatSimple</b></li>
-<li><b>SpbTransferBufferFormatList</b></li>
-<li><b>SpbTransferBufferFormatSimpleNonPaged</b></li>
-<li><b>SpbTransferBufferFormatMdl</b></li>
-</ul><b>SpbTransferBufferFormatMdl</b> is a valid value only for I/O transfer sequences that are requested by clients of the SPB controller driver that are kernel-mode components.
-
-
-##### - BufferList.ListCe
-
-The number of elements in the <b>List</b> array.
-
-
-##### - BufferList.List
-
-A pointer to an array of <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structures that describe the buffers in the scatter-gather list.
-
-
 ## -remarks
+
 
 
 This structure is used by an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a> structure to describe a transfer buffer.
@@ -131,13 +124,20 @@ The <b>Mdl</b> member of this structure can be used only by clients of the SPB c
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbscan.h
-apiname: 
+apiname:
 -	IOCTL_SET_TIMEOUT
 product: Windows
 targetos: Windows
@@ -86,14 +86,18 @@ Zero.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,13 +109,19 @@ Zero.
 ## -remarks
 
 
+
 <h3><a id="ddk_ioctl_set_timeout_si"></a><a id="DDK_IOCTL_SET_TIMEOUT_SI"></a>DeviceIoControl Parameters</h3>
+
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_SET_TIMEOUT I/O control code, the caller must specify the address of a <a href="..\usbscan\ns-usbscan-_usbscan_timeout.md">USBSCAN_TIMEOUT</a> structure as the function's <i>lpInBuffer</i> parameter.
 
 Using the USBSCAN_TIMEOUT structure's contents, the kernel-mode driver resets the time-out value for each type of operation: bulk IN read, bulk OUT write, or interrupt.
 
 For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
-<div class="alert"><b>Note</b>    The default time-out value is 120 seconds. The maximum time-out value is 214 seconds. Values greater than 214 seconds will cause transfer time-outs.</div><div> </div>The IOCTL_SET_TIMEOUT I/O control code is available in Microsoft Windows Me, Windows XP and later operating systems versions.
+
+<div class="alert"><b>Note</b>    The default time-out value is 120 seconds. The maximum time-out value is 214 seconds. Values greater than 214 seconds will cause transfer time-outs.</div>
+<div> </div>
+The IOCTL_SET_TIMEOUT I/O control code is available in Microsoft Windows Me, Windows XP and later operating systems versions.
+
 
 

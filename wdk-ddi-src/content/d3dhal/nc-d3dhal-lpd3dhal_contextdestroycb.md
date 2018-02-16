@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3dContextDestroy
 product: Windows
 targetos: Windows
-req.typenames: *LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS
+req.typenames: "*LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS"
 ---
 
 # LPD3DHAL_CONTEXTDESTROYCB callback
@@ -77,6 +77,8 @@ DWORD APIENTRY D3dContextDestroy(
 
 
 
+
+
 #### - pcdd [in]
 
 Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a> structure that contains the information required for the driver to destroy the context. 
@@ -85,16 +87,20 @@ Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_C
 ## -returns
 
 
+
 <b>D3dContextDestroy</b> returns one of the following callback codes:
+
 
 
 
 ## -remarks
 
 
+
 All Microsoft Direct3D drivers must support <b>D3dContextDestroy</b>.
 
 The driver should free all resources it allocated to the context that is being deleted. For example, the driver should free the following resources it associated with the context: 
+
 <ul>
 <li>
 Texture resources
@@ -116,7 +122,8 @@ Resources for <a href="https://msdn.microsoft.com/fe7dff3b-8941-4ab1-9539-0be9b5
 
 
 </li>
-</ul>The driver should not free the Microsoft DirectDraw surfaces associated with the context because these will be freed by DirectDraw in response to an application or Direct3D runtime request.
+</ul>
+The driver should not free the Microsoft DirectDraw surfaces associated with the context because these will be freed by DirectDraw in response to an application or Direct3D runtime request.
 
 If the driver cached the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a> structure that was passed in as the <b>lpDDLcl</b> member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_contextcreatedata.md">D3DHAL_CONTEXTCREATEDATA</a> structure when <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a> was called, the pointer might become invalid before <b>D3dContextDestroy</b> is called. Therefore, <b>D3dContextDestroy</b> must not dereference this DD_DIRECTDRAW_LOCAL pointer because an access violation might result or random data might be returned. For example, if the driver's <a href="https://msdn.microsoft.com/c68b924b-422d-4a01-8dac-674835833798">D3dDestroyDDLocal</a> function is called before <b>D3dContextDestroy</b>, the operating system releases this DD_DIRECTDRAW_LOCAL pointer before the <b>D3dContextDestroy</b> call.
 
@@ -124,17 +131,28 @@ If the driver cached the pointer to the <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/c68b924b-422d-4a01-8dac-674835833798">D3dDestroyDDLocal</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextcreatedata.md">D3DHAL_CONTEXTCREATEDATA</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a>
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550595">DD_DIRECTDRAW_LOCAL</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextcreatedata.md">D3DHAL_CONTEXTCREATEDATA</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/c68b924b-422d-4a01-8dac-674835833798">D3dDestroyDDLocal</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NEIGHBOR_OFFLOAD_STATE_CONST
-title: _NEIGHBOR_OFFLOAD_STATE_CONST
+title: "_NEIGHBOR_OFFLOAD_STATE_CONST"
 author: windows-driver-content
 description: The NEIGHBOR_OFFLOAD_STATE_CONST structure contains the constant variables of a neighbor state object.
 old-location: netvista\neighbor_offload_state_const.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c79a3d6-c365-4740-a2e0-94333b70d8cc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNEIGHBOR_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], *PNEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/NEIGHBOR_OFFLOAD_STATE_CONST, _NEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], netvista.neighbor_offload_state_const, NEIGHBOR_OFFLOAD_STATE_CONST, tcp_chim_struct_3e21fef6-9a3c-4eba-b6fb-31af70a3eaaa.xml, PNEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CONST
+ms.keywords: ndischimney/PNEIGHBOR_OFFLOAD_STATE_CONST, tcp_chim_struct_3e21fef6-9a3c-4eba-b6fb-31af70a3eaaa.xml, *PNEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], ndischimney/NEIGHBOR_OFFLOAD_STATE_CONST, PNEIGHBOR_OFFLOAD_STATE_CONST, netvista.neighbor_offload_state_const, _NEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	NEIGHBOR_OFFLOAD_STATE_CONST
 product: Windows
 targetos: Windows
-req.typenames: NEIGHBOR_OFFLOAD_STATE_CONST, *PNEIGHBOR_OFFLOAD_STATE_CONST
+req.typenames: "*PNEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST"
 ---
 
 # _NEIGHBOR_OFFLOAD_STATE_CONST structure
@@ -117,23 +117,33 @@ When <b>NULL</b>, the offload target should use any VLAN IDs that have been conf
 ## -remarks
 
 
+
 For a description of how an offload target uses the 
     <b>VlanId</b> member, see 
-    <mshelp:link keywords="netvista.802_1q_and_802_1p_processing_on_an_offloaded_tcp_connection" tabindex="0">802.1Q
-    and 802.1p Processing on an Offloaded TCP Connection</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570937">802.1Q
+    and 802.1p Processing on an Offloaded TCP Connection</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
 
  
 

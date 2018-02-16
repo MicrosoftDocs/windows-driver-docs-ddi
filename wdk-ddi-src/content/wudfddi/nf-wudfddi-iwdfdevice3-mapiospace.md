@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 243C7299-7C74-408A-8FB9-32FB3315251F
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice3:: MapIoSpace, IWDFDevice3::MapIoSpace, IWDFDevice3, umdf.iwdfdevice3_mapiospace, IWDFDevice3:: MapIoSpace, wdf.iwdfdevice3_mapiospace, MapIoSpace, MapIoSpace method, IWDFDevice3 interface, MapIoSpace method, MapIoSpace method, IWDFDevice3 interface
+ms.keywords: IWDFDevice3, MapIoSpace method, IWDFDevice3 interface, IWDFDevice3::MapIoSpace, MapIoSpace method, umdf.iwdfdevice3_mapiospace, IWDFDevice3::\_MapIoSpace, IWDFDevice3 interface, MapIoSpace method, MapIoSpace, wudfddi/IWDFDevice3::\_MapIoSpace, wdf.iwdfdevice3_mapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice3.MapIoSpace
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -96,11 +96,14 @@ The address of a location that receives a pointer to the pseudo base address.
 ## -returns
 
 
+
 The method returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 A driver must call this method during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MapIoSpace</b> maps the physical address returned in the resource list to a framework-managed address referred to as the pseudo base address.
@@ -117,10 +120,119 @@ The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax
 
 
 
+#### Examples
+
+In the following code example, a UMDF driver uses its <a href="https://msdn.microsoft.com/830D706A-016C-4637-829F-2014AD1A1309">IPnpCallbackHardware2::OnPrepareHardware</a> callback function to examine its memory-mapped register resources and map them into user-mode address space. The example then implements  a <b>WriteToDevice</b> method that accesses the memory locations. The driver then calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451237">UnmapIoSpace</a> from its <a href="https://msdn.microsoft.com/652B92C2-EF04-482A-BB57-9F64F947EE4F">IPnpCallbackHardware2::OnReleaseHardware</a> callback. The driver’s INF file must enable UMDF hardware access feature by setting the <b>UmdfDirectHardwareAccess</b> directive to <b>AllowDirectHardwareAccess</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+HRESULT
+CMyDevice::OnPrepareHardware(
+    __in IWDFDevice3 * pWdfDevice,
+    __in IWDFCmResourceList * pRaw,
+    __in IWDFCmResourceList * pTrans
+    ) 
+{
+    PCM_PARTIAL_RESOURCE_DESCRIPTOR desc = NULL;
+    PHYSICAL_ADDRESS regBasePA = {0};
+    ULONG regLength = 0;
+    BOOLEAN found = FALSE;
+    HRESULT hr = S_OK;
+
+    //
+    // Scan the list to identify our resource.
+    //
+    for (i=0; i &lt; pWdfResTranslated-&gt;GetCount(); i++) {
+        desc = (PCM_PARTIAL_RESOURCE_DESCRIPTOR) pTrans-&gt;GetDescriptor(i);
+
+        switch (desc-&gt;Type) {
+            case CmResourceTypeMemory:
+                //
+                // See if this is the memory resource we’re looking for.
+                // 
+                if (desc-&gt;u.Memory.Length == 0x200) {
+                    regsBasePA = desc-&gt;u.Memory.Start;
+                    regsLength = desc-&gt;u.Memory.Length;
+                    found = TRUE;                    
+                }
+                break;
+
+            default:
+                // Ignore all other descriptors.
+                break;
+        }
+    }
+
+    //
+    // Map the resource. Store the register base in partner device
+    // object for later access.
+    //
+    if (found) {
+            hr = pWdfDevice-&gt;MapIoSpace(regBasePA,
+                                           regLengthlength, 
+                                           MmNonCached,
+                                          (void **)&amp;m_RegBase);
+            if (SUCCEEDED(hr)) {
+            //
+            // Store the register range in partner object. This will 
+            // be needed for unmapping.
+            //
+            m_RegLength = regLength;
+        }
+    }
+
+    …
+}
+
+//
+// UMDF driver uses one of the register access APIs such as
+// WRITE_REGISTER_Xxx or READ_REGISTER_Xxx macros to access device register.
+//
+VOID
+CMyQueue::WriteToDevice(
+    __in IWDFDevice3* pWdfDevice,
+    __in UCHAR Value
+    )
+{
+    //
+    // Write the UCHAR value at offset 2 from register base.
+    //
+    WRITE_REGISTER_UCHAR(pWdfDevice, 
+                      (m_MyDevice-&gt;m_RegBase)+2, 
+                       Value);
+}
+
+HRESULT
+CMyDevice::OnReleaseHardware(
+    __in IWDFDevice3 * pWdfDevice,
+    __in IWDFCmResourceList * pTrans
+    )
+{
+    //
+    // Unmap registers memory resource.
+    //
+    pWdfDevice-&gt;UnmapIoSpace(m_RegBase, m_RegLength);
+
+    return S_OK;
+}
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+
+
 
  
 

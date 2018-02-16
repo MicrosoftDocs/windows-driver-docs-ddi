@@ -1,6 +1,6 @@
 ---
 UID: NS:ata._ATA_ZONE_DESCRIPTOR
-title: _ATA_ZONE_DESCRIPTOR
+title: "_ATA_ZONE_DESCRIPTOR"
 author: windows-driver-content
 description: This structure is for internal use only and should not be called from your code.
 old-location: storage\ata_zone_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e027ac5-7b5d-43cc-8d37-c0a3e77e68c9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor, ATA_ZONE_DESCRIPTOR structure [Storage Devices], ata/ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR
+ms.keywords: ATA_ZONE_DESCRIPTOR structure [Storage Devices], PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], ata/ATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor, ATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR, _ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ata.h
-apiname: 
+apiname:
 -	ATA_ZONE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR
+req.typenames: "*PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR"
 ---
 
 # _ATA_ZONE_DESCRIPTOR structure
@@ -155,37 +155,12 @@ N/A
 N/A
 
 
-#### - Reserved1  : 2
-
-N/A
-
-
-#### - ZoneStartLBA  : 48
-
-N/A
-
-
-#### - WritePointerLBA  : 48
-
-N/A
-
-
-#### - ZoneLength  : 48
-
-N/A
-
-
 #### - Reserved0  : 4
 
 N/A
 
 
-#### - Reserved4  : 16
-
-N/A
-
-
-#### - ZoneCondition  : 4
+#### - Reserved1  : 2
 
 N/A
 
@@ -197,17 +172,42 @@ N/A
 N/A
 
 
+#### - Reserved4  : 16
+
+N/A
+
+
 #### - Reserved5  : 16
 
 N/A
 
 
-#### - ZoneType  : 4
+#### - Reset  : 1
 
 N/A
 
 
-#### - Reset  : 1
+#### - WritePointerLBA  : 48
+
+N/A
+
+
+#### - ZoneCondition  : 4
+
+N/A
+
+
+#### - ZoneLength  : 48
+
+N/A
+
+
+#### - ZoneStartLBA  : 48
+
+N/A
+
+
+#### - ZoneType  : 4
 
 N/A
 

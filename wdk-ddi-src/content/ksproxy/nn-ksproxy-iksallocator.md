@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname: 
+apiname:
 -	IKsAllocator
 product: Windows
 targetos: Windows
@@ -111,6 +111,8 @@ Sets the mode in which an allocator allocates memory.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsAllocator.
+
 
 

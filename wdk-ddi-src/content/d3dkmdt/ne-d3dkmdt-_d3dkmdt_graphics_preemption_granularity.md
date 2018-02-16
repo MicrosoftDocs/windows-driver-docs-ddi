@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY
-title: _D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY
+title: "_D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY"
 author: windows-driver-content
 description: Specifies the capabilities for the preemption of graphic processing unit (GPU) graphics operations that the display miniport driver supports.
 old-location: display\d3dkmdt_graphics_preemption_granularity.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 589b0eac-235a-4403-a917-ae3241313c8e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmdt_graphics_preemption_granularity, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_NONE, D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY enumeration [Display Devices], d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY, _D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_NONE, D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY
+ms.keywords: d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_NONE, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, _D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, display.d3dkmdt_graphics_preemption_granularity, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_SHADER_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY enumeration [Display Devices], D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, D3DKMDT_GRAPHICS_PREEMPTION_NONE, d3dkmdt/D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ typedef enum _D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY {
 ### -field D3DKMDT_GRAPHICS_PREEMPTION_NONE
 
 The driver does not support the preemption of GPU graphics operations.
-<div class="alert"><b>Note</b>  This value also specifies that the driver cannot stop currently running DMA buffers of a specified type and cannot prevent all pending DMA buffers in the hardware queue from running.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This value also specifies that the driver cannot stop currently running DMA buffers of a specified type and cannot prevent all pending DMA buffers in the hardware queue from running.</div>
+<div> </div>
 
 ### -field D3DKMDT_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY
 
@@ -105,17 +107,23 @@ The driver cannot stop currently running shader instruction buffers of a specifi
 ## -remarks
 
 
+
 Starting with Windows 8, display miniport drivers need to specify the level of preemption granularity supported by the GPU when executing graphics operations. Because engines on the same adapter may potentially support different preemption levels, the driver should report the coarsest granularity among all engines capable of executing a particular type of graphics request.
 
 For example, if one engine supports the preemption of primitive level graphics requests, and another engine supports the preemption of triangle level graphics requests, the driver should report a capability of <b>D3DKMDT_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY</b> for the  adapter.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_compute_preemption_granularity.md">D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY</a>
+
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_preemption_caps.md">D3DKMDT_PREEMPTION_CAPS</a>
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_compute_preemption_granularity.md">D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY</a>
+
 
  
 

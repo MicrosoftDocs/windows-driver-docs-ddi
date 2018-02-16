@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f4b076f-006b-47cd-b970-8beed8d7e804
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, kernel.keremovequeuedpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], wdm/KeRemoveQueueDpc, KeRemoveQueueDpc
+ms.keywords: k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], KeRemoveQueueDpc, wdm/KeRemoveQueueDpc, kernel.keremovequeuedpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRemoveQueueDpc
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to an initialized DPC object that was queued by a previous call to the
 ## -returns
 
 
+
 <b>KeRemoveQueueDpc</b> returns <b>TRUE</b> if the DPC object is in the DPC queue. If the specified DPC object is not currently in the DPC queue, no operation is performed and <b>FALSE</b> is returned.
 
 
 
+
 ## -remarks
+
 
 
 If the specified DPC object is currently queued, it is removed from the queue, canceling a call to the associated DPC routine.
@@ -89,11 +92,16 @@ Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
 
+
+
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+
 
  
 

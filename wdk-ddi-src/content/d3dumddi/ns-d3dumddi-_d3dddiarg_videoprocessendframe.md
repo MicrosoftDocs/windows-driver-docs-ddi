@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VIDEOPROCESSENDFRAME
-title: _D3DDDIARG_VIDEOPROCESSENDFRAME
+title: "_D3DDDIARG_VIDEOPROCESSENDFRAME"
 author: windows-driver-content
 description: The D3DDDIARG_VIDEOPROCESSENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) video process that should stop processing a frame.
 old-location: display\d3dddiarg_videoprocessendframe.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 948f10cb-215c-4a21-a275-ffdbf0ee1593
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME structure [Display Devices], display.d3dddiarg_videoprocessendframe, d3dumddi/D3DDDIARG_VIDEOPROCESSENDFRAME, UMDisplayDriver_param_Structs_16fccea8-3a26-4470-bf7d-a94b04f01797.xml, _D3DDDIARG_VIDEOPROCESSENDFRAME
+ms.keywords: display.d3dddiarg_videoprocessendframe, d3dumddi/D3DDDIARG_VIDEOPROCESSENDFRAME, UMDisplayDriver_param_Structs_16fccea8-3a26-4470-bf7d-a94b04f01797.xml, _D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME, D3DDDIARG_VIDEOPROCESSENDFRAME structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_VIDEOPROCESSENDFRAME
 product: Windows
 targetos: Windows
@@ -82,7 +82,11 @@ This member is reserved and should be set to <b>NULL</b>.
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessendframe.md">VideoProcessEndFrame</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
+
+
 
  
 

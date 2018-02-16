@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 43a75def-0288-4615-ac85-b5e340aa11e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisGetCurrentProcessorCounts, ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCounts, netvista.ndisgetcurrentprocessorcounts
+ms.keywords: NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista], netvista.ndisgetcurrentprocessorcounts, NdisGetCurrentProcessorCounts, ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, ndis/NdisGetCurrentProcessorCounts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGetCurrentProcessorCounts
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGetCurrentProcessorCounts function
@@ -93,20 +93,27 @@ A pointer to a caller-supplied variable in which this function returns a zero-ba
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>NdisGetCurrentProcessorCounts</b> returns idle and CPU-usage counts that the caller can use to
     determine CPU usage for the current processor. The CPU utilization value indicates how loaded the CPU was
     since the immediately preceding call to this function. If the CPU was heavily loaded, such a driver can
     change how it handles certain operations to improve driver performance.
-<div class="alert"><b>Note</b>  Estimating processor usage is difficult, and drivers generally don't do it. Note that, even if you have an accurate estimate of processor usage, there are other factors that you need to take into account, such as what is causing the load on the CPU – and how important that particular load might be.</div><div> </div>A driver might call 
+
+<div class="alert"><b>Note</b>  Estimating processor usage is difficult, and drivers generally don't do it. Note that, even if you have an accurate estimate of processor usage, there are other factors that you need to take into account, such as what is causing the load on the CPU – and how important that particular load might be.</div>
+<div> </div>
+A driver might call 
     <b>NdisGetCurrentProcessorCounts</b> periodically within a timer function. The driver can use the
     following calculation to determine the CPU usage for a multiple of the timer interval:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -116,7 +123,9 @@ None
 <pre>CpuUsage = 100-100*(Idle - Idle[n])/(KernelAndUser - KernelAndUser[n]);</pre>
 </td>
 </tr>
-</table></span></div>where:
+</table></span></div>
+where:
+
 <ul>
 <li>
 CpuUsage is CPU usage as a percentage of the total interval time
@@ -145,4 +154,5 @@ KernelandUser[n] is the KernelandUser value returned by a previous call, stored 
 
 </li>
 </ul>
+
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_LUNMappingInformation
-title: _MSiSCSI_LUNMappingInformation
+title: "_MSiSCSI_LUNMappingInformation"
 author: windows-driver-content
 description: This MSiSCSI_LUNMappingInformation structure provides the SCSI address information that the operating system assigns to a particular logical unit.
 old-location: storage\msiscsi_lunmappinginformation.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/MSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, PMSiSCSI_LUNMappingInformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml, _MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, iscsiop/PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices]
+ms.keywords: "*PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], iscsiop/MSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], iscsiop/PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, _MSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	MSiSCSI_LUNMappingInformation
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation
+req.typenames: MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation
 ---
 
 # _MSiSCSI_LUNMappingInformation structure
@@ -99,21 +99,33 @@ The logical unit number (LUN) that the operating system assigns to the logical u
 ## -remarks
 
 
+
 You must implement this class.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
+
+
+
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
-<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
+
+
 
  
 

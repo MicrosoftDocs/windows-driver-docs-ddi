@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2185a1c0-e952-4dbd-b1a9-82339e417774
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_db71e773-84d8-40b9-9688-9fa33aad9182.xml, image.wiaudbgflags, wiauDbgFlags function [Imaging Devices], wiauDbgFlags, wiautil/wiauDbgFlags
+ms.keywords: wiauDbgFlags function [Imaging Devices], wiauDbgFlags, image.wiaudbgflags, wiautil/wiauDbgFlags, wiauFncs_db71e773-84d8-40b9-9688-9fa33aad9182.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	wiauDbgFlags
 product: Windows
 targetos: Windows
@@ -97,6 +97,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output. 
@@ -105,20 +106,26 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If message logging to log file, or debugger, or both is enabled and the particular flag in the <i>flags</i> parameter is enabled, this function logs a message containing the strings pointed to by the <i>prefix</i>, <i>fname</i>, and <i>fmt</i> parameters.
+
 
 
 
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaudbgsetflags.md">wiauDbgSetFlags</a>
+
+
 
  
 

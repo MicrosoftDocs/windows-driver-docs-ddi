@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	kbdmou.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_KEYBOARD_DISCONNECT
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
+req.typenames: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics"
 ---
 
 # IOCTL_INTERNAL_KEYBOARD_DISCONNECT IOCTL
@@ -88,14 +88,18 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Status</b> member is set to STATUS_NOT_IMPLEMENTED.
 ## -see-also
 
 <a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a>
+
+
 
  
 

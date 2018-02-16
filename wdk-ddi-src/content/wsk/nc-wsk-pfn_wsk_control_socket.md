@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskControlSocket
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -95,6 +95,24 @@ A value that specifies the type of control operation that is being performed. A 
      
 
 
+
+
+
+#### WskSetOption
+
+Set the state or value for a socket option.
+
+
+
+#### WskGetOption
+
+Get the state or value of a socket option.
+
+
+
+#### WskIoctl
+
+Perform an I/O control operation.
 
 
 ### -param ControlCode [in]
@@ -160,59 +178,14 @@ A caller-allocated buffer that receives any output data that is returned by the 
      <i>OutputSize</i> parameter to zero.
 
 
-### -param *OutputSizeReturned
-
-
-
-### -param Irp [in, out]
-
-A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
-     asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
-     
-
-If the 
-     <i>RequestType</i> parameter is set to either 
-     <b>WskSetOption</b> or 
-     <b>WskGetOption</b>, the 
-     <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular socket option
-     that is being set or retrieved. For more information about the requirements for the 
-     <i>Irp</i> parameter for each of the supported socket options, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>.
-
-If the 
-     <i>RequestType</i> parameter is set to 
-     <b>WskIoctl</b>, the 
-     <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular I/O control
-     operation that is being performed. For more information about the requirements for the 
-     <i>Irp</i> parameter for each of the supported I/O control operations, see 
-     <mshelp:link keywords="netvista.wsk_socket_ioctl_operations" tabindex="0">WSK Socket IOCTL
-     Operations</mshelp:link>.
-
-
-##### - RequestType.WskIoctl
-
-Perform an I/O control operation.
-
-
-##### - RequestType.WskGetOption
-
-Get the state or value of a socket option.
-
-
-##### - RequestType.WskSetOption
-
-Set the state or value for a socket option.
-
-
-#### - OutputSizeReturned [out, optional]
+### -param *OutputSizeReturned [out, optional]
 
 A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
      the buffer that is pointed to by the 
      <i>OutputBuffer</i> parameter. A WSK application should set the 
      <i>OutputSizeReturned</i> parameter to <b>NULL</b> except when all of the following are true:
      
+
 <ul>
 <li>
 The 
@@ -231,10 +204,39 @@ The number of bytes of output data that is returned by the operation that is bei
 </li>
 </ul>
 
+### -param Irp [in, out]
+
+A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
+     asynchronously. For more information about using IRPs with WSK functions, see 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     Kernel Functions</a>.
+     
+
+If the 
+     <i>RequestType</i> parameter is set to either 
+     <b>WskSetOption</b> or 
+     <b>WskGetOption</b>, the 
+     <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular socket option
+     that is being set or retrieved. For more information about the requirements for the 
+     <i>Irp</i> parameter for each of the supported socket options, see 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>.
+
+If the 
+     <i>RequestType</i> parameter is set to 
+     <b>WskIoctl</b>, the 
+     <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular I/O control
+     operation that is being performed. For more information about the requirements for the 
+     <i>Irp</i> parameter for each of the supported I/O control operations, see 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL
+     Operations</a>.
+
+
 ## -returns
 
 
+
 <b>WskControlSocket</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -313,11 +315,14 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If a WSK application specifies 
@@ -353,25 +358,42 @@ Callers of the
 
 
 
+
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
-<mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wsk-socket-ioctl-operations">WSK Socket IOCTL Operations</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
 
  
 

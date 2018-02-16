@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	SetVertexShaderFunc
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY SetVertexShaderFunc(
 
 
 
+
+
 #### - hShaderHandle [in]
 
  A handle to the vertex shader code object.
@@ -91,11 +93,14 @@ __checkReturn HRESULT APIENTRY SetVertexShaderFunc(
 ## -returns
 
 
+
 <i>SetVertexShaderFunc</i> returns S_OK or an appropriate error result if the vertex shader code is not successfully set.
 
 
 
+
 ## -remarks
+
 
 
 After setting the vertex shader code, all of the drawing operations use that code until another code is selected.
@@ -104,9 +109,12 @@ For user-mode display drivers that support vertex shaders before version 2.0, th
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

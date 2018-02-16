@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOPRIMARIES
-title: _DXVADDI_VIDEOPRIMARIES
+title: "_DXVADDI_VIDEOPRIMARIES"
 author: windows-driver-content
 description: The DXVADDI_VIDEOPRIMARIES enumeration type contains values that identify the color primaries, which state which RGB basis functions are used.
 old-location: display\dxvaddi_videoprimaries.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d7049f38-78a7-42bf-a1a5-5d35fe70ae15
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimaries_BT709, DXVADDI_VideoPrimaries_BT470_2_SysBG, DXVADDI_VideoPrimaries_SMPTE170M, DXVADDI_VideoPrimaries_EBU3213, DXVADDI_VideoPrimaries_BT470_2_SysM, DXVADDI_VideoPrimaries_SMPTE240M, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysBG, DXVADDI_VideoPrimaries_SMPTE_C, DXVADDI_VideoPrimaries_BT709, d3dumddi/DXVADDI_VideoPrimariesMask, DXVADDI_VIDEOPRIMARIES enumeration [Display Devices], d3dumddi/DXVADDI_VideoPrimaries_Unknown, DXVADDI_VideoPrimariesMask, d3dumddi/DXVADDI_VideoPrimaries_reserved, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysM, DXVADDI_VideoPrimaries_reserved, _DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimaries_SMPTE170M, d3dumddi/DXVADDI_VideoPrimaries_SMPTE_C, d3dumddi/DXVADDI_VideoPrimaries_SMPTE240M, d3dumddi/DXVADDI_VideoPrimaries_EBU3213, DXVA2_Structs_f49dc977-3cb9-41b6-bb0c-a2de5e6a60c3.xml, display.dxvaddi_videoprimaries, DXVADDI_VIDEOPRIMARIES, DXVADDI_VideoPrimaries_Unknown
+ms.keywords: DXVADDI_VideoPrimaries_BT470_2_SysBG, DXVADDI_VideoPrimariesMask, DXVADDI_VideoPrimaries_reserved, DXVADDI_VideoPrimaries_EBU3213, DXVADDI_VIDEOPRIMARIES enumeration [Display Devices], d3dumddi/DXVADDI_VideoPrimariesMask, DXVADDI_VideoPrimaries_BT709, DXVADDI_VideoPrimaries_SMPTE_C, DXVADDI_VideoPrimaries_BT470_2_SysM, d3dumddi/DXVADDI_VideoPrimaries_BT709, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysBG, d3dumddi/DXVADDI_VideoPrimaries_reserved, d3dumddi/DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimaries_Unknown, DXVADDI_VideoPrimaries_SMPTE170M, _DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimaries_EBU3213, DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimaries_SMPTE240M, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysM, DXVA2_Structs_f49dc977-3cb9-41b6-bb0c-a2de5e6a60c3.xml, DXVADDI_VideoPrimaries_Unknown, d3dumddi/DXVADDI_VideoPrimaries_SMPTE_C, DXVADDI_VideoPrimaries_SMPTE240M, display.dxvaddi_videoprimaries, d3dumddi/DXVADDI_VideoPrimaries_SMPTE170M
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_VIDEOPRIMARIES
 product: Windows
 targetos: Windows
@@ -129,13 +129,17 @@ Specifies SMPTE_C primaries, which are analog '79 NTSC primaries.
 ## -remarks
 
 
+
 One of the values of DXVADDI_VIDEOPRIMARIES can be specified in the <b>VideoPrimaries</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+
+
 
  
 

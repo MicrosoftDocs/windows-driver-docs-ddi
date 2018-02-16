@@ -1,14 +1,14 @@
 ---
 UID: NS:usbspec._USB_STRING_DESCRIPTOR
-title: _USB_STRING_DESCRIPTOR
+title: "_USB_STRING_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_STRING_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined string descriptor.
 old-location: buses\usb_string_descriptor.htm
 old-project: usbref
 ms.assetid: 20d76582-4138-4a45-940b-a8e9207946a5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.usb_string_descriptor, _USB_STRING_DESCRIPTOR, usbspec/PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses], PUSB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, PUSB_STRING_DESCRIPTOR structure pointer [Buses]
+ms.date: 2/8/2018
+ms.keywords: PUSB_STRING_DESCRIPTOR structure pointer [Buses], _USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses], usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml, usbspec/USB_STRING_DESCRIPTOR, buses.usb_string_descriptor, usbspec/PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbspec.h
-apiname: 
+apiname:
 -	USB_STRING_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
+req.typenames: "*PUSB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -88,23 +88,31 @@ Pointer to a client-allocated buffer that contains, on return from the host cont
 ## -remarks
 
 
+
 This structure is used to hold a device, configuration, interface, class, vendor, endpoint, or device string descriptor. The string descriptor provides a human-readable description of the component.
 
 Strings returned in <b>bString</b> are in Unicode format and the contents of the strings are device-defined.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
 <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_STRING_DESCRIPTOR structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_STRING_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

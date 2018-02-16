@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D965D8D3-B78C-4126-A675-D6D8A85AA158
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetParentObject method, IWDFWorkItem interface, wdf.iwdfworkitem_getparentobject, IWDFWorkItem interface, GetParentObject method, GetParentObject, IWDFWorkItem, wudfddi/IWDFWorkItem::GetParentObject, umdf.iwdfworkitem_getparentobject, IWDFWorkItem::GetParentObject, GetParentObject method
+ms.keywords: GetParentObject method, wudfddi/IWDFWorkItem::GetParentObject, IWDFWorkItem interface, GetParentObject method, wdf.iwdfworkitem_getparentobject, GetParentObject, umdf.iwdfworkitem_getparentobject, IWDFWorkItem, IWDFWorkItem::GetParentObject, GetParentObject method, IWDFWorkItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFWorkItem.GetParentObject
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,23 +69,30 @@ IWDFObject* GetParentObject();
 
 
 
+
 ## -returns
+
 
 
 A pointer to the parent object interface.
 
 
 
+
 ## -remarks
+
 
 
 For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF-9CC2-7215423E6D35">Using Work Items</a>.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
+
 
  
 

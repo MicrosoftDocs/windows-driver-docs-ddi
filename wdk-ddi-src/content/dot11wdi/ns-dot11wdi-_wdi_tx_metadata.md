@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TX_METADATA
-title: _WDI_TX_METADATA
+title: "_WDI_TX_METADATA"
 author: windows-driver-content
 description: The WDI_TX_METADATA structure defines the TX metadata.
 old-location: netvista\wdi_tx_metadata.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21833980-0098-43c2-822c-9d8292f7120a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PWDI_TX_METADATA, WDI_TX_METADATA structure [Network Drivers Starting with Windows Vista], PWDI_TX_METADATA structure pointer [Network Drivers Starting with Windows Vista], netvista.wifi_tx_metadata, dot11wdi/PWDI_TX_METADATA, dot11wdi/WDI_TX_METADATA, PWDI_TX_METADATA, WDI_TX_METADATA, netvista.wdi_tx_metadata, _WDI_TX_METADATA
+ms.keywords: WDI_TX_METADATA structure [Network Drivers Starting with Windows Vista], netvista.wdi_tx_metadata, dot11wdi/PWDI_TX_METADATA, *PWDI_TX_METADATA, netvista.wifi_tx_metadata, PWDI_TX_METADATA, PWDI_TX_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_TX_METADATA, dot11wdi/WDI_TX_METADATA, _WDI_TX_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	WDI_TX_METADATA
 product: Windows
 targetos: Windows
@@ -159,9 +159,13 @@ Reserved.
 
 ## -see-also
 
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+
+
+
 <a href="..\dot11wdi\ne-dot11wdi-_wdi_exemption_action_type.md">WDI_EXEMPTION_ACTION_TYPE</a>
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+
 
  
 

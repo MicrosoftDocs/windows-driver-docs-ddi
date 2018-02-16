@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_AVAILABLE_FREQUENCY_LIST
-title: _DOT11_AVAILABLE_FREQUENCY_LIST
+title: "_DOT11_AVAILABLE_FREQUENCY_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_available_frequency_list.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b8862ba3-c871-4d9b-9ee4-99ec9d0bcda9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml, windot11/DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], PDOT11_AVAILABLE_FREQUENCY_LIST, _DOT11_AVAILABLE_FREQUENCY_LIST, netvista.dot11_available_frequency_list, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST
+ms.keywords: netvista.dot11_available_frequency_list, windot11/DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml, *PDOT11_AVAILABLE_FREQUENCY_LIST, _DOT11_AVAILABLE_FREQUENCY_LIST, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_AVAILABLE_FREQUENCY_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST
+req.typenames: "*PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,25 @@ The miniport driver must set the members of
 
 
 
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+
+#### Revision
+
+This member must be set to DOT11_AVAILABLE_FREQUENCY_LIST_REVISION_1.
+
+
+
+#### Size
+
+This member must be set to
+       <b>sizeof</b>(DOT11_AVAILABLE_FREQUENCY_LIST).
+
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -105,37 +124,27 @@ The maximum number of entries that the
 An array that specifies the list of available frequencies that the NIC can operate with.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_AVAILABLE_FREQUENCY_LIST_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to
-       <b>sizeof</b>(DOT11_AVAILABLE_FREQUENCY_LIST).
-
-
 ## -remarks
 
 
+
 This structure is used with 
-    <mshelp:link keywords="netvista.oid_dot11_available_frequency_list" tabindex="0">
-    OID_DOT11_AVAILABLE_FREQUENCY_LIST</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-available-frequency-list">
+    OID_DOT11_AVAILABLE_FREQUENCY_LIST</a>.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_available_frequency_list" tabindex="0">
-   OID_DOT11_AVAILABLE_FREQUENCY_LIST</mshelp:link>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-available-frequency-list">
+   OID_DOT11_AVAILABLE_FREQUENCY_LIST</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ae3077a3-01a8-4578-9a26-b8b14ec51a7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PIPE_TYPE, EVENT_PIPE, image.pipe_type, usbscan/ALL_PIPE, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, usbscan/PIPE_TYPE, usbscan/WRITE_DATA_PIPE, usbscan/READ_DATA_PIPE, ALL_PIPE, READ_DATA_PIPE, WRITE_DATA_PIPE, PIPE_TYPE enumeration [Imaging Devices], usbscan/EVENT_PIPE
+ms.keywords: PIPE_TYPE enumeration [Imaging Devices], EVENT_PIPE, READ_DATA_PIPE, ALL_PIPE, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, usbscan/EVENT_PIPE, usbscan/READ_DATA_PIPE, PIPE_TYPE, WRITE_DATA_PIPE, usbscan/ALL_PIPE, image.pipe_type, usbscan/WRITE_DATA_PIPE, usbscan/PIPE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbscan.h
-apiname: 
+apiname:
 -	PIPE_TYPE
 product: Windows
 targetos: Windows

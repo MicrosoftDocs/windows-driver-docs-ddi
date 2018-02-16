@@ -1,6 +1,6 @@
 ---
 UID: NS:ptpusd._PTP_VENDOR_DATA_OUT
-title: _PTP_VENDOR_DATA_OUT
+title: "_PTP_VENDOR_DATA_OUT"
 author: windows-driver-content
 description: The PTP_VENDOR_DATA_OUT structure contains information that the device sends to an application, in response to a command the application issued to the device.
 old-location: image\ptp_vendor_data_out.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2585c7ce-6dba-491a-86c1-5ee69f28136f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PPTP_VENDOR_DATA_OUT, ptpusd/PPTP_VENDOR_DATA_OUT, image.ptp_vendor_data_out, wiastrct_032c0aa0-aec8-440d-b528-de1b739d2e1d.xml, PTP_VENDOR_DATA_OUT structure [Imaging Devices], PTP_VENDOR_DATA_OUT, _PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT, ptpusd/PTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT structure pointer [Imaging Devices]
+ms.keywords: ptpusd/PTP_VENDOR_DATA_OUT, ptpusd/PPTP_VENDOR_DATA_OUT, _PTP_VENDOR_DATA_OUT, image.ptp_vendor_data_out, *PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT structure [Imaging Devices], wiastrct_032c0aa0-aec8-440d-b528-de1b739d2e1d.xml, PPTP_VENDOR_DATA_OUT structure pointer [Imaging Devices], PTP_VENDOR_DATA_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ptpusd.h
-apiname: 
+apiname:
 -	PTP_VENDOR_DATA_OUT
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
+req.typenames: "*PPTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT"
 req.product: Windows 10 or later.
 ---
 
@@ -100,15 +100,19 @@ Is an array containing an (optional) first byte to read from the device.
 ## -remarks
 
 
+
 See <a href="https://msdn.microsoft.com/3d360a9f-5a65-452b-a8ad-080dc7d8c8f5">Vendor-Extended Commands</a> for more information and example code that uses this structure.
 
 For more information about the response codes used in the <b>ResponseCode</b> member, see PIMA 15740:2000, <i>Photography </i>−<i> Electronic still picture imaging </i>−<i> Picture Transfer Protocol (PTP) for Digital Still Photography Devices</i>,<i> First Edition</i>, July 5, 2000, http://www.pima.net/standards/it10/PIMA15740/. 
 
 
 
+
 ## -see-also
 
 <a href="..\ptpusd\ns-ptpusd-_ptp_vendor_data_in.md">PTP_VENDOR_DATA_IN</a>
+
+
 
  
 

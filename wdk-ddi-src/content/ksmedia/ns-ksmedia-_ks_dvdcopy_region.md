@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_REGION
-title: _KS_DVDCOPY_REGION
+title: "_KS_DVDCOPY_REGION"
 author: windows-driver-content
 description: The KS_DVDCOPY_REGION structure is used to describe the copy control region according to language restrictions.
 old-location: stream\ks_dvdcopy_region.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 159a8dd0-6efa-4f2c-921c-c427e1cf59ec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KS_DVDCOPY_REGION, KS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, stream.ks_dvdcopy_region, ksmedia/KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], PKS_DVDCOPY_REGION, ksmedia/PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices]
+ms.keywords: ksmedia/PKS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, KS_DVDCOPY_REGION structure [Streaming Media Devices], KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION, _KS_DVDCOPY_REGION, stream.ks_dvdcopy_region, ksmedia/KS_DVDCOPY_REGION, PKS_DVDCOPY_REGION, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DVDCOPY_REGION
 product: Windows
 targetos: Windows
-req.typenames: *PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION
+req.typenames: KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION
 ---
 
 # _KS_DVDCOPY_REGION structure
@@ -77,6 +77,7 @@ Reserved. Do not use.
 ### -field RegionData
 
 Specifies the region code for the nationality or language, as described in the following table:
+
 <table>
 <tr>
 <th>Numeric Code</th>
@@ -142,7 +143,8 @@ China
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved2
@@ -153,15 +155,19 @@ Reserved. Do not use.
 ## -remarks
 
 
+
 The KS_DVDCOPY_REGION structure is used by the KSPROPERTY_DVDCOPY_REGION property.
 
 For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c-b2ab-7567a5eeb87b">DVD Copyright Protection</a> and <a href="https://msdn.microsoft.com/931441c8-9521-43c9-86f1-dbf75d36e190">DVD Regionalization</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565146">KSPROPERTY_DVDCOPY_REGION</a>
+
+
 
  
 

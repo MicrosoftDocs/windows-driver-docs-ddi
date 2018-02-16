@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, wudfwdm/InitializeObjectAttributes, kernel.initializeobjectattributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], InitializeObjectAttributes
+ms.keywords: InitializeObjectAttributes, kernel.initializeobjectattributes, k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, wudfwdm/InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfwdm.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wudfwdm.h
-apiname: 
+apiname:
 -	InitializeObjectAttributes
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -99,14 +99,6 @@ TBD
 
 
 
-##### - Attributes.OBJ_FORCE_ACCESS_CHECK
-
-The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.
-
-
-##### - Attributes.OBJ_EXCLUSIVE
-
-Only a single handle can be open for this object.
 
 
 #### - Attributes [in]
@@ -116,19 +108,46 @@ Specifies one or more of the following flags:
 
 
 
-#### - SecurityDescriptor [in, optional]
 
-Specifies a security descriptor to apply to an object when it is created. This parameter is optional. Drivers can specify <b>NULL</b> to accept the default security for the object. For more information, see the following Remarks section.
+#### OBJ_INHERIT
+
+This handle can be inherited by child processes of the current process.
 
 
-##### - Attributes.OBJ_PERMANENT
+
+#### OBJ_PERMANENT
 
 This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use <a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a> to delete permanent objects.
 
 
-##### - Attributes.OBJ_OPENIF
+
+#### OBJ_EXCLUSIVE
+
+Only a single handle can be open for this object.
+
+
+
+#### OBJ_CASE_INSENSITIVE
+
+If this flag is specified, a case-insensitive comparison is used when matching the <i>ObjectName</i> parameter against the names of existing objects. Otherwise, object names are compared using the default system settings.
+
+
+
+#### OBJ_OPENIF
 
 If this flag is specified to a routine that creates objects, and that object already exists then the routine should open that object. Otherwise, the routine creating the object returns an NTSTATUS code of STATUS_OBJECT_NAME_COLLISION.
+
+
+
+#### OBJ_KERNEL_HANDLE
+
+Specifies that the handle can only be accessed in kernel mode.
+
+
+
+#### OBJ_FORCE_ACCESS_CHECK
+
+The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.
 
 
 #### - InitializedAttributes [out]
@@ -136,32 +155,23 @@ If this flag is specified to a routine that creates objects, and that object alr
 Specifies the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure to initialize.
 
 
-#### - RootDirectory [in]
-
-A handle to the root object directory for the path name specified in the <i>ObjectName</i> parameter. If <i>ObjectName</i> is a fully qualified object name, <i>RootDirectory</i> is <b>NULL</b>. Use <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a> to obtain a handle to an object directory.
-
-
-##### - Attributes.OBJ_CASE_INSENSITIVE
-
-If this flag is specified, a case-insensitive comparison is used when matching the <i>ObjectName</i> parameter against the names of existing objects. Otherwise, object names are compared using the default system settings.
-
-
 #### - ObjectName [in]
 
 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">Unicode string</a> that contains name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the <i>RootDirectory</i> parameter.
 
 
-##### - Attributes.OBJ_INHERIT
+#### - RootDirectory [in]
 
-This handle can be inherited by child processes of the current process.
+A handle to the root object directory for the path name specified in the <i>ObjectName</i> parameter. If <i>ObjectName</i> is a fully qualified object name, <i>RootDirectory</i> is <b>NULL</b>. Use <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a> to obtain a handle to an object directory.
 
 
-##### - Attributes.OBJ_KERNEL_HANDLE
+#### - SecurityDescriptor [in, optional]
 
-Specifies that the handle can only be accessed in kernel mode.
+Specifies a security descriptor to apply to an object when it is created. This parameter is optional. Drivers can specify <b>NULL</b> to accept the default security for the object. For more information, see the following Remarks section.
 
 
 ## -remarks
+
 
 
 <b>InitializeObjectAttributes</b> initializes an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the properties of an object handle to be opened. The caller can then pass a pointer to this structure to a routine that actually opens the handle. 
@@ -172,35 +182,64 @@ Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOf
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 <a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>
 
-<a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
-
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
-
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
 
 <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+
+
 
  
 

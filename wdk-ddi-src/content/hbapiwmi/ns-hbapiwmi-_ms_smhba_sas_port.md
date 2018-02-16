@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_SAS_Port
-title: _MS_SMHBA_SAS_Port
+title: "_MS_SMHBA_SAS_Port"
 author: windows-driver-content
 description: The MS_SMHBA_SAS_Port structure is used to report the SAS port information.
 old-location: storage\ms_smhba_sas_port.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d294d97a-e6b2-4ab3-bebf-e545aa2f862d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMS_SMHBA_SAS_Port structure pointer [Storage Devices], hbapiwmi/MS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port structure [Storage Devices], *PMS_SMHBA_SAS_Port, structs-Fibre_c7678d06-756a-4733-bdff-35571ff2c571.xml, storage.ms_smhba_sas_port, _MS_SMHBA_SAS_Port, hbapiwmi/PMS_SMHBA_SAS_Port, PMS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port
+ms.keywords: MS_SMHBA_SAS_Port structure [Storage Devices], PMS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port, hbapiwmi/PMS_SMHBA_SAS_Port, _MS_SMHBA_SAS_Port, PMS_SMHBA_SAS_Port structure pointer [Storage Devices], structs-Fibre_c7678d06-756a-4733-bdff-35571ff2c571.xml, storage.ms_smhba_sas_port, *PMS_SMHBA_SAS_Port, hbapiwmi/MS_SMHBA_SAS_Port
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MS_SMHBA_SAS_Port
 product: Windows
 targetos: Windows
-req.typenames: *PMS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port
+req.typenames: "*PMS_SMHBA_SAS_Port, MS_SMHBA_SAS_Port"
 ---
 
 # _MS_SMHBA_SAS_Port structure

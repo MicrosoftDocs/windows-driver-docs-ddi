@@ -1,6 +1,6 @@
 ---
 UID: NS:hidport._HID_DEVICE_EXTENSION
-title: _HID_DEVICE_EXTENSION
+title: "_HID_DEVICE_EXTENSION"
 author: windows-driver-content
 description: The HID_DEVICE_EXTENSION structure is used by a HID minidriver as its layout for the device extension of a HIDClass device's functional device object.
 old-location: hid\hid_device_extension.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 409fbc3e-1221-4869-9087-693b1e4d4587
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hid_device_extension, _HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION, PHID_DEVICE_EXTENSION structure pointer [Human Input Devices], HID_DEVICE_EXTENSION structure [Human Input Devices], PHID_DEVICE_EXTENSION, hidport/PHID_DEVICE_EXTENSION, hidport/HID_DEVICE_EXTENSION, hidstrct_faf2bb84-b1f7-4cfa-84b0-5328dfb521dc.xml, HID_DEVICE_EXTENSION
+ms.keywords: hidport/PHID_DEVICE_EXTENSION, PHID_DEVICE_EXTENSION, hid.hid_device_extension, hidport/HID_DEVICE_EXTENSION, PHID_DEVICE_EXTENSION structure pointer [Human Input Devices], HID_DEVICE_EXTENSION structure [Human Input Devices], hidstrct_faf2bb84-b1f7-4cfa-84b0-5328dfb521dc.xml, _HID_DEVICE_EXTENSION, HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidport.h
-apiname: 
+apiname:
 -	HID_DEVICE_EXTENSION
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ Pointer to the minidriver-specific portion of the device extension.
 ## -see-also
 
 <a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>
+
+
 
  
 

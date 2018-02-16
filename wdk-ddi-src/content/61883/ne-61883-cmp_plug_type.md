@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 97A19F3D-5669-4E4B-A377-7BE5A84DF63A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cmp_plug_type, 61883/CMP_PlugOut, CMP_PlugOut, CMP_PlugIn, 61883/CMP_PlugIn, 61883/CMP_PLUG_TYPE, CMP_PLUG_TYPE, CMP_PLUG_TYPE enumeration [Buses]
+ms.keywords: CMP_PlugOut, 61883/CMP_PlugOut, CMP_PLUG_TYPE, CMP_PLUG_TYPE enumeration [Buses], CMP_PlugIn, 61883/CMP_PLUG_TYPE, IEEE.cmp_plug_type, 61883/CMP_PlugIn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CMP_PLUG_TYPE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ An in plug.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

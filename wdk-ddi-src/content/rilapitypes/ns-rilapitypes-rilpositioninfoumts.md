@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c17760c4-6f75-41e8-84a5-f13e26735af5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilpositioninfoumts, RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS
+ms.keywords: rilapitypes/RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], *LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS, netvista.rilpositioninfoumts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPOSITIONINFOUMTS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS
+req.typenames: RILPOSITIONINFOUMTS, *LPRILPOSITIONINFOUMTS
 req.product: Windows 10 or later.
 ---
 
@@ -148,6 +148,8 @@ Path loss of serving cell (46...173)
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

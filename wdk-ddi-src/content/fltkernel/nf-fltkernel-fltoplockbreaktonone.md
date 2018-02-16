@@ -7,8 +7,8 @@ old-location: ifsk\fltoplockbreaktonone.htm
 old-project: ifsk
 ms.assetid: 212dc455-9317-4901-9a96-1c71dde0faf3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltOplockBreakToNone, FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone, FltOplockBreakToNone routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, FltOplockBreakToNone, fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone, FltOplockBreakToNone routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltOplockBreakToNone
 product: Windows
 targetos: Windows
@@ -91,6 +91,7 @@ A pointer to caller-defined context information to be passed to the callback rou
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -104,9 +105,22 @@ This routine is declared as follows:
       );</pre>
 </td>
 </tr>
-</table></span></div>This routine has the following parameters: 
+</table></span></div>
+This routine has the following parameters: 
 
 
+
+
+
+#### CallbackData
+
+A pointer to the callback data structure for the I/O operation. 
+
+
+
+#### Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>. 
 
 
 ### -param PrePostCallbackDataRoutine [in, optional]
@@ -114,6 +128,7 @@ This routine is declared as follows:
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -127,27 +142,20 @@ This routine is declared as follows:
       );</pre>
 </td>
 </tr>
-</table></span></div>This routine has the following parameters: 
+</table></span></div>
+This routine has the following parameters: 
 
 
 
 
-##### - WaitCompletionRoutine.CallbackData
 
-A pointer to the callback data structure for the I/O operation. 
-
-
-##### - WaitCompletionRoutine.Context
-
-A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>. 
-
-
-##### - PrePostCallbackDataRoutine.CallbackData
+#### CallbackData
 
 A pointer to the callback data structure for the I/O operation. 
 
 
-##### - PrePostCallbackDataRoutine.Context
+
+#### Context
 
 A context information pointer that was passed in the <i>Context</i> parameter to <b>FltOplockBreakToNone</b>. 
 
@@ -155,7 +163,9 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 ## -returns
 
 
+
 <b>FltOplockBreakToNone</b> returns one of the following FLT_PREOP_CALLBACK_STATUS codes: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -194,30 +204,42 @@ The callback data that the <i>CallbackData</i> parameter points to was not pende
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex~r5.md">FsRtlOplockBreakToNoneEx</a>
+
+
+
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
 
 <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
 
+
+
 <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex~r5.md">FsRtlOplockBreakToNoneEx</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltOplockBreakToNone routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltOplockBreakToNone routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

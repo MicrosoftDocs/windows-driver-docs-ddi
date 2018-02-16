@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 821f05f8-cc2c-4567-a1a0-aaa7b535d568
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GEOSCOPE_CELL, netvista.rilgeoscope_2, rilapitypes/RIL_GEOSCOPE_CELL, rilapitypes/RIL_GEOSCOPE_MAX, rilapitypes/RIL_GEOSCOPE_CELL_IMMEDIATE, rilapitypes/RILGEOSCOPE, rilapitypes/RIL_GEOSCOPE_PLMN, RILGEOSCOPE, RIL_GEOSCOPE_MAX, RIL_GEOSCOPE_LOCATIONAREA, RIL_GEOSCOPE_PLMN, rilapitypes/RIL_GEOSCOPE_LOCATIONAREA, RIL_GEOSCOPE_CELL_IMMEDIATE, RILGEOSCOPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RIL_GEOSCOPE_CELL_IMMEDIATE, rilapitypes/RIL_GEOSCOPE_PLMN, RIL_GEOSCOPE_MAX, rilapitypes/RIL_GEOSCOPE_MAX, rilapitypes/RILGEOSCOPE, RIL_GEOSCOPE_CELL, RIL_GEOSCOPE_CELL_IMMEDIATE, rilapitypes/RIL_GEOSCOPE_CELL, RILGEOSCOPE enumeration [Network Drivers Starting with Windows Vista], netvista.rilgeoscope_2, RIL_GEOSCOPE_LOCATIONAREA, RIL_GEOSCOPE_PLMN, RILGEOSCOPE, rilapitypes/RIL_GEOSCOPE_LOCATIONAREA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGEOSCOPE
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILGEOSCOPE {
 ### -field RIL_GEOSCOPE_NONE
 
 
-
 ### -field RIL_GEOSCOPE_CELL_IMMEDIATE
-
 
 
 ### -field RIL_GEOSCOPE_LOCATIONAREA
 
 
-
 ### -field RIL_GEOSCOPE_PLMN
-
 
 
 ### -field RIL_GEOSCOPE_CELL
 
 
-
 ### -field RIL_GEOSCOPE_MAX
-
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec1db013-b630-421b-8d22-385a2d9b9510
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortSetBusDataByOffset routine [Storage Devices], storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml, storage.storportsetbusdatabyoffset, storport/StorPortSetBusDataByOffset, StorPortSetBusDataByOffset
+ms.keywords: StorPortSetBusDataByOffset, storage.storportsetbusdatabyoffset, StorPortSetBusDataByOffset routine [Storage Devices], storport/StorPortSetBusDataByOffset, storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortSetBusDataByOffset
 product: Windows
 targetos: Windows
@@ -117,13 +117,17 @@ Indicates the length, in bytes, of the maximum amount of data to return.
 ## -returns
 
 
+
 <b>StorPortSetBusDataByOffset</b> returns the number of bytes of configuration data written. 
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportsetbusdatabyoffset.md">ScsiPortSetBusDataByOffset</a>
+
+
 
  
 

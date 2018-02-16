@@ -7,8 +7,8 @@ old-location: print\oemdevqueryprintex.htm
 old-project: print
 ms.assetid: 3d555be3-2a1b-40b4-adf4-b797bb4b09b7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_obsoletefunctions_c58c63fe-eeae-444d-a0e2-df17b61fa1ed.xml, print.oemdevqueryprintex, OEMDevQueryPrintEx, printoem/OEMDevQueryPrintEx, OEMDevQueryPrintEx function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: OEMDevQueryPrintEx function [Print Devices], print.oemdevqueryprintex, printoem/OEMDevQueryPrintEx, print_obsoletefunctions_c58c63fe-eeae-444d-a0e2-df17b61fa1ed.xml, OEMDevQueryPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMDevQueryPrintEx
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ BOOL APIENTRY OEMDevQueryPrintEx(
 ### -param poemuiobj
 
 
-
 ### -param pDQPInfo
-
 
 
 ### -param pPublicDM
 
 
-
 ### -param pOEMDM
-
 

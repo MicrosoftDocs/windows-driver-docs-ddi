@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6cce25c0-a192-4472-b0ac-3b4fadf8f9e2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilresetmodemimsenablementstate_2, rilapitypes/RILRESETMODEMIMSENABLEMENTSTATE, RILRESETMODEMIMSENABLEMENTSTATE, rilapitypes/RIL_RESETMODEM_ENABLED, RILRESETMODEMIMSENABLEMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEM_ENABLED
+ms.keywords: RILRESETMODEMIMSENABLEMENTSTATE, rilapitypes/RILRESETMODEMIMSENABLEMENTSTATE, netvista.rilresetmodemimsenablementstate_2, RILRESETMODEMIMSENABLEMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEM_ENABLED, rilapitypes/RIL_RESETMODEM_ENABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILRESETMODEMIMSENABLEMENTSTATE
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum _RILRESETMODEMIMSENABLEMENTSTATE {
 ### -field RIL_RESETMODEM_DISABLED
 
 
-
 ### -field RIL_RESETMODEM_ENABLED
-
 

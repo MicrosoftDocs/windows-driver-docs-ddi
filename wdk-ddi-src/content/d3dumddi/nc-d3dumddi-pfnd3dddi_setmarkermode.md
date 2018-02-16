@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	pfnSetMarkerMode
 product: Windows
 targetos: Windows
@@ -93,14 +93,18 @@ The annotation can be in the form of a text string in the English-US locale, or 
 
 
 
+
       Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
+
 
 
 
 ## -remarks
 
 
+
 Follow these guidelines when you set up profile-type marker events in your user-mode driver, indicated by the <b>D3DDDIMT_PROFILE</b> type:
+
 <ol>
 <li>Use lightweight instrumentation that doesn't produce a strong correlation with graphics command boundaries.</li>
 <li>The driver must be able to sample the GPU time stamp at the end of the graphics pipeline.</li>
@@ -108,11 +112,16 @@ Follow these guidelines when you set up profile-type marker events in your user-
 </ol>
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode.md">SetMarkerMode</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a>
+
 
  
 

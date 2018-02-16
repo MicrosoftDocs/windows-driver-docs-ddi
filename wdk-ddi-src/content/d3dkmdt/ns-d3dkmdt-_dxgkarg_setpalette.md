@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKARG_SETPALETTE
-title: _DXGKARG_SETPALETTE
+title: "_DXGKARG_SETPALETTE"
 author: windows-driver-content
 description: The DXGKARG_SETPALETTE structure describes the palette to set for a display.
 old-location: display\dxgkarg_setpalette.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a76d9549-d182-437f-a570-7d24fd6a5488
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_SETPALETTE, DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, display.dxgkarg_setpalette
+ms.keywords: "_DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], d3dkmdt/DXGKARG_SETPALETTE, DXGKARG_SETPALETTE, display.dxgkarg_setpalette, DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGKARG_SETPALETTE
 product: Windows
 targetos: Windows
@@ -92,9 +92,13 @@ typedef struct _DXGKARG_SETPALETTE {
 
 ## -see-also
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpalette.md">DxgkDdiSetPalette</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2dc32517-3730-4a1c-a59a-f5036d6f54ef
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_351b5540-c341-46d1-b2da-1ea88f78b7b2.xml, wdm/KeRemoveEntryDeviceQueue, KeRemoveEntryDeviceQueue, kernel.keremoveentrydevicequeue, KeRemoveEntryDeviceQueue routine [Kernel-Mode Driver Architecture]
+ms.keywords: KeRemoveEntryDeviceQueue routine [Kernel-Mode Driver Architecture], KeRemoveEntryDeviceQueue, kernel.keremoveentrydevicequeue, wdm/KeRemoveEntryDeviceQueue, k105_351b5540-c341-46d1-b2da-1ea88f78b7b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRemoveEntryDeviceQueue
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Pointer to the entry to be removed from the specified <i>DeviceQueue</i>.
 ## -returns
 
 
+
 If the <i>DeviceQueueEntry</i> is queued, it is removed and <b>KeRemoveEntryDeviceQueue</b> returns <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 The IRQL is set to DISPATCH_LEVEL and the <i>DeviceQueue</i> spin lock is acquired.
@@ -97,17 +100,28 @@ The specified <i>DeviceQueue</i> spin lock is released and IRQL is restored to i
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
 
-<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
 
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
 
 <a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
 
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
+
+<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
+
+
+<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_DISCONNECT
-title: _CMP_DISCONNECT
+title: "_CMP_DISCONNECT"
 author: windows-driver-content
 description: This structure is used to break a connection.
 old-location: ieee\cmp_disconnect.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 7EAE617D-EFF9-4F77-9B9C-5985B864B310
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PCMP_DISCONNECT, 61883/CMP_DISCONNECT, _CMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses], *PCMP_DISCONNECT, CMP_DISCONNECT structure [Buses], CMP_DISCONNECT, 61883/PCMP_DISCONNECT, IEEE.cmp_disconnect
+ms.keywords: "_CMP_DISCONNECT, CMP_DISCONNECT, *PCMP_DISCONNECT, CMP_DISCONNECT structure [Buses], PCMP_DISCONNECT, 61883/CMP_DISCONNECT, IEEE.cmp_disconnect, PCMP_DISCONNECT structure pointer [Buses], 61883/PCMP_DISCONNECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CMP_DISCONNECT
 product: Windows
 targetos: Windows
@@ -75,15 +75,19 @@ On input, a handle to the connection to break.
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

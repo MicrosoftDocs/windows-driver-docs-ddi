@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FENCE_PRESENTHISTORYTOKEN
-title: _D3DKMT_FENCE_PRESENTHISTORYTOKEN
+title: "_D3DKMT_FENCE_PRESENTHISTORYTOKEN"
 author: windows-driver-content
 description: The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-history operation.
 old-location: display\d3dkmt_fence_presenthistorytoken.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a27371cf-08d2-4502-b766-3b9c60272080
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_FENCE_PRESENTHISTORYTOKEN, OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, display.d3dkmt_fence_presenthistorytoken, D3DKMT_FENCE_PRESENTHISTORYTOKEN
+ms.keywords: OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, display.d3dkmt_fence_presenthistorytoken, d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN, _D3DKMT_FENCE_PRESENTHISTORYTOKEN, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices], D3DKMT_FENCE_PRESENTHISTORYTOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_FENCE_PRESENTHISTORYTOKEN
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ typedef struct _D3DKMT_FENCE_PRESENTHISTORYTOKEN {
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+
+
 
  
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_SIDETONE_PARAMS
-title: _USBSIDEBANDAUDIO_SIDETONE_PARAMS
+title: "_USBSIDEBANDAUDIO_SIDETONE_PARAMS"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_sidetone_params.htm
 old-project: audio
 ms.assetid: FE97B772-CD08-4F76-88DA-05F24881D062
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: *PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_SIDETONE_PARAMS, USBSIDEBANDAUDIO_SIDETONE_PARAMS, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS structure pointer [Audio Devices], _USBSIDEBANDAUDIO_SIDETONE_PARAMS, usbsidebandaudio/PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, audio.usbsidebandaudio_sidetone_params, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, USBSIDEBANDAUDIO_SIDETONE_PARAMS structure [Audio Devices]
+ms.date: 2/8/2018
+ms.keywords: usbsidebandaudio/USBSIDEBANDAUDIO_SIDETONE_PARAMS, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, audio.usbsidebandaudio_sidetone_params, *PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, USBSIDEBANDAUDIO_SIDETONE_PARAMS, PUSBSIDEBANDAUDIO_SIDETONE_PARAMS structure pointer [Audio Devices], _USBSIDEBANDAUDIO_SIDETONE_PARAMS, USBSIDEBANDAUDIO_SIDETONE_PARAMS structure [Audio Devices], usbsidebandaudio/PUSBSIDEBANDAUDIO_SIDETONE_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	kbSyntax
-apitype: 
+apitype:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+apilocation:
+-
+apiname:
 -	USBSIDEBANDAUDIO_SIDETONE_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: USBSIDEBANDAUDIO_SIDETONE_PARAMS, *PUSBSIDEBANDAUDIO_SIDETONE_PARAMS
+req.typenames: "*PUSBSIDEBANDAUDIO_SIDETONE_PARAMS, USBSIDEBANDAUDIO_SIDETONE_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -86,12 +86,13 @@ typedef struct _USBSIDEBANDAUDIO_SIDETONE_PARAMS {
 
 
 
-#### - Reserved 1
+
+#### - Reserved 0
 
 TBD
 
 
-#### - Reserved 0
+#### - Reserved 1
 
 TBD
 

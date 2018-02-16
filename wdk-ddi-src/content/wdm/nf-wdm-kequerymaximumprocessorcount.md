@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bab2c478-4e46-40d9-a4b6-6f322b18ab0a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture], kernel.kequerymaximumprocessorcount, KeQueryMaximumProcessorCount, wdm/KeQueryMaximumProcessorCount
+ms.keywords: kernel.kequerymaximumprocessorcount, KeQueryMaximumProcessorCount, k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, wdm/KeQueryMaximumProcessorCount, KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeQueryMaximumProcessorCount
 product: Windows
 targetos: Windows
@@ -67,14 +67,18 @@ ULONG KeQueryMaximumProcessorCount(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeQueryMaximumProcessorCount</b> returns the maximum number of processors as a ULONG value.
 
 
 
+
 ## -remarks
+
 
 
 The value returned by the <b>KeQueryMaximumProcessorCount</b> routine does not change at runtime.
@@ -89,11 +93,16 @@ Windows 7 and later versions of Windows support processor groups. Drivers that 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
 
+
+
 <a href="..\wdm\nf-wdm-kequerymaximumprocessorcountex.md">KeQueryMaximumProcessorCountEx</a>
+
+
 
  
 

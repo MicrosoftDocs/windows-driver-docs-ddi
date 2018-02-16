@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 271d2b39-53a3-454b-97d0-0bace8504b48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_ABS_TIMEOUT_IN_MS function, kmdf.wdf_abs_timeout_in_ms, WDF_ABS_TIMEOUT_IN_MS, DFTimerObjectRef_6ebc68ca-16c5-4948-ac68-d9247b8074f3.xml, wdfcore/WDF_ABS_TIMEOUT_IN_MS, wdf.wdf_abs_timeout_in_ms
+ms.keywords: WDF_ABS_TIMEOUT_IN_MS function, WDF_ABS_TIMEOUT_IN_MS, DFTimerObjectRef_6ebc68ca-16c5-4948-ac68-d9247b8074f3.xml, kmdf.wdf_abs_timeout_in_ms, wdfcore/WDF_ABS_TIMEOUT_IN_MS, wdf.wdf_abs_timeout_in_ms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_ABS_TIMEOUT_IN_MS
 product: Windows
 targetos: Windows
@@ -79,14 +79,18 @@ The number of milliseconds to convert.
 ## -returns
 
 
+
 <b>WDF_ABS_TIMEOUT_IN_MS</b> returns the absolute time value, in system time units (100-nanosecond intervals), that represents the number of milliseconds that <i>Time</i> specifies.
+
 
 
 
 ## -remarks
 
 
+
 An absolute time value is a time value that specifies a specific date and time. Absolute times are relative to 00:00, January 1, 1601. If an absolute time value is passed to the system, the system adds the absolute time value to the time value that represents 00:00, January 1, 1601.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -99,9 +103,12 @@ An absolute time value is a time value that specifies a specific date and time. 
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\wdfcore\nf-wdfcore-wdf_rel_timeout_in_ms.md">WDF_REL_TIMEOUT_IN_MS</a>
+
+
 
  
 

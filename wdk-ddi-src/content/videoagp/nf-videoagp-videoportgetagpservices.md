@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3b01831d-d429-4dc5-9b12-a0e1fc58634d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_498a8f06-f24e-4116-90df-30360fa111a1.xml, display.videoportgetagpservices, VideoPortGetAgpServices function [Display Devices], VideoPortGetAgpServices, videoagp/VideoPortGetAgpServices
+ms.keywords: VideoPort_Functions_498a8f06-f24e-4116-90df-30360fa111a1.xml, VideoPortGetAgpServices function [Display Devices], display.videoportgetagpservices, VideoPortGetAgpServices, videoagp/VideoPortGetAgpServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortGetAgpServices
 product: Windows
 targetos: Windows
-req.typenames: *PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST
+req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -84,16 +84,20 @@ Pointer to an uninitialized, miniport driver-allocated <a href="..\videoagp\ns-v
 ## -returns
 
 
+
 <b>VideoPortGetAgpServices</b> returns <b>TRUE</b> after it successfully initializes the VIDEO_PORT_AGP_SERVICES structure to which <i>AgpServices</i> points; otherwise it returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 PnP video miniport drivers that can use AGP should call <b>VideoPortGetAgpServices</b>.
 
 The video port driver initializes the <a href="..\videoagp\ns-videoagp-_video_port_agp_services.md">VIDEO_PORT_AGP_SERVICES</a> structure as follows:
+
 <ul>
 <li>
 All function pointers are initialized to point to the corresponding video port driver-implemented AGP service functions.
@@ -106,25 +110,44 @@ The <b>AllocationLimit</b> field is initialized to the maximum amount of AGP mem
 </ul>
 
 
-## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
+## -see-also
 
 <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a>
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
+
 
 <a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a>
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
 
-<a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
-
-<b>AgpReleasePhysical</b>
 
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
+
+
+<a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a>
+
+
+
 <a href="..\videoagp\ns-videoagp-_video_port_agp_services.md">VIDEO_PORT_AGP_SERVICES</a>
+
+
+
+<b>AgpReleasePhysical</b>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
+
+
+
+<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
+
+
 
  
 

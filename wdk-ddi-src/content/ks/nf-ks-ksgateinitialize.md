@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e64715d2-a8f1-47c3-9422-b565800ff79e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgateinitialize, KsGateInitialize function [Streaming Media Devices], ks/KsGateInitialize, KsGateInitialize, avfunc_1ec7041b-e335-4920-ad40-06290d1579c2.xml
+ms.keywords: avfunc_1ec7041b-e335-4920-ad40-06290d1579c2.xml, KsGateInitialize, ks/KsGateInitialize, stream.ksgateinitialize, KsGateInitialize function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsGateInitialize
 product: Windows
 targetos: Windows
@@ -93,11 +93,14 @@ This parameter specifies whether to propagate ON transitions or OFF transitions.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Minidrivers should not call <b>KsGateInitialize</b> directly, but should instead use <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a> or <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>.
@@ -108,15 +111,24 @@ To learn more about the gate construct in AVStream, see <a href="https://msdn.mi
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+## -see-also
 
 <a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
 
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
+
 
  
 

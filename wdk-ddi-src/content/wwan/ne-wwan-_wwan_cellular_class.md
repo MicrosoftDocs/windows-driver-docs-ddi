@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CELLULAR_CLASS
-title: _WWAN_CELLULAR_CLASS
+title: "_WWAN_CELLULAR_CLASS"
 author: windows-driver-content
 description: The WWAN_CELLULAR_CLASS enumeration lists the different classes of cellular technology that are supported by the MB device.
 old-location: netvista\wwan_cellular_class.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c49f40b8-feb4-4dfd-9a2b-c800f3b5343a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanCellularClassUnknown, WwanCellularClassGsm, wwan/WwanCellularClassMax, WwanRef_cbffbef4-6a05-4042-abf0-7495fadf869d.xml, *PWWAN_CELLULAR_CLASS, WwanCellularClassCdma, wwan/WwanCellularClassUnknown, wwan/WwanCellularClassCdma, netvista.wwan_cellular_class, wwan/WwanCellularClassGsm, wwan/PWWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS enumeration [Network Drivers Starting with Windows Vista], PWWAN_CELLULAR_CLASS, _WWAN_CELLULAR_CLASS, PWWAN_CELLULAR_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_CELLULAR_CLASS, WwanCellularClassMax, wwan/WWAN_CELLULAR_CLASS
+ms.keywords: WwanCellularClassUnknown, PWWAN_CELLULAR_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_CELLULAR_CLASS, _WWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS, wwan/WwanCellularClassUnknown, WwanCellularClassMax, wwan/WwanCellularClassCdma, WwanCellularClassGsm, *PWWAN_CELLULAR_CLASS, netvista.wwan_cellular_class, WwanRef_cbffbef4-6a05-4042-abf0-7495fadf869d.xml, wwan/WwanCellularClassGsm, PWWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanCellularClassCdma, wwan/PWWAN_CELLULAR_CLASS, wwan/WwanCellularClassMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_CELLULAR_CLASS
 product: Windows
 targetos: Windows
-req.typenames: WWAN_CELLULAR_CLASS, *PWWAN_CELLULAR_CLASS
+req.typenames: "*PWWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -95,6 +95,8 @@ The total number of supported cellular classes.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>
+
+
 
  
 

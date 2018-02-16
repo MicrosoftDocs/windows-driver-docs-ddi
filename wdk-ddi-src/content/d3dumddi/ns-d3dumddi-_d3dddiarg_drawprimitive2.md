@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DRAWPRIMITIVE2
-title: _D3DDDIARG_DRAWPRIMITIVE2
+title: "_D3DDDIARG_DRAWPRIMITIVE2"
 author: windows-driver-content
 description: The D3DDDIARG_DRAWPRIMITIVE2 structure describes a nonindexed primitive to draw.
 old-location: display\d3dddiarg_drawprimitive2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb9668a8-54b5-4d07-8682-af2b593308a5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DRAWPRIMITIVE2 structure [Display Devices], D3DDDIARG_DRAWPRIMITIVE2, UMDisplayDriver_param_Structs_76f6de24-fe57-4907-a84a-692ab80e2dab.xml, d3dumddi/D3DDDIARG_DRAWPRIMITIVE2, _D3DDDIARG_DRAWPRIMITIVE2, display.d3dddiarg_drawprimitive2
+ms.keywords: d3dumddi/D3DDDIARG_DRAWPRIMITIVE2, D3DDDIARG_DRAWPRIMITIVE2, _D3DDDIARG_DRAWPRIMITIVE2, display.d3dddiarg_drawprimitive2, UMDisplayDriver_param_Structs_76f6de24-fe57-4907-a84a-692ab80e2dab.xml, D3DDDIARG_DRAWPRIMITIVE2 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_DRAWPRIMITIVE2
 product: Windows
 targetos: Windows
@@ -87,15 +87,21 @@ typedef struct _D3DDDIARG_DRAWPRIMITIVE2 {
 ## -remarks
 
 
+
 The Microsoft Direct3D runtime transforms the vertex data before passing a pointer to the description of the vertex data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive2.md">DrawPrimitive2</a> function. 
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive2.md">DrawPrimitive2</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive.md">D3DDDIARG_DRAWPRIMITIVE</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive2.md">DrawPrimitive2</a>
+
 
  
 

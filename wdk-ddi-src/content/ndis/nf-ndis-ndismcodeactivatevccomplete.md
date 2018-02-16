@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8ea36895-4728-45ad-84f7-3517afd2327d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCoDeactivateVcComplete, netvista.ndismcodeactivatevccomplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, ndis/NdisMCoDeactivateVcComplete
+ms.keywords: ndis/NdisMCoDeactivateVcComplete, netvista.ndismcodeactivatevccomplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], NdisMCoDeactivateVcComplete, condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMCoDeactivateVcComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCoDeactivateVcComplete function
@@ -83,18 +83,21 @@ Specifies the final status of the deactivate-VC operation, which can be NDIS_STA
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 
-     <mshelp:link keywords="netvista.miniportcodeactivatevc" tabindex="0"><i>
-     MiniportCoDeactivateVc</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">
+     MiniportCoDeactivateVc</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 A connection-oriented miniport driver must call 
@@ -113,24 +116,33 @@ Before it deactivates a VC, the miniport driver must complete any pending transf
 
 A call to 
     <b>NdisMCoDeactivateVcComplete</b> causes NDIS to call the 
-    <mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-    ProtocolCmDeactivateVcComplete</i></mshelp:link> function of the call manager that originally requested the VC
+    <a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+    ProtocolCmDeactivateVcComplete</a> function of the call manager that originally requested the VC
     deactivation. Following its call to 
     <b>NdisMCoDeactivateVcComplete</b>, the miniport driver can neither indicate receives nor transmit sends
     on the VC.
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
-<mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-   ProtocolCmDeactivateVcComplete</i></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+   ProtocolCmDeactivateVcComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
-title: _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
+title: "_DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT"
 author: windows-driver-content
 description: The DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure describes the format of the signal that is transmitted from a physical connector that is associated with a protected output to a monitor.
 old-location: display\dxgkmdt_opm_actual_output_format.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88b6562d-9703-46c3-b0d3-10567298a9c2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DmStructs_b3796227-6822-43b8-944a-b435939da72f.xml, _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, display.dxgkmdt_opm_actual_output_format, d3dkmdt/DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure [Display Devices]
+ms.keywords: display.dxgkmdt_opm_actual_output_format, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure [Display Devices], DmStructs_b3796227-6822-43b8-944a-b435939da72f.xml, _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT, d3dkmdt/DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
 product: Windows
 targetos: Windows
@@ -116,15 +116,25 @@ The denominator for the refresh rate of the signal, in Hz.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_interleave_format.md">DXGKMDT_OPM_INTERLEAVE_FORMAT</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_status.md">DXGKMDT_OPM_STATUS</a>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_random_number.md">DXGKMDT_OPM_RANDOM_NUMBER</a>
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_interleave_format.md">DXGKMDT_OPM_INTERLEAVE_FORMAT</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
 
  
 

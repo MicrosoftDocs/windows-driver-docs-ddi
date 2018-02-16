@@ -1,6 +1,6 @@
 ---
 UID: NE:bdamedia._BdaLockType
-title: _BdaLockType
+title: "_BdaLockType"
 author: windows-driver-content
 description: The BDA_LockType enumerated type contains values that specify lock types for a signal.
 old-location: stream\bda_locktype.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6119727a-05af-4a70-a321-5f0f2e439b93
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: Bda_LockType_DecoderDemod, Bda_LockType_None, Bda_LockType_PLL, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, Bda_LockType_Complete, bdamedia/BDA_LockType, BDA_LockType, stream.bda_locktype, bdamedia/Bda_LockType_None, bdamedia/Bda_LockType_Complete, BDA_LockType enumeration [Streaming Media Devices], _BdaLockType, bdamedia/Bda_LockType_DecoderDemod, bdamedia/Bda_LockType_PLL
+ms.keywords: bdamedia/Bda_LockType_PLL, BDA_LockType enumeration [Streaming Media Devices], stream.bda_locktype, Bda_LockType_PLL, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, Bda_LockType_DecoderDemod, BDA_LockType, Bda_LockType_None, bdamedia/Bda_LockType_DecoderDemod, _BdaLockType, bdamedia/Bda_LockType_None, Bda_LockType_Complete, bdamedia/Bda_LockType_Complete, bdamedia/BDA_LockType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdamedia.h
-apiname: 
+apiname:
 -	BDA_LockType
 product: Windows
 targetos: Windows
@@ -94,7 +94,11 @@ To be supplied.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564369">KSPROPERTY_BDA_SIGNAL_LOCK_CAPS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemuimxdc_adjustdpi.htm
 old-project: print
 ms.assetid: d725d917-08fb-4e11-824c-795e35782a06
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, print.iprintoemuimxdc_adjustdpi, AdjustDPI method [Print Devices], IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, AdjustDPI, IPrintOemUIMXDC, IPrintOemUIMXDC::AdjustDPI, prcomoem/IPrintOemUIMXDC::AdjustDPI, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml
+ms.date: 2/2/2018
+ms.keywords: IPrintOemUIMXDC interface [Print Devices], AdjustDPI method, AdjustDPI, print.iprintoemuimxdc_adjustdpi, IPrintOemUIMXDC, prcomoem/IPrintOemUIMXDC::AdjustDPI, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml, IPrintOemUIMXDC::AdjustDPI, AdjustDPI method [Print Devices], IPrintOemUIMXDC interface, AdjustDPI method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUIMXDC.AdjustDPI
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,15 +106,19 @@ A pointer to the current resolution, in dots per inch (DPI), assuming square pix
 ## -returns
 
 
+
 <code>AdjustDPI</code> returns S_OK if the method succeeds. Otherwise, this method should return E_NOTIMPL if the plug-in does not support the method, or any appropriate failure value if the plug-in cannot complete the operation. For more information, see the following Remarks section.
+
 
 
 
 ## -remarks
 
 
+
 The <i>pDPI</i> parameter is IN OUT. All other parameters for this function are input only.
 
 If the plug-in cannot complete the operation, it should return an appropriate failure HRESULT, which causes the current print job to fail.
+
 
 

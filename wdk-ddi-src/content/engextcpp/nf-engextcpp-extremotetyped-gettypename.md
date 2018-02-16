@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 162b3a05-dccd-4df4-8728-801a8fb39afc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotetyped_gettypename, ExtRemoteTyped interface [Windows Debugging], GetTypeName method, ExtRemoteTyped, EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml, GetTypeName method [Windows Debugging], ExtRemoteTyped interface, GetTypeName, ExtRemoteTyped::GetTypeName, GetTypeName method [Windows Debugging]
+ms.keywords: ExtRemoteTyped, GetTypeName method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetTypeName method, ExtRemoteTyped::GetTypeName, EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml, debugger.extremotetyped_gettypename, GetTypeName, GetTypeName method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.GetTypeName
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetTypeName method
@@ -66,22 +66,33 @@ PSTR GetTypeName();
 
 
 
+
 ## -returns
+
 
 
 <b>GetTypeName</b> returns a string that contains the name of the type.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
+
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+
 
  
 

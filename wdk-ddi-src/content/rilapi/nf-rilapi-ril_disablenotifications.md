@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70635820-9912-4d27-87e2-e713ea33e819
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_DisableNotifications, rilapi/RIL_DisableNotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_disablenotifications
+ms.keywords: RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_disablenotifications, RIL_DisableNotifications, rilapi/RIL_DisableNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_DisableNotifications
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_DisableNotifications(
 ### -param hRil
 
 
-
 ### -param usersContext
-
 
 
 ### -param lpdwNotifications
 
 
-
 ### -param dwNotificationCount
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f149e86-7855-4a10-8e0c-8b1aff261946
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportregistrywrite, StorPortRegistryWrite routine [Storage Devices], storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml, storport/StorPortRegistryWrite, StorPortRegistryWrite
+ms.keywords: storport/StorPortRegistryWrite, storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml, storage.storportregistrywrite, StorPortRegistryWrite routine [Storage Devices], StorPortRegistryWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortRegistryWrite
 product: Windows
 targetos: Windows
@@ -92,6 +92,7 @@ Indicates whether the operation is to be adapter specific or to relate to all ad
 ### -param Type [in]
 
 One of the following registry data types.
+
 <table>
 <tr>
 <th>Type</th>
@@ -227,7 +228,8 @@ REG_QWORD_LITTLE_ENDIAN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [in]
@@ -243,13 +245,17 @@ Specifies the size of the buffer pointed to by <i>Buffer</i>.
 ## -returns
 
 
+
 <b>StorPortRegistryWrite</b> returns a Boolean value of <b>TRUE</b> if the registry data was successfully converted and written; otherwise, this routine returns <b>FALSE</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+
+
 
  
 

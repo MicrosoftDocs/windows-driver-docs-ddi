@@ -7,8 +7,8 @@ old-location: print\oemgradientfill.htm
 old-project: print
 ms.assetid: 8a25d44b-c83b-4454-858b-117dbb6cc4b7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, OEMGradientFill, printoem/OEMGradientFill, print.oemgradientfill, OEMGradientFill function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: OEMGradientFill function [Print Devices], OEMGradientFill, print.oemgradientfill, print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, printoem/OEMGradientFill
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMGradientFill
 product: Windows
 targetos: Windows
@@ -80,39 +80,29 @@ BOOL APIENTRY OEMGradientFill(
 ### -param psoDest
 
 
-
 ### -param pco
-
 
 
 ### -param pxlo
 
 
-
 ### -param pVertex
-
 
 
 ### -param nVertex
 
 
-
 ### -param pMesh
-
 
 
 ### -param nMesh
 
 
-
 ### -param prclExtents
-
 
 
 ### -param pptlDitherOrg
 
 
-
 ### -param ulMode
-
 

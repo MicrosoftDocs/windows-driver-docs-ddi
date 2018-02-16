@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbe58583-ea65-4920-9056-ab46bd881618
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml, NdisSetPhysicalAddressHigh, ndis/NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh
+ms.keywords: ndis/NdisSetPhysicalAddressHigh, NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh, NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisSetPhysicalAddressHigh
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisSetPhysicalAddressHigh macro
@@ -69,24 +69,12 @@ VOID NdisSetPhysicalAddressHigh(
 
 
 
-### -param _PhysicalAddress
-
-TBD
-
-
-### -param _Value
-
-TBD
-
-
-
-
-#### - PhysicalAddress [in]
+### -param _PhysicalAddress [in]
 
 Specifies a physical address of an OS-dependent size.
 
 
-#### - Value [in]
+### -param _Value [in]
 
 Specifies the value to be written into the high-order part of the address.
 
@@ -95,9 +83,15 @@ Specifies the value to be written into the high-order part of the address.
 
 <a href="..\ndis\nf-ndis-ndisgetphysicaladdresshigh.md">NdisGetPhysicalAddressHigh</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
+
 
 <a href="..\ndis\nf-ndis-ndissetphysicaladdresslow.md">NdisSetPhysicalAddressLow</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
+
+
 
  
 

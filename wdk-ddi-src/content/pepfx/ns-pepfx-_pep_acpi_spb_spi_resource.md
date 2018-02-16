@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_SPB_SPI_RESOURCE
-title: _PEP_ACPI_SPB_SPI_RESOURCE
+title: "_PEP_ACPI_SPB_SPI_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_SPB_SPI_RESOURCE structure describes an ACPI SPI serial bus resource.
 old-location: kernel\pep_acpi_spb_spi_resource.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 75CD5462-8382-4E83-ADC1-3E1B811A0D60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_ACPI_SPB_SPI_RESOURCE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_SPI_RESOURCE, PPEP_ACPI_SPB_SPI_RESOURCE, _PEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE, pepfx/PEP_ACPI_SPB_SPI_RESOURCE, kernel.pep_acpi_spb_spi_resource, PEP_ACPI_SPB_SPI_RESOURCE structure [Kernel-Mode Driver Architecture], *PPEP_ACPI_SPB_SPI_RESOURCE
+ms.keywords: PPEP_ACPI_SPB_SPI_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_SPI_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE, _PEP_ACPI_SPB_SPI_RESOURCE, PPEP_ACPI_SPB_SPI_RESOURCE, kernel.pep_acpi_spb_spi_resource, *PPEP_ACPI_SPB_SPI_RESOURCE, pepfx/PEP_ACPI_SPB_SPI_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_SPB_SPI_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_SPB_SPI_RESOURCE, *PPEP_ACPI_SPB_SPI_RESOURCE
+req.typenames: "*PPEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE"
 ---
 
 # _PEP_ACPI_SPB_SPI_RESOURCE structure
@@ -109,6 +109,8 @@ line, or other line selection mechanism.
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
+
+
 
  
 

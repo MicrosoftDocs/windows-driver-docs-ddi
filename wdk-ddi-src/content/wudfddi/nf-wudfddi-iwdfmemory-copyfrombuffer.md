@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e56186-f801-4684-8919-236d2429310f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFMemory interface, CopyFromBuffer method, CopyFromBuffer method, CopyFromBuffer method, IWDFMemory interface, CopyFromBuffer, umdf.iwdfmemory_copyfrombuffer, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, wdf.iwdfmemory_copyfrombuffer, wudfddi/IWDFMemory::CopyFromBuffer, IWDFMemory::CopyFromBuffer, IWDFMemory
+ms.keywords: CopyFromBuffer method, wdf.iwdfmemory_copyfrombuffer, IWDFMemory, IWDFMemory interface, CopyFromBuffer method, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, IWDFMemory::CopyFromBuffer, umdf.iwdfmemory_copyfrombuffer, CopyFromBuffer method, IWDFMemory interface, wudfddi/IWDFMemory::CopyFromBuffer, CopyFromBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFMemory.CopyFromBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -95,7 +95,9 @@ A pointer to the source buffer that data is copied from.
 ## -returns
 
 
+
 <b>CopyFromBuffer</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 
 
@@ -103,7 +105,11 @@ A pointer to the source buffer that data is copied from.
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
 
  
 

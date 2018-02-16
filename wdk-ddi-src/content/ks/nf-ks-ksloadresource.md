@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a7b9dcca-ce89-4fde-9e58-3c4a675227bc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsLoadResource, KsLoadResource, stream.ksloadresource, ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml, KsLoadResource function [Streaming Media Devices]
+ms.keywords: stream.ksloadresource, ks/KsLoadResource, KsLoadResource function [Streaming Media Devices], KsLoadResource, ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsLoadResource
 product: Windows
 targetos: Windows
@@ -106,6 +106,8 @@ Pointer to ULONG value to receive the size of the resource.
 ## -returns
 
 
+
 STATUS_SUCCESS if successful, STATUS_INSUFFICIENT_RESOURCES if memory cannot be allocated, otherwise an appropriate error code.
+
 
 

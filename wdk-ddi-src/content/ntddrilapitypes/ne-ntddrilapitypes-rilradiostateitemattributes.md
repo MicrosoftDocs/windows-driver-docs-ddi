@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 320ad6e2-0d11-4902-bfdb-8df201d4d5b7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, ntddrilapitypes/RILRADIOSTATEITEMATTRIBUTES, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, netvista.rilradiostateitemattributes, RILRADIOSTATEITEMATTRIBUTES, RILRADIOSTATEITEMATTRIBUTES enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY
+ms.keywords: RILRADIOSTATEITEMATTRIBUTES enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, RILRADIOSTATEITEMATTRIBUTES, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, ntddrilapitypes/RILRADIOSTATEITEMATTRIBUTES, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, netvista.rilradiostateitemattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILRADIOSTATEITEMATTRIBUTES
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILRADIOSTATEITEMATTRIBUTES {
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_NO_ATTRIBUTE
 
 
-
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY
-
 
 
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE
 
 
-
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS
 
 
-
 ### -field RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL
-
 

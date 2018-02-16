@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemoveTarget_IN
-title: _RemoveTarget_IN
+title: "_RemoveTarget_IN"
 author: windows-driver-content
 description: The RemoveTarget_IN structure is used by a WMI client to deliver input parameter data to the RemoveTarget WMI method.
 old-location: storage\removetarget_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54fcbb64-09ce-4f18-963b-fee2627d4231
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PRemoveTarget_IN, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml, *PRemoveTarget_IN, RemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], RemoveTarget_IN structure [Storage Devices], storage.removetarget_in, PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, _RemoveTarget_IN
+ms.keywords: RemoveTarget_IN structure [Storage Devices], PRemoveTarget_IN, hbapiwmi/PRemoveTarget_IN, storage.removetarget_in, RemoveTarget_IN, *PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], _RemoveTarget_IN, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	RemoveTarget_IN
 product: Windows
 targetos: Windows
@@ -87,13 +87,17 @@ Indicates the scope of the target events to cease reporting. If this member is z
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the RemoveTarget_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a>
+
+
 
  
 

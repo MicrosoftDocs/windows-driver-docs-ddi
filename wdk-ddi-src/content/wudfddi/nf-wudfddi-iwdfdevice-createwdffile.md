@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b356e3ac-451d-4a10-94e2-d03fcf76cb29
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice, CreateWdfFile method, IWDFDevice interface, IWDFDevice interface, CreateWdfFile method, CreateWdfFile method, IWDFDevice::CreateWdfFile, wudfddi/IWDFDevice::CreateWdfFile, CreateWdfFile, wdf.iwdfdevice_createwdffile, umdf.iwdfdevice_createwdffile, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml
+ms.keywords: wdf.iwdfdevice_createwdffile, CreateWdfFile, wudfddi/IWDFDevice::CreateWdfFile, IWDFDevice::CreateWdfFile, CreateWdfFile method, IWDFDevice interface, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, IWDFDevice interface, CreateWdfFile method, umdf.iwdfdevice_createwdffile, CreateWdfFile method, IWDFDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.CreateWdfFile
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -84,11 +84,14 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 ## -returns
 
 
+
 <b>CreateWdfFile</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 For information about when a UMDF driver uses <b>CreateWdfFile</b> to handle I/O, see <a href="https://msdn.microsoft.com/3cd826fc-5c67-4ab4-800a-b5aa4bd5244f">Creating a File Object to Handle I/O</a>.
@@ -97,11 +100,16 @@ For information about when a UMDF driver might use <b>CreateWdfFile</b> to preve
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	pfnGetPathSourceFromTarget
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ NTSTATUS APIENTRY pfnGetPathSourceFromTarget(
 ## -returns
 
 
+
 The <b>pfnGetPathSourceFromTarget</b> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -129,11 +131,14 @@ The pointer supplied in <i>pVidPnSourceId</i> was in valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A topology is a collection paths, each of which contains a (source, target) pair. A particular target belongs to at most one path, so given a target ID, there is at most one source associated with that target.
@@ -148,9 +153,12 @@ The D3DDDI_VIDEO_PRESENT_SOURCE_ID D3DDDI_VIDEO_PRESENT_TARGET_ID data types are
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_enumpathtargetsfromsource.md">pfnEnumPathTargetsFromSource</a>
+
+
 
  
 

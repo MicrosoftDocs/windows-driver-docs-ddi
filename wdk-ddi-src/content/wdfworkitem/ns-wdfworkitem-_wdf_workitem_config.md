@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfworkitem._WDF_WORKITEM_CONFIG
-title: _WDF_WORKITEM_CONFIG
+title: "_WDF_WORKITEM_CONFIG"
 author: windows-driver-content
 description: The WDF_WORKITEM_CONFIG structure contains information that is associated with a work item.
 old-location: wdf\wdf_workitem_config.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6186c05-ccb9-432c-bd83-9a3fb3af7f0b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: *PWDF_WORKITEM_CONFIG, wdfworkitem/WDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, _WDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG structure, wdfworkitem/PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG, wdf.wdf_workitem_config, kmdf.wdf_workitem_config, PWDF_WORKITEM_CONFIG structure pointer
+ms.keywords: "_WDF_WORKITEM_CONFIG, wdf.wdf_workitem_config, PWDF_WORKITEM_CONFIG structure pointer, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, PWDF_WORKITEM_CONFIG, kmdf.wdf_workitem_config, WDF_WORKITEM_CONFIG, wdfworkitem/WDF_WORKITEM_CONFIG, wdfworkitem/PWDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG structure, *PWDF_WORKITEM_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfworkitem.h
-apiname: 
+apiname:
 -	WDF_WORKITEM_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG
+req.typenames: "*PWDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,7 @@ A Boolean value that, if <b>TRUE</b>, indicates that the framework will synchron
 ## -remarks
 
 
+
 Your driver must initialize the <b>WDF_WORKITEM_CONFIG</b> structure by calling <a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>. Your driver can then pass the structure to the <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a> method as an input parameter.
 
 Setting the <b>AutomaticSerialization</b> member of <b>WDF_WORKITEM_CONFIG</b> to <b>TRUE</b> has no effect if the parent object's <a href="..\wdfobject\ne-wdfobject-_wdf_synchronization_scope.md">synchronization scope</a> is set to <b>WdfSynchronizationScopeNone</b>.
@@ -100,13 +101,20 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
 
 
+
 ## -see-also
+
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+
+
 
 <a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>
 
+
+
 <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 66ec7c51-3d2c-4a25-a356-4df06ee1b1f5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleNameWide method, IDebugSymbols3::GetModuleByModuleNameWide, GetModuleByModuleNameWide, dbgeng/IDebugSymbols3::GetModuleByModuleNameWide, debugger.getmodulebymodulenamewide, GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3, GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetModuleByModuleNameWide, debugger.getmodulebymodulenamewide, IDebugSymbols3, GetModuleByModuleNameWide, GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleNameWide method, IDebugSymbols3::GetModuleByModuleNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetModuleByModuleNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetModuleByModuleNameWide method
@@ -93,7 +93,9 @@ Receives the location in the target's memory address space of the base of the mo
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,11 +123,14 @@ One of the arguments passed in was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Starting at the specified index, these methods return the first module they find with the specified name.  If the target has more than one module with this name, then subsequent modules can be found by repeated calls to these methods with higher values of <i>StartIndex</i>.  
@@ -134,11 +139,16 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547102">GetModuleByModuleName2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9dd3632c-4c88-470d-8419-10959eda0454
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DebugCreate, DebugCreate function [Windows Debugging], debugger.debugcreate, ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, dbgeng/DebugCreate
+ms.keywords: ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, dbgeng/DebugCreate, debugger.debugcreate, DebugCreate function [Windows Debugging], DebugCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	DebugCreate
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # DebugCreate function
@@ -81,7 +81,9 @@ Receives an interface pointer for the new client.  The type of this interface is
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,11 +111,14 @@ The client object doesn't implement the specified interface.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The parameters passed to <b>DebugCreate</b> are the same as those passed to <b>IUnknown::QueryInterface</b>, and they are treated the same way.
@@ -122,9 +127,12 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
+
+
 
  
 

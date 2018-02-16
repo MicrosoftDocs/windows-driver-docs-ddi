@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_OPEN_STRUCT
-title: _AVCSTRM_OPEN_STRUCT
+title: "_AVCSTRM_OPEN_STRUCT"
 author: windows-driver-content
 description: The AVCSTRM_OPEN_STRUCT structure describes a data stream to be opened.
 old-location: stream\avcstrm_open_struct.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c16a2f3c-a5be-4132-920a-b81f67c5ea02
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcstrm/PAVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT, PAVCSTRM_OPEN_STRUCT, PAVCSTRM_OPEN_STRUCT structure pointer [Streaming Media Devices], avcstrm/AVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT structure [Streaming Media Devices], stream.avcstrm_open_struct, avcsref_6ed25af3-808f-4b20-88c8-e7d2cca25494.xml, _AVCSTRM_OPEN_STRUCT
+ms.keywords: stream.avcstrm_open_struct, PAVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT, PAVCSTRM_OPEN_STRUCT structure pointer [Streaming Media Devices], avcsref_6ed25af3-808f-4b20-88c8-e7d2cca25494.xml, avcstrm/PAVCSTRM_OPEN_STRUCT, avcstrm/AVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT structure [Streaming Media Devices], _AVCSTRM_OPEN_STRUCT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avcstrm.h
-apiname: 
+apiname:
 -	AVCSTRM_OPEN_STRUCT
 product: Windows
 targetos: Windows
-req.typenames: AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT
+req.typenames: "*PAVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT"
 ---
 
 # _AVCSTRM_OPEN_STRUCT structure
@@ -93,17 +93,23 @@ Specifies a local plug created by an AV/C subunit, which is used to connect to t
 ## -remarks
 
 
+
 The <b>AVCSTRM_OPEN</b> function code uses this structure to describe the open operation. If the operation is successful, a stream context (handle) is returned to the caller in the <b>AVCStrmContext </b>member of this structure, <i>not</i> the <b>AVCStrmContext</b> member in the AVC_STREAM_REQUEST_BLOCK structure.
 
 This value can then be used in subsequent <i>avcstrm.sys</i> operations by placing it in the <b>AVCStrmContext</b> member of the AVC_STREAM_REQUEST_BLOCK structure.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
 
 <a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
 
  
 

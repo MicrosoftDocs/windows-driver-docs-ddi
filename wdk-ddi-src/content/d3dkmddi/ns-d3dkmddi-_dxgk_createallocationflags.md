@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATEALLOCATIONFLAGS
-title: _DXGK_CREATEALLOCATIONFLAGS
+title: "_DXGK_CREATEALLOCATIONFLAGS"
 author: windows-driver-content
 description: The DXGK_CREATEALLOCATIONFLAGS structure identifies how to create allocations.
 old-location: display\dxgk_createallocationflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], DXGK_CREATEALLOCATIONFLAGS, display.dxgk_createallocationflags, DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, _DXGK_CREATEALLOCATIONFLAGS, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS
+ms.keywords: display.dxgk_createallocationflags, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS, DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, _DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_CREATEALLOCATIONFLAGS
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ A member in the union that DXGK_CREATEALLOCATIONFLAGS contains that can hold a 3
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+
+
 
  
 

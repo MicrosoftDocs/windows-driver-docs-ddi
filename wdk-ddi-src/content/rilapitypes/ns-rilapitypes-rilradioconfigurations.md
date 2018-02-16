@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fdd53162-b884-4360-b80a-14225abc1185
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILRADIOCONFIGURATIONS, netvista.rilradioconfigurations_2, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS
+ms.keywords: RILRADIOCONFIGURATIONS, rilapitypes/RILRADIOCONFIGURATIONS, *LPRILRADIOCONFIGURATIONS, netvista.rilradioconfigurations_2, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILRADIOCONFIGURATIONS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS
+req.typenames: RILRADIOCONFIGURATIONS, *LPRILRADIOCONFIGURATIONS
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILRADIOCONFIGURATIONS {
 ### -field dwNumberOfConfigurations
 
 
-
 ### -field stConfigurations
-
 

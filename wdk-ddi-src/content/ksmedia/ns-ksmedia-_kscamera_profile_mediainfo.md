@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_PROFILE_MEDIAINFO
-title: _KSCAMERA_PROFILE_MEDIAINFO
+title: "_KSCAMERA_PROFILE_MEDIAINFO"
 author: windows-driver-content
 description: This structure contains the relevant media type information presented for each camera profile.
 old-location: stream\kscamera_profile_mediainfo.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 55B9F032-A3F5-434E-9EB6-CB832DC0EB45
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSCAMERA_PROFILE_MEDIAINFO, ksmedia/PKSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO, PKSCAMERA_PROFILE_MEDIAINFO structure pointer [Streaming Media Devices], KSCAMERA_PROFILE_MEDIAINFO structure [Streaming Media Devices], ksmedia/KSCAMERA_PROFILE_MEDIAINFO, _KSCAMERA_PROFILE_MEDIAINFO, *PKSCAMERA_PROFILE_MEDIAINFO, stream.kscamera_profile_mediainfo
+ms.keywords: PKSCAMERA_PROFILE_MEDIAINFO, _KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO structure [Streaming Media Devices], *PKSCAMERA_PROFILE_MEDIAINFO, ksmedia/KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO, ksmedia/PKSCAMERA_PROFILE_MEDIAINFO, PKSCAMERA_PROFILE_MEDIAINFO structure pointer [Streaming Media Devices], stream.kscamera_profile_mediainfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_PROFILE_MEDIAINFO
 product: Windows
 targetos: Windows
-req.typenames: *PKSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO
+req.typenames: KSCAMERA_PROFILE_MEDIAINFO, *PKSCAMERA_PROFILE_MEDIAINFO
 ---
 
 # _KSCAMERA_PROFILE_MEDIAINFO structure
@@ -114,6 +114,7 @@ For photo media information, if photo sequence cannot be enabled because of hard
 ### -field Flags
 
 The  bitwise OR of one or more of the following flags:
+
 <ul>
 <li>KSCAMERAPROFILE_FLAGS_VIDEOHDRWhen the video HDR flag is set for the media info, for that media setting, video HDR may be enabled for the record stream.
 

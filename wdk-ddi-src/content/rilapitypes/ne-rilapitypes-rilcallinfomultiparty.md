@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 31e3f763-bdf8-403a-bea2-5329db1c5ea7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CALL_MAX, rilapitypes/RILCALLINFOMULTIPARTY, RILCALLINFOMULTIPARTY, rilapitypes/RIL_CALL_MULTIPARTY, rilapitypes/RIL_CALL_MAX, netvista.rilcallinfomultiparty_2, RIL_CALL_MULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_CALL_MULTIPARTY, rilapitypes/RIL_CALL_MULTIPARTY, rilapitypes/RILCALLINFOMULTIPARTY, RILCALLINFOMULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista], RIL_CALL_MAX, rilapitypes/RIL_CALL_MAX, netvista.rilcallinfomultiparty_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLINFOMULTIPARTY
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILCALLINFOMULTIPARTY {
 ### -field RIL_CALL_SINGLEPARTY
 
 
-
 ### -field RIL_CALL_MULTIPARTY
 
 
-
 ### -field RIL_CALL_MAX
-
 

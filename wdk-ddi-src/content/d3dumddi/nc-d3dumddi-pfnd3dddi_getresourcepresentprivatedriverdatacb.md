@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	pfnGetResourcePresentPrivateDriverDataCb
 product: Windows
 targetos: Windows
@@ -84,6 +84,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_getresourcepresentprivatedriverdata.md">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a> structure that describes the operation to perform and contains the results.
@@ -92,6 +94,7 @@ A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_getresourcepresentprivat
 
 
 ## -returns
+
 
 
 <table>
@@ -121,8 +124,10 @@ The value of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_getresourcepresentprivated
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may return other <b>HRESULT</b> values.
+
 
 

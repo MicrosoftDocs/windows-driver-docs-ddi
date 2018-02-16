@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._STREAM_PROPERTY_DESCRIPTOR
-title: _STREAM_PROPERTY_DESCRIPTOR
+title: "_STREAM_PROPERTY_DESCRIPTOR"
 author: windows-driver-content
 description: STREAM_PROPERTY_DESCRIPTOR specifies the parameters of property get/set requests that the class driver passes to the minidriver.
 old-location: stream\stream_property_descriptor.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b72265b7-dce3-4688-bee7-2a6f7d7731f9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/PSTREAM_PROPERTY_DESCRIPTOR, stream.stream_property_descriptor, STREAM_PROPERTY_DESCRIPTOR structure [Streaming Media Devices], *PSTREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR, strclass-struct_5cf57d2b-c4ea-41fb-b3b3-4b6f67c2ecca.xml, strmini/STREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR structure pointer [Streaming Media Devices], _STREAM_PROPERTY_DESCRIPTOR, STREAM_PROPERTY_DESCRIPTOR
+ms.keywords: STREAM_PROPERTY_DESCRIPTOR structure [Streaming Media Devices], stream.stream_property_descriptor, strclass-struct_5cf57d2b-c4ea-41fb-b3b3-4b6f67c2ecca.xml, *PSTREAM_PROPERTY_DESCRIPTOR, _STREAM_PROPERTY_DESCRIPTOR, STREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR, PSTREAM_PROPERTY_DESCRIPTOR structure pointer [Streaming Media Devices], strmini/PSTREAM_PROPERTY_DESCRIPTOR, strmini/STREAM_PROPERTY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	strmini.h
-apiname: 
+apiname:
 -	STREAM_PROPERTY_DESCRIPTOR
 product: Windows
 targetos: Windows

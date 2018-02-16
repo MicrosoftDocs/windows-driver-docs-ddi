@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIALPERF_STATS
-title: _SERIALPERF_STATS
+title: "_SERIALPERF_STATS"
 author: windows-driver-content
 description: The SERIALPERF_STATS structure contains performance statistics for a serial port.
 old-location: serports\serialperf_stats.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 47CAAF39-40C6-4D7F-B8DA-5A60768E4CB0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _SERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], ntddser/SERIALPERF_STATS, SERIALPERF_STATS, SERIALPERF_STATS structure [Serial Ports], ntddser/PSERIALPERF_STATS, serports.serialperf_stats, PSERIALPERF_STATS, *PSERIALPERF_STATS
+ms.keywords: SERIALPERF_STATS structure [Serial Ports], SERIALPERF_STATS, serports.serialperf_stats, PSERIALPERF_STATS, ntddser/SERIALPERF_STATS, _SERIALPERF_STATS, ntddser/PSERIALPERF_STATS, PSERIALPERF_STATS structure pointer [Serial Ports], *PSERIALPERF_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	SERIALPERF_STATS
 product: Windows
 targetos: Windows
-req.typenames: *PSERIALPERF_STATS, SERIALPERF_STATS
+req.typenames: SERIALPERF_STATS, *PSERIALPERF_STATS
 ---
 
 # _SERIALPERF_STATS structure
@@ -105,17 +105,23 @@ The number of parity errors detected since either the serial port was opened or 
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a> request.
 
 To reset the performance statistics to zero, send an <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request.
 
 
 
+
 ## -see-also
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
+
+
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
+
 
  
 

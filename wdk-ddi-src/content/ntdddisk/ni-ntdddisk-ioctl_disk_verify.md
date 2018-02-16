@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntdddisk.h
-apiname: 
+apiname:
 -	IOCTL_DISK_VERIFY
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +113,8 @@ If the request is successful, then the <b>Status</b> field is set to STATUS_SUCC
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_verify_information.md">VERIFY_INFORMATION</a>
+
+
 
  
 

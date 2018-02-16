@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bc03feaf-ee98-4b47-a659-809b5b8b9364
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlConvertLongToLuid routine [Kernel-Mode Driver Architecture], RtlConvertLongToLuid, ntddk/RtlConvertLongToLuid, k109_be3bfbe0-7a0b-43e3-a22e-2cd6e5a92f2e.xml, kernel.rtlconvertlongtoluid
+ms.keywords: kernel.rtlconvertlongtoluid, RtlConvertLongToLuid, k109_be3bfbe0-7a0b-43e3-a22e-2cd6e5a92f2e.xml, ntddk/RtlConvertLongToLuid, RtlConvertLongToLuid routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	RtlConvertLongToLuid
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlConvertLongToLuid function
@@ -75,14 +75,18 @@ Specifies the long integer to convert.
 ## -returns
 
 
+
 <b>RtlConvertLongToLuid</b> returns the converted <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>.
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlConvertLongToLuid</b> is used to convert a system-defined privilege value to the locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) used by the system to represent that privilege. Drivers typically pass a LUID to <b>SeSinglePrivilegeCheck</b>, which is usually called by network transport drivers.
+
 
 
 
@@ -90,11 +94,19 @@ Specifies the long integer to convert.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
 
-<a href="..\ntddk\nf-ntddk-rtlconvertulongtoluid.md">RtlConvertULongToLuid</a>
+
 
 <a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
 
+
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlconvertulongtoluid.md">RtlConvertULongToLuid</a>
+
+
 
  
 

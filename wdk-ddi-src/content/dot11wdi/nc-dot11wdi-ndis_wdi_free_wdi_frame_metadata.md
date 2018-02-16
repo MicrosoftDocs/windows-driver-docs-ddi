@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	NdisWdiFreeWiFiFrameMetaData
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # NDIS_WDI_FREE_WDI_FRAME_METADATA callback
@@ -86,7 +86,9 @@ The frame metadata buffer to free.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
@@ -94,7 +96,11 @@ This callback function does not return a value.
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
+
+
 
  
 

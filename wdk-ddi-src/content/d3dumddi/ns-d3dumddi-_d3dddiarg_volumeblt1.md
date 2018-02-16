@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VOLUMEBLT1
-title: _D3DDDIARG_VOLUMEBLT1
+title: "_D3DDDIARG_VOLUMEBLT1"
 author: windows-driver-content
 description: Describes parameters for a volume bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_volumeblt1.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 685aad54-03f5-4e3c-83a7-a44745acc4fb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_VOLUMEBLT1 structure [Display Devices], d3dumddi/D3DDDIARG_VOLUMEBLT1, _D3DDDIARG_VOLUMEBLT1, display.d3dddiarg_volumeblt1, D3DDDIARG_VOLUMEBLT1
+ms.keywords: D3DDDIARG_VOLUMEBLT1, D3DDDIARG_VOLUMEBLT1 structure [Display Devices], _D3DDDIARG_VOLUMEBLT1, d3dumddi/D3DDDIARG_VOLUMEBLT1, display.d3dddiarg_volumeblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_VOLUMEBLT1
 product: Windows
 targetos: Windows
@@ -110,9 +110,13 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 ## -see-also
 
+<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
+
 
  
 

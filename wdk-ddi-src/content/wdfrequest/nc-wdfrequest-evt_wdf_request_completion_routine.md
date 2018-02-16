@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdfrequest.h
-apiname: 
+apiname:
 -	CompletionRoutine
 product: Windows
 targetos: Windows
@@ -99,11 +99,15 @@ Driver-supplied context information, which the driver specified in a previous ca
 ## -returns
 
 
+
 None
+
 <h2><a id="ddk_completionroutine_df"></a><a id="DDK_COMPLETIONROUTINE_DF"></a></h2>
 
 
+
 ## -remarks
+
 
 
 To register a <i>CompletionRoutine</i> callback function for an I/O request, a driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>. For more information about this callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
@@ -113,12 +117,70 @@ Note that the completion parameters structure contains valid information only if
 A KMDF driver's <i>CompletionRoutine</i> can run at IRQL &lt;= DISPATCH_LEVEL regardless of the  <b>ExecutionLevel</b> specified in the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure for the I/O request object.  
 
 
+#### Examples
+
+The function type is declared in <i>Wdfrequest.h</i>, as follows.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
+  (EVT_WDF_REQUEST_COMPLETION_ROUTINE)(
+    IN WDFREQUEST  Request,
+    IN WDFIOTARGET  Target,
+    IN PWDF_REQUEST_COMPLETION_PARAMS  Params,
+    IN WDFCONTEXT  Context
+    );
+</pre>
+</td>
+</tr>
+</table></span></div>
+To define a <i>CompletionRoutine</i> callback function that is named <b>MyCompletionRoutine</b>, you must first provide a function declaration that SDV and other verification tools require, as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>EVT_WDF_REQUEST_COMPLETION_ROUTINE  MyCompletionRoutine;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback function as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+ MyCompletionRoutine (
+    IN WDFREQUEST  Request,
+    IN WDFIOTARGET  Target,
+    IN PWDF_REQUEST_COMPLETION_PARAMS  Params,
+    IN WDFCONTEXT  Context
+    )
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
+
+
+
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
+
 
  
 

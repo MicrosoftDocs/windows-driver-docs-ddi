@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfcsedev.h
-apiname: 
+apiname:
 -	IOCTL_NFCSE_HCE_REMOTE_SEND
 product: Windows
 targetos: Windows
@@ -88,20 +88,25 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -115,5 +120,6 @@ None
 <td><b>STATUS_INVALID_DEVICE_STATE</b></td>
 <td> This code is returned if the IOCTL is sent on a handle other than with relative name ‘SEManage’.</td>
 </tr>
-</table> 
+</table>
+ 
 

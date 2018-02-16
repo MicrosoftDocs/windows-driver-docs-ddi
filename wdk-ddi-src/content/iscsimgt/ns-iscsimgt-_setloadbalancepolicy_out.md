@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._SetLoadBalancePolicy_OUT
-title: _SetLoadBalancePolicy_OUT
+title: "_SetLoadBalancePolicy_OUT"
 author: windows-driver-content
 description: The SetLoadBalancePolicy_OUT structure holds the output data for the SetLoadBalance method.
 old-location: storage\setloadbalancepolicy_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 28b54f80-9268-4ccb-ac19-b1b4bfef4192
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT, iscsimgt/PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml, SetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT, SetLoadBalancePolicy_OUT structure [Storage Devices], iscsimgt/SetLoadBalancePolicy_OUT, storage.setloadbalancepolicy_out
+ms.keywords: PSetLoadBalancePolicy_OUT, storage.setloadbalancepolicy_out, structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], iscsimgt/PSetLoadBalancePolicy_OUT, SetLoadBalancePolicy_OUT structure [Storage Devices], iscsimgt/SetLoadBalancePolicy_OUT, _SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT, SetLoadBalancePolicy_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsimgt.h
-apiname: 
+apiname:
 -	SetLoadBalancePolicy_OUT
 product: Windows
 targetos: Windows
@@ -75,15 +75,21 @@ A value that provides the status of the SetLoadBalancePolicy operation.
 ## -remarks
 
 
+
 You must implement this class. For a list of possible status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9DA0A057-1472-4B42-9149-A961F7D84B2E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortInterlockedPopEntrySList, StorPortInterlockedPopEntrySList routine [Storage Devices], StorPortInterlockedPopEntrySList, storage.storportinterlockedpopentryslist
+ms.keywords: storport/StorPortInterlockedPopEntrySList, storage.storportinterlockedpopentryslist, StorPortInterlockedPopEntrySList routine [Storage Devices], StorPortInterlockedPopEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortInterlockedPopEntrySList
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ A pointer to a list entry pointer. The value returned is a pointer to  the item 
 ## -returns
 
 
+
 <b>StorPortInterlockedPopEntrySList</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -129,11 +131,14 @@ A pointer in <i>SListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</b> when no entries are in the list. The pointer value referenced by <i>Result</i> must be evaluated for <b>NULL</b> to verify that no entry was returned.
@@ -142,15 +147,24 @@ The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</
 
 
 
-## -see-also
 
-<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+## -see-also
 
 <a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
 
+
+
 <a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
 
+
+
 <a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
+
+
+
+<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E9E80EB4-C20B-4025-957B-32DC6FAE7F38
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], iointex/WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt, IoGetAffinityInterrupt, iointex/IoGetAffinityInterrupt
+ms.keywords: WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt, iointex/IoGetAffinityInterrupt, IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WdmlibIoGetAffinityInterrupt
 -	IoGetAffinityInterrupt
 product: Windows
@@ -82,7 +82,9 @@ A pointer to a caller-allocated buffer into which the routine writes a <a href="
 ## -returns
 
 
+
 <b>WdmlibIoGetAffinityInterrupt</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -99,11 +101,14 @@ The <i>InterruptObject</i> parameter does not point to a valid interrupt object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A kernel-mode driver calls this routine to get the set of logical processors on which the driver's registered interrupt service routine (ISR) can receive device interrupts. This set of processors is described by a <b>GROUP_AFFINITY</b> structure, which specifies a group number and an affinity mask. All the processors that are assigned to a particular ISR registration must belong to the same group.
@@ -114,17 +119,28 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
-<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
+
+<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+
+
+<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+
+
 
  
 

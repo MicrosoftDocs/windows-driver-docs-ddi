@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3f4d01fe-84cb-424e-9107-e29c4e25d85c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoSetDeviceBusyEx, kernel.posetdevicebusyex, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, PoSetDeviceBusyEx
+ms.keywords: portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, kernel.posetdevicebusyex, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], PoSetDeviceBusyEx, wdm/PoSetDeviceBusyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoSetDeviceBusyEx
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to an idle counter. This is a pointer value that was previously return
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This routine is a direct replacement for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a> macro. If you are writing new driver code for Windows Vista with Service Pack 1 (SP1) and later versions of Windows, call <b>PoSetDeviceBusyEx</b> instead of <b>PoSetDeviceBusy</b>.
@@ -95,17 +98,28 @@ A driver that makes multiple requests for brief I/O operations should call <b>Po
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-poenddevicebusy.md">PoEndDeviceBusy</a>
 
-<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+
 
 <a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>
 
+
+
+<a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559755">PoSetDeviceBusy</a>
+
+
 
  
 

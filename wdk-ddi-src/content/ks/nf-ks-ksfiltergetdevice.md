@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f3abb5e4-6711-47bb-82b5-7ef838d49258
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfiltergetdevice, KsFilterGetDevice, ks/KsFilterGetDevice, avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, KsFilterGetDevice function [Streaming Media Devices]
+ms.keywords: ks/KsFilterGetDevice, avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, KsFilterGetDevice function [Streaming Media Devices], stream.ksfiltergetdevice, KsFilterGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsFilterGetDevice
 product: Windows
 targetos: Windows
@@ -75,24 +75,34 @@ A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for w
 ## -returns
 
 
+
 <b>KsFilterGetDevice</b> returns a pointer to the AVStream <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure to which <i>Filter</i> belongs.
+
 
 
 
 ## -remarks
 
 
+
 This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
 <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
 
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
 
  
 

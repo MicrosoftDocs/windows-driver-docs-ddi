@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl, VmbPacketSendWithExternalMdl, netvista.vmbpacketsendwithexternalmdl, VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH
+ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH, netvista.vmbpacketsendwithexternalmdl, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista], VmbPacketSendWithExternalMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbPacketSendWithExternalMdl
 product: Windows
 targetos: Windows
@@ -119,6 +119,7 @@ The length of the sub-buffer to send. Use 0 for the entire     MDL.
 
   Flags. The following are pertinent flags:
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -163,26 +164,33 @@ responsibility of the caller.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>VmbPacketSendWithExternalMdl</b> returns a status code.
 
 
 
+
 ## -remarks
+
 
 
 This function differs from the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a> function in that it allows passing an MDL offset and MDL length.
 
 
 
+
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
+
+
 
  
 

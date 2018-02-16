@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pcivirt.h
-apiname: 
+apiname:
 -	IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT
 product: Windows
 targetos: Windows
-req.typenames: *PSRIOV_PF_EVENT, SRIOV_PF_EVENT
+req.typenames: "*PSRIOV_PF_EVENT, SRIOV_PF_EVENT"
 ---
 
 # IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT IOCTL
@@ -85,14 +85,18 @@ The size of the <a href="https://msdn.microsoft.com/b89c0758-beed-4c29-b966-78cb
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,7 @@ TBD
 ## -remarks
 
 
+
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
 The virtualization stack uses an I/O MMU to differentiate traffic coming from the various interfaces that the device exposes, enforcing policy about which regions of memory a device can access and which interrupts it can generate. 
@@ -114,5 +119,6 @@ The request is sent to the physical function (PF) driver by the virtualization s
 in which the stack must place
 intercepts  on those pages and send the requests to read and write values
 within those pages to the PF driver.
+
 
 

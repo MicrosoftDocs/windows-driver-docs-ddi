@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_ISSUEQUERYFLAGS
-title: _D3DDDI_ISSUEQUERYFLAGS
+title: "_D3DDDI_ISSUEQUERYFLAGS"
 author: windows-driver-content
 description: The D3DDDI_ISSUEQUERYFLAGS structure identifies the state of a query issue.
 old-location: display\d3dddi_issuequeryflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 68360c2e-4b03-40a3-a313-bdb9ef26a298
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_ISSUEQUERYFLAGS, d3dumddi/D3DDDI_ISSUEQUERYFLAGS, D3D_other_Structs_794dd0b0-f24c-4e9e-befe-d79dd4efbaef.xml, D3DDDI_ISSUEQUERYFLAGS structure [Display Devices], _D3DDDI_ISSUEQUERYFLAGS, display.d3dddi_issuequeryflags
+ms.keywords: D3DDDI_ISSUEQUERYFLAGS, d3dumddi/D3DDDI_ISSUEQUERYFLAGS, display.d3dddi_issuequeryflags, _D3DDDI_ISSUEQUERYFLAGS, D3DDDI_ISSUEQUERYFLAGS structure [Display Devices], D3D_other_Structs_794dd0b0-f24c-4e9e-befe-d79dd4efbaef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_ISSUEQUERYFLAGS
 product: Windows
 targetos: Windows
@@ -101,6 +101,8 @@ A member in the union that is contained in D3DDDI_ISSUEQUERYFLAGS that can hold 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_issuequery.md">D3DDDIARG_ISSUEQUERY</a>
+
+
 
  
 

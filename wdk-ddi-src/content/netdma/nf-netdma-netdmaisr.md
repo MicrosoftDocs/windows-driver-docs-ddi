@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr, NetDmaIsr function [Network Drivers Starting with Windows Vista], NetDmaIsr, netdma/NetDmaIsr
+ms.keywords: netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr, netdma/NetDmaIsr, NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DEVICE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NetDmaIsr
 product: Windows
 targetos: Windows
@@ -77,8 +77,8 @@ VOID NetDmaIsr(
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ### -param DmaDescriptor [in]
@@ -96,11 +96,14 @@ The number of the CPU that is associated with the interrupt DPC. The NetDMA inte
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 DMA provider drivers call the 
@@ -111,17 +114,25 @@ If the NET_DMA_INTERRUPT_ON_COMPLETION flag in the
     <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure is set, the
     DMA engine should generate an interrupt for the DMA channel after it processes the DMA descriptor. When
     this flag is cleared, the DMA engine does not generate an interrupt.
+
 <div class="alert"><b>Note</b>  When the ISR is called, the current DMA descriptor might already be different from
-    the descriptor that triggered the interrupt.</div><div> </div>A DMA provider driver should do as little work as possible in its ISR handler. The driver should defer
+    the descriptor that triggered the interrupt.</div>
+<div> </div>
+A DMA provider driver should do as little work as possible in its ISR handler. The driver should defer
     I/O operations to the interrupt DPC handler.
+
 
 
 
 ## -see-also
 
+<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+
+
+
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+
 
  
 

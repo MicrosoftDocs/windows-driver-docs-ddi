@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSHAREDPRIMARYHANDLE
-title: _D3DKMT_GETSHAREDPRIMARYHANDLE
+title: "_D3DKMT_GETSHAREDPRIMARYHANDLE"
 author: windows-driver-content
 description: The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are required to retrieve the global shared handle for the primary surface.
 old-location: display\d3dkmt_getsharedprimaryhandle.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 59c45a0e-54c3-4301-8e65-409d6c728325
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], display.d3dkmt_getsharedprimaryhandle, d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, _D3DKMT_GETSHAREDPRIMARYHANDLE, D3DKMT_GETSHAREDPRIMARYHANDLE
+ms.keywords: OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, _D3DKMT_GETSHAREDPRIMARYHANDLE, display.d3dkmt_getsharedprimaryhandle, D3DKMT_GETSHAREDPRIMARYHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_GETSHAREDPRIMARYHANDLE
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ typedef struct _D3DKMT_GETSHAREDPRIMARYHANDLE {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetsharedprimaryhandle.md">D3DKMTGetSharedPrimaryHandle</a>
+
+
 
  
 

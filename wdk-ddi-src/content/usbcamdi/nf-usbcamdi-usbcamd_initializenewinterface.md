@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_InitializeNewInterface, stream.usbcamd_initializenewinterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml, USBCAMD_InitializeNewInterface function [Streaming Media Devices], usbcamdi/USBCAMD_InitializeNewInterface
+ms.keywords: usbcamdi/USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml, stream.usbcamd_initializenewinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname: 
+apiname:
 -	USBCAMD_InitializeNewInterface
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ Specifies the version information. This value should be set to the value USBCAMD
 ### -param CamControlFlag [in]
 
 Specifies how USBCAMD and the camera minidriver should interact. The camera minidriver should set this value to one or more of the following:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -135,17 +136,21 @@ Setting the USBCAMD_CamControlFlag_EnableDeviceEvents exposes a device event to 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>USBCAMD_InitializeNewInterface</b> returns the value USBCAMD_VERSION_200.
 
 
 
+
 ## -remarks
+
 
 
 This function is only called by USBCAMD version 2.0.
@@ -154,11 +159,16 @@ The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera 
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>
+
+
 
 <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>
+
 
  
 

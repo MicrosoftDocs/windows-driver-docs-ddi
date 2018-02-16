@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ee0bfafa-9f4b-4b4a-8b26-4bab81253500
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UnSubscribe, UnSubscribe method [Imaging Devices], sti/IStiDevice::UnSubscribe, image.istidevice_unsubscribe, IStiDevice, stifnc_8144319d-d1da-40cd-ad1d-6b65c28155be.xml, UnSubscribe method [Imaging Devices], IStiDevice interface, IStiDevice::UnSubscribe, IStiDevice interface [Imaging Devices], UnSubscribe method
+ms.keywords: UnSubscribe method [Imaging Devices], IStiDevice, UnSubscribe, IStiDevice interface [Imaging Devices], UnSubscribe method, sti/IStiDevice::UnSubscribe, image.istidevice_unsubscribe, IStiDevice::UnSubscribe, stifnc_8144319d-d1da-40cd-ad1d-6b65c28155be.xml, UnSubscribe method [Imaging Devices], IStiDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Sti.h
-apiname: 
+apiname:
 -	IStiDevice.UnSubscribe
 product: Windows
 targetos: Windows
@@ -67,23 +67,30 @@ HRESULT UnSubscribe();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 Before calling <b>IStiDevice::UnSubscribe</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a>
+
+
 
  
 

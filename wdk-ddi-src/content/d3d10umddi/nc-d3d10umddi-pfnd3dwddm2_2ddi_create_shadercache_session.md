@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnCreateShaderCacheSession
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback
@@ -75,9 +75,7 @@ VOID APIENTRY* pfnCreateShaderCacheSession(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3DWDDM2_2DDI_HCACHESESSION
-
 
 
 ### -param D3DWDDM2_2DDI_HRTCACHESESSION
@@ -87,14 +85,6 @@ VOID APIENTRY* pfnCreateShaderCacheSession(
 
 
 
-#### - hRTCacheSession
-
-The handle of the cache session for the driver to use when it calls back into the runtime.
-
-
-#### - hDevice
-
-The handle of a device.
 
 
 #### - hCacheSession
@@ -102,14 +92,27 @@ The handle of a device.
 The handle of a cache session.
 
 
+#### - hDevice
+
+The handle of a device.
+
+
+#### - hRTCacheSession
+
+The handle of the cache session for the driver to use when it calls back into the runtime.
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The runtime uses the object that is created to inform the driver of different caching contexts. It can be used to direct the caching callbacks towards a process-local cache or a per-component cache which is shared by multiple processes.
@@ -118,9 +121,12 @@ Access this callback function by using the <a href="..\d3d10umddi\ns-d3d10umddi-
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a>
+
+
 
  
 

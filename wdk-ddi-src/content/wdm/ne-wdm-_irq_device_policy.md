@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IRQ_DEVICE_POLICY
-title: _IRQ_DEVICE_POLICY
+title: "_IRQ_DEVICE_POLICY"
 author: windows-driver-content
 description: The IRQ_DEVICE_POLICY enumeration type indicates the policy the operating system can use to assign the interrupts from a device to different processors.
 old-location: kernel\irq_device_policy.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1a605eed-d9a1-4a2f-a095-3e790061527b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.irq_device_policy, IRQ_DEVICE_POLICY, wdm/IRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY, wdm/PIRQ_DEVICE_POLICY, IrqPolicySpecifiedProcessors, _IRQ_DEVICE_POLICY, IrqPolicyOneCloseProcessor, IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyMachineDefault, IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyOneCloseProcessor, IrqPolicyMachineDefault, *PIRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyAllCloseProcessors, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, IrqPolicyAllCloseProcessors, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], wdm/IrqPolicySpecifiedProcessors
+ms.keywords: IRQ_DEVICE_POLICY, wdm/IrqPolicyOneCloseProcessor, IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyMachineDefault, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPolicySpecifiedProcessors, wdm/PIRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY, IrqPolicyMachineDefault, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyAllProcessorsInMachine, _IRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY, IrqPolicySpecifiedProcessors, IrqPolicyOneCloseProcessor, kernel.irq_device_policy, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, IrqPolicyAllCloseProcessors, wdm/IrqPolicyAllCloseProcessors, wdm/IRQ_DEVICE_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IRQ_DEVICE_POLICY
 product: Windows
 targetos: Windows
-req.typenames: *PIRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY
+req.typenames: IRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY
 req.product: Windows 10 or later.
 ---
 
@@ -111,13 +111,17 @@ The operating system should assign different message-signaled interrupts to diff
 ## -remarks
 
 
+
 The <b>Interrupt.AffinityPolicy</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

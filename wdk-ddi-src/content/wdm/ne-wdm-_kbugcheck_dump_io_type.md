@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KBUGCHECK_DUMP_IO_TYPE
-title: _KBUGCHECK_DUMP_IO_TYPE
+title: "_KBUGCHECK_DUMP_IO_TYPE"
 author: windows-driver-content
 description: The KBUGCHECK_DUMP_IO_TYPE enumeration type identifies the type of a section of data within a crash dump file.
 old-location: kernel\kbugcheck_dump_io_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kbugcheck_dump_io_type, _KBUGCHECK_DUMP_IO_TYPE, KbDumpIoInvalid, wdm/KbDumpIoBody, wdm/KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], KbDumpIoComplete, wdm/KbDumpIoHeader, KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoSecondaryData, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, KbDumpIoHeader, KbDumpIoSecondaryData, wdm/KbDumpIoComplete, KbDumpIoBody, wdm/KbDumpIoInvalid
+ms.keywords: KbDumpIoComplete, kernel.kbugcheck_dump_io_type, _KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE, KbDumpIoSecondaryData, wdm/KbDumpIoInvalid, KbDumpIoBody, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, wdm/KbDumpIoHeader, wdm/KbDumpIoBody, KbDumpIoHeader, wdm/KbDumpIoComplete, wdm/KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoSecondaryData, KbDumpIoInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KBUGCHECK_DUMP_IO_TYPE
 product: Windows
 targetos: Windows
@@ -100,19 +100,27 @@ Specifies that the crash dump data has been completely written.
 ## -remarks
 
 
+
 <b>KBUGCHECK_DUMP_IO_TYPE</b> values are used in the <b>Type</b> member of <a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a> to specify the type of data in an I/O operation on the crash dump file.
 
 For more information about how this enumeration type is used, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
-<a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a>
+
 
  
 

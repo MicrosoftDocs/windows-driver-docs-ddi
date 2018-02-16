@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8534d6bd-c959-4088-8227-51710fe721cf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.idarg_in_getmoveregions, IDARG_IN_GETMOVEREGIONS, IDARG_IN_GETMOVEREGIONS structure [Display Devices], iddcx/IDARG_IN_GETMOVEREGIONS
+ms.keywords: IDARG_IN_GETMOVEREGIONS, display.idarg_in_getmoveregions, IDARG_IN_GETMOVEREGIONS structure [Display Devices], iddcx/IDARG_IN_GETMOVEREGIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDARG_IN_GETMOVEREGIONS
 product: Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_AUTHENTICATE_DEVICE
-title: _MSR_AUTHENTICATE_DEVICE
+title: "_MSR_AUTHENTICATE_DEVICE"
 author: windows-driver-content
 description: This structure provides the authentication information used to authenticate a device.
 old-location: pos\msr_authenticate_device.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: b75dce2c-5ad5-4340-b1b7-5fcf4440e58c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _MSR_AUTHENTICATE_DEVICE, pos.msr_authenticate_device, pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE structure pointer, PMSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE structure
+ms.keywords: MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE structure pointer, pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE, _MSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE, pos.msr_authenticate_device, MSR_AUTHENTICATE_DEVICE structure, PMSR_AUTHENTICATE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	MSR_AUTHENTICATE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *PMSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE
+req.typenames: MSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE
 ---
 
 # _MSR_AUTHENTICATE_DEVICE structure
@@ -87,6 +87,8 @@ The session ID. This is primarily used to identify each transaction so that you 
 ## -see-also
 
 <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device.md">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>
+
+
 
  
 

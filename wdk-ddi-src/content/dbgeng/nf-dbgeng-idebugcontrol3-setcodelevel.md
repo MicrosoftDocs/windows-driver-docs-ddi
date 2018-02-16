@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b2f318d2-9ee2-4b4b-86ff-4561f1bbe084
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.setcodelevel, IDebugControl interface [Windows Debugging], SetCodeLevel method, SetCodeLevel method [Windows Debugging], IDebugControl3 interface, IDebugControl3::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, SetCodeLevel, IDebugControl2::SetCodeLevel, IDebugControl2 interface [Windows Debugging], SetCodeLevel method, dbgeng/IDebugControl::SetCodeLevel, SetCodeLevel method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], SetCodeLevel method, dbgeng/IDebugControl2::SetCodeLevel, SetCodeLevel method [Windows Debugging], IDebugControl3, SetCodeLevel method [Windows Debugging], IDebugControl2 interface, IDebugControl::SetCodeLevel
+ms.keywords: IDebugControl3 interface [Windows Debugging], SetCodeLevel method, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, dbgeng/IDebugControl2::SetCodeLevel, SetCodeLevel method [Windows Debugging], IDebugControl2 interface, IDebugControl3, SetCodeLevel method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], SetCodeLevel method, dbgeng/IDebugControl::SetCodeLevel, IDebugControl2 interface [Windows Debugging], SetCodeLevel method, dbgeng/IDebugControl3::SetCodeLevel, SetCodeLevel method [Windows Debugging], IDebugControl3::SetCodeLevel, debugger.setcodelevel, IDebugControl2::SetCodeLevel, IDebugControl2, SetCodeLevel, IDebugControl, IDebugControl::SetCodeLevel, SetCodeLevel method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.SetCodeLevel
 -	IDebugControl2.SetCodeLevel
 -	IDebugControl3.SetCodeLevel
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetCodeLevel method
@@ -72,6 +72,7 @@ HRESULT SetCodeLevel(
 ### -param Level [in]
 
 Specifies the current code level.  <i>Level</i> can take one of the values in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -97,13 +98,16 @@ DEBUG_LEVEL_ASSEMBLY
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,26 +124,38 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about the code level, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545670">GetCodeLevel</a>
+
+
 
  
 

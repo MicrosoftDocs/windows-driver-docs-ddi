@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 447a7ba5-8357-4383-987f-51f5b3c9996c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeInitializeSemaphore, kernel.keinitializesemaphore, k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, wdm/KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeInitializeSemaphore, kernel.keinitializesemaphore, KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeInitializeSemaphore
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Specifies the maximum count value that the semaphore can attain. This value must
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The semaphore object is initialized with the specified initial count and limit.
@@ -103,15 +106,24 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
 
 <a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
 
+
+
 <a href="..\wdm\nf-wdm-kereleasesemaphore.md">KeReleaseSemaphore</a>
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
 
  
 

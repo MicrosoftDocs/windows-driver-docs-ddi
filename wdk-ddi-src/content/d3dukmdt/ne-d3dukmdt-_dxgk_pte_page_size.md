@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._DXGK_PTE_PAGE_SIZE
-title: _DXGK_PTE_PAGE_SIZE
+title: "_DXGK_PTE_PAGE_SIZE"
 author: windows-driver-content
 description: The DXGK_PTE_PAGE_SIZE enumeration is used by DXGK_PTE to indicate the size of lower page level pages.
 old-location: display\dxgk_pte_page_size.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 54ADAD37-C479-4F07-B0DD-CDF25AA4390C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PTE_PAGE_TABLE_PAGE_64KB, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_64KB, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_4KB, display.dxgk_pte_page_size, _DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_SIZE enumeration [Display Devices], d3dukmdt/DXGK_PTE_PAGE_SIZE
+ms.keywords: DXGK_PTE_PAGE_SIZE, display.dxgk_pte_page_size, DXGK_PTE_PAGE_SIZE enumeration [Display Devices], d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_TABLE_PAGE_64KB, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_64KB, DXGK_PTE_PAGE_TABLE_PAGE_4KB, _DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	DXGK_PTE_PAGE_SIZE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ Indicates the lower page table level uses 64 KB pages.
 ## -see-also
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_dxgk_pte.md">DXGK_PTE</a>
+
+
 
  
 

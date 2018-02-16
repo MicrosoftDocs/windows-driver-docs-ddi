@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2d6c7db-09b3-4e5a-a6da-607c67e03054
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmopenaddressfamilycomplete, NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], NdisMCmOpenAddressFamilyComplete, ndis/NdisMCmOpenAddressFamilyComplete, condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml
+ms.keywords: NdisMCmOpenAddressFamilyComplete, condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml, ndis/NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], netvista.ndismcmopenaddressfamilycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmOpenAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmOpenAddressFamilyComplete macro
@@ -89,6 +89,15 @@ TBD
 
 
 
+
+
+#### - CallMgrAfContext [in]
+
+Specifies the handle to a caller-allocated resident context area, in which the MCM driver
+     maintains state about this client's open of the address family, including the 
+     <i>NdisAfHandle</i>, if the open succeeded. Otherwise, NDIS ignores this parameter.
+
+
 #### - NdisAfHandle [in]
 
 Specifies the NDIS-supplied handle that was input to the MCM driver's 
@@ -102,14 +111,8 @@ Specifies the final status of the client's request to open the AF, either NDIS_S
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-#### - CallMgrAfContext [in]
-
-Specifies the handle to a caller-allocated resident context area, in which the MCM driver
-     maintains state about this client's open of the address family, including the 
-     <i>NdisAfHandle</i>, if the open succeeded. Otherwise, NDIS ignores this parameter.
-
-
 ## -remarks
+
 
 
 An MCM driver must call 
@@ -120,8 +123,8 @@ An MCM driver must call
     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>,
     cannot carry out further connection-oriented operations on the same binding until 
     <b>NdisMCmOpenAddressFamilyComplete</b> causes a call to that client's 
-    <mshelp:link keywords="netvista.protocolclopenafcompleteex" tabindex="0"><i>
-    ProtocolClOpenAfCompleteEx</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+    ProtocolClOpenAfCompleteEx</a> function.
 
 If the caller of 
     <b>NdisMCmOpenAddressFamilyComplete</b> sets 
@@ -147,19 +150,30 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
-<mshelp:link keywords="netvista.ndiscmopenaddressfamilycomplete" tabindex="0"><b>
-   NdisCmOpenAddressFamilyComplete</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+
+
+<a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+   NdisCmOpenAddressFamilyComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
 
  
 

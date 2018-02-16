@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_InitiatorInstanceStatistics
-title: _MSiSCSI_InitiatorInstanceStatistics
+title: "_MSiSCSI_InitiatorInstanceStatistics"
 author: windows-driver-content
 description: The MSiSCSI_InitiatorInstanceStatistics structure is used by iSCSI initiators to report initiator statistics.
 old-location: storage\msiscsi_initiatorinstancestatistics.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b07b8186-970a-428f-955f-4e7e6ab20bfc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_InitiatorInstanceStatistics structure [Storage Devices], PMSiSCSI_InitiatorInstanceStatistics, storage.msiscsi_initiatorinstancestatistics, structs-iSCSI_6914e221-73b2-4626-9281-2e1748bd0048.xml, iscsiprf/MSiSCSI_InitiatorInstanceStatistics, *PMSiSCSI_InitiatorInstanceStatistics, _MSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics, PMSiSCSI_InitiatorInstanceStatistics structure pointer [Storage Devices], iscsiprf/PMSiSCSI_InitiatorInstanceStatistics
+ms.keywords: MSiSCSI_InitiatorInstanceStatistics structure [Storage Devices], structs-iSCSI_6914e221-73b2-4626-9281-2e1748bd0048.xml, iscsiprf/PMSiSCSI_InitiatorInstanceStatistics, _MSiSCSI_InitiatorInstanceStatistics, *PMSiSCSI_InitiatorInstanceStatistics, storage.msiscsi_initiatorinstancestatistics, iscsiprf/MSiSCSI_InitiatorInstanceStatistics, PMSiSCSI_InitiatorInstanceStatistics structure pointer [Storage Devices], PMSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiprf.h
-apiname: 
+apiname:
 -	MSiSCSI_InitiatorInstanceStatistics
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics
+req.typenames: MSiSCSI_InitiatorInstanceStatistics, *PMSiSCSI_InitiatorInstanceStatistics
 ---
 
 # _MSiSCSI_InitiatorInstanceStatistics structure
@@ -99,17 +99,25 @@ The number of failed sessions that belong to the initiator instance that <b>Uniq
 ## -remarks
 
 
+
 It is optional that you implement this class.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
-
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563038">MSiSCSI_InitiatorInstanceStatistics WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
+
+
 
  
 

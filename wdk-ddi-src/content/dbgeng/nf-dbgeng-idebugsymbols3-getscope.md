@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 59eb490e-66d5-4108-8d00-5503fa56665d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetScope method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::GetScope, dbgeng/IDebugSymbols::GetScope, dbgeng/IDebugSymbols3::GetScope, GetScope method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetScope method, IDebugSymbols3, debugger.getscope, GetScope method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetScope method, GetScope method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetScope method, IDebugSymbols3::GetScope, IDebugSymbols::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, dbgeng/IDebugSymbols2::GetScope, GetScope
+ms.keywords: GetScope method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetScope, dbgeng/IDebugSymbols3::GetScope, IDebugSymbols::GetScope, debugger.getscope, IDebugSymbols3 interface [Windows Debugging], GetScope method, GetScope method [Windows Debugging], dbgeng/IDebugSymbols2::GetScope, GetScope, GetScope method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetScope method, IDebugSymbols2::GetScope, IDebugSymbols3, IDebugSymbols2, IDebugSymbols interface [Windows Debugging], GetScope method, IDebugSymbols, GetScope method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetScope
 -	IDebugSymbols2.GetScope
 -	IDebugSymbols3.GetScope
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetScope method
@@ -95,7 +95,9 @@ Specifies the size of the buffer <i>ScopeContext</i>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,30 +125,46 @@ The size of the buffer <i>ScopeContext</i> was not large enough to hold the scop
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about scopes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
+
+
+<a href="https://msdn.microsoft.com/66a5aa3d-fe35-4c30-951f-f25de75dacb0">IDebugControl::GetEffectiveProcessorType</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554577">ResetScope</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_PRIORITY_HINT
-title: _IO_PRIORITY_HINT
+title: "_IO_PRIORITY_HINT"
 author: windows-driver-content
 description: The IO_PRIORITY_HINT enumeration type specifies the priority hint for an IRP.
 old-location: kernel\io_priority_hint.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38d19398-b34f-4934-b643-df119ebd9711
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, wdm/IoPriorityNormal, wdm/IoPriorityLow, IoPriorityVeryLow, IoPriorityHigh, MaxIoPriorityTypes, IO_PRIORITY_HINT, kernel.io_priority_hint, wdm/IO_PRIORITY_HINT, wdm/IoPriorityVeryLow, IoPriorityCritical, wdm/MaxIoPriorityTypes, IoPriorityNormal, wdm/IoPriorityHigh, wdm/IoPriorityCritical, _IO_PRIORITY_HINT, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], IoPriorityLow
+ms.keywords: MaxIoPriorityTypes, IoPriorityCritical, IO_PRIORITY_HINT, wdm/IoPriorityVeryLow, wdm/IoPriorityLow, _IO_PRIORITY_HINT, wdm/MaxIoPriorityTypes, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], IoPriorityVeryLow, wdm/IoPriorityNormal, wdm/IoPriorityCritical, wdm/IoPriorityHigh, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, IoPriorityLow, wdm/IO_PRIORITY_HINT, kernel.io_priority_hint, IoPriorityHigh, IoPriorityNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IO_PRIORITY_HINT
 product: Windows
 targetos: Windows
@@ -106,7 +106,9 @@ Marks the limit for priority hints. Any priority hint value must be less than <b
 ## -remarks
 
 
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
+
 
 
 
@@ -114,7 +116,11 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
 <a href="..\wdm\nf-wdm-iosetiopriorityhint.md">IoSetIoPriorityHint</a>
 
+
+
 <a href="..\wdm\nf-wdm-iogetiopriorityhint.md">IoGetIoPriorityHint</a>
+
+
 
  
 

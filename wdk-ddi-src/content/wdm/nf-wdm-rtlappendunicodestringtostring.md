@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fb076688-ae8e-430b-ac06-dfef7284591d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlAppendUnicodeStringToString, k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, wdm/RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], kernel.rtlappendunicodestringtostring
+ms.keywords: k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, RtlAppendUnicodeStringToString, kernel.rtlappendunicodestringtostring, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], wdm/RtlAppendUnicodeStringToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlAppendUnicodeStringToString
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ Pointer to the buffered string to be concatenated.
 ## -returns
 
 
+
 <b>RtlAppendUnicodeStringToString</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,11 +112,14 @@ The destination string length is too small to allow the source string to be conc
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>RtlAppendUnicodeStringToString</b> copies bytes from the source up to the length of the destination buffer.
@@ -123,9 +128,12 @@ The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlappendunicodetostring.md">RtlAppendUnicodeToString</a>
+
+
 
  
 

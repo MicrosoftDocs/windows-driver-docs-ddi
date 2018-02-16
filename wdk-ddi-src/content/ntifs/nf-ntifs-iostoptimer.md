@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4b903046-8f96-4299-94e7-85900be1bbd4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, IoStopTimer routine [Kernel-Mode Driver Architecture], wdm/IoStopTimer, kernel.iostoptimer, IoStopTimer
+ms.keywords: kernel.iostoptimer, IoStopTimer routine [Kernel-Mode Driver Architecture], IoStopTimer, k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, wdm/IoStopTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoStopTimer
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Pointer to the device object with which the <a href="..\wdm\nc-wdm-io_timer_rout
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The driver-supplied <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine can be reenabled with a call to <b>IoStartTimer</b>.
@@ -88,11 +91,16 @@ Do not call <b>IoStopTimer</b> from within the <i>IoTimer</i> routine.
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
+
+
 
 <a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
 
-<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
+
 
  
 

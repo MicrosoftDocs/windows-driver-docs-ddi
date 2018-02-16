@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SetBindingSupport_IN
-title: _SM_SetBindingSupport_IN
+title: "_SM_SetBindingSupport_IN"
 author: windows-driver-content
 description: The SM_SetBindingSupport_IN structure is used to provide input parameters to the SM_SetBindingSupport method.
 old-location: storage\sm_setbindingsupport_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7bcee845-9b3f-4ad7-843f-1f4cd74ee1be
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-Fibre_9797bfcd-a063-47dd-8a98-0837b3fb7698.xml, _SM_SetBindingSupport_IN, hbapiwmi/SM_SetBindingSupport_IN, storage.sm_setbindingsupport_in, PSM_SetBindingSupport_IN structure pointer [Storage Devices], PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN, hbapiwmi/PSM_SetBindingSupport_IN, *PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN structure [Storage Devices]
+ms.keywords: hbapiwmi/SM_SetBindingSupport_IN, hbapiwmi/PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN structure [Storage Devices], _SM_SetBindingSupport_IN, *PSM_SetBindingSupport_IN, structs-Fibre_9797bfcd-a063-47dd-8a98-0837b3fb7698.xml, storage.sm_setbindingsupport_in, PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN, PSM_SetBindingSupport_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_SetBindingSupport_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSM_SetBindingSupport_IN, SM_SetBindingSupport_IN
+req.typenames: SM_SetBindingSupport_IN, *PSM_SetBindingSupport_IN
 ---
 
 # _SM_SetBindingSupport_IN structure
@@ -87,6 +87,8 @@ The HBA_BIND_CAPABILITY binding capabilities.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_SetBindingSupport_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SMHBA_BindingEntry WMI class.
+
 
 

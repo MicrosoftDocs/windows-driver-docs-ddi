@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpar._PAR_QUERY_INFORMATION
-title: _PAR_QUERY_INFORMATION
+title: "_PAR_QUERY_INFORMATION"
 author: windows-driver-content
 description: The PAR_QUERY_INFORMATION structure specifies the operating status of a parallel port.
 old-location: parports\par_query_information.htm
@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 3115b0c2-0190-4c5c-8b31-dbafddc9c44d
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPAR_QUERY_INFORMATION, cisspd_d7d19b6f-e1a0-4ad7-b0ee-b8e291e63956.xml, *PPAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION structure pointer [Parallel Ports], PAR_QUERY_INFORMATION, parports.par_query_information, ntddpar/PPAR_QUERY_INFORMATION, _PAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION structure [Parallel Ports], ntddpar/PAR_QUERY_INFORMATION
+ms.keywords: cisspd_d7d19b6f-e1a0-4ad7-b0ee-b8e291e63956.xml, *PPAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION, parports.par_query_information, ntddpar/PAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION structure [Parallel Ports], _PAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION, ntddpar/PPAR_QUERY_INFORMATION, PPAR_QUERY_INFORMATION structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddpar.h
-apiname: 
+apiname:
 -	PAR_QUERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION
+req.typenames: "*PPAR_QUERY_INFORMATION, PAR_QUERY_INFORMATION"
 ---
 
 # _PAR_QUERY_INFORMATION structure
@@ -74,52 +74,60 @@ Specifies the operating status of a parallel port. The value of <b>Status</b> is
 
 
 
-##### - Status.PARALLEL_AUTOFEED
+
+#### PARALLEL_INIT
 
 
 
-##### - Status.PARALLEL_BUSY
+#### PARALLEL_AUTOFEED
 
 
 
-##### - Status.PARALLEL_INIT
+#### PARALLEL_PAPER_EMPTY
 
 
 
-##### - Status.PARALLEL_PAPER_EMPTY
+#### PARALLEL_OFF_LINE
 
 
 
-##### - Status.PARALLEL_NOT_CONNECTED
+#### PARALLEL_POWER_OFF
 
 
 
-##### - Status.PARALLEL_SELECTED
+#### PARALLEL_NOT_CONNECTED
 
 
 
-##### - Status.PARALLEL_POWER_OFF
+#### PARALLEL_BUSY
 
 
 
-##### - Status.PARALLEL_OFF_LINE
-
+#### PARALLEL_SELECTED
 
 
 ## -remarks
+
 
 
 This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a> request.
 
 
 
-## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
+## -see-also
 
 <a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a>
 
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
+
+
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
+
+
 
  
 

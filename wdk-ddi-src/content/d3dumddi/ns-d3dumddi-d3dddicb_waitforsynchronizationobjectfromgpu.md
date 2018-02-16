@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2A441CEE-C138-4FF0-8865-04ABFB0F029C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_waitforsynchronizationobjectfromgpu, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
+ms.keywords: d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dddicb_waitforsynchronizationobjectfromgpu, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 product: Windows
 targetos: Windows
@@ -74,21 +74,6 @@ typedef struct D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
 
 
 
-### -field MonitoredFenceValueArray
-
-[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
-
-
-### -field FenceValue
-
-[in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
-
-
-### -field Reserved
-
-This member is reserved and should be set to zero.
-
-
 ### -field hContext
 
 [in] A kernel-mode handle to the context stream in which a wait for the synchronization events in the array that the <b>ObjectHandleArray</b> member specifies is inserted.
@@ -104,9 +89,26 @@ This member is reserved and should be set to zero.
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
 
 
+### -field MonitoredFenceValueArray
+
+[in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
+
+
+### -field FenceValue
+
+[in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
+
+
+### -field Reserved
+
+This member is reserved and should be set to zero.
+
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectfromgpucb.md">pfnWaitForSynchronizationObjectFromGpuCb</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b54655ac-b7ac-4026-9d9d-75dd139ac059
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-ATA_82594916-763d-46c4-9a40-e1e4f0c32e13.xml, irb/IDE_POWER_STATE, IdePowerUnSpecified, irb/IdePowerD0, IdePowerD3, irb/IdePowerD3, IdePowerD0, IDE_POWER_STATE enumeration [Storage Devices], IDE_POWER_STATE, storage.ide_power_state, irb/IdePowerUnSpecified
+ms.keywords: IdePowerD0, IdePowerD3, irb/IDE_POWER_STATE, IDE_POWER_STATE enumeration [Storage Devices], structs-ATA_82594916-763d-46c4-9a40-e1e4f0c32e13.xml, storage.ide_power_state, irb/IdePowerUnSpecified, IDE_POWER_STATE, IdePowerUnSpecified, irb/IdePowerD0, irb/IdePowerD3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	IDE_POWER_STATE
 product: Windows
 targetos: Windows
@@ -87,13 +87,17 @@ Indicates a device power level of 3.
 ## -remarks
 
 
+
 The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="..\irb\nf-irb-ataportrequestpowerstatechange.md">AtaPortRequestPowerStateChange</a> routine to request a power state transition for a device.
+
 
 
 
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportrequestpowerstatechange.md">AtaPortRequestPowerStateChange</a>
+
+
 
  
 

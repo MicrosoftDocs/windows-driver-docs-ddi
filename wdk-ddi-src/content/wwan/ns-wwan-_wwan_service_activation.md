@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SERVICE_ACTIVATION
-title: _WWAN_SERVICE_ACTIVATION
+title: "_WWAN_SERVICE_ACTIVATION"
 author: windows-driver-content
 description: The WWAN_SERVICE_ACTIVATION structure represents a vendor-specific buffer to be associated with service activation.
 old-location: netvista\wwan_service_activation.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1893a929-c9e6-446e-a840-3825f4992c18
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SERVICE_ACTIVATION, *PWWAN_SERVICE_ACTIVATION, wwan/PWWAN_SERVICE_ACTIVATION, WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, _WWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION, netvista.wwan_service_activation
+ms.keywords: wwan/PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], _WWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION, WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], wwan/WWAN_SERVICE_ACTIVATION, netvista.wwan_service_activation, *PWWAN_SERVICE_ACTIVATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SERVICE_ACTIVATION
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ The size, in bytes, of the vendor-specific buffer that follows the structure ins
 ## -see-also
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_service_activation.md">NDIS_WWAN_SERVICE_ACTIVATION</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: baa45ce7-3dcd-4383-99f2-aeb664a03190
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSDISPATCH_TABLE, PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, stream.ksdispatch_table, *PKSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE, ks/KSDISPATCH_TABLE, ks/PKSDISPATCH_TABLE
+ms.keywords: ks/KSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], *PKSDISPATCH_TABLE, ks/PKSDISPATCH_TABLE, KSDISPATCH_TABLE, ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, stream.ksdispatch_table, PKSDISPATCH_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSDISPATCH_TABLE
 product: Windows
 targetos: Windows
@@ -129,17 +129,23 @@ Specifies the minidriver's routine to dispatch fast write requests to.
 ## -remarks
 
 
+
 A pointer to a dispatch table is contained in the opaque object header that is the first element of data pointed to by the file object's <b>FsContext</b> field.
 
 For more information about minidriver implemented IRP dispatch routines, see <a href="..\ks\nf-ks-kssetmajorfunctionhandler.md">KsSetMajorFunctionHandler</a>, and <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nf-ks-kssetmajorfunctionhandler.md">KsSetMajorFunctionHandler</a>
+
+
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
-<a href="..\ks\nf-ks-kssetmajorfunctionhandler.md">KsSetMajorFunctionHandler</a>
+
 
  
 

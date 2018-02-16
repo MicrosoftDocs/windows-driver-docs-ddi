@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f85ef2cf-704a-4a7c-aeeb-483a7b1fdc8f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptionsWide method, GetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetKernelConnectionOptionsWide, debugger.getkernelconnectionoptionswide, GetKernelConnectionOptionsWide, IDebugClient5, GetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5::GetKernelConnectionOptionsWide
+ms.keywords: GetKernelConnectionOptionsWide method [Windows Debugging], debugger.getkernelconnectionoptionswide, GetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, IDebugClient5::GetKernelConnectionOptionsWide, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptionsWide method, GetKernelConnectionOptionsWide, dbgeng/IDebugClient5::GetKernelConnectionOptionsWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.GetKernelConnectionOptionsWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetKernelConnectionOptionsWide method
@@ -87,7 +87,9 @@ Receives the size in characters of the connection options.  If <i>OptionsSize</i
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,11 +128,14 @@ The current target is not a standard live kernel target.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is available only for live kernel targets that are not local and not connected through eXDI.
@@ -141,11 +146,16 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
+
+
 
  
 

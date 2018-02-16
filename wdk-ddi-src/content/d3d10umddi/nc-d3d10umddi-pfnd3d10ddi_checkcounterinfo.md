@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	CheckCounterInfo
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CHECKCOUNTERINFO callback
@@ -74,7 +74,6 @@ VOID APIENTRY CheckCounterInfo(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ VOID APIENTRY CheckCounterInfo(
 
 
 
-#### - pCounterInfo [out]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a> structure that the driver populates with global information that is related to manipulating counters. 
 
 
 #### - hDevice [in]
@@ -92,7 +88,13 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3
  A handle to the display device (graphics context).
 
 
+#### - pCounterInfo [out]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a> structure that the driver populates with global information that is related to manipulating counters. 
+
+
 ## -returns
+
 
 
 None
@@ -101,7 +103,9 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 If the user-mode display driver does not support any of the concepts that are represented in the members of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a> structure, it can populate the members of D3D10DDI_COUNTER_INFO with zeros. 
@@ -110,13 +114,20 @@ The driver's <b>CheckCounterInfo</b> function cannot call the <a href="..\d3d10u
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\setokentype.htm
 old-project: ifsk
 ms.assetid: e869d7f3-f8ec-42f8-ad0a-2d8154f748a2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SeTokenType function [Installable File System Drivers], seref_a5e04a8d-d2e6-412e-af9c-45c4caac311a.xml, ntifs/SeTokenType, SeTokenType, ifsk.setokentype
+ms.date: 2/7/2018
+ms.keywords: ntifs/SeTokenType, SeTokenType function [Installable File System Drivers], seref_a5e04a8d-d2e6-412e-af9c-45c4caac311a.xml, ifsk.setokentype, SeTokenType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SeTokenType
 product: Windows
 targetos: Windows

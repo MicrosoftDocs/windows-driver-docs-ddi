@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5651BDA8-256F-4041-A8BB-E3B30DB1870C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020, D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020, D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020 structure [Display Devices], display.d3d12ddi_video_decode_frame_parameter
+ms.keywords: D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020 structure [Display Devices], D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020, display.d3d12ddi_video_decode_frame_parameter, d3d12umddi/D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ The size, in bytes, of the parameter data specified by the <i>pParameter</i> par
 ## -see-also
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_parameter_type_0020.md">D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE</a>
+
+
 
  
 

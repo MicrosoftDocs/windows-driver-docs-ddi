@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	HwStorStateChange
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,6 @@ VOID HwStorStateChange(
 ### -param HwDeviceExtension
 
 
-
 ### -param Context [in, optional]
 
 The context supplied as <i>HwStateChangeContext</i> by the miniport in the call to <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>.
@@ -107,11 +106,14 @@ A pointer to the miniport driver's per-HBA storage area.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The <i>HwStorStateChange</i> is called with the StartIo lock acquired by Storport.
@@ -121,6 +123,7 @@ This callback enables miniports to do any additional processing that is needed a
 If the value for <i>Status</i> is  &lt; 0x80000000, then the notification processing was successful. Otherwise, the notification process failed.
 
 The name <i>HwStorStateChange</i> is just a placeholder for the miniport function that is pointed to by the <i>HwStateChange</i> parameter of  <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -141,11 +144,16 @@ HW_STATE_CHANGE (
 </table></span></div>
 
 
+
 ## -see-also
+
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
+
 
 <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
 
  
 

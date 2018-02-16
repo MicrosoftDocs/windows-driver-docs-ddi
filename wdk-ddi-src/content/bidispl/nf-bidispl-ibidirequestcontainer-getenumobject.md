@@ -2,13 +2,13 @@
 UID: NF:bidispl.IBidiRequestContainer.GetEnumObject
 title: IBidiRequestContainer::GetEnumObject method
 author: windows-driver-content
-description: The IBidiRequestContainer::GetEnumObject method enumerates the bidi requests in a list.
+description: The GetEnumObject method enumerates the bidi requests in a list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getenumobject.htm
 old-project: print
 ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IBidiRequestContainer::GetEnumObject, IBidiRequestContainer::IBidiRequestContainer::GetEnumObject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject, IBidiRequestContainer interface [Print Devices], IBidiRequestContainer::GetEnumObject method, IBidiRequestContainer, bidispl/IBidiRequestContainer::IBidiRequestContainer::GetEnumObject, _win32_IBidiRequestContainer_GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, IBidiRequestContainer::GetEnumObject method [Print Devices], IBidiRequestContainer interface, IBidiRequestContainer::GetEnumObject method [Print Devices], GetEnumObject
+ms.date: 2/2/2018
+ms.keywords: IBidiRequestContainer::GetEnumObject, IBidiRequestContainer interface [Print Devices], GetEnumObject method, IBidiRequestContainer, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, GetEnumObject method [Print Devices], print.ibidirequestcontainer_ibidirequestcontainer__getenumobject, _win32_IBidiRequestContainer_GetEnumObject, GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, GetEnumObject method [Print Devices], IBidiRequestContainer interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	bidispl.dll
-apiname: 
--	IBidiRequestContainer.IBidiRequestContainer::GetEnumObject
+apiname:
+-	IBidiRequestContainer.GetEnumObject
 product: Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
@@ -49,14 +49,14 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ## -description
 
 
-The <b>IBidiRequestContainer::GetEnumObject</b> method enumerates the bidi requests in a list.
+The <b>GetEnumObject</b> method enumerates the bidi requests in a list.
 
 
 ## -syntax
 
 
 ````
-HRESULT IBidiRequestContainer::GetEnumObject(
+HRESULT GetEnumObject(
   [out] IEnumUnknown **ppenum
 );
 ````
@@ -75,7 +75,9 @@ Pointer to the variable that receives a pointer to the <a href="https://msdn.mic
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -114,30 +116,42 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 An application can call <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693367">IEnumUnknown::Next</a> to retrieve one or more <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a> interfaces.
+
 
 
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequestContainer::IBidiRequestContainer::GetEnumObject method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequestContainer::GetEnumObject method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

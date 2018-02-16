@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_IF_PROVIDER_CHARACTERISTICS
-title: _NDIS_IF_PROVIDER_CHARACTERISTICS
+title: "_NDIS_IF_PROVIDER_CHARACTERISTICS"
 author: windows-driver-content
 description: The NDIS_IF_PROVIDER_CHARACTERISTICS structure defines NDIS network interface provider entry points and other provider characteristics.
 old-location: netvista\ndis_if_provider_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f295bea2-20d8-4c71-b78b-77d43840be2a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_if_provider_characteristics, *PNDIS_IF_PROVIDER_CHARACTERISTICS, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, _NDIS_IF_PROVIDER_CHARACTERISTICS, PNDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS, ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IF_PROVIDER_CHARACTERISTICS, netvista.ndis_if_provider_characteristics, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_IF_PROVIDER_CHARACTERISTICS, *PNDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_IF_PROVIDER_CHARACTERISTICS
 product: Windows
 targetos: Windows
@@ -86,8 +86,8 @@ The
 ### -field QueryObjectHandler
 
 The entry point for the 
-     <mshelp:link keywords="netvista.providerqueryobject" tabindex="0"><i>
-     ProviderQueryObject</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-if_query_object.md">
+     ProviderQueryObject</a> function.
 
 
 ### -field SetObjectHandler
@@ -109,14 +109,16 @@ Reserved for NDIS.
 ## -remarks
 
 
+
 All NDIS network driver types can register as network interface providers. An NDIS interface provider
     initializes an NDIS_IF_PROVIDER_CHARACTERISTICS structure to define its provider entry points and other
     characteristics, if any.
 
 To register as an interface provider, the driver passes a pointer to the initialized
     NDIS_IF_PROVIDER_CHARACTERISTICS structure to the 
-    <mshelp:link keywords="netvista.ndisifregisterprovider" tabindex="0"><b>
-    NdisIfRegisterProvider</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">
+    NdisIfRegisterProvider</a> function.
+
 
 
 
@@ -124,11 +126,19 @@ To register as an interface provider, the driver passes a pointer to the initial
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-if_set_object.md">ProviderSetObject</a>
+
 
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
 
+
+
 <a href="..\ndis\nc-ndis-if_query_object.md">ProviderQueryObject</a>
+
+
+
+<a href="..\ndis\nc-ndis-if_set_object.md">ProviderSetObject</a>
+
+
 
  
 

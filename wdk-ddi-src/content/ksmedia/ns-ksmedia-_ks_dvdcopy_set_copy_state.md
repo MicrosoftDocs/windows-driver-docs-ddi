@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_SET_COPY_STATE
-title: _KS_DVDCOPY_SET_COPY_STATE
+title: "_KS_DVDCOPY_SET_COPY_STATE"
 author: windows-driver-content
 description: The KS_DVDCOPY_SET_COPY_STATE structure is used to specify the copyright protection state of the DVD decoder stream.
 old-location: stream\ks_dvdcopy_set_copy_state.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e4f637b7-52ce-4ec8-8348-0b65a7f788ad
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KS_DVDCOPY_SET_COPY_STATE, stream.ks_dvdcopy_set_copy_state, PKS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, KS_DVDCOPY_SET_COPY_STATE, *PKS_DVDCOPY_SET_COPY_STATE, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, ksmedia/KS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices]
+ms.keywords: dvdref_215efe26-9ca5-4f3b-836f-86a682cd88f8.xml, *PKS_DVDCOPY_SET_COPY_STATE, ksmedia/PKS_DVDCOPY_SET_COPY_STATE, KS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE structure pointer [Streaming Media Devices], ksmedia/KS_DVDCOPY_SET_COPY_STATE, PKS_DVDCOPY_SET_COPY_STATE, stream.ks_dvdcopy_set_copy_state, KS_DVDCOPY_SET_COPY_STATE structure [Streaming Media Devices], _KS_DVDCOPY_SET_COPY_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DVDCOPY_SET_COPY_STATE
 product: Windows
 targetos: Windows
@@ -75,17 +75,23 @@ Indicates the progress of the copyright protection initialization, authenticatio
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565147">KSPROPERTY_DVDCOPY_SET_COPY_STATE</a> property.
 
 For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c-b2ab-7567a5eeb87b">DVD Copyright Protection</a>, <a href="https://msdn.microsoft.com/23133022-6d00-44ad-8c0d-24715204cacc">Multiple Data Streams on the same Hardware</a> and <a href="https://msdn.microsoft.com/54abc258-d26a-4d42-a5aa-712cdae76b6d">Synchronizing Key Exchange with Data Flow</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\ksmedia\ne-ksmedia-ks_dvdcopystate.md">KS_DVDCOPYSTATE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565147">KSPROPERTY_DVDCOPY_SET_COPY_STATE</a>
 
-<a href="..\ksmedia\ne-ksmedia-ks_dvdcopystate.md">KS_DVDCOPYSTATE</a>
+
 
  
 

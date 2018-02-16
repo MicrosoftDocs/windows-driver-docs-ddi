@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_STOP
-title: _CIP_STOP
+title: "_CIP_STOP"
 author: windows-driver-content
 description: This structure is used to stop transmission or reception.
 old-location: ieee\cip_stop.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FE396C2C-B099-47F4-9C27-93D420D54103
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.cip_stop, 61883/PCIP_STOP, PCIP_STOP structure pointer [Buses], PCIP_STOP, _CIP_STOP, 61883/CIP_STOP, *PCIP_STOP, CIP_STOP structure [Buses], CIP_STOP
+ms.keywords: "*PCIP_STOP, PCIP_STOP structure pointer [Buses], CIP_STOP structure [Buses], 61883/CIP_STOP, 61883/PCIP_STOP, PCIP_STOP, _CIP_STOP, IEEE.cip_stop, CIP_STOP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CIP_STOP
 product: Windows
 targetos: Windows
@@ -75,15 +75,19 @@ On input, a handle to the connection on which to stop isochronous transmission o
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlUshortByteSwap
-title: RtlUshortByteSwap function
+title: RtlUshortByteSwap macro
 author: windows-driver-content
 description: The RtlUshortByteSwap routine reverses the ordering of the two bytes in a 16-bit unsigned integer value.
 old-location: kernel\rtlushortbyteswap.htm
@@ -8,10 +8,10 @@ old-project: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap, RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlUshortByteSwap, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlUshortByteSwap
 product: Windows
 targetos: Windows
@@ -44,7 +44,7 @@ req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
 ---
 
-# RtlUshortByteSwap function
+# RtlUshortByteSwap macro
 
 
 ## -description
@@ -68,19 +68,22 @@ USHORT RtlUshortByteSwap(
 
 
 
-### -param Source [in]
+### -param _x
+
+TBD
+
+
+
+
+
+
+#### - Source [in]
 
 A USHORT value to convert to a byte-swapped version.
 
 
-## -returns
-
-
-The byte-swapped version of the <i>Source</i> input parameter value.
-
-
-
 ## -remarks
+
 
 
 For example, if the <i>Source</i> parameter value is 0x1234, the routine returns 0x3412.
@@ -93,11 +96,16 @@ To reverse the ordering of bytes in a ULONG value, use the <a href="..\wdm\nf-wd
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols::GetModuleParameters, GetModuleParameters, IDebugSymbols2::GetModuleParameters, IDebugSymbols3::GetModuleParameters, GetModuleParameters method [Windows Debugging], dbgeng/IDebugSymbols3::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, debugger.getmoduleparameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::GetModuleParameters, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, IDebugSymbols3, dbgeng/IDebugSymbols2::GetModuleParameters
+ms.keywords: IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, dbgeng/IDebugSymbols2::GetModuleParameters, GetModuleParameters method [Windows Debugging], GetModuleParameters method [Windows Debugging], IDebugSymbols interface, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetModuleParameters, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols::GetModuleParameters, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters, dbgeng/IDebugSymbols3::GetModuleParameters, IDebugSymbols, IDebugSymbols2, debugger.getmoduleparameters, dbgeng/IDebugSymbols::GetModuleParameters, IDebugSymbols3::GetModuleParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetModuleParameters
 -	IDebugSymbols2.GetModuleParameters
 -	IDebugSymbols3.GetModuleParameters
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetModuleParameters method
@@ -95,7 +95,9 @@ Receives the parameters.  The size of this array is the value of <i>Count</i>.  
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ When <i>Bases</i> is <b>NULL</b>, this value indicates that the target contains 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 In the cases when partial results are returned, the entries in the array <i>Params</i> corresponding to modules that could not be found have their <b>Base</b> field set to DEBUG_INVALID_OFFSET.  See <a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>.
@@ -136,15 +141,24 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+## -see-also
 
 <a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

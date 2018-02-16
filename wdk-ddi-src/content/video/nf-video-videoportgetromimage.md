@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e4930661-fb88-458b-9460-129ab057e0f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportgetromimage, VideoPortGetRomImage, VideoPortGetRomImage function [Display Devices], video/VideoPortGetRomImage, VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml
+ms.keywords: VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, VideoPortGetRomImage function [Display Devices], VideoPortGetRomImage, display.videoportgetromimage, video/VideoPortGetRomImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortGetRomImage
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Either the number of bytes of ROM data that the video port driver should read an
 ## -returns
 
 
+
 <b>VideoPortGetRomImage</b> returns a pointer to a buffer containing the device's ROM (BIOS) data on success; otherwise, returns <b>NULL</b> to indicate either there was insufficient memory for the operation, or the device's ROM could not be accessed.
 
 
 
+
 ## -remarks
+
 
 
 <b>VideoPortGetRomImage</b> does not read ROM using the legacy 0xC0000 mapping. It reads ROM that can be discovered using the ACPI_METHOD_DISPLAY_ROM method or the ROM base address register.
@@ -113,9 +116,12 @@ The miniport driver can free the buffer allocated by the video port driver by ca
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportscanrom.md">VideoPortScanRom</a>
+
+
 
  
 

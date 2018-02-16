@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_REGISTRATION_STATE
-title: _NDIS_WWAN_REGISTRATION_STATE
+title: "_NDIS_WWAN_REGISTRATION_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 old-location: netvista\ndis_wwan_registration_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e38880f-b242-400a-babf-531c8daf7a19
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_WWAN_REGISTRATION_STATE, WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, *PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE, netvista.ndis_wwan_registration_state, ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE, ndiswwan/NDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, PNDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_REGISTRATION_STATE, _NDIS_WWAN_REGISTRATION_STATE, ndiswwan/NDIS_WWAN_REGISTRATION_STATE, netvista.ndis_wwan_registration_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_REGISTRATION_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE
+req.typenames: NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE
 ---
 
 # _NDIS_WWAN_REGISTRATION_STATE structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_REGISTR
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_REGISTRATION_STATE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -126,6 +128,7 @@ A miniport driver must set this to WWAN_STATUS_SUCCESS for unsolicited events
      
 
 The following table shows the other possible error status codes.
+
 <table>
 <tr>
 <th>Value</th>
@@ -183,11 +186,13 @@ The operation failed because the SIM card was not inserted fully into the device
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Miniport drivers can return the following error codes (in addition to the above listed) only in the
      event a PDP activation 
      <i>set</i> operation fails.
+
 <table>
 <tr>
 <th>Value</th>
@@ -258,7 +263,8 @@ The device is busy and unable to change the registration mode. This scenario can
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field RegistrationState
@@ -270,9 +276,13 @@ A formatted
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
+
 
  
 

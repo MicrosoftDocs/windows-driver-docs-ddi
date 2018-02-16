@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._WHEA_PROCESSOR_FAMILY_INFO
-title: _WHEA_PROCESSOR_FAMILY_INFO
+title: "_WHEA_PROCESSOR_FAMILY_INFO"
 author: windows-driver-content
 description: The WHEA_PROCESSOR_FAMILY_INFO union describes the processor family information for an x86 or x64 processor.
 old-location: whea\whea_processor_family_info.htm
 old-project: whea
 ms.assetid: cc20c2d6-c76b-4f72-9762-23b9aa5fe946
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: _WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], ntddk/PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO, whea.whea_processor_family_info, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications]
+ms.date: 2/8/2018
+ms.keywords: ntddk/WHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO, _WHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, whea.whea_processor_family_info, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_PROCESSOR_FAMILY_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO
+req.typenames: WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO
 ---
 
 # _WHEA_PROCESSOR_FAMILY_INFO structure
@@ -85,47 +85,47 @@ typedef union _WHEA_PROCESSOR_FAMILY_INFO {
 
 ### -field DUMMYSTRUCTNAME.Stepping
 
- 
+The stepping of the processor.
 
 
 ### -field DUMMYSTRUCTNAME.Model
 
- 
+The processor model identifier.
 
 
 ### -field DUMMYSTRUCTNAME.Family
 
- 
+The processor family identifier.
 
 
 ### -field DUMMYSTRUCTNAME.ProcessorType
 
- 
+The processor type identifier.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved1
 
- 
+Reserved for system use.
 
 
 ### -field DUMMYSTRUCTNAME.ExtendedModel
 
- 
+The extended processor model identifier.
 
 
 ### -field DUMMYSTRUCTNAME.ExtendedFamily
 
- 
+The extended processor family identifier.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved2
 
- 
+Reserved for system use.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved3
 
- 
+Reserved for system use.
 
 
 ### -field AsULONGLONG
@@ -133,52 +133,8 @@ typedef union _WHEA_PROCESSOR_FAMILY_INFO {
 A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
 
 
-#### - ExtendedModel
-
-The extended processor model identifier.
-
-
-#### - Reserved2
-
-Reserved for system use.
-
-
-#### - Stepping
-
-The stepping of the processor.
-
-
-#### - Model
-
-The processor model identifier.
-
-
-#### - ProcessorType
-
-The processor type identifier.
-
-
-#### - Family
-
-The processor family identifier.
-
-
-#### - ExtendedFamily
-
-The extended processor family identifier.
-
-
-#### - Reserved1
-
-Reserved for system use.
-
-
-#### - Reserved3
-
-Reserved for system use.
-
-
 ## -remarks
+
 
 
 For x86 and x64 processors, the <b>CPUVersion</b> member of the <a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure contains a WHEA_PROCESSOR_FAMILY_INFO union.
@@ -187,13 +143,16 @@ The contents of this union are obtained by executing the CPUID instruction with 
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PROCESSOR_FAMILY_INFO union%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PROCESSOR_FAMILY_INFO union%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58962146-a16d-4827-9cef-73b3a438be35
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_8bdca8e2-6541-4525-b4b6-7fdc26e451ac.xml, KeAreApcsDisabled, kernel.keareapcsdisabled, KeAreApcsDisabled routine [Kernel-Mode Driver Architecture], wdm/KeAreApcsDisabled
+ms.keywords: kernel.keareapcsdisabled, wdm/KeAreApcsDisabled, k105_8bdca8e2-6541-4525-b4b6-7fdc26e451ac.xml, KeAreApcsDisabled routine [Kernel-Mode Driver Architecture], KeAreApcsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeAreApcsDisabled
 product: Windows
 targetos: Windows
@@ -67,27 +67,38 @@ BOOLEAN KeAreApcsDisabled(void);
 
 
 
+
 ## -returns
+
 
 
 <b>KeAreApcsDisabled</b> returns <b>TRUE</b> if the thread is within a critical region or a guarded region, and <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 A thread running at IRQL = PASSIVE_LEVEL can use <b>KeAreApcsDisabled</b> to determine if normal kernel APCs are disabled. A thread that is inside a critical region has both user APCs and normal kernel APCs disabled, but not special kernel APCs. A thread that is inside a guarded region has all APCs disabled, including special kernel APCs.
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
+
+
+<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+
+
+
 <a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
+
+
 
  
 

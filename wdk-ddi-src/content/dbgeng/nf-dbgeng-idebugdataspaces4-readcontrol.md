@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 52f65e2a-97a7-4c1c-a021-208bc2520b7d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::ReadControl, dbgeng/IDebugDataSpaces4::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces::ReadControl, ReadControl, IDebugDataSpaces interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3::ReadControl, IDebugDataSpaces4::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces::ReadControl, dbgeng/IDebugDataSpaces3::ReadControl, debugger.readcontrol, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method, IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2::ReadControl, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml
+ms.keywords: IDebugDataSpaces::ReadControl, IDebugDataSpaces2::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], dbgeng/IDebugDataSpaces::ReadControl, IDebugDataSpaces2, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml, IDebugDataSpaces interface [Windows Debugging], ReadControl method, ReadControl, IDebugDataSpaces3::ReadControl, IDebugDataSpaces4::ReadControl, dbgeng/IDebugDataSpaces3::ReadControl, IDebugDataSpaces3, IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, debugger.readcontrol, IDebugDataSpaces, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces2::ReadControl, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces.ReadControl
 -	IDebugDataSpaces2.ReadControl
 -	IDebugDataSpaces3.ReadControl
 -	IDebugDataSpaces4.ReadControl
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadControl method
@@ -102,6 +102,7 @@ Receives the number of bytes returned in the buffer <i>Buffer</i>.  If <i>BytesR
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,15 +119,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
+
 
 

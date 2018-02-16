@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT
-title: _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT
+title: "_D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT"
 author: windows-driver-content
 description: The D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure describes the parameters that are required to set up signaling in a call to the pfnSignalSynchronizationObjectCb function.
 old-location: display\d3dddicb_signalsynchronizationobject.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 08fbcc15-f40f-46de-b3ff-603bc1476d97
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dddicb_signalsynchronizationobject, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3D_param_Structs_347963a7-4c6b-478e-9a2f-e708a807cac6.xml
+ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3D_param_Structs_347963a7-4c6b-478e-9a2f-e708a807cac6.xml, _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], display.d3dddicb_signalsynchronizationobject, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT
 product: Windows
 targetos: Windows
@@ -94,7 +94,11 @@ typedef struct _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT {
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
 
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
+
+
 
  
 

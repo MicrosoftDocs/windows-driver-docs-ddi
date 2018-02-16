@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 87e20abc-eb65-40c0-943e-eb194022a2de
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, wdm/MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], MmGetSystemRoutineAddress
+ms.keywords: k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, wdm/MmGetSystemRoutineAddress, MmGetSystemRoutineAddress, kernel.mmgetsystemroutineaddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmGetSystemRoutineAddress
 product: Windows
 targetos: Windows
@@ -76,20 +76,26 @@ Specifies the name of the system routine to resolve.
 ## -returns
 
 
+
 If the function name can be resolved, the routine returns a pointer to the function. Otherwise, the routine returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 Drivers can use this routine to determine if a routine is available on a specific version of Windows. It can only be used for routines exported by the kernel or HAL, not for any driver-defined routine. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_OFFLOAD_ENCAPSULATION
-title: _NDIS_OFFLOAD_ENCAPSULATION
+title: "_NDIS_OFFLOAD_ENCAPSULATION"
 author: windows-driver-content
 description: The NDIS_OFFLOAD_ENCAPSULATION structure specifies encapsulation settings when it is used with the OID_OFFLOAD_ENCAPSULATION OID.
 old-location: netvista\ndis_offload_encapsulation.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 19013ffa-6bb5-4a77-b85b-c32fb0bf0530
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_OFFLOAD_ENCAPSULATION, NDIS_OFFLOAD_ENCAPSULATION structure [Network Drivers Starting with Windows Vista], NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, _NDIS_OFFLOAD_ENCAPSULATION, ndis/NDIS_OFFLOAD_ENCAPSULATION, ndis/PNDIS_OFFLOAD_ENCAPSULATION, netvista.ndis_offload_encapsulation, *PNDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION structure pointer [Network Drivers Starting with Windows Vista], tcpip_offload_ref_d3154816-5813-4616-b17f-b76362d9a58f.xml, NDIS_OFFLOAD_ENCAPSULATION, NDIS_ENCAPSULATION_IEEE_802_3
+ms.keywords: NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED, _NDIS_OFFLOAD_ENCAPSULATION, NDIS_OFFLOAD_ENCAPSULATION, ndis/PNDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION, PNDIS_OFFLOAD_ENCAPSULATION structure pointer [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_ENCAPSULATION structure [Network Drivers Starting with Windows Vista], ndis/NDIS_OFFLOAD_ENCAPSULATION, tcpip_offload_ref_d3154816-5813-4616-b17f-b76362d9a58f.xml, NDIS_ENCAPSULATION_IEEE_802_3, *PNDIS_OFFLOAD_ENCAPSULATION, netvista.ndis_offload_encapsulation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_OFFLOAD_ENCAPSULATION
 product: Windows
 targetos: Windows
@@ -78,6 +78,17 @@ typedef struct _NDIS_OFFLOAD_ENCAPSULATION {
 
 
 
+### -field Header
+
+The 
+     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     NDIS_OFFLOAD_ENCAPSULATION structure. Set the 
+     <b>Type</b> member of the structure that 
+     <b>Header</b> specifies to NDIS_OBJECT_TYPE_OFFLOAD_ENCAPSULATION, the 
+     <b>Revision</b> member to NDIS_OFFLOAD_ENCAPSULATION_ REVISION _1, and the 
+     <b>Size</b> member to NDIS_SIZEOF_OFFLOAD_ENCAPSULATION_REVISION_1.
+
+
 ### -field IPv4
 
 A structure within NDIS_OFFLOAD_ENCAPSULATION that specifies IPv4 encapsulation and that contains
@@ -100,6 +111,7 @@ The IPv4 encapsulation type. If the
        <b>Enabled</b> member is set to NDIS_OFFLOAD_SET_ON, a protocol driver must set 
        <b>EncapsulationType</b> to one of the following:
        
+
 <table>
 <tr>
 <th>Value</th>
@@ -127,7 +139,8 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field IPv4.HeaderSize
@@ -161,6 +174,7 @@ The IPv6 encapsulation type. If the
        <b>Enabled</b> member is set to NDIS_OFFLOAD_SET_ON, a protocol driver must set 
        <b>EncapsulationType</b> to one of the following:
        
+
 <table>
 <tr>
 <th>Value</th>
@@ -188,7 +202,8 @@ Specifies LLC encapsulation for routed protocols, as described in RFC 1483. This
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field IPv6.HeaderSize
@@ -199,18 +214,8 @@ The Ethernet header length that is used in IPv6 packets. If the
        <b>HeaderSize</b> to the size of the Ethernet header that it uses.
 
 
-### -field Header
-
-The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
-     NDIS_OFFLOAD_ENCAPSULATION structure. Set the 
-     <b>Type</b> member of the structure that 
-     <b>Header</b> specifies to NDIS_OBJECT_TYPE_OFFLOAD_ENCAPSULATION, the 
-     <b>Revision</b> member to NDIS_OFFLOAD_ENCAPSULATION_ REVISION _1, and the 
-     <b>Size</b> member to NDIS_SIZEOF_OFFLOAD_ENCAPSULATION_REVISION_1.
-
-
 ## -remarks
+
 
 
 The NDIS_OFFLOAD_ENCAPSULATION structure specifies the requested encapsulation settings that a
@@ -224,13 +229,20 @@ In a set of
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>
+
+
 
  
 

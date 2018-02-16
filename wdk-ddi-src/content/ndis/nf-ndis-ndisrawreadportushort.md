@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 88dbdd78-43a4-4ae2-ae49-336a0a621c5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: miniport_port_raw_ref_5d9255b3-3679-4cd2-bc07-baa0dc2c684f.xml, NdisRawReadPortUshort macro [Network Drivers Starting with Windows Vista], netvista.ndisrawreadportushort, NdisRawReadPortUshort, ndis/NdisRawReadPortUshort
+ms.keywords: ndis/NdisRawReadPortUshort, netvista.ndisrawreadportushort, miniport_port_raw_ref_5d9255b3-3679-4cd2-bc07-baa0dc2c684f.xml, NdisRawReadPortUshort macro [Network Drivers Starting with Windows Vista], NdisRawReadPortUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisRawReadPortUshort
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisRawReadPortUshort macro
@@ -71,8 +71,8 @@ VOID NdisRawReadPortUshort(
 ### -param Port [in]
 
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
-     <mshelp:link keywords="netvista.ndismregisterioportrange" tabindex="0"><b>
-     NdisMRegisterIoPortRange</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">
+     NdisMRegisterIoPortRange</a>.
 
 
 ### -param Data [out]
@@ -84,24 +84,38 @@ Pointer to a caller-supplied variable in which this function returns a USHORT va
 ## -remarks
 
 
+
 <b>NdisRawReadPortUshort</b> runs fast because it need not map a bus-relative I/O port address onto a
     host-dependent logical port address at every call.
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
-
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
 
 <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportuchar.md">NdisRawReadPortUchar</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisrawwriteportushort.md">NdisRawWritePortUshort</a>
+
+
 
  
 

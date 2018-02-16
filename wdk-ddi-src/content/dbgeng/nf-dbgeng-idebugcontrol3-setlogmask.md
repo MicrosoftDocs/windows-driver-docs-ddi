@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 86c4e5ec-e893-4b1e-b397-6c51351df46c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetLogMask method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], SetLogMask method, IDebugControl interface [Windows Debugging], SetLogMask method, dbgeng/IDebugControl3::SetLogMask, debugger.setlogmask, IDebugControl2::SetLogMask, IDebugControl::SetLogMask, SetLogMask method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], SetLogMask method, SetLogMask method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::SetLogMask, SetLogMask, dbgeng/IDebugControl2::SetLogMask, IDebugControl3::SetLogMask, IDebugControl_b1c44a2b-d2fd-407b-8994-00f5e53af10d.xml, IDebugControl3, SetLogMask method [Windows Debugging]
+ms.keywords: IDebugControl::SetLogMask, dbgeng/IDebugControl2::SetLogMask, SetLogMask method [Windows Debugging], IDebugControl3, IDebugControl interface [Windows Debugging], SetLogMask method, dbgeng/IDebugControl::SetLogMask, debugger.setlogmask, IDebugControl3::SetLogMask, dbgeng/IDebugControl3::SetLogMask, SetLogMask method [Windows Debugging], IDebugControl interface, SetLogMask method [Windows Debugging], IDebugControl3 interface, SetLogMask method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], SetLogMask method, IDebugControl2::SetLogMask, IDebugControl3 interface [Windows Debugging], SetLogMask method, SetLogMask, IDebugControl2, IDebugControl_b1c44a2b-d2fd-407b-8994-00f5e53af10d.xml, IDebugControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.SetLogMask
 -	IDebugControl2.SetLogMask
 -	IDebugControl3.SetLogMask
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetLogMask method
@@ -77,7 +77,9 @@ Specifies the new output mask for the log file.  See <a href="https://msdn.micro
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,21 +96,33 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 

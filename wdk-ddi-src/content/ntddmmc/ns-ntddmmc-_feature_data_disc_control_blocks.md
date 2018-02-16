@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DISC_CONTROL_BLOCKS
-title: _FEATURE_DATA_DISC_CONTROL_BLOCKS
+title: "_FEATURE_DATA_DISC_CONTROL_BLOCKS"
 author: windows-driver-content
 description: The FEATURE_DATA_DISC_CONTROL_BLOCKS structure holds an array of the data reported for the Disc Control Block feature.
 old-location: storage\feature_data_disc_control_blocks.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ed39e714-38c5-45cf-b1f0-dd00b4d49895
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_DISC_CONTROL_BLOCKS, storage.feature_data_disc_control_blocks, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS, PFEATURE_DATA_DISC_CONTROL_BLOCKS, structs-CD-ROM_313fa292-b1c4-408d-94e9-491cb3d0aa0f.xml, _FEATURE_DATA_DISC_CONTROL_BLOCKS, *PFEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS structure [Storage Devices], ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS, PFEATURE_DATA_DISC_CONTROL_BLOCKS structure pointer [Storage Devices]
+ms.keywords: structs-CD-ROM_313fa292-b1c4-408d-94e9-491cb3d0aa0f.xml, PFEATURE_DATA_DISC_CONTROL_BLOCKS structure pointer [Storage Devices], PFEATURE_DATA_DISC_CONTROL_BLOCKS, storage.feature_data_disc_control_blocks, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS, _FEATURE_DATA_DISC_CONTROL_BLOCKS, ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS, *PFEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_DISC_CONTROL_BLOCKS
 product: Windows
 targetos: Windows
@@ -81,7 +81,9 @@ Contains zero, one, or more disk control blocks. Each disk control block is cont
 ## -remarks
 
 
+
 This structure holds data for the feature named "Disc Control Blocks" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can do reads and writes of disc control blocks. 
+
 
 
 
@@ -89,9 +91,15 @@ This structure holds data for the feature named "Disc Control Blocks" by the <i>
 
 <a href="..\ntddmmc\ns-ntddmmc-_feature_data_disc_control_blocks_ex.md">FEATURE_DATA_DISC_CONTROL_BLOCKS_EX</a>
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
 
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
+<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
 
  
 

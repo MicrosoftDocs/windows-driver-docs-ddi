@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_PATCH_CODES
-title: _WIA_PATCH_CODES
+title: "_WIA_PATCH_CODES"
 author: windows-driver-content
 description: The WIA_PATCH_CODES structure stores header information for the patch code metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_patch_codes.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: CFD2403B-DDD4-4318-9084-1B3E3462FBDC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wia_patch_codes, wiadef/WIA_PATCH_CODES, _WIA_PATCH_CODES, WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices]
+ms.keywords: "_WIA_PATCH_CODES, WIA_PATCH_CODES, image.wia_patch_codes, wiadef/WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,22 +21,22 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiadef.h
-apiname: 
+apiname:
 -	WIA_PATCH_CODES
 product: Windows
 targetos: Windows
@@ -100,6 +100,8 @@ Placeholder for a sequence of <b>Count</b> contiguous <a href="..\wiadef\ns-wiad
 ## -remarks
 
 
+
 The header must be followed by a sequence of patch code information structures, one for each detected patch code, in the order the patch codes were found and decoded.
+
 
 

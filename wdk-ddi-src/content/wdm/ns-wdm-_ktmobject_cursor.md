@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KTMOBJECT_CURSOR
-title: _KTMOBJECT_CURSOR
+title: "_KTMOBJECT_CURSOR"
 author: windows-driver-content
 description: The KTMOBJECT_CURSOR structure receives enumeration information about KTM objects when a component calls ZwEnumerateTransactionObject.
 old-location: kernel\ktmobject_cursor.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], KTMOBJECT_CURSOR, wdm/KTMOBJECT_CURSOR, PKTMOBJECT_CURSOR, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, wdm/PKTMOBJECT_CURSOR, _KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR, kernel.ktmobject_cursor, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture]
+ms.keywords: KTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], wdm/KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR, _KTMOBJECT_CURSOR, wdm/PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, kernel.ktmobject_cursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KTMOBJECT_CURSOR
 product: Windows
 targetos: Windows
-req.typenames: *PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR
+req.typenames: "*PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR"
 req.product: Windows 10 or later.
 ---
 
@@ -88,13 +88,17 @@ A caller-allocated array of GUID-typed elements. After <b>ZwEnumerateTransaction
 ## -remarks
 
 
+
 The <b>KTMOBJECT_CURSOR</b> structure is used at the beginning of buffers that callers pass to the <b>ZwEnumerateTransactionObject</b> routine.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>
+
+
 
  
 

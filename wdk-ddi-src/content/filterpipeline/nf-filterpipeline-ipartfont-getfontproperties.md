@@ -7,8 +7,8 @@ old-location: print\ipartfont_getfontproperties.htm
 old-project: print
 ms.assetid: 6a19c32c-62f2-4b88-908c-c6b92419e410
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: filterpipeline/IPartFont::GetFontProperties, IPartFont interface [Print Devices], GetFontProperties method, IPartFont::GetFontProperties, print.ipartfont_getfontproperties, IPartFont, GetFontProperties method [Print Devices], IPartFont interface, GetFontProperties method [Print Devices], filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, GetFontProperties
+ms.date: 2/2/2018
+ms.keywords: filterpipeline/IPartFont::GetFontProperties, print.ipartfont_getfontproperties, GetFontProperties method [Print Devices], IPartFont::GetFontProperties, GetFontProperties method [Print Devices], IPartFont interface, filterpipeline_a84d2506-3e75-4dc9-ad3e-ef481bd2fd20.xml, IPartFont interface [Print Devices], GetFontProperties method, IPartFont, GetFontProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartFont.GetFontProperties
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A pointer to the options of the font.
 ## -returns
 
 
+
 <b>GetFontProperties</b> returns an <b>HRESULT</b> value.
+
 
 

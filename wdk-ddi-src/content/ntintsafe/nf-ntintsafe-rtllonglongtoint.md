@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CED66199-041A-432D-99C6-002D7BC83775
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongLongToInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongLongToInt, RtlLongLongToInt, kernel.rtllonglongtoint
+ms.keywords: kernel.rtllonglongtoint, RtlLongLongToInt, RtlLongLongToInt function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongLongToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlLongLongToInt
 product: Windows
 targetos: Windows
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlIntPtrToInt
 </li>
@@ -102,4 +104,5 @@ This function uses the following alternate name:
 <li>RtlInt64ToInt32
 </li>
 </ul>
+
 

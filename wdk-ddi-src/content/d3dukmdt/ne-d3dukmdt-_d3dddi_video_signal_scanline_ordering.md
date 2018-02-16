@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
-title: _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
+title: "_D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING"
 author: windows-driver-content
 description: The D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration is used to indicate the scan line ordering of a video output signal.
 old-location: display\d3dddi_video_signal_scanline_ordering.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f0dcfd93-1706-41f7-aab5-f9e9dd58e9b3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmEnums_81ac5c85-97c5-40ac-a6e6-df079576211a.xml, _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, d3dukmdt/D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_PROGRESSIVE, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VSSLO_UNINITIALIZED, d3dukmdt/D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration [Display Devices], d3dukmdt/D3DDDI_VSSLO_UNINITIALIZED, D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, display.d3dddi_video_signal_scanline_ordering, d3dukmdt/D3DDDI_VSSLO_OTHER, d3dukmdt/D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, D3DDDI_VSSLO_OTHER, D3DDDI_VSSLO_PROGRESSIVE
+ms.keywords: d3dukmdt/D3DDDI_VSSLO_UNINITIALIZED, D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VSSLO_OTHER, D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration [Display Devices], d3dukmdt/D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING, D3DDDI_VSSLO_UNINITIALIZED, D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, d3dukmdt/D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST, DmEnums_81ac5c85-97c5-40ac-a6e6-df079576211a.xml, d3dukmdt/D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST, D3DDDI_VSSLO_PROGRESSIVE, d3dukmdt/D3DDDI_VSSLO_OTHER, display.d3dddi_video_signal_scanline_ordering, d3dukmdt/D3DDDI_VSSLO_PROGRESSIVE, _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
 product: Windows
 targetos: Windows
@@ -99,6 +99,8 @@ Indicates that the video signal has a scan line ordering other than those given 
 ## -remarks
 
 
+
 The values of the D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration type indicate whether the image displayed on the monitor contains the entire content of a video frame or only half of the content (that is, either the even or odd scan lines, which occur interchangeably). The values also indicate which field comes first in the ordering.
+
 
 

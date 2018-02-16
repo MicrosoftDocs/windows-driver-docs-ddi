@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020
 product: Windows
 targetos: Windows
@@ -81,10 +81,12 @@ The planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaqu
 ## -remarks
 
 
+
 For each pixel, the destination color value is computed as the following: <pre class="syntax" xml:space="preserve"><code>Cd = Cs * (As * Ap * Ae) + Cd * (1.0 - As * Ap * Ae)</code></pre>
 
 
 The variables in this equation are as follows:
+
 <ul>
 <li>
 Cd. The color value of the destination pixel.
@@ -107,4 +109,5 @@ Ae. The palette-entry alpha value, or 1.0.
 
 </li>
 </ul>
+
 

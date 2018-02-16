@@ -7,8 +7,8 @@ old-location: buses\ufxendpointcreate.htm
 old-project: usbref
 ms.assetid: 060CADB7-AAC9-401A-9198-FC306CE74A34
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UfxEndpointCreate method [Buses], ufxclient/UfxEndpointCreate, buses.ufxendpointcreate, UfxEndpointCreate
+ms.date: 2/8/2018
+ms.keywords: buses.ufxendpointcreate, ufxclient/UfxEndpointCreate, UfxEndpointCreate method [Buses], UfxEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxEndpointCreate
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -118,14 +118,18 @@ A pointer to a location that receives a handle to a UFXENDPOINT object.
 ## -returns
 
 
+
 If the operation is successful, the method returns STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it returns a status value for which NT_SUCCESS(status) equals FALSE.
+
 
 
 
 ## -remarks
 
 
+
   The transfer queue handles the following IOCTLs related to endpoint transfers:
+
 <ul>
 <li>
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_control_status_handshake_in.md">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN</a>
@@ -143,7 +147,9 @@ If the operation is successful, the method returns STATUS_SUCCESS, or another st
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_transfer_out.md">IOCTL_INTERNAL_USBFN_TRANSFER_OUT</a>
 </li>
 </ul>
+
 The command queue will handle the following IOCTLs:
+
 <ul>
 <li>
 <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_get_pipe_state.md">IOCTL_INTERNAL_USBFN_GET_PIPE_STATE</a>
@@ -154,7 +160,9 @@ The command queue will handle the following IOCTLs:
 <li>
 <a href="..\ufxbase\ni-ufxbase-ioctl_internal_usbfn_descriptor_update.md">IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE</a>
 </li>
-</ul>The following example shows how to create a UFXENDPOINT object and initialize its context.
+</ul>
+The following example shows how to create a UFXENDPOINT object and initialize its context.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -276,4 +284,5 @@ End:
 </td>
 </tr>
 </table></span></div>
+
 

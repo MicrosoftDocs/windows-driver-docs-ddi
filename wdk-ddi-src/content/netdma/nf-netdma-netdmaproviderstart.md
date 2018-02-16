@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e99ebbe8-8605-4bf2-9ec0-d7cde25058f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netvista.netdmaproviderstart, netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml
+ms.keywords: netvista.netdmaproviderstart, NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netdma/NetDmaProviderStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NetDmaProviderStart
 product: Windows
 targetos: Windows
@@ -76,26 +76,29 @@ VOID NetDmaProviderStart(
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-     NetDmaRegisterProvider</b></mshelp:link> function.
+     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     NetDmaRegisterProvider</a> function.
 
 
 ### -param ProviderAttributes [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_dma_provider_attributes" tabindex="0"><b>
-     NET_DMA_PROVIDER_ATTRIBUTES</b></mshelp:link> structure that defines the DMA device attributes of the DMA
+     <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">
+     NET_DMA_PROVIDER_ATTRIBUTES</a> structure that defines the DMA device attributes of the DMA
      provider.
 
 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 DMA providers call the 
@@ -112,8 +115,8 @@ The DMA provider driver can also call
     longer available.
 
 The DMA provider driver supplies a 
-    <mshelp:link keywords="netvista.net_dma_provider_attributes" tabindex="0"><b>
-    NET_DMA_PROVIDER_ATTRIBUTES</b></mshelp:link> structure at the 
+    <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">
+    NET_DMA_PROVIDER_ATTRIBUTES</a> structure at the 
     <i>ProviderAttributes</i> parameter of 
     <b>NetDmaProviderStart</b>. The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration
     attributes for a NetDMA provider.
@@ -124,15 +127,24 @@ Before a DMA provider driver calls
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+## -see-also
 
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
+
+
 <a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
+
+
 
  
 

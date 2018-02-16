@@ -2,13 +2,13 @@
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDissectDbcs~r2
 title: FsRtlDissectDbcs function
 author: windows-driver-content
-description: Given an ANSI or double-byte character set (DBCS) pathname string, the FsRtlDissectDbcs routine returns two strings: one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
+description: Given an ANSI or double-byte character set (DBCS) pathname string, the FsRtlDissectDbcs routine returns two strings:\_one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 old-location: ifsk\fsrtldissectdbcs.htm
 old-project: ifsk
 ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtldissectdbcs, fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, FsRtlDissectDbcs routine [Installable File System Drivers], FsRtlDissectDbcs, ntifs/FsRtlDissectDbcs
+ms.date: 2/7/2018
+ms.keywords: FsRtlDissectDbcs, ntifs/FsRtlDissectDbcs, ifsk.fsrtldissectdbcs, fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, FsRtlDissectDbcs routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlDissectDbcs
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ A pointer to the remaining unparsed portion of the pathname string.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In the input string, backslashes are read as name separators. The first name in the string is assumed to consist of all characters from the beginning of the string to the character preceding the first backslash, inclusive. There is just one exception to this rule: if the first character in the input string is a backslash, this character is ignored and does not appear in the output string. The remaining portion of the string consists of all characters following the backslash that follows the first name found in the string. 
@@ -99,6 +102,7 @@ In the input string, backslashes are read as name separators. The first name in 
 <b>FsRtlDissectDbcs</b> does not check for the presence of illegal characters in the input string.
 
 The following table shows sample input and output values for <b>FsRtlDissectDbcs</b>:
+
 <table>
 <tr>
 <th>Path</th>
@@ -203,9 +207,11 @@ A
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that upon returning, the <b>Buffer</b> members of the output parameters will point into the <b>Buffer</b> member of <b>Path</b>.  Therefore, the caller should not allocate storage for the <b>Buffer</b> members of the two output parameters, as shown in the following example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -233,7 +239,9 @@ FsRtlDissectDbcs (FullPathName, &amp;CurrentComponent, &amp;RemainingComponent);
 .</pre>
 </td>
 </tr>
-</table></span></div>For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+</table></span></div>
+For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+
 
 
 
@@ -241,9 +249,11 @@ FsRtlDissectDbcs (FullPathName, &amp;CurrentComponent, &amp;RemainingComponent);
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlDissectDbcs routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlDissectDbcs routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

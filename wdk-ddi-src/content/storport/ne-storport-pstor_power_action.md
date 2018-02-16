@@ -1,6 +1,6 @@
 ---
 UID: NE:storport.PSTOR_POWER_ACTION
-title: *PSTOR_POWER_ACTION
+title: "*PSTOR_POWER_ACTION"
 author: windows-driver-content
 description: The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
 old-location: storage\stor_power_action.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPowerActionReserved, StorPowerActionShutdownOff, storport/StorPowerActionSleep, StorPowerActionWarmEject, storage.stor_power_action, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, StorPowerActionShutdown, StorPowerActionNone, StorPowerActionShutdownReset, STOR_POWER_ACTION enumeration [Storage Devices], storport/StorPowerActionNone, StorPowerActionReserved, StorPowerActionSleep, storport/StorPowerActionHibernate, PSTOR_POWER_ACTION, *PSTOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], storport/PSTOR_POWER_ACTION, STOR_POWER_ACTION, storport/StorPowerActionShutdown, StorPowerActionHibernate, storport/STOR_POWER_ACTION, storport/StorPowerActionShutdownReset, storport/StorPowerActionWarmEject, storport/StorPowerActionShutdownOff
+ms.keywords: "*PSTOR_POWER_ACTION, storport/StorPowerActionShutdownReset, STOR_POWER_ACTION enumeration [Storage Devices], PSTOR_POWER_ACTION enumeration pointer [Storage Devices], StorPowerActionHibernate, storport/StorPowerActionSleep, StorPowerActionShutdown, StorPowerActionSleep, StorPowerActionNone, StorPowerActionWarmEject, PSTOR_POWER_ACTION, StorPowerActionShutdownReset, storport/StorPowerActionShutdownOff, storport/StorPowerActionReserved, storage.stor_power_action, storport/PSTOR_POWER_ACTION, storport/StorPowerActionHibernate, storport/StorPowerActionShutdown, StorPowerActionReserved, storport/STOR_POWER_ACTION, storport/StorPowerActionWarmEject, StorPowerActionShutdownOff, STOR_POWER_ACTION, storport/StorPowerActionNone, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	STOR_POWER_ACTION
 product: Windows
 targetos: Windows
@@ -118,6 +118,8 @@ The system is preparing for ejection.
 ## -see-also
 
 <a href="..\storport\ns-storport-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
+
+
 
  
 

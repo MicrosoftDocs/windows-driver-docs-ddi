@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], wdm/NtPowerInformation, PlatformInformation, NtPowerInformation, kernel.zwpowerinformation, wdm/ZwPowerInformation
+ms.keywords: wdm/NtPowerInformation, wdm/ZwPowerInformation, kernel.zwpowerinformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], NtPowerInformation, ZwPowerInformation, PlatformInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.lib
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.lib
-apiname: 
+apiname:
 -	ZwPowerInformation
 -	NtPowerInformation
 product: Windows
@@ -76,6 +76,7 @@ NTSTATUS ZwPowerInformation(
 ### -param InformationLevel [in]
 
 Specifies the requested information level, which indicates the specific power information to be set or retrieved. Currently, the only supported <i>POWER_INFORMATION_LEVEL</i> value is <b>PlatformInformation</b>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -91,7 +92,8 @@ Information represents the currently supported power capabilities of the system.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param InputBuffer [in, optional]
@@ -117,7 +119,9 @@ Size, in bytes, of the output buffer. Depending on the information level request
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the call is successful. If the call fails, possible error codes include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,11 +160,14 @@ The caller had insufficient access rights to perform the requested action.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 
@@ -169,12 +176,34 @@ The caller had insufficient access rights to perform the requested action.
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+#### Examples
+
+This example illustrates a valid function call.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>POWER_PLATFORM_INFORMATION PlatformInfo = {0};
+NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &amp;PlatformInfo, sizeof(PlatformInfo));
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
 <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
 
  
 

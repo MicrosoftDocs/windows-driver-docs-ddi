@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_KEY_NAME
-title: _REG_QUERY_KEY_NAME
+title: "_REG_QUERY_KEY_NAME"
 author: windows-driver-content
 description: The REG_QUERY_KEY_NAME structure describes the full registry key name of an object being queried.
 old-location: kernel\reg_query_key_name.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 396DA33D-46E0-456C-9FCF-85A7D9915F48
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PREG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME structure [Kernel-Mode Driver Architecture], PREG_QUERY_KEY_NAME, *PREG_QUERY_KEY_NAME, _REG_QUERY_KEY_NAME, kernel.reg_query_key_name, PREG_QUERY_KEY_NAME structure pointer [Kernel-Mode Driver Architecture], wdm/REG_QUERY_KEY_NAME
+ms.keywords: wdm/PREG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME structure [Kernel-Mode Driver Architecture], kernel.reg_query_key_name, PREG_QUERY_KEY_NAME structure pointer [Kernel-Mode Driver Architecture], PREG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME, _REG_QUERY_KEY_NAME, *PREG_QUERY_KEY_NAME, wdm/REG_QUERY_KEY_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	REG_QUERY_KEY_NAME
 product: Windows
 targetos: Windows
-req.typenames: REG_QUERY_KEY_NAME, *PREG_QUERY_KEY_NAME
+req.typenames: "*PREG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -118,17 +118,23 @@ Pointer to a variable that receives (from the system) the amount of valid data, 
 ## -remarks
 
 
+
 The system passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to query the full name of the registry key. 
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\ne-wdm-_reg_notify_class.md">REG_NOTIFY_CLASS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
-<a href="..\wdm\ne-wdm-_reg_notify_class.md">REG_NOTIFY_CLASS</a>
+
 
  
 

@@ -1,14 +1,14 @@
 ---
 UID: NE:ucxroothub._TRISTATE
-title: _TRISTATE
+title: "_TRISTATE"
 author: windows-driver-content
 description: The TRISTATE enumeration indicates generic state values for true or false.
 old-location: buses\tristate.htm
 old-project: usbref
 ms.assetid: 16D8981B-53D3-4886-A85F-B487701ED172
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ucxroothub/TriStateTrue, TRISTATE, _TRISTATE, TRISTATE enumeration [Buses], buses.tristate, TriStateTrue, ucxroothub/TriStateFalse, TriStateFalse, TriStateUnknown, ucxroothub/TRISTATE, ucxroothub/TriStateUnknown
+ms.date: 2/8/2018
+ms.keywords: TriStateFalse, ucxroothub/TRISTATE, ucxroothub/TriStateUnknown, buses.tristate, ucxroothub/TriStateTrue, TriStateTrue, TRISTATE, TriStateUnknown, ucxroothub/TriStateFalse, TRISTATE enumeration [Buses], _TRISTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxroothub.h
-apiname: 
+apiname:
 -	TRISTATE
 product: Windows
 targetos: Windows

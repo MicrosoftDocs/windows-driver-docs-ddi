@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	FlipOverlay
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY FlipOverlay(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
@@ -91,14 +93,18 @@ __checkReturn HRESULT APIENTRY FlipOverlay(
 ## -returns
 
 
+
 <i>FlipOverlay</i> returns S_OK or an appropriate error result if the new allocation is not successfully displayed.
+
 
 
 
 ## -remarks
 
 
+
 Overlays are independent from the resources that are displayed by using the overlays.
+
 
 
 
@@ -106,7 +112,11 @@ Overlays are independent from the resources that are displayed by using the over
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

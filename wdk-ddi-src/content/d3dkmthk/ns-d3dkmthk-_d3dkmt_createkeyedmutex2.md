@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEKEYEDMUTEX2
-title: _D3DKMT_CREATEKEYEDMUTEX2
+title: "_D3DKMT_CREATEKEYEDMUTEX2"
 author: windows-driver-content
 description: Describes a keyed mutex that the D3DKMTCreateKeyedMutex2 function creates that includes private data.
 old-location: display\d3dkmt_createkeyedmutex2.htm
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CREATEKEYEDMUTEX2
 product: Windows
 targetos: Windows
@@ -104,9 +104,13 @@ typedef struct _D3DKMT_CREATEKEYEDMUTEX2 {
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md">D3DKMTCreateKeyedMutex2</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags.md">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md">D3DKMTCreateKeyedMutex2</a>
+
 
  
 

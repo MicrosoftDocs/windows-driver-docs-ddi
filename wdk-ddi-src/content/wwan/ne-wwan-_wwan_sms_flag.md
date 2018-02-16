@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_FLAG
-title: _WWAN_SMS_FLAG
+title: "_WWAN_SMS_FLAG"
 author: windows-driver-content
 description: The WWAN_SMS_FLAG enumeration lists different flags to filter SMS text messages.
 old-location: netvista\wwan_sms_flag.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6620d6c8-2b8a-440e-acf4-fb08570b13bf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanSmsFlagSent, PWWAN_SMS_FLAG, WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WwanSmsFlagNew, wwan/WwanSmsFlagDraft, WWAN_SMS_FLAG, WwanSmsFlagDraft, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], wwan/WwanSmsFlagOld, wwan/PWWAN_SMS_FLAG, WwanSmsFlagOld, WwanSmsFlagNew, wwan/WWAN_SMS_FLAG, WwanSmsFlagIndex, WwanSmsFlagSent, wwan/WwanSmsFlagMax, _WWAN_SMS_FLAG, wwan/WwanSmsFlagAll, WwanSmsFlagMax, *PWWAN_SMS_FLAG, WwanSmsFlagAll, netvista.wwan_sms_flag, wwan/WwanSmsFlagIndex
+ms.keywords: wwan/PWWAN_SMS_FLAG, PWWAN_SMS_FLAG, wwan/WWAN_SMS_FLAG, WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, wwan/WwanSmsFlagNew, *PWWAN_SMS_FLAG, WwanSmsFlagSent, WwanSmsFlagNew, netvista.wwan_sms_flag, WWAN_SMS_FLAG, _WWAN_SMS_FLAG, WwanSmsFlagIndex, wwan/WwanSmsFlagAll, WwanSmsFlagMax, wwan/WwanSmsFlagMax, wwan/WwanSmsFlagIndex, wwan/WwanSmsFlagDraft, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], WwanSmsFlagAll, wwan/WwanSmsFlagSent, WwanSmsFlagDraft, WwanSmsFlagOld, wwan/WwanSmsFlagOld
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SMS_FLAG
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SMS_FLAG, *PWWAN_SMS_FLAG
+req.typenames: "*PWWAN_SMS_FLAG, WWAN_SMS_FLAG"
 req.product: Windows 10 or later.
 ---
 
@@ -112,6 +112,8 @@ The total number of filter flags.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
+
+
 
  
 

@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NdkSrqReceive
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
 ---
 
 # NDK_FN_SRQ_RECEIVE callback
@@ -73,8 +73,10 @@ NTSTATUS NdkSrqReceive(
 
 
 
-### -param *pNdkSrq
+### -param *pNdkSrq [in]
 
+A pointer to an NDK shared receive queue (SRQ) object
+(<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
 
 
 ### -param RequestContext [in, optional]
@@ -84,7 +86,6 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 
 
 ### -param NDK_SGE
-
 
 
 ### -param nSge [in]
@@ -99,17 +100,13 @@ An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>)
 
 
 
-#### - pNdkSrq [in]
-
-A pointer to an NDK shared receive queue (SRQ) object
-(<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
-
-
 ## -returns
+
 
 
 The 
      <i>NdkSrqReceive</i> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,24 +135,34 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkSrqReceive</i> posts a receive request to a shared receive queue (SRQ).
+
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
 
  
 

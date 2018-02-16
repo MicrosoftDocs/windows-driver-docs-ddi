@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NdkGetPrivilegedMemoryRegionToken
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
 ---
 
 # NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback
@@ -71,23 +71,12 @@ VOID NdkGetPrivilegedMemoryRegionToken(
 
 
 
-### -param *pNdkPd
-
-
-
-### -param *pToken
-
-
-
-
-
-
-#### - pNdkPd [in]
+### -param *pNdkPd [in]
 
 A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
 
 
-#### - pToken [out]
+### -param *pToken [out]
 
 A memory token value is returned in this location.
 
@@ -95,20 +84,26 @@ A memory token value is returned in this location.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <i>NdkGetPrivilegedMemoryRegionToken</i> gets a privileged  memory region token value that allows adapter logical addresses  to be used directly without memory registration. This token must provide LOCAL_READ and LOCAL_WRITE access. A provider must never allow remote access for the privileged memory region token.
+
 
 
 
 ## -see-also
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
 
  
 

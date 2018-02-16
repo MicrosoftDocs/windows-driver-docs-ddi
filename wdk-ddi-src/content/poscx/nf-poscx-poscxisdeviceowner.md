@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxIsDeviceOwner, PosCxIsDeviceOwner, pos.poscxisdeviceowner, PosCxIsDeviceOwner function
+ms.keywords: pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner, PosCxIsDeviceOwner function, PosCxIsDeviceOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxIsDeviceOwner
 product: Windows
 targetos: Windows
@@ -82,8 +82,10 @@ A handle to a framework device object that represents the device.
 ## -returns
 
 
+
 Returns TRUE if the caller is the device owner, or if <i>fileObject</i> is NULL and the device is not currently owned.
 
 Otherwise, returns FALSE.
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SCSI_PNP_REQUEST_BLOCK
-title: _SCSI_PNP_REQUEST_BLOCK
+title: "_SCSI_PNP_REQUEST_BLOCK"
 author: windows-driver-content
 description: TheSCSI_PNP_REQUEST_BLOCK structure is a special version of a SCSI_REQUEST_BLOCK that is used for plug and play (PNP) requests.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsi_pnp_request_block.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorStopDevice, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorRemoveDevice, storage.scsi_pnp_request_block, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], *PSCSI_PNP_REQUEST_BLOCK, StorSupriseRemoval, SCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, PSCSI_PNP_REQUEST_BLOCK, StorQueryResourceRequirements, StorQueryCapabilities, StorStartDevice, storport/PSCSI_PNP_REQUEST_BLOCK, StorFilterResourceRequirements, _SCSI_PNP_REQUEST_BLOCK
+ms.keywords: PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], StorQueryResourceRequirements, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], _SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, *PSCSI_PNP_REQUEST_BLOCK, StorQueryCapabilities, StorRemoveDevice, storport/SCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block, StorStopDevice, SCSI_PNP_REQUEST_BLOCK, storport/PSCSI_PNP_REQUEST_BLOCK, StorStartDevice, StorFilterResourceRequirements, StorSupriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	SCSI_PNP_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: *PSCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK
+req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -88,16 +88,6 @@ typedef struct _SCSI_PNP_REQUEST_BLOCK {
 
 
 
-### -field _SCSI_REQUEST_BLOCK
-
- 
-
-
-### -field NextSrb
-
-Miniport driver should ignore this member. 
-
-
 ### -field Length
 
 The size, in bytes, of the <b>SCSI_PNP_REQUEST_BLOCK</b> structure. 
@@ -136,6 +126,7 @@ The logical unit number (LUN) of the device.
 ### -field PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -218,7 +209,8 @@ Surprise Removal of the device. This value was added in Windows 7.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SrbFlags
@@ -244,6 +236,16 @@ Miniport driver should ignore this member.
 ### -field SenseInfoBuffer
 
 Miniport driver should ignore this member. 
+
+
+### -field NextSrb
+
+Miniport driver should ignore this member. 
+
+
+### -field _SCSI_REQUEST_BLOCK
+
+ 
 
 
 ### -field OriginalRequest
@@ -274,19 +276,27 @@ Reserved for system use.
 ## -remarks
 
 
+
 The Storport driver sends <b>SCSI_PNP_REQUEST_BLOCK</b> requests to a miniport driver to notify the miniport driver of Windows plug and play events that affect storage devices that are connected to the adapter.
 
 The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> to pass SRBs to the miniport driver. <b>HwStorBuildIo</b> checks the <b>Function</b> member of the SRB to determine the type of the SRB. If the <b>Function</b> member is set to SRB_FUNCTION_PNP, the SRB is a structure of type <b>SCSI_PNP_REQUEST_BLOCK</b>.
 
 
 
-## -see-also
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+## -see-also
 
 <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
+
+
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
 
  
 

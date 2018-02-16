@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1C66E50F-3BD7-4038-9FDF-2F2B712D9B5E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], ntddk/PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread, kernel.psattachsilotocurrentthread
+ms.keywords: kernel.psattachsilotocurrentthread, PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], ntddk/PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsAttachSiloToCurrentThread
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsAttachSiloToCurrentThread function
@@ -75,11 +75,14 @@ The silo that the thread is to impersonate. The caller must hold a  reference to
 ## -returns
 
 
+
 The previous silo that was attached to the current thread.
 
 
 
+
 ## -remarks
+
 
 
 The specified <i>Silo</i> is attached to the current thread so that it becomes the effective silo for the thread.
@@ -87,10 +90,30 @@ The specified <i>Silo</i> is attached to the current thread so that it becomes t
 The thread then operates within the namespace of the attached silo until <a href="..\ntddk\nf-ntddk-psdetachsilofromcurrentthread.md">PsDetachSiloFromCurrentThread</a> is called.
 
 
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PESILO PreviousSilo = PsAttachSiloToCurrentThread();
+
+// Do work within the silo context
+
+PsDetachSiloFromCurrentThread(PreviousSilo);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-psdetachsilofromcurrentthread.md">PsDetachSiloFromCurrentThread</a>
+
+
 
  
 

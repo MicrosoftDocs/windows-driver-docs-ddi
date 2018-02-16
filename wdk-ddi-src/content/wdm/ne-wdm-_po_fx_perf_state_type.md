@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._PO_FX_PERF_STATE_TYPE
-title: _PO_FX_PERF_STATE_TYPE
+title: "_PO_FX_PERF_STATE_TYPE"
 author: windows-driver-content
 description: The PO_FX_PERF_STATE_TYPE enumeration contains values that describe the type of performance states in a PO_FX_COMPONENT_PERF_SET.
 old-location: kernel\po_fx_perf_state_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E3BFBF03-8130-4EFF-95F4-030107AF4D75
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.po_fx_perf_state_type, PPO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeMaximum, wdm/PPO_FX_PERF_STATE_TYPE, *PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateTypeDiscrete, PoFxPerfStateTypeRange, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE_TYPE, wdm/PO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeMaximum, wdm/PoFxPerfStateTypeRange, PO_FX_PERF_STATE_TYPE
+ms.keywords: PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateTypeDiscrete, kernel.po_fx_perf_state_type, wdm/PoFxPerfStateTypeMaximum, *PPO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeMaximum, PPO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeRange, PO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeRange, _PO_FX_PERF_STATE_TYPE, wdm/PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_PERF_STATE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	PO_FX_PERF_STATE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE
+req.typenames: "*PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,9 @@ This value is reserved for system use.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a> structure is a value from the <b>PO_FX_PERF_STATE_TYPE</b> enumeration.
+
 
 
 
@@ -96,7 +98,11 @@ The <b>Type</b> member of the <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.m
 
 <a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
+
+
 <a href="..\wdm\ns-wdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
+
+
 
  
 

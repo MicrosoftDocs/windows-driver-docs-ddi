@@ -1,6 +1,6 @@
 ---
 UID: NE:avcstrm._AVCSTRM_FORMAT
-title: _AVCSTRM_FORMAT
+title: "_AVCSTRM_FORMAT"
 author: windows-driver-content
 description: The AVCSTRM_FUNCTION enumeration defines the AV/C subunit stream formats supported by avcstrm.sys.
 old-location: stream\avcstrm_format.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4481ec67-55b6-479e-b0b6-5f8ed56a5290
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcstrm/AVCSTRM_FORMAT_SDDV_PAL, avcsref_489c2bf8-1e1f-4feb-91fb-0ba3666ba399.xml, AVCSTRM_FORMAT_MPEG2TS, AVCSTRM_FORMAT_SDLDV_NTSC, AVCSTRM_FORMAT enumeration [Streaming Media Devices], AVCSTRM_FORMAT_HDDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDLDV_NTSC, avcstrm/AVCSTRM_FORMAT_HDDV_PAL, AVCSTRM_FORMAT_SDLDV_PAL, avcstrm/AVCSTRM_FORMAT, avcstrm/AVCSTRM_FORMAT_HDDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDDV_NTSC, AVCSTRM_FORMAT, avcstrm/AVCSTRM_FORMAT_SDLDV_PAL, _AVCSTRM_FORMAT, AVCSTRM_FORMAT_SDDV_PAL, stream.avcstrm_format, avcstrm/AVCSTRM_FORMAT_MPEG2TS, AVCSTRM_FORMAT_HDDV_PAL, AVCSTRM_FORMAT_SDDV_NTSC
+ms.keywords: AVCSTRM_FORMAT, avcstrm/AVCSTRM_FORMAT_HDDV_PAL, AVCSTRM_FORMAT_SDDV_PAL, avcstrm/AVCSTRM_FORMAT_SDDV_PAL, avcstrm/AVCSTRM_FORMAT, avcstrm/AVCSTRM_FORMAT_SDLDV_PAL, _AVCSTRM_FORMAT, AVCSTRM_FORMAT_SDLDV_PAL, avcstrm/AVCSTRM_FORMAT_MPEG2TS, stream.avcstrm_format, AVCSTRM_FORMAT_MPEG2TS, AVCSTRM_FORMAT_SDDV_NTSC, AVCSTRM_FORMAT_HDDV_PAL, AVCSTRM_FORMAT enumeration [Streaming Media Devices], avcstrm/AVCSTRM_FORMAT_SDDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDLDV_NTSC, avcsref_489c2bf8-1e1f-4feb-91fb-0ba3666ba399.xml, AVCSTRM_FORMAT_SDLDV_NTSC, AVCSTRM_FORMAT_HDDV_NTSC, avcstrm/AVCSTRM_FORMAT_HDDV_NTSC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avcstrm.h
-apiname: 
+apiname:
 -	AVCSTRM_FORMAT
 product: Windows
 targetos: Windows
@@ -111,6 +111,8 @@ Specifies the 61883-5 specification for SDL-DVCR data transmission. PAL. This fo
 ## -see-also
 
 <a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
+
+
 
  
 

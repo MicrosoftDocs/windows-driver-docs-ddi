@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1bc6eed2-c6bd-448f-8f78-630cca4cd29a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetCreateParameters method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::GetCreateParameters, IWDFIoRequest, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, umdf.iwdfiorequest_getcreateparameters, wdf.iwdfiorequest_getcreateparameters, IWDFIoRequest interface, GetCreateParameters method, IWDFIoRequest::GetCreateParameters, GetCreateParameters, GetCreateParameters method
+ms.keywords: umdf.iwdfiorequest_getcreateparameters, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, GetCreateParameters method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::GetCreateParameters, wdf.iwdfiorequest_getcreateparameters, IWDFIoRequest::GetCreateParameters, GetCreateParameters, IWDFIoRequest, IWDFIoRequest interface, GetCreateParameters method, GetCreateParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.GetCreateParameters
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -100,14 +100,18 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Although the driver can optionally specify <b>NULL</b> for each of the <i>pOptions</i>, <i>pFileAttributes</i>, and <i>pShareAccess</i> parameters, the driver must specify at least one non-<b>NULL</b> parameter for <b>GetCreateParameters</b> to execute successfully.
+
 
 
 
@@ -115,7 +119,11 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pOptio
 
 <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

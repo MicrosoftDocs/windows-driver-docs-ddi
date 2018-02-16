@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT
-title: _D3DKMT_PRESENT
+title: "_D3DKMT_PRESENT"
 author: windows-driver-content
 description: The D3DKMT_PRESENT structure describes the present operation.
 old-location: display\d3dkmt_present.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 959d17f1-588b-4b65-a3ea-e4609aa84eed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_present, d3dkmthk/D3DKMT_PRESENT, D3DKMT_PRESENT structure [Display Devices], _D3DKMT_PRESENT, OpenGL_Structs_f3a9c661-7b2d-4f75-864f-c5f2a3c591ad.xml, D3DKMT_PRESENT
+ms.keywords: D3DKMT_PRESENT structure [Display Devices], d3dkmthk/D3DKMT_PRESENT, D3DKMT_PRESENT, _D3DKMT_PRESENT, OpenGL_Structs_f3a9c661-7b2d-4f75-864f-c5f2a3c591ad.xml, display.d3dkmt_present
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_PRESENT
 product: Windows
 targetos: Windows
@@ -97,16 +97,6 @@ typedef struct _D3DKMT_PRESENT {
 ### -field hContext
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device context to present to.
-
-
-### -field hAdapter
-
- 
-
-
-### -field hIndirectContext
-
- 
 
 
 ### -field hWindow
@@ -212,6 +202,16 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_
 Supported starting with Windows 8.
 
 
+### -field hAdapter
+
+ 
+
+
+### -field hIndirectContext
+
+ 
+
+
 ### -field Duration
 
  
@@ -243,19 +243,32 @@ Supported starting with Windows 8.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_rgns.md">D3DKMT_PRESENT_RGNS</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presentflags.md">D3DKMT_PRESENTFLAGS</a>
+
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpresent.md">D3DKMTPresent</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presentflags.md">D3DKMT_PRESENTFLAGS</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
 
  
 

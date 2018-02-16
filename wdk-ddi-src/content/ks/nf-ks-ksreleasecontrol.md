@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f585f1ad-7ed0-49b1-ab35-a6b879118b38
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksreleasecontrol, ks/KsReleaseControl, avfunc_b568770e-1fe0-47d5-8fd4-ac210cd4be30.xml, KsReleaseControl function [Streaming Media Devices], KsReleaseControl
+ms.keywords: KsReleaseControl function [Streaming Media Devices], stream.ksreleasecontrol, avfunc_b568770e-1fe0-47d5-8fd4-ac210cd4be30.xml, ks/KsReleaseControl, KsReleaseControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsReleaseControl
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ The object for which to release the control mutex.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <i>Object</i> should be either a filter or a pin cast to PVOID.
@@ -91,17 +94,28 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
+
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+
 
 <a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
+
+<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+
+
 
  
 

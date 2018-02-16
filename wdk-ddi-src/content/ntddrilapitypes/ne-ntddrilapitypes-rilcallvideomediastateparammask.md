@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e36617c0-8471-417d-9135-bdd29c586172
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_CALLVIDEO_ALL, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CALLVIDEO_ALL, ntddrilapitypes/RIL_PARAM_CALLVIDEO_FLAGS, RIL_PARAM_CALLVIDEO_CONTEXTID, ntddrilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, RILCALLVIDEOMEDIASTATEPARAMMASK, netvista.rilcallvideomediastateparammask, RIL_PARAM_CALLVIDEO_FLAGS
+ms.keywords: ntddrilapitypes/RIL_PARAM_CALLVIDEO_FLAGS, RIL_PARAM_CALLVIDEO_FLAGS, RIL_PARAM_CALLVIDEO_ALL, RILCALLVIDEOMEDIASTATEPARAMMASK, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, RIL_PARAM_CALLVIDEO_CONTEXTID, ntddrilapitypes/RIL_PARAM_CALLVIDEO_ALL, ntddrilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK, netvista.rilcallvideomediastateparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLVIDEOMEDIASTATEPARAMMASK
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILCALLVIDEOMEDIASTATEPARAMMASK {
 ### -field RIL_PARAM_CALLVIDEO_PEERCAPABILITIES
 
 
-
 ### -field RIL_PARAM_CALLVIDEO_FLAGS
-
 
 
 ### -field RIL_PARAM_CALLVIDEO_CONTEXTID
 
 
-
 ### -field RIL_PARAM_CALLVIDEO_ALL
-
 

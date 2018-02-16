@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkCbEvalAcpiMethod
 product: Windows
 targetos: Windows
@@ -108,28 +108,128 @@ The total size, in bytes, of the buffer pointed to by <i>AcpiOutputBuffer</i>.
 ## -returns
 
 
+
 <b>DxgkCbEvalAcpiMethod</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 To evaluate ACPI methods on an ACPI device, the device itself must be in the ACPI namespace. In addition, the display miniport driver must have set the lower 16 bits of the <b>ChildUid</b> value for any ACPI child devices that the display miniport driver reports to the identifier that ACPI reported.
 
 Before it returns, <b>DxgkCbEvalAcpiMethod</b> resets the <b>Signature</b> member of the <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a> structure to ACPI_EVAL_INPUT_BUFFER_COMPLEX_SIGNATURE. In Windows Vista with Service Pack 1 (SP1), Windows Server 2008, and later versions of the Windows operating systems, if the display miniport driver has child devices, it should set <b>Signature</b> to DXGK_ACPI_PASS_ARGS_TO_CHILDREN before it makes any call to <b>DxgkCbEvalAcpiMethod</b>.
-<div class="alert"><b>Note</b>  The Microsoft DirectX graphics kernel subsystem cannot evaluate ACPI methods that are outside of the device's namespace. </div><div> </div><div class="alert"><b>Note</b>  Display miniport drivers can use <b>DxgkCbEvalAcpiMethod</b> only for lead-link graphics adapters. </div><div> </div>
+
+<div class="alert"><b>Note</b>  The Microsoft DirectX graphics kernel subsystem cannot evaluate ACPI methods that are outside of the device's namespace. </div>
+<div> </div>
+<div class="alert"><b>Note</b>  Display miniport drivers can use <b>DxgkCbEvalAcpiMethod</b> only for lead-link graphics adapters. </div>
+<div> </div>
+
+#### Examples
+
+The following code example shows how to evaluate an ACPI method.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
+    ULONG ChildIndex;
+    PACPI_METHOD_ARGUMENT AcpiChildrenArray = 
+ &amp;(((PACPI_EVAL_OUTPUT_BUFFER)HwDeviceExtension-&gt;AcpiChildren) 
+   -&gt;Argument[0]);
+   ULONG ChildCount = ((PACPI_EVAL_OUTPUT_BUFFER) 
+   (HwDeviceExtension-&gt;AcpiChildren))-&gt;Count;
+  ULONG ChildUid;
+  ACPI_EVAL_INPUT_BUFFER_COMPLEX AcpiInputBuffer = {'\0'};
+   ACPI_EVAL_OUTPUT_BUFFER AcpiOutputBuffer;
+    pDesiredStatus = ExAllocatePoolWithTag(PagedPool,
+ sizeof(DESIRED_CHILD_STATUS) * ChildCount,
+ ATI_TAG);
+
+  if (pDesiredStatus == NULL) {
+     Status = STATUS_NO_MEMORY;
+        goto cleanup;
+  }
+
+ RtlZeroMemory(pDesiredStatus, sizeof(DESIRED_CHILD_STATUS) * ChildCount);
+
+ for (ChildIndex = 0; ChildIndex &lt; ChildCount; ChildIndex++) {
+ // If not a video output child, go to the next child.
+ if (AcpiChildrenArray[ChildIndex].Argument
+   &amp; ACPI_NON_VIDEO_OUTPUT_DEVICE) {
+   continue;
+      }
+      // A video output child so the ChildUid is the VidPnTargetId.
+       ChildUid = (AcpiChildrenArray[ChildIndex].Argument
+   &amp; ACPI_HARDWARE_ID) | HW_ID_DISPLAY_CHILD;
+
+      // Query ACPI for the required state.
+      //
+  // Beginning with Windows Vista SP1 and Windows Server 2008,
+  // use DXGK_ACPI_PASS_ARGS_TO_CHILDREN.
+
+  #if (NTDDI_VERSION &gt;= NTDDI_WIN6SP1)
+   AcpiInputBuffer.Signature = 
+   DXGK_ACPI_PASS_ARGS_TO_CHILDREN;
+     #else
+    AcpiInputBuffer.Signature = 
+   ACPI_EVAL_INPUT_BUFFER_COMPLEX_SIGNATURE;
+       #endif
+
+     AcpiInputBuffer.MethodNameAsUlong = 
+   ACPI_METHOD_OUTPUT_DGS;
+     Status = DxgkCbEvalAcpiMethod(HwDeviceExtension-&gt;DeviceHandle,
+         ChildUid,
+         &amp;AcpiInputBuffer,
+         sizeof(ACPI_EVAL_INPUT_BUFFER_COMPLEX),
+         &amp;AcpiOutputBuffer,
+         sizeof(ACPI_EVAL_OUTPUT_BUFFER));
+     if (!NT_SUCCESS(Status)) {
+         // Something really wrong
+         goto cleanup;
+     }
+      // Determine what the new VidPn should be and
+      // allow RecommendFunctionalVidPn to return it.
+      // AcpiOutputBuffer.Argument[0].Argument == 1 indicates active
+       // AcpiOutputBuffer.Argument[0].Argument == 0 
+       // indicates not active
+       pDesiredStatus[ChildIndex].bActive = 
+   (AcpiOutputBuffer.Argument[0].Argument == 1) ? TRUE : FALSE;
+      // Always use the first source because this is a keyboard shortcut.
+      pDesiredStatus[ChildIndex].ulSourceId = 0;
+      pDesiredStatus[ChildIndex].ulTargetId = ChildUid;
+  }
+
+ Status = InvalidateVidPnForHotKey(HwDeviceExtension, pDesiredStatus);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
 
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
 <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
+
+
 
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_notify_acpi_event.md">DxgkDdiNotifyAcpiEvent</a>
+
+
 
  
 

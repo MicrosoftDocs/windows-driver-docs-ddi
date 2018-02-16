@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4A109CDF-C5DE-4BAE-AA4E-294EA5CE86C5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfinterrupt_trytoacquireinterruptlock, IWDFInterrupt, TryToAcquireInterruptLock, TryToAcquireInterruptLock method, IWDFInterrupt interface, TryToAcquireInterruptLock method, umdf.iwdfinterrupt_trytoacquireinterruptlock, wudfddi/IWDFInterrupt::TryToAcquireInterruptLock, IWDFInterrupt::TryToAcquireInterruptLock, TryToAcquireInterruptLock method, IWDFInterrupt interface
+ms.keywords: wudfddi/IWDFInterrupt::TryToAcquireInterruptLock, umdf.iwdfinterrupt_trytoacquireinterruptlock, TryToAcquireInterruptLock, TryToAcquireInterruptLock method, IWDFInterrupt interface, IWDFInterrupt, IWDFInterrupt::TryToAcquireInterruptLock, TryToAcquireInterruptLock method, wdf.iwdfinterrupt_trytoacquireinterruptlock, IWDFInterrupt interface, TryToAcquireInterruptLock method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFInterrupt.TryToAcquireInterruptLock
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,18 @@ BOOLEAN TryToAcquireInterruptLock();
 
 
 
+
 ## -returns
+
 
 
 The method returns TRUE if the interrupt lock was successfully acquired. Otherwise, the method returns FALSE.
 
 
 
+
 ## -remarks
+
 
 
 Unlike <a href="https://msdn.microsoft.com/2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7">IWDFInterrupt::AcquireInterruptLock</a>, <b>IWDFInterrupt::TryToAcquireInterruptLock</b> does not wait for the interrupt lock to become available if another thread is holding it.
@@ -91,13 +95,20 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7">IWDFInterrupt::AcquireInterruptLock</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md">WdfInterruptTryToAcquireLock</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+
 
  
 

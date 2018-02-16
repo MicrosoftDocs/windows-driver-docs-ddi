@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d05b366c-0b09-4a82-8727-e5c39b82bf7f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_50e549a0-61fa-4a0f-b43f-de2f4c6dba31.xml, RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToAnsiString, kernel.rtlunicodestringtoansistring
+ms.keywords: RtlUnicodeStringToAnsiString routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToAnsiString, k109_50e549a0-61fa-4a0f-b43f-de2f4c6dba31.xml, RtlUnicodeStringToAnsiString, kernel.rtlunicodestringtoansistring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlUnicodeStringToAnsiString
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ Pointer to the Unicode source string to be converted to ANSI.
 ## -returns
 
 
+
 If the conversion succeeds, <b>RtlUnicodeStringToAnsiString</b> returns STATUS_SUCCESS. Otherwise, no storage was allocated, and no conversion was done.
+
 
 
 
 ## -remarks
 
 
+
 The translation is done in accord with the current system-locale information.
+
 
 
 
@@ -103,11 +107,19 @@ The translation is done in accord with the current system-locale information.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
 
 <a href="..\wdm\nf-wdm-rtlfreeansistring.md">RtlFreeAnsiString</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

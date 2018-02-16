@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 28f0118b-8c16-4075-8dc9-78e1e2636f02
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FcpScsiEntryV2, PHBA_FCPSCSIENTRYV2, HBA_FCPSCSIENTRYV2 structure [Storage Devices], PHBA_FCPSCSIENTRYV2 structure pointer [Storage Devices], hbaapi/HBA_FcpScsiEntryV2, structs-Fibre_b450dd9b-aeb7-4ba1-86df-4bdc6ef34e5a.xml, *PHBA_FCPSCSIENTRYV2, HBA_FCPSCSIENTRYV2, storage.hba_fcpscsientryv2, HBA_FcpScsiEntryV2 structure [Storage Devices], hbaapi/PHBA_FCPSCSIENTRYV2
+ms.keywords: "*PHBA_FCPSCSIENTRYV2, hbaapi/PHBA_FCPSCSIENTRYV2, HBA_FCPSCSIENTRYV2, storage.hba_fcpscsientryv2, HBA_FcpScsiEntryV2, PHBA_FCPSCSIENTRYV2, structs-Fibre_b450dd9b-aeb7-4ba1-86df-4bdc6ef34e5a.xml, HBA_FCPSCSIENTRYV2 structure [Storage Devices], PHBA_FCPSCSIENTRYV2 structure pointer [Storage Devices], hbaapi/HBA_FcpScsiEntryV2, HBA_FcpScsiEntryV2 structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbaapi.h
-apiname: 
+apiname:
 -	HBA_FCPSCSIENTRYV2
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID<
 ## -remarks
 
 
+
 The HBA_FcpScsiEntryV2 structure includes all of the information contained in the <a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a> structure and, in addition, contains the identification descriptor for the logical unit derived from SCSI inquiry data.
+
 
 
 
@@ -95,11 +97,19 @@ The HBA_FcpScsiEntryV2 structure includes all of the information contained in th
 
 <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a>
+
 
 <a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
 
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_fcpscsientry.md">HBA_FcpScsiEntry</a>
+
+
+
 <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
+
+
 
  
 

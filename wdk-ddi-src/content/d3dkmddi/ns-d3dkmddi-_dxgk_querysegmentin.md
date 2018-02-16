@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYSEGMENTIN
-title: _DXGK_QUERYSEGMENTIN
+title: "_DXGK_QUERYSEGMENTIN"
 author: windows-driver-content
 description: The DXGK_QUERYSEGMENTIN structure describes relevant information for a memory-segment query through a call to the display miniport driver's DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_querysegmentin.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5a3e6edf-40c7-49f3-8394-0e54c080c92c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_QUERYSEGMENTIN, DXGK_QUERYSEGMENTIN, display.dxgk_querysegmentin, DmStructs_d47cf13d-48ec-49fd-b80c-4df1501db329.xml, DXGK_QUERYSEGMENTIN structure [Display Devices], _DXGK_QUERYSEGMENTIN
+ms.keywords: DmStructs_d47cf13d-48ec-49fd-b80c-4df1501db329.xml, d3dkmddi/DXGK_QUERYSEGMENTIN, _DXGK_QUERYSEGMENTIN, DXGK_QUERYSEGMENTIN structure [Display Devices], display.dxgk_querysegmentin, DXGK_QUERYSEGMENTIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_QUERYSEGMENTIN
 product: Windows
 targetos: Windows
@@ -86,15 +86,25 @@ typedef struct _DXGK_QUERYSEGMENTIN {
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentflags.md">DXGK_SEGMENTFLAGS</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
+
+
 
  
 

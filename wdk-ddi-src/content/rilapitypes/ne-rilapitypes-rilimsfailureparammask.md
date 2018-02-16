@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 07d651cd-b890-49cf-a543-2fc2fbf52412
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILIMSFAILUREPARAMMASK, RIL_PARAM_IMSFAILURE_ERRORCODE, RILIMSFAILUREPARAMMASK, netvista.rilimsfailureparammask_2, rilapitypes/RIL_PARAM_IMSFAILURE_ALL, rilapitypes/RIL_PARAM_IMSFAILURE_ERRORCODE, RILIMSFAILUREPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSFAILURE_ERRORSTRING, rilapitypes/RIL_PARAM_IMSFAILURE_ERRORSTRING, rilapitypes/RIL_PARAM_IMSFAILURE_MESSAGETYPE, RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, RIL_PARAM_IMSFAILURE_ALL, rilapitypes/RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, RIL_PARAM_IMSFAILURE_MESSAGETYPE
+ms.keywords: rilapitypes/RIL_PARAM_IMSFAILURE_ALL, RIL_PARAM_IMSFAILURE_ERRORCODE, rilapitypes/RILIMSFAILUREPARAMMASK, RILIMSFAILUREPARAMMASK, netvista.rilimsfailureparammask_2, RILIMSFAILUREPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSFAILURE_ALL, RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, rilapitypes/RIL_PARAM_IMSFAILURE_ERRORSTRING, rilapitypes/RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, rilapitypes/RIL_PARAM_IMSFAILURE_MESSAGETYPE, RIL_PARAM_IMSFAILURE_ERRORSTRING, RIL_PARAM_IMSFAILURE_MESSAGETYPE, rilapitypes/RIL_PARAM_IMSFAILURE_ERRORCODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILIMSFAILUREPARAMMASK
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILIMSFAILUREPARAMMASK {
 ### -field RIL_PARAM_IMSFAILURE_EXECUTOR
 
 
-
 ### -field RIL_PARAM_IMSFAILURE_MESSAGETYPE
-
 
 
 ### -field RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE
 
 
-
 ### -field RIL_PARAM_IMSFAILURE_ERRORCODE
-
 
 
 ### -field RIL_PARAM_IMSFAILURE_ERRORSTRING
 
 
-
 ### -field RIL_PARAM_IMSFAILURE_ALL
-
 

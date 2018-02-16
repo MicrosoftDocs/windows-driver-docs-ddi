@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cf533f21-90eb-46ec-860f-d12a8d40c430
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::GetOffsetTypeId, IDebugSymbols3::GetOffsetTypeId, GetOffsetTypeId, IDebugSymbols::GetOffsetTypeId, IDebugSymbols3 interface [Windows Debugging], GetOffsetTypeId method, GetOffsetTypeId method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetOffsetTypeId method, IDebugSymbols_3f41981b-8ed2-4828-8bfb-a50b934a65ee.xml, IDebugSymbols3, IDebugSymbols2::GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetOffsetTypeId, debugger.getoffsettypeid, GetOffsetTypeId method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetOffsetTypeId method
+ms.keywords: GetOffsetTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetOffsetTypeId, IDebugSymbols interface [Windows Debugging], GetOffsetTypeId method, debugger.getoffsettypeid, GetOffsetTypeId, GetOffsetTypeId method [Windows Debugging], IDebugSymbols2, IDebugSymbols3, IDebugSymbols_3f41981b-8ed2-4828-8bfb-a50b934a65ee.xml, GetOffsetTypeId method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetOffsetTypeId, IDebugSymbols2::GetOffsetTypeId, IDebugSymbols3 interface [Windows Debugging], GetOffsetTypeId method, dbgeng/IDebugSymbols2::GetOffsetTypeId, IDebugSymbols::GetOffsetTypeId, dbgeng/IDebugSymbols3::GetOffsetTypeId, IDebugSymbols, IDebugSymbols2 interface [Windows Debugging], GetOffsetTypeId method, GetOffsetTypeId method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetOffsetTypeId
 -	IDebugSymbols2.GetOffsetTypeId
 -	IDebugSymbols3.GetOffsetTypeId
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetOffsetTypeId method
@@ -89,7 +89,9 @@ Specifies the location in the target's memory address space of the base of the m
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,28 +108,42 @@ The method was successful
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549173">GetSymbolTypeId</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
 
  
 

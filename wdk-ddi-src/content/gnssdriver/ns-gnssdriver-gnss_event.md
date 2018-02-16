@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: FECF2444-CFF7-4B4D-AC3A-D3DD9B045AFD
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/PGNSS_EVENT, GNSS_EVENT structure [Sensor Devices], *PGNSS_EVENT, gnssdriver/GNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], PGNSS_EVENT, GNSS_EVENT, sensors.gnss_event
+ms.keywords: gnssdriver/GNSS_EVENT, GNSS_EVENT, *PGNSS_EVENT, PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], GNSS_EVENT structure [Sensor Devices], gnssdriver/PGNSS_EVENT, sensors.gnss_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_EVENT
 product: Windows
 targetos: Windows
-req.typenames: GNSS_EVENT, *PGNSS_EVENT
+req.typenames: "*PGNSS_EVENT, GNSS_EVENT"
 ---
 
 # GNSS_EVENT structure
@@ -163,14 +163,14 @@ The GNSS driver must fill in appropriate size to avoid excessive data-copy betwe
 
 
 
-#### - CustomData[ANYSIZE_ARRAY]
-
-Custom data field.
-
-
 #### - Unused[512]
 
 Padding buffer.
+
+
+#### - CustomData[ANYSIZE_ARRAY]
+
+Custom data field.
 
 
 ## -remarks

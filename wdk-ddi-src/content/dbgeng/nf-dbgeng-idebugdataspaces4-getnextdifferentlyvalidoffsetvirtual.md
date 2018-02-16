@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f55cc21-606d-4c7c-8650-51cb686700b3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, debugger.getnextdifferentlyvalidoffsetvirtual, IDebugDataSpaces4 interface [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual
+ms.keywords: GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, IDebugDataSpaces4, GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces4 interface [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method, debugger.getnextdifferentlyvalidoffsetvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual method
@@ -81,7 +81,9 @@ Receives the address of the next address whose validity might be defined differe
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,14 +100,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The size of regions of validity depends on the target.  For example, in live user-mode debugging sessions, where virtual address validity changes from page to page, <i>NextOffset</i> will receive the address of the next page.  In user-mode dump files the validity can change from byte to byte.
+
 
 
 
@@ -113,7 +119,11 @@ The size of regions of validity depends on the target.  For example, in live use
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549471">GetValidRegionVirtual</a>
+
+
 
  
 

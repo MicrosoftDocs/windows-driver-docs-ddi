@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2fc5689f-e1d6-481d-b137-301f10b386e8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsAllocateObjectBag, KsAllocateObjectBag, KsAllocateObjectBag function [Streaming Media Devices], stream.ksallocateobjectbag, avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml
+ms.keywords: KsAllocateObjectBag function [Streaming Media Devices], ks/KsAllocateObjectBag, avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, KsAllocateObjectBag, stream.ksallocateobjectbag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAllocateObjectBag
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ A pointer to a KSOBJECT_BAG (the KSOBJECT_BAG structure is equivalent to type PV
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if a new object bag is created. If a new object bag is not allocated, it returns STATUS_INSUFFICIENT_RESOURCES.
 
 
 
+
 ## -remarks
+
 
 
 An allocated object bag is not deleted automatically. The minidriver calling <b>KsAllocateObjectBag</b> is responsible for deletion of the object bag. The easiest way to do this is by calling <a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>. Alternatively, if the minidriver has the addresses of the items in the bag, the minidriver can delete them individually by calling <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>.
@@ -95,17 +98,28 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+## -see-also
 
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+
 
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
+
+
+<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+
+
+
+<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+
+
+
 <a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+
+
 
  
 

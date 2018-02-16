@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8378D5F1-92AC-4C59-BA66-68246C011199
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], PoFxSetDeviceIdleTimeout, kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout
+ms.keywords: PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], wdm/PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout, kernel.pofxsetdeviceidletimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxSetDeviceIdleTimeout
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ The idle time-out interval in 100-nanosecond units. For more information, see Re
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine specifies a time-out interval for PoFx to apply to future calls to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a> callback routine. By default, this time-out interval is zero, in which case PoFx might call the <i>DevicePowerNotRequiredCallback</i> routine just as soon as the device is ready to switch to a low-power Dx state. However, a driver might prefer to delay this transition and to keep the device in the D0 power state for some additional time-out interval. In this case, if the device becomes active before the end of the time-out interval, and is therefore required to stay in the D0 state, the pending <i>DevicePowerNotRequiredCallback</i> call is no longer required and is canceled by PoFx.
@@ -99,11 +102,16 @@ The device driver can call <b>PoFxSetDeviceIdleTimeout</b> each time a change in
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
 
+
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 160de99b-d04e-4c7d-bde2-92d23123f295
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILGEOLOCATIONREQUESTACCURACY, RILGEOLOCATIONREQUESTACCURACY enumeration [Network Drivers Starting with Windows Vista], netvista.rilgeolocationrequestaccuracy_2, RILGEOLOCATIONREQUESTACCURACY, RIL_LOCACCURACY_DEFAULT, rilapitypes/RIL_LOCACCURACY_DEFAULT
+ms.keywords: netvista.rilgeolocationrequestaccuracy_2, RILGEOLOCATIONREQUESTACCURACY, RILGEOLOCATIONREQUESTACCURACY enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILGEOLOCATIONREQUESTACCURACY, RIL_LOCACCURACY_DEFAULT, rilapitypes/RIL_LOCACCURACY_DEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGEOLOCATIONREQUESTACCURACY
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum _RILGEOLOCATIONREQUESTACCURACY {
 ### -field RIL_LOCACCURACY_HIGH
 
 
-
 ### -field RIL_LOCACCURACY_DEFAULT
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_BUS_RESET_NOTIFICATION
-title: _IRB_REQ_BUS_RESET_NOTIFICATION
+title: "_IRB_REQ_BUS_RESET_NOTIFICATION"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a bus reset notification request.
 old-location: ieee\irb_req_bus_reset_notification.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 3EF9BB26-81B2-4ED7-A934-AF3E73B650A0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_BUS_RESET_NOTIFICATION, IEEE.irb_req_bus_reset_notification, IRB_REQ_BUS_RESET_NOTIFICATION, IRB_REQ_BUS_RESET_NOTIFICATION structure [Buses], 1394/IRB_REQ_BUS_RESET_NOTIFICATION
+ms.keywords: "_IRB_REQ_BUS_RESET_NOTIFICATION, 1394/IRB_REQ_BUS_RESET_NOTIFICATION, IRB_REQ_BUS_RESET_NOTIFICATION structure [Buses], IRB_REQ_BUS_RESET_NOTIFICATION, IEEE.irb_req_bus_reset_notification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_BUS_RESET_NOTIFICATION
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ typedef struct _IRB_REQ_BUS_RESET_NOTIFICATION {
 ### -field fulFlags
 
 Specifies whether a callback should be registered or deactivated. Use REGISTER_NOTIFICATION_ROUTINE to register <b>ResetRoutine</b> as the callback. Use DEREGISTER_NOTIFICATION_ROUTINE to deactivate any previously registered callback.
-<div class="alert"><b>Note</b>  In Windows 7 and later, set the EXTENDED_NOTIFICATION_ROUTINE flag  to register for extended bus reset notifications supported by the new IEEE 1394 bus driver. This notification returns information about the current generation of the bus, such as the generation count and node ids, to 1394 client drivers in the context of the bus reset notification.</div><div> </div>
+
+<div class="alert"><b>Note</b>  In Windows 7 and later, set the EXTENDED_NOTIFICATION_ROUTINE flag  to register for extended bus reset notifications supported by the new IEEE 1394 bus driver. This notification returns information about the current generation of the bus, such as the generation count and node ids, to 1394 client drivers in the context of the bus reset notification.</div>
+<div> </div>
 
 ### -field ResetRoutine
 
 Points to the notification routine for bus resets. The notification routine parameters follow this prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>

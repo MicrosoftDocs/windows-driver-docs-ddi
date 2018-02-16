@@ -7,8 +7,8 @@ old-location: print\oemstartbanding.htm
 old-project: print
 ms.assetid: dc9a1cf4-89d5-46d4-b914-1bc8368d3a42
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.oemstartbanding, printoem/OEMStartBanding, print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml, OEMStartBanding function [Print Devices], OEMStartBanding
+ms.date: 2/2/2018
+ms.keywords: OEMStartBanding function [Print Devices], printoem/OEMStartBanding, print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml, OEMStartBanding, print.oemstartbanding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Printoem.h
-apiname: 
+apiname:
 -	OEMStartBanding
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ BOOL APIENTRY OEMStartBanding(
 ### -param pso
 
 
-
 ### -param pptl
-
 

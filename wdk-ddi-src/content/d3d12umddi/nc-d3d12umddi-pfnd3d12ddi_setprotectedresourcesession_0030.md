@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030
 product: Windows
 targetos: Windows
@@ -71,8 +71,9 @@ VOID APIENTRY* PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HPROTECTEDRESOURCESESSION_0030
+
+
 
 
 
@@ -92,6 +93,8 @@ The protected resource session.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

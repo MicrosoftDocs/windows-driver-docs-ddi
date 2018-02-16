@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 78D46903-A13D-4BC2-803F-E1656A43E865
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spb_controller_config_init, spbcx/SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT function [Buses], SPB_CONTROLLER_CONFIG_INIT
+ms.keywords: SPB.spb_controller_config_init, SPB_CONTROLLER_CONFIG_INIT, spbcx/SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Spbcx.h
-apiname: 
+apiname:
 -	SPB_CONTROLLER_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -76,14 +76,18 @@ A pointer to the <b>SPB_CONTROLLER_CONFIG</b> structure that is to be initialize
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 Your SPB controller driver must use this function to initialize an <b>SPB_CONTROLLER_CONFIG</b> structure before passing this structure as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a> method. This method completes the initialization of the SPB framework extension (SpbCx).
+
 
 
 
@@ -91,7 +95,11 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONTRO
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a>
+
+
 
  
 

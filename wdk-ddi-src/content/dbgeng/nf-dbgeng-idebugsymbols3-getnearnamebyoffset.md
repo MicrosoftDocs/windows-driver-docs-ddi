@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bcda26ae-484e-41b9-b86a-552b5cecb9a7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getnearnamebyoffset, IDebugSymbols::GetNearNameByOffset, dbgeng/IDebugSymbols::GetNearNameByOffset, GetNearNameByOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetNearNameByOffset method, IDebugSymbols2::GetNearNameByOffset, GetNearNameByOffset method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetNearNameByOffset, IDebugSymbols_cdd9bec8-6fe8-4523-ac98-df3ce90fd073.xml, GetNearNameByOffset, GetNearNameByOffset method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffset method, dbgeng/IDebugSymbols2::GetNearNameByOffset, IDebugSymbols interface [Windows Debugging], GetNearNameByOffset method, IDebugSymbols3, IDebugSymbols3::GetNearNameByOffset, GetNearNameByOffset method [Windows Debugging], IDebugSymbols interface
+ms.keywords: IDebugSymbols::GetNearNameByOffset, dbgeng/IDebugSymbols3::GetNearNameByOffset, debugger.getnearnamebyoffset, IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffset method, IDebugSymbols3::GetNearNameByOffset, dbgeng/IDebugSymbols::GetNearNameByOffset, GetNearNameByOffset method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_cdd9bec8-6fe8-4523-ac98-df3ce90fd073.xml, GetNearNameByOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetNearNameByOffset, dbgeng/IDebugSymbols2::GetNearNameByOffset, GetNearNameByOffset, IDebugSymbols2, IDebugSymbols3, IDebugSymbols interface [Windows Debugging], GetNearNameByOffset method, GetNearNameByOffset method [Windows Debugging], IDebugSymbols3 interface, GetNearNameByOffset method [Windows Debugging], IDebugSymbols, IDebugSymbols2 interface [Windows Debugging], GetNearNameByOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetNearNameByOffset
 -	IDebugSymbols2.GetNearNameByOffset
 -	IDebugSymbols3.GetNearNameByOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetNearNameByOffset method
@@ -107,7 +107,9 @@ Receives the difference between the value of <i>Offset</i> and the location in t
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -146,11 +148,14 @@ No symbol matching the specifications of <i>Offset</i> and <i>Delta</i> was foun
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 By increasing or decreasing the value of <i>Delta</i>, these methods can be used to iterate over the target's symbols starting at a particular location.
@@ -161,17 +166,28 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547183">GetNameByOffset</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

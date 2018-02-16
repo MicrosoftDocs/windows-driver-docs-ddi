@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfnamedpropertystore2_deletenamedvalue, IWDFNamedPropertyStore2::DeleteNamedValue, DeleteNamedValue, DeleteNamedValue method, DeleteNamedValue method, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, IWDFNamedPropertyStore2, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
+ms.keywords: DeleteNamedValue method, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, IWDFNamedPropertyStore2::DeleteNamedValue, umdf.iwdfnamedpropertystore2_deletenamedvalue, IWDFNamedPropertyStore2, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, DeleteNamedValue, DeleteNamedValue method, IWDFNamedPropertyStore2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFNamedPropertyStore2.DeleteNamedValue
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,9 @@ A pointer to a <b>null</b>-terminated string that contains a registry value name
 ## -returns
 
 
+
 <b>DeleteNamedValue</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,13 +97,16 @@ The caller provided an invalid input argument.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
 
 
+
 ## -remarks
+
 
 
 Before a driver calls <b>DeleteNamedValue</b>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> to obtain the <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a> interface.
@@ -109,12 +114,46 @@ Before a driver calls <b>DeleteNamedValue</b>, it must call <a href="https://msd
 For more information about accessing the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
 
+#### Examples
+
+The following code example is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> callback function for a device object. If the driver had previously added a value to the registry's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">DEVICEMAP key</a>, the callback function deletes the value.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
+CMyDevice::OnCleanup(
+ IWDFObject*  pWdfObject
+)
+{
+    UNREFERENCED_PARAMETER(pWdfObject);
+ 
+    if ((m_CreatedLegacyHardwareKey == TRUE) &amp;&amp; 
+        (m_LegacyHardwarePropertyStore != NULL))
+    {
+        m_LegacyHardwarePropertyStore-&gt;DeleteNamedValue(m_PdoName);
+        SAFE_RELEASE(m_LegacyHardwarePropertyStore);
+        delete[] m_PdoName;
+    }    
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
+
 
  
 

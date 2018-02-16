@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 84c3937f-8042-4b15-b5bb-884d14a97a8c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RemoveEntryList, k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, RemoveEntryList, kernel.removeentrylist, RemoveEntryList routine [Kernel-Mode Driver Architecture]
+ms.keywords: RemoveEntryList routine [Kernel-Mode Driver Architecture], wdm/RemoveEntryList, k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, kernel.removeentrylist, RemoveEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	RemoveEntryList
 product: Windows
 targetos: Windows
@@ -76,17 +76,25 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 ## -returns
 
 
+
 <b>RemoveEntryList</b> returns <b>TRUE</b> if, after removal of the designated entry, the list is empty. Otherwise, the routine returns <b>FALSE</b> to indicate that the resulting list still contains one or more entries. For information, see Remarks.
-<div class="alert"><b>Note</b>  Before Microsoft Windows Server 2003, <b>RemoveEntryList</b> was defined to return VOID, not BOOLEAN.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Before Microsoft Windows Server 2003, <b>RemoveEntryList</b> was defined to return VOID, not BOOLEAN.</div>
+<div> </div>
+
 
 
 ## -remarks
 
 
+
 <b>RemoveEntryList</b> removes the entry by setting the <b>Flink</b> member of the entry before <i>Entry</i> to point to the entry after <i>Entry</i>, and the <b>Blink</b> member of the entry after <i>Entry</i> to point to the entry before <i>Entry</i>.
 
 The return value can be used to detect when the last entry is removed from the list. An empty list consists of a list head only and no list entries.
-<div class="alert"><b>Note</b>  Typically, <i>Entry</i> points to an entry in a list and not to the list head. However, <i>Entry</i> can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When <b>RemoveEntryList</b> is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a> routine.</div><div> </div>For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+
+<div class="alert"><b>Note</b>  Typically, <i>Entry</i> points to an entry in a list and not to the list head. However, <i>Entry</i> can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When <b>RemoveEntryList</b> is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a> routine.</div>
+<div> </div>
+For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
 In Windows XP and Windows 2000, <b>RemoveEntryList</b> did not return a value. Starting with Windows Server 2003, <b>RemoveEntryList</b> returns a BOOLEAN value.
 
@@ -94,15 +102,24 @@ Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryL
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
+
+
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+
+
+
 <a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+
 
 <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+
 
  
 

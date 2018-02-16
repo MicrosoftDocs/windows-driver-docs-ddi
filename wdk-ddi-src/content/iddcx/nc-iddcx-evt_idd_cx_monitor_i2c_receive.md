@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	PFN_IDD_CX_MONITOR_I2C_RECEIVE
 product: Windows
 targetos: Windows
@@ -91,12 +91,15 @@ typedef EVT_IDD_CX_MONITOR_I2C_RECEIVE PFN_IDD_CX_MONITOR_I2C_RECEIVE;
 
 
 
+
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
                     
 
 
 
+
 ## -remarks
+
 
 
 The <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> function is responsible for signaling the I2C start condition, sending the I2C address,
@@ -118,5 +121,6 @@ If the display adapter supports HDCP, <b>EVT_IDD_CX_MONITOR_I2C_RECIEVE</b> must
  device has an I2C address that is used by HDCP.
  This function  can receive data from an I2C device in a monitor that is connected to the display adapter, but must never receive data from an I2C
  device that is on the display adapter itself.
+
 
 

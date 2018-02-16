@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 357a97e6-cb19-43df-9b90-db199c712878
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kereleasesemaphore, k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], KeReleaseSemaphore, wdm/KeReleaseSemaphore
+ms.keywords: k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, kernel.kereleasesemaphore, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], KeReleaseSemaphore, wdm/KeReleaseSemaphore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeReleaseSemaphore
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Specifies whether the call to <b>KeReleaseSemaphore</b> is to be followed <u>imm
 ## -returns
 
 
+
 If the return value is zero, the previous state of the semaphore object is not-signaled. 
 
 
 
+
 ## -remarks
+
 
 
 <b>KeReleaseSemaphore</b> supplies a run-time priority boost for waiting threads. If this call sets the semaphore to the signaled state, the semaphore count is augmented by the specified value. The caller can also specify whether it will call one of the <b>KeWait<i>Xxx</i></b> routines as soon as <b>KeReleaseSemaphore</b> returns control.
@@ -119,17 +122,28 @@ Callers of <b>KeReleaseSemaphore</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-kereadstatesemaphore.md">KeReadStateSemaphore</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
 
 <a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
+
+
 <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
 
  
 

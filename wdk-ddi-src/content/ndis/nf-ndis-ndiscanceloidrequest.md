@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4cb12ac3-7cb6-4773-b680-d77a55b19246
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCancelOidRequest, NdisCancelOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCancelOidRequest, ndis_request_ref_5f7f8a9a-f773-4ca8-aba3-21fe74431e0c.xml, netvista.ndiscanceloidrequest
+ms.keywords: netvista.ndiscanceloidrequest, ndis_request_ref_5f7f8a9a-f773-4ca8-aba3-21fe74431e0c.xml, NdisCancelOidRequest, ndis/NdisCancelOidRequest, NdisCancelOidRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCancelOidRequest
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCancelOidRequest function
@@ -87,11 +87,14 @@ A cancellation identifier for the request. This identifier specifies the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Protocol drivers call this function to cancel a previously issued request. The request ID that is
@@ -103,13 +106,20 @@ Protocol drivers call this function to cancel a previously issued request. The r
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+
+
 
  
 

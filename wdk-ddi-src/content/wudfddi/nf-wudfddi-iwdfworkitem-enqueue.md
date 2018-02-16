@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61A889D5-122F-4091-90D6-EDD43D52A14A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfworkitem_enqueue, wudfddi/IWDFWorkItem::Enqueue, Enqueue method, IWDFWorkItem interface, umdf.iwdfworkitem_enqueue, IWDFWorkItem, IWDFWorkItem::Enqueue, Enqueue method, Enqueue, IWDFWorkItem interface, Enqueue method
+ms.keywords: Enqueue method, IWDFWorkItem interface, Enqueue method, IWDFWorkItem, Enqueue, IWDFWorkItem::Enqueue, umdf.iwdfworkitem_enqueue, Enqueue method, IWDFWorkItem interface, wudfddi/IWDFWorkItem::Enqueue, wdf.iwdfworkitem_enqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFWorkItem.Enqueue
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -71,14 +71,18 @@ void Enqueue();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> again for the same work item before a worker thread has removed the work item from the queue and called the driver’s <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function.
@@ -89,11 +93,16 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 
 
+
 ## -see-also
+
+<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
+
 
 <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+
 
  
 

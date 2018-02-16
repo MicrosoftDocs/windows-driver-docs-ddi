@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_ENUMHANDLECHILDREN
-title: _DXGKARGCB_ENUMHANDLECHILDREN
+title: "_DXGKARGCB_ENUMHANDLECHILDREN"
 author: windows-driver-content
 description: The DXGKARGCB_ENUMHANDLECHILDREN structure describes a parent resource and the index of one of its child allocations.
 old-location: display\dxgkargcb_enumhandlechildren.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: da97b175-a24c-406d-9747-c84122781f79
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkargcb_enumhandlechildren, _DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN, DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices], d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN
+ms.keywords: DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, display.dxgkargcb_enumhandlechildren, d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN, _DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARGCB_ENUMHANDLECHILDREN
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct _DXGKARGCB_ENUMHANDLECHILDREN {
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
+
+
 
  
 

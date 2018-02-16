@@ -7,8 +7,8 @@ old-location: ifsk\iosetinformation.htm
 old-project: ifsk
 ms.assetid: 6eedef2d-9fa5-4001-9246-7445198c4386
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: IoSetInformation function [Installable File System Drivers], ifsk.iosetinformation, IoSetInformation, ntifs/IoSetInformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml
+ms.date: 2/7/2018
+ms.keywords: IoSetInformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, ifsk.iosetinformation, ntifs/IoSetInformation, IoSetInformation function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	IoSetInformation
 product: Windows
 targetos: Windows

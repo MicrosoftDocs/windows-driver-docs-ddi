@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cad43c7-00f0-4590-997c-f956afe07e55
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortGetDeviceBase routine [Storage Devices], storage.ataportgetdevicebase, irb/AtaPortGetDeviceBase, atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, AtaPortGetDeviceBase
+ms.keywords: atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, storage.ataportgetdevicebase, AtaPortGetDeviceBase, AtaPortGetDeviceBase routine [Storage Devices], irb/AtaPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortGetDeviceBase
 product: Windows
 targetos: Windows
@@ -90,14 +90,18 @@ Specifies the size, in bytes, of the range that the mappings should cover. The v
 ## -returns
 
 
+
 <b>AtaPortGetDeviceBase</b> returns a mapped logical base address if the operation succeeds. Otherwise, it returns <b>NULL</b>. 
+
 
 
 
 ## -remarks
 
 
+
 Miniport drivers must use logical addresses that have been mapped into system space by <b>AtaPortGetDeviceBase</b> instead of bus-relative addresses to communicate with its HBA. Calls to the <b>AtaPort...Port/Register</b><i>Xxx</i> routines require mapped logical addresses.
+
 
 
 
@@ -105,9 +109,15 @@ Miniport drivers must use logical addresses that have been mapped into system sp
 
 <a href="..\irb\nf-irb-ataportreadportushort.md">AtaPortReadPortUshort</a>
 
-<a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+
 
 <a href="..\irb\nf-irb-ataportreadportulong.md">AtaPortReadPortUlong</a>
+
+
+
+<a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+
+
 
  
 

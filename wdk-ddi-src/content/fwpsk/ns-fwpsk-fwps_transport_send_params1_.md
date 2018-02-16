@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d5653e4-a755-4066-b25a-f8f589821412
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_TRANSPORT_SEND_PARAMS1, FWPS_TRANSPORT_SEND_PARAMS1, netvista.fwps_transport_send_params1, FWPS_TRANSPORT_SEND_PARAMS1_, FWPS_TRANSPORT_SEND_PARAMS1 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_P-Z_55024e38-5ae1-4a2c-8595-2722e481a947.xml
+ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_55024e38-5ae1-4a2c-8595-2722e481a947.xml, FWPS_TRANSPORT_SEND_PARAMS1 structure [Network Drivers Starting with Windows Vista], FWPS_TRANSPORT_SEND_PARAMS1_, fwpsk/FWPS_TRANSPORT_SEND_PARAMS1, FWPS_TRANSPORT_SEND_PARAMS1, netvista.fwps_transport_send_params1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_TRANSPORT_SEND_PARAMS1
 product: Windows
 targetos: Windows
@@ -84,8 +84,8 @@ A pointer to a buffer that specifies the remote IP address to which the socket n
 The buffer can contain an IPv4 address (4 bytes) or an IPv6 address (16 bytes), and the address must
      be specified in network byte order. The IP version must match the 
      <i>AddressFamily</i> parameter specified in the 
-     <mshelp:link keywords="netvista.fwpsinjecttransportsendasync1" tabindex="0"><b>
-     FwpsInjectTransportSendAsync1</b></mshelp:link> function.
+     <a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">
+     FwpsInjectTransportSendAsync1</a> function.
 
 The buffer must remain valid until the injection completion function is called.
 
@@ -95,11 +95,12 @@ The buffer must remain valid until the injection completion function is called.
 A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP address. The scope
      identifier is provided to a callout through the 
      <b>remoteScopeId</b> member of the 
-     <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-     FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link> structure that is passed to the callout driver's 
+     <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+     FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. The <b>SCOPE_ID</b>
      structure is defined in 
      Ws2ipdef.h as follows.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -125,22 +126,6 @@ A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP
 
 
 
-#### - headerIncludeHeaderLength
-
-The length, in bytes, of the 
-     <b>headerIncludeHeader</b> member.
-
-
-#### - headerIncludeHeader
-
-The transport header to include.
-
-
-#### - controlDataLength
-
-The length, in bytes, of the 
-     <b>controlData</b> member.
-
 
 #### - controlData
 
@@ -150,8 +135,8 @@ An optional pointer to a buffer that contains socket control data specified by t
 
 If present, socket control data is provided to a callout with the 
       <b>controlData</b> member of the 
-      <mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-      FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link> structure that is passed to the callout driver's 
+      <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+      FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
 
 If socket control data is not <b>NULL</b>, it must be deep-copied in the callout driver's implementation
@@ -161,19 +146,46 @@ If socket control data is not <b>NULL</b>, it must be deep-copied in the callout
       function is called.
 
 
+#### - controlDataLength
+
+The length, in bytes, of the 
+     <b>controlData</b> member.
+
+
+#### - headerIncludeHeader
+
+The transport header to include.
+
+
+#### - headerIncludeHeaderLength
+
+The length, in bytes, of the 
+     <b>headerIncludeHeader</b> member.
+
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
-
-<mshelp:link keywords="netvista.fwpsinjecttransportsendasync1" tabindex="0"><b>
-   FwpsInjectTransportSendAsync1</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
-<mshelp:link keywords="netvista.fwps_incoming_metadata_values0" tabindex="0"><b>
-   FWPS_INCOMING_METADATA_VALUES0</b></mshelp:link>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
 
 <a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjecttransportsendasync1.md">
+   FwpsInjectTransportSendAsync1</a>
+
+
 
  
 

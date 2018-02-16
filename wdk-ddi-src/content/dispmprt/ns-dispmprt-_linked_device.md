@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._LINKED_DEVICE
-title: _LINKED_DEVICE
+title: "_LINKED_DEVICE"
 author: windows-driver-content
 description: The LINKED_DEVICE structure holds information that describes a linked display adapter configuration.
 old-location: display\linked_device.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65289123-46b8-4a4b-985a-8087f4afd250
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LINKED_DEVICE, dispmprt/LINKED_DEVICE, _LINKED_DEVICE, dispmprt/PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], LINKED_DEVICE structure [Display Devices], PLINKED_DEVICE, display.linked_device, *PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml
+ms.keywords: dispmprt/LINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], _LINKED_DEVICE, *PLINKED_DEVICE, display.linked_device, LINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, dispmprt/PLINKED_DEVICE, LINKED_DEVICE structure [Display Devices], PLINKED_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	LINKED_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: LINKED_DEVICE, *PLINKED_DEVICE
+req.typenames: "*PLINKED_DEVICE, LINKED_DEVICE"
 ---
 
 # _LINKED_DEVICE structure
@@ -87,13 +87,17 @@ A value that indicates the leading link in the chain of linked adapters. The val
 ## -remarks
 
 
+
 Prior to a call to <a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a>, the display miniport driver should fill the LINKED_DEVICE structure with information about the linked adapter configuration.
+
 
 
 
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a>
+
+
 
  
 

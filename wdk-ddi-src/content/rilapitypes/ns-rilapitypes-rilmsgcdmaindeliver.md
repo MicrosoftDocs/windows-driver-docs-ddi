@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0729c3e5-c95d-44fb-9aa4-079833b94619
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, rilapitypes/RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaindeliver_2
+ms.keywords: RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], *LPRILMSGCDMAINDELIVER, rilapitypes/RILMSGCDMAINDELIVER, netvista.rilmsgcdmaindeliver_2, RILMSGCDMAINDELIVER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCDMAINDELIVER
 product: Windows
 targetos: Windows
-req.typenames: RILMSGCDMAINDELIVER, *LPRILMSGCDMAINDELIVER
+req.typenames: "*LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER"
 req.product: Windows 10 or later.
 ---
 
@@ -93,91 +93,68 @@ typedef struct _RILMSGCDMAINDELIVER {
 ### -field raOrigAddress
 
 
-
 ### -field rsaOrigSubaddr
-
 
 
 ### -field stSCReceiveTime
 
 
-
 ### -field stValidityPeriodAbs
-
 
 
 ### -field stValidityPeriodRel
 
 
-
 ### -field stDeferredDelTimeAbs
-
 
 
 ### -field stDeferredDelTimeRel
 
 
-
 ### -field dwNumMsgs
-
 
 
 ### -field raCallBackNumber
 
 
-
 ### -field dwMsgPriority
-
 
 
 ### -field dwAlertOnMsgDelivery
 
 
-
 ### -field dwMsgPrivacy
-
 
 
 ### -field bUserAckRequest
 
 
-
 ### -field dwMsgDisplayMode
-
 
 
 ### -field dwTeleservice
 
 
-
 ### -field dwServiceID
-
 
 
 ### -field dwMsgID
 
 
-
 ### -field dwMsgLang
-
 
 
 ### -field dwMsgEncoding
 
 
-
 ### -field cbHdrLength
-
 
 
 ### -field cchMsgLength
 
 
-
 ### -field rgbHdr
 
 
-
 ### -field rgbMsg
-
 

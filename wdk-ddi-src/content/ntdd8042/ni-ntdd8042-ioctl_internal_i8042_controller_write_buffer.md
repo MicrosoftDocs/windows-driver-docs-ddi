@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdd8042.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
 ---
 
 # IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER IOCTL
@@ -88,14 +88,18 @@ None
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

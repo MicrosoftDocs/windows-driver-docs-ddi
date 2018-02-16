@@ -7,8 +7,8 @@ old-location: print\iprintwritestreamflush_flushdata.htm
 old-project: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush interface [Print Devices], FlushData method, print.iprintwritestreamflush_flushdata, FlushData method [Print Devices], IPrintWriteStreamFlush, FlushData, FlushData method [Print Devices], IPrintWriteStreamFlush interface, filterpipeline/IPrintWriteStreamFlush::FlushData
+ms.date: 2/2/2018
+ms.keywords: print.iprintwritestreamflush_flushdata, IPrintWriteStreamFlush, FlushData, IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush interface [Print Devices], FlushData method, filterpipeline/IPrintWriteStreamFlush::FlushData, FlushData method [Print Devices], FlushData method [Print Devices], IPrintWriteStreamFlush interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintWriteStreamFlush.FlushData
 product: Windows
 targetos: Windows
@@ -68,6 +68,7 @@ HRESULT FlushData(
 
 
 
+
 #### - None
 
 None
@@ -76,14 +77,47 @@ None
 ## -returns
 
 
+
 The FlushData method returns an HRESULT value.
+
 
 
 
 ## -remarks
 
 
+
 Only the last filter in the print filter pipeline benefits from the flush. The data is flushed to the port monitor. However, the port monitor has the option of using  buffers.
+
+
+#### Examples
+
+The following code snippet shows how to flush data to a data stream. Note that error checking has been omitted for clarity.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// Flushing data to a data stream
+// ------------------------------
+// Declare a pointer to an IPrintWriteStreamFlush interface
+IPrintWriteStreamFlush *pIFlush;
+
+// Retireve a pointer to an IPrintWriteStream interface 
+// by using the RequestWriter() method in InitializeFilter()
+IPrintWriteStream      *pIWrite;
+
+HRESULT hr = pIWrite-&gt;QueryInterface(IID_IPrintWriteStreamFlush, reinterpret_cast&lt;void **&gt;(&amp;pIFlush));
+
+hr = pIWrite-&gt;WriteBytes(buf, cb, &amp;cbWritten);
+
+hr = pIFlush-&gt;FlushData();
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -91,11 +125,15 @@ Only the last filter in the print filter pipeline benefits from the flush. The d
 
 <a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintWriteStreamFlush::FlushData method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintWriteStreamFlush::FlushData method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

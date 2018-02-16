@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8832adbc-c2ab-4742-94a0-4e33d03eaaf1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netdma/NetDmaDeregisterProvider, netvista.netdmaderegisterprovider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, NetDmaDeregisterProvider, NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista]
+ms.keywords: NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netvista.netdmaderegisterprovider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, NetDmaDeregisterProvider, netdma/NetDmaDeregisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NetDmaDeregisterProvider
 product: Windows
 targetos: Windows
@@ -74,25 +74,28 @@ VOID NetDmaDeregisterProvider(
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-     NetDmaRegisterProvider</b></mshelp:link> function.
+     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     NetDmaRegisterProvider</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 DMA provider drivers call the 
     <b>NetDmaDeregisterProvider</b> function to deregister a DMA provider that was previously registered by
     calling the 
-    <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-    NetDmaRegisterProvider</b></mshelp:link> function.
+    <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+    NetDmaRegisterProvider</a> function.
 
 The DMA provider driver must call the 
     <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a> function before it
@@ -110,13 +113,20 @@ Call
 
 
 
+
 ## -see-also
 
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
 
+
+
 <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
+
+
 
  
 

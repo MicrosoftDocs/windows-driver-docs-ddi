@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2b03f010-cc3c-48a1-b86c-df470a832c94
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup::RemoveSymbolByName, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByName method, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup2 interface, ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, IDebugSymbolGroup::RemoveSymbolByName, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByName method, RemoveSymbolByName, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup interface, debugger.removesymbolbyname, IDebugSymbolGroup2::RemoveSymbolByName, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup2, RemoveSymbolByName method [Windows Debugging]
+ms.keywords: ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, dbgeng/IDebugSymbolGroup::RemoveSymbolByName, IDebugSymbolGroup interface [Windows Debugging], RemoveSymbolByName method, debugger.removesymbolbyname, IDebugSymbolGroup, IDebugSymbolGroup::RemoveSymbolByName, RemoveSymbolByName, IDebugSymbolGroup2, IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup2 interface [Windows Debugging], RemoveSymbolByName method, RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup interface, RemoveSymbolByName method [Windows Debugging], RemoveSymbolByName method [Windows Debugging], IDebugSymbolGroup2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbolGroup.RemoveSymbolByName
 -	IDebugSymbolGroup2.RemoveSymbolByName
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbolGroup2::RemoveSymbolByName method
@@ -76,7 +76,9 @@ The name of the symbol to remove from the symbol group.
 ## -returns
 
 
+
 <b>RemoveSymbolByName</b> might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,13 +95,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 When a symbol is removed, the indexes of the symbols that remain in the symbol group might change.
@@ -108,17 +113,28 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549121">GetSymbolName</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549121">GetSymbolName</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
+
+
 
  
 

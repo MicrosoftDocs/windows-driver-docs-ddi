@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
-title: _NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
+title: "_NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES"
 author: windows-driver-content
 description: The NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure specifies a driver-defined context area for an added device.
 old-location: netvista\ndis_miniport_add_device_registration_attributes.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e8b5dbf-2d56-4278-8953-8e21ba1cee06
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], ndis_msix_ref_e1fdccd6-c157-42e8-875e-bf5c77bfe5d9.xml, NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, netvista.ndis_miniport_add_device_registration_attributes, NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, ndis/NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, *PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
+ms.keywords: "*PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, netvista.ndis_miniport_add_device_registration_attributes, NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, ndis/NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], ndis_msix_ref_e1fdccd6-c157-42e8-875e-bf5c77bfe5d9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, *PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
+req.typenames: "*PNDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES, NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES"
 ---
 
 # _NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure
@@ -94,45 +94,63 @@ Reserved.
 ## -remarks
 
 
+
 Miniport drivers initialize an NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure in the 
     <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> function and pass
     this structure to the 
-    <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-    NdisMSetMiniportAttributes</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a> function.
 
 NDIS later passes the context handle in the 
     <b>MiniportAddDeviceContext</b> member of NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES to the 
     <i>MiniportAddDeviceContext</i> parameter of the 
     <a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>, 
     <a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>, and 
-    <mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-    MiniportFilterResourceRequirements</i></mshelp:link> functions. NDIS passes the same handle to the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+    MiniportFilterResourceRequirements</a> functions. NDIS passes the same handle to the 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function in
     the 
     <b>MiniportAddDeviceContext</b> member of the 
-    <mshelp:link keywords="netvista.ndis_miniport_init_parameters" tabindex="0"><b>
-    NDIS_MINIPORT_INIT_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">
+    NDIS_MINIPORT_INIT_PARAMETERS</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-   MiniportFilterResourceRequirements</i></mshelp:link>
+
 
 <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+<a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+
 
  
 

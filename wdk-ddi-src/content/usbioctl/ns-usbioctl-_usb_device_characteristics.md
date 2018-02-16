@@ -1,14 +1,14 @@
 ---
 UID: NS:usbioctl._USB_DEVICE_CHARACTERISTICS
-title: _USB_DEVICE_CHARACTERISTICS
+title: "_USB_DEVICE_CHARACTERISTICS"
 author: windows-driver-content
 description: Contains information about the USB device’s characteristics, such as the maximum send and receive delays for any request. This structure is used in the IOCTL_USB_GET_DEVICE_CHARACTERISTICS request.
 old-location: buses\usb_device_characteristics.htm
 old-project: usbref
 ms.assetid: D4A8DE43-3E81-4A1C-B1C0-ABE6000D9F11
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.usb_device_characteristics, USB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses], usbioctl/PUSB_DEVICE_CHARACTERISTICS, _USB_DEVICE_CHARACTERISTICS, usbioctl/USB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS structure [Buses], *PUSB_DEVICE_CHARACTERISTICS
+ms.date: 2/8/2018
+ms.keywords: buses.usb_device_characteristics, *PUSB_DEVICE_CHARACTERISTICS, usbioctl/USB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS, _USB_DEVICE_CHARACTERISTICS, usbioctl/PUSB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS structure [Buses], PUSB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbioctl.h
-apiname: 
+apiname:
 -	USB_DEVICE_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS
+req.typenames: "*PUSB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS"
 req.product: Windows 10 or later.
 ---
 
@@ -111,9 +111,11 @@ Contains the maximum delay in milliseconds the host controller completes any req
 
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_device_characteristics.md">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_DEVICE_CHARACTERISTICS structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_DEVICE_CHARACTERISTICS structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

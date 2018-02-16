@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddvol.h
-apiname: 
+apiname:
 -	IOCTL_VOLUME_OFFLINE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
+req.typenames: "*PVIDEO_WIN32K_CALLBACKS_PARAMS, VIDEO_WIN32K_CALLBACKS_PARAMS"
 ---
 
 # IOCTL_VOLUME_OFFLINE IOCTL
@@ -90,14 +90,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +113,8 @@ The <b>Status</b> member is set to STATUS_SUCCESS.
 ## -see-also
 
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_online.md">IOCTL_VOLUME_ONLINE</a>
+
+
 
  
 

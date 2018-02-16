@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbd3ad3a-cf16-490b-83fe-107a0d802406
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetSMSC, RIL_SetSMSC method [Network Drivers Starting with Windows Vista], RIL_SetSMSC, netvista.ril_setsmsc
+ms.keywords: RIL_SetSMSC method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetSMSC, RIL_SetSMSC, netvista.ril_setsmsc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SetSMSC
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_SetSMSC(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param lpraSvcCtrAddress
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

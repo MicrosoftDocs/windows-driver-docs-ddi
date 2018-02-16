@@ -7,7 +7,7 @@ old-location: audio\iminiportwavertstreamnotification.htm
 old-project: audio
 ms.assetid: e009c459-77f7-43ee-9e95-8408324b0a9b
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iminiportwavertstreamnotification, IMiniportWaveRTStreamNotification interface [Audio Devices], IMiniportWaveRTStreamNotification interface [Audio Devices], described, IMiniportWaveRTStreamNotification, portcls/IMiniportWaveRTStreamNotification, audmp-routines_a49bf74b-367b-44f4-b8de-a3adf6240b36.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWaveRTStreamNotification
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRTStreamNotification interface

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 881363B2-CF4C-4D18-9F45-829771A2D325
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_GeofenceState_Unknown, sensors.gnss_geofence_state, gnssdriver/GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Exited, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GEOFENCE_STATE, GNSS_GeofenceState_Exited, GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Unknown
+ms.keywords: gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Unknown, GNSS_GeofenceState_Unknown, GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Entered, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GEOFENCE_STATE, sensors.gnss_geofence_state, gnssdriver/GNSS_GeofenceState_Exited, GNSS_GeofenceState_Entered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_GEOFENCE_STATE
 product: Windows
 targetos: Windows

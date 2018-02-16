@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8853e0f8-1dd0-4cb5-8dbf-c1d4e62bb0ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DxgkServicesTimedOperation, DXGK_SERVICES enumeration [Display Devices], DxgkServicesDebugReport, DxgkServicesAgp, dispmprt/DxgkServicesAgp, DmEnums_340c8991-c135-47da-876d-2970157fea0b.xml, dispmprt/DxgkServicesDebugReport, DxgkServicesFirmwareTable, dispmprt/DXGK_SERVICES, DxgkServicesSPB, display.dxgk_services, DXGK_SERVICES, dispmprt/DxgkServicesBDD, dispmprt/DxgkServicesTimedOperation, DxgkServicesBDD, dispmprt/DxgkServicesSPB, dispmprt/DxgkServicesFirmwareTable
+ms.keywords: DxgkServicesBDD, DxgkServicesTimedOperation, dispmprt/DxgkServicesFirmwareTable, dispmprt/DxgkServicesDebugReport, DxgkServicesDebugReport, dispmprt/DxgkServicesTimedOperation, DXGK_SERVICES, DxgkServicesSPB, dispmprt/DXGK_SERVICES, display.dxgk_services, dispmprt/DxgkServicesBDD, DxgkServicesAgp, dispmprt/DxgkServicesSPB, DxgkServicesFirmwareTable, DmEnums_340c8991-c135-47da-876d-2970157fea0b.xml, DXGK_SERVICES enumeration [Display Devices], dispmprt/DxgkServicesAgp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_SERVICES
 product: Windows
 targetos: Windows
@@ -116,6 +116,8 @@ Supported starting with Windows 8.
 ## -remarks
 
 
+
 An interface, in this context, is a set of function pointers. The functions in the AGP, Debug Report, Timed Operation, SPB, and System Firmware Table interfaces are implemented by the Microsoft DirectX graphics kernel subsystem and called by the display miniport driver.
+
 
 

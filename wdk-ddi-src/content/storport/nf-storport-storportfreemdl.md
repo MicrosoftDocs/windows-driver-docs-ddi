@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5cbdda76-c02d-4fd4-8fa9-a783375ea292
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortFreeMdl routine [Storage Devices], StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml, storage.storportfreemdl, storport/StorPortFreeMdl
+ms.keywords: StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml, storage.storportfreemdl, storport/StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortFreeMdl
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ A pointer to the MDL to be freed.
 ## -returns
 
 
+
 StorPortFreeMdl returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,20 +134,26 @@ The call was made at an invalid IRQL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that was allocated in a previous call to <a href="..\storport\nf-storport-storportallocatemdl.md">StorPortAllocateMdl</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportallocatemdl.md">StorPortAllocateMdl</a>
+
+
 
  
 

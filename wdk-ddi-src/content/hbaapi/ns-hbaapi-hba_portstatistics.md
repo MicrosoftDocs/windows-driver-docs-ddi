@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3a0d6633-b4a6-4864-96ae-4f91de11daa1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SMHBA_FCPHYSTATISTICS, HBA_PORTSTATISTICS, hbaapi/PHBA_PORTSTATISTICS, storage.hba_portstatistics, *PHBA_PORTSTATISTICS, HBA_PortStatistics, *PSMHBA_FCPHYSTATISTICS, PHBA_PORTSTATISTICS, hbaapi/HBA_PortStatistics, HBA_PortStatistics structure [Storage Devices], PHBA_PORTSTATISTICS structure pointer [Storage Devices], HBA_PORTSTATISTICS structure [Storage Devices], structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml
+ms.keywords: "*PSMHBA_FCPHYSTATISTICS, HBA_PORTSTATISTICS structure [Storage Devices], SMHBA_FCPHYSTATISTICS, hbaapi/PHBA_PORTSTATISTICS, HBA_PortStatistics, storage.hba_portstatistics, HBA_PortStatistics structure [Storage Devices], PHBA_PORTSTATISTICS, *PHBA_PORTSTATISTICS, hbaapi/HBA_PortStatistics, HBA_PORTSTATISTICS, structs-Fibre_4c6c7237-af5e-415a-a7db-db594b1a5968.xml, PHBA_PORTSTATISTICS structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbaapi.h
-apiname: 
+apiname:
 -	HBA_PORTSTATISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PHBA_PORTSTATISTICS, HBA_PORTSTATISTICS
+req.typenames: HBA_PORTSTATISTICS, *PHBA_PORTSTATISTICS
 ---
 
 # HBA_PortStatistics structure
@@ -159,6 +159,8 @@ Reports the value of the invalid CRC count field of the link error status block 
 ## -see-also
 
 <a href="..\hbaapi\nf-hbaapi-hba_getportstatistics.md">HBA_GetPortStatistics</a>
+
+
 
  
 

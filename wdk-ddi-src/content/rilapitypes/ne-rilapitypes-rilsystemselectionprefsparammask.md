@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7ae85902-d990-45d9-9e9d-e609aea24091
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_SSP_PLMNINFO, netvista.rilsystemselectionprefsparammask_2, rilapitypes/RIL_PARAM_SSP_SYSTEMTYPES, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, rilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER, RIL_PARAM_SSP_MODE, RIL_PARAM_SSP_SYSTEMTYPES, rilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, rilapitypes/RIL_PARAM_SSP_ALL, rilapitypes/RIL_PARAM_SSP_MODE, RIL_PARAM_SSP_ROAMINGMODE, RIL_PARAM_SSP_ALL, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, RIL_PARAM_SSP_ACQUISITIONORDER, rilapitypes/RIL_PARAM_SSP_ROAMINGMODE, rilapitypes/RIL_PARAM_SSP_PLMNINFO, RILSYSTEMSELECTIONPREFSPARAMMASK
+ms.keywords: rilapitypes/RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, rilapitypes/RIL_PARAM_SSP_SYSTEMTYPES, rilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER, netvista.rilsystemselectionprefsparammask_2, RIL_PARAM_SSP_MODE, RIL_PARAM_SSP_ACQUISITIONORDER, RIL_PARAM_SSP_ROAMINGMODE, rilapitypes/RIL_PARAM_SSP_PLMNINFO, RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_SYSTEMTYPES, RILSYSTEMSELECTIONPREFSPARAMMASK, RIL_PARAM_SSP_PLMNINFO, rilapitypes/RIL_PARAM_SSP_ROAMINGMODE, rilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, rilapitypes/RIL_PARAM_SSP_MODE, rilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSYSTEMSELECTIONPREFSPARAMMASK
 product: Windows
 targetos: Windows
@@ -77,31 +77,23 @@ typedef enum _RILSYSTEMSELECTIONPREFSPARAMMASK {
 ### -field RIL_PARAM_SSP_EXECUTOR
 
 
-
 ### -field RIL_PARAM_SSP_SYSTEMTYPES
-
 
 
 ### -field RIL_PARAM_SSP_MODE
 
 
-
 ### -field RIL_PARAM_SSP_PLMNINFO
-
 
 
 ### -field RIL_PARAM_SSP_ROAMINGMODE
 
 
-
 ### -field RIL_PARAM_SSP_ACQUISITIONORDERSIZE
-
 
 
 ### -field RIL_PARAM_SSP_ACQUISITIONORDER
 
 
-
 ### -field RIL_PARAM_SSP_ALL
-
 

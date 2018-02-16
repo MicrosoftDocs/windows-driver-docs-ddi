@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2e13d7da-7ef3-4c2e-b028-f7d37548c208
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iostarttimer, k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, IoStartTimer routine [Kernel-Mode Driver Architecture], wdm/IoStartTimer, IoStartTimer
+ms.keywords: k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, IoStartTimer, kernel.iostarttimer, IoStartTimer routine [Kernel-Mode Driver Architecture], wdm/IoStartTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoStartTimer
 product: Windows
 targetos: Windows
@@ -76,14 +76,18 @@ Pointer to a device object whose timer routine is to be called.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The driver must already have set up the IoTimer routine for the <i>DeviceObject</i> by calling <b>IoInitializeTimer</b>. 
+
 
 
 
@@ -91,15 +95,27 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 <a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
 
-<a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
 
+
+
 <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
+
+
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+
+
 
  
 

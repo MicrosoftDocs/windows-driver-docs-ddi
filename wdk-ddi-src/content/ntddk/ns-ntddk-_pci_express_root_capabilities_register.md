@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
-title: _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
+title: "_PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_root_capabilities_register.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d4e6cc35-f6f1-4983-b4d6-2a524245fd15
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union [Buses], ntddk/PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union pointer [Buses], *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI.pci_express_root_capabilities_register, pci_struct_5b1d9283-10c9-40dc-8dc2-552ab7a2cab5.xml, _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
+ms.keywords: PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI.pci_express_root_capabilities_register, ntddk/PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union pointer [Buses], *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, pci_struct_5b1d9283-10c9-40dc-8dc2-552ab7a2cab5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: *PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
+req.typenames: "*PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER"
 ---
 
 # _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure
@@ -78,12 +78,12 @@ typedef union _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.CRSSoftwareVisibility
 
- 
+A single bit that indicates that the root port is capable of returning configuration request retry status (CRS) completion status to software.
 
 
 ### -field DUMMYSTRUCTNAME.Rsvd
 
- 
+Reserved.
 
 
 ### -field AsUSHORT
@@ -91,17 +91,8 @@ typedef union _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER {
 A USHORT representation of the contents of the PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure.
 
 
-#### - CRSSoftwareVisibility
-
-A single bit that indicates that the root port is capable of returning configuration request retry status (CRS) completion status to software.
-
-
-#### - Rsvd
-
-Reserved.
-
-
 ## -remarks
+
 
 
 The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
@@ -110,9 +101,12 @@ A PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure is contained in the <a href="
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
 
  
 

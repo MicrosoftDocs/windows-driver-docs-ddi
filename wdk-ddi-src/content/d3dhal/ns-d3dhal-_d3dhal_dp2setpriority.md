@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETPRIORITY
-title: _D3DHAL_DP2SETPRIORITY
+title: "_D3DHAL_DP2SETPRIORITY"
 author: windows-driver-content
 description: The D3DHAL_DP2SETPRIORITY structure is used to inform the driver of the priority of the texture specified by the handle dwDDDestSurface.
 old-location: display\d3dhal_dp2setpriority.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5101c150-b294-4bf4-b33c-f0fe0f54d727
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SETPRIORITY structure [Display Devices], d3dstrct_e6462000-a8f1-4181-ba23-4cda08b1edce.xml, d3dhal/D3DHAL_DP2SETPRIORITY, _D3DHAL_DP2SETPRIORITY, d3dhal/LPD3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY, LPD3DHAL_DP2SETPRIORITY structure pointer [Display Devices], LPD3DHAL_DP2SETPRIORITY, *LPD3DHAL_DP2SETPRIORITY, display.d3dhal_dp2setpriority
+ms.keywords: display.d3dhal_dp2setpriority, d3dstrct_e6462000-a8f1-4181-ba23-4cda08b1edce.xml, *LPD3DHAL_DP2SETPRIORITY, LPD3DHAL_DP2SETPRIORITY, _D3DHAL_DP2SETPRIORITY, d3dhal/LPD3DHAL_DP2SETPRIORITY, LPD3DHAL_DP2SETPRIORITY structure pointer [Display Devices], d3dhal/D3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2SETPRIORITY
 product: Windows
 targetos: Windows
@@ -81,8 +81,10 @@ Specifies the priority of the <b>dwDDDestSurface</b> texture. A texture's priori
 ## -remarks
 
 
+
 Drivers are notified of handles at texture creation time. The driver can expect to receive priority notifications only for driver-managed textures.
 
 Priorities determine when managed textures are to be evicted from memory. A texture assigned a low priority is evicted before a texture with a high priority. If two textures have the same priority, the texture that was used more recently is kept in memory; the other texture is evicted. 
+
 
 

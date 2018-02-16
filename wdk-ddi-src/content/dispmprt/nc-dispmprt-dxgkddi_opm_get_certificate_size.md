@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkDdiOPMGetCertificateSize
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ A pointer to a variable that receives the size, in bytes, of the certificate who
 ## -returns
 
 
+
 <i>DxgkDdiOPMGetCertificateSize</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,13 +153,16 @@ The display miniport driver's hardware functionality scan (HFS) failed or the di
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
 
 
+
 ## -remarks
+
 
 
 <i>DxgkDdiOPMGetCertificateSize</i> can retrieve the size of the display miniport driver's OPM certificate, User Accessible Bus (UAB) certificate, or Certified Output Protection Protocol (COPP) certificate. For information about these certificates, download the Output Content Protection document from the <a href="http://go.microsoft.com/fwlink/p/?linkid=204788">Output Content Protection and Windows Vista</a> website.
@@ -166,11 +171,16 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>
+
+
 
  
 

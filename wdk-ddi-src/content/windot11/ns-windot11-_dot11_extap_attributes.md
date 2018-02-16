@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_EXTAP_ATTRIBUTES
-title: _DOT11_EXTAP_ATTRIBUTES
+title: "_DOT11_EXTAP_ATTRIBUTES"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_extap_attributes.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0460357c-7180-45f0-a7ab-83c46c24ba68
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], netvista.dot11_extap_attributes, _DOT11_EXTAP_ATTRIBUTES, windot11/DOT11_EXTAP_ATTRIBUTES, PDOT11_EXTAP_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PDOT11_EXTAP_ATTRIBUTES, *PDOT11_EXTAP_ATTRIBUTES, Native_802.11_data_types_a1779e69-266e-4fa0-bbd2-01701b9b8772.xml, DOT11_EXTAP_ATTRIBUTES
+ms.keywords: windot11/PDOT11_EXTAP_ATTRIBUTES, _DOT11_EXTAP_ATTRIBUTES, windot11/DOT11_EXTAP_ATTRIBUTES, PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES, Native_802.11_data_types_a1779e69-266e-4fa0-bbd2-01701b9b8772.xml, *PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_EXTAP_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extap_attributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_EXTAP_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: DOT11_EXTAP_ATTRIBUTES, *PDOT11_EXTAP_ATTRIBUTES
+req.typenames: "*PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES"
 req.product: Windows 10 or later.
 ---
 
@@ -94,6 +94,25 @@ The miniport driver must set the members of
 
 
 
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+
+#### Revision
+
+This member must be set to DOT11_EXTAP_ATTRIBUTES_REVISION_1.
+
+
+
+#### Size
+
+This member must be set to 
+       <b>sizeof</b>(DOT11_EXTAP_ATTRIBUTES).
+
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -116,8 +135,8 @@ The maximum number of entries in the desired list of basic service set identifie
      
 
 For more information about the desired BSSID list, see 
-     <mshelp:link keywords="netvista.oid_dot11_desired_bssid_list" tabindex="0">
-     OID_DOT11_DESIRED_BSSID_LIST</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
+     OID_DOT11_DESIRED_BSSID_LIST</a>.
 
 
 ### -field uPrivacyExemptionListSize
@@ -127,8 +146,8 @@ The maximum number of entries in the privacy exemption list supported by the 802
      
 
 For more information about the privacy exemption list, see 
-     <mshelp:link keywords="netvista.oid_dot11_privacy_exemption_list" tabindex="0">
-     OID_DOT11_PRIVACY_EXEMPTION_LIST</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+     OID_DOT11_PRIVACY_EXEMPTION_LIST</a>.
 
 
 ### -field uAssociationTableSize
@@ -162,6 +181,7 @@ The maximum length, in bytes, of a WEP cipher key supported by the 802.11 statio
 The following table lists the minimum and maximum key lengths, in bytes, for the various WEP cipher
      values defined through 
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
+
 <table>
 <tr>
 <th>
@@ -219,7 +239,8 @@ Any length supported by the 802.11 station
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bStrictlyOrderedServiceClassImplemented
@@ -247,8 +268,8 @@ If the 802.11 station does not support the IEEE 802.11d-2001 standard, the minip
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11
      station. Each entry in the array is formatted as a 
-     <mshelp:link keywords="netvista.dot11_country_or_region_string" tabindex="0"><b>
-     DOT11_COUNTRY_OR_REGION_STRING</b></mshelp:link> structure.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+     DOT11_COUNTRY_OR_REGION_STRING</a> structure.
 
 
 ### -field pSupportedCountryOrRegionStrings.size_is
@@ -277,8 +298,8 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
      sending and receiving unicast packets in an infrastructure BSS network. Each entry in the array is
      formatted as a 
-     <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
-     DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structure.
+     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
+     DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
 ### -field pInfraSupportedUcastAlgoPairs.size_is
@@ -307,8 +328,8 @@ The number of authentication and cipher algorithms supported by the 802.11 stati
 A pointer to an array of authentication and cipher algorithms supported by the 802.11 station for
      sending and receiving multicast and broadcast packets in an infrastructure BSS network. Each entry in
      the array is formatted as a 
-     <mshelp:link keywords="netvista.dot11_auth_cipher_pair" tabindex="0"><b>
-     DOT11_AUTH_CIPHER_PAIR</b></mshelp:link> structure.
+     <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
+     DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
 ### -field pInfraSupportedMcastAlgoPairs.size_is
@@ -322,41 +343,42 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_EXTAP_ATTRIBUTES_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <b>sizeof</b>(DOT11_EXTAP_ATTRIBUTES).
-
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a>
-
-<mshelp:link keywords="netvista.oid_dot11_privacy_exemption_list" tabindex="0">
-   OID_DOT11_PRIVACY_EXEMPTION_LIST</mshelp:link>
-
 <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
-<mshelp:link keywords="netvista.dot11_country_or_region_string" tabindex="0"><b>
-   DOT11_COUNTRY_OR_REGION_STRING</b></mshelp:link>
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
+<a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+   DOT11_COUNTRY_OR_REGION_STRING</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+   OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
 
  
 

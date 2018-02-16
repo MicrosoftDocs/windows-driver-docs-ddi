@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fc95f5c8-2892-479d-ac25-32c07e9c7aab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml, storage.tapeclassphysicalblocktologicalblock, minitape/TapeClassPhysicalBlockToLogicalBlock, TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices], TapeClassPhysicalBlockToLogicalBlock
+ms.keywords: TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices], storage.tapeclassphysicalblocktologicalblock, tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml, minitape/TapeClassPhysicalBlockToLogicalBlock, TapeClassPhysicalBlockToLogicalBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Tape.lib
 -	Tape.dll
-apiname: 
+apiname:
 -	TapeClassPhysicalBlockToLogicalBlock
 product: Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
 ---
 
 # TapeClassPhysicalBlockToLogicalBlock function
@@ -94,11 +94,14 @@ Specifies the logical block size, in bytes.
 ## -returns
 
 
+
 <b>TapeClassPhysicalBlockToLogicalBlock</b> returns the logical block address.
 
 
 
+
 ## -remarks
+
 
 
 A tape miniclass driver calls <b>TapeClassPhysicalBlockToLogicalBlock</b> to translate a physical block address from a tape device to a logical block address for an application. <b>TapeClassPhysicalBlockToLogicalBlock</b> is not necessary for SCSI-2 or later drivers because devices that comply with SCSI-2 or later standards support logical block addressing.
@@ -107,9 +110,12 @@ If a tape miniclass driver calls this routine with an unsupported tape density c
 
 
 
+
 ## -see-also
 
 <a href="..\minitape\nf-minitape-tapeclasslogicalblocktophysicalblock.md">TapeClassLogicalBlockToPhysicalBlock</a>
+
+
 
  
 

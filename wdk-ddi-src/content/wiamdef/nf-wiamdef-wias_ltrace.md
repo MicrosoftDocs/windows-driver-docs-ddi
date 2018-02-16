@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 513fd718-3d35-4a7b-be28-b002a8108e86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_LTRACE macro [Imaging Devices], wiamdef/WIAS_LTRACE, WIAS_LTRACE, IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, image.wias_ltrace
+ms.keywords: wiamdef/WIAS_LTRACE, image.wias_ltrace, WIAS_LTRACE macro [Imaging Devices], IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamdef.h
-apiname: 
+apiname:
 -	WIAS_LTRACE
 product: Windows
 targetos: Windows
@@ -95,9 +95,12 @@ TBD
 
 
 
+
+
 #### - DetailLevel
 
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -153,17 +156,18 @@ User-defined log levels.
 
 </td>
 </tr>
-</table> 
-
-
-#### - format_string
-
-Specifies a variable argument list, which starts with an ANSI format string describing the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+</table>
+ 
 
 
 #### - ResourceID
 
 Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
+
+
+#### - format_string
+
+Specifies a variable argument list, which starts with an ANSI format string describing the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
 #### - pIWiaLog
@@ -174,7 +178,9 @@ Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 ## -remarks
 
 
+
 The following is an example of how the macro can be used:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -185,19 +191,29 @@ The following is an example of how the macro can be used:
   ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));</pre>
 </td>
 </tr>
-</table></span></div>The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic Log file. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a> macro be used instead. 
+</table></span></div>
+The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic Log file. It is recommended that the <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a> macro be used instead. 
+
 
 
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
 
-<a href="..\wiamdef\nf-wiamdef-wias_lerror.md">WIAS_LERROR</a>
+
 
 <a href="..\wiamdef\nf-wiamdef-wias_lwarning.md">WIAS_LWARNING</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
+
 
  
 

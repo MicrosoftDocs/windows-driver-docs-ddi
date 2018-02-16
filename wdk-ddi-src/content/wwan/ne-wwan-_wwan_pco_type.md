@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PCO_TYPE
-title: _WWAN_PCO_TYPE
+title: "_WWAN_PCO_TYPE"
 author: windows-driver-content
 description: The WWAN_PCO_TYPE enumeration indicates whether the header of a PCO structure is partial, meaning only a subset of the complete PCO value from the network is being passed up to the host.
 old-location: netvista\wwan_pco_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPcoTypeComplete, *PWWAN_PCO_TYPE, WwanPcoTypeComplete, _WWAN_PCO_TYPE, netvista.wwan_pco_type, wwan/WWAN_PCO_TYPE, WWAN_PCO_TYPE, wwan/WwanPcoTypePartial, WwanPcoTypePartial, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, wwan/WWAN_PCO_TYPE, netvista.wwan_pco_type, WwanPcoTypePartial, _WWAN_PCO_TYPE, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_PCO_TYPE, wwan/WwanPcoTypePartial, WwanPcoTypeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PCO_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_PCO_TYPE, WWAN_PCO_TYPE
+req.typenames: "*PWWAN_PCO_TYPE, WWAN_PCO_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -87,20 +87,28 @@ Specifies that the modem will only be passing up a subset of PCO structures that
 ## -remarks
 
 
+
 Currently, in Windows 10, version 1709, some modems can only pass up operator specific PCO elements. These will have the type is set as <b>WwanPcoTypePartial</b>, and the header should have the following:
+
 <ul>
 <li>Octet1: IEI = 27H</li>
 <li>Octet2: PCO value length (total number of octets in the PCO structure -2)</li>
 <li>Octet3: 0x80 for partial header </li>
-</ul>The OS will not check if the PCO data is valid and leaves the validation to the MO application.
+</ul>
+The OS will not check if the PCO data is valid and leaves the validation to the MO application.
+
 
 
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_pco_value.md">WWAN_PCO_VALUE</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
+
 
  
 

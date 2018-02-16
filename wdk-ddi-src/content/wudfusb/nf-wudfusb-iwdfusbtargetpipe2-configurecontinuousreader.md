@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, IWDFUsbTargetPipe2, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader, IWDFUsbTargetPipe2::ConfigureContinuousReader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, umdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, ConfigureContinuousReader method
+ms.keywords: wdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, umdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader method, IWDFUsbTargetPipe2, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, IWDFUsbTargetPipe2::ConfigureContinuousReader, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetPipe2.ConfigureContinuousReader
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -120,7 +120,9 @@ A pointer to a driver-supplied <a href="..\wudfusb\nn-wudfusb-iusbtargetpipecont
 ## -returns
 
 
+
 <b>ConfigureContinuousReader</b> returns S_OK if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -161,7 +163,8 @@ The <i>TransferLength</i>, <i>HeaderLength</i>, or <i>TrailerLength</i> paramete
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
@@ -169,7 +172,9 @@ This method might return one of the other values that Winerror.h contains.
 
 
 
+
 ## -remarks
+
 
 
 You can configure a continuous reader for a bulk pipe or an interrupt pipe. The pipe must have an input endpoint.
@@ -181,6 +186,7 @@ Typically, a driver calls <b>ConfigureContinuousReader</b> from within its <a hr
 Each time the pipe's I/O target successfully completes a read request, the framework calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a> callback function. If the I/O target reports a failure while processing a request, the framework calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a> callback function after all read requests have been completed. (Therefore, the <b>OnReaderCompletion</b> callback function will not be called while the <b>OnReaderFailure</b> callback function is executing.)
 
 Use the following guidelines to choose a value for the <i>NumPendingReads</i> parameter:
+
 <ul>
 <li>
 Set <i>NumPendingReads</i> to zero if you want your driver to use the framework's default value. 
@@ -200,31 +206,92 @@ Set <i>NumPendingReads</i> to a number that meets the performance requirements f
 First, test your device with the default value (0) for <i>NumPendingReads</i>. Your tests should include various hardware configurations, including different types and numbers of processors, and different USB host controllers and USB configurations. You can then experiment with higher values, using the same tests. A driver that might require a higher value is one for a device that has a high interrupt rate, where data can be lost if interrupts are not serviced rapidly. 
 
 </li>
-</ul>A <i>NumPendingReads</i> value that is too large can slow down a system's performance. You should use the lowest value that meets your performance requirements. Typically, values that are higher than three or four do not improve data throughput. But higher values might reduce latency, or the chance of missing data, on a high-frequency pipe.
+</ul>
+A <i>NumPendingReads</i> value that is too large can slow down a system's performance. You should use the lowest value that meets your performance requirements. Typically, values that are higher than three or four do not improve data throughput. But higher values might reduce latency, or the chance of missing data, on a high-frequency pipe.
 
 After a driver has called <b>ConfigureContinuousReader</b>, the driver cannot use <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a> to send I/O requests to the pipe unless the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a> callback function is called and returns <b>FALSE</b>.
 
 For more information about the <b>ConfigureContinuousReader</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-pipes-in-umdf-1-x-drivers">Reading from a UMDF-USB Pipe</a>.
 
 
+#### Examples
+
+The following code example configures a continuous reader. In this example, the maximum buffer size is the size of a driver-defined buffer. The header and trailer buffer offsets are set to zero, and the number of pending read operations is set to two. The example uses the target pipe's interface pointer for the <i>pCompletionContext</i> parameter, so the <a href="https://msdn.microsoft.com/946e0206-7609-4dc7-91c2-a6aadad91751">OnReaderCompletion</a> callback function can determine the pipe on which the read operation was completed.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr, hrQI;
+IUsbTargetPipeContinuousReaderCallbackReadComplete *pOnCompletionCallback = NULL;
+IUsbTargetPipeContinuousReaderCallbackReadersFailed *pOnFailureCallback= NULL;
+IWDFUsbTargetPipe2 * pIUsbInterruptPipe2;
+
+//
+// Obtain interfaces.
+//
+hrQI = this-&gt;QueryInterface(IID_PPV_ARGS(&amp;pOnCompletionCallback));
+if (!SUCCEEDED(hrQI)) goto Error;
+hrQI = this-&gt;QueryInterface(IID_PPV_ARGS(&amp;pOnFailureCallback));
+if (!SUCCEEDED(hrQI)) goto Error;
+hrQI = m_pIUsbInterruptPipe-&gt;QueryInterface(IID_PPV_ARGS(&amp;pIUsbInterruptPipe2));
+if (!SUCCEEDED(hrQI)) goto Error;
+
+//
+// Configure the reader.
+//
+hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
+                                                    sizeof(m_MyBuffer), 
+                                                    0,
+                                                    0,
+                                                    2, 
+                                                    NULL,
+                                                    pOnCompletionCallback,
+                                                    m_pIUsbTargetPipe,
+                                                    pOnFailureCallback
+                                                    );
+...</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
+
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05771d81-d2e1-4787-a190-e7ef4d9ebcc9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFObject::ReleaseLock, wdf.iwdfobject_releaselock, umdf.iwdfobject_releaselock, ReleaseLock method, ReleaseLock, IWDFObject interface, ReleaseLock method, IWDFObject::ReleaseLock, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, IWDFObject, ReleaseLock method, IWDFObject interface
+ms.keywords: wdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock, IWDFObject, ReleaseLock method, IWDFObject interface, IWDFObject::ReleaseLock, ReleaseLock, IWDFObject interface, ReleaseLock method, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, ReleaseLock method, umdf.iwdfobject_releaselock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFObject.ReleaseLock
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ void ReleaseLock();
 
 
 
+
 ## -returns
 
 
+
 None
+
 
 
 
@@ -80,7 +83,11 @@ None
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560204">IWDFObject::AcquireLock</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+
+
 
  
 

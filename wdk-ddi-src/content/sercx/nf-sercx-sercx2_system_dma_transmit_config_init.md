@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: B65CE818-9D92-441B-AF98-1DE51DEEF3D5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function [Serial Ports], 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, serports.sercx2_system_dma_transmit_config_init
+ms.keywords: SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function [Serial Ports], SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, serports.sercx2_system_dma_transmit_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -100,11 +100,14 @@ The value to load into the <b>DmaDescriptor</b> member of the <b>SERCX2_SYSTEM_D
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Your serial controller driver must use this function to initialize a <a href="..\sercx\ns-sercx-_sercx2_system_dma_transmit_config.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> method.
@@ -113,11 +116,16 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\ns-sercx-_sercx2_system_dma_transmit_config.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG</a>
 
+
+
 <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
+
+
 
  
 

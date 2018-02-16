@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	CamStopCaptureEx
 product: Windows
 targetos: Windows
@@ -91,11 +91,14 @@ Indicates the stream number.
 ## -returns
 
 
+
 <b>CamStopCaptureEx</b> returns STATUS_SUCCESS or an appropriate error code. This return value is the completion code for the read IRP.
 
 
 
+
 ## -remarks
+
 
 
 USBCAMD calls the minidriver's <b>CamStopCaptureEx</b> callback function immediately after the isochronous video stream is stopped. Typically, a camera minidriver selects an alternate setting within the USB video streaming interface that uses no additional bandwidth.
@@ -103,5 +106,6 @@ USBCAMD calls the minidriver's <b>CamStopCaptureEx</b> callback function immedia
 The original USBCAMD does not call <b>CamStopCaptureEx</b>.
 
 This function is required.
+
 
 

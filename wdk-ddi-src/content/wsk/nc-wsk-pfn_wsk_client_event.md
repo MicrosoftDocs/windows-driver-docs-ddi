@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskClientEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -86,7 +86,6 @@ A pointer to the context value that was specified by the
 ### -param EventType
 
 
-
 ### -param Information [in, optional]
 
 A pointer to a buffer that contains additional information that is associated with the event. If
@@ -110,8 +109,10 @@ The specific event about which the WSK application is being notified. There are 
 ## -returns
 
 
+
 A WSK application's 
      <i>WskClientEvent</i> event callback function can return one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +141,14 @@ Support for the event that is passed in the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Currently, no events are defined for the 
@@ -169,11 +173,16 @@ A WSK application's <i>WskClientEvent</i> event callback function must not wait 
 
 
 
+
 ## -see-also
 
 <a href="..\wsk\ns-wsk-_wsk_client_dispatch.md">WSK_CLIENT_DISPATCH</a>
 
+
+
 <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+
+
 
  
 

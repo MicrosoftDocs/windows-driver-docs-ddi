@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 792f8f89-ff2c-45d1-bb15-9fcdafd14231
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], netvista.ndisderegisterprotocoldriver, NdisDeregisterProtocolDriver, ndis/NdisDeregisterProtocolDriver, protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml
+ms.keywords: NdisDeregisterProtocolDriver, NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml, netvista.ndisderegisterprotocoldriver, ndis/NdisDeregisterProtocolDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisDeregisterProtocolDriver
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisDeregisterProtocolDriver function
@@ -53,8 +53,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 A protocol driver calls the
   <b>NdisDeregisterProtocolDriver</b> function to release the resources that NDIS allocated when the driver
   called the 
-  <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-  NdisRegisterProtocolDriver</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+  NdisRegisterProtocolDriver</a> function.
 
 
 ## -syntax
@@ -75,18 +75,21 @@ VOID NdisDeregisterProtocolDriver(
 ### -param NdisProtocolHandle [in]
 
 The handle returned by the 
-     <mshelp:link keywords="netvista.ndisregisterprotocoldriver" tabindex="0"><b>
-     NdisRegisterProtocolDriver</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     NdisRegisterProtocolDriver</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 Registered protocol drivers typically call 
@@ -100,8 +103,8 @@ Registered protocol drivers typically call
 
 If a protocol driver has open bindings, its call to 
     <b>NdisDeregisterProtocolDriver</b> causes NDIS to call the protocol driver's 
-    <mshelp:link keywords="netvista.protocolunbindadapterex" tabindex="0"><i>
-    ProtocolUnbindAdapterEx</i></mshelp:link> function once for each open binding. NDIS calls 
+    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    ProtocolUnbindAdapterEx</a> function once for each open binding. NDIS calls 
     <i>ProtocolUnbindAdapterEx</i> within the context of the 
     <b>NdisDeregisterProtocolDriver</b> call.
 
@@ -111,15 +114,24 @@ After any outstanding bindings have been closed,
 
 
 
-## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
+
+
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+
+
 
  
 

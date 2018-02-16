@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3d176438-5551-48a4-b757-81c14d84c075
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], OutputCurrentState method, OutputCurrentState method [Windows Debugging], IDebugControl interface, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::OutputCurrentState, IDebugControl2::OutputCurrentState, OutputCurrentState method [Windows Debugging], debugger.outputcurrentstate, dbgeng/IDebugControl::OutputCurrentState, IDebugControl interface [Windows Debugging], OutputCurrentState method, dbgeng/IDebugControl2::OutputCurrentState, OutputCurrentState, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, IDebugControl3::OutputCurrentState, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl::OutputCurrentState, IDebugControl3, OutputCurrentState method [Windows Debugging], IDebugControl2 interface
+ms.keywords: OutputCurrentState method [Windows Debugging], IDebugControl3::OutputCurrentState, OutputCurrentState, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::OutputCurrentState, IDebugControl3, OutputCurrentState method [Windows Debugging], IDebugControl interface, OutputCurrentState method [Windows Debugging], IDebugControl2 interface, IDebugControl::OutputCurrentState, IDebugControl interface [Windows Debugging], OutputCurrentState method, IDebugControl2::OutputCurrentState, debugger.outputcurrentstate, dbgeng/IDebugControl2::OutputCurrentState, dbgeng/IDebugControl::OutputCurrentState, IDebugControl2, IDebugControl, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl3 interface [Windows Debugging], OutputCurrentState method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.OutputCurrentState
 -	IDebugControl2.OutputCurrentState
 -	IDebugControl3.OutputCurrentState
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::OutputCurrentState method
@@ -78,6 +78,7 @@ Specifies which clients to send the output to.  For possible values see <a href=
 ### -param Flags [in]
 
 Specifies the bit set that determines the information to print to the debugger console.  <i>Flags</i> can be any combination of values from the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -123,7 +124,8 @@ File name and line number of the source corresponding to the current instruction
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Alternatively, <i>Flags</i> can be set to DEBUG_CURRENT_DEFAULT.  This value includes all of the above flags.
 
@@ -131,7 +133,9 @@ Alternatively, <i>Flags</i> can be set to DEBUG_CURRENT_DEFAULT.  This value inc
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +152,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Setting the flags contained in <i>Flags</i> merely allows the information to be printed.  The information will not always be printed (for example, it will not be printed if it is not available).
@@ -160,5 +167,6 @@ Setting the flags contained in <i>Flags</i> merely allows the information to be 
 This is the same status information that is printed when breaking into the debugger.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtSetProfileCustomUserData
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -87,8 +87,8 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 
 The handle used by the operating system to reference the connection session with the BSS network.
      This handle value was specified through a previous call to the 
-     <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-     Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+     Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
 
 ### -param dwSessionID [in]
@@ -111,13 +111,16 @@ A pointer to a caller-allocated buffer, which contains the data in a format defi
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The operating system will not encrypt the data referenced by the 
@@ -130,28 +133,37 @@ For every wireless WLAN profile used by the Native Wifi AutoConfig service, Wind
     the 
     <i>Dot11ExtSetProfileCustomUserData</i> function. The custom user data gets reset to empty any time the
     profile is modified by calling the 
-    <mshelp:link keywords="netvista.dot11extsetcurrentprofile" tabindex="0"><b>
-    Dot11ExtSetCurrentProfile</b></mshelp:link> function.
+    <a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">
+    Dot11ExtSetCurrentProfile</a> function.
 
 After custom user data has been set, this data can be accessed using the 
-    <mshelp:link keywords="netvista.dot11extgetprofilecustomuserdata" tabindex="0"><b>
-    Dot11ExtGetProfileCustomUserData</b></mshelp:link> function. The operating system stores the data under the system
+    <a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
+    Dot11ExtGetProfileCustomUserData</a> function. The operating system stores the data under the system
     registry HKEY_CURRENT_USER key for the user that is referenced by the handle passed in the 
     <i>dwSessionID</i> parameter.
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<mshelp:link keywords="netvista.dot11extgetprofilecustomuserdata" tabindex="0"><b>
-   Dot11ExtGetProfileCustomUserData</b></mshelp:link>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_current_profile.md">Dot11ExtSetCurrentProfile</a>
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">
+   Dot11ExtGetProfileCustomUserData</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
+
+
 
  
 

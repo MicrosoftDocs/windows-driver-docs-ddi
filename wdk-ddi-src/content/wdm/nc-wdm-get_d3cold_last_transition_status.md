@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	GetLastTransitionStatus
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -80,21 +80,26 @@ A pointer to interface-specific context information. The caller sets this parame
 ### -param LastTransitionStatus [out]
 
 A pointer to a variable into which the routine writes one of the following <a href="..\wdm\ne-wdm-_d3cold_last_transition_status.md">D3COLD_LAST_TRANSITION_STATUS</a> enumeration values:
+
 <ul>
 <li><b>LastDStateTransitionStatusUnknown</b></li>
 <li><b>LastDStateTransitionD3hot</b></li>
 <li><b>LastDStateTransitionD3cold</b></li>
-</ul> The <b>LastDStateTransitionD3cold</b> value indicates that the most recent transition to D3hot was followed by a transition to D3cold. For more information, see Remarks.
+</ul>
+ The <b>LastDStateTransitionD3cold</b> value indicates that the most recent transition to D3hot was followed by a transition to D3cold. For more information, see Remarks.
 
 
 ## -returns
+
 
 
 None.
 
 
 
+
 ## -remarks
+
 
 
 This routine tries to get the information needed to answer the caller's query from the parent bus driver and platform firmware. If this information is not available, the routine writes the value <b>LastDStateTransitionStatusUnknown</b> to the location pointed to by <i>the LastTransitionStatus</i> parameter.
@@ -103,11 +108,16 @@ For more information, see <a href="..\wdm\ne-wdm-_d3cold_last_transition_status.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_d3cold_last_transition_status.md">D3COLD_LAST_TRANSITION_STATUS</a>
 
+
+
 <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
+
+
 
  
 

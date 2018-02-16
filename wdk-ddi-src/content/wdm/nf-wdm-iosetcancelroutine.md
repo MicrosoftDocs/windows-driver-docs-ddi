@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bc81897-6463-4588-9348-78a1954216bd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoSetCancelRoutine, k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], IoSetCancelRoutine, kernel.iosetcancelroutine
+ms.keywords: kernel.iosetcancelroutine, wdm/IoSetCancelRoutine, IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], IoSetCancelRoutine, k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSetCancelRoutine
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ Pointer to the IRP being put into or removed from a cancelable state.
 ### -param CancelRoutine [in]
 
 Specifies the entry point of the caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a> routine to be called if the specified IRP is canceled or is <b>NULL</b> if the given IRP is being removed from the cancelable state. This routine is declared as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -95,11 +96,14 @@ Specifies the entry point of the caller-supplied <a href="https://msdn.microsoft
 ## -returns
 
 
+
 <b>IoSetCancelRoutine</b> returns the previous value of <i>Irp</i>-&gt;<b>CancelRoutine</b>. If no <i>Cancel</i> routine was previously set, or if IRP cancellation is already in progress, <b>IoSetCancelRoutine</b> returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 This routine can disable the <i>Cancel</i> routine currently set in an IRP.
@@ -112,11 +116,16 @@ Driver <i>Cancel</i> routines are called at IRQL = DISPATCH_LEVEL with the cance
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549550">IoReleaseCancelSpinLock</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a>
+
 
  
 

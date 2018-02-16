@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_ROTATION_DATA
-title: _DXVAHDDDI_STREAM_STATE_ROTATION_DATA
+title: "_DXVAHDDDI_STREAM_STATE_ROTATION_DATA"
 author: windows-driver-content
 description: Describes stream-state data that specifies the clockwise rotation of the display output surface.
 old-location: display\dxvahdddi_stream_state_rotation_data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c874df6-6b47-4501-9eaf-7c07f0172580
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA, display.dxvahdddi_stream_state_rotation_data, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA
+ms.keywords: d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ROTATION_DATA, display.dxvahdddi_stream_state_rotation_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_STREAM_STATE_ROTATION_DATA
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The clockwise degrees of rotation as specified by a <a href="..\d3dumddi\ne-d3du
 ## -see-also
 
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_rotation.md">DXVAHDDDI_ROTATION</a>
+
+
 
  
 

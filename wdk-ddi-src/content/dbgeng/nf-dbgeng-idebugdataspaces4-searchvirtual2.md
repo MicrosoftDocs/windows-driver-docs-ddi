@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f54c35da-d455-4700-b8b9-c4479bc95088
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2, dbgeng/IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, SearchVirtual2
+ms.keywords: SearchVirtual2 method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual2 method, SearchVirtual2 method [Windows Debugging], SearchVirtual2, IDebugDataSpaces_62e68b69-35f7-4d69-bcf2-93b74fe0aa72.xml, IDebugDataSpaces4::SearchVirtual2, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::SearchVirtual2, debugger.searchvirtual2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces4.SearchVirtual2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::SearchVirtual2 method
@@ -111,7 +111,9 @@ Receives the location in the process's virtual address space of the pattern, if 
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,11 +141,14 @@ After examining <i>Length</i> bytes, the pattern was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method searches the target's virtual memory for the first occurrence, subject to granularity, of the pattern that is entirely contained in the <i>Length</i> bytes of the target's memory, starting at the <i>Offset</i> location.
@@ -152,11 +157,16 @@ This method searches the target's virtual memory for the first occurrence, subje
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554747">SearchVirtual</a>
+
+
 
  
 

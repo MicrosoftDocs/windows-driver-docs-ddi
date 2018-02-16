@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidclass.h
-apiname: 
+apiname:
 -	IOCTL_GET_PHYSICAL_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT
+req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ---
 
 # IOCTL_GET_PHYSICAL_DESCRIPTOR IOCTL
@@ -72,7 +72,9 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -84,21 +86,27 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +118,8 @@ The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to
 ## -see-also
 
 <a href="..\hidsdi\nf-hidsdi-hidd_getphysicaldescriptor.md">HidD_GetPhysicalDescriptor</a>
+
+
 
  
 

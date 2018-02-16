@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b4510fac-839b-4744-9525-2bf96c5c724e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice::RawReadData, image.istidevice_rawreaddata, stifnc_cbd37004-cf03-4a49-9422-374e01abe376.xml, IStiDevice, IStiDevice interface [Imaging Devices], RawReadData method, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices], IStiDevice interface, RawReadData, sti/IStiDevice::RawReadData
+ms.keywords: stifnc_cbd37004-cf03-4a49-9422-374e01abe376.xml, RawReadData method [Imaging Devices], image.istidevice_rawreaddata, RawReadData method [Imaging Devices], IStiDevice interface, RawReadData, sti/IStiDevice::RawReadData, IStiDevice::RawReadData, IStiDevice, IStiDevice interface [Imaging Devices], RawReadData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.RawReadData
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Optional, caller-supplied pointer to an OVERLAPPED structure (described in the M
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>IStiDevice::RawReadData</b> method calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff543834">IStiUSD::RawReadData</a>, which is exported by vendor-supplied minidrivers.
@@ -103,9 +106,12 @@ A call to <b>IStiDevice::RawReadData</b> must be preceded by a call to <a href="
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543758">IStiDevice::RawReadCommand</a>
+
+
 
  
 

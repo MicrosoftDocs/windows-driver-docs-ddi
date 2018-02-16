@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a22464f-4e0b-4b14-bdbf-b34b3abf9780
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D10_2DDIARG_GETCAPS structure [Display Devices], D3D10_2DDIARG_GETCAPS, d3d10umddi/D3D10_2DDIARG_GETCAPS, display.d3d10_2ddiarg_getcaps, UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml
+ms.keywords: d3d10umddi/D3D10_2DDIARG_GETCAPS, D3D10_2DDIARG_GETCAPS, UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml, D3D10_2DDIARG_GETCAPS structure [Display Devices], display.d3d10_2ddiarg_getcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10_2DDIARG_GETCAPS
 product: Windows
 targetos: Windows
@@ -92,9 +92,13 @@ typedef struct D3D10_2DDIARG_GETCAPS {
 
 ## -see-also
 
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
+
 
  
 

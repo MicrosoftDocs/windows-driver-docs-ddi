@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRNID_OUT
-title: _SendRNID_OUT
+title: "_SendRNID_OUT"
 author: windows-driver-content
 description: The SendRNID_OUT structure is used to report the output parameter data of the SendRNID WMI method to the WMI client.
 old-location: storage\sendrnid_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 80f264f6-51cb-4125-832b-603ed8417d32
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SendRNID_OUT structure [Storage Devices], structs-Fibre_fb365ea2-b9ff-4108-af6c-48c2d812eac3.xml, SendRNID_OUT, _SendRNID_OUT, hbapiwmi/PSendRNID_OUT, storage.sendrnid_out, hbapiwmi/SendRNID_OUT, PSendRNID_OUT structure pointer [Storage Devices], PSendRNID_OUT, *PSendRNID_OUT
+ms.keywords: "*PSendRNID_OUT, storage.sendrnid_out, structs-Fibre_fb365ea2-b9ff-4108-af6c-48c2d812eac3.xml, PSendRNID_OUT structure pointer [Storage Devices], _SendRNID_OUT, hbapiwmi/PSendRNID_OUT, PSendRNID_OUT, hbapiwmi/SendRNID_OUT, SendRNID_OUT structure [Storage Devices], SendRNID_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendRNID_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSendRNID_OUT, SendRNID_OUT
+req.typenames: SendRNID_OUT, *PSendRNID_OUT
 ---
 
 # _SendRNID_OUT structure
@@ -87,13 +87,17 @@ Contains the results of the RNID command.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendRNID_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 521a0e4a-99c6-4ad4-886d-3fff9855e1fd
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient2::EndSession, EndSession method [Windows Debugging], IDebugClient2 interface [Windows Debugging], EndSession method, IDebugClient5, EndSession, dbgeng/IDebugClient4::EndSession, EndSession method [Windows Debugging], IDebugClient2 interface, EndSession method [Windows Debugging], IDebugClient5 interface, EndSession method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], EndSession method, debugger.endsession, EndSession method [Windows Debugging], IDebugClient3 interface, EndSession method [Windows Debugging], IDebugClient4 interface, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, IDebugClient5::EndSession, dbgeng/IDebugClient5::EndSession, IDebugClient interface [Windows Debugging], EndSession method, IDebugClient2::EndSession, dbgeng/IDebugClient3::EndSession, IDebugClient::EndSession, IDebugClient4 interface [Windows Debugging], EndSession method, IDebugClient3::EndSession, IDebugClient4::EndSession, IDebugClient5 interface [Windows Debugging], EndSession method, dbgeng/IDebugClient::EndSession
+ms.keywords: IDebugClient4::EndSession, dbgeng/IDebugClient2::EndSession, EndSession, IDebugClient5, IDebugClient3, IDebugClient, dbgeng/IDebugClient4::EndSession, dbgeng/IDebugClient3::EndSession, EndSession method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient::EndSession, IDebugClient2, EndSession method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], EndSession method, EndSession method [Windows Debugging], IDebugClient3 interface, IDebugClient5::EndSession, IDebugClient4 interface [Windows Debugging], EndSession method, EndSession method [Windows Debugging], IDebugClient2 interface, debugger.endsession, IDebugClient::EndSession, EndSession method [Windows Debugging], IDebugClient4 interface, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, IDebugClient2::EndSession, IDebugClient4, IDebugClient3::EndSession, IDebugClient2 interface [Windows Debugging], EndSession method, IDebugClient5 interface [Windows Debugging], EndSession method, dbgeng/IDebugClient5::EndSession, IDebugClient interface [Windows Debugging], EndSession method, EndSession method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.EndSession
 -	IDebugClient2.EndSession
 -	IDebugClient3.EndSession
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.EndSession
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::EndSession method
@@ -74,6 +74,7 @@ HRESULT EndSession(
 ### -param Flags [in]
 
 Specifies how to end the session.  <i>Flags</i> can be one of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -131,13 +132,16 @@ This flag is intended for when remote clients disconnect.  It generates a server
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -154,11 +158,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method may be called at any time with <i>Flags</i> set to DEBUG_END_REENTRANT.  If, for example, the application needs to exit but another thread is using the engine, this method can be used to perform as much cleanup as possible.
@@ -166,5 +173,6 @@ This method may be called at any time with <i>Flags</i> set to DEBUG_END_REENTRA
 Using DEBUG_END_REENTRANT may leave the engine in an indeterminate state. If this flag is used, no subsequent calls should be made to the engine.
 
 For more information about debugger sessions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>.
+
 
 

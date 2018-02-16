@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnResolveQueryData
 product: Windows
 targetos: Windows
@@ -79,13 +79,10 @@ VOID APIENTRY* pfnResolveQueryData(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HQUERYHEAP
 
 
-
 ### -param D3D12DDI_QUERY_TYPE
-
 
 
 ### -param StartElement
@@ -108,9 +105,9 @@ The handle of a destination buffer.
 The destination offset.
 
 
-#### - hQueryHeap
+#### - QueryType
 
-The handle of a query heap.
+A query type.
 
 
 #### - hCommandList
@@ -118,21 +115,25 @@ The handle of a query heap.
 The handle of a command list.
 
 
-#### - QueryType
+#### - hQueryHeap
 
-A query type.
+The handle of a query heap.
 
 
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 Resolve functionality is used by applications to transform a query result previously stored in a query heap into the API defined format.  The resolved data is stored in a buffer.  The results can then be consumed by a shader, predication, or mapped and read on the CPU.
+
 
 

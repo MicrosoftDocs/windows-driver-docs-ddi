@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 889f872a-f4fe-4d7a-b9b6-7fb7335831a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: nmrref_581ad526-b42f-4ff3-993c-58558cd281c8.xml, netvista.nmrderegisterprovider, NmrDeregisterProvider function [Network Drivers Starting with Windows Vista], NmrDeregisterProvider, netioddk/NmrDeregisterProvider
+ms.keywords: NmrDeregisterProvider, netioddk/NmrDeregisterProvider, nmrref_581ad526-b42f-4ff3-993c-58558cd281c8.xml, netvista.nmrderegisterprovider, NmrDeregisterProvider function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Netio.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+apiname:
 -	NmrDeregisterProvider
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
 ---
 
 # NmrDeregisterProvider function
@@ -79,8 +79,10 @@ A handle used by the NMR to represent the registration of the provider module. T
 ## -returns
 
 
+
 The 
      <b>NmrDeregisterProvider</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,8 +96,8 @@ The
 </td>
 <td width="60%">
 The NMR initiated the deregistration of the provider module. The provider module must call the 
-       <mshelp:link keywords="netvista.nmrwaitforproviderderegistercomplete" tabindex="0"><b>
-       NmrWaitForProviderDeregisterComplete</b></mshelp:link> function to wait until the deregistration is complete
+       <a href="..\netioddk\nf-netioddk-nmrwaitforproviderderegistercomplete.md">
+       NmrWaitForProviderDeregisterComplete</a> function to wait until the deregistration is complete
        before the provider module can be unloaded.
 
 </td>
@@ -111,11 +113,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When a provider module calls the 
@@ -134,8 +139,8 @@ A provider module typically calls the
     client modules to which it is attached before the provider module is unloaded from the system. After
     calling the 
     <b>NmrDeregisterProvider</b> function a provider module must call the 
-    <mshelp:link keywords="netvista.nmrwaitforproviderderegistercomplete" tabindex="0"><b>
-    NmrWaitForProviderDeregisterComplete</b></mshelp:link> function to wait for the deregistration to complete before the
+    <a href="..\netioddk\nf-netioddk-nmrwaitforproviderderegistercomplete.md">
+    NmrWaitForProviderDeregisterComplete</a> function to wait for the deregistration to complete before the
     provider module can be unloaded. A provider module must not return from a call to its 
     <i>Unload</i> function until after deregistration is
     complete.
@@ -153,20 +158,33 @@ A provider module typically calls the
 
 
 
+
 ## -see-also
 
-<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
 
-<mshelp:link keywords="netvista.nmrwaitforproviderderegistercomplete" tabindex="0"><b>
-   NmrWaitForProviderDeregisterComplete</b></mshelp:link>
 
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
+
+
 <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+
+
+<a href="..\netioddk\nf-netioddk-nmrwaitforproviderderegistercomplete.md">
+   NmrWaitForProviderDeregisterComplete</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+
+
 
  
 

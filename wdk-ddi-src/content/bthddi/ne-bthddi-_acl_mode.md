@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._ACL_MODE
-title: _ACL_MODE
+title: "_ACL_MODE"
 author: windows-driver-content
 description: The ACL_MODE enumeration type is used to list the possible states of an ACL connection.
 old-location: bltooth\acl_mode.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 90013f42-9393-4037-8d0d-13fe5d7caa0b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ACL_MODE_ENTER_PARK, ACL_MODE, bthddi/ACL_MODE_ENTER_ACTIVE, bthddi/ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE_ENTER_SNIFF, bthddi/ACL_MODE, ACL_MODE_PARK, ACL_MODE_HOLD, bthddi/ACL_MODE_HOLD, ACL_MODE_ACTIVE, ACL_MODE_ENTER_ACTIVE, ACL_MODE_ENTER_SNIFF, _ACL_MODE, bthddi/ACL_DISCONNECTED, bthddi/ACL_MODE_PARK, bthddi/ACL_MODE_ACTIVE, bthddi/ACL_MODE_ENTER_PARK, bltooth.acl_mode, ACL_MODE_ENTER_HOLD, ACL_DISCONNECTED, ACL_MODE_SNIFF, bthddi/ACL_MODE_SNIFF, ACL_MODE enumeration [Bluetooth Devices], bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml
+ms.keywords: ACL_MODE_SNIFF, ACL_MODE_ENTER_HOLD, ACL_MODE_HOLD, bthddi/ACL_MODE_ACTIVE, bthddi/ACL_MODE_ENTER_PARK, _ACL_MODE, bthddi/ACL_MODE_HOLD, ACL_MODE_ACTIVE, ACL_MODE_PARK, ACL_MODE, ACL_DISCONNECTED, ACL_MODE enumeration [Bluetooth Devices], bthddi/ACL_MODE_PARK, bthddi/ACL_MODE_SNIFF, ACL_MODE_ENTER_ACTIVE, ACL_MODE_ENTER_SNIFF, ACL_MODE_ENTER_PARK, bthddi/ACL_DISCONNECTED, bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml, bthddi/ACL_MODE_ENTER_SNIFF, bthddi/ACL_MODE_ENTER_ACTIVE, bltooth.acl_mode, bthddi/ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	ACL_MODE
 product: Windows
 targetos: Windows
@@ -123,15 +123,19 @@ This value indicates the ACL is disconnected.
 ## -remarks
 
 
+
 The 
     <a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a> structure uses this
     enumeration.
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>
+
+
 
  
 

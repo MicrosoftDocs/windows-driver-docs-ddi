@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_SAMPLEFORMAT
-title: _DXVADDI_SAMPLEFORMAT
+title: "_DXVADDI_SAMPLEFORMAT"
 author: windows-driver-content
 description: The DXVADDI_SAMPLEFORMAT enumeration type contains values that identify how a video frame is sampled.
 old-location: display\dxvaddi_sampleformat.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23482cdc-6412-4309-805e-a439d8e81b59
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFormatMask, DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFormatMask, DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], d3dumddi/DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleProgressiveFrame, display.dxvaddi_sampleformat, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SAMPLEFORMAT
+ms.keywords: DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleFieldSingleOdd, d3dumddi/DXVADDI_SampleFormatMask, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleProgressiveFrame, d3dumddi/DXVADDI_SampleProgressiveFrame, DXVADDI_SampleFieldInterleavedOddFirst, display.dxvaddi_sampleformat, DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFormatMask, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, d3dumddi/DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SAMPLEFORMAT, DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleSubStream, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], d3dumddi/DXVADDI_SampleUnknown, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_SAMPLEFORMAT
 product: Windows
 targetos: Windows
@@ -117,13 +117,17 @@ The sample contains a video substream.
 ## -remarks
 
 
+
 One of the values of DXVADDI_SAMPLEFORMAT can be specified in the <b>SampleFormat</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
+
+
 
  
 

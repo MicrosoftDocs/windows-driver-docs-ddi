@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6BA4B1B4-07D6-4498-BDA4-C559FB3E8843
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration [Display Devices], d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, display.d3d12ddi_command_queue_creation_flags
+ms.keywords: D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, display.d3d12ddi_command_queue_creation_flags, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration [Display Devices], d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
 product: Windows
 targetos: Windows

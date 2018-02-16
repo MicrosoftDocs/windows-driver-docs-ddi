@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	ProtocolTcpOffloadForwardComplete
 product: Windows
 targetos: Windows
@@ -54,8 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol or intermediate driver's 
   <i>ProtocolTcpOffloadForwardComplete</i> function to complete a forward operation that the driver previously
   initiated by calling the 
-  <mshelp:link keywords="netvista.ndisoffloadtcpdisconnect" tabindex="0"><b>
-  NdisOffloadTcpForward</b></mshelp:link> function.
+  <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">
+  NdisOffloadTcpForward</a> function.
 
 
 ## -prototype
@@ -97,11 +97,14 @@ A pointer to a
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 In response to an underlying driver's or offload target's call to the 
@@ -112,6 +115,7 @@ In response to an underlying driver's or offload target's call to the
 To propagate the completion of the forward operation to the overlying driver or host stack, the
     intermediate driver calls the 
     <b>NdisOffloadTcpForwardComplete</b> function, passing in the following:
+
 <ul>
 <li>
 A 
@@ -123,7 +127,8 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
       <i>ProtocolTcpOffloadForwardComplete</i> function.
 
 </li>
-</ul>In response, NDIS calls the overlying driver's or host stack's 
+</ul>
+In response, NDIS calls the overlying driver's or host stack's 
     <i>ProtocolTcpOffloadForwardComplete</i> function, passing in a 
     <i>ProtocolBindingContext</i> handle and the PNET_BUFFER_LIST pointer supplied by the intermediate driver
     to the 
@@ -131,18 +136,29 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 
 
+
 ## -see-also
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-   NdisTcpOffloadForwardComplete</b></mshelp:link>
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+   NdisTcpOffloadForwardComplete</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpForward</a>
+
+
 
  
 

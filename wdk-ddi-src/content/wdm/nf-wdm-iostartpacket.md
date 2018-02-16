@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b1fa148e-73e2-437f-bd3a-e879bd457c76
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoStartPacket, IoStartPacket, IoStartPacket routine [Kernel-Mode Driver Architecture], kernel.iostartpacket, k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml
+ms.keywords: k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml, IoStartPacket, wdm/IoStartPacket, kernel.iostartpacket, IoStartPacket routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoStartPacket
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Specifies the entry point for a driver-supplied <a href="https://msdn.microsoft.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the driver is already busy processing a request for the target device object, then the packet is queued in the device queue. Otherwise, this routine calls the driver's <i>StartIo</i> routine with the specified IRP.
@@ -111,17 +114,28 @@ Callers of <b>IoStartPacket</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Us
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+
+
 
 <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
 
-<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
+
+
+<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+
+
+
 <a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_CLOSE_CHANNEL
-title: _BRB_SCO_CLOSE_CHANNEL
+title: "_BRB_SCO_CLOSE_CHANNEL"
 author: windows-driver-content
 description: The _BRB_SCO_CLOSE_CHANNEL structure describes a currently open SCO channel to close.
 old-location: bltooth\_brb_sco_close_channel.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 1921cee1-411b-4fec-acfd-3380e84823b8
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_close_channel, bth_structs_d031efa4-0a68-47c0-8344-e95c677661c9.xml, bthddi/_BRB_SCO_CLOSE_CHANNEL, _BRB_SCO_CLOSE_CHANNEL
+ms.keywords: "_BRB_SCO_CLOSE_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_SCO_CLOSE_CHANNEL, _BRB_SCO_CLOSE_CHANNEL, bth_structs_d031efa4-0a68-47c0-8344-e95c677661c9.xml, bltooth._brb_sco_close_channel"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_SCO_CLOSE_CHANNEL
 product: Windows
 targetos: Windows
@@ -89,6 +89,7 @@ The handle to the SCO channel to close.
 ## -remarks
 
 
+
 To close a SCO channel, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536622">BRB_SCO_CLOSE_CHANNEL</a> request.
@@ -99,11 +100,16 @@ A <b>BRB_SCO_CLOSE_CHANNEL</b> request can be made for a channel that was initia
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536622">BRB_SCO_CLOSE_CHANNEL</a>
+
+
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536622">BRB_SCO_CLOSE_CHANNEL</a>
+
 
  
 

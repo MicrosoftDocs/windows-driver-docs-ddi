@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dcaps._D3DTRANSFORMCAPS
-title: _D3DTRANSFORMCAPS
+title: "_D3DTRANSFORMCAPS"
 author: windows-driver-content
 description: Obsolete in DirectX 8.0 and later versions. D3DTRANSFORMCAPS structure describes the transform capabilities of a device.
 old-location: display\d3dtransformcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4eb6c31d-97b2-4d51-ae49-ed2ab395188a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS structure [Display Devices], _D3DTRANSFORMCAPS, D3DTRANSFORMCAPS, d3dcaps/D3DTRANSFORMCAPS, display.d3dtransformcaps, LPD3DTRANSFORMCAPS structure pointer [Display Devices], d3dstrct_9dc73cc8-edfd-424e-b902-0305de356c07.xml, d3dcaps/LPD3DTRANSFORMCAPS
+ms.keywords: display.d3dtransformcaps, LPD3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS, d3dcaps/D3DTRANSFORMCAPS, D3DTRANSFORMCAPS, LPD3DTRANSFORMCAPS structure pointer [Display Devices], D3DTRANSFORMCAPS structure [Display Devices], d3dstrct_9dc73cc8-edfd-424e-b902-0305de356c07.xml, d3dcaps/LPD3DTRANSFORMCAPS, _D3DTRANSFORMCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dcaps.h
-apiname: 
+apiname:
 -	D3DTRANSFORMCAPS
 product: Windows
 targetos: Windows
-req.typenames: *LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS
+req.typenames: "*LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS"
 ---
 
 # _D3DTRANSFORMCAPS structure
@@ -91,15 +91,19 @@ D3DTRANSFORMCAPS_CLIP
 ## -remarks
 
 
+
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for DirectX 7.0 and earlier runtime compatibility. See <a href="https://msdn.microsoft.com/a03a7cbc-95be-4251-8e3a-bef4a093f03d">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
 This structure is a member of the <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a> structure.
 
 
 
+
 ## -see-also
 
 <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
+
+
 
  
 

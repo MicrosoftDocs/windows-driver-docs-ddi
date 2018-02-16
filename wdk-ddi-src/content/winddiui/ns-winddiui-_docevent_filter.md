@@ -1,14 +1,14 @@
 ---
 UID: NS:winddiui._DOCEVENT_FILTER
-title: _DOCEVENT_FILTER
+title: "_DOCEVENT_FILTER"
 author: windows-driver-content
 description: The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See DrvDocumentEvent for a complete list of the document events.
 old-location: print\docevent_filter.htm
 old-project: print
 ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: *PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], winddiui/PDOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], _DOCEVENT_FILTER, winddiui/DOCEVENT_FILTER, print.docevent_filter, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, DOCEVENT_FILTER, PDOCEVENT_FILTER
+ms.date: 2/2/2018
+ms.keywords: PDOCEVENT_FILTER, _DOCEVENT_FILTER, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, print.docevent_filter, DOCEVENT_FILTER structure [Print Devices], *PDOCEVENT_FILTER, winddiui/DOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], DOCEVENT_FILTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winddiui.h
-apiname: 
+apiname:
 -	DOCEVENT_FILTER
 product: Windows
 targetos: Windows
-req.typenames: DOCEVENT_FILTER, *PDOCEVENT_FILTER
+req.typenames: "*PDOCEVENT_FILTER, DOCEVENT_FILTER"
 req.product: Windows 10 or later.
 ---
 
@@ -100,9 +100,11 @@ Driver-filled array of DWORDs listing all of the DOCUMENTEVENT_<i>XXX</i> events
 ## -remarks
 
 
+
 The DOCEVENT_FILTER structure is defined for Windows XP and later.
 
 The printer driver lists the events to which it will respond in the DOCEVENT_FILTER structure. Because this limits the number of calls to the driver the spooler needs to make, printer performance is enhanced. When the spooler makes a call to the <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> DDI with its <i>iEsc</i> parameter set to DOCUMENTEVENT_QUERYFILTER, the spooler allocates a buffer that contains a DOCEVENT_FILTER structure, including its <b>aDocEventCall</b> array. The amount of memory allocated for the buffer is: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -113,7 +115,9 @@ The printer driver lists the events to which it will respond in the DOCEVENT_FIL
  </pre>
 </td>
 </tr>
-</table></span></div>After allocating a buffer that contains a DOCEVENT_FILTER structure, the spooler initializes the structure members to the following values: 
+</table></span></div>
+After allocating a buffer that contains a DOCEVENT_FILTER structure, the spooler initializes the structure members to the following values: 
+
 <table>
 <tr>
 <th>Member</th>
@@ -171,11 +175,13 @@ The DOCUMENTEVENT_LAST constant is defined in winddiui.h.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 After the spooler has initialized the structure members to the values shown in the preceding table, it then calls <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>. When this function returns, the spooler inspects the <b>cElementsNeeded</b> and <b>cElementsReturned</b> members to see if either has been changed. If the driver has written to one of these members, but not the other, the spooler interprets the unwritten-to member as having the value 0.
 
 If the driver supports DOCUMENTEVENT_QUERYFILTER:
+
 <ul>
 <li>If the <b>aDocEventCall</b> array is large enough to contain all of the DOCUMENTEVENT_<i>XXX</i> events the printer driver intends to place in it, the printer driver:<ul>
 <li>Fills the array with those events.</li>
@@ -184,8 +190,12 @@ If the driver supports DOCUMENTEVENT_QUERYFILTER:
 <li>Returns DOCUMENTEVENT_SUCCESS.</li>
 </ul>
 </li>
-</ul>In this case, the spooler uses the first <b>cElementsReturned</b> values in the <b>aDocEventCall</b> array.
-<div class="alert"><b>Note</b>    The DOCUMENTEVENT_CREATEDCPRE event is treated in a special way. When the spooler calls <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> with the <i>iEsc</i> parameter set to DOCUMENTEVENT_CREATEDCPRE, the spooler uses the return value to determine whether future calls to this function are necessary. Unlike other DOCUMENTEVENT_<i>XXX</i> events, the printer driver always receives calls to <b>DrvDocumentEvent</b> with DOCUMENTEVENT_CREATEDCPRE, whether this event is filtered out or not.</div><div> </div><ul>
+</ul>
+In this case, the spooler uses the first <b>cElementsReturned</b> values in the <b>aDocEventCall</b> array.
+
+<div class="alert"><b>Note</b>    The DOCUMENTEVENT_CREATEDCPRE event is treated in a special way. When the spooler calls <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> with the <i>iEsc</i> parameter set to DOCUMENTEVENT_CREATEDCPRE, the spooler uses the return value to determine whether future calls to this function are necessary. Unlike other DOCUMENTEVENT_<i>XXX</i> events, the printer driver always receives calls to <b>DrvDocumentEvent</b> with DOCUMENTEVENT_CREATEDCPRE, whether this event is filtered out or not.</div>
+<div> </div>
+<ul>
 <li>
 If the <b>aDocEventCall</b> array is not large enough to contain all of the DOCUMENTEVENT_<i>XXX</i> events the printer driver intends to place in it, the printer driver should:<ul>
 <li>Set <b>cElementsNeeded</b> to the number of events to which it intends to respond (which should be greater than <b>cElementsAllocated</b>).</li>
@@ -197,7 +207,9 @@ If the <b>aDocEventCall</b> array is not large enough to contain all of the DOCU
 In this case, the spooler then allocates a new buffer that is sufficiently large, and then makes another call to <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> with DOCUMENTEVENT_QUERYFILTER.
 
 </li>
-</ul>If the driver does not support the DOCUMENTEVENT_QUERYFILTER event, it should return DOCUMENTEVENT_UNSUPPORTED. If the driver does support DOCUMENTEVENT_QUERYFILTER, but encounters internal errors when it handles this event, it should return DOCUMENTEVENT_FAILURE. In either case, the spooler is not able to retrieve the event filter from the driver, so it continues in its behavior of calling <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> for all events.
+</ul>
+If the driver does not support the DOCUMENTEVENT_QUERYFILTER event, it should return DOCUMENTEVENT_UNSUPPORTED. If the driver does support DOCUMENTEVENT_QUERYFILTER, but encounters internal errors when it handles this event, it should return DOCUMENTEVENT_FAILURE. In either case, the spooler is not able to retrieve the event filter from the driver, so it continues in its behavior of calling <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> for all events.
+
 
 
 
@@ -205,9 +217,11 @@ In this case, the spooler then allocates a new buffer that is sufficiently large
 
 <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DOCEVENT_FILTER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DOCEVENT_FILTER structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

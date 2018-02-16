@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fe8dc704-3baf-4955-85fe-bba19181dbbf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeDelayExecutionThread, kernel.kedelayexecutionthread, wdm/KeDelayExecutionThread, KeDelayExecutionThread routine [Kernel-Mode Driver Architecture], k105_2335c373-d2b6-49bf-b329-92ab442ccade.xml
+ms.keywords: wdm/KeDelayExecutionThread, KeDelayExecutionThread, kernel.kedelayexecutionthread, k105_2335c373-d2b6-49bf-b329-92ab442ccade.xml, KeDelayExecutionThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeDelayExecutionThread
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ Specifies the absolute or relative time, in units of 100 nanoseconds, for which 
 ## -returns
 
 
+
 <b>KeDelayExecutionThread</b> returns one of the following values that describes how the delay was completed:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,13 +129,16 @@ A user-mode APC was delivered before the specified <i>Interval </i>expired.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the NT_SUCCESS macro recognizes all of these status values as "success" values.
 
 
 
+
 ## -remarks
+
 
 
 The expiration time is computed and the current thread is put in a wait state. When the specified interval has passed, the thread exits the wait state and is put in the ready state, becoming eligible for execution.
@@ -154,9 +159,12 @@ Expiration times are measured relative to the system clock, and the accuracy wit
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
 
  
 

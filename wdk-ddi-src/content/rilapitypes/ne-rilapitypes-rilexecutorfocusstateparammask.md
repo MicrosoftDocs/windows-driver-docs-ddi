@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3c5d14cf-bfbc-439c-9ade-1a672f0b3fca
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RILEXECUTORFOCUSSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK, netvista.rilexecutorfocusstateparammask_2, rilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_STATE, RILEXECUTORFOCUSSTATEPARAMMASK, RIL_PARAM_EXECUTORFOCUSSTATE_STATE
+ms.keywords: netvista.rilexecutorfocusstateparammask_2, rilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_STATE, RILEXECUTORFOCUSSTATEPARAMMASK, rilapitypes/RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RIL_PARAM_EXECUTORFOCUSSTATE_STATE, rilapitypes/RILEXECUTORFOCUSSTATEPARAMMASK, RIL_PARAM_EXECUTORFOCUSSTATE_ALL, RILEXECUTORFOCUSSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEXECUTORFOCUSSTATEPARAMMASK
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILEXECUTORFOCUSSTATEPARAMMASK {
 ### -field RIL_PARAM_EXECUTORFOCUSSTATE_NUMEXECUTORS
 
 
-
 ### -field RIL_PARAM_EXECUTORFOCUSSTATE_STATE
 
 
-
 ### -field RIL_PARAM_EXECUTORFOCUSSTATE_ALL
-
 

@@ -2,13 +2,13 @@
 UID: NF:winsplp.SpoolerFindNextPrinterChangeNotification
 title: SpoolerFindNextPrinterChangeNotification function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\spoolerfindnextprinterchangenotification.htm
 old-project: print
 ms.assetid: FE69BD53-F463-480A-820B-4259D6F48BD0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SpoolerFindNextPrinterChangeNotification function [Print Devices], print.spoolerfindnextprinterchangenotification, SpoolerFindNextPrinterChangeNotification, winsplp/SpoolerFindNextPrinterChangeNotification
+ms.date: 2/2/2018
+ms.keywords: SpoolerFindNextPrinterChangeNotification, SpoolerFindNextPrinterChangeNotification function [Print Devices], print.spoolerfindnextprinterchangenotification, winsplp/SpoolerFindNextPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	SpoolerFindNextPrinterChangeNotification
 product: Windows
 targetos: Windows
@@ -74,15 +74,11 @@ BOOL WINAPI SpoolerFindNextPrinterChangeNotification(
 ### -param hPrinter [in]
 
 
-
 ### -param pfdwChange [out]
-
 
 
 ### -param pPrinterNotifyOptions [in, optional]
 
 
-
 ### -param ppPrinterNotifyInfo [in, out, optional]
-
 

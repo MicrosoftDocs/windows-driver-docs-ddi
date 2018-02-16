@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname: 
+apiname:
 -	IKsClockPropertySet
 product: Windows
 targetos: Windows
@@ -177,6 +177,8 @@ Sets the current presentation time on the underlying clock.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsClockPropertySet.
+
 
 

@@ -7,8 +7,8 @@ old-location: print\oemtextoutasbitmap.htm
 old-project: print
 ms.assetid: 37bf1cbe-9200-4d3e-b5e6-746f18293c1a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, OEMTextOutAsBitmap, print.oemtextoutasbitmap, OEMTextOutAsBitmap function [Print Devices], printoem/OEMTextOutAsBitmap
+ms.date: 2/2/2018
+ms.keywords: OEMTextOutAsBitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, OEMTextOutAsBitmap function [Print Devices], printoem/OEMTextOutAsBitmap, print.oemtextoutasbitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMTextOutAsBitmap
 product: Windows
 targetos: Windows
@@ -79,39 +79,29 @@ BOOL APIENTRY OEMTextOutAsBitmap(
 ### -param pso
 
 
-
 ### -param pstro
-
 
 
 ### -param pfo
 
 
-
 ### -param pco
-
 
 
 ### -param prclExtra
 
 
-
 ### -param prclOpaque
-
 
 
 ### -param pboFore
 
 
-
 ### -param pboOpaque
-
 
 
 ### -param pptlOrg
 
 
-
 ### -param mix
-
 

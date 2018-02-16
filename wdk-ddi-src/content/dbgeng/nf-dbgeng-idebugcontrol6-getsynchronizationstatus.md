@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 94DD7FBF-2D4F-4DD9-A49E-A9FA494BF995
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, IDebugControl6, IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, GetSynchronizationStatus, IDebugControl6::GetSynchronizationStatus, GetSynchronizationStatus method [Windows Debugging], dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus
+ms.keywords: IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus, GetSynchronizationStatus method [Windows Debugging], IDebugControl6, GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, dbgeng/IDebugControl6::GetSynchronizationStatus, GetSynchronizationStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl6.GetSynchronizationStatus
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl6::GetSynchronizationStatus method
@@ -81,7 +81,9 @@ The number of seconds since the last response.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,14 +100,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When the client object connects to a session, the most recent output from the session is sent to the client. If the session is currently waiting on input, the client object is given the opportunity to provide input. Thus, the client object synchronizes with the session's input and output.
+
 
 
 
@@ -113,7 +119,11 @@ When the client object connects to a session, the most recent output from the se
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
+
+
 
  
 

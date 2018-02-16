@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortLogTelemetry routine [Storage Devices], storport/StorPortLogTelemetry, storage.storportlogtelemetry, StorPortLogTelemetry
+ms.keywords: StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry, StorPortLogTelemetry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortLogTelemetry
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ Pointer to the <a href="..\storport\ns-storport-_storport_telemetry_event.md">ST
 ## -returns
 
 
+
 <b>StorPortLogTelemetry </b>returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,11 +140,14 @@ The telemetry event data have been successfully logged.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If any parameter in Event structure is not named, Event-&gt;ParameterNameX == NULL, the routine will set the corresponding parameter value to 0.
@@ -152,9 +157,12 @@ If miniport has no payload to fill in Event-&gt;EventBuffer, it should set Event
 
 
 
+
 ## -see-also
 
 <a href="..\storport\ns-storport-_storport_telemetry_event.md">STORPORT_TELEMETRY_EVENT</a>
+
+
 
  
 

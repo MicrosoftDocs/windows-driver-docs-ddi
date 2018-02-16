@@ -7,8 +7,8 @@ old-location: audio\epcminiportengineevent.htm
 old-project: audio
 ms.assetid: 6B282CA4-2EE8-48BB-99E2-1A16A92E57A5
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: eMINIPORT_GET_PRESENTATION_POS, portcls/eMINIPORT_LAST_BUFFER_RENDERED, portcls/eMINIPORT_GET_STREAM_POS, portcls/eMINIPORT_IHV_DEFINED, eMINIPORT_MaxValue, portcls/eMINIPORT_FX_CLSID, eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_PIN_STATE, portcls/eMINIPORT_BUFFER_COMPLETE, eMINIPORT_PIN_STATE, EPcMiniportEngineEvent enumeration [Audio Devices], eMINIPORT_IHV_DEFINED, portcls/eMINIPORT_PROCESSING_MODE, portcls/EPcMiniportEngineEvent, portcls/eMINIPORT_PROGRAM_DMA, eMINIPORT_FX_CLSID, eMINIPORT_BUFFER_COMPLETE, eMINIPORT_GLITCH_REPORT, eMINIPORT_LAST_BUFFER_RENDERED, portcls/eMINIPORT_MaxValue, eMINIPORT_GET_STREAM_POS, eMINIPORT_PROCESSING_MODE, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, portcls/eMINIPORT_GLITCH_REPORT, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, EPcMiniportEngineEvent, portcls/eMINIPORT_GET_PRESENTATION_POS, audio.epcminiportengineevent
+ms.date: 2/8/2018
+ms.keywords: portcls/eMINIPORT_BUFFER_COMPLETE, EPcMiniportEngineEvent enumeration [Audio Devices], eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_PIN_STATE, eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_PIN_STATE, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, portcls/eMINIPORT_GET_PRESENTATION_POS, portcls/EPcMiniportEngineEvent, portcls/eMINIPORT_FX_CLSID, eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_MaxValue, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, portcls/eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_GET_PRESENTATION_POS, EPcMiniportEngineEvent, eMINIPORT_GLITCH_REPORT, eMINIPORT_PROCESSING_MODE, eMINIPORT_IHV_DEFINED, audio.epcminiportengineevent, portcls/eMINIPORT_IHV_DEFINED, eMINIPORT_GET_STREAM_POS, portcls/eMINIPORT_GLITCH_REPORT, eMINIPORT_FX_CLSID, portcls/eMINIPORT_PROCESSING_MODE, eMINIPORT_MaxValue, portcls/eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_GET_STREAM_POS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	EPcMiniportEngineEvent
 product: Windows
 targetos: Windows
@@ -98,13 +98,10 @@ Specifies the ID for the event related to a change in pin state.
 ### -field eMINIPORT_GET_STREAM_POSITION
 
 
-
 ### -field eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION
 
 
-
 ### -field eMINIPORT_GET_PRESENTATION_POSITION
-
 
 
 ### -field eMINIPORT_PROGRAM_DMA
@@ -137,11 +134,6 @@ Specifies the class ID for the audio processing effect (FX) that was in effect w
 Specifies the ID for the highest enumerated value that was used to report the glitch.
 
 
-#### - eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS
-
-Specifies the ID for a "wave  buffer write position" event.
-
-
 #### - eMINIPORT_GET_PRESENTATION_POS
 
 Specifies the ID for a "get presentation position" event.
@@ -152,7 +144,13 @@ Specifies the ID for a "get presentation position" event.
 Specifies the ID for a "get stream position" event.
 
 
+#### - eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS
+
+Specifies the ID for a "wave  buffer write position" event.
+
+
 ## -remarks
+
 
 
 The following table shows the members of the  EPcMiniportEngineEvent enum that were introduced with Windows 8. The table shows the events associated with the enum's members, and the meanings of their parameters.
@@ -286,15 +284,20 @@ The following table shows the members of the  EPcMiniportEngineEvent enum that w
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/9FF2A5D6-9382-4EE6-AA21-DCF47210F73B">Glitch Reporting for Offloaded Audio</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265124">MiniportWriteEtwEvent</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/9FF2A5D6-9382-4EE6-AA21-DCF47210F73B">Glitch Reporting for Offloaded Audio</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20EPcMiniportEngineEvent enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20EPcMiniportEngineEvent enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

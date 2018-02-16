@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CalcPrivateShaderSize(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CALCPRIVATESHADERSIZE callback
@@ -75,9 +75,9 @@ SIZE_T APIENTRY* CalcPrivateShaderSize(D3D11_1)(
 ### -param D3D10DDI_HDEVICE
 
 
+### -param *pShaderCode [in]
 
-### -param *pShaderCode
-
+A pointer to an array of CONST UINT tokens that make up the shader code.
 
 
 ### -param *
@@ -87,9 +87,6 @@ SIZE_T APIENTRY* CalcPrivateShaderSize(D3D11_1)(
 
 
 
-#### - pShaderCode [in]
-
-A pointer to an array of CONST UINT tokens that make up the shader code.
 
 
 #### - hDevice
@@ -105,13 +102,17 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_stage_io_signa
 ## -returns
 
 
+
 The size of the memory region that the driver requires for creating a shader.
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_stage_io_signatures.md">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: audio\ksmusicformat.htm
 old-project: audio
 ms.assetid: 836e2eb5-b8cf-4c12-a855-f63709622c74
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: audio.ksmusicformat, KSMUSICFORMAT structure [Audio Devices], PKSMUSICFORMAT structure pointer [Audio Devices], KSMUSICFORMAT, PKSMUSICFORMAT, *PKSMUSICFORMAT, aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, ksmedia/PKSMUSICFORMAT, ksmedia/KSMUSICFORMAT
+ms.date: 2/8/2018
+ms.keywords: PKSMUSICFORMAT structure pointer [Audio Devices], audio.ksmusicformat, aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, *PKSMUSICFORMAT, ksmedia/KSMUSICFORMAT, ksmedia/PKSMUSICFORMAT, KSMUSICFORMAT, KSMUSICFORMAT structure [Audio Devices], PKSMUSICFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSMUSICFORMAT
 product: Windows
 targetos: Windows
-req.typenames: *PKSMUSICFORMAT, KSMUSICFORMAT
+req.typenames: KSMUSICFORMAT, *PKSMUSICFORMAT
 ---
 
 # KSMUSICFORMAT structure
@@ -81,9 +81,11 @@ Specifies the number of bytes of data that follow this structure. Because the su
 ## -remarks
 
 
+
 This structure is used to send and receive IRPs containing information about MIDI input and output streams. The IRP itself contains in its <b>SystemBuffer</b> field a pointer to a KSSTREAM_HEADER structure, which serves as a header for a packet of data that is to be read from or written to a streaming driver pin. The KS stream header contains in its <b>Data</b> field a pointer to the buffer that contains the data. The data in that buffer consists of a sequence of messages, each of which is a KSMUSICFORMAT structure that is immediately followed by some number of bytes of data.
 
 Time stamps in these IRPs always increase across successively issued IRPs. However, because each IRP in a sequence is fully serviced before servicing of the next IRP begins, time must also always increase across IRPs. This can lead to an anomalous situation, as described in the following example.
+
 <table>
 <tr>
 <th>Action</th>
@@ -151,7 +153,9 @@ Will be played at 140 milliseconds.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -159,9 +163,11 @@ Will be played at 140 milliseconds.
 
 <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSMUSICFORMAT structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSMUSICFORMAT structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

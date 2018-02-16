@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c67e036c-9f4c-447e-94bb-73cf215c865a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateAllocator function [Streaming Media Devices], KsCreateAllocator, ks/KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml, stream.kscreateallocator
+ms.keywords: ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml, stream.kscreateallocator, KsCreateAllocator function [Streaming Media Devices], ks/KsCreateAllocator, KsCreateAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
-apiname: 
+apiname:
 -	KsCreateAllocator
 product: Windows
 targetos: Windows
@@ -88,20 +88,26 @@ Specifies the pointer to a handle to store the allocator handle.
 ## -returns
 
 
+
 The <b>KsCreateAllocator</b> function returns STATUS_SUCCESS if successful, or it returns an error if unsuccessful. 
+
 
 
 
 ## -remarks
 
 
+
 There are two versions of the <b>KsCreateAllocator</b> function: one for user-mode clients and one for kernel-mode clients. This function can only be called at PASSIVE_LEVEL for kernel-mode clients.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+
+
 
  
 

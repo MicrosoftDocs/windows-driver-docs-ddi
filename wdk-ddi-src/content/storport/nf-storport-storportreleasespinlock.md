@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ed91d41a-575d-4b26-a7e0-f3ce43db76b4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReleaseSpinLock routine [Storage Devices], storport/StorPortReleaseSpinLock, StorPortReleaseSpinLock, storage.storportreleasespinlock, storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml
+ms.keywords: storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml, StorPortReleaseSpinLock routine [Storage Devices], storage.storportreleasespinlock, StorPortReleaseSpinLock, storport/StorPortReleaseSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortReleaseSpinLock
 product: Windows
 targetos: Windows
@@ -87,13 +87,17 @@ Pointer to a per-adapter device extension.
 ## -returns
 
 
+
 None. 
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+
+
 
  
 

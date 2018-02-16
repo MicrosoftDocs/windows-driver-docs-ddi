@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AFDB4DB4-3C63-44A0-88D7-C8047ECB2261
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContext method, IDebugSymbols4, dbgeng/IDebugSymbols4::GetLineByInlineContext, IDebugSymbols4::GetLineByInlineContext, GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface, GetLineByInlineContext, debugger.idebugsymbols4_getlinebyinlinecontext, GetLineByInlineContext method [Windows Debugging]
+ms.keywords: debugger.idebugsymbols4_getlinebyinlinecontext, IDebugSymbols4::GetLineByInlineContext, IDebugSymbols4 interface [Windows Debugging], GetLineByInlineContext method, GetLineByInlineContext method [Windows Debugging], dbgeng/IDebugSymbols4::GetLineByInlineContext, IDebugSymbols4, GetLineByInlineContext, GetLineByInlineContext method [Windows Debugging], IDebugSymbols4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols4.GetLineByInlineContext
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols4::GetLineByInlineContext method
@@ -111,13 +111,17 @@ A pointer to the displacement value of the file.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols4.md">IDebugSymbols4</a>
+
+
 
  
 

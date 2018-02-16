@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d4a2fe1a-9a16-45b8-b061-9d1b1398e801
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsFilterAcquireProcessingMutex function [Streaming Media Devices], ks/KsFilterAcquireProcessingMutex, avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, stream.ksfilteracquireprocessingmutex, KsFilterAcquireProcessingMutex
+ms.keywords: KsFilterAcquireProcessingMutex function [Streaming Media Devices], stream.ksfilteracquireprocessingmutex, avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, ks/KsFilterAcquireProcessingMutex, KsFilterAcquireProcessingMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFilterAcquireProcessingMutex
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure repre
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 AVStream holds the processing control mutex upon return from this routine. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
@@ -89,17 +92,28 @@ A minidriver that must suspend processing for a long period of time should not u
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
+## -see-also
 
 <a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
 
-<a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
+
+
+<a href="..\ks\nf-ks-ksfilterattemptprocessing.md">KsFilterAttemptProcessing</a>
+
+
 
 <a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
 
+
+
 <b>KsFilterReleaseProcessingMutex</b>
+
+
+
+<a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
+
+
 
  
 

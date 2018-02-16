@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 191874ec-5d08-430e-ad14-520392e1a904
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGateRemoveOffInputFromOr, stream.ksgateremoveoffinputfromor, KsGateRemoveOffInputFromOr function [Streaming Media Devices], KsGateRemoveOffInputFromOr, avfunc_6431bb18-7f16-4a0f-b012-c0137d85fba8.xml
+ms.keywords: avfunc_6431bb18-7f16-4a0f-b012-c0137d85fba8.xml, stream.ksgateremoveoffinputfromor, KsGateRemoveOffInputFromOr, ks/KsGateRemoveOffInputFromOr, KsGateRemoveOffInputFromOr function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsGateRemoveOffInputFromOr
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ A pointer to the <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure represent
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>KsGateRemoveOffInputFromOr</b> should only be used on gates that were specifically created as AND gates; AVStream does not verify that the given gate is truly an AND gate.
@@ -90,17 +93,28 @@ This call is an empty function. It should be used for code readability and clari
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
-
-<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
 
 <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
+
+
 <a href="..\ks\nf-ks-ksgateaddoffinputtoor.md">KsGateAddOffInputToOr</a>
 
+
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoor.md">KsGateAddOnInputToOr</a>
+
+
+
 <a href="..\ks\nf-ks-ksgateremoveoninputfromor.md">KsGateRemoveOnInputFromOr</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+
+
 
  
 

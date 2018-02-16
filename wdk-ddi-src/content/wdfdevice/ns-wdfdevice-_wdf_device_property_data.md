@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_PROPERTY_DATA
-title: _WDF_DEVICE_PROPERTY_DATA
+title: "_WDF_DEVICE_PROPERTY_DATA"
 author: windows-driver-content
 description: The WDF_DEVICE_PROPERTY_DATA structure describes a device property.
 old-location: wdf\wdf_device_property_data.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C49562C0-D8B6-4BAE-96EB-4005D9EB19DE
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA structure, wdfdevice/WDF_DEVICE_PROPERTY_DATA, wdf.wdf_device_property_data, PWDF_DEVICE_PROPERTY_DATA structure pointer, *PWDF_DEVICE_PROPERTY_DATA, _WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA, wdfdevice/PWDF_DEVICE_PROPERTY_DATA
+ms.keywords: "*PWDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA structure, wdf.wdf_device_property_data, wdfdevice/PWDF_DEVICE_PROPERTY_DATA, _WDF_DEVICE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA structure pointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_DEVICE_PROPERTY_DATA
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_PROPERTY_DATA, *PWDF_DEVICE_PROPERTY_DATA
+req.typenames: "*PWDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -97,7 +97,9 @@ Set to  <b>PLUGPLAY_PROPERTY_PERSISTENT</b> if this property value is being set 
 ## -remarks
 
 
+
 The <b>WDF_DEVICE_PROPERTY_DATA</b> structure is used as input to the following methods:
+
 <ul>
 <li>
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
@@ -114,23 +116,37 @@ The <b>WDF_DEVICE_PROPERTY_DATA</b> structure is used as input to the following 
 <li>
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
 </li>
-</ul>Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>.
+</ul>
+Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
+
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
+
+
 
 <a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
 
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
+
+
 
  
 

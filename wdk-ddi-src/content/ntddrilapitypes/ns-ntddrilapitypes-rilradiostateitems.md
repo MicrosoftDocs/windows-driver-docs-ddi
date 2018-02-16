@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26b2521c-7008-437d-aed3-3ed2be5d5959
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRADIOSTATEITEMS, ntddrilapitypes/RILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitems, *LPRILRADIOSTATEITEMS
+ms.keywords: "*LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitems, RILRADIOSTATEITEMS, ntddrilapitypes/RILRADIOSTATEITEMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILRADIOSTATEITEMS
 product: Windows
 targetos: Windows
-req.typenames: RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS
+req.typenames: "*LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS"
 ---
 
 # RILRADIOSTATEITEMS structure
@@ -72,11 +72,8 @@ typedef struct _RILRADIOSTATEITEMS {
 ### -field dwGroupId
 
 
-
 ### -field dwCntItems
 
 
-
 ### -field rilItems
-
 

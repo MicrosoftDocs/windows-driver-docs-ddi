@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	pfnUpdateAllocationPropertyCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device associated with the allocation
 
 
 
+
+
 #### - *pUpdateAllocationProperty [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt761856">D3DDDI_UPDATEALLOCPROPERTY</a> structure that describes how to update the allocation with the desired properties.
@@ -91,7 +93,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt76
 ## -returns
 
 
+
 <b>pfnUpdateAllocationPropertyCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,6 +156,8 @@ An unknown error has occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

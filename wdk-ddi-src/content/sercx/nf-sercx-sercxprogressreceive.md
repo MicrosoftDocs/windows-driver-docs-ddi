@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: A1773CCB-971E-4439-A11F-82761FF8AF71
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxProgressReceive method [Serial Ports], 1/SerCxProgressReceive, serports.sercxprogressreceive, SerCxProgressReceive
+ms.keywords: serports.sercxprogressreceive, SerCxProgressReceive method [Serial Ports], 1/SerCxProgressReceive, SerCxProgressReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SerCxProgressReceive
 product: Windows
 targetos: Windows
@@ -83,17 +83,21 @@ The number of bytes of data that the caller loaded into the receive buffer that 
 ### -param ReceiveStatus [in]
 
 The current status of the receive operation. Set this parameter to one of the following values:
+
 <ul>
 <li><b>SerCxStatusSuccess</b></li>
 <li><b>SerCxStatusCancelled</b></li>
 <li><b>SerCxStatusTimeout</b></li>
-</ul>For more information about these values, see <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>.
+</ul>
+For more information about these values, see <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>.
 
 
 ## -returns
 
 
+
 <b>SerCxProgressReceive</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -132,11 +136,14 @@ The receive operation has already been canceled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The serial controller driver calls this method to report progress on an outstanding read operation. Typically, the serial controller driver calls this method from its DMA completion callback (if the driver uses DMA to read the data) or from its transmit/receive DPC function (if PIO is used).
@@ -145,11 +152,16 @@ If the <b>SerCxProgressReceive</b> does not complete all outstanding work for th
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
 
+
+
 <a href="..\sercx\ne-sercx-_sercx_status.md">SERCX_STATUS</a>
+
+
 
  
 

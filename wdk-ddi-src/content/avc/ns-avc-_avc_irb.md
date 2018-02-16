@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_IRB
-title: _AVC_IRB
+title: "_AVC_IRB"
 author: windows-driver-content
 description: The AVC_IRB structure is an I/O Request Block (IRB) header structure where a function number is stored.
 old-location: stream\avc_irb.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8798e152-6586-48d0-a8f6-2e861660dd62
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcref_98d983db-d72a-4efd-9c8c-20dd17b674a0.xml, _AVC_IRB, stream.avc_irb, avc/PAVC_IRB, PAVC_IRB, AVC_IRB structure [Streaming Media Devices], avc/AVC_IRB, *PAVC_IRB, AVC_IRB, PAVC_IRB structure pointer [Streaming Media Devices]
+ms.keywords: PAVC_IRB structure pointer [Streaming Media Devices], *PAVC_IRB, avc/AVC_IRB, AVC_IRB structure [Streaming Media Devices], stream.avc_irb, avcref_98d983db-d72a-4efd-9c8c-20dd17b674a0.xml, _AVC_IRB, PAVC_IRB, AVC_IRB, avc/PAVC_IRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avc.h
-apiname: 
+apiname:
 -	AVC_IRB
 product: Windows
 targetos: Windows
-req.typenames: AVC_IRB, *PAVC_IRB
+req.typenames: "*PAVC_IRB, AVC_IRB"
 ---
 
 # _AVC_IRB structure
@@ -75,19 +75,29 @@ Value from the AVC_FUNCTION enumeration specifying a function number.
 ## -remarks
 
 
+
 This structure is included at the head of the AVC_COMMAND_IRB and AVC_MULTIFUNC_IRB structures. These structures represent the I/O request block (IRB) associated with specific types of AV/C functions. Each specific type of AV/C function is documented in IOCTL_AVC_CLASS.
+
 
 
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
 
 <a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
 
-<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
+
+
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+
+
 
  
 

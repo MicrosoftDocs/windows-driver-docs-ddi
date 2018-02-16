@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: eb960301-2afa-42f7-a2ea-129d85c49db9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsStreamPointerLock, avfunc_c7a4d7fb-9708-480d-a452-f398637bc82a.xml, KsStreamPointerLock, KsStreamPointerLock function [Streaming Media Devices], stream.ksstreampointerlock
+ms.keywords: ks/KsStreamPointerLock, KsStreamPointerLock function [Streaming Media Devices], KsStreamPointerLock, avfunc_c7a4d7fb-9708-480d-a452-f398637bc82a.xml, stream.ksstreampointerlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsStreamPointerLock
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> s
 ## -returns
 
 
+
 <b>KsStreamPointerLock </b>returns either STATUS_SUCCESS, indicating that the stream pointer has been locked, or an appropriate error code. STATUS_DEVICE_NOT_READY is the usual error code indicating that the frame could not be locked. This error code frequently means that the frame to which <i>StreamPointer</i> was pointing was canceled.
 
 
 
+
 ## -remarks
+
 
 
 A locked stream pointer guarantees that there is a data frame associated with the stream pointer and that this frame is not canceled as long as the lock is maintained. The minidriver should lock a stream pointer before attempting to access the data to which the stream pointer points.
@@ -91,9 +94,12 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+
+
 
  
 

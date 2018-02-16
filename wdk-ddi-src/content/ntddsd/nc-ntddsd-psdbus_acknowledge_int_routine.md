@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntddsd.h
-apiname: 
+apiname:
 -	AcknowledgeInterrupt
 product: Windows
 targetos: Windows
@@ -78,11 +78,14 @@ Contains the interface context that the <a href="https://msdn.microsoft.com/libr
 ## -returns
 
 
+
 Returns STATUS_UNSUCCESSFUL if the operation succeeds, or the appropriate error message if the operation fails.
 
 
 
+
 ## -remarks
+
 
 
 When an SD device asserts an interrupt, the bus driver disables the interrupt that the device asserted to allow the device driver to perform I/O at IRQL &lt;=DISPATCH_LEVEL. When the device driver's callback routine, which is equivalent to an interrupt service routine, finishes clearing the interrupt, it should acknowledge that it has finished interrupt processing so that the bus driver can re-enable the disabled interrupt. 
@@ -93,11 +96,16 @@ The caller must be running at IRQL &lt;= DISPATCH_LEVEL when it acknowledges tha
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+
+
 
  
 

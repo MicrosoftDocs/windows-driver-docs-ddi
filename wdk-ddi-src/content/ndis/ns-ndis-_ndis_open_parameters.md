@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_OPEN_PARAMETERS
-title: _NDIS_OPEN_PARAMETERS
+title: "_NDIS_OPEN_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_OPEN_PARAMETERS structure defines the open parameters when a protocol driver calls the NdisOpenAdapterEx function.
 old-location: netvista\ndis_open_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bb61026c-311b-41d1-9fcb-3ac44df2025e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS, ndis/NDIS_OPEN_PARAMETERS, protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters
+ms.keywords: protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS, _NDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS, ndis/NDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters, ndis/PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_OPEN_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS
+req.typenames: "*PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS"
 ---
 
 # _NDIS_OPEN_PARAMETERS structure
@@ -121,6 +121,7 @@ A pointer to an array of NET_FRAME_TYPE values, specifying the frame types that 
      address in Ethernet frames. In the presence of VLAN tags, this value follows the destination, source MAC
      address, and VLAN tag. NET_FRAME_TYPE is defined as follows:
      
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -131,10 +132,12 @@ A pointer to an array of NET_FRAME_TYPE values, specifying the frame types that 
 typedef NET_FRAME_TYPE *PNET_FRAME_TYPE;</pre>
 </td>
 </tr>
-</table></span></div><div class="alert"><b>Note</b>  NDIS uses the frame type values that the protocol driver provides in this array as
+</table></span></div>
+<div class="alert"><b>Note</b>  NDIS uses the frame type values that the protocol driver provides in this array as
      a hint to optimize the receive indications that NDIS sends to the protocol driver. NDIS does not
      guarantee that a protocol driver will receive only packets with frame types that match the types in the
-     array.</div><div> </div>
+     array.</div>
+<div> </div>
 
 ### -field FrameTypeArraySize
 
@@ -146,21 +149,31 @@ The number of elements in the
 ## -remarks
 
 
+
 A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the 
     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function to open a
     miniport adapter.
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
 
  
 

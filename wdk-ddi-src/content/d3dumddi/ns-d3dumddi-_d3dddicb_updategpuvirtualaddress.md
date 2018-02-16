@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_UPDATEGPUVIRTUALADDRESS
-title: _D3DDDICB_UPDATEGPUVIRTUALADDRESS
+title: "_D3DDDICB_UPDATEGPUVIRTUALADDRESS"
 author: windows-driver-content
 description: D3DDDICB_UPDATEGPUVIRTUALADDRESS is used with pfnUpdateGpuVirtualAddressCb to allow the user mode driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.
 old-location: display\d3dddicb_updategpuvirtualaddress.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6D460EBF-1D5D-4A99-90EE-FCBBC56B8EA4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_updategpuvirtualaddress, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS
+ms.keywords: "_D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_UPDATEGPUVIRTUALADDRESS
 product: Windows
 targetos: Windows
@@ -81,25 +81,6 @@ typedef struct _D3DDDICB_UPDATEGPUVIRTUALADDRESS {
 
 
 
-### -field Flags
-
-
-
-### -field Flags.DoNotWait
-
-When set to 1, there will be no wait for the sync objects before executing the operations.
-
-
-### -field Flags.Reserved
-
-This member is reserved and should be set to zero.
-
-
-### -field Flags.Value
-
-The consolidated value of the <b>Flags</b> union.
-
-
 ### -field hContext
 
 Specifies the context against which the map operation will be synchronized against. This also determines which kernel context the map operation will be executed against. In an linked display adapter configuration <b>hContext</b> defines a physical GPU, whose page tables are modified.
@@ -136,11 +117,33 @@ This member is reserved and should be set to zero.
 Specifies the <b>FenceValue</b> for <b>hFenceObject</b> that the <i>Map</i> operation should wait on (unless <b>DoNotWait</b> is 1). When the <i>Map</i> operation completes, the fence object will signal <b>hFenceObject</b> with <b>FenceValue</b>+1.
 
 
+### -field Flags
+
+
+### -field Flags.DoNotWait
+
+When set to 1, there will be no wait for the sync objects before executing the operations.
+
+
+### -field Flags.Reserved
+
+This member is reserved and should be set to zero.
+
+
+### -field Flags.Value
+
+The consolidated value of the <b>Flags</b> union.
+
+
 ## -see-also
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a>
+
 
  
 

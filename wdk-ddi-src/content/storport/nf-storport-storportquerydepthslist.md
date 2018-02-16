@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5E1CE999-8173-49B6-8CF7-F3A5B193A230
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortQueryDepthSList routine [Storage Devices], storport/StorPortQueryDepthSList, storage.storportquerydepthslist, StorPortQueryDepthSList
+ms.keywords: StorPortQueryDepthSList, StorPortQueryDepthSList routine [Storage Devices], storport/StorPortQueryDepthSList, storage.storportquerydepthslist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortQueryDepthSList
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ A pointer to a <b>SHORT</b> value which receives the  list depth count.
 ## -returns
 
 
+
 <b>StorPortQueryDepthSList</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,14 +129,18 @@ A pointer in <i>SListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Since <b>StorPortQueryDepthSList</b> is not interlocked, the list  depth value pointed to by <i>Result</i> on return is not reliable in when multiple threads are operating on the list.
+
 
 
 
@@ -142,11 +148,19 @@ Since <b>StorPortQueryDepthSList</b> is not interlocked, the list  depth value p
 
 <a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
 
+
+
+<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
+
+
+
 <a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+
+
 
 <a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
+
 
  
 

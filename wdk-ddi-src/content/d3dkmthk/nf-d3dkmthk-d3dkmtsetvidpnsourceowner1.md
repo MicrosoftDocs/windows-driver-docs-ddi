@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PFND3DKMT_SETVIDPNSOURCEOWNER1, d3dkmthk/D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 function [Display Devices], display.d3dkmtsetvidpnsourceowner1, D3DKMTSetVidPnSourceOwner1
+ms.keywords: D3DKMTSetVidPnSourceOwner1 function [Display Devices], D3DKMTSetVidPnSourceOwner1, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1, PFND3DKMT_SETVIDPNSOURCEOWNER1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
-apiname: 
+apiname:
 -	D3DKMTSetVidPnSourceOwner1
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ TBD
 
 
 
+
 #### - pSetVidPnSourceOwner1 [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setvidpnsourceowner1.md">D3DKMT_SETVIDPNSOURCEOWNER1</a> structure that describes the parameters for setting or releasing the video present source.
@@ -81,7 +82,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setvidpnsourceowner1.md"
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,15 +145,19 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setvidpnsourceowner1.md">D3DKMT_SETVIDPNSOURCEOWNER1</a>
+
+
 
  
 

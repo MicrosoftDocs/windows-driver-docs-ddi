@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_CREATEDEVICE_0003
 product: Windows
 targetos: Windows
@@ -71,7 +71,6 @@ HRESULT APIENTRY PFND3D12DDI_CREATEDEVICE_0003(
 ### -param D3D12DDI_HADAPTER
 
 
-
 ### -param *
 
 
@@ -79,9 +78,6 @@ HRESULT APIENTRY PFND3D12DDI_CREATEDEVICE_0003(
 
 
 
-#### - pCreateData [in]
-
-A pointer to a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_createdevice_0003.md">D3D12DDIARG_CREATEDEVICE</a> structure.
 
 
 #### - hAdapter
@@ -89,11 +85,18 @@ A pointer to a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_createdevice_000
 A handle to the graphics adapter object that was created with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt779071">PFND3D12DDI_OPENADAPTER</a> function.
 
 
+#### - pCreateData [in]
+
+A pointer to a <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_createdevice_0003.md">D3D12DDIARG_CREATEDEVICE</a> structure.
+
+
 ## -returns
 
 
 
+
              PFND3D12DDI_CREATEDEVICE_0003 returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,6 +136,8 @@ The graphics context was successfully created. However, the DirectX Graphics Inf
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

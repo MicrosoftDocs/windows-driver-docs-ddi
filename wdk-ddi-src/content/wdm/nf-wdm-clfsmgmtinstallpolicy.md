@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], ClfsMgmtInstallPolicy, wdm/ClfsMgmtInstallPolicy, Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy
+ms.keywords: ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, ClfsMgmtInstallPolicy, kernel.clfsmgmtinstallpolicy, wdm/ClfsMgmtInstallPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsMgmtInstallPolicy
 product: Windows
 targetos: Windows
@@ -89,7 +89,9 @@ The length, in bytes, of the structure pointed to by the <i>Policy</i> parameter
 ## -returns
 
 
+
 The <b>ClfsMgmtInstallPolicy</b> routine returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -197,13 +199,16 @@ There is insufficient memory to complete the operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Policies are volatile. When all handles to the log are closed, the policies will be lost. You should install policies each time you register the first client.
@@ -214,9 +219,12 @@ The log policy that is installed applies to the physical log, even if the <i>Log
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 57b4d120-e12a-4821-a379-a392b804590c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLDISCONNECTDETAILS, netvista.rilcalldisconnectdetails_2, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
+ms.keywords: netvista.rilcalldisconnectdetails_2, RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLDISCONNECTDETAILS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLDISCONNECTDETAILS
 product: Windows
 targetos: Windows
-req.typenames: RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
+req.typenames: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS"
 req.product: Windows 10 or later.
 ---
 
@@ -90,8 +90,10 @@ typedef struct _RILCALLDISCONNECTDETAILS {
 
 
 
-### -field causeUnion
+### -field dwDisconnectGroup
 
+
+### -field causeUnion
 
 
 ### -field causeUnion.unGPPCause
@@ -127,63 +129,44 @@ typedef struct _RILCALLDISCONNECTDETAILS {
 ### -field RILCAUSEUNION
 
 
-
-### -field dwDisconnectGroup
-
-
-
-#### - dwOtherCode
-
+#### - RIL_CD_3GPP2_VENDOR_CAUSE
 
 
 #### - RIL_CD_3GPP_NETWORK_CAUSE
 
 
-
 #### - RIL_CD_3GPP_REJECT_CAUSE
-
 
 
 #### - RIL_CD_AS_CAUSE
 
 
-
-#### - case
-
-
-
-#### - dwASCode
-
+#### - RIL_CD_IMS_SIP_CAUSE
 
 
 #### - RIL_CD_OTHER_CAUSE
 
 
+#### - case
 
-#### - RIL_CD_3GPP2_VENDOR_CAUSE
 
+#### - dwASCode
+
+
+#### - dwOtherCode
 
 
 #### - switch_is
 
 
-
-#### - RIL_CD_IMS_SIP_CAUSE
-
-
-
 #### - unGPP2Cause
 
+
+#### - unGPPCause
 
 
 #### - unGPPRejectCause
 
 
-
 #### - unIMSSIPCause
-
-
-
-#### - unGPPCause
-
 

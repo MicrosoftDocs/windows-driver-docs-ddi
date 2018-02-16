@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4742F6DD-F7D6-4EF4-877B-C02630018C8E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.idebugsymbols3_getsourceentrystring, IDebugSymbols3::GetSourceEntryString, GetSourceEntryString method [Windows Debugging], GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryString, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryString method, IDebugSymbols3, dbgeng/IDebugSymbols3::GetSourceEntryString
+ms.keywords: IDebugSymbols3::GetSourceEntryString, dbgeng/IDebugSymbols3::GetSourceEntryString, debugger.idebugsymbols3_getsourceentrystring, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSourceEntryString method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetSourceEntryString method, GetSourceEntryString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetSourceEntryString
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSourceEntryString method
@@ -99,15 +99,19 @@ Pointer to the size of the string.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
     This method can return multiple results for a source lookup. This allows for all possible results to be returned.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

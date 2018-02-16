@@ -7,7 +7,7 @@ old-location: audio\imusictechnology.htm
 old-project: audio
 ms.assetid: e42380f8-8e82-4c98-88e9-9e44f5091a85
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.imusictechnology, IMusicTechnology interface [Audio Devices], IMusicTechnology interface [Audio Devices], described, IMusicTechnology, portcls/IMusicTechnology, audmp-routines_9300aa03-6606-46a0-ad5b-b0d776c46ed1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMusicTechnology
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMusicTechnology interface

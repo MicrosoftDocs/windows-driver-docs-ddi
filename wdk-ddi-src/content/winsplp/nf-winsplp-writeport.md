@@ -7,8 +7,8 @@ old-location: print\writeport.htm
 old-project: print
 ms.assetid: 31229c78-0bea-44eb-9f1a-d1bce8a16a3e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WritePort, print.writeport, spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml, WritePort function [Print Devices], winsplp/WritePort
+ms.date: 2/2/2018
+ms.keywords: print.writeport, WritePort, winsplp/WritePort, WritePort function [Print Devices], spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	WritePort
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Caller-supplied pointer to a location to receive the number of bytes successfull
 ## -returns
 
 
+
 If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it should return <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 
@@ -122,21 +125,32 @@ It is acceptable for a language monitor to call a port monitor's <code>WritePort
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
-
-<a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a>
+
+
+
 <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WritePort function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WritePort function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

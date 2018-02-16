@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PRESENTMULTIPLANEOVERLAYLIST
-title: _DXGK_PRESENTMULTIPLANEOVERLAYLIST
+title: "_DXGK_PRESENTMULTIPLANEOVERLAYLIST"
 author: windows-driver-content
 description: Specifies an overlay plane to display in a call to the DxgkDdiPresent function.
 old-location: display\dxgk_presentmultiplaneoverlaylist.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 970b3155-9e81-4725-90ee-079339c1d5c5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_presentmultiplaneoverlaylist, _DXGK_PRESENTMULTIPLANEOVERLAYLIST, DXGK_PRESENTMULTIPLANEOVERLAYLIST structure [Display Devices], d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYLIST, DXGK_PRESENTMULTIPLANEOVERLAYLIST
+ms.keywords: d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYLIST, display.dxgk_presentmultiplaneoverlaylist, DXGK_PRESENTMULTIPLANEOVERLAYLIST, DXGK_PRESENTMULTIPLANEOVERLAYLIST structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PRESENTMULTIPLANEOVERLAYLIST
 product: Windows
 targetos: Windows
@@ -74,16 +74,6 @@ typedef struct _DXGK_PRESENTMULTIPLANEOVERLAYLIST {
 
 
 
-### -field SegmentId
-
-[in] The identifier of a segment that data is read from.
-
-
-### -field Reserved
-
-This member is reserved and should be set to zero.
-
-
 ### -field LayerIndex
 
 The zero-based index of the overlay plane to display. The top plane (in the z-direction) has index zero. The planes' index values must be sequential from top to bottom.
@@ -99,6 +89,16 @@ Indicates whether the overlay plane specified by <b>LayerIndex</b> is enabled fo
 A handle to the device-specific allocation that corresponds to the non device-specific allocation. The display miniport driver must set <b>hDeviceSpecificAllocation</b> to a handle value that it can use to refer to its private tracking structure for the allocation.
 
 
+### -field SegmentId
+
+[in] The identifier of a segment that data is read from.
+
+
+### -field Reserved
+
+This member is reserved and should be set to zero.
+
+
 ### -field PhysicalAddress
 
 [in] A <b>PHYSICAL_ADDRESS</b> data type (which is defined as <b>LARGE_INTEGER</b>) that indicates the physical address, within the segment that <b>SegmentId</b> specifies, where the data is read.
@@ -107,6 +107,8 @@ A handle to the device-specific allocation that corresponds to the non device-sp
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+
+
 
  
 

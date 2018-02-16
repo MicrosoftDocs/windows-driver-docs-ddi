@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: DA1F45F5-5B15-4DAD-A746-E467FE1BAE42
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDebuggeeType2 method [Windows Debugging], IDebugControl7 interface, IDebugControl7 interface [Windows Debugging], GetDebuggeeType2 method, IDebugControl7::GetDebuggeeType2, IDebugControl7, GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], debugger.idebugcontrol7_getdebuggeetype2, dbgeng/IDebugControl7::GetDebuggeeType2
+ms.keywords: GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2, IDebugControl7, debugger.idebugcontrol7_getdebuggeetype2, GetDebuggeeType2 method [Windows Debugging], IDebugControl7 interface, dbgeng/IDebugControl7::GetDebuggeeType2, IDebugControl7::GetDebuggeeType2, IDebugControl7 interface [Windows Debugging], GetDebuggeeType2 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl7.GetDebuggeeType2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl7::GetDebuggeeType2 method
@@ -84,6 +84,7 @@ If the flag is not passed in, then the function will wait for the engine critica
 ### -param Class [out]
 
 Receives the class of the current target.  It will be set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -119,12 +120,14 @@ The current target is a user-mode target.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Qualifier [out]
 
 Provides more details about the type of the target.  Its interpretation depends on the value of <i>Class</i>.  When class is DEBUG_CLASS_UNINITIALIZED, <i>Qualifier</i> returns zero.  The following values are applicable for kernel-mode targets.
+
 <table>
 <tr>
 <th>Value</th>
@@ -190,9 +193,11 @@ The current target is a kernel-mode Complete Memory Dump file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following values are applicable for user-mode targets.
+
 <table>
 <tr>
 <th>Value</th>
@@ -238,19 +243,24 @@ The current target is a Full User-Mode Dump file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol7.md">IDebugControl7</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_PERF_CONSTRAINTS
-title: _PEP_PPM_QUERY_PERF_CONSTRAINTS
+title: "_PEP_PPM_QUERY_PERF_CONSTRAINTS"
 author: windows-driver-content
 description: The PEP_PPM_PERF_CONSTRAINTS structure describes the performance limits to apply to the processor.
 old-location: kernel\pep_ppm_perf_constraints.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29B823A2-C645-4DA3-A3BE-4A3ED6A9799F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_PPM_PERF_CONSTRAINTS, pepfx/PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PEP_PPM_PERF_CONSTRAINTS, _PEP_PPM_QUERY_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, PPEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_THERMAL, PERFORMANCE_LIMIT_POWER, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_PERF_CONSTRAINTS
+ms.keywords: pepfx/PEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_THERMAL, *PPEP_PPM_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, _PEP_PPM_QUERY_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_CONSTRAINTS, PERFORMANCE_LIMIT_POWER, PEP_PPM_PERF_CONSTRAINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_PERF_CONSTRAINTS
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS
+req.typenames: PEP_PPM_PERF_CONSTRAINTS, *PPEP_PPM_PERF_CONSTRAINTS
 ---
 
 # _PEP_PPM_QUERY_PERF_CONSTRAINTS structure
@@ -76,6 +76,7 @@ typedef struct _PEP_PPM_QUERY_PERF_CONSTRAINTS {
 ### -field LimitReasons
 
 [out] The reasons for which the processor's performance can be limited. Set this member to zero or to the bitwise-OR of one or more of the following values:
+
 <table>
 <tr>
 <th>Limit reason</th>
@@ -114,10 +115,12 @@ The processor performance can be limited because of a voltage or frequency depen
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186815">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a> notification. The <b>GuaranteedPerformanceLimit</b> and <b>LimitReasons</b> members contain output values that the platform extension plug-in (PEP) writes to the structure in response to this notification.
@@ -126,9 +129,12 @@ The <b>GuaranteedPerformanceLimit</b> member value is specified in platform-spec
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186815">PEP_NOTIFY_PPM_PERF_CONSTRAINTS</a>
+
+
 
  
 

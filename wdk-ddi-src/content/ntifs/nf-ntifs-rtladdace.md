@@ -7,8 +7,8 @@ old-location: ifsk\rtladdace.htm
 old-project: ifsk
 ms.assetid: 291b1fa9-5f42-49b6-b6de-20054a832bb2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rtladdace, RtlAddAce routine [Installable File System Drivers], RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, ntifs/RtlAddAce
+ms.date: 2/7/2018
+ms.keywords: ntifs/RtlAddAce, RtlAddAce routine [Installable File System Drivers], rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml, RtlAddAce, ifsk.rtladdace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlAddAce
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ Pointer to the ACL to be modified. <b>RtlAddAce</b> adds the specified ACEs to t
 ### -param AceRevision [in]
 
 ACL revision level of the ACE to be added. Windows version requirments are the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -109,7 +110,8 @@ The revision level valid starting with Windows 2000.
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param StartingAceIndex [in]
@@ -130,7 +132,9 @@ Size, in bytes, of the input buffer pointed to by the <i>AceList</i> parameter.
 ## -returns
 
 
+
 <b>RtlAddAce</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -170,11 +174,14 @@ STATUS_INVALID_PARAMETER is an error code.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>. 
@@ -189,23 +196,36 @@ For more information about security and access control, see the Microsoft Window
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
 
 <a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+
+
 
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlAddAce routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlAddAce routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

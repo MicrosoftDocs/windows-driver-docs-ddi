@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCheckResourceAllocationInfo
 product: Windows
 targetos: Windows
@@ -78,7 +78,6 @@ VOID APIENTRY* pfnCheckResourceAllocationInfo(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param *
 
 
@@ -86,8 +85,9 @@ VOID APIENTRY* pfnCheckResourceAllocationInfo(
 
 
 
-### -param D3D12DDI_RESOURCE_OPTIMIZATION_FLAGS
 
+
+### -param D3D12DDI_RESOURCE_OPTIMIZATION_FLAGS
 
 
 ### -param AlignmentRestriction
@@ -100,9 +100,9 @@ An alignment restriction value.
 A visible node mask.
 
 
-#### - pInfo [out]
+#### - CreateResource [in]
 
-Information for resource allocation.
+A pointer to a create resource.
 
 
 #### - ResourceOptimizationFlags
@@ -110,28 +110,32 @@ Information for resource allocation.
 Resource optimization flags.
 
 
-#### - CreateResource [in]
-
-A pointer to a create resource.
-
-
 #### - hDevice
 
 A device handle. 
 
 
+#### - pInfo [out]
+
+Information for resource allocation.
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This callback function is part of a two step process of resource creation. This function determines the sizes and alignments of the resource data, additional data header, and additional data is determined, along with the texture layout. When the resource description is passed into this function, the layout of the resource description may be set to _UNDEFINED. This allows the driver to choose any texture layout. When the ayout of the resource description is <b>STANDARD_SWIZZLE</b> or <b>ROW_MAJOR</b>, the driver must return out the corresponding value as its choice.
 
 This callback function is accessed by using the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_device_funcs_core_0010.md">D3D12DDI_DEVICE_FUNCS_CORE_0010</a> structure.
+
 
 

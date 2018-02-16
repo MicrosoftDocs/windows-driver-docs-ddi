@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, WmiQueryTraceInformation, wdm/WmiQueryTraceInformation, kernel.wmiquerytraceinformation
+ms.keywords: WmiQueryTraceInformation, k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], wdm/WmiQueryTraceInformation, kernel.wmiquerytraceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WmiQueryTraceInformation
 product: Windows
 targetos: Windows
@@ -98,6 +98,7 @@ A pointer to the query-specific input information that a caller supplies. If cal
 
 
 ## -returns
+
 
 
 <table>
@@ -193,14 +194,18 @@ A global logger was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For each type of event trace information specified by <i>TraceInformationClass</i>, the following table provides:
+
 <ul>
 <li>
 Input requirements
@@ -210,7 +215,8 @@ Input requirements
 Information that <b>WmiQueryTraceInformation</b> returns in the <i>TraceInformation</i> buffer
 
 </li>
-</ul><table>
+</ul>
+<table>
 <tr>
 <th>Value of<i> TraceClassInformation </i></th>
 <th>Input requirements</th>
@@ -352,7 +358,8 @@ The size, in bytes, of the <i>TraceInformation</i> buffer must be greater than o
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQueryTraceInformation</b> also returns the required length for the specified event trace information.
 
@@ -360,17 +367,28 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+## -see-also
 
 <a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+
 
 <a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
 
+
+
+<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+
+
+
 <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+
+
 
  
 

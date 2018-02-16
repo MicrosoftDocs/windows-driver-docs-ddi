@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bc984f10-8eae-45f7-9ab0-637b35e57e3c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: tagKS_DATAFORMAT_VIDEOINFO_PALETTE, PKS_DATAFORMAT_VIDEOINFO_PALETTE structure pointer [Streaming Media Devices], stream.ks_dataformat_videoinfo_palette, KS_DATAFORMAT_VIDEOINFO_PALETTE, ksmedia/PKS_DATAFORMAT_VIDEOINFO_PALETTE, KS_DATAFORMAT_VIDEOINFO_PALETTE structure [Streaming Media Devices], PKS_DATAFORMAT_VIDEOINFO_PALETTE, ksmedia/KS_DATAFORMAT_VIDEOINFO_PALETTE, *PKS_DATAFORMAT_VIDEOINFO_PALETTE, vidcapstruct_1c005432-ed48-43fb-b866-387903e45b93.xml
+ms.keywords: PKS_DATAFORMAT_VIDEOINFO_PALETTE, ksmedia/KS_DATAFORMAT_VIDEOINFO_PALETTE, KS_DATAFORMAT_VIDEOINFO_PALETTE structure [Streaming Media Devices], PKS_DATAFORMAT_VIDEOINFO_PALETTE structure pointer [Streaming Media Devices], *PKS_DATAFORMAT_VIDEOINFO_PALETTE, tagKS_DATAFORMAT_VIDEOINFO_PALETTE, KS_DATAFORMAT_VIDEOINFO_PALETTE, ksmedia/PKS_DATAFORMAT_VIDEOINFO_PALETTE, vidcapstruct_1c005432-ed48-43fb-b866-387903e45b93.xml, stream.ks_dataformat_videoinfo_palette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DATAFORMAT_VIDEOINFO_PALETTE
 product: Windows
 targetos: Windows
@@ -80,9 +80,13 @@ Specifies the details of the video stream.
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
 <a href="..\ksmedia\ns-ksmedia-tagks_videoinfo.md">KS_VIDEOINFO</a>
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
 
  
 

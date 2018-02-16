@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9c69d290-0cc6-4444-b9cb-a9555526e9ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_DCSFLAG_INDICATIONACTIVE, RIL_DCSFLAG_DISCARD, RILMSGDCSFLAGS, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_DCSFLAG_ALL, netvista.rilmsgdcsflags, ntddrilapitypes/RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_INDICATIONACTIVE, ntddrilapitypes/RIL_DCSFLAG_DISCARD, RIL_DCSFLAG_COMPRESSED, ntddrilapitypes/RILMSGDCSFLAGS, RIL_DCSFLAG_ALL
+ms.keywords: ntddrilapitypes/RIL_DCSFLAG_INDICATIONACTIVE, RIL_DCSFLAG_ALL, RIL_DCSFLAG_DISCARD, RILMSGDCSFLAGS, ntddrilapitypes/RIL_DCSFLAG_DISCARD, ntddrilapitypes/RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_COMPRESSED, ntddrilapitypes/RILMSGDCSFLAGS, RIL_DCSFLAG_INDICATIONACTIVE, netvista.rilmsgdcsflags, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_DCSFLAG_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGDCSFLAGS
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILMSGDCSFLAGS {
 ### -field RIL_DCSFLAG_NONE
 
 
-
 ### -field RIL_DCSFLAG_COMPRESSED
-
 
 
 ### -field RIL_DCSFLAG_INDICATIONACTIVE
 
 
-
 ### -field RIL_DCSFLAG_DISCARD
 
 
-
 ### -field RIL_DCSFLAG_ALL
-
 

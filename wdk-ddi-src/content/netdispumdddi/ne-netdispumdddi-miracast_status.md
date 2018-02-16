@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26949ef9-ddcd-496d-b7e2-7c971bfaf3fb
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: netdispumdddi/MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, netdispumdddi/MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE, MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE, netdispumdddi/MIRACAST_STATUS_FORCE_UINT32, MIRACAST_STATUS_MISSING_KEEPALIVE, MIRACAST_STATUS_CRITICAL_ERROR, netdispumdddi/MIRACAST_STATUS_MISSING_KEEPALIVE, MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, netdispumdddi/MIRACAST_STATUS_CRITICAL_ERROR, MIRACAST_STATUS enumeration [Display Devices], MIRACAST_STATUS, MIRACAST_STATUS_FORCE_UINT32, MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, netdispumdddi/MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, display.miracast_status, netdispumdddi/MIRACAST_STATUS
+ms.keywords: MIRACAST_STATUS enumeration [Display Devices], MIRACAST_STATUS_CRITICAL_ERROR, MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE, MIRACAST_STATUS_MISSING_KEEPALIVE, netdispumdddi/MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE, netdispumdddi/MIRACAST_STATUS, netdispumdddi/MIRACAST_STATUS_FORCE_UINT32, MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, netdispumdddi/MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, netdispumdddi/MIRACAST_STATUS_CRITICAL_ERROR, MIRACAST_STATUS, netdispumdddi/MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, netdispumdddi/MIRACAST_STATUS_MISSING_KEEPALIVE, MIRACAST_STATUS_FORCE_UINT32, display.miracast_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	MIRACAST_STATUS
 product: Windows
 targetos: Windows
@@ -98,7 +98,6 @@ The Miracast sink failed to set a standard Video Electronics Standards Associati
 
 
 ### -field MIRACAST_STATUS_COMPANION_DRIVER_DISCONNECT
-
 
 
 ### -field MIRACAST_STATUS_FORCE_UINT32

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	lamp.h
-apiname: 
+apiname:
 -	IOCTL_LAMP_GET_MODE
 product: Windows
 targetos: Windows
@@ -96,14 +96,18 @@ Length of <a href="..\lamp\ne-lamp-lamp_mode.md">LAMP_MODE</a>.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

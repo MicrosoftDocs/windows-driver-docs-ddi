@@ -7,7 +7,7 @@ old-location: audio\iportclsversion.htm
 old-project: audio
 ms.assetid: 8a367bcb-680b-41be-975f-1a1f4bec3b60
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iportclsversion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices], described, IPortClsVersion, portcls/IPortClsVersion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortClsVersion
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsVersion interface

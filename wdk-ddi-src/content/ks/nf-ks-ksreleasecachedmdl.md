@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8EDBD8FF-6417-44C0-87C0-14D71FEFA380
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsReleaseCachedMdl, KsReleaseCachedMdl, stream.ksreleasecachedmdl, KsReleaseCachedMdl function [Streaming Media Devices]
+ms.keywords: stream.ksreleasecachedmdl, KsReleaseCachedMdl function [Streaming Media Devices], ks/KsReleaseCachedMdl, KsReleaseCachedMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
-apiname: 
+apiname:
 -	KsReleaseCachedMdl
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ The context passed as an output in the <a href="..\ks\nf-ks-ksacquirecachedmdl.m
 ## -returns
 
 
+
 Returns <b>STATUS_SUCCESS</b> for success conditions.
+
 
 

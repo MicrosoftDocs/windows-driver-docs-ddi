@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a07afa2e-1f7d-4685-9ede-8b7805dd6583
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetDebuggerData function [Windows Debugging], WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, GetDebuggerData, debugger.getdebuggerdata, wdbgexts/GetDebuggerData
+ms.keywords: GetDebuggerData, wdbgexts/GetDebuggerData, debugger.getdebuggerdata, WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, GetDebuggerData function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdbgexts.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	GetDebuggerData
 product: Windows
 targetos: Windows
@@ -87,14 +87,16 @@ TBD
 
 
 
-#### - Size
-
-Specifies the size of the data block, including the header.
 
 
 #### - Buf
 
 Points to the debugger data block.
+
+
+#### - Size
+
+Specifies the size of the data block, including the header.
 
 
 #### - Tag

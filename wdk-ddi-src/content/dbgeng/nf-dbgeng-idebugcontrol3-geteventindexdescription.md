@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 75aace9d-3f1e-4002-82e6-d581903da4f9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3, debugger.geteventindexdescription, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, GetEventIndexDescription method [Windows Debugging], dbgeng/IDebugControl3::GetEventIndexDescription, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method
+ms.keywords: GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, debugger.geteventindexdescription, dbgeng/IDebugControl3::GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], IDebugControl3::GetEventIndexDescription, GetEventIndexDescription, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.GetEventIndexDescription
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetEventIndexDescription method
@@ -99,7 +99,9 @@ Receives the size, in characters, of the description.  If <i>DescSize</i> is <b>
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,14 +118,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The amount of descriptive information available for a particular target varies depending on the type of the target.
+
 
 
 
@@ -131,9 +137,15 @@ The amount of descriptive information available for a particular target varies d
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
+
+
 
  
 

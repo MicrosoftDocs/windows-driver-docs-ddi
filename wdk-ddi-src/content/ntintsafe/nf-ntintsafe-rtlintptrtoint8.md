@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3AF29469-C376-4EF7-B8A0-88ADCA8FEE4F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlIntPtrToInt8, kernel.rtlintptrtoint8, RtlIntPtrToInt8, RtlIntPtrToInt8 function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlIntPtrToInt8 function [Kernel-Mode Driver Architecture], RtlIntPtrToInt8, ntintsafe/RtlIntPtrToInt8, kernel.rtlintptrtoint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlIntPtrToInt8
 product: Windows
 targetos: Windows
@@ -81,10 +81,13 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlPtrdiffTToInt8</li>
 </ul>
+
 

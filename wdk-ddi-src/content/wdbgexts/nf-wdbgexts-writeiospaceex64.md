@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4fc874ab-b31d-41ae-baeb-18819c4e3970
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.writeiospaceex64, WriteIoSpaceEx64 function [Windows Debugging], WriteIoSpaceEx64, wdbgexts/WriteIoSpaceEx64, WdbgExts_Ref_378f5c2e-fcbc-4401-8527-f6e98bfa6257.xml
+ms.keywords: WriteIoSpaceEx64 function [Windows Debugging], WriteIoSpaceEx64, debugger.writeiospaceex64, WdbgExts_Ref_378f5c2e-fcbc-4401-8527-f6e98bfa6257.xml, wdbgexts/WriteIoSpaceEx64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	WriteIoSpaceEx64
 product: Windows
 targetos: Windows
@@ -106,15 +106,19 @@ This is typically 1.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If you are writing 32-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-writeiospaceex.md">WriteIoSpaceEx</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 

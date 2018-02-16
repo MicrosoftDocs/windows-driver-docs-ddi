@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_DEVICE_INFORMATION
-title: _WDF_USB_DEVICE_INFORMATION
+title: "_WDF_USB_DEVICE_INFORMATION"
 author: windows-driver-content
 description: The WDF_USB_DEVICE_INFORMATION structure contains version and capability information for a USB device.
 old-location: wdf\wdf_usb_device_information.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d212a29-22b9-408d-9562-b232fc91cc9f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_USB_DEVICE_INFORMATION structure pointer, wdfusb/WDF_USB_DEVICE_INFORMATION, kmdf.wdf_usb_device_information, WDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION structure, *PWDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION, wdfusb/PWDF_USB_DEVICE_INFORMATION, _WDF_USB_DEVICE_INFORMATION, wdf.wdf_usb_device_information, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml
+ms.keywords: "*PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION, kmdf.wdf_usb_device_information, PWDF_USB_DEVICE_INFORMATION structure pointer, wdf.wdf_usb_device_information, wdfusb/PWDF_USB_DEVICE_INFORMATION, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml, wdfusb/WDF_USB_DEVICE_INFORMATION, _WDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION structure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION
+req.typenames: "*PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -96,7 +96,9 @@ A set of bit flags that identify device traits. The flags are defined by the <a 
 ## -remarks
 
 
+
 The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a> method. Before calling <b>WdfUsbTargetDeviceRetrieveInformation</b>, the driver must call <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_information_init.md">WDF_USB_DEVICE_INFORMATION_INIT</a> to initialize the structure.
+
 
 
 
@@ -104,11 +106,19 @@ The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="..\
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_information_init.md">WDF_USB_DEVICE_INFORMATION_INIT</a>
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_device_traits.md">WDF_USB_DEVICE_TRAITS</a>
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>
+
+
 
 <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>
+
+
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_device_traits.md">WDF_USB_DEVICE_TRAITS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: B25AD9E0-FBDA-4E4F-A268-92C9AA761191
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/DebugConnectWide, DebugConnectWide function [Windows Debugging], DebugConnectWide, debugger.debugconnectwide
+ms.keywords: dbgeng/DebugConnectWide, debugger.debugconnectwide, DebugConnectWide function [Windows Debugging], DebugConnectWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	DebugConnectWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # DebugConnectWide function
@@ -87,7 +87,9 @@ Receives an interface pointer for the new client.  The type of this interface is
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,22 +106,30 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longer needed, its <b>IUnknown::Release</b> method should be called. 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
+
 
  
 

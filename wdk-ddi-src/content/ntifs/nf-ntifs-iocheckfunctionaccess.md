@@ -7,8 +7,8 @@ old-location: ifsk\iocheckfunctionaccess.htm
 old-project: ifsk
 ms.assetid: 828a5197-eb2d-46d1-9853-0f8b4f288820
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ioref_e6c92504-238b-4163-8078-35aee716744e.xml, IoCheckFunctionAccess function [Installable File System Drivers], IoCheckFunctionAccess, ntifs/IoCheckFunctionAccess, ifsk.iocheckfunctionaccess
+ms.date: 2/7/2018
+ms.keywords: IoCheckFunctionAccess, IoCheckFunctionAccess function [Installable File System Drivers], ioref_e6c92504-238b-4163-8078-35aee716744e.xml, ntifs/IoCheckFunctionAccess, ifsk.iocheckfunctionaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	IoCheckFunctionAccess
 product: Windows
 targetos: Windows

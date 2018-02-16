@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, D3DKMTGetProcessSchedulingPriorityClass, OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], display.d3dkmtgetprocessschedulingpriorityclass
+ms.keywords: d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], display.d3dkmtgetprocessschedulingpriorityclass, D3DKMTGetProcessSchedulingPriorityClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTGetProcessSchedulingPriorityClass
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ TBD
 
 
 
+
 #### - hProcess [in]
 
 A handle to the process for which scheduling priority is set.
@@ -90,7 +91,9 @@ A pointer to a variable that receives a <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt
 ## -returns
 
 
+
 <b>D3DKMTGetProcessSchedulingPriorityClass</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,9 +121,11 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 
 
@@ -128,7 +133,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass.md">D3DKMTSetProcessSchedulingPriorityClass</a>
 
+
+
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, KsRemoveItemFromObjectBag function [Streaming Media Devices], stream.ksremoveitemfromobjectbag, ks/KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag
+ms.keywords: ks/KsRemoveItemFromObjectBag, avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, KsRemoveItemFromObjectBag, stream.ksremoveitemfromobjectbag, KsRemoveItemFromObjectBag function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsRemoveItemFromObjectBag
 product: Windows
 targetos: Windows
@@ -88,6 +88,7 @@ This parameter specifies whether <i>Item</i> should be freed once it has been re
 ## -returns
 
 
+
 Returns the number of references on <i>Item</i>. A return value of zero indicates that <i>Item</i> was not in <i>ObjectBag</i> at call-time.
 
 A return value of one indicates that <i>Item</i> was successfully removed from <i>ObjectBag</i> and that it was not in any other object bag. If a free was requested in this case, AVStream frees <i>Item</i> using either <b>ExFreePool</b> or the Free method specified at <b>KsAddItemToObjectBag</b> call-time.
@@ -100,7 +101,9 @@ A return value above one indicates that the item is present in another object ba
 
 
 
+
 ## -remarks
+
 
 
 <b>KsRemoveItemFromObjectBag</b> frees <i>Item</i> only if the number of references on this item is zero and a free was requested. 
@@ -111,19 +114,32 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+
+
+<a href="..\ks\nf-ks-ksmergeautomationtables.md">KsMergeAutomationTables</a>
+
+
 
 <a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
 
+
+
 <a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
+
+
+
+<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+
+
 
 <a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
 
-<a href="..\ks\nf-ks-ksmergeautomationtables.md">KsMergeAutomationTables</a>
+
 
  
 

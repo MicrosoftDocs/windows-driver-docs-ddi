@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: F175ED42-3DB6-4568-96CA-EFC283B14887
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], storage.storportpofxsetcomponentlatency, StorPortPoFxSetComponentLatency
+ms.keywords: storage.storportpofxsetcomponentlatency, StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], storport/StorPortPoFxSetComponentLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortPoFxSetComponentLatency
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ The time, in units of 100 nanoseconds, that the storage device component can tol
 ## -returns
 
 
+
 The <b>StorPortPoFxSetComponentLatency</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,13 +158,17 @@ The current IRQL &gt; DISPATCH_LEVEL.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
+
+
 
  
 

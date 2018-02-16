@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnGetResourceLayout
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback
@@ -79,9 +79,7 @@ VOID APIENTRY* pfnGetResourceLayout(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HRESOURCE
-
 
 
 ### -param SubresourceCount
@@ -96,28 +94,16 @@ The subresource count.
 
 
 
-### -param *pMipLevelSwizzleTransition
 
 
+### -param *pMipLevelSwizzleTransition [out]
 
-#### - hResource
-
-A resource handle. 
+A pointer to a MIP level swizzle transition. 
 
 
 #### - Handle [out]
 
 A kernel handle.
-
-
-#### - hDevice
-
-A device handle.
-
-
-#### - pMipLevelSwizzleTransition [out]
-
-A pointer to a MIP level swizzle transition. 
 
 
 #### - SubresourceLayout [out, optional]
@@ -130,9 +116,21 @@ A pointer to the subresource layout.
 A pointer to a texture layout.
 
 
+#### - hDevice
+
+A device handle.
+
+
+#### - hResource
+
+A resource handle. 
+
+
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

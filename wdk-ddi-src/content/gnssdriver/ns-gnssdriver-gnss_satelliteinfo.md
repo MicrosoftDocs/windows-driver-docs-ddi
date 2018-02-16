@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 27F537D8-45B2-43D9-A614-3558534C9DBA
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SATELLITEINFO, GNSS_SATELLITEINFO structure [Sensor Devices], PGNSS_SATELLITEINFO structure pointer [Sensor Devices], *PGNSS_SATELLITEINFO, gnssdriver/GNSS_SATELLITEINFO, PGNSS_SATELLITEINFO, sensors.gnss_satelliteinfo, gnssdriver/PGNSS_SATELLITEINFO
+ms.keywords: "*PGNSS_SATELLITEINFO, sensors.gnss_satelliteinfo, GNSS_SATELLITEINFO structure [Sensor Devices], GNSS_SATELLITEINFO, gnssdriver/GNSS_SATELLITEINFO, PGNSS_SATELLITEINFO, gnssdriver/PGNSS_SATELLITEINFO, PGNSS_SATELLITEINFO structure pointer [Sensor Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_SATELLITEINFO
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_SATELLITEINFO, GNSS_SATELLITEINFO
+req.typenames: GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO
 ---
 
 # GNSS_SATELLITEINFO structure

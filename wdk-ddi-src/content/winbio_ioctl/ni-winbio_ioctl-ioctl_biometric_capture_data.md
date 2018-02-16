@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winbio_ioctl.h
-apiname: 
+apiname:
 -	IOCTL_BIOMETRIC_CAPTURE_DATA
 product: Windows
 targetos: Windows
@@ -95,14 +95,18 @@ If the driver receives a DWORD-sized output buffer, the driver must immediately 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -111,6 +115,7 @@ If the driver receives a DWORD-sized output buffer, the driver must immediately 
 Indicates whether the DeviceIoControl call to the driver completed and the OUT payload is valid.
 
 The <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -176,10 +181,12 @@ Any other failure that prevents the payload from being filled in.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Only one data collection IOCTL can be pending at any time.  If the device has an IOCTL_BIOMETRIC_CAPTURE_DATA pending, IOCTL_BIOMETRIC_CAPTURE_DATA must return WINBIO_E_DATA_COLLECTION_IN_PROGRESS.
@@ -189,6 +196,7 @@ IOCTL_BIOMETRIC_CAPTURE_DATA is a blocking data collection IOCTL that is complet
 If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of WINBIO_CAPTURE_DATA with the status of the Biometric operation.
 
 Possible values include:
+
 
 
 

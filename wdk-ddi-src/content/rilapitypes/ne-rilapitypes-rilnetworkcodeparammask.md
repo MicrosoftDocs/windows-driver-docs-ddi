@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10842352-4201-477f-b1ea-8ed9181a6012
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILNETWORKCODEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_NETWORKCODE_MCC, rilapitypes/RIL_PARAM_NETWORKCODE_MCC, netvista.rilnetworkcodeparammask, RILNETWORKCODEPARAMMASK, rilapitypes/RIL_PARAM_NETWORKCODE_MNC, RIL_PARAM_NETWORKCODE_NID, RIL_PARAM_NETWORKCODE_RI, rilapitypes/RILNETWORKCODEPARAMMASK, rilapitypes/RIL_PARAM_NETWORKCODE_EXECUTOR, rilapitypes/RIL_PARAM_NETWORKCODE_NID, rilapitypes/RIL_PARAM_NETWORKCODE_RI, rilapitypes/RIL_PARAM_NETWORKCODE_ALL, RIL_PARAM_NETWORKCODE_EXECUTOR, rilapitypes/RIL_PARAM_NETWORKCODE_SID, RIL_PARAM_NETWORKCODE_SID, RIL_PARAM_NETWORKCODE_MNC, RIL_PARAM_NETWORKCODE_ALL
+ms.keywords: RIL_PARAM_NETWORKCODE_MCC, RIL_PARAM_NETWORKCODE_NID, rilapitypes/RIL_PARAM_NETWORKCODE_SID, rilapitypes/RIL_PARAM_NETWORKCODE_MNC, rilapitypes/RILNETWORKCODEPARAMMASK, rilapitypes/RIL_PARAM_NETWORKCODE_NID, RIL_PARAM_NETWORKCODE_RI, RIL_PARAM_NETWORKCODE_EXECUTOR, rilapitypes/RIL_PARAM_NETWORKCODE_RI, rilapitypes/RIL_PARAM_NETWORKCODE_ALL, RIL_PARAM_NETWORKCODE_SID, RILNETWORKCODEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilnetworkcodeparammask, rilapitypes/RIL_PARAM_NETWORKCODE_EXECUTOR, RIL_PARAM_NETWORKCODE_ALL, RIL_PARAM_NETWORKCODE_MNC, rilapitypes/RIL_PARAM_NETWORKCODE_MCC, RILNETWORKCODEPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILNETWORKCODEPARAMMASK
 product: Windows
 targetos: Windows
@@ -80,34 +80,29 @@ enum RILNETWORKCODEPARAMMASK {
 ### -field RIL_PARAM_NETWORKCODE_EXECUTOR
 
 
-
 ### -field RIL_PARAM_NETWORKCODE_MCC
-
 
 
 ### -field RIL_PARAM_NETWORKCODE_MNC
 
 
-
 ### -field RIL_PARAM_NETWORKCODE_SID
-
 
 
 ### -field RIL_PARAM_NETWORKCODE_NID
 
 
-
 ### -field RIL_PARAM_NETWORKCODE_RI
-
 
 
 ### -field RIL_PARAM_NETWORKCODE_ALL
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 959a78e2-b5c8-47b0-97b1-52d9565a6dab
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, Set method [Streaming Media Devices], IKsPropertySet, IKsPropertySet::Set, Set method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_set, ksproxy/IKsPropertySet::Set, IKsPropertySet interface [Streaming Media Devices], Set method, Set
+ms.keywords: IKsPropertySet, Set method [Streaming Media Devices], ksproxy/IKsPropertySet::Set, IKsPropertySet interface [Streaming Media Devices], Set method, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, IKsPropertySet::Set, Set method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_set, Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dsound.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPropertySet.Set
 product: Windows
 targetos: Windows
-req.typenames: DRMRIGHTS, *PDRMRIGHTS
+req.typenames: "*PDRMRIGHTS, DRMRIGHTS"
 ---
 
 # IKsPropertySet::Set method
@@ -103,29 +103,10 @@ HRESULT Set(
 
 
 
-#### - InstanceLength [in]
-
-Size, in bytes, of the buffer at <i>InstanceData</i>. 
-
-
-#### - PropertyData [in]
-
-Pointer to a buffer that contains the value of the property to set. 
-
 
 #### - DataLength [in]
 
 Size, in bytes, of the buffer at <i>PropertyData</i>. 
-
-
-#### - InstanceData [in]
-
-Pointer to instance data for the property. 
-
-
-#### - PropSet [in]
-
-GUID that identifies the property set.
 
 
 #### - Id [in]
@@ -133,14 +114,37 @@ GUID that identifies the property set.
 Identifier of the property within the property set. 
 
 
+#### - InstanceData [in]
+
+Pointer to instance data for the property. 
+
+
+#### - InstanceLength [in]
+
+Size, in bytes, of the buffer at <i>InstanceData</i>. 
+
+
+#### - PropSet [in]
+
+GUID that identifies the property set.
+
+
+#### - PropertyData [in]
+
+Pointer to a buffer that contains the value of the property to set. 
+
+
 ## -returns
+
 
 
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 <div class="alert"><b>Warning</b>  <p class="note">Header files <i>ksproxy.h</i> and <i>dsound.h</i> define similar but incompatible versions of the <b>IKsPropertySet</b> interface. Applications that require the KS proxy module should use the version defined in <i>ksproxy.h</i>. The DirectSound version of <b>IKsPropertySet</b> is described in the DirectSound reference pages in the Microsoft Windows SDK documentation.
@@ -151,12 +155,16 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
+
+
 
  
 

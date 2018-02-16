@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._SYM_DUMP_PARAM
-title: _SYM_DUMP_PARAM
+title: "_SYM_DUMP_PARAM"
 author: windows-driver-content
 description: The IG_DUMP_SYMBOL_INFO Ioctl operation provides information about the type of a symbol.
 old-location: debugger\ig_dump_symbol_info.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/SYM_DUMP_PARAM, *PSYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], SYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, debugger.ig_dump_symbol_info, _SYM_DUMP_PARAM, PSYM_DUMP_PARAM, wdbgexts/PSYM_DUMP_PARAM
+ms.keywords: wdbgexts/PSYM_DUMP_PARAM, _SYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, *PSYM_DUMP_PARAM, debugger.ig_dump_symbol_info, SYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], wdbgexts/SYM_DUMP_PARAM, PSYM_DUMP_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	SYM_DUMP_PARAM
 product: Windows
 targetos: Windows
-req.typenames: *PSYM_DUMP_PARAM, SYM_DUMP_PARAM
+req.typenames: SYM_DUMP_PARAM, *PSYM_DUMP_PARAM
 req.product: Windows 10 or later.
 ---
 
@@ -88,16 +88,6 @@ typedef struct _SYM_DUMP_PARAM {
 
 
 
-### -field Context
-
-Specifies a pointer that is passed to the callback function in the <b>CallbackRoutine</b> member and to the callback functions in the <b>fieldCallBack</b> member of the <b>linkList</b> and <b>Fields</b> members.
-
-
-### -field pBuffer
-
-Specifies a buffer that receives information about the symbol.  This buffer is only used if the DBG_DUMP_COPY_TYPE_DATA flag is set in <b>Options</b>.  The size of this buffer is specified in <b>BufferSize</b>.
-
-
 ### -field size
 
 Specifies the size, in bytes, of this structure.  It should be set to <code>sizeof(SYM_DUMP_PARAM)</code>.
@@ -125,6 +115,16 @@ Specifies the field that contains the next item in a linked list.  If the symbol
 The callback function specified in the <b>fieldCallBack</b> member of this structure is called, during this <b>Ioctl</b> operation, for each item in the list.  When it is called, it is passed this <b>linkList</b> structure with the members filled in for the list entry along with the contents of the <b>Context</b> member.
 
 DBG_DUMP_LIST should be set in <b>Options</b> to tell this <b>Ioctl</b> to iterate over the list.
+
+
+### -field Context
+
+Specifies a pointer that is passed to the callback function in the <b>CallbackRoutine</b> member and to the callback functions in the <b>fieldCallBack</b> member of the <b>linkList</b> and <b>Fields</b> members.
+
+
+### -field pBuffer
+
+Specifies a buffer that receives information about the symbol.  This buffer is only used if the DBG_DUMP_COPY_TYPE_DATA flag is set in <b>Options</b>.  The size of this buffer is specified in <b>BufferSize</b>.
 
 
 ### -field CallbackRoutine
@@ -185,8 +185,8 @@ Receives a Boolean value that indicates whether the symbol is a constant.  <b>fC
 ### -field Reserved
 
 
-
 ## -remarks
+
 
 
 The parameters for the IG_DUMP_SYMBOL_INFO <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation are the members of the SYM_DUMP_PARAM structure.
@@ -196,9 +196,12 @@ This <b>Ioctl</b> operation looks up the module information for the symbol, load
 If <b>nFields</b> is zero and DBG_DUMP_CALL_FOR_EACH is set in <b>Options</b>, the callback function specified in <b>CallbackRoutine</b> is called for every field in the symbol.
 
 If <b>nFields</b> is non-zero and DBG_DUMP_CALL_FOR_EACH is set in <b>Options</b>, callbacks are only made for those fields matching the <b>fName</b> member of one of the <b>Fields</b> elements.  If a field matches a <b>fName</b> member and the <b>fieldCallBack</b> member is not <b>NULL</b>, the callback function in  <b>fieldCallBack</b> is called; if it is <b>NULL</b>, the callback function in <b>CallbackRoutine</b> is called instead.
-<h3><a id="ddk_dbg_dump_xxx_dbx"></a><a id="DDK_DBG_DUMP_XXX_DBX"></a></h3>The DBG_DUMP_<i>XXX</i> bit flags are used by the <b>Options</b> member of the SYM_DUMP_PARAM structure to control the behavior of the <b>IG_DUMP_SYMBOL_INFO</b><a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation.
+
+<h3><a id="ddk_dbg_dump_xxx_dbx"></a><a id="DDK_DBG_DUMP_XXX_DBX"></a></h3>
+The DBG_DUMP_<i>XXX</i> bit flags are used by the <b>Options</b> member of the SYM_DUMP_PARAM structure to control the behavior of the <b>IG_DUMP_SYMBOL_INFO</b><a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation.
 
 The following flags can be present.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -354,12 +357,16 @@ Recurse through nested structures; but do not follow pointers.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be added to the bit-set to specify how deep into structures to recurse.  <i>Level</i> can be a number between 0 and 15.
-<h3><a id="ddk_dbg_dump_field_xxx_dbx"></a><a id="DDK_DBG_DUMP_FIELD_XXX_DBX"></a></h3>The DBG_DUMP_FIELD_<i>XXX</i> bit flags are used by the <b>fOptions</b> member of the <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> structure to control the behavior of the <b>IG_DUMP_SYMBOL_INFO</b><a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation.
+
+<h3><a id="ddk_dbg_dump_field_xxx_dbx"></a><a id="DDK_DBG_DUMP_FIELD_XXX_DBX"></a></h3>
+The DBG_DUMP_FIELD_<i>XXX</i> bit flags are used by the <b>fOptions</b> member of the <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> structure to control the behavior of the <b>IG_DUMP_SYMBOL_INFO</b><a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation.
 
 The following flags can be present.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -467,21 +474,31 @@ If the member is a pointer, it is printed as a string, ANSI string , WCHAR strin
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be added to the bit-set to specify how deep into structures to recurse.  <i>Level</i> can be a number between 0 and 15.
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
+
+
+
 <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540433">DBG_DUMP_XXX</a>
+
+
 
  
 

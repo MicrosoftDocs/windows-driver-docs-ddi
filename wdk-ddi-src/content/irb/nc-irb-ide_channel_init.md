@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	AtaChannelInitRoutine
 product: Windows
 targetos: Windows
@@ -89,6 +89,8 @@ A pointer to a structure of type <a href="..\irb\ns-irb-_ide_channel_interface.m
 
 
 
+
+
 #### - Context [in, out]
 
 A pointer to the controller extension.
@@ -97,14 +99,18 @@ A pointer to the controller extension.
 ## -returns
 
 
+
 <b><i>AtaChannelInitRoutine</i></b> returns <b>TRUE</b> if the initialization succeeded. It returns <b>FALSE</b> if the initialization failed. 
+
 
 
 
 ## -remarks
 
 
+
 A vendor-supplied miniport driver that supports the channel interface must implement an <b><i>AtaChannelInitRoutine</i></b> routine to initialize the controller's channels. In particular, the <b><i>AtaChannelInitRoutine</i></b> routine must complete the initialization of the <a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a> structure. The following sequence describes how the miniport driver and the port driver interact to initialize a channel: 
+
 <ol>
 <li>
 While in its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
@@ -121,13 +127,20 @@ The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using contr
 </ol>
 
 
+
 ## -see-also
+
+<a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a>
+
+
 
 <a href="..\irb\ns-irb-_ide_controller_interface.md">IDE_CONTROLLER_INTERFACE</a>
 
+
+
 <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a>
 
-<a href="..\irb\ns-irb-_ide_channel_interface.md">IDE_CHANNEL_INTERFACE</a>
+
 
  
 

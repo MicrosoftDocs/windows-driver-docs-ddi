@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DrawIndexedPrimitive2
 product: Windows
 targetos: Windows
@@ -86,18 +86,14 @@ __checkReturn HRESULT APIENTRY DrawIndexedPrimitive2(
 
 
 
-### -param UINT
 
+
+### -param UINT
 
 
 #### - dwIndicesSize [in]
 
  The size, in bytes, of indexes in the buffer that <i>pIndexBuffer</i> points to. This size is 2 or 4 bytes. 
-
-
-#### - pIndexBuffer [in]
-
- A pointer to a buffer of index data to be drawn.
 
 
 #### - pData [in]
@@ -112,14 +108,22 @@ __checkReturn HRESULT APIENTRY DrawIndexedPrimitive2(
 If the pointer is <b>NULL</b>, the user-mode display driver should use its fast path to draw primitives. 
 
 
+#### - pIndexBuffer [in]
+
+ A pointer to a buffer of index data to be drawn.
+
+
 ## -returns
+
 
 
 <b>DrawIndexedPrimitive2</b> returns S_OK or an appropriate error result if the primitive is not successfully drawn.
 
 
 
+
 ## -remarks
+
 
 
 Stream zero contains transform indices and is the only stream that should be accessed. 
@@ -128,13 +132,20 @@ When the Microsoft Direct3D runtime specifies triangle-edge flags in the value t
 
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
+
 
  
 

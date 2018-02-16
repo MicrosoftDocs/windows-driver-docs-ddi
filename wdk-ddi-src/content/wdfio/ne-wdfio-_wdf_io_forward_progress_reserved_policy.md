@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfio._WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
-title: _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
+title: "_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY"
 author: windows-driver-content
 description: The WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration identifies actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists.
 old-location: wdf\wdf_io_forward_progress_reserved_policy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6d530cf2-de06-4aa3-9f4d-08619906c9ed
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressReservedPolicyPagingIO, WdfIoForwardProgressReservedPolicyPagingIO, DFQueueObjectRef_e035ecd7-f728-4d88-80a8-763ab3eb90ab.xml, WdfIoForwardProgressInvalidPolicy, WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, kmdf.wdf_io_forward_progress_reserved_policy, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdf.wdf_io_forward_progress_reserved_policy, wdfio/WdfIoForwardProgressInvalidPolicy, wdfio/WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, wdfio/WdfIoForwardProgressReservedPolicyUseExamine, WdfIoForwardProgressReservedPolicyUseExamine
+ms.keywords: wdfio/WdfIoForwardProgressReservedPolicyPagingIO, WdfIoForwardProgressReservedPolicyPagingIO, WdfIoForwardProgressInvalidPolicy, WdfIoForwardProgressReservedPolicyUseExamine, wdf.wdf_io_forward_progress_reserved_policy, kmdf.wdf_io_forward_progress_reserved_policy, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration, DFQueueObjectRef_e035ecd7-f728-4d88-80a8-763ab3eb90ab.xml, wdfio/WdfIoForwardProgressInvalidPolicy, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, wdfio/WdfIoForwardProgressReservedPolicyUseExamine, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY, WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfio.h
-apiname: 
+apiname:
 -	WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
 product: Windows
 targetos: Windows
@@ -76,7 +76,6 @@ typedef enum _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY {
 ### -field WdfIoForwardProgressInvalidPolicy
 
 
-
 ### -field WdfIoForwardProgressReservedPolicyAlwaysUseReservedRequest
 
 In a low-memory situation, the framework always uses a reserved request object, if one is available.
@@ -95,6 +94,8 @@ In a low-memory situation, if the <b>Flags</b> member of the I/O request's <a hr
 ## -remarks
 
 
+
 The <b>WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY</b> enumeration is used as a member type in the <a href="..\wdfio\ns-wdfio-_wdf_io_queue_forward_progress_policy.md">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
+
 
 

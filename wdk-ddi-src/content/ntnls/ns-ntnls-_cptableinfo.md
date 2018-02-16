@@ -1,6 +1,6 @@
 ---
 UID: NS:ntnls._CPTABLEINFO
-title: _CPTABLEINFO
+title: "_CPTABLEINFO"
 author: windows-driver-content
 description: Stores the NLS file formats.
 old-location: kernel\cptableinfo.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PCPTABLEINFO, kernel.cptableinfo, ntnls/CPTABLEINFO, ntnls/PCPTABLEINFO, CPTABLEINFO, *PCPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], CPTABLEINFO structure [Kernel-Mode Driver Architecture], _CPTABLEINFO
+ms.keywords: PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], CPTABLEINFO, *PCPTABLEINFO, PCPTABLEINFO, ntnls/PCPTABLEINFO, _CPTABLEINFO, kernel.cptableinfo, CPTABLEINFO structure [Kernel-Mode Driver Architecture], ntnls/CPTABLEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntnls.h
-apiname: 
+apiname:
 -	CPTABLEINFO
 product: Windows
 targetos: Windows
-req.typenames: CPTABLEINFO, *PCPTABLEINFO
+req.typenames: "*PCPTABLEINFO, CPTABLEINFO"
 ---
 
 # _CPTABLEINFO structure

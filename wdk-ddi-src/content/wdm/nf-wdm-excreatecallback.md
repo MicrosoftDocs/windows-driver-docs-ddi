@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8532a6d-2b7f-4ed6-a2e4-6157d5e842ff
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.excreatecallback, ExCreateCallback, ExCreateCallback routine [Kernel-Mode Driver Architecture], wdm/ExCreateCallback, k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml
+ms.keywords: ExCreateCallback routine [Kernel-Mode Driver Architecture], k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, wdm/ExCreateCallback, kernel.excreatecallback, ExCreateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExCreateCallback
 product: Windows
 targetos: Windows
@@ -94,11 +94,14 @@ Whether a newly created callback object should allow multiple registered callbac
 ## -returns
 
 
+
 <b>ExCreateCallback</b> returns STATUS_SUCCESS if a callback object was opened or created. Otherwise, it returns an NTSTATUS error code to indicate the nature of the failure.
 
 
 
+
 ## -remarks
+
 
 
 A driver calls <b>ExCreateCallback</b> to create a new callback object or to open an existing callback object. After the object has been created or opened, other components can call the <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a> routine to register callback routines with the callback object.
@@ -108,6 +111,7 @@ Before calling <b>ExCreateCallback</b>, the driver must call <a href="..\wudfwdm
 When all operations have been completed with the callback object, the driver must delete the object to prevent a memory leak. For information about deleting an object  that was created with the OBJ_PERMANENT object attribute, see <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>.
 
 The following table shows the callback objects that the operating system creates for use by drivers.
+
 <table>
 <tr>
 <th>Callback object name</th>
@@ -133,21 +137,31 @@ The operating system calls any callback routines registered for this object  whe
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about callback objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540718">Callback Objects</a>.
 
 
 
+
 ## -see-also
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 <a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
 
+
+
 <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
 
  
 

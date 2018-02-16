@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F41E7DD6-336C-477D-87AD-0151A523DD0A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WRITE_REGISTER_USHORT function, wudfddi_hwaccess/WRITE_REGISTER_USHORT, umdf.write_register_ushort, wdf.write_register_ushort, WRITE_REGISTER_USHORT
+ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT function, wdf.write_register_ushort, umdf.write_register_ushort, wudfddi_hwaccess/WRITE_REGISTER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_hwaccess.h
-apiname: 
+apiname:
 -	WRITE_REGISTER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -90,13 +90,17 @@ Specifies a USHORT value to write to the register.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+
 
 

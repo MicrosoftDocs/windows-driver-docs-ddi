@@ -1,6 +1,6 @@
 ---
 UID: NS:wlantypes._DOT11_SSID
-title: _DOT11_SSID
+title: "_DOT11_SSID"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_ssid.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f032b0db-92a0-40ff-a80d-e263d7b2dc67
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wlantypes/DOT11_SSID, DOT11_SSID structure [Network Drivers Starting with Windows Vista], netvista.dot11_ssid, *PDOT11_SSID, DOT11_SSID, Native_802.11_data_types_e25f30a3-b1f8-43ca-a685-6bc4909028d1.xml, wlantypes/PDOT11_SSID, _DOT11_SSID, PDOT11_SSID, PDOT11_SSID structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: DOT11_SSID structure [Network Drivers Starting with Windows Vista], netvista.dot11_ssid, _DOT11_SSID, *PDOT11_SSID, PDOT11_SSID structure pointer [Network Drivers Starting with Windows Vista], PDOT11_SSID, DOT11_SSID, wlantypes/DOT11_SSID, Native_802.11_data_types_e25f30a3-b1f8-43ca-a685-6bc4909028d1.xml, wlantypes/PDOT11_SSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wlantypes.h
-apiname: 
+apiname:
 -	DOT11_SSID
 product: Windows
 targetos: Windows
-req.typenames: DOT11_SSID, *PDOT11_SSID
+req.typenames: "*PDOT11_SSID, DOT11_SSID"
 req.product: Windows 10 or later.
 ---
 
@@ -83,6 +83,7 @@ The SSID.
 ## -remarks
 
 
+
 The SSID that is specified by the 
     <b>ucSSID</b> member is not a null-terminated ASCII string. The length of the SSID is determined by the 
     <b>uSSIDLength</b> member.
@@ -94,23 +95,38 @@ A
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
+   NDIS_STATUS_DOT11_CONNECTION_START</a>
+
+
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
 
-<mshelp:link keywords="netvista.ndis_status_dot11_association_start" tabindex="0">
-   NDIS_STATUS_DOT11_ASSOCIATION_START</mshelp:link>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-start">
+   NDIS_STATUS_DOT11_ASSOCIATION_START</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567360">NDIS_STATUS_DOT11_ROAMING_START</a>
 
-<mshelp:link keywords="netvista.ndis_status_dot11_connection_start" tabindex="0">
-   NDIS_STATUS_DOT11_CONNECTION_START</mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
  
 

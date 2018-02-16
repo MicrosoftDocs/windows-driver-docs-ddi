@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7bdfc781-93d6-4f49-95f1-46f102908ec5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlGUIDFromString, k109_d6fe22b7-9d81-4024-819c-03bce65d3d14.xml, kernel.rtlguidfromstring, RtlGUIDFromString, RtlGUIDFromString routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlGUIDFromString, k109_d6fe22b7-9d81-4024-819c-03bce65d3d14.xml, RtlGUIDFromString routine [Kernel-Mode Driver Architecture], wdm/RtlGUIDFromString, kernel.rtlguidfromstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlGUIDFromString
 product: Windows
 targetos: Windows
@@ -83,13 +83,17 @@ Pointer to a caller-supplied variable in which the GUID is returned.
 ## -returns
 
 
+
 If the conversion succeeds, <b>RtlGUIDFromString</b> returns STATUS_SUCCESS. Otherwise, no conversion was done. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlstringfromguid.md">RtlStringFromGUID</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 731ae115-2394-4651-9b79-6d640d07a328
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista], RILMESSAGE, rilapitypes/RILMESSAGE, netvista.rilmessage_2
+ms.keywords: rilapitypes/RILMESSAGE, RILMESSAGE, netvista.rilmessage_2, *LPRILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMESSAGE
 product: Windows
 targetos: Windows
-req.typenames: RILMESSAGE, *LPRILMESSAGE
+req.typenames: "*LPRILMESSAGE, RILMESSAGE"
 req.product: Windows 10 or later.
 ---
 
@@ -97,8 +97,22 @@ typedef struct _RILMESSAGE {
 
 
 
-### -field msgUnion
+### -field cbSize
 
+
+### -field dwParams
+
+
+### -field raSvcCtrAddress
+
+
+### -field dwType
+
+
+### -field dwFlags
+
+
+### -field msgUnion
 
 
 ### -field msgUnion.unMsgInDeliver
@@ -139,87 +153,50 @@ typedef struct _RILMESSAGE {
 ### -field RILMSGUNION
 
 
-
-### -field cbSize
-
-
-
-### -field dwParams
-
-
-
-### -field raSvcCtrAddress
-
-
-
-### -field dwType
-
-
-
-### -field dwFlags
-
-
-
-#### - unMsgIS637InStatus
-
-
-
-#### - unMsgBcGeneral
-
-
-
-#### - RIL_MSGTYPE_OUT_SUBMIT
-
-
-
 #### - RIL_MSGTYPE_BC_GENERAL
-
-
-
-#### - RIL_MSGTYPE_IN_DELIVER
-
-
-
-#### - RIL_MSGTYPE_OUT_CDMASUBMIT
-
-
-
-#### - unMsgInDeliver
-
-
-
-#### - case
-
-
-
-#### - switch_is
-
-
-
-#### - RIL_MSGTYPE_IN_IS637STATUS
-
-
-
-#### - unMsgInStatus
-
-
-
-#### - unMsgCDMAInDeliver
-
-
-
-#### - unMsgOutSubmit
-
-
-
-#### - unMsgCDMAOutSubmit
-
 
 
 #### - RIL_MSGTYPE_IN_CDMADELIVER
 
 
+#### - RIL_MSGTYPE_IN_DELIVER
+
+
+#### - RIL_MSGTYPE_IN_IS637STATUS
+
 
 #### - RIL_MSGTYPE_IN_STATUS
 
+
+#### - RIL_MSGTYPE_OUT_CDMASUBMIT
+
+
+#### - RIL_MSGTYPE_OUT_SUBMIT
+
+
+#### - case
+
+
+#### - switch_is
+
+
+#### - unMsgBcGeneral
+
+
+#### - unMsgCDMAInDeliver
+
+
+#### - unMsgCDMAOutSubmit
+
+
+#### - unMsgIS637InStatus
+
+
+#### - unMsgInDeliver
+
+
+#### - unMsgInStatus
+
+
+#### - unMsgOutSubmit
 

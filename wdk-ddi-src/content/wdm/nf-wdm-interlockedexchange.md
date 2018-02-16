@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c9bee5b0-eeaf-4c82-9f02-d00cf9202f78
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k102_ae8d85b7-040e-4c44-9476-68d6919a50e4.xml, InterlockedExchange, wdm/InterlockedExchange, kernel.interlockedexchange, InterlockedExchange routine [Kernel-Mode Driver Architecture]
+ms.keywords: InterlockedExchange routine [Kernel-Mode Driver Architecture], kernel.interlockedexchange, k102_ae8d85b7-040e-4c44-9476-68d6919a50e4.xml, wdm/InterlockedExchange, InterlockedExchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	OneCoreUAP.lib
 -	OneCoreUAP.dll
 -	API-MS-Win-Core-Interlocked-l1-1-0.dll
 -	API-MS-Win-Core-Interlocked-l1-2-0.dll
 -	KernelBase.dll
 -	MinKernelBase.dll
-apiname: 
+apiname:
 -	InterlockedExchange
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ Specifies the value to which the variable will be set.
 ## -returns
 
 
+
 <b>InterlockedExchange</b> returns the value of the variable at <i>Target</i> when the call occurred.
 
 
 
+
 ## -remarks
+
 
 
 <b>InterlockedExchange</b> should be used instead of <b>ExInterlockedExchangeUlong</b>, because it is both faster and more efficient. 
@@ -104,15 +107,24 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
 
 <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+
+
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0a488d9f-1e34-4482-a2a8-7c160b00766c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksproperty_cameracontrol_region_of_interest_s, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_FOCUS, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_ASYNC, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_EXPOSURE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure [Streaming Media Devices], ksmedia/PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_WB, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONVERGEMODE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_MANUAL
+ms.keywords: ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_EXPOSURE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_ASYNC, *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_FOCUS, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_AUTO, ksmedia/PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_WB, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONVERGEMODE, stream.ksproperty_cameracontrol_region_of_interest_s, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_MANUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
+req.typenames: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
 ---
 
 # KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure
@@ -74,9 +74,40 @@ typedef struct {
 
 
 
+### -field FocusRect
+
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows apps.
+
+If <b>FocusRect</b> is not a valid value, or if all members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure are zero, the device should focus the center of the image and the remaining members of this structure can be ignored.
+
+The rectangle's coordinates are with respect to the preview video resolution.
+
+
+### -field AutoFocusLock
+
+If <b>TRUE</b>, the device should lock the focus to the current value.
+
+This member should be ignored if <b>FocusRect</b> is not a valid value.
+
+
+### -field AutoExposureLock
+
+If <b>TRUE</b>, the device should lock the exposure to the current value.
+
+This member should be ignored if <b>FocusRect</b> is not a valid value.
+
+
+### -field AutoWhitebalanceLock
+
+If <b>TRUE</b>, the device should lock the white balance setting to the current value.
+
+This member should be ignored if <b>FocusRect</b> is not a valid value.
+
+
 ### -field Capabilities
 
 Indicates whether the device and driver support setting the region of interest automatically or manually. This member a bitwise <b>OR</b> of these possible values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -114,7 +145,8 @@ This capability is available starting with Windows 8.1.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Configuration
@@ -122,6 +154,7 @@ This capability is available starting with Windows 8.1.
 Configuration flags for control operations for the region. This is a bitwise OR combination of the following values.
 
 This member is available starting with Windows 8.1.
+
 <table>
 <tr>
 <th>Value</th>
@@ -167,44 +200,19 @@ Enable convergence of objects in the region
 
 </td>
 </tr>
-</table> 
-
-
-### -field FocusRect
-
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows apps.
-
-If <b>FocusRect</b> is not a valid value, or if all members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure are zero, the device should focus the center of the image and the remaining members of this structure can be ignored.
-
-The rectangle's coordinates are with respect to the preview video resolution.
-
-
-### -field AutoFocusLock
-
-If <b>TRUE</b>, the device should lock the focus to the current value.
-
-This member should be ignored if <b>FocusRect</b> is not a valid value.
-
-
-### -field AutoExposureLock
-
-If <b>TRUE</b>, the device should lock the exposure to the current value.
-
-This member should be ignored if <b>FocusRect</b> is not a valid value.
-
-
-### -field AutoWhitebalanceLock
-
-If <b>TRUE</b>, the device should lock the white balance setting to the current value.
-
-This member should be ignored if <b>FocusRect</b> is not a valid value.
+</table>
+ 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
+
 
  
 

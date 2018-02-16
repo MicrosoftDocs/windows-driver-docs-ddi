@@ -7,8 +7,8 @@ old-location: ifsk\fsrtltruncatemcb.htm
 old-project: ifsk
 ms.assetid: e23b9324-7e68-4914-93bb-3348d91b0b3f
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlTruncateMcb, fsrtlref_31bb51fe-e571-4bae-af8f-4c2b4413fa29.xml, ifsk.fsrtltruncatemcb, ntifs/FsRtlTruncateMcb, FsRtlTruncateMcb function [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: FsRtlTruncateMcb function [Installable File System Drivers], FsRtlTruncateMcb, ifsk.fsrtltruncatemcb, ntifs/FsRtlTruncateMcb, fsrtlref_31bb51fe-e571-4bae-af8f-4c2b4413fa29.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FsRtlTruncateMcb
 product: Windows
 targetos: Windows

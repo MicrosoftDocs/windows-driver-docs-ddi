@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc5da07d-fcd2-40f9-8ba9-d7ddf35e7b7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisequalstring, NdisEqualString, NdisEqualString macro [Network Drivers Starting with Windows Vista], ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, ndis/NdisEqualString
+ms.keywords: NdisEqualString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualString, NdisEqualString, netvista.ndisequalstring, ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisEqualString
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisEqualString macro
@@ -72,40 +72,24 @@ BOOLEAN NdisEqualString(
 
 
 
-### -param _String1
+### -param _String1 [in]
 
-TBD
-
-
-### -param _String2
-
-TBD
+A pointer to an NDIS_STRING type that describes the first string.
 
 
-### -param _CaseInsensitive
+### -param _String2 [in]
 
-TBD
-
-
+A pointer to an NDIS_STRING type that describes the second string.
 
 
-#### - CaseInsensitive [in]
+### -param _CaseInsensitive [in]
 
 A boolean value that is <b>TRUE</b> if case should be ignored when doing the comparison. Otherwise, it is
      <b>FALSE</b>.
 
 
-#### - String2 [in]
-
-A pointer to an NDIS_STRING type that describes the second string.
-
-
-#### - String1 [in]
-
-A pointer to an NDIS_STRING type that describes the first string.
-
-
 ## -remarks
+
 
 
 Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-terminated Unicode string.
@@ -114,19 +98,32 @@ Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-term
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+
+
 
  
 

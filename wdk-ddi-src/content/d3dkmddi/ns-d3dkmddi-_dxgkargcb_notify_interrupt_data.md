@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_NOTIFY_INTERRUPT_DATA
-title: _DXGKARGCB_NOTIFY_INTERRUPT_DATA
+title: "_DXGKARGCB_NOTIFY_INTERRUPT_DATA"
 author: windows-driver-content
 description: The DXGKARGCB_NOTIFY_INTERRUPT_DATA structure describes notification information.
 old-location: display\dxgkargcb_notify_interrupt_data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARGCB_NOTIFY_INTERRUPT_DATA, *IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, STATUS_SUCCESS, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data, DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_INVALID_PARAMETER, d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, STATUS_NO_MEMORY, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices]
+ms.keywords: d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, STATUS_NO_MEMORY, DXGKARGCB_NOTIFY_INTERRUPT_DATA, STATUS_INVALID_PARAMETER, *IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_SUCCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARGCB_NOTIFY_INTERRUPT_DATA
 product: Windows
 targetos: Windows
@@ -139,8 +139,12 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 
 
-### -field DmaCompleted
+### -field InterruptType
 
+[in] A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>-typed value that indicates the type of interrupt that the display miniport driver notifies the GPU scheduler about.
+
+
+### -field DmaCompleted
 
 
 ### -field DmaCompleted.SubmissionFenceId
@@ -159,7 +163,6 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 
 ### -field DmaPreempted
-
 
 
 ### -field DmaPreempted.PreemptionFenceId
@@ -185,7 +188,6 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 ### -field DmaFaulted
 
 
-
 ### -field DmaFaulted.FaultedFenceId
 
 [in] The identifier of the faulty command.
@@ -209,7 +211,6 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 ### -field CrtcVsync
 
 
-
 ### -field CrtcVsync.VidPnTargetId
 
 [in] The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
@@ -226,7 +227,6 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 
 ### -field DisplayOnlyVsync
-
 
 
 ### -field DisplayOnlyVsync.VidPnTargetId
@@ -269,6 +269,13 @@ Supported starting with Windows 8.1.
 Supported starting with Windows 8.1.
 
 
+### -field DisplayOnlyPresentProgress
+
+[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a> structure that provides the progress of a kernel mode display-only driver's (KMDOD) present operation.
+
+Supported starting with Windows 8.
+
+
 ### -field MiracastEncodeChunkCompleted
 
 Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1 and later.
@@ -308,6 +315,7 @@ Supported starting with Windows 8.1.
 A value of type <b>NTSTATUS</b> that indicates whether the encode chunk was successfully added to the queue of chunks. If successful, <b>STATUS_SUCCESS</b> is returned. If any other value is returned, the chunk could not be added to the queue, and all outstanding chunks will be lost.
 
 Supported starting with Windows 8.1.
+
 <table>
 <tr>
 <th>Value</th>
@@ -344,11 +352,11 @@ The interrupt-service-routine (ISR) ran out of free encode chunks.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DmaPageFaulted
-
 
 
 ### -field DmaPageFaulted.FaultedFenceId
@@ -508,21 +516,6 @@ Supported starting with Windows 10.
  
 
 
-### -field HwQueuePageFaulted.FaultedHwQueue
-
- 
-
-
-### -field HwQueuePageFaulted.FaultedHwContext
-
- 
-
-
-### -field HwQueuePageFaulted.FaultedProcessHandle
-
- 
-
-
 ### -field HwQueuePageFaulted.FaultedFenceId
 
  
@@ -534,6 +527,21 @@ Supported starting with Windows 10.
 
 
 ### -field HwQueuePageFaulted.FaultedPrimitiveAPISequenceNumber
+
+ 
+
+
+### -field HwQueuePageFaulted.FaultedHwQueue
+
+ 
+
+
+### -field HwQueuePageFaulted.FaultedHwContext
+
+ 
+
+
+### -field HwQueuePageFaulted.FaultedProcessHandle
 
  
 
@@ -591,22 +599,9 @@ Supported starting with Windows 10.
 ### -field Reserved
 
 
-
 ### -field Reserved.Reserved
 
 An array of 32-bit values that are reserved for future use.
-
-
-### -field DisplayOnlyPresentProgress
-
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a> structure that provides the progress of a kernel mode display-only driver's (KMDOD) present operation.
-
-Supported starting with Windows 8.
-
-
-### -field InterruptType
-
-[in] A <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>-typed value that indicates the type of interrupt that the display miniport driver notifies the GPU scheduler about.
 
 
 ### -field Flags
@@ -614,24 +609,9 @@ Supported starting with Windows 8.
 [in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md">DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS</a> structure that indicates if the display miniport driver provides a physical adapter mask in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function.
 
 
-#### - pMultiPlaneOverlayVsyncInfo
-
-A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
-
-
-#### - MultiPlaneOverlayVsyncInfoCount
-
-The number of overlay planes that are available to display.
-
-
 #### - GpuClockCounter
 
 The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. 
-
-
-#### - PhysicalAdapterMask
-
-The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
 
 
 #### - GpuFrequency
@@ -639,37 +619,72 @@ The physical adapter mask where the vertical sync occurs. If this member contain
 The frequency of the GPU clock counter. 
 
 
+#### - MultiPlaneOverlayVsyncInfoCount
+
+The number of overlay planes that are available to display.
+
+
+#### - PhysicalAdapterMask
+
+The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the ValidPhysicalAdapterMask bit-field flag in the Flags member.
+
+
 #### - VidPnTargetId
 
 The zero-based identification number of the video present target in a path of a video present network (VidPN) topology. This number represents the video present target where the vertical sync occurs.
 
 
+#### - pMultiPlaneOverlayVsyncInfo
+
+A pointer to a DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure that specifies information for each overlay plane updated by the VSync.
+
+
 ## -remarks
+
 
 
 Depending on the value in the <b>InterruptType</b> member, the display miniport driver should set the appropriate union member in the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure. For example, for the end of a direct memory access (DMA) buffer fence, which corresponds to a value of DXGK_INTERRUPT_DMA_COMPLETED in <b>InterruptType</b>, the driver must set a value in the <b>SubmissionFenceId</b> member of the <b>DmaCompleted</b> member. This value should be the DMA buffer fence identifier, which the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a> function assigned to the just completed DMA buffer.
 
 
 
-## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
+## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_miracast_caps.md">DXGK_MIRACAST_CAPS</a>
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md">DXGK_PAGE_FAULT_FLAGS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md">DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS</a>
 
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
 
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md">DXGK_PAGE_FAULT_FLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkcb_notify_interrupt_data_flags.md">DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_vsync_info.md">DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO</a>
 
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md">DXGK_MIRACAST_CHUNK_INFO</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
+
+
 
  
 

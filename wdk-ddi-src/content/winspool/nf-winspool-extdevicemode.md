@@ -7,8 +7,8 @@ old-location: print\extdevicemode.htm
 old-project: print
 ms.assetid: dade9d25-7143-4566-adc1-0c97cb508c07
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml, winspool/ExtDeviceMode, ExtDeviceMode, ExtDeviceMode function [Print Devices], print.extdevicemode
+ms.date: 2/2/2018
+ms.keywords: winspool/ExtDeviceMode, ExtDeviceMode, print.extdevicemode, ExtDeviceMode function [Print Devices], spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Winspool.lib
 req.dll: WinSpool.drv
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WinSpool.drv
-apiname: 
+apiname:
 -	ExtDeviceMode
 product: Windows
 targetos: Windows
@@ -119,6 +119,7 @@ This parameter is used only if the DM_IN_BUFFER flag is set in the <i>fMode</i> 
 ### -param fMode
 
 Specifies the operations that the function performs. If this parameter is zero, the <b>ExtDeviceMode</b> function returns the number of bytes required by the printer driver's DEVMODE structure. Otherwise, this parameter can be set to one or more of the following flag values.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -154,19 +155,24 @@ Display a property sheet to allow the user to modify printer properties, and the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 If the <i>wMode</i> parameter is zero, the function returns the size, in bytes, of the DEVMODE structure required to contain the printer-driver initialization data. Note that this value can be larger than the size of a DEVMODE structure if the printer driver appends private data to the structure. If the function displays the initialization-dialog box, the return value is either IDOK or IDCANCEL, depending on which button the user chose. If the function does not display the dialog box and was successful, the return value is IDOK. The return value is less than zero if the function failed. 
 
 
 
+
 ## -remarks
 
 
+
 The <b>ExtDeviceMode</b> function calls the <b>DocumentProperties</b> function (described in the Windows SDK documentation) to display a property sheet that allows a user to select printer options such as paper size, paper orientation, and output quality. Printer drivers written for Windows 3.x and Windows 9x use this function. 
+
 
 

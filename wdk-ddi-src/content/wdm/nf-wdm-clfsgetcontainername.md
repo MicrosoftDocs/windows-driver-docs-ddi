@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 727b2e29-9e2d-4386-a30b-5727e1261fad
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ClfsGetContainerName, ClfsGetContainerName routine [Kernel-Mode Driver Architecture], ClfsGetContainerName, Clfs_dce31248-386b-4f6d-8e88-55ef9d70fe84.xml, kernel.clfsgetcontainername
+ms.keywords: Clfs_dce31248-386b-4f6d-8e88-55ef9d70fe84.xml, wdm/ClfsGetContainerName, ClfsGetContainerName, ClfsGetContainerName routine [Kernel-Mode Driver Architecture], kernel.clfsgetcontainername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsGetContainerName
 product: Windows
 targetos: Windows
@@ -95,7 +95,9 @@ A pointer to a ULONG-typed variable that receives the actual length, in Unicode 
 ## -returns
 
 
+
 <b>ClfsGetContainerName</b> returns one of the status codes defined in Ntstatus.h. The following table gives the meanings of various return values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,14 +136,18 @@ On return, the contents of <i>puszContainerName</i>-&gt;<b>Buffer</b> and <i>pcA
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
+
 
 
 
@@ -149,7 +155,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 <a href="..\wdm\nf-wdm-clfsremovelogcontainer.md">ClfsRemoveLogContainer</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a>
+
+
 
  
 

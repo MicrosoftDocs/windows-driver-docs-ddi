@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0aed2613-b40f-4328-91c4-c8e945c6ef17
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDispatchQuerySecurity, KsDispatchQuerySecurity, KsDispatchQuerySecurity function [Streaming Media Devices], stream.ksdispatchquerysecurity, ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml
+ms.keywords: KsDispatchQuerySecurity function [Streaming Media Devices], ks/KsDispatchQuerySecurity, KsDispatchQuerySecurity, stream.ksdispatchquerysecurity, ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDispatchQuerySecurity
 product: Windows
 targetos: Windows
@@ -82,6 +82,8 @@ Specifies the IRP that is being handled.
 ## -returns
 
 
+
 The <b>KsDispatchQuerySecurity</b> function returns the security query status and completes the IRP if a security descriptor is present. If no security descriptor is present, it returns STATUS_NO_SECURITY_ON_OBJECT.
+
 
 

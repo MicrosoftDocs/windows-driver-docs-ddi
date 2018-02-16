@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_DiscoveryConfig
-title: _MSiSCSI_DiscoveryConfig
+title: "_MSiSCSI_DiscoveryConfig"
 author: windows-driver-content
 description: The MSiSCSI_DiscoveryConfig structure contains information that indicates what methods an initiator uses to do discovery.
 old-location: storage\msiscsi_discoveryconfig.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe2f4a93-3fdd-422b-afce-8def3ed6688e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsicfg/PMSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig, structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml, _MSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], *PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], iscsicfg/MSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig
+ms.keywords: PMSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], iscsicfg/PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig, _MSiSCSI_DiscoveryConfig, iscsicfg/MSiSCSI_DiscoveryConfig, structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsicfg.h
-apiname: 
+apiname:
 -	MSiSCSI_DiscoveryConfig
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig
+req.typenames: "*PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig"
 ---
 
 # _MSiSCSI_DiscoveryConfig structure
@@ -99,17 +99,23 @@ If <b>AutomaticiSNSDiscovery</b> is <b>FALSE</b>, <b>iSNSServer</b> contains a <
 ## -remarks
 
 
+
 The WMI tool suite automatically generates a declaration of the MSiSCSI_DiscoveryConfig structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562995">MSiSCSI_DiscoveryConfig WMI Class</a> in <i>Config.mof</i>. 
 
 Initiators are required to implement the MSiSCSI_DiscoveryConfig class. You must implement this class.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562995">MSiSCSI_DiscoveryConfig WMI Class</a>
+
+
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562995">MSiSCSI_DiscoveryConfig WMI Class</a>
+
 
  
 

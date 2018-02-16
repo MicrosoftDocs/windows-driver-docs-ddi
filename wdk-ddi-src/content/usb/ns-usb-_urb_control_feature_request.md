@@ -1,14 +1,14 @@
 ---
 UID: NS:usb._URB_CONTROL_FEATURE_REQUEST
-title: _URB_CONTROL_FEATURE_REQUEST
+title: "_URB_CONTROL_FEATURE_REQUEST"
 author: windows-driver-content
 description: The _URB_CONTROL_FEATURE_REQUEST structure is used by USB client drivers to set or clear features on a device, interface, or endpoint.
 old-location: buses\_urb_control_feature_request.htm
 old-project: usbref
 ms.assetid: b32c6a7e-84c2-412a-a13e-959aaddc81ac
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usb/_URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST structure [Buses], usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml, buses._urb_control_feature_request, _URB_CONTROL_FEATURE_REQUEST
+ms.date: 2/8/2018
+ms.keywords: "_URB_CONTROL_FEATURE_REQUEST, usbstrct_0552c436-5e4b-4573-b9ea-1f098de7dedd.xml, usb/_URB_CONTROL_FEATURE_REQUEST, _URB_CONTROL_FEATURE_REQUEST structure [Buses], buses._urb_control_feature_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usb.h
-apiname: 
+apiname:
 -	_URB_CONTROL_FEATURE_REQUEST
 product: Windows
 targetos: Windows
@@ -91,26 +91,6 @@ Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure th
  
 
 
-### -field _URB
-
- 
-
-
-### -field UrbLink
-
-Reserved. Do not use.
-
-
-### -field hca
-
-Reserved. Do not use.
-
-
-### -field _URB_HCD_AREA
-
- 
-
-
 ### -field Reserved
 
 Reserved. Do not use.
@@ -136,6 +116,26 @@ Reserved. Do not use.
 Reserved. Do not use.
 
 
+### -field UrbLink
+
+Reserved. Do not use.
+
+
+### -field _URB
+
+ 
+
+
+### -field hca
+
+Reserved. Do not use.
+
+
+### -field _URB_HCD_AREA
+
+ 
+
+
 ### -field Reserved0
 
 Reserved. Do not use.
@@ -159,6 +159,7 @@ Reserved. Do not use.
 ## -remarks
 
 
+
 Drivers can use the <b>UsbBuildFeatureRequest</b> service routine to format this URB. 
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
@@ -169,17 +170,24 @@ Likewise, when a driver issues a URB with a function type of URB_FUNCTION_SYNC_R
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+## -see-also
 
 <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_FEATURE_REQUEST structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_FEATURE_REQUEST structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

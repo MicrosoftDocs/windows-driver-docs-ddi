@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 3e0c51af-ceb9-4c06-ab6a-ccc468997fdd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamicro/MicroEntry, MicroEntry function [Imaging Devices], MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, image.microentry, MicroEntry
+ms.keywords: wiamicro/MicroEntry, image.microentry, MicroEntry, MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamicro.h
-apiname: 
+apiname:
 -	MicroEntry
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Points to a <a href="..\wiamicro\ns-wiamicro-val.md">VAL</a> structure that is u
 ## -returns
 
 
+
 If the function succeeds, it returns S_OK. If a passed command is not supported,  the function returns E_NOTIMPL. For any error, error information must be put in the <b>lVal</b> member of the VAL structure pointed to by <i>pValue</i>.
 
 
 
+
 ## -remarks
+
 
 
 This function performs many different tasks, depending on the command passed in the <i>lCommand</i> parameter. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a> reference section for a list of these commands.
@@ -95,15 +98,24 @@ Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-va
 
 
 
+
 ## -see-also
-
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
+
+
+
+<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+
+
+
 <a href="..\wiamicro\ns-wiamicro-val.md">VAL</a>
+
+
 
  
 

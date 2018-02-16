@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETPIXELSHADERCONST
-title: _D3DDDIARG_SETPIXELSHADERCONST
+title: "_D3DDDIARG_SETPIXELSHADERCONST"
 author: windows-driver-content
 description: The D3DDDIARG_SETPIXELSHADERCONST structure describes how to set the pixel shader constant registers.
 old-location: display\d3dddiarg_setpixelshaderconst.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1c8cbbdc-ac2e-462e-9d5c-484305a41302
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_SETPIXELSHADERCONSTI, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, display.d3dddiarg_setpixelshaderconst, D3DDDIARG_SETPIXELSHADERCONSTB, D3DDDIARG_SETPIXELSHADERCONST, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices], _D3DDDIARG_SETPIXELSHADERCONST
+ms.keywords: "_D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONST, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, D3DDDIARG_SETPIXELSHADERCONSTI, display.d3dddiarg_setpixelshaderconst, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices], D3DDDIARG_SETPIXELSHADERCONSTB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_SETPIXELSHADERCONST
 product: Windows
 targetos: Windows
@@ -81,7 +81,9 @@ typedef struct _D3DDDIARG_SETPIXELSHADERCONST {
 ## -remarks
 
 
+
 The <b>Count</b> member specifies the following values, depending on the structure type that is used in the call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a>, <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconsti.md">SetPixelShaderConstI</a>, or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a> function: 
+
 <ul>
 <li>
 Four-element, single-precision float vectors for the D3DDDIARG_SETPIXELSHADERCONST structure in the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a> call.
@@ -95,7 +97,9 @@ Four-integer vectors for the D3DDDIARG_SETPIXELSHADERCONSTI structure in the <a 
 Boolean values for the D3DDDIARG_SETPIXELSHADERCONSTB structure in the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a> call.
 
 </li>
-</ul>The preceding structures are identical, as the following definitions show:
+</ul>
+The preceding structures are identical, as the following definitions show:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -109,13 +113,20 @@ typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTB;</pre>
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconstb.md">SetPixelShaderConstB</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconsti.md">SetPixelShaderConstI</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpixelshaderconst.md">SetPixelShaderConst</a>
+
+
 
  
 

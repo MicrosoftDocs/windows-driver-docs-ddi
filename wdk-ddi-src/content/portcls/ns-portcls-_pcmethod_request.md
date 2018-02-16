@@ -1,14 +1,14 @@
 ---
 UID: NS:portcls._PCMETHOD_REQUEST
-title: _PCMETHOD_REQUEST
+title: "_PCMETHOD_REQUEST"
 author: windows-driver-content
 description: The PCMETHOD_REQUEST structure specifies a method request.
 old-location: audio\pcmethod_request.htm
 old-project: audio
 ms.assetid: aa48330b-93f0-4fb2-bb36-4e9050f19be5
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: *PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], PCMETHOD_REQUEST, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, _PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST, portcls/PCMETHOD_REQUEST, PPCMETHOD_REQUEST, PCMETHOD_REQUEST structure [Audio Devices], audio.pcmethod_request
+ms.date: 2/8/2018
+ms.keywords: PPCMETHOD_REQUEST, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, audio.pcmethod_request, portcls/PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST, _PCMETHOD_REQUEST, PCMETHOD_REQUEST, *PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], PCMETHOD_REQUEST structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	PCMETHOD_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: PCMETHOD_REQUEST, *PPCMETHOD_REQUEST
+req.typenames: "*PPCMETHOD_REQUEST, PCMETHOD_REQUEST"
 ---
 
 # _PCMETHOD_REQUEST structure
@@ -88,12 +88,13 @@ Specifies the node ID of the target node for the request. If the target is not a
 
 ### -field MethodItem
 
-Pointer to a <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_4.md">PCMETHOD_ITEM</a> structure that describes a method supported by a filter, pin, or node.
+Pointer to a <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structure that describes a method supported by a filter, pin, or node.
 
 
 ### -field Verb
 
 Specifies the type of method request. This member can be set to the bitwise OR of one or more of the flag bits in the following table.
+
 <table>
 <tr>
 <th>Flag bit</th>
@@ -129,27 +130,34 @@ Returns information about support for the method set specified by <b>MethodItem<
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
-This is the structure that the port driver passes to the miniport driver's method-handler routine. The <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_4.md">PCMETHOD_ITEM</a> structure contains a pointer to a method handler that takes a PCMETHOD_REQUEST pointer as its single call parameter.
+
+This is the structure that the port driver passes to the miniport driver's method-handler routine. The <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structure contains a pointer to a method handler that takes a PCMETHOD_REQUEST pointer as its single call parameter.
 
 The WDM audio subsystem does not currently support method requests.
 
 
 
+
 ## -see-also
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537695">PCFILTER_NODE</a>
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0c93_4.md">PCMETHOD_ITEM</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCMETHOD_REQUEST structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCMETHOD_REQUEST structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

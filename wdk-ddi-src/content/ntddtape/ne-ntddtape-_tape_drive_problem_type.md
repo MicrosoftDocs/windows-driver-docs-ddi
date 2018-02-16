@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddtape._TAPE_DRIVE_PROBLEM_TYPE
-title: _TAPE_DRIVE_PROBLEM_TYPE
+title: "_TAPE_DRIVE_PROBLEM_TYPE"
 author: windows-driver-content
 description: The TAPE_DRIVE_PROBLEM_TYPE enumerator is used to report problems with the tape drive.
 old-location: storage\tape_drive_problem_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2732686-5f95-41fd-8e47-8acf6900a44b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadWarning, ntddtape/TapeDriveSnappedTape, TapeDriveTimetoClean, _TAPE_DRIVE_PROBLEM_TYPE, TapeDriveUnsupportedMedia, TapeDriveSnappedTape, TapeDriveWriteWarning, ntddtape/TapeDriveReadError, TapeDriveCleanDriveNow, TapeDriveProblemNone, ntddtape/TapeDriveProblemNone, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, TapeDriveReadWriteWarning, TapeDriveReadWarning, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadError, TAPE_DRIVE_PROBLEM_TYPE, TapeDriveMediaLifeExpired, ntddtape/TapeDriveReadWriteError, TapeDriveReadWriteError, ntddtape/TapeDriveHardwareError, TapeDriveScsiConnectionError, TapeDriveWriteError, ntddtape/TapeDriveTimetoClean, ntddtape/TapeDriveWriteError, ntddtape/TapeDriveReadWriteWarning, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], storage.tape_drive_problem_type, ntddtape/TapeDriveCleanDriveNow, TapeDriveHardwareError, ntddtape/TapeDriveMediaLifeExpired, ntddtape/TapeDriveScsiConnectionError, ntddtape/TapeDriveWriteWarning
+ms.keywords: ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveSnappedTape, TapeDriveReadWriteError, TapeDriveReadError, TAPE_DRIVE_PROBLEM_TYPE, TapeDriveHardwareError, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, TapeDriveWriteWarning, ntddtape/TapeDriveMediaLifeExpired, ntddtape/TapeDriveSnappedTape, storage.tape_drive_problem_type, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], ntddtape/TapeDriveTimetoClean, TapeDriveTimetoClean, TapeDriveProblemNone, TapeDriveReadWriteWarning, TapeDriveScsiConnectionError, ntddtape/TapeDriveReadWarning, ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadError, ntddtape/TapeDriveScsiConnectionError, ntddtape/TapeDriveCleanDriveNow, _TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveReadWriteWarning, ntddtape/TapeDriveHardwareError, TapeDriveReadWarning, ntddtape/TapeDriveWriteWarning, TapeDriveCleanDriveNow, ntddtape/TapeDriveProblemNone, TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadWriteError, ntddtape/TapeDriveWriteError, TapeDriveWriteError, TapeDriveMediaLifeExpired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddtape.h
-apiname: 
+apiname:
 -	TAPE_DRIVE_PROBLEM_TYPE
 product: Windows
 targetos: Windows
@@ -152,9 +152,13 @@ Indicates that the tape has snapped.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
+
+
+
 <a href="..\ntddtape\ns-ntddtape-_tape_wmi_operations.md">TAPE_WMI_OPERATIONS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
+
 
  
 

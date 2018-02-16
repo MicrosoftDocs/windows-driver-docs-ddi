@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 0b393f55-6054-4c45-aa3d-7588139b34e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: stiusd/IStiUSD::GetLastErrorInfo, IStiUSD::GetLastErrorInfo, image.istiusd_getlasterrorinfo, stifnc_52990060-06be-455b-897b-c7f8e0bbe608.xml, GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiUSD interface, IStiUSD, IStiUSD interface [Imaging Devices], GetLastErrorInfo method, GetLastErrorInfo method [Imaging Devices]
+ms.keywords: GetLastErrorInfo method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::GetLastErrorInfo, IStiUSD interface [Imaging Devices], GetLastErrorInfo method, IStiUSD::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], stifnc_52990060-06be-455b-897b-c7f8e0bbe608.xml, IStiUSD, GetLastErrorInfo, image.istiusd_getlasterrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.GetLastErrorInfo
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -76,20 +76,26 @@ Caller-supplied pointer to an <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>Stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The method should fill in the received <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543749">IStiDevice::GetLastErrorInfo</a>
+
+
 
  
 

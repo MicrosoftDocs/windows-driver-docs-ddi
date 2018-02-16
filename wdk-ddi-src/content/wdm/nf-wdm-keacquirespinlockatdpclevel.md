@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 010b5e42-26c7-433f-b67b-1afdc0ec564c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], KeAcquireSpinLockAtDpcLevel, wdm/KefAcquireSpinLockAtDpcLevel, kernel.keacquirespinlockatdpclevel, k105_4b7eb718-f04d-42de-9dfc-92355cd2ebc9.xml, wdm/KeAcquireSpinLockAtDpcLevel, KefAcquireSpinLockAtDpcLevel
+ms.keywords: KeAcquireSpinLockAtDpcLevel, KefAcquireSpinLockAtDpcLevel, wdm/KefAcquireSpinLockAtDpcLevel, kernel.keacquirespinlockatdpclevel, wdm/KeAcquireSpinLockAtDpcLevel, k105_4b7eb718-f04d-42de-9dfc-92355cd2ebc9.xml, KeAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeAcquireSpinLockAtDpcLevel
 -	KefAcquireSpinLockAtDpcLevel
 product: Windows
@@ -76,12 +76,15 @@ TBD
 
 
 
+
+
 #### - SpinLock [in, out]
 
 Pointer to an initialized spin lock for which the caller must provide the storage.
 
 
 ## -remarks
+
 
 
 Drivers call <b>KeAcquireSpinLockAtDpcLevel</b> instead of <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a> for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
@@ -94,19 +97,32 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-<a href="..\wdm\nf-wdm-kereleasespinlockfromdpclevel.md">KeReleaseSpinLockFromDpcLevel</a>
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
-<a href="..\wdm\nf-wdm-ketrytoacquirespinlockatdpclevel.md">KeTryToAcquireSpinLockAtDpcLevel</a>
+
 
 <a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
+
+
+<a href="..\wdm\nf-wdm-ketrytoacquirespinlockatdpclevel.md">KeTryToAcquireSpinLockAtDpcLevel</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereleasespinlockfromdpclevel.md">KeReleaseSpinLockFromDpcLevel</a>
+
+
+
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+
+
 
  
 

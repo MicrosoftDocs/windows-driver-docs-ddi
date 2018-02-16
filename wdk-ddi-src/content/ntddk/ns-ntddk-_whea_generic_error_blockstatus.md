@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_BLOCKSTATUS
-title: _WHEA_GENERIC_ERROR_BLOCKSTATUS
+title: "_WHEA_GENERIC_ERROR_BLOCKSTATUS"
 author: windows-driver-content
 description: The WHEA_GENERIC_ERROR_BLOCKSTATUS union indicates what kind of error data is reported in a generic error status block.
 old-location: whea\whea_generic_error_blockstatus.htm
 old-project: whea
 ms.assetid: 38c8422d-7307-4acd-81f0-931d2e128cb9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PWHEA_GENERIC_ERROR_BLOCKSTATUS union pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_BLOCKSTATUS, *PWHEA_GENERIC_ERROR_BLOCKSTATUS, _WHEA_GENERIC_ERROR_BLOCKSTATUS, whea.whea_generic_error_blockstatus, ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS, ntddk/PWHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS union [WHEA Drivers and Applications], whearef_2137a60a-daff-4a33-a516-c9ae87e2f11c.xml
+ms.date: 2/8/2018
+ms.keywords: WHEA_GENERIC_ERROR_BLOCKSTATUS, whea.whea_generic_error_blockstatus, ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS, *PWHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS union [WHEA Drivers and Applications], whearef_2137a60a-daff-4a33-a516-c9ae87e2f11c.xml, _WHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS union pointer [WHEA Drivers and Applications], ntddk/PWHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_GENERIC_ERROR_BLOCKSTATUS
 product: Windows
 targetos: Windows
@@ -82,32 +82,32 @@ typedef union _WHEA_GENERIC_ERROR_BLOCKSTATUS {
 
 ### -field DUMMYSTRUCTNAME.UncorrectableError
 
- 
+The generic error status block is reporting uncorrectable error data.
 
 
 ### -field DUMMYSTRUCTNAME.CorrectableError
 
- 
+The generic error status block is reporting correctable error data.
 
 
 ### -field DUMMYSTRUCTNAME.MultipleUncorrectableErrors
 
- 
+The generic error status block is reporting multiple uncorrectable errors.
 
 
 ### -field DUMMYSTRUCTNAME.MultipleCorrectableErrors
 
- 
+The generic error status block is reporting multiple correctable errors.
 
 
 ### -field DUMMYSTRUCTNAME.ErrorDataEntryCount
 
- 
+The number of <a href="..\ntddk\ns-ntddk-_whea_generic_error_data_entry_v2.md">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved for system use.
 
 
 ### -field AsULONG
@@ -115,40 +115,12 @@ typedef union _WHEA_GENERIC_ERROR_BLOCKSTATUS {
 A ULONG representation of the contents of the WHEA_GENERIC_ERROR_BLOCKSTATUS union.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - ErrorDataEntryCount
-
-The number of <a href="..\ntddk\ns-ntddk-_whea_generic_error_data_entry_v2.md">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
-
-
-#### - MultipleCorrectableErrors
-
-The generic error status block is reporting multiple correctable errors.
-
-
-#### - UncorrectableError
-
-The generic error status block is reporting uncorrectable error data.
-
-
-#### - CorrectableError
-
-The generic error status block is reporting correctable error data.
-
-
-#### - MultipleUncorrectableErrors
-
-The generic error status block is reporting multiple uncorrectable errors.
-
-
 ## -remarks
 
 
+
 A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a> structure.
+
 
 
 
@@ -156,11 +128,15 @@ A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="..\ntddk
 
 <a href="..\ntddk\ns-ntddk-_whea_generic_error_data_entry_v2.md">WHEA_GENERIC_ERROR_DATA_ENTRY</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_GENERIC_ERROR_BLOCKSTATUS union%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_GENERIC_ERROR_BLOCKSTATUS union%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

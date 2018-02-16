@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_RADIO_STATE
-title: _WWAN_RADIO_STATE
+title: "_WWAN_RADIO_STATE"
 author: windows-driver-content
 description: The WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power states of the MB device.
 old-location: netvista\wwan_radio_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 15c02819-bae8-48f5-8782-97823b6907bd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml, _WWAN_RADIO_STATE, *PWWAN_RADIO_STATE, WWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_RADIO_STATE, PWWAN_RADIO_STATE, netvista.wwan_radio_state, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_RADIO_STATE
+ms.keywords: WWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_RADIO_STATE, *PWWAN_RADIO_STATE, wwan/WWAN_RADIO_STATE, netvista.wwan_radio_state, PWWAN_RADIO_STATE, _WWAN_RADIO_STATE, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_RADIO_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_RADIO_STATE, WWAN_RADIO_STATE
+req.typenames: WWAN_RADIO_STATE, *PWWAN_RADIO_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -75,6 +75,7 @@ typedef struct _WWAN_RADIO_STATE {
 The hardware radio power state of the device. The MB Service cannot set this state because it is
      read-only. The following table shows the possible values for this member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -100,7 +101,8 @@ The hardware radio is on, or no switch exists to control power to the hardware r
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SwRadioState
@@ -108,6 +110,7 @@ The hardware radio is on, or no switch exists to control power to the hardware r
 The software-based radio power state of the device. The MB Service can get and set this state. The
      following table shows the possible values for this member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -133,10 +136,12 @@ The radio is turned on by Windows.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Miniport drivers should continue the software-based radio power state across system restart or device
@@ -146,6 +151,7 @@ Miniport drivers should continue the software-based radio power state across sys
 
 The following table defines the relationship between hardware-based and software-based radio power
     state settings and their effective result.
+
 <table>
 <tr>
 <th>HwRadioState value</th>
@@ -208,7 +214,8 @@ WwanRadioOn
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The miniport driver should send all applicable status indications such as
     NDIS_STATUS_WWAN_CONTEXT_STATE, NDIS_STATUS_WWAN_PACKET_SERVICE, and NDIS_STATUS_WWAN_REGISTER_STATE
@@ -220,11 +227,16 @@ The miniport driver should send all applicable status indications such as
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
 
+
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_radio_state.md">NDIS_WWAN_RADIO_STATE</a>
+
+
 
  
 

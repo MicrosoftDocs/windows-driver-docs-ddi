@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_ACL_ENTER_ACTIVE_MODE
-title: _BRB_ACL_ENTER_ACTIVE_MODE
+title: "_BRB_ACL_ENTER_ACTIVE_MODE"
 author: windows-driver-content
 description: The _BRB_ACL_ENTER_ACTIVE_MODE structure specifies the remote device to be placed into active mode.
 old-location: bltooth\_brb_acl_enter_active_mode.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 2a42c8b5-acc0-463e-8ecd-179724be27d9
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_ACL_ENTER_ACTIVE_MODE, bltooth._brb_acl_enter_active_mode, bthddi/_BRB_ACL_ENTER_ACTIVE_MODE, _BRB_ACL_ENTER_ACTIVE_MODE structure [Bluetooth Devices], bth_structs_1cb3c3f5-063a-4213-98b0-5a2c667f5e40.xml
+ms.keywords: bthddi/_BRB_ACL_ENTER_ACTIVE_MODE, _BRB_ACL_ENTER_ACTIVE_MODE, bth_structs_1cb3c3f5-063a-4213-98b0-5a2c667f5e40.xml, _BRB_ACL_ENTER_ACTIVE_MODE structure [Bluetooth Devices], bltooth._brb_acl_enter_active_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_ACL_ENTER_ACTIVE_MODE
 product: Windows
 targetos: Windows
@@ -84,10 +84,12 @@ The address of the remote device.
 ## -remarks
 
 
+
 To place a remote device into active mode, profile drivers should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_acl_enter_active_mode" tabindex="0"><b>
-    BRB_ACL_ENTER_ACTIVE_MODE</b></mshelp:link> request.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536854">
+    BRB_ACL_ENTER_ACTIVE_MODE</a> request.
+
 
 
 
@@ -95,7 +97,11 @@ To place a remote device into active mode, profile drivers should
 
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536854">BRB_ACL_ENTER_ACTIVE_MODE</a>
+
+
 
  
 

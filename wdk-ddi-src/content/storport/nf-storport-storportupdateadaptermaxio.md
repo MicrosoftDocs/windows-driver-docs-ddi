@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], StorPortUpdateAdapterMaxIO
+ms.keywords: StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	StorPortUpdateAdapterMaxIO
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ Maximum IO's supported by the adapter.
 ## -returns
 
 
+
 This function returns of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -106,13 +108,17 @@ This function returns of the following values.
 <td>STOR_STATUS_INVALID_DEVICE_REQUEST</td>
 <td>The function was called outside of <b>HwInitialize</b>/<b>HwPassiveInitRoutine</b>. </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HwInitialize</a>
+
+
 
  
 

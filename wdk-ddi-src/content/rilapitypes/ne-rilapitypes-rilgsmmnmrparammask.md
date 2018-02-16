@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a226956d-2881-4cff-a800-988b70eb99ea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGSMMNMRPARAMMASK, RIL_PARAM_GSMNMR_LAC, RIL_PARAM_GSMNMR_ARFCN, rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILGSMMNMRPARAMMASK, rilapitypes/RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_LAC, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_CELLID, netvista.rilgsmmnmrparammask, RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_RXLEVEL, RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_ALL, rilapitypes/RIL_PARAM_GSMNMR_BSID, RIL_PARAM_GSMNMR_CELLID
+ms.keywords: rilapitypes/RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_MCC, RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_ALL, rilapitypes/RIL_PARAM_GSMNMR_CELLID, RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_RXLEVEL, rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL, RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_LAC, rilapitypes/RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, RILGSMMNMRPARAMMASK, RIL_PARAM_GSMNMR_CELLID, RIL_PARAM_GSMNMR_LAC, rilapitypes/RILGSMMNMRPARAMMASK, RIL_PARAM_GSMNMR_ARFCN, netvista.rilgsmmnmrparammask, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGSMMNMRPARAMMASK
 product: Windows
 targetos: Windows
@@ -81,41 +81,35 @@ enum RILGSMMNMRPARAMMASK {
 ### -field RIL_PARAM_GSMNMR_MCC
 
 
-
 ### -field RIL_PARAM_GSMNMR_MNC
-
 
 
 ### -field RIL_PARAM_GSMNMR_LAC
 
 
-
 ### -field RIL_PARAM_GSMNMR_CELLID
-
 
 
 ### -field RIL_PARAM_GSMNMR_ARFCN
 
 
-
 ### -field RIL_PARAM_GSMNMR_BSID
-
 
 
 ### -field RIL_PARAM_GSMNMR_RXLEVEL
 
 
-
 ### -field RIL_PARAM_GSMNMR_ALL
-
 
 
 ## -remarks
 
 
+
 In most situations both serving and neighbor cell sites will return all of these values.
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -261,9 +255,11 @@ Serving cell Rx measurement; range is mapped to a measured signal level:
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>GSM neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -397,13 +393,17 @@ Same as RxLevel in serving cell
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

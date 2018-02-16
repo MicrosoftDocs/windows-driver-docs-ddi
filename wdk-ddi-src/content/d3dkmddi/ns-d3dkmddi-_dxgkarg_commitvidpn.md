@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_COMMITVIDPN
-title: _DXGKARG_COMMITVIDPN
+title: "_DXGKARG_COMMITVIDPN"
 author: windows-driver-content
 description: The DXGKARG_COMMITVIDPN structure holds arguments for the DxgkDdiCommitVidPn function. The DxgkDdiCommitVidPn function makes a specified video present network (VidPN) active on a display adapter.
 old-location: display\dxgkarg_commitvidpn.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d297d917-fc49-454a-aacd-4db0ac7a09c2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_COMMITVIDPN, DmStructs_c5fd5803-c93b-4000-94b3-3adcb37dd6c1.xml, d3dkmddi/DXGKARG_COMMITVIDPN, _DXGKARG_COMMITVIDPN, display.dxgkarg_commitvidpn, DXGKARG_COMMITVIDPN structure [Display Devices]
+ms.keywords: DXGKARG_COMMITVIDPN, DXGKARG_COMMITVIDPN structure [Display Devices], DmStructs_c5fd5803-c93b-4000-94b3-3adcb37dd6c1.xml, _DXGKARG_COMMITVIDPN, d3dkmddi/DXGKARG_COMMITVIDPN, display.dxgkarg_commitvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_COMMITVIDPN
 product: Windows
 targetos: Windows
@@ -99,7 +99,9 @@ A handle to the primary allocation associated with the video present source iden
 ## -remarks
 
 
+
 The D3DDDI_ID_ALL constant is defined in <i>D3dukmddi.h</i>.
+
 
 
 
@@ -107,7 +109,11 @@ The D3DDDI_ID_ALL constant is defined in <i>D3dukmddi.h</i>.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
 
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_connectivity_checks.md">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a>
+
+
 
  
 

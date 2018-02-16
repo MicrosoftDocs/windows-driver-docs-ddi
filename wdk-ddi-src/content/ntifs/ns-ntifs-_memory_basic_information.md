@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._MEMORY_BASIC_INFORMATION
-title: _MEMORY_BASIC_INFORMATION
+title: "_MEMORY_BASIC_INFORMATION"
 author: windows-driver-content
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: kernel\memory_basic_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AFDDB789-E412-4EF7-8C77-2020EF81DF39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MEM_COMMIT, PAGE_GUARD, MEM_MAPPED, MEM_IMAGE, PMEMORY_BASIC_INFORMATION, PAGE_READWRITE, kernel.memory_basic_information, PAGE_READONLY, MEM_RESERVE, PAGE_NOCACHE, ntifs/MEMORY_BASIC_INFORMATION, _MEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntifs/PMEMORY_BASIC_INFORMATION, PAGE_EXECUTE, MEM_FREE, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PAGE_WRITECOMBINE, PAGE_NOACCESS, MEM_PRIVATE, *PMEMORY_BASIC_INFORMATION
+ms.keywords: PAGE_READONLY, MEM_IMAGE, _MEMORY_BASIC_INFORMATION, MEM_MAPPED, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], MEMORY_BASIC_INFORMATION, MEM_FREE, ntifs/PMEMORY_BASIC_INFORMATION, PAGE_NOCACHE, kernel.memory_basic_information, PAGE_WRITECOMBINE, PMEMORY_BASIC_INFORMATION, PAGE_GUARD, ntifs/MEMORY_BASIC_INFORMATION, PAGE_NOACCESS, PAGE_EXECUTE, MEM_RESERVE, PAGE_READWRITE, *PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], MEM_COMMIT, MEM_PRIVATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	MEMORY_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION
+req.typenames: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION"
 ---
 
 # _MEMORY_BASIC_INFORMATION structure
@@ -88,6 +88,7 @@ A pointer to the base address of a range of allocated pages. The page pointed to
 
 The memory protection option when the region was initially allocated. This member can be one of the 
 following constants defined in wdm.h, or 0 if the caller does not have access.
+
 <table>
 <tr>
 <th>Value</th>
@@ -186,7 +187,8 @@ Disable the placement of committed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field RegionSize
@@ -199,6 +201,7 @@ The size of the region in bytes beginning at
 ### -field State
 
 The state of the pages in the region. This member can be one of the following values. 
+
 
 
 <table>
@@ -239,7 +242,8 @@ Indicates reserved pages where a range of the process's virtual address space is
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Protect
@@ -250,6 +254,7 @@ The access protection of the pages in the region. This member is one of the valu
 ### -field Type
 
 The type of pages in the region. The following types are defined. 
+
 
 
 <table>
@@ -290,12 +295,15 @@ Indicates that the memory pages within the region are private (that is, not shar
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a>
+
+
 
  
 

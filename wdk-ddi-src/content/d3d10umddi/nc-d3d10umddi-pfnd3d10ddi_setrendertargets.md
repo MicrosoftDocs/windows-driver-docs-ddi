@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	SetRenderTargets
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETRENDERTARGETS callback
@@ -77,17 +77,13 @@ VOID APIENTRY SetRenderTargets(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
-
 
 
 ### -param NumViews
 
 
-
 ### -param ClearSlots
-
 
 
 ### -param D3D10DDI_HDEPTHSTENCILVIEW
@@ -97,19 +93,6 @@ VOID APIENTRY SetRenderTargets(
 
 
 
-#### - hDepthStencilView [in]
-
- A handle to the depth stencil buffer to set. 
-
-
-#### - RTargets [in]
-
- The number of elements in the array that <i>phRenderTargetView</i> specifies. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - ClearTargets [in]
@@ -117,6 +100,21 @@ VOID APIENTRY SetRenderTargets(
  The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
 
 Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
+
+
+#### - RTargets [in]
+
+ The number of elements in the array that <i>phRenderTargetView</i> specifies. 
+
+
+#### - hDepthStencilView [in]
+
+ A handle to the depth stencil buffer to set. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - phRenderTargetView [in]
@@ -127,13 +125,16 @@ Note that the number that <i>ClearTargets</i> specifies is only an optimization 
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The user-mode display driver must set all render target surfaces and the depth stencil buffer atomically as one operation. 
@@ -150,11 +151,16 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f97ecce3-73b9-4c51-b4a4-e114420af2c9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], ndis/NdisFDeregisterFilterDriver, filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml
+ms.keywords: ndis/NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFDeregisterFilterDriver
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFDeregisterFilterDriver function
@@ -52,8 +52,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 
 A filter drivers calls the
   <b>NdisFDeregisterFilterDriver</b> function to release resources that it previously allocated with the 
-  <mshelp:link keywords="netvista.ndisfregisterfilterdriver" tabindex="0"><i>
-  NdisFRegisterFilterDriver</i></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+  NdisFRegisterFilterDriver</a> function.
 
 
 ## -syntax
@@ -81,11 +81,14 @@ The filter driver handle that identifies this filter driver. NDIS returned the h
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A filter driver must call 
@@ -94,11 +97,16 @@ A filter driver must call
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
 
  
 

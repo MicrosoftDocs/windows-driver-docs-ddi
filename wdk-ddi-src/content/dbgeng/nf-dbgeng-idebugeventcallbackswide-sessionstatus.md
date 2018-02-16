@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: cc3ed4ef-5e2d-4865-8d6f-b140d6b5d7af
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide::SessionStatus, IDebugEventCallbacksWide, dbgeng/IDebugEventCallbacksWide::SessionStatus, SessionStatus, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_sessionstatus, IDebugEventCallbacksWide interface [Windows Debugging], SessionStatus method
+ms.keywords: SessionStatus method [Windows Debugging], IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_sessionstatus, SessionStatus method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::SessionStatus, IDebugEventCallbacksWide interface [Windows Debugging], SessionStatus method, SessionStatus, dbgeng/IDebugEventCallbacksWide::SessionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacksWide.SessionStatus
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacksWide::SessionStatus method
@@ -70,6 +70,7 @@ HRESULT SessionStatus(
 ### -param Status [in]
 
 Specifies the new status of the debugger session.  The following table describes the possible values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -155,17 +156,21 @@ The engine was unable to continue the session.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 This method's return value is ignored by the engine.
 
 
 
+
 ## -remarks
+
 
 
 This method is only called by the engine if the DEBUG_EVENT_SESSION_STATUS flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
@@ -175,5 +180,6 @@ After the engine has notified all the event callbacks of the change in the sessi
 In the DEBUG_SESSION_ACTIVE case, the engine follows the debugger session change notification with a target state change notification by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550573">IDebugEventCallbacksWide::ChangeDebuggeeState</a> on the event callbacks and passing DEBUG_CDS_ALL in the <i>Flags</i> parameter.  In all other cases, the engine precedes this notification with an engine state change notification by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550578">IDebugEventCallbacksWide::ChangeEngineState</a> on the event callbacks and passing DEBUG_CES_EXECUTION_STATUS in the <i>Flags</i> parameter.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.  For information about debugger sessions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>.
+
 
 

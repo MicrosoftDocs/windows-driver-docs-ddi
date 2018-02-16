@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_IPV6_ADDRESS
-title: _WWAN_IPV6_ADDRESS
+title: "_WWAN_IPV6_ADDRESS"
 author: windows-driver-content
 description: The WWAN_IPV6_ADDRESS structure represents an IPV6 address of a PDP context.
 old-location: netvista\wwan_ipv6_address.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3DAC7E30-B938-429C-B389-59F924216B04
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _WWAN_IPV6_ADDRESS, WWAN_IPV6_ADDRESS, wwan/WWAN_IPV6_ADDRESS, netvista.wwan_ipv6_address, PWWAN_IPV6_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS, *PWWAN_IPV6_ADDRESS, WWAN_IPV6_ADDRESS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*PWWAN_IPV6_ADDRESS, WWAN_IPV6_ADDRESS structure [Network Drivers Starting with Windows Vista], _WWAN_IPV6_ADDRESS, wwan/WWAN_IPV6_ADDRESS, wwan/PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV6_ADDRESS, netvista.wwan_ipv6_address, PWWAN_IPV6_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_IPV6_ADDRESS
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ The length of the prefix or network part of the IP address.
 ### -field IPV6Address
 
  
+
 
 
 

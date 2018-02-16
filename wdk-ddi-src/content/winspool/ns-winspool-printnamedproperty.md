@@ -2,13 +2,13 @@
 UID: NS:winspool.PrintNamedProperty
 title: PrintNamedProperty
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\printnamedproperty.htm
 old-project: print
 ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PrintNamedProperty, print.printnamedproperty, PrintNamedProperty structure [Print Devices], winspool/PrintNamedProperty
+ms.date: 2/2/2018
+ms.keywords: PrintNamedProperty structure [Print Devices], print.printnamedproperty, PrintNamedProperty, winspool/PrintNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winspool.h
-apiname: 
+apiname:
 -	PrintNamedProperty
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ typedef struct {
 ### -field propertyName
 
 
-
 ### -field propertyValue
-
 

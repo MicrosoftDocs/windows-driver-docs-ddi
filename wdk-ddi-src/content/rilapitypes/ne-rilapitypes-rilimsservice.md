@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11d009d7-5a97-46a8-b1d6-f1906127bf3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_SMS, RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_ALL, netvista.rilimsservice, RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_VIDEO, RIL_IMS_SERVICE_VOICE, rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RIL_IMS_SERVICE_VOICE, RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_ALL, rilapitypes/RILIMSSERVICE
+ms.keywords: RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_SMS, rilapitypes/RIL_IMS_SERVICE_ALL, RIL_IMS_SERVICE_VIDEO, RILIMSSERVICE, RIL_IMS_SERVICE_ALL, netvista.rilimsservice, RIL_IMS_SERVICE_VOICE, RIL_IMS_SERVICE_CUSTOM, rilapitypes/RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RIL_IMS_SERVICE_VOICE, rilapitypes/RIL_IMS_SERVICE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILIMSSERVICE
 product: Windows
 targetos: Windows
@@ -76,42 +76,35 @@ enum RILIMSSERVICE  {
 ### -field RIL_IMS_SERVICE_SMS
 
 
-
 ### -field RIL_IMS_SERVICE_VOICE
-
 
 
 ### -field RIL_IMS_SERVICE_VIDEO
 
 
-
 ### -field RIL_IMS_SERVICE_CUSTOM
-
 
 
 ### -field RIL_IMS_SERVICE_SUPSVC
 
 
-
 ### -field RIL_IMS_SERVICE_RCS
-
 
 
 ### -field RIL_IMS_SERVICE_USSD
 
 
-
 ### -field RIL_IMS_SERVICE_E_VOICE
-
 
 
 ### -field RIL_IMS_SERVICE_ALL
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

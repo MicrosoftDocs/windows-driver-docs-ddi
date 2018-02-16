@@ -7,8 +7,8 @@ old-location: print\iprintoemdriveruni_drvgetdriversetting.htm
 old-project: print
 ms.assetid: 29ccd7e6-60eb-4a8e-9a71-9fbed4b2bdcf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni, prcomoem/IPrintOemDriverUni::DrvGetDriverSetting, IPrintOemDriverUni::DrvGetDriverSetting, IPrintOemDriverUni interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni interface, print.iprintoemdriveruni_drvgetdriversetting, print_unidrv-pscript_rendering_7fd3ea86-8473-4499-a860-318a66d7838b.xml
+ms.date: 2/2/2018
+ms.keywords: print_unidrv-pscript_rendering_7fd3ea86-8473-4499-a860-318a66d7838b.xml, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvGetDriverSetting method, DrvGetDriverSetting method [Print Devices], IPrintOemDriverUni interface, prcomoem/IPrintOemDriverUni::DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], print.iprintoemdriveruni_drvgetdriversetting, DrvGetDriverSetting, IPrintOemDriverUni::DrvGetDriverSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemDriverUni.DrvGetDriverSetting
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ Caller-supplied pointer to a location to receive the number of option strings pl
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,14 +147,18 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When the <code>IPrintOemDriverUni::DrvGetDriverSetting</code> method is called, either a string pointer or a constant value can be specified for <i>pFeatureKeyword</i>.
+
 <ul>
 <li>
 If <i>pFeatureKeyword</i> is a string, it must represent a feature name specified in a <a href="https://msdn.microsoft.com/ebf12f61-6194-4033-92a2-2bbccc40a6fd">Unidrv minidriver</a> GPD file
@@ -165,4 +171,5 @@ If <i>pFeatureKeyword</i> is a constant, it must be one of the <b>OEMGDS_</b>-pr
 
 </li>
 </ul>
+
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 557fc92e-6550-44ea-ac09-bb0b74e1275f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_DCSTYPE_MSGWAIT, RILMSGDCSTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_DCSTYPE_MSGCLASS, RIL_DCSTYPE_MAX, RIL_DCSTYPE_LANGUAGE, RILMSGDCSTYPE, RIL_DCSTYPE_MSGCLASS, ntddrilapitypes/RIL_DCSTYPE_MSGWAIT, ntddrilapitypes/RIL_DCSTYPE_LANGUAGE, ntddrilapitypes/RIL_DCSTYPE_MAX, netvista.rilmsgdcstype, ntddrilapitypes/RILMSGDCSTYPE
+ms.keywords: RILMSGDCSTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rilmsgdcstype, RIL_DCSTYPE_MSGCLASS, ntddrilapitypes/RILMSGDCSTYPE, RILMSGDCSTYPE, ntddrilapitypes/RIL_DCSTYPE_MAX, RIL_DCSTYPE_MAX, RIL_DCSTYPE_MSGWAIT, RIL_DCSTYPE_LANGUAGE, ntddrilapitypes/RIL_DCSTYPE_MSGCLASS, ntddrilapitypes/RIL_DCSTYPE_LANGUAGE, ntddrilapitypes/RIL_DCSTYPE_MSGWAIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGDCSTYPE
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILMSGDCSTYPE {
 ### -field RIL_DCSTYPE_GENERAL
 
 
-
 ### -field RIL_DCSTYPE_MSGWAIT
-
 
 
 ### -field RIL_DCSTYPE_MSGCLASS
 
 
-
 ### -field RIL_DCSTYPE_LANGUAGE
 
 
-
 ### -field RIL_DCSTYPE_MAX
-
 

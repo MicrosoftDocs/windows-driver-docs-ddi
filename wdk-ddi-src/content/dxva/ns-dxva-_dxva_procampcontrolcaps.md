@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ProcAmpControlCaps
-title: _DXVA_ProcAmpControlCaps
+title: "_DXVA_ProcAmpControlCaps"
 author: windows-driver-content
 description: The DXVA_ProcAmpControlCaps structure identifies the ProcAmp operations that the hardware supports.
 old-location: display\dxva_procampcontrolcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93de54dc-8826-4b1c-acf7-1861f337318a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/LPDXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, DXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], *LPDXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, _DXVA_ProcAmpControlCaps
+ms.keywords: LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], LPDXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, dxva/DXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], *LPDXVA_ProcAmpControlCaps, _DXVA_ProcAmpControlCaps, dxva/LPDXVA_ProcAmpControlCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_ProcAmpControlCaps
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps
+req.typenames: DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
 ---
 
 # _DXVA_ProcAmpControlCaps structure
@@ -89,6 +89,7 @@ Indicates the Direct3D surface format of the output frames. Usually the ProcAmp 
 ### -field ProcAmpControlProps
 
 Identifies the ProcAmp operations that the hardware supports. The driver should return a logical combination of the following ProcAmp operations.
+
 <table>
 <tr>
 <th>Value</th>
@@ -144,12 +145,14 @@ Saturation adjustments to the video image are allowed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VideoProcessingCaps
 
 Identifies the operations that can be performed by the ProcAmp control hardware concurrently with the requested ProcAmp adjustment. The driver should return a logical combination of one of the following ProcAmp operations.
+
 <table>
 <tr>
 <th>Value</th>
@@ -205,14 +208,19 @@ Indicates that the VMR will not perform a buffer copy when an alpha value is cha
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
+<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
+
+
+
 <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
 
-<a href="..\dxva\ne-dxva-_dxva_procampcontrolprop.md">DXVA_ProcAmpControlProp</a>
+
 
  
 

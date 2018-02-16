@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e527a659-7ed5-4262-bed2-3bab58919401
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsPin interface [Streaming Media Devices], KsDeliver method, stream.ikspin_ksdeliver, KsDeliver method [Streaming Media Devices], IKsPin interface, KsDeliver method [Streaming Media Devices], ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, ksproxy/IKsPin::KsDeliver, IKsPin::KsDeliver, IKsPin, KsDeliver
+ms.keywords: ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, KsDeliver, stream.ikspin_ksdeliver, ksproxy/IKsPin::KsDeliver, KsDeliver method [Streaming Media Devices], IKsPin, IKsPin interface [Streaming Media Devices], KsDeliver method, KsDeliver method [Streaming Media Devices], IKsPin interface, IKsPin::KsDeliver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPin.KsDeliver
 product: Windows
 targetos: Windows
@@ -105,11 +105,14 @@ The pin connection checks for the end-of-stream flag (KSSTREAM_HEADER_OPTIONSF_E
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) calls <b>KsDeliver</b> on the output pin of a filter to deliver a media sample to the input pin of another filter. These input and output pins are connected. 
@@ -120,11 +123,16 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+
+
 
 <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
+
 
  
 

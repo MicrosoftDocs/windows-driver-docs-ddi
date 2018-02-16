@@ -7,8 +7,8 @@ old-location: buses\ufxdevicenotifyattach.htm
 old-project: usbref
 ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ufxclient/UfxDeviceNotifyAttach, UfxDeviceNotifyAttach, buses.ufxdevicenotifyattach, UfxDeviceNotifyAttach method [Buses]
+ms.date: 2/8/2018
+ms.keywords: UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, UfxDeviceNotifyAttach, ufxclient/UfxDeviceNotifyAttach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxDeviceNotifyAttach
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -76,18 +76,24 @@ A handle to a UFX device object that the driver created by calling <a href="..\u
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 When the client driver calls <b>UfxDeviceNotifyAttach</b>, the USB function class extension (UFX) does the following:
+
 <ul>
 <li>Moves the device to the <i>Powered</i> state, as defined in the USB specification.</li>
 <li>Allows device enumeration to occur.</li>
-</ul>The client driver typically calls <b>UfxDeviceNotifyAttach</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function, as shown in the following example.
+</ul>
+The client driver typically calls <b>UfxDeviceNotifyAttach</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function, as shown in the following example.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -188,4 +194,5 @@ Arguments:
 </td>
 </tr>
 </table></span></div>
+
 

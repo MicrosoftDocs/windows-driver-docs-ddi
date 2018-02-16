@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_TRIM_DESCRIPTOR
-title: _DEVICE_TRIM_DESCRIPTOR
+title: "_DEVICE_TRIM_DESCRIPTOR"
 author: windows-driver-content
 description: The DEVICE_TRIM_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.
 old-location: storage\device_trim_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e36bca55-63d0-41ef-83b9-8f0cfd450323
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/PDEVICE_TRIM_DESCRIPTOR, storage.device_trim_descriptor, _DEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR, *PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Storage Devices], ntddstor/DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Storage Devices], structs-general_eeaa452e-bc49-47ac-9d6f-4a7bbc022b2f.xml, DEVICE_TRIM_DESCRIPTOR
+ms.keywords: DEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Storage Devices], DEVICE_TRIM_DESCRIPTOR structure [Storage Devices], _DEVICE_TRIM_DESCRIPTOR, structs-general_eeaa452e-bc49-47ac-9d6f-4a7bbc022b2f.xml, *PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR, ntddstor/DEVICE_TRIM_DESCRIPTOR, ntddstor/PDEVICE_TRIM_DESCRIPTOR, storage.device_trim_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	DEVICE_TRIM_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR
+req.typenames: DEVICE_TRIM_DESCRIPTOR, *PDEVICE_TRIM_DESCRIPTOR
 ---
 
 # _DEVICE_TRIM_DESCRIPTOR structure
@@ -87,13 +87,17 @@ Specifies whether trim is enabled for the device.
 ## -remarks
 
 
+
 Storage class drivers issue a device-control request with the I/O control code  <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve this structure, which contains trim information for the device. The structure can be retrieved either from the device object for the bus or from an FDO, which forwards the request to the underlying bus.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
 
  
 

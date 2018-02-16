@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	SetVideoProcessStreamState
 product: Windows
 targetos: Windows
@@ -74,7 +74,6 @@ __checkReturn HRESULT APIENTRY SetVideoProcessStreamState(
 ### -param HANDLE
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ __checkReturn HRESULT APIENTRY SetVideoProcessStreamState(
 
 
 
-#### - pData [in]
-
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a> structure that describes how to change the stream state. 
 
 
 #### - hDevice [in]
@@ -92,10 +88,17 @@ __checkReturn HRESULT APIENTRY SetVideoProcessStreamState(
  A handle to the display device (graphics context).
 
 
+#### - pData [in]
+
+ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a> structure that describes how to change the stream state. 
+
+
 ## -returns
 
 
+
 The <i>SetVideoProcessStreamState</i> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +126,17 @@ The stream state is successfully set.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessstreamstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE</a>
+
+
 
  
 

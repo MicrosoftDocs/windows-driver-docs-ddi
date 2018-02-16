@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d74d5b61-f8e8-4ee0-83d2-cfb003189ef4
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, ExtRemoteTyped::GetFieldOffset, ExtRemoteTyped, GetFieldOffset method [Windows Debugging], debugger.extremotetyped_getfieldoffset, ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, GetFieldOffset, GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface
+ms.keywords: ExtRemoteTyped, ExtRemoteTyped::GetFieldOffset, EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, debugger.extremotetyped_getfieldoffset, GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, GetFieldOffset, GetFieldOffset method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.GetFieldOffset
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::GetFieldOffset method
@@ -75,17 +75,25 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 ## -returns
 
 
+
 <b>GetFieldOffset</b> returns the offset of the member from the base address of an instance of the type.
+
 
 
 
 ## -see-also
 
-<b>IDebugSymbols::GetFieldOffset</b>
-
 <a href="..\wdbgexts\nf-wdbgexts-getfieldoffset.md">GetFieldOffset</a>
 
+
+
+<b>IDebugSymbols::GetFieldOffset</b>
+
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+
 
  
 

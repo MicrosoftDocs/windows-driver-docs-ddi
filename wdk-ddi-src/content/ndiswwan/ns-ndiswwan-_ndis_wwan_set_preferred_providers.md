@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PREFERRED_PROVIDERS
-title: _NDIS_WWAN_SET_PREFERRED_PROVIDERS
+title: "_NDIS_WWAN_SET_PREFERRED_PROVIDERS"
 author: windows-driver-content
 description: The NDIS_WWAN_SET_PREFERRED_PROVIDERS structure represents the list of preferred providers associated with the MB device.
 old-location: netvista\ndis_wwan_set_preferred_providers.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6741d440-0e17-4b2d-a642-0335d1f936cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_SET_PREFERRED_PROVIDERS, _NDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS, *PNDIS_WWAN_SET_PREFERRED_PROVIDERS, netvista.ndis_wwan_set_preferred_providers, PNDIS_WWAN_SET_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9e9b42a9-813f-4440-a112-9af4bc172d4e.xml, PNDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_WWAN_SET_PREFERRED_PROVIDERS, WwanRef_9e9b42a9-813f-4440-a112-9af4bc172d4e.xml, *PNDIS_WWAN_SET_PREFERRED_PROVIDERS, _NDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/PNDIS_WWAN_SET_PREFERRED_PROVIDERS, PNDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_set_preferred_providers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_SET_PREFERRED_PROVIDERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS
+req.typenames: NDIS_WWAN_SET_PREFERRED_PROVIDERS, *PNDIS_WWAN_SET_PREFERRED_PROVIDERS
 ---
 
 # _NDIS_WWAN_SET_PREFERRED_PROVIDERS structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_PRE
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_SET_PREFERRED_PROVIDERS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -133,7 +135,11 @@ A formatted
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+
 
  
 

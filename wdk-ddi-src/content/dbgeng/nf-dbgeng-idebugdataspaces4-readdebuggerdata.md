@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 54e4d3b9-db9d-4844-938f-c8ca8819d182
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadDebuggerData, IDebugDataSpaces_618b8518-3e32-4518-8e4b-38f66484d554.xml, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces4 interface, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces::ReadDebuggerData, ReadDebuggerData, IDebugDataSpaces3::ReadDebuggerData, debugger.readdebuggerdata, IDebugDataSpaces3 interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces2 interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces2::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces3::ReadDebuggerData, IDebugDataSpaces4::ReadDebuggerData, dbgeng/IDebugDataSpaces::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces interface [Windows Debugging], ReadDebuggerData method, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadDebuggerData method, dbgeng/IDebugDataSpaces2::ReadDebuggerData
+ms.keywords: debugger.readdebuggerdata, IDebugDataSpaces::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces4 interface, ReadDebuggerData method [Windows Debugging], ReadDebuggerData method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces::ReadDebuggerData, IDebugDataSpaces2 interface [Windows Debugging], ReadDebuggerData method, dbgeng/IDebugDataSpaces4::ReadDebuggerData, dbgeng/IDebugDataSpaces2::ReadDebuggerData, IDebugDataSpaces2, IDebugDataSpaces3::ReadDebuggerData, IDebugDataSpaces interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces_618b8518-3e32-4518-8e4b-38f66484d554.xml, IDebugDataSpaces3, IDebugDataSpaces4 interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces2::ReadDebuggerData, IDebugDataSpaces3 interface [Windows Debugging], ReadDebuggerData method, IDebugDataSpaces, IDebugDataSpaces4::ReadDebuggerData, ReadDebuggerData, dbgeng/IDebugDataSpaces3::ReadDebuggerData, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces interface, ReadDebuggerData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces.ReadDebuggerData
 -	IDebugDataSpaces2.ReadDebuggerData
 -	IDebugDataSpaces3.ReadDebuggerData
 -	IDebugDataSpaces4.ReadDebuggerData
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadDebuggerData method
@@ -76,6 +76,7 @@ HRESULT ReadDebuggerData(
 ### -param Index [in]
 
 Specifies the index of the data to retrieve.  The following values are valid:
+
 <table>
 <tr>
 <th>Value</th>
@@ -1015,9 +1016,11 @@ Returns the status of the writer of the dump file.  This value is operating syst
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following values are valid for Windows XP and later versions of Windows:
+
 <table>
 <tr>
 <th>Value</th>
@@ -1262,9 +1265,11 @@ ULONG64
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following values are valid for Windows Server 2003 and later versions of Windows:
+
 <table>
 <tr>
 <th>Value</th>
@@ -1611,7 +1616,8 @@ Returns the address of the kernel variable <b>KdPrintBufferSize</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Buffer [out]
@@ -1632,6 +1638,7 @@ Receives the number of bytes used in the buffer <i>Buffer</i>.  If <i>DataSize</
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -1648,17 +1655,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 Some or all of the values may be unavailable in certain debugging sessions.  For example, some of the values are only available for particular versions of the operating system.
 
 For details on the different values returned by <b>ReadDebuggerData</b>, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich, the Microsoft Windows SDK, and the Windows Driver Kit (WDK).
+
 
 

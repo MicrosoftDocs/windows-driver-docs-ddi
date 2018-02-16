@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddvdeo.h
-apiname: 
+apiname:
 -	IOCTL_VIDEO_MAP_VIDEO_MEMORY
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ The VRP <b>InputBuffer</b> contains a <a href="..\ntddvdeo\ns-ntddvdeo-_video_me
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -87,21 +89,27 @@ The miniport driver returns a <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_inf
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -114,11 +122,19 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
 
+
+
 <a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
+
+
+
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
 <a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
 
  
 

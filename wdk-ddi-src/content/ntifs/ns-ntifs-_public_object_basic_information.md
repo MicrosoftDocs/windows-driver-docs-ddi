@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._PUBLIC_OBJECT_BASIC_INFORMATION
-title: _PUBLIC_OBJECT_BASIC_INFORMATION
+title: "_PUBLIC_OBJECT_BASIC_INFORMATION"
 author: windows-driver-content
 description: The PUBLIC_OBJECT_BASIC_INFORMATION structure holds a subset of the full information that is available for an object.
 old-location: ifsk\public_object_basic_information.htm
 old-project: ifsk
 ms.assetid: 2190f88e-6905-4e58-9523-2b6d4864c776
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PPUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATION, objectstructures_f0dec604-d95c-47b4-aedc-168a3ae1dedc.xml, ntifs/PUBLIC_OBJECT_BASIC_INFORMATION, _PUBLIC_OBJECT_BASIC_INFORMATION, ifsk.public_object_basic_information, PUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_BASIC_INFORMATION structure [Installable File System Drivers], ntifs/PPUBLIC_OBJECT_BASIC_INFORMATION
+ms.date: 2/7/2018
+ms.keywords: PPUBLIC_OBJECT_BASIC_INFORMATION structure pointer [Installable File System Drivers], objectstructures_f0dec604-d95c-47b4-aedc-168a3ae1dedc.xml, ntifs/PUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION structure [Installable File System Drivers], ntifs/PPUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION, _PUBLIC_OBJECT_BASIC_INFORMATION, ifsk.public_object_basic_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	PUBLIC_OBJECT_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PPUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION
+req.typenames: "*PPUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION"
 ---
 
 # _PUBLIC_OBJECT_BASIC_INFORMATION structure

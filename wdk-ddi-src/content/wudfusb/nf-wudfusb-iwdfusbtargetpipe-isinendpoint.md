@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfusb/IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, wdf.iwdfusbtargetpipe_isinendpoint, umdf.iwdfusbtargetpipe_isinendpoint, IsInEndPoint method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface, IsInEndPoint method, IWDFUsbTargetPipe, IsInEndPoint method, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml
+ms.keywords: wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, IWDFUsbTargetPipe interface, IsInEndPoint method, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint method, IsInEndPoint, IsInEndPoint method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetPipe.IsInEndPoint
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,25 +69,42 @@ BOOL  IsInEndPoint();
 
 
 
+
 ## -returns
+
 
 
 <b>IsInEndPoint</b> returns a BOOL value that indicates whether the USB pipe is an IN pipe. <b>TRUE</b> indicates the pipe is an IN pipe. <b>FALSE</b> indicates the pipe is not an IN pipe.
 
 
 
+
 ## -remarks
 
 
+
 If the USB pipe is an IN pipe, a UMDF driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a> method to format a read request. The framework can then send the request to the USB pipe.
-<div class="alert"><b>Note</b>    The meaning of IN and OUT is opposite in WDF and USB.</div><div> </div>
+
+<div class="alert"><b>Note</b>    The meaning of IN and OUT is opposite in WDF and USB.</div>
+<div> </div>
+
+#### Examples
+
+For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560334">IWDFUsbInterface::GetNumEndPoints</a>.
+
+<div class="code"></div>
+
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
+
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
+
 
  
 

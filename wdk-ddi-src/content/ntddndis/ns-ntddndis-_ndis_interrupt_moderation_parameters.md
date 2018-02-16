@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_INTERRUPT_MODERATION_PARAMETERS
-title: _NDIS_INTERRUPT_MODERATION_PARAMETERS
+title: "_NDIS_INTERRUPT_MODERATION_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters for the OID_GEN_INTERRUPT_MODERATION OID.
 old-location: netvista\ndis_interrupt_moderation_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2270dbc-0bc3-4bef-9e11-26006d8f0d71
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _NDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_interrupt_moderation_parameters, oid_structures_ref_448cef08-e024-4e5b-a370-fb6e8d78c9cd.xml, NDIS_INTERRUPT_MODERATION_PARAMETERS, PNDIS_INTERRUPT_MODERATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_INTERRUPT_MODERATION_PARAMETERS, *PNDIS_INTERRUPT_MODERATION_PARAMETERS, PNDIS_INTERRUPT_MODERATION_PARAMETERS, ntddndis/NDIS_INTERRUPT_MODERATION_PARAMETERS
+ms.keywords: ntddndis/PNDIS_INTERRUPT_MODERATION_PARAMETERS, ntddndis/NDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_INTERRUPT_MODERATION_PARAMETERS, oid_structures_ref_448cef08-e024-4e5b-a370-fb6e8d78c9cd.xml, _NDIS_INTERRUPT_MODERATION_PARAMETERS, PNDIS_INTERRUPT_MODERATION_PARAMETERS, netvista.ndis_interrupt_moderation_parameters, PNDIS_INTERRUPT_MODERATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_INTERRUPT_MODERATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_INTERRUPT_MODERATION_PARAMETERS, *PNDIS_INTERRUPT_MODERATION_PARAMETERS
+req.typenames: "*PNDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS"
 ---
 
 # _NDIS_INTERRUPT_MODERATION_PARAMETERS structure
@@ -91,6 +91,20 @@ A bitwise OR of the following flags:
 
 
 
+
+#### NDIS_INTERRUPT_MODERATION_CHANGE_NEEDS_RESET
+
+A network interface card (NIC) must have a hardware reset to enable or disable interrupt
+       moderation.
+
+
+
+#### NDIS_INTERRUPT_MODERATION_CHANGE_NEEDS_REINITIALIZE
+
+A miniport driver must complete a halt and reinitialize cycle to enable or disable interrupt
+       moderation. If this flag is enabled, there is also a hardware reset.
+
+
 ### -field InterruptModeration
 
 An NDIS_INTERRUPT_MODERATION-typed value that indicates or specifies the current interrupt
@@ -102,13 +116,22 @@ The following values are supported:
 
 
 
-##### - Flags.NDIS_INTERRUPT_MODERATION_CHANGE_NEEDS_RESET
 
-A network interface card (NIC) must have a hardware reset to enable or disable interrupt
-       moderation.
+#### NdisInterruptModerationUnknown
+
+In an OID query, this value indicates that the miniport driver cannot determine whether
+       interrupt moderation is enabled or disabled on a NIC. This value is invalid for a set request.
 
 
-##### - InterruptModeration.NdisInterruptModerationEnabled
+
+#### NdisInterruptModerationNotSupported
+
+In an OID query, this value indicates that the NIC or its miniport driver does not support
+       interrupt moderation. This value is invalid for a set request.
+
+
+
+#### NdisInterruptModerationEnabled
 
 In an OID query, this value indicates that interrupt moderation is enabled on the NIC. In an OID
        set, 
@@ -116,13 +139,8 @@ In an OID query, this value indicates that interrupt moderation is enabled on th
        NIC.
 
 
-##### - InterruptModeration.NdisInterruptModerationNotSupported
 
-In an OID query, this value indicates that the NIC or its miniport driver does not support
-       interrupt moderation. This value is invalid for a set request.
-
-
-##### - InterruptModeration.NdisInterruptModerationDisabled
+#### NdisInterruptModerationDisabled
 
 In an OID query, this value indicates that interrupt moderation is disabled on the NIC. In an
        OID set, 
@@ -130,19 +148,8 @@ In an OID query, this value indicates that interrupt moderation is disabled on t
        NIC.
 
 
-##### - Flags.NDIS_INTERRUPT_MODERATION_CHANGE_NEEDS_REINITIALIZE
-
-A miniport driver must complete a halt and reinitialize cycle to enable or disable interrupt
-       moderation. If this flag is enabled, there is also a hardware reset.
-
-
-##### - InterruptModeration.NdisInterruptModerationUnknown
-
-In an OID query, this value indicates that the miniport driver cannot determine whether
-       interrupt moderation is enabled or disabled on a NIC. This value is invalid for a set request.
-
-
 ## -remarks
+
 
 
 The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters for the 
@@ -154,11 +161,16 @@ The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters 
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569590">OID_GEN_INTERRUPT_MODERATION</a>
+
+
 
  
 

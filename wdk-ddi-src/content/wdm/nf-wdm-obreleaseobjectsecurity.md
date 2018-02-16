@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d4f9d02a-2541-445a-95f1-e08ebb0c8a39
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], wdm/ObReleaseObjectSecurity, k107_b43166d5-3dac-420a-803e-053b272d3405.xml, kernel.obreleaseobjectsecurity
+ms.keywords: kernel.obreleaseobjectsecurity, ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], wdm/ObReleaseObjectSecurity, k107_b43166d5-3dac-420a-803e-053b272d3405.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObReleaseObjectSecurity
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Specifies the value also obtained from <b>ObGetObjectSecurity</b>.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 After a successful call to <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>, a driver must call <b>ObReleaseObjectSecurity</b> eventually. 
@@ -95,11 +98,16 @@ After a successful call to <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetO
 
 
 
+
 ## -see-also
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
 
 <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
 
  
 

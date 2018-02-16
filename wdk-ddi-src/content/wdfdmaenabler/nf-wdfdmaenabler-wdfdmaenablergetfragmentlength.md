@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f7481655-4413-4937-8a0a-99ca07d5b7b0
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdmaenabler/WdfDmaEnablerGetFragmentLength, kmdf.wdfdmaenablergetfragmentlength, WdfDmaEnablerGetFragmentLength, WdfDmaEnablerGetFragmentLength method, DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, wdf.wdfdmaenablergetfragmentlength, PFN_WDFDMAENABLERGETFRAGMENTLENGTH
+ms.keywords: wdfdmaenabler/WdfDmaEnablerGetFragmentLength, WdfDmaEnablerGetFragmentLength, PFN_WDFDMAENABLERGETFRAGMENTLENGTH, WdfDmaEnablerGetFragmentLength method, kmdf.wdfdmaenablergetfragmentlength, wdf.wdfdmaenablergetfragmentlength, DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaEnablerGetFragmentLength
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ A <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRE
 ## -returns
 
 
+
 <b>WdfDmaEnablerGetFragmentLength</b> returns the maximum length of a DMA transfer, in bytes, that the operating system can support, or zero if the <i>DmaDirection</i> parameter's value is invalid.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -93,12 +94,15 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The maximum DMA transfer length that the operating system can support depends on the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554406">map registers</a> that are available. If enough map registers are available, <b>WdfDmaEnablerGetFragmentLength</b> returns the same value that <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a> returns. Otherwise, the value that <b>WdfDmaEnablerGetFragmentLength</b> returns will be less than the value that <b>WdfDmaEnablerGetMaximumLength</b> returns.
 
 Your driver can determine the number of map registers that are available by using the BYTE_TO_PAGES macro, as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -108,9 +112,43 @@ Your driver can determine the number of map registers that are available by usin
 <pre>BYTE_TO_PAGES(WdfDmaEnablerGetFragmentLength()) + 1</pre>
 </td>
 </tr>
-</table></span></div>If your driver specified a duplex profile when it called <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>, the <i>DmaDirection</i> parameter's value must be <b>WdfDmaDirectionReadFromDevice</b> to obtain the maximum transfer length for read operations and <b>WdfDmaDirectionWriteToDevice</b> to obtain the maximum transfer length for write operations. If your driver did not specify a duplex profile, the driver can specify either <b>WdfDmaDirectionReadFromDevice</b> or <b>WdfDmaDirectionWriteToDevice</b> for <i>DmaDirection</i>.
+</table></span></div>
+If your driver specified a duplex profile when it called <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>, the <i>DmaDirection</i> parameter's value must be <b>WdfDmaDirectionReadFromDevice</b> to obtain the maximum transfer length for read operations and <b>WdfDmaDirectionWriteToDevice</b> to obtain the maximum transfer length for write operations. If your driver did not specify a duplex profile, the driver can specify either <b>WdfDmaDirectionReadFromDevice</b> or <b>WdfDmaDirectionWriteToDevice</b> for <i>DmaDirection</i>.
 
 Note that if your driver's device supports duplex operation, <b>WdfDmaEnablerGetFragmentLength</b> can return different values for the read and write directions that the <i>DmaDirection</i> parameter specifies. This difference is because the framework creates a separate <a href="https://msdn.microsoft.com/8bc672b4-0f4d-4e0c-9904-c8d0a3f3639c">adapter object</a> for each direction, and the operating system might provide a different number of map registers to each adapter object.
+
+
+#### Examples
+
+The following code example determines the minimum number of map registers that are necessary to handle a NIC device's read operations, calculates the number of map registers that are available, and reports an error if the number of allocated map registers is insufficient.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ULONG  minimumMapRegisters;
+ULONG  maxLengthSupported;
+ULONG  mapRegistersAllocated;
+
+miniMapRegisters = BYTES_TO_PAGES(NIC_MAX_PACKET_SIZE) + 1;
+
+maxLengthSupported = 
+    (ULONG) WdfDmaEnablerGetFragmentLength(
+                                           FdoData-&gt;WdfDmaEnabler,
+                                           WdfDmaDirectionReadFromDevice
+                                           );
+
+mapRegistersAllocated = BYTES_TO_PAGES(maxLengthSupported) + 1;
+
+if (mapRegistersAllocated &lt; minimumMapRegisters) {
+    status = STATUS_INSUFFICIENT_RESOURCES;
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -118,9 +156,15 @@ Note that if your driver's device supports duplex operation, <b>WdfDmaEnablerGet
 
 <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
 
+
+
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablergetmaximumlength.md">WdfDmaEnablerGetMaximumLength</a>
 
+
+
 <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
 
  
 

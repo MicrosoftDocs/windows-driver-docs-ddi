@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b0477c52-d9e6-47cd-b94c-b9da2c4e07a6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSSTREAMALLOCATOR_STATUS_EX, stream.ksstreamallocator_status_ex, PKSSTREAMALLOCATOR_STATUS_EX structure pointer [Streaming Media Devices], KSSTREAMALLOCATOR_STATUS_EX structure [Streaming Media Devices], *PKSSTREAMALLOCATOR_STATUS_EX, ks/KSSTREAMALLOCATOR_STATUS_EX, ks-struct_e62b6482-11b5-48be-9263-719809e9e79d.xml, ks/PKSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX
+ms.keywords: ks/PKSSTREAMALLOCATOR_STATUS_EX, stream.ksstreamallocator_status_ex, ks-struct_e62b6482-11b5-48be-9263-719809e9e79d.xml, PKSSTREAMALLOCATOR_STATUS_EX, ks/KSSTREAMALLOCATOR_STATUS_EX, *PKSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX, PKSSTREAMALLOCATOR_STATUS_EX structure pointer [Streaming Media Devices], KSSTREAMALLOCATOR_STATUS_EX structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSSTREAMALLOCATOR_STATUS_EX
 product: Windows
 targetos: Windows
-req.typenames: KSSTREAMALLOCATOR_STATUS_EX, *PKSSTREAMALLOCATOR_STATUS_EX
+req.typenames: "*PKSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX"
 ---
 
 # KSSTREAMALLOCATOR_STATUS_EX structure
@@ -87,6 +87,8 @@ Reserved and set to zero.
 ## -remarks
 
 
+
 KSSTREAMALLOCATOR_STATUS_EX corresponds closely to KSSTREAMALLOCATOR_STATUS except that instead of passing back a KSALLOCATOR_FRAMING, it passes back the extended structure.
+
 
 

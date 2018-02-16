@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkProtectedCallback
 product: Windows
 targetos: Windows
@@ -75,7 +75,6 @@ VOID DxgkProtectedCallback(
 ### -param PVOID
 
 
-
 ### -param ProtectedCallbackContext [in]
 
 
@@ -96,16 +95,20 @@ A handle to a context block associated with a display adapter. The display minip
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <i>DxgkProtectedCallback</i> must be called only when all access to the display adapter has been halted, as indicated by the status parameter <i>ProtectionStatus.</i>
 
 The driver must ensure that following conditions are met during the callback routine:
+
 <ul>
 <li>
 All interrupts on the device are disabled, and any remaining pending interrupts are handled, including any DPCs that may have been queued on any CPU but not yet serviced.
@@ -130,9 +133,12 @@ The adapter, including its registers and display mode, is maintained in the prop
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a>
+
+
 
  
 

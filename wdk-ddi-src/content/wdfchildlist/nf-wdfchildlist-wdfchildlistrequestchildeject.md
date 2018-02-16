@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d7729edf-e92d-4707-83e2-fece90daeacf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfChildListRequestChildEject method, wdf.wdfchildlistrequestchildeject, kmdf.wdfchildlistrequestchildeject, DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, wdfchildlist/WdfChildListRequestChildEject, PFN_WDFCHILDLISTREQUESTCHILDEJECT, WdfChildListRequestChildEject
+ms.keywords: wdfchildlist/WdfChildListRequestChildEject, kmdf.wdfchildlistrequestchildeject, wdf.wdfchildlistrequestchildeject, PFN_WDFCHILDLISTREQUESTCHILDEJECT, WdfChildListRequestChildEject method, DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfChildListRequestChildEject
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ A pointer to a caller-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_ch
 ## -returns
 
 
+
 <b>WdfChildListRequestChildEject</b> returns <b>TRUE</b> if the operation succeeds. If an input parameter is invalid, or if the framework cannot find the device in the child list, the method returns <b>FALSE</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -92,7 +93,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 A bus driver can call <b>WdfChildListRequestChildEject</b> or <a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a> to report that the driver has detected an attempt to eject one of its enumerated child devices from the device's docking station. For example, the driver might detect that a user has pushed an eject button. 
@@ -108,12 +111,23 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 For more information about ejectable devices, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
 
 
+#### Examples
+
+For a code example that uses <b>WdfChildListRequestChildEject</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a>
+
+
+
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a>
+
 
  
 

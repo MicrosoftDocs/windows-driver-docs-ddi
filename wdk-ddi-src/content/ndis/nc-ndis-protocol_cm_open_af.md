@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolCmOpenAf
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # PROTOCOL_CM_OPEN_AF callback
@@ -89,8 +89,8 @@ For an integrated call manager (MCM), <i>CallMgrBindingContext</i> specifies the
 
 Specifies the address family that a client is opening. This address family was registered by the
      call manager when it called 
-     <mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-     NdisCmRegisterAddressFamilyEx</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+     NdisCmRegisterAddressFamilyEx</a>.
 
 
 ### -param NdisAfHandle [in]
@@ -108,7 +108,9 @@ Specifies the handle to a call manager-supplied context area in which the call m
 ## -returns
 
 
+
 <i>ProtocolCmOpenAf</i> returns the status of its operation(s) as one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,8 +137,8 @@ Indicates that the call manager has successfully allocated and initialized any r
 <td width="60%">
 Indicates that the requested operation is being handled asynchronously. The call manager must
        call 
-       <mshelp:link keywords="netvista.ndiscmopenaddressfamilycomplete" tabindex="0"><b>
-       NdisCmOpenAddressFamilyComplete</b></mshelp:link> when it has completed all its open-AF operations to indicate to
+       <a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+       NdisCmOpenAddressFamilyComplete</a> when it has completed all its open-AF operations to indicate to
        NDIS (and the client) that the operation(s) has been completed.
 
 </td>
@@ -166,11 +168,14 @@ Indicates that the call manager could not set itself into a state where it can a
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <i>ProtocolCmOpenAf</i> performs any required allocations of dynamic resources and structures that the
@@ -183,6 +188,7 @@ When a call manager has allocated its per-open state area, the address of the st
     in the 
     <i>CallMgrAfContext</i> handle before returning control to NDIS. To do this, dereference 
     <i>CallMgrAfContext</i> and store a pointer to the data area as the value of the handle. For example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -192,7 +198,8 @@ When a call manager has allocated its per-open state area, the address of the st
 <pre>*CallMgrAfContext = SomeBuffer;</pre>
 </td>
 </tr>
-</table></span></div>If 
+</table></span></div>
+If 
     <i>ProtocolCmOpenAf</i> cannot allocate the per-open resources it needs to carry out subsequent requests
     on behalf of the client opening this address family, it should free all resources that it allocated for
     the open and return control to the NDIS with NDIS_STATUS_RESOURCES.
@@ -202,9 +209,12 @@ If
     the client, 
     <i>ProtocolCmOpenAf</i> should return control as quickly as possible with a status of
     NDIS_STATUS_SUCCESS.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolCmOpenAf</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolCmOpenAf</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmOpenAf</i> function that is named "MyCmOpenAf", use the <b>PROTOCOL_CM_OPEN_AF</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -214,7 +224,9 @@ For example, to define a <i>ProtocolCmOpenAf</i> function that is named "MyCmOpe
 <pre>PROTOCOL_CM_OPEN_AF MyCmOpenAf;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -232,23 +244,33 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_CM_OPEN_AF</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_OPEN_AF</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_CM_OPEN_AF</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_OPEN_AF</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndiscmopenaddressfamilycomplete" tabindex="0"><b>
-   NdisCmOpenAddressFamilyComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+   NdisCmOpenAddressFamilyComplete</a>
 
-<mshelp:link keywords="netvista.ndiscmregisteraddressfamilyex" tabindex="0"><b>
-   NdisCmRegisterAddressFamilyEx</b></mshelp:link>
+
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+   NdisCmRegisterAddressFamilyEx</a>
+
+
 
  
 

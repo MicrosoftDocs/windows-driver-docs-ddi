@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d8a64a06-41b9-429b-a5ac-6de4996c702b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle function [Display Devices], VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml, video/VideoPortAssociateEventsWithDmaHandle, display.videoportassociateeventswithdmahandle
+ms.keywords: VideoPortAssociateEventsWithDmaHandle, VideoPortAssociateEventsWithDmaHandle function [Display Devices], display.videoportassociateeventswithdmahandle, VideoPort_Functions_0b61cb97-6bee-4882-83c9-1a56b8c2807b.xml, video/VideoPortAssociateEventsWithDmaHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortAssociateEventsWithDmaHandle
 product: Windows
 targetos: Windows
@@ -96,13 +96,17 @@ Is reserved for system use.
 ## -returns
 
 
+
 <b>VideoPortAssociateEventsWithDmaHandle</b> always returns <b>NULL</b>.
+
 
 
 
 ## -remarks
 
 
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
 
 

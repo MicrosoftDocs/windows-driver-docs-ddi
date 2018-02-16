@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._KMDDOD_INITIALIZATION_DATA
-title: _KMDDOD_INITIALIZATION_DATA
+title: "_KMDDOD_INITIALIZATION_DATA"
 author: windows-driver-content
 description: Contains pointers to functions implemented by a kernel mode display-only driver (KMDOD). The KMDOD's DriverEntry function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
 old-location: display\kmddod_initialization_data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04c1ece1-1c8f-40eb-8437-ac2fe1445095
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], dispmprt/KMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], display.kmddod_initialization_data
+ms.keywords: PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], display.kmddod_initialization_data, KMDDOD_INITIALIZATION_DATA structure [Display Devices], _KMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA, dispmprt/KMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dispmprt.h
-apiname: 
+apiname:
 -	KMDDOD_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA
+req.typenames: KMDDOD_INITIALIZATION_DATA, *PKMDDOD_INITIALIZATION_DATA
 ---
 
 # _KMDDOD_INITIALIZATION_DATA structure
@@ -140,12 +140,16 @@ A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_dispatch_io_re
 ### -field DxgkDdiInterruptRoutine
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a> function.
-<div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
+<div> </div>
 
 ### -field DxgkDdiDpcRoutine
 
 A pointer to the KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_dpc_routine.md">DxgkDdiDpcRoutine</a> function.
-<div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
+<div> </div>
 
 ### -field DxgkDdiQueryChildRelations
 
@@ -260,7 +264,9 @@ A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendmonit
 ### -field DxgkDdiGetScanLine
 
 A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md">DxgkDdiGetScanLine</a> function.
-<div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
+<div> </div>
 
 ### -field DxgkDdiQueryVidPnHWCapability
 
@@ -302,7 +308,9 @@ A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md
 
 
       A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt.md">DxgkDdiControlInterrupt</a> function.
-<div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
+<div> </div>
 
 ### -field DxgkDdiSetPowerComponentFState
 
@@ -328,18 +336,25 @@ A pointer to the KMDOD's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md
 
 
 
+
 ## -remarks
+
 
 
 If the kernel mode display-only driver (KMDOD) supports the VSync control feature, it must implement all of the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt.md">DxgkDdiControlInterrupt</a>, <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md">DxgkDdiGetScanLine</a>, <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>, and <a href="..\dispmprt\nc-dispmprt-dxgkddi_dpc_routine.md">DxgkDdiDpcRoutine</a>  functions and must provide valid function pointers to all of these functions in this structure. Conversely, if the KMDOD does not support the VSync control feature, it must not implement either <i>DxgkDdiControlInterrupt</i> or <i>DxgkDdiGetScanLine</i>  functions and must not provide valid function pointers to either of these functions in this structure. For more information, see <a href="https://msdn.microsoft.com/d7ee7461-0d2a-4103-9225-57ca10a75a7a">Saving Energy with VSync Control</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\dispmprt\nf-dispmprt-dxgkinitializedisplayonlydriver.md">DxgkInitializeDisplayOnlyDriver</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
 
-<a href="..\dispmprt\nf-dispmprt-dxgkinitializedisplayonlydriver.md">DxgkInitializeDisplayOnlyDriver</a>
+
 
  
 

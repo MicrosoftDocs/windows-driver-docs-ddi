@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: adc6724b-f3dc-4605-8ee1-198c88bc3fcd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortReadRegisterBufferUchar routine [Storage Devices], atartns_5c57e652-3b37-4673-b5cf-fbcdf38853ad.xml, AtaPortReadRegisterBufferUchar, storage.ataportreadregisterbufferuchar, irb/AtaPortReadRegisterBufferUchar
+ms.keywords: AtaPortReadRegisterBufferUchar, atartns_5c57e652-3b37-4673-b5cf-fbcdf38853ad.xml, storage.ataportreadregisterbufferuchar, irb/AtaPortReadRegisterBufferUchar, AtaPortReadRegisterBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortReadRegisterBufferUchar
 product: Windows
 targetos: Windows
@@ -90,17 +90,25 @@ Specifies the number of bytes to read from the HBA.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadregisterbufferushort.md">AtaPortReadRegisterBufferUshort</a>
-
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
+
+
 <a href="..\irb\nf-irb-ataportreadregisterbufferulong.md">AtaPortReadRegisterBufferUlong</a>
+
+
+
+<a href="..\irb\nf-irb-ataportreadregisterbufferushort.md">AtaPortReadRegisterBufferUshort</a>
+
+
 
  
 

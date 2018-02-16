@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_VIDEO_OUTPUT_CAPABILITIES
-title: _DXGK_VIDEO_OUTPUT_CAPABILITIES
+title: "_DXGK_VIDEO_OUTPUT_CAPABILITIES"
 author: windows-driver-content
 description: The DXGK_VIDEO_OUTPUT_CAPABILITIES structure contains information about the capabilities of a video output on a display adapter.
 old-location: display\dxgk_video_output_capabilities.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a673bcea-1a56-48dc-9c63-67583e953571
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_VIDEO_OUTPUT_CAPABILITIES structure [Display Devices], dispmprt/PDXGK_VIDEO_OUTPUT_CAPABILITIES, PDXGK_VIDEO_OUTPUT_CAPABILITIES, *PDXGK_VIDEO_OUTPUT_CAPABILITIES, _DXGK_VIDEO_OUTPUT_CAPABILITIES, PDXGK_VIDEO_OUTPUT_CAPABILITIES structure pointer [Display Devices], display.dxgk_video_output_capabilities, dispmprt/DXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES, DmStructs_018a3f8f-c9bd-4000-b27d-b3dc3e46f14a.xml
+ms.keywords: DXGK_VIDEO_OUTPUT_CAPABILITIES structure [Display Devices], display.dxgk_video_output_capabilities, PDXGK_VIDEO_OUTPUT_CAPABILITIES, *PDXGK_VIDEO_OUTPUT_CAPABILITIES, PDXGK_VIDEO_OUTPUT_CAPABILITIES structure pointer [Display Devices], _DXGK_VIDEO_OUTPUT_CAPABILITIES, dispmprt/DXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES, dispmprt/PDXGK_VIDEO_OUTPUT_CAPABILITIES, DmStructs_018a3f8f-c9bd-4000-b27d-b3dc3e46f14a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_VIDEO_OUTPUT_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES
+req.typenames: "*PDXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES"
 ---
 
 # _DXGK_VIDEO_OUTPUT_CAPABILITIES structure
@@ -87,19 +87,27 @@ Indicates whether the video output supports standard definition TV (SDTV) modes.
 ## -remarks
 
 
+
 All child devices of a display adapter are onboard devices. Monitors and other external devices that connect to the display adapter are not considered child devices. Display adapters have two types of child devices: <b>TypeVideoOutput</b> and <b>TypeOther</b>. This structure applies only to child devices of type <b>TypeVideoOutput</b>.
 
 The <b>ChildCapabilities</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structure is a DXGK_CHILD_CAPABILITIES structure. The <b>Type.VideoOutput</b> member of a DXGK_CHILD_CAPABILITIES structure is a DXGK_VIDEO_OUTPUT_CAPABILITIES structure.
 
 
 
-## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_capabilities.md">DXGK_CHILD_CAPABILITIES</a>
+## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
+
+
 <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_child_capabilities.md">DXGK_CHILD_CAPABILITIES</a>
+
+
 
  
 

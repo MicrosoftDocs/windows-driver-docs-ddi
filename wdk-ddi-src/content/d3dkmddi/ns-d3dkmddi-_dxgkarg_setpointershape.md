@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETPOINTERSHAPE
-title: _DXGKARG_SETPOINTERSHAPE
+title: "_DXGKARG_SETPOINTERSHAPE"
 author: windows-driver-content
 description: The DXGKARG_SETPOINTERSHAPE structure describes the appearance of the mouse pointer and the location that it should be displayed in.
 old-location: display\dxgkarg_setpointershape.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fcb06620-8a30-4980-8733-35d7aabcc872
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_setpointershape, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml, DXGKARG_SETPOINTERSHAPE, d3dkmddi/DXGKARG_SETPOINTERSHAPE, DXGKARG_SETPOINTERSHAPE structure [Display Devices], _DXGKARG_SETPOINTERSHAPE
+ms.keywords: DXGKARG_SETPOINTERSHAPE, DXGKARG_SETPOINTERSHAPE structure [Display Devices], _DXGKARG_SETPOINTERSHAPE, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml, display.dxgkarg_setpointershape, d3dkmddi/DXGKARG_SETPOINTERSHAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_SETPOINTERSHAPE
 product: Windows
 targetos: Windows
@@ -102,6 +102,7 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 ### -field pPixels
 
 [in] A pointer to the start of the following bitmap depending on the bit-field flag that is set in the <b>Flags</b> member:
+
 <table>
 <tr>
 <th>Bit-field flag</th>
@@ -152,7 +153,8 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field XHot
@@ -168,7 +170,9 @@ typedef struct _DXGKARG_SETPOINTERSHAPE {
 ## -remarks
 
 
+
 The <b>XHot</b> and <b>YHot</b> members are used by display miniport drivers that are not associated with hardware, and these members can be ignored by drivers that control hardware. 
+
 
 
 
@@ -176,7 +180,11 @@ The <b>XHot</b> and <b>YHot</b> members are used by display miniport drivers tha
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_pointerflags.md">DXGK_POINTERFLAGS</a>
 
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DSM_Load_Balance_Policy
-title: _DSM_Load_Balance_Policy
+title: "_DSM_Load_Balance_Policy"
 author: windows-driver-content
 description: The DSM_Load_Balance_Policy structure is used to represent a load balance policy that is applied to a LUN.
 old-location: storage\dsm_load_balance_policy.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4338e496-99e8-47d2-ba97-ce661c9cb025
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _DSM_Load_Balance_Policy, structs-scsibus_f6e03429-a591-41f0-9890-e513479f8896.xml, mpiodisk/PDSM_Load_Balance_Policy, storage.dsm_load_balance_policy, DSM_Load_Balance_Policy, PDSM_Load_Balance_Policy structure pointer [Storage Devices], PDSM_Load_Balance_Policy, DSM_Load_Balance_Policy structure [Storage Devices], mpiodisk/DSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy
+ms.keywords: DSM_Load_Balance_Policy structure [Storage Devices], storage.dsm_load_balance_policy, mpiodisk/PDSM_Load_Balance_Policy, PDSM_Load_Balance_Policy structure pointer [Storage Devices], structs-scsibus_f6e03429-a591-41f0-9890-e513479f8896.xml, DSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy, mpiodisk/DSM_Load_Balance_Policy, PDSM_Load_Balance_Policy, _DSM_Load_Balance_Policy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiodisk.h
-apiname: 
+apiname:
 -	DSM_Load_Balance_Policy
 product: Windows
 targetos: Windows
-req.typenames: DSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy
+req.typenames: "*PDSM_Load_Balance_Policy, DSM_Load_Balance_Policy"
 ---
 
 # _DSM_Load_Balance_Policy structure

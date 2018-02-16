@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_BARCODE_INFO
-title: _WIA_BARCODE_INFO
+title: "_WIA_BARCODE_INFO"
 author: windows-driver-content
 description: The WIA_BARCODE_INFO structure stores information for one decoded barcode.
 old-location: image\wia_barcode_info.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2E659DDC-4012-4EA2-8E6C-033F2AB526B8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIA_BARCODE_INFO structure [Imaging Devices], WIA_BARCODE_INFO, image.wia_barcode_info, _WIA_BARCODE_INFO, wiadef/WIA_BARCODE_INFO
+ms.keywords: "_WIA_BARCODE_INFO, WIA_BARCODE_INFO, wiadef/WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], image.wia_barcode_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,22 +21,22 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiadef.h
-apiname: 
+apiname:
 -	WIA_BARCODE_INFO
 product: Windows
 targetos: Windows
@@ -121,12 +121,12 @@ The number of text characters in the character string containing the decoded bar
 Placeholder for the character string containing the decoded barcode text (double byte characters, NULL terminated).
 
 
-#### - Yoffset
-
-The vertical coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
-
-
 #### - Xoffset
 
 The horizontal coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
+
+
+#### - Yoffset
+
+The vertical coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
 

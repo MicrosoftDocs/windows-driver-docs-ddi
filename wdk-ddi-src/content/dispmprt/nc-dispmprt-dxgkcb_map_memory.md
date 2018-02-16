@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkCbMapMemory
 product: Windows
 targetos: Windows
@@ -106,16 +106,10 @@ A Boolean value that specifies whether the range is mapped into user-mode space 
 A <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
 
 
-### -param *VirtualAddress
-
-
-
-
-
-
-#### - VirtualAddress [out]
+### -param *VirtualAddress [out]
 
 A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
+
 <table>
 <tr>
 <td></td>
@@ -132,26 +126,33 @@ A pointer to a variable that receives the address of the beginning of the mapped
 <td>READ_PORT_X WRITE_PORT_X</td>
 <td>Not possible.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>DxgkCbMapMemory</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The PHYSICAL_ADDRESS data type is defined in <i>Ntdef.h</i>.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
 
  
 

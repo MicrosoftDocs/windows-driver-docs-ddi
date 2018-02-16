@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b2cf728-8859-4b7d-99f0-2ee7604ab480
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsLsnBlockOffset routine [Kernel-Mode Driver Architecture], ClfsLsnBlockOffset, Clfs_700ff9e8-40ea-4659-b4a5-99432fb1577c.xml, wdm/ClfsLsnBlockOffset, kernel.clfslsnblockoffset
+ms.keywords: kernel.clfslsnblockoffset, Clfs_700ff9e8-40ea-4659-b4a5-99432fb1577c.xml, ClfsLsnBlockOffset, wdm/ClfsLsnBlockOffset, ClfsLsnBlockOffset routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsLsnBlockOffset
 product: Windows
 targetos: Windows
@@ -77,11 +77,14 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure from w
 ## -returns
 
 
+
 <b>ClfsLsnBlockOffset</b> returns the block offset contained in the LSN that is supplied by the caller.
 
 
 
+
 ## -remarks
+
 
 
 The block offset returned by this routine is a multiple of the sector size on the stable storage medium. For example, if the sector size is 1024 bytes, the block offset is a multiple of 1024. 
@@ -90,13 +93,20 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfslsncreate.md">ClfsLsnCreate</a>
 
-<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
+
 
 <a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
+
+
 
  
 

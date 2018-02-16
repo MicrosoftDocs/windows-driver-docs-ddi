@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fbd6222c-6d54-4e2a-aa5b-8051f0838886
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSRESOLUTION, KSRESOLUTION, stream.ksresolution, ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, KSRESOLUTION structure [Streaming Media Devices], PKSRESOLUTION structure pointer [Streaming Media Devices], ks/PKSRESOLUTION, *PKSRESOLUTION, PKSRESOLUTION
+ms.keywords: ks/KSRESOLUTION, KSRESOLUTION, *PKSRESOLUTION, stream.ksresolution, PKSRESOLUTION, PKSRESOLUTION structure pointer [Streaming Media Devices], KSRESOLUTION structure [Streaming Media Devices], ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, ks/PKSRESOLUTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSRESOLUTION
 product: Windows
 targetos: Windows
-req.typenames: *PKSRESOLUTION, KSRESOLUTION
+req.typenames: KSRESOLUTION, *PKSRESOLUTION
 ---
 
 # KSRESOLUTION structure
@@ -81,13 +81,17 @@ Specifies the +/- notification error of the clock in 100-nanosecond units, where
 ## -remarks
 
 
+
 Vendors can supply a structure of type KSRESOLUTION in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a> property request.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
+
+
 
  
 

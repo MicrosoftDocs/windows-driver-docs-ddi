@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlarenamesequal.htm
 old-project: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], ntifs/FsRtlAreNamesEqual, ifsk.fsrtlarenamesequal
+ms.date: 2/7/2018
+ms.keywords: ntifs/FsRtlAreNamesEqual, FsRtlAreNamesEqual, ifsk.fsrtlarenamesequal, fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, FsRtlAreNamesEqual routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlAreNamesEqual
 product: Windows
 targetos: Windows
@@ -93,11 +93,14 @@ Optional pointer to uppercase character table to use for case-insensitive matchi
 ## -returns
 
 
+
 <b>FsRtlAreNamesEqual</b> returns <b>TRUE</b> if the two Unicode strings match, <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 The table pointed to by <i>UpcaseTable</i> is an array of uppercase Unicode characters, indexed by the Unicode character to be converted to uppercase. The array must contain entries for all characters that are legal in file names.
@@ -110,15 +113,20 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
 
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlAreNamesEqual routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlAreNamesEqual routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

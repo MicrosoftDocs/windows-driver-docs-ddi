@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_LOCKFLAGS
-title: _D3DDDI_LOCKFLAGS
+title: "_D3DDDI_LOCKFLAGS"
 author: windows-driver-content
 description: The D3DDDI_LOCKFLAGS structure identifies how to lock a resource.
 old-location: display\d3dddi_lockflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9bc6607-3222-45d0-a0d8-18c815a41771
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, D3DDDI_LOCKFLAGS structure [Display Devices], D3DDDI_LOCKFLAGS, display.d3dddi_lockflags
+ms.keywords: D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, D3DDDI_LOCKFLAGS structure [Display Devices], display.d3dddi_lockflags, _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_LOCKFLAGS
 product: Windows
 targetos: Windows
@@ -161,6 +161,8 @@ A member in the union that is contained in D3DDDI_LOCKFLAGS that can hold one 32
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
+
+
 
  
 

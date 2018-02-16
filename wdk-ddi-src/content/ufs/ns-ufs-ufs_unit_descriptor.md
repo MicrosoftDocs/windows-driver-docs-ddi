@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5D76C266-875A-40AC-9B26-F17978971783
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.ufs_unit_descriptor, ufs/UFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], *PUFS_UNIT_DESCRIPTOR, ufs/PUFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices], PUFS_UNIT_DESCRIPTOR
+ms.keywords: PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], storage.ufs_unit_descriptor, ufs/UFS_UNIT_DESCRIPTOR, ufs/PUFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices], UFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ufs.h
-apiname: 
+apiname:
 -	UFS_UNIT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: UFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR
+req.typenames: "*PUFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -112,6 +112,7 @@ Specifies if the logic unit number (LUN) is enabled. If <b>bLUEnable</b> is equa
 ### -field bLUWriteProtect
 
 Specifies if the logical unit is write-protected. Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -129,7 +130,8 @@ Specifies if the logical unit is write-protected. Contains one of the following 
 <td>0x02 </td>
 <td>The logical unit is permanently write protected.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bLUQueueDepth
@@ -140,6 +142,7 @@ Specifies the logical unit queue depth. Can be any value from 0x00 to 0xff.
 ### -field bPSASensitive
 
 Specifies if the logical unit is sensitive to soldering. Contains one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -153,7 +156,8 @@ Specifies if the logical unit is sensitive to soldering. Contains one of the fol
 <td>0x01</td>
 <td>The logical unit is sensitive to soldering.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field bMemoryType
@@ -209,15 +213,21 @@ Specifies the boot LUN id.
 ## -remarks
 
 
+
 <b>bPSASensitive</b> and<b> dEraseBlockSize</b> are updated automatically after device configuration.
+
 
 
 
 ## -see-also
 
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+
+
 <a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
 
  
 

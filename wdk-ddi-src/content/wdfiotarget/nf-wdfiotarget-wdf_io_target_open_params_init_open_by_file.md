@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6C8CA2A8-D39E-4524-A909-102D8310AC72
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, wdf.wdf_io_target_open_params_init_open_by_file, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function
+ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, wdf.wdf_io_target_open_params_init_open_by_file, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfiotarget.h
-apiname: 
+apiname:
 -	WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE
+req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -84,11 +84,14 @@ A value for the <b>FileName</b> member of the <a href="..\wdfiotarget\ns-wdfiota
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</b> function zeros the specified <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure and sets its <b>Size</b> member. It also sets the structure's <b>Type</b> member to <b>WdfIoTargetOpenLocalTargetByFile</b> and sets the <b>FileName</b> member if the driver supplies a filename.
@@ -96,12 +99,68 @@ The <b>WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</b> function zeros the specif
 A driver can explicitly close the I/O target by calling <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetclose.md">WdfIoTargetClose</a>. If the driver does not explicitly close the target, the framework closes the target automatically when the device is removed (an I/O target is by default parented to the device).
 
 
+#### Examples
+
+The following code example shows how a UMDF driver can open a local target with a file object as described in <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_open_type.md">WDF_IO_TARGET_OPEN_TYPE</a>:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_OBJECT_ATTRIBUTES  ioTargetAttrib;
+WDFIOTARGET  ioTarget;
+WDF_IO_TARGET_OPEN_PARAMS  openParams;
+
+//
+// Create target
+//
+WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;ioTargetAttrib, TARGET_DEVICE_INFO);
+status = WdfIoTargetCreate(device, &amp;ioTargetAttrib, &amp;ioTarget);
+if (!NT_SUCCESS(status)) {
+    return status;
+}
+
+//
+// Open target
+//
+WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE(&amp;openParams, NULL);
+status = WdfIoTargetOpen(ioTarget, &amp;openParams);
+if (!NT_SUCCESS(status)) {
+    WdfObjectDelete(ioTarget);
+    return status;
+}
+
+//
+// create a request
+//
+
+
+//
+// Format the request for the above target
+//
+
+
+//
+// Send request to above target
+//
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_open_type.md">WDF_IO_TARGET_OPEN_TYPE</a>
+
+
+
 <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
 
-<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_open_type.md">WDF_IO_TARGET_OPEN_TYPE</a>
+
 
  
 

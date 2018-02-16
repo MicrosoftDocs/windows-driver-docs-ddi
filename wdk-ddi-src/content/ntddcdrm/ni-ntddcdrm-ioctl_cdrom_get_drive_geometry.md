@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	IOCTL_CDROM_GET_DRIVE_GEOMETRY
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,7 +112,11 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_drive_geometry_ex.md">IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX</a>
 
+
+
 <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77dba83d-cc25-4609-905c-7a036cb7ced9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debugconnect, dbgeng/DebugConnect, ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect function [Windows Debugging], DebugConnect
+ms.keywords: DebugConnect function [Windows Debugging], ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, dbgeng/DebugConnect, debugger.debugconnect, DebugConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	DebugConnect
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # DebugConnect function
@@ -87,7 +87,9 @@ Receives an interface pointer for the new client.  The type of this interface is
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,22 +106,30 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longer needed, its <b>IUnknown::Release</b> method should be called.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
+
+
+
 Process Server and Smart Client
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
+
 
  
 

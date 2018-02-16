@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9cad7d89-bcaa-47d6-b3e5-51653cbef318
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keremovedevicequeue, KeRemoveDeviceQueue routine [Kernel-Mode Driver Architecture], wdm/KeRemoveDeviceQueue, KeRemoveDeviceQueue, k105_3e26b41e-7e9c-4fc9-8496-f107f3450dd7.xml
+ms.keywords: KeRemoveDeviceQueue, k105_3e26b41e-7e9c-4fc9-8496-f107f3450dd7.xml, KeRemoveDeviceQueue routine [Kernel-Mode Driver Architecture], wdm/KeRemoveDeviceQueue, kernel.keremovedevicequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRemoveDeviceQueue
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to an initialized device queue object for which the caller provides the 
 ## -returns
 
 
+
 If the device queue is empty but is set to a busy state, <b>KeRemoveDeviceQueue</b> returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 The specified device queue spin lock is acquired and the state of the device queue is checked. If the device queue is set to a busy state and an IRP is queued, this routine dequeues the entry and returns a pointer to the IRP. A call to <b>KeRemoveDeviceQueue</b> when the device queue object is set to a busy state but no IRPs are queued causes a state change to not-busy. The specified device queue's spin lock is released.
@@ -89,17 +92,28 @@ It is an error to call <b>KeRemoveDeviceQueue</b> when the device queue object i
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
 
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
+
+<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
+
 
 <a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
 
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+
+
+<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
+
+
 
  
 

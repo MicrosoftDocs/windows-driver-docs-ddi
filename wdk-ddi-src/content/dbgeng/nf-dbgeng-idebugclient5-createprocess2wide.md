@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b032ca68-5ac5-4a19-84fe-92058905a1d7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5::CreateProcess2Wide, CreateProcess2Wide method [Windows Debugging], CreateProcess2Wide, debugger.createprocess2wide, IDebugClient5 interface [Windows Debugging], CreateProcess2Wide method, IDebugClient5, CreateProcess2Wide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::CreateProcess2Wide
+ms.keywords: CreateProcess2Wide method [Windows Debugging], dbgeng/IDebugClient5::CreateProcess2Wide, IDebugClient5 interface [Windows Debugging], CreateProcess2Wide method, debugger.createprocess2wide, CreateProcess2Wide method [Windows Debugging], IDebugClient5 interface, IDebugClient5, CreateProcess2Wide, IDebugClient5::CreateProcess2Wide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.CreateProcess2Wide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::CreateProcess2Wide method
@@ -100,6 +100,7 @@ Specifies the starting directory for the process.  If <i>InitialDirectory</i> is
 ### -param Environment [in, optional]
 
 Specifies an environment block for the new process.  An environment block consists of a null-terminated block of null-terminated strings.  Each string is of the form:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -109,7 +110,8 @@ Specifies an environment block for the new process.  An environment block consis
 <pre>name=value</pre>
 </td>
 </tr>
-</table></span></div>Note that the last two characters of the environment block are both <b>NULL</b>: one to terminate the string and one to terminate the block.
+</table></span></div>
+Note that the last two characters of the environment block are both <b>NULL</b>: one to terminate the string and one to terminate the block.
 
 If <i>Environment</i> is set to <b>NULL</b>, the new process inherits the environment block of the process server.  If the DEBUG_CREATE_PROCESS_THROUGH_RTL flag is set in <i>OptionsBuffer</i>, then <i>Environment</i> must be <b>NULL</b>.
 
@@ -117,7 +119,9 @@ If <i>Environment</i> is set to <b>NULL</b>, the new process inherits the enviro
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +138,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is available only for live user-mode debugging.
@@ -149,29 +156,52 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+
+
 
  
 

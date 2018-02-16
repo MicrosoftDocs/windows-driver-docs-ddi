@@ -1,13 +1,13 @@
 ---
 UID: NC:compstui._CPSUICALLBACK
-title: _CPSUICALLBACK
+title: "_CPSUICALLBACK"
 author: windows-driver-content
 description: The _CPSUICALLBACK function type is used by CPSUI applications (including printer interface DLLs) for defining a callback function intended for use as a CPSUI message handler.
 old-location: print\_cpsuicallback.htm
 old-project: print
 ms.assetid: 7d0f1609-5a24-4d38-9e9e-0c8e2de679a2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print._cpsuicallback, _CPSUICALLBACK callback function [Print Devices], _CPSUICALLBACK, compstui/_CPSUICALLBACK, cpsuifnc_a5a532ac-20be-43d5-a9fb-40b918f44d51.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	_CPSUICALLBACK
 product: Windows
 targetos: Windows
-req.typenames: *PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX
+req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
 ---
 
 # _CPSUICALLBACK callback
@@ -74,6 +74,8 @@ LONG _CPSUICALLBACK(
 
 
 
+
+
 #### - pComPropSheetUICBParam
 
 CPSUI-supplied pointer to a <a href="..\compstui\ns-compstui-_cpsuicbparam.md">CPSUICBPARAM</a> structure.
@@ -82,7 +84,9 @@ CPSUI-supplied pointer to a <a href="..\compstui\ns-compstui-_cpsuicbparam.md">C
 ## -returns
 
 
+
 A _CPSUICALLBACK-typed callback function must return one of the values listed in the following table. Each value indicates an action that CPSUI should perform.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,11 +147,14 @@ The callback function has set the OPTIF_CHANGED flag in an <a href="..\compstui\
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Callback functions specified using the _CPSUICALLBACK function type are supplied by applications that use <a href="https://msdn.microsoft.com/7af3435a-19e0-40a1-9f94-319d9d323856">CPSUI</a> to manage property sheet pages. If one of these callback functions is associated with a property sheet page, CPSUI calls it when user activity (such as changing the page's control focus, modifying option values, or clicking on <b>OK</b>) is detected.
@@ -159,5 +166,6 @@ Additionally, callback functions can be assigned to extended push buttons throug
 When one of these callback functions is called, it receives a pointer to a <a href="..\compstui\ns-compstui-_cpsuicbparam.md">CPSUICBPARAM</a> structure. This structure describes the current option settings for the page and indicates the user event that caused the function to be called. The callback function is responsible for validating and processing the settings. It should display a dialog box if a setting (or a combination of settings) is invalid. The function's return value indicates to CPSUI whether the page needs to be redisplayed or reinitialized.
 
 Callback functions specified with this function type cannot be used if the <b>DlgProc</b> member of the <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structure specifies an application-supplied dialog box procedure. This is because _CPSUICALLBACK-typed callbacks are called from CPSUI's dialog box procedures, which are not used if the application supplies its own procedures.
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_GET_MEDIA_PARAMETERS
-title: _TAPE_GET_MEDIA_PARAMETERS
+title: "_TAPE_GET_MEDIA_PARAMETERS"
 author: windows-driver-content
 description: The TAPE_GET_MEDIA_PARAMETERS structure is used in conjunction with the TapeMiniGetMediaParameters routine to retrieve tape media parameters.
 old-location: storage\tape_get_media_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3e12c431-4f6d-4d07-be52-e4809e8bc798
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS structure [Storage Devices], ntddtape/TAPE_GET_MEDIA_PARAMETERS, _TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS, storage.tape_get_media_parameters, structs-tape_19ce668d-65dd-40d6-a668-d34e540cc686.xml, ntddtape/PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Storage Devices]
+ms.keywords: ntddtape/TAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Storage Devices], _TAPE_GET_MEDIA_PARAMETERS, ntddtape/PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS, structs-tape_19ce668d-65dd-40d6-a668-d34e540cc686.xml, storage.tape_get_media_parameters, TAPE_GET_MEDIA_PARAMETERS structure [Storage Devices], *PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddtape.h
-apiname: 
+apiname:
 -	TAPE_GET_MEDIA_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PTAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS
+req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
 ---
 
 # _TAPE_GET_MEDIA_PARAMETERS structure
@@ -99,6 +99,8 @@ Is set to <b>TRUE</b> if the tape is write-protected.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>
+
+
 
  
 

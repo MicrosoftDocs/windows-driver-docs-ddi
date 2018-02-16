@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddpar.h
-apiname: 
+apiname:
 -	IOCTL_PAR_QUERY_LOCATION
 product: Windows
 targetos: Windows
-req.typenames: *POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION
+req.typenames: "*POFFLOAD_SECURITY_ASSOCIATION, OFFLOAD_SECURITY_ASSOCIATION"
 ---
 
 # IOCTL_PAR_QUERY_LOCATION IOCTL
@@ -94,14 +94,18 @@ The client sets the <b>Parameters.DeviceIoControl.OutputBufferLength </b>member 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -122,6 +126,8 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than siz
 ## -see-also
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
+
+
 
  
 

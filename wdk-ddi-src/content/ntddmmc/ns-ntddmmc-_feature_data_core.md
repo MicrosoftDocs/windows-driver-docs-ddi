@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CORE
-title: _FEATURE_DATA_CORE
+title: "_FEATURE_DATA_CORE"
 author: windows-driver-content
 description: The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
 old-location: storage\feature_data_core.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd8e989a-1030-4f37-bb39-38974764ccb2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], PFEATURE_DATA_CORE structure pointer [Storage Devices], storage.feature_data_core, PFEATURE_DATA_CORE, ntddmmc/PFEATURE_DATA_CORE, *PFEATURE_DATA_CORE, _FEATURE_DATA_CORE, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml, ntddmmc/FEATURE_DATA_CORE
+ms.keywords: ntddmmc/PFEATURE_DATA_CORE, PFEATURE_DATA_CORE structure pointer [Storage Devices], storage.feature_data_core, _FEATURE_DATA_CORE, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml, *PFEATURE_DATA_CORE, FEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], PFEATURE_DATA_CORE, ntddmmc/FEATURE_DATA_CORE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddmmc.h
-apiname: 
+apiname:
 -	FEATURE_DATA_CORE
 product: Windows
 targetos: Windows
-req.typenames: *PFEATURE_DATA_CORE, FEATURE_DATA_CORE
+req.typenames: "*PFEATURE_DATA_CORE, FEATURE_DATA_CORE"
 ---
 
 # _FEATURE_DATA_CORE structure
@@ -85,31 +85,33 @@ Must be set to the current communication path between initiator and device, as d
 ### -field DeviceBusyEvent
 
 
-
 ### -field INQUIRY2
-
 
 
 ### -field Reserved1
 
 
-
 ### -field Reserved2
 
 
-
 ## -remarks
+
 
 
 Indicates the feature named "Core" by the <i>MMC-3 </i>specification. This feature encompasses the basic functionality which is mandatory for all devices that support the <i>MMC-3</i> standard. See the <i>MMC-3</i> specification for a description of the capabilities included in the Core feature. 
 
 
 
+
 ## -see-also
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
 
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
 
  
 

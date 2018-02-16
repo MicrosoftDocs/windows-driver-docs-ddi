@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._GetPresharedKeyForId_OUT
-title: _GetPresharedKeyForId_OUT
+title: "_GetPresharedKeyForId_OUT"
 author: windows-driver-content
 description: The GetPresharedKeyForId_OUT structure holds the output data for the GetPresharedKeyForId method.
 old-location: storage\getpresharedkeyforid_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 21d6378e-b93b-4e97-842a-a3157e081f31
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/GetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT structure [Storage Devices], GetPresharedKeyForId_OUT, _GetPresharedKeyForId_OUT, storage.getpresharedkeyforid_out, iscsiop/PGetPresharedKeyForId_OUT, structs-iSCSI_6807c82b-45b4-44c7-a1e0-a99607c1cd4f.xml, PGetPresharedKeyForId_OUT structure pointer [Storage Devices], *PGetPresharedKeyForId_OUT, PGetPresharedKeyForId_OUT
+ms.keywords: storage.getpresharedkeyforid_out, GetPresharedKeyForId_OUT structure [Storage Devices], iscsiop/PGetPresharedKeyForId_OUT, PGetPresharedKeyForId_OUT, PGetPresharedKeyForId_OUT structure pointer [Storage Devices], *PGetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT, iscsiop/GetPresharedKeyForId_OUT, structs-iSCSI_6807c82b-45b4-44c7-a1e0-a99607c1cd4f.xml, _GetPresharedKeyForId_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	GetPresharedKeyForId_OUT
 product: Windows
 targetos: Windows
-req.typenames: GetPresharedKeyForId_OUT, *PGetPresharedKeyForId_OUT
+req.typenames: "*PGetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT"
 ---
 
 # _GetPresharedKeyForId_OUT structure
@@ -81,21 +81,33 @@ A bitwise OR of flags that indicate the security requirements of a target.  For 
 ## -remarks
 
 
+
 You must initiate this method if the initiator supports IKE.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
 
-<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_in.md">GetPresharedKeyForId_IN</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_in.md">GetPresharedKeyForId_IN</a>
+
+
 
  
 

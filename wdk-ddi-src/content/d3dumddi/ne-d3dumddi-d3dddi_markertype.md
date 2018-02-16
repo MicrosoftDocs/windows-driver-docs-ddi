@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 55A48F87-B96C-42E7-B9B4-3C829097CAE9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_MARKERTYPE enumeration [Display Devices], d3dumddi/D3DDDIMT_PROFILE, display.d3dddi_markertype, D3DDDIMT_NONE, d3dumddi/D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE, d3dumddi/D3DDDIMT_NONE, D3DDDIMT_PROFILE
+ms.keywords: D3DDDIMT_NONE, d3dumddi/D3DDDI_MARKERTYPE, D3DDDIMT_PROFILE, D3DDDI_MARKERTYPE, d3dumddi/D3DDDIMT_NONE, d3dumddi/D3DDDIMT_PROFILE, D3DDDI_MARKERTYPE enumeration [Display Devices], display.d3dddi_markertype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_MARKERTYPE
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ See Remarks of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDICERTIFICATEINFO
-title: _DDICERTIFICATEINFO
+title: "_DDICERTIFICATEINFO"
 author: windows-driver-content
 description: The DDICERTIFICATEINFO structure describes information about the certificate that the driver uses.
 old-location: display\ddicertificateinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 205936c3-fb5a-48e7-8f13-328563c2f0d2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.ddicertificateinfo, d3dumddi/DDICERTIFICATEINFO, D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, _DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], DDICERTIFICATEINFO
+ms.keywords: DDICERTIFICATEINFO structure [Display Devices], d3dumddi/DDICERTIFICATEINFO, _DDICERTIFICATEINFO, display.ddicertificateinfo, DDICERTIFICATEINFO, D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DDICERTIFICATEINFO
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ typedef struct _DDICERTIFICATEINFO {
 ## -remarks
 
 
+
 The runtime specifies a pointer to a DDICERTIFICATEINFO structure in the <b>pInfo</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure--along with the D3DDDICAPS_GETCERTIFICATE value in the <b>Type</b> member of D3DDDIARG_GETCAPS--in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function to retrieve the certificate. The runtime also supplies a buffer in the <b>pData</b> member of D3DDDIARG_GETCAPS to hold the certificate. The runtime receives information about the size of the buffer when the runtime calls the driver's <b>GetCaps</b> with the D3DDDICAPS_GETCERTIFICATESIZE value set in the <b>Type</b> member of D3DDDIARG_GETCAPS. The driver returns a pointer to the certificate in the supplied buffer. 
+
 
 
 
@@ -95,11 +97,19 @@ The runtime specifies a pointer to a DDICERTIFICATEINFO structure in the <b>pInf
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
 
 <a href="..\d3dumddi\ne-d3dumddi-_ddiauthenticatedchanneltype.md">DDIAUTHENTICATEDCHANNELTYPE</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
+
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_certificatetype.md">D3DDDI_CERTIFICATETYPE</a>
+
+
 
  
 

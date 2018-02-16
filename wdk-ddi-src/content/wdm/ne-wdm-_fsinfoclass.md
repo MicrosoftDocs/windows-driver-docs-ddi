@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._FSINFOCLASS
-title: _FSINFOCLASS
+title: "_FSINFOCLASS"
 author: windows-driver-content
 description: The FS_INFORMATION_CLASS enumeration contains the information class constants that specify what type of information structure is present for a set or a query operation.
 old-location: ifsk\fs_information_class.htm
 old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: wdm/FileFsVolumeInformation, FS_INFORMATION_CLASS, FileFsDriverPathInformation, FileFsDeviceInformation, wdm/FileFsFullSizeInformation, wdm/FileFsDeviceInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsControlInformation, ifsk.fs_information_class, FileFsSizeInformation, wdm/FileFsDriverPathInformation, wdm/FS_INFORMATION_CLASS, wdm/FileFsAttributeInformation, FileFsVolumeFlagsInformation, FileFsSectorSizeInformation, *PFS_INFORMATION_CLASS, wdm/FileFsObjectIdInformation, wdm/FileFsSizeInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsAttributeInformation, _FSINFOCLASS, FileFsFullSizeInformation, FileFsControlInformation, wdm/FileFsLabelInformation, FileFsLabelInformation, wdm/FileFsVolumeFlagsInformation, FileFsVolumeInformation, FileFsObjectIdInformation
+ms.date: 2/7/2018
+ms.keywords: FileFsObjectIdInformation, wdm/FileFsControlInformation, wdm/FileFsObjectIdInformation, *PFS_INFORMATION_CLASS, FileFsVolumeFlagsInformation, wdm/FileFsVolumeFlagsInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], wdm/FileFsDriverPathInformation, wdm/FileFsSizeInformation, FS_INFORMATION_CLASS, wdm/FileFsSectorSizeInformation, wdm/FileFsLabelInformation, FileFsVolumeInformation, FileFsSectorSizeInformation, FileFsSizeInformation, wdm/FileFsFullSizeInformation, FileFsControlInformation, FileFsAttributeInformation, wdm/FileFsVolumeInformation, FileFsLabelInformation, _FSINFOCLASS, ifsk.fs_information_class, FileFsFullSizeInformation, wdm/FileFsAttributeInformation, wdm/FileFsDeviceInformation, FileFsDriverPathInformation, FileFsDeviceInformation, wdm/FS_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	FS_INFORMATION_CLASS
 product: Windows
 targetos: Windows
@@ -138,9 +138,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS
 ### -field FileFsDataCopyInformation
 
 
-
 ### -field FileFsMetadataSizeInformation
-
 
 
 ### -field FileFsMaximumInformation

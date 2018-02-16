@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosValueStatisticsEntry
-title: _PosValueStatisticsEntry
+title: "_PosValueStatisticsEntry"
 author: windows-driver-content
 description: This structure contains the value of a statistic.
 old-location: pos\posvaluestatisticsentry.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry, PosValueStatisticsEntry, PosValueStatisticsEntry structure
+ms.keywords: "_PosValueStatisticsEntry, PosValueStatisticsEntry structure, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry, PosValueStatisticsEntry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosValueStatisticsEntry
 product: Windows
 targetos: Windows

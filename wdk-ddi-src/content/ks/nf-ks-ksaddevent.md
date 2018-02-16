@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 75c909b1-8eb5-4887-b528-d3ac465ee12b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent, KsAddEvent function [Streaming Media Devices], KsAddEvent
+ms.keywords: stream.ksaddevent, KsAddEvent function [Streaming Media Devices], avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, KsAddEvent, ks/KsAddEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAddEvent
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ A pointer to an <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> struct
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Minidrivers typically do not call this routine directly; instead, they use <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a> or <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>. 
@@ -95,17 +98,28 @@ After events have been added to the event list, these events can be generated as
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
 
+
+
 <a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+
+
 
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+
+
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
 
  
 

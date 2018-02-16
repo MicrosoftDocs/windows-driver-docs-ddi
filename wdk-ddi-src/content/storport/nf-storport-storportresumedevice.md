@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81b979a8-87bb-48f3-b44a-bac9286648fa
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml, StorPortResumeDevice routine [Storage Devices], storage.storportresumedevice, storport/StorPortResumeDevice, StorPortResumeDevice
+ms.keywords: storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml, storage.storportresumedevice, StorPortResumeDevice routine [Storage Devices], StorPortResumeDevice, storport/StorPortResumeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortResumeDevice
 product: Windows
 targetos: Windows
@@ -95,13 +95,17 @@ Identifies the logical unit number of the target device.
 ## -returns
 
 
+
 <b>StorPortResumeDevice</b> returns <b>TRUE</b> if the miniport driver succeeded in resuming the paused device, <b>FALSE</b> if not. 
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportpausedevice.md">StorPortPauseDevice</a>
+
+
 
  
 

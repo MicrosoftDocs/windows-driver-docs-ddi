@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f1875578-33c1-4d9e-865b-f1f5391f4aca
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORSTRING, wdf.wdfusbtargetdeviceformatrequestforstring, kmdf.wdfusbtargetdeviceformatrequestforstring, DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, wdfusb/WdfUsbTargetDeviceFormatRequestForString, WdfUsbTargetDeviceFormatRequestForString, WdfUsbTargetDeviceFormatRequestForString method
+ms.keywords: kmdf.wdfusbtargetdeviceformatrequestforstring, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORSTRING, WdfUsbTargetDeviceFormatRequestForString method, wdf.wdfusbtargetdeviceformatrequestforstring, DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, wdfusb/WdfUsbTargetDeviceFormatRequestForString, WdfUsbTargetDeviceFormatRequestForString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbTargetDeviceFormatRequestForString
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -111,7 +111,9 @@ A language identifier. The string will be retrieved for the language that this i
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceFormatRequestForString</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,7 +152,8 @@ The offset that <i>Offset</i> specifies was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -160,7 +163,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 After <b>WdfUsbTargetDeviceFormatRequestForString</b> returns, the driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> to send the request. After <b>WdfRequestSend</b> returns, the driver can pass the <i>Memory</i> handle to <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a> to obtain a pointer to the memory buffer. The buffer will contain a <a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a> structure that describes the string descriptor.
@@ -168,28 +173,120 @@ After <b>WdfUsbTargetDeviceFormatRequestForString</b> returns, the driver must c
 For more information about the <b>WdfUsbTargetDeviceFormatRequestForString</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example creates a request object and a memory object, and it passes the object handles to <b>WdfUsbTargetDeviceFormatRequestForString</b>. Then, the example sets a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function for the request and sends the request to an I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS status;
+PDEVICE_CONTEXT  deviceContext = GetDeviceContext(device);
+WDFREQUEST  request;
+WDFMEMORY  memHandle;
+WDF_OBJECT_ATTRIBUTES  attributes;
+
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+
+status = WdfRequestCreate(
+                          &amp;attributes,
+                          WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
+                          &amp;request
+                          );
+
+if (!NT_SUCCESS(status)){
+    return status;
+}
+status = WdfMemoryCreate(
+                         WDF_NO_OBJECT_ATTRIBUTES,
+                         NonPagedPool,
+                         0,
+                         STR_DESC_STRING_SIZE,
+                         &amp;memHandle,
+                         NULL
+                         );
+if (!NT_SUCCESS(status)){
+    WdfObjectDelete(request);
+    return status;
+}
+status = WdfUsbTargetDeviceFormatRequestForString(
+                         deviceContext-&gt;UsbTargetDevice,
+                         request,
+                         memHandle,
+                         NULL,
+                         deviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                         0x0409
+                         );
+if (NT_SUCCESS(status)) {
+    WdfRequestSetCompletionRoutine(
+                                   request,
+                                   MyCompletionRoutine,
+                                   NULL
+                                   );
+
+    if (WdfRequestSend(
+                       request,
+                       WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
+                       NULL
+                       )) {
+        status = STATUS_PENDING;
+    }
+}
+else {
+    WdfObjectDelete(memHandle);
+    WdfObjectDelete(request);
+    return status;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
 
 <a href="..\usbspec\ns-usbspec-_usb_string_descriptor.md">USB_STRING_DESCRIPTOR</a>
 
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceallocandquerystring.md">WdfUsbTargetDeviceAllocAndQueryString</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
 
  
 

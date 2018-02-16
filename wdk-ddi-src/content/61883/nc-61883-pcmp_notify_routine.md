@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CmpNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
+req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
 ---
 
 # PCMP_NOTIFY_ROUTINE callback
@@ -80,6 +80,8 @@ Specifies the notification information.
 ## -returns
 
 
+
 This callback does not return a value.
+
 
 

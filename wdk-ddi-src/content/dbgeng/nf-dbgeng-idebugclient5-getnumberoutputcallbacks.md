@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20bc6141-8c4a-4a98-acb3-506840893db6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient_ce6e107b-a356-434a-81d7-eccb8495289d.xml, GetNumberOutputCallbacks method [Windows Debugging], IDebugClient5::GetNumberOutputCallbacks, IDebugClient5 interface [Windows Debugging], GetNumberOutputCallbacks method, dbgeng/IDebugClient5::GetNumberOutputCallbacks, GetNumberOutputCallbacks method [Windows Debugging], IDebugClient5 interface, debugger.getnumberoutputcallbacks, IDebugClient5, GetNumberOutputCallbacks
+ms.keywords: debugger.getnumberoutputcallbacks, IDebugClient5 interface [Windows Debugging], GetNumberOutputCallbacks method, IDebugClient5, IDebugClient5::GetNumberOutputCallbacks, dbgeng/IDebugClient5::GetNumberOutputCallbacks, GetNumberOutputCallbacks, GetNumberOutputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient_ce6e107b-a356-434a-81d7-eccb8495289d.xml, GetNumberOutputCallbacks method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.GetNumberOutputCallbacks
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetNumberOutputCallbacks method
@@ -75,7 +75,9 @@ Receives the number of output callbacks that have been registered.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Each client can have at most one output callback registered with it.
@@ -105,19 +110,32 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_EXIT_THREAD
-title: _DEBUG_LAST_EVENT_INFO_EXIT_THREAD
+title: "_DEBUG_LAST_EVENT_INFO_EXIT_THREAD"
 author: windows-driver-content
 description: Describes the exit thread of the last event.
 old-location: debugger\debug_last_event_info_exit_thread.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1C7E79F2-120A-424B-B4E3-EF202FA90C2A
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_LAST_EVENT_INFO_EXIT_THREAD, dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure [Windows Debugging], dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, _DEBUG_LAST_EVENT_INFO_EXIT_THREAD, PDEBUG_LAST_EVENT_INFO_EXIT_THREAD structure pointer [Windows Debugging], debugger.debug_last_event_info_exit_thread
+ms.keywords: dbgeng/PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure [Windows Debugging], DEBUG_LAST_EVENT_INFO_EXIT_THREAD, dbgeng/DEBUG_LAST_EVENT_INFO_EXIT_THREAD, PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, PDEBUG_LAST_EVENT_INFO_EXIT_THREAD structure pointer [Windows Debugging], debugger.debug_last_event_info_exit_thread, _DEBUG_LAST_EVENT_INFO_EXIT_THREAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_LAST_EVENT_INFO_EXIT_THREAD
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD
+req.typenames: "*PDEBUG_LAST_EVENT_INFO_EXIT_THREAD, DEBUG_LAST_EVENT_INFO_EXIT_THREAD"
 ---
 
 # _DEBUG_LAST_EVENT_INFO_EXIT_THREAD structure

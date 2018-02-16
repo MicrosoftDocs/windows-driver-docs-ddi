@@ -7,8 +7,8 @@ old-location: ifsk\rxmakelatedeviceavailable.htm
 old-project: ifsk
 ms.assetid: 0818907f-3346-42a2-b123-3298ea8f9a1d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rxmakelatedeviceavailable, RxMakeLateDeviceAvailable, rxref_7586550f-6abe-4e18-8154-09936c3f0488.xml, RxMakeLateDeviceAvailable routine [Installable File System Drivers], mrx/RxMakeLateDeviceAvailable
+ms.date: 2/7/2018
+ms.keywords: rxref_7586550f-6abe-4e18-8154-09936c3f0488.xml, mrx/RxMakeLateDeviceAvailable, RxMakeLateDeviceAvailable, RxMakeLateDeviceAvailable routine [Installable File System Drivers], ifsk.rxmakelatedeviceavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mrx.h
-apiname: 
+apiname:
 -	RxMakeLateDeviceAvailable
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ A pointer to the where the created device object is to be stored.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>RxMakeLateDeviceAvailable</b> clears the DO_DEVICE_INITIALIZING bit in the <b>Flags</b> member of the device object. 
+
 
 

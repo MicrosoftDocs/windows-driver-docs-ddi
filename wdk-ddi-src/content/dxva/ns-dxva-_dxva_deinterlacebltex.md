@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceBltEx
-title: _DXVA_DeinterlaceBltEx
+title: "_DXVA_DeinterlaceBltEx"
 author: windows-driver-content
 description: The DXVA_DeinterlaceBltEx structure describes parameters for deinterlace or frame-rate conversion, for combining the deinterlaced or frame-rate-converted video with any supplied video substreams, and for writing the combined output to a destination surface.
 old-location: display\dxva_deinterlacebltex.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbc32410-119f-4172-8d2a-7d41e8b64ae4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_4340e54b-79b9-44a1-9d29-37f6aae9fe94.xml, display.dxva_deinterlacebltex, _DXVA_DeinterlaceBltEx, dxva/DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx structure [Display Devices]
+ms.keywords: DXVA_DeinterlaceBltEx, dxva/DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx structure [Display Devices], display.dxva_deinterlacebltex, _DXVA_DeinterlaceBltEx, dxvaref_4340e54b-79b9-44a1-9d29-37f6aae9fe94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_DeinterlaceBltEx
 product: Windows
 targetos: Windows
@@ -125,21 +125,31 @@ Specifies a collection of flags that indicate changes in the current destination
 ## -remarks
 
 
+
 The render sends the DXVA_DeinterlaceBltEx structure to the accelerator to specify the deinterlace or frame-rate conversion parameters for bit-block transfers. 
 
 When a single frame is being created from one field in a sample, as defined in the <a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a> structure, <b>rtTarget</b> should be the starting display time for that field. If you have two fields in one sample and want to deinterlace both, <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a> will be called twice. The first time <i>DeinterlaceBltEx</i> is called, <b>rtTarget</b> will be the starting display time. The second time <i>DeinterlaceBltEx</i> is called, <b>rtTarget</b> will be the midpoint between the starting display time and the ending display time. In other words, for the first call, <b>rtTarget</b> = <b>rtStart</b>. For the second call, <b>rtTarget</b> = (<b>rtStart</b> + <b>rtEnd</b>) / 2.
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
+
+
 
 <a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
 
-<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
+
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
-<a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
+
+
+<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
+
+
 
  
 

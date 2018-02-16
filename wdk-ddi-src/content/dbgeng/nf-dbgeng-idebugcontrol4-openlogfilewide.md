@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1e69812e-077e-476f-a253-f0c39575eb32
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::OpenLogFileWide, OpenLogFileWide method [Windows Debugging], IDebugControl4 interface, debugger.openlogfilewide, IDebugControl4::OpenLogFileWide, IDebugControl4, OpenLogFileWide, OpenLogFileWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], OpenLogFileWide method
+ms.keywords: OpenLogFileWide method [Windows Debugging], debugger.openlogfilewide, dbgeng/IDebugControl4::OpenLogFileWide, OpenLogFileWide, IDebugControl4 interface [Windows Debugging], OpenLogFileWide method, OpenLogFileWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::OpenLogFileWide, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.OpenLogFileWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::OpenLogFileWide method
@@ -81,7 +81,9 @@ Specifies whether or not to append log messages to an existing log file.  If <b>
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,11 +100,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>OpenLogFile</b> and <b>OpenLogFileWide</b> behave the same way as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a> and <b>OpenLogFile2Wide</b> with <i>Flags</i> set to DEBUG_LOG_APPEND if <i>Append</i> is <b>TRUE</b> and DEBUG_LOG_DEFAULT otherwise.
@@ -113,23 +118,40 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+
+
 
  
 

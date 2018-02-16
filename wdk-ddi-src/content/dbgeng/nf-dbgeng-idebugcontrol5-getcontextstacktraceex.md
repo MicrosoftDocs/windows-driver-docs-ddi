@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetContextStackTraceEx method [Windows Debugging], IDebugControl5::GetContextStackTraceEx, debugger.idebugcontrol5_getcontextstacktraceex, GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::GetContextStackTraceEx, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, GetContextStackTraceEx, IDebugControl5
+ms.keywords: IDebugControl5, debugger.idebugcontrol5_getcontextstacktraceex, GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, GetContextStackTraceEx, IDebugControl5::GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], dbgeng/IDebugControl5::GetContextStackTraceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl5.GetContextStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl5::GetContextStackTraceEx method
@@ -117,6 +117,7 @@ Receives the number of frames that were placed in the array <i>Frames</i> and co
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,13 +134,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The stack trace returned to <i>Frames</i> and <i>FrameContexts</i> can be printed using <a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>.
@@ -148,15 +152,24 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+
+
 
  
 

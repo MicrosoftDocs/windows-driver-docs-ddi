@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a2e26798-322a-4057-8c29-3429711e36a4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/KSPROPERTY_TVAUDIO_S, ksmedia/PKSPROPERTY_TVAUDIO_S, stream.ksproperty_tvaudio_s, PKSPROPERTY_TVAUDIO_S structure pointer [Streaming Media Devices], vidcapstruct_d9dd7c2c-ed79-4efa-ae11-07e069abda5c.xml, KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_S
+ms.keywords: ksmedia/PKSPROPERTY_TVAUDIO_S, PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S, stream.ksproperty_tvaudio_s, ksmedia/KSPROPERTY_TVAUDIO_S, vidcapstruct_d9dd7c2c-ed79-4efa-ae11-07e069abda5c.xml, *PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_S structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_TVAUDIO_S
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S
+req.typenames: "*PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S"
 ---
 
 # KSPROPERTY_TVAUDIO_S structure
@@ -76,6 +76,7 @@ Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPER
 ### -field Mode
 
 Specifies the mode of the TV audio device. For Get requests, the minidriver returns the current mode of the TV audio device. For Set requests, the minidriver sets the current mode of the TV audio device to the specified value. This member can be one or more (logically ORed) of the following values:
+
 <table>
 <tr>
 <th>Mode</th>
@@ -131,16 +132,23 @@ Indicates that the audio is in the third language supported by the device.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565944">KSPROPERTY_TVAUDIO_MODE</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565944">KSPROPERTY_TVAUDIO_MODE</a>
+
+
 
  
 

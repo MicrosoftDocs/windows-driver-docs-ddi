@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9615915C-B729-4702-BF41-D5068B43A729
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: poscx/PosCxReleaseDevice, pos.poscxreleasedevice, PosCxReleaseDevice function, PosCxReleaseDevice
+ms.keywords: PosCxReleaseDevice, pos.poscxreleasedevice, poscx/PosCxReleaseDevice, PosCxReleaseDevice function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxReleaseDevice
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ A handle to a framework device object that represents the device.
 ## -returns
 
 
+
 Possible return values are:
+
 <table>
 <tr>
 <td><b>STATUS_SUCCESS</b></td>
@@ -102,13 +104,17 @@ Possible return values are:
 <td><b>STATUS_INVALID_PARAMETER </b></td>
 <td>The specified <i>fileObject</i> is invalid.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\poscx\nf-poscx-poscxclaimdevice.md">PosCxClaimDevice</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._DVD_LAYER_DESCRIPTOR
-title: _DVD_LAYER_DESCRIPTOR
+title: "_DVD_LAYER_DESCRIPTOR"
 author: windows-driver-content
 description: The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD layer descriptor.
 old-location: storage\dvd_layer_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd981cc1-ab82-49de-8cf1-ba2b7451c7ef
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.dvd_layer_descriptor, ntddcdvd/PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], ntddcdvd/DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml, _DVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR
+ms.keywords: ntddcdvd/PDVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, _DVD_LAYER_DESCRIPTOR, ntddcdvd/DVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], DVD_LAYER_DESCRIPTOR structure [Storage Devices], DVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml, *PDVD_LAYER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	DVD_LAYER_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -89,6 +89,7 @@ Specifies the version of the specified book that this media complies with.
 ### -field BookType
 
 Specifies the DVD book this media complies with. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -144,12 +145,14 @@ DVD+RW
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MinimumRate
 
 Specifies the read rate to use for the media. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -205,7 +208,8 @@ DVD+RW
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DiskSize
@@ -216,6 +220,7 @@ Specifies the physical size of the media. A value of zero indicates 120 mm. A va
 ### -field LayerType
 
 Indicates the type of layer. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -251,7 +256,8 @@ Rewritable layer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TrackPath
@@ -272,6 +278,7 @@ Reserved.
 ### -field TrackDensity
 
 Indicates the track width used for this media in units of micrometers per track. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -307,12 +314,14 @@ Indicates the track width used for this media in units of micrometers per track.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field LinearDensity
 
 Indicates the minimum/maximum pit length used for this layer in units of micrometers per bit. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -368,12 +377,14 @@ Indicates the minimum/maximum pit length used for this layer in units of microme
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field StartingDataSector
 
 Specifies the first block that contains user data. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -399,7 +410,8 @@ An initial block value of 0x30000 indicates that the media type is DVD-RAM or DV
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field EndDataSector
@@ -425,13 +437,17 @@ Indicates, if set to 1, the presence of data in the burst cutting area (BCA). If
 ## -remarks
 
 
+
 For more information, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
+
+
 
  
 

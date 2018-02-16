@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfcsedev.h
-apiname: 
+apiname:
 -	IOCTL_NFCSE_SET_CARD_EMULATION_MODE
 product: Windows
 targetos: Windows
@@ -72,7 +72,9 @@ The <b>IOCTL_NFCSE_SET_CARD_EMULATION_MODE</b>
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -84,27 +86,34 @@ None
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+
 <table>
 <tr>
 <th>Return Code</th>
@@ -118,10 +127,12 @@ None
 <td><b>STATUS_INVALID_DEVICE_STATE</b></td>
 <td>  If the IOCTL is sent on a handle other than with the relative name 'SEManage'.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 The following are requirements that the driver must adhere to. <ul>
@@ -131,6 +142,7 @@ The following are requirements that the driver must adhere to. <ul>
 <li>When the SEManage opened file handle is closed, the driver must set the card emulation mode settings of all secure elements to be EmulationOff except when the last set card emulation mode state is EmulationOnPowerIndependent. If the last set card emulation mode state is EmulationOnPowerIndependent, the driver must remain with the card emulation mode setting to On with the PbF option for the specific secure elements.</li>
 <li>The driver must grant exclusive access to the client to manage card emulation mode. Subsequent calls to open a file handle using relative filename SEManage would fail with STATUS_ACCCESS_DENIED until the client with exclusive access closes its file handle.</li>
 </ul>
+
 
 
 

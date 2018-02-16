@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0327bdc0-e4a4-4c2f-a9b9-5854e3330068
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], scsiwmi/ScsiWmiEventControl, SCSIWMI_ENABLE_DISABLE_CONTROL, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, ScsiWmiDataBlockControl, storage.scsiwmi_enable_disable_control, scsiwmi/ScsiWmiDataBlockControl, ScsiWmiEventControl
+ms.keywords: scsiwmi/ScsiWmiEventControl, SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], ScsiWmiDataBlockControl, storage.scsiwmi_enable_disable_control, scsiwmi/ScsiWmiDataBlockControl, ScsiWmiEventControl, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsiwmi.h
-apiname: 
+apiname:
 -	SCSIWMI_ENABLE_DISABLE_CONTROL
 product: Windows
 targetos: Windows
@@ -83,7 +83,11 @@ Indicates that a data collection for a block is to be enabled or disabled.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557338">HwScsiWmiFunctionControl</a>
 
+
+
 <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+
+
 
  
 

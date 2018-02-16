@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a9b3c9f-5371-4d70-b1f3-5038e4cabc83
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], KeRestoreFloatingPointState, kernel.kerestorefloatingpointstate, k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, wdm/KeRestoreFloatingPointState
+ms.keywords: KeRestoreFloatingPointState, kernel.kerestorefloatingpointstate, wdm/KeRestoreFloatingPointState, k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRestoreFloatingPointState
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 ## -returns
 
 
+
 <b>KeRestoreFloatingPointState</b> returns STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 <b>KeRestoreFloatingPointState</b> is the reciprocal of <b>KeSaveFloatingPointState</b>. 
@@ -88,6 +91,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 Any routine that calls <b>KeSaveFloatingPointState</b><i> must</i> call <b>KeRestoreFloatingPointState</b> before that routine returns control, and it must be running at the same IRQL as that from which the preceding call to <b>KeSaveFloatingPointState</b> occurred. Failure to meet either of these conditions causes a system bug check.
 
 Kernel-mode driver code must ensure that calls to <b>KeSaveFloatingPointState</b> and <b>KeRestoreFloatingPointState</b> are properly nested. This is required so that, at each nesting level, the state that was restored by the <b>KeRestoreFloatingPointState</b> call is the same state that was saved by the corresponding <b>KeSaveFloatingPointState</b> call. To ensure proper nesting, kernel-mode driver code must follow these rules:
+
 <ul>
 <li>
 A <b>KeRestoreFloatingPointState</b> call that restores a saved state must be running at the same IRQL as the <b>KeSaveFloatingPointState</b> call that saved the state.
@@ -108,11 +112,16 @@ The <b>KeRestoreFloatingPointState</b> call that restores a saved state must be 
 </ul>
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554233">KFLOATING_SAVE</a>
+
+
 
 <a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554233">KFLOATING_SAVE</a>
+
 
  
 

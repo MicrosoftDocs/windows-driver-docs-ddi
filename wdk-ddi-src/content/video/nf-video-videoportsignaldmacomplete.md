@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 81730acb-ff15-438d-8225-125283f61db2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], video/VideoPortSignalDmaComplete, display.videoportsignaldmacomplete
+ms.keywords: display.videoportsignaldmacomplete, VideoPortSignalDmaComplete function [Display Devices], VideoPortSignalDmaComplete, video/VideoPortSignalDmaComplete, VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortSignalDmaComplete
 product: Windows
 targetos: Windows
@@ -84,13 +84,17 @@ Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in 
 ## -returns
 
 
+
 <b>VideoPortSignalDmaComplete</b> always returns <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+
 
 

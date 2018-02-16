@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_ROTATION
-title: _D3DDDI_ROTATION
+title: "_D3DDDI_ROTATION"
 author: windows-driver-content
 description: The D3DDDI_ROTATION enumeration type contains values that identify the orientation of a resource.
 old-location: display\d3dddi_rotation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c167b958-bd09-441e-9680-f193da5ad77f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_ROTATION_180, D3DDDI_ROTATION_270, D3DDDI_ROTATION_90, D3DDDI_ROTATION_IDENTITY, d3dukmdt/D3DDDI_ROTATION_IDENTITY, d3dukmdt/D3DDDI_ROTATION_90, d3dukmdt/D3DDDI_ROTATION_270, d3dukmdt/D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION_180, _D3DDDI_ROTATION, D3DDDI_ROTATION enumeration [Display Devices], D3D_other_Structs_0f55b4dd-2156-4590-a2c7-1daebcc16ba3.xml, display.d3dddi_rotation, D3DDDI_ROTATION
+ms.keywords: "_D3DDDI_ROTATION, d3dukmdt/D3DDDI_ROTATION_270, display.d3dddi_rotation, D3DDDI_ROTATION_270, d3dukmdt/D3DDDI_ROTATION_IDENTITY, d3dukmdt/D3DDDI_ROTATION_180, d3dukmdt/D3DDDI_ROTATION_90, D3DDDI_ROTATION_90, D3DDDI_ROTATION enumeration [Display Devices], d3dukmdt/D3DDDI_ROTATION, D3DDDI_ROTATION_IDENTITY, D3DDDI_ROTATION, D3D_other_Structs_0f55b4dd-2156-4590-a2c7-1daebcc16ba3.xml, D3DDDI_ROTATION_180"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_ROTATION
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ Indicates that the resource is rotated 270 degrees.
 ## -see-also
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
+
+
 
  
 

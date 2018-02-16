@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_WMI_EVENT_HEADER
-title: _NDIS_WMI_EVENT_HEADER
+title: "_NDIS_WMI_EVENT_HEADER"
 author: windows-driver-content
 description: The NDIS_WMI_EVENT_HEADER structure provides information about a GUID event for WMI clients.
 old-location: netvista\ndis_wmi_event_header.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b9e2c393-cf77-4193-ba59-b8eb914ef1e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WMI_EVENT_HEADER, PNDIS_WMI_EVENT_HEADER structure pointer [Network Drivers Starting with Windows Vista], ndis_wmi_ref_ebe1bff7-7e6d-47e7-b79c-3e53a733ac54.xml, ntddndis/NDIS_WMI_EVENT_HEADER, _NDIS_WMI_EVENT_HEADER, netvista.ndis_wmi_event_header, PNDIS_WMI_EVENT_HEADER, ntddndis/PNDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER structure [Network Drivers Starting with Windows Vista], *PNDIS_WMI_EVENT_HEADER
+ms.keywords: ndis_wmi_ref_ebe1bff7-7e6d-47e7-b79c-3e53a733ac54.xml, netvista.ndis_wmi_event_header, ntddndis/NDIS_WMI_EVENT_HEADER, _NDIS_WMI_EVENT_HEADER, PNDIS_WMI_EVENT_HEADER structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WMI_EVENT_HEADER, ntddndis/PNDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER structure [Network Drivers Starting with Windows Vista], NDIS_WMI_EVENT_HEADER, PNDIS_WMI_EVENT_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_WMI_EVENT_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER
+req.typenames: "*PNDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER"
 ---
 
 # _NDIS_WMI_EVENT_HEADER structure
@@ -140,6 +140,7 @@ This member is reserved.
 ## -remarks
 
 
+
 NDIS translates NDIS status indications to WMI GUID event indications.
 
 WMI GUID event indications that are specific to NDIS 6.0 and later versions include an
@@ -147,9 +148,12 @@ WMI GUID event indications that are specific to NDIS 6.0 and later versions incl
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

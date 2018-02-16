@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtSetCurrentProfile
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -86,27 +86,28 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 
 The handle used by the operating system to reference the connection session with the basic service
      set (BSS) network. This handle value was specified through a previous call to the 
-     <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-     Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function.
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+     Dot11ExtIhvPerformPreAssociate</a> IHV Handler function.
 
 
 ### -param pIhvConnProfile [in, optional]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
-     DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link> structure that contains connectivity settings for the IHV
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+     DOT11EXT_IHV_CONNECTIVITY_PROFILE</a> structure that contains connectivity settings for the IHV
      profile.
 
 
 ### -param pIhvSecProfile [in, optional]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.dot11ext_ihv_security_profile" tabindex="0"><b>
-     DOT11EXT_IHV_SECURITY_PROFILE</b></mshelp:link> structure that specifies security settings for the IHV
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">
+     DOT11EXT_IHV_SECURITY_PROFILE</a> structure that specifies security settings for the IHV
      profile.
 
 
 ## -returns
+
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
@@ -115,7 +116,9 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -123,18 +126,19 @@ The
     connectivity and security profile fragments to the current network profile used for the basic service set
     (BSS) network connection. The profile fragments are IHV-specific and are applicable to connectivity or
     security extensions available to the user through the 
-    <mshelp:link keywords="netvista.native_802_11_ihv_ui_extensions_dll" tabindex="0">Native 802.11 IHV UI Extensions
-    DLL</mshelp:link>.
+    <a href="https://msdn.microsoft.com/82f24545-75cb-4fbc-a98a-04dfac231c10">Native 802.11 IHV UI Extensions
+    DLL</a>.
 
 The IHV Extensions DLL must follow these guidelines when calling the 
     <b>Dot11ExtSetCurrentProfile</b> function:
+
 <ul>
 <li>
 The IHV Extensions DLL must only call 
       <b>Dot11ExtSetCurrentProfile</b> when performing a pre-association operation
       initiated through a call to the 
-      <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-      Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function. For more information about the
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+      Dot11ExtIhvPerformPreAssociate</a> IHV Handler function. For more information about the
       pre-association operation, see 
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association Operation</a>.
 
@@ -142,8 +146,8 @@ The IHV Extensions DLL must only call
 <li>
 The IHV Extensions DLL must not call 
       <b>Dot11ExtSetCurrentProfile</b> from within the call to the 
-      <mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-      Dot11ExtIhvPerformPreAssociate</i></mshelp:link> IHV Handler function. 
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+      Dot11ExtIhvPerformPreAssociate</a> IHV Handler function. 
       <b>Dot11ExtSetCurrentProfile</b> must be called from a different thread than
       the one which is processing the call to 
       <i>Dot11ExtIhvPerformPreAssociate</i>.
@@ -152,17 +156,26 @@ The IHV Extensions DLL must not call
 </ul>
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.dot11extihvperformpreassociate" tabindex="0"><i>
-   Dot11ExtIhvPerformPreAssociate</i></mshelp:link>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
 
-<mshelp:link keywords="netvista.dot11ext_ihv_connectivity_profile" tabindex="0"><b>
-   DOT11EXT_IHV_CONNECTIVITY_PROFILE</b></mshelp:link>
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+
+
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
+
+
 
  
 

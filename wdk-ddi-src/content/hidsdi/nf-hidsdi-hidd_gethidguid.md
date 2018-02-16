@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 552b607e-65c7-4595-9adb-b9c2f4301afd
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidsdi/HidD_GetHidGuid, HidD_GetHidGuid, hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, HidD_GetHidGuid routine [Human Input Devices], hid.hidd_gethidguid
+ms.keywords: hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, hid.hidd_gethidguid, HidD_GetHidGuid, hidsdi/HidD_GetHidGuid, HidD_GetHidGuid routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hid.dll
-apiname: 
+apiname:
 -	HidD_GetHidGuid
 product: Windows
 targetos: Windows
-req.typenames: *PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION
+req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
 ---
 
 # HidD_GetHidGuid function
@@ -75,11 +75,14 @@ Pointer to a caller-allocated GUID buffer that the routine uses to return the de
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Only user-mode applications can call <b>HidD_GetHidGuid</b>.
@@ -88,9 +91,12 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
+
+
 
  
 

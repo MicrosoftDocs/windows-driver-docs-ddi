@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_DPC
-title: _STOR_DPC
+title: "_STOR_DPC"
 author: windows-driver-content
 description: The STOR_DPC structure is an opaque structure that represents a DPC object. Do not set the members of this structure directly.
 old-location: storage\stor_dpc.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bb73217c-b159-4fd8-8cb3-334326a651ba
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: STOR_DPC, storage.stor_dpc, *PSTOR_DPC, _STOR_DPC, storport/STOR_DPC, STOR_DPC structure [Storage Devices], structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml
+ms.keywords: STOR_DPC, _STOR_DPC, storport/STOR_DPC, structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml, storage.stor_dpc, STOR_DPC structure [Storage Devices], *PSTOR_DPC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	STOR_DPC
 product: Windows
 targetos: Windows
-req.typenames: STOR_DPC, *PSTOR_DPC
+req.typenames: "*PSTOR_DPC, STOR_DPC"
 req.product: Windows 10 or later.
 ---
 
@@ -60,7 +60,11 @@ The STOR_DPC structure is an opaque structure that represents a DPC object. Do n
 
 <a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
 
+
+
 <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
+
+
 
  
 

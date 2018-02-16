@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0009e11d-73d0-4ca2-afbc-5f2999e829ac
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, debugger.getcurrentsystemuptime, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, dbgeng/IDebugControl3::GetCurrentSystemUpTime, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl3::GetCurrentSystemUpTime, GetCurrentSystemUpTime, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, dbgeng/IDebugControl2::GetCurrentSystemUpTime, IDebugControl2::GetCurrentSystemUpTime, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, IDebugControl3, GetCurrentSystemUpTime method [Windows Debugging]
+ms.keywords: dbgeng/IDebugControl3::GetCurrentSystemUpTime, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, IDebugControl3, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2::GetCurrentSystemUpTime, dbgeng/IDebugControl2::GetCurrentSystemUpTime, debugger.getcurrentsystemuptime, IDebugControl3::GetCurrentSystemUpTime, IDebugControl2, GetCurrentSystemUpTime, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl2.GetCurrentSystemUpTime
 -	IDebugControl3.GetCurrentSystemUpTime
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetCurrentSystemUpTime method
@@ -76,7 +76,9 @@ Receives the number of seconds the computer has been running, or <b>0</b> if the
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,24 +95,34 @@ The value of the variable <i>UpTime</i> is either the desired information or is 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546553">GetCurrentTimeDate</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
  
 

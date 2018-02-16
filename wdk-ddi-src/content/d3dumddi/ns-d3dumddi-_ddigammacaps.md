@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDIGAMMACAPS
-title: _DDIGAMMACAPS
+title: "_DDIGAMMACAPS"
 author: windows-driver-content
 description: The DDIGAMMACAPS structure describes gamma-ramp capabilities that the user-mode display driver supports.
 old-location: display\ddigammacaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4db605f8-a1ed-4b75-8c72-f4846ae7007e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DDIGAMMACAPS, display.ddigammacaps, DDIGAMMACAPS structure [Display Devices], D3D_other_Structs_7aa0b131-f7e5-4208-b3bb-7a35fa0d5ef1.xml, DDIGAMMACAPS, _DDIGAMMACAPS
+ms.keywords: "_DDIGAMMACAPS, DDIGAMMACAPS structure [Display Devices], DDIGAMMACAPS, D3D_other_Structs_7aa0b131-f7e5-4208-b3bb-7a35fa0d5ef1.xml, display.ddigammacaps, d3dumddi/DDIGAMMACAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DDIGAMMACAPS
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ typedef struct _DDIGAMMACAPS {
 ### -field GammaCaps
 
 [out] A valid bitwise OR of the following capability bits that the driver supports.
+
 <table>
 <tr>
 <th>Capability bit</th>
@@ -85,16 +86,23 @@ Gamma-ramp data is stored as 256 16-bit RGB values.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
 
  
 

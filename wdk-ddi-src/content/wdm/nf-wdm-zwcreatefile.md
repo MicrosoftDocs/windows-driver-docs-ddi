@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c40b99be-5627-44f3-9853-c3ae31a8035c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, NtCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], ZwCreateFile, wdm/NtCreateFile, wdm/ZwCreateFile
+ms.keywords: ZwCreateFile, NtCreateFile, wdm/ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], kernel.zwcreatefile, wdm/NtCreateFile, k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwCreateFile
 -	NtCreateFile
 product: Windows
@@ -87,6 +87,7 @@ A pointer to a HANDLE variable that receives a handle to the file.
 ### -param DesiredAccess [in]
 
 Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
+
 <table>
 <tr>
 <th>ACCESS_MASK flag</th>
@@ -172,8 +173,13 @@ Use system paging I/O to read data from the file into memory. This flag is irrel
 
 </td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>    Do not specify FILE_READ_DATA, FILE_WRITE_DATA, FILE_APPEND_DATA, or FILE_EXECUTE when you create or open a directory.</div><div> </div>The caller can only specify a generic access right, GENERIC_<i>XXX</i>, for a file, not a directory. Generic access rights correspond to specific access rights as shown in the following table.
+</table>
+ 
+
+<div class="alert"><b>Note</b>    Do not specify FILE_READ_DATA, FILE_WRITE_DATA, FILE_APPEND_DATA, or FILE_EXECUTE when you create or open a directory.</div>
+<div> </div>
+The caller can only specify a generic access right, GENERIC_<i>XXX</i>, for a file, not a directory. Generic access rights correspond to specific access rights as shown in the following table.
+
 <table>
 <tr>
 <th>Generic access right</th>
@@ -219,11 +225,13 @@ FILE_ALL_ACCESS.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For example, if you specify GENERIC_READ for a file object, the routine maps this value to the FILE_GENERIC_READ bitmask of specific access rights. In the preceding table, the specific access rights that are listed for GENERIC_READ correspond to the access flags that are contained in the FILE_GENERIC_READ bitmask.
 
 If the file is actually a directory, the caller can also specify the following generic access rights.
+
 <table>
 <tr>
 <th><i>DesiredAccess</i> flag</th>
@@ -249,7 +257,8 @@ Traverse the directory, in other words, include the directory in the path of a f
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about access rights, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
 
@@ -262,6 +271,7 @@ A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATT
 ### -param IoStatusBlock [out]
 
 A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation. In particular, the <b>Information</b> member receives one of the following values:
+
 <ul>
 <li>
 FILE_CREATED
@@ -302,6 +312,7 @@ Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file 
 ### -param ShareAccess [in]
 
 Type of share access, which is specified as zero or any combination of the following flags.
+
 <table>
 <tr>
 <th><i>ShareAccess</i> flag</th>
@@ -337,7 +348,8 @@ Delete the file
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Device and intermediate drivers usually set <i>ShareAccess</i> to zero, which gives the caller exclusive access to the open file.
 
@@ -345,6 +357,7 @@ Device and intermediate drivers usually set <i>ShareAccess</i> to zero, which gi
 ### -param CreateDisposition [in]
 
 Specifies the action to perform if the file does or does not exist. <i>CreateDisposition</i> can be one of the values in the following table.
+
 <table>
 <tr>
 <th><i>CreateDisposition</i> value</th>
@@ -435,12 +448,14 @@ Create the file.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param CreateOptions [in]
 
 Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
+
 <table>
 <tr>
 <th><i>CreateOptions</i> flag</th>
@@ -653,7 +668,8 @@ The client opening the file or device is session aware and per session access is
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param EaBuffer [in, optional]
@@ -669,11 +685,16 @@ For device and intermediate drivers, this parameter must be zero.
 ## -returns
 
 
+
 <b>ZwCreateFile</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS error code on failure. In the latter case, the caller can determine the cause of the failure by checking the <i>IoStatusBlock</i> parameter.
-<div class="alert"><b>Note</b>  <b>ZwCreateFile</b> might return STATUS_FILE_LOCK_CONFLICT as the return value or in the <b>Status</b> member of the <b>IO_STATUS_BLOCK</b> structure that is pointed to by the <i>IoStatusBlock</i> parameter. This would occur only if the NTFS log file is full, and an error occurs while <b>ZwCreateFile</b> tries to handle this situation.</div><div> </div>
+
+<div class="alert"><b>Note</b>  <b>ZwCreateFile</b> might return STATUS_FILE_LOCK_CONFLICT as the return value or in the <b>Status</b> member of the <b>IO_STATUS_BLOCK</b> structure that is pointed to by the <i>IoStatusBlock</i> parameter. This would occur only if the NTFS log file is full, and an error occurs while <b>ZwCreateFile</b> tries to handle this situation.</div>
+<div> </div>
+
 
 
 ## -remarks
+
 
 
 <b>ZwCreateFile</b> supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565384">Using Files in a Driver</a>.
@@ -683,6 +704,7 @@ Once the handle pointed to by <i>FileHandle</i> is no longer in use, the driver 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557758">Object Handles</a>.
 
 There are two alternate ways to specify the name of the file to be created or opened with <b>ZwCreateFile</b>:
+
 <ol>
 <li>
 As a fully qualified pathname, supplied in the <b>ObjectName</b> member of the input <i>ObjectAttributes.</i>
@@ -692,7 +714,9 @@ As a fully qualified pathname, supplied in the <b>ObjectName</b> member of the i
 As pathname relative to the directory file represented by the handle in the <b>RootDirectory</b> member of the input <i>ObjectAttributes</i>.
 
 </li>
-</ol>Setting certain flags in the <i>DesiredAccess</i> parameter results in the following effects:
+</ol>
+Setting certain flags in the <i>DesiredAccess</i> parameter results in the following effects:
+
 <ul>
 <li>
 For a caller to synchronize an I/O completion by waiting for the returned <i>FileHandle</i>, the SYNCHRONIZE flag must be set. Otherwise, a caller that is a device or intermediate driver must synchronize an I/O completion by using an event object.
@@ -710,7 +734,8 @@ Setting the FILE_WRITE_DATA flag for a file also allows the caller to write beyo
 If the caller sets only the FILE_EXECUTE and SYNCHRONIZE flags, it cannot directly read or write any data to the file using the returned <i>FileHandle</i>. That is, all operations on the file occur through the system pager in response to instruction and data-access operations. Device and intermediate drivers should not set the FILE_EXECUTE flag.
 
 </li>
-</ul>The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both callers have the appropriate access privileges, the file can be successfully opened and shared. If the original caller of <b>ZwCreateFile</b> does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other caller can open the file—that is, the original caller is granted exclusive access.
+</ul>
+The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both callers have the appropriate access privileges, the file can be successfully opened and shared. If the original caller of <b>ZwCreateFile</b> does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other caller can open the file—that is, the original caller is granted exclusive access.
 
 To successfully open a shared file, the <i>DesiredAccess</i> flags must be compatible with the <i>DesiredAccess</i> and <i>ShareAccess</i> flags of all the previous open operations that have not yet been released through . That is, the <i>DesiredAccess</i> specified to <b>ZwCreateFile</b> for a given file must not conflict with the accesses that other openers of the file have disallowed.
 
@@ -719,6 +744,7 @@ The <i>CreateDisposition</i> value FILE_SUPERSEDE requires that the caller have 
 The <i>CreateDisposition</i> values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If <b>ZwCreateFile</b> is called with a existing file and either of these <i>CreateDisposition</i> values, the file will be replaced.
 
 Overwriting a file is semantically equivalent to a supersede operation, except for the following:
+
 <ul>
 <li>
 The caller must have write access to the file, rather than delete access. This implies that, if the file has already been opened by another thread, it opened the file with the FILE_SHARE_WRITE flag set in the input <i>ShareAccess</i>.
@@ -728,9 +754,11 @@ The caller must have write access to the file, rather than delete access. This i
 The specified file attributes are logically ORed with those already on the file. This implies that, if the file has already been opened by another thread, a subsequent caller of <b>ZwCreateFile</b> cannot disable existing <i>FileAttributes</i> flags but can enable additional flags for the same file. Note that this style of overwriting files is consistent with MS-DOS, Microsoft Windows 3.1, and OS/2.
 
 </li>
-</ul>The FILE_DIRECTORY_FILE <i>CreateOptions</i> value specifies that the file to be created or opened is a directory. When a directory file is created, the file system creates an appropriate structure on the disk to represent an empty directory for that particular file system's on-disk structure. If this option was specified and the given file to be opened is not a directory file, or if the caller specified an inconsistent <i>CreateOptions</i> or <i>CreateDisposition</i> value, the call to <b>ZwCreateFile</b> will fail.
+</ul>
+The FILE_DIRECTORY_FILE <i>CreateOptions</i> value specifies that the file to be created or opened is a directory. When a directory file is created, the file system creates an appropriate structure on the disk to represent an empty directory for that particular file system's on-disk structure. If this option was specified and the given file to be opened is not a directory file, or if the caller specified an inconsistent <i>CreateOptions</i> or <i>CreateDisposition</i> value, the call to <b>ZwCreateFile</b> will fail.
 
 The FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this flag places the following restrictions on the caller's parameters to other <b>Zw<i>Xxx</i>File</b> routines.
+
 <ul>
 <li>
 Any optional <i>ByteOffset</i> passed to <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> or <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a> must be a multiple of the sector size.
@@ -748,7 +776,8 @@ Buffers must be aligned in accordance with the alignment requirement of the unde
 Calls to <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size.
 
 </li>
-</ul>The FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT <i>CreateOptions</i> flags, which are mutually exclusive as their names suggest, specify that all I/O operations on the file will be synchronous—as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. If either of these <i>CreateOptions</i> flags is set, the SYNCHRONIZE <i>DesiredAccess</i> flag must also be set—to compel the I/O manager to use the file object as a synchronization object. In these cases, the I/O manager keeps track of the current file-position offset, which you can pass to <b>ZwReadFile</b> and <b>ZwWriteFile</b>. Call <b>ZwQueryInformationFile</b> or <b>ZwSetInformationFile</b> to get or set this position.
+</ul>
+The FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT <i>CreateOptions</i> flags, which are mutually exclusive as their names suggest, specify that all I/O operations on the file will be synchronous—as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. If either of these <i>CreateOptions</i> flags is set, the SYNCHRONIZE <i>DesiredAccess</i> flag must also be set—to compel the I/O manager to use the file object as a synchronization object. In these cases, the I/O manager keeps track of the current file-position offset, which you can pass to <b>ZwReadFile</b> and <b>ZwWriteFile</b>. Call <b>ZwQueryInformationFile</b> or <b>ZwSetInformationFile</b> to get or set this position.
 
 If the <i>CreateOptions</i> FILE_OPEN_REPARSE_POINT flag is <u>not</u> specified and <b>ZwCreateFile</b> attempts to open a file with a reparse point, normal reparse point processing occurs for the file. If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does <u>not</u> occur and <b>ZwCreateFile</b> attempts to directly open the reparse point file. In either case, if the open operation was successful, <b>ZwCreateFile</b> returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. <b>ZwCreateFile</b> never returns STATUS_REPARSE.
 
@@ -759,7 +788,11 @@ In Windows 7, if other handles exist on the file when an application uses the F
 If this create operation would break an oplock that already exists on the file, then setting the FILE_OPEN_REQUIRING_OPLOCK flag will cause the create operation to fail with STATUS_CANNOT_BREAK_OPLOCK. The existing oplock will not be broken by this create operation.
 
 An application that uses the FILE_OPEN_REQUIRING_OPLOCK flag must request an oplock after this call succeeds, or all subsequent attempts to open the file will be blocked without the benefit of normal oplock processing. Similarly, if this call succeeds but the subsequent oplock request fails, an application that uses this flag must close its handle after it detects that the oplock request has failed.
-<div class="alert"><b>Note</b>  The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2 and later Windows operating systems. The Microsoft file systems that implement this flag in Windows 7 are NTFS, FAT, and exFAT.</div><div> </div>The <i>CreateOptions</i> flag FILE_RESERVE_OPFILTER allows an application to request a Level 1, Batch, or Filter oplock to prevent other applications from getting share violations. However, FILE_RESERVE_OPFILTER is only practically useful for Filter oplocks. To use it, you must complete the following steps:
+
+<div class="alert"><b>Note</b>  The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2 and later Windows operating systems. The Microsoft file systems that implement this flag in Windows 7 are NTFS, FAT, and exFAT.</div>
+<div> </div>
+The <i>CreateOptions</i> flag FILE_RESERVE_OPFILTER allows an application to request a Level 1, Batch, or Filter oplock to prevent other applications from getting share violations. However, FILE_RESERVE_OPFILTER is only practically useful for Filter oplocks. To use it, you must complete the following steps:
+
 <ol>
 <li>
 Issue a create request with <i>CreateOptions</i> of FILE_RESERVE_OPFILTER, <i>DesiredAccess</i> of exactly FILE_READ_ATTRIBUTES, and <i>ShareAccess</i> of exactly FILE_SHARE_READ | FILE_SHARE_WRITE | FILE_SHARE_DELETE.
@@ -783,38 +816,65 @@ If the create request succeeds, request an oplock.
 Open another handle to the file to do I/O.
 
 </li>
-</ol>Step three makes this practical only for Filter oplocks. The handle opened in step 3 can have a <i>DesiredAccess</i> that contains a maximum of FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | FILE_READ_DATA | FILE_READ_EA | FILE_EXECUTE | SYNCHRONIZE | READ_CONTROL and still not break a Filter oplock. However, any <i>DesiredAccess</i> greater than FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | SYNCHRONIZE will break a Level 1 or Batch oplock and make the FILE_RESERVE_OPFILTER flag useless for those oplock types.
+</ol>
+Step three makes this practical only for Filter oplocks. The handle opened in step 3 can have a <i>DesiredAccess</i> that contains a maximum of FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | FILE_READ_DATA | FILE_READ_EA | FILE_EXECUTE | SYNCHRONIZE | READ_CONTROL and still not break a Filter oplock. However, any <i>DesiredAccess</i> greater than FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | SYNCHRONIZE will break a Level 1 or Batch oplock and make the FILE_RESERVE_OPFILTER flag useless for those oplock types.
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 Callers of <b>ZwCreateFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateFile</b>" instead of "<b>ZwCreateFile</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateFile</b>" instead of "<b>ZwCreateFile</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
 
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
 
  
 

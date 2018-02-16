@@ -7,8 +7,8 @@ old-location: buses\usbd_parsedescriptors.htm
 old-project: usbref
 ms.assetid: d6d90a4a-a67d-4ef3-82b8-7146970e30f3
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.usbd_parsedescriptors, usbdlib/USBD_ParseDescriptors, USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml
+ms.date: 2/8/2018
+ms.keywords: usbdlib/USBD_ParseDescriptors, USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], buses.usbd_parsedescriptors, usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Usbd.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Usbd.lib
 -	Usbd.dll
-apiname: 
+apiname:
 -	USBD_ParseDescriptors
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -95,29 +95,35 @@ Specifies the descriptor type code as assigned by USB. The following values are 
 
 
 
-##### - DescriptorType.USB_STRING_DESCRIPTOR_TYPE
+
+#### USB_STRING_DESCRIPTOR_TYPE
 
 Specifies that the descriptor being searched for is a string descriptor.
 
 
-##### - DescriptorType.USB_ENDPOINT_DESCRIPTOR_TYPE
 
-Specifies that the descriptor being searched for is an endpoint descriptor.
-
-
-##### - DescriptorType.USB_INTERFACE_DESCRIPTOR_TYPE
+#### USB_INTERFACE_DESCRIPTOR_TYPE
 
 Specifies that the descriptor being searched for is an interface descriptor.
 
 
+
+#### USB_ENDPOINT_DESCRIPTOR_TYPE
+
+Specifies that the descriptor being searched for is an endpoint descriptor.
+
+
 ## -returns
+
 
 
 <b>USBD_ParseDescriptors</b> returns a pointer to a <a href="..\usbspec\ns-usbspec-_usb_common_descriptor.md">USB_COMMON_DESCRIPTOR</a> structure that is the head of the first descriptor that matches the given search criteria, or <b>NULL</b> is returned if no match is found:
 
 
 
+
 ## -remarks
+
 
 
 This structure is used to hold a portion of a descriptor, so that the caller of <b>USBD_ParseDescriptors</b> can determine the correct structure to use to access the remaining data in the descriptor. Every descriptor type has these fields at the beginning of the data and callers can use the <b>bLength</b> and <b>bDescriptorType</b> members to correctly identify the type of this descriptor.
@@ -126,13 +132,16 @@ When this routine parses the configuration descriptor looking for the descriptor
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_ParseDescriptors routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_ParseDescriptors routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

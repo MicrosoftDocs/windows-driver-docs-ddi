@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._LogoutFromTarget_IN
-title: _LogoutFromTarget_IN
+title: "_LogoutFromTarget_IN"
 author: windows-driver-content
 description: The LogoutFromTarget_IN structure holds the input data for the LogoutFromTarget method, which is used to log out from an iSCSI target.
 old-location: storage\logoutfromtarget_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a52d5995-1fb7-4b73-9d3f-c945e7219a49
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PLogoutFromTarget_IN, *PLogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], iscsiop/LogoutFromTarget_IN, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, PLogoutFromTarget_IN structure pointer [Storage Devices], _LogoutFromTarget_IN, LogoutFromTarget_IN, storage.logoutfromtarget_in
+ms.keywords: LogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], iscsiop/LogoutFromTarget_IN, PLogoutFromTarget_IN structure pointer [Storage Devices], iscsiop/PLogoutFromTarget_IN, storage.logoutfromtarget_in, _LogoutFromTarget_IN, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, PLogoutFromTarget_IN, *PLogoutFromTarget_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	LogoutFromTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: LogoutFromTarget_IN, *PLogoutFromTarget_IN
+req.typenames: "*PLogoutFromTarget_IN, LogoutFromTarget_IN"
 ---
 
 # _LogoutFromTarget_IN structure
@@ -75,7 +75,9 @@ A 64-bit integer that uniquely identifies the session. The <a href="https://msdn
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
@@ -83,11 +85,19 @@ You must implement this method.
 
 <a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_out.md">LogoutFromTarget_OUT</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_OPM_INTERFACE_3
-title: _DXGK_OPM_INTERFACE_3
+title: "_DXGK_OPM_INTERFACE_3"
 author: windows-driver-content
 description: The DXGK_OPM_INTERFACE_3 structure contains pointers to functions in the Output Protection Manager (OPM) Interface, which is implemented by the display miniport driver.
 old-location: display\dxgk_opm_interface_3.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0BD6BA91-7F46-482B-B808-DEB8A23A0B84
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dispmprt/PDXGK_OPM_INTERFACE_3, dispmprt/DXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], _DXGK_OPM_INTERFACE_3, *PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices]
+ms.keywords: dispmprt/DXGK_OPM_INTERFACE_3, dispmprt/PDXGK_OPM_INTERFACE_3, _DXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], display.dxgk_opm_interface_3, *PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_OPM_INTERFACE_3
 product: Windows
 targetos: Windows

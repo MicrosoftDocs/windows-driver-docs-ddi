@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1b2384c3-6438-4456-b4fc-44211b8a3fb1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_DRAINED function, wdfio/WDF_IO_QUEUE_DRAINED, kmdf.wdf_io_queue_drained, wdf.wdf_io_queue_drained, DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml, WDF_IO_QUEUE_DRAINED
+ms.keywords: wdfio/WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED function, DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml, wdf.wdf_io_queue_drained, kmdf.wdf_io_queue_drained
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any IRQL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_DRAINED
 product: Windows
 targetos: Windows
@@ -79,11 +79,14 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEU
 ## -returns
 
 
+
 <b>WDF_IO_QUEUE_DRAINED</b> returns <b>TRUE</b> if the specified queue state indicates that the queue is drained. Otherwise, the function returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 An I/O queue is drained if it is not accepting new I/O requests, and if all requests that were in the queue have been delivered to the driver.
@@ -93,16 +96,52 @@ Your driver can call <b>WDF_IO_QUEUE_DRAINED</b> after it has called <a href="..
 For more information about I/O queue states, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>.
 
 
+#### Examples
+
+The following code example is a routine that returns <b>TRUE</b> if a specified I/O queue is drained.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN
+IsQueueDrained(
+    IN WDFQUEUE Queue
+    )
+{
+    WDF_IO_QUEUE_STATE queueStatus;
+    queueStatus = WdfIoQueueGetState(
+                                     Queue,
+                                     NULL,
+                                     NULL
+                                     );
+    return (WDF_IO_QUEUE_DRAINED(queueStatus)) ? TRUE : FALSE;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
+
+
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_idle.md">WDF_IO_QUEUE_IDLE</a>
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_stopped.md">WDF_IO_QUEUE_STOPPED</a>
+
+
 
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_ready.md">WDF_IO_QUEUE_READY</a>
+
+
 
  
 

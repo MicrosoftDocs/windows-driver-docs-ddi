@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	HwStorWorkItem
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -91,11 +91,14 @@ A pointer to an opaque buffer that holds context information for the work item r
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 If needed, a work item can be queued within <b>HwStorWorkItem</b>. Call <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a> with the current work item to reuse it. Otherwise, call <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a> to release the work item.
@@ -103,6 +106,7 @@ If needed, a work item can be queued within <b>HwStorWorkItem</b>. Call <a href=
 No locks are acquired by Storport when the callback is invoked. The miniport is responsible for any synchronization required in the callback routine.
 
 The name <i>HwStorWorkItem</i> is just a placeholder for the miniport function that is pointed to by the <i>Callback</i> parameter of  <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -121,13 +125,20 @@ HW_WORKITEM (
 </table></span></div>
 
 
+
 ## -see-also
+
+<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
+
 
 <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
+
+
 <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
 
  
 

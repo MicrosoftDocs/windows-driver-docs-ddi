@@ -1,6 +1,6 @@
 ---
 UID: NS:wditypes._WDI_TYPE_NONCE
-title: _WDI_TYPE_NONCE
+title: "_WDI_TYPE_NONCE"
 author: windows-driver-content
 description: The WDI_TYPE_NONCE structure defines the SNonce or ANonce (802.11r).
 old-location: netvista\wdi_type_nonce.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 62E3A714-BA18-4DD5-ACFC-A9EFA37EABB4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _WDI_TYPE_NONCE, WDI_TYPE_NONCE structure [Network Drivers Starting with Windows Vista], WDI_TYPE_NONCE, netvista.wdi_type_nonce, wditypes/WDI_TYPE_NONCE, PWDI_TYPE_NONCE, *PWDI_TYPE_NONCE, PWDI_TYPE_NONCE structure pointer [Network Drivers Starting with Windows Vista], wditypes/PWDI_TYPE_NONCE
+ms.keywords: WDI_TYPE_NONCE structure [Network Drivers Starting with Windows Vista], wditypes/PWDI_TYPE_NONCE, PWDI_TYPE_NONCE structure pointer [Network Drivers Starting with Windows Vista], wditypes/WDI_TYPE_NONCE, *PWDI_TYPE_NONCE, WDI_TYPE_NONCE, _WDI_TYPE_NONCE, PWDI_TYPE_NONCE, netvista.wdi_type_nonce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_TYPE_NONCE
 product: Windows
 targetos: Windows

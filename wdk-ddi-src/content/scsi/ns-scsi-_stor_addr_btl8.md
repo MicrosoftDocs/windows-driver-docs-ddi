@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._STOR_ADDR_BTL8
-title: _STOR_ADDR_BTL8
+title: "_STOR_ADDR_BTL8"
 author: windows-driver-content
 description: The STOR_ADDR_BTL8 address structure contains the addressing information for an 8-bit Bus-Target-LUN (BTL8) address.
 old-location: storage\stor_addr_btl8.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 53C8A5D4-4D8B-4D3E-A350-B3BBAC7F8C71
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PSTOR_ADDR_BTL8, storage.stor_addr_btl8, PSTOR_ADDR_BTL8 structure pointer [Storage Devices], PSTOR_ADDR_BTL8, STOR_ADDR_BTL8, STOR_ADDR_BTL8 structure [Storage Devices], *PSTOR_ADDR_BTL8, _STOR_ADDR_BTL8, storport/STOR_ADDR_BTL8
+ms.keywords: STOR_ADDR_BTL8, PSTOR_ADDR_BTL8 structure pointer [Storage Devices], STOR_ADDR_BTL8 structure [Storage Devices], storage.stor_addr_btl8, _STOR_ADDR_BTL8, PSTOR_ADDR_BTL8, storport/STOR_ADDR_BTL8, storport/PSTOR_ADDR_BTL8, *PSTOR_ADDR_BTL8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	STOR_ADDR_BTL8
 product: Windows
 targetos: Windows
-req.typenames: *PSTOR_ADDR_BTL8, STOR_ADDR_BTL8
+req.typenames: STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8
 req.product: Windows 10 or later.
 ---
 
@@ -114,6 +114,8 @@ Reserved, set to 0.
 ## -see-also
 
 <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
+
 
  
 

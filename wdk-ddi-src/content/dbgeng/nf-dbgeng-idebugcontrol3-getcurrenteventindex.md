@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 148cf294-0410-4704-93ce-338529a214ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, GetCurrentEventIndex method [Windows Debugging], GetCurrentEventIndex, debugger.getcurrenteventindex, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, IDebugControl3, IDebugControl3::GetCurrentEventIndex, dbgeng/IDebugControl3::GetCurrentEventIndex, GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface
+ms.keywords: IDebugControl3, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, GetCurrentEventIndex method [Windows Debugging], IDebugControl3::GetCurrentEventIndex, debugger.getcurrenteventindex, dbgeng/IDebugControl3::GetCurrentEventIndex, IDebugControl3 interface [Windows Debugging], GetCurrentEventIndex method, GetCurrentEventIndex, GetCurrentEventIndex method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.GetCurrentEventIndex
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetCurrentEventIndex method
@@ -75,7 +75,9 @@ Receives the index of the current event in the target.  The index will be a numb
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,24 +94,34 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Targets that do not have fixed sets of events will always return zero to <i>Index</i>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556737">SetNextEventIndex</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 

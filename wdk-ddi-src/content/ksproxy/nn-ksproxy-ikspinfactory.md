@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname: 
+apiname:
 -	IKsPinFactory
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ Retrieves the identifier of a pin factory.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsPinFactory.
+
 
 

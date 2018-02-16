@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DxgkCbGetHandleData
 product: Windows
 targetos: Windows
@@ -73,6 +73,9 @@ VOID* APIENTRY CALLBACK DxgkCbGetHandleData(
 
 
 
+
+
+
 #### - pData [in]
 
 [in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_gethandledata.md">DXGKARGCB_GETHANDLEDATA</a> structure that describes the allocation data to retrieve.
@@ -81,17 +84,22 @@ VOID* APIENTRY CALLBACK DxgkCbGetHandleData(
 ## -returns
 
 
+
 <i>DxgkCbGetHandleData</i> returns a buffer that contains the private data for the allocation.
 
 If <i>DxgkCbGetHandleData</i> returns a <b>NULL</b> pointer, the Microsoft DirectX graphics kernel subsystem was unable to resolve the handle that is supplied in the <b>hObject</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_gethandledata.md">DXGKARGCB_GETHANDLEDATA</a> structure to private data because, for example, of the following possible reasons: 
+
 <ul>
 <li>An invalid handle was received from the user-mode display driver because of a malicious attack or some other bug. </li>
 <li>Allocations had lifetime issues. </li>
-</ul>If a <b>NULL</b> pointer is returned, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
+</ul>
+If a <b>NULL</b> pointer is returned, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
+
 
 
 
 ## -remarks
+
 
 
 When the DirectX graphics kernel subsystem calls the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function to create handles to allocations, the display miniport driver can create private data for each allocation handle. The display miniport driver can subsequently call the <b>DxgkCbGetHandleData</b> function to retrieve private data for each graphics subsystem-specific handle. Therefore, the display miniport driver is not required to maintain a private allocation handle table. 
@@ -99,14 +107,61 @@ When the DirectX graphics kernel subsystem calls the display miniport driver's <
 If the <b>DeviceSpecific</b> bit-field flag is set in the <b>Flags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_gethandledata.md">DXGKARGCB_GETHANDLEDATA</a> structure that <i>pData</i> points to, <b>DxgkCbGetHandleData</b> returns the device-specific data that is associated with the device-specific handle that the driver returned from the call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a> function. Note that the <b>DeviceSpecific</b> bit-field flag is valid only if the display miniport driver also sets the <b>Type</b> member of DXGKARGCB_GETHANDLEDATA to the DXGK_HANDLE_ALLOCATION enumeration value for the handle in the <b>hObject</b> member of DXGKARGCB_GETHANDLEDATA.
 
 
+#### Examples
+
+The following code example shows an implementation of <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a> in which <b>DxgkCbGetHandleData</b> is called.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+DxgkDdiOpenAllocation(
+    VOID    *InterfaceContext,
+    CONST DXGKARG_OPENALLOCATION    *pDDIDAData)
+{
+    DWORD dwIdx;
+    DXGKRNL_INTERFACE              *pCallback;
+    PR2D3DDevice                    pR2D3DDev;
+    PHW_DEVICE_EXTENSION            pAdapter;
+
+    pR2D3DDev = (PR2D3DDevice)InterfaceContext;
+    pAdapter  = (PHW_DEVICE_EXTENSION)pR2D3DDev-&gt;pAdapter;
+    pCallback = &amp;(pAdapter-&gt;ddiCallback);
+
+    for (dwIdx=0; dwIdx &lt; pDDIDAData-&gt;NumAllocations; dwIdx++) {
+        DXGKARGCB_GETHANDLEDATA  getHandleData = {0};
+        R2AllocationInfo*  pAllocInfo;
+
+        getHandleData.hObject = pDDIDAData-&gt;pOpenAllocation[dwIdx].hAllocation;
+        getHandleData.Type    = DXGK_HANDLE_ALLOCATION;
+        pAllocInfo = (PR2AllocationInfo)pCallback-&gt;DxgkCbGetHandleData(&amp;getHandleData);
+        pDDIDAData-&gt;pOpenAllocation[dwIdx].hDeviceSpecificAllocation = (HANDLE)pAllocInfo;
+        pAllocInfo-&gt;vidMemData.hAllocation = pDDIDAData-&gt;pOpenAllocation[dwIdx].hAllocation;
+    }
+    return STATUS_SUCCESS;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_gethandledata.md">DXGKARGCB_GETHANDLEDATA</a>
+
+
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
 
  
 

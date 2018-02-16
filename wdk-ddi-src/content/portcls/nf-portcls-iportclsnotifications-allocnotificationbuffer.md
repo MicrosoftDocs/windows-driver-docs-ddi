@@ -7,8 +7,8 @@ old-location: audio\iportclsnotifications_allocnotification.htm
 old-project: audio
 ms.assetid: 23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, portcls/IPortClsNotifications::AllocNotificationBuffer, IPortClsNotifications, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications::AllocNotificationBuffer, AllocNotificationBuffer, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, audio.iportclsnotifications_allocnotification
+ms.date: 2/8/2018
+ms.keywords: IPortClsNotifications::AllocNotificationBuffer, AllocNotificationBuffer method [Audio Devices], audio.iportclsnotifications_allocnotification, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, IPortClsNotifications, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, portcls/IPortClsNotifications::AllocNotificationBuffer, AllocNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Portcls.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Portcls.lib
 -	Portcls.dll
-apiname: 
+apiname:
 -	IPortClsNotifications.AllocNotificationBuffer
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsNotifications::AllocNotificationBuffer method
@@ -88,12 +88,14 @@ Number of bytes to allocate.
 
 
 
+
 #### - PPCNOTIFICATION* [out]
 
 Pointer to a <a href="..\portcls\ns-portcls-_pcnotification_buffer.md">PCNOTIFICATION_BUFFER</a> which the method writes the address of the allocated notification.
 
 
 ## -returns
+
 
 
 STATUS_SUCCESS – The driver was able to allocate the notification buffer. 
@@ -110,10 +112,13 @@ Additional standard status codes may be returned. For example, STATUS_INSUFFICIE
 
 
 
+
 ## -remarks
 
 
+
 Callers of <b>AllocNotificationBuffer</b> must be running at IRQL &lt;= DISPATCH_LEVEL. If a driver writer calls this routine at IRQL = DISPATCH_LEVEL, the NotificationStructure must be allocated from nonpaged memory.
+
 
 
 
@@ -121,9 +126,11 @@ Callers of <b>AllocNotificationBuffer</b> must be running at IRQL &lt;= DISPATCH
 
 <a href="..\portcls\nn-portcls-iportclsnotifications.md">IPortClsNotifications</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsNotifications::AllocNotificationBuffer method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsNotifications::AllocNotificationBuffer method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_EMERGENCY_MODE
-title: _WWAN_EMERGENCY_MODE
+title: "_WWAN_EMERGENCY_MODE"
 author: windows-driver-content
 description: The WWAN_EMERGENCY_MODE enumeration lists the different types of emergency modes that are supported by the MB device.
 old-location: netvista\wwan_emergency_mode.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d901e763-5e1c-443d-ba9c-9d1e4413bd47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_emergency_mode, wwan/WwanEmergencyModeOff, PWWAN_EMERGENCY_MODE, wwan/PWWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeMax, WwanEmergencyModeOff, _WWAN_EMERGENCY_MODE, WwanEmergencyModeOn, WWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista], PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_EMERGENCY_MODE, WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, wwan/WWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeOn, WwanEmergencyModeMax
+ms.keywords: PWWAN_EMERGENCY_MODE, _WWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeMax, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeOn, wwan/WwanEmergencyModeOff, WWAN_EMERGENCY_MODE, WwanEmergencyModeOn, PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_EMERGENCY_MODE, wwan/PWWAN_EMERGENCY_MODE, WwanEmergencyModeOff, WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, WwanEmergencyModeMax, netvista.wwan_emergency_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_EMERGENCY_MODE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE
+req.typenames: "*PWWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE"
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,8 @@ The total number of supported emergency modes.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
+
+
 
  
 

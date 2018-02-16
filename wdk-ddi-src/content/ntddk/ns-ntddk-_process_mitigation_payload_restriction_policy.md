@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
-title: _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
+title: "_PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"
 author: windows-driver-content
 description: Stores information about process mitigation policy.
 old-location: kernel\process_mitigation_payload_restriction_policy.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.process_mitigation_payload_restriction_policy, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
+ms.keywords: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 product: Windows
 targetos: Windows
@@ -87,9 +87,12 @@ typedef struct _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY {
 ### -field DUMMYUNIONNAME
 
 
+### -field DUMMYUNIONNAME.Flags
+
+Bitwise of flags in this structure.
+
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableExportAddressFilter
@@ -155,9 +158,4 @@ If set this enables the simulated execution anti-ROP (Return-oriented-programmin
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 Reserved.
-
-
-### -field DUMMYUNIONNAME.Flags
-
-Bitwise of flags in this structure.
 

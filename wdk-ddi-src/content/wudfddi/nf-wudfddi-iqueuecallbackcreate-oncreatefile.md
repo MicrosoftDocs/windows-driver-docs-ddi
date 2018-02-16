@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f569d306-4e1e-44b7-acb0-6b46abc26b37
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: OnCreateFile, OnCreateFile method, IQueueCallbackCreate, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, umdf.iqueuecallbackcreate_oncreatefile, wdf.iqueuecallbackcreate_oncreatefile, IQueueCallbackCreate interface, OnCreateFile method, wudfddi/IQueueCallbackCreate::OnCreateFile, OnCreateFile method, IQueueCallbackCreate interface, IQueueCallbackCreate::OnCreateFile
+ms.keywords: wudfddi/IQueueCallbackCreate::OnCreateFile, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, OnCreateFile, wdf.iqueuecallbackcreate_oncreatefile, OnCreateFile method, IQueueCallbackCreate interface, IQueueCallbackCreate interface, OnCreateFile method, IQueueCallbackCreate::OnCreateFile, umdf.iqueuecallbackcreate_oncreatefile, IQueueCallbackCreate, OnCreateFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IQueueCallbackCreate.OnCreateFile
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -95,11 +95,14 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest<
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If the driver implements the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md">IQueueCallbackCreate</a> interface, the framework calls the <b>OnCreateFile</b> method when an application opens a device through the Win32 <b>CreateFile</b> function to perform an I/O operation, such as reading from or writing to a file. 
@@ -111,24 +114,78 @@ A typical <b>OnCreateFile</b> method might call <a href="https://msdn.microsoft.
 A UMDF driver might be required to open registry keys or files while it impersonates a client that sends the I/O requests. From its implementation of the <b>OnCreateFile</b> method, the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a> method to set a security impersonation level and to set the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a> method in which the driver handles the impersonation. To access necessary resources by using the credentials of the user, the framework calls the driver's <b>OnImpersonate</b> method. For any operations other than those that require impersonation, the framework calls driver methods that run under the default driver account. For more information about how UMDF and UMDF drivers handle impersonation, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Impersonation</a>.
 
 
+#### Examples
+
+This example is based on the WpdWudfSampleDriver sample, and is from the Queue.cpp file.
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP_ (void) CQueue::OnCreateFile(
+/*[in]*/ IWDFIoQueue* pQueue,
+/*[in]*/ IWDFIoRequest* pRequest,
+/*[in]*/ IWDFFile* pFileObject
+)
+{
+HRESULT hr = S_OK;
+ClientContext* pClientContext = new ClientContext ();
+. . . //Code omitted.
+if(pClientContext != NULL) {
+hr = pFileObject-&gt;AssignContext (this, (void*)pClientContext);
+// Release the client context if we cannot set it
+if(FAILED(hr)) {
+pClientContext-&gt;Release();
+pClientContext = NULL;
+}
+}
+else {
+hr = E_OUTOFMEMORY;
+}
+pRequest-&gt;Complete(hr);
+return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackcreate.md">IQueueCallbackCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
+
+
 
  
 

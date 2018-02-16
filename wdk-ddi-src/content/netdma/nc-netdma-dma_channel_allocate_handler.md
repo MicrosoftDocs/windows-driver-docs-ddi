@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	ProviderAllocateDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_CHANNEL_ALLOCATE_HANDLER callback
@@ -80,15 +80,15 @@ NTSTATUS ProviderAllocateDmaChannel(
 
 A pointer that identifies a DMA provider's context area. The DMA provider driver passes this
      handle to the NetDMA interface in a call to the 
-     <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-     NetDmaRegisterProvider</b></mshelp:link> function.
+     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     NetDmaRegisterProvider</a> function.
 
 
 ### -param ChannelParameters [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-     NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure that defines the configuration parameters for the DMA
+     <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+     NET_DMA_CHANNEL_PARAMETERS</a> structure that defines the configuration parameters for the DMA
      channel.
 
 
@@ -98,14 +98,7 @@ A handle that identifies the DMA channel. Provider drivers pass this handle to
      <b>NetDma<i>Xxx</i></b> functions to identify the DMA channel.
 
 
-### -param *pProviderChannelContext
-
-
-
-
-
-
-#### - pProviderChannelContext [out]
+### -param *pProviderChannelContext [out]
 
 A pointer to a value that is a pointer to a DMA provider's context area for the DMA channel. The
      DMA provider driver allocates this context area before returning from 
@@ -116,7 +109,9 @@ A pointer to a value that is a pointer to a DMA provider's context area for the 
 ## -returns
 
 
+
 <i>ProviderAllocateDmaChannel</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,11 +150,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -169,8 +167,8 @@ The NetDMA interface calls a DMA provider driver's
 The DMA provider driver attempts to allocate a DMA channel with an interrupt CPU affinity that matches
     a bit that is specified in the 
     <b>ProcessorAffinityMask</b> member of the 
-    <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-    NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure at the 
+    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    NET_DMA_CHANNEL_PARAMETERS</a> structure at the 
     <i>ChannelParameters</i> parameter. If MSI-X is not supported or MSI-X is supported but a DMA channel with
     a matching interrupt CPU affinity is not available, the DMA provider driver allocates any available DMA
     channel and calls the 
@@ -201,15 +199,24 @@ NetDMA calls
 
 
 
+
 ## -see-also
 
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+
+<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+
+
 
 <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
+
+
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+
 
  
 

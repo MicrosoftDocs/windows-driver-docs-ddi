@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskAcceptEvent
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -95,6 +95,15 @@ A ULONG value that contains the following flag, or zero:
 
 
 
+
+#### WSK_FLAG_AT_DISPATCH_LEVEL
+
+The WSK subsystem called the 
+       <i>WskAcceptEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set, the
+       WSK subsystem might have called the 
+       <i>WskAcceptEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
+
+
 ### -param LocalAddress [in]
 
 A pointer to a buffer that contains the local transport address on which the incoming connection
@@ -119,18 +128,7 @@ A pointer to a
      listening socket as soon as possible.
 
 
-### -param *AcceptSocketContext
-
-
-
-### -param **AcceptSocketDispatch
-
-
-
-
-
-
-#### - AcceptSocketContext [out]
+### -param *AcceptSocketContext [out]
 
 A pointer to a variable that receives a pointer to a WSK application-supplied context for the
      socket that is being accepted. The WSK subsystem passes this pointer to the accepted socket's event
@@ -140,11 +138,11 @@ A pointer to a variable that receives a pointer to a WSK application-supplied co
      <i>AcceptSocketContext</i> parameter to <b>NULL</b>.
 
 
-#### - AcceptSocketDispatch [out]
+#### - **AcceptSocketDispatch [out]
 
 A pointer to a variable that receives a pointer to a constant 
-     <mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-     WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link> structure. This structure is a dispatch table that contains
+     <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+     WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
      pointers to the event callback functions for the accepted socket. If the WSK application will not be
      enabling all of the event callback functions for the accepted socket, the application should set the
      pointers in the dispatch table to <b>NULL</b> for those event callback functions that it does not enable. If
@@ -153,19 +151,26 @@ A pointer to a variable that receives a pointer to a constant
      <i>AcceptSocketDispatch</i> parameter to <b>NULL</b>.
 
 
-##### - Flags.WSK_FLAG_AT_DISPATCH_LEVEL
+#### - AcceptSocketDispatch [out]
 
-The WSK subsystem called the 
-       <i>WskAcceptEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set, the
-       WSK subsystem might have called the 
-       <i>WskAcceptEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
+A pointer to a variable that receives a pointer to a constant 
+     <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+     WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
+     pointers to the event callback functions for the accepted socket. If the WSK application will not be
+     enabling all of the event callback functions for the accepted socket, the application should set the
+     pointers in the dispatch table to <b>NULL</b> for those event callback functions that it does not enable. If
+     the WSK application will not be enabling any event callback functions on the accepted socket, it should
+     set the variable that is pointed to by the 
+     <i>AcceptSocketDispatch</i> parameter to <b>NULL</b>.
 
 
 ## -returns
 
 
+
 A WSK application's 
      <i>WskAcceptEvent</i> event callback function can return one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -194,11 +199,14 @@ The WSK application rejected the incoming connection. If this value is returned,
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The WSK subsystem calls a WSK application's 
@@ -206,8 +214,8 @@ The WSK subsystem calls a WSK application's
     socket only if the event callback function was previously enabled with the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <mshelp:link keywords="netvista.enabling_and_disabling_event_callback_functions" tabindex="0">Enabling and
-    Disabling Event Callback Functions</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    Disabling Event Callback Functions</a>.
 
 If a WSK application's 
     <i>WskAcceptEvent</i> event callback function is enabled on a listening socket and the application has a
@@ -233,8 +241,8 @@ When the WSK subsystem calls a WSK application's
     callback functions on a listening socket, those event callback functions will be enabled by default on
     all connection-oriented sockets that are accepted on that listening socket. For more information about
     enabling any of the accepted socket's event callback functions, see 
-    <mshelp:link keywords="netvista.enabling_and_disabling_event_callback_functions" tabindex="0">Enabling and
-    Disabling Event Callback Functions</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa363707">Enabling and
+    Disabling Event Callback Functions</a>.
 
 The 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structures that are pointed to by the 
@@ -259,28 +267,49 @@ A WSK application's <i>WskAcceptEvent</i> event callback function must not wait 
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_get_local_address.md">WskGetLocalAddress</a>
 
 <a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_get_local_address.md">WskGetLocalAddress</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+   WSK_CLIENT_CONNECTION_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
 
  
 

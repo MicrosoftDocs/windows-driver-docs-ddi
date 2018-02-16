@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	MiniportWdiAdapterHangDiagnose
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback
@@ -92,23 +92,12 @@ The diagnose level, as defined in the <a href="..\dot11wdi\ne-dot11wdi-ediagnose
 The size of <b>FirmwareBlob</b>, in bytes.
 
 
-### -param *FirmwareBlob
-
-
-
-### -param *pOutputSize
-
-
-
-
-
-
-#### - FirmwareBlob [out]
+### -param *FirmwareBlob [out]
 
 A pointer to the buffer that  will contain the hardware control registry states, and optionally full firmware state.
 
 
-#### - pOutputSize [out]
+### -param *pOutputSize [out]
 
 A pointer to the number of bytes written to <b>FirmwareBlob</b>.
 
@@ -116,18 +105,28 @@ A pointer to the number of bytes written to <b>FirmwareBlob</b>.
 ## -returns
 
 
+
 The return value is ignored.
-<h3><a id="Remarks"></a><a id="remarks"></a><a id="REMARKS"></a>Remarks</h3>    The default diagnose level is <b>DiagnoseLevelHardwareRegisters</b>, with 1KB maximum in the output buffer.
+
+<h3><a id="Remarks"></a><a id="remarks"></a><a id="REMARKS"></a>Remarks</h3>
+    The default diagnose level is <b>DiagnoseLevelHardwareRegisters</b>, with 1KB maximum in the output buffer.
+
 
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
-
 <a href="..\dot11wdi\ne-dot11wdi-ediagnoselevel.md">eDiagnoseLevel</a>
 
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
+
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c0a2646c-aa0a-4946-999f-a78d1c488752
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgoutsubmitvpformat, ntddrilapitypes/RIL_MSGVP_RELATIVE, RIL_MSGVP_ENHANCED, ntddrilapitypes/RIL_MSGVP_ABSOLUTE, RIL_MSGVP_RELATIVE, RIL_MSGVP_ABSOLUTE, RILMSGOUTSUBMITVPFORMAT, ntddrilapitypes/RIL_MSGVP_MAX, ntddrilapitypes/RIL_MSGVP_ENHANCED, RIL_MSGVP_MAX, ntddrilapitypes/RILMSGOUTSUBMITVPFORMAT, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_MSGVP_ABSOLUTE, netvista.rilmsgoutsubmitvpformat, RILMSGOUTSUBMITVPFORMAT, ntddrilapitypes/RILMSGOUTSUBMITVPFORMAT, ntddrilapitypes/RIL_MSGVP_RELATIVE, ntddrilapitypes/RIL_MSGVP_ENHANCED, RIL_MSGVP_RELATIVE, RIL_MSGVP_MAX, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGVP_ABSOLUTE, ntddrilapitypes/RIL_MSGVP_MAX, RIL_MSGVP_ENHANCED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGOUTSUBMITVPFORMAT
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILMSGOUTSUBMITVPFORMAT {
 ### -field RIL_MSGVP_NONE
 
 
-
 ### -field RIL_MSGVP_RELATIVE
-
 
 
 ### -field RIL_MSGVP_ENHANCED
 
 
-
 ### -field RIL_MSGVP_ABSOLUTE
 
 
-
 ### -field RIL_MSGVP_MAX
-
 

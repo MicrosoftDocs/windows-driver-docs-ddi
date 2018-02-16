@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_FREEGPUVIRTUALADDRESS
-title: _D3DDDICB_FREEGPUVIRTUALADDRESS
+title: "_D3DDDICB_FREEGPUVIRTUALADDRESS"
 author: windows-driver-content
 description: D3DDDICB_FREEGPUVIRTUALADDRESS is used with pfnFreeGpuVirtualAddressCb to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 old-location: display\d3dddicb_freegpuvirtualaddress.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5E11C1BB-7E9E-4D9C-A15A-B9CCB29622C3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_freegpuvirtualaddress, D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS, _D3DDDICB_FREEGPUVIRTUALADDRESS
+ms.keywords: D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_FREEGPUVIRTUALADDRESS, display.d3dddicb_freegpuvirtualaddress, D3DDDICB_FREEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_FREEGPUVIRTUALADDRESS
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_freegpuvirtualaddresscb.md">pfnFreeGpuVirtualAddressCb</a>
+
+
 
  
 

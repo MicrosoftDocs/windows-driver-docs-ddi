@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: StreamClassDebugPrint routine [Streaming Media Devices], strmini/StreamClassDebugPrint, strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, StreamClassDebugPrint, stream.streamclassdebugprint
+ms.keywords: strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, StreamClassDebugPrint, stream.streamclassdebugprint, StreamClassDebugPrint routine [Streaming Media Devices], strmini/StreamClassDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+apiname:
 -	StreamClassDebugPrint
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ TBD
 
 
 
+
 #### - arguments
 
 Specifies a variable argument list containing optional arguments for the format string, as in <b>printf</b>.
@@ -95,22 +96,30 @@ Specifies a variable argument list containing optional arguments for the format 
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/544b922b-58e4-4cbb-a76c-d8e13ae17e55">Stream Class Debugging</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543632">DbgPrint</a>
+
+
+
 <a href="..\strmini\nf-strmini-streamclassdebugassert.md">StreamClassDebugAssert</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543632">DbgPrint</a>
+
 
  
 

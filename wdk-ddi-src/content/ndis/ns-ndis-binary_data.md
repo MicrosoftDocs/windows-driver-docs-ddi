@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2d629905-49aa-4b66-83f3-0aecb72b73ea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, BINARY_DATA, netvista.binary_data
+ms.keywords: ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis/BINARY_DATA, netvista.binary_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	BINARY_DATA
 product: Windows
 targetos: Windows
@@ -82,16 +82,20 @@ Pointer to a buffer containing the binary data.
 ## -remarks
 
 
+
 The BINARY_DATA structure is used in the 
     <b>ParameterData</b> member of the 
-    <mshelp:link keywords="netvista.ndis_configuration_parameter" tabindex="0"><b>
-    NDIS_CONFIGURATION_PARAMETER</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+    NDIS_CONFIGURATION_PARAMETER</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
+
+
 
  
 

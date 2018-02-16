@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d3d59dca-7214-493c-bb70-4391696fe017
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], ks/PKSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION, ks/KSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION, ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], stream.ksproperty_description, PKSPROPERTY_DESCRIPTION
+ms.keywords: KSPROPERTY_DESCRIPTION, ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, *PKSPROPERTY_DESCRIPTION, stream.ksproperty_description, KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], ks/KSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION, ks/PKSPROPERTY_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSPROPERTY_DESCRIPTION
 product: Windows
 targetos: Windows
-req.typenames: KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION
+req.typenames: "*PKSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION"
 ---
 
 # KSPROPERTY_DESCRIPTION structure
@@ -99,6 +99,7 @@ Reserved for future use. Set to zero.
 ## -remarks
 
 
+
 A driver returns the <b>KSPROPERTY_DESCRIPTION</b> structure in response to a basic support property request from a client.
 
 The property values type set is specified by a KSIDENTIFIER structure. The basic set supported is <a href="https://msdn.microsoft.com/library/windows/hardware/ff566576">KSPROPSETID_General</a>. The identifiers within that set are the standard VARENUM types used for OLE.
@@ -109,15 +110,24 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+
 
 <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
+
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
+
+
 
  
 

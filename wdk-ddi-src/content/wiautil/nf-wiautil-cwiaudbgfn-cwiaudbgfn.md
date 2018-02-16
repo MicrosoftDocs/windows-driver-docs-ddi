@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: dbb367a7-d7e6-4081-9618-1c4e38cccd31
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, CWiauDbgFn, image.cwiaudbgfn_cwiaudbgfn, CWiauDbgFn method [Imaging Devices], CWiauDbgFn::CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], CWiauDbgFn method, wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, wiautil/CWiauDbgFn::CWiauDbgFn
+ms.keywords: CWiauDbgFn::CWiauDbgFn, CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], CWiauDbgFn method, wiautil/CWiauDbgFn::CWiauDbgFn, wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, CWiauDbgFn method [Imaging Devices], image.cwiaudbgfn_cwiaudbgfn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauDbgFn.CWiauDbgFn
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ Specifies the name of the function or method being entered.
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
@@ -84,7 +86,11 @@ This method does not return a value.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540356">CWiauDbgFn::~CWiauDbgFn</a>
 
+
+
 <a href="..\wiautil\nl-wiautil-cwiaudbgfn.md">CWiauDbgFn</a>
+
+
 
  
 

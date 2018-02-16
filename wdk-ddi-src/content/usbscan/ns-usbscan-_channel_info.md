@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._CHANNEL_INFO
-title: _CHANNEL_INFO
+title: "_CHANNEL_INFO"
 author: windows-driver-content
 description: The CHANNEL_INFO structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_CHANNEL_ALIGN_RQST.
 old-location: image\channel_info.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 1f1cb952-9a63-461f-b70f-4cc41b8d88f8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PCHANNEL_INFO structure pointer [Imaging Devices], usbscan/CHANNEL_INFO, *PCHANNEL_INFO, _CHANNEL_INFO, usbscan/PCHANNEL_INFO, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, CHANNEL_INFO, image.channel_info, PCHANNEL_INFO, CHANNEL_INFO structure [Imaging Devices]
+ms.keywords: usbscan/PCHANNEL_INFO, _CHANNEL_INFO, *PCHANNEL_INFO, CHANNEL_INFO, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, CHANNEL_INFO structure [Imaging Devices], image.channel_info, PCHANNEL_INFO, usbscan/CHANNEL_INFO, PCHANNEL_INFO structure pointer [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbscan.h
-apiname: 
+apiname:
 -	CHANNEL_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PCHANNEL_INFO, CHANNEL_INFO
+req.typenames: CHANNEL_INFO, *PCHANNEL_INFO
 req.product: Windows 10 or later.
 ---
 

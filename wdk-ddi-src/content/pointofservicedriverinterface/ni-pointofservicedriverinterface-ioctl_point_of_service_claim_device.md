@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
 product: Windows
 targetos: Windows
@@ -85,14 +85,18 @@ Not used with this operation; set to <b>0</b> (zero).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -123,8 +127,11 @@ The claim request was queued.
 ## -remarks
 
 
+
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
 
+
 This IOCTL is handled by the PosCx library. The driver writer does not need to handle this IOCTL. Instead, call <a href="..\poscx\nf-poscx-poscxclaimdevice.md">PosCxClaimDevice</a>. If the POS device is already claimed by another client, then the POS device driver is responsible for notifying the claim owner using a <a href="https://msdn.microsoft.com/library/windows/hardware/dn790033">ReleaseDeviceRequested</a> event and waiting for the claim owner to retain its claim within 50 milliseconds. If the claim is not reaffirmed, then the current claim owner's claim is automatically revoked and granted to the challenging client. 
+
 
 

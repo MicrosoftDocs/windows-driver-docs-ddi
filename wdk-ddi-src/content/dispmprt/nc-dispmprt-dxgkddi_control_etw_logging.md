@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkDdiControlEtwLogging
 product: Windows
 targetos: Windows
@@ -90,6 +90,8 @@ A value that indicates the level of event logging.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

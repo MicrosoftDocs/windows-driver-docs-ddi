@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfunifiedpropertystore_setpropertydata, SetPropertyData, SetPropertyData method, IWDFUnifiedPropertyStore interface, wdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore::SetPropertyData, IWDFUnifiedPropertyStore, SetPropertyData method, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData, IWDFUnifiedPropertyStore interface, SetPropertyData method
+ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, SetPropertyData method, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData, SetPropertyData method, wdf.iwdfunifiedpropertystore_setpropertydata, umdf.iwdfunifiedpropertystore_setpropertydata, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData method, IWDFUnifiedPropertyStore interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUnifiedPropertyStore.SetPropertyData
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -108,7 +108,9 @@ A pointer to the device property data. Set this parameter to <b>NULL</b> to dele
 ## -returns
 
 
+
 <b>SetPropertyData</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,13 +149,16 @@ The driver can modify device interface property data only  starting with  Window
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return an HRESULT-typed value corresponding to one of the other values that <i>Winerror.h</i> contains.
 
 
 
+
 ## -remarks
+
 
 
 Framework-based drivers use the <b>SetPropertyData</b> method to modify device properties that are defined as part of the unified device property model.
@@ -170,20 +175,77 @@ If the driver registers an interface in its INF file, it must set associated pro
 For more information about accessing the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
 
+#### Examples
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+SetFriendlyName(
+    _In_ IWDFUnifiedPropertyStore * pUnifiedPropertyStore
+    )
+{
+    HRESULT hr = S_OK;
+    WCHAR friendlyName[] = L"UMDF OSR USB Fx2 Test Device";
+
+    hr = pUnifiedPropertyStore-&gt;SetPropertyData(
+            &amp;DEVPKEY_Device_FriendlyName,
+            0, //Lcid
+            0, //Flags
+            DEVPROP_TYPE_STRING, //Type
+            sizeof(friendlyName),
+            friendlyName
+            );
+
+    if (FAILED(hr))
+    {
+        TraceEvents(
+            TRACE_LEVEL_ERROR,
+            TEST_TRACE_DEVICE,             
+            "SetPropertyData failed: hr = %!HRESULT!",
+            hr
+            );
+        goto exit;
+    }
+
+exit:
+    return hr;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
 
+
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451410">GetPropertyData</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
+
+
 
  
 

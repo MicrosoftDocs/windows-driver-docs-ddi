@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 304df6fb-8586-454a-a89a-24ac8848d3a1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortPause routine [Storage Devices], storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml, storport/StorPortPause, storage.storportpause, StorPortPause
+ms.keywords: StorPortPause, storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml, storage.storportpause, StorPortPause routine [Storage Devices], storport/StorPortPause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortPause
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ TBD
 
 
 
+
 #### - TimeOut [in]
 
 Specifies the interval of time, in seconds, that the adapter is to be paused. 
@@ -89,20 +90,26 @@ Specifies the interval of time, in seconds, that the adapter is to be paused.
 ## -returns
 
 
+
 <b>StorPortPause</b> returns <b>TRUE</b> if the miniport driver succeeded in pausing the adapter, <b>FALSE</b> if not. 
+
 
 
 
 ## -remarks
 
 
+
 All requests to the adapter are held until the time-out expires or the device resumes. All requests to all targets attached to the adapter will be held until the adapter is resumed or the time-out expires.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportresume.md">StorPortResume</a>
+
+
 
  
 

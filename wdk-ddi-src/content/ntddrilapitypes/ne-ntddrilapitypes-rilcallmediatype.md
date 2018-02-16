@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 993013f1-5026-4c30-b4df-958606adc8fa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CALLMEDIATYPE_VIDEO, RIL_CALLMEDIATYPE_MAX, ntddrilapitypes/RIL_CALLMEDIATYPE_MAX, ntddrilapitypes/RILCALLMEDIATYPE, RIL_CALLMEDIATYPE_AUDIO, ntddrilapitypes/RIL_CALLMEDIATYPE_AUDIO, netvista.rilcallmediatype, ntddrilapitypes/RIL_CALLMEDIATYPE_VIDEO, ntddrilapitypes/RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_CUSTOM, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RILCALLMEDIATYPE
+ms.keywords: ntddrilapitypes/RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_CUSTOM, RILCALLMEDIATYPE, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_VIDEO, ntddrilapitypes/RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_AUDIO, netvista.rilcallmediatype, ntddrilapitypes/RIL_CALLMEDIATYPE_VIDEO, RIL_CALLMEDIATYPE_MAX, ntddrilapitypes/RILCALLMEDIATYPE, ntddrilapitypes/RIL_CALLMEDIATYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIATYPE
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILCALLMEDIATYPE {
 ### -field RIL_CALLMEDIATYPE_UNKNOWN
 
 
-
 ### -field RIL_CALLMEDIATYPE_AUDIO
-
 
 
 ### -field RIL_CALLMEDIATYPE_VIDEO
 
 
-
 ### -field RIL_CALLMEDIATYPE_CUSTOM
 
 
-
 ### -field RIL_CALLMEDIATYPE_MAX
-
 

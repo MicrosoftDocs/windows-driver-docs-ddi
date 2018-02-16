@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddvdeo.h
-apiname: 
+apiname:
 -	IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
 product: Windows
 targetos: Windows
@@ -89,7 +89,9 @@ The VRP <b>InputBuffer</b> contains a <a href="..\video\ns-video-_video_child_st
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -101,21 +103,27 @@ The miniport driver returns 1 in the VRP <b>OutputBuffer</b> if the video port d
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -126,11 +134,17 @@ The miniport driver stores NO_ERROR in <b>Status</b> if it has successfully hand
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
 
+
+
 <a href="..\video\ns-video-_video_child_state_configuration.md">VIDEO_CHILD_STATE_CONFIGURATION</a>
+
+
+
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
  
 

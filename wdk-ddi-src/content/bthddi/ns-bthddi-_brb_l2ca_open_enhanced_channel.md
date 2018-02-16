@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_OPEN_ENHANCED_CHANNEL
-title: _BRB_L2CA_OPEN_ENHANCED_CHANNEL
+title: "_BRB_L2CA_OPEN_ENHANCED_CHANNEL"
 author: windows-driver-content
 description: The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an enhanced L2CAP channel to a remote device, or send a response for accepting/rejecting an incoming enhanced L2CAP connection request that was initiated by a remote device.
 old-location: bltooth\_brb_l2ca_open_enhanced_channel.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 34CA2A3E-871F-46D4-962A-8EE8D7B8DA15
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_l2ca_open_enhanced_channel, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth.brb_l2ca_open_enhanced_channel, BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices]
+ms.keywords: BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth.brb_l2ca_open_enhanced_channel, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth._brb_l2ca_open_enhanced_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows 8 and later versions of Windows
+req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bthddi.h
-apiname: 
+apiname:
 -	BRB_L2CA_OPEN_ENHANCED_CHANNEL
 product: Windows
 targetos: Windows
@@ -110,35 +110,47 @@ typedef struct _BRB_L2CA_OPEN_ENHANCED_CHANNEL {
 
 
 
-### -field ConfigOut
+### -field Hdr
 
-The substructure that contains parameter settings for a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> BRB sent to a remote
-     device.
-
-
-### -field ConfigOut.LocalQos
-
-Reserved for future use. Do not use.
+A 
+     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     about the current BRB.
 
 
-### -field ConfigOut.LocalQos.ServiceType
-
-Reserved for future use. Do not use.
+### -field ChannelHandle
 
 
-### -field ConfigOut.LocalQos.Latency
 
-Reserved for future use. Do not use.
-
-
-### -field ConfigOut.ModeConfig
-
-Specifies the type of L2CAP channel being opened. This structure is valid only if CFG_ENHANCED flag is specified.
+##### 
 
 
-### -field ConfigOut.ModeConfig.Flags
 
-Specifies the type of L2CAP channel mode requested.
+####### 
+
+
+### -field Response
+
+ 
+
+
+### -field ResponseStatus
+
+ 
+
+
+### -field Psm
+
+The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
+      When used with a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> request, this member is set as an input field. When used with a
+      <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request, this member is used as an output field.
+
+
+### -field ChannelFlags
+
+Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
+     the following table:
+     
+
 <table>
 <tr>
 <td>
@@ -152,43 +164,47 @@ Specifies the type of L2CAP channel mode requested.
 </tr>
 <tr>
 <td>
-CM_BASIC
+CF_LINK_AUTHENTICATED
 
 </td>
 <td>
-Open a basic mode channel.
+The link must be authenticated.
 
 </td>
 </tr>
 <tr>
 <td>
-CM_RETRANSMISSION_AND_FLOW
+CF_LINK_ENCRYPTED
 
 </td>
 <td>
-Open an enhanced retransmission mode channel.
+The link must be encrypted. Setting this flag also sets the CF_LINK_AUTHENTICATED flag.
 
 </td>
 </tr>
 <tr>
 <td>
-CM_STREAMING
+CF_LINK_SUPPRESS_PIN
 
 </td>
 <td>
-Open a streaming mode channel.
+The profile driver indicates its preference that users not be prompted for a PIN.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
-### -field ConfigOut.ModeConfig.RetransmissionAndFlow
+### -field BtAddress
 
-Specifies the options for
-CM_RETRANSMISSION_AND_FLOW and CM_STREAMING modes. This structure must be zero if only CM_BASIC is specified in the <b>Flags</b> member.
+The Bluetooth address of the device for which the connection is intended.
 
-The <b>Mode</b> submember of <b>RetransmissionAndFlow</b> should be set to 0. Use the <b>ModeConfig</b> submember of <b>RetransmissionAndFlow</b> to specify the type of channel to open.
+
+### -field ConfigOut
+
+The substructure that contains parameter settings for a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> BRB sent to a remote
+     device.
 
 
 ### -field ConfigOut.Flags
@@ -196,6 +212,7 @@ The <b>Mode</b> submember of <b>RetransmissionAndFlow</b> should be set to 0. Us
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
       
+
 <table>
 <tr>
 <td>
@@ -257,7 +274,8 @@ Specifies that the Fcs value is valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ConfigOut.Mtu
@@ -293,6 +311,83 @@ The number of array items that are contained in the
 Extra options. This value should be zero for most clients.
 
 
+### -field ConfigOut.LocalQos
+
+Reserved for future use. Do not use.
+
+
+### -field ConfigOut.LocalQos.ServiceType
+
+Reserved for future use. Do not use.
+
+
+### -field ConfigOut.LocalQos.Latency
+
+Reserved for future use. Do not use.
+
+
+### -field ConfigOut.ModeConfig
+
+Specifies the type of L2CAP channel being opened. This structure is valid only if CFG_ENHANCED flag is specified.
+
+
+### -field ConfigOut.ModeConfig.Flags
+
+Specifies the type of L2CAP channel mode requested.
+
+<table>
+<tr>
+<td>
+<b>Flag</b>
+
+</td>
+<td>
+<b>Description</b>
+
+</td>
+</tr>
+<tr>
+<td>
+CM_BASIC
+
+</td>
+<td>
+Open a basic mode channel.
+
+</td>
+</tr>
+<tr>
+<td>
+CM_RETRANSMISSION_AND_FLOW
+
+</td>
+<td>
+Open an enhanced retransmission mode channel.
+
+</td>
+</tr>
+<tr>
+<td>
+CM_STREAMING
+
+</td>
+<td>
+Open a streaming mode channel.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field ConfigOut.ModeConfig.RetransmissionAndFlow
+
+Specifies the options for
+CM_RETRANSMISSION_AND_FLOW and CM_STREAMING modes. This structure must be zero if only CM_BASIC is specified in the <b>Flags</b> member.
+
+The <b>Mode</b> submember of <b>RetransmissionAndFlow</b> should be set to 0. Use the <b>ModeConfig</b> submember of <b>RetransmissionAndFlow</b> to specify the type of channel to open.
+
+
 ### -field ConfigOut.Fcs
 
 Specifies whether FCS should be used for the enhanced L2CAP channel. This value is valid only if CM_RETRANSMISSION_AND_FLOW or CM_STREAMING flag is specified in the <b>Flags</b> member.
@@ -319,6 +414,7 @@ The substructure that contains parameter settings to validate incoming
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
       
+
 <table>
 <tr>
 <td>
@@ -360,7 +456,8 @@ The profile driver indicates its preference that users not be prompted for a PIN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ConfigIn.Mtu
@@ -375,93 +472,12 @@ The range of possible values to be used for the flush timeout for the inbound ha
       channel.
 
 
-### -field Response
-
- 
-
-
-### -field ResponseStatus
-
- 
-
-
-### -field Psm
-
-The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
-      When used with a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> request, this member is set as an input field. When used with a
-      <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request, this member is used as an output field.
-
-
-### -field Hdr
-
-A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
-     about the current BRB.
-
-
-### -field ChannelHandle
-
-
-
-### -field ChannelFlags
-
-Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
-     the following table:
-     
-<table>
-<tr>
-<td>
-<b>Flag</b>
-
-</td>
-<td>
-<b>Description</b>
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_AUTHENTICATED
-
-</td>
-<td>
-The link must be authenticated.
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_ENCRYPTED
-
-</td>
-<td>
-The link must be encrypted. Setting this flag also sets the CF_LINK_AUTHENTICATED flag.
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_SUPPRESS_PIN
-
-</td>
-<td>
-The profile driver indicates its preference that users not be prompted for a PIN.
-
-</td>
-</tr>
-</table> 
-
-
-### -field BtAddress
-
-The Bluetooth address of the device for which the connection is intended.
-
-
 ### -field CallbackFlags
 
 A flag that specifies which events should generate a callback routine to notify the profile driver
      that the event has occurred. Valid flag values are contained in the following table.
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -526,14 +542,15 @@ If set, the callback routine will be called when the profile driver receives an 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Callback
 
 The 
-     <mshelp:link keywords="bltooth.enhanced_l2cap_callback_function" tabindex="0"><i>Enhanced L2CAP Callback
-     Function</i></mshelp:link> implemented by the profile driver, that the Bluetooth driver stack should call to notify
+     <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback_enhanced.md">Enhanced L2CAP Callback
+     Function</a> implemented by the profile driver, that the Bluetooth driver stack should call to notify
      the profile driver about any changes to the enhanced L2CAP connection.
 
 
@@ -574,7 +591,15 @@ Specifies the incoming queue length in message transfer units (MTUs).
 Reserved member. Do not use.
 
 
-##### - ( unnamed struct ).Response
+#### - ( unnamed struct )
+
+A 
+      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+      about the current BRB.
+
+
+
+#### Response
 
 This member is used as an input parameter for a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> request and an
        output parameter for the <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request.
@@ -582,6 +607,7 @@ This member is used as an input parameter for a <b>BRB_L2CA_OPEN_ENHANCED_CHANNE
 
 For a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request, this member holds a flag that indicates the profile
        driver's response to the remote device. Valid flag values are contained in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -637,11 +663,13 @@ The profile driver accepted the connection.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For the <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> BRB, this member contains the response from the remote device to
        which the profile driver attempted to connect. Valid flag values are contained in the following
        table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -687,64 +715,38 @@ The remote device accepted the connection.
 
 </td>
 </tr>
-</table> 
-
-
-##### - ( unnamed struct ).ResponseStatus
-
-
-
-###### - ChannelHandle.For a BRB_L2CA_OPEN_ENHANCED_CHANNEL request, this member will contain a handle to identify the enhanced L2CAP
-     channel, if the open channel request completes successfully.
+</table>
+ 
 
 
 
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_NO_INFORMATION
+#### ResponseStatus
 
 
 
-#### - ( unnamed struct )
-
-A 
-      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
-      about the current BRB.
-
-
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_AUTHENTICATION_PENDING
-
-
-
-###### - ( unnamed struct ).ResponseStatus.If during a call to the BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE BRB the 
+##### If during a call to the BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE BRB the 
        Response member is set to CONNECT_RSP_RESULT_PENDING, this member is valid and contains one of
        the following values:
 
 
 
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_AUTHORIZATION_PENDING
+##### CONNECT_RSP_STATUS_AUTHENTICATION_PENDING
 
 
 
-######## - ChannelHandle.For a BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE request, the profile driver (acting as a server) provides
-     this member's value prior to sending the BRB down the driver stack. This member's value should be set to
-     the 
-     INDICATION_PARAMETERS structure's 
-     ConnectionHandle member value if the 
-     INDICATION_CODE enumeration's 
-     IndicationRemoteConnect value is specified. These values are passed as the 
-     Parameters and 
-     Indication arguments of the profile driver's 
-     L2CAP Callback Function that was
-     registered as the 
-     IndicationCallback member when the profile driver built and sent a 
-     
-     BRB_L2CA_REGISTER_SERVER request.
+##### CONNECT_RSP_STATUS_AUTHORIZATION_PENDING
 
+
+
+##### CONNECT_RSP_STATUS_NO_INFORMATION
 
 
 ## -remarks
 
 
+
 Profile drivers can use CM_BASIC | CM_RETRANSMISSION_AND_FLOW, or CM_BASIC | CM_STREAMING modes for the <b>Flags</b> member. This indicates to open an enhanced retransmission mode, or streaming mode channel if possible, and if not fall back to basic mode channel. 
 A value of CM_RETRANSMISSION_AND_FLOW | CM_STREAMING is not supported.
+
 
 

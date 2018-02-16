@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 48068d1d-3fe7-4bd6-8c91-094e4187ca1f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigvalue, *LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE
+ms.keywords: ntddrilapitypes/RILRESETMODEMCONFIGVALUE, netvista.rilresetmodemconfigvalue, RILRESETMODEMCONFIGVALUE, *LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILRESETMODEMCONFIGVALUE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE
+req.typenames: RILRESETMODEMCONFIGVALUE, *LPRILRESETMODEMCONFIGVALUE
 ---
 
 # RILRESETMODEMCONFIGVALUE structure
@@ -73,8 +73,13 @@ typedef struct _RILRESETMODEMCONFIGVALUE {
 
 
 
-### -field configValueUnion
+### -field cbSize
 
+
+### -field dwType
+
+
+### -field configValueUnion
 
 
 ### -field configValueUnion.fValue
@@ -95,23 +100,11 @@ typedef struct _RILRESETMODEMCONFIGVALUE {
 ### -field RILRESETMODEMCONFIGVALUEUNION
 
 
-
-### -field cbSize
-
-
-
-### -field dwType
-
-
-
 #### - dwValue
-
 
 
 #### - fValue
 
 
-
 #### - wszValue
-
 

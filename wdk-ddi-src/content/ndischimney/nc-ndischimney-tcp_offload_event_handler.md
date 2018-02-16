@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	ProtocolTcpOffloadEvent
 product: Windows
 targetos: Windows
@@ -54,8 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol driver's or intermediate driver's 
   <i>ProtocolIndicateOffloadEvent</i> function to post an indication that was initiated by an underlying
   driver's or offload target's call to the 
-  <mshelp:link keywords="netvista.ndistcpoffloadeventhandler" tabindex="0"><b>
-  NdisTcpOffloadEventHandler</b></mshelp:link> function.
+  <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+  NdisTcpOffloadEventHandler</a> function.
 
 
 ## -prototype
@@ -96,6 +96,33 @@ The event being indicated as one of the following TCP_OFFLOAD_EVENT_TYPE values:
 
 
 
+
+#### TcpIndicateDisconnect
+
+Indicates that the remote host initiated a graceful disconnect by sending a FIN segment on the
+       connection.
+
+
+
+#### TcpIndicateRetrieve
+
+Indicates that the offload target is requesting the host stack to terminate the offload of a TCP
+       connection.
+
+
+
+#### TcpIndicateAbort
+
+Indicates that the remote host initiated an abortive disconnect by sending an acceptable RST
+       segment on the connection.
+
+
+
+#### TcpIndicateSendBacklogChange
+
+Indicates a change in the preferred send backlog size.
+
+
 ### -param EventSpecificInformation [in]
 
 Specifies additional information about the event being indicated as follows:
@@ -104,74 +131,59 @@ Specifies additional information about the event being indicated as follows:
 
 
 
-##### - EventType.TcpIndicateDisconnect
 
-Indicates that the remote host initiated a graceful disconnect by sending a FIN segment on the
-       connection.
+#### TcpIndicateDisconnect
 
-
-##### - EventType.TcpIndicateSendBacklogChange
-
-Indicates a change in the preferred send backlog size.
+Not meaningful.
 
 
-##### - EventType.TcpIndicateAbort
 
-Indicates that the remote host initiated an abortive disconnect by sending an acceptable RST
-       segment on the connection.
+#### TcpIndicateRetrieve
+
+Indicates the reason for the upload request as a TCP_UPLOAD_REASON value. For more information,
+       see 
+       <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+       NdisTcpOffloadEventHandler</a>.
 
 
-##### - EventSpecificInformation.TcpIndicateSendBacklogChange
+
+#### TcpIndicateAbort
+
+Not meaningful.
+
+
+
+#### TcpIndicateSendBacklogChange
 
 Specifies the optimum number of send data bytes that the host stack should have outstanding at
        the offload target in order to achieve the best data throughput.
 
 
-##### - EventType.TcpIndicateRetrieve
-
-Indicates that the offload target is requesting the host stack to terminate the offload of a TCP
-       connection.
-
-
-##### - EventSpecificInformation.TcpIndicateAbort
-
-Not meaningful.
-
-
-##### - EventSpecificInformation.TcpIndicateDisconnect
-
-Not meaningful.
-
-
-##### - EventSpecificInformation.TcpIndicateRetrieve
-
-Indicates the reason for the upload request as a TCP_UPLOAD_REASON value. For more information,
-       see 
-       <mshelp:link keywords="netvista.ndistcpoffloadeventhandler" tabindex="0"><b>
-       NdisTcpOffloadEventHandler</b></mshelp:link>.
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 To propagate the indication to the overlying driver or host stack, the intermediate driver calls the 
     <b>NdisTcpOffloadEventHandler</b> function. The intermediate driver passes the following parameters to the
     
     <b>NdisTcpOffloadEventHandler</b> function:
+
 <ul>
 <li>
 The 
       <b>NdisOffloadHandle</b> that the offload target stored in its context for the offloaded TCP connection.
       For more information, see 
-      <mshelp:link keywords="netvista.referencing_offloaded_state_through_an_intermediate_driver" tabindex="0">
-      Referencing Offloaded State Through an Intermediate Driver</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
+      Referencing Offloaded State Through an Intermediate Driver</a>.
 
 </li>
 <li>
@@ -189,9 +201,12 @@ The
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
+
+
 
  
 

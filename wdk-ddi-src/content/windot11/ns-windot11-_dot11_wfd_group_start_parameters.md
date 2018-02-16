@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_GROUP_START_PARAMETERS
-title: _DOT11_WFD_GROUP_START_PARAMETERS
+title: "_DOT11_WFD_GROUP_START_PARAMETERS"
 author: windows-driver-content
 description: The DOT11_WFD_GROUP_START_PARAMETERS structure is included with an OID_DOT11_WFD_GROUP_START_PARAMETERS request. The structure contains startup parameters for a Group Owner (GO).
 old-location: netvista\dot11_wfd_group_start_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA17F7DB-E6E7-4934-8AAF-73800ABF1432
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _DOT11_WFD_GROUP_START_PARAMETERS, netvista.dot11_wfd_group_start_parameters, *PDOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_GROUP_START_PARAMETERS, PDOT11_WFD_GROUP_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_WFD_GROUP_START_PARAMETERS, PDOT11_WFD_GROUP_START_PARAMETERS
+ms.keywords: windot11/PDOT11_WFD_GROUP_START_PARAMETERS, windot11/DOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS, *PDOT11_WFD_GROUP_START_PARAMETERS, _DOT11_WFD_GROUP_START_PARAMETERS, PDOT11_WFD_GROUP_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_wfd_group_start_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_WFD_GROUP_START_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WFD_GROUP_START_PARAMETERS, DOT11_WFD_GROUP_START_PARAMETERS
+req.typenames: DOT11_WFD_GROUP_START_PARAMETERS, *PDOT11_WFD_GROUP_START_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -72,6 +72,7 @@ typedef struct _DOT11_WFD_GROUP_START_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_WFD_GROUP_START_PARAMETERS</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -89,7 +90,8 @@ The type, revision, and size of the <b>DOT11_WFD_GROUP_START_PARAMETERS</b> stru
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_WFD_GROUP_START_PARAMETERS_REVISION_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AdvertisedOperatingChannel
@@ -100,6 +102,8 @@ The channel information originally sent to the Client in a GO Negotiation or Inv
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451800">OID_DOT11_WFD_GROUP_START_PARAMETERS</a>
+
+
 
  
 

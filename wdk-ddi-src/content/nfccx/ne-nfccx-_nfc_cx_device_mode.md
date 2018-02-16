@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_DEVICE_MODE
-title: _NFC_CX_DEVICE_MODE
+title: "_NFC_CX_DEVICE_MODE"
 author: windows-driver-content
 description: Specifies device mode flags.
 old-location: nfpdrivers\nfc_cx_device_mode.htm
@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: B9996339-984D-4F6B-BFE9-2F536EC75924
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: _NFC_CX_DEVICE_MODE, nfccx/NFC_CX_DEVICE_MODE_NCI, NFC_CX_DEVICE_MODE enumeration [Near-Field Proximity Drivers], nfccx/NFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE, nfpdrivers.nfc_cx_device_mode, NFC_CX_DEVICE_MODE_RAW, NFC_CX_DEVICE_MODE_NCI, nfccx/NFC_CX_DEVICE_MODE_RAW, *PNFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE_DTA, nfccx/NFC_CX_DEVICE_MODE_DTA
+ms.keywords: NFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE_RAW, NFC_CX_DEVICE_MODE_DTA, NFC_CX_DEVICE_MODE_NCI, nfccx/NFC_CX_DEVICE_MODE_DTA, _NFC_CX_DEVICE_MODE, *PNFC_CX_DEVICE_MODE, nfccx/NFC_CX_DEVICE_MODE, nfpdrivers.nfc_cx_device_mode, nfccx/NFC_CX_DEVICE_MODE_RAW, nfccx/NFC_CX_DEVICE_MODE_NCI, NFC_CX_DEVICE_MODE enumeration [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfccx.h
-apiname: 
+apiname:
 -	NFC_CX_DEVICE_MODE
 product: Windows
 targetos: Windows
@@ -88,7 +88,11 @@ Enable RAW mode.
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
 
  
 

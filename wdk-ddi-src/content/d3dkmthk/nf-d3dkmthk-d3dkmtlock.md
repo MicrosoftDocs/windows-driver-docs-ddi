@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d64abd43-edf2-465a-8d99-8fdce1fcd25f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTLock, display.d3dkmtlock, D3DKMTLock function [Display Devices], OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, d3dkmthk/D3DKMTLock
+ms.keywords: OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, D3DKMTLock, display.d3dkmtlock, D3DKMTLock function [Display Devices], d3dkmthk/D3DKMTLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTLock
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ NTSTATUS D3DKMTLock(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock.md">D3DKMT_LOCK</a> structure that describes parameters for locking an allocation.
@@ -79,7 +80,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock.md">D3DKMT_LOCK</a>
 ## -returns
 
 
+
 <b>D3DKMTLock</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,22 +154,58 @@ The allocation could not be locked because a deswizzling aperture was unavailabl
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 The <b>D3DKMTLock</b> function is called to access system memory allocations and video memory allocations.
+
+
+#### Examples
+
+The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTLock</b> to lock an entire allocation.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID* LockEntireAllocation(D3DKMT_HANDLE hDevice, D3DKMT_HANDLE hAllocation, UINT PrivateData)
+{
+    D3DKMT_LOCK LockAllocation = {0};
+
+    LockAllocation.hDevice = hDevice;
+    LockAllocation.hAllocation = LockData.hAllocation;
+    LockAllocation.Flags.LockEntire = TRUE;
+    LockAllocation.PrivateDriverData = PrivateData;
+    LockAllocation.NumPages = 0;
+    LockAllocation.pPages = NULL;
+ 
+    if (NT_SUCCESS((*pfnKTLock)(&amp;LockAllocation))) {
+        return LockAllocation.pData;
+    }
+    return NULL;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock.md">D3DKMT_LOCK</a>
+
+
 
  
 

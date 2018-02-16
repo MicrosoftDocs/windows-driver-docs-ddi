@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	strmini.h
-apiname: 
+apiname:
 -	StrMiniPriorityRoutine
 product: Windows
 targetos: Windows
@@ -79,20 +79,26 @@ Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to t
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The minidriver provides a pointer to this routine in the <b>Priority</b> parameter of a call to <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>
+
+
 
  
 

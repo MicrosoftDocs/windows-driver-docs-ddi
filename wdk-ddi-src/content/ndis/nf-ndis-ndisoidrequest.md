@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a3ddeec4-0414-48ed-ab3b-5df252682655
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest, NdisOidRequest
+ms.keywords: NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest, ndis/NdisOidRequest, NdisOidRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisOidRequest
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisOidRequest function
@@ -88,8 +88,10 @@ A pointer to an
 ## -returns
 
 
+
 The underlying driver determines which NDIS_STATUS_<i>XXX</i> code 
      <b>NdisOidRequest</b> returns, but it is usually one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,8 +116,8 @@ The request operation completed successfully.
 </td>
 <td width="60%">
 The request is being handled asynchronously, and NDIS will call the caller's 
-       <mshelp:link keywords="netvista.protocoloidrequestcomplete" tabindex="0"><i>
-       ProtocolOidRequestComplete</i></mshelp:link> function when the request is completed.
+       <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">
+       ProtocolOidRequestComplete</a> function when the request is completed.
 
 </td>
 </tr>
@@ -238,11 +240,14 @@ This value usually is a nonspecific default, returned when none of the more spec
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A protocol driver must allocate sufficient memory to hold the information buffer that is associated
@@ -275,15 +280,24 @@ For more information about the general and media-specific OIDs and their respect
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+
 
 <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
+
+
 
  
 

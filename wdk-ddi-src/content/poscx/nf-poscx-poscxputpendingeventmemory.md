@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: DF9CA4A8-4B2A-4DED-9514-422AC5E0940D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxputpendingeventmemory, PosCxPutPendingEventMemory, poscx/PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function
+ms.keywords: pos.poscxputpendingeventmemory, PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function, poscx/PosCxPutPendingEventMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxPutPendingEventMemory
 product: Windows
 targetos: Windows
@@ -99,7 +99,9 @@ The event attributes.
 ## -returns
 
 
+
 Possible return values are:
+
 <table>
 <tr>
 <td><b>STATUS_SUCCESS</b></td>
@@ -119,13 +121,17 @@ Possible return values are:
 <td>Other errors</td>
 <td>Other appropriate failure error codes.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\poscx\ne-poscx-_pos_cx_event_attributes.md">POS_CX_EVENT_ATTRIBUTES</a>
+
+
 
  
 

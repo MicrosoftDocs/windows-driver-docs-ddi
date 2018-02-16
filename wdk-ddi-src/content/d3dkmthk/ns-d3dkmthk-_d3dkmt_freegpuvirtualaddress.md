@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FREEGPUVIRTUALADDRESS
-title: _D3DKMT_FREEGPUVIRTUALADDRESS
+title: "_D3DKMT_FREEGPUVIRTUALADDRESS"
 author: windows-driver-content
 description: D3DKMT_FREEGPUVIRTUALADDRESS is used with FreeGpuVirtualAddress to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 old-location: display\d3dkmt_freegpuvirtualaddress.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], display.d3dkmt_freegpuvirtualaddress, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS
+ms.keywords: D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, _D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_FREEGPUVIRTUALADDRESS
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtfreegpuvirtualaddress.md">FreeGpuVirtualAddress</a>
+
+
 
  
 

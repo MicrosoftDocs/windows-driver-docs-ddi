@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntdddisk.h
-apiname: 
+apiname:
 -	IOCTL_DISK_CONTROLLER_NUMBER
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +113,8 @@ The <b>Status</b> field is set to STATUS_SUCCESS if the operation is successful.
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_controller_number.md">DISK_CONTROLLER_NUMBER</a>
+
+
 
  
 

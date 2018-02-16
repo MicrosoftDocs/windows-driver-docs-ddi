@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	SetScissorRects
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETSCISSORRECTS callback
@@ -76,16 +76,15 @@ VOID APIENTRY SetScissorRects(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param NumRects
-
 
 
 ### -param ClearRects
 
 
-
 ### -param *
+
+
 
 
 
@@ -99,9 +98,9 @@ VOID APIENTRY SetScissorRects(
 Note that the number that <i>ClearScissorRects</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
 
-#### - pRects [in]
+#### - NumScissorRects [in]
 
- An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the render-target portions to mark. 
+ The total number of render-target portions that the <i>pRects</i> parameter specifies. 
 
 
 #### - hDevice [in]
@@ -109,12 +108,13 @@ Note that the number that <i>ClearScissorRects</i> specifies is only an optimiza
  A handle to the display device (graphics context).
 
 
-#### - NumScissorRects [in]
+#### - pRects [in]
 
- The total number of render-target portions that the <i>pRects</i> parameter specifies. 
+ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the render-target portions to mark. 
 
 
 ## -returns
+
 
 
 None
@@ -123,10 +123,13 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
 
 
+
 The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -136,7 +139,8 @@ The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com
 <pre>typedef RECT D3D10_DDI_RECT;</pre>
 </td>
 </tr>
-</table></span></div>The user-mode display driver must set all render-target portions atomically as one operation. 
+</table></span></div>
+The user-mode display driver must set all render-target portions atomically as one operation. 
 
 Although the <i>NumScissorRects</i> parameter specifies the number of render-target portions in the array that the <i>pRects</i> parameter specifies, some values in the array can be <b>NULL</b>. 
 
@@ -150,13 +154,20 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
 
  
 

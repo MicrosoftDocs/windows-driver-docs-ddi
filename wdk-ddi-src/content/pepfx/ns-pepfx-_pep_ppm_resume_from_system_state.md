@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_RESUME_FROM_SYSTEM_STATE
-title: _PEP_PPM_RESUME_FROM_SYSTEM_STATE
+title: "_PEP_PPM_RESUME_FROM_SYSTEM_STATE"
 author: windows-driver-content
 description: Used by the PEP_NOTIFY_PPM_RESUME_FROM_SYSTEM_STATE notification that notifies the PEP that the system has just resumed from a system power state.
 old-location: kernel\pep_ppm_resume_from_system_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 281f223a-1189-4045-9a3a-17433432a6a3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_ppm_resume_from_system_state, *PPEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE, _PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE
+ms.keywords: kernel.pep_ppm_resume_from_system_state, pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE, *PPEP_PPM_RESUME_FROM_SYSTEM_STATE, _PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pepfx.h
-apiname: 
+apiname:
 -	PEP_PPM_RESUME_FROM_SYSTEM_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE
+req.typenames: PEP_PPM_RESUME_FROM_SYSTEM_STATE, *PPEP_PPM_RESUME_FROM_SYSTEM_STATE
 ---
 
 # _PEP_PPM_RESUME_FROM_SYSTEM_STATE structure
@@ -75,6 +75,8 @@ On input, a <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
+
+
 
  
 

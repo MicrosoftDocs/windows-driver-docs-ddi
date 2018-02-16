@@ -7,8 +7,8 @@ old-location: ifsk\mapsecurityerror.htm
 old-project: ifsk
 ms.assetid: 899b7d6e-a17b-4030-9512-591b003ca6b2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.mapsecurityerror, IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, MapSecurityError function [Installable File System Drivers], MapSecurityError, ntifs/MapSecurityError
+ms.date: 2/7/2018
+ms.keywords: MapSecurityError, ifsk.mapsecurityerror, IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, MapSecurityError function [Installable File System Drivers], ntifs/MapSecurityError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MapSecurityError
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ TBD
 
 
 
+
 #### - Error [in]
 
 The security interface SECURITY_STATUS status code to be mapped.
@@ -81,13 +82,17 @@ The security interface SECURITY_STATUS status code to be mapped.
 ## -returns
 
 
+
 The NTSTATUS status code corresponding to the input Error status code.
+
 
 
 
 ## -remarks
 
 
+
 This function maps a security interface status code of type SECURITY_STATUS to a corresponding NSTATUS status code.
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1d577588-72cf-44f2-b1bb-ebab0ee52fd6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], kernel.iogetconfigurationinformation, IoGetConfigurationInformation, k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, ntddk/IoGetConfigurationInformation
+ms.keywords: IoGetConfigurationInformation, kernel.iogetconfigurationinformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], ntddk/IoGetConfigurationInformation, k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetConfigurationInformation
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoGetConfigurationInformation function
@@ -66,10 +66,13 @@ PCONFIGURATION_INFORMATION IoGetConfigurationInformation(void);
 
 
 
+
 ## -returns
 
 
+
 <b>IoGetConfigurationInformation</b> returns a pointer to the configuration information structure. This structure is defined as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -122,7 +125,9 @@ PCONFIGURATION_INFORMATION IoGetConfigurationInformation(void);
 </table></span></div>
 
 
+
 ## -remarks
+
 
 
 Certain types of device drivers can use the configuration information structure's values to construct device object names with appropriate digit suffixes when each driver creates its device objects. Note that the digit suffix for device object names is a zero-based count, while the counts maintained in the configuration information structure represent the number of device objects of a particular type already created. That is, the configuration information counts are one-based.
@@ -135,19 +140,32 @@ The configuration information structure also contains a value indicating whether
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 04cbc86b-a977-43bd-a736-3a7258c671fd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortGetCurrentIrql, VideoPort_Functions_acfcf9f4-819a-4fc5-ae4f-214a78059e7a.xml, display.videoportgetcurrentirql, video/VideoPortGetCurrentIrql, VideoPortGetCurrentIrql function [Display Devices]
+ms.keywords: VideoPortGetCurrentIrql function [Display Devices], VideoPortGetCurrentIrql, display.videoportgetcurrentirql, VideoPort_Functions_acfcf9f4-819a-4fc5-ae4f-214a78059e7a.xml, video/VideoPortGetCurrentIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortGetCurrentIrql
 product: Windows
 targetos: Windows
@@ -67,9 +67,12 @@ UCHAR VideoPortGetCurrentIrql(void);
 
 
 
+
 ## -returns
 
 
+
 <b>VideoPortGetCurrentIrql</b> returns the current IRQL.
+
 
 

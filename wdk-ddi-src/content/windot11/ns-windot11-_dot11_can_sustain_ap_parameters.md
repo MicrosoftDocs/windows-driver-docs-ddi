@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_CAN_SUSTAIN_AP_PARAMETERS
-title: _DOT11_CAN_SUSTAIN_AP_PARAMETERS
+title: "_DOT11_CAN_SUSTAIN_AP_PARAMETERS"
 author: windows-driver-content
 description: The DOT11_CAN_SUSTAIN_AP_PARAMETERS structure specifies the reason why the NIC can sustain an access point (AP).
 old-location: netvista\dot11_can_sustain_ap_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8d7995f3-6cc1-4f3c-a016-b31dc69ddd7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_can_sustain_ap_parameters, _DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PDOT11_CAN_SUSTAIN_AP_PARAMETERS
+ms.keywords: DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS, *PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], _DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_can_sustain_ap_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_CAN_SUSTAIN_AP_PARAMETERS
 product: Windows
 targetos: Windows
@@ -82,6 +82,25 @@ The miniport driver must set the members of
 
 
 
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+
+#### Revision
+
+This member must be set to DOT11_CAN_SUSTAIN_AP_PARAMETERS_REVISION_1.
+
+
+
+#### Size
+
+This member must be set to 
+       <b>sizeof</b>(DOT11_CAN_SUSTAIN_AP_PARAMETERS).
+
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -94,53 +113,45 @@ A ULONG value that specifies the reason why the NIC can sustain the AP. An IHV c
 
 
 
+
+
+#### DOT11_CAN_SUSTAIN_AP_REASON_IHV_END
+
+The end value of possible IHV-specified reasons.
+
+
+
+#### DOT11_CAN_SUSTAIN_AP_REASON_IHV_START
+
+The start value of possible IHV-specified reasons.
+
 If the value of 
      <b>ulReason</b> is in the range of DOT11_CAN_SUSTAIN_AP_REASON_IHV_START and
      DOT11_STOP_AP_REASON_IHV_END, inclusive, the operating system takes no action.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_CAN_SUSTAIN_AP_PARAMETERS_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <b>sizeof</b>(DOT11_CAN_SUSTAIN_AP_PARAMETERS).
-
-
-##### - ulReason.DOT11_CAN_SUSTAIN_AP_REASON_IHV_END
-
-The end value of possible IHV-specified reasons.
-
-
-##### - ulReason.DOT11_CAN_SUSTAIN_AP_REASON_IHV_START
-
-The start value of possible IHV-specified reasons.
-
-
 ## -remarks
+
 
 
 The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS structure when the driver
     makes an 
-    <mshelp:link keywords="netvista.ndis_status_dot11_can_sustain_ap" tabindex="0">
-    NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</mshelp:link> status indication.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
+    NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</a> status indication.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndis_status_dot11_can_sustain_ap" tabindex="0">
-   NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</mshelp:link>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
+   NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a01f1552-7bc5-4ae7-a195-c4cfc3553595
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortInterlockedExchange, display.videoportinterlockedexchange, VideoPortInterlockedExchange function [Display Devices], VideoPort_Functions_2b2228a1-aca1-4661-ab6a-8747213bcd26.xml, video/VideoPortInterlockedExchange
+ms.keywords: VideoPort_Functions_2b2228a1-aca1-4661-ab6a-8747213bcd26.xml, VideoPortInterlockedExchange, video/VideoPortInterlockedExchange, display.videoportinterlockedexchange, VideoPortInterlockedExchange function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortInterlockedExchange
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Specifies the value to be stored in <i>Target</i>, which indicates whether the m
 ## -returns
 
 
+
 <b>VideoPortInterlockedExchange</b> returns the value that <i>Target</i> had prior to the function call.
 
 
 
+
 ## -remarks
+
 
 
 <b>VideoPortInterlockedExchange</b> can be used to prevent DMA common-buffer contention in multiple-processor systems.
@@ -95,13 +98,20 @@ When the buffer is not being read from or written to, the lock variable should h
 
 
 
-## -see-also
 
-<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
+## -see-also
 
 <a href="..\video\nf-video-videoportinterlockedincrement.md">VideoPortInterlockedIncrement</a>
 
+
+
 <a href="..\video\nf-video-videoportgetcommonbuffer.md">VideoPortGetCommonBuffer</a>
+
+
+
+<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
+
+
 
  
 

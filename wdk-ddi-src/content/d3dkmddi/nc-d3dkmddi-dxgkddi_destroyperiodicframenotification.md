@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ A structure of type <i>PDXGKARG_DESTROYPERIODICFRAMENOTIFICATION</i> containing 
 ## -returns
 
 
+
 DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,6 +105,8 @@ Indicates that there was an invalid parameter passed to the call.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PACKET_SERVICE_STATE
-title: _WWAN_PACKET_SERVICE_STATE
+title: "_WWAN_PACKET_SERVICE_STATE"
 author: windows-driver-content
 description: The WWAN_PACKET_SERVICE_STATE enumeration lists the different packet service attachment states that are supported by the MB device.
 old-location: netvista\wwan_packet_service_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 542a8a3b-7704-434c-ad81-0cf8e1f70015
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanPacketServiceStateAttached, wwan/WwanPacketServiceStateAttaching, _WWAN_PACKET_SERVICE_STATE, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, wwan/WwanPacketServiceStateDetached, WwanPacketServiceStateDetaching, PWWAN_PACKET_SERVICE_STATE, WwanPacketServiceStateAttached, WwanPacketServiceStateDetached, *PWWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateDetaching, netvista.wwan_packet_service_state, wwan/WwanPacketServiceStateUnknown, wwan/PWWAN_PACKET_SERVICE_STATE, wwan/WWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPacketServiceStateAttaching, WwanPacketServiceStateUnknown, WWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: WwanPacketServiceStateAttached, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPacketServiceStateDetaching, WwanPacketServiceStateUnknown, wwan/WwanPacketServiceStateAttached, wwan/WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateDetached, _WWAN_PACKET_SERVICE_STATE, wwan/PWWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttaching, WWAN_PACKET_SERVICE_STATE, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, PWWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_packet_service_state, wwan/WwanPacketServiceStateDetaching, *PWWAN_PACKET_SERVICE_STATE, WwanPacketServiceStateDetached, wwan/WwanPacketServiceStateUnknown, WwanPacketServiceStateAttaching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PACKET_SERVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE
+req.typenames: "*PWWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -102,13 +102,17 @@ Packet service is detached.
 ## -remarks
 
 
+
 The packet service attach or detach state is typically reflected in the device's user interface.
+
 
 
 
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a>
+
+
 
  
 

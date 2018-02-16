@@ -2,13 +2,13 @@
 UID: NF:winsplp.ReplyPrinterChangeNotificationEx
 title: ReplyPrinterChangeNotificationEx function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\replyprinterchangenotificationex.htm
 old-project: print
 ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: winsplp/ReplyPrinterChangeNotificationEx, print.replyprinterchangenotificationex, ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], winsplp/ReplyPrinterChangeNotificationEx, print.replyprinterchangenotificationex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	ReplyPrinterChangeNotificationEx
 product: Windows
 targetos: Windows
@@ -75,19 +75,14 @@ req.product: Windows 10 or later.
 ### -param hNotify [in]
 
 
-
 ### -param dwColor
-
 
 
 ### -param fdwFlags
 
 
-
 ### -param pdwResult [out]
 
 
-
 ### -param pPrinterNotifyInfo [in]
-
 

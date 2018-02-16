@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 90e921e3-b384-495b-8cb6-74596d060ec0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisifderegisterprovider, net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml, NdisIfDeregisterProvider, NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterProvider
+ms.keywords: net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml, NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista], netvista.ndisifderegisterprovider, ndis/NdisIfDeregisterProvider, NdisIfDeregisterProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisIfDeregisterProvider
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIfDeregisterProvider function
@@ -53,8 +53,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisIfDeregisterProvider</b> function deregisters an interface provider that was previously registered by
   a call to the 
-  <mshelp:link keywords="netvista.ndisifregisterprovider" tabindex="0"><b>
-  NdisIfRegisterProvider</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">
+  NdisIfRegisterProvider</a> function.
 
 
 ## -syntax
@@ -76,18 +76,21 @@ VOID NdisIfDeregisterProvider(
 
 A handle that identifies the network interface provider. The caller obtained this handle from a
      previous call to the 
-     <mshelp:link keywords="netvista.ndisifregisterprovider" tabindex="0"><b>
-     NdisIfRegisterProvider</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">
+     NdisIfRegisterProvider</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -96,8 +99,8 @@ NDIS drivers call the
 
 The interface provider must ensure that it does not have any interfaces registered when it calls 
     <b>NdisIfDeregisterProvider</b>. To deregister interfaces, the provider must call the 
-    <mshelp:link keywords="netvista.ndisifderegisterinterface" tabindex="0"><b>
-    NdisIfDeregisterInterface</b></mshelp:link> function once for each registered interface.
+    <a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">
+    NdisIfDeregisterInterface</a> function once for each registered interface.
 
 The provider must not use the provider handle that it passed at the 
     <i>NdisProviderHandle</i> parameter after it calls 
@@ -105,11 +108,16 @@ The provider must not use the provider handle that it passed at the
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
 
-<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._LogoutFromTarget_OUT
-title: _LogoutFromTarget_OUT
+title: "_LogoutFromTarget_OUT"
 author: windows-driver-content
 description: The LogoutFromTarget_OUT structure holds the output data for the LogoutFromTarget method.
 old-location: storage\logoutfromtarget_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 15231188-5c6d-4e36-afe9-74b92f445fa3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PLogoutFromTarget_OUT, LogoutFromTarget_OUT, PLogoutFromTarget_OUT structure pointer [Storage Devices], storage.logoutfromtarget_out, *PLogoutFromTarget_OUT, PLogoutFromTarget_OUT, LogoutFromTarget_OUT structure [Storage Devices], structs-iSCSI_3ef612e0-305e-4015-8b77-5c2577e2b6aa.xml, iscsiop/LogoutFromTarget_OUT, _LogoutFromTarget_OUT
+ms.keywords: structs-iSCSI_3ef612e0-305e-4015-8b77-5c2577e2b6aa.xml, LogoutFromTarget_OUT structure [Storage Devices], iscsiop/LogoutFromTarget_OUT, PLogoutFromTarget_OUT structure pointer [Storage Devices], iscsiop/PLogoutFromTarget_OUT, _LogoutFromTarget_OUT, *PLogoutFromTarget_OUT, storage.logoutfromtarget_out, PLogoutFromTarget_OUT, LogoutFromTarget_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	LogoutFromTarget_OUT
 product: Windows
 targetos: Windows
@@ -75,21 +75,33 @@ On output from <b>LogoutFromTarget</b>, the status of the logoff operation. For 
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_in.md">LogoutFromTarget_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_in.md">LogoutFromTarget_IN</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
 
  
 

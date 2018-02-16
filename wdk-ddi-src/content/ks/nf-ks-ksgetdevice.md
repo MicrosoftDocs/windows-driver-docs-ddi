@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 27fb223f-9e6b-42af-b3d8-1018dc5416c2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetDevice function [Streaming Media Devices], KsGetDevice, stream.ksgetdevice, ks/KsGetDevice, avfunc_8459c499-365e-4cd4-927c-b359792937b0.xml
+ms.keywords: avfunc_8459c499-365e-4cd4-927c-b359792937b0.xml, KsGetDevice function [Streaming Media Devices], ks/KsGetDevice, KsGetDevice, stream.ksgetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetDevice
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ The object to query for the device to which it belongs.
 ## -returns
 
 
+
 <b>KsGetDevice</b> returns a pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure that is the AVStream device to which <i>Object</i> belongs.
 
 
 
+
 ## -remarks
+
 
 
 <i>Object</i> should be one of: PKSPIN, PKSFILTER, or PKSFILTERFACTORY. Callers must perform appropriate typecasting to PVOID.
@@ -89,21 +92,36 @@ Minidrivers typically do not call this function directly. There are a number of 
 
 
 
-## -see-also
 
-<a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
+## -see-also
 
 <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 <a href="..\ks\nf-ks-ksfiltergetdevice.md">KsFilterGetDevice</a>
 
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetdevice.md">KsPinGetDevice</a>
+
+
+
 <a href="..\ks\nf-ks-ksfilterfactorygetdevice.md">KsFilterFactoryGetDevice</a>
 
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
 
  
 

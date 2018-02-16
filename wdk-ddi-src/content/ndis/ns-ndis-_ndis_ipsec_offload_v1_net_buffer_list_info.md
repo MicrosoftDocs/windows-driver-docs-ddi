@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
-title: _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+title: "_NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO"
 author: windows-driver-content
 description: The NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure specifies information that is used in offloading Internet protocol security (IPsec) tasks from the TCP/IP transport to a miniport driver.
 old-location: netvista\ndis_ipsec_offload_v1_net_buffer_list_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 990b3df6-5ef7-4201-a09d-d94822d0a8bb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, tcpip_offload_ref_2e052bb5-6546-47a9-b51b-f1f77116835d.xml, CRYPTO_TRANSPORT_ESP_AUTH_FAILED, CRYPTO_SUCCESS, CRYPTO_INVALID_PACKET_SYNTAX, CRYPTO_INVALID_PROTOCOL, _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], CRYPTO_TUNNEL_AH_AUTH_FAILED, CRYPTO_GENERIC_ERROR, netvista.ndis_ipsec_offload_v1_net_buffer_list_info, ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_TRANSPORT_AH_AUTH_FAILED, CRYPTO_TUNNEL_ESP_AUTH_FAILED, *PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
+ms.keywords: CRYPTO_SUCCESS, CRYPTO_TRANSPORT_AH_AUTH_FAILED, _NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_TRANSPORT_ESP_AUTH_FAILED, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], tcpip_offload_ref_2e052bb5-6546-47a9-b51b-f1f77116835d.xml, CRYPTO_TUNNEL_AH_AUTH_FAILED, *PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v1_net_buffer_list_info, NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO, CRYPTO_INVALID_PROTOCOL, PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], CRYPTO_TUNNEL_ESP_AUTH_FAILED, CRYPTO_GENERIC_ERROR, CRYPTO_INVALID_PACKET_SYNTAX, ndis/PNDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
 product: Windows
 targetos: Windows
@@ -99,8 +99,8 @@ A structure that contains the following members:
 ### -field Receive.SaDeleteReq
 
 A USHORT value that, when set, indicates that the TCP/IP transport should issue the 
-       <mshelp:link keywords="netvista.oid_tcp_task_ipsec_delete_sa" tabindex="0">
-       OID_TCP_TASK_IPSEC_DELETE_SA</mshelp:link> OID once to delete the inbound SA that the packet was received over
+       <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">
+       OID_TCP_TASK_IPSEC_DELETE_SA</a> OID once to delete the inbound SA that the packet was received over
        and once again to delete the outbound SA that corresponds to the deleted inbound SA. The network
        interface card (NIC) must not remove either of these SAs before it receives the corresponding
        OID_TCP_TASK_IPSEC_DELETE_SA request.
@@ -132,6 +132,7 @@ Reserved for NDIS.
 The result of IPsec checking that a NIC performed on a receive packet. This result can be
        described as one of the following values:
        
+
 <table>
 <tr>
 <th>Value</th>
@@ -229,10 +230,12 @@ The IPsec protocols that were specified in the SA that the packet was received o
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Before the TCP/IP transport passes a send packet that a NIC will perform IPsec tasks on to the
@@ -254,6 +257,7 @@ Specifically, the TCP/IP transport supplies a value for the
 Before a miniport driver indicates up a receive packet that has one or more IPsec payloads, the driver
     updates the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure that is associated with the 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure as follows:
+
 <ul>
 <li>
 If the NIC performed IPsec checks on at least one IPsec payload in the packet, the miniport driver
@@ -278,7 +282,8 @@ If the NIC did not perform IPsec checks on the packet, the miniport driver does 
       <b>CryptoStatus</b> value.
 
 </li>
-</ul>To create space for another SA on the NIC, the miniport driver of the NIC can set 
+</ul>
+To create space for another SA on the NIC, the miniport driver of the NIC can set 
     <b>SaDeleteReq</b> in the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure for a receive packet. The
     TCP/IP transport subsequently issues 
     <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a> once
@@ -295,17 +300,28 @@ To set and get the IPsec information, use the
 
 
 
-## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

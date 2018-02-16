@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 182e55ec-1a99-4bd6-bcf6-d5e8302b9eae
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetValues2 method [Windows Debugging], debugger.getvalues2, IDebugRegisters2::GetValues2, GetValues2 method [Windows Debugging], IDebugRegisters2 interface, dbgeng/IDebugRegisters2::GetValues2, GetValues2, IDebugRegisters2 interface [Windows Debugging], GetValues2 method, IDebugRegisters2, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml
+ms.keywords: IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, IDebugRegisters2, GetValues2 method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetValues2 method, IDebugRegisters2::GetValues2, dbgeng/IDebugRegisters2::GetValues2, GetValues2 method [Windows Debugging], IDebugRegisters2 interface, GetValues2, debugger.getvalues2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters2.GetValues2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugRegisters2::GetValues2 method
@@ -76,6 +76,7 @@ HRESULT GetValues2(
 Specifies the register source to query.
 
 The possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -113,7 +114,8 @@ Fetch register information from the current scope's register context.
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Count [in]
@@ -139,7 +141,9 @@ Receives the values of the registers.  The number of elements that this array ho
 ## -returns
 
 
+
 This list does not contain all the erros that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -167,11 +171,14 @@ The value of the index of one of the registers is greater than the number of reg
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the return value is not S_OK, some of the registers still might have been read.  If the target was not accessible, the return type is E_UNEXPECTED and <i>Values</i> is unchanged. Otherwise, <i>Values</i> will contain partial results and the registers that could not be read will have type DEBUG_VALUE_INVALID.  Ambiguity in the case of the return value E_UNEXPECTED can be avoided by setting the memory of <i>Values</i> to zero before calling this method.
@@ -182,13 +189,20 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+
+
 
  
 

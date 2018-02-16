@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_disablepdev.htm
 old-project: print
 ms.assetid: bdceeb23-5d4a-4a1c-98b2-014a4126ca5f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemUni interface [Print Devices], DisablePDEV method, print.iprintoemuni_disablepdev, IPrintOemUni, DisablePDEV, IPrintOemUni::DisablePDEV, prcomoem/IPrintOemUni::DisablePDEV, DisablePDEV method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_e904ec4d-9153-4427-a98a-1bd4dc381530.xml, DisablePDEV method [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: DisablePDEV method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::DisablePDEV, print_unidrv-pscript_rendering_e904ec4d-9153-4427-a98a-1bd4dc381530.xml, IPrintOemUni::DisablePDEV, DisablePDEV method [Print Devices], IPrintOemUni, print.iprintoemuni_disablepdev, IPrintOemUni interface [Print Devices], DisablePDEV method, DisablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.DisablePDEV
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,9 @@ Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,15 +106,19 @@ The operation failed
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A rendering plug-in for Unidrv must implement the <code>IPrintOemUni::DisablePDEV</code> method.
 
 The <code>IPrintOemUni::DisablePDEV</code> method performs the same types of operations as the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556198">DrvDisablePDEV</a> function that is exported by a printer graphics DLL. Its purpose is to allow a rendering plug-in to delete the private PDEV structure that is pointed to by the DEVOBJ structure's <b>pdevOEM</b> member. This PDEV structure is one that was allocated by the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554249">IPrintOemUni::EnablePDEV</a> method.
+
 
 

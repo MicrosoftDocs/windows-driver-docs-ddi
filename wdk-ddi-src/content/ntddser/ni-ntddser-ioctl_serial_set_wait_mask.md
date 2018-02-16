@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	IOCTL_SERIAL_SET_WAIT_MASK
 product: Windows
 targetos: Windows
@@ -91,14 +91,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +114,7 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 ## -remarks
+
 
 
 
@@ -141,6 +146,7 @@ The <b>IOCTL_SERIAL_SET_WAIT_MASK</b> and <a href="..\ntddser\ni-ntddser-ioctl_s
 The client sends an <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a> control request to wait for an event in the currently set wait mask. The serial controller driver completes this request when an event in the wait mask occurs.
 
 The following table shows which <b>SERIAL_EV_</b><i>XXX</i> flag bits are supported by SerCx2, SerCx, and Serial.sys. A <b>Yes</b> entry in the table indicates that the serial framework extension or driver supports the corresponding flag bit. A <b>No</b> entry indicates that the flag bit is <u>not</u> supported.
+
 <table>
 <tr>
 <th>Flag bit</th>
@@ -226,24 +232,41 @@ The following table shows which <b>SERIAL_EV_</b><i>XXX</i> flag bits are suppor
 <td>No</td>
 <td>No</td>
 </tr>
-</table> 
-<div class="alert"><b>Note</b>  SerCx2 may or may not support the flag bit in the indicated table entry, depending on the serial controller driver and the capabilities of the serial controller hardware.</div><div> </div>For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://msdn.microsoft.com/1EA0221E-0F68-429B-9DA5-4AE2D3394A09">Serial Controller Drivers Overview</a>.
+</table>
+ 
+
+<div class="alert"><b>Note</b>  SerCx2 may or may not support the flag bit in the indicated table entry, depending on the serial controller driver and the capabilities of the serial controller hardware.</div>
+<div> </div>
+For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://msdn.microsoft.com/1EA0221E-0F68-429B-9DA5-4AE2D3394A09">Serial Controller Drivers Overview</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_wait_mask.md">IOCTL_SERIAL_GET_WAIT_MASK</a>
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
 
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_wait_mask.md">IOCTL_SERIAL_GET_WAIT_MASK</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+
+
+
+<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
 
-<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
+
 
  
 

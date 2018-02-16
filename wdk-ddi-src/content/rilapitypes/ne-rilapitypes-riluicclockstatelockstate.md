@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 95f73081-b809-407d-b73b-975b97301449
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, RIL_UICCLOCKSTATE_VERIFIED, rilapitypes/RIL_UICCLOCKSTATE_VERIFIED, rilapitypes/RIL_UICCLOCKSTATE_BLOCKED, rilapitypes/RIL_UICCLOCKSTATE_ENABLED, RILUICCLOCKSTATELOCKSTATE, RIL_UICCLOCKSTATE_ENABLED, rilapitypes/RILUICCLOCKSTATELOCKSTATE, RIL_UICCLOCKSTATE_BLOCKED, netvista.riluicclockstatelockstate, RILUICCLOCKSTATELOCKSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCLOCKSTATE_LOCKSTATE
+ms.keywords: netvista.riluicclockstatelockstate, RILUICCLOCKSTATELOCKSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCLOCKSTATE_VERIFIED, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RILUICCLOCKSTATELOCKSTATE, RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RIL_UICCLOCKSTATE_ENABLED, rilapitypes/RIL_UICCLOCKSTATE_BLOCKED, RILUICCLOCKSTATELOCKSTATE, RIL_UICCLOCKSTATE_ENABLED, RIL_UICCLOCKSTATE_BLOCKED, rilapitypes/RIL_UICCLOCKSTATE_VERIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCLOCKSTATELOCKSTATE
 product: Windows
 targetos: Windows
@@ -75,7 +75,6 @@ enum RILUICCLOCKSTATELOCKSTATE {
 ### -field RIL_UICCLOCKSTATE_NONE
 
 
-
 ### -field RIL_UICCLOCKSTATE_VERIFIED
 
 Lock is verified.
@@ -104,6 +103,8 @@ None of the other state bits are set.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c8d03a63-4b6a-4e84-994b-0e205401e531
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, storport/StorPortAllocateRegistryBuffer, StorPortAllocateRegistryBuffer routine [Storage Devices], storage.storportallocateregistrybuffer, StorPortAllocateRegistryBuffer
+ms.keywords: StorPortAllocateRegistryBuffer, storage.storportallocateregistrybuffer, storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml, StorPortAllocateRegistryBuffer routine [Storage Devices], storport/StorPortAllocateRegistryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortAllocateRegistryBuffer
 product: Windows
 targetos: Windows
@@ -83,20 +83,26 @@ Pointer to a long that indicates, on input, the length in bytes of the registry 
 ## -returns
 
 
+
 <b>StorPortAllocateRegistryBuffer</b> returns a pointer to the registry buffer that the caller requested, or <b>NULL</b> if some error prevents the memory from being allocated. 
+
 
 
 
 ## -remarks
 
 
+
 Each instantiation of a miniport driver can only have one registry buffer allocated at a time. If a miniport driver attempts to allocate more than one registry buffer, the allocation will fail and <b>StorPortAllocateRegistryBuffer</b> will return <b>NULL</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportfreeregistrybuffer.md">StorPortFreeRegistryBuffer</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E068ECD0-059A-46E1-9D9E-64EA81B73BD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTSubmitWaitForSyncObjectsToHwQueue function [Display Devices], display.d3dkmtsubmitwaitforsyncobjectstohwqueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue, d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue
+ms.keywords: display.d3dkmtsubmitwaitforsyncobjectstohwqueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue, d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Tbd
 req.dll: Tbd
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	tbd
-apiname: 
+apiname:
 -	D3DKMTSubmitWaitForSyncObjectsToHwQueue
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ TBD
 
 
 
+
 #### - submitWaitForSyncObjectsToHwQueue [in]
 
 A structure holding the information needed to submit a wait to the hardware queue.
@@ -81,6 +82,8 @@ A structure holding the information needed to submit a wait to the hardware queu
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if called successfully. 
+
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 66170e28-24db-4125-bd4e-ef07e8e82e79
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface, SetMatchThreadId method [Windows Debugging], SetMatchThreadId method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::SetMatchThreadId, ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, IDebugBreakpoint2 interface [Windows Debugging], SetMatchThreadId method, IDebugBreakpoint interface [Windows Debugging], SetMatchThreadId method, SetMatchThreadId, IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint::SetMatchThreadId, dbgeng/IDebugBreakpoint2::SetMatchThreadId, IDebugBreakpoint2, debugger.setmatchthreadid
+ms.keywords: dbgeng/IDebugBreakpoint2::SetMatchThreadId, ComOther_5100cd0c-7d69-4210-9d32-ca1e9bd321aa.xml, debugger.setmatchthreadid, SetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], SetMatchThreadId method, SetMatchThreadId, IDebugBreakpoint, IDebugBreakpoint::SetMatchThreadId, IDebugBreakpoint interface [Windows Debugging], SetMatchThreadId method, SetMatchThreadId method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, dbgeng/IDebugBreakpoint::SetMatchThreadId, SetMatchThreadId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::SetMatchThreadId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.SetMatchThreadId
 -	IDebugBreakpoint2.SetMatchThreadId
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::SetMatchThreadId method
@@ -74,6 +74,7 @@ The engine thread ID of the thread that can trigger this breakpoint.
 
 
 ## -returns
+
 
 
 <table>
@@ -114,13 +115,16 @@ The target is in a kernel and the breakpoint is a processor breakpoint.  Process
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return other error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 If you have set a thread for the breakpoint, the breakpoint can be triggered only if that thread hits the breakpoint.  If you have not set a thread, any thread can trigger the breakpoint.
@@ -128,5 +132,6 @@ If you have set a thread for the breakpoint, the breakpoint can be triggered onl
 If you have set a thread, you can remove the setting by setting <i>Id</i> to DEBUG_ANY_ID.
 
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

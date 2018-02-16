@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_NIC_STATE
-title: _NDIS_SWITCH_NIC_STATE
+title: "_NDIS_SWITCH_NIC_STATE"
 author: windows-driver-content
 description: The NDIS_SWITCH_NIC_STATE enumeration specifies the current state of the Hyper-V extensible switch network adapter.
 old-location: netvista\ndis_switch_nic_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 06FFECB3-0883-41CA-9BD3-A6A1D95D5F8C
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchNicStateDisconnected, NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateDeleted, NdisSwitchNicStateUnknown, _NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateCreated, NdisSwitchNicStateCreated, NdisSwitchNicStateDeleted, ntddndis/NDIS_SWITCH_NIC_STATE, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchNicStateDisconnected, netvista.ndis_switch_nic_state, NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateUnknown
+ms.keywords: ntddndis/NdisSwitchNicStateCreated, NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateConnected, ntddndis/NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateCreated, NdisSwitchNicStateUnknown, ntddndis/NdisSwitchNicStateDeleted, ntddndis/NdisSwitchNicStateUnknown, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateDisconnected, netvista.ndis_switch_nic_state, _NDIS_SWITCH_NIC_STATE, NdisSwitchNicStateDisconnected, NdisSwitchNicStateDeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_NIC_STATE
 product: Windows
 targetos: Windows
@@ -99,6 +99,7 @@ This value specifies that the NIC is deleted.
 ## -remarks
 
 
+
 The <b>NicState</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_STATE</b> enumeration data type. 
 
 
@@ -106,9 +107,12 @@ For more information about extensible switch port states, see <a href="https://m
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
+
+
 
  
 

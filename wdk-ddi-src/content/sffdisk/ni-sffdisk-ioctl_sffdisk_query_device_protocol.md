@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	sffdisk.h
-apiname: 
+apiname:
 -	IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
 product: Windows
 targetos: Windows

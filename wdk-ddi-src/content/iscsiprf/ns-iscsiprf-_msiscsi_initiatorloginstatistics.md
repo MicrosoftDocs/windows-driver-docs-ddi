@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_InitiatorLoginStatistics
-title: _MSiSCSI_InitiatorLoginStatistics
+title: "_MSiSCSI_InitiatorLoginStatistics"
 author: windows-driver-content
 description: The MSiSCSI_InitiatorLoginStatistics structure is used by iSCSI initiators to report logon statistics.
 old-location: storage\msiscsi_initiatorloginstatistics.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8d670887-e8bb-4b99-99ae-16c0dd9c4431
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiprf/MSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], MSiSCSI_InitiatorLoginStatistics, *PMSiSCSI_InitiatorLoginStatistics, _MSiSCSI_InitiatorLoginStatistics, storage.msiscsi_initiatorloginstatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml
+ms.keywords: storage.msiscsi_initiatorloginstatistics, MSiSCSI_InitiatorLoginStatistics, structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, *PMSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], iscsiprf/MSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], PMSiSCSI_InitiatorLoginStatistics, _MSiSCSI_InitiatorLoginStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiprf.h
-apiname: 
+apiname:
 -	MSiSCSI_InitiatorLoginStatistics
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics
+req.typenames: "*PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics"
 ---
 
 # _MSiSCSI_InitiatorLoginStatistics structure
@@ -129,7 +129,9 @@ The number of times that a logon attempt by the initiator has failed.
 ## -remarks
 
 
+
 It is optional that you implement this class.
+
 
 
 
@@ -137,7 +139,11 @@ It is optional that you implement this class.
 
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563042">MSiSCSI_InitiatorLoginStatistics WMI Class</a>
+
+
 
  
 

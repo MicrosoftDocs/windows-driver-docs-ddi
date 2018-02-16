@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddscsi._MP_STORAGE_DIAGNOSTIC_LEVEL
-title: _MP_STORAGE_DIAGNOSTIC_LEVEL
+title: "_MP_STORAGE_DIAGNOSTIC_LEVEL"
 author: windows-driver-content
 description: The MP_STORAGE_DIAGNOSTIC_LEVEL enumeration allows the caller to control what kinds of data the provider should return.
 old-location: storage\mp_storage_diagnostic_level.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB05D543-7B99-481E-8CDB-AE350CBCCA2A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.mp_storage_diagnostic_level, ntddscsi/StorageDiagnosticLevelDefault, ntddscsi/StorageDiagnosticLevelMax, StorageDiagnosticLevelMax, StorageDiagnosticLevelDefault, PMP_STORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], MP_STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], ntddscsi/MP_STORAGE_DIAGNOSTIC_LEVEL, _MP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/PMP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL, PMP_STORAGE_DIAGNOSTIC_LEVEL
+ms.keywords: StorageDiagnosticLevelDefault, PMP_STORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], PMP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelMax, _MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/PMP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/MP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/StorageDiagnosticLevelDefault, storage.mp_storage_diagnostic_level, ntddscsi/StorageDiagnosticLevelMax, MP_STORAGE_DIAGNOSTIC_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	MP_STORAGE_DIAGNOSTIC_LEVEL
 product: Windows
 targetos: Windows
-req.typenames: *PMP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL
+req.typenames: "*PMP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL"
 ---
 
 # _MP_STORAGE_DIAGNOSTIC_LEVEL enumeration
@@ -69,7 +69,6 @@ typedef enum _MP_STORAGE_DIAGNOSTIC_LEVEL {
 
 
 ### -field MpStorageDiagnosticLevelDefault
-
 
 
 ### -field MpStorageDiagnosticLevelMax

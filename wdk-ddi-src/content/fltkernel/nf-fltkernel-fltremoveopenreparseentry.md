@@ -7,8 +7,8 @@ old-location: ifsk\fltremoveopenreparseentry.htm
 old-project: ifsk
 ms.assetid: FD8C3A32-E578-47E9-9B2A-E1809D62F7B8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], fltkernel/FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry, FltRemoveOpenReparseEntry
+ms.date: 2/7/2018
+ms.keywords: FltAddOpenReparseEntry routine [Installable File System Drivers], FltAddOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, FltRemoveOpenReparseEntry, ifsk.fltremoveopenreparseentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: _IRQL_requires_max_(APC_LEVEL)
-topictype: 
+req.irql: "_IRQL_requires_max_(APC_LEVEL)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fltKernel.h
-apiname: 
+apiname:
 -	FltAddOpenReparseEntry
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ The open reparse information to remove, of type <a href="..\ntifs\ns-ntifs-_open
 ## -returns
 
 
+
 This routine does not return a value.
+
 
 

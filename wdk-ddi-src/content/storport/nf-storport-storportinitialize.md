@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b560ce42-3c5c-4766-bb9c-6590b7113ecd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitialize routine [Storage Devices], StorPortInitialize, storport/StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml, storage.storportinitialize
+ms.keywords: StorPortInitialize routine [Storage Devices], storage.storportinitialize, StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml, storport/StorPortInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortInitialize
 product: Windows
 targetos: Windows
@@ -96,9 +96,11 @@ Is the address of a context value to be passed to the miniport driver's <a href=
 
 
 
+
       The result of the initialization actions performed by <b>StorPortInitilize</b>. The miniport driver will return this value as the return value for its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
 
 <b>StorPortInitilize</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -167,11 +169,14 @@ The allocation failed for the driver object extension data.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine must be called from the miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine.
@@ -182,11 +187,16 @@ Every miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry
 
 
 
+
 ## -see-also
 
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
+
+
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
 
  
 

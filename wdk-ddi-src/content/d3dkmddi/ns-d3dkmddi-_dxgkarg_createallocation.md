@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEALLOCATION
-title: _DXGKARG_CREATEALLOCATION
+title: "_DXGKARG_CREATEALLOCATION"
 author: windows-driver-content
 description: The DXGKARG_CREATEALLOCATION structure describes how the display miniport driver should create allocations.
 old-location: display\dxgkarg_createallocation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e1464561-b9f2-41aa-921e-84f3a855130f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_CREATEALLOCATION structure [Display Devices], d3dkmddi/DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION, display.dxgkarg_createallocation, DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml, *INOUT_PDXGKARG_CREATEALLOCATION, _DXGKARG_CREATEALLOCATION
+ms.keywords: "_DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION structure [Display Devices], display.dxgkarg_createallocation, d3dkmddi/DXGKARG_CREATEALLOCATION, *INOUT_PDXGKARG_CREATEALLOCATION, DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_CREATEALLOCATION
 product: Windows
 targetos: Windows
@@ -104,11 +104,17 @@ typedef struct _DXGKARG_CREATEALLOCATION {
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createallocationflags.md">DXGK_CREATEALLOCATIONFLAGS</a>
+
+
 
  
 

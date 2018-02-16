@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20ee0633-a743-46e8-a094-37099b8e4427
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportcompleterequest, StorPortCompleteRequest, StorPortCompleteRequest routine [Storage Devices], storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml
+ms.keywords: storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml, StorPortCompleteRequest routine [Storage Devices], StorPortCompleteRequest, storage.storportcompleterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortCompleteRequest
 product: Windows
 targetos: Windows
@@ -101,20 +101,26 @@ Specifies the completion status to be set in the <b>SrbStatus</b>member of each 
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 We do not recommend that writers of Storport miniport drivers use this particular Storport interface routine. Instead, the miniport driver should call StorPortNotification( RequestComplete ) for each outstanding request.
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdmsec/WdmlibIoValidateDeviceIoControlAccess, wdmsec/IoValidateDeviceIoControlAccess, FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], WdmlibIoValidateDeviceIoControlAccess, kernel.wdmlibiovalidatedeviceiocontrolaccess
+ms.keywords: FILE_READ_ACCESS, WdmlibIoValidateDeviceIoControlAccess, wdmsec/IoValidateDeviceIoControlAccess, kernel.wdmlibiovalidatedeviceiocontrolaccess, FILE_WRITE_ACCESS, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WdmlibIoValidateDeviceIoControlAccess
 -	IoValidateDeviceIoControlAccess
 product: Windows
 targetos: Windows
-req.typenames: *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM
+req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ Specifies the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> on which to perform the ac
 ### -param RequiredAccess [in]
 
 Specifies the type of access to the device object that the request sender must have. The caller can specify one or more of the following flags.
+
 <table>
 <tr>
 <th>Value</th>
@@ -103,13 +104,16 @@ The request sender must have write access to the device object.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>WdmlibIoValidateDeviceIoControlAccess</b> returns an NTSTATUS value. Possible return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +152,14 @@ The specified parameters are invalid. For example, if the routine is passed an I
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>WdmlibIoValidateDeviceIoControlAccess</b> allows drivers to perform dynamic access checks for IOCTLs. Use this routine to require more restrictive access than that specified in the IOCTL's definition. If the routine returns STATUS_ACCESS_DENIED, then the driver can complete the request with the STATUS_ACCESS_DENIED status value.
@@ -164,9 +171,12 @@ The access checks are only performed if the <b>RequestorMode</b> member of the <
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
 
  
 

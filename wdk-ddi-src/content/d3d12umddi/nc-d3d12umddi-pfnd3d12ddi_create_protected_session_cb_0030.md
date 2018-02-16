@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
 product: Windows
 targetos: Windows
@@ -86,6 +86,8 @@ The protected session.
 
 
 
+
+
 #### - D3D12DDICB_CREATE_PROTECTED_RESOURCE_SESSION [in]
 
 Used to create a protected resource session
@@ -94,6 +96,8 @@ Used to create a protected resource session
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

@@ -2,13 +2,13 @@
 UID: NF:winsplp.DevQueryPrint
 title: DevQueryPrint function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\devqueryprint.htm
 old-project: print
 ms.assetid: B3135A43-A328-4103-AB75-A37F02322F70
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DevQueryPrint function [Print Devices], winsplp/DevQueryPrint, DevQueryPrint, print.devqueryprint
+ms.date: 2/2/2018
+ms.keywords: DevQueryPrint, print.devqueryprint, DevQueryPrint function [Print Devices], winsplp/DevQueryPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	DevQueryPrint
 product: Windows
 targetos: Windows
@@ -73,11 +73,8 @@ BOOL WINAPI DevQueryPrint(
 ### -param hPrinter [in]
 
 
-
 ### -param pDevMode [in]
 
 
-
 ### -param pResID [out]
-
 

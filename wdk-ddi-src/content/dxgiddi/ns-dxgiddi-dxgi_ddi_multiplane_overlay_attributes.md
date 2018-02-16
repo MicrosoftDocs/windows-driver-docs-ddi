@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0bd7f866-d103-449a-b614-d123c040b2da
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgi_ddi_multiplane_overlay_attributes, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices]
+ms.keywords: dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], display.dxgi_ddi_multiplane_overlay_attributes, DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 product: Windows
 targetos: Windows
@@ -147,7 +147,9 @@ An optional pointer to a buffer that specifies the filters that the driver and h
 ### -field VideoFrameFormat
 
 Specifies the overlay plane's video frame format, given as a value from the <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_video_frame_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a> enumeration.
-<div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULIIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE</b>. The operating system does not support the other enumeration values.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULIIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE</b>. The operating system does not support the other enumeration values.</div>
+<div> </div>
 
 ### -field YCbCrFlags
 
@@ -157,7 +159,9 @@ Specifies YUV range and conversion info as one of the applicable values in the <
 ### -field StereoFormat
 
 Specifies the overlay plane's video frame format, given as a value from the <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a> enumeration.
-<div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO</b>. The operating system does not support the other enumeration values.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO</b>. The operating system does not support the other enumeration values.</div>
+<div> </div>
 
 ### -field StereoLeftViewFrame0
 
@@ -172,7 +176,9 @@ Reserved for system use. Must always be <b>FALSE</b>.
 ### -field StereoFlipMode
 
 Specifies the overlay plane's stereo flip mode, given as a value from the <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_flip_mode.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a> enumeration.
-<div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE</b>. The operating system does not support the other enumeration values.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE</b>. The operating system does not support the other enumeration values.</div>
+<div> </div>
 
 ### -field StretchQuality
 
@@ -181,23 +187,41 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 ## -see-also
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_blend.md">DXGI_DDI_MULTIPLANE_OVERLAY_BLEND</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_flags.md">DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS</a>
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_ycbcr_flags.md">DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
-
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_flip_mode.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
-
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stretch_quality.md">DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
 
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_mode_rotation.md">DXGI_DDI_MODE_ROTATION</a>
 
+
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_flip_mode.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_blend.md">DXGI_DDI_MULTIPLANE_OVERLAY_BLEND</a>
+
+
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stretch_quality.md">DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
+
+
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_ycbcr_flags.md">DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
+
+
+
 <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_video_frame_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
+
+
+
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
+
+
 
  
 

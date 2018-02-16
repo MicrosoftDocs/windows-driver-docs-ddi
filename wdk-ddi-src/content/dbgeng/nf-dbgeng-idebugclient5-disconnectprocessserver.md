@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 47776bb3-883f-4e45-9398-31de6596c57f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DisconnectProcessServer method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient2::DisconnectProcessServer, DisconnectProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient5, DisconnectProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient2 interface [Windows Debugging], DisconnectProcessServer method, IDebugClient5::DisconnectProcessServer, DisconnectProcessServer, dbgeng/IDebugClient5::DisconnectProcessServer, DisconnectProcessServer method [Windows Debugging], IDebugClient3 interface, DisconnectProcessServer method [Windows Debugging], IDebugClient::DisconnectProcessServer, IDebugClient5 interface [Windows Debugging], DisconnectProcessServer method, IDebugClient4 interface [Windows Debugging], DisconnectProcessServer method, IDebugClient4::DisconnectProcessServer, IDebugClient2::DisconnectProcessServer, dbgeng/IDebugClient4::DisconnectProcessServer, IDebugClient3 interface [Windows Debugging], DisconnectProcessServer method, DisconnectProcessServer method [Windows Debugging], IDebugClient4 interface, debugger.disconnectprocessserver, IDebugClient_7cfc70fe-c298-40bf-aa28-0c084262d41d.xml, IDebugClient interface [Windows Debugging], DisconnectProcessServer method, IDebugClient3::DisconnectProcessServer, dbgeng/IDebugClient3::DisconnectProcessServer, dbgeng/IDebugClient::DisconnectProcessServer
+ms.keywords: DisconnectProcessServer method [Windows Debugging], dbgeng/IDebugClient4::DisconnectProcessServer, DisconnectProcessServer, IDebugClient4::DisconnectProcessServer, DisconnectProcessServer method [Windows Debugging], IDebugClient3 interface, DisconnectProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient5, IDebugClient3, DisconnectProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient, IDebugClient2 interface [Windows Debugging], DisconnectProcessServer method, IDebugClient interface [Windows Debugging], DisconnectProcessServer method, IDebugClient::DisconnectProcessServer, IDebugClient3 interface [Windows Debugging], DisconnectProcessServer method, DisconnectProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], DisconnectProcessServer method, IDebugClient5::DisconnectProcessServer, IDebugClient2, DisconnectProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient3::DisconnectProcessServer, dbgeng/IDebugClient::DisconnectProcessServer, IDebugClient5 interface [Windows Debugging], DisconnectProcessServer method, debugger.disconnectprocessserver, IDebugClient4, dbgeng/IDebugClient5::DisconnectProcessServer, dbgeng/IDebugClient3::DisconnectProcessServer, IDebugClient_7cfc70fe-c298-40bf-aa28-0c084262d41d.xml, dbgeng/IDebugClient2::DisconnectProcessServer, IDebugClient2::DisconnectProcessServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.DisconnectProcessServer
 -	IDebugClient2.DisconnectProcessServer
 -	IDebugClient3.DisconnectProcessServer
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.DisconnectProcessServer
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::DisconnectProcessServer method
@@ -79,7 +79,9 @@ Specifies the server from which to disconnect.  This handle must have been previ
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -96,34 +98,54 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about process servers and remote debugging, see <a href="https://msdn.microsoft.com/ed7ea3dc-07d1-481c-90e0-7f0b0e77ad42">Process Servers, Kernel Connection Servers, and Smart Clients</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
  
 

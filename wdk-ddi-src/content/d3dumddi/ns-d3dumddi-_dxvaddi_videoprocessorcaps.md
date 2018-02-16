@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEOPROCESSORCAPS
-title: _DXVADDI_VIDEOPROCESSORCAPS
+title: "_DXVADDI_VIDEOPROCESSORCAPS"
 author: windows-driver-content
 description: The DXVADDI_VIDEOPROCESSORCAPS structure describes the video processing capabilities of a specific deinterlace mode.
 old-location: display\dxvaddi_videoprocessorcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bea6d458-943e-466f-adca-466f26dc3599
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXVADDI_VIDEOPROCESSORCAPS, d3dumddi/DXVADDI_VIDEOPROCESSORCAPS, display.dxvaddi_videoprocessorcaps, DXVADDI_VIDEOPROCESSORCAPS, DXVA2_Structs_dc28e351-d197-4440-a3fd-dc3a49e35230.xml, DXVADDI_VIDEOPROCESSORCAPS structure [Display Devices]
+ms.keywords: DXVADDI_VIDEOPROCESSORCAPS structure [Display Devices], d3dumddi/DXVADDI_VIDEOPROCESSORCAPS, DXVADDI_VIDEOPROCESSORCAPS, DXVA2_Structs_dc28e351-d197-4440-a3fd-dc3a49e35230.xml, _DXVADDI_VIDEOPROCESSORCAPS, display.dxvaddi_videoprocessorcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_VIDEOPROCESSORCAPS
 product: Windows
 targetos: Windows
@@ -100,6 +100,7 @@ Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoP
 ### -field DeinterlaceTechnology
 
 [out] A bitwise OR of the following values to indicate the underlying deinterlacing technology that is used to implement the deinterlacing algorithm. The values can be combined as required to most closely match the algorithm's implementation.
+
 <table>
 <tr>
 <th>Value</th>
@@ -205,12 +206,14 @@ A deinterlace algorithm that can undo the 3:2 pull-down process that is used for
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ProcAmpControlCaps
 
 [out] A bitwise OR of the following values to indicate the ProcAmp operations that the hardware supports.
+
 <table>
 <tr>
 <th>Value</th>
@@ -266,12 +269,14 @@ Saturation adjustments to the video image are allowed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VideoProcessorOperations
 
 [out] A bitwise OR of the following values to indicate which additional video processing operations the hardware can perform concurrently with the requested <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a> operation.
+
 <table>
 <tr>
 <th>Value</th>
@@ -447,12 +452,14 @@ The video processing device can maintain the original field data.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field NoiseFilterTechnology
 
 [out] A bitwise OR of the following values to indicate the underlying technology that is used to implement noise filtering. The values can be combined as required to most closely match the noise-filter implementation. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -518,12 +525,14 @@ The video processing device uses mosquito noise filtering.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DetailFilterTechnology
 
 [out] A bitwise OR of the following values to indicate the underlying technology that is used to implement detail filtering. The values can be combined as required to most closely match the detail-filter implementation.  
+
 <table>
 <tr>
 <th>Value</th>
@@ -569,24 +578,39 @@ The video processing device uses sharpening detail filtering.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessorinput.md">DXVADDI_VIDEOPROCESSORINPUT</a>
 
+
+
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
+
+
 
  
 

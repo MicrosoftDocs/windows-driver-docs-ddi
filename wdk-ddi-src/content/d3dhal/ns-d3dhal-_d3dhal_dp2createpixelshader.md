@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATEPIXELSHADER
-title: _D3DHAL_DP2CREATEPIXELSHADER
+title: "_D3DHAL_DP2CREATEPIXELSHADER"
 author: windows-driver-content
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2CREATEPIXELSHADER structure is used to create a pixel shader when a D3DDP2OP_CREATEPIXELSHADER opcode is received by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2createpixelshader.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa3a7f17-7210-458f-979b-1da455790e4a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2CREATEPIXELSHADER, _D3DHAL_DP2CREATEPIXELSHADER, d3dhal/LPD3DHAL_DP2CREATEPIXELSHADER, *LPD3DHAL_DP2CREATEPIXELSHADER, d3dstrct_b17c15ca-697a-407b-b304-ac52ccf6ce6e.xml, LPD3DHAL_DP2CREATEPIXELSHADER structure pointer [Display Devices], display.d3dhal_dp2createpixelshader, D3DHAL_DP2CREATEPIXELSHADER structure [Display Devices], D3DHAL_DP2CREATEPIXELSHADER, LPD3DHAL_DP2CREATEPIXELSHADER
+ms.keywords: d3dhal/LPD3DHAL_DP2CREATEPIXELSHADER, display.d3dhal_dp2createpixelshader, d3dhal/D3DHAL_DP2CREATEPIXELSHADER, LPD3DHAL_DP2CREATEPIXELSHADER, LPD3DHAL_DP2CREATEPIXELSHADER structure pointer [Display Devices], D3DHAL_DP2CREATEPIXELSHADER structure [Display Devices], d3dstrct_b17c15ca-697a-407b-b304-ac52ccf6ce6e.xml, _D3DHAL_DP2CREATEPIXELSHADER, *LPD3DHAL_DP2CREATEPIXELSHADER, D3DHAL_DP2CREATEPIXELSHADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2CREATEPIXELSHADER
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ Specifies the size, in bytes, of the shader code following this data structure i
 ## -remarks
 
 
+
 The runtime generates a handle for this shader before calling the driver. The shader code itself follows the D3DHAL_DP2CREATEPIXELSHADER in the DP2 stream. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552855">Direct3D Driver Shader Codes</a> for information about the format of an individual shader code and the tokens that comprise each shader code. 
 
 Before calling the driver, the runtime validates the pixel shader code to ensure that it is legal for the specified shader language version.
@@ -93,13 +94,20 @@ It is important to note that the creation of a pixel shader does not imply the s
 
 
 
+
 ## -see-also
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
+
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
+
+
 D3DDP2OP_CREATEPIXELSHADER
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2pixelshader.md">D3DHAL_DP2PIXELSHADER</a>
+
 
  
 

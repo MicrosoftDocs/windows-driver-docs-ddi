@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6373B8BD-264D-4D03-9FE9-F87E45D617EE
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EnablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, debugger.idebugplmclient3_enableplmpackagedebugwide, IDebugPlmClient3 interface [Windows Debugging], EnablePlmPackageDebugWide method, IDebugPlmClient3::EnablePlmPackageDebugWide, IDebugPlmClient3, EnablePlmPackageDebugWide method [Windows Debugging], EnablePlmPackageDebugWide, dbgeng/IDebugPlmClient3::EnablePlmPackageDebugWide
+ms.keywords: dbgeng/IDebugPlmClient3::EnablePlmPackageDebugWide, debugger.idebugplmclient3_enableplmpackagedebugwide, IDebugPlmClient3, EnablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], EnablePlmPackageDebugWide method, EnablePlmPackageDebugWide, IDebugPlmClient3::EnablePlmPackageDebugWide, EnablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugPlmClient3.EnablePlmPackageDebugWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugPlmClient3::EnablePlmPackageDebugWide method
@@ -81,13 +81,17 @@ A pointer to the package name.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
+
+
 
  
 

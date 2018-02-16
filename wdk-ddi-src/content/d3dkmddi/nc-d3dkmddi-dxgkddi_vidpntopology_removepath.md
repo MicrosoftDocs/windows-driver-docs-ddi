@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	pfnRemovePath
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ NTSTATUS APIENTRY pfnRemovePath(
 ## -returns
 
 
+
 The <b>pfnRemovePath</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,13 +153,17 @@ The path cannot be removed in the context of the current DDI call.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The D3DKMDT_HVIDPNTOPOLOGY data type is defined in<i> D3dkmdt.h</i>.
+
 
 

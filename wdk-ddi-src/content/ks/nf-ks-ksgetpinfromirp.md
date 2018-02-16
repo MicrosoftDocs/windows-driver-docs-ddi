@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 96176a33-0721-4a4d-ba1b-131e25fc2306
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetPinFromIrp function [Streaming Media Devices], ks/KsGetPinFromIrp, stream.ksgetpinfromirp, avfunc_fa403f21-cccb-4a57-b40a-e7531feac721.xml, KsGetPinFromIrp
+ms.keywords: avfunc_fa403f21-cccb-4a57-b40a-e7531feac721.xml, KsGetPinFromIrp function [Streaming Media Devices], KsGetPinFromIrp, ks/KsGetPinFromIrp, stream.ksgetpinfromirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetPinFromIrp
 product: Windows
 targetos: Windows
@@ -76,30 +76,46 @@ A pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> for which to return the 
 ## -returns
 
 
+
 <b>KsGetPinFromIrp</b> returns a pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure associated with the given IRP or <b>NULL</b>. <b>NULL</b> indicates that either the IRP is not associated with an AVStream object or that it is associated with a filter or a topology node.
+
 
 
 
 ## -remarks
 
 
+
 Currently, IRPs associated with topology nodes cannot be queried for associated pins. This may change in a future revision of AVStream.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetnodeidfromirp.md">KsGetNodeIdFromIrp</a>
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
+
+
 
 <a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
-<a href="..\ks\nf-ks-ksgetfilterfromirp.md">KsGetFilterFromIrp</a>
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
+
 
 <a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
+
+<a href="..\ks\nf-ks-ksgetnodeidfromirp.md">KsGetNodeIdFromIrp</a>
+
+
+
+<a href="..\ks\nf-ks-ksgetfilterfromirp.md">KsGetFilterFromIrp</a>
+
+
 
  
 

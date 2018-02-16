@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 772b2ab3-6ce6-4303-8b1e-145e4e28ee44
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_UNSSS_SUBADDR, RIL_PARAM_UNSSS_ALL, RIL_PARAM_UNSSS_ID, rilapitypes/RILUNSOLICITEDSSINFOPARAMMASK, rilapitypes/RIL_PARAM_UNSSS_ID, rilapitypes/RIL_PARAM_UNSSS_HISTINFO, RIL_PARAM_UNSSS_SUBADDR, rilapitypes/RIL_PARAM_UNSSS_ALL, RIL_PARAM_UNSSS_HISTINFO, rilapitypes/RIL_PARAM_UNSSS_NOTIFICATIONCODE, RILUNSOLICITEDSSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UNSSS_ADDRESS, rilapitypes/RIL_PARAM_UNSSS_ADDRESS, RILUNSOLICITEDSSINFOPARAMMASK, RIL_PARAM_UNSSS_NOTIFICATIONCODE, rilapitypes/RIL_PARAM_UNSSS_CUGINDEX, rilapitypes/RIL_PARAM_UNSSS_HISTLENGTH, RIL_PARAM_UNSSS_HISTLENGTH, netvista.rilunsolicitedssinfoparammask_2, RIL_PARAM_UNSSS_CUGINDEX
+ms.keywords: rilapitypes/RIL_PARAM_UNSSS_ADDRESS, rilapitypes/RIL_PARAM_UNSSS_CUGINDEX, RIL_PARAM_UNSSS_ADDRESS, rilapitypes/RIL_PARAM_UNSSS_SUBADDR, rilapitypes/RIL_PARAM_UNSSS_ID, RILUNSOLICITEDSSINFOPARAMMASK, RILUNSOLICITEDSSINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_UNSSS_HISTLENGTH, RIL_PARAM_UNSSS_HISTLENGTH, rilapitypes/RIL_PARAM_UNSSS_HISTINFO, rilapitypes/RIL_PARAM_UNSSS_ALL, netvista.rilunsolicitedssinfoparammask_2, rilapitypes/RILUNSOLICITEDSSINFOPARAMMASK, RIL_PARAM_UNSSS_ID, RIL_PARAM_UNSSS_NOTIFICATIONCODE, RIL_PARAM_UNSSS_SUBADDR, RIL_PARAM_UNSSS_CUGINDEX, RIL_PARAM_UNSSS_ALL, rilapitypes/RIL_PARAM_UNSSS_NOTIFICATIONCODE, RIL_PARAM_UNSSS_HISTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUNSOLICITEDSSINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -78,35 +78,26 @@ typedef enum _RILUNSOLICITEDSSINFOPARAMMASK {
 ### -field RIL_PARAM_UNSSS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_UNSSS_ID
-
 
 
 ### -field RIL_PARAM_UNSSS_NOTIFICATIONCODE
 
 
-
 ### -field RIL_PARAM_UNSSS_ADDRESS
-
 
 
 ### -field RIL_PARAM_UNSSS_SUBADDR
 
 
-
 ### -field RIL_PARAM_UNSSS_CUGINDEX
-
 
 
 ### -field RIL_PARAM_UNSSS_HISTLENGTH
 
 
-
 ### -field RIL_PARAM_UNSSS_HISTINFO
 
 
-
 ### -field RIL_PARAM_UNSSS_ALL
-
 

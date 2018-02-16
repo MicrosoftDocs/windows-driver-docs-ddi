@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30ce30db-e030-43c3-bf8d-2f6ef86087ab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_WWNTYPE, hbaapi/NODE_WWN, hbaapi/HBA_wwntype, HBA_wwntype enumeration [Storage Devices], structs-Fibre_d6003dc8-cbef-437b-bb14-353416b04417.xml, PORT_WWN, hbaapi/PORT_WWN, storage.hba_wwntype, HBA_WWNTYPE enumeration [Storage Devices], HBA_wwntype, NODE_WWN
+ms.keywords: NODE_WWN, hbaapi/PORT_WWN, structs-Fibre_d6003dc8-cbef-437b-bb14-353416b04417.xml, HBA_wwntype enumeration [Storage Devices], hbaapi/HBA_wwntype, HBA_WWNTYPE, hbaapi/NODE_WWN, HBA_WWNTYPE enumeration [Storage Devices], PORT_WWN, storage.hba_wwntype, HBA_wwntype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbaapi.h
-apiname: 
+apiname:
 -	HBA_WWNTYPE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ Indicates that the world wide name specifies a port.
 ## -see-also
 
 <a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
+
+
 
  
 

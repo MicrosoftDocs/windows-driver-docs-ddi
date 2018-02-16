@@ -1,14 +1,14 @@
 ---
 UID: NS:strmini._STREAM_TIME_REFERENCE
-title: _STREAM_TIME_REFERENCE
+title: "_STREAM_TIME_REFERENCE"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\stream_time_reference.htm
 old-project: stream
 ms.assetid: BC3839C0-AED6-470D-9C2B-B1529B2B3D1A
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PSTREAM_TIME_REFERENCE, strmini/STREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE structure [Streaming Media Devices], _STREAM_TIME_REFERENCE, stream.stream_time_reference, PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices], STREAM_TIME_REFERENCE, strmini/PSTREAM_TIME_REFERENCE
+ms.keywords: strmini/STREAM_TIME_REFERENCE, _STREAM_TIME_REFERENCE, stream.stream_time_reference, STREAM_TIME_REFERENCE structure [Streaming Media Devices], PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices], strmini/PSTREAM_TIME_REFERENCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Strmini.h
-apiname: 
+apiname:
 -	STREAM_TIME_REFERENCE
 product: Windows
 targetos: Windows

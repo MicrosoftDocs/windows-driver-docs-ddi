@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 07825be3-84a1-4aab-a9f0-22a45f636a04
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, debugger.removesyntheticsymbol, IDebugSymbols3::RemoveSyntheticSymbol, RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::RemoveSyntheticSymbol, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticSymbol method, RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols3, RemoveSyntheticSymbol
+ms.keywords: RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::RemoveSyntheticSymbol, RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticSymbol method, IDebugSymbols3, debugger.removesyntheticsymbol, RemoveSyntheticSymbol, dbgeng/IDebugSymbols3::RemoveSyntheticSymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.RemoveSyntheticSymbol
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::RemoveSyntheticSymbol method
@@ -75,6 +75,7 @@ Specifies the synthetic symbol to remove.  This must be the same value returned 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -102,13 +103,16 @@ No synthetic symbol was found at the specified location.  This is returned if a 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 If the module containing a synthetic symbol is reloaded - for example, by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554379">Reload</a> with the <i>Module</i> parameter set to the name of the module - the synthetic symbol will be discarded.
@@ -117,13 +121,20 @@ For more information about synthetic symbols, see Synthetic Symbols.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

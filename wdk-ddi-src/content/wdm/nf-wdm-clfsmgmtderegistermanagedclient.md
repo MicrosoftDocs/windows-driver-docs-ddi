@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5dee3b70-9c8d-420d-86f9-9795b4d8b1e8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: Clfs_management_6a802f4a-8157-42c8-8eda-740a1207714a.xml, ClfsMgmtDeregisterManagedClient, wdm/ClfsMgmtDeregisterManagedClient, kernel.clfsmgmtderegistermanagedclient, ClfsMgmtDeregisterManagedClient routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsMgmtDeregisterManagedClient, Clfs_management_6a802f4a-8157-42c8-8eda-740a1207714a.xml, wdm/ClfsMgmtDeregisterManagedClient, ClfsMgmtDeregisterManagedClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtderegistermanagedclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsMgmtDeregisterManagedClient
 product: Windows
 targetos: Windows
@@ -75,6 +75,7 @@ TBD
 
 
 
+
 #### - Client [in]
 
 A pointer to the client. This is the value that was obtained through a call to the <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a> routine.
@@ -83,7 +84,9 @@ A pointer to the client. This is the value that was obtained through a call to t
 ## -returns
 
 
+
 The <b>ClfsMgmtDeregisterManagedClient</b> routine returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,20 +136,26 @@ The value that  was supplied for the <i>Client</i> parameter does not represent 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 After calling the <b>ClfsMgmtDeregisterManagedClient</b> routine, a client's callback functions will no longer be invoked.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a>
+
+
 
  
 

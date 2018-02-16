@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_HEADER
-title: _NET_BUFFER_HEADER
+title: "_NET_BUFFER_HEADER"
 author: windows-driver-content
 description: The NET_BUFFER_HEADER structure specifies header information for the NET_BUFFER structure.
 old-location: netvista\net_buffer_header.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db7277d0-9671-4680-84d4-d3415ce3922f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNET_BUFFER_HEADER, _NET_BUFFER_HEADER, ndis/NET_BUFFER_HEADER, netvista.net_buffer_header, ndis_netbuf_structures_ref_a19368c6-0bef-4fe6-be52-d76e0c6ea99d.xml, ndis/PNET_BUFFER_HEADER, NET_BUFFER_HEADER, PNET_BUFFER_HEADER union pointer [Network Drivers Starting with Windows Vista], PNET_BUFFER_HEADER, NET_BUFFER_HEADER union [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/PNET_BUFFER_HEADER, ndis/NET_BUFFER_HEADER, NET_BUFFER_HEADER, PNET_BUFFER_HEADER union pointer [Network Drivers Starting with Windows Vista], netvista.net_buffer_header, *PNET_BUFFER_HEADER, NET_BUFFER_HEADER union [Network Drivers Starting with Windows Vista], PNET_BUFFER_HEADER, ndis_netbuf_structures_ref_a19368c6-0bef-4fe6-be52-d76e0c6ea99d.xml, _NET_BUFFER_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NET_BUFFER_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PNET_BUFFER_HEADER, NET_BUFFER_HEADER
+req.typenames: NET_BUFFER_HEADER, *PNET_BUFFER_HEADER
 ---
 
 # _NET_BUFFER_HEADER structure
@@ -83,15 +83,21 @@ Reserved for NDIS.
 ## -remarks
 
 
+
 NDIS maintains the information in the NET_BUFFER_HEADER union.
+
 
 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
 
  
 

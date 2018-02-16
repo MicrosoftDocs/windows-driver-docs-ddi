@@ -1,6 +1,6 @@
 ---
 UID: NS:bdamedia._KSM_BDA_PIN
-title: _KSM_BDA_PIN
+title: "_KSM_BDA_PIN"
 author: windows-driver-content
 description: The KSM_BDA_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_bda_pin.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e7778ba-cf4f-44e8-91ce-c53458d3db9a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSM_BDA_PIN structure [Streaming Media Devices], PKSM_BDA_PIN, KSM_BDA_PIN, PKSM_BDA_PIN structure pointer [Streaming Media Devices], *PKSM_BDA_PIN, _KSM_BDA_PIN, bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, bdamedia/KSM_BDA_PIN, stream.ksm_bda_pin, bdamedia/PKSM_BDA_PIN
+ms.keywords: bdamedia/KSM_BDA_PIN, KSM_BDA_PIN structure [Streaming Media Devices], bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, KSM_BDA_PIN, PKSM_BDA_PIN, *PKSM_BDA_PIN, stream.ksm_bda_pin, bdamedia/PKSM_BDA_PIN, _KSM_BDA_PIN, PKSM_BDA_PIN structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdamedia.h
-apiname: 
+apiname:
 -	KSM_BDA_PIN
 product: Windows
 targetos: Windows
@@ -72,6 +72,11 @@ typedef struct _KSM_BDA_PIN {
 
 
 
+### -field Method
+
+KSMETHOD structure that describes a method and request type of a method request.
+
+
 ### -field PinId
 
 Member of the union in KSM_BDA_PIN that contains the identifier (ID) of a pin factory of a filter.
@@ -82,11 +87,6 @@ Member of the union in KSM_BDA_PIN that contains the identifier (ID) of a pin fa
 Member of the union in KSM_BDA_PIN that contains the value that specifies the pin type.
 
 
-### -field Method
-
-KSMETHOD structure that describes a method and request type of a method request.
-
-
 ### -field Reserved
 
 Reserved.
@@ -95,6 +95,8 @@ Reserved.
 ## -see-also
 
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+
 
  
 

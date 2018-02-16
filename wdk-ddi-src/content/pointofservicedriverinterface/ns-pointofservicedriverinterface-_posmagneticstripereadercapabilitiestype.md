@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosMagneticStripeReaderCapabilitiesType
-title: _PosMagneticStripeReaderCapabilitiesType
+title: "_PosMagneticStripeReaderCapabilitiesType"
 author: windows-driver-content
 description: This structure defines the kinds of magnetic stripe reader (MSR) capabilities that a device supports, such as whether the device supports track data masking.
 old-location: pos\posmagneticstripereadercapabilitiestype.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 8f5ad241-a145-468d-bd69-7956985152b5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosMagneticStripeReaderCapabilitiesType structure, _PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype, PosMagneticStripeReaderCapabilitiesType
+ms.keywords: PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype, _PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosMagneticStripeReaderCapabilitiesType
 product: Windows
 targetos: Windows

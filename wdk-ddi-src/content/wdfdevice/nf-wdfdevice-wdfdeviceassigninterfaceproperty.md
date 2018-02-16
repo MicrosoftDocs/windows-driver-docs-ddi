@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 49608EE6-1666-4430-AD22-9627EEF6F223
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceAssignInterfaceProperty, wdf.wdfdeviceassigninterfaceproperty, WdfDeviceAssignInterfaceProperty method, WdfDeviceAssignInterfaceProperty, PFN_WDFDEVICEASSIGNINTERFACEPROPERTY
+ms.keywords: PFN_WDFDEVICEASSIGNINTERFACEPROPERTY, WdfDeviceAssignInterfaceProperty, wdf.wdfdeviceassigninterfaceproperty, WdfDeviceAssignInterfaceProperty method, wdfdevice/WdfDeviceAssignInterfaceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfDeviceAssignInterfaceProperty
 product: Windows
 targetos: Windows
@@ -102,7 +102,9 @@ A pointer to the device interface property data. Set this parameter to <b>NULL</
 ## -returns
 
 
+
 If the <b>WdfDeviceAssignInterfaceProperty</b> method encounters no errors, it returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,28 +121,74 @@ One of the parameters is incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For information about related methods, see <a href="https://msdn.microsoft.com/C81988F9-E0DA-439F-B770-DAD86E33D5F3">Accessing the Unified Device Property Model</a>.
+
+
+#### Examples
+
+The following code example initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure and then calls <b>WdfDeviceAssignInterfaceProperty</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DEFINE_DEVPROPKEY(DEVPKEY_ToasterCrispLevelDword, 0x5d0ba64a, 0x2396, 0x4bc9, 0xbf, 0x49, 0x52, 0x1d, 0xa6, 0x2b, 0x1b, 0xed, 3);  // DEVPROP_TYPE_UINT32
+
+ULONG crispLevel = 0;
+WDF_DEVICE_INTERFACE_PROPERTY_DATA propertyData;
+
+WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT(
+                          &amp;propertyData, 
+                          &amp;GUID_DEVINTERFACE_TOASTER_DRIVER
+                          &amp;DEVPKEY_ToasterCrispLevelDword
+                          );
+
+status = WdfDeviceAssignInterfaceProperty(device, 
+                                          &amp;propertData,
+                                          DEVPROP_TYPE_UINT32,
+                                          sizeof(crispLevel),
+                                          &amp;crispLevel);
+if (!NT_SUCCESS(status)) {
+    return status;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandqueryinterfaceproperty.md">WdfDeviceAllocAndQueryInterfaceProperty</a>
+
+
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_interface_property_data.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+
 
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
+
+
 
  
 

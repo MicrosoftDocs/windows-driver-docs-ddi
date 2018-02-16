@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_ADAPTER_INFO_V1
-title: _DMA_ADAPTER_INFO_V1
+title: "_DMA_ADAPTER_INFO_V1"
 author: windows-driver-content
 description: The DMA_ADAPTER_INFO_V1 structure describes the capabilities of the system DMA controller that is represented by an adapter object.
 old-location: kernel\dma_adapter_info_v1.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5BB089B8-4384-450D-BC81-9D9D068CF4EB
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1, PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], wdm/PDMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, wdm/DMA_ADAPTER_INFO_V1
+ms.keywords: DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1, _DMA_ADAPTER_INFO_V1, wdm/DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DMA_ADAPTER_INFO_V1
 product: Windows
 targetos: Windows
@@ -103,17 +103,23 @@ The size, in bytes, of the minimum transfer unit. The number of bytes specified 
 ## -remarks
 
 
+
 The <b>V1</b> member of the <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER_INFO</a> structure is a structure of type <b>DMA_ADAPTER_INFO_V1</b>.
 
 A driver calls <a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a> to obtain information about the hardware capabilities of a system DMA channel. <b>GetDmaAdapterInfo</b> writes this information into the <b>V1</b> member of a caller-supplied <b>DMA_ADAPTER_INFO</b> structure.
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
+
+
 
 <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER_INFO</a>
 
-<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_Supported_LB_Policies
-title: _ISCSI_Supported_LB_Policies
+title: "_ISCSI_Supported_LB_Policies"
 author: windows-driver-content
 description: The ISCSI_Supported_LB_Policies structure contains information about load balancing policies for multiple connections per session (MCS).
 old-location: storage\iscsi_supported_lb_policies.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 053b9f14-7319-4599-886e-3c03c717b348
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], iscsimgt/ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies, structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml, iscsimgt/PISCSI_Supported_LB_Policies, _ISCSI_Supported_LB_Policies, storage.iscsi_supported_lb_policies, PISCSI_Supported_LB_Policies structure pointer [Storage Devices]
+ms.keywords: PISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies structure pointer [Storage Devices], iscsimgt/ISCSI_Supported_LB_Policies, storage.iscsi_supported_lb_policies, _ISCSI_Supported_LB_Policies, iscsimgt/PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], ISCSI_Supported_LB_Policies, structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsimgt.h
-apiname: 
+apiname:
 -	ISCSI_Supported_LB_Policies
 product: Windows
 targetos: Windows
-req.typenames: *PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies
+req.typenames: ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies
 ---
 
 # _ISCSI_Supported_LB_Policies structure
@@ -78,6 +78,7 @@ A 64-bit integer that uniquely identifies the session. The <a href="https://msdn
 ### -field LoadBalancePolicy
 
 This specifies the type of load balance policy that has been established on a multiconnection session.
+
 <table>
 <tr>
 <th>Type</th>
@@ -143,7 +144,8 @@ Vendor-specific I/O policies are in effect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field iSCSI_PathCount
@@ -160,7 +162,11 @@ Path information as shown in the <a href="..\iscsimgt\ns-iscsimgt-_iscsi_path.md
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
 
  
 

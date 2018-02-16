@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf425cd6-88e6-479f-a5c7-364ae896145d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, netvista.ndisinterlockeddecrement, NdisInterlockedDecrement
+ms.keywords: NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], netvista.ndisinterlockeddecrement, ndis/NdisInterlockedDecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisInterlockedDecrement
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInterlockedDecrement macro
@@ -78,6 +78,7 @@ A pointer to the variable to be decremented.
 ## -remarks
 
 
+
 <b>NdisInterlockedDecrement</b> can safely be used on variables in pageable memory.
 
 <b>NdisInterlockedDecrement</b> is atomic only with respect to other 
@@ -85,9 +86,12 @@ A pointer to the variable to be decremented.
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisinterlockedincrement.md">NdisInterlockedIncrement</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: cb91ef14-53d7-42fa-b3e5-54eb3b0925b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LockDevice method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], LockDevice method, IStiUSD::LockDevice, LockDevice, IStiUSD, stiusd/IStiUSD::LockDevice, stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, LockDevice method [Imaging Devices], image.istiusd_lockdevice
+ms.keywords: LockDevice method [Imaging Devices], IStiUSD interface, stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, image.istiusd_lockdevice, IStiUSD interface [Imaging Devices], LockDevice method, LockDevice, IStiUSD::LockDevice, stiusd/IStiUSD::LockDevice, IStiUSD, LockDevice method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.LockDevice
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -67,23 +67,30 @@ STDMETHODIMP LockDevice();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 If you are writing a driver for a device connected to a serial port, you might want to call <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> from within the driver's <b>IStiUSD::LockDevice</b> method if the device was opened in status mode. This will prohibit other applications from using the port (which might be supporting other devices) while status information is being obtained. For more information, see <a href="https://msdn.microsoft.com/79af0d8f-dd04-4ff4-a047-f415562a16a5">Transfer Modes</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a>
+
+
 
  
 

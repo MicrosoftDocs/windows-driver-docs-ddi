@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 383f9dcb-68ba-4323-b25f-668169043f35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfnetpnpevent, filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml, NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista], NdisFNetPnPEvent, ndis/NdisFNetPnPEvent
+ms.keywords: NdisFNetPnPEvent, ndis/NdisFNetPnPEvent, NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml, netvista.ndisfnetpnpevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFNetPnPEvent
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFNetPnPEvent function
@@ -82,6 +82,7 @@ TBD
 
 
 
+
 #### - FilterModuleContext [in]
 
 A handle to the context area for the filter module. The filter driver created and initialized this
@@ -92,15 +93,17 @@ A handle to the context area for the filter module. The filter driver created an
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_pnp_event_notification" tabindex="0"><b>
-     NET_PNP_EVENT_NOTIFICATION</b></mshelp:link> structure, which describes the network PnP event or Power Management
+     <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+     NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the network PnP event or Power Management
      event being forwarded by the filter driver.
 
 
 ## -returns
 
 
+
 <b>NdisFNetPnPEvent</b> can return either of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,11 +131,14 @@ The overlying driver failed the PnP event.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS calls a filter driver's 
@@ -142,20 +148,31 @@ NDIS calls a filter driver's
 Filter drivers can forward these notifications to overlying drivers. To forward a request, call the 
     <b>NdisFNetPnPEvent</b> function from 
     <i>FilterNetPnPEvent</i>.
+
 <div class="alert"><b>Note</b>  NDIS drivers must not call 
     <b>NdisFNetPnPEvent</b> from within the context of the 
-    <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a> function.</div><div> </div>
+    <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a> function.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
-
 <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
+
+
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiReportLuns_OUT
-title: _ScsiReportLuns_OUT
+title: "_ScsiReportLuns_OUT"
 author: windows-driver-content
 description: The ScsiReportLuns_OUT structure is used to report the output parameter data of the ScsiReportLuns WMI method to the WMI client.
 old-location: storage\scsireportluns_out2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 93663b88-e750-4280-b5c1-798cc0f848b7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PScsiReportLuns_OUT, hbapiwmi/ScsiReportLuns_OUT, _ScsiReportLuns_OUT, *PScsiReportLuns_OUT, ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], storage.scsireportluns_out2, PScsiReportLuns_OUT structure pointer [Storage Devices], PScsiReportLuns_OUT, structs-Fibre_3c117d4b-f151-45af-84bb-ef6f800967aa.xml
+ms.keywords: ScsiReportLuns_OUT, _ScsiReportLuns_OUT, structs-Fibre_3c117d4b-f151-45af-84bb-ef6f800967aa.xml, PScsiReportLuns_OUT structure pointer [Storage Devices], hbapiwmi/ScsiReportLuns_OUT, *PScsiReportLuns_OUT, storage.scsireportluns_out2, PScsiReportLuns_OUT, hbapiwmi/PScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hbapiwmi.h
-apiname: 
+apiname:
 -	ScsiReportLuns_OUT
 product: Windows
 targetos: Windows
-req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
+req.typenames: "*PScsiReportLuns_OUT, ScsiReportLuns_OUT"
 ---
 
 # _ScsiReportLuns_OUT structure
@@ -105,7 +105,9 @@ Contains the SCSI sense data that results from the SCSI report LUNs command.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the ScsiReportLuns_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
@@ -113,7 +115,11 @@ The WMI tool suite generates a declaration of the ScsiReportLuns_OUT structure i
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+
+
 
  
 

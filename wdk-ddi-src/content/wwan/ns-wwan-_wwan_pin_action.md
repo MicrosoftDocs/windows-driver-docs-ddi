@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_ACTION
-title: _WWAN_PIN_ACTION
+title: "_WWAN_PIN_ACTION"
 author: windows-driver-content
 description: The WWAN_PIN_ACTION structure represents actions to perform with a Personal Identification Number (PIN).
 old-location: netvista\wwan_pin_action.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4edd0bc1-cd50-460b-92e1-7b2440ae3861
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_PIN_ACTION, netvista.wwan_pin_action, WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_PIN_ACTION, WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml, WWAN_PIN_ACTION, wwan/PWWAN_PIN_ACTION, PWWAN_PIN_ACTION, _WWAN_PIN_ACTION
+ms.keywords: "*PWWAN_PIN_ACTION, _WWAN_PIN_ACTION, WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_ACTION, wwan/WWAN_PIN_ACTION, PWWAN_PIN_ACTION, wwan/PWWAN_PIN_ACTION, netvista.wwan_pin_action, WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PIN_ACTION
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_PIN_ACTION, WWAN_PIN_ACTION
+req.typenames: "*PWWAN_PIN_ACTION, WWAN_PIN_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -102,6 +102,7 @@ A NULL-terminated string that represents the new PIN value to set when
 ## -remarks
 
 
+
 When 
     <b>PinType</b> is 
     <b>WwanPinTypePuk1</b> or 
@@ -116,13 +117,20 @@ When
 
 
 
+
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_pin.md">NDIS_WWAN_SET_PIN</a>
+<a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
+
+
 
 <a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
 
-<a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_pin.md">NDIS_WWAN_SET_PIN</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GSM_SERVING_CELL_INFO
-title: _WWAN_GSM_SERVING_CELL_INFO
+title: "_WWAN_GSM_SERVING_CELL_INFO"
 author: windows-driver-content
 description: The WWAN_GSM_SERVING_CELL_INFO structure represents information about the GSM serving cell.
 old-location: netvista\wwan_gsm_serving_cell_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 37F6BD26-55F3-4E46-9C39-97A95B6FF5B1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO, *PWWAN_GSM_SERVING_CELL_INFO, _WWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_GSM_SERVING_CELL_INFO, wwan/PWWAN_GSM_SERVING_CELL_INFO, netvista.wwan_gsm_serving_cell_info, PWWAN_GSM_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: PWWAN_GSM_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_GSM_SERVING_CELL_INFO, *PWWAN_GSM_SERVING_CELL_INFO, _WWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_GSM_SERVING_CELL_INFO, netvista.wwan_gsm_serving_cell_info, WWAN_GSM_SERVING_CELL_INFO, wwan/WWAN_GSM_SERVING_CELL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_GSM_SERVING_CELL_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO
+req.typenames: "*PWWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -114,12 +114,17 @@ The Base Station ID - the base station color code and the network identity code.
 ### -field RxLevel
 
 The received signal strength (RSS) of the serving cell (0-63), where
-<pre class="syntax" xml:space="preserve"><code>X = 0, if RSS &lt; -110 dBm</code></pre><pre class="syntax" xml:space="preserve"><code>X = 63, if RSS &gt; -47 dBm</code></pre><pre class="syntax" xml:space="preserve"><code>X = integer [RSS + 110], if -110 &lt;= RSS &lt;= -47</code></pre>Use 0xFFFFFFFF when this information is not available.
+
+<pre class="syntax" xml:space="preserve"><code>X = 0, if RSS &lt; -110 dBm</code></pre>
+<pre class="syntax" xml:space="preserve"><code>X = 63, if RSS &gt; -47 dBm</code></pre>
+<pre class="syntax" xml:space="preserve"><code>X = integer [RSS + 110], if -110 &lt;= RSS &lt;= -47</code></pre>
+Use 0xFFFFFFFF when this information is not available.
 
 
 ### -field Data
 
  
+
 
 
 
@@ -130,13 +135,21 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e83f7ae-8d7b-4d06-a8f0-5b4c2f04f4a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SendUiccToolkitEnvelope, netvista.ril_senduicctoolkitenvelope, rilapi/RIL_SendUiccToolkitEnvelope, RIL_SendUiccToolkitEnvelope method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SendUiccToolkitEnvelope method [Network Drivers Starting with Windows Vista], RIL_SendUiccToolkitEnvelope, rilapi/RIL_SendUiccToolkitEnvelope, netvista.ril_senduicctoolkitenvelope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SendUiccToolkitEnvelope
 product: Windows
 targetos: Windows
@@ -77,26 +77,23 @@ HRESULT  RIL_SendUiccToolkitEnvelope(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwSlotIndex
 
 
-
 ### -param pbEnvelope
-
 
 
 ### -param dwEnvelopeSize
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

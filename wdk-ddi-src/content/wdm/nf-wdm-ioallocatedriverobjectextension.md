@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e4e4e721-5b5c-48e8-99cb-d04c6b0eb807
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoAllocateDriverObjectExtension, kernel.ioallocatedriverobjectextension, IoAllocateDriverObjectExtension, k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], kernel.ioallocatedriverobjectextension, k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoAllocateDriverObjectExtension
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ Pointer to, on completion, the allocated context area.
 ## -returns
 
 
+
 <b>IoAllocateDriverObjectExtension</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +135,14 @@ Indicates that a driver object extension with the given <i>ClientIdentificationA
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Memory allocated by the system for the driver object extension is resident storage and is accessible from any IRQL. The allocated storage is automatically freed by the I/O manager when the driver object is deleted.
@@ -146,9 +151,12 @@ Callers of this routine must provide a unique identifier for <i>ClientIdentifica
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iogetdriverobjectextension.md">IoGetDriverObjectExtension</a>
+
+
 
  
 

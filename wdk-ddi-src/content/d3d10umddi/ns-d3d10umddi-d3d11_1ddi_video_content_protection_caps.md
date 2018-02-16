@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31ff5dfc-72b1-4ce1-af83-cad3816a785c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, display.d3d11_1ddi_video_content_protection_caps, D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS
+ms.keywords: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS structure [Display Devices], display.d3d11_1ddi_video_content_protection_caps, d3d10umddi/D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS
 product: Windows
 targetos: Windows
@@ -94,7 +94,11 @@ The total amount of memory, in bytes, that can be used to hold protected surface
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcryptokeyexchangetype.md">GetCryptoKeyExchangeType</a>
 
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_content_protection_caps.md">D3D11_1DDI_CONTENT_PROTECTION_CAPS</a>
+
+
 
  
 

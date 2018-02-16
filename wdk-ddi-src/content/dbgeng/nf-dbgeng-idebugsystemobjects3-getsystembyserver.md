@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 693CB919-A1D1-4A82-ABE5-2362431A9B92
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, IDebugSystemObjects3, GetSystemByServer, IDebugSystemObjects3::GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver, dbgeng/IDebugSystemObjects3::GetSystemByServer, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface
+ms.keywords: IDebugSystemObjects3 interface [Windows Debugging], GetSystemByServer method, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3 interface, GetSystemByServer, debugger.idebugsystemobjects3_getsystembyserver, GetSystemByServer method [Windows Debugging], IDebugSystemObjects3::GetSystemByServer, IDebugSystemObjects3, dbgeng/IDebugSystemObjects3::GetSystemByServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects3.GetSystemByServer
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSystemObjects3::GetSystemByServer method
@@ -80,14 +80,10 @@ HRESULT GetSystemByServer(
 
 
 
+
 #### - Buffer [out]
 
 A pointer to an output buffer. 
-
-
-#### - NameSize [out, optional]
-
-A pointer to the name size. 
 
 
 #### - BufferSize [in]
@@ -95,10 +91,17 @@ A pointer to the name size.
 The size of the buffer.
 
 
+#### - NameSize [out, optional]
+
+A pointer to the name size. 
+
+
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,7 +118,9 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -123,7 +128,11 @@ The method was successful.
 
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+
+
 
  
 

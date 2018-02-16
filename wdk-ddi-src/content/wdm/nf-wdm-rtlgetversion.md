@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b6e6fbc0-a35b-4086-9d7a-98dab516a816
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml, RtlGetVersion, RtlGetVersion routine [Kernel-Mode Driver Architecture], wdm/RtlGetVersion, kernel.rtlgetversion
+ms.keywords: wdm/RtlGetVersion, kernel.rtlgetversion, RtlGetVersion, k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml, RtlGetVersion routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlGetVersion
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to either a <a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFO
 ## -returns
 
 
+
 <b>RtlGetVersion</b> returns STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 <b>RtlGetVersion</b> is the kernel-mode equivalent of the user-mode <b>GetVersionEx</b> function in the Windows SDK. See the example in the Windows SDK that shows how to get the system version.
@@ -91,9 +94,12 @@ Because operating system features can be added in a redistributable DLL, checkin
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-psgetversion.md">PsGetVersion</a>
+
+
 
  
 

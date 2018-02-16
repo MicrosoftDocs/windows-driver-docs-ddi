@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdfdevice/WdfDevicePostEvent, wdf.wdfdevicepostevent, PFN_WDFDEVICEPOSTEVENT
+ms.keywords: wdf.wdfdevicepostevent, WdfDevicePostEvent function, WdfDevicePostEvent, wdfdevice/WdfDevicePostEvent, PFN_WDFDEVICEPOSTEVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfDevicePostEvent
 product: Windows
 targetos: Windows
@@ -102,7 +102,9 @@ The size, in bytes, of data that <i>Data</i> points to. Zero is a valid size val
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,13 +122,16 @@ If the operation succeeds, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS. Add
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting application about an event, UMDF sends the event to the operating system. The operating system sends the event on to the requesting application in an asynchronous operation. If the operating system initially returns no error, <b>WdfDevicePostEvent</b> returns STATUS_SUCCESS.
@@ -137,11 +142,16 @@ When the driver calls <b>WdfDevicePostEvent</b> to notify the requesting applica
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a>
+
+
 
  
 

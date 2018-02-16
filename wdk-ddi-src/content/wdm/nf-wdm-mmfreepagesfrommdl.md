@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bde26b75-9eae-494b-b943-f1e9534c5f7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmFreePagesFromMdl, MmFreePagesFromMdl routine [Kernel-Mode Driver Architecture], wdm/MmFreePagesFromMdl, k106_4263f517-edab-4378-b316-ce344676d7e6.xml, kernel.mmfreepagesfrommdl
+ms.keywords: kernel.mmfreepagesfrommdl, MmFreePagesFromMdl routine [Kernel-Mode Driver Architecture], k106_4263f517-edab-4378-b316-ce344676d7e6.xml, wdm/MmFreePagesFromMdl, MmFreePagesFromMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmFreePagesFromMdl
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to an MDL that was created by <b>MmAllocatePagesForMdl</b>.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>MmFreePagesFromMdl</b> can only be used to free the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdl</b>.
@@ -91,11 +94,16 @@ After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\w
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
 
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
 
  
 

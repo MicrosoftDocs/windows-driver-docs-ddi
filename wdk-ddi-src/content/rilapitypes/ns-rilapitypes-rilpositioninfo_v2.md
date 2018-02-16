@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 881e85a2-4ba2-4940-94c0-61a2d335e52a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], RILPOSITIONINFO, *LPRILPOSITIONINFO, netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2, RILPOSITIONINFO_V2
+ms.keywords: RILPOSITIONINFO, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO_V2, *LPRILPOSITIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPOSITIONINFO_V2
 product: Windows
 targetos: Windows
-req.typenames: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO
+req.typenames: RILPOSITIONINFO, *LPRILPOSITIONINFO, RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2
 req.product: Windows 10 or later.
 ---
 
@@ -163,19 +163,21 @@ The number of entries in the cdma2000 measured results list <b>rc2kMRL</b>.
 The cdma2000 measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilc2kmrl.md">RILC2KMRL</a> structs.
 
 
-#### - RILUMTSMRL
-
-UMTS measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
-
-
 #### - RILTDSCDMAMRL
 
 TD-SCDMA measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-riltdscdmamrl.md">RILTDSCDMAMRL</a> structs. This field is not present in RILPOSITIONINFO_V1.
 
 
+#### - RILUMTSMRL
+
+UMTS measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
+
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

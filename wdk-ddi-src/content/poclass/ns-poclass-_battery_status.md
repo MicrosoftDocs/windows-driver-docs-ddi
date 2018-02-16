@@ -1,6 +1,6 @@
 ---
 UID: NS:poclass._BATTERY_STATUS
-title: _BATTERY_STATUS
+title: "_BATTERY_STATUS"
 author: windows-driver-content
 description: The BATTERY_STATUS structure is used by battery miniclass drivers to return status information in response to a call to BatteryMiniQueryStatus.
 old-location: battery\battery_status.htm
@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 48df787b-f9f6-45d1-872c-ceeda3087af6
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PBATTERY_STATUS structure pointer [Battery Devices], PBATTERY_STATUS, battery.battery_status, *PBATTERY_STATUS, BATTERY_STATUS, _BATTERY_STATUS, BATTERY_STATUS structure [Battery Devices], bat-struct_11dfaf25-0f90-4c5b-8017-15fb2124423b.xml, poclass/BATTERY_STATUS, poclass/PBATTERY_STATUS
+ms.keywords: battery.battery_status, *PBATTERY_STATUS, BATTERY_STATUS structure [Battery Devices], _BATTERY_STATUS, PBATTERY_STATUS, PBATTERY_STATUS structure pointer [Battery Devices], BATTERY_STATUS, poclass/BATTERY_STATUS, bat-struct_11dfaf25-0f90-4c5b-8017-15fb2124423b.xml, poclass/PBATTERY_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poclass.h
-apiname: 
+apiname:
 -	BATTERY_STATUS
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ Specifies the current rate of battery usage in milliwatts or, if the driver repo
 ## -see-also
 
 <a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
+
+
 
  
 

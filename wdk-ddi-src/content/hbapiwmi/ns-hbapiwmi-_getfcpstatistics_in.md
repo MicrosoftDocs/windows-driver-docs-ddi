@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFCPStatistics_IN
-title: _GetFCPStatistics_IN
+title: "_GetFCPStatistics_IN"
 author: windows-driver-content
 description: The GetFCPStatistics_IN structure is used to deliver input parameter data to the GetFCPStatistics WMI method.
 old-location: storage\getfcpstatistics_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6cb4532-fc66-45e7-a779-0981465d69fc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.getfcpstatistics_in, hbapiwmi/GetFCPStatistics_IN, PGetFCPStatistics_IN structure pointer [Storage Devices], PGetFCPStatistics_IN, structs-Fibre_409be852-67ff-45c4-bce1-291076c1a70b.xml, GetFCPStatistics_IN, *PGetFCPStatistics_IN, _GetFCPStatistics_IN, hbapiwmi/PGetFCPStatistics_IN, GetFCPStatistics_IN structure [Storage Devices]
+ms.keywords: hbapiwmi/GetFCPStatistics_IN, PGetFCPStatistics_IN structure pointer [Storage Devices], *PGetFCPStatistics_IN, structs-Fibre_409be852-67ff-45c4-bce1-291076c1a70b.xml, GetFCPStatistics_IN, GetFCPStatistics_IN structure [Storage Devices], hbapiwmi/PGetFCPStatistics_IN, storage.getfcpstatistics_in, _GetFCPStatistics_IN, PGetFCPStatistics_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	GetFCPStatistics_IN
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBA
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetFCPStatistics_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
@@ -83,7 +85,11 @@ The WMI tool suite generates a declaration of the GetFCPStatistics_IN structure 
 
 <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBAScsiID</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
+
+
 
  
 

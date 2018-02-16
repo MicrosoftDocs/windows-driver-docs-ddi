@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6dbe7da6-31f6-43f2-aa25-be6f13c8d8d8
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, wdbgexts/GetTebAddress, debugger.gettebaddress, GetTebAddress function [Windows Debugging], GetTebAddress
+ms.keywords: GetTebAddress, WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, debugger.gettebaddress, wdbgexts/GetTebAddress, GetTebAddress function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	GetTebAddress
 product: Windows
 targetos: Windows
@@ -76,20 +76,26 @@ Receives the address of the TEB for the current operating system thread.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 In user-mode debugging, the TEB for the current thread is returned.  In kernel-mode debugging, the TEB for the operating system thread that was running on the current processor when the last event occurred is returned.
+
 
 
 
 ## -see-also
 
 <a href="..\wdbgexts\nf-wdbgexts-getpebaddress.md">GetPebAddress</a>
+
+
 
  
 

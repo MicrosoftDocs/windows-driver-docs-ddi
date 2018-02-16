@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GENERATEMIPSUBLEVELS
-title: _D3DDDIARG_GENERATEMIPSUBLEVELS
+title: "_D3DDDIARG_GENERATEMIPSUBLEVELS"
 author: windows-driver-content
 description: The D3DDDIARG_GENERATEMIPSUBLEVELS structure describes how to generate the sublevels of a MIP-map texture.
 old-location: display\d3dddiarg_generatemipsublevels.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 19c08206-cde8-4ec2-bbd1-92eadeecdb90
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_GENERATEMIPSUBLEVELS, display.d3dddiarg_generatemipsublevels, d3dumddi/D3DDDIARG_GENERATEMIPSUBLEVELS, _D3DDDIARG_GENERATEMIPSUBLEVELS, UMDisplayDriver_param_Structs_4000d18b-18c0-4499-bfbe-a3f5e866553b.xml, D3DDDIARG_GENERATEMIPSUBLEVELS structure [Display Devices]
+ms.keywords: d3dumddi/D3DDDIARG_GENERATEMIPSUBLEVELS, UMDisplayDriver_param_Structs_4000d18b-18c0-4499-bfbe-a3f5e866553b.xml, D3DDDIARG_GENERATEMIPSUBLEVELS structure [Display Devices], D3DDDIARG_GENERATEMIPSUBLEVELS, _D3DDDIARG_GENERATEMIPSUBLEVELS, display.d3dddiarg_generatemipsublevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_GENERATEMIPSUBLEVELS
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ typedef struct _D3DDDIARG_GENERATEMIPSUBLEVELS {
 ### -field Filter
 
 [in] A D3DDDITEXTUREFILTERTYPE-typed value that indicates the texture magnification or minification filter type that is used in generating the sublevels of the MIP-map texture. This member can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -141,12 +142,15 @@ Four-sample Gaussian filtering.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_generatemipsublevels.md">GenerateMipSubLevels</a>
+
+
 
  
 

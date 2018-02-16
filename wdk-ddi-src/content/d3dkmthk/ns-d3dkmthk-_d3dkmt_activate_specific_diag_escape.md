@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
-title: _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
+title: "_D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE"
 author: windows-driver-content
 description: Indicates an escape type that is to be activated or deactivated.
 old-location: display\d3dkmt_activate_specific_diag_escape.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e3c61b33-2e10-42cf-b9e8-fe70a43573e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure [Display Devices], D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, display.d3dkmt_activate_specific_diag_escape, d3dkmthk/D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
+ms.keywords: d3dkmthk/D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure [Display Devices], _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, display.d3dkmt_activate_specific_diag_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ If <b>TRUE</b>, the escape type is to be activated. If <b>FALSE</b>, the escape 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPETYPE</a>
+
+
 
  
 

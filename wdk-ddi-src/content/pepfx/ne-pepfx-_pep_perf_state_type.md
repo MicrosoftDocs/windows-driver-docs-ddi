@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_PERF_STATE_TYPE
-title: _PEP_PERF_STATE_TYPE
+title: "_PEP_PERF_STATE_TYPE"
 author: windows-driver-content
 description: The PEP_PERF_STATE_TYPE enumeration indicates the type of performance information that is specified for a performance state (P-state) of a component.
 old-location: kernel\pep_perf_state_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PepPerfStateTypeMax, *PPEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, _PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeRange, PepPerfStateTypeRange, PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeMax, pepfx/PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PepPerfStateTypeDiscrete, kernel.pep_perf_state_type
+ms.keywords: PEP_PERF_STATE_TYPE, PepPerfStateTypeRange, pepfx/PepPerfStateTypeMax, _PEP_PERF_STATE_TYPE, PepPerfStateTypeMax, pepfx/PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeRange, kernel.pep_perf_state_type, PepPerfStateTypeDiscrete, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], *PPEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_PERF_STATE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PERF_STATE_TYPE, *PPEP_PERF_STATE_TYPE
+req.typenames: "*PPEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE"
 ---
 
 # _PEP_PERF_STATE_TYPE enumeration
@@ -87,13 +87,17 @@ Reserved for use by operating system.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structure is a <b>PEP_PERF_STATE_TYPE</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
+
+
 
  
 

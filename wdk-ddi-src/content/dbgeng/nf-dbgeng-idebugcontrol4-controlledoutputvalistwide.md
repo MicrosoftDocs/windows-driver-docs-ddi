@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8576a20b-bdb8-47d9-a21e-689a315c6886
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4::ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], dbgeng/IDebugControl4::ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, debugger.controlledoutputvalistwide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, ControlledOutputVaListWide
+ms.keywords: debugger.controlledoutputvalistwide, ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ControlledOutputVaListWide, IDebugControl4::ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, IDebugControl4, ControlledOutputVaListWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.ControlledOutputVaListWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::ControlledOutputVaListWide method
@@ -85,6 +85,7 @@ Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/li
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers, and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
+
 <table>
 <tr>
 <th>Character</th>
@@ -254,11 +255,13 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The %Y format specifier can be used to support the Debugger Markup Language (DML). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt613235">Customizing Debugger Output Using DML</a>.
 
 The following table summarizes the use of the %Y format specifier.
+
 <table>
 <tr>
 <td>Character</td>
@@ -350,9 +353,11 @@ ULONG64
 <td>Debugger formatted pointer</td>
 <td>	Address as source line information.</td>
 </tr>
-</table> 
+</table>
+ 
 
 This code snippet illustrates the use of the  %Y format specifier.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -391,7 +396,9 @@ This code snippet illustrates the use of the  %Y format specifier.
 </pre>
 </td>
 </tr>
-</table></span></div>This sample code would generate the following output.
+</table></span></div>
+This sample code would generate the following output.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -419,12 +426,14 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 </table></span></div>
 
 
+
 ### -param Args [in]
 
 Specifies additional parameters that represent values to be inserted into the output during formatting.  <i>Args</i> must be initialized using <b>va_start</b>.  This method does not call <b>va_end</b>.
 
 
 ## -returns
+
 
 
 <table>
@@ -443,13 +452,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
@@ -458,15 +470,24 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 
 
+
 ## -see-also
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
+
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+
 
  
 

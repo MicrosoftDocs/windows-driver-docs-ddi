@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaa7967a-dfbc-4c4c-a309-095628fae6c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsmsmsginflags, RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_SMSMSGIN_ALL, RILSMSMSGINFLAGS, RIL_SMSMSGIN_IMS, RIL_SMSMSGIN_ALL, ntddrilapitypes/RILSMSMSGINFLAGS, ntddrilapitypes/RIL_SMSMSGIN_IMS
+ms.keywords: ntddrilapitypes/RIL_SMSMSGIN_ALL, RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_SMSMSGIN_ALL, ntddrilapitypes/RILSMSMSGINFLAGS, ntddrilapitypes/RIL_SMSMSGIN_IMS, RILSMSMSGINFLAGS, RIL_SMSMSGIN_IMS, netvista.rilsmsmsginflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSMSMSGINFLAGS
 product: Windows
 targetos: Windows
@@ -71,11 +71,8 @@ typedef enum _RILSMSMSGINFLAGS {
 ### -field RIL_SMSMSGIN_NONE
 
 
-
 ### -field RIL_SMSMSGIN_IMS
 
 
-
 ### -field RIL_SMSMSGIN_ALL
-
 

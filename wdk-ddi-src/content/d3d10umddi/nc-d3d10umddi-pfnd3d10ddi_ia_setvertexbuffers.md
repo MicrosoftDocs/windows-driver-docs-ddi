@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	IaSetVertexBuffers
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_IA_SETVERTEXBUFFERS callback
@@ -78,9 +78,7 @@ VOID APIENTRY IaSetVertexBuffers(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param StartSlot
-
 
 
 ### -param NumBuffers [in]
@@ -95,14 +93,11 @@ VOID APIENTRY IaSetVertexBuffers(
 
 
 
+
+
 #### - StartBuffer [in]
 
  The starting vertex buffer to set. 
-
-
-#### - phBuffers [in]
-
- An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
 #### - hDevice [in]
@@ -110,17 +105,23 @@ VOID APIENTRY IaSetVertexBuffers(
  A handle to the display device (graphics context).
 
 
-#### - pStrides [in]
-
- An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
-
-
 #### - pOffsets [in]
 
  An array of values that indicate the offsets, in bytes, into each vertex buffer. 
 
 
+#### - pStrides [in]
+
+ An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer 
+
+
+#### - phBuffers [in]
+
+ An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
+
+
 ## -returns
+
 
 
 None
@@ -129,18 +130,25 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>IaSetVertexBuffers</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: B20B2AE6-A408-451C-B46D-803139E8B57F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.istidevicecontrol_getmydevicehandle, GetMyDeviceHandle method [Imaging Devices], stiusd/IStiDeviceControl::GetMyDeviceHandle, GetMyDeviceHandle, GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl::GetMyDeviceHandle, IStiDeviceControl interface [Imaging Devices], GetMyDeviceHandle method, IStiDeviceControl
+ms.keywords: IStiDeviceControl::GetMyDeviceHandle, stiusd/IStiDeviceControl::GetMyDeviceHandle, IStiDeviceControl, GetMyDeviceHandle, IStiDeviceControl interface [Imaging Devices], GetMyDeviceHandle method, image.istidevicecontrol_getmydevicehandle, GetMyDeviceHandle method [Imaging Devices], GetMyDeviceHandle method [Imaging Devices], IStiDeviceControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Stiusd.h
-apiname: 
+apiname:
 -	IStiDeviceControl.GetMyDeviceHandle
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -76,13 +76,17 @@ Defines the <b>LPHANDLE</b> parameter <i>lph</i>.
 ## -returns
 
 
+
 Defines the <b>HRESULT</b> return value.
+
 
 
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
+
+
 
  
 

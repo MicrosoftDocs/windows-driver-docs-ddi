@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 77996a5f-aaf0-4c8c-9d29-498612ae9c0d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSystemVersionValues, debugger.getsystemversionvalues, IDebugControl4::GetSystemVersionValues, IDebugControl4, GetSystemVersionValues method [Windows Debugging], IDebugControl4 interface, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, dbgeng/IDebugControl4::GetSystemVersionValues, IDebugControl4 interface [Windows Debugging], GetSystemVersionValues method, GetSystemVersionValues method [Windows Debugging]
+ms.keywords: IDebugControl4, GetSystemVersionValues, GetSystemVersionValues method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], GetSystemVersionValues method, GetSystemVersionValues method [Windows Debugging], debugger.getsystemversionvalues, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, IDebugControl4::GetSystemVersionValues, dbgeng/IDebugControl4::GetSystemVersionValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetSystemVersionValues
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetSystemVersionValues method
@@ -99,7 +99,9 @@ Receives the build number for the target's operating system.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,14 +118,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+
 
 
 
@@ -131,9 +137,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549234">GetSystemVersion</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

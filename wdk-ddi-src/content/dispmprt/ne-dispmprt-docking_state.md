@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e051d49-57ae-43c8-a894-a6c2c277dce9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DOCKING_STATE enumeration [Display Devices], display.docking_state, DOCKING_STATE, DockStateUnDocked, DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, dispmprt/DockStateDocked, DockStateUnsupported, DockStateUnknown, dispmprt/DOCKING_STATE, dispmprt/DockStateUnknown, dispmprt/DockStateUnDocked, DockStateDocked, dispmprt/DockStateUnsupported
+ms.keywords: dispmprt/DockStateUnDocked, DockStateUnknown, dispmprt/DOCKING_STATE, display.docking_state, DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, DOCKING_STATE enumeration [Display Devices], DockStateUnsupported, dispmprt/DockStateDocked, dispmprt/DockStateUnsupported, DOCKING_STATE, dispmprt/DockStateUnknown, DockStateUnDocked, DockStateDocked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DOCKING_STATE
 product: Windows
 targetos: Windows

@@ -1,14 +1,14 @@
 ---
 UID: NS:d4drvif._DOT4_DRIVER_CMD
-title: _DOT4_DRIVER_CMD
+title: "_DOT4_DRIVER_CMD"
 author: windows-driver-content
 description: This topic describes the DOT4_DRIVER_CMD structure.
 old-location: print\dot4_driver_cmd.htm
 old-project: print
 ms.assetid: 7F099F7E-6E1F-499A-AF09-80B20429B892
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD, PDOT4_DRIVER_CMD structure pointer [Print Devices], d4drvif/DOT4_DRIVER_CMD, _DOT4_DRIVER_CMD, print.dot4_driver_cmd, DOT4_DRIVER_CMD structure [Print Devices], PDOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD
+ms.date: 2/2/2018
+ms.keywords: d4drvif/DOT4_DRIVER_CMD, _DOT4_DRIVER_CMD, DOT4_DRIVER_CMD structure [Print Devices], d4drvif/PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD, print.dot4_driver_cmd, PDOT4_DRIVER_CMD structure pointer [Print Devices], *PDOT4_DRIVER_CMD, PDOT4_DRIVER_CMD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D4drvif.h
-apiname: 
+apiname:
 -	DOT4_DRIVER_CMD
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD
+req.typenames: "*PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD"
 ---
 
 # _DOT4_DRIVER_CMD structure

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: cc0da962-beeb-4035-a68e-e5b856cd5d9b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortInitialize, VideoPortInitialize, display.videoportinitialize, VideoPortInitialize function [Display Devices], VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml
+ms.keywords: VideoPortInitialize function [Display Devices], display.videoportinitialize, video/VideoPortInitialize, VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml, VideoPortInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortInitialize
 product: Windows
 targetos: Windows
@@ -94,16 +94,20 @@ Must be <b>NULL</b>.
 ## -returns
 
 
+
 <b>VideoPortInitialize</b> returns the final status of the initialization operation. 
+
 
 
 
 ## -remarks
 
 
+
 Every video miniport driver must call <b>VideoPortInitialize</b> from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function. <b>DriverEntry</b> can call <b>VideoPortInitialize</b> only after it has first zero-initialized and then set up the <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a> structure. <b>VideoPortInitialize</b> can be called only from a miniport driver's <b>DriverEntry</b> function.
 
 The <b>VideoPortInitialize</b> function:
+
 <ul>
 <li>
 Checks the validity of the miniport driver's VIDEO_HW_INITIALIZATION_DATA specifications.
@@ -129,23 +133,37 @@ Allocates memory for, and zero-initializes the device extension of, the device o
 Collects and stores pertinent information in the device extension.
 
 </li>
-</ul>The miniport driver's <b>DriverEntry</b> routine propagates the value returned by <b>VideoPortInitialize</b> back to its caller. Miniport drivers should not use this return value. 
+</ul>
+The miniport driver's <b>DriverEntry</b> routine propagates the value returned by <b>VideoPortInitialize</b> back to its caller. Miniport drivers should not use this return value. 
+
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+
+
 
 <a href="..\video\nc-video-pvideo_hw_initialize.md">HwVidInitialize</a>
+
+
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+
+
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+
+
 
  
 

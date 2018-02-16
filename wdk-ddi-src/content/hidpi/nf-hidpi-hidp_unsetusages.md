@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 55dcd9f3-6903-4718-98c2-ee42ee1026e3
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.hidp_unsetusages, HidP_UnsetUsages routine [Human Input Devices], HidP_UnsetUsages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, hidpi/HidP_UnsetUsages
+ms.keywords: hid.hidp_unsetusages, hidpi/HidP_UnsetUsages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, HidP_UnsetUsages routine [Human Input Devices], HidP_UnsetUsages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Hidparse.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+apiname:
 -	HidP_UnsetUsages
 product: Windows
 targetos: Windows
@@ -118,9 +118,11 @@ Specifies the size, in bytes, of the report located at <i>Report</i>, which must
 ## -returns
 
 
+
 <b>HidP_UnsetUsages</b> returns HIDP_STATUS_SUCCESS if it successfully sets to OFF all the usages in <i>UsageList</i>.
 
 <b>HidP_UnsetUsages </b>returns one of the following status values if one of the input parameters is not valid:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -170,9 +172,11 @@ The collection does not contain a report of the specified type.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>HidP_UnsetUsages</b> returns one of the following status values if it was not able to set to OFF one of the usages in <i>UsageList</i>:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -216,11 +220,14 @@ The routine did not find a usage in any report of the specified type.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>HidP_UnsetUsages</b> sets <i>UsageLength</i> as follows:
@@ -231,17 +238,28 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
 
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+
 
 <a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
 
+
+
+<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539812">HidP_UnsetButtons</a>
+
+
 
  
 

@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	PnpGetLocationString
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
 ---
 
 # PGET_LOCATION_STRING callback
@@ -76,14 +76,7 @@ NTSTATUS PnpGetLocationString(
 A pointer to interface-specific context information.  The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a> structure.
 
 
-### -param *LocationStrings
-
-
-
-
-
-
-#### - LocationStrings [out]
+### -param *LocationStrings [out]
 
 A pointer to a sequence of null-terminated Unicode strings, that is terminated by another zero. Each string serves as a location string for the device. Drivers typically return a single string.
 
@@ -91,11 +84,14 @@ A pointer to a sequence of null-terminated Unicode strings, that is terminated b
 ## -returns
 
 
+
 The routine returns an NTSTATUS value to indicate the status of the operation.
 
 
 
+
 ## -remarks
+
 
 
 The <a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a> structure supplies a pointer to the <i>PnpGetLocationString</i> routine.
@@ -110,13 +106,20 @@ The <i>PnpGetLocationString</i> routine calls a routine such as <a href="..\wdm\
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
+
+
 <a href="..\ntddk\ns-ntddk-_pnp_location_interface.md">PNP_LOCATION_INTERFACE</a>
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
 
  
 

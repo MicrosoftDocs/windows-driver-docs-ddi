@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	QueryDListForApplication
 product: Windows
 targetos: Windows
@@ -75,12 +75,12 @@ HRESULT APIENTRY* QueryDListForApplication(
 ### -param *
 
 
-
 ### -param HANDLE
 
 
-
 ### -param PFND3DDDI_ESCAPECB
+
+
 
 
 
@@ -92,24 +92,27 @@ HRESULT APIENTRY* QueryDListForApplication(
 A handle to the graphics adapter object.
 
 
-#### - pfnEscapeCB [in]
-
-A function pointer to a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
-
-
 #### - pDefaultToDiscrete [out]
 
 If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
 
 
+#### - pfnEscapeCB [in]
+
+A function pointer to a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
+
+
 ## -returns
+
 
 
 Returns <b>S_OK</b>, or an appropriate error result if the operation is not successful.
 
 
 
+
 ## -remarks
+
 
 
 For more information on how to call this function and set up the DLL that exports it, see <a href="https://msdn.microsoft.com/8AABE677-2C2D-4CFD-AF22-06D65524A158">Hybrid system DDI</a>.
@@ -118,9 +121,12 @@ For more general information on hybrid systems, see <a href="https://msdn.micros
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+
+
 
  
 

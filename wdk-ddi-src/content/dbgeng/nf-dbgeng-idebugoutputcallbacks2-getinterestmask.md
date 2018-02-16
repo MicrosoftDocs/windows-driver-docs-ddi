@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: BA710D92-63F4-4B4B-868A-58074FC052E9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_OUTCBI_DML, GetInterestMask, DEBUG_OUTCBI_ANY_FORMAT, debugger.idebugoutputcallbacks2_getinterestmask, DEBUG_OUTCBI_TEXT, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], GetInterestMask method, IDebugOutputCallbacks2::GetInterestMask, dbgeng/IDebugOutputCallbacks2::GetInterestMask, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugOutputCallbacks2 interface
+ms.keywords: DEBUG_OUTCBI_TEXT, dbgeng/IDebugOutputCallbacks2::GetInterestMask, IDebugOutputCallbacks2, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2::GetInterestMask, IDebugOutputCallbacks2 interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugOutputCallbacks2 interface, DEBUG_OUTCBI_DML, GetInterestMask, DEBUG_OUTCBI_ANY_FORMAT, debugger.idebugoutputcallbacks2_getinterestmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugOutputCallbacks2.GetInterestMask
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugOutputCallbacks2::GetInterestMask method
@@ -70,6 +70,7 @@ HRESULT GetInterestMask(
 ### -param Mask
 
 The type of output notification to receive. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -124,19 +125,24 @@ content in any format.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks2.md">IDebugOutputCallbacks2</a>
+
+
 
  
 

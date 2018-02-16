@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53c72dbb-cf8d-4683-a440-985669265a52
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, rilapitypes/RIL_REGSTAT_UNREGISTERED, netvista.rilregstat, RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_ATTEMPTING, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_INTL, rilapitypes/RIL_REGSTAT_ROAMING_INTL, RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RILREGSTAT, RIL_REGSTAT_DENIED, RILREGSTAT, rilapitypes/RIL_REGSTAT_HOME
+ms.keywords: RILREGSTAT, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_ROAMING_INTL, netvista.rilregstat, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_REGSTAT_ROAMING, RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_HOME, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_ROAMING_INTL, RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_UNREGISTERED, RIL_REGSTAT_UNREGISTERED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILREGSTAT
 product: Windows
 targetos: Windows
@@ -78,29 +78,22 @@ enum RILREGSTAT  {
 ### -field RIL_REGSTAT_UNKNOWN
 
 
-
 ### -field RIL_REGSTAT_UNREGISTERED
-
 
 
 ### -field RIL_REGSTAT_HOME
 
 
-
 ### -field RIL_REGSTAT_ATTEMPTING
-
 
 
 ### -field RIL_REGSTAT_DENIED
 
 
-
 ### -field RIL_REGSTAT_ROAMING
 
 
-
 ### -field RIL_REGSTAT_ROAMING_DOMESTIC
-
 
 
 ### -field RIL_REGSTAT_MAX
@@ -111,10 +104,11 @@ enum RILREGSTAT  {
 #### - RIL_REGSTAT_ROAMING_INTL
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

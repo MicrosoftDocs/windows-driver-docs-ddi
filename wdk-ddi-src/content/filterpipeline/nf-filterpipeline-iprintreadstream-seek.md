@@ -7,8 +7,8 @@ old-location: print\iprintreadstream_seek.htm
 old-project: print
 ms.assetid: b563e080-32ab-47b7-94f4-1d3dd19f3311
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: Seek method [Print Devices], IPrintReadStream interface, IPrintReadStream interface [Print Devices], Seek method, Seek, Seek method [Print Devices], IPrintReadStream, print.iprintreadstream_seek, IPrintReadStream::Seek, filterpipeline/IPrintReadStream::Seek, filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml
+ms.date: 2/2/2018
+ms.keywords: print.iprintreadstream_seek, Seek, IPrintReadStream, Seek method [Print Devices], filterpipeline_622c8e3a-c21f-4784-ba2d-96833fab4230.xml, IPrintReadStream::Seek, IPrintReadStream interface [Print Devices], Seek method, Seek method [Print Devices], IPrintReadStream interface, filterpipeline/IPrintReadStream::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintReadStream.Seek
 product: Windows
 targetos: Windows
@@ -87,15 +87,19 @@ A pointer to the location where <code>Seek</code> writes the value of the new se
 ## -returns
 
 
+
 <code>Seek</code> returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 The <code>Seek</code> method might block, for example, if seeking to the end of the stream.
 
 This method is similar to the <b>IStream::Seek</b> and <b>SetFilePointerEx</b> methods. For more information about these methods, see the Microsoft Windows SDK documentation.
+
 
 

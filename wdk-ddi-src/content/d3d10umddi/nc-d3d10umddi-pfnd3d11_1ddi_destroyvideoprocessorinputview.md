@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnDestroyVideoProcessorInputView
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback
@@ -75,7 +75,6 @@ VOID APIENTRY* pfnDestroyVideoProcessorInputView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSORINPUTVIEW
 
 
@@ -83,9 +82,6 @@ VOID APIENTRY* pfnDestroyVideoProcessorInputView(
 
 
 
-#### - hView [in]
-
-A handle to the driver's private data for the video processor input view. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a>.
 
 
 #### - hDevice [in]
@@ -95,9 +91,16 @@ A handle to the display device (graphics context).
 
 
 
+#### - hView [in]
+
+A handle to the driver's private data for the video processor input view. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a>.
+
+
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

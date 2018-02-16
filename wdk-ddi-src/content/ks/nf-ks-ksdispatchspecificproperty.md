@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3ea9a473-606d-4021-89af-5f895020d054
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsDispatchSpecificProperty, KsDispatchSpecificProperty function [Streaming Media Devices], stream.ksdispatchspecificproperty, KsDispatchSpecificProperty, ksfunc_b12751b9-b486-4b57-809b-1f3daa8a1c30.xml
+ms.keywords: ksfunc_b12751b9-b486-4b57-809b-1f3daa8a1c30.xml, ks/KsDispatchSpecificProperty, KsDispatchSpecificProperty function [Streaming Media Devices], KsDispatchSpecificProperty, stream.ksdispatchspecificproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDispatchSpecificProperty
 product: Windows
 targetos: Windows
@@ -79,23 +79,30 @@ TBD
 
 
 
+
 ## -returns
+
 
 
 The <b>KsDispatchSpecificProperty</b> function returns STATUS_SUCCESS if successful, or if unsuccessful it returns an error.
 
 
 
+
 ## -remarks
+
 
 
 The <b>KsDispatchSpecificProperty</b> function is intended for additional processing of a property such as completing a pending operation.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
+
+
 
  
 

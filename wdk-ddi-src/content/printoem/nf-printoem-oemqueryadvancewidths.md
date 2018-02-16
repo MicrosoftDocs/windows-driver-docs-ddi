@@ -7,8 +7,8 @@ old-location: print\oemqueryadvancewidths.htm
 old-project: print
 ms.assetid: 058ced7e-50bc-4847-b082-57608ac5ddd2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, printoem/OEMQueryAdvanceWidths, print.oemqueryadvancewidths, OEMQueryAdvanceWidths function [Print Devices], OEMQueryAdvanceWidths
+ms.date: 2/2/2018
+ms.keywords: print.oemqueryadvancewidths, printoem/OEMQueryAdvanceWidths, OEMQueryAdvanceWidths function [Print Devices], print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, OEMQueryAdvanceWidths
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMQueryAdvanceWidths
 product: Windows
 targetos: Windows
@@ -76,23 +76,17 @@ BOOL APIENTRY OEMQueryAdvanceWidths(
 ### -param dhpdev
 
 
-
 ### -param pfo
-
 
 
 ### -param iMode
 
 
-
 ### -param phg [in]
-
 
 
 ### -param pvWidths [out]
 
 
-
 ### -param cGlyphs
-
 

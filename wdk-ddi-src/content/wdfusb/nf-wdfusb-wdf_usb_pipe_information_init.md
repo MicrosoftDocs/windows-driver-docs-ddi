@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 13139135-22b4-4ca1-b95e-c4c704501368
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_PIPE_INFORMATION_INIT, DFUsbRef_ed525fc0-384b-4e9c-877a-075386f5d667.xml, WDF_USB_PIPE_INFORMATION_INIT function, wdf.wdf_usb_pipe_information_init, kmdf.wdf_usb_pipe_information_init, wdfusb/WDF_USB_PIPE_INFORMATION_INIT
+ms.keywords: wdf.wdf_usb_pipe_information_init, kmdf.wdf_usb_pipe_information_init, DFUsbRef_ed525fc0-384b-4e9c-877a-075386f5d667.xml, wdfusb/WDF_USB_PIPE_INFORMATION_INIT, WDF_USB_PIPE_INFORMATION_INIT function, WDF_USB_PIPE_INFORMATION_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_PIPE_INFORMATION_INIT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -78,20 +78,32 @@ A pointer to a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_US
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_USB_PIPE_INFORMATION_INIT</b> function zeros the WDF_USB_PIPE_INFORMATION structure and sets the structure's <b>Size</b> member.
+
+
+#### Examples
+
+For a code example that uses <b>WDF_USB_PIPE_INFORMATION_INIT</b>, see <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetendpointinformation.md">WdfUsbInterfaceGetEndpointInformation</a>.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
+
+
 
  
 

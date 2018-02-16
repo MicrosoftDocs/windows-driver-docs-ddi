@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wdm.h
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+apiname:
 -	TmInitializeTransactionManager
 product: Windows
 targetos: Windows
@@ -91,6 +91,7 @@ Specifies a pointer to a GUID that identifies  the name of the transaction manag
 ### -param CreateOptions [in, optional]
 
 Optional object creation flags. The following table contains the available flags.
+
 <table>
 <tr>
 <th>Option flag</th>
@@ -166,12 +167,15 @@ For internal use only.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The <b>TmInitializeTransactionManager</b> routine  returns STATUS_SUCCESS if the operation succeeds.
+
 
 

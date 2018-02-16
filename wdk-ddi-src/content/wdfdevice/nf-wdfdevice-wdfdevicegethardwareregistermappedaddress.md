@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D172D39-0D28-4950-B428-330D5B4D0654
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceGetHardwareRegisterMappedAddress, wdf.wdfdevicegethardwareregistermappedaddress, PFN_WDFDEVICEGETHARDWAREREGISTERMAPPEDADDRESS, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress, WdfDeviceGetHardwareRegisterMappedAddress function
+ms.keywords: wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress, PFN_WDFDEVICEGETHARDWAREREGISTERMAPPEDADDRESS, wdf.wdfdevicegethardwareregistermappedaddress, WdfDeviceGetHardwareRegisterMappedAddress function, WdfDeviceGetHardwareRegisterMappedAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfDeviceGetHardwareRegisterMappedAddress
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ The address of a location that receives a pointer to the pseudo base address.
 ## -returns
 
 
+
 User-mode base address of the resources mapped earlier using <a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>.
 
 
 
+
 ## -remarks
+
 
 
 This function is the UMDF version 2 equivalent of <a href="https://msdn.microsoft.com/94852404-301F-4C09-81D2-CEDEECFCD6BD">IWDFDevice3::GetHardwareRegisterMappedAddress</a>.
@@ -104,11 +107,16 @@ If you do use <b>WdfDeviceGetHardwareRegisterMappedAddress</b>, you must set the
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
 
+
+
 <a href="https://msdn.microsoft.com/94852404-301F-4C09-81D2-CEDEECFCD6BD">IWDFDevice3::GetHardwareRegisterMappedAddress</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_REUSE_FLAGS
-title: _WDF_REQUEST_REUSE_FLAGS
+title: "_WDF_REQUEST_REUSE_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_REUSE_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_REUSE_PARAMS structure.
 old-location: wdf\wdf_request_reuse_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d1f8f38-b875-4661-9941-4dec28b7e8fb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_REQUEST_REUSE_FLAGS, wdfrequest/WDF_REQUEST_REUSE_NO_FLAGS, wdfrequest/WDF_REQUEST_REUSE_SET_NEW_IRP, DFRequestObjectRef_4b91ca45-4dbb-4942-83ce-72ca10170932.xml, WDF_REQUEST_REUSE_SET_NEW_IRP, WDF_REQUEST_REUSE_FLAGS enumeration, kmdf.wdf_request_reuse_flags, WDF_REQUEST_REUSE_FLAGS, wdf.wdf_request_reuse_flags, WDF_REQUEST_REUSE_NO_FLAGS, wdfrequest/WDF_REQUEST_REUSE_FLAGS
+ms.keywords: WDF_REQUEST_REUSE_NO_FLAGS, wdfrequest/WDF_REQUEST_REUSE_FLAGS, WDF_REQUEST_REUSE_FLAGS enumeration, wdfrequest/WDF_REQUEST_REUSE_NO_FLAGS, kmdf.wdf_request_reuse_flags, WDF_REQUEST_REUSE_SET_NEW_IRP, wdfrequest/WDF_REQUEST_REUSE_SET_NEW_IRP, wdf.wdf_request_reuse_flags, DFRequestObjectRef_4b91ca45-4dbb-4942-83ce-72ca10170932.xml, _WDF_REQUEST_REUSE_FLAGS, WDF_REQUEST_REUSE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfrequest.h
-apiname: 
+apiname:
 -	WDF_REQUEST_REUSE_FLAGS
 product: Windows
 targetos: Windows
@@ -84,6 +84,8 @@ The <b>NewIrp</b> member of the <a href="..\wdfrequest\ns-wdfrequest-_wdf_reques
 ## -see-also
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a>
+
+
 
  
 

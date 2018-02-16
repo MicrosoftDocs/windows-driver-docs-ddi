@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 970c725b-4ea0-42b7-a373-83cb463cd80d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Write, EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, ExtRemoteData class [Windows Debugging], Write method, ExtRemoteData::Write, ExtRemoteData, Write method [Windows Debugging], Write method [Windows Debugging], ExtRemoteData class, debugger.extremotedata_write
+ms.keywords: ExtRemoteData::Write, Write method [Windows Debugging], ExtRemoteData, Write, Write method [Windows Debugging], ExtRemoteData class, EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, debugger.extremotedata_write, ExtRemoteData class [Windows Debugging], Write method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.Write
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::Write method
@@ -66,19 +66,24 @@ void Write();
 
 
 
+
 ## -returns
+
 
 
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This method can be used to reset the region of memory on the target to the currently cached value that was previously read from the target.
 
 It is also possible to directly set the value cached by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object, for example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -93,11 +98,16 @@ ext_remote_data.Write();</pre>
 </table></span></div>
 
 
+
 ## -see-also
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
 
  
 

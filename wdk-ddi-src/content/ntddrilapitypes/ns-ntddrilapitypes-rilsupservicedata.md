@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSUPSERVICEDATA
 product: Windows
 targetos: Windows
@@ -78,35 +78,26 @@ typedef struct _RILSUPSERVICEDATA {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwStatus
-
 
 
 ### -field dwNetworkSSErrorCause
 
 
-
 ### -field dwNetworkCCErrorCause
-
 
 
 ### -field dwVendorErrorCause
 
 
-
 ### -field dwDataSize
 
 
-
 ### -field wszData
-
 

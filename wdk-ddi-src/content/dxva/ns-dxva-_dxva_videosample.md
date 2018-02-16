@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_VideoSample
-title: _DXVA_VideoSample
+title: "_DXVA_VideoSample"
 author: windows-driver-content
 description: The DXVA_VideoSample structure is sent by the renderer to the driver to specify the format of a video sample.
 old-location: display\dxva_videosample.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2fab4993-0b34-44ce-a905-5094e6e3ce47
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_VideoSample structure [Display Devices], dxva/LPDXVA_VideoSample, DXVA_VideoSample, *LPDXVA_VideoSample, _DXVA_VideoSample, LPDXVA_VideoSample, dxva/DXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml, display.dxva_videosample
+ms.keywords: DXVA_VideoSample structure [Display Devices], DXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, *LPDXVA_VideoSample, _DXVA_VideoSample, LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml, display.dxva_videosample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_VideoSample
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample, *LPDXVA_VideoSample
+req.typenames: "*LPDXVA_VideoSample, DXVA_VideoSample"
 ---
 
 # _DXVA_VideoSample structure
@@ -94,9 +94,15 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlaceblt.md">DXVA_DeinterlaceBlt</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+
 
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\keattachprocess.htm
 old-project: ifsk
 ms.assetid: 1261e65b-c862-4c99-89ed-c222b017272a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: keref_ee648ca5-3597-4caf-9a8c-5e6cc4543964.xml, KeAttachProcess function [Installable File System Drivers], ntifs/KeAttachProcess, ifsk.keattachprocess, KeAttachProcess
+ms.date: 2/7/2018
+ms.keywords: ifsk.keattachprocess, ntifs/KeAttachProcess, KeAttachProcess function [Installable File System Drivers], KeAttachProcess, keref_ee648ca5-3597-4caf-9a8c-5e6cc4543964.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	KeAttachProcess
 product: Windows
 targetos: Windows

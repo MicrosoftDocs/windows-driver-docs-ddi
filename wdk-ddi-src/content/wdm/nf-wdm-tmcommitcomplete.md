@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a5f55966-98d9-42ec-9af6-254d2cb9a5bd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ktm_ref_e6357c60-303b-4d42-a0a2-1ff3766acbb9.xml, TmCommitComplete, kernel.tmcommitcomplete, wdm/TmCommitComplete, TmCommitComplete routine [Kernel-Mode Driver Architecture]
+ms.keywords: TmCommitComplete, wdm/TmCommitComplete, kernel.tmcommitcomplete, TmCommitComplete routine [Kernel-Mode Driver Architecture], ktm_ref_e6357c60-303b-4d42-a0a2-1ff3766acbb9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ext-MS-Win-ntos-tm-l1-1-0.dll
 -	tm.sys
-apiname: 
+apiname:
 -	TmCommitComplete
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ A pointer to a <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbb
 ## -returns
 
 
+
 <b>TmCommitComplete</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,13 +103,16 @@ The transaction or its enlistment is not in the correct state.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>TmCommitComplete</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwcommitcomplete.md">ZwCommitComplete</a> routine.
@@ -116,19 +121,32 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-zwcommitcomplete.md">ZwCommitComplete</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
+
 
 <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+
 
  
 

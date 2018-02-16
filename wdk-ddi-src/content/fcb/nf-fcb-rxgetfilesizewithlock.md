@@ -7,8 +7,8 @@ old-location: ifsk\rxgetfilesizewithlock.htm
 old-project: ifsk
 ms.assetid: f58c2a7a-0782-47a7-84e6-98df541c875d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RxGetFileSizeWithLock function [Installable File System Drivers], rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml, fcb/RxGetFileSizeWithLock, RxGetFileSizeWithLock, ifsk.rxgetfilesizewithlock
+ms.date: 2/7/2018
+ms.keywords: ifsk.rxgetfilesizewithlock, RxGetFileSizeWithLock, rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml, fcb/RxGetFileSizeWithLock, RxGetFileSizeWithLock function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fcb.h
-apiname: 
+apiname:
 -	RxGetFileSizeWithLock
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A pointer where the file size file will be stored on output.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>RxGetFileSizeWithLock</b> routine is not normally called by network mini-redirector drivers directly. RDBSS calls this routine internally when an I/O request packet is received for IRP_MJ_QUERY_INFORMATION, IRP_MJ_SET_INFORMATION, IRP_MJ_READ, or IRP_MJ_WRITE. These IRPs are normally received by RDBSS in response to a user-mode application requesting operations on a file. It is also possible for another kernel driver to issue such an IRP. 
@@ -96,17 +99,24 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
 
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxGetFileSizeWithLock function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxGetFileSizeWithLock function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

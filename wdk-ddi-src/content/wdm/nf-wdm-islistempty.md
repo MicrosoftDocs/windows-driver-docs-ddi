@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.islistempty, wdm/IsListEmpty, IsListEmpty, k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, IsListEmpty routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IsListEmpty, k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, IsListEmpty routine [Kernel-Mode Driver Architecture], kernel.islistempty, IsListEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IsListEmpty
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5542
 ## -returns
 
 
+
 <b>IsListEmpty</b> returns <b>TRUE</b> if there are currently no entries in the list and <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 <b>IsListEmpty</b> returns <b>TRUE</b> if <i>ListHead</i>-&gt;<b>Flink</b> refers back to <i>ListHead</i>.
@@ -91,15 +94,24 @@ Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
 
 <a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
+
+
 <a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+
 
  
 

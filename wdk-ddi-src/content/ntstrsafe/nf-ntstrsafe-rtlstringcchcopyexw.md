@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: STRSAFE_FILL_BEHIND_NULL, ntstrsafe/RtlStringCchCopyExW, STRSAFE_NO_TRUNCATION, RtlStringCchCopyExA, STRSAFE_NULL_ON_FAILURE, RtlStringCchCopyEx, STRSAFE_FILL_ON_FAILURE, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml, STRSAFE_IGNORE_NULLS, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA
+ms.keywords: ntstrsafe/RtlStringCchCopyExA, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml, RtlStringCchCopyExA, STRSAFE_IGNORE_NULLS, kernel.rtlstringcchcopyex, STRSAFE_NULL_ON_FAILURE, STRSAFE_NO_TRUNCATION, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, RtlStringCchCopyExW, RtlStringCchCopyEx, ntstrsafe/RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchCopyExW
 -	RtlStringCchCopyExA
 -	RtlStringCchCopyExW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchCopyExW function
@@ -103,6 +103,7 @@ If the caller supplies a non-<b>NULL</b> address pointer, the function loads the
 ### -param dwFlags [in]
 
 One or more flags and, optionally, a fill byte. The flags are defined as follows: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -158,13 +159,16 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -213,14 +217,18 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> should be used instead of the following functions: 
+
 <ul>
 <li>
 <b>strcpy</b>
@@ -230,9 +238,11 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 <b>wcscpy</b>
 
 </li>
-</ul>The size, in characters, of the destination buffer is provided to <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> to ensure that they do not write past the end of the buffer.
+</ul>
+The size, in characters, of the destination buffer is provided to <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> to ensure that they do not write past the end of the buffer.
 
 <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> add to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control. Use <b>RtlStringCchCopyExW</b> to handle Unicode strings and <b>RtlStringCchCopyExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -267,7 +277,8 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior of the function is undefined.
 
@@ -277,11 +288,16 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a>
+
+
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyexw.md">RtlStringCbCopyEx</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5d2bbf08-ea5c-4dad-8c30-9a655d25222a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, NdisClNotifyCloseAddressFamilyComplete, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete
+ms.keywords: ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete, NdisClNotifyCloseAddressFamilyComplete, NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisClNotifyCloseAddressFamilyComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisClNotifyCloseAddressFamilyComplete function
@@ -76,8 +76,8 @@ VOID NdisClNotifyCloseAddressFamilyComplete(
 ### -param NdisAfHandle [in]
 
 An AF handle that NDIS supplied to the caller's 
-     <mshelp:link keywords="netvista.ndisclopenaddressfamilyex" tabindex="0"><b>
-     NdisClOpenAddressFamilyEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     NdisClOpenAddressFamilyEx</a> function.
 
 
 ### -param Status [in]
@@ -90,12 +90,14 @@ The completion status for close AF notification.
 
 
 
-##### - Status.NDIS_STATUS_SUCCESS
+
+#### NDIS_STATUS_SUCCESS
 
 The client successfully closed its address family.
 
 
-##### - Status.NDIS_STATUS_XXX
+
+#### NDIS_STATUS_XXX
 
 The client failed the request for some driver-determined reason.
 
@@ -103,35 +105,45 @@ The client failed the request for some driver-determined reason.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 CoNDIS clients call the 
     <b>NdisClNotifyCloseAddressFamilyComplete</b> function to complete a close AF notification. A client must
     call 
     <b>NdisClNotifyCloseAddressFamilyComplete</b> after its 
-    <mshelp:link keywords="netvista.protocolclnotifycloseaf" tabindex="0"><i>
-    ProtocolClNotifyCloseAf</i></mshelp:link> function returns NDIS_STATUS_PENDING.
+    <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">
+    ProtocolClNotifyCloseAf</a> function returns NDIS_STATUS_PENDING.
 
 After the client calls 
     <b>NdisClNotifyCloseAddressFamilyComplete</b>, NDIS calls the call manager's 
-    <mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-    ProtocolCmNotifyCloseAfComplete</i></mshelp:link> function to complete operation for the call manager.
+    <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+    ProtocolCmNotifyCloseAfComplete</a> function to complete operation for the call manager.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolcmnotifycloseafcomplete" tabindex="0"><i>
-   ProtocolCmNotifyCloseAfComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
-<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+   ProtocolCmNotifyCloseAfComplete</a>
+
+
 
  
 

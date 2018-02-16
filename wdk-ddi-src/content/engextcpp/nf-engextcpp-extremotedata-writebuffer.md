@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b50f0cf3-4cd5-4f9e-9749-49b1c9365a8f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData, WriteBuffer method [Windows Debugging], ExtRemoteData::WriteBuffer, WriteBuffer, ExtRemoteData class [Windows Debugging], WriteBuffer method, EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, debugger.extremotedata_writebuffer, WriteBuffer method [Windows Debugging], ExtRemoteData class
+ms.keywords: ExtRemoteData, WriteBuffer method [Windows Debugging], ExtRemoteData class [Windows Debugging], WriteBuffer method, debugger.extremotedata_writebuffer, WriteBuffer, ExtRemoteData::WriteBuffer, EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, WriteBuffer method [Windows Debugging], ExtRemoteData class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.WriteBuffer
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::WriteBuffer method
@@ -85,6 +85,7 @@ Specifies the number of bytes to write.  The <i>Buffer</i> buffer must be at lea
 
 
 
+
 #### - MustReadAll [in]
 
 Specifies what happens if the debugger engine is unable to write all the data to the target.  If <i>MustReadAll</i> is <code>true</code> and the debugger engine is unable to write <i>Bytes</i> bytes to the target, an <b>ExtRemoteException</b> will be thrown.  If <i>MustReadAll</i> is <code>false</code>, no exception will be thrown if the engine is unable to write the requested number of bytes to the target.
@@ -93,7 +94,9 @@ Specifies what happens if the debugger engine is unable to write all the data to
 ## -returns
 
 
+
 <b>WriteBuffer</b> returns the number of bytes written to the target from the <i>Buffer</i> buffer.  If <i>MustReadAll</i> is <code>true</code>, the value of <i>Bytes</i> will be returned (unless an exception is thrown).
+
 
 
 
@@ -101,7 +104,11 @@ Specifies what happens if the debugger engine is unable to write all the data to
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544088">ExtRemoteData::ReadBuffer</a>
 
+
+
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
 
  
 

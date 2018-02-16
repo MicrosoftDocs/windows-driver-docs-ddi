@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81052e73-4dce-48df-8541-5da54e2156d8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMOffloadEventIndicate, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista], tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml, ndischimney/NdisMOffloadEventIndicate, netvista.ndismoffloadeventindicate
+ms.keywords: netvista.ndismoffloadeventindicate, NdisMOffloadEventIndicate, ndischimney/NdisMOffloadEventIndicate, tcp_chim_ndis_func_6199452b-e2ea-41ca-8a16-eaf5109430fe.xml, NdisMOffloadEventIndicate function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	NdisMOffloadEventIndicate
 product: Windows
 targetos: Windows
@@ -75,15 +75,15 @@ VOID NdisMOffloadEventIndicate(
 ### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link>.
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a>.
 
 
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure. This structure identifies the offloaded state object
+     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. This structure identifies the offloaded state object
      on which the indication is being made. Note that there is only one NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure. There is not a linked list of such structures.
      
@@ -91,18 +91,19 @@ A pointer to an
 The offload target supplies a valid 
      <i>OffloadBlockList</i> pointer when making a 
      <b>NeighborReachabilityQuery</b> indication. In this case, the offload target supplies a 
-     <mshelp:link keywords="netvista.neighbor_offload_state_const" tabindex="0"><b>
-     NEIGHBOR_OFFLOAD_STATE_CONST</b></mshelp:link> structure, a 
-     <mshelp:link keywords="netvista.neighbor_offload_state_cached" tabindex="0"><b>
-     NEIGHBOR_OFFLOAD_STATE_CACHED</b></mshelp:link> structure, and a 
-     <mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-     NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link> structure (in that order) immediately following the
+     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+     NEIGHBOR_OFFLOAD_STATE_CONST</a> structure, a 
+     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">
+     NEIGHBOR_OFFLOAD_STATE_CACHED</a> structure, and a 
+     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+     NEIGHBOR_OFFLOAD_STATE_DELEGATED</a> structure (in that order) immediately following the
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure referenced by the 
      <i>OffloadBlockList</i> pointer.
 
 An offload target must initialize the following members of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure that it passes to the 
      <b>NdisMOffloadEventIndicate</b> function:
+
 <ul>
 <li>
 All members of the NDIS_OBJECT_HEADER structure, including 
@@ -128,7 +129,8 @@ The
        <b>Status</b> member to NDIS_STATUS_SUCCESS.
 
 </li>
-</ul> The offload target does not have to initialize any other members of the
+</ul>
+ The offload target does not have to initialize any other members of the
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
      
 
@@ -145,13 +147,15 @@ The event being indicated is specified as one of the following INDICATE_OFFLOAD_
 
 
 
-##### - IndicationCode.NeighborReachabilityQuery
+
+#### NeighborReachabilityQuery
 
 Indicates that a neighbor cache entry (NCE) has become stale. For more information about NCEs,
        see RFC 2461.
 
 
-##### - IndicationCode.NeighborReachabilityInDoubt
+
+#### NeighborReachabilityInDoubt
 
 Reserved.
 
@@ -159,18 +163,22 @@ Reserved.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The host stack uses the 
     <b>NeighborReachabilityQuery</b> indication to detect neighbor unreachability for IPv4 and IPv6. For a
     detailed description of this indication, see 
-    <mshelp:link keywords="netvista.making_a_neighborreachabilityquery_indication" tabindex="0">Making a
-    NeighborReachabilityQuery Indication</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/making-a-neighborreachabilityquery-indication">Making a
+    NeighborReachabilityQuery Indication</a>.
+
 
 
 
@@ -178,19 +186,33 @@ The host stack uses the
 
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+
+
 
 <a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+
 
  
 

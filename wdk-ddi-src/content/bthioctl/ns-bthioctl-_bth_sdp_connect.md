@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_CONNECT
-title: _BTH_SDP_CONNECT
+title: "_BTH_SDP_CONNECT"
 author: windows-driver-content
 description: The BTH_SDP_CONNECT structure contains input and output information about a connection between the local Bluetooth system and a remote SDP server. This structure is passed as the input buffer and output buffer of IOCTL_BTH_SDP_CONNECT.
 old-location: bltooth\bth_sdp_connect.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 328dca02-9276-4a3d-acac-e00721863243
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: BTH_SDP_CONNECT, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, *PBTH_SDP_CONNECT, bthioctl/PBTH_SDP_CONNECT, bltooth.bth_sdp_connect, BTH_SDP_CONNECT structure [Bluetooth Devices], PBTH_SDP_CONNECT structure pointer [Bluetooth Devices], bthioctl/BTH_SDP_CONNECT, _BTH_SDP_CONNECT, PBTH_SDP_CONNECT
+ms.keywords: bthioctl/BTH_SDP_CONNECT, _BTH_SDP_CONNECT, bth_structs_5502fd7e-54f1-46dd-a441-68103d439c27.xml, PBTH_SDP_CONNECT, bltooth.bth_sdp_connect, *PBTH_SDP_CONNECT, BTH_SDP_CONNECT, BTH_SDP_CONNECT structure [Bluetooth Devices], bthioctl/PBTH_SDP_CONNECT, PBTH_SDP_CONNECT structure pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthioctl.h
-apiname: 
+apiname:
 -	BTH_SDP_CONNECT
 product: Windows
 targetos: Windows
-req.typenames: *PBTH_SDP_CONNECT, BTH_SDP_CONNECT
+req.typenames: BTH_SDP_CONNECT, *PBTH_SDP_CONNECT
 ---
 
 # _BTH_SDP_CONNECT structure
@@ -84,6 +84,7 @@ The address of the remote SDP server that the local system connects to. This add
 A flag or combination of flags that determines how to handle the connection request. Valid flag
      values are listed in the following table.
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -109,7 +110,8 @@ Requests are serviced out of the local cache of the SDP record.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field HANDLE_SDP_FIELD_NAME
@@ -133,6 +135,8 @@ A handle for the SDP connection on the remote server.
 ## -see-also
 
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+
+
 
  
 

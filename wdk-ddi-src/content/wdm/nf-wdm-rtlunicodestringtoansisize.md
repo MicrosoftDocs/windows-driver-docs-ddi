@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4deaa42e-8c8b-461a-845e-424b543b52b1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToAnsiSize, k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, RtlUnicodeStringToAnsiSize, kernel.rtlunicodestringtoansisize
+ms.keywords: kernel.rtlunicodestringtoansisize, k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, RtlUnicodeStringToAnsiSize, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], wdm/RtlUnicodeStringToAnsiSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlUnicodeStringToAnsiSize
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ TBD
 
 
 
+
+
 #### - UnicodeString [in]
 
 Pointer to the Unicode string for which to compute the number of bytes required for an equivalent null-terminated ANSI string.
@@ -83,15 +85,19 @@ Pointer to the Unicode string for which to compute the number of bytes required 
 ## -remarks
 
 
+
 The Unicode string is interpreted for the current system locale.
 
 <b>RtlUnicodeStringToAnsiSize</b> performs the same operation as <a href="..\wdm\nf-wdm-rtlxunicodestringtoansisize.md">RtlxUnicodeStringToAnsiSize</a>, but executes faster if the system does not use multibyte code pages.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlxunicodestringtoansisize.md">RtlxUnicodeStringToAnsiSize</a>
+
+
 
  
 

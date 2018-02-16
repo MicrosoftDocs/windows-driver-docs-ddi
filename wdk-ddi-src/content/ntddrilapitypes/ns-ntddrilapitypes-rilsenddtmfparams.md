@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b08767f9-6b2d-4930-bd02-ebc89f2bdb7d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSENDDTMFPARAMS, netvista.rilsenddtmfparams, ntddrilapitypes/RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSENDDTMFPARAMS, netvista.rilsenddtmfparams, ntddrilapitypes/RILSENDDTMFPARAMS, RILSENDDTMFPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSENDDTMFPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS
+req.typenames: "*LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS"
 ---
 
 # RILSENDDTMFPARAMS structure
@@ -73,15 +73,11 @@ typedef struct _RILSENDDTMFPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field szDTMF
-
 
 
 ### -field dwDigitOnTimeMs
 
 
-
 ### -field dwDigitOffTimeMs
-
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6d73ce17-1fbc-4d12-87f0-ac10889b85be
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateTerminateOr function [Streaming Media Devices], KsGateTerminateOr, ks/KsGateTerminateOr, avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, stream.ksgateterminateor
+ms.keywords: ks/KsGateTerminateOr, KsGateTerminateOr, avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, stream.ksgateterminateor, KsGateTerminateOr function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsGateTerminateOr
 product: Windows
 targetos: Windows
@@ -75,14 +75,18 @@ A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Logical gates should be deleted in a front to back manner. <b>KsGateTerminateOr</b> does not update the gate chain for gates that are deleted at the end or in the middle. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
+
 
 
 
@@ -90,9 +94,15 @@ Logical gates should be deleted in a front to back manner. <b>KsGateTerminateOr<
 
 <a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
+
+
 <a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
+
+
 <a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
+
 
  
 

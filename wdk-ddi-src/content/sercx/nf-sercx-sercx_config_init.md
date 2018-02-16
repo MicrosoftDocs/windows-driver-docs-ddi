@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: C7442A59-6D7C-4551-B0E4-F1E8A5BEB4B7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX_CONFIG_INIT function [Serial Ports], SERCX_CONFIG_INIT, 1/SERCX_CONFIG_INIT, serports.sercx_config_init
+ms.keywords: 1/SERCX_CONFIG_INIT, serports.sercx_config_init, SERCX_CONFIG_INIT, SERCX_CONFIG_INIT function [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -76,13 +76,17 @@ A pointer to the <b>SERCX_CONFIG</b> structure that is to be initialized.
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -see-also
 
 <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
+
+
 
  
 

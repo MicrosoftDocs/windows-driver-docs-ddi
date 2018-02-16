@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e8f91713-ea1d-4262-bc0b-dd4e39d1c2c3
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: OutputIdentityWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::OutputIdentityWide, OutputIdentityWide, OutputIdentityWide method [Windows Debugging], IDebugClient5, dbgeng/IDebugClient5::OutputIdentityWide, IDebugClient5 interface [Windows Debugging], OutputIdentityWide method, debugger.outputidentitywide
+ms.keywords: IDebugClient5 interface [Windows Debugging], OutputIdentityWide method, OutputIdentityWide, IDebugClient5::OutputIdentityWide, IDebugClient5, dbgeng/IDebugClient5::OutputIdentityWide, OutputIdentityWide method [Windows Debugging], debugger.outputidentitywide, OutputIdentityWide method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.OutputIdentityWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::OutputIdentityWide method
@@ -87,7 +87,9 @@ Specifies a format string similar to the <b>printf</b> format string.  However, 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The specific content of the string varies with the operating system.  If the client is remotely connected, some network information may also be present.
@@ -117,11 +122,16 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 
 
+
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546831">GetIdentity</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
 
  
 

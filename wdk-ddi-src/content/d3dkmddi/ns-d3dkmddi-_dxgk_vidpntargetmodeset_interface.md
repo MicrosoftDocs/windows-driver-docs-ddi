@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDPNTARGETMODESET_INTERFACE
-title: _DXGK_VIDPNTARGETMODESET_INTERFACE
+title: "_DXGK_VIDPNTARGETMODESET_INTERFACE"
 author: windows-driver-content
 description: The DXGK_VIDPNTARGETMODESET_INTERFACE structure contains pointers to functions that belong to the VidPn Target Mode Set interface, which is implemented by the VidPN manager.
 old-location: display\dxgk_vidpntargetmodeset_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 556d3134-942b-475c-adac-3087a512f481
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_VIDPNTARGETMODESET_INTERFACE structure [Display Devices], display.dxgk_vidpntargetmodeset_interface, d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE, _DXGK_VIDPNTARGETMODESET_INTERFACE, DXGK_VIDPNTARGETMODESET_INTERFACE, DmStructs_f73ff16c-04e3-491b-9f0a-de50563abea4.xml
+ms.keywords: DmStructs_f73ff16c-04e3-491b-9f0a-de50563abea4.xml, DXGK_VIDPNTARGETMODESET_INTERFACE, display.dxgk_vidpntargetmodeset_interface, DXGK_VIDPNTARGETMODESET_INTERFACE structure [Display Devices], d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE, _DXGK_VIDPNTARGETMODESET_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_VIDPNTARGETMODESET_INTERFACE
 product: Windows
 targetos: Windows
@@ -117,19 +117,29 @@ A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_pin
 ## -remarks
 
 
+
 The display miniport driver calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPn interface</a> to obtain a handle to a VidPN target mode set object and a pointer to a DXGK_VIDPNTARGETMODESET_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the VidPN target mode set object.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpnsourcemodeset_interface.md">DXGK_VIDPNSOURCEMODESET_INTERFACE</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a>
+
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitorsourcemodeset_interface.md">DXGK_MONITORSOURCEMODESET_INTERFACE</a>
+
+
 
  
 

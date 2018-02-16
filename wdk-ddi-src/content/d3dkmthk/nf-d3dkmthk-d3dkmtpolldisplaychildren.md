@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 463831c1-d9b2-404d-91f3-78f495668fdf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, display.d3dkmtpolldisplaychildren, d3dkmthk/D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren function [Display Devices]
+ms.keywords: D3DKMTPollDisplayChildren function [Display Devices], display.d3dkmtpolldisplaychildren, d3dkmthk/D3DKMTPollDisplayChildren, OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, D3DKMTPollDisplayChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTPollDisplayChildren
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_polldisplaychildren.md">D3DKMT_POLLDISPLAYCHILDREN</a> structure that describes the parameters for querying for connectivity status of the adapter's child devices.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_polldisplaychildren.md">
 ## -returns
 
 
+
 <b>D3DKMTPollDisplayChildren</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,13 +115,16 @@ The graphics adapter was stopped.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
 
 
 
+
 ## -remarks
+
 
 
 The OpenGL installable client driver (ICD) calls <b>D3DKMTPollDisplayChildren</b> to query for connectivity status of all of the adapter's child devices. The ICD sets the <b>NonDestructiveOnly</b> member of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_polldisplaychildren.md">D3DKMT_POLLDISPLAYCHILDREN</a> to indicate whether <b>D3DKMTPollDisplayChildren</b> should be destructive (that is, cause visual artifacts). For typical polling, the ICD should set <b>NonDestructiveOnly</b> to <b>TRUE</b> to prevent the screen from flickering.
@@ -127,9 +133,12 @@ New child devices are enumerated to the Plug and Play (PnP) manager when PnP det
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_polldisplaychildren.md">D3DKMT_POLLDISPLAYCHILDREN</a>
+
+
 
  
 

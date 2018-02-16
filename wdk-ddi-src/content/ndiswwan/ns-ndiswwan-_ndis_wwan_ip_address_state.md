@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_IP_ADDRESS_STATE
-title: _NDIS_WWAN_IP_ADDRESS_STATE
+title: "_NDIS_WWAN_IP_ADDRESS_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_IP_ADDRESS_STATE structure represents the IP address of a PDP context.
 old-location: netvista\ndis_wwan_ip_address_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 114EDC8D-2FD2-4602-827E-9737638E49AC
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_IP_ADDRESS_STATE, _NDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE, PNDIS_WWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_ip_address_state, *PNDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/PNDIS_WWAN_IP_ADDRESS_STATE
+ms.keywords: PNDIS_WWAN_IP_ADDRESS_STATE, netvista.ndis_wwan_ip_address_state, _NDIS_WWAN_IP_ADDRESS_STATE, *PNDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/PNDIS_WWAN_IP_ADDRESS_STATE, PNDIS_WWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_IP_ADDRESS_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_IP_ADDRESS_STATE, *PNDIS_WWAN_IP_ADDRESS_STATE
+req.typenames: "*PNDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE"
 ---
 
 # _NDIS_WWAN_IP_ADDRESS_STATE structure
@@ -76,6 +76,7 @@ The header with type, revision, and size information about the NDIS_WWAN_IP_ADDR
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -111,7 +112,8 @@ sizeof(NDIS_WWAN_IP_ADDRESS_STATE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -125,6 +127,8 @@ The PDP context's IP address.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_ip_address_state.md">WWAN_IP_ADDRESS_STATE</a>
+
+
 
  
 

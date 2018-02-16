@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_GRAPHICS_RENDERING_FORMAT
-title: _D3DKMDT_GRAPHICS_RENDERING_FORMAT
+title: "_D3DKMDT_GRAPHICS_RENDERING_FORMAT"
 author: windows-driver-content
 description: The D3DKMDT_GRAPHICS_RENDERING_FORMAT structure contains information about a primary rendering surface.
 old-location: display\d3dkmdt_graphics_rendering_format.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 954cc3f6-731f-4c55-bf61-63b5d48248c0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_GRAPHICS_RENDERING_FORMAT, d3dkmdt/D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT structure [Display Devices], DmStructs_c51e5886-bbd0-48a2-8be7-98d10b13fc2d.xml, display.d3dkmdt_graphics_rendering_format
+ms.keywords: "_D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT, d3dkmdt/D3DKMDT_GRAPHICS_RENDERING_FORMAT, DmStructs_c51e5886-bbd0-48a2-8be7-98d10b13fc2d.xml, display.d3dkmdt_graphics_rendering_format, D3DKMDT_GRAPHICS_RENDERING_FORMAT structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_GRAPHICS_RENDERING_FORMAT
 product: Windows
 targetos: Windows
@@ -105,6 +105,8 @@ A value from the D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration that indicates the 
 ## -see-also
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
 
  
 

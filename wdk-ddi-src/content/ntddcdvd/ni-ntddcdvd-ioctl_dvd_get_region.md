@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdvd.h
-apiname: 
+apiname:
 -	IOCTL_DVD_GET_REGION
 product: Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
 ---
 
 # IOCTL_DVD_GET_REGION IOCTL
@@ -88,14 +88,18 @@ None. <b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the size, i
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 ## -see-also
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_region.md">DVD_REGION</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 4c5d8834-a78d-443e-bfec-1d9fcddb9331
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiDevice interface [Imaging Devices], GetCapabilities method, GetCapabilities method [Imaging Devices], IStiDevice interface, sti/IStiDevice::GetCapabilities, IStiDevice, GetCapabilities method [Imaging Devices], stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml, GetCapabilities, IStiDevice::GetCapabilities, image.istidevice_getcapabilities
+ms.keywords: IStiDevice interface [Imaging Devices], GetCapabilities method, GetCapabilities method [Imaging Devices], IStiDevice interface, IStiDevice, IStiDevice::GetCapabilities, image.istidevice_getcapabilities, sti/IStiDevice::GetCapabilities, GetCapabilities, GetCapabilities method [Imaging Devices], stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.GetCapabilities
 product: Windows
 targetos: Windows
@@ -76,15 +76,19 @@ Caller-supplied pointer to an empty <a href="..\sti\ns-sti-_sti_dev_caps.md">STI
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>IStiDevice::GetCapabilities</b> method returns device capability flags in the caller-supplied <a href="..\sti\ns-sti-_sti_dev_caps.md">STI_DEV_CAPS</a> structure.
 
 Before calling <b>IStiDevice::GetCapabilities</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
+
 
 

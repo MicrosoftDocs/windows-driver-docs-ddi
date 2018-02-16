@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2fa389f8-8277-4795-a89e-ac5d92004310
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, IWDFIoRequest interface, Complete method, umdf.iwdfiorequest_complete, IWDFIoRequest, wudfddi/IWDFIoRequest::Complete, IWDFIoRequest::Complete, Complete method, IWDFIoRequest interface, Complete method, wdf.iwdfiorequest_complete, Complete
+ms.keywords: wudfddi/IWDFIoRequest::Complete, umdf.iwdfiorequest_complete, Complete, wdf.iwdfiorequest_complete, IWDFIoRequest interface, Complete method, IWDFIoRequest::Complete, Complete method, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, IWDFIoRequest, Complete method, IWDFIoRequest interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.Complete
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,11 +78,14 @@ A status value to complete the request with.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Instead of calling <b>Complete</b>, the driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a> method.
@@ -90,12 +93,39 @@ Instead of calling <b>Complete</b>, the driver can call the <a href="https://msd
 For more information about completing an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
+#### Examples
+
+The following code example completes a request with the failure that occurred when a memory object could not be retrieved.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    IWDFIoRequest* FxRequest;
+    HRESULT hr = S_OK;
+    IWDFMemory* FxInputMemory = NULL;
+ 
+    FxRequest-&gt;GetInputMemory(&amp;FxInputMemory);
+    if (S_OK != hr) {
+        FxRequest-&gt;Complete(hr);
+    }</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

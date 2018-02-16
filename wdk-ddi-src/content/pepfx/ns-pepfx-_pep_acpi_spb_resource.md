@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_SPB_RESOURCE
-title: _PEP_ACPI_SPB_RESOURCE
+title: "_PEP_ACPI_SPB_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_SPB_RESOURCE structure describes an ACPI serial bus connection resource.
 old-location: kernel\pep_acpi_spb_resource.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D4C0009D-A9D0-4870-86C5-60DC9B5892BC
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_ACPI_SPB_RESOURCE, *PPEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_RESOURCE, 0 - Slave mode, pepfx/PEP_ACPI_SPB_RESOURCE, 1 - Consumer/producer mode, kernel.pep_acpi_spb_resource, 2 to 7 - Reserved, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_RESOURCE
+ms.keywords: pepfx/PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_RESOURCE, 2 to 7 - Reserved, kernel.pep_acpi_spb_resource, 1 - Consumer/producer mode, _PEP_ACPI_SPB_RESOURCE, *PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE, 0 - Slave mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_SPB_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE
+req.typenames: PEP_ACPI_SPB_RESOURCE, *PPEP_ACPI_SPB_RESOURCE
 ---
 
 # _PEP_ACPI_SPB_RESOURCE structure
@@ -86,6 +86,7 @@ A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAG
 ### -field TypeSpecificFlags
 
 Specifies the bit flags that are common to all serial bus connection types.
+
 <table>
 <tr>
 <th>Bit(s)</th>
@@ -125,11 +126,11 @@ These bits are reserved and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ResourceSourceIndex
-
 
 
 ### -field ResourceSourceName

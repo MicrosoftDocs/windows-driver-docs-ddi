@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 20446E2D-94D3-43D6-ABBF-2FA15F089659
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient5::PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, IDebugClient5::PushOutputLinePrefix, IDebugClient5, debugger.idebugclient5_pushoutputlineprefix, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefix method
+ms.keywords: debugger.idebugclient5_pushoutputlineprefix, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefix method, dbgeng/IDebugClient5::PushOutputLinePrefix, IDebugClient5, PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], IDebugClient5::PushOutputLinePrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.PushOutputLinePrefix
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::PushOutputLinePrefix method
@@ -81,13 +81,17 @@ The handle of the previous output line prefix.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
  
 

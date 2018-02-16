@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_TEMPERATURE_THRESHOLD
-title: _STORAGE_TEMPERATURE_THRESHOLD
+title: "_STORAGE_TEMPERATURE_THRESHOLD"
 author: windows-driver-content
 description: This structure is used to set the over or under temperature threshold of a storage device (via IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD).
 old-location: storage\storage_temperature_threshold.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19096AD2-5149-4AE1-94CD-9004ED8C24DC
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddstor/STORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD, storage.storage_temperature_threshold, _STORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], PSTORAGE_TEMPERATURE_THRESHOLD
+ms.keywords: PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], storage.storage_temperature_threshold, ntddstor/STORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD, _STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_TEMPERATURE_THRESHOLD
 product: Windows
 targetos: Windows
@@ -86,6 +86,7 @@ The size of this structure. This should be set to sizeof(<b>STORAGE_TEMPERATURE_
 ### -field Flags
 
 Flags set for this request. The following are valid flags.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -95,7 +96,8 @@ Flags set for this request. The following are valid flags.
 <td><b>STORAGE_PROTOCOL_COMMAND_FLAG_ADAPTER_REQUEST</b></td>
 <td>This flag indicates the request to target an adapter instead of device.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Index
@@ -120,13 +122,21 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_temperature_info.md">STORAGE_TEMPERATURE_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+
+
 
 <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
 
-<a href="..\ntddstor\ns-ntddstor-_storage_temperature_info.md">STORAGE_TEMPERATURE_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+
+
 
  
 

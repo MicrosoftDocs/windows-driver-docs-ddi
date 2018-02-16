@@ -1,6 +1,6 @@
 ---
 UID: NE:pep_x.PPEP_PROCESSOR_IDLE_TYPE
-title: *PPEP_PROCESSOR_IDLE_TYPE
+title: "*PPEP_PROCESSOR_IDLE_TYPE"
 author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_TYPE enumeration indicates whether idle constraints apply to just the current processor or to all processors in the hardware platform.
 old-location: kernel\pep_processor_idle_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ABC856E4-557D-45FD-B3A9-3FAA60542343
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pep_processor_idle_type, *PPEP_PROCESSOR_IDLE_TYPE, pep_x/PEP_PROCESSOR_IDLE_TYPE, PepIdleTypePlatform, pep_x/PepIdleTypeMax, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], PepIdleTypeMax, pep_x/PepIdleTypeProcessor, PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypePlatform, PepIdleTypeProcessor
+ms.keywords: pep_x/PepIdleTypeMax, pep_x/PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypeProcessor, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], PepIdleTypePlatform, *PPEP_PROCESSOR_IDLE_TYPE, kernel.pep_processor_idle_type, PepIdleTypeMax, PEP_PROCESSOR_IDLE_TYPE, PepIdleTypeProcessor, pep_x/PepIdleTypePlatform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pep_x.h
-apiname: 
+apiname:
 -	PEP_PROCESSOR_IDLE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: PEP_PROCESSOR_IDLE_TYPE, *PPEP_PROCESSOR_IDLE_TYPE
+req.typenames: "*PPEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE"
 ---
 
 # *PPEP_PROCESSOR_IDLE_TYPE enumeration
@@ -87,13 +87,17 @@ Reserved for use by operating system.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a> structure is a <b>PEP_PROCESSOR_IDLE_TYPE</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
+
+
 
  
 

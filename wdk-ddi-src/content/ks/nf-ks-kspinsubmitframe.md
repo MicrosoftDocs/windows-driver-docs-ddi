@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3fdb83b2-85b7-4f86-9a59-a42138000214
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinSubmitFrame, KsPinSubmitFrame function [Streaming Media Devices], avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, stream.kspinsubmitframe, ks/KsPinSubmitFrame
+ms.keywords: KsPinSubmitFrame function [Streaming Media Devices], ks/KsPinSubmitFrame, avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, stream.kspinsubmitframe, KsPinSubmitFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinSubmitFrame
 product: Windows
 targetos: Windows
@@ -105,15 +105,21 @@ The size in bytes of the frame buffer to which the <i>Data</i> field points. If 
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if frame submission is successful. Otherwise returns an appropriate error code.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
+
+
 <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
 
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
 
  
 

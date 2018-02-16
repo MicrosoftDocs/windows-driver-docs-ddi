@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b1ff6569-9568-40d8-b2a9-e63ce44720a2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsEvent method [Streaming Media Devices], IKsControl interface, stream.ikscontrol_ksevent, IKsControl, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, KsEvent, IKsControl interface [Streaming Media Devices], KsEvent method, KsEvent method [Streaming Media Devices], IKsControl::KsEvent, ksproxy/IKsControl::KsEvent
+ms.keywords: KsEvent method [Streaming Media Devices], IKsControl::KsEvent, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, IKsControl interface [Streaming Media Devices], KsEvent method, KsEvent, IKsControl, ksproxy/IKsControl::KsEvent, KsEvent method [Streaming Media Devices], IKsControl interface, stream.ikscontrol_ksevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsControl.KsEvent
 product: Windows
 targetos: Windows
@@ -99,11 +99,14 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsEv
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code. If the call succeeds, the event is on the driver's list of events.
 
 
 
+
 ## -remarks
+
 
 
 To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero, and <i>EventData</i> to the pointer to the <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that was previously used to enable the event.
@@ -112,15 +115,24 @@ The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle i
 
 
 
+
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
+
 
 <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
+
+
+<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+
+
+
 <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
 
  
 

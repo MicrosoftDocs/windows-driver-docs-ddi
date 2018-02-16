@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79ac01ff-9976-4321-a6b1-0a1cc6e5810a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml, netvista.fwpmengineclose0, fwpmk/FwpmEngineClose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], FwpmEngineClose0
+ms.keywords: netvista.fwpmengineclose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineClose0, wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml, FwpmEngineClose0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpmEngineClose0
 product: Windows
 targetos: Windows
@@ -77,8 +77,10 @@ A handle for an open session to the filter engine.
 ## -returns
 
 
+
 The 
      <b>FwpmEngineClose0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,11 +108,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -120,9 +125,12 @@ A callout driver calls the
 
 
 
+
 ## -see-also
 
 <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
+
+
 
  
 

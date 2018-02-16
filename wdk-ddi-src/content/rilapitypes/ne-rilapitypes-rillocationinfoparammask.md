@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7ce7aaf-fd98-4ba6-8c9e-d15419c658f1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_LU_LAC, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILLOCATIONINFOPARAMMASK, RIL_PARAM_LU_ALL, RILLOCATIONINFOPARAMMASK, rilapitypes/RIL_PARAM_LU_HUICCAPP, rilapitypes/RIL_PARAM_LU_LAC, RIL_PARAM_LU_HUICCAPP, RIL_PARAM_LU_TAC, rilapitypes/RIL_PARAM_LU_TAC, netvista.rillocationinfoparammask_2, rilapitypes/RIL_PARAM_LU_ALL, rilapitypes/RIL_PARAM_LU_CELLID, RIL_PARAM_LU_CELLID
+ms.keywords: RILLOCATIONINFOPARAMMASK, RIL_PARAM_LU_ALL, rilapitypes/RILLOCATIONINFOPARAMMASK, rilapitypes/RIL_PARAM_LU_HUICCAPP, rilapitypes/RIL_PARAM_LU_TAC, RIL_PARAM_LU_LAC, rilapitypes/RIL_PARAM_LU_CELLID, RIL_PARAM_LU_HUICCAPP, rilapitypes/RIL_PARAM_LU_ALL, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_LU_LAC, RIL_PARAM_LU_TAC, RIL_PARAM_LU_CELLID, netvista.rillocationinfoparammask_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILLOCATIONINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILLOCATIONINFOPARAMMASK {
 ### -field RIL_PARAM_LU_EXECUTOR
 
 
-
 ### -field RIL_PARAM_LU_HUICCAPP
-
 
 
 ### -field RIL_PARAM_LU_LAC
 
 
-
 ### -field RIL_PARAM_LU_TAC
-
 
 
 ### -field RIL_PARAM_LU_CELLID
 
 
-
 ### -field RIL_PARAM_LU_ALL
-
 

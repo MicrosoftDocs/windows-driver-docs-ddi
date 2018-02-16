@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 147F46A9-1182-4480-8886-7C39F940EA7D
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateHwContext method [Display Devices], d3dkmthk/D3DKMTCreateHwContext, D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext
+ms.keywords: D3DKMTCreateHwContext method [Display Devices], D3DKMTCreateHwContext, d3dkmthk/D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMTCreateHwContext
 product: Windows
 targetos: Windows
@@ -68,6 +68,7 @@ NTSTATUS D3DKMTCreateHwContext(
 
 
 
+
 #### - createHwContext [in, out]
 
 A structure holding the information needed to create a new hardware context.
@@ -76,6 +77,8 @@ A structure holding the information needed to create a new hardware context.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if called successfully. 
+
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 235DA791-D4D1-486C-B136-3703E62E91E2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetClientContext method [Windows Debugging], IDebugClient7 interface [Windows Debugging], SetClientContext method, IDebugClient7, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext, SetClientContext, IDebugClient7::SetClientContext, SetClientContext method [Windows Debugging], IDebugClient7 interface
+ms.keywords: debugger.idebugclient7_setclientcontext, dbgeng/IDebugClient7::SetClientContext, IDebugClient7, SetClientContext, SetClientContext method [Windows Debugging], IDebugClient7 interface, IDebugClient7 interface [Windows Debugging], SetClientContext method, SetClientContext method [Windows Debugging], IDebugClient7::SetClientContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient7.SetClientContext
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient7::SetClientContext method
@@ -81,7 +81,9 @@ The <b>SetClientContext</b> method is reserved for internal use.
 ## -returns
 
 
+
 The <b>SetClientContext</b> method is reserved for internal use.
+
 
 
 
@@ -89,7 +91,11 @@ The <b>SetClientContext</b> method is reserved for internal use.
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient7.md">IDebugClient7</a>
 
+
+
 <a href="..\dbgeng\ns-dbgeng-_debug_client_context.md">DEBUG_CLIENT_CONTEXT</a>
+
+
 
  
 

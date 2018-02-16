@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3ba49134-e144-4212-9ef7-e16b9d5f90ea
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGenerateDataEvent, stream.ksgeneratedataevent, ksfunc_4e7efb50-d6c2-45b5-9b44-5c3d48e91933.xml, KsGenerateDataEvent function [Streaming Media Devices], KsGenerateDataEvent
+ms.keywords: KsGenerateDataEvent function [Streaming Media Devices], KsGenerateDataEvent, ks/KsGenerateDataEvent, ksfunc_4e7efb50-d6c2-45b5-9b44-5c3d48e91933.xml, stream.ksgeneratedataevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGenerateDataEvent
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Points to data to be passed to the client callback. This data is copied to one o
 ## -returns
 
 
+
 The <b>KsGenerateDataEvent</b> function returns STATUS_SUCCESS if successful, or if unsuccessful it returns an exception or memory error.
 
 
 
+
 ## -remarks
+
 
 
 It is assumed that the event list lock has been acquired before this function is called. This function can result in a call to the <b>RemoveHandler</b> for the event entry. Therefore, the function must not be called at higher than the IRQ level of the lock, or the <b>Remove</b> function must be able to handle being called at such an IRQ level.
@@ -101,9 +104,12 @@ This function is specifically for events that pass data back through a callback 
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
+
+
 
  
 

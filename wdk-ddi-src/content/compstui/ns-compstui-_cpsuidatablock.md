@@ -1,14 +1,14 @@
 ---
 UID: NS:compstui._CPSUIDATABLOCK
-title: _CPSUIDATABLOCK
+title: "_CPSUIDATABLOCK"
 author: windows-driver-content
 description: The CPSUIDATABLOCK structure is used as a parameter for the ComPropSheet function, if the function code is CPSFUNC_SET_DATABLOCK or CPSFUNC_QUERY_DATABLOCK.
 old-location: print\cpsuidatablock.htm
 old-project: print
 ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.cpsuidatablock, CPSUIDATABLOCK, _CPSUIDATABLOCK, compstui/CPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, PCPSUIDATABLOCK structure pointer [Print Devices], CPSUIDATABLOCK structure [Print Devices], PCPSUIDATABLOCK, *PCPSUIDATABLOCK, compstui/PCPSUIDATABLOCK
+ms.date: 2/2/2018
+ms.keywords: PCPSUIDATABLOCK structure pointer [Print Devices], PCPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, CPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices], _CPSUIDATABLOCK, *PCPSUIDATABLOCK, compstui/CPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, print.cpsuidatablock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	compstui.h
-apiname: 
+apiname:
 -	CPSUIDATABLOCK
 product: Windows
 targetos: Windows
-req.typenames: *PCPSUIDATABLOCK, CPSUIDATABLOCK
+req.typenames: "*PCPSUIDATABLOCK, CPSUIDATABLOCK"
 ---
 
 # _CPSUIDATABLOCK structure

@@ -1,14 +1,14 @@
 ---
 UID: NS:nfccx._NFCCX_DRIVER_GLOBALS
-title: _NFCCX_DRIVER_GLOBALS
+title: "_NFCCX_DRIVER_GLOBALS"
 author: windows-driver-content
-description: .
+description: "."
 old-location: nfpdrivers\nfccx_driver_globals.htm
 old-project: nfpdrivers
 ms.assetid: 3B84B227-7155-4FA2-A224-1317D103F5C3
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NFCCX_DRIVER_GLOBALS, nfccx/PNFCCX_DRIVER_GLOBALS, _NFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], nfpdrivers.nfccx_driver_globals, NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS
+ms.keywords: nfpdrivers.nfccx_driver_globals, PNFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], NFCCX_DRIVER_GLOBALS, nfccx/PNFCCX_DRIVER_GLOBALS, _NFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], nfccx/NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfccx.h
-apiname: 
+apiname:
 -	NFCCX_DRIVER_GLOBALS
 product: Windows
 targetos: Windows
-req.typenames: *PNFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS
+req.typenames: NFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS
 ---
 
 # _NFCCX_DRIVER_GLOBALS structure
@@ -70,12 +70,15 @@ typedef struct _NFCCX_DRIVER_GLOBALS {
 ### -field Reserved
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
 
  
 

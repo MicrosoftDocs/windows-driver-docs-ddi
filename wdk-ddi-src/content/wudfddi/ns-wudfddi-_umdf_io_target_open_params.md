@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi._UMDF_IO_TARGET_OPEN_PARAMS
-title: _UMDF_IO_TARGET_OPEN_PARAMS
+title: "_UMDF_IO_TARGET_OPEN_PARAMS"
 author: windows-driver-content
 description: The UMDF_IO_TARGET_OPEN_PARAMS structure contains file-open parameters.
 old-location: wdf\umdf_io_target_open_params.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee8c3585-4e27-4b53-99d8-0af0c5a0099d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDF_IO_TARGET_OPEN_PARAMS structure, PUMDF_IO_TARGET_OPEN_PARAMS, umdf.umdf_io_target_open_params, _UMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, wdf.umdf_io_target_open_params, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, *PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS
+ms.keywords: "_UMDF_IO_TARGET_OPEN_PARAMS, umdf.umdf_io_target_open_params, wudfddi/PUMDF_IO_TARGET_OPEN_PARAMS, PUMDF_IO_TARGET_OPEN_PARAMS, umdfstructs_ac731d61-3f97-4c2c-a9af-0a2a58774766.xml, PUMDF_IO_TARGET_OPEN_PARAMS structure pointer, *PUMDF_IO_TARGET_OPEN_PARAMS, wudfddi/UMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS structure, wdf.umdf_io_target_open_params, UMDF_IO_TARGET_OPEN_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	UMDF_IO_TARGET_OPEN_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
+req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -90,7 +90,9 @@ Additional flags and attributes for the file. For more information about this me
 ## -remarks
 
 
+
 The <b>UMDF_IO_TARGET_OPEN_PARAMS</b> structure is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>.
+
 
 
 
@@ -98,7 +100,11 @@ The <b>UMDF_IO_TARGET_OPEN_PARAMS</b> structure is used as input to <a href="htt
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
+
+
 
  
 

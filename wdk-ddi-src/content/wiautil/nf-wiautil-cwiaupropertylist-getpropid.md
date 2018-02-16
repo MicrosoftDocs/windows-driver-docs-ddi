@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a06de368-71a1-49f1-a948-1b69ca359fb6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.cwiaupropertylist_getpropid, wiautil/CWiauPropertyList::GetPropId, CWiauPropertyList interface [Imaging Devices], GetPropId method, GetPropId method [Imaging Devices], CWiauPropertyList, wiauFncs_3463736c-9dd0-4b87-b427-b19a0daf0df9.xml, GetPropId, GetPropId method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList::GetPropId
+ms.keywords: CWiauPropertyList, wiauFncs_3463736c-9dd0-4b87-b427-b19a0daf0df9.xml, CWiauPropertyList::GetPropId, GetPropId method [Imaging Devices], image.cwiaupropertylist_getpropid, wiautil/CWiauPropertyList::GetPropId, GetPropId, GetPropId method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList interface [Imaging Devices], GetPropId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauPropertyList.GetPropId
 product: Windows
 targetos: Windows
@@ -76,15 +76,21 @@ Specifies the index of the property within the property list.
 ## -returns
 
 
+
 The <b>CWiauPropertyList::GetPropId</b> method returns the property ID for the property.
+
 
 
 
 ## -see-also
 
+<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540400">CWiauPropertyList::LookupPropId</a>
 
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
 
  
 

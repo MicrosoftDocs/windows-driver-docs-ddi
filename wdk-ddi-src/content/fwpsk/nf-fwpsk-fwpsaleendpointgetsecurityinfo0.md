@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0c825695-7fef-4eb1-8615-f41c526aa32d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsAleEndpointGetSecurityInfo0 function [Network Drivers Starting with Windows Vista], netvista.fwpsaleendpointgetsecurityinfo0, fwpsk/FwpsAleEndpointGetSecurityInfo0, wfp_ref_2_funct_3_fwps_A-B_83803cc6-94be-4b32-8b33-2d12cec31e9e.xml, FwpsAleEndpointGetSecurityInfo0
+ms.keywords: FwpsAleEndpointGetSecurityInfo0, fwpsk/FwpsAleEndpointGetSecurityInfo0, FwpsAleEndpointGetSecurityInfo0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_A-B_83803cc6-94be-4b32-8b33-2d12cec31e9e.xml, netvista.fwpsaleendpointgetsecurityinfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsAleEndpointGetSecurityInfo0
 product: Windows
 targetos: Windows
@@ -118,8 +118,10 @@ The security descriptor structure.
 ## -returns
 
 
+
 The 
      <b>FwpsAleEndpointGetSecurityInfo0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -147,7 +149,9 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -155,10 +159,16 @@ An error occurred.
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
 
-<mshelp:link keywords="netvista.fwpsaleendpointsetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointSetSecurityInfo0</b></mshelp:link>
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
+   FwpsAleEndpointSetSecurityInfo0</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
+
+
 
  
 

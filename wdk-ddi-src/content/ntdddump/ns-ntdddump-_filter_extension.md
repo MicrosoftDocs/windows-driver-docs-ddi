@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddump._FILTER_EXTENSION
-title: _FILTER_EXTENSION
+title: "_FILTER_EXTENSION"
 author: windows-driver-content
 description: The crash dump driver passes a pointer to a FILTER_EXTENSION structure when the filter driver callback routines are called.
 old-location: storage\filter_extension.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1113e917-3273-4ba7-8702-fe90a22fb024
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: FILTER_EXTENSION structure [Storage Devices], _FILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml, *PFILTER_EXTENSION, PFILTER_EXTENSION, ntdddump/PFILTER_EXTENSION, storage.filter_extension, FILTER_EXTENSION, ntdddump/FILTER_EXTENSION
+ms.keywords: structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml, FILTER_EXTENSION structure [Storage Devices], _FILTER_EXTENSION, ntdddump/PFILTER_EXTENSION, FILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], *PFILTER_EXTENSION, storage.filter_extension, ntdddump/FILTER_EXTENSION, PFILTER_EXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddump.h
-apiname: 
+apiname:
 -	FILTER_EXTENSION
 product: Windows
 targetos: Windows
-req.typenames: *PFILTER_EXTENSION, FILTER_EXTENSION
+req.typenames: "*PFILTER_EXTENSION, FILTER_EXTENSION"
 ---
 
 # _FILTER_EXTENSION structure
@@ -113,13 +113,20 @@ A pointer to the context data that is provided by the filter driver in <a href="
 
 
 
+
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_initialization_data.md">FILTER_INITIALIZATION_DATA</a>
+<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
+
+
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
+
+
+<a href="..\ntdddump\ns-ntdddump-_filter_initialization_data.md">FILTER_INITIALIZATION_DATA</a>
+
+
 
  
 

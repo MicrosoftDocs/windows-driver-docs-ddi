@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43c55364-1f73-4413-99fb-27c85600d7a6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_GetVendorLibraryAttributes routine [Storage Devices], HBA_GetVendorLibraryAttributes, storage.hba_getvendorlibraryattributes, hbaapi/HBA_GetVendorLibraryAttributes, fibreHBA_rtns_d690dcf4-4ef6-4aea-80dc-846649ed3142.xml
+ms.keywords: HBA_GetVendorLibraryAttributes, storage.hba_getvendorlibraryattributes, fibreHBA_rtns_d690dcf4-4ef6-4aea-80dc-846649ed3142.xml, hbaapi/HBA_GetVendorLibraryAttributes, HBA_GetVendorLibraryAttributes routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_GetVendorLibraryAttributes
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ Pointer, on return, to a structure of type <a href="..\hbaapi\ns-hbaapi-hba_libr
 ## -returns
 
 
+
 The <b>HBA_GetVendorLibraryAttributes</b> routine returns a value that indicates the version of the specification with which the library is compliant. A value of 1 indicates version 1 of the specification. A value of 2 indicates version 2 of the specification. All other values are reserved until the future versions of the specification are published.
 
 
 
+
 ## -remarks
+
 
 
 The <b>HBA_GetVendorLibraryAttributes</b> routine, as defined by the T11 committee's <i>Fibre Channel HBA API</i> specification, retrieves information about a vendor-supplied HBA API library, and the related routine <a href="..\hbaapi\nf-hbaapi-hba_getwrapperlibraryattributes.md">HBA_GetWrapperLibraryAttributes</a> reports the characteristics of a system-supplied wrapper library that works with the vendor library to provide the fibre channel HBA API. 
@@ -96,13 +99,20 @@ Microsoft supplies both libraries, so currently they return the same information
 
 
 
-## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
+## -see-also
 
 <a href="..\hbaapi\nf-hbaapi-hba_getwrapperlibraryattributes.md">HBA_GetWrapperLibraryAttributes</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_getnumberofadapters.md">HBA_GetNumberOfAdapters</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
+
+
 
  
 

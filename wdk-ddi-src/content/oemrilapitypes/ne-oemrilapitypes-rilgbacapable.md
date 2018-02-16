@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c1acc574-6e9e-40a1-8892-00572fcc545c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RILGBACAPABLE, RILGBACAPABLE, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_ME_SUPPORTED, netvista.rilgbacapable, oemrilapitypes/RIL_GBA_U_SUPPORTED, RIL_GBA_UNKNOWN, RIL_GBA_ME_SUPPORTED, RIL_GBA_U_SUPPORTED, oemrilapitypes/RIL_GBA_UNKNOWN
+ms.keywords: oemrilapitypes/RILGBACAPABLE, RIL_GBA_UNKNOWN, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, netvista.rilgbacapable, oemrilapitypes/RIL_GBA_ME_SUPPORTED, oemrilapitypes/RIL_GBA_UNKNOWN, RIL_GBA_U_SUPPORTED, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RILGBACAPABLE, oemrilapitypes/RIL_GBA_U_SUPPORTED, RIL_GBA_ME_SUPPORTED, RIL_GBA_NOT_SUPPORTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	oemrilapitypes.h
-apiname: 
+apiname:
 -	RILGBACAPABLE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILGBACAPABLE {
 ### -field RIL_GBA_UNKNOWN
 
 
-
 ### -field RIL_GBA_NOT_SUPPORTED
-
 
 
 ### -field RIL_GBA_ME_SUPPORTED
 
 
-
 ### -field RIL_GBA_U_SUPPORTED
-
 

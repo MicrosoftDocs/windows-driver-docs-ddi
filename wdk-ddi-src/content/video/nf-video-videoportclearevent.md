@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70b9b8b4-8adc-4628-a37b-b513ecaca9ca
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortClearEvent, VideoPortClearEvent function [Display Devices], VideoPort_Functions_4b6d9a3c-ee76-4c45-888f-4ef37f802e6b.xml, video/VideoPortClearEvent, display.videoportclearevent
+ms.keywords: VideoPortClearEvent function [Display Devices], video/VideoPortClearEvent, display.videoportclearevent, VideoPort_Functions_4b6d9a3c-ee76-4c45-888f-4ef37f802e6b.xml, VideoPortClearEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortClearEvent
 product: Windows
 targetos: Windows
@@ -82,20 +82,26 @@ Pointer to the event object.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 To set the state of an event object to the signaled state, use <a href="..\video\nf-video-videoportsetevent.md">VideoPortSetEvent</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\video\nf-video-videoportsetevent.md">VideoPortSetEvent</a>
+
+
 
  
 

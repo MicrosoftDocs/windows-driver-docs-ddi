@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKMONITORPOWERSTATE
-title: _D3DKMT_CHECKMONITORPOWERSTATE
+title: "_D3DKMT_CHECKMONITORPOWERSTATE"
 author: windows-driver-content
 description: The D3DKMT_CHECKMONITORPOWERSTATE structure describes the connection to the monitor for which to check the power state.
 old-location: display\d3dkmt_checkmonitorpowerstate.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: aa7cee9a-5051-4ebc-be7c-ac9ac91ba631
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], _D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate, D3DKMT_CHECKMONITORPOWERSTATE, OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml
+ms.keywords: D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], display.d3dkmt_checkmonitorpowerstate, OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, _D3DKMT_CHECKMONITORPOWERSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CHECKMONITORPOWERSTATE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct _D3DKMT_CHECKMONITORPOWERSTATE {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcheckmonitorpowerstate.md">D3DKMTCheckMonitorPowerState</a>
+
+
 
  
 

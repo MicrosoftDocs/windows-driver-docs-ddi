@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a8430f5f-000f-4dea-acd9-2f0df2c6e67d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilsmsackopt_2, RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSMSACKOPT, RILSMSACKOPT, rilapitypes/RIL_SMSACKOPT_IMS, RIL_SMSACKOPT_IMS
+ms.keywords: RILSMSACKOPT, rilapitypes/RIL_SMSACKOPT_IMS, netvista.rilsmsackopt_2, RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSACKOPT_IMS, rilapitypes/RILSMSACKOPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSMSACKOPT
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum _RILSMSACKOPT {
 ### -field RIL_SMSACKOPT_NONE
 
 
-
 ### -field RIL_SMSACKOPT_IMS
-
 

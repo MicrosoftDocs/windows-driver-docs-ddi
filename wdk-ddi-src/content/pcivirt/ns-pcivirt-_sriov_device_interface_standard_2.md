@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_DEVICE_INTERFACE_STANDARD_2
-title: _SRIOV_DEVICE_INTERFACE_STANDARD_2
+title: "_SRIOV_DEVICE_INTERFACE_STANDARD_2"
 author: windows-driver-content
 description: Stores function pointers to callback functions implemented by the physical function (PF) driver in the device stack for the of the SR-IOV device. This is an extended version of SRIOV_DEVICE_INTERFACE_STANDARD.
 old-location: pci\sriov_device_interface_standard_2.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 46c9fa94-283c-481e-9fb1-2ed63df00386
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, *PSRIOV_DEVICE_INTERFACE_STANDARD_2, PCI.sriov_device_interface_standard_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2
+ms.keywords: SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], *PSRIOV_DEVICE_INTERFACE_STANDARD_2, _SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2, PCI.sriov_device_interface_standard_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pcivirt.h
-apiname: 
+apiname:
 -	SRIOV_DEVICE_INTERFACE_STANDARD_2
 product: Windows
 targetos: Windows
-req.typenames: *PSRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2
+req.typenames: "*PSRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2"
 ---
 
 # _SRIOV_DEVICE_INTERFACE_STANDARD_2 structure

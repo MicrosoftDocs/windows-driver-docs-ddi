@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RENDERFLAGS
-title: _D3DKMT_RENDERFLAGS
+title: "_D3DKMT_RENDERFLAGS"
 author: windows-driver-content
 description: The D3DKMT_RENDERFLAGS structure identifies the type of command buffer to be rendered in a call to the D3DKMTRender function.
 old-location: display\d3dkmt_renderflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_RENDERFLAGS structure [Display Devices], _D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS, OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
+ms.keywords: D3DKMT_RENDERFLAGS structure [Display Devices], _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags, OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_RENDERFLAGS
 product: Windows
 targetos: Windows
@@ -130,6 +130,8 @@ This member is reserved and should be set to zero. Setting this member is equiva
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
+
+
 
  
 

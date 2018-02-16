@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportacquirespinlock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, VideoPortAcquireSpinLock, video/VideoPortAcquireSpinLock
+ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], display.videoportacquirespinlock, VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, video/VideoPortAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortAcquireSpinLock
 product: Windows
 targetos: Windows
@@ -93,11 +93,14 @@ Pointer to a memory location that contains the spin lock.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The current IRQL is saved in <i>OldIrql</i>. Then, the current IRQL is reset to DISPATCH_LEVEL, and the specified spin lock is acquired.
@@ -105,6 +108,7 @@ The current IRQL is saved in <i>OldIrql</i>. Then, the current IRQL is reset to 
 The <i>OldIrql</i> value must be specified when the spin lock is released with <a href="..\video\nf-video-videoportreleasespinlock.md">VideoPortReleaseSpinLock</a>.
 
 Spin locks can cause serious problems if not used judiciously. In particular, no deadlock protection is performed and dispatching is disabled while the spin lock is held. Therefore: 
+
 <ul>
 <li>
 The code within a critical region guarded by a spin lock must neither be pageable nor make any references to pageable data. 
@@ -121,11 +125,16 @@ The caller should release the spin lock with <b>VideoPortReleaseSpinLock</b> as 
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportreleasespinlock.md">VideoPortReleaseSpinLock</a>
 
+
+
 <a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
+
+
 
  
 

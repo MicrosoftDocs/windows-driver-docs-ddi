@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfwmi._WDF_WMI_PROVIDER_CONTROL
-title: _WDF_WMI_PROVIDER_CONTROL
+title: "_WDF_WMI_PROVIDER_CONTROL"
 author: windows-driver-content
 description: The WDF_WMI_PROVIDER_CONTROL enumeration defines the type of control functions that a WMI data provider can support.
 old-location: wdf\wdf_wmi_provider_control.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c545b0a6-bb36-47a7-b55c-ee7eed5ade3a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfWmiEventControl, wdfwmi/WdfWmiEventControl, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, wdfwmi/WdfWmiInstanceControl, WDF_WMI_PROVIDER_CONTROL enumeration, kmdf.wdf_wmi_provider_control, WdfWmiInstanceControl, wdfwmi/WDF_WMI_PROVIDER_CONTROL, _WDF_WMI_PROVIDER_CONTROL, wdf.wdf_wmi_provider_control, WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiControlInvalid, WdfWmiControlInvalid
+ms.keywords: WdfWmiInstanceControl, WdfWmiControlInvalid, kmdf.wdf_wmi_provider_control, wdfwmi/WdfWmiEventControl, wdf.wdf_wmi_provider_control, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, wdfwmi/WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL enumeration, WdfWmiEventControl, wdfwmi/WdfWmiControlInvalid, wdfwmi/WdfWmiInstanceControl, _WDF_WMI_PROVIDER_CONTROL, WDF_WMI_PROVIDER_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfwmi.h
-apiname: 
+apiname:
 -	WDF_WMI_PROVIDER_CONTROL
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ The driver must enable or disable collecting data for a provider instance.
 ## -remarks
 
 
+
 The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration is used as an input parameter to the <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a> method and the driver's <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a> callback function.
+
 
 
 
@@ -98,7 +100,11 @@ The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration is used as an input parameter to
 
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
+
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
+
+
 
  
 

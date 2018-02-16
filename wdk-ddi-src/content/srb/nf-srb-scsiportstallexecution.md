@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b033cfe-9649-4993-b348-6c9af2d0f4bc
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortStallExecution, ScsiPortStallExecution, storage.scsiportstallexecution, scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml, ScsiPortStallExecution routine [Storage Devices]
+ms.keywords: ScsiPortStallExecution routine [Storage Devices], srb/ScsiPortStallExecution, ScsiPortStallExecution, storage.scsiportstallexecution, scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortStallExecution
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -77,11 +77,14 @@ Specifies the delay interval in microseconds. The given value must be less than 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>ScsiPortStallExecution</b> should be called as seldom as possible and the total stall time in a miniport driver routine must be less than one millisecond. This call ties up a processor, doing no useful work while stalling in the driver.
@@ -94,17 +97,28 @@ A miniport driver-supplied <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
 
 <a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>
+
+
 
  
 

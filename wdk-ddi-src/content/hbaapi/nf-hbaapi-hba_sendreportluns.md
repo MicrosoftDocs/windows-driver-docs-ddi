@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0df38de0-bc05-45a3-8efa-9d7a0fc2a08e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_sendreportluns, hbaapi/HBA_SendReportLUNs, HBA_SendReportLUNs routine [Storage Devices], HBA_SendReportLUNs, fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml
+ms.keywords: fibreHBA_rtns_aeda6b0e-e4bf-4679-ab57-dbe562864726.xml, HBA_SendReportLUNs, HBA_SendReportLUNs routine [Storage Devices], hbaapi/HBA_SendReportLUNs, storage.hba_sendreportluns
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_SendReportLUNs
 product: Windows
 targetos: Windows
@@ -115,7 +115,9 @@ Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote targe
 ## -returns
 
 
+
 The <b>HBA_ScsiReportLUNs</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_ScsiReportLUNs</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -187,7 +189,9 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -195,7 +199,11 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

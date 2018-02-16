@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IOCTL_KS_HANDSHAKE
 product: Windows
 targetos: Windows
@@ -90,14 +90,18 @@ The client places a pointer to a structure of type <a href="..\ks\ns-ks-kshandsh
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -114,11 +118,19 @@ If the <b>InLength</b> and <b>OutLength</b> parameters in the call to <b>KsSynch
 
 <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
 
-<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
+
+
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
+
 
 <a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
+
+<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
+
+
 
  
 

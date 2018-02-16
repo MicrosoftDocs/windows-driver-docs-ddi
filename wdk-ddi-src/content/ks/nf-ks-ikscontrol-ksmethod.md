@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 75100366-ba79-4ff2-b8e0-64c5c3f5f3b9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMethod method [Streaming Media Devices], IKsControl::KsMethod, IKsControl, stream.ikscontrol_ksmethod2, KsMethod, avintfc_6cf0dd96-36e2-4d0a-8bb8-f2f49ab9eb1f.xml, ks/IKsControl::KsMethod, KsMethod method [Streaming Media Devices], IKsControl interface, IKsControl interface [Streaming Media Devices], KsMethod method
+ms.keywords: IKsControl::KsMethod, avintfc_6cf0dd96-36e2-4d0a-8bb8-f2f49ab9eb1f.xml, stream.ikscontrol_ksmethod2, KsMethod, ks/IKsControl::KsMethod, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl, KsMethod method [Streaming Media Devices], IKsControl interface, KsMethod method [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IKsControl.KsMethod
 product: Windows
 targetos: Windows
@@ -99,24 +99,34 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsMe
 ## -returns
 
 
+
 The <b>IKsControl::KsMethod</b> method returns the same value that would be returned if the method had been sent by IOCTL.
+
 
 
 
 ## -remarks
 
 
+
 To determine the buffer size that is required for a specific method request, you can call this method with MethodData set to <b>NULL</b> and DataLength equal to zero. The method returns HRESULT_FROM_WIN32(ERROR_MORE_DATA and BytesReturned contains the size of the required buffer.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
-
 <a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
 
+
+
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+
+
+
+<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+
 
  
 

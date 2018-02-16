@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DESTROYCRYPTOSESSION
-title: _D3DDDIARG_DESTROYCRYPTOSESSION
+title: "_D3DDDIARG_DESTROYCRYPTOSESSION"
 author: windows-driver-content
 description: The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryption session that is destroyed in a call to the DestroyCryptoSession function.
 old-location: display\d3dddiarg_destroycryptosession.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7ae8bfd7-da94-41b0-8995-34194b2ad8a7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_DESTROYCRYPTOSESSION structure [Display Devices], d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION, _D3DDDIARG_DESTROYCRYPTOSESSION, D3DDDIARG_DESTROYCRYPTOSESSION, UMDisplayDriver_param_Structs_75cddfac-f1d8-4378-bb94-441fff43e224.xml, display.d3dddiarg_destroycryptosession
+ms.keywords: display.d3dddiarg_destroycryptosession, d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION, UMDisplayDriver_param_Structs_75cddfac-f1d8-4378-bb94-441fff43e224.xml, D3DDDIARG_DESTROYCRYPTOSESSION, _D3DDDIARG_DESTROYCRYPTOSESSION, D3DDDIARG_DESTROYCRYPTOSESSION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_DESTROYCRYPTOSESSION
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ typedef struct _D3DDDIARG_DESTROYCRYPTOSESSION {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroycryptosession.md">DestroyCryptoSession</a>
+
+
 
  
 

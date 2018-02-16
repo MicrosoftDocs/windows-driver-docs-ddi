@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netioddk.h
-apiname: 
+apiname:
 -	PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
 ---
 
 # NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback
@@ -86,11 +86,14 @@ A pointer to the provider module's context for the binding between the provider 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The NMR calls a provider module's 
@@ -107,8 +110,8 @@ If the provider module does not dynamically allocate the memory for its binding 
     <i>ProviderCleanupBindingContext</i> callback function. If the provider module does not implement a 
     <i>ProviderCleanupBindingContext</i> callback function, then it must set the 
     <i>ProviderCleanupBindingContext</i> member of the 
-    <mshelp:link keywords="netvista.npi_provider_characteristics" tabindex="0"><b>
-    NPI_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure to <b>NULL</b> when it calls the 
+    <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">
+    NPI_PROVIDER_CHARACTERISTICS</a> structure to <b>NULL</b> when it calls the 
     <a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a> function to
     register itself with the NMR.
 
@@ -117,15 +120,24 @@ The NMR calls a provider module's
 
 
 
+
 ## -see-also
-
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
-
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
 <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
+
+
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
+
+
 
  
 

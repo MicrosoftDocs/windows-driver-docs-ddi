@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 14aaf96a-4d1f-4e4a-9fed-e493090157b8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_553391e5-343a-4cc7-9bc5-99971cff2fcd.xml, KsDiscardEvent function [Streaming Media Devices], KsDiscardEvent, stream.ksdiscardevent, ks/KsDiscardEvent
+ms.keywords: ks/KsDiscardEvent, ksfunc_553391e5-343a-4cc7-9bc5-99971cff2fcd.xml, stream.ksdiscardevent, KsDiscardEvent function [Streaming Media Devices], KsDiscardEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDiscardEvent
 product: Windows
 targetos: Windows
@@ -76,22 +76,30 @@ Specifies the pointer to the entry to discard. This pointer is no longer valid a
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Typically, the <b>KsDiscardEvent</b> function is automatically called by the <a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a> function when a request to disable an event occurs, or by the <a href="..\ks\nf-ks-ksfreeeventlist.md">KsFreeEventList</a> function when a request to free a list of events occurs. This function can only be called at PASSIVE_LEVEL.
+
 
 
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+
+
+
 <a href="..\ks\nf-ks-ksfreeeventlist.md">KsFreeEventList</a>
 
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+
 
  
 

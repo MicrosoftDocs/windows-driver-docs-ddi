@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 003c888b-5935-460d-8b89-13f4ab69dc85
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE, RIL_PARAM_SLOTINFO_SLOTSTATE, rilapitypes/RIL_PARAM_SLOTINFO_ALL, RILUICCSLOTINFOPARAMMASK, RIL_PARAM_SLOTINFO_ALL, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccslotinfoparammask_2, rilapitypes/RILUICCSLOTINFOPARAMMASK
+ms.keywords: RILUICCSLOTINFOPARAMMASK, rilapitypes/RIL_PARAM_SLOTINFO_ALL, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCSLOTINFOPARAMMASK, netvista.riluiccslotinfoparammask_2, RIL_PARAM_SLOTINFO_ALL, rilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE, RIL_PARAM_SLOTINFO_SLOTSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCSLOTINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILUICCSLOTINFOPARAMMASK {
 ### -field RIL_PARAM_SLOTINFO_NUMSLOTS
 
 
-
 ### -field RIL_PARAM_SLOTINFO_SLOTSTATE
 
 
-
 ### -field RIL_PARAM_SLOTINFO_ALL
-
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84e4f178-87d3-4f40-b4fc-7959818305fd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortFreePool function [Display Devices], VideoPortFreePool, display.videoportfreepool, VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, video/VideoPortFreePool
+ms.keywords: video/VideoPortFreePool, display.videoportfreepool, VideoPortFreePool, VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, VideoPortFreePool function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortFreePool
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Pointer to the first byte of the memory to be freed.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>VideoPortFreePool</b> is intended to replace <b>VideoPortReleaseBuffer</b>, which is obsolete.
@@ -95,11 +98,16 @@ Callers of <b>VideoPortFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportallocatepool.md">VideoPortAllocatePool</a>
 
+
+
 <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
+
+
 
  
 

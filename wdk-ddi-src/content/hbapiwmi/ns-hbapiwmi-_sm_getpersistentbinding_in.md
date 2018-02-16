@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetPersistentBinding_IN
-title: _SM_GetPersistentBinding_IN
+title: "_SM_GetPersistentBinding_IN"
 author: windows-driver-content
 description: The SM_GetPersistentBinding_IN structure is used to provide input parameters to the SM_GetPersistentBinding method.
 old-location: storage\sm_getpersistentbinding_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6c716394-1e82-40d2-befc-50a0ea88f750
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SM_GetPersistentBinding_IN, structs-Fibre_2cf97173-2aa3-4770-865a-825f5db0daf1.xml, SM_GetPersistentBinding_IN structure [Storage Devices], PSM_GetPersistentBinding_IN structure pointer [Storage Devices], *PSM_GetPersistentBinding_IN, hbapiwmi/PSM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN, storage.sm_getpersistentbinding_in, _SM_GetPersistentBinding_IN
+ms.keywords: SM_GetPersistentBinding_IN structure [Storage Devices], structs-Fibre_2cf97173-2aa3-4770-865a-825f5db0daf1.xml, *PSM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN, hbapiwmi/SM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN, hbapiwmi/PSM_GetPersistentBinding_IN, _SM_GetPersistentBinding_IN, storage.sm_getpersistentbinding_in, PSM_GetPersistentBinding_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_GetPersistentBinding_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_GetPersistentBinding_IN, *PSM_GetPersistentBinding_IN
+req.typenames: "*PSM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN"
 ---
 
 # _SM_GetPersistentBinding_IN structure
@@ -87,6 +87,8 @@ The number of persistent bindings that are associated with the HBA.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_GetPersistentBinding_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
+
 
 

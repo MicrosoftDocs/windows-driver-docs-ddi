@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbscan.h
-apiname: 
+apiname:
 -	IOCTL_CANCEL_IO
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ Zero.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,8 +111,10 @@ Zero.
 ## -remarks
 
 
+
 <h3><a id="ddk_ioctl_cancel_io_si"></a><a id="DDK_IOCTL_CANCEL_IO_SI"></a>DeviceIoControl Parameters
 </h3>
+
 
 
 <dl>
@@ -156,5 +162,6 @@ Optional pointer to an OVERLAPPED structure (described in the Microsoft Windows 
 
 
 When the <b>DeviceloControl</b> function is called with the IOCTL_CANCEL_IO I/O control code, the caller must specify one of the <a href="..\usbscan\ne-usbscan-pipe_type.md">PIPE_TYPE</a>-typed values as the function's <i>lpInBuffer</i> parameter. This value indicates on which of the transfer pipes (interrupt, bulk IN, bulk OUT) the operation should be performed. For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+
 
 

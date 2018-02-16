@@ -15,7 +15,7 @@ ms.topic: callback
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	BluetoothPortIndicationCallback
 product: Windows
 targetos: Windows
@@ -79,8 +79,8 @@ void BluetoothPortIndicationCallback(
 For incoming remote connection request indications, this is the context specified by the profile
      driver in the 
      <b>IndicationCallbackContext</b> member of the 
-     <mshelp:link keywords="bltooth._brb_l2ca_register_server" tabindex="0"><b>
-     _BRB_L2CA_REGISTER_SERVER</b></mshelp:link> structure when the profile driver registered the callback function. For
+     <a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">
+     _BRB_L2CA_REGISTER_SERVER</a> structure when the profile driver registered the callback function. For
      changes to existing L2CAP connections, this is the 
      <b>CallbackContext</b> member specified by the profile driver when it built and sent a 
      <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> BRB.
@@ -103,20 +103,24 @@ An
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A profile driver registers its L2CAP callback function in the following two scenarios:
+
 <ol>
 <li>
 When a profile driver acts as a server, it registers a L2CAP callback function using the 
       <b>IndicationCallback</b> member of the 
-      <mshelp:link keywords="bltooth._brb_l2ca_register_server" tabindex="0"><b>
-      _BRB_L2CA_REGISTER_SERVER</b></mshelp:link> structure. The Bluetooth driver stack can then notify the profile
+      <a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">
+      _BRB_L2CA_REGISTER_SERVER</a> structure. The Bluetooth driver stack can then notify the profile
       driver when a remote device attempts to contact it.
 
 </li>
@@ -126,11 +130,12 @@ When the profile driver acts as a client and attempts to connect to a remote dev
       <b>Callback</b> member of the _BRB_L2CA_OPEN_CHANNEL structure that is passed when the profile driver 
       <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-      <mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-      BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
+      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 </li>
-</ol>After the profile driver registers its L2CAP callback function, the callback function is only
+</ol>
+After the profile driver registers its L2CAP callback function, the callback function is only
     associated with the channel that the BRB opened. The Bluetooth driver stack can call the L2CAP callback
     function to notify the profile driver of actions that occur over the open channel to the remote device.
     Profile drivers can register a single callback function to handle channel notifications as a client and
@@ -147,15 +152,24 @@ The
 
 
 
+
 ## -see-also
-
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
 <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
+
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+
+
+
 <a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
+
+
 
  
 

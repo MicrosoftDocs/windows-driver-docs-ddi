@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6dd3abdb-9037-4cf5-abe7-7776dcf67bd5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_18a6f185-17dd-446c-9bbe-3937e1003a6b.xml, storage.storportdeviceready, StorPortDeviceReady, storport/StorPortDeviceReady, StorPortDeviceReady routine [Storage Devices]
+ms.keywords: StorPortDeviceReady routine [Storage Devices], storage.storportdeviceready, storprt_18a6f185-17dd-446c-9bbe-3937e1003a6b.xml, StorPortDeviceReady, storport/StorPortDeviceReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortDeviceReady
 product: Windows
 targetos: Windows
@@ -95,22 +95,30 @@ Identifies the logical unit for the given target controller or device.
 ## -returns
 
 
+
 <b>StorPortDeviceReady</b> returns <b>TRUE</b> if the miniport driver succeeded in notifying the port driver, <b>FALSE</b> if not.
+
 
 
 
 ## -remarks
 
 
+
 It is not generally necessary to notify the target device that new requests are required. 
+
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportdevicebusy.md">StorPortDeviceBusy</a>
+
+
+
 <a href="..\storport\nf-storport-storportready.md">StorPortReady</a>
 
-<a href="..\storport\nf-storport-storportdevicebusy.md">StorPortDeviceBusy</a>
+
 
  
 

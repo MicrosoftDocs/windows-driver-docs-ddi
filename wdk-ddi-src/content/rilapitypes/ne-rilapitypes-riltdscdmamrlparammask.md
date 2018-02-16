@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d2cc4c39-b96e-4078-bfea-2e06a07e938e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riltdscdmamrlparammask, rilapitypes/RIL_PARAM_TDSCDMAMRL_LAC, rilapitypes/RIL_PARAM_TDSCDMAMRL_UARFCN, RIL_PARAM_TDSCDMAMRL_MCC, rilapitypes/RIL_PARAM_TDSCDMAMRL_MNC, rilapitypes/RIL_PARAM_TDSCDMAMRL_PATHLOSS, rilapitypes/RIL_PARAM_TDSCDMAMRL_ALL, RILTDSCDMAMRLPARAMMASK, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLPARAM, RIL_PARAM_TDSCDMAMRL_RSCP, RIL_PARAM_TDSCDMAMRL_PATHLOSS, RILTDSCDMAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TDSCDMAMRL_ALL, RIL_PARAM_TDSCDMAMRL_MNC, RIL_PARAM_TDSCDMAMRL_LAC, rilapitypes/RILTDSCDMAMRLPARAMMASK, RIL_PARAM_TDSCDMAMRL_CELLPARAM, rilapitypes/RIL_PARAM_TDSCDMAMRL_RSCP, rilapitypes/RIL_PARAM_TDSCDMAMRL_MCC, RIL_PARAM_TDSCDMAMRL_CELLID, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLID, RIL_PARAM_TDSCDMAMRL_UARFCN
+ms.keywords: netvista.riltdscdmamrlparammask, rilapitypes/RIL_PARAM_TDSCDMAMRL_MCC, RIL_PARAM_TDSCDMAMRL_PATHLOSS, rilapitypes/RIL_PARAM_TDSCDMAMRL_RSCP, rilapitypes/RIL_PARAM_TDSCDMAMRL_UARFCN, RIL_PARAM_TDSCDMAMRL_RSCP, rilapitypes/RIL_PARAM_TDSCDMAMRL_PATHLOSS, rilapitypes/RIL_PARAM_TDSCDMAMRL_MNC, RIL_PARAM_TDSCDMAMRL_MNC, RIL_PARAM_TDSCDMAMRL_MCC, RILTDSCDMAMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TDSCDMAMRL_CELLPARAM, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLPARAM, RIL_PARAM_TDSCDMAMRL_ALL, RIL_PARAM_TDSCDMAMRL_CELLID, RIL_PARAM_TDSCDMAMRL_LAC, RIL_PARAM_TDSCDMAMRL_UARFCN, rilapitypes/RIL_PARAM_TDSCDMAMRL_LAC, rilapitypes/RIL_PARAM_TDSCDMAMRL_CELLID, rilapitypes/RIL_PARAM_TDSCDMAMRL_ALL, rilapitypes/RILTDSCDMAMRLPARAMMASK, RILTDSCDMAMRLPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILTDSCDMAMRLPARAMMASK
 product: Windows
 targetos: Windows
@@ -82,45 +82,38 @@ enum RILTDSCDMAMRLPARAMMASK {
 ### -field RIL_PARAM_TDSCDMAMRL_MCC
 
 
-
 ### -field RIL_PARAM_TDSCDMAMRL_MNC
-
 
 
 ### -field RIL_PARAM_TDSCDMAMRL_LAC
 
 
-
 ### -field RIL_PARAM_TDSCDMAMRL_CELLID
-
 
 
 ### -field RIL_PARAM_TDSCDMAMRL_UARFCN
 
 
-
 ### -field RIL_PARAM_TDSCDMAMRL_CELLPARAM
-
 
 
 ### -field RIL_PARAM_TDSCDMAMRL_RSCP
 
 
-
 ### -field RIL_PARAM_TDSCDMAMRL_PATHLOSS
-
 
 
 ### -field RIL_PARAM_TDSCDMAMRL_ALL
 
 
-
 ## -remarks
+
 
 
 Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks. 
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -290,9 +283,11 @@ Path loss of serving cell in dBs
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>TD-SCDMA neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -462,13 +457,17 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

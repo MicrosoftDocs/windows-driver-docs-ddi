@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_EXCEPTION
-title: _DEBUG_LAST_EVENT_INFO_EXCEPTION
+title: "_DEBUG_LAST_EVENT_INFO_EXCEPTION"
 author: windows-driver-content
 description: Describes the exception of the last event.
 old-location: debugger\debug_last_event_info_exception.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FB4EBA71-5144-440A-AFD1-7460903C9189
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: DEBUG_LAST_EVENT_INFO_EXCEPTION, dbgeng/PDEBUG_LAST_EVENT_INFO_EXCEPTION, debugger.debug_last_event_info_exception, PDEBUG_LAST_EVENT_INFO_EXCEPTION structure pointer [Windows Debugging], *PDEBUG_LAST_EVENT_INFO_EXCEPTION, dbgeng/DEBUG_LAST_EVENT_INFO_EXCEPTION, PDEBUG_LAST_EVENT_INFO_EXCEPTION, _DEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION structure [Windows Debugging]
+ms.keywords: "*PDEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION structure [Windows Debugging], dbgeng/PDEBUG_LAST_EVENT_INFO_EXCEPTION, _DEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION, debugger.debug_last_event_info_exception, dbgeng/DEBUG_LAST_EVENT_INFO_EXCEPTION, PDEBUG_LAST_EVENT_INFO_EXCEPTION, PDEBUG_LAST_EVENT_INFO_EXCEPTION structure pointer [Windows Debugging]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_LAST_EVENT_INFO_EXCEPTION
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_LAST_EVENT_INFO_EXCEPTION, DEBUG_LAST_EVENT_INFO_EXCEPTION
+req.typenames: DEBUG_LAST_EVENT_INFO_EXCEPTION, *PDEBUG_LAST_EVENT_INFO_EXCEPTION
 ---
 
 # _DEBUG_LAST_EVENT_INFO_EXCEPTION structure

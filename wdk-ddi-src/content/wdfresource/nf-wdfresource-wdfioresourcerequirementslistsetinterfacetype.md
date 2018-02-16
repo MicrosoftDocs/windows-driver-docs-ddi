@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c229eb9e-cf1f-43ea-b701-fb8fb6196b40
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfioresourcerequirementslistsetinterfacetype, kmdf.wdfioresourcerequirementslistsetinterfacetype, WdfIoResourceRequirementsListSetInterfaceType method, wdfresource/WdfIoResourceRequirementsListSetInterfaceType, PFN_WDFIORESOURCEREQUIREMENTSLISTSETINTERFACETYPE, DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, WdfIoResourceRequirementsListSetInterfaceType
+ms.keywords: wdfresource/WdfIoResourceRequirementsListSetInterfaceType, kmdf.wdfioresourcerequirementslistsetinterfacetype, wdf.wdfioresourcerequirementslistsetinterfacetype, DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, PFN_WDFIORESOURCEREQUIREMENTSLISTSETINTERFACETYPE, WdfIoResourceRequirementsListSetInterfaceType method, WdfIoResourceRequirementsListSetInterfaceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoResourceRequirementsListSetInterfaceType
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -85,13 +85,16 @@ An <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>-typed value tha
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Your driver must provide a bus type if your device does not support Plug and Play (PnP). 
@@ -99,10 +102,40 @@ Your driver must provide a bus type if your device does not support Plug and Pla
 For more information about resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_resource_requirements_query.md">EvtDeviceResourceRequirementsQuery</a> callback function for a nonPnP device calls <b>WdfIoResourceRequirementsListSetInterfaceType</b> to assign a bus type to a device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+Example_EvtDeviceResourceRequirementsQuery(
+    IN WDFDEVICE Device,
+    IN WDFIORESREQLIST Requirements
+    )
+{
+...
+    WdfIoResourceRequirementsListSetInterfaceType(
+                                                  Requirements,
+                                                  Isa
+                                                  );
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+
+
 
  
 

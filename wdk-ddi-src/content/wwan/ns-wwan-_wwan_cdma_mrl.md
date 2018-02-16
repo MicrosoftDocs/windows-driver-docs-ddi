@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CDMA_MRL
-title: _WWAN_CDMA_MRL
+title: "_WWAN_CDMA_MRL"
 author: windows-driver-content
 description: The WWAN_CDMA_MRL structure represents the measured results list (MRL) of both serving and neighboring CDMA cells.
 old-location: netvista\wwan_cdma_mrl.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A19B98B5-F2E5-4AF9-9D2B-A7DD47441656
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_cdma_mrl, PWWAN_CDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL, *PWWAN_CDMA_MRL, wwan/PWWAN_CDMA_MRL, wwan/WWAN_CDMA_MRL, PWWAN_CDMA_MRL, WWAN_CDMA_MRL structure [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL
+ms.keywords: "_WWAN_CDMA_MRL, WWAN_CDMA_MRL structure [Network Drivers Starting with Windows Vista], *PWWAN_CDMA_MRL, netvista.wwan_cdma_mrl, wwan/PWWAN_CDMA_MRL, PWWAN_CDMA_MRL, WWAN_CDMA_MRL, wwan/WWAN_CDMA_MRL, PWWAN_CDMA_MRL structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_CDMA_MRL
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ The count of MRL entries following this member.
 
 
 
+
 #### - CDMAMrl[ANYSIZE_ARRAY]
 
 The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_cdma_mrl_info.md">WWAN_CDMA_MRL_INFO</a> structure.
@@ -89,9 +90,15 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_cdm
 
 <a href="..\wwan\ns-wwan-_wwan_cdma_mrl_info.md">WWAN_CDMA_MRL_INFO</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
 
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
+
 
  
 

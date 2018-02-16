@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDEtwRegister, umdprovider/UMDEtwRegister, display.umdetwregister, UMDEtwRegister function [Display Devices]
+ms.keywords: UMDEtwRegister, display.umdetwregister, UMDEtwRegister function [Display Devices], umdprovider/UMDEtwRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	umdprovider.h
-apiname: 
+apiname:
 -	UMDEtwRegister
 product: Windows
 targetos: Windows
@@ -78,14 +78,18 @@ This callback function should call the <a href="..\umdprovider\nf-umdprovider-um
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The data type for the <i>CbRundown</i> parameter is defined as:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -95,7 +99,9 @@ The data type for the <i>CbRundown</i> parameter is defined as:
 <pre>typedef void (*PFNUMDETW_RUNDOWN)();</pre>
 </td>
 </tr>
-</table></span></div><b>UMDEtwRegister</b> is defined inline in Umdprovider.h as:
+</table></span></div>
+<b>UMDEtwRegister</b> is defined inline in Umdprovider.h as:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -165,15 +171,21 @@ FORCEINLINE void UMDEtwRegister(PFNUMDETW_RUNDOWN RundownCb)
 }</pre>
 </td>
 </tr>
-</table></span></div>The <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a> function and the <b>EVENT_CONTROL_CODE_XXX</b> values are  described in the <a href="https://msdn.microsoft.com/c10baa8d-50b9-4fda-89d0-d00b1d9f5404">Windows Events</a> documentation.
+</table></span></div>
+The <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a> function and the <b>EVENT_CONTROL_CODE_XXX</b> values are  described in the <a href="https://msdn.microsoft.com/c10baa8d-50b9-4fda-89d0-d00b1d9f5404">Windows Events</a> documentation.
+
 
 
 
 ## -see-also
 
+<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
+
+
+
 <a href="..\umdprovider\nf-umdprovider-umdetwunregister.md">UMDEtwUnregister</a>
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\seauditinghardlinkevents.htm
 old-project: ifsk
 ms.assetid: 3d90be4f-83bf-45c6-9a74-03a9b19c431a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.seauditinghardlinkevents, SeAuditingHardLinkEvents function [Installable File System Drivers], SeAuditingHardLinkEvents, ntifs/SeAuditingHardLinkEvents, seref_b63ee159-df1c-405e-9ac2-44e56b2bd51c.xml
+ms.date: 2/7/2018
+ms.keywords: ifsk.seauditinghardlinkevents, SeAuditingHardLinkEvents function [Installable File System Drivers], SeAuditingHardLinkEvents, seref_b63ee159-df1c-405e-9ac2-44e56b2bd51c.xml, ntifs/SeAuditingHardLinkEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SeAuditingHardLinkEvents
 product: Windows
 targetos: Windows

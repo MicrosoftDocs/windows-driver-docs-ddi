@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdmaenabler._WDF_DMA_ENABLER_CONFIG
-title: _WDF_DMA_ENABLER_CONFIG
+title: "_WDF_DMA_ENABLER_CONFIG"
 author: windows-driver-content
 description: The WDF_DMA_ENABLER_CONFIG structure supplies characteristics for a DMA enabler object.
 old-location: wdf\wdf_dma_enabler_config.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 60702ce0-c15b-49ad-b983-af68086710b2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DMA_ENABLER_CONFIG structure pointer, wdf.wdf_dma_enabler_config, wdfdmaenabler/PWDF_DMA_ENABLER_CONFIG, WDF_DMA_ENABLER_CONFIG structure, DFDmaObjectRef_854b91a3-b389-47a9-bc88-d4796025f73e.xml, WDF_DMA_ENABLER_CONFIG, kmdf.wdf_dma_enabler_config, PWDF_DMA_ENABLER_CONFIG, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG, _WDF_DMA_ENABLER_CONFIG, *PWDF_DMA_ENABLER_CONFIG
+ms.keywords: "*PWDF_DMA_ENABLER_CONFIG, DFDmaObjectRef_854b91a3-b389-47a9-bc88-d4796025f73e.xml, PWDF_DMA_ENABLER_CONFIG structure pointer, WDF_DMA_ENABLER_CONFIG structure, _WDF_DMA_ENABLER_CONFIG, wdfdmaenabler/PWDF_DMA_ENABLER_CONFIG, WDF_DMA_ENABLER_CONFIG, kmdf.wdf_dma_enabler_config, PWDF_DMA_ENABLER_CONFIG, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG, wdf.wdf_dma_enabler_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdmaenabler.h
-apiname: 
+apiname:
 -	WDF_DMA_ENABLER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_DMA_ENABLER_CONFIG, WDF_DMA_ENABLER_CONFIG
+req.typenames: "*PWDF_DMA_ENABLER_CONFIG, WDF_DMA_ENABLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -144,6 +144,7 @@ A bitwise OR of one or more values from the <a href="..\wdfdmaenabler\ne-wdfdmae
 ## -remarks
 
 
+
 The <b>WDF_DMA_ENABLER_CONFIG</b> structure is used as an input parameter to the <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a> method.
 
 Drivers must call <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a> to initialize the <b>WDF_DMA_ENABLER_CONFIG</b> structure.
@@ -154,27 +155,48 @@ On Windows 7 and Windows Vista, when the driver provides a nonzero value for <
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_disable.md">EvtDmaEnablerDisable</a>
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
 
-<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_start.md">EvtDmaEnablerSelfManagedIoStart</a>
-
-<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_flush.md">EvtDmaEnablerFlush</a>
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
-
-<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_fill.md">EvtDmaEnablerFill</a>
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetmaximumlength.md">WdfDmaTransactionSetMaximumLength</a>
 
+
+
+<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_enable.md">EvtDmaEnablerEnable</a>
+
+
+
 <a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_stop.md">EvtDmaEnablerSelfManagedIoStop</a>
+
+
+
+<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_start.md">EvtDmaEnablerSelfManagedIoStart</a>
+
+
+
+<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_fill.md">EvtDmaEnablerFill</a>
+
+
+
+<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_flush.md">EvtDmaEnablerFlush</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+
+
 
 <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_profile.md">WDF_DMA_PROFILE</a>
 
-<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_enable.md">EvtDmaEnablerEnable</a>
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
+
+
 
  
 

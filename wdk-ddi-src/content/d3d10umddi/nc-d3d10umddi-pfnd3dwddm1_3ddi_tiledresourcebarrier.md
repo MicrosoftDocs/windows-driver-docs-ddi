@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	TiledResourceBarrier
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback
@@ -84,7 +84,10 @@ A handle to the display device (graphics context).
 A handle to the tiled resource.
 
 
-### -param *hTiledResourceAccessBeforeBarrier
+### -param *hTiledResourceAccessBeforeBarrier [in, optional]
+
+A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must complete before the access operations on the object that <i>hTiledResourceAccessAfterBarrier</i> specifies.
+
 
 
 
@@ -93,26 +96,13 @@ A handle to the tiled resource.
 The <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a> handle type of the resources pointed to by the <i>hTiledResourceAccessBeforeBarrier</i> and <i>hTiledResourceAccessAfterBarrier</i> parameters.
 
 
-### -param *hTiledResourceAccessAfterBarrier
-
-
-
-
-
-
-#### - hTiledResourceAccessAfterBarrier [in, optional]
+### -param *hTiledResourceAccessAfterBarrier [in, optional]
 
 A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must begin after the access operations on the object that <i>hTiledResourceAccessBeforeBarrier</i> specifies.
 
 
-#### - hTiledResourceAccessBeforeBarrier [in, optional]
-
-A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must complete before the access operations on the object that <i>hTiledResourceAccessAfterBarrier</i> specifies.
-
-
-
-
 ## -returns
+
 
 
 None
@@ -123,7 +113,9 @@ The Direct3D runtime performs minimal validation of parameters.
 
 
 
+
 ## -remarks
+
 
 
 Apps can use tiled resources to reuse tiles in different resources. But a device and driver might not be able to determine whether some memory in a tile pool that was just rendered to is now being used for reading.
@@ -138,11 +130,16 @@ If no calls are made to <i>TiledResourceBarrier</i>,
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
+
+
 
  
 

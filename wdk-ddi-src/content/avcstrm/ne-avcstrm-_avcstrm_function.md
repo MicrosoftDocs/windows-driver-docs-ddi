@@ -1,6 +1,6 @@
 ---
 UID: NE:avcstrm._AVCSTRM_FUNCTION
-title: _AVCSTRM_FUNCTION
+title: "_AVCSTRM_FUNCTION"
 author: windows-driver-content
 description: The AVCSTRM_FUNCTION enumeration defines the functionality exposed by the avcstrm.sys driver.
 old-location: stream\avcstrm_function.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0dacc4b0-003f-4c73-8705-1c1e86ce357c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, avcstrm/AVCSTRM_CLOSE, AVCSTRM_SET_STATE, avcstrm/AVCSTRM_SET_STATE, avcstrm/AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_OPEN, AVCSTRM_GET_STATE, avcstrm/AVCSTRM_READ, AVCSTRM_ABORT_STREAMING, avcstrm/AVCSTRM_ABORT_STREAMING, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], AVCSTRM_CLOSE, AVCSTRM_GET_PROPERTY, AVCSTRM_SET_PROPERTY, avcstrm/AVCSTRM_SET_PROPERTY, AVCSTRM_FUNCTION, _AVCSTRM_FUNCTION, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_WRITE, stream.avcstrm_function, AVCSTRM_READ, avcstrm/AVCSTRM_FUNCTION, AVCSTRM_OPEN, AVCSTRM_WRITE
+ms.keywords: avcstrm/AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_ABORT_STREAMING, AVCSTRM_SET_STATE, avcstrm/AVCSTRM_CLOSE, avcstrm/AVCSTRM_FUNCTION, avcstrm/AVCSTRM_WRITE, AVCSTRM_GET_STATE, avcstrm/AVCSTRM_SET_STATE, AVCSTRM_ABORT_STREAMING, AVCSTRM_CLOSE, avcstrm/AVCSTRM_OPEN, AVCSTRM_GET_PROPERTY, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], AVCSTRM_SET_PROPERTY, stream.avcstrm_function, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_SET_PROPERTY, AVCSTRM_FUNCTION, avcstrm/AVCSTRM_READ, AVCSTRM_OPEN, AVCSTRM_WRITE, avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, AVCSTRM_READ, _AVCSTRM_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avcstrm.h
-apiname: 
+apiname:
 -	AVCSTRM_FUNCTION
 product: Windows
 targetos: Windows
@@ -122,23 +122,41 @@ Set stream property. This function is not implemented.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
+
+
 
  
 

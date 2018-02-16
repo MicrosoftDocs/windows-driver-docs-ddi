@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntdd8042.h
-apiname: 
+apiname:
 -	KeyboardInitializationRoutine
 product: Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
 ---
 
 # PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback
@@ -102,11 +102,14 @@ Specifies whether to turn translation on or off. If <i>TranslationOn</i> is <b>T
 ## -returns
 
 
+
 A PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback returns an appropriate NTSTATUS code.
 
 
 
+
 ## -remarks
+
 
 
 An upper-level keyboard filter driver can provide a PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback.
@@ -115,11 +118,16 @@ If an upper-level keyboard filter driver supplies an initialization callback, I8
 
 
 
+
 ## -see-also
 
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a>
 
+
+
 <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a>
+
+
 
  
 

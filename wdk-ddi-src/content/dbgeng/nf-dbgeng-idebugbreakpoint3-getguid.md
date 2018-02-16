@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0D279F79-FFA8-4661-A9E9-EFA62A97EEC7
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, IDebugBreakpoint3, IDebugBreakpoint3::GetGuid, GetGuid, GetGuid method [Windows Debugging], debugger.idebugbreakpoint3_getguid, dbgeng/IDebugBreakpoint3::GetGuid, IDebugBreakpoint3 interface [Windows Debugging], GetGuid method
+ms.keywords: GetGuid method [Windows Debugging], GetGuid method [Windows Debugging], IDebugBreakpoint3 interface, IDebugBreakpoint3::GetGuid, GetGuid, IDebugBreakpoint3 interface [Windows Debugging], GetGuid method, debugger.idebugbreakpoint3_getguid, dbgeng/IDebugBreakpoint3::GetGuid, IDebugBreakpoint3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint3.GetGuid
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint3::GetGuid method
@@ -75,13 +75,17 @@ A unique ID returned for the breakpoint.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint3.md">IDebugBreakpoint3</a>
+
+
 
  
 

@@ -7,7 +7,7 @@ old-location: audio\iporttopology.htm
 old-project: audio
 ms.assetid: 820b00e8-a917-4bef-ac36-e8103f59d998
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iporttopology, IPortTopology interface [Audio Devices], IPortTopology interface [Audio Devices], described, IPortTopology, portcls/IPortTopology, audmp-routines_88974b5c-4520-41ed-b0c7-75cceff72e0f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortTopology
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortTopology interface

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_GET_RESPONSE
-title: _FCP_GET_RESPONSE
+title: "_FCP_GET_RESPONSE"
 author: windows-driver-content
 description: The structure is used in a request yjsy retrieves the next FCP response from the queue of requests maintained by the IEC-61883 protocol driver.
 old-location: ieee\fcp_get_response.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1CE962A4-7F99-4F81-8B85-265A4225B88A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: FCP_GET_RESPONSE, PFCP_GET_RESPONSE structure pointer [Buses], FCP_GET_RESPONSE structure [Buses], 61883/FCP_GET_RESPONSE, FCP_RESPONSE, PFCP_GET_RESPONSE, *PFCP_GET_RESPONSE, *PFCP_RESPONSE, IEEE.fcp_get_response, _FCP_GET_RESPONSE, 61883/PFCP_GET_RESPONSE
+ms.keywords: PFCP_GET_RESPONSE structure pointer [Buses], *PFCP_GET_RESPONSE, IEEE.fcp_get_response, FCP_GET_RESPONSE, 61883/FCP_GET_RESPONSE, FCP_RESPONSE, FCP_GET_RESPONSE structure [Buses], *PFCP_RESPONSE, 61883/PFCP_GET_RESPONSE, _FCP_GET_RESPONSE, PFCP_GET_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	FCP_GET_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: *PFCP_GET_RESPONSE, FCP_GET_RESPONSE, *PFCP_RESPONSE, FCP_RESPONSE
+req.typenames: "*PFCP_GET_RESPONSE, *PFCP_RESPONSE, FCP_RESPONSE, FCP_GET_RESPONSE"
 ---
 
 # _FCP_GET_RESPONSE structure
@@ -91,6 +91,7 @@ The FCP frame written to the caller-allocated FCP_FRAME structure by the protoco
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If the request is queued, the protocol driver sets a status of STATUS_PENDING. If the request has been previously canceled, the driver sets a status of STATUS_CANCELLED.
@@ -99,9 +100,12 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

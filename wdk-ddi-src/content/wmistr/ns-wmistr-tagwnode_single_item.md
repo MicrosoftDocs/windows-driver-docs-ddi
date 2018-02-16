@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 65b64678-09dc-4bc2-8362-d15eba5a828a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.wnode_single_item, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], wmistr/PWNODE_SINGLE_ITEM, wmistr/WNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], *PWNODE_SINGLE_ITEM, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, PWNODE_SINGLE_ITEM, tagWNODE_SINGLE_ITEM
+ms.keywords: WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, PWNODE_SINGLE_ITEM, kernel.wnode_single_item, tagWNODE_SINGLE_ITEM, *PWNODE_SINGLE_ITEM, wmistr/PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], wmistr/WNODE_SINGLE_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wmistr.h
-apiname: 
+apiname:
 -	WNODE_SINGLE_ITEM
 product: Windows
 targetos: Windows
@@ -117,17 +117,23 @@ Contains additional data, including the dynamic instance name if any, padding so
 ## -remarks
 
 
+
 WMI passes a <b>WNODE_SINGLE_ITEM</b> with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a> request to set the value of a data item in an instance of a data block.
 
 A driver builds a <b>WNODE_SINGLE_ITEM</b> to generate an event that consists of a single data item.
 
 
 
+
 ## -see-also
+
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
 
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
 
  
 

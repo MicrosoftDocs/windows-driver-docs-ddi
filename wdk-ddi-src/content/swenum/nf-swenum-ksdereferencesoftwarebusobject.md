@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 11203a5d-1484-4a49-aedc-e11baf22cac9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDereferenceSoftwareBusObject function [Streaming Media Devices], swenum/KsDereferenceSoftwareBusObject, stream.ksdereferencesoftwarebusobject, KsDereferenceSoftwareBusObject, ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml
+ms.keywords: swenum/KsDereferenceSoftwareBusObject, stream.ksdereferencesoftwarebusobject, ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml, KsDereferenceSoftwareBusObject function [Streaming Media Devices], KsDereferenceSoftwareBusObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsDereferenceSoftwareBusObject
 product: Windows
 targetos: Windows
@@ -79,11 +79,14 @@ Pointer to the device header (extension) of the demand-load bus enumerator.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A minidriver can access this function through the <b>DereferenceDeviceObject</b> member of the BUS_INTERFACE_SWENUM structure.
@@ -92,13 +95,20 @@ When the demand-load bus enumerator object's PDO reference count is 0, it become
 
 
 
+
 ## -see-also
+
+<a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
+
+
 
 <a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
 
+
+
 <a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
 
-<a href="..\swenum\nf-swenum-ksquerysoftwarebusinterface.md">KsQuerySoftwareBusInterface</a>
+
 
  
 

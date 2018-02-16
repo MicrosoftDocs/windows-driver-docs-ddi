@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkDdiDispatchIoRequest
 product: Windows
 targetos: Windows
@@ -90,20 +90,26 @@ A pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUES
 ## -returns
 
 
+
 <i>DxgkDdiDispatchIoRequest</i> returns STATUS_SUCCESS if it succeeds; otherwise it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The <i>DxgkDdiDispatchIoRequest</i> function should be made pageable.
+
 
 
 
 ## -see-also
 
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
+
+
 
  
 

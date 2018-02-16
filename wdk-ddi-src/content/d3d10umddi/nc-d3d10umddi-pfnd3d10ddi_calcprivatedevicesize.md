@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	CalcPrivateDeviceSize
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CALCPRIVATEDEVICESIZE callback
@@ -74,7 +74,6 @@ SIZE_T APIENTRY CalcPrivateDeviceSize(
 ### -param D3D10DDI_HADAPTER
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ SIZE_T APIENTRY CalcPrivateDeviceSize(
 
 
 
-#### - pData [in]
-
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_calcprivatedevicesize.md">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 
 
 #### - hAdapter [in]
@@ -92,16 +88,25 @@ SIZE_T APIENTRY CalcPrivateDeviceSize(
  A handle that identifies the graphics adapter. 
 
 
+#### - pData [in]
+
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_calcprivatedevicesize.md">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
+
+
 ## -returns
+
 
 
 <b>CalcPrivateDeviceSize</b> returns the size of the memory region that the driver requires to store frequently-accessed data.
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_calcprivatedevicesize.md">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a>
+
+
 
  
 

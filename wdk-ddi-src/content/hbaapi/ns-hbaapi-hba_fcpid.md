@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fed2c733-5011-4dba-a8ec-3a0742574949
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_FcpId, storage.hba_fcpid, structs-Fibre_55770ec7-2c28-4db3-b2bb-20f50e232ba4.xml, hbaapi/HBA_FcpId, HBA_FCPID, HBA_FcpId structure [Storage Devices], *PHBA_FCPID
+ms.keywords: storage.hba_fcpid, structs-Fibre_55770ec7-2c28-4db3-b2bb-20f50e232ba4.xml, hbaapi/HBA_FcpId, HBA_FcpId, *PHBA_FCPID, HBA_FCPID, HBA_FcpId structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbaapi.h
-apiname: 
+apiname:
 -	HBA_FcpId
 product: Windows
 targetos: Windows

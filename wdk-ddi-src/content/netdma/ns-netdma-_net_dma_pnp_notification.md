@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_PNP_NOTIFICATION
-title: _NET_DMA_PNP_NOTIFICATION
+title: "_NET_DMA_PNP_NOTIFICATION"
 author: windows-driver-content
 description: The NET_DMA_PNP_NOTIFICATION structure specifies a power management notification in the NetDMA interface.
 old-location: netvista\net_dma_pnp_notification.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8a505077-dec6-47cc-8730-d68e19309d3b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.net_dma_pnp_notification, *PNET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION, netdma/NET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION, PNET_DMA_PNP_NOTIFICATION, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml
+ms.keywords: "_NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION, PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, netdma/NET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION, netvista.net_dma_pnp_notification, netdma/PNET_DMA_PNP_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NET_DMA_PNP_NOTIFICATION
 product: Windows
 targetos: Windows
@@ -89,8 +89,8 @@ The size, in bytes, of the notification structure. This size does not include th
 ### -field NotificationCode
 
 A value that identifies the DMA provider event. This value must be one of the values from the 
-     <mshelp:link keywords="netvista.net_dma_pnp_notification_code" tabindex="0"><b>
-     NET_DMA_PNP_NOTIFICATION_CODE</b></mshelp:link> enumeration.
+     <a href="..\netdma\ne-netdma-_net_dma_pnp_notification_code.md">
+     NET_DMA_PNP_NOTIFICATION_CODE</a> enumeration.
 
 
 ### -field Buffer
@@ -112,6 +112,7 @@ The length, in bytes, of the notification-specific data at the
 ## -remarks
 
 
+
 To send a power management notification to the NetDMA interface, NetDMA provider drivers call the 
     <a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a> function and
     provide a pointer to a NET_DMA_PNP_NOTIFICATION structure at the 
@@ -119,11 +120,16 @@ To send a power management notification to the NetDMA interface, NetDMA provider
 
 
 
+
 ## -see-also
+
+<a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a>
+
+
 
 <a href="..\netdma\ne-netdma-_net_dma_pnp_notification_code.md">NET_DMA_PNP_NOTIFICATION_CODE</a>
 
-<a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a>
+
 
  
 

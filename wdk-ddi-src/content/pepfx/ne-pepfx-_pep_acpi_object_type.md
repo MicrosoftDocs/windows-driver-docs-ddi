@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_ACPI_OBJECT_TYPE
-title: _PEP_ACPI_OBJECT_TYPE
+title: "_PEP_ACPI_OBJECT_TYPE"
 author: windows-driver-content
 description: The PEP_ACPI_OBJECT_TYPE enumeration indicates the type of ACPI object.
 old-location: kernel\pep_acpi_object_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 81875C20-8E0E-4BAC-B85F-3D275F8B4708
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PepAcpiObjectTypeMaximum, PepAcpiObjectTypeMethod, pepfx/PEP_ACPI_OBJECT_TYPE, kernel.pep_acpi_object_type, PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiObjectTypeMethod, _PEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMaximum, *PPEP_ACPI_OBJECT_TYPE
+ms.keywords: pepfx/PEP_ACPI_OBJECT_TYPE, PepAcpiObjectTypeMethod, pepfx/PepAcpiObjectTypeMethod, PepAcpiObjectTypeMaximum, kernel.pep_acpi_object_type, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepAcpiObjectTypeMaximum, _PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_OBJECT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE
+req.typenames: PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE
 ---
 
 # _PEP_ACPI_OBJECT_TYPE enumeration
@@ -76,7 +76,6 @@ The object is an ACPI control method.
 ### -field PepAcpiObjectTypeDevice
 
 
-
 ### -field PepAcpiObjectTypeMaximum
 
 Reserved for use by the operating system.
@@ -85,13 +84,17 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is an <b>PEP_ACPI_OBJECT_TYPE</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
+
+
 
  
 

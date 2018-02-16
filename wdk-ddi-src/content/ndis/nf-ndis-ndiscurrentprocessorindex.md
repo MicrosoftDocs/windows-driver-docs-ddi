@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 68ac845e-9b2f-4e35-8e61-83c799b3cd59
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCurrentProcessorIndex function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_c19efe7e-be4a-4093-bd50-80d3c0588dc6.xml, NdisCurrentProcessorIndex, ndis/NdisCurrentProcessorIndex, netvista.ndiscurrentprocessorindex
+ms.keywords: ndis_processor_group_ref_c19efe7e-be4a-4093-bd50-80d3c0588dc6.xml, netvista.ndiscurrentprocessorindex, NdisCurrentProcessorIndex, NdisCurrentProcessorIndex function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentProcessorIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: >= DISPATCH_LEVEL
-topictype: 
+req.irql: ">= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCurrentProcessorIndex
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCurrentProcessorIndex function
@@ -69,7 +69,9 @@ ULONG NdisCurrentProcessorIndex(void);
 
 
 
+
 ## -returns
+
 
 
 <b>NdisCurrentProcessorIndex</b> returns a ULONG value that represents the processor that the caller is
@@ -78,7 +80,9 @@ ULONG NdisCurrentProcessorIndex(void);
 
 
 
+
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -87,11 +91,16 @@ NDIS drivers call the
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564915">NDIS_CURRENT_PROCESSOR_NUMBER</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
+
+
 
  
 

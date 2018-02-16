@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_WRITE_PINS_PARAMETERS
-title: _GPIO_WRITE_PINS_PARAMETERS
+title: "_GPIO_WRITE_PINS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_WRITE_PINS_PARAMETERS structure describes a write operation on a group of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_write_pins_parameters.htm
@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 5607AFBA-2C8C-4637-81E8-7940CF9E989A
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO.gpio_write_pins_parameters, _GPIO_WRITE_PINS_PARAMETERS, *PGPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS structure pointer [Parallel Ports], GPIO_WRITE_PINS_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_PARAMETERS, gpioclx/GPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS structure [Parallel Ports]
+ms.keywords: GPIO.gpio_write_pins_parameters, GPIO_WRITE_PINS_PARAMETERS structure [Parallel Ports], gpioclx/PGPIO_WRITE_PINS_PARAMETERS, _GPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS structure pointer [Parallel Ports], *PGPIO_WRITE_PINS_PARAMETERS, gpioclx/GPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Gpioclx.h
-apiname: 
+apiname:
 -	GPIO_WRITE_PINS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PGPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS
+req.typenames: "*PGPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS"
 ---
 
 # _GPIO_WRITE_PINS_PARAMETERS structure
@@ -105,17 +105,25 @@ Reserved for system use.
 ## -remarks
 
 
+
 The <i>WriteParameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a> event callback function is a pointer to a caller-allocated <b>GPIO_WRITE_PINS_PARAMETERS</b> structure. All of the pins that this function writes to are part of the same bank of GPIO pins.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
+
+
 
  
 

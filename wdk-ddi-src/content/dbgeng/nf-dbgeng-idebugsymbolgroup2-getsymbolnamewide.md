@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b5de2450-8003-4866-86e8-1fd251e1552c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSymbolNameWide method [Windows Debugging], GetSymbolNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolNameWide, debugger.getsymbolnamewide, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolNameWide method, IDebugSymbolGroup2
+ms.keywords: GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolNameWide method, GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, debugger.getsymbolnamewide, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, IDebugSymbolGroup2, IDebugSymbolGroup2::GetSymbolNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbolGroup2.GetSymbolNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbolGroup2::GetSymbolNameWide method
@@ -93,6 +93,7 @@ The size of the symbol name.  If <i>NameSize</i> is <b>NULL</b>, this informatio
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,16 +121,20 @@ The method was successful. However, the name of the symbol did not fit in the bu
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbol groups, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
+
 
 
 
@@ -137,7 +142,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+
+
 
  
 

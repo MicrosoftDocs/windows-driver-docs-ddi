@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5f1651f9-4952-4e87-90fc-3f79948b8457
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveDeviceInstanceId, IWDFDeviceInitialize::RetrieveDeviceInstanceId, umdf.iwdfdeviceinitialize_retrievedeviceinstanceid, RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface, IWDFDeviceInitialize, UMDFDeviceObjectRef_b383227b-ba03-4c85-9517-bb87eac631ef.xml, wudfddi/IWDFDeviceInitialize::RetrieveDeviceInstanceId, wdf.iwdfdeviceinitialize_retrievedeviceinstanceid, IWDFDeviceInitialize interface, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method
+ms.keywords: RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId, IWDFDeviceInitialize::RetrieveDeviceInstanceId, IWDFDeviceInitialize, umdf.iwdfdeviceinitialize_retrievedeviceinstanceid, wudfddi/IWDFDeviceInitialize::RetrieveDeviceInstanceId, wdf.iwdfdeviceinitialize_retrievedeviceinstanceid, UMDFDeviceObjectRef_b383227b-ba03-4c85-9517-bb87eac631ef.xml, RetrieveDeviceInstanceId method, IWDFDeviceInitialize interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDeviceInitialize.RetrieveDeviceInstanceId
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,7 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 
 
 
+
 <a href="https://msdn.microsoft.com/224277b4-447f-4981-aabf-90a10322c0df">RetrieveDeviceInstanceId</a> returns S_OK for the following scenarios: 
 
 
@@ -112,9 +113,12 @@ The buffer at <i>Buffer</i> was <b>NULL</b>, the driver preset the variable at <
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
 
  
 

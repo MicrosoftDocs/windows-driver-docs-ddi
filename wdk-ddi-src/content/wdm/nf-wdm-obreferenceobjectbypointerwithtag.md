@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eaa730a8-8ee3-43a7-a18e-094fbac4ba60
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], wdm/ObReferenceObjectByPointerWithTag, kernel.obreferenceobjectbypointerwithtag, ObReferenceObjectByPointerWithTag, k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml
+ms.keywords: kernel.obreferenceobjectbypointerwithtag, wdm/ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObReferenceObjectByPointerWithTag
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ A pointer to an opaque structure that specifies the object type. This parameter 
 ### -param AccessMode [in]
 
 Indicates the access mode to use for the access check. Set this parameter to one of the following <b>MODE</b> enumeration values:
+
 <ul>
 <li>
 <b>UserMode</b>
@@ -99,7 +100,8 @@ Indicates the access mode to use for the access check. Set this parameter to one
 <b>KernelMode</b>
 
 </li>
-</ul>Lower-level drivers should specify <b>KernelMode</b>.
+</ul>
+Lower-level drivers should specify <b>KernelMode</b>.
 
 
 ### -param Tag [in]
@@ -110,7 +112,9 @@ Specifies a four-byte, custom tag value. For more information, see the following
 ## -returns
 
 
+
 <b>ObReferenceObjectByPointerWithTag</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,11 +131,14 @@ The <i>ObjectType</i> parameter specifies the wrong object type for the object t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine does access validation of the specified object. If access can be granted, the routine increments the object reference count. This increment prevents the object from being deleted while the caller uses the object. When the object is no longer needed, the caller should decrement the reference count by calling the <a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a> or <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a> routine.
@@ -144,19 +151,32 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
 <a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a>
+
+
 
  
 

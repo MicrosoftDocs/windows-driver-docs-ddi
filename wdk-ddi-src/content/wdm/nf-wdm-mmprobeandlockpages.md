@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, wdm/MmProbeAndLockPages, kernel.mmprobeandlockpages, MmProbeAndLockPages
+ms.keywords: kernel.mmprobeandlockpages, wdm/MmProbeAndLockPages, k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, MmProbeAndLockPages, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmProbeAndLockPages
 product: Windows
 targetos: Windows
@@ -88,16 +88,20 @@ The type of operation for which the caller wants the access rights probed and th
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The highest-level driver in a chain of layered drivers that use direct I/O calls this routine. Drivers that use buffered I/O never call <b>MmProbeAndLockPages</b>.
 
 <b>MmProbeAndLockPages</b> performs the following operations:
+
 <ol>
 <li>
 If the specified memory range is paged to a backing store (disk, network, and so on), <b>MmProbeAndLockPages</b> makes it resident.
@@ -115,7 +119,8 @@ If the memory range permits the specified operation, the routine locks the pages
 Finally, the routine updates the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">page frame number</a> (PFN) array in the MDL to describe the locked physical pages.
 
 </li>
-</ol>A successful call to <b>MmProbeAndLockPages</b> locks the pages in an MDL and sets the MDL structure to the locked state. Every such call must be matched by a corresponding call to <b>MmUnlockPages</b> that unlocks the pages and sets the MDL to the unlocked state. After an <b>MmProbeAndLockPages</b> call sets an MDL to the locked state, a second call to MmProbeAndLockPages to lock the same MDL is not allowed until <b>MmUnlockPages</b> is first called to unlock the MDL.
+</ol>
+A successful call to <b>MmProbeAndLockPages</b> locks the pages in an MDL and sets the MDL structure to the locked state. Every such call must be matched by a corresponding call to <b>MmUnlockPages</b> that unlocks the pages and sets the MDL to the unlocked state. After an <b>MmProbeAndLockPages</b> call sets an MDL to the locked state, a second call to MmProbeAndLockPages to lock the same MDL is not allowed until <b>MmUnlockPages</b> is first called to unlock the MDL.
 
 If two or more MDLs describe the same physical page, the page can be locked multiple times—once for each MDL. The page is unlocked when the last MDL is set to the unlocked state.
 
@@ -129,13 +134,20 @@ This routine does not provide any guarantees about the virtual address that desc
 
 
 
-## -see-also
 
-<a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
+
+
 <a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
+
+
 
  
 

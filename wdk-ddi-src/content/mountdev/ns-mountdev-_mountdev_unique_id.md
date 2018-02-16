@@ -1,6 +1,6 @@
 ---
 UID: NS:mountdev._MOUNTDEV_UNIQUE_ID
-title: _MOUNTDEV_UNIQUE_ID
+title: "_MOUNTDEV_UNIQUE_ID"
 author: windows-driver-content
 description: The MOUNTDEV_UNIQUE_ID structure contains a unique volume ID that a mount manager client provides to the mount manager in response to an IOCTL_MOUNTDEV_QUERY_UNIQUE_ID request.
 old-location: storage\mountdev_unique_id.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cc6cbda8-4056-41e7-98f9-927a99e66081
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mountdev/PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID structure [Storage Devices], _MOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID structure pointer [Storage Devices], MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID, mountdev/MOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID, structs-mntmgr_424fff73-7b72-4068-b25b-00225f69b159.xml, storage.mountdev_unique_id
+ms.keywords: PMOUNTDEV_UNIQUE_ID structure pointer [Storage Devices], storage.mountdev_unique_id, *PMOUNTDEV_UNIQUE_ID, _MOUNTDEV_UNIQUE_ID, structs-mntmgr_424fff73-7b72-4068-b25b-00225f69b159.xml, MOUNTDEV_UNIQUE_ID, mountdev/MOUNTDEV_UNIQUE_ID, mountdev/PMOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mountdev.h
-apiname: 
+apiname:
 -	MOUNTDEV_UNIQUE_ID
 product: Windows
 targetos: Windows
-req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
+req.typenames: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID"
 ---
 
 # _MOUNTDEV_UNIQUE_ID structure
@@ -81,13 +81,17 @@ Contains the unique volume ID as an array of bytes.
 ## -remarks
 
 
+
 For a discussion of unique volume IDs and how the mount manager uses them, see <a href="https://msdn.microsoft.com/fb37f862-70d6-4514-b481-16f664346422">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560443">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
+
+
 
  
 

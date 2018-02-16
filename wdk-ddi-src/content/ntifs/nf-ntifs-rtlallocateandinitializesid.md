@@ -7,8 +7,8 @@ old-location: ifsk\rtlallocateandinitializesid.htm
 old-project: ifsk
 ms.assetid: c58f4448-06f5-4eda-a254-e453defd1d6c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RtlAllocateAndInitializeSid function [Installable File System Drivers], rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml, ntifs/RtlAllocateAndInitializeSid, ifsk.rtlallocateandinitializesid, RtlAllocateAndInitializeSid
+ms.date: 2/7/2018
+ms.keywords: rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml, RtlAllocateAndInitializeSid function [Installable File System Drivers], ifsk.rtlallocateandinitializesid, RtlAllocateAndInitializeSid, ntifs/RtlAllocateAndInitializeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	RtlAllocateAndInitializeSid
 product: Windows
 targetos: Windows

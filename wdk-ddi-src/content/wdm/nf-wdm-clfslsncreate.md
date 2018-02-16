@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2b183911-0c4d-4b67-834d-e876d22c99af
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.clfslsncreate, Clfs_5eea5630-3db0-45bb-8e16-c9e69081f972.xml, wdm/ClfsLsnCreate, ClfsLsnCreate, ClfsLsnCreate routine [Kernel-Mode Driver Architecture]
+ms.keywords: ClfsLsnCreate routine [Kernel-Mode Driver Architecture], kernel.clfslsncreate, Clfs_5eea5630-3db0-45bb-8e16-c9e69081f972.xml, wdm/ClfsLsnCreate, ClfsLsnCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsLsnCreate
 product: Windows
 targetos: Windows
@@ -89,11 +89,14 @@ An integer in the range 0 - 511 that supplies the record sequence number.
 ## -returns
 
 
+
 <b>ClfsLsnCreate</b> returns a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that represents the container identifier, block offset, and record sequence number supplied by the caller.
 
 
 
+
 ## -remarks
+
 
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
@@ -102,13 +105,20 @@ systems.
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
+
+
 
 <a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
 
+
+
 <a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
 
-<a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
+
 
  
 

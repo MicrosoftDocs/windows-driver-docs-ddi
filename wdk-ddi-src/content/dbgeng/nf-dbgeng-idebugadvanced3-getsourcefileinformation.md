@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c854b3a7-963a-4386-b6fa-9c22b9d496a1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced3, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], dbgeng/IDebugAdvanced3::GetSourceFileInformation, debugger.getsourcefileinformation, IDebugAdvanced2::GetSourceFileInformation
+ms.keywords: IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, GetSourceFileInformation, debugger.getsourcefileinformation, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced3, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, dbgeng/IDebugAdvanced3::GetSourceFileInformation, dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced2, GetSourceFileInformation method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugAdvanced2.GetSourceFileInformation
 -	IDebugAdvanced3.GetSourceFileInformation
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugAdvanced3::GetSourceFileInformation method
@@ -79,6 +79,18 @@ HRESULT GetSourceFileInformation(
 Specifies the piece of information to return.  The <i>Which</i> parameter can take one of the values in the following table.
 
 
+
+
+
+#### DEBUG_SRCFILE_SYMBOL_TOKEN
+
+Returns a token representing the specified source file on a source server.  This token can be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a> to retrieve information about the file. The token is returned to the <i>Buffer</i> buffer as an array of bytes.  The size of this token is a reflection of the size of the SrcSrv token. 
+
+
+
+#### DEBUG_SRCFILE_SYMBOL_TOKEN_SOURCE_COMMAND_WIDE
+
+Queries a source server for the command to extract the source file from source control.  This includes the name of the executable file and its command-line parameters. The command is returned to the <i>Buffer</i> buffer as a Unicode string. 
 
 
 ### -param SourceFile [in]
@@ -124,7 +136,9 @@ Queries a source server for the command to extract the source file from source c
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,14 +166,18 @@ The method was successful. However, the information would not fit in the <i>Buff
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.
+
 
 
 
@@ -167,9 +185,15 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+
+
 
  
 

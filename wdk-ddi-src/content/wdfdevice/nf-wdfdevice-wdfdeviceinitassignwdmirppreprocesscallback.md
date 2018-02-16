@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c17a5e2-dcf2-493a-9851-11d47adbfc82
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback, PFN_WDFDEVICEINITASSIGNWDMIRPPREPROCESSCALLBACK, WdfDeviceInitAssignWdmIrpPreprocessCallback method, kmdf.wdfdeviceinitassignwdmirppreprocesscallback, WdfDeviceInitAssignWdmIrpPreprocessCallback, wdf.wdfdeviceinitassignwdmirppreprocesscallback
+ms.keywords: PFN_WDFDEVICEINITASSIGNWDMIRPPREPROCESSCALLBACK, WdfDeviceInitAssignWdmIrpPreprocessCallback method, wdf.wdfdeviceinitassignwdmirppreprocesscallback, WdfDeviceInitAssignWdmIrpPreprocessCallback, kmdf.wdfdeviceinitassignwdmirppreprocesscallback, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback, DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInitAssignWdmIrpPreprocessCallback
 product: Windows
 targetos: Windows
@@ -103,7 +103,9 @@ The number of minor function codes that are contained in the <i>MinorFunctions</
 ## -returns
 
 
+
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,16 +144,20 @@ There is insufficient memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+
 
 
 
 ## -remarks
 
 
+
 Drivers can call the <b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b> method for either of two reasons:
+
 <ul>
 <li>
 To handle an IRP major or minor function code that the framework does not support. 
@@ -165,7 +171,8 @@ To preprocess an IRP before the framework handles it.
 In rare cases, it might be necessary for a driver to process an IRP before the framework processes it. In such cases, the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a> callback function can process the IRP and then call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp.md">WdfDeviceWdmDispatchPreprocessedIrp</a> to return the IRP to the framework. Depending on the IRP's function code, the framework might process the IRP itself or it might deliver the IRP to the driver again in a framework request object.
 
 </li>
-</ul>The framework calls the <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a> callback function whenever it receives an I/O request packet (IRP) that contains an IRP major function code that matches the <i>MajorFunction</i> parameter and a minor function code that matches one of the minor function codes that are in the <i>MinorFunctions</i> array. 
+</ul>
+The framework calls the <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a> callback function whenever it receives an I/O request packet (IRP) that contains an IRP major function code that matches the <i>MajorFunction</i> parameter and a minor function code that matches one of the minor function codes that are in the <i>MinorFunctions</i> array. 
 
 If the <i>MinorFunctions</i> array pointer is <b>NULL</b>, the framework calls the callback function for all minor function codes that are associated with the specified major function code. If the <i>MinorFunctions</i> array pointer is not <b>NULL</b>, the framework makes a copy of the array so that the driver does not have to permanently keep its array.
 
@@ -178,10 +185,135 @@ If your driver calls <b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b> more tha
 For more information about the <b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b> method, see <a href="https://msdn.microsoft.com/43e1df0c-c0d1-4d41-87de-9f8f5831fb19">Handling WDM IRPs Outside of the Framework</a>.
 
 
+#### Examples
+
+The following code example defines an <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess.md">EvtDeviceWdmIrpPreprocess</a> event callback function, and then registers the callback function to handle <a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a> IRPs.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
+SerialQueryInformationFile(
+    IN WDFDEVICE Device,
+    IN PIRP Irp
+    )
+
+/*++
+
+Routine Description:
+
+    This routine is used to query the end of file information on
+    the opened serial port.  Any other file information request
+    is retured with an invalid parameter.
+
+    This routine always returns an end of file of 0.
+
+Arguments:
+
+    DeviceObject - Pointer to the device object for this device
+
+    Irp - Pointer to the IRP for the current request
+
+Return Value:
+
+    The function value is the final status of the call
+
+--*/
+
+{
+    NTSTATUS Status;
+    PIO_STACK_LOCATION IrpSp;
+
+    SerialDbgPrintEx(TRACE_LEVEL_INFORMATION, DBG_PNP, "&gt;SerialQueryInformationFile(%p, %p)\n", Device, Irp);
+
+    PAGED_CODE();
+
+
+    IrpSp = IoGetCurrentIrpStackLocation(Irp);
+    Irp-&gt;IoStatus.Information = 0L;
+    Status = STATUS_SUCCESS;
+
+    if (IrpSp-&gt;Parameters.QueryFile.FileInformationClass ==
+        FileStandardInformation) {
+
+        if (IrpSp-&gt;Parameters.DeviceIoControl.OutputBufferLength &lt;
+                sizeof(FILE_STANDARD_INFORMATION))
+        {
+                Status = STATUS_BUFFER_TOO_SMALL;
+        }
+        else
+        {
+            PFILE_STANDARD_INFORMATION Buf = Irp-&gt;AssociatedIrp.SystemBuffer;
+
+            Buf-&gt;AllocationSize.QuadPart = 0;
+            Buf-&gt;EndOfFile = Buf-&gt;AllocationSize;
+            Buf-&gt;NumberOfLinks = 0;
+            Buf-&gt;DeletePending = FALSE;
+            Buf-&gt;Directory = FALSE;
+            Irp-&gt;IoStatus.Information = sizeof(FILE_STANDARD_INFORMATION);
+        }
+
+    } else if (IrpSp-&gt;Parameters.QueryFile.FileInformationClass ==
+               FilePositionInformation) {
+
+        if (IrpSp-&gt;Parameters.DeviceIoControl.OutputBufferLength &lt;
+                sizeof(FILE_POSITION_INFORMATION))
+        {
+                Status = STATUS_BUFFER_TOO_SMALL;
+        }
+        else
+        {
+
+            ((PFILE_POSITION_INFORMATION)Irp-&gt;AssociatedIrp.SystemBuffer)-&gt;
+                CurrentByteOffset.QuadPart = 0;
+            Irp-&gt;IoStatus.Information = sizeof(FILE_POSITION_INFORMATION);
+        }
+
+    } else {
+        Status = STATUS_INVALID_PARAMETER;
+    }
+
+    Irp-&gt;IoStatus.Status = Status;
+
+    IoCompleteRequest(Irp, IO_NO_INCREMENT);
+
+    return Status;
+
+}
+
+NTSTATUS
+SerialEvtDeviceAdd(
+    IN WDFDRIVER Driver,
+    IN PWDFDEVICE_INIT DeviceInit
+    )
+{
+...
+    status = WdfDeviceInitAssignWdmIrpPreprocessCallback(
+                                                 DeviceInit,
+                                                 SerialQueryInformationFile,
+                                                 IRP_MJ_QUERY_INFORMATION,
+                                                 NULL, // Pointer to the minor function table
+                                                 0 // Number of entries in the table
+                                                 ); 
+    if (!NT_SUCCESS(status)) {
+        return status;
+    }
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp.md">WdfDeviceWdmDispatchPreprocessedIrp</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDICB_DEALLOCATE_0022
 product: Windows
 targetos: Windows
@@ -78,7 +78,6 @@ The handle of a resource.
 ### -field NumAllocations
 
 
-
 ### -field HandleList
 
 A pointer to a list of kernel handles.
@@ -92,6 +91,8 @@ Flags to use for deallocation, as specified in the <a href="..\d3d12umddi\ne-d3d
 ## -see-also
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_deallocate_flags_0022.md">D3D12DDI_DEALLOCATE_FLAGS_0022</a>
+
+
 
  
 

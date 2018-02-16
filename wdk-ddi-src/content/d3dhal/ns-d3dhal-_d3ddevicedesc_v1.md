@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V1
-title: _D3DDeviceDesc_V1
+title: "_D3DDeviceDesc_V1"
 author: windows-driver-content
 description: Obsolete in DirectX 8.0 and later versions; see Remarks. The D3DDEVICEDESC_V1 structure describes the 3D capabilities of a device.
 old-location: display\d3ddevicedesc_v1.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 363e4044-e835-43e6-96ce-0fdccdd7fb52
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDEVICEDESC_V1 structure [Display Devices], d3dhal/LPD3DDEVICEDESC_V1, D3DDEVICEDESC_V1, *LPD3DDEVICEDESC_V1, display.d3ddevicedesc_v1, d3dhal/D3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1 structure pointer [Display Devices], d3dstrct_111d5153-fb7f-4c2b-acc5-65818723e263.xml, _D3DDeviceDesc_V1
+ms.keywords: D3DDEVICEDESC_V1 structure [Display Devices], d3dhal/LPD3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1 structure pointer [Display Devices], d3dhal/D3DDEVICEDESC_V1, *LPD3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1, _D3DDeviceDesc_V1, D3DDEVICEDESC_V1, display.d3ddevicedesc_v1, d3dstrct_111d5153-fb7f-4c2b-acc5-65818723e263.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DDEVICEDESC_V1
 product: Windows
 targetos: Windows
@@ -91,6 +91,7 @@ Specifies the size in bytes of this D3DDEVICEDESC_V1 structure.
 ### -field dwFlags
 
 Identifies the members of this structure that contain valid data. This member can be a bitwise OR of any of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -206,7 +207,8 @@ The <b>dpcTriCaps</b> member contains valid data.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dcmColorModel
@@ -217,6 +219,7 @@ Specifies the device's color model.
 ### -field dwDevCaps
 
 Identifies the capabilities of the device. This member can be a bitwise OR of any of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -417,7 +420,8 @@ The device can retrieve textures from device memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dtcTransformCaps
@@ -464,23 +468,23 @@ Must be set to zero.
 
 
 
-###### - dwMaxVertexCount.Set this member to zero because it is no longer relevant.
+#### DirectX 7 and later versions
 
 
 
-##### - dwMaxVertexCount.DirectX 7 and later versions
+##### 
 
 
 
-##### - dwMaxVertexCount.DirectX 6
+#### DirectX 6
 
 
 
-####### - dwMaxVertexCount.Specifies the maximum number of vertices that the device can handle in a single call to D3dDrawPrimitives2. The runtime cannot handle more than 0xFFFE vertices; therefore, never set this member to greater than 0xFFFE.
-
+###### 
 
 
 ## -remarks
+
 
 
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for legacy runtime (DirectX 7.0 and earlier) compatibility. See <a href="https://msdn.microsoft.com/a03a7cbc-95be-4251-8e3a-bef4a093f03d">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
@@ -491,21 +495,36 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
 
-<a href="..\d3dcaps\ns-d3dcaps-_d3dprimcaps.md">D3DPRIMCAPS</a>
 
-<a href="..\d3dcaps\ns-d3dcaps-_d3dlightingcaps.md">D3DLIGHTINGCAPS</a>
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
+
+
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_globaldriverdata.md">D3DHAL_GLOBALDRIVERDATA</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="..\d3dcaps\ns-d3dcaps-_d3dlightingcaps.md">D3DLIGHTINGCAPS</a>
+
+
+
+<a href="..\d3dcaps\ns-d3dcaps-_d3dprimcaps.md">D3DPRIMCAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+
+
 
  
 

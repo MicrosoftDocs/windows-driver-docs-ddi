@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_ZONES_ATTRIBUTES
-title: _STORAGE_ZONES_ATTRIBUTES
+title: "_STORAGE_ZONES_ATTRIBUTES"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\storage_zones_attributes.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6C86A931-C87C-4273-9409-A45A3FDB8B4C
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ZonesAttributeTypeMayDifferentLengthSame, storage.storage_zones_attributes, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES, ZonesAttributeTypeSameLengthSame, ntddstor/ZonesAttributeTypeSameLengthSame, ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, *PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, ZonesAttributeTypeSameLastZoneLengthDifferent, _STORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], ntddstor/ZonesAttributeTypeMayDifferentLengthSame
+ms.keywords: "_STORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], *PSTORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, storage.storage_zones_attributes, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], ntddstor/ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeSameLengthSame, PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_ZONES_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES
+req.typenames: "*PSTORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES"
 ---
 
 # _STORAGE_ZONES_ATTRIBUTES enumeration

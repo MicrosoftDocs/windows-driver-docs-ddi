@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25B053C1-E3A3-4002-9355-F3EEA8FECB44
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsSetCreateProcessNotifyRoutineEx2, ntddk/PsSetCreateProcessNotifyRoutineEx2, kernel.pssetcreateprocessnotifyroutineex2, PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture]
+ms.keywords: PsSetCreateProcessNotifyRoutineEx2 routine [Kernel-Mode Driver Architecture], kernel.pssetcreateprocessnotifyroutineex2, PsSetCreateProcessNotifyRoutineEx2, ntddk/PsSetCreateProcessNotifyRoutineEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsSetCreateProcessNotifyRoutineEx2
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsSetCreateProcessNotifyRoutineEx2 function
@@ -87,7 +87,9 @@ A Boolean value that specifies whether <b>PsSetCreateProcessNotifyRoutineEx2</b>
 ## -returns
 
 
+
 <b>PsSetCreateProcessNotifyRoutineEx2</b> returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,11 +130,14 @@ The image that contains the callback routine pointer did not have IMAGE_DLLCHARA
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Drivers can call <b>PsSetCreateProcessNotifyRoutineEx2</b> to register their process-creation notify routines.
@@ -157,13 +162,20 @@ A driver must remove any callback function that it registers before it unloads. 
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
 
+
+
 <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
+
+
 
  
 

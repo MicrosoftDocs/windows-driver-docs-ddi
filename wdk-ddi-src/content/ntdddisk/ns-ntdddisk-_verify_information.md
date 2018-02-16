@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._VERIFY_INFORMATION
-title: _VERIFY_INFORMATION
+title: "_VERIFY_INFORMATION"
 author: windows-driver-content
 description: The VERIFY_INFORMATION structure provides information used to verify the existence of a disk extent.
 old-location: storage\verify_information.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7bb5c2ff-9bdb-4958-b290-9edb18d02668
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PVERIFY_INFORMATION, VERIFY_INFORMATION, _VERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], *PVERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml, ntdddisk/VERIFY_INFORMATION, storage.verify_information, PVERIFY_INFORMATION structure pointer [Storage Devices]
+ms.keywords: ntdddisk/PVERIFY_INFORMATION, VERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], *PVERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], ntdddisk/VERIFY_INFORMATION, PVERIFY_INFORMATION, _VERIFY_INFORMATION, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml, storage.verify_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	VERIFY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PVERIFY_INFORMATION, VERIFY_INFORMATION
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # _VERIFY_INFORMATION structure
@@ -81,13 +81,17 @@ Indicates the length, in bytes, of the disk extent.
 ## -remarks
 
 
+
 VERIFY_INFORMATION is the output buffer for the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_verify.md">IOCTL_DISK_VERIFY</a> control code.
+
 
 
 
 ## -see-also
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_verify.md">IOCTL_DISK_VERIFY</a>
+
+
 
  
 

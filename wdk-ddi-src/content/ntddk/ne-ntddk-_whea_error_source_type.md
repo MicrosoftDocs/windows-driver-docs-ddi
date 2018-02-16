@@ -1,14 +1,14 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_SOURCE_TYPE
-title: _WHEA_ERROR_SOURCE_TYPE
+title: "_WHEA_ERROR_SOURCE_TYPE"
 author: windows-driver-content
 description: The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
 old-location: whea\whea_error_source_type.htm
 old-project: whea
 ms.assetid: d2615320-6c8a-4813-afb5-c5b510e5fde9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ntddk/WheaErrSrcTypeCPE, ntddk/WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeIPFCPE, WheaErrSrcTypeINIT, WheaErrSrcTypeIPFMCA, WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeIPFMCA, ntddk/WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeSCIGeneric, PWHEA_ERROR_SOURCE_TYPE, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeIPFCPE, _WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypePCIe, WheaErrSrcTypeNMI, WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeCMC, ntddk/WheaErrSrcTypeMCE, *PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeBOOT, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeIPFCMC, ntddk/WheaErrSrcTypeNMI, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], WheaErrSrcTypeSCIGeneric, WheaErrSrcTypeMCE, WheaErrSrcTypeCPE, WheaErrSrcTypeCMC, WHEA_ERROR_SOURCE_TYPE, whea.whea_error_source_type, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeBOOT
+ms.date: 2/8/2018
+ms.keywords: ntddk/WheaErrSrcTypeBOOT, WheaErrSrcTypeCMC, WheaErrSrcTypeGeneric, ntddk/WheaErrSrcTypeCMC, WHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeIPFMCA, ntddk/PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeMax, ntddk/WheaErrSrcTypeCPE, PWHEA_ERROR_SOURCE_TYPE enumeration pointer [WHEA Drivers and Applications], ntddk/WheaErrSrcTypeNMI, ntddk/WheaErrSrcTypeGeneric, WheaErrSrcTypeMax, WheaErrSrcTypeIPFCPE, WheaErrSrcTypeIPFMCA, WheaErrSrcTypeINIT, ntddk/WHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypePCIe, ntddk/WheaErrSrcTypePCIe, *PWHEA_ERROR_SOURCE_TYPE, WheaErrSrcTypeIPFCMC, _WHEA_ERROR_SOURCE_TYPE, PWHEA_ERROR_SOURCE_TYPE, ntddk/WheaErrSrcTypeIPFCMC, WheaErrSrcTypeNMI, WheaErrSrcTypeBOOT, WheaErrSrcTypeCPE, ntddk/WheaErrSrcTypeSCIGeneric, ntddk/WheaErrSrcTypeIPFCPE, ntddk/WheaErrSrcTypeMCE, whearef_786d549e-14b1-4945-a1ce-23c7112ff0c8.xml, ntddk/WheaErrSrcTypeINIT, WheaErrSrcTypeSCIGeneric, whea.whea_error_source_type, WheaErrSrcTypeMCE, WHEA_ERROR_SOURCE_TYPE enumeration [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	WHEA_ERROR_SOURCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
+req.typenames: "*PWHEA_ERROR_SOURCE_TYPE, WHEA_ERROR_SOURCE_TYPE"
 ---
 
 # _WHEA_ERROR_SOURCE_TYPE enumeration
@@ -142,9 +142,7 @@ An Itanium processor corrected platform error (CPE).
 ### -field WheaErrSrcTypeGenericV2
 
 
-
 ### -field WheaErrSrcTypeSCIGenericV2
-
 
 
 ### -field WheaErrSrcTypeMax
@@ -155,9 +153,11 @@ The maximum number of error source types that can report hardware errors.
 ## -remarks
 
 
+
 The <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that is described by the structure.
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that caused the error condition described by the structure.
+
 
 
 
@@ -165,11 +165,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_SOURCE_TYPE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_SOURCE_TYPE enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

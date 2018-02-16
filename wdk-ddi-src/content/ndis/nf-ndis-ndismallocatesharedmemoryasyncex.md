@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ccbe98ca-7da9-4159-ac1a-c25ec6745ff4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_sgdma_ref_73efae25-05b5-496f-8c7a-83a6d9f091cc.xml, ndis/NdisMAllocateSharedMemoryAsyncEx, netvista.ndismallocatesharedmemoryasyncex, NdisMAllocateSharedMemoryAsyncEx, NdisMAllocateSharedMemoryAsyncEx function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMAllocateSharedMemoryAsyncEx, ndis_sgdma_ref_73efae25-05b5-496f-8c7a-83a6d9f091cc.xml, netvista.ndismallocatesharedmemoryasyncex, ndis/NdisMAllocateSharedMemoryAsyncEx, NdisMAllocateSharedMemoryAsyncEx function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMAllocateSharedMemoryAsyncEx
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMAllocateSharedMemoryAsyncEx function
@@ -77,8 +77,8 @@ NDIS_STATUS NdisMAllocateSharedMemoryAsyncEx(
 
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
-     <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-     NdisMRegisterScatterGatherDma</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+     NdisMRegisterScatterGatherDma</a> function.
 
 
 ### -param Length [in]
@@ -100,7 +100,9 @@ A pointer to driver-determined context to be passed to the
 ## -returns
 
 
+
 <b>NdisMAllocateSharedMemoryAsyncEx</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,15 +135,20 @@ The requested memory could not be allocated at this time. If
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>  A miniport driver must have already called <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">NdisMRegisterScatterGatherDma</a> or <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> to initialize a
-  scatter/gather DMA channel before calling <b>NdisMAllocateSharedMemoryAsyncEx</b>.</div><div> </div>Drivers of bus-master DMA NICs call 
+  scatter/gather DMA channel before calling <b>NdisMAllocateSharedMemoryAsyncEx</b>.</div>
+<div> </div>
+Drivers of bus-master DMA NICs call 
     <b>NdisMAllocateSharedMemoryAsyncEx</b> to dynamically allocate shared memory. Such drivers also allocate
     shared memory space during initialization. These drivers use the dynamically allocated shared memory for
     transfer operations when high network traffic places excessive demands on the existing shared memory
@@ -175,23 +182,38 @@ Any miniport driver that calls
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+   NdisMRegisterScatterGatherDma</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
+
+
 
  
 

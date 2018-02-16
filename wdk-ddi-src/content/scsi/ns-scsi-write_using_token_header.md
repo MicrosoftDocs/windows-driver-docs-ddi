@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A46ED23A-7DB0-4792-B903-F748BCDAD55E
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], storage.write_using_token_header, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, *PWRITE_USING_TOKEN_HEADER
+ms.keywords: "*PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], PWRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER, storage.write_using_token_header, scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsi.h
-apiname: 
+apiname:
 -	WRITE_USING_TOKEN_HEADER
 product: Windows
 targetos: Windows
@@ -124,7 +124,9 @@ An array of <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEV
 ## -remarks
 
 
+
 All multibyte values are in big endian format. Prior to setting, these values must be converted from the endian format of the current platform.
+
 
 
 
@@ -132,7 +134,11 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 <a href="..\scsi\ns-scsi-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
 
+
+
 <a href="..\scsi\ns-scsi-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
+
+
 
  
 

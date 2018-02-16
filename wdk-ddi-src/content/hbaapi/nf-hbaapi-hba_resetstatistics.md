@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4e889905-9c5e-446c-8d0e-09e445f7c1a4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_ResetStatistics routine [Storage Devices], hbaapi/HBA_ResetStatistics, storage.hba_resetstatistics, fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, HBA_ResetStatistics
+ms.keywords: hbaapi/HBA_ResetStatistics, fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, storage.hba_resetstatistics, HBA_ResetStatistics routine [Storage Devices], HBA_ResetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_ResetStatistics
 product: Windows
 targetos: Windows
@@ -86,14 +86,18 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>HBA_ResetStatistics</b> routine serves similar purpose to the <b>ResetStatistics</b> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562501">MSFC_FibrePortHBAMethods WMI Class</a>. 
+
 
 
 
@@ -101,7 +105,11 @@ The <b>HBA_ResetStatistics</b> routine serves similar purpose to the <b>ResetSta
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562501">MSFC_FibrePortHBAMethods WMI Class</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

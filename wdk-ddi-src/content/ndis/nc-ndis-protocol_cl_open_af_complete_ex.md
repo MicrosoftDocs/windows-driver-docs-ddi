@@ -2,7 +2,7 @@
 UID: NC:ndis.PROTOCOL_CL_OPEN_AF_COMPLETE_EX
 title: PROTOCOL_CL_OPEN_AF_COMPLETE_EX
 author: windows-driver-content
-description: The ProtocolClOpenAfCompleteEx function completes the opening of an address family (AF) that was started when a CoNDIS client called the NdisClOpenAddressFamilyEx function.Note  You must declare the function by using the PROTOCOL_CL_OPEN_AF_COMPLETE_EX type. For more information, see the following Examples section. 
+description: The ProtocolClOpenAfCompleteEx function completes the opening of an address family (AF) that was started when a CoNDIS client called the NdisClOpenAddressFamilyEx function.Note  You must declare the function by using the PROTOCOL_CL_OPEN_AF_COMPLETE_EX type. For more information, see the following Examples section.
 old-location: netvista\protocolclopenafcompleteex.htm
 old-project: netvista
 ms.assetid: 03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	ProtocolClOpenAfCompleteEx
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback
@@ -80,8 +80,8 @@ VOID ProtocolClOpenAfCompleteEx(
 
 A client-supplied handle to its context area for an address AF. The client allocated this context
      area and passed this handle to NDIS in its call to the 
-     <mshelp:link keywords="netvista.ndisclopenaddressfamilyex" tabindex="0"><b>
-     NdisClOpenAddressFamilyEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     NdisClOpenAddressFamilyEx</a> function.
 
 
 ### -param NdisAfHandle [in]
@@ -104,10 +104,31 @@ The final status of the client's call to
 
 
 
-##### - Status.NDIS_STATUS_FAILURE
+
+#### NDIS_STATUS_SUCCESS
+
+The AF has been opened, so the client can initialize its state at 
+       <i>ProtocolAfContext</i> and use the returned handle from 
+       <i>NdisAfHandle</i> in subsequent calls to 
+       <b>NdisCl<i>Xxx</i></b> and 
+       <b>NdisCo<i>Xxx</i></b> functions, such as 
+       <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>.
+
+
+
+#### NDIS_STATUS_RESOURCES
+
+The requested operation failed because NDIS or the call manager could not allocate sufficient
+       memory or initialize the state that one of them uses to track the client's open of the AF that 
+       <i>ProtocolAfContext</i> specifies.
+
+
+
+#### NDIS_STATUS_FAILURE
 
 NDIS failed the call, possibly for one of the following reasons:
        
+
 <ul>
 <li>
 The given AF does not match any AF that was registered for the underlying miniport driver to
@@ -125,47 +146,34 @@ The call manager that registered the specified AF is closing its binding to the 
 </li>
 </ul>
 
-##### - Status.NDIS_STATUS_RESOURCES
-
-The requested operation failed because NDIS or the call manager could not allocate sufficient
-       memory or initialize the state that one of them uses to track the client's open of the AF that 
-       <i>ProtocolAfContext</i> specifies.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The AF has been opened, so the client can initialize its state at 
-       <i>ProtocolAfContext</i> and use the returned handle from 
-       <i>NdisAfHandle</i> in subsequent calls to 
-       <b>NdisCl<i>Xxx</i></b> and 
-       <b>NdisCo<i>Xxx</i></b> functions, such as 
-       <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>.
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 The 
     <i>ProtocolClOpenAfCompleteEx</i> function is required for CoNDIS clients. CoNDIS clients must provide 
     <i>ProtocolClOpenAfCompleteEx</i> to complete the asynchronous operations that the clients initiate by
     calling the 
-    <mshelp:link keywords="netvista.ndisclopenaddressfamilyex" tabindex="0"><b>
-    NdisClOpenAddressFamilyEx</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+    NdisClOpenAddressFamilyEx</a> function.
 
 NDIS calls 
     <i>ProtocolClOpenAfCompleteEx</i> to indicate that some or all of the following have occurred:
+
 <ul>
 <li>
 If all of the parameters that the client's 
-      <mshelp:link keywords="netvista.protocolcoafregisternotify" tabindex="0"><i>
-      ProtocolCoAfRegisterNotify</i></mshelp:link> function passed to the 
+      <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+      ProtocolCoAfRegisterNotify</a> function passed to the 
       <b>NdisClOpenAddressFamilyEx</b> function were valid, NDIS called the 
       <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function of the
       call manager that just registered the specified AF with NDIS.
@@ -178,7 +186,8 @@ The call manager has examined the specification that the client's
       <i>AddressFamily</i> parameter and returned whether it was valid for this call manager to NDIS.
 
 </li>
-</ul>If the client's attempt to open an AF fails, NDIS cleans up its saved state before calling 
+</ul>
+If the client's attempt to open an AF fails, NDIS cleans up its saved state before calling 
     <i>ProtocolClOpenAfCompleteEx</i>. In this case, 
     <i>ProtocolClOpenAfCompleteEx</i> can release the resources that the client allocated for its call to 
     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a> or
@@ -200,9 +209,12 @@ If the client accepts incoming calls, it might allocate a per-service access poi
 
 NDIS calls 
     <i>ProtocolClOpenAfCompleteEx</i> at IRQL = PASSIVE_LEVEL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>ProtocolClOpenAfCompleteEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>ProtocolClOpenAfCompleteEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolClOpenAfCompleteEx</i> function that is named "MyClOpenAfCompleteEx", use the <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -212,7 +224,9 @@ For example, to define a <i>ProtocolClOpenAfCompleteEx</i> function that is name
 <pre>PROTOCOL_CL_OPEN_AF_COMPLETE_EX MyClOpenAfCompleteEx;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -229,25 +243,39 @@ VOID
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+
+
 
  
 

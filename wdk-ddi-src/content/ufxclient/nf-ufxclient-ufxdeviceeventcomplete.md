@@ -7,8 +7,8 @@ old-location: buses\ufxdeviceeventcomplete.htm
 old-project: usbref
 ms.assetid: DAC18721-5747-4D5E-8A25-24B80DE77C99
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ufxclient/UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses], UfxDeviceEventComplete, buses.ufxdeviceeventcomplete
+ms.date: 2/8/2018
+ms.keywords: UfxDeviceEventComplete method [Buses], buses.ufxdeviceeventcomplete, UfxDeviceEventComplete, ufxclient/UfxDeviceEventComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxDeviceEventComplete
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -82,14 +82,18 @@ Status of the event being completed.
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The client driver calls <b>UfxDeviceEventComplete</b> to signal completion of the following callback functions:
+
 <ul>
 <li>
 <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_host_connect.md">EVT_UFX_DEVICE_HOST_CONNECT</a>
@@ -127,7 +131,9 @@ The client driver calls <b>UfxDeviceEventComplete</b> to signal completion of th
 <li>
 <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_controller_reset.md">EVT_UFX_DEVICE_CONTROLLER_RESET</a>
 </li>
-</ul>For example, your callback function could use the following code:
+</ul>
+For example, your callback function could use the following code:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -145,4 +151,5 @@ The client driver calls <b>UfxDeviceEventComplete</b> to signal completion of th
 </td>
 </tr>
 </table></span></div>
+
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfinterrupt._WDF_INTERRUPT_POLICY
-title: _WDF_INTERRUPT_POLICY
+title: "_WDF_INTERRUPT_POLICY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_POLICY enumeration type identifies the affinity policies that the PnP manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
 old-location: wdf\wdf_interrupt_policy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88f8f10d-bf1e-49bc-99c7-95a5e69c17e1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WDF_INTERRUPT_POLICY, WdfIrqPolicyAllCloseProcessors, WdfIrqPolicyOneCloseProcessor, wdfinterrupt/WdfIrqPolicyOneCloseProcessor, WdfIrqPolicyMachineDefault, *PWDF_INTERRUPT_POLICY, WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicySpreadMessagesAcrossAllProcessors, WdfIrqPolicySpecifiedProcessors, wdfinterrupt/WdfIrqPolicySpecifiedProcessors, kmdf.wdf_interrupt_policy, wdfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, _WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyMachineDefault, wdfinterrupt/WdfIrqPolicyAllProcessorsInMachine, wdfinterrupt/PWDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY enumeration pointer, wdf.wdf_interrupt_policy, WDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY enumeration, wdfinterrupt/WdfIrqPolicyAllCloseProcessors, PWDF_INTERRUPT_POLICY, DFInterruptObjectRef_e8b207c7-1a4a-4537-9aba-070ddcc426c1.xml
+ms.keywords: PWDF_INTERRUPT_POLICY enumeration pointer, wdfinterrupt/WdfIrqPolicyAllCloseProcessors, *PWDF_INTERRUPT_POLICY, wdfinterrupt/PWDF_INTERRUPT_POLICY, WdfIrqPolicySpreadMessagesAcrossAllProcessors, wdfinterrupt/WdfIrqPolicyAllProcessorsInMachine, wdfinterrupt/WdfIrqPolicySpecifiedProcessors, WDF_INTERRUPT_POLICY enumeration, WdfIrqPolicyOneCloseProcessor, WDF_INTERRUPT_POLICY, _WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, kmdf.wdf_interrupt_policy, wdfinterrupt/WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyMachineDefault, WdfIrqPolicyAllCloseProcessors, DFInterruptObjectRef_e8b207c7-1a4a-4537-9aba-070ddcc426c1.xml, WdfIrqPolicySpecifiedProcessors, wdf.wdf_interrupt_policy, WdfIrqPolicyMachineDefault, wdfinterrupt/WdfIrqPolicyOneCloseProcessor, WdfIrqPolicyAllProcessorsInMachine, PWDF_INTERRUPT_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: PASSIVE_LEVEL
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_POLICY
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY
+req.typenames: WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
 req.product: Windows 10 or later.
 ---
 
@@ -108,13 +108,17 @@ The PnP manager should assign different message-based interrupts to different pr
 ## -remarks
 
 
+
 The <b>WDF_INTERRUPT_POLICY</b> enumeration type is used as input to the <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a> method.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97bcd205-ffc0-4645-87d4-659651ed579a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, kernel.rtlwriteregistryvalue, wdm/RtlWriteRegistryValue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], RtlWriteRegistryValue
+ms.keywords: k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, wdm/RtlWriteRegistryValue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], kernel.rtlwriteregistryvalue, RtlWriteRegistryValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlWriteRegistryValue
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ NTSTATUS RtlWriteRegistryValue(
 ### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined path as one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -161,7 +162,8 @@ Specifies that the <i>Path</i> parameter is actually a registry handle to use. T
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Path [in]
@@ -192,32 +194,50 @@ Specifies the number of bytes of <i>ValueData</i> to be written into the registr
 ## -returns
 
 
+
 <b>RtlWriteRegistryValue</b> returns the status of the operation, either STATUS_SUCCESS or an error status.
+
 
 
 
 ## -remarks
 
 
+
 If the specified key does not exist, the routine attempts to create the key. For this attempt to succeed, the new key must be a direct subkey of the key that is referred to by the <i>Path</i> parameter, and the key that <i>Path</i> refers to must have been opened for KEY_CREATE_SUB_KEY access.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
-
 <a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
-<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcreateregistrykey.md">RtlCreateRegistryKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
+
+
 
  
 

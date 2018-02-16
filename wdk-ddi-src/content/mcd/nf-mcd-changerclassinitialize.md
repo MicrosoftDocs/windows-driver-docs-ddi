@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, storage.changerclassinitialize, mcd/ChangerClassInitialize, ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices]
+ms.keywords: chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, storage.changerclassinitialize, ChangerClassInitialize, mcd/ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Mcd.lib
 -	Mcd.dll
-apiname: 
+apiname:
 -	ChangerClassInitialize
 product: Windows
 targetos: Windows
@@ -86,6 +86,7 @@ TBD
 
 
 
+
 #### - MCDInitData [in]
 
 Pointer to an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> structure containing miniclass driver-specific information such as the entry points for the changer miniclass driver's command processing routines. 
@@ -94,11 +95,14 @@ Pointer to an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> struct
 ## -returns
 
 
+
 <b>ChangerClassInitialize</b> returns a value indicating the success or failure of  the driver initialization. If initialization is successful, <b>ChangerClassInitialize</b> returns STATUS_SUCCESS. Otherwise, <b>ChangerClassInitialize</b> returns an appropriate error message. Minidrivers should <i>not</i> interpret this error value, but should just return this value from their <b>DriverEntry</b> routine. 
 
 
 
+
 ## -remarks
+
 
 
 <b>ChangerClassInitialize</b> is a changer class driver routine that miniclass drivers can call in Microsoft Windows XP and later operating systems.
@@ -109,11 +113,16 @@ Changer miniclass drivers must allocate an <a href="..\mcd\ns-mcd-_mcd_init_data
 
 
 
+
 ## -see-also
+
+<a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
-<a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a>
+
 
  
 

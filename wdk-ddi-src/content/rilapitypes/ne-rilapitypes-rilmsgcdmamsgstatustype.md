@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 315ca5af-103e-4c00-8dd7-10aa21bfa8a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_MSGSTATUSTYPE_READACK, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGSTATUSTYPE_MAX, rilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, RILMSGCDMAMSGSTATUSTYPE, RIL_MSGSTATUSTYPE_MAX, netvista.rilmsgcdmamsgstatustype_2, RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_DELIVERYACK, rilapitypes/RIL_MSGSTATUSTYPE_USERACK, rilapitypes/RILMSGCDMAMSGSTATUSTYPE, RIL_MSGSTATUSTYPE_USERACK
+ms.keywords: RIL_MSGSTATUSTYPE_MAX, netvista.rilmsgcdmamsgstatustype_2, rilapitypes/RILMSGCDMAMSGSTATUSTYPE, RIL_MSGSTATUSTYPE_USERACK, rilapitypes/RIL_MSGSTATUSTYPE_USERACK, rilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, RIL_MSGSTATUSTYPE_READACK, rilapitypes/RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_DELIVERYACK, rilapitypes/RIL_MSGSTATUSTYPE_MAX, RILMSGCDMAMSGSTATUSTYPE, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCDMAMSGSTATUSTYPE
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILMSGCDMAMSGSTATUSTYPE {
 ### -field RIL_MSGSTATUSTYPE_BEARERACK
 
 
-
 ### -field RIL_MSGSTATUSTYPE_DELIVERYACK
-
 
 
 ### -field RIL_MSGSTATUSTYPE_USERACK
 
 
-
 ### -field RIL_MSGSTATUSTYPE_READACK
 
 
-
 ### -field RIL_MSGSTATUSTYPE_MAX
-
 

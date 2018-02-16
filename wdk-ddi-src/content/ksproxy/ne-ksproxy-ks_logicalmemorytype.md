@@ -2,13 +2,13 @@
 UID: NE:ksproxy.KS_LogicalMemoryType
 title: KS_LogicalMemoryType
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ks_logicalmemorytype.htm
 old-project: stream
 ms.assetid: B02E5131-6407-4481-BABD-9F5BDA979D85
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_LogicalMemoryType, KS_LogicalMemoryType enumeration [Streaming Media Devices], ksproxy/KS_MemoryTypeUser, KS_MemoryTypeDontCare, stream.ks_logicalmemorytype, ksproxy/KS_MemoryTypeKernelPaged, ksproxy/KS_MemoryTypeDontCare, KS_MemoryTypeDeviceHostMapped, ksproxy/KS_MemoryTypeDeviceSpecific, KS_MemoryTypeKernelPaged, KS_MemoryTypeKernelNonPaged, KS_MemoryTypeUser, KS_MemoryTypeAnyHost, ksproxy/KS_MemoryTypeDeviceHostMapped, ksproxy/KS_MemoryTypeKernelNonPaged, ksproxy/KS_MemoryTypeAnyHost, *PKS_LogicalMemoryType, KS_MemoryTypeDeviceSpecific, ksproxy/KS_LogicalMemoryType
+ms.keywords: ksproxy/KS_MemoryTypeDontCare, KS_MemoryTypeDeviceSpecific, KS_MemoryTypeKernelPaged, KS_MemoryTypeKernelNonPaged, ksproxy/KS_MemoryTypeUser, ksproxy/KS_LogicalMemoryType, KS_MemoryTypeUser, ksproxy/KS_MemoryTypeKernelPaged, ksproxy/KS_MemoryTypeDeviceSpecific, ksproxy/KS_MemoryTypeKernelNonPaged, stream.ks_logicalmemorytype, ksproxy/KS_MemoryTypeAnyHost, KS_LogicalMemoryType, KS_MemoryTypeAnyHost, KS_MemoryTypeDeviceHostMapped, KS_LogicalMemoryType enumeration [Streaming Media Devices], KS_MemoryTypeDontCare, *PKS_LogicalMemoryType, ksproxy/KS_MemoryTypeDeviceHostMapped
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksproxy.h
-apiname: 
+apiname:
 -	KS_LogicalMemoryType
 product: Windows
 targetos: Windows
@@ -76,27 +76,20 @@ typedef enum  {
 ### -field KS_MemoryTypeDontCare
 
 
-
 ### -field KS_MemoryTypeKernelPaged
-
 
 
 ### -field KS_MemoryTypeKernelNonPaged
 
 
-
 ### -field KS_MemoryTypeDeviceHostMapped
-
 
 
 ### -field KS_MemoryTypeDeviceSpecific
 
 
-
 ### -field KS_MemoryTypeUser
 
 
-
 ### -field KS_MemoryTypeAnyHost
-
 

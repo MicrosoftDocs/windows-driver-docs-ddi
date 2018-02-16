@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_DATA
-title: _NET_BUFFER_DATA
+title: "_NET_BUFFER_DATA"
 author: windows-driver-content
 description: The NET_BUFFER_DATA structure contains information for managing the data buffers that are attached to a NET_BUFFER structure, and it identifies the next NET_BUFFER structure in a list of NET_BUFFER structures.
 old-location: netvista\net_buffer_data.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d1b5e1c7-5ade-4f54-a5f1-200420964f0e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNET_BUFFER_DATA, PNET_BUFFER_DATA, ndis_netbuf_structures_ref_3e603c77-b97e-4c1f-9fee-e874e741a543.xml, ndis/NET_BUFFER_DATA, *PNET_BUFFER_DATA, NET_BUFFER_DATA structure [Network Drivers Starting with Windows Vista], NET_BUFFER_DATA, _NET_BUFFER_DATA, PNET_BUFFER_DATA structure pointer [Network Drivers Starting with Windows Vista], netvista.net_buffer_data
+ms.keywords: ndis/NET_BUFFER_DATA, NET_BUFFER_DATA structure [Network Drivers Starting with Windows Vista], ndis_netbuf_structures_ref_3e603c77-b97e-4c1f-9fee-e874e741a543.xml, NET_BUFFER_DATA, _NET_BUFFER_DATA, *PNET_BUFFER_DATA, netvista.net_buffer_data, PNET_BUFFER_DATA, PNET_BUFFER_DATA structure pointer [Network Drivers Starting with Windows Vista], ndis/PNET_BUFFER_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NET_BUFFER_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PNET_BUFFER_DATA, NET_BUFFER_DATA
+req.typenames: NET_BUFFER_DATA, *PNET_BUFFER_DATA
 ---
 
 # _NET_BUFFER_DATA structure
@@ -116,15 +116,16 @@ The offset, in bytes, from the beginning of the MDL chain to the beginning of th
 ## -remarks
 
 
+
 The 
     <a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a> structure contains a
     NET_BUFFER_DATA structure that defines data for the 
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. To access the members of
     NET_BUFFER_DATA, use the 
-    <mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-    NdisRetreatNetBufferDataStart</b></mshelp:link> and 
-    <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-    NdisAdvanceNetBufferDataStart</b></mshelp:link> functions, and the following macros:
+    <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+    NdisRetreatNetBufferDataStart</a> and 
+    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    NdisAdvanceNetBufferDataStart</a> functions, and the following macros:
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
@@ -147,36 +148,59 @@ The
 
 
 
-<mshelp:link keywords="netvista.net_buffer_current_mdl_offset" tabindex="0"><b>
-       NET_BUFFER_CURRENT_MDL_OFFSET</b></mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">
+       NET_BUFFER_CURRENT_MDL_OFFSET</a>
+
 
 <div class="alert"><b>Note</b>  The C and C++ compilers use different definitions for these macros. Failure to use
-    the macros can cause problems when switching compilers.</div><div> </div>
+    the macros can cause problems when switching compilers.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisretreatnetbufferdatastart" tabindex="0"><b>
-   NdisRetreatNetBufferDataStart</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+   NdisRetreatNetBufferDataStart</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
 
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
+
+
 
  
 

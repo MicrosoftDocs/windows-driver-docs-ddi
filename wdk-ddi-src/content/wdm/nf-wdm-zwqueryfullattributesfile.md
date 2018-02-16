@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 896ea6aa-54e8-4109-8597-58d8d2cd75ce
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/ZwQueryFullAttributesFile, kernel.zwqueryfullattributesfile, NtQueryFullAttributesFile, wdm/NtQueryFullAttributesFile, k111_58eefadc-2aff-4252-82a6-6f0c9ab43a19.xml, ZwQueryFullAttributesFile routine [Kernel-Mode Driver Architecture], ZwQueryFullAttributesFile
+ms.keywords: k111_58eefadc-2aff-4252-82a6-6f0c9ab43a19.xml, wdm/NtQueryFullAttributesFile, NtQueryFullAttributesFile, ZwQueryFullAttributesFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryfullattributesfile, wdm/ZwQueryFullAttributesFile, ZwQueryFullAttributesFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwQueryFullAttributesFile
 -	NtQueryFullAttributesFile
 product: Windows
@@ -83,11 +83,14 @@ A pointer to a <a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NE
 ## -returns
 
 
+
 <b>ZwQueryFullAttributesFile</b> returns STATUS_SUCCESS on success, or the appropriate error status.
 
 
 
+
 ## -remarks
+
 
 
 Callers of <b>ZwQueryFullAttributesFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
@@ -98,13 +101,20 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-## -see-also
 
-<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
+## -see-also
 
 <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
+
+
 
  
 

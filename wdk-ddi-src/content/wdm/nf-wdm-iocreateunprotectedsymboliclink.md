@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21ca4ec1-fd5f-46bb-9760-3bb0cdb761b9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iocreateunprotectedsymboliclink, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], wdm/IoCreateUnprotectedSymbolicLink, IoCreateUnprotectedSymbolicLink, k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml
+ms.keywords: IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], IoCreateUnprotectedSymbolicLink, kernel.iocreateunprotectedsymboliclink, wdm/IoCreateUnprotectedSymbolicLink, k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoCreateUnprotectedSymbolicLink
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Supplies the name of the device object to which the symbolic link name refers.
 ## -returns
 
 
+
 <b>IoCreateUnprotectedSymbolicLink</b> returns the final status of the operation.
 
 
 
+
 ## -remarks
+
 
 
 WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> to set up a symbolic link. 
@@ -99,15 +102,24 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
 
-<a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
+
+
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
+
 
 <a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
+
+<a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 037831c7-d0ef-4cbc-a414-a77010e228a5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILRTTDATA, ntddrilapitypes/RILRTTDATA, netvista.rilrttdata, RILRTTDATA structure [Network Drivers Starting with Windows Vista], *LPRILRTTDATA
+ms.keywords: ntddrilapitypes/RILRTTDATA, RILRTTDATA, RILRTTDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrttdata, *LPRILRTTDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILRTTDATA
 product: Windows
 targetos: Windows
-req.typenames: *LPRILRTTDATA, RILRTTDATA
+req.typenames: "*LPRILRTTDATA, RILRTTDATA"
 ---
 
 # RILRTTDATA structure
@@ -73,15 +73,11 @@ typedef struct _RILRTTDATA {
 ### -field cbSize
 
 
-
 ### -field dwID
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field wszRTTData
-
 

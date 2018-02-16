@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_READ_OUTPUT
-title: _FSCTL_OFFLOAD_READ_OUTPUT
+title: "_FSCTL_OFFLOAD_READ_OUTPUT"
 author: windows-driver-content
 description: The FSCTL_OFFLOAD_READ_OUTPUT structure contains the output for the FSCTL_OFFLOAD_READ control code request.
 old-location: ifsk\fsctl_offload_read_output.htm
 old-project: ifsk
 ms.assetid: 418E66FA-BECD-4F9F-B28C-962995C637B9
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsctl_offload_read_output, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], *PFSCTL_OFFLOAD_READ_OUTPUT, _FSCTL_OFFLOAD_READ_OUTPUT, ntifs/FSCTL_OFFLOAD_READ_OUTPUT
+ms.date: 2/7/2018
+ms.keywords: OFFLOAD_READ_FLAG_FILE_TOO_SMALL, FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], _FSCTL_OFFLOAD_READ_OUTPUT, ifsk.fsctl_offload_read_output, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], *PFSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, FSCTL_OFFLOAD_READ_OUTPUT, ntifs/FSCTL_OFFLOAD_READ_OUTPUT, OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FSCTL_OFFLOAD_READ_OUTPUT
 product: Windows
 targetos: Windows
-req.typenames: FSCTL_OFFLOAD_READ_OUTPUT, *PFSCTL_OFFLOAD_READ_OUTPUT
+req.typenames: "*PFSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT"
 ---
 
 # _FSCTL_OFFLOAD_READ_OUTPUT structure
@@ -78,6 +78,7 @@ The size of this structure. Set this member to <b>sizeof</b>(FSCTL_OFFLOAD_READ_
 ### -field Flags
 
  Result flags. This value is a bitwise <b>OR</b> combination of these values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -116,7 +117,8 @@ The offload operation cannot complete beyond the selected range. An non-offloade
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TransferLength
@@ -132,6 +134,7 @@ A byte array that contains a token structure, <a href="..\ntddstor\ns-ntddstor-_
 ## -remarks
 
 
+
 If the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a> operation is successful, the storage device's copy provider returns, in <b>FSCTL_OFFLOAD_READ_OUTPUT</b>, a unique token value identifying the portion of file data read. 
 
 The  copy provider retains the data read for the duration in the <b>TokenTimeToLive</b> member of the <a href="..\ntifs\ns-ntifs-_fsctl_offload_read_input.md">FSCTL_OFFLOAD_READ_INPUT</a> structure.
@@ -142,17 +145,24 @@ The  copy provider retains the data read for the duration in the <b>TokenTimeToL
 
 
 
-## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
+## -see-also
 
 <a href="..\ntifs\ns-ntifs-_fsctl_offload_read_input.md">FSCTL_OFFLOAD_READ_INPUT</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a>
 
- 
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FSCTL_OFFLOAD_READ_OUTPUT structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FSCTL_OFFLOAD_READ_OUTPUT structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

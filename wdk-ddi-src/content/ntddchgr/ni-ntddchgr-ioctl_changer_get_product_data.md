@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddchgr.h
-apiname: 
+apiname:
 -	IOCTL_CHANGER_GET_PRODUCT_DATA
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ The driver returns the <a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,7 +112,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 <a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
 
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">CHANGER_PRODUCT_DATA</a>
+
+
 
  
 

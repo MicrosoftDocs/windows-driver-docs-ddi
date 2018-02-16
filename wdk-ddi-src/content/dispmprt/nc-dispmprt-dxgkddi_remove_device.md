@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkDdiRemoveDevice
 product: Windows
 targetos: Windows
@@ -78,11 +78,14 @@ A handle to a context block associated with a display adapter. The display minip
 ## -returns
 
 
+
 <i>DxgkDdiRemoveDevice </i>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 <i>DxgkDdiRemoveDevice</i> must free the context block represented by <i>MiniportDeviceContext</i>.
@@ -91,9 +94,12 @@ A handle to a context block associated with a display adapter. The display minip
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9129e776-b5d0-4f53-b2be-67e593369c6c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::Escape, Escape, Escape method [Imaging Devices], Escape method [Imaging Devices], IStiUSD interface, image.istiusd_escape, IStiUSD, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, IStiUSD interface [Imaging Devices], Escape method, stiusd/IStiUSD::Escape
+ms.keywords: image.istiusd_escape, IStiUSD::Escape, Escape method [Imaging Devices], IStiUSD interface, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, Escape method [Imaging Devices], IStiUSD, stiusd/IStiUSD::Escape, IStiUSD interface [Imaging Devices], Escape method, Escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.Escape
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -111,20 +111,26 @@ Caller-supplied length, in bytes, of the buffer pointed to by <i>lpOutData</i>.
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>. If the method is not implemented, it should return STIERR_UNSUPPORTED.
+
 
 
 
 ## -remarks
 
 
+
 A still image minidriver only needs to implement <b>IStiUSD::Escape</b> if I/O operations are required that cannot be implemented within <a href="https://msdn.microsoft.com/library/windows/hardware/ff543834">IStiUSD::RawReadData</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543839">IStiUSD::RawWriteData</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543831">IStiUSD::RawReadCommand</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543836">IStiUSD::RawWriteCommand</a> methods. The minidriver defines parameter usage for <b>IStiUSD::Escape</b>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543740">IStiDevice::Escape</a>
+
+
 
  
 

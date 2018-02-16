@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82f922a1-34c1-475b-b12a-210ae602a4bd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestgetstatus, kmdf.wdfrequestgetstatus, wdfrequest/WdfRequestGetStatus, PFN_WDFREQUESTGETSTATUS, WdfRequestGetStatus, DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, WdfRequestGetStatus method
+ms.keywords: WdfRequestGetStatus method, wdfrequest/WdfRequestGetStatus, DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, kmdf.wdfrequestgetstatus, wdf.wdfrequestgetstatus, PFN_WDFREQUESTGETSTATUS, WdfRequestGetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestGetStatus
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A handle to a framework request object.
 ## -returns
 
 
+
 <b>WdfRequestGetStatus</b>  returns an NTSTATUS value. For more information about what value can be returned, see the following Remarks section.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -89,10 +90,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 The <b>WdfRequestGetStatus</b> method returns one of the following:
+
 <ul>
 <li>
 If a driver's call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> succeeds, <b>WdfRequestGetStatus</b> returns the status value that is set by the driver that calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> to complete the specified request. The driver typically calls <b>WdfRequestGetStatus</b> from within a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function.
@@ -102,19 +106,72 @@ If a driver's call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">Wd
 If a driver's call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> fails, <b>WdfRequestGetStatus</b> returns a status value that the framework has set to describe the failure. The driver can call <b>WdfRequestGetStatus</b> immediately after calling <b>WdfRequestSend</b>.
 
 </li>
-</ul>If the driver sets the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTION_SYNCHRONOUS</a> flag for a request when calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>, the driver can call <b>WdfRequestGetStatus</b> immediately after calling <b>WdfRequestSend</b>, whether the call to <b>WdfRequestSend</b> succeeds or fails.
+</ul>
+If the driver sets the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTION_SYNCHRONOUS</a> flag for a request when calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>, the driver can call <b>WdfRequestGetStatus</b> immediately after calling <b>WdfRequestSend</b>, whether the call to <b>WdfRequestSend</b> succeeds or fails.
 
 For more information about request completion, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
+
+
+#### Examples
+
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver. This example sends an I/O request to an I/O target. If <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> fails, the example uses the <b>WdfRequestGetStatus</b> return value as input to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+KbFilter_ForwardRequest(
+    IN WDFREQUEST Request,
+    IN WDFIOTARGET Target
+    )
+{
+    WDF_REQUEST_SEND_OPTIONS options;
+    BOOLEAN ret;
+    NTSTATUS status;
+
+    WDF_REQUEST_SEND_OPTIONS_INIT(
+                                  &amp;options,
+                                  WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET
+                                  );
+
+    ret = WdfRequestSend(
+                         Request,
+                         Target,
+                         &amp;options
+                         );
+
+    if (ret == FALSE) {
+        status = WdfRequestGetStatus (Request);
+        DebugPrint(("WdfRequestSend failed: 0x%x\n", status));
+        WdfRequestComplete(
+                           Request,
+                           status
+                           );
+    }
+    return;
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
 
  
 

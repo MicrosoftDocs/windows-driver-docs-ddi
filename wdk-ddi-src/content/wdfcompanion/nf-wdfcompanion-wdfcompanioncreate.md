@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 78b9eccf-34ef-40ae-b7fc-6fa8400f8c2a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCompanionCreate, wdfcompanion/WdfCompanionCreate, wdf.wdfcompanioncreate, WdfCompanionCreate method
+ms.keywords: wdfcompanion/WdfCompanionCreate, WdfCompanionCreate, WdfCompanionCreate method, wdf.wdfcompanioncreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfcompanion.h
-apiname: 
+apiname:
 -	WdfCompanionCreate
 product: Windows
 targetos: Windows
@@ -74,11 +74,8 @@ NTSTATUS WdfCompanionCreate(
 ### -param DeviceInit [in, out]
 
 
-
 ### -param DeviceAttributes [in, optional]
 
 
-
 ### -param Companion [out]
-
 

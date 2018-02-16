@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c7a3854b-2405-4e20-8c6c-4e0c0d43987e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, IDebugSymbols2::WriteTypedDataVirtual, debugger.writetypeddatavirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols3, IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method, WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, debugger.writetypeddatavirtual, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols2::WriteTypedDataVirtual, WriteTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, WriteTypedDataVirtual method [Windows Debugging], dbgeng/IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols2, IDebugSymbols3, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.WriteTypedDataVirtual
 -	IDebugSymbols2.WriteTypedDataVirtual
 -	IDebugSymbols3.WriteTypedDataVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::WriteTypedDataVirtual method
@@ -107,7 +107,9 @@ Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NU
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,15 +137,19 @@ The method was successful.  All the bytes in the buffer <i>Buffer</i> were writt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>.
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+
 
 

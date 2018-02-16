@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYDISPLAYIDOUT
-title: _DXGK_QUERYDISPLAYIDOUT
+title: "_DXGK_QUERYDISPLAYIDOUT"
 author: windows-driver-content
 description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidout.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BF528089-0194-4A3F-B8BA-85F80974C4C2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYDISPLAYIDOUT structure [Display Devices], DXGK_QUERYDISPLAYIDOUT, _DXGK_QUERYDISPLAYIDOUT, display.dxgk_querydisplayidout, d3dkmddi/DXGK_QUERYDISPLAYIDOUT
+ms.keywords: display.dxgk_querydisplayidout, _DXGK_QUERYDISPLAYIDOUT, d3dkmddi/DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_QUERYDISPLAYIDOUT
 product: Windows
 targetos: Windows

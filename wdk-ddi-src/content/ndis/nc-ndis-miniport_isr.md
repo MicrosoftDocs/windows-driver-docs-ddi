@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	MiniportInterrupt
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # MINIPORT_ISR callback
@@ -80,8 +80,8 @@ BOOLEAN MiniportInterrupt(
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
-     <mshelp:link keywords="netvista.ndismregisterinterruptex" tabindex="0"><b>
-     NdisMRegisterInterruptEx</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+     NdisMRegisterInterruptEx</a> function.
 
 
 ### -param QueueDefaultInterruptDpc [out]
@@ -105,14 +105,18 @@ A bitmask that indicates the target processors for which NDIS should schedule a 
      <i>TargetProcessors</i> is set to zero, NDIS will not schedule any DPCs. Otherwise,
      NDIS will schedule DPCs regardless of the return value from 
      <i>MiniportInterrupt</i>.
+
 <div class="alert"><b>Note</b>  NDIS
      6.20 and later drivers should not use this parameter to schedule DPCs. Instead, they should set this parameter to zero and use the 
-     <a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a> function to schedule DPCs.</div><div> </div>
+     <a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a> function to schedule DPCs.</div>
+<div> </div>
 
 ## -returns
 
 
+
 <i>MiniportInterrupt</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,15 +148,20 @@ A bitmask that indicates the target processors for which NDIS should schedule a 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 <div class="alert"><b>Note</b>  NDIS will queue DPCs based on the values that are specified in the 
       <i>QueueDefaultInterruptDpc</i> and 
       <i>TargetProcessors</i> parameters regardless of the value that 
       <i>MiniportInterrupt</i> returns. However, 
-      <i>MiniportInterrupt</i> must still return the correct value.</div><div> </div>
+      <i>MiniportInterrupt</i> must still return the correct value.</div>
+<div> </div>
+
 
 
 ## -remarks
+
 
 
 Miniport drivers that register an interrupt with the 
@@ -189,6 +198,7 @@ If the underlying NIC generated the specified interrupt and the miniport driver 
 The miniport driver should set 
     <i>QueueDefaultInterruptDpc</i> to <b>TRUE</b> to schedule a DPC for the default CPU only.
     The driver could do this, for example, if:
+
 <ul>
 <li>
 The NIC generated the interrupt to signal the completion of a send operation, or any other request
@@ -204,34 +214,38 @@ The NIC generated the interrupt to signal received data and the miniport driver 
 The interrupt indicates received packets and the miniport driver can process received packets in
       separate DPCs, but <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> is not enabled for the miniport driver. For more information,
       see 
-      <mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
-      OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link> and 
-      <mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-      OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>.
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+      OID_GEN_RECEIVE_SCALE_CAPABILITIES</a> and 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+      OID_GEN_RECEIVE_SCALE_PARAMETERS</a>.
 
 </li>
-</ul>If a miniport driver processes received packets in separate DPCs, the driver sets the 
+</ul>
+If a miniport driver processes received packets in separate DPCs, the driver sets the 
     <i>QueueDefaultInterruptDpc</i> parameter to <b>FALSE</b>. The miniport driver should set the
     
     <i>TargetProcessors</i> bit for the CPU that is associated with each nonempty receive
     queue. NDIS will schedule a DPC on each of the indicated CPUs.
+
 <div class="alert"><b>Note</b>  NDIS will queue DPCs based on the values that are specified in the 
     <i>QueueDefaultInterruptDpc</i> and 
     <i>TargetProcessors</i> parameters regardless of the value that 
     <i>MiniportInterrupt</i> returns. However, 
-    <i>MiniportInterrupt</i> must still return the correct value.</div><div> </div>If 
+    <i>MiniportInterrupt</i> must still return the correct value.</div>
+<div> </div>
+If 
     <i>MiniportInterrupt</i> shares resources, such as NIC registers or state variables,
     with another 
     <i>MiniportXxx</i> function that runs at a lower IRQL, that 
     <i>MiniportXxx</i> function must call the 
-    <mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-    NdisMSynchronizeWithInterruptEx</b></mshelp:link> function. This ensures that the driver's 
+    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    NdisMSynchronizeWithInterruptEx</a> function. This ensures that the driver's 
     <i>MiniportSynchronizeInterrupt</i> function accesses the shared resources in a
     synchronized and multiprocessor-safe manner.
 
 A miniport driver can call the 
-    <mshelp:link keywords="netvista.ndismderegisterinterruptex" tabindex="0"><b>
-    NdisMDeregisterInterruptEx</b></mshelp:link> function from its 
+    <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">
+    NdisMDeregisterInterruptEx</a> function from its 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> or 
     <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function to release
     resources that it allocated with 
@@ -248,9 +262,12 @@ NDIS calls
     <i>MiniportInterrupt</i> must call the subset of the NDIS functions, such as the 
     <b>NdisRaw</b><i>Xxx</i> or 
     <b>NdisRead/WriteRegister</b><i>Xxx</i> functions, that are safe to call at any IRQL.
-<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>To define a <i>MiniportInterrupt</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
+To define a <i>MiniportInterrupt</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportInterrupt</i> function that is named "MyInterrupt", use the <b>MINIPORT_ISR</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -260,7 +277,9 @@ For example, to define a <i>MiniportInterrupt</i> function that is named "MyInte
 <pre>MINIPORT_ISR MyInterrupt;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -277,42 +296,68 @@ BOOLEAN
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>MINIPORT_ISR</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_ISR</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>MINIPORT_ISR</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_ISR</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndismsynchronizewithinterruptex" tabindex="0"><b>
-   NdisMSynchronizeWithInterruptEx</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+   NdisMSynchronizeWithInterruptEx</a>
 
-<mshelp:link keywords="netvista.oid_gen_receive_scale_capabilities" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
+   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
-<mshelp:link keywords="netvista.miniportsynchronizeinterrupt" tabindex="0"><i>
-   MiniportSynchronizeInterrupt</i></mshelp:link>
-
-<mshelp:link keywords="netvista.oid_gen_receive_scale_parameters" tabindex="0">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</mshelp:link>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismqueuedpcex.md">NdisMQueueDpcEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_interrupt_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b></mshelp:link>
+
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
 
  
 

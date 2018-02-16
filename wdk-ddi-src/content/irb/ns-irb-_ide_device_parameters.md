@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_DEVICE_PARAMETERS
-title: _IDE_DEVICE_PARAMETERS
+title: "_IDE_DEVICE_PARAMETERS"
 author: windows-driver-content
 description: The IDE_DEVICE_PARAMETERS structure contains configuration information that the port driver provides to the miniport driver to configure a device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_device_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], irb/PIDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], irb/IDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, storage.ide_device_parameters, IDE_DEVICE_PARAMETERS, _IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS
+ms.keywords: storage.ide_device_parameters, _IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS, irb/IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, IDE_DEVICE_PARAMETERS structure [Storage Devices], IDE_DEVICE_PARAMETERS, irb/PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	IDE_DEVICE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS
+req.typenames: "*PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS"
 ---
 
 # _IDE_DEVICE_PARAMETERS structure
@@ -88,36 +88,6 @@ typedef struct _IDE_DEVICE_PARAMETERS {
 
 
 
-### -field Chs
-
-Specifies the drive geometry with the values for the number of cylinders, heads per cylinder, and the sectors per track. This member is defined when <b>AddressTranslation</b> is equal to <b>ChsMode</b>.
-
-
-### -field Chs.NumCylinders
-
- 
-
-
-### -field Chs.NumHeads
-
- 
-
-
-### -field Chs.NumSectorsPerTrack
-
- 
-
-
-### -field Chs.Reserved
-
- 
-
-
-### -field MaxLba
-
-Specifies the maximum user-addressable logical block address (LBA). This member is defined when <b>AddressTranslation</b> is equal to either <b>LbaMode</b> or <b>Lba48BitMode</b>.
-
-
 ### -field Version
 
 Indicates the size of the <i>Device</i> parameters structure. The miniport driver should verify that sizeof(IDE_DEVICE_PARAMETERS) is less than or equal to the <b>Version</b> field.
@@ -151,6 +121,7 @@ Specifies the number of sectors in a block of data to be transferred. This value
 ### -field DeviceCharacteristics
 
 Specifies the device characteristics. The table below lists the characteristics that could be set in this member. The high byte of this member is opaque and shall not be changed by the ATA miniport.
+
 <table>
 <tr>
 <th>Device Characteristic</th>
@@ -206,12 +177,43 @@ Indicates that the device supports Media Status Notification.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AddressTranslation
 
 Contains an enumeration value of type <a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
+
+
+### -field MaxLba
+
+Specifies the maximum user-addressable logical block address (LBA). This member is defined when <b>AddressTranslation</b> is equal to either <b>LbaMode</b> or <b>Lba48BitMode</b>.
+
+
+### -field Chs
+
+Specifies the drive geometry with the values for the number of cylinders, heads per cylinder, and the sectors per track. This member is defined when <b>AddressTranslation</b> is equal to <b>ChsMode</b>.
+
+
+### -field Chs.NumCylinders
+
+ 
+
+
+### -field Chs.NumHeads
+
+ 
+
+
+### -field Chs.NumSectorsPerTrack
+
+ 
+
+
+### -field Chs.Reserved
+
+ 
 
 
 ### -field BytesPerLogicalSector
@@ -242,7 +244,9 @@ Indicates the selected transfer modes on the device. The miniport driver must se
 ## -remarks
 
 
+
 The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>.
+
 
 
 
@@ -250,9 +254,15 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 <a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
 
-<a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
+
+
+
+<a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
+
+
 
  
 

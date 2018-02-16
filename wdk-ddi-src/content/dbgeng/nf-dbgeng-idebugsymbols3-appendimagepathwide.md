@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9a129ce5-4493-4838-9a6c-8a3c054e7c27
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AppendImagePathWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AppendImagePathWide, debugger.appendimagepathwide, IDebugSymbols3 interface [Windows Debugging], AppendImagePathWide method, AppendImagePathWide, AppendImagePathWide method [Windows Debugging], IDebugSymbols3::AppendImagePathWide, IDebugSymbols3
+ms.keywords: IDebugSymbols3::AppendImagePathWide, IDebugSymbols3 interface [Windows Debugging], AppendImagePathWide method, AppendImagePathWide, IDebugSymbols3, debugger.appendimagepathwide, AppendImagePathWide method [Windows Debugging], dbgeng/IDebugSymbols3::AppendImagePathWide, AppendImagePathWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.AppendImagePathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::AppendImagePathWide method
@@ -75,6 +75,7 @@ Specifies the directories to append to the executable image path.  This is a str
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -91,13 +92,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The executable image path is used by the <a href="https://msdn.microsoft.com/1e32bd40-8c77-4c6b-913c-6ec26707ed36">engine</a> when searching for executable images.
@@ -106,13 +110,20 @@ The executable image path can consist of several directories separated by semico
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

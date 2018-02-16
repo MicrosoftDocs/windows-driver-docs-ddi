@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: faafc6d0-f311-46c1-87c1-8b0ea20984db
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AppendImagePath, IDebugSymbols_ea3dc04a-42d9-4457-830d-5544f50c5a97.xml, IDebugSymbols::AppendImagePath, AppendImagePath method [Windows Debugging], IDebugSymbols3 interface, AppendImagePath method [Windows Debugging], IDebugSymbols interface, AppendImagePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], AppendImagePath method, debugger.appendimagepath, IDebugSymbols3::AppendImagePath, IDebugSymbols3, IDebugSymbols interface [Windows Debugging], AppendImagePath method, IDebugSymbols2 interface [Windows Debugging], AppendImagePath method, AppendImagePath method [Windows Debugging], dbgeng/IDebugSymbols3::AppendImagePath, IDebugSymbols2::AppendImagePath, dbgeng/IDebugSymbols2::AppendImagePath, dbgeng/IDebugSymbols::AppendImagePath
+ms.keywords: IDebugSymbols3::AppendImagePath, debugger.appendimagepath, AppendImagePath method [Windows Debugging], AppendImagePath, IDebugSymbols3 interface [Windows Debugging], AppendImagePath method, IDebugSymbols2 interface [Windows Debugging], AppendImagePath method, dbgeng/IDebugSymbols3::AppendImagePath, dbgeng/IDebugSymbols::AppendImagePath, AppendImagePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2, AppendImagePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_ea3dc04a-42d9-4457-830d-5544f50c5a97.xml, IDebugSymbols3, IDebugSymbols, AppendImagePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], AppendImagePath method, IDebugSymbols2::AppendImagePath, dbgeng/IDebugSymbols2::AppendImagePath, IDebugSymbols::AppendImagePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.AppendImagePath
 -	IDebugSymbols2.AppendImagePath
 -	IDebugSymbols3.AppendImagePath
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::AppendImagePath method
@@ -77,6 +77,7 @@ Specifies the directories to append to the executable image path.  This is a str
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,13 +94,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The executable image path is used by the <a href="https://msdn.microsoft.com/1e32bd40-8c77-4c6b-913c-6ec26707ed36">engine</a> when searching for executable images.
@@ -108,17 +112,28 @@ The executable image path can consist of several directories separated by semico
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
+
+
 
  
 

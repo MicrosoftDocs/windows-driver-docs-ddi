@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 6827df53-f970-4ceb-961d-b4b95fa56cfe
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSQUERYBUFFER, ks/KSQUERYBUFFER, stream.ksquerybuffer, ks/PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], PKSQUERYBUFFER, *PKSQUERYBUFFER, ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, KSQUERYBUFFER structure [Streaming Media Devices]
+ms.keywords: ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], stream.ksquerybuffer, *PKSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, KSQUERYBUFFER, ks/KSQUERYBUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSQUERYBUFFER
 product: Windows
 targetos: Windows
@@ -87,11 +87,13 @@ Not used, and set to zero.
 ## -remarks
 
 
+
 If KSEVENT_TYPE_ENABLEBUFFERED was used to enable an event that also buffers data, then the data produced by the event can be queried using this method. The description of the event being queried is provided as the first parameter, and any buffer is provided as the second parameter to the query.
 
 The buffer length needed can be queried by providing a zero length output buffer. The size of buffer is returned in the <b>BytesReturned</b> parameter, with a warning status of STATUS_BUFFER_OVERFLOW.
 
 Alternatively, the query returns one of the following status values:
+
 <table>
 <tr>
 <th>Return Value</th>
@@ -147,7 +149,9 @@ life is good.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -155,7 +159,11 @@ life is good.
 
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 
+
+
 <a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
+
+
 
  
 

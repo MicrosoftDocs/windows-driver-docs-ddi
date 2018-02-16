@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_REGISTER_SERVER
-title: _BRB_SCO_REGISTER_SERVER
+title: "_BRB_SCO_REGISTER_SERVER"
 author: windows-driver-content
 description: A profile driver uses the _BRB_SCO_REGISTER_SERVER structure to register itself as a server capable of receiving SCO connections from remote Bluetooth devices.
 old-location: bltooth\_brb_sco_register_server.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: bltooth._brb_sco_register_server, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], bthddi/_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER
+ms.keywords: "_BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, _BRB_SCO_REGISTER_SERVER, bltooth._brb_sco_register_server, bthddi/_BRB_SCO_REGISTER_SERVER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_SCO_REGISTER_SERVER
 product: Windows
 targetos: Windows
@@ -97,6 +97,7 @@ Reserved for future use. Do not use.
 A flag that indicates when the callback function that is specified in the 
      <b>IndicationCallback</b> member should be called. The following flags are defined.
      
+
 <table>
 <tr>
 <td>
@@ -128,7 +129,8 @@ Notify the profile driver if there are any incoming eSCO connections.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field IndicationCallback
@@ -156,19 +158,20 @@ A pointer to an object to pass to the
      <b>IndicationCallback</b> member. The Bluetooth driver stack will decrease the reference count of the
      object when the profile driver 
      <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a 
-     <mshelp:link keywords="bltooth.brb_sco_unregister_server" tabindex="0"><b>
-     BRB_SCO_UNREGISTER_SERVER</b></mshelp:link> request.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">
+     BRB_SCO_UNREGISTER_SERVER</a> request.
 
 
 ### -field ServerHandle
 
 Handle to the SCO server, if successfully returned. When the profile driver should no longer
      receive remote connect indications it should pass this handle to 
-     <mshelp:link keywords="bltooth.brb_sco_unregister_server" tabindex="0"><b>
-     BRB_SCO_UNREGISTER_SERVER</b></mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">
+     BRB_SCO_UNREGISTER_SERVER</a>.
 
 
 ## -remarks
+
 
 
 To register itself as a SCO server, a profile driver should 
@@ -186,8 +189,8 @@ After the profile driver has registered itself, the Bluetooth driver stack can n
 
 When the profile driver receives notification of a connection attempt, it should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_sco_open_channel_response" tabindex="0"><b>
-    BRB_SCO_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request to either accept or reject the connection attempt. For more
+    <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
+    BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request to either accept or reject the connection attempt. For more
     information about accepting or rejecting SCO connection attempts, see the 
     <a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a> structure.
 
@@ -196,24 +199,37 @@ After a connection is established, the profile driver can issue other BRBs to co
 
 To stop receiving remote connection notifications, a profile driver should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_sco_unregister_server" tabindex="0"><b>
-    BRB_SCO_UNREGISTER_SERVER</b></mshelp:link> request.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">
+    BRB_SCO_UNREGISTER_SERVER</a> request.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
+
 
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
+
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
+
+
+
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_RedirectSessionInfo
-title: _ISCSI_RedirectSessionInfo
+title: "_ISCSI_RedirectSessionInfo"
 author: windows-driver-content
 description: This ISCSI_RedirectSessionInfo structure contains information about an iSCSI session and its portal information resulted from iSCSI target redirection.
 old-location: storage\iscsi_redirectsessioninfo.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3980ac7-b539-4a8f-9869-14d418ebe1e7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ISCSI_RedirectSessionInfo structure [Storage Devices], structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml, PISCSI_RedirectSessionInfo, iscsimgt/PISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo, _ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices]
+ms.keywords: "*PISCSI_RedirectSessionInfo, _ISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml, ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo structure [Storage Devices], PISCSI_RedirectSessionInfo structure pointer [Storage Devices], storage.iscsi_redirectsessioninfo, iscsimgt/PISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsimgt.h
-apiname: 
+apiname:
 -	ISCSI_RedirectSessionInfo
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo
+req.typenames: "*PISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo"
 ---
 
 # _ISCSI_RedirectSessionInfo structure
@@ -94,7 +94,11 @@ This provides the redirection information, and it has as many entries as the num
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
 
  
 

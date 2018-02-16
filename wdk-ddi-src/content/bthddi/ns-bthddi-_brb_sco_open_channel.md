@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_OPEN_CHANNEL
-title: _BRB_SCO_OPEN_CHANNEL
+title: "_BRB_SCO_OPEN_CHANNEL"
 author: windows-driver-content
 description: The _BRB_SCO_OPEN_CHANNEL structure describes a SCO channel to open to a remote device, or a response from the profile driver accepting or rejecting an incoming SCO connection request that was initiated by a remote device.
 old-location: bltooth\_brb_sco_open_channel.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 7f73aaec-09fb-45f2-bff0-daef9fdb9b90
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL, bltooth._brb_sco_open_channel, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml
+ms.keywords: bthddi/_BRB_SCO_OPEN_CHANNEL, bltooth._brb_sco_open_channel, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], _BRB_SCO_OPEN_CHANNEL, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_SCO_OPEN_CHANNEL
 product: Windows
 targetos: Windows
@@ -111,6 +111,7 @@ The reception bandwidth, in bytes per second, to be assigned to the SCO channel.
 A value that represents, in milliseconds, the upper limit of the sum of the synchronous interval
      and the size of the (e)SCO window. Possible values are listed in the following table.
      
+
 <table>
 <tr>
 <td>
@@ -155,7 +156,8 @@ The channel doesn't have a preferred
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PacketType
@@ -164,6 +166,30 @@ A flag or combination of flags that indicate the type of data packets that the S
      supports. These SCO packet types are defined by the Bluetooth SIG. See the Bluetooth specification for
      more information about these flags. Possible values include:
      
+
+
+
+#### SCO_HV1
+
+
+
+#### SCO_HV2
+
+
+
+#### SCO_HV3
+
+
+
+#### SCO_EV3
+
+
+
+#### SCO_EV4
+
+
+
+#### SCO_EV5
 
 
 ### -field ContentFormat
@@ -222,8 +248,8 @@ Reserved for future use. Do not use.
 ### -field RetransmissionEffort
 
 A 
-     <mshelp:link keywords="bltooth.sco_retransmission_effort" tabindex="0"><b>
-     SCO_RETRANSMISSION_EFFORT</b></mshelp:link> enumeration value that determines the retransmission policies for the
+     <a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">
+     SCO_RETRANSMISSION_EFFORT</a> enumeration value that determines the retransmission policies for the
      channel.
 
 
@@ -232,6 +258,7 @@ A
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
      the following table:
      
+
 <table>
 <tr>
 <td>
@@ -273,7 +300,8 @@ The profile driver indicates its preference that users not be prompted for a PIN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field CallbackFlags
@@ -281,6 +309,7 @@ The profile driver indicates its preference that users not be prompted for a PIN
 A flag that specifies when the function assigned to the 
      <b>Callback</b> member should be sent to the client. Currently, there is only one valid flag:
      
+
 <table>
 <tr>
 <td>
@@ -302,7 +331,8 @@ The profile driver should be notified when the remote device is disconnected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Callback
@@ -338,6 +368,7 @@ A flag that indicates whether the local server will accept or reject an incoming
      This member is used only when building and sending a <b>BRB_SCO_OPEN_CHANNEL_RESPONSE</b> request. Valid flag
      values are listed in the following table.
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -385,34 +416,12 @@ The local server rejects the SCO connection request because it does not accept c
 
 </td>
 </tr>
-</table> 
-
-
-##### - PacketType.SCO_EV3
-
-
-
-##### - PacketType.SCO_EV5
-
-
-
-##### - PacketType.SCO_EV4
-
-
-
-##### - PacketType.SCO_HV2
-
-
-
-##### - PacketType.SCO_HV3
-
-
-
-##### - PacketType.SCO_HV1
-
+</table>
+ 
 
 
 ## -remarks
+
 
 
 To open a SCO channel, profile drivers should 
@@ -425,8 +434,8 @@ If the asynchronous connectionless link to the remote device does not exist prio
 To accept or reject an incoming SCO connection request initiated by a remote device, profile drivers
     should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_sco_open_channel_response" tabindex="0"><b>
-    BRB_SCO_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
+    <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
+    BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
 
 A profile driver should build and send a <b>BRB_SCO_OPEN_CHANNEL_RESPONSE</b> request when the Bluetooth
     driver stack calls the profile driver's 
@@ -440,21 +449,36 @@ The profile driver specifies whether the connection should be accepted by storin
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
 
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 <a href="https://social.msdn.microsoft.com/Forums/en-US/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
+
+<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
 
  
 

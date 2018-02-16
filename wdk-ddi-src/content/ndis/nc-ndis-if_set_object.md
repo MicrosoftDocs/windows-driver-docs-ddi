@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	*IFP_SET_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # IF_SET_OBJECT callback
@@ -80,16 +80,16 @@ typedef IF_SET_OBJECT *IFP_SET_OBJECT;
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
-     <mshelp:link keywords="netvista.ndisifregisterinterface" tabindex="0"><b>
-     NdisIfRegisterInterface</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+     NdisIfRegisterInterface</a> function.
 
 
 ### -param ObjectId [in]
 
 An identifier for the object that is the target of the set request. For a list of object
      identifiers (OIDs) that apply to interface providers, see 
-     <mshelp:link keywords="netvista.ndis_network_interface_oids" tabindex="0">NDIS Network Interface
-     OIDs</mshelp:link>.
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/mapping-of-ndis-network-interfaces-to-ndis-oids">NDIS Network Interface
+     OIDs</a>.
 
 
 ### -param InputBufferLength [in]
@@ -107,7 +107,9 @@ A pointer to an input buffer that specifies the information that the interface p
 ## -returns
 
 
+
 <i>ProviderSetObject</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -158,11 +160,14 @@ The call failed for some other reason. This function can propagate error codes f
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS calls a network interface provider's 
@@ -177,9 +182,12 @@ NDIS calls
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+
+
 
  
 

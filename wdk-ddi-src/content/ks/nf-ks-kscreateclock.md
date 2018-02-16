@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a125161d-c086-45a4-9b66-4c13d9ed5f11
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateClock, ks/KsCreateClock, stream.kscreateclock, KsCreateClock function [Streaming Media Devices], ksfunc_ba840ce8-a1c9-4ede-8d2e-6e2829ad9b11.xml
+ms.keywords: KsCreateClock function [Streaming Media Devices], ks/KsCreateClock, stream.kscreateclock, KsCreateClock, ksfunc_ba840ce8-a1c9-4ede-8d2e-6e2829ad9b11.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
-apiname: 
+apiname:
 -	KsCreateClock
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ Specifies the new clock handle.
 ## -returns
 
 
+
 The <b>KsCreateClock</b> function returns STATUS_SUCCESS if successful, or it returns an error on clock creation failure.
+
 
 

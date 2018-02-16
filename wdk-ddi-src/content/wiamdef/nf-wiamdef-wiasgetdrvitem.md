@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: c09924ef-cd2c-419c-81d5-bbd40b886767
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, wiasGetDrvItem function [Imaging Devices], wiamdef/wiasGetDrvItem, wiasGetDrvItem, image.wiasgetdrvitem
+ms.keywords: wiasGetDrvItem, wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, wiasGetDrvItem function [Imaging Devices], wiamdef/wiasGetDrvItem, image.wiasgetdrvitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasGetDrvItem
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - ppDrvItem [out]
 
 Pointer to a memory location that receives the address of an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a>.
@@ -88,7 +89,9 @@ Pointer to a memory location that receives the address of an <a href="..\wiamind
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
@@ -96,7 +99,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 <a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
-title: _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
+title: "_D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration indicates the importance of a video present path.
 old-location: display\d3dkmdt_vidpn_present_path_importance.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a48eda3c-84cb-4413-a325-79c330be3f18
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration [Display Devices], D3DKMDT_VPPI_NONARY, D3DKMDT_VPPI_QUINARY, d3dkmdt/D3DKMDT_VPPI_DENARY, D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VPPI_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_PRIMARY, d3dkmdt/D3DKMDT_VPPI_SEPTENARY, D3DKMDT_VPPI_SEPTENARY, d3dkmdt/D3DKMDT_VPPI_NONARY, d3dkmdt/D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_OCTONARY, D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_SENARY, D3DKMDT_VPPI_TERTIARY, d3dkmdt/D3DKMDT_VPPI_TERTIARY, D3DKMDT_VPPI_DENARY, D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_UNINITIALIZED, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, display.d3dkmdt_vidpn_present_path_importance, d3dkmdt/D3DKMDT_VPPI_PRIMARY, D3DKMDT_VPPI_OCTONARY, D3DKMDT_VPPI_SENARY, DmEnums_711fdb2d-86cd-4ac4-9529-818b3953dff5.xml, d3dkmdt/D3DKMDT_VPPI_QUINARY
+ms.keywords: d3dkmdt/D3DKMDT_VPPI_SECONDARY, d3dkmdt/D3DKMDT_VPPI_DENARY, d3dkmdt/D3DKMDT_VPPI_PRIMARY, D3DKMDT_VPPI_QUATERNARY, D3DKMDT_VPPI_NONARY, D3DKMDT_VPPI_SECONDARY, D3DKMDT_VPPI_TERTIARY, D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, D3DKMDT_VPPI_SENARY, D3DKMDT_VPPI_OCTONARY, D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration [Display Devices], d3dkmdt/D3DKMDT_VPPI_UNINITIALIZED, D3DKMDT_VPPI_DENARY, D3DKMDT_VPPI_QUINARY, D3DKMDT_VPPI_PRIMARY, d3dkmdt/D3DKMDT_VPPI_SEPTENARY, d3dkmdt/D3DKMDT_VPPI_OCTONARY, d3dkmdt/D3DKMDT_VPPI_QUINARY, display.d3dkmdt_vidpn_present_path_importance, _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VPPI_QUATERNARY, DmEnums_711fdb2d-86cd-4ac4-9529-818b3953dff5.xml, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE, d3dkmdt/D3DKMDT_VPPI_SENARY, D3DKMDT_VPPI_SEPTENARY, d3dkmdt/D3DKMDT_VPPI_TERTIARY, D3DKMDT_VPPI_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPI_NONARY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
 product: Windows
 targetos: Windows
@@ -135,6 +135,7 @@ Indicates importance level 10.
 ## -remarks
 
 
+
 As the numeric value of a D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE value increases, the importance decreases. For example, level 3 is less important than level 2.
 
 A variable of type D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE can have any integer value in the range 0 through 255, but only the values 0 through 10 have names.
@@ -145,9 +146,12 @@ The <b>ImportanceOrdinal</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkm
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
+
+
 
  
 

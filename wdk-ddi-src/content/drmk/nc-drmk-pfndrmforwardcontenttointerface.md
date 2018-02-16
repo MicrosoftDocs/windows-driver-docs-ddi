@@ -7,7 +7,7 @@ old-location: audio\pfndrmforwardcontenttointerface.htm
 old-project: audio
 ms.assetid: DFD077B7-307B-439B-828D-DC225FC5AAA0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.pfndrmforwardcontenttointerface, DRMForwardContentToInterface callback function [Audio Devices], DRMForwardContentToInterface, PFNDRMFORWARDCONTENTTOINTERFACE, PFNDRMFORWARDCONTENTTOINTERFACE, drmk/DRMForwardContentToInterface, DRMForwardContentToInterface callback function [Audio Devices], DRMForwardContentToInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Drmk.h
-apiname: 
+apiname:
 -	DRMForwardContentToInterface
 product: Windows
 targetos: Windows
@@ -92,6 +92,8 @@ This parameter is reserved for system use.
 ## -returns
 
 
+
 This return value is reserved for system use.
+
 
 

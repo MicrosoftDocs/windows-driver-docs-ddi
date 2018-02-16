@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6b60fa1-23ed-44dd-8300-c66d5f907993
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], fwpsk/FWPS_STREAM_DATA_OFFSET0, netvista.fwps_stream_data_offset0, FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0_, wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml
+ms.keywords: FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_stream_data_offset0, FWPS_STREAM_DATA_OFFSET0, fwpsk/FWPS_STREAM_DATA_OFFSET0, wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml, FWPS_STREAM_DATA_OFFSET0_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_STREAM_DATA_OFFSET0
 product: Windows
 targetos: Windows
@@ -112,6 +112,7 @@ Reserved for system use. Callout drivers must not use this member.
 ## -remarks
 
 
+
 An FWPS_STREAM_DATA_OFFSET0 structure is contained within an 
     <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a> structure. The
     FWPS_STREAM_DATA_OFFSET0 structure specifies an offset into the data stream.
@@ -124,13 +125,20 @@ The combination of the
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\ns-fwpsk-fwps_stream_data0_.md">FWPS_STREAM_DATA0</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

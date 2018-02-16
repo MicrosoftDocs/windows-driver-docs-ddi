@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 88d54fbc-e865-4a59-bb1c-75adfb49c355
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportqueryservices, VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, video/VideoPortQueryServices, VideoPortQueryServices function [Display Devices], VideoPortQueryServices
+ms.keywords: VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, VideoPortQueryServices function [Display Devices], video/VideoPortQueryServices, VideoPortQueryServices, display.videoportqueryservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortQueryServices
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure, whi
 ## -returns
 
 
+
 If <b>VideoPortQueryServices</b> succeeds, it returns NO_ERROR; otherwise, it returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesI2C</b>, the <i>Interface</i> parameter must be a pointer to a <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a> structure, cast as a pointer to an INTERFACE structure.
@@ -109,23 +112,40 @@ If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProte
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-<a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
-
-<a href="..\video\ns-video-_video_port_wcmemoryprotection_interface.md">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a>
-
-<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
-
-<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
-
-<a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
 
 <a href="..\videoagp\nc-videoagp-pagp_set_rate.md">AgpSetRate</a>
 
+
+
 <a href="..\video\ns-video-_video_port_debug_report_interface.md">VIDEO_PORT_DEBUG_REPORT_INTERFACE</a>
+
+
+
+<a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
+
+
+
+<a href="..\video\ns-video-_video_port_wcmemoryprotection_interface.md">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a>
+
+
+
+<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
+
+
+
+<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
+
+
 
  
 

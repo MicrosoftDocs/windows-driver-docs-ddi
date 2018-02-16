@@ -7,8 +7,8 @@ old-location: print\ipartimage_setimagecontent.htm
 old-project: print
 ms.assetid: 5d7a59ac-93de-4a41-9313-df189e1f6e36
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SetImageContent method [Print Devices], SetImageContent method [Print Devices], IPartImage interface, IPartImage::SetImageContent, filterpipeline/IPartImage::SetImageContent, IPartImage interface [Print Devices], SetImageContent method, print.ipartimage_setimagecontent, filterpipeline_1bbf6da0-f016-486d-a06d-768614fe1d5a.xml, IPartImage, SetImageContent
+ms.date: 2/2/2018
+ms.keywords: filterpipeline/IPartImage::SetImageContent, IPartImage interface [Print Devices], SetImageContent method, IPartImage::SetImageContent, filterpipeline_1bbf6da0-f016-486d-a06d-768614fe1d5a.xml, IPartImage, SetImageContent, SetImageContent method [Print Devices], print.ipartimage_setimagecontent, SetImageContent method [Print Devices], IPartImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartImage.SetImageContent
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ HRESULT SetImageContent(
 
 
 
+
 #### - contentType [in]
 
 The type of content of the image.
@@ -81,6 +82,8 @@ The type of content of the image.
 ## -returns
 
 
+
 <b>SetImageContent</b> returns an <b>HRESULT</b> value.
+
 
 

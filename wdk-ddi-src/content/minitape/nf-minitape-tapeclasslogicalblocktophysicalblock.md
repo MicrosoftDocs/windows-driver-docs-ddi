@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4ad11a15-ba72-4921-a00a-6d3bfb443b51
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: tapeclas_6d45358d-68a6-4f00-991e-714a489fd78d.xml, minitape/TapeClassLogicalBlockToPhysicalBlock, storage.tapeclasslogicalblocktophysicalblock, TapeClassLogicalBlockToPhysicalBlock routine [Storage Devices], TapeClassLogicalBlockToPhysicalBlock
+ms.keywords: storage.tapeclasslogicalblocktophysicalblock, tapeclas_6d45358d-68a6-4f00-991e-714a489fd78d.xml, TapeClassLogicalBlockToPhysicalBlock, TapeClassLogicalBlockToPhysicalBlock routine [Storage Devices], minitape/TapeClassLogicalBlockToPhysicalBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Tape.lib
 -	Tape.dll
-apiname: 
+apiname:
 -	TapeClassLogicalBlockToPhysicalBlock
 product: Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
 ---
 
 # TapeClassLogicalBlockToPhysicalBlock function
@@ -94,6 +94,7 @@ Specifies the logical block size, in bytes.
 ## -returns
 
 
+
 <b>TapeClassLogicalBlockToPhysicalBlock</b> returns a structure containing the physical block address:
       
 
@@ -107,7 +108,9 @@ ULONG SpaceBlockCount;
 
 
 
+
 ## -remarks
+
 
 
 A tape miniclass driver calls <b>TapeClassLogicalBlockToPhysicalBlock</b> to translate a logical block address from an application to a physical block address for a tape device. <b>TapeClassLogicalBlockToPhysicalBlock</b> is not necessary for SCSI-2 or later drivers because devices that comply with SCSI-2 or later standards support logical block addressing.
@@ -118,9 +121,12 @@ If a tape miniclass driver calls this routine with an unsupported tape density c
 
 
 
+
 ## -see-also
 
 <a href="..\minitape\nf-minitape-tapeclassphysicalblocktologicalblock.md">TapeClassPhysicalBlockToLogicalBlock</a>
+
+
 
  
 

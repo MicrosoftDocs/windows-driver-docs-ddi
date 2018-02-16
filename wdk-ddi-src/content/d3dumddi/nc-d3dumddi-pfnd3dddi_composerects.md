@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	ComposeRects
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY ComposeRects(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_composerects.md">D3DDDIARG_COMPOSERECTS</a> structure that specifies the parameters that are used to compose rectangular areas.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY ComposeRects(
 ## -returns
 
 
+
 <b>ComposeRects</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,14 +124,18 @@ The rectangular areas were successfully composed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The following constraints and validations apply to the <b>ComposeRects</b> function:
+
 <ul>
 <li>
 The driver should ignore the source rectangular areas that are not completely inside the source surface. 
@@ -165,7 +173,9 @@ Surfaces and vertex buffers should be created by using the same display device (
 Local display memory should be specified for the destination surface.
 
 </li>
-</ul>The following example code shows an operation that <b>ComposeRects</b> performs:
+</ul>
+The following example code shows an operation that <b>ComposeRects</b> performs:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -189,11 +199,16 @@ Local display memory should be specified for the destination surface.
 </table></span></div>
 
 
+
 ## -see-also
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_composerects.md">D3DDDIARG_COMPOSERECTS</a>
+
+
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_composerects.md">D3DDDIARG_COMPOSERECTS</a>
+
 
  
 

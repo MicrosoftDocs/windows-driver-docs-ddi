@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KEY_VALUE_BASIC_INFORMATION
-title: _KEY_VALUE_BASIC_INFORMATION
+title: "_KEY_VALUE_BASIC_INFORMATION"
 author: windows-driver-content
 description: The KEY_VALUE_BASIC_INFORMATION structure defines a subset of the full information available for a value entry of a registry key.
 old-location: kernel\key_value_basic_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b3b14c21-3613-4f84-9e7d-368c4cc3fa9d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.key_value_basic_information, KEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_BASIC_INFORMATION, wdm/PKEY_VALUE_BASIC_INFORMATION, kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, *PKEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/KEY_VALUE_BASIC_INFORMATION
+ms.keywords: "_KEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PKEY_VALUE_BASIC_INFORMATION, *PKEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION, wdm/KEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION, kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, kernel.key_value_basic_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KEY_VALUE_BASIC_INFORMATION
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ Device and intermediate drivers should ignore this member.
 ### -field Type
 
 Specifies the system-defined type for the value entry in the registry key, which is one of the following:
+
 <table>
 <tr>
 <th>REG_<i>XXX</i> type</th>
@@ -204,7 +205,8 @@ A list of hardware resources that a physical device is using, detected and writt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field NameLength
@@ -220,21 +222,33 @@ A string of Unicode characters naming a value entry of the key.
 ## -remarks
 
 
+
 A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that describes a registry key by calling the <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a> or <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a> routine.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
 
-<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
+
 
 <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
 
+
+
+<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+
+
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+
+
 
  
 

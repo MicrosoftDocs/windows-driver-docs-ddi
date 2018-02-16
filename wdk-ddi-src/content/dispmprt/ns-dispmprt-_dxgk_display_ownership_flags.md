@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DISPLAY_OWNERSHIP_FLAGS
-title: _DXGK_DISPLAY_OWNERSHIP_FLAGS
+title: "_DXGK_DISPLAY_OWNERSHIP_FLAGS"
 author: windows-driver-content
 description: Structure filled in by OS upon successful completion of the DxgkCbAcquirePostDisplayOwnership2 callback to provide information about the display state a driver is inheriting.
 old-location: display\dxgk_display_ownership_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F5CA04FD-5E2A-4C68-97CF-F3D425A958AA
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PDXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags, _DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, *PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices]
+ms.keywords: DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], PDXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags, *PDXGK_DISPLAY_OWNERSHIP_FLAGS, _DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_DISPLAY_OWNERSHIP_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS
+req.typenames: "*PDXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS"
 ---
 
 # _DXGK_DISPLAY_OWNERSHIP_FLAGS structure

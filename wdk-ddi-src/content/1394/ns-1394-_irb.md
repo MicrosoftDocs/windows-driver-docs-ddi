@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB
-title: _IRB
+title: "_IRB"
 author: windows-driver-content
 description: Drivers use this structure to pass most requests to IEEE 1394 bus driver.
 old-location: ieee\irb.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 456712c9-720c-436c-b1db-a6d53c358e22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB, PIRB structure pointer [Buses], _IRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, *PIRB, 1394/PIRB, IRB structure [Buses], IEEE.irb, PIRB, 1394/IRB
+ms.keywords: IRB structure [Buses], _IRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IRB, *PIRB, PIRB, PIRB structure pointer [Buses], 1394/IRB, IEEE.irb, 1394/PIRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB
 product: Windows
 targetos: Windows
@@ -71,9 +71,30 @@ typedef struct _IRB {
 
 
 
+### -field FunctionNumber
+
+Determines the type of request. Each request type is documented under the value of <b>FunctionNumber</b> in <a href="https://msdn.microsoft.com/library/windows/hardware/ff537211">IEEE 1394 Bus I/O Requests</a>.
+
+
+### -field Flags
+
+Reserved. Drivers must set this member to zero with one exception. When making a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537647">REQUEST_ISOCH_ALLOCATE_BANDWIDTH</a> request, the caller can set the IRB_FLAG_ALLOW_REMOTE_FREE flag in <b>Flags</b> to indicate that the system should free the bandwidth handle memory pointed to be <b>IsochAllocateBandwidth.hBandwidth</b>. If caller does not set this flag, then caller will have to free the bandwidth handle. 
+
+
+### -field BusReserved
+
+Reserved. 
+
+
+### -field PortReserved
+
+Reserved. 
+
+
 ### -field u
 
 Specifies a union of structures, one for each value of <b>FunctionNumber</b>. The applicable submembers of <b>u</b> for each request are described with each request type in <a href="https://msdn.microsoft.com/library/windows/hardware/ff537211">IEEE 1394 Bus I/O Requests</a>.
+
 <table>
 <tr>
 <th>FunctionNumber</th>
@@ -205,7 +226,8 @@ Specifies a union of structures, one for each value of <b>FunctionNumber</b>. Th
 </td>
 <td>ReceivePhyPackets</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field u.AsyncRead
@@ -388,36 +410,22 @@ Specifies a union of structures, one for each value of <b>FunctionNumber</b>. Th
  
 
 
-### -field FunctionNumber
-
-Determines the type of request. Each request type is documented under the value of <b>FunctionNumber</b> in <a href="https://msdn.microsoft.com/library/windows/hardware/ff537211">IEEE 1394 Bus I/O Requests</a>.
-
-
-### -field Flags
-
-Reserved. Drivers must set this member to zero with one exception. When making a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537647">REQUEST_ISOCH_ALLOCATE_BANDWIDTH</a> request, the caller can set the IRB_FLAG_ALLOW_REMOTE_FREE flag in <b>Flags</b> to indicate that the system should free the bandwidth handle memory pointed to be <b>IsochAllocateBandwidth.hBandwidth</b>. If caller does not set this flag, then caller will have to free the bandwidth handle. 
-
-
-### -field BusReserved
-
-Reserved. 
-
-
-### -field PortReserved
-
-Reserved. 
 
 
 ## -remarks
+
 
 
 The <b>Parameters-&gt;Others.Arguments1</b> member of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537232">IOCTL_1394_CLASS</a> IRP points to an IRB structure. The bus driver uses the IRB to determine the type of request made by the device driver, and also to return the results of the operation. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537211">IEEE 1394 Bus I/O Requests</a> for a description of the behavior of each request.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537232">IOCTL_1394_CLASS</a>
+
+
 
  
 

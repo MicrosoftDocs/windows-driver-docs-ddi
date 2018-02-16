@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2f46b268-2d8c-455a-81e3-a79f48e704c7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_MEMORY_DESCRIPTOR_INIT_MDL, wdf.wdf_memory_descriptor_init_mdl, DFMemoryObjectRef_f5eb00be-fd17-49bf-87dd-4fde1b06d65e.xml, kmdf.wdf_memory_descriptor_init_mdl, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_MDL, WDF_MEMORY_DESCRIPTOR_INIT_MDL function
+ms.keywords: wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_MDL, kmdf.wdf_memory_descriptor_init_mdl, WDF_MEMORY_DESCRIPTOR_INIT_MDL function, DFMemoryObjectRef_f5eb00be-fd17-49bf-87dd-4fde1b06d65e.xml, wdf.wdf_memory_descriptor_init_mdl, WDF_MEMORY_DESCRIPTOR_INIT_MDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfmemory.h
-apiname: 
+apiname:
 -	WDF_MEMORY_DESCRIPTOR_INIT_MDL
 product: Windows
 targetos: Windows
@@ -90,30 +90,89 @@ The size, in bytes, of the buffer that <i>Mdl</i> specifies.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function zeros the specified <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure and sets the structure's <b>Type</b> member to <b>WdfMemoryDescriptorTypeMdl</b>. Then it sets the structure's <b>u.MdlType.Mdl</b> and <b>u.MdlType.BufferLength</b> members to the values that the <i>Mdl</i> and <i>BufferLength</i> parameters specify, respectively.
+
+
+#### Examples
+
+The following code example allocates a buffer, creates an MDL for the buffer, and uses the MDL to initialize a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PVOID  pBuffer = NULL;
+PMDL  pMdl = NULL;
+
+pBuffer = ExAllocatePoolWithTag(
+                                NonPagedPool, 
+                                BUFFER_LENGTH, 
+                                IOTARGET_DRIVER_TAG
+                                );
+if (pBuffer == NULL){
+    Status = STATUS_UNSUCCESSFUL;
+    goto Cleanup;
+}
+pMdl = IoAllocateMdl(
+                     pBuffer,
+                     BUFFER_LENGTH,
+                     FALSE,
+                     TRUE,
+                     NULL
+                     );
+if (pMdl == NULL){
+    Status = STATUS_UNSUCCESSFUL;
+    goto Cleanup;
+}
+MmBuildMdlForNonPagedPool(pMdl);
+WDF_MEMORY_DESCRIPTOR_INIT_MDL(
+                               pInputBuffer,
+                               pMdl,
+                               BUFFER_LENGTH
+                               );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_handle.md">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+
 
 <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_handle.md">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+
+
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
+
+
 
  
 

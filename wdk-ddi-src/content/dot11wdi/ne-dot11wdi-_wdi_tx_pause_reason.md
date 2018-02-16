@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_TX_PAUSE_REASON
-title: _WDI_TX_PAUSE_REASON
+title: "_WDI_TX_PAUSE_REASON"
 author: windows-driver-content
 description: The WDI_TX_PAUSE_REASON enumeration defines the reasons for a TX pause.
 old-location: netvista\wdi_tx_pause_reason.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2585d243-e3b0-414d-a932-28d91b69f1f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_TX_PAUSE_REASON_IHV_START, netvista.wifi_tx_pause_reason, dot11wdi/WDI_TX_PAUSE_REASON_NULL, WDI_TX_PAUSE_REASON_CREDIT, dot11wdi/WDI_TX_PAUSE_REASON_PEER_CREATE, WDI_TX_PAUSE_REASON_PEER_CREATE, WDI_TX_PAUSE_REASON_PS, dot11wdi/WDI_TX_PAUSE_REASON_CREDIT, dot11wdi/WDI_TX_PAUSE_REASON_PS, dot11wdi/WDI_TX_PAUSE_REASON_IHV_START, netvista.wdi_tx_pause_reason, WDI_TX_PAUSE_REASON, WDI_TX_PAUSE_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_TX_PAUSE_REASON_IHV_END, dot11wdi/WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_IHV_END, WDI_TX_PAUSE_REASON_NULL, _WDI_TX_PAUSE_REASON
+ms.keywords: netvista.wdi_tx_pause_reason, dot11wdi/WDI_TX_PAUSE_REASON_CREDIT, WDI_TX_PAUSE_REASON_CREDIT, netvista.wifi_tx_pause_reason, WDI_TX_PAUSE_REASON enumeration [Network Drivers Starting with Windows Vista], dot11wdi/WDI_TX_PAUSE_REASON, WDI_TX_PAUSE_REASON_PEER_CREATE, dot11wdi/WDI_TX_PAUSE_REASON_PS, WDI_TX_PAUSE_REASON_PS, WDI_TX_PAUSE_REASON, WDI_TX_PAUSE_REASON_NULL, dot11wdi/WDI_TX_PAUSE_REASON_IHV_END, _WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_IHV_START, dot11wdi/WDI_TX_PAUSE_REASON_NULL, dot11wdi/WDI_TX_PAUSE_REASON_PEER_CREATE, WDI_TX_PAUSE_REASON_IHV_END, WDI_TX_PAUSE_REASON_IHV_START
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	WDI_TX_PAUSE_REASON
 product: Windows
 targetos: Windows
@@ -105,6 +105,8 @@ Inclusive end of range of valid pause reasons for IHV use.
 ## -see-also
 
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+
+
 
  
 

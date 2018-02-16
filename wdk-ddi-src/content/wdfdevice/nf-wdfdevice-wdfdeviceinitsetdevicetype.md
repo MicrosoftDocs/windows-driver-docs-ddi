@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26c5c998-fb10-45c3-b28c-91a759fa941e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdeviceinitsetdevicetype, WdfDeviceInitSetDeviceType, wdf.wdfdeviceinitsetdevicetype, PFN_WDFDEVICEINITSETDEVICETYPE, wdfdevice/WdfDeviceInitSetDeviceType, WdfDeviceInitSetDeviceType method, DFDeviceObjectGeneralRef_872eb4dd-0d40-46ed-a7ed-4eae8ec67240.xml
+ms.keywords: kmdf.wdfdeviceinitsetdevicetype, WdfDeviceInitSetDeviceType method, DFDeviceObjectGeneralRef_872eb4dd-0d40-46ed-a7ed-4eae8ec67240.xml, wdf.wdfdeviceinitsetdevicetype, PFN_WDFDEVICEINITSETDEVICETYPE, wdfdevice/WdfDeviceInitSetDeviceType, WdfDeviceInitSetDeviceType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetDeviceType
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ A FILE_DEVICE_XXXX value that identifies the device type. For more information a
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If a driver calls <b>WdfDeviceInitSetDeviceType</b>, it must do so before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
@@ -100,5 +103,24 @@ The device type that a driver specifies determines the default priority boost va
 
 
       If you are writing a UMDF driver, you  must modify your driver's INF file or make registry changes to specify a device type. For more information about using the registry, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563759">Setting Device Object Registry Properties During Installation</a>.
+
+
+#### Examples
+
+The following code example indicates that a device is a serial device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfDeviceInitSetDeviceType(
+                           DeviceInit,
+                           FILE_DEVICE_SERIAL_PORT
+                           );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

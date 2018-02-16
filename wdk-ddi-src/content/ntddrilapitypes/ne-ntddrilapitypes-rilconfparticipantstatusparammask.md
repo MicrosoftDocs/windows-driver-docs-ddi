@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a168b84a-fb3b-4e03-bb28-888b80cca6c6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_CPS_CALLTRANSFER, RIL_PARAM_CPS_ADDRESS, ntddrilapitypes/RIL_PARAM_CPS_ID, RIL_PARAM_CPS_PARTICIPANTOP, RIL_PARAM_CPS_ALL, ntddrilapitypes/RIL_PARAM_CPS_SIPSTATUS, RIL_PARAM_CPS_ID, ntddrilapitypes/RIL_PARAM_CPS_ADDRESS, RILCONFPARTICIPANTSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_CPS_PARTICIPANTOP, ntddrilapitypes/RIL_PARAM_CPS_CALLTRANSFER, RILCONFPARTICIPANTSTATUSPARAMMASK, netvista.rilconfparticipantstatusparammask, ntddrilapitypes/RIL_PARAM_CPS_ALL, ntddrilapitypes/RILCONFPARTICIPANTSTATUSPARAMMASK, RIL_PARAM_CPS_SIPSTATUS
+ms.keywords: RIL_PARAM_CPS_ID, ntddrilapitypes/RIL_PARAM_CPS_PARTICIPANTOP, RILCONFPARTICIPANTSTATUSPARAMMASK, RILCONFPARTICIPANTSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CPS_CALLTRANSFER, RIL_PARAM_CPS_SIPSTATUS, ntddrilapitypes/RIL_PARAM_CPS_ADDRESS, ntddrilapitypes/RIL_PARAM_CPS_ALL, RIL_PARAM_CPS_ALL, netvista.rilconfparticipantstatusparammask, ntddrilapitypes/RIL_PARAM_CPS_ID, RIL_PARAM_CPS_PARTICIPANTOP, ntddrilapitypes/RIL_PARAM_CPS_CALLTRANSFER, RIL_PARAM_CPS_ADDRESS, ntddrilapitypes/RILCONFPARTICIPANTSTATUSPARAMMASK, ntddrilapitypes/RIL_PARAM_CPS_SIPSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCONFPARTICIPANTSTATUSPARAMMASK
 product: Windows
 targetos: Windows
@@ -75,27 +75,20 @@ typedef enum _RILCONFPARTICIPANTSTATUSPARAMMASK {
 ### -field RIL_PARAM_CPS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_CPS_ID
-
 
 
 ### -field RIL_PARAM_CPS_CALLTRANSFER
 
 
-
 ### -field RIL_PARAM_CPS_ADDRESS
-
 
 
 ### -field RIL_PARAM_CPS_PARTICIPANTOP
 
 
-
 ### -field RIL_PARAM_CPS_SIPSTATUS
 
 
-
 ### -field RIL_PARAM_CPS_ALL
-
 

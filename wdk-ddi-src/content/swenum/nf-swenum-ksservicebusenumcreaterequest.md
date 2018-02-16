@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksservicebusenumcreaterequest, ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, KsServiceBusEnumCreateRequest, swenum/KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices]
+ms.keywords: KsServiceBusEnumCreateRequest function [Streaming Media Devices], KsServiceBusEnumCreateRequest, swenum/KsServiceBusEnumCreateRequest, stream.ksservicebusenumcreaterequest, ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsServiceBusEnumCreateRequest
 product: Windows
 targetos: Windows
@@ -85,20 +85,26 @@ Pointer to the IRP that is associated with the device object.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if successful. Otherwise. it returns STATUS_OBJECT_NAME_NOT_FOUND if the IRP's <i>FileObject-&gt;FileName</i> is <b>NULL</b> or if the reference string cannot be located. Otherwise, an appropriate error returns.
+
 
 
 
 ## -remarks
 
 
+
 <b>KsServiceBusEnumCreateRequest</b> services the IRP_MJ_CREATE request for the registered device interface by matching the given IRP's<i> FileObject-&gt;FileName</i> with the registered bus reference strings. If the device reference is present, enumerated and created, the IRP is simply re-routed to the actual device. If the reference string is <b>NULL</b>, it is assumed that this is a request for the bus interface and the IRP_MJ_CREATE is completed. If the device reference has not already been enumerated, or is not active, the IRP is queued and a PDO is created and a bus enumeration is initiated by IoInvalidateDeviceRelations().
+
 
 
 
 ## -see-also
 
 <a href="..\swenum\nf-swenum-ksservicebusenumpnprequest.md">KsServiceBusEnumPnpRequest</a>
+
+
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	Int10CallBios
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -85,20 +85,26 @@ Pointer to a video miniport driver-initialized <a href="..\video\ns-video-_int10
 ## -returns
 
 
+
 The <b>Int10CallBios</b> function returns NO_ERROR upon success. Otherwise it returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure. 
+
 
 
 
 ## -see-also
 
 <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
+
+
 
  
 

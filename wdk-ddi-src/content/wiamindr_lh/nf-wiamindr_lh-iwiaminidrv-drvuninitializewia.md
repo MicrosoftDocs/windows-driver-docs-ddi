@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 974de3b5-c129-42ee-a522-071c26726cf1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiaminidrv_drvuninitializewia, IWiaMiniDrv::drvUnInitializeWia, drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, drvUnInitializeWia method [Imaging Devices], MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia, drvUnInitializeWia, IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, IWiaMiniDrv
+ms.keywords: IWiaMiniDrv interface [Imaging Devices], drvUnInitializeWia method, drvUnInitializeWia, IWiaMiniDrv, drvUnInitializeWia method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvuninitializewia, IWiaMiniDrv::drvUnInitializeWia, MiniDrv_2a06b98b-7b47-46d8-b158-8e6ff6bac6b9.xml, drvUnInitializeWia method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvUnInitializeWia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaMiniDrv.drvUnInitializeWia
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ HRESULT drvUnInitializeWia(
 
 
 
+
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
@@ -82,14 +83,18 @@ Pointer to a WIA item context.
 ## -returns
 
 
+
 On success, the method should return S_OK If the method fails, it should return a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 The WIA service calls the <b>IWiaMiniDrv::drvUnInitializeWia</b> method when the resources associated with an application item tree are no longer needed. The minidriver can then unload any DLLs and free any allocated memory.
+
 
 
 
@@ -97,7 +102,11 @@ The WIA service calls the <b>IWiaMiniDrv::drvUnInitializeWia</b> method when the
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544986">IWiaMiniDrv::drvInitializeWia</a>
+
+
 
  
 

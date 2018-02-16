@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	StateSet
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY StateSet(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_stateset.md">D3DDDIARG_STATESET</a> structure that describes how to set the state block.
@@ -91,15 +93,21 @@ __checkReturn HRESULT APIENTRY StateSet(
 ## -returns
 
 
+
 <i>StateSet</i> returns S_OK or an appropriate error result if the state block is not successfully set.
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_stateset.md">D3DDDIARG_STATESET</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_stateset.md">D3DDDIARG_STATESET</a>
+
 
  
 

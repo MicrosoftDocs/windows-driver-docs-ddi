@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENKEYEDMUTEX2
-title: _D3DKMT_OPENKEYEDMUTEX2
+title: "_D3DKMT_OPENKEYEDMUTEX2"
 author: windows-driver-content
 description: Describes a keyed mutex that the D3DKMTOpenKeyedMutex2 function opens.
 old-location: display\d3dkmt_openkeyedmutex2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7d746cac-42fd-4fb3-9384-ea690c2235f8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2, display.d3dkmt_openkeyedmutex2, _D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2 structure [Display Devices]
+ms.keywords: display.d3dkmt_openkeyedmutex2, D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2 structure [Display Devices], d3dkmthk/D3DKMT_OPENKEYEDMUTEX2, _D3DKMT_OPENKEYEDMUTEX2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_OPENKEYEDMUTEX2
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX2 {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a>
+
+
 
  
 

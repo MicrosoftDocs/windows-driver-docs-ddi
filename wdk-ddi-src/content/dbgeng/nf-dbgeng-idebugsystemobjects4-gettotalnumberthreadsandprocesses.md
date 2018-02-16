@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 452dc67b-1938-4757-99bd-507a32d9a71a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, debugger.gettotalnumberthreadsandprocesses, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses
+ms.keywords: IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, debugger.gettotalnumberthreadsandprocesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, GetTotalNumberThreadsAndProcesses method [Windows Debugging], GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses
 -	IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses method
@@ -100,7 +100,9 @@ Receives the largest number of processes in any target.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,24 +119,34 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If no target is found, all the values are set to zero.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
 
  
 

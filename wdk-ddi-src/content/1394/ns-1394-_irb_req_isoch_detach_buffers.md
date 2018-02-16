@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_DETACH_BUFFERS
-title: _IRB_REQ_ISOCH_DETACH_BUFFERS
+title: "_IRB_REQ_ISOCH_DETACH_BUFFERS"
 author: windows-driver-content
 description: This structure contains the fields required to carry out a IsochDetachBuffers request.
 old-location: ieee\irb_req_isoch_detach_buffers.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 60ED83BD-4AFA-432F-B918-9006815C8D47
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ISOCH_DETACH_BUFFERS, IRB_REQ_ISOCH_DETACH_BUFFERS, 1394/IRB_REQ_ISOCH_DETACH_BUFFERS, IEEE.irb_req_isoch_detach_buffers, IRB_REQ_ISOCH_DETACH_BUFFERS structure [Buses]
+ms.keywords: IRB_REQ_ISOCH_DETACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_DETACH_BUFFERS, IEEE.irb_req_isoch_detach_buffers, IRB_REQ_ISOCH_DETACH_BUFFERS, 1394/IRB_REQ_ISOCH_DETACH_BUFFERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ISOCH_DETACH_BUFFERS
 product: Windows
 targetos: Windows

@@ -7,7 +7,7 @@ old-location: buses\usbc_start_device_callback.htm
 old-project: usbref
 ms.assetid: f9a9510a-b55c-4566-83ce-4ed7ccafb543
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.usbc_start_device_callback, UsbcStartDeviceCallback callback function [Buses], UsbcStartDeviceCallback, USBC_START_DEVICE_CALLBACK, USBC_START_DEVICE_CALLBACK, usbbusif/UsbcStartDeviceCallback, usbinterKR_d70617c5-be67-4660-9aa3-76b4c66c2616.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbbusif.h
-apiname: 
+apiname:
 -	UsbcStartDeviceCallback
 product: Windows
 targetos: Windows
-req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
+req.typenames: "*PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -86,8 +86,9 @@ The device descriptor of the device.
 The configuration of the device.
 
 
-### -param *FunctionDescriptorBuffer
+### -param *FunctionDescriptorBuffer [out]
 
+Pointer to a buffer that contains an array of function descriptors (<a href="..\usbbusif\ns-usbbusif-_usbc_function_descriptor.md">USBC_FUNCTION_DESCRIPTOR</a>).
 
 
 ### -param FunctionDescriptorBufferLength [out]
@@ -105,22 +106,21 @@ The function device object for the device.
 The physical device object for the device.
 
 
-#### - FunctionDescriptorBuffer [out]
-
-Pointer to a buffer that contains an array of function descriptors (<a href="..\usbbusif\ns-usbbusif-_usbc_function_descriptor.md">USBC_FUNCTION_DESCRIPTOR</a>).
-
-
 ## -returns
+
 
 
 If the operation succeeds, the vendor-supplied callback routine must return STATUS_SUCCESS.
 
 
 
+
 ## -remarks
 
 
+
 For a general description of the callback routine mechanism, see <a href="https://msdn.microsoft.com/3cf4e9f2-ea33-491f-94af-62d2afacc899">Customizing Enumeration of Interface Collections for Composite Devices</a>. 
+
 
 
 
@@ -128,9 +128,11 @@ For a general description of the callback routine mechanism, see <a href="https:
 
 <a href="..\usbbusif\ns-usbbusif-_usbc_device_configuration_interface_v1.md">USBC_DEVICE_CONFIGURATION_INTERFACE_V1</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBC_START_DEVICE_CALLBACK callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBC_START_DEVICE_CALLBACK callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e18f6326-621e-4bed-aa82-b326f3b1422d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], NdisMCmDeactivateVc, ndis/NdisMCmDeactivateVc, netvista.ndismcmdeactivatevc, condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml
+ms.keywords: condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml, netvista.ndismcmdeactivatevc, NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], NdisMCmDeactivateVc, ndis/NdisMCmDeactivateVc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMCmDeactivateVc
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmDeactivateVc function
@@ -82,7 +82,9 @@ Specifies the handle identifying the VC. This handle was supplied by NDIS to the
 ## -returns
 
 
+
 <b>NdisMCmDeactivateVc</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,11 +112,14 @@ The VC is already deactivated, so this call is redundant.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 An MCM driver calls 
@@ -131,6 +136,7 @@ The
     <i>NdisVcHandle</i> passed to 
     <b>NdisMCmDeactivateVc</b> remains valid after VC deactivation is completed. The deactivation of any VC
     allows its creator to reinitialize the VC for reuse or to destroy it:
+
 <ul>
 <li>
 Following VC deactivation and the closing of the call, a client can reuse a VC that it originally
@@ -144,12 +150,13 @@ Following VC deactivation and the closing of the call, a client can reuse a VC t
 <li>
 Following VC deactivation and the closing of the call, an MCM driver can reuse a VC that it
       originally created to indicate another incoming call to the same client with 
-      <mshelp:link keywords="netvista.ndismcmdispatchincomingcall" tabindex="0"><b>
-      NdisMCmDispatchIncomingCall</b></mshelp:link>, or it can call 
+      <a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">
+      NdisMCmDispatchIncomingCall</a>, or it can call 
       <a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>.
 
 </li>
-</ul>The driver writer determines whether an MCM driver has an (internal) 
+</ul>
+The driver writer determines whether an MCM driver has an (internal) 
     <i>MiniportCoDeactivateVc</i> function that the driver calls in the context of tearing down connections
     for outgoing and incoming calls.
 
@@ -160,25 +167,44 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
 
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
 <a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
 
  
 

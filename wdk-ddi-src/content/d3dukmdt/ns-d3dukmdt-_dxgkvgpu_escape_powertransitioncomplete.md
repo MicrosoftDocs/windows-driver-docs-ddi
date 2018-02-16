@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
-title: _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+title: "_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
 author: windows-driver-content
 description: Indicates that a power transition has completed.
 old-location: display\dxgkvgpu_escape_powertransitioncomplete.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39800C47-95EB-4867-8FEE-E94EA3F6F68C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+ms.keywords: "_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f941269b-65f3-4245-994f-0a4f6356cf88
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: VariableBitRatePeak, ksmedia/VariableBitRateAverage, VariableBitRateAverage, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], ksmedia/VariableBitRatePeak, ConstantBitRate, stream.videoencoder_bitrate_mode, ksmedia/ConstantBitRate, ksmedia/VIDEOENCODER_BITRATE_MODE
+ms.keywords: VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], ksmedia/ConstantBitRate, stream.videoencoder_bitrate_mode, ksmedia/VIDEOENCODER_BITRATE_MODE, VariableBitRateAverage, VIDEOENCODER_BITRATE_MODE, ksmedia/VariableBitRateAverage, ConstantBitRate, ksmedia/VariableBitRatePeak, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, VariableBitRatePeak
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	VIDEOENCODER_BITRATE_MODE
 product: Windows
 targetos: Windows
@@ -90,19 +90,27 @@ Specifies that the encoding bit rate is variable with the specified bit rate use
 ## -remarks
 
 
+
 For all three modes, <a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a> must be set to the expected average bit rate over a 5 minute period.
 
 When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a> must also be set to the peak bit rate, which the VBR encoder must not exceed over a 500ms period (typically one GOP for MPEG-2 video).
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559524">ENCAPIPARAM_BITRATE_MODE</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
+
 
  
 

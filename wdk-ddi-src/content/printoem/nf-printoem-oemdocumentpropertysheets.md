@@ -7,8 +7,8 @@ old-location: print\oemdocumentpropertysheets.htm
 old-project: print
 ms.assetid: 81c5eced-3d68-4202-83b9-57d661fe4952
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMDocumentPropertySheets function [Print Devices], OEMDocumentPropertySheets, printoem/OEMDocumentPropertySheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml, print.oemdocumentpropertysheets
+ms.date: 2/2/2018
+ms.keywords: OEMDocumentPropertySheets function [Print Devices], print.oemdocumentpropertysheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml, OEMDocumentPropertySheets, printoem/OEMDocumentPropertySheets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMDocumentPropertySheets
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ LRESULT APIENTRY OEMDocumentPropertySheets(
 ### -param pPSUIInfo [in]
 
 
-
 ### -param lParam
-
 

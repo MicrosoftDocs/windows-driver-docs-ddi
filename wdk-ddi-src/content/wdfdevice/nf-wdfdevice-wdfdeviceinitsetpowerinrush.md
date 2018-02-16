@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91b29a5b-8bc0-44c0-8c48-2d023da12dcb
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, kmdf.wdfdeviceinitsetpowerinrush, WdfDeviceInitSetPowerInrush, wdfdevice/WdfDeviceInitSetPowerInrush, PFN_WDFDEVICEINITSETPOWERINRUSH, WdfDeviceInitSetPowerInrush method, wdf.wdfdeviceinitsetpowerinrush
+ms.keywords: DFDeviceObjectGeneralRef_07e58947-78a3-4864-924c-8bd11dfd8af5.xml, PFN_WDFDEVICEINITSETPOWERINRUSH, WdfDeviceInitSetPowerInrush, WdfDeviceInitSetPowerInrush method, wdfdevice/WdfDeviceInitSetPowerInrush, kmdf.wdfdeviceinitsetpowerinrush, wdf.wdfdeviceinitsetpowerinrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceInitSetPowerInrush
 product: Windows
 targetos: Windows
@@ -79,11 +79,14 @@ A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windo
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 To avoid overloading the system's power supply, the system starts devices that require an inrush of current one at a time.
@@ -95,12 +98,32 @@ Your driver must call <b>WdfDeviceInitSetPowerInrush</b> before it calls <a href
 Calling <b>WdfDeviceInitSetPowerInrush</b> from a filter driver has no effect. For filter drivers, the framework uses the setting that the next-lower driver in the driver stack specifies.
 
 
+#### Examples
+
+The following code example informs the power manager that a device requires an inrush of current when it starts.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfDeviceInitSetPowerInrush(DeviceInit);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
+
+
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
 
  
 

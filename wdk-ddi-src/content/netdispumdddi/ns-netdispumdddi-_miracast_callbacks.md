@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi._MIRACAST_CALLBACKS
-title: _MIRACAST_CALLBACKS
+title: "_MIRACAST_CALLBACKS"
 author: windows-driver-content
 description: Contains pointers to wireless display (Miracast) runtime callback functions that the Miracast user-mode driver can call.
 old-location: display\miracast_callbacks.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2168a4d8-a33d-4534-b4e8-126a41e528f5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _MIRACAST_CALLBACKS, netdispumdddi/MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], display.miracast_callbacks, PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], *PMIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS
+ms.keywords: "*PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], netdispumdddi/MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS, display.miracast_callbacks, PMIRACAST_CALLBACKS structure pointer [Display Devices], PMIRACAST_CALLBACKS, _MIRACAST_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	MIRACAST_CALLBACKS
 product: Windows
 targetos: Windows

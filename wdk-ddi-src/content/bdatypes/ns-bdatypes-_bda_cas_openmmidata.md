@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_CAS_OPENMMIDATA
-title: _BDA_CAS_OPENMMIDATA
+title: "_BDA_CAS_OPENMMIDATA"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_cas_openmmidata.htm
 old-project: stream
 ms.assetid: FAF30768-5DE4-4284-8CB5-2E518A2E37E7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_CAS_OPENMMIDATA structure pointer [Streaming Media Devices], *PBDA_CAS_OPENMMIDATA, stream.bda_cas_openmmidata, bdatypes/PBDA_CAS_OPENMMIDATA, bdatypes/BDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA structure [Streaming Media Devices], BDA_CAS_OPENMMIDATA, PBDA_CAS_OPENMMIDATA, _BDA_CAS_OPENMMIDATA
+ms.keywords: bdatypes/PBDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA structure [Streaming Media Devices], stream.bda_cas_openmmidata, _BDA_CAS_OPENMMIDATA, PBDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA, PBDA_CAS_OPENMMIDATA structure pointer [Streaming Media Devices], bdatypes/BDA_CAS_OPENMMIDATA, *PBDA_CAS_OPENMMIDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bdatypes.h
-apiname: 
+apiname:
 -	BDA_CAS_OPENMMIDATA
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef struct _BDA_CAS_OPENMMIDATA {
 ### -field ulDialogNumber
 
 
-
 ### -field ulDialogRequest
-
 
 
 ### -field uuidDialogType
 
 
-
 ### -field usDialogDataLength
 
 
-
 ### -field argbDialogData
-
 

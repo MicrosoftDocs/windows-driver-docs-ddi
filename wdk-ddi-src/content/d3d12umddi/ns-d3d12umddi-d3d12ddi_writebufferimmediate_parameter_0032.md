@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 84b0f28d-2157-492e-bafa-ea97956d66f2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure [Display Devices], display.d3d12ddi-writebufferimmediate-parameter-0032
+ms.keywords: d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, display.d3d12ddi-writebufferimmediate-parameter-0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure [Display Devices], D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
 product: Windows
 targetos: Windows

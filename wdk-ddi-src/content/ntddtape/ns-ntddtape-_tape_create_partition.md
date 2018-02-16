@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_CREATE_PARTITION
-title: _TAPE_CREATE_PARTITION
+title: "_TAPE_CREATE_PARTITION"
 author: windows-driver-content
 description: The TAPE_CREATE_PARTITION structure is used in conjunction with the IOCTL_TAPE_CREATE_PARTITION request to create a specified number of fixed, select, or initiator partitions of a given size on the tape media.
 old-location: storage\tape_create_partition.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5020d2c6-f435-4d22-98a3-23318ffc0baf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/TAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION, *PTAPE_CREATE_PARTITION, storage.tape_create_partition, structs-tape_3d86a9f7-45b2-48e8-ae21-2ad87641bcf9.xml, TAPE_CREATE_PARTITION structure [Storage Devices], ntddtape/PTAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION structure pointer [Storage Devices], _TAPE_CREATE_PARTITION
+ms.keywords: ntddtape/PTAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION structure [Storage Devices], *PTAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION, ntddtape/TAPE_CREATE_PARTITION, structs-tape_3d86a9f7-45b2-48e8-ae21-2ad87641bcf9.xml, PTAPE_CREATE_PARTITION structure pointer [Storage Devices], storage.tape_create_partition, PTAPE_CREATE_PARTITION, _TAPE_CREATE_PARTITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddtape.h
-apiname: 
+apiname:
 -	TAPE_CREATE_PARTITION
 product: Windows
 targetos: Windows
-req.typenames: *PTAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION
+req.typenames: "*PTAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION"
 ---
 
 # _TAPE_CREATE_PARTITION structure
@@ -72,6 +72,7 @@ typedef struct _TAPE_CREATE_PARTITION {
 ### -field Method
 
 Indicates the method used to create the partitions. This member can have one of the following values: 
+
 <table>
 <tr>
 <th>Method</th>
@@ -107,7 +108,8 @@ Partitions the tape into the number and size of partitions specified by <b>Count
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Count
@@ -124,7 +126,11 @@ Indicates the size of each partition, in bytes.
 
 <a href="..\minitape\nc-minitape-tape_process_command_routine.md">TapeMiniCreatePartition</a>
 
+
+
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_create_partition.md">IOCTL_TAPE_CREATE_PARTITION</a>
+
+
 
  
 

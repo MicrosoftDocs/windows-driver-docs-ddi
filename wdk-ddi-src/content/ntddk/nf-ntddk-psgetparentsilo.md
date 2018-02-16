@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57fa5563-3a02-449a-a934-85c75f450500
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], PsGetParentSilo, kernel.psgetparentsilo
+ms.keywords: kernel.psgetparentsilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], PsGetParentSilo, ntddk/PsGetParentSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsGetParentSilo
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetParentSilo function
@@ -78,7 +78,9 @@ A pointer to an <b>EJOB</b> structure that represents the job object.
 ## -returns
 
 
+
 A pointer to the parent silo of the job. his value may be
     PSP_HOST_SILO, because all silos descend from the host.
+
 
 

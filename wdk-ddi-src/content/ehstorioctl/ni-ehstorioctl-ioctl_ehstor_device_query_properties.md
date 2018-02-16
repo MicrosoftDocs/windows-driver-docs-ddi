@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
 product: Windows
 targetos: Windows
@@ -75,6 +75,7 @@ None.
 ### -output-buffer
 
 The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure. <b>EHSTOR_DEVICE_PROPERTIES</b> is declared in <i>ehstorioctl.h</i> as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -89,6 +90,7 @@ The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an  <b>E
 </td>
 </tr>
 </table></span></div>
+
 
 
 #### -BytesPerSector
@@ -109,14 +111,18 @@ an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -128,13 +134,17 @@ STATUS_SUCCESS is returned in the <b>Status</b> field if device properties are r
 ## -remarks
 
 
+
 Currently, bytes per sector is the only property available in <b>EHSTOR_DEVICE_PROPERTIES</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">SILO_DRIVER_CAPABILITES</a>
+
+
 
  
 

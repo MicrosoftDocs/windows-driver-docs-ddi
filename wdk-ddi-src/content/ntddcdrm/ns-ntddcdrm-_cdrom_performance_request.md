@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_PERFORMANCE_REQUEST
-title: _CDROM_PERFORMANCE_REQUEST
+title: "_CDROM_PERFORMANCE_REQUEST"
 author: windows-driver-content
 description: The CDROM_PERFORMANCE_REQUEST structure is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request and describes the performance data requested.
 old-location: storage\cdrom_performance_request.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: E43D2F2C-B5A1-4724-AEBC-F4B6A85EA846
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices], CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], ntddcdrm/CDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request, ntddcdrm/PCDROM_PERFORMANCE_REQUEST
+ms.keywords: ntddcdrm/CDROM_PERFORMANCE_REQUEST, ntddcdrm/PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request, PCDROM_PERFORMANCE_REQUEST, _CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_PERFORMANCE_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: *PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST
+req.typenames: CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST
 ---
 
 # _CDROM_PERFORMANCE_REQUEST structure
@@ -97,6 +97,7 @@ The <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_tolerance_type.md">CDROM
 
 
 
+
 #### - StartingLba
 
 The starting logical block address field.
@@ -105,6 +106,8 @@ The starting logical block address field.
 ## -see-also
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+
+
 
  
 

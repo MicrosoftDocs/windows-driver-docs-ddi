@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceCaps
-title: _DXVA_DeinterlaceCaps
+title: "_DXVA_DeinterlaceCaps"
 author: windows-driver-content
 description: The DXVA_DeinterlaceCaps structure describes the driver capabilities for a deinterlace mode.
 old-location: display\dxva_deinterlacecaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: be503505-fb20-4a8d-b395-7e807cde9fb6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps, dxva/LPDXVA_DeinterlaceCaps, _DXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], *LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps structure [Display Devices], display.dxva_deinterlacecaps, dxva/DXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml
+ms.keywords: DXVA_DeinterlaceCaps structure [Display Devices], dxva/DXVA_DeinterlaceCaps, _DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps, dxva/LPDXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml, display.dxva_deinterlacecaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], LPDXVA_DeinterlaceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_DeinterlaceCaps
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps
+req.typenames: DXVA_DeinterlaceCaps, *LPDXVA_DeinterlaceCaps
 ---
 
 # _DXVA_DeinterlaceCaps structure
@@ -119,15 +119,21 @@ Specifies a <a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceT
 ## -remarks
 
 
+
 The driver receives the DXVA_DeinterlaceCaps structure with the <b>Size</b> member assigned, assigns values to the remaining members, and returns DXVA_DeinterlaceCaps to the renderer.
+
 
 
 
 ## -see-also
 
+<a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceTech</a>
+
+
+
 <a href="..\dxva\ne-dxva-_dxva_videoprocesscaps.md">DXVA_VideoProcessCaps</a>
 
-<a href="..\dxva\ne-dxva-_dxva_deinterlacetech.md">DXVA_DeinterlaceTech</a>
+
 
  
 

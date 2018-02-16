@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	ShaderResourceViewReadAfterWriteHazard
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SHADERRESOURCEVIEWREADAFTERWRITEHAZARD callback
@@ -75,9 +75,7 @@ VOID APIENTRY ShaderResourceViewReadAfterWriteHazard(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HSHADERRESOURCEVIEW
-
 
 
 ### -param D3D10DDI_HRESOURCE
@@ -85,6 +83,13 @@ VOID APIENTRY ShaderResourceViewReadAfterWriteHazard(
 
 
 
+
+
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 #### - hResource [in]
@@ -97,12 +102,8 @@ VOID APIENTRY ShaderResourceViewReadAfterWriteHazard(
  A handle to the driver's private data for a shader resource view object. 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
 ## -returns
+
 
 
 None
@@ -111,7 +112,9 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 The Microsoft Direct3D runtime calls <i>ShaderResourceViewReadAfterWriteHazard</i> immediately before the specified resource is bound as an input to the GPU. 
@@ -120,11 +123,16 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

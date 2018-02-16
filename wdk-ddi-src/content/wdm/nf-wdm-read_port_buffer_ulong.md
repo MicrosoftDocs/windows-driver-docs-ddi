@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hal.lib
 -	Hal.dll
-apiname: 
+apiname:
 -	READ_PORT_BUFFER_ULONG
 product: Windows
 targetos: Windows
@@ -89,15 +89,19 @@ Specifies the number of ULONG values to be read into the buffer.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of ULONG values.
 
 Callers of <b>READ_PORT_BUFFER_ULONG</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Port</i> is resident, mapped device memory.
+
 
 

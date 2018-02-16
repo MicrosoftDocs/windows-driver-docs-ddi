@@ -7,7 +7,7 @@ old-location: audio\iminiportmidi.htm
 old-project: audio
 ms.assetid: 42170a24-377c-4cc5-962e-97ed74302d63
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iminiportmidi, IMiniportMidi interface [Audio Devices], IMiniportMidi interface [Audio Devices], described, IMiniportMidi, portcls/IMiniportMidi, audmp-routines_bba7ae00-6719-49dd-9770-9292a96f42ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportMidi
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportMidi interface

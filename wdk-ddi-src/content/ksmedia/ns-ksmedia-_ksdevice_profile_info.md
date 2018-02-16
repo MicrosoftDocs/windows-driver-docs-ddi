@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSDEVICE_PROFILE_INFO
-title: _KSDEVICE_PROFILE_INFO
+title: "_KSDEVICE_PROFILE_INFO"
 author: windows-driver-content
 description: The KSDEVICE_PROFILE_INFO is a generic structure designed to handle profile information for various device types.
 old-location: stream\ksdevice_profile_info.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 32C894CA-B644-4221-97B6-A21F2A459DE6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: _KSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], PKSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], stream.ksdevice_profile_info, ksmedia/PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO
+ms.keywords: KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], *PKSDEVICE_PROFILE_INFO, stream.ksdevice_profile_info, _KSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, ksmedia/PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSDEVICE_PROFILE_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO
+req.typenames: "*PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO"
 ---
 
 # _KSDEVICE_PROFILE_INFO structure
@@ -74,6 +74,26 @@ typedef struct _KSDEVICE_PROFILE_INFO {
 ## -struct-fields
 
 
+
+
+### -field Type
+
+Defines the type of profile. Currently, the only defined type is <b>KSDEVICE_PROFILE_TYPE_CAMERA</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define KSDEVICE_PROFILE_TYPE_CAMERA    0x00000001</pre>
+</td>
+</tr>
+</table></span></div>
+
+### -field Size
+
+This must be set to sizeof(KSDEVICE_PROFILE_INFO) structure.
 
 
 ### -field Camera
@@ -123,21 +143,4 @@ If <b>CountOfConcurrency</b> is greater than 0, this parameter must not be <b>NU
  
 
 
-### -field Type
-
-Defines the type of profile. Currently, the only defined type is <b>KSDEVICE_PROFILE_TYPE_CAMERA</b>.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define KSDEVICE_PROFILE_TYPE_CAMERA    0x00000001</pre>
-</td>
-</tr>
-</table></span></div>
-
-### -field Size
-
-This must be set to sizeof(KSDEVICE_PROFILE_INFO) structure.
 

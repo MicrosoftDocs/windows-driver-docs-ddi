@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_descriptor_update.htm
 old-project: usbref
 ms.assetid: 9BA9BC9E-C04C-48F8-B76A-2D6F779BBE05
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_internal_usbfn_descriptor_update, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ufxbase.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_ACTION, USBFN_ACTION
+req.typenames: "*PUSBFN_ACTION, USBFN_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -86,14 +86,18 @@ The size of a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_EN
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,6 +112,8 @@ The size of a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_EN
 ## -remarks
 
 
+
 UFX sends this IOCTL to the command queue created for the endpoint by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.  The client driver is expected to update the configuration of the endpoint on the controller with the parameters contained in the endpoint descriptor.
+
 
 

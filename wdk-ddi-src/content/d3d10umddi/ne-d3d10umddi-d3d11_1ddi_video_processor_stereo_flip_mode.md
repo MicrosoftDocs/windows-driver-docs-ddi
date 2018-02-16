@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b385a0fd-6181-45c3-ba6e-e292e0b10e68
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d11_1ddi_video_processor_stereo_flip_mode, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_NONE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_NONE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+ms.keywords: display.d3d11_1ddi_video_processor_stereo_flip_mode, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_NONE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME1, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_NONE, D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_FRAME0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
 product: Windows
 targetos: Windows

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], GetNumberModules method, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, dbgeng/IDebugSymbols::GetNumberModules, IDebugSymbols3::GetNumberModules, GetNumberModules, IDebugSymbols3, IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface, debugger.getnumbermodules, GetNumberModules method [Windows Debugging], IDebugSymbols::GetNumberModules
+ms.keywords: dbgeng/IDebugSymbols3::GetNumberModules, debugger.getnumbermodules, dbgeng/IDebugSymbols::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], GetNumberModules method, IDebugSymbols2::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, IDebugSymbols::GetNumberModules, IDebugSymbols2, IDebugSymbols3, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, dbgeng/IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, GetNumberModules, IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetNumberModules
 -	IDebugSymbols2.GetNumberModules
 -	IDebugSymbols3.GetNumberModules
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetNumberModules method
@@ -83,7 +83,9 @@ Receives the number of unloaded modules in the current process's module list. Th
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,11 +102,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The list of loaded and unloaded modules is maintained by Windows.  The engine caches a copy of this list, but it may become out of date.  <a href="https://msdn.microsoft.com/library/windows/hardware/ff554379">Reload</a> can be used to synchronize the engine's copy of the list with the list maintained by Windows.
@@ -115,15 +120,24 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

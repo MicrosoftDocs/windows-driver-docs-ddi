@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f0982d8-4ac3-40f6-8587-624c26d25510
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, IKsInterfaceHandler::KsProcessMediaSamples, IKsInterfaceHandler, stream.iksinterfacehandler_ksprocessmediasamples, KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples, IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method
+ms.keywords: KsProcessMediaSamples, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, stream.iksinterfacehandler_ksprocessmediasamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices], KsProcessMediaSamples method, IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples method [Streaming Media Devices], IKsInterfaceHandler interface, IKsInterfaceHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsInterfaceHandler.KsProcessMediaSamples
 product: Windows
 targetos: Windows
@@ -89,6 +89,7 @@ Pointer to a variable that initially contains the number of samples in the list 
 ### -param IoOperation [in]
 
 Value that specifies the type of I/O operation. This value can be one of the following values from the KSIOOPERATION enumerated type:
+
 <table>
 <tr>
 <th>Value</th>
@@ -114,7 +115,8 @@ Read data from stream.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param StreamSegment [out]
@@ -125,11 +127,14 @@ Pointer to a buffer that receives a pointer to a <a href="..\ksproxy\ns-ksproxy-
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 The <b>KsProcessMediaSamples</b> method moves samples from or to a previously assigned filter pin. A stream header is initialized to represent each media sample in the stream segment. The input and output (I/O) are then performed, the count of wait items is incremented, and the proxy I/O thread waits for completion.
@@ -140,13 +145,20 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 
-## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
+## -see-also
 
 <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
+
+
 
  
 

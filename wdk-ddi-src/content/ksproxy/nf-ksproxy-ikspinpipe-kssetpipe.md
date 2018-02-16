@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: FAA97E98-FB31-462E-9776-5C27A10FD773
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetPipe, stream.ikspinpipe_kssetpipe, IKsPinPipe::KsSetPipe, KsSetPipe method [Streaming Media Devices], IKsPinPipe, ksproxy/IKsPinPipe::KsSetPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPipe method, KsSetPipe method [Streaming Media Devices], IKsPinPipe interface
+ms.keywords: IKsPinPipe::KsSetPipe, KsSetPipe method [Streaming Media Devices], ksproxy/IKsPinPipe::KsSetPipe, KsSetPipe, IKsPinPipe, KsSetPipe method [Streaming Media Devices], IKsPinPipe interface, IKsPinPipe interface [Streaming Media Devices], KsSetPipe method, stream.ikspinpipe_kssetpipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPinPipe.KsSetPipe
 product: Windows
 targetos: Windows
@@ -75,16 +75,21 @@ HRESULT KsSetPipe(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
+
+
 
  
 

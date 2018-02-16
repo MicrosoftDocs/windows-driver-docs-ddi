@@ -1,14 +1,14 @@
 ---
 UID: NS:ucxendpoint._DEFAULT_ENDPOINT_UPDATE
-title: _DEFAULT_ENDPOINT_UPDATE
+title: "_DEFAULT_ENDPOINT_UPDATE"
 author: windows-driver-content
 description: Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function.
 old-location: buses\_default_endpoint_update.htm
 old-project: usbref
 ms.assetid: 3E85D9AE-F8D3-4763-B1A2-51F95D00422D
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], ucxendpoint/_DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE structure [Buses], ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, _DEFAULT_ENDPOINT_UPDATE, *PDEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE, buses._default_endpoint_update
+ms.date: 2/8/2018
+ms.keywords: ucxendpoint/_DEFAULT_ENDPOINT_UPDATE, _DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, buses._default_endpoint_update, DEFAULT_ENDPOINT_UPDATE structure [Buses], *PDEFAULT_ENDPOINT_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	DEFAULT_ENDPOINT_UPDATE
 product: Windows
 targetos: Windows
@@ -93,9 +93,11 @@ The maximum packet size of the default endpoint.
 
 <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_default_endpoint_update.md">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20DEFAULT_ENDPOINT_UPDATE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20DEFAULT_ENDPOINT_UPDATE structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

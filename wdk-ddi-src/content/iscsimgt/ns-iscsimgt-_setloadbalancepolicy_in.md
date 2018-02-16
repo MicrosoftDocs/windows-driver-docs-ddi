@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._SetLoadBalancePolicy_IN
-title: _SetLoadBalancePolicy_IN
+title: "_SetLoadBalancePolicy_IN"
 author: windows-driver-content
 description: The SetLoadBalancePolicy_IN structure holds the input data for the SetLoadBalance method.
 old-location: storage\setloadbalancepolicy_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e1895fed-a006-45f6-a38a-1767202cbf4f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.setloadbalancepolicy_in, iscsimgt/SetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml, PSetLoadBalancePolicy_IN, _SetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN, *PSetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], PSetLoadBalancePolicy_IN structure pointer [Storage Devices]
+ms.keywords: PSetLoadBalancePolicy_IN structure pointer [Storage Devices], structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml, PSetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN, *PSetLoadBalancePolicy_IN, iscsimgt/SetLoadBalancePolicy_IN, storage.setloadbalancepolicy_in, _SetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], iscsimgt/PSetLoadBalancePolicy_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsimgt.h
-apiname: 
+apiname:
 -	SetLoadBalancePolicy_IN
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ A structure that contains the information that is required for setting the load 
 ## -remarks
 
 
+
 You must implement this class.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	lamp.h
-apiname: 
+apiname:
 -	IOCTL_LAMP_GET_INTENSITY_WHITE
 product: Windows
 targetos: Windows
@@ -97,14 +97,18 @@ Length of a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHI
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,8 +122,10 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 ## -remarks
 
 
+
 The payload type of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
 
 The <b>Value</b> field is the white light intensity in percentage (0 - 100).
+
 
 

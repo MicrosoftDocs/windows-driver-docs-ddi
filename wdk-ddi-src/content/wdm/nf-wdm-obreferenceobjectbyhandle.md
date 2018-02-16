@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6397d96e-f3b1-4e2f-91ce-b123c9e8de81
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], wdm/ObReferenceObjectByHandle, k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, ObReferenceObjectByHandle, kernel.obreferenceobjectbyhandle
+ms.keywords: kernel.obreferenceobjectbyhandle, k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], wdm/ObReferenceObjectByHandle, ObReferenceObjectByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObReferenceObjectByHandle
 product: Windows
 targetos: Windows
@@ -86,7 +86,10 @@ Specifies the requested types of access to the object. The interpretation of thi
 ### -param ObjectType [in, optional]
 
 Pointer to the object type. <i>ObjectType</i> can be <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsProcessType</b>, <b>*PsThreadType</b>, <b>*SeTokenObjectType</b>, <b>*TmEnlistmentObjectType</b>, <b>*TmResourceManagerObjectType</b>, <b>*TmTransactionManagerObjectType</b>, or <b>*TmTransactionObjectType</b>.
-<div class="alert"><b>Note</b>  The <b>SeTokenObjectType</b> object type is supported starting with Windows XP.</div><div> </div>If <i>ObjectType</i> is not <b>NULL</b>, the operating system verifies that the supplied object type matches the object type of the object that <i>Handle</i> specifies.
+
+<div class="alert"><b>Note</b>  The <b>SeTokenObjectType</b> object type is supported starting with Windows XP.</div>
+<div> </div>
+If <i>ObjectType</i> is not <b>NULL</b>, the operating system verifies that the supplied object type matches the object type of the object that <i>Handle</i> specifies.
 
 
 ### -param AccessMode [in]
@@ -97,6 +100,7 @@ Specifies the access mode to use for the access check. It must be either <b>User
 ### -param Object [out]
 
 Pointer to a variable that receives a pointer to the object's body. The following table contains the pointer types.
+
 <table>
 <tr>
 <th><i>ObjectType</i> parameter</th>
@@ -202,10 +206,13 @@ PKTRANSACTION
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The structures that the pointer types reference are opaque, and drivers cannot access the structure members. Because the structures are opaque, PEPROCESS is equivalent to PKPROCESS, and PETHREAD is equivalent to PKTHREAD.
-<div class="alert"><b>Note</b>  The <b>SeTokenObjectType</b> object type is supported starting with Windows XP.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The <b>SeTokenObjectType</b> object type is supported starting with Windows XP.</div>
+<div> </div>
 
 ### -param HandleInformation [out, optional]
 
@@ -215,7 +222,9 @@ Drivers set this to <b>NULL</b>.
 ## -returns
 
 
+
 <b>ObReferenceObjectByHandle</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -254,11 +263,14 @@ The <i>Handle</i> parameter is not a valid object handle.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A pointer to the object body is retrieved from the object table entry and returned to the caller by means of the <i>Object</i> parameter.
@@ -271,15 +283,24 @@ If the call succeeds, a pointer to the object body is returned to the caller and
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+
+
 
 <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
+
+
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_STOP_ACTION_FLAGS
-title: _WDF_REQUEST_STOP_ACTION_FLAGS
+title: "_WDF_REQUEST_STOP_ACTION_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration contains values that identify the state of a stop action request in a call to the driver's IQueueCallbackIoStop::OnIoStop method.
 old-location: wdf\wdf_request_stop_action_flags_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b9e3ea22-be24-4f36-abde-339495b9ed1c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestStopActionSuspend, wdf.wdf_request_stop_action_flags_umdf, wudfddi_types/WdfRequestStopActionInvalid, wudfddi_types/WdfRequestStopRequestCancelable, umdf.wdf_request_stop_action_flags, wudfddi_types/WdfRequestStopActionPurge, wudfddi_types/WdfRequestStopActionSuspend, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, WdfRequestStopActionPurge, umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, WDF_REQUEST_STOP_ACTION_FLAGS, wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS, _WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopActionInvalid, WdfRequestStopRequestCancelable
+ms.keywords: umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, WdfRequestStopActionSuspend, _WDF_REQUEST_STOP_ACTION_FLAGS, wdf.wdf_request_stop_action_flags_umdf, wudfddi_types/WdfRequestStopActionSuspend, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, wudfddi_types/WdfRequestStopActionPurge, wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS, umdf.wdf_request_stop_action_flags, WdfRequestStopActionInvalid, wudfddi_types/WdfRequestStopActionInvalid, WdfRequestStopActionPurge, wudfddi_types/WdfRequestStopRequestCancelable, WDF_REQUEST_STOP_ACTION_FLAGS, WdfRequestStopRequestCancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_REQUEST_STOP_ACTION_FLAGS
 product: Windows
 targetos: Windows
@@ -97,6 +97,8 @@ If this value is set to 1, the request is marked as cancelable.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
+
+
 
  
 

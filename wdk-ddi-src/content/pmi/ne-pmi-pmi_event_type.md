@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: c2a8422d-15f0-45df-bc54-946fb3d11a22
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: powermeter.pmi_event_type, PmiBudgetEvent, pmi/PmiBudgetEvent, pmi/PmiAveragingIntervalChangedEvent, pmi/PmiEventMax, pmi/PMI_EVENT_TYPE, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, pmi/PmiCapabilitiesChangedEvent, pmi/PmiThresholdEvent, pmi/PmiConfigurationChangedEvent, PMI_EVENT_TYPE, PmiThresholdEvent, PmiAveragingIntervalChangedEvent, PmiConfigurationChangedEvent, PmiEventMax, PmiCapabilitiesChangedEvent
+ms.keywords: pmi/PmiThresholdEvent, PmiEventMax, pmi/PMI_EVENT_TYPE, PmiThresholdEvent, pmi/PmiBudgetEvent, pmi/PmiEventMax, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, PmiBudgetEvent, pmi/PmiConfigurationChangedEvent, PmiCapabilitiesChangedEvent, PmiAveragingIntervalChangedEvent, powermeter.pmi_event_type, pmi/PmiAveragingIntervalChangedEvent, pmi/PmiCapabilitiesChangedEvent, PmiConfigurationChangedEvent, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], PMI_EVENT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pmi.h
-apiname: 
+apiname:
 -	PMI_EVENT_TYPE
 product: Windows
 targetos: Windows
@@ -105,15 +105,21 @@ The maximum number of PMI event types.
 ## -remarks
 
 
+
 The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a> structure contains information about the type of PMI event data that is referenced by the <b>Event</b> member of that structure. This structure is returned through a successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
+
 
 
 
 ## -see-also
 
+<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+
+
+
 <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
-<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+
 
  
 

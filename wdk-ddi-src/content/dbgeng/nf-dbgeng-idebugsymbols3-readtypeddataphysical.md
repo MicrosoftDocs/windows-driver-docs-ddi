@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 72562325-27f9-4e80-b03f-8926adad99c1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols2::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, debugger.readtypeddataphysical, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols3, ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface
+ms.keywords: IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, debugger.readtypeddataphysical, IDebugSymbols::ReadTypedDataPhysical, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols3, dbgeng/IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols2, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols, ReadTypedDataPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.ReadTypedDataPhysical
 -	IDebugSymbols2.ReadTypedDataPhysical
 -	IDebugSymbols3.ReadTypedDataPhysical
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::ReadTypedDataPhysical method
@@ -107,6 +107,7 @@ Receives the number of bytes that were read.  If <i>BytesRead</i> is <b>NULL</b>
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,13 +135,16 @@ The method was successful.  However, the buffer <i>Buffer</i> was not large enou
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 This method is only available in kernel mode debugging.
@@ -150,5 +154,6 @@ The number of bytes this method attempts to read is the smaller of the size of t
 This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>.
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+
 
 

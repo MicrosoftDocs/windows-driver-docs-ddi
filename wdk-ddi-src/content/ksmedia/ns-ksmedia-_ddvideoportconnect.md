@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._DDVIDEOPORTCONNECT
-title: _DDVIDEOPORTCONNECT
+title: "_DDVIDEOPORTCONNECT"
 author: windows-driver-content
 description: The DDVIDEOPORTCONNECT structure describes a hardware video port connection.
 old-location: display\ddvideoportconnect.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 54c1bb05-37a8-4841-808b-2eb9d1ecd7a3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *LPDDVIDEOPORTCONNECT, ksmedia/DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, _DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], display.ddvideoportconnect
+ms.keywords: "*LPDDVIDEOPORTCONNECT, display.ddvideoportconnect, DDVIDEOPORTCONNECT structure [Display Devices], ksmedia/DDVIDEOPORTCONNECT, _DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	DDVIDEOPORTCONNECT
 product: Windows
 targetos: Windows
-req.typenames: DDVIDEOPORTCONNECT, *LPDDVIDEOPORTCONNECT
+req.typenames: "*LPDDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT"
 ---
 
 # _DDVIDEOPORTCONNECT structure
@@ -84,6 +84,7 @@ Specifies the width of the hardware video port. This value represents the number
 ### -field guidTypeID
 
 Specifies a GUID that describes the synchronization characteristics of the hardware video port. The following port types are predefined:
+
 <table>
 <tr>
 <th>Port Type</th>
@@ -159,12 +160,14 @@ Sync information is embedded in the data stream using the Philips definition.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwFlags
 
 Specifies a set of flags that identify the capabilities of the hardware video port connection. This member can be a bitwise OR of any of the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -250,7 +253,8 @@ When set by the driver, this flag indicates that the hardware video port is capa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwReserved1
@@ -261,15 +265,21 @@ Reserved for system use and should be set to zero.
 ## -remarks
 
 
+
 The driver's <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a> callback routine initializes a DDVIDEOPORTCONNECT structure for every connection that the hardware video port supports. The client can change the <b>dwFlags</b> member of one of the driver's DDVIDEOPORTCONNECT structures before calling the driver's <a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a> callback.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a>
+
+
+
 <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a>
 
-<a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a>
+
 
  
 

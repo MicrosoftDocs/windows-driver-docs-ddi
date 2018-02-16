@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_FLIPOVERLAY
-title: _DXGKARG_FLIPOVERLAY
+title: "_DXGKARG_FLIPOVERLAY"
 author: windows-driver-content
 description: The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the overlay.
 old-location: display\dxgkarg_flipoverlay.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c5396581-e9f2-47eb-bb82-1e54f5def4d0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY, DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, display.dxgkarg_flipoverlay, DXGKARG_FLIPOVERLAY structure [Display Devices], d3dkmddi/DXGKARG_FLIPOVERLAY
+ms.keywords: "_DXGKARG_FLIPOVERLAY, DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, DXGKARG_FLIPOVERLAY, d3dkmddi/DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY structure [Display Devices], display.dxgkarg_flipoverlay"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_FLIPOVERLAY
 product: Windows
 targetos: Windows
@@ -99,6 +99,8 @@ typedef struct _DXGKARG_FLIPOVERLAY {
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_flipoverlay.md">DxgkDdiFlipOverlay</a>
+
+
 
  
 

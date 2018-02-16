@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3dDrawPrimitives2
 product: Windows
 targetos: Windows
-req.typenames: *LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS
+req.typenames: "*LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS"
 ---
 
 # LPD3DHAL_DRAWPRIMITIVES2CB callback
@@ -77,6 +77,8 @@ DWORD APIENTRY D3dDrawPrimitives2(
 
 
 
+
+
 #### - pdp [in]
 
 Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a> structure that contains the information required for the driver to render one or more primitives.
@@ -85,16 +87,20 @@ Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_
 ## -returns
 
 
+
 <b>D3dDrawPrimitives2</b> returns one of the following callback codes:
+
 
 
 
 ## -remarks
 
 
+
 <b>D3dDrawPrimitives2</b> must be implemented in Microsoft Direct3D drivers.
 
 The driver must do the following:
+
 <ul>
 <li>
 Ensure that the context handle specified by the <b>dwhContext</b> member of the D3DHAL_DRAWPRIMITIVES2DATA structure at <i>pdp</i> is valid.
@@ -127,14 +133,19 @@ Determine the location of the first vertex in the vertex buffer. This should onl
 <li>If the command is unknown, call the runtime's <b>D3dParseUnknownCommand</b> callback. The runtime provides this callback to the driver's <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> callback with the GUID_D3DParseUnknownCommandCallback GUID. </li>
 </ul>
 </li>
-</ul>The driver does not need to probe for readability of the memory where the command and vertex buffers are stored. However, the driver must stay within the bounds specified by the <b>dwCommandLength</b> and <b>dwVertexLength</b> members of D3DHAL_DRAWPRIMITIVES2DATA.
+</ul>
+The driver does not need to probe for readability of the memory where the command and vertex buffers are stored. However, the driver must stay within the bounds specified by the <b>dwCommandLength</b> and <b>dwVertexLength</b> members of D3DHAL_DRAWPRIMITIVES2DATA.
 
 If the driver must fail <b>D3dDrawPrimitives2</b>, it should fill in the <b>dwErrorOffset</b> member of D3DHAL_DRAWPRIMITIVES2DATA with the offset into the command buffer where the first unhandled D3DHAL_DP2COMMAND can be found.
+
 <div class="alert"><b>Note</b>    The following comments are valid only for applications that are written using Microsoft DirectX 7.0 interfaces and that communicate with drivers through DirectX 8.0 and DirectX 8.1 runtimes.<p class="note">The following comments are not valid for applications that are written using DirectX 8.0 and later interfaces because such applications no longer use the concept of a current vertex buffer (that is, vertex data is no longer passed in via the <b>lpDDVertex</b> member of D3DHAL_DRAWPRIMITIVES2DATA). Therefore, with these applications, the driver's <b>D3dDrawPrimitives2</b> function should never cause rendering from a vertex buffer to stall even if the buffer is implicit or explicit and there is an outstanding lock on it. 
 
-</div><div> </div>If the driver is used with a DirectX 8.1 or later runtime, the driver's <b>D3dDrawPrimitives2</b> function should never cause rendering from the current vertex buffer (passed in via <b>lpDDVertex</b>) to stall if the buffer is implicit. If the buffer is explicit and there is an outstanding lock on it, the driver should stall at the end of its <b>D3dDrawPrimitives2</b> function if it does not rename the buffer (does not set D3DHALDP2_SWAPVERTEXBUFFER). If the driver renames the buffer, then the driver does not stall. DirectX 8.1 and later runtimes call the driver's <b>D3dDrawPrimitives2</b> function to render from a locked explicit vertex buffer only when necessary so performance is rarely affected. An implicit vertex buffer is created by the driver's <a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a> callback with only the DDSCAPS_EXECUTEBUFFER flag set. An explicit vertex buffer is created by the driver's <i>CreateD3DBuffer</i> callback with the DDSCAPS_EXECUTEBUFFER and DDSCAPS2_VERTEXBUFFER flags set. The explicit vertex buffer becomes locked by the driver's <a href="https://msdn.microsoft.com/8e0714df-1ac8-448c-9f0f-d361640c133a">LockD3DBuffer</a> callback. 
+</div>
+<div> </div>
+If the driver is used with a DirectX 8.1 or later runtime, the driver's <b>D3dDrawPrimitives2</b> function should never cause rendering from the current vertex buffer (passed in via <b>lpDDVertex</b>) to stall if the buffer is implicit. If the buffer is explicit and there is an outstanding lock on it, the driver should stall at the end of its <b>D3dDrawPrimitives2</b> function if it does not rename the buffer (does not set D3DHALDP2_SWAPVERTEXBUFFER). If the driver renames the buffer, then the driver does not stall. DirectX 8.1 and later runtimes call the driver's <b>D3dDrawPrimitives2</b> function to render from a locked explicit vertex buffer only when necessary so performance is rarely affected. An implicit vertex buffer is created by the driver's <a href="https://msdn.microsoft.com/8b012e65-b78b-41a4-ac05-d9be015b6ed8">CreateD3DBuffer</a> callback with only the DDSCAPS_EXECUTEBUFFER flag set. An explicit vertex buffer is created by the driver's <i>CreateD3DBuffer</i> callback with the DDSCAPS_EXECUTEBUFFER and DDSCAPS2_VERTEXBUFFER flags set. The explicit vertex buffer becomes locked by the driver's <a href="https://msdn.microsoft.com/8e0714df-1ac8-448c-9f0f-d361640c133a">LockD3DBuffer</a> callback. 
 
 If the driver is used with a DirectX 8.0 runtime, the driver should sometimes stall when rendering from an implicit current vertex buffer to prevent synchronization issues and resulting corruption. In addition, the DirectX 8.0 runtime calls the driver's <b>D3dDrawPrimitives2</b> function to render from a locked explicit current vertex buffer more often then really necessary so performance is degraded. The following are stalling workarounds for a driver that is used with a DirectX 8.0 runtime:
+
 <ul>
 <li>
 The driver should stall when it transitions between rendering user-memory primitives (identified by D3DHALDP2_USERMEMVERTICES) and rendering from an implicit current vertex buffer only if it does not rename the buffer (does not set D3DHALDP2_SWAPVERTEXBUFFER).
@@ -204,31 +215,56 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 </ul>
 
 
-## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglelist.md">D3DHAL_DP2INDEXEDTRIANGLELIST</a>
+## -see-also
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linestrip.md">D3DHAL_DP2LINESTRIP</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2points.md">D3DHAL_DP2POINTS</a>
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linelist.md">D3DHAL_DP2LINELIST</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglefan.md">D3DHAL_DP2INDEXEDTRIANGLEFAN</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglestrip.md">D3DHAL_DP2TRIANGLESTRIP</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglestrip.md">D3DHAL_DP2INDEXEDTRIANGLESTRIP</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglelist.md">D3DHAL_DP2TRIANGLELIST</a>
 
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglefan.md">D3DHAL_DP2TRIANGLEFAN</a>
 
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglelist.md">D3DHAL_DP2TRIANGLELIST</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedlinelist.md">D3DHAL_DP2INDEXEDLINELIST</a>
+
+
 
 <a href="https://msdn.microsoft.com/206f4275-bcb8-4e8e-9c11-c6fb5d9c561d">FVF</a>
 
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linelist.md">D3DHAL_DP2LINELIST</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglestrip.md">D3DHAL_DP2TRIANGLESTRIP</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2points.md">D3DHAL_DP2POINTS</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedlinestrip.md">D3DHAL_DP2INDEXEDLINESTRIP</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglestrip.md">D3DHAL_DP2INDEXEDTRIANGLESTRIP</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglelist.md">D3DHAL_DP2INDEXEDTRIANGLELIST</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglefan.md">D3DHAL_DP2INDEXEDTRIANGLEFAN</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, PFND3DKMT_GETRUNTIMEDATA, D3DKMTGetRuntimeData function [Display Devices], display.d3dkmtgetruntimedata, D3DKMTGetRuntimeData, d3dkmthk/D3DKMTGetRuntimeData
+ms.keywords: display.d3dkmtgetruntimedata, D3DKMTGetRuntimeData, D3DKMTGetRuntimeData function [Display Devices], PFND3DKMT_GETRUNTIMEDATA, d3dkmthk/D3DKMTGetRuntimeData, OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	GDI32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTGetRuntimeData
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in, out]
 
 Reserved for system use.
@@ -84,6 +85,8 @@ Reserved for system use.
 ## -remarks
 
 
+
 This function is reserved for system use.
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a6bdbd68-b4ec-467f-9892-e968243e8994
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], wdm/RtlIoDecodeMemIoResource, kernel.rtliodecodememioresource, RtlIoDecodeMemIoResource, k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml
+ms.keywords: RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], RtlIoDecodeMemIoResource, kernel.rtliodecodememioresource, k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml, wdm/RtlIoDecodeMemIoResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlIoDecodeMemIoResource
 product: Windows
 targetos: Windows
@@ -94,22 +94,30 @@ A pointer to a variable that receives the maximum address of the address range. 
 ## -returns
 
 
+
 <b>RtlIoDecodeMemIoResource</b> returns the length of the address range, in bytes.
+
 
 
 
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure must be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>. 
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a>
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
 
  
 

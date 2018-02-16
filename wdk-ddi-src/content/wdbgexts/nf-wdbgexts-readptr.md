@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e3999ecc-9884-4ae6-8e01-be4538b1d53a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, ReadPtr, debugger.readptr, wdbgexts/ReadPtr, ReadPtr function [Windows Debugging]
+ms.keywords: debugger.readptr, ReadPtr, ReadPtr function [Windows Debugging], wdbgexts/ReadPtr, WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	ReadPtr
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Receives the value of the pointer.  If the target uses 32-bit pointers, the poin
 ## -returns
 
 
+
 If the function succeeds, the return value is <b>FALSE</b>; otherwise, it is <b>TRUE</b>.
 
 
 
+
 ## -remarks
+
 
 
 This function is identical to <a href="..\wdbgexts\nf-wdbgexts-readpointer.md">ReadPointer</a>, except the meaning of the return value is reversed.
@@ -96,9 +99,12 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 
 
+
 ## -see-also
 
 <a href="..\wdbgexts\nf-wdbgexts-readpointer.md">ReadPointer</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9659d669-ccf3-423a-9c81-12232a978d07
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, wiamdef/wiasGetItemType, wiasGetItemType, wiasGetItemType function [Imaging Devices], image.wiasgetitemtype
+ms.keywords: wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, image.wiasgetitemtype, wiasGetItemType, wiasGetItemType function [Imaging Devices], wiamdef/wiasGetItemType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasGetItemType
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - plItemType [out]
 
 Pointer to a memory location that receives a value indicating the type of the item. See the Microsoft Windows SDK documentation for a list of the WIA item type flags.
@@ -88,6 +89,8 @@ Pointer to a memory location that receives a value indicating the type of the it
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATELIGHT
-title: _D3DDDIARG_CREATELIGHT
+title: "_D3DDDIARG_CREATELIGHT"
 author: windows-driver-content
 description: The D3DDDIARG_CREATELIGHT structure contains the index into the light array.
 old-location: display\d3dddiarg_createlight.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14dcff4a-3295-435b-a1b2-f3aa15117673
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_683ae423-2e77-49e2-8028-3980a2f1a32d.xml, display.d3dddiarg_createlight, D3DDDIARG_CREATELIGHT structure [Display Devices], _D3DDDIARG_CREATELIGHT, d3dumddi/D3DDDIARG_CREATELIGHT, D3DDDIARG_CREATELIGHT
+ms.keywords: D3DDDIARG_CREATELIGHT, D3DDDIARG_CREATELIGHT structure [Display Devices], display.d3dddiarg_createlight, UMDisplayDriver_param_Structs_683ae423-2e77-49e2-8028-3980a2f1a32d.xml, d3dumddi/D3DDDIARG_CREATELIGHT, _D3DDDIARG_CREATELIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_CREATELIGHT
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ typedef struct _D3DDDIARG_CREATELIGHT {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createlight.md">CreateLight</a>
+
+
 
  
 

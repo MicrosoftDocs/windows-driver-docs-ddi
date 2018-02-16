@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5635b99d-c58d-4a17-bb51-2dc38e51421a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, PFN_WDFDRIVERISVERSIONAVAILABLE, wdfdriver/WdfDriverIsVersionAvailable, wdf.wdfdriverisversionavailable, kmdf.wdfdriverisversionavailable, WdfDriverIsVersionAvailable method
+ms.keywords: DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, wdf.wdfdriverisversionavailable, WdfDriverIsVersionAvailable method, PFN_WDFDRIVERISVERSIONAVAILABLE, wdfdriver/WdfDriverIsVersionAvailable, kmdf.wdfdriverisversionavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDriverIsVersionAvailable
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ A pointer to a <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_
 ## -returns
 
 
+
 <b>WdfDriverIsVersionAvailable</b> returns <b>TRUE</b> if the driver is running with the version of the library that the <i>VersionAvailableParams</i> parameter specifies. 
 
 The method returns <b>FALSE</b> if the driver is not running with the specified library version or if the WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is invalid.
@@ -97,22 +98,56 @@ A system bug check occurs if the <i>Driver</i> handle is invalid.
 
 
 
+
 ## -remarks
+
 
 
 For more information about library versions, see <a href="https://msdn.microsoft.com/51db6f3c-45cb-46a7-9dd4-2bab67893fea">Framework Library Versioning</a>.
 
 
+#### Examples
+
+The following code example reports an error if it detects an unexpected library version number.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DRIVER_VERSION_AVAILABLE_PARAMS ver;
+
+WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&amp;ver, 1, 0);
+if (!WdfDriverIsVersionAvailable(
+                                 driver,
+                                 &amp;ver
+                                 )) {
+    DbgPrint("Unexpected library version.\n");
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfdriverretrieveversionstring.md">WdfDriverRetrieveVersionString</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+
+
 
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
 
  
 

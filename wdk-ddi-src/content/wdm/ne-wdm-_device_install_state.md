@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_INSTALL_STATE
-title: _DEVICE_INSTALL_STATE
+title: "_DEVICE_INSTALL_STATE"
 author: windows-driver-content
 description: The DEVICE_INSTALL_STATE enumeration describes a device's installation state.
 old-location: kernel\device_install_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], *PDEVICE_INSTALL_STATE, InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, wdm/DEVICE_INSTALL_STATE, wdm/PDEVICE_INSTALL_STATE, _DEVICE_INSTALL_STATE, wdm/InstallStateFinishInstall, kernel.device_install_state, wdm/InstallStateNeedsReinstall, wdm/InstallStateInstalled, InstallStateFinishInstall, InstallStateFailedInstall, wdm/InstallStateFailedInstall, InstallStateInstalled, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml
+ms.keywords: kernel.device_install_state, InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, InstallStateFinishInstall, wdm/InstallStateNeedsReinstall, InstallStateFailedInstall, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], wdm/DEVICE_INSTALL_STATE, wdm/InstallStateFailedInstall, _DEVICE_INSTALL_STATE, wdm/InstallStateFinishInstall, DEVICE_INSTALL_STATE, wdm/InstallStateInstalled, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, *PDEVICE_INSTALL_STATE, InstallStateInstalled, wdm/PDEVICE_INSTALL_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	DEVICE_INSTALL_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE
+req.typenames: DEVICE_INSTALL_STATE, *PDEVICE_INSTALL_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -94,7 +94,9 @@ The installation of this device is not yet complete.
 ## -remarks
 
 
+
 The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routine supplies a <b>DEVICE_INSTALL_STATE</b> enumeration value when a driver requests <b>DevicePropertyInstallState</b>. The operating system uses the value as a hint about the install state of the device.
+
 
 
 
@@ -102,7 +104,11 @@ The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routi
 
 <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
+
+
 <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
+
+
 
  
 

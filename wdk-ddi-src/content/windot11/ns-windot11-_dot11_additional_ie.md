@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_ADDITIONAL_IE
-title: _DOT11_ADDITIONAL_IE
+title: "_DOT11_ADDITIONAL_IE"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_additional_ie.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db034863-f5fa-42bb-81c8-23d4784e0abe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_ADDITIONAL_IE, Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, netvista.dot11_additional_ie, *PDOT11_ADDITIONAL_IE, windot11/DOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE, windot11/PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_DOT11_ADDITIONAL_IE, Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, DOT11_ADDITIONAL_IE, *PDOT11_ADDITIONAL_IE, windot11/DOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_additional_ie"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_ADDITIONAL_IE
 product: Windows
 targetos: Windows
@@ -84,6 +84,25 @@ The miniport driver must set the members of
 
 
 
+
+
+#### Type
+
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
+
+
+
+#### Revision
+
+This member must be set to DOT11_ADDITIONAL_IE_REVISION_1.
+
+
+
+#### Size
+
+This member must be set to 
+       <b>sizeof</b>(DOT11_ADDITIONAL_IE).
+
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
@@ -114,23 +133,8 @@ The length of the additional IEs, in bytes, in the probe response frame sent by 
      default value is 0.
 
 
-##### - Header.Revision
-
-This member must be set to DOT11_ADDITIONAL_IE_REVISION_1.
-
-
-##### - Header.Type
-
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
-##### - Header.Size
-
-This member must be set to 
-       <b>sizeof</b>(DOT11_ADDITIONAL_IE).
-
-
 ## -remarks
+
 
 
 This structure is used with 
@@ -142,13 +146,20 @@ The miniport driver should reset the members of the DOT11_ADDITIONAL_IE structur
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569103">OID_DOT11_ADDITIONAL_IE</a>
+## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569103">OID_DOT11_ADDITIONAL_IE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>
+
+
 
  
 

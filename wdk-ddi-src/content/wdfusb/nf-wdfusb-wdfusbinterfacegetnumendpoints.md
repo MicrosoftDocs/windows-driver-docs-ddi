@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6041b96e-2364-4592-9bc5-de4fb1b36957
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbinterfacegetnumendpoints, wdf.wdfusbinterfacegetnumendpoints, DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, WdfUsbInterfaceGetNumEndpoints, wdfusb/WdfUsbInterfaceGetNumEndpoints, PFN_WDFUSBINTERFACEGETNUMENDPOINTS, WdfUsbInterfaceGetNumEndpoints method
+ms.keywords: WdfUsbInterfaceGetNumEndpoints method, WdfUsbInterfaceGetNumEndpoints, kmdf.wdfusbinterfacegetnumendpoints, PFN_WDFUSBINTERFACEGETNUMENDPOINTS, wdfusb/WdfUsbInterfaceGetNumEndpoints, wdf.wdfusbinterfacegetnumendpoints, DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbInterfaceGetNumEndpoints
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,7 @@ An index value that identifies an alternate setting for the interface. For more 
 ## -returns
 
 
+
 If the specified index is valid, <b>WdfUsbInterfaceGetNumEndpoints</b> returns the number of endpoints that are associated with the specified interface's alternate setting. Otherwise, the method returns zero.
 
 A bug check occurs if the driver supplies an invalid object handle.
@@ -95,16 +96,40 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about the <b>WdfUsbInterfaceGetNumEndpoints</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
+
+#### Examples
+
+The following code example obtains the number of endpoints for alternate setting 0 of a specified USB interface.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BYTE  numEndpoints;
+numEndpoints = WdfUsbInterfaceGetNumEndpoints(
+                                              UsbInterface,
+                                              0
+                                              );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
+
+
 
  
 

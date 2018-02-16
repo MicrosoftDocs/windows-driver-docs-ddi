@@ -7,8 +7,8 @@ old-location: buses\ufxdeviceiocontrol.htm
 old-project: usbref
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ufxdeviceiocontrol, UfxDeviceIoControl, ufxclient/UfxDeviceIoControl, UfxDeviceIoControl method [Buses]
+ms.date: 2/8/2018
+ms.keywords: buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl, UfxDeviceIoControl, UfxDeviceIoControl method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxDeviceIoControl
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,9 @@ The driver-defined or system-defined IOCTL that is associated with the request.
 ## -remarks
 
 
+
 The client driver calls <b>UfxDeviceIoControl</b> to forward non-internal IOCTLs that it receives in its <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> callback function to UFX.  The following example shows how:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -167,4 +169,5 @@ Arguments:
 </td>
 </tr>
 </table></span></div>
+
 

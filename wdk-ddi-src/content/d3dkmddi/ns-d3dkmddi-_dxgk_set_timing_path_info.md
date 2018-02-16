@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SET_TIMING_PATH_INFO
-title: _DXGK_SET_TIMING_PATH_INFO
+title: "_DXGK_SET_TIMING_PATH_INFO"
 author: windows-driver-content
 description: Structure to hold information to modify SetTiming path.
 old-location: display\dxgk_set_timing_path_info.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_SET_TIMING_PATH_INFO structure [Display Devices], DXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], PDXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, display.dxgk_set_timing_path_info
+ms.keywords: PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], display.dxgk_set_timing_path_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_SET_TIMING_PATH_INFO
 product: Windows
 targetos: Windows
@@ -96,6 +96,11 @@ typedef struct _DXGK_SET_TIMING_PATH_INFO {
 
 
 
+### -field VidPnTargetId
+
+The identifier of a display adapter's video present target.
+
+
 ### -field OutputColorSpace
 
 A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value which describes the output color space intended for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
@@ -121,8 +126,12 @@ Given that there are no plans to support ST.2084 gamma with Rec.709 primaries, o
  
 
 
-### -field Input
+### -field SelectedWireFormat
 
+A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md">D3DKMDT_WIRE_FORMAT_AND_PREFERENCE</a> value which indicates the wire format to be set for the path. The Preference field is reserved in this context so should be ignored by the driver.  In the remaining five bit-fields, the OS will set one of the thirty bits to indicate which color encoding and at which bit depth the link should be driven.
+
+
+### -field Input
 
 
 ### -field Input.VidPnPathUpdates
@@ -167,7 +176,6 @@ A set of flags specifying what the OS wants the driver to do.
 ### -field Output
 
 
-
 ### -field Output.RecheckMPO
 
 If set, indicates that the OS needs to issue a CheckMPO due to changes on this path. 
@@ -183,6 +191,15 @@ This value is reserved for system use.
 A set of flags specifying outcomes the OS needs to be aware of relating to this path.
 
 
+### -field TargetState
+
+Indicates the target state as a result of this call. Since changing timings may cause the connection state of both modified targets and targets which the OS did not intended to change, this field communicates the state for each path.  
+
+If the target state is unchanged, this field should contain a copy of the last state reported on the target, including the same ConnectionChangeId which was previously reported.
+
+If the target state is changed, this field should contain a copy of the queued, connection change which reflects the state resulting from the SetTiming call.
+
+
 ### -field GlitchCause
 
 A DXGK_GLITCH_CAUSE value which indicates which underlying change(s) in the display pipeline caused the glitch.
@@ -196,7 +213,9 @@ A DXGK_GLITCH_EFFECT value which indicates how the glitch was presented to the u
 ### -field GlitchDuration
 
 A DXGK_GLITCH_DURATION value which indicates approximately how long the glitch lasted.  
-<div class="alert"><b>Note</b>  This is intended to reflect how long the underlying issue was present, but the visible effect may be longer in some cases.  For example, when sync is lost long enough for a monitor to have to re-detect, the display device will likely take many frames to recover.  It is the length of the underlying issue which should be reported, not the recovery time as that will vary between devices</div><div> </div>
+
+<div class="alert"><b>Note</b>  This is intended to reflect how long the underlying issue was present, but the visible effect may be longer in some cases.  For example, when sync is lost long enough for a monitor to have to re-detect, the display device will likely take many frames to recover.  It is the length of the underlying issue which should be reported, not the recovery time as that will vary between devices</div>
+<div> </div>
 
 ### -field Reserved
 
@@ -208,23 +227,4 @@ This value is reserved for system use.
 Set of information filled out by the driver for each path to describe any side-effects of the timing change.
 In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extent of user impact.
 
-
-
-### -field VidPnTargetId
-
-The identifier of a display adapter's video present target.
-
-
-### -field SelectedWireFormat
-
-A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md">D3DKMDT_WIRE_FORMAT_AND_PREFERENCE</a> value which indicates the wire format to be set for the path. The Preference field is reserved in this context so should be ignored by the driver.  In the remaining five bit-fields, the OS will set one of the thirty bits to indicate which color encoding and at which bit depth the link should be driven.
-
-
-### -field TargetState
-
-Indicates the target state as a result of this call. Since changing timings may cause the connection state of both modified targets and targets which the OS did not intended to change, this field communicates the state for each path.  
-
-If the target state is unchanged, this field should contain a copy of the last state reported on the target, including the same ConnectionChangeId which was previously reported.
-
-If the target state is changed, this field should contain a copy of the queued, connection change which reflects the state resulting from the SetTiming call.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d6a7af70-6a1e-471b-919f-80a704d25446
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml, NdisDprReleaseSpinLock, netvista.ndisdprreleasespinlock, ndis/NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisDprReleaseSpinLock, netvista.ndisdprreleasespinlock, ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml, ndis/NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisDprReleaseSpinLock
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisDprReleaseSpinLock macro
@@ -53,8 +53,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisDprReleaseSpinLock</b> function releases a spin lock acquired in the immediately preceding call to
   the 
-  <mshelp:link keywords="netvista.ndisdpracquirespinlock" tabindex="0"><b>
-  NdisDprAcquireSpinLock</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">
+  NdisDprAcquireSpinLock</a> function.
 
 
 ## -syntax
@@ -72,19 +72,13 @@ VOID NdisDprReleaseSpinLock(
 
 
 
-### -param _SpinLock
-
-TBD
-
-
-
-
-#### - SpinLock [in]
+### -param _SpinLock [in]
 
 Pointer to the acquired spin lock to be released.
 
 
 ## -remarks
+
 
 
 Release of the spin lock allows another driver function to use the resources the lock protects after
@@ -98,14 +92,17 @@ A spin lock acquired with
     <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>.
 
 For more information about acquiring and releasing NDIS spin locks, see 
-    <mshelp:link keywords="netvista.synchronization_and_notification_in_network_drivers" tabindex="0">Synchronization
-    and Notification in Network Drivers</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    and Notification in Network Drivers</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
+
+
 
  
 

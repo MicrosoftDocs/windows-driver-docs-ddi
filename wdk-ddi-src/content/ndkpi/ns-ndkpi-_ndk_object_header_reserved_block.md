@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_OBJECT_HEADER_RESERVED_BLOCK
-title: _NDK_OBJECT_HEADER_RESERVED_BLOCK
+title: "_NDK_OBJECT_HEADER_RESERVED_BLOCK"
 author: windows-driver-content
 description: The NDK_OBJECT_HEADER_RESERVED_BLOCK structure specifies reserved information in an NDK object.
 old-location: netvista\ndk_object_header_reserved_block.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39D3265C-ED32-420F-9216-EFD0EDC27C84
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDK_OBJECT_HEADER_RESERVED_BLOCK, _NDK_OBJECT_HEADER_RESERVED_BLOCK, netvista.ndk_object_header_reserved_block, ndkpi/NDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK, NDK_OBJECT_HEADER_RESERVED_BLOCK structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDK_OBJECT_HEADER_RESERVED_BLOCK, netvista.ndk_object_header_reserved_block, PNDK_OBJECT_HEADER_RESERVED_BLOCK, ndkpi/PNDK_OBJECT_HEADER_RESERVED_BLOCK, _NDK_OBJECT_HEADER_RESERVED_BLOCK, NDK_OBJECT_HEADER_RESERVED_BLOCK structure [Network Drivers Starting with Windows Vista], ndkpi/NDK_OBJECT_HEADER_RESERVED_BLOCK, PNDK_OBJECT_HEADER_RESERVED_BLOCK structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_OBJECT_HEADER_RESERVED_BLOCK
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ Reserved.
 ## -remarks
 
 
+
 The <b>NDK_OBJECT_HEADER_RESERVED_BLOCK</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+
+
 
  
 

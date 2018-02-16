@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	MyAVStrMiniPin
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ Pointer to the relevant <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>, serving as a 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>About AVStrMiniPinDisconnect</b>
@@ -108,9 +111,12 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+
 
  
 

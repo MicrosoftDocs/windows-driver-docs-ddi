@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnProcessFrame
 product: Windows
 targetos: Windows
@@ -92,40 +92,39 @@ The submission ID is a monotonically increasing integer value.  The value passed
 
 ### -param *pOutputParameters
 
+The output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a> structure.
 
 
 ### -param *pInputStreamParameters
 
+Specifies an array of input parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a> structure.
 
 
 ### -param NumInputStreams
 
 
-
-#### - pOutputParameters
-
-The output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a> structure.
-
-
-#### - pInputStreamParameters
-
-Specifies an array of input parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a> structure.
-
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
-## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a>
+## -see-also
 
 <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_processor_trim_allocations_0021.md">pfnProcessorTrimAllocations</a>
 
+
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a>
+
+
+
+<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0020.md">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a>
+
+
 
  
 

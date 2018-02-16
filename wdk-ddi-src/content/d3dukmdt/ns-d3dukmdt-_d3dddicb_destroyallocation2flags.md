@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_DESTROYALLOCATION2FLAGS
-title: _D3DDDICB_DESTROYALLOCATION2FLAGS
+title: "_D3DDDICB_DESTROYALLOCATION2FLAGS"
 author: windows-driver-content
 description: The D3DDDICB_DESTROYALLOCATION2FLAGS structure is used with the D3DKMT_DESTROYALLOCATION2 structure to describe parameters for releasing allocations with D3DKMTDestroyAllocation2.D3DDDICB_DESTROYALLOCATION2FLAGS structure is used with the D3DKMT_DESTROYALLOCATION2 structure to describe parameters for releasing allocations with D3DKMTDestroyAllocation2.
 old-location: display\d3dddicb_destroyallocation2flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 50D4BFB7-B5AC-4202-B426-F152B06C9F46
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS
+ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDICB_DESTROYALLOCATION2FLAGS
 product: Windows
 targetos: Windows
@@ -108,7 +108,8 @@ Instructs the video memory manager to assume that commands queued prior to the d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SynchronousDestroy
@@ -141,7 +142,8 @@ Instructs the video memory manager to assume that commands queued prior to the d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved
@@ -161,9 +163,13 @@ The consolidated value of the fields in the structure.
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation2.md">D3DKMT_DESTROYALLOCATION2</a>
+
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyallocation2.md">D3DKMTDestroyAllocation2</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation2.md">D3DKMT_DESTROYALLOCATION2</a>
+
 
  
 

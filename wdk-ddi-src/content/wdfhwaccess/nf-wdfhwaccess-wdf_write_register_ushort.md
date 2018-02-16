@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E098794F-9A32-409E-9B44-04FDCEF75341
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_WRITE_REGISTER_USHORT, wdf.wdf_write_register_ushort, WDF_WRITE_REGISTER_USHORT, WDF_WRITE_REGISTER_USHORT function
+ms.keywords: wdfhwaccess/WDF_WRITE_REGISTER_USHORT, wdf.wdf_write_register_ushort, WDF_WRITE_REGISTER_USHORT function, WDF_WRITE_REGISTER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfhwaccess.h
-apiname: 
+apiname:
 -	WDF_WRITE_REGISTER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,8 @@ Specifies a USHORT value to write to the register.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

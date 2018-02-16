@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: A1287386-E831-474A-858C-89787741FD57
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: POS_CX_ATTRIBUTES_INIT function, POS_CX_ATTRIBUTES_INIT, poscx/POS_CX_ATTRIBUTES_INIT, pos.pos_cx_attributes_init
+ms.keywords: poscx/POS_CX_ATTRIBUTES_INIT, pos.pos_cx_attributes_init, POS_CX_ATTRIBUTES_INIT function, POS_CX_ATTRIBUTES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	POS_CX_ATTRIBUTES_INIT
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ A pointer to the caller-allocated <a href="..\poscx\ns-poscx-_pos_cx_attributes.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
@@ -84,7 +86,11 @@ This function does not return a value.
 
 <a href="..\poscx\ns-poscx-_pos_cx_attributes.md">POS_CX_ATTRIBUTE</a>
 
+
+
 <a href="..\poscx\nf-poscx-poscxinit.md">PosCxInit</a>
+
+
 
  
 

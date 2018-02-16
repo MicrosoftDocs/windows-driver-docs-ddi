@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplayCharacterData
-title: _LineDisplayCharacterData
+title: "_LineDisplayCharacterData"
 author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaycharacterdata.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: EBD3CE63-A5ED-49FB-904F-1EF6A402ED64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LineDisplayCharacterData structure, pointofservicedriverinterface/LineDisplayCharacterData, PLineDisplayCharacterData structure pointer, _LineDisplayCharacterData, pointofservicedriverinterface/PLineDisplayCharacterData, LineDisplayCharacterData, PLineDisplayCharacterData, pos.linedisplaycharacterdata
+ms.keywords: PLineDisplayCharacterData structure pointer, pointofservicedriverinterface/PLineDisplayCharacterData, pointofservicedriverinterface/LineDisplayCharacterData, pos.linedisplaycharacterdata, LineDisplayCharacterData structure, _LineDisplayCharacterData, LineDisplayCharacterData, PLineDisplayCharacterData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	LineDisplayCharacterData
 product: Windows
 targetos: Windows
@@ -73,6 +73,6 @@ typedef struct _LineDisplayCharacterData {
 
 
 
-####### - ...
 
+####### - ...
 

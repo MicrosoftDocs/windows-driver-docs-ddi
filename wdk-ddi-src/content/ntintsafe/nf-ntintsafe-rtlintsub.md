@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68BBD6B8-5C7C-4FE5-97F7-473A9510400F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlIntSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntSub, kernel.rtlintsub, RtlIntSub
+ms.keywords: ntintsafe/RtlIntSub, kernel.rtlintsub, RtlIntSub, RtlIntSub function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlIntSub
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 #### - pu8Result [out]
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
@@ -93,13 +94,16 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlInt32Sub
 </li>
 <li>RtlLong32Sub
 </li>
 </ul>
+
 

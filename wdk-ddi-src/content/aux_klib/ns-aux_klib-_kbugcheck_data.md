@@ -1,6 +1,6 @@
 ---
 UID: NS:aux_klib._KBUGCHECK_DATA
-title: _KBUGCHECK_DATA
+title: "_KBUGCHECK_DATA"
 author: windows-driver-content
 description: The KBUGCHECK_DATA structure contains bug check parameters.
 old-location: kernel\kbugcheck_data.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fecf57b-e77a-458e-80ce-118eed2d48b4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PKBUGCHECK_DATA, aux_klib/KBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, PKBUGCHECK_DATA, KBUGCHECK_DATA, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, kernel.kbugcheck_data, _KBUGCHECK_DATA
+ms.keywords: PKBUGCHECK_DATA, aux_klib_ced3c2df-3d09-45d8-8ae8-049d2bc46160.xml, PKBUGCHECK_DATA structure pointer [Kernel-Mode Driver Architecture], aux_klib/KBUGCHECK_DATA, *PKBUGCHECK_DATA, KBUGCHECK_DATA structure [Kernel-Mode Driver Architecture], kernel.kbugcheck_data, _KBUGCHECK_DATA, aux_klib/PKBUGCHECK_DATA, KBUGCHECK_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	aux_klib.h
-apiname: 
+apiname:
 -	KBUGCHECK_DATA
 product: Windows
 targetos: Windows
@@ -105,13 +105,17 @@ Bug check parameter 4. For more information about this parameter, see specific <
 ## -remarks
 
 
+
 The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\aux_klib\nf-aux_klib-auxklibgetbugcheckdata.md">AuxKlibGetBugCheckData</a>
+
+
 
  
 

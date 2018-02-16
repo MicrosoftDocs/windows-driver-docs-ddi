@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: A39FF088-1AA3-4E2F-8EF6-AD7F79FBBC92
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetSourceEntryOffsetRegions, GetSourceEntryOffsetRegions method [Windows Debugging], debugger.idebugsymbols3_getsourceentryoffsetregions, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetSourceEntryOffsetRegions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryOffsetRegions method, IDebugSymbols3::GetSourceEntryOffsetRegions
+ms.keywords: IDebugSymbols3::GetSourceEntryOffsetRegions, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryOffsetRegions method, debugger.idebugsymbols3_getsourceentryoffsetregions, GetSourceEntryOffsetRegions, IDebugSymbols3, GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryOffsetRegions method [Windows Debugging], dbgeng/IDebugSymbols3::GetSourceEntryOffsetRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetSourceEntryOffsetRegions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSourceEntryOffsetRegions method
@@ -100,6 +100,7 @@ A pointer to the number of regions available to the entry.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 This function returns all known memory regions that associated
@@ -108,13 +109,20 @@ This function returns all known memory regions that associated
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/986774F6-5256-4703-990A-EAB4AB09AF55">IDebugSymbols3::GetSymbolEntryOffsetRegions</a>
 
+
+
 <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

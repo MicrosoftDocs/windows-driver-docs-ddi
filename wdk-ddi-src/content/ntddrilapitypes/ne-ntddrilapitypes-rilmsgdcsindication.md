@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 709980c8-e13f-48a7-9af7-26f0bb79e699
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgdcsindication, RIL_DCSINDICATION_FAX, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RILMSGDCSINDICATION, ntddrilapitypes/RIL_DCSINDICATION_EMAIL, RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RIL_DCSINDICATION_MAX, ntddrilapitypes/RILMSGDCSINDICATION, RIL_DCSINDICATION_OTHER, ntddrilapitypes/RIL_DCSINDICATION_FAX, RIL_DCSINDICATION_MAX, ntddrilapitypes/RIL_DCSINDICATION_OTHER
+ms.keywords: ntddrilapitypes/RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_OTHER, RIL_DCSINDICATION_MAX, ntddrilapitypes/RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RILMSGDCSINDICATION, ntddrilapitypes/RIL_DCSINDICATION_OTHER, RIL_DCSINDICATION_EMAIL, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RIL_DCSINDICATION_FAX, netvista.rilmsgdcsindication, ntddrilapitypes/RIL_DCSINDICATION_FAX, RILMSGDCSINDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGDCSINDICATION
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILMSGDCSINDICATION {
 ### -field RIL_DCSINDICATION_VOICEMAIL
 
 
-
 ### -field RIL_DCSINDICATION_FAX
-
 
 
 ### -field RIL_DCSINDICATION_EMAIL
 
 
-
 ### -field RIL_DCSINDICATION_OTHER
 
 
-
 ### -field RIL_DCSINDICATION_MAX
-
 

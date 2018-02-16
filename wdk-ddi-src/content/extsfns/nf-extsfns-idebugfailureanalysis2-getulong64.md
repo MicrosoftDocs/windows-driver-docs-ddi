@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: C00C983A-92BA-4E4A-A5AB-918121D14B64
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetUlong64, IDebugFailureAnalysis2, extsfns/IDebugFailureAnalysis2::GetUlong, GetUlong method [Windows Debugging], debugger.idebugfailureanalysis2_getulong64, IDebugFailureAnalysis2::GetUlong64, IDebugFailureAnalysis2::GetUlong, IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface
+ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging], GetUlong method, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, GetUlong64, IDebugFailureAnalysis2::GetUlong, debugger.idebugfailureanalysis2_getulong64, extsfns/IDebugFailureAnalysis2::GetUlong, IDebugFailureAnalysis2, IDebugFailureAnalysis2::GetUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	extsfns.h
-apiname: 
+apiname:
 -	IDebugFailureAnalysis2.GetUlong
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A pointer to a <b>ULONG64</b> that receives the value from the entry's data bloc
 ## -returns
 
 
+
 If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the specified tag, and if it succeeds in getting the data block, it returns a pointer to the <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the specified tag, it checks to see whether the <b>DataSize</b> member of the <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure is equal to the size of a <b>ULONG64</b>. If <b>DataSize</b> is not equal to the size of a <b>ULONG64</b>, this method returns <b>NULL</b> and does not get the data block.
@@ -96,17 +99,28 @@ The appropriate use of this method is get the data block from an <a href="https:
 
 
 
+
 ## -see-also
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUlong64</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983410">AddUlong64</a>
 
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUlong64</a>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
 
  
 

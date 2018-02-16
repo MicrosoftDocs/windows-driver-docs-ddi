@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba4a22a1-ad48-43f1-96f5-dee5d76e49cb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCoOidRequestComplete function [Network Drivers Starting with Windows Vista], condis_request_ref_29e0ae37-d6e6-4c75-b0fa-a6f84494f4a6.xml, NdisCoOidRequestComplete, netvista.ndiscooidrequestcomplete, ndis/NdisCoOidRequestComplete
+ms.keywords: NdisCoOidRequestComplete, NdisCoOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCoOidRequestComplete, condis_request_ref_29e0ae37-d6e6-4c75-b0fa-a6f84494f4a6.xml, netvista.ndiscooidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCoOidRequestComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCoOidRequestComplete function
@@ -79,8 +79,8 @@ VOID NdisCoOidRequestComplete(
 ### -param NdisAfHandle [in]
 
 An address family (AF) handle that NDIS passed to the client or stand-alone call manager's 
-     <mshelp:link keywords="netvista.protocolcooidrequest" tabindex="0"><i>
-     ProtocolCoOidRequest</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">
+     ProtocolCoOidRequest</a> function.
 
 
 ### -param NdisVcHandle [in, optional]
@@ -121,11 +121,14 @@ The final status of the request operation, either NDIS_STATUS_SUCCESS, or any dr
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A CoNDIS protocol driver that returns NDIS_STATUS_PENDING from its 
@@ -135,42 +138,59 @@ A CoNDIS protocol driver that returns NDIS_STATUS_PENDING from its
 
 After a driver calls 
     <b>NdisCoOidRequestComplete</b>, NDIS calls the 
-    <mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-    ProtocolCoOidRequestComplete</i></mshelp:link> function of the driver that originally called the 
+    <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+    ProtocolCoOidRequestComplete</a> function of the driver that originally called the 
     <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> or 
     <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> function.
 
 Only clients and stand-alone call managers, which register themselves with NDIS as protocol drivers,
     can call 
     <b>NdisCoOidRequestComplete</b>. Miniport call managers (MCMs) call the 
-    <mshelp:link keywords="netvista.ndismcmoidrequestcomplete" tabindex="0"><b>
-    NdisMCmOidRequestComplete</b></mshelp:link> function or 
-    <mshelp:link keywords="netvista.ndismcooidrequestcomplete" tabindex="0"><b>
-    NdisMCoOidRequestComplete</b></mshelp:link> instead, depending on whether the MCM driver's 
+    <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">
+    NdisMCmOidRequestComplete</a> function or 
+    <a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">
+    NdisMCoOidRequestComplete</a> instead, depending on whether the MCM driver's 
     <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a> or 
     <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a> function,
     respectively, handled the client's request.
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
 
 <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
 
-<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
+
 
 <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
 
-<mshelp:link keywords="netvista.protocolcooidrequestcomplete" tabindex="0"><i>
-   ProtocolCoOidRequestComplete</i></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
+
+
 
  
 

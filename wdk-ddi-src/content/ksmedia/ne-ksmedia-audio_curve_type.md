@@ -7,8 +7,8 @@ old-location: audio\audio_curve_type.htm
 old-project: audio
 ms.assetid: E3CE3385-8744-4E3F-A5EF-41AC4E3E4375
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE_WINDOWS_FADE, AUDIO_CURVE_TYPE enumeration [Audio Devices], ksmedia/AUDIO_CURVE_TYPE, audio.audio_curve_type, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
+ms.date: 2/8/2018
+ms.keywords: audio.audio_curve_type, AUDIO_CURVE_TYPE_WINDOWS_FADE, AUDIO_CURVE_TYPE, ksmedia/AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE enumeration [Audio Devices], ksmedia/AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	AUDIO_CURVE_TYPE
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ Specifies that the algorithm that is applied to the volume setting must follow t
 ## -remarks
 
 
+
 The following snippet of pseudocode shows the logic for the algorithm that is applied to the volume setting to reach the target volume level.<pre class="syntax" xml:space="preserve"><code>// POWER IN AMPLITUDE: 1.75
 
 // Fade In:
@@ -119,15 +120,20 @@ And the following diagram shows a graphical representation of the preceding pseu
 
 
 
+
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_volumelevel.md">KSAUDIOENGINE_VOLUMELEVEL</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20AUDIO_CURVE_TYPE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20AUDIO_CURVE_TYPE enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

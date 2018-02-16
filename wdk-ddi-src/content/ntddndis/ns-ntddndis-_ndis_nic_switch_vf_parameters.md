@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_VF_PARAMETERS
-title: _NDIS_NIC_SWITCH_VF_PARAMETERS
+title: "_NDIS_NIC_SWITCH_VF_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_VF_PARAMETERS specifies the resource parameters of a PCI Express (PCIe) Virtual Function (VF) on a network adapter.
 old-location: netvista\ndis_nic_switch_vf_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9e75bb9a-e266-4321-8862-4bdfab300421
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS, netvista.ndis_nic_switch_vf_parameters, NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_VF_PARAMETERS, _NDIS_NIC_SWITCH_VF_PARAMETERS
+ms.keywords: ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS, netvista.ndis_nic_switch_vf_parameters, *PNDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NIC_SWITCH_VF_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_NIC_SWITCH_VF_PARAMETERS, *PNDIS_NIC_SWITCH_VF_PARAMETERS
+req.typenames: "*PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS"
 ---
 
 # _NDIS_NIC_SWITCH_VF_PARAMETERS structure
@@ -86,6 +86,14 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
+#### NDIS_NIC_SWITCH_VF_PARAMETERS_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VF_PARAMETERS_REVISION_1.
+
+
 ### -field Flags
 
 A ULONG value that contains a bitwise OR of flags. This member is reserved for NDIS.
@@ -98,14 +106,18 @@ An NDIS_NIC_SWITCH_ID value that specifies a switch identifier. This value ident
 The switch identifier is an integer between zero and the number of switches that the network adapter supports. An NDIS_DEFAULT_SWITCH_ID value indicates the default network adapter switch.
 
 
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the single root I/O virtualization (SR-IOV) interface only supports the default network adapter switch on the network adapter. The value of this member must be set to NDIS_DEFAULT_SWITCH_ID. </div>
+<div> </div>
 
 ### -field VMName
 
 An NDIS_VM_NAME value that specifies the internal name of the Hyper-V child partition that is attached to the VF.
 
 
-<div class="alert"><b>Note</b>  The Hyper-V child partition is also known as a virtual machine (VM).</div><div> </div>
+
+<div class="alert"><b>Note</b>  The Hyper-V child partition is also known as a virtual machine (VM).</div>
+<div> </div>
 
 ### -field VMFriendlyName
 
@@ -150,14 +162,8 @@ An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF o
 An NDIS_VF_RID that specifies the PCI Express (PCIe) Requestor ID (RID) of the VF.
 
 
-##### - Header.NDIS_NIC_SWITCH_VF_PARAMETERS_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_VF_PARAMETERS_REVISION_1.
-
-
 ## -remarks
+
 
 
 The  <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structure is used in OID method requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451824">OID_NIC_SWITCH_VF_PARAMETERS</a>.
@@ -166,15 +172,24 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451824">OID_NIC_SWITCH_VF_PARAMETERS</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <b></b>
+
+
 
  
 

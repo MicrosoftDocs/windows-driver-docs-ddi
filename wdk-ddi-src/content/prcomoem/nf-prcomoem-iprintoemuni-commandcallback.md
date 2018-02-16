@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_commandcallback.htm
 old-project: print
 ms.assetid: e1708017-a546-4770-8ad1-7052b3d4e264
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemUni, CommandCallback method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::CommandCallback, print.iprintoemuni_commandcallback, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml, IPrintOemUni::CommandCallback, CommandCallback method [Print Devices], CommandCallback, IPrintOemUni interface [Print Devices], CommandCallback method
+ms.date: 2/2/2018
+ms.keywords: CommandCallback method [Print Devices], print.iprintoemuni_commandcallback, IPrintOemUni::CommandCallback, IPrintOemUni, CommandCallback, CommandCallback method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::CommandCallback, IPrintOemUni interface [Print Devices], CommandCallback method, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.CommandCallback
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -100,7 +100,9 @@ Receives a method-supplied result value. See the following Remarks section.
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,11 +141,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <code>IPrintOemUni::CommandCallback</code> method is used by rendering plug-ins to dynamically generate printer commands, for printers that are supported by <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a>.
@@ -159,5 +164,6 @@ The method is responsible for constructing a printer command, and then sending t
 The value supplied for <i>piResult</i> should always return zero unless the method is processing a cursor command. For <a href="https://msdn.microsoft.com/3ef09c7e-0e88-4236-a4c9-d89eb7ec61cb">cursor commands</a> that move the cursor in either the <i>x</i> or <i></i> direction, the method should return the new cursor position.
 
 The <code>IPrintOemUni::CommandCallback</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "CommandCallback" as input.
+
 
 

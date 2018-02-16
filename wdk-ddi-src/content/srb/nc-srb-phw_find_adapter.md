@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	srb.h
-apiname: 
+apiname:
 -	(*PHW_FIND_ADAPTER)
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -97,27 +97,28 @@ Reserved member when used by one of the Storport driver's miniport drivers. With
 
 
 
+##### 
+
+
+
+##### 
+
+
+
+##### 
+
+
 ### -param Again [out]
 
 Reserved member when used by one of the Storport driver's miniport drivers. With SCSI miniport drivers this member points to a BOOLEAN variable that informs the port driver whether it should call this routine again. For more information about the meaning of this member for a SCSI miniport driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>. 
 
 
-###### - ConfigInfo.For more information about how this member is used by a miniport driver that works with the StorPort driver, see the description of the PortConfiguration member of the PORT_CONFIGURATION_INFORMATION (STORPORT) structure.
-
-
-
-###### - ConfigInfo.Points to a PORT_CONFIGURATION_INFORMATION structure that the miniport driver uses during initialization.
-
-
-
-###### - ConfigInfo.For more information about how a SCSI miniport driver uses this member, see the description of the ConfigId member of the PORT_CONFIGURATION_INFORMATION (SCSI) structure.
-
-
-
 ## -returns
 
 
+
 The routine declared by this prototype must return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -167,11 +168,14 @@ Indicates no supported HBA was found for the supplied configuration information.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This declaration is used by both SCSI and StorPort miniport drivers.
@@ -182,11 +186,16 @@ For more information about the Storport driver's version of the routine associat
 
 
 
+
 ## -see-also
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
 
  
 

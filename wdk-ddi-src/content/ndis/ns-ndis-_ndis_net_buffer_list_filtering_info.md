@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NET_BUFFER_LIST_FILTERING_INFO
-title: _NDIS_NET_BUFFER_LIST_FILTERING_INFO
+title: "_NDIS_NET_BUFFER_LIST_FILTERING_INFO"
 author: windows-driver-content
 description: The NDIS_NET_BUFFER_LIST_FILTERING_INFO structure defines filtering information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_net_buffer_list_filtering_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 992a4c77-e22f-4123-81e8-86c8030accfa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/PNDIS_NET_BUFFER_LIST_FILTERING_INFO, *PNDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO structure [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_FILTERING_INFO, PNDIS_NET_BUFFER_LIST_FILTERING_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis_netbuf_macros_media_specific_ad9f53c1-d93a-4b73-9903-76aa54acd563.xml, netvista.ndis_net_buffer_list_filtering_info, PNDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO
+ms.keywords: "*PNDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO, PNDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis_netbuf_macros_media_specific_ad9f53c1-d93a-4b73-9903-76aa54acd563.xml, ndis/PNDIS_NET_BUFFER_LIST_FILTERING_INFO, NDIS_NET_BUFFER_LIST_FILTERING_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_FILTERING_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_net_buffer_list_filtering_info, _NDIS_NET_BUFFER_LIST_FILTERING_INFO, ndis/NDIS_NET_BUFFER_LIST_FILTERING_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_NET_BUFFER_LIST_FILTERING_INFO
 product: Windows
 targetos: Windows
@@ -87,6 +87,14 @@ typedef struct _NDIS_NET_BUFFER_LIST_FILTERING_INFO {
 A structure that contains the following members:
 
 
+### -field FilteringInfo.FilterId
+
+A USHORT value that contains a receive filter identifier. The receive filter identifier is an
+       integer from one to the number of receive filters that the network adapter supports. 
+
+<div class="alert"><b>Note</b>  Starting with NDIS 6.20, this member must be set to zero.</div>
+<div> </div>
+
 ### -field FilteringInfo.QueueVPortInfo
 
 A union that contains the following members:
@@ -97,20 +105,18 @@ A union that contains the following members:
 A USHORT value that contains an identifier for a virtual machine  queue (VMQ) receive queue. The queue identifier is an integer between zero
        and the number of queues that the network adapter supports. A value of NDIS_DEFAULT_RECEIVE_QUEUE_ID specifies
      the default receive queue.
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the value of this member must always be set to NDIS_DEFAULT_RECEIVE_QUEUE_ID  by miniport drivers that support the SR-IOV interface.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the value of this member must always be set to NDIS_DEFAULT_RECEIVE_QUEUE_ID  by miniport drivers that support the SR-IOV interface.</div>
+<div> </div>
 
 ### -field FilteringInfo.QueueVPortInfo.VPortId
 
 A USHORT value that contains the identifier for a virtual port (VPort). A value of DEFAULT_VPORT_ID specifies the default VPort on the NIC switch. 
 
 The VPort with the specified VPortId value must have previously been created through a set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.
-<div class="alert"><b>Note</b>  For the VMQ interface, this member must be set to NDIS_DEFAULT_VPORT_ID.</div><div> </div>
 
-### -field FilteringInfo.FilterId
-
-A USHORT value that contains a receive filter identifier. The receive filter identifier is an
-       integer from one to the number of receive filters that the network adapter supports. 
-<div class="alert"><b>Note</b>  Starting with NDIS 6.20, this member must be set to zero.</div><div> </div>
+<div class="alert"><b>Note</b>  For the VMQ interface, this member must be set to NDIS_DEFAULT_VPORT_ID.</div>
+<div> </div>
 
 ### -field Value
 
@@ -120,6 +126,7 @@ A PVOID type value that is in a union with the
 
 
 ## -remarks
+
 
 
 Starting with NDIS 6.20, miniport drivers  use the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure to specify receive
@@ -134,28 +141,41 @@ To access the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure from the NET_
     <b>NetBufferListFilteringInfo</b>  information type.
 
 To access the identifier values directly, use the 
-    <mshelp:link keywords="netvista.net_buffer_list_receive_filter_id" tabindex="0"><b>
-    NET_BUFFER_LIST_RECEIVE_FILTER_ID</b></mshelp:link>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>, or 
-    <mshelp:link keywords="netvista.net_buffer_list_receive_queue_id" tabindex="0"><b>
-    NET_BUFFER_LIST_RECEIVE_QUEUE_ID</b></mshelp:link> macros.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568406">
+    NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>, or 
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568407">
+    NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a> macros.
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.net_buffer_list_receive_queue_id" tabindex="0"><b>
-   NET_BUFFER_LIST_RECEIVE_QUEUE_ID</b></mshelp:link>
 
-<mshelp:link keywords="netvista.net_buffer_list_receive_filter_id" tabindex="0"><b>
-   NET_BUFFER_LIST_RECEIVE_FILTER_ID</b></mshelp:link>
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568406">
+   NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>
+
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568407">
+   NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

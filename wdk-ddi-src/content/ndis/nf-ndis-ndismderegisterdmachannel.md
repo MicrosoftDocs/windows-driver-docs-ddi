@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1581cbfd-bdab-40ed-9978-f60ec220c17a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterdmachannel, ndis/NdisMDeregisterDmaChannel, dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, NdisMDeregisterDmaChannel
+ms.keywords: ndis/NdisMDeregisterDmaChannel, netvista.ndismderegisterdmachannel, dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], NdisMDeregisterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMDeregisterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMDeregisterDmaChannel function
@@ -73,18 +73,21 @@ VOID NdisMDeregisterDmaChannel(
 ### -param MiniportDmaHandle [in]
 
 The DMA handle returned by the 
-     <mshelp:link keywords="netvista.ndismregisterdmachannel" tabindex="0"><b>
-     NdisMRegisterDmaChannel</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">
+     NdisMRegisterDmaChannel</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 The caller should consider 
@@ -98,13 +101,20 @@ The caller should consider
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
 
  
 

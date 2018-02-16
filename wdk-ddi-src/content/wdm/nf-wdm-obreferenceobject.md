@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, wdm/ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, wdm/ObReferenceObject, ObReferenceObject, kernel.obreferenceobject
+ms.keywords: ObReferenceObject routine [Kernel-Mode Driver Architecture], ObReferenceObject, kernel.obreferenceobject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, wdm/ObfReferenceObject, wdm/ObReferenceObject, ObfReferenceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ObReferenceObject
 -	ObfReferenceObject
 product: Windows
@@ -77,6 +77,7 @@ Pointer to the object. The caller obtained this parameter either when it created
 ## -remarks
 
 
+
 <b>ObReferenceObject</b> simply increments the pointer reference count for an object, without making any access checks on the given object, as <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and <a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a> do. 
 
 <b>ObReferenceObject</b> prevents deletion of the object at least until the driver subsequently calls its reciprocal, <b>ObDereferenceObject</b>, or closes the given object. The caller must decrement the reference count with <b>ObDereferenceObject</b> as soon as it is done with the object. 
@@ -85,15 +86,24 @@ When the reference count for an object reaches zero, a kernel-mode component can
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
 
 <a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
 
  
 

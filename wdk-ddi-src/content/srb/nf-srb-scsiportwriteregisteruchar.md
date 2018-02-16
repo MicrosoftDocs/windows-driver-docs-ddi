@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 67764b34-3bd3-42ad-a1f8-765b4f11fcf6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortWriteRegisterUchar, scsiprt_11b9d3b9-2866-4f07-a685-68d48e993748.xml, ScsiPortWriteRegisterUchar, storage.scsiportwriteregisteruchar, ScsiPortWriteRegisterUchar routine [Storage Devices]
+ms.keywords: scsiprt_11b9d3b9-2866-4f07-a685-68d48e993748.xml, ScsiPortWriteRegisterUchar routine [Storage Devices], storage.scsiportwriteregisteruchar, srb/ScsiPortWriteRegisterUchar, ScsiPortWriteRegisterUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortWriteRegisterUchar
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -83,13 +83,17 @@ Specifies the value to be written to the HBA's register.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
 
  
 

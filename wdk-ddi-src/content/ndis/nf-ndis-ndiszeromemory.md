@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cb829e1-bd4f-4d6b-a936-0e7cf8024381
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisZeroMemory macro [Network Drivers Starting with Windows Vista], ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml, NdisZeroMemory, netvista.ndiszeromemory, ndis/NdisZeroMemory
+ms.keywords: NdisZeroMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisZeroMemory, NdisZeroMemory, netvista.ndiszeromemory, ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisZeroMemory
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisZeroMemory macro
@@ -82,6 +82,7 @@ The number of bytes to fill with zeros.
 ## -remarks
 
 
+
 <b>NdisZeroMemory</b> fills the specified range of memory with zeros. The given 
     <i>Destination</i> and 
     <i>Length</i> must be a proper subrange of a caller-accessible memory range.
@@ -92,12 +93,17 @@ As long as the given range was allocated from nonpaged pool, the caller can be r
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
-
 <a href="..\ndis\nf-ndis-ndiszeromappedmemory.md">NdisZeroMappedMemory</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
 
  
 

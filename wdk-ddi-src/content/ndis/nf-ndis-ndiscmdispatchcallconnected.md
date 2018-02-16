@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c5fcca82-ab8f-4ea9-86df-295f43fe7afa
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisCmDispatchCallConnected, ndis/NdisCmDispatchCallConnected, netvista.ndiscmdispatchcallconnected, NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml
+ms.keywords: ndis/NdisCmDispatchCallConnected, NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml, netvista.ndiscmdispatchcallconnected, NdisCmDispatchCallConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCmDispatchCallConnected
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmDispatchCallConnected function
@@ -74,30 +74,33 @@ VOID NdisCmDispatchCallConnected(
 
 Specifies the handle to the VC that represents the connection, which was created with 
      <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> when the call manager's 
-     <mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-     ProtocolCoReceiveNetBufferLists</i></mshelp:link> function was notified of the incoming call.
+     <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+     ProtocolCoReceiveNetBufferLists</a> function was notified of the incoming call.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 A stand-alone CM's 
-    <mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-    ProtocolCmIncomingCallComplete</i></mshelp:link> function calls 
+    <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+    ProtocolCmIncomingCallComplete</a> function calls 
     <b>NdisCmDispatchCallConnected</b> to complete the final handshake for an incoming call from a remote
     node, which the client has already accepted.
 
 A call to 
     <b>NdisCmDispatchCallConnected</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclcallconnected" tabindex="0"><i>
-    ProtocolClCallConnected</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">
+    ProtocolClCallConnected</a> function.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCmDispatchCallConnected</b>. Connection-oriented miniport drivers that provide integrated
@@ -106,19 +109,30 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndismcmdispatchcallconnected.md">NdisMCmDispatchCallConnected</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+   ProtocolCmIncomingCallComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
-<mshelp:link keywords="netvista.protocolcoreceivenetbufferlists" tabindex="0"><i>
-   ProtocolCoReceiveNetBufferLists</i></mshelp:link>
+
 
 <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
 
-<mshelp:link keywords="netvista.protocolcmincomingcallcomplete" tabindex="0"><i>
-   ProtocolCmIncomingCallComplete</i></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchcallconnected.md">NdisMCmDispatchCallConnected</a>
+
+<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+   ProtocolCoReceiveNetBufferLists</a>
+
+
 
  
 

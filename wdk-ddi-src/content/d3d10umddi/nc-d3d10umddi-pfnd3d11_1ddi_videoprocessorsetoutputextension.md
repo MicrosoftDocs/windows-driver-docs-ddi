@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnVideoProcessorSetOutputExtension
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION callback
@@ -77,9 +77,7 @@ HRESULT APIENTRY* pfnVideoProcessorSetOutputExtension(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param *
@@ -89,8 +87,9 @@ HRESULT APIENTRY* pfnVideoProcessorSetOutputExtension(
 
 
 
-### -param UINT
 
+
+### -param UINT
 
 
 #### - DataSize [in]
@@ -101,13 +100,6 @@ The size, in bytes, of the private state data in the buffer referenced by the <i
 #### - hDevice [in]
 
 A handle to the display device (graphics context).
-
-
-
-
-#### - pGuid [in]
-
-A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
 
 
@@ -124,12 +116,23 @@ A handle to the video processor object that was created through a call to the <a
 A pointer to a buffer that contains the private state data. 
 
 
-<div class="alert"><b>Note</b>  The Direct3D runtime does not validate the private state data in the buffer before it calls the  <b>VideoProcessorSetOutputExtension</b> function</div><div> </div>
+
+<div class="alert"><b>Note</b>  The Direct3D runtime does not validate the private state data in the buffer before it calls the  <b>VideoProcessorSetOutputExtension</b> function</div>
+<div> </div>
+
+#### - pGuid [in]
+
+A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
+
+
+
 
 ## -returns
 
 
+
 <b>VideoProcessorSetOutputExtension</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -182,13 +185,17 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
 
  
 

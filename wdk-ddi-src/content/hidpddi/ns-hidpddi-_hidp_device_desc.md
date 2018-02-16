@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_DEVICE_DESC
-title: _HIDP_DEVICE_DESC
+title: "_HIDP_DEVICE_DESC"
 author: windows-driver-content
 description: Contains the device description block filled in collection descriptions as linked lists. This structure is used by HidP_GetCollectionDescription.
 old-location: hid\hidp_device_desc.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: C51D645B-5DF2-4F23-904B-AB56F97520CB
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: PHIDP_DEVICE_DESC structure pointer [Human Input Devices], *PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC, hid.hidp_device_desc, PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], hidpddi/PHIDP_DEVICE_DESC, _HIDP_DEVICE_DESC, hidpddi/HIDP_DEVICE_DESC
+ms.keywords: hidpddi/HIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], PHIDP_DEVICE_DESC, _HIDP_DEVICE_DESC, HIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC, PHIDP_DEVICE_DESC structure pointer [Human Input Devices], hidpddi/PHIDP_DEVICE_DESC, hid.hidp_device_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hidpddi.h
-apiname: 
+apiname:
 -	HIDP_DEVICE_DESC
 product: Windows
 targetos: Windows
@@ -101,6 +101,8 @@ A <a href="..\hidpddi\ns-hidpddi-_hidp_getcoldesc_dbg.md">HIDP_GETCOLDESC_DBG</a
 ## -see-also
 
 <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
+
+
 
  
 

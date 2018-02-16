@@ -7,7 +7,7 @@ old-location: audio\iportmidi.htm
 old-project: audio
 ms.assetid: e5403377-fd24-4fd5-8158-194f30238c44
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iportmidi, IPortMidi interface [Audio Devices], IPortMidi interface [Audio Devices], described, IPortMidi, portcls/IPortMidi, audmp-routines_52a1c6a3-7658-4c69-a4c9-6d965a1d99c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortMidi
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortMidi interface

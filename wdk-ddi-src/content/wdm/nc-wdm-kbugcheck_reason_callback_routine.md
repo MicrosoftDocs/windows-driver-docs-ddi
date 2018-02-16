@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at HIGH_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	MyBugCheckCallback
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -84,6 +84,7 @@ VOID MyBugCheckCallback(
 
 Specifies the reason for the call to the callback routine. This value can be one of the following as defined in  <a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
 
+
 <ul>
 <li><b>KbCallbackAddPages</b>: The purpose of the callback function is to enable the driver to add pages of data to the crash dump file. </li>
 <li><b>KbCallbackDumpIo</b>: This callback function is executed each time the system writes data to a crash dump file.</li>
@@ -103,6 +104,7 @@ A pointer to a <a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAG
 ### -param ReasonSpecificDataLength [in]
 
 Specifies the size, in bytes, of the buffer that the <i>ReasonSpecificData</i> parameter points to. 
+
 <ul>
 <li><b>KbCallbackAddPages</b>: <b>sizeof</b>(<b>KBUGCHECK_ADD_PAGES</b>). </li>
 <li><b>KbCallbackDumpIo</b>: <b>sizeof</b>(<b>KBUGCHECK_DUMP_IO</b>).</li>
@@ -112,11 +114,14 @@ Specifies the size, in bytes, of the buffer that the <i>ReasonSpecificData</i> p
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 <b>About implementing <i>BugCheckAddPagesCallback</i>:  </b>A kernel-mode driver can implement a <i>BugCheckAddPagesCallback</i> callback routine to add one or more pages of data to a crash dump file when a bug check occurs. To register this routine with the operating system, the driver calls the <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a> routine. Before the driver unloads, it must call the <a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a> routine to remove the registration.
@@ -182,20 +187,75 @@ A <i>BugCheckSecondaryDumpDataCallback</i> is very restricted in the actions it 
 
 
 
+#### Examples
+
+To define the callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+For example, to define a <i>BugCheckAddPagesCallback</i> callback routine that is named <code>MyBugCheckAddPagesCallback</code>, use the KBUGCHECK_REASON_CALLBACK_ROUTINE type as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>KBUGCHECK_REASON_CALLBACK_ROUTINE MyBugCheckAddPagesCallback;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback routine as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
+VOID
+  MyBugCheckAddPagesCallback(
+    KBUGCHECK_CALLBACK_REASON  Reason,
+    struct _KBUGCHECK_REASON_CALLBACK_RECORD  *Record,
+    PVOID  ReasonSpecificData,
+    ULONG  ReasonSpecificDataLength 
+    )
+  {
+      // Function body
+  }</pre>
+</td>
+</tr>
+</table></span></div>
+The KBUGCHECK_REASON_CALLBACK_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the KBUGCHECK_REASON_CALLBACK_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
-<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
+
+
 <a href="..\wdm\ns-wdm-_kbugcheck_add_pages.md">KBUGCHECK_ADD_PAGES</a>
+
+
+
+<a href="..\wdm\nf-wdm-kederegisterbugcheckreasoncallback.md">KeDeregisterBugCheckReasonCallback</a>
+
+
+
+<a href="..\wdm\ne-wdm-_kbugcheck_callback_reason.md">KBUGCHECK_CALLBACK_REASON</a>
+
+
 
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+
 
  
 

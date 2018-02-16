@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	ResolveSharedResource
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY ResolveSharedResource(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_resolvesharedresource.md">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface. 
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY ResolveSharedResource(
 ## -returns
 
 
+
 <i>ResolveSharedResource</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,14 +123,18 @@ The driver detects that the graphics adapter was removed. Therefore, the driver 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The Direct3D runtime calls <i>ResolveSharedResource</i> when an application calls one of the following functions:
+
 <ul>
 <li>
 <b>IDXGIKeyedMutex::ReleaseSynch</b> on a synchronized shared surface 
@@ -136,9 +144,11 @@ The Direct3D runtime calls <i>ResolveSharedResource</i> when an application call
 <b>IDXGISurface1::GetDC</b> for a GDI interoperable surface 
 
 </li>
-</ul>The runtime calls the driver's <i>ResolveSharedResource</i> function every time a shared surface owner changes or when a surface is used for GDI interoperation. The runtime supplies <i>ResolveSharedResource</i> with handles to the display device--via the <i>hDevice</i> parameter-- and the surface--via the <i>pData</i> parameter.
+</ul>
+The runtime calls the driver's <i>ResolveSharedResource</i> function every time a shared surface owner changes or when a surface is used for GDI interoperation. The runtime supplies <i>ResolveSharedResource</i> with handles to the display device--via the <i>hDevice</i> parameter-- and the surface--via the <i>pData</i> parameter.
 
 The driver implements <i>ResolveSharedResource</i> to appropriately manage resources for multiple GPU scenarios. Each resource might be divided across memory for multiple GPUs to render on. The driver can implement <i>ResolveSharedResource</i> to remerge each resource so that the new resource owner has the merged resource. The driver must flush any partially built command buffers that might modify the resource.
+
 
 
 
@@ -146,7 +156,11 @@ The driver implements <i>ResolveSharedResource</i> to appropriately manage resou
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_resolvesharedresource.md">D3DDDIARG_RESOLVESHAREDRESOURCE</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

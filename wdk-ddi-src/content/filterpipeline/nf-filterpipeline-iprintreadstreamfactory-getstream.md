@@ -7,8 +7,8 @@ old-location: print\iprintreadstreamfactory_getstream.htm
 old-project: print
 ms.assetid: 47447f00-a57d-4821-b10e-1b2cf7eaad94
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], GetStream method, GetStream method [Print Devices], GetStream method [Print Devices], IPrintReadStreamFactory interface, filterpipeline_0e4b4a26-da03-4719-bbce-2bb160a882e2.xml, GetStream, filterpipeline/IPrintReadStreamFactory::GetStream, IPrintReadStreamFactory::GetStream, print.iprintreadstreamfactory_getstream
+ms.date: 2/2/2018
+ms.keywords: filterpipeline_0e4b4a26-da03-4719-bbce-2bb160a882e2.xml, GetStream method [Print Devices], IPrintReadStreamFactory interface, IPrintReadStreamFactory interface [Print Devices], GetStream method, GetStream method [Print Devices], GetStream, IPrintReadStreamFactory::GetStream, filterpipeline/IPrintReadStreamFactory::GetStream, IPrintReadStreamFactory, print.iprintreadstreamfactory_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintReadStreamFactory.GetStream
 product: Windows
 targetos: Windows
@@ -75,14 +75,18 @@ A pointer to an <a href="..\filterpipeline\nn-filterpipeline-iprintreadstream.md
 ## -returns
 
 
+
 <code>GetStream</code> returns an <b>HRESULT</b> value.
+
 
 
 
 ## -remarks
 
 
+
 The following code example shows how a filter can use <b>IPrintReadStreamFactory</b> to access the per-user print ticket.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -128,4 +132,5 @@ if (SUCCEEDED(hr))
 </td>
 </tr>
 </table></span></div>
+
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfio._WDF_IO_QUEUE_DISPATCH_TYPE
-title: _WDF_IO_QUEUE_DISPATCH_TYPE
+title: "_WDF_IO_QUEUE_DISPATCH_TYPE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_DISPATCH_TYPE enumeration type identifies the request dispatching methods that can be associated with a framework queue object.
 old-location: wdf\wdf_io_queue_dispatch_type.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 90f2f490-ee29-4e20-94b2-65a9bba3e831
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfio/WdfIoQueueDispatchMax, DFQueueObjectRef_dd3d1037-0355-4f02-b0ec-4bd988df33d2.xml, wdfio/WdfIoQueueDispatchInvalid, WdfIoQueueDispatchInvalid, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, _WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchParallel, kmdf.wdf_io_queue_dispatch_type, WdfIoQueueDispatchMax, WDF_IO_QUEUE_DISPATCH_TYPE, wdf.wdf_io_queue_dispatch_type, WdfIoQueueDispatchParallel, wdfio/WDF_IO_QUEUE_DISPATCH_TYPE, wdfio/WdfIoQueueDispatchManual, WdfIoQueueDispatchManual, WdfIoQueueDispatchSequential, wdfio/WdfIoQueueDispatchSequential
+ms.keywords: wdfio/WdfIoQueueDispatchMax, WdfIoQueueDispatchParallel, WdfIoQueueDispatchSequential, DFQueueObjectRef_dd3d1037-0355-4f02-b0ec-4bd988df33d2.xml, wdfio/WdfIoQueueDispatchSequential, wdfio/WDF_IO_QUEUE_DISPATCH_TYPE, WDF_IO_QUEUE_DISPATCH_TYPE, WDF_IO_QUEUE_DISPATCH_TYPE enumeration, kmdf.wdf_io_queue_dispatch_type, wdfio/WdfIoQueueDispatchParallel, wdfio/WdfIoQueueDispatchManual, WdfIoQueueDispatchMax, WdfIoQueueDispatchManual, wdf.wdf_io_queue_dispatch_type, wdfio/WdfIoQueueDispatchInvalid, _WDF_IO_QUEUE_DISPATCH_TYPE, WdfIoQueueDispatchInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfio.h
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_DISPATCH_TYPE
 product: Windows
 targetos: Windows
@@ -102,6 +102,8 @@ Reserved for internal use only.
 ## -remarks
 
 
+
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>.
+
 
 

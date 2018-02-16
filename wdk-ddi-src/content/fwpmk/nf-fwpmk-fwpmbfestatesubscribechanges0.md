@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 375af8a1-9e05-4830-9074-6313b4e082d9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], FwpmBfeStateSubscribeChanges0, fwpmk/FwpmBfeStateSubscribeChanges0, netvista.fwpmbfestatesubscribechanges0
+ms.keywords: netvista.fwpmbfestatesubscribechanges0, FwpmBfeStateSubscribeChanges0, fwpmk/FwpmBfeStateSubscribeChanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpmBfeStateSubscribeChanges0
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ A pointer to a callout driver-provided service state change callback function. T
      
 
 A service-state-change callback function is declared as follows.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -103,6 +104,48 @@ callback(
 </table></span></div>
 
 
+
+
+#### Context
+
+The pointer that was passed in the 
+       <i>Context</i> parameter when the callout driver called the 
+       <b>FwpmBfeStateSubscribeChanges0</b> function.
+
+
+
+#### newState
+
+The new state of the filter engine. This parameter contains one of the following values:
+       
+
+
+
+
+
+##### FWPM_SERVICE_STOPPED
+
+The filter engine is not running.
+
+
+
+##### FWPM_SERVICE_START_PENDING
+
+The filter engine is starting.
+
+
+
+##### FWPM_SERVICE_STOP_PENDING
+
+The filter engine is stopping.
+
+
+
+##### FWPM_SERVICE_RUNNING
+
+The filter engine is running.
+
+
 ### -param context [in, optional]
 
 A pointer to a callout driver-provided context that is passed to the callback function specified
@@ -117,46 +160,13 @@ A pointer to a variable that receives a handle that is associated with the regis
      <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">FwpmBfeStateUnsubscribeChanges0</a> function to deregister the callback function.
 
 
-###### - callback.newState.FWPM_SERVICE_RUNNING
-
-The filter engine is running.
-
-
-###### - callback.newState.FWPM_SERVICE_STOPPED
-
-The filter engine is not running.
-
-
-##### - callback.newState
-
-The new state of the filter engine. This parameter contains one of the following values:
-       
-
-
-
-
-##### - callback.Context
-
-The pointer that was passed in the 
-       <i>Context</i> parameter when the callout driver called the 
-       <b>FwpmBfeStateSubscribeChanges0</b> function.
-
-
-###### - callback.newState.FWPM_SERVICE_START_PENDING
-
-The filter engine is starting.
-
-
-###### - callback.newState.FWPM_SERVICE_STOP_PENDING
-
-The filter engine is stopping.
-
-
 ## -returns
+
 
 
 The 
      <b>FwpmBfeStateSubscribeChanges0</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -184,11 +194,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -207,21 +220,30 @@ A callout driver must call <b>FwpmBfeStateSubscribeChanges0</b> before calling t
     <b>FwpmBfeStateGet0</b> at any time.
 
 A callout driver must deregister the callback function by calling the 
-    <mshelp:link keywords="netvista.fwpmbfestateunsubscribechanges0" tabindex="0"><b>
-    FwpmBfeStateUnsubscribeChanges0</b></mshelp:link> function before the callout driver can be unloaded.
+    <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
+    FwpmBfeStateUnsubscribeChanges0</a> function before the callout driver can be unloaded.
+
 <div class="alert"><b>Note</b>  <p class="note">Do not call <a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">FwpmBfeStateUnsubscribeChanges0</a> from the callback function that you passed in the <i>callback</i> parameter. Doing so can cause a deadlock.
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
 
+
+
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestateunsubscribechanges0.md">
+   FwpmBfeStateUnsubscribeChanges0</a>
+
+
+
 <a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
 
-<mshelp:link keywords="netvista.fwpmbfestateunsubscribechanges0" tabindex="0"><b>
-   FwpmBfeStateUnsubscribeChanges0</b></mshelp:link>
+
 
  
 

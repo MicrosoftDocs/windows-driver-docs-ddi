@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITCOMMANDTOHWQUEUE
-title: _D3DDDICB_SUBMITCOMMANDTOHWQUEUE
+title: "_D3DDDICB_SUBMITCOMMANDTOHWQUEUE"
 author: windows-driver-content
 description: A structure that holds information to queue hardware flags.
 old-location: display\d3dddicb_submitcommandtohwqueue.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 5B650831-7AD7-4FEA-AC31-82F2B351BAD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE, display.d3dddicb_submitcommandtohwqueue, _D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices]
+ms.keywords: display.d3dddicb_submitcommandtohwqueue, _D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 product: Windows
 targetos: Windows
@@ -115,6 +115,7 @@ typedef struct _D3DDDICB_SUBMITCOMMANDTOHWQUEUE {
 ### -field WrittenPrimaries
 
  
+
 
 
 

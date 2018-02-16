@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 93e84c80-d671-4f04-8532-6c374e1ae72b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmadvancemdl, MmAdvanceMdl, k106_14f78a97-f29c-4996-b8aa-94a04b62f11c.xml, wdm/MmAdvanceMdl, MmAdvanceMdl routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/MmAdvanceMdl, kernel.mmadvancemdl, MmAdvanceMdl, k106_14f78a97-f29c-4996-b8aa-94a04b62f11c.xml, MmAdvanceMdl routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmAdvanceMdl
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ Specifies the number of bytes to advance the beginning of the MDL.
 ## -returns
 
 
+
 <b>MmAdvanceMdl</b> returns an NTSTATUS code. The possible return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,11 +112,14 @@ The caller attempted to advance the beginning of the MDL past the end.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>MmAdvanceMdl</b> advances only the beginning of the virtual memory address range. The ending address remains the same, and the length of the range is shrunk accordingly.
@@ -124,6 +129,7 @@ A higher-level driver can use <b>MmAdvanceMdl</b> under low-memory conditions wh
 If <b>MmAdvanceMdl</b> advances past the initial page, any pages that <b>MmAdvanceMdl</b> passed are immediately unlocked, and the system virtual address that maps the MDL and the user address are also adjusted.
 
 Use of <b>MmAdvanceMdl</b> can slow system performance. It must be used only when all of the following conditions hold:
+
 <ul>
 <li>
 The higher-level driver, in its own I/O handling, can only complete certain I/O requests after transferring a fixed amount of data, but the lower-level driver only transfers data in smaller amounts. (An example is a network transport driver for the SPX or NBT protocols. Each protocol supports reliable message passing for messages that are bigger than one Ethernet frame. The transport driver can only complete a read request for such a message once it has reassembled the message from multiple Ethernet frames.)
@@ -137,13 +143,17 @@ The higher-level driver already tried and failed to allocate a new MDL to transf
 The higher-level driver must continue to make progress, even under low-memory conditions.
 
 </li>
-</ul>Drivers that do not satisfy these conditions must instead use the <b>IoBuildPartialMdl</b> routine to complete any partially-successful I/O operations.
+</ul>
+Drivers that do not satisfy these conditions must instead use the <b>IoBuildPartialMdl</b> routine to complete any partially-successful I/O operations.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+
 
  
 

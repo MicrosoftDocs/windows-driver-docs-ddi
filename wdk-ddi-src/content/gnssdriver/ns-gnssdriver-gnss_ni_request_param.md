@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 0528EEE6-31D6-4CF6-8192-3557C28B4D10
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: sensors.gnss_ni_request_param, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], *PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], gnssdriver/PGNSS_NI_REQUEST_PARAM, gnssdriver/GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM
+ms.keywords: sensors.gnss_ni_request_param, GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], gnssdriver/GNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], *PGNSS_NI_REQUEST_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_NI_REQUEST_PARAM
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM
+req.typenames: "*PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM"
 ---
 
 # GNSS_NI_REQUEST_PARAM structure

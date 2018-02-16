@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	HwVidDpcRoutine
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ Contains any miniport driver-supplied data this function may need. <i>Context</i
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The miniport driver queues this DPC by calling <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>.
@@ -98,9 +101,12 @@ Because <i>HwVidDpcRoutine </i>is called at DISPATCH_LEVEL, it must not manipula
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>
+
+
 
  
 

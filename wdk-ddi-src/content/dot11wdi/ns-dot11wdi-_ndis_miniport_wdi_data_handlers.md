@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._NDIS_MINIPORT_WDI_DATA_HANDLERS
-title: _NDIS_MINIPORT_WDI_DATA_HANDLERS
+title: "_NDIS_MINIPORT_WDI_DATA_HANDLERS"
 author: windows-driver-content
 description: The NDIS_MINIPORT_WDI_DATA_HANDLERS structure specifies the entry points for the IHV miniport datapath handlers.
 old-location: netvista\ndis_miniport_wdi_data_handlers.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DBDB5F08-9988-4D9B-A731-DA65BBA67813
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS, *PNDIS_MINIPORT_WDI_DATA_HANDLERS, _NDIS_MINIPORT_WDI_DATA_HANDLERS, netvista.ndis_miniport_wdi_data_handlers
+ms.keywords: PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, _NDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS, netvista.ndis_miniport_wdi_data_handlers, *PNDIS_MINIPORT_WDI_DATA_HANDLERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	NDIS_MINIPORT_WDI_DATA_HANDLERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS
+req.typenames: "*PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS"
 ---
 
 # _NDIS_MINIPORT_WDI_DATA_HANDLERS structure
@@ -104,6 +104,13 @@ To indicate the version of the NDIS_MINIPORT_WDI_DATA_HANDLERS structure, set th
      <b>Revision</b> member to the following value:
 
 
+
+
+
+#### NDIS_OBJECT_TYPE_MINIPORT_WDI_DATA_HANDLERS_REVISION_1
+
+Set the 
+        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_WDI_DATA_HANDLERS_REVISION_1.
 
 
 ### -field TxAbortHandler
@@ -231,9 +238,4 @@ The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_pe
  
 
 
-
-##### - Header.NDIS_OBJECT_TYPE_MINIPORT_WDI_DATA_HANDLERS_REVISION_1
-
-Set the 
-        <b>Size</b> member to NDIS_SIZEOF_MINIPORT_WDI_DATA_HANDLERS_REVISION_1.
 

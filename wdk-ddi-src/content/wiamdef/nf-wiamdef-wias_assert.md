@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wias_assert, WIAS_ASSERT macro [Imaging Devices], wiamdef/WIAS_ASSERT, IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, WIAS_ASSERT
+ms.keywords: wiamdef/WIAS_ASSERT, WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamdef.h
-apiname: 
+apiname:
 -	WIAS_ASSERT
 product: Windows
 targetos: Windows
@@ -81,9 +81,6 @@ TBD
 
 
 
-#### - HInst
-
-Handle to the DLL (driver).
 
 
 #### - Expression
@@ -91,7 +88,13 @@ Handle to the DLL (driver).
 Specifies any logical expression.
 
 
+#### - HInst
+
+Handle to the DLL (driver).
+
+
 ## -remarks
+
 
 
 The WIAS_ASSERT macro is used to debug WIA drivers. It is used to test that a certain condition is met. If the <i>Expression</i> parameter evaluates to <b>TRUE</b>, this macro does nothing. If <i>Expression</i> evaluates to <b>FALSE</b>, the macro prints an error string to the <i>Wiatrace.log</i> diagnostic log file. This error message will contain the name and path to the calling driver and the line number in the driver source code where the WIAS_ASSERT macro failed.
@@ -102,13 +105,20 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
 
 
+
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
 
-<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
+
 
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
+
+
 
  
 

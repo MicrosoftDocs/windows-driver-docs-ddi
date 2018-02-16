@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._FILE_LINK_INFORMATION
-title: _FILE_LINK_INFORMATION
+title: "_FILE_LINK_INFORMATION"
 author: windows-driver-content
 description: The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file.
 old-location: ifsk\file_link_information.htm
 old-project: ifsk
 ms.assetid: c0c47dc7-d672-4094-af17-9de2b01886aa
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.file_link_information, *PFILE_LINK_INFORMATION, _FILE_LINK_INFORMATION, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, PFILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ntifs/PFILE_LINK_INFORMATION, _FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], *PFILE_LINK_INFORMATION, ifsk.file_link_information, FILE_LINK_INFORMATION, PFILE_LINK_INFORMATION, ntifs/FILE_LINK_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FILE_LINK_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION
+req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
 ---
 
 # _FILE_LINK_INFORMATION structure
@@ -93,7 +93,9 @@ The first character of the name to be assigned to the newly created link. This i
 ## -remarks
 
 
+
 The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file. This operation can be performed in either of the following ways: 
+
 <ul>
 <li>
 Call <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a> or <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>, passing FileLinkInformation as the value of FileInformationClass and passing a caller-allocated, FILE_LINK_INFORMATION-structured buffer as the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the existing file to which the hard link should point. 
@@ -103,7 +105,8 @@ Call <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformat
 Create an IRP with major function code IRP_MJ_SET_INFORMATION. 
 
 </li>
-</ul>No specific access rights are required to set this information. 
+</ul>
+No specific access rights are required to set this information. 
 
 File system minifilters must use <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>, not <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>, to set this information for a file. 
 
@@ -115,19 +118,28 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
 
+
+
 <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_LINK_INFORMATION structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_LINK_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	NegotiateCryptoSessionKeyExchange
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback
@@ -94,14 +94,7 @@ The size, in bytes, of the data in the <i>pData</i> array.
 
 
 
-### -param *pData
-
-
-
-
-
-
-#### - pData [in]
+### -param *pData [in]
 
 A pointer to a byte array that contains the encrypted session key.
 
@@ -109,7 +102,9 @@ A pointer to a byte array that contains the encrypted session key.
 ## -returns
 
 
+
 <i>NegotiateCryptoSessionKeyExchange</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,11 +144,14 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <i>pData</i> parameter references a buffer that contains a session key for the cryptographic session. The key exchange mechanism depends on the type of the encryption algorithm that is used by the cryptographic session.
@@ -161,12 +159,17 @@ The <i>pData</i> parameter references a buffer that contains a session key for t
 For sessions that use the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) algorithm, the key buffer must contain 256 bytes of data and must be encrypted by using the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) algorithm with the public key from the cryptographic session certificate.
 
 The key exchange for a cryptographic session is identical to the key exchange for the Output Protection Manager (OPM) interface. However,  the OPM key buffer contains additional data besides the session key.  
-<div class="alert"><b>Note</b>  The same certificate can be used for the cryptographic session and OPM session key.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The same certificate can be used for the cryptographic session and OPM session key.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
+
 
  
 

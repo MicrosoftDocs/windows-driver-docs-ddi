@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6adca68-e016-4725-bd8e-691c71d1d471
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ScsiPortInitialize routine [Storage Devices], storage.scsiportinitialize, scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml, ScsiPortInitialize, srb/ScsiPortInitialize
+ms.keywords: storage.scsiportinitialize, ScsiPortInitialize routine [Storage Devices], srb/ScsiPortInitialize, ScsiPortInitialize, scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortInitialize
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -95,11 +95,14 @@ Specifies the address of a context value to be passed to the miniport driver's <
 ## -returns
 
 
+
 <b>ScsiPortInitialize</b> returns a status value that is used as the return value from the miniport driver's <b>DriverEntry</b> routine.
 
 
 
+
 ## -remarks
+
 
 
 Every miniport driver's <b>DriverEntry</b> routine must call <b>ScsiPortInitialize</b> after the miniport driver has first zeroed and then set up the HW_INITIALIZATION_DATA.
@@ -110,13 +113,20 @@ A miniport driver that calls <b>ScsiPortInitialize</b> more than once should che
 
 
 
+
 ## -see-also
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
 
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
+
 
  
 

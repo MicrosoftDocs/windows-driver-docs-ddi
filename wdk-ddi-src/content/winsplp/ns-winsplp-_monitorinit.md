@@ -1,14 +1,14 @@
 ---
 UID: NS:winsplp._MONITORINIT
-title: _MONITORINIT
+title: "_MONITORINIT"
 author: windows-driver-content
 description: The MONITORINIT structure is used as an input parameter to a print monitor's InitializePrintMonitor2 function.
 old-location: print\monitorinit.htm
 old-project: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: MONITORINIT, winsplp/PMONITORINIT, _MONITORINIT, MONITORINIT structure [Print Devices], *PMONITORINIT, PMONITORINIT, winsplp/MONITORINIT, PMONITORINIT structure pointer [Print Devices], spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, print.monitorinit
+ms.date: 2/2/2018
+ms.keywords: MONITORINIT structure [Print Devices], print.monitorinit, PMONITORINIT structure pointer [Print Devices], spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, _MONITORINIT, winsplp/MONITORINIT, PMONITORINIT, *PMONITORINIT, MONITORINIT, winsplp/PMONITORINIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winsplp.h
-apiname: 
+apiname:
 -	MONITORINIT
 product: Windows
 targetos: Windows
@@ -107,11 +107,15 @@ Caller-supplied pointer to a string representing a server name.
 
 <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
 
+
+
 <a href="..\winsplp\ns-winsplp-_monitorreg.md">MONITORREG</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MONITORINIT structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MONITORINIT structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

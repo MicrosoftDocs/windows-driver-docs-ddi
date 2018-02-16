@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
-title: _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
+title: "_NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure contains information about the allocation status of a receive queue.
 old-location: netvista\ndis_receive_queue_allocation_complete_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1aae1bc7-24c6-46a3-be0e-f028d6b70774
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_6427710d-2634-40e1-bd03-a93fdedfd5a3.xml, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, netvista.ndis_receive_queue_allocation_complete_parameters, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
+ms.keywords: netvista.ndis_receive_queue_allocation_complete_parameters, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_6427710d-2634-40e1-bd03-a93fdedfd5a3.xml, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
 product: Windows
 targetos: Windows
@@ -103,23 +103,31 @@ An <b>NDIS_STATUS</b> value that contains an NDIS_STATUS_<i>Xxx</i> completion s
 ## -remarks
 
 
+
 The <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b> structure is used with the 
-    <mshelp:link keywords="netvista.ndis_receive_queue_allocation_complete_array" tabindex="0"><b>
-    NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</b></mshelp:link> structure and the 
-    <mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
-    OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link> OID.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_allocation_complete_array.md">
+    NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</a> structure and the 
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+    OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a> OID.
+
 
 
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_allocation_complete_array.md">
+   NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<mshelp:link keywords="netvista.ndis_receive_queue_allocation_complete_array" tabindex="0"><b>
-   NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</b></mshelp:link>
 
-<mshelp:link keywords="netvista.oid_receive_filter_queue_allocation_complete" tabindex="0">
-   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</mshelp:link>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
+
+
 
  
 

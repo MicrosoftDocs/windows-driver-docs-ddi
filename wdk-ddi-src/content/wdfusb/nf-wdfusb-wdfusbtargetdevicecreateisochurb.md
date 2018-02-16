@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2D25A276-A367-4E59-9CA0-4F480675DD77
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetDeviceCreateIsochUrb method, WdfUsbTargetDeviceCreateIsochUrb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb, PFN_WDFUSBTARGETDEVICECREATEISOCHURB, wdf.wdfusbtargetdevicecreateisochurb, kmdf.wdfusbtargetdevicecreateisochurb
+ms.keywords: kmdf.wdfusbtargetdevicecreateisochurb, wdf.wdfusbtargetdevicecreateisochurb, WdfUsbTargetDeviceCreateIsochUrb method, PFN_WDFUSBTARGETDEVICECREATEISOCHURB, WdfUsbTargetDeviceCreateIsochUrb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfUsbTargetDeviceCreateIsochUrb
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,9 @@ A pointer to an URB structure that receives the address of the new isochronous U
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceCreateIsochUrb</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,13 +146,16 @@ Insufficient memory was available.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
 
 
+
 ## -remarks
+
 
 
 Before calling <b>WdfUsbTargetDeviceCreateIsochUrb</b>, a driver must call <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>. If successful, <b>WdfUsbTargetDeviceCreateIsochUrb</b> returns a handle to a framework memory object that describes the newly allocated isochronous URB.
@@ -164,12 +169,65 @@ The memory object and its buffer are deleted when the parent object is deleted. 
 For related information, see the Remarks section of <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md">WdfUsbTargetDeviceCreateUrb</a>.
 
 
+#### Examples
+
+The following code example is based on the PerformIsochTransfer routine in the Isorwr sample driver. The example calls <b>WdfUsbTargetDeviceCreateIsochUrb</b> to allocate an isochronous USB request block. The example determines the number  of bytes required to hold the isochronous transfer request, and then manually configures the URB header and the isochronous packets in the URB.  At this point, the driver can call <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeformatrequestforurb.md">WdfUsbTargetPipeFormatRequestForUrb</a>, as shown in the example in  <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md">WdfUsbTargetDeviceCreateUrb</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+USBD_PIPE_HANDLE usbdPipeHandle;
+ULONG numPackets = UserBufferLength/TransferSizePerFrame;
+ULONG urbSize;
+PURB urb;  
+WDFMEMORY memory;
+
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;objectAttribs);  
+objectAttribs.ParentObject = UsbDevice;
+
+status = WdfUsbTargetDeviceCreateIsochUrb(
+                                     pDevContext-&gt;WdfUsbTargetDevice,  
+                                     &amp;objectAttribs,  
+                                     0, 
+                                     numPackets, 
+                                     &amp;memory,  
+                                     NULL  
+                                     ); 
+ 
+urb = WdfMemoryGetBuffer(urbMemory, &amp;urbSize); 
+urbSize = GET_ISO_URB_SIZE(numPackets);  
+
+usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(pipe);
+urb-&gt;UrbIsochronousTransfer.Hdr.Length = GET_ISO_URB_SIZE(numPackets);  
+urb-&gt;UrbIsochronousTransfer.Hdr.Function = URB_FUNCTION_ISOCH_TRANSFER;  
+urb-&gt;UrbIsochronousTransfer.PipeHandle = usbdPipeHandle; 
+
+for (packetId = 0; packetId &lt; numberOfPackets; packetId++) {
+
+     Urb-&gt; UrbIsochronousTransfer.IsoPacket[packetId].Offset = xxx;
+     Urb-&gt; UrbIsochronousTransfer.IsoPacket[packetId].YYY = yyy;
+}
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md">WdfUsbTargetDeviceCreateUrb</a>
 
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
 
  
 

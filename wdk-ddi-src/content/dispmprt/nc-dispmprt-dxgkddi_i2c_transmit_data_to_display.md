@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkDdiI2CTransmitDataToDisplay
 product: Windows
 targetos: Windows
@@ -101,6 +101,8 @@ The length, in bytes, of the data to be transmitted. This parameter must be betw
 
 
 
+
+
 #### - Data [in]
 
 A pointer to a buffer that holds the data to be transmitted.
@@ -109,7 +111,9 @@ A pointer to a buffer that holds the data to be transmitted.
 ## -returns
 
 
+
 <i>DxgkDdiI2CTransmitDataToDisplay</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h. The following list gives some of the possible error codes that can be returned.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -159,11 +163,14 @@ The I2C address was successfully transmitted, but there was an error transmittin
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The video present target identified by <i>VidPnTargetId</i> is associated with one of the video outputs on the display adapter. The data is transmitted to an I2C device in the monitor that is connected to that video output. 
@@ -182,9 +189,12 @@ If the display adapter supports HDCP, the <i>DxgkDdiI2CTransmitDataToDisplay</i>
 
 
 
+
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_i2c_receive_data_from_display.md">DxgkDdiI2CReceiveDataFromDisplay</a>
+
+
 
  
 

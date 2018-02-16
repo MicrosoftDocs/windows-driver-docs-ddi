@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 574aa79e-c8ef-44de-8d0b-a550698a32e0
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortWaitForSingleObject, display.videoportwaitforsingleobject, VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, VideoPortWaitForSingleObject function [Display Devices], video/VideoPortWaitForSingleObject
+ms.keywords: VideoPortWaitForSingleObject function [Display Devices], display.videoportwaitforsingleobject, video/VideoPortWaitForSingleObject, VideoPortWaitForSingleObject, VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortWaitForSingleObject
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ Pointer to the event object.
 ## -returns
 
 
+
 <b>VideoPortWaitForSingleObject</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,15 +129,19 @@ A time-out occurred before the event object was set to the signaled state. This 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver should not attempt to wait for a mapped user event.
 
 Callers of <b>VideoPortWaitForSingleObject</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, the caller will be running at IRQL = PASSIVE_LEVEL and in a nonarbitrary thread context. A call to this function while running at IRQL = DISPATCH_LEVEL is valid if and only if the caller specifies a <i>Timeout</i> value of zero. That is, a miniport driver must not wait for a nonzero interval at IRQL = DISPATCH_LEVEL.
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_BACKLIGHT_INFO
-title: _DXGK_BACKLIGHT_INFO
+title: "_DXGK_BACKLIGHT_INFO"
 author: windows-driver-content
 description: Contains the current level of backlight reduction that is applied to the integrated display panel. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 old-location: display\dxgk_backlight_info.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9008e5e6-e03c-4d34-99bd-3e6624327fcc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info, _DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], DXGK_BACKLIGHT_INFO
+ms.keywords: d3dkmdt/DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], display.dxgk_backlight_info, _DXGK_BACKLIGHT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmdt.h
-apiname: 
+apiname:
 -	DXGK_BACKLIGHT_INFO
 product: Windows
 targetos: Windows
@@ -92,7 +92,9 @@ This lookup table represents the gamma ramp that has been optimized for backligh
 ## -remarks
 
 
+
 For more information about the use of this structure, see Remarks of the <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a> function.
+
 
 
 
@@ -100,7 +102,11 @@ For more information about the use of this structure, see Remarks of the <a href
 
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a>
 
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16.md">D3DDDI_GAMMA_RAMP_RGB256x3x16</a>
+
+
 
  
 

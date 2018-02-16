@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENADAPTERFROMLUID
-title: _D3DKMT_OPENADAPTERFROMLUID
+title: "_D3DKMT_OPENADAPTERFROMLUID"
 author: windows-driver-content
 description: Describes the mapping of the given locally unique identifier (LUID) of a device to a graphics adapter handle.
 old-location: display\d3dkmt_openadapterfromluid.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 93f5c1d1-e1df-4536-8b52-db3b4942488c
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENADAPTERFROMLUID, D3DKMT_OPENADAPTERFROMLUID structure [Display Devices], _D3DKMT_OPENADAPTERFROMLUID, display.d3dkmt_openadapterfromluid, d3dkmthk/D3DKMT_OPENADAPTERFROMLUID
+ms.keywords: display.d3dkmt_openadapterfromluid, D3DKMT_OPENADAPTERFROMLUID, _D3DKMT_OPENADAPTERFROMLUID, d3dkmthk/D3DKMT_OPENADAPTERFROMLUID, D3DKMT_OPENADAPTERFROMLUID structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_OPENADAPTERFROMLUID
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct _D3DKMT_OPENADAPTERFROMLUID {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromluid.md">D3DKMTOpenAdapterFromLuid</a>
+
+
 
  
 

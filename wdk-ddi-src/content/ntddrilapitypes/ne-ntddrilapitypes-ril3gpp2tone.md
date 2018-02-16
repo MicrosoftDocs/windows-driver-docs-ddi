@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bf19de84-1c2d-4e9b-8061-888634dc2147
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_3GPP2TONE_MAX, ntddrilapitypes/RIL_3GPP2TONE_CALLWAITING, RIL3GPP2TONE enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2TONE_REORDER, ntddrilapitypes/RIL_3GPP2TONE_ABRVREORDER, RIL_3GPP2TONE_PIP, ntddrilapitypes/RIL3GPP2TONE, RIL_3GPP2TONE_RINGBACK, ntddrilapitypes/RIL_3GPP2TONE_BUSY, RIL_3GPP2TONE_CONFIRM, ntddrilapitypes/RIL_3GPP2TONE_RINGBACK, ntddrilapitypes/RIL_3GPP2TONE_REORDER, RIL_3GPP2TONE_DIAL, ntddrilapitypes/RIL_3GPP2TONE_ABRVINTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_INTERCEPT, RIL_3GPP2TONE_BUSY, RIL_3GPP2TONE_CALLWAITING, ntddrilapitypes/RIL_3GPP2TONE_DIAL, ntddrilapitypes/RIL_3GPP2TONE_PIP, netvista.ril3gpp2tone, RIL3GPP2TONE, RIL_3GPP2TONE_ABRVINTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_ANSWER, ntddrilapitypes/RIL_3GPP2TONE_MAX, ntddrilapitypes/RIL_3GPP2TONE_CONFIRM, RIL_3GPP2TONE_ANSWER, RIL_3GPP2TONE_INTERCEPT, RIL_3GPP2TONE_ABRVREORDER
+ms.keywords: ntddrilapitypes/RIL_3GPP2TONE_PIP, ntddrilapitypes/RIL_3GPP2TONE_ANSWER, ntddrilapitypes/RIL_3GPP2TONE_CALLWAITING, ntddrilapitypes/RIL3GPP2TONE, RIL_3GPP2TONE_CALLWAITING, RIL_3GPP2TONE_INTERCEPT, RIL_3GPP2TONE_ABRVREORDER, ntddrilapitypes/RIL_3GPP2TONE_DIAL, ntddrilapitypes/RIL_3GPP2TONE_ABRVINTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_REORDER, ntddrilapitypes/RIL_3GPP2TONE_BUSY, RIL3GPP2TONE, RIL_3GPP2TONE_DIAL, RIL3GPP2TONE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_3GPP2TONE_RINGBACK, RIL_3GPP2TONE_RINGBACK, netvista.ril3gpp2tone, RIL_3GPP2TONE_REORDER, RIL_3GPP2TONE_BUSY, RIL_3GPP2TONE_ANSWER, RIL_3GPP2TONE_ABRVINTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_INTERCEPT, ntddrilapitypes/RIL_3GPP2TONE_ABRVREORDER, RIL_3GPP2TONE_PIP, ntddrilapitypes/RIL_3GPP2TONE_MAX, RIL_3GPP2TONE_MAX, ntddrilapitypes/RIL_3GPP2TONE_CONFIRM, RIL_3GPP2TONE_CONFIRM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RIL3GPP2TONE
 product: Windows
 targetos: Windows
@@ -81,51 +81,38 @@ typedef enum _RIL3GPP2TONE {
 ### -field RIL_3GPP2TONE_TONEOFF
 
 
-
 ### -field RIL_3GPP2TONE_DIAL
-
 
 
 ### -field RIL_3GPP2TONE_RINGBACK
 
 
-
 ### -field RIL_3GPP2TONE_INTERCEPT
-
 
 
 ### -field RIL_3GPP2TONE_ABRVINTERCEPT
 
 
-
 ### -field RIL_3GPP2TONE_REORDER
-
 
 
 ### -field RIL_3GPP2TONE_ABRVREORDER
 
 
-
 ### -field RIL_3GPP2TONE_BUSY
-
 
 
 ### -field RIL_3GPP2TONE_CONFIRM
 
 
-
 ### -field RIL_3GPP2TONE_ANSWER
-
 
 
 ### -field RIL_3GPP2TONE_CALLWAITING
 
 
-
 ### -field RIL_3GPP2TONE_PIP
 
 
-
 ### -field RIL_3GPP2TONE_MAX
-
 

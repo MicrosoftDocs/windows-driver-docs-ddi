@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoAttachDeviceToDeviceStack
 product: Windows
 targetos: Windows
@@ -82,13 +82,16 @@ Pointer to another driver's device object, such as a pointer returned by a prece
 ## -returns
 
 
+
 <b>IoAttachDeviceToDeviceStack</b> returns a pointer to the device object to which the <i>SourceDevice</i> was attached. The returned device object pointer can differ from <i>TargetDevice</i> if <i>TargetDevice</i> had additional drivers layered on top of it.
 
 <b>IoAttachDeviceToDeviceStack</b> returns <b>NULL</b> if it could not attach the device object because, for example, the target device was being unloaded.
 
 
 
+
 ## -remarks
+
 
 
 <b>IoAttachDeviceToDeviceStack</b> establishes layering between drivers so that the same IRPs are sent to each driver in the chain.
@@ -103,15 +106,24 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
 
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
+
+
 <a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
 
  
 

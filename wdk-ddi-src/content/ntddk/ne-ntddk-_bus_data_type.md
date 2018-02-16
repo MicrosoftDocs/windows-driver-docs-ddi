@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._BUS_DATA_TYPE
-title: _BUS_DATA_TYPE
+title: "_BUS_DATA_TYPE"
 author: windows-driver-content
 description: The BUS_DATA_TYPE enumeration indicates the type of bus configuration space.
 old-location: kernel\bus_data_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a2a2e964-b9ae-4367-85de-f0ebe3c7a952
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MaximumBusDataType, ntddk/PNPISAConfiguration, PCIConfiguration, ntddk/MPSAConfiguration, ntddk/NuBusConfiguration, ntddk/SgiInternalConfiguration, ntddk/ConfigurationSpaceUndefined, Cmos, ntddk/Cmos, ntddk/EisaConfiguration, BUS_DATA_TYPE, SgiInternalConfiguration, ntddk/Pos, kernel.bus_data_type, ntddk/VMEConfiguration, NuBusConfiguration, MPIConfiguration, Pos, PCMCIAConfiguration, ntddk/MaximumBusDataType, ConfigurationSpaceUndefined, MPSAConfiguration, VMEConfiguration, ntddk/PCIConfiguration, PNPISAConfiguration, ntddk/CbusConfiguration, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], ntddk/BUS_DATA_TYPE, CbusConfiguration, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, PBUS_DATA_TYPE, ntddk/PCMCIAConfiguration, ntddk/PBUS_DATA_TYPE, _BUS_DATA_TYPE, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], *PBUS_DATA_TYPE, EisaConfiguration, ntddk/MPIConfiguration
+ms.keywords: PNPISAConfiguration, ntddk/ConfigurationSpaceUndefined, CbusConfiguration, PCMCIAConfiguration, MaximumBusDataType, EisaConfiguration, _BUS_DATA_TYPE, ntddk/PBUS_DATA_TYPE, SgiInternalConfiguration, sysenum_3f6df31a-39d8-463e-8d44-44e51cd9989d.xml, MPSAConfiguration, ntddk/MPSAConfiguration, ntddk/CbusConfiguration, ntddk/MPIConfiguration, VMEConfiguration, ConfigurationSpaceUndefined, ntddk/Pos, ntddk/SgiInternalConfiguration, ntddk/Cmos, ntddk/NuBusConfiguration, MPIConfiguration, PBUS_DATA_TYPE enumeration pointer [Kernel-Mode Driver Architecture], ntddk/PNPISAConfiguration, kernel.bus_data_type, ntddk/VMEConfiguration, *PBUS_DATA_TYPE, BUS_DATA_TYPE enumeration [Kernel-Mode Driver Architecture], PBUS_DATA_TYPE, BUS_DATA_TYPE, Cmos, NuBusConfiguration, ntddk/EisaConfiguration, PCIConfiguration, ntddk/BUS_DATA_TYPE, ntddk/PCIConfiguration, ntddk/MaximumBusDataType, ntddk/PCMCIAConfiguration, Pos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	BUS_DATA_TYPE
 product: Windows
 targetos: Windows
-req.typenames: BUS_DATA_TYPE, *PBUS_DATA_TYPE
+req.typenames: "*PBUS_DATA_TYPE, BUS_DATA_TYPE"
 ---
 
 # _BUS_DATA_TYPE enumeration
@@ -152,13 +152,21 @@ Indicates the upper limit of the bus configuration space types.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+
+
 
  
 

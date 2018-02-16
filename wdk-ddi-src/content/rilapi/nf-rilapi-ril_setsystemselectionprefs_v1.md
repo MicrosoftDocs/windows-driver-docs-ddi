@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 736ba738-eb28-471c-bf65-236217f5aa11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetSystemSelectionPrefs_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_setsystemselectionprefs_v1, RIL_SetSystemSelectionPrefs_V1, rilapi/RIL_SetSystemSelectionPrefs_V1
+ms.keywords: RIL_SetSystemSelectionPrefs_V1 method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetSystemSelectionPrefs_V1, RIL_SetSystemSelectionPrefs_V1, netvista.ril_setsystemselectionprefs_v1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SetSystemSelectionPrefs_V1
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_SetSystemSelectionPrefs_V1(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwFlags
 
 
-
 ### -param lpRilSystemSelectionPrefs
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

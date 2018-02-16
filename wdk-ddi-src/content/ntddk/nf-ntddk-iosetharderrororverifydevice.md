@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67f41d3e-d306-400b-9970-88c62f0f7a7f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSetHardErrorOrVerifyDevice, k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], ntddk/IoSetHardErrorOrVerifyDevice, kernel.iosetharderrororverifydevice
+ms.keywords: kernel.iosetharderrororverifydevice, k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], ntddk/IoSetHardErrorOrVerifyDevice, IoSetHardErrorOrVerifyDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoSetHardErrorOrVerifyDevice
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoSetHardErrorOrVerifyDevice function
@@ -81,11 +81,14 @@ Pointer to the target device to be verified for the I/O operation.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Lower-level drivers for removal media devices must call <b>IoSetHardErrorOrVerifyDevice</b> before completing an IRP, if a call to <a href="..\wdm\nf-wdm-ioiserroruserinduced.md">IoIsErrorUserInduced</a> returns <b>TRUE</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563916">Supporting Removable Media</a>.
@@ -96,13 +99,20 @@ The IRP passed to <b>IoSetHardErrorOrVerifyDevice</b> must be associated with a 
 
 
 
+
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
 
-<a href="..\ntddk\nf-ntddk-ioraiseharderror.md">IoRaiseHardError</a>
+
 
 <a href="..\wdm\nf-wdm-ioiserroruserinduced.md">IoIsErrorUserInduced</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioraiseharderror.md">IoRaiseHardError</a>
+
+
 
  
 

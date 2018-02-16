@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: BD1CB6CE-4196-4B85-AED0-A7B8ED957ADF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_SINGLESHOT_PARAM structure [Sensor Devices], PGNSS_SINGLESHOT_PARAM, sensors.gnss_singleshot_param, gnssdriver/PGNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM, gnssdriver/GNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM structure pointer [Sensor Devices]
+ms.keywords: gnssdriver/PGNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM structure pointer [Sensor Devices], GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM, sensors.gnss_singleshot_param, GNSS_SINGLESHOT_PARAM structure [Sensor Devices], gnssdriver/GNSS_SINGLESHOT_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_SINGLESHOT_PARAM
 product: Windows
 targetos: Windows

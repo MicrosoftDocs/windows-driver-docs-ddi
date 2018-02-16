@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 75417373-AA1B-4297-863A-00EA97069573
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method
+ms.keywords: IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo, IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method, debugger.idebugsymbols3_setscopefromjitdebuginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.SetScopeFromJitDebugInfo
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::SetScopeFromJitDebugInfo method
@@ -82,6 +82,7 @@ An offset for the debugging information.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 The method gets JUT debugging information from   a specified address from the debugging target, and then sets the current
@@ -91,9 +92,12 @@ This method is equivalent to '.jdinfo' command.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

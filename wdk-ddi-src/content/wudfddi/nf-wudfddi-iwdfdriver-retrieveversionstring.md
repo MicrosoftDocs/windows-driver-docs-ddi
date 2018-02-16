@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2fa320df-bafd-42f4-a0a1-14151c39d68a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: RetrieveVersionString method, IWDFDriver interface, RetrieveVersionString method, RetrieveVersionString method, IWDFDriver interface, IWDFDriver, wdf.iwdfdriver_retrieveversionstring, RetrieveVersionString, wudfddi/IWDFDriver::RetrieveVersionString, IWDFDriver::RetrieveVersionString, umdf.iwdfdriver_retrieveversionstring, UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml
+ms.keywords: umdf.iwdfdriver_retrieveversionstring, IWDFDriver::RetrieveVersionString, wdf.iwdfdriver_retrieveversionstring, IWDFDriver interface, RetrieveVersionString method, RetrieveVersionString, RetrieveVersionString method, IWDFDriver, UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml, wudfddi/IWDFDriver::RetrieveVersionString, RetrieveVersionString method, IWDFDriver interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDriver.RetrieveVersionString
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -88,6 +88,7 @@ If the buffer at <i>pVersion</i> is non-<b>NULL</b>, the framework returns the s
 ## -returns
 
 
+
 <b>RetrieveVersionString</b> returns S_OK for the following scenarios:
 
 
@@ -106,6 +107,7 @@ The buffer at <i>pVersion</i> was <b>NULL</b>, the driver preset the variable at
 
 
 <b>RetrieveVersionString</b> might also return other HRESULT values.
+
 
 
 

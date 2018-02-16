@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f5730d3-6e6c-490f-b2e5-e2d3615b4c3a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfpausecomplete, NdisFPauseComplete, ndis/NdisFPauseComplete, filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, NdisFPauseComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisFPauseComplete, netvista.ndisfpausecomplete, filter_ndis_functions_ref_2f2cd8ef-a148-49d2-a00d-ec0acef7e310.xml, NdisFPauseComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFPauseComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFPauseComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFPauseComplete function
@@ -81,11 +81,14 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 NDIS calls a filter driver's 
@@ -100,11 +103,16 @@ After a pending pause operation is complete, the driver calls
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
 
 <a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
 
  
 

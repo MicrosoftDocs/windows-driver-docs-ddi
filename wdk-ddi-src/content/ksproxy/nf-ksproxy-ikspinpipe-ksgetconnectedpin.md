@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9025E49D-A12B-4617-9441-13B61137853E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ikspinpipe_ksgetconnectedpin, IKsPinPipe, IKsPinPipe::KsGetConnectedPin, KsGetConnectedPin method [Streaming Media Devices], IKsPinPipe interface, KsGetConnectedPin method [Streaming Media Devices], KsGetConnectedPin, ksproxy/IKsPinPipe::KsGetConnectedPin, IKsPinPipe interface [Streaming Media Devices], KsGetConnectedPin method
+ms.keywords: IKsPinPipe::KsGetConnectedPin, ksproxy/IKsPinPipe::KsGetConnectedPin, IKsPinPipe, KsGetConnectedPin method [Streaming Media Devices], IKsPinPipe interface, KsGetConnectedPin method [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices], KsGetConnectedPin method, stream.ikspinpipe_ksgetconnectedpin, KsGetConnectedPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPinPipe.KsGetConnectedPin
 product: Windows
 targetos: Windows
@@ -70,16 +70,21 @@ HRESULT KsGetConnectedPin(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
+
+
 
  
 

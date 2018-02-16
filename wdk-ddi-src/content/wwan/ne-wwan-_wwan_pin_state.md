@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PIN_STATE
-title: _WWAN_PIN_STATE
+title: "_WWAN_PIN_STATE"
 author: windows-driver-content
 description: The WWAN_PIN_STATE enumeration describes whether the MB device or Subscriber Identity Module (SIM card) requires the user to enter a Personal Identification Number (PIN) to proceed to the next state.
 old-location: netvista\wwan_pin_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e538f920-bf9e-484b-acea-f979bb952299
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, WWAN_PIN_STATE, wwan/WWAN_PIN_STATE, netvista.wwan_pin_state, wwan/WwanPinStateMax, wwan/PWWAN_PIN_STATE, WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPinStateMax, PWWAN_PIN_STATE, wwan/WwanPinStateNone, *PWWAN_PIN_STATE, WwanPinStateEnter, _WWAN_PIN_STATE, wwan/WwanPinStateEnter, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WwanPinStateNone
+ms.keywords: wwan/WwanPinStateEnter, *PWWAN_PIN_STATE, WwanPinStateEnter, WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, wwan/WWAN_PIN_STATE, WwanPinStateNone, netvista.wwan_pin_state, WwanPinStateMax, wwan/WwanPinStateMax, PWWAN_PIN_STATE, WWAN_PIN_STATE, wwan/PWWAN_PIN_STATE, wwan/WwanPinStateNone, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_PIN_STATE, WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PIN_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_PIN_STATE, WWAN_PIN_STATE
+req.typenames: WWAN_PIN_STATE, *PWWAN_PIN_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,8 @@ The total number of supported PIN states.
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
+
+
 
  
 

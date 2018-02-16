@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetInitiatorNodeName_OUT
-title: _SetInitiatorNodeName_OUT
+title: "_SetInitiatorNodeName_OUT"
 author: windows-driver-content
 description: The SetInitiatorNodeName_OUT structure holds the output data for the SetInitiatorNodeName method.
 old-location: storage\setinitiatornodename_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3417648-f9f9-402f-b3a3-d09c0b7e5fdd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/PSetInitiatorNodeName_OUT, storage.setinitiatornodename_out, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml, *PSetInitiatorNodeName_OUT, iscsiop/SetInitiatorNodeName_OUT, _SetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT structure [Storage Devices]
+ms.keywords: storage.setinitiatornodename_out, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], iscsiop/PSetInitiatorNodeName_OUT, _SetInitiatorNodeName_OUT, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml, iscsiop/SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT structure [Storage Devices], *PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetInitiatorNodeName_OUT
 product: Windows
 targetos: Windows
@@ -75,17 +75,25 @@ On output, the status of the <b>SetInitiatorNodeName</b> operation. For a list o
 ## -remarks
 
 
+
 It is optional that you implement this class.
+
 
 
 
 ## -see-also
 
+<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
-<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
+
 
  
 

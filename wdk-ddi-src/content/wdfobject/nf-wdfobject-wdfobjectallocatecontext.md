@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dbabd045-4f18-4103-b3c0-5405173628d6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfObjectAllocateContext method, wdfobject/WdfObjectAllocateContext, kmdf.wdfobjectallocatecontext, PFN_WDFOBJECTALLOCATECONTEXT, DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, wdf.wdfobjectallocatecontext
+ms.keywords: wdf.wdfobjectallocatecontext, PFN_WDFOBJECTALLOCATECONTEXT, wdfobject/WdfObjectAllocateContext, WdfObjectAllocateContext, DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfObjectAllocateContext
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ A pointer to a location that receives a pointer to the allocated context space.
 ## -returns
 
 
+
 <b>WdfObjectAllocateContext</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -154,7 +156,8 @@ The object that the <i>Handle</i> parameter specifies is being deleted. In this 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -162,7 +165,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Typically, drivers create object context space by specifying a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure when they call a framework object's creation method, such as <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. 
@@ -178,14 +183,52 @@ When the framework allocates context space for an object, it also zero-initializ
 For more information about object context space, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 
+#### Examples
+
+The following code example creates context space for a request object. The context space is based on the example's REQUEST_CONTEXT structure.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _REQUEST_CONTEXT {
+  WDFMEMORY InputMemoryBuffer;
+  WDFMEMORY OutputMemoryBuffer;
+} REQUEST_CONTEXT, *PREQUEST_CONTEXT;
+
+PREQUEST_CONTEXT  reqContext = NULL;
+WDF_OBJECT_ATTRIBUTES  attributes;
+
+WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
+                                        &amp;attributes,
+                                        REQUEST_CONTEXT
+                                        );
+status = WdfObjectAllocateContext(
+                                  Request,
+                                  &amp;attributes,
+                                  &amp;reqContext
+                                  );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552404">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>
+
+
 
  
 

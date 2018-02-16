@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fe163d23-0eaf-4a3e-b371-2f65f2235251
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kshandshake, ks/PKSHANDSHAKE, ks/KSHANDSHAKE, KSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], PKSHANDSHAKE, *PKSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml
+ms.keywords: avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, KSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], PKSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], ks/KSHANDSHAKE, *PKSHANDSHAKE, ks/PKSHANDSHAKE, stream.kshandshake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSHANDSHAKE
 product: Windows
 targetos: Windows
@@ -87,9 +87,11 @@ A pointer to an interface-dependent argument.
 ## -remarks
 
 
+
 See <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a> for more information about negotiating private interfaces between AVStream pins.
 
 Pin handshaking is a concept that is usable only between two pins that support IOCTL_KS_HANDSHAKE. Currently, only AVStream pins support this interface; thus this is only useful for negotiating private interfaces between two AVStream pins. Currently, connections between AVStream pins are negotiated via this mechanism.
+
 
 
 
@@ -97,7 +99,11 @@ Pin handshaking is a concept that is usable only between two pins that support I
 
 <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
 
+
+
 <a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
+
+
 
  
 

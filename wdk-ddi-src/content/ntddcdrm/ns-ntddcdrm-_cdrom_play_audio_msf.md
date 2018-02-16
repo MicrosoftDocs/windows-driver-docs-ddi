@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_PLAY_AUDIO_MSF
-title: _CDROM_PLAY_AUDIO_MSF
+title: "_CDROM_PLAY_AUDIO_MSF"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_PLAY_AUDIO_MSF use this structure to play an audio CD.
 old-location: storage\cdrom_play_audio_msf.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 73589397-9b2b-4d49-9860-cb2eb6a26632
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddcdrm/CDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF, ntddcdrm/PCDROM_PLAY_AUDIO_MSF, structs-CD-ROM_27bfe732-1972-4101-baa1-e9d520c3dfcf.xml, *PCDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF, _CDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF structure pointer [Storage Devices], CDROM_PLAY_AUDIO_MSF structure [Storage Devices], storage.cdrom_play_audio_msf
+ms.keywords: "_CDROM_PLAY_AUDIO_MSF, ntddcdrm/CDROM_PLAY_AUDIO_MSF, ntddcdrm/PCDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF, storage.cdrom_play_audio_msf, structs-CD-ROM_27bfe732-1972-4101-baa1-e9d520c3dfcf.xml, CDROM_PLAY_AUDIO_MSF structure [Storage Devices], *PCDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_PLAY_AUDIO_MSF
 product: Windows
 targetos: Windows
@@ -105,13 +105,17 @@ Contains an integer between 0 and 74 that indicates the ending frame.
 ## -remarks
 
 
+
 Device control IRPs with a control code of IOCTL_CDROM_PLAY_AUDIO_MSF use this structure to play an audio CD and to indicate where to begin playing and where to stop. Starting and ending points are indicated in terms of minutes, seconds, and frames.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_play_audio_msf.md">IOCTL_CDROM_PLAY_AUDIO_MSF</a>
+
+
 
  
 

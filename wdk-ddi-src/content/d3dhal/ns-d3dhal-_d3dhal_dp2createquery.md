@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATEQUERY
-title: _D3DHAL_DP2CREATEQUERY
+title: "_D3DHAL_DP2CREATEQUERY"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2createquery.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9998743d-57d5-4289-91c5-1c810bf4ca65
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2CREATEQUERY, D3DHAL_DP2CREATEQUERY structure [Display Devices], LPD3DHAL_DP2CREATEQUERY, d3dhal/LPD3DHAL_DP2CREATEQUERY, d3dstrct_d90487be-ec5e-416b-9ca8-fc431596cb27.xml, d3dhal/D3DHAL_DP2CREATEQUERY, LPD3DHAL_DP2CREATEQUERY structure pointer [Display Devices], display.d3dhal_dp2createquery, *LPD3DHAL_DP2CREATEQUERY, _D3DHAL_DP2CREATEQUERY
+ms.keywords: LPD3DHAL_DP2CREATEQUERY, d3dhal/LPD3DHAL_DP2CREATEQUERY, d3dhal/D3DHAL_DP2CREATEQUERY, d3dstrct_d90487be-ec5e-416b-9ca8-fc431596cb27.xml, D3DHAL_DP2CREATEQUERY, _D3DHAL_DP2CREATEQUERY, display.d3dhal_dp2createquery, *LPD3DHAL_DP2CREATEQUERY, D3DHAL_DP2CREATEQUERY structure [Display Devices], LPD3DHAL_DP2CREATEQUERY structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2CREATEQUERY
 product: Windows
 targetos: Windows
@@ -85,9 +85,11 @@ Specifies a value from the D3DQUERYTYPE enumeration that indicates the query cap
 ## -remarks
 
 
+
 The runtime uses D3DHAL_DP2CREATEQUERY to identify each query with a unique identifier and a query type. The driver's <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback must process <b>wPrimitiveCount</b> D3DHAL_DP2CREATEQUERY structures from the command buffer. The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure. The driver parses these structures and creates resources for the queries that they represent as necessary. 
 
 The driver creates resources for the following query types:
+
 <ul>
 <li>
 BOOL for D3DQUERYTYPE_EVENT. Before responding with D3DDP2OP_RESPONSEQUERY for an event, the driver must ensure that the graphics processing unit (GPU) is finished processing all <a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a> operations that are related to the event. That is, the driver only responds after the event's ISSUE_END state occurs. The driver must always set the event's BOOL value to <b>TRUE</b> when responding.
@@ -105,17 +107,28 @@ DWORD for D3DQUERYTYPE_OCCLUSION. The driver sets this DWORD to the number of pi
 </ul>
 
 
+
 ## -see-also
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a>
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 D3DDP2OP_CREATEQUERY
 
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2deletequery.md">D3DHAL_DP2DELETEQUERY</a>
+
+
+
+<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
 
  
 

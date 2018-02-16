@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ASYNC_READ
-title: _IRB_REQ_ASYNC_READ
+title: "_IRB_REQ_ASYNC_READ"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out an asynchronous read request.
 old-location: ieee\irb_req_async_read.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: C88A1F30-FC6B-4EC4-8F10-F507E17CF01D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses], 1394/IRB_REQ_ASYNC_READ, _IRB_REQ_ASYNC_READ
+ms.keywords: IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ, _IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses], 1394/IRB_REQ_ASYNC_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ASYNC_READ
 product: Windows
 targetos: Windows
@@ -106,6 +106,7 @@ For more information on raw-mode addressing, see <a href="https://msdn.microsoft
 ### -field fulFlags
 
 Specifies any nondefault settings for this operation. The following flags are provided.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -131,7 +132,8 @@ The bus driver returns the elapsed time of the operation in <b>u.AsyncRead.Elaps
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Mdl

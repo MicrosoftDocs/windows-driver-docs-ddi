@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_SESSION_STATE_INFORMATION
-title: _IO_SESSION_STATE_INFORMATION
+title: "_IO_SESSION_STATE_INFORMATION"
 author: windows-driver-content
 description: The IO_SESSION_STATE_INFORMATION structure contains information about the state of a user session.
 old-location: kernel\io_session_state_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef56da02-52ae-4f85-8820-fc310638bb89
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _IO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION, wdm/IO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, kernel.io_session_state_information, PIO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PIO_SESSION_STATE_INFORMATION
+ms.keywords: PIO_SESSION_STATE_INFORMATION, kernel.io_session_state_information, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION, wdm/IO_SESSION_STATE_INFORMATION, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PIO_SESSION_STATE_INFORMATION, _IO_SESSION_STATE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IO_SESSION_STATE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: IO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION
+req.typenames: "*PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -79,6 +79,7 @@ typedef struct _IO_SESSION_STATE_INFORMATION {
 ### -field SessionState
 
 The current state of the user session that is identified by <i>SessionId</i>. This member is set to one of the following <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a> enumeration constants:
+
 <ul>
 <li><b>IoSessionStateCreated</b></li>
 <li><b>IoSessionStateInitialized</b></li>
@@ -93,6 +94,7 @@ The current state of the user session that is identified by <i>SessionId</i>. Th
 ### -field LocalSession
 
 Indicates whether the user session identified by <i>SessionId</i> is a local session. If <b>TRUE</b>, the user is logged on locally. If <b>FALSE</b>, the user is logged on remotely. This member is valid only if the session is connected. The following <b>IO_SESSION_STATE</b> enumeration constants represent session states in which the session is connected:
+
 <ul>
 <li><b>IoSessionStateConnected</b></li>
 <li><b>IoSessionStateLoggedOn</b></li>
@@ -102,7 +104,9 @@ Indicates whether the user session identified by <i>SessionId</i> is a local ses
 ## -remarks
 
 
+
 To obtain information about a user session, a driver calls the <b>IoGetContainerInformation</b> routine. This routine's <i>Buffer</i> parameter points to an <b>IO_SESSION_STATE_INFORMATION</b> structure that contains information about the session state.
+
 
 
 
@@ -110,7 +114,11 @@ To obtain information about a user session, a driver calls the <b>IoGetContainer
 
 <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
 
+
+
 <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
+
+
 
  
 

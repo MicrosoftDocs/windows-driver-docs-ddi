@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_AGP_INTERFACE
-title: _VIDEO_PORT_AGP_INTERFACE
+title: "_VIDEO_PORT_AGP_INTERFACE"
 author: windows-driver-content
 description: The VIDEO_PORT_AGP_INTERFACE structure describes the AGP service routines provided by the video port driver.
 old-location: display\video_port_agp_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a2be4958-3f11-4b9d-9c0c-c339ebbbce04
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.video_port_agp_interface, video/PVIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE, Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, video/VIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices], PVIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE structure [Display Devices], _VIDEO_PORT_AGP_INTERFACE
+ms.keywords: "*PVIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE structure [Display Devices], VIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices], PVIDEO_PORT_AGP_INTERFACE, _VIDEO_PORT_AGP_INTERFACE, video/VIDEO_PORT_AGP_INTERFACE, Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, video/PVIDEO_PORT_AGP_INTERFACE, display.video_port_agp_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VIDEO_PORT_AGP_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE
+req.typenames: "*PVIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE"
 req.product: Windows 10 or later.
 ---
 
@@ -154,15 +154,21 @@ Specifies the maximum total number of bytes of AGP memory that a miniport driver
 ## -remarks
 
 
+
 PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
 
  
 

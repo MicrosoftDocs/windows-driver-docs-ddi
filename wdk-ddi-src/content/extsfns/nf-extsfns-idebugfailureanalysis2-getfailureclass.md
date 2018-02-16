@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4840F881-E3CB-4C89-AE2D-88610790C221
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetFailureClass, GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2::GetFailureClass, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureClass method, extsfns/IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, IDebugFailureAnalysis2
+ms.keywords: debugger.idebugfailureanalysis2_getfailureclass, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureClass method, GetFailureClass, GetFailureClass method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2, GetFailureClass method [Windows Debugging], extsfns/IDebugFailureAnalysis2::GetFailureClass, IDebugFailureAnalysis2::GetFailureClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: extsfns.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	extsfns.h
-apiname: 
+apiname:
 -	IDebugFailureAnalysis2.GetFailureClass
 product: Windows
 targetos: Windows
@@ -66,7 +66,9 @@ ULONG GetFailureClass();
 
 
 
+
 ## -returns
+
 
 
 <table>
@@ -110,23 +112,35 @@ The debugging session is a user-mode session.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 These return values are defined in dbgeng.h.
 
 
 
+
 ## -see-also
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983416">GetFailureCode</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983417">GetFailureType</a>
 
+
+
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983416">GetFailureCode</a>
+
+
+
 <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
 
  
 

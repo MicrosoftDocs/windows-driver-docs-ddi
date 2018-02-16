@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_SPB_UART_RESOURCE
-title: _PEP_ACPI_SPB_UART_RESOURCE
+title: "_PEP_ACPI_SPB_UART_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_SPB_UART_RESOURCE structure describes an ACPI UART serial bus resource.
 old-location: kernel\pep_acpi_spb_uart_resource.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: 5, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE, _PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE, 3, pepfx/PEP_ACPI_SPB_UART_RESOURCE, 0, 1, 7, 2, 6, kernel.pep_acpi_spb_uart_resource, 4, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture]
+ms.keywords: "*PPEP_ACPI_SPB_UART_RESOURCE, _PEP_ACPI_SPB_UART_RESOURCE, 6, 5, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], 0, PPEP_ACPI_SPB_UART_RESOURCE, kernel.pep_acpi_spb_uart_resource, 1, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], 7, 4, pepfx/PEP_ACPI_SPB_UART_RESOURCE, 3, 2, PEP_ACPI_SPB_UART_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_SPB_UART_RESOURCE
 product: Windows
 targetos: Windows
@@ -95,6 +95,7 @@ The maximum transmit buffer size, in bytes, that is supported by this connection
 ### -field Parity
 
 Indicates the parity of the connection.
+
 <table>
 <tr>
 <th>Value</th>
@@ -155,12 +156,14 @@ Space
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field LinesInUse
 
 Flag indicating the serial lines that are enabled. A value of 1 in the bit positions indicates that the line is enabled.
+
 <table>
 <tr>
 <th>Bit</th>
@@ -246,12 +249,15 @@ Request to Send (RTS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
+
+
 
  
 

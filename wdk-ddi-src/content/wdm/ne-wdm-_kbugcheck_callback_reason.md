@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KBUGCHECK_CALLBACK_REASON
-title: _KBUGCHECK_CALLBACK_REASON
+title: "_KBUGCHECK_CALLBACK_REASON"
 author: windows-driver-content
 description: The KBUGCHECK_CALLBACK_REASON enumeration type specifies the situations in which a bug-check callback executes.
 old-location: kernel\kbugcheck_callback_reason.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08246843-9b6e-4694-8475-acb02fbdd82b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KbCallbackDumpIo, KbCallbackInvalid, KbCallbackReserved1, kernel.kbugcheck_callback_reason, wdm/KbCallbackSecondaryDumpData, wdm/KbCallbackInvalid, wdm/KbCallbackAddPages, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, KbCallbackSecondaryDumpData, wdm/KbCallbackReserved1, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], wdm/KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackDumpIo, KbCallbackAddPages, _KBUGCHECK_CALLBACK_REASON
+ms.keywords: wdm/KbCallbackReserved1, KbCallbackSecondaryDumpData, wdm/KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON, KbCallbackAddPages, KbCallbackReserved1, wdm/KbCallbackDumpIo, kernel.kbugcheck_callback_reason, wdm/KbCallbackInvalid, wdm/KbCallbackSecondaryDumpData, KbCallbackDumpIo, wdm/KbCallbackAddPages, KbCallbackInvalid, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], _KBUGCHECK_CALLBACK_REASON, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KBUGCHECK_CALLBACK_REASON
 product: Windows
 targetos: Windows
@@ -100,7 +100,6 @@ Specifies that the callback is executed to provide one or more pages of data tha
 ### -field KbCallbackSecondaryMultiPartDumpData
 
 
-
 ### -field KbCallbackRemovePages
 
 
@@ -108,15 +107,25 @@ Specifies that the callback is executed to provide one or more pages of data tha
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
+
+
+<a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>
+
+
+
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+
+
 
  
 

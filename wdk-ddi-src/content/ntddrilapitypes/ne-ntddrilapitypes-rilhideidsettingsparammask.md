@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3ac34302-f56f-424d-b627-f977c4aabfba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_HIDS_STATUS, RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_HIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_PROVISIONING, netvista.rilhideidsettingsparammask, ntddrilapitypes/RIL_PARAM_HIDS_STATUS, ntddrilapitypes/RILHIDEIDSETTINGSPARAMMASK, RILHIDEIDSETTINGSPARAMMASK, RIL_PARAM_HIDS_ALL
+ms.keywords: ntddrilapitypes/RIL_PARAM_HIDS_STATUS, RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilhideidsettingsparammask, RIL_PARAM_HIDS_STATUS, ntddrilapitypes/RIL_PARAM_HIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_PROVISIONING, RILHIDEIDSETTINGSPARAMMASK, ntddrilapitypes/RILHIDEIDSETTINGSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILHIDEIDSETTINGSPARAMMASK
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILHIDEIDSETTINGSPARAMMASK {
 ### -field RIL_PARAM_HIDS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_HIDS_STATUS
-
 
 
 ### -field RIL_PARAM_HIDS_PROVISIONING
 
 
-
 ### -field RIL_PARAM_HIDS_ALL
-
 

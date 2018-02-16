@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5719dfa-e48a-4f81-8344-31b349fadb48
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerGetStatus function [Storage Devices], chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml, ChangerGetStatus, storage.changergetstatus, mcd/ChangerGetStatus
+ms.keywords: chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml, mcd/ChangerGetStatus, ChangerGetStatus, ChangerGetStatus function [Storage Devices], storage.changergetstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mcd.h
-apiname: 
+apiname:
 -	ChangerGetStatus
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ Pointer to the IRP.
 ## -returns
 
 
+
 <b>ChangerGetStatus</b> returns the STATUS_<i>XXX</i> value returned by the system port driver. If there is not enough memory to process the request or to process the STATUS_<i>XXX</i> value returned by the system port driver <b>ChangerGetStatus</b> returns STATUS_INSUFFICIENT_RESOURCES.
 
 
 
+
 ## -remarks
+
 
 
 This routine is required.
@@ -96,11 +99,16 @@ This routine is required.
 
 
 
+
 ## -see-also
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
 
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
 
  
 

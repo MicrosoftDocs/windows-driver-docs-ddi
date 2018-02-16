@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 973549c3-c570-48ab-9a82-9398c920dbd9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoDeleteDevice, IoDeleteDevice, IoDeleteDevice routine [Kernel-Mode Driver Architecture], k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml, kernel.iodeletedevice
+ms.keywords: IoDeleteDevice routine [Kernel-Mode Driver Architecture], kernel.iodeletedevice, wdm/IoDeleteDevice, k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml, IoDeleteDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoDeleteDevice
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the device object to be deleted.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 When handling a PnP <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a> request, a PnP driver calls <b>IoDeleteDevice</b> to delete any associated device objects. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff546687">Handling an IRP_MN_REMOVE_DEVICE Request</a> for details.
@@ -95,11 +98,16 @@ When a driver calls <b>IoDeleteDevice</b>, the I/O manager deletes the target de
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
 
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
 
  
 

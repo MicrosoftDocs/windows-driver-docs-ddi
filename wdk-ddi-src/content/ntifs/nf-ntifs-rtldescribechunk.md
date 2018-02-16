@@ -7,8 +7,8 @@ old-location: ifsk\rtldescribechunk.htm
 old-project: ifsk
 ms.assetid: a59899e7-baa0-476b-b65e-1d464a14b811
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RtlDescribeChunk function [Installable File System Drivers], RtlDescribeChunk, ifsk.rtldescribechunk, ntifs/RtlDescribeChunk, rtlref_03ffe48d-5d72-4f8b-ac88-e79909151d2f.xml
+ms.date: 2/7/2018
+ms.keywords: rtlref_03ffe48d-5d72-4f8b-ac88-e79909151d2f.xml, RtlDescribeChunk function [Installable File System Drivers], ntifs/RtlDescribeChunk, RtlDescribeChunk, ifsk.rtldescribechunk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	RtlDescribeChunk
 product: Windows
 targetos: Windows

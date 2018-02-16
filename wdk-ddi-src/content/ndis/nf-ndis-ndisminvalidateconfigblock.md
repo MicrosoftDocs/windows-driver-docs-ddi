@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 26D07A41-C431-41F1-9F5E-880B48CC2F0B
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock, NdisMInvalidateConfigBlock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisMInvalidateConfigBlock, ndis/NdisMInvalidateConfigBlock, netvista.ndisminvalidateconfigblock, NdisMInvalidateConfigBlock function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMInvalidateConfigBlock
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMInvalidateConfigBlock function
@@ -92,17 +92,24 @@ A ULONGLONG value that specifies a bitmask for the first 64 VF configuration blo
 
 
 
+
      None.
+
 
 
 
 ## -remarks
 
 
+
 A VF configuration block is used for backchannel communication between the PF and VF miniport drivers. The IHV can define one or more VF configuration blocks for the device. Each VF configuration block has an IHV-defined format, length,  and block ID.
+
 <div class="alert"><b>Note</b>  Data from each VF configuration block is  used only by the PF and VF miniport drivers.
 
-</div><div> </div>VF configuration data is exchanged between the following drivers:
+</div>
+<div> </div>
+VF configuration data is exchanged between the following drivers:
+
 <ul>
 <li>
 The VF driver, which runs in the guest operating system. This operating system runs within a Hyper-V child partition.
@@ -116,7 +123,9 @@ The PF driver, which runs in the management operating system.
 This operating system runs within the Hyper-V parent partition.
 
 </li>
-</ul>In order to handle notifications of invalid VF configuration data, NDIS and the miniport drivers perform the following steps:
+</ul>
+In order to handle notifications of invalid VF configuration data, NDIS and the miniport drivers perform the following steps:
+
 <ol>
 <li>
 In the guest operating system, NDIS issues an I/O control request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. When this IOCTL is completed, NDIS is notified that VF configuration data has changed.
@@ -159,23 +168,35 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 
 </li>
-</ol>For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="https://msdn.microsoft.com/66D40452-1286-449E-BD6B-AFAD466E03A1">SR-IOV PF/VF Backchannel Communication</a>.
+</ol>
+For more information about backchannel communication within the single root I/O virtualization (SR-IOV) interface, see <a href="https://msdn.microsoft.com/66D40452-1286-449E-BD6B-AFAD466E03A1">SR-IOV PF/VF Backchannel Communication</a>.
 
 For more information about the SR-IOV interface, see 	<a href="https://msdn.microsoft.com/B241F468-F568-4500-9356-E576CEBA8F3B">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
 
 
+
 ## -see-also
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
-
-<a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
 
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
+
+
+
+<a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a>
+
+
+
 <b></b>
+
+
 
  
 

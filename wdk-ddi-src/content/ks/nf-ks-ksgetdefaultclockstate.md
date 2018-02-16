@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b579fd85-5073-4894-a4ef-e56638f45ef6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_9b1067e9-8d12-42a5-969e-0ec6205f12e2.xml, KsGetDefaultClockState function [Streaming Media Devices], KsGetDefaultClockState, ks/KsGetDefaultClockState, stream.ksgetdefaultclockstate
+ms.keywords: ks/KsGetDefaultClockState, ksfunc_9b1067e9-8d12-42a5-969e-0ec6205f12e2.xml, stream.ksgetdefaultclockstate, KsGetDefaultClockState, KsGetDefaultClockState function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetDefaultClockState
 product: Windows
 targetos: Windows
@@ -78,13 +78,17 @@ Specifies an initialized, default clock structure that is shared among any insta
 ## -returns
 
 
+
 The <b>KsGetDefaultClockState</b> function returns the current clock state.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-kssetdefaultclockstate.md">KsSetDefaultClockState</a>
+
+
 
  
 

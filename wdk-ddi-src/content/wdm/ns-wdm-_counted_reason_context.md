@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._COUNTED_REASON_CONTEXT
-title: _COUNTED_REASON_CONTEXT
+title: "_COUNTED_REASON_CONTEXT"
 author: windows-driver-content
 description: The COUNTED_REASON_CONTEXT structure contains one or more strings that give reasons for a power request.
 old-location: kernel\counted_reason_context.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: beb17d50-d99a-4baf-99bd-9f42fbea0478
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: COUNTED_REASON_CONTEXT structure [Kernel-Mode Driver Architecture], _COUNTED_REASON_CONTEXT, PCOUNTED_REASON_CONTEXT, wdm/PCOUNTED_REASON_CONTEXT, wdm/COUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT, PCOUNTED_REASON_CONTEXT structure pointer [Kernel-Mode Driver Architecture], kstruct_a_52baf683-dfd2-4004-abed-e9ae6221c342.xml, *PCOUNTED_REASON_CONTEXT, kernel.counted_reason_context
+ms.keywords: COUNTED_REASON_CONTEXT, *PCOUNTED_REASON_CONTEXT, PCOUNTED_REASON_CONTEXT, PCOUNTED_REASON_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _COUNTED_REASON_CONTEXT, wdm/PCOUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT structure [Kernel-Mode Driver Architecture], kernel.counted_reason_context, kstruct_a_52baf683-dfd2-4004-abed-e9ae6221c342.xml, wdm/COUNTED_REASON_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	COUNTED_REASON_CONTEXT
 product: Windows
 targetos: Windows
@@ -78,6 +78,28 @@ typedef struct _COUNTED_REASON_CONTEXT {
 
 
 
+### -field Version
+
+The version number of the structure. Set this member to DIAGNOSTIC_REASON_VERSION.
+
+
+### -field Flags
+
+Indicates whether the structure contains a simple reason string or a detailed set of reason strings. Set this member to one of the following constants:
+
+<ul>
+<li>
+DIAGNOSTIC_REASON_SIMPLE_STRING
+
+</li>
+<li>
+DIAGNOSTIC_REASON_DETAILED_STRING
+
+</li>
+</ul>
+If <b>Flags</b> = DIAGNOSTIC_REASON_SIMPLE_STRING, the <b>SimpleString</b> member of the union is valid. If <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING, the <b>ResourceFileName</b>, <b>ResourceReasonId</b>, <b>StringCount</b>, and <b>ReasonStrings</b> members are valid (and the <b>SimpleString</b> member is not valid).
+
+
 ### -field DUMMYUNIONNAME
 
  
@@ -90,75 +112,31 @@ typedef struct _COUNTED_REASON_CONTEXT {
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ResourceFileName
 
- 
+A pointer to a wide-character, null-terminated string that contains the pathname of a resource file. This resource file contains one or more localized strings that give reasons for a power request. This member is optional and can be specified as <b>NULL</b> or as an empty string if no resource file is required. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ResourceReasonId
 
- 
+The resource ID assigned to the first reason string in the resource file that is specified by <b>ResourceFileName</b>. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.StringCount
 
- 
+The number of reason strings in the <b>ReasonStrings</b> array or in the resource file that is specified by <b>ResourceFileName</b>. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReasonStrings
 
- 
+A pointer to an array of string pointers. Each array element is a pointer to a wide-character, null-terminated string. The number of array elements is specified by <b>StringCount</b>. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
 
 
 ### -field DUMMYUNIONNAME.SimpleString
 
- 
-
-
-### -field Version
-
-The version number of the structure. Set this member to DIAGNOSTIC_REASON_VERSION.
-
-
-### -field Flags
-
-Indicates whether the structure contains a simple reason string or a detailed set of reason strings. Set this member to one of the following constants:
-<ul>
-<li>
-DIAGNOSTIC_REASON_SIMPLE_STRING
-
-</li>
-<li>
-DIAGNOSTIC_REASON_DETAILED_STRING
-
-</li>
-</ul>If <b>Flags</b> = DIAGNOSTIC_REASON_SIMPLE_STRING, the <b>SimpleString</b> member of the union is valid. If <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING, the <b>ResourceFileName</b>, <b>ResourceReasonId</b>, <b>StringCount</b>, and <b>ReasonStrings</b> members are valid (and the <b>SimpleString</b> member is not valid).
-
-
-#### - SimpleString
-
 A pointer to a wide-character, null-terminated string that explains the reason for a power request. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_SIMPLE_STRING. 
 
 
-#### - StringCount
-
-The number of reason strings in the <b>ReasonStrings</b> array or in the resource file that is specified by <b>ResourceFileName</b>. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
-
-
-#### - ReasonStrings
-
-A pointer to an array of string pointers. Each array element is a pointer to a wide-character, null-terminated string. The number of array elements is specified by <b>StringCount</b>. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
-
-
-#### - ResourceReasonId
-
-The resource ID assigned to the first reason string in the resource file that is specified by <b>ResourceFileName</b>. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
-
-
-#### - ResourceFileName
-
-A pointer to a wide-character, null-terminated string that contains the pathname of a resource file. This resource file contains one or more localized strings that give reasons for a power request. This member is optional and can be specified as <b>NULL</b> or as an empty string if no resource file is required. This member is valid only if <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING. 
-
-
 ## -remarks
+
 
 
 This structure is used by the <a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a> routine.
@@ -171,9 +149,12 @@ The DIAGNOSTIC_REASON_DETAILED_STRING flag supports localization. If the localiz
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
+
+
 
  
 

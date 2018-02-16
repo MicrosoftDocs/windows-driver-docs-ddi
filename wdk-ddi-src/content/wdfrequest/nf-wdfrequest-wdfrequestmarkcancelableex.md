@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5513804b-f785-4617-81b6-1cecc72d6051
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFRequestObjectRef_6601e5df-d8a6-42b5-9e71-a46918a6bc1f.xml, PFN_WDFREQUESTMARKCANCELABLEEX, kmdf.wdfrequestmarkcancelableex, WdfRequestMarkCancelableEx, wdf.wdfrequestmarkcancelableex, wdfrequest/WdfRequestMarkCancelableEx, WdfRequestMarkCancelableEx method
+ms.keywords: kmdf.wdfrequestmarkcancelableex, PFN_WDFREQUESTMARKCANCELABLEEX, wdf.wdfrequestmarkcancelableex, DFRequestObjectRef_6601e5df-d8a6-42b5-9e71-a46918a6bc1f.xml, WdfRequestMarkCancelableEx method, wdfrequest/WdfRequestMarkCancelableEx, WdfRequestMarkCancelableEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestMarkCancelableEx
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ A pointer to a driver-defined <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_reque
 ## -returns
 
 
+
 <b>WdfRequestMarkCancelableEx</b> returns STATUS_SUCCESS if it successfully enables cancellation of the specified I/O request. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,7 +125,8 @@ The I/O request is already cancelable.
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -131,7 +134,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 After your driver has <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/receiving-i-o-requests">received an I/O request</a> from the framework, the driver can call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a> or, starting with  KMDF version 1.9, <b>WdfRequestMarkCancelableEx</b> to make the request cancelable. For info on choosing between the two methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a>.
@@ -139,6 +144,7 @@ After your driver has <a href="https://docs.microsoft.com/en-us/windows-hardware
 When calling <b>WdfRequestMarkCancelableEx</b>, your driver must specify an <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> callback function. The framework calls the callback function if the I/O manager or another driver is attempting to cancel the I/O request.
 
 If <b>WdfRequestMarkCancelableEx</b> returns failure, the driver must perform the same cancellation activities that the <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> callback function performs.  For example:
+
 <ol>
 <li>
 Finish or stop processing the request, along with subrequests that it might have created.
@@ -148,14 +154,18 @@ Finish or stop processing the request, along with subrequests that it might have
 Call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>, specifying a status value of STATUS_CANCELLED.
 
 </li>
-</ol> See the code examples below for implementation.
+</ol>
+ See the code examples below for implementation.
 
 Because <b>WdfRequestMarkCancelableEx</b> never calls <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>, this method is safe from the deadlock risk described in the Remarks of <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>.
-<h3><a id="Processing_a_request_after_enabling_cancellation"></a><a id="processing_a_request_after_enabling_cancellation"></a><a id="PROCESSING_A_REQUEST_AFTER_ENABLING_CANCELLATION"></a>Processing a request after enabling cancellation</h3>After a driver calls <b>WdfRequestMarkCancelableEx</b> to enable canceling, the request remains cancelable while the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">owns</a> the request object, unless the driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>. 
+
+<h3><a id="Processing_a_request_after_enabling_cancellation"></a><a id="processing_a_request_after_enabling_cancellation"></a><a id="PROCESSING_A_REQUEST_AFTER_ENABLING_CANCELLATION"></a>Processing a request after enabling cancellation</h3>
+After a driver calls <b>WdfRequestMarkCancelableEx</b> to enable canceling, the request remains cancelable while the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">owns</a> the request object, unless the driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>. 
 
 If a driver has called <b>WdfRequestMarkCancelableEx</b>, and if the driver's <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> callback function has not executed and called <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>, the driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a> before it calls <b>WdfRequestComplete</b> outside of the <i>EvtRequestCancel</i> callback function.
 
 If the driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a> to forward the request to a different queue, the following rules apply:
+
 <ul>
 <li>
 I/O requests cannot be cancelable when your driver forwards them to a different queue. 
@@ -173,7 +183,137 @@ If the driver requires cancellation notification (so that it can deallocate any 
 After the framework has dequeued the request from the second queue and delivered it to the driver, the driver can call <b>WdfRequestMarkCancelableEx</b> to enable canceling.
 
 </li>
-</ul>For more information about <b>WdfRequestMarkCancelableEx</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
+</ul>
+For more information about <b>WdfRequestMarkCancelableEx</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
+
+
+#### Examples
+
+The following code examples show parts of two callback functions: 
+
+<ul>
+<li>
+An <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a> callback function that performs request-specific work (such as creating subrequests to send to an I/O target), then enables cancellation of the received I/O request.
+
+</li>
+<li>
+An <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a> callback function that cancels an I/O request.
+
+</li>
+</ul>
+In the first example, the driver is using the framework's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-automatic-synchronization">automatic synchronization</a>. In the second example, the driver is providing its own synchronization by using spinlocks.
+
+<b>Example 1: A driver that uses automatic synchronization.</b>
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtIoRead(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  Length
+    )
+{
+...
+    NTSTATUS status;
+...
+    // Perform request-specific work here
+    // (such as creating subrequests 
+    // to send to an I/O target). 
+...
+    status = WdfRequestMarkCancelableEx(
+                                        Request,
+                                        MyEvtRequestCancel
+                                        );
+
+    if (!NT_SUCCESS(status)) {
+       // Remove request-specific work here, because
+       // we don't want the work to be done if the
+       // request was canceled or an error occurred.
+
+        WdfRequestComplete (Request, status);
+    }
+...
+}
+
+VOID
+MyEvtRequestCancel(
+    IN WDFREQUEST  Request
+ )
+{
+    // Remove request-specific work here, because
+    // we don't want the work to be done if the
+    // request was canceled.
+
+    WdfRequestComplete(
+                       Request,
+                       STATUS_CANCELLED
+                       );
+}</pre>
+</td>
+</tr>
+</table></span></div>
+<b>Example 2: A driver that uses its own synchronization.</b>
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+MyEvtIoRead(
+    IN WDFQUEUE  Queue,
+    IN WDFREQUEST  Request,
+    IN size_t  Length
+    )
+{
+...
+    NTSTATUS status;
+...
+    WdfSpinlockAcquire(MyCancelSpinLock);
+    // Perform request-specific work here
+    // (such as creating subrequests 
+    // to send to an I/O target). 
+...
+    status = WdfRequestMarkCancelableEx(
+                                        Request,
+                                        MyEvtRequestCancel
+                                        );
+
+    if (!NT_SUCCESS(status)) {
+        // Remove request-specific work here, because
+        // we don't want the work to be done if the
+        // request was canceled or an error occurred.
+     }
+    WdfSpinlockRelease(MyCancelSpinLock);
+    if (!NT_SUCCESS(status)) {
+        WdfRequestComplete (
+                            Request,
+                            Status
+                            );
+    }
+...
+}
+VOID
+MyEvtRequestCancel(
+    IN WDFREQUEST  Request
+ )
+{
+    WdfSpinlockAcquire(MyCancelSpinLock);
+    // Remove request-specific work here, because
+    // we don't want the work to be done if the
+    // request was canceled.
+    WdfSpinlockRelease(MyCancelSpinLock);
+    WdfRequestComplete (Request, STATUS_CANCELLED);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -181,13 +321,23 @@ After the framework has dequeued the request from the second queue and delivered
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
 
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestforwardtoioqueue.md">WdfRequestForwardToIoQueue</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
+
+
+
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
+
+
 
  
 

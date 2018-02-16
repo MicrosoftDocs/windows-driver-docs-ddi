@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_RemoveTarget_IN
-title: _SM_RemoveTarget_IN
+title: "_SM_RemoveTarget_IN"
 author: windows-driver-content
 description: The SM_RemoveTarget_IN structure is used to provide input parameters to the SM_RemoveTarget WMI method.
 old-location: storage\sm_removetarget_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a32e2442-a6a8-4c1a-ab70-40fdb525bafb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/SM_RemoveTarget_IN, SM_RemoveTarget_IN, hbapiwmi/PSM_RemoveTarget_IN, _SM_RemoveTarget_IN, PSM_RemoveTarget_IN structure pointer [Storage Devices], storage.sm_removetarget_in, structs-Fibre_6efe773b-e240-40d4-bcf6-c6d141061ac3.xml, SM_RemoveTarget_IN structure [Storage Devices], *PSM_RemoveTarget_IN, PSM_RemoveTarget_IN
+ms.keywords: "_SM_RemoveTarget_IN, storage.sm_removetarget_in, PSM_RemoveTarget_IN, SM_RemoveTarget_IN structure [Storage Devices], hbapiwmi/SM_RemoveTarget_IN, PSM_RemoveTarget_IN structure pointer [Storage Devices], SM_RemoveTarget_IN, *PSM_RemoveTarget_IN, hbapiwmi/PSM_RemoveTarget_IN, structs-Fibre_6efe773b-e240-40d4-bcf6-c6d141061ac3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_RemoveTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: *PSM_RemoveTarget_IN, SM_RemoveTarget_IN
+req.typenames: "*PSM_RemoveTarget_IN, SM_RemoveTarget_IN"
 ---
 
 # _SM_RemoveTarget_IN structure
@@ -93,6 +93,8 @@ The scope of the target events that stop reporting. If this member is zero, the 
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_RemoveTarget_IN structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_EventControl WMI class.
+
 
 

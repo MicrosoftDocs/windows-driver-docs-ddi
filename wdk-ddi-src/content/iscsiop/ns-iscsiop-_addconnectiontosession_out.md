@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddConnectionToSession_OUT
-title: _AddConnectionToSession_OUT
+title: "_AddConnectionToSession_OUT"
 author: windows-driver-content
 description: The AddConnectionToSession_OUT structure holds output data for the AddConnectionToSession method.
 old-location: storage\addconnectiontosession_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c7df21b-c7cd-4492-b457-6c2e82286961
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml, PAddConnectionToSession_OUT structure pointer [Storage Devices], storage.addconnectiontosession_out, iscsiop/PAddConnectionToSession_OUT, *PAddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], _AddConnectionToSession_OUT, PAddConnectionToSession_OUT, AddConnectionToSession_OUT
+ms.keywords: iscsiop/PAddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT, PAddConnectionToSession_OUT structure pointer [Storage Devices], AddConnectionToSession_OUT, *PAddConnectionToSession_OUT, storage.addconnectiontosession_out, structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml, _AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], PAddConnectionToSession_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	AddConnectionToSession_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PAddConnectionToSession_OUT, AddConnectionToSession_OUT
+req.typenames: "*PAddConnectionToSession_OUT, AddConnectionToSession_OUT"
 ---
 
 # _AddConnectionToSession_OUT structure
@@ -81,19 +81,29 @@ A 64-bit integer that uniquely identifies the connection across the entire netwo
 ## -remarks
 
 
+
 The iSCSI service requires this method. It is optional that you implement this method.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
+
+
 <a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_in.md">AddConnectionToSession_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
+
 
  
 

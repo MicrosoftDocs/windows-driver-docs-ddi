@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7244a63b-404f-45e0-b2f7-6c4ea70e4a21
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture], kernel.iofreeerrorlogentry, IoFreeErrorLogEntry, wdm/IoFreeErrorLogEntry
+ms.keywords: kernel.iofreeerrorlogentry, wdm/IoFreeErrorLogEntry, k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, IoFreeErrorLogEntry, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoFreeErrorLogEntry
 product: Windows
 targetos: Windows
@@ -76,14 +76,18 @@ Pointer to an error log packet allocated by <a href="..\wdm\nf-wdm-ioallocateerr
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Drivers use <b>IoFreeErrorLogEntry</b> to free an error log entry allocated by <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>. <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> also frees any error log entries passed to it, so drivers must not call both on the same log entry.
+
 
 
 
@@ -91,9 +95,15 @@ Drivers use <b>IoFreeErrorLogEntry</b> to free an error log entry allocated by <
 
 <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
 
 <a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
+
 
  
 

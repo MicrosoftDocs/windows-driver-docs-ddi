@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1baa8d01-b889-4f2b-ad9e-f35078f7b3d8
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortReadRegisterUchar routine [Storage Devices], storage.ataportreadregisteruchar, irb/AtaPortReadRegisterUchar, atartns_63ee26b2-b436-4dc6-a3aa-5a13691e85dd.xml, AtaPortReadRegisterUchar
+ms.keywords: irb/AtaPortReadRegisterUchar, AtaPortReadRegisterUchar routine [Storage Devices], AtaPortReadRegisterUchar, storage.ataportreadregisteruchar, atartns_63ee26b2-b436-4dc6-a3aa-5a13691e85dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortReadRegisterUchar
 product: Windows
 targetos: Windows
@@ -78,17 +78,25 @@ A pointer to the register to read. The address value that is assigned to this pa
 ## -returns
 
 
+
 <b>AtaPortReadRegisterUchar</b> returns a UCHAR value from the HBA's register. 
+
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadregisterulong.md">AtaPortReadRegisterUlong</a>
-
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
+
+
+<a href="..\irb\nf-irb-ataportreadregisterulong.md">AtaPortReadRegisterUlong</a>
+
+
+
 <a href="..\irb\nf-irb-ataportreadregisterushort.md">AtaPortReadRegisterUshort</a>
+
+
 
  
 

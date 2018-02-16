@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9ac85fe9-bc44-4a70-9619-bb13e878bb49
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface, ConvertToBmp method [Imaging Devices], ConvertToBmp, image.cwiauformatconverter_converttobmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, CWiauFormatConverter, wiautil/CWiauFormatConverter::ConvertToBmp, CWiauFormatConverter::ConvertToBmp, CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method
+ms.keywords: ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface, CWiauFormatConverter::ConvertToBmp, wiautil/CWiauFormatConverter::ConvertToBmp, image.cwiauformatconverter_converttobmp, ConvertToBmp, CWiauFormatConverter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauFormatConverter.ConvertToBmp
 product: Windows
 targetos: Windows
@@ -105,6 +105,7 @@ Pointer to a <a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</
 
 
 
+
 #### - iSkipAmt = SKIP_OFF
 
 <i>Optional</i>. Specifies the amount of the BMP header to skip. The default value of this parameter denotes that none of the BMP header is skipped.
@@ -113,26 +114,38 @@ Pointer to a <a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 
 
 ## -remarks
 
 
+
 The caller of this method can pass a result buffer in <i>ppDest</i> and the size in <i>piDestSize</i>. Alternatively, the caller can set *<i>ppDest</i> to <b>NULL</b> and *<i>piDestSize</i> to zero in the call to indicate that this method should allocate the memory. The caller is responsible for freeing the memory using the <b>delete []</b> operator.
+
 
 
 
 ## -see-also
 
+<a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a>
+
+
+
 <a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540379">CWiauFormatConverter::IsFormatSupported</a>
+
+
 
 <a href="..\wiautil\ne-wiautil-skip_amount.md">SKIP_AMOUNT</a>
 
-<a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540379">CWiauFormatConverter::IsFormatSupported</a>
 
  
 

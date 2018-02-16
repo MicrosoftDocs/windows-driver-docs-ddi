@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e2dc6a60-b3a6-4b2a-8a6c-aa513ca9b87b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilimsi, RILIMSI, rilapitypes/RILIMSI, *LPRILIMSI, RILIMSI structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILIMSI, netvista.rilimsi, rilapitypes/RILIMSI, RILIMSI structure [Network Drivers Starting with Windows Vista], RILIMSI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILIMSI
 product: Windows
 targetos: Windows
-req.typenames: *LPRILIMSI, RILIMSI
+req.typenames: RILIMSI, *LPRILIMSI
 req.product: Windows 10 or later.
 ---
 
@@ -102,15 +102,19 @@ The mobile network code from the IMSI.
 ## -remarks
 
 
+
 The RIL driver is responsible for determining whether the MNC comprises two or three digits and extracting it accordingly. (For 3GPP, the number of digits in the MNC is specified by the fourth byte of EFAD as specified in 3GPP TS 31.102 section 4.2.18.)
 
 For 3GPP2, the IMSI_T is returned if it is programmed; otherwise, the IMSI_M is returned. For the IMSI_T, dwMcc contains the MCC_Tp and dwMnc contains IMSI_T_11_12p. For the IMSI_M, dwMcc contains the MCC_Mp and dwMnc is not defined (that is, the RIL_PARAM_IMSI_MNC bit in dwParams is 0).
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

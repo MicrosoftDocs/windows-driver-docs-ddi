@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: db7980c1-3da6-408e-a3a4-509bc9c0ef2e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml
+ms.keywords: KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx, k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL (see Remarks section).
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)."
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeSetSystemAffinityThreadEx
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINI
 ## -returns
 
 
+
 <b>KeSetSystemAffinityThreadEx</b> returns either the previous system affinity of the current thread, or zero to indicate that there was no previous system affinity.
 
 
 
+
 ## -remarks
+
 
 
 <b>KeSetSystemAffinityThreadEx</b> changes the affinity mask of the current thread. The affinity mask identifies a set of processors on which the thread can run. If successful, the routine schedules the thread to run on a processor in this set.
@@ -94,6 +97,7 @@ The term <i>user affinity</i> refers to the original affinity of the user-mode t
 Additionally, a kernel-mode driver routine that requires a particular affinity mask might call another kernel-mode routine that requires a different affinity mask. Each routine can call <b>KeSetSystemAffinityThreadEx</b> to set a new affinity mask and then call <b>KeRevertToUserAffinityThreadEx</b> to restore the previous affinity mask before returning.
 
 The <b>KeSetSystemAffinityThreadEx</b> routine changes the affinity mask of the current thread to the <i>Affinity</i> value only if both of the following are true:
+
 <ul>
 <li>
 The <i>Affinity</i> value is valid (that is, only mask bits that correspond to logical processors are set).
@@ -103,7 +107,8 @@ The <i>Affinity</i> value is valid (that is, only mask bits that correspond to l
 At least one of the processors that is specified in the <i>Affinity</i> value is active.
 
 </li>
-</ul>If either of these conditions is not met, the call to <b>KeSetSystemAffinityThreadEx</b> has no effect.
+</ul>
+If either of these conditions is not met, the call to <b>KeSetSystemAffinityThreadEx</b> has no effect.
 
 Windows 7 and later versions of Windows support processor groups. Drivers that are designed to handle information about processor groups should use the <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a> routine, which specifies a processor group, instead of <b>KeSetSystemAffinityThreadEx</b>, which does not. However, the implementation of <b>KeSetSystemAffinityThreadEx</b> in Windows 7 and later versions of Windows provides compatibility for drivers that were written for earlier versions of Windows, which do not support processor groups. In this implementation, <b>KeSetSystemAffinityThreadEx</b> assigns the thread to group 0, and uses the affinity mask to specify a set of logical processors in this group on which the thread can run. The routine returns the previous group-relative affinity mask, but not the previous group.
 
@@ -111,15 +116,24 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
+
+
 
 <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
 <a href="..\wdm\nf-wdm-kesetsystemaffinitythread.md">KeSetSystemAffinityThread</a>
 
-<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
+
 
  
 

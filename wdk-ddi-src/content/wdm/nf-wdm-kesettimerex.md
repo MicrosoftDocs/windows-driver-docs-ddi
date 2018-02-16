@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a2a092d-f9b5-42a2-9be4-bc934a9304fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, KeSetTimerEx, KeSetTimerEx routine [Kernel-Mode Driver Architecture], wdm/KeSetTimerEx, kernel.kesettimerex
+ms.keywords: k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, KeSetTimerEx routine [Kernel-Mode Driver Architecture], KeSetTimerEx, kernel.kesettimerex, wdm/KeSetTimerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeSetTimerEx
 product: Windows
 targetos: Windows
@@ -94,14 +94,18 @@ Pointer to a DPC object that was initialized by <a href="..\wdm\nf-wdm-keinitial
 ## -returns
 
 
+
 If the timer object was already in the system timer queue, <b>KeSetTimerEx</b> returns <b>TRUE</b>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>KeSetTimerEx</b> routine does the following:
+
 <ul>
 <li>
 Computes the expiration time.
@@ -119,7 +123,8 @@ Sets the recurring interval for the timer, if one was specified.
 Inserts the timer object in the system timer queue.
 
 </li>
-</ul>If the timer object was already in the timer queue, it is implicitly canceled before being set to the new expiration time. A call to <b>KeSetTimerEx</b> before the previously specified <i>DueTime</i> has expired cancels both the timer and the call to the <i>Dpc</i>, if any, associated with the previous call.
+</ul>
+If the timer object was already in the timer queue, it is implicitly canceled before being set to the new expiration time. A call to <b>KeSetTimerEx</b> before the previously specified <i>DueTime</i> has expired cancels both the timer and the call to the <i>Dpc</i>, if any, associated with the previous call.
 
 Expiration times are measured relative to the system clock, and the accuracy with which the operating system can detect when a timer expires is limited by the granularity of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
 
@@ -137,21 +142,36 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
 
  
 

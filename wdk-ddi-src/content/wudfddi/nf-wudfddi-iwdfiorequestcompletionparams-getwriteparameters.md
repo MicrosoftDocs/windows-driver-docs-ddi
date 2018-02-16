@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequestcompletionparams_getwriteparameters, IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, GetWriteParameters method, IWDFIoRequestCompletionParams interface, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, IWDFIoRequestCompletionParams, GetWriteParameters, IWDFIoRequestCompletionParams interface, GetWriteParameters method, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, umdf.iwdfiorequestcompletionparams_getwriteparameters
+ms.keywords: umdf.iwdfiorequestcompletionparams_getwriteparameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters, GetWriteParameters method, GetWriteParameters method, IWDFIoRequestCompletionParams interface, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, IWDFIoRequestCompletionParams interface, GetWriteParameters method, IWDFIoRequestCompletionParams::GetWriteParameters, IWDFIoRequestCompletionParams, wdf.iwdfiorequestcompletionparams_getwriteparameters, GetWriteParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequestCompletionParams.GetWriteParameters
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -96,15 +96,21 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md">IWDFIoRequestCompletionParams</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
 
  
 

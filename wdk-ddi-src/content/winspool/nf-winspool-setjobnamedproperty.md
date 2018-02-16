@@ -2,12 +2,12 @@
 UID: NF:winspool.SetJobNamedProperty
 title: SetJobNamedProperty function
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\setjobnamedproperty.htm
 old-project: print
 ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: SetJobNamedProperty, winspool/SetJobNamedProperty, SetJobNamedProperty function [Print Devices], print.setjobnamedproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winspool.h
-apiname: 
+apiname:
 -	SetJobNamedProperty
 product: Windows
 targetos: Windows
@@ -73,12 +73,10 @@ DWORD WINAPI SetJobNamedProperty(
 ### -param hPrinter [in]
 
 
-
 ### -param JobId [in]
 
 TD
 
 
 ### -param pProperty [in]
-
 

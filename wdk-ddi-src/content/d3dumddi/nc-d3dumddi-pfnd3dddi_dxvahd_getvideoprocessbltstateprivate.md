@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	GetVideoProcessBltStatePrivate
 product: Windows
 targetos: Windows
@@ -74,7 +74,6 @@ __checkReturn HRESULT APIENTRY GetVideoProcessBltStatePrivate(
 ### -param HANDLE
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ __checkReturn HRESULT APIENTRY GetVideoProcessBltStatePrivate(
 
 
 
-#### - pData [in, out]
-
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a> structure that describes the private bitblt state data to retrieve. 
 
 
 #### - hDevice [in]
@@ -92,10 +88,17 @@ __checkReturn HRESULT APIENTRY GetVideoProcessBltStatePrivate(
  A handle to the display device (graphics context).
 
 
+#### - pData [in, out]
+
+ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a> structure that describes the private bitblt state data to retrieve. 
+
+
 ## -returns
 
 
+
 The <i>GetVideoProcessBltStatePrivate</i> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +126,17 @@ The bitblt state data is successfully retrieved.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aeafa20c-e4be-4b6d-88b7-22b84ef4cedd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfmemory/WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method, PFN_WDFMEMORYCREATEFROMLOOKASIDE, wdf.wdfmemorycreatefromlookaside, kmdf.wdfmemorycreatefromlookaside, DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, WdfMemoryCreateFromLookaside
+ms.keywords: wdfmemory/WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method, wdf.wdfmemorycreatefromlookaside, PFN_WDFMEMORYCREATEFROMLOOKASIDE, DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, WdfMemoryCreateFromLookaside, kmdf.wdfmemorycreatefromlookaside
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfMemoryCreateFromLookaside
 product: Windows
 targetos: Windows
@@ -85,7 +85,9 @@ A pointer to a location that receives a handle to the new framework memory objec
 ## -returns
 
 
+
 <b>WdfMemoryCreateFromLookaside</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,7 +115,8 @@ There was insufficient memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -123,7 +126,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 After your driver calls <a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a> to create a lookaside-list object, the driver can call <b>WdfMemoryCreateFromLookaside</b> to obtain a buffer from the lookaside list. 
@@ -137,16 +142,57 @@ For more information about framework memory objects and lookaside lists, see <a 
 If lookaside-list buffers are being allocated from the pageable memory pool, the <b>WdfMemoryCreateFromLookaside</b> method must be called at IRQL &lt;= APC_LEVEL. Otherwise, the method can be called at IRQL &lt;= DISPATCH_LEVEL.
 
 
+#### Examples
+
+The following code example creates a lookaside list and stores the list's handle in driver-defined device object context space. Then, the driver obtains a buffer from the lookaside list.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PDRIVER_CONTEXT  driverContext;
+WDFMEMORY  memHandle;
+
+driverContext = GetDriverContext(driver);
+
+status = WdfLookasideListCreate(
+                                WDF_NO_OBJECT_ATTRIBUTES,
+                                sizeof(MY_LOOKASIDE_BUFFER),
+                                NonPagedPool,
+                                WDF_NO_OBJECT_ATTRIBUTES,
+                                MY_POOL_TAG,
+                                &amp;driverContext-&gt;LookasideListHandle
+                                );
+...
+status = WdfMemoryCreateFromLookaside(
+                                      driverContext-&gt;LookasideListHandle,
+                                      &amp;memHandle
+                                      );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>
+
+
+
 <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>
+
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
+
 
  
 

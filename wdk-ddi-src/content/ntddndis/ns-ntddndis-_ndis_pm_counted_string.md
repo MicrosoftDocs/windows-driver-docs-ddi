@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_COUNTED_STRING
-title: _NDIS_PM_COUNTED_STRING
+title: "_NDIS_PM_COUNTED_STRING"
 author: windows-driver-content
 description: The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is used in power management structures.
 old-location: netvista\ndis_pm_counted_string.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 070ee8e2-80ed-4380-89ac-bfb5db2bcf7e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING, ntddndis/NDIS_PM_COUNTED_STRING, miniport_power_management_ref_baaff596-1c2a-4cfc-865a-bb3f55988218.xml, _NDIS_PM_COUNTED_STRING, PNDIS_PM_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_COUNTED_STRING, *PNDIS_PM_COUNTED_STRING, netvista.ndis_pm_counted_string, NDIS_PM_COUNTED_STRING structure [Network Drivers Starting with Windows Vista]
+ms.keywords: miniport_power_management_ref_baaff596-1c2a-4cfc-865a-bb3f55988218.xml, _NDIS_PM_COUNTED_STRING, *PNDIS_PM_COUNTED_STRING, PNDIS_PM_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PM_COUNTED_STRING, PNDIS_PM_COUNTED_STRING, netvista.ndis_pm_counted_string, NDIS_PM_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_PM_COUNTED_STRING
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PM_COUNTED_STRING, *PNDIS_PM_COUNTED_STRING
+req.typenames: "*PNDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING"
 ---
 
 # _NDIS_PM_COUNTED_STRING structure
@@ -83,6 +83,7 @@ A WCHAR array that contains a NULL-terminated string that is limited to a maximu
 ## -remarks
 
 
+
 The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is used in the 
     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a> and 
     <a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a> power management
@@ -90,11 +91,16 @@ The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is use
 
 
 
+
 ## -see-also
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_pm_protocol_offload.md">NDIS_PM_PROTOCOL_OFFLOAD</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_pm_wol_pattern.md">NDIS_PM_WOL_PATTERN</a>
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	MyInitialize
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ Pointer to the camera minidriver's device context.
 ## -returns
 
 
+
 <b>CamInitialize</b> returns STATUS_SUCCESS or an appropriate error code. 
 
 
 
+
 ## -remarks
+
 
 
 <b>About CamInitialize</b>
@@ -109,5 +112,6 @@ Whereas the stream class driver automatically resets values associated with the 
 <b>CamUnInitialize</b> is called by both versions 1.0 and 2.0 of USBCAMD.
 
 This function is required.
+
 
 

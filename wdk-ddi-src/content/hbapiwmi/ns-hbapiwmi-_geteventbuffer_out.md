@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetEventBuffer_OUT
-title: _GetEventBuffer_OUT
+title: "_GetEventBuffer_OUT"
 author: windows-driver-content
 description: The GetEventBuffer_OUT structure is used to report the output parameter data of the GetEventBuffer WMI method to the WMI client.
 old-location: storage\geteventbuffer_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1ba41017-8c4b-49eb-b0ec-8e58c2673314
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: GetEventBuffer_OUT structure [Storage Devices], *PGetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], hbapiwmi/GetEventBuffer_OUT, storage.geteventbuffer_out, PGetEventBuffer_OUT, GetEventBuffer_OUT, _GetEventBuffer_OUT, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml, hbapiwmi/PGetEventBuffer_OUT
+ms.keywords: "*PGetEventBuffer_OUT, PGetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], hbapiwmi/PGetEventBuffer_OUT, GetEventBuffer_OUT, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml, storage.geteventbuffer_out, _GetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], hbapiwmi/GetEventBuffer_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	GetEventBuffer_OUT
 product: Windows
 targetos: Windows
@@ -87,15 +87,19 @@ Contains an array of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_eventbuffer.md"
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> method retrieves the next events in the HBA's event queue. 
 
 The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
+
+
 
  
 

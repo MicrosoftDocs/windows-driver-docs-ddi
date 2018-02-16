@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 84661E3C-9AC7-4852-BABF-BFC0A793E83D
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl interface, IDebugControl::GetWindbgExtensionApis32, debugger.idebugcontrol_getwindbgextensionapis32, IDebugControl2::GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl interface [Windows Debugging], GetWindbgExtensionApis32 method, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis32 method, GetWindbgExtensionApis32, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis32 method, dbgeng/IDebugControl3::GetWindbgExtensionApis32, dbgeng/IDebugControl2::GetWindbgExtensionApis32, IDebugControl3::GetWindbgExtensionApis32, IDebugControl3, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl2 interface
+ms.keywords: IDebugControl::GetWindbgExtensionApis32, dbgeng/IDebugControl2::GetWindbgExtensionApis32, dbgeng/IDebugControl::GetWindbgExtensionApis32, IDebugControl3, IDebugControl2::GetWindbgExtensionApis32, dbgeng/IDebugControl3::GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetWindbgExtensionApis32, GetWindbgExtensionApis32, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis32 method, IDebugControl interface [Windows Debugging], GetWindbgExtensionApis32 method, debugger.idebugcontrol_getwindbgextensionapis32, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis32 method, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl3 interface, IDebugControl, GetWindbgExtensionApis32 method [Windows Debugging], IDebugControl interface, IDebugControl2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetWindbgExtensionApis32
 -	IDebugControl2.GetWindbgExtensionApis32
 -	IDebugControl3.GetWindbgExtensionApis32
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetWindbgExtensionApis32 method
@@ -77,7 +77,9 @@ Receives a WINDBG_EXTENSION_APIS32 structure.  This structure contains the funct
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,11 +107,14 @@ The value of <i>Api</i>-&gt;<b>nSize</b> does not equal the size of the structur
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If you are including Wdbgexts.h in your extension code, you should call this method during the initialization of the extension DLL (see <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>).
@@ -120,17 +125,28 @@ For a list of the functions provided by the WdbgExts API, see <a href="https://m
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561258">WdbgExts Functions</a>
+
+
 
  
 

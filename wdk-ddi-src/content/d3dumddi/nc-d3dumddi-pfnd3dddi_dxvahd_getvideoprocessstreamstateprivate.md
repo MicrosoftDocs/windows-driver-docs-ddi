@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	GetVideoProcessStreamStatePrivate
 product: Windows
 targetos: Windows
@@ -74,7 +74,6 @@ __checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
 ### -param HANDLE
 
 
-
 ### -param *
 
 
@@ -82,9 +81,6 @@ __checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
 
 
 
-#### - pData [in, out]
-
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
 
 
 #### - hDevice [in]
@@ -92,10 +88,17 @@ __checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
  A handle to the display device (graphics context).
 
 
+#### - pData [in, out]
+
+ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
+
+
 ## -returns
 
 
+
 The <i>GetVideoProcessStreamStatePrivate</i> function returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +126,17 @@ The stream-state data is successfully retrieved.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a>
+
+
 
  
 

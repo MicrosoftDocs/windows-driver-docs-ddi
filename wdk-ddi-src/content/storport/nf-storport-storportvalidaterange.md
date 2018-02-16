@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml, storport/StorPortValidateRange, storage.storportvalidaterange, StorPortValidateRange, StorPortValidateRange routine [Storage Devices]
+ms.keywords: StorPortValidateRange, storage.storportvalidaterange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml, storport/StorPortValidateRange, StorPortValidateRange routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortValidateRange
 product: Windows
 targetos: Windows
@@ -112,11 +112,14 @@ Contains an integer identifying a system bus.
 ## -returns
 
 
+
 <b>StorPortValidateRange</b> returns <b>TRUE</b> if a specified range of addresses is not claimed by another driver. This routine returns <b>FALSE</b> if another driver has claimed the address range. 
 
 
 
+
 ## -remarks
+
 
 
 For compatibility with older versions of Windows, this routine always returns <b>TRUE</b>.
@@ -124,6 +127,7 @@ For compatibility with older versions of Windows, this routine always returns <b
  Miniport drivers are given valid I/O ranges in the <b>AccessRanges</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure when the Storport driver calls the miniport's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> callback routine.
 
 <b>StorPortValidateRange</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent bus-relative addresses.
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -134,13 +138,17 @@ For compatibility with older versions of Windows, this routine always returns <b
 </pre>
 </td>
 </tr>
-</table></span></div>The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
+</table></span></div>
+The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+
 
  
 

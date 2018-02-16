@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26acd4ce-b5e8-405a-bc9f-b08627f4830f
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_09e1e2b6-ad88-4af7-9623-f9e441e491cb.xml, irb/AtaPortWriteRegisterUshort, AtaPortWriteRegisterUshort, AtaPortWriteRegisterUshort routine [Storage Devices], storage.ataportwriteregisterushort
+ms.keywords: AtaPortWriteRegisterUshort, storage.ataportwriteregisterushort, irb/AtaPortWriteRegisterUshort, AtaPortWriteRegisterUshort routine [Storage Devices], atartns_09e1e2b6-ad88-4af7-9623-f9e441e491cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortWriteRegisterUshort
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ Specifies the value to write to the register for the HBA.
 ## -returns
 
 
+
 None 
+
 
 
 
@@ -92,9 +94,15 @@ None
 
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
+
+
 <a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
 
+
+
 <a href="..\irb\nf-irb-ataportwriteregisterulong.md">AtaPortWriteRegisterUlong</a>
+
+
 
  
 

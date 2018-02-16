@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCheckExistingResourceAllocationInfo
 product: Windows
 targetos: Windows
@@ -75,9 +75,7 @@ VOID APIENTRY* pfnCheckExistingResourceAllocationInfo(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param D3D12DDI_HRESOURCE
-
 
 
 ### -param *
@@ -87,14 +85,6 @@ VOID APIENTRY* pfnCheckExistingResourceAllocationInfo(
 
 
 
-#### - pInfo [out]
-
-Information for resource allocation. 
-
-
-#### - hResource
-
-A resource handle.
 
 
 #### - hDevice
@@ -102,23 +92,39 @@ A resource handle.
 A device handle.
 
 
+#### - hResource
+
+A resource handle.
+
+
+#### - pInfo [out]
+
+Information for resource allocation. 
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This callback function is part of a two step process of resource creation. After the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022.md">pfnCheckResourceAllocationInfo</a> callback function, the resource is created. During resource creation, the layout is never _UNDEFINED, since the driver will have returned a resolved texture layout. 
 
 
 
+
 ## -see-also
 
 <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022.md">pfnCheckResourceAllocationInfo</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8225be6d-b7a4-44db-bdff-bc223aa213c5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_USER_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_AUTH_LISTEN_V6_SIO_FIREWALL_SOCKET_PROPERTY, FWPS_FIELDS_ALE_AUTH_LISTEN_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_INTERFACE_TYPE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_FLAGS, netvista.fwps_fields_ale_auth_listen_v6, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_LOCAL_INTERFACE_PROFILE_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_PORT, FWPS_FIELDS_ALE_AUTH_LISTEN_V6, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_INTERFACE, wfp_ref_5_const_3_data_fields_2dfb65c6-8813-4193-bd8a-5fa5c2726633.xml, FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_SIO_FIREWALL_SOCKET_PROPERTY, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELDS_ALE_AUTH_LISTEN_V6, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_LOCAL_INTERFACE_PROFILE_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_FLAGS, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_INTERFACE, FWPS_FIELDS_ALE_AUTH_LISTEN_V6_, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS
+ms.keywords: FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_APP_ID, FWPS_FIELDS_ALE_AUTH_LISTEN_V6, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_LOCAL_INTERFACE_PROFILE_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_TUNNEL_TYPE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_LOCAL_INTERFACE_PROFILE_ID, wfp_ref_5_const_3_data_fields_2dfb65c6-8813-4193-bd8a-5fa5c2726633.xml, FWPS_FIELD_ALE_AUTH_LISTEN_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_FLAGS, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_ALE_AUTH_LISTEN_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELDS_ALE_AUTH_LISTEN_V6, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX, FWPS_FIELD_ALE_AUTH_LISTEN_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_ALE_AUTH_LISTEN_V6_SIO_FIREWALL_SOCKET_PROPERTY, FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX, FWPS_FIELDS_ALE_AUTH_LISTEN_V6_, netvista.fwps_fields_ale_auth_listen_v6, FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_USER_ID, FWPS_FIELD_ALE_AUTH_LISTEN_V6_SIO_FIREWALL_SOCKET_PROPERTY, FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_PACKAGE_ID, FWPS_FIELDS_ALE_AUTH_LISTEN_V6 enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_FIELDS_ALE_AUTH_LISTEN_V6
 product: Windows
 targetos: Windows
@@ -146,25 +146,29 @@ The encapsulation method used by a tunnel if the
 The profile identifier (network category) of the network interface associated with the local IP
      address. The possible network category values are: public (1), private (2), or domain (3).
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_SIO_FIREWALL_SOCKET_PROPERTY
 
 The IP_PROTECTION_LEVEL property associated with the socket.
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_PACKAGE_ID
 
 The package identifier is a security identifier (SID) that identifies the associated AppContainer process. For more information about the SID structure, see the description for the SID structure in the Microsoft Windows SDK documentation.
-<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 8.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE
 
 
-
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_COMPARTMENT_ID
-
 
 
 ### -field FWPS_FIELD_ALE_AUTH_LISTEN_V6_MAX
@@ -177,7 +181,11 @@ The maximum value for this enumeration. This value might change in future versio
 
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+
+
 
  
 

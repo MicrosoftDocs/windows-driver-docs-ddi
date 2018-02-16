@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_FREQUENCY_RANGE
-title: _D3DKMDT_FREQUENCY_RANGE
+title: "_D3DKMDT_FREQUENCY_RANGE"
 author: windows-driver-content
 description: The D3DKMDT_FREQUENCY_RANGE structure contains the minimum and maximum refresh rates supported by a monitor.
 old-location: display\d3dkmdt_frequency_range.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f826f949-b37f-4c48-80d9-b6ef640e1f00
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_FREQUENCY_RANGE, display.d3dkmdt_frequency_range, DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, D3DKMDT_FREQUENCY_RANGE structure [Display Devices], _D3DKMDT_FREQUENCY_RANGE, D3DKMDT_FREQUENCY_RANGE
+ms.keywords: d3dkmdt/D3DKMDT_FREQUENCY_RANGE, DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, _D3DKMDT_FREQUENCY_RANGE, display.d3dkmdt_frequency_range, D3DKMDT_FREQUENCY_RANGE, D3DKMDT_FREQUENCY_RANGE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_FREQUENCY_RANGE
 product: Windows
 targetos: Windows
@@ -93,13 +93,17 @@ The maximum horizontal refresh rate, in Hz, supported by the monitor.
 ## -remarks
 
 
+
 The <b>RangeLimits</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_frequency_range.md">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a D3DKMDT_FREQUENCY_RANGE structure.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568430">Monitor Frequency Range Set Interface</a>
+
+
 
  
 

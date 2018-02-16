@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f739d5b8-80be-40e3-9139-93342c4fe458
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::Reload, dbgeng/IDebugSymbols::Reload, dbgeng/IDebugSymbols3::Reload, dbgeng/IDebugSymbols2::Reload, IDebugSymbols3 interface [Windows Debugging], Reload method, IDebugSymbols2 interface [Windows Debugging], Reload method, IDebugSymbols interface [Windows Debugging], Reload method, Reload method [Windows Debugging], IDebugSymbols interface, Reload method [Windows Debugging], IDebugSymbols2::Reload, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, IDebugSymbols3, IDebugSymbols::Reload, Reload method [Windows Debugging], IDebugSymbols3 interface, Reload, Reload method [Windows Debugging], IDebugSymbols2 interface, debugger.reload
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], Reload method, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, Reload method [Windows Debugging], dbgeng/IDebugSymbols3::Reload, debugger.reload, IDebugSymbols3::Reload, Reload method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::Reload, IDebugSymbols2, IDebugSymbols3, Reload, dbgeng/IDebugSymbols::Reload, IDebugSymbols interface [Windows Debugging], Reload method, Reload method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, IDebugSymbols2 interface [Windows Debugging], Reload method, IDebugSymbols2::Reload, IDebugSymbols::Reload, Reload method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.Reload
 -	IDebugSymbols2.Reload
 -	IDebugSymbols3.Reload
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::Reload method
@@ -77,6 +77,7 @@ Specifies the module to reload.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,13 +94,16 @@ The method was successful
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 This method behaves the same way as the debugger command <b>.reload</b>.  The <i>Module</i> parameter is treated the same way as the arguments to <b>.reload</b>.  For example, setting the <i>Module</i> parameter to "/u ntdll.dll" has the same effect as the command <b>.reload /u ntdll.dll</b>.
@@ -108,15 +112,24 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564805">.reload (Reload Module)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564805">.reload (Reload Module)</a>
+
+
 
  
 

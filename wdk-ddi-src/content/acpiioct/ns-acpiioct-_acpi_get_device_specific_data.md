@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_GET_DEVICE_SPECIFIC_DATA
-title: _ACPI_GET_DEVICE_SPECIFIC_DATA
+title: "_ACPI_GET_DEVICE_SPECIFIC_DATA"
 author: windows-driver-content
 description: The ACPI_GET_DEVICE_SPECIFIC_DATA structure contains input arguments for the IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control method.
 old-location: acpi\acpi_get_device_specific_data.htm
@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: F7B4E80F-AB83-4E0F-9933-D953744A1970
 ms.author: windowsdriverdev
 ms.date: 12/31/2017
-ms.keywords: acpi.acpi_get_device_specific_data, acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], ACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], _ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA
+ms.keywords: acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], acpi.acpi_get_device_specific_data, _ACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Acpiioct.h
-apiname: 
+apiname:
 -	ACPI_GET_DEVICE_SPECIFIC_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA
+req.typenames: "*PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA"
 ---
 
 # _ACPI_GET_DEVICE_SPECIFIC_DATA structure

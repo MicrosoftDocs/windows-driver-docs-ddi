@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 57A8E522-D787-4663-B2E3-46E8430388B7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SerCxGetWaitMask, serports.sercxgetwaitmask, 1/SerCxGetWaitMask, SerCxGetWaitMask method [Serial Ports]
+ms.keywords: serports.sercxgetwaitmask, 1/SerCxGetWaitMask, SerCxGetWaitMask method [Serial Ports], SerCxGetWaitMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SerCxGetWaitMask
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 ## -returns
 
 
+
 <b>SerCxGetWaitMask</b> returns a wait mask that specifies the events that a client (application or peripheral driver)  selected to trigger completion of the wait operation that is currently pending. If no wait operation is pending, this method returns the null wait mask, 0x0000. For more information, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The serial controller driver calls <b>SerCxGetWaitMask</b> to obtain the wait mask to use for a pending wait operation. Typically, the controller driver calls this method from the <a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a> callback function.
@@ -89,13 +92,20 @@ The wait mask indicates the types of events that can trigger completion of a wai
 
 
 
+
 ## -see-also
+
+<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
 
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
 
-<a href="..\sercx\nc-sercx-evt_sercx_waitmask.md">EvtSerCxWaitmask</a>
+
 
  
 

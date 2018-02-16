@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDMMCAPS
-title: _DXGK_VIDMMCAPS
+title: "_DXGK_VIDMMCAPS"
 author: windows-driver-content
 description: The DXGK_VIDMMCAPS structure identifies the video memory management capabilities that a display miniport driver can support.
 old-location: display\dxgk_vidmmcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_VIDMMCAPS, DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, DXGK_VIDMMCAPS, display.dxgk_vidmmcaps, _DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices]
+ms.keywords: DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps, DXGK_VIDMMCAPS, _DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_VIDMMCAPS
 product: Windows
 targetos: Windows
@@ -197,6 +197,8 @@ The zero-based index of the node to use for paging operations. If the driver doe
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_QUERYADAPTERINFO
-title: _D3DDDICB_QUERYADAPTERINFO
+title: "_D3DDDICB_QUERYADAPTERINFO"
 author: windows-driver-content
 description: The D3DDDICB_QUERYADAPTERINFO structure contains information that describes the graphics adapter.
 old-location: display\d3dddicb_queryadapterinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 484406a5-54be-49fa-839a-2e55747020f4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDICB_QUERYADAPTERINFO structure [Display Devices], D3D_param_Structs_24ed4d09-d2ff-4b79-95fc-5a1c7d146faa.xml, D3DDDICB_QUERYADAPTERINFO, d3dumddi/D3DDDICB_QUERYADAPTERINFO, display.d3dddicb_queryadapterinfo, _D3DDDICB_QUERYADAPTERINFO
+ms.keywords: D3DDDICB_QUERYADAPTERINFO structure [Display Devices], _D3DDDICB_QUERYADAPTERINFO, display.d3dddicb_queryadapterinfo, D3DDDICB_QUERYADAPTERINFO, D3D_param_Structs_24ed4d09-d2ff-4b79-95fc-5a1c7d146faa.xml, d3dumddi/D3DDDICB_QUERYADAPTERINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_QUERYADAPTERINFO
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct _D3DDDICB_QUERYADAPTERINFO {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
+
+
 
  
 

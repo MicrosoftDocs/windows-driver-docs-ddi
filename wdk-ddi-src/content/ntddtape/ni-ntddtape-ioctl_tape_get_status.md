@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddtape.h
-apiname: 
+apiname:
 -	IOCTL_TAPE_GET_STATUS
 product: Windows
 targetos: Windows
@@ -88,20 +88,25 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The <b>Information</b> field is set to zero. The <b>Status</b> field is set to one of the following NT status values: 
+
 <ul>
 <li>
 STATUS_SUCCESS
@@ -215,12 +220,15 @@ STATUS_DEVICE_REQUIRES_CLEANING
 STATUS_CLEANER_CARTRIDGE_INSTALLED
 
 </li>
-</ul>Each of these NT status values correspond to a value in the <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>.
+</ul>
+Each of these NT status values correspond to a value in the <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>.
 
 
 ## -see-also
 
 <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetFC3MgmtInfo_OUT
-title: _SetFC3MgmtInfo_OUT
+title: "_SetFC3MgmtInfo_OUT"
 author: windows-driver-content
 description: The SetFC3MgmtInfo_OUT structure is used to report the output parameter data of the SetFC3MgmtInfo WMI method to the WMI client.
 old-location: storage\setfc3mgmtinfo_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 00e6eb1a-3302-46ac-b859-9c22ad6cee22
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetFC3MgmtInfo_OUT, _SetFC3MgmtInfo_OUT, hbapiwmi/PSetFC3MgmtInfo_OUT, *PSetFC3MgmtInfo_OUT, storage.setfc3mgmtinfo_out, hbapiwmi/SetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT structure [Storage Devices], structs-Fibre_86907ae9-a0a0-4836-a822-d07cd2adfdb0.xml, PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT structure pointer [Storage Devices]
+ms.keywords: storage.setfc3mgmtinfo_out, PSetFC3MgmtInfo_OUT structure pointer [Storage Devices], hbapiwmi/SetFC3MgmtInfo_OUT, structs-Fibre_86907ae9-a0a0-4836-a822-d07cd2adfdb0.xml, SetFC3MgmtInfo_OUT, *PSetFC3MgmtInfo_OUT, _SetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT structure [Storage Devices], hbapiwmi/PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SetFC3MgmtInfo_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT
+req.typenames: SetFC3MgmtInfo_OUT, *PSetFC3MgmtInfo_OUT
 ---
 
 # _SetFC3MgmtInfo_OUT structure
@@ -75,13 +75,17 @@ Contains the status of the operation. For a list of allowed values and their des
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SetFC3MgmtInfo_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565657">SetFC3MgmtInfo</a>
+
+
 
  
 

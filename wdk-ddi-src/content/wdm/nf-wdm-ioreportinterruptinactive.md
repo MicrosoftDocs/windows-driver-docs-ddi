@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 614ECB39-E1D0-4BF0-B3C8-635BADD05508
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReportInterruptInactive routine [Kernel-Mode Driver Architecture], wdm/IoReportInterruptInactive, IoReportInterruptInactive, kernel.ioreportinterruptinactive
+ms.keywords: kernel.ioreportinterruptinactive, IoReportInterruptInactive routine [Kernel-Mode Driver Architecture], IoReportInterruptInactive, wdm/IoReportInterruptInactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoReportInterruptInactive
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_report_interrupt_active_state_paramet
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> routine registers an ISR and connects the ISR to an interrupt or interrupts. After the ISR is registered, the driver can make the ISR active or inactive by calling the <a href="..\wdm\nf-wdm-ioreportinterruptactive.md">IoReportInterruptActive</a> or <b>IoReportInterruptInactive</b> routine. By default, the ISR is active after the <b>IoConnectInterruptEx</b> call.
@@ -93,15 +96,24 @@ For more information about <b>IoReportInterruptInactive</b>, see <a href="https:
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-ioreportinterruptactive.md">IoReportInterruptActive</a>
-
-<a href="..\wdm\ns-wdm-_io_report_interrupt_active_state_parameters.md">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a>
 
 <a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
 
+
+
+<a href="..\wdm\nf-wdm-ioreportinterruptactive.md">IoReportInterruptActive</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_report_interrupt_active_state_parameters.md">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+
+
 
  
 

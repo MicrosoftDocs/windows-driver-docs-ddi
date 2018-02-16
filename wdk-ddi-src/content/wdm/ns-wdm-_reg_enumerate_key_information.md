@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_ENUMERATE_KEY_INFORMATION
-title: _REG_ENUMERATE_KEY_INFORMATION
+title: "_REG_ENUMERATE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_ENUMERATE_KEY_INFORMATION structure describes one subkey of a key whose subkeys are being enumerated.
 old-location: kernel\reg_enumerate_key_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fdae9130-b33e-4714-9e8c-f4faf21ee8c8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _REG_ENUMERATE_KEY_INFORMATION, kstruct_d_e20923be-cb64-43a0-b3d0-a28290fadc07.xml, PREG_ENUMERATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_ENUMERATE_KEY_INFORMATION, kernel.reg_enumerate_key_information, REG_ENUMERATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_ENUMERATE_KEY_INFORMATION, wdm/REG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION, wdm/PREG_ENUMERATE_KEY_INFORMATION
+ms.keywords: "*PREG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_ENUMERATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_ENUMERATE_KEY_INFORMATION, _REG_ENUMERATE_KEY_INFORMATION, PREG_ENUMERATE_KEY_INFORMATION, kstruct_d_e20923be-cb64-43a0-b3d0-a28290fadc07.xml, wdm/PREG_ENUMERATE_KEY_INFORMATION, kernel.reg_enumerate_key_information, wdm/REG_ENUMERATE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	REG_ENUMERATE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PREG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION
+req.typenames: "*PREG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -124,21 +124,31 @@ This member is reserved for future use. This member is defined for Windows Vista
 ## -remarks
 
 
+
 The system passes this structure to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to enumerate the subkeys of a key—for example, when a user-mode thread calls <b>RegEnumKey</b> or <b>RegEnumKeyEx</b> or when a driver calls <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>.
 
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
 <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+
+
 
  
 

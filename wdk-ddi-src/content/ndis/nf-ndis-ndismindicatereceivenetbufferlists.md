@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, NdisMIndicateReceiveNetBufferLists, netvista.ndismindicatereceivenetbufferlists, ndis/NdisMIndicateReceiveNetBufferLists
+ms.keywords: NdisMIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], ndis_sendrcv_ref_3ef0c38f-53f7-44a0-adfc-443132743f50.xml, ndis/NdisMIndicateReceiveNetBufferLists, netvista.ndismindicatereceivenetbufferlists, NdisMIndicateReceiveNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMIndicateReceiveNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMIndicateReceiveNetBufferLists function
@@ -76,8 +76,8 @@ VOID NdisMIndicateReceiveNetBufferLists(
 ### -param MiniportAdapterHandle [in]
 
 The miniport handle that NDIS passed to the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -param NetBufferList
@@ -109,18 +109,57 @@ Flags that define attributes for the send operation. The flags can be combined w
 
 
 
-##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SINGLE_VLAN
+
+#### NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
+
+Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
+       <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
+
+
+
+#### NDIS_RECEIVE_FLAGS_RESOURCES
+
+Specifies that the miniport driver reclaims ownership of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and any
+       attached <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures immediately after the call to 
+       <b>NdisMIndicateReceiveNetBufferLists</b> returns.
+
+
+
+#### NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
+
+Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> have the same protocol type (EtherType).
+
+
+
+#### NDIS_RECEIVE_FLAGS_SINGLE_VLAN
 
 Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> belong to the same VLAN.
 
 
-##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_MORE_NBLS
 
-Reserved.
+#### NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
+
+Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
+       assigned to the miniport adapter.
 
 
-##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
+
+#### NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
+
+Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
+       <i>NetBufferLists</i> belong to the same VM queue. A miniport driver must set this flag for all receive
+       indications on a queue if the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION</b> flag was set
+       in the 
+       <b>Flags</b> member of the 
+       <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">
+       NDIS_RECEIVE_QUEUE_PARAMETERS</a> structure when that queue was allocated.
+
+
+
+#### NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
 
 Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> contain shared memory information that is valid. When this flag is set on a
@@ -131,6 +170,12 @@ Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_
        deleted.
 
 
+
+#### NDIS_RECEIVE_FLAGS_MORE_NBLS
+
+Reserved.
+
+
 #### - NetBufferLists [in]
 
 A linked list of 
@@ -138,51 +183,17 @@ A linked list of
      miniport driver allocated.
 
 
-##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
-
-Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
-       assigned to the miniport adapter.
-
-
-##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_RESOURCES
-
-Specifies that the miniport driver reclaims ownership of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and any
-       attached <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures immediately after the call to 
-       <b>NdisMIndicateReceiveNetBufferLists</b> returns.
-
-
-##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
-
-Specifies that all of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> have the same protocol type (EtherType).
-
-
-##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
-
-Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
-       <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
-
-
-##### - ReceiveFlags.NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
-
-Specifies that all the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the list at 
-       <i>NetBufferLists</i> belong to the same VM queue. A miniport driver must set this flag for all receive
-       indications on a queue if the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION</b> flag was set
-       in the 
-       <b>Flags</b> member of the 
-       <mshelp:link keywords="netvista.ndis_receive_queue_parameters" tabindex="0"><b>
-       NDIS_RECEIVE_QUEUE_PARAMETERS</b></mshelp:link> structure when that queue was allocated.
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver typically calls the 
@@ -192,8 +203,8 @@ A miniport driver typically calls the
     <b>NdisMIndicateReceiveNetBufferLists</b>, it specifies a list of 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures in the 
     <i>NetBufferLists</i> parameter. NDIS passes the <b>NET_BUFFER_LIST</b> structures to the 
-    <mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><b>
-    ProtocolReceiveNetBufferLists</b></mshelp:link> function of bound protocol drivers.
+    <a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+    ProtocolReceiveNetBufferLists</a> function of bound protocol drivers.
 
 Miniport drivers must set the 
     <b>SourceHandle</b> member of each <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure to the same value as the 
@@ -203,8 +214,8 @@ If a miniport driver calls
     <b>NdisMIndicateReceiveNetBufferLists</b> and clears the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the 
     <i>ReceiveFlags</i> parameter, NDIS returns the indicated <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures to the miniport
     driver's 
-    <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-    MiniportReturnNetBufferLists</i></mshelp:link> function. In this case, the miniport driver must not reclaim the
+    <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+    MiniportReturnNetBufferLists</a> function. In this case, the miniport driver must not reclaim the
     <b>NET_BUFFER_LIST</b> structures until NDIS returns the <b>NET_BUFFER_LIST</b> structures to the miniport driver's 
     <i>MiniportReturnNetBufferLists</i> function.
 
@@ -218,8 +229,8 @@ If a miniport driver calls
     structures immediately after 
     <b>NdisMIndicateReceiveNetBufferLists</b> returns. To reclaim the <b>NET_BUFFER_LIST</b> structures, a miniport
     driver can call its own 
-    <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-    MiniportReturnNetBufferLists</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+    MiniportReturnNetBufferLists</a> function.
 
 Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the 
     <i>ReceiveFlags</i> parameter forces the protocol drivers to copy the network data and release the
@@ -233,25 +244,42 @@ The caller of
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><b>
-   ProtocolReceiveNetBufferLists</b></mshelp:link>
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+   ProtocolReceiveNetBufferLists</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
-<mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-   MiniportReturnNetBufferLists</i></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+   MiniportReturnNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

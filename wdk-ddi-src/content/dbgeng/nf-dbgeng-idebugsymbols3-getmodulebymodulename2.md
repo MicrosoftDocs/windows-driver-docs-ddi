@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25ebb316-e801-44fa-bb80-dffe9051db7e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetModuleByModuleName2, debugger.getmodulebymodulename2, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2 method, IDebugSymbols3::GetModuleByModuleName2, IDebugSymbols_f5630cfb-3af4-4722-8851-0a12523fbf82.xml, IDebugSymbols3, GetModuleByModuleName2, GetModuleByModuleName2 method [Windows Debugging]
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2 method, dbgeng/IDebugSymbols3::GetModuleByModuleName2, GetModuleByModuleName2, IDebugSymbols3::GetModuleByModuleName2, GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3, IDebugSymbols_f5630cfb-3af4-4722-8851-0a12523fbf82.xml, debugger.getmodulebymodulename2, GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetModuleByModuleName2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetModuleByModuleName2 method
@@ -84,6 +84,7 @@ Specifies the index to start searching from.
 ### -param Flags [in]
 
 Specifies a bit-set containing options used when searching for the module with the specified name.  <i>Flags</i> may contain the following bit-flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -109,7 +110,8 @@ Do not search the unloaded modules.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Index [out, optional]
@@ -125,7 +127,9 @@ Receives the location in the target's memory address space of the base of the mo
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,11 +157,14 @@ One of the arguments passed in was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Starting at the specified index, these methods return the first module they find with the specified name.  If the target has more than one module with this name, then subsequent modules can be found by repeated calls to these methods with higher values of <i>StartIndex</i>.  
@@ -166,11 +173,16 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547095">GetModuleByModuleName</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

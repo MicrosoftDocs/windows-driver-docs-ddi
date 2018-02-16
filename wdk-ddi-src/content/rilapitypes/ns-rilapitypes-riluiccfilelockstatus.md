@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 348e44f2-4386-4b45-9d68-c996d471578f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCFILELOCKSTATUS, *LPRILUICCFILELOCKSTATUS, rilapitypes/RILUICCFILELOCKSTATUS, netvista.riluiccfilelockstatus, RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RILUICCFILELOCKSTATUS, netvista.riluiccfilelockstatus, *LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista], RILUICCFILELOCKSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCFILELOCKSTATUS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS
+req.typenames: "*LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -94,6 +94,8 @@ A byte array specifying the application PIN references made by this application 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

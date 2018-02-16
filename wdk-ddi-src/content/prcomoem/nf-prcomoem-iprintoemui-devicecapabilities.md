@@ -7,8 +7,8 @@ old-location: print\iprintoemui_devicecapabilities.htm
 old-project: print
 ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml, DeviceCapabilities, print.iprintoemui_devicecapabilities, IPrintOemUI interface [Print Devices], DeviceCapabilities method, DeviceCapabilities method [Print Devices], IPrintOemUI, IPrintOemUI::DeviceCapabilities, DeviceCapabilities method [Print Devices], IPrintOemUI interface, prcomoem/IPrintOemUI::DeviceCapabilities
+ms.date: 2/2/2018
+ms.keywords: prcomoem/IPrintOemUI::DeviceCapabilities, IPrintOemUI::DeviceCapabilities, DeviceCapabilities method [Print Devices], IPrintOemUI interface, DeviceCapabilities method [Print Devices], DeviceCapabilities, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml, IPrintOemUI, print.iprintoemui_devicecapabilities, IPrintOemUI interface [Print Devices], DeviceCapabilities method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUI.DeviceCapabilities
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -124,7 +124,9 @@ A return value that is dependent on the flag specified by <i>wCapability</i>. Fo
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -174,11 +176,14 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A user interface plug-in's <code>IPrintOemUI::DeviceCapabilities</code> method performs the same types of operations as the <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a> function that is exported by user-mode printer interface DLLs. The method specifies capabilities provided by the printer.
@@ -190,6 +195,7 @@ If the <code>IPrintOemUI::DeviceCapabilities</code> method indicates customized 
 If <code>IPrintOemUI::DeviceCapabilities</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation. Each time a plug-in's <code>IPrintOemUI::DeviceCapabilities</code> method is called, its <i>dwOld</i> input value is the return value from the previously called plug-in's <code>IPrintOemUI::DeviceCapabilities</code> method. For the first plug-in called, <i>dwOld</i> contains the return value from the printer driver's <b>DrvDeviceCapabilities</b> function. Likewise, the buffer pointed to by <i>pOutput</i> contains, on input, any contents placed there by a previously called <code>IPrintOemUI::DeviceCapabilities</code> method or <b>DrvDeviceCapabilities</b> function.
 
 For multiple user interface plug-ins to work in conjunction with each other, each <code>IPrintOemUI::DeviceCapabilities</code> method must obey the following rules:
+
 <ul>
 <li>
 If a user interface plug-in does not support a specified capability, its <code>IPrintOemUI::DeviceCapabilities</code> method should just return the contents of the <i>dwOld</i> parameter in <i>dwResult</i>.
@@ -207,7 +213,8 @@ If you want a user interface plug-in to modify the capabilities information rece
 The preceding rules should be followed even if the received contents of <i>dwOld</i> is GDI_ERROR.
 
 </li>
-</ul>When the driver's <b>DrvDeviceCapabilities</b> function is called with the DC_FIELDS flag set, the function calls all <code>IPrintOemUI::DeviceCapabilities</code> methods, also specifying DC_FIELDS, and returns the union of all set bits to the caller.
+</ul>
+When the driver's <b>DrvDeviceCapabilities</b> function is called with the DC_FIELDS flag set, the function calls all <code>IPrintOemUI::DeviceCapabilities</code> methods, also specifying DC_FIELDS, and returns the union of all set bits to the caller.
 
 The S_DEVCAP_OUTPUT_FULL_REPLACEMENT return value is new in Windows Vista, and applies to both Unidrv and Pscript5 user interface plug-ins. A plug-in should use the S_DEVCAP_OUTPUT_FULL_REPLACEMENT return value only if it requires complete control over what is placed in the buffer that is pointed to by the <i>pOutput</i> parameter. Neither the Unidrv nor the Pscript5 core driver will place data in the <i>pOutput</i> buffer when the plug-in returns S_DEVCAP_OUTPUT_FULL_REPLACEMENT. A plug-in might need to return this value when a setting in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure (which is pointed to by the <i>pPublicDM</i> and <i>pOEMDM</i> parameters) indicates to the user interface plug-in that it should report device capability data that is different from that specified in the GPD or PPD file. For example, a DEVMODEW structure that specifies photo printing might require a different set of paper types than those that are specified in the GPD or PPD file. In such a situation, and regardless of the values of the <i>pOutput</i> and <i>dwOld</i> parameters, the plug-in should return S_DEVCAP_OUTPUT_FULL_REPLACEMENT, and should set the <i>dwResult</i> parameter to the number of paper types that it intends to report. If <i>pOutput</i> is not <b>NULL</b>, the plug-in should also fill the buffer that is pointed to by <i>pOutput</i> with the desired set of paper types, and should set <i>dwResult</i> to the number of paper types that the plug-in intends to report. 
 
@@ -241,13 +248,16 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
+
 ## -see-also
 
 <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::DeviceCapabilities method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::DeviceCapabilities method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

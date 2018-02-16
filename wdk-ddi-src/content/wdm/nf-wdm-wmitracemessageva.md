@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57f8006c-defe-4975-9d21-0eaecae5a873
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k902_c9c7dd80-d7a8-4b53-bcf1-f64c822e9e6d.xml, WmiTraceMessageVa, WmiTraceMessageVa routine [Kernel-Mode Driver Architecture], wdm/WmiTraceMessageVa, kernel.wmitracemessageva
+ms.keywords: WmiTraceMessageVa routine [Kernel-Mode Driver Architecture], k902_c9c7dd80-d7a8-4b53-bcf1-f64c822e9e6d.xml, wdm/WmiTraceMessageVa, kernel.wmitracemessageva, WmiTraceMessageVa
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WmiTraceMessageVa
 product: Windows
 targetos: Windows
@@ -100,7 +100,9 @@ Provides a required list of message parameters that specify a set of message par
 ## -returns
 
 
+
 <b>WmiTraceMessageVa</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,16 +152,20 @@ An internal error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A caller can use <a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a> or <b>WmiTraceMessageVa</b> to add a message to the output log of a WPP software tracing session. <b>WmiTraceMessage</b> simplifies a caller's code by handling the variable list mechanism before calling <b>WmiTraceMessageVa</b>.
 
 A caller can set the following message flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -215,9 +221,11 @@ Include the thread identifier (TID) and process identifier (PID) in the message.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>WmiTraceMessageVa</b> does not log the message if one of the following is true:
+
 <ul>
 <li>
 The total size, in bytes, of the message data and the message header is greater than the size of individual message buffers allocated for a software tracing session. (The maximum message header size is 48 bytes.)
@@ -227,21 +235,33 @@ The total size, in bytes, of the message data and the message header is greater 
 All message buffers allocated to software tracing session are full. 
 
 </li>
-</ul><b>WmiTraceMessageVa</b> runs at the IRQL of the caller.
+</ul>
+<b>WmiTraceMessageVa</b> runs at the IRQL of the caller.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
-
-<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
-
 <a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+
+
 
 <a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
 
+
+
+<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+
+
+
 <a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+
+
 
  
 

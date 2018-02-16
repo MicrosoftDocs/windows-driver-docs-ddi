@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1eeca3ef-6e1d-486f-b700-5ab8718a9285
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILTONESIGNALINFOPARAMMASK, rilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, rilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_EXECUTOR, rilapitypes/RIL_PARAM_TONESIGNAL_All, RIL_PARAM_TONESIGNAL_GPP2TONE, rilapitypes/RILTONESIGNALINFOPARAMMASK, netvista.riltonesignalinfoparammask_2, RIL_PARAM_TONESIGNAL_All, RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING
+ms.keywords: RILTONESIGNALINFOPARAMMASK, rilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE, RIL_PARAM_TONESIGNAL_All, netvista.riltonesignalinfoparammask_2, rilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, rilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, rilapitypes/RIL_PARAM_TONESIGNAL_All, rilapitypes/RILTONESIGNALINFOPARAMMASK, RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, RIL_PARAM_TONESIGNAL_GPP2TONE, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILTONESIGNALINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _RILTONESIGNALINFOPARAMMASK {
 ### -field RIL_PARAM_TONESIGNAL_GPPTONE
 
 
-
 ### -field RIL_PARAM_TONESIGNAL_GPP2TONE
-
 
 
 ### -field RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING
 
 
-
 ### -field RIL_PARAM_TONESIGNAL_EXECUTOR
 
 
-
 ### -field RIL_PARAM_TONESIGNAL_All
-
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5f2bb0ef-af54-48e7-a2f5-8c8877bedb4a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_48bc7719-e11c-4c70-a976-c7fbecbff464.xml, wdm/MmUnmapReservedMapping, MmUnmapReservedMapping routine [Kernel-Mode Driver Architecture], MmUnmapReservedMapping, kernel.mmunmapreservedmapping
+ms.keywords: MmUnmapReservedMapping routine [Kernel-Mode Driver Architecture], MmUnmapReservedMapping, wdm/MmUnmapReservedMapping, kernel.mmunmapreservedmapping, k106_48bc7719-e11c-4c70-a976-c7fbecbff464.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmUnmapReservedMapping
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ Pointer to the MDL that describes the physical memory mapping.
 ## -returns
 
 
+
 None
+
 
 
 
@@ -96,9 +98,15 @@ None
 
 <a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
 
-<a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
+
 
 <a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
+
+
 
  
 

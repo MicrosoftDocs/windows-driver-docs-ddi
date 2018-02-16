@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnGetContentProtectionCaps
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS callback
@@ -80,32 +80,17 @@ A handle to the display device (graphics context).
 
 
 
-### -param *pCryptoType
-
-
-
-### -param *pDecodeProfile
-
-
-
-### -param *pCaps
-
-
-
-
-
-
-#### - pCryptoType [in]
+### -param *pCryptoType [in]
 
 A pointer to a GUID that specifies the type of encryption algorithm to query.
 
 
-#### - pDecodeProfile [in]
+### -param *pDecodeProfile [in]
 
 A pointer to a GUID that specifies the decoder profile to query.
 
 
-#### - pCaps [out]
+### -param *pCaps [out]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a> structure that contains the protection capabilities for the specified encryption algorithm and decoder profile.
 
@@ -113,7 +98,9 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_pro
 ## -returns
 
 
+
 <b>GetContentProtectionCaps</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,14 +128,18 @@ The encryption algorithm specified by the <i>pCryptoType</i> parameter is not su
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <i>pCryptoType</i> parameter can contain one of the following values:
+
 <ul>
 <li>
 <b>D3DCRYPTOTYPE_AES128_CTR</b> if the driver is configured to use the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher.
@@ -164,12 +155,17 @@ The <i>pCryptoType</i> parameter can contain one of the following values:
 <b>NULL_GUID</b> if the driver is not configured to use any encryption algorithm.
 
 </li>
-</ul><div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i> and <i>pCryptoType</i> parameter data is valid before it calls the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md">GetContentProtectionCaps</a> function.</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i> and <i>pCryptoType</i> parameter data is valid before it calls the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md">GetContentProtectionCaps</a> function.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
+
+
 
  
 

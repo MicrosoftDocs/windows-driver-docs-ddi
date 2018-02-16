@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, RtlFreeAnsiString, wdm/RtlFreeAnsiString, kernel.rtlfreeansistring
+ms.keywords: RtlFreeAnsiString, kernel.rtlfreeansistring, wdm/RtlFreeAnsiString, k109_0213924f-caca-4411-b5cc-d93282f01948.xml, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlFreeAnsiString
 product: Windows
 targetos: Windows
@@ -76,20 +76,26 @@ Pointer to the ANSI string buffer previously allocated by <b>RtlUnicodeStringToA
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 This routine does not release the Unicode string buffer passed to <b>RtlUnicodeStringToAnsiString</b>. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+
+
 
  
 

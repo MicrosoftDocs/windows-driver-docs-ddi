@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpcm._PCMCIA_SOCKET_INFORMATION
-title: _PCMCIA_SOCKET_INFORMATION
+title: "_PCMCIA_SOCKET_INFORMATION"
 author: windows-driver-content
 description: The PCMCIA_SOCKET_INFORMATION structure is used in conjunction with the IOCTL_SOCKET_INFORMATION request to retrieve socket configuration and state data.
 old-location: pcmcia\pcmcia_socket_information.htm
@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 53881aca-e49c-43e9-b68e-b91a1868e3f5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PPCMCIA_SOCKET_INFORMATION structure pointer [Buses], PCMCIA.pcmcia_socket_information, PCMCIA_SOCKET_INFORMATION structure [Buses], ntddpcm/PCMCIA_SOCKET_INFORMATION, ntddpcm/PPCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION, memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION, _PCMCIA_SOCKET_INFORMATION
+ms.keywords: PCMCIA_SOCKET_INFORMATION structure [Buses], *PPCMCIA_SOCKET_INFORMATION, _PCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION, ntddpcm/PCMCIA_SOCKET_INFORMATION, memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, ntddpcm/PPCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION, PCMCIA.pcmcia_socket_information, PPCMCIA_SOCKET_INFORMATION structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddpcm.h
-apiname: 
+apiname:
 -	PCMCIA_SOCKET_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PPCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION
+req.typenames: "*PPCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION"
 ---
 
 # _PCMCIA_SOCKET_INFORMATION structure
@@ -104,6 +104,7 @@ Contains the name of the PC Card or CardBus card device driver.
 ### -field DeviceFunctionId
 
 Indicates the type of PC Card or CardBus card. This value can be one of the following.
+
 <table>
 <tr>
 <th>PC Card Type</th>
@@ -239,7 +240,8 @@ Modem card.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved
@@ -265,6 +267,8 @@ Indicates the controller type. Some common controller types are defined in the <
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537275">IOCTL_SOCKET_INFORMATION</a>
+
+
 
  
 

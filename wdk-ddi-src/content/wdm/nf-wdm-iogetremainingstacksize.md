@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5e257b72-fe16-49a0-9232-9c791a88e903
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iogetremainingstacksize, wdm/IoGetRemainingStackSize, k104_bc84d6dd-0874-440d-8f73-b403d18aa660.xml, IoGetRemainingStackSize routine [Kernel-Mode Driver Architecture], IoGetRemainingStackSize
+ms.keywords: wdm/IoGetRemainingStackSize, k104_bc84d6dd-0874-440d-8f73-b403d18aa660.xml, IoGetRemainingStackSize routine [Kernel-Mode Driver Architecture], IoGetRemainingStackSize, kernel.iogetremainingstacksize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IoGetRemainingStackSize
 product: Windows
 targetos: Windows
@@ -67,14 +67,18 @@ ULONG_PTR IoGetRemainingStackSize(void);
 
 
 
+
 ## -returns
+
 
 
 <b>IoGetRemainingStackSize</b> returns the number of bytes of stack space in the current thread context.
 
 
 
+
 ## -remarks
+
 
 
 Highest-level drivers, such as file systems, can call this routine, particularly drivers that use recursive code paths. Such a driver would call <b>IoGetRemainingStackSize</b> before launching a recursion to determine whether it should continue processing on an alternate code path.
@@ -83,11 +87,16 @@ For Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows, call
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
+
+
 
 <a href="..\wdm\nf-wdm-iogetstacklimits.md">IoGetStackLimits</a>
 
-<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
+
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	MiniportWdiIdleNotification
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # MINIPORT_WDI_IDLE_NOTIFICATION callback
@@ -91,7 +91,9 @@ For more information about the ForceIdle parameter, see the Remarks section.
 
 
 
+
             MiniportWdiIdleNotification can return any of the following return values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -136,7 +138,9 @@ The miniport driver could not issue a bus-specific IRP successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -144,7 +148,11 @@ The miniport driver could not issue a bus-specific IRP successfully.
 
 <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_idle_notification_complete.md">NdisWdiIdleNotificationComplete</a>
 
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+
+
 
  
 

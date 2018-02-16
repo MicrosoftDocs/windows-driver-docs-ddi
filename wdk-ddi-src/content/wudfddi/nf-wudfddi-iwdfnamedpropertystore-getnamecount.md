@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9891e360-ca09-4ebb-8cf4-d08b3456910c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfnamedpropertystore_getnamecount, UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, IWDFNamedPropertyStore::GetNameCount, GetNameCount method, umdf.iwdfnamedpropertystore_getnamecount, wudfddi/IWDFNamedPropertyStore::GetNameCount, IWDFNamedPropertyStore, GetNameCount, GetNameCount method, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface, GetNameCount method
+ms.keywords: UMDFPropertyStoreObjectRef_94f4d4d8-43e9-4901-a2bb-613761069daf.xml, IWDFNamedPropertyStore, IWDFNamedPropertyStore interface, GetNameCount method, IWDFNamedPropertyStore::GetNameCount, GetNameCount method, IWDFNamedPropertyStore interface, wdf.iwdfnamedpropertystore_getnamecount, wudfddi/IWDFNamedPropertyStore::GetNameCount, umdf.iwdfnamedpropertystore_getnamecount, GetNameCount, GetNameCount method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFNamedPropertyStore.GetNameCount
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,20 +78,26 @@ A pointer to a variable that receives the number of properties in the property s
 ## -returns
 
 
+
 <b>GetNameCount</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
+
+
 
  
 

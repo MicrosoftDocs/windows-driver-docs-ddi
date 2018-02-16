@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	WriteDataLine
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -85,30 +85,46 @@ Supplies a value that specifies whether to set the serial data line to high or l
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <i>WriteDataLine</i> should be made pageable.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
+
 
 <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+
 
 <a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
+
+
+
+<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
+
+
+
+<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], IoRegisterDeviceInterface, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
+ms.keywords: k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, wdm/IoRegisterDeviceInterface, IoRegisterDeviceInterface, kernel.ioregisterdeviceinterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoRegisterDeviceInterface
 product: Windows
 targetos: Windows
@@ -102,7 +102,9 @@ The caller is responsible for freeing <i>SymbolicLinkName</i> with <a href="..\w
 ## -returns
 
 
+
 <b>IoRegisterDeviceInterface</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,11 +121,14 @@ The parameters are invalid. Possibilities include that <i>PhysicalDeviceObject</
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>IoRegisterDeviceInterface</b> registers a device interface class, if it has not been previously registered, and creates a new instance of the interface class. A driver can call this routine several times for a given device to register several interface classes and create instances of the classes. A function or filter driver typically registers device interfaces in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine. For example, a fault-tolerant volume driver might register an instance of a fault-tolerant-volume interface and an instance of a volume interface for a particular volume.
@@ -142,15 +147,24 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
-
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
 <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
+
+
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioopendeviceinterfaceregistrykey.md">IoOpenDeviceInterfaceRegistryKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
+
+
 
  
 

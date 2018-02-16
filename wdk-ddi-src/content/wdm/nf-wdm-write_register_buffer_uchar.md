@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4cb90f37-c7ce-4f78-9e68-cbe4aaf6ea72
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k103_29b68153-db95-4017-ab96-d05e6c984503.xml, wdm/WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_REGISTER_BUFFER_UCHAR, kernel.write_register_buffer_uchar
+ms.keywords: wdm/WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR, k103_29b68153-db95-4017-ab96-d05e6c984503.xml, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], kernel.write_register_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	WRITE_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows
@@ -88,15 +88,19 @@ Specifies the number of bytes to be written to the register.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
 Callers of <b>WRITE_REGISTER_BUFFER_UCHAR</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
+
 
 

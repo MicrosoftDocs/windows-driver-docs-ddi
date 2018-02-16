@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e0321fa8-610b-4920-8be8-dd91a3452beb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_EXTXPORT_NODE_S structure pointer [Streaming Media Devices], PKSPROPERTY_EXTXPORT_NODE_S, *PKSPROPERTY_EXTXPORT_NODE_S, ksmedia/PKSPROPERTY_EXTXPORT_NODE_S, stream.ksproperty_extxport_node_s, KSPROPERTY_EXTXPORT_NODE_S structure [Streaming Media Devices], KSPROPERTY_EXTXPORT_NODE_S, vidcapstruct_06823ca7-5d41-494c-879e-0835ab0b447f.xml, ksmedia/KSPROPERTY_EXTXPORT_NODE_S
+ms.keywords: ksmedia/KSPROPERTY_EXTXPORT_NODE_S, vidcapstruct_06823ca7-5d41-494c-879e-0835ab0b447f.xml, KSPROPERTY_EXTXPORT_NODE_S, KSPROPERTY_EXTXPORT_NODE_S structure [Streaming Media Devices], PKSPROPERTY_EXTXPORT_NODE_S structure pointer [Streaming Media Devices], *PKSPROPERTY_EXTXPORT_NODE_S, PKSPROPERTY_EXTXPORT_NODE_S, stream.ksproperty_extxport_node_s, ksmedia/PKSPROPERTY_EXTXPORT_NODE_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_EXTXPORT_NODE_S
 product: Windows
 targetos: Windows
@@ -86,47 +86,12 @@ typedef struct {
 
 
 
+### -field NodeProperty
+
+Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
+
+
 ### -field u
-
-
-
-### -field u.Timecode
-
-Specifies the timecode, in hour:minute:second:frame format. This member is defined for future use.
-
-
-### -field u.Timecode.frame
-
-Specifies the frame. This member is defined for future use.
-
-
-### -field u.Timecode.second
-
-Specifies the second. This member is defined for future use.
-
-
-### -field u.Timecode.minute
-
-Specifies the minute. This member is defined for future use.
-
-
-### -field u.Timecode.hour
-
-Specifies the hour. This member is defined for future use.
-
-
-### -field u.RawAVC
-
-
-
-### -field u.RawAVC.PayloadSize
-
-Specifies the payload size.
-
-
-### -field u.RawAVC.Payload
-
-Describes the payload
 
 
 ### -field u.Capabilities
@@ -154,6 +119,31 @@ Describes the medium info.
 Describes the external transports state.
 
 
+### -field u.Timecode
+
+Specifies the timecode, in hour:minute:second:frame format. This member is defined for future use.
+
+
+### -field u.Timecode.frame
+
+Specifies the frame. This member is defined for future use.
+
+
+### -field u.Timecode.second
+
+Specifies the second. This member is defined for future use.
+
+
+### -field u.Timecode.minute
+
+Specifies the minute. This member is defined for future use.
+
+
+### -field u.Timecode.hour
+
+Specifies the hour. This member is defined for future use.
+
+
 ### -field u.dwTimecode
 
 Specifies the timecode, in hour:minute:second:frame format. This member is defined for future use.
@@ -164,15 +154,25 @@ Specifies the timecode, in hour:minute:second:frame format. This member is defin
 Specifies the absolute track number. This member is defined for future use.
 
 
-### -field NodeProperty
+### -field u.RawAVC
 
-Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
+
+### -field u.RawAVC.PayloadSize
+
+Specifies the payload size.
+
+
+### -field u.RawAVC.Payload
+
+Describes the payload
 
 
 ## -remarks
 
 
+
 Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i> in the Microsoft DirectX SDK.
+
 
 
 
@@ -180,11 +180,19 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 <a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565168">KSPROPERTY_EXTXPORT_STATE</a>
+
+
 
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
+
+
 <a href="..\ksmedia\ns-ksmedia-transport_state.md">TRANSPORT_STATE</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_DEVICE_POWER_STATE
-title: _STOR_DEVICE_POWER_STATE
+title: "_STOR_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The STOR_DEVICE_POWER_STATE enumerator specifies a device power state.
 old-location: storage\stor_device_power_state.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 563ece3e-1359-4e3c-9ae7-61b94bf90ad0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD1, PSTOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], StorPowerDeviceUnspecified, StorPowerDeviceD0, STOR_DEVICE_POWER_STATE, StorPowerDeviceD2, storport/STOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD2, storport/StorPowerDeviceUnspecified, storport/PSTOR_DEVICE_POWER_STATE, StorPowerDeviceMaximum, StorPowerDeviceD1, *PSTOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD3, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml, storport/StorPowerDeviceD0, storage.stor_device_power_state, StorPowerDeviceD3, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], storport/StorPowerDeviceMaximum
+ms.keywords: StorPowerDeviceMaximum, STOR_DEVICE_POWER_STATE enumeration [Storage Devices], storport/StorPowerDeviceD3, structs-storport_1b3e3040-821f-4cc1-9a5b-15ae5eaeb35e.xml, _STOR_DEVICE_POWER_STATE, PSTOR_DEVICE_POWER_STATE enumeration pointer [Storage Devices], storport/StorPowerDeviceD0, storport/StorPowerDeviceUnspecified, storport/StorPowerDeviceMaximum, storport/PSTOR_DEVICE_POWER_STATE, storport/STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE, STOR_DEVICE_POWER_STATE, StorPowerDeviceD0, StorPowerDeviceUnspecified, storage.stor_device_power_state, PSTOR_DEVICE_POWER_STATE, storport/StorPowerDeviceD1, StorPowerDeviceD2, StorPowerDeviceD3, storport/StorPowerDeviceD2, StorPowerDeviceD1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	STOR_DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
@@ -106,6 +106,8 @@ The upper delimiting value on device power states.
 ## -see-also
 
 <a href="..\storport\ns-storport-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
+
+
 
  
 

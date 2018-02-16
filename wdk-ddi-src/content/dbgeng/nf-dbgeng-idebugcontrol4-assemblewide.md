@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6ba291d7-c3e7-4f76-afc3-bf200bae2a8f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::AssembleWide, AssembleWide method [Windows Debugging], IDebugControl4 interface, AssembleWide method [Windows Debugging], IDebugControl4, IDebugControl4::AssembleWide, IDebugControl4 interface [Windows Debugging], AssembleWide method, debugger.assemblewide, AssembleWide
+ms.keywords: AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide, IDebugControl4 interface [Windows Debugging], AssembleWide method, AssembleWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::AssembleWide, AssembleWide method [Windows Debugging], IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.AssembleWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::AssembleWide method
@@ -87,6 +87,7 @@ Receives the location in the target's memory immediately following the assembled
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,30 +104,43 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 The assembly language depends on the effective processor type of the target machine.  For information about the assembly language, see the processor documentation.
+
 <div class="alert"><b>Note</b>  
-      The <a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a> and <b>AssembleWide</b> methods are not supported on some architectures, and on some other architectures not all instructions are supported.</div><div> </div>The assembly language options--returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>--affect the operation of this method.
+      The <a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a> and <b>AssembleWide</b> methods are not supported on some architectures, and on some other architectures not all instructions are supported.</div>
+<div> </div>
+The assembly language options--returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>--affect the operation of this method.
 
 For an overview of using assembly in debugger applications, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540661">Debugging in Assembly Mode</a>.  For more information about using assembly with the <a href="https://msdn.microsoft.com/e4d53375-c82e-493b-9ccb-444c211fbc79">debugger engine API</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538127">Assembling and Disassembling Instructions</a>.
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+
+
 
  
 

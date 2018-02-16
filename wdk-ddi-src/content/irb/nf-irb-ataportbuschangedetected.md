@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5a3d4dc-7446-49c1-985a-9d3a9d43dc15
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortBusChangeDetected routine [Storage Devices], irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected, AtaPortBusChangeDetected
+ms.keywords: AtaPortBusChangeDetected routine [Storage Devices], AtaPortBusChangeDetected, irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Irb.h
-apiname: 
+apiname:
 -	AtaPortBusChangeDetected
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ A pointer to the channel extension.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -remarks
 
 
+
 The miniport driver uses this routine to report the arrival or removal of any device that is attached to the channel. In response, the port driver will initiate a re-scan to discover and initialize the device. 
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ff67bc75-b424-4278-b979-f67d118232aa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExIsSoftBoot function [Kernel-Mode Driver Architecture], ExIsSoftBoot, wdm/ExIsSoftBoot, kernel.exissoftboot
+ms.keywords: ExIsSoftBoot, ExIsSoftBoot function [Kernel-Mode Driver Architecture], kernel.exissoftboot, wdm/ExIsSoftBoot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExIsSoftBoot
 product: Windows
 targetos: Windows
@@ -69,9 +69,12 @@ Determines whether the system has gone through a soft restart.
 
 
 
+
 ## -returns
 
 
+
 TRUE indicates a soft restart; FALSE otherwise.
+
 
 

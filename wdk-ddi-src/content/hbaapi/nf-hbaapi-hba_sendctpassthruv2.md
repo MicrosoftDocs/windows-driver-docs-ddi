@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95526c2d-19bf-4f4a-abfa-e5be73c1a6a5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SendCTPassThruV2, storage.hba_sendctpassthruv2, fibreHBA_rtns_8ed894f5-3f6c-4b71-a149-8e5624643aa0.xml, HBA_SendCTPassThruV2 routine [Storage Devices], hbaapi/HBA_SendCTPassThruV2
+ms.keywords: HBA_SendCTPassThruV2, hbaapi/HBA_SendCTPassThruV2, fibreHBA_rtns_8ed894f5-3f6c-4b71-a149-8e5624643aa0.xml, storage.hba_sendctpassthruv2, HBA_SendCTPassThruV2 routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_SendCTPassThruV2
 product: Windows
 targetos: Windows
@@ -103,24 +103,28 @@ TBD
 
 
 
-#### - RspBufferSize [in, out]
-
-On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. 
-
 
 #### - HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. 
 
 
+#### - RspBufferSize [in, out]
+
+On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffer</i>. On return, this member indicates the size, in bytes, of the response data. 
+
+
 ## -returns
+
 
 
 The <b>HBA_SendCTPassThruV2</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. If the HBA successfully delivers the command to the destination service, and the service executes the command and successfully returns the results, the HBA_SendCTPassThru routine returns a value of HBA_STATUS_OK. If the command does not succeed, this routine returns an appropriate error code of type HBA_STATUS.
 
 
 
+
 ## -remarks
+
 
 
 The <b>HBA_SendCTPassThruV2</b> library routine is identical to the <a href="..\hbaapi\nf-hbaapi-hba_sendctpassthru.md">HBA_SendCTPassThru</a> routine, except that <b>HBA_SendCTPassThruV2</b> allows the caller to specify the port through which the CT command will be issued. 
@@ -131,15 +135,24 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
 <a href="..\hbaapi\nf-hbaapi-hba_sendctpassthru.md">HBA_SendCTPassThru</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b752a764-1f7d-4768-9fa2-c8976560f840
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], wdm/RtlCheckRegistryKey, RtlCheckRegistryKey, kernel.rtlcheckregistrykey, k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml
+ms.keywords: RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], wdm/RtlCheckRegistryKey, k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml, kernel.rtlcheckregistrykey, RtlCheckRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlCheckRegistryKey
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ NTSTATUS RtlCheckRegistryKey(
 ### -param RelativeTo [in]
 
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -147,7 +148,8 @@ This value should not be passed into this routine. Despite the redundancy of a c
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Path [in]
@@ -158,13 +160,17 @@ Specifies the registry path according to the <i>RelativeTo</i> value. If RTL_REG
 ## -returns
 
 
+
 If the given named key exists in the registry along the given relative path, <b>RtlCheckRegistryKey</b> returns STATUS_SUCCESS.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+
+
 
  
 

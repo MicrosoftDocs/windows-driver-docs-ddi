@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4bf25ae0-30fa-49a6-a5a8-c807e14d9857
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_DXGI_RGB structure [Display Devices], D3DDDI_DXGI_RGB, DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml, d3dukmdt/D3DDDI_DXGI_RGB, display.d3dddi_dxgi_rgb
+ms.keywords: D3DDDI_DXGI_RGB, display.d3dddi_dxgi_rgb, D3DDDI_DXGI_RGB structure [Display Devices], d3dukmdt/D3DDDI_DXGI_RGB, DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_DXGI_RGB
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ A FLOAT value that is used to describe the gamma function for the blue color cha
 ## -see-also
 
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1.md">D3DDDI_GAMMA_RAMP_DXGI_1</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9e1f6a57-bc48-41c6-815c-6a44e8d01699
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.psgetprocessid, PsGetProcessId, k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, PsGetProcessId routine [Kernel-Mode Driver Architecture], ntddk/PsGetProcessId
+ms.keywords: PsGetProcessId routine [Kernel-Mode Driver Architecture], ntddk/PsGetProcessId, k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, kernel.psgetprocessid, PsGetProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsGetProcessId
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetProcessId function
@@ -75,14 +75,18 @@ A pointer to a process object structure.
 ## -returns
 
 
+
 <b>PsGetProcessId</b> returns the process ID of the process that the <i>Process</i> parameter specifies.
+
 
 
 
 ## -remarks
 
 
+
 The EPROCESS-typed process object structure is an opaque data structure that the operating system uses internally. To obtain a pointer to the EPROCESS structure for the current process, a driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>. To obtain a pointer to the EPROCESS structure for a different process, the driver can call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>. 
+
 
 
 
@@ -90,7 +94,11 @@ The EPROCESS-typed process object structure is an opaque data structure that the
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
+
+
 <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
 
  
 

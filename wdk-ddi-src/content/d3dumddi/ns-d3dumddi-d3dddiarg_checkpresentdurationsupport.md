@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: D72D6C06-DD6A-4051-9AD0-FD1E240C164A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport, d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
+ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 product: Windows
 targetos: Windows
@@ -97,6 +97,7 @@ See Remarks for more limitations on this value.
 ## -remarks
 
 
+
 Either  <b>ClosestSmallerDuration</b> or <b>ClosestLargerDuration</b> can be zero. However, if both  are zero, the device cannot seamlessly switch to a new refresh rate.
 
 If both <b>ClosestSmallerDuration</b> and <b>ClosestLargerDuration</b> have the same value as <b>DesiredPresentDuration</b>, the device can precisely match <b>DesiredPresentDuration</b>.
@@ -105,9 +106,12 @@ The difference between <b>DesiredPresentDuration</b> and <b>ClosestSmallerDurati
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkpresentdurationsupport.md">CheckPresentDurationSupport</a>
+
+
 
  
 

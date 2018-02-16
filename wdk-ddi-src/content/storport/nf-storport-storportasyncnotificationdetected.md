@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 558F652C-6D1A-4BAF-9C2C-3F4FE24651D2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, StorPortAsyncNotificationDetected, RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, storport/StorPortAsyncNotificationDetected, storage.storportasyncnotificationdetected, StorPortAsyncNotificationDetected routine [Storage Devices]
+ms.keywords: StorPortAsyncNotificationDetected routine [Storage Devices], RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, storport/StorPortAsyncNotificationDetected, storage.storportasyncnotificationdetected, RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, StorPortAsyncNotificationDetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortAsyncNotificationDetected
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ The status notifications to indicate to Storport.
 The Flags parameter contains a bitwise OR combination of status notifications. All status values can be set with the single <b>RAID_ASYNC_NOTIFY_SUPPORTED_FLAGS</b> value.
 
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -125,13 +126,16 @@ Notify Storport that an operational role of the storage device has changed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 A status value indicating the result of the notification. This can be one of these values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -193,11 +197,14 @@ A prior notification is in process and this one cannot be scheduled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A miniport can detect status events in its <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a> routine and call <b>StorPortAsyncNotificationDetected</b> to queue and process the status change notification later at a lower IRQL. 
@@ -205,5 +212,6 @@ A miniport can detect status events in its <a href="..\storport\nc-storport-hw_i
 When processed by Storport, the status event notification is forwarded to the storage class driver to initiate any necessary system response actions.
 
 If the <i>Flags</i> parameter is 0, Storport will indicate all status values in its notification to the storage class driver.
+
 
 

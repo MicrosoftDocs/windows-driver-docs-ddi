@@ -7,8 +7,8 @@ old-location: ifsk\ccsetloghandleforfile.htm
 old-project: ifsk
 ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.ccsetloghandleforfile, ntifs/CcSetLogHandleForFile, CcSetLogHandleForFile, LogHandle, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, Lsn, CcSetLogHandleForFile routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: ifsk.ccsetloghandleforfile, Lsn, LogHandle, CcSetLogHandleForFile routine [Installable File System Drivers], ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, ntifs/CcSetLogHandleForFile, CcSetLogHandleForFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CcSetLogHandleForFile
 product: Windows
 targetos: Windows
@@ -82,6 +82,7 @@ Pointer to the log handle that is to be stored.
 ### -param FlushToLsnRoutine [in]
 
 Pointer to a log file flush callback routine to call before flushing buffers for this file. This routine is called to ensure that a log file is flushed to the most recent logical sequence number (LSN) for any buffer control block (BCB) being flushed. This routine is declared as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -97,12 +98,14 @@ VOID (*PFLUSH_TO_LSN) (
 </tr>
 </table></span></div>
 
-##### - FlushToLsnRoutine.LogHandle
+
+#### LogHandle
 
 Pointer to an opaque structure that is used to identify this client. 
 
 
-##### - FlushToLsnRoutine.Lsn
+
+#### Lsn
 
 This is the LSN that must be on the disk on return from this callback routine. 
 
@@ -110,26 +113,34 @@ This is the LSN that must be on the disk on return from this callback routine.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>CcSetLogHandleForFile</b> sets a log handle for a file, for use in subsequent calls to <a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>. 
+
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
-
 <a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetLogHandleForFile routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetLogHandleForFile routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

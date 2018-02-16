@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67942bf7-28f6-4b2d-a880-9439afaf0bb2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RemoveTailList, kernel.removetaillist, RemoveTailList routine [Kernel-Mode Driver Architecture], k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, RemoveTailList
+ms.keywords: k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, RemoveTailList, RemoveTailList routine [Kernel-Mode Driver Architecture], kernel.removetaillist, wdm/RemoveTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	RemoveTailList
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 ## -returns
 
 
+
 <b>RemoveTailList</b> returns a pointer to the entry that was at the tail of the list. If the list is empty, <b>RemoveTailList</b> returns <i>ListHead</i>. 
 
 
 
+
 ## -remarks
+
 
 
 <b>RemoveTailList</b> removes the last entry from the list by setting <i>ListHead</i>-&gt;<b>Blink</b> to point to the second-to-last entry in the list. The routine sets the <b>Flink</b> member of the new first entry to <i>ListHead</i>. In the event the list is empty, this is effectively a no-op.
@@ -91,15 +94,24 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
 
+
+
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
+
+
+
 <a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+
 
 <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
-<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
+
 
  
 

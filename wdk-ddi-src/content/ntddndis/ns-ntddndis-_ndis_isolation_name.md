@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ISOLATION_NAME
-title: _NDIS_ISOLATION_NAME
+title: "_NDIS_ISOLATION_NAME"
 author: windows-driver-content
 description: The NDIS_ISOLATION_NAME structure contains an NDIS isolation name for a VM network adapter.
 old-location: netvista\ndis_isolation_name.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4712F853-8819-476C-8AD9-426EA5A0802E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_ISOLATION_NAME, netvista.ndis_isolation_name, _NDIS_ISOLATION_NAME, *PNDIS_ISOLATION_ID_NAME, NDIS_ISOLATION_ID_NAME, NDIS_ISOLATION_NAME structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_ISOLATION_NAME, *PNDIS_ROUTING_DOMAIN_NAME, NDIS_ROUTING_DOMAIN_NAME
+ms.keywords: NDIS_ISOLATION_NAME structure [Network Drivers Starting with Windows Vista], *PNDIS_ROUTING_DOMAIN_NAME, ntddndis/NDIS_ISOLATION_NAME, _NDIS_ISOLATION_NAME, netvista.ndis_isolation_name, NDIS_ROUTING_DOMAIN_NAME, NDIS_ISOLATION_NAME, *PNDIS_ISOLATION_ID_NAME, NDIS_ISOLATION_ID_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_ISOLATION_NAME
 product: Windows
 targetos: Windows
@@ -92,6 +92,7 @@ A <b>NULL</b>-terminated string that contains the NDIS isolation name. The isola
 ## -remarks
 
 
+
 This structure is used in:<ul>
 <li>
 The <b>IsolationIdName</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_isolation_entry.md">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a> structure.
@@ -110,15 +111,24 @@ The <b>RoutingDomainName</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndi
 
 
 
-## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_routing_domain.md">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a>
+## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_entry.md">NDIS_ROUTING_DOMAIN_ENTRY</a>
 
+
+
 <a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_isolation_entry.md">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_routing_domain.md">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	pfnMakeResidentCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident.md">D3DDDI_MAKERESIDENT</a> structure that describes the memory pages to make resident.
@@ -93,7 +95,9 @@ A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident.md">D3DDDI_M
 ## -returns
 
 
+
 <i>pfnMakeResidentCb</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,7 +149,9 @@ For the DirectX 12.0 user mode driver, <i>pfnMakeResidentCb</i> behaves slightly
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -153,7 +159,11 @@ For the DirectX 12.0 user mode driver, <i>pfnMakeResidentCb</i> behaves slightly
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a>
 
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident.md">D3DDDI_MAKERESIDENT</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKSHAREDRESOURCEACCESS
-title: _D3DKMT_CHECKSHAREDRESOURCEACCESS
+title: "_D3DKMT_CHECKSHAREDRESOURCEACCESS"
 author: windows-driver-content
 description: The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the D3DKMTCheckSharedResourceAccess function uses to determine if a process can access a shared resource.
 old-location: display\d3dkmt_checksharedresourceaccess.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1749127f-c5fc-4e69-a2dd-00540e1c4c9a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_5d797cef-2ace-482b-a7b2-82b26a2c7504.xml, D3DKMT_CHECKSHAREDRESOURCEACCESS structure [Display Devices], d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS, _D3DKMT_CHECKSHAREDRESOURCEACCESS, D3DKMT_CHECKSHAREDRESOURCEACCESS, display.d3dkmt_checksharedresourceaccess
+ms.keywords: "_D3DKMT_CHECKSHAREDRESOURCEACCESS, d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS, D3DKMT_CHECKSHAREDRESOURCEACCESS structure [Display Devices], D3DKMT_CHECKSHAREDRESOURCEACCESS, display.d3dkmt_checksharedresourceaccess, OpenGL_Structs_5d797cef-2ace-482b-a7b2-82b26a2c7504.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CHECKSHAREDRESOURCEACCESS
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtchecksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_HYPERVISOR_PARTITION_TYPE
-title: _NDIS_HYPERVISOR_PARTITION_TYPE
+title: "_NDIS_HYPERVISOR_PARTITION_TYPE"
 author: windows-driver-content
 description: The NDIS_HYPERVISOR_PARTITION_TYPE enumeration identifies the current partition type that is running on the hypervisor.
 old-location: netvista\ndis_hypervisor_partition_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 830460f8-4cd6-4a52-ac32-004dc4a204e3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisHypervisorPartitionTypeUnknown, ntddndis/NdisHypervisorPartitionTypeUnknown, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionMsHvChild, NdisHypervisorPartitionTypeMax, ntddndis/NdisHypervisorPartitionTypeMax, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionMsHvChild, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml, PNDIS_HYPERVISOR_PARTITION_TYPE, netvista.ndis_hypervisor_partition_type, NDIS_HYPERVISOR_PARTITION_TYPE
+ms.keywords: ntddndis/NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionTypeMax, ntddndis/NdisHypervisorPartitionMsHvChild, _NDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisHypervisorPartitionTypeUnknown, ntddndis/NdisHypervisorPartitionTypeMax, PNDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionTypeMsHvParent, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml, netvista.ndis_hypervisor_partition_type, ntddndis/NdisHypervisorPartitionTypeUnknown, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionMsHvChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_HYPERVISOR_PARTITION_TYPE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE
+req.typenames: "*PNDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE"
 ---
 
 # _NDIS_HYPERVISOR_PARTITION_TYPE enumeration
@@ -78,7 +78,9 @@ typedef enum _NDIS_HYPERVISOR_PARTITION_TYPE {
 ### -field NdisHypervisorPartitionTypeUnknown
 
 The partition type that is running on the hypervisor is not known.
-<div class="alert"><b>Note</b>  This enumeration value is used to identify a partition type for a third-party hypervisor.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This enumeration value is used to identify a partition type for a third-party hypervisor.</div>
+<div> </div>
 
 ### -field NdisHypervisorPartitionTypeMsHvParent
 
@@ -101,13 +103,17 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 For more information about Hyper-V parent and child partitions, see <a href="https://msdn.microsoft.com/467996B2-9319-47F9-BAEB-5AC1F20B6E01">Virtualized Networking Concepts and Terms</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a>
+
+
 
  
 

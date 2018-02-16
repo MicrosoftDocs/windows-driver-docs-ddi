@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c6824215-0c16-471e-aea9-1b5cbeb2286b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, GetPipeWriteParameters method, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, GetPipeWriteParameters, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters
+ms.keywords: GetPipeWriteParameters method, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters, GetPipeWriteParameters, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, IWDFUsbRequestCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbRequestCompletionParams.GetPipeWriteParameters
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -90,15 +90,21 @@ A pointer to a variable that receives the offset, in bytes, into the write buffe
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
 
  
 

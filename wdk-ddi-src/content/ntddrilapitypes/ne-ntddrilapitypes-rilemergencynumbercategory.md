@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1ad9a15-70c8-4331-b350-f681aa216aaf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEMERGENCYNUMBERCATEGORY, ntddrilapitypes/RIL_ENUM_AMBULANCE, ntddrilapitypes/RIL_ENUM_MARINE_GUARD, ntddrilapitypes/RIL_ENUM_FIRE_BRIGADE, ntddrilapitypes/RIL_ENUM_MOUNTAIN_RESCUE, RIL_ENUM_AMBULANCE, ntddrilapitypes/RILEMERGENCYNUMBERCATEGORY, RIL_ENUM_MOUNTAIN_RESCUE, netvista.rilemergencynumbercategory, RIL_ENUM_MARINE_GUARD, RIL_ENUM_FIRE_BRIGADE, ntddrilapitypes/RIL_ENUM_MANUAL_ECALL, RILEMERGENCYNUMBERCATEGORY enumeration [Network Drivers Starting with Windows Vista], RIL_ENUM_MANUAL_ECALL, ntddrilapitypes/RIL_ENUM_AUTO_ECALL, RIL_ENUM_AUTO_ECALL, RIL_ENUM_ALL, ntddrilapitypes/RIL_ENUM_ALL
+ms.keywords: ntddrilapitypes/RIL_ENUM_FIRE_BRIGADE, netvista.rilemergencynumbercategory, ntddrilapitypes/RILEMERGENCYNUMBERCATEGORY, RIL_ENUM_FIRE_BRIGADE, RIL_ENUM_ALL, RILEMERGENCYNUMBERCATEGORY enumeration [Network Drivers Starting with Windows Vista], RILEMERGENCYNUMBERCATEGORY, RIL_ENUM_MOUNTAIN_RESCUE, ntddrilapitypes/RIL_ENUM_ALL, RIL_ENUM_AMBULANCE, RIL_ENUM_MARINE_GUARD, ntddrilapitypes/RIL_ENUM_AMBULANCE, ntddrilapitypes/RIL_ENUM_MANUAL_ECALL, ntddrilapitypes/RIL_ENUM_AUTO_ECALL, RIL_ENUM_MANUAL_ECALL, ntddrilapitypes/RIL_ENUM_MARINE_GUARD, ntddrilapitypes/RIL_ENUM_MOUNTAIN_RESCUE, RIL_ENUM_AUTO_ECALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILEMERGENCYNUMBERCATEGORY
 product: Windows
 targetos: Windows
@@ -76,31 +76,23 @@ typedef enum _RILEMERGENCYNUMBERCATEGORY {
 ### -field RIL_ENUM_POLICE
 
 
-
 ### -field RIL_ENUM_AMBULANCE
-
 
 
 ### -field RIL_ENUM_FIRE_BRIGADE
 
 
-
 ### -field RIL_ENUM_MARINE_GUARD
-
 
 
 ### -field RIL_ENUM_MOUNTAIN_RESCUE
 
 
-
 ### -field RIL_ENUM_MANUAL_ECALL
-
 
 
 ### -field RIL_ENUM_AUTO_ECALL
 
 
-
 ### -field RIL_ENUM_ALL
-
 

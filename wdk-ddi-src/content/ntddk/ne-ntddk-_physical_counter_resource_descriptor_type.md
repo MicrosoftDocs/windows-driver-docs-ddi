@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
-title: _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
+title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE"
 author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration contains constants that indicate the type of hardware performance counter resource that is described by a PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure.
 old-location: kernel\physical_counter_resource_descriptor_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58fa1312-eb21-405d-85de-59ea69d9447f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/ResourceTypeSingle, ResourceTypeSingle, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/ResourceTypeRange, sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml, ResourceTypeMax, ntddk/ResourceTypeMax, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, kernel.physical_counter_resource_descriptor_type, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ResourceTypeRange, ntddk/ResourceTypeOverflow, ResourceTypeExtendedCounterConfiguration, ResourceTypeOverflow, ntddk/ResourceTypeExtendedCounterConfiguration, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
+ms.keywords: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ResourceTypeExtendedCounterConfiguration, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ntddk/ResourceTypeMax, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/ResourceTypeSingle, ResourceTypeMax, ResourceTypeOverflow, kernel.physical_counter_resource_descriptor_type, ntddk/ResourceTypeRange, sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml, ResourceTypeSingle, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ResourceTypeRange, ntddk/ResourceTypeOverflow, ntddk/ResourceTypeExtendedCounterConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
 product: Windows
 targetos: Windows
@@ -99,13 +99,17 @@ The maximum value in this enumeration type.
 ## -remarks
 
 
+
 The <b>Type</b> member of a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure uses a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration constant to indicate the type of counter resource that is described by the structure.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\ns-ntddk-_physical_counter_resource_descriptor.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

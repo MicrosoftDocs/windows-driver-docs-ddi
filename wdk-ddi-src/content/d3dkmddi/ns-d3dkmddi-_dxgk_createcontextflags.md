@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATECONTEXTFLAGS
-title: _DXGK_CREATECONTEXTFLAGS
+title: "_DXGK_CREATECONTEXTFLAGS"
 author: windows-driver-content
 description: The DXGK_CREATECONTEXTFLAGS structure identifies how to create contexts.
 old-location: display\dxgk_createcontextflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7cadf78-c908-4034-889d-b5c7d0ffdaad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS, _DXGK_CREATECONTEXTFLAGS, display.dxgk_createcontextflags, DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml, DXGK_CREATECONTEXTFLAGS structure [Display Devices]
+ms.keywords: DXGK_CREATECONTEXTFLAGS structure [Display Devices], display.dxgk_createcontextflags, DXGK_CREATECONTEXTFLAGS, d3dkmddi/DXGK_CREATECONTEXTFLAGS, _DXGK_CREATECONTEXTFLAGS, DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_CREATECONTEXTFLAGS
 product: Windows
 targetos: Windows
@@ -125,9 +125,13 @@ A member in the union that DXGK_CREATECONTEXTFLAGS contains that can hold a 32-b
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
+
 
  
 

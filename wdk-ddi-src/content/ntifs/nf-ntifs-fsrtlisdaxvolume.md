@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlisdaxvolume.htm
 old-project: ifsk
 ms.assetid: FFCD2329-FD6A-48AE-8E9D-56AA7D79B174
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.fsrtlisdaxvolume, FsRtlIsDaxVolume, ntifs/FsRtlIsDaxVolume, FsRtlIsDaxVolume routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: FsRtlIsDaxVolume routine [Installable File System Drivers], ifsk.fsrtlisdaxvolume, ntifs/FsRtlIsDaxVolume, FsRtlIsDaxVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	FsRtlIsDaxVolume
 product: Windows
 targetos: Windows
@@ -75,15 +75,19 @@ A file object for a file, on the volume which is being queried.
 ## -returns
 
 
+
 Returns <b>true</b> if the file is on a DAX volume; otherwise, <b>false</b>.
+
 
 
 
 ## -remarks
 
 
+
 In DAX volumes,  user files
     are mapped directly to the persistent memory device.  Files are
     then accessed using the memory bus, to help boost system performance.
+
 
 

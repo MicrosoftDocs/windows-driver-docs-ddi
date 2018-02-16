@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_DUMP_IO
-title: _KBUGCHECK_DUMP_IO
+title: "_KBUGCHECK_DUMP_IO"
 author: windows-driver-content
 description: The KBUGCHECK_DUMP_IO structure describes an I/O operation on the crash dump file.
 old-location: kernel\kbugcheck_dump_io.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d1c246bd-314d-475f-9df8-f1bf90355a5a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/KBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], wdm/PKBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], kernel.kbugcheck_dump_io, _KBUGCHECK_DUMP_IO, kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml
+ms.keywords: PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], KBUGCHECK_DUMP_IO, kernel.kbugcheck_dump_io, wdm/KBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO, wdm/PKBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO, _KBUGCHECK_DUMP_IO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KBUGCHECK_DUMP_IO
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ Specifies the <a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_
 ## -remarks
 
 
+
 For information about how this structure is used, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>.
+
 
 
 
@@ -102,7 +104,11 @@ For information about how this structure is used, see <a href="https://msdn.micr
 
 <a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_IO_TYPE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
+
+
 
  
 

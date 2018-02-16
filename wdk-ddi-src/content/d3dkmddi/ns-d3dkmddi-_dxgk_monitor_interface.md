@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITOR_INTERFACE
-title: _DXGK_MONITOR_INTERFACE
+title: "_DXGK_MONITOR_INTERFACE"
 author: windows-driver-content
 description: The DXGK_MONITOR_INTERFACE structure contains pointers to functions that belong to the Monitor Interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitor_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: edb6df63-7354-4da3-b641-2ce7f28ca7e8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MONITOR_INTERFACE, display.dxgk_monitor_interface, d3dkmddi/DXGK_MONITOR_INTERFACE, DXGK_MONITOR_INTERFACE structure [Display Devices], _DXGK_MONITOR_INTERFACE, DmStructs_23906e50-4f65-4483-a54c-915f9fd3c433.xml
+ms.keywords: d3dkmddi/DXGK_MONITOR_INTERFACE, DXGK_MONITOR_INTERFACE structure [Display Devices], _DXGK_MONITOR_INTERFACE, DmStructs_23906e50-4f65-4483-a54c-915f9fd3c433.xml, display.dxgk_monitor_interface, DXGK_MONITOR_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_MONITOR_INTERFACE
 product: Windows
 targetos: Windows
@@ -99,16 +99,23 @@ A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitordesc
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>    A display miniport driver must verify the interface version specified in the <b>Version</b> member before using <p class="note">this structure.
 
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
 
+
+
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_monitor_interface_version.md">DXGK_MONITOR_INTERFACE_VERSION</a>
+
+
 
  
 

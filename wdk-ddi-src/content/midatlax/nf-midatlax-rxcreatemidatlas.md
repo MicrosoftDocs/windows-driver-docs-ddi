@@ -7,8 +7,8 @@ old-location: ifsk\rxcreatemidatlas.htm
 old-project: ifsk
 ms.assetid: 7c3fed89-a4e1-436f-9cbb-e140ad42bb13
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rxcreatemidatlas, midatlax/RxCreateMidAtlas, RxCreateMidAtlas, RxCreateMidAtlas function [Installable File System Drivers], rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml
+ms.date: 2/7/2018
+ms.keywords: RxCreateMidAtlas, midatlax/RxCreateMidAtlas, ifsk.rxcreatemidatlas, rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml, RxCreateMidAtlas function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	midatlax.h
-apiname: 
+apiname:
 -	RxCreateMidAtlas
 product: Windows
 targetos: Windows
-req.typenames: *PMCD_INIT_DATA, MCD_INIT_DATA
+req.typenames: "*PMCD_INIT_DATA, MCD_INIT_DATA"
 ---
 
 # RxCreateMidAtlas function
@@ -79,24 +79,28 @@ TBD
 
 
 
-#### - MidsAllocatedAtStart
-
-The number of multiplex IDs allocated initially.
-
 
 #### - MaximumNumberOfMids
 
 The maximum number of multiplex IDs (MIDs) to be allowed in the atlas.
 
 
+#### - MidsAllocatedAtStart
+
+The number of multiplex IDs allocated initially.
+
+
 ## -returns
+
 
 
 <b>RxCreateMidAtlas</b> returns a pointer to allocated and initialized MID_ATLAS data structure on success or a <b>NULL</b> pointer on failure. 
 
 
 
+
 ## -remarks
+
 
 
 RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the network client (mini-redirector) and the server to distinguish between the concurrently active requests on any connection. 
@@ -109,21 +113,32 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 
 
+
 ## -see-also
-
-<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
-
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 <a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
 
+
+
 <a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
+
+
 
 <a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
 
- 
+
+
+<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCreateMidAtlas function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCreateMidAtlas function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

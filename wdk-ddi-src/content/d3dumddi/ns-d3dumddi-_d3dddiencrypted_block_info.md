@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIENCRYPTED_BLOCK_INFO
-title: _D3DDDIENCRYPTED_BLOCK_INFO
+title: "_D3DDDIENCRYPTED_BLOCK_INFO"
 author: windows-driver-content
 description: The D3DDDIENCRYPTED_BLOCK_INFO structure describes the portions of a buffer that are encrypted.
 old-location: display\d3dddiencrypted_block_info.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a02f782f-6918-479a-b3de-9443df2e9ffe
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIENCRYPTED_BLOCK_INFO, display.d3dddiencrypted_block_info, D3DDDIENCRYPTED_BLOCK_INFO, D3DDDIENCRYPTED_BLOCK_INFO structure [Display Devices], D3D_other_Structs_ca22516f-415c-47ff-9ba5-b837171cf77e.xml, d3dumddi/D3DDDIENCRYPTED_BLOCK_INFO
+ms.keywords: display.d3dddiencrypted_block_info, D3DDDIENCRYPTED_BLOCK_INFO, D3DDDIENCRYPTED_BLOCK_INFO structure [Display Devices], d3dumddi/D3DDDIENCRYPTED_BLOCK_INFO, D3D_other_Structs_ca22516f-415c-47ff-9ba5-b837171cf77e.xml, _D3DDDIENCRYPTED_BLOCK_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIENCRYPTED_BLOCK_INFO
 product: Windows
 targetos: Windows
@@ -87,11 +87,13 @@ typedef struct _D3DDDIENCRYPTED_BLOCK_INFO {
 ## -remarks
 
 
+
 Because the buffer's encrypted portion is specified in bytes, an application must ensure that the encrypted blocks match the GPU's crypto-block alignment. 
 
 The runtime can specify a populated D3DDDIENCRYPTED_BLOCK_INFO structure in the block of memory that the <b>pEncryptedBlockInfo</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decryptionblt.md">D3DDDIARG_DECRYPTIONBLT</a> structure points to when the runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a> function to write data to a protected surface. 
 
 The following examples show how the runtime can partition a buffer's encryption.
+
 <ol>
 <li>The following values encrypt the first 100 bytes of the buffer and skip the remaining buffer data:<ul>
 <li><b>NumEncryptedBytesAtBeginning</b> = 100;</li>
@@ -108,11 +110,16 @@ The following examples show how the runtime can partition a buffer's encryption.
 </ol>
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decryptionblt.md">D3DDDIARG_DECRYPTIONBLT</a>
+
+
 
  
 

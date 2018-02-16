@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UNORDEREDPRESENTSWAPCHAIN
-title: _D3DKMT_UNORDEREDPRESENTSWAPCHAIN
+title: "_D3DKMT_UNORDEREDPRESENTSWAPCHAIN"
 author: windows-driver-content
 description: Used to store information about the swapchain being presented.
 old-location: display\d3dkmt-unorderedpresentswapchain.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c8b13348-71a6-4981-8c99-6368fa0f01ff
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_UNORDEREDPRESENTSWAPCHAIN, _D3DKMT_UNORDEREDPRESENTSWAPCHAIN, d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure [Display Devices], display.d3dkmt-unorderedpresentswapchain
+ms.keywords: D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure [Display Devices], d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN, display.d3dkmt-unorderedpresentswapchain, _D3DKMT_UNORDEREDPRESENTSWAPCHAIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_UNORDEREDPRESENTSWAPCHAIN
 product: Windows
 targetos: Windows

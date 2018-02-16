@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/RtlCompareString, RtlCompareString routine [Kernel-Mode Driver Architecture], k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, kernel.rtlcomparestring, RtlCompareString
+ms.keywords: RtlCompareString, ntddk/RtlCompareString, k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, kernel.rtlcomparestring, RtlCompareString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlCompareString
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # RtlCompareString function
@@ -88,7 +88,9 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 ## -returns
 
 
+
 <b>RtlCompareString</b> returns a signed value that gives the results of the comparison:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,15 +129,21 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
 
-<a href="..\wdm\nf-wdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
+
 
  
 

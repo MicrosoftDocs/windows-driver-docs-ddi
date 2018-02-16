@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 651f5207-36c8-4d46-8305-950efb2365bf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks interface [Windows Debugging], SystemError method, SystemError, IDebugEventCallbacks::SystemError, IDebugEventCallbacks, ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, dbgeng/IDebugEventCallbacks::SystemError, debugger.idebugeventcallbacks_systemerror, SystemError method [Windows Debugging], IDebugEventCallbacks interface, SystemError method [Windows Debugging]
+ms.keywords: debugger.idebugeventcallbacks_systemerror, IDebugEventCallbacks::SystemError, SystemError method [Windows Debugging], SystemError method [Windows Debugging], IDebugEventCallbacks interface, SystemError, dbgeng/IDebugEventCallbacks::SystemError, IDebugEventCallbacks interface [Windows Debugging], SystemError method, IDebugEventCallbacks, ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.SystemError
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacks::SystemError method
@@ -81,15 +81,19 @@ Specifies the severity of the error.
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 
 
 ## -remarks
 
 
+
 This method is only called by the engine if the DEBUG_EVENT_SYSTEM_ERROR flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

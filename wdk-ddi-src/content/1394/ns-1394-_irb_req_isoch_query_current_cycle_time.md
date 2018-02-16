@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
-title: _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
+title: "_IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME"
 author: windows-driver-content
 description: This structure contains the fields necessary for the Bus driver to carry out an IsochQueryCurrentCycleTime request.
 old-location: ieee\irb_req_isoch_query_current_cycle_time.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 4C42FB6D-BD5B-4376-A618-15AD6754AD9B
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, IEEE.irb_req_isoch_query_current_cycle_time, 1394/IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME structure [Buses]
+ms.keywords: "_IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, IEEE.irb_req_isoch_query_current_cycle_time, IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME structure [Buses], IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, 1394/IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
 product: Windows
 targetos: Windows

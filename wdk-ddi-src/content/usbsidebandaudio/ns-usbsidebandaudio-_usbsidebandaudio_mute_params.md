@@ -1,14 +1,14 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_MUTE_PARAMS
-title: _USBSIDEBANDAUDIO_MUTE_PARAMS
+title: "_USBSIDEBANDAUDIO_MUTE_PARAMS"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_mute_params.htm
 old-project: audio
 ms.assetid: 11FA1378-335A-402A-867C-F509D61153CA
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: USBSIDEBANDAUDIO_MUTE_PARAMS, audio.usbsidebandaudio_mute_params, PUSBSIDEBANDAUDIO_MUTE_PARAMS structure pointer [Audio Devices], PUSBSIDEBANDAUDIO_MUTE_PARAMS, usbsidebandaudio/PUSBSIDEBANDAUDIO_MUTE_PARAMS, _USBSIDEBANDAUDIO_MUTE_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_MUTE_PARAMS, USBSIDEBANDAUDIO_MUTE_PARAMS structure [Audio Devices], *PUSBSIDEBANDAUDIO_MUTE_PARAMS
+ms.date: 2/8/2018
+ms.keywords: PUSBSIDEBANDAUDIO_MUTE_PARAMS structure pointer [Audio Devices], *PUSBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS, USBSIDEBANDAUDIO_MUTE_PARAMS, audio.usbsidebandaudio_mute_params, usbsidebandaudio/USBSIDEBANDAUDIO_MUTE_PARAMS, usbsidebandaudio/PUSBSIDEBANDAUDIO_MUTE_PARAMS, _USBSIDEBANDAUDIO_MUTE_PARAMS, USBSIDEBANDAUDIO_MUTE_PARAMS structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,13 +29,13 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	kbSyntax
-apitype: 
+apitype:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+apilocation:
+-
+apiname:
 -	USBSIDEBANDAUDIO_MUTE_PARAMS
 product: Windows
 targetos: Windows
@@ -87,12 +87,13 @@ typedef struct _USBSIDEBANDAUDIO_MUTE_PARAMS {
 
 
 
-#### - Reserved 1
+
+#### - Reserved 0
 
 TBD
 
 
-#### - Reserved 0
+#### - Reserved 1
 
 TBD
 

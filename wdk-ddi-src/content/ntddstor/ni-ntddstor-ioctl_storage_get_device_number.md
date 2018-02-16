@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	IOCTL_STORAGE_GET_DEVICE_NUMBER
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
 ---
 
 # IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL
@@ -88,14 +88,18 @@ The driver returns the <a href="..\ntddstor\ns-ntddstor-_storage_device_number.m
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 ## -see-also
 
 <a href="..\ntddstor\ns-ntddstor-_storage_device_number.md">STORAGE_DEVICE_NUMBER</a>
+
+
 
  
 

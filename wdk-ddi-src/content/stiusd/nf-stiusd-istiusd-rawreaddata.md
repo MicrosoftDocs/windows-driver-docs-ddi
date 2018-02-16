@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6ae64309-da53-420b-bf87-e8924e902dba
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: IStiUSD::RawReadData, stiusd/IStiUSD::RawReadData, IStiUSD, RawReadData method [Imaging Devices], RawReadData, IStiUSD interface [Imaging Devices], RawReadData method, RawReadData method [Imaging Devices], IStiUSD interface, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, image.istiusd_rawreaddata
+ms.keywords: RawReadData method [Imaging Devices], IStiUSD interface, image.istiusd_rawreaddata, IStiUSD::RawReadData, stiusd/IStiUSD::RawReadData, RawReadData method [Imaging Devices], IStiUSD, RawReadData, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, IStiUSD interface [Imaging Devices], RawReadData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.RawReadData
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -88,11 +88,14 @@ Optional, caller-supplied pointer to an OVERLAPPED structure (described in the M
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 A still image minidriver typically implements this method by calling <b>ReadFile</b> (described in the Windows SDK documentation).
@@ -101,9 +104,12 @@ For USB devices, better performance can be achieved if read requests are aligned
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543760">IStiDevice::RawReadData</a>
+
+
 
  
 

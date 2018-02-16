@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_DOWN_SAMPLE_INFO
-title: _WIAS_DOWN_SAMPLE_INFO
+title: "_WIAS_DOWN_SAMPLE_INFO"
 author: windows-driver-content
 description: The WIAS_DOWN_SAMPLE_INFO structure stores information used by the downsampling helper function, wiasDownSampleBuffer.
 old-location: image\wias_down_sample_info.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: af9d35d8-9e3c-4be0-8ba4-a0b548b1d7ac
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices], WIAS_DOWN_SAMPLE_INFO, wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml, wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO, wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO, _WIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices], image.wias_down_sample_info
+ms.keywords: PWIAS_DOWN_SAMPLE_INFO, _WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO, wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices], WIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices], image.wias_down_sample_info, wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	WIAS_DOWN_SAMPLE_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO
+req.typenames: WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -142,6 +142,8 @@ Points to the destination buffer.
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wiasdownsamplebuffer.md">wiasDownSampleBuffer</a>
+
+
 
  
 

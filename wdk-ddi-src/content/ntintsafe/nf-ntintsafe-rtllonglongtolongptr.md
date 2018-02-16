@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1E7B693A-B363-4AE0-B9E3-45CC01FE9724
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtllonglongtolongptr, RtlLongLongToLongPtr, ntintsafe/RtlLongLongToLongPtr, RtlLongLongToLongPtr function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtllonglongtolongptr, RtlLongLongToLongPtr function [Kernel-Mode Driver Architecture], RtlLongLongToLongPtr, ntintsafe/RtlLongLongToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlLongLongToLongPtr
 product: Windows
 targetos: Windows
@@ -81,9 +81,11 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>
 RtlLongLongToSSIZET
@@ -97,4 +99,5 @@ RtlLongLongToSSIZET
 <li>RtlInt64ToSSIZET
 </li>
 </ul>
+
 

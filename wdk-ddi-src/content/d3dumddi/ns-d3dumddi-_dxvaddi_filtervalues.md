@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_FILTERVALUES
-title: _DXVADDI_FILTERVALUES
+title: "_DXVADDI_FILTERVALUES"
 author: windows-driver-content
 description: The DXVADDI_FILTERVALUES structure describes values that are related to a filter.
 old-location: display\dxvaddi_filtervalues.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 45273541-0638-4e8e-b6b7-5183b481ccc4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_FILTERVALUES, DXVA2_Structs_1425eb3e-586d-4777-be61-8a73148286d4.xml, _DXVADDI_FILTERVALUES, DXVADDI_FILTERVALUES, display.dxvaddi_filtervalues, DXVADDI_FILTERVALUES structure [Display Devices]
+ms.keywords: display.dxvaddi_filtervalues, _DXVADDI_FILTERVALUES, DXVA2_Structs_1425eb3e-586d-4777-be61-8a73148286d4.xml, d3dumddi/DXVADDI_FILTERVALUES, DXVADDI_FILTERVALUES structure [Display Devices], DXVADDI_FILTERVALUES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_FILTERVALUES
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ typedef struct _DXVADDI_FILTERVALUES {
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
+
+
 
  
 

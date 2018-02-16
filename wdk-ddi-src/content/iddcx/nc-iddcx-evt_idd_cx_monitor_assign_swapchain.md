@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
 product: Windows
 targetos: Windows
@@ -91,17 +91,22 @@ typedef EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN;
 
 
 
+
 (NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
                     
+
 
 
 
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>  <p class="note">The resolution of the surfaces in the swapchain will always be the same resolution as the target mode set.
         The format of the surfaces will be one of the formats supported by the driver, but the format of each acquired buffer may
         change between the formats supported from frame to frame. The driver should check the format of each buffer acquired.
 
-</div><div> </div>
+</div>
+<div> </div>
+
 

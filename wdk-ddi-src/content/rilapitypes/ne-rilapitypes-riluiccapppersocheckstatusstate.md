@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 389c20de-7ff2-47c6-8393-529e401e56e0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILUICCAPPPERSOCHECKSTATUSSTATE, netvista.riluiccapppersocheckstatusstate_2, rilapitypes/RIL_PERSOCHECKSTATE_MAX, rilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, RIL_PERSOCHECKSTATE_MAX, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_PASS, RIL_PERSOCHECKSTATE_FAIL, rilapitypes/RIL_PERSOCHECKSTATE_PASS
+ms.keywords: RILUICCAPPPERSOCHECKSTATUSSTATE, rilapitypes/RIL_PERSOCHECKSTATE_PASS, RIL_PERSOCHECKSTATE_PASS, rilapitypes/RIL_PERSOCHECKSTATE_MAX, rilapitypes/RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_FAIL, netvista.riluiccapppersocheckstatusstate_2, rilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_PERSOCHECKSTATE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCAPPPERSOCHECKSTATUSSTATE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILUICCAPPPERSOCHECKSTATUSSTATE {
 ### -field RIL_PERSOCHECKSTATE_NOTREADY
 
 
-
 ### -field RIL_PERSOCHECKSTATE_PASS
-
 
 
 ### -field RIL_PERSOCHECKSTATE_FAIL
 
 
-
 ### -field RIL_PERSOCHECKSTATE_MAX
-
 

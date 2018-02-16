@@ -1,14 +1,14 @@
 ---
 UID: NE:usbfnbase._USBFN_BUS_SPEED
-title: _USBFN_BUS_SPEED
+title: "_USBFN_BUS_SPEED"
 author: windows-driver-content
 description: The USBFN_BUS_SPEED enumeration defines possible bus speeds.
 old-location: buses\usbfn_bus_speed.htm
 old-project: usbref
 ms.assetid: B97E27A1-0D95-41AA-8FF6-A92F70FBAD28
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnBusSpeedSuper, usbfnbase/USBFN_BUS_SPEED, _USBFN_BUS_SPEED, UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedLow, usbfnbase/UsbfnBusSpeedMaximum, UsbfnBusSpeedMaximum, buses.usbfn_bus_speed, USBFN_BUS_SPEED enumeration [Buses], USBFN_BUS_SPEED, UsbfnBusSpeedSuper, *PUSBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedFull, UsbfnBusSpeedHigh, UsbfnBusSpeedLow
+ms.date: 2/8/2018
+ms.keywords: USBFN_BUS_SPEED, USBFN_BUS_SPEED enumeration [Buses], UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedSuper, usbfnbase/USBFN_BUS_SPEED, buses.usbfn_bus_speed, UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedLow, *PUSBFN_BUS_SPEED, _USBFN_BUS_SPEED, UsbfnBusSpeedLow, UsbfnBusSpeedSuper, UsbfnBusSpeedFull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	USBFN_BUS_SPEED
 product: Windows
 targetos: Windows

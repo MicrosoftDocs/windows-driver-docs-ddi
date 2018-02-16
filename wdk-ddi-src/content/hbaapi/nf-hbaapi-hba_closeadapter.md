@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 404c7f82-02dd-4145-91e3-8820f6cbf781
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_closeadapter, fibreHBA_rtns_dcbe3983-fc4d-4a50-886b-6fdb138296a7.xml, HBA_CloseAdapter, hbaapi/HBA_CloseAdapter, HBA_CloseAdapter routine [Storage Devices]
+ms.keywords: HBA_CloseAdapter routine [Storage Devices], fibreHBA_rtns_dcbe3983-fc4d-4a50-886b-6fdb138296a7.xml, HBA_CloseAdapter, hbaapi/HBA_CloseAdapter, storage.hba_closeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_CloseAdapter
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ TBD
 
 
 
+
 #### - HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA. 
@@ -81,13 +82,17 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 ## -returns
 
 
+
 None. 
+
 
 
 
 ## -see-also
 
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: buses\ufxdevicecreate.htm
 old-project: usbref
 ms.assetid: BA86280E-8324-4D98-B16C-504D427A6A4B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UfxDeviceCreate method [Buses], ufxclient/UfxDeviceCreate, buses.ufxdevicecreate, UfxDeviceCreate
+ms.date: 2/8/2018
+ms.keywords: UfxDeviceCreate, ufxclient/UfxDeviceCreate, buses.ufxdevicecreate, UfxDeviceCreate method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxDeviceCreate
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -107,16 +107,20 @@ A handle to a WDF device object.
 ## -returns
 
 
+
 If the operation is successful, the method returns STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it returns a status value for which NT_SUCCESS(status) equals FALSE.
+
 
 
 
 ## -remarks
 
 
+
 The client driver must call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> before it calls <b>UfxDeviceCreate</b>. Typically, the client driver calls  <b>UfxDeviceCreate</b> from its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback routine.
 
 The following code snippet shows how to call <b>UfxDeviceCreate</b>.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -211,4 +215,5 @@ Return Value:
 </td>
 </tr>
 </table></span></div>
+
 

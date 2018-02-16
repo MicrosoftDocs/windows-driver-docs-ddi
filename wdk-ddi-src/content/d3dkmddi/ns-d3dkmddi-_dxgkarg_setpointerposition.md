@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETPOINTERPOSITION
-title: _DXGKARG_SETPOINTERPOSITION
+title: "_DXGKARG_SETPOINTERPOSITION"
 author: windows-driver-content
 description: The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the mouse pointer.
 old-location: display\dxgkarg_setpointerposition.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a5670b3e-a96b-439c-ac1a-644611110700
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition, DXGKARG_SETPOINTERPOSITION structure [Display Devices], DXGKARG_SETPOINTERPOSITION, DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, d3dkmddi/DXGKARG_SETPOINTERPOSITION
+ms.keywords: DXGKARG_SETPOINTERPOSITION, _DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition, DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, d3dkmddi/DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_SETPOINTERPOSITION
 product: Windows
 targetos: Windows
@@ -92,9 +92,13 @@ typedef struct _DXGKARG_SETPOINTERPOSITION {
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
+
 
  
 

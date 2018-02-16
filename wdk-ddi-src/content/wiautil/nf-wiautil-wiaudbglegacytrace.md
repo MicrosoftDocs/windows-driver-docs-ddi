@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ccbcab46-0af9-4c21-896f-14096f1461bc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauDbgLegacyTrace function [Imaging Devices], image.wiaudbglegacytrace, wiauDbgLegacyTrace, wiauFncs_a780f296-5780-4589-9aa6-1e61ebec013e.xml, wiautil/wiauDbgLegacyTrace
+ms.keywords: wiauDbgLegacyTrace function [Imaging Devices], wiauDbgLegacyTrace, wiauFncs_a780f296-5780-4589-9aa6-1e61ebec013e.xml, wiautil/wiauDbgLegacyTrace, image.wiaudbglegacytrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	wiauDbgLegacyTrace
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
@@ -87,20 +88,26 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauDbgLegacyTrace</b> function is identical to the <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a> function except that the latter has a parameter used to identify the function or method that is active when the function is called.
+
 
 
 
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+
+
 
  
 

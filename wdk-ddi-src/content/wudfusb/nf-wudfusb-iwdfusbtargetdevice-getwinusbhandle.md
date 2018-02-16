@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetDevice::GetWinUsbHandle, IWDFUsbTargetDevice interface, GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbTargetDevice interface, GetWinUsbHandle method, IWDFUsbTargetDevice, GetWinUsbHandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, umdf.iwdfusbtargetdevice_getwinusbhandle, wdf.iwdfusbtargetdevice_getwinusbhandle
+ms.keywords: wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle, GetWinUsbHandle method, IWDFUsbTargetDevice, wdf.iwdfusbtargetdevice_getwinusbhandle, IWDFUsbTargetDevice interface, GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbTargetDevice interface, umdf.iwdfusbtargetdevice_getwinusbhandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetDevice.GetWinUsbHandle
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,18 @@ WINUSB_INTERFACE_HANDLE GetWinUsbHandle();
 
 
 
+
 ## -returns
+
 
 
 <b>GetWinUsbHandle</b> returns the WinUsb interface handle that is associated with the I/O target device object.
 
 
 
+
 ## -remarks
+
 
 
 <b>IWDFUsbTargetDevice::GetWinUsbHandle</b> returns a WinUsb interface handle to the default interface. The default interface is identified by index zero.
@@ -87,13 +91,20 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
+
+
 
  
 

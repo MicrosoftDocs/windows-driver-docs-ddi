@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3975bc55-15e3-45ca-82df-76c5ed3b0086
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], ReloadWide method, ReloadWide method [Windows Debugging], ReloadWide, IDebugSymbols3::ReloadWide, ReloadWide method [Windows Debugging], IDebugSymbols3 interface, debugger.reloadwide, dbgeng/IDebugSymbols3::ReloadWide, IDebugSymbols3
+ms.keywords: ReloadWide, debugger.reloadwide, dbgeng/IDebugSymbols3::ReloadWide, ReloadWide method [Windows Debugging], IDebugSymbols3, ReloadWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::ReloadWide, IDebugSymbols3 interface [Windows Debugging], ReloadWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.ReloadWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::ReloadWide method
@@ -75,6 +75,7 @@ Specifies the module to reload.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -91,13 +92,16 @@ The method was successful
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 This method behaves the same way as the debugger command <b>.reload</b>.  The <i>Module</i> parameter is treated the same way as the arguments to <b>.reload</b>.  For example, setting the <i>Module</i> parameter to "/u ntdll.dll" has the same effect as the command <b>.reload /u ntdll.dll</b>.
@@ -106,11 +110,16 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564805">.reload (Reload Module)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
  
 

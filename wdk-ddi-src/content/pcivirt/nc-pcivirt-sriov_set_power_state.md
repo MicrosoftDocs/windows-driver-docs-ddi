@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Pcivirt.h
-apiname: 
+apiname:
 -	SRIOV_SET_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
 ---
 
 # SRIOV_SET_POWER_STATE callback
@@ -95,11 +95,14 @@ A boolean value that indicates whether to arm the device for a wake signal (PME 
 ## -returns
 
 
+
 Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code to indicate the error condition. 
 
 
 
+
 ## -remarks
+
 
 
 This callback function is implemented by the physical function (PF) driver. The callback is invoked when the system wants to change the power state of a virtual function. 
@@ -107,6 +110,7 @@ This callback function is implemented by the physical function (PF) driver. The 
 The PF driver registers its implementation by setting the <b>SetVfPowerState</b> member of the SRIOV_DEVICE_INTERFACE_STANDARD, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
 
 Here is an example implementation of this callback function.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -175,4 +179,5 @@ Virtualization_SetPowerState (
 </td>
 </tr>
 </table></span></div>
+
 

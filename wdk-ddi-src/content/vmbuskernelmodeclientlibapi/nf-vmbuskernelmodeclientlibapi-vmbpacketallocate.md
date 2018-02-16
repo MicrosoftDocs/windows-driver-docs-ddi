@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F121A7BC-5504-4CF5-8C8A-0568D6C4F77F
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketAllocate, netvista.vmbpacketallocate, vmbuskernelmodeclientlibapi/VmbPacketAllocate, VmbPacketAllocate function [Network Drivers Starting with Windows Vista]
+ms.keywords: VmbPacketAllocate, vmbuskernelmodeclientlibapi/VmbPacketAllocate, VmbPacketAllocate function [Network Drivers Starting with Windows Vista], netvista.vmbpacketallocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbPacketAllocate
 product: Windows
 targetos: Windows
@@ -79,11 +79,14 @@ A handle for a channel.
 ## -returns
 
 
+
 <b>VmbPacketAllocate</b> returns a pointer to an allocated VMBus packet object or null.
 
 
 
+
 ## -remarks
+
 
 
 The default completion routine of a packet automatically releases the packet.
@@ -92,9 +95,12 @@ client should call the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmod
 
 
 
+
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketfree.md">VmbPacketFree</a>
+
+
 
  
 

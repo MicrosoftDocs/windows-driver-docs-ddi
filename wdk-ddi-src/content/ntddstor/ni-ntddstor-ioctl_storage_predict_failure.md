@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	IOCTL_STORAGE_PREDICT_FAILURE
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
 ---
 
 # IOCTL_STORAGE_PREDICT_FAILURE IOCTL
@@ -96,14 +96,18 @@ The driver returns a <a href="..\ntddstor\ns-ntddstor-_storage_predict_failure.m
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -115,6 +119,8 @@ The driver returns a <a href="..\ntddstor\ns-ntddstor-_storage_predict_failure.m
 ## -see-also
 
 <a href="..\ntddstor\ns-ntddstor-_storage_predict_failure.md">STORAGE_PREDICT_FAILURE</a>
+
+
 
  
 

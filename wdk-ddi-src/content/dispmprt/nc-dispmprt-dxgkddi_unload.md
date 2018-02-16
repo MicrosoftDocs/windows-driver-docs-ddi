@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Dispmprt.h
-apiname: 
+apiname:
 -	DxgkDdiUnload
 product: Windows
 targetos: Windows
@@ -76,14 +76,19 @@ VOID DxgkDdiUnload(
 
 
 
+
+
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
@@ -92,9 +97,12 @@ Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+
+
 
  
 

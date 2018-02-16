@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e5dc54a6-e26a-455b-9990-92f5cfece923
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsDeviceFunctions::RegisterAdapterObjectEx, RegisterAdapterObjectEx, RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface, stream.iksdevicefunctions_registeradapterobjectex, avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, IKsDeviceFunctions, RegisterAdapterObjectEx method [Streaming Media Devices], ks/IKsDeviceFunctions::RegisterAdapterObjectEx, IKsDeviceFunctions interface [Streaming Media Devices], RegisterAdapterObjectEx method
+ms.keywords: stream.iksdevicefunctions_registeradapterobjectex, ks/IKsDeviceFunctions::RegisterAdapterObjectEx, IKsDeviceFunctions, RegisterAdapterObjectEx method [Streaming Media Devices], avintfc_ffa27a2d-8330-498f-bec2-dbde3c665671.xml, RegisterAdapterObjectEx method [Streaming Media Devices], IKsDeviceFunctions interface, RegisterAdapterObjectEx, IKsDeviceFunctions interface [Streaming Media Devices], RegisterAdapterObjectEx method, IKsDeviceFunctions::RegisterAdapterObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IKsDeviceFunctions.RegisterAdapterObjectEx
 product: Windows
 targetos: Windows
@@ -73,7 +73,7 @@ NTSTATUS RegisterAdapterObjectEx(
 
 ### -param AdapterObject [in]
 
-Pointer to the ADAPTER_OBJECT for the device. Must be acquired through <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> before calling <b>RegisterAdapterObjectEx</b>.
+Pointer to the ADAPTER_OBJECT for the device. Must be acquired through <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> before calling <b>RegisterAdapterObjectEx</b>.
 
 
 ### -param DeviceDescription [in]
@@ -101,20 +101,26 @@ Additional space can be used by the minidriver as context information.
 ## -returns
 
 
+
 <b>RegisterAdapterObjectEx</b> returns STATUS_SUCCESS if the DMA object was successfully registered. The method returns STATUS_INSUFFICIENT_RESOURCES if sufficient memory is not available.
+
 
 
 
 ## -remarks
 
 
+
 Also see <a href="https://msdn.microsoft.com/1173a83f-8d9e-4678-bfb5-f2fb91e827be">Supporting DMA in 64-Bit AVStream Drivers</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
+
+
 
  
 

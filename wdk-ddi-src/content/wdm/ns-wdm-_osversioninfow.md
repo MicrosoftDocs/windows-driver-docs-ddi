@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OSVERSIONINFOW
-title: _OSVERSIONINFOW
+title: "_OSVERSIONINFOW"
 author: windows-driver-content
 description: The RTL_OSVERSIONINFOW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfow.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04e50a2c-eb85-4fc8-9751-798397eddf95
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RTL_OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], OSVERSIONINFOW, *POSVERSIONINFOW, RTL_OSVERSIONINFOW, _OSVERSIONINFOW, kernel.rtl_osversioninfow, *PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], wdm/PRTL_OSVERSIONINFOW, PRTL_OSVERSIONINFOW, OSVERSIONINFO, *LPOSVERSIONINFOW
+ms.keywords: wdm/RTL_OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW, OSVERSIONINFOW, OSVERSIONINFO, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], *PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW, kernel.rtl_osversioninfow, PRTL_OSVERSIONINFOW, _OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], wdm/PRTL_OSVERSIONINFOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	RTL_OSVERSIONINFOW
 product: Windows
 targetos: Windows
-req.typenames: OSVERSIONINFOW, *LPOSVERSIONINFOW, *PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW, *POSVERSIONINFOW
+req.typenames: OSVERSIONINFOW, *POSVERSIONINFOW, RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW, *LPOSVERSIONINFOW
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,9 @@ The service-pack version string. This member contains a null-terminated string, 
 ## -remarks
 
 
+
 For a list of the major and minor version numbers for the various versions of Windows, see <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>.
+
 
 
 
@@ -114,9 +116,15 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+
 
 <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+
+
 
  
 

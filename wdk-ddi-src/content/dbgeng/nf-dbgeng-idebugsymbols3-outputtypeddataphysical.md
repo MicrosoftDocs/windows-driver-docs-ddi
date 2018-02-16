@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0c2ae1ff-bbf1-462f-b9ab-49f74cf12fae
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, OutputTypedDataPhysical method [Windows Debugging], OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, OutputTypedDataPhysical, IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, debugger.outputtypeddataphysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method
+ms.keywords: OutputTypedDataPhysical, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method, debugger.outputtypeddataphysical, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, dbgeng/IDebugSymbols::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3, IDebugSymbols2, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols2::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.OutputTypedDataPhysical
 -	IDebugSymbols2.OutputTypedDataPhysical
 -	IDebugSymbols3.OutputTypedDataPhysical
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::OutputTypedDataPhysical method
@@ -101,7 +101,9 @@ Specifies the bit-set containing the formatting options.  See <a href="https://m
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -118,11 +120,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is only available in kernel mode debugging.
@@ -130,5 +135,6 @@ This method is only available in kernel mode debugging.
 The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff542772">dt (Display Type)</a>.
 
 For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.  For information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

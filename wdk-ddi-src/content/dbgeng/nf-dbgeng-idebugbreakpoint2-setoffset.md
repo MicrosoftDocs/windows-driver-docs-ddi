@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 25898500-f16e-4838-854f-5eb299727e2b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetOffset method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::SetOffset, IDebugBreakpoint2::SetOffset, dbgeng/IDebugBreakpoint2::SetOffset, SetOffset method [Windows Debugging], SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, debugger.setoffset, dbgeng/IDebugBreakpoint::SetOffset, IDebugBreakpoint interface [Windows Debugging], SetOffset method, SetOffset, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint2
+ms.keywords: SetOffset method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint::SetOffset, IDebugBreakpoint, debugger.setoffset, IDebugBreakpoint interface [Windows Debugging], SetOffset method, SetOffset method [Windows Debugging], IDebugBreakpoint interface, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, SetOffset, dbgeng/IDebugBreakpoint2::SetOffset, IDebugBreakpoint2, dbgeng/IDebugBreakpoint::SetOffset, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::SetOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.SetOffset
 -	IDebugBreakpoint2.SetOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::SetOffset method
@@ -76,6 +76,7 @@ The location on the target that triggers the breakpoint.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -103,15 +104,19 @@ The breakpoint is deferred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return other error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about how to use breakpoints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

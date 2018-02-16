@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6d40f3e-4bc9-4b30-97ac-600a33280305
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortInitializeQueueTag routine [Storage Devices], storage.ataportinitializequeuetag, AtaPortInitializeQueueTag, irb/AtaPortInitializeQueueTag, atartns_2dd092e5-f635-4da7-8444-ffef8e5c75db.xml
+ms.keywords: storage.ataportinitializequeuetag, AtaPortInitializeQueueTag routine [Storage Devices], irb/AtaPortInitializeQueueTag, AtaPortInitializeQueueTag, atartns_2dd092e5-f635-4da7-8444-ffef8e5c75db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortInitializeQueueTag
 product: Windows
 targetos: Windows
@@ -101,11 +101,14 @@ A pointer to the channel extension.
 ## -returns
 
 
+
 <b>AtaPortInitializeQueueTag</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, it returns <b>FALSE</b>. 
 
 
 
+
 ## -remarks
+
 
 
 The miniport driver should call <b>AtaPortInitializeQueueTag</b> before it uses <a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a> and <a href="..\irb\nf-irb-ataportreleasequeuetag.md">AtaPortReleaseQueueTag</a> to allocate and release queue tags respectively. 
@@ -114,11 +117,16 @@ The values in the <i>TargetId</i> and <i>Lun</i> parameters specify the device t
 
 
 
+
 ## -see-also
+
+<a href="..\irb\nf-irb-ataportreleasequeuetag.md">AtaPortReleaseQueueTag</a>
+
+
 
 <a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>
 
-<a href="..\irb\nf-irb-ataportreleasequeuetag.md">AtaPortReleaseQueueTag</a>
+
 
  
 

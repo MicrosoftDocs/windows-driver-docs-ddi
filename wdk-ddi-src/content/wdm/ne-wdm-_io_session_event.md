@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_SESSION_EVENT
-title: _IO_SESSION_EVENT
+title: "_IO_SESSION_EVENT"
 author: windows-driver-content
 description: The IO_SESSION_EVENT enumeration indicates the type of session event for which a driver is receiving notification.
 old-location: kernel\io_session_event.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoSessionEventDisconnected, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], IoSessionEventLogon, kernel.io_session_event, _IO_SESSION_EVENT, PIO_SESSION_EVENT, IoSessionEventTerminated, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, IoSessionEventConnected, wdm/IoSessionEventLogon, wdm/IoSessionEventDisconnected, wdm/IoSessionEventMax, wdm/IoSessionEventCreated, wdm/PIO_SESSION_EVENT, IO_SESSION_EVENT, IoSessionEventLogoff, IoSessionEventMax, wdm/IoSessionEventTerminated, wdm/IoSessionEventLogoff, *PIO_SESSION_EVENT, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], wdm/IO_SESSION_EVENT, IoSessionEventCreated, wdm/IoSessionEventConnected
+ms.keywords: wdm/IoSessionEventLogon, IoSessionEventLogoff, wdm/IO_SESSION_EVENT, IoSessionEventCreated, IO_SESSION_EVENT, IoSessionEventTerminated, kernel.io_session_event, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IoSessionEventCreated, IoSessionEventConnected, IoSessionEventMax, wdm/IoSessionEventMax, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], *PIO_SESSION_EVENT, _IO_SESSION_EVENT, PIO_SESSION_EVENT, IoSessionEventLogon, wdm/IoSessionEventConnected, wdm/IoSessionEventTerminated, wdm/PIO_SESSION_EVENT, IoSessionEventDisconnected, wdm/IoSessionEventLogoff, wdm/IoSessionEventDisconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IO_SESSION_EVENT
 product: Windows
 targetos: Windows
-req.typenames: *PIO_SESSION_EVENT, IO_SESSION_EVENT
+req.typenames: "*PIO_SESSION_EVENT, IO_SESSION_EVENT"
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,6 @@ typedef enum _IO_SESSION_EVENT {
 
 
 ### -field IoSessionEventIgnore
-
 
 
 ### -field IoSessionEventCreated
@@ -116,9 +115,11 @@ Specifies the maximum value in this enumeration type.
 ## -remarks
 
 
+
 When the I/O manager calls the driver's <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a> function, it sets the <i>Event</i> parameter of this function to an <b>IO_SESSION_EVENT</b> enumeration constant (other than <b>IoSessionEventMax</b>).
 
 A session event causes a transition from one session state to another. For more information about session state transitions, see <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>. 
+
 
 
 
@@ -126,7 +127,11 @@ A session event causes a transition from one session state to another. For more 
 
 <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
 
+
+
 <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
+
+
 
  
 

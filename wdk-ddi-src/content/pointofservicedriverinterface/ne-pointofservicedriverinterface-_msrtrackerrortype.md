@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrTrackErrorType
-title: _MsrTrackErrorType
+title: "_MsrTrackErrorType"
 author: windows-driver-content
 description: This enumeration defines the kinds of magnetic stripe reader track errors.
 old-location: pos\msrtrackerrortype.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 2abd9341-527f-43af-baa2-622b759b47cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, MsrTrackErrorType_Unknown, pointofservicedriverinterface/MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_ParityError, _MsrTrackErrorType, MsrTrackErrorType, MsrTrackErrorType_None, MsrTrackErrorType_StartSentinelError, pointofservicedriverinterface/MsrTrackErrorType_None, MsrTrackErrorType_ParityError, pos.msrtrackerrortype, MsrTrackErrorType_LrcError, pointofservicedriverinterface/MsrTrackErrorType_LrcError, MsrTrackErrorType enumeration, pointofservicedriverinterface/MsrTrackErrorType_Unknown, pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, MsrTrackErrorType_EndSentinelError
+ms.keywords: MsrTrackErrorType_StartSentinelError, pos.msrtrackerrortype, pointofservicedriverinterface/MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_Unknown, MsrTrackErrorType_LrcError, pointofservicedriverinterface/MsrTrackErrorType_LrcError, MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, _MsrTrackErrorType, MsrTrackErrorType_None, pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, pointofservicedriverinterface/MsrTrackErrorType_None, MsrTrackErrorType_ParityError, MsrTrackErrorType_Unknown, pointofservicedriverinterface/MsrTrackErrorType_ParityError, MsrTrackErrorType_EndSentinelError, MsrTrackErrorType enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	MsrTrackErrorType
 product: Windows
 targetos: Windows

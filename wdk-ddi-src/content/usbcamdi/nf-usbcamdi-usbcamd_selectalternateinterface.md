@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b9a31719-2674-4d3f-8792-b099640faa07
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: USBCAMD_SelectAlternateInterface function [Streaming Media Devices], usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml, USBCAMD_SelectAlternateInterface, stream.usbcamd_selectalternateinterface, usbcamdi/USBCAMD_SelectAlternateInterface
+ms.keywords: usbcamdi/USBCAMD_SelectAlternateInterface, usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml, stream.usbcamd_selectalternateinterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], USBCAMD_SelectAlternateInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname: 
+apiname:
 -	USBCAMD_SelectAlternateInterface
 product: Windows
 targetos: Windows
@@ -83,7 +83,9 @@ Pointer to a <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFA
 ## -returns
 
 
+
 <b>USBCAMD_SelectAlternateInterface </b>returns the status of the SELECT_INTERFACE USB bus driver request. Other possible error codes include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,11 +113,14 @@ There are insufficient resources to allocate the USB request block
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 On successful completion, the structure pointed to by the <i>RequestInterface</i> argument is filled in with the information from the SELECT_INTERFACE USB bus driver request.
@@ -124,9 +129,12 @@ This function is typically called by a camera minidriver in response to a reques
 
 
 
+
 ## -see-also
 
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+
+
 
  
 

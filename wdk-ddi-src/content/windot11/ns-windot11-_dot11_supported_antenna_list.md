@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SUPPORTED_ANTENNA_LIST
-title: _DOT11_SUPPORTED_ANTENNA_LIST
+title: "_DOT11_SUPPORTED_ANTENNA_LIST"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_antenna_list.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45c6b9a3-b834-4e57-b7f8-fab7be749269
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.dot11_supported_antenna_list, DOT11_SUPPORTED_ANTENNA_LIST, *PDOT11_SUPPORTED_ANTENNA_LIST, windot11/DOT11_SUPPORTED_ANTENNA_LIST, Native_802.11_data_types_5e735315-0745-4395-bf71-fe53a941daf8.xml, _DOT11_SUPPORTED_ANTENNA_LIST, PDOT11_SUPPORTED_ANTENNA_LIST, PDOT11_SUPPORTED_ANTENNA_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_SUPPORTED_ANTENNA_LIST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_ANTENNA_LIST
+ms.keywords: Native_802.11_data_types_5e735315-0745-4395-bf71-fe53a941daf8.xml, _DOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST structure [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_ANTENNA_LIST, PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST, windot11/DOT11_SUPPORTED_ANTENNA_LIST, netvista.dot11_supported_antenna_list, PDOT11_SUPPORTED_ANTENNA_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_ANTENNA_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_SUPPORTED_ANTENNA_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST
+req.typenames: "*PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -87,18 +87,19 @@ The maximum number of entries that the
 ### -field dot11SupportedAntenna
 
 The list of supported antennas. Each element in this list is formatted as a 
-     <mshelp:link keywords="netvista.dot11_supported_antenna" tabindex="0"><b>
-     DOT11_SUPPORTED_ANTENNA</b></mshelp:link> structure.
+     <a href="..\windot11\ns-windot11-_dot11_supported_antenna.md">
+     DOT11_SUPPORTED_ANTENNA</a> structure.
 
 
 ## -remarks
 
 
+
 A miniport driver returns the DOT11_SUPPORTED_ANTENNA_LIST structure when queried by either 
-    <mshelp:link keywords="netvista.oid_dot11_supported_rx_antenna" tabindex="0">
-    OID_DOT11_SUPPORTED_RX_ANTENNA</mshelp:link> or 
-    <mshelp:link keywords="netvista.oid_dot11_supported_tx_antenna" tabindex="0">
-    OID_DOT11_SUPPORTED_TX_ANTENNA</mshelp:link>.
+    <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">
+    OID_DOT11_SUPPORTED_RX_ANTENNA</a> or 
+    <a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">
+    OID_DOT11_SUPPORTED_TX_ANTENNA</a>.
 
 When these OIDs are queried, the miniport driver must verify that the 
     <b>InformationBuffer</b> member of the 
@@ -108,6 +109,7 @@ When these OIDs are queried, the miniport driver must verify that the
     <b>dot11SupportedAntenna</b> array. The value of the 
     <b>InformationBufferLength</b> member of the 
     <i>OidRequest</i> parameter determines what the miniport driver must do, as the following list shows:
+
 <ul>
 <li>
 If the value of the 
@@ -172,13 +174,20 @@ Return NDIS_STATUS_SUCCESS from its
 </ul>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
+
 
 <a href="..\windot11\ns-windot11-_dot11_supported_antenna.md">DOT11_SUPPORTED_ANTENNA</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
+
+
 
  
 

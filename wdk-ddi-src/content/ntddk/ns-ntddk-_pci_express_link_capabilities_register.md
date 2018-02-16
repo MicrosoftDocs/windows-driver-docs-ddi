@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
-title: _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+title: "_PCI_EXPRESS_LINK_CAPABILITIES_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) link capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_link_capabilities_register.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d49d1deb-cb98-4dc0-9ec5-7015b765c9e4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml, _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI.pci_express_link_capabilities_register, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+ms.keywords: PCI.pci_express_link_capabilities_register, ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+req.typenames: "*PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER"
 ---
 
 # _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure
@@ -86,42 +86,60 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.MaximumLinkSpeed
 
- 
+The maximum link speed of the PCIe link. The only valid value is:
+
+
+
+All other values are reserved.
 
 
 ### -field DUMMYSTRUCTNAME.MaximumLinkWidth
 
- 
+The maximum link width (number of lanes) implemented by the component. Possible values are:
+
+
+
+All other values are reserved.
 
 
 ### -field DUMMYSTRUCTNAME.ActiveStatePMSupport
 
- 
+The level of active state power management supported on the PCIe link. Possible values are:
+
+
+
+All other values are reserved.
 
 
 ### -field DUMMYSTRUCTNAME.L0sExitLatency
 
- 
+The L0s exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L0s to L0.
+
+
 
 
 ### -field DUMMYSTRUCTNAME.L1ExitLatency
 
- 
+The L1 exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L1 to L0.
+
+
+
+This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
 
 
 ### -field DUMMYSTRUCTNAME.ClockPowerManagement
 
- 
+A single bit that indicates that the component supports clock power management.
 
 
 ### -field DUMMYSTRUCTNAME.SurpriseDownErrorReportingCapable
 
- 
+A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
 
 
 ### -field DUMMYSTRUCTNAME.DataLinkLayerActiveReportingCapable
 
- 
+A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
 
 
 ### -field DUMMYSTRUCTNAME.LinkBandwidthNotificationCapability
@@ -136,12 +154,12 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.Rsvd
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME.PortNumber
 
- 
+The PCIe port number for the PCIe link.
 
 
 ### -field AsULONG
@@ -149,92 +167,9 @@ typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
 A ULONG representation of the contents of the PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure.
 
 
-##### - MaximumLinkWidth.8
-
-x8 (8 lanes)
-
-
-#### - PortNumber
-
-The PCIe port number for the PCIe link.
-
-
-##### - L0sExitLatency.L0s_64ns_128ns
-
-64 nanoseconds to 128 nanoseconds
-
-
-##### - L1ExitLatency.L1_4us_8us
-
-4 microseconds to 8 microseconds
-
-
-##### - L1ExitLatency.L1_16us_32us
-
-16 microseconds to 32 microseconds
-
-
-##### - L1ExitLatency.L1_32us_64us
-
-32 microseconds to 64 microseconds
-
-
 ##### - ActiveStatePMSupport.L0sAndL1EntrySupport
 
 L0s and L1 are supported.
-
-
-##### - MaximumLinkWidth.4
-
-x4 (4 lanes)
-
-
-#### - ActiveStatePMSupport
-
-The level of active state power management supported on the PCIe link. Possible values are:
-
-
-
-All other values are reserved.
-
-
-#### - L1ExitLatency
-
-The L1 exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L1 to L0.
-
-
-
-This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b>L0sAndL1EntrySupport</b>.
-
-
-##### - L1ExitLatency.L1_Below1us
-
-Less than 1 microsecond
-
-
-##### - L0sExitLatency.L0s_2us_4us
-
-2 microseconds to 4 microseconds
-
-
-##### - L0sExitLatency.L0s_128ns_256ns
-
-128 nanoseconds to 256 nanoseconds
-
-
-##### - L0sExitLatency.L0s_Above4us
-
-More than 4 microseconds
-
-
-#### - DataLinkLayerActiveReportingCapable
-
-A single bit that indicates that the component supports the optional capability of reporting the data link active state of the data link control and management state machine. This bit only applies to downstream ports. Hot-plug capable downstream ports must support this capability.
-
-
-##### - L0sExitLatency.L0s_Below64ns
-
-Less than 64 nanoseconds
 
 
 ##### - ActiveStatePMSupport.L0sEntrySupport
@@ -242,58 +177,12 @@ Less than 64 nanoseconds
 L0s is supported.
 
 
-#### - MaximumLinkWidth
+##### - L0sExitLatency.L0s_128ns_256ns
 
-The maximum link width (number of lanes) implemented by the component. Possible values are:
-
-
-
-All other values are reserved.
-
-
-##### - MaximumLinkSpeed.1
-
-2.5 gigabits per second
-
-
-#### - Rsvd
-
-Reserved.
-
-
-##### - L1ExitLatency.L1_8us_16us
-
-8 microseconds to 16 microseconds
-
-
-#### - SurpriseDownErrorReportingCapable
-
-A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
-
-
-#### - ClockPowerManagement
-
-A single bit that indicates that the component supports clock power management.
-
-
-##### - L1ExitLatency.L1_Above64us
-
-More than 64 microseconds
+128 nanoseconds to 256 nanoseconds
 
 
 ##### - L0sExitLatency.L0s_1us_2us
-
-1 microsecond to 2 microseconds
-
-
-#### - L0sExitLatency
-
-The L0s exit latency for the PCIe link. This value indicates the length of time this port requires to complete a transition from L0s to L0.
-
-
-
-
-##### - L1ExitLatency.L1_1us_2us
 
 1 microsecond to 2 microseconds
 
@@ -303,36 +192,7 @@ The L0s exit latency for the PCIe link. This value indicates the length of time 
 256 nanoseconds to 512 nanoseconds
 
 
-##### - MaximumLinkWidth.1
-
-x1 (1 lane)
-
-
-#### - MaximumLinkSpeed
-
-The maximum link speed of the PCIe link. The only valid value is:
-
-
-
-All other values are reserved.
-
-
-##### - MaximumLinkWidth.16
-
-x16 (16 lanes)
-
-
-##### - MaximumLinkWidth.32
-
-x32 (32 lanes)
-
-
-##### - MaximumLinkWidth.12
-
-x12 (12 lanes)
-
-
-##### - L1ExitLatency.L1_2us_4us
+##### - L0sExitLatency.L0s_2us_4us
 
 2 microseconds to 4 microseconds
 
@@ -342,12 +202,103 @@ x12 (12 lanes)
 512 nanoseconds to 1 microsecond
 
 
+##### - L0sExitLatency.L0s_64ns_128ns
+
+64 nanoseconds to 128 nanoseconds
+
+
+##### - L0sExitLatency.L0s_Above4us
+
+More than 4 microseconds
+
+
+##### - L0sExitLatency.L0s_Below64ns
+
+Less than 64 nanoseconds
+
+
+##### - L1ExitLatency.L1_16us_32us
+
+16 microseconds to 32 microseconds
+
+
+##### - L1ExitLatency.L1_1us_2us
+
+1 microsecond to 2 microseconds
+
+
+##### - L1ExitLatency.L1_2us_4us
+
+2 microseconds to 4 microseconds
+
+
+##### - L1ExitLatency.L1_32us_64us
+
+32 microseconds to 64 microseconds
+
+
+##### - L1ExitLatency.L1_4us_8us
+
+4 microseconds to 8 microseconds
+
+
+##### - L1ExitLatency.L1_8us_16us
+
+8 microseconds to 16 microseconds
+
+
+##### - L1ExitLatency.L1_Above64us
+
+More than 64 microseconds
+
+
+##### - L1ExitLatency.L1_Below1us
+
+Less than 1 microsecond
+
+
+##### - MaximumLinkSpeed.1
+
+2.5 gigabits per second
+
+
+##### - MaximumLinkWidth.1
+
+x1 (1 lane)
+
+
+##### - MaximumLinkWidth.12
+
+x12 (12 lanes)
+
+
+##### - MaximumLinkWidth.16
+
+x16 (16 lanes)
+
+
 ##### - MaximumLinkWidth.2
 
 x2 (2 lanes)
 
 
+##### - MaximumLinkWidth.32
+
+x32 (32 lanes)
+
+
+##### - MaximumLinkWidth.4
+
+x4 (4 lanes)
+
+
+##### - MaximumLinkWidth.8
+
+x8 (8 lanes)
+
+
 ## -remarks
+
 
 
 The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
@@ -356,9 +307,12 @@ A PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is contained in the <a href="
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
 
  
 

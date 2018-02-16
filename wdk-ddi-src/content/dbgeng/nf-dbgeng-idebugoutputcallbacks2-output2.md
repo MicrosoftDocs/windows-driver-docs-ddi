@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2FFF9B54-6E77-4D46-B6C0-5BADD208BFCC
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, DEBUG_OUTCBI_ANY_FORMAT, IDebugOutputCallbacks2::Output2, Output2 method [Windows Debugging], Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2, Output2, DEBUG_OUTCBI_DML, dbgeng/IDebugOutputCallbacks2::Output2, debugger.idebugoutputcallbacks2_output2
+ms.keywords: DEBUG_OUTCBI_TEXT, Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface, IDebugOutputCallbacks2, DEBUG_OUTCBI_EXPLICIT_FLUSH, IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, Output2, debugger.idebugoutputcallbacks2_output2, DEBUG_OUTCBI_DML, IDebugOutputCallbacks2::Output2, Output2 method [Windows Debugging], DEBUG_OUTCBI_ANY_FORMAT, dbgeng/IDebugOutputCallbacks2::Output2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugOutputCallbacks2.Output2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugOutputCallbacks2::Output2 method
@@ -73,6 +73,7 @@ HRESULT Output2(
 ### -param Which [in]
 
  The kind of notification that is coming in. 
+
 <table>
 <tr>
 <th>Value</th>
@@ -127,7 +128,8 @@ content in any format.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Flags [in]
@@ -148,13 +150,17 @@ A pointer to text that is part of the notification payload.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks2.md">IDebugOutputCallbacks2</a>
+
+
 
  
 

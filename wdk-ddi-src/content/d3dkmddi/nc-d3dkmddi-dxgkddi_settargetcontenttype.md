@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKDDI_SETTARGETCONTENTTYPE
 product: Windows
 targetos: Windows
@@ -83,15 +83,19 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settargetcontenttype.md
 ## -returns
 
 
+
 If this routine succeeds, it returns STATUS_SUCCESS. 
+
 
 
 
 ## -remarks
 
 
+
 This is an optional DDI, so the function pointer in DRIVER_INITIALIZATION_DATA should be set to null if the DDI is not implemented for every adapter supported by the driver.
 This function is always called at PASSIVE level so the supporting code should be made pageable.
+
 
 
 

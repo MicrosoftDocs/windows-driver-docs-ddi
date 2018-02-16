@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a45bc5c-cdc1-46d2-905b-3d5eea3645c1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_sendrcv_ref_9c5a4908-356f-4e7c-9351-4fec4358180d.xml, netvista.ndisreturnnetbufferlists, NdisReturnNetBufferLists, NdisReturnNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisReturnNetBufferLists
+ms.keywords: netvista.ndisreturnnetbufferlists, ndis_sendrcv_ref_9c5a4908-356f-4e7c-9351-4fec4358180d.xml, ndis/NdisReturnNetBufferLists, NdisReturnNetBufferLists function [Network Drivers Starting with Windows Vista], NdisReturnNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisReturnNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisReturnNetBufferLists function
@@ -86,8 +86,8 @@ A handle that identifies the target adapter. This handle was returned by a previ
 
 A pointer to a linked list of NET_BUFFER_LIST structures that are to be returned to the underlying
      driver. The linked list can contain NET_BUFFER_LIST structures from multiple previous calls to the 
-     <mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
-     ProtocolReceiveNetBufferLists</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+     ProtocolReceiveNetBufferLists</a> function.
 
 
 ### -param ReturnFlags [in]
@@ -101,39 +101,53 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
     <i>ReceiveFlags</i> parameter that NDIS passed to the 
-    <mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
-    ProtocolReceiveNetBufferLists</i></mshelp:link> function was not set, the protocol driver must call 
+    <a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+    ProtocolReceiveNetBufferLists</a> function was not set, the protocol driver must call 
     <b>NdisReturnNetBufferLists</b> to return the 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and associated
     data. After the protocol driver calls 
     <b>NdisReturnNetBufferLists</b>, NDIS calls the underlying miniport driver's 
-    <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-    MiniportReturnNetBufferLists</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+    MiniportReturnNetBufferLists</a> function.
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.protocolreceivenetbufferlists" tabindex="0"><i>
-   ProtocolReceiveNetBufferLists</i></mshelp:link>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-   MiniportReturnNetBufferLists</i></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+   ProtocolReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+   MiniportReturnNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

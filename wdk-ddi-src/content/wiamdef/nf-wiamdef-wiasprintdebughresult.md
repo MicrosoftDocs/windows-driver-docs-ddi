@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: f9dc5379-0efa-4743-9460-bfb16945768b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasPrintDebugHResult, wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices], wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, image.wiasprintdebughresult
+ms.keywords: wiasPrintDebugHResult, wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, wiamdef/wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices], image.wiasprintdebughresult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasPrintDebugHResult
 product: Windows
 targetos: Windows
@@ -84,13 +84,17 @@ Specifies the HRESULT to be printed.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wias_lhresult.md">WIAS_LHRESULT</a>
+
+
 
  
 

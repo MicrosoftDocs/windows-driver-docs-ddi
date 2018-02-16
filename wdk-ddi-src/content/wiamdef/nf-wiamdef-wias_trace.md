@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9f6b06bf-60d3-4ec2-8c49-405bff2ccb5e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WIAS_TRACE, IWiaLog_c755ea6c-c312-4b15-be83-a437358b83a9.xml, WIAS_TRACE macro [Imaging Devices], wiamdef/WIAS_TRACE, image.wias_trace
+ms.keywords: IWiaLog_c755ea6c-c312-4b15-be83-a437358b83a9.xml, wiamdef/WIAS_TRACE, WIAS_TRACE, image.wias_trace, WIAS_TRACE macro [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamdef.h
-apiname: 
+apiname:
 -	WIAS_TRACE
 product: Windows
 targetos: Windows
@@ -76,9 +76,6 @@ TBD
 
 
 
-####### - format_string, ...
-
-Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
 #### - HInst
@@ -86,12 +83,19 @@ Specifies a variable argument list, which starts with an ANSI format string that
 Handle to the DLL (driver).
 
 
+####### - format_string, ...
+
+Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+
+
 ## -remarks
+
 
 
 To enable tracing in free builds, drivers must define the WIA_DEBUG macro by adding <code>#define WIA_DEBUG</code> before including any of the WIA headers. Tracing is enabled by default in checked and debug builds of the operating system.
 
 The following is an example of how the macro would be used:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -101,17 +105,25 @@ The following is an example of how the macro would be used:
 <pre>WIAS_TRACE((g_hInst,"WIA storage path = %ws",m_wszStoragePath));</pre>
 </td>
 </tr>
-</table></span></div>This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with the WDK.
+</table></span></div>
+This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with the WDK.
+
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_assert.md">WIAS_ASSERT</a>
-
 <a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wias_assert.md">WIAS_ASSERT</a>
+
+
 
  
 

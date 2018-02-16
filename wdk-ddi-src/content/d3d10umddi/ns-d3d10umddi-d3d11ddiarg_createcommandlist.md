@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7d720346-4a68-40bd-816d-c406995b3232
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDIARG_CREATECOMMANDLIST, d3d10umddi/D3D11DDIARG_CREATECOMMANDLIST, D3D11DDIARG_CREATECOMMANDLIST structure [Display Devices], display.d3d11ddiarg_createcommandlist, UMDisplayDriver_Dx11param_Structs_fc1a42ad-2d14-44de-abf1-480810b8d080.xml
+ms.keywords: d3d10umddi/D3D11DDIARG_CREATECOMMANDLIST, UMDisplayDriver_Dx11param_Structs_fc1a42ad-2d14-44de-abf1-480810b8d080.xml, display.d3d11ddiarg_createcommandlist, D3D11DDIARG_CREATECOMMANDLIST, D3D11DDIARG_CREATECOMMANDLIST structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D11DDIARG_CREATECOMMANDLIST
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ typedef struct D3D11DDIARG_CREATECOMMANDLIST {
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createdeferredcontext.md">CreateDeferredContext</a>
+
+
 
  
 

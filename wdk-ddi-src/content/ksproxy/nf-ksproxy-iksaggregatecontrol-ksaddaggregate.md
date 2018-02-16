@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 9808bdb9-17f9-4a80-90c7-e85ab35b74ae
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAddAggregate method [Streaming Media Devices], KsAddAggregate method [Streaming Media Devices], IKsAggregateControl interface, ksproxy_1c56f07f-a830-4c2b-80ae-a18f14588bd3.xml, IKsAggregateControl::KsAddAggregate, KsAddAggregate, IKsAggregateControl interface [Streaming Media Devices], KsAddAggregate method, IKsAggregateControl, ksproxy/IKsAggregateControl::KsAddAggregate, stream.iksaggregatecontrol_ksaddaggregate
+ms.keywords: IKsAggregateControl, KsAddAggregate method [Streaming Media Devices], KsAddAggregate method [Streaming Media Devices], IKsAggregateControl interface, ksproxy_1c56f07f-a830-4c2b-80ae-a18f14588bd3.xml, IKsAggregateControl::KsAddAggregate, stream.iksaggregatecontrol_ksaddaggregate, ksproxy/IKsAggregateControl::KsAddAggregate, IKsAggregateControl interface [Streaming Media Devices], KsAddAggregate method, KsAddAggregate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsAggregateControl.KsAddAggregate
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ Identifies the COM server to add.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
@@ -83,7 +85,11 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 <a href="..\ksproxy\nn-ksproxy-iksaggregatecontrol.md">IKsAggregateControl</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559717">IKsAggregateControl::KsRemoveAggregate</a>
+
+
 
  
 

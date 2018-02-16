@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_UPDATEPAGETABLEFLAGS
-title: _DXGK_UPDATEPAGETABLEFLAGS
+title: "_DXGK_UPDATEPAGETABLEFLAGS"
 author: windows-driver-content
 description: DXGK_UPDATEPAGETABLEFLAGS is used as part of a page table update operation.
 old-location: display\dxgk_updatepagetableflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], display.dxgk_updatepagetableflags, _DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS
+ms.keywords: d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], display.dxgk_updatepagetableflags, _DXGK_UPDATEPAGETABLEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_UPDATEPAGETABLEFLAGS
 product: Windows
 targetos: Windows

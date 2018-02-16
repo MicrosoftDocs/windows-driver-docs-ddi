@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_SEND_PDU
-title: _WWAN_SMS_SEND_PDU
+title: "_WWAN_SMS_SEND_PDU"
 author: windows-driver-content
 description: The WWAN_SMS_SEND_PDU structure represents a PDU-style SMS message.
 old-location: netvista\wwan_sms_send_pdu.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 94d19d5b-8fa5-437d-9359-e35ef103f380
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_SMS_SEND_PDU, _WWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU, wwan/WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU structure pointer [Network Drivers Starting with Windows Vista], WwanRef_5994a030-78ea-42c2-913a-1b2a9fcc2ea4.xml, netvista.wwan_sms_send_pdu, wwan/PWWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU structure [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU structure [Network Drivers Starting with Windows Vista], WwanRef_5994a030-78ea-42c2-913a-1b2a9fcc2ea4.xml, netvista.wwan_sms_send_pdu, wwan/PWWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU, _WWAN_SMS_SEND_PDU, PWWAN_SMS_SEND_PDU structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SMS_SEND_PDU
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SMS_SEND_PDU, WWAN_SMS_SEND_PDU
+req.typenames: WWAN_SMS_SEND_PDU, *PWWAN_SMS_SEND_PDU
 req.product: Windows 10 or later.
 ---
 
@@ -83,6 +83,7 @@ The following table lists the different values for the
      <b>SmsFormat</b> member of the 
      <a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a> structure and their
      corresponding range that is allowed in this member.
+
 <table>
 <tr>
 <th>SmsFormat</th>
@@ -108,7 +109,9 @@ WwanSmsFormatCdma
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 <div class="alert"><b>Note</b>  For GSM-based devices, if 
      <b>ElementType</b> is set to 
      <b>WwanStructSmsPdu</b>, this member describes the size, in bytes, of 
@@ -129,7 +132,8 @@ WwanSmsFormatCdma
      <b>Size</b> + 
      <b>PduData</b> [0].
 
-</div><div> </div>
+</div>
+<div> </div>
 
 ### -field PduData
 
@@ -153,6 +157,8 @@ For CDMA-based devices that support sending SMS messages in binary format (that 
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_PHY_TYPE_INFO
-title: _DOT11_PHY_TYPE_INFO
+title: "_DOT11_PHY_TYPE_INFO"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_type_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9b0cbcc4-e38a-4266-afc5-8b2755d79f4c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista], _DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO, windot11/DOT11_PHY_TYPE_INFO, windot11/PDOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, DOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO, netvista.dot11_phy_type_info
+ms.keywords: netvista.dot11_phy_type_info, PDOT11_PHY_TYPE_INFO structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_PHY_TYPE_INFO, windot11/DOT11_PHY_TYPE_INFO, PDOT11_PHY_TYPE_INFO, _DOT11_PHY_TYPE_INFO, Native_802.11_data_types_20e3d688-253f-416e-b9b0-8adec6bf7415.xml, windot11/PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_PHY_TYPE_INFO
 product: Windows
 targetos: Windows
-req.typenames: DOT11_PHY_TYPE_INFO, *PDOT11_PHY_TYPE_INFO
+req.typenames: "*PDOT11_PHY_TYPE_INFO, DOT11_PHY_TYPE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -143,6 +143,19 @@ This member specifies the method used to interpret the entries in the
 
 
 
+
+#### ch_description_type_logical
+
+The channel entry is defined by a logical channel number to conform with the IEEE 802.11
+       standard.
+
+
+
+#### ch_description_type_center_frequency
+
+The channel entry is defined, in units of megahertz (MHz), by a channel center frequency.
+
+
 ### -field uChannelListSize
 
 The length, in bytes, of the 
@@ -159,23 +172,15 @@ An array containing channel descriptions for the PHY type specified in the
 
 The identifier (ID) of the PHY that the 802.11 station will use for the scan. The PHY ID is the
        index within the list of supported PHYs returned by the driver through a query of 
-       <mshelp:link keywords="netvista.oid_dot11_supported_phy_types" tabindex="0">
-       OID_DOT11_SUPPORTED_PHY_TYPES</mshelp:link>.
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+       OID_DOT11_SUPPORTED_PHY_TYPES</a>.
+
 <div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in ExtSTA
-       mode.</div><div> </div>
-
-##### - ChDescriptionType.ch_description_type_center_frequency
-
-The channel entry is defined, in units of megahertz (MHz), by a channel center frequency.
-
-
-##### - ChDescriptionType.ch_description_type_logical
-
-The channel entry is defined by a logical channel number to conform with the IEEE 802.11
-       standard.
-
+       mode.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 The 
@@ -185,20 +190,25 @@ The
     array of zero or more DOT11_PHY_TYPE_INFO entries.
 
 For more information about the scan operations performed by a Native 802.11 miniport driver, see 
-    <mshelp:link keywords="netvista.native_802_11_scan_operations" tabindex="0">Native 802.11 Scan
-    Operations</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
+    Operations</a>.
 
 For more information about the ExtSTA operation mode, see 
-    <mshelp:link keywords="netvista.extensible_station_operation_mode" tabindex="0">Extensible Station Operation
-    Mode</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+    Mode</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
-<a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfusb/IWDFUsbTargetPipe::GetInformation, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, GetInformation, wdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe::GetInformation, umdf.iwdfusbtargetpipe_getinformation, GetInformation method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe, GetInformation method, IWDFUsbTargetPipe interface, GetInformation method
+ms.keywords: UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, GetInformation method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe::GetInformation, GetInformation method, IWDFUsbTargetPipe interface, GetInformation method, umdf.iwdfusbtargetpipe_getinformation, GetInformation, wdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::GetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetPipe.GetInformation
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -78,14 +78,18 @@ A pointer to a variable that receives USB pipe information.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560339">IWDFUsbInterface::RetrieveUsbPipeObject</a> method to retrieve a USB pipe object, the UMDF driver should retrieve information about the USB pipe. Therefore, the <b>GetInformation</b> method does not fail.
+
 
 
 
@@ -93,7 +97,11 @@ After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/window
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560339">IWDFUsbInterface::RetrieveUsbPipeObject</a>
+
+
 
  
 

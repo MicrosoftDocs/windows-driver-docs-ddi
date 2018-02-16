@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	strmini.h
-apiname: 
+apiname:
 -	StrMiniClock
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ VOID StrMiniClock(
 
 
 
+
+
 #### - HwTimeContext [in]
 
 Pointer to the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a> structure that <i>StrMiniClock</i> must fill out with the requested information.
@@ -86,11 +88,14 @@ Pointer to the <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTE
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A stream specifies its <i>StrMiniClock</i> function within the <b>HwClockFunction</b> member of the <a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a> substructure of its <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>. The minidriver fills out the <b>HW_STREAM_OBJECT</b> for a stream within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff568463">StrMiniReceiveDevicePacket</a> routine in response to a SRB_OPEN_STREAM request.
@@ -101,11 +106,16 @@ The <i>StrMiniClock</i> routine must handle the functions specified in the <b>Cl
 
 
 
+
 ## -see-also
 
 <a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a>
 
+
+
 <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
+
+
 
  
 

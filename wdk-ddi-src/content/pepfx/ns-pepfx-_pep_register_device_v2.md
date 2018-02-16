@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_REGISTER_DEVICE_V2
-title: _PEP_REGISTER_DEVICE_V2
+title: "_PEP_REGISTER_DEVICE_V2"
 author: windows-driver-content
 description: The PEP_REGISTER_DEVICE_V2 structure describes a device whose driver stack has just registered with the Windows power management framework (PoFx).
 old-location: kernel\pep_register_device_v2.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A1363B34-CC5C-482E-8E8D-62D7263545E3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_REGISTER_DEVICE_V2, PPEP_REGISTER_DEVICE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_DEVICE_V2, *PPEP_REGISTER_DEVICE, PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE, pepfx/PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2, kernel.pep_register_device_v2, PEP_REGISTER_DEVICE_V2 structure [Kernel-Mode Driver Architecture], *PPEP_REGISTER_DEVICE_V2
+ms.keywords: pepfx/PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2 structure [Kernel-Mode Driver Architecture], PEP_REGISTER_DEVICE_V2, pepfx/PEP_REGISTER_DEVICE_V2, PPEP_REGISTER_DEVICE_V2 structure pointer [Kernel-Mode Driver Architecture], PEP_REGISTER_DEVICE, kernel.pep_register_device_v2, *PPEP_REGISTER_DEVICE, PPEP_REGISTER_DEVICE_V2, *PPEP_REGISTER_DEVICE_V2, _PEP_REGISTER_DEVICE_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_REGISTER_DEVICE_V2
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_REGISTER_DEVICE_V2, PEP_REGISTER_DEVICE_V2
+req.typenames: PEP_REGISTER_DEVICE_V2, *PPEP_REGISTER_DEVICE_V2
 ---
 
 # _PEP_REGISTER_DEVICE_V2 structure
@@ -99,9 +99,11 @@ typedef struct _PEP_REGISTER_DEVICE_V2 {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification. The first three members of this structure contain input values supplied by PoFx. The last two members contain output values that the PEP writes to the structure in response to this notification.
 
 The <b>Register</b> member contains a pointer to an input buffer allocated by PoFx. PoFx writes the <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure and associated data to this structure before sending the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification to the PEP. The contents of this buffer remain valid only until the PEP finishes handling the notification and returns from the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a> callback.
+
 
 
 
@@ -109,13 +111,23 @@ The <b>Register</b> member contains a pointer to an input buffer allocated by Po
 
 <a href="..\pepfx\ne-pepfx-_pep_device_acceptance_type.md">PEP_DEVICE_ACCEPTANCE_TYPE</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
 
  
 

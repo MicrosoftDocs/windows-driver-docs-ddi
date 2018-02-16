@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_ATTACH_FRAME
-title: _CIP_ATTACH_FRAME
+title: "_CIP_ATTACH_FRAME"
 author: windows-driver-content
 description: This structure is used in an attach frame request.
 old-location: ieee\cip_attach_frame.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: F7E283BB-B714-4CD4-AFF4-EFB62D82791D
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/CIP_ATTACH_FRAME, CIP_ATTACH_FRAME, CIP_ATTACH_FRAME structure [Buses], *PCIP_ATTACH_FRAME, 61883/PCIP_ATTACH_FRAME, PCIP_ATTACH_FRAME structure pointer [Buses], PCIP_ATTACH_FRAME, IEEE.cip_attach_frame, _CIP_ATTACH_FRAME
+ms.keywords: IEEE.cip_attach_frame, _CIP_ATTACH_FRAME, *PCIP_ATTACH_FRAME, CIP_ATTACH_FRAME structure [Buses], 61883/PCIP_ATTACH_FRAME, PCIP_ATTACH_FRAME, 61883/CIP_ATTACH_FRAME, PCIP_ATTACH_FRAME structure pointer [Buses], CIP_ATTACH_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CIP_ATTACH_FRAME
 product: Windows
 targetos: Windows
@@ -93,6 +93,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5370
 ## -remarks
 
 
+
 If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
 
 If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_INVALID_PARAMETER.
@@ -101,9 +102,12 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

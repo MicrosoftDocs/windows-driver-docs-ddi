@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
-title: _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
+title: "_D3DDDICB_CREATESYNCHRONIZATIONOBJECT2"
 author: windows-driver-content
 description: Describes a synchronization object that the pfnCreateSynchronizationObject2Cb function creates.
 old-location: display\d3dddicb_createsynchronizationobject2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 090fe0df-d2b4-4bfd-a3f3-38bc228337ab
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_createsynchronizationobject2, d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
+ms.keywords: display.d3dddicb_createsynchronizationobject2, d3dumddi/D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, D3DDDICB_CREATESYNCHRONIZATIONOBJECT2, D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
 product: Windows
 targetos: Windows
@@ -82,7 +82,11 @@ typedef struct _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 {
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobject2cb.md">pfnCreateSynchronizationObject2Cb</a>
 
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
+
+
 
  
 

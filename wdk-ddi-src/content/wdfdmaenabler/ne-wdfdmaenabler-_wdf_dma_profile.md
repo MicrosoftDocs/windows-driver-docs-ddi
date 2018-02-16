@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_PROFILE
-title: _WDF_DMA_PROFILE
+title: "_WDF_DMA_PROFILE"
 author: windows-driver-content
 description: The WDF_DMA_PROFILE enumeration identifies the types of bus-master or system-mode DMA operations that devices can support.
 old-location: wdf\wdf_dma_profile.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a2672bca-5c2e-423d-9ba0-fad610170e88
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_DMA_PROFILE enumeration, kmdf.wdf_dma_profile, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WdfDmaProfileScatterGather64, wdfdmaenabler/WdfDmaProfileInvalid, wdfdmaenabler/WDF_DMA_PROFILE, WdfDmaProfileSystem, wdf.wdf_dma_profile, WdfDmaProfileScatterGatherDuplex, WDF_DMA_PROFILE, WdfDmaProfileSystemDuplex, wdfdmaenabler/WdfDmaProfileScatterGather, WdfDmaProfileScatterGather64Duplex, WdfDmaProfileScatterGather64, wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfilePacket, _WDF_DMA_PROFILE, WdfDmaProfilePacket64, WdfDmaProfileScatterGather, DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml, WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfilePacket64, wdfdmaenabler/WdfDmaProfileSystemDuplex, wdfdmaenabler/WdfDmaProfileSystem, WdfDmaProfilePacket
+ms.keywords: wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfilePacket64, wdf.wdf_dma_profile, WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfileScatterGather64, DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml, WdfDmaProfilePacket64, WdfDmaProfileSystem, WdfDmaProfileScatterGather64, wdfdmaenabler/WdfDmaProfileInvalid, kmdf.wdf_dma_profile, wdfdmaenabler/WdfDmaProfilePacket, WdfDmaProfileSystemDuplex, WDF_DMA_PROFILE enumeration, wdfdmaenabler/WdfDmaProfileSystem, wdfdmaenabler/WdfDmaProfileSystemDuplex, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WDF_DMA_PROFILE, _WDF_DMA_PROFILE, WdfDmaProfileScatterGather, WdfDmaProfileScatterGather64Duplex, WdfDmaProfilePacket, WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfileScatterGather, WdfDmaProfileScatterGatherDuplex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdmaenabler.h
-apiname: 
+apiname:
 -	WDF_DMA_PROFILE
 product: Windows
 targetos: Windows
@@ -126,6 +126,7 @@ The device supports system-mode DMA operations. The device also supports duplex 
 ## -remarks
 
 
+
 <b>WDF_DMA_PROFILE</b>-typed values are used within the driver's <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure. The driver supplies <b>WDF_DMA_ENABLER_CONFIG</b> when it calls <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>.
 
 If the driver selects one of the system-mode DMA profiles, the framework requests the DMA version 3 interface from WDM.  System-mode DMA is available starting in Windows 8. For more information about system-mode DMA, see <a href="https://msdn.microsoft.com/CCC77C15-69CA-44CB-8DEB-29F3EAEA44F6">Supporting System-Mode DMA</a>.
@@ -134,9 +135,12 @@ Kernel-Mode Driver Framework (KMDF) miniport drivers such as NDIS miniport drive
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+
+
 
  
 

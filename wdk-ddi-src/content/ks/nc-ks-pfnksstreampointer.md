@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	AVStrMiniCancelCallback
 product: Windows
 targetos: Windows
@@ -78,11 +78,14 @@ A pointer to the clone <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINT
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine's address in the <i>CancelCallback</i> parameter of <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>.
@@ -97,13 +100,20 @@ Finally, the minidriver must call <a href="..\ks\nf-ks-ksstreampointerdelete.md"
 
 
 
+
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+
 
 <a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+
+
+<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+
+
 
  
 

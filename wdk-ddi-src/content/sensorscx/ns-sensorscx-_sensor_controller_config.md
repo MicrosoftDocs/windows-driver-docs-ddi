@@ -1,14 +1,14 @@
 ---
 UID: NS:sensorscx._SENSOR_CONTROLLER_CONFIG
-title: _SENSOR_CONTROLLER_CONFIG
+title: "_SENSOR_CONTROLLER_CONFIG"
 author: windows-driver-content
 description: This structure contains pointers to callback functions that must be implemented by the driver, and passed on to the class extension to call.
 old-location: sensors\sensor_controller_config.htm
 old-project: sensors
 ms.assetid: EEAC4D16-D0B8-4147-AD2D-7EE60853EBDD
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: *PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG structure pointer [Sensor Devices], PSENSOR_CONTROLLER_CONFIG, sensors.sensor_controller_config, SENSOR_CONTROLLER_CONFIG structure [Sensor Devices], SENSOR_CONTROLLER_CONFIG, _SENSOR_CONTROLLER_CONFIG, sensorscx/PSENSOR_CONTROLLER_CONFIG, sensorscx/SENSOR_CONTROLLER_CONFIG
+ms.date: 2/8/2018
+ms.keywords: "*PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG, SENSOR_CONTROLLER_CONFIG, sensors.sensor_controller_config, _SENSOR_CONTROLLER_CONFIG, sensorscx/SENSOR_CONTROLLER_CONFIG, sensorscx/PSENSOR_CONTROLLER_CONFIG, SENSOR_CONTROLLER_CONFIG structure [Sensor Devices], PSENSOR_CONTROLLER_CONFIG structure pointer [Sensor Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	SensorsCx.h
-apiname: 
+apiname:
 -	SENSOR_CONTROLLER_CONFIG
 product: Windows
 targetos: Windows
@@ -138,6 +138,12 @@ This callback function starts the sensor based on the default properties specifi
 
 
 
+
+#### Sensor
+
+A reference to a sensor object.
+
+
 ### -field EvtSensorStop
 
 This callback function stops the sensor.
@@ -146,6 +152,12 @@ This callback function stops the sensor.
 <pre class="syntax">NTSTATUS EVT_SENSOR_DRIVER_STOP_SENSOR(
     _In_ SENSOROBJECT Sensor);</pre>
 
+
+
+
+#### Sensor
+
+A reference to a sensor object.
 
 
 ### -field EvtSensorGetSupportedDataFields
@@ -158,6 +170,24 @@ This callback function returns a list of data fields supported by the specified 
     _Inout_opt_ PSENSOR_PROPERTY_LIST pDataFields,
     _Out_ PULONG pSize);</pre>
 
+
+
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+#### pDataFields
+
+A list of data fields that are supported by the given sensor.
+
+
+
+#### pSize
+
+The size of pFields.
 
 
 ### -field EvtSensorGetDataFieldProperties
@@ -173,6 +203,32 @@ This callback function returns the properties of a given data field associated w
 
 
 
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+
+
+#### pDataField
+
+A reference to a data field.
+
+
+
+#### pProperties
+
+A list of properties associated with the pDataField.
+
+
+
+#### pSize
+
+The size of pDataField.
+
+
 ### -field EvtSensorGetDataInterval
 
 This callback function returns the data interval for a specified sensor.
@@ -184,6 +240,20 @@ This callback function returns the data interval for a specified sensor.
 
 
 
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+
+
+#### pDataRateMs
+
+The data interval for the specified sensor.
+
+
 ### -field EvtSensorSetDataInterval
 
 This callback function sets the data interval for a specified sensor.
@@ -193,6 +263,20 @@ This callback function sets the data interval for a specified sensor.
     _In_ SENSOROBJECT Sensor,
     _In_ ULONG DataRateMs);</pre>
 
+
+
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+
+
+#### DataRateMs
+
+The data interval for to set for the sensor.
 
 
 ### -field EvtSensorGetDataThresholds
@@ -207,6 +291,26 @@ This callback function returns the thresholds that are associated with a sensor.
 
 
 
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+
+
+#### pThresholds
+
+A list of threshold properties and their values associated with the sensor.
+
+
+
+#### pSize
+
+The size of pThresholds.
+
+
 ### -field EvtSensorSetDataThresholds
 
 This callback function stops the sensor.
@@ -216,6 +320,20 @@ This callback function stops the sensor.
     _In_ SENSOROBJECT Sensor,
     _In_ PSENSOR_COLLECTION_LIST pThresholds);</pre>
 
+
+
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+
+
+#### pThresholds
+
+A list of threshold properties and their values associated with the sensor.
 
 
 ### -field EvtSensorGetProperties
@@ -228,6 +346,26 @@ This callback function returns the properties for a given sensor.
     _Inout_opt_ PSENSOR_COLLECTION_LIST pProperties,
     _Out_ PULONG pSize);</pre>
 
+
+
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+
+
+#### pProperties
+
+A list of properties and their values for the specified sensor.
+
+
+
+#### pSize
+
+The size of pProperties.
 
 
 ### -field EvtSensorDeviceIoControl
@@ -243,6 +381,44 @@ This callback function handles IOCTLs outside of the class extension.<div class=
     _In_ size_t OutputBufferLength,
     _In_ size_t InputBufferLength,
     _In_ ULONG IoControlCode);</pre>
+
+
+
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+
+
+#### Request
+
+A handle to a framework request object that represents the I/O request.
+
+
+
+#### OutputBufferLength
+
+The length of the output buffer (in bytes).
+
+
+
+
+
+#### InputBufferLength
+
+The length of the input buffer (in bytes).
+
+
+
+
+
+#### IoControlCode
+
+The code that indicates which device I/O control function is to be executed.
+
 
 
 
@@ -284,6 +460,18 @@ typedef EVT_SENSOR_DRIVER_SET_BATCH_LATENCY *PFN_SENSOR_DRIVER_SET_BATCH_LATENCY
 
 
 
+
+#### Sensor
+
+A reference to a sensor object.
+
+
+
+#### BatchLatencyMs
+
+The batch latency, expressed in milliseconds.
+
+
 ### -field EvtSensorStartStateChangeNotification
 
  
@@ -305,170 +493,13 @@ typedef EVT_SENSOR_DRIVER_SET_BATCH_LATENCY *PFN_SENSOR_DRIVER_SET_BATCH_LATENCY
 
 
 
-##### - EvtSensorDeviceIoControl.IoControlCode
-
-The code that indicates which device I/O control function is to be executed.
-
-
-
-
-##### - EvtSensorDeviceIoControl.Request
-
-A handle to a framework request object that represents the I/O request.
-
-
-##### - EvtSensorDeviceIoControl.Sensor
-
-A reference to a sensor object.
-
-
-
-
-##### - EvtSensorGetProperties.pSize
-
-The size of pProperties.
-
-
-##### - EvtSensorGetSupportedDataFields.Sensor
-
-A reference to a sensor object.
-
-
-##### - EvtSensorDeviceIoControl.OutputBufferLength
-
-The length of the output buffer (in bytes).
-
-
-
-
-##### - EvtSensorDeviceIoControl.InputBufferLength
-
-The length of the input buffer (in bytes).
-
-
-
-
-##### - EvtSensorGetDataInterval.pDataRateMs
-
-The data interval for the specified sensor.
-
-
-##### - EvtSensorStart.Sensor
-
-A reference to a sensor object.
-
-
-##### - EvtSensorGetDataFieldProperties.pProperties
-
-A list of properties associated with the pDataField.
-
-
-##### - EvtSensorGetSupportedDataFields.pSize
-
-The size of pFields.
-
-
-##### - EvtSensorSetDataThresholds.pThresholds
-
-A list of threshold properties and their values associated with the sensor.
-
-
-##### - EvtSensorGetDataFieldProperties.pSize
-
-The size of pDataField.
-
-
-##### - EvtSensorGetDataThresholds.pSize
-
-The size of pThresholds.
-
-
-##### - EvtSensorSetDataInterval.DataRateMs
-
-The data interval for to set for the sensor.
-
-
-##### - EvtSensorGetDataFieldProperties.pDataField
-
-A reference to a data field.
-
-
-##### - EvtSensorGetDataThresholds.pThresholds
-
-A list of threshold properties and their values associated with the sensor.
-
-
-##### - EvtSensorGetProperties.pProperties
-
-A list of properties and their values for the specified sensor.
-
-
-##### - EvtSensorSetBatchLatency.Sensor
-
-A reference to a sensor object.
-
-
-##### - EvtSensorSetBatchLatency.BatchLatencyMs
-
-The batch latency, expressed in milliseconds.
-
-
-##### - EvtSensorGetDataThresholds.Sensor
-
-A reference to a sensor object.
-
-
-
-
-##### - EvtSensorStop.Sensor
-
-A reference to a sensor object.
-
-
-##### - EvtSensorGetDataInterval.Sensor
-
-A reference to a sensor object.
-
-
-
-
-##### - EvtSensorGetSupportedDataFields.pDataFields
-
-A list of data fields that are supported by the given sensor.
-
-
-##### - EvtSensorGetDataFieldProperties.Sensor
-
-A reference to a sensor object.
-
-
-
-
-##### - EvtSensorGetProperties.Sensor
-
-A reference to a sensor object.
-
-
-
-
-##### - EvtSensorSetDataInterval.Sensor
-
-A reference to a sensor object.
-
-
-
-
-##### - EvtSensorSetDataThresholds.Sensor
-
-A reference to a sensor object.
-
-
-
 
 ## -remarks
 
 
+
 This structure is given to the class extension using the <a href="..\sensorscx\nf-sensorscx-sensorscxdeviceinitialize.md">SensorsCxDeviceInitialize</a> function. If any of the following function pointers are not set, the driver will fail to load:
+
 <ul>
 <li>EvtSensorStart</li>
 <li>EvtSensorStop</li>
@@ -479,12 +510,14 @@ This structure is given to the class extension using the <a href="..\sensorscx\n
 <li>EvtSensorGetDataThresholds</li>
 <li>EvtSensorSetDataThresholds</li>
 <li>EvtSensorGetProperties</li>
-</ul>Each function returns STATUS_SUCCESS when completed successfully.
+</ul>
+Each function returns STATUS_SUCCESS when completed successfully.
 
 <div class="alert"><b>Note</b>  The class extension (CX) only uses the NT_SUCCESS macro to determine if the call to the driver’s Evt function was successful, but does not take any action if the function failed or does not return STATUS_SUCCESS.
 
 </div>
 <div> </div>
+
 
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ea88d1de-70c1-424a-a3a0-cce46cc3fe39
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl2::GetEventFilterCommand, dbgeng/IDebugControl::GetEventFilterCommand, GetEventFilterCommand method [Windows Debugging], GetEventFilterCommand, IDebugControl3::GetEventFilterCommand, debugger.geteventfiltercommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, IDebugControl3, GetEventFilterCommand method [Windows Debugging], IDebugControl interface, GetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetEventFilterCommand method, IDebugControl3 interface [Windows Debugging], GetEventFilterCommand method, GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::GetEventFilterCommand, IDebugControl interface [Windows Debugging], GetEventFilterCommand method, IDebugControl::GetEventFilterCommand, IDebugControl2::GetEventFilterCommand
+ms.keywords: GetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetEventFilterCommand method, dbgeng/IDebugControl::GetEventFilterCommand, IDebugControl_a0acf45f-8741-48a0-9eb0-f8a9aa55c476.xml, IDebugControl2::GetEventFilterCommand, IDebugControl3, GetEventFilterCommand method [Windows Debugging], IDebugControl interface, GetEventFilterCommand, dbgeng/IDebugControl2::GetEventFilterCommand, IDebugControl2 interface [Windows Debugging], GetEventFilterCommand method, GetEventFilterCommand method [Windows Debugging], GetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetEventFilterCommand, IDebugControl2, IDebugControl, debugger.geteventfiltercommand, IDebugControl3::GetEventFilterCommand, IDebugControl::GetEventFilterCommand, IDebugControl interface [Windows Debugging], GetEventFilterCommand method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetEventFilterCommand
 -	IDebugControl2.GetEventFilterCommand
 -	IDebugControl3.GetEventFilterCommand
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetEventFilterCommand method
@@ -95,7 +95,9 @@ Receives the size in characters of the command.  If <i>CommandSize</i> is <b>NUL
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -112,30 +114,46 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about event filters, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">Event Filters</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
+
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
 
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 

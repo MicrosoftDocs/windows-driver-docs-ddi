@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb3d8e2a-20f6-41fc-a220-de93eb83f359
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, *PWNODE_TOO_SMALL, tagWNODE_TOO_SMALL, kernel.wnode_too_small, PWNODE_TOO_SMALL, WNODE_TOO_SMALL, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], wmistr/PWNODE_TOO_SMALL, WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], wmistr/WNODE_TOO_SMALL
+ms.keywords: tagWNODE_TOO_SMALL, WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], wmistr/WNODE_TOO_SMALL, *PWNODE_TOO_SMALL, WNODE_TOO_SMALL, kernel.wnode_too_small, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, wmistr/PWNODE_TOO_SMALL, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], PWNODE_TOO_SMALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wmistr.h
-apiname: 
+apiname:
 -	WNODE_TOO_SMALL
 product: Windows
 targetos: Windows
-req.typenames: WNODE_TOO_SMALL, *PWNODE_TOO_SMALL
+req.typenames: "*PWNODE_TOO_SMALL, WNODE_TOO_SMALL"
 req.product: Windows 10 or later.
 ---
 
@@ -87,13 +87,17 @@ Specifies the size of the buffer needed to receive all of the <b>WNODE_<i>XXX</i
 ## -remarks
 
 
+
 When the buffer for a WMI request is too small to receive all of the data to be returned, a driver fills in a <b>WNODE_TOO_SMALL</b> structure to indicate the required buffer size. WMI can then increase the buffer to the recommended size and issue the request again. A driver is responsible for managing any side effects caused by handling the same request more than once. 
+
 
 
 
 ## -see-also
 
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+
+
 
  
 

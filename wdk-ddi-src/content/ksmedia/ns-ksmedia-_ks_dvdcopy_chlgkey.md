@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_CHLGKEY
-title: _KS_DVDCOPY_CHLGKEY
+title: "_KS_DVDCOPY_CHLGKEY"
 author: windows-driver-content
 description: The KS_DVDCOPY_CHLGKEY structure is used to describe the challenge key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_chlgkey.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10be15fc-ca0e-40d4-8fe9-9682478f5c5b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY structure [Streaming Media Devices], ksmedia/KS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY structure pointer [Streaming Media Devices], stream.ks_dvdcopy_chlgkey, dvdref_af25bbe5-5caf-4cd7-be78-1d905a50ef82.xml, KS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY, _KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY
+ms.keywords: dvdref_af25bbe5-5caf-4cd7-be78-1d905a50ef82.xml, PKS_DVDCOPY_CHLGKEY structure pointer [Streaming Media Devices], KS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY structure [Streaming Media Devices], PKS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY, ksmedia/KS_DVDCOPY_CHLGKEY, ksmedia/PKS_DVDCOPY_CHLGKEY, stream.ks_dvdcopy_chlgkey, _KS_DVDCOPY_CHLGKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DVDCOPY_CHLGKEY
 product: Windows
 targetos: Windows
@@ -81,15 +81,19 @@ Reserved. Do not use.
 ## -remarks
 
 
+
 The KS_DVDCOPY_CHLGKEY structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565140">KSPROPERTY_DVDCOPY_CHLG_KEY</a> property.
 
 For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c-b2ab-7567a5eeb87b">DVD Copyright Protection</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565140">KSPROPERTY_DVDCOPY_CHLG_KEY</a>
+
+
 
  
 

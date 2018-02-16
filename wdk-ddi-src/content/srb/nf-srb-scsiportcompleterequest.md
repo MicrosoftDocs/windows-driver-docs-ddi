@@ -2,13 +2,13 @@
 UID: NF:srb.ScsiPortCompleteRequest
 title: ScsiPortCompleteRequest function
 author: windows-driver-content
-description: The ScsiPortCompleteRequest routine completes all of the active requests for the given SCSI bus, controller, or LU, including a request being processed by the calling miniport driver routine.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. 
+description: The ScsiPortCompleteRequest routine completes all of the active requests for the given SCSI bus, controller, or LU, including a request being processed by the calling miniport driver routine.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportcompleterequest.htm
 old-project: storage
 ms.assetid: 9cd17a86-6652-414d-a80d-2e61c0ac99b6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, ScsiPortCompleteRequest routine [Storage Devices], storage.scsiportcompleterequest, ScsiPortCompleteRequest, srb/ScsiPortCompleteRequest
+ms.keywords: storage.scsiportcompleterequest, ScsiPortCompleteRequest routine [Storage Devices], srb/ScsiPortCompleteRequest, scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, ScsiPortCompleteRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Scsiport.lib
 -	Scsiport.dll
-apiname: 
+apiname:
 -	ScsiPortCompleteRequest
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -101,22 +101,30 @@ Specifies the completion status to be set in the <b>SrbStatus </b>member of each
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>ScsiPortCompleteRequest</b> can be called to complete outstanding requests after a bus reset, a device reset, or an abort, rather than calling <a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a> for each outstanding request individually. After calling <b>ScsiPortCompleteRequest</b>, do not also call <b>ScsiPortNotification</b>. 
+
 
 
 
 ## -see-also
 
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+
+
+
 <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
+
 
  
 

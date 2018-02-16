@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4eb97a4f-dd95-4fd4-8315-efcb446f56cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_RESETMODEMKIND_MAX, RIL_RESETMODEMKIND_MAX, netvista.rilresetmodemkind, ntddrilapitypes/RILRESETMODEMKIND, ntddrilapitypes/RIL_RESETMODEMKIND_ABRUPT, RIL_RESETMODEMKIND_ABRUPT, RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilresetmodemkind, ntddrilapitypes/RIL_RESETMODEMKIND_ABRUPT, ntddrilapitypes/RILRESETMODEMKIND, RILRESETMODEMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMKIND_MAX, RILRESETMODEMKIND, RIL_RESETMODEMKIND_ABRUPT, ntddrilapitypes/RIL_RESETMODEMKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILRESETMODEMKIND
 product: Windows
 targetos: Windows
@@ -71,11 +71,8 @@ typedef enum _RILRESETMODEMKIND {
 ### -field RIL_RESETMODEMKIND_NORMAL
 
 
-
 ### -field RIL_RESETMODEMKIND_ABRUPT
 
 
-
 ### -field RIL_RESETMODEMKIND_MAX
-
 

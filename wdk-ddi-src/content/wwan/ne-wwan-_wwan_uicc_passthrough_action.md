@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_UICC_PASSTHROUGH_ACTION
-title: _WWAN_UICC_PASSTHROUGH_ACTION
+title: "_WWAN_UICC_PASSTHROUGH_ACTION"
 author: windows-driver-content
 description: The WWAN_UICC_PASSTHROUGH_ACTION enumeration defines the passthrough action specified by the MB host for a modem miniport adapter after it resets a UICC smart card.
 old-location: netvista\wwan_uicc_passthrough_action.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4C9293CB-D92D-4C31-929F-16C1B8918933
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughDisable, WwanUiccPassThroughActionMaximum, wwan/WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughActionMaximum, WwanUiccPassThroughEnable, *PWWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughDisable, wwan/WwanUiccPassThroughEnable, netvista.wwan_uicc_passthrough_action, _WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION
+ms.keywords: wwan/WWAN_UICC_PASSTHROUGH_ACTION, _WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughDisable, wwan/WwanUiccPassThroughEnable, WWAN_UICC_PASSTHROUGH_ACTION, *PWWAN_UICC_PASSTHROUGH_ACTION, WwanUiccPassThroughDisable, WwanUiccPassThroughActionMaximum, WwanUiccPassThroughEnable, WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_uicc_passthrough_action, wwan/WwanUiccPassThroughActionMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_UICC_PASSTHROUGH_ACTION
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION
+req.typenames: WWAN_UICC_PASSTHROUGH_ACTION, *PWWAN_UICC_PASSTHROUGH_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -88,9 +88,13 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_set_uicc_reset.md">WWAN_SET_UICC_RESET</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+
 
  
 

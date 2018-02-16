@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_WMI_METHOD_HEADER
-title: _NDIS_WMI_METHOD_HEADER
+title: "_NDIS_WMI_METHOD_HEADER"
 author: windows-driver-content
 description: The NDIS_WMI_METHOD_HEADER structure provides information about a GUID method request from WMI clients.
 old-location: netvista\ndis_wmi_method_header.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c39a9438-d3be-4f01-96d5-01c7339a666a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_WMI_METHOD_HEADER, netvista.ndis_wmi_method_header, PNDIS_WMI_METHOD_HEADER, ntddndis/NDIS_WMI_METHOD_HEADER, _NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], NDIS_WMI_METHOD_HEADER, *PNDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml
+ms.keywords: netvista.ndis_wmi_method_header, PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml, NDIS_WMI_METHOD_HEADER, _NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_METHOD_HEADER, ntddndis/PNDIS_WMI_METHOD_HEADER, *PNDIS_WMI_METHOD_HEADER, ntddndis/NDIS_WMI_METHOD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_WMI_METHOD_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER
+req.typenames: "*PNDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER"
 ---
 
 # _NDIS_WMI_METHOD_HEADER structure
@@ -88,16 +88,16 @@ The
 
 The miniport adapter port, if any. If the GUID is not specific to a port, 
      <b>PortNumber</b> is zero. WMI clients can use the 
-     <mshelp:link keywords="netvista.guid_ndis_gen_enumerate_ports" tabindex="0">
-     GUID_NDIS_GEN_ENUMERATE_PORTS</mshelp:link> GUID to obtain list of the ports that are associated with a miniport
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">
+     GUID_NDIS_GEN_ENUMERATE_PORTS</a> GUID to obtain list of the ports that are associated with a miniport
      adapter.
 
 
 ### -field NetLuid
 
 The NDIS network interface name of the miniport adapter. WMI clients can use the 
-     <mshelp:link keywords="netvista.guid_ndis_enumerate_adapters_ex" tabindex="0">
-     GUID_NDIS_ENUMERATE_ADAPTERS_EX</mshelp:link> GUID to find a device name and the associated 
+     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">
+     GUID_NDIS_ENUMERATE_ADAPTERS_EX</a> GUID to find a device name and the associated 
      <b>NetLuid</b> value.
 
 
@@ -137,6 +137,7 @@ This member is reserved.
 ## -remarks
 
 
+
 NDIS translates WMI GUID method requests to NDIS OID requests.
 
 WMI method GUID requests that are specific to NDIS 6.0 and later versions include an
@@ -145,13 +146,20 @@ WMI method GUID requests that are specific to NDIS 6.0 and later versions includ
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
+
+
 
  
 

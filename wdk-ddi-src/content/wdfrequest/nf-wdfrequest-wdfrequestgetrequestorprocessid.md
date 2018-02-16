@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F2CE35C8-F3BA-49E3-AE27-2FC5BFEC2D58
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestgetrequestorprocessid, WdfRequestGetRequestorProcessId method, wdfrequest/WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId
+ms.keywords: WdfRequestGetRequestorProcessId, wdf.wdfrequestgetrequestorprocessid, wdfrequest/WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.lib
 req.dll: WUDFx02000.dll; TBD
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	WUDFx02000.dll
-apiname: 
+apiname:
 -	WdfRequestGetRequestorProcessId
 product: Windows
 targetos: Windows
@@ -78,13 +78,17 @@ A handle to a framework request object.
 ## -returns
 
 
+
 <b>WdfRequestGetRequestorProcessId</b> returns the identifier of the process that sent the I/O request.
+
 
 
 
 ## -see-also
 
 <a href="..\wdffileobject\nf-wdffileobject-wdffileobjectgetinitiatorprocessid.md">WdfFileObjectGetInitiatorProcessId</a>
+
+
 
  
 

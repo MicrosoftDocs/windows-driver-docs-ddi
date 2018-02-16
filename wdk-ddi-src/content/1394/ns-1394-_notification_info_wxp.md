@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._NOTIFICATION_INFO_WXP
-title: _NOTIFICATION_INFO_WXP
+title: "_NOTIFICATION_INFO_WXP"
 author: windows-driver-content
 description: The bus driver passes NOTIFICATION_INFO to pass information to the driver-provided notification routine for a driver-allocated address range in the computer's IEEE 1394 address space.
 old-location: ieee\notification_info.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0c0dca35-3590-4c24-a2a7-8dd0378c525f
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, NOTIFICATION_INFO_W2K, PNOTIFICATION_INFO structure pointer [Buses], 1394/PNOTIFICATION_INFO, _NOTIFICATION_INFO_W2K, NOTIFICATION_INFO structure [Buses], PNOTIFICATION_INFO, *PNOTIFICATION_INFO, NOTIFICATION_INFO, IEEE.notification_info, *PNOTIFICATION_INFO_W2K, NOTIFICATION_INFO_WXP, *PNOTIFICATION_INFO_WXP, 1394/NOTIFICATION_INFO, _NOTIFICATION_INFO_WXP
+ms.keywords: 1394/NOTIFICATION_INFO, NOTIFICATION_INFO, *PNOTIFICATION_INFO_WXP, NOTIFICATION_INFO_WXP, IEEE.notification_info, _NOTIFICATION_INFO_WXP, NOTIFICATION_INFO_W2K, 1394/PNOTIFICATION_INFO, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, PNOTIFICATION_INFO structure pointer [Buses], _NOTIFICATION_INFO_W2K, *PNOTIFICATION_INFO_W2K, *PNOTIFICATION_INFO, NOTIFICATION_INFO structure [Buses], PNOTIFICATION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	NOTIFICATION_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PNOTIFICATION_INFO_WXP, NOTIFICATION_INFO_WXP
+req.typenames: "*PNOTIFICATION_INFO_WXP, NOTIFICATION_INFO_WXP"
 ---
 
 # _NOTIFICATION_INFO_WXP structure
@@ -98,11 +98,13 @@ Specifies the number of bytes affected by the request packet. Only used when <b>
 ### -field fulNotificationOptions
 
 Specifies which type of event triggered the bus driver to call the notification routine. The possible events the bus driver can return are the following:
+
 <ul>
 <li> NOTIFY_FLAGS_AFTER_READ</li>
 <li> NOTIFY_FLAGS_AFTER_WRITE</li>
 <li> NOTIFY_FLAGS_AFTER_LOCK</li>
-</ul>This member is only used when <b>Mdl</b> is non-<b>NULL</b>.
+</ul>
+This member is only used when <b>Mdl</b> is non-<b>NULL</b>.
 
 
 ### -field Context
@@ -145,6 +147,7 @@ If non-<b>NULL</b>, <b>ResponseEvent</b> points to a memory location that the dr
 Specifies the result of the driver's response to the request. The driver must report the response result by setting <b>ResponseCode</b> to a valid RCODE value.
 
 The following table describes the RCODE values:
+
 <table>
 <tr>
 <th>RCODE value</th>
@@ -190,10 +193,14 @@ address).
 <td>RCODE_TIMED_OUT</td>
 <td>The 1394 device did not respond to the request.</td>
 </tr>
-</table> 
-<div class="alert"><b>Important</b>  Under certain conditions in Windows 7, a memory leak could occur if the driver's notification routine modifies the <b>ResponseCode</b> member. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=192281">Memory Leak in IEEE 1394 Bus Driver Performing Asynchronous Notification Callbacks</a>.</div><div> </div>
+</table>
+ 
+
+<div class="alert"><b>Important</b>  Under certain conditions in Windows 7, a memory leak could occur if the driver's notification routine modifies the <b>ResponseCode</b> member. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=192281">Memory Leak in IEEE 1394 Bus Driver Performing Asynchronous Notification Callbacks</a>.</div>
+<div> </div>
 
 ## -remarks
+
 
 
 When a driver allocates an address range on the computer's IEEE 1394 address space, it may require that the bus driver notify it for some or all request packets sent to the allocated addresses. As part of the original allocate request, the driver may either require that the bus driver forward each packet for handling, or it may require that the bus driver handle the packet and notify the device driver when it has finished. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>. 
@@ -206,9 +213,12 @@ If the device driver is using a linked list of ADDRESS_FIFO's as the backing sto
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+
+
 
  
 

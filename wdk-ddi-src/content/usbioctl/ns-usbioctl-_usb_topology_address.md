@@ -1,14 +1,14 @@
 ---
 UID: NS:usbioctl._USB_TOPOLOGY_ADDRESS
-title: _USB_TOPOLOGY_ADDRESS
+title: "_USB_TOPOLOGY_ADDRESS"
 author: windows-driver-content
 description: The USB_TOPOLOGY_ADDRESS structure is used with the IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS I/O request to retrieve information about a USB device?s location in the USB device tree.
 old-location: buses\usb_topology_address.htm
 old-project: usbref
 ms.assetid: 5d8d6665-bfa1-4bc5-8168-7508624845e1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.usb_topology_address, _USB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS structure [Buses], usbioctl/USB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], usbioctl/PUSB_TOPOLOGY_ADDRESS
+ms.date: 2/8/2018
+ms.keywords: USB_TOPOLOGY_ADDRESS structure [Buses], usbioctl/USB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], buses.usb_topology_address, _USB_TOPOLOGY_ADDRESS, usbioctl/PUSB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbioctl.h
-apiname: 
+apiname:
 -	USB_TOPOLOGY_ADDRESS
 product: Windows
 targetos: Windows
@@ -108,22 +108,29 @@ An array containing the port number on each external hub (between the root hub a
 
 
 
+
 ## -remarks
+
 
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
 
 
-## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_topology_address.md">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
- 
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_topology_address.md">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_TOPOLOGY_ADDRESS structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_TOPOLOGY_ADDRESS structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

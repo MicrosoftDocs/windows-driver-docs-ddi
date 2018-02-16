@@ -1,14 +1,14 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR
-title: _USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR
+title: "_USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_device_descriptor.htm
 old-project: audio
 ms.assetid: 66EDD6E5-F6EB-42C9-8B68-3A19DED7DCB8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: usbsidebandaudio/PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, audio.usbsidebandaudio_device_descriptor, PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR structure pointer [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, _USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR structure [Audio Devices], *PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR
+ms.date: 2/8/2018
+ms.keywords: USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, usbsidebandaudio/PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, *PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR structure [Audio Devices], PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR structure pointer [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, _USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, audio.usbsidebandaudio_device_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	kbSyntax
-apitype: 
+apitype:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+apilocation:
+-
+apiname:
 -	USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: *PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR
+req.typenames: "*PUSBSIDEBANDAUDIO_DEVICE_DESCRIPTOR, USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -87,12 +87,13 @@ typedef struct _USBSIDEBANDAUDIO_DEVICE_DESCRIPTOR {
 
 
 
-#### - Reserved 1
+
+#### - Reserved 0
 
 TBD
 
 
-#### - Reserved 0
+#### - Reserved 1
 
 TBD
 
@@ -105,6 +106,8 @@ TBD
 ## -remarks
 
 
+
 TBD
+
 
 

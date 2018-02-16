@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	ProviderAppendDma
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_APPEND_HANDLER callback
@@ -82,8 +82,8 @@ NTSTATUS ProviderAppendDma(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ### -param DescriptorVirtualAddress [in]
@@ -106,14 +106,18 @@ A pointer to the physical address of the first DMA descriptor in a linked list o
 The number of DMA descriptors at 
      <i>DescriptorVirtualAddress</i> .
      
+
 <div class="alert"><b>Note</b>  NetDMA provider drivers prior to NetDMA version 2.0 can ignore the 
      <i>DescriptorCount</i> parameter. For NetDMA 2.0 and later versions, this parameter is the count of
-     descriptors in the DMA operation.</div><div> </div>
+     descriptors in the DMA operation.</div>
+<div> </div>
 
 ## -returns
 
 
+
 <i>ProviderAppendDma</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,11 +145,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -155,6 +162,7 @@ The NetDMA interface calls a DMA provider driver's
     interface must call the 
     <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a> function after a channel
     reset or abort, or after the DMA channel is first allocated.
+
 <div class="alert"><b>Note</b>  In NetDMA 2.0 and later versions, the linked list of descriptors is not
     NULL-terminated. The 
     <b>NextDescriptor</b> member in the last descriptor in the linked list specifies the physical address of
@@ -164,7 +172,9 @@ The NetDMA interface calls a DMA provider driver's
     <b>ProviderAppendDma</b> function. A NetDMA 2.0
     provider driver can cache the address in 
     <b>NextDescriptor</b> and use this address as the beginning of the linked list for the next Append
-    operation.</div><div> </div>The NetDMA interface sets the 
+    operation.</div>
+<div> </div>
+The NetDMA interface sets the 
     <b>NextDescriptor</b> member of the last descriptor to the beginning of the new chain of descriptors
     before calling 
     <i>ProviderAppendDma</i>.
@@ -182,13 +192,20 @@ NetDMA calls
 
 
 
+
 ## -see-also
+
+<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+
+
 
 <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
+
+
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+
 
  
 

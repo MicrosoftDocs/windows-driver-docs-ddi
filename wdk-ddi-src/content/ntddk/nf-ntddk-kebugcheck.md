@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 46337a5f-dc8a-42bc-a618-0d1440270f91
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.kebugcheck, ntddk/KeBugCheck, k105_0d6fece0-a301-44af-92b4-0ff735195c2b.xml, KeBugCheck routine [Kernel-Mode Driver Architecture], KeBugCheck
+ms.keywords: KeBugCheck routine [Kernel-Mode Driver Architecture], kernel.kebugcheck, k105_0d6fece0-a301-44af-92b4-0ff735195c2b.xml, KeBugCheck, ntddk/KeBugCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeBugCheck
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # KeBugCheck function
@@ -75,11 +75,14 @@ Specifies a value that indicates the reason for the bug check.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A bug check is a system-detected error that causes an immediate, controlled shutdown of the system. Various kernel-mode components perform run-time consistency checking. When such a component discovers an unrecoverable inconsistency, it causes a bug check to be generated.
@@ -96,17 +99,28 @@ When a bug check is unavoidable, most system components call <a href="..\wdm\nf-
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-
-<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
 
 <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
+
+
+<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
+
+
 <a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
+
 
  
 

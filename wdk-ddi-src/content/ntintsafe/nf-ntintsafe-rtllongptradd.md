@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D0036070-A23D-4525-AE80-E10B20330F97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlLongPtrAdd, kernel.rtllongptradd, ntintsafe/RtlLongPtrAdd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.rtllongptradd, RtlLongPtrAdd function [Kernel-Mode Driver Architecture], RtlLongPtrAdd, ntintsafe/RtlLongPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlLongPtrAdd
 product: Windows
 targetos: Windows
@@ -85,10 +85,6 @@ TBD
 
 
 
-#### - u8Augend [in]
-
-The first value in the equation.
-
 
 #### - pu8Result [out]
 
@@ -100,9 +96,16 @@ A pointer to the sum. If the operation results in a value that overflows or unde
 The value to add to <i>u8Augend</i>.
 
 
+#### - u8Augend [in]
+
+The first value in the equation.
+
+
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

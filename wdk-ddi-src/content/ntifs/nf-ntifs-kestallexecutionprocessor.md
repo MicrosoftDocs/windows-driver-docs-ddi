@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9f03af94-0a29-42f4-84f1-09d8d1c97dd6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], KeStallExecutionProcessor, kernel.kestallexecutionprocessor, wdm/KeStallExecutionProcessor
+ms.keywords: KeStallExecutionProcessor, k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, kernel.kestallexecutionprocessor, wdm/KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hal.dll
-apiname: 
+apiname:
 -	KeStallExecutionProcessor
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Specifies the number of microseconds to stall.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>KeStallExecutionProcessor</b> is a processor-dependent routine that busy-waits for at least the specified number of microseconds, but not significantly longer.
@@ -88,13 +91,20 @@ This routine is for use by device drivers and other software that must wait for 
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
 
 <a href="..\wdm\nf-wdm-kedelayexecutionthread.md">KeDelayExecutionThread</a>
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+
+
 
  
 

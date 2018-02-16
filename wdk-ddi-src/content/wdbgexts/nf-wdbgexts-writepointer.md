@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 5f3d6cd6-e138-4114-8fac-03cbe1c7aa68
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.writepointer, WritePointer function [Windows Debugging], WdbgExts_Ref_ab18dbae-3a69-43a1-97dd-d0711e4db54e.xml, WritePointer, wdbgexts/WritePointer
+ms.keywords: wdbgexts/WritePointer, debugger.writepointer, WritePointer, WritePointer function [Windows Debugging], WdbgExts_Ref_ab18dbae-3a69-43a1-97dd-d0711e4db54e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	WritePointer
 product: Windows
 targetos: Windows
@@ -82,20 +82,26 @@ Specifies the value of the pointer.  If the target uses 32-bit pointers, <i>Poin
 ## -returns
 
 
+
 If the function succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>FALSE</b>.
+
 
 
 
 ## -remarks
 
 
+
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+
 
 
 
 ## -see-also
 
 <a href="..\wdbgexts\nf-wdbgexts-readpointer.md">ReadPointer</a>
+
+
 
  
 

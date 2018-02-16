@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 43BD3798-0FCA-4A44-8EE1-DE252636CC95
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlULongToChar, kernel.rtlulongtochar, ntintsafe/RtlULongToChar, RtlULongToChar function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlULongToChar function [Kernel-Mode Driver Architecture], kernel.rtlulongtochar, RtlULongToChar, ntintsafe/RtlULongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlULongToChar
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ A pointer to the converted value. In the case where the conversion causes a trun
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
 
 

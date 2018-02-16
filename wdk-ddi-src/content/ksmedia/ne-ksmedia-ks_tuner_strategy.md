@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 333b1b11-cc6e-4546-9638-e5dcb4c2607c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: vidcapstruct_99c03903-7b57-44ea-8c11-a3017931dfca.xml, KS_TUNER_STRATEGY_SIGNAL_STRENGTH, KS_TUNER_STRATEGY_PLL, ksmedia/KS_TUNER_STRATEGY, KS_TUNER_STRATEGY_DRIVER_TUNES, KS_TUNER_STRATEGY, KS_TUNER_STRATEGY enumeration [Streaming Media Devices], ksmedia/KS_TUNER_STRATEGY_DRIVER_TUNES, stream.ks_tuner_strategy, ksmedia/KS_TUNER_STRATEGY_SIGNAL_STRENGTH, ksmedia/KS_TUNER_STRATEGY_PLL
+ms.keywords: ksmedia/KS_TUNER_STRATEGY_PLL, KS_TUNER_STRATEGY, KS_TUNER_STRATEGY enumeration [Streaming Media Devices], KS_TUNER_STRATEGY_SIGNAL_STRENGTH, vidcapstruct_99c03903-7b57-44ea-8c11-a3017931dfca.xml, KS_TUNER_STRATEGY_DRIVER_TUNES, ksmedia/KS_TUNER_STRATEGY, KS_TUNER_STRATEGY_PLL, stream.ks_tuner_strategy, ksmedia/KS_TUNER_STRATEGY_DRIVER_TUNES, ksmedia/KS_TUNER_STRATEGY_SIGNAL_STRENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_TUNER_STRATEGY
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ The minidriver has total control over the fine tuning process. No fine tuning is
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_mode_caps_s.md">KSPROPERTY_TUNER_MODE_CAPS_S</a>
+
+
 
  
 

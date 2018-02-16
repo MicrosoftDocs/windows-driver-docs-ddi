@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	ProviderStartDma
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_START_HANDLER callback
@@ -81,8 +81,8 @@ NTSTATUS ProviderStartDma(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ### -param DescriptorVirtualAddress [in]
@@ -105,14 +105,18 @@ A pointer to the physical address of the first DMA descriptor in a linked list o
 The number of DMA descriptors at 
      <i>DescriptorVirtualAddress</i> .
      
+
 <div class="alert"><b>Note</b>  NetDMA provider drivers prior to NetDMA version 2.0 can ignore the 
      <i>DescriptorCount</i> parameter. For NetDMA 2.0 and later versions, this parameter is the count of
-     descriptors in the DMA operation.</div><div> </div>
+     descriptors in the DMA operation.</div>
+<div> </div>
 
 ## -returns
 
 
+
 <i>ProviderStartDma</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,11 +155,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -164,14 +171,15 @@ The NetDMA interface calls a DMA provider driver's
     <i>ProviderStartDma</i> after it calls the 
     <a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>, 
     <a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>, or 
-    <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-    ProviderAllocateDmaChannel</b></mshelp:link> function for a DMA channel.
+    <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+    ProviderAllocateDmaChannel</a> function for a DMA channel.
 
 The source of the DMA transfer is a linked list of DMA descriptors. The 
     <b>NextDescriptor</b> member of the 
     <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure at the 
     <i>DescriptorVirtualAddress</i> parameter contains the physical address of the next NET_DMA_DESCRIPTOR
     structure in the linked list.
+
 <div class="alert"><b>Note</b>  In NetDMA 2.0 and later versions, the linked list of descriptors is not
     NULL-terminated. The 
     <b>NextDescriptor</b> member in the last descriptor in the linked list specifies the physical address of
@@ -181,7 +189,9 @@ The source of the DMA transfer is a linked list of DMA descriptors. The
     <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a> function. A NetDMA 2.0
     provider driver can cache the address in 
     <b>NextDescriptor</b> and use this address as the beginning of the linked list for the next Append
-    operation.</div><div> </div>To perform the start operation, the DMA provider must disregard the existing DMA descriptor list, if
+    operation.</div>
+<div> </div>
+To perform the start operation, the DMA provider must disregard the existing DMA descriptor list, if
     any, after it completes any processing on the current descriptor. The DMA provider must ignore the 
     <b>NextDescriptor</b> member in the current NET_DMA_DESCRIPTOR structure and load the descriptor that 
     <i>ProviderStartDma</i> specifies.
@@ -196,17 +206,28 @@ NetDMA calls
 
 
 
+
 ## -see-also
-
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
-
-<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
 
 <a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
 
+
+
+<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
 <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
 
+
+
 <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+
+
 
  
 

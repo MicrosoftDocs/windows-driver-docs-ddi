@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VIDMM_ESCAPE
-title: _D3DKMT_VIDMM_ESCAPE
+title: "_D3DKMT_VIDMM_ESCAPE"
 author: windows-driver-content
 description: The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory manager (which is part of Dxgkrnl.sys) in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_vidmm_escape.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b9fb9960-9e6a-4c41-9c40-8ad307f83f0e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape, d3dkmthk/D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml
+ms.keywords: D3DKMT_VIDMM_ESCAPE structure [Display Devices], d3dkmthk/D3DKMT_VIDMM_ESCAPE, _D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape, D3DKMT_VIDMM_ESCAPE, OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_VIDMM_ESCAPE
 product: Windows
 targetos: Windows
@@ -105,12 +105,21 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 
 
+### -field Type
+
+
 ### -field SetFault
 
 
 
-### -field SetFault.ProbeAndLock
+#### SplitPoin
 
+
+
+#### HotAddMemory
+
+
+### -field SetFault.ProbeAndLock
 
 
 ### -field SetFault.SplitPoint
@@ -126,61 +135,46 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 ### -field SetFault.SwizzlingAperture
 
 
-
 ### -field SetFault.PagingPathLockSubRange
-
 
 
 ### -field SetFault.PagingPathLockMinRange
 
 
-
 ### -field SetFault.ComplexLock
-
 
 
 ### -field SetFault.FailVARotation
 
 
-
 ### -field SetFault.NoWriteCombined
-
 
 
 ### -field SetFault.NoPrePatching
 
 
-
 ### -field SetFault.AlwaysRepatch
-
 
 
 ### -field SetFault.ExpectPreparationFailure
 
 
-
 ### -field SetFault.FailUserModeVAMapping
-
 
 
 ### -field SetFault.NeverDiscardOfferedAllocation
 
 
-
 ### -field SetFault.AlwaysDiscardOfferedAllocation
-
 
 
 ### -field SetFault.Reserved
 
 
-
 ### -field SetFault.Value
 
 
-
 ### -field Evict
-
 
 
 ### -field Evict.ResourceHandle
@@ -199,7 +193,6 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 
 ### -field EvictByNtHandle
-
 
 
 ### -field EvictByNtHandle.NtHandle
@@ -327,6 +320,11 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
  
 
 
+### -field EvictByCriteria
+
+ 
+
+
 ### -field Wake
 
  
@@ -372,28 +370,17 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
  
 
 
-### -field EvictByCriteria
-
- 
-
-
-### -field Type
-
-
-
-##### - SetFault.HotAddMemory
-
-
-
-##### - SetFault.SplitPoin
-
 
 
 ## -see-also
 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
+
 
  
 

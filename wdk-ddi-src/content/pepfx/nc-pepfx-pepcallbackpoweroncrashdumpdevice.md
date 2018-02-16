@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at HIGH_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PowerOnDumpDeviceCallback
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_PNP_ID, VPCI_PNP_ID
+req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
 
 # PEPCALLBACKPOWERONCRASHDUMPDEVICE callback
@@ -78,11 +78,14 @@ A pointer to a <a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRA
 ## -returns
 
 
+
 This routine returns TRUE if it succeeds in turning on power to the crash-dump device. Otherwise, it returns FALSE.
 
 
 
+
 ## -remarks
+
 
 
 This routine is implemented by the platform extension plug-in (PEP). The routine handles requests from the Windows kernel to turn on the crash-dump device so that a crash dump can be saved to disk.
@@ -93,11 +96,16 @@ The <i>PowerOnDumpDeviceCallback</i> routine is called at IRQL = HIGH_LEVEL with
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_CRASHDUMP_DEVICE</a>
 
+
+
 <a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
+
+
 
  
 

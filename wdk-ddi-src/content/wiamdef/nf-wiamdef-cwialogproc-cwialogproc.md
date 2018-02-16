@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: FB963A5D-ACB2-4720-95D1-0CA1661A99C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiaLogProc interface [Imaging Devices], CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc interface, CWiaLogProc method [Imaging Devices], CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc
+ms.keywords: CWiaLogProc method [Imaging Devices], CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc, CWiaLogProc, CWiaLogProc interface [Imaging Devices], CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiamdef.h
-apiname: 
+apiname:
 -	CWiaLogProc.CWiaLogProc
 product: Windows
 targetos: Windows
@@ -92,6 +92,7 @@ Defines the <b>INT</b> parameter <i>DetailLevel</i>.
 
 
 
+
 #### - *pIWiaLog
 
 Defines the <b>IWiaLog</b> parameter <i>*pIWiaLog</i>.
@@ -105,13 +106,17 @@ Defines the <b>CHAR</b> parameter <i>*pszMsg</i>.
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844724">CWiaLogProc</a>
+
+
 
  
 

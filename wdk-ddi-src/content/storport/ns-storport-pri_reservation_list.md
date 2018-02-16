@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5756e907-008a-49c3-b1cd-947cb0ce1bd4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST, storport/PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST structure pointer [Storage Devices], storage.pri_reservation_list, storport/PRI_RESERVATION_LIST, structs-general_10a53f53-2aed-4be1-bf2b-d61efa2c846f.xml, PRI_RESERVATION_LIST structure [Storage Devices], PRI_RESERVATION_LIST
+ms.keywords: storport/PRI_RESERVATION_LIST, structs-general_10a53f53-2aed-4be1-bf2b-d61efa2c846f.xml, *PPRI_RESERVATION_LIST, storage.pri_reservation_list, PRI_RESERVATION_LIST, PRI_RESERVATION_LIST structure [Storage Devices], storport/PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST structure pointer [Storage Devices], PPRI_RESERVATION_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	PRI_RESERVATION_LIST
 product: Windows
 targetos: Windows
-req.typenames: PRI_RESERVATION_LIST, *PPRI_RESERVATION_LIST
+req.typenames: "*PPRI_RESERVATION_LIST, PRI_RESERVATION_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -90,13 +90,17 @@ An array of reservation descriptors.
 ## -remarks
 
 
+
 The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
+
+
 
  
 

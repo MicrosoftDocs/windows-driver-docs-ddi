@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: spb/SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], spb/SpbTransferBufferFormatList, SPB.spb_transfer_buffer_format, SpbTransferBufferFormatMdl, *PSPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatMax, spb/SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatSimpleNonPaged, SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatSimpleNonPaged, spb/SpbTransferBufferFormatSimple, SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatInvalid, SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatMdl
+ms.keywords: spb/SpbTransferBufferFormatSimple, SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatList, *PSPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatList, SpbTransferBufferFormatSimpleNonPaged, spb/SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatMdl, SPB_TRANSFER_BUFFER_FORMAT, SpbTransferBufferFormatMdl, SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatInvalid, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatSimple, spb/SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatSimpleNonPaged, SPB.spb_transfer_buffer_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Spb.h
-apiname: 
+apiname:
 -	SPB_TRANSFER_BUFFER_FORMAT
 product: Windows
 targetos: Windows
@@ -106,13 +106,17 @@ Reserved for use by the operating system.
 ## -remarks
 
 
+
 The <b>Format</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a> structure is an <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbtargetdevice_retrievedescriptor, IWDFUsbTargetDevice interface, RetrieveDescriptor method, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, IWDFUsbTargetDevice::RetrieveDescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, IWDFUsbTargetDevice, RetrieveDescriptor, RetrieveDescriptor method, IWDFUsbTargetDevice interface, umdf.iwdfusbtargetdevice_retrievedescriptor, RetrieveDescriptor method
+ms.keywords: RetrieveDescriptor, IWDFUsbTargetDevice::RetrieveDescriptor, IWDFUsbTargetDevice interface, RetrieveDescriptor method, RetrieveDescriptor method, IWDFUsbTargetDevice interface, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor, IWDFUsbTargetDevice, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, RetrieveDescriptor method, umdf.iwdfusbtargetdevice_retrievedescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetDevice.RetrieveDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -107,7 +107,9 @@ A pointer to a caller-supplied buffer that receives the USB descriptor. The type
 ## -returns
 
 
+
 <b>RetrieveDescriptor</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,11 +150,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 For information about valid descriptor types that a UMDF driver can pass for the <i>DescriptorType</i> parameter, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540257">WinUsb_GetDescriptor</a> function.
@@ -160,12 +165,65 @@ For information about valid descriptor types that a UMDF driver can pass for the
 The <b>RetrieveDescriptor</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
 
+#### Examples
+
+The following code example retrieves a USB configuration descriptor.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
+CUmdfHidDevice::RetrieveConfigDescriptor(
+    __out_bcount(ConfigDescriptorCb) PUSB_CONFIGURATION_DESCRIPTOR *ConfigDescriptor,
+    __out ULONG *ConfigDescriptorCb
+    )
+{
+    ULONG descriptorCb = sizeof(USB_CONFIGURATION_DESCRIPTOR);
+    USB_CONFIGURATION_DESCRIPTOR descriptorHeader;
+    PBYTE descriptorBuffer;
+    HRESULT hr;
+
+    //
+    // Get the configuration descriptor at index 0
+    //
+
+    hr = m_UsbTargetDevice-&gt;RetrieveDescriptor(
+                            USB_CONFIGURATION_DESCRIPTOR_TYPE,
+                            0,
+                            0,
+                            &amp;descriptorCb,
+                            &amp;descriptorHeader
+                            );
+    //
+    // Store the buffer in the output parameter, or delete it.
+    //
+    if (SUCCEEDED(hr)) {
+        *ConfigDescriptor = (PUSB_CONFIGURATION_DESCRIPTOR) (descriptorHeader);
+        *ConfigDescriptorCb = descriptorCb;
+    }
+    else {
+        delete[] descriptorHeader;
+    }
+    return hr;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540257">WinUsb_GetDescriptor</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
 
  
 

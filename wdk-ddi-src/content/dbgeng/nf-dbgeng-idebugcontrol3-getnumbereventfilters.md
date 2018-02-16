@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6bb80c64-bb2e-4388-b1a8-479bdaa8b635
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl2::GetNumberEventFilters, GetNumberEventFilters, dbgeng/IDebugControl2::GetNumberEventFilters, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, IDebugControl3::GetNumberEventFilters, debugger.getnumbereventfilters, GetNumberEventFilters method [Windows Debugging], GetNumberEventFilters method [Windows Debugging], IDebugControl interface, IDebugControl::GetNumberEventFilters, IDebugControl interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, IDebugControl3, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method
+ms.keywords: IDebugControl interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, GetNumberEventFilters method [Windows Debugging], IDebugControl interface, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, GetNumberEventFilters, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl3, debugger.getnumbereventfilters, dbgeng/IDebugControl::GetNumberEventFilters, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, IDebugControl, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl::GetNumberEventFilters, dbgeng/IDebugControl2::GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl2::GetNumberEventFilters, IDebugControl2, IDebugControl3::GetNumberEventFilters, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetNumberEventFilters
 -	IDebugControl2.GetNumberEventFilters
 -	IDebugControl3.GetNumberEventFilters
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetNumberEventFilters method
@@ -89,7 +89,9 @@ Receives the number of arbitrary exception filters currently used by the engine.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -106,13 +108,17 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about event filters, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">Event Filters</a>.
+
 
 

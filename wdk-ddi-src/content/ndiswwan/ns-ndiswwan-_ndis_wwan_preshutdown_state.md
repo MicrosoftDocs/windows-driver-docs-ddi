@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PRESHUTDOWN_STATE
-title: _NDIS_WWAN_PRESHUTDOWN_STATE
+title: "_NDIS_WWAN_PRESHUTDOWN_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_PRESHUTDOWN_STATE structure contains the pre-shutdown status.
 old-location: netvista\ndis_wwan_preshutdown_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39653A36-FFED-4F6A-9365-17E9D35DB46E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/PNDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE, *PNDIS_WWAN_PRESHUTDOWN_STATE, PNDIS_WWAN_PRESHUTDOWN_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_PRESHUTDOWN_STATE, netvista.ndis_wwan_preshutdown_state, NDIS_WWAN_PRESHUTDOWN_STATE structure [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PRESHUTDOWN_STATE, PNDIS_WWAN_PRESHUTDOWN_STATE
+ms.keywords: netvista.ndis_wwan_preshutdown_state, _NDIS_WWAN_PRESHUTDOWN_STATE, PNDIS_WWAN_PRESHUTDOWN_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE, *PNDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/PNDIS_WWAN_PRESHUTDOWN_STATE, PNDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_PRESHUTDOWN_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE
+req.typenames: "*PNDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE"
 ---
 
 # _NDIS_WWAN_PRESHUTDOWN_STATE structure
@@ -72,6 +72,7 @@ typedef struct _NDIS_WWAN_PRESHUTDOWN_STATE {
 
 The header with type, revision, and size information about the NDIS_WWAN_PRESHUTDOWN_STATE
      structure. 
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -107,7 +108,8 @@ sizeof(NDIS_WWAN_PRESHUTDOWN_STATE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -116,6 +118,7 @@ For more information about these members, see
 ### -field uStatus
 
 The following table shows the possible status codes.
+
 <table>
 <tr>
 <th>Value</th>
@@ -141,14 +144,19 @@ The modem does not support pre-shutdown notifications.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt593239">OID_WWAN_PRESHUTDOWN</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt593233">NDIS_STATUS_WWAN_PRESHUTDOWN_STATE</a>
+
+
 
  
 

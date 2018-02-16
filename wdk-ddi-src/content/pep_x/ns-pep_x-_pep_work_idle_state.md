@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_IDLE_STATE
-title: _PEP_WORK_IDLE_STATE
+title: "_PEP_WORK_IDLE_STATE"
 author: windows-driver-content
 description: The PEP_WORK_IDLE_STATE structure contains a request to transition a component to an Fx power state.
 old-location: kernel\pep_work_idle_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DD8C454D-D0F6-456B-B59A-2E4DF2D757B5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _PEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], *PPEP_WORK_IDLE_STATE, kernel.pep_work_idle_state, pep_x/PPEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE
+ms.keywords: pep_x/PEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_work_idle_state, pep_x/PPEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE, *PPEP_WORK_IDLE_STATE, _PEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pep_x.h
-apiname: 
+apiname:
 -	PEP_WORK_IDLE_STATE
 product: Windows
 targetos: Windows
@@ -87,17 +87,25 @@ The target F<i>x</i> power state to transition the component to. If this paramet
 ## -remarks
 
 
+
 The <b>IdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_IDLE_STATE</b> structure.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
 <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
+
 
 <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
 
  
 

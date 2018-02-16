@@ -7,7 +7,7 @@ old-location: buses\_ioctl_internal_usbfn_control_status_handshake_in.htm
 old-project: usbref
 ms.assetid: 5839C1A8-6638-4A42-B7C1-168071C99800
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses._ioctl_internal_usbfn_control_status_handshake_in, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN control code [Buses], IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN, usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnioctl.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
+req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
 
@@ -86,14 +86,18 @@ NULL.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,8 +109,10 @@ If the request is successful, the USB function class extension (UFX) returns STA
 ## -remarks
 
 
+
 This request must be sent after sending the <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
 
 UFX forwards this IOCTL request to the transfer queue created for the endpoint by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.
+
 
 

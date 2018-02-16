@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_TIMER_CHARACTERISTICS
-title: _NDIS_TIMER_CHARACTERISTICS
+title: "_NDIS_TIMER_CHARACTERISTICS"
 author: windows-driver-content
 description: The NDIS_TIMER_CHARACTERISTICS structure defines characteristics of a one-shot or periodic timer.
 old-location: netvista\ndis_timer_characteristics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a62e94c-f635-4ab7-b439-b98c60ba2854
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_timer_characteristics, ndis/PNDIS_TIMER_CHARACTERISTICS, PNDIS_TIMER_CHARACTERISTICS, ndis_timer_ref_af673f64-aa72-4767-81a0-5df465a52c81.xml, PNDIS_TIMER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], NDIS_TIMER_CHARACTERISTICS, _NDIS_TIMER_CHARACTERISTICS, ndis/NDIS_TIMER_CHARACTERISTICS
+ms.keywords: "_NDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_TIMER_CHARACTERISTICS, PNDIS_TIMER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis_timer_ref_af673f64-aa72-4767-81a0-5df465a52c81.xml, *PNDIS_TIMER_CHARACTERISTICS, ndis/PNDIS_TIMER_CHARACTERISTICS, ndis/NDIS_TIMER_CHARACTERISTICS, netvista.ndis_timer_characteristics, NDIS_TIMER_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NDIS_TIMER_CHARACTERISTICS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS
+req.typenames: "*PNDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS"
 ---
 
 # _NDIS_TIMER_CHARACTERISTICS structure
@@ -105,6 +105,7 @@ A pointer to a driver-allocated context area. NDIS passes this pointer to the
 ## -remarks
 
 
+
 To allocate and initialize a timer object, NDIS drivers call the 
     <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a> function
     and provide an NDIS_TIMER_CHARACTERISTICS structure. The timer does not start until the driver calls the 
@@ -112,15 +113,24 @@ To allocate and initialize a timer object, NDIS drivers call the
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
 
  
 

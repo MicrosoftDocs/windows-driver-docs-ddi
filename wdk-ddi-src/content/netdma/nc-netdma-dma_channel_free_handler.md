@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	ProviderFreeDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_CHANNEL_FREE_HANDLER callback
@@ -53,8 +53,8 @@ req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
 
 in Windows 8 and later.</div><div> </div>The 
   <i>ProviderFreeDmaChannel</i> function frees a DMA channel that the 
-  <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-  ProviderAllocateDmaChannel</b></mshelp:link> function previously allocated.
+  <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+  ProviderAllocateDmaChannel</a> function previously allocated.
 
 
 ## -prototype
@@ -80,18 +80,21 @@ VOID ProviderFreeDmaChannel(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 The NetDMA interface calls a DMA provider driver's 
@@ -111,11 +114,16 @@ NetDMA calls
 
 
 
+
 ## -see-also
+
+<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
+
+
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
-<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugRegisters2::SetPseudoValues, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, debugger.setpseudovalues, IDebugRegisters2::SetPseudoValues, IDebugRegisters2, SetPseudoValues, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method
+ms.keywords: SetPseudoValues method [Windows Debugging], debugger.setpseudovalues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, IDebugRegisters2, dbgeng/IDebugRegisters2::SetPseudoValues, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, SetPseudoValues, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::SetPseudoValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugRegisters2.SetPseudoValues
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugRegisters2::SetPseudoValues method
@@ -76,6 +76,7 @@ HRESULT SetPseudoValues(
 Specifies the register source to query.
 
 The possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -113,7 +114,8 @@ Fetch register information from the current scope's register context.
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Count [in]
@@ -139,7 +141,9 @@ Specifies the new values of the pseudo-registers.  The number of elements this a
 ## -returns
 
 
+
 This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -156,14 +160,18 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+
 
 
 
@@ -171,7 +179,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548215">GetPseudoValues</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
 
  
 

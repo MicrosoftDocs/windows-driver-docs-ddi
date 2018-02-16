@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_CACHE_INFORMATION
-title: _DISK_CACHE_INFORMATION
+title: "_DISK_CACHE_INFORMATION"
 author: windows-driver-content
 description: The DISK_CACHE_INFORMATION structure is used with the IOCTL_DISK_GET_CACHE_INFORMATION request to retrieve cache information.
 old-location: storage\disk_cache_information.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17ea8b6b-d41f-4224-880a-49443756d0de
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PDISK_CACHE_INFORMATION, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, _DISK_CACHE_INFORMATION, storage.disk_cache_information, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], *PDISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, ntdddisk/DISK_CACHE_INFORMATION
+ms.keywords: structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml, DISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], ntdddisk/DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], *PDISK_CACHE_INFORMATION, storage.disk_cache_information, _DISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	DISK_CACHE_INFORMATION
 product: Windows
 targetos: Windows
@@ -84,46 +84,6 @@ typedef struct _DISK_CACHE_INFORMATION {
 
 
 
-### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.ScalarPrefetch
-
- 
-
-
-### -field DUMMYUNIONNAME.ScalarPrefetch.Minimum
-
- 
-
-
-### -field DUMMYUNIONNAME.ScalarPrefetch.Maximum
-
- 
-
-
-### -field DUMMYUNIONNAME.ScalarPrefetch.MaximumBlocks
-
- 
-
-
-### -field DUMMYUNIONNAME.BlockPrefetch
-
- 
-
-
-### -field DUMMYUNIONNAME.BlockPrefetch.Minimum
-
- 
-
-
-### -field DUMMYUNIONNAME.BlockPrefetch.Maximum
-
- 
-
-
 ### -field ParametersSavable
 
 Indicates, when set to 1, that the device is capable of saving any parameters in nonvolatile storage.
@@ -159,44 +119,51 @@ Disables prefetching. Prefetching might be disabled whenever the number of block
 When <b>TRUE</b>, Indicates that <b>ScalarPrefetch.Maximum</b> should be used together with the transfer length to calculate the amount of data that can be prefetched. When <b>FALSE</b>, <b>BlockPrefetch.Maximum</b> will be the maximum number of disk blocks that can be prefetched.
 
 
-#### - BlockPrefetch
+### -field DUMMYUNIONNAME
+
+ 
 
 
-
-##### - BlockPrefetch.Maximum
-
-Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Maximum</b> is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
+### -field DUMMYUNIONNAME.ScalarPrefetch
 
 
-##### - ScalarPrefetch.Maximum
-
-Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Maximum</b> is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
-
-
-#### - ScalarPrefetch
-
-
-
-##### - BlockPrefetch.Minimum
+### -field DUMMYUNIONNAME.ScalarPrefetch.Minimum
 
 Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Minimum</b> is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
 
 
-##### - ScalarPrefetch.Minimum
+### -field DUMMYUNIONNAME.ScalarPrefetch.Maximum
 
-Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Minimum</b> is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
+Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Maximum</b> is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
 
 
-##### - ScalarPrefetch.MaximumBlocks
+### -field DUMMYUNIONNAME.ScalarPrefetch.MaximumBlocks
 
 Contains the maximum size, in blocks, of the transfer length. 
 
 
+### -field DUMMYUNIONNAME.BlockPrefetch
+
+
+### -field DUMMYUNIONNAME.BlockPrefetch.Minimum
+
+Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Minimum</b> is multiplied by the transfer length to obtain the minimum amount of data that can be prefetched into the cache on a disk operation. 
+
+
+### -field DUMMYUNIONNAME.BlockPrefetch.Maximum
+
+Contains the scalar multiplier of the transfer length of the request when <b>PrefetchScalar</b> is <b>TRUE</b>. If <b>PrefetchScalar</b> is <b>TRUE</b>, the value in <b>ScalarPrefetch.Maximum</b> is multiplied by the transfer length to obtain the maximum amount of data that can be prefetched into the cache on a disk operation. 
+
+
 ## -see-also
+
+<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
+
+
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
+
 
  
 

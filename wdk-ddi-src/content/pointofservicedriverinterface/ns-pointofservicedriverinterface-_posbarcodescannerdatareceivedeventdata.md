@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScannerDataReceivedEventData
-title: _PosBarcodeScannerDataReceivedEventData
+title: "_PosBarcodeScannerDataReceivedEventData"
 author: windows-driver-content
 description: This structure contains the scanned data that is passed to the BarcodeScannerDataReceived event.
 old-location: pos\posbarcodescannerdatareceivedeventdata.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, _PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata, PosBarcodeScannerDataReceivedEventData structure
+ms.keywords: pos.posbarcodescannerdatareceivedeventdata, PosBarcodeScannerDataReceivedEventData structure, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData, _PosBarcodeScannerDataReceivedEventData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosBarcodeScannerDataReceivedEventData
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ Indicates the number of bytes of decoded scan data. A label is the decoded scan 
 ## -remarks
 
 
+
 <i>ScanDataLength</i> bytes of scan data immediately follows the <i>PosBarcodeScannerDataReceivedEventData</i> structure, followed by <i>ScanDataLabelLength</i> bytes of label data.
+
 
 

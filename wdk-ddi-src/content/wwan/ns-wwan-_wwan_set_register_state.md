@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_REGISTER_STATE
-title: _WWAN_SET_REGISTER_STATE
+title: "_WWAN_SET_REGISTER_STATE"
 author: windows-driver-content
 description: The WWAN_SET_REGISTER_STATE structure represents the command to set the MB device's registration mode and the network provider it should register with.
 old-location: netvista\wwan_set_register_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 617e80c2-2823-4393-81eb-b2cbd2b21be8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SET_REGISTER_STATE, wwan/PWWAN_SET_REGISTER_STATE, wwan/WWAN_SET_REGISTER_STATE, netvista.wwan_set_register_state, WWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_SET_REGISTER_STATE, WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml
+ms.keywords: netvista.wwan_set_register_state, WWAN_SET_REGISTER_STATE, WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml, _WWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE, wwan/WWAN_SET_REGISTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SET_REGISTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE
+req.typenames: WWAN_SET_REGISTER_STATE, *PWWAN_SET_REGISTER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -114,7 +114,11 @@ When multiple data-classes are set as preferred, miniport drivers are expected r
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_register_state.md">NDIS_WWAN_SET_REGISTER_STATE</a>
 
+
+
 <a href="..\wwan\ne-wwan-_wwan_register_action.md">WWAN_REGISTER_ACTION</a>
+
+
 
  
 

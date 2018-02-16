@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_DEVICE_POWER_STATE
-title: _PEP_DEVICE_POWER_STATE
+title: "_PEP_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The PEP_DEVICE_POWER_STATE structure indicates the status of a transition to a new Dx (device power) state.
 old-location: kernel\pep_device_power_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F5E66C33-F727-4631-89C6-413C24995A04
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_POWER_STATE, pepfx/PPEP_DEVICE_POWER_STATE, pepfx/PEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE, *PPEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture], PEP_DEVICE_POWER_STATE, kernel.pep_device_power_state
+ms.keywords: PPEP_DEVICE_POWER_STATE, *PPEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_DEVICE_POWER_STATE, pepfx/PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE, _PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_device_power_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: PEP_DEVICE_POWER_STATE, *PPEP_DEVICE_POWER_STATE
+req.typenames: "*PPEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE"
 ---
 
 # _PEP_DEVICE_POWER_STATE structure
@@ -93,21 +93,33 @@ typedef struct _PEP_DEVICE_POWER_STATE {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_DEVICE_POWER_STATE</a> notification. All four members of the structure contain input values that are supplied by PoFx. The PEP does not write to this structure.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
 
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_DEVICE_POWER_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
 
  
 

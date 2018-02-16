@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2ca4ea3b-befd-424d-a4a8-81436d0ffc1c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.flushcallbacks, IDebugClient::FlushCallbacks, IDebugClient_e808ca3a-5762-419b-96de-4c49984c1ccd.xml, IDebugClient2 interface [Windows Debugging], FlushCallbacks method, IDebugClient5, IDebugClient4::FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], FlushCallbacks method, IDebugClient5::FlushCallbacks, dbgeng/IDebugClient5::FlushCallbacks, IDebugClient5 interface [Windows Debugging], FlushCallbacks method, FlushCallbacks method [Windows Debugging], IDebugClient4 interface, FlushCallbacks method [Windows Debugging], IDebugClient interface, FlushCallbacks, dbgeng/IDebugClient4::FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient3::FlushCallbacks, dbgeng/IDebugClient::FlushCallbacks, dbgeng/IDebugClient3::FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient4 interface [Windows Debugging], FlushCallbacks method, FlushCallbacks method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient2::FlushCallbacks, IDebugClient2::FlushCallbacks, IDebugClient interface [Windows Debugging], FlushCallbacks method
+ms.keywords: FlushCallbacks, IDebugClient interface [Windows Debugging], FlushCallbacks method, dbgeng/IDebugClient2::FlushCallbacks, IDebugClient_e808ca3a-5762-419b-96de-4c49984c1ccd.xml, FlushCallbacks method [Windows Debugging], IDebugClient3, IDebugClient5, IDebugClient, dbgeng/IDebugClient5::FlushCallbacks, IDebugClient4 interface [Windows Debugging], FlushCallbacks method, dbgeng/IDebugClient::FlushCallbacks, dbgeng/IDebugClient3::FlushCallbacks, IDebugClient2::FlushCallbacks, IDebugClient4::FlushCallbacks, IDebugClient::FlushCallbacks, IDebugClient2, IDebugClient3 interface [Windows Debugging], FlushCallbacks method, FlushCallbacks method [Windows Debugging], IDebugClient4 interface, FlushCallbacks method [Windows Debugging], IDebugClient2 interface, FlushCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], FlushCallbacks method, IDebugClient4, FlushCallbacks method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient4::FlushCallbacks, IDebugClient3::FlushCallbacks, debugger.flushcallbacks, IDebugClient5 interface [Windows Debugging], FlushCallbacks method, IDebugClient5::FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.FlushCallbacks
 -	IDebugClient2.FlushCallbacks
 -	IDebugClient3.FlushCallbacks
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.FlushCallbacks
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::FlushCallbacks method
@@ -70,10 +70,13 @@ HRESULT FlushCallbacks();
 
 
 
+
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -90,11 +93,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The engine sometimes merges compatible callback requests to reduce callback overhead; small pieces of output are collected into larger groups to reduce the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550815">IDebugOutputCallbacks::Output</a> calls.  Using <b>FlushCallbacks</b> is necessary for a client to guarantee that all pending callbacks have been processed at a particular point.  For example, a caller can flush callbacks before starting a lengthy operation outside of the engine so that pending callbacks are not delayed until after the operation.
@@ -103,23 +109,40 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541970">DispatchCallbacks</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550815">IDebugOutputCallbacks::Output</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
  
 

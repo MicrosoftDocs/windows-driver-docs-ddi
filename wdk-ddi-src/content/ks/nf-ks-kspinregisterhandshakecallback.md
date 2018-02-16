@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a5b9f731-e029-40c2-9fbb-d7a3b63615df
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsPinRegisterHandshakeCallback, avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices], stream.kspinregisterhandshakecallback
+ms.keywords: ks/KsPinRegisterHandshakeCallback, stream.kspinregisterhandshakecallback, avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, KsPinRegisterHandshakeCallback function [Streaming Media Devices], KsPinRegisterHandshakeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinRegisterHandshakeCallback
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkspinhandshake.md">AV
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Pins that support private protocol connections with other AVStream pins should register a handshake callback.
@@ -95,19 +98,32 @@ Minidrivers that support private protocols between a given pin and another AVStr
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
-<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
 
 <a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
+
+<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
+
+
+
+<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
+
+
 
 <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
 
-<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
+
+
+<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
+
+
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
 
  
 

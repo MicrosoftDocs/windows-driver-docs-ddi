@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c2b7b9b7-a76f-4bd9-bf25-edb5c103a578
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], RIL_SetCellBroadcastMsgConfig, netvista.ril_setcellbroadcastmsgconfig
+ms.keywords: rilapi/RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig, netvista.ril_setcellbroadcastmsgconfig, RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SetCellBroadcastMsgConfig
 product: Windows
 targetos: Windows
@@ -76,22 +76,20 @@ HRESULT  RIL_SetCellBroadcastMsgConfig(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param hUiccApp
 
 
-
 ### -param lpCbMsgConfigInfo
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

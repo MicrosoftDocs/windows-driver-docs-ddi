@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16e1b0cb-8543-4700-8f8c-d7301c6de622
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdf_memory_descriptor_init_buffer, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, kmdf.wdf_memory_descriptor_init_buffer, DFMemoryObjectRef_706a9ee6-c0f1-4cb4-a887-cbb535d94d17.xml
+ms.keywords: WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, DFMemoryObjectRef_706a9ee6-c0f1-4cb4-a887-cbb535d94d17.xml, wdf.wdf_memory_descriptor_init_buffer, kmdf.wdf_memory_descriptor_init_buffer, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfmemory.h
-apiname: 
+apiname:
 -	WDF_MEMORY_DESCRIPTOR_INIT_BUFFER
 product: Windows
 targetos: Windows
@@ -90,14 +90,24 @@ The size, in bytes, of the memory buffer that <i>Buffer</i> points to.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</b> function zeros the specified <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure and sets the structure's <b>Type</b> member to <b>WdfMemoryDescriptorTypeBuffer</b>. Then it sets the structure's <b>u.BufferType.Buffer</b> and <b>u.BufferType.Length</b> members to the values that the <i>Buffer</i> and <i>BufferLength</i> parameters specify, respectively.
+
+
+#### Examples
+
+For a code example that uses <b>WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</b>, see <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>.
+
+<div class="code"></div>
 
 
 
@@ -105,9 +115,15 @@ The <b>WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</b> function zeros the specified <a hre
 
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_mdl.md">WDF_MEMORY_DESCRIPTOR_INIT_MDL</a>
 
+
+
 <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_handle.md">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>
 
+
+
 <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
+
+
 
  
 

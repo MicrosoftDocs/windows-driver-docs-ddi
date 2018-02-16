@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsAllocateDeviceHeader function [Streaming Media Devices], ks/KsAllocateDeviceHeader, KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, stream.ksallocatedeviceheader
+ms.keywords: KsAllocateDeviceHeader, ks/KsAllocateDeviceHeader, stream.ksallocatedeviceheader, KsAllocateDeviceHeader function [Streaming Media Devices], ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAllocateDeviceHeader
 product: Windows
 targetos: Windows
@@ -88,16 +88,20 @@ Optional. Points to a KSOBJECT_CREATE_ITEM structure for each subitem. If there 
 ## -returns
 
 
+
 The <b>KsAllocateDeviceHeader</b> function returns STATUS_SUCCESS if successful or STATUS_INSUFFICIENT_RESOURCES if unable to allocate the necessary resources.
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsAllocateDeviceHeader</b> function allocates memory for the KSDEVICE_HEADER structure for a device. When the header is no longer needed, the driver should call the <b>KsFreeDeviceHeader</b> function to free the memory allocated.
 
 If subobjects exist for a given device, the driver must, before calling <b>KsAllocateDeviceHeader</b>, allocate a buffer of either paged or nonpaged memory of sufficient size to hold a KSOBJECT_CREATE_ITEM structure for each subobject. For example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -113,7 +117,9 @@ createBuffer = (PKSOBJECT_CREATE_ITEM)
  </pre>
 </td>
 </tr>
-</table></span></div>Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITEM list until after calling <b>KsFreeDeviceHeader</b>. Failure to do so can result in a bug check condition. 
+</table></span></div>
+Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITEM list until after calling <b>KsFreeDeviceHeader</b>. Failure to do so can result in a bug check condition. 
+
 
 
 
@@ -121,7 +127,11 @@ createBuffer = (PKSOBJECT_CREATE_ITEM)
 
 <a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
 
+
+
 <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+
+
 
  
 

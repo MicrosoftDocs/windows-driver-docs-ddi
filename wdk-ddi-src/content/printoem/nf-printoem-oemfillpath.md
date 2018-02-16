@@ -7,8 +7,8 @@ old-location: print\oemfillpath.htm
 old-project: print
 ms.assetid: a61081ad-308e-49c5-a428-1142520d38e4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMEscape function [Print Devices], OEMEscape, print.oemfillpath, printoem/OEMEscape, OEMFillPath, print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml
+ms.date: 2/2/2018
+ms.keywords: OEMEscape, OEMFillPath, print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml, print.oemfillpath, OEMEscape function [Print Devices], printoem/OEMEscape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMEscape
 product: Windows
 targetos: Windows
@@ -77,27 +77,20 @@ BOOL APIENTRY OEMEscape(
 ### -param pso
 
 
-
 ### -param ppo
-
 
 
 ### -param pco
 
 
-
 ### -param pbo
-
 
 
 ### -param pptlBrushOrg
 
 
-
 ### -param mix
 
 
-
 ### -param flOptions
-
 

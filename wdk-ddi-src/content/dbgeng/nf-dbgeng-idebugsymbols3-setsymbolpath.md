@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c003fb1d-b24b-4e79-b8f4-6ff425f77554
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_b699ac62-be52-4f79-9762-8ed1274dfb41.xml, IDebugSymbols::SetSymbolPath, SetSymbolPath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], SetSymbolPath method, SetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, debugger.setsymbolpath, IDebugSymbols2::SetSymbolPath, SetSymbolPath method [Windows Debugging], SetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], SetSymbolPath method, SetSymbolPath, IDebugSymbols interface [Windows Debugging], SetSymbolPath method, IDebugSymbols3, dbgeng/IDebugSymbols::SetSymbolPath, dbgeng/IDebugSymbols2::SetSymbolPath, dbgeng/IDebugSymbols3::SetSymbolPath, IDebugSymbols3::SetSymbolPath
+ms.keywords: SetSymbolPath method [Windows Debugging], debugger.setsymbolpath, dbgeng/IDebugSymbols3::SetSymbolPath, SetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], SetSymbolPath method, dbgeng/IDebugSymbols2::SetSymbolPath, IDebugSymbols::SetSymbolPath, dbgeng/IDebugSymbols::SetSymbolPath, IDebugSymbols2::SetSymbolPath, IDebugSymbols interface [Windows Debugging], SetSymbolPath method, IDebugSymbols3 interface [Windows Debugging], SetSymbolPath method, IDebugSymbols_b699ac62-be52-4f79-9762-8ed1274dfb41.xml, IDebugSymbols3, IDebugSymbols2, SetSymbolPath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3::SetSymbolPath, IDebugSymbols, SetSymbolPath, SetSymbolPath method [Windows Debugging], IDebugSymbols2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.SetSymbolPath
 -	IDebugSymbols2.SetSymbolPath
 -	IDebugSymbols3.SetSymbolPath
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::SetSymbolPath method
@@ -77,7 +77,9 @@ Specifies the new symbol path.  This is a string that contains symbol path eleme
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,28 +96,42 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about manipulating the symbol path, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560150">Using Symbols</a>.  For an overview of the symbol path and its syntax, see <a href="https://msdn.microsoft.com/705df98f-717f-40ad-a424-101826970691">Symbol Path</a>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549155">GetSymbolPath</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549155">GetSymbolPath</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 8a37bce1-762b-4a08-a677-ed2e484c1bba
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], Input method, Input method [Windows Debugging], IDebugControl interface, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, IDebugControl::Input, debugger.input, Input method [Windows Debugging], dbgeng/IDebugControl::Input, IDebugControl, Input
+ms.keywords: Input method [Windows Debugging], IDebugControl interface, IDebugControl::Input, debugger.input, Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, IDebugControl interface [Windows Debugging], Input method, dbgeng/IDebugControl::Input, IDebugControl, Input method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.Input
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl::Input method
@@ -87,6 +87,7 @@ Receives the number of characters returned in <i>Buffer</i>.  If <i>InputSize</i
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,16 +115,20 @@ The method was successful. However, the buffer was not big enough to hold the wh
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 For an overview of input in the debugger engine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 
 
@@ -131,7 +136,11 @@ For an overview of input in the debugger engine, see <a href="https://msdn.micro
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550970">InputWide</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
  
 

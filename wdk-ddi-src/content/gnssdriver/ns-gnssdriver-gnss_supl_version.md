@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: D004DAEF-F25F-442D-9A6D-91FB8A18E0DB
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PGNSS_SUPL_VERSION structure pointer [Sensor Devices], GNSS_SUPL_VERSION structure [Sensor Devices], *PGNSS_SUPL_VERSION, sensors.gnss_supl_version, PGNSS_SUPL_VERSION, gnssdriver/PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION, gnssdriver/GNSS_SUPL_VERSION
+ms.keywords: PGNSS_SUPL_VERSION structure pointer [Sensor Devices], GNSS_SUPL_VERSION structure [Sensor Devices], GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION, sensors.gnss_supl_version, gnssdriver/PGNSS_SUPL_VERSION, gnssdriver/GNSS_SUPL_VERSION, PGNSS_SUPL_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_SUPL_VERSION
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION
+req.typenames: GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION
 ---
 
 # GNSS_SUPL_VERSION structure

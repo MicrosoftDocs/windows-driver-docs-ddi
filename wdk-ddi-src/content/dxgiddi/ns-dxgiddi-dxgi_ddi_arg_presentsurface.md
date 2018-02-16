@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1A1E2644-7411-4D69-8D45-B19D707221AB
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgi_ddi_arg_presentsurface, DXGI_DDI_ARG_PRESENTSURFACE structure [Display Devices], dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE
+ms.keywords: display.dxgi_ddi_arg_presentsurface, DXGI_DDI_ARG_PRESENTSURFACE, dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dxgiddi.h
-apiname: 
+apiname:
 -	DXGI_DDI_ARG_PRESENTSURFACE
 product: Windows
 targetos: Windows

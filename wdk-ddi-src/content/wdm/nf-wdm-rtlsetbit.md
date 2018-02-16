@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e78da3d-7a37-41f9-bfa6-db2e83581769
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlSetBit, RtlSetBit routine [Kernel-Mode Driver Architecture], k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, wdm/RtlSetBit, kernel.rtlsetbit
+ms.keywords: RtlSetBit, RtlSetBit routine [Kernel-Mode Driver Architecture], kernel.rtlsetbit, k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, wdm/RtlSetBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL (See Remarks section)
-topictype: 
+req.irql: "<= APC_LEVEL (See Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlSetBit
 product: Windows
 targetos: Windows
@@ -82,14 +82,18 @@ Specifies the zero-based index of the bit within the bitmap. The routine sets th
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>RtlSetBit</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlSetBit</b> can be called at any IRQL.
+
 
 
 
@@ -97,7 +101,11 @@ Callers of <b>RtlSetBit</b> must be running at IRQL &lt;= APC_LEVEL if the memor
 
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
 
  
 

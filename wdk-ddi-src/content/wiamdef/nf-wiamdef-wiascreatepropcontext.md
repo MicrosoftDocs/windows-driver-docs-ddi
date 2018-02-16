@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: b820c19d-a12b-417b-a9a3-6a3d700009c0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiamdef/wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], wiasCreatePropContext, wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml, image.wiascreatepropcontext
+ms.keywords: wiasCreatePropContext function [Imaging Devices], image.wiascreatepropcontext, wiamdef/wiasCreatePropContext, wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml, wiasCreatePropContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasCreatePropContext
 product: Windows
 targetos: Windows
@@ -100,11 +100,14 @@ Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WI
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
 
 
+
 ## -remarks
+
 
 
 This function allocates a property context and fills in its values. This function is generally used in <a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a> where the properties written by the application are validated.
@@ -112,6 +115,7 @@ This function allocates a property context and fills in its values. This functio
 Entries in the property context are identifiers for properties that either have dependents, or are themselves dependent on other properties. A context is used to mark which properties are being changed. When the property context is no longer needed, it should be freed by a call to <a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>.
 
 The properties to which an application writes are specified by the <i>pPropSpec </i>array. The properties that were changed by the application, as well as any properties dependent on the changed properties, are specified by the <i>pProps</i> array. Only properties that have been changed by the application (and any dependent properties) can be specified in <i>pProps</i>. The PROPSPEC structure is defined in the Windows SDK documentation.
+
 <div class="alert"><b>Note</b>  : The following properties are always present in WIA_PROPERTY_CONTEXT. Drivers can specify additional properties when creating a property context with wiasCreatePropContext.<dl>
 <dd>
 WIA_IPA_DATATYPE
@@ -166,16 +170,24 @@ WIA_IPA_FORMAT
 
 </dd>
 </dl>
-</div><div> </div>
+</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
-
 <a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wiasfreepropcontext.md">wiasFreePropContext</a>
+
+
+
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+
 
  
 

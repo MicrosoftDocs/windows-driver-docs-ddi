@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f615acc4-7e3e-4390-8a6a-e68663fcc162
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], NdisSendNetBufferLists, ndis/NdisSendNetBufferLists, ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, netvista.ndissendnetbufferlists
+ms.keywords: NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], netvista.ndissendnetbufferlists, NdisSendNetBufferLists, ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, ndis/NdisSendNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisSendNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisSendNetBufferLists function
@@ -104,13 +104,15 @@ Flags that define attributes for the send operation. The flags can be combined w
 
 
 
-##### - SendFlags.NDIS_SEND_FLAGS_DISPATCH_LEVEL
+
+#### NDIS_SEND_FLAGS_DISPATCH_LEVEL
 
 Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
 
 
-##### - SendFlags.NDIS_SEND_FLAGS_CHECK_FOR_LOOPBACK
+
+#### NDIS_SEND_FLAGS_CHECK_FOR_LOOPBACK
 
 Specifies that NDIS should check for loopback. By default, NDIS does not loop back data to the
        driver that submitted the send request. An overlying driver can override this behavior by setting this
@@ -123,22 +125,26 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 After a protocol driver calls 
     <b>NdisSendNetBufferLists</b>, NDIS submits the 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures to an underlying
     driver's 
-    <mshelp:link keywords="netvista.miniportsendnetbufferlists" tabindex="0"><i>
-    MiniportSendNetBufferLists</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+    MiniportSendNetBufferLists</a> function.
 
 The protocol driver must allocate each NET_BUFFER_LIST structure from a pool by calling one of the
     following functions:
+
 <ul>
 <li>
 
@@ -148,25 +154,26 @@ The protocol driver must allocate each NET_BUFFER_LIST structure from a pool by 
 </li>
 <li>
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-       NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+       NdisAllocateNetBufferAndNetBufferList</a>
 
 
 </li>
 <li>
 
-<mshelp:link keywords="netvista.ndisallocateclonenetbufferlist" tabindex="0"><b>
-       NdisAllocateCloneNetBufferList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+       NdisAllocateCloneNetBufferList</a>
 
 
 </li>
-</ul>The protocol driver can preallocate NET_BUFFER_LIST structures--for example, in its 
+</ul>
+The protocol driver can preallocate NET_BUFFER_LIST structures--for example, in its 
     <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. Alternatively, the driver,
     can allocate the structures just prior to calling 
     <b>NdisSendNetBufferLists</b> and then free them when the send operation is complete. When NDIS returns a
     NET_BUFFER_LIST structure to 
-    <mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
-    ProtocolSendNetBufferListsComplete</i></mshelp:link>, the miniport driver can prepare the NET_BUFFER_LIST structure
+    <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+    ProtocolSendNetBufferListsComplete</a>, the miniport driver can prepare the NET_BUFFER_LIST structure
     and any associated resources for reuse. Reusing the NET_BUFFER_LIST structures can yield better
     performance than returning the structures to a pool and then reallocating them for another send
     operation.
@@ -176,8 +183,8 @@ A protocol driver must set the
     <i>NdisBindingHandle</i> parameter. The binding handle provides the information that
     NDIS requires to return the NET_BUFFER_LIST structure to the protocol driver after the underlying
     miniport driver calls 
-    <mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-    NdisMSendNetBufferListsComplete</b></mshelp:link>.
+    <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+    NdisMSendNetBufferListsComplete</a>.
 
 Before calling 
     <b>NdisSendNetBufferLists</b>, a protocol driver can set information that accompanies the send request
@@ -209,35 +216,60 @@ Until NDIS calls
 
 
 
+
 ## -see-also
-
-<mshelp:link keywords="netvista.ndisallocatenetbufferandnetbufferlist" tabindex="0"><b>
-   NdisAllocateNetBufferAndNetBufferList</b></mshelp:link>
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-<mshelp:link keywords="netvista.ndisallocateclonenetbufferlist" tabindex="0"><b>
-   NdisAllocateCloneNetBufferList</b></mshelp:link>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+   NdisMSendNetBufferListsComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
 
-<mshelp:link keywords="netvista.ndismsendnetbufferlistscomplete" tabindex="0"><b>
-   NdisMSendNetBufferListsComplete</b></mshelp:link>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
-<mshelp:link keywords="netvista.protocolsendnetbufferlistscomplete" tabindex="0"><i>
-   ProtocolSendNetBufferListsComplete</i></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+   ProtocolSendNetBufferListsComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocateclonenetbufferlist.md">
+   NdisAllocateCloneNetBufferList</a>
+
+
 
  
 

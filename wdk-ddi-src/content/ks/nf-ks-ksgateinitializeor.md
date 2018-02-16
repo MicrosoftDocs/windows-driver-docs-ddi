@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, stream.ksgateinitializeor, KsGateInitializeOr, ks/KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices]
+ms.keywords: avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, stream.ksgateinitializeor, ks/KsGateInitializeOr, KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsGateInitializeOr
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A pointer to an existing KSGATE structure to which <i>OrGate</i> attaches. Optio
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The next gate (following <i>OrGate</i>) must be an AND gate, whether it is specified in this call or later. If you need to connect an OR gate to another OR gate, use <a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
@@ -94,17 +97,28 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 
 
+
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+
+
 
 <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
+
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+
+
 
 <a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
+
+
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
+
 
  
 

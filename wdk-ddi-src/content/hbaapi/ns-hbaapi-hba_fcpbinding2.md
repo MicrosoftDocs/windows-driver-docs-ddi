@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f715d45c-30e1-414f-907c-9ad1203ca604
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/PHBA_FCPBINDING2, HBA_FCPBINDING2 structure [Storage Devices], HBA_FCPBINDING2, storage.hba_fcpbinding2, PHBA_FCPBINDING2 structure pointer [Storage Devices], hbaapi/HBA_FCPBinding2, structs-Fibre_b19a2c46-204e-4500-a4ed-9e3949941093.xml, PHBA_FCPBINDING2, *PHBA_FCPBINDING2, HBA_FCPBinding2, HBA_FCPBinding2 structure [Storage Devices]
+ms.keywords: storage.hba_fcpbinding2, HBA_FCPBinding2, PHBA_FCPBINDING2 structure pointer [Storage Devices], structs-Fibre_b19a2c46-204e-4500-a4ed-9e3949941093.xml, hbaapi/HBA_FCPBinding2, *PHBA_FCPBINDING2, HBA_FCPBINDING2, hbaapi/PHBA_FCPBINDING2, HBA_FCPBinding2 structure [Storage Devices], HBA_FCPBINDING2 structure [Storage Devices], PHBA_FCPBINDING2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbaapi.h
-apiname: 
+apiname:
 -	HBA_FCPBINDING2
 product: Windows
 targetos: Windows
-req.typenames: HBA_FCPBINDING2, *PHBA_FCPBINDING2
+req.typenames: "*PHBA_FCPBINDING2, HBA_FCPBINDING2"
 ---
 
 # HBA_FCPBinding2 structure
@@ -81,6 +81,8 @@ Variable length array of elements of type <a href="..\hbaapi\ns-hbaapi-hba_fcpbi
 ## -see-also
 
 <a href="..\hbaapi\nf-hbaapi-hba_getpersistentbindingv2.md">HBA_GetPersistentBindingV2</a>
+
+
 
  
 

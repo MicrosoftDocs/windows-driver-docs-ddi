@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_UNREGISTER_DEVICE
-title: _PEP_ACPI_UNREGISTER_DEVICE
+title: "_PEP_ACPI_UNREGISTER_DEVICE"
 author: windows-driver-content
 description: The PEP_ACPI_UNREGISTER_DEVICE structure contains information about a device that has been unregistered from ACPI services.
 old-location: kernel\pep_acpi_unregister_device.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AA9D9AB3-B799-4D21-A418-D29360BBE605
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_ACPI_UNREGISTER_DEVICE, PPEP_ACPI_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_UNREGISTER_DEVICE, pepfx/PPEP_ACPI_UNREGISTER_DEVICE, PEP_ACPI_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], kernel.pep_acpi_unregister_device, *PPEP_ACPI_UNREGISTER_DEVICE, PPEP_ACPI_UNREGISTER_DEVICE, _PEP_ACPI_UNREGISTER_DEVICE
+ms.keywords: PEP_ACPI_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], *PPEP_ACPI_UNREGISTER_DEVICE, _PEP_ACPI_UNREGISTER_DEVICE, pepfx/PEP_ACPI_UNREGISTER_DEVICE, PPEP_ACPI_UNREGISTER_DEVICE, PPEP_ACPI_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_acpi_unregister_device, PEP_ACPI_UNREGISTER_DEVICE, pepfx/PPEP_ACPI_UNREGISTER_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_UNREGISTER_DEVICE
 product: Windows
 targetos: Windows
@@ -81,7 +81,9 @@ typedef struct _PEP_ACPI_UNREGISTER_DEVICE {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_NOTIFY_ACPI_UNREGISTER_DEVICE</a> notification. The <b>DeviceHandle</b> and <b>InputFlags</b> members contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> when this notification is sent.
+
 
 
 
@@ -89,7 +91,11 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_NOTIFY_ACPI_UNREGISTER_DEVICE</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+
+
 
  
 

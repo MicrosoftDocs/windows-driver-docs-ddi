@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CmpMonitorRoutine
 product: Windows
 targetos: Windows
-req.typenames: *PTOPOLOGY_MAP, TOPOLOGY_MAP
+req.typenames: "*PTOPOLOGY_MAP, TOPOLOGY_MAP"
 ---
 
 # PCMP_MONITOR_ROUTINE callback
@@ -80,13 +80,17 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5370
 ## -returns
 
 
+
 This callback does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

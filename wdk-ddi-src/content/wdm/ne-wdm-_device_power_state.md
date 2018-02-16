@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_POWER_STATE
-title: _DEVICE_POWER_STATE
+title: "_DEVICE_POWER_STATE"
 author: windows-driver-content
 description: The DEVICE_POWER_STATE enumeration type indicates a device power state.
 old-location: kernel\device_power_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3166685-2aec-4874-a5a9-8cc293a96a2c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PowerDeviceD0, PDEVICE_POWER_STATE, wdm/PDEVICE_POWER_STATE, PowerDeviceD3, PowerDeviceMaximum, PowerDeviceD2, wdm/PowerDeviceD3, wdm/PowerDeviceD2, PowerDeviceD1, wdm/DEVICE_POWER_STATE, DEVICE_POWER_STATE, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, PowerDeviceD0, _DEVICE_POWER_STATE, wdm/PowerDeviceD1, wdm/PowerDeviceUnspecified, wdm/PowerDeviceMaximum, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], kernel.device_power_state, PowerDeviceUnspecified, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], *PDEVICE_POWER_STATE
+ms.keywords: PowerDeviceD2, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, kernel.device_power_state, *PDEVICE_POWER_STATE, wdm/PowerDeviceMaximum, wdm/PowerDeviceUnspecified, wdm/PowerDeviceD3, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PowerDeviceD1, PowerDeviceMaximum, PDEVICE_POWER_STATE, PowerDeviceD3, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], _DEVICE_POWER_STATE, wdm/PDEVICE_POWER_STATE, PowerDeviceD1, PowerDeviceD0, wdm/PowerDeviceD2, wdm/DEVICE_POWER_STATE, DEVICE_POWER_STATE, PowerDeviceUnspecified, wdm/PowerDeviceD0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
+req.typenames: "*PDEVICE_POWER_STATE, DEVICE_POWER_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -106,15 +106,19 @@ The number of device power state values for this enumeration type that represent
 ## -remarks
 
 
+
 A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <b>DEVICE_POWER_STATE</b> enumeration type.
 
 For more information about system power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a>. For more information about device power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554397">Managing Power for Individual Devices</a>. For more information about power management in general, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548108">Introduction to Power Management</a>. 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+
+
 
  
 

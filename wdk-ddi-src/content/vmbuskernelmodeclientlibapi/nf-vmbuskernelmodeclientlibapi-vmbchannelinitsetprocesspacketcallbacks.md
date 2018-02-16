@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 437DC9C5-CE73-45E8-AC4A-CFF9249809AD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetProcessPacketCallbacks, netvista.vmbchannelinitsetprocesspacketcallbacks, VmbChannelInitSetProcessPacketCallbacks function [Network Drivers Starting with Windows Vista], VmbChannelInitSetProcessPacketCallbacks
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetProcessPacketCallbacks, netvista.vmbchannelinitsetprocesspacketcallbacks, VmbChannelInitSetProcessPacketCallbacks, VmbChannelInitSetProcessPacketCallbacks function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelInitSetProcessPacketCallbacks
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ A callback function to call     when processing of a batch of packets has been c
 ## -returns
 
 
+
  returns one of the following status values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -121,11 +123,14 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This function is only meaningful if Kernel Mode Client Library (KMCL) queue
@@ -137,11 +142,16 @@ after the last invocation of <b>ProcessPacketCallback</b> in a single batch.
 
 
 
+
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete.md">EvtVmbChannelProcessingComplete</a>
 
+
+
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">ProcessPacketCallback</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_ongetsupportedsensorobjects.htm
 old-project: sensors
 ms.assetid: a8ea63cf-24ba-467b-9c27-ab8e38be1c04
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ISensorDriver::OnGetSupportedSensorObjects, ISensorDriver, OnGetSupportedSensorObjects method [Sensor Devices], OnGetSupportedSensorObjects, sensors.isensordriver_ongetsupportedsensorobjects
+ms.date: 2/8/2018
+ms.keywords: OnGetSupportedSensorObjects, OnGetSupportedSensorObjects method [Sensor Devices], sensors.isensordriver_ongetsupportedsensorobjects, ISensorDriver, ISensorDriver::OnGetSupportedSensorObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	OnGetSupportedSensorObjects
 product: Windows
 targetos: Windows
@@ -77,6 +77,8 @@ Address of an IPortableDeviceValuesCollection pointer that receives the list of 
 ## -returns
 
 
+
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
+
 
 

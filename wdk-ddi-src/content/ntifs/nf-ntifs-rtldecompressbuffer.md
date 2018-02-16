@@ -7,8 +7,8 @@ old-location: ifsk\rtldecompressbuffer.htm
 old-project: ifsk
 ms.assetid: 4f82d094-e6be-4367-9146-1fa3f200ffa0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: COMPRESSION_FORMAT_DEFAULT, ifsk.rtldecompressbuffer, COMPRESSION_FORMAT_XPRESS, rtlref_d19521fb-b086-4ee4-ae65-6354a89aeff9.xml, RtlDecompressBuffer, COMPRESSION_FORMAT_LZNT1, ntifs/RtlDecompressBuffer, COMPRESSION_FORMAT_NONE, RtlDecompressBuffer function [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: RtlDecompressBuffer, COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_NONE, ntifs/RtlDecompressBuffer, COMPRESSION_FORMAT_LZNT1, ifsk.rtldecompressbuffer, rtlref_d19521fb-b086-4ee4-ae65-6354a89aeff9.xml, RtlDecompressBuffer function [Installable File System Drivers], COMPRESSION_FORMAT_XPRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlDecompressBuffer
 product: Windows
 targetos: Windows
@@ -75,6 +75,7 @@ NTSTATUS RtlDecompressBuffer(
 ### -param CompressionFormat [in]
 
 A bitmask that specifies the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows.
+
 <table>
 <tr>
 <th>Value</th>
@@ -120,7 +121,8 @@ The function will perform Xpress decompression.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param UncompressedBuffer [out]
@@ -151,7 +153,9 @@ A pointer to a caller-allocated variable that receives the size, in bytes, of th
 ## -returns
 
 
+
 <b>RtlDecompressBuffer</b> returns an appropriate error status value, such as one of the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -219,11 +223,14 @@ An invalid compression format was specified through the <i>CompressionFormat</i>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>RtlDecompressBuffer</b> function takes as input an entire compressed buffer and produces its decompressed equivalent provided that the uncompressed data fits within the specified destination buffer.
@@ -234,23 +241,36 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
-
-<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
-
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
-
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 
 <a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
 
- 
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlDecompressBuffer function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlDecompressBuffer function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

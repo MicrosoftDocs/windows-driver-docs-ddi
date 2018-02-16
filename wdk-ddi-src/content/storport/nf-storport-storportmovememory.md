@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5481ae5e-c28a-478e-96be-c6ec8d7f163e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportmovememory, StorPortMoveMemory routine [Storage Devices], StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml, storport/StorPortMoveMemory
+ms.keywords: StorPortMoveMemory routine [Storage Devices], storage.storportmovememory, storport/StorPortMoveMemory, StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortMoveMemory
 product: Windows
 targetos: Windows
@@ -89,13 +89,17 @@ Specifies how many bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
+
+
 
  
 

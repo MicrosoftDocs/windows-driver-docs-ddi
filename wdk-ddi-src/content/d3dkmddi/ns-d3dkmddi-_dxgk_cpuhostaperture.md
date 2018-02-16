@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CPUHOSTAPERTURE
-title: _DXGK_CPUHOSTAPERTURE
+title: "_DXGK_CPUHOSTAPERTURE"
 author: windows-driver-content
 description: DXGK_CPUHOSTAPERTURE describes a memory segment supporting a CPU host aperture.
 old-location: display\dxgk_cpuhostaperture.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: BBB9D8F6-0EF8-4B34-B79E-8742BB7575D4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE structure [Display Devices], d3dkmddi/DXGK_CPUHOSTAPERTURE, _DXGK_CPUHOSTAPERTURE, display.dxgk_cpuhostaperture
+ms.keywords: display.dxgk_cpuhostaperture, DXGK_CPUHOSTAPERTURE structure [Display Devices], d3dkmddi/DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE, _DXGK_CPUHOSTAPERTURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_CPUHOSTAPERTURE
 product: Windows
 targetos: Windows

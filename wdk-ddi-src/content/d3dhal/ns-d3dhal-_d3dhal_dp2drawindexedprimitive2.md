@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
-title: _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
+title: "_D3DHAL_DP2DRAWINDEXEDPRIMITIVE2"
 author: windows-driver-content
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawindexedprimitive2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0376a2ce-2f1f-4515-b80a-2ecf0941d7d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure pointer [Display Devices], LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, *LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, display.d3dhal_dp2drawindexedprimitive2, d3dstrct_43a90135-93f4-4304-9967-b4d7b6616198.xml, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure [Display Devices]
+ms.keywords: "_D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dstrct_43a90135-93f4-4304-9967-b4d7b6616198.xml, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, *LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure pointer [Display Devices], display.d3dhal_dp2drawindexedprimitive2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
 product: Windows
 targetos: Windows
@@ -109,19 +109,27 @@ Specifies the number of triangles, lines or points to draw for the given primiti
 ## -remarks
 
 
+
 The vertex data has been transformed by the runtime.
 
 As with vertices, the actual indices to use are not passed with the token data, but rather should be read from the currently selected index buffer. See <a href="https://msdn.microsoft.com/5bf7dc12-d988-4194-a81f-52c9c5356610">Index Buffers</a> for more details.
 
 
 
+
 ## -see-also
+
+D3DDP2OP_DRAWINDEXEDPRIMITIVE2
+
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawindexedprimitive2.md">D3DHAL_DP2DRAWINDEXEDPRIMITIVE2</a>
 
-D3DDP2OP_DRAWINDEXEDPRIMITIVE2
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 2862fe26-1613-4fc2-98e1-3deb5078d1e2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getkernelconnectionoptions, dbgeng/IDebugClient2::GetKernelConnectionOptions, dbgeng/IDebugClient3::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient_5a7fe06a-42e4-4bdd-935c-8130cdfef568.xml, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient5, dbgeng/IDebugClient::GetKernelConnectionOptions, IDebugClient::GetKernelConnectionOptions, IDebugClient interface [Windows Debugging], GetKernelConnectionOptions method, GetKernelConnectionOptions method [Windows Debugging], IDebugClient4 interface, GetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface, IDebugClient2::GetKernelConnectionOptions, dbgeng/IDebugClient4::GetKernelConnectionOptions, IDebugClient4::GetKernelConnectionOptions, IDebugClient2 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient4 interface [Windows Debugging], GetKernelConnectionOptions method, GetKernelConnectionOptions method [Windows Debugging], IDebugClient interface, IDebugClient3::GetKernelConnectionOptions, GetKernelConnectionOptions, IDebugClient5::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2 interface
+ms.keywords: IDebugClient_5a7fe06a-42e4-4bdd-935c-8130cdfef568.xml, GetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface, GetKernelConnectionOptions method [Windows Debugging], IDebugClient4 interface, IDebugClient5, IDebugClient3, IDebugClient interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient::GetKernelConnectionOptions, IDebugClient, dbgeng/IDebugClient3::GetKernelConnectionOptions, GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2 interface, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient2 interface [Windows Debugging], GetKernelConnectionOptions method, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2::GetKernelConnectionOptions, IDebugClient4 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient4::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient interface, debugger.getkernelconnectionoptions, IDebugClient2, dbgeng/IDebugClient4::GetKernelConnectionOptions, IDebugClient3::GetKernelConnectionOptions, dbgeng/IDebugClient::GetKernelConnectionOptions, IDebugClient5::GetKernelConnectionOptions, IDebugClient4, GetKernelConnectionOptions method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], GetKernelConnectionOptions method, dbgeng/IDebugClient2::GetKernelConnectionOptions, dbgeng/IDebugClient5::GetKernelConnectionOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.GetKernelConnectionOptions
 -	IDebugClient2.GetKernelConnectionOptions
 -	IDebugClient3.GetKernelConnectionOptions
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.GetKernelConnectionOptions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetKernelConnectionOptions method
@@ -91,7 +91,9 @@ Receives the size in characters of the connection options.  If <i>OptionsSize</i
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,11 +132,14 @@ The current target is not a standard live kernel target.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is available only for live kernel targets that are not local and not connected through eXDI.
@@ -145,19 +150,32 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
+
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
  
 

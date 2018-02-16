@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ffdd1cd9-0a03-4b5c-bc4e-f1067e2f2d7b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_MAX, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_CODE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_ARRIVAL_INTERFACE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_PORT, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_REMOTE_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_INDEX, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_PORT, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_PROFILE_ID, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_PROTOCOL, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_PROTOCOL, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_TUNNEL_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_PROFILE_ID, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_REMOTE_PORT, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_QUARANTINE_EPOCH, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_FLAGS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_REMOTE_PORT, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_ARRIVAL_INTERFACE, fwpsk/FWPS_FIELDS_INBOUND_ICMP_ERROR_V6, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_MAX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_REMOTE_ADDRESS, netvista.fwps_fields_inbound_icmp_error_v6, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_SUB_INTERFACE_INDEX, FWPS_FIELDS_INBOUND_ICMP_ERROR_V6_, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_INTERFACE, FWPS_FIELDS_INBOUND_ICMP_ERROR_V6, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_TUNNEL_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_TYPE, FWPS_FIELDS_INBOUND_ICMP_ERROR_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_FLAGS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_INDEX, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_CODE, wfp_ref_5_const_3_data_fields_6c0652f0-6d73-4687-a844-a641e8bdc043.xml, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_TUNNEL_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_QUARANTINE_EPOCH, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_INDEX, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_REMOTE_ADDRESS
+ms.keywords: fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_FLAGS, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_FLAGS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_CODE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_INDEX, wfp_ref_5_const_3_data_fields_6c0652f0-6d73-4687-a844-a641e8bdc043.xml, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_QUARANTINE_EPOCH, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_REMOTE_PORT, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_INDEX, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_INDEX, netvista.fwps_fields_inbound_icmp_error_v6, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_TUNNEL_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_TUNNEL_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_ADDRESS_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_MAX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_PROFILE_ID, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_CODE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_PORT, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_PORT, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_INDEX, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_ADDRESS_TYPE, FWPS_FIELDS_INBOUND_ICMP_ERROR_V6, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_REMOTE_ADDRESS, FWPS_FIELDS_INBOUND_ICMP_ERROR_V6_, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_ARRIVAL_INTERFACE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_MAX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_REMOTE_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_TUNNEL_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_ARRIVAL_INTERFACE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_PROTOCOL, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_REMOTE_PORT, fwpsk/FWPS_FIELDS_INBOUND_ICMP_ERROR_V6, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_PROFILE_ID, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_REMOTE_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_QUARANTINE_EPOCH, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_TYPE, FWPS_FIELDS_INBOUND_ICMP_ERROR_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_PROTOCOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_FIELDS_INBOUND_ICMP_ERROR_V6
 product: Windows
 targetos: Windows
@@ -177,15 +177,19 @@ The encapsulation method used by a tunnel if the
 
 The LUID for the network interface that is associated with the arrival IP address.
      
+
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
-     Windows.</div><div> </div>
+     Windows.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_INDEX
 
 The index of the arrival network interface, as enumerated by the network stack.
      
+
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
-     Windows.</div><div> </div>
+     Windows.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_TYPE
 
@@ -193,8 +197,10 @@ The type of the arrival network interface, as defined by the Internet Assigned N
      (IANA). For more information, see 
      <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
      
+
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
-     Windows.</div><div> </div>
+     Windows.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_TUNNEL_TYPE
 
@@ -204,8 +210,10 @@ The encapsulation method used by a tunnel if the
      <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
      
+
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
-     Windows.</div><div> </div>
+     Windows.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_FLAGS
 
@@ -219,16 +227,19 @@ A bitwise OR of a combination of filtering condition flags. For information abou
 The profile identifier (network category) of the arrival interface. The possible network category
      values are: public (1), private (2), or domain (3).
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_INTERFACE_QUARANTINE_EPOCH
 
 The time that has passed since the last media state change occurred for the network interface.
      
-<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_COMPARTMENT_ID
-
 
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_MAX
@@ -240,9 +251,11 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The following macros in 
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_INBOUND_ICMP_ERROR_V6 enumeration
     values:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -268,7 +281,9 @@ The following macros in
 </pre>
 </td>
 </tr>
-</table></span></div>These macros are used to access the following IPV6 data fields:
+</table></span></div>
+These macros are used to access the following IPV6 data fields:
+
 
 
 
@@ -278,7 +293,11 @@ The following macros in
 
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+
+
 
  
 

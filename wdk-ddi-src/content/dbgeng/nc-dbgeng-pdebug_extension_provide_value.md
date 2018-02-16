@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	DebugExtensionProvideValue
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # PDEBUG_EXTENSION_PROVIDE_VALUE callback
@@ -107,6 +107,7 @@ A pointer to the ID for the type of <i>Value</i>.
 ### -param TypeFlags [out]
 
 A parameter that you can use to return one of the following flags: 
+
 <table>
 <tr>
 <th>Value</th>
@@ -132,13 +133,16 @@ The value that is pointed to by <i>Value</i> is an address for a pointer to data
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>DebugExtensionProvideValue</b> might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -155,13 +159,16 @@ The function was successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return error values. For more information about possible return values, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and have a terminating NULL character. 
@@ -170,17 +177,28 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 
+
 ## -see-also
 
 <i>KnownStructOutput</i>
 
-<i>DebugExtensionQueryValueNames</i>
 
-<i>DebugExtensionNotify</i>
+
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+
 
 <i>DebugExtensionUninitialize</i>
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+
+
+<i>DebugExtensionQueryValueNames</i>
+
+
+
+<i>DebugExtensionNotify</i>
+
+
 
  
 

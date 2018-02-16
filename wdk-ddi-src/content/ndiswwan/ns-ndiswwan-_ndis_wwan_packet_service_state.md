@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PACKET_SERVICE_STATE
-title: _NDIS_WWAN_PACKET_SERVICE_STATE
+title: "_NDIS_WWAN_PACKET_SERVICE_STATE"
 author: windows-driver-content
 description: The NDIS_WWAN_PACKET_SERVICE_STATE structure represents the packet service attachment state of the MB device.
 old-location: netvista\ndis_wwan_packet_service_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63dbd674-32b3-4843-8349-706c3c0380e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, _NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, netvista.ndis_wwan_packet_service_state, PNDIS_WWAN_PACKET_SERVICE_STATE
+ms.keywords: ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, netvista.ndis_wwan_packet_service_state, _NDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_PACKET_SERVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE
+req.typenames: NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE
 ---
 
 # _NDIS_WWAN_PACKET_SERVICE_STATE structure
@@ -78,6 +78,7 @@ The header with type, revision, and size information about the NDIS_WWAN_PACKET_
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -113,7 +114,8 @@ sizeof(NDIS_WWAN_PACKET_SERVICE_STATE)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -134,6 +136,7 @@ WWAN_STATUS_SUCCESS should be returned by the miniport driver, if the requested 
      <i>set</i> request.
 
 The following table shows the other possible error status codes.
+
 <table>
 <tr>
 <th>Value</th>
@@ -191,11 +194,13 @@ The operation failed because a bad SIM card was detected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Miniport drivers can return the error codes (in addition to the above listed) shown in the following
      table in the event that a packet-attach 
      <i>set</i> request fails.
+
 <table>
 <tr>
 <th>Value</th>
@@ -284,7 +289,8 @@ A bad SIM card is detected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PacketService
@@ -296,9 +302,13 @@ A formatted
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 
  
 

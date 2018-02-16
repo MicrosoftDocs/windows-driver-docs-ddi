@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 819ac05b-15c2-4a24-ae6b-8a47991a4e7a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisAdvanceNetBufferListDataStart, ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, ndis/NdisAdvanceNetBufferListDataStart, netvista.ndisadvancenetbufferlistdatastart, NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, netvista.ndisadvancenetbufferlistdatastart, NdisAdvanceNetBufferListDataStart, ndis/NdisAdvanceNetBufferListDataStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisAdvanceNetBufferListDataStart
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAdvanceNetBufferListDataStart function
@@ -53,8 +53,8 @@ req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
 Call the 
   <b>NdisAdvanceNetBufferListDataStart</b> function to release data space that was claimed in previous calls
   to the 
-  <mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
-  NdisRetreatNetBufferListDataStart</b></mshelp:link> function.
+  <a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+  NdisRetreatNetBufferListDataStart</a> function.
 
 
 ## -syntax
@@ -100,6 +100,7 @@ TBD
 
 
 
+
 #### - FreeMdlHandler [in, optional]
 
 An optional entry point for an 
@@ -112,11 +113,14 @@ An optional entry point for an
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisAdvanceNetBufferListDataStart</b> releases 
@@ -124,13 +128,13 @@ None
     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures in a 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. If 
     <i>FreeMdl</i> is <b>TRUE</b> and 
-    <mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
-    NdisRetreatNetBufferListDataStart</b></mshelp:link> allocated memory to satisfy the corresponding allocation request,
+    <a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+    NdisRetreatNetBufferListDataStart</a> allocated memory to satisfy the corresponding allocation request,
     
     <b>NdisAdvanceNetBufferListDataStart</b> frees the allocated memory. Calling this function is equivalent
     to calling 
-    <mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-    NdisAdvanceNetBufferDataStart</b></mshelp:link> for every NET_BUFFER structure on the NET_BUFFER_LIST structure.
+    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    NdisAdvanceNetBufferDataStart</a> for every NET_BUFFER structure on the NET_BUFFER_LIST structure.
     However, calling 
     <b>NdisAdvanceNetBufferListDataStart</b> is more efficient.
 
@@ -141,21 +145,34 @@ When protocol drivers call
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisretreatnetbufferlistdatastart" tabindex="0"><b>
-   NdisRetreatNetBufferListDataStart</b></mshelp:link>
+<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<mshelp:link keywords="netvista.ndisadvancenetbufferdatastart" tabindex="0"><b>
-   NdisAdvanceNetBufferDataStart</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferlistdatastart.md">
+   NdisRetreatNetBufferListDataStart</a>
+
+
 
  
 

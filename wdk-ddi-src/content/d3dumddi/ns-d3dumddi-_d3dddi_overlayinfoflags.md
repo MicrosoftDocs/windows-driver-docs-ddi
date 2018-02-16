@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_OVERLAYINFOFLAGS
-title: _D3DDDI_OVERLAYINFOFLAGS
+title: "_D3DDDI_OVERLAYINFOFLAGS"
 author: windows-driver-content
 description: The D3DDDI_OVERLAYINFOFLAGS structure identifies the type of overlay operation to perform.
 old-location: display\d3dddi_overlayinfoflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags, D3DDDI_OVERLAYINFOFLAGS, D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices]
+ms.keywords: display.d3dddi_overlayinfoflags, D3DDDI_OVERLAYINFOFLAGS, _D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], d3dumddi/D3DDDI_OVERLAYINFOFLAGS, D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_OVERLAYINFOFLAGS
 product: Windows
 targetos: Windows
@@ -185,6 +185,8 @@ A member in the union that is contained in D3DDDI_OVERLAYINFOFLAGS that can hold
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
+
+
 
  
 

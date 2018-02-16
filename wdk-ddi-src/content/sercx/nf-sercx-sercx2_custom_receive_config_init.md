@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 35C7AE64-C778-443E-9CF7-7868048DA01F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: serports.sercx2_custom_receive_config_init, 2/SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function [Serial Ports], SERCX2_CUSTOM_RECEIVE_CONFIG_INIT
+ms.keywords: SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function [Serial Ports], 2/SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, serports.sercx2_custom_receive_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX2_CUSTOM_RECEIVE_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the <a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SE
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Your serial controller driver must use this function to initialize a <a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SERCX2_CUSTOM_RECEIVE_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a> method.
@@ -89,11 +92,16 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\ns-sercx-_sercx2_custom_receive_config.md">SERCX2_CUSTOM_RECEIVE_CONFIG</a>
 
+
+
 <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
+
+
 
  
 

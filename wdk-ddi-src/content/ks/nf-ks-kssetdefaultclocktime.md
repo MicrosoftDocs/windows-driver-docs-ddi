@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c8b4fef4-cfbb-4cdd-b762-062b8ae4a423
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml, KsSetDefaultClockTime, KsSetDefaultClockTime function [Streaming Media Devices], ks/KsSetDefaultClockTime, stream.kssetdefaultclocktime
+ms.keywords: stream.kssetdefaultclocktime, KsSetDefaultClockTime, KsSetDefaultClockTime function [Streaming Media Devices], ks/KsSetDefaultClockTime, ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsSetDefaultClockTime
 product: Windows
 targetos: Windows
@@ -84,13 +84,17 @@ Specifies the new time to set the clock.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksgetdefaultclocktime.md">KsGetDefaultClockTime</a>
+
+
 
  
 

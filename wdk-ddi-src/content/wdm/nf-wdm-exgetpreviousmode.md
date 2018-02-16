@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0f4c7bc2-a29d-4b0c-81c3-01cdfefa1322
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExGetPreviousMode, kernel.exgetpreviousmode, ExGetPreviousMode routine [Kernel-Mode Driver Architecture], wdm/ExGetPreviousMode, k102_080fbfa6-6261-453d-a2c7-e08818d34b6f.xml
+ms.keywords: k102_080fbfa6-6261-453d-a2c7-e08818d34b6f.xml, kernel.exgetpreviousmode, ExGetPreviousMode routine [Kernel-Mode Driver Architecture], ExGetPreviousMode, wdm/ExGetPreviousMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExGetPreviousMode
 product: Windows
 targetos: Windows
@@ -67,14 +67,18 @@ KPROCESSOR_MODE ExGetPreviousMode(void);
 
 
 
+
 ## -returns
+
 
 
 <b>ExGetPreviousMode</b> returns a <b>KPROCESSOR_MODE</b> value, one of <b>KernelMode</b> or <b>UserMode</b>. This value specifies the previous processor mode for the current thread.
 
 
 
+
 ## -remarks
+
 
 
 If an I/O request can originate either in user mode or kernel mode and the caller passes pointers to data structures used for I/O, the driver must be able to determine whether the caller's pointers are valid in user mode or kernel mode.
@@ -85,9 +89,12 @@ Alternatively, <b>ExGetPreviousMode</b> can be used to determine the previous pr
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
+
 
  
 

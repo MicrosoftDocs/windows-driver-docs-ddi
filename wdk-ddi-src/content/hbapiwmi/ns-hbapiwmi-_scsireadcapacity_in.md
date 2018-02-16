@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiReadCapacity_IN
-title: _ScsiReadCapacity_IN
+title: "_ScsiReadCapacity_IN"
 author: windows-driver-content
 description: The ScsiReadCapacity_IN structure is used to deliver input parameter data to the ScsiReadCapacity WMI method.
 old-location: storage\scsireadcapacity_in2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d5aa608-9ee7-45a6-bd2f-13a5b8338437
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _ScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], PScsiReadCapacity_IN, hbapiwmi/ScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], hbapiwmi/PScsiReadCapacity_IN, storage.scsireadcapacity_in2, ScsiReadCapacity_IN, *PScsiReadCapacity_IN, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml
+ms.keywords: PScsiReadCapacity_IN, hbapiwmi/PScsiReadCapacity_IN, *PScsiReadCapacity_IN, hbapiwmi/ScsiReadCapacity_IN, ScsiReadCapacity_IN, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml, storage.scsireadcapacity_in2, ScsiReadCapacity_IN structure [Storage Devices], PScsiReadCapacity_IN structure pointer [Storage Devices], _ScsiReadCapacity_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hbapiwmi.h
-apiname: 
+apiname:
 -	ScsiReadCapacity_IN
 product: Windows
 targetos: Windows
-req.typenames: *PScsiReadCapacity_IN, ScsiReadCapacity_IN
+req.typenames: "*PScsiReadCapacity_IN, ScsiReadCapacity_IN"
 ---
 
 # _ScsiReadCapacity_IN structure
@@ -93,13 +93,17 @@ Indicates the logical unit number of the logical unit that will receive the SCSI
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the ScsiReadCapacity_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+
+
 
  
 

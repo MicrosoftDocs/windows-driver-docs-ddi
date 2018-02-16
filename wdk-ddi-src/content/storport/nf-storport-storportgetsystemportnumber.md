@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1205C85-6F23-4D08-A146-2FA8C00FD6E9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetSystemPortNumber routine [Storage Devices], StorPortGetSystemPortNumber, storport/StorPortGetSystemPortNumber, storage.storportgetsystemportnumber
+ms.keywords: StorPortGetSystemPortNumber, storport/StorPortGetSystemPortNumber, storage.storportgetsystemportnumber, StorPortGetSystemPortNumber routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortGetSystemPortNumber
 product: Windows
 targetos: Windows
@@ -82,7 +82,9 @@ A pointer to a storage address structure formatted as <a href="..\storport\ns-st
 ## -returns
 
 
+
 <b>StorPortGetSystemPortNumber</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,14 +127,18 @@ The <b>Type</b> member of <i>Address</i> is not <b>STOR_ADDRESS_TYPE_BTL8</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The address structure pointed to by <i>Address</i> is allocated and formatted as <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. The <b>Type</b> member of <i>Address</i> must be set to <b>STOR_ADDRESS_TYPE_BTL8</b> and the <b>Length</b> member <i>Address</i> must be greater than or equal to <b>STOR_ADDR_BTL8_ADDRESS_LENGTH</b>.
+
 
 
 
@@ -140,7 +146,11 @@ The address structure pointed to by <i>Address</i> is allocated and formatted as
 
 <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
+
+
 <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+
+
 
  
 

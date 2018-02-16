@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c316382c-8416-43c2-b5fd-2d52d01e1419
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksacquirecontrol, avfunc_a3c1eb2c-db95-463f-98f5-a158dd1e14f5.xml, ks/KsAcquireControl, KsAcquireControl function [Streaming Media Devices], KsAcquireControl
+ms.keywords: KsAcquireControl function [Streaming Media Devices], ks/KsAcquireControl, stream.ksacquirecontrol, KsAcquireControl, avfunc_a3c1eb2c-db95-463f-98f5-a158dd1e14f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAcquireControl
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the object for which to acquire the filter control mutex. This shou
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Minidrivers typically do not call this function directly, but instead call either <a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a> or <a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>. These functions provide the necessary typecasting to PVOID automatically.
@@ -89,17 +92,28 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
+
+
+<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
+
+
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
+
+
 <a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+
 
  
 

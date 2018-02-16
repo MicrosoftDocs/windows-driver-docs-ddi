@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d5fa83d6-d733-4fff-89a9-f519ed608e57
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortGetUncachedExtension routine [Storage Devices], storage.storportgetuncachedextension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml, StorPortGetUncachedExtension, storport/StorPortGetUncachedExtension
+ms.keywords: storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml, storage.storportgetuncachedextension, StorPortGetUncachedExtension routine [Storage Devices], StorPortGetUncachedExtension, storport/StorPortGetUncachedExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortGetUncachedExtension
 product: Windows
 targetos: Windows
@@ -91,20 +91,26 @@ The size required, in bytes, of the uncached extension to allocate.
 ## -returns
 
 
+
 <b>StorPortGetUncachedExtension</b> returns a virtual address pointer to the uncached extension. If it cannot allocate the requested memory, it returns <b>NULL</b>. If the memory was previously allocated, the  virtual address pointer to the current uncached extension is returned.
+
 
 
 
 ## -remarks
 
 
+
 Bus-master devices use common buffer space for DMA transfers.
+
 
 
 
 ## -see-also
 
 <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
+
+
 
  
 

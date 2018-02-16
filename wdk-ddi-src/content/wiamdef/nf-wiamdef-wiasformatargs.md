@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 409c4ff6-3a0e-408a-879d-2875ac245fb8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFormatArgs, wiasFormatArgs function [Imaging Devices], wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, wiamdef/wiasFormatArgs, image.wiasformatargs
+ms.keywords: image.wiasformatargs, wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, wiasFormatArgs, wiamdef/wiasFormatArgs, wiasFormatArgs function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasFormatArgs
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ TBD
 
 
 
+
 ####### - lpszFormat, ...
 
 Specifies a variable argument list, which starts with an ANSI format string containing the message and any format specifiers. The ellipsis (...) specifies a variable number of arguments that follow the format string.
@@ -87,6 +88,8 @@ Specifies a variable argument list, which starts with an ANSI format string cont
 ## -returns
 
 
+
 This function returns a BSTR containing the format string, the arguments following the format string, and a format signature.
+
 
 

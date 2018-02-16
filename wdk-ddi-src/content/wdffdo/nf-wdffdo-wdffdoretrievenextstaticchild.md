@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee0f458b-c8b3-46e7-87bd-25599d39203d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFFDORETRIEVENEXTSTATICCHILD, wdffdo/WdfFdoRetrieveNextStaticChild, wdf.wdffdoretrievenextstaticchild, DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, kmdf.wdffdoretrievenextstaticchild, WdfFdoRetrieveNextStaticChild, WdfFdoRetrieveNextStaticChild method
+ms.keywords: PFN_WDFFDORETRIEVENEXTSTATICCHILD, WdfFdoRetrieveNextStaticChild, kmdf.wdffdoretrievenextstaticchild, WdfFdoRetrieveNextStaticChild method, wdffdo/WdfFdoRetrieveNextStaticChild, DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, wdf.wdffdoretrievenextstaticchild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfFdoRetrieveNextStaticChild
 product: Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
+req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -91,18 +91,22 @@ A <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RET
 ## -returns
 
 
+
 If the operation succeeds, the method returns a handle to a framework device object. Otherwise it returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Bus drivers that use static bus enumeration can call <b>WdfFdoRetrieveNextStaticChild</b>. 
 
 To retrieve the items in a list of child devices, the driver should:
+
 <ol>
 <li>
 Call <a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a> to lock the child list.
@@ -116,7 +120,46 @@ Repeatedly call <b>WdfFdoRetrieveNextStaticChild</b> to obtain the items in the 
 Call <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a> to unlock the child list.
 
 </li>
-</ol>For more information about static child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
+</ol>
+For more information about static child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
+
+
+#### Examples
+
+The following code example searches a static child list until it finds a child device with a serial number that matches a specific value. For other example uses of <b>WdfFdoRetrieveNextStaticChild</b>, see the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample bus driver.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PPDO_DEVICE_DATA  pdoData;
+WDFDEVICE  hChild;
+NTSTATUS  status = STATUS_INVALID_PARAMETER;
+
+WdfFdoLockStaticChildListForIteration(Device);
+
+while ((hChild = WdfFdoRetrieveNextStaticChild(
+                                               Device,
+                                               hChild,
+                                               WdfRetrieveAddedChildren
+                                               )) != NULL) {
+    //
+    // Obtain device object context data and check the
+    // stored serial number.
+    //
+    pdoData = PdoGetData(hChild);
+    if (SerialNo == pdoData-&gt;SerialNo) {
+        status = STATUS_SUCCESS;
+        WdfPdoRequestEject(hChild);
+        break;
+    }
+}
+WdfFdoUnlockStaticChildListFromIteration(Device);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -124,7 +167,11 @@ Call <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">W
 
 <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
 
+
+
 <a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: 22301feb-2c6b-43ac-b7e8-c10f2e8e4d62
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SDP_WRITE_PROTECTED, SDBUS_PROPERTY, SDP_MEDIA_STATE, ntddsd/SDP_FUNCTION_INT_ENABLE, SDP_FN0_BLOCK_LENGTH, ntddsd/SDP_BUS_DRIVER_VERSION, ntddsd/SDP_BUS_INTERFACE_CONTROL, SDP_BUS_CLOCK, SDP_FUNCTION_TYPE, ntddsd/SDP_BUS_WIDTH, SDP_FUNCTION_NUMBER, SDP_BUS_INTERFACE_CONTROL, SDP_BUS_DRIVER_VERSION, ntddsd/SDP_HOST_BLOCK_LENGTH, SDP_FUNCTION_BLOCK_LENGTH, ntddsd/SDP_WRITE_PROTECTED, sd-structs_257d86c6-0dd9-4f44-b85d-61647d2d8e8b.xml, SDP_MEDIA_CHANGECOUNT, ntddsd/SDP_MEDIA_CHANGECOUNT, ntddsd/SDP_FUNCTION_TYPE, ntddsd/SDP_FUNCTION_NUMBER, SDBUS_PROPERTY enumeration [Buses], SD.sdbus_property, ntddsd/SDP_FUNCTION_BLOCK_LENGTH, ntddsd/SDP_MEDIA_STATE, ntddsd/SDP_FN0_BLOCK_LENGTH, ntddsd/SDP_BUS_CLOCK, SDP_BUS_WIDTH, ntddsd/SDBUS_PROPERTY, SDP_FUNCTION_INT_ENABLE, SDP_HOST_BLOCK_LENGTH
+ms.keywords: SDP_MEDIA_CHANGECOUNT, ntddsd/SDP_HOST_BLOCK_LENGTH, SDP_BUS_DRIVER_VERSION, SDP_BUS_CLOCK, SDBUS_PROPERTY, ntddsd/SDP_MEDIA_STATE, SDP_FUNCTION_NUMBER, SDBUS_PROPERTY enumeration [Buses], ntddsd/SDP_MEDIA_CHANGECOUNT, SD.sdbus_property, ntddsd/SDP_BUS_DRIVER_VERSION, SDP_FUNCTION_BLOCK_LENGTH, ntddsd/SDP_FUNCTION_BLOCK_LENGTH, ntddsd/SDP_FN0_BLOCK_LENGTH, SDP_FUNCTION_TYPE, SDP_MEDIA_STATE, SDP_WRITE_PROTECTED, ntddsd/SDP_FUNCTION_TYPE, ntddsd/SDBUS_PROPERTY, ntddsd/SDP_FUNCTION_NUMBER, SDP_BUS_INTERFACE_CONTROL, sd-structs_257d86c6-0dd9-4f44-b85d-61647d2d8e8b.xml, ntddsd/SDP_BUS_INTERFACE_CONTROL, SDP_FN0_BLOCK_LENGTH, ntddsd/SDP_BUS_CLOCK, SDP_BUS_WIDTH, ntddsd/SDP_WRITE_PROTECTED, ntddsd/SDP_BUS_WIDTH, ntddsd/SDP_FUNCTION_INT_ENABLE, SDP_FUNCTION_INT_ENABLE, SDP_HOST_BLOCK_LENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddsd.h
-apiname: 
+apiname:
 -	SDBUS_PROPERTY
 product: Windows
 targetos: Windows
@@ -147,17 +147,13 @@ Indicates that the operation applies to the SDIO function interrupt enable prope
 ### -field SDP_SET_CARD_INTERRUPT_FORWARD
 
 
-
 ### -field SDP_SET_WAKE_INTERRUPT_FORWARD
-
 
 
 ### -field SDP_HIGH_CAPACITY_SUPPORTED
 
 
-
 ### -field SDP_CHAINED_MDL_SUPPORTED
-
 
 
 ### -field SDP_HPI_SUPPORTED
@@ -168,7 +164,9 @@ Indicates that the operation applies to the SDIO function interrupt enable prope
 ## -remarks
 
 
+
 To read or set a property on an SD device, a device driver must do the following:
+
 <ol>
 <li>
 Set the <b>RequestFunction</b> member of <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a> to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a> enumeration value of either SDRF_GET_PROPERTY or SDRF_SET_PROPERTY.
@@ -185,15 +183,24 @@ Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACK
 </ol>
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
+
+
 
 <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
+
 
  
 

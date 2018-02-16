@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTargetPortal2
-title: _ISCSI_DiscoveredTargetPortal2
+title: "_ISCSI_DiscoveredTargetPortal2"
 author: windows-driver-content
 description: The ISCSI_DiscoveredTargetPortal2 structure provides information that is associated with a discovered target portal.
 old-location: storage\iscsi_discoveredtargetportal2.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68128d39-2490-4c6b-8780-e5aa542a4e3d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsifnd/ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], storage.iscsi_discoveredtargetportal2, *PISCSI_DiscoveredTargetPortal2, _ISCSI_DiscoveredTargetPortal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml, PISCSI_DiscoveredTargetPortal2
+ms.keywords: ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], PISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], storage.iscsi_discoveredtargetportal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, iscsifnd/ISCSI_DiscoveredTargetPortal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml, ISCSI_DiscoveredTargetPortal2, _ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsifnd.h
-apiname: 
+apiname:
 -	ISCSI_DiscoveredTargetPortal2
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2
+req.typenames: "*PISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2"
 ---
 
 # _ISCSI_DiscoveredTargetPortal2 structure
@@ -84,6 +84,7 @@ The network address of the portal.
 ### -field SecurityBitmap
 
 A bitmap, which is defined in the <i>iSNS specification</i>, that indicates the security characteristics of logon connections that are made to this target portal. The following table describes possible security flag values. 
+
 <table>
 <tr>
 <th>Security flags</th>
@@ -159,7 +160,8 @@ The other mask values are valid. If this bit is not set security flags are not s
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about how to configure the default security characteristics that are assigned of the target portal in the registry, see the Remarks section.
 
@@ -177,6 +179,7 @@ A variable-length array of characters that contains the encryption key that is a
 ## -remarks
 
 
+
 The ISCSI_DiscoveredTargetPortal2 structure is a superset of the information that is provided by the <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a> structure, which only defines the target portal address. In addition to the network address of the target portal, the ISCSI_DiscoveredTargetPortal2 structure contains information about the target portal's security characteristics.
 
 If the iSNS server does not assign a security bitmap to the target portal, the operating system associates the bitmap in the <b>DefaultSecurityBitmap</b> registry value with the portal. The <b>DefaultSecurityBitmap</b> registry value is located under the following registry key: <b>HKLM\Software\Microsoft\Windows NT\Current Version\ISCSI\Discovery Values</b>. 
@@ -189,13 +192,20 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
+## -see-also
 
 <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal.md">ISCSI_DiscoveredTargetPortal</a>
 
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561524">ISCSI_DiscoveredTargetPortal WMI Class</a>
+
+
 
  
 

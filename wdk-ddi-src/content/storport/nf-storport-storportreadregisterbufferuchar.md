@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterBufferUchar
-title: StorPortReadRegisterBufferUchar function
+title: StorPortReadRegisterBufferUchar macro
 author: windows-driver-content
 description: The StorPortReadRegisterBufferUchar routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferuchar.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, storport/StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar, storage.storportreadregisterbufferuchar, StorPortReadRegisterBufferUchar routine [Storage Devices]
+ms.keywords: storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml, StorPortReadRegisterBufferUchar, storport/StorPortReadRegisterBufferUchar, storage.storportreadregisterbufferuchar, StorPortReadRegisterBufferUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortReadRegisterBufferUchar
 product: Windows
 targetos: Windows
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortReadRegisterBufferUchar function
+# StorPortReadRegisterBufferUchar macro
 
 
 ## -description
@@ -72,37 +72,56 @@ STORPORT_API VOID StorPortReadRegisterBufferUchar(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
 
-Pointer to the hardware device extension.
-
-
-### -param Register [in]
-
-Pointer to the register where the data is to be read. 
+TBD
 
 
-### -param Buffer [in]
+### -param r
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+
+
+#### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR). 
 
 
-## -returns
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
 
 
-None
+#### - Register [in]
 
+Pointer to the register where the data is to be read. 
 
 
 ## -remarks
 
 
+
 For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>.
+
 
 
 
@@ -110,7 +129,11 @@ For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferuchar
 
 <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>
 
+
+
 <a href="..\srb\nf-srb-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
+
+
 
  
 

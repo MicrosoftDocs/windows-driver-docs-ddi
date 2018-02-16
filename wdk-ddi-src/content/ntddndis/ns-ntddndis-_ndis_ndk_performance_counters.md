@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_PERFORMANCE_COUNTERS
-title: _NDIS_NDK_PERFORMANCE_COUNTERS
+title: "_NDIS_NDK_PERFORMANCE_COUNTERS"
 author: windows-driver-content
 description: The NDIS_NDK_PERFORMANCE_COUNTERS structure contains the NDK performance counters.
 old-location: netvista\ndis_ndk_performance_counters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA752989-B49B-4832-8821-8B45AB3304CD
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, _NDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, PNDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PERFORMANCE_COUNTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NDK_PERFORMANCE_COUNTERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_NDK_PERFORMANCE_COUNTERS, *PNDIS_NDK_PERFORMANCE_COUNTERS
+req.typenames: "*PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS"
 ---
 
 # _NDIS_NDK_PERFORMANCE_COUNTERS structure
@@ -249,6 +249,7 @@ The number, in frames,  of layer two frames that carry outgoing <i>RDMA</i> traf
 ## -remarks
 
 
+
 The <b>NDIS_NDK_PERFORMANCE_COUNTERS</b> structure is used in the <b>CounterSet</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_statistics_info.md">NDIS_NDK_STATISTICS_INFO</a> structure. 
 
 NDK providers are required to support all the performance counters that are included
@@ -261,11 +262,16 @@ All <b>ReservedXX</b> counters must be set to zero by providers and are ignored 
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_capabilities.md">NDIS_NDK_CAPABILITIES</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_statistics_info.md">NDIS_NDK_STATISTICS_INFO</a>
+
+
 
  
 

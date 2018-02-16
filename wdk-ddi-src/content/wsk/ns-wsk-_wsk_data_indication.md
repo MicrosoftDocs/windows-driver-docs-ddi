@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_DATA_INDICATION
-title: _WSK_DATA_INDICATION
+title: "_WSK_DATA_INDICATION"
 author: windows-driver-content
 description: The WSK_DATA_INDICATION structure describes data that has been received on a connection-oriented socket.
 old-location: netvista\wsk_data_indication.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 10af500f-bb3b-427f-86b1-ee075ffc7ac6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], wsk/PWSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml, netvista.wsk_data_indication, PWSK_DATA_INDICATION, _WSK_DATA_INDICATION, *PWSK_DATA_INDICATION, WSK_DATA_INDICATION, WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], wsk/WSK_DATA_INDICATION
+ms.keywords: PWSK_DATA_INDICATION, wsk/WSK_DATA_INDICATION, netvista.wsk_data_indication, PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], wsk/PWSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml, *PWSK_DATA_INDICATION, WSK_DATA_INDICATION, _WSK_DATA_INDICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_DATA_INDICATION
 product: Windows
 targetos: Windows
-req.typenames: *PWSK_DATA_INDICATION, WSK_DATA_INDICATION
+req.typenames: WSK_DATA_INDICATION, *PWSK_DATA_INDICATION
 req.product: Windows 10 or later.
 ---
 
@@ -70,16 +70,16 @@ typedef struct _WSK_DATA_INDICATION {
 
 
 
-### -field _WSK_DATA_INDICATION
-
- 
-
-
 ### -field Next
 
 A pointer to the next WSK_DATA_INDICATION structure in a linked list of WSK_DATA_INDICATION
      structures. If this member is <b>NULL</b>, this structure is the last WSK_DATA_INDICATION structure in the
      linked list.
+
+
+### -field _WSK_DATA_INDICATION
+
+ 
 
 
 ### -field Buffer
@@ -90,6 +90,7 @@ A WSK_BUF structure that describes the data that has been received on the socket
 ## -remarks
 
 
+
 The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the 
     <i>DataIndication</i> parameter when it calls a connection-oriented socket's 
     <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a> event callback
@@ -97,13 +98,20 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 
 
-## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+## -see-also
 
 <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
 
+
+
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
 
  
 

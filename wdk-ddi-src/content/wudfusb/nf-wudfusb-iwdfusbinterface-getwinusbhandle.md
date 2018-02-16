@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 31c23596-21b2-4fb2-96bd-5372fe2432ab
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFUsbInterface interface, GetWinUsbHandle method, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle, GetWinUsbHandle method, IWDFUsbInterface interface, IWDFUsbInterface::GetWinUsbHandle, umdf.iwdfusbinterface_getwinusbhandle, IWDFUsbInterface, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml
+ms.keywords: GetWinUsbHandle method, IWDFUsbInterface interface, GetWinUsbHandle, GetWinUsbHandle method, umdf.iwdfusbinterface_getwinusbhandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, IWDFUsbInterface::GetWinUsbHandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle, wdf.iwdfusbinterface_getwinusbhandle, IWDFUsbInterface interface, GetWinUsbHandle method, IWDFUsbInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbInterface.GetWinUsbHandle
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -69,14 +69,18 @@ WINUSB_INTERFACE_HANDLE GetWinUsbHandle();
 
 
 
+
 ## -returns
+
 
 
 <b>GetWinUsbHandle</b> returns the WinUsb interface handle that is associated with the USB interface.
 
 
 
+
 ## -remarks
+
 
 
 If called on the default interface, the <b>IWDFUsbInterface::GetWinUsbHandle</b> method returns the same WinUsb interface handle as <a href="https://msdn.microsoft.com/library/windows/hardware/ff560369">IWDFUsbTargetDevice::GetWinUsbHandle</a>. The default interface is identified by index zero.
@@ -89,13 +93,20 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+## -see-also
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.zwenumeratetransactionobject, ZwEnumerateTransactionObject, NtEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], wdm/ZwEnumerateTransactionObject, wdm/NtEnumerateTransactionObject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml
+ms.keywords: ZwEnumerateTransactionObject, wdm/NtEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, NtEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject, kernel.zwenumeratetransactionobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwEnumerateTransactionObject
 -	NtEnumerateTransactionObject
 product: Windows
@@ -101,7 +101,9 @@ A pointer to a caller-allocated location that receives the number of bytes that 
 ## -returns
 
 
+
 <b>ZwEnumerateTransactionObject</b> returns STATUS_SUCCESS if the operation succeeds but the routine has not enumerated all the objects. If there are no more objects to enumerate, the routine returns STATUS_NO_MORE_ENTRIES. Otherwise, this routine might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -151,16 +153,20 @@ The caller does not have appropriate access to the objects that are being enumer
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The routine might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+
 
 
 
 ## -remarks
 
 
+
 The following table contains the valid values for the <i>RootObjectHandle</i> and <i>QueryType</i> parameters.
+
 <table>
 <tr>
 <th><i>QueryType</i> parameter</th>
@@ -243,7 +249,8 @@ All transaction objects that belong to all transaction manager objects
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Most TPS components do not have to call <b>ZwEnumerateTransactionObject</b>, but the routine might be useful if you have to write a debugging utility.
 
@@ -258,14 +265,64 @@ Every time that the routine is called, it fills the buffer's GUID array with as 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
+#### Examples
+
+The following code example shows how to enumerate all of the transaction objects on a computer. In this example, the <b>KTMOBJECT_CURSOR</b> structure's GUID array contains only one element, so each call to <b>ZwEnumerateTransactionObject</b> returns one GUID. The routine creates a Unicode string from the GUID and displays the string.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS Status;
+UNICODE_STRING GuidString;
+KTMOBJECT_CURSOR Cursor;
+ULONG ReturnedBytes;
+
+RtlZeroMemory(&amp;Cursor, sizeof(Cursor));
+
+do {
+    Status = ZwEnumerateTransactionObject(
+                                          NULL,
+                                          KTMOBJECT_TRANSACTION,
+                                          &amp;Cursor,
+                                          sizeof(Cursor),
+                                          &amp;ReturnedBytes
+                                          );
+
+    if (Status != STATUS_NO_MORE_ENTRIES) {
+        RtlStringFromGUID(
+                          &amp;Cursor.ObjectIds[0],
+                          &amp;GuidString
+                          );
+        OutputMessage(GuidString.Buffer);
+        OutputMessage(L"\r\n");
+        RtlFreeUnicodeString(&amp;GuidString);
+    }
+} while (Status == STATUS_SUCCESS);
+if (Status == STATUS_NO_MORE_ENTRIES) {
+    Status = STATUS_SUCCESS;
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
+
+
+<a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2ff69f59-5fbd-43fd-afe5-9717d7928d2a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, ksproxy/IKsInterfaceHandler::KsCompleteIo, IKsInterfaceHandler, KsCompleteIo, IKsInterfaceHandler::KsCompleteIo, KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, stream.iksinterfacehandler_kscompleteio
+ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, ksproxy/IKsInterfaceHandler::KsCompleteIo, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, KsCompleteIo, IKsInterfaceHandler::KsCompleteIo, KsCompleteIo method [Streaming Media Devices], KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, stream.iksinterfacehandler_kscompleteio, IKsInterfaceHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsInterfaceHandler.KsCompleteIo
 product: Windows
 targetos: Windows
@@ -75,16 +75,20 @@ Pointer to a <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGME
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 The <b>KsCompleteIo</b> method discards allocated memory, updates media samples, and decrements the count of wait items for the proxy. 
 
 The <b>KsCompleteIo</b> method must determine the type of I/O operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a> method completed from the <b>IoOperation</b> member of the KSSTREAM_SEGMENT structure. If the I/O operation was reading data from a stream (<b>KsIoOperation_Read</b> of the KSIOOPERATION enumerated type), <b>KsCompleteIo</b> performs the following actions to deliver the sample from an output pin to the connected input pin:
+
 <ul>
 <li>
 Reflects the stream header information in the <b>IMediaSample</b> interface. 
@@ -94,17 +98,25 @@ Reflects the stream header information in the <b>IMediaSample</b> interface.
 Calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560710">IKsPin::KsDeliver</a> method of the output pin to deliver the sample. <b>KsDeliver</b> releases the sample so that when queuing buffers to the device, the sample can be retrieved if it is the last sample. The input pin then completes the I/O and it is safe to release the sample. 
 
 </li>
-</ul>For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
+</ul>
+For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
+
 
 
 
 ## -see-also
 
+<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560710">IKsPin::KsDeliver</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
 
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+
 
  
 

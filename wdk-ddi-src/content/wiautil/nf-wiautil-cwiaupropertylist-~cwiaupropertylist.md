@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8b847c3e-f773-44d0-a033-3e40bc2e01fc
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.cwiaupropertylist__cwiaupropertylist, CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, ~CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], ~CWiauPropertyList method, ~CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface, wiautil/CWiauPropertyList::~CWiauPropertyList, CWiauPropertyList
+ms.keywords: "~CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist__cwiaupropertylist, CWiauPropertyList, CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], ~CWiauPropertyList method, wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, ~CWiauPropertyList method [Imaging Devices], wiautil/CWiauPropertyList::~CWiauPropertyList"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauPropertyList.~CWiauPropertyList
 product: Windows
 targetos: Windows
@@ -67,10 +67,13 @@ void ~CWiauPropertyList();
 
 
 
+
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
@@ -78,7 +81,11 @@ This method does not return a value.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540389">CWiauPropertyList::CWiauPropertyList</a>
 
+
+
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
 
  
 

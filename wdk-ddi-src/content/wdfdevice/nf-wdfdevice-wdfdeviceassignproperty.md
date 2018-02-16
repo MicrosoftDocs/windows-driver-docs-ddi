@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5110C452-53E6-401A-9D14-EBD95D3F8BE2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceAssignProperty method, wdfdevice/WdfDeviceAssignProperty, WdfDeviceAssignProperty, wdf.wdfdeviceassignproperty, PFN_WDFDEVICEASSIGNPROPERTY
+ms.keywords: WdfDeviceAssignProperty, WdfDeviceAssignProperty method, PFN_WDFDEVICEASSIGNPROPERTY, wdf.wdfdeviceassignproperty, wdfdevice/WdfDeviceAssignProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: APC_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceAssignProperty
 product: Windows
 targetos: Windows
@@ -105,7 +105,9 @@ A pointer to a caller-allocated buffer that contains the device property data. S
 ## -returns
 
 
+
 If the operation succeeds, <b>WdfDeviceAssignProperty</b> returns STATUS_SUCCESS. Additional return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,7 +124,8 @@ One of the parameters is incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -130,7 +133,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 You can use <b>WdfDeviceAssignProperty</b> to modify the setting of any property that is exposed through the unified property model.
@@ -139,9 +144,12 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md">WdfDeviceAssignInterfaceProperty</a>
+
+
 
  
 

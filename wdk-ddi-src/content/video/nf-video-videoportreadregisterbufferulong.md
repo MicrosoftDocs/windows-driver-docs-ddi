@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ebef1d9f-9559-436c-b425-92ccf3bbf203
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortReadRegisterBufferUlong function [Display Devices], video/VideoPortReadRegisterBufferUlong, display.videoportreadregisterbufferulong, VideoPortReadRegisterBufferUlong, VideoPort_Functions_69ff5729-b386-4527-8bca-adc70e2d467d.xml
+ms.keywords: video/VideoPortReadRegisterBufferUlong, VideoPortReadRegisterBufferUlong function [Display Devices], VideoPort_Functions_69ff5729-b386-4527-8bca-adc70e2d467d.xml, display.videoportreadregisterbufferulong, VideoPortReadRegisterBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortReadRegisterBufferUlong
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Specifies the number of ULONG values to be written to the buffer.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The buffer must be large enough to contain at least the specified number of ULONG values.
@@ -103,13 +106,20 @@ Callers of <b>VideoPortReadRegisterBufferUlong</b> can be running at any IRQL, p
 
 
 
-## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+## -see-also
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
+
+
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

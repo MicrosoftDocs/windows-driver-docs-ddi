@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_FORMAT_INFO
-title: _AVCSTRM_FORMAT_INFO
+title: "_AVCSTRM_FORMAT_INFO"
 author: windows-driver-content
 description: The AVCSTRM_FORMAT_INFO structure is used to describe a data stream.
 old-location: stream\avcstrm_format_info.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: de8e262b-bcb9-4549-94cc-0a73df45bddc
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PAVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO structure pointer [Streaming Media Devices], avcstrm/AVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO structure [Streaming Media Devices], avcstrm/PAVCSTRM_FORMAT_INFO, _AVCSTRM_FORMAT_INFO, avcsref_e41f0bb0-8407-4338-9a68-46c00116ae92.xml, AVCSTRM_FORMAT_INFO, stream.avcstrm_format_info, *PAVCSTRM_FORMAT_INFO
+ms.keywords: "*PAVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO structure [Streaming Media Devices], PAVCSTRM_FORMAT_INFO, _AVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO structure pointer [Streaming Media Devices], avcsref_e41f0bb0-8407-4338-9a68-46c00116ae92.xml, avcstrm/AVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO, stream.avcstrm_format_info, avcstrm/PAVCSTRM_FORMAT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avcstrm.h
-apiname: 
+apiname:
 -	AVCSTRM_FORMAT_INFO
 product: Windows
 targetos: Windows
@@ -121,6 +121,7 @@ Specifies the number of transmitting buffers.
 ### -field OptionFlags
 
 Specifies any option flags. Currently, only one flag is defined:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -140,7 +141,8 @@ Strip the SPH (source packet header) from the 192-byte data packet for MPEG2TS.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AvgTimePerFrame
@@ -160,15 +162,25 @@ Reserved. Do not use. Must be set to 0.
 
 ## -see-also
 
+<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_syt.md">CIP_HDR2_SYT</a>
+
+
+
+<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
+
+
+
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr2_mpegts.md">CIP_HDR2_MPEGTS</a>
 
-<a href="..\avcstrm\ne-avcstrm-_avcstrm_format.md">AVCSTRM_FORMAT</a>
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_syt.md">CIP_HDR2_SYT</a>
 
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
+
+
+<a href="..\avcstrm\ne-avcstrm-_avcstrm_format.md">AVCSTRM_FORMAT</a>
+
+
 
  
 

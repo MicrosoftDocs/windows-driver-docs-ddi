@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 869d3a3f-e2f8-4c23-864b-d40f3e67a9ec
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], ks/PKSPROPERTY_POSITIONS, stream.ksproperty_positions, PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, *PKSPROPERTY_POSITIONS, ks/KSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS
+ms.keywords: ks/KSPROPERTY_POSITIONS, stream.ksproperty_positions, PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS, ks/PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSPROPERTY_POSITIONS
 product: Windows
 targetos: Windows
-req.typenames: *PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS
+req.typenames: KSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS
 ---
 
 # KSPROPERTY_POSITIONS structure
@@ -93,13 +93,17 @@ A structure of type <a href="..\ks\ne-ks-ks_seeking_flags.md">KS_SEEKING_FLAGS</
 ## -remarks
 
 
+
 The KSPROPERTY_POSITIONS structure is used with positioning properties in the KSPROPSETID_MediaSeeking property set. These properties correspond to DirectShow's <b>IMediaSeeking::GetPositions</b> and <b>IMediaSeeking::SetPositions</b>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a>
+
+
 
  
 

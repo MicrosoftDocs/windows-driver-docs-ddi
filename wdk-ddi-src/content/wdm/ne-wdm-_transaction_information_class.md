@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._TRANSACTION_INFORMATION_CLASS
-title: _TRANSACTION_INFORMATION_CLASS
+title: "_TRANSACTION_INFORMATION_CLASS"
 author: windows-driver-content
 description: The TRANSACTION_INFORMATION_CLASS enumeration specifies the type of information that ZwSetInformationTransaction can set and ZwQueryInformationTransaction can retrieve for a transaction manager object.
 old-location: kernel\transaction_information_class.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _TRANSACTION_INFORMATION_CLASS, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, TRANSACTION_INFORMATION_CLASS, wdm/TransactionPropertiesInformation, TransactionSuperiorEnlistmentInformation, wdm/TransactionEnlistmentInformation, TransactionPropertiesInformation, wdm/TransactionSuperiorEnlistmentInformation, wdm/TRANSACTION_INFORMATION_CLASS, TransactionBasicInformation, wdm/TransactionBasicInformation, kernel.transaction_information_class, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionEnlistmentInformation
+ms.keywords: TransactionSuperiorEnlistmentInformation, kernel.transaction_information_class, wdm/TransactionPropertiesInformation, TransactionEnlistmentInformation, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, wdm/TransactionSuperiorEnlistmentInformation, TransactionPropertiesInformation, wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionEnlistmentInformation, TransactionBasicInformation, _TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/TransactionBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	TRANSACTION_INFORMATION_CLASS
 product: Windows
 targetos: Windows
@@ -93,9 +93,13 @@ Information about a transaction manager object is stored in a <b>TRANSACTION_SUP
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+
 
  
 

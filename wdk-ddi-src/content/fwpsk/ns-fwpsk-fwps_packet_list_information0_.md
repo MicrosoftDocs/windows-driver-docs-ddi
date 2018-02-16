@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1fc6ffb1-c6e9-4bca-9d10-541708fe0086
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwps_packet_list_information0, wfp_ref_3_struct_3_fwps_P-Z_f2647b5d-3267-4bc2-889e-8fb3a81f6440.xml, fwpsk/FWPS_PACKET_LIST_INFORMATION0, FWPS_PACKET_LIST_INFORMATION0_, FWPS_PACKET_LIST_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_INFORMATION0
+ms.keywords: FWPS_PACKET_LIST_INFORMATION0, wfp_ref_3_struct_3_fwps_P-Z_f2647b5d-3267-4bc2-889e-8fb3a81f6440.xml, fwpsk/FWPS_PACKET_LIST_INFORMATION0, FWPS_PACKET_LIST_INFORMATION0_, FWPS_PACKET_LIST_INFORMATION0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_packet_list_information0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_PACKET_LIST_INFORMATION0
 product: Windows
 targetos: Windows
@@ -85,23 +85,31 @@ An
 ## -remarks
 
 
+
 A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure to the 
-    <mshelp:link keywords="netvista.fwpsgetpacketlistsecurityinformation0" tabindex="0"><b>
-    FwpsGetPacketListSecurityInformation0</b></mshelp:link> function when querying information associated with a packet
+    <a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
+    FwpsGetPacketListSecurityInformation0</a> function when querying information associated with a packet
     list.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsgetpacketlistsecurityinformation0" tabindex="0"><b>
-   FwpsGetPacketListSecurityInformation0</b></mshelp:link>
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
+   FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
 
-<mshelp:link keywords="netvista.fwps_packet_list_ipsec_information0" tabindex="0"><b>
-   FWPS_PACKET_LIST_IPSEC_INFORMATION0</b></mshelp:link>
 
-<mshelp:link keywords="netvista.fwps_packet_list_fwp_information0" tabindex="0"><b>
-   FWPS_PACKET_LIST_FWP_INFORMATION0</b></mshelp:link>
+
+<a href="..\fwpsk\nf-fwpsk-fwpsgetpacketlistsecurityinformation0.md">
+   FwpsGetPacketListSecurityInformation0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_fwp_information0_.md">
+   FWPS_PACKET_LIST_FWP_INFORMATION0</a>
+
+
 
  
 

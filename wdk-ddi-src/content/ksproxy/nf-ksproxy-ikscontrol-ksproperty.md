@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cc43f704-e1f8-4d62-8cdf-11575ec0b473
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsProperty method [Streaming Media Devices], IKsControl interface, IKsControl, IKsControl::KsProperty, KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method, KsProperty method [Streaming Media Devices], ksproxy_463b7e97-4356-4d2e-b005-6f81219bda64.xml, ksproxy/IKsControl::KsProperty, stream.ikscontrol_ksproperty
+ms.keywords: IKsControl interface [Streaming Media Devices], KsProperty method, KsProperty, ksproxy/IKsControl::KsProperty, IKsControl::KsProperty, IKsControl, stream.ikscontrol_ksproperty, ksproxy_463b7e97-4356-4d2e-b005-6f81219bda64.xml, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices], IKsControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsControl.KsProperty
 product: Windows
 targetos: Windows
@@ -99,22 +99,30 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsPr
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 To determine the buffer size that is required for a specific property request, you can call this method with <i>PropertyData</i> set to <b>NULL</b> and <i>DataLength</i> equal to zero. The method returns HRESULT_FROM_WIN32(ERROR_MORE_DATA), and <i>BytesReturned</i> contains the size of the required buffer.
+
 
 
 
 ## -see-also
 
+<a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a>
+
+
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a>
+
 
  
 

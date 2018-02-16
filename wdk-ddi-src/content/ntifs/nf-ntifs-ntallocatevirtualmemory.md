@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, ntifs/ZwAllocateVirtualMemory, ZwAllocateVirtualMemory, kernel.zwallocatevirtualmemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/NtAllocateVirtualMemory, NtAllocateVirtualMemory
+ms.keywords: ZwAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory, kernel.zwallocatevirtualmemory, NtAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, ntifs/NtAllocateVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwAllocateVirtualMemory
 -	NtAllocateVirtualMemory
 product: Windows
@@ -96,6 +96,7 @@ A pointer to a variable that will receive the actual size, in bytes, of the allo
 ### -param AllocationType [in]
 
 A bitmask containing flags that specify the type of allocation to be performed. The following table describes these flags.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -159,12 +160,14 @@ The specified region should be created at the highest virtual address possible b
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Protect [in]
 
 A bitmask containing page protection flags that specify the protection desired for the committed region of pages. The following table describes these flags.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -272,20 +275,25 @@ This flag is a page protection modifier, valid only when used with one of the pa
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 <b>ZwAllocateVirtualMemory</b> returns either STATUS_SUCCESS or an error status code. Possible error status codes include the following:
 
 
 
+
 ## -remarks
 
 
+
 <b>ZwAllocateVirtualMemory</b> can perform the following operations:
+
 <ul>
 <li>
 Commit a region of pages reserved by a previous call to <b>ZwAllocateVirtualMemory</b>.
@@ -299,9 +307,11 @@ Reserve a region of free pages.
 Reserve and commit a region of free pages.
 
 </li>
-</ul>Kernel-mode drivers can use <b>ZwAllocateVirtualMemory</b> to reserve a range of application-accessible virtual addresses in the specified process and then make additional calls to <b>ZwAllocateVirtualMemory</b> to commit individual pages from the reserved range. This enables a process to reserve a range of its virtual address space without consuming physical storage until it is needed.
+</ul>
+Kernel-mode drivers can use <b>ZwAllocateVirtualMemory</b> to reserve a range of application-accessible virtual addresses in the specified process and then make additional calls to <b>ZwAllocateVirtualMemory</b> to commit individual pages from the reserved range. This enables a process to reserve a range of its virtual address space without consuming physical storage until it is needed.
 
 Each page in the process's virtual address space is in one of the three states described in the following table.
+
 <table>
 <tr>
 <th>State</th>
@@ -337,20 +347,29 @@ Physical storage is allocated for the page, and access is controlled by a protec
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Memory allocated by calling <b>ZwAllocateVirtualMemory</b> must be freed by calling <b>ZwFreeVirtualMemory</b>.
 
 For more information about memory management, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554389">Memory Management for Windows Drivers</a>.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwAllocateVirtualMemory </b>function occurs in user mode, you should use the name "<b>NtAllocateVirtualMemory</b>" instead of "<b>ZwAllocateVirtualMemory</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwAllocateVirtualMemory </b>function occurs in user mode, you should use the name "<b>NtAllocateVirtualMemory</b>" instead of "<b>ZwAllocateVirtualMemory</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-zwfreevirtualmemory.md">ZwFreeVirtualMemory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-<a href="..\ntifs\nf-ntifs-zwfreevirtualmemory.md">ZwFreeVirtualMemory</a>
+
 
  
 

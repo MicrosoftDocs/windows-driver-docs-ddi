@@ -7,8 +7,8 @@ old-location: print\oemfiltergraphics.htm
 old-project: print
 ms.assetid: 1b81de5a-440a-4209-992e-7f79c047245c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.oemfiltergraphics, OEMFilterGraphics, print_obsoletefunctions_fa20bac8-85b3-4ddb-8bf6-1a659f30b3ad.xml, OEMFilterGraphics function [Print Devices], printoem/OEMFilterGraphics
+ms.date: 2/2/2018
+ms.keywords: print_obsoletefunctions_fa20bac8-85b3-4ddb-8bf6-1a659f30b3ad.xml, OEMFilterGraphics, print.oemfiltergraphics, OEMFilterGraphics function [Print Devices], printoem/OEMFilterGraphics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMFilterGraphics
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ BOOL APIENTRY OEMFilterGraphics(
 ### -param pdevobj
 
 
-
 ### -param pBuf [in]
 
 
-
 ### -param dwLen
-
 

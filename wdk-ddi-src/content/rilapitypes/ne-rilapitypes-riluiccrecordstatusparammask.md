@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6db3cdd2-3865-42d7-8b63-3dcacaec5941
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_URS_ALL, RILUICCRECORDSTATUSPARAMMASK, rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, RIL_PARAM_URS_ITEMCOUNT, RIL_PARAM_URS_SIZE, RIL_PARAM_URS_FILELOCKSTATUS, RIL_PARAM_URS_RECORDTYPE, rilapitypes/RILUICCRECORDSTATUSPARAMMASK, rilapitypes/RIL_PARAM_URS_RECORDTYPE, rilapitypes/RIL_PARAM_URS_SIZE, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_URS_ALL, netvista.riluiccrecordstatusparammask
+ms.keywords: rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RILUICCRECORDSTATUSPARAMMASK, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_URS_SIZE, rilapitypes/RIL_PARAM_URS_ALL, RIL_PARAM_URS_ALL, rilapitypes/RIL_PARAM_URS_SIZE, rilapitypes/RIL_PARAM_URS_RECORDTYPE, RIL_PARAM_URS_RECORDTYPE, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, RIL_PARAM_URS_ITEMCOUNT, RILUICCRECORDSTATUSPARAMMASK, RIL_PARAM_URS_FILELOCKSTATUS, netvista.riluiccrecordstatusparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCRECORDSTATUSPARAMMASK
 product: Windows
 targetos: Windows
@@ -76,26 +76,23 @@ enum RILUICCRECORDSTATUSPARAMMASK {
 ### -field RIL_PARAM_URS_RECORDTYPE
 
 
-
 ### -field RIL_PARAM_URS_ITEMCOUNT
-
 
 
 ### -field RIL_PARAM_URS_SIZE
 
 
-
 ### -field RIL_PARAM_URS_FILELOCKSTATUS
-
 
 
 ### -field RIL_PARAM_URS_ALL
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

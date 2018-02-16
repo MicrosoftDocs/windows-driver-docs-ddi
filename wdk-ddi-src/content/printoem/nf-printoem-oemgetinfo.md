@@ -7,8 +7,8 @@ old-location: print\oemgetinfo.htm
 old-project: print
 ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMGetInfo function [Print Devices], print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, print.oemgetinfo, OEMGetInfo, printoem/OEMGetInfo
+ms.date: 2/2/2018
+ms.keywords: OEMGetInfo, OEMGetInfo function [Print Devices], printoem/OEMGetInfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, print.oemgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMGetInfo
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ BOOL APIENTRY OEMGetInfo(
 ### -param dwMode
 
 
-
 ### -param pBuffer [out]
-
 
 
 ### -param cbSize
 
 
-
 ### -param pcbNeeded [out]
-
 

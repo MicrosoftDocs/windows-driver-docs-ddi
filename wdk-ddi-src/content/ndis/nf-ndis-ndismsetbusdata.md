@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0b9153b3-f379-40c4-87f6-1fa380070e65
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismsetbusdata, hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, NdisMSetBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetBusData, NdisMSetBusData
+ms.keywords: ndis/NdisMSetBusData, hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, NdisMSetBusData function [Network Drivers Starting with Windows Vista], NdisMSetBusData, netvista.ndismsetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMSetBusData
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMSetBusData function
@@ -106,23 +106,27 @@ The length, in bytes, of the data to write.
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ## -returns
+
 
 
 <b>NdisMGetBusData</b> returns the number of bytes written.
 
 
 
+
 ## -remarks
 
 
+
 This function replaces the NDIS 5.1 
-    <mshelp:link keywords="netxp.ndiswritepcislotinformation" tabindex="0"><b>
-    NdisWritePciSlotInformation</b></mshelp:link> function.
+    <a href="https://msdn.microsoft.com/6783ad54-3382-456b-a59e-3fc2b1f91cd6">
+    NdisWritePciSlotInformation</a> function.
+
 
 
 
@@ -130,11 +134,17 @@ This function replaces the NDIS 5.1
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
 
  
 

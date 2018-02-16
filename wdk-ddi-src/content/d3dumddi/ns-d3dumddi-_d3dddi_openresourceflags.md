@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_OPENRESOURCEFLAGS
-title: _D3DDDI_OPENRESOURCEFLAGS
+title: "_D3DDDI_OPENRESOURCEFLAGS"
 author: windows-driver-content
 description: The D3DDDI_OPENRESOURCEFLAGS structure identifies the type of resource to open.
 old-location: display\d3dddi_openresourceflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f65fda13-3d05-4e1b-b0c7-01e43a9bf09e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_OPENRESOURCEFLAGS, d3dumddi/D3DDDI_OPENRESOURCEFLAGS, display.d3dddi_openresourceflags, _D3DDDI_OPENRESOURCEFLAGS, D3DDDI_OPENRESOURCEFLAGS structure [Display Devices], D3D_other_Structs_918a41c9-09de-4916-a0d6-fd69f7c431c2.xml
+ms.keywords: D3DDDI_OPENRESOURCEFLAGS structure [Display Devices], display.d3dddi_openresourceflags, d3dumddi/D3DDDI_OPENRESOURCEFLAGS, D3D_other_Structs_918a41c9-09de-4916-a0d6-fd69f7c431c2.xml, _D3DDDI_OPENRESOURCEFLAGS, D3DDDI_OPENRESOURCEFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_OPENRESOURCEFLAGS
 product: Windows
 targetos: Windows
@@ -101,6 +101,8 @@ A member in the union that is contained in D3DDDI_OPENRESOURCEFLAGS that can hol
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_openresource.md">D3DDDIARG_OPENRESOURCE</a>
+
+
 
  
 

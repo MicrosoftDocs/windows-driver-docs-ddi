@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_PNP
-title: _SRBEX_DATA_PNP
+title: "_SRBEX_DATA_PNP"
 author: windows-driver-content
 description: The SRBEX_DATA_PNP structure contains the request data for an extended plug and play (PNP) SRB.
 old-location: storage\srbex_data_pnp.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.srbex_data_pnp, StorStopDevice, PSRBEX_DATA_PNP, _SRBEX_DATA_PNP, StorRemoveDevice, storport/SRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], SRBEX_DATA_PNP, StorSupriseRemoval, *PSRBEX_DATA_PNP, storport/PSRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorQueryResourceRequirements, StorQueryCapabilities, StorStartDevice, StorFilterResourceRequirements
+ms.keywords: StorQueryResourceRequirements, storport/SRBEX_DATA_PNP, SRBEX_DATA_PNP, StorQueryCapabilities, StorSupriseRemoval, SRBEX_DATA_PNP structure [Storage Devices], StorRemoveDevice, *PSRBEX_DATA_PNP, StorStopDevice, _SRBEX_DATA_PNP, storport/PSRBEX_DATA_PNP, StorStartDevice, PSRBEX_DATA_PNP, storage.srbex_data_pnp, StorFilterResourceRequirements, PSRBEX_DATA_PNP structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	SRBEX_DATA_PNP
 product: Windows
 targetos: Windows
-req.typenames: *PSRBEX_DATA_PNP, SRBEX_DATA_PNP
+req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
 req.product: Windows 10 or later.
 ---
 
@@ -97,6 +97,7 @@ This member is reserved. Set to 0.
 ### -field PnPAction
 
 The plug and play action to perform. This member can have one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -179,7 +180,8 @@ Surprise Removal of the device. This value is available starting with Windows 7
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SrbPnPFlags
@@ -195,6 +197,8 @@ This member is reserved. Set to 0.
 ## -see-also
 
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 

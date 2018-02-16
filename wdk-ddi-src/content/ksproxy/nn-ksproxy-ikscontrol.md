@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Ksproxy.lib
 -	Ksproxy.dll
-apiname: 
+apiname:
 -	IKsControl
 product: Windows
 targetos: Windows
@@ -100,13 +100,17 @@ Sets a property or retrieves property information.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsControl.
+
 
 
 
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl (AVStream COM Interface)</a>
+
+
 
  
 

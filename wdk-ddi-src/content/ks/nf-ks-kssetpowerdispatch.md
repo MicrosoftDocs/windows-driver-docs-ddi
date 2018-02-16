@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 77ceaebe-ded1-4fbb-bc10-593ff62fcbe2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetPowerDispatch routine [Streaming Media Devices], ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, ks/KsSetPowerDispatch, stream.kssetpowerdispatch, KsSetPowerDispatch
+ms.keywords: ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, KsSetPowerDispatch, ks/KsSetPowerDispatch, stream.kssetpowerdispatch, KsSetPowerDispatch routine [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsSetPowerDispatch
 product: Windows
 targetos: Windows
@@ -90,13 +90,17 @@ Optionally contains the context parameter to pass to the power dispatch function
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567164">KStrContextDispatch</a>
+
+
 
  
 

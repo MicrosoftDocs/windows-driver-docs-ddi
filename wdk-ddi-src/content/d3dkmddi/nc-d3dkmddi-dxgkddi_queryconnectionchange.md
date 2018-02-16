@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKDDI_QUERYCONNECTIONCHANGE
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryconnectionchange.m
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return value</th>
@@ -108,13 +109,17 @@ Returned if the routine succeeds, but the changes have already been reported to 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This function is always called at PASSIVE level so the supporting code should be made pageable.
+
 
 

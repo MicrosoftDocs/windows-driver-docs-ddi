@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4d72de5-4e42-4229-b33e-8a0391f2f6cf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE, rilapitypes/RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastate_2
+ms.keywords: RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastate_2, *LPRILCALLVIDEOMEDIASTATE, rilapitypes/RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLVIDEOMEDIASTATE
 product: Windows
 targetos: Windows
@@ -74,15 +74,11 @@ typedef struct _RILCALLVIDEOMEDIASTATE {
 ### -field dwParams
 
 
-
 ### -field dwPeerCapabilities
-
 
 
 ### -field dwFlags
 
 
-
 ### -field dwContextID
-
 

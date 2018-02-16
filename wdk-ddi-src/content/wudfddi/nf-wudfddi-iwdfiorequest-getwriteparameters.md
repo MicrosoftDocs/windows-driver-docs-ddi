@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0627b278-2fd5-4185-8ec9-8b306c6d85a8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest, wdf.iwdfiorequest_getwriteparameters, GetWriteParameters method, GetWriteParameters method, IWDFIoRequest interface, GetWriteParameters, IWDFIoRequest::GetWriteParameters, umdf.iwdfiorequest_getwriteparameters, IWDFIoRequest interface, GetWriteParameters method, UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, wudfddi/IWDFIoRequest::GetWriteParameters
+ms.keywords: GetWriteParameters method, IWDFIoRequest::GetWriteParameters, UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, wudfddi/IWDFIoRequest::GetWriteParameters, umdf.iwdfiorequest_getwriteparameters, IWDFIoRequest, wdf.iwdfiorequest_getwriteparameters, IWDFIoRequest interface, GetWriteParameters method, GetWriteParameters method, IWDFIoRequest interface, GetWriteParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.GetWriteParameters
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -103,11 +103,14 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A call to <b>GetWriteParameters</b> fails if the request type is not a write type.
@@ -116,11 +119,16 @@ For devices that support addressing (for example, a disk device), the value that
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

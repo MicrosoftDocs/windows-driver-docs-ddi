@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DESTROYOVERLAY
-title: _D3DDDICB_DESTROYOVERLAY
+title: "_D3DDDICB_DESTROYOVERLAY"
 author: windows-driver-content
 description: The D3DDDICB_DESTROYOVERLAY structure contains the handle to the overlay to destroy.
 old-location: display\d3dddicb_destroyoverlay.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a7b57177-17d2-42d7-ac4a-3cbd74803d50
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddicb_destroyoverlay, D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY structure [Display Devices], d3dumddi/D3DDDICB_DESTROYOVERLAY, _D3DDDICB_DESTROYOVERLAY, D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml
+ms.keywords: d3dumddi/D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY, D3DDDICB_DESTROYOVERLAY structure [Display Devices], display.d3dddicb_destroyoverlay, D3D_param_Structs_7d32095a-c3ac-427a-8719-1125a85b9495.xml, _D3DDDICB_DESTROYOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_DESTROYOVERLAY
 product: Windows
 targetos: Windows
@@ -76,7 +76,11 @@ typedef struct _D3DDDICB_DESTROYOVERLAY {
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlaycb.md">pfnDestroyOverlayCb</a>
+
+
 
  
 

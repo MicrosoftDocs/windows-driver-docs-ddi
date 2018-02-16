@@ -7,7 +7,7 @@ old-location: print\ipartbase.htm
 old-project: print
 ms.assetid: 7523990f-04de-4182-99d9-fba100bebb84
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.ipartbase, IPartBase interface [Print Devices], IPartBase interface [Print Devices], described, IPartBase, filterpipeline/IPartBase, filterpipeline_aaad898e-c110-439c-9983-fedbab82c06d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartBase
 product: Windows
 targetos: Windows

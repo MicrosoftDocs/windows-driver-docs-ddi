@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3E7EE060-4B1F-4B28-A617-5B1393CEE936
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelSizeofPacket function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSizeofPacket, VmbChannelSizeofPacket, netvista.vmbchannelsizeofpacket
+ms.keywords: VmbChannelSizeofPacket, VmbChannelSizeofPacket function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsizeofpacket, vmbuskernelmodeclientlibapi/VmbChannelSizeofPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelSizeofPacket
 product: Windows
 targetos: Windows
@@ -80,13 +80,17 @@ A handle for a channel.
 ## -returns
 
 
+
 The necessary buffer size, in bytes.
+
 
 
 
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize.md">VmbPacketInitialize</a>
+
+
 
  
 

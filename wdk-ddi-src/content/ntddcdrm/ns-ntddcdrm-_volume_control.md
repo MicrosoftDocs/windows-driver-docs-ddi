@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._VOLUME_CONTROL
-title: _VOLUME_CONTROL
+title: "_VOLUME_CONTROL"
 author: windows-driver-content
 description: The VOLUME_CONTROL structure is used in conjunction with the IOCTL_CDROM_GET_VOLUME request to retrieve volume values for up to four audio ports.
 old-location: storage\volume_control.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47512360-60fe-43f2-8052-58ca78e36d86
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.volume_control, PVOLUME_CONTROL structure pointer [Storage Devices], structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml, VOLUME_CONTROL structure [Storage Devices], VOLUME_CONTROL, _VOLUME_CONTROL, *PVOLUME_CONTROL, ntddcdrm/VOLUME_CONTROL, PVOLUME_CONTROL, ntddcdrm/PVOLUME_CONTROL
+ms.keywords: ntddcdrm/VOLUME_CONTROL, _VOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices], structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml, storage.volume_control, PVOLUME_CONTROL, ntddcdrm/PVOLUME_CONTROL, VOLUME_CONTROL, *PVOLUME_CONTROL, VOLUME_CONTROL structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	VOLUME_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: *PVOLUME_CONTROL, VOLUME_CONTROL
+req.typenames: "*PVOLUME_CONTROL, VOLUME_CONTROL"
 ---
 
 # _VOLUME_CONTROL structure
@@ -75,6 +75,8 @@ Pointer to an array of volume values, one for each of the ports, with a maximum 
 ## -see-also
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_volume.md">IOCTL_CDROM_GET_VOLUME</a>
+
+
 
  
 

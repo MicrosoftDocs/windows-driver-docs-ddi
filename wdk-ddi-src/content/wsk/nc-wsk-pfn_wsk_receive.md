@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WskReceive
 product: Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
+req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -97,24 +97,15 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 
 
 
-The WSK_FLAG_WAITALL and WSK_FLAG_DRAIN flags are mutually exclusive. A WSK application should not
-     specify both of these flags at the same time.
 
 
-### -param Irp [in, out]
-
-A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
-     asynchronously. For more information about using IRPs with WSK functions, see 
-     <mshelp:link keywords="netvista.using_irps_with_winsock_kernel_functions" tabindex="0">Using IRPs with Winsock
-     Kernel Functions</mshelp:link>.
-
-
-##### - Flags.WSK_FLAG_WAITALL
+#### WSK_FLAG_WAITALL
 
 Wait until the data buffer is completely filled. If this flag is specified, the IRP specified in
        the 
        <i>Irp</i> parameter will not be completed until one of the following events occurs:
        
+
 <ul>
 <li>
 The data buffer that is described by the WSK_BUF structure that is pointed to by the 
@@ -134,16 +125,19 @@ The connection is abortively disconnected by either the WSK application or by th
 The specified IRP is canceled.
 
 </li>
-</ul>This flag is supported by the Microsoft TCP/IP transport protocol. This flag might not be supported
+</ul>
+This flag is supported by the Microsoft TCP/IP transport protocol. This flag might not be supported
        by other transport protocols.
 
 
-##### - Flags.WSK_FLAG_DRAIN
+
+#### WSK_FLAG_DRAIN
 
 Wait until the socket is disconnected, discarding any data that is received on the socket. If
        this flag is specified, the specified IRP will not be completed until one of the following events
        occurs:
        
+
 <ul>
 <li>
 The connection is gracefully disconnected by the remote sender.
@@ -158,7 +152,8 @@ The connection is abortively disconnected by either the WSK application or by th
 The specified IRP is canceled.
 
 </li>
-</ul>Any received data is discarded by the WSK subsystem. No received data will be copied into the data
+</ul>
+Any received data is discarded by the WSK subsystem. No received data will be copied into the data
        buffer. The 
        <i>Buffer</i> parameter is still required when this flag is specified, but the length of the buffer
        that is described by the WSK_BUF structure must be zero.
@@ -166,11 +161,24 @@ The specified IRP is canceled.
 This flag is supported by the Microsoft TCP/IP transport protocol. This flag might not be supported
        by other transport protocols.
 
+The WSK_FLAG_WAITALL and WSK_FLAG_DRAIN flags are mutually exclusive. A WSK application should not
+     specify both of these flags at the same time.
+
+
+### -param Irp [in, out]
+
+A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the receive operation
+     asynchronously. For more information about using IRPs with WSK functions, see 
+     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     Kernel Functions</a>.
+
 
 ## -returns
 
 
+
 <b>WskReceive</b> returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -241,17 +249,21 @@ An error occurred. The IRP will be completed with failure status.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A WSK application can call the 
     <b>WskReceive</b> function only on a connection-oriented or stream socket that has been previously connected to a
     remote transport address. A connection-oriented socket is connected to a remote transport address by one
     of the following methods:
+
 <ul>
 <li>
 The WSK application connects the socket by calling the 
@@ -268,7 +280,8 @@ The WSK subsystem connects the socket when the WSK application accepts an incomi
       request on a listening socket.
 
 </li>
-</ul>If a WSK application's 
+</ul>
+If a WSK application's 
     <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a> event callback function is
     enabled on a connection-oriented socket and the application also has a pending call to the 
     <b>WskReceive</b> function on the same connection-oriented socket, then, when data arrives, the pending
@@ -294,6 +307,7 @@ A WSK application can call the
     <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that is pointed to by the 
     <i>Buffer</i> parameter. Specifying a zero length in this member is useful in the following
     situations:
+
 <ul>
 <li>
 When re-enabling the 
@@ -306,29 +320,45 @@ When specifying the WSK_FLAG_DRAIN flag to discard any additional data that is r
       socket
 
 </li>
-</ul>If the 
+</ul>
+If the 
     <b>WskReceive</b> function returns STATUS_PENDING, the MDL chain that is described in the WSK_BUF
     structure that is pointed to by the 
     <i>Buffer</i> parameter must remain locked in memory until the IRP is completed.
 
 
 
+
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
-<mshelp:link keywords="netvista.wsk_provider_connection_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_CONNECTION_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
+
+
 
 <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
+
+
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+
+
 
  
 

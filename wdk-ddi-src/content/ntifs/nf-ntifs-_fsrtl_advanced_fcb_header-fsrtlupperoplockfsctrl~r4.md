@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlupperoplockfsctrl.htm
 old-project: ifsk
 ms.assetid: 1E3C48A0-A161-481C-BF69-69D3FA7B941F
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlUpperOplockFsctrl routine [Installable File System Drivers], ifsk.fsrtlupperoplockfsctrl, OPLOCK_LEVEL_CACHE_READ, FsRtlUpperOplockFsctrl, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_WRITE, ntifs/FsRtlUpperOplockFsctrl
+ms.date: 2/7/2018
+ms.keywords: FsRtlUpperOplockFsctrl, ntifs/FsRtlUpperOplockFsctrl, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_WRITE, FsRtlUpperOplockFsctrl routine [Installable File System Drivers], ifsk.fsrtlupperoplockfsctrl, OPLOCK_LEVEL_CACHE_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: IRQL <= APC_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlUpperOplockFsctrl
 product: Windows
 targetos: Windows
@@ -89,6 +89,7 @@ Number of user handles for the file, if an exclusive oplock is being requested. 
 ### -param LowerOplockState [in]
 
 The value the lower oplock level held by the upper file system. This a bitwise OR combination of the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -124,7 +125,8 @@ Indicates an oplock Handle (H) type.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Flags [in]
@@ -134,7 +136,8 @@ A bitmask for the associated oplock operations. A file system or filter driver s
 
 
 
-##### - Flags.OPLOCK_FSCTRL_FLAG_ALL_KEYS_MATCH (0x00000001)
+
+#### OPLOCK_FSCTRL_FLAG_ALL_KEYS_MATCH (0x00000001)
 
 Specifies that the file system verified that all oplock keys on any currently open handles match. By specifying this flag, you allow the oplock package to grant an oplock of level RW or RWH when more than one open handle to the file exists. For more information about oplock types, see the <a href="https://msdn.microsoft.com/e9a45ae0-0ec8-4d6c-8486-ae88bdaa1f8c">Oplock Semantics Overview</a> page. 
 
@@ -142,7 +145,9 @@ Specifies that the file system verified that all oplock keys on any currently op
 ## -returns
 
 
+
 <b>FsRtlUpperOplockFsctrl</b> returns one of the following NTSTATUS values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -215,7 +220,9 @@ An oplock acknowledgement
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -223,11 +230,15 @@ An oplock acknowledgement
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex~r3.md">FsRtlOplockFsctrlEx</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckupperoplock~r5.md">FsRtlCheckUpperOplock</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlUpperOplockFsctrl routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlUpperOplockFsctrl routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

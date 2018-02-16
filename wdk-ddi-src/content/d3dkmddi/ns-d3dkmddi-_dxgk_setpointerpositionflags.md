@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SETPOINTERPOSITIONFLAGS
-title: _DXGK_SETPOINTERPOSITIONFLAGS
+title: "_DXGK_SETPOINTERPOSITIONFLAGS"
 author: windows-driver-content
 description: The DXGK_SETPOINTERPOSITIONFLAGS structure identifies, in bit-field flags, information about a mouse pointer.
 old-location: display\dxgk_setpointerpositionflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c834080a-1a0a-4327-b80b-6e5eb3728605
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS, display.dxgk_setpointerpositionflags, DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS
+ms.keywords: DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, _DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS, display.dxgk_setpointerpositionflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_SETPOINTERPOSITIONFLAGS
 product: Windows
 targetos: Windows
@@ -103,6 +103,8 @@ Supported starting with Windows 8.
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a>
+
+
 
  
 

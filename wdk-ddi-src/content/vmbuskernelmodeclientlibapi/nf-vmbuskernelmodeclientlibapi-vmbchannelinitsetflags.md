@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12525F3C-12D6-477E-8C7D-3DE9AAA044AE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetFlags, netvista.vmbchannelinitsetflags, VmbChannelInitSetFlags function [Network Drivers Starting with Windows Vista], VmbChannelInitSetFlags
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetFlags, VmbChannelInitSetFlags, netvista.vmbchannelinitsetflags, VmbChannelInitSetFlags function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelInitSetFlags
 product: Windows
 targetos: Windows
@@ -86,7 +86,9 @@ A collection of bit flags to set.
 ## -returns
 
 
+
 <b>VmbChannelInitSetFlags</b> can return one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -114,6 +116,8 @@ The value in <i>Flags</i> has invalid bits.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

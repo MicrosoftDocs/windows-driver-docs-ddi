@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, StreamClassCallAtNewPriority
+ms.keywords: strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, StreamClassCallAtNewPriority, strmini/StreamClassCallAtNewPriority, stream.streamclasscallatnewpriority, StreamClassCallAtNewPriority routine [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Stream.lib
 req.dll: 
-req.irql: (See Parameters section)
-topictype: 
+req.irql: "(See Parameters section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+apiname:
 -	StreamClassCallAtNewPriority
 product: Windows
 targetos: Windows
@@ -86,6 +86,7 @@ Pointer to the minidriver's device extension. The minidriver specifies the size 
 ### -param Priority [in]
 
 Specifies one of the values listed in the following table.
+
 <table>
 <tr>
 <th>Priority</th>
@@ -131,7 +132,8 @@ Used to allow a thread called at low priority to return to high priority so that
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param PriorityRoutine [in]
@@ -147,6 +149,8 @@ Specifies the parameter to be passed to the <i>PriorityRoutine</i>.
 ## -returns
 
 
+
 None
+
 
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0ff15743-29df-44dc-a18b-ba8f7e49058e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], SetSystemErrorControl method, IDebugControl3::SetSystemErrorControl, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, debugger.setsystemerrorcontrol, SetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], SetSystemErrorControl method, dbgeng/IDebugControl3::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, IDebugControl::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl2::SetSystemErrorControl, SetSystemErrorControl, IDebugControl interface [Windows Debugging], SetSystemErrorControl method, dbgeng/IDebugControl::SetSystemErrorControl, IDebugControl3, SetSystemErrorControl method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::SetSystemErrorControl
+ms.keywords: IDebugControl3::SetSystemErrorControl, IDebugControl interface [Windows Debugging], SetSystemErrorControl method, dbgeng/IDebugControl3::SetSystemErrorControl, dbgeng/IDebugControl::SetSystemErrorControl, IDebugControl3 interface [Windows Debugging], SetSystemErrorControl method, SetSystemErrorControl, IDebugControl3, IDebugControl2::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], SetSystemErrorControl method, SetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, SetSystemErrorControl method [Windows Debugging], dbgeng/IDebugControl2::SetSystemErrorControl, IDebugControl2, IDebugControl, SetSystemErrorControl method [Windows Debugging], IDebugControl interface, IDebugControl::SetSystemErrorControl, debugger.setsystemerrorcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.SetSystemErrorControl
 -	IDebugControl2.SetSystemErrorControl
 -	IDebugControl3.SetSystemErrorControl
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetSystemErrorControl method
@@ -83,7 +83,9 @@ Specifies the level at which system errors break into the debugger.  If the leve
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,11 +102,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The level of a system error can take one of the following three values, listed from lowest to highest: SLE_ERROR, SLE_MINORERROR, and SLE_WARNING.  These values are defined in Winuser.h.
@@ -113,17 +118,28 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550768">IDebugEventCallbacks::SystemError</a>
+
+
 
  
 

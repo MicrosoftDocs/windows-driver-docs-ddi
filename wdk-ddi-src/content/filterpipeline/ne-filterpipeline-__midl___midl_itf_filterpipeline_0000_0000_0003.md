@@ -1,14 +1,14 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0003
-title: __MIDL___MIDL_itf_filterpipeline_0000_0000_0003
+title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0003"
 author: windows-driver-content
 description: The EXpsJobConsumption enumeration describes job consumption updates.
 old-location: print\expsjobconsumption.htm
 old-project: print
 ms.assetid: 9fab1cba-fe67-4654-ae33-3de41f0427f7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: XpsJob_FixedPageAdded, XpsJob_FixedDocumentAdded, __MIDL___MIDL_itf_filterpipeline_0000_0000_0003, XpsJob_DocumentSequenceAdded, EXpsJobConsumption enumeration [Print Devices], filterpipeline/XpsJob_DocumentSequenceAdded, filterpipeline/XpsJob_FixedPageAdded, filterpipeline/EXpsJobConsumption, EXpsJobConsumption, print.expsjobconsumption, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, filterpipeline/XpsJob_FixedDocumentAdded
+ms.date: 2/2/2018
+ms.keywords: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0003, XpsJob_FixedPageAdded, filterpipeline/XpsJob_FixedDocumentAdded, print.expsjobconsumption, XpsJob_DocumentSequenceAdded, filterpipeline/EXpsJobConsumption, XpsJob_FixedDocumentAdded, filterpipeline/XpsJob_FixedPageAdded, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, EXpsJobConsumption enumeration [Print Devices], EXpsJobConsumption, filterpipeline/XpsJob_DocumentSequenceAdded"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	EXpsJobConsumption
 product: Windows
 targetos: Windows
@@ -87,10 +87,12 @@ A fixed page is added to the job.
 ## -remarks
 
 
+
 A rendering filter uses the <a href="..\filterpipeline\nn-filterpipeline-iprintpipelineprogressreport.md">IPrintPipelineProgressReport</a> interface to send updates to the pipeline. 
 
 Rendering filters convert XPS to the page description language (PDL). 
 
 A pipeline does not necessarily need one of the EXpsJobConsumption enumeration values.
+
 
 

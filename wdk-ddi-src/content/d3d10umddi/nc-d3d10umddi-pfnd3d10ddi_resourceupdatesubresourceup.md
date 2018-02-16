@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	DefaultConstantBufferUpdateSubresourceUP
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP callback
@@ -79,9 +79,7 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HRESOURCE
-
 
 
 ### -param UINT
@@ -91,13 +89,9 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
 
 
 
+
+
 ### -param *
-
-
-
-#### - DstSubresource [in]
-
- An index that indicates the destination subresource to copy to. 
 
 
 #### - DepthPitch [in]
@@ -105,9 +99,14 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
  The offset, in bytes, to move to the next depth slice of source data.
 
 
-#### - pDstBox [in, optional]
+#### - DstSubresource [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <b>pDstBox</b> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
+ An index that indicates the destination subresource to copy to. 
+
+
+#### - RowPitch [in]
+
+ The offset, in bytes, to move to the next row of source data. 
 
 
 #### - hDevice [in]
@@ -120,17 +119,18 @@ VOID APIENTRY DefaultConstantBufferUpdateSubresourceUP(
  A handle to the destination resource to copy to.
 
 
+#### - pDstBox [in, optional]
+
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <b>pDstBox</b> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
+
+
 #### - pSysMemUP [in]
 
  A pointer to the beginning address of the source data that <i>DefaultConstantBufferUpdateSubresourceUP</i> uses to update the destination subresouce. 
 
 
-#### - RowPitch [in]
-
- The offset, in bytes, to move to the next row of source data. 
-
-
 ## -returns
+
 
 
 None.
@@ -139,7 +139,9 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 For more information about <i>DefaultConstantBufferUpdateSubresourceUP</i>, see the Remarks section of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceupdatesubresourceup.md">ResourceUpdateSubresourceUP</a> function.
@@ -148,15 +150,24 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_box.md">D3D10_DDI_BOX</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourceupdatesubresourceup.md">ResourceUpdateSubresourceUP</a>
+
+
 
  
 

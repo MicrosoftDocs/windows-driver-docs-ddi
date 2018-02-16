@@ -1,14 +1,14 @@
 ---
 UID: NS:prntfont._UNI_GLYPHSETDATA
-title: _UNI_GLYPHSETDATA
+title: "_UNI_GLYPHSETDATA"
 author: windows-driver-content
 description: The UNI_GLYPHSEDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\uni_glyphsetdata.htm
 old-project: print
 ms.assetid: a2c98783-c463-435e-9d78-c10686f1c75c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prntfont/PUNI_GLYPHSETDATA, PUNI_GLYPHSETDATA structure pointer [Print Devices], UNI_GLYPHSETDATA, *PUNI_GLYPHSETDATA, print.uni_glyphsetdata, PUNI_GLYPHSETDATA, print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, prntfont/UNI_GLYPHSETDATA, _UNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: print_unidrv-pscript_fonts_51c5f97c-3b3c-4990-8dcb-9c7bf387b03f.xml, UNI_GLYPHSETDATA, print.uni_glyphsetdata, prntfont/UNI_GLYPHSETDATA, prntfont/PUNI_GLYPHSETDATA, UNI_GLYPHSETDATA structure [Print Devices], *PUNI_GLYPHSETDATA, _UNI_GLYPHSETDATA, PUNI_GLYPHSETDATA structure pointer [Print Devices], PUNI_GLYPHSETDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	UNI_GLYPHSETDATA
 product: Windows
 targetos: Windows
-req.typenames: UNI_GLYPHSETDATA, *PUNI_GLYPHSETDATA
+req.typenames: "*PUNI_GLYPHSETDATA, UNI_GLYPHSETDATA"
 req.product: Windows 10 or later.
 ---
 
@@ -136,21 +136,29 @@ Reserved for system use.
 ## -remarks
 
 
+
 A UNI_GLYPHSETDATA structure must be the first structure contained in a .gtt file.
+
 
 
 
 ## -see-also
 
+<a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>
+
+
+
 <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
-<a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>
+
 
 <a href="..\prntfont\ns-prntfont-_glyphrun.md">GLYPHRUN</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNI_GLYPHSETDATA structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNI_GLYPHSETDATA structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

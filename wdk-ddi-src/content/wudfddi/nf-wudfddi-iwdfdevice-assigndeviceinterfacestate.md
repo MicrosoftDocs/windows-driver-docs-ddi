@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 466af310-f2a7-4bd7-b927-df644e2e9c24
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice_assigndeviceinterfacestate, IWDFDevice::AssignDeviceInterfaceState, AssignDeviceInterfaceState method, IWDFDevice interface, IWDFDevice, umdf.iwdfdevice_assigndeviceinterfacestate, IWDFDevice interface, AssignDeviceInterfaceState method, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, AssignDeviceInterfaceState, wudfddi/IWDFDevice::AssignDeviceInterfaceState, AssignDeviceInterfaceState method
+ms.keywords: AssignDeviceInterfaceState method, IWDFDevice interface, umdf.iwdfdevice_assigndeviceinterfacestate, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, IWDFDevice::AssignDeviceInterfaceState, AssignDeviceInterfaceState, AssignDeviceInterfaceState method, wdf.iwdfdevice_assigndeviceinterfacestate, IWDFDevice interface, AssignDeviceInterfaceState method, wudfddi/IWDFDevice::AssignDeviceInterfaceState, IWDFDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice.AssignDeviceInterfaceState
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -90,11 +90,14 @@ A BOOL value that specifies whether the device interface instance should be enab
 ## -returns
 
 
+
 <b>AssignDeviceInterfaceState</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 If <a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a> succeeds, the framework automatically enables and disables the interface based on the device's PnP state.
@@ -106,12 +109,23 @@ Use the <b>AssignDeviceInterfaceState</b> method to disable and re-enable a devi
 For more information about device interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF Drivers</a>.
 
 
+#### Examples
+
+For a code example of how to use the <b>AssignDeviceInterfaceState</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
 
  
 

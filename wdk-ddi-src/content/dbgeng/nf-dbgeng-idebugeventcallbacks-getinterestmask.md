@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 165c83cb-c0be-4a09-9220-a5208f660308
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetInterestMask, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_getinterestmask, IDebugEventCallbacks, ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml, IDebugEventCallbacks::GetInterestMask, dbgeng/IDebugEventCallbacks::GetInterestMask, GetInterestMask method [Windows Debugging]
+ms.keywords: IDebugEventCallbacks::GetInterestMask, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml, GetInterestMask method [Windows Debugging], IDebugEventCallbacks, debugger.idebugeventcallbacks_getinterestmask, GetInterestMask, dbgeng/IDebugEventCallbacks::GetInterestMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.GetInterestMask
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacks::GetInterestMask method
@@ -75,13 +75,17 @@ Receives a bitmask that indicates which events the object is interested in.  The
 ## -returns
 
 
+
 The return value S_OK indicates the method was successful.  All other return values indicate an error occurred,  in which case the <b>SetEventCallbacks</b> call will fail and the callback object will not be used nor will it receive events.
+
 
 
 
 ## -remarks
 
 
+
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
+
 
 

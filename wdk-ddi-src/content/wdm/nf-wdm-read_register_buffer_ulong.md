@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a80d361e-81d3-483c-8ddb-d5e5a69c8ba4
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.read_register_buffer_ulong, READ_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], wdm/READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG, k103_8349c675-ef3b-441a-b11c-730cc43ee09a.xml
+ms.keywords: wdm/READ_REGISTER_BUFFER_ULONG, kernel.read_register_buffer_ulong, READ_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], READ_REGISTER_BUFFER_ULONG, k103_8349c675-ef3b-441a-b11c-730cc43ee09a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	READ_REGISTER_BUFFER_ULONG
 product: Windows
 targetos: Windows
@@ -88,15 +88,19 @@ Specifies the number of ULONG values to be read into the buffer.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The size of the buffer must be large enough to contain at least the specified number of ULONG values.
 
 Callers of <b>READ_REGISTER_BUFFER_ULONG</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
+
 
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: cad04f59-5312-4241-9524-aeabc27df92d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksallocatedefaultclockex, ks/KsAllocateDefaultClockEx, KsAllocateDefaultClockEx function [Streaming Media Devices], KsAllocateDefaultClockEx, ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml
+ms.keywords: KsAllocateDefaultClockEx function [Streaming Media Devices], ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml, stream.ksallocatedefaultclockex, ks/KsAllocateDefaultClockEx, KsAllocateDefaultClockEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAllocateDefaultClockEx
 product: Windows
 targetos: Windows
@@ -112,28 +112,42 @@ Reserved, set to zero.
 ## -returns
 
 
+
 The <b>KsAllocateDefaultClockEx</b> function returns STATUS_SUCCESS if successful, or a memory error if unsuccessful.
+
 
 
 
 ## -remarks
 
 
+
 The internal DefaultClock.ReferenceCount element is initialized to one by the <a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a> function. The element is incremented and decremented as each notification DPC is queued and completed. When the structure is to be freed, the element is used to determine if the owner of the clock should free the structure or if a pending DPC should free it asynchronously. 
+
 
 
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
+
+
+
 <a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
 
-<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
+
+
 
  
 

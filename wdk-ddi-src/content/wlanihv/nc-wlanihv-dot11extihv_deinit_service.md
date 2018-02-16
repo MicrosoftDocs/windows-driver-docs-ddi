@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtIhvDeinitService
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -82,25 +82,30 @@ VOID APIENTRY Dot11ExtIhvDeinitService(
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 When the 
     <i>Dot11ExtIhvDeinitService</i> function is called, the IHV Extensions DLL must be brought to a state that
     it can safely be unloaded by the operating system. The DLL must follow these guidelines when this
     function is called.
+
 <ul>
 <li>
 The operating system calls the 
-      <mshelp:link keywords="netvista.dot11extihvdeinitadapter" tabindex="0"><i>
-      Dot11ExtIhvDeinitAdapter</i></mshelp:link> function prior to calling the 
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">
+      Dot11ExtIhvDeinitAdapter</a> function prior to calling the 
       <i>Dot11ExtIhvDeinitService</i> function. As a result, the 
       <i>Dot11ExtIhvDeinitService</i> function should not initiate any operations on the WLAN adapter.
       Instead, 
@@ -123,13 +128,20 @@ The DLL must free any allocated resources for the DLL itself. In particular, all
 </ul>
 
 
+
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_allocate_buffer.md">Dot11ExtAllocateBuffer</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
+
+
 
  
 

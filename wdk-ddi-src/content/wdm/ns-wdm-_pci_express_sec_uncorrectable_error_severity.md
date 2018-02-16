@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
-title: _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
+title: "_PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY"
 author: windows-driver-content
 description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Express (PCIe) secondary uncorrectable error severity register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_sec_uncorrectable_error_severity.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: b00aeced-037b-4bc5-97b7-96501262700f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], PCI.pci_express_sec_uncorrectable_error_severity, _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_94eb07f5-9b90-414b-a331-075c61f507a4.xml, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
+ms.keywords: PCI.pci_express_sec_uncorrectable_error_severity, wdm/PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union [Buses], pci_struct_94eb07f5-9b90-414b-a331-075c61f507a4.xml, PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, wdm/PPCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY, _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY
 product: Windows
 targetos: Windows
@@ -92,77 +92,77 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY {
 
 ### -field DUMMYSTRUCTNAME.TargetAbortOnSplitCompletion
 
- 
+A single bit that indicates that a reported target abort on split completion is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.MasterAbortOnSplitCompletion
 
- 
+A single bit that indicates that a reported master abort on split completion is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.ReceivedTargetAbort
 
- 
+A single bit that indicates that a reported target abort is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.ReceivedMasterAbort
 
- 
+A single bit that indicates that a reported master abort is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.RsvdZ
 
- 
+Reserved for system use.
 
 
 ### -field DUMMYSTRUCTNAME.UnexpectedSplitCompletionError
 
- 
+A single bit that indicates that a reported unexpected split completion error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableSplitCompletion
 
- 
+A single bit that indicates that a reported uncorrectable split completion message data error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableDataError
 
- 
+A single bit that indicates that a reported uncorrectable data error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableAttributeError
 
- 
+A single bit that indicates that a reported uncorrectable attribute error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.UncorrectableAddressError
 
- 
+A single bit that indicates that a reported uncorrectable address error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.DelayedTransactionDiscardTimerExpired
 
- 
+A single bit that indicates that an expiration of the delayed transaction discard timer is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.PERRAsserted
 
- 
+A single bit that indicates that a reported PERR# assertion is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.SERRAsserted
 
- 
+A single bit that indicates that a reported SERR# assertion is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.InternalBridgeError
 
- 
+A single bit that indicates that a reported internal bridge error is a fatal error.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
- 
+Reserved for system use.
 
 
 ### -field AsULONG
@@ -170,82 +170,8 @@ typedef union _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY {
 A ULONG representation of the contents of the PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - UnexpectedSplitCompletionError
-
-A single bit that indicates that a reported unexpected split completion error is a fatal error.
-
-
-#### - DelayedTransactionDiscardTimerExpired
-
-A single bit that indicates that an expiration of the delayed transaction discard timer is a fatal error.
-
-
-#### - RsvdZ
-
-Reserved for system use.
-
-
-#### - ReceivedTargetAbort
-
-A single bit that indicates that a reported target abort is a fatal error.
-
-
-#### - UncorrectableAttributeError
-
-A single bit that indicates that a reported uncorrectable attribute error is a fatal error.
-
-
-#### - UncorrectableAddressError
-
-A single bit that indicates that a reported uncorrectable address error is a fatal error.
-
-
-#### - UncorrectableDataError
-
-A single bit that indicates that a reported uncorrectable data error is a fatal error.
-
-
-#### - InternalBridgeError
-
-A single bit that indicates that a reported internal bridge error is a fatal error.
-
-
-#### - PERRAsserted
-
-A single bit that indicates that a reported PERR# assertion is a fatal error.
-
-
-#### - UncorrectableSplitCompletion
-
-A single bit that indicates that a reported uncorrectable split completion message data error is a fatal error.
-
-
-#### - SERRAsserted
-
-A single bit that indicates that a reported SERR# assertion is a fatal error.
-
-
-#### - MasterAbortOnSplitCompletion
-
-A single bit that indicates that a reported master abort on split completion is a fatal error.
-
-
-#### - ReceivedMasterAbort
-
-A single bit that indicates that a reported master abort is a fatal error.
-
-
-#### - TargetAbortOnSplitCompletion
-
-A single bit that indicates that a reported target abort on split completion is a fatal error.
-
-
 ## -remarks
+
 
 
 The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure is available in Windows Server 2008 and later versions of Windows.
@@ -254,9 +180,12 @@ A PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+
 
  
 

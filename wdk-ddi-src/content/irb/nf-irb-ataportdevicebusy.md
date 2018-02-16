@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 919f30b1-025d-4526-a1f6-2d14c482e474
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, AtaPortDeviceBusy routine [Storage Devices], AtaPortDeviceBusy, storage.ataportdevicebusy, irb/AtaPortDeviceBusy
+ms.keywords: irb/AtaPortDeviceBusy, atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, AtaPortDeviceBusy routine [Storage Devices], AtaPortDeviceBusy, storage.ataportdevicebusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	AtaPortDeviceBusy
 product: Windows
 targetos: Windows
@@ -93,11 +93,14 @@ Specifies the time, in seconds, for which the device is presumed to be busy.
 ## -returns
 
 
+
 None 
 
 
 
+
 ## -remarks
+
 
 
 When the port driver receives this call, it pauses the request queue for the indicated device for the time that is indicated by <i>BusyTimeout</i>. The caller can pause the channel request queue instead of the request queue for an individual device by assigning the wildcard value of IDE_UNTAGGED to parameters <i>TargetId</i> and <i>Lun</i>. 
@@ -108,11 +111,16 @@ The miniport driver must not call <b>AtaPortDeviceBusy</b> from its <a href="htt
 
 
 
+
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportdeviceready.md">AtaPortDeviceReady</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
+
+
 
  
 

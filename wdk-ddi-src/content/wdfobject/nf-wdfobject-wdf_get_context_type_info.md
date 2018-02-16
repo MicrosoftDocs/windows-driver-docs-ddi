@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3273a4b6-9c5e-4671-be9e-45cdd010558a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfobject/WDF_GET_CONTEXT_TYPE_INFO, kmdf.wdf_get_context_type_info, WDF_GET_CONTEXT_TYPE_INFO macro, DFGenObjectRef_861429b7-5829-4a9e-81e2-b88947b36d62.xml, wdf.wdf_get_context_type_info, WDF_GET_CONTEXT_TYPE_INFO
+ms.keywords: wdf.wdf_get_context_type_info, kmdf.wdf_get_context_type_info, DFGenObjectRef_861429b7-5829-4a9e-81e2-b88947b36d62.xml, WDF_GET_CONTEXT_TYPE_INFO macro, WDF_GET_CONTEXT_TYPE_INFO, wdfobject/WDF_GET_CONTEXT_TYPE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WDF_GET_CONTEXT_TYPE_INFO
 product: Windows
 targetos: Windows
@@ -72,5 +72,4 @@ void WDF_GET_CONTEXT_TYPE_INFO(
 
 
 ### -param _contexttype
-
 

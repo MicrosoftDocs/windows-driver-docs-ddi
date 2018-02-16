@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_MOUNT_POINTS
-title: _MOUNTMGR_MOUNT_POINTS
+title: "_MOUNTMGR_MOUNT_POINTS"
 author: windows-driver-content
 description: The MOUNTMGR_MOUNT_POINTS structure is used by mount manager to send a client the list of mount points associated with a device.
 old-location: storage\mountmgr_mount_points.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e85c0d92-d989-4afc-8516-c63535d2c728
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MOUNTMGR_MOUNT_POINTS structure [Storage Devices], PMOUNTMGR_MOUNT_POINTS structure pointer [Storage Devices], _MOUNTMGR_MOUNT_POINTS, mountmgr/MOUNTMGR_MOUNT_POINTS, PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS, storage.mountmgr_mount_points, structs-mntmgr_844fdf51-1324-4b1d-b68f-abba5f471652.xml, mountmgr/PMOUNTMGR_MOUNT_POINTS
+ms.keywords: storage.mountmgr_mount_points, mountmgr/MOUNTMGR_MOUNT_POINTS, PMOUNTMGR_MOUNT_POINTS, PMOUNTMGR_MOUNT_POINTS structure pointer [Storage Devices], MOUNTMGR_MOUNT_POINTS structure [Storage Devices], *PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS, mountmgr/PMOUNTMGR_MOUNT_POINTS, _MOUNTMGR_MOUNT_POINTS, structs-mntmgr_844fdf51-1324-4b1d-b68f-abba5f471652.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mountmgr.h
-apiname: 
+apiname:
 -	MOUNTMGR_MOUNT_POINTS
 product: Windows
 targetos: Windows
-req.typenames: MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS
+req.typenames: "*PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS"
 ---
 
 # _MOUNTMGR_MOUNT_POINTS structure
@@ -87,13 +87,17 @@ Contains an array of elements of type MOUNTMGR_MOUNT_POINT that contain informat
 ## -remarks
 
 
+
 For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="https://msdn.microsoft.com/fb37f862-70d6-4514-b481-16f664346422">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_query_points.md">IOCTL_MOUNTMGR_QUERY_POINTS</a>
+
+
 
  
 

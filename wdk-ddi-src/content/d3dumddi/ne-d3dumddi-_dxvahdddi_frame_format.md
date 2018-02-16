@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_FRAME_FORMAT
-title: _DXVAHDDDI_FRAME_FORMAT
+title: "_DXVAHDDDI_FRAME_FORMAT"
 author: windows-driver-content
 description: The DXVAHDDDI_FRAME_FORMAT enumeration contains values that identify the frame format.
 old-location: display\dxvahdddi_frame_format.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 82fded96-9321-47a8-8bdd-65c5a75951ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, display.dxvahdddi_frame_format, DXVAHDDDI_FRAME_FORMAT, d3dumddi/DXVAHDDDI_FRAME_FORMAT, DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, DXVAHDDDI_FRAME_FORMAT enumeration [Display Devices], DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE, d3dumddi/DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE, d3dumddi/DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXVA2_Structs_7335a1ee-9d91-4764-aba3-5769351f7aa5.xml, DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, _DXVAHDDDI_FRAME_FORMAT
+ms.keywords: d3dumddi/DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE, d3dumddi/DXVAHDDDI_FRAME_FORMAT, DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXVAHDDDI_FRAME_FORMAT, display.dxvahdddi_frame_format, DXVAHDDDI_FRAME_FORMAT enumeration [Display Devices], d3dumddi/DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE, d3dumddi/DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, _DXVAHDDDI_FRAME_FORMAT, DXVA2_Structs_7335a1ee-9d91-4764-aba3-5769351f7aa5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_FRAME_FORMAT
 product: Windows
 targetos: Windows
@@ -87,13 +87,17 @@ A value that specifies that the frame format is interlaced with two fields. The 
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FOURCC</a> format of the surface defines whether the interlaced fields are interleaved or not. For example, NV12 is an interlaced format with interleaved fields whereas NV24 is an interlaced format with non-interleaved fields.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
+
+
 
  
 

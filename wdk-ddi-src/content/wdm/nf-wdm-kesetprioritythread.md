@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 400176a1-9192-424b-be37-9386cc3ffbb2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeSetPriorityThread routine [Kernel-Mode Driver Architecture], KeSetPriorityThread, kernel.kesetprioritythread, wdm/KeSetPriorityThread, k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml
+ms.keywords: KeSetPriorityThread, wdm/KeSetPriorityThread, KeSetPriorityThread routine [Kernel-Mode Driver Architecture], k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, kernel.kesetprioritythread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeSetPriorityThread
 product: Windows
 targetos: Windows
@@ -82,14 +82,18 @@ Specifies the priority of the driver-created thread, usually to the real-time pr
 ## -returns
 
 
+
 <b>KeSetPriorityThread</b> returns the old priority of the thread.
+
 
 
 
 ## -remarks
 
 
+
 If a call to <b>KeSetPriorityThread</b> resets the thread's priority to a lower value, execution of the thread can be rescheduled even if it is currently running or is about to be dispatched for execution. 
+
 
 
 
@@ -97,9 +101,15 @@ If a call to <b>KeSetPriorityThread</b> resets the thread's priority to a lower 
 
 <a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
 
-<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
+
 
 <a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryprioritythread.md">KeQueryPriorityThread</a>
+
+
 
  
 

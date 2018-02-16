@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName method, wdf.iwdffile2_retrievecountedfilename, IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName method, IWDFFile2 interface, IWDFFile2, RetrieveCountedFileName, IWDFFile2 interface, RetrieveCountedFileName method, wudfddi/IWDFFile2::RetrieveCountedFileName, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml
+ms.keywords: UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, RetrieveCountedFileName method, IWDFFile2 interface, IWDFFile2 interface, RetrieveCountedFileName method, IWDFFile2, wdf.iwdffile2_retrievecountedfilename, RetrieveCountedFileName, RetrieveCountedFileName method, wudfddi/IWDFFile2::RetrieveCountedFileName, umdf.iwdffile2_retrievecountedfilename, IWDFFile2::RetrieveCountedFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFFile2.RetrieveCountedFileName
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,7 @@ A pointer to a caller-allocated buffer. This buffer receives a <b>NULL</b>-termi
 
 
 
+
 #### - pdwCountedFileNameLength [in, out]
 
 A pointer to a caller-allocated variable. On input, the driver sets the variable to the length, in characters, of the buffer that <i>pdwFileNameLengthInChars</i> points to. On output, the framework sets the variable to the length, in characters, of the character string (including the terminating <b>NULL</b> character) that it placed in the buffer. If a counted file name does not exist, the framework sets the variable to zero. 
@@ -90,7 +91,9 @@ A pointer to a caller-allocated variable. On input, the driver sets the variable
 ## -returns
 
 
+
 <b>RetrieveCountedFileName</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -129,18 +132,22 @@ The buffer that <i>pCountedFileName</i> points to is too small.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
+
 
 
 
 ## -remarks
 
 
+
 A counted file name is a string that can include embedded <b>NULL</b> ('\0') characters in addition to a terminating <b>NULL</b>. To obtain a name string without embedded <b>NULL</b> characters, drivers can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558939">IWDFFile::RetrieveFileName</a>.
 
 Typically, a driver calls <b>RetrieveCountedFileName</b> twice, using the following steps:
+
 <ol>
 <li>
 The driver calls <b>RetrieveCountedFileName</b> with the <i>pCountedFileName</i> parameter set to <b>NULL</b>, to obtain the required buffer length.
@@ -156,12 +163,83 @@ The driver calls <b>RetrieveCountedFileName</b> again to obtain the file name st
 </li>
 </ol>
 
+#### Examples
+
+The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a> interface from the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function receives. The example calls <b>RetrieveCountedFileName</b> twice--once to obtain the file name's length and once to retrieve the file name string.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+STDMETHODCALLTYPE
+CMyQueue::OnCreateFile(
+    __in IWDFIoQueue *pWdfQueue,
+    __in IWDFIoRequest *pWdfRequest,
+    __in IWDFFile*  pWdfFileObject
+    )
+ ...
+    IWDFFile2*  pWdfFileObject2 = NULL;
+    WCHAR*  countedFileName = NULL;
+    DWORD  countedFileNameCch = 0;
+    HRESULT  hr = S_OK;
+ 
+    //
+    // Obtain IWDFFile2 interface from IWDFFile.
+    //
+    hr = pWdfFileObject-&gt;QueryInterface(IID_PPV_ARGS(&amp;pWdfFileObject2));
+    if (!SUCCEEDED(hr))
+    {
+        goto Done;
+    }
+    //
+    // Get length of counted filename.
+    //
+    hr = pWdfFileObject2-&gt;RetrieveCountedFileName(NULL,
+                                                  &amp;countedFileNameCch);
+    if (!SUCCEEDED(hr))
+    {
+        goto Done;
+    }
+    if (countedFileNameCch != 0)
+    {
+        //
+        // Allocate a buffer.
+        //
+        countedFileName = new WCHAR[countedFileNameCch];
+        if (countedFileName == NULL)
+        {
+            hr = E_OUTOFMEMORY;
+            goto Done;
+        }
+        //
+        // Get counted file name.
+        //
+        hr = pWdfFileObject2-&gt;RetrieveCountedFileName(countedFileName, 
+                                                      &amp;countedFileNameCch);
+        if (!SUCCEEDED(hr))
+        {
+            goto Done;
+        }
+    }
+    ...</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558939">IWDFFile::RetrieveFileName</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558939">IWDFFile::RetrieveFileName</a>
+
 
  
 

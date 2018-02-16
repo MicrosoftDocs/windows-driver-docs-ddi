@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PLUGPLAY_NOTIFICATION_HEADER
-title: _PLUGPLAY_NOTIFICATION_HEADER
+title: "_PLUGPLAY_NOTIFICATION_HEADER"
 author: windows-driver-content
 description: A PLUGPLAY_NOTIFICATION_HEADER structure is included at the beginning of each PnP notification structure, such as a DEVICE_INTERFACE_CHANGE_NOTIFICATION structure.
 old-location: kernel\plugplay_notification_header.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b2245810-8f3c-4955-b341-46df4a71707c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PLUGPLAY_NOTIFICATION_HEADER, kernel.plugplay_notification_header, wdm/PPLUGPLAY_NOTIFICATION_HEADER, PPLUGPLAY_NOTIFICATION_HEADER, wdm/PLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER structure [Kernel-Mode Driver Architecture], PPLUGPLAY_NOTIFICATION_HEADER structure pointer [Kernel-Mode Driver Architecture], _PLUGPLAY_NOTIFICATION_HEADER, kstruct_c_3b18984d-35cf-4787-b887-a8916a89569b.xml, *PPLUGPLAY_NOTIFICATION_HEADER
+ms.keywords: PLUGPLAY_NOTIFICATION_HEADER structure [Kernel-Mode Driver Architecture], wdm/PPLUGPLAY_NOTIFICATION_HEADER, PPLUGPLAY_NOTIFICATION_HEADER structure pointer [Kernel-Mode Driver Architecture], kstruct_c_3b18984d-35cf-4787-b887-a8916a89569b.xml, PPLUGPLAY_NOTIFICATION_HEADER, *PPLUGPLAY_NOTIFICATION_HEADER, wdm/PLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER, _PLUGPLAY_NOTIFICATION_HEADER, kernel.plugplay_notification_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PLUGPLAY_NOTIFICATION_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PPLUGPLAY_NOTIFICATION_HEADER, PLUGPLAY_NOTIFICATION_HEADER
+req.typenames: PLUGPLAY_NOTIFICATION_HEADER, *PPLUGPLAY_NOTIFICATION_HEADER
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,9 @@ Specifies a GUID identifying the event.
 ## -remarks
 
 
+
 Drivers can cast a PnP notification structure to this type to access the <b>Event</b> field and identify the exact type of the structure.
+
 
 
 
@@ -96,13 +98,23 @@ Drivers can cast a PnP notification structure to this type to access the <b>Even
 
 <a href="..\wdm\ns-wdm-_hwprofile_change_notification.md">HWPROFILE_CHANGE_NOTIFICATION</a>
 
-<a href="..\wdm\ns-wdm-_device_interface_change_notification.md">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
 
-<a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
+
+<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+
 
 <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+
+
+<a href="..\wdm\ns-wdm-_target_device_removal_notification.md">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_interface_change_notification.md">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
+
+
 
  
 

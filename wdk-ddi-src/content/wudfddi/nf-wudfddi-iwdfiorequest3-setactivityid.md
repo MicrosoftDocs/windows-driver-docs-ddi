@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57CB3CED-FE46-4A74-9E23-82640B7EF1DC
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest3::SetActivityId, wudfddi/IWDFIoRequest3::SetActivityId, IWDFIoRequest3, wdf.iwdfiorequest3_setactivityid, SetActivityId method, umdf.iwdfiorequest3_setactivityid, IWDFIoRequest3 interface, SetActivityId method, SetActivityId, SetActivityId method, IWDFIoRequest3 interface
+ms.keywords: SetActivityId method, IWDFIoRequest3 interface, IWDFIoRequest3::SetActivityId, IWDFIoRequest3 interface, SetActivityId method, umdf.iwdfiorequest3_setactivityid, SetActivityId method, wudfddi/IWDFIoRequest3::SetActivityId, wdf.iwdfiorequest3_setactivityid, SetActivityId, IWDFIoRequest3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest3.SetActivityId
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -80,11 +80,14 @@ A pointer to the activity identifier GUID to store in the I/O request.
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Calling <b>SetActivityId</b> does not set an association with any previously present activity identifier. When the driver calls <b>SetActivityId</b>, any existing activity identifier is overwritten.
@@ -98,14 +101,27 @@ For more information about activity identifiers, see <a href="https://msdn.micro
 The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>.
 
 
+#### Examples
+
+For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451345">RetrieveActivityId</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
+
+
 
 <a href="https://msdn.microsoft.com/A90FCF3C-B648-4E97-887E-FCE58D7FA13A">IWDFIoRequest3::RetrieveActivityId</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
+
+
 
  
 

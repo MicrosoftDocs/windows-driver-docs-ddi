@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 56688002-d481-45a6-bfb0-e7761f9ae055
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k105_15c5df15-b04a-41bd-9aec-2e402e2824a9.xml, wdm/KeQueryNodeMaximumProcessorCount, KeQueryNodeMaximumProcessorCount, kernel.kequerynodemaximumprocessorcount, KeQueryNodeMaximumProcessorCount routine [Kernel-Mode Driver Architecture]
+ms.keywords: k105_15c5df15-b04a-41bd-9aec-2e402e2824a9.xml, KeQueryNodeMaximumProcessorCount, kernel.kequerynodemaximumprocessorcount, KeQueryNodeMaximumProcessorCount routine [Kernel-Mode Driver Architecture], wdm/KeQueryNodeMaximumProcessorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeQueryNodeMaximumProcessorCount
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ The node number. If a NUMA multiprocessor system contains <i>n</i> nodes, valid 
 ## -returns
 
 
+
 <b>KeQueryNodeMaximumProcessorCount</b> returns the maximum number of logical processors.
 
 
 
+
 ## -remarks
+
 
 
 In a multiprocessor system with a NUMA architecture, a node is a collection of processors that share fast access to a region of memory. Memory access is non-uniform because a processor can access the memory in its node faster than it can access the memory in other nodes.
@@ -89,9 +92,12 @@ The count returned by this routine includes any logical processors that can be d
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kequeryhighestnodenumber.md">KeQueryHighestNodeNumber</a>
+
+
 
  
 

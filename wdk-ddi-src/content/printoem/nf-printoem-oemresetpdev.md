@@ -7,8 +7,8 @@ old-location: print\oemresetpdev.htm
 old-project: print
 ms.assetid: 92ae8382-49f3-4bfc-917a-047991953809
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMResetPDEV, OEMResetPDEV, print_obsoletefunctions_c49829da-bbf6-4438-b291-c8dd93856311.xml, print.oemresetpdev, OEMResetPDEV function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: OEMResetPDEV, print.oemresetpdev, printoem/OEMResetPDEV, OEMResetPDEV function [Print Devices], print_obsoletefunctions_c49829da-bbf6-4438-b291-c8dd93856311.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMResetPDEV
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ BOOL APIENTRY OEMResetPDEV(
 ### -param pdevobjOld
 
 
-
 ### -param pdevobjNew
-
 

@@ -29,15 +29,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DxgkDdiDestroyProcess
 product: Windows
 targetos: Windows
@@ -86,6 +86,8 @@ A handle to the kernel mode driver process.
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+
 
 

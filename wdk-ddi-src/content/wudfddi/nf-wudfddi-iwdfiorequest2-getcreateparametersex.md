@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bc34d86b-fa0e-419e-9342-61df12a8e484
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: GetCreateParametersEx method, IWDFIoRequest2::GetCreateParametersEx, IWDFIoRequest2 interface, GetCreateParametersEx method, GetCreateParametersEx, GetCreateParametersEx method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::GetCreateParametersEx, IWDFIoRequest2, wdf.iwdfiorequest2_getcreateparametersex, umdf.iwdfiorequest2_getcreateparametersex, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml
+ms.keywords: IWDFIoRequest2 interface, GetCreateParametersEx method, IWDFIoRequest2, GetCreateParametersEx method, IWDFIoRequest2::GetCreateParametersEx, wdf.iwdfiorequest2_getcreateparametersex, umdf.iwdfiorequest2_getcreateparametersex, GetCreateParametersEx method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::GetCreateParametersEx, GetCreateParametersEx, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest2.GetCreateParametersEx
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -108,11 +108,14 @@ This parameter is optional and can be <b>NULL</b>.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 After the framework calls a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function, the driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a> method or the <b>IWDFIoRequest2::GetCreateParametersEx</b> method to obtain the file's creation parameters. 
@@ -120,14 +123,54 @@ After the framework calls a driver's <a href="https://msdn.microsoft.com/library
 For more information, see <a href="https://msdn.microsoft.com/1ba1fdcf-99bd-44e3-adbf-5dc93a790900">Obtaining Parameters for I/O Requests</a>.
 
 
+#### Examples
+
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function can obtain the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a> interface and then call <b>GetCreateParametersEx</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+OnCreateFile(
+    __in IWDFIoQueue* FxQueue,
+    __in IWDFIoRequest* FxRequest,
+    __in IWDFFile* FxFile
+    )
+{
+    ULONG fileOptions;
+    USHORT fileAttributes,
+    USHORT shareAccess,
+    ACCESS_MASK desiredAccess;
+    ...
+    CComQIPtr&lt;IWDFIoRequest2&gt; fxRequest2(FxRequest);
+    fxRequest2-&gt;GetCreateParametersEx(&amp;fileOptions
+                                      &amp;fileAttributes,
+                                      &amp;shareAccess,
+                                      &amp;desiredAccess);
+    ...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559088">IWDFIoRequest::GetCreateParameters</a>
+
+
 
  
 

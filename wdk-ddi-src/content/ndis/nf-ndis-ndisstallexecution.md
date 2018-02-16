@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 590f5a1a-fd78-408e-b4f0-555f08694c43
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista], ndis/NdisStallExecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, netvista.ndisstallexecution
+ms.keywords: netvista.ndisstallexecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, NdisStallExecution, ndis/NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisStallExecution
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisStallExecution macro
@@ -75,12 +75,15 @@ TBD
 
 
 
+
+
 #### - MicrosecondsToStall [in]
 
 The number of microseconds to delay. A driver should specify no more than 50 microseconds.
 
 
 ## -remarks
+
 
 
 <b>NdisStallExecution</b> is a processor-dependent function that busy-waits for at least the specified
@@ -96,15 +99,24 @@ If a driver must wait for an interval longer than 50 microseconds, it should cal
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 <a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 07317157-1222-4b34-89f4-d546818e9851
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiorequest_forwardtoioqueue, wudfddi/IWDFIoRequest::ForwardToIoQueue, ForwardToIoQueue method, ForwardToIoQueue method, IWDFIoRequest interface, IWDFIoRequest, IWDFIoRequest::ForwardToIoQueue, umdf.iwdfiorequest_forwardtoioqueue, IWDFIoRequest interface, ForwardToIoQueue method, ForwardToIoQueue, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml
+ms.keywords: wudfddi/IWDFIoRequest::ForwardToIoQueue, ForwardToIoQueue, IWDFIoRequest::ForwardToIoQueue, ForwardToIoQueue method, IWDFIoRequest interface, ForwardToIoQueue method, ForwardToIoQueue method, IWDFIoRequest interface, UMDFRequestObjectRef_ae3c7113-1fac-4742-b53b-8230bf78b61a.xml, umdf.iwdfiorequest_forwardtoioqueue, IWDFIoRequest, wdf.iwdfiorequest_forwardtoioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.ForwardToIoQueue
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,11 +78,14 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> 
 ## -returns
 
 
+
 <b>ForwardToIoQueue</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The driver must own the I/O request and must have obtained the request from one of its I/O queues.
@@ -96,18 +99,55 @@ Also, the <b>ForwardToIoQueue</b> method cannot requeue a request that the drive
 The request cannot be cancelable. If the driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> method to make the request cancelable, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a> method before calling <b>ForwardToIoQueue</b>.
 
 
+#### Examples
+
+The following code example shows how to forward a request to another queue if the request's buffer is insufficient to hold the required information.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
+ if (OutputBufferSizeInBytes &lt; sizeof(SWITCH_STATE)) {
+    hr = HRESULT_FROM_NT(ERROR_INSUFFICIENT_BUFFER);
+ }
+ else {
+     hr = FxRequest-&gt;ForwardToIoQueue(
+                          m_Device-&gt;GetSwitchChangeQueue()
+                          );
+     if (SUCCEEDED(hr)) {
+         completeRequest = false;
+     }
+  }</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
 
  
 

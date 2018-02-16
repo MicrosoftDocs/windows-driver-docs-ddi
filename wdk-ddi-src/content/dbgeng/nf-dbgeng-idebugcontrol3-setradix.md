@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7346733d-2ac7-4eee-9f9c-ea6e1ee2ce5d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::SetRadix, IDebugControl2 interface [Windows Debugging], SetRadix method, IDebugControl_f0462fa8-da93-414b-b4b1-246a50572bb2.xml, SetRadix method [Windows Debugging], dbgeng/IDebugControl3::SetRadix, IDebugControl3, IDebugControl3::SetRadix, dbgeng/IDebugControl2::SetRadix, IDebugControl::SetRadix, IDebugControl3 interface [Windows Debugging], SetRadix method, IDebugControl interface [Windows Debugging], SetRadix method, SetRadix method [Windows Debugging], IDebugControl2 interface, SetRadix, SetRadix method [Windows Debugging], IDebugControl3 interface, SetRadix method [Windows Debugging], IDebugControl interface, IDebugControl2::SetRadix, debugger.setradix
+ms.keywords: IDebugControl3 interface [Windows Debugging], SetRadix method, SetRadix method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::SetRadix, SetRadix method [Windows Debugging], IDebugControl2 interface [Windows Debugging], SetRadix method, IDebugControl_f0462fa8-da93-414b-b4b1-246a50572bb2.xml, SetRadix, IDebugControl2::SetRadix, dbgeng/IDebugControl2::SetRadix, IDebugControl3, dbgeng/IDebugControl::SetRadix, debugger.setradix, IDebugControl interface [Windows Debugging], SetRadix method, IDebugControl3::SetRadix, IDebugControl2, IDebugControl, IDebugControl::SetRadix, SetRadix method [Windows Debugging], IDebugControl2 interface, SetRadix method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.SetRadix
 -	IDebugControl2.SetRadix
 -	IDebugControl3.SetRadix
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetRadix method
@@ -72,6 +72,7 @@ HRESULT SetRadix(
 ### -param Radix [in]
 
 Specifies the new default radix.  The following table contains the possible values for the radix.
+
 <table>
 <tr>
 <th>Value</th>
@@ -107,13 +108,16 @@ Hexadecimal
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,11 +134,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 When the radix is changed, the engine notifies the event callbacks by passing the DEBUG_CES_RADIX flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550683">IDebugEventCallbacks::ChangeEngineState</a> callback method.
@@ -143,17 +150,28 @@ For more information about the default radix, see <a href="https://msdn.microsof
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548218">GetRadix</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548218">GetRadix</a>
+
+
 
  
 

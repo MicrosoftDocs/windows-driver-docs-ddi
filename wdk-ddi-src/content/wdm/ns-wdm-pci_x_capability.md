@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: b30ccf86-ae6d-484a-a3f2-8b38df26e995
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI_X_CAPABILITY structure [Buses], PPCI_X_CAPABILITY, wdm/PPCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses], PCI_X_CAPABILITY, PCI.pci_x_capability, *PPCI_X_CAPABILITY, pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, wdm/PCI_X_CAPABILITY
+ms.keywords: PCI_X_CAPABILITY structure [Buses], wdm/PCI_X_CAPABILITY, PCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses], pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, *PPCI_X_CAPABILITY, PPCI_X_CAPABILITY, wdm/PPCI_X_CAPABILITY, PCI.pci_x_capability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_X_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: PCI_X_CAPABILITY, *PPCI_X_CAPABILITY
+req.typenames: "*PPCI_X_CAPABILITY, PCI_X_CAPABILITY"
 req.product: Windows 10 or later.
 ---
 
@@ -97,12 +97,15 @@ typedef struct {
 
 
 
+### -field Header
+
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description. 
+
+
 ### -field Command
 
 
-
 ### -field Command.bits
-
 
 
 ### -field Command.bits.DataParityErrorRecoveryEnable
@@ -138,9 +141,7 @@ Reports the data in the device's command register in the form of a unsigned long
 ### -field Status
 
 
-
 ### -field Status.bits
-
 
 
 ### -field Status.bits.FunctionNumber
@@ -218,14 +219,11 @@ Indicates when 1 that the device has received a split completion error message. 
 Reports the data in the device's status register in the form of a unsigned long integer.
 
 
-### -field Header
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description. 
-
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
+
+
 
  
 

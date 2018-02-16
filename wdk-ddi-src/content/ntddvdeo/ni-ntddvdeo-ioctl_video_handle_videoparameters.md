@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddvdeo.h
-apiname: 
+apiname:
 -	IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
 product: Windows
 targetos: Windows
@@ -73,7 +73,9 @@ The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/librar
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -85,21 +87,27 @@ The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBu
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,9 +118,13 @@ If the miniport driver successfully gets or sets the requested information, it s
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a>
+
+
+
 <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570173">VIDEOPARAMETERS</a>
+
 
  
 

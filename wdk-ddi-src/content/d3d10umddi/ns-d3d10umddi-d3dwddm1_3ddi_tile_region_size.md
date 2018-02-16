@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 276ED4AC-15D9-4550-AC51-83320DE9D5B2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DWDDM1_3DDI_TILE_REGION_SIZE, display.d3dwddm1_3ddi_tile_region_size, d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE, D3DWDDM1_3DDI_TILE_REGION_SIZE structure [Display Devices]
+ms.keywords: D3DWDDM1_3DDI_TILE_REGION_SIZE structure [Display Devices], display.d3dwddm1_3ddi_tile_region_size, d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE, D3DWDDM1_3DDI_TILE_REGION_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	D3DWDDM1_3DDI_TILE_REGION_SIZE
 product: Windows
 targetos: Windows
@@ -74,7 +74,9 @@ typedef struct D3DWDDM1_3DDI_TILE_REGION_SIZE {
 ### -field NumTiles
 
 The number of tiles within the tiled region.
-<div class="alert"><b>Note</b>  <b>NumTiles</b> must equal <b>Width</b> * <b>Height</b> * <b>Depth</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  <b>NumTiles</b> must equal <b>Width</b> * <b>Height</b> * <b>Depth</b>.</div>
+<div> </div>
 
 ### -field bUseBox
 

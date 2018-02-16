@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3ed4ed2f-66be-4429-b2d6-2d9d3f9bcf3e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, KsStreamPointerGetIrp function [Streaming Media Devices], ks/KsStreamPointerGetIrp, KsStreamPointerGetIrp, stream.ksstreampointergetirp
+ms.keywords: avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, KsStreamPointerGetIrp function [Streaming Media Devices], KsStreamPointerGetIrp, stream.ksstreampointergetirp, ks/KsStreamPointerGetIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsStreamPointerGetIrp
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ A pointer to a caller-supplied BOOLEAN value set to <b>TRUE</b> if the frame ref
 ## -returns
 
 
+
 <b>KsStreamPointerGetIrp </b>returns either a pointer to the IRP associated with the frame that is referenced by the given stream pointer, or returns <b>NULL</b>. A return value of <b>NULL</b> indicates that the stream pointer is not locked.
 
 
 
+
 ## -remarks
+
 
 
 <b>KsStreamPointerGetIrp </b>can also be used to determine if <i>StreamPointer</i> references the first and/or last frame contained in the returned IRP.
@@ -105,11 +108,16 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+
+
 
 <a href="..\ks\nf-ks-ksstreampointergetmdl.md">KsStreamPointerGetMdl</a>
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+
 
  
 

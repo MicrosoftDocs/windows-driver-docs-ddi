@@ -2,13 +2,13 @@
 UID: NS:ks.KSPIN_CINSTANCES
 title: KSPIN_CINSTANCES
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\kspin_cinstances.htm
 old-project: stream
 ms.assetid: 90C861C3-26E0-43C0-A4CA-FD5491995DAB
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/PKSPIN_CINSTANCES, KSPIN_CINSTANCES, PKSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], *PKSPIN_CINSTANCES, stream.kspin_cinstances, KSPIN_CINSTANCES structure [Streaming Media Devices], ks/KSPIN_CINSTANCES
+ms.keywords: ks/PKSPIN_CINSTANCES, ks/KSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], stream.kspin_cinstances, PKSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], KSPIN_CINSTANCES, *PKSPIN_CINSTANCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSPIN_CINSTANCES
 product: Windows
 targetos: Windows
-req.typenames: *PKSPIN_CINSTANCES, KSPIN_CINSTANCES
+req.typenames: KSPIN_CINSTANCES, *PKSPIN_CINSTANCES
 ---
 
 # KSPIN_CINSTANCES structure

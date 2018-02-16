@@ -1,14 +1,14 @@
 ---
 UID: NS:usbfnbase._USBFN_NOTIFICATION
-title: _USBFN_NOTIFICATION
+title: "_USBFN_NOTIFICATION"
 author: windows-driver-content
 description: Describes information about a Universal Serial Bus (USB) event notification that was received by using IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION.
 old-location: buses\usbfn_notification.htm
 old-project: usbref
 ms.assetid: 84B66823-F357-44DD-A401-79E27FA6B324
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.usbfn_notification, _USBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], *PUSBFN_NOTIFICATION, USBFN_NOTIFICATION, USBFN_NOTIFICATION structure [Buses], usbfnbase/PUSBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION, PUSBFN_NOTIFICATION
+ms.date: 2/8/2018
+ms.keywords: "*PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION, usbfnbase/PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], USBFN_NOTIFICATION structure [Buses], USBFN_NOTIFICATION, buses.usbfn_notification, _USBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	USBFN_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_NOTIFICATION, USBFN_NOTIFICATION
+req.typenames: USBFN_NOTIFICATION, *PUSBFN_NOTIFICATION
 req.product: Windows 10 or later.
 ---
 
@@ -77,8 +77,12 @@ typedef struct _USBFN_NOTIFICATION {
 
 
 
-### -field u
+### -field Event
 
+Bus notification indicated by a <a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>-typed flag.
+
+
+### -field u
 
 
 ### -field u.BusSpeed
@@ -104,9 +108,4 @@ Possible port types supported by a function controller indicated by a <a href=".
 ### -field u.AlternateInterface
 
 Alternate setting of the interface indicated by <a href="..\usbfnbase\ns-usbfnbase-_alternate_interface.md">ALTERNATE_INTERFACE</a>.
-
-
-### -field Event
-
-Bus notification indicated by a <a href="..\usbfnbase\ne-usbfnbase-_usbfn_event.md">USBFN_EVENT</a>-typed flag.
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf160fb9-8230-4b75-8a4f-d19ef001f54a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS, netvista.rilavoidcdmasystemparams, ntddrilapitypes/RILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS, ntddrilapitypes/RILAVOIDCDMASYSTEMPARAMS, netvista.rilavoidcdmasystemparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILAVOIDCDMASYSTEMPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS
+req.typenames: "*LPRILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS"
 ---
 
 # RILAVOIDCDMASYSTEMPARAMS structure
@@ -71,7 +71,5 @@ typedef struct _RILAVOIDCDMASYSTEMPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field dwAvoidanceReqType
-
 

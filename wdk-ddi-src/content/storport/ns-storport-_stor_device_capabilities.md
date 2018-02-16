@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_DEVICE_CAPABILITIES
-title: _STOR_DEVICE_CAPABILITIES
+title: "_STOR_DEVICE_CAPABILITIES"
 author: windows-driver-content
 description: The STOR_DEVICE_CAPABILITIES structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.
 old-location: storage\stor_device_capabilities.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], storage.stor_device_capabilities, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES, _STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES
+ms.keywords: storport/STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES, storport/PSTOR_DEVICE_CAPABILITIES, _STOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	STOR_DEVICE_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -149,6 +149,7 @@ If <b>Removable</b> is set to <b>TRUE</b>, the device is displayed in the Unplug
 ## -remarks
 
 
+
 When a miniport driver receives an SRB in its <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine where the SRB function is SRB_FUNCTION_PNP, the SRB is formatted as a <a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a> structure. If the <b>PnPAction</b> member of the SRB is <b>StorQueryCapabilities</b>, the miniport can return a <b>STOR_DEVICE_CAPABILITIES</b> structure in the <b>DataBuffer</b> member of the SRB.
 
 Storport sends this structure to the miniport with all members initialized to 0. On return, only the <b>Removable</b> field is used from this structure.
@@ -157,13 +158,20 @@ Starting with Windows 8, miniports should use the <a href="..\storport\ns-storp
 
 
 
-## -see-also
 
-<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
+## -see-also
 
 <a href="..\storport\ns-storport-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a>
 
+
+
+<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+
 
  
 

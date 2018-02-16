@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	pfnDestroyContextCb
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to a display device (that is, the graphics context).
 
 
 
+
+
 #### - pData [in]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroycontext.md">D3DDDICB_DESTROYCONTEXT</a> structure that contains a handle to the context to destroy.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroycontext.md">D3D
 ## -returns
 
 
+
 <b>pfnDestroyContextCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,13 +123,16 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
 
 
 
+
 ## -remarks
+
 
 
 If the specified context has not finished the work that is currently queued to it, the <b>pfnDestroyContextCb</b> function blocks until the context finishes its work and then returns. 
@@ -135,6 +142,7 @@ If the specified context has not finished the work that is currently queued to i
 <b>Direct3D Version 11 Note:  </b>For more information about how the driver calls <b>pfnDestroyContextCb</b>, see <a href="https://msdn.microsoft.com/014a5e44-f8c4-45c0-96e8-d82f37b8b28d">Changes from Direct3D 10</a>.
 
 The following code example shows how to destroy the default context for a display device.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -152,11 +160,16 @@ The following code example shows how to destroy the default context for a displa
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroycontext.md">D3DDDICB_DESTROYCONTEXT</a>
+
+
 
  
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	srb.h
-apiname: 
+apiname:
 -	(*PHW_INTERRUPT)
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -76,11 +76,14 @@ Pointer to the miniport driver's per-HBA storage area.
 ## -returns
 
 
+
 If the interrupt handler routine determines that its HBA generated the interrupt, it returns <b>TRUE</b>. If the interrupt handler determines that its HBA did not generate the interrupt, it should return <b>FALSE</b> as soon as possible. 
 
 
 
+
 ## -remarks
+
 
 
 The interrupt handler routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
@@ -91,11 +94,16 @@ For more information about the miniport driver's interrupt handler routine that 
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>
+
+
 
  
 

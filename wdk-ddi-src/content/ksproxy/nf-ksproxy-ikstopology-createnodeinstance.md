@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsTopology, IKsTopology::CreateNodeInstance, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, stream.ikstopology_createnodeinstance, ksproxy/IKsTopology::CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices]
+ms.keywords: CreateNodeInstance method [Streaming Media Devices], stream.ikstopology_createnodeinstance, IKsTopology::CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, IKsTopology, ksproxy/IKsTopology::CreateNodeInstance, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, CreateNodeInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsTopology.CreateNodeInstance
 product: Windows
 targetos: Windows
@@ -105,17 +105,25 @@ Pointer to a variable that receives the interface pointer requested in <i>Interf
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
 <a href="..\ksproxy\nn-ksproxy-ikstopology.md">IKsTopology</a>
 
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
 
  
 

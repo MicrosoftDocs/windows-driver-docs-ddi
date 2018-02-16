@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-title: _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+title: "_STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
 author: windows-driver-content
 description: The STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure is used to retrieve the attributes information for a device.
 old-location: storage\storage_device_attributes_descriptor.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: DA8434EF-6163-4D07-A81D-D1AC2D55BFB4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storage_device_attributes_descriptor, ntddstor/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, ntddstor/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_ATTRIBUTE_BYTE_ADDRESSABLE_IO, STORAGE_ATTRIBUTE_DYNAMIC_PERSISTENCE, STORAGE_ATTRIBUTE_PERF_SIZE_INDEPENDENT, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_ATTRIBUTE_BLOCK_IO, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Storage Devices], STORAGE_ATTRIBUTE_ASYNC_EVENT_NOTIFICATION, STORAGE_ATTRIBUTE_VOLATILE
+ms.keywords: STORAGE_ATTRIBUTE_BLOCK_IO, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Storage Devices], STORAGE_ATTRIBUTE_DYNAMIC_PERSISTENCE, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Storage Devices], _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_ATTRIBUTE_PERF_SIZE_INDEPENDENT, ntddstor/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, ntddstor/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, storage.storage_device_attributes_descriptor, STORAGE_ATTRIBUTE_ASYNC_EVENT_NOTIFICATION, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_ATTRIBUTE_BYTE_ADDRESSABLE_IO, STORAGE_ATTRIBUTE_VOLATILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -152,5 +152,6 @@ Attribute that indicates a storage device has IO performance independent of IO s
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 

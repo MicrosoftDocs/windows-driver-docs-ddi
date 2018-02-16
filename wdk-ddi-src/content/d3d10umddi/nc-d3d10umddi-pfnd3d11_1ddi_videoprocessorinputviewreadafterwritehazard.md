@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	VideoProcessorInputViewReadAfterWriteHazard
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD callback
@@ -75,9 +75,7 @@ VOID APIENTRY* VideoProcessorInputViewReadAfterWriteHazard(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSORINPUTVIEW
-
 
 
 ### -param D3D10DDI_HRESOURCE
@@ -85,6 +83,13 @@ VOID APIENTRY* VideoProcessorInputViewReadAfterWriteHazard(
 
 
 
+
+
+
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
 
 
 #### - hResource [in]
@@ -97,23 +102,24 @@ A handle to the driver's private data for an input view resource object. This ha
 A handle to the driver's private data for the video processor input view that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a> function.
 
 
-#### - hDevice [in]
-
-A handle to the display device (graphics context).
-
-
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a>
+
+
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt.md">DecryptionBlt(D3D11_1)</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview.md">CreateVideoProcessorInputView</a>
+
 
  
 

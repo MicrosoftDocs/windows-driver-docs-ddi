@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpar._PAR_SET_INFORMATION
-title: _PAR_SET_INFORMATION
+title: "_PAR_SET_INFORMATION"
 author: windows-driver-content
 description: The PAR_SET_INFORMATION structure specifies the initial operating status of a parallel port.
 old-location: parports\par_set_information.htm
@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 05e889b1-4b18-4122-9332-69778017e15c
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: ntddpar/PAR_SET_INFORMATION, ntddpar/PPAR_SET_INFORMATION, PPAR_SET_INFORMATION, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, PPAR_SET_INFORMATION structure pointer [Parallel Ports], parports.par_set_information, _PAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports], *PPAR_SET_INFORMATION, PAR_SET_INFORMATION
+ms.keywords: ntddpar/PAR_SET_INFORMATION, PAR_SET_INFORMATION, PPAR_SET_INFORMATION, _PAR_SET_INFORMATION, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, parports.par_set_information, ntddpar/PPAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], *PPAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddpar.h
-apiname: 
+apiname:
 -	PAR_SET_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+req.typenames: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION"
 ---
 
 # _PAR_SET_INFORMATION structure
@@ -75,17 +75,25 @@ Specifies the operating status of the parallel port. Must be set to PARALLEL_INI
 ## -remarks
 
 
+
 This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a> request.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
-
 <a href="..\ntddpar\ns-ntddpar-_par_query_information.md">PAR_QUERY_INFORMATION</a>
 
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
+
+
+
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
+
+
 
  
 

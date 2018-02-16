@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 54977838-381e-4c86-a6ca-646202fdc619
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisAllocateIoWorkItem, netvista.ndisallocateioworkitem, NdisAllocateIoWorkItem, NdisAllocateIoWorkItem function [Network Drivers Starting with Windows Vista], ndis_work_items_ref_c227456a-4847-40db-b530-a772f4fd4dc3.xml
+ms.keywords: NdisAllocateIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateIoWorkItem, NdisAllocateIoWorkItem, ndis_work_items_ref_c227456a-4847-40db-b530-a772f4fd4dc3.xml, netvista.ndisallocateioworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisAllocateIoWorkItem
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateIoWorkItem function
@@ -77,6 +77,7 @@ The handle of an NDIS object that is associated with a device object or driver o
 ## -returns
 
 
+
 If 
      <b>NdisAllocateIoWorkItem</b> successfully allocates a work item, it returns a handle to the work item.
      If it fails, 
@@ -84,15 +85,17 @@ If
 
 
 
+
 ## -remarks
+
 
 
 NDIS miniport drivers pass 
     <b>NdisAllocateIoWorkItem</b> either of two handles: the adapter handle that NDIS passed to the 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function or
     the miniport driver handle that NDIS returned when the miniport driver called 
-    <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-    NdisMRegisterMiniportDriver</b></mshelp:link>.
+    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    NdisMRegisterMiniportDriver</a>.
 
 NDIS filter drivers can pass 
     <b>NdisAllocateIoWorkItem</b> the filter driver handle that NDIS returned when the filter driver called 
@@ -104,9 +107,12 @@ NDIS miniport drivers and filter drivers can also pass
     <b>NdisAllocateIoWorkItem</b> gets the device object or driver object that is associated with the handle
     and passes the device object or driver object to the 
     <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a> function.
+
 <div class="alert"><b>Note</b>  Protocol drivers cannot use 
     <b>NdisAllocateIoWorkItem</b> because NDIS does not associate protocol drivers with device objects or
-    driver objects.</div><div> </div>NDIS drivers call the 
+    driver objects.</div>
+<div> </div>
+NDIS drivers call the 
     <a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a> function to queue
     work items. After a driver calls 
     <b>NdisQueueIoWorkItem</b>, NDIS calls the driver-specified callback function at IRQL = PASSIVE_LEVEL.
@@ -135,25 +141,44 @@ In general, a driver must free the work item before the driver unloads.
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
+<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-<a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
-
-<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
+
+<a href="..\ndis\nf-ndis-ndisfreeioworkitem.md">NdisFreeIoWorkItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/4f966ff3-2092-495f-863f-50f079085fa6">NDIS I/O Work Items</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
 
  
 

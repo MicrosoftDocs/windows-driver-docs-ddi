@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 96adad09-fe54-469a-b57d-4df68750968c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILADDCALLFORWARDINGPARAMS, netvista.riladdcallforwardingparams_2, RILADDCALLFORWARDINGPARAMS, rilapitypes/RILADDCALLFORWARDINGPARAMS
+ms.keywords: RILADDCALLFORWARDINGPARAMS, rilapitypes/RILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riladdcallforwardingparams_2, *LPRILADDCALLFORWARDINGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILADDCALLFORWARDINGPARAMS
 product: Windows
 targetos: Windows
@@ -73,11 +73,8 @@ typedef struct _RILADDCALLFORWARDINGPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field dwReason
 
 
-
 ### -field rcfsSettings
-
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], kernel.rtlcompareunicodestring, RtlCompareUnicodeString, k109_ddeef320-7510-446b-af6f-756c3999bec1.xml
+ms.keywords: kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString, RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlCompareUnicodeString
 product: Windows
 targetos: Windows
@@ -88,7 +88,9 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 ## -returns
 
 
+
 <b>RtlCompareUnicodeString</b> returns a signed value that gives the results of the comparison:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,15 +129,21 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlcomparestring.md">RtlCompareString</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
 
-<a href="..\ntddk\nf-ntddk-rtlcomparestring.md">RtlCompareString</a>
+
 
  
 

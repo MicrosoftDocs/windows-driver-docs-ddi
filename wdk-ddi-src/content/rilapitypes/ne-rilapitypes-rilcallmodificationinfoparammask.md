@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 78726ec3-f777-4165-baec-c2c013e4c86a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_CMI_NEWCALLTYPE, rilapitypes/RIL_PARAM_CMI_MODIFICATIONTYPE, rilapitypes/RIL_PARAM_CMI_ADDRESS, RIL_PARAM_CMI_OLDCALLTYPE, rilapitypes/RIL_PARAM_CMI_ALPHAIDENTIFIER, RILCALLMODIFICATIONINFOPARAMMASK, RIL_PARAM_CMI_ALL, RIL_PARAM_CMI_ALPHAIDENTIFIER, RILCALLMODIFICATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CMI_OLDCALLTYPE, rilapitypes/RIL_PARAM_CMI_NEWCALLTYPE, RIL_PARAM_CMI_ADDRESS, rilapitypes/RIL_PARAM_CMI_ALL, rilapitypes/RIL_PARAM_CMI_ID, rilapitypes/RILCALLMODIFICATIONINFOPARAMMASK, netvista.rilcallmodificationinfoparammask_2, RIL_PARAM_CMI_MODIFICATIONTYPE, RIL_PARAM_CMI_ID
+ms.keywords: rilapitypes/RIL_PARAM_CMI_ID, rilapitypes/RIL_PARAM_CMI_OLDCALLTYPE, rilapitypes/RILCALLMODIFICATIONINFOPARAMMASK, RIL_PARAM_CMI_NEWCALLTYPE, rilapitypes/RIL_PARAM_CMI_ALPHAIDENTIFIER, RILCALLMODIFICATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallmodificationinfoparammask_2, RIL_PARAM_CMI_ID, rilapitypes/RIL_PARAM_CMI_ADDRESS, RIL_PARAM_CMI_OLDCALLTYPE, rilapitypes/RIL_PARAM_CMI_ALL, rilapitypes/RIL_PARAM_CMI_MODIFICATIONTYPE, RIL_PARAM_CMI_MODIFICATIONTYPE, rilapitypes/RIL_PARAM_CMI_NEWCALLTYPE, RIL_PARAM_CMI_ADDRESS, RIL_PARAM_CMI_ALL, RIL_PARAM_CMI_ALPHAIDENTIFIER, RILCALLMODIFICATIONINFOPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMODIFICATIONINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -77,31 +77,23 @@ typedef enum _RILCALLMODIFICATIONINFOPARAMMASK {
 ### -field RIL_PARAM_CMI_EXECUTOR
 
 
-
 ### -field RIL_PARAM_CMI_ID
-
 
 
 ### -field RIL_PARAM_CMI_MODIFICATIONTYPE
 
 
-
 ### -field RIL_PARAM_CMI_OLDCALLTYPE
-
 
 
 ### -field RIL_PARAM_CMI_NEWCALLTYPE
 
 
-
 ### -field RIL_PARAM_CMI_ADDRESS
-
 
 
 ### -field RIL_PARAM_CMI_ALPHAIDENTIFIER
 
 
-
 ### -field RIL_PARAM_CMI_ALL
-
 

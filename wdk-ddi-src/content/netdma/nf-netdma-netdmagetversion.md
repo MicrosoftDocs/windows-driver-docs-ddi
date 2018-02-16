@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eec8ba30-0f9e-4487-ba0d-99587d97b44a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NetDmaGetVersion function [Network Drivers Starting with Windows Vista], NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netdma/NetDmaGetVersion, netvista.netdmagetversion
+ms.keywords: netvista.netdmagetversion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, NetDmaGetVersion, netdma/NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NetDmaGetVersion
 product: Windows
 targetos: Windows
@@ -72,11 +72,14 @@ UINT NetDmaGetVersion(void);
 
 
 
+
 ## -returns
+
 
 
 <b>NetDmaGetVersion</b> returns a UINT value that contains the major and minor version numbers as
      follows:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +107,14 @@ The minor version of NetDMA interface.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NetDMA provider drivers can call the 
@@ -118,10 +124,11 @@ NetDMA provider drivers can call the
     NetDMA provider in the 
     <b>MajorVersion</b> and 
     <b>MinorVersion</b> members of the 
-    <mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
-    NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link> structure that it passes to the 
-    <mshelp:link keywords="netvista.netdmaregisterprovider" tabindex="0"><b>
-    NetDmaRegisterProvider</b></mshelp:link> function.
+    <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+    NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that it passes to the 
+    <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+    NetDmaRegisterProvider</a> function.
+
 <div class="alert"><b>Note</b>  <b>NetDmaGetVersion</b> is not available in NetDMA version 1.0. To avoid using a function import that
     might stop the driver from loading, a NetDMA 1.1 or later provider driver must verify the presence of 
     <b>NetDmaGetVersion</b> before it calls 
@@ -132,19 +139,28 @@ NetDMA provider drivers can call the
     <b>NetDmaGetVersion</b> is available, call 
     <b>NetDmaGetVersion</b> at the entry point that 
     <b>NdisGetRoutineAddress</b> provided. If the provider driver cannot get the address of 
-    <b>NetDmaGetVersion</b>, the supported NetDMA interface must be version 1.0.</div><div> </div>NetDMA provider drivers call 
+    <b>NetDmaGetVersion</b>, the supported NetDMA interface must be version 1.0.</div>
+<div> </div>
+NetDMA provider drivers call 
     <b>NetDmaGetVersion</b> at IRQL = PASSIVE_LEVEL.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.net_dma_provider_characteristics" tabindex="0"><b>
-   NET_DMA_PROVIDER_CHARACTERISTICS</b></mshelp:link>
-
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
+
+
+<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisgetroutineaddress.md">NdisGetRoutineAddress</a>
+
+
 
  
 

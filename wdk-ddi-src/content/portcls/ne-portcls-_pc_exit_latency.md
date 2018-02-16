@@ -1,14 +1,14 @@
 ---
 UID: NE:portcls._PC_EXIT_LATENCY
-title: _PC_EXIT_LATENCY
+title: "_PC_EXIT_LATENCY"
 author: windows-driver-content
 description: This topic discusses the PC_EXIT_LATENCY enum, and describes its members. The latency times map to specific maximum times in which the device must be able to exit its sleep state and enter the fully functional state (D0).
 old-location: audio\pc_exit_latency.htm
 old-project: audio
 ms.assetid: 9D1DA7D6-4200-4B5A-9EA5-0455DF56D6D8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PC_EXIT_LATENCY enumeration [Audio Devices], _PC_EXIT_LATENCY, PC_EXIT_LATENCY, *PPC_EXIT_LATENCY, audio.pc_exit_latency, portcls/PC_EXIT_LATENCY, PcExitLatencyFast, portcls/PcExitLatencyResponsive, portcls/PcExitLatencyInstant, portcls/PcExitLatencyFast, PcExitLatencyInstant, PcExitLatencyResponsive
+ms.date: 2/8/2018
+ms.keywords: "_PC_EXIT_LATENCY, PC_EXIT_LATENCY, portcls/PcExitLatencyInstant, PcExitLatencyFast, *PPC_EXIT_LATENCY, portcls/PC_EXIT_LATENCY, audio.pc_exit_latency, portcls/PcExitLatencyResponsive, PcExitLatencyResponsive, PcExitLatencyInstant, portcls/PcExitLatencyFast, PC_EXIT_LATENCY enumeration [Audio Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Portcls.h
-apiname: 
+apiname:
 -	PC_EXIT_LATENCY
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # _PC_EXIT_LATENCY enumeration

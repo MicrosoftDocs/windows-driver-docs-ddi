@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_CONNECT_VER3
-title: _CMP_CONNECT_VER3
+title: "_CMP_CONNECT_VER3"
 author: windows-driver-content
 description: This structure contains information for a connection request.
 old-location: ieee\cmp_connect_ver3.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1F2C2B8E-6535-40F1-A5D3-46DAD43E923E
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PCMP_CONNECT_VER3, CMP_CONNECT_VER3, CMP_CONNECT_VER3 structure [Buses], PCMP_CONNECT_VER3 structure pointer [Buses], _CMP_CONNECT_VER3, 61883/PCMP_CONNECT_VER3, IEEE.cmp_connect_ver3, PCMP_CONNECT_VER3, *PCMP_CONNECT, CMP_CONNECT, 61883/CMP_CONNECT_VER3
+ms.keywords: CMP_CONNECT, PCMP_CONNECT_VER3, PCMP_CONNECT_VER3 structure pointer [Buses], _CMP_CONNECT_VER3, *PCMP_CONNECT, IEEE.cmp_connect_ver3, 61883/CMP_CONNECT_VER3, CMP_CONNECT_VER3, CMP_CONNECT_VER3 structure [Buses], *PCMP_CONNECT_VER3, 61883/PCMP_CONNECT_VER3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CMP_CONNECT_VER3
 product: Windows
 targetos: Windows
-req.typenames: *PCMP_CONNECT_VER3, CMP_CONNECT_VER3
+req.typenames: "*PCMP_CONNECT_VER3, CMP_CONNECT_VER3"
 ---
 
 # _CMP_CONNECT_VER3 structure
@@ -99,6 +99,8 @@ The handle for the created connection.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

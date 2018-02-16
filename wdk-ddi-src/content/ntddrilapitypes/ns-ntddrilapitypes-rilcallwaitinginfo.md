@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 526ce708-93bb-43f2-9d78-b3e8360e01da
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILCALLWAITINGINFO, *LPRILCALLWAITINGINFO, RILCALLWAITINGINFO, netvista.rilcallwaitinginfo, RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILCALLWAITINGINFO, ntddrilapitypes/RILCALLWAITINGINFO, netvista.rilcallwaitinginfo, RILCALLWAITINGINFO, RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLWAITINGINFO
 product: Windows
 targetos: Windows
-req.typenames: RILCALLWAITINGINFO, *LPRILCALLWAITINGINFO
+req.typenames: "*LPRILCALLWAITINGINFO, RILCALLWAITINGINFO"
 ---
 
 # RILCALLWAITINGINFO structure
@@ -74,19 +74,14 @@ typedef struct _RILCALLWAITINGINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwCallType
 
 
-
 ### -field rrpiCallerInfo
-
 

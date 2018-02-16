@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2bdf9564-70b0-4936-95e5-4470b731ac3b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauFormatConverter interface [Imaging Devices], ~CWiauFormatConverter method, CWiauFormatConverter::~CWiauFormatConverter, ~CWiauFormatConverter, wiautil/CWiauFormatConverter::~CWiauFormatConverter, wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, CWiauFormatConverter, ~CWiauFormatConverter method [Imaging Devices], ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface, image.cwiauformatconverter__cwiauformatconverter
+ms.keywords: CWiauFormatConverter::~CWiauFormatConverter, image.cwiauformatconverter__cwiauformatconverter, ~CWiauFormatConverter, wiautil/CWiauFormatConverter::~CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], ~CWiauFormatConverter method, wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface, ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauFormatConverter.~CWiauFormatConverter
 product: Windows
 targetos: Windows
@@ -67,10 +67,13 @@ void ~CWiauFormatConverter();
 
 
 
+
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
@@ -78,7 +81,11 @@ This method does not return a value.
 
 <a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540370">CWiauFormatConverter::CWiauFormatConverter</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40f4dfca-7ee6-48d2-b0a4-8a563587b2ab
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILPOSITIONINFOLTE, rilapitypes/RILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], *LPRILPOSITIONINFOLTE, netvista.rilpositioninfolte
+ms.keywords: "*LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPOSITIONINFOLTE, netvista.rilpositioninfolte, RILPOSITIONINFOLTE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPOSITIONINFOLTE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE
+req.typenames: "*LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE"
 req.product: Windows 10 or later.
 ---
 
@@ -130,6 +130,8 @@ Timing Advance (0...255) in bit periods, where a bit period is 48/13µs
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemdriveruni_drvgetgpddata.htm
 old-project: print
 ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml, IPrintOemDriverUni::DrvGetGPDData, IPrintOemDriverUni, prcomoem/IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata
+ms.date: 2/2/2018
+ms.keywords: print.iprintoemdriveruni_drvgetgpddata, IPrintOemDriverUni, IPrintOemDriverUni::DrvGetGPDData, print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface, DrvGetGPDData, prcomoem/IPrintOemDriverUni::DrvGetGPDData, DrvGetGPDData method [Print Devices], IPrintOemDriverUni interface [Print Devices], DrvGetGPDData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemDriverUni.DrvGetGPDData
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ
 ### -param dwType
 
 Caller-supplied flag indicating the type of GPD data being requested. Currently, the following flag is the only one defined:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -96,7 +97,8 @@ The method returns the string associated with a GPD file's *<b>OEMCustomData</b>
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pInputData
@@ -122,7 +124,9 @@ Receives the driver-supplied minimum buffer size, in bytes, required to contain 
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -161,13 +165,17 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If the buffer specified by <i>pBuffer</i> and <i>cbSize</i> is too small to receive the requested information, Unidrv supplies the required buffer size in the location pointed to by <i>pcbNeeded</i>, returns E_FAIL, and sets the error code to ERROR_INSUFFICIENT_BUFFER.
+
 
 

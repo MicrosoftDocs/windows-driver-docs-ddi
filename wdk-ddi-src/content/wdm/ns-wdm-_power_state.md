@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._POWER_STATE
-title: _POWER_STATE
+title: "_POWER_STATE"
 author: windows-driver-content
 description: The POWER_STATE union specifies a system power state value or a device power state value.
 old-location: kernel\power_state.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c3730035-74fc-421a-89dc-7411e53950f5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPOWER_STATE, POWER_STATE union [Kernel-Mode Driver Architecture], wdm/POWER_STATE, *PPOWER_STATE, PPOWER_STATE union pointer [Kernel-Mode Driver Architecture], kstruct_c_a0fca0b4-3d45-48e4-b3ee-ba473ac08347.xml, kernel.power_state, POWER_STATE, _POWER_STATE, wdm/PPOWER_STATE
+ms.keywords: PPOWER_STATE union pointer [Kernel-Mode Driver Architecture], wdm/PPOWER_STATE, POWER_STATE union [Kernel-Mode Driver Architecture], kstruct_c_a0fca0b4-3d45-48e4-b3ee-ba473ac08347.xml, _POWER_STATE, wdm/POWER_STATE, PPOWER_STATE, kernel.power_state, *PPOWER_STATE, POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_STATE, POWER_STATE
+req.typenames: "*PPOWER_STATE, POWER_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -82,23 +82,35 @@ A device power state value of type <a href="..\wudfddi\ne-wudfddi-_device_power_
 ## -remarks
 
 
+
 The <b>POWER_STATE</b> union is used in conjunction with the <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a> enumeration type to specify a system power state value or a device power state value. This union is also used in cases where the power state type is implicitly determined by the context in which it is used. For example, see <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a> and <a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>.
 
 For more information about power management, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548108">Introduction to Power Management</a>.
 
 
 
+
 ## -see-also
-
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
-
-<a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>
-
-<a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a>
 
 <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
+
+
+<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+
+
+
+<a href="..\wdm\nf-wdm-posetpowerstate.md">PoSetPowerState</a>
+
+
+
 <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+
+
+
+<a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a>
+
+
 
  
 

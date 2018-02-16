@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ISCSI_Persistent_Login
-title: _ISCSI_Persistent_Login
+title: "_ISCSI_Persistent_Login"
 author: windows-driver-content
 description: The ISCSI_Persistent_Login structure defines a persistent logon that the operating system initiates automatically when the computer boots up.
 old-location: storage\iscsi_persistent_login.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c43ee3dd-552a-41ab-9b4f-01611e44f453
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_86b54cb5-df75-47c0-8dc4-337a5f46bea0.xml, iscsiop/ISCSI_Persistent_Login, PISCSI_Persistent_Login structure pointer [Storage Devices], _ISCSI_Persistent_Login, ISCSI_Persistent_Login structure [Storage Devices], *PISCSI_Persistent_Login, ISCSI_Persistent_Login, storage.iscsi_persistent_login, iscsiop/PISCSI_Persistent_Login, PISCSI_Persistent_Login
+ms.keywords: structs-iSCSI_86b54cb5-df75-47c0-8dc4-337a5f46bea0.xml, *PISCSI_Persistent_Login, ISCSI_Persistent_Login structure [Storage Devices], ISCSI_Persistent_Login, iscsiop/PISCSI_Persistent_Login, iscsiop/ISCSI_Persistent_Login, PISCSI_Persistent_Login structure pointer [Storage Devices], PISCSI_Persistent_Login, _ISCSI_Persistent_Login, storage.iscsi_persistent_login
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	ISCSI_Persistent_Login
 product: Windows
 targetos: Windows
-req.typenames: ISCSI_Persistent_Login, *PISCSI_Persistent_Login
+req.typenames: "*PISCSI_Persistent_Login, ISCSI_Persistent_Login"
 ---
 
 # _ISCSI_Persistent_Login structure
@@ -128,15 +128,25 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
+
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
 
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
+
+
 
  
 

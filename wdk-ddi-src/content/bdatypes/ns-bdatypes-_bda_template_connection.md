@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TEMPLATE_CONNECTION
-title: _BDA_TEMPLATE_CONNECTION
+title: "_BDA_TEMPLATE_CONNECTION"
 author: windows-driver-content
 description: The BDA_TEMPLATE_CONNECTION structure describes the template for a BDA connection in terms of where it begins and ends.
 old-location: stream\bda_template_connection.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: f3b5d06d-0557-49a8-9c0d-be964203108a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml, bdatypes/PBDA_TEMPLATE_CONNECTION, *PBDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], _BDA_TEMPLATE_CONNECTION, stream.bda_template_connection, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], bdatypes/BDA_TEMPLATE_CONNECTION
+ms.keywords: bdatypes/PBDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], bdatypes/BDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION, stream.bda_template_connection, *PBDA_TEMPLATE_CONNECTION, _BDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml, BDA_TEMPLATE_CONNECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdatypes.h
-apiname: 
+apiname:
 -	BDA_TEMPLATE_CONNECTION
 product: Windows
 targetos: Windows
-req.typenames: BDA_TEMPLATE_CONNECTION, *PBDA_TEMPLATE_CONNECTION
+req.typenames: "*PBDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION"
 ---
 
 # _BDA_TEMPLATE_CONNECTION structure
@@ -92,17 +92,29 @@ Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX a
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
 <a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
+
+
 <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+
+
+
+<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+
+
+
+<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: print\iprinterscriptablesequentialstream_read.htm
 old-project: print
 ms.assetid: 1E13DF22-9C45-4475-8912-CC836EFC0A22
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: Read method [Print Devices], IPrinterScriptableSequentialStream interface, IPrinterScriptableSequentialStream, Read method [Print Devices], Read, printerextension/IPrinterScriptableSequentialStream::Read, print.iprinterscriptablesequentialstream_read, IPrinterScriptableSequentialStream interface [Print Devices], Read method, IPrinterScriptableSequentialStream::Read
+ms.date: 2/2/2018
+ms.keywords: Read method [Print Devices], IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_read, Read method [Print Devices], printerextension/IPrinterScriptableSequentialStream::Read, IPrinterScriptableSequentialStream, Read, IPrinterScriptableSequentialStream interface [Print Devices], Read method, IPrinterScriptableSequentialStream::Read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: printerextension.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	printerextension.h
-apiname: 
+apiname:
 -	IPrinterScriptableSequentialStream.Read
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ The number of bytes to read.
 
 
 
+
 #### - ppdispArray [out, retval]
 
 The returned array.
@@ -88,7 +89,9 @@ The returned array.
 ## -returns
 
 
+
 This method returns an <b>HRESULT</b> value.
+
 
 
 
@@ -96,9 +99,11 @@ This method returns an <b>HRESULT</b> value.
 
 <a href="https://msdn.microsoft.com/85DF7DCB-7AB1-4A46-AD70-6D47D9F98079">IPrinterScriptableSequentialStream</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterScriptableSequentialStream::Read method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterScriptableSequentialStream::Read method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

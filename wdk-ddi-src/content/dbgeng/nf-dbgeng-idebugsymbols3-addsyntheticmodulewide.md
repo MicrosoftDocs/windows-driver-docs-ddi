@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc5dc9f4-53a6-468a-907c-9b271fed83aa
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: AddSyntheticModuleWide, IDebugSymbols3::AddSyntheticModuleWide, AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModuleWide method, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, IDebugSymbols3, debugger.addsyntheticmodulewide, AddSyntheticModuleWide method [Windows Debugging]
+ms.keywords: debugger.addsyntheticmodulewide, AddSyntheticModuleWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::AddSyntheticModuleWide, dbgeng/IDebugSymbols3::AddSyntheticModuleWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticModuleWide method, AddSyntheticModuleWide method [Windows Debugging], AddSyntheticModuleWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.AddSyntheticModuleWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::AddSyntheticModuleWide method
@@ -99,6 +99,7 @@ Set to DEBUG_ADDSYNTHMOD_DEFAULT.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,13 +116,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 The memory region of the synthetic module, described by the <i>Base</i> and <i>Size</i> parameters, must not overlap the memory region of any other module.
@@ -132,13 +136,20 @@ For more information about synthetic modules, see <a href="https://msdn.microsof
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

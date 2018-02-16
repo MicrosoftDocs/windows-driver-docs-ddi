@@ -1,14 +1,14 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_DISABLE
-title: _USBDEVICE_DISABLE
+title: "_USBDEVICE_DISABLE"
 author: windows-driver-content
 description: Contains parameters for a request to disable the specified device. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_DISABLE callback function.
 old-location: buses\_usbdevice_disable.htm
 old-project: usbref
 ms.assetid: C9F2331F-0C16-47F3-9FDE-2719E179513F
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: P_USBDEVICE_DISABLE, buses._usbdevice_disable, USBDEVICE_DISABLE, P_USBDEVICE_DISABLE structure pointer [Buses], *PUSBDEVICE_DISABLE, USBDEVICE_DISABLE structure [Buses], ucxusbdevice/P_USBDEVICE_DISABLE, ucxusbdevice/_USBDEVICE_DISABLE, _USBDEVICE_DISABLE
+ms.date: 2/8/2018
+ms.keywords: USBDEVICE_DISABLE structure [Buses], buses._usbdevice_disable, P_USBDEVICE_DISABLE structure pointer [Buses], ucxusbdevice/_USBDEVICE_DISABLE, USBDEVICE_DISABLE, *PUSBDEVICE_DISABLE, ucxusbdevice/P_USBDEVICE_DISABLE, _USBDEVICE_DISABLE, P_USBDEVICE_DISABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxusbdevice.h
-apiname: 
+apiname:
 -	USBDEVICE_DISABLE
 product: Windows
 targetos: Windows
-req.typenames: USBDEVICE_DISABLE, *PUSBDEVICE_DISABLE
+req.typenames: "*PUSBDEVICE_DISABLE, USBDEVICE_DISABLE"
 req.product: Windows 10 or later.
 ---
 
@@ -85,15 +85,21 @@ A handle to the default endpoint of the USB device or hub to disable.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_disable.md">EVT_UCX_USBDEVICE_DISABLE</a>
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_enable.md">USBDEVICE_ENABLE</a>
+
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_enable.md">USBDEVICE_ENABLE</a>
+
+
+<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_disable.md">EVT_UCX_USBDEVICE_DISABLE</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBDEVICE_DISABLE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBDEVICE_DISABLE structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

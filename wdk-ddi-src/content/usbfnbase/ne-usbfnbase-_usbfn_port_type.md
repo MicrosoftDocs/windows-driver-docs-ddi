@@ -1,14 +1,14 @@
 ---
 UID: NE:usbfnbase._USBFN_PORT_TYPE
-title: _USBFN_PORT_TYPE
+title: "_USBFN_PORT_TYPE"
 author: windows-driver-content
 description: Defines the possible port types that can be returned by the client driver during port detection.
 old-location: buses\usbfn_port_type.htm
 old-project: usbref
 ms.assetid: D45F8CD0-CB54-4DE4-BD6B-FF6A35FCBFEC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbfnbase/UsbfnStandardDownstreamPort, UsbfnDedicatedChargingPort, UsbfnPortTypeMaximum, USBFN_PORT_TYPE enumeration [Buses], buses.usbfn_port_type, usbfnbase/UsbfnUnknownPort, UsbfnStandardDownstreamPort, UsbfnChargingDownstreamPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnChargingDownstreamPort, UsbfnInvalidDedicatedChargingPort, *PUSBFN_PORT_TYPE, usbfnbase/UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnPortTypeMaximum, usbfnbase/USBFN_PORT_TYPE, UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnDedicatedChargingPort, UsbfnUnknownPort, _USBFN_PORT_TYPE, USBFN_PORT_TYPE
+ms.date: 2/8/2018
+ms.keywords: UsbfnPortTypeMaximum, usbfnbase/UsbfnPortTypeMaximum, USBFN_PORT_TYPE, buses.usbfn_port_type, UsbfnStandardDownstreamPort, usbfnbase/UsbfnChargingDownstreamPort, usbfnbase/UsbfnDedicatedChargingPort, UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnStandardDownstreamPort, UsbfnChargingDownstreamPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, USBFN_PORT_TYPE enumeration [Buses], UsbfnUnknownPort, usbfnbase/UsbfnUnknownPort, *PUSBFN_PORT_TYPE, UsbfnDedicatedChargingPort, UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnProprietaryDedicatedChargingPort, usbfnbase/USBFN_PORT_TYPE, _USBFN_PORT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	USBFN_PORT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_PORT_TYPE, USBFN_PORT_TYPE
+req.typenames: "*PUSBFN_PORT_TYPE, USBFN_PORT_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -113,9 +113,11 @@ The maximum value of the enumeration.
 
 <a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md">USBFN_GET_ATTACH_ACTION</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_PORT_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_PORT_TYPE enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

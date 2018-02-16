@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_UICC_RESET
-title: _WWAN_SET_UICC_RESET
+title: "_WWAN_SET_UICC_RESET"
 author: windows-driver-content
 description: The WWAN_SET_UICC_RESET structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a UICC smart card.
 old-location: netvista\wwan_set_uicc_reset.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33711459-70C8-43D2-974D-B90EC0DD8ED6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_SET_UICC_RESET structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_UICC_RESET structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_UICC_RESET, wwan/WWAN_SET_UICC_RESET, *PWWAN_SET_UICC_RESET, WWAN_SET_UICC_RESET, PWWAN_SET_UICC_RESET, _WWAN_SET_UICC_RESET, netvista.wwan_set_uicc_reset
+ms.keywords: WWAN_SET_UICC_RESET structure [Network Drivers Starting with Windows Vista], netvista.wwan_set_uicc_reset, PWWAN_SET_UICC_RESET, _WWAN_SET_UICC_RESET, *PWWAN_SET_UICC_RESET, wwan/PWWAN_SET_UICC_RESET, PWWAN_SET_UICC_RESET structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_UICC_RESET, wwan/WWAN_SET_UICC_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SET_UICC_RESET
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SET_UICC_RESET, WWAN_SET_UICC_RESET
+req.typenames: "*PWWAN_SET_UICC_RESET, WWAN_SET_UICC_RESET"
 req.product: Windows 10 or later.
 ---
 
@@ -75,11 +75,17 @@ The passthrough action specified by the host. For more info, see <a href="..\wwa
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_uicc_reset.md">NDIS_WWAN_SET_UICC_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+
+
 
 <a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_action.md">WWAN_UICC_PASSTHROUGH_ACTION</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_uicc_reset.md">NDIS_WWAN_SET_UICC_RESET</a>
+
+
 
  
 

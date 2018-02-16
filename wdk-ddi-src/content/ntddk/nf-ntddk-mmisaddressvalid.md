@@ -2,13 +2,13 @@
 UID: NF:ntddk.MmIsAddressValid
 title: MmIsAddressValid function
 author: windows-driver-content
-description: The MmIsAddressValid routine checks whether a page fault will occur for a read or write operation at a given virtual address.Warning  We do not recommend using this function. 
+description: The MmIsAddressValid routine checks whether a page fault will occur for a read or write operation at a given virtual address.Warning  We do not recommend using this function.
 old-location: kernel\mmisaddressvalid.htm
 old-project: kernel
 ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.mmisaddressvalid, k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, MmIsAddressValid, ntddk/MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/MmIsAddressValid, MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, kernel.mmisaddressvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmIsAddressValid
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # MmIsAddressValid function
@@ -75,20 +75,26 @@ A pointer to the nonpaged virtual address to check. The caller must ensure that 
 ## -returns
 
 
+
 If no page fault would occur from reading or writing at the given virtual address, <b>MmIsAddressValid</b> returns <b>TRUE</b>.
+
 
 
 
 ## -remarks
 
 
+
 Even if <b>MmIsAddressValid</b> returns <b>TRUE</b>, accessing the address can cause page faults unless the memory has been locked down or the address is a valid nonpaged pool address. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
 
  
 

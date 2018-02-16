@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d22baeb-d08f-4554-9af4-dae9480a471a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsClockPropertySet interface [Streaming Media Devices], KsGetTime method, stream.iksclockpropertyset_ksgettime, KsGetTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet, ksproxy/IKsClockPropertySet::KsGetTime, KsGetTime, IKsClockPropertySet::KsGetTime, KsGetTime method [Streaming Media Devices], ksproxy_056c73f0-b713-4f86-a38c-a3455e33b773.xml
+ms.keywords: ksproxy/IKsClockPropertySet::KsGetTime, stream.iksclockpropertyset_ksgettime, ksproxy_056c73f0-b713-4f86-a38c-a3455e33b773.xml, KsGetTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetTime method [Streaming Media Devices], IKsClockPropertySet, IKsClockPropertySet::KsGetTime, KsGetTime, IKsClockPropertySet interface [Streaming Media Devices], KsGetTime method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsClockPropertySet.KsGetTime
 product: Windows
 targetos: Windows
@@ -75,22 +75,30 @@ Pointer to a variable that receives the current clock time.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565095">KSPROPERTY_CLOCK_TIME</a> property to retrieve the current clock time. 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559763">IKsClockPropertySet::KsSetTime</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565095">KSPROPERTY_CLOCK_TIME</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559763">IKsClockPropertySet::KsSetTime</a>
+
 
  
 

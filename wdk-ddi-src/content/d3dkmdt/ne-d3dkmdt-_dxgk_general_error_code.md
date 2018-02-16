@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_GENERAL_ERROR_CODE
-title: _DXGK_GENERAL_ERROR_CODE
+title: "_DXGK_GENERAL_ERROR_CODE"
 author: windows-driver-content
 description: The DXGK_GENERAL_ERROR_CODE enumeration specifies a set of predefined graphics processing unit (GPU) errors reported via a page fault interrupt.
 old-location: display\dxgk_general_error_code.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 678998C5-DC3B-471D-ADBF-876EFB53D227
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], _DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, display.dxgk_general_error_code, DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_PAGE_FAULT, DXGK_GENERAL_ERROR_INVALID_INSTRUCTION
+ms.keywords: d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, d3dkmdt/DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, display.dxgk_general_error_code, DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, _DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_PAGE_FAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmdt.h
-apiname: 
+apiname:
 -	DXGK_GENERAL_ERROR_CODE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ Indicates that the GPU encountered an invalid instruction in the DMA command buf
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+
+
 
  
 

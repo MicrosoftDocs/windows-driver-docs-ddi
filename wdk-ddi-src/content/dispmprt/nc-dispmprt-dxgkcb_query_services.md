@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkCbQueryServices
 product: Windows
 targetos: Windows
@@ -90,16 +90,20 @@ A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure th
 ## -returns
 
 
+
 <b>DxgkCbQueryServices</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 An interface, in this context, is a set of functions implemented by the display port driver. The display port driver makes the functions of an interface available to other drivers by providing function pointers in response to <b>DxgkCbQueryServices</b>.
 
 To obtain an AGP interface, do the following:
+
 <ol>
 <li>
 Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a> structure.
@@ -121,7 +125,9 @@ Call <b>DxgkCbQueryServices</b>; set <i>ServicesType</i> to <b>DxgkServicesAgp</
 On return from <b>DxgkCbQueryServices</b>, your DXGK_AGP_INTERFACE structure will contain pointers to the interface functions: <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_allocate_pool.md">AgpAllocatePool</a> and the like.
 
 </li>
-</ol>To obtain a Debug Report interface, do the following:
+</ol>
+To obtain a Debug Report interface, do the following:
+
 <ol>
 <li>
 Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_debug_report_interface.md">DXGK_DEBUG_REPORT_INTERFACE</a> structure.
@@ -143,7 +149,9 @@ Call <b>DxgkCbQueryServices</b>; set <i>ServicesType</i> to <b>DxgkServicesDebug
 On return from <b>DxgkCbQueryServices</b>, your DXGK_DEBUG_REPORT_INTERFACE structure will contain pointers to the interface functions: <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> and the like.
 
 </li>
-</ol>To obtain a Timed Operation interface, do the following:
+</ol>
+To obtain a Timed Operation interface, do the following:
+
 <ol>
 <li>
 Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_timed_operation_interface.md">DXGK_TIMED_OPERATION_INTERFACE</a> structure.
@@ -168,15 +176,24 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 </ol>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
 
 <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
+
 
  
 

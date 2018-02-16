@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCalcPrivateCommandQueueSize
 product: Windows
 targetos: Windows
@@ -74,8 +74,9 @@ SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -95,13 +96,17 @@ The handle of a device.
 ## -returns
 
 
+
 The size of the queue.
+
 
 
 
 ## -remarks
 
 
+
 Access this callback function by using a device functions core structure, such as the <b>D3D12DDI_DEVICE_FUNCS_CORE_0003</b> structure.
+
 
 

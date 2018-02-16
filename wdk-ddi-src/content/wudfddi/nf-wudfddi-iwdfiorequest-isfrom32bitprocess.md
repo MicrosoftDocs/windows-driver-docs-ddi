@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 80e43bd7-9ab9-46b0-a7f3-08c3577be4bc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IsFrom32BitProcess method, IWDFIoRequest interface, IWDFIoRequest::IsFrom32BitProcess, IWDFIoRequest, umdf.iwdfiorequest_isfrom32bitprocess, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, wdf.iwdfiorequest_isfrom32bitprocess, IsFrom32BitProcess method, IWDFIoRequest interface, IsFrom32BitProcess method, IsFrom32BitProcess, wudfddi/IWDFIoRequest::IsFrom32BitProcess
+ms.keywords: wudfddi/IWDFIoRequest::IsFrom32BitProcess, IsFrom32BitProcess, wdf.iwdfiorequest_isfrom32bitprocess, IWDFIoRequest, umdf.iwdfiorequest_isfrom32bitprocess, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, IsFrom32BitProcess method, IWDFIoRequest interface, IsFrom32BitProcess method, IWDFIoRequest::IsFrom32BitProcess, IWDFIoRequest interface, IsFrom32BitProcess method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.IsFrom32BitProcess
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,16 +69,21 @@ BOOL  IsFrom32BitProcess();
 
 
 
+
 ## -returns
+
 
 
 <b>IsFrom32BitProcess</b> returns a BOOL value that indicates whether the request originated from a 32-bit process. <b>TRUE</b> indicates the request originated from a 32-bit process. <b>FALSE</b> indicates the request did not originate from a 32-bit process.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

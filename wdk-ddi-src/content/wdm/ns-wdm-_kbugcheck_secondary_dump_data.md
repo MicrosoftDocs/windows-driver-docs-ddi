@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_SECONDARY_DUMP_DATA
-title: _KBUGCHECK_SECONDARY_DUMP_DATA
+title: "_KBUGCHECK_SECONDARY_DUMP_DATA"
 author: windows-driver-content
 description: The KBUGCHECK_SECONDARY_DUMP_DATA structure describes a section of driver-supplied data to be written by BugCheckSecondaryDumpDataCallback to the crash dump file.
 old-location: kernel\kbugcheck_secondary_dump_data.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dacb98cd-46bc-49d0-8ebd-29bb2dd5b713
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kstruct_c_a9e0d726-41eb-4cf2-b2d4-c977be8750bb.xml, *PKBUGCHECK_SECONDARY_DUMP_DATA, PKBUGCHECK_SECONDARY_DUMP_DATA structure pointer [Kernel-Mode Driver Architecture], KBUGCHECK_SECONDARY_DUMP_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA, kernel.kbugcheck_secondary_dump_data, wdm/KBUGCHECK_SECONDARY_DUMP_DATA, wdm/PKBUGCHECK_SECONDARY_DUMP_DATA, _KBUGCHECK_SECONDARY_DUMP_DATA
+ms.keywords: KBUGCHECK_SECONDARY_DUMP_DATA, wdm/PKBUGCHECK_SECONDARY_DUMP_DATA, kernel.kbugcheck_secondary_dump_data, PKBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_SECONDARY_DUMP_DATA structure pointer [Kernel-Mode Driver Architecture], *PKBUGCHECK_SECONDARY_DUMP_DATA, wdm/KBUGCHECK_SECONDARY_DUMP_DATA, _KBUGCHECK_SECONDARY_DUMP_DATA, kstruct_c_a9e0d726-41eb-4cf2-b2d4-c977be8750bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	KBUGCHECK_SECONDARY_DUMP_DATA
 product: Windows
 targetos: Windows
@@ -106,13 +106,17 @@ Specifies the size of the buffer, in bytes, that was specified by the <b>OutBuff
 ## -remarks
 
 
+
 For more information about how this structure is used, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
+
+
 
  
 

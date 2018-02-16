@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d3bf2b1a-22ac-4b37-a442-ecd8a2108b46
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_MSGRES_GWLTRANSPORTCODE, ntddrilapitypes/RIL_PARAM_MSGRES_CDMACAUSECODE, RIL_PARAM_MSGRES_MSGID, RIL_PARAM_MSGRES_GWLTRANSPORTCODE, ntddrilapitypes/RIL_PARAM_MSGRES_GWLRELAYCODE, RILSENDMSGRESPONSEPARAMMASK, RIL_PARAM_MSGRES_CDMACAUSECODE, netvista.rilsendmsgresponseparammask, ntddrilapitypes/RILSENDMSGRESPONSEPARAMMASK, RILSENDMSGRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSGRES_GWLRELAYCODE, ntddrilapitypes/RIL_PARAM_MSGRES_MSGID, RIL_PARAM_MSGRES_CDMAERRORCLASS, RIL_PARAM_MSGRES_ALL, ntddrilapitypes/RIL_PARAM_MSGRES_ALL, ntddrilapitypes/RIL_PARAM_MSGRES_CDMAERRORCLASS
+ms.keywords: ntddrilapitypes/RILSENDMSGRESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_MSGRES_MSGID, ntddrilapitypes/RIL_PARAM_MSGRES_CDMAERRORCLASS, RIL_PARAM_MSGRES_ALL, RILSENDMSGRESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_MSGRES_ALL, netvista.rilsendmsgresponseparammask, ntddrilapitypes/RIL_PARAM_MSGRES_CDMACAUSECODE, RIL_PARAM_MSGRES_MSGID, RILSENDMSGRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSGRES_GWLTRANSPORTCODE, RIL_PARAM_MSGRES_CDMACAUSECODE, ntddrilapitypes/RIL_PARAM_MSGRES_GWLTRANSPORTCODE, ntddrilapitypes/RIL_PARAM_MSGRES_GWLRELAYCODE, RIL_PARAM_MSGRES_CDMAERRORCLASS, RIL_PARAM_MSGRES_GWLRELAYCODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSENDMSGRESPONSEPARAMMASK
 product: Windows
 targetos: Windows
@@ -75,27 +75,20 @@ typedef enum _RILSENDMSGRESPONSEPARAMMASK {
 ### -field RIL_PARAM_MSGRES_RETURN
 
 
-
 ### -field RIL_PARAM_MSGRES_CDMACAUSECODE
-
 
 
 ### -field RIL_PARAM_MSGRES_CDMAERRORCLASS
 
 
-
 ### -field RIL_PARAM_MSGRES_GWLTRANSPORTCODE
-
 
 
 ### -field RIL_PARAM_MSGRES_GWLRELAYCODE
 
 
-
 ### -field RIL_PARAM_MSGRES_MSGID
 
 
-
 ### -field RIL_PARAM_MSGRES_ALL
-
 

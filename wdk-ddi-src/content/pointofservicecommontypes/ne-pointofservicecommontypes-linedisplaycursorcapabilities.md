@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 3F7AE8FE-F975-43AF-9FA0-C494E506D4B1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: LineDisplayCursorCapabilities, pos.linedisplaycursorcapabilities, pointofservicecommontypes/LineDisplayCursorCapabilities, LineDisplayCursorCapabilities enumeration, pointofservicecommontypes/
+ms.keywords: LineDisplayCursorCapabilities enumeration, pos.linedisplaycursorcapabilities, pointofservicecommontypes/LineDisplayCursorCapabilities, LineDisplayCursorCapabilities, pointofservicecommontypes/
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicecommontypes.h
-apiname: 
+apiname:
 -	LineDisplayCursorCapabilities
 product: Windows
 targetos: Windows
@@ -70,33 +70,25 @@ typedef enum _LineDisplayCursorCapabilities {
 ### -field CursorNone
 
 
-
 ### -field CursorFixed
-
 
 
 ### -field CursorBlock
 
 
-
 ### -field CursorHalfBlock
-
 
 
 ### -field CursorUnderline
 
 
-
 ### -field CursorReverse
-
 
 
 ### -field CursorOther
 
 
-
 ### -field CursorBlink
-
 
 
 

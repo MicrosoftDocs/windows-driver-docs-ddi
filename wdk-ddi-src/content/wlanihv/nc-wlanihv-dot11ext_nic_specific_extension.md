@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtNicSpecificExtension
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -94,18 +94,7 @@ A pointer to a caller-allocated input buffer that contains the data required to 
      operation. The format of this data is defined by the IHV.
 
 
-### -param *pdwOutBufferSize
-
-
-
-### -param pvOutBuffer [out]
-
-A pointer to a caller-allocated buffer that contains data returned from the Native 802.11 miniport
-     driver for the specified request. The format of this data is defined by the IHV. This parameter can be
-     <b>NULL</b> if data is not to be returned by the Native 802.11 miniport driver.
-
-
-#### - pdwOutBufferSize [in, out]
+### -param *pdwOutBufferSize [in, out]
 
 A pointer to a caller-allocated DWORD variable. When the 
      <b>Dot11ExtNicSpecificExtension</b> function is called, the IHV Extensions DLL
@@ -115,7 +104,15 @@ A pointer to a caller-allocated DWORD variable. When the
      <i>pvOutBuffer</i> parameter.
 
 
+### -param pvOutBuffer [out]
+
+A pointer to a caller-allocated buffer that contains data returned from the Native 802.11 miniport
+     driver for the specified request. The format of this data is defined by the IHV. This parameter can be
+     <b>NULL</b> if data is not to be returned by the Native 802.11 miniport driver.
+
+
 ## -returns
+
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
@@ -124,7 +121,9 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -132,19 +131,26 @@ The
     pass proprietary method requests to the Native 802.11 miniport driver, which is referenced by the 
     <i>hDot11SvcHandle</i> parameter. The operating system issues the method request through the Native 802.11
     
-    <mshelp:link keywords="netvista.oid_dot11_nic_specific_extension" tabindex="0">
-    OID_DOT11_NIC_SPECIFIC_EXTENSION</mshelp:link> object identifier (OID).
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
+    OID_DOT11_NIC_SPECIFIC_EXTENSION</a> object identifier (OID).
+
 <div class="alert"><b>Note</b>  OID_DOT11_NIC_SPECIFIC_EXTENSION is an optional OID for support by the Native
     802.11 miniport driver. If the driver does not support this OID, 
-    <b>Dot11ExtNicSpecificExtension</b> will return a value of ERROR_NOT_SUPPORTED.</div><div> </div>
+    <b>Dot11ExtNicSpecificExtension</b> will return a value of ERROR_NOT_SUPPORTED.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_nic_specific_extension" tabindex="0">
-   OID_DOT11_NIC_SPECIFIC_EXTENSION</mshelp:link>
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-nic-specific-extension">
+   OID_DOT11_NIC_SPECIFIC_EXTENSION</a>
+
+
 
  
 

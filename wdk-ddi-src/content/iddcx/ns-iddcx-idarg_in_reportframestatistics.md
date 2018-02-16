@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3d3e0dca-bb05-4e5c-aa4a-76bb178f60bf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDARG_IN_REPORTFRAMESTATISTICS, display.idarg_in_reportframestatistics, IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], IDARG_IN_REPORTFRAMESTATISTICS
+ms.keywords: IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], iddcx/IDARG_IN_REPORTFRAMESTATISTICS, IDARG_IN_REPORTFRAMESTATISTICS, display.idarg_in_reportframestatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDARG_IN_REPORTFRAMESTATISTICS
 product: Windows
 targetos: Windows

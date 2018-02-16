@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 10d08fe7-13ab-4bdb-ab91-bac3822de8ee
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: strmini/StreamClassCompleteRequestAndMarkQueueReady, StreamClassCompleteRequestAndMarkQueueReady, stream.streamclasscompleterequestandmarkqueueready, strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices]
+ms.keywords: StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices], strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, stream.streamclasscompleterequestandmarkqueueready, StreamClassCompleteRequestAndMarkQueueReady, strmini/StreamClassCompleteRequestAndMarkQueueReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Stream.lib
 -	Stream.dll
-apiname: 
+apiname:
 -	StreamClassCompleteRequestAndMarkQueueReady
 product: Windows
 targetos: Windows
@@ -77,14 +77,18 @@ Pointer to the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_ST
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 This call is equivalent to calling <b>StreamClass</b><i>Xxx</i><b>Notification</b> twice, once to signal that the request is completed, and once to signal that the minidriver is ready for the next request of that type.
+
 
 
 
@@ -92,9 +96,15 @@ This call is equivalent to calling <b>StreamClass</b><i>Xxx</i><b>Notification</
 
 <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>
 
+
+
 <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a>
 
+
+
 <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_CONTEXT_STATE
-title: _WWAN_SET_CONTEXT_STATE
+title: "_WWAN_SET_CONTEXT_STATE"
 author: windows-driver-content
 description: The WWAN_SET_CONTEXT_STATE structure represents the command to set the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_set_context_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1ed31af-97a7-472e-b834-577470950335
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_set_context_state, PWWAN_SET_CONTEXT_STATE, WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, WWAN_SET_CONTEXT_STATE, wwan/WWAN_SET_CONTEXT_STATE, _WWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SET_CONTEXT_STATE
+ms.keywords: wwan/PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_set_context_state, PWWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE, _WWAN_SET_CONTEXT_STATE, *PWWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, wwan/WWAN_SET_CONTEXT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SET_CONTEXT_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE
+req.typenames: "*PWWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -94,6 +94,7 @@ The miniport driver must use the value in this member when completing
 Activate or deactivate a PDP context that is referenced in the 
      <b>ConnectionId</b> member. The following table shows the possible values a miniport driver can specify.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -121,7 +122,8 @@ Deactivate a currently activated PDP context referred by
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AccessString
@@ -153,6 +155,7 @@ A value from the WWAN_COMPRESSION enumeration that specifies whether compression
      sets this member to 
      <b>WwanCompressionNone</b> for CDMA-based devices.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -178,7 +181,8 @@ Enable header and data compression.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field AuthType
@@ -187,6 +191,7 @@ A value from the WWAN_AUTH_PROTOCOL enumeration that specifies the authenticatio
      the PDP activation. This member applies only to GSM-based devices. The MB Service sets this member to 
      <b>WwanAuthProtocolNone</b> for CDMA-based devices.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -232,7 +237,8 @@ Use the Microsoft Challenge Handshake Authentication Protocol (CHAP) v2.0.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field IPType
@@ -251,15 +257,24 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 
 
+
 ## -see-also
-
-<a href="..\wwan\ne-wwan-_wwan_activation_command.md">WWAN_ACTIVATION_COMMAND</a>
-
-<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
 
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_context_state.md">NDIS_WWAN_SET_CONTEXT_STATE</a>
 
+
+
+<a href="..\wwan\ne-wwan-_wwan_activation_command.md">WWAN_ACTIVATION_COMMAND</a>
+
+
+
+<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
+
+
 
  
 

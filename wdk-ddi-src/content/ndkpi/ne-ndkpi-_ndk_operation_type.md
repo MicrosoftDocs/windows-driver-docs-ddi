@@ -1,6 +1,6 @@
 ---
 UID: NE:ndkpi._NDK_OPERATION_TYPE
-title: _NDK_OPERATION_TYPE
+title: "_NDK_OPERATION_TYPE"
 author: windows-driver-content
 description: The NDK_OPERATION_TYPE enumeration defines types of NDK operations. Its enumeration values are used in the Type member of the NDK_RESULT_EX structure.
 old-location: netvista\ndk_operation_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EBB89BDA-6249-4D0F-A0EE-7074DDAFFFC1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdkOperationTypeSend, NdkOperationTypeReceiveAndInvalidate, netvista.ndk_operation_type, NdkOperationTypeBind, NdkOperationTypeInvalidate, NdkOperationTypeReceive, ndkpi/NdkOperationTypeWrite, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeReceive, NdkOperationTypeFastRegister, ndkpi/NdkOperationTypeBind, NdkOperationTypeWrite, NdkOperationTypeRead, ndkpi/NdkOperationTypeInvalidate, _NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeReceiveAndInvalidate, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NDK_OPERATION_TYPE, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeFastRegister
+ms.keywords: NdkOperationTypeRead, NDK_OPERATION_TYPE, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeInvalidate, NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeReceiveAndInvalidate, _NDK_OPERATION_TYPE, netvista.ndk_operation_type, ndkpi/NdkOperationTypeWrite, NdkOperationTypeFastRegister, NdkOperationTypeBind, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeReceive, ndkpi/NdkOperationTypeBind, ndkpi/NDK_OPERATION_TYPE, NdkOperationTypeSend, NdkOperationTypeReceive, ndkpi/NdkOperationTypeSend, NdkOperationTypeWrite, ndkpi/NdkOperationTypeFastRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_OPERATION_TYPE
 product: Windows
 targetos: Windows
@@ -117,6 +117,8 @@ An <i>NdkWrite</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>
 ## -see-also
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_result_ex.md">NDK_RESULT_EX</a>
+
+
 
  
 

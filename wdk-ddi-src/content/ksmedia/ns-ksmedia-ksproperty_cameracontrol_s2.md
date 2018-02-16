@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b0ea25c0-5b10-403f-8c61-7840fe062596
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ksmedia/PKSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2 structure [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2, vidcapstruct_8ffb951a-dfed-4871-b8f8-36e975884c1e.xml, ksmedia/KSPROPERTY_CAMERACONTROL_S2, stream.ksproperty_cameracontrol_s2, PKSPROPERTY_CAMERACONTROL_S2 structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S2
+ms.keywords: stream.ksproperty_cameracontrol_s2, PKSPROPERTY_CAMERACONTROL_S2 structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2, ksmedia/KSPROPERTY_CAMERACONTROL_S2, vidcapstruct_8ffb951a-dfed-4871-b8f8-36e975884c1e.xml, KSPROPERTY_CAMERACONTROL_S2 structure [Streaming Media Devices], *PKSPROPERTY_CAMERACONTROL_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_S2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_CAMERACONTROL_S2
 product: Windows
 targetos: Windows
@@ -84,6 +84,7 @@ Specifies the first value of the property. This member is read/write.
 ### -field Flags
 
 Indicates, for get requests, the current setting for the specified property from the values listed below. Indicates, for set requests, the desired setting for the specified property from the values listed below. This member can be set to one of the following values that are defined in <i>ksmedia.h</i>:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -129,12 +130,14 @@ Indicates that the setting is in relative values
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Capabilities
 
 Indicates the minidriver's camera control capabilities for the specified property. This member is read-only. This member can be set to one of the following values that are defined in <i>ksmedia.h</i>:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -180,7 +183,8 @@ Indicates that the device settings are in relative values
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Value2
@@ -191,6 +195,8 @@ Specifies the second value of the property. This member is read/write.
 ## -remarks
 
 
+
 This structure is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564425">KSPROPERTY_CAMERACONTROL_PANTILT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff564427">KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE</a> for filter-based get/set property requests.
+
 
 

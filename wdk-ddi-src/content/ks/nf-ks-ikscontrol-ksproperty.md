@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a80312ef-394a-4a59-8a04-35d7c60689b6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsProperty method [Streaming Media Devices], IKsControl interface, stream.ikscontrol_ksproperty2, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, IKsControl, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], ks/IKsControl::KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method
+ms.keywords: ks/IKsControl::KsProperty, IKsControl interface [Streaming Media Devices], KsProperty method, KsProperty, IKsControl::KsProperty, IKsControl, KsProperty method [Streaming Media Devices], avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, stream.ikscontrol_ksproperty2, KsProperty method [Streaming Media Devices], IKsControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IKsControl.KsProperty
 product: Windows
 targetos: Windows
@@ -99,14 +99,18 @@ Pointer to a variable that receives the size, in bytes, of the data that <b>KsPr
 ## -returns
 
 
+
 The <b>IKsControl::KsProperty</b> method returns the same value that would be returned if the property had been sent by IOCTL.
+
 
 
 
 ## -remarks
 
 
+
 To determine the buffer size that is required for a specific property request, you can call this method with <i>PropertyData</i> set to <b>NULL</b> and <i>DataLength</i> equal to zero. The method returns HRESULT_FROM_WIN32(ERROR_MORE_DATA), and <i>BytesReturned</i> contains the size of the required buffer.
+
 
 
 
@@ -114,9 +118,15 @@ To determine the buffer size that is required for a specific property request, y
 
 <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
+
+
 <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
 
+
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
 
  
 

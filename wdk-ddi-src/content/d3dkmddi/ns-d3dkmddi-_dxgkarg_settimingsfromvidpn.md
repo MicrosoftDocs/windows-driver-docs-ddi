@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETTIMINGSFROMVIDPN
-title: _DXGKARG_SETTIMINGSFROMVIDPN
+title: "_DXGKARG_SETTIMINGSFROMVIDPN"
 author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_SETTIMINGSFROMVIDPN.
 old-location: display\dxgkarg_settimingsfromvidpn.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 14D652C4-9812-481E-8E69-A6D7923F01A3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN structure pointer [Display Devices], *IN_OUT_PDXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN structure [Display Devices], d3dkmddi/PDXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKARG_SETTIMINGSFROMVIDPN, display.dxgkarg_settimingsfromvidpn, _DXGKARG_SETTIMINGSFROMVIDPN
+ms.keywords: PDXGKARG_SETTIMINGSFROMVIDPN structure pointer [Display Devices], _DXGKARG_SETTIMINGSFROMVIDPN, display.dxgkarg_settimingsfromvidpn, DXGKARG_SETTIMINGSFROMVIDPN, *IN_OUT_PDXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN structure [Display Devices], d3dkmddi/PDXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKARG_SETTIMINGSFROMVIDPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_SETTIMINGSFROMVIDPN
 product: Windows
 targetos: Windows

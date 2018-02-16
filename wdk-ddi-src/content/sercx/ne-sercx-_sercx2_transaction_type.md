@@ -1,6 +1,6 @@
 ---
 UID: NE:sercx._SERCX2_TRANSACTION_TYPE
-title: _SERCX2_TRANSACTION_TYPE
+title: "_SERCX2_TRANSACTION_TYPE"
 author: windows-driver-content
 description: The SERCX2_TRANSACTION_TYPE enumeration defines constants that indicate the type of data-transfer mechanism to use to perform an I/O transaction.
 old-location: serports\sercx2_transaction_type.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 9F50CA34-DDEA-49E4-8149-B92D00476720
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_TRANSACTION_TYPE, SerCx2TransactionTypeCustom, 2/SerCx2TransactionTypePio, 2/SerCx2TransactionTypeCustom, SERCX2_TRANSACTION_TYPE enumeration [Serial Ports], serports.sercx2_transaction_type, _SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeDefault, SerCx2TransactionTypePio, SerCx2TransactionTypeSystemDma, SerCx2TransactionTypeDefault, 2/SerCx2TransactionTypeSystemDma, 2/SERCX2_TRANSACTION_TYPE
+ms.keywords: 2/SerCx2TransactionTypeCustom, serports.sercx2_transaction_type, SERCX2_TRANSACTION_TYPE enumeration [Serial Ports], SerCx2TransactionTypeSystemDma, SerCx2TransactionTypeCustom, SERCX2_TRANSACTION_TYPE, 2/SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeSystemDma, 2/SerCx2TransactionTypeDefault, 2/SerCx2TransactionTypePio, SerCx2TransactionTypeDefault, _SERCX2_TRANSACTION_TYPE, SerCx2TransactionTypePio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX2_TRANSACTION_TYPE
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ Use the custom data-transfer mechanism to perform the I/O transaction.
 ## -remarks
 
 
+
 The <a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a> and <a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a> event callback functions return <b>SERCX2_TRANSACTION_TYPE</b> enumeration values.
+
 
 
 
@@ -102,7 +104,11 @@ The <a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.m
 
 <a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
 
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0ca676d9-5047-451a-abbb-2692cc2d69f6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_CameraControlAsyncOperation enumeration [Streaming Media Devices], KS_CAMERACONTROL_ASYNC_STOP, stream.ks_cameracontrolasyncoperation, ksmedia/KS_CAMERACONTROL_ASYNC_START, ksmedia/KS_CAMERACONTROL_ASYNC_RESET, KS_CameraControlAsyncOperation, KS_CAMERACONTROL_ASYNC_RESET, ksmedia/KS_CAMERACONTROL_ASYNC_STOP, KS_CAMERACONTROL_ASYNC_START, ksmedia/KS_CameraControlAsyncOperation
+ms.keywords: ksmedia/KS_CAMERACONTROL_ASYNC_RESET, KS_CameraControlAsyncOperation, stream.ks_cameracontrolasyncoperation, ksmedia/KS_CAMERACONTROL_ASYNC_STOP, KS_CAMERACONTROL_ASYNC_RESET, KS_CAMERACONTROL_ASYNC_START, KS_CAMERACONTROL_ASYNC_STOP, KS_CameraControlAsyncOperation enumeration [Streaming Media Devices], ksmedia/KS_CameraControlAsyncOperation, ksmedia/KS_CAMERACONTROL_ASYNC_START
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KS_CameraControlAsyncOperation
 product: Windows
 targetos: Windows
@@ -87,13 +87,17 @@ Stop the requested asynchronous camera control operation and reset the lens focu
 ## -remarks
 
 
+
 For more information, see <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>
+
+
 
  
 

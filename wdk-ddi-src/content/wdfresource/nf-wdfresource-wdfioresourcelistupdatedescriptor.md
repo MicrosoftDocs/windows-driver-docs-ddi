@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a571c054-380d-4d56-9094-d55868222b33
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoResourceListUpdateDescriptor method, kmdf.wdfioresourcelistupdatedescriptor, PFN_WDFIORESOURCELISTUPDATEDESCRIPTOR, DFResourceObjectRef_e9c68945-23e3-47f1-99b1-a0c62944669f.xml, wdf.wdfioresourcelistupdatedescriptor, WdfIoResourceListUpdateDescriptor, wdfresource/WdfIoResourceListUpdateDescriptor
+ms.keywords: WdfIoResourceListUpdateDescriptor method, kmdf.wdfioresourcelistupdatedescriptor, wdf.wdfioresourcelistupdatedescriptor, PFN_WDFIORESOURCELISTUPDATEDESCRIPTOR, WdfIoResourceListUpdateDescriptor, DFResourceObjectRef_e9c68945-23e3-47f1-99b1-a0c62944669f.xml, wdfresource/WdfIoResourceListUpdateDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfIoResourceListUpdateDescriptor
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -91,6 +91,7 @@ A zero-based value that is used as an index into the set of resource descriptors
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -99,7 +100,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfIoResourceListUpdateDescriptor</b> method locates the resource descriptor that the <i>Index</i> parameter identifies. Then the method copies the resource descriptor that the <i>Descriptor</i> parameter specifies into the descriptor that <i>Index</i> specifies.
@@ -107,10 +110,48 @@ The <b>WdfIoResourceListUpdateDescriptor</b> method locates the resource descrip
 For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example initializes a new resource descriptor and then calls <b>WdfIoResourceListUpdateDescriptor</b> to replace the second descriptor in a logical configuration with the new descriptor.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IO_RESOURCE_DESCRIPTOR newDescriptor;
+
+RtlZeroMemory(
+              &amp;newDescriptor,
+              sizeof(newDescriptor)
+              );
+
+newDescriptor.Option = 0;
+newDescriptor.Type = CmResourceTypePort;
+newDescriptor.ShareDisposition = CmResourceShareDeviceExclusive;
+newDescriptor.Flags = CM_RESOURCE_PORT_IO|CM_RESOURCE_PORT_16_BIT_DECODE;
+newDescriptor.u.Port.Length = 1;
+newDescriptor.u.Port.Alignment = 0x01;
+newDescriptor.u.Port.MinimumAddress.QuadPart = 0;
+newDescriptor.u.Port.MaximumAddress.QuadPart = 0xFFFF;
+
+WdfIoResourceListUpdateDescriptor(
+                                  Reslist,
+                                  &amp;newDescriptor,
+                                  1
+                                  );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
 
  
 

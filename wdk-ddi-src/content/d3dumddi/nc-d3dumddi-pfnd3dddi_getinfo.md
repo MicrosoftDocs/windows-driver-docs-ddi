@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	GetInfo
 product: Windows
 targetos: Windows
@@ -81,9 +81,7 @@ __checkReturn HRESULT APIENTRY GetInfo(
 ### -param UINT
 
 
-
 ### -param *
-
 
 
 ### -param DevInfoSize
@@ -104,7 +102,9 @@ __checkReturn HRESULT APIENTRY GetInfo(
 ## -returns
 
 
+
 <i>GetInfo</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -143,11 +143,14 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Microsoft DirectX 7 and DirectX 8 runtimes call the <i>GetInfo</i> function to query a user-mode display driver for additional device information.
@@ -156,11 +159,16 @@ The Direct3D 8 runtime sets the D3DDDIDEVINFOID_VCACHE flag in the <i>DevInfoID<
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddidevinfo_vcache.md">D3DDDIDEVINFO_VCACHE</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

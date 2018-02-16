@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf7f1572-b967-4aaf-8705-99ede231484a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetEquipmentState, netvista.ril_getequipmentstate, RIL_GetEquipmentState
+ms.keywords: netvista.ril_getequipmentstate, rilapi/RIL_GetEquipmentState, RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], RIL_GetEquipmentState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_GetEquipmentState
 product: Windows
 targetos: Windows
@@ -74,14 +74,14 @@ HRESULT  RIL_GetEquipmentState(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

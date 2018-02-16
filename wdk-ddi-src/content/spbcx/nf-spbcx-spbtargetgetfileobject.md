@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: A89635EC-F5B8-4427-9AFD-9F71339595DF
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SPB.spbtargetgetfileobject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject, SpbTargetGetFileObject
+ms.keywords: SpbTargetGetFileObject, SPB.spbtargetgetfileobject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Spbcxstubs.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	spbcxstubs.lib
 -	spbcxstubs.dll
-apiname: 
+apiname:
 -	SpbTargetGetFileObject
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE
+req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -77,11 +77,14 @@ An <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-
 ## -returns
 
 
+
 <b>SpbTargetGetFileObject</b> returns a WDFFILEOBJECT handle to an open target device on the bus. The method returns NULL if the connection to the target was closed by an <a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a> event callback.
 
 
 
+
 ## -remarks
+
 
 
 Your controller driver can call this method to obtain a WDFFILEOBJECT handle to an open target device on the bus. The SPB controller driver can then use this handle as an input parameter to WDF methods that require such a handle.
@@ -94,13 +97,20 @@ After <b>SpbTargetGetFileObject</b> returns a WDFFILEOBJECT handle, there is no 
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
+
+
 <a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+
+
 
  
 

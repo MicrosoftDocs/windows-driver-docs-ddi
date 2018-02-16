@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_BSS_SELECTION_FLAGS
-title: _WDI_BSS_SELECTION_FLAGS
+title: "_WDI_BSS_SELECTION_FLAGS"
 author: windows-driver-content
 description: The WDI_BSS_SELECTION_FLAGS enumeration defines flags for BSS selection.
 old-location: netvista\wdi_bss_selection_flags.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9C2F862B-8BA8-4947-9C3D-538715C99F26
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_BSS_SELECTION_HOST_PREFERRED, WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR, _WDI_BSS_SELECTION_FLAGS, wditypes/WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR, wditypes/WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION, wditypes/WDI_BSS_SELECTION_FLAGS, netvista.wdi_bss_selection_flags, WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION, WDI_BSS_SELECTION_FLAGS, WDI_BSS_SELECTION_HOST_PREFERRED, WDI_BSS_SELECTION_FLAGS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION, wditypes/WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR, _WDI_BSS_SELECTION_FLAGS, WDI_BSS_SELECTION_FLAGS, WDI_BSS_SELECTION_HOST_PREFERRED, wditypes/WDI_BSS_SELECTION_FLAGS_AP_REQUESTED_TRANSITION, wditypes/WDI_BSS_SELECTION_HOST_PREFERRED, WDI_BSS_SELECTION_FLAGS enumeration [Network Drivers Starting with Windows Vista], WDI_BSS_SELECTION_RECENT_ASSOCIATION_ERROR, netvista.wdi_bss_selection_flags, wditypes/WDI_BSS_SELECTION_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_BSS_SELECTION_FLAGS
 product: Windows
 targetos: Windows

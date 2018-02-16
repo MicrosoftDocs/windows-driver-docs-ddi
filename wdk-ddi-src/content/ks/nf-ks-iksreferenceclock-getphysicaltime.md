@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 96c8d5ef-e9ab-40a6-88e1-56efdb7157b7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: IKsReferenceClock::GetPhysicalTime, GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices], GetPhysicalTime method, GetPhysicalTime, GetPhysicalTime method [Streaming Media Devices], stream.iksreferenceclock_getphysicaltime, IKsReferenceClock, ks/IKsReferenceClock::GetPhysicalTime, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml
+ms.keywords: IKsReferenceClock interface [Streaming Media Devices], GetPhysicalTime method, GetPhysicalTime method [Streaming Media Devices], GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, stream.iksreferenceclock_getphysicaltime, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml, GetPhysicalTime, IKsReferenceClock::GetPhysicalTime, ks/IKsReferenceClock::GetPhysicalTime, IKsReferenceClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IKsReferenceClock.GetPhysicalTime
 product: Windows
 targetos: Windows
@@ -66,14 +66,18 @@ LONGLONG GetPhysicalTime();
 
 
 
+
 ## -returns
+
 
 
 The <b>IKsReferenceClock::GetPhysicalTime</b> method returns the current physical time for the associated pin, specified by default in 100-nanosecond units.
 
 
 
+
 ## -remarks
+
 
 
 Physical time is tied to a physical clock, either the system clock or an on-board hardware clock.
@@ -88,9 +92,12 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
+
 ## -see-also
 
 <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
 
  
 

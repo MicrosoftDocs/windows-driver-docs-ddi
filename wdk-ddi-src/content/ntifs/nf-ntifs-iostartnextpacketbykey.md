@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 25cf9026-fd5d-4998-b7ff-f7be048ef2a1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoStartNextPacketByKey, k104_f2248acf-8071-43a6-b5f9-bc3bc178469b.xml, IoStartNextPacketByKey, IoStartNextPacketByKey routine [Kernel-Mode Driver Architecture], kernel.iostartnextpacketbykey
+ms.keywords: k104_f2248acf-8071-43a6-b5f9-bc3bc178469b.xml, wdm/IoStartNextPacketByKey, IoStartNextPacketByKey, kernel.iostartnextpacketbykey, IoStartNextPacketByKey routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoStartNextPacketByKey
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ Specifies the sort key that determines which entry to remove from the queue.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If there are no IRPs currently in the device queue for the target device object, this routine simply returns control to the caller.
@@ -104,13 +107,20 @@ Callers of <b>IoStartNextPacketByKey</b> must be running at IRQL &lt;= DISPATCH_
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
+
+
 <a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
 
+
+
 <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+
+
 
  
 

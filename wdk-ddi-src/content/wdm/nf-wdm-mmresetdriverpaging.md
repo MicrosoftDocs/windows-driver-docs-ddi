@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6d1d1f0d-d6da-488d-a120-713b77da86a9
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmResetDriverPaging routine [Kernel-Mode Driver Architecture], k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, kernel.mmresetdriverpaging, MmResetDriverPaging, wdm/MmResetDriverPaging
+ms.keywords: kernel.mmresetdriverpaging, k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, wdm/MmResetDriverPaging, MmResetDriverPaging routine [Kernel-Mode Driver Architecture], MmResetDriverPaging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmResetDriverPaging
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to a virtual address in the driver (for example, the address of the <a
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>MmResetDriverPaging</b> causes those routines that would not normally be pageable, to be locked into memory. Hence, image sections such as .text and .data will be locked in memory if this routine is called.
@@ -93,17 +96,28 @@ For more information about paging an entire driver, see <a href="https://msdn.mi
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
-
-<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
 <a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
 
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
 
 <a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
+
+
 
  
 

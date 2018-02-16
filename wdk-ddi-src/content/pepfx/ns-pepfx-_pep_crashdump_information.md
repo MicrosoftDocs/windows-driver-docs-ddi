@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_CRASHDUMP_INFORMATION
-title: _PEP_CRASHDUMP_INFORMATION
+title: "_PEP_CRASHDUMP_INFORMATION"
 author: windows-driver-content
 description: The PEP_CRASHDUMP_INFORMATION structure contains information about a crash-dump device.
 old-location: kernel\pep_crashdump_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B1F680CB-8F82-4B31-A62E-23804FEB0107
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_CRASHDUMP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PPEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION structure [Kernel-Mode Driver Architecture], _PEP_CRASHDUMP_INFORMATION, pepfx/PPEP_CRASHDUMP_INFORMATION, kernel.pep_crashdump_information, PEP_CRASHDUMP_INFORMATION, PPEP_CRASHDUMP_INFORMATION, pepfx/PEP_CRASHDUMP_INFORMATION
+ms.keywords: PEP_CRASHDUMP_INFORMATION structure [Kernel-Mode Driver Architecture], pepfx/PEP_CRASHDUMP_INFORMATION, kernel.pep_crashdump_information, PPEP_CRASHDUMP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPEP_CRASHDUMP_INFORMATION, _PEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION, pepfx/PPEP_CRASHDUMP_INFORMATION, *PPEP_CRASHDUMP_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_CRASHDUMP_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: PEP_CRASHDUMP_INFORMATION, *PPEP_CRASHDUMP_INFORMATION
+req.typenames: "*PPEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION"
 ---
 
 # _PEP_CRASHDUMP_INFORMATION structure
@@ -81,19 +81,27 @@ typedef struct _PEP_CRASHDUMP_INFORMATION {
 ## -remarks
 
 
+
 The <i>CrashdumpInformation</i> parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a> routine is a pointer to a <b>PEP_CRASHDUMP_INFORMATION</b> structure.
 
 When a fatal system error occurs, the devices in the crash-dump device chain (storage controller, PCI controller, and so on) need to be turned on so that the Windows kernel can write a crash-dump file to disk.
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-pofxpoweroncrashdumpdevice.md">PoFxPowerOnCrashdumpDevice</a>
 
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a>
+
+
 
  
 

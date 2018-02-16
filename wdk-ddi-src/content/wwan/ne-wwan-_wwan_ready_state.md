@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_READY_STATE
-title: _WWAN_READY_STATE
+title: "_WWAN_READY_STATE"
 author: windows-driver-content
 description: The WWAN_READY_STATE enumeration lists the different device ready-states that are supported by the MB device.
 old-location: netvista\wwan_ready_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46fec377-ba2c-469a-96be-23aa07079f8c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_ready_state, wwan/WwanReadyStateDeviceLocked, wwan/PWWAN_READY_STATE, _WWAN_READY_STATE, WwanReadyStateSimNotInserted, wwan/WwanReadyStateBadSim, WwanReadyStateFailure, *PWWAN_READY_STATE, wwan/WwanReadyStateInitialized, WwanReadyStateBadSim, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateNotActivated, WwanReadyStateNotActivated, WwanReadyStateDeviceLocked, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanReadyStateSimNotInserted, WwanReadyStateInitialized, WwanReadyStateOff, PWWAN_READY_STATE, wwan/WWAN_READY_STATE, WWAN_READY_STATE, wwan/WwanReadyStateOff, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, wwan/WwanReadyStateFailure
+ms.keywords: WwanReadyStateInitialized, WWAN_READY_STATE, wwan/WWAN_READY_STATE, wwan/WwanReadyStateDeviceLocked, wwan/WwanReadyStateOff, wwan/WwanReadyStateBadSim, _WWAN_READY_STATE, WwanReadyStateSimNotInserted, wwan/WwanReadyStateFailure, wwan/PWWAN_READY_STATE, wwan/WwanReadyStateInitialized, WwanReadyStateNotActivated, wwan/WwanReadyStateNotActivated, WwanReadyStateBadSim, wwan/WwanReadyStateSimNotInserted, netvista.wwan_ready_state, *PWWAN_READY_STATE, PWWAN_READY_STATE, WwanReadyStateOff, WwanReadyStateDeviceLocked, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, WwanReadyStateFailure, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_READY_STATE
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_READY_STATE, WWAN_READY_STATE
+req.typenames: "*PWWAN_READY_STATE, WWAN_READY_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -120,7 +120,6 @@ Note that if a device is locked because it requires a PIN type other than PIN1 o
 ### -field WwanReadyStateNoEsimProfile
 
 
-
 ### -field WwanReadyStateMax
 
 
@@ -129,14 +128,18 @@ Note that if a device is locked because it requires a PIN type other than PIN1 o
 ## -remarks
 
 
+
 For devices that use a SIM card, this enumeration indicates if the SIM card has been initialized and
     is ready for access.
+
 
 
 
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
+
+
 
  
 

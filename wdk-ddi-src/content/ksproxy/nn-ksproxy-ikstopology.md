@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsTopology
 product: Windows
 targetos: Windows
@@ -77,8 +77,10 @@ Requests a KS filter object to open a topology node object.
 ## -remarks
 
 
+
 The IID for this interface is IID_IKsTopology.
 
 The <b>IKsTopology</b> interface is supported by filters. 
+
 
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 53270599-7e8e-491a-8d7b-05f550f100d3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, VideoPortReadRegisterUchar, video/VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], display.videoportreadregisteruchar
+ms.keywords: video/VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, display.videoportreadregisteruchar, VideoPortReadRegisterUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortReadRegisterUchar
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the register. The given <i>Register</i> must be in a mapped memory-sp
 ## -returns
 
 
+
 <b>VideoPortReadRegisterUchar</b> returns the byte read from the adapter.
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortReadRegisterUchar</b>.
@@ -89,13 +92,20 @@ Callers of <b>VideoPortReadRegisterUchar</b> can be running at any IRQL, provide
 
 
 
-## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+## -see-also
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
+
+
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

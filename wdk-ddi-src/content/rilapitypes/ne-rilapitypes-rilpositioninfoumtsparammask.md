@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fde2eb3f-ea12-45e6-93d1-7bdb0ea8c6b2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_POSITION_UMTS_FREQINFO_NT, RIL_PARAM_POSITION_UMTS_CELLID, rilapitypes/RIL_PARAM_POSITION_UMTS_CELLID, RIL_PARAM_POSITION_UMTS_LAC, RIL_PARAM_POSITION_UMTS_FREQINFO_UL, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_UL, rilapitypes/ RIL_PARAM_POSITION_UMTS_UARFCN, RIL_PARAM_POSITION_UMTS_ECNO, RILPOSITIONINFOUMTSPARAMMASK, RILPOSITIONINFOUMTSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumtsparammask, RIL_PARAM_POSITION_UMTS_UARFCN, RIL_PARAM_POSITION_UMTS_PRIMARY_SC, RIL_PARAM_POSITION_UMTS_ALL, rilapitypes/RIL_PARAM_POSITION_UMTS_RSCP, rilapitypes/RIL_PARAM_POSITION_UMTS_ECNO, RIL_PARAM_POSITION_UMTS_MCC, rilapitypes/RIL_PARAM_POSITION_UMTS_LAC, rilapitypes/RIL_PARAM_POSITION_UMTS_PRIMARY_SC, RIL_PARAM_POSITION_UMTS_FREQINFO_DL, RIL_PARAM_POSITION_UMTS_MNC, rilapitypes/RIL_PARAM_POSITION_UMTS_MNC, rilapitypes/RIL_PARAM_POSITION_UMTS_PATHLOSS, RIL_PARAM_POSITION_UMTS_PATHLOSS, RIL_PARAM_POSITION_UMTS_RSCP, rilapitypes/RIL_PARAM_POSITION_UMTS_ALL, rilapitypes/RIL_PARAM_POSITION_UMTS_MCC, rilapitypes/RILPOSITIONINFOUMTSPARAMMASK, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_NT, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_DL
+ms.keywords: RIL_PARAM_POSITION_UMTS_PATHLOSS, rilapitypes/RIL_PARAM_POSITION_UMTS_CELLID, rilapitypes/RIL_PARAM_POSITION_UMTS_PATHLOSS, rilapitypes/RIL_PARAM_POSITION_UMTS_MNC, RIL_PARAM_POSITION_UMTS_ALL, rilapitypes/RIL_PARAM_POSITION_UMTS_LAC, RIL_PARAM_POSITION_UMTS_LAC, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_UL, rilapitypes/RILPOSITIONINFOUMTSPARAMMASK, RIL_PARAM_POSITION_UMTS_RSCP, rilapitypes/ RIL_PARAM_POSITION_UMTS_UARFCN, rilapitypes/RIL_PARAM_POSITION_UMTS_ECNO, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_DL, RIL_PARAM_POSITION_UMTS_MCC, rilapitypes/RIL_PARAM_POSITION_UMTS_ALL, RIL_PARAM_POSITION_UMTS_FREQINFO_NT, rilapitypes/RIL_PARAM_POSITION_UMTS_PRIMARY_SC, rilapitypes/RIL_PARAM_POSITION_UMTS_FREQINFO_NT, RILPOSITIONINFOUMTSPARAMMASK, RIL_PARAM_POSITION_UMTS_UARFCN, RIL_PARAM_POSITION_UMTS_CELLID, RIL_PARAM_POSITION_UMTS_FREQINFO_DL, RIL_PARAM_POSITION_UMTS_ECNO, RIL_PARAM_POSITION_UMTS_FREQINFO_UL, RILPOSITIONINFOUMTSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumtsparammask, RIL_PARAM_POSITION_UMTS_PRIMARY_SC, RIL_PARAM_POSITION_UMTS_MNC, rilapitypes/RIL_PARAM_POSITION_UMTS_MCC, rilapitypes/RIL_PARAM_POSITION_UMTS_RSCP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPOSITIONINFOUMTSPARAMMASK
 product: Windows
 targetos: Windows
@@ -86,61 +86,50 @@ enum RILPOSITIONINFOUMTSPARAMMASK {
 ### -field RIL_PARAM_POSITION_UMTS_MCC
 
 
-
 ### -field RIL_PARAM_POSITION_UMTS_MNC
-
 
 
 ### -field RIL_PARAM_POSITION_UMTS_LAC
 
 
-
 ### -field RIL_PARAM_POSITION_UMTS_CELLID
-
 
 
 ### -field RIL_PARAM_POSITION_UMTS_FREQINFO_UL
 
 
-
 ### -field RIL_PARAM_POSITION_UMTS_FREQINFO_DL
-
 
 
 ### -field RIL_PARAM_POSITION_UMTS_FREQINFO_NT
 
 
-
 ### -field RIL_PARAM_POSITION_UMTS_UARFCN
-
 
 
 ### -field RIL_PARAM_POSITION_UMTS_PRIMARY_SC
 
 
-
 ### -field RIL_PARAM_POSITION_UMTS_RSCP
-
 
 
 ### -field RIL_PARAM_POSITION_UMTS_ECNO
 
 
-
 ### -field RIL_PARAM_POSITION_UMTS_PATHLOSS
-
 
 
 ### -field RIL_PARAM_POSITION_UMTS_ALL
 
 
-
 ## -remarks
+
 
 
 Networks will vary, but the following table summarizes which items are returned for common UMTS networks. 
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -364,9 +353,11 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>UMTS neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -536,13 +527,17 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

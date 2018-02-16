@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATEVERTEXSHADERDECL
-title: _D3DHAL_DP2CREATEVERTEXSHADERDECL
+title: "_D3DHAL_DP2CREATEVERTEXSHADERDECL"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only. The D3DHAL_DP2CREATEVERTEXSHADERDECL structure is used to create a vertex shader declaration when a D3DDP2OP_CREATEVERTEXSHADERDECL opcode is received by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2createvertexshaderdecl.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 063e72ef-7d57-484a-98f8-b6166a238096
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPD3DHAL_DP2CREATEVERTEXSHADERDECL structure pointer [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADERDECL, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADERDECL, d3dhal/D3DHAL_DP2CREATEVERTEXSHADERDECL, display.d3dhal_dp2createvertexshaderdecl, d3dstrct_ae2ef7ce-67b3-4c91-b4d8-e3ff8b82734b.xml, _D3DHAL_DP2CREATEVERTEXSHADERDECL, *LPD3DHAL_DP2CREATEVERTEXSHADERDECL, D3DHAL_DP2CREATEVERTEXSHADERDECL, D3DHAL_DP2CREATEVERTEXSHADERDECL structure [Display Devices]
+ms.keywords: "_D3DHAL_DP2CREATEVERTEXSHADERDECL, LPD3DHAL_DP2CREATEVERTEXSHADERDECL structure pointer [Display Devices], display.d3dhal_dp2createvertexshaderdecl, LPD3DHAL_DP2CREATEVERTEXSHADERDECL, *LPD3DHAL_DP2CREATEVERTEXSHADERDECL, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADERDECL, D3DHAL_DP2CREATEVERTEXSHADERDECL structure [Display Devices], d3dstrct_ae2ef7ce-67b3-4c91-b4d8-e3ff8b82734b.xml, D3DHAL_DP2CREATEVERTEXSHADERDECL, d3dhal/D3DHAL_DP2CREATEVERTEXSHADERDECL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2CREATEVERTEXSHADERDECL
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ Specifies the number of vertex elements that make up the shader declaration.
 ## -remarks
 
 
+
 When the runtime calls the driver's <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> function with this token, the driver should validate the given shader declaration and report success or failure accordingly. 
 
 An array of D3DVERTEXELEMENT9 structures that define the vertex elements that make up the shader declaration follow D3DHAL_DP2CREATEVERTEXSHADERDECL in the command stream. For more information about D3DVERTEXELEMENT9, see the latest DirectX SDK documentation.
@@ -93,13 +94,20 @@ The DirectX 9.0 runtime specifies a legacy FVF code or a declaration handle in t
 
 
 
+
 ## -see-also
 
 D3DDP2OP_CREATEVERTEXSHADERDECL
 
+
+
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2vertexshader.md">D3DHAL_DP2VERTEXSHADER</a>
+
+
 
  
 

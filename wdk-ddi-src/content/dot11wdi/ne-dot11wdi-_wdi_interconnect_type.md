@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_INTERCONNECT_TYPE
-title: _WDI_INTERCONNECT_TYPE
+title: "_WDI_INTERCONNECT_TYPE"
 author: windows-driver-content
 description: The WDI_INTERCONNECT_TYPE enumeration defines the interconnect types.
 old-location: netvista\wdi_interconnect_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58cb1ead-94a1-4587-bb2a-7b8e23f42eeb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: dot11wdi/WDI_INTERCONNECT_MESSAGE_BASED, WDI_INTERCONNECT_TYPE, netvista.wifi_interconnect_type, dot11wdi/WDI_INTERCONNECT_UNKNOWN, WDI_INTERCONNECT_MEMORY_MAPPED, WDI_INTERCONNECT_MESSAGE_BASED, WDI_INTERCONNECT_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11wdi/WDI_INTERCONNECT_MEMORY_MAPPED, netvista.wdi_interconnect_type, _WDI_INTERCONNECT_TYPE, dot11wdi/WDI_INTERCONNECT_TYPE, WDI_INTERCONNECT_UNKNOWN
+ms.keywords: WDI_INTERCONNECT_MEMORY_MAPPED, dot11wdi/WDI_INTERCONNECT_MESSAGE_BASED, netvista.wifi_interconnect_type, _WDI_INTERCONNECT_TYPE, WDI_INTERCONNECT_MESSAGE_BASED, WDI_INTERCONNECT_UNKNOWN, netvista.wdi_interconnect_type, dot11wdi/WDI_INTERCONNECT_MEMORY_MAPPED, dot11wdi/WDI_INTERCONNECT_UNKNOWN, WDI_INTERCONNECT_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11wdi/WDI_INTERCONNECT_TYPE, WDI_INTERCONNECT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	WDI_INTERCONNECT_TYPE
 product: Windows
 targetos: Windows

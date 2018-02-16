@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CreateVideoDecoder
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CREATEVIDEODECODER callback
@@ -76,13 +76,10 @@ HRESULT APIENTRY* CreateVideoDecoder(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
-
 ### -param D3D11_1DDI_HDECODE
-
 
 
 ### -param D3D11_1DDI_HRTDECODE
@@ -92,19 +89,11 @@ HRESULT APIENTRY* CreateVideoDecoder(
 
 
 
-#### - pCreateData [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure. This structure specifies the attributes of the video decoder object to be created.
 
 
 #### - hDecoder [in]
 
 A handle to the driver's private data for the video decoder object. For more information, see the Remarks section.
-
-
-#### - hRTDecode [in]
-
-A handle to the video decoder object that the driver should use when it calls back into the runtime.
 
 
 #### - hDevice [in]
@@ -114,10 +103,22 @@ A handle to the display device (graphics context).
 
 
 
+#### - hRTDecode [in]
+
+A handle to the video decoder object that the driver should use when it calls back into the runtime.
+
+
+#### - pCreateData [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure. This structure specifies the attributes of the video decoder object to be created.
+
+
 ## -returns
 
 
+
 <b>CreateVideoDecoder</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,11 +158,14 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Microsoft Direct3D runtime calls <i>CreateVideoDecoder</i> after it has called the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideodecodersize.md">CalcPrivateVideoDecoderSize</a> to determine the size in bytes for the private data that the driver requires for the video decoder object. The runtime allocates the memory for this private data for the driver. The driver uses this memory to store private data that is related to the video decoder object.
@@ -174,15 +178,24 @@ The driver must keep track of the handle to the display device that was used to 
 
 
 
+
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder.md">D3D11_1DDIARG_CREATEVIDEODECODER</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideodecodersize.md">CalcPrivateVideoDecoderSize</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_negotiatecryptosessionkeyeschange.md">NegotiateCryptoSessionKeyExchange</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 97649f4f-942a-47fc-a541-6f160c8b4eb4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers, ndis/NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], NdisSetOptionalHandlers
+ms.keywords: ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, ndis/NdisSetOptionalHandlers, netvista.ndissetoptionalhandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], NdisSetOptionalHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisSetOptionalHandlers
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisSetOptionalHandlers function
@@ -98,38 +98,38 @@ A pointer to one of the following NDIS structures:
      
 
 
-<mshelp:link keywords="netvista.ndis_client_chimney_offload_generic_characteristics" tabindex="0"><b>
-        NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_generic_characteristics.md">
+        NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_client_chimney_offload_tcp_characteristics" tabindex="0"><b>
-        NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_tcp_characteristics.md">
+        NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-        NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+        NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-        NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+        NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
-        NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+        NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_miniport_co_characteristics" tabindex="0"><b>
-        NDIS_MINIPORT_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+        NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-        NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+        NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 
 
@@ -141,30 +141,32 @@ A pointer to one of the following NDIS structures:
 
 
 
-<mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
-        NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+        NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_provider_chimney_offload_generic_characteristics" tabindex="0"><b>
-        NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_generic_characteristics.md">
+        NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_provider_chimney_offload_tcp_characteristics" tabindex="0"><b>
-        NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_tcp_characteristics.md">
+        NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-        NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+        NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
 ## -returns
 
 
+
 <b>NdisSetOptionalHandlers</b> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -204,8 +206,8 @@ A pointer to one of the following NDIS structures:
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> failed because the miniport driver did not specify that it supports NDIS
        6.0 or later. A miniport driver specifies its NDIS version when it calls the 
-       <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-       NdisMRegisterMiniportDriver</b></mshelp:link> function.
+       <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+       NdisMRegisterMiniportDriver</a> function.
 
 </td>
 </tr>
@@ -222,11 +224,14 @@ A pointer to one of the following NDIS structures:
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 An NDIS driver can call 
@@ -239,45 +244,45 @@ Protocol drivers can call
     <b>NdisSetOptionalHandlers</b> from the 
     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function or
     the 
-    <mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-    ProtocolOpenAdapterCompleteEx</i></mshelp:link> function after the protocol driver has a valid handle from the 
+    <a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+    ProtocolOpenAdapterCompleteEx</a> function after the protocol driver has a valid handle from the 
     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
 
 In this case, the valid structures are:
 
 
-<mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
-       NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+       NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+       NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-       NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+       NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_client_chimney_offload_generic_characteristics" tabindex="0"><b>
-       NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_generic_characteristics.md">
+       NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_client_chimney_offload_tcp_characteristics" tabindex="0"><b>
-       NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_tcp_characteristics.md">
+       NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>
 
 
 For more information on the 2 chimney offload structures, see 
-    <mshelp:link keywords="netvista.full_tcp_offload" tabindex="0">NDIS 6.0 TCP chimney offload
-    documentation</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    documentation</a>.
 
 Miniport drivers call 
     <b>NdisSetOptionalHandlers</b> in the context of the 
@@ -286,13 +291,13 @@ Miniport drivers call
 In this case, the valid structures are:
 
 
-<mshelp:link keywords="netvista.ndis_miniport_co_characteristics" tabindex="0"><b>
-       NDIS_MINIPORT_CO_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+       NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-       NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+       NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 
 
@@ -304,28 +309,28 @@ In this case, the valid structures are:
 
 
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+       NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-       NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+       NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_client_chimney_offload_generic_characteristics" tabindex="0"><b>
-       NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_generic_characteristics.md">
+       NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>
 
 
 
-<mshelp:link keywords="netvista.ndis_client_chimney_offload_tcp_characteristics" tabindex="0"><b>
-       NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_tcp_characteristics.md">
+       NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>
 
 
 For more information on the 2 chimney offload structures, see 
-    <mshelp:link keywords="netvista.full_tcp_offload" tabindex="0">NDIS 6.0 TCP chimney offload
-    documentation</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    documentation</a>.
 
 Filter drivers call 
     <b>NdisSetOptionalHandlers</b> in the context of the 
@@ -336,14 +341,14 @@ There are no optional filter driver services in the current Windows version.
 Filter drivers can call 
     <b>NdisSetOptionalHandlers</b> for a filter module. Filter drivers call 
     <b>NdisSetOptionalHandlers</b> in the context of the 
-    <mshelp:link keywords="netvista.filtersetmoduleoptions" tabindex="0"><i>
-    FilterSetModuleOptions</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-filter_set_module_options.md">
+    FilterSetModuleOptions</a> function.
 
 In this case, the valid structures are:
 
 
-<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
-       NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+       NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
 
 
 
@@ -363,52 +368,85 @@ In this case, the valid structures are:
 
 
 For more information on the 4 chimney offload structures, see 
-    <mshelp:link keywords="netvista.full_tcp_offload" tabindex="0">NDIS 6.0 TCP chimney offload
-    documentation</mshelp:link>.
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
+    documentation</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.ndis_filter_partial_characteristics" tabindex="0"><b>
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</b></mshelp:link>
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
+
+
 
 <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
-<mshelp:link keywords="netvista.ndis_shared_memory_provider_characteristics" tabindex="0"><b>
-   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_protocol_co_characteristics" tabindex="0"><b>
-   NDIS_PROTOCOL_CO_CHARACTERISTICS</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_co_call_manager_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</b></mshelp:link>
+<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
+   NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_co_client_optional_handlers" tabindex="0"><b>
-   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</b></mshelp:link>
-
-<mshelp:link keywords="netvista.ndis_miniport_co_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_CO_CHARACTERISTICS</b></mshelp:link>
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+   ProtocolOpenAdapterCompleteEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+   NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_protocol_co_characteristics.md">
+   NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<mshelp:link keywords="netvista.protocolopenadaptercompleteex" tabindex="0"><i>
-   ProtocolOpenAdapterCompleteEx</i></mshelp:link>
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+   NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
+
+
 
  
 

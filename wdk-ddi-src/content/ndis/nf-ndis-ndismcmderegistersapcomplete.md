@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 69524144-fc55-4721-a753-6452566a8b26
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismcmderegistersapcomplete, condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete
+ms.keywords: condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], ndis/NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmDeregisterSapComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmDeregisterSapComplete macro
@@ -81,9 +81,6 @@ TBD
 
 
 
-#### - Status [in]
-
-Specifies NDIS_STATUS_SUCCESS.
 
 
 #### - NdisSapHandle [in]
@@ -91,18 +88,24 @@ Specifies NDIS_STATUS_SUCCESS.
 Specifies the handle identifying the SAP.
 
 
+#### - Status [in]
+
+Specifies NDIS_STATUS_SUCCESS.
+
+
 ## -remarks
+
 
 
 <b>NdisMCmDeregisterSapComplete</b> notifies both NDIS and the client that the MCM driver has completed
     the SAP-deregistration request for which its 
-    <mshelp:link keywords="netvista.protocolcmderegistersap" tabindex="0"><i>
-    ProtocolCmDeregisterSap</i></mshelp:link> function previously returned NDIS_STATUS_PENDING.
+    <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+    ProtocolCmDeregisterSap</a> function previously returned NDIS_STATUS_PENDING.
 
 A call to 
     <b>NdisMCmDeregisterSapComplete</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclderegistersapcomplete" tabindex="0"><i>
-    ProtocolClDeregisterSapComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+    ProtocolClDeregisterSapComplete</a> function.
 
 The MCM driver should consider the 
     <i>NdisSapHandle</i> invalid when 
@@ -115,16 +118,25 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+   ProtocolClDeregisterSapComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
-<mshelp:link keywords="netvista.protocolclderegistersapcomplete" tabindex="0"><i>
-   ProtocolClDeregisterSapComplete</i></mshelp:link>
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+
 
  
 

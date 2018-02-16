@@ -1,14 +1,14 @@
 ---
 UID: NS:ksmedia._tagKSTELEPHONY_CALLCONTROL
-title: _tagKSTELEPHONY_CALLCONTROL
+title: "_tagKSTELEPHONY_CALLCONTROL"
 author: windows-driver-content
 description: The KSTELEPHONY_CALLCONTROL structure specifies the phone call type and control operation to use for the KSPROPERTY_TELEPHONY_CALLCONTROL property.
 old-location: audio\kstelephony_callcontrol.htm
 old-project: audio
 ms.assetid: 44CA5D9D-EF6E-4681-93EB-B803638896F9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, ksmedia/KSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], KSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL, _tagKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices]
+ms.date: 2/8/2018
+ms.keywords: KSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices], PKSTELEPHONY_CALLCONTROL, _tagKSTELEPHONY_CALLCONTROL, ksmedia/KSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, *PKSTELEPHONY_CALLCONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSTELEPHONY_CALLCONTROL
 product: Windows
 targetos: Windows
-req.typenames: *PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL
+req.typenames: KSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL
 ---
 
 # _tagKSTELEPHONY_CALLCONTROL structure

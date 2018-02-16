@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bf21128-acf3-4d7d-83c5-a32ac54e78ca
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmLockPagableDataSection, MmLockPagableDataSection routine [Kernel-Mode Driver Architecture], kernel.mmlockpagabledatasection, k106_05a47a6d-54f2-48d3-abba-ba3864aaa94b.xml, wdm/MmLockPagableDataSection
+ms.keywords: kernel.mmlockpagabledatasection, wdm/MmLockPagableDataSection, MmLockPagableDataSection routine [Kernel-Mode Driver Architecture], k106_05a47a6d-54f2-48d3-abba-ba3864aaa94b.xml, MmLockPagableDataSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmLockPagableDataSection
 product: Windows
 targetos: Windows
@@ -76,16 +76,20 @@ Specifies the symbolic address of one item of data within the pageable section.
 ## -returns
 
 
+
 <b>MmLockPagableDataSection</b> returns an opaque value that identifies the section. This value must be passed subsequently to <b>MmLockPagableSectionByHandle</b> or to <b>MmUnlockPagableImageSection</b>.
+
 
 
 
 ## -remarks
 
 
+
 Drivers can use this routine, <b>MmLockPagableSectionByHandle</b>, and <b>MmUnlockPagableImageSection</b> to make their private data that is typically pageable locked into memory.
 
 Data can be locked down if:
+
 <ul>
 <li>
 The data is typically accessed at &lt;= APC_LEVEL, but it might need to be accessed at higher IRQL levels for short periods. 
@@ -95,7 +99,8 @@ The data is typically accessed at &lt;= APC_LEVEL, but it might need to be acces
 The driver uses the data infrequently and predictably. 
 
 </li>
-</ul>For example, drivers for mixer devices use pageable-data sections. Because the driver uses sufficient data to make creating a pageable-data section worthwhile and the driver knows when the data is needed, such a driver uses <b>MmLockPagableDataSection</b>,  <b>MmLockPagableSectionByHandle</b> and <b>MmUnlockPagableImageSection</b> to bring a data section into system space when needed and make it available to be paged out when not needed.
+</ul>
+For example, drivers for mixer devices use pageable-data sections. Because the driver uses sufficient data to make creating a pageable-data section worthwhile and the driver knows when the data is needed, such a driver uses <b>MmLockPagableDataSection</b>,  <b>MmLockPagableSectionByHandle</b> and <b>MmUnlockPagableImageSection</b> to bring a data section into system space when needed and make it available to be paged out when not needed.
 
 A single call to <b>MmLockPagableDataSection</b> causes the entire section, containing the referenced data, to be locked into system space.
 
@@ -111,17 +116,28 @@ For more information about paging data, see <a href="https://msdn.microsoft.com/
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
-
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
-
-<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
 <a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
 
+
+
+<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
+
+
 
  
 

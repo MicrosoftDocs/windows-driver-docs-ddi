@@ -7,8 +7,8 @@ old-location: ifsk\rtlcompressbuffer.htm
 old-project: ifsk
 ms.assetid: 49fb1062-9709-4691-9655-8cbf3c5055fb
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_XPRESS_HUFF, RtlCompressBuffer, ntifs/RtlCompressBuffer, COMPRESSION_FORMAT_XPRESS, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml, COMPRESSION_ENGINE_STANDARD, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_ENGINE_HIBER, RtlCompressBuffer function [Installable File System Drivers], COMPRESSION_ENGINE_MAXIMUM, ifsk.rtlcompressbuffer
+ms.date: 2/7/2018
+ms.keywords: RtlCompressBuffer function [Installable File System Drivers], ntifs/RtlCompressBuffer, COMPRESSION_FORMAT_DEFAULT, ifsk.rtlcompressbuffer, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS_HUFF, COMPRESSION_ENGINE_HIBER, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml, COMPRESSION_FORMAT_LZNT1, COMPRESSION_ENGINE_STANDARD, RtlCompressBuffer, COMPRESSION_ENGINE_MAXIMUM, COMPRESSION_FORMAT_XPRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlCompressBuffer
 product: Windows
 targetos: Windows
@@ -79,6 +79,7 @@ NTSTATUS RtlCompressBuffer(
 A bitmask that specifies the compression format and engine type. This parameter must be set to  a  valid bitwise OR combination of one format type and one engine type. For example, COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD.
 
 The meanings of these, and other related values, are as follows.
+
 <table>
 <tr>
 <th>Value</th>
@@ -164,7 +165,8 @@ Not supported by this function.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param UncompressedBuffer [in]
@@ -205,7 +207,9 @@ A pointer to a caller-allocated work space buffer used by the <b>RtlCompressBuff
 ## -returns
 
 
+
 <b>RtlCompressBuffer</b> returns an appropriate error status value, such as one of the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -294,11 +298,14 @@ The compressed buffer is too small to hold the compressed data. That is, <i>Fina
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>RtlCompressBuffer</b> function takes as input an uncompressed buffer and produces its compressed equivalent provided that the compressed data fits within the specified destination buffer.
@@ -311,19 +318,28 @@ To extract an uncompressed fragment from a compressed buffer, use the <a href=".
 
 
 
+
 ## -see-also
-
-<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
-
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
 <a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a>
 
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlCompressBuffer function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlCompressBuffer function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

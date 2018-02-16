@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b2b5b126-8cb3-494f-a67e-f8d4f37ec639
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWritePortBufferUshort, irb/AtaPortWritePortBufferUshort, atartns_78cda4b1-7995-40c3-a784-ed66d8a8d520.xml, AtaPortWritePortBufferUshort routine [Storage Devices], storage.ataportwriteportbufferushort
+ms.keywords: AtaPortWritePortBufferUshort routine [Storage Devices], atartns_78cda4b1-7995-40c3-a784-ed66d8a8d520.xml, AtaPortWritePortBufferUshort, storage.ataportwriteportbufferushort, irb/AtaPortWritePortBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortWritePortBufferUshort
 product: Windows
 targetos: Windows
@@ -90,17 +90,25 @@ Specifies the number of USHORT values to write to the HBA.
 ## -returns
 
 
+
 None 
+
 
 
 
 ## -see-also
 
+<a href="..\irb\nf-irb-ataportwriteportbufferulong.md">AtaPortWritePortBufferUlong</a>
+
+
+
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+
+
 
 <a href="..\irb\nf-irb-ataportwriteportbufferuchar.md">AtaPortWritePortBufferUchar</a>
 
-<a href="..\irb\nf-irb-ataportwriteportbufferulong.md">AtaPortWritePortBufferUlong</a>
+
 
  
 

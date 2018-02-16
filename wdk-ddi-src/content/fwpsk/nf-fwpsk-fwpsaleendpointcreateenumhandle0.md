@@ -2,13 +2,13 @@
 UID: NF:fwpsk.FwpsAleEndpointCreateEnumHandle0
 title: FwpsAleEndpointCreateEnumHandle0 function
 author: windows-driver-content
-description: The FwpsAleEndpointCreateEnumHandle0 function creates a handle that can be used with other application layer enforcement (ALE) endpoint functions to enumerate endpoint data.Note  FwpsAleEndpointCreateEnumHandle0 is a specific version of FwpsAleEndpointCreateEnumHandle. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. 
+description: The FwpsAleEndpointCreateEnumHandle0 function creates a handle that can be used with other application layer enforcement (ALE) endpoint functions to enumerate endpoint data.Note  FwpsAleEndpointCreateEnumHandle0 is a specific version of FwpsAleEndpointCreateEnumHandle. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsaleendpointcreateenumhandle0.htm
 old-project: netvista
 ms.assetid: 5daa3dd4-e499-4a72-b784-8a0e1ef3e92b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsAleEndpointCreateEnumHandle0, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], netvista.fwpsaleendpointcreateenumhandle0, FwpsAleEndpointCreateEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml
+ms.keywords: fwpsk/FwpsAleEndpointCreateEnumHandle0, wfp_ref_2_funct_3_fwps_A-B_dfe65638-187e-4966-b8dc-20fac02ea7cb.xml, FwpsAleEndpointCreateEnumHandle0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointCreateEnumHandle0, netvista.fwpsaleendpointcreateenumhandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsAleEndpointCreateEnumHandle0
 product: Windows
 targetos: Windows
@@ -82,8 +82,8 @@ Handle for an open session with the filter engine. This handle is obtained when 
 ### -param enumTemplate [in, optional]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.fwps_ale_endpoint_enum_template0" tabindex="0"><b>
-     FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0</b></mshelp:link> structure that contains parameters to narrow the endpoint
+     <a href="https://msdn.microsoft.com/7875bf42-4510-4af1-8f24-4b9f1d945100">
+     FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0</a> structure that contains parameters to narrow the endpoint
      enumeration results.
 
 
@@ -95,8 +95,10 @@ The newly created enumeration handle.
 ## -returns
 
 
+
 The 
      <b>FwpsAleEndpointCreateEnumHandle0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,18 +126,22 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 After using the handle acquired by calling 
     <b>FwpsAleEndpointCreateEnumHandle0</b>, the callout driver must release the system resources associated
     with the handle by calling 
-    <mshelp:link keywords="netvista.fwpsaleendpointdestroyenumhandle0" tabindex="0"><b>
-    FwpsAleEndpointDestroyEnumHandle0</b></mshelp:link>.
+    <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
+    FwpsAleEndpointDestroyEnumHandle0</a>.
+
 
 
 
@@ -143,8 +149,12 @@ After using the handle acquired by calling
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
 
-<mshelp:link keywords="netvista.fwpsaleendpointdestroyenumhandle0" tabindex="0"><b>
-   FwpsAleEndpointDestroyEnumHandle0</b></mshelp:link>
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
+   FwpsAleEndpointDestroyEnumHandle0</a>
+
+
 
  
 

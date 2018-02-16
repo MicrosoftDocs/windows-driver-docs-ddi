@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_ConnectionStatistics
-title: _MSiSCSI_ConnectionStatistics
+title: "_MSiSCSI_ConnectionStatistics"
 author: windows-driver-content
 description: The MSiSCSI_ConnectionStatistics structure is used by iSCSI initiators to report statistics for a connection within a session.
 old-location: storage\msiscsi_connectionstatistics.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1f38292-604f-4618-b6ec-f3822d60a96c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_ConnectionStatistics, iscsiprf/MSiSCSI_ConnectionStatistics, *PMSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], MSiSCSI_ConnectionStatistics structure [Storage Devices], storage.msiscsi_connectionstatistics, _MSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics, structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml, iscsiprf/PMSiSCSI_ConnectionStatistics
+ms.keywords: structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml, MSiSCSI_ConnectionStatistics, *PMSiSCSI_ConnectionStatistics, storage.msiscsi_connectionstatistics, iscsiprf/MSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics, _MSiSCSI_ConnectionStatistics, iscsiprf/PMSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], MSiSCSI_ConnectionStatistics structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiprf.h
-apiname: 
+apiname:
 -	MSiSCSI_ConnectionStatistics
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_ConnectionStatistics, *PMSiSCSI_ConnectionStatistics
+req.typenames: "*PMSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics"
 ---
 
 # _MSiSCSI_ConnectionStatistics structure
@@ -117,7 +117,9 @@ The number of PDUs that are received over this connection.
 ## -remarks
 
 
+
 Initiators must register the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a> with the following dynamic instance name for the connection: 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -127,21 +129,31 @@ Initiators must register the <a href="https://msdn.microsoft.com/library/windows
 <pre>targetname_#:#</pre>
 </td>
 </tr>
-</table></span></div>The first number sign (#) is the value in the <b>USID</b> member of <b>MSiSCSI_ConnectionStatistics</b>, and the second number sign (#) is the value in the <b>CID</b> member. It is optional that you implement this class.
+</table></span></div>
+The first number sign (#) is the value in the <b>USID</b> member of <b>MSiSCSI_ConnectionStatistics</b>, and the second number sign (#) is the value in the <b>CID</b> member. It is optional that you implement this class.
 
 The totals tracked by this structure are valid for the lifetime of the connection in the session. Totals for all connections in a session are obtained in <a href="..\iscsiprf\ns-iscsiprf-_msiscsi_sessionstatistics.md">MSiSCSI_SessionStatistics</a> structure.
 
 
 
+
 ## -see-also
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
+
+
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562989">MSiSCSI_ConnectionStatistics WMI Class</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8bad169a-3a89-460d-9e6e-e8c1994970a8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest interface, GetRequestorProcessId method, umdf.iwdfiorequest_getrequestorprocessid, wudfddi/IWDFIoRequest::GetRequestorProcessId, GetRequestorProcessId method, GetRequestorProcessId method, IWDFIoRequest interface, IWDFIoRequest::GetRequestorProcessId, UMDFRequestObjectRef_9464f328-c7a7-4126-896c-69bc4ab0b5ba.xml, IWDFIoRequest, wdf.iwdfiorequest_getrequestorprocessid, GetRequestorProcessId
+ms.keywords: GetRequestorProcessId, UMDFRequestObjectRef_9464f328-c7a7-4126-896c-69bc4ab0b5ba.xml, IWDFIoRequest interface, GetRequestorProcessId method, IWDFIoRequest, wudfddi/IWDFIoRequest::GetRequestorProcessId, umdf.iwdfiorequest_getrequestorprocessid, GetRequestorProcessId method, IWDFIoRequest interface, GetRequestorProcessId method, wdf.iwdfiorequest_getrequestorprocessid, IWDFIoRequest::GetRequestorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.GetRequestorProcessId
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,16 +69,21 @@ ULONG GetRequestorProcessId();
 
 
 
+
 ## -returns
+
 
 
 <b>GetRequestorProcessId</b> returns the identifier of the process that sent the I/O request.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

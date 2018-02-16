@@ -1,6 +1,6 @@
 ---
 UID: NS:kbdmou._CONNECT_DATA
-title: _CONNECT_DATA
+title: "_CONNECT_DATA"
 author: windows-driver-content
 description: CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to a keyboard or mouse port.
 old-location: hid\connect_data__kbdclass_.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 8fdb5b1d-bbdb-4774-875a-7cdd047286f5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.connect_data__kbdclass_, kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml, PCONNECT_DATA, CONNECT_DATA structure [Human Input Devices], _CONNECT_DATA, *PCONNECT_DATA, kbdmou/PCONNECT_DATA, CONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], kbdmou/CONNECT_DATA
+ms.keywords: CONNECT_DATA structure [Human Input Devices], PCONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], hid.connect_data__kbdclass_, kbdmou/PCONNECT_DATA, kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml, CONNECT_DATA, kbdmou/CONNECT_DATA, *PCONNECT_DATA, _CONNECT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	kbdmou.h
-apiname: 
+apiname:
 -	CONNECT_DATA
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ Specifies the class service routine. See  <a href="..\kbdmou\nc-kbdmou-pservice_
 ## -remarks
 
 
+
 The keyboard class driver uses this structure with an <a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request; the mouse class driver uses <a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a> .
+
 
 

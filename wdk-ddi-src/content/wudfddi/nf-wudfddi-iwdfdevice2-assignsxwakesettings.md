@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2 interface, AssignSxWakeSettings method, AssignSxWakeSettings method, IWDFDevice2 interface, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, umdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2, IWDFDevice2::AssignSxWakeSettings, AssignSxWakeSettings, AssignSxWakeSettings method, wudfddi/IWDFDevice2::AssignSxWakeSettings
+ms.keywords: UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, umdf.iwdfdevice2_assignsxwakesettings, wdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2::AssignSxWakeSettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, IWDFDevice2, IWDFDevice2 interface, AssignSxWakeSettings method, AssignSxWakeSettings, AssignSxWakeSettings method, IWDFDevice2 interface, AssignSxWakeSettings method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice2.AssignSxWakeSettings
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -98,7 +98,9 @@ If waking the system is enabled and the system is about to enter a low-power sta
 ## -returns
 
 
+
 <b>AssignSxWakeSettings</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,16 +139,20 @@ The <i>DxState</i> parameter specifies an invalid device power state, or the bus
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
+
 
 
 
 ## -remarks
 
 
+
 The first time a driver calls <b>AssignSxWakeSettings</b>, the following actions occur:
+
 <ul>
 <li>
 The framework stores the parameter values. 
@@ -156,7 +162,9 @@ The framework stores the parameter values.
 If the <i>UserControlOfWakeSettings</i> parameter is set to <b>WakeAllowUserControl</b> and if the <i>Enabled</i> parameter is set to <b>WdfUseDefault</b>, the framework reads the registry to find out if the user has enabled waking the system. 
 
 </li>
-</ul>During subsequent calls to <b>AssignSxWakeSettings</b>, the framework does not store the value of the <i>UserControlOfWakeSettings</i> parameter. In other words, the framework performs the following steps the first time the driver calls <b>AssignSxWakeSettings</b> but not during later calls:
+</ul>
+During subsequent calls to <b>AssignSxWakeSettings</b>, the framework does not store the value of the <i>UserControlOfWakeSettings</i> parameter. In other words, the framework performs the following steps the first time the driver calls <b>AssignSxWakeSettings</b> but not during later calls:
+
 <ul>
 <li>
 Stores the value of the <i>UserControlOfWakeSettings</i> parameter.
@@ -166,7 +174,9 @@ Stores the value of the <i>UserControlOfWakeSettings</i> parameter.
 Looks for a user setting in the registry, if the value of the <i>Enabled</i> parameter is <b>WdfUseDefault</b>.
 
 </li>
-</ul>The following rules apply to the value that you specify for the <i>DxState</i> parameter:
+</ul>
+The following rules apply to the value that you specify for the <i>DxState</i> parameter:
+
 <ul>
 <li>
 The value cannot be <b>PowerDeviceD0</b>. 
@@ -180,11 +190,13 @@ If you specify <b>DevicePowerMaximum</b>, the framework uses the value that the 
 You cannot specify a device power state that is lower than the device power state in the <b>DeviceWake</b> member of the kernel-mode bus driver's <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure. (In other words, if the bus driver's <b>DeviceWake</b> value is <b>PowerDeviceD2</b>, your function driver's <i>DxState</i> value cannot be <b>PowerDeviceD3</b>.) 
 
 </li>
-</ul>For information about registry entries that control a device's wake capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior-in-umdf">User Control of Device Idle and Wake Behavior in UMDF</a>. 
+</ul>
+For information about registry entries that control a device's wake capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/user-control-of-device-idle-and-wake-behavior-in-umdf">User Control of Device Idle and Wake Behavior in UMDF</a>. 
 
 For more information about supporting a device's wake capabilities, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-system-wake-up-in-umdf-drivers">Supporting System Wake-Up in UMDF-based Drivers</a>.
 
 The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface and then calls <b>AssignSxWakeSettings</b>.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -212,11 +224,16 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
 
  
 

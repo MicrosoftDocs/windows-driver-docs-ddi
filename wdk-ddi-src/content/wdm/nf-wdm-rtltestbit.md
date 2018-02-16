@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 52f892a8-e82d-465d-aef5-630f5e971e8f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlTestBit, kernel.rtltestbit, wdm/RtlTestBit, k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, RtlTestBit routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlTestBit routine [Kernel-Mode Driver Architecture], wdm/RtlTestBit, RtlTestBit, k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, kernel.rtltestbit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= APC_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlTestBit
 product: Windows
 targetos: Windows
@@ -82,14 +82,18 @@ Specifies the zero-based index of the bit within the bitmap. The routine returns
 ## -returns
 
 
+
 <b>RtlTestBit</b> returns the value of the bit that the <i>BitNumber</i> parameter points to. 
+
 
 
 
 ## -remarks
 
 
+
 Callers of <b>RtlTestBit</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlTestBit</b> can be called at any IRQL. 
+
 
 
 
@@ -97,7 +101,11 @@ Callers of <b>RtlTestBit</b> must be running at IRQL &lt;= APC_LEVEL if the memo
 
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
 
  
 

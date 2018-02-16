@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4E6088EA-7081-4B80-8F83-15B39A0F30AB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelInitSetStateChangeCallbacks, netvista.vmbchannelinitsetstatechangecallbacks, VmbChannelInitSetStateChangeCallbacks function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelInitSetStateChangeCallbacks
+ms.keywords: VmbChannelInitSetStateChangeCallbacks function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelInitSetStateChangeCallbacks, VmbChannelInitSetStateChangeCallbacks, netvista.vmbchannelinitsetstatechangecallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelInitSetStateChangeCallbacks
 product: Windows
 targetos: Windows
@@ -85,7 +85,9 @@ A structure of state change callbacks to set.
 ## -returns
 
 
+
 <b>VmbChannelInitSetStateChangeCallbacks</b> returns one of the following status values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,6 +126,8 @@ The <i>StateChangeCallbacks</i> value is the wrong version or size.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

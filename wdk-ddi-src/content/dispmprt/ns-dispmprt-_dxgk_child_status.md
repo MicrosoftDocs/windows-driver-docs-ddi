@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_STATUS
-title: _DXGK_CHILD_STATUS
+title: "_DXGK_CHILD_STATUS"
 author: windows-driver-content
 description: The DXGK_CHILD_STATUS structure contains members that indicate the status of a child device of the display adapter.
 old-location: display\dxgk_child_status.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e2aba049-b51f-49b9-b0bb-c98c318dea86
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxgk_child_status, DXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], *PDXGK_CHILD_STATUS, DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, dispmprt/DXGK_CHILD_STATUS, PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], _DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS
+ms.keywords: dispmprt/DXGK_CHILD_STATUS, display.dxgk_child_status, DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, DXGK_CHILD_STATUS structure [Display Devices], PDXGK_CHILD_STATUS, *PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], _DXGK_CHILD_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_CHILD_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS
+req.typenames: "*PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS"
 ---
 
 # _DXGK_CHILD_STATUS structure
@@ -82,8 +82,17 @@ typedef struct _DXGK_CHILD_STATUS {
 
 
 
-### -field HotPlug
+### -field Type
 
+A member of the <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a> enumeration that indicates the type of status being requested.
+
+
+### -field ChildUid
+
+An integer, created previously by the display miniport driver, that identifies the child device for which status is being requested.
+
+
+### -field HotPlug
 
 
 ### -field HotPlug.Connected
@@ -92,7 +101,6 @@ If <b>Type</b> is equal to <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_t
 
 
 ### -field Rotation
-
 
 
 ### -field Rotation.Angle
@@ -123,27 +131,27 @@ If the driver doesn't know the monitor connection state, it should set this valu
 For more info, see <a href="https://msdn.microsoft.com/1645E14A-EC4A-4EB8-9AFA-6DF0466D2B1A">Wireless displays (Miracast)</a>.
 
 
-### -field Type
-
-A member of the <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a> enumeration that indicates the type of status being requested.
-
-
-### -field ChildUid
-
-An integer, created previously by the display miniport driver, that identifies the child device for which status is being requested.
-
-
 ## -see-also
-
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
+
+
 <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
 
+
+
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+
+
 
  
 

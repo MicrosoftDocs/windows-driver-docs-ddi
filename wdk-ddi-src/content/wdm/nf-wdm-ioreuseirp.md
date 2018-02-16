@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 18ad2c76-110f-45a9-986b-67e7c81f256f
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoReuseIrp routine [Kernel-Mode Driver Architecture], IoReuseIrp, wdm/IoReuseIrp, k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, kernel.ioreuseirp
+ms.keywords: IoReuseIrp, kernel.ioreuseirp, wdm/IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoReuseIrp
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - Status [in]
 
 Specifies the NTSTATUS value to be set in the IRP after it is reinitialized.
@@ -88,11 +89,14 @@ Specifies the NTSTATUS value to be set in the IRP after it is reinitialized.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Drivers for Windows 2000 and later versions of Windows use <b>IoReuseIrp</b> to reuse an IRP.
@@ -103,15 +107,24 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
+
+
 
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
-<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 92e6090e-6a31-45d9-ac6d-a20bf180f12e
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: *PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], ksmedia/KSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, KSWAVE_COMPATCAPS, stream.kswave_compatcaps
+ms.keywords: "*PKSWAVE_COMPATCAPS, stream.kswave_compatcaps, dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, KSWAVE_COMPATCAPS, ksmedia/KSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], ksmedia/PKSWAVE_COMPATCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSWAVE_COMPATCAPS
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ typedef struct {
 ### -field ulDeviceType
 
 Specifies the following flags:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -95,19 +96,24 @@ Indicates that the device produces output.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566516">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a> property.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566516">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 37c19ee9-4741-448c-bcbe-12437f4f3b4d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortReady, StorPortReady, storage.storportready, StorPortReady routine [Storage Devices], storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml
+ms.keywords: storport/StorPortReady, storage.storportready, StorPortReady routine [Storage Devices], StorPortReady, storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortReady
 product: Windows
 targetos: Windows
@@ -77,20 +77,26 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 ## -returns
 
 
+
 <b>StorPortReady</b> returns <b>TRUE</b> if the miniport driver succeeded in notifying the port driver and <b>FALSE</b> if not. 
+
 
 
 
 ## -remarks
 
 
+
 The functionality provided by this routine is exclusive to the Storport driver library. It has no parallel in the library of ScsiPort support routines.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportbusy.md">StorPortBusy</a>
+
+
 
  
 

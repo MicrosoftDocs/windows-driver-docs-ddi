@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Acpiioct.h
-apiname: 
+apiname:
 -	IOCTL_ACPI_GET_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS
+req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
 
 # IOCTL_ACPI_GET_DEVICE_INFORMATION IOCTL
@@ -65,6 +65,7 @@ A driver for a device can use the IOCTL_ACPI_GET_DEVICE_INFORMATION device contr
 ### -input-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
+
 <ul>
 <li>
 <i>IoControlCode</i> is set to IOCTL_ACPI_GET_DEVICE_INFORMATION.
@@ -104,6 +105,7 @@ Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
 ### -output-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
+
 <ul>
 <li>
 <i>OutputBuffer</i> supplies a pointer to an <a href="..\acpiioct\ns-acpiioct-_acpi_device_information_output_buffer.md">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a> structure that contains the output arguments from the control method.
@@ -123,14 +125,18 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -144,6 +150,7 @@ If the request succeeds, the <i>IoStatusBlock</i>-&gt;<b>Information</b> member 
 ## -remarks
 
 
+
 A driver for a device can use IOCTL_ACPI_GET_DEVICE_INFORMATION to obtain fine-grained identification information about its device. This IOCTL is typically used with drivers that support multiple hardware versions or revisions of a device, and need to examine the component parts that make up the device's HW ID string to identify the exact device. For example, a driver may support different revisions of the same device, in which some aspect of the programing interface or the device's behavior is different. The driver can identify exactly which revision it is running on.
 
 The output arguments from the request are returned in the variable-length <a href="..\acpiioct\ns-acpiioct-_acpi_device_information_output_buffer.md">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER includes an array of variable-length arrays, each of which returns an output argument representing the sub-system ID string, vendor ID string, and instance ID string, respectively.
@@ -152,9 +159,12 @@ IOCTL_ACPI_GET_DEVICE_INFORMATION can be used only at IRQL &lt;= DISPATCH_LEVEL.
 
 
 
+
 ## -see-also
 
 <a href="..\acpiioct\ns-acpiioct-_acpi_device_information_output_buffer.md">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a>
+
+
 
  
 

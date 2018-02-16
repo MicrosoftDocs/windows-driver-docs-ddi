@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiReportLuns_IN
-title: _ScsiReportLuns_IN
+title: "_ScsiReportLuns_IN"
 author: windows-driver-content
 description: The ScsiReportLuns_IN structure holds the input data for the ScsiReportLuns method.
 old-location: storage\scsireportluns_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba1d67f7-cb90-473a-849d-7990889e4a40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_1bc2b9de-bb9a-417a-bbe3-07167f866b7b.xml, PScsiReportLuns_IN structure pointer [Storage Devices], _ScsiReportLuns_IN, iscsiop/ScsiReportLuns_IN, storage.scsireportluns_in, ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], PScsiReportLuns_IN, *PScsiReportLuns_IN, iscsiop/PScsiReportLuns_IN
+ms.keywords: iscsiop/ScsiReportLuns_IN, PScsiReportLuns_IN, iscsiop/PScsiReportLuns_IN, storage.scsireportluns_in, *PScsiReportLuns_IN, ScsiReportLuns_IN, structs-iSCSI_1bc2b9de-bb9a-417a-bbe3-07167f866b7b.xml, _ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], PScsiReportLuns_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	ScsiReportLuns_IN
 product: Windows
 targetos: Windows
@@ -75,19 +75,29 @@ A 64-bit integer that uniquely identifies the session. The <a href="https://msdn
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_scsireportluns_out.md">ScsiReportLuns_OUT</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+
+
+<a href="..\iscsiop\ns-iscsiop-_scsireportluns_out.md">ScsiReportLuns_OUT</a>
+
+
 
  
 

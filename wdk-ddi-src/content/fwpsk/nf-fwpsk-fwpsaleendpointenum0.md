@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8b3257ea-9eeb-426b-8c82-a4f0242861a8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsaleendpointenum0, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista], FwpsAleEndpointEnum0, fwpsk/FwpsAleEndpointEnum0
+ms.keywords: FwpsAleEndpointEnum0, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml, fwpsk/FwpsAleEndpointEnum0, netvista.fwpsaleendpointenum0, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsAleEndpointEnum0
 product: Windows
 targetos: Windows
@@ -111,8 +111,10 @@ On return, the number of elements in the array of endpoint property structures p
 ## -returns
 
 
+
 The 
      <b>FwpsAleEndpointEnum0</b> function returns one of the following NTSTATUS codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,11 +142,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 To enumerate ALE endpoints, the callout driver must first obtain an enumeration handle by calling 
@@ -163,21 +168,32 @@ When finished examining endpoint properties, the callout driver must call
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpsaleendpointdestroyenumhandle0" tabindex="0"><b>
-   FwpsAleEndpointDestroyEnumHandle0</b></mshelp:link>
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointcreateenumhandle0.md">
+   FwpsAleEndpointCreateEnumHandle0</a>
 
-<mshelp:link keywords="netvista.fwpsaleendpointgetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointGetSecurityInfo0</b></mshelp:link>
 
-<mshelp:link keywords="netvista.fwpsaleendpointcreateenumhandle0" tabindex="0"><b>
-   FwpsAleEndpointCreateEnumHandle0</b></mshelp:link>
-
-<mshelp:link keywords="netvista.fwpsaleendpointsetsecurityinfo0" tabindex="0"><b>
-   FwpsAleEndpointSetSecurityInfo0</b></mshelp:link>
 
 <a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointsetsecurityinfo0.md">
+   FwpsAleEndpointSetSecurityInfo0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointdestroyenumhandle0.md">
+   FwpsAleEndpointDestroyEnumHandle0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+   FwpsAleEndpointGetSecurityInfo0</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: buses\ufxdeviceportdetectcomplete.htm
 old-project: usbref
 ms.assetid: D5F65152-54CD-45FA-99CE-F5B4DF444BB8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: buses.ufxdeviceportdetectcomplete, UfxDevicePortDetectComplete method [Buses], ufxclient/UfxDevicePortDetectComplete, UfxDevicePortDetectComplete
+ms.date: 2/8/2018
+ms.keywords: UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], ufxclient/UfxDevicePortDetectComplete, buses.ufxdeviceportdetectcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxDevicePortDetectComplete
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -82,16 +82,20 @@ Contains an enumeration value of type <a href="..\usbfnbase\ne-usbfnbase-_usbfn_
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The client driver calls <b>UfxDevicePortDetectComplete</b> when port detection is complete. On some platforms, UFX may use the reported port type to notify the battery manager of the maximum current it can draw from the USB port.
 
 The client driver typically calls <b>UfxDevicePortDetectComplete</b> from its <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_port_detect.md">EVT_UFX_DEVICE_PORT_DETECT</a> callback function, as shown in this example.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -107,4 +111,5 @@ The client driver typically calls <b>UfxDevicePortDetectComplete</b> from its <a
 </td>
 </tr>
 </table></span></div>
+
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_MAC_PARAMETERS
-title: _NDIS_WWAN_MAC_PARAMETERS
+title: "_NDIS_WWAN_MAC_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_WWAN_MAC_PARAMETERS structure is used by OID_WWAN_CREATE_MAC when processing a request to create an NDIS port for a new PDP context.
 old-location: netvista\ndis_wwan_mac_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 661DA853-E848-4FEB-995F-EC5F20CE36EB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PNDIS_WWAN_MAC_PARAMETERS, ndiswwan/NDIS_WWAN_MAC_PARAMETERS, ndiswwan/PNDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_PARAMETERS, netvista.ndis_wwan_mac_parameters, _NDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS
+ms.keywords: PNDIS_WWAN_MAC_PARAMETERS, *PNDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_MAC_PARAMETERS, NDIS_WWAN_MAC_PARAMETERS, ndiswwan/PNDIS_WWAN_MAC_PARAMETERS, netvista.ndis_wwan_mac_parameters, PNDIS_WWAN_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_MAC_PARAMETERS
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ typedef struct _NDIS_WWAN_MAC_PARAMETERS {
 ### -field Header
 
 The header with type, revision, and size information about the NDIS_WWAN_MAC_PARAMETERS structure.
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -105,7 +106,8 @@ sizeof(NDIS_WWAN_MAC_PARAMETERS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -114,6 +116,8 @@ For more information about these members, see
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn449750">OID_WWAN_CREATE_MAC</a>
+
+
 
  
 

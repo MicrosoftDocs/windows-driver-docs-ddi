@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ba5cfe7-a745-497e-b5ce-8c7b3d4929f5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PoEndDeviceBusy, kernel.poenddevicebusy, PoEndDeviceBusy routine [Kernel-Mode Driver Architecture], PoEndDeviceBusy, portn_edd72e85-e155-4a0c-9d6a-836ad448bb61.xml
+ms.keywords: wdm/PoEndDeviceBusy, PoEndDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.poenddevicebusy, PoEndDeviceBusy, portn_edd72e85-e155-4a0c-9d6a-836ad448bb61.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoEndDeviceBusy
 product: Windows
 targetos: Windows
@@ -75,14 +75,18 @@ A pointer to an idle counter. This is a pointer value that was previously return
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a> and <b>PoEndDeviceBusy</b> routines mark the start and end of a time period in which a device is busy. Each call to <b>PoStartDeviceBusy</b> must be followed by a corresponding call to <b>PoEndDeviceBusy</b>. For more information about how these routines work together, see <a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>.
+
 
 
 
@@ -90,7 +94,11 @@ The <a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a> and <b>Po
 
 <a href="..\wdm\nf-wdm-poregisterdeviceforidledetection.md">PoRegisterDeviceForIdleDetection</a>
 
+
+
 <a href="..\wdm\nf-wdm-postartdevicebusy.md">PoStartDeviceBusy</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b07cd86b-a980-478b-832b-484a1b0ca981
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VideoPortWritePortBufferUchar, display.videoportwriteportbufferuchar, VideoPortWritePortBufferUchar function [Display Devices], VideoPort_Functions_c7f29624-d08d-437f-8b03-6f6f3b1f27b9.xml, VideoPortWritePortBufferUchar
+ms.keywords: video/VideoPortWritePortBufferUchar, VideoPortWritePortBufferUchar, VideoPortWritePortBufferUchar function [Display Devices], display.videoportwriteportbufferuchar, VideoPort_Functions_c7f29624-d08d-437f-8b03-6f6f3b1f27b9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortWritePortBufferUchar
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ Specifies the number of bytes to be transferred to the adapter.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWritePortBufferUchar</b>.
@@ -101,9 +104,12 @@ Callers of <b>VideoPortWritePortBufferUchar</b> can be running at any IRQL, prov
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
 
  
 

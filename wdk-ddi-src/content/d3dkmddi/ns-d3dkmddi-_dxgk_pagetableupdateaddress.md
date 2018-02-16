@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PAGETABLEUPDATEADDRESS
-title: _DXGK_PAGETABLEUPDATEADDRESS
+title: "_DXGK_PAGETABLEUPDATEADDRESS"
 author: windows-driver-content
 description: DXGK_PAGETABLEUPDATEADDRESS contains the address of a page table to update. The member containing the address is defined as part of a DxgkDdiBuildPagingBuffer operation in the DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure.
 old-location: display\dxgk_pagetableupdateaddress.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39013276-C76A-4E31-80DD-26C17A020BD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_PAGETABLEUPDATEADDRESS, display.dxgk_pagetableupdateaddress, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices], DXGK_PAGETABLEUPDATEADDRESS, d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS
+ms.keywords: "_DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices], display.dxgk_pagetableupdateaddress, d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PAGETABLEUPDATEADDRESS
 product: Windows
 targetos: Windows
@@ -90,7 +90,11 @@ The GPU virtual address of the page table to update.
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 8ac611fc-5634-4857-8533-6e170fe884b2
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: UPSCancelWait, upssvc/UPSCancelWait, UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml, UPSCancelWait function [Battery Devices], battery.upscancelwait
+ms.keywords: upssvc/UPSCancelWait, battery.upscancelwait, UPSCancelWait function [Battery Devices], UPSCancelWait, UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Upssvc.h
-apiname: 
+apiname:
 -	UPSCancelWait
 product: Windows
 targetos: Windows
@@ -75,20 +75,26 @@ void UPSCancelWait(
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The call returns immediately.
+
 
 
 
 ## -see-also
 
 <a href="..\upssvc\nf-upssvc-upswaitforstatechange.md">UPSWaitForStateChange</a>
+
+
 
  
 

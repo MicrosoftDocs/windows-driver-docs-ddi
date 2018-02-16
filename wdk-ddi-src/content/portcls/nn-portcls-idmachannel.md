@@ -7,7 +7,7 @@ old-location: audio\idmachannel.htm
 old-project: audio
 ms.assetid: 85fad1fb-d088-46ad-917c-bdbc31134690
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.idmachannel, IDmaChannel interface [Audio Devices], IDmaChannel interface [Audio Devices], described, IDmaChannel, portcls/IDmaChannel, audmp-routines_55e2df1d-771f-4427-a48e-671d4e113d5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IDmaChannel interface

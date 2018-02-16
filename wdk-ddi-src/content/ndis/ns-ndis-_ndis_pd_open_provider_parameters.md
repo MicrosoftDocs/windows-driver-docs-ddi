@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_OPEN_PROVIDER_PARAMETERS
-title: _NDIS_PD_OPEN_PROVIDER_PARAMETERS
+title: "_NDIS_PD_OPEN_PROVIDER_PARAMETERS"
 author: windows-driver-content
 description: This structure is used as a buffer for parameters in the OID_PD_OPEN_PROVIDER OID.
 old-location: netvista\ndis_pd_open_provider_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 38612533-DC8A-4D46-9C95-9F16BD9C27AB
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_PD_OPEN_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_PD_OPEN_PROVIDER_PARAMETERS, ndis/NDIS_PD_OPEN_PROVIDER_PARAMETERS, _NDIS_PD_OPEN_PROVIDER_PARAMETERS, netvista.ndis_pd_open_provider_parameters
+ms.keywords: NDIS_PD_OPEN_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_OPEN_PROVIDER_PARAMETERS, netvista.ndis_pd_open_provider_parameters, _NDIS_PD_OPEN_PROVIDER_PARAMETERS, NDIS_PD_OPEN_PROVIDER_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	NDIS_PD_OPEN_PROVIDER_PARAMETERS
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ typedef struct _NDIS_PD_OPEN_PROVIDER_PARAMETERS {
 ### -field Header
 
 The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_OPEN_PROVIDER_PARAMETERS</b> structure. Set the members of this structure as follows:
+
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
 <li><b>Revision</b> = <b>NDIS_PD_OPEN_PROVIDER_PARAMETERS_REVISION_1</b></li>
@@ -97,13 +98,17 @@ See <a href="..\ndis\ns-ndis-_ndis_pd_provider_dispatch.md">NDIS_PD_PROVIDER_DIS
 ## -remarks
 
 
+
 This structure must be aligned on an 8-byte boundary.
+
 
 
 
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEOVERLAY
-title: _D3DDDIARG_CREATEOVERLAY
+title: "_D3DDDIARG_CREATEOVERLAY"
 author: windows-driver-content
 description: The D3DDDIARG_CREATEOVERLAY structure describes an overlay to create.
 old-location: display\d3dddiarg_createoverlay.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 74252431-5250-408a-91cc-cc529396f720
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATEOVERLAY, display.d3dddiarg_createoverlay, d3dumddi/D3DDDIARG_CREATEOVERLAY, D3DDDIARG_CREATEOVERLAY structure [Display Devices], _D3DDDIARG_CREATEOVERLAY, UMDisplayDriver_param_Structs_3261a00d-4b26-4c64-a5e0-abd453aee84c.xml
+ms.keywords: D3DDDIARG_CREATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_3261a00d-4b26-4c64-a5e0-abd453aee84c.xml, d3dumddi/D3DDDIARG_CREATEOVERLAY, D3DDDIARG_CREATEOVERLAY, display.d3dddiarg_createoverlay, _D3DDDIARG_CREATEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_CREATEOVERLAY
 product: Windows
 targetos: Windows
@@ -88,7 +88,11 @@ typedef struct _D3DDDIARG_CREATEOVERLAY {
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, image.devicedialogdata, wiadevd/LPDEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, PDEVICEDIALOGDATA structure pointer [Imaging Devices], *PDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, PDEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA, tagDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices]
+ms.keywords: "*PDEVICEDIALOGDATA, image.devicedialogdata, wiadevd/DEVICEDIALOGDATA, tagDEVICEDIALOGDATA, DEVICEDIALOGDATA, UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, PDEVICEDIALOGDATA structure pointer [Imaging Devices], PDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, wiadevd/LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], *LPDEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], LPDEVICEDIALOGDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,26 +21,26 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiadevd.h
-apiname: 
+apiname:
 -	DEVICEDIALOGDATA
 product: Windows
 targetos: Windows
-req.typenames: *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, DEVICEDIALOGDATA
+req.typenames: "*PDEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, DEVICEDIALOGDATA"
 req.product: Windows 10 or later.
 ---
 
@@ -112,6 +112,7 @@ Array of IWiaItem interface pointers. Array must
 ## -remarks
 
 
+
 The DEVICEDIALOGDATA structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545069">IWiaUIExtension::DeviceDialog</a> method.
 
 The array specified in <i>ppIWiaItems</i> must be allocated using <b>CoTaskMemAlloc</b>. All interface pointers indicated in the array must be initialized using the <b>AddRef</b> COM method. See the Windows SDK documentation for descriptions of these functions.
@@ -120,9 +121,12 @@ The <b>IWiaPropertyStorage</b> interface is used to access information about the
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545069">IWiaUIExtension::DeviceDialog</a>
+
+
 
  
 

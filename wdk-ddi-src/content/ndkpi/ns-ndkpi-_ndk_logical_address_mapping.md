@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_LOGICAL_ADDRESS_MAPPING
-title: _NDK_LOGICAL_ADDRESS_MAPPING
+title: "_NDK_LOGICAL_ADDRESS_MAPPING"
 author: windows-driver-content
 description: The NDK_LOGICAL_ADDRESS_MAPPING structure contains an array of adapter logical addresses.
 old-location: netvista\ndk_logical_address_mapping.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7FB34813-5F89-4B9C-9594-B23E7D4736C6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDK_LOGICAL_ADDRESS_MAPPING, PNDK_LOGICAL_ADDRESS_MAPPING structure pointer [Network Drivers Starting with Windows Vista], netvista.ndk_logical_address_mapping, NDK_LOGICAL_ADDRESS_MAPPING structure [Network Drivers Starting with Windows Vista], ndkpi/PNDK_LOGICAL_ADDRESS_MAPPING, NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/NDK_LOGICAL_ADDRESS_MAPPING, _NDK_LOGICAL_ADDRESS_MAPPING
+ms.keywords: PNDK_LOGICAL_ADDRESS_MAPPING structure pointer [Network Drivers Starting with Windows Vista], PNDK_LOGICAL_ADDRESS_MAPPING, netvista.ndk_logical_address_mapping, ndkpi/PNDK_LOGICAL_ADDRESS_MAPPING, NDK_LOGICAL_ADDRESS_MAPPING, _NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/NDK_LOGICAL_ADDRESS_MAPPING, NDK_LOGICAL_ADDRESS_MAPPING structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_LOGICAL_ADDRESS_MAPPING
 product: Windows
 targetos: Windows
@@ -84,20 +84,27 @@ Reserved for the NDK provider's use. The NDK consumer must not modify this membe
 
 An array of adapter logical addresses. Each logical address in the array corresponds to a page, of <b>PAGE_SIZE</b> bytes in length, and must be <b>PAGE_SIZE</b>-aligned. The array of pages correspond to a virtually contiguous memory region.
 The <b>NDK_LOGICAL_ADDRESS</b> datatype is defined as follows:
+
 <pre class="syntax" xml:space="preserve"><code>typedef PHYSICAL_ADDRESS NDK_LOGICAL_ADDRESS;</code></pre>
 
 ## -remarks
+
 
 
 <b>NDK_LOGICAL_ADDRESS_MAPPING</b> represents an adapter's view of physical memory. See <a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a> and <a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a> for more information.
 
 
 
+
 ## -see-also
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
+
+
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a>
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
+
 
  
 

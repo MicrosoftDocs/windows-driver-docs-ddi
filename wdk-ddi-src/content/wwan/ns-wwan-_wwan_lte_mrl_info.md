@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_LTE_MRL_INFO
-title: _WWAN_LTE_MRL_INFO
+title: "_WWAN_LTE_MRL_INFO"
 author: windows-driver-content
 description: The WWAN_LTE_MRL_INFO structure represents information about a neighboring LTE cell.
 old-location: netvista\wwan_lte_mrl_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 49C3D862-EB78-4C44-A7B7-CE15E79EB021
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_LTE_MRL_INFO, _WWAN_LTE_MRL_INFO, WWAN_LTE_MRL_INFO structure [Network Drivers Starting with Windows Vista], wwan/WWAN_LTE_MRL_INFO, wwan/PWWAN_LTE_MRL_INFO, *PWWAN_LTE_MRL_INFO, PWWAN_LTE_MRL_INFO, PWWAN_LTE_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_lte_mrl_info
+ms.keywords: wwan/WWAN_LTE_MRL_INFO, wwan/PWWAN_LTE_MRL_INFO, PWWAN_LTE_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_LTE_MRL_INFO, *PWWAN_LTE_MRL_INFO, netvista.wwan_lte_mrl_info, _WWAN_LTE_MRL_INFO, PWWAN_LTE_MRL_INFO, WWAN_LTE_MRL_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_LTE_MRL_INFO
 product: Windows
 targetos: Windows
-req.typenames: WWAN_LTE_MRL_INFO, *PWWAN_LTE_MRL_INFO
+req.typenames: "*PWWAN_LTE_MRL_INFO, WWAN_LTE_MRL_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -122,6 +122,7 @@ The Average Reference Signal Received Quality. The range is -20 to -3, in units 
 
 
 
+
 #### - Data[ANYSIZE_ARRAY]
 
 The data buffer containing <i>ProviderId</i>.
@@ -131,11 +132,19 @@ The data buffer containing <i>ProviderId</i>.
 
 <a href="..\wwan\ns-wwan-_wwan_lte_serving_cell_info.md">WWAN_LTE_SERVING_CELL_INFO</a>
 
+
+
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_lte_mrl.md">WWAN_LTE_MRL</a>
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
 
  
 

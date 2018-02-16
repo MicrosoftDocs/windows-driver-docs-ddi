@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3203542-177c-440a-8d41-4d70d77f804d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, RetrieveSymbolicLink method, RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
+ms.keywords: RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize interface, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, RetrieveSymbolicLink method, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize, RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize interface, RetrieveSymbolicLink method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,9 @@ A pointer to a caller-allocated location. On input, this location must contain t
 ## -returns
 
 
+
 <b>RetrieveSymbolicLink</b> returns S_OK if the operation succeeds. Otherwise the method might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,18 +103,22 @@ The buffer that <i>pSymbolicLink</i> points to is too small. In this case, the f
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
+
 
 
 
 ## -remarks
 
 
+
 The symbolic link name can include an appended backslash (\) character, followed by an instance-specific reference string.
 
 Typically, your driver should call <b>RetrieveSymbolicLink</b> twice, as follows:
+
 <ol>
 <li>
 Set the <i>pSymbolicLink</i> parameter to <b>NULL</b> and call <b>RetrieveSymbolicLink</b>. The location that <i>pdwSymbolicLinkLengthInChars</i> points to receives the number of characters that the symbolic link name contains.
@@ -126,7 +132,46 @@ Allocate a buffer that is large enough to receive the symbolic link name.
 Call <b>RetrieveSymbolicLink</b> again, and set the <i>pSymbolicLink</i> parameter to the address of the buffer that you allocated.
 
 </li>
-</ol>For more information about the <b>RetrieveSymbolicLink</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
+</ol>
+For more information about the <b>RetrieveSymbolicLink</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">Using Device Interfaces in UMDF-based Drivers</a>.
+
+
+#### Examples
+
+The following code example shows how a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function can determine the length of device interface's symbolic link name, allocate a buffer for the name, and then retrieve the name.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void 
+STDMETHODCALLTYPE
+CMyDevice::OnRemoteInterfaceArrival(
+    __in IWDFRemoteInterfaceInitialize  *FxRemoteInterfaceInit
+    )
+{
+    HRESULT hr;
+    INT BufferSize;
+    hr= FxRemoteInterfaceInit-&gt;RetrieveSymbolicLink(NULL,
+                                                    &amp;BufferSize);
+    if (FAILED(hr)) goto Error;
+    hr = FxDriver-&gt;CreateWdfMemory(BufferSize, 
+                                   NULL, 
+                                   FxRemoteInterface, 
+                                   &amp;FxSymLinkBuffer);
+    if (FAILED(hr)) goto Error;
+    hr= FxRemoteInterfaceInit-&gt;RetrieveSymbolicLink(FxSymLinkBuffer-&gt;GetDataBuffer(NULL),
+                                                    &amp;BufferSize);
+    if (FAILED(hr)) goto Error;
+...
+Error:
+...
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -134,7 +179,11 @@ Call <b>RetrieveSymbolicLink</b> again, and set the <i>pSymbolicLink</i> paramet
 
 <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560238">IWDFRemoteInterfaceInitialize::GetInterfaceGuid</a>
+
+
 
  
 

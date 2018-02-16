@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f8e65085-6837-4d49-a39e-784942ee39a4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE, netvista.rilcallaudiomediastate, RILCALLAUDIOMEDIASTATE
+ms.keywords: "*LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE, ntddrilapitypes/RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallaudiomediastate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLAUDIOMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE
+req.typenames: RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE
 ---
 
 # RILCALLAUDIOMEDIASTATE structure
@@ -73,15 +73,11 @@ typedef struct _RILCALLAUDIOMEDIASTATE {
 ### -field dwParams
 
 
-
 ### -field dwAudioSource
-
 
 
 ### -field dwAudioQuality
 
 
-
 ### -field dwFlags
-
 

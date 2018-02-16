@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_HEADER
-title: _BRB_HEADER
+title: "_BRB_HEADER"
 author: windows-driver-content
 description: The BRB_HEADER structure contains header information about a Bluetooth request block (BRB), including information about the BRB type that the Bluetooth driver stack uses to determine which kind of BRB type to process.
 old-location: bltooth\brb_header.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_HEADER, bltooth.brb_header, BRB_HEADER structure [Bluetooth Devices], bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, BRB_HEADER, bthddi/BRB_HEADER
+ms.keywords: BRB_HEADER, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, BRB_HEADER structure [Bluetooth Devices], bltooth.brb_header, _BRB_HEADER, bthddi/BRB_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	BRB_HEADER
 product: Windows
 targetos: Windows
@@ -105,6 +105,7 @@ The Bluetooth request block type. The
      <a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a> functions automatically set this
      member.Possible values include:
      
+
 <ul>
 <li>BRB_HCI_GET_LOCAL_BD_ADDR</li>
 <li>BRB_L2CA_REGISTER_SERVER</li>
@@ -146,6 +147,7 @@ The NTSTATUS code that is passed when the BRB call completes.
 The Bluetooth status code (BTSTATUS) that corresponds to the NTSTATUS code that is passed in the 
      <b>Status</b> member. Possible values include:
      
+
 <ul>
 <li>BTH_ERROR_SUCCESS</li>
 <li>BTH_ERROR_ACL_CONNECTION_ALREADY_EXISTS</li>
@@ -210,13 +212,15 @@ Reserved for future use. Do not use.
 ## -remarks
 
 
+
 The BRB_HEADER structure contains common types of information about the specified BRB. The BRB_HEADER
     structure is used by all BRB structures that are used as the input buffer for 
-    <mshelp:link keywords="bltooth.ioctl_internal_bth_submit_brb" tabindex="0"><b>
-    IOCTL_INTERNAL_BTH_SUBMIT_BRB</b></mshelp:link> IOCTLs.
+    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">
+    IOCTL_INTERNAL_BTH_SUBMIT_BRB</a> IOCTLs.
 
 Profile drivers should not modify any of the members of the BRB_HEADER structure except 
     <b>ClientContext</b>.
+
 
 
 
@@ -224,9 +228,15 @@ Profile drivers should not modify any of the members of the BRB_HEADER structure
 
 <a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
 
+
+
 <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
 
+
+
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+
+
 
  
 

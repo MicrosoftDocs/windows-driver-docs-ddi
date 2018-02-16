@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_InitiatorInstanceFailureEvent
-title: _MSiSCSI_InitiatorInstanceFailureEvent
+title: "_MSiSCSI_InitiatorInstanceFailureEvent"
 author: windows-driver-content
 description: The MSiSCSI_InitiatorInstanceFailureEvent structure is used to report an event when an initiator instance failure occurs.
 old-location: storage\msiscsi_initiatorinstancefailureevent.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f0213dc9-7299-4cf7-b2c9-27e5d1caea00
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _MSiSCSI_InitiatorInstanceFailureEvent, PMSiSCSI_InitiatorInstanceFailureEvent, storage.msiscsi_initiatorinstancefailureevent, structs-iSCSI_189ce06c-9fb3-49f5-9921-31c400c4ae23.xml, iscsimgt/MSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent, PMSiSCSI_InitiatorInstanceFailureEvent structure pointer [Storage Devices], *PMSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent structure [Storage Devices], iscsimgt/PMSiSCSI_InitiatorInstanceFailureEvent
+ms.keywords: structs-iSCSI_189ce06c-9fb3-49f5-9921-31c400c4ae23.xml, MSiSCSI_InitiatorInstanceFailureEvent, PMSiSCSI_InitiatorInstanceFailureEvent structure pointer [Storage Devices], iscsimgt/MSiSCSI_InitiatorInstanceFailureEvent, iscsimgt/PMSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent structure [Storage Devices], storage.msiscsi_initiatorinstancefailureevent, *PMSiSCSI_InitiatorInstanceFailureEvent, _MSiSCSI_InitiatorInstanceFailureEvent, PMSiSCSI_InitiatorInstanceFailureEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsimgt.h
-apiname: 
+apiname:
 -	MSiSCSI_InitiatorInstanceFailureEvent
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_InitiatorInstanceFailureEvent, *PMSiSCSI_InitiatorInstanceFailureEvent
+req.typenames: "*PMSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent"
 ---
 
 # _MSiSCSI_InitiatorInstanceFailureEvent structure
@@ -81,7 +81,9 @@ The name of the target that is associated with the initiator instance that is re
 ## -remarks
 
 
+
 We recommend that you implement this class.
+
 
 
 
@@ -89,7 +91,11 @@ We recommend that you implement this class.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561533">ISCSI_INITIATOR_FAILURE_TYPE_QUALIFIERS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563032">MSiSCSI_InitiatorInstanceFailureEvent WMI Class</a>
+
+
 
  
 

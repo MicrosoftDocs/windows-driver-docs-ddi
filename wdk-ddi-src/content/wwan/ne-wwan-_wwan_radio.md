@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_RADIO
-title: _WWAN_RADIO
+title: "_WWAN_RADIO"
 author: windows-driver-content
 description: The WWAN_RADIO enumeration lists the different types of radio power modes that are supported by the MB device.
 old-location: netvista\wwan_radio.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_radio, *PWWAN_RADIO, wwan/WWAN_RADIO, wwan/WwanRadioOff, WWAN_RADIO, WwanRadioOn, WwanRadioOff, wwan/PWWAN_RADIO, _WWAN_RADIO, wwan/WwanRadioOn
+ms.keywords: netvista.wwan_radio, wwan/PWWAN_RADIO, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRadioOff, wwan/WwanRadioOn, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WwanRadioOn, _WWAN_RADIO, WwanRadioOff, wwan/WWAN_RADIO, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, *PWWAN_RADIO, WWAN_RADIO, PWWAN_RADIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_RADIO
 product: Windows
 targetos: Windows
@@ -82,9 +82,13 @@ The radio power is turned on.
 
 ## -see-also
 
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_radio_state.md">NDIS_WWAN_SET_RADIO_STATE</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a>
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_radio_state.md">NDIS_WWAN_SET_RADIO_STATE</a>
+
 
  
 

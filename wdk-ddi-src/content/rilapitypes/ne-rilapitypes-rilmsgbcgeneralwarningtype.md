@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0e556cab-87af-4b3d-8c8c-d0815323a002
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_RESERVED, rilapitypes/RILMSGBCGENERALWARNINGTYPE, RIL_WARNINGTYPE_TSUNAMI, netvista.rilmsgbcgeneralwarningtype_2, RILMSGBCGENERALWARNINGTYPE, RIL_WARNINGTYPE_MAX, RILMSGBCGENERALWARNINGTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, rilapitypes/RIL_WARNINGTYPE_OTHER, rilapitypes/RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, rilapitypes/RIL_WARNINGTYPE_MAX, rilapitypes/RIL_WARNINGTYPE_RESERVED, RIL_WARNINGTYPE_OTHER, rilapitypes/RIL_WARNINGTYPE_TSUNAMI
+ms.keywords: rilapitypes/RIL_WARNINGTYPE_OTHER, RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, RIL_WARNINGTYPE_TEST, rilapitypes/RILMSGBCGENERALWARNINGTYPE, RILMSGBCGENERALWARNINGTYPE, RIL_WARNINGTYPE_OTHER, rilapitypes/RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_MAX, RIL_WARNINGTYPE_RESERVED, RILMSGBCGENERALWARNINGTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_WARNINGTYPE_RESERVED, netvista.rilmsgbcgeneralwarningtype_2, rilapitypes/RIL_WARNINGTYPE_MAX, rilapitypes/RIL_WARNINGTYPE_TSUNAMI, RIL_WARNINGTYPE_TSUNAMI, rilapitypes/RIL_WARNINGTYPE_EARTHQUAKETSUNAMI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGBCGENERALWARNINGTYPE
 product: Windows
 targetos: Windows
@@ -76,27 +76,20 @@ typedef enum _RILMSGBCGENERALWARNINGTYPE {
 ### -field RIL_WARNINGTYPE_EARTHQUAKE
 
 
-
 ### -field RIL_WARNINGTYPE_TSUNAMI
-
 
 
 ### -field RIL_WARNINGTYPE_EARTHQUAKETSUNAMI
 
 
-
 ### -field RIL_WARNINGTYPE_TEST
-
 
 
 ### -field RIL_WARNINGTYPE_OTHER
 
 
-
 ### -field RIL_WARNINGTYPE_RESERVED
 
 
-
 ### -field RIL_WARNINGTYPE_MAX
-
 

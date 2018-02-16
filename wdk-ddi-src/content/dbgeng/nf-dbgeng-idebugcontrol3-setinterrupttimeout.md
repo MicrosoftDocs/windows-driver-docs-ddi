@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 93bc2a07-a6f7-45df-945d-81c6c53adb47
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl::SetInterruptTimeout, IDebugControl interface [Windows Debugging], SetInterruptTimeout method, SetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, IDebugControl2::SetInterruptTimeout, dbgeng/IDebugControl2::SetInterruptTimeout, SetInterruptTimeout, IDebugControl3::SetInterruptTimeout, IDebugControl3 interface [Windows Debugging], SetInterruptTimeout method, SetInterruptTimeout method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], SetInterruptTimeout method, IDebugControl_c16219f4-97b7-451d-8f04-30aa262667f6.xml, dbgeng/IDebugControl3::SetInterruptTimeout, SetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, SetInterruptTimeout method [Windows Debugging], debugger.setinterrupttimeout, IDebugControl3, dbgeng/IDebugControl::SetInterruptTimeout
+ms.keywords: SetInterruptTimeout method [Windows Debugging], IDebugControl interface, SetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, IDebugControl_c16219f4-97b7-451d-8f04-30aa262667f6.xml, SetInterruptTimeout, SetInterruptTimeout method [Windows Debugging], IDebugControl::SetInterruptTimeout, IDebugControl interface [Windows Debugging], SetInterruptTimeout method, debugger.setinterrupttimeout, dbgeng/IDebugControl2::SetInterruptTimeout, IDebugControl3, IDebugControl3::SetInterruptTimeout, IDebugControl2::SetInterruptTimeout, dbgeng/IDebugControl::SetInterruptTimeout, dbgeng/IDebugControl3::SetInterruptTimeout, IDebugControl2, IDebugControl, SetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], SetInterruptTimeout method, IDebugControl3 interface [Windows Debugging], SetInterruptTimeout method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.SetInterruptTimeout
 -	IDebugControl2.SetInterruptTimeout
 -	IDebugControl3.SetInterruptTimeout
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetInterruptTimeout method
@@ -77,7 +77,9 @@ Specifies the number of seconds that the engine should wait for the target when 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,11 +96,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The engine requests a break into the debugger when <a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a> is called with the DEBUG_INTERRUPT_ACTIVE flag.  
@@ -109,19 +114,32 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
+
+
 
  
 

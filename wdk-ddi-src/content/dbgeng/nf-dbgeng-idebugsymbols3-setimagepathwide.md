@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3::SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide, debugger.setimagepathwide, IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetImagePathWide
+ms.keywords: SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::SetImagePathWide, SetImagePathWide, IDebugSymbols3, SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.SetImagePathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::SetImagePathWide method
@@ -75,7 +75,9 @@ Specifies the new executable image path.  This is a string that contains directo
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The executable image path is used by the engine when searching for executable images.
@@ -105,13 +110,20 @@ The executable image path can consist of several directories separated by semico
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

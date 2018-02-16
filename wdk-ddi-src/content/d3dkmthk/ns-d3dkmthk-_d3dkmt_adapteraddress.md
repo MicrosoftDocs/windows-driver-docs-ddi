@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTERADDRESS
-title: _D3DKMT_ADAPTERADDRESS
+title: "_D3DKMT_ADAPTERADDRESS"
 author: windows-driver-content
 description: The D3DKMT_ADAPTERADDRESS structure describes the physical location of the graphics adapter.
 old-location: display\d3dkmt_adapteraddress.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 70f45ca2-4be6-4e74-b2e8-55ef7a43192f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_ADAPTERADDRESS, display.d3dkmt_adapteraddress, D3DKMT_ADAPTERADDRESS, OpenGL_Structs_98b1caf8-46c4-4f78-896c-031e8f3f61d0.xml, D3DKMT_ADAPTERADDRESS structure [Display Devices], _D3DKMT_ADAPTERADDRESS
+ms.keywords: "_D3DKMT_ADAPTERADDRESS, OpenGL_Structs_98b1caf8-46c4-4f78-896c-031e8f3f61d0.xml, D3DKMT_ADAPTERADDRESS structure [Display Devices], display.d3dkmt_adapteraddress, d3dkmthk/D3DKMT_ADAPTERADDRESS, D3DKMT_ADAPTERADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_ADAPTERADDRESS
 product: Windows
 targetos: Windows
@@ -88,7 +88,11 @@ typedef struct _D3DKMT_ADAPTERADDRESS {
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 243b79fe-b1b2-48b4-bb0b-c56b787e7b83
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetModuleByModuleName, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols::GetModuleByModuleName, dbgeng/IDebugSymbols3::GetModuleByModuleName, debugger.getmodulebymodulename, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, dbgeng/IDebugSymbols::GetModuleByModuleName, IDebugSymbols3::GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetModuleByModuleName
+ms.keywords: IDebugSymbols2::GetModuleByModuleName, dbgeng/IDebugSymbols2::GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, debugger.getmodulebymodulename, GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, IDebugSymbols2, dbgeng/IDebugSymbols::GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], IDebugSymbols, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetModuleByModuleName
 -	IDebugSymbols2.GetModuleByModuleName
 -	IDebugSymbols3.GetModuleByModuleName
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetModuleByModuleName method
@@ -95,7 +95,9 @@ Receives the location in the target's memory address space of the base of the mo
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ One of the arguments passed in was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Starting at the specified index, these methods return the first module they find with the specified name.  If the target has more than one module with this name, then subsequent modules can be found by repeated calls to these methods with higher values of <i>StartIndex</i>.  
@@ -136,15 +141,24 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547102">GetModuleByModuleName2</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547102">GetModuleByModuleName2</a>
+
+
 
  
 

@@ -15,7 +15,7 @@ ms.topic: ioctl
 req.header: bthioctl.h
 req.include-header: BthIoctl.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= PASSIVE_LEVEL
-topictype: 
+req.irql: "<= PASSIVE_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	BthIoctl.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_BTH_SUBMIT_BRB
 product: Windows
 targetos: Windows
-req.typenames: *PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1
+req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
 ---
 
 # IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL
@@ -72,6 +72,7 @@ The
       <b>Parameters.Others.Argument1</b> member points to the address an instance of the
       structure that corresponds to the BRB that the profile driver intends to issue. The following list
       describes the structures that correspond to specific BRBs.
+
 <table>
 <tr>
 <th>Bluetooth Request Block (BRB)</th>
@@ -108,8 +109,8 @@ BRB_L2CA_UNREGISTER_SERVER
 </td>
 <td>
 
-<mshelp:link keywords="bltooth._brb_l2ca_unregister_server" tabindex="0"><b>
-          _BRB_L2CA_UNREGISTER_SERVER</b></mshelp:link>
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_unregister_server.md">
+          _BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 </td>
@@ -349,13 +350,14 @@ BRB_GET_DEVICE_INTERFACE_STRING
 </td>
 <td>
 
-<mshelp:link keywords="bltooth._brb_get_device_interface_string" tabindex="0"><b>
-          _BRB_GET_DEVICE_INTERFACE_STRING</b></mshelp:link>
+<a href="..\bthddi\ns-bthddi-_brb_get_device_interface_string.md">
+          _BRB_GET_DEVICE_INTERFACE_STRING</a>
 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -input-buffer-length
@@ -379,14 +381,18 @@ The length of the structure
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -399,6 +405,7 @@ If the request is successful, the
 
 The 
       <b>Status</b> member is set to one of the values in the following table.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -480,10 +487,12 @@ The BRB is pending.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 Profile drivers use BRBs to handle most input, output, and connection tasks. A number of BRBs are
@@ -500,13 +509,20 @@ These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
 
 
 
-## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+## -see-also
 
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>
+
+
 
  
 

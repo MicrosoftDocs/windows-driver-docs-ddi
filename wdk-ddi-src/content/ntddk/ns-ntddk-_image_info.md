@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._IMAGE_INFO
-title: _IMAGE_INFO
+title: "_IMAGE_INFO"
 author: windows-driver-content
 description: Used by driver's load-image routine (PLOAD_IMAGE_NOTIFY_ROUTINE) to specify image information.
 old-location: kernel\image_info.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D2CD2457-8DDF-4449-9DC1-F1E7472C87CA
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IMAGE_INFO, kernel.image_info, ntddk/PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], ntddk/IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, *PIMAGE_INFO, _IMAGE_INFO
+ms.keywords: ntddk/IMAGE_INFO, IMAGE_INFO, kernel.image_info, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, _IMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], ntddk/PIMAGE_INFO, *PIMAGE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	IMAGE_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PIMAGE_INFO, IMAGE_INFO
+req.typenames: "*PIMAGE_INFO, IMAGE_INFO"
 ---
 
 # _IMAGE_INFO structure
@@ -82,6 +82,9 @@ typedef struct _IMAGE_INFO {
 ## -struct-fields
 
 
+
+
+### -field Properties
 
 
 ### -field ImageAddressingMode
@@ -129,10 +132,6 @@ This value is non-zero if the image mapping view called out for is a partial vie
 Always set to zero.
 
 
-### -field Properties
-
-
-
 ### -field ImageBase
 
 Set to the virtual base address of the image.
@@ -156,17 +155,25 @@ Always set to zero.
 ## -remarks
 
 
+
 If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure is part of a larger, extended version of the image information structure, <a href="..\ntddk\ns-ntddk-_image_info_ex.md">IMAGE_INFO_EX</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pload_image_notify_routine.md">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
+<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+
+
 
 <a href="..\ntddk\ns-ntddk-_image_info_ex.md">IMAGE_INFO_EX</a>
 
-<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+
+
+<a href="..\ntddk\nc-ntddk-pload_image_notify_routine.md">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
+
+
 
  
 

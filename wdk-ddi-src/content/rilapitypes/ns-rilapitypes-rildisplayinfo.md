@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f24d8122-ea07-477f-9cf9-4767cc0fbf86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILDISPLAYINFO, RILDISPLAYINFO, *LPRILDISPLAYINFO, netvista.rildisplayinfo_2
+ms.keywords: rilapitypes/RILDISPLAYINFO, RILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], *LPRILDISPLAYINFO, netvista.rildisplayinfo_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILDISPLAYINFO
 product: Windows
 targetos: Windows
-req.typenames: *LPRILDISPLAYINFO, RILDISPLAYINFO
+req.typenames: RILDISPLAYINFO, *LPRILDISPLAYINFO
 req.product: Windows 10 or later.
 ---
 
@@ -77,27 +77,20 @@ typedef struct _RILDISPLAYINFO {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwExecutor
 
 
-
 ### -field dwType
-
 
 
 ### -field dwTag
 
 
-
 ### -field dwMessageSize
 
 
-
 ### -field pbMessage
-
 

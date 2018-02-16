@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_NFCIP_TGT_MODE_CONFIG
-title: _NFC_CX_NFCIP_TGT_MODE_CONFIG
+title: "_NFC_CX_NFCIP_TGT_MODE_CONFIG"
 author: windows-driver-content
 description: The NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration specifies NFC-IP target mode.
 old-location: nfpdrivers\nfc_cx_nfcip_tgt_mode_config.htm
@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E689992B-C767-4942-871D-D6EEDA35F0E7
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_212, NFC_CX_NFCIP_NFC_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE, nfccx/NFC_CX_NFCIP_TGT_MODE_CONFIG, nfccx/NFC_CX_NFCIP_NFC_F_424, NFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_NFC_F_424, NFC_CX_NFCIP_NFC_ACTIVE_F_424, _NFC_CX_NFCIP_TGT_MODE_CONFIG, nfccx/NFC_CX_NFCIP_DEFAULT, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_424, PNFC_CX_NFCIP_TGT_MODE_CONFIG, nfccx/NFC_CX_NFCIP_NFC_A, NFC_CX_NFCIP_NFC_F_212, NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration [Near-Field Proximity Drivers], nfpdrivers.nfc_cx_nfcip_tgt_mode_config, NFC_CX_NFCIP_NFC_ACTIVE, NFC_CX_NFCIP_DEFAULT, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_A, NFC_CX_NFCIP_NFC_ACTIVE_F_212, NFC_CX_NFCIP_NFC_ACTIVE_A, *PNFC_CX_NFCIP_TGT_MODE_CONFIG, nfccx/NFC_CX_NFCIP_NFC_F_212
+ms.keywords: NFC_CX_NFCIP_NFC_F_212, nfccx/NFC_CX_NFCIP_NFC_F_212, NFC_CX_NFCIP_NFC_ACTIVE_A, NFC_CX_NFCIP_NFC_ACTIVE_F_212, NFC_CX_NFCIP_TGT_MODE_CONFIG, nfccx/NFC_CX_NFCIP_NFC_ACTIVE, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_212, nfccx/NFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_DEFAULT, NFC_CX_NFCIP_NFC_A, _NFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_NFCIP_NFC_ACTIVE, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_424, nfccx/NFC_CX_NFCIP_NFC_F_424, nfccx/NFC_CX_NFCIP_DEFAULT, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_A, nfccx/NFC_CX_NFCIP_NFC_A, nfpdrivers.nfc_cx_nfcip_tgt_mode_config, NFC_CX_NFCIP_NFC_ACTIVE_F_424, *PNFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_NFC_F_424, PNFC_CX_NFCIP_TGT_MODE_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Requires same
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfccx.h
-apiname: 
+apiname:
 -	NFC_CX_NFCIP_TGT_MODE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: NFC_CX_NFCIP_TGT_MODE_CONFIG, *PNFC_CX_NFCIP_TGT_MODE_CONFIG
+req.typenames: "*PNFC_CX_NFCIP_TGT_MODE_CONFIG, NFC_CX_NFCIP_TGT_MODE_CONFIG"
 ---
 
 # _NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration
@@ -77,17 +77,13 @@ typedef enum _NFC_CX_NFCIP_TGT_MODE_CONFIG {
 ### -field NFC_CX_NFCIP_TGT_NFC_A
 
 
-
 ### -field NFC_CX_NFCIP_TGT_NFC_F
-
 
 
 ### -field NFC_CX_NFCIP_TGT_NFC_ACTIVE_A
 
 
-
 ### -field NFC_CX_NFCIP_TGT_NFC_ACTIVE_F
-
 
 
 ### -field NFC_CX_NFCIP_TGT_DEFAULT
@@ -95,43 +91,39 @@ typedef enum _NFC_CX_NFCIP_TGT_MODE_CONFIG {
 
 
 
-#### - NFC_CX_NFCIP_NFC_ACTIVE_F_212
-
-
-
-#### - NFC_CX_NFCIP_NFC_ACTIVE_A
-
+#### - NFC_CX_NFCIP_DEFAULT
 
 
 #### - NFC_CX_NFCIP_NFC_A
 
 
-
 #### - NFC_CX_NFCIP_NFC_ACTIVE
 
 
-
-#### - NFC_CX_NFCIP_DEFAULT
-
+#### - NFC_CX_NFCIP_NFC_ACTIVE_A
 
 
-#### - NFC_CX_NFCIP_NFC_F_424
-
+#### - NFC_CX_NFCIP_NFC_ACTIVE_F_212
 
 
 #### - NFC_CX_NFCIP_NFC_ACTIVE_F_424
 
 
-
 #### - NFC_CX_NFCIP_NFC_F_212
 
+
+#### - NFC_CX_NFCIP_NFC_F_424
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
 
  
 

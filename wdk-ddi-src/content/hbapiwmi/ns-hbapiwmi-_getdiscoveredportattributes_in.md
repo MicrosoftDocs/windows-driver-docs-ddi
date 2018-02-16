@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetDiscoveredPortAttributes_IN
-title: _GetDiscoveredPortAttributes_IN
+title: "_GetDiscoveredPortAttributes_IN"
 author: windows-driver-content
 description: The GetDiscoveredPortAttributes_IN structure is used to pass input parameter data to the GetDiscoveredPortAttributes WMI method.
 old-location: storage\getdiscoveredportattributes_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 99129f8e-c047-4e9f-bcaa-3cbcd2d30915
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: *PGetDiscoveredPortAttributes_IN, PGetDiscoveredPortAttributes_IN structure pointer [Storage Devices], hbapiwmi/PGetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN, _GetDiscoveredPortAttributes_IN, PGetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN structure [Storage Devices], hbapiwmi/GetDiscoveredPortAttributes_IN, storage.getdiscoveredportattributes_in, structs-Fibre_5154a471-3acc-4eea-86c7-2292ccc230fb.xml
+ms.keywords: hbapiwmi/PGetDiscoveredPortAttributes_IN, _GetDiscoveredPortAttributes_IN, structs-Fibre_5154a471-3acc-4eea-86c7-2292ccc230fb.xml, *PGetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN structure [Storage Devices], PGetDiscoveredPortAttributes_IN structure pointer [Storage Devices], hbapiwmi/GetDiscoveredPortAttributes_IN, PGetDiscoveredPortAttributes_IN, storage.getdiscoveredportattributes_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	GetDiscoveredPortAttributes_IN
 product: Windows
 targetos: Windows
-req.typenames: *PGetDiscoveredPortAttributes_IN, GetDiscoveredPortAttributes_IN
+req.typenames: GetDiscoveredPortAttributes_IN, *PGetDiscoveredPortAttributes_IN
 ---
 
 # _GetDiscoveredPortAttributes_IN structure
@@ -81,13 +81,17 @@ Indicates the index within the specified HBA of the port of type FC_Port to quer
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
+
+
 
  
 

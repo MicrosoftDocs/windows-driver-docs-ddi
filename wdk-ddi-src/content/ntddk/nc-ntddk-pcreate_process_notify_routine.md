@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ntddk.h
-apiname: 
+apiname:
 -	SetCreateProcessNotifyRoutine
 product: Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
 ---
 
 # PCREATE_PROCESS_NOTIFY_ROUTINE callback
@@ -90,11 +90,14 @@ Indicates whether the process was created (<b>TRUE</b>) or deleted (<b>FALSE</b>
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 Highest-level drivers call <b>PsSetCreateProcessNotifyRoutine</b> to register their process-creation notify routines.
@@ -105,9 +108,12 @@ A driver's process-notify routine is also called with <i>Create</i> set to <b>FA
 
 
 
+
 ## -see-also
 
 <b>PsSetCreateProcessNotifyRoutine</b>
+
+
 
  
 

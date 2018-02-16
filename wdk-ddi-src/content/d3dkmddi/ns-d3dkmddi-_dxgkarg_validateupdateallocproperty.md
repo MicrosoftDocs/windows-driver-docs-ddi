@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_VALIDATEUPDATEALLOCPROPERTY
-title: _DXGKARG_VALIDATEUPDATEALLOCPROPERTY
+title: "_DXGKARG_VALIDATEUPDATEALLOCPROPERTY"
 author: windows-driver-content
 description: The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the information needed to validate the parameters to update the properties of an allocation.
 old-location: display\dxgkarg_validateupdateallocproperty.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: EC9654B8-06AA-43C8-A159-F176BDE4E015
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY, _DXGKARG_VALIDATEUPDATEALLOCPROPERTY, DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure [Display Devices], display.dxgkarg_validateupdateallocproperty, DXGKARG_VALIDATEUPDATEALLOCPROPERTY
+ms.keywords: display.dxgkarg_validateupdateallocproperty, DXGKARG_VALIDATEUPDATEALLOCPROPERTY, DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure [Display Devices], d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY, _DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 product: Windows
 targetos: Windows
@@ -79,6 +79,26 @@ typedef struct _DXGKARG_VALIDATEUPDATEALLOCPROPERTY {
 
 
 
+### -field hAllocation
+
+[in] A Handle to the allocation that will be updated.
+
+
+### -field SupportedSegmentSet
+
+[in] An index for the new supported segment set. If the current supported segment set is the same, then this will be ignored.
+
+
+### -field PreferredSegment
+
+[in] An index for the new preferred segment set. If the current preferred segment set is the same, then this will be ignored.
+
+
+### -field Flags
+
+[in] The flags that will be used to update the allocation.
+
+
 ### -field SetAccessedPhysically
 
 A UINT value that specifies whether the allocation is accessed by its physical address.
@@ -108,24 +128,4 @@ This member is reserved and should be set to zero. Setting this member to zero i
 ### -field PropertyMaskValue
 
 A member in the union that is contained in D3DDDI_UPDATEALLOCPROPERTY that can hold one 32-bit value that identifies how to update an allocation.
-
-
-### -field hAllocation
-
-[in] A Handle to the allocation that will be updated.
-
-
-### -field SupportedSegmentSet
-
-[in] An index for the new supported segment set. If the current supported segment set is the same, then this will be ignored.
-
-
-### -field PreferredSegment
-
-[in] An index for the new preferred segment set. If the current preferred segment set is the same, then this will be ignored.
-
-
-### -field Flags
-
-[in] The flags that will be used to update the allocation.
 

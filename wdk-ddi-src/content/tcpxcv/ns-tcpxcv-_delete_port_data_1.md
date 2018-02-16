@@ -1,14 +1,14 @@
 ---
 UID: NS:tcpxcv._DELETE_PORT_DATA_1
-title: _DELETE_PORT_DATA_1
+title: "_DELETE_PORT_DATA_1"
 author: windows-driver-content
 description: The XcvData function uses a DELETE_PORT_DATA_1 structure when it deletes a port.
 old-location: print\delete_port_data_1.htm
 old-project: print
 ms.assetid: d4fb5bf9-7982-4abd-91ba-59b7798a18c7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: tcpxcv/DELETE_PORT_DATA_1, DELETE_PORT_DATA_1 structure [Print Devices], PDELETE_PORT_DATA_1, spoolfnc_238080f3-e916-4a7f-9531-361659c21a3d.xml, _DELETE_PORT_DATA_1, print.delete_port_data_1, *PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1 structure pointer [Print Devices], DELETE_PORT_DATA_1, tcpxcv/PDELETE_PORT_DATA_1
+ms.date: 2/2/2018
+ms.keywords: PDELETE_PORT_DATA_1 structure pointer [Print Devices], PDELETE_PORT_DATA_1, tcpxcv/DELETE_PORT_DATA_1, tcpxcv/PDELETE_PORT_DATA_1, print.delete_port_data_1, *PDELETE_PORT_DATA_1, spoolfnc_238080f3-e916-4a7f-9531-361659c21a3d.xml, DELETE_PORT_DATA_1, DELETE_PORT_DATA_1 structure [Print Devices], _DELETE_PORT_DATA_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	tcpxcv.h
-apiname: 
+apiname:
 -	DELETE_PORT_DATA_1
 product: Windows
 targetos: Windows
-req.typenames: *PDELETE_PORT_DATA_1, DELETE_PORT_DATA_1
+req.typenames: "*PDELETE_PORT_DATA_1, DELETE_PORT_DATA_1"
 req.product: Windows 10 or later.
 ---
 
@@ -94,9 +94,11 @@ Is obsolete, and must be set to 0.
 ## -remarks
 
 
+
 When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function is called to delete a port, its <i>pInputData</i> parameter must be set with the address of a DELETE_PORT_DATA_1 structure. Set this function's <i>pszDataName</i> parameter to the string L"DeletePort". 
 
 See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TCPMON Xcv Interface</a> for more information.
+
 
 
 
@@ -104,9 +106,11 @@ See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TC
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DELETE_PORT_DATA_1 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DELETE_PORT_DATA_1 structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

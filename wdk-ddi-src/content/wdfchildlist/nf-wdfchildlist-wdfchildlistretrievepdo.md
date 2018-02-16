@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8e6042e4-b004-4250-b208-b0614d2d11fd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfchildlist/WdfChildListRetrievePdo, wdf.wdfchildlistretrievepdo, WdfChildListRetrievePdo method, PFN_WDFCHILDLISTRETRIEVEPDO, kmdf.wdfchildlistretrievepdo, WdfChildListRetrievePdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml
+ms.keywords: wdf.wdfchildlistretrievepdo, wdfchildlist/WdfChildListRetrievePdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo method, WdfChildListRetrievePdo, PFN_WDFCHILDLISTRETRIEVEPDO, kmdf.wdfchildlistretrievepdo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfChildListRetrievePdo
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ A pointer to a driver-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_ch
 ## -returns
 
 
+
 <b>WdfChildListRetrievePdo</b> returns a handle to the framework device object if the specified child device is located in the child list, if a framework device object exists for the child device, and if the framework has reported the device's existence to the PnP manager. Otherwise, the method returns <b>NULL</b>. The framework returns additional status information in the <b>Status</b> member of the <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a> structure.
 
 A system bug check occurs if the driver supplies an invalid object handle.
@@ -92,7 +93,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Before calling <b>WdfChildListRetrievePdo</b>, the driver must place an identification description in a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a> structure. 
@@ -102,14 +105,55 @@ The <b>WdfChildListRetrievePdo</b> method traverses the specified child list, lo
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
+#### Examples
+
+The following code example searches a child list to find a child device whose identification description contains a specified serial number, and it obtains a handle to the device object that represents the child device.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PDO_IDENTIFICATION_DESCRIPTION  description;
+WDF_CHILD_RETRIEVE_INFO  info;
+WDFDEVICE  hChild;
+
+WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
+                                                 &amp;description.Header,
+                                                 sizeof(description)
+                                                 );
+
+description.SerialNo = DeviceSerialNumber;
+
+WDF_CHILD_RETRIEVE_INFO_INIT(
+                             &amp;info,
+                             &amp;description.Header
+                             );
+
+hChild = WdfChildListRetrievePdo(
+                                 list,
+                                 &amp;info
+                                 );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
+
 
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_retrieve_info_init.md">WDF_CHILD_RETRIEVE_INFO_INIT</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
+
+
 
  
 

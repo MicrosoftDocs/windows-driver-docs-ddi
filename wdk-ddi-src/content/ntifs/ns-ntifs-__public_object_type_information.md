@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs.__PUBLIC_OBJECT_TYPE_INFORMATION
-title: __PUBLIC_OBJECT_TYPE_INFORMATION
+title: "__PUBLIC_OBJECT_TYPE_INFORMATION"
 author: windows-driver-content
 description: The PUBLIC_OBJECT_TYPE_INFORMATION structure holds the type name of the object.
 old-location: ifsk\public_object_type_information.htm
 old-project: ifsk
 ms.assetid: 7b80c3df-befe-4648-ab61-78cfb8d4b7ef
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PUBLIC_OBJECT_TYPE_INFORMATION structure [Installable File System Drivers], objectstructures_54a0adde-cbf0-47c3-a1ab-aa426758c8b9.xml, __PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION, ifsk.public_object_type_information, ntifs/PUBLIC_OBJECT_TYPE_INFORMATION, PPUBLIC_OBJECT_TYPE_INFORMATION structure pointer [Installable File System Drivers], PPUBLIC_OBJECT_TYPE_INFORMATION, PUBLIC_OBJECT_TYPE_INFORMATION, ntifs/PPUBLIC_OBJECT_TYPE_INFORMATION
+ms.date: 2/7/2018
+ms.keywords: objectstructures_54a0adde-cbf0-47c3-a1ab-aa426758c8b9.xml, PPUBLIC_OBJECT_TYPE_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_TYPE_INFORMATION, ntifs/PPUBLIC_OBJECT_TYPE_INFORMATION, ifsk.public_object_type_information, ntifs/PUBLIC_OBJECT_TYPE_INFORMATION, PUBLIC_OBJECT_TYPE_INFORMATION structure [Installable File System Drivers], *PPUBLIC_OBJECT_TYPE_INFORMATION, PPUBLIC_OBJECT_TYPE_INFORMATION, __PUBLIC_OBJECT_TYPE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	PUBLIC_OBJECT_TYPE_INFORMATION
 product: Windows
 targetos: Windows

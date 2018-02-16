@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_PROBED_BARS_INFO
-title: _NDIS_SRIOV_PROBED_BARS_INFO
+title: "_NDIS_SRIOV_PROBED_BARS_INFO"
 author: windows-driver-content
 description: The NDIS_SRIOV_PROBED_BARS_INFO structure specifies the values of the PCI Express (PCIe) Base Address Registers (BARs) of a network adapter that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: netvista\ndis_sriov_probed_bars_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9f37d9e7-ae8b-448e-a535-f34b01c2bf8a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_SRIOV_PROBED_BARS_INFO, _NDIS_SRIOV_PROBED_BARS_INFO, PNDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_PROBED_BARS_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_PROBED_BARS_INFO, netvista.ndis_sriov_probed_bars_info, ntddndis/NDIS_SRIOV_PROBED_BARS_INFO, ntddndis/PNDIS_SRIOV_PROBED_BARS_INFO
+ms.keywords: NDIS_SRIOV_PROBED_BARS_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SRIOV_PROBED_BARS_INFO, ntddndis/PNDIS_SRIOV_PROBED_BARS_INFO, PNDIS_SRIOV_PROBED_BARS_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_probed_bars_info, _NDIS_SRIOV_PROBED_BARS_INFO, *PNDIS_SRIOV_PROBED_BARS_INFO, PNDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SRIOV_PROBED_BARS_INFO
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SRIOV_PROBED_BARS_INFO, *PNDIS_SRIOV_PROBED_BARS_INFO
+req.typenames: "*PNDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO"
 ---
 
 # _NDIS_SRIOV_PROBED_BARS_INFO structure
@@ -85,6 +85,14 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
+#### NDIS_SRIOV_PROBED_BARS_INFO_REVISION_1
+
+Original version for NDIS 6.30 and later.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_PROBED_BARS_INFO_REVISION_1.
+
+
 ### -field BaseRegisterValuesOffset
 
 A ULONG value that contains the offset, in units of bytes, from the beginning of this structure to an array of ULONG values. The array  contains a ULONG value for each BAR of the PCIe network adapter.
@@ -94,19 +102,17 @@ The maximum number of elements within this array is PCI_TYPE0_ADDRESSES.
 For more information, see the Remarks section.
 
 
-##### - Header.NDIS_SRIOV_PROBED_BARS_INFO_REVISION_1
-
-Original version for NDIS 6.30 and later.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_PROBED_BARS_INFO_REVISION_1.
-
-
 ## -remarks
+
 
 
 The <b>NDIS_SRIOV_PROBED_BARS_INFO</b> structure is used in OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451870">OID_SRIOV_PROBED_BARS</a>.  Each
     element in the array that follows the <b>NDIS_SRIOV_PROBED_BARS_INFO</b> structure contains a ULONG value for a BAR of the network adapter. The offsets of the elements within the array must match the offsets of the BARs on the adapter.
-<div class="alert"><b>Note</b>  Each element in the array must contain the BAR value that was returned during the BAR query that was performed by the PCI bus driver.</div><div> </div>For more information about the base address registers of a PCI device, see the <i>PCI Local Bus Specification</i>.
+
+<div class="alert"><b>Note</b>  Each element in the array must contain the BAR value that was returned during the BAR query that was performed by the PCI bus driver.</div>
+<div> </div>
+For more information about the base address registers of a PCI device, see the <i>PCI Local Bus Specification</i>.
+
 
 
 
@@ -114,9 +120,15 @@ The <b>NDIS_SRIOV_PROBED_BARS_INFO</b> structure is used in OID query requests o
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451870">OID_SRIOV_PROBED_BARS</a>
 
+
+
 <b></b>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_TIMED_OPERATION_INTERFACE
-title: _DXGK_TIMED_OPERATION_INTERFACE
+title: "_DXGK_TIMED_OPERATION_INTERFACE"
 author: windows-driver-content
 description: The DXGK_TIMED_OPERATION_INTERFACE structure contains pointers to functions in the Timed Operation Interface, which is implemented by the display port driver.
 old-location: display\dxgk_timed_operation_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 85b3764d-00b5-4e1d-bedc-c59a6b182735
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *PDXGK_TIMED_OPERATION_INTERFACE, display.dxgk_timed_operation_interface, PDXGK_TIMED_OPERATION_INTERFACE, PDXGK_TIMED_OPERATION_INTERFACE structure pointer [Display Devices], DmStructs_024c0974-7f10-4251-b08e-c68307fc62d9.xml, dispmprt/DXGK_TIMED_OPERATION_INTERFACE, _DXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE structure [Display Devices], dispmprt/PDXGK_TIMED_OPERATION_INTERFACE
+ms.keywords: DXGK_TIMED_OPERATION_INTERFACE, PDXGK_TIMED_OPERATION_INTERFACE, display.dxgk_timed_operation_interface, DmStructs_024c0974-7f10-4251-b08e-c68307fc62d9.xml, dispmprt/DXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE structure [Display Devices], PDXGK_TIMED_OPERATION_INTERFACE structure pointer [Display Devices], *PDXGK_TIMED_OPERATION_INTERFACE, _DXGK_TIMED_OPERATION_INTERFACE, dispmprt/PDXGK_TIMED_OPERATION_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGK_TIMED_OPERATION_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: DXGK_TIMED_OPERATION_INTERFACE, *PDXGK_TIMED_OPERATION_INTERFACE
+req.typenames: "*PDXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE"
 ---
 
 # _DXGK_TIMED_OPERATION_INTERFACE structure
@@ -117,9 +117,51 @@ A pointer to an interface dereference function that is implemented by the displa
 A pointer to the display port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> function. 
 
 
+
+#### Op
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> for more information.
+
+
+
+#### Timeout
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> for more information.
+
+
+
+#### OsHandled
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> for more information.
+
+
 ### -field TimedOperationDelay
 
 A pointer to the display port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> function. 
+
+
+
+#### Op
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> for more information.
+
+
+
+#### WaitMode
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> for more information.
+
+
+
+#### Alertable
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> for more information.
+
+
+
+#### Interval
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> for more information.
 
 
 ### -field TimedOperationWaitForSingleObject
@@ -127,67 +169,38 @@ A pointer to the display port driver's <a href="https://msdn.microsoft.com/libra
 A pointer to the display port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a> function. 
 
 
-##### - TimedOperationDelay.Alertable
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> for more information.
-
-
-##### - TimedOperationStart.Timeout
-
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> for more information.
-
-
-##### - TimedOperationWaitForSingleObject.WaitReason
+#### Op
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a> for more information.
 
 
-##### - TimedOperationStart.OsHandled
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> for more information.
-
-
-##### - TimedOperationWaitForSingleObject.Alertable
+#### Object
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a> for more information.
 
 
-##### - TimedOperationWaitForSingleObject.Timeout
+
+#### WaitReason
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a> for more information.
 
 
-##### - TimedOperationDelay.Interval
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> for more information.
-
-
-##### - TimedOperationStart.Op
-
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> for more information.
-
-
-##### - TimedOperationDelay.WaitMode
-
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> for more information.
-
-
-##### - TimedOperationWaitForSingleObject.Object
+#### WaitMode
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a> for more information.
 
 
-##### - TimedOperationDelay.Op
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a> for more information.
-
-
-##### - TimedOperationWaitForSingleObject.Op
+#### Alertable
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a> for more information.
 
 
-##### - TimedOperationWaitForSingleObject.WaitMode
+
+#### Timeout
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a> for more information.
 
@@ -195,7 +208,9 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">Timed
 ## -remarks
 
 
+
 The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
+
 
 
 
@@ -203,13 +218,23 @@ The display miniport driver supplies the <b>Size</b> and <b>Version</b> members 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+
+
 
  
 

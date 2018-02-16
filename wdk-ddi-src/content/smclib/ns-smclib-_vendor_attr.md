@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._VENDOR_ATTR
-title: _VENDOR_ATTR
+title: "_VENDOR_ATTR"
 author: windows-driver-content
 description: The VENDOR_ATTR structure defines the data that is stored in the VendorAttr member of the SMARTCARD_EXTENSION structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number.
 old-location: smartcrd\vendor_attr.htm
@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: f166ced5-2d63-4e35-af77-78ca80c888d7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PVENDOR_ATTR, *PVENDOR_ATTR, _VENDOR_ATTR, PVENDOR_ATTR structure pointer [Smart Card Reader Devices], smclib/VENDOR_ATTR, VENDOR_ATTR, smclib/PVENDOR_ATTR, VENDOR_ATTR structure [Smart Card Reader Devices], smartcrd.vendor_attr, scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml
+ms.keywords: smartcrd.vendor_attr, *PVENDOR_ATTR, PVENDOR_ATTR, _VENDOR_ATTR, smclib/VENDOR_ATTR, VENDOR_ATTR, VENDOR_ATTR structure [Smart Card Reader Devices], scstruct_dfa4be20-d572-46d6-aff7-c4c16d930c7f.xml, smclib/PVENDOR_ATTR, PVENDOR_ATTR structure pointer [Smart Card Reader Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	smclib.h
-apiname: 
+apiname:
 -	VENDOR_ATTR
 product: Windows
 targetos: Windows
@@ -123,6 +123,11 @@ Contains the ANSI-coded reader name. This member is required.
 
 
 
+### -field UnitNo
+
+Contains the zero-based number of this unit. Because you can have more than one reader of this kind installed, <b>UnitNo</b> can distinguish the readers. This member is required. 
+
+
 ### -field IfdVersion
 
 
@@ -162,11 +167,6 @@ Contains the length of the serial number, in bytes, of the connected reader.
 ### -field IfdSerialNo.Buffer
 
 A pointer to the serial number of the connected reader. This field should only be maintained if the reader allows the serial number to be queried. This member is optional. 
-
-
-### -field UnitNo
-
-Contains the zero-based number of this unit. Because you can have more than one reader of this kind installed, <b>UnitNo</b> can distinguish the readers. This member is required. 
 
 
 ### -field Reserved

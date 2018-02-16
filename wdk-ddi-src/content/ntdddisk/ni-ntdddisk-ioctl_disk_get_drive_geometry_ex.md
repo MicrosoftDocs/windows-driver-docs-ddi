@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntdddisk.h
-apiname: 
+apiname:
 -	IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 product: Windows
 targetos: Windows
@@ -90,14 +90,18 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DI
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,7 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry_ex.md">DI
 The <b>Information</b> field is set to the size, in bytes, of the returned data. 
 
 The <b>Status</b> field returns one of the following values:
+
 <ul>
 <li><b>STATUS_SUCCESS</b></li>
 <li><b>STATUS_UNRECOGNIZED_MEDIA</b></li>
@@ -119,8 +124,10 @@ The <b>Status</b> field returns one of the following values:
 ## -remarks
 
 
+
 Only callers above Partmgr.sys may call this IOCTL as it contains disk partition information. 
 
 This IOCTL uses <a href="https://msdn.microsoft.com/library/windows/hardware/ff560357">IOCTL_DISK_GET_DRIVE_GEOMETRY</a> to get the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a> structure and <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_length_info.md">IOCTL_DISK_GET_LENGTH_INFO</a> to get the  <a href="..\ntdddisk\ns-ntdddisk-_get_length_information.md">GET_LENGTH_INFORMATION</a> structure. Both of these IOCTL's are supported for use at the disk.sys level. 
+
 
 

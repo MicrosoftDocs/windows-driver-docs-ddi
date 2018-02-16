@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 06317b65-4853-40da-9131-9983918b7157
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getdumpfile, IDebugClient4::GetDumpFile, GetDumpFile method [Windows Debugging], dbgeng/IDebugClient4::GetDumpFile, IDebugClient5::GetDumpFile, GetDumpFile method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], GetDumpFile method, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, GetDumpFile, IDebugClient4 interface [Windows Debugging], GetDumpFile method, IDebugClient5, dbgeng/IDebugClient5::GetDumpFile, GetDumpFile method [Windows Debugging], IDebugClient5 interface
+ms.keywords: GetDumpFile method [Windows Debugging], IDebugClient4 interface, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, GetDumpFile method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient4::GetDumpFile, IDebugClient4, IDebugClient4::GetDumpFile, debugger.getdumpfile, IDebugClient5::GetDumpFile, GetDumpFile, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetDumpFile method, dbgeng/IDebugClient5::GetDumpFile, GetDumpFile method [Windows Debugging], IDebugClient4 interface [Windows Debugging], GetDumpFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient4.GetDumpFile
 -	IDebugClient5.GetDumpFile
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetDumpFile method
@@ -106,7 +106,9 @@ Receives the type of the file.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,28 +125,42 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about crash dump files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542783">Dump-File Targets</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 29e78bc3-0dc2-4e76-b683-c1e9a2d454d4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices], avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, KsFilterGetChildPinCount, stream.ksfiltergetchildpincount
+ms.keywords: ks/KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices], KsFilterGetChildPinCount, avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, stream.ksfiltergetchildpincount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFilterGetChildPinCount
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ The pin type for which to find the number of instantiated pins. <i>PinID</i> is 
 ## -returns
 
 
+
 <b>KsFilterGetChildPinCount</b> returns the number of pins of type <i>PinID</i> that are currently instantiated on <i>Filter</i>. If no such pins exist or if <i>PinID</i> is out of range, zero is returned.
 
 
 
+
 ## -remarks
+
 
 
 The count returned by this call is guaranteed to be correct only if the function is called while the filter control mutex is held. The count remains correct after the call as long as this mutex continues to be held. As soon as the mutex is released, other pins can be added or removed, thereby altering the actual pin count.
@@ -95,15 +98,24 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
+
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
+<a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
 
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
-<a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
+
+
+<a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
 
  
 

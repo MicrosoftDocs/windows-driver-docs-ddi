@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnShaderCacheStoreValue
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback
@@ -80,12 +80,14 @@ HRESULT APIENTRY CALLBACK * pfnShaderCacheStoreValue(
 The handle of the cache session for the driver to use when it calls back into the runtime.
 
 
-### -param *pPrecomputedHash
+### -param *pPrecomputedHash [in]
+
+A hash value. 
 
 
+### -param *pKey [in]
 
-### -param *pKey
-
+A pointer to a key.
 
 
 ### -param KeyLen
@@ -93,8 +95,9 @@ The handle of the cache session for the driver to use when it calls back into th
 The length of the key.
 
 
-### -param *pValue
+### -param *pValue [in]
 
+A pointer to an input value. 
 
 
 ### -param ValueLen
@@ -102,24 +105,11 @@ The length of the key.
 The length of the input value.
 
 
-#### - pValue [in]
-
-A pointer to an input value. 
-
-
-#### - pKey [in]
-
-A pointer to a key.
-
-
-#### - pPrecomputedHash [in]
-
-A hash value. 
-
-
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

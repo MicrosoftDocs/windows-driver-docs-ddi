@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 23be30ba-3999-4e40-b0c5-30f0b37ff8c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetMsgMemoryStatus, RIL_SetMsgMemoryStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsgmemorystatus, RIL_SetMsgMemoryStatus
+ms.keywords: RIL_SetMsgMemoryStatus, rilapi/RIL_SetMsgMemoryStatus, netvista.ril_setmsgmemorystatus, RIL_SetMsgMemoryStatus method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SetMsgMemoryStatus
 product: Windows
 targetos: Windows
@@ -75,18 +75,17 @@ HRESULT  RIL_SetMsgMemoryStatus(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param bMsgMemoryFull
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

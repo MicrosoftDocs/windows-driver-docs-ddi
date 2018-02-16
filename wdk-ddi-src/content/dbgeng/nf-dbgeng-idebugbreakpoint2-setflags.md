@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 126741ba-b373-466e-986d-44e33c841eee
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, dbgeng/IDebugBreakpoint::SetFlags, IDebugBreakpoint2, SetFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::SetFlags, dbgeng/IDebugBreakpoint2::SetFlags, debugger.setflags, IDebugBreakpoint interface [Windows Debugging], SetFlags method, SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, SetFlags method [Windows Debugging], IDebugBreakpoint::SetFlags, SetFlags, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method
+ms.keywords: SetFlags method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetFlags, dbgeng/IDebugBreakpoint::SetFlags, IDebugBreakpoint interface [Windows Debugging], SetFlags method, IDebugBreakpoint2::SetFlags, IDebugBreakpoint, IDebugBreakpoint2 interface [Windows Debugging], SetFlags method, SetFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::SetFlags, SetFlags, IDebugBreakpoint2, debugger.setflags, ComOther_0fb1a5d9-2c1f-4966-9838-e7d0ae17a43f.xml, SetFlags method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.SetFlags
 -	IDebugBreakpoint2.SetFlags
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::SetFlags method
@@ -76,6 +76,7 @@ The new flags for the breakpoint.  <i>Flags</i> is a bit field. It replaces the 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,15 +93,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+
 
 

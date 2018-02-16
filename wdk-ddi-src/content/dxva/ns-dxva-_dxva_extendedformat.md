@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ExtendedFormat
-title: _DXVA_ExtendedFormat
+title: "_DXVA_ExtendedFormat"
 author: windows-driver-content
 description: The DXVA_ExtendedFormat structure describes the extended format of the video frame.
 old-location: display\dxva_extendedformat.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: b4d01c1f-8267-490e-a808-87d9be666a94
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml, _DXVA_ExtendedFormat, dxva/DXVA_ExtendedFormat, DXVA_ExtendedFormat, display.dxva_extendedformat, DXVA_ExtendedFormat structure [Display Devices]
+ms.keywords: dxva/DXVA_ExtendedFormat, DXVA_ExtendedFormat, DXVA_ExtendedFormat structure [Display Devices], _DXVA_ExtendedFormat, dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml, display.dxva_extendedformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_ExtendedFormat
 product: Windows
 targetos: Windows
@@ -110,19 +110,33 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 ## -see-also
 
-<a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
+<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
 
-<a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
 
-<a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
 
 <a href="..\dxva\ne-dxva-_dxva_nominalrange.md">DXVA_NominalRange</a>
 
-<a href="..\dxva\ne-dxva-_dxva_videochromasubsampling.md">DXVA_VideoChromaSubsampling</a>
+
 
 <a href="..\dxva\ne-dxva-_dxva_sampleformat.md">DXVA_SampleFormat</a>
 
+
+
 <a href="..\dxva\ne-dxva-_dxva_videotransferfunction.md">DXVA_VideoTransferFunction</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videolighting.md">DXVA_VideoLighting</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videoprimaries.md">DXVA_VideoPrimaries</a>
+
+
+
+<a href="..\dxva\ne-dxva-_dxva_videotransfermatrix.md">DXVA_VideoTransferMatrix</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	AVStrMiniPinHandshake
 product: Windows
 targetos: Windows
@@ -75,9 +75,7 @@ NTSTATUS AVStrMiniPinHandshake(
 ### -param Pin
 
 
-
 ### -param In
-
 
 
 ### -param Out
@@ -85,6 +83,13 @@ NTSTATUS AVStrMiniPinHandshake(
 
 
 
+
+
+
+
+#### - Data [in]
+
+Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure.
 
 
 #### - Irp [in]
@@ -97,22 +102,21 @@ Pointer to the IRP containing the handshake request.
 Pointer to a <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a> structure that contains a GUID identifying the requested protocol.
 
 
-#### - Data [in]
-
-Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure.
-
-
 ## -returns
+
 
 
 Returns STATUS_SUCCESS if the pin supports the requested protocol. Otherwise, it should return STATUS_INVALID_DEVICE_REQUEST.
 
 
 
+
 ## -remarks
 
 
+
 The minidriver specifies this routine's address in the <i>Handshake</i> parameter of a call to <a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>.
+
 
 
 
@@ -120,9 +124,15 @@ The minidriver specifies this routine's address in the <i>Handshake</i> paramete
 
 <a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
+
 
 <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+
+
+
+<a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
+
+
 
  
 

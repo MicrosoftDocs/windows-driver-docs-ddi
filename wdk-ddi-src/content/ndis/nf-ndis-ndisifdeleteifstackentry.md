@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 02b4a485-d44b-458c-89f5-1807500b6db8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisIfDeleteIfStackEntry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, netvista.ndisifdeleteifstackentry, NdisIfDeleteIfStackEntry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], NdisIfDeleteIfStackEntry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, netvista.ndisifdeleteifstackentry, ndis/NdisIfDeleteIfStackEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisIfDeleteIfStackEntry
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisIfDeleteIfStackEntry function
@@ -84,11 +84,14 @@ The network interface index for the interface that was lower in the stack table.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 NDIS drivers call 
@@ -104,9 +107,12 @@ NDIS maintains an interface stack table (<i>ifStackTable</i> from
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndisifaddifstackentry.md">NdisIfAddIfStackEntry</a>
+
+
 
  
 

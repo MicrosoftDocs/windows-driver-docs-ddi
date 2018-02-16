@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cf89467e-1bf1-44ee-a027-23b49aca845f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_POSITION_LTE_TAC, rilapitypes/RIL_PARAM_POSITION_LTE_CELLID, RILPOSITIONINFOLTEPARAMMASK, RIL_PARAM_POSITION_LTE_MCC, netvista.rilpositioninfolteparammask, RIL_PARAM_POSITION_LTE_CELLID, RIL_PARAM_POSITION_LTE_TA, rilapitypes/RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RILPOSITIONINFOLTEPARAMMASK, RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RIL_PARAM_POSITION_LTE_MCC, rilapitypes/RIL_PARAM_POSITION_LTE_MNC, rilapitypes/RIL_PARAM_POSITION_LTE_PHYSCELLID, RIL_PARAM_POSITION_LTE_EARFCN, rilapitypes/RIL_PARAM_POSITION_LTE_ALL, RIL_PARAM_POSITION_LTE_ALL, rilapitypes/RIL_PARAM_POSITION_LTE_EARFCN, rilapitypes/RIL_PARAM_POSITION_LTE_TAC, RILPOSITIONINFOLTEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_LTE_MNC, rilapitypes/RIL_PARAM_POSITION_LTE_RSRQ, rilapitypes/RIL_PARAM_POSITION_LTE_TA, RIL_PARAM_POSITION_LTE_RSRQ, RIL_PARAM_POSITION_LTE_PHYSCELLID
+ms.keywords: RILPOSITIONINFOLTEPARAMMASK, rilapitypes/RIL_PARAM_POSITION_LTE_EARFCN, rilapitypes/RIL_PARAM_POSITION_LTE_RSRQ, rilapitypes/RIL_PARAM_POSITION_LTE_ALL, RIL_PARAM_POSITION_LTE_PHYSCELLID, rilapitypes/RIL_PARAM_POSITION_LTE_PHYSCELLID, rilapitypes/RIL_PARAM_POSITION_LTE_MNC, RIL_PARAM_POSITION_LTE_RSRQ, rilapitypes/RIL_PARAM_POSITION_LTE_TA, RILPOSITIONINFOLTEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILPOSITIONINFOLTEPARAMMASK, RIL_PARAM_POSITION_LTE_MCC, RIL_PARAM_POSITION_LTE_ALL, RIL_PARAM_POSITION_LTE_TAC, RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RIL_PARAM_POSITION_LTE_CELLID, RIL_PARAM_POSITION_LTE_MNC, RIL_PARAM_POSITION_LTE_TA, rilapitypes/RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RIL_PARAM_POSITION_LTE_MCC, RIL_PARAM_POSITION_LTE_EARFCN, RIL_PARAM_POSITION_LTE_CELLID, netvista.rilpositioninfolteparammask, rilapitypes/RIL_PARAM_POSITION_LTE_TAC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPOSITIONINFOLTEPARAMMASK
 product: Windows
 targetos: Windows
@@ -83,49 +83,41 @@ enum RILPOSITIONINFOLTEPARAMMASK {
 ### -field RIL_PARAM_POSITION_LTE_MCC
 
 
-
 ### -field RIL_PARAM_POSITION_LTE_MNC
-
 
 
 ### -field RIL_PARAM_POSITION_LTE_CELLID
 
 
-
 ### -field RIL_PARAM_POSITION_LTE_EARFCN
-
 
 
 ### -field RIL_PARAM_POSITION_LTE_PHYSCELLID
 
 
-
 ### -field RIL_PARAM_POSITION_LTE_TAC
-
 
 
 ### -field RIL_PARAM_POSITION_LTE_RSRP
 
 
-
 ### -field RIL_PARAM_POSITION_LTE_RSRQ
-
 
 
 ### -field RIL_PARAM_POSITION_LTE_TA
 
 
-
 ### -field RIL_PARAM_POSITION_LTE_ALL
-
 
 
 ## -remarks
 
 
+
 Networks will vary, but the following table summarizes which items are returned for typical LTE networks. 
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -295,9 +287,11 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>LTE neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -467,13 +461,17 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._MEMORY_INFORMATION_CLASS
-title: _MEMORY_INFORMATION_CLASS
+title: "_MEMORY_INFORMATION_CLASS"
 author: windows-driver-content
 description: Defines classes of memory information that can be retrieved by using the ZwQueryVirtualMemory function.
 old-location: kernel\memory_information_class.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntifs/MemoryBasicInformation, ntifs/MEMORY_INFORMATION_CLASS, _MEMORY_INFORMATION_CLASS, kernel.memory_information_class, MemoryBasicInformation, MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: MEMORY_INFORMATION_CLASS, MemoryBasicInformation, ntifs/MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], ntifs/MemoryBasicInformation, kernel.memory_information_class, _MEMORY_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	MEMORY_INFORMATION_CLASS
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ Memory information described in the <a href="..\ntifs\ns-ntifs-_memory_basic_inf
 ## -remarks
 
 
+
 Currently, only the <b>MemoryBasicInformation</b> value is supported for use with the <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a> routine.
+
 
 
 
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a>
+
+
 
  
 

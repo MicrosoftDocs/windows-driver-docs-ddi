@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ad367969-217c-4b9a-b9b1-1b6d1bf04f2e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCALLMEDIAID, rilapitypes/RILCALLMEDIAID, *LPRILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaid_2
+ms.keywords: "*LPRILCALLMEDIAID, netvista.rilcallmediaid_2, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLMEDIAID, RILCALLMEDIAID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIAID
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ typedef struct _RILCALLMEDIAID {
 ### -field dwType
 
 
-
 ### -field dwID
-
 

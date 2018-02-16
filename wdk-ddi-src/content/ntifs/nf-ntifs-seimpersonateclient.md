@@ -7,8 +7,8 @@ old-location: ifsk\seimpersonateclient.htm
 old-project: ifsk
 ms.assetid: b039609e-d259-44d7-bbde-20993576e18a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/SeImpersonateClient, seref_27996dfe-95b9-4d36-8182-9528fedef7d8.xml, SeImpersonateClient function [Installable File System Drivers], ifsk.seimpersonateclient, SeImpersonateClient
+ms.date: 2/7/2018
+ms.keywords: ntifs/SeImpersonateClient, SeImpersonateClient function [Installable File System Drivers], ifsk.seimpersonateclient, SeImpersonateClient, seref_27996dfe-95b9-4d36-8182-9528fedef7d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	SeImpersonateClient
 product: Windows
 targetos: Windows

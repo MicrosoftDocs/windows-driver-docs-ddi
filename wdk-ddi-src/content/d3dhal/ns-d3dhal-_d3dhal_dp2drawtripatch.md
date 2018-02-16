@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWTRIPATCH
-title: _D3DHAL_DP2DRAWTRIPATCH
+title: "_D3DHAL_DP2DRAWTRIPATCH"
 author: windows-driver-content
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawtripatch.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 79985523-5665-4879-af04-fd53725d6d07
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dstrct_0cad313a-b700-4aff-a111-3bd5472ea75d.xml, LPD3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH, d3dhal/D3DHAL_DP2DRAWTRIPATCH, *LPD3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH structure [Display Devices], LPD3DHAL_DP2DRAWTRIPATCH structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2DRAWTRIPATCH, display.d3dhal_dp2drawtripatch, _D3DHAL_DP2DRAWTRIPATCH
+ms.keywords: D3DHAL_DP2DRAWTRIPATCH structure [Display Devices], D3DHAL_DP2DRAWTRIPATCH, LPD3DHAL_DP2DRAWTRIPATCH, display.d3dhal_dp2drawtripatch, _D3DHAL_DP2DRAWTRIPATCH, d3dhal/D3DHAL_DP2DRAWTRIPATCH, LPD3DHAL_DP2DRAWTRIPATCH structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2DRAWTRIPATCH, d3dstrct_0cad313a-b700-4aff-a111-3bd5472ea75d.xml, *LPD3DHAL_DP2DRAWTRIPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2DRAWTRIPATCH
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ Specifies what, if any, additional information follows the D3DHAL_DP2DRAWTRIPATC
 ## -remarks
 
 
+
 The <b>Handle</b> member is used to associate the surface with a handle, so that the next time this surface is drawn there is no need to respecify the D3DTRIPATCH_INFO data structure for this patch. This makes it possible for the driver to precompute and cache forward difference coefficients and/or any other information, which in turn allows subsequent D3DDP2OP_DRAWTRIPATCH tokens using the same handle to execute more efficiently. D3DTRIPATCH_INFO is described in the latest DirectX SDK documentation. 
 
 The actual value of <b>Handle</b> is determined by the application and is not under runtime control. Therefore, the driver should be prepared to cope with any value specifiable by a DWORD. The special handle value of zero means that the patch is dynamic and there is no point precomputing or caching information for this patch. A subzero value for <b>Handle</b> means the patch is static (or updated with low frequency) and precomputation and caching are possible.
@@ -105,17 +106,28 @@ The driver receives notification that cached patch information is be released vi
 
 
 
-## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawrectpatch.md">D3DHAL_DP2DRAWRECTPATCH</a>
+## -see-also
 
 D3DDP2OP_DRAWTRIPATCH
 
-D3DRS_DELETERTPATCH
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawrectpatch.md">D3DHAL_DP2DRAWRECTPATCH</a>
+
+
+
+D3DRS_DELETERTPATCH
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
 
  
 

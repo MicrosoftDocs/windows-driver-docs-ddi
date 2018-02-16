@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pushentrylist, wdm/PushEntryList, k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture]
+ms.keywords: k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], kernel.pushentrylist, wdm/PushEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	PushEntryList
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Pointer to SINGLE_LIST_ENTRY structure that represents the entry to be inserted 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>PushEntryList</b> sets <i>ListHead</i>-&gt;<b>Next</b> to <i>Entry</i>, and <i>Entry</i>-&gt;<b>Next</b> to point to the old first entry of the list.
@@ -97,11 +100,16 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
 
 
 
+
 ## -see-also
+
+<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
+
+
 
 <a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
 
-<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
+
 
  
 

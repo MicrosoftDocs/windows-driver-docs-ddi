@@ -2,13 +2,13 @@
 UID: NE:ks.KSPROPERTY_STREAMINTERFACE
 title: KSPROPERTY_STREAMINTERFACE
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksproperty_streaminterface.htm
 old-project: stream
 ms.assetid: E771F59E-7F85-40B9-BBA9-D1CC398B12CA
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSPROPERTY_STREAMINTERFACE, stream.ksproperty_streaminterface, KSPROPERTY_STREAMINTERFACE_HEADERSIZE, KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE
+ms.keywords: KSPROPERTY_STREAMINTERFACE, stream.ksproperty_streaminterface, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], KSPROPERTY_STREAMINTERFACE_HEADERSIZE, ks/KSPROPERTY_STREAMINTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSPROPERTY_STREAMINTERFACE
 product: Windows
 targetos: Windows

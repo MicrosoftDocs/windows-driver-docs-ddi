@@ -1,14 +1,14 @@
 ---
 UID: NS:usbspec._USB_CONFIGURATION_DESCRIPTOR
-title: _USB_CONFIGURATION_DESCRIPTOR
+title: "_USB_CONFIGURATION_DESCRIPTOR"
 author: windows-driver-content
 description: The USB_CONFIGURATION_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined configuration descriptor.
 old-location: buses\usb_configuration_descriptor.htm
 old-project: usbref
 ms.assetid: 2a9398f7-4d01-42a6-9ac2-ca105db76bb8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbspec/PUSB_CONFIGURATION_DESCRIPTOR, _USB_CONFIGURATION_DESCRIPTOR, USB_CONFIGURATION_DESCRIPTOR, usbspec/USB_CONFIGURATION_DESCRIPTOR, buses.usb_configuration_descriptor, PUSB_CONFIGURATION_DESCRIPTOR structure pointer [Buses], PUSB_CONFIGURATION_DESCRIPTOR, USB_CONFIGURATION_DESCRIPTOR structure [Buses], usbstrct_f057519c-8b38-479c-9065-16c2106550aa.xml, *PUSB_CONFIGURATION_DESCRIPTOR
+ms.date: 2/8/2018
+ms.keywords: USB_CONFIGURATION_DESCRIPTOR, usbspec/PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR structure pointer [Buses], USB_CONFIGURATION_DESCRIPTOR structure [Buses], _USB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR, usbstrct_f057519c-8b38-479c-9065-16c2106550aa.xml, buses.usb_configuration_descriptor, usbspec/USB_CONFIGURATION_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbspec.h
-apiname: 
+apiname:
 -	USB_CONFIGURATION_DESCRIPTOR
 product: Windows
 targetos: Windows
@@ -108,6 +108,7 @@ Specifies the device-defined index of the string descriptor for this configurati
 ### -field bmAttributes
 
 Specifies a bitmap to describe behavior of this configuration. The bits are described and set in little-endian order.
+
 <table>
 <tr>
 <th>Bit</th>
@@ -153,7 +154,8 @@ The configuration is powered by the bus.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field MaxPower
@@ -164,6 +166,7 @@ Specifies the power requirements of this device in two-milliampere units. This m
 ## -remarks
 
 
+
 If <b>wTotalLength</b> is greater than the buffer size provided in the URB to hold all descriptors retrieved (interface, endpoint, class, and vendor-defined), incomplete data will be returned. In order to retrieve complete descriptors, the request will need to be re-sent with a larger buffer.
 
 If <b>bmAttributes</b> bits six and seven are both set, then the device is powered both by the bus and by a source external to the bus.
@@ -172,17 +175,24 @@ Other members that are part of this structure but not described here should be t
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>
+
+
+
 <a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequest.md">USBD_CreateConfigurationRequest</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_CONFIGURATION_DESCRIPTOR structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_CONFIGURATION_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

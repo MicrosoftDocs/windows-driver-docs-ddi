@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_PEER_STATISTICS
-title: _DOT11_PEER_STATISTICS
+title: "_DOT11_PEER_STATISTICS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_peer_statistics.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 08ea7f19-e086-4d5a-bfc7-de9178d815cd
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PDOT11_PEER_STATISTICS, PDOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS, Native_802.11_data_types_5e07a8dd-79f1-4cba-89d3-f70e04caad12.xml, PDOT11_PEER_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_PEER_STATISTICS, _DOT11_PEER_STATISTICS, windot11/DOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS structure [Network Drivers Starting with Windows Vista], netvista.dot11_peer_statistics
+ms.keywords: windot11/PDOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS structure [Network Drivers Starting with Windows Vista], DOT11_PEER_STATISTICS, PDOT11_PEER_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_STATISTICS, Native_802.11_data_types_5e07a8dd-79f1-4cba-89d3-f70e04caad12.xml, windot11/DOT11_PEER_STATISTICS, netvista.dot11_peer_statistics, *PDOT11_PEER_STATISTICS, PDOT11_PEER_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_PEER_STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_PEER_STATISTICS, *PDOT11_PEER_STATISTICS
+req.typenames: "*PDOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS"
 req.product: Windows 10 or later.
 ---
 
@@ -111,6 +111,8 @@ The number of MSDU packets and MMPDU frames that the IEEE MAC sublayer of the pe
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 

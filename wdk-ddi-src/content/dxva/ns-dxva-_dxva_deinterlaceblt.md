@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceBlt
-title: _DXVA_DeinterlaceBlt
+title: "_DXVA_DeinterlaceBlt"
 author: windows-driver-content
 description: The DXVA_DeinterlaceBlt structure is sent by the VMR to the accelerator to specify the deinterlace or frame-rate conversion parameters for bit-block transfers.
 old-location: display\dxva_deinterlaceblt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0512a825-9cec-4ca0-9686-df5b3d2b216b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxva_deinterlaceblt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml, dxva/DXVA_DeinterlaceBlt, _DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], DXVA_DeinterlaceBlt
+ms.keywords: display.dxva_deinterlaceblt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml, dxva/DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], _DXVA_DeinterlaceBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_DeinterlaceBlt
 product: Windows
 targetos: Windows
@@ -82,7 +82,6 @@ Specifies the size of this structure in bytes.
 ### -field Reserved
 
 
-
 ### -field rtTarget
 
 Identifies the location of the output frame within the sequence of input frames. If only deinterlacing is performed, the target time should coincide with either the starting display time of a reference sample, as defined in the <a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a> structure, or the midpoint between the starting display time and the ending display time. For more information, see Remarks.
@@ -118,17 +117,25 @@ An array of <a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a> 
 ## -remarks
 
 
+
 When creating a single frame from one field in a sample, as defined in the <a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a> structure, <b>rtTarget</b> should be the starting display time for that field. If you have two fields in one sample and want to deinterlace both, <a href="https://msdn.microsoft.com/0aa68d0c-8c2b-41fe-9e46-a41b157fbd98">DeinterlaceBlt</a> will be called twice. The first time <i>DeinterlaceBlt</i> is called, <b>rtTarget</b> will be the starting display time. The second time <i>DeinterlaceBlt</i> is called, <b>rtTarget</b> will be the midpoint between the starting display time and the ending display time. In other words, for the first call, <b>rtTarget</b> = <b>rtStart</b>. For the second call, <b>rtTarget</b> = (<b>rtStart</b> + <b>rtEnd</b>) / 2.
+
 
 
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
-
 <a href="https://msdn.microsoft.com/0aa68d0c-8c2b-41fe-9e46-a41b157fbd98">DeinterlaceBlt</a>
 
+
+
+<a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
+
 
  
 

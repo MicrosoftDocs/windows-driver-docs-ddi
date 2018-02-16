@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	ProtocolIndicateOffloadEvent
 product: Windows
 targetos: Windows
@@ -54,8 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol driver's or intermediate driver's 
   <i>ProtocolIndicateOffloadEvent</i> function to post an indication that was initiated by an underlying
   driver's or offload target's call to the 
-  <mshelp:link keywords="netvista.ndismoffloadeventindicate" tabindex="0"><b>
-  NdisMOffloadEventIndicate</b></mshelp:link> function.
+  <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">
+  NdisMOffloadEventIndicate</a> function.
 
 
 ## -prototype
@@ -89,8 +89,8 @@ A handle to a context area that was allocated by the protocol driver. The driver
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure. This structure identifies the offloaded state object
+     <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure. This structure identifies the offloaded state object
      on which the indication is being made. Note that there is only one NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure. There is not a linked list of such structures. 
      
@@ -98,12 +98,12 @@ A pointer to an
 The underlying offload target supplies a valid 
      <i>OffloadBlockList</i> pointer when making a 
      <b>NeighborReachabilityQuery</b> indication. In this case, the offload target supplies a 
-     <mshelp:link keywords="netvista.neighbor_offload_state_const" tabindex="0"><b>
-     NEIGHBOR_OFFLOAD_STATE_CONST</b></mshelp:link> structure, a 
-     <mshelp:link keywords="netvista.neighbor_offload_state_cached" tabindex="0"><b>
-     NEIGHBOR_OFFLOAD_STATE_CACHED</b></mshelp:link> structure, and a 
-     <mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-     NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link> structure (in that order) immediately following the
+     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+     NEIGHBOR_OFFLOAD_STATE_CONST</a> structure, a 
+     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">
+     NEIGHBOR_OFFLOAD_STATE_CACHED</a> structure, and a 
+     <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+     NEIGHBOR_OFFLOAD_STATE_DELEGATED</a> structure (in that order) immediately following the
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure referenced by the 
      <i>OffloadBlockList</i> pointer.
 
@@ -116,13 +116,15 @@ The event being indicated as one of the following INDICATE_OFFLOAD_EVENT values:
 
 
 
-##### - IndicationCode.NeighborReachabilityQuery
+
+#### NeighborReachabilityQuery
 
 Indicates that a neighbor cache entry (NCE) has become stale. For more information about NCEs,
        see RFC 2461.
 
 
-##### - IndicationCode.NeighborReachabilityInDoubt
+
+#### NeighborReachabilityInDoubt
 
 Reserved.
 
@@ -130,30 +132,44 @@ Reserved.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The implementation of this function for intermediate drivers is to be determined.
+
 
 
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
-
 <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
-<mshelp:link keywords="netvista.neighbor_offload_state_delegated" tabindex="0"><b>
-   NEIGHBOR_OFFLOAD_STATE_DELEGATED</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_protocol_offload_block_list" tabindex="0"><b>
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</b></mshelp:link>
 
 <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+   NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
+
+
 
  
 

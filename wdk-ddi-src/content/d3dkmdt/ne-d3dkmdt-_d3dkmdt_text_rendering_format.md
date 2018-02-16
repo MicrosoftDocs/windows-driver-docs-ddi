@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_TEXT_RENDERING_FORMAT
-title: _D3DKMDT_TEXT_RENDERING_FORMAT
+title: "_D3DKMDT_TEXT_RENDERING_FORMAT"
 author: windows-driver-content
 description: The D3DKMDT_TEXT_RENDERING_FORMAT enumeration is currently not used.
 old-location: display\d3dkmdt_text_rendering_format.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 73ec5d3c-d8f6-4db9-b55f-317eab3b4a39
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_TEXT_RENDERING_FORMAT, DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, D3DKMDT_TRF_UNINITIALIZED, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, D3DKMDT_TEXT_RENDERING_FORMAT, display.d3dkmdt_text_rendering_format
+ms.keywords: D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, _D3DKMDT_TEXT_RENDERING_FORMAT, display.d3dkmdt_text_rendering_format, D3DKMDT_TRF_UNINITIALIZED, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_TEXT_RENDERING_FORMAT
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ Indicates that a variable of type D3DKMDT_TEXT_RENDERING_FORMAT has not yet been
 ## -remarks
 
 
+
 The <b>Format.Text</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_TEXT_RENDERING_FORMAT value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPn Source Mode Set Interface</a>
+
+
 
  
 

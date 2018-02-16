@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6637E939-010E-4462-92CE-50C4DB867694
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: SetExtendedPolicy method, IWDFInterrupt interface, wdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt, SetExtendedPolicy, IWDFInterrupt interface, SetExtendedPolicy method, wudfddi/IWDFInterrupt::SetExtendedPolicy, umdf.iwdfinterrupt_setextendedpolicy, SetExtendedPolicy method, IWDFInterrupt::SetExtendedPolicy
+ms.keywords: wdf.iwdfinterrupt_setextendedpolicy, IWDFInterrupt interface, SetExtendedPolicy method, IWDFInterrupt::SetExtendedPolicy, umdf.iwdfinterrupt_setextendedpolicy, SetExtendedPolicy, IWDFInterrupt, wudfddi/IWDFInterrupt::SetExtendedPolicy, SetExtendedPolicy method, SetExtendedPolicy method, IWDFInterrupt interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFInterrupt.SetExtendedPolicy
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ A pointer to a caller-allocated <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 This method is equivalent to KMDF’s <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>. See the Remarks section of <b>WdfInterruptSetExtendedPolicy</b> for more information about this method.
@@ -95,14 +98,51 @@ If a driver is running on an operating system version that is earlier than Windo
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
 
+#### Examples
+
+The following code example calls <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a> to initialize a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure; sets values for the policy, priority, and target processor set; and calls <b>SetExtendedPolicy</b>. The example sets normal priority for the interrupt and assigns the interrupt to processor 0 in processor group 2. 
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+IWDFInterrupt* pInterrupt;
+
+#define AFFINITY_MASK(n) ((ULONG_PTR)1 &lt;&lt; (n))
+
+WDF_INTERRUPT_EXTENDED_POLICY myExtendedPolicy;
+
+WDF_INTERRUPT_EXTENDED_POLICY_INIT(&amp;myExtendedPolicy);
+myExtendedPolicy.Policy = WdfIrqPolicySpecifiedProcessors;
+myExtendedPolicy.Priority = WdfIrqPriorityNormal;
+myExtendedPolicy.TargetProcessorSetAndGroup.Mask = AFFINITY_MASK(0);
+myExtendedPolicy.TargetProcessorSetAndGroup.Group = 2;
+
+pInterrupt-&gt;SetExtendedPolicy(
+                              &amp;myExtendedPolicy
+ );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
+
+
 
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a>
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+
+
 
  
 

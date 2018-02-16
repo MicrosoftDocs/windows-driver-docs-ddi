@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CsSetConstantBuffers(D3D11_1)
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_SETCONSTANTBUFFERS callback
@@ -78,9 +78,7 @@ VOID APIENTRY* CsSetConstantBuffers(D3D11_1)(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param StartSlot
-
 
 
 ### -param NumBuffers [in]
@@ -91,16 +89,14 @@ VOID APIENTRY* CsSetConstantBuffers(D3D11_1)(
 ### -param *
 
 
+### -param *pFirstConstant [in, optional]
 
-### -param *pFirstConstant
-
-
-
-### -param *pNumConstants
+A pointer to the first constant in the buffer pointed to by <i>StartBuffer</i>.
 
 
+### -param *pNumConstants [in, optional]
 
-
+The number of constants in the  buffer pointed to by  <i>StartBuffer</i>.
 
 
 #### - StartBuffer [in]
@@ -108,27 +104,18 @@ VOID APIENTRY* CsSetConstantBuffers(D3D11_1)(
  The starting constant buffer to set. 
 
 
-#### - phBuffers [in]
-
- An array of handles to the constant buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - pFirstConstant [in, optional]
+#### - phBuffers [in]
 
-A pointer to the first constant in the buffer pointed to by <i>StartBuffer</i>.
-
-
-#### - pNumConstants [in, optional]
-
-The number of constants in the  buffer pointed to by  <i>StartBuffer</i>.
+ An array of handles to the constant buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
 
 ## -returns
+
 
 
 None
@@ -137,7 +124,9 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 Buffers that this function specifies are created with the D3D10_BIND_CONSTANT_BUFFER flag. 
@@ -146,11 +135,16 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

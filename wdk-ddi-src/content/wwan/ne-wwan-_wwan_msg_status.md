@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MSG_STATUS
-title: _WWAN_MSG_STATUS
+title: "_WWAN_MSG_STATUS"
 author: windows-driver-content
 description: The WWAN_MSG_STATUS enumeration lists different SMS message statuses.
 old-location: netvista\wwan_msg_status.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60eb0494-fcc6-4546-a13a-b6d1dcf165e6
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WwanRef_2cd2fe07-ee6c-4193-960e-434e31561f9e.xml, WWAN_MSG_STATUS enumeration [Network Drivers Starting with Windows Vista], WwanMsgStatusOld, wwan/WWAN_MSG_STATUS, WWAN_MSG_STATUS, WwanMsgStatusMax, *PWWAN_MSG_STATUS, wwan/WwanMsgStatusDraft, netvista.wwan_msg_status, wwan/WwanMsgStatusSent, wwan/WwanMsgStatusOld, WwanMsgStatusDraft, wwan/WwanMsgStatusMax, WwanMsgStatusNew, wwan/WwanMsgStatusNew, WwanMsgStatusSent, wwan/PWWAN_MSG_STATUS, PWWAN_MSG_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_MSG_STATUS, PWWAN_MSG_STATUS
+ms.keywords: WWAN_MSG_STATUS enumeration [Network Drivers Starting with Windows Vista], PWWAN_MSG_STATUS, wwan/WwanMsgStatusSent, netvista.wwan_msg_status, PWWAN_MSG_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], WwanRef_2cd2fe07-ee6c-4193-960e-434e31561f9e.xml, _WWAN_MSG_STATUS, wwan/WWAN_MSG_STATUS, WwanMsgStatusSent, wwan/WwanMsgStatusDraft, wwan/PWWAN_MSG_STATUS, wwan/WwanMsgStatusNew, WwanMsgStatusDraft, WwanMsgStatusOld, WWAN_MSG_STATUS, wwan/WwanMsgStatusOld, WwanMsgStatusMax, wwan/WwanMsgStatusMax, *PWWAN_MSG_STATUS, WwanMsgStatusNew
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_MSG_STATUS
 product: Windows
 targetos: Windows
-req.typenames: WWAN_MSG_STATUS, *PWWAN_MSG_STATUS
+req.typenames: "*PWWAN_MSG_STATUS, WWAN_MSG_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -101,7 +101,11 @@ The total number of supported SMS message statuses.
 
 <a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+
+
 
  
 

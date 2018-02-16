@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspinsubmitframemdl, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, KsPinSubmitFrameMdl function [Streaming Media Devices], KsPinSubmitFrameMdl, ks/KsPinSubmitFrameMdl
+ms.keywords: ks/KsPinSubmitFrameMdl, KsPinSubmitFrameMdl, avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, KsPinSubmitFrameMdl function [Streaming Media Devices], stream.kspinsubmitframemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinSubmitFrameMdl
 product: Windows
 targetos: Windows
@@ -94,14 +94,18 @@ A pointer to a caller-allocated buffer that is passed to the frame return callba
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if frame submission is successful. Otherwise returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 The difference between this function and <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a> is that this function will submit a frame using an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure rather than a data and size argument.
+
 
 
 
@@ -109,7 +113,11 @@ The difference between this function and <a href="..\ks\nf-ks-kspinsubmitframe.m
 
 <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
 
+
+
 <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
+
 
  
 

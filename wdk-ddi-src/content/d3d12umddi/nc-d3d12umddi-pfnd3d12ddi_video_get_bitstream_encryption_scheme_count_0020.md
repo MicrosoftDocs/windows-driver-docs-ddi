@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnGetBitstreamEncryptionSchemeCount
 product: Windows
 targetos: Windows
@@ -75,7 +75,6 @@ UINT APIENTRY* pfnGetBitstreamEncryptionSchemeCount(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param NodeIndex
 
 The physical adapter of the device to which this operation applies.
@@ -94,6 +93,8 @@ The handle of the device.
 ## -returns
 
 
+
 This function retrieves the number of encryption schemes supported for a decode profile.
+
 
 

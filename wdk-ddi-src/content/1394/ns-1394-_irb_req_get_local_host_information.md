@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_LOCAL_HOST_INFORMATION
-title: _IRB_REQ_GET_LOCAL_HOST_INFORMATION
+title: "_IRB_REQ_GET_LOCAL_HOST_INFORMATION"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetLocalHostInformation request.
 old-location: ieee\irb_req_get_local_host_information.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 172579A1-9B81-42C7-BAC9-C977C69E7E45
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _IRB_REQ_GET_LOCAL_HOST_INFORMATION, IEEE.irb_req_get_local_host_information, IRB_REQ_GET_LOCAL_HOST_INFORMATION, 1394/IRB_REQ_GET_LOCAL_HOST_INFORMATION, IRB_REQ_GET_LOCAL_HOST_INFORMATION structure [Buses]
+ms.keywords: "_IRB_REQ_GET_LOCAL_HOST_INFORMATION, IRB_REQ_GET_LOCAL_HOST_INFORMATION structure [Buses], IRB_REQ_GET_LOCAL_HOST_INFORMATION, 1394/IRB_REQ_GET_LOCAL_HOST_INFORMATION, IEEE.irb_req_get_local_host_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_GET_LOCAL_HOST_INFORMATION
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ typedef struct _IRB_REQ_GET_LOCAL_HOST_INFORMATION {
 ### -field nLevel
 
 Specifies what level of information is desired from this call. The following flags are provided.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -158,12 +159,14 @@ Requests the port driver to return the host controller's capability flags and th
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Information
 
 Points to an information block to be filled in, depending on what level of information is desired. Each block has its own particular structure.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -265,5 +268,6 @@ GET_HOST_DDI_VERSION
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2585da94-babe-479f-8957-adaa9190451e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortWritePortUchar, atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, irb/AtaPortWritePortUchar, AtaPortWritePortUchar routine [Storage Devices], storage.ataportwriteportuchar
+ms.keywords: storage.ataportwriteportuchar, irb/AtaPortWritePortUchar, atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, AtaPortWritePortUchar, AtaPortWritePortUchar routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortWritePortUchar
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ Specifies the value to write to the HBA's I/O port
 ## -returns
 
 
+
 None 
+
 
 
 
@@ -92,9 +94,15 @@ None
 
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
-<a href="..\irb\nf-irb-ataportwriteportushort.md">AtaPortWritePortUshort</a>
+
 
 <a href="..\irb\nf-irb-ataportwriteportulong.md">AtaPortWritePortUlong</a>
+
+
+
+<a href="..\irb\nf-irb-ataportwriteportushort.md">AtaPortWritePortUshort</a>
+
+
 
  
 

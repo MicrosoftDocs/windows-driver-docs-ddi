@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6A9F8963-54F2-4AD7-AB98-C3215E1F7839
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ResetManagedStatus, IDebugControl4::ResetManagedStatus, debugger.idebugcontrol4_resetmanagedstatus, ResetManagedStatus method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::ResetManagedStatus, IDebugControl4, IDebugControl4 interface [Windows Debugging], ResetManagedStatus method, ResetManagedStatus method [Windows Debugging]
+ms.keywords: dbgeng/IDebugControl4::ResetManagedStatus, ResetManagedStatus, IDebugControl4 interface [Windows Debugging], ResetManagedStatus method, debugger.idebugcontrol4_resetmanagedstatus, ResetManagedStatus method [Windows Debugging], IDebugControl4 interface, ResetManagedStatus method [Windows Debugging], IDebugControl4::ResetManagedStatus, IDebugControl4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.ResetManagedStatus
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::ResetManagedStatus method
@@ -76,7 +76,9 @@ Flags for the debugging API.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,16 +95,20 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
     Managed debugging support relies on debugging
     functionality provided by the CLR.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

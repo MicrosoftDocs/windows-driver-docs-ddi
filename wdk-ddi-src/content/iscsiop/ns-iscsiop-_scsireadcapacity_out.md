@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiReadCapacity_OUT
-title: _ScsiReadCapacity_OUT
+title: "_ScsiReadCapacity_OUT"
 author: windows-driver-content
 description: The ScsiReadCapacity_OUT structure holds the output data for the ScsiReadCapacity method.
 old-location: storage\scsireadcapacity_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3330379f-e484-4fd7-b914-fc969398b56b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PScsiReadCapacity_OUT structure pointer [Storage Devices], *PScsiReadCapacity_OUT, ScsiReadCapacity_OUT, iscsiop/ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], _ScsiReadCapacity_OUT, storage.scsireadcapacity_out, PScsiReadCapacity_OUT, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml, iscsiop/PScsiReadCapacity_OUT
+ms.keywords: storage.scsireadcapacity_out, ScsiReadCapacity_OUT structure [Storage Devices], ScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], *PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml, iscsiop/PScsiReadCapacity_OUT, _ScsiReadCapacity_OUT, iscsiop/ScsiReadCapacity_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	ScsiReadCapacity_OUT
 product: Windows
 targetos: Windows
@@ -99,7 +99,9 @@ A buffer that holds the response data that the SCSI READ CAPACITY command receiv
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
@@ -107,9 +109,15 @@ You must implement this method.
 
 <a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
+
+
 
  
 

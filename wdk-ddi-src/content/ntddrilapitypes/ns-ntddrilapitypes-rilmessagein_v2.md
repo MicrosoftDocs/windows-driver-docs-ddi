@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 44d4f693-4aab-4023-88b7-19c1bfcc7e5a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMESSAGEIN_V2, *LPRILMESSAGEIN, netvista.rilmessagein_v2
+ms.keywords: RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMESSAGEIN_V2, RILMESSAGEIN, netvista.rilmessagein_v2, *LPRILMESSAGEIN, RILMESSAGEIN_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMESSAGEIN_V2
 product: Windows
 targetos: Windows
-req.typenames: *LPRILMESSAGEIN, RILMESSAGEIN, RILMESSAGEIN_V2
+req.typenames: RILMESSAGEIN, RILMESSAGEIN_V2, *LPRILMESSAGEIN
 ---
 
 # RILMESSAGEIN_V2 structure
@@ -75,23 +75,17 @@ typedef struct _RILMESSAGEIN_V2 {
 ### -field cbSize
 
 
-
 ### -field dwExecutor
-
 
 
 ### -field hUiccApp
 
 
-
 ### -field dwAckID
-
 
 
 ### -field rm
 
 
-
 ### -field dwFlags
-
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: def462ee-30c6-44c0-8639-f8f7d3d0b69e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, ntifs/NtOpenThreadTokenEx, ZwOpenThreadTokenEx, kernel.zwopenthreadtokenex, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], NtOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx
+ms.keywords: NtOpenThreadTokenEx, ZwOpenThreadTokenEx, ntifs/NtOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], kernel.zwopenthreadtokenex, k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, ntifs/ZwOpenThreadTokenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ZwOpenThreadTokenEx
 -	NtOpenThreadTokenEx
 product: Windows
@@ -103,7 +103,9 @@ Pointer to a caller-allocated variable that receives a handle to the newly opene
 ## -returns
 
 
+
 <b>ZwOpenThreadTokenEx</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -175,11 +177,14 @@ An attempt has been made to open a token associated with a thread that is not cu
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>ZwOpenThreadTokenEx</b> opens the access token associated with a thread and returns a handle for that token. 
@@ -191,25 +196,43 @@ Any handle obtained by calling <b>ZwOpenThreadTokenEx</b> must eventually be rel
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>HandleAttributes</i> parameter of <b>ZwOpenThreadTokenEx</b>. This restricts the use of the handle returned by <b>ZwOpenThreadTokenEx</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
-<div class="alert"><b>Note</b>  If the call to the <b>ZwOpenThreadTokenEx</b> function occurs in user mode, you should use the name "<b>NtOpenThreadTokenEx</b>" instead of "<b>ZwOpenThreadTokenEx</b>".</div><div> </div>For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
+<div class="alert"><b>Note</b>  If the call to the <b>ZwOpenThreadTokenEx</b> function occurs in user mode, you should use the name "<b>NtOpenThreadTokenEx</b>" instead of "<b>ZwOpenThreadTokenEx</b>".</div>
+<div> </div>
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
 <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+
+
 
 <a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
+
+
 <a href="..\ntifs\nf-ntifs-zwopenprocesstokenex.md">ZwOpenProcessTokenEx</a>
+
+
 
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
 
  
 

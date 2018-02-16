@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFreeToNPagedLookasideList, ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndisfreetonpagedlookasidelist, NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, ndis/NdisFreeToNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisFreeToNPagedLookasideList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeToNPagedLookasideList macro
@@ -81,6 +81,8 @@ TBD
 
 
 
+
+
 #### - Entry [in]
 
 A pointer to the entry to be freed.
@@ -94,27 +96,35 @@ A pointer to the head of the lookaside list to which the entry will be returned.
 ## -remarks
 
 
+
 If the lookaside list has not reached the system-determined maximum number of entries, 
     <i>Entry</i> is inserted at the front of the lookaside list. If the list has reached its maximum size, 
     <i>Entry</i> is released to nonpaged pool. That is, 
     <b>NdisFreeToNPagedLookasideList</b> either calls the driver's 
     <i>Free</i> function, specified in the 
     <i>Free</i> parameter if the driver provided one to the 
-    <mshelp:link keywords="netvista.ndisinitializenpagedlookasidelist" tabindex="0"><b>
-    NdisInitializeNPagedLookasideList</b></mshelp:link> function, or it frees the given entry itself.
+    <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+    NdisInitializeNPagedLookasideList</a> function, or it frees the given entry itself.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisdeletenpagedlookasidelist" tabindex="0"><b>
-   NdisDeleteNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
-<mshelp:link keywords="netvista.ndisinitializenpagedlookasidelist" tabindex="0"><b>
-   NdisInitializeNPagedLookasideList</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+
+<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
+   NdisDeleteNPagedLookasideList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+   NdisInitializeNPagedLookasideList</a>
+
+
 
  
 

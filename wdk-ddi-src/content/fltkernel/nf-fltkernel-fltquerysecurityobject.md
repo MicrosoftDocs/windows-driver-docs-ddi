@@ -7,8 +7,8 @@ old-location: ifsk\fltquerysecurityobject.htm
 old-project: ifsk
 ms.assetid: 388dc11d-79cc-4e6b-bce0-b99cca556342
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject, FltQuerySecurityObject function [Installable File System Drivers], FltQuerySecurityObject, FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml
+ms.date: 2/7/2018
+ms.keywords: FltQuerySecurityObject, ifsk.fltquerysecurityobject, FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, fltkernel/FltQuerySecurityObject, FltQuerySecurityObject function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltQuerySecurityObject
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ File object pointer for the object whose security descriptor is being queried. T
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value. This parameter is 
        required and must be one of the following:
+
 <table>
 <tr>
 <th>SecurityInformation Value</th>
@@ -139,7 +140,8 @@ The system ACL (SACL) of the object is being queried. Requires
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param SecurityDescriptor [in, out]
@@ -165,8 +167,10 @@ Pointer to a caller-allocated variable that receives the number of bytes require
 ## -returns
 
 
+
 <b>FltQuerySecurityObject</b> returns STATUS_SUCCESS or an appropriate 
       <b>NTSTATUS</b> value such as one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -195,11 +199,14 @@ The buffer is too small to contain the security descriptor. None of the security
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the 
@@ -219,17 +226,24 @@ For more information about security and access control, see the Microsoft Window
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+
 
 <a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQuerySecurityObject function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQuerySecurityObject function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

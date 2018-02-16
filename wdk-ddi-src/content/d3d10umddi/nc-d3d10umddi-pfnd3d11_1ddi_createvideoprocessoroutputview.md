@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	CreateVideoProcessorOutputView
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW callback
@@ -76,13 +76,10 @@ HRESULT APIENTRY* CreateVideoProcessorOutputView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOROUTPUTVIEW
-
 
 
 ### -param D3D11_1DDI_HRTVIDEOPROCESSOROUTPUTVIEW
@@ -92,19 +89,6 @@ HRESULT APIENTRY* CreateVideoProcessorOutputView(
 
 
 
-#### - pCreateData [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure. This structure specifies the attributes of the video processor output view to be created.
-
-
-#### - hView [in]
-
-A handle to the driver's private data for the video processor output view. For more information, see the Remarks section.
-
-
-#### - hRTView [in]
-
-A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
 
 
 #### - hDevice [in]
@@ -114,10 +98,27 @@ A handle to the display device (graphics context).
 
 
 
+#### - hRTView [in]
+
+A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
+
+
+#### - hView [in]
+
+A handle to the driver's private data for the video processor output view. For more information, see the Remarks section.
+
+
+#### - pCreateData [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure. This structure specifies the attributes of the video processor output view to be created.
+
+
 ## -returns
 
 
+
 <i>CreateVideoProcessorOutputView</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,11 +158,14 @@ The graphics adapter was removed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The Direct3D runtime calls <i>CreateVideoProcessorOutputView</i> after it has called the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>   to determine the size in bytes for the private data that the driver requires for the video processor output view. The runtime allocates the memory for this private data for the driver. The driver uses this memory to store private data that is related to the video processor output view.
@@ -170,11 +174,16 @@ When the runtime  calls <i>CreateVideoProcessorOutputView</i>, it passes the han
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideodecoderoutputview.md">D3D11_1DDIARG_CREATEVIDEODECODEROUTPUTVIEW</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_calcprivatevideoprocessoroutputviewsize.md">CalcPrivateVideoProcessorOutputViewSize</a>
+
 
  
 

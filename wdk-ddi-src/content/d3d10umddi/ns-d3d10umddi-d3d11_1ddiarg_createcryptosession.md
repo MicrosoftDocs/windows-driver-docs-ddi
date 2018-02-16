@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 9e63a4eb-050b-4f12-ad43-00e62021abd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDIARG_CREATECRYPTOSESSION, display.d3d11_1ddiarg_createcryptosession, d3d10umddi/D3D11_1DDIARG_CREATECRYPTOSESSION, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION, D3D11_1DDIARG_CREATECRYPTOSESSION structure [Display Devices], D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP, D3D11_1DDI_CRYPTO_TYPE_AES128_CTR, D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY
+ms.keywords: d3d10umddi/D3D11_1DDIARG_CREATECRYPTOSESSION, D3D11_1DDIARG_CREATECRYPTOSESSION structure [Display Devices], D3D11_1DDI_CRYPTO_TYPE_AES128_CTR, display.d3d11_1ddiarg_createcryptosession, D3D11_1DDIARG_CREATECRYPTOSESSION, D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP, D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	D3D11_1DDIARG_CREATECRYPTOSESSION
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ typedef struct D3D11_1DDIARG_CREATECRYPTOSESSION {
 ### -field CryptoType
 
 a GUID that indicates the encryption type, which the driver uses for the encryption session that the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a> function creates. The GUID can be one of the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -97,7 +98,8 @@ A proprietary encryption algorithm.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DecodeProfile
@@ -109,6 +111,7 @@ A GUID that specifies the DirectX Video Acceleration (DXVA) decode profile that 
 
 A GUID that specifies the type of key exchange.
 The following GUID is defined.
+
 <table>
 <tr>
 <th>Value</th>
@@ -165,5 +168,6 @@ The DRM commands are sent to the user mode driver by calling the <a href="..\d3d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 

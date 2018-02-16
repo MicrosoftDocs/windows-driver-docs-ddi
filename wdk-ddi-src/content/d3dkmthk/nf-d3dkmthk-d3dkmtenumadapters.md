@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtenumadapters, d3dkmthk/D3DKMTEnumAdapters, D3DKMTEnumAdapters function [Display Devices], PFND3DKMT_ENUMADAPTERS, D3DKMTEnumAdapters
+ms.keywords: display.d3dkmtenumadapters, d3dkmthk/D3DKMTEnumAdapters, D3DKMTEnumAdapters, PFND3DKMT_ENUMADAPTERS, D3DKMTEnumAdapters function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
-apiname: 
+apiname:
 -	D3DKMTEnumAdapters
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ TBD
 
 
 
+
 #### - pEnumAdapters [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_enumadapters.md">D3DKMT_ENUMADAPTERS</a> structure that lists all graphics adapters and their characteristics.
@@ -81,7 +82,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_enumadapters.md">D3DKMT_
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,22 +113,28 @@ The  <i>pEnumAdapters</i> parameter was validated and determined to be incorrect
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
+
 
 
 
 ## -remarks
 
 
+
 The operating system enumerates graphics adapters in the same sequence as their corresponding physical devices.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_enumadapters.md">D3DKMT_ENUMADAPTERS</a>
+
+
 
  
 

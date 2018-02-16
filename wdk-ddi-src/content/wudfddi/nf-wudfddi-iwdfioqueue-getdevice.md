@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1c1a67e-a18d-4eef-88ce-cd7edd371f54
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, IWDFIoQueue::GetDevice, GetDevice method, IWDFIoQueue interface, wdf.iwdfioqueue_getdevice, umdf.iwdfioqueue_getdevice, IWDFIoQueue interface, GetDevice method, GetDevice method, wudfddi/IWDFIoQueue::GetDevice, GetDevice, IWDFIoQueue
+ms.keywords: wudfddi/IWDFIoQueue::GetDevice, GetDevice method, IWDFIoQueue interface, IWDFIoQueue::GetDevice, GetDevice, IWDFIoQueue, wdf.iwdfioqueue_getdevice, IWDFIoQueue interface, GetDevice method, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, GetDevice method, umdf.iwdfioqueue_getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoQueue.GetDevice
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,9 @@ A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wu
 ## -returns
 
 
+
 None
+
 
 
 
@@ -86,7 +88,11 @@ None
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
 
  
 

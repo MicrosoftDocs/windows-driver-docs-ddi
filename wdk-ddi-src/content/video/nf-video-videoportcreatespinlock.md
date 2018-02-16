@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bb5f3b3e-3358-4181-9c4d-1871be1a7b7b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortCreateSpinLock, display.videoportcreatespinlock, VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml, video/VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices]
+ms.keywords: VideoPort_Functions_64ab2562-155d-4cec-8612-42aca51d909b.xml, VideoPortCreateSpinLock, VideoPortCreateSpinLock function [Display Devices], display.videoportcreatespinlock, video/VideoPortCreateSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortCreateSpinLock
 product: Windows
 targetos: Windows
@@ -82,14 +82,18 @@ Pointer to a memory location that will receive a pointer to the newly created sp
 ## -returns
 
 
+
 On success the function returns NO_ERROR. If an error occurs, the function returns an appropriate error code.
+
 
 
 
 ## -remarks
 
 
+
 This routine must be called before an initial call to <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a> or to any other support routine that requires a spin lock as an argument. 
+
 
 
 
@@ -97,7 +101,11 @@ This routine must be called before an initial call to <a href="..\video\nf-video
 
 <a href="..\video\nf-video-videoportacquirespinlock.md">VideoPortAcquireSpinLock</a>
 
+
+
 <a href="..\video\nf-video-videoportdeletespinlock.md">VideoPortDeleteSpinLock</a>
+
+
 
  
 

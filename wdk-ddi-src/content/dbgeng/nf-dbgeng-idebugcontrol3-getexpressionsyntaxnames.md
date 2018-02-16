@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: c60b1d7b-b82d-4f59-a076-2122da97a161
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExpressionSyntaxNames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetExpressionSyntaxNames, debugger.getexpressionsyntaxnames, IDebugControl3, dbgeng/IDebugControl3::GetExpressionSyntaxNames, GetExpressionSyntaxNames method [Windows Debugging]
+ms.keywords: GetExpressionSyntaxNames method [Windows Debugging], GetExpressionSyntaxNames method [Windows Debugging], IDebugControl3 interface, debugger.getexpressionsyntaxnames, IDebugControl_9556ddd4-d38f-4c56-8456-81c12afb177e.xml, IDebugControl3::GetExpressionSyntaxNames, IDebugControl3, GetExpressionSyntaxNames, IDebugControl3 interface [Windows Debugging], GetExpressionSyntaxNames method, dbgeng/IDebugControl3::GetExpressionSyntaxNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.GetExpressionSyntaxNames
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetExpressionSyntaxNames method
@@ -111,7 +111,9 @@ Receives the size, in characters, of the abbreviated name of the expression synt
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,26 +141,38 @@ The method was successful.  However, either <i>FullNameBufferSize</i> or <i>Abbr
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Currently, there are two expression syntaxes, their full names are "Microsoft Assembler expressions" and "C++ source expressions."  The corresponding abbreviated expression syntaxes are "MASM" and "C++."
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547913">GetNumberExpressionSyntaxes</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+
+
 
  
 

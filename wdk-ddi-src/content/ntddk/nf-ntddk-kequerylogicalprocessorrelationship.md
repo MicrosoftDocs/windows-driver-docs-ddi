@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], kernel.kequerylogicalprocessorrelationship, KeQueryLogicalProcessorRelationship, wdm/KeQueryLogicalProcessorRelationship, k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml
+ms.keywords: kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, KeQueryLogicalProcessorRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeQueryLogicalProcessorRelationship
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # KeQueryLogicalProcessorRelationship function
@@ -78,6 +78,7 @@ A pointer to a <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_
 ### -param RelationshipType [in]
 
 Specifies the type of relationship information that is requested by the caller. Set this parameter to one of the following <a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a> enumeration values:
+
 <ul>
 <li>
 <b>RelationProcessorCore</b>
@@ -118,7 +119,9 @@ A pointer to a location that contains the size, in bytes, of the buffer that is 
 ## -returns
 
 
+
 <b>KeQueryLogicalProcessorRelationship</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -146,24 +149,77 @@ The caller-allocated buffer that is pointed to by the <i>Information</i> paramet
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 To determine the buffer size to allocate, initially call <b>KeQueryLogicalProcessorRelationship</b> with <i>Information</i> = <b>NULL</b> and *<i>Length</i> = 0. In response, the routine writes the required buffer size to *<i>Length</i> and returns STATUS_INFO_LENGTH_MISMATCH. Next, allocate a buffer of the required size and call <b>KeQueryLogicalProcessorRelationship</b> a second time. In this second call, set <i>Information</i> to the buffer address and *<i>Length</i> to the buffer size. If the second call succeeds, the routine writes the requested relationship information to the buffer and returns STATUS_SUCCESS.
+
+
+#### Examples
+
+The following code example gets processor relationship information for all the logical processors in a multiprocessor system:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    //
+    // Get required buffer size.
+    //
+    NTSTATUS Status;
+    PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX Info = NULL;
+    ULONG BufferSize = 0;
+    Status = KeQueryLogicalProcessorRelationship(NULL, RelationAll, NULL, &amp;BufferSize);
+
+    NT_ASSERT(Status == STATUS_INFO_LENGTH_MISMATCH &amp;&amp; BufferSize &gt; 0);
+
+    //
+    // Allocate buffer (assume IRQL &lt;= APC_LEVEL).
+    //
+    Info = ExAllocatePoolWithTag(PagedPool, BufferSize, ' gaT');
+    if (Info == NULL)
+    {
+        Status = STATUS_INSUFFICIENT_RESOURCES;
+    }
+
+    //
+    // Get processor relationship information.
+    //
+    if (NT_SUCCESS(Status))
+    {
+        Status = KeQueryLogicalProcessorRelationship(NULL, RelationAll, Info, &amp;BufferSize);
+    }</pre>
+</td>
+</tr>
+</table></span></div>
+The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is defined in the Ntdef.h header file.
+
+<div class="code"></div>
 
 
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a>
-
 <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155068">LOGICAL_PROCESSOR_RELATIONSHIP</a>
+
+
 
  
 

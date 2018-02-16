@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 01b311e9-252e-49eb-bf63-d16e4fa92231
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CD_LAYER_MAX, RILCALLDISCONNECTDETAILSASCODE, ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE, RIL_CD_L2, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CD_L2, ntddrilapitypes/RIL_CD_LAYER_MAX, ntddrilapitypes/RIL_CD_L3, netvista.rilcalldisconnectdetailsascode, RIL_CD_L3
+ms.keywords: ntddrilapitypes/RIL_CD_L3, netvista.rilcalldisconnectdetailsascode, RIL_CD_L2, RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_LAYER_MAX, ntddrilapitypes/RIL_CD_LAYER_MAX, ntddrilapitypes/RIL_CD_L2, ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE, RIL_CD_L3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLDISCONNECTDETAILSASCODE
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILCALLDISCONNECTDETAILSASCODE {
 ### -field RIL_CD_PHYSICAL_LAYER
 
 
-
 ### -field RIL_CD_L2
-
 
 
 ### -field RIL_CD_L3
 
 
-
 ### -field RIL_CD_LAYER_MAX
-
 

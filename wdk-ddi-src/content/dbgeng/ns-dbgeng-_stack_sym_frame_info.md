@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._STACK_SYM_FRAME_INFO
-title: _STACK_SYM_FRAME_INFO
+title: "_STACK_SYM_FRAME_INFO"
 author: windows-driver-content
 description: Defines stack source information for an extended stack frame.
 old-location: debugger\stack_sym_frame_info.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1DE23CF6-970E-4BDE-9BEC-CAC0640B257A
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PSTACK_SYM_FRAME_INFO, dbgeng/PSTACK_SYM_FRAME_INFO, debugger.stack_sym_frame_info, dbgeng/STACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO structure pointer [Windows Debugging], STACK_SYM_FRAME_INFO structure [Windows Debugging], _STACK_SYM_FRAME_INFO, *PSTACK_SYM_FRAME_INFO, STACK_SYM_FRAME_INFO
+ms.keywords: "*PSTACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO, _STACK_SYM_FRAME_INFO, STACK_SYM_FRAME_INFO, debugger.stack_sym_frame_info, dbgeng/STACK_SYM_FRAME_INFO, dbgeng/PSTACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO structure pointer [Windows Debugging], STACK_SYM_FRAME_INFO structure [Windows Debugging]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	STACK_SYM_FRAME_INFO
 product: Windows
 targetos: Windows
-req.typenames: STACK_SYM_FRAME_INFO, *PSTACK_SYM_FRAME_INFO
+req.typenames: "*PSTACK_SYM_FRAME_INFO, STACK_SYM_FRAME_INFO"
 ---
 
 # _STACK_SYM_FRAME_INFO structure
@@ -82,7 +82,11 @@ Stack source information as a <a href="..\dbgeng\ns-dbgeng-_stack_src_info.md">S
 
 <a href="..\dbgeng\ns-dbgeng-_stack_src_info.md">STACK_SRC_INFO</a>
 
+
+
 <a href="..\dbgeng\ns-dbgeng-_debug_stack_frame_ex.md">DEBUG_STACK_FRAME_EX</a>
+
+
 
  
 

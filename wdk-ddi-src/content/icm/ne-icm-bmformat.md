@@ -7,8 +7,8 @@ old-location: print\bmformat.htm
 old-project: print
 ms.assetid: 1c29bf1e-e785-48ab-aa2c-3665fd5c0ab0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: BM_x555RGB, BM_x555XYZ, BM_CMYKQUADS, icm/BM_CMYKQUADS, icm/BM_565RGB, BM_YxyTRIPLETS, BMFORMAT, icm/BM_10b_Yxy, BM_GRAY, BM_32b_scRGB, icm/BM_32b_scARGB, icm/BM_x555XYZ, BM_16b_GRAY, BM_32b_scARGB, BM_R10G10B10A2, icm/BMFORMAT, icm/BM_xBGRQUADS, colorfnc_44898765-c0de-41ae-8036-b288ab45b3cb.xml, icm/BM_x555G3CH, icm/BM_RGBTRIPLETS, icm/BM_R16G16B16A16_FLOAT, icm/BM_x555Yxy, icm/BM_G3CHTRIPLETS, icm/BM_GRAY, BM_10b_XYZ, icm/BM_16b_RGB, print.bmformat, BM_LabTRIPLETS, BM_xG3CHQUADS, icm/BM_32b_scRGB, BM_16b_Yxy, BM_10b_Lab, BM_R10G10B10A2_XR, icm/BM_10b_G3CH, BM_10b_RGB, BM_6CHANNEL, BM_XYZTRIPLETS, icm/BM_xG3CHQUADS, icm/BM_16b_XYZ, BM_5CHANNEL, icm/BM_10b_RGB, BM_R16G16B16A16_FLOAT, BM_16b_RGB, BMFORMAT enumeration [Print Devices], icm/BM_S2DOT13FIXED_scRGB, BM_G3CHTRIPLETS, BM_KYMCQUADS, icm/BM_x555Lab, icm/BM_x555RGB, icm/BM_LabTRIPLETS, icm/BM_16b_Yxy, BM_10b_G3CH, BM_S2DOT13FIXED_scRGB, icm/BM_10b_XYZ, BM_BGRTRIPLETS, BM_7CHANNEL, BM_NAMED_INDEX, icm/BM_NAMED_INDEX, icm/BM_xRGBQUADS, icm/BM_KYMCQUADS, icm/BM_16b_Lab, BM_x555Lab, BM_565RGB, icm/BM_XYZTRIPLETS, BM_RGBTRIPLETS, icm/BM_R10G10B10A2_XR, BM_xBGRQUADS, icm/BM_16b_GRAY, BM_S2DOT13FIXED_scARGB, icm/BM_S2DOT13FIXED_scARGB, BM_10b_Yxy, BM_x555G3CH, BM_16b_Lab, BM_x555Yxy, icm/BM_8CHANNEL, BM_16b_G3CH, BM_xRGBQUADS, BM_16b_XYZ, icm/BM_5CHANNEL, icm/BM_16b_G3CH, BM_8CHANNEL, icm/BM_R10G10B10A2, *PBMFORMAT, icm/BM_6CHANNEL, icm/BM_BGRTRIPLETS, icm/BM_YxyTRIPLETS, icm/BM_7CHANNEL, icm/BM_10b_Lab
+ms.date: 2/2/2018
+ms.keywords: BM_6CHANNEL, icm/BM_10b_Lab, BM_5CHANNEL, icm/BM_BGRTRIPLETS, icm/BM_32b_scARGB, BM_10b_G3CH, BM_R10G10B10A2_XR, icm/BM_16b_XYZ, icm/BMFORMAT, print.bmformat, BM_G3CHTRIPLETS, BM_S2DOT13FIXED_scARGB, icm/BM_GRAY, icm/BM_7CHANNEL, BM_32b_scRGB, BM_16b_Yxy, icm/BM_R10G10B10A2_XR, BM_LabTRIPLETS, icm/BM_6CHANNEL, BM_S2DOT13FIXED_scRGB, icm/BM_RGBTRIPLETS, BM_x555RGB, icm/BM_x555XYZ, BM_32b_scARGB, BM_x555Yxy, BMFORMAT, BM_xRGBQUADS, icm/BM_8CHANNEL, icm/BM_CMYKQUADS, icm/BM_565RGB, icm/BM_R16G16B16A16_FLOAT, icm/BM_x555Lab, BM_CMYKQUADS, BM_10b_Yxy, icm/BM_R10G10B10A2, icm/BM_32b_scRGB, BM_GRAY, colorfnc_44898765-c0de-41ae-8036-b288ab45b3cb.xml, icm/BM_NAMED_INDEX, BM_YxyTRIPLETS, icm/BM_10b_XYZ, icm/BM_16b_Yxy, icm/BM_x555G3CH, BM_10b_XYZ, BM_8CHANNEL, icm/BM_YxyTRIPLETS, BM_KYMCQUADS, icm/BM_10b_Yxy, icm/BM_XYZTRIPLETS, icm/BM_10b_RGB, icm/BM_xBGRQUADS, BM_10b_Lab, *PBMFORMAT, BM_NAMED_INDEX, BM_x555Lab, BM_7CHANNEL, BM_16b_Lab, BM_R16G16B16A16_FLOAT, icm/BM_S2DOT13FIXED_scRGB, BM_16b_GRAY, icm/BM_G3CHTRIPLETS, BM_BGRTRIPLETS, icm/BM_16b_RGB, icm/BM_5CHANNEL, icm/BM_x555RGB, BM_RGBTRIPLETS, icm/BM_xG3CHQUADS, BM_16b_XYZ, icm/BM_16b_Lab, BM_x555G3CH, BM_10b_RGB, BM_xBGRQUADS, icm/BM_10b_G3CH, BMFORMAT enumeration [Print Devices], BM_565RGB, BM_XYZTRIPLETS, icm/BM_LabTRIPLETS, BM_16b_RGB, icm/BM_xRGBQUADS, BM_x555XYZ, BM_xG3CHQUADS, icm/BM_16b_GRAY, icm/BM_S2DOT13FIXED_scARGB, icm/BM_16b_G3CH, icm/BM_KYMCQUADS, BM_R10G10B10A2, BM_16b_G3CH, icm/BM_x555Yxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	icm.h
-apiname: 
+apiname:
 -	BMFORMAT
 product: Windows
 targetos: Windows
@@ -170,7 +170,6 @@ BM_x555G3CH
 ### -field BM_6CHANNEL
 
 
-
 ### -field BM_7CHANNEL
 
 56 bits per pixel. 8 bits apiece are used for each channel.
@@ -299,9 +298,7 @@ BM_x555G3CH
 ### -field BM_R10G10B10A2
 
 
-
 ### -field BM_R10G10B10A2_XR
-
 
 
 ### -field BM_R16G16B16A16_FLOAT
@@ -312,9 +309,11 @@ BM_x555G3CH
 ## -remarks
 
 
+
 The last four values were added to the BMFORMAT enumeration beginning with Windows Vista.
 
 The PBMFORMAT and LPBMFORMAT data types are defined as pointers to this enumeration:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -325,4 +324,5 @@ The PBMFORMAT and LPBMFORMAT data types are defined as pointers to this enumerat
 </td>
 </tr>
 </table></span></div>
+
 

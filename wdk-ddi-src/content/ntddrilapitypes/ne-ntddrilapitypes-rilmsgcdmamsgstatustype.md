@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60365fd7-3897-4948-a251-098e5a91c959
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_MSGSTATUSTYPE_READACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_USERACK, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, ntddrilapitypes/RILMSGCDMAMSGSTATUSTYPE, RILMSGCDMAMSGSTATUSTYPE, RIL_MSGSTATUSTYPE_MAX, RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_DELIVERYACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_MAX, netvista.rilmsgcdmamsgstatustype, RIL_MSGSTATUSTYPE_USERACK
+ms.keywords: RIL_MSGSTATUSTYPE_MAX, ntddrilapitypes/RIL_MSGSTATUSTYPE_MAX, RIL_MSGSTATUSTYPE_USERACK, RIL_MSGSTATUSTYPE_READACK, ntddrilapitypes/RILMSGCDMAMSGSTATUSTYPE, netvista.rilmsgcdmamsgstatustype, ntddrilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_DELIVERYACK, RILMSGCDMAMSGSTATUSTYPE, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGSTATUSTYPE_USERACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCDMAMSGSTATUSTYPE
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILMSGCDMAMSGSTATUSTYPE {
 ### -field RIL_MSGSTATUSTYPE_BEARERACK
 
 
-
 ### -field RIL_MSGSTATUSTYPE_DELIVERYACK
-
 
 
 ### -field RIL_MSGSTATUSTYPE_USERACK
 
 
-
 ### -field RIL_MSGSTATUSTYPE_READACK
 
 
-
 ### -field RIL_MSGSTATUSTYPE_MAX
-
 

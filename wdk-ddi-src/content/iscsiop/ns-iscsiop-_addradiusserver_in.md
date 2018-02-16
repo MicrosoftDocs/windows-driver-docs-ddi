@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddRADIUSServer_IN
-title: _AddRADIUSServer_IN
+title: "_AddRADIUSServer_IN"
 author: windows-driver-content
 description: The AddRADIUSServer_IN structure holds the input data for the AddRADIUSServer method, which is used to add a new RADIUS server entry to existing list.
 old-location: storage\addradiusserver_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b7b9f3b-df33-4886-bd22-23429cb05ea7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AddRADIUSServer_IN, *PAddRADIUSServer_IN, AddRADIUSServer_IN structure [Storage Devices], PAddRADIUSServer_IN, structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, AddRADIUSServer_IN, iscsiop/AddRADIUSServer_IN, storage.addradiusserver_in, PAddRADIUSServer_IN structure pointer [Storage Devices], iscsiop/PAddRADIUSServer_IN
+ms.keywords: PAddRADIUSServer_IN structure pointer [Storage Devices], AddRADIUSServer_IN structure [Storage Devices], AddRADIUSServer_IN, storage.addradiusserver_in, iscsiop/AddRADIUSServer_IN, _AddRADIUSServer_IN, iscsiop/PAddRADIUSServer_IN, PAddRADIUSServer_IN, structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml, *PAddRADIUSServer_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	AddRADIUSServer_IN
 product: Windows
 targetos: Windows
@@ -75,19 +75,29 @@ A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> st
 ## -remarks
 
 
+
 It is optional that you implement this method.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
 
-<a href="..\iscsiop\ns-iscsiop-_addradiusserver_out.md">AddRADIUSServer_OUT</a>
+
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_addradiusserver_out.md">AddRADIUSServer_OUT</a>
+
+
 
  
 

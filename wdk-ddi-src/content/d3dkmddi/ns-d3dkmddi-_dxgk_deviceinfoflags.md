@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DEVICEINFOFLAGS
-title: _DXGK_DEVICEINFOFLAGS
+title: "_DXGK_DEVICEINFOFLAGS"
 author: windows-driver-content
 description: The DXGK_DEVICEINFOFLAGS structure identifies, in bit-field flags, information about a graphics device.
 old-location: display\dxgk_deviceinfoflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 26d0aad9-86d0-4d97-978a-1e15285d3369
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, display.dxgk_deviceinfoflags, d3dkmddi/DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS structure [Display Devices], _DXGK_DEVICEINFOFLAGS
+ms.keywords: DXGK_DEVICEINFOFLAGS, display.dxgk_deviceinfoflags, DXGK_DEVICEINFOFLAGS structure [Display Devices], DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, d3dkmddi/DXGK_DEVICEINFOFLAGS, _DXGK_DEVICEINFOFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_DEVICEINFOFLAGS
 product: Windows
 targetos: Windows
@@ -94,7 +94,11 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_SPINLOCK
-title: _STOR_SPINLOCK
+title: "_STOR_SPINLOCK"
 author: windows-driver-content
 description: The STOR_SPINLOCK enumeration is used to specify the type of a spinlock.
 old-location: storage\stor_spinlock.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 73e5e994-4133-4651-bb94-1d21386be1cd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StartIoLock, storport/STOR_SPINLOCK, StartIoLock, InterruptLock, _STOR_SPINLOCK, storage.stor_spinlock, STOR_SPINLOCK, STOR_SPINLOCK enumeration [Storage Devices], storport/InterruptLock, storport/DpcLock, DpcLock, structs-general_53d45f74-68b2-4839-81c1-c93a2773f0d8.xml
+ms.keywords: StartIoLock, InterruptLock, storport/InterruptLock, STOR_SPINLOCK enumeration [Storage Devices], STOR_SPINLOCK, storport/STOR_SPINLOCK, storport/StartIoLock, storport/DpcLock, storage.stor_spinlock, structs-general_53d45f74-68b2-4839-81c1-c93a2773f0d8.xml, _STOR_SPINLOCK, DpcLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	STOR_SPINLOCK
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ Indicates an Interrupt spinlock.
 ## -see-also
 
 <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+
+
 
  
 

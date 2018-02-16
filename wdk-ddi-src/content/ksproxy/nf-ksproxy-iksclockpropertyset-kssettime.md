@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b1489593-9458-4e78-b59d-c8a780a3a3f1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetTime method [Streaming Media Devices], IKsClockPropertySet interface, ksproxy_6d169c35-dd1b-4ccb-b028-f6a8d19e51ea.xml, ksproxy/IKsClockPropertySet::KsSetTime, KsSetTime, IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsSetTime method, IKsClockPropertySet::KsSetTime, KsSetTime method [Streaming Media Devices], stream.iksclockpropertyset_kssettime
+ms.keywords: KsSetTime method [Streaming Media Devices], IKsClockPropertySet interface, KsSetTime method [Streaming Media Devices], stream.iksclockpropertyset_kssettime, ksproxy/IKsClockPropertySet::KsSetTime, KsSetTime, IKsClockPropertySet interface [Streaming Media Devices], KsSetTime method, ksproxy_6d169c35-dd1b-4ccb-b028-f6a8d19e51ea.xml, IKsClockPropertySet, IKsClockPropertySet::KsSetTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsClockPropertySet.KsSetTime
 product: Windows
 targetos: Windows
@@ -75,22 +75,30 @@ Time to which to set the underlying clock.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -remarks
 
 
+
 The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565095">KSPROPERTY_CLOCK_TIME</a> property to set the current clock time. 
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559751">IKsClockPropertySet::KsGetTime</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565095">KSPROPERTY_CLOCK_TIME</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559751">IKsClockPropertySet::KsGetTime</a>
+
 
  
 

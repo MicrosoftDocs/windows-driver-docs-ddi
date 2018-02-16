@@ -7,7 +7,7 @@ old-location: audio\iportevents.htm
 old-project: audio
 ms.assetid: bbbb5486-1217-4c4d-9421-96994a5fec82
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iportevents, IPortEvents interface [Audio Devices], IPortEvents interface [Audio Devices], described, IPortEvents, portcls/IPortEvents, audmp-routines_8e6cf7c4-af42-4c89-8c00-29470317a455.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortEvents
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortEvents interface
@@ -53,7 +53,7 @@ The <code>IPortEvents</code> interface is used by miniport drivers to notify cli
 
 Drivers typically use the <code>IPortEvents</code> interface to notify the system of hardware-generated volume or mute changes, although <code>IPortEvents</code> can be used for any type of event notification. <code>IPortEvents</code> interface is an optional lower-edge port driver interface. It can be used, for example, to notify <b>mixer</b> applications of control or mixer-line changes. For information about the <b>mixer</b> API, see the Microsoft Windows SDK documentation.
 
-A miniport driver exposes an event in the same way that it exposes properties: through an automation table (see <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_6.md">PCAUTOMATION_TABLE</a>). The following objects, all of which are exposed by the miniport driver, can specify an automation table that contains properties and/or events:
+A miniport driver exposes an event in the same way that it exposes properties: through an automation table (see <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>). The following objects, all of which are exposed by the miniport driver, can specify an automation table that contains properties and/or events:
 <ul>
 <li>
 The filter that the miniport driver implements
@@ -67,7 +67,7 @@ Each pin that the filter exposes
 Each node that the filter exposes
 
 </li>
-</ul>Each event entry in an automation table is a structure of type <a href="..\portcls\ns-portcls-__unnamed_struct_0c93_5.md">PCEVENT_ITEM</a> that specifies the following:
+</ul>Each event entry in an automation table is a structure of type <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a> that specifies the following:
 <ul>
 <li>
 An event set

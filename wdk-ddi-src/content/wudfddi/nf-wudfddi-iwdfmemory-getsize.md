@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1ed699a3-20e5-4a1c-bce0-5a681bac9c39
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.iwdfmemory_getsize, wdf.iwdfmemory_getsize, GetSize method, IWDFMemory interface, GetSize method, IWDFMemory interface, GetSize method, wudfddi/IWDFMemory::GetSize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, GetSize, IWDFMemory::GetSize, IWDFMemory
+ms.keywords: umdf.iwdfmemory_getsize, IWDFMemory interface, GetSize method, IWDFMemory::GetSize, IWDFMemory, wdf.iwdfmemory_getsize, wudfddi/IWDFMemory::GetSize, GetSize, GetSize method, IWDFMemory interface, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, GetSize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFMemory.GetSize
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,16 +69,21 @@ SIZE_T  GetSize();
 
 
 
+
 ## -returns
+
 
 
 <b>GetSize</b> returns the size, in bytes, of the data buffer for the memory object.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
 
  
 

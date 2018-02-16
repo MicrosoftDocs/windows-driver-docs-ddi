@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PO_FX_FLAG_ASYNC_ONLY, wdm/PoFxActivateComponent, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_BLOCKING, kernel.pofxactivatecomponent
+ms.keywords: PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_ASYNC_ONLY, wdm/PoFxActivateComponent, kernel.pofxactivatecomponent, PO_FX_FLAG_BLOCKING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Ntoskrnl.exe
-apiname: 
+apiname:
 -	PoFxActivateComponent
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ The index that identifies the component. This parameter is an index into the <b>
 The flags for the activation operation. Set this member to zero or to one of the following flag <b>PO_FX_FLAG_<i>XXX</i></b> bits:
 
 These two flag bits are mutually exclusive. For more information, see Remarks.
+
 <table>
 <tr>
 <th>Value</th>
@@ -112,17 +113,21 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 None.
 
 
 
+
 ## -remarks
+
 
 
 Before a device driver can access a component in a device, the driver must first call <b>PoFxActivateComponent</b> to obtain an activation reference to the component. If the component is not already in the active condition, this call initiates a transition from the idle condition to the active condition. When this transition completes, PoFx calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a> routine to notify the driver. The driver can access the hardware registers in a component only when the component is in the active condition.
@@ -147,17 +152,28 @@ PoFx notifies the driver when a transition between the active condition and idle
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+## -see-also
 
 <a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
+
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
 
 <a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+
 
  
 

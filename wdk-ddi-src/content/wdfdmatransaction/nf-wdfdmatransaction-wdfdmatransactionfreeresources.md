@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F35F80E7-E1B6-4219-96AF-687E0014CCB3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionFreeResources, kmdf.wdfdmatransactionfreeresources, WdfDmaTransactionFreeResources method, wdfdmatransaction/WdfDmaTransactionFreeResources, PFN_WDFDMATRANSACTIONFREERESOURCES, wdf.wdfdmatransactionfreeresources
+ms.keywords: kmdf.wdfdmatransactionfreeresources, wdfdmatransaction/WdfDmaTransactionFreeResources, wdf.wdfdmatransactionfreeresources, WdfDmaTransactionFreeResources, PFN_WDFDMATRANSACTIONFREERESOURCES, WdfDmaTransactionFreeResources method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDmaTransactionFreeResources
 product: Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
+req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ A handle to the DMA transaction object that the driver provided in a previous ca
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 <b>WdfDmaTransactionFreeResources</b> must be used with a DMA enabler that specifies a packet or system profile.
@@ -101,9 +104,12 @@ For more information about system-mode DMA, see <a href="https://msdn.microsoft.
 
 
 
+
 ## -see-also
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
+
+
 
  
 

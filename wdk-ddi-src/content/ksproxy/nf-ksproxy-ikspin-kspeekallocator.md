@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: fd833d0b-2f81-4002-8280-38e17e528af6
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPeekAllocator method [Streaming Media Devices], IKsPin interface, IKsPin interface [Streaming Media Devices], KsPeekAllocator method, KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, KsPeekAllocator method [Streaming Media Devices], IKsPin::KsPeekAllocator, ksproxy/IKsPin::KsPeekAllocator, IKsPin, stream.ikspin_kspeekallocator
+ms.keywords: ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, KsPeekAllocator method [Streaming Media Devices], IKsPin interface, KsPeekAllocator method [Streaming Media Devices], stream.ikspin_kspeekallocator, IKsPin, IKsPin interface [Streaming Media Devices], KsPeekAllocator method, IKsPin::KsPeekAllocator, ksproxy/IKsPin::KsPeekAllocator, KsPeekAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPin.KsPeekAllocator
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ IMemAllocator* KsPeekAllocator(
 ### -param Operation [in]
 
 A value that specifies the type of operation. This value can be one of the following values from the KSPEEKOPERATION enumerated type.
+
 <table>
 <tr>
 <th>Value</th>
@@ -95,17 +96,21 @@ A value that specifies the type of operation. This value can be one of the follo
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
+
 
 
 Returns a pointer to an <b>IMemAllocator</b> interface if successful; otherwise, returns <b>NULL</b>. 
 
 
 
+
 ## -remarks
+
 
 
 For more information about <b>IMemAllocator</b>, see the Microsoft Windows SDK documentation.
@@ -114,9 +119,12 @@ This method is for proxy use and is not recommended for application use.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c9e654cc-7ea5-41dd-8ee5-23a89f61e3c1
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfObjectQuery method, kmdf.wdfobjectquery, PFN_WDFOBJECTQUERY, WdfObjectQuery, wdfobject/WdfObjectQuery, DFGenObjectRef_1291f90f-1783-4bd6-ae7a-5481f3959628.xml, wdf.wdfobjectquery
+ms.keywords: kmdf.wdfobjectquery, wdfobject/WdfObjectQuery, wdf.wdfobjectquery, WdfObjectQuery method, DFGenObjectRef_1291f90f-1783-4bd6-ae7a-5481f3959628.xml, WdfObjectQuery, PFN_WDFOBJECTQUERY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Not applicable
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdfobject.h
-apiname: 
+apiname:
 -	WdfObjectQuery
 product: Windows
 targetos: Windows
@@ -76,15 +76,11 @@ NTSTATUS WdfObjectQuery(
 ### -param Object [in]
 
 
-
 ### -param Guid [in]
-
 
 
 ### -param QueryBufferLength [in]
 
 
-
 ### -param QueryBuffer [out]
-
 

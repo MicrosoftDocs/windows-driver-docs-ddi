@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7a10b7e0-b062-4ec9-9883-7042f6e55505
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11DDI_CORELAYER_DEVICECALLBACKS, d3d10umddi/D3D11DDI_CORELAYER_DEVICECALLBACKS, UMDisplayDriver_Dx11param_Structs_182fd279-98be-4418-b7ca-658d038cb39a.xml, display.d3d11ddi_corelayer_devicecallbacks, D3D11DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices]
+ms.keywords: D3D11DDI_CORELAYER_DEVICECALLBACKS, d3d10umddi/D3D11DDI_CORELAYER_DEVICECALLBACKS, display.d3d11ddi_corelayer_devicecallbacks, D3D11DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_182fd279-98be-4418-b7ca-658d038cb39a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D11DDI_CORELAYER_DEVICECALLBACKS
 product: Windows
 targetos: Windows
@@ -311,9 +311,11 @@ A pointer to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_state_cs_const
 ## -remarks
 
 
+
 Because the Direct3D 11 runtime might change the function pointers dynamically, the user-mode display driver cannot cache the function pointers directly. 
 
 The driver uses the functions with "State" in their name to retrieve the current state of the pipeline. 
+
 
 
 
@@ -321,9 +323,15 @@ The driver uses the functions with "State" in their name to retrieve the current
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+
 
  
 

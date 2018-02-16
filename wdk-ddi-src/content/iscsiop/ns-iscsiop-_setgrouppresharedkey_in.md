@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetGroupPresharedKey_IN
-title: _SetGroupPresharedKey_IN
+title: "_SetGroupPresharedKey_IN"
 author: windows-driver-content
 description: The SetGroupPresharedKey_IN structure holds the input data for the SetGroupPresharedKey method.
 old-location: storage\setgrouppresharedkey_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe5e1f75-ebd0-4856-bb77-14efb52fbce0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SetGroupPresharedKey_IN, storage.setgrouppresharedkey_in, iscsiop/SetGroupPresharedKey_IN, PSetGroupPresharedKey_IN, SetGroupPresharedKey_IN structure [Storage Devices], structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml, *PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN structure pointer [Storage Devices], iscsiop/PSetGroupPresharedKey_IN, _SetGroupPresharedKey_IN
+ms.keywords: SetGroupPresharedKey_IN, _SetGroupPresharedKey_IN, storage.setgrouppresharedkey_in, iscsiop/SetGroupPresharedKey_IN, iscsiop/PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN structure pointer [Storage Devices], PSetGroupPresharedKey_IN, structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml, SetGroupPresharedKey_IN structure [Storage Devices], *PSetGroupPresharedKey_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	SetGroupPresharedKey_IN
 product: Windows
 targetos: Windows
-req.typenames: SetGroupPresharedKey_IN, *PSetGroupPresharedKey_IN
+req.typenames: "*PSetGroupPresharedKey_IN, SetGroupPresharedKey_IN"
 ---
 
 # _SetGroupPresharedKey_IN structure
@@ -81,15 +81,21 @@ The preshared group key<i>.</i>
 ## -remarks
 
 
+
 You must implement this method.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
+
+
+
 <a href="..\iscsiop\ns-iscsiop-_setgrouppresharedkey_out.md">SetGroupPresharedKey_OUT</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565693">SetGroupPresharedKey</a>
+
 
  
 

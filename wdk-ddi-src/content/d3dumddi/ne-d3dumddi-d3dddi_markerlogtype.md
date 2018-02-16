@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CBD48828-7DAA-470F-AB9E-34957C579EB5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIMLT_PROFILE, d3dumddi/D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices], D3DDDIMLT_FT_PROFILE, d3dumddi/D3DDDIMLT_FT_PROFILE, d3dumddi/D3DDDIMLT_NONE, d3dumddi/D3DDDI_MARKERLOGTYPE, display.d3dddi_markerlogtype, D3DDDIMLT_NONE
+ms.keywords: d3dumddi/D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices], d3dumddi/D3DDDIMLT_FT_PROFILE, D3DDDIMLT_NONE, d3dumddi/D3DDDI_MARKERLOGTYPE, d3dumddi/D3DDDIMLT_NONE, D3DDDIMLT_PROFILE, D3DDDIMLT_FT_PROFILE, display.d3dddi_markerlogtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_MARKERLOGTYPE
 product: Windows
 targetos: Windows
@@ -86,9 +86,13 @@ The context submits GPU work for free-threaded user-mode DDIs. In this case, the
 
 ## -see-also
 
+<a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_markertype.md">D3DDDI_MARKERTYPE</a>
+
 
  
 

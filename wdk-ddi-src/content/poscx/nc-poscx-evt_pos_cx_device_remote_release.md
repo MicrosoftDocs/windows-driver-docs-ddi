@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	EvtPosCxDeviceRemoteRelease
 product: Windows
 targetos: Windows
-req.typenames: *PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR
+req.typenames: "*PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -91,15 +91,19 @@ An identifier used to specify which interface is being released in a multi-funct
 ## -returns
 
 
+
 If the operation is successful, the callback function must return STATUS_SUCCESS or another status value for which NT_SUCCESS(status) equals TRUE.
 
 If the driver is unable to complete the remote release transaction, it should return STATUS_ACCESS_DENIED so that the failure will bubble up to the application.
 
 
 
+
 ## -see-also
 
 <a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_claim.md">EVT_POS_CX_DEVICE_REMOTE_CLAIM</a>
+
+
 
  
 

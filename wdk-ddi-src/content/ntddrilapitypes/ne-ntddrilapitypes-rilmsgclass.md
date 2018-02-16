@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f7e2c4f-56bc-4efd-8911-5161b657dbea
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_BROADCAST, RILMSGCLASS, netvista.rilmsgclass, ntddrilapitypes/RIL_MSGCLASS_OUTGOING, RIL_MSGCLASS_OUTGOING, ntddrilapitypes/RILMSGCLASS, RIL_MSGCLASS_ALL, RIL_MSGCLASS_INCOMING, ntddrilapitypes/RIL_MSGCLASS_INCOMING, ntddrilapitypes/RIL_MSGCLASS_ALL, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILMSGCLASS, RILMSGCLASS enumeration [Network Drivers Starting with Windows Vista], netvista.rilmsgclass, RIL_MSGCLASS_OUTGOING, RIL_MSGCLASS_ALL, RIL_MSGCLASS_BROADCAST, ntddrilapitypes/RIL_MSGCLASS_INCOMING, ntddrilapitypes/RIL_MSGCLASS_OUTGOING, ntddrilapitypes/RILMSGCLASS, ntddrilapitypes/RIL_MSGCLASS_ALL, ntddrilapitypes/RIL_MSGCLASS_BROADCAST, RIL_MSGCLASS_INCOMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCLASS
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILMSGCLASS {
 ### -field RIL_MSGCLASS_NONE
 
 
-
 ### -field RIL_MSGCLASS_INCOMING
-
 
 
 ### -field RIL_MSGCLASS_OUTGOING
 
 
-
 ### -field RIL_MSGCLASS_BROADCAST
 
 
-
 ### -field RIL_MSGCLASS_ALL
-
 

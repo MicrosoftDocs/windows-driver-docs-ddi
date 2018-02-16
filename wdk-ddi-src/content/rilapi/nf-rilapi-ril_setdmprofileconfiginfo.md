@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4d2ab950-a045-4b5a-be9b-0b80c442e63d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SetDMProfileConfigInfo, netvista.ril_setdmprofileconfiginfo, rilapi/RIL_SetDMProfileConfigInfo, RIL_SetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_SetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], RIL_SetDMProfileConfigInfo, rilapi/RIL_SetDMProfileConfigInfo, netvista.ril_setdmprofileconfiginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SetDMProfileConfigInfo
 product: Windows
 targetos: Windows
@@ -77,26 +77,23 @@ HRESULT  RIL_SetDMProfileConfigInfo(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param dwConfigItem
-
 
 
 ### -param rciValue
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

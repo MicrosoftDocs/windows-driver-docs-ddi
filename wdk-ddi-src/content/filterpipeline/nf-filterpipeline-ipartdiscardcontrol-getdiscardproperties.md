@@ -7,8 +7,8 @@ old-location: print\ipartdiscardcontrol_getdiscardproperties.htm
 old-project: print
 ms.assetid: 37f624b8-3b15-41ee-9670-84287c3e10e6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, GetDiscardProperties method [Print Devices], IPartDiscardControl interface, GetDiscardProperties, IPartDiscardControl, GetDiscardProperties method [Print Devices], IPartDiscardControl interface [Print Devices], GetDiscardProperties method, IPartDiscardControl::GetDiscardProperties, print.ipartdiscardcontrol_getdiscardproperties, filterpipeline/IPartDiscardControl::GetDiscardProperties
+ms.date: 2/2/2018
+ms.keywords: GetDiscardProperties, print.ipartdiscardcontrol_getdiscardproperties, IPartDiscardControl::GetDiscardProperties, GetDiscardProperties method [Print Devices], IPartDiscardControl interface [Print Devices], GetDiscardProperties method, GetDiscardProperties method [Print Devices], IPartDiscardControl interface, filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, filterpipeline/IPartDiscardControl::GetDiscardProperties, IPartDiscardControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartDiscardControl.GetDiscardProperties
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The URI of the resource that the consumer can discard.
 ## -returns
 
 
+
 <b>GetDiscardProperties </b>returns an <b>HRESULT</b> value.
+
 
 

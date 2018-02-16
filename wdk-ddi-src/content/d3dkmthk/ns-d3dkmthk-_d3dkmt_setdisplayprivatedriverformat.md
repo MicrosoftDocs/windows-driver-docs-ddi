@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
-title: _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
+title: "_D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT"
 author: windows-driver-content
 description: The D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source.
 old-location: display\d3dkmt_setdisplayprivatedriverformat.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a99a3b15-8c91-4aef-a82c-665c8494fa57
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_c5440fbe-47f2-43eb-ae09-e9295bfa4bad.xml, display.d3dkmt_setdisplayprivatedriverformat, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
+ms.keywords: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, OpenGL_Structs_c5440fbe-47f2-43eb-ae09-e9295bfa4bad.xml, d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dkmt_setdisplayprivatedriverformat, _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ typedef struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT {
 ## -see-also
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplayprivatedriverformat.md">D3DKMTSetDisplayPrivateDriverFormat</a>
+
+
 
  
 

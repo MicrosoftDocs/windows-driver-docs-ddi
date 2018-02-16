@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DxgkDdiGetRootPageTableSize
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getrootpagetablesize.md">DXGKARG_G
 ## -returns
 
 
+
 The page table size in bytes. The size must be a multiple of the page size of the GPU memory segment where page table is located.
+
 
 

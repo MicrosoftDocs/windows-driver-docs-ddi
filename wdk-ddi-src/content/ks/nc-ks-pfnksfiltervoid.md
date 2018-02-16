@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	AVStrMiniFilterReset
 product: Windows
 targetos: Windows
@@ -78,11 +78,14 @@ Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> to return to its 
 ## -returns
 
 
+
 AVStream does not currently use the return value.
 
 
 
+
 ## -remarks
+
 
 
 For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
@@ -97,9 +100,12 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+
+
 
  
 

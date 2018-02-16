@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 18812c18-ec5e-4e8e-9ecf-c3c2a58ca8a2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisReadRegisterUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisReadRegisterUlong, miniport_register_ref_44b40f81-b21f-4b5c-b875-deb9b4bd62ab.xml, netvista.ndisreadregisterulong, NdisReadRegisterUlong
+ms.keywords: ndis/NdisReadRegisterUlong, miniport_register_ref_44b40f81-b21f-4b5c-b875-deb9b4bd62ab.xml, netvista.ndisreadregisterulong, NdisReadRegisterUlong macro [Network Drivers Starting with Windows Vista], NdisReadRegisterUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: ndis.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisReadRegisterUlong
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisReadRegisterUlong macro
@@ -85,22 +85,34 @@ Pointer to the caller-supplied variable in which this function returns the ULONG
 ## -remarks
 
 
+
 If a driver calls this function, a NIC's device registers must be mapped to noncached memory during
     driver initialization.
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
+<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
 
-<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
-<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
+
 
  
 

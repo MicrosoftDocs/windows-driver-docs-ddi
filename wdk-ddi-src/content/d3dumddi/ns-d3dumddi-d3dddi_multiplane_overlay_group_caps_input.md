@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0AF66863-A1C0-4BCF-A677-BAF7F2961390
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, d3dumddi/PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure [Display Devices], display.d3dddi_multiplane_overlay_group_caps_input, PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure pointer [Display Devices]
+ms.keywords: d3dumddi/PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure [Display Devices], PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure pointer [Display Devices], display.d3dddi_multiplane_overlay_group_caps_input
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT {
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-d3dddi_multiplane_overlay_caps.md">D3DDDI_MULTIPLANE_OVERLAY_CAPS</a>
+
+
 
  
 

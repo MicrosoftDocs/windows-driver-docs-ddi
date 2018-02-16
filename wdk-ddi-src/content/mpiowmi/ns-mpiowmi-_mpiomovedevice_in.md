@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIOMoveDevice_IN
-title: _MPIOMoveDevice_IN
+title: "_MPIOMoveDevice_IN"
 author: windows-driver-content
 description: The MPIOMoveDevice_IN structure is used to set the active path on the device.
 old-location: storage\mpiomovedevice_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2652874f-70d0-4eff-a46d-778a68d55cab
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MPIOMoveDevice_IN, structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml, *PMPIOMoveDevice_IN, PMPIOMoveDevice_IN, PMPIOMoveDevice_IN structure pointer [Storage Devices], mpiowmi/MPIOMoveDevice_IN, _MPIOMoveDevice_IN, MPIOMoveDevice_IN structure [Storage Devices], storage.mpiomovedevice_in, mpiowmi/PMPIOMoveDevice_IN
+ms.keywords: mpiowmi/PMPIOMoveDevice_IN, PMPIOMoveDevice_IN structure pointer [Storage Devices], MPIOMoveDevice_IN structure [Storage Devices], MPIOMoveDevice_IN, structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml, PMPIOMoveDevice_IN, storage.mpiomovedevice_in, _MPIOMoveDevice_IN, mpiowmi/MPIOMoveDevice_IN, *PMPIOMoveDevice_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiowmi.h
-apiname: 
+apiname:
 -	MPIOMoveDevice_IN
 product: Windows
 targetos: Windows
-req.typenames: *PMPIOMoveDevice_IN, MPIOMoveDevice_IN
+req.typenames: "*PMPIOMoveDevice_IN, MPIOMoveDevice_IN"
 ---
 
 # _MPIOMoveDevice_IN structure

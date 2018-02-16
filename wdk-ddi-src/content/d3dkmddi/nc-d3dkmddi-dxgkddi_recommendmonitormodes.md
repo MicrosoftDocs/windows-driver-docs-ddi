@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DxgkDdiRecommendMonitorModes
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ A handle to a context block that is associated with a display adapter. The displ
 
 
 
+
+
 #### - pRecommendMonitorModesArg [in]
 
 A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendmonitormodes.md">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
@@ -91,7 +93,9 @@ A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendmonitormodes.m
 ## -returns
 
 
+
 <i>DxgkDdiRecommendMonitorModes</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,22 +123,28 @@ The function failed because it was unable to allocate enough memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The miniport driver should pass through any error code that it gets from the operating system for which it does not have a fallback code path.
+
 
 
 
 ## -remarks
 
 
+
 <i>DxgkDdiRecommendMonitorModes</i> should be made pageable.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
+
+
 
  
 

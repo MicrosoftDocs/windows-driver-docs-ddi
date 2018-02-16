@@ -8,7 +8,7 @@ old-project: Benchmark
 ms.assetid: a0493418-2ce2-4917-bf9f-e4dc726a3847
 ms.author: windowsdriverdev
 ms.date: 1/12/2018
-ms.keywords: MmGetMdlByteCount macro [Tools], wdm/MmGetMdlByteCount, kernel.mmgetmdlbytecount, k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, MmGetMdlByteCount
+ms.keywords: kernel.mmgetmdlbytecount, MmGetMdlByteCount, wdm/MmGetMdlByteCount, k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, MmGetMdlByteCount macro [Tools]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wdm.h
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	MmGetMdlByteCount
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes
 ## -remarks
 
 
+
 Callers of <b>MmGetMdlByteCount</b> can be running at any IRQL. Usually, callers are running at IRQL &lt;= DISPATCH_LEVEL.
+
 
 
 
@@ -84,7 +86,11 @@ Callers of <b>MmGetMdlByteCount</b> can be running at any IRQL. Usually, callers
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
 
+
+
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
 
  
 

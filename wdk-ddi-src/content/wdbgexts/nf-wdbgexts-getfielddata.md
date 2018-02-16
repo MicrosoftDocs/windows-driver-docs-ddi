@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e60c2288-fe25-4da5-9b17-6e95a30e7c1c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getfielddata, GetFieldData function [Windows Debugging], WdbgExts_Ref_898dacb4-308c-4a8f-99e2-030adf2b0eae.xml, wdbgexts/GetFieldData, GetFieldData
+ms.keywords: GetFieldData function [Windows Debugging], wdbgexts/GetFieldData, GetFieldData, WdbgExts_Ref_898dacb4-308c-4a8f-99e2-030adf2b0eae.xml, debugger.getfielddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	GetFieldData
 product: Windows
 targetos: Windows
@@ -104,7 +104,9 @@ Receives the value of the member.  Or, the value of the type, if <i>Field</i> is
 ## -returns
 
 
+
 If the function succeeds, the return value is zero. Otherwise, the return value is an <a href="https://msdn.microsoft.com/41d64bbc-cefe-4665-b054-e6bd135ccd20">IG_DUMP_SYMBOL_INFO error code</a>. 
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEBUFFERINFO
-title: _DXVADDI_DECODEBUFFERINFO
+title: "_DXVADDI_DECODEBUFFERINFO"
 author: windows-driver-content
 description: The DXVADDI_DECODEBUFFERINFO structure describes information about a particular type of compressed buffer that is required for a video decoding scenario.
 old-location: display\dxvaddi_decodebufferinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e0a0ad31-86c1-44bd-b069-70442973a539
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo, DXVADDI_DECODEBUFFERINFO structure [Display Devices], DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, _DXVADDI_DECODEBUFFERINFO, d3dumddi/DXVADDI_DECODEBUFFERINFO
+ms.keywords: "_DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo, DXVADDI_DECODEBUFFERINFO structure [Display Devices], d3dumddi/DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO, DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_DECODEBUFFERINFO
 product: Windows
 targetos: Windows
@@ -97,19 +97,29 @@ The driver must assign a value to <b>CreationHeight</b> that does not exceed 655
 ## -remarks
 
 
+
 A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVADDI_DECODEINPUT</a> structure is specified in the <b>pInfo</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure--along with a D3DDDICAPS_GETDECODECOMPRESSEDBUFFERINFO value in the <b>Type</b> member of D3DDDIARG_GETCAPS--in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function to retrieve information about the types of compressed buffers that are required to accelerate a particular DirectX VA video decode type. The information about the types of compressed buffers is returned in an array of DXVADDI_DECODEBUFFERINFO structures through the <b>pData</b> member of D3DDDIARG_GETCAPS.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVADDI_DECODEINPUT</a>
+<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodeinput.md">DXVADDI_DECODEINPUT</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+
 
  
 

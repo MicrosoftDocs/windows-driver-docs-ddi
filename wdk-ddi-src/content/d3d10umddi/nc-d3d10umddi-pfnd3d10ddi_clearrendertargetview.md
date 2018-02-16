@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	ClearRenderTargetView
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CLEARRENDERTARGETVIEW callback
@@ -75,9 +75,7 @@ VOID APIENTRY ClearRenderTargetView(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HRENDERTARGETVIEW
-
 
 
 ### -param FLOAT[4]
@@ -87,14 +85,16 @@ VOID APIENTRY ClearRenderTargetView(
 
 
 
-#### - hRenderTargetView [in]
-
- A handle to the render-target view to clear. 
 
 
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
+
+
+#### - hRenderTargetView [in]
+
+ A handle to the render-target view to clear. 
 
 
 #### - pColorRGBA [in]
@@ -105,24 +105,32 @@ VOID APIENTRY ClearRenderTargetView(
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <b>ClearRenderTargetView</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

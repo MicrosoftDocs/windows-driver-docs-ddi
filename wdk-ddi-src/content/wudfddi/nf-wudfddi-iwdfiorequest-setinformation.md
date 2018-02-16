@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dc2c907c-1e3b-418c-85f8-9902dc83f7ab
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest::SetInformation, SetInformation, SetInformation method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::SetInformation, IWDFIoRequest, wdf.iwdfiorequest_setinformation, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, IWDFIoRequest interface, SetInformation method, SetInformation method, umdf.iwdfiorequest_setinformation
+ms.keywords: UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, IWDFIoRequest::SetInformation, SetInformation method, IWDFIoRequest interface, SetInformation method, wudfddi/IWDFIoRequest::SetInformation, umdf.iwdfiorequest_setinformation, SetInformation method, IWDFIoRequest interface, SetInformation, IWDFIoRequest, wdf.iwdfiorequest_setinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.SetInformation
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,13 +78,17 @@ A ULONG_PTR value that specifies the size of information to set for the request.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 0098aa2c-4ee4-49e4-a480-2402e771742f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetTypeNameWide method, debugger.gettypenamewide, GetTypeNameWide, IDebugSymbols3::GetTypeNameWide, IDebugSymbols3, GetTypeNameWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetTypeNameWide
+ms.keywords: GetTypeNameWide, debugger.gettypenamewide, IDebugSymbols3 interface [Windows Debugging], GetTypeNameWide method, IDebugSymbols3::GetTypeNameWide, GetTypeNameWide method [Windows Debugging], IDebugSymbols3, GetTypeNameWide method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetTypeNameWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetTypeNameWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetTypeNameWide method
@@ -99,7 +99,9 @@ Receives the size in characters of the type's name.  If <i>NameSize</i> is <b>NU
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,14 +140,18 @@ The specified type could not be found in the specified module.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 
 
@@ -153,7 +159,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 <a href="..\wdbgexts\nf-wdbgexts-gettypesize.md">GetTypeSize</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

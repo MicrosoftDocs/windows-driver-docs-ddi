@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
-title: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
+title: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS"
 author: windows-driver-content
 description: A structure containing the flags describing the transformations applied to an image.
 old-location: display\dxgk_multiplane_overlay_post_composition_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: F7791AB9-6D20-4560-A478-E30F08C6AC3A
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, display.dxgk_multiplane_overlay_post_composition_flags
+ms.keywords: d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure [Display Devices], display.dxgk_multiplane_overlay_post_composition_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
 product: Windows
 targetos: Windows
@@ -92,10 +92,11 @@ This member is reserved and should be set to zero. Setting this member to zero i
 ### -field Value
 
 
-
 ## -remarks
 
 
+
 Applying VerticalFlip and HorizontalFlip simultaneously results in 180 degree rotation.
+
 
 

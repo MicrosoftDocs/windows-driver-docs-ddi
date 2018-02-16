@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_BITBLT
-title: _DXGK_GDIARG_BITBLT
+title: "_DXGK_GDIARG_BITBLT"
 author: windows-driver-content
 description: The DXGK_GDIARG_BITBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) with no stretching.
 old-location: display\dxgk_gdiarg_bitblt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GDIARG_BITBLT structure [Display Devices], _DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT, DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, d3dkmddi/DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt
+ms.keywords: display.dxgk_gdiarg_bitblt, DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, DXGK_GDIARG_BITBLT, _DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], d3dkmddi/DXGK_GDIARG_BITBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_GDIARG_BITBLT
 product: Windows
 targetos: Windows
@@ -155,6 +155,7 @@ For more information, see the Remarks section.
 ## -remarks
 
 
+
 The <b>SrcPitch</b> and <b>DstPitch</b> pitch values must be used to determine the byte locations of the <b>SrcRect</b> and <b>DstRect</b> rectangles, respectively, for the following allocations of type <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>:
 
 D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE
@@ -166,6 +167,7 @@ Pitch should be ignored for other allocation types.
 Pitch is guaranteed to be aligned in the bit-block transfer according to the <b>AlignmentShift</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>.PresentationCaps.AlignmentShift).
 
 Where a rectangle is defined by two pixels at coordinates (left, top) and (right, bottom), the address of the first pixel is:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -175,7 +177,9 @@ Where a rectangle is defined by two pixels at coordinates (left, top) and (right
 <pre>Allocation.BaseAddress + (top * Pitch) + (left * 4)</pre>
 </td>
 </tr>
-</table></span></div>The address of the rectangle's last pixel is:
+</table></span></div>
+The address of the rectangle's last pixel is:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -185,7 +189,9 @@ Where a rectangle is defined by two pixels at coordinates (left, top) and (right
 <pre>Allocation.BaseAddress + ((bottom - 1) * Pitch) + ((right - 1) * 4)</pre>
 </td>
 </tr>
-</table></span></div>When sub-rectangles are transformed to the source surface space, the result is guaranteed to be within the source surface. This transformation is defined by the following formula:
+</table></span></div>
+When sub-rectangles are transformed to the source surface space, the result is guaranteed to be within the source surface. This transformation is defined by the following formula:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -201,17 +207,28 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;</pre>
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
+
 
 <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_bitblt.md">DXGK_GDIROP_BITBLT</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
+
+
 
  
 

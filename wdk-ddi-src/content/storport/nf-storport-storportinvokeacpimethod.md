@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportinvokeacpimethod, StorPortInvokeAcpiMethod routine [Storage Devices], storport/StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod
+ms.keywords: storage.storportinvokeacpimethod, storport/StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortInvokeAcpiMethod
 product: Windows
 targetos: Windows
@@ -118,7 +118,9 @@ A pointer to the length, in bytes, of the data returned in <i>OutputBuffer</i>.
 ## -returns
 
 
+
 The <b>StorPortInvokeAcpiMethod</b> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -194,13 +196,17 @@ The method executed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <b>StorPortInvokeAcpiMethod</b> enables a miniport driver to invoke ACPI methods defined for storage controllers and storage LUNs. The method names are four-byte character strings that occupy a <b>ULONG</b> value in <i>MethodName</i>.
+
 
 

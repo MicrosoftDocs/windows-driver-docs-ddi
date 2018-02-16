@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfwdm._UNICODE_STRING
-title: _UNICODE_STRING
+title: "_UNICODE_STRING"
 author: windows-driver-content
 description: The UNICODE_STRING structure is used to define Unicode strings.
 old-location: kernel\unicode_string.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b02f29a9-1049-4e29-aac3-72bf0c70a21e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wudfwdm/PUNICODE_STRING, wudfwdm/UNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture], PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], _UNICODE_STRING, UNICODE_STRING, *PUNICODE_STRING, kernel.unicode_string, PUNICODE_STRING, kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml
+ms.keywords: PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], *PUNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture], _UNICODE_STRING, UNICODE_STRING, kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml, wudfwdm/UNICODE_STRING, PUNICODE_STRING, kernel.unicode_string, wudfwdm/PUNICODE_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wudfwdm.h
-apiname: 
+apiname:
 -	UNICODE_STRING
 product: Windows
 targetos: Windows
@@ -108,6 +108,7 @@ Pointer to a buffer used to contain a string of wide characters.
 ## -remarks
 
 
+
 The <b>UNICODE_STRING</b> structure is used to pass Unicode strings. Use <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a> or   <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a> to initialize a <b>UNICODE_STRING</b> structure.
 
 If the string is null-terminated, <b>Length</b> does not include the trailing null character.
@@ -116,23 +117,40 @@ The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
 
 <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
+
 
 <a href="..\wdm\nf-wdm-rtlunicodestringtoansisize.md">RtlUnicodeStringToAnsiSize</a>
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+
 
 <a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+
+
 
  
 

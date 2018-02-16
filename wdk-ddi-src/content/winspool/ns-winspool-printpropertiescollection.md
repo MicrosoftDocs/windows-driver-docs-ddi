@@ -2,13 +2,13 @@
 UID: NS:winspool.PrintPropertiesCollection
 title: PrintPropertiesCollection
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\printpropertiescollection.htm
 old-project: print
 ms.assetid: 824E8A5C-7530-4C7B-B093-386DD3D45A6B
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PrintPropertiesCollection, PrintPropertiesCollection structure [Print Devices], print.printpropertiescollection, winspool/PrintPropertiesCollection
+ms.date: 2/2/2018
+ms.keywords: PrintPropertiesCollection structure [Print Devices], PrintPropertiesCollection, winspool/PrintPropertiesCollection, print.printpropertiescollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winspool.h
-apiname: 
+apiname:
 -	PrintPropertiesCollection
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ typedef struct {
 ### -field numberOfProperties
 
 
-
 ### -field propertiesCollection
-
 

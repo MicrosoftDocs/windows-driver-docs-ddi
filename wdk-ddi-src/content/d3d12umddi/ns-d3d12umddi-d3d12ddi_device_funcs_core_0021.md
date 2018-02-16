@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4E4C3DB3-9C4C-4BBC-82C4-C5C41C0B818C
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d12ddi_device_funcs_core_0021, D3D12DDI_DEVICE_FUNCS_CORE_0021 structure [Display Devices], D3D12DDI_DEVICE_FUNCS_CORE_0021, d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0021
+ms.keywords: d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0021, D3D12DDI_DEVICE_FUNCS_CORE_0021 structure [Display Devices], display.d3d12ddi_device_funcs_core_0021, D3D12DDI_DEVICE_FUNCS_CORE_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_DEVICE_FUNCS_CORE_0021
 product: Windows
 targetos: Windows
@@ -527,5 +527,6 @@ A callback function that destroys  a pipeline state.
 ### -field pfnGetDebugAllocationInfo
 
  
+
 
 

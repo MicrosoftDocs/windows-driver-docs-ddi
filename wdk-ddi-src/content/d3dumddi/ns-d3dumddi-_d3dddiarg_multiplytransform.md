@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_MULTIPLYTRANSFORM
-title: _D3DDDIARG_MULTIPLYTRANSFORM
+title: "_D3DDDIARG_MULTIPLYTRANSFORM"
 author: windows-driver-content
 description: The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current transform.
 old-location: display\d3dddiarg_multiplytransform.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4f14532f-8937-4715-aa9f-e38f18179af7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM, UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml, display.d3dddiarg_multiplytransform
+ms.keywords: UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml, d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, display.d3dddiarg_multiplytransform, D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], D3DDDIARG_MULTIPLYTRANSFORM, _D3DDDIARG_MULTIPLYTRANSFORM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_MULTIPLYTRANSFORM
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ typedef struct _D3DDDIARG_MULTIPLYTRANSFORM {
 ### -field TransformType
 
 [in] A D3DTRANSFORMSTATETYPE-typed value that indicates the type of the transform that is being modified. This member can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -106,7 +107,8 @@ World transformation
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Matrix
@@ -117,13 +119,17 @@ World transformation
 ## -remarks
 
 
+
 The Microsoft Direct3D runtime uses D3DDDIARG_MULTIPLYTRANSFORM in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_multiplytransform.md">MultiplyTransform</a> function to inform the driver about modifications to the various transformation matrices.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_multiplytransform.md">MultiplyTransform</a>
+
+
 
  
 

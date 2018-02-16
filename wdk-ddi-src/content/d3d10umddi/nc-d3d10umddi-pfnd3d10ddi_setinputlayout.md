@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	IaSetInputLayout
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_SETINPUTLAYOUT callback
@@ -74,7 +74,6 @@ VOID APIENTRY IaSetInputLayout(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HELEMENTLAYOUT
 
 
@@ -82,9 +81,6 @@ VOID APIENTRY IaSetInputLayout(
 
 
 
-#### - hInputLayout [in]
-
- A handle to the input layout object.
 
 
 #### - hDevice [in]
@@ -92,7 +88,13 @@ VOID APIENTRY IaSetInputLayout(
  A handle to the display device (graphics context).
 
 
+#### - hInputLayout [in]
+
+ A handle to the input layout object.
+
+
 ## -returns
+
 
 
 None
@@ -101,7 +103,9 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 After the <i>IaSetInputLayout</i> function completes, all subsequent drawing operations use the given layout object until another is selected.
@@ -110,11 +114,16 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

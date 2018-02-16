@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a07ff2f6-e67e-489e-a477-6dc4b4ce6fed
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoWMISuggestInstanceName, kernel.iowmisuggestinstancename, k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], IoWMISuggestInstanceName
+ms.keywords: IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, wdm/IoWMISuggestInstanceName, IoWMISuggestInstanceName, kernel.iowmisuggestinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoWMISuggestInstanceName
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ A pointer to a buffer which upon successful completion will contain a <a href=".
 ## -returns
 
 
+
 <b>IoWMISuggestInstanceName</b> returns a status code from the following list:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,20 +146,26 @@ Indicates that insufficient resources were available to provide the caller with 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 If the <i>CombineNames</i> parameter is <b>TRUE</b> then both <i>PhysicalDeviceObject</i> and <i>SymbolicLinkName</i> must be specified. Otherwise, only one of them should be specified.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iowmiallocateinstanceids.md">IoWMIAllocateInstanceIds</a>
+
+
 
  
 

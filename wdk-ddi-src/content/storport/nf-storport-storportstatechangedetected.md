@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortStateChangeDetected, StorPortStateChangeDetected, STATE_CHANGE_LUN, STATE_CHANGE_TARGET, ATTRIBUTE_VM_PASSTHROUGH_LUN, STATE_CHANGE_BUS, storage.storportstatechangedetected, StorPortStateChangeDetected routine [Storage Devices]
+ms.keywords: STATE_CHANGE_LUN, storage.storportstatechangedetected, STATE_CHANGE_TARGET, storport/StorPortStateChangeDetected, StorPortStateChangeDetected, StorPortStateChangeDetected routine [Storage Devices], ATTRIBUTE_VM_PASSTHROUGH_LUN, STATE_CHANGE_BUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortStateChangeDetected
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A pointer to the hardware device extension. This is a per-HBA storage area that 
 ### -param ChangedEntity [in]
 
 Flags indicating the entities whose state has changed. This is a bitwise <b>OR</b> combination of these values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -119,7 +120,8 @@ Target state has changed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Address [in]
@@ -130,6 +132,7 @@ The address of the entity with the state change. <i>Address</i> value cannot cha
 ### -param Attributes [in]
 
 Attributes associated with the entity. These are a bitwise <b>OR</b> combination of the following:
+
 <table>
 <tr>
 <th>Value</th>
@@ -145,7 +148,8 @@ LUNs are reserved for virtual machine use.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param HwStateChange [in, optional]
@@ -161,7 +165,9 @@ A miniport-supplied context value that is included when the routine set in <i>Hw
 ## -returns
 
 
+
 A status value indicating the result of the notification. This can be one of these values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -200,11 +206,14 @@ A prior notification is in process and this one cannot be scheduled.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A successful call to<b> StorPortStateChangeDetected</b> results in re-enumeration of the changed entity. 
@@ -215,9 +224,12 @@ If multiple flags are specified in <i>ChangedEntity</i>, the  flag with greater 
 
 
 
+
 ## -see-also
 
 <a href="..\storport\nc-storport-hw_state_change.md">HwStorStateChange</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIVERTEXELEMENT
-title: _D3DDDIVERTEXELEMENT
+title: "_D3DDDIVERTEXELEMENT"
 author: windows-driver-content
 description: The D3DDDIVERTEXELEMENT structure describes an element in the array for a vertex shader declaration.
 old-location: display\d3dddivertexelement.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: acb0fc1d-e360-4cb9-9b3b-7d8d03146cfd
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIVERTEXELEMENT, d3dumddi/D3DDDIVERTEXELEMENT, D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, D3DDDIVERTEXELEMENT structure [Display Devices], D3DDDIVERTEXELEMENT, display.d3dddivertexelement
+ms.keywords: d3dumddi/D3DDDIVERTEXELEMENT, D3DDDIVERTEXELEMENT structure [Display Devices], _D3DDDIVERTEXELEMENT, D3D_other_Structs_7f1e4f94-3964-4deb-b3b0-1b47f8953dfa.xml, D3DDDIVERTEXELEMENT, display.d3dddivertexelement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIVERTEXELEMENT
 product: Windows
 targetos: Windows
@@ -105,6 +105,8 @@ typedef struct _D3DDDIVERTEXELEMENT {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
+
+
 
  
 

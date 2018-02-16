@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
 product: Windows
 targetos: Windows
@@ -123,6 +123,8 @@ Flags. For more information, see the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwdd
 ## -see-also
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm2_0ddi_swizzle_pattern_flags.md">D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS</a>
+
+
 
  
 

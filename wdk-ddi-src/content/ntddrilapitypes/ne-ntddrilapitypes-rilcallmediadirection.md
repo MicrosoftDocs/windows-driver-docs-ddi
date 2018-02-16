@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8c6b2329-9956-43c1-8a4d-ef9587cf0980
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_CALLMEDIADIRECTION_TX, RIL_CALLMEDIADIRECTION_RXTX, RIL_CALLMEDIADIRECTION_RX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_MAX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RX, ntddrilapitypes/RILCALLMEDIADIRECTION, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RXTX, netvista.rilcallmediadirection, RIL_CALLMEDIADIRECTION_MAX, RILCALLMEDIADIRECTION, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_TX
+ms.keywords: RILCALLMEDIADIRECTION, netvista.rilcallmediadirection, RIL_CALLMEDIADIRECTION_RXTX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RXTX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_TX, ntddrilapitypes/RILCALLMEDIADIRECTION, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_MAX, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CALLMEDIADIRECTION_TX, RIL_CALLMEDIADIRECTION_RX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIADIRECTION
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILCALLMEDIADIRECTION {
 ### -field RIL_CALLMEDIADIRECTION_NONE
 
 
-
 ### -field RIL_CALLMEDIADIRECTION_RX
-
 
 
 ### -field RIL_CALLMEDIADIRECTION_TX
 
 
-
 ### -field RIL_CALLMEDIADIRECTION_RXTX
 
 
-
 ### -field RIL_CALLMEDIADIRECTION_MAX
-
 

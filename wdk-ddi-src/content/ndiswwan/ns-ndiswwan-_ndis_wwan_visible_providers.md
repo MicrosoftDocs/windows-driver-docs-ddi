@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_VISIBLE_PROVIDERS
-title: _NDIS_WWAN_VISIBLE_PROVIDERS
+title: "_NDIS_WWAN_VISIBLE_PROVIDERS"
 author: windows-driver-content
 description: The NDIS_WWAN_VISIBLE_PROVIDERS structure represents a list of visible providers and the number of providers in the list.
 old-location: netvista\ndis_wwan_visible_providers.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ed30def8-41c5-4fa9-8098-80f47ddaaa99
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS, netvista.ndis_wwan_visible_providers, _NDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS, WwanRef_45997454-b06e-4291-82f5-57e29d8afa7e.xml, PNDIS_WWAN_VISIBLE_PROVIDERS
+ms.keywords: PNDIS_WWAN_VISIBLE_PROVIDERS, WwanRef_45997454-b06e-4291-82f5-57e29d8afa7e.xml, ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_VISIBLE_PROVIDERS, netvista.ndis_wwan_visible_providers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_VISIBLE_PROVIDERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
 ---
 
 # _NDIS_WWAN_VISIBLE_PROVIDERS structure
@@ -78,6 +78,7 @@ The header with type, revision, and size information about the NDIS_WWAN_VISIBLE
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -113,7 +114,8 @@ sizeof(NDIS_WWAN_VISIBLE_PROVIDERS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -127,6 +129,7 @@ A miniport driver must set this to WWAN_STATUS_SUCCESS for successful execution 
 
 The following table shows the other possible error status codes (other members need not be updated by
      miniport driver).
+
 <table>
 <tr>
 <th>Value</th>
@@ -204,7 +207,8 @@ Service activation has failed. Subscription has expired. Device does not allow s
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field VisibleListHeader
@@ -221,7 +225,11 @@ This member points to the list of <a href="..\wwan\ns-wwan-_wwan_provider2.md">W
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+
 
  
 

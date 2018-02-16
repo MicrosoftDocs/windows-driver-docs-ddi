@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_KEYINFOLIST
-title: _BDA_WMDRM_KEYINFOLIST
+title: "_BDA_WMDRM_KEYINFOLIST"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_wmdrm_keyinfolist.htm
 old-project: stream
 ms.assetid: 0A151425-C22F-4201-855F-FF6FECE611D7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PBDA_WMDRM_KEYINFOLIST structure pointer [Streaming Media Devices], BDA_WMDRM_KEYINFOLIST, bdatypes/BDA_WMDRM_KEYINFOLIST, PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST structure [Streaming Media Devices], _BDA_WMDRM_KEYINFOLIST, bdatypes/PBDA_WMDRM_KEYINFOLIST, stream.bda_wmdrm_keyinfolist, *PBDA_WMDRM_KEYINFOLIST
+ms.keywords: "_BDA_WMDRM_KEYINFOLIST, bdatypes/BDA_WMDRM_KEYINFOLIST, PBDA_WMDRM_KEYINFOLIST structure pointer [Streaming Media Devices], PBDA_WMDRM_KEYINFOLIST, bdatypes/PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST, *PBDA_WMDRM_KEYINFOLIST, stream.bda_wmdrm_keyinfolist, BDA_WMDRM_KEYINFOLIST structure [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bdatypes.h
-apiname: 
+apiname:
 -	BDA_WMDRM_KEYINFOLIST
 product: Windows
 targetos: Windows
-req.typenames: *PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST
+req.typenames: "*PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST"
 ---
 
 # _BDA_WMDRM_KEYINFOLIST structure
@@ -72,11 +72,8 @@ typedef struct _BDA_WMDRM_KEYINFOLIST {
 ### -field lResult
 
 
-
 ### -field ulKeyuuidBufferLen
 
 
-
 ### -field argKeyuuidBuffer
-
 

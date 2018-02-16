@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d211bab9-4932-41c5-9b6f-528a75bb2ae4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changerclassallocatepool, chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, ChangerClassAllocatePool function [Storage Devices], mcd/ChangerClassAllocatePool, ChangerClassAllocatePool
+ms.keywords: chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, mcd/ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices], ChangerClassAllocatePool, storage.changerclassallocatepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Mcd.lib
 -	Mcd.dll
-apiname: 
+apiname:
 -	ChangerClassAllocatePool
 product: Windows
 targetos: Windows
@@ -82,13 +82,17 @@ Indicates number of bytes to allocate.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
 
  
 

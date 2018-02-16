@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A90FCF3C-B648-4E97-887E-FCE58D7FA13A
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest3, RetrieveActivityId, wudfddi/IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId method, IWDFIoRequest3::RetrieveActivityId, umdf.iwdfiorequest3_retrieveactivityid, IWDFIoRequest3 interface, RetrieveActivityId method, wdf.iwdfiorequest3_retrieveactivityid, RetrieveActivityId method, IWDFIoRequest3 interface
+ms.keywords: wudfddi/IWDFIoRequest3::RetrieveActivityId, IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId, umdf.iwdfiorequest3_retrieveactivityid, RetrieveActivityId method, IWDFIoRequest3 interface, RetrieveActivityId method, IWDFIoRequest3, wdf.iwdfiorequest3_retrieveactivityid, IWDFIoRequest3 interface, RetrieveActivityId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest3.RetrieveActivityId
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -80,7 +80,9 @@ A pointer to a location to store the retrieved GUID.
 ## -returns
 
 
+
 <b>RetrieveActivityId</b> returns returns S_OK if the call is successful. Otherwise, this method might return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -97,11 +99,14 @@ No activity ID is associated with the request.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Requests reflected from kernel mode have an activity identifier available only if the Kernel Trace provider is enabled or if the UMDF driver called <a href="https://msdn.microsoft.com/57CB3CED-FE46-4A74-9E23-82640B7EF1DC">IWDFIoRequest3::SetActivityId</a> after receiving the request. For more information about Event Tracing for Windows (ETW), see <a href="https://msdn.microsoft.com/3de69436-671b-46a2-8d92-4eb3af2a4233">Event Tracing</a>.
@@ -115,12 +120,48 @@ For more information about activity identifiers, see <a href="https://msdn.micro
 The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveactivityid.md">WdfRequestRetrieveActivityId</a>.
 
 
+#### Examples
+
+The following code example shows a driver can retrieve an  activity identifier from one request and then use it to set the activity identifier for another request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>hrQI = pWdfRequest-&gt;QueryInterface(IID_PPV_ARGS(&amp;pOriginalRequest3));
+ASSERT(SUCCEEDED(hrQI));
+
+hrQI = pNewRequest-&gt;QueryInterface(IID_PPV_ARGS(&amp;pNewRequest3));
+ASSERT(SUCCEEDED(hrQI));
+
+//
+// Obtain activity id from original request and set in the new one
+//
+
+pOriginalRequest3-&gt;RetrieveActivityId(&amp;activityId);
+pNewRequest3-&gt;SetActivityId(&amp;activityId);
+
+pOriginalRequest3-&gt;Release();
+pNewRequest3-&gt;Release();
+
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
 
+
+
 <a href="https://msdn.microsoft.com/57CB3CED-FE46-4A74-9E23-82640B7EF1DC">IWDFIoRequest3::SetActivityId</a>
+
+
 
  
 

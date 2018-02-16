@@ -7,8 +7,8 @@ old-location: print\ixpsrasterizer_rasterizerect.htm
 old-project: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, RasterizeRect, xpsrassvc/IXpsRasterizer::RasterizeRect, IXpsRasterizer, IXpsRasterizer interface [Print Devices], RasterizeRect method, print.ixpsrasterizer_rasterizerect, RasterizeRect method [Print Devices], IXpsRasterizer::RasterizeRect, RasterizeRect method [Print Devices], IXpsRasterizer interface
+ms.date: 2/2/2018
+ms.keywords: xpsrassvc/IXpsRasterizer::RasterizeRect, IXpsRasterizer, RasterizeRect method [Print Devices], IXpsRasterizer interface, RasterizeRect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, print.ixpsrasterizer_rasterizerect, IXpsRasterizer::RasterizeRect, IXpsRasterizer interface [Print Devices], RasterizeRect method, RasterizeRect method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: xpsrassvc.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	xpsrassvc.h
-apiname: 
+apiname:
 -	IXpsRasterizer.RasterizeRect
 product: Windows
 targetos: Windows
@@ -106,7 +106,9 @@ Pointer to a location into which the method writes a pointer to the <a href="htt
 ## -returns
 
 
+
 <code>RasterizeRect</code> returns S_OK if the call was successful. Otherwise, the method returns an error code. Possible error return values include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +136,14 @@ Parameter <i>width</i> or <i>height</i> is less than or equal to 0.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is supported in Windows 7 and later. It is not supported in versions of the Windows operating system before Windows 7.
@@ -152,7 +157,18 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsR
 To accommodate printers that require a fixed page to be rasterized as a series of horizontal or vertical bands, parameters <i>x</i>, <i>y</i>, <i>width</i>, and <i>height</i> specify a rectangular region of the fixed page that is to be rasterized. All four parameter values are specified in pixels. Parameters <i>x</i> and <i>y</i> are the coordinates of the top, left corner of the rectangular region; they are specified as pixel displacements from the coordinate origin (0, 0). Parameters <i>width</i> and <i>height</i> are the dimensions of the rectangular region.
 
 For example, if <i>w</i>XPS and <i>h</i>XPS are the width and height of an XPS fixed page in 1/96-inch units, <code>RasterizeRect</code> generates a bitmap representation of the bottom half of the fixed page if parameters <i>x</i>, <i>y</i>, <i>width</i>, and <i>height</i> are set to the following values:
-<i>x</i><i>y</i><i>h</i><i>DPI</i><i>width</i><i>w</i><i>DPI</i><i>height</i><i>h</i><i>DPI</i>If the <i>notificationCallback</i> parameter is non-<b>NULL</b>, the <code>RasterizeRect</code> method takes a counted reference to the notification object's <b>IXpsRasterizerNotificationCallback</b> interface. It does so by calling the <b>AddRef</b> method on the interface before making any calls to the <b>IXpsRasterizerNotificationCallback::Continue</b> method. Before <code>RasterizeRect</code> returns, it releases the notification object by calling the <b>Release</b> method on the <b>IXpsRasterizerNotificationCallback</b> interface.
+
+<i>x</i>
+<i>y</i>
+<i>h</i>
+<i>DPI</i>
+<i>width</i>
+<i>w</i>
+<i>DPI</i>
+<i>height</i>
+<i>h</i>
+<i>DPI</i>
+If the <i>notificationCallback</i> parameter is non-<b>NULL</b>, the <code>RasterizeRect</code> method takes a counted reference to the notification object's <b>IXpsRasterizerNotificationCallback</b> interface. It does so by calling the <b>AddRef</b> method on the interface before making any calls to the <b>IXpsRasterizerNotificationCallback::Continue</b> method. Before <code>RasterizeRect</code> returns, it releases the notification object by calling the <b>Release</b> method on the <b>IXpsRasterizerNotificationCallback</b> interface.
 
 As explained in the <a href="https://msdn.microsoft.com/library/windows/hardware/gg463431">XPS specification</a><u>,</u> the optional <b>BleedBox</b> attribute can specify a bleed box that extends outside the boundaries of a fixed page. To accommodate bleed boxes, the rectangle defined by the parameters <i>x</i>, <i>y</i>, <i>width</i>, and <i>height</i> can also extend beyond the boundaries of the fixed page. The method accepts any values, positive or negative, for <i>x</i> and <i>y</i>, and it accepts any positive, nonzero values for <i>width</i> and <i>height</i>. The rectangle specified by these parameters defines the clipping region for the rasterization operation. If the rectangle extends beyond the boundaries of the fixed page, the clipping region also extends beyond these boundaries.
 
@@ -162,19 +178,28 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 
+
 ## -see-also
-
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+
+
+
 <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
 
- 
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizer::RasterizeRect method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizer::RasterizeRect method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 332ef453-6f9d-4cdd-a8c7-766158e540d8
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: HidP_UsageListDifference, hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml, hid.hidp_usagelistdifference, HidP_UsageListDifference routine [Human Input Devices], hidpi/HidP_UsageListDifference
+ms.keywords: hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml, hidpi/HidP_UsageListDifference, HidP_UsageListDifference routine [Human Input Devices], hid.hidp_usagelistdifference, HidP_UsageListDifference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Hidparse.lib
 -	Hidparse.dll
-apiname: 
+apiname:
 -	HidP_UsageListDifference
 product: Windows
 targetos: Windows
@@ -100,11 +100,14 @@ Specifies the length, in array elements, of the buffers provided at <i>CurrentUs
 ## -returns
 
 
+
 <b>HidP_UsageListDifference</b> returns HIDP_STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 A user-mode application or kernel-mode driver can use this routine to compare two usage lists, for example, to determine the change in button state between two usage lists returned by two <a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a> calls.
@@ -117,9 +120,12 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539824">HidP_UsageAndPageListDifference</a>
+
+
 
  
 

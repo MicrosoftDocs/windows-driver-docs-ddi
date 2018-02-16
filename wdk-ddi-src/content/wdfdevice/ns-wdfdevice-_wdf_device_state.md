@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_STATE
-title: _WDF_DEVICE_STATE
+title: "_WDF_DEVICE_STATE"
 author: windows-driver-content
 description: The WDF_DEVICE_STATE structure specifies a device's Plug and Play state.
 old-location: wdf\wdf_device_state.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d0a2303-df2b-45fe-9c88-df4bb19a2a9f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_DEVICE_STATE, PWDF_DEVICE_STATE structure pointer, wdf.wdf_device_state, kmdf.wdf_device_state, *PWDF_DEVICE_STATE, WDF_DEVICE_STATE structure, wdfdevice/WDF_DEVICE_STATE, WDF_DEVICE_STATE, _WDF_DEVICE_STATE, DFDeviceObjectGeneralRef_a5705164-b38f-4307-8b7d-5b3156aadf62.xml, wdfdevice/PWDF_DEVICE_STATE
+ms.keywords: wdfdevice/PWDF_DEVICE_STATE, PWDF_DEVICE_STATE structure pointer, kmdf.wdf_device_state, _WDF_DEVICE_STATE, WDF_DEVICE_STATE structure, *PWDF_DEVICE_STATE, DFDeviceObjectGeneralRef_a5705164-b38f-4307-8b7d-5b3156aadf62.xml, wdfdevice/WDF_DEVICE_STATE, WDF_DEVICE_STATE, PWDF_DEVICE_STATE, wdf.wdf_device_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_STATE, *PWDF_DEVICE_STATE
+req.typenames: "*PWDF_DEVICE_STATE, WDF_DEVICE_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -114,6 +114,7 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a
 ## -remarks
 
 
+
 Structure members use the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a> type. A value of <b>WdfUseDefault</b> indicates the framework will use the value that was provided by a lower driver in the stack. For example, if a bus driver specifies <b>WdfTrue</b> for <b>NotDisableable</b> and the device's function driver specifies <b>WdfUseDefault</b>, the framework uses <b>WdfTrue</b> for the device state.
 
 The <b>WDF_DEVICE_STATE</b> structure is used as a parameter to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetdevicestate.md">WdfDeviceSetDeviceState</a> and <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicestate.md">WdfDeviceGetDeviceState</a>.
@@ -121,5 +122,6 @@ The <b>WDF_DEVICE_STATE</b> structure is used as a parameter to <a href="..\wdfd
 To initialize a <b>WDF_DEVICE_STATE</b> structure, the driver must call <a href="..\wdfdevice\nf-wdfdevice-wdf_device_state_init.md">WDF_DEVICE_STATE_INIT</a>.
 
 For more information about the members of the <b>WDF_DEVICE_STATE</b> structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 14a1a5bd-acc3-4ca6-87c6-5326c0f9ca82
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasFreePropContext function [Imaging Devices], wiasFreePropContext, wiamdef/wiasFreePropContext, wiasFncs_60deac65-fa17-4f2e-abe1-fa6d424dc477.xml, image.wiasfreepropcontext
+ms.keywords: wiasFreePropContext function [Imaging Devices], image.wiasfreepropcontext, wiasFreePropContext, wiamdef/wiasFreePropContext, wiasFncs_60deac65-fa17-4f2e-abe1-fa6d424dc477.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasFreePropContext
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WI
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
+
 
 
 
@@ -84,7 +86,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 <a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
 
+
+
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+
 
  
 

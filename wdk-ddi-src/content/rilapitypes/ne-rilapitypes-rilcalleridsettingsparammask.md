@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 579165ca-94e7-433c-91c6-3112c4b75f64
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_CIDS_ALL, rilapitypes/RIL_PARAM_CIDS_STATUS, RIL_PARAM_CIDS_PROVISIONING, netvista.rilcalleridsettingsparammask_2, rilapitypes/RIL_PARAM_CIDS_PROVISIONING, rilapitypes/RILCALLERIDSETTINGSPARAMMASK, RIL_PARAM_CIDS_STATUS, RIL_PARAM_CIDS_ALL, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILCALLERIDSETTINGSPARAMMASK
+ms.keywords: RILCALLERIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_CIDS_ALL, RILCALLERIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_CIDS_STATUS, rilapitypes/RILCALLERIDSETTINGSPARAMMASK, RIL_PARAM_CIDS_ALL, RIL_PARAM_CIDS_STATUS, rilapitypes/RIL_PARAM_CIDS_PROVISIONING, netvista.rilcalleridsettingsparammask_2, RIL_PARAM_CIDS_PROVISIONING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLERIDSETTINGSPARAMMASK
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILCALLERIDSETTINGSPARAMMASK {
 ### -field RIL_PARAM_CIDS_EXECUTOR
 
 
-
 ### -field RIL_PARAM_CIDS_PROVISIONING
-
 
 
 ### -field RIL_PARAM_CIDS_STATUS
 
 
-
 ### -field RIL_PARAM_CIDS_ALL
-
 

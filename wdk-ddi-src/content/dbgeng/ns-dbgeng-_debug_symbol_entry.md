@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_SYMBOL_ENTRY
-title: _DEBUG_SYMBOL_ENTRY
+title: "_DEBUG_SYMBOL_ENTRY"
 author: windows-driver-content
 description: The DEBUG_SYMBOL_ENTRY structure describes a symbol in a symbol group.
 old-location: debugger\debug_symbol_entry.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 31ffab25-ec34-42ff-bdde-c98fef003bfc
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_symbol_entry, dbgeng/DEBUG_SYMBOL_ENTRY, *PDEBUG_SYMBOL_ENTRY, _DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], DEBUG_SYMBOL_ENTRY, PDEBUG_SYMBOL_ENTRY, Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], dbgeng/PDEBUG_SYMBOL_ENTRY
+ms.keywords: PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], PDEBUG_SYMBOL_ENTRY, Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, debugger.debug_symbol_entry, _DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY, dbgeng/PDEBUG_SYMBOL_ENTRY, dbgeng/DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], *PDEBUG_SYMBOL_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_SYMBOL_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY
+req.typenames: "*PDEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY"
 ---
 
 # _DEBUG_SYMBOL_ENTRY structure
@@ -142,7 +142,11 @@ Set to zero.
 
 <a href="https://msdn.microsoft.com/02fe418f-1793-4585-9891-1274a4ddba74">IdebugSymbols3::GetSymbolEntryInformation</a>
 
+
+
 <a href="https://msdn.microsoft.com/ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d">IdebugSymbolGroup2::GetSymbolEntryInformation</a>
+
+
 
  
 

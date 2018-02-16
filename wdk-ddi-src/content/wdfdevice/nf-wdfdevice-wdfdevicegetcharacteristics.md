@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 985dcde1-5643-4c35-9096-44b076a1dd51
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICEGETCHARACTERISTICS, DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, wdf.wdfdevicegetcharacteristics, kmdf.wdfdevicegetcharacteristics, WdfDeviceGetCharacteristics method, WdfDeviceGetCharacteristics, wdfdevice/WdfDeviceGetCharacteristics
+ms.keywords: wdf.wdfdevicegetcharacteristics, DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, WdfDeviceGetCharacteristics method, WdfDeviceGetCharacteristics, kmdf.wdfdevicegetcharacteristics, PFN_WDFDEVICEGETCHARACTERISTICS, wdfdevice/WdfDeviceGetCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfDeviceGetCharacteristics
 product: Windows
 targetos: Windows
@@ -79,9 +79,11 @@ A handle to a framework device object.
 ## -returns
 
 
+
 A bitwise OR of system-defined constants that represent device characteristics. For more information, see the <b>Characteristics</b> member of the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 
@@ -89,7 +91,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
 
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md">WdfDeviceSetCharacteristics</a>
+
+
 
  
 

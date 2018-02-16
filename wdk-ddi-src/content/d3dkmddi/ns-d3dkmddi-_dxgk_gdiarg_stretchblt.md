@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_STRETCHBLT
-title: _DXGK_GDIARG_STRETCHBLT
+title: "_DXGK_GDIARG_STRETCHBLT"
 author: windows-driver-content
 description: The DXGK_GDIARG_STRETCHBLT structure describes the characteristics of a GDI hardware-accelerated stretch bit-block transfer (bitblt) operation.
 old-location: display\dxgk_gdiarg_stretchblt.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT structure [Display Devices], WHITEONBLACK, _DXGK_GDIARG_STRETCHBLT, BLACKONWHITE, DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, display.dxgk_gdiarg_stretchblt, d3dkmddi/DXGK_GDIARG_STRETCHBLT
+ms.keywords: WHITEONBLACK, DXGK_GDIARG_STRETCHBLT, BLACKONWHITE, DXGK_GDIARG_STRETCHBLT structure [Display Devices], display.dxgk_gdiarg_stretchblt, d3dkmddi/DXGK_GDIARG_STRETCHBLT, _DXGK_GDIARG_STRETCHBLT, DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_GDIARG_STRETCHBLT
 product: Windows
 targetos: Windows
@@ -79,65 +79,6 @@ typedef struct _DXGK_GDIARG_STRETCHBLT {
 ## -struct-fields
 
 
-
-
-### -field Mode
-
-
-        [in] Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
-		  
-        
-       
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="BLACKONWHITE"></a><a id="blackonwhite"></a><dl>
-<dt><b>BLACKONWHITE</b></dt>
-</dl>
-</td>
-<td width="60%">
-On a shrinking bit-block transfer, pixels should be combined with a Boolean <b>AND</b> operation. On a stretching bit-block transfer, pixels should be replicated.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WHITEONBLACK"></a><a id="whiteonblack"></a><dl>
-<dt><b>WHITEONBLACK</b></dt>
-</dl>
-</td>
-<td width="60%">
-On a shrinking bit-block transfer, pixels should be combined with a Boolean <b>OR</b> operation. On a stretching bit-block transfer, pixels should be replicated.
-
-</td>
-</tr>
-</table> 
-
-
-        This type of operation will be processed only if the driver has set the <b>SupportMonoStretchBltModes</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
-
-
-### -field MirrorX
-
-
-        [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
-       
-
-
-### -field MirrorY
-
-
-        [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
-       
-
-
-### -field Flags
-
-
-       [in] Optional UINT value that can be used to debug driver code.
-      
 
 
 ### -field SrcRect
@@ -188,6 +129,67 @@ For more information, see the Remarks section.
      
 
 
+### -field Mode
+
+
+        [in] Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
+		  
+        
+       
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="BLACKONWHITE"></a><a id="blackonwhite"></a><dl>
+<dt><b>BLACKONWHITE</b></dt>
+</dl>
+</td>
+<td width="60%">
+On a shrinking bit-block transfer, pixels should be combined with a Boolean <b>AND</b> operation. On a stretching bit-block transfer, pixels should be replicated.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="WHITEONBLACK"></a><a id="whiteonblack"></a><dl>
+<dt><b>WHITEONBLACK</b></dt>
+</dl>
+</td>
+<td width="60%">
+On a shrinking bit-block transfer, pixels should be combined with a Boolean <b>OR</b> operation. On a stretching bit-block transfer, pixels should be replicated.
+
+</td>
+</tr>
+</table>
+ 
+
+
+        This type of operation will be processed only if the driver has set the <b>SupportMonoStretchBltModes</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
+
+
+### -field MirrorX
+
+
+        [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
+       
+
+
+### -field MirrorY
+
+
+        [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
+       
+
+
+### -field Flags
+
+
+       [in] Optional UINT value that can be used to debug driver code.
+      
+
+
 ### -field SrcPitch
 
 
@@ -198,15 +200,18 @@ For more information, see the Remarks section.
 ## -remarks
 
 
+
 The x and y stretch ratios are computed respectively as the ratios of the x and y sizes of the <b>DstRect</b> and <b>SrcRect</b> members.
 
 The HALFTONE mode and STRETCH_HALFTONE modes that are defined in <i>Wingdi.h</i> will never be set in the <b>Mode</b> member. The COLORONCOLOR mode can be set in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a> and <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a> structures.
 
 When sub-rectangles are transformed to the source surface space, the result is guaranteed to be within the source surface. The transformation of a sub-rectangle's coordinates in the destination surface to coordinates  in the source surface is defined by the following formulas, where
+
 <ul>
 <li>(Xd, Yd) is a point inside the sub-rectangle</li>
 <li>(Xs, Ys) is a point inside the source rectangle</li>
-</ul><pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right â€“ SrcRect.left;
+</ul>
+<pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right â€“ SrcRect.left;
 float Wd = DstRect.right â€“ DstRect.left;
 int Xs = round((Xd â€“ DstRect.left + 0.5) * Ws/Wd + SrcRect.left â€“ 0.5)
 OR
@@ -219,15 +224,24 @@ OR
 int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code></pre>
 
 
+
 ## -see-also
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_transparentblt.md">DXGK_GDIARG_TRANSPARENTBLT</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+
+
 
  
 

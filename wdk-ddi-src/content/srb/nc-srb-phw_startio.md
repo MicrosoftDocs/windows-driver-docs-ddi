@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	srb.h
-apiname: 
+apiname:
 -	(*PHW_STARTIO)
 product: Windows
 targetos: Windows
-req.typenames: *PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG
+req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -82,11 +82,14 @@ Pointer to the SCSI request block to be started.
 ## -returns
 
 
+
 The start I/O routine returns <b>TRUE</b> to acknowledge receipt of the SCSI request block (SRB). If the start I/O routine does not receive a well-formed SRB, it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 The start routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
@@ -97,11 +100,16 @@ For more information about the miniport driver's start I/O routine that is used 
 
 
 
+
 ## -see-also
+
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
 
  
 

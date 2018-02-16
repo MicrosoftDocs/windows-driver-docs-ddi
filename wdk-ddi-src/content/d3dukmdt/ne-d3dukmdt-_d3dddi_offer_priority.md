@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_OFFER_PRIORITY
-title: _D3DDDI_OFFER_PRIORITY
+title: "_D3DDDI_OFFER_PRIORITY"
 author: windows-driver-content
 description: Indicates the importance of video memory resources that the user-mode display driver offers for reuse.
 old-location: display\d3dddi_offer_priority.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2e43f782-c89c-4926-83db-efe737544065
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_OFFER_PRIORITY_LOW, d3dukmdt/D3DDDI_OFFER_PRIORITY_HIGH, d3dukmdt/D3DDDI_OFFER_PRIORITY_AUTO, D3DDDI_OFFER_PRIORITY_NORMAL, d3dukmdt/D3DDDI_OFFER_PRIORITY_NONE, D3DDDI_OFFER_PRIORITY_NONE, D3DDDI_OFFER_PRIORITY_HIGH, _D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY_AUTO, D3DDDI_OFFER_PRIORITY enumeration [Display Devices], d3dukmdt/D3DDDI_OFFER_PRIORITY_LOW, display.d3dddi_offer_priority, d3dukmdt/D3DDDI_OFFER_PRIORITY_NORMAL, d3dukmdt/D3DDDI_OFFER_PRIORITY
+ms.keywords: d3dukmdt/D3DDDI_OFFER_PRIORITY_AUTO, d3dukmdt/D3DDDI_OFFER_PRIORITY_HIGH, display.d3dddi_offer_priority, d3dukmdt/D3DDDI_OFFER_PRIORITY_NONE, D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY enumeration [Display Devices], d3dukmdt/D3DDDI_OFFER_PRIORITY_LOW, D3DDDI_OFFER_PRIORITY_NORMAL, d3dukmdt/D3DDDI_OFFER_PRIORITY_NORMAL, _D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY_HIGH, D3DDDI_OFFER_PRIORITY_AUTO, D3DDDI_OFFER_PRIORITY_NONE, D3DDDI_OFFER_PRIORITY_LOW, d3dukmdt/D3DDDI_OFFER_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_OFFER_PRIORITY
 product: Windows
 targetos: Windows
@@ -74,7 +74,9 @@ typedef enum _D3DDDI_OFFER_PRIORITY {
 ### -field D3DDDI_OFFER_PRIORITY_NONE
 
 The allocation should not be offered.
-<div class="alert"><b>Note</b>  Do not use this value in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Do not use this value in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div>
+<div> </div>
 
 ### -field D3DDDI_OFFER_PRIORITY_LOW
 
@@ -98,9 +100,13 @@ The video memory manager should make a policy decision on the allocation's value
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>
+
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>
+
 
  
 

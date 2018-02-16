@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a95969c-d7cd-4afa-affa-7095979ee56b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SYSTEMTYPE_1XRTT, RILSYSTEMTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SYSTEMTYPE_GSM, RIL_SYSTEMTYPE_EVDO, RIL_SYSTEMTYPE_GSM, rilapitypes/RIL_SYSTEMTYPE_CDMA, RIL_SYSTEMTYPE_GSMUMTS, rilapitypes/RIL_SYSTEMTYPE_1XRTT, RIL_SYSTEMTYPE_UMTS, rilapitypes/RILSYSTEMTYPE, RIL_SYSTEMTYPE_NONE, rilapitypes/RIL_SYSTEMTYPE_NONE, rilapitypes/RIL_SYSTEMTYPE_LTE, netvista.rilsystemtype, rilapitypes/RIL_SYSTEMTYPE_ALL, RIL_SYSTEMTYPE_CDMA, rilapitypes/RIL_SYSTEMTYPE_UMTS, RILSYSTEMTYPE, RIL_SYSTEMTYPE_ALL, rilapitypes/RIL_SYSTEMTYPE_TDSCDMA, rilapitypes/RIL_SYSTEMTYPE_EVDO, rilapitypes/RIL_SYSTEMTYPE_GSMUMTS, RIL_SYSTEMTYPE_LTE, RIL_SYSTEMTYPE_TDSCDMA
+ms.keywords: rilapitypes/RIL_SYSTEMTYPE_LTE, RIL_SYSTEMTYPE_NONE, rilapitypes/RIL_SYSTEMTYPE_GSM, RILSYSTEMTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SYSTEMTYPE_LTE, RIL_SYSTEMTYPE_GSM, rilapitypes/RIL_SYSTEMTYPE_ALL, RIL_SYSTEMTYPE_1XRTT, rilapitypes/RIL_SYSTEMTYPE_UMTS, RIL_SYSTEMTYPE_TDSCDMA, RIL_SYSTEMTYPE_GSMUMTS, RILSYSTEMTYPE, RIL_SYSTEMTYPE_CDMA, rilapitypes/RIL_SYSTEMTYPE_EVDO, RIL_SYSTEMTYPE_EVDO, rilapitypes/RIL_SYSTEMTYPE_1XRTT, rilapitypes/RIL_SYSTEMTYPE_TDSCDMA, rilapitypes/RIL_SYSTEMTYPE_GSMUMTS, RIL_SYSTEMTYPE_UMTS, netvista.rilsystemtype, rilapitypes/RIL_SYSTEMTYPE_CDMA, RIL_SYSTEMTYPE_ALL, rilapitypes/RIL_SYSTEMTYPE_NONE, rilapitypes/RILSYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSYSTEMTYPE
 product: Windows
 targetos: Windows
@@ -81,58 +81,47 @@ enum RILSYSTEMTYPE {
 ### -field RIL_SYSTEMTYPE_NONE
 
 
-
 ### -field RIL_SYSTEMTYPE_1XRTT
-
 
 
 ### -field RIL_SYSTEMTYPE_EVDO
 
 
-
 ### -field RIL_SYSTEMTYPE_GSM
-
 
 
 ### -field RIL_SYSTEMTYPE_UMTS
 
 
-
 ### -field RIL_SYSTEMTYPE_LTE
-
 
 
 ### -field RIL_SYSTEMTYPE_TDSCDMA
 
 
-
 ### -field RIL_SYSTEMTYPE_CDMA
-
 
 
 ### -field RIL_SYSTEMTYPE_GSMUMTS
 
 
-
 ### -field RIL_SYSTEMTYPE_GSMTDS
-
 
 
 ### -field RIL_SYSTEMTYPE_GSMUMTSTDS
 
 
-
 ### -field RIL_SYSTEMTYPE_3GPP
-
 
 
 ### -field RIL_SYSTEMTYPE_ALL
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntddpcm.h
-apiname: 
+apiname:
 -	ModifyMemoryWindow
 product: Windows
 targetos: Windows
-req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+req.typenames: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION"
 ---
 
 # PCMCIA_MODIFY_MEMORY_WINDOW callback
@@ -113,6 +113,10 @@ Specifies the width of bus access to the PCMCIA memory card. <i>BusWidth</i> mus
 
 
 
+
+
+#### PCMCIA_MEMORY_8BIT_ACCESS
+
 If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
 
@@ -122,8 +126,6 @@ If <i>Enable</i> is <b>FALSE</b>, <i>BusWidth</i> is not used.
 
 
 
-
-##### - BusWidth.PCMCIA_MEMORY_8BIT_ACCESS
 
 
 
@@ -135,11 +137,14 @@ Must be <b>FALSE</b> for common memory and <b>TRUE</b> for attribute memory.
 ## -returns
 
 
+
 The <b>PCMCIA_MODIFY_MEMORY_WINDOW</b> interface routine returns <b>TRUE</b> if the memory window is successfully enabled or disabled, as specified by the <i>Enable</i> parameter.
 
 
 
+
 ## -remarks
+
 
 
 A caller must set the <i>Context</i> parameter to the context that is specified by the PCMCIA bus driver. The PCMCIA bus driver returns the context for the interface routines in the <b>Context</b> member of the same PCMCIA_INTERFACE_STANDARD structure that contains the pointers to the interface routines. If the <i>Context</i> parameter is not valid, system behavior is not defined, and the system might halt.
@@ -148,11 +153,16 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
+
+
 
  
 

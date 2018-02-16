@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	pfnReleaseMonitorSourceModeSet
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ NTSTATUS APIENTRY pfnReleaseMonitorSourceModeSet(
 ## -returns
 
 
+
 The <b>pfnReleaseMonitorSourceModeSet</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,13 +125,16 @@ The handle supplied in <i>hMonitorSourceModeSet</i> was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other error codes that are defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 When you have finished using a handle that you obtained by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a>, you must release the handle by calling <b>pfnReleaseMonitorSourceModeSet</b>.
@@ -138,9 +143,12 @@ This function is also available in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mo
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
+
+
 
  
 

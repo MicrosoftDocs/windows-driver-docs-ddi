@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bbba8be8-aa7e-455f-a591-e9d915f137f4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], NdisQueryBindInstanceName, netvista.ndisquerybindinstancename, ndis/NdisQueryBindInstanceName, protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml
+ms.keywords: protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml, NdisQueryBindInstanceName, ndis/NdisQueryBindInstanceName, netvista.ndisquerybindinstancename, NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisQueryBindInstanceName
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisQueryBindInstanceName function
@@ -85,11 +85,12 @@ A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode 
 A handle that identifies the NDIS context area for the bind operation. NDIS passed this handle to
      the 
      <i>BindContext</i> parameter of the 
-     <mshelp:link keywords="netvista.protocolbindadapterex" tabindex="0"><i>
-     ProtocolBindAdapterEx</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+     ProtocolBindAdapterEx</a> function.
 
 
 ## -returns
+
 
 
 <b>NdisQueryBindInstanceName</b> returns NDIS_STATUS_SUCCESS if memory for the string at 
@@ -98,15 +99,17 @@ A handle that identifies the NDIS context area for the bind operation. NDIS pass
 
 
 
+
 ## -remarks
+
 
 
 A protocol driver uses 
     <b>NdisQueryBindInstanceName</b> to retrieve the friendly name of a physical NIC or a virtual adapter to
     which the protocol driver will be bound. The protocol driver specifies the binding context that NDIS
     provided in the 
-    <mshelp:link keywords="netvista.protocolbindadapterex" tabindex="0"><i>
-    ProtocolBindAdapterEx</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+    ProtocolBindAdapterEx</a> function.
 
 Protocol drivers can use 
     <b>NdisQueryBindInstanceName</b> to obtain the friendly name before they bind to the adapter.
@@ -122,13 +125,20 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

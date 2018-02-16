@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7e4ca8ea-52c1-462e-bf02-cc82e9ab2be2
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSynchronousIoControlDevice function [Streaming Media Devices], stream.kssynchronousiocontroldevice, KsSynchronousIoControlDevice, ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml, ks/KsSynchronousIoControlDevice
+ms.keywords: KsSynchronousIoControlDevice, ks/KsSynchronousIoControlDevice, stream.kssynchronousiocontroldevice, KsSynchronousIoControlDevice function [Streaming Media Devices], ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsSynchronousIoControlDevice
 product: Windows
 targetos: Windows
@@ -123,6 +123,8 @@ Indicates the processor mode to place in the IRP if one needs to be generated.
 ## -returns
 
 
+
 <b>KsSynchronousIoControlDevice </b>returns the result of the device I/O control.
+
 
 

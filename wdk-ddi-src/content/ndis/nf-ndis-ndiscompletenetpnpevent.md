@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a59e6a1-d018-4b95-8e50-8351a3b69d86
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscompletenetpnpevent, NdisCompleteNetPnPEvent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml, ndis/NdisCompleteNetPnPEvent
+ms.keywords: NdisCompleteNetPnPEvent, netvista.ndiscompletenetpnpevent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteNetPnPEvent, protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCompleteNetPnPEvent
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCompleteNetPnPEvent function
@@ -92,27 +92,30 @@ TBD
 The protocol driver's response to the pending Plug and Play or Power Management event
      notification. To succeed such an event, specify NDIS_STATUS_SUCCESS. For information about other status
      values, see the return values of the 
-     <mshelp:link keywords="netvista.protocolnetpnpevent" tabindex="0"><i>
-     ProtocolNetPnPEvent</i></mshelp:link> function.
+     <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">
+     ProtocolNetPnPEvent</a> function.
 
 
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <mshelp:link keywords="netvista.net_pnp_event_notification" tabindex="0"><b>
-     NET_PNP_EVENT_NOTIFICATION</b></mshelp:link> structure that NDIS passed to the caller's 
-     <mshelp:link keywords="netvista.protocolnetpnpevent" tabindex="0"><i>
-     ProtocolNetPnPEvent</i></mshelp:link> function.
+     <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+     NET_PNP_EVENT_NOTIFICATION</a> structure that NDIS passed to the caller's 
+     <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">
+     ProtocolNetPnPEvent</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 When a protocol driver returns NDIS_STATUS_PENDING from its 
@@ -123,13 +126,20 @@ When a protocol driver returns NDIS_STATUS_PENDING from its
 
 
 
-## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+
+
 
  
 

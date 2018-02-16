@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SdBusOpenInterface function [Buses], SD.sdbusopeninterface, SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml, ntddsd/SdBusOpenInterface
+ms.keywords: SdBusOpenInterface, ntddsd/SdBusOpenInterface, SD.sdbusopeninterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml, SdBusOpenInterface function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddsd.h
-apiname: 
+apiname:
 -	SdBusOpenInterface
 product: Windows
 targetos: Windows
@@ -93,11 +93,14 @@ Must be set to SDBUS_INTERFACE_VERSION.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error code if the operation fails. 
 
 
 
+
 ## -remarks
+
 
 
 An SD card driver should call this routine from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
@@ -106,11 +109,16 @@ SD card drivers must call this routine to establish communication with the bus d
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
 
 <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
 
  
 

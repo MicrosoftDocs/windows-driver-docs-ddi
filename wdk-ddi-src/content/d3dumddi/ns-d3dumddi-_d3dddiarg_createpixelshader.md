@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEPIXELSHADER
-title: _D3DDDIARG_CREATEPIXELSHADER
+title: "_D3DDDIARG_CREATEPIXELSHADER"
 author: windows-driver-content
 description: The D3DDDIARG_CREATEPIXELSHADER structure specifies a shader handle to associate with pixel shader code.
 old-location: display\d3dddiarg_createpixelshader.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc7baff1-7e74-4666-805b-33b524c89c1d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER structure [Display Devices], display.d3dddiarg_createpixelshader, UMDisplayDriver_param_Structs_c1c78eaf-3eb9-4518-9b3c-f3fd5d6ce1f7.xml, _D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER
+ms.keywords: D3DDDIARG_CREATEPIXELSHADER structure [Display Devices], D3DDDIARG_CREATEPIXELSHADER, _D3DDDIARG_CREATEPIXELSHADER, d3dumddi/D3DDDIARG_CREATEPIXELSHADER, display.d3dddiarg_createpixelshader, UMDisplayDriver_param_Structs_c1c78eaf-3eb9-4518-9b3c-f3fd5d6ce1f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_CREATEPIXELSHADER
 product: Windows
 targetos: Windows
@@ -81,13 +81,17 @@ typedef struct _D3DDDIARG_CREATEPIXELSHADER {
 ## -remarks
 
 
+
 For more information about programming shader assemblers, see <a href="https://msdn.microsoft.com/c858766c-b414-4971-b4d9-23ec94aca8ea">Processing Shader Codes</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpixelshader.md">CreatePixelShader</a>
+
+
 
  
 

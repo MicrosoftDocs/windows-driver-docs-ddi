@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: acec8050-44bd-4082-9875-d504135e1b9f
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsRegisterCountedWorker, KsRegisterCountedWorker, ksfunc_2d4b1740-9b91-420d-81be-a56034445893.xml, KsRegisterCountedWorker function [Streaming Media Devices], stream.ksregistercountedworker
+ms.keywords: stream.ksregistercountedworker, ksfunc_2d4b1740-9b91-420d-81be-a56034445893.xml, KsRegisterCountedWorker function [Streaming Media Devices], ks/KsRegisterCountedWorker, KsRegisterCountedWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsRegisterCountedWorker
 product: Windows
 targetos: Windows
@@ -88,13 +88,17 @@ Contains the opaque context that must be used when scheduling a work item. Also 
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if a worker was initialized.
+
 
 
 
 ## -remarks
 
 
+
 This must be matched by a corresponding <a href="..\ks\nf-ks-ksunregisterworker.md">KsUnregisterWorker</a> when thread use is completed. This function resembles <a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a>, with the addition of passing the work item that will always be queued. This is to be used with <a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a> and <a href="..\ks\nf-ks-ksdecrementcountedworker.md">KsDecrementCountedWorker</a> in order to minimize the number of work items queued, and reduce mutual exclusion code necessary in a work item needed to serialize access against multiple work item threads. The worker queue can still be used to queue other work items. This may only be called at PASSIVE_LEVEL.
+
 
 

@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	ReadClockLine
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -79,30 +79,46 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 ## -returns
 
 
+
 <i>ReadClockLine</i> returns 1 if the serial clock line is high and 0 if the serial clock line is low.
+
 
 
 
 ## -remarks
 
 
+
 <i>ReadClockLine</i> should be made pageable.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
+
 
 <a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
 
+
+
 <a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567383">I2C Functions</a>
+
+
+
+<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
+
+
+
 <a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+
+
 
  
 

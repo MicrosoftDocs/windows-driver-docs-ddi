@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e40241e6-90ee-4bbb-8fde-f52ffd838c1f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, RILIMSFAILUREMESSAGETYPE, RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, netvista.rilimsfailuremessagetype, ntddrilapitypes/RILIMSFAILUREMESSAGETYPE, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RIL_IMSFAILUREMESSAGETYPE_MAX, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSFAILUREMESSAGETYPE_INCALL
+ms.keywords: netvista.rilimsfailuremessagetype, ntddrilapitypes/RILIMSFAILUREMESSAGETYPE, RIL_IMSFAILUREMESSAGETYPE_INCALL, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_INCALL, RIL_IMSFAILUREMESSAGETYPE_MAX, ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_MAX, RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RILIMSFAILUREMESSAGETYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE, RILIMSFAILUREMESSAGETYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILIMSFAILUREMESSAGETYPE
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILIMSFAILUREMESSAGETYPE {
 ### -field RIL_IMSFAILUREMESSAGETYPE_REGISTER
 
 
-
 ### -field RIL_IMSFAILUREMESSAGETYPE_SUBSCRIBE
-
 
 
 ### -field RIL_IMSFAILUREMESSAGETYPE_INCALL
 
 
-
 ### -field RIL_IMSFAILUREMESSAGETYPE_MAX
-
 

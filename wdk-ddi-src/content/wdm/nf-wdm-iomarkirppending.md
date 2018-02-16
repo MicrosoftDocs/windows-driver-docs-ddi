@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 424d5ebd-c871-40d8-b5b7-3a4a04fe60fa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoMarkIrpPending, IoMarkIrpPending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], kernel.iomarkirppending, k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml
+ms.keywords: kernel.iomarkirppending, wdm/IoMarkIrpPending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, IoMarkIrpPending
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	IoMarkIrpPending
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to the IRP to be marked as pending.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Unless the driver's dispatch routine completes the IRP (by calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>) or passes the IRP on to lower drivers, it must call <b>IoMarkIrpPending</b> with the IRP. Otherwise, the I/O manager attempts to complete the IRP as soon as the dispatch routine returns control.
@@ -90,23 +93,37 @@ After calling <b>IoMarkIrpPending</b>, the dispatch routine must return STATUS_P
 If a driver queues incoming IRPs, it should call <b>IoMarkIrpPending</b> before it queues each IRP. Otherwise, an IRP could be dequeued, completed by another driver routine, and freed by the system before the call to <b>IoMarkIrpPending</b> occurs, thereby causing a crash.
 
 If a driver sets an <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine for an IRP and then passes the IRP down to a lower driver, the <i>IoCompletion</i> routine should check the <b>IRP-&gt;PendingReturned</b> flag. If the flag is set, the <i>IoCompletion</i> routine must call <b>IoMarkIrpPending</b> with the IRP. (<i>IoCompletion</i> routines do not return STATUS_PENDING, however. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547084">Implementing an IoCompletion Routine</a>.) 
-<div class="alert"><b>Note</b>  Drivers that create the IRP and send it to another stack must not call <b>IoMarkIrpPending</b> in their completion routine. This call will corrupt the pool header of the next allocation because there is no stack location for those drivers.</div><div> </div>A driver that passes down the IRP and then waits on an event should not mark the IRP pending. Instead, its <i>IoCompletion</i> routine should signal the event and return STATUS_MORE_PROCESSING_REQUIRED.
+
+<div class="alert"><b>Note</b>  Drivers that create the IRP and send it to another stack must not call <b>IoMarkIrpPending</b> in their completion routine. This call will corrupt the pool header of the next allocation because there is no stack location for those drivers.</div>
+<div> </div>
+A driver that passes down the IRP and then waits on an event should not mark the IRP pending. Instead, its <i>IoCompletion</i> routine should signal the event and return STATUS_MORE_PROCESSING_REQUIRED.
 
 If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>, be careful not to modify the <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure in a way that could unintentionally affect the lower driver or the system's behavior with respect to that driver. In particular, your driver should not modify the <b>IO_STACK_LOCATION</b> structure's <b>Parameters</b> union, and should not call <b>IoMarkIrpPending</b>.
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
 
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
+
+
 
  
 

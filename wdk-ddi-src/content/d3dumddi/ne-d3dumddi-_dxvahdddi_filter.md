@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_FILTER
-title: _DXVAHDDDI_FILTER
+title: "_DXVAHDDDI_FILTER"
 author: windows-driver-content
 description: The DXVAHDDDI_FILTER enumeration contains values that identify the filter range, which the driver should retrieve when the driver's GetCaps function is called with the D3DDDICAPS_DXVAHD_GETVPFILTERRANGE value set.
 old-location: display\dxvahdddi_filter.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dbf65c28-b4f2-4930-8d01-050c45f87bb4
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVAHDDDI_FILTER_ANAMORPHIC_SCALING, DXVA2_Structs_730202a4-96bd-4779-b952-d493295f06ad.xml, DXVAHDDDI_FILTER_ANAMORPHIC_SCALING, d3dumddi/DXVAHDDDI_FILTER_HUE, DXVAHDDDI_FILTER_EDGE_ENHANCEMENT, DXVAHDDDI_FILTER_BRIGHTNESS, DXVAHDDDI_FILTER_CONTRAST, DXVAHDDDI_FILTER_HUE, d3dumddi/DXVAHDDDI_FILTER_BRIGHTNESS, d3dumddi/DXVAHDDDI_FILTER_NOISE_REDUCTION, d3dumddi/DXVAHDDDI_FILTER_SATURATION, DXVAHDDDI_FILTER enumeration [Display Devices], display.dxvahdddi_filter, d3dumddi/DXVAHDDDI_FILTER_CONTRAST, DXVAHDDDI_FILTER_SATURATION, d3dumddi/DXVAHDDDI_FILTER, DXVAHDDDI_FILTER_NOISE_REDUCTION, DXVAHDDDI_FILTER, _DXVAHDDDI_FILTER, d3dumddi/DXVAHDDDI_FILTER_EDGE_ENHANCEMENT
+ms.keywords: d3dumddi/DXVAHDDDI_FILTER_HUE, d3dumddi/DXVAHDDDI_FILTER_NOISE_REDUCTION, DXVAHDDDI_FILTER_EDGE_ENHANCEMENT, d3dumddi/DXVAHDDDI_FILTER_EDGE_ENHANCEMENT, _DXVAHDDDI_FILTER, DXVAHDDDI_FILTER enumeration [Display Devices], d3dumddi/DXVAHDDDI_FILTER, DXVAHDDDI_FILTER_ANAMORPHIC_SCALING, DXVAHDDDI_FILTER_SATURATION, DXVAHDDDI_FILTER_CONTRAST, d3dumddi/DXVAHDDDI_FILTER_CONTRAST, DXVAHDDDI_FILTER, DXVA2_Structs_730202a4-96bd-4779-b952-d493295f06ad.xml, display.dxvahdddi_filter, d3dumddi/DXVAHDDDI_FILTER_BRIGHTNESS, DXVAHDDDI_FILTER_NOISE_REDUCTION, d3dumddi/DXVAHDDDI_FILTER_ANAMORPHIC_SCALING, d3dumddi/DXVAHDDDI_FILTER_SATURATION, DXVAHDDDI_FILTER_BRIGHTNESS, DXVAHDDDI_FILTER_HUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_FILTER
 product: Windows
 targetos: Windows
@@ -111,6 +111,8 @@ A value that specifies that the filter range of anamorphic scaling.
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
 
  
 

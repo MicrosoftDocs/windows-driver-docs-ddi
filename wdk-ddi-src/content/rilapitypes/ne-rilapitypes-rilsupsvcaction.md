@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 776db7b4-aa53-489d-9358-387e29e4e3e1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SUPSVCACTION_USSD, rilapitypes/RIL_SUPSVCACTION_REGISTER_PW, rilapitypes/RIL_SUPSVCACTION_USSD, RIL_SUPSVCACTION_ERASE, RIL_SUPSVCACTION_DEACTIVATE, rilapitypes/RILSUPSVCACTION, netvista.rilsupsvcaction_2, RIL_SUPSVCACTION_REGISTER, rilapitypes/RIL_SUPSVCACTION_ERASE, RILSUPSVCACTION, RIL_SUPSVCACTION_MAX, RIL_SUPSVCACTION_INTERROGATE, rilapitypes/RIL_SUPSVCACTION_MAX, rilapitypes/RIL_SUPSVCACTION_REGISTER, rilapitypes/RIL_SUPSVCACTION_DEACTIVATE, RIL_SUPSVCACTION_REGISTER_PW, RILSUPSVCACTION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SUPSVCACTION_INTERROGATE
+ms.keywords: RIL_SUPSVCACTION_REGISTER, rilapitypes/RIL_SUPSVCACTION_ERASE, RILSUPSVCACTION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SUPSVCACTION_REGISTER, RIL_SUPSVCACTION_DEACTIVATE, RIL_SUPSVCACTION_ERASE, RIL_SUPSVCACTION_INTERROGATE, RILSUPSVCACTION, rilapitypes/RIL_SUPSVCACTION_DEACTIVATE, rilapitypes/RIL_SUPSVCACTION_INTERROGATE, netvista.rilsupsvcaction_2, RIL_SUPSVCACTION_USSD, RIL_SUPSVCACTION_MAX, rilapitypes/RIL_SUPSVCACTION_MAX, rilapitypes/RILSUPSVCACTION, rilapitypes/RIL_SUPSVCACTION_USSD, rilapitypes/RIL_SUPSVCACTION_REGISTER_PW, RIL_SUPSVCACTION_REGISTER_PW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSUPSVCACTION
 product: Windows
 targetos: Windows
@@ -77,31 +77,23 @@ typedef enum _RILSUPSVCACTION {
 ### -field RIL_SUPSVCACTION_ACTIVATE
 
 
-
 ### -field RIL_SUPSVCACTION_DEACTIVATE
-
 
 
 ### -field RIL_SUPSVCACTION_REGISTER
 
 
-
 ### -field RIL_SUPSVCACTION_ERASE
-
 
 
 ### -field RIL_SUPSVCACTION_INTERROGATE
 
 
-
 ### -field RIL_SUPSVCACTION_REGISTER_PW
-
 
 
 ### -field RIL_SUPSVCACTION_USSD
 
 
-
 ### -field RIL_SUPSVCACTION_MAX
-
 

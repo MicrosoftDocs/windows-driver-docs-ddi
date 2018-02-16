@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5822b642-0ba4-46ee-bb60-b109c50691eb
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.iodetachdevice, wdm/IoDetachDevice, k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoDetachDevice, kernel.iodetachdevice, k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, IoDetachDevice routine [Kernel-Mode Driver Architecture], IoDetachDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoDetachDevice
 product: Windows
 targetos: Windows
@@ -76,22 +76,30 @@ Pointer to the lower driver's device object. The caller previously called <a hre
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>IoDetachDevice</b> decrements the reference count of the <i>TargetDevice</i> object. If the reference count goes to zero and the lower driver has been marked for an unload operation, the lower driver is unloaded. 
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
 
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+
 
  
 

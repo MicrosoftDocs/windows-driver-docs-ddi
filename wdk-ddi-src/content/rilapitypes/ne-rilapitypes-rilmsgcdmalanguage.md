@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d1ad512e-10ba-4266-9688-2fc8e63bb4c4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_MSGCDMALANG_SPANISH, rilapitypes/RIL_MSGCDMALANG_ENGLISH, RIL_MSGCDMALANG_FRENCH, rilapitypes/RIL_MSGCDMALANG_KOREAN, RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_HEBREW, RIL_MSGCDMALANG_SPANISH, RIL_MSGCDMALANG_ENGLISH, rilapitypes/RIL_MSGCDMALANG_FRENCH, RIL_MSGCDMALANG_CHINESE, RIL_MSGCDMALANG_KOREAN, rilapitypes/RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_JAPANESE, rilapitypes/RIL_MSGCDMALANG_JAPANESE, netvista.rilmsgcdmalanguage_2, RILMSGCDMALANGUAGE, RILMSGCDMALANGUAGE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_MSGCDMALANG_CHINESE, rilapitypes/RIL_MSGCDMALANG_HEBREW, rilapitypes/RILMSGCDMALANGUAGE
+ms.keywords: rilapitypes/RIL_MSGCDMALANG_ENGLISH, rilapitypes/RIL_MSGCDMALANG_HEBREW, RIL_MSGCDMALANG_HEBREW, RILMSGCDMALANGUAGE enumeration [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmalanguage_2, RIL_MSGCDMALANG_FRENCH, RILMSGCDMALANGUAGE, RIL_MSGCDMALANG_SPANISH, rilapitypes/RIL_MSGCDMALANG_JAPANESE, rilapitypes/RIL_MSGCDMALANG_KOREAN, rilapitypes/RIL_MSGCDMALANG_CHINESE, RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_CHINESE, rilapitypes/RIL_MSGCDMALANG_SPANISH, rilapitypes/RILMSGCDMALANGUAGE, rilapitypes/RIL_MSGCDMALANG_FRENCH, rilapitypes/RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_JAPANESE, RIL_MSGCDMALANG_ENGLISH, RIL_MSGCDMALANG_KOREAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILMSGCDMALANGUAGE
 product: Windows
 targetos: Windows
@@ -78,35 +78,26 @@ typedef enum _RILMSGCDMALANGUAGE {
 ### -field RIL_MSGCDMALANG_UNKNOWN
 
 
-
 ### -field RIL_MSGCDMALANG_ENGLISH
-
 
 
 ### -field RIL_MSGCDMALANG_FRENCH
 
 
-
 ### -field RIL_MSGCDMALANG_SPANISH
-
 
 
 ### -field RIL_MSGCDMALANG_JAPANESE
 
 
-
 ### -field RIL_MSGCDMALANG_KOREAN
-
 
 
 ### -field RIL_MSGCDMALANG_CHINESE
 
 
-
 ### -field RIL_MSGCDMALANG_HEBREW
 
 
-
 ### -field RIL_MSGCDMALANG_MAX
-
 

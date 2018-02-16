@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b93f756b-50b1-450f-8d70-5d1633b61fcf
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOutputCallbacksWide, debugger.getoutputcallbackswide, IDebugClient5::GetOutputCallbacksWide, dbgeng/IDebugClient5::GetOutputCallbacksWide, IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method, IDebugClient5, GetOutputCallbacksWide method [Windows Debugging], GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: GetOutputCallbacksWide, IDebugClient5 interface [Windows Debugging], GetOutputCallbacksWide method, GetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5::GetOutputCallbacksWide, IDebugClient5, debugger.getoutputcallbackswide, dbgeng/IDebugClient5::GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.GetOutputCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetOutputCallbacksWide method
@@ -75,7 +75,9 @@ Receives an interface pointer to the <a href="..\dbgeng\nn-dbgeng-idebugoutputca
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,11 +94,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Each client can have at most one <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a> or <b>IDebugOutputCallbacksWide</b> object registered with it for output.
@@ -109,13 +114,20 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
  
 

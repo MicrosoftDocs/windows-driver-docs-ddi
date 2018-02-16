@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_DECISION_V2
-title: _DOT11_INCOMING_ASSOC_DECISION_V2
+title: "_DOT11_INCOMING_ASSOC_DECISION_V2"
 author: windows-driver-content
 description: Information for an incoming association request is included in a DOT11_INCOMING_ASSOC_DECISION_V2 structure. This structure is sent with an OID_DOT11_INCOMING_ASSOCIATION_DECISION request.
 old-location: netvista\dot11_incoming_assoc_decision_v2.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: E2455BD2-E540-4B81-84D8-E88D740407ED
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: DOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista], windot11/DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2, netvista.dot11_incoming_assoc_decision_v2, *PDOT11_INCOMING_ASSOC_DECISION_V2, windot11/PDOT11_INCOMING_ASSOC_DECISION_V2, _DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: windot11/DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2, windot11/PDOT11_INCOMING_ASSOC_DECISION_V2, _DOT11_INCOMING_ASSOC_DECISION_V2, netvista.dot11_incoming_assoc_decision_v2, *PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_INCOMING_ASSOC_DECISION_V2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2
+req.typenames: "*PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2"
 req.product: Windows 10 or later.
 ---
 
@@ -77,6 +77,7 @@ typedef struct _DOT11_INCOMING_ASSOC_DECISION_V2 {
 ### -field Header
 
 The type, revision, and size of the <b>DOT11_INCOMING_ASSOC_DECISION_V2</b> structure. The required settings for the members of <b>Header</b> are the following.
+
 <table>
 <tr>
 <th>Member</th>
@@ -94,7 +95,8 @@ The type, revision, and size of the <b>DOT11_INCOMING_ASSOC_DECISION_V2</b> stru
 <td><b>Size</b></td>
 <td>DOT11_SIZEOF_INCOMING_ASSOC_DECISION_REVISION_2</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PeerMacAddr
@@ -130,6 +132,8 @@ The status code to include in the Peer-to-Peer (P2P) IE of the association respo
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: audio\iresourcelist_numberofentries.htm
 old-project: audio
 ms.assetid: cb882170-5c8e-455d-89a6-b09ca77e63fb
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: portcls/IResourceList::NumberOfEntries, NumberOfEntries method [Audio Devices], IResourceList interface, NumberOfEntries, audio.iresourcelist_numberofentries, IResourceList interface [Audio Devices], NumberOfEntries method, IResourceList::NumberOfEntries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, IResourceList, NumberOfEntries method [Audio Devices]
+ms.date: 2/8/2018
+ms.keywords: audio.iresourcelist_numberofentries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, IResourceList::NumberOfEntries, IResourceList interface [Audio Devices], NumberOfEntries method, NumberOfEntries, IResourceList, NumberOfEntries method [Audio Devices], portcls/IResourceList::NumberOfEntries, NumberOfEntries method [Audio Devices], IResourceList interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IResourceList.NumberOfEntries
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IResourceList::NumberOfEntries method
@@ -68,13 +68,15 @@ ULONG NumberOfEntries(
 
 
 
-#### - None
 
+#### - None
 
 
 ## -returns
 
 
+
 <code>NumberOfEntries</code> returns the number of items in the resource list.
+
 
 

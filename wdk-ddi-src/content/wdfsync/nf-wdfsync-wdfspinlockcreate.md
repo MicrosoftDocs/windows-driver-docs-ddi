@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2854fa05-61a9-4515-9dc1-463f160ae89a
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfsync/WdfSpinLockCreate, PFN_WDFSPINLOCKCREATE, WdfSpinLockCreate method, DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, wdf.wdfspinlockcreate, kmdf.wdfspinlockcreate, WdfSpinLockCreate
+ms.keywords: kmdf.wdfspinlockcreate, wdf.wdfspinlockcreate, WdfSpinLockCreate method, DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, PFN_WDFSPINLOCKCREATE, wdfsync/WdfSpinLockCreate, WdfSpinLockCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfSpinLockCreate
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS
+req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
@@ -87,6 +87,7 @@ A pointer to a location that receives a handle to a new framework spin-lock obje
 ## -returns
 
 
+
 <b>WdfSpinLockCreate</b> returns STATUS_SUCCESS if the operation succeeds. 
 
 For a list of other return values that the <b>WdfSpinLockCreate</b> method might return, see <a href="https://msdn.microsoft.com/f5345c88-1c3a-4b32-9c93-c252713f7641">Framework Object Creation Errors</a>.
@@ -95,7 +96,9 @@ This method also might return other <a href="https://msdn.microsoft.com/library/
 
 
 
+
 ## -remarks
+
 
 
 The <b>WdfSpinLockCreate</b> method creates a framework spin-lock object. After creating a spin-lock object, a driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550040">WdfSpinLockAcquire</a> to acquire the lock and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550044">WdfSpinLockRelease</a> to release the lock.
@@ -105,16 +108,48 @@ By default, the new spin-lock object's parent is the framework driver object tha
 For more information about spin locks, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>, specifies that the spin lock's parent object will be a device object, and calls <b>WdfSpinLockCreate</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_OBJECT_ATTRIBUTES attributes;
+WDFSPINLOCK lockHandle;
+
+WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+attributes.ParentObject = Device;
+status = WdfSpinLockCreate(
+                           &amp;attributes,
+                           &amp;lockHandle
+                           );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550044">WdfSpinLockRelease</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550040">WdfSpinLockAcquire</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
 
  
 

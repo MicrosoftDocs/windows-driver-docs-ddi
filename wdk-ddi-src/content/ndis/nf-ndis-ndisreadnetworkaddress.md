@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42519c60-6dc6-4c20-a2e8-954d9610a982
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisReadNetworkAddress, netvista.ndisreadnetworkaddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml
+ms.keywords: netvista.ndisreadnetworkaddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, ndis/NdisReadNetworkAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisReadNetworkAddress
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisReadNetworkAddress function
@@ -82,6 +82,20 @@ A pointer to a caller-supplied variable in which this function returns the statu
 
 
 
+
+#### NDIS_STATUS_SUCCESS
+
+The caller can use the address returned at 
+       <i>NetworkAddress</i> for the NIC.
+
+
+
+#### NDIS_STATUS_FAILURE
+
+There was no NIC address information available in the caller's registry 
+       <b>Parameters</b> key or the value stored was not a string.
+
+
 ### -param NetworkAddress [out]
 
 A pointer to a caller-supplied variable in which this function returns a pointer to a buffer that contains the
@@ -98,30 +112,21 @@ A pointer to a caller-supplied variable in which this function returns the numbe
 ### -param ConfigurationHandle [in]
 
 The configuration handle returned by the 
-     <mshelp:link keywords="netvista.ndisopenconfigurationex" tabindex="0"><b>
-     NdisOpenConfigurationEx</b></mshelp:link> function.
-
-
-##### - Status.NDIS_STATUS_FAILURE
-
-There was no NIC address information available in the caller's registry 
-       <b>Parameters</b> key or the value stored was not a string.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
-
-The caller can use the address returned at 
-       <i>NetworkAddress</i> for the NIC.
+     <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">
+     NdisOpenConfigurationEx</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisReadNetworkAddress</b> searches the registry 
@@ -165,11 +170,16 @@ Note that NDIS does not validate the value at
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+
 
  
 

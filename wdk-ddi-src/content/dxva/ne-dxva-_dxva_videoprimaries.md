@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoPrimaries
-title: _DXVA_VideoPrimaries
+title: "_DXVA_VideoPrimaries"
 author: windows-driver-content
 description: The DXVA_VideoPrimaries enumeration type contains enumerators that identify the color primaries, which state which RGB basis functions are used.
 old-location: display\dxva_videoprimaries.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8aa6ba31-aec0-4a92-ad0e-6c19b796e398
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_VideoPrimaries_BT470_2_SysBG, dxva/DXVA_VideoPrimariesShift, dxva/DXVA_VideoPrimaries_BT470_2_SysM, DXVA_VideoPrimariesMask, dxva/DXVA_VideoPrimaries_BT470_2_SysBG, dxva/DXVA_VideoPrimaries_BT709, DXVA_VideoPrimaries_Unknown, DXVA_VideoPrimaries_reserved, display.dxva_videoprimaries, dxva/DXVA_VideoPrimaries_Unknown, dxva/DXVA_VideoPrimaries, DXVA_VideoPrimariesShift, dxva/DXVA_VideoPrimaries_EBU3213, DXVA_VideoPrimaries, dxva/DXVA_VideoPrimariesMask, DXVA_VideoPrimaries_SMPTE170M, DXVA_VideoPrimaries_BT709, DXVA_VideoPrimaries_EBU3213, DXVA_VideoPrimaries enumeration [Display Devices], dxva/DXVA_VideoPrimaries_SMPTE170M, DXVA_VideoPrimaries_SMPTE240M, dxva/DXVA_VideoPrimaries_SMPTE_C, _DXVA_VideoPrimaries, DXVA_VideoPrimaries_BT470_2_SysM, dxva/DXVA_VideoPrimaries_SMPTE240M, dxva/DXVA_VideoPrimaries_reserved, dxvaref_c0e5c7be-4039-438c-a883-30bb242a5c50.xml, DXVA_VideoPrimaries_SMPTE_C
+ms.keywords: display.dxva_videoprimaries, DXVA_VideoPrimaries, dxva/DXVA_VideoPrimaries_EBU3213, DXVA_VideoPrimaries_BT470_2_SysBG, DXVA_VideoPrimariesMask, dxva/DXVA_VideoPrimaries, DXVA_VideoPrimaries_BT470_2_SysM, dxva/DXVA_VideoPrimaries_BT709, dxva/DXVA_VideoPrimaries_SMPTE170M, DXVA_VideoPrimariesShift, DXVA_VideoPrimaries_SMPTE240M, DXVA_VideoPrimaries_reserved, dxva/DXVA_VideoPrimaries_SMPTE240M, DXVA_VideoPrimaries_BT709, DXVA_VideoPrimaries_EBU3213, dxva/DXVA_VideoPrimariesShift, dxva/DXVA_VideoPrimariesMask, dxva/DXVA_VideoPrimaries_SMPTE_C, dxvaref_c0e5c7be-4039-438c-a883-30bb242a5c50.xml, DXVA_VideoPrimaries_Unknown, dxva/DXVA_VideoPrimaries_reserved, _DXVA_VideoPrimaries, DXVA_VideoPrimaries_SMPTE_C, DXVA_VideoPrimaries enumeration [Display Devices], dxva/DXVA_VideoPrimaries_Unknown, dxva/DXVA_VideoPrimaries_BT470_2_SysBG, dxva/DXVA_VideoPrimaries_BT470_2_SysM, DXVA_VideoPrimaries_SMPTE170M
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_VideoPrimaries
 product: Windows
 targetos: Windows
@@ -135,13 +135,17 @@ Specifies SMPTE_C primaries, which are analog '79 NTSC primaries.
 ## -remarks
 
 
+
 One of the enumerators of DXVA_VideoPrimaries can be specified in the <b>VideoPrimaries</b> member of the <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+
+
 
  
 

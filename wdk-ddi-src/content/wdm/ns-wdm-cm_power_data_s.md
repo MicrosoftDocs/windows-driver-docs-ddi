@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 38fea22b-4d9a-4b03-bbb7-c22578f60def
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: CM_Power_Data_s, CM_POWER_DATA structure [Kernel-Mode Driver Architecture], PCM_POWER_DATA structure pointer [Kernel-Mode Driver Architecture], wdm/PCM_POWER_DATA, PCM_POWER_DATA, *PCM_POWER_DATA, kernel.cm_power_data, CM_POWER_DATA, wdm/CM_POWER_DATA, kstruct_a_da572af5-5cb2-41f4-be3d-f2c1b715e4d7.xml
+ms.keywords: kstruct_a_da572af5-5cb2-41f4-be3d-f2c1b715e4d7.xml, *PCM_POWER_DATA, CM_POWER_DATA structure [Kernel-Mode Driver Architecture], CM_Power_Data_s, wdm/PCM_POWER_DATA, PCM_POWER_DATA structure pointer [Kernel-Mode Driver Architecture], PCM_POWER_DATA, kernel.cm_power_data, wdm/CM_POWER_DATA, CM_POWER_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	CM_POWER_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PCM_POWER_DATA, CM_POWER_DATA
+req.typenames: "*PCM_POWER_DATA, CM_POWER_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -135,11 +135,17 @@ Specifies the least-powered system state from which the device can wake the syst
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551967">SetupDiGetDeviceRegistryProperty</a>
-
 <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551967">SetupDiGetDeviceRegistryProperty</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 2f7d6975-4c90-4351-bf68-89786bafcc8e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices], SendToWia method, wiautil/CWiauPropertyList::SendToWia, image.cwiaupropertylist_sendtowia, SendToWia method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList::SendToWia, SendToWia method [Imaging Devices], wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, CWiauPropertyList, SendToWia
+ms.keywords: SendToWia method [Imaging Devices], CWiauPropertyList, wiautil/CWiauPropertyList::SendToWia, SendToWia, SendToWia method [Imaging Devices], CWiauPropertyList interface, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, image.cwiaupropertylist_sendtowia, CWiauPropertyList interface [Imaging Devices], SendToWia method, CWiauPropertyList::SendToWia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiautil.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	CWiauPropertyList.SendToWia
 product: Windows
 targetos: Windows
@@ -76,22 +76,30 @@ Pointer to a WIA item context that previously was passed in a call to the <a hre
 ## -returns
 
 
+
 On success, the <b>CWiauPropertyList::SendToWia</b> method returns S_OK. If the property list contains no properties, the method returns E_FAIL. 
+
 
 
 
 ## -remarks
 
 
+
 The <b>CWiauPropertyList::SendToWia</b> method should be called only after all properties have been defined and their values set.
+
 
 
 
 ## -see-also
 
+<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a>
 
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
 
  
 

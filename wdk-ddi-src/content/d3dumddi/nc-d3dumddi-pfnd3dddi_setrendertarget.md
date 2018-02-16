@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	SetRenderTarget
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY SetRenderTarget(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setrendertarget.md">D3DDDIARG_SETRENDERTARGET</a> structure that describes the render target surface.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY SetRenderTarget(
 ## -returns
 
 
+
 <i>SetRenderTarget</i> returns S_OK or an appropriate error result if the render target surface is not successfully set.
+
 
 
 
@@ -99,7 +103,11 @@ __checkReturn HRESULT APIENTRY SetRenderTarget(
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setrendertarget.md">D3DDDIARG_SETRENDERTARGET</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_CHALLENGE
-title: _WWAN_AUTH_CHALLENGE
+title: "_WWAN_AUTH_CHALLENGE"
 author: windows-driver-content
 description: The WWAN_AUTH_CHALLENGE structure represents an authentication challenge for a specific method.
 old-location: netvista\wwan_auth_challenge.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A31B9E91-B5F9-4EF3-AD9E-A5E26CBD4B35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_AUTH_CHALLENGE, *PWWAN_AUTH_CHALLENGE, _WWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE, wwan/PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_auth_challenge, WWAN_AUTH_CHALLENGE structure [Network Drivers Starting with Windows Vista], wwan/WWAN_AUTH_CHALLENGE
+ms.keywords: "_WWAN_AUTH_CHALLENGE, WWAN_AUTH_CHALLENGE, wwan/WWAN_AUTH_CHALLENGE, wwan/PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_auth_challenge, WWAN_AUTH_CHALLENGE structure [Network Drivers Starting with Windows Vista], PWWAN_AUTH_CHALLENGE, *PWWAN_AUTH_CHALLENGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_AUTH_CHALLENGE
 product: Windows
 targetos: Windows
@@ -73,6 +73,11 @@ typedef struct _WWAN_AUTH_CHALLENGE {
 
 
 
+### -field AuthMethod
+
+The authentication challenge method.
+
+
 ### -field u
 
 The container union for the different authentication challenge methods.
@@ -93,20 +98,23 @@ The challenge that uses the AKA authentication method.  If <b>AuthMethod</b> is 
 The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthAkap,</i> use this member.
 
 
-### -field AuthMethod
-
-The authentication challenge method.
-
-
 ## -see-also
+
+<a href="..\wwan\ns-wwan-_wwan_auth_aka_challenge.md">WWAN_AUTH_AKA_CHALLENGE</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_auth_sim_challenge.md">WWAN_AUTH_SIM_CHALLENGE</a>
 
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
+
 
 <a href="..\wwan\ns-wwan-_wwan_auth_akap_challenge.md">WWAN_AUTH_AKAP_CHALLENGE</a>
 
-<a href="..\wwan\ns-wwan-_wwan_auth_aka_challenge.md">WWAN_AUTH_AKA_CHALLENGE</a>
+
+
+<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
+
+
 
  
 

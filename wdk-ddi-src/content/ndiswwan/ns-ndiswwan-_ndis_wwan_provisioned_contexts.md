@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PROVISIONED_CONTEXTS
-title: _NDIS_WWAN_PROVISIONED_CONTEXTS
+title: "_NDIS_WWAN_PROVISIONED_CONTEXTS"
 author: windows-driver-content
 description: The NDIS_WWAN_PROVISIONED_CONTEXTS structure represents a list of provisioned contexts and the number of provisioned contexts in the list.
 old-location: netvista\ndis_wwan_provisioned_contexts.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ee4ba781-9adf-4eb0-8c3d-b11aac86c943
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS, netvista.ndis_wwan_provisioned_contexts, ndiswwan/PNDIS_WWAN_PROVISIONED_CONTEXTS, WwanRef_ad7bfe2b-eb11-45f9-a49d-a602df06b97f.xml, PNDIS_WWAN_PROVISIONED_CONTEXTS, _NDIS_WWAN_PROVISIONED_CONTEXTS, NDIS_WWAN_PROVISIONED_CONTEXTS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PROVISIONED_CONTEXTS structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_PROVISIONED_CONTEXTS, *PNDIS_WWAN_PROVISIONED_CONTEXTS
+ms.keywords: NDIS_WWAN_PROVISIONED_CONTEXTS structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/PNDIS_WWAN_PROVISIONED_CONTEXTS, WwanRef_ad7bfe2b-eb11-45f9-a49d-a602df06b97f.xml, _NDIS_WWAN_PROVISIONED_CONTEXTS, *PNDIS_WWAN_PROVISIONED_CONTEXTS, PNDIS_WWAN_PROVISIONED_CONTEXTS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_provisioned_contexts, PNDIS_WWAN_PROVISIONED_CONTEXTS, ndiswwan/NDIS_WWAN_PROVISIONED_CONTEXTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_PROVISIONED_CONTEXTS
 product: Windows
 targetos: Windows
@@ -78,6 +78,7 @@ The header with type, revision, and size information about the NDIS_WWAN_PROVISI
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -113,7 +114,8 @@ sizeof(NDIS_WWAN_PROVISIONED_CONTEXTS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -124,6 +126,7 @@ For more information about these members, see
 The status of the provisioned context query or set operation. The following table shows the possible values for
      this member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -231,11 +234,13 @@ The operation failed because the update request was unsuccessful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The status of provisioned context set operation. The following table shows the possible value for
      this member.
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -251,7 +256,8 @@ The operation failed because the update request was unsuccessful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ContextListHeader
@@ -264,9 +270,11 @@ A formatted
 ## -remarks
 
 
+
 Miniport drivers should specify zero elements in the context list when they respond to
     OID_WWAN_PROVISIONED_CONTEXT 
     <i>set</i> requests.
+
 
 
 
@@ -274,7 +282,11 @@ Miniport drivers should specify zero elements in the context list when they resp
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+
+
 
  
 

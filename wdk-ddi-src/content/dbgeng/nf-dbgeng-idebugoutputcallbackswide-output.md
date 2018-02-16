@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b57661c3-a18f-45ed-b7fc-f6471753566e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Output method [Windows Debugging], Output method [Windows Debugging], IDebugOutputCallbacksWide interface, Output, IDebugOutputCallbacksWide::Output, debugger.idebugoutputcallbackswide_output, dbgeng/IDebugOutputCallbacksWide::Output, IDebugOutputCallbacksWide, IDebugOutputCallbacksWide interface [Windows Debugging], Output method
+ms.keywords: Output method [Windows Debugging], Output, IDebugOutputCallbacksWide interface [Windows Debugging], Output method, dbgeng/IDebugOutputCallbacksWide::Output, IDebugOutputCallbacksWide, IDebugOutputCallbacksWide::Output, Output method [Windows Debugging], IDebugOutputCallbacksWide interface, debugger.idebugoutputcallbackswide_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugOutputCallbacksWide.Output
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugOutputCallbacksWide::Output method
@@ -81,15 +81,19 @@ Specifies the output that is being sent.
 ## -returns
 
 
+
 The return value is ignored by the engine unless it indicates a remote procedure call error; in this case the client, with which this <b>IDebugEventCallbacksWide</b> object is registered, is disabled.
+
 
 
 
 ## -remarks
 
 
+
 The engine calls this method only if the supplied value of <i>Mask</i> is allowed by the client's output control.
 
 For more information about debugger engine output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+
 
 

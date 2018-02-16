@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	ProtocolTcpOffloadReceiveComplete
 product: Windows
 targetos: Windows
@@ -90,29 +90,33 @@ A pointer to a
      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The driver
      supplied this pointer as an input parameter in a previous call to the 
-     <mshelp:link keywords="netvista.ndisoffloadtcpreceive" tabindex="0"><b>
-     NdisOffloadTcpReceive</b></mshelp:link> function.
+     <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">
+     NdisOffloadTcpReceive</a> function.
 
 
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
 
 
+
 In response to an underlying driver's or offload target's call to the 
-    <mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-    NdisOffloadTcpReceiveComplete</b></mshelp:link> function, NDIS calls the overlying protocol driver's or intermediate
+    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+    NdisOffloadTcpReceiveComplete</a> function, NDIS calls the overlying protocol driver's or intermediate
     driver's 
     <i>ProtocolTcpOffloadReceiveComplete</i> function.
 
 To propagate the completion of the I/O operation to the overlying driver, the intermediate driver
     itself calls the 
     <b>NdisOffloadTcpReceiveComplete</b> function, passing in the following:
+
 <ul>
 <li>
 A 
@@ -124,7 +128,8 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
       <i>ProtocolTcpOffloadReceiveComplete</i> function.
 
 </li>
-</ul>In response, NDIS calls the overlying driver's 
+</ul>
+In response, NDIS calls the overlying driver's 
     <i>ProtocolTcpOffloadReceiveComplete</i> function, passing a 
     <i>ProtocolBindingContext</i> handle and the PNET_BUFFER_LIST pointer supplied by the intermediate driver
     to the 
@@ -132,18 +137,29 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndistcpoffloadreceivecomplete" tabindex="0"><b>
-   NdisOffloadTcpReceiveComplete</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">NdisOffloadTcpReceive</a>
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+   NdisOffloadTcpReceiveComplete</a>
+
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">NdisOffloadTcpReceive</a>
+
+
 
  
 

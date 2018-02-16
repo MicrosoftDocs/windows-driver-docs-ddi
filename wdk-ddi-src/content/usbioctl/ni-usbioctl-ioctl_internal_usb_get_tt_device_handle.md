@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_tt_device_handle.htm
 old-project: usbref
 ms.assetid: 1ea77cc4-bee4-4e0a-92a4-6413d3e5871a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_internal_usb_get_tt_device_handle, IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE control code [Buses], IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE, usbioctl/IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbioctl.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
 product: Windows
 targetos: Windows
@@ -66,50 +66,66 @@ req.product: Windows 10 or later.
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 
+
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
+
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+
 For more information, see [XREF-LINK:NTSTATUS Values].
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_REMOVE_LOCK_OPTIONS
-title: _WDF_REMOVE_LOCK_OPTIONS
+title: "_WDF_REMOVE_LOCK_OPTIONS"
 author: windows-driver-content
 description: The WDF_REMOVE_LOCK_OPTIONS structure specifies options for acquiring a remove lock before delivering an IRP to the driver.
 old-location: wdf\wdf_remove_lock_options.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0A50C1FB-D0C6-47C4-AD71-AD0B7486AA2E
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_REMOVE_LOCK_OPTIONS, wdfdevice/WDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS structure, kmdf.wdf_remove_lock_options, *PWDF_REMOVE_LOCK_OPTIONS, wdf.wdf_remove_lock_options, wdfdevice/PWDF_REMOVE_LOCK_OPTIONS, _WDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS structure pointer, WDF_REMOVE_LOCK_OPTIONS
+ms.keywords: kmdf.wdf_remove_lock_options, PWDF_REMOVE_LOCK_OPTIONS structure pointer, _WDF_REMOVE_LOCK_OPTIONS, wdfdevice/WDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS, wdfdevice/PWDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS, wdf.wdf_remove_lock_options, WDF_REMOVE_LOCK_OPTIONS structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdevice.h
-apiname: 
+apiname:
 -	WDF_REMOVE_LOCK_OPTIONS
 product: Windows
 targetos: Windows
@@ -84,11 +84,17 @@ The bitwise <b>OR</b> of values from the <a href="..\wdfdevice\ne-wdfdevice-_wdf
 
 ## -see-also
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
 
+
+
+<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
+
+
 
  
 

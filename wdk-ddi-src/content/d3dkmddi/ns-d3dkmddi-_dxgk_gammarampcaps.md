@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GAMMARAMPCAPS
-title: _DXGK_GAMMARAMPCAPS
+title: "_DXGK_GAMMARAMPCAPS"
 author: windows-driver-content
 description: The DXGK_GAMMARAMPCAPS structure identifies gamma-ramp capabilities of the display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_gammarampcaps.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e160700-5d90-4241-8ed4-8d87b545b9c3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GAMMARAMPCAPS structure [Display Devices], DXGK_GAMMARAMPCAPS, _DXGK_GAMMARAMPCAPS, d3dkmddi/DXGK_GAMMARAMPCAPS, DmStructs_2f60099d-a359-41f4-b3d0-a7c0d0a6cca4.xml, display.dxgk_gammarampcaps
+ms.keywords: display.dxgk_gammarampcaps, DXGK_GAMMARAMPCAPS structure [Display Devices], DmStructs_2f60099d-a359-41f4-b3d0-a7c0d0a6cca4.xml, _DXGK_GAMMARAMPCAPS, d3dkmddi/DXGK_GAMMARAMPCAPS, DXGK_GAMMARAMPCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_GAMMARAMPCAPS
 product: Windows
 targetos: Windows
@@ -90,11 +90,17 @@ A member in the union that DXGK_GAMMARAMPCAPS contains that can hold a 32-bit va
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+
+
 
  
 

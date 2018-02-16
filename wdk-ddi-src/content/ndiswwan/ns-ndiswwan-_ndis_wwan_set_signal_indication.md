@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_SIGNAL_INDICATION
-title: _NDIS_WWAN_SET_SIGNAL_INDICATION
+title: "_NDIS_WWAN_SET_SIGNAL_INDICATION"
 author: windows-driver-content
 description: The NDIS_WWAN_SET_SIGNAL_INDICATION structure represents the signal indication of the MB device.
 old-location: netvista\ndis_wwan_set_signal_indication.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6ef6fdd4-7d52-436a-96ee-ed83fab33e7b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, netvista.ndis_wwan_set_signal_indication, ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, *PNDIS_WWAN_SET_SIGNAL_INDICATION, WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml, _NDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_SIGNAL_INDICATION
+ms.keywords: "_NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_SET_SIGNAL_INDICATION, WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml, *PNDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, netvista.ndis_wwan_set_signal_indication"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_SET_SIGNAL_INDICATION
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION
+req.typenames: NDIS_WWAN_SET_SIGNAL_INDICATION, *PNDIS_WWAN_SET_SIGNAL_INDICATION
 ---
 
 # _NDIS_WWAN_SET_SIGNAL_INDICATION structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_SET_SIG
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_SET_SIGNAL_INDICATION)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -121,8 +123,8 @@ For more information about these members, see
 ### -field SignalIndication
 
 A formatted 
-     <mshelp:link keywords="netvista.wwan_set_signal_indication" tabindex="0"><b>
-     WWAN_SET_SIGNAL_INDICATION</b></mshelp:link> object that represents the frequency of RSSI interval and RSSI
+     <a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">
+     WWAN_SET_SIGNAL_INDICATION</a> object that represents the frequency of RSSI interval and RSSI
      threshold notifications.
 
 
@@ -130,7 +132,11 @@ A formatted
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">WWAN_SET_SIGNAL_INDICATION</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_ATA_DATA_TYPE
-title: _STORAGE_PROTOCOL_ATA_DATA_TYPE
+title: "_STORAGE_PROTOCOL_ATA_DATA_TYPE"
 author: windows-driver-content
 description: The ATA protocol data type.
 old-location: storage\storage_protocol_ata_data_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4B42E143-17F5-4841-A9EA-C225B167E242
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaDataTypeUnknown, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/AtaDataTypeUnknown, _STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeIdentify, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Storage Devices], ntddstor/AtaDataTypeIdentify, ntddstor/AtaDataTypeLogPage, PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeLogPage, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Storage Devices], STORAGE_PROTOCOL_ATA_DATA_TYPE, storage.storage_protocol_ata_data_type
+ms.keywords: AtaDataTypeLogPage, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Storage Devices], AtaDataTypeUnknown, ntddstor/AtaDataTypeUnknown, ntddstor/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, storage.storage_protocol_ata_data_type, ntddstor/AtaDataTypeLogPage, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE, _STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Storage Devices], PSTORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/AtaDataTypeIdentify, AtaDataTypeIdentify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_PROTOCOL_ATA_DATA_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE
+req.typenames: "*PSTORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE"
 ---
 
 # _STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration
@@ -87,7 +87,9 @@ Log page data type.
 ## -remarks
 
 
+
 When using <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve protocol-specific information in the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_data_descriptor.md">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a>, configure the <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a> structure as follows:
+
 <ul>
 <li>
 Allocate a buffer that can contains both a <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a> and a <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure.
@@ -105,7 +107,9 @@ Set the <b>QueryType</b>  field to <b>PropertyStandardQuery</b>.
 Fill the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure with the desired values. The start of the <b>STORAGE_PROTOCOL_SPECIFIC_DATA</b> is the <b>AdditionalParameters</b> field of <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>.
 
 </li>
-</ul>To specify a type of ATA protocol-specific information,  configure the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
+</ul>
+To specify a type of ATA protocol-specific information,  configure the <a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
+
 <ul>
 <li>
 Set the <b>ProtocolType</b>  field to <b>ProtocolTypeAta</b>.
@@ -120,4 +124,5 @@ Set the <b>DataType</b>  field to an enumeration value defined by <b>STORAGE_PRO
 
 </li>
 </ul>
+
 

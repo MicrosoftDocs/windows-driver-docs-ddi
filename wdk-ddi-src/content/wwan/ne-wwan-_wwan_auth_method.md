@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_AUTH_METHOD
-title: _WWAN_AUTH_METHOD
+title: "_WWAN_AUTH_METHOD"
 author: windows-driver-content
 description: The WWAN_AUTH_METHOD enumeration lists supported authentication methods.
 old-location: netvista\wwan_auth_method.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D24D8C90-8F65-42BC-8FBC-308ECC4A73C9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_AUTH_METHOD, wwan/WwanAuthAkaPrime, wwan/WwanAuthMethodMax, WwanAuthSim, netvista.wwan_auth_method, WwanAuthAkaPrime, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthMethodMax, wwan/WwanAuthAka, _WWAN_AUTH_METHOD, *PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD, wwan/WwanAuthSim, WwanAuthAka
+ms.keywords: wwan/WwanAuthSim, _WWAN_AUTH_METHOD, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthMethodMax, WWAN_AUTH_METHOD, WwanAuthSim, WwanAuthMethodMax, *PWWAN_AUTH_METHOD, WwanAuthAka, wwan/WwanAuthAka, wwan/WwanAuthAkaPrime, netvista.wwan_auth_method, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthAkaPrime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_AUTH_METHOD
 product: Windows
 targetos: Windows
-req.typenames: WWAN_AUTH_METHOD, *PWWAN_AUTH_METHOD
+req.typenames: "*PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD"
 req.product: Windows 10 or later.
 ---
 
@@ -94,15 +94,21 @@ This value is reserved. Do not use.
 ## -remarks
 
 
+
 The <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a> and <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a> structures use this enumeration.
+
 
 
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
 
-<a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStatusUpdatedEventData
-title: _PosStatusUpdatedEventData
+title: "_PosStatusUpdatedEventData"
 author: windows-driver-content
 description: This structure contains data passed to the StatusUpdated event.
 old-location: pos\posstatusupdatedeventdata.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 382e5441-dce1-428b-90af-d57b5f930abb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posstatusupdatedeventdata, pointofservicedriverinterface/PosStatusUpdatedEventData, _PosStatusUpdatedEventData, PosStatusUpdatedEventData, PosStatusUpdatedEventData structure
+ms.keywords: "_PosStatusUpdatedEventData, PosStatusUpdatedEventData, pos.posstatusupdatedeventdata, pointofservicedriverinterface/PosStatusUpdatedEventData, PosStatusUpdatedEventData structure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosStatusUpdatedEventData
 product: Windows
 targetos: Windows

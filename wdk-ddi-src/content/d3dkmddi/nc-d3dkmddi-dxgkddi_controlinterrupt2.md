@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DxgkDdi_ControlInterrupt2
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ NTSTATUS APIENTRY* DxgkDdi_ControlInterrupt2(
 ## -returns
 
 
+
 <i>DxgkDdi_ControlInterrupt2</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,6 +115,8 @@ The interrupt type was successfully enabled or disabled on the graphics hardware
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

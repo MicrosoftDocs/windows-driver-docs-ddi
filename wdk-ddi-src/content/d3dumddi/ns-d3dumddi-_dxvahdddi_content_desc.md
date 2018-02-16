@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_CONTENT_DESC
-title: _DXVAHDDDI_CONTENT_DESC
+title: "_DXVAHDDDI_CONTENT_DESC"
 author: windows-driver-content
 description: The DXVAHDDDI_CONTENT_DESC structure describes the video content that a decode device processes.
 old-location: display\dxvahdddi_content_desc.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 635a4a47-11b8-4d78-871e-21ee438880df
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_content_desc, d3dumddi/DXVAHDDDI_CONTENT_DESC, DXVAHDDDI_CONTENT_DESC, DXVAHDDDI_CONTENT_DESC structure [Display Devices], _DXVAHDDDI_CONTENT_DESC, DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml
+ms.keywords: DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml, DXVAHDDDI_CONTENT_DESC structure [Display Devices], display.dxvahdddi_content_desc, DXVAHDDDI_CONTENT_DESC, _DXVAHDDDI_CONTENT_DESC, d3dumddi/DXVAHDDDI_CONTENT_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_CONTENT_DESC
 product: Windows
 targetos: Windows
@@ -115,15 +115,21 @@ typedef struct _DXVAHDDDI_CONTENT_DESC {
 ## -remarks
 
 
+
 The driver can use the information in the members of DXVAHDDDI_CONTENT_DESC to optimize its capabilities. For example, the driver might not require to expose costly capabilities for high-definition content and the de-interlacing capability for progressive content. 
+
 
 
 
 ## -see-also
 
+<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_frame_format.md">DXVAHDDDI_FRAME_FORMAT</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_frame_format.md">DXVAHDDDI_FRAME_FORMAT</a>
+
 
  
 

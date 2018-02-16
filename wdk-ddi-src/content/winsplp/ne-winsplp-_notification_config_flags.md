@@ -1,14 +1,14 @@
 ---
 UID: NE:winsplp._NOTIFICATION_CONFIG_FLAGS
-title: _NOTIFICATION_CONFIG_FLAGS
+title: "_NOTIFICATION_CONFIG_FLAGS"
 author: windows-driver-content
-description: .
+description: "."
 old-location: print\notification_config_flags.htm
 old-project: print
 ms.assetid: B53AB706-D780-4E29-A531-51D3A9041D24
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: winsplp/NOTIFICATION_CONFIG_FLAGS, winsplp/NOTIFICATION_CONFIG_EVENT_TRIGGER, NOTIFICATION_CONFIG_REGISTER_CALLBACK, winsplp/NOTIFICATION_CONFIG_CREATE_EVENT, NOTIFICATION_CONFIG_EVENT_TRIGGER, _NOTIFICATION_CONFIG_FLAGS, NOTIFICATION_CONFIG_ASYNC_CHANNEL, NOTIFICATION_CONFIG_FLAGS enumeration [Print Devices], winsplp/NOTIFICATION_CONFIG_REGISTER_CALLBACK, NOTIFICATION_CONFIG_CREATE_EVENT, print.notification_config_flags, winsplp/NOTIFICATION_CONFIG_ASYNC_CHANNEL, NOTIFICATION_CONFIG_FLAGS
+ms.date: 2/2/2018
+ms.keywords: NOTIFICATION_CONFIG_CREATE_EVENT, NOTIFICATION_CONFIG_ASYNC_CHANNEL, print.notification_config_flags, winsplp/NOTIFICATION_CONFIG_CREATE_EVENT, NOTIFICATION_CONFIG_FLAGS, winsplp/NOTIFICATION_CONFIG_EVENT_TRIGGER, NOTIFICATION_CONFIG_EVENT_TRIGGER, winsplp/NOTIFICATION_CONFIG_ASYNC_CHANNEL, _NOTIFICATION_CONFIG_FLAGS, winsplp/NOTIFICATION_CONFIG_REGISTER_CALLBACK, winsplp/NOTIFICATION_CONFIG_FLAGS, NOTIFICATION_CONFIG_FLAGS enumeration [Print Devices], NOTIFICATION_CONFIG_REGISTER_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	NOTIFICATION_CONFIG_FLAGS
 product: Windows
 targetos: Windows
@@ -74,15 +74,11 @@ typedef enum _NOTIFICATION_CONFIG_FLAGS {
 ### -field NOTIFICATION_CONFIG_CREATE_EVENT
 
 
-
 ### -field NOTIFICATION_CONFIG_REGISTER_CALLBACK
-
 
 
 ### -field NOTIFICATION_CONFIG_EVENT_TRIGGER
 
 
-
 ### -field NOTIFICATION_CONFIG_ASYNC_CHANNEL
-
 

@@ -7,8 +7,8 @@ old-location: ifsk\ioisfileopenedexclusively.htm
 old-project: ifsk
 ms.assetid: ffe3196b-22f4-4d45-abcc-928857d215b5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.ioisfileopenedexclusively, ntifs/IoIsFileOpenedExclusively, IoIsFileOpenedExclusively macro [Installable File System Drivers], IoIsFileOpenedExclusively, ioref_3aa5aef5-1d17-4301-b02f-8013829fea38.xml
+ms.date: 2/7/2018
+ms.keywords: ifsk.ioisfileopenedexclusively, IoIsFileOpenedExclusively macro [Installable File System Drivers], ntifs/IoIsFileOpenedExclusively, ioref_3aa5aef5-1d17-4301-b02f-8013829fea38.xml, IoIsFileOpenedExclusively
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ntifs.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	IoIsFileOpenedExclusively
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ The <b>IoIsFileOpenedExclusively</b> macro is reserved for system use.
 ### -param FileObject
 
 TBD
+
 
 
 

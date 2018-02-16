@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_CLIENT_DATAGRAM_DISPATCH
-title: _WSK_CLIENT_DATAGRAM_DISPATCH
+title: "_WSK_CLIENT_DATAGRAM_DISPATCH"
 author: windows-driver-content
 description: The WSK_CLIENT_DATAGRAM_DISPATCH structure specifies a WSK application's dispatch table of event callback functions for a datagram socket.
 old-location: netvista\wsk_client_datagram_dispatch.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 559a98e0-61fd-4234-a595-e533e7eaafe8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WSK_CLIENT_DATAGRAM_DISPATCH structure [Network Drivers Starting with Windows Vista], PWSK_CLIENT_DATAGRAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH, netvista.wsk_client_datagram_dispatch, wskref_131878e6-5665-47e1-9b84-0dcbdecb9444.xml, wsk/PWSK_CLIENT_DATAGRAM_DISPATCH, *PWSK_CLIENT_DATAGRAM_DISPATCH, _WSK_CLIENT_DATAGRAM_DISPATCH, wsk/WSK_CLIENT_DATAGRAM_DISPATCH
+ms.keywords: netvista.wsk_client_datagram_dispatch, _WSK_CLIENT_DATAGRAM_DISPATCH, *PWSK_CLIENT_DATAGRAM_DISPATCH, WSK_CLIENT_DATAGRAM_DISPATCH structure [Network Drivers Starting with Windows Vista], wsk/PWSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH, wsk/WSK_CLIENT_DATAGRAM_DISPATCH, wskref_131878e6-5665-47e1-9b84-0dcbdecb9444.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_CLIENT_DATAGRAM_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: WSK_CLIENT_DATAGRAM_DISPATCH, *PWSK_CLIENT_DATAGRAM_DISPATCH
+req.typenames: "*PWSK_CLIENT_DATAGRAM_DISPATCH, WSK_CLIENT_DATAGRAM_DISPATCH"
 req.product: Windows 10 or later.
 ---
 
@@ -80,6 +80,7 @@ A pointer to the WSK application's
 ## -remarks
 
 
+
 A WSK application passes a pointer to a WSK_CLIENT_DATAGRAM_DISPATCH structure to the WSK subsystem
     when the WSK application calls the 
     <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function to create a datagram
@@ -87,14 +88,21 @@ A WSK application passes a pointer to a WSK_CLIENT_DATAGRAM_DISPATCH structure t
 
 
 
+
 ## -see-also
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+
+
 
 <a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
 
-<mshelp:link keywords="netvista.wsk_provider_datagram_dispatch" tabindex="0"><b>
-   WSK_PROVIDER_DATAGRAM_DISPATCH</b></mshelp:link>
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
  
 

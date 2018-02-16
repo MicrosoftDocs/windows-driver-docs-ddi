@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 58550baa-8d15-43c7-b75d-1370c36e833d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], OpenLogFile2 method, debugger.openlogfile2, OpenLogFile2 method [Windows Debugging], IDebugControl4::OpenLogFile2, IDebugControl_93e0a810-9b23-43c2-b714-99a39c398f1e.xml, IDebugControl4, OpenLogFile2, dbgeng/IDebugControl4::OpenLogFile2, OpenLogFile2 method [Windows Debugging], IDebugControl4 interface
+ms.keywords: IDebugControl4 interface [Windows Debugging], OpenLogFile2 method, OpenLogFile2, dbgeng/IDebugControl4::OpenLogFile2, debugger.openlogfile2, OpenLogFile2 method [Windows Debugging], IDebugControl_93e0a810-9b23-43c2-b714-99a39c398f1e.xml, IDebugControl4, OpenLogFile2 method [Windows Debugging], IDebugControl4 interface, IDebugControl4::OpenLogFile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.OpenLogFile2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::OpenLogFile2 method
@@ -76,6 +76,7 @@ Specifies the name of the log file.  <i>File</i> can include a relative or absol
 ### -param Flags [in]
 
 Specifies the bit-flags that control the nature of the log file.  <i>Flags</i> can contain flags from the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -101,7 +102,8 @@ The format of the log file will be Unicode instead of ASCII.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Alternatively, <i>Flags</i> can be set to DEBUG_LOG_DEFAULT for the default set of options that contains none of the flags.
 
@@ -109,7 +111,9 @@ Alternatively, <i>Flags</i> can be set to DEBUG_LOG_DEFAULT for the default set 
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,11 +130,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Only one log file can be open at a time.  If there is already a log file open, it will be closed.
@@ -139,23 +146,40 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+
+
 
  
 

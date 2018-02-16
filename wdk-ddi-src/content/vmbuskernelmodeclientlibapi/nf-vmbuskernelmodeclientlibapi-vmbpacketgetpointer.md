@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 56B9C623-2038-4DD3-AA1B-D9A6E47E06C1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbPacketGetPointer, vmbuskernelmodeclientlibapi/VmbPacketGetPointer, netvista.vmbpacketgetpointer, VmbPacketGetPointer function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmbpacketgetpointer, vmbuskernelmodeclientlibapi/VmbPacketGetPointer, VmbPacketGetPointer function [Network Drivers Starting with Windows Vista], VmbPacketGetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbPacketGetPointer
 product: Windows
 targetos: Windows
@@ -80,13 +80,17 @@ The handle of a packet object.
 ## -returns
 
 
+
 <b>VmbPacketGetPointer</b> returns the value previously saved by using <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer.md">VmbPacketSetPointer</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer.md">VmbPacketSetPointer</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_IO_INFO
-title: _SRBEX_DATA_IO_INFO
+title: "_SRBEX_DATA_IO_INFO"
 author: windows-driver-content
 description: The SRBEX_DATA_IO_INFO structure contains additional information related to a read or write request in an extended SRB.
 old-location: storage\srbex_data_io_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D4B99D6F-0A0C-49CE-A8E2-19C1A835EDA6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, SRBEX_DATA_IO_INFO, REQUEST_INFO_WRITE_THROUGH_FLAG, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG, storport/SRBEX_DATA_IO_INFO, *PSRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO structure [Storage Devices], storage.srbex_data_io_info, REQUEST_INFO_TEMPORARY_FLAG, _SRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO, REQUEST_INFO_PAGING_IO_FLAG, storport/PSRBEX_DATA_IO_INFO
+ms.keywords: SRBEX_DATA_IO_INFO, storport/PSRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO structure [Storage Devices], PSRBEX_DATA_IO_INFO, REQUEST_INFO_PAGING_IO_FLAG, *PSRBEX_DATA_IO_INFO, REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, _SRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, storport/SRBEX_DATA_IO_INFO, REQUEST_INFO_NO_CACHE_FLAG, storage.srbex_data_io_info, REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	SRBEX_DATA_IO_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PSRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO
+req.typenames: "*PSRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -89,6 +89,7 @@ Length of the data in this structure, in bytes, starting with the <b>Flags</b> m
 ### -field Flags
 
 Flags set for handling the request. May be a combination of these values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -168,7 +169,8 @@ This flag is available starting with Windows 8.1 Update.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Key
@@ -208,6 +210,8 @@ This member is present starting with Windows 8.1 Update.
 ## -see-also
 
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 

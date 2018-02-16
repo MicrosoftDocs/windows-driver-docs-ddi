@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 9274c3eb-a5c0-43a9-a9d4-541482ddace1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl_9cacf343-5c88-4a06-8f68-7c94b15419b8.xml, IDebugControl3 interface [Windows Debugging], AddAssemblyOptions method, AddAssemblyOptions method [Windows Debugging], IDebugControl3 interface, debugger.addassemblyoptions, dbgeng/IDebugControl3::AddAssemblyOptions, AddAssemblyOptions method [Windows Debugging], AddAssemblyOptions, IDebugControl3::AddAssemblyOptions, IDebugControl3
+ms.keywords: debugger.addassemblyoptions, AddAssemblyOptions method [Windows Debugging], IDebugControl3, IDebugControl_9cacf343-5c88-4a06-8f68-7c94b15419b8.xml, AddAssemblyOptions, IDebugControl3 interface [Windows Debugging], AddAssemblyOptions method, dbgeng/IDebugControl3::AddAssemblyOptions, IDebugControl3::AddAssemblyOptions, AddAssemblyOptions method [Windows Debugging], IDebugControl3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.AddAssemblyOptions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::AddAssemblyOptions method
@@ -75,6 +75,7 @@ Specifies the assembly and disassembly options to turn on.  <i>Options</i> is a 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -91,36 +92,56 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 These methods can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 For more information about using assembly with the <a href="https://msdn.microsoft.com/e4d53375-c82e-493b-9ccb-444c211fbc79">debugger engine API</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538127">Assembling and Disassembling Instructions</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+
+
 
  
 

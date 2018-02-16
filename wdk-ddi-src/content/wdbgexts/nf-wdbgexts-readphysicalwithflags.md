@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7ff5787f-f663-4ceb-be59-4f48ecea03a9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: wdbgexts/ReadPhysicalWithFlags, debugger.readphysicalwithflags, ReadPhysicalWithFlags function [Windows Debugging], ReadPhysicalWithFlags, WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml
+ms.keywords: WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, ReadPhysicalWithFlags function [Windows Debugging], wdbgexts/ReadPhysicalWithFlags, ReadPhysicalWithFlags, debugger.readphysicalwithflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	ReadPhysicalWithFlags
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ Specifies the number of bytes to read.
 ### -param flags
 
 Specifies the properties of the physical memory to be read.  This must match the way the physical memory was advertised to the operating system on the target.  Possible values are listed in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -135,7 +136,8 @@ The physical memory is write-combined.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param sizer
@@ -146,11 +148,14 @@ Receives the number of bytes actually read.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
@@ -158,11 +163,16 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 
 
+
 ## -see-also
+
+<a href="..\wdbgexts\nf-wdbgexts-writephysicalwithflags.md">WritePhysicalWithFlags</a>
+
+
 
 <a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
 
-<a href="..\wdbgexts\nf-wdbgexts-writephysicalwithflags.md">WritePhysicalWithFlags</a>
+
 
  
 

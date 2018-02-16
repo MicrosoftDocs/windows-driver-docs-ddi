@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e2fc87c9-e48f-4e18-ae1b-52a7cc701e91
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfreedefaultclock, KsFreeDefaultClock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, KsFreeDefaultClock function [Streaming Media Devices], ks/KsFreeDefaultClock
+ms.keywords: KsFreeDefaultClock function [Streaming Media Devices], ks/KsFreeDefaultClock, stream.ksfreedefaultclock, KsFreeDefaultClock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFreeDefaultClock
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ Specifies the previously allocated structure to free.
 ## -returns
 
 
+
 None
+
 
 

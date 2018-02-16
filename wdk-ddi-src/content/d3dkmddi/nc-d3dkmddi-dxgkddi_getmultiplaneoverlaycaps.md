@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKDDI_GETMULTIPLANEOVERLAYCAPS
 product: Windows
 targetos: Windows
@@ -81,7 +81,9 @@ A pointer to a DXGKARG_GETMULTIPLANEOVERLAYCAPS structure that receives the driv
 ## -returns
 
 
+
 DXGKDDI_GETMULTIPLANEOVERLAYCAPS returns the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -98,11 +100,14 @@ If the routine has been successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This function is called at PASSIVE_LEVEL.
@@ -110,6 +115,7 @@ This function is called at PASSIVE_LEVEL.
 The multiplane overlay capabilities are allowed to change due to display configuration changes.
 
 For WDDM 2.2 drivers, this DDI is used to retrieve the multiplane overlay capabilities rather than the user mode DDIs. 
+
 
 
 

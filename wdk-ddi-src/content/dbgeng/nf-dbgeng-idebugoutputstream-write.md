@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: Write, IDebugOutputStream, Write method [Windows Debugging], dbgeng/IDebugOutputStream::Write, IDebugOutputStream::Write, IDebugOutputStream interface [Windows Debugging], Write method, Write method [Windows Debugging], IDebugOutputStream interface, debugger.idebugoutputstream_write
+ms.keywords: Write method [Windows Debugging], Write, IDebugOutputStream interface [Windows Debugging], Write method, debugger.idebugoutputstream_write, IDebugOutputStream, IDebugOutputStream::Write, dbgeng/IDebugOutputStream::Write, Write method [Windows Debugging], IDebugOutputStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugOutputStream.Write
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugOutputStream::Write method
@@ -75,13 +75,17 @@ A pointer to a Unicode character string of content to write.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugoutputstream.md">IDebugOutputStream</a>
+
+
 
  
 

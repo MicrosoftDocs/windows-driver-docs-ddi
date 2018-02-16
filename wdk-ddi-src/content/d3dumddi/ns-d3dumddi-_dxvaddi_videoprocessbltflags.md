@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEOPROCESSBLTFLAGS
-title: _DXVADDI_VIDEOPROCESSBLTFLAGS
+title: "_DXVADDI_VIDEOPROCESSBLTFLAGS"
 author: windows-driver-content
 description: The DXVADDI_VIDEOPROCESSBLTFLAGS structure identifies changes in the current destination surface from the previous destination surface.
 old-location: display\dxvaddi_videoprocessbltflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 790a18fa-5481-432a-921b-6310a0ab78d7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, _DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS, display.dxvaddi_videoprocessbltflags, DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices]
+ms.keywords: d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, _DXVADDI_VIDEOPROCESSBLTFLAGS, DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, display.dxvaddi_videoprocessbltflags, DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_VIDEOPROCESSBLTFLAGS
 product: Windows
 targetos: Windows
@@ -121,6 +121,8 @@ A 32-bit value that identifies changes in the current destination surface from t
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
+
+
 
  
 

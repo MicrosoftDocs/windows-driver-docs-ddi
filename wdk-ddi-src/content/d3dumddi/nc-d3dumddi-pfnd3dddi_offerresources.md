@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	OfferResources
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ _Check_return_ HRESULT APIENTRY* OfferResources(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">D3DDDIARG_OFFERRESOURCES</a> structure that defines the video memory resources that the driver offers.
@@ -92,7 +94,9 @@ _Check_return_ HRESULT APIENTRY* OfferResources(
 
 
 
+
        Returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +127,14 @@ If the driver is not aware of the adapter removal, the driver is not required to
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the user-mode driver does not have outstanding work queued that references an allocation that it has been asked to offer, then it can offer the allocation immediately or postpone the offer until the next call is made to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a> or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a> functions. However, the driver must always process all batched offer calls that have been submitted through <i>Flush</i> or <i>Present</i>.
@@ -136,17 +143,28 @@ If the driver uses the <a href="https://msdn.microsoft.com/f22e19ba-9ff3-4aa1-a3
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">D3DDDIARG_OFFERRESOURCES</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_present.md">Present</a>
+
+
 
  
 

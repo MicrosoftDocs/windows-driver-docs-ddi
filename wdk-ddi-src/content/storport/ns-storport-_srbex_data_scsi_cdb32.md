@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SRBEX_DATA_SCSI_CDB32
-title: _SRBEX_DATA_SCSI_CDB32
+title: "_SRBEX_DATA_SCSI_CDB32"
 author: windows-driver-content
 description: The SRBEX_DATA_SCSI_CDB32 structure contains the extended SRB data for a 32-byte SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb32.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8BE53883-2FD0-4CAB-928E-532587DA80C3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], storport/PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32, storage.srbex_data_scsi_cdb32, *PSRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], storport/SRBEX_DATA_SCSI_CDB32
+ms.keywords: storport/SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], *PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32, storport/PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], storage.srbex_data_scsi_cdb32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	SRBEX_DATA_SCSI_CDB32
 product: Windows
 targetos: Windows
-req.typenames: *PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32
+req.typenames: SRBEX_DATA_SCSI_CDB32, *PSRBEX_DATA_SCSI_CDB32
 req.product: Windows 10 or later.
 ---
 
@@ -124,7 +124,9 @@ The 32-byte CDB buffer.
 ## -remarks
 
 
+
 This structure is used to submit an extended SRB data for a CDB of 32 bytes or less.
+
 
 
 
@@ -132,7 +134,11 @@ This structure is used to submit an extended SRB data for a CDB of 32 bytes or l
 
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
+
+
 <a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+
+
 
  
 

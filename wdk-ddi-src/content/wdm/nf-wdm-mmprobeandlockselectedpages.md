@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1DA632FF-FD5F-4C4C-8B8E-5AC26069094A
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockselectedpages_, MmProbeAndLockSelectedPages, wdm/MmProbeAndLockSelectedPages
+ms.keywords: MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], MmProbeAndLockSelectedPages, kernel.mmprobeandlockselectedpages_, wdm/MmProbeAndLockSelectedPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	MmProbeAndLockSelectedPages
 product: Windows
 targetos: Windows
@@ -94,20 +94,26 @@ Specifies the type of operation for which the caller wants the access rights pro
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 Calls to <b>MmProbeAndLockSelectedPages</b> must be enclosed in a <b>try/except</b> block. If the pages do not support the specified operation, the routine raises the STATUS_ACCESS_VIOLATION or other exceptions. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546823">Handling Exceptions</a>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
 
  
 

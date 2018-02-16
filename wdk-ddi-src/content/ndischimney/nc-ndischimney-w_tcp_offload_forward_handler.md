@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndischimney.h
-apiname: 
+apiname:
 -	MiniportTcpOffloadForward
 product: Windows
 targetos: Windows
@@ -81,10 +81,10 @@ NDIS_STATUS MiniportTcpOffloadForward(
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <mshelp:link keywords="netvista.ndismsetminiportattributes" tabindex="0"><b>
-     NdisMSetMiniportAttributes</b></mshelp:link> from its 
-     <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-     MiniportInitializeEx</i></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     NdisMSetMiniportAttributes</a> from its 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     MiniportInitializeEx</a> function.
 
 
 ### -param MiniportOffloadContext [in]
@@ -112,18 +112,22 @@ A pointer to a
 ## -returns
 
 
+
 NDIS_STATUS_PENDING is the only allowable return value. An offload target always completes a
      forward request asynchronously by calling the 
-     <mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-     NdisTcpOffloadForwardComplete</b></mshelp:link> function.
+     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+     NdisTcpOffloadForwardComplete</a> function.
+
 
 
 
 ## -remarks
 
 
+
 The host stack forwards one or more TCP segments that it has received but not acknowledged in the
     following situations:
+
 <ul>
 <li>
 The host stack received the segments on a TCP connection that was being offloaded to the offload
@@ -142,7 +146,9 @@ The offload target previously indicated received packets that had IP options set
       the packets, the host stack forwards the TCP segments to the offload target.
 
 </li>
-</ul>The host stack never attempts to forward TCP segments for a TCP connection when:
+</ul>
+The host stack never attempts to forward TCP segments for a TCP connection when:
+
 <ul>
 <li>
 That connection is being offloaded. The host stack always waits for the offload of the connection to
@@ -156,7 +162,8 @@ The offload of that connection is being terminated. In this case, the host stack
       until the termination of the offload completes and then processes the segments.
 
 </li>
-</ul>The host stack forwards TCP segments--not IP datagrams--to an offload target. Therefore, the only
+</ul>
+The host stack forwards TCP segments--not IP datagrams--to an offload target. Therefore, the only
     header that the host stack supplies for each segment is the TCP header, including any TCP options that
     are present. This is all the header information that the offload target needs to process the received
     segment.
@@ -168,9 +175,10 @@ When forwarding TCP segments, the host stack transfers one TCP segment per NET_B
 The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS passes to the 
     <i>MiniportTcpOffloadForward</i> function. The offload target owns these resources until it passes them to
     the 
-    <mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-    NdisTcpOffloadForwardComplete</b></mshelp:link> function. While it owns these resources, the offload target is free
+    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+    NdisTcpOffloadForwardComplete</a> function. While it owns these resources, the offload target is free
     to queue them for processing.
+
 
 
 
@@ -178,12 +186,20 @@ The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<mshelp:link keywords="netvista.ndistcpoffloadforwardcomplete" tabindex="0"><b>
-   NdisTcpOffloadForwardComplete</b></mshelp:link>
+
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+   NdisTcpOffloadForwardComplete</a>
+
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
 
  
 

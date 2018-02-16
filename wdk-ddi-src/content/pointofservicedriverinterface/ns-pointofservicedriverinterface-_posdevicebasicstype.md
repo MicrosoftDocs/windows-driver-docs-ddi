@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosDeviceBasicsType
-title: _PosDeviceBasicsType
+title: "_PosDeviceBasicsType"
 author: windows-driver-content
 description: This structure indicates the type of device, version, and recommended buffer size as specified by the driver.
 old-location: pos\posdevicebasicstype.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posdevicebasicstype, pointofservicedriverinterface/PosDeviceBasicsType, PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType
+ms.keywords: PosDeviceBasicsType structure, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype, PosDeviceBasicsType, _PosDeviceBasicsType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceDriverInterface.h
-apiname: 
+apiname:
 -	PosDeviceBasicsType
 product: Windows
 targetos: Windows

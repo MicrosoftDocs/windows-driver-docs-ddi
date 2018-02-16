@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1032282B-7CA3-4162-8FC2-1A4A683E9DEF
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetJobSilo, PsGetJobSilo routine [Kernel-Mode Driver Architecture], PsGetJobSilo, kernel.psgetjobsilo
+ms.keywords: PsGetJobSilo routine [Kernel-Mode Driver Architecture], ntddk/PsGetJobSilo, PsGetJobSilo, kernel.psgetjobsilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PsGetJobSilo
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetJobSilo function
@@ -86,7 +86,9 @@ A job object.
 ## -returns
 
 
+
 The following NT status codes are returned.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,6 +127,8 @@ A PESILO is returned successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

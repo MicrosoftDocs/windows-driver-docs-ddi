@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	ReconstructStack
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback
@@ -89,8 +89,9 @@ Native frames.
 Specifies the number of native frames.
 
 
-### -param *StackSymFrames
+### -param *StackSymFrames [out]
 
+A pointer to a symbol frames stack.
 
 
 ### -param StackSymFramesFilled [out]
@@ -98,19 +99,17 @@ Specifies the number of native frames.
 Symbol frames stack filled value.
 
 
-#### - StackSymFrames [out]
-
-A pointer to a symbol frames stack.
-
-
 ## -returns
+
 
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 This function returns stack frames and symbolic data.
@@ -120,5 +119,6 @@ New in-line frames may be provided.
 Stack dump provider must be enabled.
 
 <i>ReconstructStack</i> is called <b>PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK</b>  in the Dbgeng.h header file.
+
 
 

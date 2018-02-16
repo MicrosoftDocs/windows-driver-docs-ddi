@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_MESSAGE_HEADER
-title: _WDI_MESSAGE_HEADER
+title: "_WDI_MESSAGE_HEADER"
 author: windows-driver-content
 description: The WDI_MESSAGE_HEADER structure defines the WDI message header. All WDI command messages must start with this header.
 old-location: netvista\wdi_message_header.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 69c3ebf5-8805-47d0-a507-d2e3e1d1b0df
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PWDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER structure [Network Drivers Starting with Windows Vista], _WDI_MESSAGE_HEADER, dot11wdi/WDI_MESSAGE_HEADER, netvista.wdi_message_header, PWDI_MESSAGE_HEADER structure pointer [Network Drivers Starting with Windows Vista], *PWDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER, dot11wdi/PWDI_MESSAGE_HEADER
+ms.keywords: "_WDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER structure [Network Drivers Starting with Windows Vista], netvista.wdi_message_header, *PWDI_MESSAGE_HEADER, PWDI_MESSAGE_HEADER structure pointer [Network Drivers Starting with Windows Vista], dot11wdi/PWDI_MESSAGE_HEADER, PWDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER, dot11wdi/WDI_MESSAGE_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	WDI_MESSAGE_HEADER
 product: Windows
 targetos: Windows
-req.typenames: *PWDI_MESSAGE_HEADER, WDI_MESSAGE_HEADER
+req.typenames: WDI_MESSAGE_HEADER, *PWDI_MESSAGE_HEADER
 ---
 
 # _WDI_MESSAGE_HEADER structure

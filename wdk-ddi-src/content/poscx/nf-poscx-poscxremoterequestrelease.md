@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 1755E30C-15F8-41A9-9F4C-26455C92B66A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PosCxRemoteRequestRelease, poscx/PosCxRemoteRequestRelease, pos.poscxremoterequestrelease, PosCxRemoteRequestRelease function
+ms.keywords: PosCxRemoteRequestRelease function, PosCxRemoteRequestRelease, pos.poscxremoterequestrelease, poscx/PosCxRemoteRequestRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxRemoteRequestRelease
 product: Windows
 targetos: Windows
@@ -83,7 +83,9 @@ The device interface that initiated the release request.
 ## -returns
 
 
+
 Possible return values are:
+
 <table>
 <tr>
 <td><b>STATUS_SUCCESS</b></td>
@@ -93,6 +95,8 @@ Possible return values are:
 <td><b>STATUS_DEVICE_NOT_READY</b></td>
 <td>The PosCx library was not successfully initialized.</td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfinterrupt._WDF_INTERRUPT_POLARITY
-title: _WDF_INTERRUPT_POLARITY
+title: "_WDF_INTERRUPT_POLARITY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_POLARITY enumeration type is used to specify an interrupt signal's polarity.
 old-location: wdf\wdf_interrupt_polarity_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 30E61DCE-D88C-47B5-B5CD-3C43C6157FBA
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.wdf_interrupt_polarity, wdf.wdf_interrupt_polarity_umdf, wudfinterrupt/PWDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptPolarityUnknown, wudfinterrupt/WDF_INTERRUPT_POLARITY, WdfInterruptPolarityUnknown, *PWDF_INTERRUPT_POLARITY, WdfInterruptActiveHigh, PWDF_INTERRUPT_POLARITY enumeration pointer, PWDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptActiveHigh, WDF_INTERRUPT_POLARITY enumeration, WdfInterruptActiveLow, _WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptActiveLow
+ms.keywords: wudfinterrupt/PWDF_INTERRUPT_POLARITY, _WDF_INTERRUPT_POLARITY, PWDF_INTERRUPT_POLARITY enumeration pointer, PWDF_INTERRUPT_POLARITY, WdfInterruptPolarityUnknown, WDF_INTERRUPT_POLARITY enumeration, wdf.wdf_interrupt_polarity_umdf, wudfinterrupt/WdfInterruptActiveHigh, wudfinterrupt/WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY, umdf.wdf_interrupt_polarity, WDF_INTERRUPT_POLARITY, WdfInterruptActiveHigh, wudfinterrupt/WdfInterruptPolarityUnknown, wudfinterrupt/WdfInterruptActiveLow, WdfInterruptActiveLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_POLARITY
 product: Windows
 targetos: Windows
@@ -90,6 +90,8 @@ The interrupt signal is active when it is low.
 ## -remarks
 
 
+
 The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_polarity.md">WDF_INTERRUPT_POLARITY</a> enumeration type is used to specify a member of the <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
+
 
 

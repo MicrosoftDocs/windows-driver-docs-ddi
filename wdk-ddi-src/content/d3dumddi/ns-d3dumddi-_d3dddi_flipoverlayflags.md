@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_FLIPOVERLAYFLAGS
-title: _D3DDDI_FLIPOVERLAYFLAGS
+title: "_D3DDDI_FLIPOVERLAYFLAGS"
 author: windows-driver-content
 description: The D3DDDI_FLIPOVERLAYFLAGS structure identifies how to flip a resource on an overlay.
 old-location: display\d3dddi_flipoverlayflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 09146e6b-3ac0-422a-addb-831394a15c08
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_FLIPOVERLAYFLAGS structure [Display Devices], display.d3dddi_flipoverlayflags, D3D_other_Structs_a62b399d-d553-4325-9f5a-ceb08287d4f4.xml, _D3DDDI_FLIPOVERLAYFLAGS, D3DDDI_FLIPOVERLAYFLAGS, d3dumddi/D3DDDI_FLIPOVERLAYFLAGS
+ms.keywords: D3DDDI_FLIPOVERLAYFLAGS structure [Display Devices], D3DDDI_FLIPOVERLAYFLAGS, d3dumddi/D3DDDI_FLIPOVERLAYFLAGS, D3D_other_Structs_a62b399d-d553-4325-9f5a-ceb08287d4f4.xml, _D3DDDI_FLIPOVERLAYFLAGS, display.d3dddi_flipoverlayflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDI_FLIPOVERLAYFLAGS
 product: Windows
 targetos: Windows
@@ -101,6 +101,8 @@ A member in the union that is contained in D3DDDI_FLIPOVERLAYFLAGS that can hold
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a>
+
+
 
  
 

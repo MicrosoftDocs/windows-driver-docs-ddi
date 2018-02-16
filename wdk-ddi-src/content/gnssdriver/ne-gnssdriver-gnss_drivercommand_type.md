@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: 61D7C52C-D8C9-4BBE-9DCA-B5E934A02FAE
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_SetNMEALogging, GNSS_ForceOperationMode, gnssdriver/GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_SetLocationServiceEnabled, GNSS_SetLocationServiceEnabled, GNSS_CustomCommand, GNSS_ClearAgnssData, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_ForceSatelliteSystem, GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_ResetEngine, GNSS_DRIVERCOMMAND_TYPE, GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_ForceOperationMode, GNSS_ForceSatelliteSystem, GNSS_SetNMEALogging, gnssdriver/GNSS_CustomCommand, gnssdriver/GNSS_SetSuplVersion, GNSS_SetSuplVersion, gnssdriver/GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_SetLocationNIRequestAllowed, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_ClearAgnssData, sensors.gnss_drivercommand_type, GNSS_ResetEngine, GNSS_SetLocationNIRequestAllowed, GNSS_ResetGeofencesTracking, gnssdriver/GNSS_DRIVERCOMMAND_TYPE
+ms.keywords: gnssdriver/GNSS_ResetGeofencesTracking, GNSS_CustomCommand, gnssdriver/GNSS_ClearAgnssData, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_CustomCommand, GNSS_DRIVERCOMMAND_TYPE, GNSS_SetSuplVersion, GNSS_ForceSatelliteSystem, gnssdriver/GNSS_SetNiTimeoutInterval, GNSS_ResetEngine, gnssdriver/GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_SetLocationNIRequestAllowed, GNSS_ForceOperationMode, GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_ForceOperationMode, GNSS_SetNMEALogging, gnssdriver/GNSS_SetUplServerAccessInterval, GNSS_ResetGeofencesTracking, gnssdriver/GNSS_SetNMEALogging, GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_ResetEngine, sensors.gnss_drivercommand_type, GNSS_ClearAgnssData, GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_ForceSatelliteSystem, GNSS_SetLocationServiceEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_DRIVERCOMMAND_TYPE
 product: Windows
 targetos: Windows

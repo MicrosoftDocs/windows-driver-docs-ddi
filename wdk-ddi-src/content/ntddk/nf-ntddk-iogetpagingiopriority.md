@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b0f4fc9-58fd-46ba-be17-2e1b36b16caa
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetPagingIoPriority, wdm/IoGetPagingIoPriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority
+ms.keywords: IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], kernel.iogetpagingiopriority, IoGetPagingIoPriority, wdm/IoGetPagingIoPriority, k104_cde35790-d059-44bb-85c5-abde7cb36319.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetPagingIoPriority
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoGetPagingIoPriority function
@@ -75,20 +75,26 @@ Pointer to the IRP to be tested for paging priority.
 ## -returns
 
 
+
 <b>IoGetPagingIoPriority</b> returns the <a href="..\wdm\ne-wdm-_io_paging_priority.md">IO_PAGING_PRIORITY</a> value for the associated IRP.
+
 
 
 
 ## -remarks
 
 
+
 For I/O requests that causing paging, the system associates an <b>IO_PAGING_PRIORITY</b> value that describes the IRP's priority. Drivers can use this value when queuing IRPs.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\ne-wdm-_io_paging_priority.md">IO_PAGING_PRIORITY</a>
+
+
 
  
 

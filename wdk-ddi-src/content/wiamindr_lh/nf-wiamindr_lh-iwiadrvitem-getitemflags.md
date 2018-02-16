@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 47358d69-ef45-4cac-8187-72c354912c4e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetItemFlags, image.iwiadrvitem_getitemflags, IWiaDrvItem::GetItemFlags, GetItemFlags method [Imaging Devices], IWiaDrvItem interface [Imaging Devices], GetItemFlags method, GetItemFlags method [Imaging Devices], IWiaDrvItem interface, DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, wiamindr_lh/IWiaDrvItem::GetItemFlags, IWiaDrvItem
+ms.keywords: IWiaDrvItem interface [Imaging Devices], GetItemFlags method, image.iwiadrvitem_getitemflags, IWiaDrvItem::GetItemFlags, GetItemFlags method [Imaging Devices], GetItemFlags method [Imaging Devices], IWiaDrvItem interface, DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, GetItemFlags, wiamindr_lh/IWiaDrvItem::GetItemFlags, IWiaDrvItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.GetItemFlags
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ HRESULT GetItemFlags(
 
 
 
+
 #### - plFlags [out]
 
 Points to a memory location that will receive the item flags.
@@ -82,14 +83,18 @@ Points to a memory location that will receive the item flags.
 ## -returns
 
 
+
 If the method succeeds, it places the item flag values in the location pointed to by <i>plFlags</i> and returns S_OK. If the pointer <i>plFlags</i> is invalid, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 The method places the current <b>IWiaDrvItem</b> item's flag values in the location pointed to by <i>pIFlags</i>. The item's flag values were set when the item was created by the driver services library function <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>.
+
 
 
 
@@ -97,7 +102,11 @@ The method places the current <b>IWiaDrvItem</b> item's flag values in the locat
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
+
+
 
  
 

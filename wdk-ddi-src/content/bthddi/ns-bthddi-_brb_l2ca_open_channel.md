@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_OPEN_CHANNEL
-title: _BRB_L2CA_OPEN_CHANNEL
+title: "_BRB_L2CA_OPEN_CHANNEL"
 author: windows-driver-content
 description: The _BRB_L2CA_OPEN_CHANNEL structure describes a L2CAP channel to open to a remote device, or a response from the profile driver accepting or rejecting an incoming L2CAP connection request that was initiated by a remote device.
 old-location: bltooth\_brb_l2ca_open_channel.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 16f79360-c8fd-4be9-9c94-7fa2a1d8c6b5
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _BRB_L2CA_OPEN_CHANNEL, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_L2CA_OPEN_CHANNEL, bltooth._brb_l2ca_open_channel
+ms.keywords: "_BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bthddi/_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, bltooth._brb_l2ca_open_channel"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	_BRB_L2CA_OPEN_CHANNEL
 product: Windows
 targetos: Windows
@@ -104,32 +104,47 @@ struct _BRB_L2CA_OPEN_CHANNEL {
 
 
 
-### -field ConfigOut
+### -field Hdr
 
-The substructure that contains parameter settings for a <b>BRB_L2CA_OPEN_CHANNEL</b> BRB sent to a remote
-     device.
-
-
-### -field ConfigOut.LocalQos
-
-Reserved for future use. Do not use.
+A 
+     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     about the current BRB.
 
 
-### -field ConfigOut.LocalQos.ServiceType
-
-Reserved for future use. Do not use.
+### -field ChannelHandle
 
 
-### -field ConfigOut.LocalQos.Latency
 
-Reserved for future use. Do not use.
+##### 
 
 
-### -field ConfigOut.Flags
+
+####### 
+
+
+### -field Response
+
+ 
+
+
+### -field ResponseStatus
+
+ 
+
+
+### -field Psm
+
+The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
+      When used with a <b>BRB_L2CA_OPEN_CHANNEL</b> request, this member is set as an input field. When used with a
+      <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request, this member is used as an output field.
+
+
+### -field ChannelFlags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
-      the following table:
-      
+     the following table:
+     
+
 <table>
 <tr>
 <td>
@@ -171,7 +186,70 @@ The profile driver indicates its preference that users not be prompted for a PIN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
+
+### -field BtAddress
+
+The Bluetooth address of the device for which the connection is intended.
+
+
+### -field ConfigOut
+
+The substructure that contains parameter settings for a <b>BRB_L2CA_OPEN_CHANNEL</b> BRB sent to a remote
+     device.
+
+
+### -field ConfigOut.Flags
+
+Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
+      the following table:
+      
+
+<table>
+<tr>
+<td>
+<b>Flag</b>
+
+</td>
+<td>
+<b>Description</b>
+
+</td>
+</tr>
+<tr>
+<td>
+CF_LINK_AUTHENTICATED
+
+</td>
+<td>
+The link must be authenticated.
+
+</td>
+</tr>
+<tr>
+<td>
+CF_LINK_ENCRYPTED
+
+</td>
+<td>
+The link must be encrypted. Setting this flag also sets the CF_LINK_AUTHENTICATED flag.
+
+</td>
+</tr>
+<tr>
+<td>
+CF_LINK_SUPPRESS_PIN
+
+</td>
+<td>
+The profile driver indicates its preference that users not be prompted for a PIN.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -field ConfigOut.Mtu
@@ -208,6 +286,21 @@ The number of array items that are contained in the
       <b>ExtraOptions</b> member. This value should be zero for most clients.
 
 
+### -field ConfigOut.LocalQos
+
+Reserved for future use. Do not use.
+
+
+### -field ConfigOut.LocalQos.ServiceType
+
+Reserved for future use. Do not use.
+
+
+### -field ConfigOut.LocalQos.Latency
+
+Reserved for future use. Do not use.
+
+
 ### -field ConfigIn
 
 The substructure that contains parameter settings to validate incoming
@@ -219,6 +312,7 @@ The substructure that contains parameter settings to validate incoming
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
       
+
 <table>
 <tr>
 <td>
@@ -260,7 +354,8 @@ The profile driver indicates its preference that users not be prompted for a PIN
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ConfigIn.Mtu
@@ -275,93 +370,12 @@ The range of possible values to be used for the flush timeout for the outbound h
       channel.
 
 
-### -field Response
-
- 
-
-
-### -field ResponseStatus
-
- 
-
-
-### -field Psm
-
-The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
-      When used with a <b>BRB_L2CA_OPEN_CHANNEL</b> request, this member is set as an input field. When used with a
-      <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request, this member is used as an output field.
-
-
-### -field Hdr
-
-A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
-     about the current BRB.
-
-
-### -field ChannelHandle
-
-
-
-### -field ChannelFlags
-
-Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
-     the following table:
-     
-<table>
-<tr>
-<td>
-<b>Flag</b>
-
-</td>
-<td>
-<b>Description</b>
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_AUTHENTICATED
-
-</td>
-<td>
-The link must be authenticated.
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_ENCRYPTED
-
-</td>
-<td>
-The link must be encrypted. Setting this flag also sets the CF_LINK_AUTHENTICATED flag.
-
-</td>
-</tr>
-<tr>
-<td>
-CF_LINK_SUPPRESS_PIN
-
-</td>
-<td>
-The profile driver indicates its preference that users not be prompted for a PIN.
-
-</td>
-</tr>
-</table> 
-
-
-### -field BtAddress
-
-The Bluetooth address of the device for which the connection is intended.
-
-
 ### -field CallbackFlags
 
 A flag that specifies which events should generate a callback routine to notify the profile driver
      that the event has occurred. Valid flag values are contained in the following table.
      
+
 <table>
 <tr>
 <th>Flag</th>
@@ -426,14 +440,15 @@ If set, the callback routine will be called when the profile driver receives an 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Callback
 
 The 
-     <mshelp:link keywords="bltooth.l2cap_callback_function" tabindex="0"><i>L2CAP Callback
-     Function</i></mshelp:link> implemented by the profile driver, that the Bluetooth driver stack should call to notify
+     <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback
+     Function</a> implemented by the profile driver, that the Bluetooth driver stack should call to notify
      the profile driver about any changes to the L2CAP connection.
 
 
@@ -469,7 +484,15 @@ A CHANNEL_CONFIG_RESULTS structure that contains configuration parameters for th
 Specifies the incoming queue length in message transfer units (MTUs).
 
 
-##### - ( unnamed struct ).Response
+#### - ( unnamed struct )
+
+A 
+      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+      about the current BRB.
+
+
+
+#### Response
 
 This member is used as an input parameter for a <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request and an
        output parameter for the <b>BRB_L2CA_OPEN_CHANNEL</b> request.
@@ -477,6 +500,7 @@ This member is used as an input parameter for a <b>BRB_L2CA_OPEN_CHANNEL_RESPONS
 
 For a <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request, this member holds a flag that indicates the profile
        driver's response to the remote device. Valid flag values are contained in the following table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -532,11 +556,13 @@ The profile driver accepted the connection.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For the <b>BRB_L2CA_OPEN_CHANNEL</b> BRB, this member contains the response from the remote device to
        which the profile driver attempted to connect. Valid flag values are contained in the following
        table.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -582,61 +608,34 @@ The remote device accepted the connection.
 
 </td>
 </tr>
-</table> 
-
-
-######## - ChannelHandle.For a BRB_L2CA_OPEN_CHANNEL_RESPONSE request, the profile driver (acting as a server) provides
-     this member's value prior to sending the BRB down the driver stack. This member's value should be set to
-     the 
-     INDICATION_PARAMETERS structure's 
-     ConnectionHandle member value if the 
-     INDICATION_CODE enumeration's 
-     IndicationRemoteConnect value is specified. These values are passed as the 
-     Parameters and 
-     Indication arguments of the profile driver's 
-     L2CAP Callback Function that was
-     registered as the 
-     IndicationCallback member when the profile driver built and sent a 
-     
-     BRB_L2CA_REGISTER_SERVER request.
+</table>
+ 
 
 
 
-##### - ( unnamed struct ).ResponseStatus
+#### ResponseStatus
 
 
 
-###### - ( unnamed struct ).ResponseStatus.If during a call to the BRB_L2CA_OPEN_CHANNEL_RESPONSE BRB the 
+##### If during a call to the BRB_L2CA_OPEN_CHANNEL_RESPONSE BRB the 
        Response member is set to CONNECT_RSP_RESULT_PENDING, this member is valid and contains one of
        the following values:
 
 
 
-###### - ChannelHandle.For a BRB_L2CA_OPEN_CHANNEL request, this member will contain a handle to identify the L2CAP
-     channel, if the open channel request completes successfully.
+##### CONNECT_RSP_STATUS_AUTHENTICATION_PENDING
 
 
 
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_NO_INFORMATION
+##### CONNECT_RSP_STATUS_AUTHORIZATION_PENDING
 
 
 
-#### - ( unnamed struct )
-
-A 
-      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
-      about the current BRB.
-
-
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_AUTHENTICATION_PENDING
-
-
-
-###### - ( unnamed struct ).ResponseStatus.CONNECT_RSP_STATUS_AUTHORIZATION_PENDING
-
+##### CONNECT_RSP_STATUS_NO_INFORMATION
 
 
 ## -remarks
+
 
 
 To open a L2CAP channel, profile drivers should 
@@ -675,8 +674,8 @@ The
 To accept or reject an incoming L2CAP connection request initiated by a remote device, profile drivers
     should 
     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-    BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link> request.
+    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 A profile driver should build and send a <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request when the Bluetooth
     driver stack calls the profile driver's 
@@ -710,30 +709,53 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
+   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
-<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
 
-<mshelp:link keywords="bltooth.brb_l2ca_open_channel_response" tabindex="0"><b>
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</b></mshelp:link>
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
-<a href="..\bthddi\ns-bthddi-_channel_config_results.md">CHANNEL_CONFIG_RESULTS</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
 
+
+
 <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_channel_config_results.md">CHANNEL_CONFIG_RESULTS</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+
+
+
 <a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+
+
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0985589E-074A-45C8-9F8A-384DC42EC884
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.keregisterboundcallback, wdm/KeRegisterBoundCallback, KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture], KeRegisterBoundCallback
+ms.keywords: KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture], wdm/KeRegisterBoundCallback, kernel.keregisterboundcallback, KeRegisterBoundCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRegisterBoundCallback
 product: Windows
 targetos: Windows
@@ -76,20 +76,26 @@ Pointer to a <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a> functio
 ## -returns
 
 
+
 On success, <b>KeRegisterBoundCallback</b> returns an opaque pointer that the caller passes to <a href="..\wdm\nf-wdm-kederegisterboundcallback.md">KeDeregisterBoundCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
+
 
 
 
 ## -remarks
 
 
+
 The <b>KeRegisterBoundCallback</b> routine provides the opportunity for a kernel-mode driver to intercept and handle user-mode bound exceptions. When a bounds exception for a user-mode thread occurs, the system calls the registered  <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a> function to manage the bounds trap. The return value of the <i>BoundCallback</i> function indicates the action that the system should then perform, such as propagating the bounds exception or terminating the user-mode process. 
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-kederegisterboundcallback.md">KeDeregisterBoundCallback</a>
+
+
 
  
 

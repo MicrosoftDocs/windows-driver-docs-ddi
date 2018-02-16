@@ -7,8 +7,8 @@ old-location: ifsk\kerundownqueue.htm
 old-project: ifsk
 ms.assetid: fc496af8-0b4b-4de4-8890-f2290970ced5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.kerundownqueue, KeRundownQueue, keref_d1ad3c47-a2e8-40d9-b59d-bcedd6e4314a.xml, ntifs/KeRundownQueue, KeRundownQueue routine [Installable File System Drivers]
+ms.date: 2/7/2018
+ms.keywords: keref_d1ad3c47-a2e8-40d9-b59d-bcedd6e4314a.xml, ntifs/KeRundownQueue, KeRundownQueue, ifsk.kerundownqueue, KeRundownQueue routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	KeRundownQueue
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Pointer to an initialized queue object for which the caller provides resident st
 ## -returns
 
 
+
 If the queue is empty, <b>KeRundownQueue</b> returns <b>NULL</b>; otherwise, it returns the address of the first entry in the queue. 
 
 
 
+
 ## -remarks
+
 
 
 File systems call <b>KeRundownQueue</b> to discard all entries from a queue before freeing or reusing the queue object.
@@ -94,13 +97,16 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
+
 ## -see-also
 
 <a href="..\ntifs\nf-ntifs-keinitializequeue.md">KeInitializeQueue</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20KeRundownQueue routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20KeRundownQueue routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

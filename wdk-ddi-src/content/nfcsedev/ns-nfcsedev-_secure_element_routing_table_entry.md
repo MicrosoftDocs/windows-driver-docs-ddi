@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_ROUTING_TABLE_ENTRY
-title: _SECURE_ELEMENT_ROUTING_TABLE_ENTRY
+title: "_SECURE_ELEMENT_ROUTING_TABLE_ENTRY"
 author: windows-driver-content
 description: SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of SECURE_ELEMENT_ROUTING_TABLE.
 old-location: nfpdrivers\_secure_element_routing_table_entry.htm
@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 199FEA6A-A57F-4B13-832A-65DB7729455F
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY, _SECURE_ELEMENT_ROUTING_TABLE_ENTRY, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure pointer [Near-Field Proximity Drivers], P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfpdrivers._secure_element_routing_table_entry, nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure [Near-Field Proximity Drivers]
+ms.keywords: "_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure [Near-Field Proximity Drivers], nfcsedev/P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure pointer [Near-Field Proximity Drivers], nfcsedev/_SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY, nfpdrivers._secure_element_routing_table_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfcsedev.h
-apiname: 
+apiname:
 -	SECURE_ELEMENT_ROUTING_TABLE_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY, SECURE_ELEMENT_ROUTING_TABLE_ENTRY
+req.typenames: SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY
 ---
 
 # _SECURE_ELEMENT_ROUTING_TABLE_ENTRY structure
@@ -72,6 +72,12 @@ typedef struct _SECURE_ELEMENT_ROUTING_TABLE_ENTRY {
 
 
 
+### -field eRoutingType
+
+NFC Forum listen mode routing table entry type.
+
+
+
 ### -field TechRoutingInfo
 
 RF technology routing table entry information.
@@ -85,11 +91,5 @@ RF protocol routing table entry information.
 ### -field AidRoutingInfo
 
 AID routing table control information.
-
-
-
-### -field eRoutingType
-
-NFC Forum listen mode routing table entry type.
 
 

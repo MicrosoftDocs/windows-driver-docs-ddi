@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 1f59ae13-022b-426c-9eef-9a8e5f5a85f2
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.videoportzerodevicememory, VideoPort_Functions_42829075-dd6d-49fd-a4d6-3ee19152335d.xml, VideoPortZeroDeviceMemory function [Display Devices], video/VideoPortZeroDeviceMemory, VideoPortZeroDeviceMemory
+ms.keywords: display.videoportzerodevicememory, VideoPort_Functions_42829075-dd6d-49fd-a4d6-3ee19152335d.xml, VideoPortZeroDeviceMemory, video/VideoPortZeroDeviceMemory, VideoPortZeroDeviceMemory function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortZeroDeviceMemory
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Specifies the size, in bytes, to be filled.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Miniport drivers should <i>always</i> call this function, rather than <b>VideoPortZeroMemory</b>, to fill on-adapter memory with zeros.
@@ -97,15 +100,24 @@ Callers of <b>VideoPortZeroDeviceMemory</b> can be running at any IRQL if the me
 
 
 
-## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+## -see-also
 
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
 
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+
+
+
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
+
+
 
  
 

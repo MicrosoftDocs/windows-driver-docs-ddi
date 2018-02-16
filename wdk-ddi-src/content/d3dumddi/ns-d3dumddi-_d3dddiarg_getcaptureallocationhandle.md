@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
-title: _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
+title: "_D3DDDIARG_GETCAPTUREALLOCATIONHANDLE"
 author: windows-driver-content
 description: The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for retrieving an allocation handle from a capture resource handle.
 old-location: display\d3dddiarg_getcaptureallocationhandle.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 588ebf7a-db83-4eb8-8403-04b215bed12b
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure [Display Devices], d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, UMDisplayDriver_param_Structs_8fece49c-e3e6-4683-b4af-517da6f73cc7.xml, display.d3dddiarg_getcaptureallocationhandle
+ms.keywords: d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, display.d3dddiarg_getcaptureallocationhandle, UMDisplayDriver_param_Structs_8fece49c-e3e6-4683-b4af-517da6f73cc7.xml, _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure [Display Devices], D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ typedef struct _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE {
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle.md">GetCaptureAllocationHandle</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_TargetMappings
-title: _MSiSCSI_TargetMappings
+title: "_MSiSCSI_TargetMappings"
 author: windows-driver-content
 description: The MSiSCSI_TargetMappings structure contains a set of logical unit number (LUN) mappings that are associated with an initiator instance.
 old-location: storage\msiscsi_targetmappings.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6bddeaeb-9913-4c90-b8ac-3a9f7b384b80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/MSiSCSI_TargetMappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, MSiSCSI_TargetMappings structure [Storage Devices], iscsiop/PMSiSCSI_TargetMappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], _MSiSCSI_TargetMappings, MSiSCSI_TargetMappings, PMSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings, storage.msiscsi_targetmappings
+ms.keywords: storage.msiscsi_targetmappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], PMSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings, MSiSCSI_TargetMappings, iscsiop/MSiSCSI_TargetMappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, _MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], iscsiop/PMSiSCSI_TargetMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	MSiSCSI_TargetMappings
 product: Windows
 targetos: Windows
@@ -93,17 +93,25 @@ A variable-length array of <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping
 ## -remarks
 
 
+
 You must implement this class.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563147">MSiSCSI_TargetMappings WMI Class</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
+
+
 
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563147">MSiSCSI_TargetMappings WMI Class</a>
+
+
 
  
 

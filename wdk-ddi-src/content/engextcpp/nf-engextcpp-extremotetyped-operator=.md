@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped::GetSimpleValue, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, GetSimpleValue, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped::Clear, debugger.extremotetyped, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], described, operator=, engextcpp/ExtRemoteTyped, ExtRemoteTyped::ErtIoctl, ExtRemoteTyped::operator=, ErtIoctl, ExtRemoteTyped::Copy, Clear, Copy
+ms.keywords: ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped::Copy, Copy, ErtIoctl, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, operator=, ExtRemoteTyped, ExtRemoteTyped::GetSimpleValue, ExtRemoteTyped::operator=, engextcpp/ExtRemoteTyped, debugger.extremotetyped, ExtRemoteTyped class [Windows Debugging], Clear, GetSimpleValue, ExtRemoteTyped::ErtIoctl, ExtRemoteTyped::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped
 product: Windows
 targetos: Windows
@@ -266,9 +266,9 @@ Indicates whether or not the destructor for this instance of <b>ExtRemoteTyped</
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
-
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
  
 

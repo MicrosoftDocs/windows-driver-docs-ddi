@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 4f6de771-c54f-4f27-900a-98e94b94f957
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], SetImagePath method, SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], SetImagePath method, IDebugSymbols_062aa9c4-33c9-4a73-a11f-7d5e6b94e96c.xml, dbgeng/IDebugSymbols2::SetImagePath, dbgeng/IDebugSymbols::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], SetImagePath method, IDebugSymbols2::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols3, dbgeng/IDebugSymbols3::SetImagePath, IDebugSymbols3::SetImagePath, debugger.setimagepath
+ms.keywords: dbgeng/IDebugSymbols::SetImagePath, SetImagePath method [Windows Debugging], SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::SetImagePath, IDebugSymbols_062aa9c4-33c9-4a73-a11f-7d5e6b94e96c.xml, IDebugSymbols3, IDebugSymbols2, IDebugSymbols3::SetImagePath, IDebugSymbols, IDebugSymbols3 interface [Windows Debugging], SetImagePath method, IDebugSymbols2 interface [Windows Debugging], SetImagePath method, debugger.setimagepath, dbgeng/IDebugSymbols3::SetImagePath, IDebugSymbols2::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], SetImagePath method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.SetImagePath
 -	IDebugSymbols2.SetImagePath
 -	IDebugSymbols3.SetImagePath
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::SetImagePath method
@@ -77,7 +77,9 @@ Specifies the new executable image path.  This is a string that contains directo
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,11 +96,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The executable image path is used by the engine when searching for executable images.
@@ -107,17 +112,28 @@ The executable image path can consist of several directories separated by semico
 
 
 
+
 ## -see-also
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
+
+
 
  
 

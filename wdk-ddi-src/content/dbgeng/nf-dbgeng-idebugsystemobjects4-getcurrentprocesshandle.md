@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 87f60064-5722-4b4e-af9b-f1d9009a7551
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessHandle method, GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects4 interface, debugger.getcurrentprocesshandle2, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessHandle method, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessHandle method, dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml
+ms.keywords: IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessHandle method, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessHandle method, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessHandle method, debugger.getcurrentprocesshandle2, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessHandle method, dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml, IDebugSystemObjects4, IDebugSystemObjects, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects::GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessHandle, IDebugSystemObjects4::GetCurrentProcessHandle, IDebugSystemObjects2, IDebugSystemObjects3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSystemObjects.GetCurrentProcessHandle
 -	IDebugSystemObjects2.GetCurrentProcessHandle
 -	IDebugSystemObjects3.GetCurrentProcessHandle
 -	IDebugSystemObjects4.GetCurrentProcessHandle
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSystemObjects4::GetCurrentProcessHandle method
@@ -78,7 +78,9 @@ Receives the system handle of the current process.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -95,15 +97,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 In kernel-mode debugging, the only process in the target is the virtual process created for the kernel.  In this case, an artificial handle is created.  The artificial handle can only be used with the debugger engine API.
 
 For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.  For details on system handles, see <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">Handles</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, netioddk/NmrRegisterClient, netvista.nmrregisterclient, NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml, NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Netio.lib
 -	Netio.dll
-apiname: 
+apiname:
 -	NmrRegisterClient
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
 ---
 
 # NmrRegisterClient function
@@ -74,8 +74,8 @@ NTSTATUS NmrRegisterClient(
 ### -param ClientCharacteristics [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.npi_client_characteristics" tabindex="0"><b>
-     NPI_CLIENT_CHARACTERISTICS</b></mshelp:link> structure that describes the characteristics of the client module. The
+     <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">
+     NPI_CLIENT_CHARACTERISTICS</a> structure that describes the characteristics of the client module. The
      client module must make sure that this structure remains valid and resident in memory as long as the
      client module is registered with the NMR.
 
@@ -102,8 +102,10 @@ A pointer to a variable that receives a handle used by the NMR to represent the 
 ## -returns
 
 
+
 The 
      <b>NmrRegisterClient</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,11 +144,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A client module calls the 
@@ -166,13 +171,20 @@ A client module typically calls the
 
 
 
+
 ## -see-also
+
+<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
+
 
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
+
+
 <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
 
  
 

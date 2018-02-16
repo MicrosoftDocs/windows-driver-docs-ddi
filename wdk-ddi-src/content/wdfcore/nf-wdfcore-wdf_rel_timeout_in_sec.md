@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 40d0f5bf-609e-4609-8785-261b087fa372
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_REL_TIMEOUT_IN_SEC function, kmdf.wdf_rel_timeout_in_sec, WDF_REL_TIMEOUT_IN_SEC, wdf.wdf_rel_timeout_in_sec, wdfcore/WDF_REL_TIMEOUT_IN_SEC, DFTimerObjectRef_2c5d8c96-3c4d-484d-9d60-656c4c4a7cc5.xml
+ms.keywords: WDF_REL_TIMEOUT_IN_SEC function, DFTimerObjectRef_2c5d8c96-3c4d-484d-9d60-656c4c4a7cc5.xml, WDF_REL_TIMEOUT_IN_SEC, wdfcore/WDF_REL_TIMEOUT_IN_SEC, kmdf.wdf_rel_timeout_in_sec, wdf.wdf_rel_timeout_in_sec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_REL_TIMEOUT_IN_SEC
 product: Windows
 targetos: Windows
@@ -79,14 +79,36 @@ The number of seconds to convert.
 ## -returns
 
 
+
 <b>WDF_REL_TIMEOUT_IN_SEC</b> returns the relative time value, in system time units (100-nanosecond intervals), that represents the number of seconds that <i>Time</i> specifies.
+
 
 
 
 ## -remarks
 
 
+
 A relative time is a time value that is relative to the current system time. For example, if a caller passes a relative time value of five seconds to a function that accepts a time-out value, the function will time out five seconds after it is called.
+
+
+#### Examples
+
+The following code example specifies a relative timeout value of 5 seconds for an I/O request.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_REQUEST_SEND_OPTIONS  requestSendOptions;
+...
+requestSendOptions.Timeout = WDF_REL_TIMEOUT_IN_SEC(5);
+...</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -94,7 +116,11 @@ A relative time is a time value that is relative to the current system time. For
 
 <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 
+
+
 <a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_sec.md">WDF_ABS_TIMEOUT_IN_SEC</a>
+
+
 
  
 

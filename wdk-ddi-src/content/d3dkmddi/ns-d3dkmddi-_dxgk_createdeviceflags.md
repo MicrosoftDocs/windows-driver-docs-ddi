@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATEDEVICEFLAGS
-title: _DXGK_CREATEDEVICEFLAGS
+title: "_DXGK_CREATEDEVICEFLAGS"
 author: windows-driver-content
 description: The DXGK_CREATEDEVICEFLAGS structure identifies how to create devices.
 old-location: display\dxgk_createdeviceflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31dc1493-a7c9-4ca0-b718-98224d9c5675
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml, display.dxgk_createdeviceflags, DXGK_CREATEDEVICEFLAGS structure [Display Devices], DXGK_CREATEDEVICEFLAGS, _DXGK_CREATEDEVICEFLAGS, d3dkmddi/DXGK_CREATEDEVICEFLAGS
+ms.keywords: d3dkmddi/DXGK_CREATEDEVICEFLAGS, _DXGK_CREATEDEVICEFLAGS, DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml, display.dxgk_createdeviceflags, DXGK_CREATEDEVICEFLAGS, DXGK_CREATEDEVICEFLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_CREATEDEVICEFLAGS
 product: Windows
 targetos: Windows
@@ -110,9 +110,13 @@ A member in the union that DXGK_CREATEDEVICEFLAGS contains that can hold a 32-bi
 
 ## -see-also
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+
 
  
 

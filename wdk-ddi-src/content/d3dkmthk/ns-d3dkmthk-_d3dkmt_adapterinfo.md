@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTERINFO
-title: _D3DKMT_ADAPTERINFO
+title: "_D3DKMT_ADAPTERINFO"
 author: windows-driver-content
 description: Supplies configuration information about a graphics adapter.
 old-location: display\d3dkmt_adapterinfo.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4b780fb7-f6d4-4248-882c-d0cc96106724
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_ADAPTERINFO structure [Display Devices], d3dkmthk/D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo, _D3DKMT_ADAPTERINFO, D3DKMT_ADAPTERINFO
+ms.keywords: D3DKMT_ADAPTERINFO structure [Display Devices], D3DKMT_ADAPTERINFO, _D3DKMT_ADAPTERINFO, d3dkmthk/D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_ADAPTERINFO
 product: Windows
 targetos: Windows

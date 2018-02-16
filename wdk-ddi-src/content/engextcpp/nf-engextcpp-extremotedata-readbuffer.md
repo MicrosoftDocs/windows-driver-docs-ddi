@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1ad13196-a133-4168-9a36-1f7e4ed5c4f1
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ReadBuffer method [Windows Debugging], ExtRemoteData class, ExtRemoteData::ReadBuffer, ExtRemoteData class [Windows Debugging], ReadBuffer method, debugger.extremotedata_readbuffer, ReadBuffer method [Windows Debugging], ReadBuffer
+ms.keywords: debugger.extremotedata_readbuffer, ReadBuffer method [Windows Debugging], ExtRemoteData, ExtRemoteData::ReadBuffer, EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ReadBuffer method [Windows Debugging], ExtRemoteData class, ReadBuffer, ExtRemoteData class [Windows Debugging], ReadBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.ReadBuffer
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::ReadBuffer method
@@ -87,15 +87,21 @@ Specifies what happens if the debugger engine is unable to read all the data fro
 ## -returns
 
 
+
 <b>ReadBuffer</b> returns the number of bytes read from the target and copied into the <i>Buffer</i> buffer.  If <i>MustReadAll</i> is <code>true</code>, the value of <i>Bytes</i> will be returned (unless an exception is thrown).
+
 
 
 
 ## -see-also
 
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544110">ExtRemoteData::WriteBuffer</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
 
  
 

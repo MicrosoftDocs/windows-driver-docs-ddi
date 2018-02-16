@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec080043-a147-4002-8d0c-ed383182ec40
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DvdDiskKey, DvdChallengeKey, ntddcdvd/DvdChallengeKey, ntddcdvd/DvdBusKey2, DvdSetRpcKey, DvdAsf, DVD_KEY_TYPE enumeration [Storage Devices], ntddcdvd/DVD_KEY_TYPE, ntddcdvd/DvdAsf, ntddcdvd/DvdTitleKey, DvdBusKey2, ntddcdvd/DvdBusKey1, DvdBusKey1, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, ntddcdvd/DvdSetRpcKey, ntddcdvd/DvdDiskKey, DVD_KEY_TYPE, ntddcdvd/DvdInvalidateAGID, DvdTitleKey, storage.dvd_key_type, DvdInvalidateAGID, DvdGetRpcKey, ntddcdvd/DvdGetRpcKey
+ms.keywords: DvdGetRpcKey, ntddcdvd/DvdInvalidateAGID, DvdTitleKey, DVD_KEY_TYPE enumeration [Storage Devices], DVD_KEY_TYPE, ntddcdvd/DvdBusKey1, ntddcdvd/DvdDiskKey, DvdBusKey2, ntddcdvd/DvdSetRpcKey, DvdInvalidateAGID, ntddcdvd/DvdTitleKey, ntddcdvd/DvdAsf, DvdDiskKey, DvdSetRpcKey, DvdAsf, DvdChallengeKey, ntddcdvd/DVD_KEY_TYPE, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, ntddcdvd/DvdBusKey2, DvdBusKey1, storage.dvd_key_type, ntddcdvd/DvdChallengeKey, ntddcdvd/DvdGetRpcKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	DVD_KEY_TYPE
 product: Windows
 targetos: Windows
@@ -123,19 +123,27 @@ Invalidates the specified authentication grant ID (AGID).
 ## -remarks
 
 
+
 The driver for the DVD device uses the key type specified in this enumeration type to determine the key format in a report key command, as defined by the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specification. A report key command can either report key data for a specified key (challenge key, bus key, title key, RPC key, or disc key), or the state of the ASF flag. It can also invalidate an AGID. See the <i>MMC-3 </i>specification for further information. 
 
 Drivers can issue a report key command to retrieve key data by means of an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a> request. 
 
 
 
+
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_send_key.md">IOCTL_DVD_SEND_KEY</a>
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
+
+
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
+
+
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_send_key.md">IOCTL_DVD_SEND_KEY</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_EXEMPTION_PACKET_TYPE
-title: _WDI_EXEMPTION_PACKET_TYPE
+title: "_WDI_EXEMPTION_PACKET_TYPE"
 author: windows-driver-content
 description: The WDI_EXEMPTION_PACKET_TYPE enumeration defines the types of packet exemptions.
 old-location: netvista\wdi_exemption_packet_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7F584EBE-9ACB-4AC7-9472-34322F24EF74
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_EXEMPT_PACKET_TYPE_UNICAST, WDI_EXEMPTION_PACKET_TYPE, WDI_EXEMPTION_PACKET_TYPE enumeration [Device and Driver Installation], wditypes/WDI_EXEMPTION_PACKET_TYPE, netvista.wdi_exemption_packet_type, WDI_EXEMPT_PACKET_TYPE_MULTICAST, wditypes/WDI_EXEMPT_PACKET_TYPE_UNICAST, wditypes/WDI_EXEMPT_PACKET_TYPE_MULTICAST, netvista.wifi_exemption_packet_type, WDI_EXEMPT_PACKET_TYPE_BOTH, wditypes/WDI_EXEMPT_PACKET_TYPE_BOTH, _WDI_EXEMPTION_PACKET_TYPE
+ms.keywords: WDI_EXEMPT_PACKET_TYPE_BOTH, wditypes/WDI_EXEMPTION_PACKET_TYPE, WDI_EXEMPT_PACKET_TYPE_MULTICAST, WDI_EXEMPTION_PACKET_TYPE enumeration [Device and Driver Installation], netvista.wdi_exemption_packet_type, wditypes/WDI_EXEMPT_PACKET_TYPE_BOTH, wditypes/WDI_EXEMPT_PACKET_TYPE_UNICAST, WDI_EXEMPTION_PACKET_TYPE, _WDI_EXEMPTION_PACKET_TYPE, netvista.wifi_exemption_packet_type, WDI_EXEMPT_PACKET_TYPE_UNICAST, wditypes/WDI_EXEMPT_PACKET_TYPE_MULTICAST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_EXEMPTION_PACKET_TYPE
 product: Windows
 targetos: Windows

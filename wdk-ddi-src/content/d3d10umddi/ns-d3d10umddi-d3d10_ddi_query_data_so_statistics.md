@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 641c8f8d-e398-4ca4-9e28-bba2ef7d1bd3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D10_DDI_QUERY_DATA_SO_STATISTICS, D3D10_DDI_QUERY_DATA_SO_STATISTICS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3748a5db-9ce8-4763-baac-4110b754188d.xml, display.d3d10_ddi_query_data_so_statistics, D3D10_DDI_QUERY_DATA_SO_STATISTICS
+ms.keywords: UMDisplayDriver_Dx10param_Structs_3748a5db-9ce8-4763-baac-4110b754188d.xml, D3D10_DDI_QUERY_DATA_SO_STATISTICS structure [Display Devices], display.d3d10_ddi_query_data_so_statistics, D3D10_DDI_QUERY_DATA_SO_STATISTICS, d3d10umddi/D3D10_DDI_QUERY_DATA_SO_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10_DDI_QUERY_DATA_SO_STATISTICS
 product: Windows
 targetos: Windows
@@ -83,7 +83,9 @@ The number of primitives that would have been written to the stream output resou
 ## -remarks
 
 
+
 The driver associates a D3D10_DDI_QUERY_DATA_SO_STATISTICS structure with the D3D10DDI_QUERY_STREAMOUTPUTSTATS query type value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a> enumeration.
+
 
 
 
@@ -91,9 +93,15 @@ The driver associates a D3D10_DDI_QUERY_DATA_SO_STATISTICS structure with the D3
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
 
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
+
+
 
  
 

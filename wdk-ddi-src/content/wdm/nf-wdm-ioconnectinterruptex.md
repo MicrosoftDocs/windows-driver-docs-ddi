@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f77a2701-bde2-42c2-8393-88a7e4576f1b
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoConnectInterruptEx, IoConnectInterruptEx routine [Kernel-Mode Driver Architecture], kernel.ioconnectinterruptex, WdmlibIoConnectInterruptEx, k104_17833453-ee13-4346-9c58-a1c47dccf636.xml, IoConnectInterruptEx, wdm/WdmlibIoConnectInterruptEx
+ms.keywords: kernel.ioconnectinterruptex, k104_17833453-ee13-4346-9c58-a1c47dccf636.xml, WdmlibIoConnectInterruptEx, IoConnectInterruptEx routine [Kernel-Mode Driver Architecture], wdm/WdmlibIoConnectInterruptEx, wdm/IoConnectInterruptEx, IoConnectInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoConnectInterruptEx
 -	WdmlibIoConnectInterruptEx
 product: Windows
@@ -79,13 +79,17 @@ For more information, see the <a href="..\iointex\nf-iointex-wdmlibioconnectinte
 ## -returns
 
 
+
 For more information, see the <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a> function.
+
 
 
 
 ## -see-also
 
 <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
+
+
 
  
 

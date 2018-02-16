@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The protected resource session.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

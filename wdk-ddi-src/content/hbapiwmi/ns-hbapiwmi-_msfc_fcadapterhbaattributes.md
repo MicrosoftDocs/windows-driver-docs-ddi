@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_FCAdapterHBAAttributes
-title: _MSFC_FCAdapterHBAAttributes
+title: "_MSFC_FCAdapterHBAAttributes"
 author: windows-driver-content
 description: The MSFC_FCAdapterHBAAttributes structure is used by a WMI provider to expose attribute information associated with a fibre channel adapter.
 old-location: storage\msfc_fcadapterhbaattributes.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5efe0ede-b55f-499e-9f95-66652cd8a872
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.msfc_fcadapterhbaattributes, PMSFC_FCAdapterHBAAttributes structure pointer [Storage Devices], hbapiwmi/MSFC_FCAdapterHBAAttributes, _MSFC_FCAdapterHBAAttributes, PMSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes structure [Storage Devices], MSFC_FCAdapterHBAAttributes, hbapiwmi/PMSFC_FCAdapterHBAAttributes, structs-Fibre_07d902b9-2da0-4bca-94ab-db837beff481.xml
+ms.keywords: hbapiwmi/PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes structure [Storage Devices], *PMSFC_FCAdapterHBAAttributes, PMSFC_FCAdapterHBAAttributes structure pointer [Storage Devices], storage.msfc_fcadapterhbaattributes, PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes, structs-Fibre_07d902b9-2da0-4bca-94ab-db837beff481.xml, hbapiwmi/MSFC_FCAdapterHBAAttributes, _MSFC_FCAdapterHBAAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	MSFC_FCAdapterHBAAttributes
 product: Windows
 targetos: Windows
-req.typenames: *PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes
+req.typenames: "*PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes"
 ---
 
 # _MSFC_FCAdapterHBAAttributes structure
@@ -164,9 +164,13 @@ Contains the name of the HBA manufacturer.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562497">MSFC_FCAdapterHBAAttributes WMI Class</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562497">MSFC_FCAdapterHBAAttributes WMI Class</a>
+
 
  
 

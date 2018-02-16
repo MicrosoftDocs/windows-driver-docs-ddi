@@ -2,13 +2,13 @@
 UID: NE:ks.KSCOMPLETION_INVOCATION
 title: KSCOMPLETION_INVOCATION
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\kscompletion_invocation.htm
 old-project: stream
 ms.assetid: 2BD1A2F8-BAA2-40A3-9C97-667780A6F395
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnCancel, ks/KsInvokeOnSuccess, ks/KsInvokeOnError, stream.kscompletion_invocation, KSCOMPLETION_INVOCATION, KsInvokeOnError, KsInvokeOnSuccess, ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnCancel
+ms.keywords: ks/KsInvokeOnError, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnSuccess, ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnSuccess, KsInvokeOnError, KsInvokeOnCancel, stream.kscompletion_invocation, KSCOMPLETION_INVOCATION, ks/KsInvokeOnCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSCOMPLETION_INVOCATION
 product: Windows
 targetos: Windows

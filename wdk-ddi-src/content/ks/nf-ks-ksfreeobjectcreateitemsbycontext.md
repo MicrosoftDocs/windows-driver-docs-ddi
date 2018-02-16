@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 70c2942d-1225-4a50-b734-27995b4481d1
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksfreeobjectcreateitemsbycontext, ksfunc_0ad51072-eff4-4be3-95f4-b54c9267a4a9.xml, KsFreeObjectCreateItemsByContext, KsFreeObjectCreateItemsByContext function [Streaming Media Devices], ks/KsFreeObjectCreateItemsByContext
+ms.keywords: stream.ksfreeobjectcreateitemsbycontext, KsFreeObjectCreateItemsByContext, ks/KsFreeObjectCreateItemsByContext, KsFreeObjectCreateItemsByContext function [Streaming Media Devices], ksfunc_0ad51072-eff4-4be3-95f4-b54c9267a4a9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsFreeObjectCreateItemsByContext
 product: Windows
 targetos: Windows
@@ -82,20 +82,26 @@ Contains the context of the create items to free. All create items with this con
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the item was freed, else STATUS_OBJECT_NAME_NOT_FOUND.
+
 
 
 
 ## -remarks
 
 
+
 Instead of freeing create items by name as <b>KsFreeObjectCreateItems</b> does, this function will free all create items with a specific context.  For example, all create items associated with a filter factory will have the factory as context and can be freed simultaneously with this call instead of one at a time. Note that this function does not assume that the caller is serializing multiple changes to the create entry list.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
+
+
 
  
 

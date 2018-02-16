@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 345003fc-fdc3-4529-bb15-c9e380e77bba
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, kmdf.wdfdevicesetdeviceinterfacestate, PFN_WDFDEVICESETDEVICEINTERFACESTATE, wdfdevice/WdfDeviceSetDeviceInterfaceState, WdfDeviceSetDeviceInterfaceState method, wdf.wdfdevicesetdeviceinterfacestate, WdfDeviceSetDeviceInterfaceState
+ms.keywords: wdf.wdfdevicesetdeviceinterfacestate, PFN_WDFDEVICESETDEVICEINTERFACESTATE, DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, kmdf.wdfdevicesetdeviceinterfacestate, WdfDeviceSetDeviceInterfaceState method, wdfdevice/WdfDeviceSetDeviceInterfaceState, WdfDeviceSetDeviceInterfaceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfDeviceSetDeviceInterfaceState
 product: Windows
 targetos: Windows
@@ -99,16 +99,40 @@ A Boolean value that, if <b>TRUE</b>, enables the specified device interface ins
 ## -returns
 
 
+
 None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
 
 
+
 For more information about device interfaces and the <b>WdfDeviceSetDeviceInterfaceState</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>.
+
+
+#### Examples
+
+The following code example disables a driver's COM port interface.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfDeviceSetDeviceInterfaceState (
+                                  Device,
+                                  (LPGUID) &amp;GUID_DEVINTERFACE_COMPORT,
+                                  NULL,
+                                  FALSE
+                                  );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -116,7 +140,11 @@ For more information about device interfaces and the <b>WdfDeviceSetDeviceInterf
 
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a>
 
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
 
  
 

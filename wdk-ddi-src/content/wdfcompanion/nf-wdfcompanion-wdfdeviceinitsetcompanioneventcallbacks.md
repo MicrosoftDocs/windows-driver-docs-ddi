@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7320238d-0c7f-423c-8de7-2b22d02d77bd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetCompanionEventCallbacks, wdf.wdfdeviceinitsetcompanioneventcallbacks, WdfDeviceInitSetCompanionEventCallbacks method, wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
+ms.keywords: WdfDeviceInitSetCompanionEventCallbacks, WdfDeviceInitSetCompanionEventCallbacks method, wdf.wdfdeviceinitsetcompanioneventcallbacks, wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfcompanion.h
-apiname: 
+apiname:
 -	WdfDeviceInitSetCompanionEventCallbacks
 product: Windows
 targetos: Windows
@@ -73,14 +73,14 @@ VOID WdfDeviceInitSetCompanionEventCallbacks(
 ### -param DeviceInit [in]
 
 
-
 ### -param CompanionEventCallbacks [in]
-
 
 
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

@@ -7,8 +7,8 @@ old-location: buses\usbbuildinterruptorbulktransferrequest.htm
 old-project: usbref
 ms.assetid: 2500fa22-b3f9-419d-9e37-5060b83403fb
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml, UsbBuildInterruptOrBulkTransferRequest routine [Buses], usbdlib/UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest, buses.usbbuildinterruptorbulktransferrequest
+ms.date: 2/8/2018
+ms.keywords: UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml, UsbBuildInterruptOrBulkTransferRequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: usbdlib.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbdlib.h
-apiname: 
+apiname:
 -	UsbBuildInterruptOrBulkTransferRequest
 product: Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
+req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -58,14 +58,14 @@ The <b>UsbBuildInterruptOrBulkTransferRequest</b> macro formats an <a href="..\u
 
 ````
 void UsbBuildInterruptOrBulkTransferRequest(
-  _Inout_  PURB             Urb,
-  _In_     USHORT           Length,
-  _In_     USBD_PIPE_HANDLE PipeHandle,
-  _In_opt_ PVOID            TransferBuffer,
-  _In_opt_ PMDL             TransferBufferMDL,
-  _In_     ULONG            TransferBufferLength,
-  _In_     ULONG            TransferFlags,
-  _In_     PURB             Link
+  _Inout_  PURB             urb,
+  _In_     USHORT           length,
+  _In_     USBD_PIPE_HANDLE pipeHandle,
+  _In_opt_ PVOID            transferBuffer,
+  _In_opt_ PMDL             transferBufferMDL,
+  _In_     ULONG            transferBufferLength,
+  _In_     ULONG            transferFlags,
+  _In_     PURB             link
 );
 ````
 
@@ -75,111 +75,77 @@ void UsbBuildInterruptOrBulkTransferRequest(
 
 
 
-### -param urb
-
-TBD
-
-
-### -param length
-
-TBD
-
-
-### -param pipeHandle
-
-TBD
-
-
-### -param transferBuffer
-
-TBD
-
-
-### -param transferBufferMDL
-
-TBD
-
-
-### -param transferBufferLength
-
-TBD
-
-
-### -param transferFlags
-
-TBD
-
-
-### -param link
-
-TBD
-
-
-
-
-#### - Length [in]
-
-Specifies the size, in bytes, of the <a href="..\usb\ns-usb-_urb.md">URB</a>.
-
-
-#### - TransferBuffer [in, optional]
-
-Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <i>TransferBufferMDL</i>. The contents of this buffer depend on the value of <i>TransferFlags</i>. If USBD_TRANSFER_DIRECTION_IN is specified, this buffer will contain data read from the device on return from the HCD. Otherwise, this buffer contains driver-supplied data to be transferred to the device.
-
-
-#### - Link [in]
-
-Reserved. Must be set to <b>NULL</b>.
-
-
-#### - TransferBufferLength [in]
-
-Specifies the length, in bytes, of the buffer specified in <i>TransferBuffer</i> or described in <i>TransferBufferMDL</i>.
-
-
-##### - TransferFlags.USBD_SHORT_TRANSFER_OK
-
-Can be used if USBD_TRANSFER_DIRECTION_IN is set. If set, directs the HCD not to return an error if a packet is received from the device that is shorter than the maximum packet size for the endpoint. Otherwise, a short request returns an error condition.
-
-
-#### - PipeHandle [in]
-
-Specifies the handle for this pipe returned by the HCD when a configuration was selected.
-
-
-#### - TransferBufferMDL [in, optional]
-
-Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <i>TransferBuffer</i>. The contents of the buffer depend on the value of <i>TransferFlags</i>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data read from the device on return from the HCD. Otherwise, the buffer contains driver-supplied data to be transferred to the device. The MDL must be allocated from nonpaged pool.
-
-
-#### - Urb [in, out]
+### -param urb [in, out]
 
 Pointer to an <a href="..\usb\ns-usb-_urb.md">URB</a> to be formatted as an interrupt or bulk transfer request.
 
 
-##### - TransferFlags.USBD_TRANSFER_DIRECTION_IN
+### -param length [in]
 
-Is set to request data from a device. To transfer data to a device, this flag must be clear.
+Specifies the size, in bytes, of the <a href="..\usb\ns-usb-_urb.md">URB</a>.
 
 
-#### - TransferFlags [in]
+### -param pipeHandle [in]
+
+Specifies the handle for this pipe returned by the HCD when a configuration was selected.
+
+
+### -param transferBuffer [in, optional]
+
+Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <i>TransferBufferMDL</i>. The contents of this buffer depend on the value of <i>TransferFlags</i>. If USBD_TRANSFER_DIRECTION_IN is specified, this buffer will contain data read from the device on return from the HCD. Otherwise, this buffer contains driver-supplied data to be transferred to the device.
+
+
+### -param transferBufferMDL [in, optional]
+
+Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <i>TransferBuffer</i>. The contents of the buffer depend on the value of <i>TransferFlags</i>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data read from the device on return from the HCD. Otherwise, the buffer contains driver-supplied data to be transferred to the device. The MDL must be allocated from nonpaged pool.
+
+
+### -param transferBufferLength [in]
+
+Specifies the length, in bytes, of the buffer specified in <i>TransferBuffer</i> or described in <i>TransferBufferMDL</i>.
+
+
+### -param transferFlags [in]
 
 Specifies zero, one, or a combination of the following flags:
 
 
 
 
-## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+#### USBD_TRANSFER_DIRECTION_IN
+
+Is set to request data from a device. To transfer data to a device, this flag must be clear.
+
+
+
+#### USBD_SHORT_TRANSFER_OK
+
+Can be used if USBD_TRANSFER_DIRECTION_IN is set. If set, directs the HCD not to return an error if a packet is received from the device that is shorter than the maximum packet size for the endpoint. Otherwise, a short request returns an error condition.
+
+
+### -param link [in]
+
+Reserved. Must be set to <b>NULL</b>.
+
+
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
+
+
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+
+
+
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UsbBuildInterruptOrBulkTransferRequest routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UsbBuildInterruptOrBulkTransferRequest routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

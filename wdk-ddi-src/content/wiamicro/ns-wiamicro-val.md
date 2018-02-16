@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 9c9cf520-3249-4c1e-9d0d-e07f7127117e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PVAL structure pointer [Imaging Devices], VAL structure [Imaging Devices], wiamicro/VAL, VAL, PVAL, *PVAL, wiamicro/PVAL, MicroDrv_397b66fc-2f8e-434e-88ac-24b5cdd415d5.xml, image.val
+ms.keywords: "*PVAL, PVAL, image.val, wiamicro/PVAL, VAL, wiamicro/VAL, PVAL structure pointer [Imaging Devices], MicroDrv_397b66fc-2f8e-434e-88ac-24b5cdd415d5.xml, VAL structure [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamicro.h
-apiname: 
+apiname:
 -	VAL
 product: Windows
 targetos: Windows
-req.typenames: *PVAL, VAL
+req.typenames: VAL, *PVAL
 req.product: Windows 10 or later.
 ---
 

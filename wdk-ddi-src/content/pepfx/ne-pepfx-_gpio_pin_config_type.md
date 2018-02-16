@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._GPIO_PIN_CONFIG_TYPE
-title: _GPIO_PIN_CONFIG_TYPE
+title: "_GPIO_PIN_CONFIG_TYPE"
 author: windows-driver-content
 description: The GPIO_PIN_CONFIG_TYPE enumeration describes a connection IO resource.
 old-location: kernel\gpio_pin_config_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.gpio_pin_config_type, PullDefault, pepfx/PullDown, pepfx/PullNone, PullUp, pepfx/PullDefault, PullDown, pepfx/PullUp, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullNone, _GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE, pepfx/GPIO_PIN_CONFIG_TYPE
+ms.keywords: GPIO_PIN_CONFIG_TYPE, PullDown, PullUp, pepfx/PullDefault, _GPIO_PIN_CONFIG_TYPE, kernel.gpio_pin_config_type, PullNone, pepfx/PullNone, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullDefault, pepfx/GPIO_PIN_CONFIG_TYPE, pepfx/PullUp, pepfx/PullDown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	GPIO_PIN_CONFIG_TYPE
 product: Windows
 targetos: Windows

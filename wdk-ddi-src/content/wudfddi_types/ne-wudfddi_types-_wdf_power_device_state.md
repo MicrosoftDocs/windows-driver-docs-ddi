@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_DEVICE_STATE
-title: _WDF_POWER_DEVICE_STATE
+title: "_WDF_POWER_DEVICE_STATE"
 author: windows-driver-content
 description: The WDF_POWER_DEVICE_STATE enumeration contains values that identify the power state that a device might support.
 old-location: wdf\wdf_power_device_state_umdf.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfPowerDeviceD2, WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceD3, wudfddi_types/WdfPowerDeviceD0, WdfPowerDeviceInvalid, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wudfddi_types/WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceInvalid, *PWDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceD3Final, WDF_POWER_DEVICE_STATE enumeration, wudfddi_types/WdfPowerDevicePrepareForHibernation, WdfPowerDeviceD2, WdfPowerDeviceD3, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, wudfddi_types/WDF_POWER_DEVICE_STATE, umdf.wdf_power_device_state, WDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD1, wdf.wdf_power_device_state_umdf, WdfPowerDeviceMaximum
+ms.keywords: WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceInvalid, wudfddi_types/WDF_POWER_DEVICE_STATE, WdfPowerDevicePrepareForHibernation, WdfPowerDeviceD2, WDF_POWER_DEVICE_STATE, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wudfddi_types/WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceMaximum, WDF_POWER_DEVICE_STATE enumeration, wudfddi_types/WdfPowerDeviceD2, wdf.wdf_power_device_state_umdf, wudfddi_types/WdfPowerDeviceD3, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD1, WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD0, *PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDevicePrepareForHibernation, umdf.wdf_power_device_state, WdfPowerDeviceD3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
+req.typenames: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -121,15 +121,21 @@ Valid enumeration values were exceeded.
 ## -remarks
 
 
+
 The framework supplies one of the values of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a> to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a> method to notify the UMDF driver about the power state of the device.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+
 
  
 

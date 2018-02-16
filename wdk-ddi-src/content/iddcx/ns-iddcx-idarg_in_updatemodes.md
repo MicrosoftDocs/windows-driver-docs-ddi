@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d18f1da0-0cd0-48bf-bf01-a80887b6b2ac
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDARG_IN_UPDATEMODES, display.idarg_in_updatemodes, iddcx/IDARG_IN_UPDATEMODES, IDARG_IN_UPDATEMODES structure [Display Devices]
+ms.keywords: IDARG_IN_UPDATEMODES structure [Display Devices], IDARG_IN_UPDATEMODES, display.idarg_in_updatemodes, iddcx/IDARG_IN_UPDATEMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDARG_IN_UPDATEMODES
 product: Windows
 targetos: Windows

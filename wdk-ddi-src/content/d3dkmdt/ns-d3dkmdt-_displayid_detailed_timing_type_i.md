@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I
-title: _DISPLAYID_DETAILED_TIMING_TYPE_I
+title: "_DISPLAYID_DETAILED_TIMING_TYPE_I"
 author: windows-driver-content
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mode set for a video present target.
 old-location: display\displayid_detailed_timing_type_i.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7b3fa3a4-a77a-4c5f-b157-1fbdc3a7be33
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], _DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i, DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I
+ms.keywords: DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i, _DISPLAYID_DETAILED_TIMING_TYPE_I, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DISPLAYID_DETAILED_TIMING_TYPE_I
 product: Windows
 targetos: Windows
@@ -120,26 +120,6 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
       
 
 
-### -field HorizontalFrontPorch
-
-[in] The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
-
-
-### -field HorizontalSyncPolarity
-
-[in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
-
-
-### -field VerticalFrontPorch
-
-[in] The vertical front porch interval, in number of lines. The front porch is the blanking interval before the sync pulse.
-
-
-### -field VerticalSyncPolarity
-
-[in] The vertical sync polarity. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
-
-
 ### -field HorizontalActivePixels
 
 [in] The number of active pixels in the horizontal direction.
@@ -148,6 +128,16 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 ### -field HorizontalBlankPixels
 
 [in] The number of blank pixels in the horizontal direction.
+
+
+### -field HorizontalFrontPorch
+
+[in] The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
+
+
+### -field HorizontalSyncPolarity
+
+[in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
 
 ### -field HorizontalSyncWidth
@@ -165,12 +155,23 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 [in] The number of blank scan lines.
 
 
+### -field VerticalFrontPorch
+
+[in] The vertical front porch interval, in number of lines. The front porch is the blanking interval before the sync pulse.
+
+
+### -field VerticalSyncPolarity
+
+[in] The vertical sync polarity. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
+
+
 ### -field VerticalSyncWidth
 
 [in] The vertical sync interval, in number of lines.
 
 
 ## -remarks
+
 
 
 The Microsoft DirectX graphics kernel subsystem fills this structure by reading the additional target mode data that is stored in the registry at the following path:
@@ -181,15 +182,24 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
+
+
 
  
 

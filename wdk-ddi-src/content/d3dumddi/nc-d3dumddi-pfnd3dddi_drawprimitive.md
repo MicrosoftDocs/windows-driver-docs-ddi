@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	DrawPrimitive
 product: Windows
 targetos: Windows
@@ -84,6 +84,8 @@ __checkReturn HRESULT  APIENTRY DrawPrimitive(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive.md">D3DDDIARG_DRAWPRIMITIVE</a> structure that describes the primitive to draw.
@@ -99,14 +101,18 @@ If the pointer is <b>NULL</b>, the user-mode display driver should use its fast 
 ## -returns
 
 
+
 <b>DrawPrimitive</b> returns S_OK or an appropriate error result if the primitive is not successfully drawn.
+
 
 
 
 ## -remarks
 
 
+
 When the Microsoft Direct3D runtime specifies triangle-edge flags in the value that the <i>pFlagBuffer</i> parameter points to, the runtime also specifies to draw one or more triangles (that is, the runtime specifies the D3DPT_TRIANGLEFAN value in the <b>PrimitiveType</b> member and from 0x00000001 to 0xFFFFFFFF in the <b>PrimitiveCount</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive.md">D3DDDIARG_DRAWPRIMITIVE</a> structure that the <i>pData</i> parameter points to).
+
 
 
 
@@ -114,7 +120,11 @@ When the Microsoft Direct3D runtime specifies triangle-edge flags in the value t
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive.md">D3DDDIARG_DRAWPRIMITIVE</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

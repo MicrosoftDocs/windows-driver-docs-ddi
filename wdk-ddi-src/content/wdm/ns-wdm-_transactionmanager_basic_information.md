@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTIONMANAGER_BASIC_INFORMATION
-title: _TRANSACTIONMANAGER_BASIC_INFORMATION
+title: "_TRANSACTIONMANAGER_BASIC_INFORMATION"
 author: windows-driver-content
 description: The TRANSACTIONMANAGER_BASIC_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_basic_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bffa1bd2-143c-4d32-a886-0a2e82320dc8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PTRANSACTIONMANAGER_BASIC_INFORMATION, _TRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PTRANSACTIONMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.transactionmanager_basic_information, TRANSACTIONMANAGER_BASIC_INFORMATION, wdm/TRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION, ktm_ref_0b404d6e-efa9-4f37-a14f-4e8fcdc2c6e5.xml
+ms.keywords: "_TRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], ktm_ref_0b404d6e-efa9-4f37-a14f-4e8fcdc2c6e5.xml, PTRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION, wdm/TRANSACTIONMANAGER_BASIC_INFORMATION, kernel.transactionmanager_basic_information, wdm/PTRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	TRANSACTIONMANAGER_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PTRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION
+req.typenames: "*PTRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -82,15 +82,21 @@ The <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">vi
 ## -remarks
 
 
+
 The <b>TRANSACTIONMANAGER_BASIC_INFORMATION</b> structure is used with the <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a> routine.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+
+
+
 <a href="..\wdm\ne-wdm-_transactionmanager_information_class.md">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+
 
  
 

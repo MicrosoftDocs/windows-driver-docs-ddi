@@ -7,8 +7,8 @@ old-location: print\ixpsdocumentconsumer_sendxpsunknown.htm
 old-project: print
 ms.assetid: 5e2880c6-0f5a-4098-a97e-809ad75ddfd0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IXpsDocumentConsumer interface [Print Devices], SendXpsUnknown method, print.ixpsdocumentconsumer_sendxpsunknown, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown method [Print Devices], IXpsDocumentConsumer, SendXpsUnknown method [Print Devices], IXpsDocumentConsumer interface, filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml
+ms.date: 2/2/2018
+ms.keywords: SendXpsUnknown, print.ixpsdocumentconsumer_sendxpsunknown, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, IXpsDocumentConsumer, SendXpsUnknown method [Print Devices], filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml, IXpsDocumentConsumer interface [Print Devices], SendXpsUnknown method, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown method [Print Devices], IXpsDocumentConsumer interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentConsumer.SendXpsUnknown
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ A pointer to an unrecognized document part interface.
 ## -returns
 
 
+
 <code>SendXpsUnknown</code> returns an HRE<b></b>SULT value.
+
 
 
 
 ## -remarks
 
 
+
 If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556324">IXpsDocumentProvider::GetXpsPart</a> method returns an object that the filter cannot identify, the filter should forward the unrecognized object to the next filter in the filter pipeline by calling <code>SendXpsUnknown</code>. Passing unrecognized objects to the next filter helps the filter maintain compatibility with future document formats.
+
 
 

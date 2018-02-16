@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_CUSTOM_RATE_DATA
-title: _DXVAHDDDI_CUSTOM_RATE_DATA
+title: "_DXVAHDDDI_CUSTOM_RATE_DATA"
 author: windows-driver-content
 description: The DXVAHDDDI_CUSTOM_RATE_DATA structure describes the video content that a decode device processes.
 old-location: display\dxvahdddi_custom_rate_data.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 828c4c42-a74f-4737-b850-5c8299e5afd6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvahdddi_custom_rate_data, _DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA, DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices]
+ms.keywords: display.dxvahdddi_custom_rate_data, _DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA, DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices], d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVAHDDDI_CUSTOM_RATE_DATA
 product: Windows
 targetos: Windows
@@ -95,7 +95,9 @@ typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
 ## -remarks
 
 
+
 The driver can expose custom rates for the frame rate conversion or the inverse telecine. For example, the driver can provide the following information in the members of DXVAHDDDI_CUSTOM_RATE_DATA for the indicated operation:
+
 
 
 
@@ -104,6 +106,8 @@ The driver can expose custom rates for the frame rate conversion or the inverse 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
+
+
 
  
 

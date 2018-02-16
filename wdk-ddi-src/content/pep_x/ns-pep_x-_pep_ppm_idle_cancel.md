@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_CANCEL
-title: _PEP_PPM_IDLE_CANCEL
+title: "_PEP_PPM_IDLE_CANCEL"
 author: windows-driver-content
 description: The PEP_PPM_IDLE_CANCEL structure indicates why the processor could not enter the previously selected idle state.
 old-location: kernel\pep_ppm_idle_cancel.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29B16A23-A3C1-4994-8F72-403BE32ABBD2
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_PPM_IDLE_CANCEL structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_idle_cancel, *PPEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL structure pointer [Kernel-Mode Driver Architecture], pep_x/PEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL, pep_x/PPEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL, _PEP_PPM_IDLE_CANCEL
+ms.keywords: PEP_PPM_IDLE_CANCEL structure [Kernel-Mode Driver Architecture], pep_x/PPEP_PPM_IDLE_CANCEL, _PEP_PPM_IDLE_CANCEL, pep_x/PEP_PPM_IDLE_CANCEL, kernel.pep_ppm_idle_cancel, *PPEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pep_x.h
-apiname: 
+apiname:
 -	PEP_PPM_IDLE_CANCEL
 product: Windows
 targetos: Windows
@@ -75,7 +75,9 @@ typedef struct _PEP_PPM_IDLE_CANCEL {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629119">PEP_NOTIFY_PPM_IDLE_CANCEL</a> notification. The <b>CancelCode</b> member of the structure contains an input value that the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) supplies before this notification is sent.
+
 
 
 
@@ -83,7 +85,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629119">PEP_NOTIFY_PPM_IDLE_CANCEL</a>
 
+
+
 <a href="..\pep_x\ne-pep_x-ppep_processor_idle_cancel_code.md">PEP_PROCESSOR_IDLE_CANCEL_CODE</a>
+
+
 
  
 

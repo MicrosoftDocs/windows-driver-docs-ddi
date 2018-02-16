@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3369feeb-cbb9-4938-8dfd-0160ba4fefdf
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilmessagestoragefull, ntddrilapitypes/RILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL structure [Network Drivers Starting with Windows Vista], *LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL
+ms.keywords: RILMESSAGESTORAGEFULL, ntddrilapitypes/RILMESSAGESTORAGEFULL, *LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL structure [Network Drivers Starting with Windows Vista], netvista.rilmessagestoragefull
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMESSAGESTORAGEFULL
 product: Windows
 targetos: Windows
-req.typenames: RILMESSAGESTORAGEFULL, *LPRILMESSAGESTORAGEFULL
+req.typenames: "*LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL"
 ---
 
 # RILMESSAGESTORAGEFULL structure
@@ -72,11 +72,8 @@ typedef struct _RILMESSAGESTORAGEFULL {
 ### -field cbSize
 
 
-
 ### -field dwExecutor
 
 
-
 ### -field hUiccApp
-
 

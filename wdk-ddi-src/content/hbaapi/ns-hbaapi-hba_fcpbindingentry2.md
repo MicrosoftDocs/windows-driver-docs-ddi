@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2e7353d-2c83-4704-bec4-9485ab3c7706
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PHBA_FCPBINDINGENTRY2 structure pointer [Storage Devices], structs-Fibre_168ea26c-34d1-4843-8464-528dc53e3953.xml, HBA_FCPBindingEntry2 structure [Storage Devices], hbaapi/HBA_FCPBindingEntry2, HBA_FCPBindingEntry2, *PHBA_FCPBINDINGENTRY2, HBA_FCPBINDINGENTRY2, hbaapi/PHBA_FCPBINDINGENTRY2, storage.hba_fcpbindingentry2, HBA_FCPBINDINGENTRY2 structure [Storage Devices], PHBA_FCPBINDINGENTRY2
+ms.keywords: HBA_FCPBINDINGENTRY2 structure [Storage Devices], structs-Fibre_168ea26c-34d1-4843-8464-528dc53e3953.xml, PHBA_FCPBINDINGENTRY2, PHBA_FCPBINDINGENTRY2 structure pointer [Storage Devices], hbaapi/HBA_FCPBindingEntry2, HBA_FCPBINDINGENTRY2, HBA_FCPBindingEntry2, *PHBA_FCPBINDINGENTRY2, HBA_FCPBindingEntry2 structure [Storage Devices], storage.hba_fcpbindingentry2, hbaapi/PHBA_FCPBINDINGENTRY2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbaapi.h
-apiname: 
+apiname:
 -	HBA_FCPBINDINGENTRY2
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ typedef struct HBA_FCPBindingEntry2 {
 ### -field type
 
 Contains a binding type that indicates how the target is specified in the binding. This member can have any of the following values: 
+
 <table>
 <tr>
 <th>Type Value</th>
@@ -129,7 +130,8 @@ Indicates that the system should automatically generate target mappings from log
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a comparable set of values that define how an HBA specifies targets and logical units in the persistent bindings that it maintains, see the WMI property qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>. 
 
@@ -159,25 +161,41 @@ Contains, on return, a status value that indicates the condition of the HBA. The
 ## -remarks
 
 
+
 This structure is very similar to the <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> structure. The only difference is that HBA_FCPBindingEntry2 returns HBA status. 
+
 
 
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
-
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
-
 <a href="..\hbaapi\ns-hbaapi-hba_luid.md">HBA_LUID</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
+
 
 <a href="..\hbaapi\ns-hbaapi-hba_fcpbindingentry.md">HBA_FCPBindingEntry</a>
 
+
+
 <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a>
+
+
 
  
 

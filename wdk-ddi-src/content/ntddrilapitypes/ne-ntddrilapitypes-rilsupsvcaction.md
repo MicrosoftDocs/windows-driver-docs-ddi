@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 14c9b97d-7f3f-45ef-9be2-c36495c69081
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_SUPSVCACTION_ERASE, netvista.rilsupsvcaction, RIL_SUPSVCACTION_USSD, RIL_SUPSVCACTION_ERASE, RIL_SUPSVCACTION_DEACTIVATE, ntddrilapitypes/RIL_SUPSVCACTION_USSD, ntddrilapitypes/RIL_SUPSVCACTION_MAX, ntddrilapitypes/RILSUPSVCACTION, RIL_SUPSVCACTION_REGISTER, RILSUPSVCACTION, ntddrilapitypes/RIL_SUPSVCACTION_REGISTER, RIL_SUPSVCACTION_INTERROGATE, ntddrilapitypes/RIL_SUPSVCACTION_REGISTER_PW, RIL_SUPSVCACTION_MAX, RIL_SUPSVCACTION_REGISTER_PW, RILSUPSVCACTION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_SUPSVCACTION_DEACTIVATE, ntddrilapitypes/RIL_SUPSVCACTION_INTERROGATE
+ms.keywords: ntddrilapitypes/RIL_SUPSVCACTION_REGISTER, RIL_SUPSVCACTION_REGISTER, ntddrilapitypes/RIL_SUPSVCACTION_REGISTER_PW, ntddrilapitypes/RIL_SUPSVCACTION_DEACTIVATE, RILSUPSVCACTION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_SUPSVCACTION_USSD, RIL_SUPSVCACTION_USSD, RIL_SUPSVCACTION_DEACTIVATE, RIL_SUPSVCACTION_ERASE, RIL_SUPSVCACTION_INTERROGATE, netvista.rilsupsvcaction, RILSUPSVCACTION, RIL_SUPSVCACTION_MAX, ntddrilapitypes/RIL_SUPSVCACTION_ERASE, ntddrilapitypes/RILSUPSVCACTION, ntddrilapitypes/RIL_SUPSVCACTION_MAX, RIL_SUPSVCACTION_REGISTER_PW, ntddrilapitypes/RIL_SUPSVCACTION_INTERROGATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILSUPSVCACTION
 product: Windows
 targetos: Windows
@@ -76,31 +76,23 @@ typedef enum _RILSUPSVCACTION {
 ### -field RIL_SUPSVCACTION_ACTIVATE
 
 
-
 ### -field RIL_SUPSVCACTION_DEACTIVATE
-
 
 
 ### -field RIL_SUPSVCACTION_REGISTER
 
 
-
 ### -field RIL_SUPSVCACTION_ERASE
-
 
 
 ### -field RIL_SUPSVCACTION_INTERROGATE
 
 
-
 ### -field RIL_SUPSVCACTION_REGISTER_PW
-
 
 
 ### -field RIL_SUPSVCACTION_USSD
 
 
-
 ### -field RIL_SUPSVCACTION_MAX
-
 

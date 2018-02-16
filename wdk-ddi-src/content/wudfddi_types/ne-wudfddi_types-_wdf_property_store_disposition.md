@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PROPERTY_STORE_DISPOSITION
-title: _WDF_PROPERTY_STORE_DISPOSITION
+title: "_WDF_PROPERTY_STORE_DISPOSITION"
 author: windows-driver-content
 description: The WDF_PROPERTY_STORE_DISPOSITION enumeration contains values that indicate whether a registry value was created or already existed when a driver obtained a property store interface.
 old-location: wdf\wdf_property_store_disposition.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 107b55f5-0c06-45cc-9cbb-ba9e2fbca1e4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WDF_PROPERTY_STORE_DISPOSITION, WDF_PROPERTY_STORE_DISPOSITION, umdfstructs_a25f5c08-88c9-41c0-9bab-023ea91d0a22.xml, wudfddi_types/OpenedExistingStore, wdf.wdf_property_store_disposition, umdf.wdf_property_store_disposition, CreatedNewStore, wudfddi_types/CreatedNewStore, _WDF_PROPERTY_STORE_DISPOSITION, OpenedExistingStore, WDF_PROPERTY_STORE_DISPOSITION enumeration
+ms.keywords: CreatedNewStore, wdf.wdf_property_store_disposition, _WDF_PROPERTY_STORE_DISPOSITION, OpenedExistingStore, umdfstructs_a25f5c08-88c9-41c0-9bab-023ea91d0a22.xml, WDF_PROPERTY_STORE_DISPOSITION, wudfddi_types/WDF_PROPERTY_STORE_DISPOSITION, wudfddi_types/OpenedExistingStore, WDF_PROPERTY_STORE_DISPOSITION enumeration, wudfddi_types/CreatedNewStore, umdf.wdf_property_store_disposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_PROPERTY_STORE_DISPOSITION
 product: Windows
 targetos: Windows
@@ -84,17 +84,25 @@ The device property store already exists.
 ## -remarks
 
 
+
 The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> methods.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
+
+
 
  
 

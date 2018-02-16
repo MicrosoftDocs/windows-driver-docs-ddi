@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, IDebugClient5, IDebugClient5::SetKernelConnectionOptionsWide, IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, debugger.setkernelconnectionoptionswide, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface
+ms.keywords: IDebugClient5 interface [Windows Debugging], SetKernelConnectionOptionsWide method, SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], IDebugClient5 interface, SetKernelConnectionOptionsWide method [Windows Debugging], debugger.setkernelconnectionoptionswide, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, IDebugClient5, IDebugClient5::SetKernelConnectionOptionsWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.SetKernelConnectionOptionsWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::SetKernelConnectionOptionsWide method
@@ -70,6 +70,7 @@ HRESULT SetKernelConnectionOptionsWide(
 ### -param Options [in]
 
 Specifies the connection options to update.  The possible values are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -95,13 +96,16 @@ For kernel connections through a COM port, cycle through the supported baud rate
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -129,11 +133,14 @@ The current target is not a live (non-local) kernel target.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method is available only for live kernel targets that are not local and not connected through eXDI.  This method is reentrant.
@@ -142,11 +149,16 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
+
+
 
  
 

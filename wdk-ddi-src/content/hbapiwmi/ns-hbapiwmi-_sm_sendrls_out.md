@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendRLS_OUT
-title: _SM_SendRLS_OUT
+title: "_SM_SendRLS_OUT"
 author: windows-driver-content
 description: The SM_SendRLS_OUT structure is used to receive output parameters from the SM_SendRLS method.
 old-location: storage\sm_sendrls_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 28c08a30-b6c6-4f1b-a3a9-0581da0159b9
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SM_SendRLS_OUT, hbapiwmi/SM_SendRLS_OUT, storage.sm_sendrls_out, PSM_SendRLS_OUT structure pointer [Storage Devices], structs-Fibre_8244cf34-aaf9-4c88-aeb7-4adf77d40269.xml, _SM_SendRLS_OUT, *PSM_SendRLS_OUT, SM_SendRLS_OUT structure [Storage Devices], PSM_SendRLS_OUT, hbapiwmi/PSM_SendRLS_OUT
+ms.keywords: SM_SendRLS_OUT structure [Storage Devices], hbapiwmi/PSM_SendRLS_OUT, hbapiwmi/SM_SendRLS_OUT, *PSM_SendRLS_OUT, PSM_SendRLS_OUT, _SM_SendRLS_OUT, SM_SendRLS_OUT, structs-Fibre_8244cf34-aaf9-4c88-aeb7-4adf77d40269.xml, storage.sm_sendrls_out, PSM_SendRLS_OUT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SM_SendRLS_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PSM_SendRLS_OUT, SM_SendRLS_OUT
+req.typenames: "*PSM_SendRLS_OUT, SM_SendRLS_OUT"
 ---
 
 # _SM_SendRLS_OUT structure
@@ -93,6 +93,8 @@ The results of the common transport command.
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SM_SendRNID_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
+
 
 

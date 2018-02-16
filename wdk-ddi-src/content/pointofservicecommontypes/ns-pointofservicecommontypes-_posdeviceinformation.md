@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._PosDeviceInformation
-title: _PosDeviceInformation
+title: "_PosDeviceInformation"
 author: windows-driver-content
 description: This structure provides device information as defined in and required by the Unified Point of Service (UPOS) standard.
 old-location: pos\posdeviceinformation.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9ae1cfd1-1ef8-4f27-b6e1-f593bdc020e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.posdeviceinformation, _PosDeviceInformation, PosDeviceInformation, PosDeviceInformation structure, pointofservicecommontypes/PosDeviceInformation
+ms.keywords: PosDeviceInformation structure, pointofservicecommontypes/PosDeviceInformation, PosDeviceInformation, _PosDeviceInformation, pos.posdeviceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	PointOfServiceCommonTypes.h
-apiname: 
+apiname:
 -	PosDeviceInformation
 product: Windows
 targetos: Windows
@@ -129,6 +129,8 @@ Indicates the device installation date.
 ## -remarks
 
 
+
 These strings must be NULL terminated, and the maximum length of the strings is <code>STATISTICS_STRING_SIZE - 1</code>.
+
 
 

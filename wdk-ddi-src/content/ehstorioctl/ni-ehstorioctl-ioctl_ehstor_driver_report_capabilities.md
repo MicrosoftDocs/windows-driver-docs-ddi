@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -85,20 +85,25 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 One of the following values can be returned in the <b>Status</b> field.
+
 <table>
 <tr>
 <th>Status Value</th>
@@ -124,10 +129,12 @@ One of the following values can be returned in the <b>Status</b> field.
 <td>STATUS_NOT_SUPPORTED</td>
 <td>The sending device is not a silo device.</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
+
 
 
 This IOCTL is used by the Trusted Computing Group (TCG) standard authentication silo driver in Windows 8. On device initialization, the TCG silo driver will notify the EHSTOR class driver (EhStorClass.sys) of its capabilities by sending a <b>IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</b> request with a <a href="..\ehstorioctl\ns-ehstorioctl-_silo_driver_capabilities.md">SILO_DRIVER_CAPABILITIES</a> structure.
@@ -140,9 +147,12 @@ IOCTL requests supported by a silo driver are included in an array following <a 
 
 
 
+
 ## -see-also
 
 <a href="..\ehstorioctl\ns-ehstorioctl-_silo_driver_capabilities.md">SILO_DRIVER_CAPABILITIES</a>
+
+
 
  
 

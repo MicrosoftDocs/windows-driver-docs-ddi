@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_SessionStatistics
-title: _MSiSCSI_SessionStatistics
+title: "_MSiSCSI_SessionStatistics"
 author: windows-driver-content
 description: The MSiSCSI_SessionStatistics structure is used by iSCSI initiators to report session statistics.
 old-location: storage\msiscsi_sessionstatistics.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 04ceffce-cd5f-4e62-98cb-450e8552a811
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: MSiSCSI_SessionStatistics structure [Storage Devices], structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml, MSiSCSI_SessionStatistics, _MSiSCSI_SessionStatistics, iscsiprf/PMSiSCSI_SessionStatistics, iscsiprf/MSiSCSI_SessionStatistics, PMSiSCSI_SessionStatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], storage.msiscsi_sessionstatistics, *PMSiSCSI_SessionStatistics
+ms.keywords: MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices], iscsiprf/MSiSCSI_SessionStatistics, iscsiprf/PMSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], *PMSiSCSI_SessionStatistics, structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml, PMSiSCSI_SessionStatistics, _MSiSCSI_SessionStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiprf.h
-apiname: 
+apiname:
 -	MSiSCSI_SessionStatistics
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
+req.typenames: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics"
 ---
 
 # _MSiSCSI_SessionStatistics structure
@@ -129,19 +129,29 @@ The number of format errors that have occurred in this session.
 ## -remarks
 
 
+
 It is optional that you implement this class.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563139">MSiSCSI_SessionStatistics WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
 
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563139">MSiSCSI_SessionStatistics WMI Class</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c20c39f9-ceee-47f0-849a-f8686fb05e6a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mcd/ChangerClassFreePool, storage.changerclassfreepool, chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, ChangerClassFreePool, ChangerClassFreePool routine [Storage Devices]
+ms.keywords: mcd/ChangerClassFreePool, chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, storage.changerclassfreepool, ChangerClassFreePool routine [Storage Devices], ChangerClassFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Mcd.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Mcd.lib
 -	Mcd.dll
-apiname: 
+apiname:
 -	ChangerClassFreePool
 product: Windows
 targetos: Windows
@@ -76,13 +76,17 @@ Pointer to the block of memory to be freed.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -see-also
 
 <a href="..\mcd\nf-mcd-changerclassallocatepool.md">ChangerClassAllocatePool</a>
+
+
 
  
 

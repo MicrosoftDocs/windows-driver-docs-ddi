@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 53657c26-5007-4c8e-aadf-5d464f1222d2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml, wiauStrW2C function [Imaging Devices], wiauStrW2C, wiautil/wiauStrW2C, image.wiaustrw2c
+ms.keywords: wiauStrW2C, wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml, wiautil/wiauStrW2C, wiauStrW2C function [Imaging Devices], image.wiaustrw2c
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiautil.h
-apiname: 
+apiname:
 -	wiauStrW2C
 product: Windows
 targetos: Windows
@@ -88,17 +88,25 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pszDst</i>.
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
+
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
-
 <a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
 
+
+
 <a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f165c5a0-6f8e-495f-90b9-62d0d8982456
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpmBfeStateGet0, fwpmk/FwpmBfeStateGet0, FwpmBfeStateGet0 function [Network Drivers Starting with Windows Vista], netvista.fwpmbfestateget0, wfp_ref_2_funct_2_fwpm_6f70e48b-0c6c-465e-95c3-fa41413398db.xml
+ms.keywords: FwpmBfeStateGet0, wfp_ref_2_funct_2_fwpm_6f70e48b-0c6c-465e-95c3-fa41413398db.xml, netvista.fwpmbfestateget0, fwpmk/FwpmBfeStateGet0, FwpmBfeStateGet0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Fwpkclnt.lib
 -	Fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpmBfeStateGet0
 product: Windows
 targetos: Windows
@@ -68,11 +68,14 @@ FWPM_SERVICE_STATE NTAPI FwpmBfeStateGet0(void);
 
 
 
+
 ## -returns
+
 
 
 The 
      <b>FwpmBfeStateGet0</b> function returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -122,11 +125,14 @@ The filter engine is running.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A callout driver calls the 
@@ -139,10 +145,13 @@ Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.fwpmbfestatesubscribechanges0" tabindex="0"><b>
-   FwpmBfeStateSubscribeChanges0</b></mshelp:link>
+<a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+   FwpmBfeStateSubscribeChanges0</a>
+
+
 
  
 

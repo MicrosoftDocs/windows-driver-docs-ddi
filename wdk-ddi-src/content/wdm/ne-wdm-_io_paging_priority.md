@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_PAGING_PRIORITY
-title: _IO_PAGING_PRIORITY
+title: "_IO_PAGING_PRIORITY"
 author: windows-driver-content
 description: The IO_PAGING_PRIORITY enumeration describes the priority value for a paging I/O IRP.
 old-location: kernel\io_paging_priority.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/IoPagingPriorityInvalid, wdm/IoPagingPriorityNormal, IoPagingPriorityNormal, IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved1, wdm/IO_PAGING_PRIORITY, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, kernel.io_paging_priority, _IO_PAGING_PRIORITY, IoPagingPriorityReserved2, IoPagingPriorityHigh, IO_PAGING_PRIORITY, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityReserved2, IoPagingPriorityInvalid, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoPagingPriorityReserved1, IoPagingPriorityNormal, wdm/IO_PAGING_PRIORITY, _IO_PAGING_PRIORITY, IoPagingPriorityReserved1, IoPagingPriorityReserved2, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, IoPagingPriorityInvalid, wdm/IoPagingPriorityReserved2, kernel.io_paging_priority, wdm/IoPagingPriorityNormal, IoPagingPriorityHigh, wdm/IoPagingPriorityInvalid, IO_PAGING_PRIORITY, wdm/IoPagingPriorityHigh, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	IO_PAGING_PRIORITY
 product: Windows
 targetos: Windows
@@ -100,13 +100,17 @@ Reserved for system use.
 ## -remarks
 
 
+
 The <a href="..\ntddk\nf-ntddk-iogetpagingiopriority.md">IoGetPagingIoPriority</a> routine returns an <b>IO_PAGING_PRIORITY</b> value to indicate the priority value of a paging I/O IRP. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\nf-ntddk-iogetpagingiopriority.md">IoGetPagingIoPriority</a>
+
+
 
  
 

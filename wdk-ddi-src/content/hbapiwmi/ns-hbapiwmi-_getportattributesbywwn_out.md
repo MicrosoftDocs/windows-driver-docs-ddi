@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetPortAttributesByWWN_OUT
-title: _GetPortAttributesByWWN_OUT
+title: "_GetPortAttributesByWWN_OUT"
 author: windows-driver-content
 description: The GetPortAttributesByWWN_OUT structure is used to report the output parameter data of the GetPortAttributesByWWN WMI method to the WMI client.
 old-location: storage\getportattributesbywwn_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9a4d04de-2c44-4f13-ac6f-32e2fe879e4e
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PGetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT, storage.getportattributesbywwn_out, GetPortAttributesByWWN_OUT structure [Storage Devices], structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml, _GetPortAttributesByWWN_OUT, hbapiwmi/GetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices], *PGetPortAttributesByWWN_OUT
+ms.keywords: GetPortAttributesByWWN_OUT structure [Storage Devices], _GetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT, storage.getportattributesbywwn_out, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices], *PGetPortAttributesByWWN_OUT, structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml, hbapiwmi/PGetPortAttributesByWWN_OUT, hbapiwmi/GetPortAttributesByWWN_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	GetPortAttributesByWWN_OUT
 product: Windows
 targetos: Windows
-req.typenames: GetPortAttributesByWWN_OUT, *PGetPortAttributesByWWN_OUT
+req.typenames: "*PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT"
 ---
 
 # _GetPortAttributesByWWN_OUT structure
@@ -81,17 +81,25 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattri
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
+
+
 
  
 

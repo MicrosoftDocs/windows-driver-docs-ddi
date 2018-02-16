@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_UNREGISTER_DEVICE
-title: _PEP_UNREGISTER_DEVICE
+title: "_PEP_UNREGISTER_DEVICE"
 author: windows-driver-content
 description: The PEP_UNREGISTER_DEVICE structure identifies a device whose registration is being removed from the Windows power management framework (PoFx).
 old-location: kernel\pep_unregister_device.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B6A0F80C-8AE2-4FFE-A3EE-F0260A8774D6
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], *PPEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE, _PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device
+ms.keywords: pepfx/PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], pepfx/PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, *PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_UNREGISTER_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE
+req.typenames: "*PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE"
 ---
 
 # _PEP_UNREGISTER_DEVICE structure
@@ -75,7 +75,9 @@ typedef struct _PEP_UNREGISTER_DEVICE {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_UNREGISTER_DEVICE</a> notification. The <b>DeviceHandle</b> member contains an input value that is supplied by the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management framework</a> (PoFx). 
+
 
 
 
@@ -83,7 +85,11 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_UNREGISTER_DEVICE</a>
 
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
 
  
 

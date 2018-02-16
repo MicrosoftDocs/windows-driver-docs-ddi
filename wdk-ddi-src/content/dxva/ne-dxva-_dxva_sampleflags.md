@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_SampleFlags
-title: _DXVA_SampleFlags
+title: "_DXVA_SampleFlags"
 author: windows-driver-content
 description: The DXVA_SampleFlags enumeration type contains a collection of flags that identify changes in the current sample frame from the previous sample frame.
 old-location: display\dxva_sampleflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 24f77f16-e043-4d58-87ef-6c834e61cb5d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_SampleFlagsMask, dxva/DXVA_SampleFlag_DstRect_Changed, dxva/DXVA_SampleFlags, dxva/DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlagsMask, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlags enumeration [Display Devices], DXVA_SampleFlag_DstRect_Changed, display.dxva_sampleflags, dxva/DXVA_SampleFlag_ColorData_Changed, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml, _DXVA_SampleFlags, DXVA_SampleFlags, dxva/DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlag_ColorData_Changed
+ms.keywords: dxva/DXVA_SampleFlag_Palette_Changed, dxva/DXVA_SampleFlag_DstRect_Changed, dxva/DXVA_SampleFlags, dxva/DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlag_DstRect_Changed, display.dxva_sampleflags, DXVA_SampleFlagsMask, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml, DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_ColorData_Changed, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlags, dxva/DXVA_SampleFlagsMask, DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlags enumeration [Display Devices], _DXVA_SampleFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_SampleFlags
 product: Windows
 targetos: Windows
@@ -98,11 +98,17 @@ Indicates that the color data of the sample frame changed.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563927">DXVA_DeinterlaceBobDeviceClass::DeinterlaceBltEx</a>
+
+
+
 <a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
+
+
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563927">DXVA_DeinterlaceBobDeviceClass::DeinterlaceBltEx</a>
+
 
  
 

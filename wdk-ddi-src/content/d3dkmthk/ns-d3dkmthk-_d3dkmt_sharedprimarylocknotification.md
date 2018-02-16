@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
-title: _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
+title: "_D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION"
 author: windows-driver-content
 description: The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary surface that an application is about to lock.
 old-location: display\d3dkmt_sharedprimarylocknotification.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4e7766bb-eb5b-4f79-b9b8-89f7dcb98569
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure [Display Devices], d3dkmthk/D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, OpenGL_Structs_4ec11480-30cb-45a1-a31c-e7432ec45abf.xml, display.d3dkmt_sharedprimarylocknotification
+ms.keywords: d3dkmthk/D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, OpenGL_Structs_4ec11480-30cb-45a1-a31c-e7432ec45abf.xml, D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, display.d3dkmt_sharedprimarylocknotification, D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure [Display Devices], _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 product: Windows
 targetos: Windows
@@ -88,7 +88,11 @@ typedef struct _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION {
 
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimarylocknotification.md">D3DKMTSharedPrimaryLockNotification</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+
+
 
  
 

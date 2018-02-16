@@ -7,8 +7,8 @@ old-location: ifsk\rxlogeventwithannotation.htm
 old-project: ifsk
 ms.assetid: cb8b757a-cff5-41cf-8155-2c45a8a35f00
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: RxLogEventWithAnnotation function [Installable File System Drivers], RxLogEventWithAnnotation, rxprocs/RxLogEventWithAnnotation, rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml, ifsk.rxlogeventwithannotation
+ms.date: 2/7/2018
+ms.keywords: RxLogEventWithAnnotation function [Installable File System Drivers], rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml, rxprocs/RxLogEventWithAnnotation, ifsk.rxlogeventwithannotation, RxLogEventWithAnnotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rxprocs.h
-apiname: 
+apiname:
 -	RxLogEventWithAnnotation
 product: Windows
 targetos: Windows
-req.typenames: *PRX_CONTEXT, RX_CONTEXT
+req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -109,14 +109,14 @@ TBD
 The count of the number of annotation strings to add to the I/O error log structure.
 
 
+#### - Annotations [in]
+
+A pointer to any annotation strings to add to the I/O error log structure.
+
+
 #### - Id [in]
 
 The value indicating the I/O error log code which is different than an NTSTATUS value returned by a routine. The legal I/O error log code values are defined in the <i>ntiolog.h</i> header file included with the Microsoft Windows SDK and Visual Studio. 
-
-
-#### - RawDataLength [in]
-
-The length of the raw data buffer to be added to the I/O error log structure.
 
 
 #### - NtStatus [in]
@@ -124,24 +124,27 @@ The length of the raw data buffer to be added to the I/O error log structure.
 The value indicating the status code of a routine indicating a failure.
 
 
-#### - Annotations [in]
-
-A pointer to any annotation strings to add to the I/O error log structure.
-
-
 #### - RawDataBuffer [in]
 
 A pointer to a raw data buffer to be added to the I/O error log structure.
 
 
+#### - RawDataLength [in]
+
+The length of the raw data buffer to be added to the I/O error log structure.
+
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 A network mini-redirector would call <b>RxLogEventWithAnnotation</b> to log an I/O error.
@@ -152,17 +155,24 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 
 
-## -see-also
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+## -see-also
 
 <a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
 
+
+
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
 
- 
+
+
+<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxLogEventWithAnnotation function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxLogEventWithAnnotation function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:ucmtypes._UCM_PD_POWER_DATA_OBJECT
-title: _UCM_PD_POWER_DATA_OBJECT
+title: "_UCM_PD_POWER_DATA_OBJECT"
 author: windows-driver-content
 description: Describes a Power Data Object. For information about these members, see the Power Delivery specification.
 old-location: buses\ucm_pd_power_data_object.htm
 old-project: usbref
 ms.assetid: C54750A9-EE64-4FE7-9ED6-EC9709A82C43
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], _UCM_PD_POWER_DATA_OBJECT, ucmtypes/PUCM_PD_POWER_DATA_OBJECT, *PUCM_PD_POWER_DATA_OBJECT, buses.ucm_pd_power_data_object, UCM_PD_POWER_DATA_OBJECT union [Buses], UCM_PD_POWER_DATA_OBJECT
+ms.date: 2/8/2018
+ms.keywords: UCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], _UCM_PD_POWER_DATA_OBJECT, ucmtypes/PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT, buses.ucm_pd_power_data_object, PUCM_PD_POWER_DATA_OBJECT, *PUCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT union [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucmtypes.h
-apiname: 
+apiname:
 -	UCM_PD_POWER_DATA_OBJECT
 product: Windows
 targetos: Windows
@@ -96,8 +96,12 @@ typedef union _UCM_PD_POWER_DATA_OBJECT {
 
 
 
-### -field Common
+### -field Ul
 
+Size of the structure.
+
+
+### -field Common
 
 
 ### -field Common.Reserved
@@ -215,9 +219,4 @@ Describes the maximum voltage in multiples of 50 mV.
 ### -field BatterySupplyPdo.Battery
 
 Battery type.
-
-
-### -field Ul
-
-Size of the structure.
 

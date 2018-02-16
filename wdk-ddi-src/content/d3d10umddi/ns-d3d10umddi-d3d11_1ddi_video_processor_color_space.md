@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2878b36e-3850-4af8-aeca-9c5d2da717f9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, display.d3d11_1ddi_video_processor_color_space
+ms.keywords: d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, display.d3d11_1ddi_video_processor_color_space, D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ typedef struct D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE {
 Specifies whether the output is intended for playback or video processing (such as editing or authoring). The device can optimize the processing based on the type. The default state value is 0 (playback). 
 
 
+
 <table>
 <tr>
 <th>Value</th>
@@ -104,12 +105,14 @@ Video processing
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field RGB_Range
 
 Specifies the RGB color range. The default state value is 0 (full range).
+
 
 
 <table>
@@ -139,12 +142,14 @@ Limited range (16-235)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field YCbCr_Matrix
 
 Specifies the YCbCr transfer matrix. The default state value is 0 (BT.601).
+
 
 
 <table>
@@ -174,12 +179,14 @@ ITU-R BT.709
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field YCbCr_xvYCC
 
 Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). The default state value is zero (conventional YCbCr).
+
 
 
 <table>
@@ -209,7 +216,8 @@ Extended YCbCr (xvYCC)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Nominal_Range
@@ -231,6 +239,8 @@ Reserved for system use. Set to zero.
 ## -see-also
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range.md">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a>
+
+
 
  
 

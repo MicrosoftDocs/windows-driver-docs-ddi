@@ -7,8 +7,8 @@ old-location: audio\iportevents_generateeventlist.htm
 old-project: audio
 ms.assetid: 99c9d60d-5f19-4b31-a8f3-aff69bc3a2a6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GenerateEventList method [Audio Devices], IPortEvents interface, IPortEvents interface [Audio Devices], GenerateEventList method, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, IPortEvents, GenerateEventList, portcls/IPortEvents::GenerateEventList, audio.iportevents_generateeventlist, GenerateEventList method [Audio Devices], IPortEvents::GenerateEventList
+ms.date: 2/8/2018
+ms.keywords: audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, portcls/IPortEvents::GenerateEventList, IPortEvents interface [Audio Devices], GenerateEventList method, IPortEvents, audio.iportevents_generateeventlist, GenerateEventList method [Audio Devices], IPortEvents interface, IPortEvents::GenerateEventList, GenerateEventList method [Audio Devices], GenerateEventList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level. (See Remarks section.)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortEvents.GenerateEventList
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortEvents::GenerateEventList method
@@ -105,11 +105,14 @@ Specifies the node ID of the event to be signaled. If <i>NodeEvent</i> is <b>TRU
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 This method is used by miniport drivers to signal event entries in the port driver's event list. In response to the miniport driver calling this method, the port driver walks its list of event entries and signals all registered event entries that meet the criteria expressed by the call parameters.
@@ -118,17 +121,24 @@ Although callers of <code>GenerateEventList</code> can be running at any IRQL, t
 
 
 
-## -see-also
 
-<a href="..\portcls\nn-portcls-iportevents.md">IPortEvents</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
 
+
+
 <a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
 
- 
+
+
+<a href="..\portcls\nn-portcls-iportevents.md">IPortEvents</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortEvents::GenerateEventList method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortEvents::GenerateEventList method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

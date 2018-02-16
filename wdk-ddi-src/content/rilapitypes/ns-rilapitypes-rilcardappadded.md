@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8e4eed61-bd57-4731-9178-7f8d33fbd240
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], *LPRILCARDAPPADDED, netvista.rilcardappadded_2, rilapitypes/RILCARDAPPADDED
+ms.keywords: "*LPRILCARDAPPADDED, RILCARDAPPADDED, rilapitypes/RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], netvista.rilcardappadded_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCARDAPPADDED
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCARDAPPADDED, RILCARDAPPADDED
+req.typenames: "*LPRILCARDAPPADDED, RILCARDAPPADDED"
 req.product: Windows 10 or later.
 ---
 
@@ -74,15 +74,11 @@ typedef struct _RILCARDAPPADDED {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwSlotIndex
 
 
-
 ### -field rilUiccAppInfo
-
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cba1fcc3-74d0-44b7-b480-3e7d754f9efe
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.riluiccapptype, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCAPPTYPE_USIM, RIL_UICCAPPTYPE_UNKNOWN, rilapitypes/RILUICCAPPTYPE, RIL_UICCAPPTYPE_MF_SIM, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM, RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_ISIM, RIL_UICCAPPTYPE_MF, RILUICCAPPTYPE, RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_USIM, rilapitypes/RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_CSIM
+ms.keywords: rilapitypes/RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM, rilapitypes/RILUICCAPPTYPE, rilapitypes/RIL_UICCAPPTYPE_USIM, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPPTYPE_MF_SIM, RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_MF, RIL_UICCAPPTYPE_USIM, RILUICCAPPTYPE, RIL_UICCAPPTYPE_MF_RUIM, netvista.riluiccapptype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCAPPTYPE
 product: Windows
 targetos: Windows
@@ -78,29 +78,22 @@ enum RILUICCAPPTYPE {
 ### -field RIL_UICCAPPTYPE_UNKNOWN
 
 
-
 ### -field RIL_UICCAPPTYPE_MF
-
 
 
 ### -field RIL_UICCAPPTYPE_MF_SIM
 
 
-
 ### -field RIL_UICCAPPTYPE_MF_RUIM
-
 
 
 ### -field RIL_UICCAPPTYPE_USIM
 
 
-
 ### -field RIL_UICCAPPTYPE_CSIM
 
 
-
 ### -field RIL_UICCAPPTYPE_ISIM
-
 
 
 ### -field RIL_UICCAPPTYPE_MAX
@@ -111,9 +104,11 @@ enum RILUICCAPPTYPE {
 ## -remarks
 
 
+
 Networks will vary, but the following table summarizes which items are returned for typical TD-SCDMA networks. 
 
 <b>Serving network</b>
+
 <table>
 <tr>
 <th>Entry</th>
@@ -283,9 +278,11 @@ Path loss of serving cell in dBs
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>TD-SCDMA neighbors</b> (subject to availability from network)
+
 <table>
 <tr>
 <th>Entry</th>
@@ -455,13 +452,17 @@ No
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

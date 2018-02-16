@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c9ee5373-53eb-4356-8969-4d7bfea13779
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILNITZINFOPARAMMASK, rilapitypes/RIL_PARAM_NITZ_ALL, RIL_PARAM_NITZ_TIMEZONEOFFSET, RIL_PARAM_NITZ_ALL, rilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, rilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET, rilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, rilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, rilapitypes/RILNITZINFOPARAMMASK, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, netvista.rilnitzinfoparammask_2, RIL_PARAM_NITZ_SYSTEMTYPE, RIL_PARAM_NITZ_SYSTEMTIME, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: rilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET, RILNITZINFOPARAMMASK, netvista.rilnitzinfoparammask_2, rilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, rilapitypes/RIL_PARAM_NITZ_ALL, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, rilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, RIL_PARAM_NITZ_SYSTEMTYPE, RIL_PARAM_NITZ_TIMEZONEOFFSET, RIL_PARAM_NITZ_ALL, rilapitypes/RILNITZINFOPARAMMASK, RIL_PARAM_NITZ_SYSTEMTIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILNITZINFOPARAMMASK
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILNITZINFOPARAMMASK {
 ### -field RIL_PARAM_NITZ_EXECUTOR
 
 
-
 ### -field RIL_PARAM_NITZ_TIMEZONEOFFSET
-
 
 
 ### -field RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET
 
 
-
 ### -field RIL_PARAM_NITZ_SYSTEMTIME
-
 
 
 ### -field RIL_PARAM_NITZ_SYSTEMTYPE
 
 
-
 ### -field RIL_PARAM_NITZ_ALL
-
 

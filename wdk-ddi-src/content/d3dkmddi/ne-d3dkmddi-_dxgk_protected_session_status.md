@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PROTECTED_SESSION_STATUS
-title: _DXGK_PROTECTED_SESSION_STATUS
+title: "_DXGK_PROTECTED_SESSION_STATUS"
 author: windows-driver-content
 description: Used to indicate the status of the current session.
 old-location: display\dxgk_protected_session_status.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B6FCA052-FFAE-4F7D-8BDE-CDB84772B5E5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], _DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS_OK, display.dxgk_protected_session_status, DXGK_PROTECTED_SESSION_STATUS
+ms.keywords: DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS, _DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], display.dxgk_protected_session_status, DXGK_PROTECTED_SESSION_STATUS_OK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PROTECTED_SESSION_STATUS
 product: Windows
 targetos: Windows

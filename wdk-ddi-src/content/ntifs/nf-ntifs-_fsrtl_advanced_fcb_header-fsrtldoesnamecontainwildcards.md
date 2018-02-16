@@ -7,8 +7,8 @@ old-location: ifsk\fsrtldoesnamecontainwildcards.htm
 old-project: ifsk
 ms.assetid: a2bcf1c0-a6c7-4bf3-bce6-9a661f2ab2e1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FsRtlDoesNameContainWildCards routine [Installable File System Drivers], fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, ntifs/FsRtlDoesNameContainWildCards, FsRtlDoesNameContainWildCards, ifsk.fsrtldoesnamecontainwildcards
+ms.date: 2/7/2018
+ms.keywords: FsRtlDoesNameContainWildCards routine [Installable File System Drivers], ifsk.fsrtldoesnamecontainwildcards, fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, FsRtlDoesNameContainWildCards, ntifs/FsRtlDoesNameContainWildCards
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	FsRtlDoesNameContainWildCards
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ A pointer to the string to be checked.
 ## -returns
 
 
+
 <b>FsRtlDoesNameContainWildCards</b> returns <b>TRUE</b> if one or more wildcard characters were found, <b>FALSE</b> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 The following are wildcard characters: *, ?, ANSI_DOS_STAR, ANSI_DOS_DOT, and ANSI_DOS_QM.
@@ -88,13 +91,16 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
+
 ## -see-also
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlDoesNameContainWildCards routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlDoesNameContainWildCards routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

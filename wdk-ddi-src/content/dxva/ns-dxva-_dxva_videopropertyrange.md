@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_VideoPropertyRange
-title: _DXVA_VideoPropertyRange
+title: "_DXVA_VideoPropertyRange"
 author: windows-driver-content
 description: The DXVA_VideoPropertyRange structure specifies the range of allowed values for ProcAmp control properties.
 old-location: display\dxva_videopropertyrange.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e78fa9ba-7573-47db-b4d8-9b7584d5b432
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: dxva/LPDXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml, dxva/DXVA_VideoPropertyRange, *LPDXVA_VideoPropertyRange, _DXVA_VideoPropertyRange, display.dxva_videopropertyrange, DXVA_VideoPropertyRange structure [Display Devices], LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange
+ms.keywords: DXVA_VideoPropertyRange structure [Display Devices], *LPDXVA_VideoPropertyRange, _DXVA_VideoPropertyRange, DXVA_VideoPropertyRange, dxva/DXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], display.dxva_videopropertyrange, dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml, LPDXVA_VideoPropertyRange, dxva/LPDXVA_VideoPropertyRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_VideoPropertyRange
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange
+req.typenames: "*LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange"
 ---
 
 # _DXVA_VideoPropertyRange structure
@@ -93,6 +93,8 @@ Specifies the step size increment for a given property.
 ## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_videodesc.md">DXVA_VideoDesc</a>
+
+
 
  
 

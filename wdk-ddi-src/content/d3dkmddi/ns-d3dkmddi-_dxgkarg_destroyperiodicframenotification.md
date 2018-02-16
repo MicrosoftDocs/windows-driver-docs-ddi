@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
-title: _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
+title: "_DXGKARG_DESTROYPERIODICFRAMENOTIFICATION"
 author: windows-driver-content
 description: The arguments used to destroy a periodic frame notification.
 old-location: display\dxgkarg_destroyperiodicframenotification.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 94797515-3440-46A9-ACBD-09D005A33CE3
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure [Display Devices], d3dkmddi/DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkarg_destroyperiodicframenotification
+ms.keywords: display.dxgkarg_destroyperiodicframenotification, _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
 product: Windows
 targetos: Windows

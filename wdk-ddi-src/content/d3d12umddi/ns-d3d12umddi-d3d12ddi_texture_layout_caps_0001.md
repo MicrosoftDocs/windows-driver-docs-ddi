@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: CFA0C474-129A-4A05-B426-520B96C318D8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, display.d3d12ddi_texture_layout_caps_0001, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
+ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], display.d3d12ddi_texture_layout_caps_0001, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 product: Windows
 targetos: Windows
@@ -87,5 +87,6 @@ Whether the texture layout supports 64K standard swizzle.
 ### -field SupportsRowMajorTexture
 
  
+
 
 

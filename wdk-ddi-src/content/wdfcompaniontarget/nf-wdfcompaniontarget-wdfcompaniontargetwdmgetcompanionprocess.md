@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 589c5076-e283-4cf4-bd9f-52a465794b06
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfCompanionTargetWdmGetCompanionProcess method, WdfCompanionTargetWdmGetCompanionProcess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess, wdf.wdfcompaniontargetwdmgetcompanionprocess
+ms.keywords: WdfCompanionTargetWdmGetCompanionProcess method, WdfCompanionTargetWdmGetCompanionProcess, wdf.wdfcompaniontargetwdmgetcompanionprocess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfcompaniontarget.h
-apiname: 
+apiname:
 -	WdfCompanionTargetWdmGetCompanionProcess
 product: Windows
 targetos: Windows
@@ -70,5 +70,4 @@ PEPROCESS WdfCompanionTargetWdmGetCompanionProcess(
 
 
 ### -param CompanionTarget [in]
-
 

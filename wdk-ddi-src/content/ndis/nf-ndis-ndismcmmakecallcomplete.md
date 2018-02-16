@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b518f36e-5937-4a74-a1d4-9e1709750843
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCmMakeCallComplete, netvista.ndismcmmakecallcomplete, condis_mcm_ref_685b4f14-92ef-4c46-a11f-19b34d59734c.xml, NdisMCmMakeCallComplete macro [Network Drivers Starting with Windows Vista], NdisMCmMakeCallComplete
+ms.keywords: netvista.ndismcmmakecallcomplete, condis_mcm_ref_685b4f14-92ef-4c46-a11f-19b34d59734c.xml, ndis/NdisMCmMakeCallComplete, NdisMCmMakeCallComplete, NdisMCmMakeCallComplete macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCmMakeCallComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCmMakeCallComplete macro
@@ -99,6 +99,25 @@ TBD
 
 
 
+
+
+#### - CallMgrPartyContext [in, optional]
+
+Specifies the handle to a caller-allocated resident context area, in which the MCM driver will
+     maintain per-party state information, or this parameter is <b>NULL</b> if 
+     <i>NdisPartyHandle</i> is <b>NULL</b>. For a multipoint VC, NDIS passes this MCM-driver-supplied 
+     <i>CallManagerPartyContext</i> handle in all subsequent calls to the ProtocolCm<i>Xxx</i> functions that concern this party. If 
+     <i>Status</i> is anything other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
+
+
+#### - CallParameters [in]
+
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
+     parameters set up for this connection if 
+     <i>Status</i> is NDIS_STATUS_SUCCESS.
+
+
 #### - NdisPartyHandle [in, optional]
 
 Specifies the handle to the initial party on the client-created multipoint VC, which the MCM
@@ -124,24 +143,8 @@ Specifies the final status of the attempt to make the connection, either NDIS_ST
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
-#### - CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
-     parameters set up for this connection if 
-     <i>Status</i> is NDIS_STATUS_SUCCESS.
-
-
-#### - CallMgrPartyContext [in, optional]
-
-Specifies the handle to a caller-allocated resident context area, in which the MCM driver will
-     maintain per-party state information, or this parameter is <b>NULL</b> if 
-     <i>NdisPartyHandle</i> is <b>NULL</b>. For a multipoint VC, NDIS passes this MCM-driver-supplied 
-     <i>CallManagerPartyContext</i> handle in all subsequent calls to the ProtocolCm<i>Xxx</i> functions that concern this party. If 
-     <i>Status</i> is anything other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
-
-
 ## -remarks
+
 
 
 An MCM driver should call 
@@ -162,8 +165,8 @@ An MCM driver must call
 Even if the attempted connection failed, neither NDIS nor the client can release the resources they
     allocated to maintain state until the MCM driver's call to 
     <b>NdisMCmMakeCallComplete</b> causes a call to that client's 
-    <mshelp:link keywords="netvista.protocolclmakecallcomplete" tabindex="0"><i>
-    ProtocolClMakeCallComplete</i></mshelp:link> function. In fact, neglecting to call 
+    <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">
+    ProtocolClMakeCallComplete</a> function. In fact, neglecting to call 
     <b>NdisMCmMakeCallComplete</b> for a failed attempt to set up such a connection causes a memory leak in
     the MCM driver as well; it prevents the client from tearing down the VC it created for its failed
     outgoing call, so the MCM driver's 
@@ -197,22 +200,37 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
 
 <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+
+
+<a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
+
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
+
+
 <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
-<a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
 
  
 

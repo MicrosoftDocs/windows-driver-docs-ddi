@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_READY_INFO
-title: _NDIS_WWAN_READY_INFO
+title: "_NDIS_WWAN_READY_INFO"
 author: windows-driver-content
 description: The NDIS_WWAN_READY_INFO structure represents the ready-state of the MB device and Subscriber Identity Module (SIM card).
 old-location: netvista\ndis_wwan_ready_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9f47b70a-426c-47a2-b438-fc00eadc002f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_READY_INFO, netvista.ndis_wwan_ready_info, PNDIS_WWAN_READY_INFO, WwanRef_6ae45c84-c13d-4142-b39a-07b3a9f57253.xml, ndiswwan/NDIS_WWAN_READY_INFO, PNDIS_WWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_READY_INFO, _NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO
+ms.keywords: WwanRef_6ae45c84-c13d-4142-b39a-07b3a9f57253.xml, *PNDIS_WWAN_READY_INFO, ndiswwan/NDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_ready_info, _NDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO, PNDIS_WWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_READY_INFO, PNDIS_WWAN_READY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_READY_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO
+req.typenames: NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO
 ---
 
 # _NDIS_WWAN_READY_INFO structure
@@ -77,6 +77,7 @@ The header with type, revision, and size information about the NDIS_WWAN_READY_I
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -112,7 +113,8 @@ sizeof(NDIS_WWAN_READY_INFO)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -127,9 +129,13 @@ A formatted
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 
  
 

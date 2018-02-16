@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCalcPrivateVideoProcessorSize
 product: Windows
 targetos: Windows
@@ -76,14 +76,7 @@ SIZE_T  APIENTRY* pfnCalcPrivateVideoProcessorSize(
 The handler of a device.
 
 
-### -param *pArgs
-
-
-
-
-
-
-#### - pArgs [in]
+### -param *pArgs [in]
 
 The arguments used to create a video processor.
 
@@ -91,6 +84,8 @@ The arguments used to create a video processor.
 ## -remarks
 
 
+
 The  runtime allocates memory for storing the driver CPU object that represents the video processor.  This method is used to calculate the driver object size.
+
 
 

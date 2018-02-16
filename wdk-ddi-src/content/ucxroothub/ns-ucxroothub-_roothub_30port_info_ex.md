@@ -1,14 +1,14 @@
 ---
 UID: NS:ucxroothub._ROOTHUB_30PORT_INFO_EX
-title: _ROOTHUB_30PORT_INFO_EX
+title: "_ROOTHUB_30PORT_INFO_EX"
 author: windows-driver-content
 description: Provides extended USB 3.0 port information about speed.
 old-location: buses\_roothub_30port_info_ex.htm
 old-project: usbref
 ms.assetid: 3FA3494F-DFFF-414E-B88C-DF7C034B96C6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: P_ROOTHUB_30PORT_INFO_EX, ucxroothub/_ROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX structure [Buses], ucxroothub/P_ROOTHUB_30PORT_INFO_EX, *PROOTHUB_30PORT_INFO_EX, _ROOTHUB_30PORT_INFO_EX, buses._roothub_30port_info_ex, ROOTHUB_30PORT_INFO_EX, P_ROOTHUB_30PORT_INFO_EX structure pointer [Buses]
+ms.date: 2/8/2018
+ms.keywords: ROOTHUB_30PORT_INFO_EX structure [Buses], ucxroothub/_ROOTHUB_30PORT_INFO_EX, buses._roothub_30port_info_ex, P_ROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX, ucxroothub/P_ROOTHUB_30PORT_INFO_EX, P_ROOTHUB_30PORT_INFO_EX structure pointer [Buses], _ROOTHUB_30PORT_INFO_EX, *PROOTHUB_30PORT_INFO_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ucxroothub.h
-apiname: 
+apiname:
 -	ROOTHUB_30PORT_INFO_EX
 product: Windows
 targetos: Windows
-req.typenames: ROOTHUB_30PORT_INFO_EX, *PROOTHUB_30PORT_INFO_EX
+req.typenames: "*PROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX"
 req.product: Windows 10 or later.
 ---
 

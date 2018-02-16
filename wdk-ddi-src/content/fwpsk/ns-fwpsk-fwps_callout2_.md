@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 88d5a5ad-b71a-49b3-a1cf-b0dff1a85745
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWP_CALLOUT_FLAG_RESERVED1, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWPS_CALLOUT2_, FWPS_CALLOUT2 structure [Network Drivers Starting with Windows Vista], netvista.fwps_callout2, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY, FWP_CALLOUT_FLAG_ALLOW_RSC, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, fwpsk/FWPS_CALLOUT2, FWPS_CALLOUT2
+ms.keywords: FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_RESERVED1, FWP_CALLOUT_FLAG_ALLOW_RSC, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, netvista.fwps_callout2, FWPS_CALLOUT2_, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, fwpsk/FWPS_CALLOUT2, FWPS_CALLOUT2, FWPS_CALLOUT2 structure [Network Drivers Starting with Windows Vista], FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_CALLOUT2
 product: Windows
 targetos: Windows
@@ -83,6 +83,7 @@ A callout driver-defined <b>GUID</b> that uniquely identifies the callout.
 
 Flags that specify callout-specific parameters. Possible flags are:
      
+
 <table>
 <tr>
 <th>Value</th>
@@ -205,7 +206,8 @@ A callout driver specifies this flag when registering a callout that will be add
 <div> </div>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field classifyFn
@@ -236,6 +238,7 @@ If a callout driver does not associate a context with the data flows that the ca
 ## -remarks
 
 
+
 A callout driver passes a pointer to an initialized <b>FWPS_CALLOUT2</b> structure to the 
     <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a> function when it
     registers a callout with the filter engine.
@@ -251,21 +254,36 @@ This structure is essentially identical to the previous version,
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
+
 
 <a href="https://msdn.microsoft.com/679E6DE2-4EFB-44F6-936D-2BF611BC9726">Using Layer 2 Filtering</a>
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn2.md">classifyFn2</a>
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
 
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
 
+
+
 <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn2.md">classifyFn2</a>
+
+
 
  
 

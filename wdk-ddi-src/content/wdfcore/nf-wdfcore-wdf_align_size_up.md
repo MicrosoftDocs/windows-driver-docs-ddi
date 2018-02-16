@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68523004-c9f5-4038-985e-702d929cdf04
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml, wdf.wdf_align_size_up, wdfcore/WDF_ALIGN_SIZE_UP, WDF_ALIGN_SIZE_UP, kmdf.wdf_align_size_up, WDF_ALIGN_SIZE_UP function
+ms.keywords: kmdf.wdf_align_size_up, WDF_ALIGN_SIZE_UP, wdf.wdf_align_size_up, DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml, wdfcore/WDF_ALIGN_SIZE_UP, WDF_ALIGN_SIZE_UP function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any IRQL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WDF_ALIGN_SIZE_UP
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ The alignment offset, in bytes. This value must be a power of 2, such as 2, 4, 8
 ## -returns
 
 
+
 <b>WDF_ALIGN_SIZE_UP</b> returns the aligned buffer size, in bytes.
 
 
 
+
 ## -remarks
+
 
 
 Drivers can use <b>WDF_ALIGN_SIZE_UP</b> or <a href="..\wdfcore\nf-wdfcore-wdf_align_size_down.md">WDF_ALIGN_SIZE_DOWN</a> to calculate a buffer size that is aligned to a specified alignment offset. This calculation is useful if your driver must allocate multiple contiguous buffers, if each buffer must begin at an address alignment boundary.
@@ -97,10 +100,34 @@ Drivers can use <b>WDF_ALIGN_SIZE_UP</b> or <a href="..\wdfcore\nf-wdfcore-wdf_a
 If the value of either input parameter is too large, arithmetic overflow causes <b>WDF_ALIGN_SIZE_UP</b> to return an invalid value that is smaller than <i>Length</i>. Your code should test for this condition.
 
 
+#### Examples
+
+The following code example receives a buffer size and returns the size (either the current size or the next-higher size) that aligns to a DWORD address boundary.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>bufferSizeAligned = WDF_ALIGN_SIZE_UP(bufferSize,
+                                      sizeof(DWORD));
+if (bufferSizeAligned &lt; bufferSize)
+{
+    // Buffer too large.
+    ...
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfcore\nf-wdfcore-wdf_align_size_down.md">WDF_ALIGN_SIZE_DOWN</a>
+
+
 
  
 

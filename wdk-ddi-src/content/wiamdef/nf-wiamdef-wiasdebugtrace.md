@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: db39c7f6-d966-4538-8ee9-d3623995535c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiasDebugTrace, wiasDebugTrace function [Imaging Devices], image.wiasdebugtrace, wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml, wiamdef/wiasDebugTrace
+ms.keywords: image.wiasdebugtrace, wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml, wiasDebugTrace function [Imaging Devices], wiasDebugTrace, wiamdef/wiasDebugTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasDebugTrace
 product: Windows
 targetos: Windows
@@ -85,6 +85,7 @@ TBD
 
 
 
+
 ####### - pszFormat, ...
 
 Specifies a variable argument list, which starts with an ANSI format string containing the message and any format specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
@@ -93,11 +94,14 @@ Specifies a variable argument list, which starts with an ANSI format string cont
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
 
 
+
 ## -remarks
+
 
 
 The wiasDebugTrace function is not recommended for Windows XP and later. For Windows XP use the <a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a> macro instead. For Windows Vista use the <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a> macro instead.
@@ -106,11 +110,16 @@ To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Trac
 
 
 
+
 ## -see-also
 
 <a href="..\wiamdef\nf-wiamdef-wias_ltrace.md">WIAS_LTRACE</a>
 
+
+
 <a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+
+
 
  
 

@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Aux_Klib.lib
 -	Aux_Klib.dll
-apiname: 
+apiname:
 -	AuxKlibEnumerateSystemFirmwareTables
 product: Windows
 targetos: Windows
-req.typenames: *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA
+req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
 ---
 
 # AuxKlibEnumerateSystemFirmwareTables function
@@ -74,6 +74,7 @@ NTSTATUS AuxKlibEnumerateSystemFirmwareTables(
 ### -param FirmwareTableProviderSignature [in]
 
 The identifier of the firmware table provider to which the query is to be directed. This parameter can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -109,7 +110,8 @@ The raw SMBIOS firmware table provider.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param FirmwareTableBuffer [out, optional]
@@ -130,7 +132,9 @@ A pointer to a location to which the routine writes the number of bytes of data 
 ## -returns
 
 
+
 <b>AuxKlibEnumerateSystemFirmwareTables</b> returns STATUS_SUCCESS if the call is successful. Possible return values include the following error codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -158,11 +162,14 @@ The caller-allocated buffer is too small, but the required buffer size has been 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the call is successful, this routine writes an array of one or more table identifiers to the buffer pointed to by the <i>FirmwareTableBuffer</i> parameter. Each element of this array is a DWORD value that identifies a firmware table that is available from the provider specified by the <i>FirmwareTableProviderSignature</i> parameter.
@@ -183,13 +190,20 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 
 
+
 ## -see-also
+
+<a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
 
+
+
 <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
-<a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
+
 
  
 

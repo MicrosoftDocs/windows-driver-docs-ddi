@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 455ff9c9-89d5-4c79-8b01-f0d731ac8d5a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: HBA_SendSRL routine [Storage Devices], hbaapi/HBA_SendSRL, storage.hba_sendsrl, HBA_SendSRL, fibreHBA_rtns_30102c46-c07f-4d22-a0c7-83bea708c4b8.xml
+ms.keywords: fibreHBA_rtns_30102c46-c07f-4d22-a0c7-83bea708c4b8.xml, HBA_SendSRL, HBA_SendSRL routine [Storage Devices], storage.hba_sendsrl, hbaapi/HBA_SendSRL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_SendSRL
 product: Windows
 targetos: Windows
@@ -102,11 +102,6 @@ Pointer to a buffer that receives the output data of the SRL request.
 On input, indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>. On output, this member contains the number of bytes of data retrieved in <i>pRspBuffer</i>. If the buffer is not large enough to receive all of the response data, the data is truncated to the size of the buffer. Eight bytes is sufficient buffer space for any response. 
 
 
-#### - hbaPortWWN [in]
-
-Contains a 64-bit worldwide name (WWN) that uniquely identifies the port through which the SRL request is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
-
-
 #### - domain [in]
 
 Indicates the number of the domain controller associated with the loops to scan. If <i>wwn</i> is nonzero, this member is ignored.
@@ -117,6 +112,11 @@ Indicates the number of the domain controller associated with the loops to scan.
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
 
 
+#### - hbaPortWWN [in]
+
+Contains a 64-bit worldwide name (WWN) that uniquely identifies the port through which the SRL request is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
+
+
 #### - wwn [in]
 
 Contains a 64-bit WWN that uniquely identifies the FL_Port port that is associated with the loop that is scanned. The SRL request is sent to this port. If this member is <b>NULL</b>, it is ignored, and the SRL request is sent to the domain controller that is associated with the loop. The domain controller is identified by the value in <i>domain. </i>
@@ -125,7 +125,9 @@ Contains a 64-bit WWN that uniquely identifies the FL_Port port that is associat
 ## -returns
 
 
+
 The <b>HBA_SendSRL</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_SendSRL</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -175,7 +177,9 @@ Returned if an unspecified error occurred that prevented the execution of the SR
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -183,7 +187,11 @@ Returned if an unspecified error occurred that prevented the execution of the SR
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

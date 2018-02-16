@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c35e07c0-ffbd-4110-bb32-b47a512129dd
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ExRaiseAccessViolation routine [Kernel-Mode Driver Architecture], k102_71b4c053-599c-4a6d-8a59-08aae6bdc534.xml, ExRaiseAccessViolation, kernel.exraiseaccessviolation, ntddk/ExRaiseAccessViolation
+ms.keywords: ExRaiseAccessViolation routine [Kernel-Mode Driver Architecture], ExRaiseAccessViolation, k102_71b4c053-599c-4a6d-8a59-08aae6bdc534.xml, ntddk/ExRaiseAccessViolation, kernel.exraiseaccessviolation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	ExRaiseAccessViolation
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # ExRaiseAccessViolation function
@@ -66,14 +66,18 @@ VOID  ExRaiseAccessViolation(void);
 
 
 
+
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>ExRaiseAccessViolation</b> raises an exception with the exception code set to STATUS_ACCESS_VIOLATION.
@@ -82,15 +86,24 @@ Because <b>ExRaiseAccessViolation</b> can only be used at IRQL = PASSIVE_LEVEL,
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
-
-<a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
 
 <a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
 
+
+
 <a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
+
+
+
+<a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+
+
 
  
 

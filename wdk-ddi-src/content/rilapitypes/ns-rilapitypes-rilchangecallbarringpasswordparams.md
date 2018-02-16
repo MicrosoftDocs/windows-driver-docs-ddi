@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1a9dda19-329b-4046-bba1-1bbedf37fa31
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS, rilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS, netvista.rilchangecallbarringpasswordparams_2
+ms.keywords: RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS, netvista.rilchangecallbarringpasswordparams_2, *LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCHANGECALLBARRINGPASSWORDPARAMS
 product: Windows
 targetos: Windows
@@ -75,19 +75,14 @@ typedef struct _RILCHANGECALLBARRINGPASSWORDPARAMS {
 ### -field dwExecutor
 
 
-
 ### -field dwType
-
 
 
 ### -field szOldPassword
 
 
-
 ### -field szNewPassword
 
 
-
 ### -field szConfirmPassword
-
 

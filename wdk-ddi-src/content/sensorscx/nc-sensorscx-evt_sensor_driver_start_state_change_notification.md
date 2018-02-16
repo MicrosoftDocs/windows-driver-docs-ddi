@@ -7,7 +7,7 @@ old-location: sensors\evt_sensor_driver_start_state_change_notification.htm
 old-project: sensors
 ms.assetid: 93C2ABCE-15C9-4EE4-A9B5-A81788DB608C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: sensors.evt_sensor_driver_start_state_change_notification, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function [Sensor Devices], EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION, sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _requires_same_
-topictype: 
+req.irql: "_requires_same_"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	sensorscx.h
-apiname: 
+apiname:
 -	EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
 product: Windows
 targetos: Windows
@@ -76,6 +76,8 @@ Holds information on the sensors handled by the sensor driver.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_NIC_SWITCH_TYPE
-title: _NDIS_NIC_SWITCH_TYPE
+title: "_NDIS_NIC_SWITCH_TYPE"
 author: windows-driver-content
 description: The NDIS_NIC_SWITCH_TYPE enumeration specifies the type of the NIC switch on a network adapter.
 old-location: netvista\ndis_nic_switch_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F990F166-D9DA-43F5-95D3-86B9B11FACF1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisNicSwitchTypeExternal, ntddndis/NDIS_NIC_SWITCH_TYPE, PNDIS_NIC_SWITCH_TYPE, *PNDIS_NIC_SWITCH_TYPE, netvista.ndis_nic_switch_type, ntddndis/NdisNicSwitchTypeUnspecified, NdisNicSwitchTypeUnspecified, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeMax, ntddndis/PNDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeMax, ntddndis/NdisNicSwitchTypeExternal, NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_TYPE
+ms.keywords: NDIS_NIC_SWITCH_TYPE enumeration [Network Drivers Starting with Windows Vista], *PNDIS_NIC_SWITCH_TYPE, NdisNicSwitchTypeMax, ntddndis/NDIS_NIC_SWITCH_TYPE, ntddndis/NdisNicSwitchTypeMax, _NDIS_NIC_SWITCH_TYPE, ntddndis/PNDIS_NIC_SWITCH_TYPE, PNDIS_NIC_SWITCH_TYPE, netvista.ndis_nic_switch_type, NdisNicSwitchTypeExternal, NdisNicSwitchTypeUnspecified, ntddndis/NdisNicSwitchTypeUnspecified, ntddndis/NdisNicSwitchTypeExternal, NDIS_NIC_SWITCH_TYPE, PNDIS_NIC_SWITCH_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NIC_SWITCH_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE
+req.typenames: "*PNDIS_NIC_SWITCH_TYPE, NDIS_NIC_SWITCH_TYPE"
 ---
 
 # _NDIS_NIC_SWITCH_TYPE enumeration
@@ -91,6 +91,7 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 The <b>SwitchType</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_parameters.md">NDIS_NIC_SWITCH_PARAMETERS</a> and <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a> structures is an <b>NDIS_NIC_SWITCH_TYPE</b> enumeration data type. 
 
 
@@ -99,13 +100,20 @@ For more information about the NIC switch, see <a href="https://msdn.microsoft.c
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_parameters.md">NDIS_NIC_SWITCH_PARAMETERS</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a>
 
+
+
 <b></b>
+
+
 
  
 

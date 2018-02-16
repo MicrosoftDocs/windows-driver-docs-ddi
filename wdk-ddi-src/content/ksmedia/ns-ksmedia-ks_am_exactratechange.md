@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c7ffc52a-e7cd-4ba1-9696-568719166713
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_AM_ExactRateChange structure [Streaming Media Devices], ksmedia/PKS_AM_ExactRateChange, PKS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], *PKS_AM_ExactRateChange, KS_AM_ExactRateChange, stream.ks_am_exactratechange, ksmedia/KS_AM_ExactRateChange, dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml
+ms.keywords: PKS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange, KS_AM_ExactRateChange structure [Streaming Media Devices], ksmedia/KS_AM_ExactRateChange, stream.ks_am_exactratechange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], *PKS_AM_ExactRateChange, KS_AM_ExactRateChange, dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_AM_ExactRateChange
 product: Windows
 targetos: Windows
-req.typenames: *PKS_AM_ExactRateChange, KS_AM_ExactRateChange
+req.typenames: "*PKS_AM_ExactRateChange, KS_AM_ExactRateChange"
 ---
 
 # KS_AM_ExactRateChange structure
@@ -81,6 +81,8 @@ Specifies the new rate. This value is multiplied by 10000 (decimal).
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567280">KS_AM_RATE_ExactRateChange</a>
+
+
 
  
 

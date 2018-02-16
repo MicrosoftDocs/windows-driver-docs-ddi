@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d5c6d7d2-fe14-49d5-9e81-3a425a4cf1b3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlstringcchcopy, RtlStringCchCopyW, RtlStringCchCopy, ntstrsafe/RtlStringCchCopyA, ntstrsafe/RtlStringCchCopyW, RtlStringCchCopyW function [Kernel-Mode Driver Architecture], safestrings_75c329c3-0463-4c8f-a363-ac26ec15c923.xml, RtlStringCchCopyA
+ms.keywords: RtlStringCchCopyW function [Kernel-Mode Driver Architecture], RtlStringCchCopy, ntstrsafe/RtlStringCchCopyW, RtlStringCchCopyW, ntstrsafe/RtlStringCchCopyA, kernel.rtlstringcchcopy, safestrings_75c329c3-0463-4c8f-a363-ac26ec15c923.xml, RtlStringCchCopyA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCchCopyW
 -	RtlStringCchCopyA
 -	RtlStringCchCopyW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCchCopyA function
@@ -90,7 +90,9 @@ A pointer to a caller-supplied, null-terminated string.
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -136,14 +138,18 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCchCopyW</b> and <b>RtlStringCchCopyA</b> should be used instead of the following functions: 
+
 <ul>
 <li>
 <b>strcpy</b>
@@ -153,11 +159,13 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 <b>wcscpy</b>
 
 </li>
-</ul>These functions are not replacements for <b>strncpy</b>. Use <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a> or <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a> to replace <b>strncpy</b>.
+</ul>
+These functions are not replacements for <b>strncpy</b>. Use <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a> or <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a> to replace <b>strncpy</b>.
 
 The size, in characters, of the destination buffer is provided to <b>RtlStringCchCopyW</b> and <b>RtlStringCchCopyA</b> to ensure that they do not write past the end of the buffer.
 
 Use <b>RtlStringCchCopyW</b> to handle Unicode strings and <b>RtlStringCchCopyA</b> to handle ANSI strings. The form you use depends your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -192,7 +200,8 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior of the function is undefined.
 
@@ -202,11 +211,16 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
+
 ## -see-also
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
+
+
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyexw.md">RtlStringCchCopyEx</a>
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
+
 
  
 

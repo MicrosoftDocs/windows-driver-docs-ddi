@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d9dbfc8-7563-4c47-9b34-27cce2b847b2
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest method, umdf.iwdfioqueue_retrievenextrequest, wudfddi/IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest, wdf.iwdfioqueue_retrievenextrequest, RetrieveNextRequest method, IWDFIoQueue interface, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, IWDFIoQueue, IWDFIoQueue interface, RetrieveNextRequest method
+ms.keywords: RetrieveNextRequest, wudfddi/IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest method, IWDFIoQueue interface, IWDFIoQueue interface, RetrieveNextRequest method, IWDFIoQueue::RetrieveNextRequest, wdf.iwdfioqueue_retrievenextrequest, IWDFIoQueue, umdf.iwdfioqueue_retrievenextrequest, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, RetrieveNextRequest method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoQueue.RetrieveNextRequest
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,9 @@ A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudf
 ## -returns
 
 
+
 <b>RetrieveNextRequest</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,13 +130,16 @@ The call was made to retrieve the request from a parallel queue.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>RetrieveNextRequest</b> might also return other HRESULT values.
 
 
 
+
 ## -remarks
+
 
 
 If a driver configures an I/O queue for manual dispatching of I/O requests, the driver can call the <b>RetrieveNextRequest</b> method to obtain the next request from the queue. For more information about manually dispatching I/O requests, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">Configuring Dispatch Mode for an I/O Queue</a>.
@@ -142,14 +147,92 @@ If a driver configures an I/O queue for manual dispatching of I/O requests, the 
 If a driver configures an I/O queue for sequential dispatching of I/O requests, the driver can still call the <b>RetrieveNextRequest</b> method to obtain the next request from the queue without receiving an error. Although the framework permits the driver to call <b>RetrieveNextRequest</b> to retrieve a request from a sequential queue, the driver should only call <b>RetrieveNextRequest</b> before the driver completes the current request. Otherwise, if the driver attempts to call <b>RetrieveNextRequest</b> after the driver completes the current request, a race condition might occur. This race condition occurs between the framework's automatic dispatching of the next request from the sequential queue and the driver's call to <b>RetrieveNextRequest</b> to retrieve the next request. 
 
 
+#### Examples
+
+The following code example, which is from the <a href="http://go.microsoft.com/fwlink/p/?linkid=256202">umdf_fx2</a> sample driver, polls the queue for requests for as long as requests can be retrieved. The code first verifies if requests are associated with a specific file object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
+CMyDevice::ServiceSwitchChangeQueue(
+    __in SWITCH_STATE NewState,
+    __in HRESULT CompletionStatus,
+    __in_opt IWDFFile *SpecificFile
+    )
+{
+    IWDFIoRequest *fxRequest;
+    HRESULT enumHr = S_OK;
+    do {
+        HRESULT hr;
+        //
+        // Get the next request.
+        //
+        if (NULL != SpecificFile) {
+        enumHr = m_SwitchChangeQueue-&gt;RetrieveNextRequestByFileObject(
+                                        SpecificFile,
+                                        &amp;fxRequest
+                                        );
+        }
+        else {
+            enumHr = m_SwitchChangeQueue-&gt;RetrieveNextRequest(&amp;fxRequest);
+        }
+        //
+        // If a request was retrieved, complete it.
+        //
+        if (S_OK == enumHr) {
+            if (S_OK == CompletionStatus) {
+                IWDFMemory *fxMemory;
+                //
+                // Copy the result to the request buffer.
+                //
+                fxRequest-&gt;GetOutputMemory(&amp;fxMemory);
+                hr = fxMemory-&gt;CopyFromBuffer(0, 
+                                              &amp;NewState, 
+                                              sizeof(SWITCH_STATE));
+                                              fxMemory-&gt;Release();
+            }
+            else {
+                 hr = CompletionStatus;
+            }
+            //
+            // Complete the request with the copy or 
+            // completion status.
+            //
+            if (S_OK == hr) {
+                fxRequest-&gt;CompleteWithInformation(hr, 
+                                                   sizeof(SWITCH_STATE));
+            }
+            else {
+                fxRequest-&gt;Complete(hr);
+            }
+            fxRequest-&gt;Release();
+        }
+    }
+    while (S_OK == enumHr);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15DCCCF1-72B1-4944-9BF0-ACAF1DEB9243
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: RtlShortMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlShortMult, kernel.rtlshortmult, RtlShortMult
+ms.keywords: RtlShortMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlShortMult, RtlShortMult, kernel.rtlshortmult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlShortMult
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
 
 This function uses the following alternate name:
+
 <ul>
 <li>RtlInt16Mult
 </li>
 </ul>
+
 

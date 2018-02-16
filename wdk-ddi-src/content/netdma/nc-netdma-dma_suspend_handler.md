@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	ProviderSuspendDma
 product: Windows
 targetos: Windows
-req.typenames: *PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE
+req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
 
 # DMA_SUSPEND_HANDLER callback
@@ -80,18 +80,11 @@ NTSTATUS ProviderSuspendDma(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <mshelp:link keywords="netvista.providerallocatedmachannel" tabindex="0"><b>
-     ProviderAllocateDmaChannel</b></mshelp:link> function.
+     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     ProviderAllocateDmaChannel</a> function.
 
 
-### -param *pLastDescriptor
-
-
-
-
-
-
-#### - pLastDescriptor [out]
+### -param *pLastDescriptor [out]
 
 A pointer to a variable that contains the physical address of the last successfully processed DMA
      descriptor. The DMA provider provides this address before returning from 
@@ -101,7 +94,9 @@ A pointer to a variable that contains the physical address of the last successfu
 ## -returns
 
 
+
 <i>ProviderSuspendDma</i> returns one of the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -129,11 +124,14 @@ The operation failed for unspecified reasons.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The 
@@ -147,8 +145,8 @@ The DMA provider completes the transfer of the current DMA descriptor before it 
     <b>NetDmaTransferStatusSuspend</b> status in the address that is specified in the 
     <b>CompletionVirtualAddress</b> and 
     <b>CompletionPhysicalAddress</b> members in the 
-    <mshelp:link keywords="netvista.net_dma_channel_parameters" tabindex="0"><b>
-    NET_DMA_CHANNEL_PARAMETERS</b></mshelp:link> structure.
+    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    NET_DMA_CHANNEL_PARAMETERS</a> structure.
 
 While the DMA transfers are suspended, the NetDMA interface can modify the DMA descriptor linked list
     (for example, to insert or delete descriptors).
@@ -163,13 +161,20 @@ NetDMA calls
 
 
 
+
 ## -see-also
 
 <a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
 
 <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
 
  
 

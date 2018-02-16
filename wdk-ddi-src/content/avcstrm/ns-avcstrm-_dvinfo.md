@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._DVINFO
-title: _DVINFO
+title: "_DVINFO"
 author: windows-driver-content
 description: The DVINFO structure describes a DV stream format including its default streaming source information and stream control information.
 old-location: stream\dvinfo.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3afd372f-556f-4c3a-804b-9bf7a8c9a438
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: DVINFO, PDVINFO structure pointer [Streaming Media Devices], DVINFO structure [Streaming Media Devices], avcstrm/DVINFO, stream.dvinfo, avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, _DVINFO, avcstrm/PDVINFO, *PDVINFO, PDVINFO
+ms.keywords: avcstrm/DVINFO, DVINFO structure [Streaming Media Devices], avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, avcstrm/PDVINFO, stream.dvinfo, _DVINFO, PDVINFO structure pointer [Streaming Media Devices], DVINFO, PDVINFO, *PDVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avcstrm.h
-apiname: 
+apiname:
 -	DVINFO
 product: Windows
 targetos: Windows

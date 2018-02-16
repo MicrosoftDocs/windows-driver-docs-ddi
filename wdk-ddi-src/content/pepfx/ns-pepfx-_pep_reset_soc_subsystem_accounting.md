@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
-title: _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+title: "_PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING"
 author: windows-driver-content
 description: The PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure is provided to the platform extension plug-in (PEP) as part of a PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification.
 old-location: kernel\pep_reset_soc_subsystem_accounting.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DCB0E541-51AB-4624-A007-46D109F31E5B
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, kernel.pep_reset_soc_subsystem_accounting, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure [Kernel-Mode Driver Architecture], pepfx/PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, pepfx/PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure pointer [Kernel-Mode Driver Architecture], *PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+ms.keywords: PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure [Kernel-Mode Driver Architecture], PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, pepfx/PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, kernel.pep_reset_soc_subsystem_accounting, *PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+req.typenames: "*PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING"
 ---
 
 # _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure
@@ -81,6 +81,8 @@ This member is reserved and should be set to zero.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186740">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
+
+
 
  
 

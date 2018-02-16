@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	pfnCalcPrivateShaderCacheSessionSize
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE callback
@@ -77,6 +77,8 @@ SIZE_T APIENTRY* pfnCalcPrivateShaderCacheSessionSize(
 
 
 
+
+
 #### - hDevice
 
 The handle of a device.
@@ -85,20 +87,26 @@ The handle of a device.
 ## -returns
 
 
+
 This function returns the size of the private shader cache session.
+
 
 
 
 ## -remarks
 
 
+
 Access this callback function by using the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure. 
+
 
 
 
 ## -see-also
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a>
+
+
 
  
 

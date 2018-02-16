@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC
-title: _CDROM_TOC
+title: "_CDROM_TOC"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of TRACK_DATA structures.
 old-location: storage\cdrom_toc.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: CDROM_TOC, storage.cdrom_toc, *PCDROM_TOC, PCDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], ntddcdrm/PCDROM_TOC, ntddcdrm/CDROM_TOC, _CDROM_TOC, CDROM_TOC structure [Storage Devices], structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml
+ms.keywords: CDROM_TOC structure [Storage Devices], _CDROM_TOC, ntddcdrm/CDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], PCDROM_TOC, *PCDROM_TOC, CDROM_TOC, storage.cdrom_toc, ntddcdrm/PCDROM_TOC, structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_TOC
 product: Windows
 targetos: Windows
@@ -93,17 +93,25 @@ Pointer to an array of structures of type <a href="..\ntddcdrm\ns-ntddcdrm-_trac
 ## -remarks
 
 
+
 The output data contains table of contents information for one or more of the specified sessions.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
 
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+
+
+
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+
+
 
  
 

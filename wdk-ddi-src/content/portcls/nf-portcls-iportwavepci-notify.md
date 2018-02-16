@@ -7,8 +7,8 @@ old-location: audio\iportwavepci_notify.htm
 old-project: audio
 ms.assetid: fa65b3c3-196c-4cf4-8c9e-c0c9a33b2881
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: Notify method [Audio Devices], IPortWavePci interface, audio.iportwavepci_notify, audmp-routines_5b988b85-05d1-4a66-b04d-fdd21dcf0310.xml, IPortWavePci::Notify, portcls/IPortWavePci::Notify, Notify, IPortWavePci, Notify method [Audio Devices], IPortWavePci interface [Audio Devices], Notify method
+ms.date: 2/8/2018
+ms.keywords: audio.iportwavepci_notify, portcls/IPortWavePci::Notify, audmp-routines_5b988b85-05d1-4a66-b04d-fdd21dcf0310.xml, Notify method [Audio Devices], IPortWavePci interface, IPortWavePci, IPortWavePci interface [Audio Devices], Notify method, IPortWavePci::Notify, Notify method [Audio Devices], Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortWavePci.Notify
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortWavePci::Notify method
@@ -75,11 +75,14 @@ A pointer to the miniport driver's <a href="..\portcls\nn-portcls-iservicegroup.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Some miniport drivers call this method from an ISR in response to a hardware interrupt after having cleared the interrupt source. Other drivers call this method from a timer DPC that is scheduled to run at regular intervals. As a general rule, only drivers that manage a single render stream from KMixer should rely on hardware interrupts. Drivers that support DirectSound hardware acceleration should turn off hardware interrupts and use timer DPCs instead. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>.
@@ -92,19 +95,28 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536903">IPortWaveCyclic::Notify</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+
+
 
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePci::Notify method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePci::Notify method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

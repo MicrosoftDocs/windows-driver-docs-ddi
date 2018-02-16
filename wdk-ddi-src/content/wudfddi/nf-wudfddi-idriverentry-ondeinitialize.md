@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9366029e-4f8b-4121-ad99-01a5116a7f46
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.idriverentry_ondeinitialize, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, wdf.idriverentry_ondeinitialize, OnDeinitialize method, IDriverEntry, OnDeinitialize, wudfddi/IDriverEntry::OnDeinitialize, IDriverEntry::OnDeinitialize, IDriverEntry interface, OnDeinitialize method, OnDeinitialize method, IDriverEntry interface
+ms.keywords: OnDeinitialize method, wudfddi/IDriverEntry::OnDeinitialize, umdf.idriverentry_ondeinitialize, IDriverEntry, OnDeinitialize method, IDriverEntry interface, wdf.idriverentry_ondeinitialize, IDriverEntry::OnDeinitialize, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, OnDeinitialize, IDriverEntry interface, OnDeinitialize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IDriverEntry.OnDeinitialize
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,14 +78,18 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> in
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The framework creates a new driver object for each driver that is loaded in the driver host process. When a driver is about to be unloaded from the host process, the framework calls <b>OnDeinitialize</b> to notify the driver of the departure and passes the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface in the call. The system unloads the driver after <b>OnDeinitialize</b> returns. 
+
 
 
 
@@ -93,7 +97,11 @@ The framework creates a new driver object for each driver that is loaded in the 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+
+
 
  
 

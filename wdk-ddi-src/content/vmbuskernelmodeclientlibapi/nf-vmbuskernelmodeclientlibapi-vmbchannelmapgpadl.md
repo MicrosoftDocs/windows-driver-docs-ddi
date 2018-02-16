@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A7801EE9-BFDB-4F77-9DA4-A6612F63AD48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelMapGpadl, VmbChannelMapGpadl, netvista.vmbchannelmapgpadl, VmbChannelMapGpadl function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_GPADL_FLAG_READ_ONLY
+ms.keywords: VMBUS_CHANNEL_GPADL_FLAG_READ_ONLY, netvista.vmbchannelmapgpadl, vmbuskernelmodeclientlibapi/VmbChannelMapGpadl, VmbChannelMapGpadl function [Network Drivers Starting with Windows Vista], VmbChannelMapGpadl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+apiname:
 -	VmbChannelMapGpadl
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A handle for a channel.
 ### -param Flags [in]
 
 Flags.  The possible flag values are:
+
 <table>
 <tr>
 <th>Value</th>
@@ -96,7 +97,8 @@ Map with read-only access.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If
 this flag value is not set, the function tries to map the GPADL for write access. If the GPADL was not
@@ -122,6 +124,7 @@ additional steps to map it into virtual address space.
 ## -remarks
 
 
+
 The GPADL must have been pre-established by the client, for instance, by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a> function.  
 
 Only a single mapping may exist for any given GPADL at a time.  
@@ -131,11 +134,16 @@ function with calls to the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskerne
 
 
 
+
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl.md">VmbChannelUnmapGpadl</a>
 
+
+
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a>
+
+
 
  
 

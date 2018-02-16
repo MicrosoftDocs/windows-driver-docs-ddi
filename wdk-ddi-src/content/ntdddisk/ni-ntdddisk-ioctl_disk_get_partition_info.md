@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntdddisk.h
-apiname: 
+apiname:
 -	IOCTL_DISK_GET_PARTITION_INFO
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_partition_information.m
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_partition_information.m
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
+
+
 
  
 

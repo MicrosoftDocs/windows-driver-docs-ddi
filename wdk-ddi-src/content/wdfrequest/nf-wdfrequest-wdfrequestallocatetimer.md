@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e77aece7-df27-42d8-8e25-6907a5401ff9
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfRequestAllocateTimer, WdfRequestAllocateTimer method, PFN_WDFREQUESTALLOCATETIMER, wdfrequest/WdfRequestAllocateTimer, DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, wdf.wdfrequestallocatetimer, kmdf.wdfrequestallocatetimer
+ms.keywords: wdf.wdfrequestallocatetimer, PFN_WDFREQUESTALLOCATETIMER, kmdf.wdfrequestallocatetimer, wdfrequest/WdfRequestAllocateTimer, WdfRequestAllocateTimer method, DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, WdfRequestAllocateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRequestAllocateTimer
 product: Windows
 targetos: Windows
@@ -81,7 +81,9 @@ A handle to a framework request object.
 ## -returns
 
 
+
 <b>WdfRequestAllocateTimer</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,7 +111,8 @@ A timer could not be allocated.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -119,7 +122,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If your driver specifies a time-out value when calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>, it should call <b>WdfRequestAllocateTimer</b> before calling <b>WdfRequestSend</b>. This ensures that the call to <b>WdfRequestSend</b> will not fail if there are insufficient system resources to allocate a timer.
@@ -127,14 +132,60 @@ If your driver specifies a time-out value when calling <a href="..\wdfrequest\nf
 If a timer is already allocated for the specified request, <b>WdfRequestAllocateTimer</b> returns STATUS_SUCCESS.
 
 
+#### Examples
+
+The following code example initializes a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a> structure, allocates a timer object for the I/O request, and then calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS  status;
+WDF_REQUEST_SEND_OPTIONS  options;
+BOOLEAN  requestSend;
+
+WDF_REQUEST_SEND_OPTIONS_INIT(
+                              &amp;options,
+                              WDF_REQUEST_SEND_OPTION_TIMEOUT
+                              );
+
+WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT(
+                                     &amp;options,
+                                     WDF_ABS_TIMEOUT_IN_SEC(TIME_OUT_VALUE)
+                                     );
+status = WdfRequestAllocateTimer(
+                                 request
+                                 );
+if (!NT_SUCCESS(status)){
+    return status;
+...
+    requestSend = WdfRequestSend(
+                                 request,
+                                 ioTarget,
+                                 &amp;options
+                                 );
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_send_options_init.md">WDF_REQUEST_SEND_OPTIONS_INIT</a>
 
+
+
 <a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_sec.md">WDF_ABS_TIMEOUT_IN_SEC</a>
 
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
 
  
 

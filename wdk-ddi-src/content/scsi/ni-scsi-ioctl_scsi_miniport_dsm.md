@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsi.h
-apiname: 
+apiname:
 -	IOCTL_SCSI_MINIPORT_DSM
 product: Windows
 targetos: Windows
-req.typenames: *PSES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE
+req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -87,20 +87,25 @@ The length of an <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CON
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -status-block
 
 The resulting status of the function request is set in the <b>SrbStatus</b> member of <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>. The following are the  DSM disk IOCTL status codes.
+
 <table>
 <tr>
 <th>SRB Status</th>
@@ -114,15 +119,18 @@ The resulting status of the function request is set in the <b>SrbStatus</b> memb
 <td>SRB_STATUS_INVALID_REQUEST</td>
 <td>The request contains an invalid buffer size</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 <b>DSM_NOTIFICATION_REQUEST_BLOCK</b>
 
 A <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure immediately follows the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure in the data buffer of the SRB.  <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> is defined in ntddscsi.h as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -142,9 +150,11 @@ A <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure immediately follows the <a hre
 </tr>
 </table></span></div>
 
+
 <b>MP_DEVICE_DATA_SET_RANGE</b>
 
 The LBA ranges are included in the  in <b>DataSetRanges</b> member of <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> as an array of <b>MP_DEVICE_DATA_SET_RANGE</b> structures. <b>MP_DEVICE_DATA_SET_RANGE</b> is defined in ntddscsi.h as the following.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -159,9 +169,11 @@ The LBA ranges are included in the  in <b>DataSetRanges</b> member of <b>DSM_NOT
 </tr>
 </table></span></div>
 
+
 The <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure is located after the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure in the <b>DataBuffer</b> of the SRB.
 
 The <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure for this IOCTL contains IOCTL_MINIPORT_SIGNATURE_DSM_NOTIFICATION in its <b>Signature</b> member and <b>IOCTL_SCSI_MINIPORT_DSM</b> in the <b>ControlCode</b> member.
+
 
 
 
@@ -169,9 +181,15 @@ The <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> stru
 
 <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
+
+
+
+<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+
+
 
  
 

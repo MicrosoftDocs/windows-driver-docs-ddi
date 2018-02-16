@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 150B1ED3-572A-4986-BED6-628ED6C54CCF
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortInitializeSpinlock routine [Storage Devices], StorPortInitializeSpinlock, storport/StorPortInitializeSpinlock, storage.storportinitializespinlock
+ms.keywords: storport/StorPortInitializeSpinlock, StorPortInitializeSpinlock, storage.storportinitializespinlock, StorPortInitializeSpinlock routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortInitializeSpinlock
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ Pointer to a spin lock of type <b>STOR_KSPIN_LOCK</b>, for which the caller must
 ## -returns
 
 
+
 <b>StorPortInitializeSpinlock</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This routine must be called before an initial call to <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>, to any other support routine that requires a spin lock as an argument.
@@ -136,15 +141,24 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567494">StorPortReleaseMSISpinLock</a>
 
+
+
 <a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
+
+
 
 <a href="..\storport\nf-storport-storportreleasespinlock.md">StorPortReleaseSpinLock</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
+
+
 
  
 

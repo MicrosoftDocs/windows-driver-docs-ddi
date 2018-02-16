@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	netioddk.h
-apiname: 
+apiname:
 -	PNPI_CLIENT_ATTACH_PROVIDER_FN
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
 ---
 
 # NPI_CLIENT_ATTACH_PROVIDER_FN callback
@@ -92,16 +92,18 @@ A pointer to the client module's registration context. The client module passes 
 ### -param ProviderRegistrationInstance [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.npi_registration_instance" tabindex="0"><b>
-     NPI_REGISTRATION_INSTANCE</b></mshelp:link> structure. This structure contains the provider module's registration
+     <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">
+     NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the provider module's registration
      data.
 
 
 ## -returns
 
 
+
 A client module's 
      <i>ClientAttachProvider</i> callback function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,11 +143,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 After a client module has registered with the NMR, the NMR calls the client module's 
@@ -164,6 +169,7 @@ A client module can examine the provider module's registration data. This data i
     pointed to by the 
     <i>ProviderRegistrationInstance</i> parameter. The client module uses this data to determine whether it
     will attach to the provider module:
+
 <ul>
 <li>
 If the client module determines that it will attach to the provider module, then the 
@@ -181,31 +187,45 @@ If the client module determines that it will not attach to the provider module, 
       <i>ClientAttachProvider</i> callback function must return STATUS_NOINTERFACE.
 
 </li>
-</ul>If the client module successfully attaches to the provider module, it must save the handle provided in
+</ul>
+If the client module successfully attaches to the provider module, it must save the handle provided in
     the 
     <i>NmrBindingHandle</i> parameter. The client module passes this handle as a parameter to the 
-    <mshelp:link keywords="netvista.nmrclientdetachprovidercomplete" tabindex="0"><b>
-    NmrClientDetachProviderComplete</b></mshelp:link> function when it detaches from the provider module.
+    <a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+    NmrClientDetachProviderComplete</a> function when it detaches from the provider module.
 
 The NMR calls a client module's 
     <i>ClientAttachProvider</i> callback function at IRQL = PASSIVE_LEVEL.
 
 
 
+
 ## -see-also
-
-<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
-
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
-
-<mshelp:link keywords="netvista.nmrclientdetachprovidercomplete" tabindex="0"><b>
-   NmrClientDetachProviderComplete</b></mshelp:link>
 
 <a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
 
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+
+
+<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+   NmrClientDetachProviderComplete</a>
+
+
 
 <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
+
+
+
+<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+
+
+
+<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
+
+
 
  
 

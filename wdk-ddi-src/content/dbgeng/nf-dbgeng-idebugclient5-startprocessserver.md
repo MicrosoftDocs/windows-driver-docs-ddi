@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: dc0bade2-7781-4c08-aea5-0ff4809d3321
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient5::StartProcessServer, StartProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient5, dbgeng/IDebugClient::StartProcessServer, IDebugClient2 interface [Windows Debugging], StartProcessServer method, StartProcessServer method [Windows Debugging], IDebugClient3 interface, debugger.startprocessserver, IDebugClient::StartProcessServer, StartProcessServer, dbgeng/IDebugClient2::StartProcessServer, IDebugClient2::StartProcessServer, IDebugClient5 interface [Windows Debugging], StartProcessServer method, StartProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], StartProcessServer method, IDebugClient4 interface [Windows Debugging], StartProcessServer method, StartProcessServer method [Windows Debugging], dbgeng/IDebugClient3::StartProcessServer, IDebugClient interface [Windows Debugging], StartProcessServer method, IDebugClient_de137b80-ffd7-4399-85a3-50b3c870c28c.xml, dbgeng/IDebugClient4::StartProcessServer, dbgeng/IDebugClient5::StartProcessServer, IDebugClient4::StartProcessServer, IDebugClient3::StartProcessServer, StartProcessServer method [Windows Debugging], IDebugClient2 interface, StartProcessServer method [Windows Debugging], IDebugClient4 interface
+ms.keywords: IDebugClient_de137b80-ffd7-4399-85a3-50b3c870c28c.xml, StartProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient5, IDebugClient3, dbgeng/IDebugClient5::StartProcessServer, IDebugClient, IDebugClient4::StartProcessServer, StartProcessServer, StartProcessServer method [Windows Debugging], IDebugClient interface [Windows Debugging], StartProcessServer method, IDebugClient5 interface [Windows Debugging], StartProcessServer method, StartProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient::StartProcessServer, IDebugClient3::StartProcessServer, IDebugClient3 interface [Windows Debugging], StartProcessServer method, dbgeng/IDebugClient2::StartProcessServer, IDebugClient2, debugger.startprocessserver, StartProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient2 interface [Windows Debugging], StartProcessServer method, StartProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient4 interface [Windows Debugging], StartProcessServer method, dbgeng/IDebugClient4::StartProcessServer, StartProcessServer method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient::StartProcessServer, dbgeng/IDebugClient3::StartProcessServer, IDebugClient5::StartProcessServer, IDebugClient4, IDebugClient2::StartProcessServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.StartProcessServer
 -	IDebugClient2.StartProcessServer
 -	IDebugClient3.StartProcessServer
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.StartProcessServer
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::StartProcessServer method
@@ -91,7 +91,9 @@ Set to <b>NULL</b>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -108,11 +110,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The process server that is started will be accessible by remote clients through the transport specified in the <i>Options</i> parameter.
@@ -123,25 +128,44 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
+
 ## -see-also
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
  
 

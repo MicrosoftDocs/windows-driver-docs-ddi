@@ -1,6 +1,6 @@
 ---
 UID: NE:ndkpi._NDK_OBJECT_TYPE
-title: _NDK_OBJECT_TYPE
+title: "_NDK_OBJECT_TYPE"
 author: windows-driver-content
 description: The NDK_OBJECT_TYPE enumeration defines types of Network Direct Kernel (NDK) objects.
 old-location: netvista\ndk_object_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8CB39DF6-00DA-4480-A44E-62CAF1DB35CE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdkObjectTypeMr, ndkpi/NdkObjectTypeMw, ndkpi/NdkObjectTypeMr, ndkpi/NdkObjectTypeAdapter, NdkObjectTypeSrq, ndkpi/NdkObjectTypeCq, NdkObjectTypePd, NdkObjectTypeMax, _NDK_OBJECT_TYPE, ndkpi/NdkObjectTypeSharedEndpoint, NdkObjectTypeAdapter, NdkObjectTypeConnector, ndkpi/NdkObjectTypeSrq, NdkObjectTypeQp, NdkObjectTypeUndefined, ndkpi/NDK_OBJECT_TYPE, ndkpi/NdkObjectTypeQp, netvista.ndk_object_type, NdkObjectTypeCq, ndkpi/NdkObjectTypeMax, NDK_OBJECT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkObjectTypeMw, ndkpi/NdkObjectTypeConnector, ndkpi/NdkObjectTypeUndefined, NdkObjectTypeSharedEndpoint, NDK_OBJECT_TYPE, NdkObjectTypeListener, ndkpi/NdkObjectTypePd, ndkpi/NdkObjectTypeListener
+ms.keywords: NdkObjectTypeQp, ndkpi/NdkObjectTypeMax, ndkpi/NDK_OBJECT_TYPE, NdkObjectTypeListener, NdkObjectTypeSharedEndpoint, NdkObjectTypeSrq, ndkpi/NdkObjectTypeMr, ndkpi/NdkObjectTypeListener, ndkpi/NdkObjectTypePd, ndkpi/NdkObjectTypeConnector, NdkObjectTypeMax, NdkObjectTypeConnector, NdkObjectTypeUndefined, NdkObjectTypeMw, NdkObjectTypeAdapter, _NDK_OBJECT_TYPE, NdkObjectTypeCq, ndkpi/NdkObjectTypeAdapter, NDK_OBJECT_TYPE enumeration [Network Drivers Starting with Windows Vista], ndkpi/NdkObjectTypeCq, NDK_OBJECT_TYPE, NdkObjectTypeMr, ndkpi/NdkObjectTypeSharedEndpoint, ndkpi/NdkObjectTypeUndefined, ndkpi/NdkObjectTypeQp, NdkObjectTypePd, netvista.ndk_object_type, ndkpi/NdkObjectTypeMw, ndkpi/NdkObjectTypeSrq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NDK_OBJECT_TYPE
 product: Windows
 targetos: Windows
@@ -143,33 +143,57 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 
+
 NDK objects include an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a> structure that packages the object type,  version, and other information.
+
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
 <a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+
+
 
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+
+
 
  
 

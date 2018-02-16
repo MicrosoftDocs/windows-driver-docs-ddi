@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	FreeStackSymFrames
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback
@@ -82,11 +82,14 @@ A stack to free.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -remarks
+
 
 
 After <i>FreeStackSymFrames</i> is called, the debugger calls the stack provider to free memory.
@@ -95,9 +98,12 @@ After <i>FreeStackSymFrames</i> is called, the debugger calls the stack provider
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nc-dbgeng-pdebug_stack_provider_endthreadstackreconstruction.md">EndThreadStackReconstruction</a>
+
+
 
  
 

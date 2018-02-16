@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_DATA_FORMAT_VER3
-title: _CIP_DATA_FORMAT_VER3
+title: "_CIP_DATA_FORMAT_VER3"
 author: windows-driver-content
 description: This structure is used by CipDataFormat.
 old-location: ieee\cip_data_format_ver3.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: A7EDC949-A2C6-43E9-9CA0-886FEE5282F5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: CIP_DATA_FORMAT_VER3 structure [Buses], CIP_DATA_FORMAT_VER3, 61883/CIP_DATA_FORMAT_VER3, 61883/PCIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], IEEE.cip_data_format_ver3, *PCIP_DATA_FORMAT, PCIP_DATA_FORMAT_VER3, _CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT
+ms.keywords: CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT, 61883/CIP_DATA_FORMAT_VER3, 61883/PCIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT, PCIP_DATA_FORMAT_VER3, IEEE.cip_data_format_ver3, CIP_DATA_FORMAT_VER3 structure [Buses], *PCIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], _CIP_DATA_FORMAT_VER3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	CIP_DATA_FORMAT_VER3
 product: Windows
 targetos: Windows
@@ -135,6 +135,8 @@ This member is the number of blocks per packet; used for blocking mode only
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

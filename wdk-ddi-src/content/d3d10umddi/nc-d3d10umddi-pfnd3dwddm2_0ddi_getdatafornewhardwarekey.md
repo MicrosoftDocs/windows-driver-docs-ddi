@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnGetDataForNewHardwareKey
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY callback
@@ -89,32 +89,23 @@ A handle to the cryptographic session object that was created through a call to 
 The size of the  buffer pointed to by <b>pPrivatInputData</b>, in bytes.
 
 
-### -param *pPrivatInputData
-
-
-
-### -param *pPrivateOutputData
-
-
-
-
-
-
-#### - pPrivateOutputData [out]
-
-A pointer to a UINT64 value that receives private driver output data that could be used later by the secure DRM component when initializing the key.
-
-
-#### - pPrivatInputData [in]
+### -param *pPrivatInputData [in]
 
 A pointer to a buffer that receives private input data for the driver.
+
+
+### -param *pPrivateOutputData [out]
+
+A pointer to a UINT64 value that receives private driver output data that could be used later by the secure DRM component when initializing the key.
 
 
 ## -returns
 
 
 
+
       Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,7 +135,9 @@ Private driver data was successfully returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -152,7 +145,11 @@ Private driver data was successfully returned.
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrTrackIds
-title: _MsrTrackIds
+title: "_MsrTrackIds"
 author: windows-driver-content
 description: Defines the constants that represent the magnetic stripe reader (MSR) tracks.
 old-location: pos\msrtrackids.htm
@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 9366722a-c545-411d-a59f-63edfb0cd68e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.msrtrackids, pointofservicedriverinterface/MsrTrackIds_Track4, _MsrTrackIds, pointofservicedriverinterface/MsrTrackIds, pointofservicedriverinterface/MsrTrackIds_Track2, pointofservicedriverinterface/MsrTrackIds_None, MsrTrackIds_Track4, pointofservicedriverinterface/MsrTrackIds_Track1, MsrTrackIds enumeration, MsrTrackIds_Track1, MsrTrackIds_None, MsrTrackIds_Track2, MsrTrackIds_Track3, MsrTrackIds, pointofservicedriverinterface/MsrTrackIds_Track3
+ms.keywords: MsrTrackIds, pointofservicedriverinterface/MsrTrackIds_Track2, pointofservicedriverinterface/MsrTrackIds_Track4, MsrTrackIds_Track4, MsrTrackIds enumeration, MsrTrackIds_None, MsrTrackIds_Track2, MsrTrackIds_Track1, pointofservicedriverinterface/MsrTrackIds_Track1, pointofservicedriverinterface/MsrTrackIds_Track3, pointofservicedriverinterface/MsrTrackIds_None, MsrTrackIds_Track3, pointofservicedriverinterface/MsrTrackIds, pos.msrtrackids, _MsrTrackIds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pointofservicedriverinterface.h
-apiname: 
+apiname:
 -	MsrTrackIds
 product: Windows
 targetos: Windows
@@ -74,19 +74,14 @@ typedef enum _MsrTrackIds {
 ### -field MsrTrackIds_None
 
 
-
 ### -field MsrTrackIds_Track1
-
 
 
 ### -field MsrTrackIds_Track2
 
 
-
 ### -field MsrTrackIds_Track3
 
 
-
 ### -field MsrTrackIds_Track4
-
 

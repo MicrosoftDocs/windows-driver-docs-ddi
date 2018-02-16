@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CA_MODULE_UI
-title: _BDA_CA_MODULE_UI
+title: "_BDA_CA_MODULE_UI"
 author: windows-driver-content
 description: The BDA_CA_MODULE_UI structure describes the user interface (UI) that conditional access (CA) plugins can display.
 old-location: stream\bda_ca_module_ui.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 2f2c8cb5-0e84-467f-9671-735575835c3a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/BDA_CA_MODULE_UI, bdatypes/PBDA_CA_MODULE_UI, PBDA_CA_MODULE_UI structure pointer [Streaming Media Devices], *PBDA_CA_MODULE_UI, bdaref_470f210b-d1cb-4615-a7c5-a4d8e21833d1.xml, stream.bda_ca_module_ui, BDA_CA_MODULE_UI, BDA_CA_MODULE_UI structure [Streaming Media Devices], _BDA_CA_MODULE_UI, PBDA_CA_MODULE_UI
+ms.keywords: PBDA_CA_MODULE_UI structure pointer [Streaming Media Devices], *PBDA_CA_MODULE_UI, BDA_CA_MODULE_UI structure [Streaming Media Devices], stream.bda_ca_module_ui, PBDA_CA_MODULE_UI, BDA_CA_MODULE_UI, bdatypes/BDA_CA_MODULE_UI, bdaref_470f210b-d1cb-4615-a7c5-a4d8e21833d1.xml, bdatypes/PBDA_CA_MODULE_UI, _BDA_CA_MODULE_UI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdatypes.h
-apiname: 
+apiname:
 -	BDA_CA_MODULE_UI
 product: Windows
 targetos: Windows
-req.typenames: BDA_CA_MODULE_UI, *PBDA_CA_MODULE_UI
+req.typenames: "*PBDA_CA_MODULE_UI, BDA_CA_MODULE_UI"
 ---
 
 # _BDA_CA_MODULE_UI structure
@@ -86,9 +86,13 @@ Array of descriptors for the UI.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564294">KSPROPERTY_BDA_CA_MODULE_UI</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
+
 
  
 

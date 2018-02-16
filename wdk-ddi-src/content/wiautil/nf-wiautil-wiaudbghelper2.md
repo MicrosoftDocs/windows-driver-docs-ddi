@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 577ce93a-5a90-4e85-afc6-3791f402c238
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wiautil/wiauDbgHelper2, wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, image.wiaudbghelper2, wiauDbgHelper2 function [Imaging Devices], wiauDbgHelper2
+ms.keywords: wiauDbgHelper2 function [Imaging Devices], wiauDbgHelper2, wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, image.wiaudbghelper2, wiautil/wiauDbgHelper2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wiautil.h
-apiname: 
+apiname:
 -	wiauDbgHelper2
 product: Windows
 targetos: Windows
@@ -91,6 +91,7 @@ TBD
 
 
 
+
 ####### - fmt, ...
 
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output. The text should be prefixed with the full name of the method or function generating the message in the format of "class::method, message-text". 
@@ -99,14 +100,18 @@ Pointer to a format string that specifies a variable argument list, which starts
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>-style messages, with variable argument lists, to a log file or debugger. The following example demonstrates how this function might be used:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -119,19 +124,32 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+
+
 
 <a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
+
+
 <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+
+
 
 <a href="..\wiautil\nf-wiautil-wiaudbghelper.md">wiauDbgHelper</a>
 
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+
 
  
 

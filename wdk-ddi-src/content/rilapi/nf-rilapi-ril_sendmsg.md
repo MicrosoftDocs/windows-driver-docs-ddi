@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0ae1ed49-af07-4e34-80fa-34a55c973cfb
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_SendMsg method [Network Drivers Starting with Windows Vista], netvista.ril_sendmsg, RIL_SendMsg, rilapi/RIL_SendMsg
+ms.keywords: rilapi/RIL_SendMsg, RIL_SendMsg, netvista.ril_sendmsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_SendMsg
 product: Windows
 targetos: Windows
@@ -78,30 +78,26 @@ HRESULT  RIL_SendMsg(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param dwExecutor
 
 
-
 ### -param hUiccApp
-
 
 
 ### -param lpMessage
 
 
-
 ### -param dwOptions
-
 
 
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

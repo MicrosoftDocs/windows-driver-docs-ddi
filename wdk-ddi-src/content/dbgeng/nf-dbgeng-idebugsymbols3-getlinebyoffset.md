@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1b470ae8-49d3-467d-aa08-08bd9c9e9466
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getlinebyoffset, GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface, GetLineByOffset, IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols::GetLineByOffset, IDebugSymbols3, dbgeng/IDebugSymbols::GetLineByOffset, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, GetLineByOffset method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols3::GetLineByOffset, IDebugSymbols interface [Windows Debugging], GetLineByOffset method, IDebugSymbols3::GetLineByOffset, dbgeng/IDebugSymbols2::GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols2::GetLineByOffset
+ms.keywords: dbgeng/IDebugSymbols3::GetLineByOffset, GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols3::GetLineByOffset, IDebugSymbols2::GetLineByOffset, IDebugSymbols::GetLineByOffset, dbgeng/IDebugSymbols2::GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2, IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols interface [Windows Debugging], GetLineByOffset method, IDebugSymbols, IDebugSymbols3, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface, debugger.getlinebyoffset, dbgeng/IDebugSymbols::GetLineByOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.GetLineByOffset
 -	IDebugSymbols2.GetLineByOffset
 -	IDebugSymbols3.GetLineByOffset
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetLineByOffset method
@@ -107,7 +107,9 @@ Receives the difference between the location specified in <i>Offset</i> and the 
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -135,26 +137,38 @@ The method was successful. However, the buffer was not large enough to hold the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.
+
 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548022">GetOffsetByLine</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

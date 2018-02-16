@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 904904e7-ca59-4dcb-92db-8c7f6a9cbff7
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, wudfddi/IWDFRemoteTarget::Reopen, Reopen, Reopen method, IWDFRemoteTarget::Reopen, wdf.iwdfremotetarget_reopen, IWDFRemoteTarget, Reopen method, IWDFRemoteTarget interface, umdf.iwdfremotetarget_reopen, IWDFRemoteTarget interface, Reopen method
+ms.keywords: umdf.iwdfremotetarget_reopen, wdf.iwdfremotetarget_reopen, IWDFRemoteTarget::Reopen, IWDFRemoteTarget, Reopen, Reopen method, IWDFRemoteTarget interface, IWDFRemoteTarget interface, Reopen method, Reopen method, wudfddi/IWDFRemoteTarget::Reopen, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFRemoteTarget.Reopen
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -69,10 +69,13 @@ HRESULT Reopen();
 
 
 
+
 ## -returns
 
 
+
 <b>Reopen</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -89,7 +92,8 @@ The framework's attempt to allocate memory failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
@@ -99,7 +103,9 @@ The framework's <a href="https://msdn.microsoft.com/e84993e1-da10-4041-8fc7-7f40
 
 
 
+
 ## -remarks
+
 
 
 Typically, a driver calls <b>Reopen</b> from within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556899">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a> callback function, but <b>Reopen</b> can instead be called after <b>OnRemoteTargetRemoveCanceled</b> returns. 
@@ -109,12 +115,49 @@ Reopen uses the file or interface name that the driver previously specified to <
 For more information about <b>Reopen</b> and how to use remote I/O targets in UMDF-based drivers, see <a href="https://msdn.microsoft.com/479487b2-5ce5-4522-b195-58ee50d210b6">Controlling a General I/O Target's State in UMDF</a>.
 
 
+#### Examples
+
+The following code example shows an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556899">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a> callback function that calls <b>Reopen</b>.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
+STDMETHODCALLTYPE
+CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
+    __in IWDFRemoteTarget* FxTarget
+    )
+{
+ if (S_OK == (FxTarget-&gt;Reopen()))
+    {
+    //
+    // Resume sending I/O requests to the remote target.
+    //
+    ...
+    }
+ else
+    {
+       FxTarget-&gt;Close();
+    }
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560253">IWDFRemoteTarget::Close</a>
+
 
  
 

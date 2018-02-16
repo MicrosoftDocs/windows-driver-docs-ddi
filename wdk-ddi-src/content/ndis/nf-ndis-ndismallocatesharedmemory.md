@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8eda6100-598f-405d-a9b3-74424c829a58
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory, ndis/NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml
+ms.keywords: NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory, miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, ndis/NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMAllocateSharedMemory
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMAllocateSharedMemory function
@@ -107,15 +107,20 @@ Pointer to a caller-supplied variable in which this function returns a physical 
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <div class="alert"><b>Note</b>  A miniport driver must have already called <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">NdisMRegisterScatterGatherDma</a> or <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> to initialize a
-  scatter/gather DMA channel before calling <b>NdisMAllocateSharedMemory</b>.</div><div> </div>Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of Windows allow both
+  scatter/gather DMA channel before calling <b>NdisMAllocateSharedMemory</b>.</div>
+<div> </div>
+Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of Windows allow both
     bus-master DMA NICs and subordinate DMA NICs to call 
     <b>NdisMAllocateSharedMemory</b>. Prior releases allow only bus-master DMA NICs to call 
     <b>NdisMAllocateSharedMemory</b>. In these prior releases, if 
@@ -137,6 +142,7 @@ None
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>. How large
     an allocation to request depends on how the driver writer, knowing the capabilities and features of the
     NIC, decides to make the tradeoff between the following performance versus size dilemma:
+
 <ul>
 <li>
 In periods of high network traffic, a miniport driver cannot maintain high I/O throughput if it runs
@@ -158,16 +164,17 @@ On the other hand, calling
       memory is available, forcing the driver to fail initialization.
 
 </li>
-</ul>A miniport driver that supplies a 
-    <mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-    MiniportSharedMemoryAllocateComplete</i></mshelp:link> function has considerably more flexibility in resolving the
+</ul>
+A miniport driver that supplies a 
+    <a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+    MiniportSharedMemoryAllocateComplete</a> function has considerably more flexibility in resolving the
     preceding performance versus size dilemma. 
     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> should allocate only enough shared memory with 
     <b>NdisMAllocateSharedMemory</b> for a moderate demand for network transfer operations through the NIC if
     the driver has a 
     <i>MiniportSharedMemoryAllocateComplete</i> function. Such a miniport driver can call 
-    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> dynamically to allocate more shared memory in periods of heavier
+    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+    NdisMAllocateSharedMemoryAsyncEx</a> dynamically to allocate more shared memory in periods of heavier
     transfer demand on a NIC. When the high demand for transfers subsides, such a driver calls 
     <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a> to release the
     additional memory it allocated. Note that only bus-master DMA NICs can call 
@@ -209,8 +216,8 @@ If its call to
     resources it has already allocated and fail initialization.
 
 If the miniport driver subsequently indicates receives with 
-    <mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-    NdisMIndicateReceiveNetBufferLists</b></mshelp:link>, it must allocate some number of buffer descriptors from buffer
+    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+    NdisMIndicateReceiveNetBufferLists</a>, it must allocate some number of buffer descriptors from buffer
     pool that map the NIC's receive buffers in the shared memory block.
 
 If the allocated memory is cached and, therefore, needs to be flushed on transfers, the miniport
@@ -221,8 +228,8 @@ If the allocated memory is cached and, therefore, needs to be flushed on transfe
     to perform such a flush.
 
 If a miniport driver calls 
-    <mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-    NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link> or 
+    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+    NdisMAllocateSharedMemoryAsyncEx</a> or 
     <b>NdisMAllocateSharedMemory</b>, it must release all outstanding allocations with one or more calls to 
     <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a> when a NIC is
     removed, that is, when its 
@@ -230,34 +237,59 @@ If a miniport driver calls
 
 
 
-## -see-also
 
-<mshelp:link keywords="netvista.miniportsharedmemoryallocatecomplete" tabindex="0"><i>
-   MiniportSharedMemoryAllocateComplete</i></mshelp:link>
+## -see-also
 
 <a href="..\ndis\nf-ndis-ndismallocatenetbuffersglist.md">NdisMAllocateNetBufferSGList</a>
 
-<mshelp:link keywords="netvista.ndismallocatesharedmemoryasyncex" tabindex="0"><b>
-   NdisMAllocateSharedMemoryAsyncEx</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
-<mshelp:link keywords="netvista.ndismindicatereceivenetbufferlists" tabindex="0"><b>
-   NdisMIndicateReceiveNetBufferLists</b></mshelp:link>
 
 <a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
 
-<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
+
+
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+   MiniportSharedMemoryAllocateComplete</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
-<a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
+
+
+<a href="..\ndis\nf-ndis-ndismgetdmaalignment.md">NdisMGetDmaAlignment</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
 
 <a href="..\ndis\nf-ndis-ndismfreesharedmemory.md">NdisMFreeSharedMemory</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+   NdisMAllocateSharedMemoryAsyncEx</a>
+
+
 
  
 

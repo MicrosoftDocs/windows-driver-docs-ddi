@@ -7,8 +7,8 @@ old-location: print\ixpsrasterizer_setminimallinewidth.htm
 old-project: print
 ms.assetid: daf84d1a-d499-4a6e-be87-39fd16f3d87d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.ixpsrasterizer_setminimallinewidth, SetMinimalLineWidth method [Print Devices], IXpsRasterizer::SetMinimalLineWidth, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, IXpsRasterizer, SetMinimalLineWidth, IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml
+ms.date: 2/2/2018
+ms.keywords: IXpsRasterizer interface [Print Devices], SetMinimalLineWidth method, print.ixpsrasterizer_setminimallinewidth, IXpsRasterizer, SetMinimalLineWidth, xpsrassvc/IXpsRasterizer::SetMinimalLineWidth, SetMinimalLineWidth method [Print Devices], IXpsRasterizer interface, IXpsRasterizer::SetMinimalLineWidth, print_xpsrast_2208b605-31bd-4ab9-8bd5-6941a921ff7a.xml, SetMinimalLineWidth method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: xpsrassvc.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	xpsrassvc.h
-apiname: 
+apiname:
 -	IXpsRasterizer.SetMinimalLineWidth
 product: Windows
 targetos: Windows
@@ -76,30 +76,42 @@ The minimum thickness (in pixels) of the lines the device is capable of renderin
 ## -returns
 
 
+
 <code>SetMinimalLineWidth</code> always returns S_OK.
+
 
 
 
 ## -remarks
 
 
+
 This method is supported in Windows 7 and later. It is not supported in versions of the Windows operating system before Windows 7.
+
 
 
 
 ## -see-also
 
-<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
+
+
 <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
 
- 
+
+
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizer::SetMinimalLineWidth method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizer::SetMinimalLineWidth method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

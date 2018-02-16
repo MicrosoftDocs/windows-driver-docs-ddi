@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_CIPHER_ALGORITHM
-title: _WDI_CIPHER_ALGORITHM
+title: "_WDI_CIPHER_ALGORITHM"
 author: windows-driver-content
 description: The WDI_CIPHER_ALGORITHM enumeration defines the cipher algorithm values.
 old-location: netvista\wdi_cipher_algorithm.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 08413358-DFBC-4AC3-97B3-380D98EFFBF3
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WDI_CIPHER_ALGO_WEP40, wditypes/WDI_CIPHER_ALGO_CCMP, WDI_CIPHER_ALGO_WEP104, WDI_CIPHER_ALGO_WPA_USE_GROUP, WDI_CIPHER_ALGO_TKIP, wditypes/WDI_CIPHER_ALGO_WEP104, WDI_CIPHER_ALGO_IHV_START, WDI_CIPHER_ALGO_GCMP, wditypes/WDI_CIPHER_ALGO_WPA_USE_GROUP, wditypes/WDI_CIPHER_ALGO_IHV_START, netvista.wifi_cipher_algorithm, WDI_CIPHER_ALGO_RSN_USE_GROUP, WDI_CIPHER_ALGO_BIP, WDI_CIPHER_ALGO_NONE, WDI_CIPHER_ALGO_CCMP, wditypes/WDI_CIPHER_ALGO_IHV_END, wditypes/WDI_CIPHER_ALGO_BIP, netvista.wdi_cipher_algorithm, wditypes/WDI_CIPHER_ALGO_WEP, wditypes/WDI_CIPHER_ALGORITHM, wditypes/WDI_CIPHER_ALGO_TKIP, WDI_CIPHER_ALGORITHM, WDI_CIPHER_ALGO_WEP, WDI_CIPHER_ALGORITHM enumeration [Device and Driver Installation], wditypes/WDI_CIPHER_ALGO_RSN_USE_GROUP, wditypes/WDI_CIPHER_ALGO_WEP40, wditypes/WDI_CIPHER_ALGO_GCMP, _WDI_CIPHER_ALGORITHM, WDI_CIPHER_ALGO_IHV_END, wditypes/WDI_CIPHER_ALGO_NONE
+ms.keywords: "_WDI_CIPHER_ALGORITHM, wditypes/WDI_CIPHER_ALGO_WPA_USE_GROUP, WDI_CIPHER_ALGO_GCMP, WDI_CIPHER_ALGO_RSN_USE_GROUP, wditypes/WDI_CIPHER_ALGO_IHV_END, wditypes/WDI_CIPHER_ALGO_WEP104, wditypes/WDI_CIPHER_ALGO_TKIP, WDI_CIPHER_ALGO_WEP40, wditypes/WDI_CIPHER_ALGO_WEP, wditypes/WDI_CIPHER_ALGO_RSN_USE_GROUP, WDI_CIPHER_ALGO_BIP, wditypes/WDI_CIPHER_ALGO_BIP, WDI_CIPHER_ALGO_IHV_END, wditypes/WDI_CIPHER_ALGO_WEP40, WDI_CIPHER_ALGO_NONE, wditypes/WDI_CIPHER_ALGORITHM, WDI_CIPHER_ALGO_IHV_START, netvista.wifi_cipher_algorithm, WDI_CIPHER_ALGO_WEP, WDI_CIPHER_ALGORITHM, WDI_CIPHER_ALGORITHM enumeration [Device and Driver Installation], WDI_CIPHER_ALGO_TKIP, WDI_CIPHER_ALGO_CCMP, wditypes/WDI_CIPHER_ALGO_CCMP, WDI_CIPHER_ALGO_WEP104, wditypes/WDI_CIPHER_ALGO_IHV_START, wditypes/WDI_CIPHER_ALGO_GCMP, wditypes/WDI_CIPHER_ALGO_NONE, WDI_CIPHER_ALGO_WPA_USE_GROUP, netvista.wdi_cipher_algorithm"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wditypes.hpp
-apiname: 
+apiname:
 -	WDI_CIPHER_ALGORITHM
 product: Windows
 targetos: Windows

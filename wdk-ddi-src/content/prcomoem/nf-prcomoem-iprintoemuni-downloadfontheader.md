@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_downloadfontheader.htm
 old-project: print
 ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DownloadFontHeader method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::DownloadFontHeader, IPrintOemUni interface [Print Devices], DownloadFontHeader method, print.iprintoemuni_downloadfontheader, IPrintOemUni, IPrintOemUni::DownloadFontHeader, DownloadFontHeader method [Print Devices], DownloadFontHeader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml
+ms.date: 2/2/2018
+ms.keywords: DownloadFontHeader method [Print Devices], DownloadFontHeader, print.iprintoemuni_downloadfontheader, prcomoem/IPrintOemUni::DownloadFontHeader, IPrintOemUni, IPrintOemUni interface [Print Devices], DownloadFontHeader method, DownloadFontHeader method [Print Devices], IPrintOemUni interface, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml, IPrintOemUni::DownloadFontHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemUni.DownloadFontHeader
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -88,7 +88,9 @@ Receives a method-supplied value representing the amount of printer memory, in b
 ## -returns
 
 
+
 The method must return one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,16 +129,20 @@ The method is not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <code>IPrintOemUni::DownloadFontHeader</code> method is used for supporting soft fonts on printers that do not accept <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PCL</a> commands. Its purpose is to allow a rendering plug-in to obtain font header information from Unidrv and to send the information to the printer.
 
 Information that might be required for constructing a non-<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PCL</a> font header can be obtained by:
+
 <ul>
 <li>
 Referencing the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure that is received as an input argument.
@@ -146,12 +152,14 @@ Referencing the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> 
 Calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function to get the font's <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a> structure.
 
 </li>
-</ul>The method should send the header information to the spooler by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>.
+</ul>
+The method should send the header information to the spooler by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>.
 
 The <code>IPrintOemUni::DownloadFontHeader</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "DownloadFontHeader" as input.
 
 If you implement the <code>IPrintOemUni::DownloadFontHeader</code> method, you must also implement the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554241">IPrintOemUni::DownloadCharGlyph</a> method.
 
 For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Customized Font Management</a>.
+
 
 

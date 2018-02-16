@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5484775b-0c02-4879-a550-a4dc99e577ed
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_SUBADDRTYPE_MAX, rilapitypes/RILSUBADDRESSTYPE, rilapitypes/RIL_SUBADDRTYPE_USER, netvista.rilsubaddresstype_2, RILSUBADDRESSTYPE, RIL_SUBADDRTYPE_USER, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_MAX
+ms.keywords: rilapitypes/RIL_SUBADDRTYPE_MAX, rilapitypes/RILSUBADDRESSTYPE, netvista.rilsubaddresstype_2, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_USER, RIL_SUBADDRTYPE_MAX, rilapitypes/RIL_SUBADDRTYPE_USER, RILSUBADDRESSTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSUBADDRESSTYPE
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILSUBADDRESSTYPE {
 ### -field RIL_SUBADDRTYPE_NSAP
 
 
-
 ### -field RIL_SUBADDRTYPE_USER
 
 
-
 ### -field RIL_SUBADDRTYPE_MAX
-
 

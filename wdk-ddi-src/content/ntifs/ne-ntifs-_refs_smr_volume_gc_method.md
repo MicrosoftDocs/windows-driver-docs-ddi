@@ -1,14 +1,14 @@
 ---
 UID: NE:ntifs._REFS_SMR_VOLUME_GC_METHOD
-title: _REFS_SMR_VOLUME_GC_METHOD
+title: "_REFS_SMR_VOLUME_GC_METHOD"
 author: windows-driver-content
 description: The REFS_SMR_VOLUME_GC_METHOD enum specifies the garbage collection method or strategy for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_method.htm
 old-project: ifsk
 ms.assetid: 6C58EFD4-B5F9-4E2B-AF76-E9614218E0DC
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: SmrGcMethodCompaction, REFS_SMR_VOLUME_GC_METHOD, SmrGcMethodRotation, _REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], PREFS_SMR_VOLUME_GC_METHOD, ntifs/PREFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodCompaction, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodRotation, SmrGcMethodCompression, ifsk.refs_smr_volume_gc_method, ntifs/REFS_SMR_VOLUME_GC_METHOD, *PREFS_SMR_VOLUME_GC_METHOD
+ms.date: 2/7/2018
+ms.keywords: "_REFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD, SmrGcMethodCompression, SmrGcMethodRotation, ntifs/PREFS_SMR_VOLUME_GC_METHOD, ifsk.refs_smr_volume_gc_method, SmrGcMethodCompaction, PREFS_SMR_VOLUME_GC_METHOD, ntifs/REFS_SMR_VOLUME_GC_METHOD, ntifs/SmrGcMethodRotation, ntifs/SmrGcMethodCompression, ntifs/SmrGcMethodCompaction, PREFS_SMR_VOLUME_GC_METHOD enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_METHOD enumeration [Installable File System Drivers], *PREFS_SMR_VOLUME_GC_METHOD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntifs.h
-apiname: 
+apiname:
 -	REFS_SMR_VOLUME_GC_METHOD
 product: Windows
 targetos: Windows
-req.typenames: *PREFS_SMR_VOLUME_GC_METHOD, REFS_SMR_VOLUME_GC_METHOD
+req.typenames: REFS_SMR_VOLUME_GC_METHOD, *PREFS_SMR_VOLUME_GC_METHOD
 ---
 
 # _REFS_SMR_VOLUME_GC_METHOD enumeration
@@ -87,7 +87,9 @@ Specifies the use of the rotation method for garbage collection. Moves data from
 ## -remarks
 
 
+
 Currently the only supported value  is <b>SmrGcMethodCompaction</b>.
+
 
 
 
@@ -95,9 +97,11 @@ Currently the only supported value  is <b>SmrGcMethodCompaction</b>.
 
 <a href="https://msdn.microsoft.com/782542C4-CFC5-4BF7-AF38-3247A3AC6AB9">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20REFS_SMR_VOLUME_GC_METHOD enumeration%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20REFS_SMR_VOLUME_GC_METHOD enumeration%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

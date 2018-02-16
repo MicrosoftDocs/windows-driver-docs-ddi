@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfio._WDF_IO_QUEUE_STATE
-title: _WDF_IO_QUEUE_STATE
+title: "_WDF_IO_QUEUE_STATE"
 author: windows-driver-content
 description: The WDF_IO_QUEUE_STATE enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks.
 old-location: wdf\wdf_io_queue_state.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, WdfIoQueuePnpHeld, kmdf.wdf_io_queue_state, WdfIoQueueAcceptRequests, wdfio/WdfIoQueueNoRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueAcceptRequests, wdfio/WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDriverNoRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, wdf.wdf_io_queue_state, WdfIoQueueDispatchRequests
+ms.keywords: WdfIoQueueDriverNoRequests, wdfio/WdfIoQueuePnpHeld, wdfio/WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE, WdfIoQueueAcceptRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, WdfIoQueueDispatchRequests, _WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueDriverNoRequests, kmdf.wdf_io_queue_state, WDF_IO_QUEUE_STATE enumeration, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueueAcceptRequests, wdfio/WdfIoQueueNoRequests, wdf.wdf_io_queue_state, WdfIoQueuePnpHeld, WdfIoQueueNoRequests
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfio.h
-apiname: 
+apiname:
 -	WDF_IO_QUEUE_STATE
 product: Windows
 targetos: Windows
@@ -104,6 +104,7 @@ If set, the framework has stopped delivering requests to the driver because the 
 ## -remarks
 
 
+
 The WDF_IO_QUEUE_STATE enumeration type is used as the return value for the <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> method.
 
 The following functions are defined in <i>wdfio.h</i>:
@@ -112,9 +113,12 @@ The following functions are defined in <i>wdfio.h</i>:
 
 
 
+
 ## -see-also
 
 <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>
+
+
 
  
 

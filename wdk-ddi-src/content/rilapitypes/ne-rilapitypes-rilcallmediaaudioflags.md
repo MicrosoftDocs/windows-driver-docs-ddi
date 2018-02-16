@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da09298f-88be-44ef-8072-d11cf91401c7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, RIL_CALLMEDIAAUDIOFLAG_ALL, RILCALLMEDIAAUDIOFLAGS, RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, rilapitypes/RILCALLMEDIAAUDIOFLAGS, netvista.rilcallmediaaudioflags_2, rilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILCALLMEDIAAUDIOFLAGS, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallmediaaudioflags_2, rilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, rilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, rilapitypes/RILCALLMEDIAAUDIOFLAGS, RIL_CALLMEDIAAUDIOFLAG_ALL, RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIAAUDIOFLAGS
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ typedef enum _RILCALLMEDIAAUDIOFLAGS {
 ### -field RIL_CALLMEDIAAUDIOFLAG_NONE
 
 
-
 ### -field RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE
 
 
-
 ### -field RIL_CALLMEDIAAUDIOFLAG_ALL
-
 

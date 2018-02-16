@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi_types._WDF_PROPERTY_STORE_ROOT
-title: _WDF_PROPERTY_STORE_ROOT
+title: "_WDF_PROPERTY_STORE_ROOT"
 author: windows-driver-content
 description: The WDF_PROPERTY_STORE_ROOT structure contains information that identifies a UMDF property store.
 old-location: wdf\wdf_property_store_root.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 431ae991-35e0-4cf7-a3e0-57591abfe5c5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: PWDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT structure, _WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml, wudfddi_types/PWDF_PROPERTY_STORE_ROOT, wudfddi_types/WDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT structure pointer, WDF_PROPERTY_STORE_ROOT, umdf.wdf_property_store_root, wdf.wdf_property_store_root
+ms.keywords: wudfddi_types/PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT structure, *PWDF_PROPERTY_STORE_ROOT, umdf.wdf_property_store_root, _WDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT, wudfddi_types/WDF_PROPERTY_STORE_ROOT, wdf.wdf_property_store_root, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml, PWDF_PROPERTY_STORE_ROOT structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_PROPERTY_STORE_ROOT
 product: Windows
 targetos: Windows
@@ -83,12 +83,20 @@ typedef struct _WDF_PROPERTY_STORE_ROOT {
 
 
 
+### -field LengthCb
+
+The length, in bytes, of this structure.
+
+
+### -field RootClass
+
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>-typed value that identifies a property store.
+
+
 ### -field Qualifier
 
 
-
 ### -field Qualifier.HardwareKey
-
 
 
 ### -field Qualifier.HardwareKey.ServiceName
@@ -97,7 +105,6 @@ A pointer to a <b>NULL</b>-terminated character string that identifies a driver-
 
 
 ### -field Qualifier.DeviceInterfaceKey
-
 
 
 ### -field Qualifier.DeviceInterfaceKey.InterfaceGUID
@@ -113,23 +120,13 @@ A pointer to a <b>NULL</b>-terminated character string that identifies a referen
 ### -field Qualifier.LegacyHardwareKey
 
 
-
 ### -field Qualifier.LegacyHardwareKey.LegacyMapName
 
 A pointer to a <b>NULL</b>-terminated character string that identifies a subkey under the <b>HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP</b> key in the registry. This key is used by only a few older drivers.
 
 
-### -field LengthCb
-
-The length, in bytes, of this structure.
-
-
-### -field RootClass
-
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>-typed value that identifies a property store.
-
-
 ## -remarks
+
 
 
 The <b>WDF_PROPERTY_STORE_ROOT</b> structure is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> and <a href="https://msdn.microsoft.com/A54E56A6-9A6C-435D-83FD-84BB0E072C74">IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore</a>.
@@ -137,6 +134,7 @@ The <b>WDF_PROPERTY_STORE_ROOT</b> structure is used as input to <a href="https:
 UMDF property stores represent registry keys that drivers can access. Before your driver calls one of the above methods, it must initialize the <b>WDF_PROPERTY_STORE_ROOT</b> structure. The driver must zero the structure and then set the <b>LengthCb</b> member to the structure's length.
 
 To open a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">software key</a>, your driver must:
+
 <ol>
 <li>
 Set the structure's <b>LengthCb</b> member to the structure size.
@@ -146,7 +144,9 @@ Set the structure's <b>LengthCb</b> member to the structure size.
 Set the structure's <b>RootClass</b> member to <b>WdfPropertyStoreRootClassSoftwareKey</b>.
 
 </li>
-</ol>To open a device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">hardware key</a>, your driver must:
+</ol>
+To open a device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">hardware key</a>, your driver must:
+
 <ol>
 <li>
 Set the structure's <b>LengthCb</b> member to the structure size.
@@ -176,7 +176,9 @@ A driver-supplied character string, to open a subkey with a name that matches th
 If your driver creates a subkey under a device's hardware key, it is best to specify <b>WDF_PROPERTY_STORE_HARDWARE_KEY_DEFAULT</b> because UMDF creates a subkey that matches the driver's service name. Use of this name ensures that each driver creates a uniquely named subkey. The driver must not specify WDF or WUDF as the subkey name.
 
 </li>
-</ol>To open a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">device interface key</a>, your driver must:
+</ol>
+To open a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">device interface key</a>, your driver must:
+
 <ol>
 <li>
 Set the structure's <b>LengthCb</b> member to the structure size.
@@ -194,9 +196,11 @@ Set the <b>Qualifier.DeviceInterfaceKey.InterfaceGUID</b> member to the GUID tha
 Set the <b>Qualifier.DeviceInterfaceKey.ReferenceString</b> member to the reference string that the driver specified to a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557016">IWDFDevice::CreateDeviceInterface</a>, or <b>NULL</b> if the driver did not specify a reference string.
 
 </li>
-</ol>The driver can obtain read or write access to the device interface key. 
+</ol>
+The driver can obtain read or write access to the device interface key. 
 
 To open the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">DEVICEMAP key</a>, your driver must:
+
 <ol>
 <li>
 Set the structure's <b>LengthCb</b> member to the structure size.
@@ -210,15 +214,19 @@ Set the structure's <b>RootClass</b> member to <b>WdfPropertyStoreRootClassLegac
 Set the <b>Qualifier.LegacyHardwareKey.LegacyMapName</b> member to a character string that specifies a subkey under the <b>HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP</b> key in the registry.
 
 </li>
-</ol>The driver can obtain read or write access to the specified subkey under the <b>DEVICEMAP</b> key. The driver can optionally create the subkey if it does not exist. However, a driver that creates this subkey must specify the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WdfPropertyStoreCreateVolatile</a> flag so that the system deletes the subkey each time that it restarts.
+</ol>
+The driver can obtain read or write access to the specified subkey under the <b>DEVICEMAP</b> key. The driver can optionally create the subkey if it does not exist. However, a driver that creates this subkey must specify the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WdfPropertyStoreCreateVolatile</a> flag so that the system deletes the subkey each time that it restarts.
 
 For more information about these registry keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
+
+
 
  
 

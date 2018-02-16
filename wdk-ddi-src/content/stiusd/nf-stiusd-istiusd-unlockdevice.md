@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: ae19ae38-3bca-42c8-8713-68bb161104b8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: UnLockDevice method [Imaging Devices], image.istiusd_unlockdevice, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, UnLockDevice method [Imaging Devices], IStiUSD interface, IStiUSD::UnLockDevice, IStiUSD, UnLockDevice, stiusd/IStiUSD::UnLockDevice, IStiUSD interface [Imaging Devices], UnLockDevice method
+ms.keywords: UnLockDevice method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::UnLockDevice, IStiUSD::UnLockDevice, UnLockDevice, IStiUSD, IStiUSD interface [Imaging Devices], UnLockDevice method, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, image.istiusd_unlockdevice, UnLockDevice method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.UnLockDevice
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -67,23 +67,30 @@ STDMETHODIMP UnLockDevice();
 
 
 
+
 ## -returns
+
 
 
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 If a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543829">IStiUSD::LockDevice</a> method called <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>, then <b>IStiUSD::UnlockDevice</b> should call <b>CloseHandle</b>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543770">IStiDevice::UnLockDevice</a>
+
+
 
  
 

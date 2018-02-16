@@ -2,13 +2,13 @@
 UID: NF:bidispl.IBidiSpl.MultiSendRecv
 title: IBidiSpl::MultiSendRecv method
 author: windows-driver-content
-description: The IBidiSpl::MultiSendRecv method sends a list of bidi requests.
+description: The MultiSendRecv method sends a list of bidi requests.
 old-location: print\ibidispl_ibidispl__multisendrecv.htm
 old-project: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IBidiSpl::MultiSendRecv, IBidiSpl interface [Print Devices], IBidiSpl::MultiSendRecv method, print.ibidispl_ibidispl__multisendrecv, IBidiSpl::MultiSendRecv method [Print Devices], IBidiSpl interface, gdi.ibidispl_ibidispl__multisendrecv, MultiSendRecv, IBidiSpl::IBidiSpl::MultiSendRecv, _win32_IBidiSpl_MultiSendRecv, IBidiSpl::MultiSendRecv method [Print Devices], bidispl/IBidiSpl::IBidiSpl::MultiSendRecv, IBidiSpl
+ms.date: 2/2/2018
+ms.keywords: print.ibidispl_ibidispl__multisendrecv, _win32_IBidiSpl_MultiSendRecv, MultiSendRecv method [Print Devices], bidispl/IBidiSpl::MultiSendRecv, IBidiSpl interface [Print Devices], MultiSendRecv method, gdi.ibidispl_ibidispl__multisendrecv, IBidiSpl, MultiSendRecv method [Print Devices], IBidiSpl interface, IBidiSpl::MultiSendRecv, MultiSendRecv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: bidispl.h
 req.dll: Bidispl.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	bidispl.dll
-apiname: 
--	IBidiSpl.IBidiSpl::MultiSendRecv
+apiname:
+-	IBidiSpl.MultiSendRecv
 product: Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
@@ -49,14 +49,14 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ## -description
 
 
-The <b>IBidiSpl::MultiSendRecv</b> method sends a list of bidi requests.
+The <b>MultiSendRecv</b> method sends a list of bidi requests.
 
 
 ## -syntax
 
 
 ````
-HRESULT IBidiSpl::MultiSendRecv(
+HRESULT MultiSendRecv(
   [in] const LPCWSTR               pszAction,
   [in]       IBidiRequestContainer *pRequestContainer
 );
@@ -71,6 +71,7 @@ HRESULT IBidiSpl::MultiSendRecv(
 ### -param pszAction [in]
 
 A pointer to a NULL-terminated string that specifies the action for this bidi request. It can be one of the following constants.
+
 <table>
 <tr>
 <th>Constant</th>
@@ -97,7 +98,8 @@ A pointer to a NULL-terminated string that specifies the action for this bidi re
 <td>L"Set"</td>
 <td>Set a value of the schema. </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param pRequestContainer [in]
@@ -108,7 +110,9 @@ A pointer to the list of bidi requests.
 ## -returns
 
 
+
 The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+
 <table>
 <tr>
 <th>Value</th>
@@ -147,16 +151,20 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 Note that the <b>HRESULT</b> may contain a system error code defined in <a href="https://msdn.microsoft.com/e273f5eb-e4f4-4aa7-9ed9-b418eebc6144">Bidi Error Codes</a>.
+
 
 
 
 ## -remarks
 
 
+
 The BIDI_ACTION_* values are case insensitive strings.
+
 
 
 
@@ -164,13 +172,19 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 <a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
 
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl::IBidiSpl::MultiSendRecv method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl::MultiSendRecv method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

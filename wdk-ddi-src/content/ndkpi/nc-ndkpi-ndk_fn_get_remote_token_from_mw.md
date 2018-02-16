@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ndkpi.h
-apiname: 
+apiname:
 -	NdkGetRemoteTokenFromMw
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
 ---
 
 # NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback
@@ -70,14 +70,7 @@ UINT32 NdkGetRemoteTokenFromMw(
 
 
 
-### -param *pNdkMw
-
-
-
-
-
-
-#### - pNdkMw [in]
+### -param *pNdkMw [in]
 
 A pointer to an NDK memory window (MW) object (<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>).
 
@@ -85,15 +78,19 @@ A pointer to an NDK memory window (MW) object (<a href="..\ndkpi\ns-ndkpi-_ndk_m
 ## -returns
 
 
+
 The 
      <i>NdkGetRemoteTokenFromMw</i> function returns a remote memory region token.
+
 
 
 
 ## -remarks
 
 
+
  After an <i>NdkBind</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>) call returns control to the caller, <i>NdkGetRemoteTokenFromMw</i> can be called to retrieve the remote token.
+
 
 
 
@@ -101,7 +98,11 @@ The
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_bind.md">NDK_FN_BIND</a>
 
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+
+
 
  
 

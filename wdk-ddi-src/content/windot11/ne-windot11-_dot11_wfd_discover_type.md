@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_WFD_DISCOVER_TYPE
-title: _DOT11_WFD_DISCOVER_TYPE
+title: "_DOT11_WFD_DISCOVER_TYPE"
 author: windows-driver-content
 description: The DOT11_WFD_DISCOVER_TYPE enumeration indicates the mode of Wi-Fi Direct device discovery.
 old-location: netvista\dot11_wfd_discover_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: B50C7FD5-5AE4-4BF3-9FD7-F006F4B6BAAF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/dot11_wfd_discover_type_auto, *PDOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_scan_social_channels, _DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_find_only, DOT11_WFD_DISCOVER_TYPE, windot11/DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_forced, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11_wfd_discover_type_auto, dot11_wfd_discover_type_scan_social_channels, windot11/dot11_wfd_discover_type_scan_only, dot11_wfd_discover_type_scan_only, dot11_wfd_discover_type_forced, netvista.dot11_wfd_discover_type, dot11_wfd_discover_type_find_only
+ms.keywords: windot11/dot11_wfd_discover_type_scan_social_channels, _DOT11_WFD_DISCOVER_TYPE, windot11/DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_scan_only, windot11/dot11_wfd_discover_type_find_only, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11_wfd_discover_type_find_only, dot11_wfd_discover_type_scan_social_channels, *PDOT11_WFD_DISCOVER_TYPE, netvista.dot11_wfd_discover_type, dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_forced, DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_scan_only, dot11_wfd_discover_type_auto, windot11/dot11_wfd_discover_type_auto
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Windot11.h
-apiname: 
+apiname:
 -	DOT11_WFD_DISCOVER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE
+req.typenames: "*PDOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -100,15 +100,21 @@ A flag indicating that a complete device discovery is required. If this flag is 
 ## -remarks
 
 
+
 The <b>dot11_wfd_discover_type_forced</b> flag may be set along with only one of the other discovery modes.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
+
+
+
 <a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
+
 
  
 

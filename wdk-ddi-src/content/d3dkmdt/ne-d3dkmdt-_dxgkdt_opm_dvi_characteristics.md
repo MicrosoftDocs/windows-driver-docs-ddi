@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKDT_OPM_DVI_CHARACTERISTICS
-title: _DXGKDT_OPM_DVI_CHARACTERISTICS
+title: "_DXGKDT_OPM_DVI_CHARACTERISTICS"
 author: windows-driver-content
 description: The DXGKDT_OPM_DVI_CHARACTERISTICS enumeration indicates the Digital Video Interface (DVI) electrical characteristics of a connector.
 old-location: display\dxgkdt_opm_dvi_characteristics.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4286a059-ef44-4a11-8e8e-ab030583f58d
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKDT_OPM_DVI_CHARACTERISTICS enumeration [Display Devices], DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, DmEnums_4bcf670e-2b55-4278-80a4-71c7c820dae6.xml, DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, _DXGKDT_OPM_DVI_CHARACTERISTICS, display.dxgkdt_opm_dvi_characteristics, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, d3dkmdt/DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0
+ms.keywords: DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, display.dxgkdt_opm_dvi_characteristics, DXGKDT_OPM_DVI_CHARACTERISTICS enumeration [Display Devices], DXGKDT_OPM_DVI_CHARACTERISTICS, _DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, DmEnums_4bcf670e-2b55-4278-80a4-71c7c820dae6.xml, d3dkmdt/DXGKDT_OPM_DVI_CHARACTERISTICS, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	DXGKDT_OPM_DVI_CHARACTERISTICS
 product: Windows
 targetos: Windows
@@ -87,13 +87,17 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 ## -remarks
 
 
+
 The DXGKMDT_OPM_GET_DVI_CHARACTERISTICS GUID is used in a call to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> function to retrieve the DVI electrical characteristics of the output connector. For more information about retrieving information about a protected output, see <a href="https://msdn.microsoft.com/20e268b8-fea0-48dd-a3cd-3cbb4233ef99">Retrieving Information About a Protected Output</a>. 
+
 
 
 
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+
+
 
  
 

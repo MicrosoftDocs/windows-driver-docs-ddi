@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_COPY_DATA_PARAMETERS
-title: _DISK_COPY_DATA_PARAMETERS
+title: "_DISK_COPY_DATA_PARAMETERS"
 author: windows-driver-content
 description: DISK_COPY_DATA_PARAMETERS is used with IOCTL_DISK_COPY_DATA to copy data from one area of the disk to another.
 old-location: storage\disk_copy_data_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17d75b0e-2521-441f-99ea-75d2ea1d52b3
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntdddisk/PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml, storage.disk_copy_data_parameters, DISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], *PDISK_COPY_DATA_PARAMETERS, ntdddisk/DISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS, _DISK_COPY_DATA_PARAMETERS
+ms.keywords: DISK_COPY_DATA_PARAMETERS structure [Storage Devices], PDISK_COPY_DATA_PARAMETERS, _DISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml, ntdddisk/DISK_COPY_DATA_PARAMETERS, ntdddisk/PDISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, *PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntdddisk.h
-apiname: 
+apiname:
 -	DISK_COPY_DATA_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS
+req.typenames: "*PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS"
 ---
 
 # _DISK_COPY_DATA_PARAMETERS structure
@@ -93,13 +93,17 @@ Must be zero.
 ## -remarks
 
 
+
 The source and destination areas must not overlap.
+
 
 
 
 ## -see-also
 
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_copy_data.md">IOCTL_DISK_COPY_DATA</a>
+
+
 
  
 

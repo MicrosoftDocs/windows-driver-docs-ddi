@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wdbgexts.h
-apiname: 
+apiname:
 -	PSYM_DUMP_FIELD_CALLBACK
 product: Windows
 targetos: Windows
-req.typenames: *PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT
+req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
 ---
 
@@ -71,6 +71,7 @@ typedef ULONG ( WDBGAPI *PSYM_DUMP_FIELD_CALLBACK)(
 
 ### -param *pField
 
+Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> for details about the members of this parameter.
 
 
 ### -param UserContext
@@ -78,19 +79,17 @@ typedef ULONG ( WDBGAPI *PSYM_DUMP_FIELD_CALLBACK)(
 Specifies the user context object passed to the <b>Ioctl</b> operation in the <b>Context</b> member of the SYM_DUMP_PARAM structure.
 
 
-#### - pField
-
-Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> for details about the members of this parameter.
-
-
 ## -returns
+
 
 
 If the function is successful, it should return STATUS_SUCCESS.  Otherwise, it should return an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing a DbgEng extension that uses this function prototype, include wdbgexts.h before dbgeng.h (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details). STATUS_SUCCESS and other status and error codes are defined in ntstatus.h.
@@ -98,13 +97,20 @@ If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing 
 
 
 
-## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
+## -see-also
 
 <a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a>
 
+
+
 <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
+
+
+
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
+
+
 
  
 

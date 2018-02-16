@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_STOP
-title: _IRB_REQ_ISOCH_STOP
+title: "_IRB_REQ_ISOCH_STOP"
 author: windows-driver-content
 description: This structure contains the field necessary to carry out a IsochStop request.
 old-location: ieee\irb_req_isoch_stop.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1400FAC6-DD4E-4E8E-A0ED-C59B700F0672
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ISOCH_STOP structure [Buses], IRB_REQ_ISOCH_STOP, IEEE.irb_req_isoch_stop, 1394/IRB_REQ_ISOCH_STOP, _IRB_REQ_ISOCH_STOP
+ms.keywords: IRB_REQ_ISOCH_STOP structure [Buses], _IRB_REQ_ISOCH_STOP, IEEE.irb_req_isoch_stop, IRB_REQ_ISOCH_STOP, 1394/IRB_REQ_ISOCH_STOP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IRB_REQ_ISOCH_STOP
 product: Windows
 targetos: Windows

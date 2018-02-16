@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._BDCB_IMAGE_INFORMATION
-title: _BDCB_IMAGE_INFORMATION
+title: "_BDCB_IMAGE_INFORMATION"
 author: windows-driver-content
 description: The BDCB_IMAGE_INFORMATION structure describes information about a boot-start driver that is about to be initialized, provided by Windows to a boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine.
 old-location: kernel\bdcb_image_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9D0A4D67-3284-4BCC-AC81-F0BCCC2DB9B7
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION, ntddk/PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.bdcb_image_information, *PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION, ntddk/BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: "*PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.bdcb_image_information, PBDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION, _BDCB_IMAGE_INFORMATION, ntddk/BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture], ntddk/PBDCB_IMAGE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	BDCB_IMAGE_INFORMATION
 product: Windows
 targetos: Windows
@@ -89,6 +89,7 @@ The classification of the boot start image.
 
 Bit flags that describe the image. The following values are defined.
       
+
 <table>
 <tr>
 <th>Value</th>
@@ -124,7 +125,8 @@ Do not use. Reserved.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ImageName
@@ -161,6 +163,7 @@ The hash of the certificate of the signer to be signed. Run <b>certutil –dump 
 
 The algorithm of the image hash. The following values are listed for reference.
       
+
 <table>
 <tr>
 <th>Value</th>
@@ -237,7 +240,8 @@ CALG_SHA_512
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ThumbprintHashAlgorithm
@@ -257,9 +261,13 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 ## -see-also
 
+<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
 
-<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
+
 
  
 

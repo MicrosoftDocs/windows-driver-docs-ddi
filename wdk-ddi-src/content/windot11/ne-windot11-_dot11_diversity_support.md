@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_DIVERSITY_SUPPORT
-title: _DOT11_DIVERSITY_SUPPORT
+title: "_DOT11_DIVERSITY_SUPPORT"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_diversity_support.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 64eeb1bf-c18a-4dfa-b6ea-438d9e10fe4a
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: windot11/dot11_diversity_support_fixedlist, dot11_diversity_support_notsupported, windot11/dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], DOT11_DIVERSITY_SUPPORT, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, windot11/dot11_diversity_support_notsupported, windot11/dot11_diversity_support_dynamic, dot11_diversity_support_unknown, _DOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, windot11/PDOT11_DIVERSITY_SUPPORT, netvista.dot11_diversity_support, dot11_diversity_support_fixedlist, PDOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT
+ms.keywords: DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], windot11/PDOT11_DIVERSITY_SUPPORT, dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_diversity_support_fixedlist, PDOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, *PDOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_dynamic, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, dot11_diversity_support_notsupported, windot11/dot11_diversity_support_unknown, dot11_diversity_support_fixedlist, windot11/dot11_diversity_support_notsupported, windot11/DOT11_DIVERSITY_SUPPORT, netvista.dot11_diversity_support, DOT11_DIVERSITY_SUPPORT, _DOT11_DIVERSITY_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	windot11.h
-apiname: 
+apiname:
 -	DOT11_DIVERSITY_SUPPORT
 product: Windows
 targetos: Windows
-req.typenames: *PDOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT
+req.typenames: "*PDOT11_DIVERSITY_SUPPORT, DOT11_DIVERSITY_SUPPORT"
 req.product: Windows 10 or later.
 ---
 
@@ -82,8 +82,8 @@ An uninitialized or unknown diversity support type.
 The PHY supports antenna diversity that is performed over the fixed list of antennas defined in
      the 
      <b>dot11DiversitySelectionRx</b> MIB object. For more information about this MIB object, see 
-     <mshelp:link keywords="netvista.oid_dot11_diversity_selection_rx" tabindex="0">
-     OID_DOT11_DIVERSITY_SELECTION_RX</mshelp:link>.
+     <a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
+     OID_DOT11_DIVERSITY_SELECTION_RX</a>.
 
 
 ### -field dot11_diversity_support_notsupported
@@ -100,8 +100,10 @@ The PHY supports antenna diversity and the dynamic control of diversity. The PHY
 
 ## -see-also
 
-<mshelp:link keywords="netvista.oid_dot11_diversity_selection_rx" tabindex="0">
-   OID_DOT11_DIVERSITY_SELECTION_RX</mshelp:link>
+<a href="https://msdn.microsoft.com/en-us/library/ee483634.aspx">
+   OID_DOT11_DIVERSITY_SELECTION_RX</a>
+
+
 
  
 

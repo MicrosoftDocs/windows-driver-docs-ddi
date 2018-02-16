@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpcm._TUPLE_REQUEST
-title: _TUPLE_REQUEST
+title: "_TUPLE_REQUEST"
 author: windows-driver-content
 description: The TUPLE_REQUEST structure is used in conjunction with the IOCTL_GET_TUPLE_DATA request to retrieve tuple data from a PC Card's or CardBus card's attribute memory.
 old-location: pcmcia\tuple_request.htm
@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: c702d3aa-d586-4206-93be-30537c55edcf
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: _TUPLE_REQUEST, TUPLE_REQUEST, PTUPLE_REQUEST, PTUPLE_REQUEST structure pointer [Buses], *PTUPLE_REQUEST, memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, TUPLE_REQUEST structure [Buses], PCMCIA.tuple_request, ntddpcm/TUPLE_REQUEST, ntddpcm/PTUPLE_REQUEST
+ms.keywords: PTUPLE_REQUEST, ntddpcm/PTUPLE_REQUEST, *PTUPLE_REQUEST, PCMCIA.tuple_request, TUPLE_REQUEST structure [Buses], _TUPLE_REQUEST, ntddpcm/TUPLE_REQUEST, PTUPLE_REQUEST structure pointer [Buses], memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, TUPLE_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddpcm.h
-apiname: 
+apiname:
 -	TUPLE_REQUEST
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ Indicates the socket number.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537238">IOCTL_GET_TUPLE_DATA</a>
+
+
 
  
 

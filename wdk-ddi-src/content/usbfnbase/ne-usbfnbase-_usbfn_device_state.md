@@ -1,14 +1,14 @@
 ---
 UID: NE:usbfnbase._USBFN_DEVICE_STATE
-title: _USBFN_DEVICE_STATE
+title: "_USBFN_DEVICE_STATE"
 author: windows-driver-content
 description: Defines the Universal Serial Bus (USB) device states for the device/controller. These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 old-location: buses\usbfn_device_state.htm
 old-project: usbref
 ms.assetid: B367D0F7-5026-4C88-B88A-69068F76B675
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UsbfnDeviceStateDetached, USBFN_DEVICE_STATE enumeration [Buses], usbfnbase/UsbfnDeviceStateStateMaximum, UsbfnDeviceStateSuspended, UsbfnDeviceStateAddressed, usbfnbase/USBFN_DEVICE_STATE, UsbfnDeviceStateAttached, UsbfnDeviceStateDefault, _USBFN_DEVICE_STATE, buses.usbfn_device_state, USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateConfigured, UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateMinimum, UsbfnDeviceStateMinimum, UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateSuspended, *PUSBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateDetached
+ms.date: 2/8/2018
+ms.keywords: usbfnbase/UsbfnDeviceStateAddressed, _USBFN_DEVICE_STATE, UsbfnDeviceStateSuspended, usbfnbase/UsbfnDeviceStateAttached, UsbfnDeviceStateDetached, UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateDefault, UsbfnDeviceStateDefault, UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateStateMaximum, USBFN_DEVICE_STATE, usbfnbase/USBFN_DEVICE_STATE, UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateConfigured, *PUSBFN_DEVICE_STATE, USBFN_DEVICE_STATE enumeration [Buses], usbfnbase/UsbfnDeviceStateSuspended, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateAttached, buses.usbfn_device_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnbase.h
-apiname: 
+apiname:
 -	USBFN_DEVICE_STATE
 product: Windows
 targetos: Windows

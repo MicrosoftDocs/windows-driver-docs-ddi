@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 141830de-e113-4f42-91f8-8f1cdbf3e32c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndiscmdeactivatevc, NdisCmDeactivateVc, condis_call_manager_ref_3d365bcf-91cc-4724-a4af-77e9bea6fe0c.xml, ndis/NdisCmDeactivateVc, NdisCmDeactivateVc function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisCmDeactivateVc function [Network Drivers Starting with Windows Vista], netvista.ndiscmdeactivatevc, condis_call_manager_ref_3d365bcf-91cc-4724-a4af-77e9bea6fe0c.xml, NdisCmDeactivateVc, ndis/NdisCmDeactivateVc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCmDeactivateVc
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmDeactivateVc function
@@ -82,16 +82,19 @@ Specifies the handle identifying the VC. This handle was supplied by NDIS to the
 ## -returns
 
 
+
 When 
      <b>NdisCmDeactivateVc</b> returns anything other than NDIS_STATUS_PENDING, the call manager should make
      an internal call to its 
-     <mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-     ProtocolCmDeactivateVcComplete</i></mshelp:link> function. Otherwise, NDIS calls the CM's 
+     <a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+     ProtocolCmDeactivateVcComplete</a> function. Otherwise, NDIS calls the CM's 
      <i>ProtocolCmDeactivateVcComplete</i> function when this operation is completed.
 
 
 
+
 ## -remarks
+
 
 
 A stand-alone call manager calls 
@@ -109,6 +112,7 @@ The
     <i>NdisVcHandle</i> passed to 
     <b>NdisCmDeactivateVc</b> remains valid after VC deactivation is completed. The deactivation of any VC
     allows its creator to reinitialize the VC for reuse:
+
 <ul>
 <li>
 Following VC deactivation and the closing of the call, a client can reuse a VC that it originally
@@ -119,11 +123,12 @@ Following VC deactivation and the closing of the call, a client can reuse a VC t
 <li>
 Following VC deactivation and the closing of the call, a CM can reuse a VC that it originally
       created to indicate another incoming call to the same client with 
-      <mshelp:link keywords="netvista.ndiscmdispatchincomingcall" tabindex="0"><b>
-      NdisCmDispatchIncomingCall</b></mshelp:link>.
+      <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+      NdisCmDispatchIncomingCall</a>.
 
 </li>
-</ul>The creator of a particular VC that will not be reused calls 
+</ul>
+The creator of a particular VC that will not be reused calls 
     <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a> to destroy that VC.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
@@ -133,24 +138,41 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
 
 <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
 
-<mshelp:link keywords="netvista.protocolcmdeactivatevccomplete" tabindex="0"><i>
-   ProtocolCmDeactivateVcComplete</i></mshelp:link>
+<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+   ProtocolCmDeactivateVcComplete</a>
+
+
 
 <a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
 
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
+
+
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+
+
 
  
 

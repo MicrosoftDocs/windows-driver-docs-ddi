@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_DEVICE_STATUS_REGISTER
-title: _PCI_EXPRESS_DEVICE_STATUS_REGISTER
+title: "_PCI_EXPRESS_DEVICE_STATUS_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_DEVICE_STATUS_REGISTER structure describes a PCI Express (PCIe) device status register of a PCIe capability structure.
 old-location: pci\pci_express_device_status_register.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: a4c92364-59d4-442c-879b-fba770d8d612
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_DEVICE_STATUS_REGISTER union pointer [Buses], PCI.pci_express_device_status_register, PCI_EXPRESS_DEVICE_STATUS_REGISTER union [Buses], pci_struct_90e0cf73-2c43-444d-bdaa-77fd00d483a7.xml, PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI_EXPRESS_DEVICE_STATUS_REGISTER, _PCI_EXPRESS_DEVICE_STATUS_REGISTER, *PPCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_STATUS_REGISTER
+ms.keywords: PPCI_EXPRESS_DEVICE_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI_EXPRESS_DEVICE_STATUS_REGISTER union [Buses], pci_struct_90e0cf73-2c43-444d-bdaa-77fd00d483a7.xml, PCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI.pci_express_device_status_register, *PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PPCI_EXPRESS_DEVICE_STATUS_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_STATUS_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_DEVICE_STATUS_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_DEVICE_STATUS_REGISTER, *PPCI_EXPRESS_DEVICE_STATUS_REGISTER
+req.typenames: "*PPCI_EXPRESS_DEVICE_STATUS_REGISTER, PCI_EXPRESS_DEVICE_STATUS_REGISTER"
 ---
 
 # _PCI_EXPRESS_DEVICE_STATUS_REGISTER structure
@@ -83,37 +83,37 @@ typedef union _PCI_EXPRESS_DEVICE_STATUS_REGISTER {
 
 ### -field DUMMYSTRUCTNAME.CorrectableErrorDetected
 
- 
+A single bit that indicates that a correctable error has been detected.
 
 
 ### -field DUMMYSTRUCTNAME.NonFatalErrorDetected
 
- 
+A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
 ### -field DUMMYSTRUCTNAME.FatalErrorDetected
 
- 
+A single bit that indicates that a non-fatal uncorrectable error has been detected.
 
 
 ### -field DUMMYSTRUCTNAME.UnsupportedRequestDetected
 
- 
+A single bit that indicates that an unsupported request has been detected.
 
 
 ### -field DUMMYSTRUCTNAME.AuxPowerDetected
 
- 
+A single bit that indicates that AUX power has been detected.
 
 
 ### -field DUMMYSTRUCTNAME.TransactionsPending
 
- 
+A single bit that indicates that the device has issued non-posted requests that have not been completed. The device clears this bit when all outstanding non-posted requests have completed or have been terminated by the completion timeout mechanism.
 
 
 ### -field DUMMYSTRUCTNAME.Rsvd
 
- 
+Reserved.
 
 
 ### -field AsUSHORT
@@ -121,42 +121,8 @@ typedef union _PCI_EXPRESS_DEVICE_STATUS_REGISTER {
 A USHORT representation of the contents of the PCI_EXPRESS_DEVICE_STATUS_REGISTER structure.
 
 
-#### - FatalErrorDetected
-
-A single bit that indicates that a non-fatal uncorrectable error has been detected.
-
-
-#### - UnsupportedRequestDetected
-
-A single bit that indicates that an unsupported request has been detected.
-
-
-#### - CorrectableErrorDetected
-
-A single bit that indicates that a correctable error has been detected.
-
-
-#### - Rsvd
-
-Reserved.
-
-
-#### - NonFatalErrorDetected
-
-A single bit that indicates that a non-fatal uncorrectable error has been detected.
-
-
-#### - TransactionsPending
-
-A single bit that indicates that the device has issued non-posted requests that have not been completed. The device clears this bit when all outstanding non-posted requests have completed or have been terminated by the completion timeout mechanism.
-
-
-#### - AuxPowerDetected
-
-A single bit that indicates that AUX power has been detected.
-
-
 ## -remarks
+
 
 
 The <b>PCI_EXPRESS_DEVICE_STATUS_REGISTER</b> structure is available in Windows Server 2008 and later versions of Windows.
@@ -165,9 +131,12 @@ A PCI_EXPRESS_DEVICE_STATUS_REGISTER structure is contained in the <a href="http
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537460">PCI_EXPRESS_CAPABILITY</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d3e2c799-f789-499f-9948-f41d7576296e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisGetVersion, ndis_configuration_ref_fcdf5ece-888e-4f1a-b855-367cbe4c68fe.xml, netvista.ndisgetversion, NdisGetVersion, NdisGetVersion function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisGetVersion function [Network Drivers Starting with Windows Vista], NdisGetVersion, ndis/NdisGetVersion, netvista.ndisgetversion, ndis_configuration_ref_fcdf5ece-888e-4f1a-b855-367cbe4c68fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisGetVersion
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisGetVersion function
@@ -68,7 +68,9 @@ UINT NdisGetVersion(void);
 
 
 
+
 ## -returns
+
 
 
 Returns the major and minor numbers for the NDIS version in the high and low halves of the
@@ -76,10 +78,13 @@ Returns the major and minor numbers for the NDIS version in the high and low hal
 
 
 
+
 ## -remarks
+
 
 
 System support for 
     <b>NdisGetVersion</b> is available in Windows XP and later versions.
+
 
 

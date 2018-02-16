@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: iddcx/IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps
+ms.keywords: display.iddcx_cursor_caps, IDDCX_CURSOR_CAPS, iddcx/IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDDCX_CURSOR_CAPS
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ typedef struct IDDCX_CURSOR_CAPS {
 
 
                      Indicates what level of support the driver has for XOR masks in the 32-bit masked color cursor format.
-<div class="alert"><b>Note</b>  The OS first converts any monochrome cursor to a color mask cursor.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The OS first converts any monochrome cursor to a color mask cursor.</div>
+<div> </div>
 
 ### -field AlphaCursorSupport
 

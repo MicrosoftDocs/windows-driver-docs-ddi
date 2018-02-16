@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_ADDRESS
-title: _SCSI_ADDRESS
+title: "_SCSI_ADDRESS"
 author: windows-driver-content
 description: The SCSI_ADDRESS structure is used in conjunction with the IOCTL_SCSI_GET_ADDRESS request to retrieve the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target.
 old-location: storage\scsi_address.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b3acd3d-b5da-4dd3-89f1-0b8a7d68e54c
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddscsi/PSCSI_ADDRESS, PSCSI_ADDRESS structure pointer [Storage Devices], ntddscsi/SCSI_ADDRESS, *PSCSI_ADDRESS, structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml, _SCSI_ADDRESS, SCSI_ADDRESS structure [Storage Devices], storage.scsi_address, SCSI_ADDRESS, PSCSI_ADDRESS
+ms.keywords: SCSI_ADDRESS, ntddscsi/PSCSI_ADDRESS, PSCSI_ADDRESS, _SCSI_ADDRESS, structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml, SCSI_ADDRESS structure [Storage Devices], PSCSI_ADDRESS structure pointer [Storage Devices], storage.scsi_address, *PSCSI_ADDRESS, ntddscsi/SCSI_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	SCSI_ADDRESS
 product: Windows
 targetos: Windows
@@ -99,13 +99,17 @@ Contains the logical unit number.
 ## -remarks
 
 
+
 Legacy class drivers issue the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_address.md">IOCTL_SCSI_GET_ADDRESS</a> request to the port driver to obtain the address of their devices. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_address.md">IOCTL_SCSI_GET_ADDRESS</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 02cc9db2-173a-4d5d-a465-098391336100
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: EndSymbolMatch method [Windows Debugging], IDebugSymbols interface, EndSymbolMatch method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], EndSymbolMatch method, EndSymbolMatch, IDebugSymbols2::EndSymbolMatch, EndSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, debugger.endsymbolmatch, IDebugSymbols::EndSymbolMatch, EndSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], EndSymbolMatch method, IDebugSymbols3::EndSymbolMatch, dbgeng/IDebugSymbols2::EndSymbolMatch, dbgeng/IDebugSymbols3::EndSymbolMatch, IDebugSymbols2 interface [Windows Debugging], EndSymbolMatch method, dbgeng/IDebugSymbols::EndSymbolMatch, IDebugSymbols_1661cc8a-ad5c-4cd3-83fe-f829bd07e453.xml
+ms.keywords: IDebugSymbols2 interface [Windows Debugging], EndSymbolMatch method, EndSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, EndSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::EndSymbolMatch, debugger.endsymbolmatch, dbgeng/IDebugSymbols2::EndSymbolMatch, EndSymbolMatch, EndSymbolMatch method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::EndSymbolMatch, IDebugSymbols_1661cc8a-ad5c-4cd3-83fe-f829bd07e453.xml, IDebugSymbols2, IDebugSymbols3, dbgeng/IDebugSymbols::EndSymbolMatch, IDebugSymbols interface [Windows Debugging], EndSymbolMatch method, IDebugSymbols::EndSymbolMatch, dbgeng/IDebugSymbols3::EndSymbolMatch, IDebugSymbols, EndSymbolMatch method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], EndSymbolMatch method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols.EndSymbolMatch
 -	IDebugSymbols2.EndSymbolMatch
 -	IDebugSymbols3.EndSymbolMatch
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::EndSymbolMatch method
@@ -77,7 +77,9 @@ Specifies the handle returned by <a href="https://msdn.microsoft.com/library/win
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,11 +96,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method releases the resources held by the engine during a symbol search.  After these resources are released, the handle becomes invalid, so it must not be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a> after it has been passed to this method.
@@ -107,17 +112,28 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

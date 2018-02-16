@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a8610e4-22d5-4732-b4be-846449acb5b1
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: IDDCX_ADAPTER_CAPS structure [Display Devices], IDDCX_ADAPTER_CAPS, iddcx/IDDCX_ADAPTER_CAPS, display.iddcx_adapter_caps
+ms.keywords: display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], IDDCX_ADAPTER_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iddcx.h
-apiname: 
+apiname:
 -	IDDCX_ADAPTER_CAPS
 product: Windows
 targetos: Windows

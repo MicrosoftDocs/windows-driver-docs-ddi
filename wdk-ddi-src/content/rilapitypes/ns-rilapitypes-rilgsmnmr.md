@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 397d882d-c82a-4686-b9ca-58a2fade5256
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILGSMNMR, *LPRILGSMNMR, RILGSMNMR structure [Network Drivers Starting with Windows Vista], RILGSMNMR, netvista.rilgsmnmr
+ms.keywords: rilapitypes/RILGSMNMR, RILGSMNMR, *LPRILGSMNMR, RILGSMNMR structure [Network Drivers Starting with Windows Vista], netvista.rilgsmnmr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILGSMNMR
 product: Windows
 targetos: Windows
-req.typenames: *LPRILGSMNMR, RILGSMNMR
+req.typenames: RILGSMNMR, *LPRILGSMNMR
 req.product: Windows 10 or later.
 ---
 
@@ -124,6 +124,8 @@ x=63, RSS &gt; -49dBm
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

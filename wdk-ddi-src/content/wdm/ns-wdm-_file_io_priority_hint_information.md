@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_IO_PRIORITY_HINT_INFORMATION
-title: _FILE_IO_PRIORITY_HINT_INFORMATION
+title: "_FILE_IO_PRIORITY_HINT_INFORMATION"
 author: windows-driver-content
 description: The FILE_IO_PRIORITY_HINT_INFORMATION structure is used by the ZwQueryInformationFile and ZwSetInformationFile routines to query and set the default IRP priority hint for requests on the specified file handle.
 old-location: kernel\file_io_priority_hint_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55f88d42-8411-49f0-bc40-7ccc268b3cc5
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PFILE_IO_PRIORITY_HINT_INFORMATION, kstruct_b_babd0cbe-1870-4d71-86c5-06c438691202.xml, wdm/PFILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION, wdm/FILE_IO_PRIORITY_HINT_INFORMATION, kernel.file_io_priority_hint_information, FILE_IO_PRIORITY_HINT_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_IO_PRIORITY_HINT_INFORMATION
+ms.keywords: kstruct_b_babd0cbe-1870-4d71-86c5-06c438691202.xml, _FILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION, wdm/PFILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION, wdm/FILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_io_priority_hint_information, PFILE_IO_PRIORITY_HINT_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	FILE_IO_PRIORITY_HINT_INFORMATION
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ Specifies the <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a> 
 ## -remarks
 
 
+
 For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
+
 
 
 
@@ -84,9 +86,15 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
+
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
+
+
 <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+
+
 
  
 

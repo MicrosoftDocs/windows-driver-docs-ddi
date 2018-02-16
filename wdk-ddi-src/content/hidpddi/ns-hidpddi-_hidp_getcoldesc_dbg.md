@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_GETCOLDESC_DBG
-title: _HIDP_GETCOLDESC_DBG
+title: "_HIDP_GETCOLDESC_DBG"
 author: windows-driver-content
 description: Contains the error code indicating the failure in parsing the report descriptor. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_getcoldesc_dbg.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 65EEEDED-14FE-4275-9314-276E544427DE
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: _HIDP_GETCOLDESC_DBG, hidpddi/HIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG structure [Human Input Devices], PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], HIDP_GETCOLDESC_DBG, hidpddi/PHIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG, hid.hidp_getcoldesc_dbg
+ms.keywords: HIDP_GETCOLDESC_DBG, hid.hidp_getcoldesc_dbg, PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], *PHIDP_GETCOLDESC_DBG, hidpddi/HIDP_GETCOLDESC_DBG, _HIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG structure [Human Input Devices], hidpddi/PHIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Hidpddi.h
-apiname: 
+apiname:
 -	HIDP_GETCOLDESC_DBG
 product: Windows
 targetos: Windows
-req.typenames: *PHIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG
+req.typenames: "*PHIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG"
 ---
 
 # _HIDP_GETCOLDESC_DBG structure
@@ -91,6 +91,8 @@ Error-specific arguments. These are described as comments in the possible values
 ## -see-also
 
 <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
+
+
 
  
 

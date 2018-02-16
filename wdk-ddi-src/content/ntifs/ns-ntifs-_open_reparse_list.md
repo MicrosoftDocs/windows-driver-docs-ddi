@@ -1,14 +1,14 @@
 ---
 UID: NS:ntifs._OPEN_REPARSE_LIST
-title: _OPEN_REPARSE_LIST
+title: "_OPEN_REPARSE_LIST"
 author: windows-driver-content
 description: Points to a list of OPEN_REPARSE_LIST_ENTRY structures that specify the tag and possibly GUID that should be opened directly without returning STATUS_REPARSE.
 old-location: ifsk\open_reparse_list.htm
 old-project: ifsk
 ms.assetid: 2477F904-A470-4FB0-83D8-0264A4838C12
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST, ifsk.open_reparse_list, ntifs/POPEN_REPARSE_LIST, POPEN_REPARSE_LIST structure pointer [Installable File System Drivers], OPEN_REPARSE_LIST structure [Installable File System Drivers], _OPEN_REPARSE_LIST, POPEN_REPARSE_LIST, OPEN_REPARSE_LIST
+ms.date: 2/7/2018
+ms.keywords: OPEN_REPARSE_LIST, POPEN_REPARSE_LIST structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST, POPEN_REPARSE_LIST, OPEN_REPARSE_LIST structure [Installable File System Drivers], ntifs/POPEN_REPARSE_LIST, ifsk.open_reparse_list, ntifs/OPEN_REPARSE_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntifs.h
-apiname: 
+apiname:
 -	OPEN_REPARSE_LIST
 product: Windows
 targetos: Windows

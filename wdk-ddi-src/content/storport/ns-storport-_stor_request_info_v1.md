@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_REQUEST_INFO_V1
-title: _STOR_REQUEST_INFO_V1
+title: "_STOR_REQUEST_INFO_V1"
 author: windows-driver-content
 description: The _STOR_REQUEST_INFO_V1 structure contains details about the storage driver IO request associated with a SCSI request block (SRB). _STOR_REQUEST_INFO_V1 is returned by the StorPortGetRequestInfo routine.
 old-location: storage\stor_request_info.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CCC429B7-88BB-4DC3-86BC-6A5FCD405A5D
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSTOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storport/_STOR_REQUEST_INFO_V1, StorIoPriorityLow, StorIoPriorityVeryLow, REQUEST_INFO_SEQUENTIAL_IO_FLAG, STOR_REQUEST_INFO_V1 structure [Storage Devices], REQUEST_INFO_WRITE_THROUGH_FLAG, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], STOR_REQUEST_INFO_V1, storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, StorIoPriorityNormal, _STOR_REQUEST_INFO_V1, StorIoPriorityHigh, StorIoPriorityCritical, *PSTOR_REQUEST_INFO_V1, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG
+ms.keywords: "_STOR_REQUEST_INFO_V1, storport/PSTOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], *PSTOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], PSTOR_REQUEST_INFO_V1, REQUEST_INFO_PAGING_IO_FLAG, StorIoPriorityLow, StorIoPriorityCritical, StorIoPriorityNormal, StorIoPriorityHigh, storport/_STOR_REQUEST_INFO_V1, StorIoPriorityVeryLow, STOR_REQUEST_INFO_V1 structure [Storage Devices], REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, storage.stor_request_info, REQUEST_INFO_WRITE_THROUGH_FLAG, REQUEST_INFO_NO_CACHE_FLAG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	STOR_REQUEST_INFO_V1
 product: Windows
 targetos: Windows
-req.typenames: STOR_REQUEST_INFO_V1, *PSTOR_REQUEST_INFO_V1
+req.typenames: "*PSTOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1"
 req.product: Windows 10 or later.
 ---
 
@@ -90,6 +90,7 @@ The size of this structure. Set this value to <b>sizeof</b>(STOR_REQUEST_INFO).
 ### -field PriorityHint
 
 The priority hint set for the IO request.
+
 <table>
 <tr>
 <th>Value</th>
@@ -150,12 +151,14 @@ Critical priority.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Flags
 
 Flags set for handling the request. May be a combination of these values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -211,7 +214,8 @@ No system buffering for the request.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Key
@@ -237,13 +241,17 @@ Reserved.
 ## -remarks
 
 
+
 The caller to <a href="..\storport\nf-storport-storportgetrequestinfo.md">StorPortGetRequestInfo</a> allocates the <b>STOR_REQUEST_INFO</b> structure. Prior to calling <b>StorPortGetRequestInfo</b>,  <b>Version</b> must be set to <b>STOR_REQUEST_INFO_VER_1</b> and <b>Size</b> must be set to <b>sizeof</b>(STOR_REQUEST_INFO). Otherwise, <b>StorPortGetRequestInfo</b> will return with a status of <b>STOR_STATUS_INVALID_PARAMETER</b>.
+
 
 
 
 ## -see-also
 
 <a href="..\storport\nf-storport-storportgetrequestinfo.md">StorPortGetRequestInfo</a>
+
+
 
  
 

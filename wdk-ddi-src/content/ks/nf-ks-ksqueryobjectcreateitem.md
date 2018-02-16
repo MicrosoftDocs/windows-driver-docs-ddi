@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: dd6d436c-6166-4baf-b180-67f7aa7238e3
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsQueryObjectCreateItem, stream.ksqueryobjectcreateitem, ksfunc_57cde673-cd08-4018-b01e-45214058b435.xml, KsQueryObjectCreateItem function [Streaming Media Devices], KsQueryObjectCreateItem
+ms.keywords: ks/KsQueryObjectCreateItem, ksfunc_57cde673-cd08-4018-b01e-45214058b435.xml, KsQueryObjectCreateItem function [Streaming Media Devices], KsQueryObjectCreateItem, stream.ksqueryobjectcreateitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsQueryObjectCreateItem
 product: Windows
 targetos: Windows
@@ -76,6 +76,8 @@ Indicates the header previously allocated.
 ## -returns
 
 
+
 The <b>KsQueryObjectCreateItem</b> function returns a pointer to a create item.
+
 
 

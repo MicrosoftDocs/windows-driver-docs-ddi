@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkDdiSetBrightness
 product: Windows
 targetos: Windows
@@ -84,14 +84,18 @@ The brightness level value to set.
 ## -returns
 
 
+
 <i>DxgkDdiSetBrightness</i> returns STATUS_SUCCESS if it succeeds in setting a new brightness level. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>. 
+
 
 
 
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/6352c3fd-1a5f-4137-b76e-35c5b82a56c7">monitor driver</a> calls the display miniport driver's <i>DxgkDdiSetBrightness</i> function to change the brightness level of the integrated display panel for the following reasons:
+
 <ul>
 <li>
 Notifications from the Device Power Policy Engine (DPPE) indicate that either the current policy is modified or a new policy takes effect. A new DPPE policy takes effect on system start, resume, and user switch, as well as when the power source is changed.
@@ -109,15 +113,21 @@ For compatibility with the <a href="https://msdn.microsoft.com/24cb232b-e289-45c
 The monitor driver interprets brightness hot-key notifications from the Advanced Configuration and Power Interface (ACPI) driver as user requests to change the current brightness level. As with the WMI and IOCTL user-mode interfaces, a change in brightness level that is triggered by a hot-key notification overrides the current DPPE policy and stays in effect until DPPE policy requests that the brightness value is set again.
 
 </li>
-</ul><i>DxgkDdiSetBrightness</i> should be made pageable. 
+</ul>
+<i>DxgkDdiSetBrightness</i> should be made pageable. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_display_brightness.md">IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_display_brightness.md">IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS</a>
+
 
  
 

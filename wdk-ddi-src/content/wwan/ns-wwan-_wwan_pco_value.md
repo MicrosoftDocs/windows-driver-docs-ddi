@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PCO_VALUE
-title: _WWAN_PCO_VALUE
+title: "_WWAN_PCO_VALUE"
 author: windows-driver-content
 description: The WWAN_PCO_VALUE structure represents the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
 old-location: netvista\wwan_pco_value.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45A499CE-2C9A-4070-BEF8-880E7673FA8E
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_PCO_VALUE, *PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE, netvista.wwan_pco_value, _WWAN_PCO_VALUE, WWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_PCO_VALUE
+ms.keywords: PWWAN_PCO_VALUE, netvista.wwan_pco_value, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], WWAN_PCO_VALUE, _WWAN_PCO_VALUE, *PWWAN_PCO_VALUE, PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_PCO_VALUE
 product: Windows
 targetos: Windows
@@ -86,6 +86,7 @@ Indicates whether the PCO value being passed up is the original structure that w
 
 
 
+
 #### - PcoData[WWAN_PCO_OCT_BUF_LEN]
 
 The payload of the PCO structure that is received from the operator. The modem should surface the PCO with the complete structure as specified by the 3G TS24.008 spec. <i>WWAN_PCO_HEX_BUF_LEN</i> is defined as <i>256</i>, given that the longest a PCO structure could be is 253 octets.
@@ -94,21 +95,30 @@ The payload of the PCO structure that is received from the operator. The modem s
 ## -remarks
 
 
+
 Because some modems can currently only pass up operator specific PCO elements, the modem should pass up the information following the structure defined by 3GPP TS24.008 with the accurate synthesized header values for the content that is being passed up to the host.
 
 For example, if the modem received a PCO with 3 protocols and 3 containers, and is only passing up the 2 operator specific element containers to the host, the modem will make changes to the header that indicates the length of the PCO structure. This is to reflect the fact that there are only the two containers by subtracting the length of the 3 protocols.
 
 The following figure shows  	a full PCO structure as defined in the 3G TS24.008 spec.
+
 <img alt="Full PCO structure" src="images/pco_structure_small.png"/>
+
 
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pco_status.md">NDIS_WWAN_PCO_STATUS</a>
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-operations--pco-">MB Protocol Configuration Operations (PCO)</a>
 
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pco_status.md">NDIS_WWAN_PCO_STATUS</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: F407B953-8B03-4053-A5F4-3E96E9F9645E
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.lamp_capabilities_white, LAMP_CAPABILITIES_WHITE, lamp/LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices]
+ms.keywords: stream.lamp_capabilities_white, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	lamp.h
-apiname: 
+apiname:
 -	LAMP_CAPABILITIES_WHITE
 product: Windows
 targetos: Windows

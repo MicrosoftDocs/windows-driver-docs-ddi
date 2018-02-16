@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28a802b3-f916-4455-a93a-868393a570cf
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiotargetstatemanagement_remove, Remove method, IWDFIoTargetStateManagement interface, Remove, wudfddi/IWDFIoTargetStateManagement::Remove, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Remove method, IWDFIoTargetStateManagement::Remove, umdf.iwdfiotargetstatemanagement_remove, Remove method
+ms.keywords: UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, Remove method, IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface, Remove method, IWDFIoTargetStateManagement::Remove, wdf.iwdfiotargetstatemanagement_remove, wudfddi/IWDFIoTargetStateManagement::Remove, Remove, IWDFIoTargetStateManagement, Remove method, umdf.iwdfiotargetstatemanagement_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoTargetStateManagement.Remove
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,20 +78,26 @@ A BOOL value which, if <b>TRUE</b>, specifies that the device was unexpectly rem
 ## -returns
 
 
+
 <b>Remove</b> always returns S_OK.
+
 
 
 
 ## -remarks
 
 
+
 Although the <b>Remove</b> method is available, drivers do not need to call it.  If a driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff558930">IWDFFileHandleTargetFactory::CreateFileHandleTarget</a> to create a file-handle-based I/O target,  the driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a> to delete the I/O target object after the driver has finished using the file-handle-based target. The <b>DeleteWdfObject</b> method performs the operations that <b>Remove</b> performs, along with additional operations.
+
 
 
 
 ## -see-also
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
+
+
 
  
 

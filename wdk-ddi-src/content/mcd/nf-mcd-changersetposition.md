@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cab12c57-dd2b-4453-90ed-7f8954e0fe5d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ChangerSetPosition, mcd/ChangerSetPosition, chgrmini_28455ca6-3f1f-40ac-a756-c1f026f35f87.xml, ChangerSetPosition function [Storage Devices], storage.changersetposition
+ms.keywords: storage.changersetposition, chgrmini_28455ca6-3f1f-40ac-a756-c1f026f35f87.xml, ChangerSetPosition function [Storage Devices], mcd/ChangerSetPosition, ChangerSetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mcd.h
-apiname: 
+apiname:
 -	ChangerSetPosition
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ Pointer to the IRP.
 ## -returns
 
 
+
 If the changer supports setting the position of the transport element, <b>ChangerSetPosition</b> returns the status returned by the system port driver, or one of the following values:
       
 
@@ -96,7 +97,9 @@ If the changer does not support setting the position of the transport element, C
 
 
 
+
 ## -remarks
+
 
 
 This routine is required.
@@ -113,13 +116,20 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 
 
-## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
+## -see-also
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_set_position.md">CHANGER_SET_POSITION</a>
+
+
+
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">, IOCTL_CHANGER_SET_POSITION</a>
+
+
 
  
 

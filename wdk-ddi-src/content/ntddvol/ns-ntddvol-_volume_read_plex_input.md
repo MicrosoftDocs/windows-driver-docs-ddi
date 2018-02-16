@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvol._VOLUME_READ_PLEX_INPUT
-title: _VOLUME_READ_PLEX_INPUT
+title: "_VOLUME_READ_PLEX_INPUT"
 author: windows-driver-content
 description: This structure is used in conjunction with IOCTL_VOLUME_READ_PLEX to read data from a specific plex in a volume.
 old-location: storage\volume_read_plex_input.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1d53c658-9912-4912-a74f-f7b93367b9e2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddvol/VOLUME_READ_PLEX_INPUT, ntddvol/PVOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT structure [Storage Devices], PVOLUME_READ_PLEX_INPUT, PVOLUME_READ_PLEX_INPUT structure pointer [Storage Devices], _VOLUME_READ_PLEX_INPUT, structs-volumemgr_26a6ef07-d18e-45bd-b4c3-532d7daadc5c.xml, VOLUME_READ_PLEX_INPUT, storage.volume_read_plex_input
+ms.keywords: PVOLUME_READ_PLEX_INPUT structure pointer [Storage Devices], ntddvol/PVOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT, ntddvol/VOLUME_READ_PLEX_INPUT, _VOLUME_READ_PLEX_INPUT, storage.volume_read_plex_input, structs-volumemgr_26a6ef07-d18e-45bd-b4c3-532d7daadc5c.xml, PVOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT structure [Storage Devices], *PVOLUME_READ_PLEX_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddvol.h
-apiname: 
+apiname:
 -	VOLUME_READ_PLEX_INPUT
 product: Windows
 targetos: Windows
-req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
+req.typenames: "*PVOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT"
 ---
 
 # _VOLUME_READ_PLEX_INPUT structure
@@ -87,6 +87,8 @@ Supplies the zero-based plex number.
 ## -see-also
 
 <a href="..\ntddvol\ni-ntddvol-ioctl_volume_read_plex.md">IOCTL_VOLUME_READ_PLEX</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_ERASE
-title: _TAPE_ERASE
+title: "_TAPE_ERASE"
 author: windows-driver-content
 description: The TAPE_ERASE structure is used in conjunction with the IOCTL_TAPE_ERASE request to erase the current tape partition.
 old-location: storage\tape_erase.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dc17efe6-9183-4908-8ca5-69c6ae38db6d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.tape_erase, _TAPE_ERASE, ntddtape/TAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices], TAPE_ERASE structure [Storage Devices], TAPE_ERASE, ntddtape/PTAPE_ERASE, PTAPE_ERASE, *PTAPE_ERASE, structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml
+ms.keywords: storage.tape_erase, TAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices], _TAPE_ERASE, ntddtape/TAPE_ERASE, PTAPE_ERASE, structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml, TAPE_ERASE structure [Storage Devices], ntddtape/PTAPE_ERASE, *PTAPE_ERASE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddtape.h
-apiname: 
+apiname:
 -	TAPE_ERASE
 product: Windows
 targetos: Windows
-req.typenames: *PTAPE_ERASE, TAPE_ERASE
+req.typenames: TAPE_ERASE, *PTAPE_ERASE
 ---
 
 # _TAPE_ERASE structure
@@ -81,6 +81,8 @@ Indicates that the target device should return status immediately, when set to <
 ## -see-also
 
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_erase.md">IOCTL_TAPE_ERASE</a>
+
+
 
  
 

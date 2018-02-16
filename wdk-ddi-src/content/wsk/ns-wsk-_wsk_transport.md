@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_TRANSPORT
-title: _WSK_TRANSPORT
+title: "_WSK_TRANSPORT"
 author: windows-driver-content
 description: The WSK_TRANSPORT structure specifies an available transport that is supported by the WSK subsystem.
 old-location: netvista\wsk_transport.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: _WSK_TRANSPORT, wsk/PWSK_TRANSPORT, *PWSK_TRANSPORT, netvista.wsk_transport, WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml, wsk/WSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], PWSK_TRANSPORT
+ms.keywords: WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], wsk/PWSK_TRANSPORT, netvista.wsk_transport, wsk/WSK_TRANSPORT, WSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], _WSK_TRANSPORT, *PWSK_TRANSPORT, PWSK_TRANSPORT, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_TRANSPORT
 product: Windows
 targetos: Windows
-req.typenames: *PWSK_TRANSPORT, WSK_TRANSPORT
+req.typenames: WSK_TRANSPORT, *PWSK_TRANSPORT
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,24 @@ The type of socket that is supported by the transport. This member can be one of
 
 
 
+
+
+#### SOCK_STREAM
+
+Supports reliable connection-oriented byte stream communication.
+
+
+
+#### SOCK_DGRAM
+
+Supports unreliable connectionless datagram communication.
+
+
+
+#### SOCK_RAW
+
+Supports raw access to the transport protocol.
+
 For more information about the socket types that are supported for each supported address family, see
      
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
@@ -109,22 +127,8 @@ The address family that is supported by the transport. For more information abou
 The identifier of the transport provider that implements the transport.
 
 
-##### - SocketType.SOCK_STREAM
-
-Supports reliable connection-oriented byte stream communication.
-
-
-##### - SocketType.SOCK_RAW
-
-Supports raw access to the transport protocol.
-
-
-##### - SocketType.SOCK_DGRAM
-
-Supports unreliable connectionless datagram communication.
-
-
 ## -remarks
+
 
 
 A WSK application passes a pointer to an array of WSK_TRANSPORT structures to the 
@@ -150,13 +154,20 @@ A single transport provider can support multiple combinations of values for the
 
 
 
-## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+## -see-also
 
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: ifsk\rtlconvertsidtounicodestring.htm
 old-project: ifsk
 ms.assetid: 5dea6764-9ca0-4d38-9900-174637c4f648
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ntifs/RtlConvertSidToUnicodeString, ifsk.rtlconvertsidtounicodestring, RtlConvertSidToUnicodeString routine [Installable File System Drivers], rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml, RtlConvertSidToUnicodeString
+ms.date: 2/7/2018
+ms.keywords: ifsk.rtlconvertsidtounicodestring, ntifs/RtlConvertSidToUnicodeString, rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml, RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	RtlConvertSidToUnicodeString
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ A Boolean flag that indicates whether this routine will allocate the UnicodeStri
 ## -returns
 
 
+
 The <b>RtlConvertSidToUnicodeString</b> routine can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,14 +139,18 @@ The specified <i>SID</i> structure is not structurally valid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The generated Unicode string will take one of two forms.  If the value of the IdentifierAuthority member of the <i>SID</i> is less than or equal to 2^32, the IdentifierAuthority member will be generated as decimal. For example, a <i>SID</i> with an IdentifierAuthority of 281,736 generates:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -154,7 +160,9 @@ The generated Unicode string will take one of two forms.  If the value of the Id
 <pre> S-1-281736-12-72-9-110</pre>
 </td>
 </tr>
-</table></span></div>Otherwise the IdentifierAuthority will be generated as hexadecimal. For example, a <i>SID</i> with an IdentifierAuthority of 173,495,281,736 generates:
+</table></span></div>
+Otherwise the IdentifierAuthority will be generated as hexadecimal. For example, a <i>SID</i> with an IdentifierAuthority of 173,495,281,736 generates:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -164,23 +172,31 @@ The generated Unicode string will take one of two forms.  If the value of the Id
 <pre> S-1-0x28651FE848-12-72-9-110</pre>
 </td>
 </tr>
-</table></span></div>All other members in the <i>SID</i> will be generated as decimal.
+</table></span></div>
+All other members in the <i>SID</i> will be generated as decimal.
 
 If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be deallocated by using <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>.
 
 
 
-## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+## -see-also
 
 <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlConvertSidToUnicodeString routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlConvertSidToUnicodeString routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

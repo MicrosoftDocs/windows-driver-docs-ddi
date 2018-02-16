@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntdddisk.h
-apiname: 
+apiname:
 -	IOCTL_DISK_REASSIGN_BLOCKS_EX
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field can be set 
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_reassign_blocks_ex.md">REASSIGN_BLOCKS_EX</a>
+
+
 
  
 

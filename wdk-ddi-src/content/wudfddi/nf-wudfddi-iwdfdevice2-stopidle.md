@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFDevice2::StopIdle, wudfddi/IWDFDevice2::StopIdle, StopIdle, umdf.iwdfdevice2_stopidle, IWDFDevice2, StopIdle method, wdf.iwdfdevice2_stopidle, StopIdle method, IWDFDevice2 interface, IWDFDevice2 interface, StopIdle method, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml
+ms.keywords: wudfddi/IWDFDevice2::StopIdle, IWDFDevice2 interface, StopIdle method, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, StopIdle method, IWDFDevice2 interface, wdf.iwdfdevice2_stopidle, IWDFDevice2::StopIdle, umdf.iwdfdevice2_stopidle, StopIdle, StopIdle method, IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFDevice2.StopIdle
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,9 @@ A Boolean value that indicates when <b>StopIdle</b> will return. If <b>TRUE</b>,
 ## -returns
 
 
+
 <b>StopIdle</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,13 +119,16 @@ A device failure occurred and the device cannot enter its D0 power state.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
 
 
+
 ## -remarks
+
 
 
 If your device can enter a low-power state when it becomes idle, your driver might have to occasionally call <b>StopIdle</b> to bring the device back to its working (D0) state or to prevent it from entering a low-power state. 
@@ -145,12 +150,45 @@ Every call to <b>StopIdle</b> must eventually be followed by a call to <a href="
 For more information about <b>StopIdle</b> and <a href="https://msdn.microsoft.com/e821f738-3712-49c2-9026-ff6ddc0381a6">ResumeIdle</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
 
 
+#### Examples
+
+The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface and then calls <b>StopIdle</b>. <b>StopIdle</b> will return after the device enters the D0 device power state.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    IWDFDevice2 *pIWDFDevice2 = NULL;
+    HRESULT hr;
+
+    //
+    // Get a pointer to the IWDFDevice2 interface.
+    //
+    hr = pIWDFDevice-&gt;QueryInterface(__uuidof(IWDFDevice2),
+                                     (void**) &amp;pIWDFDevice2);
+    if (SUCCEEDED(hr)) 
+    {
+        hr = pIWDFDevice2-&gt;StopIdle(TRUE);
+    }
+...
+   SAFE_RELEASE(pIWDFDevice2);</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
 
  
 

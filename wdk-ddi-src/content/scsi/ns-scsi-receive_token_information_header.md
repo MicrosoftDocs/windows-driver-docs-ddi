@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3D8BF059-2063-499E-B287-41EE184A2264
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: SERVICE_ACTION_POPULATE_TOKEN, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], TRANSFER_COUNT_UNITS_GIBIBYTES, PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_EXBIBYTES, TRANSFER_COUNT_UNITS_BYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, TRANSFER_COUNT_UNITS_MEBIBYTES, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, storage.receive_token_information_header, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_TEBIBYTES, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], RECEIVE_TOKEN_INFORMATION_HEADER, SERVICE_ACTION_WRITE_USING_TOKEN, *PRECEIVE_TOKEN_INFORMATION_HEADER
+ms.keywords: storage.receive_token_information_header, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_GIBIBYTES, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_TEBIBYTES, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, *PRECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER, SERVICE_ACTION_WRITE_USING_TOKEN, SERVICE_ACTION_POPULATE_TOKEN, TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_BYTES, TRANSFER_COUNT_UNITS_MEBIBYTES, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], TRANSFER_COUNT_UNITS_EXBIBYTES, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	scsi.h
-apiname: 
+apiname:
 -	RECEIVE_TOKEN_INFORMATION_HEADER
 product: Windows
 targetos: Windows
@@ -90,6 +90,7 @@ The amount of data available in the <b>SenseData</b> array and any additional re
 ### -field ResponseToServiceAction
 
 A response code indicating which command action the response is for. The service action codes are the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -115,7 +116,8 @@ The response information is for a WRITE USING TOKEN command.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved1
@@ -126,6 +128,7 @@ Reserved.
 ### -field OperationStatus
 
 The current status of the copy operation. The status can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -208,7 +211,8 @@ The operation was terminated. Possibly by an existing resource reservation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field Reserved2
@@ -244,6 +248,7 @@ The length, in bytes, of the data in <b>SenseData</b>.
 ### -field TransferCountUnits
 
 The byte units applied to <i>TransferCount</i>. Each unit expansion is a exponent in base 2. The multiplier value of <b>TRANSFER_COUNT_UNITS_KIBIBYTES</b>, for example, is 1024 and not 1000. The defined units are the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -329,7 +334,8 @@ Transfer count is not an exponent, but in units of logical block length.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TransferCount
@@ -355,15 +361,19 @@ Sense data returned for the copy operation.
 ## -remarks
 
 
+
 If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
 
 
+
 ## -see-also
 
 <a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
+
+
 
  
 

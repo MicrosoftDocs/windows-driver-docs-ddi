@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3ca026b8-abed-409c-8be4-01553cfadca3
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], kernel.iogetdevicepropertydata, IoGetDevicePropertyData, k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, wdm/IoGetDevicePropertyData
+ms.keywords: IoGetDevicePropertyData, kernel.iogetdevicepropertydata, k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], wdm/IoGetDevicePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetDevicePropertyData
 product: Windows
 targetos: Windows
@@ -118,7 +118,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 ## -returns
 
 
+
 <b>IoGetDevicePropertyData</b> returns an NTSTATUS value. This routine might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -157,11 +159,14 @@ The specified device property was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Kernel-mode drivers use the <b>IoGetDevicePropertyData</b> routine to retrieve device properties that are defined as part of the unified device property model. For more information about device properties, see <a href="https://msdn.microsoft.com/f41040c5-0eac-450d-b532-9165c543cc1a">Device Properties</a>.
@@ -172,13 +177,20 @@ Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVE
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+
+
+
 <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">IoSetDevicePropertyData</a>
+
+
 
  
 

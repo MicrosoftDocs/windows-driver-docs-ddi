@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._MM_PHYSICAL_ADDRESS_LIST
-title: _MM_PHYSICAL_ADDRESS_LIST
+title: "_MM_PHYSICAL_ADDRESS_LIST"
 author: windows-driver-content
 description: The MM_PHYSICAL_ADDRESS_LIST structure specifies a range of physical addresses.
 old-location: kernel\mm_physical_address_list.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D653607A-7C37-408D-AD19-B4A8988CDACE
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: _MM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST structure [Kernel-Mode Driver Architecture], wdm/MM_PHYSICAL_ADDRESS_LIST, *PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST, PMM_PHYSICAL_ADDRESS_LIST, wdm/PMM_PHYSICAL_ADDRESS_LIST, PMM_PHYSICAL_ADDRESS_LIST structure pointer [Kernel-Mode Driver Architecture], kernel.mm_physical_address_list
+ms.keywords: wdm/PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST, wdm/MM_PHYSICAL_ADDRESS_LIST, PMM_PHYSICAL_ADDRESS_LIST, *PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST structure [Kernel-Mode Driver Architecture], _MM_PHYSICAL_ADDRESS_LIST, kernel.mm_physical_address_list, PMM_PHYSICAL_ADDRESS_LIST structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	MM_PHYSICAL_ADDRESS_LIST
 product: Windows
 targetos: Windows
-req.typenames: MM_PHYSICAL_ADDRESS_LIST, *PMM_PHYSICAL_ADDRESS_LIST
+req.typenames: "*PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -82,13 +82,17 @@ The number of bytes in the range. This member must be nonzero and an integer mul
 ## -remarks
 
 
+
 The first parameter to the <a href="..\wdm\nf-wdm-mmallocatemdlforiospace.md">MmAllocateMdlForIoSpace</a> routine is a pointer to an array of <b>MM_PHYSICAL_ADDRESS_LIST</b> structures.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-mmallocatemdlforiospace.md">MmAllocateMdlForIoSpace</a>
+
+
 
  
 

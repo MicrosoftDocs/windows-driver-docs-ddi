@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0db68fcd-8661-41d2-ac95-e9b6033e6aa8
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_CROSSBAR_ROUTE_S structure pointer [Streaming Media Devices], KSPROPERTY_CROSSBAR_ROUTE_S structure [Streaming Media Devices], PKSPROPERTY_CROSSBAR_ROUTE_S, ksmedia/KSPROPERTY_CROSSBAR_ROUTE_S, ksmedia/PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S, stream.ksproperty_crossbar_route_s, *PKSPROPERTY_CROSSBAR_ROUTE_S, vidcapstruct_a1d08316-6a91-4f40-93d2-b371c6e35eff.xml
+ms.keywords: PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S structure [Streaming Media Devices], vidcapstruct_a1d08316-6a91-4f40-93d2-b371c6e35eff.xml, *PKSPROPERTY_CROSSBAR_ROUTE_S, ksmedia/KSPROPERTY_CROSSBAR_ROUTE_S, stream.ksproperty_crossbar_route_s, PKSPROPERTY_CROSSBAR_ROUTE_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_CROSSBAR_ROUTE_S, KSPROPERTY_CROSSBAR_ROUTE_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSPROPERTY_CROSSBAR_ROUTE_S
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ Returns whether the minidriver supports routing between the pins specified by <b
 ## -remarks
 
 
+
 If the value of <b>IndexInputPin</b> is (-1) on an audio output pin, then the audio stream should be muted.
+
 
 
 
@@ -101,9 +103,15 @@ If the value of <b>IndexInputPin</b> is (-1) on an audio output pin, then the au
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565126">KSPROPERTY_CROSSBAR_ROUTE</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
 
+
+
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
 
  
 

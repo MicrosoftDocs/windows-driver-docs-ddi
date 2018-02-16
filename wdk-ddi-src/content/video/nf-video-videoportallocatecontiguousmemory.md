@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: ba23f4d4-7e3d-4bfc-acf7-68dab01d2f61
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VideoPortAllocateContiguousMemory, VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, video/VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], display.videoportallocatecontiguousmemory
+ms.keywords: VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, VideoPortAllocateContiguousMemory function [Display Devices], VideoPortAllocateContiguousMemory, display.videoportallocatecontiguousmemory, video/VideoPortAllocateContiguousMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Videoprt.sys
-apiname: 
+apiname:
 -	VideoPortAllocateContiguousMemory
 product: Windows
 targetos: Windows
@@ -90,11 +90,14 @@ Specifies the highest valid physical address the miniport driver can use. For ex
 ## -returns
 
 
+
 <b>VideoPortAllocateContiguousMemory</b> returns the base virtual address for the allocated memory, if the call is successful. If the request cannot be satisfied, <b>NULL</b> is returned.
 
 
 
+
 ## -remarks
+
 
 
 <b>VideoPortAllocateContiguousMemory</b> can be called to allocate a contiguous block of physical memory for a long-term internal buffer.
@@ -103,9 +106,12 @@ A miniport driver that must use contiguous memory should allocate only what it n
 
 
 
+
 ## -see-also
 
 <a href="..\video\nf-video-videoportallocatebuffer.md">VideoPortAllocateBuffer</a>
+
+
 
  
 

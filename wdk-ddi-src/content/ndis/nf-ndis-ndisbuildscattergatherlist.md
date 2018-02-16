@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 439d68ec-9d27-484b-b6a3-9bae732d142e
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisBuildScatterGatherList, ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], netvista.ndisbuildscattergatherlist, ndis/NdisBuildScatterGatherList
+ms.keywords: ndis/NdisBuildScatterGatherList, ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], netvista.ndisbuildscattergatherlist, NdisBuildScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: = DISPATCH_LEVEL
-topictype: 
+req.irql: "= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisBuildScatterGatherList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisBuildScatterGatherList function
@@ -75,8 +75,8 @@ NDIS_STATUS NdisBuildScatterGatherList(
 
 An NDIS driver or instance handle that was obtained during caller initialization. For example, a
      miniport driver can use the NDIS handle that it obtained from the 
-     <mshelp:link keywords="netvista.ndismregisterminiportdriver" tabindex="0"><b>
-     NdisMRegisterMiniportDriver</b></mshelp:link> or 
+     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     NdisMRegisterMiniportDriver</a> or 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
      Other NDIS drivers can use the handles from the following functions:
      
@@ -93,15 +93,17 @@ An NDIS driver or instance handle that was obtained during caller initialization
 ### -param SGListParameters [in]
 
 A pointer to an 
-     <mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-     NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link> structure that specifies the parameters for allocating the
+     <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+     NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure that specifies the parameters for allocating the
      scatter/gather list.
 
 
 ## -returns
 
 
+
 <b>NdisBuildScatterGatherList</b> can return the following status values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,18 +129,21 @@ The operation completed successfully.
 <td width="60%">
 The operation failed because the buffer length that is specified in the 
        <b>ScatterGatherListBufferSize</b> member of the 
-       <mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-       NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link> structure was too short. In this case, NDIS provided the
+       <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+       NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure was too short. In this case, NDIS provided the
        required buffer size in the 
        <b>ScatterGatherListBufferSizeNeeded</b> member.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -147,47 +152,66 @@ NDIS drivers call the
     binding handle.
 
 The underlying miniport adapter must have called 
-    <mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-    NdisMRegisterScatterGatherDma</b></mshelp:link> before a driver can call 
+    <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+    NdisMRegisterScatterGatherDma</a> before a driver can call 
     <b>NdisBuildScatterGatherList</b>.
 
 NDIS calls the 
     <a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a> function that is
     specified at the 
     <b>ProcessSGListHandler</b> member of the 
-    <mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-    NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link> structure within the context of 
+    <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+    NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure within the context of 
     <b>NdisBuildScatterGatherList</b>.
 
 The drivers must call the 
-    <mshelp:link keywords="netvista.ndisfreescattergatherlist" tabindex="0"><b>
-    NdisFreeScatterGatherList</b></mshelp:link> function to free a scatter/gather list that was created with the 
+    <a href="..\ndis\nf-ndis-ndisfreescattergatherlist.md">
+    NdisFreeScatterGatherList</a> function to free a scatter/gather list that was created with the 
     <b>
     NdisBuildScatterGatherList</b> function.
 
 
 
+
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
 
 <a href="..\ndis\nc-ndis-ndis_process_sg_list.md">NetProcessSGList</a>
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
 
 <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
-<mshelp:link keywords="netvista.ndismregisterscattergatherdma" tabindex="0"><b>
-   NdisMRegisterScatterGatherDma</b></mshelp:link>
 
-<mshelp:link keywords="netvista.ndis_scatter_gather_list_parameters" tabindex="0"><b>
-   NDIS_SCATTER_GATHER_LIST_PARAMETERS</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+   NdisMRegisterScatterGatherDma</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
+   NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+
+
 
  
 

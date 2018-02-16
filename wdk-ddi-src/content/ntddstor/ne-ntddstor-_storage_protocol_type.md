@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_TYPE
-title: _STORAGE_PROTOCOL_TYPE
+title: "_STORAGE_PROTOCOL_TYPE"
 author: windows-driver-content
 description: This enumeration is used to define the different storage command protocols that are used between software and hardware.
 old-location: storage\storage_protocol_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ProtocolTypeScsi, ntddstor/STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeMaxReserved, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, ProtocolTypeMaxReserved, ProtocolTypeAta, ProtocolTypeUfs, ProtocolTypeProprietary, ProtocolTypeNvme, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeUnknown, ntddstor/ProtocolTypeProprietary, storage.storage_protocol_type, ntddstor/ProtocolTypeUfs, ProtocolTypeSd, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], *PSTORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeAta, _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeSd
+ms.keywords: ProtocolTypeProprietary, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], ntddstor/ProtocolTypeMaxReserved, ProtocolTypeAta, ProtocolTypeSd, STORAGE_PROTOCOL_TYPE, ProtocolTypeNvme, ProtocolTypeScsi, ntddstor/STORAGE_PROTOCOL_TYPE, storage.storage_protocol_type, ntddstor/ProtocolTypeSd, ntddstor/ProtocolTypeProprietary, ProtocolTypeMaxReserved, *PSTORAGE_PROTOCOL_TYPE, ProtocolTypeUnknown, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeUnknown, _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeAta, ProtocolTypeUfs, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeUfs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_PROTOCOL_TYPE
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_PROTOCOL_TYPE, *PSTORAGE_PROTOCOL_TYPE
+req.typenames: "*PSTORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE"
 ---
 
 # _STORAGE_PROTOCOL_TYPE enumeration
@@ -117,6 +117,8 @@ Reserved.
 ## -remarks
 
 
+
 Protocol types that are 128 (0x80) and above in value are reserved for Microsoft use.
+
 
 

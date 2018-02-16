@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_REGISTRATION_STATE
-title: _WWAN_REGISTRATION_STATE
+title: "_WWAN_REGISTRATION_STATE"
 author: windows-driver-content
 description: The WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 old-location: netvista\wwan_registration_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, netvista.wwan_registration_state, wwan/WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE, wwan/PWWAN_REGISTRATION_STATE, _WWAN_REGISTRATION_STATE, WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, wwan/WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, PWWAN_REGISTRATION_STATE, _WWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_REGISTRATION_STATE
 product: Windows
 targetos: Windows
@@ -163,6 +163,7 @@ This text should provide additional information to the user when the registratio
 ### -field WwanRegFlags
 
 Registration flags.
+
 <table>
 <tr>
 <th>Value</th>
@@ -198,7 +199,8 @@ Iindicates that the MB device manages its own packet context. The MB Service wil
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field CurrentCellularClass
@@ -207,6 +209,7 @@ The current cellular class of the registered network. For networks that only sup
 
 
 ## -remarks
+
 
 
 <i>Query</i> and 
@@ -220,6 +223,7 @@ The current cellular class of the registered network. For networks that only sup
 
 The following points provide guidelines on returning network specific error in different
     scenarios:
+
 <ul>
 <li>
 If network registration fails because of network specific error, miniport drivers should return the
@@ -246,7 +250,8 @@ Whenever the device registration state changes because the network de-registers 
       <b>uNwError</b> member to the network specific error code.
 
 </li>
-</ul>To return a network specific error when processing OID_WWAN_REGISTER_STATE requests, miniport drivers
+</ul>
+To return a network specific error when processing OID_WWAN_REGISTER_STATE requests, miniport drivers
     should set the 
     <b>uStatus</b> member of the NDIS_WWAN_REGISTRATION_STATE structure to WWAN_STATUS_FAILURE and set the 
     <b>uNwError</b> member to the network specific error code.
@@ -265,13 +270,20 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
 
 
+
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
+<a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>
+
+
 
 <a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>
 
-<a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
+
+
 
  
 

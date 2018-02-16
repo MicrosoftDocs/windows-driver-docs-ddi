@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d7ca67d2-7156-44f7-ab16-178e6307e412
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, dbgeng/IDebugDataSpaces3::ReadTagged, ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces4::ReadTagged, debugger.readtagged, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces4, ReadTagged, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, ReadTagged method [Windows Debugging], IDebugDataSpaces3::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml
+ms.keywords: ReadTagged method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadTagged, ReadTagged, IDebugDataSpaces3, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, dbgeng/IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, debugger.readtagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces4, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces3.ReadTagged
 -	IDebugDataSpaces4.ReadTagged
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadTagged method
@@ -100,6 +100,7 @@ Receives the total size in bytes of the data specified by <i>Tag</i>.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -127,13 +128,16 @@ No data identified by <i>Tag</i> could be found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 Some debugger sessions have arbitrary additional data available.  For example, when a dump file is created, additional dump information files containing extra information may also be created.  This additional data is tagged with a global unique identifier and can only be retrieved via the tag.
@@ -142,13 +146,20 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547874">GetNextTagged</a>
+
+
 
  
 

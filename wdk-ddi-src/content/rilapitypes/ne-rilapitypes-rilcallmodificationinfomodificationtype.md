@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e73abe84-1688-40f1-9b8c-e4e34cc87b78
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_CALLMODIFICATIONTYPE_MODIFIED, RIL_CALLMODIFICATIONTYPE_BLOCKED, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, rilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED, RIL_CALLMODIFICATIONTYPE_MAX, rilapitypes/RIL_CALLMODIFICATIONTYPE_MAX, netvista.rilcallmodificationinfomodificationtype_2, rilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RILCALLMODIFICATIONINFOMODIFICATIONTYPE
+ms.keywords: rilapitypes/RIL_CALLMODIFICATIONTYPE_MAX, rilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED, RIL_CALLMODIFICATIONTYPE_MODIFIED, RIL_CALLMODIFICATIONTYPE_BLOCKED, rilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, rilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RIL_CALLMODIFICATIONTYPE_MAX, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallmodificationinfomodificationtype_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMODIFICATIONINFOMODIFICATIONTYPE
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ typedef enum _RILCALLMODIFICATIONINFOMODIFICATIONTYPE {
 ### -field RIL_CALLMODIFICATIONTYPE_UNKNOWN
 
 
-
 ### -field RIL_CALLMODIFICATIONTYPE_BLOCKED
-
 
 
 ### -field RIL_CALLMODIFICATIONTYPE_MODIFIED
 
 
-
 ### -field RIL_CALLMODIFICATIONTYPE_MAX
-
 

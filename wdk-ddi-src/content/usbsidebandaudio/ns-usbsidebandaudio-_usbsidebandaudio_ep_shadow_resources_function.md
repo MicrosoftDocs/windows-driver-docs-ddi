@@ -1,14 +1,14 @@
 ---
 UID: NS:usbsidebandaudio._USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION
-title: _USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION
+title: "_USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION"
 author: windows-driver-content
 description: TBD.
 old-location: audio\usbsidebandaudio_ep_shadow_resources_function.htm
 old-project: audio
 ms.assetid: 554C5829-D9C0-4F5F-B88A-285A31415CD3
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, _USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, audio.usbsidebandaudio_ep_shadow_resources_function, USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION structure [Audio Devices], *PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, usbsidebandaudio/USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION structure pointer [Audio Devices], usbsidebandaudio/PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION
+ms.date: 2/8/2018
+ms.keywords: "_USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, usbsidebandaudio/USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, *PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, usbsidebandaudio/PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION structure pointer [Audio Devices], audio.usbsidebandaudio_ep_shadow_resources_function, USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION structure [Audio Devices], PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	kbSyntax
-apitype: 
+apitype:
 -	<TBD>
-apilocation: 
--	
-apiname: 
+apilocation:
+-
+apiname:
 -	USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION
 product: Windows
 targetos: Windows
-req.typenames: USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, *PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION
+req.typenames: "*PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION, USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION"
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,13 @@ typedef struct _USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION {
 
 
 
-#### - Reserved 3
+
+#### - Reserved 0
+
+TBD
+
+
+#### - Reserved 1
 
 TBD
 
@@ -109,17 +115,12 @@ TBD
 TBD
 
 
+#### - Reserved 3
+
+TBD
+
+
 #### - Reserved 4
-
-TBD
-
-
-#### - Reserved 0
-
-TBD
-
-
-#### - Reserved 1
 
 TBD
 

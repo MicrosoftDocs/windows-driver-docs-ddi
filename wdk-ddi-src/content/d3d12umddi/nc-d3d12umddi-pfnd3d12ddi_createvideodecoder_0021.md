@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCreateVideoDecoder
 product: Windows
 targetos: Windows
@@ -75,9 +75,7 @@ HRESULT APIENTRY* pfnCreateVideoDecoder(
 ### -param hDrvDevice
 
 
-
 ### -param *pArgs
-
 
 
 ### -param hDrvVideoDecoder
@@ -98,6 +96,8 @@ The handle of the device.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

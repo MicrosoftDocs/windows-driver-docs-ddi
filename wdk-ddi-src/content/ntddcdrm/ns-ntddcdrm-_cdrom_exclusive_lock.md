@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCLUSIVE_LOCK
-title: _CDROM_EXCLUSIVE_LOCK
+title: "_CDROM_EXCLUSIVE_LOCK"
 author: windows-driver-content
 description: The CDROM_EXCLUSIVE_LOCK structure is used with the IOCTL_CDROM_EXCLUSIVE_ACCESS request to lock a CD-ROM device for exclusive access.
 old-location: storage\cdrom_exclusive_lock.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8c94cdb2-965a-448c-aa97-f7aae9550662
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _CDROM_EXCLUSIVE_LOCK, ntddcdrm/CDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK structure [Storage Devices], storage.cdrom_exclusive_lock, PCDROM_EXCLUSIVE_LOCK, PCDROM_EXCLUSIVE_LOCK structure pointer [Storage Devices], ntddcdrm/PCDROM_EXCLUSIVE_LOCK, *PCDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK, structs-CD-ROM_98cdead9-8c28-497a-9ba3-f686e87554ea.xml
+ms.keywords: PCDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK structure [Storage Devices], CDROM_EXCLUSIVE_LOCK, PCDROM_EXCLUSIVE_LOCK structure pointer [Storage Devices], *PCDROM_EXCLUSIVE_LOCK, _CDROM_EXCLUSIVE_LOCK, structs-CD-ROM_98cdead9-8c28-497a-9ba3-f686e87554ea.xml, ntddcdrm/PCDROM_EXCLUSIVE_LOCK, ntddcdrm/CDROM_EXCLUSIVE_LOCK, storage.cdrom_exclusive_lock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdrm.h
-apiname: 
+apiname:
 -	CDROM_EXCLUSIVE_LOCK
 product: Windows
 targetos: Windows
-req.typenames: CDROM_EXCLUSIVE_LOCK, *PCDROM_EXCLUSIVE_LOCK
+req.typenames: "*PCDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK"
 ---
 
 # _CDROM_EXCLUSIVE_LOCK structure
@@ -80,9 +80,13 @@ A <b>NULL</b>-terminated string that identifies the application or system compon
 
 ## -see-also
 
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+
 
  
 

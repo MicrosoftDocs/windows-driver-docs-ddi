@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f75fbaa-06e8-4c4d-b1ee-c89a55889295
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: FormatRequestForControlTransfer, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice::FormatRequestForControlTransfer, IWDFUsbTargetDevice, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method
+ms.keywords: FormatRequestForControlTransfer, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice::FormatRequestForControlTransfer, IWDFUsbTargetDevice, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetDevice.FormatRequestForControlTransfer
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -96,7 +96,9 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">
 ## -returns
 
 
+
 <b>FormatRequestForControlTransfer</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -137,26 +139,122 @@ The memory offset that the <i>TransferOffset</i> parameter specified was invalid
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/O request for a control transfer operation, the framework can subsequently send the request to the I/O target.
+
+
+#### Examples
+
+The following code example is taken from the <a href="http://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    WINUSB_CONTROL_SETUP_PACKET setupPacket;
+
+    ULONG bytesTransferred;
+
+    HRESULT hr = S_OK;
+
+    //
+    // Setup the control packet.
+    //
+
+    WINUSB_CONTROL_SETUP_PACKET_INIT( &amp;setupPacket,
+                                      BmRequestHostToDevice,
+                                      BmRequestToDevice,
+                                      USBFX2LK_SET_BARGRAPH_DISPLAY,
+                                      0,
+                                      0 );
+
+    //
+    // Issue the request to WinUsb.
+    //
+
+    hr = SendControlTransferSynchronously(
+                &amp;(setupPacket.WinUsb),
+                (PUCHAR) BarGraphState,
+                sizeof(BAR_GRAPH_STATE),
+                &amp;bytesTransferred
+                );
+...
+
+HRESULT
+CMyDevice::SendControlTransferSynchronously(
+    _In_ PWINUSB_SETUP_PACKET SetupPacket,
+    _Inout_updates_(BufferLength) PBYTE Buffer,
+    _In_ ULONG BufferLength,
+    _Out_ PULONG LengthTransferred
+    )
+{
+    HRESULT hr = S_OK;
+    IWDFIoRequest *pWdfRequest = NULL;
+    IWDFDriver * FxDriver = NULL;
+    IWDFMemory * FxMemory = NULL; 
+    IWDFRequestCompletionParams * FxComplParams = NULL;
+    IWDFUsbRequestCompletionParams * FxUsbComplParams = NULL;
+
+    *LengthTransferred = 0;
+    
+    hr = m_FxDevice-&gt;CreateRequest( NULL, //pCallbackInterface
+                                    NULL, //pParentObject
+                                    &amp;pWdfRequest);
+
+    if (SUCCEEDED(hr))
+    {
+        m_FxDevice-&gt;GetDriver(&amp;FxDriver);
+
+        hr = FxDriver-&gt;CreatePreallocatedWdfMemory( Buffer,
+                                                    BufferLength,
+                                                    NULL, //pCallbackInterface
+                                                    pWdfRequest, //pParetObject
+                                                    &amp;FxMemory );
+    }
+
+    if (SUCCEEDED(hr))
+    {
+        hr = m_pIUsbTargetDevice-&gt;FormatRequestForControlTransfer( pWdfRequest,
+                                                                   SetupPacket,
+                                                                   FxMemory,
+                                                                   NULL); //TransferOffset
+    }                                                          
+      
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
 
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

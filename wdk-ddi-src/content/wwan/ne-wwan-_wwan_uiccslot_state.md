@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_UICCSLOT_STATE
-title: _WWAN_UICCSLOT_STATE
+title: "_WWAN_UICCSLOT_STATE"
 author: windows-driver-content
 description: The WWAN_UICCSLOT_STATE enumeration lists the different states of a UICC (SIM) card slot on a modem. The slot state represents a summary of both the slot state and the card state.
 old-location: netvista\wwan_uiccslot_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63A3C2AA-6EBF-469D-933A-C51F5EC31C47
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/UICCSlotStateNotReady, UICCSlotStateError, wwan/UICCSlotStateUnknown, UICCSlotStateOffEmpty, _WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, UICCSlotStateEmpty, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], UICCSlotStateOff, UICCSlotStateActive, UICCSlotStateUnknown, wwan/UICCSlotStateActive, wwan/UICCSlotStateError, wwan/UICCSlotStateEmpty, UICCSlotStateNotReady, *PWWAN_UICCSLOT_STATE, wwan/UICCSlotStateOff, WWAN_UICCSLOT_STATE, wwan/UICCSlotStateOffEmpty, wwan/WWAN_UICCSLOT_STATE
+ms.keywords: wwan/UICCSlotStateEmpty, wwan/UICCSlotStateUnknown, *PWWAN_UICCSLOT_STATE, UICCSlotStateOffEmpty, wwan/UICCSlotStateNotReady, netvista.wwan_uiccslot_state, WWAN_UICCSLOT_STATE, wwan/UICCSlotStateOff, UICCSlotStateOff, wwan/WWAN_UICCSLOT_STATE, UICCSlotStateEmpty, UICCSlotStateActive, _WWAN_UICCSLOT_STATE, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/UICCSlotStateError, wwan/UICCSlotStateOffEmpty, wwan/UICCSlotStateActive, UICCSlotStateUnknown, UICCSlotStateNotReady, UICCSlotStateError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_UICCSLOT_STATE
 product: Windows
 targetos: Windows
@@ -77,37 +77,28 @@ typedef enum _WWAN_UICCSLOT_STATE {
 ### -field WwanUiccSlotStateUnknown
 
 
-
 ### -field WwanUiccSlotStateOffEmpty
-
 
 
 ### -field WwanUiccSlotStateOff
 
 
-
 ### -field WwanUiccSlotStateEmpty
-
 
 
 ### -field WwanUiccSlotStateNotReady
 
 
-
 ### -field WwanUiccSlotStateActive
-
 
 
 ### -field WwanUiccSlotStateError
 
 
-
 ### -field WwanUiccSlotStateActiveEsim
 
 
-
 ### -field WwanUiccSlotStateActiveEsimNoProfile
-
 
 
 ### -field WwanUiccSlotStateMax
@@ -115,34 +106,9 @@ typedef enum _WWAN_UICCSLOT_STATE {
 
 
 
-#### - UICCSlotStateError
-
-The card in the slot is in an error state and cannot be used.
-
-
-#### - UICCSlotStateOffEmpty
-
-The card slot is powered off and empty. An implementation that is unable to determine the presence of a card in a slot that is powered off reports its state as <i>Off</i>.
-
-
-#### - UICCSlotStateOff
-
-The card slot is powered off and a card is present.
-
-
 #### - UICCSlotStateActive
 
 The card in the slot is available and ready to accept commands. This has no association with the SIM PIN locked state.
-
-
-#### - UICCSlotStateUnknown
-
-The modem is still in the process of initializing so the SIM slot state is not deterministic.
-
-
-#### - UICCSlotStateNotReady
-
-The card in the slot is not ready; i.e., it has been reset but has not finished initializing. It cannot be used at this time.
 
 
 #### - UICCSlotStateEmpty
@@ -150,16 +116,45 @@ The card in the slot is not ready; i.e., it has been reset but has not finished 
 The card slot is powered on but no card is present.
 
 
+#### - UICCSlotStateError
+
+The card in the slot is in an error state and cannot be used.
+
+
+#### - UICCSlotStateNotReady
+
+The card in the slot is not ready; i.e., it has been reset but has not finished initializing. It cannot be used at this time.
+
+
+#### - UICCSlotStateOff
+
+The card slot is powered off and a card is present.
+
+
+#### - UICCSlotStateOffEmpty
+
+The card slot is powered off and empty. An implementation that is unable to determine the presence of a card in a slot that is powered off reports its state as <i>Off</i>.
+
+
+#### - UICCSlotStateUnknown
+
+The modem is still in the process of initializing so the SIM slot state is not deterministic.
+
+
 ## -remarks
+
 
 
 The set of reported states is constrained by the capability of the slot hardware. In the most restrictive case, the slot hardware may only be able to determine that a card is present when it is powered on and active; in such a case the <b>OffEmpty</b> and <b>Off</b> states will not be reported.
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a>
+
+
 
  
 

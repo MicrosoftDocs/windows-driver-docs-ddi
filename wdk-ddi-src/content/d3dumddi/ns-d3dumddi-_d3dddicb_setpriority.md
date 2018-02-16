@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SETPRIORITY
-title: _D3DDDICB_SETPRIORITY
+title: "_D3DDDICB_SETPRIORITY"
 author: windows-driver-content
 description: The D3DDDICB_SETPRIORITY structure describes the priority level to which to set a resource or list of allocations.
 old-location: display\d3dddicb_setpriority.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8d828d7b-2f86-4fe9-864c-9d0ac4b0ed65
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY structure [Display Devices], D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, display.d3dddicb_setpriority, D3DDDICB_SETPRIORITY, _D3DDDICB_SETPRIORITY
+ms.keywords: d3dumddi/D3DDDICB_SETPRIORITY, D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, D3DDDICB_SETPRIORITY structure [Display Devices], _D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY, display.d3dddicb_setpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDICB_SETPRIORITY
 product: Windows
 targetos: Windows
@@ -98,7 +98,11 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a>
+
+
 
  
 

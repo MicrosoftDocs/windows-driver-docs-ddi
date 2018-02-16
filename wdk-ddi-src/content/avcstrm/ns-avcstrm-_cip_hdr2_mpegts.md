@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._CIP_HDR2_MPEGTS
-title: _CIP_HDR2_MPEGTS
+title: "_CIP_HDR2_MPEGTS"
 author: windows-driver-content
 description: The CIP_HDR2_MPEGTS structure describes the second quadlet of a CIP header pair for an MPEGTS format stream.
 old-location: stream\cip_hdr2_mpegts.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e1f46926-8c2b-46ff-9adb-5332fba17e3b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices], stream.cip_hdr2_mpegts, CIP_HDR2_MPEGTS structure [Streaming Media Devices], avcstrm/CIP_HDR2_MPEGTS, _CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS, avcstrm/PCIP_HDR2_MPEGTS, avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, PCIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS
+ms.keywords: CIP_HDR2_MPEGTS structure [Streaming Media Devices], avcstrm/PCIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS, PCIP_HDR2_MPEGTS, avcstrm/CIP_HDR2_MPEGTS, _CIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS, stream.cip_hdr2_mpegts, avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	avcstrm.h
-apiname: 
+apiname:
 -	CIP_HDR2_MPEGTS
 product: Windows
 targetos: Windows
-req.typenames: CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS
+req.typenames: "*PCIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS"
 ---
 
 # _CIP_HDR2_MPEGTS structure
@@ -93,6 +93,8 @@ Must be set to 1:0
 ## -see-also
 
 <a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
+
+
 
  
 

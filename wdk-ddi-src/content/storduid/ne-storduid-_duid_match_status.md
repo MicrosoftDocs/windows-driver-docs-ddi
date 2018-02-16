@@ -1,6 +1,6 @@
 ---
 UID: NE:storduid._DUID_MATCH_STATUS
-title: _DUID_MATCH_STATUS
+title: "_DUID_MATCH_STATUS"
 author: windows-driver-content
 description: The DUID_MATCH_STATUS enumeration lists the status values that the CompareStorageDuids routine returns.
 old-location: storage\duid_match_status.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storduid/DuidErrorInvalidLayoutSigSize, DuidErrorGeneral, DuidErrorMissingDuid, storduid/DuidSubIdMatch, DUID_MATCH_STATUS, storduid/DuidErrorInvalidDeviceIdDescSize, storduid/DuidExactMatch, DuidErrorInvalidDeviceIdDescSize, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, _DUID_MATCH_STATUS, DUID_MATCH_STATUS enumeration [Storage Devices], DuidErrorInvalidLayoutSigSize, DuidExactMatch, DuidErrorVersionMismatch, DuidErrorInvalidDuid, storduid/DuidErrorInvalidDeviceDescSize, DuidErrorInvalidDeviceDescSize, DuidErrorMaximum, DuidNoMatch, DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorInvalidDuid, storduid/DuidErrorMissingDuid, storduid/DUID_MATCH_STATUS, storduid/DuidErrorVersionMismatch, storage.duid_match_status, storduid/DuidErrorGeneral, storduid/DuidErrorMaximum, storduid/DuidNoMatch, DuidSubIdMatch
+ms.keywords: storduid/DuidErrorMaximum, storduid/DuidErrorInvalidLayoutSigSize, DuidErrorInvalidDeviceDescSize, DuidSubIdMatch, DuidErrorMaximum, storduid/DuidErrorGeneral, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, _DUID_MATCH_STATUS, DuidErrorVersionMismatch, DuidErrorInvalidDuid, DuidErrorInvalidDeviceIdDescSize, storduid/DuidErrorVersionMismatch, storduid/DuidErrorInvalidDuid, DuidErrorMissingDuid, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorInvalidDeviceDescSize, storage.duid_match_status, DuidNoMatch, DuidErrorGeneral, storduid/DuidErrorInvalidLayoutSigVersion, DUID_MATCH_STATUS enumeration [Storage Devices], storduid/DuidErrorMissingDuid, DUID_MATCH_STATUS, storduid/DuidNoMatch, storduid/DuidErrorInvalidDeviceIdDescSize, DuidExactMatch, storduid/DUID_MATCH_STATUS, DuidErrorInvalidLayoutSigVersion, storduid/DuidSubIdMatch, storduid/DuidExactMatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storduid.h
-apiname: 
+apiname:
 -	DUID_MATCH_STATUS
 product: Windows
 targetos: Windows
@@ -141,11 +141,17 @@ This value delimits the upper limit of the enumeration values in this enumeratio
 
 ## -see-also
 
-<a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+
+
 
 <a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+
+
+<a href="..\storduid\nf-storduid-comparestorageduids.md">CompareStorageDuids</a>
+
+
 
  
 

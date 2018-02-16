@@ -1,14 +1,14 @@
 ---
 UID: NS:bdatypes._BDA_WMDRMTUNER_PURCHASEENTITLEMENT
-title: _BDA_WMDRMTUNER_PURCHASEENTITLEMENT
+title: "_BDA_WMDRMTUNER_PURCHASEENTITLEMENT"
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\bda_wmdrmtuner_purchaseentitlement.htm
 old-project: stream
 ms.assetid: 348E7C25-4998-490E-A732-5780B0A21DE0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure [Streaming Media Devices], _BDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT structure pointer [Streaming Media Devices], *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, stream.bda_wmdrmtuner_purchaseentitlement, bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT
+ms.keywords: PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, _BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure [Streaming Media Devices], bdatypes/BDA_WMDRMTUNER_PURCHASEENTITLEMENT, PBDA_WMDRMTUNER_PURCHASEENTITLEMENT structure pointer [Streaming Media Devices], stream.bda_wmdrmtuner_purchaseentitlement, bdatypes/PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Bdatypes.h
-apiname: 
+apiname:
 -	BDA_WMDRMTUNER_PURCHASEENTITLEMENT
 product: Windows
 targetos: Windows
-req.typenames: BDA_WMDRMTUNER_PURCHASEENTITLEMENT, *PBDA_WMDRMTUNER_PURCHASEENTITLEMENT
+req.typenames: "*PBDA_WMDRMTUNER_PURCHASEENTITLEMENT, BDA_WMDRMTUNER_PURCHASEENTITLEMENT"
 ---
 
 # _BDA_WMDRMTUNER_PURCHASEENTITLEMENT structure
@@ -73,15 +73,11 @@ typedef struct _BDA_WMDRMTUNER_PURCHASEENTITLEMENT {
 ### -field lResult
 
 
-
 ### -field ulDescrambleStatus
-
 
 
 ### -field ulCaptureTokenLength
 
 
-
 ### -field argbCaptureTokenBuffer
-
 

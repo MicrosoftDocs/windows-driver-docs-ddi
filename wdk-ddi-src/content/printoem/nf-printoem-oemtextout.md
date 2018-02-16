@@ -7,8 +7,8 @@ old-location: print\oemtextout.htm
 old-project: print
 ms.assetid: cecce6ae-9b26-4b5f-aad3-69630ea340a4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, OEMTextOut, print.oemtextout, OEMTextOut function [Print Devices], printoem/OEMTextOut
+ms.date: 2/2/2018
+ms.keywords: OEMTextOut, OEMTextOut function [Print Devices], print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, printoem/OEMTextOut, print.oemtextout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMTextOut
 product: Windows
 targetos: Windows
@@ -80,39 +80,29 @@ BOOL APIENTRY OEMTextOut(
 ### -param pso
 
 
-
 ### -param pstro
-
 
 
 ### -param pfo
 
 
-
 ### -param pco
-
 
 
 ### -param prclExtra
 
 
-
 ### -param prclOpaque
-
 
 
 ### -param pboFore
 
 
-
 ### -param pboOpaque
-
 
 
 ### -param pptlOrg
 
 
-
 ### -param mix
-
 

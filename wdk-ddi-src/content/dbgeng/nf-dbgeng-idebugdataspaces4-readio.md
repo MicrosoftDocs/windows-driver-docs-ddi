@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d690cf53-63a6-487c-a952-07035786d19c
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces3::ReadIo, IDebugDataSpaces2::ReadIo, dbgeng/IDebugDataSpaces4::ReadIo, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, ReadIo, IDebugDataSpaces4::ReadIo, debugger.readio, IDebugDataSpaces interface [Windows Debugging], ReadIo method, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, IDebugDataSpaces::ReadIo, ReadIo method [Windows Debugging], ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::ReadIo
+ms.keywords: IDebugDataSpaces3::ReadIo, IDebugDataSpaces4 interface [Windows Debugging], ReadIo method, dbgeng/IDebugDataSpaces3::ReadIo, IDebugDataSpaces_a6189a47-dc48-44cf-aadd-61769085ebc5.xml, IDebugDataSpaces2, IDebugDataSpaces4::ReadIo, ReadIo method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces interface [Windows Debugging], ReadIo method, ReadIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2::ReadIo, debugger.readio, IDebugDataSpaces3, ReadIo method [Windows Debugging], IDebugDataSpaces2 interface, ReadIo method [Windows Debugging], IDebugDataSpaces3 interface, ReadIo method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadIo, dbgeng/IDebugDataSpaces::ReadIo, dbgeng/IDebugDataSpaces2::ReadIo, IDebugDataSpaces, IDebugDataSpaces3 interface [Windows Debugging], ReadIo method, IDebugDataSpaces2 interface [Windows Debugging], ReadIo method, ReadIo, IDebugDataSpaces::ReadIo, IDebugDataSpaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces.ReadIo
 -	IDebugDataSpaces2.ReadIo
 -	IDebugDataSpaces3.ReadIo
 -	IDebugDataSpaces4.ReadIo
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadIo method
@@ -114,6 +114,7 @@ Receives the number of bytes returned read from the I/O bus.  If <i>BytesRead</i
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -130,15 +131,19 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 This method is only available in kernel-mode debugging.
+
 
 

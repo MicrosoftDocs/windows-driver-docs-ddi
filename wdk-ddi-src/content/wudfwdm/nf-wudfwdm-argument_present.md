@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfwdm.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wudfwdm.h
-apiname: 
+apiname:
 -	ARGUMENT_PRESENT
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -76,6 +76,8 @@ Specifies the value of the pointer argument to be tested.
 ## -remarks
 
 
+
 This macro can be called in conditional code to determine whether an optional argument has been passed in a call. 
+
 
 

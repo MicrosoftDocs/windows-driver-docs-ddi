@@ -7,7 +7,7 @@ old-location: print\unifontobj_getinfo.htm
 old-project: print
 ms.assetid: 2c0d350d-dcdf-4da7-8cca-7f36d4ca622e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.unifontobj_getinfo, UNIFONTOBJ_GetInfo routine [Print Devices], UNIFONTOBJ_GetInfo, PFNGETINFO, PFNGETINFO, printoem/UNIFONTOBJ_GetInfo, print_unidrv-pscript_rendering_7dc55246-beaa-4058-87a3-5438db3368c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	UNIFONTOBJ_GetInfo
 product: Windows
 targetos: Windows
@@ -78,16 +78,15 @@ BOOL APIENTRY UNIFONTOBJ_GetInfo(
 ### -param *
 
 
-
 ### -param DWORD
-
 
 
 ### -param PVOID
 
 
-
 ### -param PDWORD
+
+
 
 
 
@@ -104,19 +103,10 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pData</i>. Supplied
 Specifies the type of structure pointed to by <i>pData</i>. Supplied by the caller. See the following table.
 
 
-#### - pcbNeeded
-
-Pointer to a location that receives the minimum buffer size, in bytes, required to contain the structure identified by <i>dwInfoID</i>. Supplied by the caller.
-
-
-#### - pUFObj
-
-Pointer to the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
-
-
 #### - pData
 
 Pointer to a structure, as indicated in the following table. Supplied by the caller.
+
 <table>
 <tr>
 <th>dwInfoID Value</th>
@@ -194,19 +184,33 @@ UFO_GETINFO_STDVARIABLE
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For a summary of structure contents, see the following <b>Remarks</b> section.
 
 
+#### - pUFObj
+
+Pointer to the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
+
+
+#### - pcbNeeded
+
+Pointer to a location that receives the minimum buffer size, in bytes, required to contain the structure identified by <i>dwInfoID</i>. Supplied by the caller.
+
+
 ## -returns
+
 
 
 If the operation succeeds, the function returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 The <b>UNIFONTOBJ_GetInfo</b> callback function allows a <a href="https://msdn.microsoft.com/e55ca083-2790-4929-9e5b-6fce49eb0404">rendering plug-in</a> to call back into Unidrv to obtain font or glyph information from GDI, needed for handling <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">customized font management</a> operations.
@@ -214,6 +218,7 @@ The <b>UNIFONTOBJ_GetInfo</b> callback function allows a <a href="https://msdn.m
 A rendering plug-in receives the <b>UNIFONTOBJ_GetInfo</b> function's address in the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure that is passed to the font customization methods.
 
 The type of information returned by the function is dependent on the input arguments. The caller supplies values for <i>dwInfoID</i>, <i>pData</i>, and <i>dwDataSize</i> to indicate the type of information wanted. The following table summarizes the types of information returned. For more information, see the structure descriptions.
+
 <table>
 <tr>
 <th><i>pData</i> Structure</th>
@@ -291,8 +296,10 @@ The current value for one or more of Unidrv's <a href="https://msdn.microsoft.co
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the buffer described by <i>pData</i> and <i>dwDataSize</i> is too small to receive the structure indicated by <i>dwInfoID</i>, the function loads the required buffer size into the location pointed by <i>pcbNeeded</i> and returns <b>FALSE</b>.
+
 
 

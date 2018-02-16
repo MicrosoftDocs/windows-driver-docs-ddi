@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3dumddi.h
-apiname: 
+apiname:
 -	pfnCheckMultiPlaneOverlaySupport
 product: Windows
 targetos: Windows
@@ -85,6 +85,8 @@ A handle to the display device (graphics context).
 
 
 
+
+
 #### - pSupport [in, out]
 
 A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_checkmultiplaneoverlaysupport.md">D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT</a> structure that provides details on hardware support for multiplane overlays.
@@ -93,13 +95,17 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_checkmultiplaneoverla
 ## -returns
 
 
+
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_checkmultiplaneoverlaysupport.md">D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT</a>
+
+
 
  
 

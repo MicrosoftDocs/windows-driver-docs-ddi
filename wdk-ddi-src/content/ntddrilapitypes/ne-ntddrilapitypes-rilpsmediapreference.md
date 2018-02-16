@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a7fbef54-78c1-4696-8b0a-8c98d250f899
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PSMPREF_CELLPREFERRED, RIL_PSMPREF_NUMBER_OF_VALUES, ntddrilapitypes/RIL_PSMPREF_NUMBER_OF_VALUES, RIL_PSMPREF_CELLONLY, RILPSMEDIAPREFERENCE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PSMPREF_WIFIONLY, netvista.rilpsmediapreference, RIL_PSMPREF_WIFIPREFERRED, ntddrilapitypes/RIL_PSMPREF_WIFIPREFERRED, RIL_PSMPREF_WIFIONLY, ntddrilapitypes/RILPSMEDIAPREFERENCE, ntddrilapitypes/RIL_PSMPREF_CELLPREFERRED, RILPSMEDIAPREFERENCE, ntddrilapitypes/RIL_PSMPREF_CELLONLY
+ms.keywords: ntddrilapitypes/RIL_PSMPREF_CELLPREFERRED, RILPSMEDIAPREFERENCE, RILPSMEDIAPREFERENCE enumeration [Network Drivers Starting with Windows Vista], RIL_PSMPREF_NUMBER_OF_VALUES, ntddrilapitypes/RIL_PSMPREF_NUMBER_OF_VALUES, netvista.rilpsmediapreference, RIL_PSMPREF_WIFIONLY, RIL_PSMPREF_CELLONLY, RIL_PSMPREF_CELLPREFERRED, RIL_PSMPREF_WIFIPREFERRED, ntddrilapitypes/RIL_PSMPREF_WIFIPREFERRED, ntddrilapitypes/RILPSMEDIAPREFERENCE, ntddrilapitypes/RIL_PSMPREF_CELLONLY, ntddrilapitypes/RIL_PSMPREF_WIFIONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILPSMEDIAPREFERENCE
 product: Windows
 targetos: Windows
@@ -74,23 +74,17 @@ typedef enum _RILPSMEDIAPREFERENCE {
 ### -field RIL_PSMPREF_UNKNOWN
 
 
-
 ### -field RIL_PSMPREF_WIFIONLY
-
 
 
 ### -field RIL_PSMPREF_WIFIPREFERRED
 
 
-
 ### -field RIL_PSMPREF_CELLONLY
-
 
 
 ### -field RIL_PSMPREF_CELLPREFERRED
 
 
-
 ### -field RIL_PSMPREF_NUMBER_OF_VALUES
-
 

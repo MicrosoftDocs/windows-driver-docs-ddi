@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_USSD_EVENT_TYPE
-title: _WWAN_USSD_EVENT_TYPE
+title: "_WWAN_USSD_EVENT_TYPE"
 author: windows-driver-content
 description: The WWAN_USSD_EVENT_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) events.
 old-location: netvista\wwan_ussd_event_type.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CEBC8A75-03E9-4E2A-9092-2FA3005371FE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WwanUssdEventActionRequired, _WWAN_USSD_EVENT_TYPE, netvista.wwan_ussd_event_type, *PWWAN_USSD_EVENT_TYPE, WwanUssdEventOtherLocalClient, WwanUssdEventTerminated, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventOtherLocalClient, wwan/WwanUssdEventOperationNotSupported, WWAN_USSD_EVENT_TYPE, WwanUssdEventOperationNotSupported, WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventNetworkTimeOut, wwan/WWAN_USSD_EVENT_TYPE, WwanUssdEventActionRequired, WwanUssdEventNoActionRequired, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanUssdEventTerminated
+ms.keywords: wwan/WwanUssdEventActionRequired, WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventOtherLocalClient, WwanUssdEventNoActionRequired, WWAN_USSD_EVENT_TYPE, netvista.wwan_ussd_event_type, WwanUssdEventOperationNotSupported, WwanUssdEventTerminated, *PWWAN_USSD_EVENT_TYPE, _WWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdEventActionRequired, WwanUssdEventOtherLocalClient, wwan/WwanUssdEventOperationNotSupported, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventTerminated, wwan/WWAN_USSD_EVENT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_USSD_EVENT_TYPE
 product: Windows
 targetos: Windows
@@ -106,6 +106,7 @@ Indicates that the USSD session was closed due to a session time-out either loca
 ## -remarks
 
 
+
 Network-initiated USSD events use <i>WwanUssdEventActionRequired</i> to indicate when further information is needed after an MB device initiated operation. <i>WwanUssdEventActionRequired</i> events also indicate that the session is still open. All other events indicate that the existing USSD session has been closed.
 
 <i>WwanUssdEventNoActionRequired</i> and <i>WwanUssdEventActionRequired</i> are the only events that require a non-empty USSD string to accompany them with a string length from 1 to 160 bytes. All other events must set the USSD string length to 0 to indicate that the string is empty.
@@ -114,9 +115,12 @@ The value of the <a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</
 
 
 
+
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a>
+
+
 
  
 

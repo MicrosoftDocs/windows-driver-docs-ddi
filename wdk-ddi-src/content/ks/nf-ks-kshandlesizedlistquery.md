@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 014ca1bd-6e18-4110-aefb-ec36e816f013
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kshandlesizedlistquery, KsHandleSizedListQuery function [Streaming Media Devices], ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, KsHandleSizedListQuery, ks/KsHandleSizedListQuery
+ms.keywords: ks/KsHandleSizedListQuery, KsHandleSizedListQuery, KsHandleSizedListQuery function [Streaming Media Devices], stream.kshandlesizedlistquery, ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsHandleSizedListQuery
 product: Windows
 targetos: Windows
@@ -94,13 +94,17 @@ Specifies the list of data items.
 ## -returns
 
 
+
 The <b>KsHandleSizedListQuery</b> function returns STATUS_SUCCESS if the number of entries and the data can be copied. If the buffer is larger than the size to store just the size and the count of entries but too small to contain all the entries, the function returns status STATUS_BUFFER_TOO_SMALL.
+
 
 
 
 ## -remarks
 
 
+
 Use the <b>KsHandleSizedListQuery</b> function when implementing properties that are to return information in the multiple item format.
+
 
 

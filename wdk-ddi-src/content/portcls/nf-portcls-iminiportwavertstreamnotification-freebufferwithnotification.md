@@ -7,8 +7,8 @@ old-location: audio\iminiportwavertstreamnotification_freebufferwithnotification
 old-project: audio
 ms.assetid: 2ec9222b-d9e7-4386-ac66-30c5436f549d
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, FreeBufferWithNotification, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification, IMiniportWaveRTStreamNotification, FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, audio.iminiportwavertstreamnotification_freebufferwithnotification
+ms.date: 2/8/2018
+ms.keywords: audio.iminiportwavertstreamnotification_freebufferwithnotification, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, FreeBufferWithNotification method [Audio Devices], audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, FreeBufferWithNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], FreeBufferWithNotification method, IMiniportWaveRTStreamNotification, FreeBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: Passive level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWaveRTStreamNotification.FreeBufferWithNotification
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWaveRTStreamNotification::FreeBufferWithNotification method
@@ -79,6 +79,7 @@ Specifies a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) pre
 
 
 
+
 #### - SizeWritten [in]
 
 Output pointer for the number of bytes the method has written to the Attributes buffer. This parameter points to a ULONG variable into which the method writes the byte count.
@@ -87,14 +88,18 @@ Output pointer for the number of bytes the method has written to the Attributes 
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -remarks
 
 
+
 The port driver calls this method to free an audio buffer that was allocated with a previous call to <b>IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</b>.
+
 
 
 
@@ -102,13 +107,19 @@ The port driver calls this method to free an audio buffer that was allocated wit
 
 <a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
 
+
+
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536740">IMiniportWaveRTStreamNotification::AllocateBufferWithNotification</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTStreamNotification::FreeBufferWithNotification method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTStreamNotification::FreeBufferWithNotification method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

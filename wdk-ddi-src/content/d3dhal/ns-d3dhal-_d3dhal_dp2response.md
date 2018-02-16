@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2RESPONSE
-title: _D3DHAL_DP2RESPONSE
+title: "_D3DHAL_DP2RESPONSE"
 author: windows-driver-content
 description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2response.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3a8ae2a9-21cd-4b0d-b293-60865a4fdfe6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2RESPONSE, *LPD3DHAL_DP2RESPONSE, _D3DHAL_DP2RESPONSE, display.d3dhal_dp2response, d3dstrct_cd629a64-c8e9-45d2-a0bc-048ff623cc97.xml, d3dhal/LPD3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE structure [Display Devices], LPD3DHAL_DP2RESPONSE structure pointer [Display Devices], D3DHAL_DP2RESPONSE, LPD3DHAL_DP2RESPONSE
+ms.keywords: LPD3DHAL_DP2RESPONSE, display.d3dhal_dp2response, d3dhal/LPD3DHAL_DP2RESPONSE, d3dhal/D3DHAL_DP2RESPONSE, d3dstrct_cd629a64-c8e9-45d2-a0bc-048ff623cc97.xml, *LPD3DHAL_DP2RESPONSE, D3DHAL_DP2RESPONSE structure [Display Devices], D3DHAL_DP2RESPONSE, LPD3DHAL_DP2RESPONSE structure pointer [Display Devices], _D3DHAL_DP2RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dhal.h
-apiname: 
+apiname:
 -	D3DHAL_DP2RESPONSE
 product: Windows
 targetos: Windows
@@ -96,15 +96,25 @@ Specifies the total size, in bytes, of the responses associated with this D3DHAL
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
+<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
+
+
 
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
+
+
 D3DDP2OP_RESPONSECONTINUE
 
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
+
+
 
 D3DDP2OP_RESPONSEQUERY
+
+
 
  
 

@@ -1,14 +1,14 @@
 ---
 UID: NS:prntfont._UFF_FONTDIRECTORY
-title: _UFF_FONTDIRECTORY
+title: "_UFF_FONTDIRECTORY"
 author: windows-driver-content
 description: The UFF_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
 old-location: print\uff_fontdirectory.htm
 old-project: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: prntfont/UFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, PUFF_FONTDIRECTORY structure pointer [Print Devices], print.uff_fontdirectory, *PUFF_FONTDIRECTORY
+ms.date: 2/2/2018
+ms.keywords: "*PUFF_FONTDIRECTORY, prntfont/PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, PUFF_FONTDIRECTORY, print.uff_fontdirectory, _UFF_FONTDIRECTORY, UFF_FONTDIRECTORY, prntfont/UFF_FONTDIRECTORY, PUFF_FONTDIRECTORY structure pointer [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	prntfont.h
-apiname: 
+apiname:
 -	UFF_FONTDIRECTORY
 product: Windows
 targetos: Windows
-req.typenames: *PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY
+req.typenames: "*PUFF_FONTDIRECTORY, UFF_FONTDIRECTORY"
 req.product: Windows 10 or later.
 ---
 
@@ -101,6 +101,7 @@ Specifies the glyph set identifier. This value specifies the glyph set that is t
 ### -field wFlags
 
 Is a set of bit flags. One or more of the following flags can be specified.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -176,7 +177,8 @@ Font metrics are specified in Windows 2000 and later <a href="https://msdn.micro
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field dwInstallerSig
@@ -212,6 +214,7 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 ## -remarks
 
 
+
 If <b>sGlyphID</b> is a greater than zero, it must match the <b>wDataID</b> member of a <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure that specifies a glyph set within the .uff file.
 
 If <b>sGlyphID</b> is less than zero, it must be one of the CC_-prefixed constants defined in prntfont.h, which identify predefined glyph sets.
@@ -220,13 +223,16 @@ If <b>sGlyphID</b> is zero, Unidrv uses the glyph set resource identifier contai
 
 
 
+
 ## -see-also
 
 <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UFF_FONTDIRECTORY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UFF_FONTDIRECTORY structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

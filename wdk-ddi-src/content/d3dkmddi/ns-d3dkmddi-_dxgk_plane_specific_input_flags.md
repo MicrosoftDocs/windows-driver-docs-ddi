@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PLANE_SPECIFIC_INPUT_FLAGS
-title: _DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+title: "_DXGK_PLANE_SPECIFIC_INPUT_FLAGS"
 author: windows-driver-content
 description: A structure containing the input flags to be used for the driver that apply to a plane.
 old-location: display\dxgk_plane_specific_input_flags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 39BE1343-D965-4750-9B94-B54127D873A5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags
+ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], display.dxgk_plane_specific_input_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 product: Windows
 targetos: Windows
@@ -100,10 +100,12 @@ Specifies that the driver is transitioning to or from a shared managed primary a
 
 This member is set if either of the following transitions occurs:
 
+
 <ul>
 <li>The current primary allocation is not a shared primary allocation, but the new one is.</li>
 <li>The current primary allocation is a shared primary allocation, but the new one is not.</li>
-</ul>When SharedPrimaryTransition is set, the display miniport driver must validate that the hardware can seamlessly switch back and forth between primary and shared primary allocations, and it must perform any hardware programming needed to make the seamless switch occur.
+</ul>
+When SharedPrimaryTransition is set, the display miniport driver must validate that the hardware can seamlessly switch back and forth between primary and shared primary allocations, and it must perform any hardware programming needed to make the seamless switch occur.
 
 
 ### -field IndependentFlipExclusive
@@ -117,5 +119,4 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 
 ### -field Value
-
 

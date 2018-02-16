@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d733f50c-01a2-484f-ab5b-72aaa3378c7d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSCORRELATED_TIME, ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, KSCORRELATED_TIME structure [Streaming Media Devices], ks/PKSCORRELATED_TIME, ks/KSCORRELATED_TIME, *PKSCORRELATED_TIME, stream.kscorrelated_time, KSCORRELATED_TIME, PKSCORRELATED_TIME structure pointer [Streaming Media Devices]
+ms.keywords: PKSCORRELATED_TIME structure pointer [Streaming Media Devices], *PKSCORRELATED_TIME, stream.kscorrelated_time, KSCORRELATED_TIME, KSCORRELATED_TIME structure [Streaming Media Devices], PKSCORRELATED_TIME, ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, ks/KSCORRELATED_TIME, ks/PKSCORRELATED_TIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSCORRELATED_TIME
 product: Windows
 targetos: Windows
-req.typenames: *PKSCORRELATED_TIME, KSCORRELATED_TIME
+req.typenames: "*PKSCORRELATED_TIME, KSCORRELATED_TIME"
 ---
 
 # KSCORRELATED_TIME structure
@@ -81,9 +81,11 @@ A 64-bit integer containing the number of clock ticks since system boot.
 ## -remarks
 
 
+
 Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a> property request.
 
 The system time is acquired from <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>. Note that the performance counter is not suspended when the machine is suspended, so that correlations change when the machine goes through a suspend.
+
 
 
 
@@ -91,7 +93,11 @@ The system time is acquired from <a href="..\wdm\nf-wdm-kequeryperformancecounte
 
 <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
+
+
 
  
 

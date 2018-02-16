@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e79ed9a1-b271-4c0a-a82f-9fecab930569
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.posetsystemwake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, PoSetSystemWake, wdm/PoSetSystemWake
+ms.keywords: kernel.posetsystemwake, wdm/PoSetSystemWake, PoSetSystemWake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoSetSystemWake
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the wait/wake IRP.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Drivers call <b>PoSetSystemWake</b> to mark an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a> IRP as contributing to waking the system from a sleep state. By default, wait/wake IRPs are considered to be device wake-up IRPs. It is the responsibility of the terminal device in a wait/wake chain to determine if it woke the system and to call <b>PoSetSystemWake</b> for the terminal wait/wake IRP. When a driver calls <b>PoSetSystemWake</b> on an IRP, it is marked as having contributed to waking the system from a sleep state. Only one driver in a stack needs to call this routine, and it should normally be the bus driver in a driver stack.
@@ -93,9 +96,12 @@ The power manager logs an Event Tracing for Windows (ETW) event (viewable in the
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-pogetsystemwake.md">PoGetSystemWake</a>
+
+
 
  
 

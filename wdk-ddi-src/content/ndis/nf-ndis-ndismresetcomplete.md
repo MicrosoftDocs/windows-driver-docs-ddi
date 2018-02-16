@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMResetComplete
-title: NdisMResetComplete function
+title: NdisMResetComplete macro
 author: windows-driver-content
 description: The NdisMResetComplete function returns the final status of a reset request for which the miniport driver previously returned NDIS_STATUS_PENDING.
 old-location: netvista\ndismresetcomplete.htm
@@ -8,10 +8,10 @@ old-project: netvista
 ms.assetid: 3da12a14-a90a-46a6-b67e-55044fdc3ca1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndismresetcomplete, miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, NdisMResetComplete, ndis/NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMResetComplete, netvista.ndismresetcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,23 +28,23 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topictype: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMResetComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
-# NdisMResetComplete function
+# NdisMResetComplete macro
 
 
 ## -description
@@ -72,18 +72,26 @@ VOID NdisMResetComplete(
 
 
 
-### -param MiniportAdapterHandle [in]
+### -param _M
 
-The miniport adapter handle that NDIS originally passed to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
-
-
-### -param Status [in]
-
-The final status of the reset operation just completed
+TBD
 
 
-### -param AddressingReset [in]
+### -param _S
+
+TBD
+
+
+### -param _A
+
+TBD
+
+
+
+
+
+
+#### - AddressingReset [in]
 
 A Boolean value that is <b>TRUE</b> if NDIS is responsible for restoring the settings for multicast
      addresses, packet filters, and task offload information. In this case, the miniport driver is
@@ -100,14 +108,19 @@ For more information, see
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
 
 
-## -returns
+#### - MiniportAdapterHandle [in]
+
+The miniport adapter handle that NDIS originally passed to the 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
 
 
-None
+#### - Status [in]
 
+The final status of the reset operation just completed
 
 
 ## -remarks
+
 
 
 If the 
@@ -134,13 +147,20 @@ In NDIS 6.0 and later, callers of
 
 
 
-## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+## -see-also
 
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
+<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+
+
 
  
 

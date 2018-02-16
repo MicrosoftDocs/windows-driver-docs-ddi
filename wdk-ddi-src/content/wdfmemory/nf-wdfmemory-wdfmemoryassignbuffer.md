@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f57fe6ac-87ad-4db8-a715-816885b87d68
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfmemory/WdfMemoryAssignBuffer, WdfMemoryAssignBuffer, kmdf.wdfmemoryassignbuffer, DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, wdf.wdfmemoryassignbuffer, PFN_WDFMEMORYASSIGNBUFFER, WdfMemoryAssignBuffer method
+ms.keywords: kmdf.wdfmemoryassignbuffer, WdfMemoryAssignBuffer, PFN_WDFMEMORYASSIGNBUFFER, wdf.wdfmemoryassignbuffer, WdfMemoryAssignBuffer method, DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, wdfmemory/WdfMemoryAssignBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfMemoryAssignBuffer
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to.
 ## -returns
 
 
+
 <b>WdfMemoryAssignBuffer</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,7 +112,8 @@ An invalid parameter was detected.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -120,7 +123,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 The method can assign a buffer to a memory object that <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a> created, but not to a memory object that <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a> created.
@@ -130,12 +135,47 @@ The buffer that the <i>Buffer</i> parameter points to can be allocated from the 
 For more information about framework memory objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
 
+#### Examples
+
+The following code example allocates a buffer and then assigns the buffer to a framework memory object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PVOID  pNewBuffer = NULL;
+
+pNewBuffer = ExAllocatePoolWithTag(
+                                   NonPagedPool,
+                                   NEW_BUFFER_SIZE,
+                                   MY_DRIVER_TAG
+                                   );
+if (pNewBuffer == NULL){
+    goto Error;
+}
+
+status = WdfMemoryAssignBuffer(
+                               memHandle,
+                               pNewBuffer,
+                               NEW_BUFFER_SIZE
+                               );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
+
+
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
+
 
  
 

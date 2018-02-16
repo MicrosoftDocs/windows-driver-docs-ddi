@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	USBCAMD_SetIsoPipeState
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ Pointer to device-specific context.
 ### -param PipeStateFlags [in]
 
 Specifies the isochronous pipe state. This argument should be set to either of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -105,13 +106,16 @@ This flags indicates to start streaming.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -returns
 
 
+
 <b>USBCAMD_SetIsoPipeState</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,11 +154,14 @@ There are insufficient resources to allocate a work item to change the pipe stat
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Note that the streaming state on the isochronous pipe works differently from the streaming state in the stream class and in Microsoft DirectShow. It is possible to stop the isochronous pipe from streaming for a short period while the overall video capture graph is still in a Run state.
@@ -167,9 +174,12 @@ Using this function does not enable you to change the alternate setting within t
 
 
 
+
 ## -see-also
 
 <a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
+
+
 
  
 

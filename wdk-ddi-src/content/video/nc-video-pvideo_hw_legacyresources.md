@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	HwVidLegacyResources
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -84,8 +84,9 @@ Specifies a code that identifies the device's vendor. This is the vendor ID spec
 Specifies a code that identifies the particular device. This is the device ID specified in the device's PCI configuration space.
 
 
-### -param *LegacyResourceList
+### -param *LegacyResourceList [in, out]
 
+Pointer to an array of <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space. 
 
 
 ### -param LegacyResourceCount [in, out]
@@ -93,19 +94,17 @@ Specifies a code that identifies the particular device. This is the device ID sp
 Is the number of elements in the array to which <i>LegacyResourceList</i> points.
 
 
-#### - LegacyResourceList [in, out]
-
-Pointer to an array of <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space. 
-
-
 ## -returns
+
 
 
 None
 
 
 
+
 ## -remarks
+
 
 
 Legacy resources are those resources that are not listed in the device's PCI configuration space but that are decoded by the device. If the legacy resource list for the device is not known at compile time, a miniport driver should implement a <i>HwVidLegacyResources </i> function and initialize the <b>HwGetLegacyResources</b> member of <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a> to point to this function. For example, a miniport driver that supports two devices with different sets of legacy resources would implement <i>HwVidLegacyResources </i> to report the legacy resources for a particular device at run time.
@@ -116,9 +115,12 @@ The resources returned by <i>HwVidLegacyResources </i> are added to the list of 
 
 
 
+
 ## -see-also
 
 <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+
 
  
 

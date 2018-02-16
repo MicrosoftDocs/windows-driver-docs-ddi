@@ -1,6 +1,6 @@
 ---
 UID: NE:netdma._NET_DMA_PNP_NOTIFICATION_CODE
-title: _NET_DMA_PNP_NOTIFICATION_CODE
+title: "_NET_DMA_PNP_NOTIFICATION_CODE"
 author: windows-driver-content
 description: The NET_DMA_PNP_NOTIFICATION_CODE enumeration identifies the type of a NetDMA Plug and Play (PnP) event.
 old-location: netvista\net_dma_pnp_notification_code.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1c9c09ae-5b7a-4482-8f6b-1ad5ede5b3f5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.net_dma_pnp_notification_code, NET_DMA_PNP_NOTIFICATION_CODE, netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml, netdma/NetDmaNotificationProviderArrival, NetDmaNotificationProviderArrival, netdma/NetDmaNotificationProviderPowerUp, NetDmaNotificationProviderPowerUp, NetDmaNotificationChannelArrival, *PNET_DMA_PNP_NOTIFICATION_CODE, _NET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationMax, netdma/NetDmaNotificationMax, NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderRegistered, NetDmaNotificationProviderPowerDown, netdma/NET_DMA_PNP_NOTIFICATION_CODE, PNET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderPowerDown, netdma/NetDmaNotificationProviderRemoval, NetDmaNotificationProviderRemoval, netdma/NetDmaNotificationChannelArrival, NetDmaNotificationProviderRegistered, PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: netdma/NetDmaNotificationProviderArrival, netvista.net_dma_pnp_notification_code, NetDmaNotificationMax, netdma/NetDmaNotificationChannelArrival, NET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationProviderPowerUp, netdma/PNET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationChannelArrival, NetDmaNotificationProviderPowerDown, NetDmaNotificationProviderRemoval, netdma/NetDmaNotificationProviderPowerDown, PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista], netdma/NetDmaNotificationProviderRegistered, _NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE, NetDmaNotificationProviderRegistered, netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml, PNET_DMA_PNP_NOTIFICATION_CODE, netdma/NET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationProviderPowerUp, netdma/NetDmaNotificationProviderRemoval, NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], NetDmaNotificationProviderArrival, netdma/NetDmaNotificationMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	netdma.h
-apiname: 
+apiname:
 -	NET_DMA_PNP_NOTIFICATION_CODE
 product: Windows
 targetos: Windows
@@ -118,15 +118,19 @@ The total number of supported NetDMA PnP events.
 ## -remarks
 
 
+
 The NET_DMA_PNP_NOTIFICATION_CODE enumeration is used in the 
-    <mshelp:link keywords="netvista.net_dma_pnp_notification" tabindex="0"><b>
-    NET_DMA_PNP_NOTIFICATION</b></mshelp:link> structure.
+    <a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">
+    NET_DMA_PNP_NOTIFICATION</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a>
+
+
 
  
 

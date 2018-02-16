@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MPO3DDI_SUPPORT
-title: _D3DKMT_MPO3DDI_SUPPORT
+title: "_D3DKMT_MPO3DDI_SUPPORT"
 author: windows-driver-content
 description: A structure that holds the support status.
 old-location: display\d3dkmt_mpo3ddi_support.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 993E0BC3-DE46-48B9-A346-386E49CE28CE
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_MPO3DDI_SUPPORT, _D3DKMT_MPO3DDI_SUPPORT, d3dkmthk/D3DKMT_MPO3DDI_SUPPORT, display.d3dkmt_mpo3ddi_support, D3DKMT_MPO3DDI_SUPPORT structure [Display Devices]
+ms.keywords: D3DKMT_MPO3DDI_SUPPORT structure [Display Devices], display.d3dkmt_mpo3ddi_support, D3DKMT_MPO3DDI_SUPPORT, _D3DKMT_MPO3DDI_SUPPORT, d3dkmthk/D3DKMT_MPO3DDI_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_MPO3DDI_SUPPORT
 product: Windows
 targetos: Windows

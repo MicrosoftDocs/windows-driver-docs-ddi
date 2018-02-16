@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 1CD1D065-9A96-42D5-807E-B439B4273920
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kscamera_metadataid, ksmedia/MetadataId_Standard_Start, ksmedia/MetadataId_Custom_Start, KSCAMERA_MetadataId, MetadataId_Standard_Start, ksmedia/MetadataId_Standard_End, ksmedia/MetadataId_PhotoConfirmation, KSCAMERA_MetadataId enumeration [Streaming Media Devices], ksmedia/KSCAMERA_MetadataId, MetadataId_Custom_Start, MetadataId_Standard_End, MetadataId_PhotoConfirmation
+ms.keywords: ksmedia/MetadataId_Standard_Start, ksmedia/MetadataId_PhotoConfirmation, MetadataId_Standard_End, MetadataId_Standard_Start, MetadataId_Custom_Start, stream.kscamera_metadataid, MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_End, KSCAMERA_MetadataId enumeration [Streaming Media Devices], ksmedia/MetadataId_Custom_Start, ksmedia/KSCAMERA_MetadataId, KSCAMERA_MetadataId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSCAMERA_MetadataId
 product: Windows
 targetos: Windows
@@ -83,21 +83,16 @@ This represents the photo confirmation metadata ID
 ### -field MetadataId_UsbVideoHeader
 
 
-
 ### -field MetadataId_CaptureStats
-
 
 
 ### -field MetadataId_CameraExtrinsics
 
 
-
 ### -field MetadataId_CameraIntrinsics
 
 
-
 ### -field MetadataId_FrameIllumination
-
 
 
 ### -field MetadataId_Standard_End

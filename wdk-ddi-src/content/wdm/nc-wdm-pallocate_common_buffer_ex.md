@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	AllocateCommonBufferEx
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ PVOID AllocateCommonBufferEx(
 
 ### -param DmaAdapter [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine.
+A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> routine.
 
 
 ### -param MaximumAddress [in, optional]
@@ -106,43 +106,62 @@ The preferred NUMA node from which the memory is to be allocated. If N is the nu
 ## -returns
 
 
+
 <b>AllocateCommonBufferEx</b> returns the virtual address of the memory allocated for the common buffer. If the buffer  cannot be allocated, NULL is returned.
+
 
 
 
 ## -remarks
 
 
+
 <b>AllocateCommonBufferEx</b>
            is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a 
           <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> with the Version member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
+           structure. Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> with the Version member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
 <b>AllocateCommonBufferEx</b> is an extended version of the <a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a> routine. The following list summarizes the features that are available only in the extended version:
+
 <ul>
 <li>The caller can specify a maximum logical address for the common buffer that is to be allocated.</li>
 <li>The caller can specify a preferred NUMA node in which the common buffer is to be allocated.</li>
-</ul>On computers with ARM or ARM 64-based processors, cache settings in the system ACPI have a higher precedence than the <i>CacheEnabled</i> parameter value passed by the driver. If the <b>ACPI _CCA</b>  method indicates that the device is not cache coherent, the operating system disables caching even if the driver allocates cached memory with <i>CacheEnabled</i> set to TRUE.
+</ul>
+On computers with ARM or ARM 64-based processors, cache settings in the system ACPI have a higher precedence than the <i>CacheEnabled</i> parameter value passed by the driver. If the <b>ACPI _CCA</b>  method indicates that the device is not cache coherent, the operating system disables caching even if the driver allocates cached memory with <i>CacheEnabled</i> set to TRUE.
 
 On computers with ARM or ARM 64-based processors, the operating system allocates an uncached common buffer as Device Memory. For more information about the buffer, see sections A3.5.1, and A3.5.6 from the <a href="https://go.microsoft.com/fwlink/p/?linkid=853904">ARMv7 Architecture Reference Manual</a>.  
 
 The processor does not permit misaligned access to Device Memory. Your driver must always access data from the common buffer by using naturally-aligned operations. Most kernel routines do not accept Device Memory as input parameters. For example, a network driver cannot pass Device Memory into <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">NdisMIndicateReceiveNetBufferLists</a>. If your driver needs to pass data from a DMA common buffer to a kernel routine, either allocate the buffer with <i>CacheEnabled</i> set to TRUE or copy the data from the uncached common buffer into a temporary pool allocation.
 
 For more information about DMA operations that use a common buffer, see the following topics:
-<a href="https://msdn.microsoft.com/81a56f62-917e-4798-b2cc-6469c802fab8">Using Common Buffers</a><a href="https://msdn.microsoft.com/library/windows/hardware/ff565359">Using Common-Buffer Bus-Master DMA</a><a href="https://msdn.microsoft.com/library/windows/hardware/ff565362">Using Common-Buffer System DMA</a>
+
+<a href="https://msdn.microsoft.com/81a56f62-917e-4798-b2cc-6469c802fab8">Using Common Buffers</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565359">Using Common-Buffer Bus-Master DMA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565362">Using Common-Buffer System DMA</a>
+
 
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-mmgetphysicaladdress.md">MmGetPhysicalAddress</a>
 
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
 
 <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
 
+
+
 <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
 
  
 

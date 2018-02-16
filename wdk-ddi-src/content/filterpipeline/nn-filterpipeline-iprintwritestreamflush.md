@@ -7,7 +7,7 @@ old-location: print\iprintwritestreamflush.htm
 old-project: print
 ms.assetid: DB3E1127-B3B1-4C48-9819-EEF705B9985A
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/2/2018
 ms.keywords: print.iprintwritestreamflush, IPrintWriteStreamFlush interface [Print Devices], IPrintWriteStreamFlush interface [Print Devices], described, IPrintWriteStreamFlush, filterpipeline/IPrintWriteStreamFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintWriteStreamFlush
 product: Windows
 targetos: Windows

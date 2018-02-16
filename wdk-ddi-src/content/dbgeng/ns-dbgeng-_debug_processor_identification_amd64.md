@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_AMD64
-title: _DEBUG_PROCESSOR_IDENTIFICATION_AMD64
+title: "_DEBUG_PROCESSOR_IDENTIFICATION_AMD64"
 author: windows-driver-content
 description: Identifies an AMD64 processor.
 old-location: debugger\debug_processor_identification_amd64.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 71E28D54-19D2-4A62-9A63-633186F67AD5
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.debug_processor_identification_amd64, PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, _DEBUG_PROCESSOR_IDENTIFICATION_AMD64, *PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure [Windows Debugging], dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, PDEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure pointer [Windows Debugging]
+ms.keywords: DEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure [Windows Debugging], dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, PDEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure pointer [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, debugger.debug_processor_identification_amd64, _DEBUG_PROCESSOR_IDENTIFICATION_AMD64, *PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_AMD64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_PROCESSOR_IDENTIFICATION_AMD64
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_AMD64, *PDEBUG_PROCESSOR_IDENTIFICATION_AMD64
+req.typenames: "*PDEBUG_PROCESSOR_IDENTIFICATION_AMD64, DEBUG_PROCESSOR_IDENTIFICATION_AMD64"
 ---
 
 # _DEBUG_PROCESSOR_IDENTIFICATION_AMD64 structure
@@ -93,6 +93,8 @@ A vendor specified string.
 ## -see-also
 
 <a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_all.md">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
+
+
 
  
 

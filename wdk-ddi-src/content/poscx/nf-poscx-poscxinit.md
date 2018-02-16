@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxInit
 product: Windows
 targetos: Windows
@@ -84,7 +84,9 @@ A pointer to a caller-allocated and initialized <a href="..\poscx\ns-poscx-_pos_
 ## -returns
 
 
+
 An appropriate NTSTATUS error code that indicates success or failure of the initialization.
+
 
 
 
@@ -92,7 +94,11 @@ An appropriate NTSTATUS error code that indicates success or failure of the init
 
 <a href="..\poscx\nf-poscx-pos_cx_attributes_init.md">POS_CX_ATTRIBUTES_INIT</a>
 
+
+
 <a href="..\poscx\ns-poscx-_pos_cx_attributes.md">POS_CX_ATTRIBUTES</a>
+
+
 
  
 

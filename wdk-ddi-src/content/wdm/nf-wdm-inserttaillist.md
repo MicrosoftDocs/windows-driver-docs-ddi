@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9eb470c8-ee37-497e-982e-d32b4b9b7348
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.inserttaillist, wdm/InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, InsertTailList
+ms.keywords: wdm/InsertTailList, k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	InsertTailList
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5542
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>InsertTailList</b> updates <i>ListHead</i>-&gt;<b>Blink</b> to point to <i>Entry</i>. It updates <i>Entry</i>-&gt;<b>Blink</b> to point to the old last entry in the list, and sets <i>Entry</i>-&gt;<b>Flink</b> to <i>ListHead</i>. The <b>Flink</b> of the previous last entry is updated to point to <i>Entry</i> as well.
@@ -97,19 +100,32 @@ Callers of <b>InsertTailList</b> can be running at any IRQL. If <b>InsertTailLis
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
-
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
-
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
-
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
 <a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
 
+
+
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+
+
+
 <a href="..\wdm\nf-wdm-initializelisthead.md">InitializeListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
+
+
 
  
 

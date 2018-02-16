@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 2FA77D7D-E1CC-44BA-8725-7132682A1BD6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices], display.d3d12ddiarg_create_video_processor
+ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, display.d3d12ddiarg_create_video_processor, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
 product: Windows
 targetos: Windows
@@ -81,13 +81,17 @@ Specifies a hint for the intended usage for the video processor. For more inform
 ## -remarks
 
 
+
 A video processor holds state for a video processing session. State includes required intermediate memory, cached processing data, or other temporary working space.  A separate video processor must be created for each content stream by the application.  
+
 
 
 
 ## -see-also
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a>
+
+
 
  
 

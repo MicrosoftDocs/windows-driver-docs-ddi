@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wlanihv.h
-apiname: 
+apiname:
 -	Dot11ExtIhvReceivePacket
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W, DRIVER_INFO_8W
+req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -98,17 +98,21 @@ A pointer to a buffer, allocated by the operating system, which contains the pac
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The operating system calls the 
     <i>Dot11ExtIhvReceivePacket</i> function when the following occur:
+
 <ul>
 <li>
 The WLAN adapter receives a packet and the Native 802.11 miniport driver, which manages the adapter,
@@ -118,17 +122,19 @@ The WLAN adapter receives a packet and the Native 802.11 miniport driver, which 
 <li>
 The packet's IEEE EtherType matches an entry in the list of EtherTypes specified by the IHV
       Extensions DLL through a call to the 
-      <mshelp:link keywords="netvista.dot11extsetethertypehandling" tabindex="0"><b>
-      Dot11ExtSetEtherTypeHandling</b></mshelp:link> function.
+      <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">
+      Dot11ExtSetEtherTypeHandling</a> function.
 
 </li>
-</ul>The buffer pointed to by 
+</ul>
+The buffer pointed to by 
     <i>pvPacket</i> should contain the following packet data, specified in network byte order:
+
 <ul>
 <li>
 MAC address of destination (6 bytes), formatted according to the guidelines discussed in 
-      <mshelp:link keywords="netvista.802_11_mac_header_management" tabindex="0">802.11 MAC Header
-      Management</mshelp:link>
+      <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header
+      Management</a>
 
 
 </li>
@@ -143,11 +149,16 @@ Payload
 </ul>
 
 
+
 ## -see-also
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: EE300158-D7D8-4353-B205-362232A22568
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: VmbChannelUnmapGpadl function [Network Drivers Starting with Windows Vista], VmbChannelUnmapGpadl, vmbuskernelmodeclientlibapi/VmbChannelUnmapGpadl, netvista.vmbchannelunmapgpadl
+ms.keywords: VmbChannelUnmapGpadl, VmbChannelUnmapGpadl function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelUnmapGpadl, netvista.vmbchannelunmapgpadl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+apiname:
 -	VmbChannelUnmapGpadl
 product: Windows
 targetos: Windows
@@ -85,13 +85,17 @@ The handle of the GPADL to unmap.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md">VmbChannelMapGpadl</a>
+
+
 
  
 

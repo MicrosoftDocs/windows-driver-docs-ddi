@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_SET_DRIVE_PARAMETERS
-title: _TAPE_SET_DRIVE_PARAMETERS
+title: "_TAPE_SET_DRIVE_PARAMETERS"
 author: windows-driver-content
 description: The TAPE_SET_DRIVE_PARAMETERS structure is used in conjunction with the IOCTL_TAPE_SET_DRIVE_PARAMS request to adjust the configurable parameters of a tape drive.
 old-location: storage\tape_set_drive_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 87317972-b0df-4691-a9a5-bd0bbc150e53
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddtape/TAPE_SET_DRIVE_PARAMETERS, PTAPE_SET_DRIVE_PARAMETERS, structs-tape_621b7e53-4f98-4fad-9f75-28420dc78031.xml, storage.tape_set_drive_parameters, PTAPE_SET_DRIVE_PARAMETERS structure pointer [Storage Devices], TAPE_SET_DRIVE_PARAMETERS structure [Storage Devices], ntddtape/PTAPE_SET_DRIVE_PARAMETERS, _TAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS
+ms.keywords: ntddtape/TAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS structure [Storage Devices], storage.tape_set_drive_parameters, PTAPE_SET_DRIVE_PARAMETERS, _TAPE_SET_DRIVE_PARAMETERS, structs-tape_621b7e53-4f98-4fad-9f75-28420dc78031.xml, PTAPE_SET_DRIVE_PARAMETERS structure pointer [Storage Devices], ntddtape/PTAPE_SET_DRIVE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddtape.h
-apiname: 
+apiname:
 -	TAPE_SET_DRIVE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PTAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS
+req.typenames: TAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS
 ---
 
 # _TAPE_SET_DRIVE_PARAMETERS structure
@@ -99,15 +99,21 @@ Indicates the size in bytes of the early warning zone toward the end of the tape
 ## -remarks
 
 
+
 The miniclass driver can ignore parameters its device does not support. The calling application is responsible for determining whether a device supports a particular feature before attempting to set it.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567952">TapeMiniSetDriveParameters</a>
+
+
+
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_drive_params.md">IOCTL_TAPE_SET_DRIVE_PARAMS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567952">TapeMiniSetDriveParameters</a>
+
 
  
 

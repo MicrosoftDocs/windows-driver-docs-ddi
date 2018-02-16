@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: B533B0DD-B72C-4294-8E88-4C15EA1BB16E
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function [Display Devices], D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, display.d3dkmdt_vppr_get_content_rotation_part
+ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, display.d3dkmdt_vppr_get_content_rotation_part
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ On output, a value between 1 and 4, inclusive, that corresponds to the <b>ROTATI
 
 
 ## -returns
+
 
 
 The returned value corresponds to the rotation angle as follows:<table>
@@ -195,10 +196,13 @@ The returned value corresponds to the rotation angle as follows:<table>
 
 
 
+
 ## -remarks
 
 
+
 This function is declared inline in D3dkmdt.h as:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -221,13 +225,17 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 }</pre>
 </td>
 </tr>
-</table></span></div>Your driver typically won't need to call this function.
+</table></span></div>
+Your driver typically won't need to call this function.
+
 
 
 
 ## -see-also
 
 <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
+
+
 
  
 

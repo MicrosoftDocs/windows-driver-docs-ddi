@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dsound.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dsound.h
-apiname: 
+apiname:
 -	IKsPropertySet
 product: Windows
 targetos: Windows
-req.typenames: DRMRIGHTS, *PDRMRIGHTS
+req.typenames: "*PDRMRIGHTS, DRMRIGHTS"
 ---
 
 # IKsPropertySet interface
@@ -103,8 +103,10 @@ Sets a property.
 ## -remarks
 
 
+
 The <b>IKsPropertySet</b> interface methods translate user-mode property requests into kernel-mode property sets that are used by KS minidrivers. 
 
 KS objects include, for example, KS filters, KS pins, and KS clocks. 
+
 
 

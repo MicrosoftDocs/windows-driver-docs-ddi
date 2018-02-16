@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08f0b4c0-ba77-450d-8b93-73231bbf760c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/SeAssignSecurity, kernel.seassignsecurity, k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, SeAssignSecurity routine [Kernel-Mode Driver Architecture], SeAssignSecurity
+ms.keywords: wdm/SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, kernel.seassignsecurity, SeAssignSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	SeAssignSecurity
 product: Windows
 targetos: Windows
@@ -113,7 +113,9 @@ This parameter is unused.  The buffer to hold the new security descriptor is alw
 ## -returns
 
 
+
 <b>SeAssignSecurity</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -152,11 +154,14 @@ The caller does not have the privilege (<b>SeSecurityPrivilege</b>) necessary to
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The final security descriptor returned to the caller may contain a mix of information, some explicitly provided from the new object's parent.
@@ -164,6 +169,7 @@ The final security descriptor returned to the caller may contain a mix of inform
 <b>SeAssignSecurity</b> assumes privilege checking has not been performed. This routine performs privilege checking.
 
 The assignment of system and discretionary ACLs is governed by the logic illustrated in the following table:
+
 <table>
 <tr>
 <th></th>
@@ -208,11 +214,13 @@ Assign no ACL
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 An explicitly specified ACL, whether a default ACL or not, can be empty or null. The caller must be a kernel-mode client or be appropriately privileged to explicitly assign a default or nondefault system ACL.
 
 The assignment of the new object's owner and group is governed by the following logic:
+
 <ul>
 <li>
 If the passed security descriptor includes an owner, it is assigned as the new object's owner. Otherwise, the caller's token is considered to determine the owner. Within the token, the default owner, if any, is assigned. Otherwise, the caller's user ID is assigned.
@@ -225,15 +233,24 @@ If the passed security descriptor includes a group, it is assigned as the new ob
 </ul>
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
 
 <a href="..\ntddk\nf-ntddk-iogetfileobjectgenericmapping.md">IoGetFileObjectGenericMapping</a>
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+<a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
+
+
+
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
+
 
  
 

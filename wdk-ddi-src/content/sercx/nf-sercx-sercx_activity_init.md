@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 211A3DBB-96B8-4DB5-BB50-FAB7500D999F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 1/SERCX_ACTIVITY_INIT, serports.sercx_activity_init, SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT function [Serial Ports]
+ms.keywords: SERCX_ACTIVITY_INIT, serports.sercx_activity_init, SERCX_ACTIVITY_INIT function [Serial Ports], 1/SERCX_ACTIVITY_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any IRQL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX_ACTIVITY_INIT
 product: Windows
 targetos: Windows
@@ -76,13 +76,17 @@ A pointer to the <b>SERCX_ACTIVITY</b> structure that is to be initialized.
 ## -returns
 
 
+
 None.
+
 
 
 
 ## -see-also
 
 <a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
+
+
 
  
 

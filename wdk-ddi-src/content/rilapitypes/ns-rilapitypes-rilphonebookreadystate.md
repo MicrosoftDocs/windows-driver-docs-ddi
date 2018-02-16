@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILPHONEBOOKREADYSTATE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE
+req.typenames: "*LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE"
 req.product: Windows 10 or later.
 ---
 
@@ -73,11 +73,8 @@ typedef struct _RILPHONEBOOKREADYSTATE {
 ### -field cbSize
 
 
-
 ### -field hUiccApp
 
 
-
 ### -field dwStoreLocations
-
 

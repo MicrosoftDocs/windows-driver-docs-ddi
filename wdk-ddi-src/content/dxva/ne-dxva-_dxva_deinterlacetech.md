@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_DeinterlaceTech
-title: _DXVA_DeinterlaceTech
+title: "_DXVA_DeinterlaceTech"
 author: windows-driver-content
 description: The DXVA_DeinterlaceTech enumeration identifies the underlying technology used to implement a particular deinterlace algorithm.
 old-location: display\dxva_deinterlacetech.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 06d6b4db-293d-409e-a725-bb86bc6b3d11
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXVA_DeinterlaceTech_EdgeFiltering, dxva/DXVA_DeinterlaceTech, dxvaref_ce829a5b-1e09-43e6-b90c-f7501476f280.xml, dxva/DXVA_DeinterlaceTech_MotionVectorSteered, DXVA_DeinterlaceTech_BOBVerticalStretch4Tap, DXVA_DeinterlaceTech_FieldAdaptive, DXVA_DeinterlaceTech_Unknown, _DXVA_DeinterlaceTech, dxva/DXVA_DeinterlaceTech_PixelAdaptive, DXVA_DeinterlaceTech, dxva/DXVA_DeinterlaceTech_BOBLineReplicate, DXVA_DeinterlaceTech enumeration [Display Devices], dxva/DXVA_DeinterlaceTech_BOBVerticalStretch, dxva/DXVA_DeinterlaceTech_MedianFiltering, DXVA_DeinterlaceTech_MotionVectorSteered, DXVA_DeinterlaceTech_MedianFiltering, dxva/DXVA_DeinterlaceTech_Unknown, DXVA_DeinterlaceTech_BOBLineReplicate, DXVA_DeinterlaceTech_BOBVerticalStretch, display.dxva_deinterlacetech, dxva/DXVA_DeinterlaceTech_BOBVerticalStretch4Tap, dxva/DXVA_DeinterlaceTech_FieldAdaptive, dxva/DXVA_DeinterlaceTech_EdgeFiltering, DXVA_DeinterlaceTech_PixelAdaptive
+ms.keywords: DXVA_DeinterlaceTech_BOBVerticalStretch, dxva/DXVA_DeinterlaceTech_BOBVerticalStretch, dxva/DXVA_DeinterlaceTech_FieldAdaptive, DXVA_DeinterlaceTech_Unknown, DXVA_DeinterlaceTech, DXVA_DeinterlaceTech_EdgeFiltering, DXVA_DeinterlaceTech_FieldAdaptive, dxva/DXVA_DeinterlaceTech_MotionVectorSteered, dxvaref_ce829a5b-1e09-43e6-b90c-f7501476f280.xml, DXVA_DeinterlaceTech_MedianFiltering, dxva/DXVA_DeinterlaceTech_Unknown, dxva/DXVA_DeinterlaceTech, dxva/DXVA_DeinterlaceTech_MedianFiltering, DXVA_DeinterlaceTech enumeration [Display Devices], display.dxva_deinterlacetech, _DXVA_DeinterlaceTech, dxva/DXVA_DeinterlaceTech_BOBVerticalStretch4Tap, DXVA_DeinterlaceTech_PixelAdaptive, dxva/DXVA_DeinterlaceTech_PixelAdaptive, dxva/DXVA_DeinterlaceTech_EdgeFiltering, dxva/DXVA_DeinterlaceTech_BOBLineReplicate, DXVA_DeinterlaceTech_BOBLineReplicate, DXVA_DeinterlaceTech_MotionVectorSteered, DXVA_DeinterlaceTech_BOBVerticalStretch4Tap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_DeinterlaceTech
 product: Windows
 targetos: Windows
@@ -123,6 +123,8 @@ Identifies objects within a sequence of video fields. The missing pixels are rec
 ## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
+
 
  
 

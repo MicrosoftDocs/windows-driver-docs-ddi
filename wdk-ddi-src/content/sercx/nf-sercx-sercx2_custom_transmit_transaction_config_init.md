@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 098A7BB0-B135-4E99-8BDA-1EF29A8C338F
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT function [Serial Ports], SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, 2/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, serports.sercx2_custom_transmit_transaction_config_init
+ms.keywords: serports.sercx2_custom_transmit_transaction_config_init, SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT function [Serial Ports], 2/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	2.0\Sercx.h
-apiname: 
+apiname:
 -	SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ The value to load into the <b>EvtSerCx2CustomTransmitTransactionStart</b> member
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 Your serial controller driver must use this function to initialize a <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a> method.
@@ -95,11 +98,16 @@ Your serial controller driver must use this function to initialize a <a href="..
 
 
 
+
 ## -see-also
 
 <a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
 
+
+
 <a href="..\sercx\ns-sercx-_sercx2_custom_transmit_transaction_config.md">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a>
+
+
 
  
 

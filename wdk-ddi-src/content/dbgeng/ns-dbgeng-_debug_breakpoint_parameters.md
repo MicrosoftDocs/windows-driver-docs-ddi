@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_BREAKPOINT_PARAMETERS
-title: _DEBUG_BREAKPOINT_PARAMETERS
+title: "_DEBUG_BREAKPOINT_PARAMETERS"
 author: windows-driver-content
 description: The DEBUG_BREAKPOINT_PARAMETERS structure contains most of the parameters for describing a breakpoint.
 old-location: debugger\debug_breakpoint_parameters.htm
@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: e5c87c1c-8195-4476-84bc-5f18ad83d149
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: PDEBUG_BREAKPOINT_PARAMETERS, debugger.debug_breakpoint_parameters, PDEBUG_BREAKPOINT_PARAMETERS structure pointer [Windows Debugging], *PDEBUG_BREAKPOINT_PARAMETERS, dbgeng/DEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS structure [Windows Debugging], DEBUG_BREAKPOINT_PARAMETERS, _DEBUG_BREAKPOINT_PARAMETERS, dbgeng/PDEBUG_BREAKPOINT_PARAMETERS, Structures_ad5f0e1f-7d6f-498d-80a0-1275ca3cb016.xml
+ms.keywords: PDEBUG_BREAKPOINT_PARAMETERS, PDEBUG_BREAKPOINT_PARAMETERS structure pointer [Windows Debugging], _DEBUG_BREAKPOINT_PARAMETERS, debugger.debug_breakpoint_parameters, Structures_ad5f0e1f-7d6f-498d-80a0-1275ca3cb016.xml, dbgeng/DEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS structure [Windows Debugging], *PDEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS, dbgeng/PDEBUG_BREAKPOINT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	DbgEng.h
-apiname: 
+apiname:
 -	DEBUG_BREAKPOINT_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS
+req.typenames: DEBUG_BREAKPOINT_PARAMETERS, *PDEBUG_BREAKPOINT_PARAMETERS
 ---
 
 # _DEBUG_BREAKPOINT_PARAMETERS structure
@@ -141,6 +141,8 @@ The size, in characters, of the expression string that evaluates to the location
 ## -remarks
 
 
+
 For an overview of how to use breakpoints, and a description of all breakpoint-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>.
+
 
 

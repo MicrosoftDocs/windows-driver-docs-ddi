@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi.__MIDL___MIDL_itf_wudfddi_0000_0000_0001
-title: __MIDL___MIDL_itf_wudfddi_0000_0000_0001
+title: "__MIDL___MIDL_itf_wudfddi_0000_0000_0001"
 author: windows-driver-content
 description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 old-location: wdf\power_action.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: umdf.power_action, PPOWER_ACTION enumeration pointer, __MIDL___MIDL_itf_wudfddi_0000_0000_0001, PowerActionShutdownReset, wudfddi/PowerActionNone, wudfddi/PowerActionReserved, PowerActionWarmEject, wdf.power_action, wudfddi/PowerActionHibernate, PowerActionSleep, wudfddi/PowerActionWarmEject, wudfddi/PowerActionSleep, PowerActionReserved, wudfddi/POWER_ACTION, wudfddi/PowerActionShutdownOff, PowerActionShutdownOff, PowerActionNone, POWER_ACTION enumeration, wudfddi/PowerActionShutdownReset, PPOWER_ACTION, wudfddi/PPOWER_ACTION, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, *PPOWER_ACTION, PowerActionShutdown, PowerActionHibernate, POWER_ACTION, wudfddi/PowerActionShutdown
+ms.keywords: wudfddi/POWER_ACTION, umdf.power_action, PPOWER_ACTION enumeration pointer, POWER_ACTION, PowerActionSleep, PowerActionNone, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, *PPOWER_ACTION, wudfddi/PPOWER_ACTION, wudfddi/PowerActionNone, PowerActionWarmEject, PowerActionShutdownReset, wudfddi/PowerActionSleep, PowerActionHibernate, wudfddi/PowerActionWarmEject, wudfddi/PowerActionShutdownOff, PowerActionReserved, wudfddi/PowerActionShutdown, wdf.power_action, PowerActionShutdown, PowerActionShutdownOff, PPOWER_ACTION, POWER_ACTION enumeration, __MIDL___MIDL_itf_wudfddi_0000_0000_0001, wudfddi/PowerActionReserved, wudfddi/PowerActionHibernate, wudfddi/PowerActionShutdownReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	POWER_ACTION
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -120,13 +120,17 @@ The computer is being ejected from an ACPI-compatible dock device. Typically, th
 ## -remarks
 
 
+
 The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>
+
+
 
  
 

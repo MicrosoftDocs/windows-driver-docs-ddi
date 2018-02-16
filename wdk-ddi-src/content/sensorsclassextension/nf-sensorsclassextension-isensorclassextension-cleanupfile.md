@@ -7,8 +7,8 @@ old-location: sensors\isensorclassextension_cleanupfile.htm
 old-project: sensors
 ms.assetid: eeade123-fb83-478f-99e3-e79bbbb1919b
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ISensorClassExtension, CleanupFile method [Sensor Devices], CleanupFile, ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile
+ms.date: 2/8/2018
+ms.keywords: ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile, CleanupFile method [Sensor Devices], ISensorClassExtension, CleanupFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	SensorsClassExtension.lib
 -	SensorsClassExtension.dll
-apiname: 
+apiname:
 -	CleanupFile
 product: Windows
 targetos: Windows
@@ -77,7 +77,9 @@ Pointer to an IWDFFile interface that represents the file object for the applica
 ## -returns
 
 
+
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -116,15 +118,19 @@ The class extension is not initialized.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Your driver must call this method to forward <a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a> method calls from UMDF. You receive this call any time that a file handle closes. Typically, you receive this call after an application stops responding.
 
 When finished, the sensor class extension calls the driver in <a href="https://msdn.microsoft.com/9484610b-4cbd-4c4e-9e60-ef052702325c">ISensorDriver::OnClientDisconnect</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>, if applicable.
+
 
 

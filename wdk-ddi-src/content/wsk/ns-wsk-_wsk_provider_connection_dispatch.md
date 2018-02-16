@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_CONNECTION_DISPATCH
-title: _WSK_PROVIDER_CONNECTION_DISPATCH
+title: "_WSK_PROVIDER_CONNECTION_DISPATCH"
 author: windows-driver-content
 description: The WSK_PROVIDER_CONNECTION_DISPATCH structure specifies the WSK subsystem's table of functions for a connection-oriented socket.
 old-location: netvista\wsk_provider_connection_dispatch.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70a86809-07f2-4723-9e50-4dbdd31ff900
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wsk/WSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_CONNECTION_DISPATCH, PWSK_PROVIDER_CONNECTION_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_provider_connection_dispatch, *PWSK_PROVIDER_CONNECTION_DISPATCH, wskref_b6ef1db8-e10d-44bd-a3df-9dee672b2b9e.xml, PWSK_PROVIDER_CONNECTION_DISPATCH, wsk/PWSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH
+ms.keywords: wskref_b6ef1db8-e10d-44bd-a3df-9dee672b2b9e.xml, PWSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH structure [Network Drivers Starting with Windows Vista], wsk/WSK_PROVIDER_CONNECTION_DISPATCH, wsk/PWSK_PROVIDER_CONNECTION_DISPATCH, *PWSK_PROVIDER_CONNECTION_DISPATCH, netvista.wsk_provider_connection_dispatch, _WSK_PROVIDER_CONNECTION_DISPATCH, PWSK_PROVIDER_CONNECTION_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_CONNECTION_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wsk.h
-apiname: 
+apiname:
 -	WSK_PROVIDER_CONNECTION_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: *PWSK_PROVIDER_CONNECTION_DISPATCH, WSK_PROVIDER_CONNECTION_DISPATCH
+req.typenames: WSK_PROVIDER_CONNECTION_DISPATCH, *PWSK_PROVIDER_CONNECTION_DISPATCH
 req.product: Windows 10 or later.
 ---
 
@@ -81,8 +81,8 @@ typedef struct _WSK_PROVIDER_CONNECTION_DISPATCH {
 ### -field Basic
 
 The members of the 
-     <mshelp:link keywords="netvista.wsk_provider_basic_dispatch" tabindex="0"><b>
-     WSK_PROVIDER_BASIC_DISPATCH</b></mshelp:link> structure are included as members of the 
+     <a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">
+     WSK_PROVIDER_BASIC_DISPATCH</a> structure are included as members of the 
      <b>WSK_PROVIDER_CONNECTION_DISPATCH</b> structure.
 
 
@@ -147,9 +147,10 @@ A pointer to the WSK subsystem's
 ## -remarks
 
 
+
 The member list of the WSK_PROVIDER_CONNECTION_DISPATCH structure includes an unnamed 
-    <mshelp:link keywords="netvista.wsk_provider_basic_dispatch" tabindex="0"><b>
-    WSK_PROVIDER_BASIC_DISPATCH</b></mshelp:link> structure. The compiler that is included with the WDK supports a
+    <a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">
+    WSK_PROVIDER_BASIC_DISPATCH</a> structure. The compiler that is included with the WDK supports a
     Microsoft-specific extension to the C language that allows unnamed structures within structure
     declarations. The result is that the structure members of the WSK_PROVIDER_BASIC_DISPATCH structure are
     included in the WSK_PROVIDER_CONNECTION_DISPATCH structure as if they were native members of the
@@ -157,6 +158,7 @@ The member list of the WSK_PROVIDER_CONNECTION_DISPATCH structure includes an un
 
 A WSK application receives a pointer to a WSK_PROVIDER_CONNECTION_DISPATCH structure in one of the
     following ways:
+
 <ul>
 <li>
 The WSK application calls the 
@@ -183,49 +185,85 @@ The WSK subsystem calls the WSK application's
       socket.
 
 </li>
-</ul>The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in the 
+</ul>
+The pointer to the WSK_PROVIDER_CONNECTION_DISPATCH structure is contained in the 
     <b>Dispatch</b> member of the 
     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that is received from the
     WSK subsystem.
 
 
 
+
 ## -see-also
-
-<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
-
-<mshelp:link keywords="netvista.wsk_client_connection_dispatch" tabindex="0"><b>
-   WSK_CLIENT_CONNECTION_DISPATCH</b></mshelp:link>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-<a href="..\wsk\nc-wsk-pfn_wsk_get_local_address.md">WskGetLocalAddress</a>
 
 <a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
 
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+   WSK_CLIENT_CONNECTION_DISPATCH</a>
+
+
+
 <a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_get_local_address.md">WskGetLocalAddress</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
+
+
 
  
 

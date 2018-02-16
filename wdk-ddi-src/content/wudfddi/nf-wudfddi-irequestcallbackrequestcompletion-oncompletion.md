@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4787da-2813-4a7a-820a-5c078175aba5
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_b3ec1892-f32f-4c52-80f6-8699a358ea8d.xml, wudfddi/IRequestCallbackRequestCompletion::OnCompletion, IRequestCallbackRequestCompletion::OnCompletion, wdf.irequestcallbackrequestcompletion_oncompletion, umdf.irequestcallbackrequestcompletion_oncompletion, OnCompletion, IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion interface, OnCompletion method, OnCompletion method, OnCompletion method, IRequestCallbackRequestCompletion interface
+ms.keywords: UMDFRequestObjectRef_b3ec1892-f32f-4c52-80f6-8699a358ea8d.xml, IRequestCallbackRequestCompletion::OnCompletion, OnCompletion, umdf.irequestcallbackrequestcompletion_oncompletion, wudfddi/IRequestCallbackRequestCompletion::OnCompletion, IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion interface, OnCompletion method, OnCompletion method, OnCompletion method, IRequestCallbackRequestCompletion interface, wdf.irequestcallbackrequestcompletion_oncompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wudfddi.h
-apiname: 
+apiname:
 -	IRequestCallbackRequestCompletion.OnCompletion
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -96,28 +96,42 @@ A pointer to a buffer that contains context information that is related to the c
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A driver registers the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a> method. 
+
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
+
+
+<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
+
+
 
 <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
 
  
 

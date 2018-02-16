@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7f74cbf1-2382-471c-ab07-fdb7e615cb0b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPinGetCopyRelationships function [Streaming Media Devices], ks/KsPinGetCopyRelationships, stream.kspingetcopyrelationships, avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, KsPinGetCopyRelationships
+ms.keywords: stream.kspingetcopyrelationships, KsPinGetCopyRelationships function [Streaming Media Devices], ks/KsPinGetCopyRelationships, avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, KsPinGetCopyRelationships
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinGetCopyRelationships
 product: Windows
 targetos: Windows
@@ -88,11 +88,14 @@ A pointer to a pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure 
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 
@@ -108,11 +111,16 @@ For more information, see <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
+
+
 <a href="..\ks\ns-ks-_ksprocesspin.md">KSPROCESSPIN</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: be6c46bb-9c14-4daf-b76a-679d71269965
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SQ_NUMSIGNALBARS, RIL_PARAM_SQ_SYSTEMTYPE, RIL_PARAM_SQ_SIGNALSTRENGTH, rilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, rilapitypes/RILSIGNALQUALITYPARAMMASK, RIL_PARAM_SQ_ALL, netvista.rilsignalqualityparammask_2, rilapitypes/RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_SNR, rilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, rilapitypes/RIL_PARAM_SQ_SYSTEMTYPE, RILSIGNALQUALITYPARAMMASK, rilapitypes/RIL_PARAM_SQ_SNR
+ms.keywords: RIL_PARAM_SQ_SYSTEMTYPE, rilapitypes/RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_SIGNALSTRENGTH, rilapitypes/RILSIGNALQUALITYPARAMMASK, netvista.rilsignalqualityparammask_2, RIL_PARAM_SQ_SNR, RILSIGNALQUALITYPARAMMASK, rilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_NUMSIGNALBARS, RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SQ_SYSTEMTYPE, rilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, rilapitypes/RIL_PARAM_SQ_SNR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSIGNALQUALITYPARAMMASK
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILSIGNALQUALITYPARAMMASK {
 ### -field RIL_PARAM_SQ_EXECUTOR
 
 
-
 ### -field RIL_PARAM_SQ_SYSTEMTYPE
-
 
 
 ### -field RIL_PARAM_SQ_NUMSIGNALBARS
 
 
-
 ### -field RIL_PARAM_SQ_SIGNALSTRENGTH
-
 
 
 ### -field RIL_PARAM_SQ_SNR
 
 
-
 ### -field RIL_PARAM_SQ_ALL
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CONNECTIONS
-title: _NDIS_NDK_CONNECTIONS
+title: "_NDIS_NDK_CONNECTIONS"
 author: windows-driver-content
 description: The NDIS_NDK_CONNECTIONS structure describes the NDK connections that are active on a miniport adapter.
 old-location: netvista\ndis_ndk_connections.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24149E73-6BA8-4C5E-8649-25A90A3D01AF
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, NDIS_NDK_CONNECTIONS
+ms.keywords: PNDIS_NDK_CONNECTIONS, ntddndis/PNDIS_NDK_CONNECTIONS, _NDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], NDIS_NDK_CONNECTIONS, ntddndis/NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_NDK_CONNECTIONS
 product: Windows
 targetos: Windows
@@ -73,6 +73,7 @@ typedef struct _NDIS_NDK_CONNECTIONS {
 ### -field Header
 
 An <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CONNECTIONS</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
+
 <ul>
 <li>Set the <b>Type</b> member to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.</li>
 <li>Set the <b>Revision</b> member to <b>NDIS_NDK_CONNECTIONS_REVISION_1</b>.</li>
@@ -102,6 +103,7 @@ A variable-sized array of <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_
 ## -remarks
 
 
+
 The <b>NDIS_NDK_CONNECTIONS</b> structure is returned with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a> OID. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
 
 
@@ -109,6 +111,7 @@ The <b>NDIS_NDK_CONNECTIONS</b> structure is returned with the <a href="https://
 This structure is variable-sized and contains elements equal in number to the number of connections that are returned. The actual size of the connection array as an element count is indicated by the <b>Count</b> member. 
 
 If the RDMA technology for the NDK provider requires the provider to map ND connections to TCP connections, the NDK provider must also report the underlying TCP connection 4-tuple for each ND connection as follows:
+
 <ul>
 <li>Set the <b>NDConnectionsMappedtoTCPConnections</b> member to TRUE.</li>
 <li>Use two consecutive entries for each ND connection. The first entry contains the ND addressing information (local and remote IP address, and ND port number) and the immediate next entry contains the corresponding TCP connection's addressing information (local and remote IP address, and TCP port number). 
@@ -120,13 +123,20 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a>
 
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 3487addb-e196-4295-95fc-0590802e766a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface, debugger.getbreakpointbyindex2, IDebugControl4, IDebugControl4::GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], GetBreakpointByIndex2, IDebugControl4 interface [Windows Debugging], GetBreakpointByIndex2 method
+ms.keywords: GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4 interface, GetBreakpointByIndex2, GetBreakpointByIndex2 method [Windows Debugging], IDebugControl4::GetBreakpointByIndex2, debugger.getbreakpointbyindex2, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetBreakpointByIndex2 method, dbgeng/IDebugControl4::GetBreakpointByIndex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetBreakpointByIndex2
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetBreakpointByIndex2 method
@@ -81,7 +81,9 @@ Receives the returned breakpoint.
 ## -returns
 
 
+
 This method can also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -109,14 +111,18 @@ No breakpoint was found with the given index, or the breakpoint with the given i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The index and returned breakpoint are specific to the current process.  The same index will return a different breakpoint if the current process is changed.
+
 
 
 
@@ -124,7 +130,11 @@ The index and returned breakpoint are specific to the current process.  The same
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>
 
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

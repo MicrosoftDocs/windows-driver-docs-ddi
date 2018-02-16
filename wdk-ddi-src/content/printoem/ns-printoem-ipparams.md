@@ -7,8 +7,8 @@ old-location: print\ipparams.htm
 old-project: print
 ms.assetid: 14ed4180-9ac1-46dd-af76-8d79a2a1fd2d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/IPPARAMS, *PIPPARAMS, print.ipparams, printoem/PIPPARAMS, IPPARAMS, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, IPPARAMS structure [Print Devices], PIPPARAMS structure pointer [Print Devices], PIPPARAMS
+ms.date: 2/2/2018
+ms.keywords: "*PIPPARAMS, PIPPARAMS, IPPARAMS structure [Print Devices], printoem/PIPPARAMS, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, IPPARAMS, printoem/IPPARAMS, PIPPARAMS structure pointer [Print Devices], print.ipparams"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	IPPARAMS
 product: Windows
 targetos: Windows
-req.typenames: IPPARAMS, *PIPPARAMS
+req.typenames: "*PIPPARAMS, IPPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -101,11 +101,15 @@ Specifies whether a blank band was drawn in the source bitmap supplied to <a hre
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPPARAMS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPPARAMS structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

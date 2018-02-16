@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	pfnMapGpuVirtualAddressCb
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ A handle to the display device.
 
 
 
+
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">D3DDDI_MAPGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
@@ -97,7 +99,9 @@ A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">
 ## -returns
 
 
+
 <b>pfnMapGpuVirtualAddressCb</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,17 +129,23 @@ The call was successful, but the operation is not finished. The caller must wait
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other values.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">D3DDDI_MAPGPUVIRTUALADDRESS</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">D3DDDI_MAPGPUVIRTUALADDRESS</a>
+
 
  
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d38ede60-9bcf-4c90-8c41-8f1edf1a1d23
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: IWDFIoTarget interface, GetTargetFile method, GetTargetFile method, GetTargetFile method, IWDFIoTarget interface, wdf.iwdfiotarget_gettargetfile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, umdf.iwdfiotarget_gettargetfile, IWDFIoTarget, GetTargetFile, IWDFIoTarget::GetTargetFile, wudfddi/IWDFIoTarget::GetTargetFile
+ms.keywords: GetTargetFile method, IWDFIoTarget interface, IWDFIoTarget, IWDFIoTarget::GetTargetFile, wudfddi/IWDFIoTarget::GetTargetFile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, wdf.iwdfiotarget_gettargetfile, GetTargetFile, IWDFIoTarget interface, GetTargetFile method, umdf.iwdfiotarget_gettargetfile, GetTargetFile method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoTarget.GetTargetFile
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -76,6 +76,7 @@ void GetTargetFile(
 
 
 
+
 #### - ppFileObject [out]
 
 Pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the I/O target's file object.
@@ -84,11 +85,14 @@ Pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfdd
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 If  a framework file object is associated with an I/O target object, the framework includes the file object  with I/O requests that  the driver sends to the I/O target object. 
@@ -100,12 +104,23 @@ The default I/O target has no file object, so a call to <b>GetTargetFile</b> for
 For more information about I/O targets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">Using I/O Targets in UMDF</a>.
 
 
+#### Examples
+
+For a code example of how to use the <b>GetTargetFile</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
+<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+
 
  
 

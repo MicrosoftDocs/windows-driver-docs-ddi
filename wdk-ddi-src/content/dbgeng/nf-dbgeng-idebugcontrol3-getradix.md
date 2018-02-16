@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eae478e1-f70c-4344-a6e0-982a668c1f5d
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetRadix method [Windows Debugging], IDebugControl interface, debugger.getradix, IDebugControl3 interface [Windows Debugging], GetRadix method, GetRadix method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetRadix, dbgeng/IDebugControl3::GetRadix, IDebugControl interface [Windows Debugging], GetRadix method, GetRadix method [Windows Debugging], IDebugControl3, IDebugControl2::GetRadix, dbgeng/IDebugControl::GetRadix, IDebugControl::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, GetRadix, IDebugControl2 interface [Windows Debugging], GetRadix method, GetRadix method [Windows Debugging], IDebugControl2 interface, IDebugControl3::GetRadix
+ms.keywords: GetRadix, dbgeng/IDebugControl::GetRadix, IDebugControl3, GetRadix method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::GetRadix, GetRadix method [Windows Debugging], IDebugControl interface, GetRadix method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetRadix, IDebugControl::GetRadix, IDebugControl3::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, GetRadix method [Windows Debugging], IDebugControl2::GetRadix, IDebugControl3 interface [Windows Debugging], GetRadix method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetRadix method, IDebugControl, IDebugControl interface [Windows Debugging], GetRadix method, debugger.getradix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.GetRadix
 -	IDebugControl2.GetRadix
 -	IDebugControl3.GetRadix
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::GetRadix method
@@ -77,7 +77,9 @@ Receives the default radix.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -94,28 +96,42 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about the default radix, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560116">Using Input and Output</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556770">SetRadix</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552287">n (Set Number Base)</a>
+
+
 
  
 

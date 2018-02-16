@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	QueryMiracastDriverInterface
 product: Windows
 targetos: Windows
@@ -84,14 +84,7 @@ This version is defined in Netdispumdddi.h as a <b>MIRACAST_DRIVER_INTERFACE_VER
 The size, supplied by the operating system, of the buffer pointed to by <i>pMiracastDriverInterface</i>.
 
 
-### -param *pMiracastDriverInterface
-
-
-
-
-
-
-#### - pMiracastDriverInterface [out]
+### -param *pMiracastDriverInterface [out]
 
 A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>.
 
@@ -99,22 +92,32 @@ A pointer to a buffer, supplied by the operating system, that holds the returned
 ## -returns
 
 
+
 On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function returns an error code defined in the Ntstatus.h header.
+
 
 
 
 ## -remarks
 
 
+
 When the Miracast user-mode driver is loaded, the operating system calls the <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> function with "QueryMiracastDriverInterface" entered as the function name in the <i>lpProcName</i> parameter.
-<div class="alert"><b>Note</b>  If the Miracast user-mode driver doesn't supply a function with this name, the operating system fails the Miracast display device.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the Miracast user-mode driver doesn't supply a function with this name, the operating system fails the Miracast display device.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>
 
+
+
 <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>
+
+
 
  
 

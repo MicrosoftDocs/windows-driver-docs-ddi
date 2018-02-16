@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._AV_61883_REQUEST
-title: _AV_61883_REQUEST
+title: "_AV_61883_REQUEST"
 author: windows-driver-content
 description: The AV_61883_REQUEST structure is used to pass requests to the IEC-61883 protocol driver.
 old-location: ieee\av_61883_request.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 697fbf86-5c99-4e35-bcb4-a6f5272cc987
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: 61883/PAV_61883_REQUEST, _AV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], IEEE.av_61883_request, 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, 61883/AV_61883_REQUEST, AV_61883_REQUEST structure [Buses], *PAV_61883_REQUEST, AV_61883_REQUEST, PAV_61883_REQUEST
+ms.keywords: 61883_structures_d914a3cc-63dd-4eaf-9d0f-2682e1da78c9.xml, AV_61883_REQUEST, 61883/PAV_61883_REQUEST, *PAV_61883_REQUEST, PAV_61883_REQUEST structure pointer [Buses], IEEE.av_61883_request, _AV_61883_REQUEST, AV_61883_REQUEST structure [Buses], 61883/AV_61883_REQUEST, PAV_61883_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	AV_61883_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: *PAV_61883_REQUEST, AV_61883_REQUEST
+req.typenames: "*PAV_61883_REQUEST, AV_61883_REQUEST"
 ---
 
 # _AV_61883_REQUEST structure
@@ -93,6 +93,21 @@ typedef struct _AV_61883_REQUEST {
 ## -struct-fields
 
 
+
+
+### -field Function
+
+Determines the type of request. Each request type is documented under the value of <b>Function</b> in <a href="https://msdn.microsoft.com/library/windows/hardware/ff537195">IEC-61883 Protocol I/O Requests</a>.
+
+
+### -field Version
+
+The device driver interface (DDI) version for the request. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537219">INIT_61883_HEADER</a> macro initializes <b>Version</b> to CURRENT_61883_DDI_VERSION.
+
+
+### -field Flags
+
+Flags specific to the request. For details, see the reference page for the request. Drivers must set this member to zero for requests that do not use flags.
 
 
 ### -field GetUnitInfo
@@ -215,25 +230,12 @@ A <a href="..\61883\ns-61883-_set_unit_directory.md">SET_UNIT_DIRECTORY</a> stru
 A <a href="..\61883\ns-61883-_cmp_monitor_plugs.md">CMP_MONITOR_PLUGS</a> structure, used if the <b>Function</b> member is <a href="https://msdn.microsoft.com/library/windows/hardware/ff536987">Av61883_MonitorPlugs</a>.
 
 
-### -field Function
-
-Determines the type of request. Each request type is documented under the value of <b>Function</b> in <a href="https://msdn.microsoft.com/library/windows/hardware/ff537195">IEC-61883 Protocol I/O Requests</a>.
-
-
-### -field Version
-
-The device driver interface (DDI) version for the request. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537219">INIT_61883_HEADER</a> macro initializes <b>Version</b> to CURRENT_61883_DDI_VERSION.
-
-
-### -field Flags
-
-Flags specific to the request. For details, see the reference page for the request. Drivers must set this member to zero for requests that do not use flags.
-
-
 ## -remarks
 
 
+
 The <b>Parameters-&gt;</b><b>Others.Arguments1</b> member of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537234">IOCTL_61883_CLASS</a> IRP points to an AV_61883_REQUEST structure. The IEC-61883 protocol driver uses the request structure to determine the type of request made by the client driver, and also to return the results of the operation. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537195">IEC-61883 Protocol I/O Requests</a> for a description of the behavior of each request.
+
 
 
 
@@ -241,7 +243,11 @@ The <b>Parameters-&gt;</b><b>Others.Arguments1</b> member of an <a href="https:/
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537234">IOCTL_61883_CLASS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537219">INIT_61883_HEADER</a>
+
+
 
  
 

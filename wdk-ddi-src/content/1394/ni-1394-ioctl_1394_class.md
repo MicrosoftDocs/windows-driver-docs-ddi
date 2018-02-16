@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	IOCTL_1394_CLASS
 product: Windows
 targetos: Windows
@@ -200,7 +200,9 @@ Legal requests are as follows:
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -212,21 +214,27 @@ Legal requests are as follows:
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -238,6 +246,8 @@ The information the bus driver returns in the I/O Status Block is documented bel
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537241">IOCTL_IEEE1394_API_REQUEST</a>
+
+
 
  
 

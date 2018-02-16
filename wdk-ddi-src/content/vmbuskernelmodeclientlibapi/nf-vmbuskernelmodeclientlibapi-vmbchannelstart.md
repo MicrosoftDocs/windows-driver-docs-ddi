@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: A318FD24-4E48-4DE4-B919-DD1D701F7EA7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelStart, netvista.vmbchannelstart, VmbChannelStart, VmbChannelStart function [Network Drivers Starting with Windows Vista]
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelStart, VmbChannelStart function [Network Drivers Starting with Windows Vista], VmbChannelStart, netvista.vmbchannelstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelStart
 product: Windows
 targetos: Windows
@@ -79,6 +79,8 @@ A handle for a channel that this function modifies.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

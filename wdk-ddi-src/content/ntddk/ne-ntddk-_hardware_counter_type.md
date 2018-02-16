@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._HARDWARE_COUNTER_TYPE
-title: _HARDWARE_COUNTER_TYPE
+title: "_HARDWARE_COUNTER_TYPE"
 author: windows-driver-content
 description: The HARDWARE_COUNTER_TYPE enumeration specifies the type of a hardware counter.
 old-location: kernel\hardware_counter_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 837f5a55-ca07-4462-85d7-203d02df168c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: MaxHardwareCounterType, _HARDWARE_COUNTER_TYPE, ntddk/PHARDWARE_COUNTER_TYPE, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml, ntddk/MaxHardwareCounterType, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], kernel.hardware_counter_type, PHARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE, PMCCounter, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], HARDWARE_COUNTER_TYPE, ntddk/PMCCounter, ntddk/HARDWARE_COUNTER_TYPE
+ms.keywords: ntddk/HARDWARE_COUNTER_TYPE, kernel.hardware_counter_type, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml, PMCCounter, MaxHardwareCounterType, ntddk/PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/MaxHardwareCounterType, PHARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, ntddk/PMCCounter, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _HARDWARE_COUNTER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	HARDWARE_COUNTER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: HARDWARE_COUNTER_TYPE, *PHARDWARE_COUNTER_TYPE
+req.typenames: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE"
 ---
 
 # _HARDWARE_COUNTER_TYPE enumeration
@@ -81,13 +81,17 @@ The maximum value in this enumeration type.
 ## -remarks
 
 
+
 The <b>Type</b> member of the <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a> structure contains a <b>HARDWARE_COUNTER_TYPE</b> enumeration value. 
+
 
 
 
 ## -see-also
 
 <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
+
+
 
  
 

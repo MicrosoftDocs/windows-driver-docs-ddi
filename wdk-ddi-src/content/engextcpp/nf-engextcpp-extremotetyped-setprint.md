@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ae478779-8ec1-4a50-a37c-3017aca2c912
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped interface [Windows Debugging], SetPrint method, SetPrint, ExtRemoteTyped::SetPrint, ExtRemoteTyped, SetPrint method [Windows Debugging], SetPrint method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_setprint, EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml
+ms.keywords: ExtRemoteTyped, EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, SetPrint, ExtRemoteTyped interface [Windows Debugging], SetPrint method, SetPrint method [Windows Debugging], ExtRemoteTyped::SetPrint, SetPrint method [Windows Debugging], ExtRemoteTyped interface, debugger.extremotetyped_setprint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteTyped.SetPrint
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteTyped::SetPrint method
@@ -71,9 +71,12 @@ void SetPrint(
 ### -param Format [in]
 
 The format string used to create the expression.  This is the same as the format string used by the C <b>printf</b> function.
-<div class="alert"><b>Note</b>   While other methods and functions in the debugger engine API provide additional, debugger-specific conversion characters, <b>SetPrint</b> only supports the conversion characters used by <b>printf</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>   While other methods and functions in the debugger engine API provide additional, debugger-specific conversion characters, <b>SetPrint</b> only supports the conversion characters used by <b>printf</b>.</div>
+<div> </div>
 
 ### -param param
+
 
 
 
@@ -87,21 +90,33 @@ The arguments for the format string, as in <b>printf</b>.  The arguments should 
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
-
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64 bool)</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
+
+
+
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
+
+
 
 <a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+
+
 
  
 

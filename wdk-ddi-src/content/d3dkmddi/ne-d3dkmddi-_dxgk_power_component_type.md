@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_POWER_COMPONENT_TYPE
-title: _DXGK_POWER_COMPONENT_TYPE
+title: "_DXGK_POWER_COMPONENT_TYPE"
 author: windows-driver-content
 description: Indicates the power component type that is reported by the display miniport driver to the Microsoft DirectX graphics kernel subsystem.
 old-location: display\dxgk_power_component_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fe732082-5aa1-4265-a76a-bd2e5b733557
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_MONITOR, display.dxgk_power_component_type, DXGK_POWER_COMPONENT_ENGINE, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE
+ms.keywords: d3dkmddi/DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_ENGINE, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE, DXGK_POWER_COMPONENT_OTHER, d3dkmddi/DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], d3dkmddi/DXGK_POWER_COMPONENT_MONITOR, DXGK_POWER_COMPONENT_MONITOR, DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, display.dxgk_power_component_type, _DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_POWER_COMPONENT_TYPE
 product: Windows
 targetos: Windows
@@ -74,7 +74,9 @@ typedef enum _DXGK_POWER_COMPONENT_TYPE {
 ### -field DXGK_POWER_COMPONENT_ENGINE
 
 Indicates that the component is a  GPU engine.
-<div class="alert"><b>Note</b>  An engine can have only one power component assigned.</div><div> </div>
+
+<div class="alert"><b>Note</b>  An engine can have only one power component assigned.</div>
+<div> </div>
 
 ### -field DXGK_POWER_COMPONENT_MONITOR
 
@@ -91,9 +93,7 @@ A typical component of this type is a self-refreshing monitor, which can display
 ### -field DXGK_POWER_COMPONENT_MEMORY
 
 
-
 ### -field DXGK_POWER_COMPONENT_MEMORY_REFRESH
-
 
 
 ### -field DXGK_POWER_COMPONENT_OTHER
@@ -104,9 +104,7 @@ Indicates a component for which the idle state is managed entirely by the displa
 ### -field DXGK_POWER_COMPONENT_D3_TRANSITION
 
 
-
 ### -field DXGK_POWER_COMPONENT_SHARED
-
 
 
 ### -field DXGK_POWER_COMPONENT_MAX

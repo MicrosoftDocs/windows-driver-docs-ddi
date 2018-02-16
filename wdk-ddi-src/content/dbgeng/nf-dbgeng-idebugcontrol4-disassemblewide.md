@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 7df1f9e5-dac2-490b-9eed-28f8bc4e677a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::DisassembleWide, DisassembleWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4::DisassembleWide, DisassembleWide method [Windows Debugging], debugger.disassemblewide, DisassembleWide, IDebugControl4 interface [Windows Debugging], DisassembleWide method
+ms.keywords: dbgeng/IDebugControl4::DisassembleWide, DisassembleWide method [Windows Debugging], IDebugControl4, IDebugControl4::DisassembleWide, debugger.disassemblewide, DisassembleWide, DisassembleWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], DisassembleWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.DisassembleWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::DisassembleWide method
@@ -105,7 +105,9 @@ Receives the location in the target's memory of the instruction following the di
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,11 +135,14 @@ The method was successful.  However, <i>Buffer</i> was too small to hold the dis
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The assembly language depends on the effective processor type of the target system.  For information about the assembly language, see the processor documentation.
@@ -148,15 +153,24 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
 
  
 

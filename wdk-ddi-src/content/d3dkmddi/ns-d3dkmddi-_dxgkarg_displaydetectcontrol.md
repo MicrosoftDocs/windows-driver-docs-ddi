@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DISPLAYDETECTCONTROL
-title: _DXGKARG_DISPLAYDETECTCONTROL
+title: "_DXGKARG_DISPLAYDETECTCONTROL"
 author: windows-driver-content
 description: Used to hold the arguments for DXGKDDI_DISPLAYDETECTCONTROL.
 old-location: display\dxgkarg_displaydetectcontrol.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: A0B5798E-FF4D-4133-BFA9-39B37CC387F6
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, _DXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices]
+ms.keywords: DXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices], PDXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], _DXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_DISPLAYDETECTCONTROL
 product: Windows
 targetos: Windows

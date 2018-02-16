@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnCreateVideoProcessor
 product: Windows
 targetos: Windows
@@ -79,7 +79,6 @@ The handle of a device driver.
 ### -param *pArgs
 
 
-
 ### -param hDrvVideoProcessor
 
 The handle of a video processor.
@@ -88,6 +87,8 @@ The handle of a video processor.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

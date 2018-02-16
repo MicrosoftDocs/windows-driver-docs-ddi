@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: FE76DA51-400E-4F64-B8D9-8738D2F5031A
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient::GetOutputWidth, IDebugClient, dbgeng/IDebugClient::GetOutputWidth, GetOutputWidth method [Windows Debugging], GetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient interface [Windows Debugging], GetOutputWidth method, GetOutputWidth, debugger.idebugclient_getoutputwidth
+ms.keywords: GetOutputWidth, GetOutputWidth method [Windows Debugging], IDebugClient interface, IDebugClient::GetOutputWidth, dbgeng/IDebugClient::GetOutputWidth, IDebugClient interface [Windows Debugging], GetOutputWidth method, IDebugClient, GetOutputWidth method [Windows Debugging], debugger.idebugclient_getoutputwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.GetOutputWidth
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient::GetOutputWidth method
@@ -76,7 +76,9 @@ The number of columns in the output.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,20 +95,26 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This setting is a suggestion that can be overridden by other settings.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
 
  
 

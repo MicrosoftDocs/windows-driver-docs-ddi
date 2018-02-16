@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_OPENCRYPTOSESSION_0030
 product: Windows
 targetos: Windows
@@ -74,8 +74,9 @@ HRESULT APIENTRY* PFND3D12DDI_OPENCRYPTOSESSION_0030(
 The hardware device being processed.
 
 
-### -param *pArgs
+### -param *pArgs [in]
 
+The arguments used to open a crypto session.
 
 
 ### -param hDrvCryptoSession
@@ -83,14 +84,11 @@ The hardware device being processed.
 The crypto session.
 
 
-#### - pArgs [in]
-
-The arguments used to open a crypto session.
-
-
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

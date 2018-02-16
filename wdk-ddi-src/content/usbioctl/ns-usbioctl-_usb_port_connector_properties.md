@@ -1,14 +1,14 @@
 ---
 UID: NS:usbioctl._USB_PORT_CONNECTOR_PROPERTIES
-title: _USB_PORT_CONNECTOR_PROPERTIES
+title: "_USB_PORT_CONNECTOR_PROPERTIES"
 author: windows-driver-content
 description: The USB_PORT_CONNECTOR_PROPERTIES structure is used with the IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request to retrieve information about a port on a particular SuperSpeed hub.
 old-location: buses\usb_port_connector_properties.htm
 old-project: usbref
 ms.assetid: 93818067-A7EC-4796-B80F-75ADD6315ADF
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: _USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], *PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses]
+ms.date: 2/8/2018
+ms.keywords: PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], usbioctl/USB_PORT_CONNECTOR_PROPERTIES, *PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, _USB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Usbioctl.h
-apiname: 
+apiname:
 -	USB_PORT_CONNECTOR_PROPERTIES
 product: Windows
 targetos: Windows
-req.typenames: *PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES
+req.typenames: "*PUSB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES"
 req.product: Windows 10 or later.
 ---
 
@@ -101,7 +101,9 @@ For SuperSpeed hubs and xHCI controllers, <b>CompanionIndex</b> is always 0. For
 ### -field CompanionPortNumber
 
 The port number of the companion port that is given by <b>CompanionIndex</b>. If the port being queried shares a USB connector with a port on another hub,  <b>CompanionPortNumber</b> indicates the port number of the port on the other hub. 
-<div class="alert"><b>Note</b>  For root hub of an xHCI controller, the shared port might be on the same hub.</div><div> </div>
+
+<div class="alert"><b>Note</b>  For root hub of an xHCI controller, the shared port might be on the same hub.</div>
+<div> </div>
 
 ### -field CompanionHubSymbolicLinkName
 
@@ -109,6 +111,7 @@ The Unicode string that contains the symbolic link  of the companion hub that sh
 
 
 ## -remarks
+
 
 
 A SuperSpeed 3.0 hub contains two independent hub implementations.  One is for USB 2.0 devices, and the hub implementation is similar to existing 2.0 hubs.  The other hub is only for SuperSpeed devices.  Because the USB 2.0 and 3.0 bus signaling are electrically independent, both of those hubs operate simultaneously.  Therefore, when a SuperSpeed hub is connected to the host, Windows enumerates the two hubs independently;  one hub is associated with a USB 2.0 port, and the other hub with a USB 3.0 port.  Each hub has its downstream and upstream ports. USB physical  connectors are shared between ports that are associated with  those two hub implementations. 
@@ -123,21 +126,32 @@ To get information about the operating speed of a device attached to a particula
 
 
 
+
 ## -see-also
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
-
-<a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
-
-<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
 
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
 
- 
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_properties.md">USB_PORT_PROPERTIES</a>
+
+
+
+<a href="..\usbioctl\ns-usbioctl-_usb_port_connector_properties.md">USB_PORT_CONNECTOR_PROPERTIES</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_port_connector_properties.md">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex_v2.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_PORT_CONNECTOR_PROPERTIES structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_PORT_CONNECTOR_PROPERTIES structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

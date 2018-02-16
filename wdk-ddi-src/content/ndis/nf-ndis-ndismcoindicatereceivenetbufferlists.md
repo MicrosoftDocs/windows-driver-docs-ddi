@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: dabd472f-9877-4434-a534-e07a047e092f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCoIndicateReceiveNetBufferLists, netvista.ndismcoindicatereceivenetbufferlists, NdisMCoIndicateReceiveNetBufferLists, condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ndismcoindicatereceivenetbufferlists, ndis/NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, NdisMCoIndicateReceiveNetBufferLists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMCoIndicateReceiveNetBufferLists
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCoIndicateReceiveNetBufferLists function
@@ -105,13 +105,15 @@ Flags that define attributes for the send operation. The flags can be combined w
 
 
 
-##### - CoReceiveFlags.NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
+
+#### NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
 
 The current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
        <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
 
 
-##### - CoReceiveFlags.NDIS_RECEIVE_FLAGS_RESOURCES
+
+#### NDIS_RECEIVE_FLAGS_RESOURCES
 
 The miniport driver reclaims ownership of the NET_BUFFER_LIST structures and any attached
        NET_BUFFER structures immediately after 
@@ -121,11 +123,14 @@ The miniport driver reclaims ownership of the NET_BUFFER_LIST structures and any
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A miniport driver typically calls the 
@@ -145,8 +150,8 @@ If a miniport driver calls
     <b>NdisMCoIndicateReceiveNetBufferLists</b> and clears the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
     <i>CoReceiveFlags</i> parameter, NDIS returns the NET_BUFFER_LIST structures that 
     <i>NetBufferLists</i> specifies to the miniport driver's 
-    <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-    MiniportReturnNetBufferLists</i></mshelp:link> function. In this case, the miniport driver must not reclaim the
+    <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+    MiniportReturnNetBufferLists</a> function. In this case, the miniport driver must not reclaim the
     NET_BUFFER_LIST structures until NDIS returns the NET_BUFFER_LIST structures to the miniport driver's 
     <i>MiniportReturnNetBufferLists</i> function.
 
@@ -160,8 +165,8 @@ If a miniport driver calls
     NET_BUFFER_LIST structures immediately after 
     <b>NdisMCoIndicateReceiveNetBufferLists</b> returns. To reclaim the NET_BUFFER_LIST structures, a miniport
     driver can call its own 
-    <mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-    MiniportReturnNetBufferLists</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+    MiniportReturnNetBufferLists</a> function.
 
 If a miniport driver sets the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
     <i>CoReceiveFlags</i> parameter, the protocol drivers must copy the network data and release the
@@ -176,18 +181,29 @@ The caller of
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
-<mshelp:link keywords="netvista.miniportreturnnetbufferlists" tabindex="0"><i>
-   MiniportReturnNetBufferLists</i></mshelp:link>
+
 
 <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+   MiniportReturnNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

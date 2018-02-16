@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
 product: Windows
 targetos: Windows
@@ -75,8 +75,9 @@ HRESULT APIENTRY* PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030(
 The hardware device being processed.
 
 
-### -param *pArgs
+### -param *pArgs [in]
 
+The arguments used to create a protected resource session.
 
 
 ### -param hDrvProtectedResourceSession
@@ -89,14 +90,11 @@ The protected resource session.
 The protected session.
 
 
-#### - pArgs [in]
-
-The arguments used to create a protected resource session.
-
-
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

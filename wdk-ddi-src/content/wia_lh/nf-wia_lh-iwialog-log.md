@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: bca012b4-76ae-4ba5-99b4-92a367774de7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: Log method [Imaging Devices], IWiaLog interface, IWiaLog interface [Imaging Devices], Log method, IWiaLog::Log, Log method [Imaging Devices], image.iwialog_log, wia_lh/IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, IWiaLog, Log
+ms.keywords: Log method [Imaging Devices], Log method [Imaging Devices], IWiaLog interface, Log, wia_lh/IWiaLog::Log, image.iwialog_log, IWiaLog interface [Imaging Devices], Log method, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, IWiaLog, IWiaLog::Log
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wia_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wia_lh.h
-apiname: 
+apiname:
 -	IWiaLog.Log
 product: Windows
 targetos: Windows
@@ -84,6 +84,7 @@ Specifies the type of diagnostic message. This parameter can be WIA_WARNING, WIA
 ### -param lDetail [in]
 
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
+
 <table>
 <tr>
 <th>Level</th>
@@ -139,7 +140,8 @@ User-defined log levels.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param bstrText [in]
@@ -155,6 +157,8 @@ Specifies the resource id. This parameter should be set to WIALOG_NO_RESOURCE_ID
 ## -returns
 
 
+
 If the method succeeds, it returns S_OK.  If the method fails, it returns a standard COM error code.
+
 
 

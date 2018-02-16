@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_BUS_RESET_REQUEST
-title: _STORAGE_BUS_RESET_REQUEST
+title: "_STORAGE_BUS_RESET_REQUEST"
 author: windows-driver-content
 description: The STORAGE_BUS_RESET_REQUEST structure is used in conjunction with the IOCTL_STORAGE_RESET_BUS request to specify the path of the bus to be reset.
 old-location: storage\storage_bus_reset_request.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d2f2d2cc-e96b-475c-96eb-d58244a05788
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _STORAGE_BUS_RESET_REQUEST, structs-general_ffea4f36-cf98-4961-be14-d8a4cde94fad.xml, PSTORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST, PSTORAGE_BUS_RESET_REQUEST structure pointer [Storage Devices], ntddstor/STORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST structure [Storage Devices], storage.storage_bus_reset_request, ntddstor/PSTORAGE_BUS_RESET_REQUEST
+ms.keywords: PSTORAGE_BUS_RESET_REQUEST structure pointer [Storage Devices], storage.storage_bus_reset_request, ntddstor/STORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST structure [Storage Devices], structs-general_ffea4f36-cf98-4961-be14-d8a4cde94fad.xml, STORAGE_BUS_RESET_REQUEST, _STORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST, ntddstor/PSTORAGE_BUS_RESET_REQUEST, PSTORAGE_BUS_RESET_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	STORAGE_BUS_RESET_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST
+req.typenames: STORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST
 ---
 
 # _STORAGE_BUS_RESET_REQUEST structure
@@ -75,6 +75,8 @@ Indicates the number of the bus to be reset.
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_reset_bus.md">IOCTL_STORAGE_RESET_BUS</a>
+
+
 
  
 

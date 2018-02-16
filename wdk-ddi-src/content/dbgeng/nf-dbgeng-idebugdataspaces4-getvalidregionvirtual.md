@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b580c2ef-94f9-4738-bd00-0d5a4753f71a
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, debugger.getvalidregionvirtual, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces4::GetValidRegionVirtual, GetValidRegionVirtual
+ms.keywords: IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, GetValidRegionVirtual method [Windows Debugging], GetValidRegionVirtual, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces4 interface [Windows Debugging], GetValidRegionVirtual method, debugger.getvalidregionvirtual, IDebugDataSpaces4, GetValidRegionVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::GetValidRegionVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces4.GetValidRegionVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::GetValidRegionVirtual method
@@ -93,7 +93,9 @@ Receives the size, in bytes, of the valid memory.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -110,7 +112,9 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -118,7 +122,11 @@ The method was successful.
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547847">GetNextDifferentlyValidOffsetVirtual</a>
+
+
 
  
 

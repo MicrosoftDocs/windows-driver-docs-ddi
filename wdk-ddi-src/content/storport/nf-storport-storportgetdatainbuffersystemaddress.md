@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress, storage.storportgetdatainbuffersystemaddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices]
+ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Storport.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortGetDataInBufferSystemAddress
 product: Windows
 targetos: Windows
@@ -89,7 +89,9 @@ A pointer to  a an  address  value to receive the system address for the input d
 ## -returns
 
 
+
 A status value indicating the result of the notification. This can be one of these values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,7 +141,9 @@ A system address can not be assigned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -147,7 +151,11 @@ A system address can not be assigned.
 
 <a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
 
+
+
 <a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
+
+
 
  
 

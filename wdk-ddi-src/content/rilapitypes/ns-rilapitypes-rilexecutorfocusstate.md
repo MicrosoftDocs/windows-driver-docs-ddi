@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d462092c-e40f-4685-974e-3fb31cbafa62
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE, rilapitypes/RILEXECUTORFOCUSSTATE, netvista.rilexecutorfocusstate_2, RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista], RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE, netvista.rilexecutorfocusstate_2, rilapitypes/RILEXECUTORFOCUSSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILEXECUTORFOCUSSTATE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE
+req.typenames: RILEXECUTORFOCUSSTATE, *LPRILEXECUTORFOCUSSTATE
 req.product: Windows 10 or later.
 ---
 
@@ -74,15 +74,11 @@ typedef struct _RILEXECUTORFOCUSSTATE {
 ### -field cbSize
 
 
-
 ### -field dwParams
-
 
 
 ### -field dwNumberOfExecutors
 
 
-
 ### -field fFocusStates
-
 

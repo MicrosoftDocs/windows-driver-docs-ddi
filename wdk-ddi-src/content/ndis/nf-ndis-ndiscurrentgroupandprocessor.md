@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 056f7f4b-152b-426a-b59e-0f6663b386a8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCurrentGroupAndProcessor, netvista.ndiscurrentgroupandprocessor, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml, NdisCurrentGroupAndProcessor
+ms.keywords: netvista.ndiscurrentgroupandprocessor, NdisCurrentGroupAndProcessor, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentGroupAndProcessor, ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: >= DISPATCH_LEVEL
-topictype: 
+req.irql: ">= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCurrentGroupAndProcessor
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCurrentGroupAndProcessor function
@@ -69,7 +69,9 @@ PROCESSOR_NUMBER NdisCurrentGroupAndProcessor(void);
 
 
 
+
 ## -returns
+
 
 
 <b>NdisCurrentGroupAndProcessor</b> returns a PROCESSOR_NUMBER value that contains the group-relative
@@ -77,7 +79,9 @@ PROCESSOR_NUMBER NdisCurrentGroupAndProcessor(void);
 
 
 
+
 ## -remarks
+
 
 
 NDIS drivers call the 
@@ -88,5 +92,6 @@ The PROCESSOR_NUMBER structure contains a
     <b>Group</b> member of type USHORT and a 
     <b>Number</b> member of type UCHAR for group and processor numbers, respectively. The group and processor
     numbers are zero-based values.
+
 
 

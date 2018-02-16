@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: e73c885c-94e2-42cf-ace6-1b7b62aa33f5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, stream.ksgetimagenameandresourceid, KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices]
+ms.keywords: stream.ksgetimagenameandresourceid, ks/KsGetImageNameAndResourceId, KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices], ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetImageNameAndResourceId
 product: Windows
 targetos: Windows
@@ -94,13 +94,17 @@ Pointer to a location into which the function returns the value type of the spec
 ## -returns
 
 
+
 <b>KsGetImageNameAndResourceId</b> returns STATUS_SUCCESS if the requested values are found; otherwise, an error code is returned.
+
 
 
 
 ## -see-also
 
 <a href="..\ks\nf-ks-ksmapmodulename.md">KsMapModuleName</a>
+
+
 
  
 

@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkCbSynchronizeExecution
 product: Windows
 targetos: Windows
@@ -82,6 +82,7 @@ A handle that represents a display adapter. The display miniport driver previous
 ### -param SynchronizeRoutine [in]
 
 A pointer to a function, implemented by the display miniport driver, that will be synchronized with <i>DxgkDdiInterruptRoutine</i>. The function must conform to the following prototype:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -111,7 +112,9 @@ A pointer to a Boolean variable that receives the return value of <i>Synchronize
 ## -returns
 
 
+
 <b>DxgkCbSynchronizeExecution</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,7 +153,9 @@ The function was unable to synchronize execution, possibly because the interrupt
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -158,7 +163,11 @@ The function was unable to synchronize execution, possibly because the interrupt
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
 
+
+
 <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+
+
 
  
 

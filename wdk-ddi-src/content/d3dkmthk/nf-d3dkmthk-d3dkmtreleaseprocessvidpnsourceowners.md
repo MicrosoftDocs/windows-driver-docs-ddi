@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, display.d3dkmtreleaseprocessvidpnsourceowners, d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, D3DKMTReleaseProcessVidPnSourceOwners, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices]
+ms.keywords: d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, display.d3dkmtreleaseprocessvidpnsourceowners, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices], D3DKMTReleaseProcessVidPnSourceOwners
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTReleaseProcessVidPnSourceOwners
 product: Windows
 targetos: Windows
@@ -71,6 +71,7 @@ NTSTATUS APIENTRY D3DKMTReleaseProcessVidPnSourceOwners(
 
 
 
+
 #### - hProcess [in]
 
 A handle to the process that video present network source owners are released from.
@@ -79,7 +80,9 @@ A handle to the process that video present network source owners are released fr
 ## -returns
 
 
+
 <b>D3DKMTReleaseProcessVidPnSourceOwners</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -107,8 +110,10 @@ Parameters were validated and determined to be incorrect.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
+
 
 

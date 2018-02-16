@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_TargetPortal
-title: _ISCSI_TargetPortal
+title: "_ISCSI_TargetPortal"
 author: windows-driver-content
 description: The ISCSI_TargetPortal structure provides a definition of a target portal.
 old-location: storage\iscsi_targetportal.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1adb1dbf-3ec4-4e32-bfe8-cfcf992f67ca
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsidef/PISCSI_TargetPortal, *PISCSI_TargetPortal, ISCSI_TargetPortal, ISCSI_TargetPortal structure [Storage Devices], PISCSI_TargetPortal structure pointer [Storage Devices], PISCSI_TargetPortal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml, storage.iscsi_targetportal, _ISCSI_TargetPortal, iscsidef/ISCSI_TargetPortal
+ms.keywords: storage.iscsi_targetportal, ISCSI_TargetPortal structure [Storage Devices], iscsidef/ISCSI_TargetPortal, *PISCSI_TargetPortal, iscsidef/PISCSI_TargetPortal, PISCSI_TargetPortal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml, ISCSI_TargetPortal, PISCSI_TargetPortal structure pointer [Storage Devices], _ISCSI_TargetPortal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsidef.h
-apiname: 
+apiname:
 -	ISCSI_TargetPortal
 product: Windows
 targetos: Windows
-req.typenames: *PISCSI_TargetPortal, ISCSI_TargetPortal
+req.typenames: "*PISCSI_TargetPortal, ISCSI_TargetPortal"
 ---
 
 # _ISCSI_TargetPortal structure
@@ -88,7 +88,11 @@ Socket number associated with the target.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561577">ISCSI_TargetPortal WMI Class</a>
 
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+
 
  
 

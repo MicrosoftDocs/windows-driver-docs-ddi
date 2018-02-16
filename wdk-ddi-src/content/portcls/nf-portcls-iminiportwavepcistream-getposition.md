@@ -7,8 +7,8 @@ old-location: audio\iminiportwavepcistream_getposition.htm
 old-project: audio
 ms.assetid: 61575632-62f8-47d3-9249-5f5416191dfa
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GetPosition, portcls/IMiniportWavePciStream::GetPosition, audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, GetPosition method [Audio Devices], IMiniportWavePciStream interface, GetPosition method [Audio Devices], IMiniportWavePciStream::GetPosition, audio.iminiportwavepcistream_getposition, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], GetPosition method
+ms.date: 2/8/2018
+ms.keywords: audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, GetPosition, GetPosition method [Audio Devices], IMiniportWavePciStream interface [Audio Devices], GetPosition method, GetPosition method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream, audio.iminiportwavepcistream_getposition, IMiniportWavePciStream::GetPosition, portcls/IMiniportWavePciStream::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IMiniportWavePciStream.GetPosition
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IMiniportWavePciStream::GetPosition method
@@ -75,11 +75,14 @@ Output pointer for the position value. This parameter points to a caller-allocat
 ## -returns
 
 
+
 <code>GetPosition</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 The position indicated by the <code>GetPosition</code> method is expressed as a byte offset from the beginning of the stream. It represents the miniport driver's best estimate of the byte position of the data currently in the DAC or ADC. The miniport object is required to maintain stream position based on the mappings it acquires, regardless of whether mappings are released or revoked.
@@ -89,6 +92,7 @@ The position is zero immediately following initialization of the stream. A trans
 The position reported by <code>GetPosition</code> is not an offset into any one physical buffer that either your driver has allocated or a client has allocated. Instead, the offset is stream-relative and can be thought of as an offset into an idealized buffer that contains the entire stream and is contiguous from beginning to end. Any internal offsets that point into the actual physical buffers that contain the data need to be maintained separately.
 
 Note that the offset value retrieved by a <code>GetPosition</code> call is one of the following:
+
 <ul>
 <li>
 For a render stream, the <code>GetPosition</code> method retrieves the <i>play position</i>, which is the byte offset of the sample that is currently being played through the DAC and transmitted through the speaker jack.
@@ -98,7 +102,8 @@ For a render stream, the <code>GetPosition</code> method retrieves the <i>play p
 For a capture stream, the <code>GetPosition</code> method retrieves the <i>record position</i>, which is the byte offset of the latest sample to be received through the microphone jack and captured by the ADC.
 
 </li>
-</ul>It is not the offset of the sample that the DMA engine in the audio device is currently reading from or writing to the audio buffer.
+</ul>
+It is not the offset of the sample that the DMA engine in the audio device is currently reading from or writing to the audio buffer.
 
 Some audio hardware contains a position register to keep track of the byte offset of the sample currently in each DAC or ADC, in which case the <code>GetPosition</code> method simply retrieves the contents of the position register for the appropriate stream. Other audio hardware can only supply the driver with DMA pointers into the audio buffers, in which case the <code>GetPosition</code> method must provide a best estimate of the byte offset in the DAC or ADC based on the current DMA position and the buffering delays internal to the device.
 
@@ -108,17 +113,24 @@ The WavePci port driver implements a property handler for <a href="https://msdn.
 
 
 
+
 ## -see-also
-
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
 
- 
+
+
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::GetPosition method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::GetPosition method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12a8062a-6d4b-4757-a076-56aeb5e4e48c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer, netvista.ndismcompletedmatransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml
+ms.keywords: netvista.ndismcompletedmatransfer, dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, ndis/NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], NdisMCompleteDmaTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: ndis.h
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	NdisMCompleteDmaTransfer
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMCompleteDmaTransfer macro
@@ -106,6 +106,14 @@ TBD
 
 
 
+
+
+#### - Buffer [in]
+
+A pointer to the buffer descriptor previously passed to 
+     <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>.
+
+
 #### - Length [in]
 
 The length in bytes of the transfer. This value also was passed to 
@@ -117,13 +125,14 @@ The length in bytes of the transfer. This value also was passed to
 The handle returned when the 
      <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
      called the 
-     <mshelp:link keywords="netvista.ndismregisterdmachannel" tabindex="0"><b>
-     NdisMRegisterDmaChannel</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">
+     NdisMRegisterDmaChannel</a> function.
 
 
-#### - WriteToDevice [in]
+#### - Offset [in]
 
-<b>TRUE</b> if the transfer was from the host to the NIC, as, for example, a send operation.
+The byte offset at which the transfer began. This value also was passed to 
+     <b>NdisMSetupDmaTransfer</b>.
 
 
 #### - Status [out]
@@ -135,30 +144,26 @@ A pointer to a caller-supplied variable in which this function returns the final
 
 
 
-#### - Offset [in]
 
-The byte offset at which the transfer began. This value also was passed to 
-     <b>NdisMSetupDmaTransfer</b>.
-
-
-#### - Buffer [in]
-
-A pointer to the buffer descriptor previously passed to 
-     <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>.
-
-
-##### - Status.NDIS_STATUS_SUCCESS
+#### NDIS_STATUS_SUCCESS
 
 The data has been transferred and flushed to host memory or to the device to maintain data
        integrity.
 
 
-##### - Status.NDIS_STATUS_RESOURCES
+
+#### NDIS_STATUS_RESOURCES
 
 The DMA controller was released but the data transfer might be incoherent.
 
 
+#### - WriteToDevice [in]
+
+<b>TRUE</b> if the transfer was from the host to the NIC, as, for example, a send operation.
+
+
 ## -remarks
+
 
 
 <b>NdisMCompleteDmaTransfer</b> must be called with 
@@ -168,13 +173,20 @@ The DMA controller was released but the data transfer might be incoherent.
 
 
 
+
 ## -see-also
 
 <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
 
+
+
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
+
+
 
  
 

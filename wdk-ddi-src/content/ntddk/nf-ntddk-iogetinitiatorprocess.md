@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 653B4FD5-4C07-420A-BE8A-CC8C46BC6F0F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetInitiatorProcess, kernel.iogetinitiatorprocess, ntddk/IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture]
+ms.keywords: IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], ntddk/IoGetInitiatorProcess, kernel.iogetinitiatorprocess, IoGetInitiatorProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetInitiatorProcess
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # IoGetInitiatorProcess function
@@ -75,13 +75,17 @@ The file object from which to retrieve the initiator process.
 ## -returns
 
 
+
 NULL if there is no initiator process. Otherwise, a pointer to which process initiated the creation of the file object.
+
 
 
 
 ## -remarks
 
 
+
 A driver normally uses IoGetInitiatorProcess to determine which process has issued a request.  However, there are situations where a system component may issue a create on behalf of another process (after a successful create the component will duplicate the handle to the process).  This routine can be used if the driver must know which process the create operation is ultimately intended for. 
+
 
 

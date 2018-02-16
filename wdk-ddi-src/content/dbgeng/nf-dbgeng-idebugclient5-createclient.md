@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 61733b3e-87e9-4bb1-bed0-44efeffd7e4f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugClient2::CreateClient, CreateClient method [Windows Debugging], IDebugClient3 interface, CreateClient, IDebugClient5 interface [Windows Debugging], CreateClient method, CreateClient method [Windows Debugging], dbgeng/IDebugClient4::CreateClient, IDebugClient5, IDebugClient_baa33ba0-bc95-4bfb-b8bf-b91598833599.xml, CreateClient method [Windows Debugging], IDebugClient5 interface, CreateClient method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient::CreateClient, IDebugClient5::CreateClient, IDebugClient4::CreateClient, IDebugClient4 interface [Windows Debugging], CreateClient method, IDebugClient3 interface [Windows Debugging], CreateClient method, dbgeng/IDebugClient3::CreateClient, CreateClient method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient5::CreateClient, debugger.createclient, IDebugClient::CreateClient, IDebugClient2 interface [Windows Debugging], CreateClient method, CreateClient method [Windows Debugging], IDebugClient4 interface, IDebugClient interface [Windows Debugging], CreateClient method, IDebugClient2::CreateClient, IDebugClient3::CreateClient
+ms.keywords: CreateClient, dbgeng/IDebugClient2::CreateClient, CreateClient method [Windows Debugging], IDebugClient3 interface, IDebugClient_baa33ba0-bc95-4bfb-b8bf-b91598833599.xml, IDebugClient3 interface [Windows Debugging], CreateClient method, IDebugClient5, IDebugClient3, dbgeng/IDebugClient5::CreateClient, IDebugClient3::CreateClient, IDebugClient2 interface [Windows Debugging], CreateClient method, CreateClient method [Windows Debugging], IDebugClient5 interface, IDebugClient, dbgeng/IDebugClient::CreateClient, IDebugClient::CreateClient, dbgeng/IDebugClient4::CreateClient, CreateClient method [Windows Debugging], IDebugClient5 interface [Windows Debugging], CreateClient method, IDebugClient2, debugger.createclient, CreateClient method [Windows Debugging], IDebugClient4 interface, IDebugClient2::CreateClient, IDebugClient5::CreateClient, dbgeng/IDebugClient3::CreateClient, CreateClient method [Windows Debugging], IDebugClient2 interface, IDebugClient4::CreateClient, IDebugClient4 interface [Windows Debugging], CreateClient method, IDebugClient4, IDebugClient interface [Windows Debugging], CreateClient method, CreateClient method [Windows Debugging], IDebugClient interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient.CreateClient
 -	IDebugClient2.CreateClient
 -	IDebugClient3.CreateClient
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.CreateClient
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::CreateClient method
@@ -79,7 +79,9 @@ Receives an interface pointer for the new client.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details. 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -96,11 +98,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method creates a client that may be used in the current thread.
@@ -113,19 +118,32 @@ For more information about client objects and how they are used in the debugger 
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nf-dbgeng-debugcreate.md">DebugCreate</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
 
  
 

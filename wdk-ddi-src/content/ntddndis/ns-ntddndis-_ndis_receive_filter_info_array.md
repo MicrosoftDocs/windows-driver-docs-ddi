@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_INFO_ARRAY
-title: _NDIS_RECEIVE_FILTER_INFO_ARRAY
+title: "_NDIS_RECEIVE_FILTER_INFO_ARRAY"
 author: windows-driver-content
 description: The NDIS_RECEIVE_FILTER_INFO_ARRAY structure specifies a list of receive filters that are currently configured on a miniport driver.
 old-location: netvista\ndis_receive_filter_info_array.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 32896b46-1143-4598-ad15-2eb4dbdea6e8
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY, *PNDIS_RECEIVE_FILTER_INFO_ARRAY, _NDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "_NDIS_RECEIVE_FILTER_INFO_ARRAY, virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml, *PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_RECEIVE_FILTER_INFO_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY
+req.typenames: "*PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY"
 ---
 
 # _NDIS_RECEIVE_FILTER_INFO_ARRAY structure
@@ -105,19 +105,39 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 
 
+
+#### NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_2
+
+Added members for NDIS 6.30.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_2.
+
+
+
+#### NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_1
+
+Original version for NDIS 6.20.
+
+Set the <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_1.
+
+
 ### -field QueueId
 
 A receive queue identifier. This identifier is an
      integer between zero and the number of queues that the network adapter supports. A value of NDIS_DEFAULT_RECEIVE_QUEUE_ID specifies
      the default receive queue.
-<div class="alert"><b>Note</b>  Miniport drivers that support <a href="https://msdn.microsoft.com/500FBF0F-54D9-4675-8E2D-447387DA8798">NDIS packet coalescing</a> or SR-IOV interface must set the <b>QueueId</b> member to NDIS_DEFAULT_RECEIVE_QUEUE_ID.</div><div> </div>
+
+<div class="alert"><b>Note</b>  Miniport drivers that support <a href="https://msdn.microsoft.com/500FBF0F-54D9-4675-8E2D-447387DA8798">NDIS packet coalescing</a> or SR-IOV interface must set the <b>QueueId</b> member to NDIS_DEFAULT_RECEIVE_QUEUE_ID.</div>
+<div> </div>
 
 ### -field FirstElementOffset
 
 The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a> structure.
 
 
-<div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div><div> </div>
+
+<div class="alert"><b>Note</b>  If <b>NumElements</b> is set to zero, this member is ignored.  </div>
+<div> </div>
 
 ### -field NumElements
 
@@ -136,9 +156,18 @@ A  bitwise OR of the following flags:
 
 
 
+
+#### NDIS_RECEIVE_FILTER_INFO_ARRAY_VPORT_ID_SPECIFIED
+
+If this flag is set, information is requested about receive filters that are configured on the virtual port (VPort) specified by the <b>VPortId</b> member.
+
+<div class="alert"><b>Note</b>  This flag is only valid for the SR-IOV interface.</div>
+<div> </div>
+
 ### -field VPortId
 
 The virtual port (VPort) identifier on which receive filters are being queried. The VPort identifier must be one of the following values:
+
 <ul>
 <li>
 
@@ -154,50 +183,44 @@ A value of NDIS_DEFAULT_VPORT_ID that specifies the default VPort on the NIC swi
 
 
 </li>
-</ul>A NIC switch is supported by network adapters for the SR-IOV interface. The NIC switch can be configured to have one or more VPorts.
+</ul>
+A NIC switch is supported by network adapters for the SR-IOV interface. The NIC switch can be configured to have one or more VPorts.
+
 <div class="alert"><b>Note</b>  The <b>VPortId</b> member is only valid if the NDIS_RECEIVE_FILTER_INFO_ARRAY_VPORT_ID_SPECIFIED flag is set in <b>Flags</b>. 
-</div><div> </div>
-
-##### - Header.NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_2
-
-Added members for NDIS 6.30.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_2.
-
-
-##### - Flags.NDIS_RECEIVE_FILTER_INFO_ARRAY_VPORT_ID_SPECIFIED
-
-If this flag is set, information is requested about receive filters that are configured on the virtual port (VPort) specified by the <b>VPortId</b> member.
-<div class="alert"><b>Note</b>  This flag is only valid for the SR-IOV interface.</div><div> </div>
-
-##### - Header.NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_1
-
-Original version for NDIS 6.20.
-
-Set the <b>Size</b> member to NDIS_SIZEOF_RECEIVE_FILTER_INFO_ARRAY_REVISION_1.
-
+</div>
+<div> </div>
 
 ## -remarks
 
 
+
 The <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is used in the 
-    OID request of <mshelp:link keywords="netvista.oid_receive_filter_enum_filters" tabindex="0">
-    OID_RECEIVE_FILTER_ENUM_FILTERS</mshelp:link>. This OID request enumerates the receive filters on a VMQ  or SR-IOV receive queue. Each
+    OID request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">
+    OID_RECEIVE_FILTER_ENUM_FILTERS</a>. This OID request enumerates the receive filters on a VMQ  or SR-IOV receive queue. Each
     element in the array that follows the <b>NDIS_RECEIVE_FILTER_INFO_ARRAY</b> structure is an 
-    <mshelp:link keywords="netvista.ndis_receive_filter_info" tabindex="0"><b>
-    NDIS_RECEIVE_FILTER_INFO</b></mshelp:link> structure.
+    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">
+    NDIS_RECEIVE_FILTER_INFO</a> structure.
+
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a>
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info.md">NDIS_RECEIVE_FILTER_INFO</a>
+
+
 
  
 

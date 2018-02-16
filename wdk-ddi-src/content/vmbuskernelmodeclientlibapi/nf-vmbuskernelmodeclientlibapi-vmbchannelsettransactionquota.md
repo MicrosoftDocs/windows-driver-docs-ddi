@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Vmbkmcl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	vmbkmcl.lib
 -	vmbkmcl.dll
-apiname: 
+apiname:
 -	VmbChannelSetTransactionQuota
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ A handle for a channel.
 ## -returns
 
 
+
 This function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The incoming packet quota can be set to be lower than the current
@@ -98,5 +101,6 @@ the queue until sufficient packets have been completed.
 
 
  If the queue is currently blocked due to quota, this operation does not restart it. The queue only restarts once a packet is completed.
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7ec7d9a4-3c6f-4b67-abbb-1e0dcbf6fb90
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/CmRegisterCallbackEx, ConfigMgrRef_60ae8a2c-45c7-4b5e-ae19-916402b47903.xml, CmRegisterCallbackEx routine [Kernel-Mode Driver Architecture], CmRegisterCallbackEx, kernel.cmregistercallbackex
+ms.keywords: kernel.cmregistercallbackex, CmRegisterCallbackEx routine [Kernel-Mode Driver Architecture], ConfigMgrRef_60ae8a2c-45c7-4b5e-ae19-916402b47903.xml, CmRegisterCallbackEx, wdm/CmRegisterCallbackEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	CmRegisterCallbackEx
 product: Windows
 targetos: Windows
@@ -106,7 +106,9 @@ This parameter is reserved for future use.
 ## -returns
 
 
+
 <b>CmRegisterCallbackEx</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NTSTATUS</a> values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -134,11 +136,14 @@ An attempt to allocate memory failed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The <b>CmRegisterCallbackEx</b> routine is available starting with Windows Vista.
@@ -153,17 +158,28 @@ For more information about <b>CmRegisterCallbackEx</b> and filtering registry op
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
+
+
 <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
+
+
 <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 

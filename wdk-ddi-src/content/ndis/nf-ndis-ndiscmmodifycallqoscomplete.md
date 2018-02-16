@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8489dc63-8e92-45c9-b4a8-593b511743b0
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisCmModifyCallQoSComplete, netvista.ndiscmmodifycallqoscomplete, condis_call_manager_ref_471da783-5fb9-459e-98a1-209e8b11a3b5.xml, NdisCmModifyCallQoSComplete function [Network Drivers Starting with Windows Vista], NdisCmModifyCallQoSComplete
+ms.keywords: condis_call_manager_ref_471da783-5fb9-459e-98a1-209e8b11a3b5.xml, NdisCmModifyCallQoSComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmModifyCallQoSComplete, netvista.ndiscmmodifycallqoscomplete, NdisCmModifyCallQoSComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisCmModifyCallQoSComplete
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisCmModifyCallQoSComplete function
@@ -82,8 +82,8 @@ Specifies the final status of the client's request to modify the QoS on this VC,
 
 Specifies the handle to the VC, obtained from the 
      <i>CallMgrVcContext</i> passed in to the CM's 
-     <mshelp:link keywords="netvista.protocolcmmodifycallqos" tabindex="0"><i>
-     ProtocolCmModifyCallQoS</i></mshelp:link> function for this request.
+     <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">
+     ProtocolCmModifyCallQoS</a> function for this request.
 
 
 ### -param CallParameters [in]
@@ -97,21 +97,24 @@ Pointer to a structure of type
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 A call to 
     <b>NdisCmModifyCallQoSComplete</b> causes NDIS to call the client's 
-    <mshelp:link keywords="netvista.protocolclmodifycallqoscomplete" tabindex="0"><i>
-    ProtocolClModifyCallQoSComplete</i></mshelp:link> function.
+    <a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+    ProtocolClModifyCallQoSComplete</a> function.
 
 Because the CM can modify the client-supplied call parameters that were input to its 
-    <mshelp:link keywords="netvista.protocolcmmodifycallqos" tabindex="0"><i>
-    ProtocolCmModifyCallQoS</i></mshelp:link> function before it calls 
+    <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">
+    ProtocolCmModifyCallQoS</a> function before it calls 
     <b>NdisCmModifyCallQoSComplete</b>, the client's 
     <i>ProtocolClModifyCallQoSComplete</i> function examines the QoS to determine whether it is acceptable to
     the client. 
@@ -125,18 +128,29 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.protocolclmodifycallqoscomplete" tabindex="0"><i>
-   ProtocolClModifyCallQoSComplete</i></mshelp:link>
+<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+   ProtocolClModifyCallQoSComplete</a>
+
+
 
 <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
 
 <a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQosComplete</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
+
+
 
  
 

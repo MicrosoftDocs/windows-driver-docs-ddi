@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3C55B67F-043A-4747-A44A-A162D6391003
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_VIDEO_GETCAPS_0020, display.d3d12ddiarg_video_getcaps, D3D12DDIARG_VIDEO_GETCAPS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_GETCAPS_0020
+ms.keywords: display.d3d12ddiarg_video_getcaps, D3D12DDIARG_VIDEO_GETCAPS_0020 structure [Display Devices], D3D12DDIARG_VIDEO_GETCAPS_0020, d3d12umddi/D3D12DDIARG_VIDEO_GETCAPS_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	D3D12DDIARG_VIDEO_GETCAPS_0020
 product: Windows
 targetos: Windows

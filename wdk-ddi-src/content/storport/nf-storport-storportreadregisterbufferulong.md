@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterBufferUlong
-title: StorPortReadRegisterBufferUlong function
+title: StorPortReadRegisterBufferUlong macro
 author: windows-driver-content
 description: The StorPortReadRegisterBufferUlong routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferulong.htm
@@ -8,10 +8,10 @@ old-project: storage
 ms.assetid: 069defee-6295-4492-b0bb-135c476c79aa
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: StorPortReadRegisterBufferUlong routine [Storage Devices], StorPortReadRegisterBufferUlong, storage.storportreadregisterbufferulong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml, storport/StorPortReadRegisterBufferUlong
+ms.keywords: StorPortReadRegisterBufferUlong, storport/StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices], storage.storportreadregisterbufferulong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: function
+ms.topic: macro
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Storport.lib
 -	Storport.dll
-apiname: 
+apiname:
 -	StorPortReadRegisterBufferUlong
 product: Windows
 targetos: Windows
@@ -45,7 +45,7 @@ req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
 ---
 
-# StorPortReadRegisterBufferUlong function
+# StorPortReadRegisterBufferUlong macro
 
 
 ## -description
@@ -72,45 +72,68 @@ STORPORT_API VOID StorPortReadRegisterBufferUlong(
 
 
 
-### -param HwDeviceExtension [in]
+### -param h
 
-Pointer to the hardware device extension.
-
-
-### -param Register [in]
-
-Pointer to the register where the data is to be read. 
+TBD
 
 
-### -param Buffer [in]
+### -param r
+
+TBD
+
+
+### -param b
+
+TBD
+
+
+### -param c
+
+TBD
+
+
+
+
+
+
+#### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
 
 
-### -param Count [in]
+#### - Count [in]
 
 Specifies the number of data items to be read. Each data item has a size of <b>sizeof</b>(ULONG). 
 
 
-## -returns
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
 
 
-None 
+#### - Register [in]
 
+Pointer to the register where the data is to be read. 
 
 
 ## -remarks
+
 
 
 For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>.
 
 
 
+
 ## -see-also
+
+<a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
+
+
 
 <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>
 
-<a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
+
 
  
 

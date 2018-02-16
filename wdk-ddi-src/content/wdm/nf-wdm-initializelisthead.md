@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 123434fd-4e83-4042-834b-1eb4cf13dd10
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InitializeListHead, k109_2e5e02a0-26d3-4c8a-b712-ee3d515b8a23.xml, wdm/InitializeListHead, InitializeListHead routine [Kernel-Mode Driver Architecture], kernel.initializelisthead
+ms.keywords: kernel.initializelisthead, InitializeListHead, InitializeListHead routine [Kernel-Mode Driver Architecture], k109_2e5e02a0-26d3-4c8a-b712-ee3d515b8a23.xml, wdm/InitializeListHead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	InitializeListHead
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5542
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The <b>InitializeListHead</b> routine sets the <b>Flink</b> and <b>Blink</b> members of <i>ListHead</i> to point to <i>ListHead</i>.
@@ -91,35 +94,64 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
-
-<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
-
-<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
 
 <a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
-<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
 
-<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
 
-<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 
-<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
 
-<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
-
-<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
 
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
+
+
+<a href="..\wdm\nf-wdm-islistempty.md">IsListEmpty</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+
+
+<a href="..\wdm\nf-wdm-inserttaillist.md">InsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-pushentrylist.md">PushEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-removetaillist.md">RemoveTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedremoveheadlist.md">ExInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
+
+
+
+<a href="..\wdm\nf-wdm-insertheadlist.md">InsertHeadList</a>
+
+
 
  
 

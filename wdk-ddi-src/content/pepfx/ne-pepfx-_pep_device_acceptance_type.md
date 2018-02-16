@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_DEVICE_ACCEPTANCE_TYPE
-title: _PEP_DEVICE_ACCEPTANCE_TYPE
+title: "_PEP_DEVICE_ACCEPTANCE_TYPE"
 author: windows-driver-content
 description: The PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP accepts ownership of a device.
 old-location: kernel\pep_device_acceptance_type.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 72D0BEC2-F5D5-4045-AD63-F263993817B0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceNotAccepted, PepDeviceAcceptedReserved, *PPEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceAcceptedReserved, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], _PEP_DEVICE_ACCEPTANCE_TYPE, kernel.pep_device_acceptance_type, PepDeviceAcceptedMax, pepfx/PepDeviceAcceptedMax, pepfx/PepDeviceAccepted, PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAccepted, PepDeviceNotAccepted
+ms.keywords: pepfx/PepDeviceAcceptedReserved, pepfx/PepDeviceAccepted, PepDeviceAcceptedReserved, PepDeviceNotAccepted, kernel.pep_device_acceptance_type, pepfx/PepDeviceNotAccepted, PepDeviceAccepted, _PEP_DEVICE_ACCEPTANCE_TYPE, PepDeviceAcceptedMax, pepfx/PepDeviceAcceptedMax, PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, *PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_DEVICE_ACCEPTANCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE
+req.typenames: "*PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE"
 ---
 
 # _PEP_DEVICE_ACCEPTANCE_TYPE enumeration
@@ -85,26 +85,30 @@ The PEP claims ownership of this device.
 
 
 
-#### - PepDeviceAcceptedReserved
-
-The PEP claims ownership of the device on behalf of the default PEP. The default PEP is implemented by the Windows kernel to manage devices for which hardware-specific PEPs are not available.
-
-
 #### - PepDeviceAcceptedMax
 
 Reserved for use by operating system.
 
 
+#### - PepDeviceAcceptedReserved
+
+The PEP claims ownership of the device on behalf of the default PEP. The default PEP is implemented by the Windows kernel to manage devices for which hardware-specific PEPs are not available.
+
+
 ## -remarks
+
 
 
 This enumeration is used by <b>DeviceAccepted</b> member of the <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE_V2</a> structure to indicate whether a PEP accepts ownership of a device.
 
 
 
+
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_register_device_v2.md">PEP_REGISTER_DEVICE_V2</a>
+
+
 
  
 

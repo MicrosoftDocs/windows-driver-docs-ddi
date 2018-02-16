@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 721ce7c3-070d-4486-aba8-9a6874721015
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_SCP_PARAM2, ntddrilapitypes/RIL_PARAM_SCP_PARAM3, ntddrilapitypes/RILUICCCMDPARAMETERSPARAMMASK, ntddrilapitypes/RIL_PARAM_SCP_PARAM1, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_SCP_PARAM2, RILUICCCMDPARAMETERSPARAMMASK, RIL_PARAM_SCP_PARAM3, RIL_PARAM_SCP_ALL, ntddrilapitypes/RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM1, netvista.riluicccmdparametersparammask
+ms.keywords: RIL_PARAM_SCP_PARAM3, ntddrilapitypes/RIL_PARAM_SCP_PARAM1, RILUICCCMDPARAMETERSPARAMMASK, RIL_PARAM_SCP_PARAM1, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCCMDPARAMETERSPARAMMASK, ntddrilapitypes/RIL_PARAM_SCP_PARAM2, netvista.riluicccmdparametersparammask, ntddrilapitypes/RIL_PARAM_SCP_PARAM3, RIL_PARAM_SCP_ALL, ntddrilapitypes/RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILUICCCMDPARAMETERSPARAMMASK
 product: Windows
 targetos: Windows
@@ -73,19 +73,14 @@ typedef enum _RILUICCCMDPARAMETERSPARAMMASK {
 ### -field RIL_PARAM_SCP_FILEPATH
 
 
-
 ### -field RIL_PARAM_SCP_PARAM1
-
 
 
 ### -field RIL_PARAM_SCP_PARAM2
 
 
-
 ### -field RIL_PARAM_SCP_PARAM3
 
 
-
 ### -field RIL_PARAM_SCP_ALL
-
 

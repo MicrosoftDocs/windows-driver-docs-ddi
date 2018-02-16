@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 37f463bb-6b7a-4262-9e4b-3650025acb7c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGateRemoveOffInputFromAnd function [Streaming Media Devices], ks/KsGateRemoveOffInputFromAnd, KsGateRemoveOffInputFromAnd, stream.ksgateremoveoffinputfromand, avfunc_604705b6-08f8-4048-8b29-f89b645f971a.xml
+ms.keywords: KsGateRemoveOffInputFromAnd, stream.ksgateremoveoffinputfromand, ks/KsGateRemoveOffInputFromAnd, KsGateRemoveOffInputFromAnd function [Streaming Media Devices], avfunc_604705b6-08f8-4048-8b29-f89b645f971a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsGateRemoveOffInputFromAnd
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representin
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Removing the last OFF input from the gate results in the gate opening and the transition being propagated to any gates connected to <i>AndGate</i>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
@@ -90,19 +93,32 @@ Removing the last OFF input from the gate results in the gate opening and the tr
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
-<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
 
 <a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
 
+
+
+<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+
+
+
 <a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+
+
+
+<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
+
+
 
  
 

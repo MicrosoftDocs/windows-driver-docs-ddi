@@ -2,13 +2,13 @@
 UID: NE:ks.KSEVENT_STREAMALLOCATOR
 title: KSEVENT_STREAMALLOCATOR
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksevent_streamallocator.htm
 old-project: stream
 ms.assetid: DD614794-5E54-4538-91C5-8777B244143C
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR, stream.ksevent_streamallocator, KSEVENT_STREAMALLOCATOR, KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR_FREEFRAME, KSEVENT_STREAMALLOCATOR_FREEFRAME, KSEVENT_STREAMALLOCATOR enumeration [Streaming Media Devices]
+ms.keywords: KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, stream.ksevent_streamallocator, KSEVENT_STREAMALLOCATOR enumeration [Streaming Media Devices], ks/KSEVENT_STREAMALLOCATOR, KSEVENT_STREAMALLOCATOR_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, KSEVENT_STREAMALLOCATOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSEVENT_STREAMALLOCATOR
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum  {
 ### -field KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME
 
 
-
 ### -field KSEVENT_STREAMALLOCATOR_FREEFRAME
-
 

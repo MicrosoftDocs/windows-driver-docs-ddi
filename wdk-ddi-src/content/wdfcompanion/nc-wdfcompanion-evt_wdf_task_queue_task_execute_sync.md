@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	wdfcompanion.h
-apiname: 
+apiname:
 -	EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG
+req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -81,27 +81,20 @@ NTSTATUS EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC(
 ### -param Queue [in]
 
 
-
 ### -param InputBuffer [in, optional]
-
 
 
 ### -param OutputBuffer [out, optional]
 
 
-
 ### -param InputBufferLength [in]
-
 
 
 ### -param OutputBufferLength [in]
 
 
-
 ### -param BytesWritten [in]
 
 
-
 ### -param TaskOperationCode [in]
-
 

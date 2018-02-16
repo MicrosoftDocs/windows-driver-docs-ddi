@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f88694a0-aa76-434a-b436-3c0b6903cad6
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.extremotedata_getulong64, GetUlong64 method [Windows Debugging], ExtRemoteData class, GetUlong64, ExtRemoteData, ExtRemoteData::GetUlong64, GetUlong64 method [Windows Debugging], EngExtCpp_Ref_8310177e-7943-4f2c-92bd-b69848c9e9f0.xml, ExtRemoteData class [Windows Debugging], GetUlong64 method
+ms.keywords: ExtRemoteData::GetUlong64, EngExtCpp_Ref_8310177e-7943-4f2c-92bd-b69848c9e9f0.xml, debugger.extremotedata_getulong64, ExtRemoteData, GetUlong64, GetUlong64 method [Windows Debugging], ExtRemoteData class [Windows Debugging], GetUlong64 method, GetUlong64 method [Windows Debugging], ExtRemoteData class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.GetUlong64
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetUlong64 method
@@ -66,29 +66,42 @@ ULONG64 GetUlong64();
 
 
 
+
 ## -returns
+
 
 
 <b>GetUlong64</b> returns the ULONG64 version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
 
 
 
+
 ## -remarks
+
 
 
 The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be <code>sizeof(ULONG64)</code>.
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544064">ExtRemoteData::GetUlong</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544033">ExtRemoteData::GetLong64</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544064">ExtRemoteData::GetUlong</a>
+
+
 
  
 

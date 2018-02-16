@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 25875f28-292f-40d9-8b29-ec9af49b0bc0
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsGetPhysicalTime method [Streaming Media Devices], stream.iksclockpropertyset_ksgetphysicaltime, ksproxy/IKsClockPropertySet::KsGetPhysicalTime, IKsClockPropertySet, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml, KsGetPhysicalTime, IKsClockPropertySet interface [Streaming Media Devices], KsGetPhysicalTime method, KsGetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet::KsGetPhysicalTime
+ms.keywords: ksproxy/IKsClockPropertySet::KsGetPhysicalTime, IKsClockPropertySet::KsGetPhysicalTime, KsGetPhysicalTime, stream.iksclockpropertyset_ksgetphysicaltime, KsGetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, KsGetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices], KsGetPhysicalTime method, IKsClockPropertySet, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsClockPropertySet.KsGetPhysicalTime
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ Pointer to a variable that receives the current physical time.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+
 ## -remarks
+
 
 
 The physical time is based on some underlying physical clock that always progresses, even if the physical type of clock must be changed in real time. Other physical clocks use an underlying clock's physical time for rate matching.
@@ -88,11 +91,16 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559760">IKsClockPropertySet::KsSetPhysicalTime</a>
+
+
 
  
 

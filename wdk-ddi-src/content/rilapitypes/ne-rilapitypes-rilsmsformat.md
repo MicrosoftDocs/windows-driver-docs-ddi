@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2552db76-961c-49ce-8b58-90f525e97d29
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_SMSFORMAT_NONE, rilapitypes/RIL_SMSFORMAT_MAX, rilapitypes/RILSMSFORMAT, RILSMSFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSFORMAT_MAX, RIL_SMSFORMAT_3GPP, rilapitypes/RIL_SMSFORMAT_3GPP2, RIL_SMSFORMAT_3GPP2, netvista.rilsmsformat, RILSMSFORMAT, RIL_SMSFORMAT_NONE, rilapitypes/RIL_SMSFORMAT_3GPP
+ms.keywords: rilapitypes/RIL_SMSFORMAT_3GPP2, rilapitypes/RIL_SMSFORMAT_NONE, rilapitypes/RILSMSFORMAT, RIL_SMSFORMAT_3GPP2, RIL_SMSFORMAT_3GPP, RILSMSFORMAT, RILSMSFORMAT enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SMSFORMAT_MAX, RIL_SMSFORMAT_NONE, rilapitypes/RIL_SMSFORMAT_3GPP, netvista.rilsmsformat, RIL_SMSFORMAT_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSMSFORMAT
 product: Windows
 targetos: Windows
@@ -75,22 +75,20 @@ enum RILSMSFORMAT  {
 ### -field RIL_SMSFORMAT_NONE
 
 
-
 ### -field RIL_SMSFORMAT_3GPP
-
 
 
 ### -field RIL_SMSFORMAT_3GPP2
 
 
-
 ### -field RIL_SMSFORMAT_MAX
-
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+
+
 
  
 

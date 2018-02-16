@@ -7,8 +7,8 @@ old-location: print\iprintpipelinepropertybag_addproperty.htm
 old-project: print
 ms.assetid: ba994342-c203-443e-a9fd-60fd29721dae
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: AddProperty method [Print Devices], print.iprintpipelinepropertybag_addproperty, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, AddProperty method [Print Devices], IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag interface [Print Devices], AddProperty method, IPrintPipelinePropertyBag, AddProperty, filterpipeline/IPrintPipelinePropertyBag::AddProperty, IPrintPipelinePropertyBag::AddProperty
+ms.date: 2/2/2018
+ms.keywords: AddProperty, IPrintPipelinePropertyBag, IPrintPipelinePropertyBag::AddProperty, print.iprintpipelinepropertybag_addproperty, AddProperty method [Print Devices], IPrintPipelinePropertyBag interface, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, AddProperty method [Print Devices], filterpipeline/IPrintPipelinePropertyBag::AddProperty, IPrintPipelinePropertyBag interface [Print Devices], AddProperty method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPrintPipelinePropertyBag.AddProperty
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ The <b>VARIANT</b> value to add to the property bag.
 ## -returns
 
 
+
 <code>AddProperty</code> returns an <b>HRESULT</b> value.
+
 
 

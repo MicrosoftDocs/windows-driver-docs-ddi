@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pcivirt.h
-apiname: 
+apiname:
 -	IOCTL_SRIOV_INVALIDATE_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: *PSRIOV_PF_EVENT, SRIOV_PF_EVENT
+req.typenames: "*PSRIOV_PF_EVENT, SRIOV_PF_EVENT"
 ---
 
 # IOCTL_SRIOV_INVALIDATE_BLOCK IOCTL
@@ -75,28 +75,36 @@ The size of the <a href="https://msdn.microsoft.com/483e6144-9752-4d47-9ed4-7e73
 ### -output-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -108,10 +116,12 @@ The size of the <a href="https://msdn.microsoft.com/483e6144-9752-4d47-9ed4-7e73
 ## -remarks
 
 
+
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
 The   request  is sent to the physical function (PF) driver by VSP.
 The PF driver completes the request when the driver wants to indicate to the virtual function (VF) driver that
 one or more of the configuration blocks need  to be read again.
+
 
 

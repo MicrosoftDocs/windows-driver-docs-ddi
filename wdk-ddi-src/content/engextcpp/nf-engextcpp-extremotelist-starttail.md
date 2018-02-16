@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: StartTail method [Windows Debugging], ExtRemoteList class, ExtRemoteList, StartTail method [Windows Debugging], EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList::StartTail, ExtRemoteList class [Windows Debugging], StartTail method, debugger.extremotelist_starttail, StartTail
+ms.keywords: ExtRemoteList::StartTail, StartTail method [Windows Debugging], ExtRemoteList class, StartTail method [Windows Debugging], StartTail, debugger.extremotelist_starttail, ExtRemoteList, EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList class [Windows Debugging], StartTail method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteList.StartTail
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteList::StartTail method
@@ -66,9 +66,12 @@ void StartTail();
 
 
 
+
 ## -returns
 
 
+
 This method does not return a value.
+
 
 

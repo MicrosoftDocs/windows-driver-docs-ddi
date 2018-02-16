@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_IO_TARGET_SENT_IO_ACTION
-title: _WDF_IO_TARGET_SENT_IO_ACTION
+title: "_WDF_IO_TARGET_SENT_IO_ACTION"
 author: windows-driver-content
 description: The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls IWDFIoTargetStateManagement::Stop or IWDFRemoteTarget::Stop to stop an I/O target.
 old-location: wdf\wdf_io_target_sent_io_action__umdf_.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9cdcf964-9f2d-437f-8693-de5bb4bb9895
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetLeaveSentIoPending, wudfddi_types/WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetSentIoUndefined, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, WdfIoTargetSentIoMaximum, WdfIoTargetLeaveSentIoPending, _WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, wdf.wdf_io_target_sent_io_action__umdf_, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, umdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WdfIoTargetSentIoMaximum, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration
+ms.keywords: WdfIoTargetSentIoMaximum, wudfddi_types/WdfIoTargetWaitForSentIoToComplete, WdfIoTargetLeaveSentIoPending, WDF_IO_TARGET_SENT_IO_ACTION enumeration, umdfstructs_c5c41acc-35ac-4894-bb1b-af3b3a9b75d1.xml, wdf.wdf_io_target_sent_io_action__umdf_, wudfddi_types/WdfIoTargetLeaveSentIoPending, wudfddi_types/WdfIoTargetSentIoMaximum, wudfddi_types/WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, umdf.wdf_io_target_sent_io_action__umdf_, WdfIoTargetSentIoUndefined, _WDF_IO_TARGET_SENT_IO_ACTION, wudfddi_types/WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetCancelSentIo, wudfddi_types/WdfIoTargetCancelSentIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_IO_TARGET_SENT_IO_ACTION
 product: Windows
 targetos: Windows
@@ -103,6 +103,7 @@ Valid enumeration values were exceeded.
 ## -remarks
 
 
+
 The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration is used as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a> and  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a> methods.
 
 If your driver specifies the <b>WdfIoTargetWaitForSentIoToComplete</b> flag, the driver must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a> from a request handler, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a> callback function, or an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a> callback function.
@@ -111,9 +112,12 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
+
 ## -see-also
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>
+
+
 
  
 

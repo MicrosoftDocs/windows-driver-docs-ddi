@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._DeleteInitiatorNodeName_OUT
-title: _DeleteInitiatorNodeName_OUT
+title: "_DeleteInitiatorNodeName_OUT"
 author: windows-driver-content
 description: The DeleteInitiatorNodeName_OUT structure holds the output data for the DeleteInitiatorNodeName method.
 old-location: storage\deleteinitiatornodename_out.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 105f6687-ea0f-45e9-be44-eafdd06156eb
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/DeleteInitiatorNodeName_OUT, DeleteInitiatorNodeName_OUT structure [Storage Devices], iscsiop/PDeleteInitiatorNodeName_OUT, _DeleteInitiatorNodeName_OUT, PDeleteInitiatorNodeName_OUT, DeleteInitiatorNodeName_OUT, storage.deleteinitiatornodename_out, structs-iSCSI_2a85602a-f8f8-45c5-948d-128e3f5621a0.xml, *PDeleteInitiatorNodeName_OUT, PDeleteInitiatorNodeName_OUT structure pointer [Storage Devices]
+ms.keywords: "*PDeleteInitiatorNodeName_OUT, iscsiop/PDeleteInitiatorNodeName_OUT, structs-iSCSI_2a85602a-f8f8-45c5-948d-128e3f5621a0.xml, PDeleteInitiatorNodeName_OUT structure pointer [Storage Devices], iscsiop/DeleteInitiatorNodeName_OUT, _DeleteInitiatorNodeName_OUT, storage.deleteinitiatornodename_out, DeleteInitiatorNodeName_OUT, PDeleteInitiatorNodeName_OUT, DeleteInitiatorNodeName_OUT structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	DeleteInitiatorNodeName_OUT
 product: Windows
 targetos: Windows
-req.typenames: *PDeleteInitiatorNodeName_OUT, DeleteInitiatorNodeName_OUT
+req.typenames: "*PDeleteInitiatorNodeName_OUT, DeleteInitiatorNodeName_OUT"
 ---
 
 # _DeleteInitiatorNodeName_OUT structure
@@ -75,7 +75,9 @@ The status of the <b>DeleteInitiatorNodeName</b> operation. For a list of status
 ## -remarks
 
 
+
 It is optional that you implement this method.
+
 
 
 
@@ -83,9 +85,15 @@ It is optional that you implement this method.
 
 <a href="..\iscsiop\ns-iscsiop-_deleteinitiatornodename_in.md">DeleteInitiatorNodeName_IN</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552500">DeleteInitiatorNodeName</a>
+
+
 
  
 

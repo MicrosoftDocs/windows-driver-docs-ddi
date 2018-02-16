@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
 product: Windows
 targetos: Windows
@@ -80,12 +80,15 @@ A handle to the device.
 
 
 
+
+
 #### - submitSignalSyncoObjectsToHwQueue [in]
 
 A pointer to the structure holding information on submitting a signal command to the hardware queue.
 
 
 ## -returns
+
 
 
 <table>
@@ -104,8 +107,10 @@ The call was successfully completed.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other HRESULT values.
+
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._AddTarget_IN
-title: _AddTarget_IN
+title: "_AddTarget_IN"
 author: windows-driver-content
 description: The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the AddTarget WMI method to the HBA miniport driver.
 old-location: storage\addtarget_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7c6a7ca8-83aa-41fe-92f5-6598464d9803
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: _AddTarget_IN, PAddTarget_IN structure pointer [Storage Devices], hbapiwmi/AddTarget_IN, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml, AddTarget_IN, hbapiwmi/PAddTarget_IN, storage.addtarget_in, *PAddTarget_IN, AddTarget_IN structure [Storage Devices], PAddTarget_IN
+ms.keywords: hbapiwmi/PAddTarget_IN, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml, PAddTarget_IN structure pointer [Storage Devices], AddTarget_IN, PAddTarget_IN, _AddTarget_IN, *PAddTarget_IN, AddTarget_IN structure [Storage Devices], hbapiwmi/AddTarget_IN, storage.addtarget_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	AddTarget_IN
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ Indicates the scope of the target events to report. If this member is zero, the 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aaa10cb2-16cb-40a8-ad72-9715da311957
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetStackLimits, k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, wdm/IoGetStackLimits, kernel.iogetstacklimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoGetStackLimits, IoGetStackLimits, k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, IoGetStackLimits routine [Kernel-Mode Driver Architecture], kernel.iogetstacklimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetStackLimits
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ Pointer to a caller-supplied variable in which this routine returns the higher o
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 Highest-level drivers can call this routine, particularly file systems that have been passed a pointer to a location on the current thread's stack.
@@ -95,11 +98,16 @@ In Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows, calle
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
 
+
+
 <a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+
+
 
  
 

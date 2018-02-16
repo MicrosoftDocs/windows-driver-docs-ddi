@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d7804745-295f-491a-80f4-84441598bbf4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: avfunc_da3c1932-98b1-4f29-8b5a-4663077759e9.xml, KsGetParent, KsGetParent function [Streaming Media Devices], ks/KsGetParent, stream.ksgetparent
+ms.keywords: stream.ksgetparent, KsGetParent, avfunc_da3c1932-98b1-4f29-8b5a-4663077759e9.xml, ks/KsGetParent, KsGetParent function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetParent
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ A pointer to the AVStream object for which to find the parent. Must be a pointer
 ## -returns
 
 
+
 <b>KsGetParent</b> returns the parent of <i>Object</i> as a PVOID. Callers must manually cast this return value to whatever the type of the parent of <i>Object</i> is.
 
 
 
+
 ## -remarks
+
 
 
 For a graphical representation of AVStream parent/child relationships, see the diagram in <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e-a453-d375e2d7ccf5">AVStream Object Hierarchy</a>.
@@ -91,21 +94,36 @@ Minidrivers rarely use this function directly. Callers of <b>KsGetParent</b> mus
 
 
 
+
 ## -see-also
-
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-<a href="..\ks\nf-ks-ksfilterfactorygetparentdevice.md">KsFilterFactoryGetParentDevice</a>
-
-<a href="..\ks\nf-ks-ksfiltergetparentfilterfactory.md">KsFilterGetParentFilterFactory</a>
-
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 <a href="..\ks\nf-ks-kspingetparentfilter.md">KsPinGetParentFilter</a>
 
+
+
+<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+
+
+
+<a href="..\ks\nf-ks-ksfiltergetparentfilterfactory.md">KsFilterGetParentFilterFactory</a>
+
+
+
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilterfactorygetparentdevice.md">KsFilterFactoryGetParentDevice</a>
+
+
+
 <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
+
+
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
 
  
 

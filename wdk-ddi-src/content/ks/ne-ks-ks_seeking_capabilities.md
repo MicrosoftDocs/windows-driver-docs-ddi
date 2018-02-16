@@ -2,13 +2,13 @@
 UID: NE:ks.KS_SEEKING_CAPABILITIES
 title: KS_SEEKING_CAPABILITIES
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ks_seeking_capabilities.htm
 old-project: stream
 ms.assetid: 345ADD1F-2002-4F9C-942C-212CADCF84E5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KS_SEEKING_CanGetDuration, ks/KS_SEEKING_CanPlayBackwards, ks/KS_SEEKING_CanSeekAbsolute, stream.ks_seeking_capabilities, ks/KS_SEEKING_CanSeekForwards, ks/KS_SEEKING_CanGetCurrentPos, KS_SEEKING_CanSeekAbsolute, KS_SEEKING_CanGetStopPos, KS_SEEKING_CanPlayBackwards, ks/KS_SEEKING_CanSeekBackwards, ks/KS_SEEKING_CAPABILITIES, KS_SEEKING_CanSeekForwards, KS_SEEKING_CAPABILITIES, ks/KS_SEEKING_CanGetStopPos, KS_SEEKING_CAPABILITIES enumeration [Streaming Media Devices], ks/KS_SEEKING_CanGetDuration, KS_SEEKING_CanGetCurrentPos, KS_SEEKING_CanSeekBackwards
+ms.keywords: KS_SEEKING_CanSeekAbsolute, KS_SEEKING_CanGetDuration, stream.ks_seeking_capabilities, KS_SEEKING_CanPlayBackwards, ks/KS_SEEKING_CanSeekForwards, KS_SEEKING_CanSeekForwards, ks/KS_SEEKING_CanSeekBackwards, KS_SEEKING_CanSeekBackwards, KS_SEEKING_CanGetStopPos, KS_SEEKING_CanGetCurrentPos, ks/KS_SEEKING_CanSeekAbsolute, ks/KS_SEEKING_CAPABILITIES, ks/KS_SEEKING_CanGetStopPos, ks/KS_SEEKING_CanPlayBackwards, KS_SEEKING_CAPABILITIES, ks/KS_SEEKING_CanGetCurrentPos, ks/KS_SEEKING_CanGetDuration, KS_SEEKING_CAPABILITIES enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KS_SEEKING_CAPABILITIES
 product: Windows
 targetos: Windows
@@ -76,27 +76,20 @@ typedef enum  {
 ### -field KS_SEEKING_CanSeekAbsolute
 
 
-
 ### -field KS_SEEKING_CanSeekForwards
-
 
 
 ### -field KS_SEEKING_CanSeekBackwards
 
 
-
 ### -field KS_SEEKING_CanGetCurrentPos
-
 
 
 ### -field KS_SEEKING_CanGetStopPos
 
 
-
 ### -field KS_SEEKING_CanGetDuration
 
 
-
 ### -field KS_SEEKING_CanPlayBackwards
-
 

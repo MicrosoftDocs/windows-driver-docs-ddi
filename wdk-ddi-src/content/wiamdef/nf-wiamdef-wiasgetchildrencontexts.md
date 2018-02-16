@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: a69216f4-1272-488f-8d06-8dc3b6a88452
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.wiasgetchildrencontexts, wiasGetChildrenContexts function [Imaging Devices], wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiamdef/wiasGetChildrenContexts, wiasGetChildrenContexts
+ms.keywords: image.wiasgetchildrencontexts, wiasGetChildrenContexts, wiamdef/wiasGetChildrenContexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiasGetChildrenContexts function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Wiaservc.dll
-apiname: 
+apiname:
 -	wiasGetChildrenContexts
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ Pointer to a memory location that points to an array whose elements are addresse
 ## -returns
 
 
+
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
+
 
 

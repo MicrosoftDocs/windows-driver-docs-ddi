@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45bda979-8f89-41cf-a0c9-3d8777cd5a56
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_WatchUiccFileChange, rilapi/RIL_WatchUiccFileChange, netvista.ril_watchuiccfilechange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista]
+ms.keywords: RIL_WatchUiccFileChange, rilapi/RIL_WatchUiccFileChange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista], netvista.ril_watchuiccfilechange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapi.h
-apiname: 
+apiname:
 -	RIL_WatchUiccFileChange
 product: Windows
 targetos: Windows
@@ -75,18 +75,17 @@ HRESULT  RIL_WatchUiccFileChange(
 ### -param hRil
 
 
-
 ### -param lpContext
-
 
 
 ### -param lpUiccFiles
 
 
-
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

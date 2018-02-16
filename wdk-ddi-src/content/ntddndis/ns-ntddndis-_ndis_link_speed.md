@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_LINK_SPEED
-title: _NDIS_LINK_SPEED
+title: "_NDIS_LINK_SPEED"
 author: windows-driver-content
 description: The NDIS_LINK_SPEED structure specifies transmit and receive link speeds.
 old-location: netvista\ndis_link_speed.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d11155a3-b455-4c6e-83b8-7a86d8fd2aa1
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_link_speed, NDIS_LINK_SPEED, PNDIS_LINK_SPEED, oid_structures_ref_c610b58c-eead-4483-96ab-c3fd62c1e846.xml, ntddndis/PNDIS_LINK_SPEED, NDIS_LINK_SPEED structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_SPEED structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_LINK_SPEED, _NDIS_LINK_SPEED, ntddndis/NDIS_LINK_SPEED
+ms.keywords: ntddndis/NDIS_LINK_SPEED, PNDIS_LINK_SPEED, oid_structures_ref_c610b58c-eead-4483-96ab-c3fd62c1e846.xml, *PNDIS_LINK_SPEED, ntddndis/PNDIS_LINK_SPEED, _NDIS_LINK_SPEED, PNDIS_LINK_SPEED structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_link_speed, NDIS_LINK_SPEED structure [Network Drivers Starting with Windows Vista], NDIS_LINK_SPEED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_LINK_SPEED
 product: Windows
 targetos: Windows
@@ -85,9 +85,11 @@ The receive link speed in bits per second. A value of -1 in this member indicate
 ## -remarks
 
 
+
 The NDIS_LINK_SPEED structure specifies link speeds in the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a> and 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a> OIDs.
+
 
 
 
@@ -95,7 +97,11 @@ The NDIS_LINK_SPEED structure specifies link speeds in the
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
+
+
 
  
 

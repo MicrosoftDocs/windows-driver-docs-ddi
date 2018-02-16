@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Ndis.h
-apiname: 
+apiname:
 -	(*MINIPORT_PNP_IRP_HANDLER)
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # MINIPORT_PNP_IRP callback
@@ -91,8 +91,8 @@ A handle for a driver-allocated context area that the miniport driver registered
 ### -param Irp [in]
 
 If this function is defined as <i>
-   MiniportFilterResourceRequirements</i>, this parameter is a pointer to the <mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
-     IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link> for the driver to handle.
+   MiniportFilterResourceRequirements</i>, this parameter is a pointer to the <a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
+     IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> for the driver to handle.
 
 If this function is defined as <i>MiniportStartDevice</i>, this parameter is a pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> IRP.
@@ -101,7 +101,9 @@ If this function is defined as <i>MiniportStartDevice</i>, this parameter is a p
 ## -returns
 
 
+
 <i>MiniportPnpIrp</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -141,17 +143,22 @@ The miniport driver could not handle the start device request because of low res
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
-<h3><a id="MiniportFilterResourceRequirements_Remarks"></a><a id="miniportfilterresourcerequirements_remarks"></a><a id="MINIPORTFILTERRESOURCEREQUIREMENTS_REMARKS"></a>MiniportFilterResourceRequirements Remarks</h3>The 
+
+<h3><a id="MiniportFilterResourceRequirements_Remarks"></a><a id="miniportfilterresourcerequirements_remarks"></a><a id="MINIPORTFILTERRESOURCEREQUIREMENTS_REMARKS"></a>MiniportFilterResourceRequirements Remarks</h3>
+The 
     <i>MiniportFilterResourceRequirements</i> function is an optional function. Miniport
     drivers should register this function if they support MSI-X and at least one of the following is
     true:
+
 <ul>
 <li>
 The driver requires the ability to change the interrupt affinity for each MSI-X message.
@@ -159,19 +166,20 @@ The driver requires the ability to change the interrupt affinity for each MSI-X 
 </li>
 <li>
 The driver will register for line-based interrupts in the 
-      <mshelp:link keywords="netvista.miniportinitializeex" tabindex="0"><i>
-      MiniportInitializeEx</i></mshelp:link> function.
+      <a href="..\ndis\nc-ndis-miniport_initialize.md">
+      MiniportInitializeEx</a> function.
 
 </li>
-</ul>To register 
+</ul>
+To register 
     <i>MiniportFilterResourceRequirements</i>, specify the entry point in the 
-    <mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-    NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+    NDIS_MINIPORT_PNP_CHARACTERISTICS</a> structure.
 
 NDIS calls the 
     <i>MiniportFilterResourceRequirements</i> function after NDIS receives an 
-    <mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
-    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link> IRP for a network interface card (NIC). NDIS calls 
+    <a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
+    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> IRP for a network interface card (NIC). NDIS calls 
     <i>MiniportFilterResourceRequirements</i> after the underlying function drivers in the
     device stack have completed the processing of the IRP.
 
@@ -197,8 +205,8 @@ Each message interrupt resource in the list is assigned a message number that co
     interrupt resources minus one.
 
 To assign an MSI-X table entry to a CPU at run time, the miniport driver can call the 
-    <mshelp:link keywords="netvista.ndismconfigmsixtableentry" tabindex="0"><b>
-    NdisMConfigMSIXTableEntry</b></mshelp:link> function.
+    <a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">
+    NdisMConfigMSIXTableEntry</a> function.
 
 A miniport driver can remove all of the resources of type 
     <b>CmResourceTypeInterrupt</b> that are message interrupt resources. The driver can then register for
@@ -209,8 +217,8 @@ A miniport driver can remove all of the resources of type
     <i>MiniportInitializeEx</i>.
 
 To allocate memory for a new resource-requirements list, use the 
-    <mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-    NdisAllocateMemoryWithTagPriority</b></mshelp:link> function. The miniport driver can free the memory for the old
+    <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+    NdisAllocateMemoryWithTagPriority</a> function. The miniport driver can free the memory for the old
     resources-requirement list with the 
     <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a> function. The PnP manager
     frees any driver-allocated memory after the associated IRP is complete.
@@ -233,9 +241,12 @@ NDIS can call
 
 NDIS calls 
     <i>MiniportFilterResourceRequirements</i> at IRQL = PASSIVE_LEVEL.
-<h3><a id="MiniportFilterResourceRequirements_Example"></a><a id="miniportfilterresourcerequirements_example"></a><a id="MINIPORTFILTERRESOURCEREQUIREMENTS_EXAMPLE"></a>MiniportFilterResourceRequirements Example</h3>To define a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">MiniportFilterResourceRequirements</a> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="MiniportFilterResourceRequirements_Example"></a><a id="miniportfilterresourcerequirements_example"></a><a id="MINIPORTFILTERRESOURCEREQUIREMENTS_EXAMPLE"></a>MiniportFilterResourceRequirements Example</h3>
+To define a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">MiniportFilterResourceRequirements</a> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">MiniportFilterResourceRequirements</a> function that is named "MyFilterResourceRequirements", use the <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -245,7 +256,9 @@ For example, to define a <a href="https://msdn.microsoft.com/library/windows/har
 <pre>MINIPORT_FILTER_RESOURCE_REQUIREMENTS MyFilterResourceRequirements;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -261,18 +274,21 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-<h3><a id="MiniportStartDevice_Remarks"></a><a id="miniportstartdevice_remarks"></a><a id="MINIPORTSTARTDEVICE_REMARKS"></a>MiniportStartDevice Remarks</h3><i>MiniportStartDevice</i> is an optional function. Miniport drivers that support
+
+<h3><a id="MiniportStartDevice_Remarks"></a><a id="miniportstartdevice_remarks"></a><a id="MINIPORTSTARTDEVICE_REMARKS"></a>MiniportStartDevice Remarks</h3>
+<i>MiniportStartDevice</i> is an optional function. Miniport drivers that support
     MSI-X can specify an entry point for this function in the 
-    <mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-    NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link> structure. When NDIS receives a request from the Plug and Play
+    <a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+    NDIS_MINIPORT_PNP_CHARACTERISTICS</a> structure. When NDIS receives a request from the Plug and Play
     (PnP) manager to start a device, NDIS calls the 
     <i>MiniportStartDevice</i> function, if any. If a miniport driver adds new resources
     in the 
-    <mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-    MiniportFilterResourceRequirements</i></mshelp:link> function, it should provide a 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+    MiniportFilterResourceRequirements</a> function, it should provide a 
     <i>MiniportStartDevice</i> function to remove the resources.
 
 If a miniport driver modifies resources in such a way that an underlying bus driver cannot recognize
@@ -291,9 +307,12 @@ NDIS calls
 
 NDIS calls 
     <i>MiniportStartDevice</i> at IRQL = PASSIVE_LEVEL.
-<h3><a id="MiniportStartDevice_Example"></a><a id="miniportstartdevice_example"></a><a id="MINIPORTSTARTDEVICE_EXAMPLE"></a>MiniportStartDevice Example</h3>To define a <i>MiniportStartDevice</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+
+<h3><a id="MiniportStartDevice_Example"></a><a id="miniportstartdevice_example"></a><a id="MINIPORTSTARTDEVICE_EXAMPLE"></a>MiniportStartDevice Example</h3>
+To define a <i>MiniportStartDevice</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportStartDevice</i> function that is named "MyStartDevice", use the <b>MINIPORT_START_DEVICE</b> type as shown in this code example:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -303,7 +322,9 @@ For example, to define a <i>MiniportStartDevice</i> function that is named "MySt
 <pre>MINIPORT_START_DEVICE MyStartDevice;</pre>
 </td>
 </tr>
-</table></span></div>Then, implement your function as follows:
+</table></span></div>
+Then, implement your function as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -319,43 +340,71 @@ NDIS_STATUS
   {...}</pre>
 </td>
 </tr>
-</table></span></div>The <b>MINIPORT_START_DEVICE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_START_DEVICE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+</table></span></div>
+The <b>MINIPORT_START_DEVICE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_START_DEVICE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
 
-<b>MiniportStartDevice</b>
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
-
-<mshelp:link keywords="kernel.irp_mn_filter_resource_requirements" tabindex="0"><b>
-   IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b></mshelp:link>
-
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-<a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-<mshelp:link keywords="netvista.miniportfilterresourcerequirements" tabindex="0"><i>
-   MiniportFilterResourceRequirements</i></mshelp:link>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
-
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
 <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
-<mshelp:link keywords="netvista.ndis_miniport_pnp_characteristics" tabindex="0"><b>
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</b></mshelp:link>
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
+   IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
 
 <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
+
+<b>MiniportStartDevice</b>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
 
  
 

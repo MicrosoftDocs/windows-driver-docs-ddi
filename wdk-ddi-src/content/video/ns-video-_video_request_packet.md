@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_REQUEST_PACKET
-title: _VIDEO_REQUEST_PACKET
+title: "_VIDEO_REQUEST_PACKET"
 author: windows-driver-content
 description: A pointer to a VIDEO_REQUEST_PACKET structure is passed to the miniport driver's HwVidStartIO function by the video port driver.
 old-location: display\video_request_packet.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8ccc8c97-4c8c-4278-8eef-a612ce85439e
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: video/VIDEO_REQUEST_PACKET, display.video_request_packet, VIDEO_REQUEST_PACKET structure [Display Devices], PVIDEO_REQUEST_PACKET structure pointer [Display Devices], *PVIDEO_REQUEST_PACKET, video/PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET, Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, VIDEO_REQUEST_PACKET, _VIDEO_REQUEST_PACKET
+ms.keywords: PVIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET structure [Display Devices], video/PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET structure pointer [Display Devices], _VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET, display.video_request_packet, Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, video/VIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VIDEO_REQUEST_PACKET
 product: Windows
 targetos: Windows
@@ -107,9 +107,15 @@ Specifies the size in bytes of the output buffer. A miniport driver cannot enlar
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
 
 <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
+
+
+
+<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+
+
 
  
 

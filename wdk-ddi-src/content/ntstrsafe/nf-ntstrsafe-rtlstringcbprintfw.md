@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlStringCbPrintfW, RtlStringCbPrintfA, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, RtlStringCbPrintf, ntstrsafe/RtlStringCbPrintfA, RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
+ms.keywords: kernel.rtlstringcbprintf, RtlStringCbPrintfA, RtlStringCbPrintfW, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], RtlStringCbPrintf, ntstrsafe/RtlStringCbPrintfA, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml, ntstrsafe/RtlStringCbPrintfW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ntstrsafe.lib
 -	Ntstrsafe.dll
-apiname: 
+apiname:
 -	RtlStringCbPrintfW
 -	RtlStringCbPrintfA
 -	RtlStringCbPrintfW
 product: Windows
 targetos: Windows
-req.typenames: *PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE
+req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ---
 
 # RtlStringCbPrintfW function
@@ -98,6 +98,7 @@ TBD
 
 
 
+
 ####### - ...
 
 A list of arguments that are interpreted by the function based on formatting directives contained in the <i>pszFormat</i> string.
@@ -106,7 +107,9 @@ A list of arguments that are interpreted by the function based on formatting dir
 ## -returns
 
 
+
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,14 +156,18 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 <b>RtlStringCbPrintfW</b> and <b>RtlStringCbPrintfA</b> should be used instead of the following functions: 
+
 <ul>
 <li>
 <b>sprintf</b>
@@ -178,9 +185,11 @@ _<b>snprintf</b>
 _<b>snwprintf</b>
 
 </li>
-</ul>All of these functions accept a format string and a list of arguments, interpret them, and create a formatted string. The size, in bytes, of the destination buffer is provided to <b>RtlStringCbPrintfW</b> and <b>RtlStringCbPrintfA</b> to ensure that they do not write past the end of the buffer.
+</ul>
+All of these functions accept a format string and a list of arguments, interpret them, and create a formatted string. The size, in bytes, of the destination buffer is provided to <b>RtlStringCbPrintfW</b> and <b>RtlStringCbPrintfA</b> to ensure that they do not write past the end of the buffer.
 
 Use <b>RtlStringCbPrintfW</b> to handle Unicode strings and <b>RtlStringCbPrintfA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+
 <table>
 <tr>
 <th>String data type</th>
@@ -215,7 +224,8 @@ L"string"
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If <i>pszDest</i> and <i>pszFormat</i> point to overlapping string or if any argument strings overlap, the behavior of the function is undefined.
 
@@ -224,14 +234,46 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to h
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
 
+#### Examples
+
+The following example shows a basic use of <b>RtlStringCbPrintfW</b> using four arguments.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>int const arraysize = 30;
+WCHAR pszDest[arraysize]; 
+size_t cbDest = arraysize * sizeof(WCHAR);
+
+LPCWSTR pszFormat = L"%s %d + %d = %d.";
+WCHAR* pszTxt = L"The answer is";
+
+NTSTATUS status = RtlStringCbPrintfW(pszDest, cbDest, pszFormat, pszTxt, 1, 2, 3);</pre>
+</td>
+</tr>
+</table></span></div>
+The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer at <i>pszDest</i>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
 
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
+
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f4efcbf3-f78a-4e0e-9741-4f9b68814e5b
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks interface [Windows Debugging], LoadModule method, debugger.idebugeventcallbacks_loadmodule, IDebugEventCallbacks::LoadModule, IDebugEventCallbacks, LoadModule, LoadModule method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::LoadModule, LoadModule method [Windows Debugging], ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml
+ms.keywords: IDebugEventCallbacks::LoadModule, LoadModule, LoadModule method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_loadmodule, LoadModule method [Windows Debugging], dbgeng/IDebugEventCallbacks::LoadModule, IDebugEventCallbacks, ComCallbacks_3d8f0501-0915-425e-a940-aa5f41bad734.xml, IDebugEventCallbacks interface [Windows Debugging], LoadModule method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugEventCallbacks.LoadModule
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugEventCallbacks::LoadModule method
@@ -111,11 +111,14 @@ Specifies the time and date stamp of the module's image file.  If this informati
 ## -returns
 
 
+
 This method returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541651">DEBUG_STATUS_XXX</a> value, which indicates how the execution of the target should proceed after the engine processes this event.  For details on how the engine treats this value, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>.
 
 
 
+
 ## -remarks
+
 
 
 This method is only called by the engine if the DEBUG_EVENT_LOAD_MODULE flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
@@ -123,5 +126,6 @@ This method is only called by the engine if the DEBUG_EVENT_LOAD_MODULE flag is 
 After calling this method, the engine will call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a>, with the <i>Flags</i> parameter containing the bit flag DEBUG_CSS_LOADS.
 
 For more information about handling events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>. 
+
 
 

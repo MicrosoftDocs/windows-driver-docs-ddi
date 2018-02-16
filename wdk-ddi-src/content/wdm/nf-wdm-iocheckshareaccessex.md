@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E6CDE415-FCC2-4039-B6DD-168113D9A490
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoCheckShareAccessEx, wdm/IoCheckShareAccessEx, kernel.iocheckshareaccessex, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoCheckShareAccessEx, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture], IoCheckShareAccessEx, kernel.iocheckshareaccessex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ntoskrnl.lib
 -	ntoskrnl.dll
-apiname: 
+apiname:
 -	IoCheckShareAccessEx
 product: Windows
 targetos: Windows
@@ -113,13 +113,17 @@ Specifies whether the share access has write permission. This value is TRUE if t
 ## -returns
 
 
+
 The <b>IoCheckShareAccessEx</b> routine returns STATUS_SUCCESS if the requester's access to the file object is compatible with the way in which it is currently open. If the request is denied because of a sharing violation, then STATUS_SHARING_VIOLATION is returned. 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
+
+
 
  
 

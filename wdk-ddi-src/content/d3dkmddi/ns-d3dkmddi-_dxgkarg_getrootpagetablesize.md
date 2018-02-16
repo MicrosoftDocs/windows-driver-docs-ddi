@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_GETROOTPAGETABLESIZE
-title: _DXGKARG_GETROOTPAGETABLESIZE
+title: "_DXGKARG_GETROOTPAGETABLESIZE"
 author: windows-driver-content
 description: DXGKARG_GETROOTPAGETABLESIZE is used with DxgkDdiGetRootPageTableSize.
 old-location: display\dxgkarg_getrootpagetablesize.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 31CB33F9-87E8-419D-AF35-E7F731661DD5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGKARG_GETROOTPAGETABLESIZE, _DXGKARG_GETROOTPAGETABLESIZE, DXGKARG_GETROOTPAGETABLESIZE structure [Display Devices], *INOUT_PDXGKARG_GETROOTPAGETABLESIZE, display.dxgkarg_getrootpagetablesize, d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE
+ms.keywords: d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE, _DXGKARG_GETROOTPAGETABLESIZE, DXGKARG_GETROOTPAGETABLESIZE, *INOUT_PDXGKARG_GETROOTPAGETABLESIZE, display.dxgkarg_getrootpagetablesize, DXGKARG_GETROOTPAGETABLESIZE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGKARG_GETROOTPAGETABLESIZE
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ Physical adapter index (zero for non-linked display adapter configurations).
 ## -see-also
 
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getrootpagetablesize.md">DxgkDdiGetRootPageTableSize</a>
+
+
 
  
 

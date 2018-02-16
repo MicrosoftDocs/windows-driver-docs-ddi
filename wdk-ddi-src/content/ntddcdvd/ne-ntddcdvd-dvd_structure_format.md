@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0f3ca59b-f7e9-4bd7-a652-f7f0a6075d80
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml, DvdCopyrightDescriptor, PDVD_STRUCTURE_FORMAT, DvdManufacturerDescriptor, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], ntddcdvd/DvdBCADescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, ntddcdvd/DVD_STRUCTURE_FORMAT, DvdMaxDescriptor, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdManufacturerDescriptor, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], *PDVD_STRUCTURE_FORMAT, ntddcdvd/DvdDiskKeyDescriptor, DvdBCADescriptor, DvdPhysicalDescriptor, DvdDiskKeyDescriptor, storage.dvd_structure_format, DVD_STRUCTURE_FORMAT, ntddcdvd/DvdPhysicalDescriptor, ntddcdvd/DvdMaxDescriptor
+ms.keywords: PDVD_STRUCTURE_FORMAT, DvdManufacturerDescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdManufacturerDescriptor, DvdMaxDescriptor, DvdCopyrightDescriptor, ntddcdvd/DvdMaxDescriptor, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], DvdDiskKeyDescriptor, storage.dvd_structure_format, DvdPhysicalDescriptor, ntddcdvd/DvdBCADescriptor, ntddcdvd/DvdPhysicalDescriptor, ntddcdvd/DVD_STRUCTURE_FORMAT, DvdBCADescriptor, *PDVD_STRUCTURE_FORMAT, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], ntddcdvd/DvdDiskKeyDescriptor, DVD_STRUCTURE_FORMAT, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddcdvd.h
-apiname: 
+apiname:
 -	DVD_STRUCTURE_FORMAT
 product: Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
 ---
 
 # DVD_STRUCTURE_FORMAT enumeration
@@ -106,7 +106,11 @@ Indicates that caller is requesting a DVD max descriptor.
 
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
+
+
 <a href="..\ntddcdvd\ns-ntddcdvd-dvd_read_structure.md">DVD_READ_STRUCTURE</a>
+
+
 
  
 

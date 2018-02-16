@@ -1,14 +1,14 @@
 ---
 UID: NS:winspool._DRIVER_INFO_8A
-title: _DRIVER_INFO_8A
+title: "_DRIVER_INFO_8A"
 author: windows-driver-content
 description: The DRIVER_INFO_8 structure contains printer driver information.
 old-location: print\driver_info_8.htm
 old-project: print
 ms.assetid: 95f62d57-300a-4179-868b-f14f29c58b4d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: _DRIVER_INFO_8A, *PDRIVER_INFO_8A, DRIVER_INFO_8 structure [Print Devices], LPDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, *LPDRIVER_INFO_8A, winspool/PDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices], DRIVER_INFO_8A, print.driver_info_8, winspool/LPDRIVER_INFO_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, DRIVER_INFO_8, winspool/DRIVER_INFO_8
+ms.date: 2/2/2018
+ms.keywords: LPDRIVER_INFO_8 structure pointer [Print Devices], *LPDRIVER_INFO_8A, winspool/PDRIVER_INFO_8, winspool/DRIVER_INFO_8, print.driver_info_8, winspool/LPDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, *PDRIVER_INFO_8A, LPDRIVER_INFO_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, DRIVER_INFO_8, DRIVER_INFO_8A, _DRIVER_INFO_8A, DRIVER_INFO_8 structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winspool.h
-apiname: 
+apiname:
 -	DRIVER_INFO_8
 product: Windows
 targetos: Windows
-req.typenames: *PDRIVER_INFO_8A, *LPDRIVER_INFO_8A, DRIVER_INFO_8A
+req.typenames: DRIVER_INFO_8A, *LPDRIVER_INFO_8A, *PDRIVER_INFO_8A
 req.product: Windows 10 or later.
 ---
 
@@ -95,6 +95,7 @@ typedef struct _DRIVER_INFO_8 {
 ### -field cVersion
 
 This member specifies the operating system version for which the driver was written. Currently it can be the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -110,7 +111,8 @@ Driver for Microsoft Windows 2000, XP, or Windows Vista.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field pName
@@ -217,6 +219,7 @@ A pointer to a null-terminated string that specifies the path of the INF file in
 
 This member specifies printer driver related properties. Must be zero if using the <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183346(v=vs.85).aspx">AddPrinterDriver</a> or <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd183347(v=vs.85).aspx">AddPrinterDriverEx</a> functions with DRIVER_INFO_8. The following table shows the flags that have been defined for the <i>dwPrinterDriverAttributes</i> parameter.
 	  
+
 <table>
 <tr>
 <th>Flag name/value</th>
@@ -401,7 +404,8 @@ Windows Server 2012
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field pszzCoreDriverDependencies
@@ -422,10 +426,12 @@ The earliest allowed version of any drivers that shipped with Windows and on whi
 ## -remarks
 
 
+
 The strings for these members are contained in the INF file that is used to add the driver.
 
 If you call <b>AddPrinterDriver</b> or <b>AddPrinterDriverEx</b> with Level not equal to 6 or 8, and then you call <b>GetPrinterDriver</b> or <b>EnumPrinterDrivers</b> with Level equal to 6 or 8, the <b>DRIVER_INFO_8</b> structure is returned with pszMfgName, pszOEMUrl, pszHardwareID, and pszProvider set to <b>NULL</b>, dwlDriverVersion set to zero, and ftDriverDate set to (0,0).
 
 This structure is available in Windows Vista.
+
 
 

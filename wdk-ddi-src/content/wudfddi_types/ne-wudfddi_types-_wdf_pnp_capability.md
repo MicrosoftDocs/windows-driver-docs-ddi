@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PNP_CAPABILITY
-title: _WDF_PNP_CAPABILITY
+title: "_WDF_PNP_CAPABILITY"
 author: windows-driver-content
 description: The WDF_PNP_CAPABILITY enumeration contains values that identify Plug and Play (PnP) capabilities for a device.
 old-location: wdf\wdf_pnp_capability.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: adcc5f64-b49c-47ca-8ef9-276537a0d7c6
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapLockSupported, WDF_PNP_CAPABILITY, WdfPnpCapDockDevice, WdfPnpCapInvalid, wudfddi_types/WdfPnpCapInvalid, wudfddi_types/WdfPnpCapSurpriseRemovalOk, WdfPnpCapEjectSupported, WdfPnpCapSurpriseRemovalOk, _WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapMaximum, WdfPnpCapRemovable, WdfPnpCapNoDisplayInUI, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, wdf.wdf_pnp_capability, WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapRemovable, wudfddi_types/WdfPnpCapEjectSupported, wudfddi_types/WdfPnpCapNoDisplayInUI, WdfPnpCapMaximum, umdf.wdf_pnp_capability, WDF_PNP_CAPABILITY enumeration, wudfddi_types/WDF_PNP_CAPABILITY
+ms.keywords: WdfPnpCapMaximum, wudfddi_types/WDF_PNP_CAPABILITY, wdf.wdf_pnp_capability, WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapInvalid, WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapRemovable, wudfddi_types/WdfPnpCapDockDevice, WdfPnpCapInvalid, WdfPnpCapRemovable, WDF_PNP_CAPABILITY, umdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapEjectSupported, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, wudfddi_types/WdfPnpCapNoDisplayInUI, WDF_PNP_CAPABILITY enumeration, WdfPnpCapEjectSupported, WdfPnpCapNoDisplayInUI, _WDF_PNP_CAPABILITY, WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wudfddi_types.h
-apiname: 
+apiname:
 -	WDF_PNP_CAPABILITY
 product: Windows
 targetos: Windows
@@ -120,7 +120,9 @@ Valid enumeration values were exceeded.
 ## -remarks
 
 
+
 A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a> method to identify the PnP capability to retrieve or set status for.
+
 
 
 
@@ -128,7 +130,11 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
+
+
 
  
 

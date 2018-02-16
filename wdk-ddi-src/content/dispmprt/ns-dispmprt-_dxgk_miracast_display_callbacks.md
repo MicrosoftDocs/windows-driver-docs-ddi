@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_MIRACAST_DISPLAY_CALLBACKS
-title: _DXGK_MIRACAST_DISPLAY_CALLBACKS
+title: "_DXGK_MIRACAST_DISPLAY_CALLBACKS"
 author: windows-driver-content
 description: Contains pointers to functions in the Wireless display (Miracast) display callback interface that the display miniport driver can call to send messages and report encode chunk info.
 old-location: display\dxgk_miracast_display_callbacks.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: C60F03A1-AD90-43C7-99DF-5EC45151D1F5
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_MIRACAST_DISPLAY_CALLBACKS, _DXGK_MIRACAST_DISPLAY_CALLBACKS, *PDXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/DXGK_MIRACAST_DISPLAY_CALLBACKS, display.dxgk_miracast_display_callbacks, PDXGK_MIRACAST_DISPLAY_CALLBACKS structure pointer [Display Devices], PDXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/PDXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS structure [Display Devices]
+ms.keywords: DXGK_MIRACAST_DISPLAY_CALLBACKS structure [Display Devices], DXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/PDXGK_MIRACAST_DISPLAY_CALLBACKS, display.dxgk_miracast_display_callbacks, _DXGK_MIRACAST_DISPLAY_CALLBACKS, *PDXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/DXGK_MIRACAST_DISPLAY_CALLBACKS, PDXGK_MIRACAST_DISPLAY_CALLBACKS, PDXGK_MIRACAST_DISPLAY_CALLBACKS structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Dispmprt.h
-apiname: 
+apiname:
 -	DXGK_MIRACAST_DISPLAY_CALLBACKS
 product: Windows
 targetos: Windows
@@ -86,9 +86,13 @@ A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_m
 
 ## -see-also
 
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
+
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_report_chunk_info.md">DxgkCbReportChunkInfo</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
+
 
  
 

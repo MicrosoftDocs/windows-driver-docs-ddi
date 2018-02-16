@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis/NdisMWriteLogData, miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], netvista.ndismwritelogdata, NdisMWriteLogData
+ms.keywords: ndis/NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], netvista.ndismwritelogdata, NdisMWriteLogData, miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisMWriteLogData
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisMWriteLogData function
@@ -90,7 +90,9 @@ Specifies how many bytes of data to copy into the log file.
 ## -returns
 
 
+
 <b>NdisMWriteLogData</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -120,11 +122,14 @@ The given
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the driver-dedicated application has an outstanding request for log file data, 
@@ -153,21 +158,34 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
+
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatefromnpagedlookasidelist" tabindex="0"><b>
-   NdisAllocateFromNPagedLookasideList</b></mshelp:link>
+<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+   NdisAllocateFromNPagedLookasideList</a>
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
-<mshelp:link keywords="netvista.ndisallocatememorywithtagpriority" tabindex="0"><b>
-   NdisAllocateMemoryWithTagPriority</b></mshelp:link>
 
 <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
+
+
 <a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._IPCR
-title: _IPCR
+title: "_IPCR"
 author: windows-driver-content
 description: The IPCR structure contains initialization values for an input plug.
 old-location: ieee\ipcr.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 81c89fbc-5d58-4983-b591-765a7818b932
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: PIPCR, 61883/PIPCR, *PIPCR, _IPCR, IPCR, IEEE.ipcr, PIPCR structure pointer [Buses], IPCR structure [Buses], 61883/IPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml
+ms.keywords: 61883/PIPCR, _IPCR, PIPCR, *PIPCR, IPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, PIPCR structure pointer [Buses], IEEE.ipcr, IPCR structure [Buses], 61883/IPCR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	IPCR
 product: Windows
 targetos: Windows
-req.typenames: *PIPCR, IPCR
+req.typenames: IPCR, *PIPCR
 ---
 
 # _IPCR structure
@@ -105,6 +105,8 @@ Indicates, when one, that the corresponding input plug is on-line. When zero it 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537010">AV_PCR</a>
+
+
 
  
 

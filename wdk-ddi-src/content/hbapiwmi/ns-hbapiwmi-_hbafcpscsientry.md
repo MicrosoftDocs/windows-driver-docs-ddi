@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFCPScsiEntry
-title: _HBAFCPScsiEntry
+title: "_HBAFCPScsiEntry"
 author: windows-driver-content
 description: The HBAFCPScsiEntry structure is used with GetFcpTargetMapping method of the MSFC_HBAFCPInfo WMI Class to define a binding between the operating system information that uniquely identifies a logical unit and the fibre channel protocol (FCP) identifier that identifies the logical unit.
 old-location: storage\hbafcpscsientry.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 718431f9-e4cc-4e79-84d3-a59f5399e711
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PHBAFCPScsiEntry, hbapiwmi/PHBAFCPScsiEntry, PHBAFCPScsiEntry structure pointer [Storage Devices], HBAFCPScsiEntry, structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml, *PHBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices], _HBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, storage.hbafcpscsientry
+ms.keywords: PHBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices], *PHBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, HBAFCPScsiEntry, storage.hbafcpscsientry, hbapiwmi/PHBAFCPScsiEntry, structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml, PHBAFCPScsiEntry structure pointer [Storage Devices], _HBAFCPScsiEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	HBAFCPScsiEntry
 product: Windows
 targetos: Windows
@@ -87,6 +87,8 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBA
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 351859d5-89fb-4756-a75b-fd4048cb20ef
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetExtensionFunctionWide, IDebugControl4 interface [Windows Debugging], GetExtensionFunctionWide method, IDebugControl4, IDebugControl4::GetExtensionFunctionWide, debugger.getextensionfunctionwide, dbgeng/IDebugControl4::GetExtensionFunctionWide, GetExtensionFunctionWide method [Windows Debugging], GetExtensionFunctionWide method [Windows Debugging], IDebugControl4 interface
+ms.keywords: GetExtensionFunctionWide method [Windows Debugging], dbgeng/IDebugControl4::GetExtensionFunctionWide, debugger.getextensionfunctionwide, GetExtensionFunctionWide method [Windows Debugging], IDebugControl4 interface, GetExtensionFunctionWide, IDebugControl4, IDebugControl4::GetExtensionFunctionWide, IDebugControl4 interface [Windows Debugging], GetExtensionFunctionWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl4.GetExtensionFunctionWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl4::GetExtensionFunctionWide method
@@ -87,7 +87,9 @@ Receives the extension function.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Extension libraries are loaded into the host engine and extension functions cannot be called remotely.  The current client must not be a debugging client, it must belong to the host engine.
@@ -119,15 +124,24 @@ For more information on using extension functions, see <a href="https://msdn.mic
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 83801ea2-1beb-4b73-8906-ffefee67a2ac
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_datarange_video_vbi, KS_DATARANGE_VIDEO_VBI, PKS_DATARANGE_VIDEO_VBI structure pointer [Streaming Media Devices], vidcapstruct_79d2aa9b-f3b9-4faf-b06e-6048686602a5.xml, tagKS_DATARANGE_VIDEO_VBI, ksmedia/PKS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI structure [Streaming Media Devices], *PKS_DATARANGE_VIDEO_VBI, PKS_DATARANGE_VIDEO_VBI, ksmedia/KS_DATARANGE_VIDEO_VBI
+ms.keywords: stream.ks_datarange_video_vbi, ksmedia/PKS_DATARANGE_VIDEO_VBI, ksmedia/KS_DATARANGE_VIDEO_VBI, tagKS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI, *PKS_DATARANGE_VIDEO_VBI, vidcapstruct_79d2aa9b-f3b9-4faf-b06e-6048686602a5.xml, KS_DATARANGE_VIDEO_VBI structure [Streaming Media Devices], PKS_DATARANGE_VIDEO_VBI structure pointer [Streaming Media Devices], PKS_DATARANGE_VIDEO_VBI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DATARANGE_VIDEO_VBI
 product: Windows
 targetos: Windows
@@ -110,11 +110,17 @@ Indicates VBI-specific information for the range of formats being described.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+
+
 
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+
+
+<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
+
+
 
  
 

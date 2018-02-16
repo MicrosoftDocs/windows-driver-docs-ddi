@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DxgkCbQueryVidPnInterface
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ NTSTATUS APIENTRY DxgkCbQueryVidPnInterface(
 ## -returns
 
 
+
 <b>DxgkCbQueryVidPnInterface </b>returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -140,21 +142,33 @@ The interface version specified by <i>VidPnInterfaceVersion</i> is not supported
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPN Target Mode Set Interface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPN Interface</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPN Source Mode Set Interface</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPN Topology Interface</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPN Interface</a>
+
 
  
 

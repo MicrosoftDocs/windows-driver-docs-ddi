@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: AECBA6E8-B030-4418-A561-9E48B4880D15
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols3::IsManagedModule, IsManagedModule, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, IDebugSymbols3::IsManagedModule, IDebugSymbols3, debugger.idebugsymbols3_ismanagedmodule, IsManagedModule method [Windows Debugging]
+ms.keywords: IDebugSymbols3 interface [Windows Debugging], IsManagedModule method, dbgeng/IDebugSymbols3::IsManagedModule, IDebugSymbols3::IsManagedModule, IsManagedModule method [Windows Debugging], debugger.idebugsymbols3_ismanagedmodule, IDebugSymbols3, IsManagedModule, IsManagedModule method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.IsManagedModule
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::IsManagedModule method
@@ -83,22 +83,28 @@ The base of the module.
 ## -returns
 
 
+
 <b>IDebugSymbols3::IsManagedModule</b> returns a value of <b>S_OK</b> if the engine is using managed
     debugging support when it retrieves information
     for a module.
 
 
 
+
 ## -remarks
+
 
 
 It can be expensive to run this check.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

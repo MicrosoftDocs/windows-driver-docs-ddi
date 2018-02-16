@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Mountdev.h
-apiname: 
+apiname:
 -	IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
 product: Windows
 targetos: Windows
@@ -67,14 +67,18 @@ Drive letter names must include the full path of the symbolic link in object nam
 ### -input-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -91,14 +95,18 @@ The client driver must place a variable-length structure of type <a href="..\mou
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -114,6 +122,8 @@ If <b>OutputBufferLength</b> is less than the total length of output data, the <
 ## -see-also
 
 <a href="..\mountdev\ns-mountdev-_mountdev_suggested_link_name.md">MOUNTDEV_SUGGESTED_LINK_NAME</a>
+
+
 
  
 

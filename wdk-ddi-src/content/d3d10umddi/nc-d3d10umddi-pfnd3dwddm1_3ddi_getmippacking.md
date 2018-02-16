@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	GetMipPacking
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM1_3DDI_GETMIPPACKING callback
@@ -83,25 +83,14 @@ A handle to the display device (graphics context).
 A handle to the tiled resource.
 
 
-### -param *pNumPackedMips
-
-
-
-### -param *pNumTilesForPackedMips
-
-
-
-
-
-
-#### - pNumPackedMips [out]
+### -param *pNumPackedMips [out]
 
 A pointer to a variable that receives the number of mips that are packed, for a given array slice, including any mips that don't use the standard tile shapes.
 
 If there is no packing, a value of zero should be returned.
 
 
-#### - pNumTilesForPackedMips [out]
+### -param *pNumTilesForPackedMips [out]
 
 A pointer to a variable that receives the number of tiles that the packed mips fit into, for a given array slice.
 
@@ -111,13 +100,16 @@ This parameter is ignored if *<i>pNumPackedMips</i> returns zero.
 ## -returns
 
 
+
 None
 
 The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if an input parameter does not exist or is <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 Packed mips include cases where multiple small mips share tile(s) and also mips for which a given device cannot use standard tile shapes.  It's possible for an entire resource to be considered packed.
@@ -139,9 +131,12 @@ in the packing overall), and thus loses some freedom.
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
  
 

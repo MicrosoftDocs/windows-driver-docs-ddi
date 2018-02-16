@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DATA_SET_RANGE
-title: _DEVICE_DATA_SET_RANGE
+title: "_DEVICE_DATA_SET_RANGE"
 author: windows-driver-content
 description: The DEVICE_DATA_SET_RANGE structure specifies a block of data set ranges for the attributes for a device.
 old-location: storage\device_data_set_range.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f610927-d8d0-44c5-8a66-0204953c1859
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.device_data_set_range, DEVICE_DATA_SET_RANGE structure [Storage Devices], *PDEVICE_DATA_SET_RANGE, ntddstor/DEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml, PDEVICE_DATA_SET_RANGE, _DEVICE_DATA_SET_RANGE, ntddstor/PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE
+ms.keywords: ntddstor/DEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE, storage.device_data_set_range, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], DEVICE_DATA_SET_RANGE structure [Storage Devices], structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml, ntddstor/PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE, _DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddstor.h
-apiname: 
+apiname:
 -	DEVICE_DATA_SET_RANGE
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE
+req.typenames: "*PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE"
 ---
 
 # _DEVICE_DATA_SET_RANGE structure
@@ -83,6 +83,8 @@ Contains the length, in bytes, of the data set range. The length value must be b
 ## -see-also
 
 <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
+
 
  
 

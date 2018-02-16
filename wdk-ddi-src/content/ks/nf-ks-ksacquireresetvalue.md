@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 80a990e3-3637-4837-8800-42d5848e01cf
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksacquireresetvalue, KsAcquireResetValue function [Streaming Media Devices], KsAcquireResetValue, ks/KsAcquireResetValue, ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml
+ms.keywords: KsAcquireResetValue, ks/KsAcquireResetValue, ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml, stream.ksacquireresetvalue, KsAcquireResetValue function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsAcquireResetValue
 product: Windows
 targetos: Windows
@@ -82,6 +82,8 @@ Points to a caller-allocated buffer, that on successful completion contains the 
 ## -returns
 
 
+
 The <b>KsAcquireResetValue </b>function returns STATUS_SUCCESS if the reset value was obtained.
+
 
 

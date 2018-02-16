@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	IOCTL_SERIAL_GET_PROPERTIES
 product: Windows
 targetos: Windows
@@ -85,14 +85,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> is set to the size, in 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,6 +110,8 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 ## -see-also
 
 <a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
+
+
 
  
 

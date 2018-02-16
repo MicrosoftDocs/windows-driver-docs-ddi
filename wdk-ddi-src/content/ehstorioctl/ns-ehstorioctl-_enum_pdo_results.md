@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._ENUM_PDO_RESULTS
-title: _ENUM_PDO_RESULTS
+title: "_ENUM_PDO_RESULTS"
 author: windows-driver-content
 description: This structure describes a result set of Physical Device Objects (PDOs) that are enumerated with IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS.
 old-location: storage\enum_pdo_results.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 80553c9e-3e80-4219-8cc0-2bd4dd6fa76b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PENUM_PDO_RESULTS structure pointer [Storage Devices], structs-silo_45277a1e-1ca6-4bce-a952-b26860796f51.xml, _ENUM_PDO_RESULTS, ENUM_PDO_RESULTS, storage.enum_pdo_results, *PENUM_PDO_RESULTS, ehstorioctl/PENUM_PDO_RESULTS, ehstorioctl/ENUM_PDO_RESULTS, ENUM_PDO_RESULTS structure [Storage Devices], PENUM_PDO_RESULTS
+ms.keywords: ehstorioctl/ENUM_PDO_RESULTS, PENUM_PDO_RESULTS structure pointer [Storage Devices], ehstorioctl/PENUM_PDO_RESULTS, ENUM_PDO_RESULTS, ENUM_PDO_RESULTS structure [Storage Devices], structs-silo_45277a1e-1ca6-4bce-a952-b26860796f51.xml, *PENUM_PDO_RESULTS, _ENUM_PDO_RESULTS, storage.enum_pdo_results, PENUM_PDO_RESULTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	EhStorIoctl.h
-apiname: 
+apiname:
 -	ENUM_PDO_RESULTS
 product: Windows
 targetos: Windows
-req.typenames: *PENUM_PDO_RESULTS, ENUM_PDO_RESULTS
+req.typenames: "*PENUM_PDO_RESULTS, ENUM_PDO_RESULTS"
 ---
 
 # _ENUM_PDO_RESULTS structure
@@ -81,6 +81,8 @@ This member contains the array of ENUM_PDO_ENTRY structures.
 ## -see-also
 
 <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos.md">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
+
+
 
  
 

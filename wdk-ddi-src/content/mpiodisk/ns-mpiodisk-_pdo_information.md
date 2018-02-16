@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._PDO_INFORMATION
-title: _PDO_INFORMATION
+title: "_PDO_INFORMATION"
 author: windows-driver-content
 description: The PDO_INFORMATION structure represents a device-path pairing, which is an instance of a LUN through a particular path.
 old-location: storage\pdo_information.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26ce460f-b12d-4e5e-994a-047a1853325d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: mpiodisk/PDO_INFORMATION, mpiodisk/PPDO_INFORMATION, *PPDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices], storage.pdo_information, PPDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], _PDO_INFORMATION, PDO_INFORMATION, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml
+ms.keywords: "*PPDO_INFORMATION, mpiodisk/PDO_INFORMATION, storage.pdo_information, mpiodisk/PPDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], PPDO_INFORMATION structure pointer [Storage Devices], structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml, _PDO_INFORMATION, PDO_INFORMATION, PPDO_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiodisk.h
-apiname: 
+apiname:
 -	PDO_INFORMATION
 product: Windows
 targetos: Windows

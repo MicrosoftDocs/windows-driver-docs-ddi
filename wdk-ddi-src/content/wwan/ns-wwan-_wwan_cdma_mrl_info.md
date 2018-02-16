@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CDMA_MRL_INFO
-title: _WWAN_CDMA_MRL_INFO
+title: "_WWAN_CDMA_MRL_INFO"
 author: windows-driver-content
 description: The WWAN_CDMA_MRL_INFO structure represents information about a CDMA serving cell or neighboring cell.
 old-location: netvista\wwan_cdma_mrl_info.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D8633E80-C7A3-4050-8E8E-8AE459F905D5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_CDMA_MRL_INFO, *PWWAN_CDMA_MRL_INFO, netvista.wwan_cdma_mrl_info, wwan/PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.wwan_cdma_mrl_info, wwan/WWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_CDMA_MRL_INFO, PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_CDMA_MRL_INFO, _WWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_CDMA_MRL_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO
+req.typenames: "*PWWAN_CDMA_MRL_INFO, WWAN_CDMA_MRL_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -124,7 +124,9 @@ The Signal Strength of the pilot (0-63). Use 0xFFFFFFFF when this information is
 ## -remarks
 
 
+
 <b>WWAN_CDMA_MRL_INFO</b> is designed for the CDMA2000 network type. There can be more than one CDMA2000 serving cell at the same time. Both serving cells and neighboring cells will be returned in the same list. The <b>ServingCellFlag</b> member indicates whether a cell is a serving cell or not.
+
 
 
 
@@ -132,9 +134,15 @@ The Signal Strength of the pilot (0-63). Use 0xFFFFFFFF when this information is
 
 <a href="..\wwan\ns-wwan-_wwan_cdma_mrl.md">WWAN_CDMA_MRL</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
 
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
+
 
  
 

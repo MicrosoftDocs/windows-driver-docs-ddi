@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 03fde4a7-a4d1-4045-ac0c-6a37f2367b9d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfcollection/WdfCollectionRemoveItem, kmdf.wdfcollectionremoveitem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem, wdf.wdfcollectionremoveitem, WdfCollectionRemoveItem method, PFN_WDFCOLLECTIONREMOVEITEM
+ms.keywords: wdf.wdfcollectionremoveitem, wdfcollection/WdfCollectionRemoveItem, DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, PFN_WDFCOLLECTIONREMOVEITEM, kmdf.wdfcollectionremoveitem, WdfCollectionRemoveItem, WdfCollectionRemoveItem method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfCollectionRemoveItem
 product: Windows
 targetos: Windows
@@ -87,13 +87,16 @@ A zero-based index that identifies the object to remove.
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Index values represent the order in which objects are added to a collection. An index value of zero represents the first object that was added to the collection, an index value of one represents the second object, and so on. 
@@ -104,10 +107,19 @@ For more information about object collections, see <a href="https://docs.microso
 
 
 
+#### Examples
+
+For a code example that uses <b>WdfCollectionRemoveItem</b>, see <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
+
+
 
  
 

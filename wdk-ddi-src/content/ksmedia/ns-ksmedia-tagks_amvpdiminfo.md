@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 5b8126ee-ba47-4eaf-887a-764e17a20e03
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_AMVPDIMINFO, *PKS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], ksmedia/PKS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], KS_AMVPDIMINFO, dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, stream.ks_amvpdiminfo, tagKS_AMVPDIMINFO, ksmedia/KS_AMVPDIMINFO
+ms.keywords: stream.ks_amvpdiminfo, KS_AMVPDIMINFO, PKS_AMVPDIMINFO, dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, KS_AMVPDIMINFO structure [Streaming Media Devices], *PKS_AMVPDIMINFO, ksmedia/KS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], tagKS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_AMVPDIMINFO
 product: Windows
 targetos: Windows
-req.typenames: *PKS_AMVPDIMINFO, KS_AMVPDIMINFO
+req.typenames: "*PKS_AMVPDIMINFO, KS_AMVPDIMINFO"
 ---
 
 # tagKS_AMVPDIMINFO structure
@@ -99,13 +99,17 @@ Describes a valid rectangle for data cropping.
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ksmedia\ns-ksmedia-tagks_amvpdatainfo.md">KS_AMVPDATAINFO</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\ksmedia\ns-ksmedia-tagks_amvpdatainfo.md">KS_AMVPDATAINFO</a>
+
+
 
  
 

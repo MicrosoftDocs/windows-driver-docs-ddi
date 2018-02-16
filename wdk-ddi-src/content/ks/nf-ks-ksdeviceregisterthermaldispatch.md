@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 7998B753-8E43-471F-9BDE-729D0E38E022
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], stream.ksdeviceregisterthermaldispatch, ks/KsDeviceRegisterThermalDispatch
+ms.keywords: ks/KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], stream.ksdeviceregisterthermaldispatch, KsDeviceRegisterThermalDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
-apiname: 
+apiname:
 -	KsDeviceRegisterThermalDispatch
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ A structure containing the Avstream driver active and passive thermal callback n
 ## -returns
 
 
+
 Returns NTSTATUS  STATUS_SUCCESS for success conditions or STATUS_INVALID_DEVICE_REQUEST if both the parameters are NULL.
 
 
 
+
 ## -remarks
+
 
 
 <b>KsDeviceRegisterThermalDispatch</b> takes two arguments:<ul>
@@ -99,9 +102,12 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+
+
 
  
 

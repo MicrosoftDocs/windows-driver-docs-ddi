@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_POWER_CONTROL_REQUEST
-title: _PEP_POWER_CONTROL_REQUEST
+title: "_PEP_POWER_CONTROL_REQUEST"
 author: windows-driver-content
 description: The PEP_POWER_CONTROL_REQUEST structure contains a request from a driver for a power control operation.
 old-location: kernel\pep_power_control_request.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E6665E96-5C58-4533-906A-D9525BA6824C
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: *PPEP_POWER_CONTROL_REQUEST, pepfx/PEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], kernel.pep_power_control_request, PPEP_POWER_CONTROL_REQUEST, _PEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], PEP_POWER_CONTROL_REQUEST, pepfx/PPEP_POWER_CONTROL_REQUEST
+ms.keywords: pepfx/PEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], pepfx/PPEP_POWER_CONTROL_REQUEST, _PEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], PEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST, kernel.pep_power_control_request, *PPEP_POWER_CONTROL_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_POWER_CONTROL_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST
+req.typenames: PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST
 ---
 
 # _PEP_POWER_CONTROL_REQUEST structure
@@ -117,6 +117,7 @@ typedef struct _PEP_POWER_CONTROL_REQUEST {
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186797">PEP_DPM_POWER_CONTROL_REQUEST</a> notification. The first six members of the structure contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">power management Framework</a> (PoFx). The last two members contain values that the PEP writes to the structure in response to this notification. In addition, the PEP writes to the output buffer pointed to by the <b>OutBuffer</b> member.
 
 If the output buffer is too small to receive all of the result data from the operation, the PEP sets the <b>Status</b> member of the structure to STATUS_INSUFFICIENT_RESOURCES, sets  the <b>BytesReturned</b> member to the required size of the output buffer, and (typically) writes no data to the output buffer.
@@ -125,13 +126,20 @@ The driver for a device can call the <a href="..\wdm\nf-wdm-pofxpowercontrol.md"
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
-<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186797">PEP_DPM_POWER_CONTROL_REQUEST</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
+
+
 
  
 

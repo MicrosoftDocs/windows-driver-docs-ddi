@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 578f7633-307e-4cda-b8fe-ae73a095976f
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, RetrievePipePolicy method, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy method, IWDFUsbTargetPipe interface, RetrievePipePolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, IWDFUsbTargetPipe interface, RetrievePipePolicy method, IWDFUsbTargetPipe, IWDFUsbTargetPipe::RetrievePipePolicy, umdf.iwdfusbtargetpipe_retrievepipepolicy
+ms.keywords: RetrievePipePolicy, RetrievePipePolicy method, IWDFUsbTargetPipe interface, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy method, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, RetrievePipePolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfusb.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFUsbTargetPipe.RetrievePipePolicy
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -90,7 +90,9 @@ A pointer that receives the buffer that contains the WinUsb pipe policy.
 ## -returns
 
 
+
 <b>RetrievePipePolicy</b> returns one of the following values: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -131,11 +133,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 Pipe policy controls the behavior of the USB pipe (for example, time-outs, handling short packets, and so on).
@@ -148,13 +153,20 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560421">IWDFUsbTargetPipe::SetPipePolicy</a>
 
+
+
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
+
+
 
  
 

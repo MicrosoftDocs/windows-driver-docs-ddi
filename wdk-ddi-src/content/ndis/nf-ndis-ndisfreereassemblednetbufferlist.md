@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bcbb0c56-1500-45b2-bd20-03726ef7da77
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisfreereassemblednetbufferlist, ndis/NdisFreeReassembledNetBufferList, NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista], NdisFreeReassembledNetBufferList, ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml
+ms.keywords: ndis/NdisFreeReassembledNetBufferList, netvista.ndisfreereassemblednetbufferlist, NdisFreeReassembledNetBufferList, ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml, NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFreeReassembledNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFreeReassembledNetBufferList function
@@ -76,8 +76,8 @@ VOID NdisFreeReassembledNetBufferList(
 ### -param ReassembledNetBufferList [in]
 
 A pointer to a NET_BUFFER_LIST structure that the driver allocated by calling the 
-     <mshelp:link keywords="netvista.ndisallocatereassemblednetbufferlist" tabindex="0"><b>
-     NdisAllocateReassembledNetBufferList</b></mshelp:link> function.
+     <a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+     NdisAllocateReassembledNetBufferList</a> function.
 
 
 ### -param DataOffsetDelta [in]
@@ -98,29 +98,39 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 <b>NdisFreeReassembledNetBufferList</b> frees a reassembled 
     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that the caller
     allocated by calling 
-    <mshelp:link keywords="netvista.ndisallocatereassemblednetbufferlist" tabindex="0"><b>
-    NdisAllocateReassembledNetBufferList</b></mshelp:link>.
+    <a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+    NdisAllocateReassembledNetBufferList</a>.
+
 
 
 
 ## -see-also
 
-<mshelp:link keywords="netvista.ndisallocatereassemblednetbufferlist" tabindex="0"><b>
-   NdisAllocateReassembledNetBufferList</b></mshelp:link>
-
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
+
+
+<a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
+   NdisAllocateReassembledNetBufferList</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
  
 

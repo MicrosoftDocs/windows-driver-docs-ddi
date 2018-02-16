@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_PRODUCT_DATA
-title: _CHANGER_PRODUCT_DATA
+title: "_CHANGER_PRODUCT_DATA"
 author: windows-driver-content
 description: The CHANGER_PRODUCT_DATA structure is used in conjunction with the IOCTL_CHANGER_GET_PRODUCT_DATA request to retrieve product data for a device.
 old-location: storage\changer_product_data.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 18e5b394-b0ea-481c-b634-83a2ebec4784
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.changer_product_data, CHANGER_PRODUCT_DATA structure [Storage Devices], structs-changer_10598085-7fbc-40f9-a04c-ca8973faace7.xml, _CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA, ntddchgr/CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA, ntddchgr/PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer [Storage Devices]
+ms.keywords: PCHANGER_PRODUCT_DATA structure pointer [Storage Devices], ntddchgr/CHANGER_PRODUCT_DATA, ntddchgr/PCHANGER_PRODUCT_DATA, storage.changer_product_data, CHANGER_PRODUCT_DATA, *PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure [Storage Devices], structs-changer_10598085-7fbc-40f9-a04c-ca8973faace7.xml, _CHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddchgr.h
-apiname: 
+apiname:
 -	CHANGER_PRODUCT_DATA
 product: Windows
 targetos: Windows
-req.typenames: *PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA
+req.typenames: "*PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA"
 ---
 
 # _CHANGER_PRODUCT_DATA structure
@@ -100,9 +100,15 @@ Specifies the device type of the changer. This member must be MEDIUM_CHANGER.
 
 <a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
 
+
+
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
 
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+
 
  
 

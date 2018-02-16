@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_PersistentLogins
-title: _MSiSCSI_PersistentLogins
+title: "_MSiSCSI_PersistentLogins"
 author: windows-driver-content
 description: The MSiSCSI_PersistentLogins structure contains the list of persistent target logon sessions.
 old-location: storage\msiscsi_persistentlogins.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c735d9c9-8e87-4a80-af1d-c97d457f78fa
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices], MSiSCSI_PersistentLogins structure [Storage Devices], iscsiop/MSiSCSI_PersistentLogins, structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml, storage.msiscsi_persistentlogins, *PMSiSCSI_PersistentLogins, _MSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins, iscsiop/PMSiSCSI_PersistentLogins
+ms.keywords: iscsiop/PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins structure [Storage Devices], structs-iSCSI_150a8086-8025-4140-9fdb-75d05bfcb0ac.xml, iscsiop/MSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins, _MSiSCSI_PersistentLogins, storage.msiscsi_persistentlogins, PMSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins, PMSiSCSI_PersistentLogins structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	MSiSCSI_PersistentLogins
 product: Windows
 targetos: Windows
-req.typenames: *PMSiSCSI_PersistentLogins, MSiSCSI_PersistentLogins
+req.typenames: MSiSCSI_PersistentLogins, *PMSiSCSI_PersistentLogins
 ---
 
 # _MSiSCSI_PersistentLogins structure
@@ -87,17 +87,25 @@ A variable length array of <a href="..\iscsiop\ns-iscsiop-_iscsi_persistent_logi
 ## -remarks
 
 
+
 Miniport drivers that manage iSCSI initiators automatically establish persistent logon sessions as soon as they are loaded into the storage driver stack. This guarantees that targets for which the initiator maintains persistent logon sessions will be available to the system as early in the startup process as possible. You must implement this class.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563096">MSiSCSI_PersistentLogins WMI Class</a>
-
 <a href="..\iscsiop\ns-iscsiop-_iscsi_persistent_login.md">ISCSI_Persistent_Login</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563096">MSiSCSI_PersistentLogins WMI Class</a>
+
+
 
  
 

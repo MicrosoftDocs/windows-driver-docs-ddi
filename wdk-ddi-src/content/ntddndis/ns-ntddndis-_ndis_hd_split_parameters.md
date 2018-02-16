@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_HD_SPLIT_PARAMETERS
-title: _NDIS_HD_SPLIT_PARAMETERS
+title: "_NDIS_HD_SPLIT_PARAMETERS"
 author: windows-driver-content
 description: The NDIS_HD_SPLIT_PARAMETERS structure defines the current header-data split settings of a miniport adapter.
 old-location: netvista\ndis_hd_split_parameters.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cc76765-871e-4cd0-b927-b0b4d3d746b4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndis_hd_split_parameters, NDIS_HD_SPLIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_HD_SPLIT_PARAMETERS, ntddndis/NDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS, header_data_split_ref_f7f3a3c4-4259-44a5-abce-fa393922f97d.xml, _NDIS_HD_SPLIT_PARAMETERS, *PNDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_HD_SPLIT_PARAMETERS
+ms.keywords: netvista.ndis_hd_split_parameters, _NDIS_HD_SPLIT_PARAMETERS, header_data_split_ref_f7f3a3c4-4259-44a5-abce-fa393922f97d.xml, ntddndis/PNDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_HD_SPLIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_HD_SPLIT_PARAMETERS, *PNDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddndis.h
-apiname: 
+apiname:
 -	NDIS_HD_SPLIT_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS
+req.typenames: NDIS_HD_SPLIT_PARAMETERS, *PNDIS_HD_SPLIT_PARAMETERS
 ---
 
 # _NDIS_HD_SPLIT_PARAMETERS structure
@@ -89,7 +89,8 @@ A set of flags that specify the current header-data split settings of a miniport
 
 
 
-##### - HDSplitCombineFlags.NDIS_HD_SPLIT_COMBINE_ALL_HEADERS
+
+#### NDIS_HD_SPLIT_COMBINE_ALL_HEADERS
 
 The miniport adapter should combine split frames. If header-data split is enabled in the
        hardware, the miniport driver should combine the header and data before indicating the frame to
@@ -99,17 +100,23 @@ The miniport adapter should combine split frames. If header-data split is enable
 ## -remarks
 
 
+
 The NDIS_HD_SPLIT_PARAMETERS structure is used in the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569587">OID_GEN_HD_SPLIT_PARAMETERS</a> OID set
     request to specify the current header-data split settings of a miniport adapter.
 
 
 
+
 ## -see-also
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569587">OID_GEN_HD_SPLIT_PARAMETERS</a>
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
 
  
 

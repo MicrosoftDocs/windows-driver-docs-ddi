@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: usbcamdi/USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand, stream.usbcamd_controlvendorcommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml, USBCAMD_ControlVendorCommand function [Streaming Media Devices]
+ms.keywords: USBCAMD_ControlVendorCommand function [Streaming Media Devices], USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml, stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Usbcamd2.lib
 req.dll: 
-req.irql: >= PASSIVE_LEVEL (See Remarks section)
-topictype: 
+req.irql: ">= PASSIVE_LEVEL (See Remarks section)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	usbcamd2.lib
 -	usbcamd2.dll
-apiname: 
+apiname:
 -	USBCAMD_ControlVendorCommand
 product: Windows
 targetos: Windows
@@ -125,7 +125,9 @@ Pointer to a block of memory, that is passed as an argument to the camera minidr
 ## -returns
 
 
+
 <b>USBCAMD_ControlVendorCommand </b>returns the NTSTATUS code from vendor command. Other possible error codes include:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -153,20 +155,26 @@ There are insufficient resources to allocate the vendor command.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This function may be called at IRQL &gt;= PASSIVE_LEVEL. If the function is called at IRQL &gt; PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a> is called and passed the value in the <i>CommandContext</i> argument<i>.</i>
+
 
 
 
 ## -see-also
 
 <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
+
+
 
  
 

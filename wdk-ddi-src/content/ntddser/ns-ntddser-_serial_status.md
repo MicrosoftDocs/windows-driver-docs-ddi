@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_STATUS
-title: _SERIAL_STATUS
+title: "_SERIAL_STATUS"
 author: windows-driver-content
 description: The SERIAL_STATUS structure contains status information about the serial port.
 old-location: serports\serial_status.htm
@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], ntddser/SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], ntddser/PSERIAL_STATUS, PSERIAL_STATUS, SERIAL_STATUS, _SERIAL_STATUS, serports.serial_status
+ms.keywords: ntddser/PSERIAL_STATUS, PSERIAL_STATUS, SERIAL_STATUS, _SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], PSERIAL_STATUS structure pointer [Serial Ports], serports.serial_status, *PSERIAL_STATUS, ntddser/SERIAL_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddser.h
-apiname: 
+apiname:
 -	SERIAL_STATUS
 product: Windows
 targetos: Windows
-req.typenames: *PSERIAL_STATUS, SERIAL_STATUS
+req.typenames: "*PSERIAL_STATUS, SERIAL_STATUS"
 ---
 
 # _SERIAL_STATUS structure
@@ -75,6 +75,7 @@ typedef struct _SERIAL_STATUS {
 ### -field Errors
 
 A set of flags to indicate the receive errors that have occurred in the input stream. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
+
 <table>
 <tr>
 <th>Flag name</th>
@@ -100,7 +101,8 @@ A set of flags to indicate the receive errors that have occurred in the input st
 <td>SERIAL_ERROR_FRAMING</td>
 <td>A framing error was detected in the bytes received from the input stream.</td>
 </tr>
-</table> 
+</table>
+ 
 
 After the serial controller driver supplies the accumulated SERIAL_ERROR_<i>XXX</i> flags to satisfy an <a href="..\ntddser\ni-ntddser-ioctl_serial_get_commstatus.md">IOCTL_SERIAL_GET_COMMSTATUS</a> request, the driver resets the flags to zero.
 
@@ -108,6 +110,7 @@ After the serial controller driver supplies the accumulated SERIAL_ERROR_<i>XXX<
 ### -field HoldReasons
 
 A set of flags to indicate the reasons that the serial port is currently waiting to transmit bytes to the output stream. This member is set to zero or to the bitwise-OR of one or more of the following flag bits.
+
 <table>
 <tr>
 <th>Flag name</th>
@@ -137,7 +140,8 @@ A set of flags to indicate the reasons that the serial port is currently waiting
 <td>SERIAL_TX_WAITING_XOFF_SENT</td>
 <td>Sent an XOFF (transmit off) signal. This signal marks the end of transmission from the serial port, which then waits for the device on the other end of the line to start transmitting. The other device receives the transmitted XOFF signal as an XON signal.</td>
 </tr>
-</table> 
+</table>
+ 
 
 <b>HoldReasons</b> is zero if the serial port has no reason to stop transmitting bytes.
 
@@ -165,7 +169,9 @@ Whether the serial port is waiting to transmit an immediate character. This memb
 ## -remarks
 
 
+
 This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_commstatus.md">IOCTL_SERIAL_GET_COMMSTATUS</a> request.
+
 
 
 
@@ -173,7 +179,11 @@ This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_co
 
 <a href="..\ntddser\ni-ntddser-ioctl_serial_immediate_char.md">IOCTL_SERIAL_IMMEDIATE_CHAR</a>
 
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_get_commstatus.md">IOCTL_SERIAL_GET_COMMSTATUS</a>
+
+
 
  
 

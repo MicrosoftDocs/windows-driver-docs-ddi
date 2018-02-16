@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0859c9bb-04f2-4bef-9da7-da72375d05f7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleDestroy0, netvista.fwpsredirecthandledestroy0, FwpsRedirectHandleDestroy0
+ms.keywords: fwpsk/FwpsRedirectHandleDestroy0, FwpsRedirectHandleDestroy0, netvista.fwpsredirecthandledestroy0, FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsRedirectHandleDestroy0
 product: Windows
 targetos: Windows
@@ -80,11 +80,14 @@ The redirect handle being destroyed.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 
@@ -95,9 +98,12 @@ None.
 
 
 
+
 ## -see-also
 
 <a href="..\fwpsk\nf-fwpsk-fwpsredirecthandlecreate0.md">FwpsRedirectHandleCreate0</a>
+
+
 
  
 

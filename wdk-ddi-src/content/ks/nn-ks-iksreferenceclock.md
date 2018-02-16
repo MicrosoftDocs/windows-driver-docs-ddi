@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	IKsReferenceClock
 product: Windows
 targetos: Windows
@@ -132,9 +132,11 @@ Queries the associated reference clock for the current time.
 ## -remarks
 
 
+
 The minidriver can acquire an <b>IKsReferenceClock</b> interface by calling <a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>. Because this is a COM-style interface, <b>KsPinGetReferenceClockInterface</b> calls <b>QueryInterface</b>, which in turn invokes <b>AddRef</b> to increment the interface pointer. This means that when the minidriver is finished with the <b>IKsReferenceClock</b> interface, the minidriver must release it by calling <b>Release</b>.
 
 Clients that are written in C will see the <b>IKsReferenceClock</b> interface as a structure that contains a pointer to a table of functions instead of a C++ abstract base class. A client that is written in C++ might do the following:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -153,7 +155,9 @@ Clients that are written in C will see the <b>IKsReferenceClock</b> interface as
     }</pre>
 </td>
 </tr>
-</table></span></div>However, a client that is written in C would do the following instead :
+</table></span></div>
+However, a client that is written in C would do the following instead :
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -172,17 +176,25 @@ Clients that are written in C will see the <b>IKsReferenceClock</b> interface as
     }</pre>
 </td>
 </tr>
-</table></span></div>For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
+</table></span></div>
+For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
-
 <a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
 
+
+
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+
+
+
 <a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: print\ixpsdocumentconsumer_sendfixeddocument.htm
 old-project: print
 ms.assetid: 917dd9c3-5552-43d0-b396-9ba236f53132
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SendFixedDocument, SendFixedDocument method [Print Devices], IXpsDocumentConsumer interface, print.ixpsdocumentconsumer_sendfixeddocument, filterpipeline/IXpsDocumentConsumer::SendFixedDocument, IXpsDocumentConsumer::SendFixedDocument, filterpipeline_a6ecc63d-889e-4ae1-8031-16accffa9c2a.xml, SendFixedDocument method [Print Devices], IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendFixedDocument method
+ms.date: 2/2/2018
+ms.keywords: SendFixedDocument, SendFixedDocument method [Print Devices], IXpsDocumentConsumer interface, IXpsDocumentConsumer, print.ixpsdocumentconsumer_sendfixeddocument, IXpsDocumentConsumer interface [Print Devices], SendFixedDocument method, SendFixedDocument method [Print Devices], IXpsDocumentConsumer::SendFixedDocument, filterpipeline_a6ecc63d-889e-4ae1-8031-16accffa9c2a.xml, filterpipeline/IXpsDocumentConsumer::SendFixedDocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IXpsDocumentConsumer.SendFixedDocument
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ A pointer to an XPS fixed document object.
 ## -returns
 
 
+
 <code>SendFixedDocument</code> returns an <b>HRESULT</b> value.
+
 
 

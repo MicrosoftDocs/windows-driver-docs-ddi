@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_TASK_FILE
-title: _IDE_TASK_FILE
+title: "_IDE_TASK_FILE"
 author: windows-driver-content
 description: The IDE_TASK_FILE structure contains the current and previous IDE task file.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_task_file.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f18b46c0-975b-49ba-b398-45f2a44d6d3b
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PIDE_TASK_FILE, irb/PIDE_TASK_FILE, IDE_TASK_FILE, irb/IDE_TASK_FILE, storage.ide_task_file, *PIDE_TASK_FILE, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml, PIDE_TASK_FILE structure pointer [Storage Devices], _IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices]
+ms.keywords: PIDE_TASK_FILE structure pointer [Storage Devices], *PIDE_TASK_FILE, PIDE_TASK_FILE, IDE_TASK_FILE, irb/IDE_TASK_FILE, _IDE_TASK_FILE, irb/PIDE_TASK_FILE, storage.ide_task_file, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml, IDE_TASK_FILE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	irb.h
-apiname: 
+apiname:
 -	IDE_TASK_FILE
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ Contains a structure of type <a href="..\irb\ns-irb-_ideregisters.md">IDEREGISTE
 ## -see-also
 
 <a href="..\irb\ns-irb-_ideregisters.md">IDEREGISTERS</a>
+
+
 
  
 

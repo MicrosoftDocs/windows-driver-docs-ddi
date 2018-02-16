@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_GLITCH_DURATION
-title: _DXGK_GLITCH_DURATION
+title: "_DXGK_GLITCH_DURATION"
 author: windows-driver-content
 description: Enumeration that describes the duration of a user visible effect of a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_duration.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 8B6597A7-D652-4143-9320-7FB8E98FE8EC
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: DXGK_GLITCH_DURATION_NONE, DXGK_GLITCH_DURATION, d3dkmddi/DXGK_GLITCH_DURATION_SINGLE_FRAME, _DXGK_GLITCH_DURATION, DXGK_GLITCH_DURATION_INDEFINITE, DXGK_GLITCH_DURATION_SINGLE_LINE, d3dkmddi/DXGK_GLITCH_DURATION_INDEFINITE, d3dkmddi/DXGK_GLITCH_DURATION_MULTI_LINE, DXGK_GLITCH_DURATION_SINGLE_FRAME, display.dxgk_glitch_duration, d3dkmddi/DXGK_GLITCH_DURATION, d3dkmddi/DXGK_GLITCH_DURATION_MULTI_FRAME, DXGK_GLITCH_DURATION_MULTI_LINE, d3dkmddi/DXGK_GLITCH_DURATION_NONE, DXGK_GLITCH_DURATION enumeration [Display Devices], DXGK_GLITCH_DURATION_MULTI_FRAME, d3dkmddi/DXGK_GLITCH_DURATION_SINGLE_LINE
+ms.keywords: d3dkmddi/DXGK_GLITCH_DURATION_SINGLE_FRAME, d3dkmddi/DXGK_GLITCH_DURATION_NONE, DXGK_GLITCH_DURATION_SINGLE_LINE, d3dkmddi/DXGK_GLITCH_DURATION_SINGLE_LINE, DXGK_GLITCH_DURATION_SINGLE_FRAME, display.dxgk_glitch_duration, DXGK_GLITCH_DURATION_MULTI_LINE, DXGK_GLITCH_DURATION_INDEFINITE, DXGK_GLITCH_DURATION_NONE, DXGK_GLITCH_DURATION enumeration [Display Devices], _DXGK_GLITCH_DURATION, DXGK_GLITCH_DURATION, d3dkmddi/DXGK_GLITCH_DURATION_INDEFINITE, d3dkmddi/DXGK_GLITCH_DURATION, d3dkmddi/DXGK_GLITCH_DURATION_MULTI_FRAME, d3dkmddi/DXGK_GLITCH_DURATION_MULTI_LINE, DXGK_GLITCH_DURATION_MULTI_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_GLITCH_DURATION
 product: Windows
 targetos: Windows

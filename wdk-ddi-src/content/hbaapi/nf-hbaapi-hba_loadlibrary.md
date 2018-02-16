@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f71be39c-4b0c-47fc-a9d5-dfe69d8b11f2
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: hbaapi/HBA_LoadLibrary, HBA_LoadLibrary routine [Storage Devices], storage.hba_loadlibrary, fibreHBA_rtns_59c2bca3-3df2-4a3a-aa0b-90afcbdd26da.xml, HBA_LoadLibrary
+ms.keywords: HBA_LoadLibrary routine [Storage Devices], HBA_LoadLibrary, storage.hba_loadlibrary, hbaapi/HBA_LoadLibrary, fibreHBA_rtns_59c2bca3-3df2-4a3a-aa0b-90afcbdd26da.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_LoadLibrary
 product: Windows
 targetos: Windows
@@ -66,10 +66,13 @@ HBA_STATUS HBA_API HBA_LoadLibrary(void);
 
 
 
+
 ## -returns
 
 
+
 The <b>HBA_LoadLibrary</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_LoadLibrary</b> returns one of the following qualifiers.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,13 +122,17 @@ Returned if an unspecified error occurred that prevented the library from loadin
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
 
  
 

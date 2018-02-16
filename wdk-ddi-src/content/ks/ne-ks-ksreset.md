@@ -2,13 +2,13 @@
 UID: NE:ks.KSRESET
 title: KSRESET
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksreset.htm
 old-project: stream
 ms.assetid: 7622A66F-EB4A-460B-B01F-6E48EC70C07D
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: ks/KSRESET, KSRESET_BEGIN, ks/KSRESET_BEGIN, KSRESET, stream.ksreset, ks/KSRESET_END, KSRESET enumeration [Streaming Media Devices], KSRESET_END
+ms.keywords: KSRESET_BEGIN, KSRESET, KSRESET enumeration [Streaming Media Devices], KSRESET_END, ks/KSRESET_BEGIN, ks/KSRESET, ks/KSRESET_END, stream.ksreset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSRESET
 product: Windows
 targetos: Windows
@@ -72,7 +72,5 @@ typedef enum  {
 ### -field KSRESET_BEGIN
 
 
-
 ### -field KSRESET_END
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEALLOCATION
-title: _D3DKMT_CREATEALLOCATION
+title: "_D3DKMT_CREATEALLOCATION"
 author: windows-driver-content
 description: The D3DKMT_CREATEALLOCATION structure describes parameters for creating allocations.
 old-location: display\d3dkmt_createallocation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 3e698027-23f8-4765-a4ac-955cd4b24a70
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATEALLOCATION structure [Display Devices], OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, D3DKMT_CREATEALLOCATION, _D3DKMT_CREATEALLOCATION, display.d3dkmt_createallocation, d3dkmthk/D3DKMT_CREATEALLOCATION
+ms.keywords: display.d3dkmt_createallocation, _D3DKMT_CREATEALLOCATION, OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, D3DKMT_CREATEALLOCATION, d3dkmthk/D3DKMT_CREATEALLOCATION, D3DKMT_CREATEALLOCATION structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CREATEALLOCATION
 product: Windows
 targetos: Windows
@@ -83,28 +83,6 @@ typedef struct _D3DKMT_CREATEALLOCATION {
 
 
 
-### -field pStandardAllocation
-
- 
-
-
-### -field pPrivateDriverData
-
-[in] A pointer to a buffer that contains optional private data that the display miniport driver might require to create the resource or allocation. The contents of the buffer typically come from the OpenGL ICD and must be in a format that the display miniport driver can process.
-
-
-### -field pAllocationInfo
-
-[in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structures that describe specific properties for each allocation to create.
-
-
-### -field pAllocationInfo2
-
-[in] This member is reserved and should be set to zero.
-
-This member is available beginning with Windows 7.
-
-
 ### -field hDevice
 
 [in] A handle to the device that the resource or allocation is associated with.
@@ -136,6 +114,16 @@ When the driver sets the <b>CreateShared</b> bit-field flag in <b>Flags</b> to c
 [in] The size, in bytes, of the private data that <b>pPrivateRuntimeData</b> points to.
 
 
+### -field pStandardAllocation
+
+ 
+
+
+### -field pPrivateDriverData
+
+[in] A pointer to a buffer that contains optional private data that the display miniport driver might require to create the resource or allocation. The contents of the buffer typically come from the OpenGL ICD and must be in a format that the display miniport driver can process.
+
+
 ### -field PrivateDriverDataSize
 
 [in/out] The size, in bytes, of the private data that <b>pPrivateDriverData</b> points to.
@@ -146,10 +134,24 @@ When the driver sets the <b>CreateShared</b> bit-field flag in <b>Flags</b> to c
 [in] The number of elements in the array that <b>pAllocationInfo</b> specifies, which represents the number of allocations to create. Note that creating a resource without any allocations initially associated with it is valid; therefore, <b>NumAllocations</b> can be set to 0.
 
 
+### -field pAllocationInfo
+
+[in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structures that describe specific properties for each allocation to create.
+
+
+### -field pAllocationInfo2
+
+[in] This member is reserved and should be set to zero.
+
+This member is available beginning with Windows 7.
+
+
 ### -field Flags
 
 [in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a> structure that identifies  attributes for creating the allocation, in bit-field flags.
-<div class="alert"><b>Note</b>  If  you set the <b>CreateShared</b> bit-field flag in <b>Flags</b>, you must also set the <b>CreateResource</b> bit-field flag.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If  you set the <b>CreateShared</b> bit-field flag in <b>Flags</b>, you must also set the <b>CreateResource</b> bit-field flag.</div>
+<div> </div>
 
 ### -field hPrivateRuntimeResourceHandle
 
@@ -158,11 +160,17 @@ When the driver sets the <b>CreateShared</b> bit-field flag in <b>Flags</b> to c
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreateallocation.md">D3DKMTCreateAllocation</a>
 
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createallocationflags.md">D3DKMT_CREATEALLOCATIONFLAGS</a>
+
+
 
  
 

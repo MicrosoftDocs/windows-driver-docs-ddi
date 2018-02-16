@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._TCP_OFFLOAD_STATE_DELEGATED
-title: _TCP_OFFLOAD_STATE_DELEGATED
+title: "_TCP_OFFLOAD_STATE_DELEGATED"
 author: windows-driver-content
 description: The TCP_OFFLOAD_STATE_DELEGATED structure contains the delegated variables of a TCP connection state object.
 old-location: netvista\tcp_offload_state_delegated.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PTCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PTCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml, _TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED
+ms.keywords: "_TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], ndischimney/TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndischimney.h
-apiname: 
+apiname:
 -	TCP_OFFLOAD_STATE_DELEGATED
 product: Windows
 targetos: Windows
@@ -109,137 +109,6 @@ typedef struct _TCP_OFFLOAD_STATE_DELEGATED {
 
 
 
-### -field KeepAlive
-
-This member is a union that consists of the following members:
-
-
-### -field KeepAlive.ProbeCount
-
-The number of keepalive probes that have been sent that have not received a response (see RFC
-      1122).
-
-
-### -field KeepAlive.TimeoutDelta
-
-The time remaining, in clock ticks, until the next keepalive timeout (see RFC 1122). Note that a
-      value of -1 immediately after the TCP connection was offloaded indicates that the keepalive timer was
-      not running when the connection was offloaded. If the offload target's keepalive timer is not running,
-      the offload target should return -1 in this member when responding to a call to the
-      MiniportQueryOffload function or the MiniportTerminateOffload function.
-
-
-### -field Retransmit
-
-This member is a union that consists of the following members:
-
-
-### -field Retransmit.Count
-
-The number of retransmits that have been sent (see RFC 2581).
-
-
-### -field Retransmit.TimeoutDelta
-
-The time, in clock ticks, remaining until the next retransmit timeout (see RFC 2581). Note that a
-      value of -1 immediately after the TCP connection was offloaded indicates that the retransmit timer was
-      not running when the connection was offloaded. The retransmit timer was not running because there was
-      no outstanding send data on the connection when the connection was offloaded. If the offload target's
-      retransmit timer is not running, the offload target should return -1 in this member when responding to
-      a call to the MiniportQueryOffload function or the MiniportTerminateOffload function.
-
-
-### -field SendDataHead
-
-A pointer to a 
-       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This
-       NET_BUFFER_LIST structure is in the linked list that is pointed to by the 
-       <b>NetBufferListChain</b> member of the 
-       <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure that immediately precedes the
-       TCP_OFFLOAD_STATE_DELEGATED structure. If the 
-       <b>NetBufferListChain</b> pointer is <b>NULL</b>, 
-       <b>SendDataHead</b> is not significant.
-       
-
-The 
-       <b>SendDataHead</b> pointer points to the first NET_BUFFER_LIST structure whose NET_BUFFER structure
-       has buffered the send data associated with it.
-
-This variable is used only in an initiate offload or terminate offload operation. For more
-       information about how this variable is used, see 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a> and 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload Operation</a>.
-
-
-### -field SendDataTail
-
-A pointer to a 
-       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This
-       NET_BUFFER_LIST structure is in the linked list that is pointed to by the NetBufferListChain member of
-       the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that immediately precedes the
-       TCP_OFFLOAD_STATE_DELEGATED structure. If the NetBufferListChain pointer is <b>NULL</b>, SendDataTail is not
-       significant.
-       
-
-The SendDataTail pointer points to the last NET_BUFFER_LIST structure whose NET_BUFFER structure
-       has buffered the send data associated with it.
-
-This variable is used only in an initiate offload or terminate offload operation. For more
-       information about how this variable is used, see 
-       <mshelp:link keywords="netvista.handling_outstanding_send_data_during_and_after_an_offload_operation" tabindex="0">Handling Outstanding Send Data During and After an Offload
-       Operation</mshelp:link> and 
-       <mshelp:link keywords="netvista.handling_outstanding_send_data_during_a_terminate_offload_operation" tabindex="0">Handling Outstanding Send Data During a Terminate Offload
-       Operation</mshelp:link>
-
-
-
-### -field SendBacklogSize
-
-The offload target specifies this value to indicate the number of data bytes that the host stack
-       should have outstanding at the offload target for optimum performance. (This is the number of send
-       bytes that have been passed to the offload target but that have not yet been completed by the offload
-       target.) The specific variables and algorithm that the offload target uses to calculate the send
-       backlog size are implementation-specific. The send backlog size can be a function of the roundtrip
-       time (RTT) for the connection, the interface bandwidth, and other parameters. An offload target could,
-       for example, use the minimum of the bandwidth/delay product and the advertised received window. Note
-       however, that the send backlog size does not vary according to the number of data bytes that are
-       currently posted for transmission on the connection.
-
-The host stack can query the TCP delegated state for the connection to obtain the send backlog
-       size. In addition, the offload target can indicate a change in the send backlog size by calling the 
-       <mshelp:link keywords="netvista.ndistcpoffloadeventhandler" tabindex="0"><b>
-       NdisTcpOffloadEventHandler</b></mshelp:link> function.
-
-If the offload target does not support the send-backlog-size feature, it must write a value of
-       0xFFFFFFFF to 
-       <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
-       <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
-
-
-### -field BufferedData
-
-A pointer to buffered receive data. The host stack can pass such data to the offload target when
-      offloading a TCP connection. (For more information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
-      offload target can pass such data to the host stack when uploading a TCP connection. (For more
-      information, see 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
-
-
-### -field ReceiveBacklogSize
-
-The offload target specifies this value to indicate the number of receive data bytes that are
-      buffered in the offload target for the offloaded TCP connection. The host stack can query the TCP
-      delegated state for the connection to obtain this value. The host stack uses this value to post one or
-      more receive requests on the connection that are large enough to hold all of the buffered data.
-      
-
-If the offload target does not support the receive backlog size feature, it should write a value of
-      0xFFFFFFFF to 
-      <b>ReceiveBacklogSize</b> .
-
-
 ### -field Header
 
 An 
@@ -258,6 +127,77 @@ The current state of the TCP connection (see RFC 793) as one of the following
      
 
 
+
+
+
+#### TcpConnectionClosed
+
+No connection state.
+
+
+
+#### TcpConnectionListen
+
+Waiting for a connection request from any remote TCP and port.
+
+
+
+#### TcpConnectionSynSent
+
+Waiting for a matching connection request after having sent a connection request.
+
+
+
+#### TcpConnectionSynRcvd
+
+Waiting for a confirming connection request acknowledgment after having both received and sent a
+       connection request.
+
+
+
+#### TcpConnectionEstablished
+
+An open connection: data received can be delivered to the user. The normal state for the data
+       transfer phase of the connection.
+
+
+
+#### TcpConnectionFinWait1
+
+Waiting for a connection termination request from the remote TCP, or an acknowledgment of the
+       connection termination request that was previously sent.
+
+
+
+#### TcpConnectionFinWait2
+
+Waiting for a connection termination request from the remote TCP.
+
+
+
+#### TcpConnectionCloseWait
+
+Waiting for a connection termination request from the local user.
+
+
+
+#### TcpConnectionClosing
+
+Waiting for a connection termination request acknowledgment from the remote TCP.
+
+
+
+#### TcpConnectionLastAck
+
+Waiting for an acknowledgment of the connection termination request previously sent to the
+       remote TCP, which includes an acknowledgment of its connection termination request.
+
+
+
+#### TcpConnectionTimeWait
+
+Waiting for enough time to pass to ensure that the remote TCP received the acknowledgment of its
+       connection termination request.
 
  Note that the host stack can offload a TCP connection when the connection is in any state
      except 
@@ -369,73 +309,146 @@ The current send window probe round. For a description of the send window probe 
      <a href="https://msdn.microsoft.com/b45f5fd7-e80b-4718-9889-9839fa61845a">Persist Timer</a>.
 
 
+### -field KeepAlive
+
+This member is a union that consists of the following members:
+
+
+### -field KeepAlive.ProbeCount
+
+The number of keepalive probes that have been sent that have not received a response (see RFC
+      1122).
+
+
+### -field KeepAlive.TimeoutDelta
+
+The time remaining, in clock ticks, until the next keepalive timeout (see RFC 1122). Note that a
+      value of -1 immediately after the TCP connection was offloaded indicates that the keepalive timer was
+      not running when the connection was offloaded. If the offload target's keepalive timer is not running,
+      the offload target should return -1 in this member when responding to a call to the
+      MiniportQueryOffload function or the MiniportTerminateOffload function.
+
+
+### -field Retransmit
+
+This member is a union that consists of the following members:
+
+
+### -field Retransmit.Count
+
+The number of retransmits that have been sent (see RFC 2581).
+
+
+### -field Retransmit.TimeoutDelta
+
+The time, in clock ticks, remaining until the next retransmit timeout (see RFC 2581). Note that a
+      value of -1 immediately after the TCP connection was offloaded indicates that the retransmit timer was
+      not running when the connection was offloaded. The retransmit timer was not running because there was
+      no outstanding send data on the connection when the connection was offloaded. If the offload target's
+      retransmit timer is not running, the offload target should return -1 in this member when responding to
+      a call to the MiniportQueryOffload function or the MiniportTerminateOffload function.
+
+
+### -field SendDataHead
+
+A pointer to a 
+       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This
+       NET_BUFFER_LIST structure is in the linked list that is pointed to by the 
+       <b>NetBufferListChain</b> member of the 
+       <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that immediately precedes the
+       TCP_OFFLOAD_STATE_DELEGATED structure. If the 
+       <b>NetBufferListChain</b> pointer is <b>NULL</b>, 
+       <b>SendDataHead</b> is not significant.
+       
+
+The 
+       <b>SendDataHead</b> pointer points to the first NET_BUFFER_LIST structure whose NET_BUFFER structure
+       has buffered the send data associated with it.
+
+This variable is used only in an initiate offload or terminate offload operation. For more
+       information about how this variable is used, see 
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a> and 
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload Operation</a>.
+
+
+### -field SendDataTail
+
+A pointer to a 
+       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This
+       NET_BUFFER_LIST structure is in the linked list that is pointed to by the NetBufferListChain member of
+       the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that immediately precedes the
+       TCP_OFFLOAD_STATE_DELEGATED structure. If the NetBufferListChain pointer is <b>NULL</b>, SendDataTail is not
+       significant.
+       
+
+The SendDataTail pointer points to the last NET_BUFFER_LIST structure whose NET_BUFFER structure
+       has buffered the send data associated with it.
+
+This variable is used only in an initiate offload or terminate offload operation. For more
+       information about how this variable is used, see 
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload
+       Operation</a> and 
+       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-outstanding-send-data-during-a-terminate-offload-operation">Handling Outstanding Send Data During a Terminate Offload
+       Operation</a>
+
+
+
+### -field SendBacklogSize
+
+The offload target specifies this value to indicate the number of data bytes that the host stack
+       should have outstanding at the offload target for optimum performance. (This is the number of send
+       bytes that have been passed to the offload target but that have not yet been completed by the offload
+       target.) The specific variables and algorithm that the offload target uses to calculate the send
+       backlog size are implementation-specific. The send backlog size can be a function of the roundtrip
+       time (RTT) for the connection, the interface bandwidth, and other parameters. An offload target could,
+       for example, use the minimum of the bandwidth/delay product and the advertised received window. Note
+       however, that the send backlog size does not vary according to the number of data bytes that are
+       currently posted for transmission on the connection.
+
+The host stack can query the TCP delegated state for the connection to obtain the send backlog
+       size. In addition, the offload target can indicate a change in the send backlog size by calling the 
+       <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+       NdisTcpOffloadEventHandler</a> function.
+
+If the offload target does not support the send-backlog-size feature, it must write a value of
+       0xFFFFFFFF to 
+       <b>SendBacklogSize</b> when the TCP-delegated state for the connection is queried. The 
+       <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
+
+
+### -field BufferedData
+
+A pointer to buffered receive data. The host stack can pass such data to the offload target when
+      offloading a TCP connection. (For more information, see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">Handling Buffered Receive Data During and After an Offload Operation</a>.) The
+      offload target can pass such data to the host stack when uploading a TCP connection. (For more
+      information, see 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
+
+
+### -field ReceiveBacklogSize
+
+The offload target specifies this value to indicate the number of receive data bytes that are
+      buffered in the offload target for the offloaded TCP connection. The host stack can query the TCP
+      delegated state for the connection to obtain this value. The host stack uses this value to post one or
+      more receive requests on the connection that are large enough to hold all of the buffered data.
+      
+
+If the offload target does not support the receive backlog size feature, it should write a value of
+      0xFFFFFFFF to 
+      <b>ReceiveBacklogSize</b> .
+
+
 ### -field DWnd
 
  
 
 
 
-##### - State.TcpConnectionFinWait1
-
-Waiting for a connection termination request from the remote TCP, or an acknowledgment of the
-       connection termination request that was previously sent.
-
-
-##### - State.TcpConnectionEstablished
-
-An open connection: data received can be delivered to the user. The normal state for the data
-       transfer phase of the connection.
-
-
-##### - State.TcpConnectionClosing
-
-Waiting for a connection termination request acknowledgment from the remote TCP.
-
-
-##### - State.TcpConnectionSynRcvd
-
-Waiting for a confirming connection request acknowledgment after having both received and sent a
-       connection request.
-
-
-##### - State.TcpConnectionFinWait2
-
-Waiting for a connection termination request from the remote TCP.
-
-
-##### - State.TcpConnectionTimeWait
-
-Waiting for enough time to pass to ensure that the remote TCP received the acknowledgment of its
-       connection termination request.
-
-
-##### - State.TcpConnectionListen
-
-Waiting for a connection request from any remote TCP and port.
-
-
-##### - State.TcpConnectionCloseWait
-
-Waiting for a connection termination request from the local user.
-
-
-##### - State.TcpConnectionLastAck
-
-Waiting for an acknowledgment of the connection termination request previously sent to the
-       remote TCP, which includes an acknowledgment of its connection termination request.
-
-
-##### - State.TcpConnectionSynSent
-
-Waiting for a matching connection request after having sent a connection request.
-
-
-##### - State.TcpConnectionClosed
-
-No connection state.
-
 
 ## -remarks
+
 
 
 The host stack provides initial values for the TCP delegated variables when it offloads these
@@ -447,32 +460,45 @@ The host stack provides initial values for the TCP delegated variables when it o
     <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a> function.
     When the host stack terminates the offload of the TCP connection state object by causing NDIS to call the
     offload target's 
-    <mshelp:link keywords="netvista.miniportterminateoffload" tabindex="0"><i>
-    MiniportTerminateOffload</i></mshelp:link> function, the offload target passes the value of the TCP delegated
+    <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">
+    MiniportTerminateOffload</a> function, the offload target passes the value of the TCP delegated
     variables in the terminated TCP connection state object back to the host stack.
 
 When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is associated with an 
-    <mshelp:link keywords="netvista.ndis_miniport_offload_block_list" tabindex="0"><b>
-    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</b></mshelp:link> structure, which contains a header that is formatted as an 
+    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which contains a header that is formatted as an 
     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The
     Revision member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of the
     TCP_OFFLOAD_STATE_DELEGATED structure.
 
 
 
+
 ## -see-also
-
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
-
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
+
+
 
  
 

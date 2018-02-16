@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 6266b311-6846-4615-a686-b68b00001fe7
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml, IStiDevice interface [Imaging Devices], Subscribe method, image.istidevice_subscribe, IStiDevice, IStiDevice::Subscribe, Subscribe method [Imaging Devices], Subscribe, Subscribe method [Imaging Devices], IStiDevice interface
+ms.keywords: IStiDevice::Subscribe, Subscribe method [Imaging Devices], stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml, image.istidevice_subscribe, sti/IStiDevice::Subscribe, Subscribe, Subscribe method [Imaging Devices], IStiDevice interface, IStiDevice, IStiDevice interface [Imaging Devices], Subscribe method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: sti.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	sti.h
-apiname: 
+apiname:
 -	IStiDevice.Subscribe
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ HRESULT Subscribe(
 
 
 
+
 #### - lpSubscribe [in, out]
 
 Caller-supplied pointer to an <a href="..\sti\ns-sti-_stisubscribe.md">STISUBSCRIBE</a> structure containing subscription parameter values.
@@ -82,11 +83,14 @@ Caller-supplied pointer to an <a href="..\sti\ns-sti-_stisubscribe.md">STISUBSCR
 ## -returns
 
 
+
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The<b> IStiDevice::Subscribe</b> method is typically called by applications that intercept events from devices and reroute them. The method allows these applications to be notified of <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> so they can then dispatch control to appropriate display applications.
@@ -99,11 +103,16 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543796">IStillImage::LaunchApplicationForDevice</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543773">IStiDevice::UnSubscribe</a>
+
+
 
  
 

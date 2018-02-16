@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: bf51b8dc-82e8-420e-bc3d-7cb9e8d72b9f
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmtsetdisplaymode, OpenGL_Functions_dc92e1c9-5873-42b6-a8f8-f6827091dac4.xml, d3dkmthk/D3DKMTSetDisplayMode, D3DKMTSetDisplayMode function [Display Devices], D3DKMTSetDisplayMode
+ms.keywords: OpenGL_Functions_dc92e1c9-5873-42b6-a8f8-f6827091dac4.xml, D3DKMTSetDisplayMode function [Display Devices], d3dkmthk/D3DKMTSetDisplayMode, display.d3dkmtsetdisplaymode, D3DKMTSetDisplayMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Gdi32.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-0.dll
 -	API-MS-Win-dx-d3dkmt-l1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTSetDisplayMode
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ TBD
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode.md">D3DKMT_SETDISPLAYMODE</a> structure that describes the allocation that is used to scan out.
@@ -84,7 +85,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode.md">D3DKM
 ## -returns
 
 
+
 <i>D3DKMTSetDisplayMode</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,13 +153,16 @@ The OpenGL installable client driver (ICD) must convert the format of the surfac
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other NTSTATUS values.
 
 
 
+
 ## -remarks
+
 
 
 Before the OpenGL ICD calls 
@@ -165,9 +171,12 @@ Before the OpenGL ICD calls
 
 
 
+
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setdisplaymode.md">D3DKMT_SETDISPLAYMODE</a>
+
+
 
  
 

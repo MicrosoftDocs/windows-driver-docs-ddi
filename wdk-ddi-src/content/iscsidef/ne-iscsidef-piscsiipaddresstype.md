@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsidef.PISCSIIPADDRESSTYPE
-title: *PISCSIIPADDRESSTYPE
+title: "*PISCSIIPADDRESSTYPE"
 author: windows-driver-content
 description: The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address.
 old-location: storage\iscsiipaddresstype.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a92f7048-ca8a-450c-93ab-6ea040412198
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PISCSIIPADDRESSTYPE enumeration pointer [Storage Devices], ISCSI_IP_ADDRESS_IPV6, iscsidef/ISCSI_IP_ADDRESS_IPV6, ISCSI_IP_ADDRESS_IPV4, iscsidef/ISCSI_IP_ADDRESS_TEXT, ISCSI_IP_ADDRESS_TEXT, structs-iSCSI_3e947807-84e7-4886-aae9-95b8d1b508ab.xml, ISCSIIPADDRESSTYPE, ISCSI_IP_ADDRESS_EMPTY, storage.iscsiipaddresstype, ISCSIIPADDRESSTYPE enumeration [Storage Devices], iscsidef/ISCSI_IP_ADDRESS_IPV4, PISCSIIPADDRESSTYPE, *PISCSIIPADDRESSTYPE, iscsidef/ISCSIIPADDRESSTYPE, iscsidef/ISCSI_IP_ADDRESS_EMPTY, iscsidef/PISCSIIPADDRESSTYPE
+ms.keywords: ISCSI_IP_ADDRESS_TEXT, PISCSIIPADDRESSTYPE enumeration pointer [Storage Devices], *PISCSIIPADDRESSTYPE, PISCSIIPADDRESSTYPE, iscsidef/ISCSI_IP_ADDRESS_EMPTY, iscsidef/ISCSI_IP_ADDRESS_IPV6, iscsidef/ISCSI_IP_ADDRESS_IPV4, structs-iSCSI_3e947807-84e7-4886-aae9-95b8d1b508ab.xml, storage.iscsiipaddresstype, ISCSI_IP_ADDRESS_IPV6, iscsidef/PISCSIIPADDRESSTYPE, ISCSIIPADDRESSTYPE, iscsidef/ISCSIIPADDRESSTYPE, ISCSI_IP_ADDRESS_EMPTY, iscsidef/ISCSI_IP_ADDRESS_TEXT, ISCSI_IP_ADDRESS_IPV4, ISCSIIPADDRESSTYPE enumeration [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsidef.h
-apiname: 
+apiname:
 -	ISCSIIPADDRESSTYPE
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ No address is specified.
 ## -see-also
 
 <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+
 
  
 

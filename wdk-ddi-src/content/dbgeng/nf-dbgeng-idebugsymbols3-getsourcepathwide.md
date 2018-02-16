@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6c9c8270-78c4-4bc2-a0e4-5c5e245326ad
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getsourcepathwide, IDebugSymbols3 interface [Windows Debugging], GetSourcePathWide method, IDebugSymbols3, GetSourcePathWide, IDebugSymbols3::GetSourcePathWide, GetSourcePathWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetSourcePathWide, GetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: dbgeng/IDebugSymbols3::GetSourcePathWide, IDebugSymbols3 interface [Windows Debugging], GetSourcePathWide method, GetSourcePathWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetSourcePathWide, IDebugSymbols3::GetSourcePathWide, GetSourcePathWide method [Windows Debugging], debugger.getsourcepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetSourcePathWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetSourcePathWide method
@@ -87,7 +87,9 @@ Receives the size, in characters, of the source path.
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -115,11 +117,14 @@ The method was successful. However, the buffer was not large enough to hold the 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The source path is used by the engine when searching for source files.
@@ -128,15 +133,24 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 

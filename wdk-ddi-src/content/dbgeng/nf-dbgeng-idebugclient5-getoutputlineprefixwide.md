@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 145A478E-826B-4E82-B358-6140D3A4063F
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: GetOutputLinePrefixWide, GetOutputLinePrefixWide method [Windows Debugging], dbgeng/IDebugClient5::GetOutputLinePrefixWide, IDebugClient5::GetOutputLinePrefixWide, debugger.idebugclient5_getoutputlineprefixwide, IDebugClient5, GetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], GetOutputLinePrefixWide method
+ms.keywords: debugger.idebugclient5_getoutputlineprefixwide, GetOutputLinePrefixWide method [Windows Debugging], IDebugClient5, IDebugClient5 interface [Windows Debugging], GetOutputLinePrefixWide method, dbgeng/IDebugClient5::GetOutputLinePrefixWide, IDebugClient5::GetOutputLinePrefixWide, GetOutputLinePrefixWide, GetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient5.GetOutputLinePrefixWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::GetOutputLinePrefixWide method
@@ -87,13 +87,17 @@ A pointer to the length of the prefix.
 ## -returns
 
 
+
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 
 
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
  
 

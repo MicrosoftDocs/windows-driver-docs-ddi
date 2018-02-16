@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: ba09333e-84a5-4166-a859-e09c0cf74347
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide, GetOffsetByLineWide method [Windows Debugging], dbgeng/IDebugSymbols3::GetOffsetByLineWide, GetOffsetByLineWide, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLineWide method, IDebugSymbols3, GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetOffsetByLineWide method, IDebugSymbols3, debugger.getoffsetbylinewide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, IDebugSymbols3::GetOffsetByLineWide, GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols3.GetOffsetByLineWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetOffsetByLineWide method
@@ -87,7 +87,9 @@ Receives the location in the target's virtual address space of an instruction fo
 ## -returns
 
 
+
 This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,11 +106,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A line in a source file might correspond to multiple instructions and this method can return any one of these instructions.
@@ -117,11 +122,16 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
+
 ## -see-also
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546995">GetLineByOffset</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546995">GetLineByOffset</a>
+
 
  
 

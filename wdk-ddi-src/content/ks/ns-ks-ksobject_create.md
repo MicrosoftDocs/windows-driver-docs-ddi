@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b59d76eb-77c2-4ae5-8be2-f987d7f58446
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksobject_create, ks/KSOBJECT_CREATE, ks/PKSOBJECT_CREATE, *PKSOBJECT_CREATE, PKSOBJECT_CREATE structure pointer [Streaming Media Devices], KSOBJECT_CREATE structure [Streaming Media Devices], ks-struct_885122dd-299b-47d0-b161-2d3ffac610f6.xml, KSOBJECT_CREATE, PKSOBJECT_CREATE
+ms.keywords: ks/PKSOBJECT_CREATE, ks-struct_885122dd-299b-47d0-b161-2d3ffac610f6.xml, KSOBJECT_CREATE, PKSOBJECT_CREATE structure pointer [Streaming Media Devices], PKSOBJECT_CREATE, *PKSOBJECT_CREATE, stream.ksobject_create, ks/KSOBJECT_CREATE, KSOBJECT_CREATE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSOBJECT_CREATE
 product: Windows
 targetos: Windows
-req.typenames: KSOBJECT_CREATE, *PKSOBJECT_CREATE
+req.typenames: "*PKSOBJECT_CREATE, KSOBJECT_CREATE"
 ---
 
 # KSOBJECT_CREATE structure
@@ -81,6 +81,8 @@ Points to an array of <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CRE
 ## -see-also
 
 <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+
+
 
  
 

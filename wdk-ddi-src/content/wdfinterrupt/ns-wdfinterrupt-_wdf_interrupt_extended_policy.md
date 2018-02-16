@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfinterrupt._WDF_INTERRUPT_EXTENDED_POLICY
-title: _WDF_INTERRUPT_EXTENDED_POLICY
+title: "_WDF_INTERRUPT_EXTENDED_POLICY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group.
 old-location: wdf\wdf_interrupt_extended_policy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28cc79e8-7078-4b29-ab2a-2eeca5c5b8b3
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: _WDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY, wdf.wdf_interrupt_extended_policy, WDF_INTERRUPT_EXTENDED_POLICY structure, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, WDF_INTERRUPT_EXTENDED_POLICY, wdfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY, kmdf.wdf_interrupt_extended_policy, DFInterruptObjectRef_db1feccc-0171-4163-b95f-6be057430176.xml, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY
+ms.keywords: kmdf.wdf_interrupt_extended_policy, DFInterruptObjectRef_db1feccc-0171-4163-b95f-6be057430176.xml, wdf.wdf_interrupt_extended_policy, WDF_INTERRUPT_EXTENDED_POLICY structure, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY, _WDF_INTERRUPT_EXTENDED_POLICY, wdfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_EXTENDED_POLICY
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY
+req.typenames: "*PWDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY"
 req.product: Windows 10 or later.
 ---
 
@@ -96,9 +96,11 @@ A GROUP_AFFINITY structure that specifies a processor group and a processor affi
 ## -remarks
 
 
+
 The <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure is used as input the <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>. 
 
 To initialize a <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure, your driver must call <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>.
+
 
 
 
@@ -106,7 +108,11 @@ To initialize a <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure, your driver must
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>
 
+
+
 <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
+
+
 
  
 

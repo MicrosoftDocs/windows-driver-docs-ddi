@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	IaSetIndexBuffer
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_IA_SETINDEXBUFFER callback
@@ -76,13 +76,10 @@ VOID APIENTRY IaSetIndexBuffer(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D10DDI_HRESOURCE
 
 
-
 ### -param DXGI_FORMAT
-
 
 
 ### -param UINT
@@ -92,19 +89,6 @@ VOID APIENTRY IaSetIndexBuffer(
 
 
 
-#### - hBuffer [in]
-
- A handle to the index buffer to set.
-
-
-#### - Offset [in]
-
- The offset, in bytes, into the index buffer. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - Format [in]
@@ -112,7 +96,23 @@ VOID APIENTRY IaSetIndexBuffer(
  A DXGI_FORMAT-typed value that indicates the pixel format of the index buffer. Only the DXGI_FORMAT_R16_UINT and DXGI_FORMAT_R32_UINT formats are valid; all other formats are invalid. 
 
 
+#### - Offset [in]
+
+ The offset, in bytes, into the index buffer. 
+
+
+#### - hBuffer [in]
+
+ A handle to the index buffer to set.
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
 ## -returns
+
 
 
 None
@@ -121,18 +121,25 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>IaSetIndexBuffer</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

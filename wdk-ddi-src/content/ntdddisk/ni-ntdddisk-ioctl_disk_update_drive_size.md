@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntdddisk.h
-apiname: 
+apiname:
 -	IOCTL_DISK_UPDATE_DRIVE_SIZE
 product: Windows
 targetos: Windows
@@ -91,14 +91,18 @@ The device driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -110,6 +114,8 @@ The device driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md
 ## -see-also
 
 <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
+
+
 
  
 

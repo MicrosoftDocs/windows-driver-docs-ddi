@@ -2,7 +2,7 @@
 UID: NI:ntddcdvd.IOCTL_DVD_READ_KEY
 title: IOCTL_DVD_READ_KEY
 author: windows-driver-content
-description: Returns a copy-protection key of the specified type: challenge key, bus key, title key, read RPC key, set RPC key, or disk key.
+description: Returns a copy-protection key of the specified type:\_challenge key, bus key, title key, read RPC key, set RPC key, or disk key.
 old-location: storage\ioctl_dvd_read_key.htm
 old-project: storage
 ms.assetid: 42745dae-f472-4f64-8f16-9f4dec1e986a
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdvd.h
-apiname: 
+apiname:
 -	IOCTL_DVD_READ_KEY
 product: Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
 ---
 
 # IOCTL_DVD_READ_KEY IOCTL
@@ -88,14 +88,18 @@ Length of a <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -107,6 +111,8 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 ## -see-also
 
 <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
+
+
 
  
 

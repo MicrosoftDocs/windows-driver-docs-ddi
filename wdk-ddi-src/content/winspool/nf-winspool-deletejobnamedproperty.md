@@ -7,8 +7,8 @@ old-location: print\deletejobnamedproperty.htm
 old-project: print
 ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], print.deletejobnamedproperty, winspool/DeleteJobNamedProperty
+ms.date: 2/2/2018
+ms.keywords: DeleteJobNamedProperty, print.deletejobnamedproperty, DeleteJobNamedProperty function [Print Devices], winspool/DeleteJobNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll; WinSpool.drv
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	spoolss.dll
 -	WinSpool.drv
-apiname: 
+apiname:
 -	DeleteJobNamedProperty
 product: Windows
 targetos: Windows
@@ -93,6 +93,8 @@ Name of the property that will be deleted.
 ## -returns
 
 
+
 If the operation succeeds, the function returns <b>ERROR_SUCCESS.</b>
+
 
 

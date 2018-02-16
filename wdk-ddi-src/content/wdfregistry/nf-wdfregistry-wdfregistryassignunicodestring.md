@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a614b58-8230-4137-aae9-5c50e94bea5e
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfregistryassignunicodestring, PFN_WDFREGISTRYASSIGNUNICODESTRING, WdfRegistryAssignUnicodeString, DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, wdf.wdfregistryassignunicodestring, wdfregistry/WdfRegistryAssignUnicodeString, WdfRegistryAssignUnicodeString method
+ms.keywords: PFN_WDFREGISTRYASSIGNUNICODESTRING, DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, kmdf.wdfregistryassignunicodestring, WdfRegistryAssignUnicodeString method, wdfregistry/WdfRegistryAssignUnicodeString, wdf.wdfregistryassignunicodestring, WdfRegistryAssignUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfRegistryAssignUnicodeString
 product: Windows
 targetos: Windows
@@ -93,7 +93,9 @@ A pointer to a UNICODE_STRING structure that contains the string to be assigned 
 ## -returns
 
 
+
 <b>WdfRegistryAssignUnicodeString</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -144,7 +146,8 @@ There was insufficient memory to complete the operation.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -154,7 +157,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 If the string that the <i>Value</i> parameter specifies is not NULL-terminated, the framework adds a NULL character when copying the string to the registry.
@@ -166,22 +171,68 @@ The framework sets the value's data type to REG_SZ.
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
+#### Examples
+
+The following code example assigns a Unicode string "String1" to the <b>ValueName</b> value, under a specified registry key.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>UNICODE_STRING ustring1, valueName;
+NTSTATUS status;
+
+RtlInitUnicodeString(
+                     &amp;ustring1,
+                     L"String1"
+                     );
+RtlInitUnicodeString(
+                     &amp;valueName,
+                     L"ValueName"
+                     );
+
+status = WdfRegistryAssignUnicodeString(
+                                        Key,
+                                        &amp;valueName,
+                                        &amp;string1
+                                        );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+
+
 
 <a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
+
+
 
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
+
+
 
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmultistring.md">WdfRegistryAssignMultiString</a>
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
+
+
 
  
 

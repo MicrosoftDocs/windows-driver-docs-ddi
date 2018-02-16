@@ -7,8 +7,8 @@ old-location: print\oemenabledriver.htm
 old-project: print
 ms.assetid: 9ea2f53c-de27-4803-b09a-444180b796ac
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: printoem/OEMEnableDriver, OEMEnableDriver function [Print Devices], print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, OEMEnableDriver, print.oemenabledriver
+ms.date: 2/2/2018
+ms.keywords: printoem/OEMEnableDriver, print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, OEMEnableDriver, print.oemenabledriver, OEMEnableDriver function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMEnableDriver
 product: Windows
 targetos: Windows
@@ -72,11 +72,8 @@ DWORD APIENTRY OEMEnableDriver(
 ### -param dwOemIntfVersion
 
 
-
 ### -param cbSize
 
 
-
 ### -param pded [out]
-
 

@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], gnssdriver/GNSS_CHIPSETINFO, sensors.gnss_chipsetinfo, GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices]
+ms.keywords: gnssdriver/GNSS_CHIPSETINFO, sensors.gnss_chipsetinfo, *PGNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], GNSS_CHIPSETINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_CHIPSETINFO
 product: Windows
 targetos: Windows
@@ -103,14 +103,14 @@ Version number.
 
 
 
-#### - HardwareID[25]
-
-String containing an identifier for the specific GNSS chipset or combo chipset.
-
-
 #### - ManufacturerID[25]
 
 String containing an identifier for the manufacturer.
+
+
+#### - HardwareID[25]
+
+String containing an identifier for the specific GNSS chipset or combo chipset.
 
 
 #### - FirmwareVersion[20]

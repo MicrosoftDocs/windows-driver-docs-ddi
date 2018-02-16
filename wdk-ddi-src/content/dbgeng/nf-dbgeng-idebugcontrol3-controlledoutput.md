@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: d1a4aba3-9567-4d8e-980c-f6a85f54870e
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ControlledOutput method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::ControlledOutput, dbgeng/IDebugControl::ControlledOutput, debugger.controlledoutput, ControlledOutput method [Windows Debugging], IDebugControl3 interface [Windows Debugging], ControlledOutput method, ControlledOutput method [Windows Debugging], IDebugControl2 interface, ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl2::ControlledOutput, dbgeng/IDebugControl2::ControlledOutput, IDebugControl::ControlledOutput, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl3::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl interface, IDebugControl3
+ms.keywords: ControlledOutput method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::ControlledOutput, IDebugControl2::ControlledOutput, IDebugControl interface [Windows Debugging], ControlledOutput method, ControlledOutput method [Windows Debugging], IDebugControl::ControlledOutput, dbgeng/IDebugControl2::ControlledOutput, IDebugControl3 interface [Windows Debugging], ControlledOutput method, IDebugControl3, ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::ControlledOutput, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl3::ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, debugger.controlledoutput, IDebugControl, ControlledOutput method [Windows Debugging], IDebugControl interface, IDebugControl2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.ControlledOutput
 -	IDebugControl2.ControlledOutput
 -	IDebugControl3.ControlledOutput
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::ControlledOutput method
@@ -87,6 +87,7 @@ Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/li
 Specifies the format string, as in <b>printf</b>.  Typically, conversion characters work exactly as they do in C. For the floating-point conversion characters, the 64-bit argument is interpreted as a 32-bit floating-point number unless the <b>l</b>  modifier is used.
 
 The <b>%p</b> conversion character is supported, but it represents a pointer in a target's address space.  It might not have any modifiers and it uses the debugger's internal address formatting.  The following additional conversion characters are supported.
+
 <table>
 <tr>
 <th>Character</th>
@@ -256,11 +257,13 @@ String that contains the name of the specified symbol (and displacement, if any)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The %Y format specifier can be used to support the Debugger Markup Language (DML). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt613235">Customizing Debugger Output Using DML</a>.
 
 The following table summarizes the use of the %Y format specifier.
+
 <table>
 <tr>
 <td>Character</td>
@@ -352,9 +355,11 @@ ULONG64
 <td>Debugger formatted pointer</td>
 <td>	Address as source line information.</td>
 </tr>
-</table> 
+</table>
+ 
 
 This code snippet illustrates the use of the  %Y format specifier.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -393,7 +398,9 @@ This code snippet illustrates the use of the  %Y format specifier.
 </pre>
 </td>
 </tr>
-</table></span></div>This sample code would generate the following output.
+</table></span></div>
+This sample code would generate the following output.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -421,7 +428,9 @@ DML/NORMAL Y{l}: [d:\th\minkernel\kernelbase\debug.c @ 443]
 </table></span></div>
 
 
+
 ### -param param
+
 
 
 
@@ -435,7 +444,9 @@ Specifies additional parameters that represent values to be inserted into the ou
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -452,32 +463,50 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 When generating very large output strings, it is possible to reach the limits of the debugger engine or of the operating system.  For example, some versions of the debugger engine have a 16K character limit for a single output.  If you find that very large output is getting truncated, you might need to split your output into multiple requests.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+
+
 
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+
+
 
  
 

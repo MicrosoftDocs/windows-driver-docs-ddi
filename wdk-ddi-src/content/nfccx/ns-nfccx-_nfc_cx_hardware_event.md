@@ -1,6 +1,6 @@
 ---
 UID: NS:nfccx._NFC_CX_HARDWARE_EVENT
-title: _NFC_CX_HARDWARE_EVENT
+title: "_NFC_CX_HARDWARE_EVENT"
 author: windows-driver-content
 description: The NFC_CX_HARDWARE_EVENT structure is an input parameter to NfcCxHardwareEvent.
 old-location: nfpdrivers\nfc_cx_hardware_event.htm
@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: FC7566C0-95FD-450C-897E-C57870386512
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: nfpdrivers.nfc_cx_hardware_event, *PNFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers], nfccx/PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers], _NFC_CX_HARDWARE_EVENT, nfccx/NFC_CX_HARDWARE_EVENT
+ms.keywords: NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers], NFC_CX_HARDWARE_EVENT, nfccx/PNFC_CX_HARDWARE_EVENT, nfpdrivers.nfc_cx_hardware_event, *PNFC_CX_HARDWARE_EVENT, _NFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT, nfccx/NFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfccx.h
-apiname: 
+apiname:
 -	NFC_CX_HARDWARE_EVENT
 product: Windows
 targetos: Windows
-req.typenames: *PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT
+req.typenames: NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
 ---
 
 # _NFC_CX_HARDWARE_EVENT structure
@@ -83,7 +83,11 @@ An <a href="..\nfccx\ne-nfccx-_nfc_cx_host_action.md">NFC_CX_HOST_ACTION</a>-typ
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+
+
 
  
 

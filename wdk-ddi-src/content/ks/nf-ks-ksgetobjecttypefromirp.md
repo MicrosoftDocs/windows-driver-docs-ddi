@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4fe45811-a823-4cc6-bdc4-a1f2ac892d37
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgetobjecttypefromirp, KsGetObjectTypeFromIrp, ks/KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml
+ms.keywords: ks/KsGetObjectTypeFromIrp, avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, stream.ksgetobjecttypefromirp, KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsGetObjectTypeFromIrp
 product: Windows
 targetos: Windows
@@ -76,19 +76,29 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 ## -returns
 
 
+
 <b>KsGetObjectTypeFromIrp</b> returns the type of AVStream object associated with the given IRP as a <a href="..\ks\ne-ks-ksobjecttype.md">KSOBJECTTYPE</a> enumeration. This is one of the following: <b>KsObjectTypeDevice</b>, <b>KsObjectTypeFilterFactory</b>, <b>KsObjectTypeFilter</b>, <b>KsObjectTypePin</b>.
+
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
+<a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
+
+
 
 <a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
 
+
+
+<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
+
+
+
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
-<a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
+
 
  
 

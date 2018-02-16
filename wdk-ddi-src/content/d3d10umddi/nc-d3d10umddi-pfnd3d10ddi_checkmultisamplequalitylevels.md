@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	CheckMultisampleQualityLevels
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS callback
@@ -76,13 +76,10 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param DXGI_FORMAT
 
 
-
 ### -param UINT
-
 
 
 ### -param *
@@ -92,19 +89,6 @@ VOID APIENTRY CheckMultisampleQualityLevels(
 
 
 
-#### - SampleCount [in]
-
- The number of samples to retrieve the quality levels for. 
-
-
-#### - pNumQualityLevels [out]
-
-A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
 
 
 #### - Format [in]
@@ -112,7 +96,23 @@ A pointer to a variable that receives the number of quality levels that the devi
  A DXGI_FORMAT-typed value that indicates the render-target format that the check is performed for. 
 
 
+#### - SampleCount [in]
+
+ The number of samples to retrieve the quality levels for. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - pNumQualityLevels [out]
+
+A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples. 
+
+
 ## -returns
+
 
 
 None
@@ -121,7 +121,9 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
+
 ## -remarks
+
 
 
 If the device does not support multiple sampling with the number of samples that is specified in the <i>SampleCount</i> parameter, the user-mode display driver should return 0 in the variable that the <i>pNumQualityLevels</i> parameter points to.
@@ -134,11 +136,16 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 
 
+
 ## -see-also
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
+
 
  
 

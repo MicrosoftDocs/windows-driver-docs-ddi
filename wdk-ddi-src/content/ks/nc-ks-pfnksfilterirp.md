@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	MyAVStrMiniFilterIRPHandler
 product: Windows
 targetos: Windows
@@ -92,11 +92,14 @@ Pointer to the IRP for <i>Filter</i>.
 ## -returns
 
 
+
 If the routine succeeds, return STATUS_SUCCESS or the error code.
 
 
 
+
 ## -remarks
+
 
 
 <table>
@@ -137,7 +140,9 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -145,9 +150,15 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 
 <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
 
+
+
 <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
+
+
 <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
+
+
 
  
 

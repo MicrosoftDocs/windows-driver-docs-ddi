@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: bb117f9d-a288-4db6-8f28-96ab5152289c
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreateBusEnumObject function [Streaming Media Devices], KsCreateBusEnumObject, swenum/KsCreateBusEnumObject, ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, stream.kscreatebusenumobject
+ms.keywords: ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, KsCreateBusEnumObject, KsCreateBusEnumObject function [Streaming Media Devices], stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsCreateBusEnumObject
 product: Windows
 targetos: Windows
@@ -111,20 +111,28 @@ REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Services\SWENUM\Devices.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if successful, or a memory error if unsuccessful.
+
 
 
 
 ## -remarks
 
 
+
 The demand-load bus enumerator object extends a Plug and Play device by servicing bus enumerator queries through the <b>KsServiceBusEnumPnpRequest</b> function for the given functional device object.
-<div class="alert"><b>Note</b>  : The first PVOID of the device extension of the FDO pointed to in <i>BusDeviceObject</i> must be reserved for the resultant demand-load bus enumerator object.</div><div> </div>
+
+<div class="alert"><b>Note</b>  : The first PVOID of the device extension of the FDO pointed to in <i>BusDeviceObject</i> must be reserved for the resultant demand-load bus enumerator object.</div>
+<div> </div>
+
 
 
 ## -see-also
 
 <a href="..\swenum\nf-swenum-ksservicebusenumpnprequest.md">KsServiceBusEnumPnpRequest</a>
+
+
 
  
 

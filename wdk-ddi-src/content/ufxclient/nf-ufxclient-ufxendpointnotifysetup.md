@@ -7,8 +7,8 @@ old-location: buses\ufxendpointnotifysetup.htm
 old-project: usbref
 ms.assetid: 147CE46A-315D-4B75-B345-A7C0B01B2078
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UfxEndpointNotifySetup method [Buses], ufxclient/UfxEndpointNotifySetup, UfxEndpointNotifySetup, buses.ufxendpointnotifysetup
+ms.date: 2/8/2018
+ms.keywords: buses.ufxendpointnotifysetup, ufxclient/UfxEndpointNotifySetup, UfxEndpointNotifySetup, UfxEndpointNotifySetup method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ufxclient.h
-apiname: 
+apiname:
 -	UfxEndpointNotifySetup
 product: Windows
 targetos: Windows
-req.typenames: *PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -87,14 +87,18 @@ A handle to a UFX device object that the driver created by calling <a href="..\u
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The following example shows how to handle setup packet completion.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -114,4 +118,5 @@ The following example shows how to handle setup packet completion.
 </td>
 </tr>
 </table></span></div>
+
 

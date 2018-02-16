@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 67dbc01a-83ee-4c7c-921e-f0945fbcc2ef
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugControl2::AddExtension, IDebugControl3::AddExtension, AddExtension method [Windows Debugging], dbgeng/IDebugControl2::AddExtension, AddExtension method [Windows Debugging], IDebugControl interface, AddExtension method [Windows Debugging], IDebugControl3 interface, AddExtension, debugger.addextension, dbgeng/IDebugControl::AddExtension, dbgeng/IDebugControl3::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, AddExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], AddExtension method, IDebugControl2 interface [Windows Debugging], AddExtension method, IDebugControl3 interface [Windows Debugging], AddExtension method, IDebugControl::AddExtension, IDebugControl3
+ms.keywords: debugger.addextension, AddExtension method [Windows Debugging], IDebugControl3 interface, AddExtension method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging], AddExtension method, IDebugControl3::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, IDebugControl::AddExtension, AddExtension, IDebugControl3, IDebugControl2 interface [Windows Debugging], AddExtension method, dbgeng/IDebugControl::AddExtension, AddExtension method [Windows Debugging], AddExtension method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], AddExtension method, dbgeng/IDebugControl3::AddExtension, IDebugControl2::AddExtension, IDebugControl2, IDebugControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl.AddExtension
 -	IDebugControl2.AddExtension
 -	IDebugControl3.AddExtension
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::AddExtension method
@@ -89,6 +89,7 @@ Receives the handle of the loaded extension library.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -105,13 +106,16 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
 
 
 
+
 ## -remarks
+
 
 
 If the extension library has already been loaded, the handle to already loaded library is returned.  The extension library is not loaded again.
@@ -122,17 +126,28 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
-## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+
+
 
  
 

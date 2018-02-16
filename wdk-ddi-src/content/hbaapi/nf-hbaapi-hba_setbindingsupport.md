@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d4ac375-ede9-406e-bac0-9caa2273c91a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.hba_setbindingsupport, hbaapi/HBA_SetBindingSupport, fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml, HBA_SetBindingSupport, HBA_SetBindingSupport routine [Storage Devices]
+ms.keywords: hbaapi/HBA_SetBindingSupport, fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml, HBA_SetBindingSupport, HBA_SetBindingSupport routine [Storage Devices], storage.hba_setbindingsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_SetBindingSupport
 product: Windows
 targetos: Windows
@@ -87,7 +87,9 @@ Contains a bitwise OR of a set of flags that indicate the capabilities to enable
 ## -returns
 
 
+
 The <b>HBA_SetBindingSupport</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_SetBindingSupport</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -148,7 +150,9 @@ Returned if an unspecified error occurred that prevented the routine from enabli
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -156,7 +160,11 @@ Returned if an unspecified error occurred that prevented the routine from enabli
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

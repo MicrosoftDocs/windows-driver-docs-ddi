@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
-title: _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
+title: "_PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
 author: windows-driver-content
 description: The PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure is reserved for system use.
 old-location: pci\pci_express_link_quiescent_interface_.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: c57ef3e0-5d4d-4545-9c70-b2e11e5823ec
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI.pci_express_link_quiescent_interface_, wdm/
+ms.keywords: "_PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI.pci_express_link_quiescent_interface_, wdm/, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], *PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, *PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE
+req.typenames: "*PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
 req.product: Windows 10 or later.
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_STATESET
-title: _D3DDDIARG_STATESET
+title: "_D3DDDIARG_STATESET"
 author: windows-driver-content
 description: The D3DDDIARG_STATESET structure describes how to set a state block.
 old-location: display\d3dddiarg_stateset.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0e2d7e78-bdf1-4582-a95c-1cbdd498c200
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_STATESET, display.d3dddiarg_stateset, UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml, D3DDDIARG_STATESET, D3DDDIARG_STATESET structure [Display Devices], d3dumddi/D3DDDIARG_STATESET
+ms.keywords: d3dumddi/D3DDDIARG_STATESET, display.d3dddiarg_stateset, D3DDDIARG_STATESET, _D3DDDIARG_STATESET, D3DDDIARG_STATESET structure [Display Devices], UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_STATESET
 product: Windows
 targetos: Windows
@@ -72,6 +72,7 @@ typedef struct _D3DDDIARG_STATESET {
 ### -field Operation
 
 [in] The operation to perform, which can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -137,12 +138,14 @@ Run the state block that is referenced by the handle in <b>hStateSet</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field StateBlockType
 
 [in] A D3DSTATEBLOCKTYPE-typed value that indicates the type of state that the driver should record. This member can be one of the following values.
+
 <table>
 <tr>
 <th>Value</th>
@@ -404,7 +407,8 @@ No predefined state group is specified.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field hStateSet
@@ -419,15 +423,19 @@ The <i>StateSet</i> function returns the state-block handle when <b>Operation</b
 ## -remarks
 
 
+
 If the user-mode display driver implements extended render states (that is, render states beyond those that the Microsoft Direct3D runtime supplies), the driver uses the <b>StateBlockType</b> member to determine the type of predefined render state that is being used. From this information, the driver can determine how to append the state block appropriately to support its extensions. 
 
 The <b>StateBlockType</b> member is valid only for D3DHAL_STATESETBEGIN, D3DHAL_STATESETEND, and D3DHAL_STATECREATE operations. For more information about the D3DSTATEBLOCKTYPE enumeration type, see the Microsoft Windows SDK documentation.
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_stateset.md">StateSet</a>
+
+
 
  
 

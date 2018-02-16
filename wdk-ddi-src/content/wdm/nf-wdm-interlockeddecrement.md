@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, wdm/InterlockedDecrement, kernel.interlockeddecrement
+ms.keywords: k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, InterlockedDecrement, wdm/InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	OneCoreUAP.lib
 -	OneCoreUAP.dll
 -	API-MS-Win-Core-Interlocked-l1-1-0.dll
 -	API-MS-Win-Core-Interlocked-l1-2-0.dll
 -	KernelBase.dll
 -	MinKernelBase.dll
-apiname: 
+apiname:
 -	InterlockedDecrement
 product: Windows
 targetos: Windows
@@ -81,11 +81,14 @@ A pointer to a variable to be decremented.
 ## -returns
 
 
+
 <b>InterlockedDecrement</b> returns the decremented value.
 
 
 
+
 ## -remarks
+
 
 
 <b>InterlockedDecrement</b> should be used instead of <b>ExInterlockedDecrementLong</b> because it is both more efficient and faster. 
@@ -98,15 +101,24 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
 
 <a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
 
-<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+
+
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+
+
+
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
 
  
 

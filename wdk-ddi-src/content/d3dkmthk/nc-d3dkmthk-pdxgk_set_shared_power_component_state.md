@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	PDXGK_SET_SHARED_POWER_COMPONENT_STATE
 product: Windows
 targetos: Windows
@@ -72,16 +72,15 @@ NTSTATUS PDXGK_SET_SHARED_POWER_COMPONENT_STATE(
 ### -param DeviceHandle
 
 
-
 ### -param PrivateHandle
-
 
 
 ### -param ComponentIndex
 
 
-
 ### -param Active
+
+
 
 
 
@@ -100,6 +99,8 @@ A handle to the graphics device.
 ## -returns
 
 
+
 Return STATUS_SUCCESS if the call succeeds.
+
 
 

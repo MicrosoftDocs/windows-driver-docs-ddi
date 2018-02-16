@@ -7,8 +7,8 @@ old-location: ifsk\rtlequalsid.htm
 old-project: ifsk
 ms.assetid: 4976fc27-c28a-46ec-ac07-19505cda8f14
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ifsk.rtlequalsid, RtlEqualSid, ntifs/RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml
+ms.date: 2/7/2018
+ms.keywords: RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml, ifsk.rtlequalsid, ntifs/RtlEqualSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlEqualSid
 product: Windows
 targetos: Windows
@@ -82,30 +82,42 @@ Pointer to the second SID structure to compare. Must point to a valid SID.
 ## -returns
 
 
+
 <b>RtlEqualSid</b> returns <b>TRUE</b> if the SID structures are equal, <b>FALSE</b> otherwise. If either SID structure is invalid, the return value is undefined. 
+
 
 
 
 ## -remarks
 
 
+
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
+
 
 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 <a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
 
- 
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlEqualSid routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlEqualSid routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DRIVER_CAPS
-title: _NDIS_WWAN_DRIVER_CAPS
+title: "_NDIS_WWAN_DRIVER_CAPS"
 author: windows-driver-content
 description: The NDIS_WWAN_DRIVER_CAPS structure represents the capabilities of the miniport driver.
 old-location: netvista\ndis_wwan_driver_caps.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 413ea129-2c55-4e7f-ad7c-ce99840f7066
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_driver_caps, _NDIS_WWAN_DRIVER_CAPS, ndiswwan/PNDIS_WWAN_DRIVER_CAPS, WwanRef_9c8d6cfb-7f4b-47ac-879b-4c3ada7f9239.xml, NDIS_WWAN_DRIVER_CAPS, PNDIS_WWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DRIVER_CAPS, *PNDIS_WWAN_DRIVER_CAPS, ndiswwan/NDIS_WWAN_DRIVER_CAPS
+ms.keywords: netvista.ndis_wwan_driver_caps, PNDIS_WWAN_DRIVER_CAPS, PNDIS_WWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_DRIVER_CAPS, WwanRef_9c8d6cfb-7f4b-47ac-879b-4c3ada7f9239.xml, _NDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS, ndiswwan/PNDIS_WWAN_DRIVER_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_DRIVER_CAPS
 product: Windows
 targetos: Windows
@@ -76,6 +76,7 @@ The header with type, revision, and size information about the NDIS_WWAN_DRIVER_
      <i>set</i> operations. Miniport drivers must set the header with the same values when they send the data
      structure to the MB service.
      
+
 <table>
 <tr>
 <th>Header submember</th>
@@ -111,7 +112,8 @@ sizeof(NDIS_WWAN_DRIVER_CAPS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For more information about these members, see 
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
@@ -128,7 +130,11 @@ A
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
+
+
 <a href="..\wwan\ns-wwan-_wwan_driver_caps.md">WWAN_DRIVER_CAPS</a>
+
+
 
  
 

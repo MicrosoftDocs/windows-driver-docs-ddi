@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: a52cde43-f440-4e58-97b7-b2aac5fb5f6a
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKS_FRAMING_RANGE_WEIGHTED structure pointer [Streaming Media Devices], ks/PKS_FRAMING_RANGE_WEIGHTED, KS_FRAMING_RANGE_WEIGHTED, ks-struct_9bc7dcda-b095-4f53-9446-40ec43d6397b.xml, stream.ks_framing_range_weighted, KS_FRAMING_RANGE_WEIGHTED structure [Streaming Media Devices], *PKS_FRAMING_RANGE_WEIGHTED, ks/KS_FRAMING_RANGE_WEIGHTED, PKS_FRAMING_RANGE_WEIGHTED
+ms.keywords: PKS_FRAMING_RANGE_WEIGHTED structure pointer [Streaming Media Devices], ks-struct_9bc7dcda-b095-4f53-9446-40ec43d6397b.xml, ks/PKS_FRAMING_RANGE_WEIGHTED, KS_FRAMING_RANGE_WEIGHTED structure [Streaming Media Devices], ks/KS_FRAMING_RANGE_WEIGHTED, KS_FRAMING_RANGE_WEIGHTED, PKS_FRAMING_RANGE_WEIGHTED, stream.ks_framing_range_weighted, *PKS_FRAMING_RANGE_WEIGHTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KS_FRAMING_RANGE_WEIGHTED
 product: Windows
 targetos: Windows
-req.typenames: *PKS_FRAMING_RANGE_WEIGHTED, KS_FRAMING_RANGE_WEIGHTED
+req.typenames: KS_FRAMING_RANGE_WEIGHTED, *PKS_FRAMING_RANGE_WEIGHTED
 ---
 
 # KS_FRAMING_RANGE_WEIGHTED structure
@@ -87,6 +87,8 @@ Not currently supported. Drivers should set to zero.
 ## -see-also
 
 <a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: d1043d5b-6f2c-4c2f-894a-ae6870865257
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3d10_ddi_depth_stencil_desc, D3D10_DDI_DEPTH_STENCIL_DESC structure [Display Devices], D3D10_DDI_DEPTH_STENCIL_DESC, UMDisplayDriver_Dx10param_Structs_4e9cbeba-8eb3-43ea-891a-1b57c82cd3ef.xml, d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC
+ms.keywords: d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC, D3D10_DDI_DEPTH_STENCIL_DESC, display.d3d10_ddi_depth_stencil_desc, D3D10_DDI_DEPTH_STENCIL_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4e9cbeba-8eb3-43ea-891a-1b57c82cd3ef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	D3D10_DDI_DEPTH_STENCIL_DESC
 product: Windows
 targetos: Windows
@@ -84,6 +84,7 @@ typedef struct D3D10_DDI_DEPTH_STENCIL_DESC {
 ### -field DepthWriteMask
 
 [in] A bitwise value that indicates the write properties for a depth stencil state. This member is a valid bitwise OR of the following values from the D3D10_DDI_DEPTH_WRITE_MASK enumeration.
+
 <table>
 <tr>
 <th>Value</th>
@@ -109,7 +110,8 @@ All properties
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field DepthFunc
@@ -155,7 +157,9 @@ All properties
 ## -remarks
 
 
+
 If the <b>StencilEnable</b> member is set to <b>TRUE</b>, the <b>FrontEnable</b> member, <b>BackEnable</b> member, or both must also be set to <b>TRUE</b>. 
+
 
 
 
@@ -163,11 +167,19 @@ If the <b>StencilEnable</b> member is set to <b>TRUE</b>, the <b>FrontEnable</b>
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a>
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc.md">D3D10_DDI_DEPTH_STENCILOP_DESC</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivatedepthstencilstatesize.md">CalcPrivateDepthStencilStateSize</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdepthstencilstate.md">CreateDepthStencilState</a>
+
+
 
  
 

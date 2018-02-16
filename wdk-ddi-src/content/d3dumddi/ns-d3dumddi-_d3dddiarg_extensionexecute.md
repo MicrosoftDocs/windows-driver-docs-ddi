@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_EXTENSIONEXECUTE
-title: _D3DDDIARG_EXTENSIONEXECUTE
+title: "_D3DDDIARG_EXTENSIONEXECUTE"
 author: windows-driver-content
 description: The D3DDDIARG_EXTENSIONEXECUTE structure describes a Microsoft DirectX Video Acceleration (VA) extension operation to perform.
 old-location: display\d3dddiarg_extensionexecute.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: adc3e8a0-b261-47dc-ada2-bd21cb3ca954
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_extensionexecute, d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, _D3DDDIARG_EXTENSIONEXECUTE, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, D3DDDIARG_EXTENSIONEXECUTE
+ms.keywords: D3DDDIARG_EXTENSIONEXECUTE, UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, _D3DDDIARG_EXTENSIONEXECUTE, d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_EXTENSIONEXECUTE
 product: Windows
 targetos: Windows
@@ -106,13 +106,21 @@ typedef struct _D3DDDIARG_EXTENSIONEXECUTE {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a>
+
+
 
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatebuffer.md">DXVADDI_PRIVATEBUFFER</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_extensionexecute.md">ExtensionExecute</a>
+
 
  
 

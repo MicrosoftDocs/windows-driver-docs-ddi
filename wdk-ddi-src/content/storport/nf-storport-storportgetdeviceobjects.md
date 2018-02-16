@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e48b5048-5f5f-4efb-b7bf-2dd183074516
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storport/StorPortGetDeviceObjects, storage.storportgetdeviceobjects, StorPortGetDeviceObjects, storprt_219d8794-88c3-49c6-82ea-a19f75c3ad1f.xml, StorPortGetDeviceObjects routine [Storage Devices]
+ms.keywords: storage.storportgetdeviceobjects, storport/StorPortGetDeviceObjects, storprt_219d8794-88c3-49c6-82ea-a19f75c3ad1f.xml, StorPortGetDeviceObjects routine [Storage Devices], StorPortGetDeviceObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortGetDeviceObjects
 product: Windows
 targetos: Windows
@@ -94,7 +94,9 @@ A pointer to receive the device object of lower device to which the FDO is attac
 ## -returns
 
 
+
 <b>StorPortGetDeviceObjects</b> returns one of the following status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,6 +135,8 @@ The <i>HwDeviceExtension</i> was <b>NULL</b>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d12umddi.h
-apiname: 
+apiname:
 -	PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
 product: Windows
 targetos: Windows
@@ -71,7 +71,6 @@ SIZE_T APIENTRY* PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 (
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param *
 
 
@@ -79,9 +78,6 @@ SIZE_T APIENTRY* PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 (
 
 
 
-#### - hDevice
-
-The device being processed.
 
 
 #### - d3d12ddiarg_create_pipeline_state_0033 [in]
@@ -89,9 +85,16 @@ The device being processed.
 Used to create a pipeline state.
 
 
+#### - hDevice
+
+The device being processed.
+
+
 ## -returns
 
 
+
 The size in bytes of the state size.
+
 
 

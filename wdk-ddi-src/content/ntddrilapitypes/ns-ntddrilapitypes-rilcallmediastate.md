@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1fe4b90e-f89a-4ccc-bc92-b6f2edfb0b98
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILCALLMEDIASTATE, *LPRILCALLMEDIASTATE, netvista.rilcallmediastate, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: "*LPRILCALLMEDIASTATE, netvista.rilcallmediastate, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], RILCALLMEDIASTATE, ntddrilapitypes/RILCALLMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILCALLMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: *LPRILCALLMEDIASTATE, RILCALLMEDIASTATE
+req.typenames: "*LPRILCALLMEDIASTATE, RILCALLMEDIASTATE"
 ---
 
 # RILCALLMEDIASTATE structure
@@ -74,8 +74,13 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 
-### -field mediaStateUnion
+### -field dwDirection
 
+
+### -field dwCallMediaType
+
+
+### -field mediaStateUnion
 
 
 ### -field mediaStateUnion.stAudioState
@@ -101,27 +106,14 @@ typedef struct _RILCALLMEDIASTATE {
 ### -field RILCALLMEDIASTATEUNION
 
 
-
-### -field dwDirection
-
-
-
-### -field dwCallMediaType
-
-
-
 #### - dwCustomStateSpecific
-
-
-
-#### - stAudioState
-
 
 
 #### - pad
 
 
+#### - stAudioState
+
 
 #### - stVideoState
-
 

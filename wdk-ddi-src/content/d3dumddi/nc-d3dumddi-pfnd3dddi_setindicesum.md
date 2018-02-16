@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	SetIndicesUM
 product: Windows
 targetos: Windows
@@ -80,7 +80,6 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 ### -param UINT
 
 
-
 ### -param *
 
 
@@ -88,9 +87,6 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
 
 
 
-#### - pUMBuffer [in]
-
- A pointer to the user-memory buffer that supplies the indices for the index buffer.
 
 
 #### - IndexSize [in]
@@ -98,16 +94,25 @@ __checkReturn HRESULT APIENTRY SetIndicesUM(
  The size, in bytes, of the indices that are contained in the index buffer. The value of this parameter is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities. 
 
 
+#### - pUMBuffer [in]
+
+ A pointer to the user-memory buffer that supplies the indices for the index buffer.
+
+
 ## -returns
+
 
 
 <i>SetIndicesUM</i> returns S_OK or an appropriate error result if the index buffer is not successfully set to the given user memory buffer.
 
 
 
+
 ## -see-also
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

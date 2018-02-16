@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6E66CD0B-7CAD-4BF1-A6DD-56C5029A929E
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlulongptrmult, RtlULongPtrMult, RtlULongPtrMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongPtrMult
+ms.keywords: ntintsafe/RtlULongPtrMult, RtlULongPtrMult, RtlULongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtlulongptrmult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntintsafe.h
-apiname: 
+apiname:
 -	RtlULongPtrMult
 product: Windows
 targetos: Windows
@@ -85,14 +85,15 @@ TBD
 
 
 
-#### - Multiplier [in]
-
-The value by which to multiply <i>Multiplicand</i>.
-
 
 #### - Multiplicand [in]
 
 The value to be multiplied by <i>Multiplier</i>.
+
+
+#### - Multiplier [in]
+
+The value by which to multiply <i>Multiplicand</i>.
 
 
 #### - pResult [out]
@@ -103,6 +104,8 @@ A pointer to the result. If the operation results in a value that overflows or u
 ## -remarks
 
 
+
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
 
 

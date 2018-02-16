@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a06f6757-e125-4f80-9594-a60fa1fef6e4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, storage.hba_registerfortargetevents, HBA_RegisterForTargetEvents routine [Storage Devices], HBA_RegisterForTargetEvents, hbaapi/HBA_RegisterForTargetEvents
+ms.keywords: fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, HBA_RegisterForTargetEvents routine [Storage Devices], HBA_RegisterForTargetEvents, storage.hba_registerfortargetevents, hbaapi/HBA_RegisterForTargetEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_RegisterForTargetEvents
 product: Windows
 targetos: Windows
@@ -109,9 +109,10 @@ TBD
 
 
 
-#### - handle
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
+#### - allTargets
+
+Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be ignored, and the callback will be called for events associated with all current and future discovered targets. If this member is 0, only events associated with the target specified by <i>discoveredPortWWN</i> will be reported. 
 
 
 #### - callbackHandle
@@ -119,9 +120,14 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
-#### - userData
+#### - discoveredPortWWN
 
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
+Contains a 64-bit WWN that uniquely identifies the remote HBA port from which target events are reported. 
+
+
+#### - handle
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
 #### - hbaPortWWN
@@ -129,20 +135,17 @@ Pointer to a buffer that is passed to the callback routine with each event. This
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port from which the target was discovered. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-#### - allTargets
+#### - userData
 
-Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be ignored, and the callback will be called for events associated with all current and future discovered targets. If this member is 0, only events associated with the target specified by <i>discoveredPortWWN</i> will be reported. 
-
-
-#### - discoveredPortWWN
-
-Contains a 64-bit WWN that uniquely identifies the remote HBA port from which target events are reported. 
+Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 ## -returns
 
 
+
 The <b>HBA_RegisterForTargetEvents</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA. In particular, <b>HBA_RegisterForTargetEvents</b> returns one of the following values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -181,26 +184,38 @@ Returned if an unspecified error occurred that prevented the registration of the
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 To stop event delivery, call <b>HBA_RemoveCallback</b>.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
 
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
+
+
 <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
 
  
 

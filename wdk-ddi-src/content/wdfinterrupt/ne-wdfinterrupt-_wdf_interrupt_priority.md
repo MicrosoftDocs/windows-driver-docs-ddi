@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfinterrupt._WDF_INTERRUPT_PRIORITY
-title: _WDF_INTERRUPT_PRIORITY
+title: "_WDF_INTERRUPT_PRIORITY"
 author: windows-driver-content
 description: The WDF_INTERRUPT_PRIORITY enumeration type identifies relative priorities for device interrupts.
 old-location: wdf\wdf_interrupt_priority.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3305a9c-8107-4631-974b-fe85779ec8dc
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfIrqPriorityUndefined, wdfinterrupt/WdfIrqPriorityHigh, WDF_INTERRUPT_PRIORITY enumeration, wdfinterrupt/WDF_INTERRUPT_PRIORITY, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityLow, PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY, _WDF_INTERRUPT_PRIORITY, wdf.wdf_interrupt_priority, WdfIrqPriorityUndefined, WdfIrqPriorityLow, WdfIrqPriorityHigh, WdfIrqPriorityNormal, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, kmdf.wdf_interrupt_priority, PWDF_INTERRUPT_PRIORITY enumeration pointer, wdfinterrupt/WdfIrqPriorityNormal
+ms.keywords: wdf.wdf_interrupt_priority, wdfinterrupt/WdfIrqPriorityHigh, WdfIrqPriorityLow, *PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY enumeration pointer, WDF_INTERRUPT_PRIORITY, WdfIrqPriorityNormal, wdfinterrupt/WdfIrqPriorityLow, PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityHigh, wdfinterrupt/WDF_INTERRUPT_PRIORITY, WdfIrqPriorityUndefined, wdfinterrupt/WdfIrqPriorityUndefined, _WDF_INTERRUPT_PRIORITY, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, kmdf.wdf_interrupt_priority, wdfinterrupt/WdfIrqPriorityNormal, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, WDF_INTERRUPT_PRIORITY enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,19 +28,19 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
-topictype: 
+req.irql: PASSIVE_LEVEL
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfinterrupt.h
-apiname: 
+apiname:
 -	WDF_INTERRUPT_PRIORITY
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY
+req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
 ---
 
@@ -96,13 +96,17 @@ The device's interrupt has a relatively high priority, typically because the int
 ## -remarks
 
 
+
 The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a> method.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a>
+
+
 
  
 

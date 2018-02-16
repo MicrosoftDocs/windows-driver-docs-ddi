@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATESTANDARDALLOCATION
-title: _D3DKMT_CREATESTANDARDALLOCATION
+title: "_D3DKMT_CREATESTANDARDALLOCATION"
 author: windows-driver-content
 description: Used to create a standard allocation.
 old-location: display\d3dkmt-createstandardallocation.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 7698ab93-68af-479d-97a4-c45ac84b0710
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_CREATESTANDARDALLOCATION, display.d3dkmt-createstandardallocation, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATION
+ms.keywords: "_D3DKMT_CREATESTANDARDALLOCATION, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], display.d3dkmt-createstandardallocation, D3DKMT_CREATESTANDARDALLOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_CREATESTANDARDALLOCATION
 product: Windows
 targetos: Windows
@@ -71,14 +71,14 @@ typedef struct _D3DKMT_CREATESTANDARDALLOCATION {
 
 
 
-### -field ExistingHeapData
-
-Holds information on the existing heap.
-
-
 ### -field Type
 
 The type of the standard allocation.
+
+
+### -field ExistingHeapData
+
+Holds information on the existing heap.
 
 
 ### -field Flags

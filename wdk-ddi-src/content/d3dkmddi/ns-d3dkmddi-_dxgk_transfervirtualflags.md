@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_TRANSFERVIRTUALFLAGS
-title: _DXGK_TRANSFERVIRTUALFLAGS
+title: "_DXGK_TRANSFERVIRTUALFLAGS"
 author: windows-driver-content
 description: DXGK_TRANSFERVIRTUALFLAGS is used as part of an allocation transfer operation.
 old-location: display\dxgk_transfervirtualflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: E5323A30-5BBE-4084-9F99-91FBDD680C12
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS, _DXGK_TRANSFERVIRTUALFLAGS, display.dxgk_transfervirtualflags, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices]
+ms.keywords: "_DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices], display.dxgk_transfervirtualflags, DXGK_TRANSFERVIRTUALFLAGS, d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmddi.h
-apiname: 
+apiname:
 -	DXGK_TRANSFERVIRTUALFLAGS
 product: Windows
 targetos: Windows

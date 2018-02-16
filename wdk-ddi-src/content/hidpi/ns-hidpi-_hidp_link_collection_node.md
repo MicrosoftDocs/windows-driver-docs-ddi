@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_LINK_COLLECTION_NODE
-title: _HIDP_LINK_COLLECTION_NODE
+title: "_HIDP_LINK_COLLECTION_NODE"
 author: windows-driver-content
 description: The HIDP_LINK_COLLECTION_NODE structure contains information about a link collection in a top-level collection's link collection array.
 old-location: hid\hidp_link_collection_node.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 66ffd219-4a62-404d-ba51-4a91eccfcf96
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hidstrct_8d1c79e1-c19d-4896-9572-cae49a06304a.xml, _HIDP_LINK_COLLECTION_NODE, PHIDP_LINK_COLLECTION_NODE, hidpi/HIDP_LINK_COLLECTION_NODE, hidpi/PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE structure [Human Input Devices], PHIDP_LINK_COLLECTION_NODE structure pointer [Human Input Devices], HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE, hid.hidp_link_collection_node
+ms.keywords: hidpi/HIDP_LINK_COLLECTION_NODE, PHIDP_LINK_COLLECTION_NODE, hidstrct_8d1c79e1-c19d-4896-9572-cae49a06304a.xml, PHIDP_LINK_COLLECTION_NODE structure pointer [Human Input Devices], *PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE, _HIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE structure [Human Input Devices], hidpi/PHIDP_LINK_COLLECTION_NODE, hid.hidp_link_collection_node
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidpi.h
-apiname: 
+apiname:
 -	HIDP_LINK_COLLECTION_NODE
 product: Windows
 targetos: Windows
-req.typenames: HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE
+req.typenames: "*PHIDP_LINK_COLLECTION_NODE, HIDP_LINK_COLLECTION_NODE"
 ---
 
 # _HIDP_LINK_COLLECTION_NODE structure
@@ -129,7 +129,9 @@ Pointer to application-specific information.
 ## -remarks
 
 
+
 The <a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a> routine returns a top-level collection's link collection array. The indices specified in a link collection node are indices in the collection's link collection array.
+
 
 
 
@@ -137,9 +139,15 @@ The <a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkColle
 
 <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
+
+
 <a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
+
+
 <a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a>
+
+
 
  
 

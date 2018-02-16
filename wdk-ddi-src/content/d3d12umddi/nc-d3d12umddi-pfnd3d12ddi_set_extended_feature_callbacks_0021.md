@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnSetExtendedFeatureCallbacks
 product: Windows
 targetos: Windows
@@ -83,8 +83,9 @@ The handle of a device.
 A value for an implementation of video.
 
 
-### -param *pTable
+### -param *pTable [in]
 
+A pointer to a table value.
 
 
 ### -param TableSize
@@ -92,14 +93,11 @@ A value for an implementation of video.
 The size of the table. 
 
 
-#### - pTable [in]
-
-A pointer to a table value.
-
-
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

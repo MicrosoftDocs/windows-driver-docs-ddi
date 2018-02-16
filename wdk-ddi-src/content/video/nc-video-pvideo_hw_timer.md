@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	HwVidTimer
 product: Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
+req.typenames: "*PVHF_CONFIG, VHF_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <i>HwVidTimer</i> is an optional miniport driver function to which calls are enabled with <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a> and disabled with <a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>.
@@ -98,11 +101,16 @@ Note that the <i>HwVidTimer</i> function <i>must not</i> disable the timer with 
 
 
 
+
 ## -see-also
+
+<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
+
+
 
 <a href="..\video\nf-video-videoportstarttimer.md">VideoPortStartTimer</a>
 
-<a href="..\video\nf-video-videoportstoptimer.md">VideoPortStopTimer</a>
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_NETWORK_IDLE_HINT
-title: _NDIS_WWAN_NETWORK_IDLE_HINT
+title: "_NDIS_WWAN_NETWORK_IDLE_HINT"
 author: windows-driver-content
 description: The NDIS_WWAN_NETWORK_IDLE_HINT structure contains a hint for the network interface regarding whether data is expected to be active or idle on the interface.
 old-location: netvista\ndis_wwan_network_idle_hint.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81CA12B7-A7AD-494A-B79A-3EF4A50CB848
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_NETWORK_IDLE_HINT, PNDIS_WWAN_NETWORK_IDLE_HINT, _NDIS_WWAN_NETWORK_IDLE_HINT, *PNDIS_WWAN_NETWORK_IDLE_HINT, ndiswwan/PNDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_network_idle_hint
+ms.keywords: "*PNDIS_WWAN_NETWORK_IDLE_HINT, PNDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT, ndiswwan/NDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_network_idle_hint, PNDIS_WWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_NETWORK_IDLE_HINT, _NDIS_WWAN_NETWORK_IDLE_HINT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndiswwan.h
-apiname: 
+apiname:
 -	NDIS_WWAN_NETWORK_IDLE_HINT
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_WWAN_NETWORK_IDLE_HINT, NDIS_WWAN_NETWORK_IDLE_HINT
+req.typenames: NDIS_WWAN_NETWORK_IDLE_HINT, *PNDIS_WWAN_NETWORK_IDLE_HINT
 ---
 
 # _NDIS_WWAN_NETWORK_IDLE_HINT structure
@@ -78,6 +78,7 @@ The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
+
 <table>
 <tr>
 <th>Member</th>
@@ -95,7 +96,8 @@ The miniport driver must set the members of
 <td><b>Size</b></td>
 <td>SIZEOF_NDIS_WWAN_NETWORK_IDLE_HINT_1</td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field IdleHint
@@ -105,11 +107,17 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_network_idle_hint.md">WWAN_NETWORK_ID
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_network_idle_hint.md">WWAN_NETWORK_IDLE_HINT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
+
+
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
+
+
+<a href="..\wwan\ns-wwan-_wwan_network_idle_hint.md">WWAN_NETWORK_IDLE_HINT</a>
+
+
 
  
 

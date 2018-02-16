@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Storport.h
-apiname: 
+apiname:
 -	HwStorUnitControl
 product: Windows
 targetos: Windows
-req.typenames: *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -81,6 +81,7 @@ A pointer to the miniport driver's per-unit storage area.
 ### -param ControlType [in]
 
 Specifies  an unit control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings.
+
 <table>
 <tr>
 <th>Control Type</th>
@@ -305,12 +306,14 @@ None
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param Parameters [in]
 
 Contains information related to the <i>ControlType</i>.  
+
 <table>
 <tr>
 <th>Control Type</th>
@@ -792,9 +795,11 @@ The address of the device for which the rich device description is desired.  Thi
 </dl>
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the following definition in <i>storport.h</i>.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -812,25 +817,31 @@ For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the
 </table></span></div>
 
 
-##### - Parameters.Address
-
-The address of the unit the control operation is specified for.
 
 
-##### - Parameters.Version
+#### Version
 
 The version of the parent structure.
 
 
-##### - Parameters.Size
+
+#### Size
 
 The size, in bytes, of the parent structure.
+
+
+
+#### Address
+
+The address of the unit the control operation is specified for.
 
 
 ## -returns
 
 
+
 Depending on the control type, <b>HwStorUnitControl</b> returns one of the following SCSI_UNIT_CONTROL_STATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -860,14 +871,18 @@ The unit control operation was not successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The name <b>HwStorUnitControl</b>  is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -886,9 +901,12 @@ HW_UNIT_CONTROL (
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+
+
 
  
 

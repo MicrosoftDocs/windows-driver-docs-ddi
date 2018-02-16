@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_PROGRAM_PID_LIST
-title: _BDA_PROGRAM_PID_LIST
+title: "_BDA_PROGRAM_PID_LIST"
 author: windows-driver-content
 description: The BDA_PROGRAM_PID_LIST structure describes data of a specific program to view. This data consists of packets that are identified with packet identifiers (PID).
 old-location: stream\bda_program_pid_list.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d3a96377-71f9-40ba-a15f-cacd64dcc6c4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdatypes/PBDA_PROGRAM_PID_LIST, stream.bda_program_pid_list, BDA_PROGRAM_PID_LIST structure [Streaming Media Devices], bdatypes/BDA_PROGRAM_PID_LIST, _BDA_PROGRAM_PID_LIST, bdaref_a78db54e-c75e-46dc-8b81-f97163569450.xml, BDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST structure pointer [Streaming Media Devices], *PBDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST
+ms.keywords: BDA_PROGRAM_PID_LIST, _BDA_PROGRAM_PID_LIST, bdatypes/BDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST structure [Streaming Media Devices], bdatypes/PBDA_PROGRAM_PID_LIST, stream.bda_program_pid_list, PBDA_PROGRAM_PID_LIST structure pointer [Streaming Media Devices], *PBDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST, bdaref_a78db54e-c75e-46dc-8b81-f97163569450.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdatypes.h
-apiname: 
+apiname:
 -	BDA_PROGRAM_PID_LIST
 product: Windows
 targetos: Windows
-req.typenames: *PBDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST
+req.typenames: BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST
 ---
 
 # _BDA_PROGRAM_PID_LIST structure
@@ -88,7 +88,11 @@ Array of PIDs that identify packets of program data.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564298">KSPROPERTY_BDA_CA_SET_PROGRAM_PIDS</a>
+
+
 
  
 

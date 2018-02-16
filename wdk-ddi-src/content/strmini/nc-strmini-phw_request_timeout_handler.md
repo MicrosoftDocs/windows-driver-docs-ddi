@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	strmini.h
-apiname: 
+apiname:
 -	StrMiniRequestTimeout
 product: Windows
 targetos: Windows
@@ -78,6 +78,8 @@ VOID StrMiniRequestTimeout(
 
 
 
+
+
 #### - pSrb [in]
 
 Pointer to the stream request that has timed out.
@@ -86,11 +88,14 @@ Pointer to the stream request that has timed out.
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine in the <b>HwRequestTimeoutHandler</b> member of its <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The minidriver passes this structure to the class driver when it registers itself by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
@@ -98,5 +103,6 @@ The minidriver specifies this routine in the <b>HwRequestTimeoutHandler</b> memb
 When the class driver first issues a request, it sets a time-out value (in seconds) with the <b>TimeoutCounter</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> pointed to by <i>pSrb</i>. The class driver decrements the <b>TimeoutCounter</b> member of that structure once a second. A request times out when the class driver decrements <b>TimeoutCounter</b> to zero, at which time the class driver calls <i>StrMiniRequestTimeout</i> to handle any clean-up necessary to cease processing the request.
 
 Minidrivers that rely on the class driver to handle synchronization should, once they have successfully handled the request time-out, signal to the class driver that they are ready for another request by using <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a> or <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a> with the appropriate <b>ReadyForNext</b><i>Xxx</i><b>Request</b>.
+
 
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemps2_writeprinter.htm
 old-project: print
 ms.assetid: 76037a86-757a-4b6a-b5ba-a742a18938c2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemPS2::WritePrinter, WritePrinter method [Print Devices], IPrintOemPS2 interface, print_unidrv-pscript_rendering_ea50360f-7f20-443b-9b10-a64f44238666.xml, IPrintOemPS2 interface [Print Devices], WritePrinter method, IPrintOemPS2, prcomoem/IPrintOemPS2::WritePrinter, print.iprintoemps2_writeprinter, WritePrinter, WritePrinter method [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: WritePrinter method [Print Devices], IPrintOemPS2 interface, prcomoem/IPrintOemPS2::WritePrinter, IPrintOemPS2 interface [Print Devices], WritePrinter method, WritePrinter method [Print Devices], print.iprintoemps2_writeprinter, print_unidrv-pscript_rendering_ea50360f-7f20-443b-9b10-a64f44238666.xml, IPrintOemPS2::WritePrinter, IPrintOemPS2, WritePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPS2.WritePrinter
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -94,15 +94,19 @@ Pointer to a DWORD value that receives the number of bytes of data that the plug
 ## -returns
 
 
+
 If successful, this method returns S_OK. Otherwise, this method should return an appropriate value in the returned HRESULT.
+
 
 
 
 ## -remarks
 
 
+
 At <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a> time, the PostScript driver calls this method with <i>pBuf</i> and <i>pdevobj</i> set to <b>NULL</b>, and <i>cbBuf</i> set to 0, to detect whether the plug-in implements this function. The plug-in should return S_OK to indicate it implements this method, and should return E_NOTIMPL otherwise.
 
 This method should report the number of bytes written to the spooler's <b>WritePrinter</b> function in <i>pcbWritten</i>. A value of zero carries no special meaning; errors must be reported through the returned HRESULT.
+
 
 

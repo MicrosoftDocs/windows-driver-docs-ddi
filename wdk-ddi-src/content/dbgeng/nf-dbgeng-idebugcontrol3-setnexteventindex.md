@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: fbff721a-fdd9-4343-b9a9-92f41fb21ba2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::SetNextEventIndex, IDebugControl3 interface [Windows Debugging], SetNextEventIndex method, SetNextEventIndex method [Windows Debugging], debugger.setnexteventindex, SetNextEventIndex, SetNextEventIndex method [Windows Debugging], IDebugControl3 interface, IDebugControl3::SetNextEventIndex, IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, IDebugControl3
+ms.keywords: IDebugControl3, SetNextEventIndex method [Windows Debugging], IDebugControl3 interface, SetNextEventIndex, dbgeng/IDebugControl3::SetNextEventIndex, IDebugControl3::SetNextEventIndex, SetNextEventIndex method [Windows Debugging], IDebugControl_9a902b9c-c621-4d71-bae7-d3fd288b1cd8.xml, IDebugControl3 interface [Windows Debugging], SetNextEventIndex method, debugger.setnexteventindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugControl3.SetNextEventIndex
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugControl3::SetNextEventIndex method
@@ -77,6 +77,7 @@ Specifies how to interpret <i>Value</i> when setting the index of the next event
 ### -param Value [in]
 
 Specifies the index of the next event relative to the first, last, or current event.  The interpretation of <i>Value</i> depends on the value of <i>Relation</i>, as follows.
+
 <table>
 <tr>
 <th>Value of <i>Relation</i></th>
@@ -112,7 +113,8 @@ The current event index plus <i>Value</i>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The resulting index must be greater than zero and one less than the number of events returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>.
 
@@ -125,7 +127,9 @@ Receives the index of the next event.  If <i>NextIndex</i> is <b>NULL</b>, this 
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -142,11 +146,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 If the specified event is the same as the current event, this method does nothing.  Otherwise,  this method sets the execution status of the target to DEBUG_STATUS_GO (and notifies the event callbacks).  When <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a> is called, the engine will generate the specified event for the event callbacks and set it as the current event.
@@ -155,13 +162,20 @@ This method is only useful if the target offers a list of events.
 
 
 
+
 ## -see-also
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
+
+
 
  
 

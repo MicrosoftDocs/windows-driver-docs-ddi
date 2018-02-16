@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 730b5fae-3536-44ed-8f92-e4563a137be9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsMethodHandler, KsMethodHandler function [Streaming Media Devices], ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml, ks/KsMethodHandler, stream.ksmethodhandler
+ms.keywords: KsMethodHandler function [Streaming Media Devices], KsMethodHandler, ks/KsMethodHandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml, stream.ksmethodhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsMethodHandler
 product: Windows
 targetos: Windows
@@ -88,14 +88,18 @@ Specifies the pointer to the list of method set information.
 ## -returns
 
 
+
 The <b>KsMethodHandler</b> function returns STATUS_SUCCESS if successful, or an error specific to the method being handled if unsuccessful. The function always sets the IO_STATUS_BLOCK.Information field of the PIRP.IoStatus element within the IRP to zero because of an internal error, unless the element is set by a method handler. The function does not set the IO_STATUS_BLOCK.Status field nor complete the IRP.
+
 
 
 
 ## -remarks
 
 
+
 The owner of a method set can perform prefiltering or postfiltering of the method handling using the <b>KsMethodHandler</b> and <b>KsFastMethodHandler </b>functions.
+
 
 
 
@@ -103,7 +107,11 @@ The owner of a method set can perform prefiltering or postfiltering of the metho
 
 <a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>
 
+
+
 <a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
+
+
 
  
 

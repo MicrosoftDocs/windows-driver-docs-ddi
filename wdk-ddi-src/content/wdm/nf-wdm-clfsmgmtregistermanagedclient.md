@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f450117-9bd2-4021-b8f1-393db5784136
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient, kernel.clfsmgmtregistermanagedclient, Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml
+ms.keywords: Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, wdm/ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], ClfsMgmtRegisterManagedClient, kernel.clfsmgmtregistermanagedclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Clfs.sys
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
-apiname: 
+apiname:
 -	ClfsMgmtRegisterManagedClient
 product: Windows
 targetos: Windows
@@ -87,6 +87,7 @@ TBD
 
 
 
+
 #### - Client [out]
 
 A pointer to the client.
@@ -95,7 +96,9 @@ A pointer to the client.
 ## -returns
 
 
+
 The <b>ClfsMgmtRegisterManagedClient</b> routine returns one of the following NTSTATUS values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -145,13 +148,16 @@ An input parameter is invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS Values</a>.
 
 
 
+
 ## -remarks
+
 
 
 The <i>Client</i> parameter that  is provided by the <b>ClfsMgmtRegisterManagedClient</b> routine is a required parameter for other CLFS management functions. You should store this value for later use.
@@ -162,11 +168,16 @@ More than one client can register with a log stream.
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a>
 
+
+
 <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
+
+
 
  
 

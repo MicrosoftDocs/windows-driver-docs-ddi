@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_LTE_MRL
-title: _WWAN_LTE_MRL
+title: "_WWAN_LTE_MRL"
 author: windows-driver-content
 description: The WWAN_LTE_MRL structure represents the measured results list (MRL) of neighboring LTE cells.
 old-location: netvista\wwan_lte_mrl.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5959B7A7-147D-4F20-82CC-EC1DEAAE3494
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.wwan_lte_mrl, _WWAN_LTE_MRL, WWAN_LTE_MRL, wwan/PWWAN_LTE_MRL, WWAN_LTE_MRL structure [Network Drivers Starting with Windows Vista], wwan/WWAN_LTE_MRL, PWWAN_LTE_MRL, PWWAN_LTE_MRL structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_LTE_MRL
+ms.keywords: WWAN_LTE_MRL, wwan/PWWAN_LTE_MRL, _WWAN_LTE_MRL, *PWWAN_LTE_MRL, PWWAN_LTE_MRL structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_lte_mrl, wwan/WWAN_LTE_MRL, PWWAN_LTE_MRL, WWAN_LTE_MRL structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_LTE_MRL
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ The count of MRL entries following this member.
 
 
 
+
 #### - LTEMrl[ANYSIZE_ARRAY]
 
 The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_lte_mrl_info.md">WWAN_LTE_MRL_INFO</a> structure.
@@ -89,11 +90,19 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_lte
 
 <a href="..\wwan\ns-wwan-_wwan_lte_serving_cell_info.md">WWAN_LTE_SERVING_CELL_INFO</a>
 
-<a href="..\wwan\ns-wwan-_wwan_lte_mrl_info.md">WWAN_LTE_MRL_INFO</a>
+
+
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+<a href="..\wwan\ns-wwan-_wwan_lte_mrl_info.md">WWAN_LTE_MRL_INFO</a>
+
+
 
  
 

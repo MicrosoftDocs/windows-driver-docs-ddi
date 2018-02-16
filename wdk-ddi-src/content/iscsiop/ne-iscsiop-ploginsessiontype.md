@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsiop.PLOGINSESSIONTYPE
-title: *PLOGINSESSIONTYPE
+title: "*PLOGINSESSIONTYPE"
 author: windows-driver-content
 description: The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 old-location: storage\loginsessiontype.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 838c2371-c1f3-4415-a624-fab1d8c15d0d
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: iscsiop/ISCSI_LOGINTARGET_DISCOVERY, storage.loginsessiontype, ISCSI_LOGINTARGET_INFORMATIONAL, ISCSI_LOGINTARGET_DATA, PLOGINSESSIONTYPE enumeration pointer [Storage Devices], ISCSI_LOGINTARGET_DISCOVERY, PLOGINSESSIONTYPE, iscsiop/LOGINSESSIONTYPE, LOGINSESSIONTYPE, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml, LOGINSESSIONTYPE enumeration [Storage Devices], *PLOGINSESSIONTYPE, iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, iscsiop/ISCSI_LOGINTARGET_DATA, iscsiop/PLOGINSESSIONTYPE
+ms.keywords: iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, iscsiop/PLOGINSESSIONTYPE, LOGINSESSIONTYPE, storage.loginsessiontype, LOGINSESSIONTYPE enumeration [Storage Devices], ISCSI_LOGINTARGET_DATA, ISCSI_LOGINTARGET_DISCOVERY, iscsiop/ISCSI_LOGINTARGET_DATA, PLOGINSESSIONTYPE enumeration pointer [Storage Devices], *PLOGINSESSIONTYPE, iscsiop/LOGINSESSIONTYPE, iscsiop/ISCSI_LOGINTARGET_DISCOVERY, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml, ISCSI_LOGINTARGET_INFORMATIONAL, PLOGINSESSIONTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	iscsiop.h
-apiname: 
+apiname:
 -	LOGINSESSIONTYPE
 product: Windows
 targetos: Windows
@@ -89,6 +89,8 @@ The logon session is full-featured. It reports the target LUNs to the PnP manage
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
 
  
 

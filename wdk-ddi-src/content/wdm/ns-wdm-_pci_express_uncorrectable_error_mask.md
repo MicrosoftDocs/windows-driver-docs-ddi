@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
-title: _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
+title: "_PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
 author: windows-driver-content
 description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) uncorrectable error mask register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_uncorrectable_error_mask.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 0dfc6e49-5556-4163-abef-b00a26a7a2ad
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: PCI.pci_express_uncorrectable_error_mask, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
+ms.keywords: PCI.pci_express_uncorrectable_error_mask, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdm.h
-apiname: 
+apiname:
 -	PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 product: Windows
 targetos: Windows
-req.typenames: PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
+req.typenames: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
 req.product: Windows 10 or later.
 ---
 
@@ -92,72 +92,72 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK {
 
 ### -field DUMMYSTRUCTNAME.Undefined
 
- 
+A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved1
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME.DataLinkProtocolError
 
- 
+A single bit that indicates that the reporting of data link protocol errors is masked.
 
 
 ### -field DUMMYSTRUCTNAME.SurpriseDownError
 
- 
+A single bit that indicates that the reporting of surprise down errors is masked.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved2
 
- 
+Reserved.
 
 
 ### -field DUMMYSTRUCTNAME.PoisonedTLP
 
- 
+A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
 
 
 ### -field DUMMYSTRUCTNAME.FlowControlProtocolError
 
- 
+A single bit that indicates that the reporting of flow control protocol errors is masked.
 
 
 ### -field DUMMYSTRUCTNAME.CompletionTimeout
 
- 
+A single bit that indicates that the reporting of completion timeouts is masked.
 
 
 ### -field DUMMYSTRUCTNAME.CompleterAbort
 
- 
+A single bit that indicates that the reporting of completer aborts is masked.
 
 
 ### -field DUMMYSTRUCTNAME.UnexpectedCompletion
 
- 
+A single bit that indicates that the reporting of unexpected completions is masked.
 
 
 ### -field DUMMYSTRUCTNAME.ReceiverOverflow
 
- 
+A single bit that indicates that the reporting of receiver overflows is masked.
 
 
 ### -field DUMMYSTRUCTNAME.MalformedTLP
 
- 
+A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
 
 
 ### -field DUMMYSTRUCTNAME.ECRCError
 
- 
+A single bit that indicates that the reporting of end-to-end cyclic redundancy check (ECRC) errors is masked.
 
 
 ### -field DUMMYSTRUCTNAME.UnsupportedRequestError
 
- 
+A single bit that indicates that the reporting of unsupported request errors is masked.
 
 
 ### -field DUMMYSTRUCTNAME.AcsViolation
@@ -187,7 +187,7 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK {
 
 ### -field DUMMYSTRUCTNAME.Reserved3
 
- 
+Reserved.
 
 
 ### -field AsULONG
@@ -195,82 +195,8 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK {
 A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure.
 
 
-#### - Reserved2
-
-Reserved.
-
-
-#### - SurpriseDownError
-
-A single bit that indicates that the reporting of surprise down errors is masked.
-
-
-#### - DataLinkProtocolError
-
-A single bit that indicates that the reporting of data link protocol errors is masked.
-
-
-#### - UnsupportedRequestError
-
-A single bit that indicates that the reporting of unsupported request errors is masked.
-
-
-#### - MalformedTLP
-
-A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
-
-
-#### - CompleterAbort
-
-A single bit that indicates that the reporting of completer aborts is masked.
-
-
-#### - FlowControlProtocolError
-
-A single bit that indicates that the reporting of flow control protocol errors is masked.
-
-
-#### - Undefined
-
-A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
-
-
-#### - CompletionTimeout
-
-A single bit that indicates that the reporting of completion timeouts is masked.
-
-
-#### - ECRCError
-
-A single bit that indicates that the reporting of end-to-end cyclic redundancy check (ECRC) errors is masked.
-
-
-#### - UnexpectedCompletion
-
-A single bit that indicates that the reporting of unexpected completions is masked.
-
-
-#### - PoisonedTLP
-
-A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
-
-
-#### - ReceiverOverflow
-
-A single bit that indicates that the reporting of receiver overflows is masked.
-
-
-#### - Reserved1
-
-Reserved.
-
-
-#### - Reserved3
-
-Reserved.
-
-
 ## -remarks
+
 
 
 The PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is available in Windows Server 2008 and later versions of Windows.
@@ -279,13 +205,20 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
 
  
 

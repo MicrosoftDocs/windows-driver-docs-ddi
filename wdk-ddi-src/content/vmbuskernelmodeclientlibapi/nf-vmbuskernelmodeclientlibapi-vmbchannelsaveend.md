@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	VmbusKernelModeClientLibApi.h
-apiname: 
+apiname:
 -	VmbChannelSaveEnd
 product: Windows
 targetos: Windows
@@ -79,6 +79,8 @@ A handle of the channel that was saved.
 ## -returns
 
 
+
 This function does not return a value.
+
 
 

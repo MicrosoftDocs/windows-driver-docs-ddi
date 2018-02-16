@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfrequest._WDF_REQUEST_COMPLETION_PARAMS
-title: _WDF_REQUEST_COMPLETION_PARAMS
+title: "_WDF_REQUEST_COMPLETION_PARAMS"
 author: windows-driver-content
 description: The WDF_REQUEST_COMPLETION_PARAMS structure contains parameters that are associated with the completion of an I/O request.
 old-location: wdf\wdf_request_completion_params.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3993202-c49d-4de9-8881-9e3786575e17
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: *PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS, wdf.wdf_request_completion_params, kmdf.wdf_request_completion_params, WDF_REQUEST_COMPLETION_PARAMS structure, PWDF_REQUEST_COMPLETION_PARAMS, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, WDF_REQUEST_COMPLETION_PARAMS, _WDF_REQUEST_COMPLETION_PARAMS, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS, PWDF_REQUEST_COMPLETION_PARAMS structure pointer
+ms.keywords: WDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, PWDF_REQUEST_COMPLETION_PARAMS, wdf.wdf_request_completion_params, PWDF_REQUEST_COMPLETION_PARAMS structure pointer, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, kmdf.wdf_request_completion_params, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS, _WDF_REQUEST_COMPLETION_PARAMS, *PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfrequest.h
-apiname: 
+apiname:
 -	WDF_REQUEST_COMPLETION_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS
+req.typenames: "*PWDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -117,13 +117,27 @@ typedef struct _WDF_REQUEST_COMPLETION_PARAMS {
 
 
 
+### -field Size
+
+The size, in bytes, of this structure.
+
+
+### -field Type
+
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a> value that identifies the request type.
+
+
+### -field IoStatus
+
+An <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the request.
+
+
 ### -field Parameters
 
 Request-specific values for the request.
 
 
 ### -field Parameters.Write
-
 
 
 ### -field Parameters.Write.Buffer
@@ -144,7 +158,6 @@ Beginning address within the buffer for the data transfer.
 ### -field Parameters.Read
 
 
-
 ### -field Parameters.Read.Buffer
 
 A handle to a framework memory object. This object identifies the buffer that the driver specified when it formatted the request and sent it to an I/O target.
@@ -163,9 +176,12 @@ Beginning address within the buffer for the data transfer.
 ### -field Parameters.Ioctl
 
 
+### -field Parameters.Ioctl.IoControlCode
+
+ 
+
 
 ### -field Parameters.Ioctl.Input
-
 
 
 ### -field Parameters.Ioctl.Input.Buffer
@@ -179,7 +195,6 @@ Beginning address within the buffer for the data transfer.
 
 
 ### -field Parameters.Ioctl.Output
-
 
 
 ### -field Parameters.Ioctl.Output.Buffer
@@ -197,13 +212,7 @@ Beginning address within the buffer for the data transfer.
 Length, in bytes, of the transfer.
 
 
-### -field Parameters.Ioctl.IoControlCode
-
- 
-
-
 ### -field Parameters.Others
-
 
 
 ### -field Parameters.Others.Argument1
@@ -278,22 +287,10 @@ For USB devices, this member contains a pointer to a <a href="..\wdfusb\ns-wdfus
  
 
 
-### -field Size
-
-The size, in bytes, of this structure.
-
-
-### -field Type
-
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a> value that identifies the request type.
-
-
-### -field IoStatus
-
-An <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the request.
 
 
 ## -remarks
+
 
 
 The <b>WDF_REQUEST_COMPLETION_PARAMS</b> structure is used as input to the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a> method and a driver's <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function.
@@ -306,17 +303,28 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 
 
-## -see-also
 
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+## -see-also
 
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
+
+
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+
+
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
 
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdf_request_completion_params_init.md">WDF_REQUEST_COMPLETION_PARAMS_INIT</a>
+
+
 
  
 

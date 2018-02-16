@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECTINFO2
-title: _D3DDDI_SYNCHRONIZATIONOBJECTINFO2
+title: "_D3DDDI_SYNCHRONIZATIONOBJECTINFO2"
 author: windows-driver-content
 description: The D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure contains information about a second-generation synchronization object.
 old-location: display\d3dddi_synchronizationobjectinfo2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: dc1c6a67-320c-41f8-91ad-cdbcde191a81
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure [Display Devices], D3D_other_Structs_0efa3a96-3e04-4232-bf7a-53c3f038d6ec.xml, _D3DDDI_SYNCHRONIZATIONOBJECTINFO2, display.d3dddi_synchronizationobjectinfo2, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2
+ms.keywords: "_D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure [Display Devices], display.d3dddi_synchronizationobjectinfo2, D3D_other_Structs_0efa3a96-3e04-4232-bf7a-53c3f038d6ec.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_SYNCHRONIZATIONOBJECTINFO2
 product: Windows
 targetos: Windows
@@ -104,6 +104,16 @@ typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO2 {
 ## -struct-fields
 
 
+
+
+### -field Type
+
+[in] A value of type <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a> that indicates the type of synchronization object.
+
+
+### -field Flags
+
+[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structure that specifies, in bit-field flags, attributes of the synchronization object. 
 
 
 ### -field SynchronizationMutex
@@ -193,6 +203,12 @@ A structure that contains information about a periodic monitored fence. If the <
 Supported starting with Windows 10.
 
 
+
+#### VidPnTargetID
+
+[out] The output ID that the compositor wishes to receive notifications for.
+
+
 ### -field PeriodicMonitoredFence.hAdapter
 
 [in] A handle to the adapter associated with VidPnSourceID
@@ -233,35 +249,28 @@ A structure that is reserved for future use. This structure contains the followi
 An array of 64-bit values that are reserved for future use.
 
 
-### -field Type
-
-[in] A value of type <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a> that indicates the type of synchronization object.
-
-
-### -field Flags
-
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structure that specifies, in bit-field flags, attributes of the synchronization object. 
-
-
 ### -field SharedHandle
 
 [out] A handle to the shared synchronization object if a shared handle currently exists. The shared handle is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a> function. 
 
 
-##### - PeriodicMonitoredFence.VidPnTargetID
-
-[out] The output ID that the compositor wishes to receive notifications for.
-
-
 ## -see-also
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
 
+
+
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
+
+
 
  
 

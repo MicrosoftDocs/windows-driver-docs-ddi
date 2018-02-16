@@ -1,14 +1,14 @@
 ---
 UID: NS:ntddk._IO_FOEXT_SILO_PARAMETERS
-title: _IO_FOEXT_SILO_PARAMETERS
+title: "_IO_FOEXT_SILO_PARAMETERS"
 author: windows-driver-content
 description: This structure describes the Container context that's identified by the IoGetSiloParameters routine.
 old-location: ifsk\io_foext_silo_parameters.htm
 old-project: ifsk
 ms.assetid: EC7C59D0-96AE-400D-9502-D6DBFD9918DC
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PIO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS structure pointer [Installable File System Drivers], ifsk.io_foext_silo_parameters, IO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS structure [Installable File System Drivers], *PIO_FOEXT_SILO_PARAMETERS, _IO_FOEXT_SILO_PARAMETERS, ntddk/IO_FOEXT_SILO_PARAMETERS, ntddk/PIO_FOEXT_SILO_PARAMETERS
+ms.date: 2/7/2018
+ms.keywords: "*PIO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS structure pointer [Installable File System Drivers], ntddk/PIO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS, ifsk.io_foext_silo_parameters, IO_FOEXT_SILO_PARAMETERS structure [Installable File System Drivers], IO_FOEXT_SILO_PARAMETERS, ntddk/IO_FOEXT_SILO_PARAMETERS, _IO_FOEXT_SILO_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddk.h
-apiname: 
+apiname:
 -	IO_FOEXT_SILO_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PIO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS
+req.typenames: IO_FOEXT_SILO_PARAMETERS, *PIO_FOEXT_SILO_PARAMETERS
 ---
 
 # _IO_FOEXT_SILO_PARAMETERS structure
@@ -68,6 +68,11 @@ typedef struct _IO_FOEXT_SILO_PARAMETERS {
 
 
 
+### -field Length
+
+The length of the structure. This also serves as the structure version.
+
+
 ### -field HasHardReference
 
  
@@ -81,11 +86,6 @@ typedef struct _IO_FOEXT_SILO_PARAMETERS {
 ### -field Flags
 
  
-
-
-### -field Length
-
-The length of the structure. This also serves as the structure version.
 
 
 ### -field SiloContext

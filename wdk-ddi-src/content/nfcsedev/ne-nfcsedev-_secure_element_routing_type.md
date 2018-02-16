@@ -1,6 +1,6 @@
 ---
 UID: NE:nfcsedev._SECURE_ELEMENT_ROUTING_TYPE
-title: _SECURE_ELEMENT_ROUTING_TYPE
+title: "_SECURE_ELEMENT_ROUTING_TYPE"
 author: windows-driver-content
 description: SECURE_ELEMENT_ROUTING_TYPE is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_routing_type.htm
@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1420D957-546E-4795-A545-B098C411CCA5
 ms.author: windowsdriverdev
 ms.date: 12/18/2017
-ms.keywords: SECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid, nfcsedev/RoutingTypeProtocol, _SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/RoutingTypeTech, *PSECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], nfpdrivers._secure_element_routing_type, nfcsedev/RoutingTypeAid, RoutingTypeProtocol, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, RoutingTypeTech
+ms.keywords: RoutingTypeTech, RoutingTypeProtocol, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], *PSECURE_ELEMENT_ROUTING_TYPE, SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfpdrivers._secure_element_routing_type, nfcsedev/RoutingTypeTech, RoutingTypeAid, nfcsedev/RoutingTypeProtocol, nfcsedev/RoutingTypeAid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	nfcsedev.h
-apiname: 
+apiname:
 -	SECURE_ELEMENT_ROUTING_TYPE
 product: Windows
 targetos: Windows

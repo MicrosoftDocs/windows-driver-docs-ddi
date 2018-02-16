@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2c7d31a3-081a-420a-ab61-33700155d858
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetdevicegetinterface, WdfUsbTargetDeviceGetInterface method, PFN_WDFUSBTARGETDEVICEGETINTERFACE, DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml, wdf.wdfusbtargetdevicegetinterface, wdfusb/WdfUsbTargetDeviceGetInterface, WdfUsbTargetDeviceGetInterface
+ms.keywords: DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml, WdfUsbTargetDeviceGetInterface, WdfUsbTargetDeviceGetInterface method, kmdf.wdfusbtargetdevicegetinterface, wdfusb/WdfUsbTargetDeviceGetInterface, wdf.wdfusbtargetdevicegetinterface, PFN_WDFUSBTARGETDEVICEGETINTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,22 +28,22 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfUsbTargetDeviceGetInterface
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -87,22 +87,53 @@ A zero-based index value that specifies a USB interface object in the current co
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceGetInterface</b> returns a handle to a USB interface object. If the <i>InterfaceIndex</i> value is invalid, this method returns <b>NULL</b>. 
 
 A bug check occurs if a driver-supplied object handle is invalid.
 
 
 
+
 ## -remarks
 
 
+
 For more information about the <b>WdfUsbTargetDeviceGetInterface</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
+
+
+#### Examples
+
+The following code example obtains a handle to the first USB interface object that the framework has created for a USB device. The example then obtains the number of endpoints that are associated with the interface object.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFUSBINTERFACE  UsbInterface;
+BYTE  numEndpoints;
+
+UsbInterface = WdfUsbTargetDeviceGetInterface(
+                                              deviceContext-&gt;UsbTargetDevice,
+                                              0
+                                              );
+numEndpoints = WdfUsbInterfaceGetNumEndpoints(
+                                              UsbInterface,
+                                              0
+                                              );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
 
  
 

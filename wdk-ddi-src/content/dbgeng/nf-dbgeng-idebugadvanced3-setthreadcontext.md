@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: eaaaa9d7-ba6d-4379-b721-74c92375ea05
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugAdvanced3::SetThreadContext, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], SetThreadContext method, dbgeng/IDebugAdvanced::SetThreadContext, debugger.setthreadcontext, SetThreadContext method [Windows Debugging], IDebugAdvanced interface, SetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2 interface [Windows Debugging], SetThreadContext method, SetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced::SetThreadContext, IDebugAdvanced interface [Windows Debugging], SetThreadContext method, SetThreadContext, SetThreadContext method [Windows Debugging], IDebugAdvanced3::SetThreadContext, dbgeng/IDebugAdvanced2::SetThreadContext, IDebugAdvanced2::SetThreadContext
+ms.keywords: IDebugAdvanced2 interface [Windows Debugging], SetThreadContext method, debugger.setthreadcontext, SetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced interface [Windows Debugging], SetThreadContext method, dbgeng/IDebugAdvanced2::SetThreadContext, IDebugAdvanced::SetThreadContext, SetThreadContext method [Windows Debugging], IDebugAdvanced interface, IDebugAdvanced3, SetThreadContext, SetThreadContext method [Windows Debugging], SetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced, IDebugAdvanced_08e9f1e1-7af3-4cdf-9550-7d22fa5a59da.xml, IDebugAdvanced2::SetThreadContext, IDebugAdvanced2, IDebugAdvanced3::SetThreadContext, IDebugAdvanced3 interface [Windows Debugging], SetThreadContext method, dbgeng/IDebugAdvanced::SetThreadContext, dbgeng/IDebugAdvanced3::SetThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,20 +29,20 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugAdvanced.SetThreadContext
 -	IDebugAdvanced2.SetThreadContext
 -	IDebugAdvanced3.SetThreadContext
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugAdvanced3::SetThreadContext method
@@ -83,7 +83,9 @@ Specifies the size of the buffer <i>Context</i>.
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -100,28 +102,44 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about the thread context, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554702">Scopes and Symbol Groups</a>.
-<div class="alert"><b>Note</b>    The CONTEXT structure varies with operating system and platform.  Care should be taken when using the CONTEXT structure.</div><div> </div>
+
+<div class="alert"><b>Note</b>    The CONTEXT structure varies with operating system and platform.  Care should be taken when using the CONTEXT structure.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
+
 
  
 

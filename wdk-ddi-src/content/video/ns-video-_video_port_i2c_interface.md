@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_I2C_INTERFACE
-title: _VIDEO_PORT_I2C_INTERFACE
+title: "_VIDEO_PORT_I2C_INTERFACE"
 author: windows-driver-content
 description: The VIDEO_PORT_I2C_INTERFACE structure describes the I2C service routines provided by the video port driver.
 old-location: display\video_port_i2c_interface.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fcc2679c-9a73-4bd0-ad2d-e7b48df9c7f7
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: VIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/VIDEO_PORT_I2C_INTERFACE, video/PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], VIDEO_PORT_I2C_INTERFACE structure [Display Devices], Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, _VIDEO_PORT_I2C_INTERFACE
+ms.keywords: video/VIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE, _VIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE structure [Display Devices], PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE, Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	video.h
-apiname: 
+apiname:
 -	VIDEO_PORT_I2C_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_I2C_INTERFACE, *PVIDEO_PORT_I2C_INTERFACE
+req.typenames: "*PVIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE"
 req.product: Windows 10 or later.
 ---
 
@@ -124,15 +124,21 @@ Pointer to the video port driver's <a href="..\video\nc-video-pi2c_read.md">I2CR
 ## -remarks
 
 
+
 PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+
 
 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
 <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
 
  
 

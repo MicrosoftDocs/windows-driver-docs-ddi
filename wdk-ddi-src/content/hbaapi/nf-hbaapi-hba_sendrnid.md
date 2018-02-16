@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c15d74c8-bc04-4d82-a729-6b13f778b8c7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: fibreHBA_rtns_fd816d59-9c64-499e-a3bb-2a2d2427fbf9.xml, HBA_SendRNID, storage.hba_sendrnid, hbaapi/HBA_SendRNID, HBA_SendRNID routine [Storage Devices]
+ms.keywords: storage.hba_sendrnid, HBA_SendRNID, HBA_SendRNID routine [Storage Devices], hbaapi/HBA_SendRNID, fibreHBA_rtns_fd816d59-9c64-499e-a3bb-2a2d2427fbf9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Hbaapi.lib
 req.dll: Hbaapi.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hbaapi.dll
-apiname: 
+apiname:
 -	HBA_SendRNID
 product: Windows
 targetos: Windows
@@ -109,11 +109,14 @@ Contains an enumerator value of type <a href="..\hbaapi\ne-hbaapi-hba_wwntype.md
 ## -returns
 
 
+
 The <b>HBA_SendRNID</b> routine returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the status of the HBA.
 
 
 
+
 ## -remarks
+
 
 
 The node identification data request is a common transport (CT) command that queries a fabric configuration server for node identification data. For a complete description of this command, see the sections dealing with node identification requests in the <i>Fibre Channel Generic Services - 4 (FC-GS-4)</i> specification published by the ANSI committee.
@@ -122,11 +125,16 @@ The <b>HBA_SendRNID</b> library routine serves a purpose very similar to the <a 
 
 
 
+
 ## -see-also
+
+<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
 
-<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
+
 
  
 

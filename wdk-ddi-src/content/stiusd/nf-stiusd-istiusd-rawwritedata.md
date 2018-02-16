@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 82700669-b98f-486c-a7a6-cd7138300f11
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawWriteData method [Imaging Devices], IStiUSD interface, IStiUSD::RawWriteData, image.istiusd_rawwritedata, RawWriteData, stiusd/IStiUSD::RawWriteData, RawWriteData method [Imaging Devices], stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, IStiUSD, IStiUSD interface [Imaging Devices], RawWriteData method
+ms.keywords: stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, IStiUSD::RawWriteData, RawWriteData method [Imaging Devices], IStiUSD interface, RawWriteData method [Imaging Devices], image.istiusd_rawwritedata, RawWriteData, IStiUSD, stiusd/IStiUSD::RawWriteData, IStiUSD interface [Imaging Devices], RawWriteData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.RawWriteData
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -93,20 +93,26 @@ Caller-supplied number of bytes to be written. This is the number of bytes in th
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 A still image minidriver typically implements this method by calling <b>WriteFile</b> (described in the Windows SDK documentation).
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543764">IStiDevice::RawWriteData</a>
+
+
 
  
 

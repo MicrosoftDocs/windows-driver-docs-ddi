@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 4E533E77-9288-45DF-8C93-2A6EACADF9FF
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], PKSATTRIBUTE_LIST, ks/KSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], stream.ksattribute_list, KSATTRIBUTE_LIST, ks/PKSATTRIBUTE_LIST
+ms.keywords: KSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST, ks/KSATTRIBUTE_LIST, PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], ks/PKSATTRIBUTE_LIST, PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], stream.ksattribute_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSATTRIBUTE_LIST
 product: Windows
 targetos: Windows

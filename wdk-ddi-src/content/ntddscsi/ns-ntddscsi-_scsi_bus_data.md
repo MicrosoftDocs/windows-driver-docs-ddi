@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_BUS_DATA
-title: _SCSI_BUS_DATA
+title: "_SCSI_BUS_DATA"
 author: windows-driver-content
 description: The SCSI_BUS_DATA structure is used in conjunction with the IOCTL_SCSI_GET_INQUIRY_DATA request and the SCSI_ADAPTER_BUS_INFO structure to retrieve the SCSI inquiry data for all devices on a given SCSI bus.
 old-location: storage\scsi_bus_data.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d7baddb5-ad12-4aea-9515-97511dc05fe7
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PSCSI_BUS_DATA structure pointer [Storage Devices], PSCSI_BUS_DATA, _SCSI_BUS_DATA, structs-scsibus_8a0f86c6-4011-4c11-90e8-bf3c28a147dc.xml, ntddscsi/SCSI_BUS_DATA, ntddscsi/PSCSI_BUS_DATA, *PSCSI_BUS_DATA, SCSI_BUS_DATA, SCSI_BUS_DATA structure [Storage Devices], storage.scsi_bus_data
+ms.keywords: ntddscsi/PSCSI_BUS_DATA, _SCSI_BUS_DATA, PSCSI_BUS_DATA, *PSCSI_BUS_DATA, PSCSI_BUS_DATA structure pointer [Storage Devices], storage.scsi_bus_data, ntddscsi/SCSI_BUS_DATA, structs-scsibus_8a0f86c6-4011-4c11-90e8-bf3c28a147dc.xml, SCSI_BUS_DATA structure [Storage Devices], SCSI_BUS_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddscsi.h
-apiname: 
+apiname:
 -	SCSI_BUS_DATA
 product: Windows
 targetos: Windows
-req.typenames: SCSI_BUS_DATA, *PSCSI_BUS_DATA
+req.typenames: "*PSCSI_BUS_DATA, SCSI_BUS_DATA"
 ---
 
 # _SCSI_BUS_DATA structure
@@ -86,9 +86,13 @@ Contains an offset from the beginning of the SCSI_ADAPTER_BUS_INFO structure to 
 
 ## -see-also
 
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+
+
+
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_adapter_bus_info.md">SCSI_ADAPTER_BUS_INFO</a>
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+
 
  
 

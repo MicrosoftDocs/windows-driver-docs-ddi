@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	NdisWdiAllocateWiFiFrameMetaData
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback
@@ -80,7 +80,9 @@ The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wd
 ## -returns
 
 
+
 The allocated frame metadata buffer.
+
 
 
 
@@ -88,7 +90,11 @@ The allocated frame metadata buffer.
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
 
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_wdi_frame_metadata.md">WDI_FRAME_METADATA</a>
+
+
 
  
 

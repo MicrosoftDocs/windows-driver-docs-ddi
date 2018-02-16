@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	GetCaptureAllocationHandle
 product: Windows
 targetos: Windows
@@ -83,6 +83,8 @@ __checkReturn HRESULT APIENTRY GetCaptureAllocationHandle(
 
 
 
+
+
 #### - pData [in, out]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaptureallocationhandle.md">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a> structure that describes parameters for retrieving an allocation handle from a capture resource handle.
@@ -91,7 +93,9 @@ __checkReturn HRESULT APIENTRY GetCaptureAllocationHandle(
 ## -returns
 
 
+
 <i>GetCaptureAllocationHandle</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -119,7 +123,9 @@ The given resource is in GPU-accessible memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
@@ -127,7 +133,11 @@ The given resource is in GPU-accessible memory.
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaptureallocationhandle.md">D3DDDIARG_GETCAPTUREALLOCATIONHANDLE</a>
 
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
 
  
 

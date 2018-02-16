@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 18ce5fc5-927c-4261-8966-bb12849b95c9
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], *PKSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, KSP_TIMEFORMAT, stream.ksp_timeformat, ks/KSP_TIMEFORMAT, KSP_TIMEFORMAT structure [Streaming Media Devices], ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, PKSP_TIMEFORMAT
+ms.keywords: KSP_TIMEFORMAT structure [Streaming Media Devices], PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, PKSP_TIMEFORMAT, *PKSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, KSP_TIMEFORMAT, stream.ksp_timeformat, ks/KSP_TIMEFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KSP_TIMEFORMAT
 product: Windows
 targetos: Windows
-req.typenames: *PKSP_TIMEFORMAT, KSP_TIMEFORMAT
+req.typenames: KSP_TIMEFORMAT, *PKSP_TIMEFORMAT
 ---
 
 # KSP_TIMEFORMAT structure
@@ -93,13 +93,17 @@ Specifies the time value to convert.
 ## -remarks
 
 
+
 The fields of the structure correspond one to one with DirectShow's IMediaSeeking::ConvertTimeFormat.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565181">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>
+
+
 
  
 

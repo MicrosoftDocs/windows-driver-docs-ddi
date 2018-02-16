@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	BluetoothPortIndicationCallbackEnhanced
 product: Windows
 targetos: Windows
@@ -98,11 +98,14 @@ An
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 A profile driver registers its L2CAP or eL2CAP callback function by specifying the callback function in the 
@@ -122,5 +125,6 @@ The
     driver stack passes to the profile driver's enhanced L2CAP callback function through the 
     <i>Indication</i> parameter. For most notifications, there is an INDICATION_PARAMETERS_ENHANCED union member that
     corresponds to the event and contains event-specific parameters.
+
 
 

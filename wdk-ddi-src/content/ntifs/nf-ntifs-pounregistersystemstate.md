@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5d82342e-c800-44ac-8618-468355d14dd0
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.pounregistersystemstate, PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], PoUnregisterSystemState, wdm/PoUnregisterSystemState, portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml
+ms.keywords: PoUnregisterSystemState, PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], wdm/PoUnregisterSystemState, portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, kernel.pounregistersystemstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PoUnregisterSystemState
 product: Windows
 targetos: Windows
@@ -75,20 +75,26 @@ A pointer to a handle previously returned by <b>PoRegisterSystemState</b>.
 ## -returns
 
 
+
 None
+
 
 
 
 ## -remarks
 
 
+
 This routine cancels a system busy state registration established by <b>PoRegisterSystemState</b> and frees the associated <i>StateHandle</i>.
+
 
 
 
 ## -see-also
 
 <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
+
+
 
  
 

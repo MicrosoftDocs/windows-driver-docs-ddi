@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 90BD61C8-322B-48D5-83E0-7204E3DC4423
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.storportfreeworker, storport/StorPortFreeWorker, StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices]
+ms.keywords: storport/StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices], storage.storportfreeworker, StorPortFreeWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.exe
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	storport.h
-apiname: 
+apiname:
 -	StorPortFreeWorker
 product: Windows
 targetos: Windows
@@ -80,6 +80,7 @@ TBD
 
 
 
+
 #### - WorkItem [in]
 
 A pointer to an opaque buffer for the work item context returned by <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>.
@@ -88,7 +89,9 @@ A pointer to an opaque buffer for the work item context returned by <a href="..\
 ## -returns
 
 
+
 The <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a> routine returns one of these status codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -149,22 +152,30 @@ The work item is already free.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longer needed or when the miniport receives a PnP SRB notification  that the adapter is removed.
+
 
 
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
+
+
 <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
 
  
 

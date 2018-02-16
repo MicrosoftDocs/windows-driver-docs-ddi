@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._SCO_LINK_TYPE
-title: _SCO_LINK_TYPE
+title: "_SCO_LINK_TYPE"
 author: windows-driver-content
 description: The SCO_LINK_TYPE enumeration type describes the type of link used by the SCO connection when a ScoIndicationRemoteConnect indication event is processed.
 old-location: bltooth\sco_link_type.htm
@@ -8,14 +8,14 @@ old-project: bltooth
 ms.assetid: 6867a88d-6bce-46eb-894a-cc034a1c3ece
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: ScoLinkType, bthddi/PSCO_LINK_TYPE, bthddi/ScoLinkType, SCO_LINK_TYPE, _SCO_LINK_TYPE, eScoLinkType, bthddi/SCO_LINK_TYPE, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], *PSCO_LINK_TYPE, bltooth.sco_link_type, SCO_LINK_TYPE enumeration [Bluetooth Devices], bthddi/eScoLinkType, PSCO_LINK_TYPE
+ms.keywords: bthddi/ScoLinkType, PSCO_LINK_TYPE, _SCO_LINK_TYPE, bthddi/eScoLinkType, bthddi/PSCO_LINK_TYPE, ScoLinkType, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, bthddi/SCO_LINK_TYPE, eScoLinkType, SCO_LINK_TYPE, bltooth.sco_link_type, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], SCO_LINK_TYPE enumeration [Bluetooth Devices], *PSCO_LINK_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Versions: Supported in Windows Vista, and later.
+req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bthddi.h
-apiname: 
+apiname:
 -	SCO_LINK_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PSCO_LINK_TYPE, SCO_LINK_TYPE
+req.typenames: "*PSCO_LINK_TYPE, SCO_LINK_TYPE"
 ---
 
 # _SCO_LINK_TYPE enumeration
@@ -82,15 +82,19 @@ This value indicates that the link used by the connection is an eSCO link.
 ## -remarks
 
 
+
 The 
     <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a> structure
     uses this enumeration.
 
 
 
+
 ## -see-also
 
 <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
+
+
 
  
 

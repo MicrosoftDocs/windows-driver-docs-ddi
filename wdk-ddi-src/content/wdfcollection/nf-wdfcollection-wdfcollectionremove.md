@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a708949-3d4e-49b2-bef2-7151aec2b84b
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.wdfcollectionremove, PFN_WDFCOLLECTIONREMOVE, wdfcollection/WdfCollectionRemove, WdfCollectionRemove, kmdf.wdfcollectionremove, WdfCollectionRemove method, DFCollectionObjectRef_ec848e8e-f64b-4f17-997a-0d9b6c509eb0.xml
+ms.keywords: WdfCollectionRemove, PFN_WDFCOLLECTIONREMOVE, DFCollectionObjectRef_ec848e8e-f64b-4f17-997a-0d9b6c509eb0.xml, kmdf.wdfcollectionremove, wdfcollection/WdfCollectionRemove, wdf.wdfcollectionremove, WdfCollectionRemove method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,18 +28,18 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
 -	WUDFx02000.dll
 -	WUDFx02000.dll.dll
-apiname: 
+apiname:
 -	WdfCollectionRemove
 product: Windows
 targetos: Windows
@@ -87,13 +87,16 @@ A handle to the framework object that will be removed from the collection.
 ## -returns
 
 
+
 None.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 When <b>WdfCollectionRemove</b> removes an object from a collection, it decrements the object's reference count. 
@@ -101,10 +104,31 @@ When <b>WdfCollectionRemove</b> removes an object from a collection, it decremen
 For more information about object collections, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
 
 
+#### Examples
+
+The following code example removes a specified object from a specified object collection.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WdfCollectionRemove(
+                    hCollection,
+                    hObject
+                    );</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremoveitem.md">WdfCollectionRemoveItem</a>
+
+
 
  
 

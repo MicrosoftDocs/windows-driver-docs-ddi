@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 5DD3EC13-5DDD-4640-A841-00576F74429A
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ~CWiaLogProc, wiamdef/CWiaLogProc::~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], CWiaLogProc interface, CWiaLogProc::~CWiaLogProc, CWiaLogProc, ~CWiaLogProc method [Imaging Devices], image.cwialogproc__cwialogproc, CWiaLogProc interface [Imaging Devices], ~CWiaLogProc method
+ms.keywords: image.cwialogproc__cwialogproc, ~CWiaLogProc, wiamdef/CWiaLogProc::~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], CWiaLogProc interface, CWiaLogProc::~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], CWiaLogProc, CWiaLogProc interface [Imaging Devices], ~CWiaLogProc method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamdef.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Wiamdef.h
-apiname: 
+apiname:
 -	CWiaLogProc.~CWiaLogProc
 product: Windows
 targetos: Windows
@@ -75,13 +75,17 @@ void ~CWiaLogProc(
 ## -returns
 
 
+
 This method does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844724">CWiaLogProc</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: audio\iportclsversion_getversion.htm
 old-project: audio
 ms.assetid: ce1394e5-1d45-4b59-8738-fcb2cbe7cf51
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GetVersion method [Audio Devices], IPortClsVersion interface, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, IPortClsVersion, GetVersion method [Audio Devices], IPortClsVersion interface [Audio Devices], GetVersion method, portcls/IPortClsVersion::GetVersion, audio.iportclsversion_getversion, GetVersion, IPortClsVersion::GetVersion
+ms.date: 2/8/2018
+ms.keywords: portcls/IPortClsVersion::GetVersion, IPortClsVersion interface [Audio Devices], GetVersion method, audio.iportclsversion_getversion, GetVersion method [Audio Devices], GetVersion, IPortClsVersion::GetVersion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, GetVersion method [Audio Devices], IPortClsVersion interface, IPortClsVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: portcls.h
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	portcls.h
-apiname: 
+apiname:
 -	IPortClsVersion.GetVersion
 product: Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ---
 
 # IPortClsVersion::GetVersion method
@@ -68,23 +68,27 @@ DWORD GetVersion(
 
 
 
+
 #### - None
 
 
-
 ## -returns
+
 
 
 The <code>GetVersion</code> method returns a DWORD value that specifies the Windows version number. For more information, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The <code>GetVersion</code> method returns version information that specifies the Windows release.
 
 The possible Windows version numbers that <code>GetVersion</code> can return are shown in the following table.
+
 <table>
 <tr>
 <th rowspan="2">Version Number</th>
@@ -300,7 +304,8 @@ YES
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The version numbers in the preceding table are defined in header file portcls.h. Note that portcls.h defines version numbers both for Windows versions that do and do not support the <b>IPortClsVersion</b> interface. Both types of version number can be useful. A miniport driver typically contains a proprietary routine that determines the Windows version and can return any of the version numbers in the preceding table. When executed on a platform that does not support <b>IPortClsVersion</b>, this routine needs to use other software tests to determine the Windows version. These tests typically rely on the <a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a> function. For a code example of such a routine, see the sb16 sample audio driver in the Windows Driver Kit (WDK).
 
@@ -308,15 +313,20 @@ The version numbers in the preceding table are listed in roughly chronological o
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-ioiswdmversionavailable.md">IoIsWdmVersionAvailable</a>
 
+
+
 <a href="..\portcls\nn-portcls-iportclsversion.md">IPortClsVersion</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsVersion::GetVersion method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsVersion::GetVersion method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

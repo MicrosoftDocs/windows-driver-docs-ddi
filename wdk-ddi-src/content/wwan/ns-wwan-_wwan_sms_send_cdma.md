@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_SEND_CDMA
-title: _WWAN_SMS_SEND_CDMA
+title: "_WWAN_SMS_SEND_CDMA"
 author: windows-driver-content
 description: The WWAN_SMS_SEND_CDMA structure represents a CDMA-based SMS text message to send.
 old-location: netvista\wwan_sms_send_cdma.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e05b7391-7852-45c7-aed0-36c95b4e475b
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/WWAN_SMS_SEND_CDMA, PWWAN_SMS_SEND_CDMA structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SMS_SEND_CDMA, netvista.wwan_sms_send_cdma, PWWAN_SMS_SEND_CDMA, WWAN_SMS_SEND_CDMA, wwan/PWWAN_SMS_SEND_CDMA, _WWAN_SMS_SEND_CDMA, WWAN_SMS_SEND_CDMA structure [Network Drivers Starting with Windows Vista], WwanRef_0b4ec978-8685-46a6-b1dd-556606660614.xml
+ms.keywords: WWAN_SMS_SEND_CDMA, PWWAN_SMS_SEND_CDMA, wwan/PWWAN_SMS_SEND_CDMA, wwan/WWAN_SMS_SEND_CDMA, netvista.wwan_sms_send_cdma, WWAN_SMS_SEND_CDMA structure [Network Drivers Starting with Windows Vista], PWWAN_SMS_SEND_CDMA structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SMS_SEND_CDMA, WwanRef_0b4ec978-8685-46a6-b1dd-556606660614.xml, _WWAN_SMS_SEND_CDMA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_SMS_SEND_CDMA
 product: Windows
 targetos: Windows
-req.typenames: WWAN_SMS_SEND_CDMA, *PWWAN_SMS_SEND_CDMA
+req.typenames: "*PWWAN_SMS_SEND_CDMA, WWAN_SMS_SEND_CDMA"
 req.product: Windows 10 or later.
 ---
 
@@ -91,6 +91,7 @@ The language used in CDMA message. This is an indicator of the language used in 
 A NULL-terminated string with a maximum length of 15 digits that represents a mobile number. The
      number can be in any of the following formats:
      
+
 <ul>
 <li>
 "+ &lt;International Country Code&gt; &lt;Mobile Number&gt;\0"
@@ -100,7 +101,8 @@ A NULL-terminated string with a maximum length of 15 digits that represents a mo
 "&lt;Mobile Number&gt;\0"
 
 </li>
-</ul>If 
+</ul>
+If 
      <b>MsgStatus</b> is 
      <i>WwanMsgStatusDraft</i> or 
      <i>WwanMsgStatusSent</i>, miniport drivers should specify the receiver's mobile number in the previous
@@ -134,11 +136,17 @@ The encoded content that represents the CDMA-based SMS text message.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_sms_cdma_lang.md">WWAN_SMS_CDMA_LANG</a>
+<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_sms_send.md">WWAN_SMS_SEND</a>
 
-<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
+
+
+<a href="..\wwan\ne-wwan-_wwan_sms_cdma_lang.md">WWAN_SMS_CDMA_LANG</a>
+
+
 
  
 

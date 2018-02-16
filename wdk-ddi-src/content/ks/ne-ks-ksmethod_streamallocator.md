@@ -2,13 +2,13 @@
 UID: NE:ks.KSMETHOD_STREAMALLOCATOR
 title: KSMETHOD_STREAMALLOCATOR
 author: windows-driver-content
-description: .
+description: "."
 old-location: stream\ksmethod_streamallocator.htm
 old-project: stream
 ms.assetid: 2CADC0BF-D8C0-48EC-8206-E1BD61DF4AD7
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksmethod_streamallocator, KSMETHOD_STREAMALLOCATOR enumeration [Streaming Media Devices], KSMETHOD_STREAMALLOCATOR_ALLOC, ks/KSMETHOD_STREAMALLOCATOR_FREE, KSMETHOD_STREAMALLOCATOR_FREE, ks/KSMETHOD_STREAMALLOCATOR, ks/KSMETHOD_STREAMALLOCATOR_ALLOC, KSMETHOD_STREAMALLOCATOR
+ms.keywords: ks/KSMETHOD_STREAMALLOCATOR_ALLOC, KSMETHOD_STREAMALLOCATOR, ks/KSMETHOD_STREAMALLOCATOR_FREE, stream.ksmethod_streamallocator, KSMETHOD_STREAMALLOCATOR_FREE, ks/KSMETHOD_STREAMALLOCATOR, KSMETHOD_STREAMALLOCATOR_ALLOC, KSMETHOD_STREAMALLOCATOR enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ks.h
-apiname: 
+apiname:
 -	KSMETHOD_STREAMALLOCATOR
 product: Windows
 targetos: Windows
@@ -71,7 +71,5 @@ typedef enum  {
 ### -field KSMETHOD_STREAMALLOCATOR_ALLOC
 
 
-
 ### -field KSMETHOD_STREAMALLOCATOR_FREE
-
 

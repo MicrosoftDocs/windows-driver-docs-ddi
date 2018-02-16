@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 688f033b-1f0e-4f0a-9ccd-457ba726d728
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k109_7bbe9676-db08-4bf2-b2d5-37b257621336.xml, kernel.rtlappendunicodetostring, wdm/RtlAppendUnicodeToString, RtlAppendUnicodeToString, RtlAppendUnicodeToString routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlAppendUnicodeToString, RtlAppendUnicodeToString routine [Kernel-Mode Driver Architecture], k109_7bbe9676-db08-4bf2-b2d5-37b257621336.xml, kernel.rtlappendunicodetostring, wdm/RtlAppendUnicodeToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: See Remarks section.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlAppendUnicodeToString
 product: Windows
 targetos: Windows
@@ -83,7 +83,9 @@ A pointer to the null-terminated string to append to the <i>Destination</i> stri
 ## -returns
 
 
+
 <b>RtlAppendUnicodeToString</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,11 +113,14 @@ The destination string buffer is too small to allow the source string to be appe
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 <b>RtlAppendUnicodeToString</b> appends the source string to the end of the destination string.
@@ -126,9 +131,12 @@ The <i>Destination</i> buffer must be resident if the caller is running at IRQL 
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nf-wdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
+
+
 
  
 

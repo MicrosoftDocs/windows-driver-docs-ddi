@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bfff10ab-7e15-4db3-b808-947d61844bc0
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: AtaPortGetBusData routine [Storage Devices], storage.ataportgetbusdata, irb/AtaPortGetBusData, atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, AtaPortGetBusData
+ms.keywords: atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, storage.ataportgetbusdata, AtaPortGetBusData, irb/AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Pciidex.lib
 -	Pciidex.dll
-apiname: 
+apiname:
 -	AtaPortGetBusData
 product: Windows
 targetos: Windows
@@ -94,20 +94,26 @@ Specifies the length, in bytes, of the buffer.
 ## -returns
 
 
+
 <b>AtaPortGetBusData</b> returns the amount of the retrieved data in bytes.
+
 
 
 
 ## -remarks
 
 
+
 <b>AtaPortGetBusData</b> retrieves data from the specified offset in the device's PCI bus configuration space and returns it in the buffer that is provided.
+
 
 
 
 ## -see-also
 
 <a href="..\irb\nf-irb-ataportsetbusdata.md">AtaPortSetBusData</a>
+
+
 
  
 

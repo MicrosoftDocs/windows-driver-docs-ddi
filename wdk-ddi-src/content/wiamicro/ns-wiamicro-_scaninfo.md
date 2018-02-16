@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamicro._SCANINFO
-title: _SCANINFO
+title: "_SCANINFO"
 author: windows-driver-content
 description: The SCANINFO structure is used to store and communicate information about a scan acquisition.
 old-location: image\scaninfo.htm
@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.scaninfo, *PSCANINFO, SCANINFO structure [Imaging Devices], MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO structure pointer [Imaging Devices], PSCANINFO, _SCANINFO, wiamicro/PSCANINFO, SCANINFO, wiamicro/SCANINFO
+ms.keywords: "_SCANINFO, PSCANINFO structure pointer [Imaging Devices], *PSCANINFO, wiamicro/SCANINFO, PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, SCANINFO structure [Imaging Devices], wiamicro/PSCANINFO, image.scaninfo, SCANINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wiamicro.h
-apiname: 
+apiname:
 -	SCANINFO
 product: Windows
 targetos: Windows
@@ -106,6 +106,7 @@ typedef struct _SCANINFO {
 ### -field ADF
 
 Indicates whether the scanner supports an automatic document feeder (ADF). This member can be one of the following values:
+
 <table>
 <tr>
 <th>Value</th>
@@ -141,7 +142,8 @@ The scanner supports an ADF with duplex capability.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TPA
@@ -200,6 +202,7 @@ Specifies a mask value of supported compression types. A value of zero indicates
 ### -field SupportedDataTypes
 
 Specifies a mask value of supported data types. A value of zero indicates that no data types are supported. This member can be the bitwise OR of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -235,7 +238,8 @@ The image is 8 bits-per-pixel grayscale.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field WidthPixels
@@ -256,6 +260,7 @@ Specifies the height of the current image in pixels.
 ### -field DataType
 
 Specifies the current data type set of the current image. This member can be set to one of the following.
+
 <table>
 <tr>
 <th>Value</th>
@@ -321,7 +326,8 @@ The driver supports 1 bit-per-pixel black and white.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field PixelBits
@@ -460,7 +466,9 @@ Points to the microdriver's context. <i>This member is defined only for Microsof
 ## -remarks
 
 
+
 This structure is used as a parameter in the microdriver's <a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>, and <a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a> functions.
+
 
 
 
@@ -468,7 +476,11 @@ This structure is used as a parameter in the microdriver's <a href="..\wiamicro\
 
 <a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>
 
+
+
 <a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a>
+
+
 
  
 

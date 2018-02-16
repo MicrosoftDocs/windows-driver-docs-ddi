@@ -7,8 +7,8 @@ old-location: print\openprintprocessor.htm
 old-project: print
 ms.assetid: bab79fb6-1bb0-48ec-9d60-fcb6e679b758
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.openprintprocessor, winsplp/OpenPrintProcessor, OpenPrintProcessor, OpenPrintProcessor function [Print Devices], spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml
+ms.date: 2/2/2018
+ms.keywords: OpenPrintProcessor, print.openprintprocessor, winsplp/OpenPrintProcessor, spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, OpenPrintProcessor function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Nwprint.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Nwprint.lib
 -	Nwprint.dll
-apiname: 
+apiname:
 -	OpenPrintProcessor
 product: Windows
 targetos: Windows
@@ -83,11 +83,14 @@ Caller-supplied pointer to a <a href="..\winsplp\ns-winsplp-_printprocessoropend
 ## -returns
 
 
+
 If the operation succeeds, the function should return a handle that can be used as an input argument for subsequent calls to <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>, <a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>, and <a href="..\winsplp\nf-winsplp-closeprintprocessor.md">ClosePrintProcessor</a>. If the operation fails, the function should call <b>SetLastError</b> to set an error code, and then return <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 Print processors are required to export an <code>OpenPrintProcessor</code> function. The spooler calls the function when a print job is available. The function should perform initialization operations that are required before a job can be processed, based on the job's data type.
@@ -96,19 +99,28 @@ The function must return a handle. Typically, the handle is a pointer to an inte
 
 
 
+
 ## -see-also
-
-<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
-
-<a href="..\winsplp\nf-winsplp-closeprintprocessor.md">ClosePrintProcessor</a>
-
-<a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
 
 <a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>
 
- 
+
+
+<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-closeprintprocessor.md">ClosePrintProcessor</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-_printprocessoropendata.md">PRINTPROCESSOROPENDATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20OpenPrintProcessor function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20OpenPrintProcessor function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_KEY_HANDLE_CLOSE_INFORMATION
-title: _REG_KEY_HANDLE_CLOSE_INFORMATION
+title: "_REG_KEY_HANDLE_CLOSE_INFORMATION"
 author: windows-driver-content
 description: The REG_KEY_HANDLE_CLOSE_INFORMATION structure contains information about a registry key whose handle is about to be closed.
 old-location: kernel\reg_key_handle_close_information.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 023ca2d0-45a2-423e-bd88-e40792ef0e49
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: wdm/PREG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_KEY_HANDLE_CLOSE_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_26822436-a385-4b98-8179-18c661ebdb1f.xml, *PREG_KEY_HANDLE_CLOSE_INFORMATION, wdm/REG_KEY_HANDLE_CLOSE_INFORMATION, _REG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION, kernel.reg_key_handle_close_information, REG_KEY_HANDLE_CLOSE_INFORMATION
+ms.keywords: PREG_KEY_HANDLE_CLOSE_INFORMATION, REG_KEY_HANDLE_CLOSE_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_KEY_HANDLE_CLOSE_INFORMATION, wdm/PREG_KEY_HANDLE_CLOSE_INFORMATION, wdm/REG_KEY_HANDLE_CLOSE_INFORMATION, kstruct_d_26822436-a385-4b98-8179-18c661ebdb1f.xml, _REG_KEY_HANDLE_CLOSE_INFORMATION, kernel.reg_key_handle_close_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	REG_KEY_HANDLE_CLOSE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: *PREG_KEY_HANDLE_CLOSE_INFORMATION, REG_KEY_HANDLE_CLOSE_INFORMATION
+req.typenames: "*PREG_KEY_HANDLE_CLOSE_INFORMATION, REG_KEY_HANDLE_CLOSE_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -94,17 +94,25 @@ This member is reserved for future use. This member is defined for Windows Vista
 ## -remarks
 
 
+
 For more information about registry filtering operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
 
 <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 11e8338d-4ca3-49a4-8cfe-ac9f15434b4f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.fwpsdiscardclonedstreamdata0, FwpsDiscardClonedStreamData0, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml, fwpsk/FwpsDiscardClonedStreamData0
+ms.keywords: fwpsk/FwpsDiscardClonedStreamData0, wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], FwpsDiscardClonedStreamData0, netvista.fwpsdiscardclonedstreamdata0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,16 +28,16 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	fwpkclnt.lib
 -	fwpkclnt.dll
-apiname: 
+apiname:
 -	FwpsDiscardClonedStreamData0
 product: Windows
 targetos: Windows
@@ -102,11 +102,14 @@ There are currently no flags defined for this function. Callout drivers should s
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 This function can be called when a cloned 
@@ -115,11 +118,16 @@ This function can be called when a cloned
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
 
 <a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
 
  
 

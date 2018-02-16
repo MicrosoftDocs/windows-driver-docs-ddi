@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 886120f0-da2a-4a00-b440-ce1274c516d4
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: DFUsbRef_c7b76463-570c-4f0d-b4d5-37ef192ba30f.xml, wdfusb/WdfUsbTargetDeviceFormatRequestForUrb, wdf.wdfusbtargetdeviceformatrequestforurb, WdfUsbTargetDeviceFormatRequestForUrb method, WdfUsbTargetDeviceFormatRequestForUrb, kmdf.wdfusbtargetdeviceformatrequestforurb, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORURB
+ms.keywords: WdfUsbTargetDeviceFormatRequestForUrb, WdfUsbTargetDeviceFormatRequestForUrb method, DFUsbRef_c7b76463-570c-4f0d-b4d5-37ef192ba30f.xml, kmdf.wdfusbtargetdeviceformatrequestforurb, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORURB, wdfusb/WdfUsbTargetDeviceFormatRequestForUrb, wdf.wdfusbtargetdeviceformatrequestforurb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
-topictype: 
+req.irql: "<=DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Wdf01000.sys
 -	Wdf01000.sys.dll
-apiname: 
+apiname:
 -	WdfUsbTargetDeviceFormatRequestForUrb
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,9 @@ A pointer to a caller-allocated <a href="..\wudfddi_types\ns-wudfddi_types-_wdfm
 ## -returns
 
 
+
 <b>WdfUsbTargetDeviceFormatRequestForUrb</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -138,7 +140,8 @@ The offset that the <i>UsbMemoryOffset</i> parameter specified was invalid.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -148,7 +151,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
+
 ## -remarks
+
 
 
 Use <b>WdfUsbTargetDeviceFormatRequestForUrb</b>, followed by <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>, to send a USB control transfer request either synchronously or asynchronously. Alternatively, use the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendurbsynchronously.md">WdfUsbTargetDeviceSendUrbSynchronously</a> method to send a request synchronously. 
@@ -168,20 +173,91 @@ For information about obtaining status information after an I/O request complete
 For more information about the <b>WdfUsbTargetDeviceFormatRequestForUrb</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
 
+#### Examples
+
+The following code example creates a memory object to hold a URB structure, initializes the URB structure, and calls <b>WdfUsbTargetDeviceFormatRequestForUrb</b> to format a request that uses the URB structure's contents. Then, the example registers a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function and sends the request to an I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDFMEMORY urbMemory;
+URB *urbBuffer;
+
+status = WdfMemoryCreate(
+                         WDF_NO_OBJECT_ATTRIBUTES,
+                         NonPagedPool,
+                         0,
+                         sizeof(struct _URB_CONTROL_GET_CONFIGURATION_REQUEST),
+                         &amp;urbMemory,
+                         NULL
+                         );
+
+if (!NT_SUCCESS(status)){
+    return status;
+}
+urbBuffer = (PURB) WdfMemoryGetBuffer(
+                                      urbMemory,
+                                      NULL
+                                      );
+urbBuffer-&gt;UrbHeader.Function =  URB_FUNCTION_GET_CONFIGURATION;
+urbBuffer-&gt;UrbHeader.Length = sizeof(struct _URB_CONTROL_GET_CONFIGURATION_REQUEST);
+urbBuffer-&gt;UrbControlGetConfigurationRequest.TransferBufferLength = 1 ;
+urbBuffer-&gt;UrbControlGetConfigurationRequest.TransferBufferMDL = NULL;
+urbBuffer-&gt;UrbControlGetConfigurationRequest.TransferBuffer = outBuffer;
+urbBuffer-&gt;UrbControlGetConfigurationRequest.UrbLink = NULL;
+
+status = WdfUsbTargetDeviceFormatRequestForUrb(
+                                               deviceContext-&gt;WdfUsbTargetDevice,
+                                               request,
+                                               urbMemory,
+                                               NULL
+                                               );
+WdfRequestSetCompletionRoutine(
+                              request,
+                              MyCompletionRoutine,
+                              NULL);
+
+if (WdfRequestSend(
+                   request,
+                   WdfUsbTargetDeviceGetIoTarget(UsbDevice),
+                   NULL
+                   ) == FALSE) {
+    status = WdfRequestGetStatus(request);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendurbsynchronously.md">WdfUsbTargetDeviceSendUrbSynchronously</a>
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+
+
 
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendurbsynchronously.md">WdfUsbTargetDeviceSendUrbSynchronously</a>
+
+
+
 <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
 
  
 

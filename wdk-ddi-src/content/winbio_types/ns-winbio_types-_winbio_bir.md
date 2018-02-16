@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_types._WINBIO_BIR
-title: _WINBIO_BIR
+title: "_WINBIO_BIR"
 author: windows-driver-content
 description: The WINBIO_BIR structure is the root of the BIR (Biometric Information Record). It contains the size and offset of any other data elements in the BIR.
 old-location: biometric\winbio_bir.htm
@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 159d4767-b0e2-4d76-b23c-e078e13827dd
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: winbio_types/WINBIO_BIR, biometric.winbio_bir, WINBIO_BIR, biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, winbio_types/PWINBIO_BIR, PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], WINBIO_BIR structure [Biometric Devices], *PWINBIO_BIR, _WINBIO_BIR
+ms.keywords: winbio_types/WINBIO_BIR, winbio_types/PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], *PWINBIO_BIR, _WINBIO_BIR, PWINBIO_BIR, WINBIO_BIR structure [Biometric Devices], biometric.winbio_bir, biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, WINBIO_BIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winbio_types.h
-apiname: 
+apiname:
 -	WINBIO_BIR
 product: Windows
 targetos: Windows
@@ -94,21 +94,31 @@ A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md
 ## -remarks
 
 
+
 The four WINBIO_BIR_DATA structures are contiguous and should be immediately followed by the actual data for each block.  Thus, the offset for the <i>HeaderBlock</i> will always be 4*(sizeof (WINBIO_BIR_DATA).  You can use the <a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a> structure to provide the actual data of the header block.  
 
 The offset of where the <i>StandardDataBlock</i> starts should be the offset of the HeaderBlock plus the size of the HeaderBlock.
 
 
 
+
 ## -see-also
-
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
-
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
 
 <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
 
+
+
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
+
+
+
 <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_capture_data.md">WINBIO_CAPTURE_DATA</a>
+
+
+
+<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
+
+
 
  
 

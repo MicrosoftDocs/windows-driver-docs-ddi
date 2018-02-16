@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6fd200c-e573-4bca-aa0d-3e4717c7e81c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: FWPS_FIELDS_STREAM_V6_, fwpsk/FWPS_FIELD_STREAM_V6_MAX, FWPS_FIELD_STREAM_V6_FLAGS, FWPS_FIELDS_STREAM_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELD_STREAM_V6_DIRECTION, FWPS_FIELD_STREAM_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_STREAM_V6_FLAGS, FWPS_FIELD_STREAM_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_PORT, wfp_ref_5_const_3_data_fields_77276444-32ee-40f1-a227-547aa7c2fd6c.xml, FWPS_FIELD_STREAM_V6_DIRECTION, fwpsk/FWPS_FIELD_STREAM_V6_IP_REMOTE_PORT, FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELDS_STREAM_V6, netvista.fwps_fields_stream_v6, FWPS_FIELD_STREAM_V6_IP_REMOTE_PORT, FWPS_FIELD_STREAM_V6_MAX, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_STREAM_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELDS_STREAM_V6
+ms.keywords: FWPS_FIELDS_STREAM_V6, FWPS_FIELDS_STREAM_V6 enumeration [Network Drivers Starting with Windows Vista], fwpsk/FWPS_FIELDS_STREAM_V6, FWPS_FIELD_STREAM_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V6_IP_REMOTE_PORT, FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V6_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_STREAM_V6_DIRECTION, FWPS_FIELD_STREAM_V6_IP_REMOTE_PORT, FWPS_FIELD_STREAM_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_STREAM_V6_FLAGS, fwpsk/FWPS_FIELD_STREAM_V6_MAX, FWPS_FIELD_STREAM_V6_MAX, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS, FWPS_FIELDS_STREAM_V6_, FWPS_FIELD_STREAM_V6_DIRECTION, FWPS_FIELD_STREAM_V6_IP_LOCAL_ADDRESS_TYPE, netvista.fwps_fields_stream_v6, wfp_ref_5_const_3_data_fields_77276444-32ee-40f1-a227-547aa7c2fd6c.xml, FWPS_FIELD_STREAM_V6_FLAGS, fwpsk/FWPS_FIELD_STREAM_V6_IP_LOCAL_PORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	fwpsk.h
-apiname: 
+apiname:
 -	FWPS_FIELDS_STREAM_V6
 product: Windows
 targetos: Windows
@@ -108,17 +108,29 @@ The remote transport protocol port number.
 
 
 
+#####  The possible values are:
+
+
+
+#### FWP_DIRECTION_INBOUND
+
+
+
+#### FWP_DIRECTION_OUTBOUND
+
+
 ### -field FWPS_FIELD_STREAM_V6_FLAGS
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff549942">Filtering Condition Flags</a>.
      
+
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
-     Windows.</div><div> </div>
+     Windows.</div>
+<div> </div>
 
 ### -field FWPS_FIELD_STREAM_V6_COMPARTMENT_ID
-
 
 
 ### -field FWPS_FIELD_STREAM_V6_MAX
@@ -127,21 +139,11 @@ The maximum value for this enumeration. This value might change in future versio
      header files and binaries.
 
 
-##### - FWPS_FIELD_STREAM_V6_DIRECTION.FWP_DIRECTION_INBOUND
-
-
-
-##### - FWPS_FIELD_STREAM_V6_DIRECTION.FWP_DIRECTION_OUTBOUND
-
-
-
-###### - FWPS_FIELD_STREAM_V6_DIRECTION.The direction of the data flow. The possible values are:
-
-
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+
+
 
  
 

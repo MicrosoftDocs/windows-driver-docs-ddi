@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 19366fbe-8a04-4a9f-9acc-8de0211e6e0d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT, rilapitypes/RIL_PARAM_UICCLOCKSTATE_ALL, rilapitypes/RIL_PARAM_UICCLOCKSTATE_UICCLOCK, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT, RILUICCLOCKSTATEPARAMMASK, netvista.riluicclockstateparammask, RIL_PARAM_UICCLOCKSTATE_UICCLOCK, rilapitypes/RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, RIL_PARAM_UICCLOCKSTATE_ALL, RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, RILUICCLOCKSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCLOCKSTATEPARAMMASK, RIL_PARAM_UICCLOCKSTATE_LOCKSTATE
+ms.keywords: netvista.riluicclockstateparammask, rilapitypes/RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT, rilapitypes/RILUICCLOCKSTATEPARAMMASK, RILUICCLOCKSTATEPARAMMASK, RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RIL_PARAM_UICCLOCKSTATE_ALL, rilapitypes/RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, RILUICCLOCKSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCLOCKSTATE_ALL, rilapitypes/RIL_PARAM_UICCLOCKSTATE_UICCLOCK, RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT, RIL_PARAM_UICCLOCKSTATE_UICCLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCLOCKSTATEPARAMMASK
 product: Windows
 targetos: Windows
@@ -76,26 +76,23 @@ enum RILUICCLOCKSTATEPARAMMASK {
 ### -field RIL_PARAM_UICCLOCKSTATE_UICCLOCK
 
 
-
 ### -field RIL_PARAM_UICCLOCKSTATE_LOCKSTATE
-
 
 
 ### -field RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT
 
 
-
 ### -field RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT
-
 
 
 ### -field RIL_PARAM_UICCLOCKSTATE_ALL
 
 
-
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+
+
 
  
 

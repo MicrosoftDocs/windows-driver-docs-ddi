@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C1018E89-D3EC-49A0-B02E-254378000378
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: 5, 3, 0, 1, 7, 2, kernel.pep_acpi_initialize_spb_uart_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 6, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], 4, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
+ms.keywords: kernel.pep_acpi_initialize_spb_uart_resource, 6, 5, 0, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function [Kernel-Mode Driver Architecture], 1, 7, 4, pepfx/PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 3, PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE, 2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_WORK_TYPE, PEP_WORK_TYPE
+req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
 ---
 
 # PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function
@@ -100,6 +100,7 @@ Specifies the stop bits used in the connection.
 ### -param LinesInUse [in]
 
 Flag indicating the serial lines that are enabled. A value of 1 in the bit positions indicates that the line is enabled.
+
 <table>
 <tr>
 <th>Bit</th>
@@ -185,7 +186,8 @@ Request to Send (RTS)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param IsBigEndian [in]
@@ -196,6 +198,7 @@ Indicates if the most significant bits of data are in the lowest address.
 ### -param Parity [in]
 
 Specifies the parity of the connection.
+
 <table>
 <tr>
 <th>Value</th>
@@ -256,7 +259,8 @@ Space
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param FlowControl [in]
@@ -315,13 +319,17 @@ A pointer to the resource. The structure behind the pointer is of type <a href="
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -see-also
 
 <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_uart_resource.md">PEP_ACPI_SPB_UART_RESOURCE</a>
+
+
 
  
 

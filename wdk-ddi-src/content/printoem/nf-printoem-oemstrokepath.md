@@ -7,8 +7,8 @@ old-location: print\oemstrokepath.htm
 old-project: print
 ms.assetid: e761a8b4-729f-4f03-a4b4-2ed1b62ec012
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: print.oemstrokepath, OEMStrokePath function [Print Devices], printoem/OEMStrokePath, OEMStrokePath, print_unidrv-pscript_rendering_8bc38d91-34ed-4225-baf1-6ca18026b7d0.xml
+ms.date: 2/2/2018
+ms.keywords: print_unidrv-pscript_rendering_8bc38d91-34ed-4225-baf1-6ca18026b7d0.xml, print.oemstrokepath, OEMStrokePath function [Print Devices], OEMStrokePath, printoem/OEMStrokePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMStrokePath
 product: Windows
 targetos: Windows
@@ -78,31 +78,23 @@ BOOL APIENTRY OEMStrokePath(
 ### -param pso
 
 
-
 ### -param ppo
-
 
 
 ### -param pco
 
 
-
 ### -param pxo
-
 
 
 ### -param pbo
 
 
-
 ### -param pptlBrushOrg
-
 
 
 ### -param plineattrs
 
 
-
 ### -param mix
-
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43089473-3255-4016-8d51-f5ad4261bd8d
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, CompleteWithInformation method, IWDFIoRequest interface, IWDFIoRequest, CompleteWithInformation, IWDFIoRequest interface, CompleteWithInformation method, wudfddi/IWDFIoRequest::CompleteWithInformation, umdf.iwdfiorequest_completewithinformation, CompleteWithInformation method, wdf.iwdfiorequest_completewithinformation, IWDFIoRequest::CompleteWithInformation
+ms.keywords: umdf.iwdfiorequest_completewithinformation, CompleteWithInformation, CompleteWithInformation method, IWDFIoRequest, wdf.iwdfiorequest_completewithinformation, wudfddi/IWDFIoRequest::CompleteWithInformation, UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, IWDFIoRequest::CompleteWithInformation, CompleteWithInformation method, IWDFIoRequest interface, IWDFIoRequest interface, CompleteWithInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoRequest.CompleteWithInformation
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -86,11 +86,14 @@ For read, write, and device I/O control operations, the driver should supply the
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 For more information about completing an I/O request, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
@@ -99,13 +102,20 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 

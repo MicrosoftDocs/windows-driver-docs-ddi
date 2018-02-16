@@ -7,8 +7,8 @@ old-location: print\ipartfont_setfontoptions.htm
 old-project: print
 ms.assetid: 28c708b7-82bb-4246-bde8-88d471c8120c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPartFont, print.ipartfont_setfontoptions, SetFontOptions method [Print Devices], IPartFont interface, SetFontOptions method [Print Devices], IPartFont interface [Print Devices], SetFontOptions method, IPartFont::SetFontOptions, SetFontOptions, filterpipeline_9461a7cc-ee59-4710-ada4-ebea899babaa.xml, filterpipeline/IPartFont::SetFontOptions
+ms.date: 2/2/2018
+ms.keywords: filterpipeline_9461a7cc-ee59-4710-ada4-ebea899babaa.xml, IPartFont interface [Print Devices], SetFontOptions method, SetFontOptions method [Print Devices], IPartFont interface, SetFontOptions, IPartFont::SetFontOptions, SetFontOptions method [Print Devices], IPartFont, print.ipartfont_setfontoptions, filterpipeline/IPartFont::SetFontOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: filterpipeline.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	filterpipeline.h
-apiname: 
+apiname:
 -	IPartFont.SetFontOptions
 product: Windows
 targetos: Windows
@@ -75,6 +75,8 @@ An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline
 ## -returns
 
 
+
 <b>SetFontOptions</b> returns an <b>HRESULT</b> value.
+
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9887342b-85bd-4161-b9de-06ceb56014e5
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_EVDOKIND_REVA, RILEVDOKIND, ntddrilapitypes/RIL_EVDOKIND_REVA, ntddrilapitypes/RIL_EVDOKIND_MAX, RIL_EVDOKIND_MAX, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_EVDOKIND_REVB, RIL_EVDOKIND_REVB, netvista.rilevdokind, ntddrilapitypes/RILEVDOKIND
+ms.keywords: ntddrilapitypes/RIL_EVDOKIND_REVB, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], netvista.rilevdokind, RIL_EVDOKIND_REVA, RILEVDOKIND, ntddrilapitypes/RIL_EVDOKIND_REVA, RIL_EVDOKIND_MAX, RIL_EVDOKIND_REVB, ntddrilapitypes/RILEVDOKIND, ntddrilapitypes/RIL_EVDOKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILEVDOKIND
 product: Windows
 targetos: Windows
@@ -72,15 +72,11 @@ typedef enum _RILEVDOKIND {
 ### -field RIL_EVDOKIND_REV0
 
 
-
 ### -field RIL_EVDOKIND_REVA
-
 
 
 ### -field RIL_EVDOKIND_REVB
 
 
-
 ### -field RIL_EVDOKIND_MAX
-
 

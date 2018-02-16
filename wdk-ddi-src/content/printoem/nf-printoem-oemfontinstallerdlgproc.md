@@ -7,8 +7,8 @@ old-location: print\oemfontinstallerdlgproc.htm
 old-project: print
 ms.assetid: 6007723b-c7db-42da-bc50-328e19f80448
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: OEMFontInstallerDlgProc, printoem/OEMFontInstallerDlgProc, print.oemfontinstallerdlgproc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, OEMFontInstallerDlgProc function [Print Devices]
+ms.date: 2/2/2018
+ms.keywords: OEMFontInstallerDlgProc function [Print Devices], OEMFontInstallerDlgProc, printoem/OEMFontInstallerDlgProc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, print.oemfontinstallerdlgproc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	printoem.h
-apiname: 
+apiname:
 -	OEMFontInstallerDlgProc
 product: Windows
 targetos: Windows
@@ -73,15 +73,11 @@ INT_PTR APIENTRY OEMFontInstallerDlgProc(
 ### -param hWnd
 
 
-
 ### -param usMsg
-
 
 
 ### -param wParam
 
 
-
 ### -param lParam
-
 

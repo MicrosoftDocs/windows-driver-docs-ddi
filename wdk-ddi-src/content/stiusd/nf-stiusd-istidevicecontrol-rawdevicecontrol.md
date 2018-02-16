@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 107C7EB4-9C72-49CF-A330-7D517CC67F35
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RawDeviceControl method [Imaging Devices], image.istidevicecontrol_rawdevicecontrol, stiusd/IStiDeviceControl::RawDeviceControl, RawDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl::RawDeviceControl, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], RawDeviceControl method
+ms.keywords: stiusd/IStiDeviceControl::RawDeviceControl, IStiDeviceControl::RawDeviceControl, IStiDeviceControl, RawDeviceControl method [Imaging Devices], RawDeviceControl, RawDeviceControl method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], RawDeviceControl method, image.istidevicecontrol_rawdevicecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	Stiusd.h
-apiname: 
+apiname:
 -	IStiDeviceControl.RawDeviceControl
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -106,13 +106,17 @@ Defines the <b>LPDWORD</b> parameter <i>pdwActualData.</i>
 ## -returns
 
 
+
 Defines the <b>HRESULT</b> return value.
+
 
 
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
+
+
 
  
 

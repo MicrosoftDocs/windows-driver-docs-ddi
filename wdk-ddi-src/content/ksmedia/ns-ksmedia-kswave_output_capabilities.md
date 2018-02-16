@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 3f7d534d-bfd8-4aca-a14d-97c047fb5aeb
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: PKSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES, PKSWAVE_OUTPUT_CAPABILITIES structure pointer [Streaming Media Devices], dvdref_7660f724-15c2-419f-a0d9-c432069547a3.xml, KSWAVE_OUTPUT_CAPABILITIES structure [Streaming Media Devices], stream.kswave_output_capabilities, ksmedia/KSWAVE_OUTPUT_CAPABILITIES, ksmedia/PKSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES
+ms.keywords: ksmedia/PKSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES structure [Streaming Media Devices], dvdref_7660f724-15c2-419f-a0d9-c432069547a3.xml, KSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES, ksmedia/KSWAVE_OUTPUT_CAPABILITIES, PKSWAVE_OUTPUT_CAPABILITIES structure pointer [Streaming Media Devices], stream.kswave_output_capabilities, PKSWAVE_OUTPUT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KSWAVE_OUTPUT_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: *PKSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES
+req.typenames: "*PKSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES"
 ---
 
 # KSWAVE_OUTPUT_CAPABILITIES structure
@@ -189,13 +189,17 @@ Specifies the largest, free contiguous amount of sample memory.
 ## -remarks
 
 
+
 This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566523">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a> property.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566523">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a>
+
+
 
  
 

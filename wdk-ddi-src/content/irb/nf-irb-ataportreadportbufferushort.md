@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f118af3b-5a9a-486b-9550-9b48bdfb48cd
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: irb/AtaPortReadPortBufferUshort, AtaPortReadPortBufferUshort, atartns_9cf8ae36-e364-4fb8-9fda-c8a78cd022b4.xml, storage.ataportreadportbufferushort, AtaPortReadPortBufferUshort routine [Storage Devices]
+ms.keywords: irb/AtaPortReadPortBufferUshort, atartns_9cf8ae36-e364-4fb8-9fda-c8a78cd022b4.xml, AtaPortReadPortBufferUshort, AtaPortReadPortBufferUshort routine [Storage Devices], storage.ataportreadportbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,17 +29,17 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ataport.lib
 -	ataport.dll
 -	pciidex.lib
 -	pciidex.dll
-apiname: 
+apiname:
 -	AtaPortReadPortBufferUshort
 product: Windows
 targetos: Windows
@@ -90,7 +90,9 @@ Specifies the number of USHORT values to read from the HBA.
 ## -returns
 
 
+
 None 
+
 
 
 
@@ -98,9 +100,15 @@ None
 
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
-<a href="..\irb\nf-irb-ataportreadportbufferulong.md">AtaPortReadPortBufferUlong</a>
+
 
 <a href="..\irb\nf-irb-ataportreadportbufferuchar.md">AtaPortReadPortBufferUchar</a>
+
+
+
+<a href="..\irb\nf-irb-ataportreadportbufferulong.md">AtaPortReadPortBufferUlong</a>
+
+
 
  
 

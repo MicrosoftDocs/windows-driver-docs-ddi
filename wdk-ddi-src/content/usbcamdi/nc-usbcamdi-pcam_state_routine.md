@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	MyCamState
 product: Windows
 targetos: Windows
@@ -87,11 +87,14 @@ Pointer to the camera minidriver's device context.
 
 
 
+
             This callback routine must return STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 <b>About CamRestoreState</b>
@@ -116,9 +119,12 @@ This function is optional.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568157">SRB_CHANGE_POWER_STATE</a>
+
+
 
  
 

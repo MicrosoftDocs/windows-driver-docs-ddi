@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_TIMING_TYPE
-title: _D3DKMDT_MONITOR_TIMING_TYPE
+title: "_D3DKMDT_MONITOR_TIMING_TYPE"
 author: windows-driver-content
 description: The D3DKMDT_MONITOR_TIMING_TYPE enumeration is reserved for system use. Do not use it in your driver.
 old-location: display\d3dkmdt_monitor_timing_type.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: fb8a2c29-f41b-4701-bbc2-f0a8e6dadc11
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DKMDT_MONITOR_TIMING_TYPE, d3dkmdt/D3DKMDT_MTT_STANDARD, D3DKMDT_MTT_EXTRASTANDARD, D3DKMDT_MTT_DETAILED, DmEnums_dd8c4653-6af5-420c-a74e-3b0d2201e84a.xml, d3dkmdt/D3DKMDT_MTT_UNINITIALIZED, D3DKMDT_MTT_STANDARD, display.d3dkmdt_monitor_timing_type, D3DKMDT_MTT_DRIVER, D3DKMDT_MTT_UNINITIALIZED, d3dkmdt/D3DKMDT_MTT_EXTRASTANDARD, D3DKMDT_MTT_DEFAULTMONITORPROFILE, D3DKMDT_MONITOR_TIMING_TYPE, D3DKMDT_MTT_ESTABLISHED, d3dkmdt/D3DKMDT_MTT_DETAILED, d3dkmdt/D3DKMDT_MONITOR_TIMING_TYPE, d3dkmdt/D3DKMDT_MTT_DEFAULTMONITORPROFILE, D3DKMDT_MONITOR_TIMING_TYPE enumeration [Display Devices], d3dkmdt/D3DKMDT_MTT_DRIVER, d3dkmdt/D3DKMDT_MTT_ESTABLISHED
+ms.keywords: display.d3dkmdt_monitor_timing_type, d3dkmdt/D3DKMDT_MTT_UNINITIALIZED, D3DKMDT_MONITOR_TIMING_TYPE, d3dkmdt/D3DKMDT_MTT_STANDARD, d3dkmdt/D3DKMDT_MTT_DEFAULTMONITORPROFILE, D3DKMDT_MTT_DETAILED, D3DKMDT_MTT_EXTRASTANDARD, D3DKMDT_MTT_STANDARD, D3DKMDT_MONITOR_TIMING_TYPE enumeration [Display Devices], d3dkmdt/D3DKMDT_MTT_ESTABLISHED, d3dkmdt/D3DKMDT_MTT_EXTRASTANDARD, d3dkmdt/D3DKMDT_MTT_DETAILED, D3DKMDT_MTT_DRIVER, d3dkmdt/D3DKMDT_MONITOR_TIMING_TYPE, _D3DKMDT_MONITOR_TIMING_TYPE, D3DKMDT_MTT_DEFAULTMONITORPROFILE, d3dkmdt/D3DKMDT_MTT_DRIVER, D3DKMDT_MTT_UNINITIALIZED, DmEnums_dd8c4653-6af5-420c-a74e-3b0d2201e84a.xml, D3DKMDT_MTT_ESTABLISHED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmdt.h
-apiname: 
+apiname:
 -	D3DKMDT_MONITOR_TIMING_TYPE
 product: Windows
 targetos: Windows

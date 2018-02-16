@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnStartSessionKeyRefresh
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback
@@ -95,14 +95,7 @@ The size, in bytes, of the number in the buffer that is referenced by the <i>pRa
 
 
 
-### -param *pRandomNumber
-
-
-
-
-
-
-#### - pRandomNumber [in]
+### -param *pRandomNumber [in]
 
 A pointer to a buffer that contains the status sequence number for the random start.
 
@@ -111,11 +104,14 @@ A pointer to a buffer that contains the status sequence number for the random st
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The hardware and driver can optionally support <b>StartSessionKeyRefresh</b> for all cryptographic types.
@@ -130,11 +126,16 @@ When the runtime subsequently calls the driver's <a href="..\d3d10umddi\nc-d3d10
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
+
 
  
 

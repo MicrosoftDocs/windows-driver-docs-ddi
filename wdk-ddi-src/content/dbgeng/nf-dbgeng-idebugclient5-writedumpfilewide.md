@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b089499f-4f15-400e-bf88-53d0507200b9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method, debugger.writedumpfilewide, dbgeng/IDebugClient4::WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient5::WriteDumpFileWide, IDebugClient5, WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, IDebugClient4::WriteDumpFileWide, dbgeng/IDebugClient5::WriteDumpFileWide
+ms.keywords: IDebugClient5::WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], dbgeng/IDebugClient4::WriteDumpFileWide, IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, IDebugClient4, IDebugClient4::WriteDumpFileWide, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, IDebugClient5, WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, debugger.writedumpfilewide, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::WriteDumpFileWide, IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugClient4.WriteDumpFileWide
 -	IDebugClient5.WriteDumpFileWide
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugClient5::WriteDumpFileWide method
@@ -100,7 +100,9 @@ Specifies a comment string to be included in the crash dump file.  This string i
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -117,26 +119,38 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 For more information about crash dump files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542783">Dump-File Targets</a>.
+
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
 
  
 

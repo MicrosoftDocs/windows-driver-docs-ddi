@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: E0332415-1028-489B-AA81-DF8AEE0A28E8
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GPIO_CLX_AcquireInterruptLock method [Parallel Ports], GPIO.gpio_clx_acquireinterruptlock, gpioclx/GPIO_CLX_AcquireInterruptLock, GPIO_CLX_AcquireInterruptLock
+ms.keywords: GPIO_CLX_AcquireInterruptLock method [Parallel Ports], GPIO.gpio_clx_acquireinterruptlock, GPIO_CLX_AcquireInterruptLock, gpioclx/GPIO_CLX_AcquireInterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Msgpioclxstub.lib
 req.dll: 
 req.irql: DIRQL or at PASSIVE_LEVEL. See Remarks.
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Msgpioclxstub.lib
 -	Msgpioclxstub.dll
-apiname: 
+apiname:
 -	GPIO_CLX_AcquireInterruptLock
 product: Windows
 targetos: Windows
-req.typenames: *PGPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE
+req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 ---
 
 # GPIO_CLX_AcquireInterruptLock function
@@ -82,11 +82,14 @@ The identifier for this bank of GPIO pins. If N is the number of banks in the GP
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 A GPIO controller driver thread calls this method to synchronize to the interrupt service routine (ISR) in GpioClx. While the caller holds the interrupt lock, the ISR cannot call driver-implemented callback functions to access GPIO registers in the specified bank. A GPIO controller driver should call this method before it tries to access GPIO registers that might be accessed by the GpioClx ISR.
@@ -103,9 +106,12 @@ If the <i>Context</i> parameter is NULL or points to an invalid GPIO device cont
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439494">GPIO_CLX_ReleaseInterruptLock</a>
+
+
 
  
 

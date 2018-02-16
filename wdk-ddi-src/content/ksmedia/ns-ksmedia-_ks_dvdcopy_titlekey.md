@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_TITLEKEY
-title: _KS_DVDCOPY_TITLEKEY
+title: "_KS_DVDCOPY_TITLEKEY"
 author: windows-driver-content
 description: The KS_DVDCOPY_TITLEKEY structure is used to describe the title key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_titlekey.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 8f85bc55-d05b-4075-9ae5-ba5a5516eeb4
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ks_dvdcopy_titlekey, ksmedia/KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, _KS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices], KS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, *PKS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], PKS_DVDCOPY_TITLEKEY
+ms.keywords: dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, _KS_DVDCOPY_TITLEKEY, ksmedia/KS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY, stream.ks_dvdcopy_titlekey, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], ksmedia/PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices], KS_DVDCOPY_TITLEKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ksmedia.h
-apiname: 
+apiname:
 -	KS_DVDCOPY_TITLEKEY
 product: Windows
 targetos: Windows
-req.typenames: *PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY
+req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
 ---
 
 # _KS_DVDCOPY_TITLEKEY structure
@@ -73,6 +73,7 @@ typedef struct _KS_DVDCOPY_TITLEKEY {
 ### -field KeyFlags
 
 Title key flags settings that provide Copyrighted Material flag (CPM), Copy Guard Management System (CGMS) and Copyright Protection System (CP_SEC) copyright protection flags from the DVD drive. The following CGMS flags are defined:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -188,7 +189,8 @@ Indicates that the sector is protected (encrypted).
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field ReservedNT
@@ -209,15 +211,19 @@ Reserved. Do not use.
 ## -remarks
 
 
+
 The KS_DVDCOPY_TITLEKEY structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565148">KSPROPERTY_DVDCOPY_TITLE_KEY</a> property.
 
 For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c-b2ab-7567a5eeb87b">DVD Copyright Protection</a>.
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565148">KSPROPERTY_DVDCOPY_TITLE_KEY</a>
+
+
 
  
 

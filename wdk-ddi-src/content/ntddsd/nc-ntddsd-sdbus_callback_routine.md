@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntddsd.h
-apiname: 
+apiname:
 -	SdBusCallbackRoutine
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ Must be set to SDBUS_INTTYPE_DEVICE.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 When an SD device driver initializes an instance of the SD bus interface, it loads the <b>CallbackRoutine</b> member of the <a href="https://msdn.microsoft.com/d407131e-5dda-4d50-b09a-0f937774eefb">SDBUS_INTERFACE_PARAMETERS</a> structure with a pointer to PSDBUS_CALLBACK_ROUTINE.
@@ -97,9 +100,12 @@ The bus driver calls the SD card driver's callback routine whenever the card ind
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/d407131e-5dda-4d50-b09a-0f937774eefb">SDBUS_INTERFACE_PARAMETERS</a>
+
+
 
  
 

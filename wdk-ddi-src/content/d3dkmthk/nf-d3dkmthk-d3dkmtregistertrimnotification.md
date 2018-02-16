@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 4D35ED8F-2D1E-4C0B-8302-CE651D47AF10
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices], D3DKMTRegisterTrimNotification, display.d3dkmtregistertrimnotification
+ms.keywords: display.d3dkmtregistertrimnotification, d3dkmthk/D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices], D3DKMTRegisterTrimNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: GDI32.lib
 req.dll: GDI32.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	GDI32.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-1.dll
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
-apiname: 
+apiname:
 -	D3DKMTRegisterTrimNotification
 product: Windows
 targetos: Windows
@@ -70,6 +70,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTRegisterTrimNotification(
 
 
 
+
 #### - pData [in, out]
 
 A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_registertrimnotification.md">D3DKMT_REGISTERTRIMNOTIFICATION</a> structure that describes the operation.
@@ -78,7 +79,9 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_registertrimnotification
 ## -returns
 
 
+
 Returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -107,17 +110,23 @@ The operation was performed successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 
 
+
 ## -see-also
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
+
+
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_registertrimnotification.md">D3DKMT_REGISTERTRIMNOTIFICATION</a>
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddcdrm.h
-apiname: 
+apiname:
 -	IOCTL_CDROM_EXCLUSIVE_ACCESS
 product: Windows
 targetos: Windows
@@ -81,6 +81,7 @@ A valid FileObject handle must exist in order for this IOCTL to succeed. The Fil
 ### -input-buffer
 
 Depending on the operation that the caller requests, the caller must provide one of the following structures as input at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>:
+
 <ul>
 <li>
 
@@ -117,14 +118,18 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member in the I/O stack
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -155,6 +160,7 @@ The input buffer was too small.
 #### -STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
+
 <ul>
 <li>
 The caller made the request at an IRQL level other than PASSIVE_LEVEL.  
@@ -174,6 +180,7 @@ The caller attempted to lock a device while the file system driver was mounted o
 #### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
+
 <ul>
 <li>
 The file object that is required to keep track of the request was not available. The CD-ROM class driver did not receive a request to create a file object from this caller.  
@@ -188,6 +195,7 @@ The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevi
 #### -STATUS_INVALID_PARAMETER (Windows error code: ERROR_INVALID_PARAMETER)
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
+
 <ul>
 <li>
 The <b>RequestType</b> that was specified is not a valid member of <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>.  
@@ -201,15 +209,25 @@ The caller name string in the <b>CallerName</b> member of <a href="..\ntddcdrm\n
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
 
 <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock_state.md">CDROM_EXCLUSIVE_LOCK_STATE</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_lock.md">CDROM_EXCLUSIVE_LOCK</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exclusive_access.md">CDROM_EXCLUSIVE_ACCESS</a>
+
+
 
  
 

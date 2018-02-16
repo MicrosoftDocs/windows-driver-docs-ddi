@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d10umddi.h
-apiname: 
+apiname:
 -	pfnVideoProcessorSetOutputBackgroundColor
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR callback
@@ -76,13 +76,10 @@ VOID APIENTRY* pfnVideoProcessorSetOutputBackgroundColor(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
 
 
-
 ### -param BOOL
-
 
 
 ### -param *
@@ -90,11 +87,6 @@ VOID APIENTRY* pfnVideoProcessorSetOutputBackgroundColor(
 
 
 
-
-
-#### - pColor [in]
-
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color.md">D3D11_1DDI_VIDEO_COLOR</a> structure that specifies the background color.
 
 
 
@@ -120,10 +112,19 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
+#### - pColor [in]
+
+A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color.md">D3D11_1DDI_VIDEO_COLOR</a> structure that specifies the background color.
+
+
+
+
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
@@ -131,7 +132,11 @@ This callback function does not return a value.
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_color.md">D3D11_1DDI_VIDEO_COLOR</a>
+
+
 
  
 

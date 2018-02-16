@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_LOCK2
-title: _D3DKMT_LOCK2
+title: "_D3DKMT_LOCK2"
 author: windows-driver-content
 description: D3DKMT_LOCK2 describes parameters for locking an allocation.
 old-location: display\d3dkmt_lock2.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: AFDA9D5F-2590-4034-B2CF-07990F4553C8
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_lock2, d3dkmthk/D3DKMT_LOCK2, D3DKMT_LOCK2 structure [Display Devices], D3DKMT_LOCK2, _D3DKMT_LOCK2
+ms.keywords: "_D3DKMT_LOCK2, D3DKMT_LOCK2, display.d3dkmt_lock2, d3dkmthk/D3DKMT_LOCK2, D3DKMT_LOCK2 structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_LOCK2
 product: Windows
 targetos: Windows

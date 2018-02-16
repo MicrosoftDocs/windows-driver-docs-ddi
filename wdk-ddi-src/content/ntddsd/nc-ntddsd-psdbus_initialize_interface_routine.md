@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	ntddsd.h
-apiname: 
+apiname:
 -	InitializeInterface
 product: Windows
 targetos: Windows
@@ -84,11 +84,14 @@ Pointer to a structure of type <a href="https://msdn.microsoft.com/d407131e-5dda
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error status if the operation fails.
 
 
 
+
 ## -remarks
+
 
 
 An SD card driver typically calls its initialization routine immediately after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a> routine returns with a value of STATUS_SUCCESS. 
@@ -97,11 +100,16 @@ An SD card driver must call its initialization routine before attempting to send
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+
+
 
  
 

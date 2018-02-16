@@ -7,8 +7,8 @@ old-location: print\iprintoemprintticketprovider_validateprintticket.htm
 old-project: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, ValidatePrintTicket, IPrintOemPrintTicketProvider, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket method [Print Devices], print.iprintoemprintticketprovider_validateprintticket, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket
+ms.date: 2/2/2018
+ms.keywords: ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket method [Print Devices], print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml, IPrintOemPrintTicketProvider, ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, IPrintOemPrintTicketProvider::ValidatePrintTicket, IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: prcomoem.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	prcomoem.h
-apiname: 
+apiname:
 -	IPrintOemPrintTicketProvider.ValidatePrintTicket
 product: Windows
 targetos: Windows
-req.typenames: *POEMPTOPTS, OEMPTOPTS
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -76,13 +76,17 @@ A pointer to an input print ticket. When <code>IPrintOemPrintTicketProvider::Val
 ## -returns
 
 
+
 <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code> should return S_NO_CONFLICT or S_CONFLICT_RESOLVED if the operation succeeds. Otherwise, this method should return a standard COM error code. Note that Unidrv and Pscript do not consider S_OK to mean successful completion for this method.
+
 
 
 
 ## -remarks
 
 
+
 If necessary, the <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code>  method should perform any conflict resolution, by inspecting the settings made in the public and Unidrv-private parts of the print ticket, to ensure that the resulting print ticket is valid, and that all of the constraints are resolved. If any required nodes are not present in the original print ticket, <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code> can add them to the returned print ticket.
+
 
 

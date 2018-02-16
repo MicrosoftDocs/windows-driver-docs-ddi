@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._SELF_ID
-title: _SELF_ID
+title: "_SELF_ID"
 author: windows-driver-content
 description: The SELF_ID structure contains a raw packet zero self-ID packet. See the IEEE 1394 Trade Association specification website for details.
 old-location: ieee\self_id.htm
@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: c168ca19-e4a7-484d-8aed-0b7e7033b760
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: *PSELF_ID, PSELF_ID, 1394/PSELF_ID, _SELF_ID, SELF_ID structure [Buses], 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID structure pointer [Buses], SELF_ID, 1394/SELF_ID, IEEE.self_id
+ms.keywords: IEEE.self_id, 1394/SELF_ID, SELF_ID structure [Buses], SELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID, _SELF_ID, *PSELF_ID, PSELF_ID structure pointer [Buses], 1394/PSELF_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	1394.h
-apiname: 
+apiname:
 -	SELF_ID
 product: Windows
 targetos: Windows
-req.typenames: SELF_ID, *PSELF_ID
+req.typenames: "*PSELF_ID, SELF_ID"
 ---
 
 # _SELF_ID structure
@@ -141,6 +141,7 @@ Currently always zero. This member contains bits 4-5 of byte 2 of the self-ID pa
 ### -field SID_Speed
 
 Specifies the maximum data transfer rate that is supported by the node. This member must have one of the values specified in the following table.
+
 <table>
 <tr>
 <th>Value</th>
@@ -186,7 +187,8 @@ Reserved (generally treated as S400/S800 speed)
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field SID_More_Packets
@@ -227,13 +229,17 @@ Member <b>SID_Port1</b> contains bits 2-3 of byte 3 of the self-ID packet. Membe
 ## -remarks
 
 
+
 This structure corresponds to self ID packet 0, as described in the <i>P1394a</i> specification.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538877">TOPOLOGY_MAP</a>
+
+
 
  
 

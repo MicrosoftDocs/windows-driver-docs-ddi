@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 66b3c35d-681c-464a-86fa-972825bf3e97
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: PsGetServerSiloActiveConsoleId, ntddk/PsGetServerSiloActiveConsoleId, kernel.psgetserversiloactiveconsoleid, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture]
+ms.keywords: PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture], PsGetServerSiloActiveConsoleId, ntddk/PsGetServerSiloActiveConsoleId, kernel.psgetserversiloactiveconsoleid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	PsGetServerSiloActiveConsoleId
 product: Windows
 targetos: Windows
-req.typenames: *PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT
+req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
 ---
 
 # PsGetServerSiloActiveConsoleId function
@@ -78,6 +78,8 @@ A pointer to the silo of the job.
 ## -returns
 
 
+
 Returns the session id for the active console session.
+
 
 

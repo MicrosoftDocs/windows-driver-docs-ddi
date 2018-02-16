@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: d2872ea2-565b-47db-8054-876fd3c8fc4d
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.kspinregisterirpcompletioncallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], KsPinRegisterIrpCompletionCallback, ks/KsPinRegisterIrpCompletionCallback, avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml
+ms.keywords: KsPinRegisterIrpCompletionCallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], stream.kspinregisterirpcompletioncallback, ks/KsPinRegisterIrpCompletionCallback, avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	Ks.lib
 -	Ks.dll
-apiname: 
+apiname:
 -	KsPinRegisterIrpCompletionCallback
 product: Windows
 targetos: Windows
@@ -82,11 +82,14 @@ This parameter supplies the address of a <a href="..\ks\nc-ks-pfnkspinirpcomplet
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 <b>KsPinRegisterIrpCompletionCallback </b>must be called at IRQL=PASSIVE_LEVEL before the pin goes into KSSTATE_ACQUIRE. For more information about pin states, see <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>.
@@ -99,19 +102,32 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 
 
+
 ## -see-also
-
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
-
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-<a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
 
 <a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
 
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
+
+<a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
+<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+
 
  
 

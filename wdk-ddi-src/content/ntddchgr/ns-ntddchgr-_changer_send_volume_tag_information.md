@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_SEND_VOLUME_TAG_INFORMATION
-title: _CHANGER_SEND_VOLUME_TAG_INFORMATION
+title: "_CHANGER_SEND_VOLUME_TAG_INFORMATION"
 author: windows-driver-content
 description: This structure is passed to the ChangerQueryVolumeTags routine and is used to specify a search criterion for retrieving changer elements.
 old-location: storage\changer_send_volume_tag_information.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cfe0673c-1dcb-4c4e-9ec4-8d9f27919c85
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer [Storage Devices], structs-changer_3f8d7f13-bf38-41fe-aa74-bbd9083bbbb6.xml, ntddchgr/PCHANGER_SEND_VOLUME_TAG_INFORMATION, ntddchgr/CHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION, _CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION structure [Storage Devices], storage.changer_send_volume_tag_information, CHANGER_SEND_VOLUME_TAG_INFORMATION
+ms.keywords: ntddchgr/CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer [Storage Devices], ntddchgr/PCHANGER_SEND_VOLUME_TAG_INFORMATION, _CHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION, structs-changer_3f8d7f13-bf38-41fe-aa74-bbd9083bbbb6.xml, storage.changer_send_volume_tag_information, CHANGER_SEND_VOLUME_TAG_INFORMATION structure [Storage Devices], CHANGER_SEND_VOLUME_TAG_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddchgr.h
-apiname: 
+apiname:
 -	CHANGER_SEND_VOLUME_TAG_INFORMATION
 product: Windows
 targetos: Windows
@@ -77,6 +77,7 @@ Describes the first element of the range to search for or to set in a structure 
 ### -field ActionCode
 
 Indicates the operation to perform. The <b>Features0</b> member of <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a> indicates whether the changer supports a particular category of operation:
+
 <ul>
 <li>
 Translate operations, also known as "searching operations", request that the target device search its volume tag information for elements that match the template passed to the device. Valid only if <b>Features0</b> is set to CHANGER_VOLUME_SEARCH.
@@ -103,13 +104,21 @@ Specifies the template to be used by the device to search for volume IDs. For a 
 
 ## -see-also
 
+<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+
 
 <a href="..\ntddchgr\ns-ntddchgr-_read_element_address_info.md">READ_ELEMENT_ADDRESS_INFO</a>
 
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
-<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
+
 
  
 

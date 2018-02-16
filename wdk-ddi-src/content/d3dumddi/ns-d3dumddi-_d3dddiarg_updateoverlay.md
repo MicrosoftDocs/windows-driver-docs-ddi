@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_UPDATEOVERLAY
-title: _D3DDDIARG_UPDATEOVERLAY
+title: "_D3DDDIARG_UPDATEOVERLAY"
 author: windows-driver-content
 description: The D3DDDIARG_UPDATEOVERLAY structure describes an overlay to modify.
 old-location: display\d3dddiarg_updateoverlay.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e49f48fd-f2e8-4ccc-813f-f624e06ab365
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: _D3DDDIARG_UPDATEOVERLAY, d3dumddi/D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY, UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, display.d3dddiarg_updateoverlay, D3DDDIARG_UPDATEOVERLAY structure [Display Devices]
+ms.keywords: display.d3dddiarg_updateoverlay, D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, d3dumddi/D3DDDIARG_UPDATEOVERLAY, _D3DDDIARG_UPDATEOVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	D3DDDIARG_UPDATEOVERLAY
 product: Windows
 targetos: Windows
@@ -80,9 +80,13 @@ typedef struct _D3DDDIARG_UPDATEOVERLAY {
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
+
 
  
 

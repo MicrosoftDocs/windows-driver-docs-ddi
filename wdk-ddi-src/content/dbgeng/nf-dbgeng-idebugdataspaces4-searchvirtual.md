@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 1cb779de-fcbb-450d-9932-0cdaa9fbb1e9
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3::SearchVirtual, SearchVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, IDebugDataSpaces_9af5d620-f8df-430c-88ab-0d4f96844499.xml, SearchVirtual method [Windows Debugging], SearchVirtual method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces4::SearchVirtual, dbgeng/IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces::SearchVirtual, IDebugDataSpaces4::SearchVirtual, SearchVirtual method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual method, dbgeng/IDebugDataSpaces::SearchVirtual, IDebugDataSpaces interface [Windows Debugging], SearchVirtual method, dbgeng/IDebugDataSpaces3::SearchVirtual, IDebugDataSpaces3 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces2 interface [Windows Debugging], SearchVirtual method, SearchVirtual, debugger.searchvirtual, SearchVirtual method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2::SearchVirtual
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], SearchVirtual method, dbgeng/IDebugDataSpaces::SearchVirtual, dbgeng/IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces_9af5d620-f8df-430c-88ab-0d4f96844499.xml, IDebugDataSpaces3 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces4 interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces2, SearchVirtual method [Windows Debugging], IDebugDataSpaces interface, SearchVirtual method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces3::SearchVirtual, debugger.searchvirtual, dbgeng/IDebugDataSpaces4::SearchVirtual, SearchVirtual method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4::SearchVirtual, IDebugDataSpaces3, SearchVirtual, SearchVirtual method [Windows Debugging], IDebugDataSpaces, SearchVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces interface [Windows Debugging], SearchVirtual method, IDebugDataSpaces2::SearchVirtual, IDebugDataSpaces4, IDebugDataSpaces3::SearchVirtual, IDebugDataSpaces::SearchVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,21 +29,21 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces.SearchVirtual
 -	IDebugDataSpaces2.SearchVirtual
 -	IDebugDataSpaces3.SearchVirtual
 -	IDebugDataSpaces4.SearchVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::SearchVirtual method
@@ -108,7 +108,9 @@ Receives the location in the target's virtual address space of the pattern, if i
 ## -returns
 
 
+
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -136,11 +138,14 @@ After examining <i>Length</i> bytes the pattern was not found.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 This method searches the target's virtual memory for the first occurrence, subject to granularity, of the pattern entirely contained in the <i>Length</i> bytes of the target's memory starting at the location <i>Offset</i>.
@@ -151,19 +156,32 @@ For additional options, including the ability to restrict the search to writable
 
 
 
+
 ## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554755">SearchVirtual2</a>
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554755">SearchVirtual2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6a7fcb43-93bf-4351-8198-1d788b1bcc8c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.ndisallocatereassemblednetbufferlist, ndis/NdisAllocateReassembledNetBufferList, ndis_netbuf_functions_ref_20c58532-de90-4594-9bd8-5393a70c6b80.xml, NdisAllocateReassembledNetBufferList function [Network Drivers Starting with Windows Vista], NdisAllocateReassembledNetBufferList
+ms.keywords: NdisAllocateReassembledNetBufferList, ndis/NdisAllocateReassembledNetBufferList, netvista.ndisallocatereassemblednetbufferlist, ndis_netbuf_functions_ref_20c58532-de90-4594-9bd8-5393a70c6b80.xml, NdisAllocateReassembledNetBufferList function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisAllocateReassembledNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisAllocateReassembledNetBufferList function
@@ -83,8 +83,8 @@ TBD
 ### -param NetBufferAndNetBufferListPoolHandle [in, optional]
 
 A NET_BUFFER_LIST structure pool handle that was previously returned from the 
-     <mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-     NdisAllocateNetBufferListPool</b></mshelp:link> function. The 
+     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+     NdisAllocateNetBufferListPool</a> function. The 
      <b>fAllocateNetBuffer</b> member of the 
      <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b>, and the 
@@ -127,13 +127,16 @@ A pointer to the NET_BUFFER_LIST structure to reassemble.
 ## -returns
 
 
+
 If the reassemble operation succeeds, 
      <b>NdisAllocateReassembledNetBufferList</b> returns a reassembled NET_BUFFER_LIST structure. If the
      operation fails, it returns <b>NULL</b>.
 
 
 
+
 ## -remarks
+
 
 
 <b>NdisAllocateReassembledNetBufferList</b> allocates, initializes, and returns a new 
@@ -145,13 +148,14 @@ If the reassemble operation succeeds,
     <i>StartOffset</i> in every fragmented NET_BUFFER structure, NDIS concatenates the remaining data in each
     fragmented NET_BUFFER structure into one reassembled NET_BUFFER structure. Reassembled NET_BUFFER_LIST
     structures do not include an initial 
-    <mshelp:link keywords="netvista.net_buffer_list_context" tabindex="0"><b>
-    NET_BUFFER_LIST_CONTEXT</b></mshelp:link> structure.
+    <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">
+    NET_BUFFER_LIST_CONTEXT</a> structure.
 
 Call the 
-    <mshelp:link keywords="netvista.ndisfreereassemblednetbufferlist" tabindex="0"><b>
-    NdisFreeReassembledNetBufferList</b></mshelp:link> function to free a reassembled NET_BUFFER_LIST structure and all
+    <a href="..\ndis\nf-ndis-ndisfreereassemblednetbufferlist.md">
+    NdisFreeReassembledNetBufferList</a> function to free a reassembled NET_BUFFER_LIST structure and all
     of the associated NET_BUFFER structures and MDL chains.
+
 
 
 
@@ -159,17 +163,29 @@ Call the
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
-<mshelp:link keywords="netvista.ndisfreereassemblednetbufferlist" tabindex="0"><b>
-   NdisFreeReassembledNetBufferList</b></mshelp:link>
 
 <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
-<mshelp:link keywords="netvista.ndisallocatenetbufferlistpool" tabindex="0"><b>
-   NdisAllocateNetBufferListPool</b></mshelp:link>
+
 
 <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreereassemblednetbufferlist.md">
+   NdisFreeReassembledNetBufferList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 

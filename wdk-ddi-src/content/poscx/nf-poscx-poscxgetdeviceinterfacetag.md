@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: CF54D922-8EEE-41CE-8CFC-0628756117BE
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: pos.poscxgetdeviceinterfacetag, PosCxGetDeviceInterfaceTag function, PosCxGetDeviceInterfaceTag, poscx/PosCxGetDeviceInterfaceTag
+ms.keywords: PosCxGetDeviceInterfaceTag function, poscx/PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag, pos.poscxgetdeviceinterfacetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	poscx.h
-apiname: 
+apiname:
 -	PosCxGetDeviceInterfaceTag
 product: Windows
 targetos: Windows
@@ -76,13 +76,17 @@ ULONG PosCxGetDeviceInterfaceTag(
 ## -returns
 
 
+
       The device interface tag value.
+
 
 
 
 ## -see-also
 
 <a href="..\poscx\nf-poscx-poscxopen.md">PosCxOpen</a>
+
+
 
  
 

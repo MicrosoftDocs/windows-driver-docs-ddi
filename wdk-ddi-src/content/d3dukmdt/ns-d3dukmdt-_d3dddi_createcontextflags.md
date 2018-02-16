@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_CREATECONTEXTFLAGS
-title: _D3DDDI_CREATECONTEXTFLAGS
+title: "_D3DDDI_CREATECONTEXTFLAGS"
 author: windows-driver-content
 description: The D3DDDI_CREATECONTEXTFLAGS structure describes how to create a context in a call to the pfnCreateContextCb function.
 old-location: display\d3dddi_createcontextflags.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e450f85c-4c73-44a8-9d0a-da2c212c87c9
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dddi_createcontextflags, _D3DDDI_CREATECONTEXTFLAGS, d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml
+ms.keywords: "_D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags, D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	D3DDDI_CREATECONTEXTFLAGS
 product: Windows
 targetos: Windows
@@ -113,9 +113,13 @@ A member in the union that is contained in D3DDDI_CREATECONTEXTFLAGS that can ho
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontext.md">D3DDDICB_CREATECONTEXT</a>
+
+
+
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontext.md">D3DDDICB_CREATECONTEXT</a>
+
 
  
 

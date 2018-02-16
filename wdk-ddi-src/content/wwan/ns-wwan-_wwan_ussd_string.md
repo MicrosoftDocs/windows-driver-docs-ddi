@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_USSD_STRING
-title: _WWAN_USSD_STRING
+title: "_WWAN_USSD_STRING"
 author: windows-driver-content
 description: The WWAN_USSD_STRING structure describes an Unstructured Supplementary Service Data (USSD) string.
 old-location: netvista\wwan_ussd_string.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9DE6CE5D-9570-4728-ACED-D6863812A3F4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_USSD_STRING, *PWWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista], PWWAN_USSD_STRING, _WWAN_USSD_STRING, wwan/WWAN_USSD_STRING, netvista.wwan_ussd_string, WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING
+ms.keywords: "_WWAN_USSD_STRING, wwan/WWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING, *PWWAN_USSD_STRING, PWWAN_USSD_STRING, wwan/PWWAN_USSD_STRING, netvista.wwan_ussd_string"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_USSD_STRING
 product: Windows
 targetos: Windows
-req.typenames: WWAN_USSD_STRING, *PWWAN_USSD_STRING
+req.typenames: "*PWWAN_USSD_STRING, WWAN_USSD_STRING"
 req.product: Windows 10 or later.
 ---
 
@@ -86,12 +86,14 @@ The length, in bytes, of USSD string in stored in the <b>String</b> member.
 
 
 
+
 #### - String[WWAN_USSD_STRING_LEN_MAX]
 
 The USSD string encoded according to the <b>DataCodingScheme</b> member.
 
 
 ## -remarks
+
 
 
 <b>StringLength</b> can be from 1 to 160 bytes. Specify 0 bytes to indicate an absent USSD string.
@@ -104,11 +106,16 @@ For USSD notifications, the miniport driver or MB device must encode the USSD st
 
 
 
+
 ## -see-also
+
+<a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a>
+
+
 
 <a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a>
 
-<a href="..\wwan\ns-wwan-_wwan_ussd_request.md">WWAN_USSD_REQUEST</a>
+
 
  
 

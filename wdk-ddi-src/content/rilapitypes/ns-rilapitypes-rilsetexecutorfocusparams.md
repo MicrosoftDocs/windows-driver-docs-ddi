@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 724df793-72cb-4460-bec8-0136b86ff82d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *LPRILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorfocusparams_2, rilapitypes/RILSETEXECUTORFOCUSPARAMS
+ms.keywords: RILSETEXECUTORFOCUSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS, netvista.rilsetexecutorfocusparams_2, rilapitypes/RILSETEXECUTORFOCUSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILSETEXECUTORFOCUSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSETEXECUTORFOCUSPARAMS, *LPRILSETEXECUTORFOCUSPARAMS
+req.typenames: "*LPRILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -72,7 +72,5 @@ typedef struct _RILSETEXECUTORFOCUSPARAMS {
 ### -field dwNumberOfExecutors
 
 
-
 ### -field fFocusStates
-
 

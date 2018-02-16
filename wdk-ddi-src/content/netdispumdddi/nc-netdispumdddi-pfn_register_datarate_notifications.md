@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	Netdispumdddi.h
-apiname: 
+apiname:
 -	RegisterForDataRateNotifications
 product: Windows
 targetos: Windows
@@ -94,9 +94,11 @@ A pointer to the driver routine that will be called when the bit rate of the Mir
 ## -returns
 
 
+
 If the operating system successfully registers or unregisters the driver for notifications, it returns <b>STATUS_SUCCESS</b>.
 
 Otherwise, these error codes can be returned:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -124,11 +126,14 @@ The operating system cannot support quality of service (QoS) notifications, or t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The user-mode driver can optionally call this function to register for automatic calls to data rate notification callback functions once a second.
@@ -142,15 +147,24 @@ The function fails if the driver attempts to register while it is already regist
 
 
 
+
 ## -see-also
-
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
-
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
 
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
 
+
+
 <a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a>
+
+
+
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+
+
+
+<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
+
+
 
  
 

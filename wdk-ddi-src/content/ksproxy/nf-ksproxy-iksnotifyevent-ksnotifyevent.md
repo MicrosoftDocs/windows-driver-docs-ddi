@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: c0813b1a-402e-46ba-8d81-e31cdcbbb8dd
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsNotifyEvent, ksproxy/IKsNotifyEvent::KsNotifyEvent, IKsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent interface, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, IKsNotifyEvent interface [Streaming Media Devices], KsNotifyEvent method, KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent::KsNotifyEvent, stream.iksnotifyevent_ksnotifyevent
+ms.keywords: stream.iksnotifyevent_ksnotifyevent, IKsNotifyEvent interface [Streaming Media Devices], KsNotifyEvent method, IKsNotifyEvent::KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, IKsNotifyEvent, ksproxy/IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], IKsNotifyEvent interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsNotifyEvent.KsNotifyEvent
 product: Windows
 targetos: Windows
@@ -89,13 +89,17 @@ Specifies the second data parameter for the event.
 ## -returns
 
 
+
 Returns NOERROR if successful; otherwise, returns an error code.
+
 
 
 
 ## -see-also
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=183549">IMediaEvent</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	61883.h
-apiname: 
+apiname:
 -	IOCTL_61883_CLASS
 product: Windows
 targetos: Windows
@@ -71,7 +71,9 @@ req.typenames: CMP_PLUG_TYPE
 ### -input-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -83,21 +85,27 @@ req.typenames: CMP_PLUG_TYPE
 ### -output-buffer-length
 
 
+
 <text></text>
+
 
 
 
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -109,6 +117,8 @@ The information the IEC-61883 protocol driver returns in the I/O Status Block is
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+
+
 
  
 

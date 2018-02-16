@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: a21442e5-8237-4d00-8d8a-6fabd6cc0db2
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.gettypeoptions, IDebugSymbols3 interface [Windows Debugging], GetTypeOptions method, GetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetTypeOptions, GetTypeOptions method [Windows Debugging], IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, GetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetTypeOptions, IDebugSymbols2 interface [Windows Debugging], GetTypeOptions method, IDebugSymbols3::GetTypeOptions, IDebugSymbols3, GetTypeOptions, dbgeng/IDebugSymbols2::GetTypeOptions
+ms.keywords: dbgeng/IDebugSymbols2::GetTypeOptions, GetTypeOptions method [Windows Debugging], IDebugSymbols2::GetTypeOptions, dbgeng/IDebugSymbols3::GetTypeOptions, GetTypeOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols2, IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, GetTypeOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetTypeOptions method, debugger.gettypeoptions, IDebugSymbols3::GetTypeOptions, GetTypeOptions, IDebugSymbols3 interface [Windows Debugging], GetTypeOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols2.GetTypeOptions
 -	IDebugSymbols3.GetTypeOptions
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetTypeOptions method
@@ -76,7 +76,9 @@ Receives the type formatting options.  <i>Options</i> is a bit-set; for a descri
 ## -returns
 
 
+
 This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -93,11 +95,14 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 After the type options have been changed, for each client the engine sends out notification to that client's <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a> by passing the DEBUG_CES_TYPE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a> method.
@@ -106,17 +111,28 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
+
 
  
 

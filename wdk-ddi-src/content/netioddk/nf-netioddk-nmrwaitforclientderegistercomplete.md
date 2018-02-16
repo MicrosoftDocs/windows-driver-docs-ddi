@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aed0a69e-868c-4c7d-b601-003ff357da38
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml, netvista.nmrwaitforclientderegistercomplete, NmrWaitForClientDeregisterComplete, netioddk/NmrWaitForClientDeregisterComplete, NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml, netvista.nmrwaitforclientderegistercomplete, NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForClientDeregisterComplete, NmrWaitForClientDeregisterComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Netio.lib
 req.dll: 
-req.irql: < DISPATCH_LEVEL
-topictype: 
+req.irql: "< DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	netio.lib
 -	netio.dll
-apiname: 
+apiname:
 -	NmrWaitForClientDeregisterComplete
 product: Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
 ---
 
 # NmrWaitForClientDeregisterComplete function
@@ -80,8 +80,10 @@ A handle used by the NMR to represent the registration of the client module. The
 ## -returns
 
 
+
 The 
      <b>NmrWaitForClientDeregisterComplete</b> function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -123,11 +125,14 @@ An error occurred.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 A client module calls the 
@@ -156,9 +161,12 @@ A client module typically calls the
 
 
 
+
 ## -see-also
 
 <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
+
 
  
 

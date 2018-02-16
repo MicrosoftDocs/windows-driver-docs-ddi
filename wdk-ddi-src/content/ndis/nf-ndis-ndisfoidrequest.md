@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8434bf2c-9c9a-49a1-bf88-b67b1eec721c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisFOidRequest function [Network Drivers Starting with Windows Vista], NdisFOidRequest, netvista.ndisfoidrequest, ndis_request_ref_b5034fc8-9122-4c87-b690-a6989c1592c1.xml, ndis/NdisFOidRequest
+ms.keywords: NdisFOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFOidRequest, netvista.ndisfoidrequest, NdisFOidRequest, ndis_request_ref_b5034fc8-9122-4c87-b690-a6989c1592c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,20 +28,20 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisFOidRequest
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisFOidRequest function
@@ -90,12 +90,15 @@ A pointer to an
 ## -returns
 
 
+
 See the 
      <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function.
 
 
 
+
 ## -remarks
+
 
 
 Filter drivers can originate OID requests to underlying drivers by calling 
@@ -130,17 +133,28 @@ A driver can call
 
 
 
+
 ## -see-also
-
-<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
 
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
+
+
 
  
 

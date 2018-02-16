@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section)
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	usbcamdi.h
-apiname: 
+apiname:
 -	CamNewVideoFrameEx
 product: Windows
 targetos: Windows
@@ -97,11 +97,14 @@ Pointer to the raw frame buffer length. The length is expressed in bytes. The ca
 ## -returns
 
 
+
 <b>CamNewVideoFrameEx</b> does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 USBCAMD calls the camera minidriver's <b>CamNewVideoFrameEx</b> callback function at IRQL = DISPATCH_LEVEL.
@@ -109,5 +112,6 @@ USBCAMD calls the camera minidriver's <b>CamNewVideoFrameEx</b> callback functio
 The original USBCAMD does not call <b>CamNewVideoFrameEx</b>.
 
 This function is optional.
+
 
 

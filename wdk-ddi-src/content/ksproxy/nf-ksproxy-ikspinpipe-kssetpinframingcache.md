@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: E334FEE1-DD78-4906-ADFA-1B496F91BA28
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsSetPinFramingCache method [Streaming Media Devices], IKsPinPipe interface, KsSetPinFramingCache, IKsPinPipe interface [Streaming Media Devices], KsSetPinFramingCache method, ksproxy/IKsPinPipe::KsSetPinFramingCache, KsSetPinFramingCache method [Streaming Media Devices], IKsPinPipe, stream.ikspinpipe_kssetpinframingcache, IKsPinPipe::KsSetPinFramingCache
+ms.keywords: IKsPinPipe interface [Streaming Media Devices], KsSetPinFramingCache method, stream.ikspinpipe_kssetpinframingcache, IKsPinPipe::KsSetPinFramingCache, ksproxy/IKsPinPipe::KsSetPinFramingCache, IKsPinPipe, KsSetPinFramingCache method [Streaming Media Devices], IKsPinPipe interface, KsSetPinFramingCache method [Streaming Media Devices], KsSetPinFramingCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: ksproxy.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ksproxy.h
-apiname: 
+apiname:
 -	IKsPinPipe.KsSetPinFramingCache
 product: Windows
 targetos: Windows
@@ -85,16 +85,21 @@ HRESULT KsSetPinFramingCache(
 
 
 
+
 ## -returns
+
 
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
+
 ## -see-also
 
 <a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
+
+
 
  
 

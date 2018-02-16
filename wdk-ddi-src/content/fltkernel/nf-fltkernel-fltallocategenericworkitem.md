@@ -7,8 +7,8 @@ old-location: ifsk\fltallocategenericworkitem.htm
 old-project: ifsk
 ms.assetid: 1be555a5-9fa7-4179-8a36-803b8792db86
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FltAllocateGenericWorkItem, FltApiRef_a_to_d_06bae00e-f41d-4cc9-8664-94e06d004458.xml, FltAllocateGenericWorkItem function [Installable File System Drivers], ifsk.fltallocategenericworkitem, fltkernel/FltAllocateGenericWorkItem
+ms.date: 2/7/2018
+ms.keywords: fltkernel/FltAllocateGenericWorkItem, FltApiRef_a_to_d_06bae00e-f41d-4cc9-8664-94e06d004458.xml, FltAllocateGenericWorkItem function [Installable File System Drivers], FltAllocateGenericWorkItem, ifsk.fltallocategenericworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	fltmgr.sys
-apiname: 
+apiname:
 -	FltAllocateGenericWorkItem
 product: Windows
 targetos: Windows
@@ -66,14 +66,18 @@ PFLT_GENERIC_WORKITEM FltAllocateGenericWorkItem(void);
 
 
 
+
 ## -returns
+
 
 
 <b>FltAllocateGenericWorkItem</b> returns <b>NULL</b> if there is insufficient memory in nonpaged pool to satisfy the request. Otherwise, it returns a pointer to the allocated work item. 
 
 
 
+
 ## -remarks
+
 
 
 <b>FltAllocateGenericWorkItem</b> allocates a generic work item from nonpaged pool. 
@@ -84,15 +88,20 @@ To free the work item, a minifilter driver typically calls <a href="..\fltkernel
 
 
 
-## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a>
+## -see-also
 
 <a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>
 
- 
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAllocateGenericWorkItem function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAllocateGenericWorkItem function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

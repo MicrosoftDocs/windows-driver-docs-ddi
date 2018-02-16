@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRNIDV2_IN
-title: _SendRNIDV2_IN
+title: "_SendRNIDV2_IN"
 author: windows-driver-content
 description: The SendRNIDV2_IN structure is used to deliver input parameter data to the SendRNIDV2 WMI method.
 old-location: storage\sendrnidv2_in.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b9c0833d-96ac-41cb-815f-b2df27f46cb4
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: storage.sendrnidv2_in, hbapiwmi/SendRNIDV2_IN, PSendRNIDV2_IN, structs-Fibre_5411860d-c8c8-4f4d-b4cc-751973c3d02e.xml, *PSendRNIDV2_IN, SendRNIDV2_IN, PSendRNIDV2_IN structure pointer [Storage Devices], _SendRNIDV2_IN, hbapiwmi/PSendRNIDV2_IN, SendRNIDV2_IN structure [Storage Devices]
+ms.keywords: SendRNIDV2_IN, *PSendRNIDV2_IN, hbapiwmi/SendRNIDV2_IN, PSendRNIDV2_IN structure pointer [Storage Devices], PSendRNIDV2_IN, SendRNIDV2_IN structure [Storage Devices], _SendRNIDV2_IN, storage.sendrnidv2_in, hbapiwmi/PSendRNIDV2_IN, structs-Fibre_5411860d-c8c8-4f4d-b4cc-751973c3d02e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hbapiwmi.h
-apiname: 
+apiname:
 -	SendRNIDV2_IN
 product: Windows
 targetos: Windows
-req.typenames: SendRNIDV2_IN, *PSendRNIDV2_IN
+req.typenames: "*PSendRNIDV2_IN, SendRNIDV2_IN"
 ---
 
 # _SendRNIDV2_IN structure
@@ -93,13 +93,17 @@ Indicates the node identification data format. For a description of the values t
 ## -remarks
 
 
+
 The WMI tool suite generates a declaration of the SendRNIDV2_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+
 
 
 
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565463">SendRNIDV2</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DxgkCbReadDeviceSpace
 product: Windows
 targetos: Windows
@@ -87,6 +87,30 @@ The type of read transaction to be performed. This parameter must be one of the 
 
 
 
+
+#### DXGK_WHICHSPACE_BRIDGE
+
+Read from the PCI Express (PCIe) root port's configuration space.
+
+
+
+#### DXGK_WHICHSPACE_CONFIG
+
+Read from the display adapter's configuration space.
+
+
+
+#### DXGK_WHICHSPACE_MCH
+
+Read from the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
+
+
+
+#### DXGK_WHICHSPACE_ROM
+
+Read from the display adapter's expansion ROM.
+
+
 ### -param Buffer [in]
 
 A pointer to a caller-allocated buffer that receives the data read from the configuration space or ROM.
@@ -107,30 +131,12 @@ The number of bytes to be read.
 A pointer to a ULONG-typed variable that receives the number of bytes actually read.
 
 
-##### - DataType.DXGK_WHICHSPACE_BRIDGE
-
-Read from the PCI Express (PCIe) root port's configuration space.
-
-
-##### - DataType.DXGK_WHICHSPACE_CONFIG
-
-Read from the display adapter's configuration space.
-
-
-##### - DataType.DXGK_WHICHSPACE_ROM
-
-Read from the display adapter's expansion ROM.
-
-
-##### - DataType.DXGK_WHICHSPACE_MCH
-
-Read from the configuration space of a memory controller hub that is a peer to the adapter's parent bus.
-
-
 ## -returns
 
 
+
 <b>DxgkCbReadDeviceSpace</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -169,13 +175,17 @@ Read from the configuration space of a memory controller hub that is a peer to t
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_write_device_space.md">DxgkCbWriteDeviceSpace</a>
+
+
 
  
 

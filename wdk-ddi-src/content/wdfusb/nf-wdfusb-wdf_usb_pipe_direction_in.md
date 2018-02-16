@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3fca6d50-ac38-4edf-b24a-ea4fe5d8a4fd
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_PIPE_DIRECTION_IN function, wdf.wdf_usb_pipe_direction_in, kmdf.wdf_usb_pipe_direction_in, DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, WDF_USB_PIPE_DIRECTION_IN, wdfusb/WDF_USB_PIPE_DIRECTION_IN
+ms.keywords: WDF_USB_PIPE_DIRECTION_IN function, DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, WDF_USB_PIPE_DIRECTION_IN, kmdf.wdf_usb_pipe_direction_in, wdfusb/WDF_USB_PIPE_DIRECTION_IN, wdf.wdf_usb_pipe_direction_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	None
 -	None.dll
-apiname: 
+apiname:
 -	WDF_USB_PIPE_DIRECTION_IN
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE
+req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,14 @@ A USB endpoint address.
 ## -returns
 
 
+
 <b>WDF_USB_PIPE_DIRECTION_IN</b> returns <b>TRUE</b> if the specified endpoint is an input endpoint. Otherwise, this function returns <b>FALSE</b>.
 
 
 
+
 ## -remarks
+
 
 
 The high bit of the endpoint address determines the direction (input or output) of an endpoint. For more information about endpoint addresses, see the USB specification.
@@ -92,11 +95,16 @@ For more information about the <b>WDF_USB_PIPE_DIRECTION_IN</b> function and USB
 
 
 
+
 ## -see-also
 
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_out.md">WDF_USB_PIPE_DIRECTION_OUT</a>
 
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisinendpoint.md">WdfUsbTargetPipeIsInEndpoint</a>
+
+
 
  
 

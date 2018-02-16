@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ENUMADAPTERS
-title: _D3DKMT_ENUMADAPTERS
+title: "_D3DKMT_ENUMADAPTERS"
 author: windows-driver-content
 description: Supplies information for enumerating all graphics adapters on the system.
 old-location: display\d3dkmt_enumadapters.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: a05252bc-6bc4-4cef-aa42-e2c03556847a
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_enumadapters, D3DKMT_ENUMADAPTERS, d3dkmthk/D3DKMT_ENUMADAPTERS, _D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS structure [Display Devices]
+ms.keywords: D3DKMT_ENUMADAPTERS structure [Display Devices], _D3DKMT_ENUMADAPTERS, display.d3dkmt_enumadapters, d3dkmthk/D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	D3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_ENUMADAPTERS
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterinfo.md">D3DKMT_ADAP
 ## -see-also
 
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapterinfo.md">D3DKMT_ADAPTERINFO</a>
+
+
 
  
 

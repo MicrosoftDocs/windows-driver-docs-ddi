@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3d10umddi.h
-apiname: 
+apiname:
 -	CalcPrivateShaderSize
 product: Windows
 targetos: Windows
-req.typenames: *PSETRESULT_INFO, SETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D10DDI_CALCPRIVATESHADERSIZE callback
@@ -75,12 +75,12 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *pShaderCode
 
 
-
 ### -param *
+
+
 
 
 
@@ -92,11 +92,6 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
  [in] A handle to the display device (graphics context).
 
 
-#### - pSignatures
-
- [in] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
-
-
 #### - pCode
 
 
@@ -104,10 +99,17 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
      
 
 
+#### - pSignatures
+
+ [in] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a> structure that makes up the shader's signature.
+
+
 ## -returns
 
 
+
 <i>CalcPrivateShaderSize</i> returns the size of the memory region that the driver requires for creating a shader.
+
 
 
 
@@ -115,7 +117,11 @@ SIZE_T APIENTRY CalcPrivateShaderSize(
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_stage_io_signatures.md">D3D10DDIARG_STAGE_IO_SIGNATURES</a>
+
+
 
  
 

@@ -7,8 +7,8 @@ old-location: buses\_ucxendpointcreate.htm
 old-project: usbref
 ms.assetid: 2BB3B2CE-FD15-4D28-BBDA-29C3BB523874
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: UcxEndpointCreate, buses._ucxendpointcreate, ucxendpoint/UcxEndpointCreate, UcxEndpointCreate method [Buses]
+ms.date: 2/8/2018
+ms.keywords: UcxEndpointCreate method [Buses], ucxendpoint/UcxEndpointCreate, UcxEndpointCreate, buses._ucxendpointcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	ucxendpoint.h
-apiname: 
+apiname:
 -	UcxEndpointCreate
 product: Windows
 targetos: Windows
@@ -96,11 +96,14 @@ A pointer to a variable that receives a handle to the new endpoint object.
 ## -returns
 
 
+
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code. 
 
 
 
+
 ## -remarks
+
 
 
 The client driver for the host controller must call this method after the <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> call. The parent of the new endpoint object is the USB device object. 
@@ -108,5 +111,6 @@ The client driver for the host controller must call this method after the <a hre
 The method initializes the endpoint object with information such as the type of endpoint, pipe, transfer, and maximum transfers size.
 
 For a code example, see <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_endpoint_add.md">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a>.
+
 
 

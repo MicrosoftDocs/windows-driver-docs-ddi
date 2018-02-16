@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: e6197993-b998-424e-ab5d-a91a57c7398c
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: image.iwiadrvitem_getparentitem, GetParentItem method [Imaging Devices], IWiaDrvItem interface, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, IWiaDrvItem interface [Imaging Devices], GetParentItem method, GetParentItem, wiamindr_lh/IWiaDrvItem::GetParentItem, GetParentItem method [Imaging Devices], IWiaDrvItem::GetParentItem, IWiaDrvItem
+ms.keywords: IWiaDrvItem interface [Imaging Devices], GetParentItem method, GetParentItem method [Imaging Devices], IWiaDrvItem interface, image.iwiadrvitem_getparentitem, DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, GetParentItem, IWiaDrvItem, IWiaDrvItem::GetParentItem, GetParentItem method [Imaging Devices], wiamindr_lh/IWiaDrvItem::GetParentItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: wiamindr_lh.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	wiamindr_lh.h
-apiname: 
+apiname:
 -	IWiaDrvItem.GetParentItem
 product: Windows
 targetos: Windows
@@ -74,6 +74,7 @@ HRESULT GetParentItem(
 
 
 
+
 #### - ppIParentItem [out, optional]
 
 Returns a pointer to the parent item of the current item.
@@ -82,24 +83,34 @@ Returns a pointer to the parent item of the current item.
 ## -returns
 
 
+
 If the method succeeds, it stores a pointer to the parent item in <i>pplParentItem</i> and returns S_OK. If the parent item is the root item, the method returns S_FALSE. If the method fails, it returns a standard COM error code.
+
 
 
 
 ## -remarks
 
 
+
 Minidrivers typically use this method to obtain a pointer to the nonroot parent item of the current item.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543878">IWiaDrvItem::GetFirstChildItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+
+
 
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543878">IWiaDrvItem::GetFirstChildItem</a>
+
+
 
  
 

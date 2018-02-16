@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66d5596b-5f5b-46a6-9151-074c4713940f
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILUICCAPPDATACHANGEENUM, rilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, rilapitypes/RIL_UICCAPP_DATACHANGE_MBDN, RIL_UICCAPP_DATACHANGE_MBDN, RIL_UICCAPP_DATACHANGE_MAX, rilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RIL_UICCAPP_DATACHANGE_ESNME, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, netvista.riluiccappdatachangeenum_2, RILUICCAPPDATACHANGEENUM, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCAPP_DATACHANGE_MAX, rilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET
+ms.keywords: RILUICCAPPDATACHANGEENUM, rilapitypes/RILUICCAPPDATACHANGEENUM, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, rilapitypes/RIL_UICCAPP_DATACHANGE_MAX, rilapitypes/RIL_UICCAPP_DATACHANGE_MBDN, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, netvista.riluiccappdatachangeenum_2, RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_MBDN, rilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, rilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, RIL_UICCAPP_DATACHANGE_ESNME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILUICCAPPDATACHANGEENUM
 product: Windows
 targetos: Windows
@@ -75,23 +75,17 @@ typedef enum _RILUICCAPPDATACHANGEENUM {
 ### -field RIL_UICCAPP_DATACHANGE_MSISDN
 
 
-
 ### -field RIL_UICCAPP_DATACHANGE_MBDN
-
 
 
 ### -field RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET
 
 
-
 ### -field RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET
-
 
 
 ### -field RIL_UICCAPP_DATACHANGE_ESNME
 
 
-
 ### -field RIL_UICCAPP_DATACHANGE_MAX
-
 

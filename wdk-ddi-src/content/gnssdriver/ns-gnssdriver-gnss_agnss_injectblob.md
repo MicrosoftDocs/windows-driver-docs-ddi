@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: DAC91C40-C9B3-433C-AA64-CE4C021CD8C5
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], GNSS_AGNSS_INJECTBLOB, gnssdriver/GNSS_AGNSS_INJECTBLOB, sensors.gnss_agnss_injectblob, PGNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB
+ms.keywords: PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB, sensors.gnss_agnss_injectblob, gnssdriver/GNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_AGNSS_INJECTBLOB
 product: Windows
 targetos: Windows
-req.typenames: *PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB
+req.typenames: "*PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB"
 ---
 
 # GNSS_AGNSS_INJECTBLOB structure

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEVICEPRESENT_STATE
-title: _D3DKMT_DEVICEPRESENT_STATE
+title: "_D3DKMT_DEVICEPRESENT_STATE"
 author: windows-driver-content
 description: The D3DKMT_DEVICEPRESENT_STATE structure describes parameters for retrieving the present status for a device.
 old-location: display\d3dkmt_devicepresent_state.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: eed64347-fa5a-4b80-a28d-9190ae30b169
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_DEVICEPRESENT_STATE, display.d3dkmt_devicepresent_state, d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml, _D3DKMT_DEVICEPRESENT_STATE
+ms.keywords: "_D3DKMT_DEVICEPRESENT_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], D3DKMT_DEVICEPRESENT_STATE, display.d3dkmt_devicepresent_state, OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_DEVICEPRESENT_STATE
 product: Windows
 targetos: Windows
@@ -80,9 +80,13 @@ typedef struct _D3DKMT_DEVICEPRESENT_STATE {
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a>
+
+
+
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a>
+
 
  
 

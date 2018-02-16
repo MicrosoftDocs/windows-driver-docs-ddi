@@ -8,7 +8,7 @@ old-project: sensors
 ms.assetid: CE611168-76B3-496F-91C7-932E1F259529
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_FixSession_SingleShot, GNSS_FIXSESSIONTYPE, GNSS_FixSession_DistanceTracking, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], sensors.gnss_fixsessiontype, gnssdriver/GNSS_FIXSESSIONTYPE, GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_DistanceTracking, GNSS_FixSession_SingleShot, GNSS_FixSession_ContinuousTracking
+ms.keywords: GNSS_FIXSESSIONTYPE, gnssdriver/GNSS_FixSession_DistanceTracking, GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_SingleShot, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FixSession_ContinuousTracking, sensors.gnss_fixsessiontype, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FIXSESSIONTYPE, GNSS_FixSession_LKG, GNSS_FixSession_SingleShot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <= DISPATCH_LEVEL
-topictype: 
+req.irql: "<= DISPATCH_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	gnssdriver.h
-apiname: 
+apiname:
 -	GNSS_FIXSESSIONTYPE
 product: Windows
 targetos: Windows

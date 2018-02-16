@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETPROCESSDEVICELOSTSUPPORT
-title: _D3DKMT_GETPROCESSDEVICELOSTSUPPORT
+title: "_D3DKMT_GETPROCESSDEVICELOSTSUPPORT"
 author: windows-driver-content
 description: Used to get the indicated process.
 old-location: display\d3dkmt-getprocessdevicelostsupport.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 726a4f12-3cee-4d95-89d3-39f2bb357967
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices], display.d3dkmt-getprocessdevicelostsupport, d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, _D3DKMT_GETPROCESSDEVICELOSTSUPPORT
+ms.keywords: D3DKMT_GETPROCESSDEVICELOSTSUPPORT, display.d3dkmt-getprocessdevicelostsupport, d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, _D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	D3DKMT_GETPROCESSDEVICELOSTSUPPORT
 product: Windows
 targetos: Windows

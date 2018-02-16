@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PRIVATEDATA
-title: _DXVADDI_PRIVATEDATA
+title: "_DXVADDI_PRIVATEDATA"
 author: windows-driver-content
 description: The DXVADDI_PRIVATEDATA structure describes data that is required for a particular decoder to operate.
 old-location: display\dxvaddi_privatedata.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 51e520db-fbec-4c6b-a23c-4d401de9ae63
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: display.dxvaddi_privatedata, d3dumddi/DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA structure [Display Devices], DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, _DXVADDI_PRIVATEDATA
+ms.keywords: "_DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA, DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, DXVADDI_PRIVATEDATA structure [Display Devices], d3dumddi/DXVADDI_PRIVATEDATA, display.dxvaddi_privatedata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	DXVADDI_PRIVATEDATA
 product: Windows
 targetos: Windows
@@ -80,11 +80,17 @@ typedef struct _DXVADDI_PRIVATEDATA {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdecodedevice.md">D3DDDIARG_CREATEDECODEDEVICE</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeexecute.md">D3DDDIARG_DECODEEXECUTE</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeextensionexecute.md">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
+
+
 
  
 

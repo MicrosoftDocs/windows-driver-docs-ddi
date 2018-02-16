@@ -8,7 +8,7 @@ old-project: image
 ms.assetid: 24133d1d-eac4-4740-9635-1205f7a2c4d4
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: GetStatus, GetStatus method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::GetStatus, image.istiusd_getstatus, GetStatus method [Imaging Devices], IStiUSD, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, IStiUSD interface [Imaging Devices], GetStatus method, IStiUSD::GetStatus
+ms.keywords: image.istiusd_getstatus, IStiUSD interface [Imaging Devices], GetStatus method, GetStatus method [Imaging Devices], IStiUSD interface, IStiUSD::GetStatus, GetStatus method [Imaging Devices], stiusd/IStiUSD::GetStatus, IStiUSD, GetStatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: stiusd.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	stiusd.h
-apiname: 
+apiname:
 -	IStiUSD.GetStatus
 product: Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
+req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
 req.product: Windows 10 or later.
 ---
 
@@ -76,11 +76,14 @@ Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_device_status.md">STI_
 ## -returns
 
 
+
 If the operation succeeds, the method should return S_OK. Otherwise, it should return one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The caller supplies values for the <b>dwSize</b> and <b>StatusMask</b> members of the <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure, and the minidriver must supply values for the rest of the structure members.
@@ -91,9 +94,12 @@ If the caller specifies STI_DEVSTATUS_ONLINE_STATE in the supplied STI_DEVICE_ST
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543752">IStiDevice::GetStatus</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_NOTIFICATION_PARAMETERS
-title: _DEVICE_DSM_NOTIFICATION_PARAMETERS
+title: "_DEVICE_DSM_NOTIFICATION_PARAMETERS"
 author: windows-driver-content
 description: The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification action related to the data-set attributes for a device.
 old-location: storage\device_dsm_notification_parameters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57885E58-C7EC-493E-9AB8-B9DABC6CEA2A
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DEVICE_DSM_NOTIFICATION_PARAMETERS structure [Storage Devices], PDEVICE_DSM_NOTIFICATION_PARAMETERS, *PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS, storage.device_dsm_notification_parameters
+ms.keywords: "_DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS structure [Storage Devices], ntddstor/PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer [Storage Devices], ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS, storage.device_dsm_notification_parameters, *PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddstor.h
-apiname: 
+apiname:
 -	DEVICE_DSM_NOTIFICATION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: *PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS
+req.typenames: DEVICE_DSM_NOTIFICATION_PARAMETERS, *PDEVICE_DSM_NOTIFICATION_PARAMETERS
 ---
 
 # _DEVICE_DSM_NOTIFICATION_PARAMETERS structure
@@ -84,6 +84,20 @@ A flag that specifies the characteristics of the notification operation. The  <b
 
 
 
+
+#### DEVICE_DSM_NOTIFY_FLAG_BEGIN
+
+The Logical Block Address (LBA) range is currently being used by the file types that are specified in the <b>FileTypeIDs</b> member. 
+
+<div class="alert"><b>Note</b>  The LBA range is specified by the data set range of the <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> structure.</div>
+<div> </div>
+
+
+#### DEVICE_DSM_NOTIFY_FLAG_END
+
+The LBA range is no longer being used by the file types that are specified in the <b>FileTypeIDs</b> member. 
+
+
 ### -field NumFileTypeIDs
 
 The number of entries in the <b>FileTypeIDs</b> member.
@@ -95,9 +109,11 @@ The number of entries in the <b>FileTypeIDs</b> member.
 
 
 
+
 #### - FileTypeIDs
 
 One or more <a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> values that specify the file type for the notification operation. The following table describes the <b>FileTypeIDs</b> GUID values.
+
 <table>
 <tr>
 <th>GUID value</th>
@@ -115,23 +131,16 @@ One or more <a href="https://msdn.microsoft.com/library/windows/hardware/dn92293
 <td>FILE_TYPE_NOTIFICATION_GUID_CRASHDUMP_FILE</td>
 <td>Specifies a notification operation for a system crash dump file.</td>
 </tr>
-</table> 
-
-
-##### - Flags.DEVICE_DSM_NOTIFY_FLAG_BEGIN
-
-The Logical Block Address (LBA) range is currently being used by the file types that are specified in the <b>FileTypeIDs</b> member. 
-<div class="alert"><b>Note</b>  The LBA range is specified by the data set range of the <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> structure.</div><div> </div>
-
-##### - Flags.DEVICE_DSM_NOTIFY_FLAG_END
-
-The LBA range is no longer being used by the file types that are specified in the <b>FileTypeIDs</b> member. 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 Starting with Windows 7, the NTFS file system notifies the storage stack when the LBA data set range changes for  a specified set of files. The file system issues this notification by sending the storage stack an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> request with a system buffer that contains a <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> structure. For the notification operation, the file system sets the members of the <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b> structure as follows:
+
 <ul>
 <li>
 The <b>Action</b> member is set to <b>DeviceDsmAction_Notification</b>.
@@ -150,11 +159,16 @@ If the <b>Flags</b> member is set to <b>DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE</b
 </ul>
 
 
+
 ## -see-also
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
+
 
 <a href="..\ntddstor\ns-ntddstor-_device_manage_data_set_attributes.md">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_manage_data_set_attributes.md">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+
 
  
 

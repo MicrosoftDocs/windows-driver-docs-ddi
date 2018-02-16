@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfusb._WDF_USB_DEVICE_TRAITS
-title: _WDF_USB_DEVICE_TRAITS
+title: "_WDF_USB_DEVICE_TRAITS"
 author: windows-driver-content
 description: The WDF_USB_DEVICE_TRAITS enumeration identifies USB device traits.
 old-location: wdf\wdf_usb_device_traits.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5ba625f5-5bc0-4e2b-a7a9-5014746086c8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WDF_USB_DEVICE_TRAITS enumeration, wdfusb/WDF_USB_DEVICE_TRAIT_SELF_POWERED, wdfusb/WDF_USB_DEVICE_TRAITS, wdfusb/WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, wdfusb/WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, WDF_USB_DEVICE_TRAIT_SELF_POWERED, DFUsbRef_504c0bd9-3ba7-47cc-a99d-ab54d46cbdc4.xml, wdf.wdf_usb_device_traits, WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, _WDF_USB_DEVICE_TRAITS, kmdf.wdf_usb_device_traits, WDF_USB_DEVICE_TRAITS
+ms.keywords: WDF_USB_DEVICE_TRAIT_SELF_POWERED, WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, wdfusb/WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, wdfusb/WDF_USB_DEVICE_TRAITS, wdfusb/WDF_USB_DEVICE_TRAIT_SELF_POWERED, WDF_USB_DEVICE_TRAITS enumeration, wdfusb/WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, DFUsbRef_504c0bd9-3ba7-47cc-a99d-ab54d46cbdc4.xml, WDF_USB_DEVICE_TRAITS, wdf.wdf_usb_device_traits, kmdf.wdf_usb_device_traits, _WDF_USB_DEVICE_TRAITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: <=DISPATCH_LEVEL  (See Remarks section.)
-topictype: 
+req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfusb.h
-apiname: 
+apiname:
 -	WDF_USB_DEVICE_TRAITS
 product: Windows
 targetos: Windows
@@ -90,13 +90,17 @@ The device is operating at high speed or SuperSpeed.
 ## -remarks
 
 
+
 The <b>WDF_USB_DEVICE_TRAITS</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a> structure.
+
 
 
 
 ## -see-also
 
 <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
+
+
 
  
 

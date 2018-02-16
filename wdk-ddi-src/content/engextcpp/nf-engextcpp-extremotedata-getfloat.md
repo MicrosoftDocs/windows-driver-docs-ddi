@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: f2781f6b-cc3e-427c-8181-908639613270
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: ExtRemoteData class [Windows Debugging], GetFloat method, ExtRemoteData::GetFloat, ExtRemoteData, GetFloat method [Windows Debugging], ExtRemoteData class, GetFloat, EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, debugger.extremotedata_getfloat, GetFloat method [Windows Debugging]
+ms.keywords: GetFloat method [Windows Debugging], ExtRemoteData, ExtRemoteData class [Windows Debugging], GetFloat method, debugger.extremotedata_getfloat, EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, GetFloat method [Windows Debugging], ExtRemoteData class, GetFloat, ExtRemoteData::GetFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	engextcpp.hpp
-apiname: 
+apiname:
 -	ExtRemoteData.GetFloat
 product: Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
 ---
 
 # ExtRemoteData::GetFloat method
@@ -66,27 +66,38 @@ float GetFloat();
 
 
 
+
 ## -returns
+
 
 
 <b>GetFloat</b> returns the <b>float</b> version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
 
 
 
+
 ## -remarks
+
 
 
 The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be <code>sizeof(float)</code>.
 
 
 
+
 ## -see-also
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544022">ExtRemoteData::GetDouble</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
 
  
 

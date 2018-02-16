@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0dae335a-bcc1-4f6a-8926-e2ecc4112dc5
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsCreatePin, ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml, ks/KsCreatePin, KsCreatePin function [Streaming Media Devices], stream.kscreatepin
+ms.keywords: ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml, KsCreatePin, KsCreatePin function [Streaming Media Devices], ks/KsCreatePin, stream.kscreatepin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,16 +29,16 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	ks.lib
 -	ks.dll
 -	ksuser.dll
-apiname: 
+apiname:
 -	KsCreatePin
 product: Windows
 targetos: Windows
@@ -95,11 +95,14 @@ Specifies the connection handle passed. The routine fills this in with a handle 
 ## -returns
 
 
+
 The <b>KsCreatePin</b> function returns <b>STATUS_SUCCESS</b> if the connection was successful, or it returns an error if the connection failed. Additionally, this Win32 error code (from Winerror.h) can be returned:
 
 
 
+
 ## -remarks
+
 
 
 The routine sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request to the driver. The driver accepts the request only if the interface, medium, and data format are compatible.
@@ -108,13 +111,20 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> crea
 
 
 
-## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+## -see-also
 
 <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a>
 
+
+
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
 
  
 

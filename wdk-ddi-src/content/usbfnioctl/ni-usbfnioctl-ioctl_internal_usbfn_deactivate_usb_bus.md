@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_deactivate_usb_bus.htm
 old-project: usbref
 ms.assetid: 73BD1E87-150F-4C91-811E-D7139E98B365
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/8/2018
 ms.keywords: buses.ioctl_internal_usbfn_deactivate_usb_bus, IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS control code [Buses], IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS, usbfnioctl/IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	usbfnioctl.h
-apiname: 
+apiname:
 -	IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
 product: Windows
 targetos: Windows
-req.typenames: *PUSBFN_USB_STRING, USBFN_USB_STRING
+req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
 ---
 
@@ -86,14 +86,18 @@ None.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 

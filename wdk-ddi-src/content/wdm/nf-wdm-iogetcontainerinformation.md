@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 34612bc5-bed5-4645-8619-64ae2a603d1e
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: IoGetContainerInformation routine [Kernel-Mode Driver Architecture], wdm/IoGetContainerInformation, kernel.iogetcontainerinformation, IoGetContainerInformation, k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml
+ms.keywords: wdm/IoGetContainerInformation, kernel.iogetcontainerinformation, k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml, IoGetContainerInformation routine [Kernel-Mode Driver Architecture], IoGetContainerInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
-topictype: 
+req.irql: "<= APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	IoGetContainerInformation
 product: Windows
 targetos: Windows
@@ -74,12 +74,14 @@ NTSTATUS IoGetContainerInformation(
 ### -param InformationClass [in]
 
 Specifies the class of events for which the caller (driver) requests information. Set this parameter to the following <a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a> enumeration value:
+
 <ul>
 <li>
 <b>IoSessionStateInformation</b>
 
 </li>
-</ul>For more information, see the following Remarks section. 
+</ul>
+For more information, see the following Remarks section. 
 
 
 ### -param ContainerObject [in, optional]
@@ -100,7 +102,9 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>. For <i>Informatio
 ## -returns
 
 
+
 <b>IoGetContainerInformation</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -139,24 +143,34 @@ Parameter <i>BufferLength</i> is too small for the information class specified b
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 This routine can potentially support queries for a variety of information classes. In Windows 7, this routine supports only queries for <b>IoSessionStateInformation</b> information, which is status information about user sessions.
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
-
 <a href="..\wdm\ne-wdm-_io_container_information_class.md">IO_CONTAINER_INFORMATION_CLASS</a>
 
+
+
 <a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
+
+
+
+<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
+
+
 
  
 

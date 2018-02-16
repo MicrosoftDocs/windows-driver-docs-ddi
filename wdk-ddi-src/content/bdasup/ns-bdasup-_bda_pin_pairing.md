@@ -1,6 +1,6 @@
 ---
 UID: NS:bdasup._BDA_PIN_PAIRING
-title: _BDA_PIN_PAIRING
+title: "_BDA_PIN_PAIRING"
 author: windows-driver-content
 description: The BDA_PIN_PAIRING structure describes the topology between a pair of input and output pins.
 old-location: stream\bda_pin_pairing.htm
@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 0d05455d-32ea-4f88-8752-7f5fe40b8b29
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, bdasup/BDA_PIN_PAIRING, *PBDA_PIN_PAIRING, BDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], stream.bda_pin_pairing, _BDA_PIN_PAIRING, PBDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices]
+ms.keywords: "_BDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], *PBDA_PIN_PAIRING, PBDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices], bdasup/PBDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, BDA_PIN_PAIRING, stream.bda_pin_pairing, bdasup/BDA_PIN_PAIRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	bdasup.h
-apiname: 
+apiname:
 -	BDA_PIN_PAIRING
 product: Windows
 targetos: Windows
@@ -118,11 +118,19 @@ Array of joint values. The value given to a joint corresponds to the index of an
 
 <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
 
 <a href="..\bdatypes\ns-bdatypes-_bda_template_connection.md">BDA_TEMPLATE_CONNECTION</a>
 
+
+
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
+
+
+
 <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+
+
 
  
 

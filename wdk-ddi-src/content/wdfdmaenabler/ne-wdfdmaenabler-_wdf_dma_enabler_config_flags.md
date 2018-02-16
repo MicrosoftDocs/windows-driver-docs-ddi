@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_ENABLER_CONFIG_FLAGS
-title: _WDF_DMA_ENABLER_CONFIG_FLAGS
+title: "_WDF_DMA_ENABLER_CONFIG_FLAGS"
 author: windows-driver-content
 description: The WDF_DMA_ENABLER_CONFIG_FLAGS enumeration type defines flags that are used in a driver's WDF_DMA_ENABLER_CONFIG structure.
 old-location: wdf\wdf_dma_enabler_config_flags.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8F8C97B2-5C77-4AD0-9434-22108111F5A8
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_dma_enabler_config_flags, WDF_DMA_ENABLER_CONFIG_FLAGS, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, _WDF_DMA_ENABLER_CONFIG_FLAGS, WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, WDF_DMA_ENABLER_CONFIG_FLAGS enumeration, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, wdf.wdf_dma_enabler_config_flags, WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS
+ms.keywords: wdf.wdf_dma_enabler_config_flags, kmdf.wdf_dma_enabler_config_flags, WDF_DMA_ENABLER_CONFIG_FLAGS enumeration, WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, _WDF_DMA_ENABLER_CONFIG_FLAGS, WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, WDF_DMA_ENABLER_CONFIG_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wdfdmaenabler.h
-apiname: 
+apiname:
 -	WDF_DMA_ENABLER_CONFIG_FLAGS
 product: Windows
 targetos: Windows
@@ -75,12 +75,14 @@ typedef enum _WDF_DMA_ENABLER_CONFIG_FLAGS {
 
 
            The WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION flag applies only  to the following DMA profiles:
+
 <ul>
 <li>WdfDmaProfileScatterGather</li>
 <li>WdfDmaProfileScatterGather64</li>
 <li>WdfDmaProfileScatterGatherDuplex </li>
 <li>WdfDmaProfileScatterGather64Duplex</li>
-</ul> 
+</ul>
+ 
       By default, when <b>WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION</b> is not set and the <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_profile.md">WDF_DMA_PROFILE</a> is one of those in the previous list, WDF  
       creates a lookaside list of scatter/gather lists that is  used by this DMA adapter's transaction 
       objects. The list entries are initialized to allow the maximum specified  
@@ -107,7 +109,9 @@ For more info, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/
 ## -remarks
 
 
+
 You can specify a valid bitwise OR of the values on this page for the <b>Flags</b> member of the <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure.
+
 
 
 
@@ -115,9 +119,15 @@ You can specify a valid bitwise OR of the values on this page for the <b>Flags</
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetsingletransferrequirement.md">WdfDmaTransactionSetSingleTransferRequirement</a>
 
-<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_profile.md">WDF_DMA_PROFILE</a>
+
 
 <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+
+
+
+<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_profile.md">WDF_DMA_PROFILE</a>
+
+
 
  
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: feeabcd2-659f-4a87-abdd-cfbf89589c48
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILREADMSGPARAMS, netvista.rilreadmsgparams, RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILREADMSGPARAMS, RILREADMSGPARAMS
+ms.keywords: "*LPRILREADMSGPARAMS, RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILREADMSGPARAMS, RILREADMSGPARAMS, netvista.rilreadmsgparams"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILREADMSGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: *LPRILREADMSGPARAMS, RILREADMSGPARAMS
+req.typenames: "*LPRILREADMSGPARAMS, RILREADMSGPARAMS"
 ---
 
 # RILREADMSGPARAMS structure
@@ -71,7 +71,5 @@ typedef struct _RILREADMSGPARAMS {
 ### -field hUiccApp
 
 
-
 ### -field dwIndex
-
 

@@ -7,7 +7,7 @@ old-location: audio\iallocatormxf.htm
 old-project: audio
 ms.assetid: 4ed81d77-e140-4633-8582-d21170ecc645
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/8/2018
 ms.keywords: audio.iallocatormxf, IAllocatorMXF interface [Audio Devices], IAllocatorMXF interface [Audio Devices], described, IAllocatorMXF, dmusicks/IAllocatorMXF, audmp-routines_3ab3f61f-aa26-4a37-b1ff-68c1b0ae97c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: dmusicks.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dmusicks.h
-apiname: 
+apiname:
 -	IAllocatorMXF
 product: Windows
 targetos: Windows

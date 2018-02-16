@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28509e28-0e81-4531-947c-9ce452564682
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiotarget2_formatrequestforflush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, IWDFIoTarget2, wudfddi/IWDFIoTarget2::FormatRequestForFlush, FormatRequestForFlush method, IWDFIoTarget2 interface, FormatRequestForFlush method, umdf.iwdfiotarget2_formatrequestforflush, FormatRequestForFlush method, IWDFIoTarget2 interface, IWDFIoTarget2::FormatRequestForFlush, FormatRequestForFlush
+ms.keywords: IWDFIoTarget2 interface, FormatRequestForFlush method, IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, wudfddi/IWDFIoTarget2::FormatRequestForFlush, FormatRequestForFlush method, FormatRequestForFlush method, IWDFIoTarget2 interface, IWDFIoTarget2, umdf.iwdfiotarget2_formatrequestforflush, FormatRequestForFlush, wdf.iwdfiotarget2_formatrequestforflush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: wudfddi.h
 req.dll: WUDFx.dll
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	WUDFx.dll
-apiname: 
+apiname:
 -	IWDFIoTarget2.FormatRequestForFlush
 product: Windows
 targetos: Windows
-req.typenames: *PPOWER_ACTION, POWER_ACTION
+req.typenames: "*PPOWER_ACTION, POWER_ACTION"
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,9 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interf
 ## -returns
 
 
+
 <b>FormatRequestForFlush</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following value:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,13 +103,16 @@ The framework was unable to allocate memory.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method might return one of the other values that Winerror.h contains.
 
 
 
+
 ## -remarks
+
 
 
 Some drivers must flush cached buffers that exist in either a lower driver or the device. For example, drivers that exist in a driver stack for a serial device or a storage device might support this operation. 
@@ -115,14 +120,82 @@ Some drivers must flush cached buffers that exist in either a lower driver or th
 Use the <b>FormatRequestForFlush</b> method, followed by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a> method, to send flush requests either synchronously or asynchronously. 
 
 
+#### Examples
+
+The following code example is part of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. If the callback function receives a flush request, it sends the request to the device's default I/O target.
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void
+CMyQueue::OnDefaultIoHandler(
+ IWDFIoQueue*  pQueue,
+ IWDFIoRequest*  pRequest
+    )
+{
+    HRESULT hr;
+    IWDFDevice *pDevice;
+    IWDFIoTarget *pTarget;
+    IWDFFile *pFile;
+
+    //
+    // Obtain the device, default I/O target, and file object.
+    //
+    pQueue-&gt;GetDevice(&amp;pDevice);
+    pDevice-&gt;GetDefaultIoTarget(&amp;pTarget);
+    pRequest-&gt;GetFileObject(&amp;pFile);
+
+    if (WdfRequestFlushBuffers==pRequest-&gt;GetType())
+    {
+        // 
+        // Declare an IWDFIoTarget2 interface pointer and obtain the
+        // IWDFIoTarget2 interface from the IWDFIoTarget interface.
+        //
+        CComQIPtr&lt;IWDFIoTarget2&gt; target2(pTarget);
+
+        //
+        // Format a flush request and send it to the I/O target.
+        //
+        hr = target2-&gt;FormatRequestForFlush(pRequest, 
+                                            pFile);
+
+        if (SUCCEEDED(hr))
+        {
+            hr = pRequest-&gt;Send(pTarget,
+                                WDF_REQUEST_SEND_OPTION_SYNCHRONOUS,
+                                0);
+        }
+    }
+...
+    //
+    // Release objects.
+    //
+    SAFE_RELEASE(pDevice);
+    SAFE_RELEASE(pTarget);
+    SAFE_RELEASE(pFile);
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+
+
 
  
 

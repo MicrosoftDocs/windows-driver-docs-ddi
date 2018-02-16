@@ -7,8 +7,8 @@ old-location: print\branchofficejobdata.htm
 old-project: print
 ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PBranchOfficeJobData structure pointer [Print Devices], winsplp/PBranchOfficeJobData, print.branchofficejobdata, winsplp/BranchOfficeJobData, BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, *PBranchOfficeJobData
+ms.date: 2/2/2018
+ms.keywords: print.branchofficejobdata, *PBranchOfficeJobData, BranchOfficeJobData structure [Print Devices], BranchOfficeJobData, winsplp/PBranchOfficeJobData, winsplp/BranchOfficeJobData, PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Winsplp.h
-apiname: 
+apiname:
 -	BranchOfficeJobData
 product: Windows
 targetos: Windows
-req.typenames: BranchOfficeJobData, *PBranchOfficeJobData
+req.typenames: "*PBranchOfficeJobData, BranchOfficeJobData"
 req.product: Windows 10 or later.
 ---
 
@@ -76,8 +76,17 @@ typedef struct {
 
 
 
-### -field JobInfo
+### -field eEventType
 
+Specifies the type of event to be logged.
+
+
+### -field JobId
+
+Specifies the ID of the job on the client.
+
+
+### -field JobInfo
 
 
 ### -field JobInfo.LogJobPrinted
@@ -103,14 +112,4 @@ Describes the <b>BranchOfficeJobDataPipelineFailed</b> type member <b>LogPipelin
 ### -field JobInfo.LogOfflineFileFull
 
 Describes the <b>BranchOfficeLogOfflineFileFull</b> type member <b>LogOfflineFileFull</b>.
-
-
-### -field eEventType
-
-Specifies the type of event to be logged.
-
-
-### -field JobId
-
-Specifies the ID of the job on the client.
 

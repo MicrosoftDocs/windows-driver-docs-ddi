@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
-title: _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+title: "_IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION"
 author: windows-driver-content
 description: The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure specifies a single security association (SA).
 old-location: netvista\ipsec_offload_v2_security_association.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b2c5611e-930d-41a5-a07e-7de8f8584283
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], task_offload_IPsecv2_ref_ccf0a55c-3609-4e15-928a-e46113b96df0.xml, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, netvista.ipsec_offload_v2_security_association, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+ms.keywords: ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, netvista.ipsec_offload_v2_security_association, task_offload_IPsecv2_ref_ccf0a55c-3609-4e15-928a-e46113b96df0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ndis.h
-apiname: 
+apiname:
 -	IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 product: Windows
 targetos: Windows
-req.typenames: *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+req.typenames: IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 ---
 
 # _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure
@@ -84,11 +84,17 @@ A set of flags that can be combined with a bitwise OR operation. Otherwise, set 
 
 
 
+
+#### IPSEC_OFFLOAD_V2_ESN_SA
+
+Specifies ESN SA.
+
+
 ### -field Operation
 
 The IPsec operation for which the SA is to be used. The 
-     <mshelp:link keywords="netvista.ipsec_offload_v2_operation" tabindex="0"><b>
-     IPSEC_OFFLOAD_V2_OPERATION</b></mshelp:link> enumeration defines the supported operations.
+     <a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">
+     IPSEC_OFFLOAD_V2_OPERATION</a> enumeration defines the supported operations.
 
 
 ### -field Spi
@@ -99,8 +105,8 @@ A 32 bit security parameters index (SPI) for the SA.
 ### -field AuthenticationAlgorithm
 
 The integrity (authentication) algorithm for the SA, formatted as an 
-     <mshelp:link keywords="netvista.ipsec_offload_v2_algorithm_info" tabindex="0"><b>
-     IPSEC_OFFLOAD_V2_ALGORITHM_INFO</b></mshelp:link> structure.
+     <a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
+     IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a> structure.
 
 
 ### -field EncryptionAlgorithm
@@ -108,10 +114,12 @@ The integrity (authentication) algorithm for the SA, formatted as an
 The confidentiality (encryption/decryption) algorithm for the SA, formatted as an
      IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure. 
      
+
 <div class="alert"><b>Note</b>  For AES-GCM, the 
      <b>EncryptionAlgorithm</b> member contains the key information. The 
      <b>AuthenticationAlgorithm</b> member of IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, and the key length and
-     offset in IPSEC_OFFLOAD_V2_ALGORITHM_INFO, should not be used.</div><div> </div>
+     offset in IPSEC_OFFLOAD_V2_ALGORITHM_INFO, should not be used.</div>
+<div> </div>
 
 ### -field SequenceNumberHighOrder
 
@@ -120,12 +128,8 @@ The sequence number high-order extension. This sequence number high-order extens
      the IPsec header.
 
 
-##### - Flags.IPSEC_OFFLOAD_V2_ESN_SA
-
-Specifies ESN SA.
-
-
 ## -remarks
+
 
 
 The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure is an element in the 
@@ -142,10 +146,13 @@ A
     <b>AuthenticationAlgorithm</b> member. The SA will not have an encryption algorithm in the 
     <b>EncryptionAlgorithm</b> member, so 
     <b>EncryptionAlgorithm</b> will contain zeros.
+
 <div class="alert"><b>Note</b>  For AES-GCM, the 
     <b>EncryptionAlgorithm</b> member contains the key information. The 
     <b>AuthenticationAlgorithm</b> member of IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, and the key length and
-    offset in IPSEC_OFFLOAD_V2_ALGORITHM_INFO, should not be used.</div><div> </div>A 
+    offset in IPSEC_OFFLOAD_V2_ALGORITHM_INFO, should not be used.</div>
+<div> </div>
+A 
     <b>SecAssoc</b> element that is specified for use in processing encapsulating security payloads (ESPs)
     will have an operation type (the 
     <b>Operation</b> member) of 
@@ -155,14 +162,21 @@ A
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
+   IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
+
+
+
+<a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
+
+
 
 <a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
-<mshelp:link keywords="netvista.ipsec_offload_v2_algorithm_info" tabindex="0"><b>
-   IPSEC_OFFLOAD_V2_ALGORITHM_INFO</b></mshelp:link>
 
-<a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
 
  
 

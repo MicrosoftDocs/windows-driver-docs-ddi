@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 85cbc158-7132-4666-8161-a78251a62e4d
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], NdisInterlockedRemoveHeadList, netvista.ndisinterlockedremoveheadlist, ndis/NdisInterlockedRemoveHeadList
+ms.keywords: ndis/NdisInterlockedRemoveHeadList, ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, NdisInterlockedRemoveHeadList, netvista.ndisinterlockedremoveheadlist, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	ndis.lib
 -	ndis.dll
-apiname: 
+apiname:
 -	NdisInterlockedRemoveHeadList
 product: Windows
 targetos: Windows
-req.typenames: *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE
+req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
 ---
 
 # NdisInterlockedRemoveHeadList macro
@@ -71,29 +71,18 @@ PLIST_ENTRY NdisInterlockedRemoveHeadList(
 
 
 
-### -param _ListHead
-
-TBD
-
-
-### -param _SpinLock
-
-TBD
-
-
-
-
-#### - ListHead [in]
+### -param _ListHead [in]
 
 A pointer to the head of the doubly linked list from which an entry is to be removed.
 
 
-#### - SpinLock [in]
+### -param _SpinLock [in]
 
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
 
 ## -remarks
+
 
 
 Before calling any 
@@ -128,19 +117,30 @@ If
 
 
 
+
 ## -see-also
+
+<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+   NdisInterlockedInsertTailList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
+   NdisInterlockedInsertHeadList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
-<mshelp:link keywords="netvista.ndisinterlockedinsertheadlist" tabindex="0"><b>
-   NdisInterlockedInsertHeadList</b></mshelp:link>
+
 
 <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
-<mshelp:link keywords="netvista.ndisinterlockedinserttaillist" tabindex="0"><b>
-   NdisInterlockedInsertTailList</b></mshelp:link>
 
-<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
 
  
 

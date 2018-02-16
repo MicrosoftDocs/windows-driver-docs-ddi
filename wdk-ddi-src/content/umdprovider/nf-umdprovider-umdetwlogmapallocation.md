@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: umdprovider/UMDEtwLogMapAllocation, display.umdetwlogmapallocation, UMDEtwLogMapAllocation function [Display Devices], UMDEtwLogMapAllocation
+ms.keywords: umdprovider/UMDEtwLogMapAllocation, display.umdetwlogmapallocation, UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	umdprovider.h
-apiname: 
+apiname:
 -	UMDEtwLogMapAllocation
 product: Windows
 targetos: Windows
@@ -110,20 +110,26 @@ If the allocation is used internally by the user-mode driver, this is a <a href=
 ## -returns
 
 
+
 This function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The user-mode display driver must completely account for the video memory it allocates, so it must call this function to log an event every time the allocation changes.
 
 Examples of when to call this function are:
+
 <ul>
 <li>A Direct3D allocation is packed into a DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation.</li>
 <li>A Dxgkrnl allocation is created as a scratch surface. In this case, set the <i>hD3DAllocation</i> parameter to <b>NULL</b>.</li>
-</ul><b>UMDEtwLogMapAllocation</b> is defined inline in Umdprovider.h as:
+</ul>
+<b>UMDEtwLogMapAllocation</b> is defined inline in Umdprovider.h as:
+
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -180,15 +186,24 @@ FORCEINLINE void UMDEtwLogMapAllocation(ULONGLONG hD3DAllocation,
 </table></span></div>
 
 
-## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+## -see-also
 
 <a href="..\umdprovider\ns-umdprovider-_umdetw_allocation_usage.md">UMDETW_ALLOCATION_USAGE</a>
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
 
 <a href="..\umdprovider\ne-umdprovider-_umdetw_allocation_semantic.md">UMDETW_ALLOCATION_SEMANTIC</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
 
  
 

@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	D3d12umddi.h
-apiname: 
+apiname:
 -	pfnGetDecodeProfileCount
 product: Windows
 targetos: Windows
@@ -74,7 +74,6 @@ UINT APIENTRY* pfnGetDecodeProfileCount(
 ### -param D3D12DDI_HDEVICE
 
 
-
 ### -param NodeIndex
 
 The physical adapter of the device to which this operation applies.
@@ -88,22 +87,30 @@ The handle of a device.
 ## -returns
 
 
+
 This function retrieves the count of decode profiles supported by the driver.
+
 
 
 
 ## -remarks
 
 
+
 This function is called to retrieve the number of supported profiles.  The caller uses this value to allocate storage to retrieve the list of profiles.  The list is retrieved by using the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a> callback function with the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILES</b>.
+
 
 
 
 ## -see-also
 
+<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a>
+
+
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddicaps_type.md">D3D12DDICAPS_TYPE</a>
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md">pfnGetCaps</a>
+
 
  
 

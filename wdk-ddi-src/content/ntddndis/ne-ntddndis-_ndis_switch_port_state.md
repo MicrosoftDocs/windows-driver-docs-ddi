@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_STATE
-title: _NDIS_SWITCH_PORT_STATE
+title: "_NDIS_SWITCH_PORT_STATE"
 author: windows-driver-content
 description: The NDIS_SWITCH_PORT_STATE enumeration specifies the current state of the Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_state.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BEF37F32-036D-4381-93B3-C159ABCFC3F9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: NdisSwitchPortStateCreated, _NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateUnknown, NdisSwitchPortStateTeardown, ntddndis/NdisSwitchPortStateCreated, ntddndis/NDIS_SWITCH_PORT_STATE, NdisSwitchPortStateUnknown, NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateDeleted, netvista.ndis_switch_port_state, NDIS_SWITCH_PORT_STATE, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortStateTeardown
+ms.keywords: ntddndis/NdisSwitchPortStateDeleted, ntddndis/NDIS_SWITCH_PORT_STATE, NdisSwitchPortStateCreated, ntddndis/NdisSwitchPortStateTeardown, NdisSwitchPortStateDeleted, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortStateUnknown, ntddndis/NdisSwitchPortStateCreated, NDIS_SWITCH_PORT_STATE, NdisSwitchPortStateTeardown, netvista.ndis_switch_port_state, _NDIS_SWITCH_PORT_STATE, NdisSwitchPortStateUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ntddndis.h
-apiname: 
+apiname:
 -	NDIS_SWITCH_PORT_STATE
 product: Windows
 targetos: Windows
@@ -93,6 +93,7 @@ This value specifies that the port has been deleted.
 ## -remarks
 
 
+
 The <b>PortState</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETER</a> structure is an <b>NDIS_SWITCH_PORT_STATE</b> enumeration data type. 
 
 
@@ -101,11 +102,16 @@ For more information about extensible switch port states, see <a href="https://m
 
 
 
+
 ## -see-also
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETER</a>
 
+
+
 <b></b>
+
+
 
  
 

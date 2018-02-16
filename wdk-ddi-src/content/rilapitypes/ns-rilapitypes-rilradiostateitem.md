@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cfc3e62-3398-435a-b603-fb7638ed8ce9
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: netvista.rilradiostateitem_2, rilapitypes/RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilradiostateitem_2, RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], rilapitypes/RILRADIOSTATEITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILRADIOSTATEITEM
 product: Windows
 targetos: Windows
@@ -94,8 +94,16 @@ typedef struct _RILRADIOSTATEITEM {
 
 
 
-### -field itemValueUnion
+### -field dwItemId
 
+
+### -field dwItemFlag
+
+
+### -field dwItemAttributes
+
+
+### -field itemValueUnion
 
 
 ### -field itemValueUnion.intVal
@@ -131,79 +139,50 @@ typedef struct _RILRADIOSTATEITEM {
 ### -field RILITEMVALUEUNION
 
 
-
-### -field dwItemId
-
-
-
-### -field dwItemFlag
-
-
-
-### -field dwItemAttributes
-
-
-
 ### -field wszFriendlyName
-
 
 
 ### -field wszItemValueOptions
 
 
-
-#### - byteArray
-
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
-
-
-
 #### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
-
-
-
-#### - uintArray
-
-
-
-#### - case
-
-
-
-#### - uintVal
-
-
-
-#### - switch_is
-
-
-
-#### - intArray
-
-
-
-#### - intVal
-
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
-
 
 
 #### - RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY
 
 
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
+
 
 #### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL
-
 
 
 #### - RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
 
 
+#### - byteArray
+
+
+#### - case
+
+
+#### - intArray
+
+
+#### - intVal
+
+
+#### - switch_is
+
+
+#### - uintArray
+
+
+#### - uintVal
+
 
 #### - wszVal
-
 

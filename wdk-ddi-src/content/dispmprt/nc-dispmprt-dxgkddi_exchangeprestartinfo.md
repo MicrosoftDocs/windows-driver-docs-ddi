@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGKDDI_EXCHANGEPRESTARTINFO
 product: Windows
 targetos: Windows
@@ -85,11 +85,14 @@ The driver and hardware support the requirements to allow the boot frame buffer 
 ## -returns
 
 
+
 If this routine succeeds and returns the requested change, it returns STATUS_SUCCESS.
 
 
 
+
 ## -remarks
+
 
 
 This DDI will be called after DxgkDdiAddDevice and before DxgkDdiStartDevice so the driver does not have access to its own hardware resources yet however it can use the PhysicalDeviceObject passed to the driver in DxgkDdiAddDevice to call IoGetDeviceProperty, for example to find the hardware id to decide what to return in the output fields of the DXGK_PRE_START_INFO structure.
@@ -97,6 +100,7 @@ This DDI will be called after DxgkDdiAddDevice and before DxgkDdiStartDevice so 
  
 
 This function is always called at PASSIVE level so the supporting code should be made pageable where possible.
+
 
 
 

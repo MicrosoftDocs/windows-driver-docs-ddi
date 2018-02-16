@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_CALIBRATION_INFO
-title: _WINBIO_CALIBRATION_INFO
+title: "_WINBIO_CALIBRATION_INFO"
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_CALIBRATE IOCTL returns the WINBIO_CALIBRATION_INFO structure as output.
 old-location: biometric\winbio_calibration_info.htm
@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 12ea0460-30c1-4ce0-9a3b-c59a71493fe7
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
-ms.keywords: biometric.winbio_calibration_info, WINBIO_CALIBRATION_INFO structure [Biometric Devices], WINBIO_CALIBRATION_INFO, biometric_ref_15065b26-3c1d-49f5-8546-b8962f848072.xml, PWINBIO_CALIBRATION_INFO structure pointer [Biometric Devices], PWINBIO_CALIBRATION_INFO, _WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO, winbio_ioctl/WINBIO_CALIBRATION_INFO, winbio_ioctl/PWINBIO_CALIBRATION_INFO
+ms.keywords: winbio_ioctl/PWINBIO_CALIBRATION_INFO, PWINBIO_CALIBRATION_INFO structure pointer [Biometric Devices], PWINBIO_CALIBRATION_INFO, biometric_ref_15065b26-3c1d-49f5-8546-b8962f848072.xml, *PWINBIO_CALIBRATION_INFO, winbio_ioctl/WINBIO_CALIBRATION_INFO, WINBIO_CALIBRATION_INFO structure [Biometric Devices], WINBIO_CALIBRATION_INFO, _WINBIO_CALIBRATION_INFO, biometric.winbio_calibration_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	winbio_ioctl.h
-apiname: 
+apiname:
 -	WINBIO_CALIBRATION_INFO
 product: Windows
 targetos: Windows
-req.typenames: *PWINBIO_CALIBRATION_INFO, WINBIO_CALIBRATION_INFO
+req.typenames: WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -78,6 +78,7 @@ The total size of the payload.  This includes the fixed length structure and any
 ### -field WinBioHresult
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values for this member.
+
 <table>
 <tr>
 <th>Status value</th>
@@ -113,7 +114,8 @@ The device is in the middle of a vendor-specific operation.  This should only be
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field CalibrationData

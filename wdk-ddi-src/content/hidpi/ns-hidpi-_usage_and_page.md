@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._USAGE_AND_PAGE
-title: _USAGE_AND_PAGE
+title: "_USAGE_AND_PAGE"
 author: windows-driver-content
 description: The USAGE_AND_PAGE structure specifies the usage page and usage ID of a HID control.
 old-location: hid\usage_and_page.htm
@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 48716117-c539-4436-a81f-4b05c9a8cb7d
 ms.author: windowsdriverdev
 ms.date: 12/21/2017
-ms.keywords: hid.usage_and_page, _USAGE_AND_PAGE, hidstrct_cbb3e4f3-5409-406c-9114-d8455e505497.xml, USAGE_AND_PAGE structure [Human Input Devices], *PUSAGE_AND_PAGE, PUSAGE_AND_PAGE, PUSAGE_AND_PAGE structure pointer [Human Input Devices], hidpi/USAGE_AND_PAGE, USAGE_AND_PAGE, hidpi/PUSAGE_AND_PAGE
+ms.keywords: PUSAGE_AND_PAGE structure pointer [Human Input Devices], _USAGE_AND_PAGE, USAGE_AND_PAGE structure [Human Input Devices], USAGE_AND_PAGE, hidpi/USAGE_AND_PAGE, PUSAGE_AND_PAGE, hidstrct_cbb3e4f3-5409-406c-9114-d8455e505497.xml, *PUSAGE_AND_PAGE, hidpi/PUSAGE_AND_PAGE, hid.usage_and_page
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	hidpi.h
-apiname: 
+apiname:
 -	USAGE_AND_PAGE
 product: Windows
 targetos: Windows
-req.typenames: *PUSAGE_AND_PAGE, USAGE_AND_PAGE
+req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
 ---
 
 # _USAGE_AND_PAGE structure
@@ -79,6 +79,7 @@ Specifies a usage ID within the usage page specified by <b>UsagePage</b>.
 
 
 ## -remarks
+
 
 
 The<b> HidP_IsSameUsageAndPage</b> macro determines if two <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">extended usages</a>, represented by <b>USAGE_AND_PAGE</b> structures, are equal.
@@ -123,9 +124,12 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539712">HidP_GetButtonsEx</a>
+
+
 
  
 

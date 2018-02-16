@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dot11wdi.h
-apiname: 
+apiname:
 -	MiniportWdiPostAdapterRestart
 product: Windows
 targetos: Windows
-req.typenames: *PSYNTH_STATS, SYNTH_STATS
+req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
 ---
 
 # MINIPORT_WDI_POST_ADAPTER_RESTART callback
@@ -89,7 +89,9 @@ A pointer to an <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">N
 ## -returns
 
 
+
 MiniportWdiPostAdapterRestart can return any of the following return values.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -128,19 +130,29 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">NDIS_MINIPORT_RESTART_PARAMETERS</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">NDIS_MINIPORT_RESTART_PARAMETERS</a>
+
+
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
+
 
  
 

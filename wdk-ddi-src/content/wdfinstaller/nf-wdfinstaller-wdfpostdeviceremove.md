@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f29579de-ba5d-4b7a-9aeb-558be03d7eef
 ms.author: windowsdriverdev
 ms.date: 1/11/2018
-ms.keywords: WdfPostDeviceRemove function, kmdf.wdfpostdeviceremove, wdfinstaller/WdfPostDeviceRemove, wdf.wdfpostdeviceremove, DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, WdfPostDeviceRemove, PFN_WDFPOSTDEVICEREMOVE
+ms.keywords: DFCoinstallerRef_82480a49-b7ac-4e1d-b942-93d1eb8a5c34.xml, wdf.wdfpostdeviceremove, WdfPostDeviceRemove function, kmdf.wdfpostdeviceremove, wdfinstaller/WdfPostDeviceRemove, WdfPostDeviceRemove, PFN_WDFPOSTDEVICEREMOVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: N/A (Exported by the KMDF co-installer library. For information about the co-installer library's filename, see Using the KMDF Co-installer.)
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	LibDef
-apilocation: 
+apilocation:
 -	N/A
 -	N/A.dll
-apiname: 
+apiname:
 -	WdfPostDeviceRemove
 product: Windows
 targetos: Windows
-req.typenames: *PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS
+req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 
@@ -85,11 +85,14 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 ## -returns
 
 
+
 <b>WdfPostDeviceRemove</b> returns ERROR_SUCCESS if the operation succeeds. Otherwise, the function returns one of the additional ERROR_<i>XXX</i> values that are defined in <i>Winerror.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The installer for the framework-based drivers of a non-PnP device must call <b>WdfPostDeviceRemove</b> after the installer calls <b>DeleteService</b>.
@@ -99,10 +102,19 @@ To obtain the address of the co-installer's <b>WdfPostDeviceRemove</b> function,
 For more information about the <b>WdfPostDeviceRemove</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://msdn.microsoft.com/99676d85-feb2-482c-a91b-cfc48be5904c">Installing a Non-PnP Driver</a>. For more information about <b>DeleteService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
 
 
+#### Examples
+
+For a code example that uses the <b>WdfPostDeviceRemove</b> function, see the installer for the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
+
+<div class="code"></div>
+
+
 
 ## -see-also
 
 <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceremove.md">WdfPreDeviceRemove</a>
+
+
 
  
 

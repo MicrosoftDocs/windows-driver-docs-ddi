@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddchgr._CHANGER_DEVICE_PROBLEM_TYPE
-title: _CHANGER_DEVICE_PROBLEM_TYPE
+title: "_CHANGER_DEVICE_PROBLEM_TYPE"
 author: windows-driver-content
 description: The CHANGER_DEVICE_PROBLEM_TYPE data type contains the values returned by the ChangerPerformDiagnostics routine.
 old-location: storage\changer_device_problem_type.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2ba267ad-cfd7-4a19-9ecb-16be9187406a
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: ntddchgr/DeviceProblemCalibrationError, DeviceProblemHardware, DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemCartridgeInsertError, DeviceProblemGripperError, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemCalibrationError, DeviceProblemDoorOpen, ntddchgr/DeviceProblemPositionError, ntddchgr/DeviceProblemNone, ntddchgr/DeviceProblemDoorOpen, DeviceProblemCHMError, CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCHMMoveError, storage.changer_device_problem_type, _CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMError, ntddchgr/DeviceProblemCartridgeEjectError, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml, DeviceProblemNone, ntddchgr/DeviceProblemCHMMoveError, ntddchgr/DeviceProblemTargetFailure, DeviceProblemCartridgeInsertError, ntddchgr/DeviceProblemCHMZeroError, ntddchgr/DeviceProblemGripperError, *PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCHMZeroError, DeviceProblemPositionError, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemHardware, DeviceProblemDriveError, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], DeviceProblemTargetFailure, ntddchgr/DeviceProblemSensorError, ntddchgr/DeviceProblemDriveError, PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemSensorError
+ms.keywords: storage.changer_device_problem_type, ntddchgr/DeviceProblemCHMMoveError, DeviceProblemCartridgeInsertError, ntddchgr/DeviceProblemGripperError, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, *PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemSensorError, DeviceProblemCalibrationError, DeviceProblemCHMZeroError, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml, ntddchgr/DeviceProblemPositionError, ntddchgr/DeviceProblemHardware, ntddchgr/DeviceProblemDoorOpen, DeviceProblemTargetFailure, DeviceProblemCHMMoveError, ntddchgr/DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemSensorError, DeviceProblemNone, ntddchgr/DeviceProblemTargetFailure, ntddchgr/DeviceProblemCHMZeroError, ntddchgr/DeviceProblemDriveError, DeviceProblemDriveError, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemHardware, ntddchgr/DeviceProblemCalibrationError, ntddchgr/DeviceProblemNone, DeviceProblemPositionError, _CHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCartridgeEjectError, DeviceProblemCHMError, ntddchgr/DeviceProblemCHMError, DeviceProblemDoorOpen, ntddchgr/DeviceProblemCartridgeInsertError, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemGripperError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddchgr.h
-apiname: 
+apiname:
 -	CHANGER_DEVICE_PROBLEM_TYPE
 product: Windows
 targetos: Windows
-req.typenames: *PCHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE
+req.typenames: CHANGER_DEVICE_PROBLEM_TYPE, *PCHANGER_DEVICE_PROBLEM_TYPE
 ---
 
 # _CHANGER_DEVICE_PROBLEM_TYPE enumeration
@@ -152,9 +152,13 @@ Indicates the changer's drive is malfunctioning.
 
 ## -see-also
 
+<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
+
+
+
 <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
 
-<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
+
 
  
 

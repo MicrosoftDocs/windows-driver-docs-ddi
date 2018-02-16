@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: 6b0e2a3d-2a62-4a79-a4e1-03168277caec
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetParameters method, debugger.getparameters, dbgeng/IDebugBreakpoint::GetParameters, GetParameters method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetParameters, ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, GetParameters method [Windows Debugging], IDebugBreakpoint interface, GetParameters, IDebugBreakpoint::GetParameters, IDebugBreakpoint interface [Windows Debugging], GetParameters method, IDebugBreakpoint2::GetParameters, IDebugBreakpoint2, GetParameters method [Windows Debugging]
+ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetParameters method, GetParameters method [Windows Debugging], IDebugBreakpoint interface, GetParameters method [Windows Debugging], GetParameters, debugger.getparameters, ComOther_1e2f7a47-0f38-492a-a8b2-9eaa124a2f20.xml, IDebugBreakpoint, dbgeng/IDebugBreakpoint::GetParameters, IDebugBreakpoint2, GetParameters method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::GetParameters, IDebugBreakpoint2::GetParameters, dbgeng/IDebugBreakpoint2::GetParameters, IDebugBreakpoint interface [Windows Debugging], GetParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugBreakpoint.GetParameters
 -	IDebugBreakpoint2.GetParameters
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugBreakpoint2::GetParameters method
@@ -76,6 +76,7 @@ The breakpoint's parameters.  For more information about the parameters, see <a 
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -92,17 +93,21 @@ The method was successful.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 The <b>GetParameters</b> method is a convenience method that returns most of the parameters that the other <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a> methods return.
 
 For a list of the parameters and flags that this method retrieves, and for other ways to read and write these parameters and flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7F9549D-F222-42BF-B82B-B0DA0F6BC60F
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: KeQueryAuxiliaryCounterFrequency, wdm/KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], kernel.kequeryauxiliarycounterfrequency
+ms.keywords: wdm/KeQueryAuxiliaryCounterFrequency, kernel.kequeryauxiliarycounterfrequency, KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Hal.dll
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	Hal.dll
-apiname: 
+apiname:
 -	KeQueryAuxiliaryCounterFrequency
 product: Windows
 targetos: Windows
@@ -76,7 +76,9 @@ A pointer to a variable to which <b>KeQueryAuxiliaryCounterFrequency</b> writes 
 ## -returns
 
 
+
 <b>KeQueryAuxiliaryCounterFrequency</b> can return one of the following:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -104,14 +106,18 @@ Auxiliary counter is not supported.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 Call this routine to programmatically determine whether auxiliary counter is supported. In that call, if you do not need the frequency of the counter, pass NULL. If not supported, the routine returns STATUS_NOT_SUPPORTED.
+
 
 
 
@@ -119,7 +125,11 @@ Call this routine to programmatically determine whether auxiliary counter is sup
 
 <a href="..\wdm\nf-wdm-keconvertperformancecountertoauxiliarycounter.md">KeConvertPerformanceCounterToAuxiliaryCounter</a>
 
+
+
 <a href="..\wdm\nf-wdm-keconvertauxiliarycountertoperformancecounter.md">KeConvertAuxiliaryCounterToPerformanceCounter</a>
+
+
 
  
 

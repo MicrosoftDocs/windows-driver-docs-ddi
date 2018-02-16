@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_INVALIDATE_BLOCK
-title: _SRIOV_INVALIDATE_BLOCK
+title: "_SRIOV_INVALIDATE_BLOCK"
 author: windows-driver-content
 description: Contains the configuration block information. This structure is used in a IOCTL_SRIOV_INVALIDATE_BLOCK request.
 old-location: pci\sriov_invalidate_block.htm
@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 483e6144-9752-4d47-9ed4-7e73bc0a59cc
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: *PSRIOV_INVALIDATE_BLOCK, PCI.sriov_invalidate_block, SRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK, _SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses]
+ms.keywords: PCI.sriov_invalidate_block, pcivirt/SRIOV_INVALIDATE_BLOCK, *PSRIOV_INVALIDATE_BLOCK, _SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses], SRIOV_INVALIDATE_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Pcivirt.h
-apiname: 
+apiname:
 -	SRIOV_INVALIDATE_BLOCK
 product: Windows
 targetos: Windows
@@ -81,6 +81,8 @@ a block of configuration data.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/b6f0e65f-c8e4-418f-a4b2-a7037368d5a3">IOCTL_SRIOV_INVALIDATE_BLOCK</a>
+
+
 
  
 

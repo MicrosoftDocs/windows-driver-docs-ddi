@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: b7e52667-b4ef-4807-867c-37b80af03b6b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: KsPropertyHandlerWithAllocator, ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, KsPropertyHandlerWithAllocator function [Streaming Media Devices], stream.kspropertyhandlerwithallocator
+ms.keywords: ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, ks/KsPropertyHandlerWithAllocator, KsPropertyHandlerWithAllocator function [Streaming Media Devices], KsPropertyHandlerWithAllocator, stream.kspropertyhandlerwithallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsPropertyHandlerWithAllocator
 product: Windows
 targetos: Windows
@@ -97,12 +97,14 @@ TBD
 
 
 
+
 #### - PropertyItemSize [in, optional]
 
 Optionally contains the size of each KSPROPERTY_ITEM structure in the properties. The property item may be extended in order to store private information. If this parameter is zero, the structure size is assumed to be normal. If it is greater than or equal to a property item structure, the KSPROPERTY_ITEM_IRP_STORAGE macro can be used to return a pointer to the property item so the custom data can be retrieved. On 64-bit platforms, this parameter must be a multiple of 8.
 
 
 ## -returns
+
 
 
 The <b>KsPropertyHandler </b>function returns STATUS_SUCCESS if successful, or an error specific to the property being handled if unsuccessful. The function sets the Irp-&gt;IoStatus.Information member, either through setting it to zero because of an internal error, or through a property handler setting it. The function does not set the lrp-&gt;IoStatus.Status member nor does it complete the IRP.
@@ -113,18 +115,25 @@ On 64-bit platforms, if the <i>PropertyItemSize</i> parameter is not a multiple 
 
 
 
+
 ## -remarks
+
 
 
 <i>KsPropertyHandlerWithAllocator</i> places a pointer to the relevant KSPROPERTY_ITEM structure in the <b>Irp-&gt;Tail.Overlay.DriverContext</b> parameter in the IRP. The minidriver can use the KSPROPERTY_ITEM_IRP_STORAGE macro, defined in <i>ks.h</i>, to access this pointer.
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
+
+
 
 <a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
 
-<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
+
 
  
 

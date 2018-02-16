@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a6e3029-d378-4e42-8556-e3640cfdb392
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: k106_1420e152-a858-4256-87ed-8fa78ee76379.xml, MmUnlockPagableImageSection routine [Kernel-Mode Driver Architecture], wdm/MmUnlockPagableImageSection, MmUnlockPagableImageSection, kernel.mmunlockpagableimagesection
+ms.keywords: MmUnlockPagableImageSection routine [Kernel-Mode Driver Architecture], kernel.mmunlockpagableimagesection, k106_1420e152-a858-4256-87ed-8fa78ee76379.xml, wdm/MmUnlockPagableImageSection, MmUnlockPagableImageSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -28,15 +28,15 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <=APC_LEVEL
-topictype: 
+req.irql: "<=APC_LEVEL"
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
-apiname: 
+apiname:
 -	MmUnlockPagableImageSection
 product: Windows
 targetos: Windows
@@ -76,11 +76,14 @@ Specifies the handle returned by a call to <a href="..\wdm\nf-wdm-mmlockpagablec
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 The handle for a driver's pageable section must not be released if the driver has any outstanding IRPs in its device queue(s) or internal queue(s). A call to <b>MmUnlockPagableImageSection</b> restores the pageability of that entire section when there are no more references to the handle for that section. 
@@ -95,17 +98,28 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 
 
+
 ## -see-also
-
-<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
-
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
 
 <a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
 
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
 
 <a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
+
+
 
  
 

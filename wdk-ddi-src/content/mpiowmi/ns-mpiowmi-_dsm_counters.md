@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._DSM_COUNTERS
-title: _DSM_COUNTERS
+title: "_DSM_COUNTERS"
 author: windows-driver-content
 description: The DSM_COUNTERS structure holds the various timer counters that are applicable to all LUNs that are controlled by the DSM.
 old-location: storage\dsm_counters.htm
@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3202aec4-d95e-4162-86a1-17595ed2a5b5
 ms.author: windowsdriverdev
 ms.date: 1/10/2018
-ms.keywords: DSM_COUNTERS structure [Storage Devices], mpiowmi/DSM_COUNTERS, storage.dsm_counters, mpiowmi/PDSM_COUNTERS, structs-scsibus_bfb9b1ff-6274-47b9-b817-254428b02f17.xml, _DSM_COUNTERS, DSM_COUNTERS, PDSM_COUNTERS structure pointer [Storage Devices], *PDSM_COUNTERS, PDSM_COUNTERS
+ms.keywords: storage.dsm_counters, mpiowmi/DSM_COUNTERS, DSM_COUNTERS, *PDSM_COUNTERS, PDSM_COUNTERS, PDSM_COUNTERS structure pointer [Storage Devices], mpiowmi/PDSM_COUNTERS, DSM_COUNTERS structure [Storage Devices], structs-scsibus_bfb9b1ff-6274-47b9-b817-254428b02f17.xml, _DSM_COUNTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	mpiowmi.h
-apiname: 
+apiname:
 -	DSM_COUNTERS
 product: Windows
 targetos: Windows

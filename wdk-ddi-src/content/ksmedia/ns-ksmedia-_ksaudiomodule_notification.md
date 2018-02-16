@@ -1,14 +1,14 @@
 ---
 UID: NS:ksmedia._KSAUDIOMODULE_NOTIFICATION
-title: _KSAUDIOMODULE_NOTIFICATION
+title: "_KSAUDIOMODULE_NOTIFICATION"
 author: windows-driver-content
 description: The KSAUDIOMODULE_NOTIFICATION structure describes the properties associated with audio modules change notification.
 old-location: audio\ksaudiomodule_notification.htm
 old-project: audio
 ms.assetid: 92A9462C-0E8C-4012-9374-3437BB220502
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ksmedia/PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], KSAUDIOMODULE_NOTIFICATION, ksmedia/KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION, _KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices]
+ms.date: 2/8/2018
+ms.keywords: audio.ksaudiomodule_notification, PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], *PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], _KSAUDIOMODULE_NOTIFICATION, ksmedia/KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, ksmedia/PKSAUDIOMODULE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Ksmedia.h
-apiname: 
+apiname:
 -	KSAUDIOMODULE_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION
+req.typenames: "*PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION"
 ---
 
 # _KSAUDIOMODULE_NOTIFICATION structure
@@ -108,7 +108,9 @@ Specifies the value that is used for alignment.
 ## -remarks
 
 
+
 The Audio module notification KSNOTIFICATIONID_AudioModule is defined in Ksmedia.h as shown here. 
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -129,6 +131,8 @@ DEFINE_GUIDSTRUCT("9C2220F0-D9A6-4D5C-A036-573857FD50D2", KSNOTIFICATIONID_Audio
 </tr>
 </table></span></div>
 
+
 For more information about audio modules, see  <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+
 
 

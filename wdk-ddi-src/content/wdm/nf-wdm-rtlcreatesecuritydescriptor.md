@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9e08a57-c9dd-4703-b29d-c169ba77f194
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: kernel.rtlcreatesecuritydescriptor, RtlCreateSecurityDescriptor, wdm/RtlCreateSecurityDescriptor, RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml
+ms.keywords: RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], kernel.rtlcreatesecuritydescriptor, RtlCreateSecurityDescriptor, k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml, wdm/RtlCreateSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,15 +29,15 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	DllExport
-apilocation: 
+apilocation:
 -	NtosKrnl.exe
 -	Ntdll.dll
-apiname: 
+apiname:
 -	RtlCreateSecurityDescriptor
 product: Windows
 targetos: Windows
@@ -83,7 +83,9 @@ Specifies the revision level to assign to the security descriptor. Set this para
 ## -returns
 
 
+
 <b>RtlCreateSecurityDescriptor</b> can return one of the following.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -111,26 +113,38 @@ The caller specified an unsupported value  for <i>Revision</i>.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 A successful call to this routine initializes a security descriptor. The fields in this descriptor are set to initial values that indicate that there are no security constraints.
+
 
 
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
 
 <a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
 
+
+
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
 
  
 

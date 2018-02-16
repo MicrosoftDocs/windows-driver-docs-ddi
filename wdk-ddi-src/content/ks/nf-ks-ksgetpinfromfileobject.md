@@ -8,7 +8,7 @@ old-project: stream
 ms.assetid: 47e7fd44-b98f-4e0a-80c8-cc9b6dcc483b
 ms.author: windowsdriverdev
 ms.date: 1/9/2018
-ms.keywords: stream.ksgetpinfromfileobject, ks/KsGetPinFromFileObject, avfunc_18bdc4eb-2823-481e-ba51-e4103ff10d8c.xml, KsGetPinFromFileObject, KsGetPinFromFileObject function [Streaming Media Devices]
+ms.keywords: ks/KsGetPinFromFileObject, KsGetPinFromFileObject, avfunc_18bdc4eb-2823-481e-ba51-e4103ff10d8c.xml, KsGetPinFromFileObject function [Streaming Media Devices], stream.ksgetpinfromfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ks.h
-apiname: 
+apiname:
 -	KsGetPinFromFileObject
 product: Windows
 targetos: Windows
@@ -75,11 +75,14 @@ A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structu
 ## -returns
 
 
+
 <b>KsGetPinFromFileObject</b> returns a pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure associated with <i>FileObject</i>.
 
 
 
+
 ## -remarks
+
 
 
 The minidriver must verify that <i>FileObject</i> is a file object associated with an AVStream pin. Do this by calling <a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>.
@@ -88,11 +91,16 @@ This call is an inline call to <a href="..\ks\nf-ks-ksgetobjectfromfileobject.md
 
 
 
+
 ## -see-also
+
+<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
+
+
 
 <a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
 
-<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
+
 
  
 

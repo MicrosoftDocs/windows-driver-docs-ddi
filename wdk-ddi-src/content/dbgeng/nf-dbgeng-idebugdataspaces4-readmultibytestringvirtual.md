@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: b86caa13-bdb3-4bc4-b2c1-3e51cbcf396f
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.readmultibytestringvirtual, IDebugDataSpaces4::ReadMultiByteStringVirtual, ReadMultiByteStringVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtual, IDebugDataSpaces_43ca08e3-d4f0-43f8-b84e-514d3b52c6c4.xml, ReadMultiByteStringVirtual method [Windows Debugging], ReadMultiByteStringVirtual, IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtual method
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging], ReadMultiByteStringVirtual method, debugger.readmultibytestringvirtual, ReadMultiByteStringVirtual method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_43ca08e3-d4f0-43f8-b84e-514d3b52c6c4.xml, ReadMultiByteStringVirtual method [Windows Debugging], IDebugDataSpaces4, dbgeng/IDebugDataSpaces4::ReadMultiByteStringVirtual, ReadMultiByteStringVirtual, IDebugDataSpaces4::ReadMultiByteStringVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugDataSpaces4.ReadMultiByteStringVirtual
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugDataSpaces4::ReadMultiByteStringVirtual method
@@ -84,7 +84,9 @@ Specifies the maximum number of bytes to read from the target.
 ### -param Buffer [out, optional]
 
 Receives the string from the target.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
-<div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div><div> </div>
+
+<div class="alert"><b>Note</b>    The remainder of the buffer, following the returned string, might be overwritten by this method.</div>
+<div> </div>
 
 ### -param BufferSize [in]
 
@@ -97,6 +99,7 @@ Receives the size, in bytes, of the string.  If <i>StringBytes</i> is <b>NULL</b
 
 
 ## -returns
+
 
 
 <table>
@@ -137,16 +140,20 @@ A null-terminator was not found after reading <i>MaxBytes</i> from the target.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+
 
 
 
 ## -remarks
 
 
+
 The engine will read up to <i>MaxBytes</i> from the target looking for a null-terminator.  If the string has more than <i>BufferSize</i> characters, the string will be truncated to fit in <i>Buffer</i>.
+
 
 
 
@@ -154,9 +161,15 @@ The engine will read up to <i>MaxBytes</i> from the target looking for a null-te
 
 <a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
+
+
 
  
 

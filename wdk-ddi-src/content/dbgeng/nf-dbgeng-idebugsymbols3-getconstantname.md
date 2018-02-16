@@ -8,7 +8,7 @@ old-project: debugger
 ms.assetid: bb308ee7-e8bc-49c0-b1f9-199af7dca289
 ms.author: windowsdriverdev
 ms.date: 1/19/2018
-ms.keywords: debugger.getconstantname, IDebugSymbols2 interface [Windows Debugging], GetConstantName method, IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, GetConstantName, GetConstantName method [Windows Debugging], dbgeng/IDebugSymbols2::GetConstantName, IDebugSymbols2::GetConstantName, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, GetConstantName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, dbgeng/IDebugSymbols3::GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols3 interface
+ms.keywords: IDebugSymbols2::GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2 interface [Windows Debugging], GetConstantName method, debugger.getconstantname, IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, IDebugSymbols2, GetConstantName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetConstantName method [Windows Debugging], GetConstantName, dbgeng/IDebugSymbols3::GetConstantName, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, dbgeng/IDebugSymbols2::GetConstantName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -29,19 +29,19 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	COM
-apilocation: 
+apilocation:
 -	dbgeng.h
-apiname: 
+apiname:
 -	IDebugSymbols2.GetConstantName
 -	IDebugSymbols3.GetConstantName
 product: Windows
 targetos: Windows
-req.typenames: *PDOT4_ACTIVITY, DOT4_ACTIVITY
+req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
 ---
 
 # IDebugSymbols3::GetConstantName method
@@ -106,6 +106,7 @@ Receives the size in characters of the constant's name.
 ## -returns
 
 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -133,15 +134,19 @@ The method was successful. However, the buffer was not large enough for the cons
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+
 
 
 
 ## -remarks
 
 
+
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
+
 
 

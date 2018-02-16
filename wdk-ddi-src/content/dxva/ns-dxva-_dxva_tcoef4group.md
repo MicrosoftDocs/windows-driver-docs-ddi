@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_TCoef4Group
-title: _DXVA_TCoef4Group
+title: "_DXVA_TCoef4Group"
 author: windows-driver-content
 description: The DXVA_TCoef4Group structure is sent by the host decoder to the accelerator to specify the IDCT coefficient values.
 old-location: display\dxva_tcoef4group.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: f7ffe847-58ae-42a9-86fd-50a757134b45
 ms.author: windowsdriverdev
 ms.date: 12/29/2017
-ms.keywords: LPDXVA_TCoef4Group, DXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml, LPDXVA_TCoef4Group structure pointer [Display Devices], _DXVA_TCoef4Group, dxva/DXVA_TCoef4Group, *LPDXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], dxva/LPDXVA_TCoef4Group, display.dxva_tcoef4group
+ms.keywords: LPDXVA_TCoef4Group, display.dxva_tcoef4group, *LPDXVA_TCoef4Group, DXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml, dxva/LPDXVA_TCoef4Group, LPDXVA_TCoef4Group structure pointer [Display Devices], DXVA_TCoef4Group structure [Display Devices], _DXVA_TCoef4Group, dxva/DXVA_TCoef4Group
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dxva.h
-apiname: 
+apiname:
 -	DXVA_TCoef4Group
 product: Windows
 targetos: Windows
-req.typenames: *LPDXVA_TCoef4Group, DXVA_TCoef4Group
+req.typenames: DXVA_TCoef4Group, *LPDXVA_TCoef4Group
 ---
 
 # _DXVA_TCoef4Group structure
@@ -83,15 +83,19 @@ Specifies the value of the coefficient in the block. <b>TCoefValue</b> must be c
 ## -remarks
 
 
+
 The DXVA_TCoef4Group structure is used only when these two members of <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure are set to the following values: <b>bConfig4GroupedCoefs</b> is 1 and <b>bConfigHostInverseScan</b> is zero.
 
 In the DXVA_TCoef4Group structure, groups of four transform coefficients are sent together with associated run-length values. The <i>i</i>th element of each array in DXVA_TCoef4Group contains element 3-<i>i</i> of the actual coefficient or run-length list (so the first coefficient or index goes into element 3, the next in element 2, and so forth). If only N<sub>C</sub> &lt; 4 nonzero coefficients remain that need to be sent for a block, then <b>TCoefIDX</b>[<i>i</i>] must be 63 (hexadecimal 0x3F), and <b>TCoefValue</b>[<i>i</i>] must be equal to <b>TCoefValue</b>[4-N<sub>C</sub>] for <i>i </i>= 0 to 3-N<sub>C</sub>.
 
 
 
+
 ## -see-also
 
 <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+
+
 
  
 

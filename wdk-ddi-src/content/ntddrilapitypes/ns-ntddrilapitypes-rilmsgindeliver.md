@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4bfdc26-46a9-404e-9cd0-10dabba01dc2
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista], *LPRILMSGINDELIVER, netvista.rilmsgindeliver, ntddrilapitypes/RILMSGINDELIVER, RILMSGINDELIVER
+ms.keywords: netvista.rilmsgindeliver, ntddrilapitypes/RILMSGINDELIVER, RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista], RILMSGINDELIVER, *LPRILMSGINDELIVER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	ntddrilapitypes.h
-apiname: 
+apiname:
 -	RILMSGINDELIVER
 product: Windows
 targetos: Windows
-req.typenames: RILMSGINDELIVER, *LPRILMSGINDELIVER
+req.typenames: "*LPRILMSGINDELIVER, RILMSGINDELIVER"
 ---
 
 # RILMSGINDELIVER structure
@@ -78,35 +78,26 @@ typedef struct _RILMSGINDELIVER {
 ### -field raOrigAddress
 
 
-
 ### -field dwProtocolID
-
 
 
 ### -field rmdDataCoding
 
 
-
 ### -field stSCReceiveTime
-
 
 
 ### -field dwMsgID
 
 
-
 ### -field cbHdrLength
-
 
 
 ### -field cchMsgLength
 
 
-
 ### -field rgbHdr
 
 
-
 ### -field rgbMsg
-
 

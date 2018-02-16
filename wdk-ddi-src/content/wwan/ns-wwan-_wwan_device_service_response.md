@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_RESPONSE
-title: _WWAN_DEVICE_SERVICE_RESPONSE
+title: "_WWAN_DEVICE_SERVICE_RESPONSE"
 author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_RESPONSE structure represents a response from a device service.
 old-location: netvista\wwan_device_service_response.htm
@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: FCDAEE07-B10E-491B-9BDB-49D77444281D
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_DEVICE_SERVICE_RESPONSE, wwan/WWAN_DEVICE_SERVICE_RESPONSE, WWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE, WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_RESPONSE, netvista.wwan_device_service_response, PWWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_DEVICE_SERVICE_RESPONSE
+ms.keywords: "_WWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_DEVICE_SERVICE_RESPONSE, wwan/WWAN_DEVICE_SERVICE_RESPONSE, wwan/PWWAN_DEVICE_SERVICE_RESPONSE, WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_RESPONSE, netvista.wwan_device_service_response, PWWAN_DEVICE_SERVICE_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	wwan.h
-apiname: 
+apiname:
 -	WWAN_DEVICE_SERVICE_RESPONSE
 product: Windows
 targetos: Windows
@@ -88,6 +88,8 @@ The size, in bytes, of the device service response data that follows the structu
 ## -see-also
 
 <a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
+
+
 
  
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_EXTENDED_ADDRESS
-title: _PEP_ACPI_EXTENDED_ADDRESS
+title: "_PEP_ACPI_EXTENDED_ADDRESS"
 author: windows-driver-content
 description: The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO.
 old-location: kernel\pep_acpi_extended_address.htm
@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
 ms.author: windowsdriverdev
 ms.date: 1/4/2018
-ms.keywords: 1 - Decode type, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], _PEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS, 0 to 7 - Reserved, 6 to 7 - Reserved, 2 to 3 - Reserved, PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS, 2 - Minimum address fixed, pepfx/PEP_ACPI_EXTENDED_ADDRESS, pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 0 to 1 - Range, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], 3 to 4 - Memory attributes (MTP), 5 - Memory to IO translation, 3 - Max address fixed, 0 - Write status, 4 to 7 - Reserved, kernel.pep_acpi_extended_address, 4 - IO to memory translation, 0 - Consumer/Producer flag, 5 - Sparse translation, 1 to 2 - Memory attributes (MEM)
+ms.keywords: kernel.pep_acpi_extended_address, PPEP_ACPI_EXTENDED_ADDRESS, 1 - Decode type, 4 - IO to memory translation, pepfx/PEP_ACPI_EXTENDED_ADDRESS, 4 to 7 - Reserved, 0 to 7 - Reserved, *PPEP_ACPI_EXTENDED_ADDRESS, 5 - Sparse translation, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], 5 - Memory to IO translation, 1 to 2 - Memory attributes (MEM), 3 to 4 - Memory attributes (MTP), 2 - Minimum address fixed, 0 - Write status, 2 to 3 - Reserved, pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 6 to 7 - Reserved, 0 - Consumer/Producer flag, 3 - Max address fixed, PEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EXTENDED_ADDRESS, 0 to 1 - Range
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	pepfx.h
-apiname: 
+apiname:
 -	PEP_ACPI_EXTENDED_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: *PPEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS
+req.typenames: "*PPEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS"
 ---
 
 # _PEP_ACPI_EXTENDED_ADDRESS structure
@@ -93,6 +93,7 @@ A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAG
 ### -field ResourceFlags
 
 Indicates the type of resource this structure describes.
+
 <table>
 <tr>
 <th>Value</th>
@@ -153,12 +154,14 @@ These values are reserved for use by the hardware vendor.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field GeneralFlags
 
 A value containing the bit flags that are common to all resource types. 
+
 <table>
 <tr>
 <th>Bit(s)</th>
@@ -216,7 +219,8 @@ These bits are reserved and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field TypeSpecificFlags
@@ -225,6 +229,7 @@ The value of this member is dependent on the value in <b>ResourceFlags</b> membe
 
 
 Memory Resource (<b>ResourceFlags</b> = <b>0</b>)
+
 
 
 <table>
@@ -304,10 +309,12 @@ These bits are reserved and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 IO Resource (<b>ResourceFlags</b> = <b>1</b>)
+
 
 
 <table>
@@ -398,10 +405,12 @@ These bits are reserved and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 Bus Number Range Resource (<b>ResourceFlags</b> = <b>2</b>)
+
 
 
 <table>
@@ -419,7 +428,8 @@ These bits are reserved and must be set to zero.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field RevisionId
@@ -428,7 +438,6 @@ Indicates the revision of the extended address space descriptor detailed by this
 
 
 ### -field Reserved
-
 
 
 ### -field Granularity

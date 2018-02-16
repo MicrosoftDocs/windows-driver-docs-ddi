@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 19927cd1-8afa-4006-a882-d5222c690724
 ms.author: windowsdriverdev
 ms.date: 1/18/2018
-ms.keywords: RIL_INFOCLASS_DATA, RIL_INFOCLASS_ALL, rilapitypes/RIL_INFOCLASS_PADACCESS, RILINFOCLASS, RIL_INFOCLASS_DATACIRCUITASYNC, rilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_VOICE, rilapitypes/RIL_INFOCLASS_FAX, rilapitypes/RILINFOCLASS, rilapitypes/RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_FAX, rilapitypes/RIL_INFOCLASS_VOICE, rilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_PADACCESS, rilapitypes/RIL_INFOCLASS_DATA, rilapitypes/RIL_INFOCLASS_ALL, RIL_INFOCLASS_SMS, rilapitypes/RIL_INFOCLASS_SMS, netvista.rilinfoclass_2
+ms.keywords: RILINFOCLASS, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_DATACIRCUITSYNC, rilapitypes/RIL_INFOCLASS_FAX, RIL_INFOCLASS_DATA, rilapitypes/RIL_INFOCLASS_DATA, RIL_INFOCLASS_ALL, RIL_INFOCLASS_PADACCESS, RIL_INFOCLASS_SMS, rilapitypes/RIL_INFOCLASS_PACKETACCESS, rilapitypes/RIL_INFOCLASS_ALL, rilapitypes/RIL_INFOCLASS_SMS, rilapitypes/RIL_INFOCLASS_VOICE, rilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, rilapitypes/RIL_INFOCLASS_PADACCESS, netvista.rilinfoclass_2, RIL_INFOCLASS_FAX, RIL_INFOCLASS_VOICE, rilapitypes/RILINFOCLASS, rilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_DATACIRCUITASYNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,14 +29,14 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	rilapitypes.h
-apiname: 
+apiname:
 -	RILINFOCLASS
 product: Windows
 targetos: Windows
@@ -79,39 +79,29 @@ typedef enum _RILINFOCLASS {
 ### -field RIL_INFOCLASS_NONE
 
 
-
 ### -field RIL_INFOCLASS_VOICE
-
 
 
 ### -field RIL_INFOCLASS_DATA
 
 
-
 ### -field RIL_INFOCLASS_FAX
-
 
 
 ### -field RIL_INFOCLASS_SMS
 
 
-
 ### -field RIL_INFOCLASS_DATACIRCUITSYNC
-
 
 
 ### -field RIL_INFOCLASS_DATACIRCUITASYNC
 
 
-
 ### -field RIL_INFOCLASS_PACKETACCESS
-
 
 
 ### -field RIL_INFOCLASS_PADACCESS
 
 
-
 ### -field RIL_INFOCLASS_ALL
-
 

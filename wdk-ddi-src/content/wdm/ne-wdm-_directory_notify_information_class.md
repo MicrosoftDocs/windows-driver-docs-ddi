@@ -1,14 +1,14 @@
 ---
 UID: NE:wdm._DIRECTORY_NOTIFY_INFORMATION_CLASS
-title: _DIRECTORY_NOTIFY_INFORMATION_CLASS
+title: "_DIRECTORY_NOTIFY_INFORMATION_CLASS"
 author: windows-driver-content
 description: A value that specifies which structure to use to query or set information for a files in a directory.
 old-location: ifsk\_directory_notify_information_class.htm
 old-project: ifsk
 ms.assetid: 77c2515b-f20a-47ac-9564-9eab009cf625
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: DIRECTORY_NOTIFY_INFORMATION_CLASS, DirectoryNotifyExtendedInformation, wdm/DirectoryNotifyExtendedInformation, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/DirectoryNotifyInformation, DirectoryNotifyInformation, _DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS, ifsk._directory_notify_information_class
+ms.date: 2/7/2018
+ms.keywords: "*PDIRECTORY_NOTIFY_INFORMATION_CLASS, _DIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS, ifsk._directory_notify_information_class, wdm/DirectoryNotifyExtendedInformation, wdm/DirectoryNotifyInformation, DirectoryNotifyInformation, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DirectoryNotifyExtendedInformation, wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -29,18 +29,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	Wdm.h
-apiname: 
+apiname:
 -	DIRECTORY_NOTIFY_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.typenames: DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATION_CLASS
+req.typenames: "*PDIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 

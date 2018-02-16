@@ -29,14 +29,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype: 
+topictype:
 -	APIRef
 -	kbSyntax
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	d3dumddi.h
-apiname: 
+apiname:
 -	SetLight
 product: Windows
 targetos: Windows
@@ -84,6 +84,8 @@ __checkReturn HRESULT APIENTRY SetLight(
 
 
 
+
+
 #### - pData [in]
 
  A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setlight.md">D3DDDIARG_SETLIGHT</a> structure that describes how to set the light source.
@@ -97,24 +99,34 @@ __checkReturn HRESULT APIENTRY SetLight(
 ## -returns
 
 
+
 <i>SetLight</i> returns S_OK or an appropriate error result if the light properties are not successfully set.
+
 
 
 
 ## -remarks
 
 
+
 Light properties describe the type and color of a light source. Depending on the type of light that is being used, a light can have properties for attenuation and range or for spotlight effects. However, not all types of lights will use all of the properties. For more information about light properties, see the Microsoft Windows SDK documentation.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setlight.md">D3DDDIARG_SETLIGHT</a>
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setlight.md">D3DDDIARG_SETLIGHT</a>
+
+
+
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_light.md">D3DDDI_LIGHT</a>
+
+
 
  
 
