@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.21
+req.kmdf-ver: 1.25
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -58,8 +58,11 @@ Sets the data path capabilities of the network adapter.
 ### -param Adapter
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-### -param DataPathCapabilities
-A pointer to an allocated and initialized [NET_ADAPTER_DATAPATH_CAPABILITIES](ns-netadapter-_net_adapter_datapath_capabilities.md) structure.
+### -param TxCapabilities
+A pointer to an allocated and initialized [NET_ADAPTER_TX_CAPABILITIES](ns-netadapter-_net_adapter_tx_capabilities.md) structure.
+
+### -param RxCapabilities
+A pointer to an allocated and initialized [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure.
 
 ## -returns
 This method does not return a value.
@@ -69,7 +72,9 @@ The client driver must call this method from its *[EVT_NET_ADAPTER_SET_CAPABILIT
 
 This method, along with a few other set capability methods (see below), is the replacement for the [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md) union that a (non-WDF) client of Ndis.sys sets by calling [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md).
 
-The minimum NetAdapterCx version for **NetAdapterSetDataPathCapabilities** is 1.0.
+In NetAdapterCx 1.2, the **DataPathCapabilities** member was replaced with two new members: **TxCapabilities** and **RxCapabilities**.
+
+The minimum NetAdapterCx version for **NetAdapterSetDataPathCapabilities** is 1.2.
 
 ## -see-also
 

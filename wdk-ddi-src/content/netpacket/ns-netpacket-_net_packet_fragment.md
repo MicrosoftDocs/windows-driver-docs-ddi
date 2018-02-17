@@ -51,39 +51,42 @@ Represents one contiguous buffer in memory.
 
 ## -struct-fields
 
-### -field Mapping
+### -field LastFragmentOfFrame
+This bit field value specifies whether this is the last fragment in the current packet. If it is not set, use NET_PACKET_FRAGMENT_GET_NEXT to get the next fragment in the chain.
+
+### -field Reserved
+Reserved.  
+Client drivers must not read or write to this value.
+
+### -field DUMMYUNIONNAME
+A union that contains the fragment's return context and the **Mapping** union for DMA information.
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
+A structure that contains the fragment's return context.
+
+### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.RxBufferReturnContext
+A pointer to a driver-allocated context space structure. This member is optional and is only used in the receive data path.
+
+For more information about receive path capabilities, see [NET_ADAPTER_RX_CAPABILITIES](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md).
+
+### -field DUMMYUNIONNAME.Mapping
 A union that contains information for DMA.
  
-### -field Mapping.Mdl
+### -field DUMMYUNIONNAME.Mapping.Mdl
 For transmit queues, a pointer to an MDL to be used for scatter/gather DMA.
 
 For receive queues, this member is not used.
 
 Do not modify this value.
  
-### -field Mapping.DmaLogicalAddress
+### -field DUMMYUNIONNAME.Mapping.DmaLogicalAddress
 For receive queues, contains a mapped DMA address that can be used to program NIC hardware.
 
 For transmit queues, cast this value to an MDL pointer.
 
 Do not modify this value.
  
-### -field Mapping.AsInteger
-Reserved.  
-Client drivers must not read or write to this value.
- 
-### -field LastFragmentOfFrame
-This bit field value specifies whether this is the last fragment in the current packet. If it is not set, use NET_PACKET_FRAGMENT_GET_NEXT to get the next fragment in the chain.
- 
-### -field LastPacketOfChain
-Reserved.  
-Client drivers must not read or write to this value.
- 
-### -field Reserved
-Reserved.  
-Client drivers must not read or write to this value.
- 
-### -field NextFragment_Reserved
+### -field DUMMYUNIONNAME.Mapping.AsInteger
 Reserved.  
 Client drivers must not read or write to this value.
  
@@ -91,7 +94,7 @@ Client drivers must not read or write to this value.
 Points to the start of the packet buffer. This address is mapped into the system address space.
 
 For transmit queues, this value is read-only.
- 
+
 ### -field ValidLength
 Contains the length of packet payload. This value is less than or equal to the value of **Capacity**.
 

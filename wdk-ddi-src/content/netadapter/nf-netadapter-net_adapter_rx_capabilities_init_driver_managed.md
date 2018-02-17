@@ -2,22 +2,22 @@
 UID: NF:netadapter.NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 title: NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function
 author: windows-driver-content
-description: TBD
+description: The NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED method initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify driver-managed receive buffer allocation and attachment.
 ms.assetid: d3b29896-25ef-4d96-99db-799408fb207f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/14/2018
 ms.topic: function
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 req.header: netadapter.h
-req.include-header:
-req.target-type:
+req.include-header: netadaptercx.h
+req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.25
 req.umdf-ver:
 req.lib:NtosKrnl.exe
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -35,7 +35,6 @@ apiname:
 -	NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 product: Windows
 targetos: Windows
-
 ---
 
 # NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED function
@@ -43,21 +42,41 @@ targetos: Windows
 
 ## -description
 
-TBD
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 1803.
+
+The **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** method initializes a [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure for a net adapter that would like to specify driver-managed receive buffer allocation and attachment.
 
 ## -parameters
 
 ### -param RxCapabilities
-TBD
+A pointer to a driver-allocated [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure.
+
 ### -param EvtAdapterReturnRxBuffer
-TBD
+A pointer to the client driver's *[EVT_NET_ADAPTER_RETURN_RX_BUFFER](nc-netadapter-evt_net_adapter_return_rx_buffer.md)* callback function.
+
 ### -param MaximumFragmentBufferSize
-TBD
+The maximum fragment buffer size, in bytes, that the adapter can receive.
+
 ### -param MaximumNumberOfQueues
-TBD
+The maximum number of receive queues that the adapter supports.
 
 ## -returns
-This function returns VOID.
+This method does not return a value.
+
 ## -remarks
+This method is one of three possible methods to call in order to initialize a [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure. Which one the client driver should call depends on how it would like to allocate receive buffers and if it would like to use DMA.
+
+The client driver must call **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** to initialize its **NET_ADAPTER_RX_CAPABILITIES** structure if it would like to perform manual receive buffer allocation and attachment. By calling this method, the Rx capabilities structure's **AllocationMode** member is set to **NetRxFragmentBufferAllocationModeDriver** and the **AttachmentMode** member is set to **NetRxFragmentBufferAttachmentModeDriver**. In this case, it must also provide a pointer to its *[EVT_NET_ADAPTER_RETURN_RX_BUFFER](nc-netadapter-evt_net_adapter_return_rx_buffer.md)* callback function in the structure for the operating system to invoke once the system has finished with the receive buffer.
+
+The minimum NetAdapterCx version for **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** is 1.2.
 
 ## -see-also
+
+[NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md)
+
+[NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED](nf-netadapter-net_adapter_rx_capabilities_init_system_managed.md)
+
+[NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA](nf-netadapter-net_adapter_rx_capabilities_init_system_managed_dma.md)

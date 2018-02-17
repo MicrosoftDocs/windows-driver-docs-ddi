@@ -89,9 +89,9 @@ A pointer to a structure of type [NDIS_PM_PROTOCOL_OFFLOAD](../ntddndis/ns-ntddn
 
 ## -returns
 
-To accept the pattern, the callback function must return STATUS_SUCCESS.
+To accept the protocol offload, the callback function must return STATUS_SUCCESS.
 
-To reject the pattern, return STATUS_NDIS_PM_PROTOCOL_OFFLOAD_LIST_FULL.
+To reject the protocol offload, return STATUS_NDIS_PM_PROTOCOL_OFFLOAD_LIST_FULL.
 
 ## -remarks
 
