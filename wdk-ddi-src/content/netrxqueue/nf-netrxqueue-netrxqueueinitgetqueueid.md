@@ -63,7 +63,7 @@ Returns a ULONG that identifies a receive queue.
 ## -remarks
 The client driver receives a pointer to a **NETRXQUEUE_INIT** structure in its *[EVT_NET_ADAPTER_CREATE_RXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)* callback function.
 
-Starting with zero, NetAdapterCx assigns an unique identifier value for each queue that it creates. The client driver specifies the number of receive queues that the network adapter supports in the NumRxQueues member of the NET_ADAPTER_DATAPATH_CAPABILITIES structure. The client driver passes this structure to NetAdapterSetDataPathCapabilities. Identifier values range from zero to the value of NumTxQueues plus NumRxQueues minus one.
+Starting with zero, NetAdapterCx assigns an unique identifier value for each queue that it creates. The client driver specifies the number of transmit queues that the network adapter supports in the **MaximumNumberOfQueues** member of the [NET_ADAPTER_RX_CAPABILITIES](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md) structure, which is initialized and passed to [NetAdapterSetDataPathCapabilities](../netadapter/nf-netadapter-netadaptersetdatapathcapabilities.md) during the *[EvtNetAdapterSetCapabilities](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function. Identifier values range from zero to the value of `(((MaxNumber of TxQueues) + (MaxNumber of RxQueues)) - 1)`.
 
 The minimum NetAdapterCx version for **NetRxQueueInitGetQueueId** is 1.0.
 

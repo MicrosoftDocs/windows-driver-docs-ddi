@@ -58,7 +58,7 @@ The minimum space that should be unused in the beginning of the first fragment o
 The ideal alignment for the start of the L3 header. This member's value is in the form *N-1*, where *N* is the alignment. For example, TCP/IP performance is optimized with a 4-byte alignment boundary, so this member would be set to 3 in that case. You can use the **FILE_XXX_ALIGNMENT** constants, such as **FILE_QUAD_ALIGNMENT**, to name a specific alignment.
 
 ## -remarks
-The information in this structure is set by the upper layer and is retrieved by the client driver by calling [NetRxQueueGetBufferLayoutHint](nf-netrxqueue-netrxqueuegetbufferlayouthint.md).
+The information in this structure is set by the upper layer.
 
 The minimum NetAdapterCx version for **NET_RXQUEUE_BUFFER_LAYOUT_HINT** is 1.1.
 

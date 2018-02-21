@@ -2,7 +2,7 @@
 UID: NC:netadapter.EVT_NET_ADAPTER_CREATE_RXQUEUE
 title: EVT_NET_ADAPTER_CREATE_RXQUEUE
 author: windows-driver-content
-description: The client driver's implementation of the EVT_NET_ADAPTER_CREATE_RXQUEUE event callback function that sets up a receive queue.
+description: The client driver's implementation of the EvtNetAdapterCreateRxQueue event callback function that sets up a receive (Rx) queue.
 ms.assetid: 30a51b5b-5da7-4cfa-aaff-433c39f90bd0
 ms.author: windowsdriverdev
 ms.date: 02/05/2018
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 >
 > NetAdapterCx is preview only in Windows 10, version 1803.
 
-The client driver's implementation of the **EVT_NET_ADAPTER_CREATE_RXQUEUE** event callback function that sets up a receive queue.
+The client driver's implementation of the *EvtNetAdapterCreateRxQueue* event callback function that sets up a receive (Rx) queue.
 
 ## -prototype
 
@@ -92,18 +92,17 @@ The **NETRXQUEUE_INIT** structure is an opaque structure that is defined and all
 
 In this callback, the client driver might call [NetRxQueueInitGetQueueId](../netrxqueue/nf-netrxqueue-netrxqueueinitgetqueueid.md) to retrieve the identifier of the receive queue to set up.
 
-Next, the client calls [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to allocate a queue. If the client provides a non-zero value in the **AllocationSize** member of the [NET_RXQUEUE_CONFIG](../netrxqueue/ns-netrxqueue-_net_rxqueue_config.md) structure, [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) allocates the receive buffers. The client should not use the buffers until after [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) has returned. If [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) fails, the *EVT_NET_ADAPTER_CREATE_RXQUEUE* callback function should return an error code.
+Next, the client calls [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to allocate a queue. If [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) fails, the *EvtNetAdapterCreateRxQueue* callback function should return an error code.
 
 To retrieve the ring buffer associated with a given queue, call [NetRxQueueGetRingBuffer](../netrxqueue/nf-netrxqueue-netrxqueuegetringbuffer.md).
 
-The minimum NetAdapterCx version for **EVT_NET_ADAPTER_CREATE_RXQUEUE** is 1.0.
+The minimum NetAdapterCx version for *EvtNetAdapterCreateRxQueue* is 1.0.
 
 ### Example
 
-> [!TIP]
-> This example uses DMA allocation for the receive queue. It is assumed that the example code previously declared a context for its NETADAPTER object and included a WDFDMAENABLER object in the context, which will now be retrieved in **EvtAdapterCreateRxQueue** to be used for receive buffer DMA allocation. For more info about receive queue DMA allocation, see [NetRxQueueInitSetDmaAllocatorConfig](../netrxqueue/nf-netrxqueue-netrxqueueinitsetdmaallocatorconfig.md).
->
-> Error handling code has been excised from this example for brevity and clarity.
+NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). To configure additional properties for its Rx queues, such as DMA or receive buffer allocation requirements, the client driver sets its Rx capabilities in the optional *[EvtNetAdapterSetCapabilities](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function that is called earlier in the power-up sequence before D0 entry.
+
+Error handling code has been left out of this example for clarity.
 
 ```c++
 NTSTATUS
@@ -120,11 +119,6 @@ EvtAdapterCreateRxQueue(
         EvtRxQueueSetNotificationEnabled,
         EvtRxQueueCancel);
 
-    // Specify buffer size required per packet so the OS can preallocate
-
-    rxConfig.AlignmentRequirement = 64;
-    rxConfig.AllocationSize = NIC_MAX_PACKET_SIZE + FRAME_CRC_SIZE + RSVD_BUF_SIZE;
-
     // Initialize the per-packet context
 
     NET_PACKET_CONTEXT_ATTRIBUTES myRxContextAttributes;
@@ -133,22 +127,6 @@ EvtAdapterCreateRxQueue(
     // Add the context attributes to the queue
 
     status = NetRxQueueInitAddPacketContextAttributes(rxQueueInit, &myRxContextAttributes);
-
-    // Retrieve the WDFDMAENABLER from the NETADAPTER's context to opt in to DMA allocation
-
-    MY_NET_ADAPTER_CONTEXT *adapterContext = GetMyNetAdapterContext(netAdapter);
-    WDFDMAENABLER dmaEnabler = adapterContext->dmaEnabler;
-
-    // Specify that the OS use the WDFDMAENABLER to allocate the receive buffers
-
-    NET_RXQUEUE_DMA_ALLOCATOR_CONFIG dmaAllocatorConfig;
-    NET_RXQUEUE_DMA_ALLOCATOR_CONFIG_INIT(
-        &dmaAllocatorConfig,
-        dmaEnabler);
-
-    NetRxQueueInitSetDmaAllocatorConfig(
-        &rxQueueInit,
-        &dmaAllocatorConfig);
 
     // Create the receive queue
 
