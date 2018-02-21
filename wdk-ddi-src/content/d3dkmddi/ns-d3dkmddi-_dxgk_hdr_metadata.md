@@ -81,5 +81,5 @@ Indicates the size of the HDR metadata.
 
 ### -field pMetaData
 
-Pointer to the HDR metadata.
+Pointer to the HDR metadata. Interpret this data according to the <a href="../d3dukmdt/ne-d3dukmdt-_d3dddi_hdr_metadata_type">D3DDDI_HDR_METADATA_TYPE</a> value in the Type field.
 
