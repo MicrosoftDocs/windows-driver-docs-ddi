@@ -43,7 +43,7 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [wsk.h](..\wsk\index.md)
  * [wwan.h](..\wwan\index.md)
 
-For the programming guide, see [Networking drivers for Windows Vista and later](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/netvista).
+For the programming guide, see [Networking drivers for Windows Vista and later](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/).
 
 ## Functions
 
